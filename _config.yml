@@ -7,4 +7,4 @@ url: "https://mishash.no"
 show_downloads: false
 license: "CC BY 4.0"
 github:
-  is_project_page: false
+  is_project_page: true
