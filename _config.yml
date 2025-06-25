@@ -12,9 +12,9 @@ github:
 
 # Add this line
 include:
-  - assets/css/style.css
+  - assets/css/style.css
 
 # And this to inject the stylesheet
 plugins:
-  - jekyll-include-cache
+  - jekyll-include-cache
 
