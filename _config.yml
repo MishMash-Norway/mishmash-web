@@ -1,19 +1,20 @@
+markdown: kramdown
+theme: jekyll-theme-cayman
+
 title: [MishMash Centre for AI and Creativity]
 description: [A new Norwegian AI centre funded by the Research Council of Norway]
 baseurl: ""
 url: "https://mishash.no"
 show_downloads: true
 license: "CC BY 4.0"
-theme: jekyll-theme-cayman
 github:
   is_project_page: false
+
+# Add this line
+include:
+  - assets/css/style.css
+
+# And this to inject the stylesheet
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-archives
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-include-cache
-  - jekyll-remote-theme 
+  - jekyll-include-cache
+
