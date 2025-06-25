@@ -4,6 +4,7 @@ MishMash will be a large Norwegian centre dedicated to exploring the intersectio
 
 Our primary research question is: What are AI's possibilities, limitations, and transformative effects on creative practices, and how can we develop CoCreative AI systems that complement human creativity while addressing ethical, cultural, and societal implications?
 
+![MishMash circles](https://www.arj.no/images/2025/01/MishMash-circles-1000px.jpg)
 
 ## Why?
 
