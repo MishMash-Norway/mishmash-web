@@ -1,10 +1,6 @@
-# MishMash Centre for AI and Creativity
+MishMash is a large Norwegian consortium dedicated to exploring the intersection of AI and creativity. Our primary objective is to **create, explore, and reflect on AI for, through, and in creative practices**. We will investigate AI's impact on creative processes, develop innovative CoCreative AI systems, and address AI's ethical, cultural, and societal implications in creative domains.
 
-MishMash will be a large Norwegian centre dedicated to exploring the intersection of AI and creativity. Our primary objective is to **create, explore, and reflect on AI for, through, and in creative practices**. We will investigate AI's impact on creative processes, develop innovative CoCreative AI systems, and address AI's ethical, cultural, and societal implications in creative domains.
-
-Our primary research question is: What are AI's possibilities, limitations, and transformative effects on creative practices, and how can we develop CoCreative AI systems that complement human creativity while addressing ethical, cultural, and societal implications?
-
-![MishMash circles](https://www.arj.no/images/2025/01/MishMash-circles-1000px.jpg)
+<img src="https://www.arj.no/images/2025/01/MishMash-circles-1000px.jpg" alt="MishMash circles" width="400px" />
 
 ## Why?
 
@@ -26,9 +22,7 @@ There are many possibilities with Creative and CoCreative AI systems, but also n
 
 MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. 
 
-We have decided to organise MishMash in a "cube" model: 
-
-![alt text](https://www.arj.no//images/2025/01/MishMash-cube-1000px.jpg)
+<img src="https://www.arj.no//images/2025/01/MishMash-cube-1000px.jpg" alt="MishMash cube" width="400px" />
 
 The plan is that the project's seven work packages will address the specific challenges mentioned above. To ensure the "mishmash", we will also utilise three interconnected research approaches to ensure multidisciplinary and cross-institutional collaboration:
 
