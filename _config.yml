@@ -4,7 +4,7 @@ baseurl: ""
 url: "https://mishash.no"
 show_downloads: true
 license: "CC BY 4.0"
-theme: jekyll-theme-kayman
+theme: jekyll-theme-cayman
 github:
   is_project_page: false
 plugins:
