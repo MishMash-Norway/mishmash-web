@@ -113,7 +113,7 @@ Other partners include (also in alphabetical order):
 
 Numerous international academic and non-academic partners will also be involved, and we will set up an affiliate program for others to join the network and participate in relevant activities. 
 
-[![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](/images/2025/06/jensenius-ki-milliarden-1000x562.jpg)](https://www.uio.no/english/people/academic/alexanje/)
+[![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](https://www.arj.no/images/2025/06/jensenius-ki-milliarden-1000x562.jpg)](https://www.uio.no/english/people/academic/alexanje/)
 *MishMash is teamwork. I will direct the centre together with two deputy directors, [Ida Jahr](https://www.inn.no/ida-jahr) (INN) and [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA). (Foto: UiO)*
 
 ## Outcomes and impacts
