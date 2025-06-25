@@ -5,6 +5,8 @@ url: "https://mishash.no"
 show_downloads: true
 license: "CC BY 4.0"
 theme: jekyll-theme-kayman
+github:
+  is_project_page: false
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
