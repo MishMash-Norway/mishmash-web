@@ -1,8 +1,7 @@
 markdown: kramdown
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
 title: "MishMash Centre for AI and Creativity"
 description: "A new Norwegian AI centre funded by the Research Council of Norway"
-baseurl: ""
 url: "https://mishash.no"
 show_downloads: false
 license: "CC BY 4.0"
