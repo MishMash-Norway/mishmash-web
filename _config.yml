@@ -1,20 +1,14 @@
 markdown: kramdown
 theme: jekyll-theme-cayman
-
-title: [MishMash Centre for AI and Creativity]
-description: [A new Norwegian AI centre funded by the Research Council of Norway]
+title: "MishMash Centre for AI and Creativity"
+description: "A new Norwegian AI centre funded by the Research Council of Norway"
 baseurl: ""
 url: "https://mishash.no"
-show_downloads: true
+show_downloads: false
 license: "CC BY 4.0"
 github:
   is_project_page: false
-
-# Add this line
 include:
   - assets/css/style.css
-
-# And this to inject the stylesheet
 plugins:
   - jekyll-include-cache
-
