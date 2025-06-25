@@ -8,7 +8,3 @@ show_downloads: false
 license: "CC BY 4.0"
 github:
   is_project_page: false
-include:
-  - assets/css/style.css
-plugins:
-  - jekyll-include-cache
