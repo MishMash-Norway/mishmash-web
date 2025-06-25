@@ -1,1 +1,17 @@
-theme: jekyll-theme-cayman
+title: My Site Title
+description: A new Norwegian AI centre funded by the Research Council of Norway
+baseurl: ""
+url: "https://mishash.no"
+show_downloads: true
+license: "CC BY 4.0"
+theme: jekyll-theme-kayman
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-include-cache
+  - jekyll-remote-theme 
