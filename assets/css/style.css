@@ -2,7 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-
 .downloads {
   display: none;
 }
