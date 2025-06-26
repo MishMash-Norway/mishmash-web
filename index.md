@@ -22,7 +22,7 @@ There are many possibilities with Creative and CoCreative AI systems, but also n
 
 MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. 
 
-<img src="https://www.arj.no//images/2025/01/MishMash-cube-1000px.jpg" alt="MishMash cube" width="400px" />
+<img src="https://www.arj.no//images/2025/01/MishMash-cube-1000px.jpg" alt="MishMash cube" width="500px" />
 
 The plan is that the project's seven work packages will address the specific challenges mentioned above. To ensure the "mishmash", we will also utilise three interconnected research approaches to ensure multidisciplinary and cross-institutional collaboration:
 
