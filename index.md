@@ -40,7 +40,9 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
 
 ## Who?
 
-The research partners include (in alphabetical order based on acronym):  
+### Norwegian research partners 
+
+In alphabetical order based on acronym:  
 
 - [Oslo School of Architecture and Design](https://aho.no) (AHO)  
 - [BI Norwegian Business School](https://www.bi.edu) (BI)  
@@ -61,8 +63,10 @@ The research partners include (in alphabetical order based on acronym):
 - [University of Bergen](https://www.uib.no) (UiB)  
 - [University of Oslo](https://www.uio.no) (UiO)  
 - [UiT The Arctic University of Norway](https://en.uit.no) (UiT)  
-    
-Other partners include (also in alphabetical order): 
+
+### Other Norwegian partners
+
+In alphabetical order: 
 
 - [ANNO Museum](https://annomuseum.no)  
 - [Atelier Nord](https://ateliernord.no)  
@@ -110,47 +114,55 @@ Numerous international academic and non-academic partners will also be involved,
 [![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](https://www.arj.no/images/2025/06/jensenius-ki-milliarden-1000x562.jpg)](https://www.uio.no/english/people/academic/alexanje/)
 *MishMash will be directed by [Alexander Refsum Jensenius](https://www.uio.no/english/people/academic/alexanje/) (UiO) together with deputy directors [Ida Jahr](https://www.inn.no/ida-jahr) (INN) and [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA). (Photo: UiO)*
 
+## People involved
+
 ### Leader Group
 
-- Alexander Refsum Jensenius (UiO), Director
-- Daniel Nordgård (UiA), Deputy director
-- Ida Jahr (INN), Deputy director
-- Thomas de Ridder (UiB), Research advisor
-- Nina Rundgren (UiO), Head of administration
+- [Alexander Refsum Jensenius](https://www.uio.no/english/people/academic/alexanje/) (UiO), Director
+- [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA), Deputy director
+- [Ida Jahr](https://www.inn.no/ida-jahr) (INN), Deputy director
+- [Thomas de Ridder](https://www.uib.no/personer/Thomas.de.Ridder) (UiB), Research advisor
+- [Nina Rundgren](https://www.uio.no/english/people/adm/ninaru/) (UiO), Head of administration
 
 
 ### Work package leaders
 
-- WP1: AI for artistic performances: [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrregl/) (UiO), [Morten Qvenild](https://nmh.no/en/about_nmh/employees/morten-qvenild) (NMH), [Georgios Marentakis](https://www.hiof.no/english/employee/?person=georgios-marentakis) (HiØ)
+- WP1: AI for artistic performances: 
+[Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrregl/) (UiO), [Morten Qvenild](https://nmh.no/en/about_nmh/employees/morten-qvenild) (NMH), [Georgios Marentakis](https://www.hiof.no/english/employee/?person=georgios-marentakis) (HiØ)
 
-- WP2: AI for artistic processes: [Budhaditya Chattopadhyay](https://www.uib.no/en/persons/Budhaditya.Chattopadhyay) (UiB), [Sashi Komandur](https://www.inn.no/english/about-inn-university/contact-inn-university/employees/komandur-sashi.html) (INN), [Synne Tollerud Bull](https://www.kristiania.no/en/ansatte/synne-tollerud-bull/) (Kristiania)
+- WP2: AI for artistic processes: 
+[Budhaditya Chattopadhyay](https://www.uib.no/en/persons/Budhaditya.Chattopadhyay) (UiB), [Sashi Komandur](https://www.inn.no/english/about-inn-university/contact-inn-university/employees/komandur-sashi.html) (INN), [Synne Tollerud Bull](https://www.kristiania.no/en/ansatte/synne-tollerud-bull/) (Kristiania)
 
-- WP3: Creative use of AI in health and well-being: [Claire Ghetti](https://www.uib.no/en/persons/Claire.Ghetti) (UiB), [Andreas Bergsland](https://www.ntnu.edu/employees/andreas.bergsland) (NTNU), [Jonna Vuoskoski](https://www.hf.uio.no/imv/english/people/aca/jonnavu/) (UiO)
+- WP3: Creative use of AI in health and well-being: 
+[Claire Ghetti](https://www.uib.no/en/persons/Claire.Ghetti) (UiB), [Andreas Bergsland](https://www.ntnu.edu/employees/andreas.bergsland) (NTNU), [Jonna Vuoskoski](https://www.hf.uio.no/imv/english/people/aca/jonnavu/) (UiO)
 
-- WP4: Creative use of AI in education: [Hilde Norbakken](https://www.uia.no/kk/profil/hilden) (music education, UiA), [Sidsel Karlsen](https://nmh.no/en/about_nmh/employees/sidsel-karlsen) (music education, NMH), [Fredrik Graver](https://www.inn.no/english/about-inn-university/contact-inn-university/employees/graver-fredrik.html) (film education, INN)
+- WP4: Creative use of AI in education: 
+[Hilde Norbakken](https://www.uia.no/kk/profil/hilden) (music education, UiA), [Sidsel Karlsen](https://nmh.no/en/about_nmh/employees/sidsel-karlsen) (music education, NMH), [Fredrik Graver](https://www.inn.no/english/about-inn-university/contact-inn-university/employees/graver-fredrik.html) (film education, INN)
 
-- WP5: AI in the creative and cultural industries: [Ragnhild Brøvig](https://www.hf.uio.no/imv/english/people/aca/ragnhibr/) (UiO), [Irina Eidsvold‐Tøien](https://www.bi.edu/about-bi/employees/department-of-law/irina-eidsvold-toien/) (BI), [Jon Marius Aareskjold‐Drecker](https://en.uit.no/ansatte/person?p_document_id=77113) (UiT)
+- WP5: AI in the creative and cultural industries: 
+[Ragnhild Brøvig](https://www.hf.uio.no/imv/english/people/aca/ragnhibr/) (UiO), [Irina Eidsvold‐Tøien](https://www.bi.edu/about-bi/employees/department-of-law/irina-eidsvold-toien/) (BI), [Jon Marius Aareskjold‐Drecker](https://en.uit.no/ansatte/person?p_document_id=77113) (UiT)
 
-- WP6: AI for cultural heritage: [Ingrid Romarheim Haugen](https://www.nb.no/ansatte/ingrid-romarheim-haugen/) (NB), [Arnulf Mattes](https://www.uib.no/en/persons/Arnulf.Mattes) (UiB), [Olivier Lartillot](https://www.mn.uio.no/ifi/english/people/aca/olartill/) (UiO)
+- WP6: AI for cultural heritage: 
+[Ingrid Romarheim Haugen](https://www.nb.no/ansatte/ingrid-romarheim-haugen/) (NB), [Arnulf Mattes](https://www.uib.no/en/persons/Arnulf.Mattes) (UiB), [Olivier Lartillot](https://www.mn.uio.no/ifi/english/people/aca/olartill/) (UiO)
 
-- WP7: AI for creative problem-solving: [Carsten Griwodz](https://www.mn.uio.no/ifi/english/people/aca/carsten/) (UiO), [Kjetil Nordby](https://aho.no/en/ansatt/kjetil-nordby) (AHO), [Baltasar Beferull‐Lozano](https://www.simula.no/people/baltasar) (Simula)
-
+- WP7: AI for creative problem-solving: 
+[Carsten Griwodz](https://www.mn.uio.no/ifi/english/people/aca/carsten/) (UiO), [Kjetil Nordby](https://aho.no/en/ansatt/kjetil-nordby) (AHO), [Baltasar Beferull‐Lozano](https://www.simula.no/people/baltasar) (Simula)
 
 
 ### Scientific Advisory Board
 
 - [Benoit Maujean](https://www.linkedin.com/in/benoit-maujean-7b2b2a1/) (Head of Technicolor Research, France)
 - [Catherine Fisk](https://www.law.berkeley.edu/our-faculty/faculty-profiles/catherine-fisk/) (Prof. law, UC Berkeley, USA)
-- [Jon McCormack](https://www.monash.edu/research/people/profiles/jon-mccormack) (Prof. creative computing, Monash University, Australia)
+- [Jon McCormack](https://research.monash.edu/en/persons/jon-mccormack) (Prof. creative computing, Monash University, Australia)
 - [Jyoti Mistry](https://www.gu.se/en/about/find-staff/jyotimistry) (Prof. film, Gothenburg University, Sweden)
-- [Nancy Baym](https://www.microsoft.com/en-us/research/people/nbaym/) (Senior Principal Research Manager, Microsoft, New England, USA)
+- [Nancy Baym](https://www.microsoft.com/en-us/research/people/baym/) (Senior Principal Research Manager, Microsoft, New England, USA)
 - [Pamela Burnard](https://www.educ.cam.ac.uk/people/staff/burnard/) (Prof. arts, creativities and educations, University of Cambridge, UK)
-- [Philippe Pasquier](https://www.sfu.ca/siat/people/philippe-pasquier.html) (Prof. interactive arts and technology, Simon Fraser University, Canada)
+- [Philippe Pasquier](https://www.sfu.ca/siat/people/research-faculty/philippe-pasquier.html) (Prof. interactive arts and technology, Simon Fraser University, Canada)
 - [Psyche Loui](https://web.northeastern.edu/creativity/) (Assoc. Prof. creativity and creative practice, Northeastern University, USA)
-- [Ravi Kiran Sarvadevabhatla](https://faculty.iiit.ac.in/~ravikiran/) (Assoc. Prof. computer vision and machine learning, IIIT Hyderabad, India)
+- [Ravi Kiran Sarvadevabhatla](https://www.iiit.ac.in/faculty/ravi-kiran-sarvadevabhatla/) (Assoc. Prof. computer vision and machine learning, IIIT Hyderabad, India)
 - [Sebastian Risi](https://sebastianrisi.com/) (Prof. creative AI, IT University of Copenhagen, Denmark)
 - [Xavier Serra](https://www.upf.edu/web/xavier-serra) (Prof. music technology, Universitat Pompeu Fabra, Spain)
-- [Zhang Qian](https://en.cuc.edu.cn/2019/1106/c222a11313/page.htm) (Prof. music and recording art, Communication University of China, China)
+- [Zhang Qian](https://mra.cuc.edu.cn/yy/2023/0428/c9672a206535/page.htm) (Prof. music and recording art, Communication University of China, China)
 
 
 ## Outcomes and impacts
