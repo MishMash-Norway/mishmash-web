@@ -1,13 +1,17 @@
-## Table of Contents
-
-| [Why?](#why) | [How?](#how) | [What?](#what) | [When?](#when) | [Who?](#who) | 
-
-
 MishMash is a large Norwegian consortium dedicated to exploring the intersection of AI and creativity. Our primary objective is to **create, explore, and reflect on AI for, through, and in creative practices**. We will investigate AI's impact on creative processes, develop innovative CoCreative AI systems, and address AI's ethical, cultural, and societal implications in creative domains.
 
 <p align="center">
     <img src="https://www.arj.no/images/2025/01/MishMash-circles-1000px.jpg" alt="MishMash is a network that explores the meeting point between humans and machines, using both artistic and scientific research methods" width="400px" />
 </p>
+
+<p align="center">
+| <a href="#why">Why?</a> 
+| <a href="#how">How?</a> 
+| <a href="#what">What?</a> 
+| <a href="#when">When?</a> 
+| <a href="#who">Who?</a> |
+</p>
+
 
 ## Why?
 
