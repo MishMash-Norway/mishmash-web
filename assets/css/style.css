@@ -2,6 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
-.downloads {
-  display: none;
+
+// Override header background color
+.page-header {
+  background-color: #2b2d3c; // Replace with your desired color
 }
