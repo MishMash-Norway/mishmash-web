@@ -3,7 +3,11 @@
 
 @import "{{ site.theme }}";
 
-// Override header background color
+// Override Cayman header gradient
 .page-header {
-  background-color: #2b2d3c; // Replace with your desired color
+  background-image: linear-gradient(
+    120deg,
+    #2b2d3c,  /* First color */
+    #b3e297 /* Second color */
+  );
 }

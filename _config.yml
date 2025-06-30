@@ -9,3 +9,5 @@ github:
   is_project_page: true
 plugins:
 - jekyll-remote-theme 
+sass:
+  style: compressed
