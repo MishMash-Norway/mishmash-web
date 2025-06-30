@@ -168,14 +168,14 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
 
 ### Leader Group
 
-- [Alexander Refsum Jensenius](https://www.uio.no/english/people/academic/alexanje/) (UiO), Director
+- [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO), Director
 - [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA), Deputy director
-- [Ida Jahr](https://www.inn.no/ida-jahr) (INN), Deputy director
+- [Ida Jahr](https://www.inn.no/english/find-an-employee/ida-jahr.html) (INN), Deputy director
 - [Thomas de Ridder](https://www.uib.no/personer/Thomas.de.Ridder) (UiB), Research advisor
-- [Nina Rundgren](https://www.uio.no/english/people/adm/ninaru/) (UiO), Head of administration
+- [Nina Rundgren](https://www.hf.uio.no/imv/english/people/adm/ninarund/index.html) (UiO), Head of administration
 
-[![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](https://www.arj.no/images/2025/06/jensenius-ki-milliarden-1000x562.jpg)](https://www.uio.no/english/people/academic/alexanje/)
-*MishMash will be directed by [Alexander Refsum Jensenius](https://www.uio.no/english/people/academic/alexanje/) (UiO) together with deputy directors [Ida Jahr](https://www.inn.no/ida-jahr) (INN) and [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA). (Photo: UiO)*
+[![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](https://www.arj.no/images/2025/06/jensenius-ki-milliarden-1000x562.jpg)](https://www.uio.no/ritmo/english/people/management/alexanje/)
+*MishMash will be directed by [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) together with deputy directors [Ida Jahr](https://www.inn.no/english/find-an-employee/ida-jahr.html) (INN) and [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA). (Photo: UiO)*
 
 
 ### Work package leaders
