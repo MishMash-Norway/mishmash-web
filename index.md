@@ -20,9 +20,17 @@ There are many possibilities with Creative and CoCreative AI systems, but also n
 
 ## How?
 
-MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. 
+Tackling such a complex question requires a multifaceted and *truly* *interdisciplinary* research approach. MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. 
+
+MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives*. The WPs are designed around seven core *themes*, addressing the challenges outlined in the previous section. While some WPs focus on leveraging AI in creative—primarily artistic—applications, others explore the innovative use of AI in adjacent domains, fostering a dynamic interplay between art, science, and society. The work will be conducted by combining a multitude of scientific and arts-based theories and methods, which can be summarised in three interconnected *research approaches*:
+
+- **CREATE:** making AI-based systems, tools, artworks, and related frameworks and policies. This includes theories and methods from computer science, engineering, and various types of art and design, emphasising creating CoCreative AI systems that prioritise human agency, environmental sustainability, and democratisation of AI technologies.
+- **EXPLORE:** using AI-based systems in creative practice and seeing how creative methods can be applied in other domains. This includes investigating how AI can enhance creativity, foster innovation, and support learning and well-being using theories and methods from psychology, therapy, educational sciences, and cultural heritage.
+- **REFLECT:** critically studying and discussing the impacts of AI on humans, human creativity, various cultures, and society at large. This includes theories and methods from the humanities and social sciences to ensure responsible AI development and use.
 
 <img src="https://www.arj.no//images/2025/01/MishMash-cube-1000px.jpg" alt="MishMash cube" width="500px" />
+
+MishMash's core strength lies in its diverse team of researchers and partners, anchored within the future-conscious values of Norwegian society and culture. We utilize Work Package (WP) descriptions to outline the scope, aims, and approaches of the various interdisciplinary projects enabled by this unique collaboration. Each WP will include researchers from multiple higher education institutions, each bringing different methodological expertise. They will work alongside non-academic partners, many of whom are key stakeholders. The WPs will not be siloed; we foresee much collaboration following interconnections in the cube model outlined in Figure 2. This will be achieved through cross-WP meetings and workshops based on the three *perspectives* (machines, humans, and society). These perspectives will inspire and support theoretical contributions to fundamental AI development.
 
 The plan is that the project's seven work packages will address the specific challenges mentioned above. To ensure the "mishmash", we will also utilise three interconnected research approaches to ensure multidisciplinary and cross-institutional collaboration:
 
@@ -32,6 +40,10 @@ The plan is that the project's seven work packages will address the specific cha
 
 The centre will be a lively, virtual research environment, with weekly online meetings, biweekly work package check-ins, monthly thematic seminars, regular public workshops, life-long learning events, and bi-annual symposia with lectures, performances, and exhibitions.
 
+## What?
+
+
+
 ## When?
 
 The plan is to formally start the centre in December 2025, recruit doctoral and postdoctoral fellows during the spring of 2026 and get up to full speed from the autumn of 2026. 
@@ -39,6 +51,47 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
 ![MishMash Gantt chart](https://www.arj.no/images/2025/06/MishMash-gantt.png)
 
 ## Who?
+
+### Leader Group
+
+- [Alexander Refsum Jensenius](https://www.uio.no/english/people/academic/alexanje/) (UiO), Director
+- [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA), Deputy director
+- [Ida Jahr](https://www.inn.no/ida-jahr) (INN), Deputy director
+- [Thomas de Ridder](https://www.uib.no/personer/Thomas.de.Ridder) (UiB), Research advisor
+- [Nina Rundgren](https://www.uio.no/english/people/adm/ninaru/) (UiO), Head of administration
+
+[![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](https://www.arj.no/images/2025/06/jensenius-ki-milliarden-1000x562.jpg)](https://www.uio.no/english/people/academic/alexanje/)
+*MishMash will be directed by [Alexander Refsum Jensenius](https://www.uio.no/english/people/academic/alexanje/) (UiO) together with deputy directors [Ida Jahr](https://www.inn.no/ida-jahr) (INN) and [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA). (Photo: UiO)*
+
+
+### Work package leaders
+
+| Work Package | Lead | Sidekick 1 | Sidekick 2 |
+|--------------|---------|---|---|
+| **WP1: AI for artistic performances** | [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrregl/) (UiO) | [Morten Qvenild](https://nmh.no/en/about_nmh/employees/morten-qvenild) (NMH) | [Georgios Marentakis](https://www.hiof.no/english/employee/?person=georgios-marentakis) (HiØ) |
+| **WP2: AI for artistic processes** | [Budhaditya Chattopadhyay](https://www.uib.no/en/persons/Budhaditya.Chattopadhyay) (UiB) | [Sashi Komandur](https://www.inn.no/english/about-inn-university/contact-inn-university/employees/komandur-sashi.html) (INN) | [Synne Tollerud Bull](https://www.kristiania.no/en/ansatte/synne-tollerud-bull/) (Kristiania) |
+| **WP3: Creative use of AI in health and well-being** | [Claire Ghetti](https://www.uib.no/en/persons/Claire.Ghetti) (UiB) | [Andreas Bergsland](https://www.ntnu.edu/employees/andreas.bergsland) (NTNU) | [Jonna Vuoskoski](https://www.hf.uio.no/imv/english/people/aca/jonnavu/) (UiO) |
+| **WP4: Creative use of AI in education** | [Hilde Norbakken](https://www.uia.no/kk/profil/hilden) (UiA) | [Sidsel Karlsen](https://nmh.no/en/about_nmh/employees/sidsel-karlsen) (NMH) | [Fredrik Graver](https://www.inn.no/english/about-inn-university/contact-inn-university/employees/graver-fredrik.html) (INN) |
+| **WP5: AI in the creative and cultural industries** | [Ragnhild Brøvig](https://www.hf.uio.no/imv/english/people/aca/ragnhibr/) (UiO) | [Irina Eidsvold‐Tøien](https://www.bi.edu/about-bi/employees/department-of-law/irina-eidsvold-toien/) (BI) | [Jon Marius Aareskjold‐Drecker](https://en.uit.no/ansatte/person?p_document_id=77113) (UiT) |
+| **WP6: AI for cultural heritage** | [Ingrid Romarheim Haugen](https://www.nb.no/ansatte/ingrid-romarheim-haugen/) (NB) | [Arnulf Mattes](https://www.uib.no/en/persons/Arnulf.Mattes) (UiB) | [Olivier Lartillot](https://www.mn.uio.no/ifi/english/people/aca/olartill/) (UiO) |
+| **WP7: AI for creative problem-solving** | [Carsten Griwodz](https://www.mn.uio.no/ifi/english/people/aca/carsten/) (UiO) | [Kjetil Nordby](https://aho.no/en/ansatt/kjetil-nordby) (AHO) | [Baltasar Beferull‐Lozano](https://www.simula.no/people/baltasar) (Simula) |
+
+
+### Scientific Advisory Board
+
+- [Benoit Maujean](https://www.linkedin.com/in/benoit-maujean-7b2b2a1/) (Head of Technicolor Research, France)
+- [Catherine Fisk](https://www.law.berkeley.edu/our-faculty/faculty-profiles/catherine-fisk/) (Prof. law, UC Berkeley, USA)
+- [Jon McCormack](https://research.monash.edu/en/persons/jon-mccormack) (Prof. creative computing, Monash University, Australia)
+- [Jyoti Mistry](https://www.gu.se/en/about/find-staff/jyotimistry) (Prof. film, Gothenburg University, Sweden)
+- [Nancy Baym](https://www.microsoft.com/en-us/research/people/baym/) (Senior Principal Research Manager, Microsoft, New England, USA)
+- [Pamela Burnard](https://www.educ.cam.ac.uk/people/staff/burnard/) (Prof. arts, creativities and educations, University of Cambridge, UK)
+- [Philippe Pasquier](https://www.sfu.ca/siat/people/research-faculty/philippe-pasquier.html) (Prof. interactive arts and technology, Simon Fraser University, Canada)
+- [Psyche Loui](https://web.northeastern.edu/creativity/) (Assoc. Prof. creativity and creative practice, Northeastern University, USA)
+- [Ravi Kiran Sarvadevabhatla](https://www.iiit.ac.in/faculty/ravi-kiran-sarvadevabhatla/) (Assoc. Prof. computer vision and machine learning, IIIT Hyderabad, India)
+- [Sebastian Risi](https://sebastianrisi.com/) (Prof. creative AI, IT University of Copenhagen, Denmark)
+- [Xavier Serra](https://www.upf.edu/web/xavier-serra) (Prof. music technology, Universitat Pompeu Fabra, Spain)
+- [Zhang Qian](https://mra.cuc.edu.cn/yy/2023/0428/c9672a206535/page.htm) (Prof. music and recording art, Communication University of China, China)
+
 
 ### Norwegian research partners 
 
@@ -116,109 +169,13 @@ In alphabetical order:
 
 Numerous international academic and non-academic partners will also be involved, and we will set up an affiliate program for others to join the network and participate in relevant activities. 
 
-[![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](https://www.arj.no/images/2025/06/jensenius-ki-milliarden-1000x562.jpg)](https://www.uio.no/english/people/academic/alexanje/)
-*MishMash will be directed by [Alexander Refsum Jensenius](https://www.uio.no/english/people/academic/alexanje/) (UiO) together with deputy directors [Ida Jahr](https://www.inn.no/ida-jahr) (INN) and [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA). (Photo: UiO)*
-
-## People involved
-
-### Leader Group
-
-- [Alexander Refsum Jensenius](https://www.uio.no/english/people/academic/alexanje/) (UiO), Director
-- [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA), Deputy director
-- [Ida Jahr](https://www.inn.no/ida-jahr) (INN), Deputy director
-- [Thomas de Ridder](https://www.uib.no/personer/Thomas.de.Ridder) (UiB), Research advisor
-- [Nina Rundgren](https://www.uio.no/english/people/adm/ninaru/) (UiO), Head of administration
 
 
-### Work package leaders
-
-- WP1: AI for artistic performances: 
-[Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrregl/) (UiO), [Morten Qvenild](https://nmh.no/en/about_nmh/employees/morten-qvenild) (NMH), [Georgios Marentakis](https://www.hiof.no/english/employee/?person=georgios-marentakis) (HiØ)
-
-- WP2: AI for artistic processes: 
-[Budhaditya Chattopadhyay](https://www.uib.no/en/persons/Budhaditya.Chattopadhyay) (UiB), [Sashi Komandur](https://www.inn.no/english/about-inn-university/contact-inn-university/employees/komandur-sashi.html) (INN), [Synne Tollerud Bull](https://www.kristiania.no/en/ansatte/synne-tollerud-bull/) (Kristiania)
-
-- WP3: Creative use of AI in health and well-being: 
-[Claire Ghetti](https://www.uib.no/en/persons/Claire.Ghetti) (UiB), [Andreas Bergsland](https://www.ntnu.edu/employees/andreas.bergsland) (NTNU), [Jonna Vuoskoski](https://www.hf.uio.no/imv/english/people/aca/jonnavu/) (UiO)
-
-- WP4: Creative use of AI in education: 
-[Hilde Norbakken](https://www.uia.no/kk/profil/hilden) (music education, UiA), [Sidsel Karlsen](https://nmh.no/en/about_nmh/employees/sidsel-karlsen) (music education, NMH), [Fredrik Graver](https://www.inn.no/english/about-inn-university/contact-inn-university/employees/graver-fredrik.html) (film education, INN)
-
-- WP5: AI in the creative and cultural industries: 
-[Ragnhild Brøvig](https://www.hf.uio.no/imv/english/people/aca/ragnhibr/) (UiO), [Irina Eidsvold‐Tøien](https://www.bi.edu/about-bi/employees/department-of-law/irina-eidsvold-toien/) (BI), [Jon Marius Aareskjold‐Drecker](https://en.uit.no/ansatte/person?p_document_id=77113) (UiT)
-
-- WP6: AI for cultural heritage: 
-[Ingrid Romarheim Haugen](https://www.nb.no/ansatte/ingrid-romarheim-haugen/) (NB), [Arnulf Mattes](https://www.uib.no/en/persons/Arnulf.Mattes) (UiB), [Olivier Lartillot](https://www.mn.uio.no/ifi/english/people/aca/olartill/) (UiO)
-
-- WP7: AI for creative problem-solving: 
-[Carsten Griwodz](https://www.mn.uio.no/ifi/english/people/aca/carsten/) (UiO), [Kjetil Nordby](https://aho.no/en/ansatt/kjetil-nordby) (AHO), [Baltasar Beferull‐Lozano](https://www.simula.no/people/baltasar) (Simula)
-
-
-### Scientific Advisory Board
-
-- [Benoit Maujean](https://www.linkedin.com/in/benoit-maujean-7b2b2a1/) (Head of Technicolor Research, France)
-- [Catherine Fisk](https://www.law.berkeley.edu/our-faculty/faculty-profiles/catherine-fisk/) (Prof. law, UC Berkeley, USA)
-- [Jon McCormack](https://research.monash.edu/en/persons/jon-mccormack) (Prof. creative computing, Monash University, Australia)
-- [Jyoti Mistry](https://www.gu.se/en/about/find-staff/jyotimistry) (Prof. film, Gothenburg University, Sweden)
-- [Nancy Baym](https://www.microsoft.com/en-us/research/people/baym/) (Senior Principal Research Manager, Microsoft, New England, USA)
-- [Pamela Burnard](https://www.educ.cam.ac.uk/people/staff/burnard/) (Prof. arts, creativities and educations, University of Cambridge, UK)
-- [Philippe Pasquier](https://www.sfu.ca/siat/people/research-faculty/philippe-pasquier.html) (Prof. interactive arts and technology, Simon Fraser University, Canada)
-- [Psyche Loui](https://web.northeastern.edu/creativity/) (Assoc. Prof. creativity and creative practice, Northeastern University, USA)
-- [Ravi Kiran Sarvadevabhatla](https://www.iiit.ac.in/faculty/ravi-kiran-sarvadevabhatla/) (Assoc. Prof. computer vision and machine learning, IIIT Hyderabad, India)
-- [Sebastian Risi](https://sebastianrisi.com/) (Prof. creative AI, IT University of Copenhagen, Denmark)
-- [Xavier Serra](https://www.upf.edu/web/xavier-serra) (Prof. music technology, Universitat Pompeu Fabra, Spain)
-- [Zhang Qian](https://mra.cuc.edu.cn/yy/2023/0428/c9672a206535/page.htm) (Prof. music and recording art, Communication University of China, China)
-
-## State of the art, knowledge needs and objectives
-
-There is currently a confusing mixture—a *mishmash*—of notions and opinions about AI's potentials and risks within the academic world, creative industries, cultural institutions, and society at large. We propose a centre to study AI from the perspective of the fundamental human trait of **creativity**, understood here as the ability to form novel and meaningful ideas or works [@bodenCreativeMindMyths2004].
-
-Human creativity has both shaped and been shaped by technological developments. Today, human creativity faces unprecedented challenges and opportunities brought by **Creative AI**, understood here as machine systems that can produce novel and meaningful results that stand independently [@devriesYouNeverFake2020]. This raises several important questions: to what extent are Creative AI systems genuinely creative, how do they differ from human creativity, and how can humans and machines be co-creative? Furthermore, what are the societal implications of Creative AI, how will producers' and consumers' attitudes towards AI-generated creative content develop, and how can creative approaches to AI have an impact beyond the cultural and creative sectors?
-
-We view **artistic exploration** as a pivotal entry point for engaging in critical discussions about AI and its implications for human-machine interaction and society at large. Artistic research has been integral to computer-based AI development since the early days of computer science [@coltonComputationalCreativityFinal2012a], exemplified by early rule-based systems for music composition [@mirandaHandbookArtificialIntelligence2021a] and painting [@cohenFurtherExploitsAARON1995a]. Today, generative systems can produce all sorts of artistic products, and several have become popular commercial products, such as Dall-E (images), ChatGPT (text), and Suno.ai (music). MishMash aims to expand current knowledge and pioneer new **CoCreative AI systems** that allow partnerships between humans and machines [@anscombAIArtisticCollaborator2024]. Researchers and practitioners from creative disciplines are uniquely positioned to develop AI-based technologies and to do so responsibly, reflecting on their ethical challenges and potential drawbacks.
-
-There are many possibilities with Creative and CoCreative AI systems but also numerous challenges and knowledge needs (see details in WP descriptions in section 1.2):
-
-- **Challenge 1:** How can we design and implement real-time AI systems for immersive, dynamic, and ethical human-machine collaborations in artistic performances?
-- **Challenge 2:** How can artists integrate AI into their creative processes while maintaining control and addressing biases, cultural implications, and environmental impact?
-- **Challenge 3:** How can AI-generated content and Creative AI systems impact health and well-being and be integrated into therapeutic practices while considering empathy, consent, and equity?
-- **Challenge 4:** How can Creative AI be integrated into education to enhance learning and foster AI literacy while considering diversity, justice, inclusion and well-being?
-- **Challenge 5:** How can AI enhance innovation in the creative and cultural industries while addressing copyright, rights management, ethical challenges, sustainability, and equitable revenue distribution?
-- **Challenge 6:** How can AI enhance the preservation, accessibility, and representation of cultural heritage in archives, libraries, and museums while ensuring ethical and legal compliance?
-- **Challenge 7:** How can Creative AI enhance human agency, control, and expression in problem-solving while adhering to physical, legal, and societal constraints during the creative process?
-
-> **Primary Objective:** MishMash will create, explore, and reflect on AI for, through, and in creative practices.
-
-MishMash will bring together a large multidisciplinary and cross-sectorial group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. The centre will build on the combined expertise of one Centre of Excellence (RITMO) and three Centres of Excellence in Education (CreaTeME, CEMPE, CEFIMA). Together, we will work towards these secondary objectives to meet the requested AI Centre goals:
-
-- **Secondary Objective A:** Establish a national centre comprising 16 higher education institutions, 4 research institutes, and 3 artistic research centres, teamed up with the National Library, Norwegian Broadcasting Corporation (NRK), the National Museum, and several other museums, industry partners, and international partners. The centre will be a lively, virtual research environment, with weekly online meetings, biweekly work package (WP) check-ins, monthly thematic seminars, regular public workshops and lifelong learning events, and bi-annual symposia with lectures, performances, and exhibitions.
-- **Secondary Objective B:** Generate new fundamental knowledge about AI and develop innovative AI-based algorithms and tools to make them applicable in creative practices. The tools will be used in public performances and exhibitions, in educational and therapeutic settings, within creative industries, and for cultural heritage. Critical reflections on diversity, privacy, copyright, and sustainability will feed into an iterative development cycle and be the subject of academic publications and policy guidelines.
-- **Secondary Objective C:** Build expertise in Norway through research projects involving around 100 faculty members interested in Creative AI. They will be central in educating dozens of PhD candidates and hundreds of students and providing lifelong learning opportunities for freelancers and professionals in the public and private sectors. This will significantly enhance the Creative AI capacity in research environments, meet qualified labour needs, and provide the basis for innovation within the creative sectors.
-- **Secondary Objective D:** Collaborate with leading research environments worldwide by hiring adjunct professors and facilitating two-way mobility of early career researchers. This will enhance the internationalisation of Norwegian AI research, education, and innovation.
-- **Secondary Objective E:** Develop methods and strategies for cross-, multi-, and interdisciplinary collaboration between typically disparate disciplines. MishMash will be the first centre at this scale in Norway to span academic disciplines from the "soft" to the "hard", between art and science, and with close collaborations with both the public and private sectors.
-
-As showcased by the comprehensive involvement from individuals, institutions, and businesses in Norway, a national *Centre for AI & Creativity* is both wanted and necessary. According to the World Economic Forum's *Future of Jobs Report*, creativity is anticipated to be an essential skill for the future workforce, alongside analytical thinking and problem-solving. In a recent government white paper (*Meld. St. 9 (2024–2025)*), section 6.4 emphasises the importance of arts and culture in ensuring the readiness of a citizenry in times of crisis.
-
-## Research questions and hypotheses, theoretical approach and methodology
-
-> **Research Question:** What are the possibilities, limitations, and transformative effects of AI on creative practices, and how can we develop CoCreative AI systems that complement human creativity while addressing ethical, cultural, and societal implications?
-
-Tackling such a complex question requires a multifaceted and *truly* *interdisciplinary* research approach. MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives* (see Figure 2). The WPs (detailed below) are designed around seven core *themes*, addressing the challenges outlined in the previous section. While some WPs focus on leveraging AI in creative—primarily artistic—applications, others explore the innovative use of AI in adjacent domains, fostering a dynamic interplay between art, science, and society. The work will be conducted by combining a multitude of scientific and arts-based theories and methods, which can be summarised in three interconnected *research approaches*:
-
-- **CREATE:** making AI-based systems, tools, artworks, and related frameworks and policies. This includes theories and methods from computer science, engineering, and various types of art and design, emphasising creating CoCreative AI systems that prioritise human agency, environmental sustainability, and democratisation of AI technologies.
-- **EXPLORE:** using AI-based systems in creative practice and seeing how creative methods can be applied in other domains. This includes investigating how AI can enhance creativity, foster innovation, and support learning and well-being using theories and methods from psychology, therapy, educational sciences, and cultural heritage.
-- **REFLECT:** critically studying and discussing the impacts of AI on humans, human creativity, various cultures, and society at large. This includes theories and methods from the humanities and social sciences to ensure responsible AI development and use.
-
-![The MishMash "cube" shows intersections of themes, approaches, and perspectives.](MishMash%20figurer_3-crop.pdf)
-
-MishMash's core strength lies in its diverse team of researchers and partners, anchored within the future-conscious values of Norwegian society and culture. We utilize Work Package (WP) descriptions to outline the scope, aims, and approaches of the various interdisciplinary projects enabled by this unique collaboration. Each WP will include researchers from multiple higher education institutions, each bringing different methodological expertise. They will work alongside non-academic partners, many of whom are key stakeholders. The WPs will not be siloed; we foresee much collaboration following interconnections in the cube model outlined in Figure 2. This will be achieved through cross-WP meetings and workshops based on the three *perspectives* (machines, humans, and society). These perspectives will inspire and support theoretical contributions to fundamental AI development (see Section 2).
-
----
 
 ### WP1: AI for artistic performances  
 *WP Leaders: Kyrre Glette, UiO / Morten Qvenild, NMH / Georgios Marentakis, HIØ*
 
-This WP focuses on how real-time interaction with AI systems transforms the creative process in applications such as music and art performance, interactive installations, and gaming. We will emphasise AI systems that facilitate continuous interactions between humans and machine agents [@dahlstedtMusickingAlgorithmsThoughts2021], especially multiple and embodied AI agents [@Martin2020]. Countering the current trends of very large models with hard-to-control outputs, we will focus on balancing data-based approaches with artists' knowledge and search-based methods [@jonssonSystemSonicExplorations2024] to achieve personalised and novel outputs. In contrast to WP2 (see below), the emphasis is on supporting live, dynamic, and interactive performance rather than creating a fixed final creative product [@erdemToolActorExpert2022]. Our use cases require synchronous, rich, continuous feedback that unfolds naturally and does not obstruct performance during real-time co-creative improvisation and collaboration [@mccormackDesignConsiderationsRealTime2020]. Designing AI systems that can provide and interpret such feedback requires a broader understanding of what must be "explainable" [@bryan-kinnsExplainableAIMusic2024] when interacting with AI during creative performance. We posit that embodied AI systems that can sense, act, and behave in a way that is intuitively understood by humans offer unexplored opportunities for spontaneous co-creation in artistic performance and exploration that reach far beyond the current state of the art.
+This WP focuses on how real-time interaction with AI systems transforms the creative process in applications such as music and art performance, interactive installations, and gaming. We will emphasise AI systems that facilitate continuous interactions between humans and machine agents, especially multiple and embodied AI agents. Countering the current trends of very large models with hard-to-control outputs, we will focus on balancing data-based approaches with artists' knowledge and search-based methods to achieve personalised and novel outputs. In contrast to WP2 (see below), the emphasis is on supporting live, dynamic, and interactive performance rather than creating a fixed final creative product. Our use cases require synchronous, rich, continuous feedback that unfolds naturally and does not obstruct performance during real-time co-creative improvisation and collaboration. Designing AI systems that can provide and interpret such feedback requires a broader understanding of what must be "explainable" when interacting with AI during creative performance. We posit that embodied AI systems that can sense, act, and behave in a way that is intuitively understood by humans offer unexplored opportunities for spontaneous co-creation in artistic performance and exploration that reach far beyond the current state of the art.
 
 **Research Questions:**
 - **RQ1.1:** How can we design real-time multi-agent and embodied AI systems with rich dynamics to enable immersive and expressive interfaces and interactions?
@@ -236,7 +193,7 @@ This WP focuses on how real-time interaction with AI systems transforms the crea
 ### WP2: AI in artistic processes  
 *WP Leaders: Budhaditya Chattopadhyay, UiB / Sashi Komandur, INN / Synne Bull, Kristiania*
 
-This WP focuses on AI systems used in producing works associated with the arts and creative industries, including visual arts, film, VR/XR, literature, performing arts, games, and music. Prompt-based, machine-learning systems are becoming normalised in many workflows, and practitioners and professionals are increasingly aware of their benefits and costs. Concerns include the effects of "outsourcing" creative work and decision-making to AI systems and the hegemonic cultural biases present in many commercial tools [@vinchonArtificialIntelligenceCreativity2023]. Creativity shapes how communities see themselves and imagine new possibilities. When AI systems reinforce dominant cultural patterns and marginalised alternative perspectives, they risk narrowing public discourse, diminishing cultural diversity, and strengthening existing norms at the expense of exploration and innovation [@vallorAIMirrorHow2024]. This raises critical questions about cultural agency: Who decides what stories are told, what images are seen, and what ideas shape our shared reality? This WP will explore new challenges in the creative process, challenging the concept of "neutrality" in AI systems and examining embedded biases. The goal is to ensure that creative tools contribute to more inclusive, diverse, and democratic cultural futures, balancing artistic control with machine dominance to preserve human aesthetic and artistic integrity.
+This WP focuses on AI systems used in producing works associated with the arts and creative industries, including visual arts, film, VR/XR, literature, performing arts, games, and music. Prompt-based, machine-learning systems are becoming normalised in many workflows, and practitioners and professionals are increasingly aware of their benefits and costs. Concerns include the effects of "outsourcing" creative work and decision-making to AI systems and the hegemonic cultural biases present in many commercial tools. Creativity shapes how communities see themselves and imagine new possibilities. When AI systems reinforce dominant cultural patterns and marginalised alternative perspectives, they risk narrowing public discourse, diminishing cultural diversity, and strengthening existing norms at the expense of exploration and innovation. This raises critical questions about cultural agency: Who decides what stories are told, what images are seen, and what ideas shape our shared reality? This WP will explore new challenges in the creative process, challenging the concept of "neutrality" in AI systems and examining embedded biases. The goal is to ensure that creative tools contribute to more inclusive, diverse, and democratic cultural futures, balancing artistic control with machine dominance to preserve human aesthetic and artistic integrity.
 
 **Research Questions:**
 - **RQ2.1:** How can artists integrate generative AI systems into their ideation and production processes while maintaining creative autonomy and avoiding the risk of machine-driven homogenisation?
@@ -254,7 +211,7 @@ This WP focuses on AI systems used in producing works associated with the arts a
 ### WP3: Creative use of AI for health and well-being  
 *WP Leaders: Claire Ghetti, UiB / Andreas Bergsland, NTNU / Jonna Vuoskoski, UiO*
 
-This WP investigates how AI-generated creative content (images, music, literature, media, etc.) impacts human health and well-being. It also examines the use of AI in creative arts therapies to promote mental health and physical well-being and how novel health research methods involving AI can enable new knowledge generation. Engaging in creative processes can promote health and well-being [@fancourtWhatEvidenceRole2019]. AI tools offer opportunities for augmenting human creativity, yet their use also raises concerns about the potential devaluation of human qualities like empathy and autonomy [@abadiTurningPointCivilization2023]. We will explore how AI can both support and create challenges for well-being, creativity, and emotional expression. Ethical considerations are central to this WP, especially how AI can be used responsibly to avoid reinforcing inequalities or biases. Our approach emphasises anti-oppressive practices and seeks to support historically marginalised groups through inclusive AI applications in the arts. Collaboration with users and stakeholders is key to creating innovative solutions while ensuring health-promoting AI interventions are relevant and ethically sound. Critical disability perspectives are incorporated to ensure that AI systems in arts for health are inclusive and accessible for all.
+This WP investigates how AI-generated creative content (images, music, literature, media, etc.) impacts human health and well-being. It also examines the use of AI in creative arts therapies to promote mental health and physical well-being and how novel health research methods involving AI can enable new knowledge generation. Engaging in creative processes can promote health and well-being. AI tools offer opportunities for augmenting human creativity, yet their use also raises concerns about the potential devaluation of human qualities like empathy and autonomy. We will explore how AI can both support and create challenges for well-being, creativity, and emotional expression. Ethical considerations are central to this WP, especially how AI can be used responsibly to avoid reinforcing inequalities or biases. Our approach emphasises anti-oppressive practices and seeks to support historically marginalised groups through inclusive AI applications in the arts. Collaboration with users and stakeholders is key to creating innovative solutions while ensuring health-promoting AI interventions are relevant and ethically sound. Critical disability perspectives are incorporated to ensure that AI systems in arts for health are inclusive and accessible for all.
 
 **Research Questions:**
 - **RQ3.1:** How do humans perceive, experience and relate to AI-generated creative content?
@@ -272,7 +229,7 @@ This WP investigates how AI-generated creative content (images, music, literatur
 ### WP4: Creative use of AI in education  
 *WP Leaders: Hilde Norbakken, UiA / Sidsel Karlsen, NMH / Fredrik Graver, INN*
 
-The rapid inclusion of AI into education presents transformative opportunities and challenges for teaching and learning alongside significant pedagogical, ethical and practical issues [@bozkurtManifestoTeachingLearning2024]. This WP explores how education can harness AI to enhance learning opportunities, foster creativity, and support critical thinking and AI literacy [@longWhatAILiteracy2020]. The educational sector is currently characterised by numerous local initiatives to adopt commercial AI tools. However, high-quality, open education resources—especially on Creative AI—are scarce, with hardly any available in Norwegian. There is a clear need for a unified effort to advance AI literacy in Norwegian schools and enhance the understanding and application of Creative AI in higher education and lifelong learning. The aim is to equip future practitioners and educators with the competence to navigate AI's complexities while providing current educators with resources to minimise a generational gap in AI literacy. WP4 will collaborate closely with researchers from other WPs to incorporate insights from ongoing research into educational programs and curricula and to influence technological developments from an educational point of view.
+The rapid inclusion of AI into education presents transformative opportunities and challenges for teaching and learning alongside significant pedagogical, ethical and practical issues. This WP explores how education can harness AI to enhance learning opportunities, foster creativity, and support critical thinking and AI literacy. The educational sector is currently characterised by numerous local initiatives to adopt commercial AI tools. However, high-quality, open education resources—especially on Creative AI—are scarce, with hardly any available in Norwegian. There is a clear need for a unified effort to advance AI literacy in Norwegian schools and enhance the understanding and application of Creative AI in higher education and lifelong learning. The aim is to equip future practitioners and educators with the competence to navigate AI's complexities while providing current educators with resources to minimise a generational gap in AI literacy. WP4 will collaborate closely with researchers from other WPs to incorporate insights from ongoing research into educational programs and curricula and to influence technological developments from an educational point of view.
 
 **Research Questions:**
 - **RQ4.1:** How can Creative AI be effectively integrated to enhance teaching and learning and foster human creativity?
@@ -290,7 +247,7 @@ The rapid inclusion of AI into education presents transformative opportunities a
 ### WP5: AI in the Creative and Cultural Industries  
 *WPLs: Ragnhild Brøvig, UiO / Irina Eidsvold-Tøien, BI / Jon Marius Aareskjold-Drecker, UiT*
 
-Technological innovation has consistently disrupted creative industries' business models, revenue streams, and legal frameworks. These disruptions have intensified with the rise of digital platforms, streaming services, and AI technologies [@geigerIndependentEURegulator2024]. AI's ability to generate cultural content brings new opportunities and significant legal and ethical concerns. Key issues include copyright, moral rights, and the ethics of training AI on human artists' work, voices, and other bodily expressions without proper agreements [@blitzLiesLineDrawing2018]. Furthermore, the vast amount of AI-generated content challenges existing revenue-sharing models, requiring a rethinking of traditional frameworks. However, AI can also offer innovative solutions, such as AI-driven identification systems for rights management. Such systems could help harmonise and complete international databases for ownership and metadata, enhancing transparency and efficiency. AI could also facilitate more equitable distribution of royalties across different regions and sectors. This WP is dedicated to exploring both the challenges and solutions that AI presents to the legal and structural dynamics of the creative industries by investigating current practices. It also aims to connect this awareness to the research and development carried out throughout the MishMash network and to disseminate knowledge, ethical and legal guidelines, and newly developed tools to various stakeholders. As part of this effort, Norinnova, a technology transfer office located in Tromsø, will contribute to identifying and commercialising new tools and solutions developed under the MishMash umbrella. Researchers from NORSUS, the Norwegian Institute for Sustainability Research, will write a Life Cycle Assessment (LCA) report to address the environmental impact of new Creative AIs. Furthermore, legal scholars involved in MishMash will share guidelines with legal stakeholders.
+Technological innovation has consistently disrupted creative industries' business models, revenue streams, and legal frameworks. These disruptions have intensified with the rise of digital platforms, streaming services, and AI technologies. AI's ability to generate cultural content brings new opportunities and significant legal and ethical concerns. Key issues include copyright, moral rights, and the ethics of training AI on human artists' work, voices, and other bodily expressions without proper agreements. Furthermore, the vast amount of AI-generated content challenges existing revenue-sharing models, requiring a rethinking of traditional frameworks. However, AI can also offer innovative solutions, such as AI-driven identification systems for rights management. Such systems could help harmonise and complete international databases for ownership and metadata, enhancing transparency and efficiency. AI could also facilitate more equitable distribution of royalties across different regions and sectors. This WP is dedicated to exploring both the challenges and solutions that AI presents to the legal and structural dynamics of the creative industries by investigating current practices. It also aims to connect this awareness to the research and development carried out throughout the MishMash network and to disseminate knowledge, ethical and legal guidelines, and newly developed tools to various stakeholders. As part of this effort, Norinnova, a technology transfer office located in Tromsø, will contribute to identifying and commercialising new tools and solutions developed under the MishMash umbrella. Researchers from NORSUS, the Norwegian Institute for Sustainability Research, will write a Life Cycle Assessment (LCA) report to address the environmental impact of new Creative AIs. Furthermore, legal scholars involved in MishMash will share guidelines with legal stakeholders.
 
 **Research Questions:**
 - **RQ5.1:** How does training AI systems on existing artistic expressions and recorded voices raise issues related to privacy, copyright, human rights, private law, and contract law, and what regulatory frameworks are needed to address these legal challenges and guide policy-making?
@@ -308,7 +265,7 @@ Technological innovation has consistently disrupted creative industries' busines
 ### WP6: AI for cultural heritage  
 *WPLs: Ingrid Romarheim Haugen, NB / Arnulf Mattes, UiB / Olivier Lartillot, UiO*
 
-Archives, libraries, and museums (the "ABM sector" in Norway) are central institutions for preserving, sharing, and communicating human culture. The National Library of Norway is distinguished by its extensive collection of high-quality digital resources and the advanced Digital Humanities Lab. It is essential to integrate all these resources and numerous local collections in Norway into a cohesive digital framework and further connect them to the European Cultural Heritage Cloud. This necessitates automated, intelligent curation of the vast collections. One focus will be on music, leveraging the cutting-edge computational musicology research at UiO in collaboration with the National Library. We will pioneer hybrid AI models by blending machine learning with musicology and cognition-based symbolic AI [@lartillotSegmentationTranscriptionAnalysis2022]. Particular attention will be dedicated to minority cultural expressions, including Norwegian folk music, Sámi joik and world chant cultures. We aim to create models for creating, curating, and analysing comprehensive catalogues transferable to other contexts and cultural heritage areas. The public sector must lead in these technologies, ensuring that powerful new capabilities are used ethically and inclusively [@huangDiverseDatasetsResponsible2023]. This approach seeks to empower institutions, artists, and the public to leverage archives, exploring the influence of past cultural expressions on contemporary creativity while promoting respectful citation and avoiding plagiarism.
+Archives, libraries, and museums (the "ABM sector" in Norway) are central institutions for preserving, sharing, and communicating human culture. The National Library of Norway is distinguished by its extensive collection of high-quality digital resources and the advanced Digital Humanities Lab. It is essential to integrate all these resources and numerous local collections in Norway into a cohesive digital framework and further connect them to the European Cultural Heritage Cloud. This necessitates automated, intelligent curation of the vast collections. One focus will be on music, leveraging the cutting-edge computational musicology research at UiO in collaboration with the National Library. We will pioneer hybrid AI models by blending machine learning with musicology and cognition-based symbolic AI. Particular attention will be dedicated to minority cultural expressions, including Norwegian folk music, Sámi joik and world chant cultures. We aim to create models for creating, curating, and analysing comprehensive catalogues transferable to other contexts and cultural heritage areas. The public sector must lead in these technologies, ensuring that powerful new capabilities are used ethically and inclusively. This approach seeks to empower institutions, artists, and the public to leverage archives, exploring the influence of past cultural expressions on contemporary creativity while promoting respectful citation and avoiding plagiarism.
 
 **Research Questions:**
 - **RQ6.1:** How can we significantly advance AI to effectively discover, organise, and showcase the vast richness of cultural heritage and creative works in all forms?
@@ -326,7 +283,7 @@ Archives, libraries, and museums (the "ABM sector" in Norway) are central instit
 ### WP7: Human-centric AI for Creative Problem-Solving  
 *WPLs: Carsten Griwodz, UiO / Baltasar Beferull, SimulaMet / Kjetil Nordby, AHO*
 
-This WP explores how a person or group can use Creative AI for task-specific problem-solving. The tasks considered in this WP range from industrial design, where artistic methods are integral to design processes, to emergency rescue scenarios, where imminent problems must be solved by creatively using available resources. We target creative goal-based practitioners, including professionals as diverse as designers, filmmakers, human operators in industrial settings, and emergency service personnel, and we adopt the principles and ideas of Creative AI that MishMash co-creates through its three perspectives. To achieve this in a goal-driven context, new frameworks must be developed that give creators freedom, surprise, control, and inspiration and allow them to evaluate, select, discard, and apply AI's contributions. The creative process must be interactive, ranging from iterative prompt-based exploration [@lawtonDrawingReframerEmergence2023] to real-time collaboration with an embodied AI [@paradiseRealTHASCCyberphysicalXR2023]. The process should support creators in addressing their professions' requirements and other practical challenges, finding pragmatic solutions instead of circumventing them. A key challenge here is potential conflicts between artistic freedom and the practical requirements that the creator must fulfil. AIs developed in this WP will be limited by stricter boundaries than others—from the laws of physics to legal frameworks, such as realism constraints [@duanSurveyEmbodiedAI2022]. We will go beyond informed AI approaches in our focus on encoding these limitations into the development principles for Creative AIs. WP7 will generate new knowledge of algorithmic, personal and societal challenges when applying Creative AI in creative practices in collaboration with other WPs facilitated by MishMash's cross-cutting perspectives.
+This WP explores how a person or group can use Creative AI for task-specific problem-solving. The tasks considered in this WP range from industrial design, where artistic methods are integral to design processes, to emergency rescue scenarios, where imminent problems must be solved by creatively using available resources. We target creative goal-based practitioners, including professionals as diverse as designers, filmmakers, human operators in industrial settings, and emergency service personnel, and we adopt the principles and ideas of Creative AI that MishMash co-creates through its three perspectives. To achieve this in a goal-driven context, new frameworks must be developed that give creators freedom, surprise, control, and inspiration and allow them to evaluate, select, discard, and apply AI's contributions. The creative process must be interactive, ranging from iterative prompt-based exploration to real-time collaboration with an embodied AI. The process should support creators in addressing their professions' requirements and other practical challenges, finding pragmatic solutions instead of circumventing them. A key challenge here is potential conflicts between artistic freedom and the practical requirements that the creator must fulfil. AIs developed in this WP will be limited by stricter boundaries than others—from the laws of physics to legal frameworks, such as realism constraints. We will go beyond informed AI approaches in our focus on encoding these limitations into the development principles for Creative AIs. WP7 will generate new knowledge of algorithmic, personal and societal challenges when applying Creative AI in creative practices in collaboration with other WPs facilitated by MishMash's cross-cutting perspectives.
 
 **Research Questions:**
 - **RQ7.1:** How can we integrate Creative AI in creative problem-solving processes to maintain and develop human agency, control and personal expressive capabilities?
@@ -345,3 +302,4 @@ This WP explores how a person or group can use Creative AI for task-specific pro
 MishMash will produce new fundamental knowledge about AI and develop novel AI-based algorithms and tools that will be applied to real-world creative practices. The centre will educate PhD candidates from nearly all Norwegian higher education institutions, offer lifelong learning possibilities for professionals, and partner internationally to enhance Norwegian AI research.
 
 The centre will impact AI and creativity across disciplines, producing innovative practices, ethical guidelines, and policy recommendations. It will address UN SDGs through various work packages, focusing on adaptive AI algorithms, experimental AI art, disability-inclusive AI, education, sustainable growth, cultural heritage, and human-computer co-creation.
+
