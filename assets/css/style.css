@@ -3,11 +3,11 @@
 
 @import "{{ site.theme }}";
 
-// Override Cayman header gradient
+/* Override Cayman header gradient */
 .page-header {
-  background-image: linear-gradient(
-    120deg,
-    #2b2d3c,  /* First color */
-    #b3e297 /* Second color */
-  );
+    background-image: linear-gradient(
+        120deg,
+        #2b2d3c, /* First color */
+        #b3e297  /* Second color */
+    );
 }
