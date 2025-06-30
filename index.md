@@ -1,3 +1,8 @@
+## Table of Contents
+
+| [Why?](#why) | [How?](#how) | [What?](#what) | [When?](#when) | [Who?](#who) | 
+
+
 MishMash is a large Norwegian consortium dedicated to exploring the intersection of AI and creativity. Our primary objective is to **create, explore, and reflect on AI for, through, and in creative practices**. We will investigate AI's impact on creative processes, develop innovative CoCreative AI systems, and address AI's ethical, cultural, and societal implications in creative domains.
 
 <p align="center">
@@ -282,14 +287,3 @@ In alphabetical order:
 -   [VRINN](https://vrinn.no/)
 
 Numerous international academic and non-academic partners will also be involved, and we will set up an affiliate program for others to join the network and participate in relevant activities. 
-
-
-
-
-
-## Outcomes and impacts
-
-MishMash will produce new fundamental knowledge about AI and develop novel AI-based algorithms and tools that will be applied to real-world creative practices. The centre will educate PhD candidates from nearly all Norwegian higher education institutions, offer lifelong learning possibilities for professionals, and partner internationally to enhance Norwegian AI research.
-
-The centre will impact AI and creativity across disciplines, producing innovative practices, ethical guidelines, and policy recommendations. It will address UN SDGs through various work packages, focusing on adaptive AI algorithms, experimental AI art, disability-inclusive AI, education, sustainable growth, cultural heritage, and human-computer co-creation.
-
