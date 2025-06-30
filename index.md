@@ -4,14 +4,6 @@ MishMash is a large Norwegian consortium dedicated to exploring the intersection
     <img src="https://www.arj.no/images/2025/01/MishMash-circles-1000px.jpg" alt="MishMash is a network that explores the meeting point between humans and machines, using both artistic and scientific research methods" width="400px" />
 </p>
 
-<p align="center">
-| <a href="#why">Why?</a> 
-| <a href="#how">How?</a> 
-| <a href="#what">What?</a> 
-| <a href="#when">When?</a> 
-| <a href="#who">Who?</a> |
-</p>
-
 
 ## Why?
 
