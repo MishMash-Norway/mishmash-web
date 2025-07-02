@@ -41,17 +41,14 @@
           const div = document.createElement('div');
           div.className = 'result';
           div.innerHTML = `<div class="title">${title}</div>
-            <div>Type: ${item.type}</div>
-            <div>Year: ${item.year_published || ''}</div>
-            <div>Place: ${item.place}</div>
             <div>
-                Contributors:
                 ${
                     item.contributors && item.contributors.preview && item.contributors.preview.length > 0
                         ? item.contributors.preview.map(c => `${c.surname}, ${c.first_name}`).join('; ')
                         : 'N/A'
                 }
             </div>
+            <div>${item.place}, ${item.year_published || ''}</div>
             <a href="https://app.cristin.no/results/show.html?id=${item.cristin_result_id}" target="_blank">View in Cristin</a>`;
           resultsDiv.appendChild(div);
         });
