@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cristin Project Results</title>
+  <style>
+    body { font-family: Inter, Arial, sans-serif; margin: 2em; }
+    .result { margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee; }
+    .title { font-weight: bold; }
+    .loading { color: #888; }
+  </style>
+</head>
+<body>
+  <h1>Cristin Results for Project Funding ID 357438</h1>
+  <div id="results"><span class="loading">Loading...</span></div>
+
+  <script>
+    async function fetchCristinResults() {
+      const url = 'https://api.cristin.no/v2/results?project_funding=357438&per_page=20';
+      const resultsDiv = document.getElementById('results');
+      try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error('Network response was not ok');
+        const data = await response.json();
+        if (!Array.isArray(data)) {
+          resultsDiv.innerHTML = 'No results found or unexpected response.';
+          return;
+        }
+        if (data.length === 0) {
+          resultsDiv.innerHTML = 'No results found for this project funding ID.';
+          return;
+        }
+        resultsDiv.innerHTML = '';
+        data.forEach(item => {
+          const title = item.title && item.title['en'] ? item.title['en'] : (item.title && item.title['no']) || 'No title';
+          const year = item.publication_year || '';
+          const type = item.result_type && item.result_type['en'] ? item.result_type['en'] : '';
+          const div = document.createElement('div');
+          div.className = 'result';
+          div.innerHTML = `<div class="title">${title}</div>
+            <div>Type: ${type}</div>
+            <div>Year: ${year}</div>
+            <a href="https://app.cristin.no/results/show.html?id=${item.cristin_result_id}" target="_blank">View in Cristin</a>`;
+          resultsDiv.appendChild(div);
+        });
+      } catch (err) {
+        resultsDiv.innerHTML = 'Error fetching results: ' + err.message;
+      }
+    }
+    fetchCristinResults();
+  </script>
+</body>
+</html>
