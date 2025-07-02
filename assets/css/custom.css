@@ -11,11 +11,11 @@ h4 {
 }
 
 a {
-  color: #A7A1F4 !important;
+  color: #363644 !important;
 }
 a:hover,
 a:focus {
-  color: #363644 !important;
+  color: #A7A1F4 !important;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Inter:400,700&display=swap');
