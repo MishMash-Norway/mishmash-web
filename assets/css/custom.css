@@ -17,3 +17,9 @@ a:hover,
 a:focus {
   color: #C1F7AE !important;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+body {
+  font-family: 'Raleway', Arial, sans-serif !important;
+}
