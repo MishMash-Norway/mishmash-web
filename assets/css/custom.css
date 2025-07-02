@@ -9,3 +9,11 @@ h3,
 h4 {
   color: #363644 !important;
 }
+
+a {
+  color: #A7A1F4 !important;
+}
+a:hover,
+a:focus {
+  color: #C1F7AE !important;
+}
