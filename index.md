@@ -1,8 +1,8 @@
 MishMash is a large Norwegian consortium dedicated to exploring the intersection of AI and creativity. Our primary objective is to **create, explore, and reflect on AI for, through, and in creative practices**. We will investigate AI's impact on creative processes, develop innovative CoCreative AI systems, and address AI's ethical, cultural, and societal implications in creative domains.
 
-<p align="center">
-    <img src="assets/images/MishMash-figurer-01-crop.svg" alt="MishMash explores the meeting point of humans and machines with art and science" width="400px" />
-</p>
+<div style="text-align: center;">
+    <img src="assets/images/MishMash-figurer-01-crop.svg" alt="MishMash explores the meeting point of humans and machines with art and science" width="400">
+</div>
 
 
 ## Why?
@@ -25,9 +25,9 @@ There are many possibilities with Creative and CoCreative AI systems, but also n
 
 MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives*.
 
-<p align="center">
-    <img src="assets/images/MishMash-figurer-03-crop.svg" alt="MishMash cube" width="500px" />
-</p>
+<div style="text-align: center;">
+    <img src="assets/images/MishMash-figurer-03-crop.svg" alt="MishMash cube" width="500">
+</div>
 
 The WPs are designed around seven core *themes*, addressing the challenges outlined in the previous section. While some WPs focus on leveraging AI in creative—primarily artistic—applications, others explore the innovative use of AI in adjacent domains, fostering a dynamic interplay between art, science, and society. The work will be conducted by combining a multitude of scientific and arts-based theories and methods, which can be summarised in three interconnected *research approaches*:
 
