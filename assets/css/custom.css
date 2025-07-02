@@ -23,3 +23,7 @@ a:focus {
 body {
   font-family: 'Raleway', Arial, sans-serif !important;
 }
+
+.btn {
+  color: #363644 !important;
+}
