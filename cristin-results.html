@@ -40,7 +40,15 @@
           const type = item.result_type && item.result_type['en'] ? item.result_type['en'] : '';
           const div = document.createElement('div');
           div.className = 'result';
-          div.innerHTML = `<div class="title"><em>${title}</em></div>
+          // Find a link of type FULLTEKST if available
+          let link = '';
+          if (Array.isArray(item.links)) {
+            const fulltekst = item.links.find(l => l.url_type === 'FULLTEKST' && l.url);
+            if (fulltekst) {
+              link = fulltekst.url;
+            }
+          }
+          div.innerHTML = `<div class="title"><em>${link ? `<a href="${link}" target="_blank" rel="noopener">${title}</a>` : title}</em></div>
             <div>
                 ${
                     item.contributors && item.contributors.preview && item.contributors.preview.length > 0
