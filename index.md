@@ -1,7 +1,7 @@
 MishMash is a large Norwegian consortium dedicated to exploring the intersection of AI and creativity. Our primary objective is to **create, explore, and reflect on AI for, through, and in creative practices**. We will investigate AI's impact on creative processes, develop innovative CoCreative AI systems, and address AI's ethical, cultural, and societal implications in creative domains.
 
 <p align="center">
-    <img src="assets/images/MishMash-figurer-01-crop.svg" alt="MishMash is a network that explores the meeting point between humans and machines, using both artistic and scientific research methods" width="400px" />
+    <img src="assets/images/MishMash-figurer-01-crop.svg" alt="MishMash explores the meeting point of humans and machines with art and science" width="400px" />
 </p>
 
 
@@ -175,7 +175,7 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
 - [Thomas de Ridder](https://www.uib.no/personer/Thomas.de.Ridder) (UiB), Research advisor
 - [Nina Rundgren](https://www.hf.uio.no/imv/english/people/adm/ninarund/index.html) (UiO), Head of administration
 
-[![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](https://www.arj.no/images/2025/06/jensenius-ki-milliarden-1000x562.jpg)](https://www.uio.no/ritmo/english/people/management/alexanje/)
+![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](https://www.arj.no/images/2025/06/jensenius-ki-milliarden-1000x562.jpg)
 *MishMash will be directed by [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) together with deputy directors [Ida Jahr](https://www.inn.no/english/find-an-employee/ida-jahr.html) (INN) and [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA). (Photo: UiO)*
 
 
