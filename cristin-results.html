@@ -16,7 +16,7 @@
 
   <script>
     async function fetchCristinResults() {
-      const url = 'https://api.cristin.no/v2/results?project_funding=357438&per_page=20';
+      const url = 'https://api.cristin.no/v2/results?funding_source=NFR&project_code=357438';
       const resultsDiv = document.getElementById('results');
       try {
         const response = await fetch(url);
