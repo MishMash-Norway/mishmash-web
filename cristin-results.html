@@ -41,9 +41,9 @@
           const div = document.createElement('div');
           div.className = 'result';
           div.innerHTML = `<div class="title">${title}</div>
-            <div>Type: ${type}</div>
+            <div>Type: ${item.type}</div>
             <div>Year: ${item.year_published || ''}</div>
-            <div>Place: ${place}</div>
+            <div>Place: ${item.place}</div>
             <div>
                 Contributors:
                 ${
