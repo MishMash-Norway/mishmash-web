@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Cristin Project Results</title>
-  <style>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+<!--<style>
     body { font-family: Inter, Arial, sans-serif; margin: 2em; }
     .result { margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee; }
     .title { font-weight: bold; }
     .loading { color: #888; }
-  </style>
+  </style>-->
 </head>
 <body>
-  <h1>Cristin Results for Project Funding ID 357438</h1>
+  <h1>Reported Cristin Results for MishMash Centre for AI and Creativity</h1>
   <div id="results"><span class="loading">Loading...</span></div>
 
   <script>
@@ -39,7 +42,16 @@
           div.className = 'result';
           div.innerHTML = `<div class="title">${title}</div>
             <div>Type: ${type}</div>
-            <div>Year: ${year}</div>
+            <div>Year: ${year_published}</div>
+            <div>Place: ${place}</div>
+            <div>
+                Contributors:
+                ${
+                    item.contributors && item.contributors.preview && item.contributors.preview.length > 0
+                        ? item.contributors.preview.map(c => `${c.surname}, ${c.first_name}`).join('; ')
+                        : 'N/A'
+                }
+            </div>
             <a href="https://app.cristin.no/results/show.html?id=${item.cristin_result_id}" target="_blank">View in Cristin</a>`;
           resultsDiv.appendChild(div);
         });
