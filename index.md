@@ -282,4 +282,10 @@ In alphabetical order:
 -   [Vest‐Agder Museum](https://www.vestagdermuseet.no/)
 -   [VRINN](https://vrinn.no/)
 
+### International partners
+
 Numerous international academic and non-academic partners will also be involved, and we will set up an affiliate program for others to join the network and participate in relevant activities. 
+
+## More information
+
+For now, our [LinkedIn page](https://www.linkedin.com/company/107529241/) is the best place to be informed about what is going on.
