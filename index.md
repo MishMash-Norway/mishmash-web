@@ -167,7 +167,7 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
 
 ## Who?
 
-### Leader Group
+### Management group
 
 - [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO), Director
 - [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA), Deputy director
@@ -288,4 +288,6 @@ Numerous international academic and non-academic partners will also be involved,
 
 ## More information
 
-For now, our [LinkedIn page](https://www.linkedin.com/company/107529241/) is the best place to be informed about what is going on.
+- Follow us on [LinkedIn page](https://www.linkedin.com/company/107529241/) 
+- Subscribe to our low-volume [mailing list](https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info)
+- Get in touch directly with someone in the [leader group](https://mishmash.no/#who)
