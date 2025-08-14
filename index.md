@@ -288,6 +288,6 @@ Numerous international academic and non-academic partners will also be involved,
 
 ## More information
 
-- Follow us on [LinkedIn page](https://www.linkedin.com/company/107529241/) 
 - Subscribe to our low-volume [mailing list](https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info)
+- Follow us on [LinkedIn page](https://www.linkedin.com/company/107529241/) and [Instagram](https://www.instagram.com/aimishmash/)
 - Get in touch directly with someone in the [leader group](https://mishmash.no/#who)
