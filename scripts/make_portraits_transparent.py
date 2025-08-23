@@ -5,6 +5,8 @@ input_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../asset
 output_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../assets/images/portraits/circle'))
 os.makedirs(output_folder, exist_ok=True)
 
+MAX_SIZE = 300
+
 for filename in os.listdir(input_folder):
     if filename.lower().endswith(('.png', '.jpg', '.jpeg')):
         img_path = os.path.join(input_folder, filename)
@@ -16,6 +18,11 @@ for filename in os.listdir(input_folder):
         right = left + size
         bottom = top + size
         img = img.crop((left, top, right, bottom))
+
+        # Resize if necessary
+        if size > MAX_SIZE:
+            img = img.resize((MAX_SIZE, MAX_SIZE), Image.LANCZOS)
+            size = MAX_SIZE
 
         # Create mask
         mask = Image.new('L', (size, size), 0)
