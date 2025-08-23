@@ -210,7 +210,8 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
 - [Zhang Qian](https://mra.cuc.edu.cn/yy/2023/0428/c9672a206535/page.htm) (Prof. music and recording art, Communication University of China, China)
 
 
-### Norwegian research partners 
+<details>
+    <summary>Norwegian research partners  (click to expand)</summary>
 
 In alphabetical order based on acronym:  
 
@@ -235,61 +236,65 @@ In alphabetical order based on acronym:
 -   [University of Bergen (UiB)](https://www.uib.no/en)
 -   [University of Oslo (UiO)](https://www.uio.no/english/index.html)
 -   [University of Tromsø (UiT)](https://en.uit.no/)
+</details>
 
-### Other Norwegian partners
+<details>
+    <summary>Other Norwegian partners (click to expand)</summary>
 
-In alphabetical order: 
+    In alphabetical order: 
 
+    - [AKKS Norge (In Norwegian)](https://akks.no/)
+    - [ANNO](https://annomuseum.no/en)
+    - [Atelier Nord](https://ateliernord.no/?lang=en)
+    - [BEK](https://bek.no/en/)
+    - [Bergen International Festival](https://www.fib.no/en)
+    - [Borealis](https://www.borealisfestival.no/en/home/)
+    - [Cultiva](https://www.cultiva.no/en/)
+    - [DHKO](https://dhko.no/en)
+    - [Fynd Reality AS](https://www.fyndreality.com/)
+    - [GramArt (In Norwegian)](https://www.gramart.no/)
+    - [GRAMO](https://en.gramo.no/)
+    - [Halogen AS](https://halogen.no/en/)
+    - [Hamarregionen utvikling](https://hamarregionen.no/move-to-the-hamar-region/)
+    - [HelseINN (In Norwegian)](https://helseinn.no/)
+    - [JM Norway](https://www.jmn.no/eng)
+    - [Kilden Performing Arts Centre](https://kilden.com/en/)
+    - [KODE Bergen Art Museum](https://www.kodebergen.no/en)
+    - [Kunstsilo](https://www.kunstsilo.no/en)
+    - [Kulturskolerådet (In Norwegian)](https://kulturskoleradet.no/)
+    - [Kulturtanken (In Norwegian)](https://www.kulturtanken.no/)
+    - [Media Cluster Norway AS](https://mediacitybergen.no/) 
+    - Multikjetil AS
+    - [Nasjonalmuseet](https://www.nasjonalmuseet.no/en/)
+    - [Norwegian Centre for Arts and Culture in Education (NCACE)](https://kunstkultursenteret.no/english/)
+    - [Notam](https://notam.no/en/)
+    - [Norwegian Society of Composers and Lyricists (NOPA)](https://nopa.no/english/)
+    - [Norwegian AI Cloud (NAIC)](https://www.naic.no/english/)
+    - [Norwegian Broadcasting Corporation (NRK) (In Norwegian)](https://www.nrk.no/)
+    - [Oslo Kreativ AI (OKAI)](https://www.kreativai.no/) 
+    - [Polyfon](https://polyfon.no/en_US/) 
+    - [PUNKT](https://punktfestival.no/)
+    - [Reimagine AS](https://reimagine.no/)
+    - [Sarepta Studio AS](https://sareptastudio.com/) 
+    - [Skapia (In Norwegian)](https://skapia.no/)
+    - [Skolene i Innlandet (In Norwegian)](https://innlandetfylke.no/)
+    - [StoryPhone AS (In Norwegian)](https://www.storyphone.no/)
+    - [Oslo Science Centre](https://www.tekniskmuseum.no/en/)
+    - [TEKS](https://teks.no/)
+    - [TONO](https://www.tono.no/en/) 
+    - [Ultima – Oslo Contemporary Music Festival](https://www.ultima.no/en/)
+    - [Vest‐Agder Museum](https://www.vestagdermuseet.no/)
+    - [VRINN](https://vrinn.no/)
+</details>
 
--   [AKKS Norge (In Norwegian)](https://akks.no/)
--   [ANNO](https://annomuseum.no/en)
--   [Atelier Nord](https://ateliernord.no/?lang=en)
--   [BEK](https://bek.no/en/)
--   [Bergen International Festival](https://www.fib.no/en)
--   [Borealis](https://www.borealisfestival.no/en/home/)
--   [Cultiva](https://www.cultiva.no/en/)
--   [DHKO](https://dhko.no/en)
--   [Fynd Reality AS](https://www.fyndreality.com/)
--   [GramArt (In Norwegian)](https://www.gramart.no/)
--   [GRAMO](https://en.gramo.no/)
--   [Halogen AS](https://halogen.no/en/)
--   [Hamarregionen utvikling](https://hamarregionen.no/move-to-the-hamar-region/)
--   [HelseINN (In Norwegian)](https://helseinn.no/)
--   [JM Norway](https://www.jmn.no/eng)
--   [Kilden Performing Arts Centre](https://kilden.com/en/)
--   [KODE Bergen Art Museum](https://www.kodebergen.no/en)
--   [Kunstsilo](https://www.kunstsilo.no/en)
--   [Kulturskolerådet (In Norwegian)](https://kulturskoleradet.no/)
--   [Kulturtanken (In Norwegian)](https://www.kulturtanken.no/)
--   [Media Cluster Norway AS](https://mediacitybergen.no/) 
--   Multikjetil AS
--   [Nasjonalmuseet](https://www.nasjonalmuseet.no/en/)
--   [Norwegian Centre for Arts and Culture in Education (NCACE)](https://kunstkultursenteret.no/english/)
--   [Notam](https://notam.no/en/)
--   [Norwegian Society of Composers and Lyricists (NOPA)](https://nopa.no/english/)
--   [Norwegian AI Cloud (NAIC)](https://www.naic.no/english/)
--   [Norwegian Broadcasting Corporation (NRK) (In Norwegian)](https://www.nrk.no/)
--   [Oslo Kreativ AI (OKAI)](https://www.kreativai.no/) 
--   [Polyfon](https://polyfon.no/en_US/) 
--   [PUNKT](https://punktfestival.no/)
--   [Reimagine AS](https://reimagine.no/)
--   [Sarepta Studio AS](https://sareptastudio.com/) 
--   [Skapia (In Norwegian)](https://skapia.no/)
--   [Skolene i Innlandet (In Norwegian)](https://innlandetfylke.no/)
--   [StoryPhone AS (In Norwegian)](https://www.storyphone.no/)
--   [Oslo Science Centre](https://www.tekniskmuseum.no/en/)
--   [TEKS](https://teks.no/)
--   [TONO](https://www.tono.no/en/) 
--   [Ultima – Oslo Contemporary Music Festival](https://www.ultima.no/en/)
--   [Vest‐Agder Museum](https://www.vestagdermuseet.no/)
--   [VRINN](https://vrinn.no/)
-
-### International partners
-
+<details>
+    <summary>International partners (click to expand)</summary>
 Numerous international academic and non-academic partners will also be involved, and we will set up an affiliate program for others to join the network and participate in relevant activities. 
+</details>
+
 
 ## More information
 
-- Subscribe to our low-volume [mailing list](https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info)
+- Subscribe to our (low-volume) [mailing list](https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info) for information about events and job openings
 - Follow us on [LinkedIn page](https://www.linkedin.com/company/107529241/) and [Instagram](https://www.instagram.com/aimishmash/)
-- Get in touch directly with someone in the [leader group](https://mishmash.no/#who)
+- Get in touch directly with someone in the [leader group](https://mishmash.no/#who) to discuss how to be involved
