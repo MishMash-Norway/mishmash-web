@@ -211,8 +211,9 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
 
 ### Partners
 
+---
 <details>
-    <summary>Norwegian research partners (click to expand)</summary>
+    <summary>+ Norwegian research partners</summary>
 
     <ul>
         <li><a href="https://www.aho.no/english/">The Oslo School of Architecture and Design (AHO)</a></li>
@@ -238,9 +239,10 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
         <li><a href="https://en.uit.no/">University of Tromsø (UiT)</a></li>
     </ul>
 </details>
+---
 
 <details>
-    <summary>Other Norwegian partners (click to expand)</summary>
+    <summary>+ Other Norwegian partners</summary>
     <p>In alphabetical order:</p>
     <ul>
         <li><a href="https://akks.no/">AKKS Norge (In Norwegian)</a></li>
@@ -287,11 +289,13 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
         <li><a href="https://vrinn.no/">VRINN</a></li>
     </ul>
 </details>
+---
 
 <details>
-    <summary>International partners (click to expand)</summary>
+    <summary>+ International partners</summary>
 Numerous international academic and non-academic partners will also be involved, and we will set up an affiliate program for others to join the network and participate in relevant activities. 
 </details>
+---
 
 
 ## More information
