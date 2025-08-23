@@ -209,82 +209,83 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
 - [Xavier Serra](https://www.upf.edu/web/xavier-serra) (Prof. music technology, Universitat Pompeu Fabra, Spain)
 - [Zhang Qian](https://mra.cuc.edu.cn/yy/2023/0428/c9672a206535/page.htm) (Prof. music and recording art, Communication University of China, China)
 
+### Partners
 
 <details>
-    <summary>Norwegian research partners  (click to expand)</summary>
+    <summary>Norwegian research partners (click to expand)</summary>
 
-In alphabetical order based on acronym:  
-
--   [The Oslo School of Architecture and Design (AHO)](https://www.aho.no/english/)
--   [Norwegian Business School (BI)](https://www.bi.edu/)
--   [Østfold University College (HiØ)](https://www.hiof.no/english/)
--   [Western Norway University of Applied Sciences (HVL)](https://www.hvl.no/en/)
--   [University of Inland Norway (INN)](https://www.inn.no/english/)
--   [The Oslo National Academy of the arts (KHiO)](https://khio.no/en)
--   [Kristiania University College (Kristiania)](https://www.kristiania.no/en/)
--   [National Library of Norway (In Norwegian)](https://www.nb.no/)
--   [The Climate and Environmental Research Institute (NILU)](https://nilu.com/)
--   [NLA University College (NLA)](https://www.nla.no/en/)
--   [Norwegian Academy of Music (NMH)](https://nmh.no/en/)
--   [Nord University (Nord)](https://www.nord.no/en)
--   [Norwegian Institute for Sustainability Research (NORSUS)](https://norsus.no/en/)
--   [Norwegian University of Science and Technology (NTNU)](https://www.ntnu.edu/)
--   [Oslo Metropolitan University (OsloMet)](https://www.oslomet.no/en)
--   [Simula Research Laboratory (SIMULAMET)](https://www.simulamet.no/)
--   [The Foundation for Industrial and Technical Research (SINTEF)](https://www.sintef.no/en/)
--   [University of Agder (UiA)](https://www.uia.no/english/index.html)
--   [University of Bergen (UiB)](https://www.uib.no/en)
--   [University of Oslo (UiO)](https://www.uio.no/english/index.html)
--   [University of Tromsø (UiT)](https://en.uit.no/)
+    <ul>
+        <li><a href="https://www.aho.no/english/">The Oslo School of Architecture and Design (AHO)</a></li>
+        <li><a href="https://www.bi.edu/">Norwegian Business School (BI)</a></li>
+        <li><a href="https://www.hiof.no/english/">Østfold University College (HiØ)</a></li>
+        <li><a href="https://www.hvl.no/en/">Western Norway University of Applied Sciences (HVL)</a></li>
+        <li><a href="https://www.inn.no/english/">University of Inland Norway (INN)</a></li>
+        <li><a href="https://khio.no/en">The Oslo National Academy of the Arts (KHiO)</a></li>
+        <li><a href="https://www.kristiania.no/en/">Kristiania University College (Kristiania)</a></li>
+        <li><a href="https://www.nb.no/">National Library of Norway (In Norwegian)</a></li>
+        <li><a href="https://nilu.com/">The Climate and Environmental Research Institute (NILU)</a></li>
+        <li><a href="https://www.nla.no/en/">NLA University College (NLA)</a></li>
+        <li><a href="https://nmh.no/en/">Norwegian Academy of Music (NMH)</a></li>
+        <li><a href="https://www.nord.no/en">Nord University (Nord)</a></li>
+        <li><a href="https://norsus.no/en/">Norwegian Institute for Sustainability Research (NORSUS)</a></li>
+        <li><a href="https://www.ntnu.edu/">Norwegian University of Science and Technology (NTNU)</a></li>
+        <li><a href="https://www.oslomet.no/en">Oslo Metropolitan University (OsloMet)</a></li>
+        <li><a href="https://www.simulamet.no/">Simula Research Laboratory (SIMULAMET)</a></li>
+        <li><a href="https://www.sintef.no/en/">The Foundation for Industrial and Technical Research (SINTEF)</a></li>
+        <li><a href="https://www.uia.no/english/index.html">University of Agder (UiA)</a></li>
+        <li><a href="https://www.uib.no/en">University of Bergen (UiB)</a></li>
+        <li><a href="https://www.uio.no/english/index.html">University of Oslo (UiO)</a></li>
+        <li><a href="https://en.uit.no/">University of Tromsø (UiT)</a></li>
+    </ul>
 </details>
 
 <details>
     <summary>Other Norwegian partners (click to expand)</summary>
-
-    In alphabetical order: 
-
-    - [AKKS Norge (In Norwegian)](https://akks.no/)
-    - [ANNO](https://annomuseum.no/en)
-    - [Atelier Nord](https://ateliernord.no/?lang=en)
-    - [BEK](https://bek.no/en/)
-    - [Bergen International Festival](https://www.fib.no/en)
-    - [Borealis](https://www.borealisfestival.no/en/home/)
-    - [Cultiva](https://www.cultiva.no/en/)
-    - [DHKO](https://dhko.no/en)
-    - [Fynd Reality AS](https://www.fyndreality.com/)
-    - [GramArt (In Norwegian)](https://www.gramart.no/)
-    - [GRAMO](https://en.gramo.no/)
-    - [Halogen AS](https://halogen.no/en/)
-    - [Hamarregionen utvikling](https://hamarregionen.no/move-to-the-hamar-region/)
-    - [HelseINN (In Norwegian)](https://helseinn.no/)
-    - [JM Norway](https://www.jmn.no/eng)
-    - [Kilden Performing Arts Centre](https://kilden.com/en/)
-    - [KODE Bergen Art Museum](https://www.kodebergen.no/en)
-    - [Kunstsilo](https://www.kunstsilo.no/en)
-    - [Kulturskolerådet (In Norwegian)](https://kulturskoleradet.no/)
-    - [Kulturtanken (In Norwegian)](https://www.kulturtanken.no/)
-    - [Media Cluster Norway AS](https://mediacitybergen.no/) 
-    - Multikjetil AS
-    - [Nasjonalmuseet](https://www.nasjonalmuseet.no/en/)
-    - [Norwegian Centre for Arts and Culture in Education (NCACE)](https://kunstkultursenteret.no/english/)
-    - [Notam](https://notam.no/en/)
-    - [Norwegian Society of Composers and Lyricists (NOPA)](https://nopa.no/english/)
-    - [Norwegian AI Cloud (NAIC)](https://www.naic.no/english/)
-    - [Norwegian Broadcasting Corporation (NRK) (In Norwegian)](https://www.nrk.no/)
-    - [Oslo Kreativ AI (OKAI)](https://www.kreativai.no/) 
-    - [Polyfon](https://polyfon.no/en_US/) 
-    - [PUNKT](https://punktfestival.no/)
-    - [Reimagine AS](https://reimagine.no/)
-    - [Sarepta Studio AS](https://sareptastudio.com/) 
-    - [Skapia (In Norwegian)](https://skapia.no/)
-    - [Skolene i Innlandet (In Norwegian)](https://innlandetfylke.no/)
-    - [StoryPhone AS (In Norwegian)](https://www.storyphone.no/)
-    - [Oslo Science Centre](https://www.tekniskmuseum.no/en/)
-    - [TEKS](https://teks.no/)
-    - [TONO](https://www.tono.no/en/) 
-    - [Ultima – Oslo Contemporary Music Festival](https://www.ultima.no/en/)
-    - [Vest‐Agder Museum](https://www.vestagdermuseet.no/)
-    - [VRINN](https://vrinn.no/)
+    <p>In alphabetical order:</p>
+    <ul>
+        <li><a href="https://akks.no/">AKKS Norge (In Norwegian)</a></li>
+        <li><a href="https://annomuseum.no/en">ANNO</a></li>
+        <li><a href="https://ateliernord.no/?lang=en">Atelier Nord</a></li>
+        <li><a href="https://bek.no/en/">BEK</a></li>
+        <li><a href="https://www.fib.no/en">Bergen International Festival</a></li>
+        <li><a href="https://www.borealisfestival.no/en/home/">Borealis</a></li>
+        <li><a href="https://www.cultiva.no/en/">Cultiva</a></li>
+        <li><a href="https://dhko.no/en">DHKO</a></li>
+        <li><a href="https://www.fyndreality.com/">Fynd Reality AS</a></li>
+        <li><a href="https://www.gramart.no/">GramArt (In Norwegian)</a></li>
+        <li><a href="https://en.gramo.no/">GRAMO</a></li>
+        <li><a href="https://halogen.no/en/">Halogen AS</a></li>
+        <li><a href="https://hamarregionen.no/move-to-the-hamar-region/">Hamarregionen utvikling</a></li>
+        <li><a href="https://helseinn.no/">HelseINN (In Norwegian)</a></li>
+        <li><a href="https://www.jmn.no/eng">JM Norway</a></li>
+        <li><a href="https://kilden.com/en/">Kilden Performing Arts Centre</a></li>
+        <li><a href="https://www.kodebergen.no/en">KODE Bergen Art Museum</a></li>
+        <li><a href="https://www.kunstsilo.no/en">Kunstsilo</a></li>
+        <li><a href="https://kulturskoleradet.no/">Kulturskolerådet (In Norwegian)</a></li>
+        <li><a href="https://www.kulturtanken.no/">Kulturtanken (In Norwegian)</a></li>
+        <li><a href="https://mediacitybergen.no/">Media Cluster Norway AS</a></li>
+        <li>Multikjetil AS</li>
+        <li><a href="https://www.nasjonalmuseet.no/en/">Nasjonalmuseet</a></li>
+        <li><a href="https://kunstkultursenteret.no/english/">Norwegian Centre for Arts and Culture in Education (NCACE)</a></li>
+        <li><a href="https://notam.no/en/">Notam</a></li>
+        <li><a href="https://nopa.no/english/">Norwegian Society of Composers and Lyricists (NOPA)</a></li>
+        <li><a href="https://www.naic.no/english/">Norwegian AI Cloud (NAIC)</a></li>
+        <li><a href="https://www.nrk.no/">Norwegian Broadcasting Corporation (NRK) (In Norwegian)</a></li>
+        <li><a href="https://www.kreativai.no/">Oslo Kreativ AI (OKAI)</a></li>
+        <li><a href="https://polyfon.no/en_US/">Polyfon</a></li>
+        <li><a href="https://punktfestival.no/">PUNKT</a></li>
+        <li><a href="https://reimagine.no/">Reimagine AS</a></li>
+        <li><a href="https://sareptastudio.com/">Sarepta Studio AS</a></li>
+        <li><a href="https://skapia.no/">Skapia (In Norwegian)</a></li>
+        <li><a href="https://innlandetfylke.no/">Skolene i Innlandet (In Norwegian)</a></li>
+        <li><a href="https://www.storyphone.no/">StoryPhone AS (In Norwegian)</a></li>
+        <li><a href="https://www.tekniskmuseum.no/en/">Oslo Science Centre</a></li>
+        <li><a href="https://teks.no/">TEKS</a></li>
+        <li><a href="https://www.tono.no/en/">TONO</a></li>
+        <li><a href="https://www.ultima.no/en/">Ultima – Oslo Contemporary Music Festival</a></li>
+        <li><a href="https://www.vestagdermuseet.no/">Vest‐Agder Museum</a></li>
+        <li><a href="https://vrinn.no/">VRINN</a></li>
+    </ul>
 </details>
 
 <details>
