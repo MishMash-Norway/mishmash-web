@@ -4,6 +4,9 @@ MishMash is a large Norwegian consortium dedicated to exploring the intersection
     <img src="assets/images/MishMash-figurer-01-crop.svg" alt="MishMash explores the meeting point of humans and machines with art and science" width="400">
 </div>
 
+## News
+
+- First vacancy: [Administrativ koordinator](https://www.jobbnorge.no/ledige-stillinger/stilling/285209/administrativ-koordinator-for-det-nasjonale-ki-senteret-mishmash) (Deadline: 15 September)
 
 ## Why?
 
