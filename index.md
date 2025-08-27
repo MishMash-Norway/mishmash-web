@@ -300,6 +300,8 @@ Numerous international academic and non-academic partners will also be involved,
 </details>
 ---
 
+## Funding
+
 <div style="text-align: center;">
     <img src="assets/images/logos/NFR/Sort/Stottet_av_Forskningsradet_logo_Engelsk_01_Weller_RGB.svg" alt="RCN logo">
 </div>
