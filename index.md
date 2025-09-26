@@ -9,8 +9,7 @@ MishMash is a large Norwegian consortium dedicated to exploring the intersection
 While waiting for MishMash to start up, here are two relevant "vorspiel" activities organized by MishMash partners: 
 
 - [Infrastructure and interface conference](https://www.inn.no/english/events/dhko-2025/) (15–16 October 2025)
-- [Machines – moving – music. A symposium on creative responses to AI](https://nmh.no/en/events/symposium-ai-creativity) (23–24 October 2025)
-- 
+- [Machines – moving – music. A symposium on creative responses to AI](https://nmh.no/en/events/symposium-ai-creativity) (23–24 October 2025) 
 
 ## Why?
 
@@ -185,6 +184,7 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
 - [Nina Rundgren](https://www.hf.uio.no/imv/english/people/adm/ninarund/index.html) (UiO), Head of administration
 
 ![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](assets/images/portraits/management/3D9A4998_640px.jpg)
+
 *MishMash will be directed by [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) together with deputy directors [Ida Jahr](https://www.inn.no/english/find-an-employee/ida-jahr.html) (INN) and [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA). (Photo: UiO)*
 
 
