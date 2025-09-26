@@ -6,7 +6,11 @@ MishMash is a large Norwegian consortium dedicated to exploring the intersection
 
 ## News
 
-- First vacancy: [Administrativ koordinator](https://www.jobbnorge.no/ledige-stillinger/stilling/285209/administrativ-koordinator-for-det-nasjonale-ki-senteret-mishmash) (Deadline: 15 September)
+While waiting for MishMash to start up, here are two relevant "vorspiel" activities organized by MishMash partners: 
+
+- [Infrastructure and interface conference](https://www.inn.no/english/events/dhko-2025/) (15–16 October 2025)
+- [Machines – moving – music. A symposium on creative responses to AI](https://nmh.no/en/events/symposium-ai-creativity) (23–24 October 2025)
+- 
 
 ## Why?
 
@@ -46,7 +50,7 @@ The centre will be a lively, virtual research environment, with weekly online me
 
 
 ### WP1: AI for artistic performances  
-*WP Leaders: [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (UiO) / [Morten Qvenild](https://nmh.no/en/contact-us/employees/morten-qvenild) (NMH) / [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (HiØ)*
+*WP Leaders: [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (UiO) / [Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (NMH) / [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (HiØ)*
 
 This WP focuses on how real-time interaction with AI systems transforms the creative process in applications such as music and art performance, interactive installations, and gaming. We will emphasise AI systems that facilitate continuous interactions between humans and machine agents, especially multiple and embodied AI agents. Countering the current trends of very large models with hard-to-control outputs, we will focus on balancing data-based approaches with artists' knowledge and search-based methods to achieve personalised and novel outputs. In contrast to WP2 (see below), the emphasis is on supporting live, dynamic, and interactive performance rather than creating a fixed final creative product. Our use cases require synchronous, rich, continuous feedback that unfolds naturally and does not obstruct performance during real-time co-creative improvisation and collaboration. Designing AI systems that can provide and interpret such feedback requires a broader understanding of what must be "explainable" when interacting with AI during creative performance. We posit that embodied AI systems that can sense, act, and behave in a way that is intuitively understood by humans offer unexplored opportunities for spontaneous co-creation in artistic performance and exploration that reach far beyond the current state of the art.
 
@@ -180,7 +184,7 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
 - [Thomas de Ridder](https://www.uib.no/personer/Thomas.de.Ridder) (UiB), Research advisor
 - [Nina Rundgren](https://www.hf.uio.no/imv/english/people/adm/ninarund/index.html) (UiO), Head of administration
 
-![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](https://www.arj.no/images/2025/06/jensenius-ki-milliarden-1000x562.jpg)
+![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](assets/images/portraits/management/3D9A4998_640px.jpg)
 *MishMash will be directed by [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) together with deputy directors [Ida Jahr](https://www.inn.no/english/find-an-employee/ida-jahr.html) (INN) and [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA). (Photo: UiO)*
 
 
@@ -188,7 +192,7 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
 
 | Work Package                                      | Lead                                                                                                                                         | Sidekick 1                                                                                                                        | Sidekick 2                                                                                                                        |
 |---------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| **WP1: AI for artistic performances**             | [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (UiO)                                                        | [Morten Qvenild](https://nmh.no/en/contact-us/employees/morten-qvenild) (NMH)                                                     | [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (HiØ)                                   |
+| **WP1: AI for artistic performances**             | [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (UiO)                                                        | [Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (NMH)                                                     | [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (HiØ)                                   |
 | **WP2: AI in artistic processes**                 | [Budhaditya Chattopadhyay](https://www.uib.no/en/persons/Budhaditya.Chattopadhyay) (UiB)                                                     | [Sashi Komandur](https://www.inn.no/english/find-an-employee/sashi-komandur.html) (INN)                                            | [Synne Tollerud Bull](https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/) (Kristiania) |
 | **WP3: Creative use of AI for health and well-being** | [Claire Ghetti](https://www.uib.no/en/persons/Claire.Ghetti) (UiB)                                                                          | [Andreas Bergsland](https://www.ntnu.edu/employees/andreas.bergsland) (NTNU)                                                      | [Jonna Vuoskoski](https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html) (UiO)                                  |
 | **WP4: Creative use of AI in education**          | [Hilde Norbakken](https://www.uia.no/english/about-uia/employees/hildeno/index.html) (UiA)                                                   | [Sidsel Karlsen](https://nmh.no/en/contact-us/employees/sidsel-karlsen) (NMH)                                                     | [Fredrik Graver](https://www.inn.no/english/find-an-employee/fredrik-graver.html) (INN)                                           |
