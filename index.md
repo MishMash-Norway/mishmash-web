@@ -4,12 +4,6 @@ MishMash is a large Norwegian consortium dedicated to exploring the intersection
     <img src="assets/images/MishMash-figurer-01-crop.svg" alt="MishMash explores the meeting point of humans and machines with art and science" width="400">
 </div>
 
-## News
-
-While waiting for MishMash to start up, here are two relevant "vorspiel" activities organized by MishMash partners: 
-
-- [Infrastructure and interface conference](https://www.inn.no/english/events/dhko-2025/) (15–16 October 2025)
-- [Machines – moving – music. A symposium on creative responses to AI](https://nmh.no/en/events/symposium-ai-creativity) (23–24 October 2025) 
 
 ## Why?
 
