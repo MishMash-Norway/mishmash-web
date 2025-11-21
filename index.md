@@ -4,10 +4,6 @@ MishMash is a large Norwegian consortium dedicated to exploring the intersection
     <img src="assets/images/MishMash-figurer-01-crop.svg" alt="MishMash explores the meeting point of humans and machines with art and science" width="400">
 </div>
 
-## Pre-MishMash events
-
-- 3 December: [Concert: Quantum Loops, Broken Symmetries](https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/quantum-music/index.html) (UiO). An evening exploring music with AI and quantum computing.
-
 
 ## Why?
 
