@@ -1,0 +1,10 @@
+---
+layout: default
+title: Events
+---
+<h1>Events</h1>
+<ul>
+{% for item in site.events %}
+  <li>{{ item.url }}{{ item.title }}</a> - {{ item.date | date: "%b %d, %Y" }}</li>
+{% endfor %}
+</ul>

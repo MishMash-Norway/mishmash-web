@@ -1,0 +1,19 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }} - Events</title>
+    <link>{{ site.url }}/events/</link>
+    <description>Latest events from {{ site.title }}</description>
+    {% for item in site.events %}
+    <item>
+      <title>{{ item.title }}</title>
+      <link>{{ site.url }}{{ item.url }}</link>
+      <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
+      <description>{{ item.content | strip_html | truncate: 200 }}</description>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

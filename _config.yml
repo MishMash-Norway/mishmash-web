@@ -1,3 +1,4 @@
+# /home/alexanje/github/mishmash-web/_config.yml
 markdown: kramdown
 remote_theme: pages-themes/cayman@v0.2.0
 title: "MishMash Centre for AI and Creativity"
@@ -8,6 +9,22 @@ license: "CC BY 4.0"
 github:
   is_project_page: true
 plugins:
-- jekyll-remote-theme 
+  - jekyll-remote-theme
+  - jekyll-feed
+
 sass:
-  style: compressed
+  style: compressed
+
+collections:
+  news:
+    output: true
+    permalink: /news/:title/
+  events:
+    output: true
+    permalink: /events/:title/
+
+# optional: ask jekyll-feed to include these collections (if plugin version supports it)
+feed:
+  collections:
+    - news
+    - events
