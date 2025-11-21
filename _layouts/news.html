@@ -4,7 +4,7 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<div class="event-details">
+<div class="news-details">
   <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y at %H:%M" }}</p>
   {% if page.end_date %}<p><strong>End:</strong> {{ page.end_date | date: "%H:%M" }}</p>{% endif %}
   {% if page.location %}<p><strong>Location:</strong> {{ page.location }}</p>{% endif %}
@@ -17,4 +17,4 @@ layout: default
 
 {{ content }}
 
-<p><a href="/events/">← Back to all events</a></p>
+<p><a href="/news/">← Back to all news</a></p>
