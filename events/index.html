@@ -6,8 +6,8 @@ title: Events
 <ul>
 {% for item in site.events %}
   <li>
-    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-    - <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y" }}</time>
+    <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y" }}</time>
+    &mdash; {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
   </li>
 {% endfor %}
 </ul>
