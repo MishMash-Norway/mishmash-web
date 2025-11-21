@@ -8,6 +8,7 @@ MishMash is a large Norwegian consortium dedicated to exploring the intersection
 
 - 3 December: [Concert: Quantum Loops, Broken Symmetries](https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/quantum-music/index.html) (UiO). An evening exploring music with AI and quantum computing.
 
+
 ## Why?
 
 Human creativity has both shaped and been shaped by technological developments. Today, human creativity faces unprecedented challenges and opportunities brought by **Creative AI**, machine systems that can produce results that are both novel and meaningful. This raises several important questions: to what extent are Creative AI systems genuinely creative, how do they differ from human creativity, and how can humans and machines be co‐creative? Furthermore, what are the societal implications of Creative AI, how will producers' and consumers' attitudes towards AI‐generated creative content develop, and how can creative approaches to AI have an impact beyond the cultural and creative sectors?
