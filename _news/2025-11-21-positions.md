@@ -2,7 +2,7 @@
 title: "PhD and Postdoc positions will be announced in December"
 date: 2025-11-21
 author: "Alexander Refsum Jensenius"
-layout: news
+layout: default
 categories: [vacancies]
 description: "New positions will be announced in December"
 image: "/assets/images/news/new-feature.jpg"
