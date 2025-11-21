@@ -5,6 +5,9 @@ title: News
 <h1>News</h1>
 <ul>
 {% for item in site.news %}
-  <li>{{ item.url }}{{ item.title }}</a> - {{ item.date | date: "%b %d, %Y" }}</li>
+  <li>
+    <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y %H:%M" }}</time>
+    - <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+  </li>
 {% endfor %}
 </ul>
