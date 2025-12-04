@@ -1,6 +1,6 @@
 # WP4: Creative use of AI in education
 
-*WP Leaders: [Hilde Norbakken](https://www.uia.no/english/about-uia/employees/hildeno/index.html) (UiA) / [Sidsel Karlsen](https://nmh.no/en/contact-us/employees/sidsel-karlsen) (NMH) / [Fredrik Graver](https://www.inn.no/english/find-an-employee/fredrik-graver.html) (INN)*
+*WP Leaders: [Eirik Sørbø](https://www.uia.no/english/about-uia/employees/eiriks05/) (UiA) / [Sidsel Karlsen](https://nmh.no/en/contact-us/employees/sidsel-karlsen) (NMH) / [Fredrik Graver](https://www.inn.no/english/find-an-employee/fredrik-graver.html) (INN)*
 
 ## Overview
 
