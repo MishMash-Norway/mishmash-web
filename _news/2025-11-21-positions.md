@@ -16,3 +16,14 @@ The work package leader group is currently working on the announcement texts for
 - Høyskolen Kristiania: [PhD Fellowship in Applied Information Technology: Emerging AI/XR Technologies as Mediators and Co-creators of Human Experiences](https://web103.reachmee.com/ext/I021/1682/job?site=10&lang=UK&validator=2d7c408ab404b707c61003f4222c50cb&ihelper=https%3A%2F%2Fwww.kristiania.no%2Fen%2Fabout-kristiania%2Fvacant-positions%2F&job_id=925)
 
 - Høyskolen Kristiania: [PhD Fellowship in Communication and Leadership: Communicating Environmental Futures in the Age of AI](https://web103.reachmee.com/ext/I021/1682/job?site=10&lang=UK&validator=2d7c408ab404b707c61003f4222c50cb&ihelper=https%3A%2F%2Fwww.kristiania.no%2Fen%2Fabout-kristiania%2Fvacant-positions%2F&job_id=922)
+
+- Norwegian Academy of Music: [PhD position in Artistic Research: Music and AI](https://nmh.no/en/contact/research-fellow-2026-mishmash) (1 February 2026)
+
+- Norwegian Academy of Music: [Postdoctoral Fellow in Artistic Practice within Music and Artificial Intelligence](https://www.jobbnorge.no/en/available-jobs/job/290871/postdoctoral-fellow-in-artistic-practice-within-music-and-artificial-intelligence) (1 February 2026)
+
+- University of Oslo: [Doctoral research fellowship in the psychology of music, AI and creativity](https://www.jobbnorge.no/en/available-jobs/job/290355/doctoral-research-fellowship-in-the-psychology-of-music-ai-and-creativity) (1 March 2026)
+
+- University of Oslo: [Postdoctoral research fellowship in Music and AI in the creative and cultural industries](https://www.jobbnorge.no/en/available-jobs/job/290328/postdoctoral-research-fellowship-in-music-and-ai-in-the-creative-and-cultural-industries) (1 March 2026)
+
+- University of Oslo: [Postdoctoral research fellowship in AI for Music Analysis](https://www.jobbnorge.no/en/available-jobs/job/290318/postdoctoral-research-fellowship-in-ai-for-music-analysis) (1 March 2026)
+
