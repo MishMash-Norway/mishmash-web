@@ -19,29 +19,7 @@ The work package leader group is currently working on the announcement texts for
 | Norwegian Academy of Music | [PhD position in Artistic Research: Music and AI](https://nmh.no/en/contact/research-fellow-2026-mishmash) | 1 February 2026 |
 | Norwegian Academy of Music | [Postdoctoral Fellow in Artistic Practice within Music and Artificial Intelligence](https://www.jobbnorge.no/en/available-jobs/job/290871/postdoctoral-fellow-in-artistic-practice-within-music-and-artificial-intelligence) | 1 February 2026 |
 | University of Oslo | [Doctoral research fellowship in the psychology of music, AI and creativity](https://www.jobbnorge.no/en/available-jobs/job/290355/doctoral-research-fellowship-in-the-psychology-of-music-ai-and-creativity) | 1 March 2026 |
-| University of Oslo | [Postdoctoral research fellowship in Music and AI in the creative and cultural industries](https://www.jobbnorge.no/en/available-jobs/job/290328/postdoctoral-research-fellowship-in-music-and-ai-in-the-creative-and-cultural-industries) | 1 March 2026 |
-| University of Oslo | [Postdoctoral research fellowship in AI for Music Analysis](https://www.jobbnorge.no/en/available-jobs/job/290318/postdoctoral-research-fellowship-in-ai-for-music-analysis) | 1 March 2026 |
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const table = document.querySelector('table');
-        const headers = table.querySelectorAll('th');
-        
-        headers.forEach((header, index) => {
-            header.addEventListener('click', () => {
-                const rows = Array.from(table.querySelectorAll('tr:nth-child(n+2)'));
-                const isAscending = header.classList.toggle('ascending');
-                const direction = isAscending ? 1 : -1;
-
-                rows.sort((a, b) => {
-                    const aText = a.children[index].innerText;
-                    const bText = b.children[index].innerText;
-                    return aText.localeCompare(bText) * direction;
-                });
-
-                rows.forEach(row => table.appendChild(row));
-            });
-        });
-    });
-</script>
-
+| University of Oslo | [Postdoctoral fellowship in Music and AI in the creative and cultural industries](https://www.jobbnorge.no/en/available-jobs/job/290328/postdoctoral-research-fellowship-in-music-and-ai-in-the-creative-and-cultural-industries) | 1 March 2026 |
+| University of Oslo | [Postdoctoral fellowship in AI for Music Analysis](https://www.jobbnorge.no/en/available-jobs/job/290318/postdoctoral-research-fellowship-in-ai-for-music-analysis) | 1 March 2026 |
+| University of Agder | [PhD Fellowship at the Faculty of Fine Artsin AI in the Creative and Cultural Industries](https://www.jobbnorge.no/en/available-jobs/job/290289/phd-research-fellowship-at-the-faculty-of-fine-artsin-ai-in-the-creative-and-cultural-industries)| 1 February 2026 |
+| University of Agder | [PhD Fellowship Creative Use of AI in Education](https://www.jobbnorge.no/en/available-jobs/job/290293/phd-research-fellowship-at-the-faculty-of-fine-arts-in-creative-use-of-ai-in-education)| 1 February 2026 |
