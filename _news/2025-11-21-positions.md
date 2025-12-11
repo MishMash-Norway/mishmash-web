@@ -1,5 +1,4 @@
 ---
----
 title: "PhD and Postdoc positions will be announced in December"
 date: 2025-11-21
 author: "Alexander Refsum Jensenius"
