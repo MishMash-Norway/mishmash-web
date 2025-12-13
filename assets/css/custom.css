@@ -12,6 +12,7 @@ h4 {
 
 a {
   color: #363644 !important;
+  text-decoration: underline !important;
 }
 a:hover,
 a:focus {
