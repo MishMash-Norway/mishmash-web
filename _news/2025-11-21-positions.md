@@ -4,7 +4,7 @@ date: 2025-11-21
 author: "Alexander Refsum Jensenius"
 layout: default
 categories: [vacancies]
-description: "New MishMash positions will be advertised in December"
+description: "The first round of MishMash doctoral and postdoctoral fellowships are now announced."
 image: "/assets/images/news/new-feature.jpg"
 ---
 
@@ -27,7 +27,7 @@ These positions generally require that a master's degree has been completed.
 | University of Oslo | Musicology | [Psychology of music, AI and creativity](https://www.jobbnorge.no/en/available-jobs/job/290355/doctoral-research-fellowship-in-the-psychology-of-music-ai-and-creativity) | [WP3](https://mishmash.no/wp3/) | 1 Mar 2026 |
 | University of Inland Norway | Artistic Research | [AI and Creativity in Film, TV, and Games](https://www.jobbnorge.no/en/available-jobs/job/290933/phd-fellows-in-artistic-research-focusing-on-ai-and-creativity-in-film-tv-and-games) (2 positions) | [WP2](https://mishmash.no/wp2/) | 1 Mar 2026 |
 | Handelshøyskolen BI | Rettsvitenskap og styring | [Opphavsrett og KI](https://bi.easycruit.com/vacancy/3575961/45439?iso=no) | [WP5](https://mishmash.no/wp5/) | 1 Mar 2026 |
-| Østfold University College | Computer Science, Engineering and Economics | Human-AI Interaction | [WP1](https://mishmash.no/wp1/) | 1 Mar 2026 |
+| Østfold University College | Computer Science, Engineering and Economics | [Creative Human-AI Interaction](https://www.jobbnorge.no/en/available-jobs/job/291081/doctoral-research-fellow-phd-in-creative-human-ai-interaction) | [WP1](https://mishmash.no/wp1/) | 1 Mar 2026 |
 
 ## Postdoctoral Fellowships
 
