@@ -25,6 +25,7 @@ The work package leader group is currently working on the announcement texts for
 | University of Bergen | [Responsible AI in Health Promotion and Music Therapy](https://www.jobbnorge.no/en/available-jobs/job/291463/phd-research-fellowship-in-responsible-ai-in-health-promotion-and-music-therapy) | 13 February 2026 |
 | University of Oslo | [Psychology of music, AI and creativity](https://www.jobbnorge.no/en/available-jobs/job/290355/doctoral-research-fellowship-in-the-psychology-of-music-ai-and-creativity) | 1 March 2026 |
 | University of Inland Norway | [AI and Creativity in Film, TV, and Games](https://www.jobbnorge.no/en/available-jobs/job/290933/phd-fellows-in-artistic-research-focusing-on-ai-and-creativity-in-film-tv-and-games) | 1 March 2026 |
+| Handelshøyskolen BI | [Institutt for rettsvitenskap og styring - Opphavsrett og KI](https://bi.easycruit.com/vacancy/3575961/45439?iso=no) | 1 March 2026 |
 
 ## Postdoc Fellowships
 
