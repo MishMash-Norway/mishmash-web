@@ -28,6 +28,8 @@ These positions generally require that a master's degree has been completed.
 | University of Oslo | Musicology | [Psychology of music, AI and creativity](https://www.jobbnorge.no/en/available-jobs/job/290355/doctoral-research-fellowship-in-the-psychology-of-music-ai-and-creativity) | 1 March 2026 |
 | University of Inland Norway | Artistic Research | [AI and Creativity in Film, TV, and Games](https://www.jobbnorge.no/en/available-jobs/job/290933/phd-fellows-in-artistic-research-focusing-on-ai-and-creativity-in-film-tv-and-games) (2 positions) | 1 March 2026 |
 | Handelshøyskolen BI | Rettsvitenskap og styring | [Opphavsrett og KI](https://bi.easycruit.com/vacancy/3575961/45439?iso=no) | 1 March 2026 |
+| Østfold University College | Computer Science, Engineering and Economics| Human-AI Interaction | 1 March 2026 |
+
 
 ## Postdoctoral Fellowships
 
@@ -40,3 +42,4 @@ These positions generally require that the PhD dissertation has been submitted b
 | University of Oslo | Musicology | [Music and AI in the creative and cultural industries](https://www.jobbnorge.no/en/available-jobs/job/290328/postdoctoral-research-fellowship-in-music-and-ai-in-the-creative-and-cultural-industries) | 1 March 2026 |
 | University of Oslo | Musicology | [AI for Music Analysis](https://www.jobbnorge.no/en/available-jobs/job/290318/postdoctoral-research-fellowship-in-ai-for-music-analysis) | 1 March 2026 |
 | University of Oslo | Musicology | [AI Methods for Creative Applications](https://www.jobbnorge.no/en/available-jobs/job/291829/postdoctoral-research-fellow-in-ai-methods-for-creative-applications) | 1 March 2026 |
+| Østfold University College | Computer Science, Engineering and Economics| Creative Human-AI Interaction | 1 March 2026 |
