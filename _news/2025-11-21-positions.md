@@ -8,10 +8,12 @@ description: "New MishMash positions will be advertised in December"
 image: "/assets/images/news/new-feature.jpg"
 ---
 
-The work package leader group is currently working on the announcement texts for new PhD and postdoc fellowships that will be advertised in December 2025. Stay tuned for more information!
+MishMash partners are now recruiting the first group of doctoral and postdoctoral fellowships. There are variations in profile and application procedures for the different institutions, so please read the announcement texts carefully. It is possible to apply for multiple positions, they will all have different hiring committees. Please use the contact point(s) indicated in the calls for questions for the positions. For general questions about the announcements, you can contact members of the [management group](https://mishmash.no/#who). 
 
 
-## PhD Fellowships
+## Doctoral Fellowships
+
+These positions generally require that a master's degree has been completed.
 
 | Institution | Title | Deadline |
 |---|---|---|
@@ -27,7 +29,9 @@ The work package leader group is currently working on the announcement texts for
 | University of Inland Norway | [AI and Creativity in Film, TV, and Games](https://www.jobbnorge.no/en/available-jobs/job/290933/phd-fellows-in-artistic-research-focusing-on-ai-and-creativity-in-film-tv-and-games) (2 positions) | 1 March 2026 |
 | Handelshøyskolen BI | [Opphavsrett og KI](https://bi.easycruit.com/vacancy/3575961/45439?iso=no) | 1 March 2026 |
 
-## Postdoc Fellowships
+## Postdoctoral Fellowships
+
+These positions generally require that the PhD dissertation has been submitted before applying and defended before the time of appointment.
 
 | Institution | Title | Deadline |
 |---|---|---|
