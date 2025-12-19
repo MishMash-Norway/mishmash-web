@@ -1,5 +1,5 @@
 ---
-title: "PhD and Postdoc positions will be announced in December"
+title: "18 PhD and 6 Postdoc positions at MishMash/Norway"
 date: 2025-11-21
 author: "Alexander Refsum Jensenius"
 layout: default
@@ -8,7 +8,7 @@ description: "The first round of MishMash doctoral and postdoctoral fellowships 
 image: "/assets/images/news/new-feature.jpg"
 ---
 
-MishMash partners are now recruiting the first group of doctoral and postdoctoral fellowships. There are variations in profile and application procedures for the different institutions, so please read the announcement texts carefully. It is possible to apply for multiple positions, they will all have different hiring committees. Please use the contact point(s) indicated in the calls for questions for the positions. For general questions about the announcements, you can contact members of the [management group](https://mishmash.no/#who).
+MishMash partners are now recruiting the first group of 18 doctoral and 6 postdoctoral fellows. There are variations in profile and application procedures for the different institutions, so please read the announcement texts carefully. It is possible to apply for multiple positions, they will all have different hiring committees. Please use the contact point(s) indicated in the calls for questions for the positions. For general questions about the announcements, you can contact members of the [management group](https://mishmash.no/#who).
 
 ## Doctoral Fellowships
 
@@ -27,7 +27,7 @@ These positions generally require that a master's degree has been completed.
 | Western Norway University of Applied Sciences | Scientific | Kunstfagdidaktisk/musikkpedagogisk arbeid med KI og kreativitet (in Norwegian) | 15 Feb 2026 |
 | University of Oslo | Scientific | [Psychology of music, AI and creativity](https://www.jobbnorge.no/en/available-jobs/job/290355/doctoral-research-fellowship-in-the-psychology-of-music-ai-and-creativity) | 1 Mar 2026 |
 | University of Inland Norway | Artistic | [AI and Creativity in Film, TV, and Games](https://www.jobbnorge.no/en/available-jobs/job/290933/phd-fellows-in-artistic-research-focusing-on-ai-and-creativity-in-film-tv-and-games) (2 positions) | 1 Mar 2026 |
-| Handelshøyskolen BI | Scientific | [Opphavsrett og KI](https://bi.easycruit.com/vacancy/3575961/45439?iso=no) | 1 Mar 2026 |
+| Handelshøyskolen BI | Scientific | [Opphavsrett og KI](https://bi.easycruit.com/vacancy/3575961/45439?iso=no) (in Norwegian) | 1 Mar 2026 |
 | Østfold University College | Scientific | [Creative Human-AI Interaction](https://www.jobbnorge.no/en/available-jobs/job/291081/doctoral-research-fellow-phd-in-creative-human-ai-interaction) | 1 Mar 2026 |
 | NTNU | Artistic | Music technology and AI for artistic performances | 1 Apr 2026 |
 | NTNU | Scientific | Music Technology with a focus on AI, health and wellbeing | 1 Apr 2026 |
