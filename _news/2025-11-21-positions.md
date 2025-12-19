@@ -28,6 +28,9 @@ These positions generally require that a master's degree has been completed.
 | University of Inland Norway | Artistic Research | [AI and Creativity in Film, TV, and Games](https://www.jobbnorge.no/en/available-jobs/job/290933/phd-fellows-in-artistic-research-focusing-on-ai-and-creativity-in-film-tv-and-games) (2 positions) | 1 Mar 2026 |
 | Handelshøyskolen BI | Rettsvitenskap og styring | [Opphavsrett og KI](https://bi.easycruit.com/vacancy/3575961/45439?iso=no) | 1 Mar 2026 |
 | Østfold University College | Computer Science, Engineering and Economics | [Creative Human-AI Interaction](https://www.jobbnorge.no/en/available-jobs/job/291081/doctoral-research-fellow-phd-in-creative-human-ai-interaction) | 1 Mar 2026 |
+| NTNU | Artistic research | Music technology and AI for artistic performances | 1 Apr 2026 |
+| NTNU | Scientific research | Music Technology with a focus on AI, health and wellbeing | 1 Apr 2026 |
+
 
 ## Postdoctoral Fellowships
 
