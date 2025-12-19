@@ -16,14 +16,15 @@ These positions generally require that a master's degree has been completed.
 
 | Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
-| University of Bergen | Artistic Research | [AI in Artistic Processes](https://www.jobbnorge.no/en/available-jobs/job/291439/phd-research-fellowship-in-artistic-research-ai-in-artistic-processes) | 30 Jan 2026 |
-| Norwegian Academy of Music | Artistic Research | [Music and AI](https://nmh.no/en/contact/research-fellow-2026-mishmash) | 1 Feb 2026 |
+| University of Bergen | Artistic | [AI in Artistic Processes](https://www.jobbnorge.no/en/available-jobs/job/291439/phd-research-fellowship-in-artistic-research-ai-in-artistic-processes) | 30 Jan 2026 |
+| Norwegian Academy of Music | Artistic | [Music and AI](https://nmh.no/en/contact/research-fellow-2026-mishmash) | 1 Feb 2026 |
 | University of Agder | Artistic/Scientific | [AI in the Creative and Cultural Industries](https://www.jobbnorge.no/en/available-jobs/job/290289/phd-research-fellowship-at-the-faculty-of-fine-artsin-ai-in-the-creative-and-cultural-industries) (2 positions) | 1 Feb 2026 |
 | University of Agder | Artistic/Scientific | [Creative Use of AI in Education](https://www.jobbnorge.no/en/available-jobs/job/290293/phd-research-fellowship-at-the-faculty-of-fine-arts-in-creative-use-of-ai-in-education) (2 positions) | 1 Feb 2026 |
 | Høyskolen Kristiania | Scientific | [AI Creative Solutions in Health](https://web103.reachmee.com/ext/I021/1682/job?site=10&lang=UK&validator=2d7c408ab404b707c61003f4222c50cb&ihelper=https%3A%2F%2Fwww.kristiania.no%2Fen%2Fabout-kristiania%2Fvacant-positions%2F&job_id=924) | 2 Feb 2026 |
 | Høyskolen Kristiania | Scientific | [Emerging AI/XR Technologies as Mediators and Co-creators of Human Experiences](https://web103.reachmee.com/ext/I021/1682/job?site=10&lang=UK&validator=2d7c408ab404b707c61003f4222c50cb&ihelper=https%3A%2F%2Fwww.kristiania.no%2Fen%2Fabout-kristiania%2Fvacant-positions%2F&job_id=925) | 2 Feb 2026 |
 | Høyskolen Kristiania | Scientific | [Communicating Environmental Futures in the Age of AI](https://web103.reachmee.com/ext/I021/1682/job?site=10&lang=UK&validator=2d7c408ab404b707c61003f4222c50cb&ihelper=https%3A%2F%2Fwww.kristiania.no%2Fen%2Fabout-kristiania%2Fvacant-positions%2F&job_id=922) | 2 Feb 2026 |
 | University of Bergen | Scientific | [Responsible AI in Health Promotion and Music Therapy](https://www.jobbnorge.no/en/available-jobs/job/291463/phd-research-fellowship-in-responsible-ai-in-health-promotion-and-music-therapy) | 13 Feb 2026 |
+| Western Norway University of Applied Sciences | Scientific | Kunstfagdidaktisk/musikkpedagogisk arbeid med KI og kreativitet (in Norwegian) | 15 Feb 2026 |
 | University of Oslo | Scientific | [Psychology of music, AI and creativity](https://www.jobbnorge.no/en/available-jobs/job/290355/doctoral-research-fellowship-in-the-psychology-of-music-ai-and-creativity) | 1 Mar 2026 |
 | University of Inland Norway | Artistic | [AI and Creativity in Film, TV, and Games](https://www.jobbnorge.no/en/available-jobs/job/290933/phd-fellows-in-artistic-research-focusing-on-ai-and-creativity-in-film-tv-and-games) (2 positions) | 1 Mar 2026 |
 | Handelshøyskolen BI | Scientific | [Opphavsrett og KI](https://bi.easycruit.com/vacancy/3575961/45439?iso=no) | 1 Mar 2026 |
@@ -36,7 +37,7 @@ These positions generally require that a master's degree has been completed.
 
 These positions generally require that the PhD dissertation has been submitted before applying and defended before the time of appointment.
 
-| Institution | Department/programme | Title | Deadline |
+| Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
 | University of Bergen | Artistic | [AI in Artistic Processes](https://www.jobbnorge.no/en/available-jobs/job/291445/postdoctoral-research-fellow-in-artistic-research-ai-in-artistic-processes) | 30 Jan 2026 |
 | Norwegian Academy of Music | Artistic | [Music and AI](https://www.jobbnorge.no/en/available-jobs/job/290871/postdoctoral-fellow-in-artistic-practice-within-music-and-artificial-intelligence) | 1 Feb 2026 |
