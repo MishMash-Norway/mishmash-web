@@ -10,7 +10,7 @@
 - [Thomas de Ridder](https://www.uib.no/personer/Thomas.de.Ridder) (UiB), Research advisor
 - [Nina Rundgren](https://www.hf.uio.no/imv/english/people/adm/ninarund/index.html) (UiO), Head of administration
 
-![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](assets/images/portraits/management/3D9A4998_640px.jpg)
+![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](../assets/images/portraits/management/3D9A4998_640px.jpg)
 
 *MishMash will be directed by [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) together with deputy directors [Ida Jahr](https://www.inn.no/english/find-an-employee/ida-jahr.html) (INN) and [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA). (Photo: UiO)*
 
