@@ -1,0 +1,3 @@
+# Example RSS feeds - one per line. Optional label after the URL.
+# https://example.com/feed.xml Example Source
+https://sympa.uio.no/mishmash.no/announce.atom Sympa announcements
