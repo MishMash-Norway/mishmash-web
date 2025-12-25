@@ -109,9 +109,7 @@ Numerous international academic and non-academic partners will also be involved,
 - Follow us on [LinkedIn page](https://www.linkedin.com/company/107529241/) and [Instagram](https://www.instagram.com/aimishmash/)
 - Get in touch directly with someone in the [leader group](https://mishmash.no/#who) to discuss how to be involved
 
-```html
 <form action="https://sympa.uio.no/mishmash.no/subscribe/announcements" method="POST" style="max-width: 400px; margin: 20px auto;">
     <input type="email" name="email" placeholder="your@email.com" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;">
     <button type="submit" style="width: 100%; padding: 10px; background-color: #0066cc; color: white; border: none; border-radius: 4px; cursor: pointer;">Subscribe</button>
 </form>
-```
