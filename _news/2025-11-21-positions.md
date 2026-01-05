@@ -1,5 +1,5 @@
 ---
-title: "18 PhD and 6 Postdoc positions at MishMash/Norway"
+title: "19 PhD and 6 Postdoc positions at MishMash/Norway"
 date: 2025-11-21
 author: "Alexander Refsum Jensenius"
 layout: default
@@ -8,7 +8,7 @@ description: "The first round of MishMash doctoral and postdoctoral fellowships 
 image: "/assets/images/news/new-feature.jpg"
 ---
 
-MishMash partners are now recruiting the first group of 18 doctoral and 6 postdoctoral fellows. There are variations in profile and application procedures for the different institutions, so please read the announcement texts carefully. It is possible to apply for multiple positions, they will all have different hiring committees. Please use the contact point(s) indicated in the calls for questions for the positions. For general questions about the announcements, you can contact members of the [management group](https://mishmash.no/#who).
+MishMash partners are now recruiting the first group of 19 doctoral and 6 postdoctoral fellows. There are variations in profile and application procedures for the different institutions, so please read the announcement texts carefully. It is possible to apply for multiple positions, they will all have different hiring committees. Please use the contact point(s) indicated in the calls for questions for the positions. For general questions about the announcements, you can contact members of the [management group](https://mishmash.no/#who).
 
 ## Doctoral Fellowships
 
