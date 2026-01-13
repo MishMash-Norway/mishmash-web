@@ -45,5 +45,5 @@ These positions generally require that the PhD dissertation has been submitted b
 | University of Oslo | Scientific | [Music and AI in the creative and cultural industries](https://www.jobbnorge.no/en/available-jobs/job/290328/postdoctoral-research-fellowship-in-music-and-ai-in-the-creative-and-cultural-industries) | 1 Mar 2026 |
 | University of Oslo | Scientific | [AI for Music Analysis](https://www.jobbnorge.no/en/available-jobs/job/290318/postdoctoral-research-fellowship-in-ai-for-music-analysis) | 1 Mar 2026 |
 | University of Oslo | Scientific | [AI Methods for Creative Applications](https://www.jobbnorge.no/en/available-jobs/job/291829/postdoctoral-research-fellow-in-ai-methods-for-creative-applications) | 1 Mar 2026 |
-| Østfold University College | Scientific | Creative Human-AI Interaction | 1 Mar 2026 |
-| SimulaMet | Scientrific | Machine Learning for CoCreativity in Remote Operations | 1 Apr 2026 |
+| Østfold University College | Scientific | [Creative Human-AI Interaction](https://www.jobbnorge.no/en/available-jobs/job/291083/postdoctoral-research-fellow-in-creative-human-ai-interaction) | 1 Mar 2026 |
+| SimulaMet | Scientrific | [Machine Learning for CoCreativity in Remote Operations](https://www.simulamet.no/careers/job-openings/postdoctoral-research-fellowship-in-machine-learning-for-cocreativity-in-remote-operations) | 1 Apr 2026 |
