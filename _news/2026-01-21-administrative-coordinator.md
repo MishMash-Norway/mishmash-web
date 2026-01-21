@@ -14,4 +14,4 @@ Eskil most recently served as a senior adviser at Arts and Culture Norway (Kultu
 
 Welcome, Eskil!
 
-![Eskil Muan Sæther](assets/images/portraits/framed/eskil_bubbles.jpg)
+![Eskil Muan Sæther](/assets/images/portraits/framed/eskil_bubbles.jpg)
