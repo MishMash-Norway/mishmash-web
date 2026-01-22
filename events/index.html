@@ -5,9 +5,12 @@ title: Events
 <h1>Events</h1>
 <ul>
 {% for item in site.events | sort: 'date' | reverse %}
-  <li>
+  <p>
+    {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+    <br />
     <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y" }}</time>
-    &mdash; {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
-  </li>
+    {% if item.location %}<br /><span class="event-location">{{ item.location }}</span>{% endif %}
+  </p>
+  </>
 {% endfor %}
 </ul>
