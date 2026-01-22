@@ -7,6 +7,7 @@ layout: default
 categories: [concert, music]
 description: "an evening exploring music with AI and quantum computing with Eduardo Reck Miranda and Victoria Johnson."
 image: "https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/quantum-music/quantum-loops.png"
+slug: "quantum-loops-broken-symmetries"
 registration_url: "https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/quantum-music/index.html"
 ---
 
