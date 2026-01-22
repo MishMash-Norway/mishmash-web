@@ -8,7 +8,7 @@
 - [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA), Deputy director
 - [Ida Jahr](https://www.inn.no/english/find-an-employee/ida-jahr.html) (INN), Deputy director
 - [Thomas de Ridder](https://www.uib.no/personer/Thomas.de.Ridder) (UiB), Research advisor
-- [Nina Rundgren](https://www.hf.uio.no/imv/english/people/adm/ninarund/index.html) (UiO), Head of administration
+- [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO), Administrative coordinator
 
 ![Ida Jahr, Daniel Nordgård, Alexander Refsum Jensenius](../assets/images/portraits/management/3D9A4998_640px.jpg)
 

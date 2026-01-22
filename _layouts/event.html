@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section class="event-header" role="region" aria-label="Event header">
+  <h1 class="event-title">{{ page.title }}</h1>
+  <div class="event-meta">
+    {% if page.date %}
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+    {% endif %}
+    {% if page.location %}
+      <span class="event-location"> — {{ page.location }}</span>
+    {% endif %}
+  </div>
+</section>
+
+<div class="event-body">
+  {{ content }}
+</div>
