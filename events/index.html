@@ -8,6 +8,6 @@ title: Events
     {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
     <br />
     <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %I:%M %p" }}</time>
-    {% if item.location %}<br /><span class="event-location">{{ item.location }}</span>{% endif %}
+    {% if item.location %} &mdash; {{ item.location }}{% endif %}
   </p>
 {% endfor %}
