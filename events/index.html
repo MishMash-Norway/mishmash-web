@@ -3,7 +3,8 @@ layout: default
 title: Events
 ---
 <h1>Events</h1>
-{% for item in site.events | sort: 'date' | reverse %}
+{% assign events = site.events | where_exp: "item", "item.draft != true" | sort: 'date' | reverse %}
+{% for item in events %}
   <p>
     {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
     <br />
