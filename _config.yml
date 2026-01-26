@@ -28,3 +28,5 @@ feed:
   collections:
     - news
     - events
+
+future: true
