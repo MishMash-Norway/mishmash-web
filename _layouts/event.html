@@ -8,7 +8,6 @@ layout: default
     {% if page.date %}
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y, %H:%M" }}</time>
     {% endif %}
-    {% endif %}
     {% if page.location %}
       <span class="event-location"> — {{ page.location }}</span>
     {% endif %}
