@@ -4,7 +4,7 @@ title: News
 ---
 <h1>News</h1>
 <ul>
-{% for item in site.news %}
+{% for item in site.news | sort: 'date' | reverse %}
   <li>
     <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y" }}</time>
     &mdash; <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
