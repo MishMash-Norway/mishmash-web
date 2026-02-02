@@ -6,7 +6,8 @@ layout: default
   <h1 class="event-title">{{ page.title }}</h1>
   <div class="event-meta">
     {% if page.date %}
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y, %H:%M" }}</time>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y, %H:%M" }}</time>{% if page.endtime %} — <time datetime="{{ page.endtime | date_to_xmlschema }}">{{ page.endtime | date: "%-d %B %Y, %H:%M" }}</time>{% endif %}
+    {% endif %}
     {% endif %}
     {% if page.location %}
       <span class="event-location"> — {{ page.location }}</span>
