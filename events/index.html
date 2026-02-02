@@ -9,7 +9,7 @@ title: Events
     {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
     <br />
     <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
-    {% if item.enddate or item.end_date %}–<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }}</time>{% endif %}
+    {%- if item.enddate or item.end_date -%}–<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }}</time>{% endif -%}
     {% if item.location %} &mdash; {{ item.location }}{% endif %}
   </p>
 {% endfor %}

@@ -7,7 +7,7 @@ layout: default
   <div class="event-meta">
     {% if page.date %}
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y, %H:%M" }}</time>
-      {% if page.end_date %}–<time datetime="{{ page.end_date | date_to_xmlschema }}">{{ page.end_date | date: "%H:%M" }}</time>
+      {%- if page.end_date %}–<time datetime="{{ page.end_date | date_to_xmlschema }}">{{ page.end_date | date: "%H:%M" }}</time>
       {% endif %}
     {% endif %}
     {% if page.location %}
