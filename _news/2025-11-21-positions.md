@@ -40,8 +40,8 @@ These positions generally require that the PhD dissertation has been submitted b
 
 | Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
-| University of Bergen | Artistic | [AI in Artistic Processes](https://www.jobbnorge.no/en/available-jobs/job/291445/postdoctoral-research-fellow-in-artistic-research-ai-in-artistic-processes) | 30 Jan 2026 |
-| Norwegian Academy of Music | Artistic | [Music and AI](https://www.jobbnorge.no/en/available-jobs/job/290871/postdoctoral-fellow-in-artistic-practice-within-music-and-artificial-intelligence) | 1 Feb 2026 |
+| University of Bergen | Artistic | [AI in Artistic Processes](https://www.jobbnorge.no/en/available-jobs/job/291445/postdoctoral-research-fellow-in-artistic-research-ai-in-artistic-processes) | ~~30 Jan 2026~~ |
+| Norwegian Academy of Music | Artistic | [Music and AI](https://www.jobbnorge.no/en/available-jobs/job/290871/postdoctoral-fellow-in-artistic-practice-within-music-and-artificial-intelligence) | ~~1 Feb 2026~~ |
 | University of Oslo | Scientific | [Music and AI in the creative and cultural industries](https://www.jobbnorge.no/en/available-jobs/job/290328/postdoctoral-research-fellowship-in-music-and-ai-in-the-creative-and-cultural-industries) | 1 Mar 2026 |
 | University of Oslo | Scientific | [AI for Music Analysis](https://www.jobbnorge.no/en/available-jobs/job/290318/postdoctoral-research-fellowship-in-ai-for-music-analysis) | 1 Mar 2026 |
 | University of Oslo | Scientific | [AI Methods for Creative Applications](https://www.jobbnorge.no/en/available-jobs/job/291829/postdoctoral-research-fellow-in-ai-methods-for-creative-applications) | 1 Mar 2026 |
