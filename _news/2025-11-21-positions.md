@@ -30,7 +30,9 @@ These positions generally require that a master's degree has been completed.
 | University of Inland Norway | Artistic | [AI and Creativity in Film, TV, and Games](https://www.jobbnorge.no/en/available-jobs/job/290933/phd-fellows-in-artistic-research-focusing-on-ai-and-creativity-in-film-tv-and-games) (2 positions) | 1 Mar 2026 |
 | Handelshøyskolen BI | Scientific | [Opphavsrett og KI](https://bi.easycruit.com/vacancy/3575961/45439?iso=no) (in Norwegian) | 1 Mar 2026 |
 | Østfold University College | Scientific | [Creative Human-AI Interaction](https://www.jobbnorge.no/en/available-jobs/job/291081/doctoral-research-fellow-phd-in-creative-human-ai-interaction) | 1 Mar 2026 |
-| NTNU | Artistic | [Music technology and AI for artistic performances](https://www.jobbnorge.no/en/available-jobs/job/293357/phd-position-in-artistic-research-in-music-technology-and-ai-for-artistic-performances) | 1 Apr 2026 |
+| University of Inland Norway | Scientific | [Educational Sciences with a focus on AI and Creativity](https://www.jobbnorge.no/en/available-jobs/job/294285/phd-research-fellowship-in-educational-sciences-with-a-focus-on-ai-and-creativity) | 9 March 2026 |
+| NTNU | Artistic | [Music technology and AI for artistic performances](https://www.jobbnorge.no/en/available-jobs/job/293357/
+phd-position-in-artistic-research-in-music-technology-and-ai-for-artistic-performances) | 1 Apr 2026 |
 | NTNU | Scientific | [Music Technology with a focus on AI, health and wellbeing](https://www.jobbnorge.no/en/available-jobs/job/293368/phd-research-fellow-in-music-technology-with-a-focus-on-ai-health-and-wellbeing) | 1 Apr 2026 |
 
 
@@ -46,4 +48,4 @@ These positions generally require that the PhD dissertation has been submitted b
 | University of Oslo | Scientific | [AI for Music Analysis](https://www.jobbnorge.no/en/available-jobs/job/290318/postdoctoral-research-fellowship-in-ai-for-music-analysis) | 1 Mar 2026 |
 | University of Oslo | Scientific | [AI Methods for Creative Applications](https://www.jobbnorge.no/en/available-jobs/job/291829/postdoctoral-research-fellow-in-ai-methods-for-creative-applications) | 1 Mar 2026 |
 | Østfold University College | Scientific | [Creative Human-AI Interaction](https://www.jobbnorge.no/en/available-jobs/job/291083/postdoctoral-research-fellow-in-creative-human-ai-interaction) | 1 Mar 2026 |
-| SimulaMet | Scientrific | [Machine Learning for CoCreativity in Remote Operations](https://www.simulamet.no/careers/job-openings/postdoctoral-research-fellowship-in-machine-learning-for-cocreativity-in-remote-operations) | 1 Apr 2026 |
+| SimulaMet | Scientific | [Machine Learning for CoCreativity in Remote Operations](https://www.simulamet.no/careers/job-openings/postdoctoral-research-fellowship-in-machine-learning-for-cocreativity-in-remote-operations) | 1 Apr 2026 |
