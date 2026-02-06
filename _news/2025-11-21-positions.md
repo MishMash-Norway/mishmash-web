@@ -1,5 +1,5 @@
 ---
-title: "19 PhD and 7 Postdoc positions at MishMash/Norway"
+title: "Open positions at MishMash/Norway"
 date: 2025-11-21
 author: "Alexander Refsum Jensenius"
 layout: default
@@ -27,12 +27,11 @@ These positions generally require that a master's degree has been completed.
 | Western Norway University of Applied Sciences | Scientific | [Kunstfagdidaktisk/musikkpedagogisk arbeid med KI og kreativitet](https://www.jobbnorge.no/nn-no/ledige-stillingar/stilling/292672/stipendiat-i-kunstfagdidaktisk-musikkpedagogisk-arbeid-med-kunstig-intelligens-og-kreativitet) (in Norwegian) | 15 Feb 2026 |
 | Nord University | Scientific | [Creative Use of AI in Music Education](https://www.jobbnorge.no/en/available-jobs/job/292933/phd-research-fellow-in-music-education-with-focus-on-creative-use-of-ai-in-music-education ) | 15 Mar 2026 |
 | University of Oslo | Scientific | [Psychology of music, AI and creativity](https://www.jobbnorge.no/en/available-jobs/job/290355/doctoral-research-fellowship-in-the-psychology-of-music-ai-and-creativity) | 1 Mar 2026 |
-| University of Inland Norway | Artistic | [AI and Creativity in Film, TV, and Games](https://www.jobbnorge.no/en/available-jobs/job/290933/phd-fellows-in-artistic-research-focusing-on-ai-and-creativity-in-film-tv-and-games) (2 positions) | 1 Mar 2026 |
 | Handelshøyskolen BI | Scientific | [Opphavsrett og KI](https://bi.easycruit.com/vacancy/3575961/45439?iso=no) (in Norwegian) | 1 Mar 2026 |
 | Østfold University College | Scientific | [Creative Human-AI Interaction](https://www.jobbnorge.no/en/available-jobs/job/291081/doctoral-research-fellow-phd-in-creative-human-ai-interaction) | 1 Mar 2026 |
+| University of Inland Norway | Artistic | [AI and Creativity in Film, TV, and Games](https://www.jobbnorge.no/en/available-jobs/job/290933/phd-fellows-in-artistic-research-focusing-on-ai-and-creativity-in-film-tv-and-games) (2 positions) | 1 Mar 2026 |
 | University of Inland Norway | Scientific | [Educational Sciences with a focus on AI and Creativity](https://www.jobbnorge.no/en/available-jobs/job/294285/phd-research-fellowship-in-educational-sciences-with-a-focus-on-ai-and-creativity) | 9 March 2026 |
-| NTNU | Artistic | [Music technology and AI for artistic performances](https://www.jobbnorge.no/en/available-jobs/job/293357/
-phd-position-in-artistic-research-in-music-technology-and-ai-for-artistic-performances) | 1 Apr 2026 |
+| NTNU | Artistic | [Music technology and AI for artistic performances](https://www.jobbnorge.no/en/available-jobs/job/293357/phd-position-in-artistic-research-in-music-technology-and-ai-for-artistic-performances) | 1 Apr 2026 |
 | NTNU | Scientific | [Music Technology with a focus on AI, health and wellbeing](https://www.jobbnorge.no/en/available-jobs/job/293368/phd-research-fellow-in-music-technology-with-a-focus-on-ai-health-and-wellbeing) | 1 Apr 2026 |
 
 
