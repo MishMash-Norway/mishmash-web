@@ -1,5 +1,5 @@
 
-<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'>
-  <rect x='20' y='40' width='120' height='80' rx='12' ry='12' fill='#C1F7AE' stroke='#363644' stroke-width='6'/>
-  <polygon points='20,40 80,90 140,40' fill='#A7A1F4' stroke='#363644' stroke-width='6'/>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 120'>
+  <rect x='10' y='20' width='140' height='80' rx='16' fill='#C1F7AE' stroke='#363644' stroke-width='10'/>
+  <polyline points='10,20 80,70 150,20' fill='#A7A1F4' stroke='#363644' stroke-width='10'/>
 </svg>

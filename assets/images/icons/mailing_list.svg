@@ -1,0 +1,7 @@
+
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 160'>
+  <rect x='20' y='40' width='140' height='80' rx='16' fill='#C1F7AE' stroke='#363644' stroke-width='10'/>
+  <polyline points='20,40 90,90 160,40' fill='#A7A1F4' stroke='#363644' stroke-width='10'/>
+  <rect x='36' y='16' width='140' height='80' rx='16' fill='#A7A1F4' stroke='#363644' stroke-width='10' opacity='0.8'/>
+  <polyline points='36,16 106,66 176,16' fill='#C1F7AE' stroke='#363644' stroke-width='10' opacity='0.8'/>
+</svg>
