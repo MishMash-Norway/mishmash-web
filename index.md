@@ -142,17 +142,7 @@ Numerous international academic and non-academic partners will also be involved,
 - Follow us on [LinkedIn page](https://www.linkedin.com/company/107529241/) and [Instagram](https://www.instagram.com/aimishmash/)
 - Get in touch directly with someone in the [leader group](https://mishmash.no/#who) to discuss how to be involved
 
-
-<!-- E-mail, Instagram, LinkedIn, Discord -->
-<svg class="icon" aria-hidden="true">
-  <use href="/assets/icons/sprite/icons-sprite.svg#icon-email"></use>
-</svg>
-<svg class="icon" aria-hidden="true">
-  <use href="/assets/icons/sprite/icons-sprite.svg#icon-instagram"></use>
-</svg>
-<svg class="icon" aria-hidden="true">
-  <use href="/assets/icons/sprite/icons-sprite.svg#icon-linkedin"></use>
-</svg>
-<svg class="icon" aria-hidden="true">
-  <use href="/assets/icons/sprite/icons-sprite.svg#icon-discord"></use>
-</svg>
+![alt text](assets/images/icons/discord.svg) 
+![alt text](assets/images/icons/email.svg) 
+![alt text](assets/images/icons/instagram.svg) 
+![alt text](assets/images/icons/linkedin.svg)
