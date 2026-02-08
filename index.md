@@ -138,11 +138,10 @@ Numerous international academic and non-academic partners will also be involved,
 
 ## More information
 
-- Subscribe to our (low-volume) [mailing list](https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info) for information about events and job openings
-- Follow us on [LinkedIn page](https://www.linkedin.com/company/107529241/) and [Instagram](https://www.instagram.com/aimishmash/)
-- Get in touch directly with someone in the [leader group](https://mishmash.no/#who) to discuss how to be involved
+[![LinkedIn](/assets/images/icons/linkedin.svg)](https://www.linkedin.com/company/107529241/) LinkedIn
 
-![alt text](assets/images/icons/discord.svg) 
-![alt text](assets/images/icons/email.svg) 
-![alt text](assets/images/icons/instagram.svg) 
-![alt text](assets/images/icons/linkedin.svg)
+[![Instagram](/assets/images/icons/instagram.svg)](https://www.instagram.com/aimishmash/) Instagram
+
+[![Email](/assets/images/icons/email.svg)](mailto:contact@mishmash.no) Contact e-mail
+
+[![Mailing list](/assets/images/icons/mailing_list_stacked.svg)](https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info) Mailing list (low-volume announcements)
