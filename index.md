@@ -9,21 +9,23 @@ MishMash is a Norwegian AI centre funded by the Research Council of Norway (2025
 - MishMash is now hiring! We have several [full-funded PhD and PostDoc fellowships](https://mishmash.no/news/positions/) available in various MishMash partner institutions in Norway.
 
 ## News
-
-{% assign latest = site.pages | where_exp:"p","p.path contains '/news/'" | sort: "date" | last %}
+{% assign latest = site.pages | where_exp:"p","p.path contains '/news/' and p.draft != true" | sort: "date" | last %}
 {% if latest %}
+
 ### {{ latest.title }}
+
 - {{ latest.date | date: "%-d %B %Y" }}  
 [Read more]({{ latest.url }})  
 
 {{ latest.excerpt | markdownify }}
+
 {% else %}
 _No news posts found._
 {% endif %}
 
 ## Events
 
-{% assign events = site.pages | where_exp:"p","p.path contains '/events/'" | sort: "date" %}
+{% assign events = site.events | where_exp:"p","p.draft != true" | sort: "date" %}
 {% assign next = nil %}
 {% for e in events %}
     {% if e.date >= site.time %}
@@ -32,11 +34,14 @@ _No news posts found._
     {% endif %}
 {% endfor %}
 {% if next %}
+
 ### Next event: {{ next.title }}
+
 - {{ next.date | date: "%-d %B %Y" }}  
 [Read more]({{ next.url }})  
 
 {{ next.excerpt | markdownify }}
+
 {% else %}
 _No upcoming events found._
 {% endif %}
