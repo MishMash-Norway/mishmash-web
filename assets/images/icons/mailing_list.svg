@@ -1,7 +1,9 @@
 
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 160'>
-  <rect x='20' y='40' width='140' height='80' rx='16' fill='#C1F7AE' stroke='#363644' stroke-width='10'/>
-  <polyline points='20,40 90,90 160,40' fill='#A7A1F4' stroke='#363644' stroke-width='10'/>
-  <rect x='36' y='16' width='140' height='80' rx='16' fill='#A7A1F4' stroke='#363644' stroke-width='10' opacity='0.8'/>
-  <polyline points='36,16 106,66 176,16' fill='#C1F7AE' stroke='#363644' stroke-width='10' opacity='0.8'/>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'>
+  <!-- back envelope -->
+  <rect x='14' y='18' width='100' height='70' rx='16' fill='#A7A1F4' stroke='#363644' stroke-width='10' opacity='0.9'/>
+  <polyline points='14,18 64,62 114,18' fill='#C1F7AE' stroke='#363644' stroke-width='10' opacity='0.9'/>
+  <!-- front envelope -->
+  <rect x='8' y='48' width='112' height='72' rx='18' fill='#C1F7AE' stroke='#363644' stroke-width='10'/>
+  <polyline points='8,48 64,98 120,48' fill='#A7A1F4' stroke='#363644' stroke-width='10'/>
 </svg>

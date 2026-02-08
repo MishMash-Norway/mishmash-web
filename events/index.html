@@ -3,13 +3,36 @@ layout: default
 title: Events
 ---
 <h1>Events</h1>
-{% assign events = site.events | where_exp: "item", "item.draft != true" | sort: 'date' | reverse %}
-{% for item in events %}
-  <p>
-    {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
-    <br />
-    <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
-    {%- if item.enddate or item.end_date -%}–<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }}</time>{% endif -%}
-    {% if item.location %} &mdash; {{ item.location }}{% endif %}
-  </p>
-{% endfor %}
+{% assign all_events = site.events | where_exp: "item", "item.draft != true" %}
+{% assign future_events = all_events | where_exp: "item", "item.date >= site.time" | sort: 'date' %}
+{% assign past_events = all_events | where_exp: "item", "item.date < site.time" | sort: 'date' %}
+
+<h2>Upcoming events</h2>
+{% if future_events.size > 0 %}
+  {% for item in future_events %}
+    <p>
+      {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+      <br />
+      <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
+      {%- if item.enddate or item.end_date -%}–<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }}</time>{% endif -%}
+      {% if item.location %} &mdash; {{ item.location }}{% endif %}
+    </p>
+  {% endfor %}
+{% else %}
+  <p>No upcoming events.</p>
+{% endif %}
+
+<h2>Past events</h2>
+{% if past_events.size > 0 %}
+  {% for item in past_events %}
+    <p>
+      {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+      <br />
+      <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
+      {%- if item.enddate or item.end_date -%}–<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }}</time>{% endif -%}
+      {% if item.location %} &mdash; {{ item.location }}{% endif %}
+    </p>
+  {% endfor %}
+{% else %}
+  <p>No past events.</p>
+{% endif %}
