@@ -132,11 +132,28 @@ Numerous international academic and non-academic partners will also be involved,
 ## Funding
 
 <div style="text-align: center;">
-    <img src="assets/images/logos/NFR/Sort/Stottet_av_Forskningsradet_logo_Engelsk_01_Weller_RGB.svg" alt="RCN logo">
+    <img src="assets/images/logos/NFR/Sort/Stottet_av_Forskningsradet_logo_Engelsk_01_Weller_RGB.svg" alt="RCN logo" width="400">
 </div>
+
 
 ## More information
 
 - Subscribe to our (low-volume) [mailing list](https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info) for information about events and job openings
 - Follow us on [LinkedIn page](https://www.linkedin.com/company/107529241/) and [Instagram](https://www.instagram.com/aimishmash/)
 - Get in touch directly with someone in the [leader group](https://mishmash.no/#who) to discuss how to be involved
+
+<link rel="stylesheet" href="assets/css/icons.css">
+
+<!-- E-mail, Instagram, LinkedIn, Discord -->
+<svg class="icon" aria-hidden="true">
+  <use href="assets/sprite/icons-sprite.svg#icon-email"></use>
+</svg>
+<svg class="icon" aria-hidden="true">
+  <use href="assets/sprite/icons-sprite.svg#icon-instagram"></use>
+</svg>
+<svg class="icon" aria-hidden="true">
+  <use href="assets/sprite/icons-sprite.svg#icon-linkedin"></use>
+</svg>
+<svg class="icon" aria-hidden="true">
+  <use href="assets/sprite/icons-sprite.svg#icon-discord"></use>
+</svg>
