@@ -24,7 +24,7 @@ title: Events
 
 <h2>Past events</h2>
 {% if past_events.size > 0 %}
-  {% for item in past_events %}
+  {% for item in past_events | reverse %}
     <p>
       {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
       <br />
