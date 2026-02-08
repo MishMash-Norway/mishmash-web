@@ -129,16 +129,9 @@ Numerous international academic and non-academic partners will also be involved,
 </details>
 ---
 
-## Funding
 
-<div style="text-align: center;">
+<div style="display:flex;justify-content:center;gap:24px;flex-wrap:nowrap;align-items:center;white-space:nowrap;">
     <img src="assets/images/logos/NFR/Sort/Stottet_av_Forskningsradet_logo_Engelsk_01_Weller_RGB.svg" alt="RCN logo" width="400">
-</div>
-
-
-## More information
-
-<div style="display:flex;justify-content:center;gap:24px;flex-wrap:wrap;">
     <a href="mailto:contact@mishmash.no" style="text-align:center;width:100px;display:inline-block;">
         <img src="/assets/images/icons/contact_email.svg" alt="Contact e-mail" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">Contact</span>
