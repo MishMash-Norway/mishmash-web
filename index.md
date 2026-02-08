@@ -138,10 +138,21 @@ Numerous international academic and non-academic partners will also be involved,
 
 ## More information
 
-[![LinkedIn](/assets/images/icons/linkedin.svg)](https://www.linkedin.com/company/107529241/) LinkedIn
-
-[![Instagram](/assets/images/icons/instagram.svg)](https://www.instagram.com/aimishmash/) Instagram
-
-[![Email](/assets/images/icons/email.svg)](mailto:contact@mishmash.no) Contact e-mail
-
-[![Mailing list](/assets/images/icons/mailing_list_stacked.svg)](https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info) Mailing list (low-volume announcements)
+<div style="display:flex;justify-content:center;gap:24px;flex-wrap:wrap;">
+    <a href="https://www.linkedin.com/company/107529241/" style="text-align:center;width:100px;display:inline-block;">
+        <img src="/assets/images/icons/linkedin.svg" alt="LinkedIn" width="64" style="display:block;margin:0 auto;">
+        <span style="display:block;margin-top:8px;font-size:0.9rem;">LinkedIn</span>
+    </a>
+    <a href="https://www.instagram.com/aimishmash/" style="text-align:center;width:100px;display:inline-block;">
+        <img src="/assets/images/icons/instagram.svg" alt="Instagram" width="64" style="display:block;margin:0 auto;">
+        <span style="display:block;margin-top:8px;font-size:0.9rem;">Instagram</span>
+    </a>
+    <a href="mailto:contact@mishmash.no" style="text-align:center;width:100px;display:inline-block;">
+        <img src="/assets/images/icons/email.svg" alt="Contact e-mail" width="64" style="display:block;margin:0 auto;">
+        <span style="display:block;margin-top:8px;font-size:0.9rem;">Contact</span>
+    </a>
+    <a href="https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info" style="text-align:center;width:100px;display:inline-block;">
+        <img src="/assets/images/icons/mailing_list_stacked.svg" alt="Mailing list" width="64" style="display:block;margin:0 auto;">
+        <span style="display:block;margin-top:8px;font-size:0.9rem;">Mailing list</span>
+    </a>
+</div>
