@@ -8,6 +8,7 @@ MishMash is a Norwegian AI centre funded by the Research Council of Norway (2025
 
 - MishMash is now hiring! We have several [full-funded PhD and PostDoc fellowships](https://mishmash.no/news/positions/) available in various MishMash partner institutions in Norway.
 
+<!--
 ## News
 
 {% assign latest = site.pages | where_exp:"p","p.path contains '/news/'" | sort: "date" | last %}
@@ -40,6 +41,8 @@ _No news posts found._
 {% else %}
 _No upcoming events found._
 {% endif %}
+
+-->
 
 ## Partners
 
