@@ -83,7 +83,8 @@ body {
   margin-bottom: 1rem;
   clear: both;
 }
-.event-thumb {
+.event-thumb,
+.person-thumb {
   /* force explicit square dimensions so border-radius:50% is always a circle */
   flex: 0 0 auto;
   width: clamp(64px, 22vw, 120px) !important;
