@@ -2,7 +2,7 @@
 title: "Concert: Quantum Loops, Broken Symmetries "
 date: 2025-12-03 18:00:00   # Event start date/time
 end_date: 2025-12-03 19:00:00 # Optional: Event end time
-location: "Salen, Department of Musicology, ZEB building"
+location: "Salen, Department of Musicology, University of Oslo"
 layout: event
 categories: [concert, music]
 description: "an evening exploring music with AI and quantum computing with Eduardo Reck Miranda and Victoria Johnson."
