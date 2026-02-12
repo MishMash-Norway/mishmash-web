@@ -6,12 +6,8 @@
 
 | | | | | |
 |---|---|---|---|---|
-| ![Alexander Refsum Jensenius](../assets/images/portraits/square/Alexander_Refsum_Jensenius_UiO.jpg)  
-[Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO), Director | ![Daniel Nordgård](../assets/images/portraits/square/Daniel_Nordgaard_UiA.jpg)  
-[Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA), Deputy director | ![Ida Jahr](../assets/images/portraits/square/ida_jahr_INN.jpg)  
-[Ida Jahr](https://www.inn.no/english/find-an-employee/ida-jahr.html) (INN), Deputy director | ![Thomas de Ridder](../assets/images/portraits/square/Thomas_de_Ridder_UiB.jpg)  
-[Thomas de Ridder](https://www.uib.no/personer/Thomas.de.Ridder) (UiB), Research advisor | ![Eskil Muan Sæther](../assets/images/portraits/square/eskil_muan_saether_UiO.jpg)  
-[Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO), Administrative coordinator |
+| ![Alexander Refsum Jensenius](../assets/images/portraits/square/Alexander_Refsum_Jensenius_UiO.jpg) | ![Daniel Nordgård](../assets/images/portraits/square/Daniel_Nordgaard_UiA.jpg) | ![Ida Jahr](../assets/images/portraits/square/ida_jahr_INN.jpg) | ![Thomas de Ridder](../assets/images/portraits/square/Thomas_de_Ridder_UiB.jpg) | ![Eskil Muan Sæther](../assets/images/portraits/square/eskil_muan_saether_UiO.jpg) |
+| [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO), Director | [Daniel Nordgård](https://www.uia.no/kk/profil/danieln) (UiA), Deputy director | [Ida Jahr](https://www.inn.no/english/find-an-employee/ida-jahr.html) (INN), Deputy director | [Thomas de Ridder](https://www.uib.no/personer/Thomas.de.Ridder) (UiB), Research advisor | [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO), Administrative coordinator |
 
 
 ### Work package leaders
