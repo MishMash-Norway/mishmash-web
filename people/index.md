@@ -23,16 +23,15 @@
 
 
 ### Scientific Advisory Board
-
-- <img class="person-thumb" src="../assets/images/portraits/square/Robert_Wechsler.jpg" alt="Benoit Maujean" /> [Benoit Maujean](https://www.linkedin.com/in/benoit-maujean-7b2b2a1/) (Head of Technicolor Research, France)
-- <img class="person-thumb" src="../assets/images/portraits/square/Robert_Wechsler.jpg" alt="Catherine Fisk" /> [Catherine Fisk](https://www.law.berkeley.edu/our-faculty/faculty-profiles/catherine-fisk/) (Prof. law, UC Berkeley, USA)
-- <img class="person-thumb" src="../assets/images/portraits/square/Robert_Wechsler.jpg" alt="Jon McCormack" /> [Jon McCormack](https://research.monash.edu/en/persons/jon-mccormack) (Prof. creative computing, Monash University, Australia)
-- <img class="person-thumb" src="../assets/images/portraits/square/Robert_Wechsler.jpg" alt="Jyoti Mistry" /> [Jyoti Mistry](https://www.gu.se/en/about/find-staff/jyotimistry) (Prof. film, Gothenburg University, Sweden)
-- <img class="person-thumb" src="../assets/images/portraits/square/Robert_Wechsler.jpg" alt="Nancy Baym" /> [Nancy Baym](https://www.microsoft.com/en-us/research/people/baym/) (Senior Principal Research Manager, Microsoft, New England, USA)
-- <img class="person-thumb" src="../assets/images/portraits/square/Robert_Wechsler.jpg" alt="Pamela Burnard" /> [Pamela Burnard](https://www.educ.cam.ac.uk/people/staff/burnard/) (Prof. arts, creativities and educations, University of Cambridge, UK)
-- <img class="person-thumb" src="../assets/images/portraits/square/Robert_Wechsler.jpg" alt="Philippe Pasquier" /> [Philippe Pasquier](https://www.sfu.ca/siat/people/research-faculty/philippe-pasquier.html) (Prof. interactive arts and technology, Simon Fraser University, Canada)
-- <img class="person-thumb" src="../assets/images/portraits/square/Robert_Wechsler.jpg" alt="Psyche Loui" /> [Psyche Loui](https://web.northeastern.edu/creativity/) (Assoc. Prof. creativity and creative practice, Northeastern University, USA)
-- <img class="person-thumb" src="../assets/images/portraits/square/Robert_Wechsler.jpg" alt="Ravi Kiran Sarvadevabhatla" /> [Ravi Kiran Sarvadevabhatla](https://www.iiit.ac.in/faculty/ravi-kiran-sarvadevabhatla/) (Assoc. Prof. computer vision and machine learning, IIIT Hyderabad, India)
-- <img class="person-thumb" src="../assets/images/portraits/square/Robert_Wechsler.jpg" alt="Sebastian Risi" /> [Sebastian Risi](https://sebastianrisi.com/) (Prof. creative AI, IT University of Copenhagen, Denmark)
-- <img class="person-thumb" src="../assets/images/portraits/square/Robert_Wechsler.jpg" alt="Xavier Serra" /> [Xavier Serra](https://www.upf.edu/web/xavier-serra) (Prof. music technology, Universitat Pompeu Fabra, Spain)
-- <img class="person-thumb" src="../assets/images/portraits/square/Robert_Wechsler.jpg" alt="Zhang Qian" /> [Zhang Qian](https://mra.cuc.edu.cn/yy/2023/0428/c9672a206535/page.htm) (Prof. music and recording art, Communication University of China, China)
+- [Benoit Maujean](https://www.linkedin.com/in/benoit-maujean-7b2b2a1/) (Head of Technicolor Research, France)
+- [Catherine Fisk](https://www.law.berkeley.edu/our-faculty/faculty-profiles/catherine-fisk/) (Prof. law, UC Berkeley, USA)
+- [Jon McCormack](https://research.monash.edu/en/persons/jon-mccormack) (Prof. creative computing, Monash University, Australia)
+- [Jyoti Mistry](https://www.gu.se/en/about/find-staff/jyotimistry) (Prof. film, Gothenburg University, Sweden)
+- [Nancy Baym](https://www.microsoft.com/en-us/research/people/baym/) (Senior Principal Research Manager, Microsoft, New England, USA)
+- [Pamela Burnard](https://www.educ.cam.ac.uk/people/staff/burnard/) (Prof. arts, creativities and educations, University of Cambridge, UK)
+- [Philippe Pasquier](https://www.sfu.ca/siat/people/research-faculty/philippe-pasquier.html) (Prof. interactive arts and technology, Simon Fraser University, Canada)
+- [Psyche Loui](https://web.northeastern.edu/creativity/) (Assoc. Prof. creativity and creative practice, Northeastern University, USA)
+- [Ravi Kiran Sarvadevabhatla](https://www.iiit.ac.in/faculty/ravi-kiran-sarvadevabhatla/) (Assoc. Prof. computer vision and machine learning, IIIT Hyderabad, India)
+- [Sebastian Risi](https://sebastianrisi.com/) (Prof. creative AI, IT University of Copenhagen, Denmark)
+- [Xavier Serra](https://www.upf.edu/web/xavier-serra) (Prof. music technology, Universitat Pompeu Fabra, Spain)
+- [Zhang Qian](https://mra.cuc.edu.cn/yy/2023/0428/c9672a206535/page.htm) (Prof. music and recording art, Communication University of China, China)
