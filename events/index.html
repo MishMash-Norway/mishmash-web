@@ -11,9 +11,24 @@ title: Events
 {% if future_events.size > 0 %}
   {% for item in future_events %}
     <p>
-      {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
-      <br />
-      <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
+      {% assign thumb = nil %}
+      {% if item.image %}
+        {% assign thumb = item.image %}
+      {% elsif item.thumbnail %}
+        {% assign thumb = item.thumbnail %}
+      {% elsif item.images and item.images.size > 0 %}
+        {% assign thumb = item.images[0] %}
+      {% endif %}
+      <div style="display:flex;gap:12px;align-items:flex-start;">
+        {% if thumb %}
+          <a href="{{ item.url | relative_url }}" style="flex:0 0 auto;display:block;">
+            <img src="{{ thumb | relative_url }}" alt="{{ item.title }}" style="width:120px;height:80px;object-fit:cover;border-radius:4px;display:block;">
+          </a>
+        {% endif %}
+        <div style="flex:1 1 auto;min-width:0;">
+          {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+          <br />
+          <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
       {%- if item.enddate or item.end_date -%}–<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }}</time>{% endif -%}
       {% if item.location %} &mdash; {{ item.location }}{% endif %}
     </p>
@@ -26,9 +41,24 @@ title: Events
 {% if past_events.size > 0 %}
   {% for item in past_events %}
     <p>
-      {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
-      <br />
-      <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
+      {% assign thumb = nil %}
+      {% if item.image %}
+        {% assign thumb = item.image %}
+      {% elsif item.thumbnail %}
+        {% assign thumb = item.thumbnail %}
+      {% elsif item.images and item.images.size > 0 %}
+        {% assign thumb = item.images[0] %}
+      {% endif %}
+      <div style="display:flex;gap:12px;align-items:flex-start;">
+        {% if thumb %}
+          <a href="{{ item.url | relative_url }}" style="flex:0 0 auto;display:block;">
+            <img src="{{ thumb | relative_url }}" alt="{{ item.title }}" style="width:120px;height:80px;object-fit:cover;border-radius:4px;display:block;">
+          </a>
+        {% endif %}
+        <div style="flex:1 1 auto;min-width:0;">
+          {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+          <br />
+          <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
       {%- if item.enddate or item.end_date -%}–<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }}</time>{% endif -%}
       {% if item.location %} &mdash; {{ item.location }}{% endif %}
     </p>
