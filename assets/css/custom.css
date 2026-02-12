@@ -84,9 +84,11 @@ body {
   clear: both;
 }
 .event-thumb {
-  width: 120px;
-  max-width: 30vw;
-  height: 120px;
+  /* keep square dimensions so border-radius:50% is always a circle */
+  flex: 0 0 auto;
+  width: clamp(64px, 22vw, 120px);
+  aspect-ratio: 1 / 1;
+  height: auto;
   object-fit: cover;
   border-radius: 50%;
   display: block;
