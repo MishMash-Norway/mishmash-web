@@ -25,11 +25,18 @@ title: Events
         </a>
       {% endif %}
       <div class="event-content">
-        {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
-        <br />
         <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
         {%- if item.enddate or item.end_date -%}–<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }}</time>{% endif -%}
         {% if item.location %} &mdash; {{ item.location }}{% endif %}
+        <br />
+        {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+        {%- assign desc = item.description | default: item.excerpt -%}
+        {%- if desc == nil or desc == "" -%}
+          {%- assign desc = item.content | strip_html | truncatewords: 30 -%}
+        {%- endif -%}
+        {% if desc %}
+          <p class="event-desc">{{ desc }}</p>
+        {% endif %}
       </div>
     </div>
   {% endfor %}
@@ -55,11 +62,18 @@ title: Events
         </a>
       {% endif %}
       <div class="event-content">
-        {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
-        <br />
         <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
         {%- if item.enddate or item.end_date -%}–<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }}</time>{% endif -%}
         {% if item.location %} &mdash; {{ item.location }}{% endif %}
+        <br />
+        {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+        {%- assign desc = item.description | default: item.excerpt -%}
+        {%- if desc == nil or desc == "" -%}
+          {%- assign desc = item.content | strip_html | truncatewords: 30 -%}
+        {%- endif -%}
+        {% if desc %}
+          <p class="event-desc">{{ desc }}</p>
+        {% endif %}
       </div>
     </div>
   {% endfor %}

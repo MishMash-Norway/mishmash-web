@@ -96,4 +96,11 @@ body {
   min-width: 0;
 }
 
+.event-desc {
+  margin: 0.4rem 0 0 0;
+  color: #55606a;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
 
