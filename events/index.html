@@ -5,7 +5,7 @@ title: Events
 <h1>Events</h1>
 {% assign all_events = site.events | where_exp: "item", "item.draft != true" %}
 {% assign future_events = all_events | where_exp: "item", "item.date >= site.time" | sort: 'date' %}
-{% assign past_events = all_events | where_exp: "item", "item.date < site.time" | sort: 'date' %}
+{% assign past_events = all_events | where_exp: "item", "item.date < site.time" | sort: 'date' | reverse %}
 
 <h2>Upcoming events</h2>
 {% if future_events.size > 0 %}
@@ -24,7 +24,7 @@ title: Events
 
 <h2>Past events</h2>
 {% if past_events.size > 0 %}
-  {% for item in past_events | reverse %}
+  {% for item in past_events %}
     <p>
       {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
       <br />
