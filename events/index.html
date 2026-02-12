@@ -10,7 +10,7 @@ title: Events
 <h2>Upcoming events</h2>
 {% if future_events.size > 0 %}
   {% for item in future_events %}
-    <div class="event-item" style="display:flex;gap:12px;align-items:flex-start;margin-bottom:1rem;clear:both;">
+    <div class="event-item" style="display:flex;gap:12px;align-items:center;margin-bottom:1rem;clear:both;">
       {% assign thumb = nil %}
       {% if item.image %}
         {% assign thumb = item.image %}
@@ -40,7 +40,7 @@ title: Events
 <h2>Past events</h2>
 {% if past_events.size > 0 %}
   {% for item in past_events %}
-    <div class="event-item" style="display:flex;gap:12px;align-items:flex-start;margin-bottom:1rem;clear:both;">
+    <div class="event-item" style="display:flex;gap:12px;align-items:center;margin-bottom:1rem;clear:both;">
       {% assign thumb = nil %}
       {% if item.image %}
         {% assign thumb = item.image %}
