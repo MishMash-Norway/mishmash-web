@@ -75,3 +75,25 @@ body {
   margin-top: 0.6rem;
 }
 
+/* Event list styles (thumbnails and layout) */
+.event-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 1rem;
+  clear: both;
+}
+.event-thumb {
+  width: 120px;
+  max-width: 30vw;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+.event-content {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+

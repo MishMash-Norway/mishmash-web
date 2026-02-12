@@ -10,7 +10,7 @@ title: Events
 <h2>Upcoming events</h2>
 {% if future_events.size > 0 %}
   {% for item in future_events %}
-    <div class="event-item" style="display:flex;gap:12px;align-items:center;margin-bottom:1rem;clear:both;">
+    <div class="event-item">
       {% assign thumb = nil %}
       {% if item.image %}
         {% assign thumb = item.image %}
@@ -20,11 +20,11 @@ title: Events
         {% assign thumb = item.images[0] %}
       {% endif %}
       {% if thumb %}
-        <a href="{{ item.url | relative_url }}" style="flex:0 0 auto;display:block;">
-          <img src="{{ thumb | relative_url }}" alt="{{ item.title }}" style="width:120px;max-width:30vw;height:120px;object-fit:cover;border-radius:50%;display:block;">
+        <a href="{{ item.url | relative_url }}">
+          <img class="event-thumb" src="{{ thumb | relative_url }}" alt="{{ item.title }}">
         </a>
       {% endif %}
-      <div style="flex:1 1 auto;min-width:0;">
+      <div class="event-content">
         {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
         <br />
         <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
@@ -40,7 +40,7 @@ title: Events
 <h2>Past events</h2>
 {% if past_events.size > 0 %}
   {% for item in past_events %}
-    <div class="event-item" style="display:flex;gap:12px;align-items:center;margin-bottom:1rem;clear:both;">
+    <div class="event-item">
       {% assign thumb = nil %}
       {% if item.image %}
         {% assign thumb = item.image %}
@@ -50,11 +50,11 @@ title: Events
         {% assign thumb = item.images[0] %}
       {% endif %}
       {% if thumb %}
-        <a href="{{ item.url | relative_url }}" style="flex:0 0 auto;display:block;">
-          <img src="{{ thumb | relative_url }}" alt="{{ item.title }}" style="width:120px;max-width:30vw;height:120px;object-fit:cover;border-radius:50%;display:block;">
+        <a href="{{ item.url | relative_url }}">
+          <img class="event-thumb" src="{{ thumb | relative_url }}" alt="{{ item.title }}">
         </a>
       {% endif %}
-      <div style="flex:1 1 auto;min-width:0;">
+      <div class="event-content">
         {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
         <br />
         <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
