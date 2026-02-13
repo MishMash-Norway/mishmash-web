@@ -47,11 +47,12 @@ _No upcoming events found._
 
 ## How?
 
-MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives*.
-
-<div style="text-align: center;">
+<div style="float:right;margin:0 0 1rem 1rem;">
     <img src="/assets/images/cube/mishmash_cube.svg" alt="MishMash Cube" width="500">
 </div>
+
+MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives*.
+
 
 
 ## Partners
