@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="70 210 460 370">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="70 210 460 370">
   <polyline points="519.003 245.266 519.003 470.154 400.54 546.342 400.54 305.891" fill="#c1f7ae" stroke-width="0"/>
   <g>
     <line x1="403.208" y1="339.846" x2="516.709" y2="280.014" fill="none" stroke="#77bc57" stroke-dasharray="0 0 1 5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -385,4 +385,14 @@
     <path d="M494.268,350.582v-1.698h8.256c.329,0,.577-.05.741-.148.165-.098.276-.226.336-.383.059-.157.088-.329.088-.515,0-.137-.01-.256-.028-.357-.02-.103-.034-.183-.046-.239l1.403-.307c.038.099.077.238.116.421.04.182.062.408.065.682.008.446-.071.863-.238,1.25-.167.386-.424.698-.772.938-.349.238-.786.357-1.312.357h-8.608ZM496.358,347.094h1.364v4.767h-1.364v-4.767Z" fill="#363644" stroke-width="0"/>
     <path d="M508.358,344.145c0,.254-.02.484-.06.693-.04.208-.082.363-.128.466l-1.392-.409c.083-.311.119-.587.107-.83-.011-.242-.102-.457-.272-.645-.17-.188-.449-.354-.835-.497l-.58-.21-8.841,3.193v-1.818l6.773-2.211v-.091l-6.773-2.21v-1.824l9.893,3.597c.454.167.84.379,1.156.637s.554.564.713.921c.159.355.238.769.238,1.238Z" fill="#363644" stroke-width="0"/>
   </g>
+    <!-- Interactive WP links: transparent hitboxes linking to /wp1/ … /wp7/ -->
+    <g id="wp-links" aria-label="Workpackage links">
+      <a xlink:href="/wp1/" href="/wp1/"><title>WP1</title><rect x="81.688" y="320" width="38.122" height="200" fill="transparent" style="cursor:pointer"/></a>
+      <a xlink:href="/wp2/" href="/wp2/"><title>WP2</title><rect x="127.809" y="320" width="38.122" height="200" fill="transparent" style="cursor:pointer"/></a>
+      <a xlink:href="/wp3/" href="/wp3/"><title>WP3</title><rect x="173.931" y="320" width="38.122" height="200" fill="transparent" style="cursor:pointer"/></a>
+      <a xlink:href="/wp4/" href="/wp4/"><title>WP4</title><rect x="220.053" y="320" width="38.122" height="200" fill="transparent" style="cursor:pointer"/></a>
+      <a xlink:href="/wp5/" href="/wp5/"><title>WP5</title><rect x="266.174" y="320" width="38.122" height="200" fill="transparent" style="cursor:pointer"/></a>
+      <a xlink:href="/wp6/" href="/wp6/"><title>WP6</title><rect x="312.296" y="320" width="38.122" height="200" fill="transparent" style="cursor:pointer"/></a>
+      <a xlink:href="/wp7/" href="/wp7/"><title>WP7</title><rect x="358.417" y="320" width="38.122" height="200" fill="transparent" style="cursor:pointer"/></a>
+    </g>
 </svg>
