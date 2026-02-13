@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="70 210 460 370">
+  <polyline points="519.003 245.266 519.003 470.154 400.54 546.342 400.54 305.891" fill="#c1f7ae" stroke-width="0"/>
+  <g>
+    <line x1="403.208" y1="339.846" x2="516.709" y2="280.014" fill="none" stroke="#77bc57" stroke-dasharray="0 0 1 5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="403.208" y1="374.637" x2="516.709" y2="313.497" fill="none" stroke="#77bc57" stroke-dasharray="0 0 1 5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="403.208" y1="408.747" x2="516.709" y2="346.98" fill="none" stroke="#77bc57" stroke-dasharray="0 0 1 5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="403.208" y1="443.403" x2="516.709" y2="380.636" fill="none" stroke="#77bc57" stroke-dasharray="0 0 1 5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="404.426" y1="476.457" x2="517.464" y2="409.958" fill="none" stroke="#77bc57" stroke-dasharray="0 0 1 5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="403.437" y1="511.372" x2="517.464" y2="440.967" fill="none" stroke="#77bc57" stroke-dasharray="0 0 1 5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <polygon points="518.416 245.757 209.2 245.757 77.688 306.544 400.54 306.544 518.416 245.757" fill="#a7a1f4" stroke-width="0"/>
+  <!-- Labels: Create / Explore / Reflect -->
+  <text x="230" y="155" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" fill="white" transform="skewX(-18)">
+    Create
+  </text>
+  <text x="420" y="135" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" fill="white" transform="skewX(-18)">
+    Explore
+  </text>
+  <text x="640" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" fill="white" transform="skewX(-18)">
+    Reflect
+  </text>
+
+  <!-- Title: Research Approaches -->
+  <text x="480" y="60" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="40" fill="#363644">
+    Research Approaches
+  </text>
+  <g>
+    <g>
+      <line x1="129.41" y1="286.181" x2="129.91" y2="286.181" fill="none" stroke="#6a67d6" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="134.892" y1="286.181" x2="431.323" y2="286.181" fill="none" stroke="#6a67d6" stroke-dasharray="0 0 .996 4.982" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="433.814" y1="286.181" x2="434.314" y2="286.181" fill="none" stroke="#6a67d6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <line x1="173.615" y1="265.817" x2="174.115" y2="265.817" fill="none" stroke="#6a67d6" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="179.109" y1="265.817" x2="470.296" y2="265.817" fill="none" stroke="#6a67d6" stroke-dasharray="0 0 .999 4.995" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="472.794" y1="265.817" x2="473.294" y2="265.817" fill="none" stroke="#6a67d6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <rect x="77.688" y="306.544" width="322.852" height="239.798" fill="#363644" stroke="#363644" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.046"/>
+  <!-- Work package labels -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="white">
+    <text x="100" y="324">WP1: AI for artistic performances</text>
+    <text x="100" y="358">WP2: AI for artistic processes</text>
+    <text x="100" y="392">WP3: Creative use of AI in health and well-being</text>
+    <text x="100" y="426">WP4: Creative use of AI in education</text>
+    <text x="100" y="461">WP5: AI in the creative and cultural industries</text>
+    <text x="100" y="495">WP6: AI for cultural heritage</text>
+    <text x="100" y="529">WP7: AI for creative problem-solving</text>
+  </g>
+
+  <!-- Bottom label: Themes / Work Packages -->
+  <text x="340" y="710" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="34" fill="#363644">
+    Themes / Work Packages
+  </text>
+  <!-- (remaining detailed paths and lines omitted for brevity; content copied from MishMash-figurer-03-crop.svg) -->
+  <polyline points="519.003 245.266 519.003 470.154 400.54 546.342 400.54 305.891" fill="none" stroke="#363644" stroke-linejoin="round"/>
+  <polygon points="518.416 245.757 209.2 245.757 77.688 306.544 400.54 306.544 518.416 245.757" fill="none" stroke="#363644" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="316.629" y1="245.757" x2="185.116" y2="306.544" fill="none" stroke="#363644" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="424.057" y1="245.757" x2="292.545" y2="306.544" fill="none" stroke="#363644" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="479.515" y1="265.817" x2="479.515" y2="495.456" fill="none" stroke="#363644" stroke-miterlimit="10"/>
+  <line x1="440.028" y1="286.181" x2="440.028" y2="520.874" fill="none" stroke="#363644" stroke-miterlimit="10"/>
+  <line x1="77.162" y1="340.801" x2="401.035" y2="340.801" fill="none" stroke="#a7a1f4" stroke-miterlimit="10"/>
+  <line x1="77.162" y1="375.058" x2="401.035" y2="375.058" fill="none" stroke="#a7a1f4" stroke-miterlimit="10"/>
+  <line x1="77.162" y1="409.315" x2="401.035" y2="409.315" fill="none" stroke="#a7a1f4" stroke-miterlimit="10"/>
+  <line x1="77.162" y1="443.571" x2="401.035" y2="443.571" fill="none" stroke="#a7a1f4" stroke-miterlimit="10"/>
+  <line x1="77.162" y1="477.828" x2="401.035" y2="477.828" fill="none" stroke="#a7a1f4" stroke-miterlimit="10"/>
+  <line x1="77.162" y1="512.085" x2="401.035" y2="512.085" fill="none" stroke="#a7a1f4" stroke-miterlimit="10"/>
+  <!-- Right-face labels -->
+  <text font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#363644" transform="translate(640,430) rotate(-90)">
+    Machines
+  </text>
+  <text font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#363644" transform="translate(720,450) rotate(-90)">
+    Humans
+  </text>
+  <text font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#363644" transform="translate(800,470) rotate(-90)">
+    Society
+  </text>
+  <text font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#363644" transform="translate(720,710) rotate(-25)">
+    Perspectives
+  </text>
+</svg>
