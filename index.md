@@ -1,12 +1,13 @@
-MishMash is a Norwegian AI centre funded by the Research Council of Norway (2025-2030). It comprises more than 200 faculty members from many higher education institutions in Norway, in collaboration with numerous public and private sector partners. The primary objective of MishMash is to **create, explore, and reflect on AI for, through, and in creative practices**. MishMash researchers will investigate AI’s impact on creative processes, develop innovative CoCreative AI systems and educational strategies, and address AI’s ethical, cultural, legal, and societal implications in creative domains. 
-
 <div style="float:right;margin:0 0 1rem 1rem;">
     <img src="/assets/images/bubbles/mishmash_bubbles.svg" alt="MishMash explores the meeting point of humans and machines with art and science" width="400">
 </div>
 
+MishMash is a Norwegian AI centre comprising more than 200 researchers from higher education institutions in Norway, in collaboration with numerous public and private sector partners. The primary objective of MishMash is to **create, explore, and reflect on AI for, through, and in creative practices**. MishMash researchers will investigate AI’s impact on creative processes, develop innovative co-creative AI systems and educational strategies, and address AI’s ethical, cultural, legal, and societal implications in creative domains.
+
+
 ## Vacancies
 
-- MishMash is now hiring! We have several [fully-funded PhD and PostDoc fellowships](https://mishmash.no/news/positions/) available in various MishMash partner institutions in Norway.
+- We have several [fully-funded PhD and PostDoc fellowships](https://mishmash.no/news/positions/) available in various MishMash partner institutions in Norway.
 
 <!--
 ## News
@@ -47,9 +48,7 @@ _No upcoming events found._
 
 ## How?
 
-<div style="float:right;margin:0 0 1rem 1rem;">
-    <img src="/assets/images/cube/mishmash_cube.svg" alt="MishMash Cube" width="500">
-</div>
+![MishMash Cube](/assets/images/cube/mishmash_cube.svg){: style="display:block;margin:0 auto;width:500px;" }
 
 MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives*.
 
