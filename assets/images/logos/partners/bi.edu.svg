@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="78.823 288.499 110.89 110.315" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="gradient-2-0" gradientUnits="userSpaceOnUse" x1="83.504" y1="292.826" x2="83.504" y2="398.814" xlink:href="#gradient-2"/>
+    <linearGradient id="gradient-2" bx:pinned="true">
+      <title>Gradient 1</title>
+      <stop style="stop-color: rgb(1, 108, 180);" offset="0"/>
+      <stop offset="0.77" style="stop-color: rgb(74, 175, 232);"/>
+      <stop style="stop-color: rgb(74, 175, 232);" offset="1"/>
+    </linearGradient>
+    <linearGradient id="gradient-1" x1="185.035" x2="185.035" y1="288.499" y2="394.421" gradientUnits="userSpaceOnUse" spreadMethod="pad" gradientTransform="matrix(1, 0, 0, 1, -370.07016, -682.919678)">
+      <stop style="stop-color: rgb(1, 108, 180);" offset="0"/>
+      <stop style="stop-color: rgb(75, 176, 233);" offset="1"/>
+    </linearGradient>
+    <linearGradient id="gradient-3-0" gradientUnits="userSpaceOnUse" x1="176.217" y1="257.852" x2="176.217" y2="363.84" spreadMethod="pad" gradientTransform="matrix(1, 0, 0, 0.594405, 0, 0)" xlink:href="#gradient-3"/>
+    <linearGradient id="gradient-3" bx:pinned="true">
+      <title>Gradient 2</title>
+      <stop offset="0" style="stop-color: rgb(73, 174, 231);"/>
+      <stop style="stop-color: rgb(73, 174, 232);" offset="0.154"/>
+      <stop style="stop-color: rgba(85, 180, 235, 0);" offset="0.956"/>
+    </linearGradient>
+    <linearGradient id="gradient-3-1" gradientUnits="userSpaceOnUse" x1="176.217" y1="257.852" x2="176.217" y2="363.84" gradientTransform="matrix(1, 0, 0, 0.594402, -312.935974, -358.818573)" xlink:href="#gradient-3"/>
+  </defs>
+  <path class="font" d="M 110.11 360.93 L 110.11 356.128 L 114.275 356.128 L 114.275 330.991 L 110.11 330.991 L 110.11 326.14 L 126.084 326.14 Q 130.004 326.14 132.307 327.071 Q 134.708 328.002 136.154 330.133 Q 137.599 332.265 137.599 335.107 Q 137.599 337.557 136.472 339.517 Q 135.345 341.477 133.336 342.555 L 133.336 342.653 Q 136.129 343.486 137.55 345.74 Q 138.971 347.994 138.971 350.885 Q 138.971 354.364 137.011 356.912 Q 135.051 359.46 132.062 360.342 Q 130.004 360.93 126.868 360.93 Z M 120.694 340.35 L 126.819 340.35 Q 128.828 340.35 129.955 339.1 Q 131.082 337.851 131.082 335.793 Q 131.082 332.902 129.073 331.824 Q 127.946 331.285 126.084 331.285 L 120.694 331.285 Z M 120.694 355.785 L 127.162 355.785 Q 128.681 355.785 129.661 355.393 Q 130.984 354.854 131.719 353.506 Q 132.454 352.159 132.454 350.493 Q 132.454 348.239 131.107 346.842 Q 129.759 345.446 127.407 345.446 L 120.694 345.446 Z" />
+  <path class="font" d="M 143.865 360.93 L 143.865 356.128 L 148.03 356.128 L 148.03 330.991 L 143.865 330.991 L 143.865 326.14 L 158.663 326.14 L 158.663 330.991 L 154.449 330.991 L 154.449 356.128 L 158.663 356.128 L 158.663 360.93 Z" />
+  <rect x="78.823" y="292.826" width="9.363" height="105.988" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: url(#gradient-2-0);"/>
+  <rect x="-189.713" y="-394.421" width="9.356" height="105.922" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: url(#gradient-1);" transform="matrix(-1, 0, 0, -1, 0, 0)"/>
+  <rect x="171.536" y="153.269" width="9.363" height="63" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: url(#gradient-3-0);" transform="matrix(0, -1, 1, 0, -65.268555, 570.348999)" bx:origin="0.5 0.510053"/>
+  <rect x="-141.4" y="-205.55" width="9.363" height="63" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: url(#gradient-3-1);" transform="matrix(0, 1, -1, 0, -25.150003, 429.899994)"/>
+  <style>
+  .font {
+    fill: rgb(0, 27, 50); 
+    white-space: pre;
+  }
+  @media (prefers-color-scheme: dark) {
+    .font {
+      fill: rgb(255, 255, 255);
+    }
+  }
+  </style>
+</svg>
