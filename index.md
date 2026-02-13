@@ -1,7 +1,7 @@
 MishMash is a Norwegian AI centre funded by the Research Council of Norway (2025-2030). It comprises more than 200 faculty members from many higher education institutions in Norway, in collaboration with numerous public and private sector partners. The primary objective of MishMash is to **create, explore, and reflect on AI for, through, and in creative practices**. MishMash researchers will investigate AI’s impact on creative processes, develop innovative CoCreative AI systems and educational strategies, and address AI’s ethical, cultural, legal, and societal implications in creative domains. 
 
 <div style="text-align: center;">
-    <img src="assets/images/MishMash-figurer-01-crop.svg" alt="MishMash explores the meeting point of humans and machines with art and science" width="400">
+    <img src="/assets/images/bubbles/mishmash_bubbles.svg" alt="MishMash explores the meeting point of humans and machines with art and science" width="400">
 </div>
 
 ## Vacancies
@@ -50,8 +50,9 @@ _No upcoming events found._
 MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives*.
 
 <div style="text-align: center;">
-    <img src="/assets/images/MishMash-figurer-03-crop.svg" alt="MishMash cube" width="500">
+    <img src="/assets/images/cube/mishmash_cube.svg" alt="MishMash Cube" width="500">
 </div>
+
 
 ## Partners
 

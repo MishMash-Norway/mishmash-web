@@ -21,7 +21,7 @@ There are many possibilities with Creative and CoCreative AI systems, but also n
 MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives*.
 
 <div style="text-align: center;">
-    <img src="/assets/images/MishMash-figurer-03-crop.svg" alt="MishMash cube" width="500">
+    <img src="/assets/images/cube/mishmash_cube.svg" alt="MishMash cube" width="500">
 </div>
 
 The WPs are designed around seven core *themes*, addressing the challenges outlined in the previous section. While some WPs focus on leveraging AI in creative—primarily artistic—applications, others explore the innovative use of AI in adjacent domains, fostering a dynamic interplay between art, science, and society. The work will be conducted by combining a multitude of scientific and arts-based theories and methods, which can be summarised in three interconnected *research approaches*:
