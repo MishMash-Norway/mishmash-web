@@ -19,30 +19,36 @@ MishMash is a Norwegian AI centre comprising more than 200 researchers from high
 {% if future_events.size > 0 %}
 {% for item in future_events limit:3 %}
 <div class="event-item">
-{% assign thumb = nil %}
-{% if item.image %}
+  {% assign thumb = nil %}
+  {% if item.image %}
     {% assign thumb = item.image %}
-{% elsif item.thumbnail %}
+  {% elsif item.thumbnail %}
     {% assign thumb = item.thumbnail %}
-{% elsif item.images and item.images.size > 0 %}
+  {% elsif item.images and item.images.size > 0 %}
     {% assign thumb = item.images[0] %}
-{% endif %}
+  {% endif %}
 
-{% if thumb %}
-[![{{ item.title }}]({{ thumb | relative_url }})]({{ item.url | relative_url }})
-{% endif %}
+  {% if thumb %}
+    <a href="{{ item.url | relative_url }}">
+      <img src="{{ thumb | relative_url }}" alt="{{ item.title }}" />
+    </a>
+  {% endif %}
 
-**{{ item.title }}**  
-{{ item.date | date: "%b %d, %Y at %H:%M" }}{% if item.enddate or item.end_date %} – {{ item.enddate | default: item.end_date | date: "%H:%M" }}{% endif %}{% if item.location %} — {{ item.location }}{% endif %}
+  <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
 
-{%- assign desc = item.description | default: item.excerpt -%}
-{%- if desc == nil or desc == "" -%}
+  <p>
+    {{ item.date | date: "%b %d, %Y at %H:%M" }}
+    {% if item.enddate or item.end_date %} – {{ item.enddate | default: item.end_date | date: "%H:%M" }}{% endif %}
+    {% if item.location %} — {{ item.location }}{% endif %}
+  </p>
+
+  {%- assign desc = item.description | default: item.excerpt -%}
+  {%- if desc == nil or desc == "" -%}
     {%- assign desc = item.content | strip_html | truncatewords: 30 -%}
-{%- endif -%}
-{% if desc %}
-{{ desc }}
-{% endif %}
-
+  {%- endif -%}
+  {% if desc %}
+    <p>{{ desc }}</p>
+  {% endif %}
 </div>
 {% endfor %}
 {% else %}
