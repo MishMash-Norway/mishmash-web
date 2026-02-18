@@ -9,41 +9,47 @@ MishMash is a Norwegian AI centre comprising more than 200 researchers from high
 
 - We have several [fully-funded PhD and PostDoc fellowships](https://mishmash.no/news/positions/) available in various MishMash partner institutions in Norway.
 
-<!--
-## News
+<h1>Events</h1>
+{% assign all_events = site.events | where_exp: "item", "item.draft != true" %}
+{% assign future_events = all_events | where_exp: "item", "item.date >= site.time" | sort: 'date' %}
+{% assign past_events = all_events | where_exp: "item", "item.date < site.time" | sort: 'date' | reverse %}
 
-{% assign latest = site.pages | where_exp:"p","p.path contains '/news/'" | sort: "date" | last %}
-{% if latest %}
-### {{ latest.title }}
-- {{ latest.date | date: "%-d %B %Y" }}  
-[Read more]({{ latest.url }})  
-
-{{ latest.excerpt | markdownify }}
+## Upcoming events
+{% if future_events.size > 0 %}
+    {% for item in future_events limit:3 %}
+        <div class="event-item">
+            {% assign thumb = nil %}
+            {% if item.image %}
+                {% assign thumb = item.image %}
+            {% elsif item.thumbnail %}
+                {% assign thumb = item.thumbnail %}
+            {% elsif item.images and item.images.size > 0 %}
+                {% assign thumb = item.images[0] %}
+            {% endif %}
+            {% if thumb %}
+                <a href="{{ item.url | relative_url }}">
+                    <img class="event-thumb" src="{{ thumb | relative_url }}" alt="{{ item.title }}">
+                </a>
+            {% endif %}
+            <div class="event-content">
+                <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
+                {%- if item.enddate or item.end_date -%}–<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }}</time>{% endif -%}
+                {% if item.location %} &mdash; {{ item.location }}{% endif %}
+                <br />
+                {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+                {%- assign desc = item.description | default: item.excerpt -%}
+                {%- if desc == nil or desc == "" -%}
+                    {%- assign desc = item.content | strip_html | truncatewords: 30 -%}
+                {%- endif -%}
+                {% if desc %}
+                    <p class="event-desc">{{ desc }}</p>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
 {% else %}
-_No news posts found._
+    <p>No upcoming events.</p>
 {% endif %}
-
-## Events
-
-{% assign events = site.pages | where_exp:"p","p.path contains '/events/'" | sort: "date" %}
-{% assign next = nil %}
-{% for e in events %}
-    {% if e.date >= site.time %}
-        {% assign next = e %}
-        {% break %}
-    {% endif %}
-{% endfor %}
-{% if next %}
-### Next event: {{ next.title }}
-- {{ next.date | date: "%-d %B %Y" }}  
-[Read more]({{ next.url }})  
-
-{{ next.excerpt | markdownify }}
-{% else %}
-_No upcoming events found._
-{% endif %}
-
--->
 
 
 ## How?
