@@ -18,6 +18,7 @@ MishMash is a Norwegian AI centre comprising more than 200 researchers from high
 
 {% if future_events.size > 0 %}
 {% for item in future_events limit:3 %}
+<div class="event-item">
 {% assign thumb = nil %}
 {% if item.image %}
     {% assign thumb = item.image %}
@@ -42,7 +43,7 @@ MishMash is a Norwegian AI centre comprising more than 200 researchers from high
 {{ desc }}
 {% endif %}
 
----
+</div>
 {% endfor %}
 {% else %}
 No upcoming events.
