@@ -2,19 +2,18 @@
     <img src="/assets/images/bubbles/mishmash_bubbles.svg" alt="MishMash explores the meeting point of humans and machines with art and science" width="400">
 </div>
 
-MishMash is a Norwegian AI centre comprising more than 200 researchers from higher education institutions in Norway, in collaboration with numerous public and private sector partners. The primary objective of MishMash is to **create, explore, and reflect on AI for, through, and in creative practices**. MishMash researchers will investigate AI’s impact on creative processes, develop innovative co-creative AI systems and educational strategies, and address AI’s ethical, cultural, legal, and societal implications in creative domains.
+MishMash is a Norwegian AI centre comprising more than 200 researchers from higher education institutions in Norway, in collaboration with numerous public and private sector partners. The primary objective of MishMash is to **create, explore, and reflect on AI for, through, and in creative practices**. MishMash researchers will investigate AI’s impact on creative processes, develop innovative co-creative AI systems and educational strategies, and address AI’s ethical, cultural, legal, and societal implications in creative domains. [More about MishMash](https://mishmash.no/about/)
 
 
 ## Vacancies
 
 - We have several [fully-funded PhD and PostDoc fellowships](https://mishmash.no/news/positions/) available in various MishMash partner institutions in Norway.
 
-<h1>Events</h1>
+<h2><a href="https://mishmash.no/events/">Events</a></h2>
+
 {% assign all_events = site.events | where_exp: "item", "item.draft != true" %}
 {% assign future_events = all_events | where_exp: "item", "item.date >= site.time" | sort: 'date' %}
 {% assign past_events = all_events | where_exp: "item", "item.date < site.time" | sort: 'date' | reverse %}
-
-## Upcoming events
 
 {% if future_events.size > 0 %}
 {% for item in future_events limit:3 %}
@@ -52,12 +51,6 @@ MishMash is a Norwegian AI centre comprising more than 200 researchers from high
 No upcoming events.
 {% endif %}
 
-
-## How?
-
-MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives*.
-
-![MishMash Cube](/assets/images/cube/mishmash_cube.svg){: style="display:block;margin:0 auto;width:500px;" }
 
 ## Partners
 
