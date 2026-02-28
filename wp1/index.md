@@ -42,7 +42,7 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
 
 ## Events
 
-*Workshops, performances, and demonstrations from WP1 will be announced here.*
+{% include wp-events.html wp="WP1" %}
 
 ---
 
