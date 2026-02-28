@@ -1,6 +1,6 @@
-{% comment %}List events that have the given WP category (include.wp) - guard against null{% endcomment %}
-{% assign events = site.categories[include.wp] %}
-{% if events %}
+{% comment %}List events from the events collection that have the given WP category (include.wp){% endcomment %}
+{% assign events = site.events | where_exp: "e", "e.categories contains include.wp" %}
+{% if events and events != empty %}
   {% assign events = events | sort: 'date' %}
   <ul class="wp-events">
     {% for event in events %}

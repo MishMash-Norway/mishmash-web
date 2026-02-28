@@ -27,10 +27,10 @@ Dotenv not found. Skipping
  Incremental build: disabled. Enable with --incremental
       Generating... 
              Theme: pages-themes/cayman@v0.2.0
-      Theme source: /tmp/jekyll-remote-theme-20260228-513609-e5uszr
+      Theme source: /tmp/jekyll-remote-theme-20260228-514846-r40jtb
       Remote Theme: Using theme pages-themes/cayman
-      Remote Theme: Downloading https://codeload.github.com/pages-themes/cayman/zip/v0.2.0 to /tmp/jekyll-remote-theme-20260228-513609-f4yq57.zip
-      Remote Theme: Unzipping /tmp/jekyll-remote-theme-20260228-513609-f4yq57.zip to /tmp/jekyll-remote-theme-20260228-513609-e5uszr
+      Remote Theme: Downloading https://codeload.github.com/pages-themes/cayman/zip/v0.2.0 to /tmp/jekyll-remote-theme-20260228-514846-yryrmv.zip
+      Remote Theme: Unzipping /tmp/jekyll-remote-theme-20260228-514846-yryrmv.zip to /tmp/jekyll-remote-theme-20260228-514846-r40jtb
          Requiring: jekyll-seo-tag
        EntryFilter: excluded /Gemfile.lock
        EntryFilter: excluded /Gemfile
@@ -49,17 +49,17 @@ Dotenv not found. Skipping
            Reading: _events/2026-04-08-aulaen.md
            Reading: _events/2026-04-08-domus.md
            Reading: _events/2026-09-14-kristiansand.md
-        Generating: JekyllOptionalFrontMatter::Generator finished in 0.001480085 seconds.
-        Generating: JekyllReadmeIndex::Generator finished in 0.003060099 seconds.
+        Generating: JekyllOptionalFrontMatter::Generator finished in 0.00104798 seconds.
+        Generating: JekyllReadmeIndex::Generator finished in 0.00211122 seconds.
        Jekyll Feed: Generating feed for news
        Jekyll Feed: Generating feed for events
        Jekyll Feed: Generating feed for posts
-        Generating: JekyllFeed::Generator finished in 0.000483782 seconds.
-        Generating: Jekyll::Paginate::Pagination finished in 4.762e-06 seconds.
-        Generating: JekyllRelativeLinks::Generator finished in 0.022108272 seconds.
-        Generating: JekyllDefaultLayout::Generator finished in 0.000250148 seconds.
+        Generating: JekyllFeed::Generator finished in 0.000482717 seconds.
+        Generating: Jekyll::Paginate::Pagination finished in 4.274e-06 seconds.
+        Generating: JekyllRelativeLinks::Generator finished in 0.021293983 seconds.
+        Generating: JekyllDefaultLayout::Generator finished in 0.000217912 seconds.
          Requiring: kramdown-parser-gfm
-        Generating: JekyllTitlesFromHeadings::Generator finished in 0.005613929 seconds.
+        Generating: JekyllTitlesFromHeadings::Generator finished in 0.005360927 seconds.
    GitHub Metadata: Generating for MishMash-Norway/mishmash-web
          Rendering: _news/2025-11-21-positions.md
   Pre-Render Hooks: _news/2025-11-21-positions.md
@@ -176,7 +176,6 @@ Dotenv not found. Skipping
          Rendering: news/index.html
   Pre-Render Hooks: news/index.html
   Rendering Liquid: news/index.html
-[33m    Liquid Warning: Liquid syntax error (line 3): Expected end_of_string but found pipe in "item in site.news | sort: 'date'" in news/index.html[0m
   Rendering Markup: news/index.html
   Rendering Layout: news/index.html
      Layout source: site
@@ -311,6 +310,6 @@ Dotenv not found. Skipping
            Writing: /home/alexanje/github/mishmash-web/_site/events/domus2026/index.html
            Writing: /home/alexanje/github/mishmash-web/_site/events/aulaen2026/index.html
            Writing: /home/alexanje/github/mishmash-web/_site/events/kristiansand2026/index.html
-                    done in 1.165 seconds.
+                    done in 1.25 seconds.
  Auto-regeneration: disabled. Use --watch to enable.
-      Remote Theme: Cleaning up /tmp/jekyll-remote-theme-20260228-513609-e5uszr
+      Remote Theme: Cleaning up /tmp/jekyll-remote-theme-20260228-514846-r40jtb
