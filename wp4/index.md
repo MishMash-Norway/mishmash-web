@@ -1,3 +1,8 @@
+---
+layout: page
+title: "WP4: Creative use of AI in education"
+---
+
 # WP4: Creative use of AI in education
 
 *WP Leaders: [Eirik Sørbø](https://www.uia.no/english/about-uia/employees/eiriks05/) (UiA) / [Sidsel Karlsen](https://nmh.no/en/contact-us/employees/sidsel-karlsen) (NMH) / [Fredrik Graver](https://www.inn.no/english/find-an-employee/fredrik-graver.html) (INN)*
@@ -30,17 +35,13 @@ The aim is to equip future practitioners and educators with the competence to na
 - **[Sidsel Karlsen](https://nmh.no/en/contact-us/employees/sidsel-karlsen)** (NMH) - Co-lead
 - **[Fredrik Graver](https://www.inn.no/english/find-an-employee/fredrik-graver.html)** (INN) - Co-lead
 
-## News & Updates
+## News
 
 *Updates will be posted here as the work package develops.*
 
-## Publications
-
-*Research publications from WP4 will be listed here.*
-
 ## Events
 
-*Educational workshops, seminars, and training programs from WP4 will be announced here.*
+{% include wp-events.html wp="WP4" %}
 
 ---
 

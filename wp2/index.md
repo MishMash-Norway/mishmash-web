@@ -1,3 +1,8 @@
+---
+layout: page
+title: "WP2: AI in artistic processes"
+---
+
 # WP2: AI in artistic processes
 
 *WP Leaders: [Budhaditya Chattopadhyay](https://www.uib.no/en/persons/Budhaditya.Chattopadhyay) (UiB) / [Sashi Komandur](https://www.inn.no/english/find-an-employee/sashi-komandur.html) (INN) / [Synne Tollerud Bull](https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/) (Kristiania)*
@@ -30,17 +35,13 @@ This raises critical questions about cultural agency: Who decides what stories a
 - **[Sashi Komandur](https://www.inn.no/english/find-an-employee/sashi-komandur.html)** (INN) - Co-lead
 - **[Synne Tollerud Bull](https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/)** (Kristiania) - Co-lead
 
-## News & Updates
+## News
 
 *Updates will be posted here as the work package develops.*
 
-## Publications
-
-*Research publications from WP2 will be listed here.*
-
 ## Events
 
-*Workshops, exhibitions, and artistic productions from WP2 will be announced here.*
+{% include wp-events.html wp="WP2" %}
 
 ---
 

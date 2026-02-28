@@ -1,3 +1,8 @@
+---
+layout: page
+title: "WP7: Human-centric AI for Creative Problem-Solving"
+---
+
 # WP7: Human-centric AI for Creative Problem-Solving
 
 ## Overview

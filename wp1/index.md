@@ -37,13 +37,9 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
 - **[Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland)** (NMH) - Co-lead
 - **[Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html)** (HiØ) - Co-lead
 
-## News & Updates
+## News
 
 *Updates will be posted here as the work package develops.*
-
-## Publications
-
-*Research publications from WP1 will be listed here.*
 
 ## Events
 

@@ -1,3 +1,8 @@
+---
+layout: page
+title: "WP5: AI in the Creative and Cultural Industries"
+---
+
 # WP5: AI in the Creative and Cultural Industries
 
 *WP Leaders: [Ragnhild Brøvig](https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html) (UiO) / [Irina Eidsvold-Tøien](https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/) (BI) / [Jon Marius Aareskjold-Drecker](https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175) (UiT)*
@@ -37,17 +42,13 @@ The WP aims to generate new knowledge, inform policy and governance and promote 
 - **[Irina Eidsvold-Tøien](https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/)** (BI) - Co-lead
 - **[Jon Marius Aareskjold-Drecker](https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175)** (UiT) - Co-lead
 
-## News & Updates
+## News
 
 *Updates will be posted here as the work package develops.*
 
-## Publications
-
-*Research publications from WP5 will be listed here.*
-
 ## Events
 
-*Industry workshops, legal seminars, and policy discussions from WP5 will be announced here.*
+{% include wp-events.html wp="WP5" %}
 
 ---
 

@@ -1,3 +1,8 @@
+---
+layout: page
+title: "WP3: Creative use of AI for health and well-being"
+---
+
 # WP3: Creative use of AI for health and well-being
 
 *WP Leaders: [Claire Ghetti](https://www.uib.no/en/persons/Claire.Ghetti) (UiB) / [Andreas Bergsland](https://www.ntnu.edu/employees/andreas.bergsland) (NTNU) / [Jonna Vuoskoski](https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html) (UiO)*
@@ -30,17 +35,13 @@ Ethical considerations are central to this WP, especially how AI can be used res
 - **[Andreas Bergsland](https://www.ntnu.edu/employees/andreas.bergsland)** (NTNU) - Co-lead
 - **[Jonna Vuoskoski](https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html)** (UiO) - Co-lead
 
-## News & Updates
+## News
 
 *Updates will be posted here as the work package develops.*
 
-## Publications
-
-*Research publications from WP3 will be listed here.*
-
 ## Events
 
-*Workshops, therapeutic interventions, and health-focused activities from WP3 will be announced here.*
+{% include wp-events.html wp="WP3" %}
 
 ---
 

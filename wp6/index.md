@@ -1,3 +1,8 @@
+---
+layout: page
+title: "WP6: AI for cultural heritage"
+---
+
 # WP6: AI for cultural heritage
 
 *WP Leaders: [Ingrid Romarheim Haugen](https://www.nb.no/ansatte/ingrid-romarheim-haugen/) (NB) / [Arnulf Mattes](https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes) (UiB) / [Olivier Lartillot](https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html) (UiO)*
