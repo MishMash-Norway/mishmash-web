@@ -4,13 +4,7 @@ title: "Cristin Project Results"
 permalink: /results/
 ---
 
-<section class="page container">
-  <header class="page-header">
-    <h1>Reported Cristin Results for MishMash Centre for AI and Creativity</h1>
-  </header>
-
-  <main id="results"><span class="loading">Loading...</span></main>
-</section>
+## Reported Cristin Results for MishMash Centre for AI and Creativity
 
 <script>
   async function fetchCristinResults() {
