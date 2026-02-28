@@ -1,0 +1,7 @@
+{% comment %}List events that have the given WP category (include.wp) {% endcomment %}
+{% assign events = site.categories[include.wp] | sort: 'date' %}
+<ul class="wp-events">
+  {% for event in events %}
+    <li><a href="{{ event.url }}">{{ event.title }}</a> — {{ event.date | date: "%Y-%m-%d" }}</li>
+  {% endfor %}
+</ul>

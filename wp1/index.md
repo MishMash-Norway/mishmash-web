@@ -1,3 +1,8 @@
+---
+layout: page
+title: "WP1: AI for artistic performances"
+---
+
 # WP1: AI for artistic performances
 
 *WP Leaders: [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (UiO) / [Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (NMH) / [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (HiØ)*
