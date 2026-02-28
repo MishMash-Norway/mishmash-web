@@ -1,4 +1,17 @@
-<div style="float:right;margin:0 0 1rem 1rem;">
+<style>
+.mishmash-bubbles img{
+    -webkit-transition: filter .25s ease;
+    transition: filter .25s ease;
+    -webkit-filter: none;
+    filter: none;
+}
+.mishmash-bubbles img:hover{
+    -webkit-filter: invert(1) hue-rotate(180deg);
+    filter: invert(1) hue-rotate(180deg);
+}
+</style>
+
+<div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
     <img src="/assets/images/bubbles/mishmash_bubbles.svg" alt="MishMash explores the meeting point of humans and machines with art and science" width="400">
 </div>
 
