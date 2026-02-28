@@ -43,6 +43,6 @@ AIs developed in this WP will be limited by stricter boundaries than others—fr
 
 ## Events
 
-{% include wp-events.html wp="WP7" %}
+{% include events_wp_pages.html wp="WP7" %}
 
 [← Back to main page](../index.md)

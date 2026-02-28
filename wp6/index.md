@@ -43,6 +43,6 @@ The public sector must lead in these technologies, ensuring that powerful new ca
 
 ## Events
 
-{% include wp-events.html wp="WP6" %}
+{% include events_wp_pages.html wp="WP6" %}
 
 [← Back to main page](../index.md)

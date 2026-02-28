@@ -48,6 +48,6 @@ The WP aims to generate new knowledge, inform policy and governance and promote 
 
 ## Events
 
-{% include wp-events.html wp="WP5" %}
+{% include events_wp_pages.html wp="WP5" %}
 
 [← Back to main page](../index.md)
