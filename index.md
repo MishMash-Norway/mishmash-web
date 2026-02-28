@@ -1,13 +1,29 @@
+# MishMash
+
 <style>
+.mishmash-bubbles{
+    position:relative;
+    display:inline-block;
+}
 .mishmash-bubbles img{
-    -webkit-transition: filter .25s ease;
-    transition: filter .25s ease;
+    -webkit-transition: filter .25s ease, opacity .25s ease;
+    transition: filter .25s ease, opacity .25s ease;
     -webkit-filter: none;
     filter: none;
+    display:block;
 }
-.mishmash-bubbles img:hover{
-    -webkit-filter: invert(1) hue-rotate(180deg);
-    filter: invert(1) hue-rotate(180deg);
+.mishmash-bubbles::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background: linear-gradient(90deg, #A7A1F4 0%, #C1F7AE 100%);
+    mix-blend-mode: difference;
+    pointer-events:none;
+    opacity:0;
+    transition: opacity .25s ease;
+}
+.mishmash-bubbles:hover::after{
+    opacity:1;
 }
 </style>
 
