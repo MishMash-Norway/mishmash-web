@@ -1,0 +1,316 @@
+  Logging at level: debug
+Configuration file: /home/alexanje/github/mishmash-web/_config.yml
+      GitHub Pages: github-pages v232
+      GitHub Pages: jekyll v3.10.0
+             Theme: jekyll-theme-primer
+      Theme source: /home/alexanje/github/mishmash-web/vendor/bundle/ruby/3.2.0/gems/jekyll-theme-primer-0.6.0
+         Requiring: jekyll-github-metadata
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+Dotenv not found. Skipping 
+         Requiring: jekyll-seo-tag
+         Requiring: jekyll-remote-theme
+         Requiring: jekyll-feed
+         Requiring: jekyll-coffeescript
+         Requiring: jekyll-commonmark-ghpages
+         Requiring: jekyll-gist
+         Requiring: jekyll-github-metadata
+         Requiring: jekyll-paginate
+         Requiring: jekyll-relative-links
+         Requiring: jekyll-optional-front-matter
+         Requiring: jekyll-readme-index
+         Requiring: jekyll-default-layout
+         Requiring: jekyll-titles-from-headings
+         Requiring: jekyll-remote-theme
+   GitHub Metadata: Initializing...
+            Source: /home/alexanje/github/mishmash-web
+       Destination: /home/alexanje/github/mishmash-web/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+             Theme: pages-themes/cayman@v0.2.0
+      Theme source: /tmp/jekyll-remote-theme-20260228-511651-m5mw40
+      Remote Theme: Using theme pages-themes/cayman
+      Remote Theme: Downloading https://codeload.github.com/pages-themes/cayman/zip/v0.2.0 to /tmp/jekyll-remote-theme-20260228-511651-mc03ur.zip
+      Remote Theme: Unzipping /tmp/jekyll-remote-theme-20260228-511651-mc03ur.zip to /tmp/jekyll-remote-theme-20260228-511651-m5mw40
+         Requiring: jekyll-seo-tag
+       EntryFilter: excluded /Gemfile.lock
+       EntryFilter: excluded /Gemfile
+       EntryFilter: excluded /CNAME
+       EntryFilter: excluded /vendor/bundle/ruby
+           Reading: _news/2025-11-21-positions.md
+           Reading: _news/2026-01-21-administrative-coordinator.md
+           Reading: _events/2025-12-03-quantum_music.md
+           Reading: _events/2026-01-29-meshup01.md
+           Reading: _events/2026-02-05-meshup02.md
+           Reading: _events/2026-02-12-meshup03.md
+           Reading: _events/2026-02-19-meshup04.md
+           Reading: _events/2026-02-26-meshup05.md
+           Reading: _events/2026-03-05-meshup06.md
+           Reading: _events/2026-03-12-meshup07.md
+           Reading: _events/2026-04-08-aulaen.md
+           Reading: _events/2026-04-08-domus.md
+           Reading: _events/2026-09-14-kristiansand.md
+        Generating: JekyllOptionalFrontMatter::Generator finished in 0.001350292 seconds.
+        Generating: JekyllReadmeIndex::Generator finished in 0.002150758 seconds.
+       Jekyll Feed: Generating feed for news
+       Jekyll Feed: Generating feed for events
+       Jekyll Feed: Generating feed for posts
+        Generating: JekyllFeed::Generator finished in 0.00046176 seconds.
+        Generating: Jekyll::Paginate::Pagination finished in 4.415e-06 seconds.
+        Generating: JekyllRelativeLinks::Generator finished in 0.02257452 seconds.
+        Generating: JekyllDefaultLayout::Generator finished in 0.000257687 seconds.
+         Requiring: kramdown-parser-gfm
+        Generating: JekyllTitlesFromHeadings::Generator finished in 0.005297074 seconds.
+   GitHub Metadata: Generating for MishMash-Norway/mishmash-web
+         Rendering: _news/2025-11-21-positions.md
+  Pre-Render Hooks: _news/2025-11-21-positions.md
+  Rendering Markup: _news/2025-11-21-positions.md
+  Rendering Layout: _news/2025-11-21-positions.md
+     Layout source: site
+         Rendering: _news/2026-01-21-administrative-coordinator.md
+  Pre-Render Hooks: _news/2026-01-21-administrative-coordinator.md
+  Rendering Markup: _news/2026-01-21-administrative-coordinator.md
+  Rendering Layout: _news/2026-01-21-administrative-coordinator.md
+     Layout source: site
+         Rendering: _events/2025-12-03-quantum_music.md
+  Pre-Render Hooks: _events/2025-12-03-quantum_music.md
+  Rendering Markup: _events/2025-12-03-quantum_music.md
+  Rendering Layout: _events/2025-12-03-quantum_music.md
+     Layout source: site
+         Rendering: _events/2026-01-29-meshup01.md
+  Pre-Render Hooks: _events/2026-01-29-meshup01.md
+  Rendering Markup: _events/2026-01-29-meshup01.md
+  Rendering Layout: _events/2026-01-29-meshup01.md
+     Layout source: site
+         Rendering: _events/2026-02-05-meshup02.md
+  Pre-Render Hooks: _events/2026-02-05-meshup02.md
+  Rendering Markup: _events/2026-02-05-meshup02.md
+  Rendering Layout: _events/2026-02-05-meshup02.md
+     Layout source: site
+         Rendering: _events/2026-02-12-meshup03.md
+  Pre-Render Hooks: _events/2026-02-12-meshup03.md
+  Rendering Markup: _events/2026-02-12-meshup03.md
+  Rendering Layout: _events/2026-02-12-meshup03.md
+     Layout source: site
+         Rendering: _events/2026-02-19-meshup04.md
+  Pre-Render Hooks: _events/2026-02-19-meshup04.md
+  Rendering Markup: _events/2026-02-19-meshup04.md
+  Rendering Layout: _events/2026-02-19-meshup04.md
+     Layout source: site
+         Rendering: _events/2026-02-26-meshup05.md
+  Pre-Render Hooks: _events/2026-02-26-meshup05.md
+  Rendering Markup: _events/2026-02-26-meshup05.md
+  Rendering Layout: _events/2026-02-26-meshup05.md
+     Layout source: site
+         Rendering: _events/2026-03-05-meshup06.md
+  Pre-Render Hooks: _events/2026-03-05-meshup06.md
+  Rendering Markup: _events/2026-03-05-meshup06.md
+  Rendering Layout: _events/2026-03-05-meshup06.md
+     Layout source: site
+         Rendering: _events/2026-03-12-meshup07.md
+  Pre-Render Hooks: _events/2026-03-12-meshup07.md
+  Rendering Markup: _events/2026-03-12-meshup07.md
+  Rendering Layout: _events/2026-03-12-meshup07.md
+     Layout source: site
+         Rendering: _events/2026-04-08-domus.md
+  Pre-Render Hooks: _events/2026-04-08-domus.md
+  Rendering Markup: _events/2026-04-08-domus.md
+  Rendering Layout: _events/2026-04-08-domus.md
+     Layout source: site
+         Rendering: _events/2026-04-08-aulaen.md
+  Pre-Render Hooks: _events/2026-04-08-aulaen.md
+  Rendering Markup: _events/2026-04-08-aulaen.md
+  Rendering Layout: _events/2026-04-08-aulaen.md
+     Layout source: site
+         Rendering: _events/2026-09-14-kristiansand.md
+  Pre-Render Hooks: _events/2026-09-14-kristiansand.md
+  Rendering Markup: _events/2026-09-14-kristiansand.md
+  Rendering Layout: _events/2026-09-14-kristiansand.md
+     Layout source: site
+         Rendering: events/feed.xml
+  Pre-Render Hooks: events/feed.xml
+  Rendering Liquid: events/feed.xml
+  Rendering Markup: events/feed.xml
+         Rendering: news/feed.xml
+  Pre-Render Hooks: news/feed.xml
+  Rendering Liquid: news/feed.xml
+  Rendering Markup: news/feed.xml
+         Rendering: events/index.html
+  Pre-Render Hooks: events/index.html
+  Rendering Liquid: events/index.html
+         Rendering: _events/2026-03-05-meshup06.md/#excerpt
+  Pre-Render Hooks: _events/2026-03-05-meshup06.md/#excerpt
+  Rendering Markup: _events/2026-03-05-meshup06.md/#excerpt
+         Rendering: _events/2026-03-12-meshup07.md/#excerpt
+  Pre-Render Hooks: _events/2026-03-12-meshup07.md/#excerpt
+  Rendering Markup: _events/2026-03-12-meshup07.md/#excerpt
+         Rendering: _events/2026-04-08-domus.md/#excerpt
+  Pre-Render Hooks: _events/2026-04-08-domus.md/#excerpt
+  Rendering Markup: _events/2026-04-08-domus.md/#excerpt
+         Rendering: _events/2026-04-08-aulaen.md/#excerpt
+  Pre-Render Hooks: _events/2026-04-08-aulaen.md/#excerpt
+  Rendering Markup: _events/2026-04-08-aulaen.md/#excerpt
+         Rendering: _events/2026-09-14-kristiansand.md/#excerpt
+  Pre-Render Hooks: _events/2026-09-14-kristiansand.md/#excerpt
+  Rendering Markup: _events/2026-09-14-kristiansand.md/#excerpt
+         Rendering: _events/2026-02-26-meshup05.md/#excerpt
+  Pre-Render Hooks: _events/2026-02-26-meshup05.md/#excerpt
+  Rendering Markup: _events/2026-02-26-meshup05.md/#excerpt
+         Rendering: _events/2026-02-19-meshup04.md/#excerpt
+  Pre-Render Hooks: _events/2026-02-19-meshup04.md/#excerpt
+  Rendering Markup: _events/2026-02-19-meshup04.md/#excerpt
+         Rendering: _events/2026-02-12-meshup03.md/#excerpt
+  Pre-Render Hooks: _events/2026-02-12-meshup03.md/#excerpt
+  Rendering Markup: _events/2026-02-12-meshup03.md/#excerpt
+         Rendering: _events/2026-02-05-meshup02.md/#excerpt
+  Pre-Render Hooks: _events/2026-02-05-meshup02.md/#excerpt
+  Rendering Markup: _events/2026-02-05-meshup02.md/#excerpt
+         Rendering: _events/2026-01-29-meshup01.md/#excerpt
+  Pre-Render Hooks: _events/2026-01-29-meshup01.md/#excerpt
+  Rendering Markup: _events/2026-01-29-meshup01.md/#excerpt
+         Rendering: _events/2025-12-03-quantum_music.md/#excerpt
+  Pre-Render Hooks: _events/2025-12-03-quantum_music.md/#excerpt
+  Rendering Markup: _events/2025-12-03-quantum_music.md/#excerpt
+  Rendering Markup: events/index.html
+  Rendering Layout: events/index.html
+     Layout source: site
+         Rendering: news/index.html
+  Pre-Render Hooks: news/index.html
+  Rendering Liquid: news/index.html
+[33m    Liquid Warning: Liquid syntax error (line 3): Expected end_of_string but found pipe in "item in site.news | sort: 'date'" in news/index.html[0m
+  Rendering Markup: news/index.html
+  Rendering Layout: news/index.html
+     Layout source: site
+         Rendering: wp3/index.md
+  Pre-Render Hooks: wp3/index.md
+  Rendering Liquid: wp3/index.md
+  Rendering Markup: wp3/index.md
+  Rendering Layout: wp3/index.md
+[33m     Build Warning: Layout 'page' requested in wp3/index.md does not exist.[0m
+         Rendering: wp1/index.md
+  Pre-Render Hooks: wp1/index.md
+  Rendering Liquid: wp1/index.md
+  Rendering Markup: wp1/index.md
+  Rendering Layout: wp1/index.md
+[33m     Build Warning: Layout 'page' requested in wp1/index.md does not exist.[0m
+         Rendering: wp5/index.md
+  Pre-Render Hooks: wp5/index.md
+  Rendering Liquid: wp5/index.md
+  Rendering Markup: wp5/index.md
+  Rendering Layout: wp5/index.md
+[33m     Build Warning: Layout 'page' requested in wp5/index.md does not exist.[0m
+         Rendering: results/index.md
+  Pre-Render Hooks: results/index.md
+  Rendering Markup: results/index.md
+  Rendering Layout: results/index.md
+     Layout source: site
+         Rendering: wp7/index.md
+  Pre-Render Hooks: wp7/index.md
+  Rendering Liquid: wp7/index.md
+  Rendering Markup: wp7/index.md
+  Rendering Layout: wp7/index.md
+[33m     Build Warning: Layout 'page' requested in wp7/index.md does not exist.[0m
+         Rendering: wp6/index.md
+  Pre-Render Hooks: wp6/index.md
+  Rendering Liquid: wp6/index.md
+  Rendering Markup: wp6/index.md
+  Rendering Layout: wp6/index.md
+[33m     Build Warning: Layout 'page' requested in wp6/index.md does not exist.[0m
+         Rendering: wp4/index.md
+  Pre-Render Hooks: wp4/index.md
+  Rendering Liquid: wp4/index.md
+  Rendering Markup: wp4/index.md
+  Rendering Layout: wp4/index.md
+[33m     Build Warning: Layout 'page' requested in wp4/index.md does not exist.[0m
+         Rendering: wp2/index.md
+  Pre-Render Hooks: wp2/index.md
+  Rendering Liquid: wp2/index.md
+  Rendering Markup: wp2/index.md
+  Rendering Layout: wp2/index.md
+[33m     Build Warning: Layout 'page' requested in wp2/index.md does not exist.[0m
+         Rendering: assets/css/style.scss
+  Pre-Render Hooks: assets/css/style.scss
+  Rendering Markup: assets/css/style.scss
+         Rendering: about/index.md
+  Pre-Render Hooks: about/index.md
+  Rendering Markup: about/index.md
+  Rendering Layout: about/index.md
+     Layout source: site
+         Rendering: index.md
+  Pre-Render Hooks: index.md
+  Rendering Liquid: index.md
+  Rendering Markup: index.md
+  Rendering Layout: index.md
+     Layout source: site
+         Rendering: internal/funding/opportunities/index.md
+  Pre-Render Hooks: internal/funding/opportunities/index.md
+  Rendering Markup: internal/funding/opportunities/index.md
+  Rendering Layout: internal/funding/opportunities/index.md
+     Layout source: site
+         Rendering: internal/meshups/index.md
+  Pre-Render Hooks: internal/meshups/index.md
+  Rendering Markup: internal/meshups/index.md
+  Rendering Layout: internal/meshups/index.md
+     Layout source: site
+         Rendering: people/index.md
+  Pre-Render Hooks: people/index.md
+  Rendering Markup: people/index.md
+  Rendering Layout: people/index.md
+     Layout source: site
+         Rendering: feed/news.xml
+  Pre-Render Hooks: feed/news.xml
+  Rendering Liquid: feed/news.xml
+         Rendering: _news/2026-01-21-administrative-coordinator.md/#excerpt
+  Pre-Render Hooks: _news/2026-01-21-administrative-coordinator.md/#excerpt
+  Rendering Markup: _news/2026-01-21-administrative-coordinator.md/#excerpt
+         Rendering: _news/2025-11-21-positions.md/#excerpt
+  Pre-Render Hooks: _news/2025-11-21-positions.md/#excerpt
+  Rendering Markup: _news/2025-11-21-positions.md/#excerpt
+  Rendering Markup: feed/news.xml
+  Rendering Layout: feed/news.xml
+         Rendering: feed/events.xml
+  Pre-Render Hooks: feed/events.xml
+  Rendering Liquid: feed/events.xml
+  Rendering Markup: feed/events.xml
+  Rendering Layout: feed/events.xml
+         Rendering: feed.xml
+  Pre-Render Hooks: feed.xml
+  Rendering Liquid: feed.xml
+  Rendering Markup: feed.xml
+  Rendering Layout: feed.xml
+           Writing: /home/alexanje/github/mishmash-web/_site/events/feed.xml
+           Writing: /home/alexanje/github/mishmash-web/_site/news/feed.xml
+           Writing: /home/alexanje/github/mishmash-web/_site/events/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/news/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/wp3/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/wp1/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/wp5/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/results/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/wp7/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/wp6/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/wp4/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/wp2/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/assets/css/style.css
+           Writing: /home/alexanje/github/mishmash-web/_site/about/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/internal/funding/opportunities/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/internal/meshups/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/people/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/feed/news.xml
+           Writing: /home/alexanje/github/mishmash-web/_site/feed/events.xml
+           Writing: /home/alexanje/github/mishmash-web/_site/feed.xml
+           Writing: /home/alexanje/github/mishmash-web/_site/news/positions/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/news/administrative-coordinator/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/events/quantum-loops-broken-symmetries/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/events/meshup01/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/events/meshup02/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/events/meshup03/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/events/meshup04/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/events/meshup05/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/events/meshup06/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/events/meshup07/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/events/domus2026/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/events/aulaen2026/index.html
+           Writing: /home/alexanje/github/mishmash-web/_site/events/kristiansand2026/index.html
+                    done in 1.095 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+      Remote Theme: Cleaning up /tmp/jekyll-remote-theme-20260228-511651-m5mw40

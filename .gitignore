@@ -2,6 +2,7 @@
 venv/
 .venv/
 vendor/
+_site/
 
 # VS Code settings
 .vscode/

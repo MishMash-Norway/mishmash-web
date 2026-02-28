@@ -1,7 +1,12 @@
-{% comment %}List events that have the given WP category (include.wp) {% endcomment %}
-{% assign events = site.categories[include.wp] | sort: 'date' %}
-<ul class="wp-events">
-  {% for event in events %}
-    <li><a href="{{ event.url }}">{{ event.title }}</a> — {{ event.date | date: "%Y-%m-%d" }}</li>
-  {% endfor %}
-</ul>
+{% comment %}List events that have the given WP category (include.wp) - guard against null{% endcomment %}
+{% assign events = site.categories[include.wp] %}
+{% if events %}
+  {% assign events = events | sort: 'date' %}
+  <ul class="wp-events">
+    {% for event in events %}
+      <li><a href="{{ event.url }}">{{ event.title }}</a> — {{ event.date | date: "%Y-%m-%d" }}</li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="wp-events-empty">No events for {{ include.wp }}.</p>
+{% endif %}
