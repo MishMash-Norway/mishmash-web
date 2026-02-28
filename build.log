@@ -27,10 +27,10 @@ Dotenv not found. Skipping
  Incremental build: disabled. Enable with --incremental
       Generating... 
              Theme: pages-themes/cayman@v0.2.0
-      Theme source: /tmp/jekyll-remote-theme-20260228-511651-m5mw40
+      Theme source: /tmp/jekyll-remote-theme-20260228-513609-e5uszr
       Remote Theme: Using theme pages-themes/cayman
-      Remote Theme: Downloading https://codeload.github.com/pages-themes/cayman/zip/v0.2.0 to /tmp/jekyll-remote-theme-20260228-511651-mc03ur.zip
-      Remote Theme: Unzipping /tmp/jekyll-remote-theme-20260228-511651-mc03ur.zip to /tmp/jekyll-remote-theme-20260228-511651-m5mw40
+      Remote Theme: Downloading https://codeload.github.com/pages-themes/cayman/zip/v0.2.0 to /tmp/jekyll-remote-theme-20260228-513609-f4yq57.zip
+      Remote Theme: Unzipping /tmp/jekyll-remote-theme-20260228-513609-f4yq57.zip to /tmp/jekyll-remote-theme-20260228-513609-e5uszr
          Requiring: jekyll-seo-tag
        EntryFilter: excluded /Gemfile.lock
        EntryFilter: excluded /Gemfile
@@ -49,17 +49,17 @@ Dotenv not found. Skipping
            Reading: _events/2026-04-08-aulaen.md
            Reading: _events/2026-04-08-domus.md
            Reading: _events/2026-09-14-kristiansand.md
-        Generating: JekyllOptionalFrontMatter::Generator finished in 0.001350292 seconds.
-        Generating: JekyllReadmeIndex::Generator finished in 0.002150758 seconds.
+        Generating: JekyllOptionalFrontMatter::Generator finished in 0.001480085 seconds.
+        Generating: JekyllReadmeIndex::Generator finished in 0.003060099 seconds.
        Jekyll Feed: Generating feed for news
        Jekyll Feed: Generating feed for events
        Jekyll Feed: Generating feed for posts
-        Generating: JekyllFeed::Generator finished in 0.00046176 seconds.
-        Generating: Jekyll::Paginate::Pagination finished in 4.415e-06 seconds.
-        Generating: JekyllRelativeLinks::Generator finished in 0.02257452 seconds.
-        Generating: JekyllDefaultLayout::Generator finished in 0.000257687 seconds.
+        Generating: JekyllFeed::Generator finished in 0.000483782 seconds.
+        Generating: Jekyll::Paginate::Pagination finished in 4.762e-06 seconds.
+        Generating: JekyllRelativeLinks::Generator finished in 0.022108272 seconds.
+        Generating: JekyllDefaultLayout::Generator finished in 0.000250148 seconds.
          Requiring: kramdown-parser-gfm
-        Generating: JekyllTitlesFromHeadings::Generator finished in 0.005297074 seconds.
+        Generating: JekyllTitlesFromHeadings::Generator finished in 0.005613929 seconds.
    GitHub Metadata: Generating for MishMash-Norway/mishmash-web
          Rendering: _news/2025-11-21-positions.md
   Pre-Render Hooks: _news/2025-11-21-positions.md
@@ -185,19 +185,19 @@ Dotenv not found. Skipping
   Rendering Liquid: wp3/index.md
   Rendering Markup: wp3/index.md
   Rendering Layout: wp3/index.md
-[33m     Build Warning: Layout 'page' requested in wp3/index.md does not exist.[0m
+     Layout source: site
          Rendering: wp1/index.md
   Pre-Render Hooks: wp1/index.md
   Rendering Liquid: wp1/index.md
   Rendering Markup: wp1/index.md
   Rendering Layout: wp1/index.md
-[33m     Build Warning: Layout 'page' requested in wp1/index.md does not exist.[0m
+     Layout source: site
          Rendering: wp5/index.md
   Pre-Render Hooks: wp5/index.md
   Rendering Liquid: wp5/index.md
   Rendering Markup: wp5/index.md
   Rendering Layout: wp5/index.md
-[33m     Build Warning: Layout 'page' requested in wp5/index.md does not exist.[0m
+     Layout source: site
          Rendering: results/index.md
   Pre-Render Hooks: results/index.md
   Rendering Markup: results/index.md
@@ -208,25 +208,25 @@ Dotenv not found. Skipping
   Rendering Liquid: wp7/index.md
   Rendering Markup: wp7/index.md
   Rendering Layout: wp7/index.md
-[33m     Build Warning: Layout 'page' requested in wp7/index.md does not exist.[0m
+     Layout source: site
          Rendering: wp6/index.md
   Pre-Render Hooks: wp6/index.md
   Rendering Liquid: wp6/index.md
   Rendering Markup: wp6/index.md
   Rendering Layout: wp6/index.md
-[33m     Build Warning: Layout 'page' requested in wp6/index.md does not exist.[0m
+     Layout source: site
          Rendering: wp4/index.md
   Pre-Render Hooks: wp4/index.md
   Rendering Liquid: wp4/index.md
   Rendering Markup: wp4/index.md
   Rendering Layout: wp4/index.md
-[33m     Build Warning: Layout 'page' requested in wp4/index.md does not exist.[0m
+     Layout source: site
          Rendering: wp2/index.md
   Pre-Render Hooks: wp2/index.md
   Rendering Liquid: wp2/index.md
   Rendering Markup: wp2/index.md
   Rendering Layout: wp2/index.md
-[33m     Build Warning: Layout 'page' requested in wp2/index.md does not exist.[0m
+     Layout source: site
          Rendering: assets/css/style.scss
   Pre-Render Hooks: assets/css/style.scss
   Rendering Markup: assets/css/style.scss
@@ -311,6 +311,6 @@ Dotenv not found. Skipping
            Writing: /home/alexanje/github/mishmash-web/_site/events/domus2026/index.html
            Writing: /home/alexanje/github/mishmash-web/_site/events/aulaen2026/index.html
            Writing: /home/alexanje/github/mishmash-web/_site/events/kristiansand2026/index.html
-                    done in 1.095 seconds.
+                    done in 1.165 seconds.
  Auto-regeneration: disabled. Use --watch to enable.
-      Remote Theme: Cleaning up /tmp/jekyll-remote-theme-20260228-511651-m5mw40
+      Remote Theme: Cleaning up /tmp/jekyll-remote-theme-20260228-513609-e5uszr

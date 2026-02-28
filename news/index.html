@@ -3,11 +3,10 @@ layout: default
 title: News
 ---
 <h1>News</h1>
-<ul>
-{% for item in site.news | sort: 'date' %}
-  <li>
-    <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y" }}</time>
-    &mdash; <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-  </li>
-{% endfor %}
+{% comment %}Sort news into a variable first, then iterate{% endcomment %}
+{% assign news_items = site.news | sort: 'date' %}
+<ul class="news-list">
+  {% for item in news_items %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a> — {{ item.date | date: "%Y-%m-%d" }}</li>
+  {% endfor %}
 </ul>
