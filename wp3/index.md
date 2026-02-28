@@ -31,9 +31,9 @@ Ethical considerations are central to this WP, especially how AI can be used res
 ## Team
 
 ### Work Package Leaders
-- **[Claire Ghetti](https://www.uib.no/en/persons/Claire.Ghetti)** (UiB) - Lead
-- **[Andreas Bergsland](https://www.ntnu.edu/employees/andreas.bergsland)** (NTNU) - Co-lead
-- **[Jonna Vuoskoski](https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html)** (UiO) - Co-lead
+- [Claire Ghetti](https://www.uib.no/en/persons/Claire.Ghetti) (UiB) - Lead
+- [Andreas Bergsland](https://www.ntnu.edu/employees/andreas.bergsland) (NTNU) - Co-lead
+- [Jonna Vuoskoski](https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html) (UiO) - Co-lead
 
 ## News
 

@@ -38,9 +38,9 @@ The WP aims to generate new knowledge, inform policy and governance and promote 
 ## Team
 
 ### Work Package Leaders
-- **[Ragnhild Brøvig](https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html)** (UiO) - Lead
-- **[Irina Eidsvold-Tøien](https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/)** (BI) - Co-lead
-- **[Jon Marius Aareskjold-Drecker](https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175)** (UiT) - Co-lead
+- [Ragnhild Brøvig](https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html) (UiO) - Lead
+- [Irina Eidsvold-Tøien](https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/) (BI) - Co-lead
+- [Jon Marius Aareskjold-Drecker](https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175) (UiT) - Co-lead
 
 ## News
 

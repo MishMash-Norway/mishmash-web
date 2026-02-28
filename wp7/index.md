@@ -33,9 +33,9 @@ AIs developed in this WP will be limited by stricter boundaries than others—fr
 ## Team
 
 ### Work Package Leaders
-- **[Carsten Griwodz](https://www.mn.uio.no/ifi/english/people/aca/griff/index.html)** (UiO) - Lead
-- **[Baltasar Beferull‐Lozano](https://www.simula.no/people/baltasar)** (SimulaMet) - Co-lead
-- **[Kjetil Nordby](https://www.aho.no/english/about/employees/kjetiln/)** (AHO) - Co-lead
+- [Carsten Griwodz](https://www.mn.uio.no/ifi/english/people/aca/griff/index.html) (UiO) - Lead
+- [Baltasar Beferull‐Lozano](https://www.simula.no/people/baltasar) (SimulaMet) - Co-lead
+- [Kjetil Nordby](https://www.aho.no/english/about/employees/kjetiln/) (AHO) - Co-lead
 
 ## News
 

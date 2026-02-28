@@ -31,9 +31,9 @@ This raises critical questions about cultural agency: Who decides what stories a
 ## Team
 
 ### Work Package Leaders
-- **[Budhaditya Chattopadhyay](https://www.uib.no/en/persons/Budhaditya.Chattopadhyay)** (UiB) - Lead
-- **[Sashi Komandur](https://www.inn.no/english/find-an-employee/sashi-komandur.html)** (INN) - Co-lead
-- **[Synne Tollerud Bull](https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/)** (Kristiania) - Co-lead
+- [Budhaditya Chattopadhyay](https://www.uib.no/en/persons/Budhaditya.Chattopadhyay) (UiB) - Lead
+- [Sashi Komandur](https://www.inn.no/english/find-an-employee/sashi-komandur.html) (INN) - Co-lead
+- [Synne Tollerud Bull](https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/) (Kristiania) - Co-lead
 
 ## News
 

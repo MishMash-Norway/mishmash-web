@@ -33,9 +33,9 @@ The public sector must lead in these technologies, ensuring that powerful new ca
 ## Team
 
 ### Work Package Leaders
-- **[Ingrid Romarheim Haugen](https://www.nb.no/ansatte/ingrid-romarheim-haugen/)** (NB) - Lead
-- **[Arnulf Mattes](https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes)** (UiB) - Co-lead
-- **[Olivier Lartillot](https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html)** (UiO) - Co-lead
+- [Ingrid Romarheim Haugen](https://www.nb.no/ansatte/ingrid-romarheim-haugen/) (NB) - Lead
+- [Arnulf Mattes](https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes) (UiB) - Co-lead
+- [Olivier Lartillot](https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html) (UiO) - Co-lead
 
 ## News
 

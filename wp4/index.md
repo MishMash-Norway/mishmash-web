@@ -31,9 +31,9 @@ The aim is to equip future practitioners and educators with the competence to na
 ## Team
 
 ### Work Package Leaders
-- **[Eirik Sørbø](https://www.uia.no/english/about-uia/employees/eiriks05/)** (UiA) - Lead
-- **[Sidsel Karlsen](https://nmh.no/en/contact-us/employees/sidsel-karlsen)** (NMH) - Co-lead
-- **[Fredrik Graver](https://www.inn.no/english/find-an-employee/fredrik-graver.html)** (INN) - Co-lead
+- [Eirik Sørbø](https://www.uia.no/english/about-uia/employees/eiriks05/) (UiA) - Lead
+- [Sidsel Karlsen](https://nmh.no/en/contact-us/employees/sidsel-karlsen) (NMH) - Co-lead
+- [Fredrik Graver](https://www.inn.no/english/find-an-employee/fredrik-graver.html) (INN) - Co-lead
 
 ## News
 
