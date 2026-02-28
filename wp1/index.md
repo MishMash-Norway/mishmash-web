@@ -33,9 +33,14 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
 ## Team
 
 ### Work Package Leaders
-- [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (UiO) - Lead
-- [Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (NMH) - Co-lead
-- [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (HiØ) - Co-lead
+  
+<img src="/assets/images/portraits/circle/Kyrre_Glette_UiO.png" alt="Kyrre Glette" width="200"> [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (University of Oslo) - Lead
+
+<img src="/assets/images/portraits/circle/Ivar_Grydeland_NMH.png" alt="Ivar Grydeland" width="200"><br>
+[Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (Norwegian Academy of Music) - Co-lead
+
+<img src="/assets/images/portraits/circle/Georgios_Marentakis_HiOF.png" alt="Georgios Marentakis" width="200"><br>
+[Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (Østfold University College) - Co-lead
 
 ## News
 
