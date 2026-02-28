@@ -45,6 +45,4 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
 
 {% include wp-events.html wp="WP1" %}
 
----
-
 [← Back to main page](../index.md)

@@ -37,18 +37,12 @@ AIs developed in this WP will be limited by stricter boundaries than others—fr
 - **[Baltasar Beferull‐Lozano](https://www.simula.no/people/baltasar)** (SimulaMet) - Co-lead
 - **[Kjetil Nordby](https://www.aho.no/english/about/employees/kjetiln/)** (AHO) - Co-lead
 
-## News & Updates
+## News
 
 *Updates will be posted here as the work package develops.*
 
-## Publications
-
-*Research publications from WP7 will be listed here.*
-
 ## Events
 
-*Design workshops, problem-solving challenges, and industry collaborations from WP7 will be announced here.*
-
----
+{% include wp-events.html wp="WP7" %}
 
 [← Back to main page](../index.md)

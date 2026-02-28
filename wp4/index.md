@@ -43,6 +43,4 @@ The aim is to equip future practitioners and educators with the competence to na
 
 {% include wp-events.html wp="WP4" %}
 
----
-
 [← Back to main page](../index.md)

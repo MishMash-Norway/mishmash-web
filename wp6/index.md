@@ -37,18 +37,12 @@ The public sector must lead in these technologies, ensuring that powerful new ca
 - **[Arnulf Mattes](https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes)** (UiB) - Co-lead
 - **[Olivier Lartillot](https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html)** (UiO) - Co-lead
 
-## News & Updates
+## News
 
 *Updates will be posted here as the work package develops.*
 
-## Publications
-
-*Research publications from WP6 will be listed here.*
-
 ## Events
 
-*Digital heritage workshops, archival demonstrations, and cultural preservation events from WP6 will be announced here.*
-
----
+{% include wp-events.html wp="WP6" %}
 
 [← Back to main page](../index.md)

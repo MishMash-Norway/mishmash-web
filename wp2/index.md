@@ -43,6 +43,4 @@ This raises critical questions about cultural agency: Who decides what stories a
 
 {% include wp-events.html wp="WP2" %}
 
----
-
 [← Back to main page](../index.md)

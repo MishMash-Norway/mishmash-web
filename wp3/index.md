@@ -43,6 +43,4 @@ Ethical considerations are central to this WP, especially how AI can be used res
 
 {% include wp-events.html wp="WP3" %}
 
----
-
 [← Back to main page](../index.md)
