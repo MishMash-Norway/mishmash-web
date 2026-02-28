@@ -5,11 +5,20 @@ title: "WP1: AI for artistic performances"
 
 # WP1: AI for artistic performances
 
-*WP Leaders: [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (UiO) / [Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (NMH) / [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (HiØ)*
+<!--*WP Leaders: [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (UiO) / [Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (NMH) / [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (HiØ)*-->
 
-## Overview
 
 This WP focuses on how real-time interaction with AI systems transforms the creative process in applications such as music and art performance, interactive installations, and gaming. We will emphasise AI systems that facilitate continuous interactions between humans and machine agents, especially multiple and embodied AI agents. 
+
+## Events
+
+{% include events_wp_pages.html wp="WP1" %}
+
+## News
+
+*Updates will be posted here as the work package develops.*
+
+## Description
 
 Countering the current trends of very large models with hard-to-control outputs, we will focus on balancing data-based approaches with artists' knowledge and search-based methods to achieve personalised and novel outputs. In contrast to WP2, the emphasis is on supporting live, dynamic, and interactive performance rather than creating a fixed final creative product.
 
@@ -30,24 +39,16 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
 - **EXPLORE:** existing and custom-built interactive AI-based software and hardware solutions in real-world settings, such as concerts, installations, and gaming.
 - **REFLECT:** on current challenges and barriers to artistic real-time applications of AI to inform the creation of new algorithms and systems.
 
-## Team
-
-### Work Package Leaders
+## Work Package Leaders
   
-<img src="/assets/images/portraits/circle/Kyrre_Glette_UiO.png" alt="Kyrre Glette" width="200"> [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (University of Oslo) - Lead
+<img src="/assets/images/portraits/circle/Kyrre_Glette_UiO.png" alt="Kyrre Glette" width="100"> 
+[Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (University of Oslo) - Lead
 
-<img src="/assets/images/portraits/circle/Ivar_Grydeland_NMH.png" alt="Ivar Grydeland" width="200"><br>
+<img src="/assets/images/portraits/circle/Ivar_Grydeland_NMH.png" alt="Ivar Grydeland" width="100"><br>
 [Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (Norwegian Academy of Music) - Co-lead
 
-<img src="/assets/images/portraits/circle/Georgios_Marentakis_HiOF.png" alt="Georgios Marentakis" width="200"><br>
+<img src="/assets/images/portraits/circle/Georgios_Marentakis_HiOF.png" alt="Georgios Marentakis" width="100"><br>
 [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (Østfold University College) - Co-lead
 
-## News
-
-*Updates will be posted here as the work package develops.*
-
-## Events
-
-{% include events_wp_pages.html wp="WP1" %}
 
 [← Back to main page](../index.md)
