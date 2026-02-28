@@ -1,20 +1,13 @@
 # MishMash
 
-<style>
-.mishmash-bubbles{position:relative;display:inline-block;}
-.mishmash-bubbles img{transition:filter .25s ease, opacity .25s ease;display:block;}
-.mishmash-bubbles::after{
-    content:"";position:absolute;inset:0;
-    background:linear-gradient(90deg,#A7A1F4 0%,#C1F7AE 100%);
-    mix-blend-mode:difference;pointer-events:none;opacity:0;transition:opacity .25s ease,background .25s ease;
-}
-.mishmash-bubbles:hover::after{
-    background:linear-gradient(90deg,#C1F7AE 0%,#C1F7AE 100%);opacity:1;
-}
-</style>
-
 <div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
-    <a href="/about"><img src="/assets/images/bubbles/mishmash_bubbles.svg" alt="MishMash explores the meeting point of humans and machines with art and science" width="400"></a>
+    <a href="/about/">
+        <img src="/assets/images/bubbles/mishmash_bubbles.svg"
+             alt="MishMash explores the meeting point of humans and machines with art and science"
+             width="400"
+             onmouseover="this.src='/assets/images/bubbles/mishmash_bubbles2.svg';"
+             onmouseout="this.src='/assets/images/bubbles/mishmash_bubbles.svg';">
+    </a>
 </div>
 
 MishMash is a Norwegian AI centre comprising more than 200 researchers from higher education institutions in Norway, in collaboration with numerous public and private sector partners. The primary objective of MishMash is to **create, explore, and reflect on AI for, through, and in creative practices**. MishMash researchers will investigate AI’s impact on creative processes, develop innovative co-creative AI systems and educational strategies, and address AI’s ethical, cultural, legal, and societal implications in creative domains. [More about MishMash](https://mishmash.no/about/)

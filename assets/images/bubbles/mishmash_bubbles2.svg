@@ -1,0 +1,76 @@
+<svg width="420" height="320" viewBox="0 0 420 320"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white"/>
+
+    <!-- Left circle: Humans -->
+    <!-- purple -->
+    <circle cx="150" cy="160" r="110"
+      fill="#C1F7AE"
+      stroke="#777"
+      stroke-width="1"/>
+
+    <!-- Right circle: Machines -->
+    <!-- green -->
+    <circle cx="270" cy="160" r="110"
+      fill="#A7A1F4"
+      stroke="#777"
+      stroke-width="1"/>
+
+  <!-- Overlap (darker center) -->
+  <!-- Draw the intersection of the two circles filled with the dark color -->
+  <defs>
+    <clipPath id="clip-left-gpt" clipPathUnits="userSpaceOnUse">
+      <circle cx="150" cy="160" r="110" />
+    </clipPath>
+  </defs>
+  <circle cx="270" cy="160" r="110" fill="#363644" clip-path="url(#clip-left-gpt)" />
+
+  <!-- Labels -->
+  <!-- Top: Science -->
+  <text x="210" y="35"
+        text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="20"
+        fill="#333">
+    Science
+  </text>
+
+  <!-- Bottom: Art -->
+  <text x="210" y="305"
+        text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="20"
+        fill="#333">
+    Art
+  </text>
+
+  <!-- Left: Humans -->
+  <text x="90" y="165"
+        text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="18"
+        fill="#333">
+    Humans
+  </text>
+
+  <!-- Right: Machines -->
+  <text x="330" y="165"
+        text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="18"
+        fill="#333">
+    Machines
+  </text>
+
+  <!-- Center: MishMash -->
+  <text x="210" y="165"
+        text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="18"
+        fill="white">
+    MishMash
+  </text>
+
+</svg>
