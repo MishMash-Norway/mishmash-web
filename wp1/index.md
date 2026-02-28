@@ -5,9 +5,6 @@ title: "WP1: AI for artistic performances"
 
 # WP1: AI for artistic performances
 
-<!--*WP Leaders: [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (UiO) / [Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (NMH) / [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (HiØ)*-->
-
-
 This WP focuses on how real-time interaction with AI systems transforms the creative process in applications such as music and art performance, interactive installations, and gaming. We will emphasise AI systems that facilitate continuous interactions between humans and machine agents, especially multiple and embodied AI agents. 
 
 ## Events
@@ -42,22 +39,22 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
 ## Work Package Leaders
   
 <div style="display:flex;align-items:center;margin-bottom:1em">
-    <img src="/assets/images/portraits/circle/Kyrre_Glette_UiO.png" alt="Kyrre Glette" width="100" style="margin-right:1em">
+    <a href="https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html"><img src="/assets/images/portraits/circle/Kyrre_Glette_UiO.png" alt="Kyrre Glette" width="100" style="margin-right:1em"></a>
     <div>
-    [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (University of Oslo) - Lead
+    <a href="https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html">Kyrre Glette</a> (University of Oslo) - Lead
     </div>
 </div>
 
 <div style="display:flex;align-items:center;margin-bottom:1em">
-    <img src="/assets/images/portraits/circle/Ivar_Grydeland_NMH.png" alt="Ivar Grydeland" width="100" style="margin-right:1em">
+    <a href="https://nmh.no/kontakt-oss/ansatte/ivar-grydeland"><img src="/assets/images/portraits/circle/Ivar_Grydeland_NMH.png" alt="Ivar Grydeland" width="100" style="margin-right:1em"></a>
     <div>
-    [Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (Norwegian Academy of Music) - Co-lead
+    <a href="https://nmh.no/kontakt-oss/ansatte/ivar-grydeland">Ivar Grydeland</a> (Norwegian Academy of Music) - Co-lead
     </div>
 </div>
 
 <div style="display:flex;align-items:center;margin-bottom:1em">
-    <img src="/assets/images/portraits/circle/Georgios_Marentakis_HiOF.png" alt="Georgios Marentakis" width="100" style="margin-right:1em">
+    <a href="https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html"><img src="/assets/images/portraits/circle/Georgios_Marentakis_HiOF.png" alt="Georgios Marentakis" width="100" style="margin-right:1em"></a>
     <div>
-    [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (Østfold University College) - Co-lead
+    <a href="https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html">Georgios Marentakis</a> (Østfold University College) - Co-lead
     </div>
 </div>
