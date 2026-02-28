@@ -41,14 +41,23 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
 
 ## Work Package Leaders
   
-<img src="/assets/images/portraits/circle/Kyrre_Glette_UiO.png" alt="Kyrre Glette" width="100"> 
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <img src="/assets/images/portraits/circle/Kyrre_Glette_UiO.png" alt="Kyrre Glette" width="100" style="margin-right:1em">
+    <div>
+    [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (University of Oslo) - Lead
+    </div>
+</div>
 
-[Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (University of Oslo) - Lead
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <img src="/assets/images/portraits/circle/Ivar_Grydeland_NMH.png" alt="Ivar Grydeland" width="100" style="margin-right:1em">
+    <div>
+    [Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (Norwegian Academy of Music) - Co-lead
+    </div>
+</div>
 
-<img src="/assets/images/portraits/circle/Ivar_Grydeland_NMH.png" alt="Ivar Grydeland" width="100">
-
-[Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (Norwegian Academy of Music) - Co-lead
-
-<img src="/assets/images/portraits/circle/Georgios_Marentakis_HiOF.png" alt="Georgios Marentakis" width="100">
-
-[Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (Østfold University College) - Co-lead
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <img src="/assets/images/portraits/circle/Georgios_Marentakis_HiOF.png" alt="Georgios Marentakis" width="100" style="margin-right:1em">
+    <div>
+    [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (Østfold University College) - Co-lead
+    </div>
+</div>
