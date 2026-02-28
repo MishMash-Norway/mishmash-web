@@ -1,6 +1,7 @@
 # Python virtual environments
 venv/
 .venv/
+vendor/
 
 # VS Code settings
 .vscode/
