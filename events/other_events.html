@@ -1,0 +1,20 @@
+---
+layout: page
+title: "Aggregated events"
+---
+
+{% assign other = site.data.other_events %}
+{% if other and other.size > 0 %}
+<ul class="other-events">
+  {% for ev in other %}
+    <li>
+      <a href="{{ ev.url }}">{{ ev.title }}</a>
+      {% if ev.date %} — <time datetime="{{ ev.date }}">{{ ev.date | date: "%Y-%m-%d %H:%M" }}</time>{% endif %}
+      {% if ev.source %} <small>({{ ev.source }})</small>{% endif %}
+      {% if ev.description %}<p>{{ ev.description | strip_html | truncate: 200 }}</p>{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No aggregated events found — run <code>ruby scripts/fetch_feeds.rb</code> to populate.</p>
+{% endif %}
