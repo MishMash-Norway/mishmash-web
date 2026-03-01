@@ -13,7 +13,7 @@ MishMash is a Norwegian AI centre comprising more than 200 researchers from high
 
 ## Vacancies
 
-- We have several [fully-funded PhD and PostDoc fellowships](https://mishmash.no/news/positions/) available in various MishMash partner institutions in Norway.
+We have several [fully-funded PhD and PostDoc fellowships](https://mishmash.no/news/positions/) available in various MishMash partner institutions in Norway.
 
 <h2><a href="https://mishmash.no/events/">MishMash Events</a></h2>
 
