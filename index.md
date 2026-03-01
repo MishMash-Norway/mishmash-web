@@ -3,7 +3,7 @@
         <img src="/assets/images/bubbles/mishmash_bubbles.svg"
              alt="MishMash explores the meeting point of humans and machines with art and science"
              width="400"
-             onmouseover="this.src='/assets/images/bubbles/mishmash_bubbles' + Math.floor(Math.random() * 6 + 1) + '.svg';"
+             onmouseover="this.src='/assets/images/bubbles/mishmash_bubbles' + Math.floor(Math.random() * 5 + 2) + '.svg';"
              onmouseout="this.src='/assets/images/bubbles/mishmash_bubbles.svg';">
     </a>
 </div>
