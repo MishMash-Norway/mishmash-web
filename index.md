@@ -17,7 +17,7 @@ MishMash is a Norwegian AI centre comprising more than 200 researchers from high
 
 - We have several [fully-funded PhD and PostDoc fellowships](https://mishmash.no/news/positions/) available in various MishMash partner institutions in Norway.
 
-<h2><a href="https://mishmash.no/events/">Events</a></h2>
+<h2><a href="https://mishmash.no/events/">MishMash Events</a></h2>
 
 {% include events_front_page.html wp="WP1" %}
 
@@ -36,7 +36,7 @@ MishMash is a Norwegian AI centre comprising more than 200 researchers from high
         <li><a href="https://www.inn.no/english/">University of Inland Norway (INN)</a></li>
         <li><a href="https://khio.no/en">The Oslo National Academy of the Arts (KHiO)</a></li>
         <li><a href="https://www.kristiania.no/en/">Kristiania University College (Kristiania)</a></li>
-        <li><a href="https://www.nb.no/">National Library of Norway (In Norwegian)</a></li>
+        <li><a href="https://www.nb.no/en/">National Library of Norway</a></li>
         <li><a href="https://nilu.com/">The Climate and Environmental Research Institute (NILU)</a></li>
         <li><a href="https://www.nla.no/en/">NLA University College (NLA)</a></li>
         <li><a href="https://nmh.no/en/">Norwegian Academy of Music (NMH)</a></li>
