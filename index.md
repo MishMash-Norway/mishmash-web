@@ -1,4 +1,3 @@
-```html
 <div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
     <a href="/about/">
         <img src="/assets/images/bubbles/mishmash_bubbles.svg"
@@ -8,7 +7,6 @@
              onmouseout="this.src='/assets/images/bubbles/mishmash_bubbles.svg';">
     </a>
 </div>
-```
 
 MishMash is a Norwegian AI centre comprising more than 200 researchers from higher education institutions in Norway, in collaboration with numerous public and private sector partners. The primary objective of MishMash is to **create, explore, and reflect on AI for, through, and in creative practices**. MishMash researchers will investigate AI’s impact on creative processes, develop innovative co-creative AI systems and educational strategies, and address AI’s ethical, cultural, legal, and societal implications in creative domains. [More about MishMash](https://mishmash.no/about/)
 
