@@ -1,5 +1,3 @@
-# MishMash
-
 <div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
     <a href="/about/">
         <img src="/assets/images/bubbles/mishmash_bubbles.svg"
