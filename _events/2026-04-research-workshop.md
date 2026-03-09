@@ -10,7 +10,7 @@ image: "/assets/images/illustrations/domus-bibliotheca.jpg"
 slug: "application-workshop2026"
 ---
 
-![Domus Bibliotheca](/assets/images/illustrations/Professorboligen.jpg){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
+![Domus Bibliotheca](/assets/images/illustrations/domus-bibliotheca.jpg){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
 
 Which research funding sources are available? How do you write a competitive grant? How can the MishMash network be leveraged in application processes? 
 
