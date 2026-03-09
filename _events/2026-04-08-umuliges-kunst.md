@@ -7,7 +7,7 @@ layout: event
 categories: [Conference]
 description: "Det umuliges kunst? Om bruk av KI i kreativ praksis"
 image: "/assets/images/illustrations/domus-bibliotheca.jpg"
-slug: "hackaton2026"
+slug: "umuliges-kunst"
 ---
 
 ![Domus Bibliotheca](/assets/images/illustrations/Professorboligen.jpg){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
