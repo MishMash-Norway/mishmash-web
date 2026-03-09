@@ -12,11 +12,11 @@ slug: "umuliges-kunst"
 
 ![Domus Bibliotheca](/assets/images/illustrations/domus-bibliotheca.jpg){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
 
-Kunstfeltet møter nye utfordringer når verktøy for å lage kunst basert på kunstig intelligens blir tilgjengelige for flere. Hvordan påvirker dette den kreative prosessen, og hvilke dilemmaer kan oppstå?
+The arts face new challenges as AI-based tools become accessible to more people. How does this affect the creative process, and what dilemmas can arise?
 
-Vi har invitert en rekke kunstnere til å vise og fremføre nye verk som går i dialog med kunstig intelligens. I en panelsamtale hvor også forskere fra det brede kunstfeltet deltar, tar vi diskusjonen om KI i kreativ praksis! 
+We have invited a number of artists to showcase and perform new works that engage with artificial intelligence. In a panel discussion that also includes researchers from the broader art field, we discuss AI in creative practice.
 
-Dette arrangementet passer særlig godt for deg som jobber med kunst, kultur og er nysgjerrig eller skeptisk til hvordan kunstig intelligens vil prege feltet. 
+This event is particularly suitable for those working with art and culture, and are curious or skeptical about how artificial intelligence will shape the field.
 
 [More information (in Norwegian)](https://www.uio.no/om/aktuelt/universitetsplassen/domus-bibliotheca/arrangementer/2026/mishmash-umuliges-kunst){: .button}
 
