@@ -1,5 +1,5 @@
 ---
-title: "Bransjetreff: Det umuliges kunst"
+title: "Det umuliges kunst: Panelsamtale om bruk av KI i kreativ praksis"
 date: 2026-04-08 15:00:00   # Event start date/time
 end_date: 2026-04-08 17:00:00 # Optional: Event end time
 location: Domus Bibliotheca, University of Oslo
@@ -17,3 +17,7 @@ Kunstfeltet møter nye utfordringer når verktøy for å lage kunst basert på k
 Vi har invitert en rekke kunstnere til å vise og fremføre nye verk som går i dialog med kunstig intelligens. I en panelsamtale hvor også forskere fra det brede kunstfeltet deltar, tar vi diskusjonen om KI i kreativ praksis! 
 
 Dette arrangementet passer særlig godt for deg som jobber med kunst, kultur og er nysgjerrig eller skeptisk til hvordan kunstig intelligens vil prege feltet. 
+
+[More information](https://www.uio.no/om/aktuelt/universitetsplassen/domus-bibliotheca/arrangementer/2026/mishmash-umuliges-kunst){.button}
+
+[![](https://www.uio.no/om/aktuelt/universitetsplassen/domus-bibliotheca/arrangementer/2026/bilder/umuligeskunstv2.jpeg)](https://www.uio.no/om/aktuelt/universitetsplassen/domus-bibliotheca/arrangementer/2026/mishmash-umuliges-kunst)
