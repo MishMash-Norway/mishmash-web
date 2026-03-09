@@ -15,3 +15,18 @@ slug: "application-workshop2026"
 Which research funding sources are available? How do you write a competitive grant? How can the MishMash network be leveraged in application processes? 
 
 Join us for a workshop on research application development led by [Thomas de Ridder](https://www4.uib.no/en/find-employees/Thomas.De.Ridder) (UiB), who serves as research adviser for all of MishMash. There will also be representatives from the Research Council of Norway to answer questions.
+
+## Other MishMash events the same day
+
+Check out all these exciting events on 8 April: 
+
+- 10:00-12:00: [Workshop on research application development](https://mishmash.no/events/application-workshop2026/)
+- 12:00-13:00: Lunch
+- 13:00-15:00: [Work package meetups](https://mishmash.no/events/domus2026/)
+- 15:00-16:30: [Det umuliges kunst: Panelsamtale om bruk av KI i kreativ praksis](https://mishmash.no/events/umuliges-kunst/)
+- 18:00-19:30: [MishMash Opening Ceremony](https://mishmash.no/events/aulaen2026/)
+- 19:30-21:00: Reception
+
+In addition, there will also be a full-day event: 
+
+- 10:00-17:00: [RAVE Hackaton](https://mishmash.no/events/hackaton2026/), Professorboligen
