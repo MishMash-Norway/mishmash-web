@@ -6,7 +6,7 @@ location: Domus Bibliotheca, University of Oslo
 layout: event
 categories: [Conference]
 description: "Det umuliges kunst? Om bruk av KI i kreativ praksis"
-image: "/assets/images/illustrations/professorboligen.jpg"
+image: "/assets/images/illustrations/domus-bibliotheca.jpg"
 slug: "hackaton2026"
 ---
 
