@@ -1,5 +1,5 @@
 ---
-title: "RAVE Hackaton"
+title: "RAVE Hackathon"
 date: 2026-04-08 10:00:00   # Event start date/time
 end_date: 2026-04-08 17:00:00 # Optional: Event end time
 location: Professorboligen, University of Oslo
@@ -7,7 +7,8 @@ layout: event
 categories: [Conference, WP1]
 description: "Join our mini-hackathon exploring realtime sound interaction with RAVE models controlled by biosignals."
 image: "/assets/images/illustrations/professorboligen.jpg"
-slug: "hackaton2026"
+slug: "hackathon2026"
+aliases: ["hackaton2026"]
 ---
 
 ![Professorboligen](/assets/images/illustrations/professorboligen.jpg){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
