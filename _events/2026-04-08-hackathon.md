@@ -8,7 +8,8 @@ categories: [Conference, WP1]
 description: "Join our mini-hackathon exploring realtime sound interaction with RAVE models controlled by biosignals."
 image: "/assets/images/illustrations/professorboligen.jpg"
 slug: "hackathon2026"
-aliases: ["hackaton2026"]
+redirect_from:
+	- /events/hackaton2026/
 ---
 
 ![Professorboligen](/assets/images/illustrations/professorboligen.jpg){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }

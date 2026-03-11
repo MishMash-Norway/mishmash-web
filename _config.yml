@@ -11,6 +11,7 @@ github:
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-redirect-from
 
 sass:
   style: compressed
