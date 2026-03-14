@@ -23,16 +23,6 @@
     </g>
   </g>
   <rect x="77.688" y="306.544" width="322.852" height="239.798" fill="#363644" stroke="#363644" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.046"/>
-  <!-- Work package labels -->
-  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="white">
-    <text x="90" y="328">WP1: AI for artistic performances</text>
-    <text x="90" y="362">WP2: AI for artistic processes</text>
-    <text x="90" y="396">WP3: Creative use of AI in health and well-being</text>
-    <text x="90" y="432">WP4: Creative use of AI in education</text>
-    <text x="90" y="465">WP5: AI in the creative and cultural industries</text>
-    <text x="90" y="499">WP6: AI for cultural heritage</text>
-    <text x="90" y="533">WP7: AI for creative problem-solving</text>
-  </g>
 
   <!-- (remaining detailed paths and lines omitted for brevity; content copied from MishMash-figurer-03-crop.svg) -->
   <polyline points="519.003 245.266 519.003 470.154 400.54 546.342 400.54 305.891" fill="none" stroke="#363644" stroke-linejoin="round"/>
@@ -56,16 +46,6 @@
   </text>
   <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#363644" transform="translate(502,400) rotate(-90)">
     Society
-  </text>
- <!-- Labels: Create / Explore / Reflect -->
-  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="white" transform="translate(170,295) rotate(-30)">
-    Create
-  </text>
-  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="white" transform="translate(275,295) rotate(-30)">
-    Explore
-  </text>
-  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="white" transform="translate(380,295) rotate(-30)">
-    Reflect
   </text>
 
 </svg>

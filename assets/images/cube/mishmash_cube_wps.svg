@@ -47,25 +47,4 @@
   <line x1="77.162" y1="443.571" x2="401.035" y2="443.571" fill="none" stroke="#a7a1f4" stroke-miterlimit="10"/>
   <line x1="77.162" y1="477.828" x2="401.035" y2="477.828" fill="none" stroke="#a7a1f4" stroke-miterlimit="10"/>
   <line x1="77.162" y1="512.085" x2="401.035" y2="512.085" fill="none" stroke="#a7a1f4" stroke-miterlimit="10"/>
-  <!-- Right-face labels -->
-  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#363644" transform="translate(425,450) rotate(-90)">
-    Machines
-  </text>
-  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#363644" transform="translate(465,425) rotate(-90)">
-    Humans
-  </text>
-  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#363644" transform="translate(502,400) rotate(-90)">
-    Society
-  </text>
- <!-- Labels: Create / Explore / Reflect -->
-  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="white" transform="translate(170,295) rotate(-30)">
-    Create
-  </text>
-  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="white" transform="translate(275,295) rotate(-30)">
-    Explore
-  </text>
-  <text font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="white" transform="translate(380,295) rotate(-30)">
-    Reflect
-  </text>
-
 </svg>
