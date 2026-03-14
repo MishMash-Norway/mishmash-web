@@ -2,8 +2,6 @@
      xmlns="http://www.w3.org/2000/svg">
 
   <!-- Background -->
-  <rect width="100%" height="100%" fill="white"/>
-
     <!-- Left circle: Humans -->
     <!-- purple -->
     <circle cx="150" cy="160" r="110"
