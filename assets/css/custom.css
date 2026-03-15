@@ -108,6 +108,34 @@ body {
   line-height: 1.4;
 }
 
+/* Hover effect used only by mishmash_bubbles_notext.svg event thumbs */
+.blink-eye-thumb {
+  transform-origin: center;
+  will-change: transform;
+}
+
+a:hover .blink-eye-thumb,
+a:focus-visible .blink-eye-thumb {
+  animation: bubble-eye-blink 850ms ease-in-out 2;
+}
+
+@keyframes bubble-eye-blink {
+  0%,
+  12%,
+  40%,
+  100% {
+    transform: scaleY(1);
+  }
+  20%,
+  26% {
+    transform: scaleY(0.08);
+  }
+  48%,
+  54% {
+    transform: scaleY(0.14);
+  }
+}
+
 /* Event buttons moved from inline <style> in event pages */
 .button-wrapper {
   text-align: center;

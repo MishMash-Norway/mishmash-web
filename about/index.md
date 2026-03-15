@@ -1,3 +1,12 @@
+<div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
+    <a href="/about/">
+        <img class="blink-eye-thumb"
+             src="/assets/images/bubbles/mishmash_bubbles_notext.svg"
+             alt="MishMash explores the meeting point of humans and machines with art and science"
+             width="400">
+    </a>
+</div>
+
 ## Why?
 
 Human creativity has both shaped and been shaped by technological developments. Today, human creativity faces unprecedented challenges and opportunities brought by **Creative AI**, machine systems that can produce results that are both novel and meaningful. This raises several important questions: to what extent are Creative AI systems genuinely creative, how do they differ from human creativity, and how can humans and machines be co‐creative? Furthermore, what are the societal implications of Creative AI, how will producers' and consumers' attitudes towards AI‐generated creative content develop, and how can creative approaches to AI have an impact beyond the cultural and creative sectors?
