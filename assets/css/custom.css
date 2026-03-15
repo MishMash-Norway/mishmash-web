@@ -108,14 +108,17 @@ body {
   line-height: 1.4;
 }
 
-/* Hover effect used only by mishmash_bubbles_notext.svg event thumbs */
+/* Hover effect used by mishmash_bubbles_notext.svg thumbnails/images */
 .blink-eye-thumb {
+  display: block;
   transform-origin: center;
   will-change: transform;
 }
 
 a:hover .blink-eye-thumb,
-a:focus-visible .blink-eye-thumb {
+a:focus-visible .blink-eye-thumb,
+.blink-eye-thumb:hover,
+.mishmash-bubbles:hover .blink-eye-thumb {
   animation: bubble-eye-blink 850ms ease-in-out 2;
 }
 
