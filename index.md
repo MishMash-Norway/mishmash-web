@@ -19,6 +19,8 @@ We have several [fully-funded PhD and PostDoc fellowships](https://mishmash.no/n
 
 {% include events_front_page.html wp="WP1" %}
 
+<p><a href="https://mishmash.no/events/">More events...</a></p>
+
 
 ## Partners
 
