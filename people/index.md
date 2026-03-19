@@ -23,6 +23,31 @@
 | **WP6: AI for cultural heritage**                 | <img class="person-thumb" src="../assets/images/portraits/square/Ingrid_Romarheim_Haugen_NB.jpg" alt="Ingrid Romarheim Haugen" /> [Ingrid Romarheim Haugen](https://www.nb.no/ansatte/ingrid-romarheim-haugen/) (NB)                                                           | <img class="person-thumb" src="../assets/images/portraits/square/Arnulf_Mattes_UiB.jpg" alt="Arnulf Mattes" /> [Arnulf Mattes](https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes) (UiB)                                              | <img class="person-thumb" src="../assets/images/portraits/square/Olivier_Lartillot_UiO.jpg" alt="Olivier Lartillot" /> [Olivier Lartillot](https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html) (UiO)                                     |
 | **WP7: Human-centric AI for Creative Problem-Solving** | <img class="person-thumb" src="../assets/images/portraits/square/Carsten_Griwodz_UiO.jpg" alt="Carsten Griwodz" /> [Carsten Griwodz](https://www.mn.uio.no/ifi/english/people/aca/griff/index.html)                                                      | <img class="person-thumb" src="../assets/images/portraits/square/Baltasar_Beferull_Simula.jpg" alt="Baltasar Beferull‐Lozano" /> [Baltasar Beferull‐Lozano](https://www.simula.no/people/baltasar) (SimulaMet)                                                     | <img class="person-thumb" src="../assets/images/portraits/square/Kjetil_Nordby_AHO.jpg" alt="Kjetil Nordby" /> [Kjetil Nordby](https://www.aho.no/english/about/employees/kjetiln/) (AHO)                                                       |
 
+### MishMash Board
+
+To be appointed
+
+### MishMash Council
+
+- André Alexandersen Hauge, HiOF
+- Charles Martin, ANU
+- Christian Blom, Notam
+- Christian Schüssler, Reimagine
+- Govart Valkenburg, NTNU
+- Ingrid Chieh Yu, UiO
+- Jostein Gundersen, UiB
+- Lina Plataniti, NORSUS
+- Lise Amy Hansen , AHO
+- Marit Wergeland, UiA
+- Morten Qvenild, NMH
+- Nina Fredrikke Grünfeld, INN
+- Sigurd Sandvold, HVL
+- Stig Mathisen, UiT
+- Sven-Arne Reinemo, SimulaMet
+- Synne Tollerud Bull, Kristiania
+- Terje Colbjørnsen, BI
+- Yngvil Beyer, Nasjonalbiblioteket
+
 
 ### Scientific Advisory Board
 - [Benoit Maujean](https://www.linkedin.com/in/benoit-maujean-7b2b2a1/) (Head of Technicolor Research, France)
