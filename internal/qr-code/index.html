@@ -18,7 +18,7 @@ title: Internal QR Code Generator
 
       <label for="qr-swap" style="display:flex;gap:0.5rem;align-items:center;">
         <input id="qr-swap" type="checkbox" />
-        Swap foreground/background colors
+        Swap frame colors (green/purple)
       </label>
 
       <div id="qr-wrap" style="display:inline-block;padding:20px;background:#C1F7AE;border-radius:10px;max-width:max-content;">
@@ -48,16 +48,16 @@ title: Internal QR Code Generator
 
   let qrInstance = null;
 
-  function getRenderColors() {
+  function getFrameColors() {
     if (swapInput && swapInput.checked) {
       return {
-        dark: COLORS.bg,
-        light: COLORS.qr
+        frameOuter: COLORS.bg,
+        frameInner: COLORS.border
       };
     }
     return {
-      dark: COLORS.qr,
-      light: COLORS.bg
+      frameOuter: COLORS.border,
+      frameInner: COLORS.bg
     };
   }
 
@@ -69,14 +69,18 @@ title: Internal QR Code Generator
     }
 
     preview.innerHTML = "";
-    const renderColors = getRenderColors();
-    preview.style.background = renderColors.light;
+    const frameColors = getFrameColors();
+    const wrap = document.getElementById("qr-wrap");
+    if (wrap) {
+      wrap.style.background = frameColors.frameOuter;
+    }
+    preview.style.background = frameColors.frameInner;
     qrInstance = new QRCode(preview, {
       text: value,
       width: size,
       height: size,
-      colorDark: renderColors.dark,
-      colorLight: renderColors.light,
+      colorDark: COLORS.qr,
+      colorLight: frameColors.frameInner,
       correctLevel: QRCode.CorrectLevel.H
     });
   }
@@ -101,8 +105,9 @@ title: Internal QR Code Generator
     out.width = outSize;
     out.height = outSize;
 
+    const frameColors = getFrameColors();
     const ctx = out.getContext("2d");
-    ctx.fillStyle = COLORS.border;
+    ctx.fillStyle = frameColors.frameOuter;
     ctx.fillRect(0, 0, outSize, outSize);
 
     function buildFileName() {
