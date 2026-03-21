@@ -31,6 +31,8 @@ title: Internal QR Code Generator
       <div id="qr-wrap" style="display:inline-block;padding:20px;background:#C1F7AE;border-radius:10px;max-width:max-content;">
         <div id="qr-preview" style="padding:0;background:#A7A1F4;line-height:0;"></div>
       </div>
+
+      <div id="qr-hidden" style="display:none;"></div>
     </div>
   </div>
 </main>
@@ -49,11 +51,13 @@ title: Internal QR Code Generator
   const urlInput = document.getElementById("qr-url");
   const sizeInput = document.getElementById("qr-size");
   const preview = document.getElementById("qr-preview");
+  const hiddenTarget = document.getElementById("qr-hidden");
   const swapInput = document.getElementById("qr-swap");
   const generateBtn = document.getElementById("qr-generate");
   const downloadBtn = document.getElementById("qr-download");
 
   let qrInstance = null;
+  let renderedCanvas = null;
 
   function getFrameColors() {
     if (swapInput && swapInput.checked) {
@@ -73,6 +77,53 @@ title: Internal QR Code Generator
     return Number.isFinite(parsed) && parsed > 0 ? parsed : 280;
   }
 
+  function isFinderCell(row, col, count) {
+    const inTopLeft = row < 7 && col < 7;
+    const inTopRight = row < 7 && col >= count - 7;
+    const inBottomLeft = row >= count - 7 && col < 7;
+    return inTopLeft || inTopRight || inBottomLeft;
+  }
+
+  function renderStyledQr(model, qrSize, frameColors) {
+    const count = model.getModuleCount();
+    const quietZone = 4;
+    const totalModules = count + quietZone * 2;
+    const moduleSize = qrSize / totalModules;
+    const origin = quietZone * moduleSize;
+
+    const canvas = document.createElement("canvas");
+    canvas.width = qrSize;
+    canvas.height = qrSize;
+
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = frameColors.frameInner;
+    ctx.fillRect(0, 0, qrSize, qrSize);
+    ctx.fillStyle = COLORS.qr;
+
+    for (let row = 0; row < count; row += 1) {
+      for (let col = 0; col < count; col += 1) {
+        if (!model.isDark(row, col)) {
+          continue;
+        }
+
+        const x = origin + col * moduleSize;
+        const y = origin + row * moduleSize;
+
+        if (isFinderCell(row, col, count)) {
+          ctx.fillRect(x, y, moduleSize, moduleSize);
+          continue;
+        }
+
+        const radius = moduleSize * 0.38;
+        ctx.beginPath();
+        ctx.arc(x + moduleSize / 2, y + moduleSize / 2, radius, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    return canvas;
+  }
+
   function generateQr() {
     const value = (urlInput.value || "").trim();
     if (!value) {
@@ -82,13 +133,14 @@ title: Internal QR Code Generator
 
     const qrSize = getSelectedSize();
     preview.innerHTML = "";
+    hiddenTarget.innerHTML = "";
     const frameColors = getFrameColors();
     const wrap = document.getElementById("qr-wrap");
     if (wrap) {
       wrap.style.background = frameColors.frameOuter;
     }
     preview.style.background = frameColors.frameInner;
-    qrInstance = new QRCode(preview, {
+    qrInstance = new QRCode(hiddenTarget, {
       text: value,
       width: qrSize,
       height: qrSize,
@@ -96,6 +148,9 @@ title: Internal QR Code Generator
       colorLight: frameColors.frameInner,
       correctLevel: QRCode.CorrectLevel.H
     });
+
+    renderedCanvas = renderStyledQr(qrInstance._oQRCode, qrSize, frameColors);
+    preview.appendChild(renderedCanvas);
   }
 
   function downloadQr() {
@@ -105,10 +160,7 @@ title: Internal QR Code Generator
       return;
     }
 
-    const canvas = preview.querySelector("canvas");
-    const img = preview.querySelector("img");
-
-    if (!canvas && !img) {
+    if (!renderedCanvas) {
       alert("Generate a QR code first.");
       return;
     }
@@ -142,18 +194,8 @@ title: Internal QR Code Generator
       a.click();
     }
 
-    if (canvas) {
-      ctx.drawImage(canvas, borderPx, borderPx, qrSize, qrSize);
-      saveCanvas();
-      return;
-    }
-
-    const tmp = new Image();
-    tmp.onload = function () {
-      ctx.drawImage(tmp, borderPx, borderPx, qrSize, qrSize);
-      saveCanvas();
-    };
-    tmp.src = img.src;
+    ctx.drawImage(renderedCanvas, borderPx, borderPx, qrSize, qrSize);
+    saveCanvas();
   }
 
   generateBtn.addEventListener("click", generateQr);
