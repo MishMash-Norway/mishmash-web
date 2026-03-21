@@ -49,7 +49,8 @@ To be appointed
 - [Yngvil Beyer](https://www.nb.no/ansatte/yngvil-beyer/) (Nasjonalbiblioteket)
 
 
-### Scientific Advisory Board
+### MishMash Scientific Advisory Board
+
 - [Benoit Maujean](https://www.linkedin.com/in/benoit-maujean-7b2b2a1/) (Head of Technicolor Research, France)
 - [Catherine Fisk](https://www.law.berkeley.edu/our-faculty/faculty-profiles/catherine-fisk/) (Prof. law, UC Berkeley, USA)
 - [Jon McCormack](https://research.monash.edu/en/persons/jon-mccormack) (Prof. creative computing, Monash University, Australia)
