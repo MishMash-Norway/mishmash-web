@@ -5,10 +5,7 @@ title: Internal QR Code Generator
 
 <main class="main-content" role="main">
   <h2>Internal QR code generator</h2>
-  <p>
-    Generate MishMash-style QR codes with the same visual defaults as
-    <a href="/scripts/make_qr_code.py">scripts/make_qr_code.py</a>.
-  </p>
+  <p>Generate MishMash-style QR codes</a>.</p>
   <ul>
     <li>Background: <code>#A7A1F4</code></li>
     <li>QR color: <code>#363644</code></li>
@@ -24,9 +21,6 @@ title: Internal QR Code Generator
         <button id="qr-generate" type="button" class="btn">Generate</button>
         <button id="qr-download" type="button" class="btn">Download PNG</button>
       </div>
-
-      <label for="qr-command" style="font-weight:700;">Equivalent script command</label>
-      <input id="qr-command" type="text" readonly style="padding:0.6rem 0.7rem;border:1px solid #bbb;border-radius:8px;width:100%;font-family:monospace;background:#fff;" />
 
       <div id="qr-wrap" style="display:inline-block;padding:20px;background:#C1F7AE;border-radius:10px;max-width:max-content;">
         <div id="qr-preview" style="padding:0;background:#A7A1F4;line-height:0;"></div>
@@ -108,10 +102,21 @@ title: Internal QR Code Generator
     ctx.fillStyle = COLORS.border;
     ctx.fillRect(0, 0, outSize, outSize);
 
+    function buildFileName() {
+      const now = new Date();
+      const y = String(now.getFullYear());
+      const m = String(now.getMonth() + 1).padStart(2, "0");
+      const d = String(now.getDate()).padStart(2, "0");
+      const hh = String(now.getHours()).padStart(2, "0");
+      const mm = String(now.getMinutes()).padStart(2, "0");
+      const ss = String(now.getSeconds()).padStart(2, "0");
+      return "qrcode_" + y + m + d + "_" + hh + mm + ss + ".png";
+    }
+
     function saveCanvas() {
       const a = document.createElement("a");
       a.href = out.toDataURL("image/png");
-      a.download = "qrcode_custom.png";
+      a.download = buildFileName();
       a.click();
     }
 
