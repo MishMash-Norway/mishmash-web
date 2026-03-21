@@ -21,7 +21,7 @@
 | **WP4: Creative use of AI in education**          | <img class="person-thumb" src="../assets/images/portraits/square/eirik_sorbo_UiA.jpg" alt="Eirik Sørbø" /> [Eirik Sørbø](https://www.uia.no/english/about-uia/employees/eiriks05/) (UiA)                                                   | <img class="person-thumb" src="../assets/images/portraits/square/Sidsel_Karlsen_NMH.jpg" alt="Sidsel Karlsen" /> [Sidsel Karlsen](https://nmh.no/en/contact-us/employees/sidsel-karlsen) (NMH)                                                     | <img class="person-thumb" src="../assets/images/portraits/square/Fredrik_Graver_INN.jpg" alt="Fredrik Graver" /> [Fredrik Graver](https://www.inn.no/english/find-an-employee/fredrik-graver.html) (INN)                                           |
 | **WP5: AI in the Creative and Cultural Industries** | <img class="person-thumb" src="../assets/images/portraits/square/Ragnhild_Brovig_UiO.jpg" alt="Ragnhild Brøvig" /> [Ragnhild Brøvig](https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html) (UiO)                                            | <img class="person-thumb" src="../assets/images/portraits/square/Irina_Eidsvold_Toien_BI.jpg" alt="Irina Eidsvold-Tøien" /> [Irina Eidsvold-Tøien](https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/) (BI)                     | <img class="person-thumb" src="../assets/images/portraits/square/Jon_Marius_Aareskjold-Drecker_UiT.jpg" alt="Jon Marius Aareskjold-Drecker" /> [Jon Marius Aareskjold-Drecker](https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175) (UiT)                  |
 | **WP6: AI for cultural heritage**                 | <img class="person-thumb" src="../assets/images/portraits/square/Ingrid_Romarheim_Haugen_NB.jpg" alt="Ingrid Romarheim Haugen" /> [Ingrid Romarheim Haugen](https://www.nb.no/ansatte/ingrid-romarheim-haugen/) (NB)                                                           | <img class="person-thumb" src="../assets/images/portraits/square/Arnulf_Mattes_UiB.jpg" alt="Arnulf Mattes" /> [Arnulf Mattes](https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes) (UiB)                                              | <img class="person-thumb" src="../assets/images/portraits/square/Olivier_Lartillot_UiO.jpg" alt="Olivier Lartillot" /> [Olivier Lartillot](https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html) (UiO)                                     |
-| **WP7: Human-centric AI for Creative Problem-Solving** | <img class="person-thumb" src="../assets/images/portraits/square/Carsten_Griwodz_UiO.jpg" alt="Carsten Griwodz" /> [Carsten Griwodz](https://www.mn.uio.no/ifi/english/people/aca/griff/index.html)                                                      | <img class="person-thumb" src="../assets/images/portraits/square/Baltasar_Beferull_Simula.jpg" alt="Baltasar Beferull‐Lozano" /> [Baltasar Beferull‐Lozano](https://www.simula.no/people/baltasar) (SimulaMet)                                                     | <img class="person-thumb" src="../assets/images/portraits/square/Kjetil_Nordby_AHO.jpg" alt="Kjetil Nordby" /> [Kjetil Nordby](https://www.aho.no/english/about/employees/kjetiln/) (AHO)                                                       |
+| **WP7: Human-centric AI for Creative Problem-Solving** | <img class="person-thumb" src="../assets/images/portraits/square/Carsten_Griwodz_UiO.jpg" alt="Carsten Griwodz" /> [Carsten Griwodz](https://www.mn.uio.no/ifi/english/people/aca/griff/index.html) (UiO)                                                     | <img class="person-thumb" src="../assets/images/portraits/square/Baltasar_Beferull_Simula.jpg" alt="Baltasar Beferull‐Lozano" /> [Baltasar Beferull‐Lozano](https://www.simula.no/people/baltasar) (SimulaMet)                                                     | <img class="person-thumb" src="../assets/images/portraits/square/Kjetil_Nordby_AHO.jpg" alt="Kjetil Nordby" /> [Kjetil Nordby](https://www.aho.no/english/about/employees/kjetiln/) (AHO)                                                       |
 
 ### MishMash Board
 
@@ -29,24 +29,24 @@ To be appointed
 
 ### MishMash Council
 
-- André Alexandersen Hauge, HiOF
-- Charles Martin, ANU
-- Christian Blom, Notam
-- Christian Schüssler, Reimagine
-- Govart Valkenburg, NTNU
-- Ingrid Chieh Yu, UiO
-- Jostein Gundersen, UiB
-- Lina Plataniti, NORSUS
-- Lise Amy Hansen , AHO
-- Marit Wergeland, UiA
-- Morten Qvenild, NMH
-- Nina Fredrikke Grünfeld, INN
-- Sigurd Sandvold, HVL
-- Stig Mathisen, UiT
-- Sven-Arne Reinemo, SimulaMet
-- Synne Tollerud Bull, Kristiania
-- Terje Colbjørnsen, BI
-- Yngvil Beyer, Nasjonalbiblioteket
+- [André Alexandersen Hauge](https://www.hiof.no/iio/itk/english/people/adm/andreh/index.html) (HiØ)
+- [Charles Martin](https://comp.anu.edu.au/people/charles-martin/) (ANU)
+- [Christian Blom](https://notam.no/en/about-us/employees/) (Notam)
+- [Christian Schüssler](https://reimagine.no/contact) (Reimagine)
+- [Govert Valkenburg](https://www.ntnu.edu/employees/govert.valkenburg) (NTNU)
+- [Ingrid Chieh Yu](https://www.mn.uio.no/ifi/english/people/aca/ingridcy/) (UiO)
+- [Jostein Gundersen](https://www4.uib.no/en/find-employees/jostein.gundersen) (UiB)
+- [Lina Plataniti](https://norsus.no/en/ansatt/lina-plataniti/) (NORSUS)
+- [Lise Amy Hansen](https://www.aho.no/english/about/employees/lisehans/) (AHO)
+- [Marit Wergeland](https://www.uia.no/english/about-uia/employees/maritwe/) (UiA)
+- [Morten Qvenild](https://nmh.no/en/contact-us/employees/morten-qvenild) (NMH)
+- [Nina Fredrikke Grünfeld](https://www.inn.no/finn-en-ansatt/nina-grunfeld.html) (INN)
+- [Sigurd Sandvold](https://www.hvl.no/person/?user=Sigurd.Sandvold) (HVL)
+- [Stig Mathisen](https://en.uit.no/ansatte/stig-roar.mathisen) (UiT)
+- [Sven-Arne Reinemo](https://www.simula.no/people/svenar) (SimulaMet)
+- [Synne Tollerud Bull](https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/school-of-arts-design-and-media/synne-tollerud-bull/) (Kristiania)
+- [Terje Colbjørnsen](https://www.bi.no/en/about-bi/employees/department-of-communication-and-culture/terje-colbjornsen/) (BI)
+- [Yngvil Beyer](https://www.nb.no/ansatte/yngvil-beyer/) (Nasjonalbiblioteket)
 
 
 ### Scientific Advisory Board
