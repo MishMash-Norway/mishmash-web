@@ -16,6 +16,11 @@ title: Internal QR Code Generator
         <button id="qr-download" type="button" class="btn">Download PNG</button>
       </div>
 
+      <label for="qr-swap" style="display:flex;gap:0.5rem;align-items:center;">
+        <input id="qr-swap" type="checkbox" />
+        Swap foreground/background colors
+      </label>
+
       <div id="qr-wrap" style="display:inline-block;padding:20px;background:#C1F7AE;border-radius:10px;max-width:max-content;">
         <div id="qr-preview" style="padding:0;background:#A7A1F4;line-height:0;"></div>
       </div>
@@ -37,10 +42,24 @@ title: Internal QR Code Generator
 
   const urlInput = document.getElementById("qr-url");
   const preview = document.getElementById("qr-preview");
+  const swapInput = document.getElementById("qr-swap");
   const generateBtn = document.getElementById("qr-generate");
   const downloadBtn = document.getElementById("qr-download");
 
   let qrInstance = null;
+
+  function getRenderColors() {
+    if (swapInput && swapInput.checked) {
+      return {
+        dark: COLORS.bg,
+        light: COLORS.qr
+      };
+    }
+    return {
+      dark: COLORS.qr,
+      light: COLORS.bg
+    };
+  }
 
   function generateQr() {
     const value = (urlInput.value || "").trim();
@@ -50,12 +69,14 @@ title: Internal QR Code Generator
     }
 
     preview.innerHTML = "";
+    const renderColors = getRenderColors();
+    preview.style.background = renderColors.light;
     qrInstance = new QRCode(preview, {
       text: value,
       width: size,
       height: size,
-      colorDark: COLORS.qr,
-      colorLight: COLORS.bg,
+      colorDark: renderColors.dark,
+      colorLight: renderColors.light,
       correctLevel: QRCode.CorrectLevel.H
     });
   }
@@ -118,6 +139,7 @@ title: Internal QR Code Generator
 
   generateBtn.addEventListener("click", generateQr);
   downloadBtn.addEventListener("click", downloadQr);
+  swapInput.addEventListener("change", generateQr);
   urlInput.addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
       e.preventDefault();
