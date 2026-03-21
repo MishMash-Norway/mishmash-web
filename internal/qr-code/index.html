@@ -1,0 +1,144 @@
+---
+layout: default
+title: Internal QR Code Generator
+---
+
+<main class="main-content" role="main">
+  <h2>Internal QR code generator</h2>
+  <p>
+    Generate MishMash-style QR codes with the same visual defaults as
+    <a href="/scripts/make_qr_code.py">scripts/make_qr_code.py</a>.
+  </p>
+  <ul>
+    <li>Background: <code>#A7A1F4</code></li>
+    <li>QR color: <code>#363644</code></li>
+    <li>Outer border: <code>#C1F7AE</code></li>
+  </ul>
+
+  <div id="mm-qr-tool" style="max-width:760px;margin:1.2rem auto;padding:1rem 1rem 1.2rem;border:1px solid #d9d9df;border-radius:10px;background:#fafafe;">
+    <div style="display:grid;gap:0.8rem;">
+      <label for="qr-url" style="font-weight:700;">URL or text</label>
+      <input id="qr-url" type="text" value="https://mishmash.no/" style="padding:0.6rem 0.7rem;border:1px solid #bbb;border-radius:8px;width:100%;" />
+
+      <div style="display:flex;gap:0.6rem;flex-wrap:wrap;align-items:center;">
+        <button id="qr-generate" type="button" class="btn">Generate</button>
+        <button id="qr-download" type="button" class="btn">Download PNG</button>
+      </div>
+
+      <label for="qr-command" style="font-weight:700;">Equivalent script command</label>
+      <input id="qr-command" type="text" readonly style="padding:0.6rem 0.7rem;border:1px solid #bbb;border-radius:8px;width:100%;font-family:monospace;background:#fff;" />
+
+      <div id="qr-wrap" style="display:inline-block;padding:20px;background:#C1F7AE;border-radius:10px;max-width:max-content;">
+        <div id="qr-preview" style="padding:0;background:#A7A1F4;line-height:0;"></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+(function () {
+  const COLORS = {
+    bg: "#A7A1F4",
+    border: "#C1F7AE",
+    qr: "#363644"
+  };
+
+  const size = 280;
+  const borderPx = 20;
+
+  const urlInput = document.getElementById("qr-url");
+  const commandInput = document.getElementById("qr-command");
+  const preview = document.getElementById("qr-preview");
+  const generateBtn = document.getElementById("qr-generate");
+  const downloadBtn = document.getElementById("qr-download");
+
+  let qrInstance = null;
+
+  function shellEscapeSingleQuotes(value) {
+    return String(value).replace(/'/g, "'\\''");
+  }
+
+  function updateCommand(value) {
+    const safe = shellEscapeSingleQuotes(value || "");
+    commandInput.value = "python3 scripts/make_qr_code.py '" + safe + "'";
+  }
+
+  function generateQr() {
+    const value = (urlInput.value || "").trim();
+    if (!value) {
+      alert("Please enter a URL or text.");
+      return;
+    }
+
+    updateCommand(value);
+
+    preview.innerHTML = "";
+    qrInstance = new QRCode(preview, {
+      text: value,
+      width: size,
+      height: size,
+      colorDark: COLORS.qr,
+      colorLight: COLORS.bg,
+      correctLevel: QRCode.CorrectLevel.H
+    });
+  }
+
+  function downloadQr() {
+    const value = (urlInput.value || "").trim();
+    if (!value) {
+      alert("Generate a QR code first.");
+      return;
+    }
+
+    const canvas = preview.querySelector("canvas");
+    const img = preview.querySelector("img");
+
+    if (!canvas && !img) {
+      alert("Generate a QR code first.");
+      return;
+    }
+
+    const out = document.createElement("canvas");
+    const outSize = size + borderPx * 2;
+    out.width = outSize;
+    out.height = outSize;
+
+    const ctx = out.getContext("2d");
+    ctx.fillStyle = COLORS.border;
+    ctx.fillRect(0, 0, outSize, outSize);
+
+    function saveCanvas() {
+      const a = document.createElement("a");
+      a.href = out.toDataURL("image/png");
+      a.download = "qrcode_custom.png";
+      a.click();
+    }
+
+    if (canvas) {
+      ctx.drawImage(canvas, borderPx, borderPx, size, size);
+      saveCanvas();
+      return;
+    }
+
+    const tmp = new Image();
+    tmp.onload = function () {
+      ctx.drawImage(tmp, borderPx, borderPx, size, size);
+      saveCanvas();
+    };
+    tmp.src = img.src;
+  }
+
+  generateBtn.addEventListener("click", generateQr);
+  downloadBtn.addEventListener("click", downloadQr);
+  urlInput.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      generateQr();
+    }
+  });
+
+  updateCommand(urlInput.value || "");
+  generateQr();
+})();
+</script>
