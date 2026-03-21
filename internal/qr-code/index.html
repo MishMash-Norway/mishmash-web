@@ -8,8 +8,15 @@ title: Internal QR Code Generator
 
   <div id="mm-qr-tool" style="max-width:760px;margin:1.2rem auto;padding:1rem 1rem 1.2rem;border:1px solid #d9d9df;border-radius:10px;background:#fafafe;">
     <div style="display:grid;gap:0.8rem;">
-      <label for="qr-url" style="font-weight:700;">URL or text</label>
+      <label for="qr-url" style="font-weight:700;">URL</label>
       <input id="qr-url" type="text" value="https://mishmash.no/" style="padding:0.6rem 0.7rem;border:1px solid #bbb;border-radius:8px;width:100%;" />
+
+      <label for="qr-size" style="font-weight:700;">Size</label>
+      <select id="qr-size" style="padding:0.6rem 0.7rem;border:1px solid #bbb;border-radius:8px;width:max-content;min-width:180px;background:#fff;">
+        <option value="200">Small</option>
+        <option value="280" selected>Medium</option>
+        <option value="360">Large</option>
+      </select>
 
       <div style="display:flex;gap:0.6rem;flex-wrap:wrap;align-items:center;">
         <button id="qr-generate" type="button" class="btn">Generate</button>
@@ -18,7 +25,7 @@ title: Internal QR Code Generator
 
       <label for="qr-swap" style="display:flex;gap:0.5rem;align-items:center;">
         <input id="qr-swap" type="checkbox" />
-        Swap colors
+        Swap colours
       </label>
 
       <div id="qr-wrap" style="display:inline-block;padding:20px;background:#C1F7AE;border-radius:10px;max-width:max-content;">
@@ -37,10 +44,10 @@ title: Internal QR Code Generator
     qr: "#363644"
   };
 
-  const size = 280;
   const borderPx = 20;
 
   const urlInput = document.getElementById("qr-url");
+  const sizeInput = document.getElementById("qr-size");
   const preview = document.getElementById("qr-preview");
   const swapInput = document.getElementById("qr-swap");
   const generateBtn = document.getElementById("qr-generate");
@@ -61,6 +68,11 @@ title: Internal QR Code Generator
     };
   }
 
+  function getSelectedSize() {
+    const parsed = Number.parseInt(sizeInput.value, 10);
+    return Number.isFinite(parsed) && parsed > 0 ? parsed : 280;
+  }
+
   function generateQr() {
     const value = (urlInput.value || "").trim();
     if (!value) {
@@ -68,6 +80,7 @@ title: Internal QR Code Generator
       return;
     }
 
+    const qrSize = getSelectedSize();
     preview.innerHTML = "";
     const frameColors = getFrameColors();
     const wrap = document.getElementById("qr-wrap");
@@ -77,8 +90,8 @@ title: Internal QR Code Generator
     preview.style.background = frameColors.frameInner;
     qrInstance = new QRCode(preview, {
       text: value,
-      width: size,
-      height: size,
+      width: qrSize,
+      height: qrSize,
       colorDark: COLORS.qr,
       colorLight: frameColors.frameInner,
       correctLevel: QRCode.CorrectLevel.H
@@ -100,8 +113,9 @@ title: Internal QR Code Generator
       return;
     }
 
+    const qrSize = getSelectedSize();
     const out = document.createElement("canvas");
-    const outSize = size + borderPx * 2;
+    const outSize = qrSize + borderPx * 2;
     out.width = outSize;
     out.height = outSize;
 
@@ -129,14 +143,14 @@ title: Internal QR Code Generator
     }
 
     if (canvas) {
-      ctx.drawImage(canvas, borderPx, borderPx, size, size);
+      ctx.drawImage(canvas, borderPx, borderPx, qrSize, qrSize);
       saveCanvas();
       return;
     }
 
     const tmp = new Image();
     tmp.onload = function () {
-      ctx.drawImage(tmp, borderPx, borderPx, size, size);
+      ctx.drawImage(tmp, borderPx, borderPx, qrSize, qrSize);
       saveCanvas();
     };
     tmp.src = img.src;
@@ -144,6 +158,7 @@ title: Internal QR Code Generator
 
   generateBtn.addEventListener("click", generateQr);
   downloadBtn.addEventListener("click", downloadQr);
+  sizeInput.addEventListener("change", generateQr);
   swapInput.addEventListener("change", generateQr);
   urlInput.addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
