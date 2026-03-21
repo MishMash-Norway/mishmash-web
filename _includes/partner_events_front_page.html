@@ -1,0 +1,25 @@
+{% assign partner_events = site.data.partner_events | default: empty %}
+{% assign sorted_partner_events = partner_events | sort: "start_date" %}
+{% assign display_limit = include.limit | default: 5 %}
+
+{% if sorted_partner_events and sorted_partner_events.size > 0 %}
+<ul class="other-events">
+  {% for ev in sorted_partner_events limit: display_limit %}
+    {% assign start_date = ev.start_date | default: ev.date %}
+    {% assign end_date = ev.end_date | default: ev.enddate %}
+    <li>
+      {% if start_date %}
+        <time datetime="{{ start_date }}">{{ start_date | date: "%Y-%m-%d" }}</time>
+        {% if end_date and end_date != start_date %}
+          –<time datetime="{{ end_date }}">{{ end_date | date: "%Y-%m-%d" }}</time>
+        {% endif %}
+        —
+      {% endif %}
+      {% if ev.url %}<a href="{{ ev.url }}">{{ ev.title }}</a>{% else %}{{ ev.title }}{% endif %}
+      {% if ev.partner %} ({{ ev.partner }}){% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No partner events listed yet.</p>
+{% endif %}
