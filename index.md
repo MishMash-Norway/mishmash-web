@@ -19,12 +19,13 @@ We have several [fully-funded PhD and PostDoc fellowships](https://mishmash.no/n
 
 {% include events_front_page.html wp="WP1" %}
 
-<p><a href="https://mishmash.no/events/">More events...</a></p>
+[More MishMash events...](https://mishmash.no/events/)
 
 <h2>Partner Events</h2>
 
 {% include partner_events_front_page.html limit=3 %}
 
+[More partner events...](https://mishmash.no/events/#partner_events)
 
 ## Partners
 
