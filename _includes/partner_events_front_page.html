@@ -25,8 +25,12 @@
       {% if start_date %}
         {% assign start_year = start_date | date: "%Y" %}
         {% assign end_year = end_date | date: "%Y" %}
+        {% assign start_month = start_date | date: "%b" %}
+        {% assign end_month = end_date | date: "%b" %}
         {%- if end_date and end_date != start_date -%}
-          {%- if start_year == end_year -%}
+          {%- if start_year == end_year and start_month == end_month -%}
+            <time datetime="{{ start_date }}">{{ start_date | date: "%b %d" }}</time>–<time datetime="{{ end_date }}">{{ end_date | date: "%d, %Y" }}</time>
+          {%- elsif start_year == end_year -%}
             <time datetime="{{ start_date }}">{{ start_date | date: "%b %d" }}</time>–<time datetime="{{ end_date }}">{{ end_date | date: "%b %d, %Y" }}</time>
           {%- else -%}
             <time datetime="{{ start_date }}">{{ start_date | date: "%b %d, %Y" }}</time>–<time datetime="{{ end_date }}">{{ end_date | date: "%b %d, %Y" }}</time>
