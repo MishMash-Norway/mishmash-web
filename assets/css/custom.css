@@ -120,8 +120,11 @@ body {
   overflow: hidden;
   background: #ece9fd;
   border-radius: 50% !important;
-  object-fit: unset !important; /* <span> is not a replaced element */
   flex: 0 0 auto;
+  width: clamp(64px, 22vw, 120px) !important;
+  height: clamp(64px, 22vw, 120px) !important;
+  min-width: clamp(64px, 22vw, 120px);
+  min-height: clamp(64px, 22vw, 120px);
 }
 
 /* Partner event image — always fills the full circle */
