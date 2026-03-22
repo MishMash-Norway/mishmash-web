@@ -21,11 +21,11 @@ We have several [fully-funded PhD and PostDoc fellowships](https://mishmash.no/n
 
 [More MishMash events...](https://mishmash.no/events/)
 
-<h2>Partner Events</h2>
+<h2><a href="https://mishmash.no/events/#partner-events">Partner Events</a></h2>
 
 {% include partner_events_front_page.html limit=3 %}
 
-[More partner events...](https://mishmash.no/events/#partner_events)
+[More partner events...](https://mishmash.no/events/#partner-events)
 
 ## Partners
 

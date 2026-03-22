@@ -7,7 +7,7 @@ title: Events
 {% assign future_events = all_events | where_exp: "item", "item.date >= site.time" | sort: 'date' %}
 {% assign past_events = all_events | where_exp: "item", "item.date < site.time" | sort: 'date' | reverse %}
 
-<h2>Upcoming MishMash Events</h2>
+<h2 id="mishmash-events">Upcoming MishMash Events</h2>
 {% if future_events.size > 0 %}
   {% for item in future_events %}
     <div class="event-item">
@@ -82,7 +82,7 @@ title: Events
 {% endif %}
 
 
-<h2>Partner Events</h2>
+<h2 id="partner-events">Partner Events</h2>
 
 {% include partner_events_front_page.html limit=100 %}
 
