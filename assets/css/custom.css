@@ -117,9 +117,17 @@ body {
   height: 56px !important;
   min-width: 56px;
   min-height: 56px;
-  border-radius: 14px;
-  background: #fff;
-  padding: 8px;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  border-radius: 0;
+}
+
+a .partner-event-thumb {
+  border: 0 !important;
+  box-shadow: none !important;
 }
 
 /* Hover effect used by mishmash_bubbles_notext.svg thumbnails/images */
