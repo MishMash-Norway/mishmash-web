@@ -13,7 +13,15 @@
   {% assign end_date = ev.end_date | default: ev.enddate %}
   {% assign domain = ev.url | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first %}
   {% assign icon_url = 'https://www.google.com/s2/favicons?sz=128&domain=' | append: domain %}
-  {% assign display_title = ev.og_title | default: ev.title %}
+  {% assign display_title = ev.title %}
+  {% if ev.og_title %}
+    {% assign og_title_clean = ev.og_title | replace: '
+', ' ' | strip %}
+    {% assign display_title = og_title_clean | split: ' - ' | first | strip %}
+    {% if display_title == '' %}
+      {% assign display_title = ev.title %}
+    {% endif %}
+  {% endif %}
   {% assign display_desc = ev.og_description | default: ev.description %}
   {% assign start_parts = start_date_iso | split: '-' %}
   {% if start_date and start_date_text != '' and start_date_iso != '' and start_parts.size == 3 and start_date_iso >= now_date %}
