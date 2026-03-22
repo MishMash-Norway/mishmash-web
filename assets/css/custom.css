@@ -113,16 +113,17 @@ body {
 }
 
 .partner-event-thumb {
-  width: 56px !important;
-  height: 56px !important;
-  min-width: 56px;
-  min-height: 56px;
+  width: clamp(64px, 22vw, 120px) !important;
+  height: clamp(64px, 22vw, 120px) !important;
+  min-width: clamp(64px, 22vw, 120px);
+  min-height: clamp(64px, 22vw, 120px);
   border: 0 !important;
   outline: 0 !important;
   box-shadow: none !important;
   background: transparent !important;
   padding: 0 !important;
-  border-radius: 0;
+  border-radius: 50%;
+  object-fit: contain;
 }
 
 a .partner-event-thumb {
