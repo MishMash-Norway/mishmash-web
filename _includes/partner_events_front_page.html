@@ -1,15 +1,18 @@
 {% assign partner_events = site.data.partner_events | default: empty %}
 {% assign sorted_partner_events = partner_events | sort: "start_date" %}
-{% assign upcoming_partner_events = sorted_partner_events | where_exp: "item", "item.start_date >= site.time" %}
 {% assign display_limit = include.limit | default: 5 %}
 {% assign fallback_icon = '/assets/images/bubbles/mishmash_bubbles.ico' | relative_url %}
+{% assign now_date = site.time | date: "%Y-%m-%d" %}
+{% assign shown = 0 %}
 
-{% if upcoming_partner_events and upcoming_partner_events.size > 0 %}
-{% for ev in upcoming_partner_events limit: display_limit %}
+{% if sorted_partner_events and sorted_partner_events.size > 0 %}
+{% for ev in sorted_partner_events %}
   {% assign start_date = ev.start_date | default: ev.date %}
+  {% assign start_date_iso = start_date | date: "%Y-%m-%d" %}
   {% assign end_date = ev.end_date | default: ev.enddate %}
   {% assign domain = ev.url | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first %}
   {% assign icon_url = 'https://www.google.com/s2/favicons?sz=128&domain=' | append: domain %}
+  {% if start_date_iso >= now_date %}
   <div class="event-item partner-event-item">
     {% if ev.url and domain != '' %}
       <a href="{{ ev.url }}">
@@ -31,7 +34,15 @@
       {% endif %}
     </div>
   </div>
+  {% assign shown = shown | plus: 1 %}
+  {% if shown >= display_limit %}
+    {% break %}
+  {% endif %}
+  {% endif %}
 {% endfor %}
+{% if shown == 0 %}
+<p>No partner events listed yet.</p>
+{% endif %}
 {% else %}
 <p>No partner events listed yet.</p>
 {% endif %}
