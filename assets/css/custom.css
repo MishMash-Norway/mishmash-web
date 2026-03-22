@@ -124,10 +124,10 @@ body {
   flex: 0 0 auto;
 }
 
-/* Favicon image inside the circle */
+/* Partner event image — always fills the full circle */
 .partner-event-thumb {
-  width: 65% !important;
-  height: 65% !important;
+  width: 100% !important;
+  height: 100% !important;
   min-width: 0;
   min-height: 0;
   border: 0 !important;
@@ -135,16 +135,8 @@ body {
   box-shadow: none !important;
   background: transparent !important;
   padding: 0 !important;
-  border-radius: 0 !important;
-  object-fit: contain;
-}
-
-/* OG image fills the full circle like a MishMash event thumbnail */
-.partner-event-og-img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
   border-radius: 50% !important;
+  object-fit: cover;
 }
 
 /* Hover effect used by mishmash_bubbles_notext.svg thumbnails/images */

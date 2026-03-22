@@ -21,11 +21,9 @@
     {% if ev.url %}
       <a href="{{ ev.url }}">
         <span class="event-thumb partner-event-icon">
-          {% if ev.og_image %}
-            <img class="partner-event-thumb partner-event-og-img" src="{{ ev.og_image }}" alt="{{ display_title }}" loading="lazy" onerror="this.onerror=null;this.src='{{ icon_url }}';this.onerror=function(){this.src='{{ fallback_icon }}'};">
-          {% else %}
-            <img class="partner-event-thumb" src="{{ icon_url }}" alt="{{ ev.partner | default: ev.title }} icon" loading="lazy" onerror="this.onerror=null;this.src='{{ fallback_icon }}';">
-          {% endif %}
+          {% assign img_src = ev.og_image | default: icon_url %}
+          <img class="partner-event-thumb" src="{{ img_src }}" alt="{{ display_title }}" loading="lazy"
+               onerror="if(this.src!=='{{ icon_url }}'){this.src='{{ icon_url }}'}else{this.src='{{ fallback_icon }}';this.onerror=null}">
         </span>
       </a>
     {% endif %}
