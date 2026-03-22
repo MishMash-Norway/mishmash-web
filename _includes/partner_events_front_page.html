@@ -13,13 +13,19 @@
   {% assign end_date = ev.end_date | default: ev.enddate %}
   {% assign domain = ev.url | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first %}
   {% assign icon_url = 'https://www.google.com/s2/favicons?sz=128&domain=' | append: domain %}
+  {% assign display_title = ev.og_title | default: ev.title %}
+  {% assign display_desc = ev.og_description | default: ev.description %}
   {% assign start_parts = start_date_iso | split: '-' %}
   {% if start_date and start_date_text != '' and start_date_iso != '' and start_parts.size == 3 and start_date_iso >= now_date %}
   <div class="event-item partner-event-item">
-    {% if ev.url and domain != '' %}
+    {% if ev.url %}
       <a href="{{ ev.url }}">
         <span class="event-thumb partner-event-icon">
-          <img class="partner-event-thumb" src="{{ icon_url }}" alt="{{ ev.partner | default: ev.title }} icon" loading="lazy" onerror="this.onerror=null;this.src='{{ fallback_icon }}';">
+          {% if ev.og_image %}
+            <img class="partner-event-thumb partner-event-og-img" src="{{ ev.og_image }}" alt="{{ display_title }}" loading="lazy" onerror="this.onerror=null;this.src='{{ icon_url }}';this.onerror=function(){this.src='{{ fallback_icon }}'};">
+          {% else %}
+            <img class="partner-event-thumb" src="{{ icon_url }}" alt="{{ ev.partner | default: ev.title }} icon" loading="lazy" onerror="this.onerror=null;this.src='{{ fallback_icon }}';">
+          {% endif %}
         </span>
       </a>
     {% endif %}
@@ -43,9 +49,9 @@
       {% endif %}
       {% if ev.partner %} &mdash; {{ ev.partner }}{% endif %}
       <br />
-      {% if ev.url %}<a href="{{ ev.url }}">{{ ev.title }}</a>{% else %}{{ ev.title }}{% endif %}
-      {% if ev.description %}
-        <p class="event-desc">{{ ev.description }}</p>
+      {% if ev.url %}<a href="{{ ev.url }}">{{ display_title }}</a>{% else %}{{ display_title }}{% endif %}
+      {% if display_desc %}
+        <p class="event-desc">{{ display_desc }}</p>
       {% endif %}
     </div>
   </div>

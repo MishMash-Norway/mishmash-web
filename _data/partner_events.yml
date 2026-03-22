@@ -4,29 +4,44 @@
 - start_date: 2026-04-09
   end_date: 2026-04-12
   url: https://metamorf.art/
+  og_title: "Meta.Morf 2026 – Future Manifestos - META.MORF 2026"
+  og_description: "Learn how artificial intelligence is shaping the future of art and technology. Discover the fusion of creativity and innovation."
+  og_image: "https://metamorf.art/wp-content/uploads/2026/03/Meta.Morf-Future-Manifestos-2.jpg"
   partner: TEKS
   title: "META.MORF 2026: Future Manifestos"
 
 - start_date: 2026-05-23
   end_date: 2026-05-24
   url: https://kmd.uib.no/en/Calendar/seminar/archival-intelligence-epistemic-shifts-from-sound-to-listening
+  og_title: "Kunst, Musikk, Design - Archival Intelligence: Epistemic Shifts from Sound to Listening"
+  og_description: "Fakultet for kunst, musikk og design, UiB, en kunnskapsbygger,
+en kulturinstitusjon, en opplyst fremtid"
+  og_image: "https://kmd.uib.no/en/Calendar/seminar/archival-intelligence-epistemic-shifts-from-sound-to-listening/_/image/df58c012-bc6c-423e-8710-dbc735e647f6:30c10e0ef345783366d26bfb0cba899ab99fca74/width-1200/Charles-Myers-recording-t-001%20copy.jpg"
   partner: University of Bergen
   title: "Archival Intelligence: Epistemic Shifts from Sound to Listening"
 
 - start_date: 2026-09-10
   end_date: 2026-09-19
   url: https://ultima.no/nb
+  og_title: "ultima • oslo contemporary
+      music festival"
   partner: Ultima
   title: "Ultima Oslo Contemporary Music Festival 2026"
 
 - start_date: 2026-03-26
   end_date: 2026-03-26
   url: https://notam.no/en/event/notams-online-supercollider-meetup/
+  og_title: "Notam's online SuperCollider Meetup - Notam"
+  og_description: "SuperCollider is an open source tool for sound synthesis and algorithmic composition. It is used for composition, generative music, installations, live coding,"
+  og_image: "https://notam.b-cdn.net/wp-content/uploads/2024/11/SC-nett-1024x724.jpg"
   partner: Notam
   title: "Online SuperCollider Meetup"
 
 - start_date: 2026-05-06
   end_date: 2026-05-06
   url: https://www.kristiania.no/en/about-kristiania/calendar/official-kick-off-of-the-kai-center/
+  og_title: "Offisiell åpning: Lansering av KAI-senteret"
+  og_description: "Bli med på den offisielle lanseringen av KAI-senteret. En inspirerende kveld med innsikt i ansvarlig kunstig intelligens, etterfulgt av nettverksbygging, og enkel servering"
+  og_image: "https://www.kristiania.no/contentassets/e9afff7cb85649b5b366e9d1cb8d1bad/eventkalender-1250x730_1250_730-7.jpg?width=1200&height=630&rmode=Crop"
   partner: Kristiania
   title: "Official kick-off of the KAI Center"

@@ -139,6 +139,14 @@ body {
   object-fit: contain;
 }
 
+/* OG image fills the full circle like a MishMash event thumbnail */
+.partner-event-og-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+}
+
 /* Hover effect used by mishmash_bubbles_notext.svg thumbnails/images */
 .blink-eye-thumb {
   display: block;
