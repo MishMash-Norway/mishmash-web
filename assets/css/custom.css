@@ -108,6 +108,21 @@ body {
   line-height: 1.4;
 }
 
+.partner-event-item {
+  align-items: flex-start;
+}
+
+.partner-event-thumb {
+  width: 56px !important;
+  height: 56px !important;
+  min-width: 56px;
+  min-height: 56px;
+  border-radius: 14px;
+  border: 1px solid #e6e6e6;
+  background: #fff;
+  padding: 8px;
+}
+
 /* Hover effect used by mishmash_bubbles_notext.svg thumbnails/images */
 .blink-eye-thumb {
   display: block;

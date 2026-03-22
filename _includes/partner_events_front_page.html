@@ -1,25 +1,37 @@
 {% assign partner_events = site.data.partner_events | default: empty %}
 {% assign sorted_partner_events = partner_events | sort: "start_date" %}
+{% assign upcoming_partner_events = sorted_partner_events | where_exp: "item", "item.start_date >= site.time" %}
 {% assign display_limit = include.limit | default: 5 %}
+{% assign fallback_icon = '/assets/images/bubbles/mishmash_bubbles.ico' | relative_url %}
 
-{% if sorted_partner_events and sorted_partner_events.size > 0 %}
-<ul class="other-events">
-  {% for ev in sorted_partner_events limit: display_limit %}
-    {% assign start_date = ev.start_date | default: ev.date %}
-    {% assign end_date = ev.end_date | default: ev.enddate %}
-    <li>
+{% if upcoming_partner_events and upcoming_partner_events.size > 0 %}
+{% for ev in upcoming_partner_events limit: display_limit %}
+  {% assign start_date = ev.start_date | default: ev.date %}
+  {% assign end_date = ev.end_date | default: ev.enddate %}
+  {% assign domain = ev.url | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first %}
+  {% assign icon_url = 'https://www.google.com/s2/favicons?sz=128&domain=' | append: domain %}
+  <div class="event-item partner-event-item">
+    {% if ev.url and domain != '' %}
+      <a href="{{ ev.url }}">
+        <img class="event-thumb partner-event-thumb" src="{{ icon_url }}" alt="{{ ev.partner | default: ev.title }} icon" loading="lazy" onerror="this.onerror=null;this.src='{{ fallback_icon }}';">
+      </a>
+    {% endif %}
+    <div class="event-content">
       {% if start_date %}
-        <time datetime="{{ start_date }}">{{ start_date | date: "%Y-%m-%d" }}</time>
+        <time datetime="{{ start_date }}">{{ start_date | date: "%b %d, %Y" }}</time>
         {% if end_date and end_date != start_date %}
-          –<time datetime="{{ end_date }}">{{ end_date | date: "%Y-%m-%d" }}</time>
+          –<time datetime="{{ end_date }}">{{ end_date | date: "%b %d, %Y" }}</time>
         {% endif %}
-        —
       {% endif %}
+      {% if ev.partner %} &mdash; {{ ev.partner }}{% endif %}
+      <br />
       {% if ev.url %}<a href="{{ ev.url }}">{{ ev.title }}</a>{% else %}{{ ev.title }}{% endif %}
-      {% if ev.partner %} ({{ ev.partner }}){% endif %}
-    </li>
-  {% endfor %}
-</ul>
+      {% if ev.description %}
+        <p class="event-desc">{{ ev.description }}</p>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
 {% else %}
 <p>No partner events listed yet.</p>
 {% endif %}
