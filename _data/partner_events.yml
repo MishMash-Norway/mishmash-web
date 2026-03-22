@@ -54,3 +54,36 @@ en kulturinstitusjon, en opplyst fremtid"
   partner: Kristiania
   title: "AR@K26 symposium"
 
+- start_date: 2026-05-05
+  end_date: 2026-05-05
+  url: https://www.uio.no/ritmo/english/news-and-events/events/ritmo-seminar-series/2026/sturm/index.html
+  og_title: "Perspectives after the MUSAiC Project
+       - RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion"
+  og_description: "Associate Professor of Computer Science at KTH Royal Institute of Technology, Bob L. T. Sturm, will speak at RITMO's Seminar Series."
+  og_image: "https://www.uio.no/ritmo/english/news-and-events/events/ritmo-seminar-series/2026/sturm/image.png"
+  partner: University of Oslo (RITMO)
+  title: "Perspectives after the MUSAiC Project"
+  description: "RITMO Seminar Series talk by Bob L. T. Sturm. Time: 1:15 PM-3:00 PM. Place: RITMO, Forsamlingssalen/YouTube."
+
+- start_date: 2026-06-08
+  end_date: 2026-06-09
+  url: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/index.html
+  og_title: "Symposium on Digital and AI Musicology
+       - RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion"
+  og_description: "This event offers an overview of current research on the use of computational methods and AI in music libraries and musicology. Bringing together key members of the European consortium EarlyMuse, in coordination with the national MishMash – Centre for AI & Creativity and in particular its thematic area on cultural heritage, it presents recent work on digital archives, music information retrieval, and AI-based approaches to musicological and heritage research."
+  og_image: "https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/logo.png"
+  partner: University of Oslo (RITMO)
+  title: "Symposium on Digital and AI Musicology"
+  description: "Time and place: June 8, 2026 9:00 AM to June 9, 2026 4:00 PM, Oslo. Overview of current research on computational methods and AI in music libraries and musicology."
+
+- start_date: 2026-04-07
+  end_date: 2026-04-07
+  url: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/riaz.html
+  og_title: "Public defence: Designing Spaces That Live With Us
+       - Department of Musicology"
+  og_description: "Master Maham Riaz will defend her dissertation Embodied Spaces: Explorations in Spatial Audio–Video Recording and Ambient Interventions for the degree of Philosophiae Doctor (PhD)."
+  og_image: "https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/riaz-vegg_140326.png"
+  partner: University of Oslo (Department of Musicology)
+  title: "Public defence: Designing Spaces That Live With Us"
+  description: "Master Maham Riaz will defend her PhD dissertation. Time and place: Apr. 7, 2026 1:15 PM to 4:00 PM, Harald Schjeldrups hus, Forsamlingssalen."
+
