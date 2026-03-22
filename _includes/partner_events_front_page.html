@@ -8,11 +8,13 @@
 {% if sorted_partner_events and sorted_partner_events.size > 0 %}
 {% for ev in sorted_partner_events %}
   {% assign start_date = ev.start_date | default: ev.date %}
-  {% assign start_date_iso = start_date | date: "%Y-%m-%d" %}
+  {% assign start_date_text = start_date | append: '' %}
+  {% assign start_date_iso = start_date_text | slice: 0, 10 %}
   {% assign end_date = ev.end_date | default: ev.enddate %}
   {% assign domain = ev.url | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first %}
   {% assign icon_url = 'https://www.google.com/s2/favicons?sz=128&domain=' | append: domain %}
-  {% if start_date_iso >= now_date %}
+  {% assign start_parts = start_date_iso | split: '-' %}
+  {% if start_date and start_date_text != '' and start_date_iso != '' and start_parts.size == 3 and start_date_iso >= now_date %}
   <div class="event-item partner-event-item">
     {% if ev.url and domain != '' %}
       <a href="{{ ev.url }}">
