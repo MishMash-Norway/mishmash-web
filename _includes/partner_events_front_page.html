@@ -23,10 +23,17 @@
     {% endif %}
     <div class="event-content">
       {% if start_date %}
-        <time datetime="{{ start_date }}">{{ start_date | date: "%b %d, %Y" }}</time>
-        {% if end_date and end_date != start_date %}
-          –<time datetime="{{ end_date }}">{{ end_date | date: "%b %d, %Y" }}</time>
-        {% endif %}
+        {% assign start_year = start_date | date: "%Y" %}
+        {% assign end_year = end_date | date: "%Y" %}
+        {%- if end_date and end_date != start_date -%}
+          {%- if start_year == end_year -%}
+            <time datetime="{{ start_date }}">{{ start_date | date: "%b %d" }}</time>–<time datetime="{{ end_date }}">{{ end_date | date: "%b %d, %Y" }}</time>
+          {%- else -%}
+            <time datetime="{{ start_date }}">{{ start_date | date: "%b %d, %Y" }}</time>–<time datetime="{{ end_date }}">{{ end_date | date: "%b %d, %Y" }}</time>
+          {%- endif -%}
+        {%- else -%}
+          <time datetime="{{ start_date }}">{{ start_date | date: "%b %d, %Y" }}</time>
+        {%- endif -%}
       {% endif %}
       {% if ev.partner %} &mdash; {{ ev.partner }}{% endif %}
       <br />
