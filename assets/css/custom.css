@@ -112,23 +112,31 @@ body {
   align-items: flex-start;
 }
 
+/* Circle container — provides the filled background sphere */
+.partner-event-icon {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #ece9fd;
+  border-radius: 50% !important;
+  object-fit: unset !important; /* <span> is not a replaced element */
+  flex: 0 0 auto;
+}
+
+/* Favicon image inside the circle */
 .partner-event-thumb {
-  width: clamp(64px, 22vw, 120px) !important;
-  height: clamp(64px, 22vw, 120px) !important;
-  min-width: clamp(64px, 22vw, 120px);
-  min-height: clamp(64px, 22vw, 120px);
+  width: 65% !important;
+  height: 65% !important;
+  min-width: 0;
+  min-height: 0;
   border: 0 !important;
   outline: 0 !important;
   box-shadow: none !important;
   background: transparent !important;
   padding: 0 !important;
-  border-radius: 50%;
+  border-radius: 0 !important;
   object-fit: contain;
-}
-
-a .partner-event-thumb {
-  border: 0 !important;
-  box-shadow: none !important;
 }
 
 /* Hover effect used by mishmash_bubbles_notext.svg thumbnails/images */

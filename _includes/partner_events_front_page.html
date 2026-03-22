@@ -18,7 +18,9 @@
   <div class="event-item partner-event-item">
     {% if ev.url and domain != '' %}
       <a href="{{ ev.url }}">
-        <img class="event-thumb partner-event-thumb" src="{{ icon_url }}" alt="{{ ev.partner | default: ev.title }} icon" loading="lazy" onerror="this.onerror=null;this.src='{{ fallback_icon }}';">
+        <span class="event-thumb partner-event-icon">
+          <img class="partner-event-thumb" src="{{ icon_url }}" alt="{{ ev.partner | default: ev.title }} icon" loading="lazy" onerror="this.onerror=null;this.src='{{ fallback_icon }}';">
+        </span>
       </a>
     {% endif %}
     <div class="event-content">
