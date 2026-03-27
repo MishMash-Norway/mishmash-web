@@ -25,7 +25,13 @@
 
 ### MishMash Board
 
-To be appointed
+- [Sunniva Whittaker](https://www.uia.no/english/about-uia/employees/sunnivaw/) (UiA) (leader)
+- [Christian Blom](https://notam.no/en/about-us/employees/) (Notam)
+- [Christian Schüssler](https://reimagine.no/contact) (Reimagine)
+- [Hege Stensrud Høsøien](https://www.nb.no/ansatte/hege-stensrud-hosoien/) (National Library of Norway)
+- [Tine Grieg Viig](https://www.hvl.no/person/?user=tine.viig) (HVL)
+- [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) (observer)
+- [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO) (secretary)
 
 ### MishMash Council
 
