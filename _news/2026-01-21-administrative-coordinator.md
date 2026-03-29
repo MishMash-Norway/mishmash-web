@@ -4,7 +4,7 @@ date: 2026-01-21
 author: "Alexander Refsum Jensenius"
 layout: default
 categories: [Administration]
-description: "Introducing Eskil Muan Sæther as the new administrative coordinator of MishMash."
+description: "Eskil Muan Sæther started today as the new administrative coordinator of MishMash."
 image: "/assets/images/news/new-feature.jpg"
 ---
 
