@@ -1,0 +1,10 @@
+<svg width="1000" height="762" viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="210.000" cy="160" r="110" fill="#A7A1F4" stroke="#777" stroke-width="1"/>
+  <circle cx="210.000" cy="160" r="110" fill="#C1F7AE" stroke="#777" stroke-width="1"/>
+  <defs>
+    <clipPath id="clip-left-gpt" clipPathUnits="userSpaceOnUse">
+      <circle cx="210.000" cy="160" r="110" />
+    </clipPath>
+  </defs>
+  <circle cx="210.000" cy="160" r="110" fill="#363644" clip-path="url(#clip-left-gpt)" />
+</svg>
