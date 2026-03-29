@@ -5,8 +5,6 @@ title: "WP5: AI in the Creative and Cultural Industries"
 
 # WP5: AI in the Creative and Cultural Industries
 
-*WP Leaders: [Ragnhild Brøvig](https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html) (UiO) / [Irina Eidsvold-Tøien](https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/) (BI) / [Jon Marius Aareskjold-Drecker](https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175) (UiT)*
-
 ## Overview
 
 AI is transforming the creative and cultural industries at a structural level in terms of reshaping how cultural content is produced, distributed, governed and experienced. These developments raise complex questions across legal, economic, artistic and socio-environmental domains: AI challenges established rights frameworks and introduces new risks related to identity misuse; shifts business models, labour practices and power balances; influences artistic agency and cultural diversity; and raises concerns related to safety such as dataset misuse and harmful output, cultural bias and environmental impact. At the same time, AI enables more transparent and efficient governance and rights management, improved attribution, new forms of audience engagements, new creative possibilities and more sustainable forms of innovation.
@@ -35,12 +33,28 @@ The WP aims to generate new knowledge, inform policy and governance and promote 
 - **Reflect** critically on the governance, economic, artistic and socio-environmental implications of AI, including power dynamics, shifts in creative agency, cultural biases, safety risks and long-term sustainability issues.
 
 
-## Team
+## Work Package Leaders
 
-### Work Package Leaders
-- [Ragnhild Brøvig](https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html) (UiO) - Lead
-- [Irina Eidsvold-Tøien](https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/) (BI) - Co-lead
-- [Jon Marius Aareskjold-Drecker](https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175) (UiT) - Co-lead
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html"><img src="/assets/images/portraits/circle/Ragnhild_Brovig_UiO.png" alt="Ragnhild Brøvig" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html">Ragnhild Brøvig</a> (University of Oslo) - Lead
+    </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/"><img src="/assets/images/portraits/circle/Irina_Eidsvold_Toien_BI.png" alt="Irina Eidsvold-Tøien" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/">Irina Eidsvold-Tøien</a> (Norwegian Business School) - Co-lead
+    </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175"><img src="/assets/images/portraits/circle/Jon_Marius_Aareskjold-Drecker_UiT.png" alt="Jon Marius Aareskjold-Drecker" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175">Jon Marius Aareskjold-Drecker</a> (University of Tromsø) - Co-lead
+    </div>
+</div>
 
 ## News
 

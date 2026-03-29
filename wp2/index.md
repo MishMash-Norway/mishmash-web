@@ -5,8 +5,6 @@ title: "WP2: AI in artistic processes"
 
 # WP2: AI in artistic processes
 
-*WP Leaders: [Budhaditya Chattopadhyay](https://www.uib.no/en/persons/Budhaditya.Chattopadhyay) (UiB) / [Sashi Komandur](https://www.inn.no/english/find-an-employee/sashi-komandur.html) (INN) / [Synne Tollerud Bull](https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/) (Kristiania)*
-
 ## Overview
 
 This WP focuses on AI systems used in producing works associated with the arts and creative industries, including visual arts, film, VR/XR, literature, performing arts, games, and music. Prompt-based, machine-learning systems are becoming normalised in many workflows, and practitioners and professionals are increasingly aware of their benefits and costs.
@@ -28,12 +26,28 @@ This raises critical questions about cultural agency: Who decides what stories a
 - **EXPLORE:** existing AI tools to identify their potentials, limitations, and challenges, focusing on ethical and legal implications and cultural biases.
 - **REFLECT:** on how the interplay between AI and human creativity exposes new insights into the act of creation, its impact on audiences, and the social impact of art on contemporary society.
 
-## Team
+## Work Package Leaders
 
-### Work Package Leaders
-- [Budhaditya Chattopadhyay](https://www.uib.no/en/persons/Budhaditya.Chattopadhyay) (UiB) - Lead
-- [Sashi Komandur](https://www.inn.no/english/find-an-employee/sashi-komandur.html) (INN) - Co-lead
-- [Synne Tollerud Bull](https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/) (Kristiania) - Co-lead
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.uib.no/en/persons/Budhaditya.Chattopadhyay"><img src="/assets/images/portraits/circle/Budhaditya_Chattopadhyay_UiB.png" alt="Budhaditya Chattopadhyay" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.uib.no/en/persons/Budhaditya.Chattopadhyay">Budhaditya Chattopadhyay</a> (University of Bergen) - Lead
+    </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.inn.no/english/find-an-employee/sashi-komandur.html"><img src="/assets/images/portraits/circle/Sashidharan_Komandur_INN.png" alt="Sashi Komandur" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.inn.no/english/find-an-employee/sashi-komandur.html">Sashi Komandur</a> (University of Inland Norway) - Co-lead
+    </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/"><img src="/assets/images/portraits/circle/Synne_Tollerud_Bull_Kristiania.png" alt="Synne Tollerud Bull" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/">Synne Tollerud Bull</a> (Kristiania University College) - Co-lead
+    </div>
+</div>
 
 ## News
 

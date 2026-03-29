@@ -5,8 +5,6 @@ title: "WP6: AI for cultural heritage"
 
 # WP6: AI for cultural heritage
 
-*WP Leaders: [Ingrid Romarheim Haugen](https://www.nb.no/ansatte/ingrid-romarheim-haugen/) (NB) / [Arnulf Mattes](https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes) (UiB) / [Olivier Lartillot](https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html) (UiO)*
-
 ## Overview
 
 Archives, libraries, and museums (the "ABM sector" in Norway) are central institutions for preserving, sharing, and communicating human culture. The National Library of Norway is distinguished by its extensive collection of high-quality digital resources and the advanced Digital Humanities Lab. It is essential to integrate all these resources and numerous local collections in Norway into a cohesive digital framework and further connect them to the European Cultural Heritage Cloud.
@@ -30,12 +28,28 @@ The public sector must lead in these technologies, ensuring that powerful new ca
 - **EXPLORE:** the effectiveness of current and custom AI systems in preserving and nurturing Norwegian cultural expressions, focusing on minority cultures.
 - **REFLECT:** on the ethical and legal threats of AI usage in cultural heritage and develop policies and guidelines to ensure responsive, ethical and inclusive use of AI.
 
-## Team
+## Work Package Leaders
 
-### Work Package Leaders
-- [Ingrid Romarheim Haugen](https://www.nb.no/ansatte/ingrid-romarheim-haugen/) (NB) - Lead
-- [Arnulf Mattes](https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes) (UiB) - Co-lead
-- [Olivier Lartillot](https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html) (UiO) - Co-lead
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.nb.no/ansatte/ingrid-romarheim-haugen/"><img src="/assets/images/portraits/circle/Ingrid_Romarheim_Haugen_NB.png" alt="Ingrid Romarheim Haugen" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.nb.no/ansatte/ingrid-romarheim-haugen/">Ingrid Romarheim Haugen</a> (National Library of Norway) - Lead
+    </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes"><img src="/assets/images/portraits/circle/Arnulf_Mattes_UiB.png" alt="Arnulf Mattes" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes">Arnulf Mattes</a> (University of Bergen) - Co-lead
+    </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html"><img src="/assets/images/portraits/circle/Olivier_Lartillot_UiO.png" alt="Olivier Lartillot" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html">Olivier Lartillot</a> (University of Oslo) - Co-lead
+    </div>
+</div>
 
 ## News
 

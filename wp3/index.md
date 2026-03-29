@@ -5,8 +5,6 @@ title: "WP3: Creative use of AI for health and well-being"
 
 # WP3: Creative use of AI for health and well-being
 
-*WP Leaders: [Claire Ghetti](https://www.uib.no/en/persons/Claire.Ghetti) (UiB) / [Andreas Bergsland](https://www.ntnu.edu/employees/andreas.bergsland) (NTNU) / [Jonna Vuoskoski](https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html) (UiO)*
-
 ## Overview
 
 This WP investigates how AI-generated creative content (images, music, literature, media, etc.) impacts human health and well-being. It also examines the use of AI in creative arts therapies to promote mental health and physical well-being and how novel health research methods involving AI can enable new knowledge generation.
@@ -28,12 +26,28 @@ Ethical considerations are central to this WP, especially how AI can be used res
 - **EXPLORE:** how AI-generated content and interactive AI systems affect human behaviour and emotions.
 - **REFLECT:** on the benefits and risks to human health and well-being of integrating AI into creative processes.
 
-## Team
+## Work Package Leaders
 
-### Work Package Leaders
-- [Claire Ghetti](https://www.uib.no/en/persons/Claire.Ghetti) (UiB) - Lead
-- [Andreas Bergsland](https://www.ntnu.edu/employees/andreas.bergsland) (NTNU) - Co-lead
-- [Jonna Vuoskoski](https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html) (UiO) - Co-lead
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.uib.no/en/persons/Claire.Ghetti"><img src="/assets/images/portraits/circle/Claire_Ghetti_UiB.png" alt="Claire Ghetti" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.uib.no/en/persons/Claire.Ghetti">Claire Ghetti</a> (University of Bergen) - Lead
+    </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.ntnu.edu/employees/andreas.bergsland"><img src="/assets/images/portraits/circle/Andreas_Bergsland_NTNU.png" alt="Andreas Bergsland" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.ntnu.edu/employees/andreas.bergsland">Andreas Bergsland</a> (NTNU) - Co-lead
+    </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html"><img src="/assets/images/portraits/circle/Jonna_Vuoskoski_UiO.png" alt="Jonna Vuoskoski" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html">Jonna Vuoskoski</a> (University of Oslo) - Co-lead
+    </div>
+</div>
 
 ## News
 

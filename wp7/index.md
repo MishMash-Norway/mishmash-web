@@ -30,12 +30,28 @@ AIs developed in this WP will be limited by stricter boundaries than others—fr
 - **EXPLORE:** how Creative AI algorithms can empower humans while ensuring their sense of agency and ownership by observing, understanding, and adapting to human expression.
 - **REFLECT:** about the perception of creativity in problem-solving, ranging from the ability of an AI system to separate recreation from creativity, the creator's intent, to the perception of a user or an observer of the creation.
 
-## Team
+## Work Package Leaders
 
-### Work Package Leaders
-- [Carsten Griwodz](https://www.mn.uio.no/ifi/english/people/aca/griff/index.html) (UiO) - Lead
-- [Baltasar Beferull‐Lozano](https://www.simula.no/people/baltasar) (SimulaMet) - Co-lead
-- [Kjetil Nordby](https://www.aho.no/english/about/employees/kjetiln/) (AHO) - Co-lead
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.mn.uio.no/ifi/english/people/aca/griff/index.html"><img src="/assets/images/portraits/circle/Carsten_Griwodz_UiO.png" alt="Carsten Griwodz" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.mn.uio.no/ifi/english/people/aca/griff/index.html">Carsten Griwodz</a> (University of Oslo) - Lead
+    </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.simula.no/people/baltasar"><img src="/assets/images/portraits/circle/Baltasar_Beferull_Simula.png" alt="Baltasar Beferull-Lozano" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.simula.no/people/baltasar">Baltasar Beferull‐Lozano</a> (SimulaMet) - Co-lead
+    </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.aho.no/english/about/employees/kjetiln/"><img src="/assets/images/portraits/circle/Kjetil_Nordby_AHO.png" alt="Kjetil Nordby" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.aho.no/english/about/employees/kjetiln/">Kjetil Nordby</a> (Oslo School of Architecture and Design) - Co-lead
+    </div>
+</div>
 
 ## News
 

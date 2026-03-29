@@ -5,8 +5,6 @@ title: "WP4: Creative use of AI in education"
 
 # WP4: Creative use of AI in education
 
-*WP Leaders: [Eirik Sørbø](https://www.uia.no/english/about-uia/employees/eiriks05/) (UiA) / [Sidsel Karlsen](https://nmh.no/en/contact-us/employees/sidsel-karlsen) (NMH) / [Fredrik Graver](https://www.inn.no/english/find-an-employee/fredrik-graver.html) (INN)*
-
 ## Overview
 
 The rapid inclusion of AI into education presents transformative opportunities and challenges for teaching and learning alongside significant pedagogical, ethical and practical issues. This WP explores how education can harness AI to enhance learning opportunities, foster creativity, and support critical thinking and AI literacy. 
@@ -28,12 +26,28 @@ The aim is to equip future practitioners and educators with the competence to na
 - **EXPLORE:** the artistic and pedagogical use of AI in formal, non-formal and informal learning contexts, including developing a shared understanding of AI literacy for creative and fine arts education.
 - **REFLECT:** on the implications of using AI in education to suggest frameworks and policy recommendations for using AI in education.
 
-## Team
+## Work Package Leaders
 
-### Work Package Leaders
-- [Eirik Sørbø](https://www.uia.no/english/about-uia/employees/eiriks05/) (UiA) - Lead
-- [Sidsel Karlsen](https://nmh.no/en/contact-us/employees/sidsel-karlsen) (NMH) - Co-lead
-- [Fredrik Graver](https://www.inn.no/english/find-an-employee/fredrik-graver.html) (INN) - Co-lead
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.uia.no/english/about-uia/employees/eiriks05/"><img src="/assets/images/portraits/circle/eirik_sorbo_UiA.png" alt="Eirik Sørbø" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.uia.no/english/about-uia/employees/eiriks05/">Eirik Sørbø</a> (University of Agder) - Lead
+    </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://nmh.no/en/contact-us/employees/sidsel-karlsen"><img src="/assets/images/portraits/circle/Sidsel_Karlsen_NMH.png" alt="Sidsel Karlsen" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://nmh.no/en/contact-us/employees/sidsel-karlsen">Sidsel Karlsen</a> (Norwegian Academy of Music) - Co-lead
+    </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:1em">
+    <a href="https://www.inn.no/english/find-an-employee/fredrik-graver.html"><img src="/assets/images/portraits/circle/Fredrik_Graver_INN.png" alt="Fredrik Graver" width="100" style="margin-right:1em"></a>
+    <div>
+    <a href="https://www.inn.no/english/find-an-employee/fredrik-graver.html">Fredrik Graver</a> (University of Inland Norway) - Co-lead
+    </div>
+</div>
 
 ## News
 
