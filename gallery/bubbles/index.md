@@ -4,24 +4,24 @@ title: "MishMash Bubbles"
 ---
 
 <div id="bubble-container" style="width:100%;max-width:800px;margin:0 auto;cursor:pointer;">
-<svg id="bubble-svg" width="100%" viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" style="display:block;">
-  <circle id="c-purple" cx="150" cy="160" r="110" fill="#A7A1F4" stroke="#777" stroke-width="1"/>
-  <circle id="c-green" cx="270" cy="160" r="110" fill="#C1F7AE" stroke="#777" stroke-width="1"/>
+<svg id="bubble-svg" width="100%" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" style="display:block;">
+  <circle id="c-purple" cx="300" cy="250" r="50" fill="#A7A1F4" stroke="#777" stroke-width="1"/>
+  <circle id="c-green" cx="500" cy="250" r="50" fill="#C1F7AE" stroke="#777" stroke-width="1"/>
   <defs>
     <clipPath id="clip-left-interactive" clipPathUnits="userSpaceOnUse">
-      <circle id="clip-circle" cx="150" cy="160" r="110"/>
+      <circle id="clip-circle" cx="300" cy="250" r="50"/>
     </clipPath>
   </defs>
-  <circle id="c-overlap" cx="270" cy="160" r="110" fill="#363644" clip-path="url(#clip-left-interactive)"/>
+  <circle id="c-overlap" cx="500" cy="250" r="50" fill="#363644" clip-path="url(#clip-left-interactive)"/>
 </svg>
 </div>
 
 <script>
 (function() {
-  var W = 420, H = 320, R = 110;
+  var W = 800, H = 500, R = 50;
   var balls = [
-    { x: 150, y: 160, vx: 0, vy: 0, rest_x: 150, rest_y: 160 },
-    { x: 270, y: 160, vx: 0, vy: 0, rest_x: 270, rest_y: 160 }
+    { x: 300, y: 250, vx: 0, vy: 0, rest_x: 300, rest_y: 250 },
+    { x: 500, y: 250, vx: 0, vy: 0, rest_x: 500, rest_y: 250 }
   ];
   var purple = document.getElementById('c-purple');
   var green = document.getElementById('c-green');
