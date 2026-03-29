@@ -4,7 +4,7 @@ date: 2026-03-27
 author: "Alexander Refsum Jensenius"
 layout: default
 categories: [Administration]
-description: "The MishMash consortium partners have appointed 18 council members from partner institutions to guide the centre's strategic direction and inform partners about ongoing activities."
+description: "MishMash's Board has been appointed, with members from University of Agder, Notam, Reimagine, National Library of Norway, and Western Norway University of Applied Sciences."
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg
 ---
 

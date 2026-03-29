@@ -4,7 +4,7 @@ date: 2025-11-21
 author: "Alexander Refsum Jensenius"
 layout: default
 categories: [Vacancies]
-description: "The first round of MishMash doctoral and postdoctoral fellowships are now announced."
+description: "A large number of MishMash doctoral and postdoctoral fellowships are now announced at the various partner institutions."
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg
 ---
 
