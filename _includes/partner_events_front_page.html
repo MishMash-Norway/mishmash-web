@@ -29,8 +29,19 @@
   {% endif %}
   {% assign display_desc = ev.og_description | default: ev.description %}
   {% assign start_parts = start_date_iso | split: '-' %}
+  {% assign show_event = false %}
   {% if start_date and start_date_text != '' and start_date_iso != '' and start_parts.size == 3 %}
-  {% if scope == "past" and start_date_iso < now_date or scope != "past" and start_date_iso >= now_date %}
+    {% if scope == "past" %}
+      {% if start_date_iso < now_date %}
+        {% assign show_event = true %}
+      {% endif %}
+    {% else %}
+      {% if start_date_iso >= now_date %}
+        {% assign show_event = true %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+  {% if show_event %}
   <div class="event-item partner-event-item">
     {% if ev.url %}
       <a href="{{ ev.url }}">
@@ -70,7 +81,6 @@
   {% assign shown = shown | plus: 1 %}
   {% if shown >= display_limit %}
     {% break %}
-  {% endif %}
   {% endif %}
   {% endif %}
 {% endfor %}
