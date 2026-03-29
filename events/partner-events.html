@@ -8,4 +8,8 @@ redirect_from:
 ---
 <h1>Partner Events</h1>
 
-{% include partner_events_front_page.html limit=100 %}
+<h2>Upcoming Partner Events</h2>
+{% include partner_events_front_page.html scope="upcoming" limit=100 %}
+
+<h2>Past Partner Events</h2>
+{% include partner_events_front_page.html scope="past" limit=100 %}

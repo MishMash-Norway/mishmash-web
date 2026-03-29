@@ -1,5 +1,10 @@
 {% assign partner_events = site.data.partner_events | default: empty %}
-{% assign sorted_partner_events = partner_events | sort: "start_date" %}
+{% assign scope = include.scope | default: "upcoming" %}
+{% if scope == "past" %}
+  {% assign sorted_partner_events = partner_events | sort: "start_date" | reverse %}
+{% else %}
+  {% assign sorted_partner_events = partner_events | sort: "start_date" %}
+{% endif %}
 {% assign display_limit = include.limit | default: 5 %}
 {% assign fallback_icon = '/assets/images/bubbles/mishmash_bubbles.ico' | relative_url %}
 {% assign now_date = site.time | date: "%Y-%m-%d" %}
@@ -24,7 +29,8 @@
   {% endif %}
   {% assign display_desc = ev.og_description | default: ev.description %}
   {% assign start_parts = start_date_iso | split: '-' %}
-  {% if start_date and start_date_text != '' and start_date_iso != '' and start_parts.size == 3 and start_date_iso >= now_date %}
+  {% if start_date and start_date_text != '' and start_date_iso != '' and start_parts.size == 3 %}
+  {% if scope == "past" and start_date_iso < now_date or scope != "past" and start_date_iso >= now_date %}
   <div class="event-item partner-event-item">
     {% if ev.url %}
       <a href="{{ ev.url }}">
@@ -66,10 +72,11 @@
     {% break %}
   {% endif %}
   {% endif %}
+  {% endif %}
 {% endfor %}
 {% if shown == 0 %}
-<p>No partner events listed yet.</p>
+<p>No {% if scope == "past" %}past{% else %}upcoming{% endif %} partner events.</p>
 {% endif %}
 {% else %}
-<p>No partner events listed yet.</p>
+<p>No {% if scope == "past" %}past{% else %}upcoming{% endif %} partner events.</p>
 {% endif %}
