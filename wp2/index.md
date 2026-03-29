@@ -5,9 +5,9 @@ title: "WP2: AI in artistic processes"
 
 # WP2: AI in artistic processes
 
-## Overview
-
 This WP focuses on AI systems used in producing works associated with the arts and creative industries, including visual arts, film, VR/XR, literature, performing arts, games, and music. Prompt-based, machine-learning systems are becoming normalised in many workflows, and practitioners and professionals are increasingly aware of their benefits and costs.
+
+## Description
 
 Concerns include the effects of "outsourcing" creative work and decision-making to AI systems and the hegemonic cultural biases present in many commercial tools. Creativity shapes how communities see themselves and imagine new possibilities. When AI systems reinforce dominant cultural patterns and marginalised alternative perspectives, they risk narrowing public discourse, diminishing cultural diversity, and strengthening existing norms at the expense of exploration and innovation.
 

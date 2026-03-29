@@ -5,9 +5,9 @@ title: "WP3: Creative use of AI for health and well-being"
 
 # WP3: Creative use of AI for health and well-being
 
-## Overview
-
 This WP investigates how AI-generated creative content (images, music, literature, media, etc.) impacts human health and well-being. It also examines the use of AI in creative arts therapies to promote mental health and physical well-being and how novel health research methods involving AI can enable new knowledge generation.
+
+## Description
 
 Engaging in creative processes can promote health and well-being. AI tools offer opportunities for augmenting human creativity, yet their use also raises concerns about the potential devaluation of human qualities like empathy and autonomy. We will explore how AI can both support and create challenges for well-being, creativity, and emotional expression.
 

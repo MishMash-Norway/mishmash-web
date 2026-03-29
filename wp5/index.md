@@ -5,13 +5,14 @@ title: "WP5: AI in the Creative and Cultural Industries"
 
 # WP5: AI in the Creative and Cultural Industries
 
-## Overview
+This WP aims to generate new knowledge, inform policy and governance and promote responsible, equitable and future-oriented uses of AI in cultural contexts. It will do so by integrating perspectives from interdisciplinary research—including law, social sciences, the humanities and the arts, economics, informatics and technology studies, and sustainability research—together with insights from cultural institutions, rights organisations and other sector partners. 
+
+## Description
 
 AI is transforming the creative and cultural industries at a structural level in terms of reshaping how cultural content is produced, distributed, governed and experienced. These developments raise complex questions across legal, economic, artistic and socio-environmental domains: AI challenges established rights frameworks and introduces new risks related to identity misuse; shifts business models, labour practices and power balances; influences artistic agency and cultural diversity; and raises concerns related to safety such as dataset misuse and harmful output, cultural bias and environmental impact. At the same time, AI enables more transparent and efficient governance and rights management, improved attribution, new forms of audience engagements, new creative possibilities and more sustainable forms of innovation.
 
 This work package examines these transformations across four interconnected areas: (1) law, rights and governance; (2) economy, industry and labour; (3) artistic practices and audience experiences; and (4) ethics, diversity and sustainability.
 
-The WP aims to generate new knowledge, inform policy and governance and promote responsible, equitable and future-oriented uses of AI in cultural contexts. It will do so by integrating perspectives from interdisciplinary research—including law, social sciences, the humanities and the arts, economics, informatics and technology studies, and sustainability research—together with insights from cultural institutions, rights organisations and other sector partners. 
 
 ## Research Questions
 

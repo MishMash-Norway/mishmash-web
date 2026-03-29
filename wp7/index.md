@@ -5,9 +5,9 @@ title: "WP7: Human-centric AI for Creative Problem-Solving"
 
 # WP7: Human-centric AI for Creative Problem-Solving
 
-## Overview
-
 This WP explores how a person or group can use Creative AI for task-specific problem-solving. The tasks considered in this WP range from industrial design, where artistic methods are integral to design processes, to emergency rescue scenarios, where imminent problems must be solved by creatively using available resources.
+
+## Description
 
 We target creative goal-based practitioners, including professionals as diverse as designers, filmmakers, human operators in industrial settings, and emergency service personnel, and we adopt the principles and ideas of Creative AI that MishMash co-creates through its three perspectives.
 

@@ -5,7 +5,9 @@ title: "WP6: AI for cultural heritage"
 
 # WP6: AI for cultural heritage
 
-## Overview
+This work package investigates how AI can help discover, organise, and showcase the richness of cultural heritage collections. We develop intelligent tools for curating vast archives—with a particular focus on music and minority cultural expressions—while ensuring ethical, inclusive, and responsible use of AI in the cultural heritage sector.
+
+## Description
 
 Archives, libraries, and museums (the "ABM sector" in Norway) are central institutions for preserving, sharing, and communicating human culture. The National Library of Norway is distinguished by its extensive collection of high-quality digital resources and the advanced Digital Humanities Lab. It is essential to integrate all these resources and numerous local collections in Norway into a cohesive digital framework and further connect them to the European Cultural Heritage Cloud.
 
