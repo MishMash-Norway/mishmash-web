@@ -7,14 +7,6 @@ title: "WP1: AI for artistic performances"
 
 This WP focuses on how real-time interaction with AI systems transforms the creative process in applications such as music and art performance, interactive installations, and gaming. We will emphasise AI systems that facilitate continuous interactions between humans and machine agents, especially multiple and embodied AI agents. 
 
-## Events
-
-{% include events_wp_pages.html wp="WP1" %}
-
-## News
-
-*Updates will be posted here as the work package develops.*
-
 ## Description
 
 Countering the current trends of very large models with hard-to-control outputs, we will focus on balancing data-based approaches with artists' knowledge and search-based methods to achieve personalised and novel outputs. In contrast to WP2, the emphasis is on supporting live, dynamic, and interactive performance rather than creating a fixed final creative product.
@@ -58,3 +50,11 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
     <a href="https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html">Georgios Marentakis</a> (Østfold University College) - Co-lead
     </div>
 </div>
+
+## News
+
+*Updates will be posted here as the work package develops.*
+
+## Events
+
+{% include events_wp_pages.html wp="WP1" %}
