@@ -43,8 +43,14 @@
   </ul>
 </details>
 <a class="btn" href="/people/">People</a>
-<a class="btn" href="/news/">News</a>
-<a class="btn" href="/events/">Events</a>
+<details class="btn wp-dropdown" style="position:relative; display:inline-block;">
+  <summary id="news-events-summary" aria-haspopup="true" aria-expanded="false" aria-label="News and events" aria-controls="news-events-menu">News and events ▾</summary>
+  <ul id="news-events-menu" class="wp-list" role="menu" aria-labelledby="news-events-summary" style="list-style:none; margin:0; padding:8px 0; position:absolute; top:100%; left:0; z-index:1000; background:#fff; box-shadow:0 2px 6px rgba(0,0,0,.15); min-width:160px;">
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/events/' | relative_url }}" style="display:block; padding:6px 12px;">MishMash Events</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/events/partner-events' | relative_url }}" style="display:block; padding:6px 12px;">Partner Events</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/news/' | relative_url }}" style="display:block; padding:6px 12px;">News</a></li>
+  </ul>
+</details>
 <a class="btn" href="https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info">Mailing list</a>
 
     </header>

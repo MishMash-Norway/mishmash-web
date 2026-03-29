@@ -1,8 +1,13 @@
 ---
 layout: default
-title: Events
+title: MishMash Events
 ---
-<h1>Events</h1>
+<script>
+if (window.location.hash === '#partner-events') {
+  window.location.replace('/events/partner-events');
+}
+</script>
+<h1>MishMash Events</h1>
 {% assign all_events = site.events | where_exp: "item", "item.draft != true" %}
 {% assign future_events = all_events | where_exp: "item", "item.date >= site.time" | sort: 'date' %}
 {% assign past_events = all_events | where_exp: "item", "item.date < site.time" | sort: 'date' | reverse %}
@@ -80,9 +85,4 @@ title: Events
 {% else %}
   <p>No past events.</p>
 {% endif %}
-
-
-<h2 id="partner-events">Partner Events</h2>
-
-{% include partner_events_front_page.html limit=100 %}
 

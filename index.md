@@ -17,11 +17,11 @@ MishMash is a Norwegian AI centre comprising more than 200 researchers from high
 
 [More MishMash events...](https://mishmash.no/events/)
 
-<h2><a href="https://mishmash.no/events/#partner-events">Partner Events</a></h2>
+<h2><a href="https://mishmash.no/events/partner-events">Partner Events</a></h2>
 
 {% include partner_events_front_page.html limit=3 %}
 
-[More partner events...](https://mishmash.no/events/#partner-events)
+[More partner events...](https://mishmash.no/events/partner-events)
 
 <h2><a href="https://mishmash.no/news/">News</a></h2>
 
