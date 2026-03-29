@@ -1,8 +1,10 @@
 <div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
         <img class="blink-eye-thumb"
-             src="/assets/images/bubbles/mishmash_bubbles_notext.svg"
-             alt="MishMash explores the meeting point of humans and machines with art and science"
-             width="400">
+                     src="/assets/images/bubbles/mishmash_bubbles_notext.svg"
+                     alt="MishMash explores the meeting point of humans and machines with art and science"
+                     width="400"
+                     onmouseover="this.style.animation='blink 0.6s 2'"
+                     onmouseout="this.style.animation='none'">
 </div>
 
 ## Why?
