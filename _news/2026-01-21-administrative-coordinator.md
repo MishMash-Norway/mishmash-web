@@ -5,7 +5,7 @@ author: "Alexander Refsum Jensenius"
 layout: default
 categories: [Administration]
 description: "Eskil Muan Sæther started today as the new administrative coordinator of MishMash."
-image: "/assets/images/news/new-feature.jpg"
+image: "/assets/images/portraits/framed/eskil_bubbles.jpg"
 ---
 
 This week, [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) began his position as administrative coordinator of MishMash. He will be physically based at the University of Oslo but will work virtually with everyone in the network.

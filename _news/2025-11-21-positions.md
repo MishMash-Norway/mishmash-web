@@ -5,7 +5,7 @@ author: "Alexander Refsum Jensenius"
 layout: default
 categories: [Vacancies]
 description: "The first round of MishMash doctoral and postdoctoral fellowships are now announced."
-image: "/assets/images/news/new-feature.jpg"
+image: /assets/images/bubbles/mishmash_bubbles_notext.svg
 ---
 
 MishMash partners are now recruiting the first group of doctoral and postdoctoral fellows. There are variations in profile and application procedures for the different institutions, so please read the announcement texts carefully. It is possible to apply for multiple positions, they will all have different hiring committees. Please use the contact point(s) indicated in the calls for questions for the positions. For general questions about the announcements, you can contact the [management group](mailto:contact@mishmash.no).

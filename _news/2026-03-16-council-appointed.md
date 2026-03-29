@@ -5,7 +5,7 @@ author: "Alexander Refsum Jensenius"
 layout: default
 categories: [Administration]
 description: "The MishMash consortium partners have appointed 18 council members from partner institutions to guide the centre's strategic direction and inform partners about ongoing activities."
-image: "/assets/images/bubbles/mishmash_bubbles_notext_left_down_wrap.gif"
+image: /assets/images/bubbles/mishmash_bubbles_notext.svg
 ---
 
 Following the official signature of the MishMash consortium agreements, the partners have appointed the following members to serve on the MishMash Council:  
