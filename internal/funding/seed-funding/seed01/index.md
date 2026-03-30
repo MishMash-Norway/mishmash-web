@@ -64,7 +64,7 @@ Please keep in mind that there will be new opportunities coming up at regular in
 |Bingo: AI-Assisted Animation for Documentary Film |Tonje Louise Finne |INN |50000 |
 |A New Grammar Of CreAItivity |Zacharias Andreadakis |HVL |0 |
 |Evaluation of Cultural Bias and Workflow in AI Music Generation |Shayan Dadman |UiT |50000 |
-|"Tool for tools" |Troels Linde |INN, FTVS |32000 |
+|"Tool for tools" |Troels Linde |INN |32000 |
 |KI i kunstnerisk utdanning og praksis. |Tiril Schrøder |Kunsthøgskolen i Oslo |30000 |
 |Web of the Mind |Dániel Péter Biró |UiB |0 |
 |Strategic Storyteller |Terje Gaustad |Kristiania |25000 |
