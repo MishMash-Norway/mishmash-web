@@ -45,41 +45,41 @@ Please keep in mind that there will be new opportunities coming up at regular in
 
 | Project | Applicant | Institution | Funding |
 |---------|-----------|--------|-----|
-|Trondheim Kreativ AI (TKAI) |Viggo Tellefsen Wivestad |SINTEF Digital |15000 |
-|Archival Intelligence |Budhaditya Chattopadhyay |UiB, Department of Contemporary Art |30000 |
-|Listening Without a Grid: AI, Aesthetic Judgement and Mixing/Mastering in Acoustic Ensemble Music |Ole Fredrik Norbye |NLA University College - Music department |0 |
-|AI Integration in Film and TV Education |Sigmund Trageton |UiS, IMS |14000 |
-|Picturemarks |Ole Goethe |Kristiania School of Arts, Design and Media |0 |
+|Trondheim Kreativ AI (TKAI) |Viggo Tellefsen Wivestad |SINTEF |15000 |
+|Archival Intelligence |Budhaditya Chattopadhyay |UiB |30000 |
+|Listening Without a Grid: AI, Aesthetic Judgement and Mixing/Mastering in Acoustic Ensemble Music |Ole Fredrik Norbye |NLA University College |0 |
+|AI Integration in Film and TV Education |Sigmund Trageton |UiS |14000 |
+|Picturemarks |Ole Goethe |Kristiania |0 |
 |Steerable AI Systems for Real-Time Brain-Computer Interfaces: fNIRS_to_Live |Juan Sebastián Vassallo |independent |0 |
-|RhyGlyph to RhyDiff to RhySeq: A radial trajectory-based rhythm sequencer |Cagri Erdem |UiO, IFI |31900 |
-|Multi-modal Emotion Recognition |Ali Ramezani-Kebrya |UiO, IfI |0 |
-|Intensifying the brain pleasure responses to music that is adapted by AI in real-time |Sascha Frühholz |UiO, Department of Psychology |49940 |
-|Speculative AI for Sound Synthesis |David Pirrò |Institute of Electronic Music and Acoustics, KUG, Austria |0 |
-|AI-Assisted Film Production through Vita Vigeland |Henning Birkeland |Kristiania - Department of Performing Arts, Film and Media |30000 |
-|Exploring AI Integration in Media Production: Visual Effects, 3D and Digital Content Creation |Henning Birkeland |Kristiania - Department of Performing Arts, Film and Media |0 |
-|Human–AI Co-Creation of Precision Physical Adapters |Colin R. Robinson |UiB, Center for Digital Narrative |0 |
-|Human–Machine Consciousness: A Performer-Centred Exploration of Real-Time AI in Musical Practice |Victoria Johnson |UiO, IMV |30000 |
+|RhyGlyph to RhyDiff to RhySeq: A radial trajectory-based rhythm sequencer |Cagri Erdem |UiO |31900 |
+|Multi-modal Emotion Recognition |Ali Ramezani-Kebrya |UiO |0 |
+|Intensifying the brain pleasure responses to music that is adapted by AI in real-time |Sascha Frühholz |UiO |49940 |
+|Speculative AI for Sound Synthesis |David Pirrò |Institute of Electronic Music and Acoustics |0 |
+|AI-Assisted Film Production through Vita Vigeland |Henning Birkeland |Kristiania |30000 |
+|Exploring AI Integration in Media Production: Visual Effects, 3D and Digital Content Creation |Henning Birkeland |Kristiania |0 |
+|Human–AI Co-Creation of Precision Physical Adapters |Colin R. Robinson |UiB |0 |
+|Human–Machine Consciousness: A Performer-Centred Exploration of Real-Time AI in Musical Practice |Victoria Johnson |UiO |30000 |
 |When Creativity Meets Criticality |Bjørn Tallak Bakken |INN/HHS/OLS |50000 |
 |Scoping review of Creative AI in teaching and learning |Sidsel Karlsen |NMH |22500 |
-|Bingo: AI-Assisted Animation for Documentary Film |Tonje Louise Finne |INN TV-SchoolFTVS |50000 |
-|A New Grammar Of CreAItivity |Zacharias Andreadakis |HVL FLKI IPRS |0 |
-|Evaluation of Cultural Bias and Workflow in AI Music Generation |Shayan Dadman |UiT, Narvik, Department of Computer Science and Computational Engineering |50000 |
+|Bingo: AI-Assisted Animation for Documentary Film |Tonje Louise Finne |INN |50000 |
+|A New Grammar Of CreAItivity |Zacharias Andreadakis |HVL |0 |
+|Evaluation of Cultural Bias and Workflow in AI Music Generation |Shayan Dadman |UiT |50000 |
 |"Tool for tools" |Troels Linde |INN, FTVS |32000 |
-|KI i kunstnerisk utdanning og praksis. |Tiril Schrøder |Kunsthøgskolen i Oslo/avdeling Kunst og Håndverk |30000 |
-|Web of the Mind |Dániel Péter Biró |UiB, Grieg Academy, KMD |0 |
-|Strategic Storyteller |Terje Gaustad |Kristiania, SADM/Department of Music |25000 |
+|KI i kunstnerisk utdanning og praksis. |Tiril Schrøder |Kunsthøgskolen i Oslo |30000 |
+|Web of the Mind |Dániel Péter Biró |UiB |0 |
+|Strategic Storyteller |Terje Gaustad |Kristiania |25000 |
 |Copyright and Personality Rights in the AI Era |Irina Eidsvold -Tøien |BI |50000 |
-|Musical Doppelgängers: Self-Playing Pianos, AI, and the Uncanny Self |Peter Edwards |UiO, IMV |50000 |
+|Musical Doppelgängers: Self-Playing Pianos, AI, and the Uncanny Self |Peter Edwards |UiO |50000 |
 |Environmental sustainability in MishMash: context and knowledge-base |Lina Plataniti |NORSUS |50000 |
-|AI as the Fifth Team Member |Jannicke Johansen |Kristiania/ School of Arts, Design and Media/ Westerdals Dept. of Creativity, Storytelling & Design |0 |
-|AI as Environment |Synne Tollerud Bull |Kristiania University of Applied Sciences |37000 |
-|NB's Hardanger fiddle performance transcription AI model |Olivier Lartillot |RITMO |0 |
+|AI as the Fifth Team Member |Jannicke Johansen |Kristiania |0 |
+|AI as Environment |Synne Tollerud Bull |Kristiania |37000 |
+|NB's Hardanger fiddle performance transcription AI model |Olivier Lartillot |UiO |0 |
 |Design for Dissemination |Aedan Soellaart |INN |0 |
 |Movement-to-Music Hackathon: AI Pose Detection for Therapeutic and Wellbeing Applications |Andreas Bergsland |NTNU |45000 |
 |Teacher Resources for Critical AI Literacy |Eirik Sørbø |UiA |36800 |
-|Interactive AI-driven book experiences |Eirik Sørbø |UiA, Faculty of Fine Arts/Department of Popular Music |25000 |
-|TAO - Transductive Acoustic Organism |enrique encinas |AHO / Institute of Design / Interaction Design |25000 |
-|Composition using text-sound-video multimodal machine learning |Zoi Efstathiou |NMH / Jazz, Improvised Music and Traditional Nordic Folk Music Department |0 |
-|Cinema Syntethica Lab 4.0 - Co-creating film with AI |Hanne-Lovise Skartveit |INN, Faculty for Film, TV and Games |0 |
+|Interactive AI-driven book experiences |Eirik Sørbø |UiA |25000 |
+|TAO - Transductive Acoustic Organism |enrique encinas |AHO |25000 |
+|Composition using text-sound-video multimodal machine learning |Zoi Efstathiou |NMH |0 |
+|Cinema Syntethica Lab 4.0 - Co-creating film with AI |Hanne-Lovise Skartveit |INN |0 |
 
 
