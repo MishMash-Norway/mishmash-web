@@ -53,9 +53,8 @@ Please keep in mind that there will be new opportunities coming up at regular in
 |Steerable AI Systems for Real-Time Brain-Computer Interfaces: fNIRS_to_Live |Juan Sebastián Vassallo |independent |0 |
 |RhyGlyph to RhyDiff to RhySeq: A radial trajectory-based rhythm sequencer |Cagri Erdem |UiO, IFI |31900 |
 |Multi-modal Emotion Recognition |Ali Ramezani-Kebrya |UiO, IfI |0 |
-|MishMash MA thesis scholarships |Sascha Frühholz |UiO, Department of Psychology |49940 |
+|Intensifying the brain pleasure responses to music that is adapted by AI in real-time |Sascha Frühholz |UiO, Department of Psychology |49940 |
 |Speculative AI for Sound Synthesis |David Pirrò |Institute of Electronic Music and Acoustics, KUG, Austria |0 |
-|MishMash MA thesis scholarships |Ida Jahr |INN/ Department of English |0 |
 |AI-Assisted Film Production through Vita Vigeland |Henning Birkeland |Kristiania - Department of Performing Arts, Film and Media |30000 |
 |Exploring AI Integration in Media Production: Visual Effects, 3D and Digital Content Creation |Henning Birkeland |Kristiania - Department of Performing Arts, Film and Media |0 |
 |Human–AI Co-Creation of Precision Physical Adapters |Colin R. Robinson |UiB, Center for Digital Narrative |0 |
@@ -80,7 +79,6 @@ Please keep in mind that there will be new opportunities coming up at regular in
 |Teacher Resources for Critical AI Literacy |Eirik Sørbø |UiA |36800 |
 |Interactive AI-driven book experiences |Eirik Sørbø |UiA, Faculty of Fine Arts/Department of Popular Music |25000 |
 |TAO - Transductive Acoustic Organism |enrique encinas |AHO / Institute of Design / Interaction Design |25000 |
-|Movement-to-Music Hackathon: AI Pose Detection for Therapeutic and Wellbeing Applications |Robert Wechsler |MotionComposer GmbH with NTNU |0 |
 |Composition using text-sound-video multimodal machine learning |Zoi Efstathiou |NMH / Jazz, Improvised Music and Traditional Nordic Folk Music Department |0 |
 |Cinema Syntethica Lab 4.0 - Co-creating film with AI |Hanne-Lovise Skartveit |INN, Faculty for Film, TV and Games |0 |
 
