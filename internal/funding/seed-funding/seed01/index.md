@@ -45,4 +45,4 @@ Please keep in mind that there will be new opportunities coming up at regular in
 
 | Project | Applicant | Institution | Funding |
 |---------|-----------|--------|-----|
-| | | | |
+|Trondheim Kreativ AI (TKAI) |Viggo Tellefsen Wivestad |SINTEF Digital |15000 |
