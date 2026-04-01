@@ -16,8 +16,8 @@ These positions generally require that a master's degree has been completed.
 
 | Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
-| NTNU | Artistic | [Music technology and AI for artistic performances](https://www.jobbnorge.no/en/available-jobs/job/293357/phd-position-in-artistic-research-in-music-technology-and-ai-for-artistic-performances) | 1 Apr 2026 |
-| NTNU | Scientific | [Music Technology with a focus on AI, health and wellbeing](https://www.jobbnorge.no/en/available-jobs/job/293368/phd-research-fellow-in-music-technology-with-a-focus-on-ai-health-and-wellbeing) | 1 Apr 2026 |
+| NTNU | Artistic | [Music technology and AI for artistic performances](https://www.jobbnorge.no/en/available-jobs/job/293357/phd-position-in-artistic-research-in-music-technology-and-ai-for-artistic-performances) | ~~1 Apr 2026~~ |
+| NTNU | Scientific | [Music Technology with a focus on AI, health and wellbeing](https://www.jobbnorge.no/en/available-jobs/job/293368/phd-research-fellow-in-music-technology-with-a-focus-on-ai-health-and-wellbeing) | ~~1 Apr 2026~~ |
 | Western Norway University of Applied Sciences | Scientific | [Kunstfagdidaktisk/musikkpedagogisk arbeid med KI og kreativitet](https://www.jobbnorge.no/nn-no/ledige-stillingar/stilling/292672/stipendiat-i-kunstfagdidaktisk-musikkpedagogisk-arbeid-med-kunstig-intelligens-og-kreativitet) (in Norwegian) | ~~15 Mar 2026~~ |
 | University of Inland Norway | Scientific | [Educational Sciences with a focus on AI and Creativity](https://www.jobbnorge.no/en/available-jobs/job/294285/phd-research-fellowship-in-educational-sciences-with-a-focus-on-ai-and-creativity) | ~~9 March 2026~~ |
 | Nord University | Scientific | [Creative Use of AI in Music Education](https://www.jobbnorge.no/en/available-jobs/job/292933/phd-research-fellow-in-music-education-with-focus-on-creative-use-of-ai-in-music-education ) | ~~1 Mar 2026~~ |
@@ -40,7 +40,7 @@ These positions generally require that the PhD dissertation has been submitted b
 
 | Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
-| SimulaMet | Scientific | [Machine Learning for CoCreativity in Remote Operations](https://www.simulamet.no/careers/job-openings/postdoctoral-research-fellowship-in-machine-learning-for-cocreativity-in-remote-operations) | 1 Apr 2026 |
+| SimulaMet | Scientific | [Machine Learning for CoCreativity in Remote Operations](https://www.simulamet.no/careers/job-openings/postdoctoral-research-fellowship-in-machine-learning-for-cocreativity-in-remote-operations) | ~~1 Apr 2026~~ |
 | University of Oslo | Scientific | [Music and AI in the creative and cultural industries](https://www.jobbnorge.no/en/available-jobs/job/290328/postdoctoral-research-fellowship-in-music-and-ai-in-the-creative-and-cultural-industries) | ~~1 Mar 2026~~ |
 | University of Oslo | Scientific | [AI for Music Analysis](https://www.jobbnorge.no/en/available-jobs/job/290318/postdoctoral-research-fellowship-in-ai-for-music-analysis) | ~~1 Mar 2026~~ |
 | University of Oslo | Scientific | [AI Methods for Creative Applications](https://www.jobbnorge.no/en/available-jobs/job/291829/postdoctoral-research-fellow-in-ai-methods-for-creative-applications) | ~~1 Mar 2026~~ |
