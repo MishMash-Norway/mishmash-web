@@ -19,8 +19,14 @@ title: Chat
 }
 
 #webgpu-status {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.4rem;
   font-size: 0.9em;
+}
+
+#kb-status {
+  font-size: 0.83em;
+  color: #555;
+  margin-bottom: 0.75rem;
 }
 
 #webgpu-ok  { color: #2a7a2a; }
@@ -105,15 +111,16 @@ title: Chat
   background: #fafafa;
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 0.6rem;
 }
 
 .message {
   display: flex;
+  flex-direction: column;
 }
 
-.message.user      { justify-content: flex-end; }
-.message.assistant { justify-content: flex-start; }
+.message.user      { align-items: flex-end; }
+.message.assistant { align-items: flex-start; }
 
 .bubble {
   max-width: 75%;
@@ -135,6 +142,29 @@ title: Chat
   background: #C1F7AE;
   color: #363644;
   border-bottom-left-radius: 4px;
+}
+
+.sources {
+  max-width: 75%;
+  font-size: 0.75em;
+  color: #777;
+  margin-top: 0.15rem;
+  padding: 0 0.3rem;
+}
+
+.sources summary {
+  cursor: pointer;
+  list-style: none;
+  color: #999;
+}
+
+.sources summary::-webkit-details-marker { display: none; }
+
+.sources-list {
+  margin-top: 0.2rem;
+  padding: 0.3rem 0.6rem;
+  border-left: 2px solid #A7A1F4;
+  line-height: 1.6;
 }
 
 #input-area {
@@ -166,12 +196,13 @@ title: Chat
 </style>
 
 <h1>Chat</h1>
-<p>Chat with a local AI model running entirely in your browser via <a href="https://webllm.mlc.ai/" target="_blank" rel="noopener">WebLLM</a>. No data is sent to any server — the model runs on your device using WebGPU. The model is downloaded once and cached locally.</p>
+<p>Chat with a local AI model that answers questions about MishMash based on the site's content. The model runs entirely in your browser via <a href="https://webllm.mlc.ai/" target="_blank" rel="noopener">WebLLM</a> — no data is sent to any server. The model is downloaded once and cached locally.</p>
 
 <div id="chat-wrapper">
 
   <div id="setup-panel">
     <p id="webgpu-status"></p>
+    <p id="kb-status">Loading knowledge base…</p>
     <div id="model-row">
       <label for="model-select"><strong>Model:</strong></label>
       <select id="model-select">
@@ -193,7 +224,7 @@ title: Chat
 
   <div id="input-area">
     <textarea id="user-input" rows="1"
-      placeholder="Type a message… (Enter to send, Shift+Enter for new line)"></textarea>
+      placeholder="Ask about MishMash… (Enter to send, Shift+Enter for new line)"></textarea>
     <button id="send-btn">Send</button>
   </div>
 
@@ -202,16 +233,103 @@ title: Chat
 <script type="module">
 import * as webllm from "https://esm.run/@mlc-ai/web-llm";
 
-const SYSTEM_PROMPT = "You are a helpful assistant for MishMash, the Norwegian Centre for AI and Creativity. " +
-  "MishMash is a consortium of Norwegian research institutions exploring Creative AI and CoCreative AI across " +
-  "music, art, performance, education, well-being, cultural heritage, and the creative industries. " +
-  "Answer questions helpfully and concisely.";
+// ── System prompt ─────────────────────────────────────────────────────────
+const SYSTEM_PROMPT =
+  "You are a helpful assistant for MishMash, the Norwegian Centre for AI and Creativity. " +
+  "MishMash is a consortium of Norwegian research institutions exploring Creative AI and " +
+  "CoCreative AI across music, art, performance, education, well-being, cultural heritage, " +
+  "and the creative industries. " +
+  "When context passages from the MishMash knowledge base are provided, base your answer " +
+  "primarily on those. If the context does not cover the question, answer from your general knowledge. " +
+  "Be concise and friendly.";
 
+// ── State ─────────────────────────────────────────────────────────────────
 let engine = null;
+let knowledgeBase = null;
 let chatHistory = [{ role: "system", content: SYSTEM_PROMPT }];
 let isGenerating = false;
 
-// WebGPU check
+// ── Knowledge base ────────────────────────────────────────────────────────
+const STOP_WORDS = new Set([
+  'a','an','the','and','or','but','if','in','on','at','to','for','of','with',
+  'by','from','is','it','be','as','so','we','he','she','they','you','i',
+  'this','that','these','those','are','was','were','been','have','has','had',
+  'do','does','did','will','would','could','should','may','might','can','not',
+  'no','nor','yet','both','either','neither','also','than','then','when','where',
+  'which','who','what','how','all','each','every','any','some','its','their',
+  'our','your','his','her','more','into','through','about','such','only','very',
+  'just','over','after','before','up','out','there','here','being','having',
+]);
+
+function tokenize(text) {
+  return (text.toLowerCase().match(/\b[a-z][a-z0-9]*\b/g) || [])
+    .filter(t => !STOP_WORDS.has(t) && t.length > 2);
+}
+
+function retrieve(query, topK = 4) {
+  if (!knowledgeBase) return [];
+  const queryTokens = tokenize(query);
+  if (queryTokens.length === 0) return [];
+
+  // Query TF
+  const tf = {};
+  for (const t of queryTokens) tf[t] = (tf[t] || 0) + 1;
+  const total = queryTokens.length;
+
+  // Query TF-IDF vector
+  const queryVec = {};
+  for (const t in tf) {
+    if (knowledgeBase.idf[t]) {
+      queryVec[t] = (tf[t] / total) * knowledgeBase.idf[t];
+    }
+  }
+  const queryNorm = Math.sqrt(Object.values(queryVec).reduce((s, v) => s + v * v, 0));
+  if (queryNorm === 0) return [];
+
+  // Score each chunk by cosine similarity
+  const scored = knowledgeBase.chunks.map(chunk => {
+    let dot = 0;
+    for (const t in queryVec) {
+      if (chunk.tfidf[t]) dot += queryVec[t] * chunk.tfidf[t];
+    }
+    const chunkNorm = Math.sqrt(
+      Object.values(chunk.tfidf).reduce((s, v) => s + v * v, 0)
+    );
+    return { chunk, score: chunkNorm > 0 ? dot / (queryNorm * chunkNorm) : 0 };
+  });
+
+  return scored
+    .filter(s => s.score > 0.05)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, topK)
+    .map(s => s.chunk);
+}
+
+function buildAugmentedContent(userText, chunks) {
+  if (chunks.length === 0) return userText;
+  const context = chunks
+    .map(c => `[${c.source}]\n${c.text}`)
+    .join('\n\n---\n\n');
+  return `Relevant excerpts from the MishMash knowledge base:\n\n${context}\n\n---\n\nQuestion: ${userText}`;
+}
+
+async function loadKnowledgeBase() {
+  const kbStatus = document.getElementById('kb-status');
+  try {
+    const resp = await fetch('/chat/knowledge.json');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    knowledgeBase = await resp.json();
+    kbStatus.innerHTML =
+      `Knowledge base: <strong>${knowledgeBase.chunks.length} passages</strong> loaded from MishMash content.`;
+  } catch (e) {
+    kbStatus.textContent = 'Knowledge base unavailable — using general knowledge only.';
+  }
+}
+
+// Start loading knowledge base immediately (parallel with page init)
+loadKnowledgeBase();
+
+// ── WebGPU check ──────────────────────────────────────────────────────────
 const webgpuStatus = document.getElementById("webgpu-status");
 if (!navigator.gpu) {
   webgpuStatus.innerHTML =
@@ -222,14 +340,14 @@ if (!navigator.gpu) {
   webgpuStatus.innerHTML = '<span id="webgpu-ok">✓ WebGPU is available.</span>';
 }
 
-// Load model
+// ── Model loading ─────────────────────────────────────────────────────────
 document.getElementById("load-btn").addEventListener("click", async () => {
-  const modelId   = document.getElementById("model-select").value;
-  const loadBtn   = document.getElementById("load-btn");
-  const modelSel  = document.getElementById("model-select");
-  const progCont  = document.getElementById("progress-container");
-  const progText  = document.getElementById("progress-text");
-  const progFill  = document.getElementById("progress-fill");
+  const modelId  = document.getElementById("model-select").value;
+  const loadBtn  = document.getElementById("load-btn");
+  const modelSel = document.getElementById("model-select");
+  const progCont = document.getElementById("progress-container");
+  const progText = document.getElementById("progress-text");
+  const progFill = document.getElementById("progress-fill");
 
   loadBtn.disabled  = true;
   modelSel.disabled = true;
@@ -248,22 +366,18 @@ document.getElementById("load-btn").addEventListener("click", async () => {
     document.getElementById("input-area").style.display  = "flex";
     document.getElementById("user-input").focus();
   } catch (err) {
-    progText.textContent  = "Error loading model: " + err.message;
-    loadBtn.disabled      = false;
-    modelSel.disabled     = false;
+    progText.textContent = "Error loading model: " + err.message;
+    loadBtn.disabled     = false;
+    modelSel.disabled    = false;
   }
 });
 
-// Send on button click or Enter (Shift+Enter for newline)
+// ── Send message ──────────────────────────────────────────────────────────
 document.getElementById("send-btn").addEventListener("click", sendMessage);
 document.getElementById("user-input").addEventListener("keydown", (e) => {
-  if (e.key === "Enter" && !e.shiftKey) {
-    e.preventDefault();
-    sendMessage();
-  }
+  if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(); }
 });
 
-// Auto-resize textarea
 const textarea = document.getElementById("user-input");
 textarea.addEventListener("input", () => {
   textarea.style.height = "auto";
@@ -272,18 +386,25 @@ textarea.addEventListener("input", () => {
 
 async function sendMessage() {
   if (isGenerating || !engine) return;
-  const text = textarea.value.trim();
-  if (!text) return;
+  const userText = textarea.value.trim();
+  if (!userText) return;
 
   textarea.value = "";
   textarea.style.height = "auto";
   isGenerating = true;
   document.getElementById("send-btn").disabled = true;
 
-  chatHistory.push({ role: "user", content: text });
-  appendMessage("user", text);
+  // Retrieve relevant context
+  const chunks = retrieve(userText);
+  const augmentedContent = buildAugmentedContent(userText, chunks);
 
-  const assistantBubble = appendMessage("assistant", "▌");
+  // Display the original (unaugmented) user text in the UI
+  appendMessage("user", userText);
+
+  // Include augmented message in the history sent to the model
+  chatHistory.push({ role: "user", content: augmentedContent });
+
+  const { bubble: assistantBubble, messageEl } = appendMessageEl("assistant", "▌");
 
   try {
     const stream = await engine.chat.completions.create({
@@ -300,6 +421,22 @@ async function sendMessage() {
     }
     assistantBubble.textContent = responseText;
     chatHistory.push({ role: "assistant", content: responseText });
+
+    // Show sources if context was used
+    if (chunks.length > 0) {
+      const uniqueSources = [...new Set(chunks.map(c => c.source))];
+      const details = document.createElement("details");
+      details.className = "sources";
+      const summary = document.createElement("summary");
+      summary.textContent = `Sources (${uniqueSources.length})`;
+      const list = document.createElement("div");
+      list.className = "sources-list";
+      list.textContent = uniqueSources.join(" · ");
+      details.appendChild(summary);
+      details.appendChild(list);
+      messageEl.appendChild(details);
+      scrollToBottom();
+    }
   } catch (err) {
     assistantBubble.textContent = "Error: " + err.message;
   }
@@ -310,16 +447,21 @@ async function sendMessage() {
 }
 
 function appendMessage(role, text) {
+  const { bubble } = appendMessageEl(role, text);
+  return bubble;
+}
+
+function appendMessageEl(role, text) {
   const messagesEl = document.getElementById("messages");
-  const div = document.createElement("div");
-  div.className = "message " + role;
+  const messageEl  = document.createElement("div");
+  messageEl.className = "message " + role;
   const bubble = document.createElement("div");
   bubble.className = "bubble";
   bubble.textContent = text;
-  div.appendChild(bubble);
-  messagesEl.appendChild(div);
+  messageEl.appendChild(bubble);
+  messagesEl.appendChild(messageEl);
   scrollToBottom();
-  return bubble;
+  return { bubble, messageEl };
 }
 
 function scrollToBottom() {

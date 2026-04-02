@@ -3,6 +3,7 @@ venv/
 .venv/
 vendor/
 _site/
+chat/docs/
 
 # VS Code settings
 .vscode/
