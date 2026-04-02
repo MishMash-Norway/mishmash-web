@@ -331,14 +331,63 @@ loadKnowledgeBase();
 
 // ── WebGPU check ──────────────────────────────────────────────────────────
 const webgpuStatus = document.getElementById("webgpu-status");
-if (!navigator.gpu) {
-  webgpuStatus.innerHTML =
-    '<span id="webgpu-err">⚠ WebGPU is not available in your browser. ' +
-    'Please use Chrome 113+, Edge 113+, or another WebGPU-enabled browser.</span>';
-  document.getElementById("load-btn").disabled = true;
-} else {
+
+async function checkWebGPU() {
+  if (!navigator.gpu) {
+    showWebGPUError('no-api');
+    document.getElementById("load-btn").disabled = true;
+    return;
+  }
+  // navigator.gpu exists but the adapter (actual GPU access) may still fail on Linux
+  try {
+    const adapter = await navigator.gpu.requestAdapter();
+    if (!adapter) {
+      showWebGPUError('no-adapter');
+      document.getElementById("load-btn").disabled = true;
+      return;
+    }
+  } catch (e) {
+    showWebGPUError('no-adapter');
+    document.getElementById("load-btn").disabled = true;
+    return;
+  }
   webgpuStatus.innerHTML = '<span id="webgpu-ok">✓ WebGPU is available.</span>';
 }
+
+function showWebGPUError(type) {
+  const isLinux = /Linux/.test(navigator.userAgent) && !/Android/.test(navigator.userAgent);
+  const linuxTips = isLinux ? `
+    <details style="margin-top:0.6rem;">
+      <summary style="cursor:pointer;font-weight:600;">Linux / Ubuntu fix ▾</summary>
+      <ol style="margin:0.5rem 0 0 1.2rem;line-height:1.9;">
+        <li>Install Vulkan drivers (required by WebGPU on Linux):<br>
+          <code>sudo apt install mesa-vulkan-drivers vulkan-tools</code><br>
+          For NVIDIA: install the proprietary driver via <em>Software &amp; Updates → Additional Drivers</em>.<br>
+          For Intel Arc: <code>sudo apt install intel-media-va-driver-non-free</code>.
+        </li>
+        <li>Verify Vulkan works: <code>vulkaninfo | head -5</code></li>
+        <li>In Chrome or Edge, go to <code>chrome://flags</code> and enable:
+          <ul style="margin:0.2rem 0 0 1rem;">
+            <li><strong>Vulkan</strong> → Enabled</li>
+            <li><strong>WebGPU Developer Features</strong> → Enabled</li>
+          </ul>
+        </li>
+        <li>Enable hardware acceleration: <em>Settings → System → Use hardware acceleration when available</em>.</li>
+        <li>Check <code>chrome://gpu</code> — look for <em>Vulkan: Enabled</em> under Graphics Feature Status.</li>
+        <li>As a last resort, launch the browser with:<br>
+          <code>google-chrome --enable-features=Vulkan,UseSkiaRenderer</code>
+        </li>
+      </ol>
+    </details>` : '';
+  webgpuStatus.innerHTML =
+    `<span id="webgpu-err">⚠ ${
+      type === 'no-api'
+        ? 'WebGPU is not available in your browser. Please use Chrome 113+ or Edge 113+.'
+        : 'WebGPU is supported by your browser but no compatible GPU adapter was found.'
+    }</span>${linuxTips}`;
+}
+
+checkWebGPU();
 
 // ── Model loading ─────────────────────────────────────────────────────────
 document.getElementById("load-btn").addEventListener("click", async () => {
@@ -366,9 +415,20 @@ document.getElementById("load-btn").addEventListener("click", async () => {
     document.getElementById("input-area").style.display  = "flex";
     document.getElementById("user-input").focus();
   } catch (err) {
-    progText.textContent = "Error loading model: " + err.message;
-    loadBtn.disabled     = false;
-    modelSel.disabled    = false;
+    const isGpuError = /GPU|WebGPU|adapter|compatible/i.test(err.message);
+    const isLinux = /Linux/.test(navigator.userAgent) && !/Android/.test(navigator.userAgent);
+    if (isGpuError && isLinux) {
+      progText.innerHTML =
+        '<strong>GPU not accessible.</strong> On Ubuntu/Linux, WebGPU needs Vulkan: ' +
+        'install drivers (<code>sudo apt install mesa-vulkan-drivers</code>), ' +
+        'then enable the <strong>Vulkan</strong> flag at <code>chrome://flags</code> and restart the browser.<br>' +
+        '<small>See the full checklist above the model selector.</small>';
+    } else {
+      progText.textContent = 'Error loading model: ' + err.message;
+    }
+    showWebGPUError('no-adapter');
+    loadBtn.disabled  = false;
+    modelSel.disabled = false;
   }
 });
 
