@@ -1,0 +1,24 @@
+{% assign current_lang = page.lang | default: 'en' %}
+{% assign other_lang = 'nb' %}
+{% if current_lang == 'nb' %}{% assign other_lang = 'en' %}{% endif %}
+{% assign other_t = site.data.translations[other_lang] %}
+
+{% if page.translation_url %}
+  {% assign switch_url = page.translation_url %}
+{% elsif current_lang == 'nb' %}
+  {% assign switch_url = page.url | remove_first: '/no' %}
+{% else %}
+  {% assign switch_url = '/no' | append: page.url %}
+{% endif %}
+
+<div class="lang-switcher" aria-label="Language selector">
+  {% if current_lang == 'en' %}
+    <span class="lang-active" aria-current="true">EN</span>
+    <span class="lang-sep">|</span>
+    <a class="lang-option" href="{{ switch_url | relative_url }}" hreflang="nb" lang="nb" aria-label="Switch to Norwegian">NO</a>
+  {% else %}
+    <a class="lang-option" href="{{ switch_url | relative_url }}" hreflang="en" lang="en" aria-label="Bytt til engelsk">EN</a>
+    <span class="lang-sep">|</span>
+    <span class="lang-active" aria-current="true">NO</span>
+  {% endif %}
+</div>
