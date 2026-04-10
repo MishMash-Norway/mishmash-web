@@ -193,5 +193,43 @@ a:focus-visible .blink-eye-thumb,
 .button:active { transform: translateY(0); }
 .button:focus-visible { outline: 3px solid rgba(10,102,194,.18); outline-offset: 3px; }
 
+/* Language switcher */
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+.lang-switcher .lang-active {
+  color: #fff;
+  cursor: default;
+}
+
+.lang-switcher .lang-option {
+  color: rgba(255,255,255,0.65) !important;
+  text-decoration: none !important;
+  transition: color 0.15s;
+}
+
+.lang-switcher .lang-option:hover,
+.lang-switcher .lang-option:focus {
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+
+.lang-switcher .lang-sep {
+  color: rgba(255,255,255,0.4);
+  margin: 0 1px;
+}
+
 
 
