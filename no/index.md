@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: nb
-title: "MishMash senter for KI og kreativitet"
+title: "MishMash Senter for KI og kreativitet"
 translation_url: /
 ---
 <div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
@@ -14,7 +14,7 @@ translation_url: /
     </a>
 </div>
 
-MishMash er et norsk KI-senter med mer enn 200 forskere fra høyere utdanningsinstitusjoner i Norge, i samarbeid med en rekke offentlige og private partnere. Det primære målet med MishMash er å **skape, utforske og reflektere over KI for, gjennom og i kreative praksiser**. MishMash-forskere undersøker KIs innvirkning på kreative prosesser, utvikler innovative samskapende KI-systemer og pedagogiske strategier, og tar opp de etiske, kulturelle, juridiske og samfunnsmessige implikasjonene av KI i kreative domener. [Mer om MishMash...](/no/about/)
+MishMash er et KI-senter med mer enn 200 forskere fra høyere utdanningsinstitusjoner i Norge, i samarbeid med en rekke offentlige og private partnere. Det primære målet med MishMash er å **skape, utforske og reflektere over KI for, gjennom og i kreative praksiser**. MishMash-forskere undersøker KIs innvirkning på kreative prosesser, utvikler innovative samskapende KI-systemer og pedagogiske strategier, og tar opp de etiske, kulturelle, juridiske og samfunnsmessige implikasjonene av KI i kreative praksiser. [Mer om MishMash...](/no/about/)
 
 
 <h2><a href="https://mishmash.no/events/">MishMash-arrangementer</a></h2>
@@ -37,7 +37,7 @@ MishMash er et norsk KI-senter med mer enn 200 forskere fra høyere utdanningsin
 
 ## Ledige stillinger
 
-Det er for øyeblikket ingen [ledige stillinger](https://mishmash.no/news/positions/). Ta [kontakt](https://mishmash.no/people/) hvis du er interessert i å søke til et eksternt stipendprogram gjennom en av våre partnere (for eksempel Marie Skłodowska-Curie Actions-stipend eller Fulbright). Partnere er også åpne for å ta imot egenfinansierte praktikanter (for eksempel gjennom ERASMUS-programmet).
+Se oversikten over [ledige stillinger](https://mishmash.no/news/positions/). Ta [kontakt](https://mishmash.no/people/) hvis du er interessert i å søke til et eksternt stipendprogram gjennom en av våre partnere (for eksempel Marie Skłodowska-Curie Actions-stipend eller Fulbright). Partnere er også åpne for å ta imot egenfinansierte praktikanter (for eksempel gjennom ERASMUS-programmet).
 
 ## Partnere
 

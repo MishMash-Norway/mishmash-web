@@ -31,7 +31,7 @@ MishMash is a Norwegian AI centre comprising more than 200 researchers from high
 
 ## Vacancies
 
-There are currently no [open positions](https://mishmash.no/news/positions/). Get in [touch](https://mishmash.no/people/) if you are interested in applying to an external fellowship program through one of our parners (for example, Marie Skłodowska-Curie Actions fellowships or Fulbright). Partners are also open for hosting self-funded internships (for example through the ERASMUS programme).
+Check the list of [open positions](https://mishmash.no/news/positions/). Get in [touch](https://mishmash.no/people/) if you are interested in applying to an external fellowship program through one of our parners (for example, Marie Skłodowska-Curie Actions fellowships or Fulbright). Partners are also open for hosting self-funded internships (for example through the ERASMUS programme).
 
 ## Partners
 
