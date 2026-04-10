@@ -2,13 +2,36 @@
 {% assign other_lang = 'nb' %}
 {% if current_lang == 'nb' %}{% assign other_lang = 'en' %}{% endif %}
 {% assign other_t = site.data.translations[other_lang] %}
+{% assign nb_page_exists = false %}
 
 {% if page.translation_url %}
   {% assign switch_url = page.translation_url %}
 {% elsif current_lang == 'nb' %}
   {% assign switch_url = page.url | remove_first: '/no' %}
 {% else %}
-  {% assign switch_url = '/no' | append: page.url %}
+  {% assign nb_url = '/no' | append: page.url %}
+
+  {% for p in site.pages %}
+    {% if p.url == nb_url %}
+      {% assign nb_page_exists = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% unless nb_page_exists %}
+    {% for d in site.documents %}
+      {% if d.url == nb_url %}
+        {% assign nb_page_exists = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endunless %}
+
+  {% if nb_page_exists %}
+    {% assign switch_url = nb_url %}
+  {% else %}
+    {% assign switch_url = '/' %}
+  {% endif %}
 {% endif %}
 
 <div class="lang-switcher" aria-label="Language selector">
