@@ -14,8 +14,11 @@ MishMash partners are now recruiting the first group of doctoral and postdoctora
 
 These positions generally require that a master's degree has been completed.
 
+
+
 | Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
+| UiT The Arctic University of Norway | Artistic | [Artistic Research](https://www.jobbnorge.no/en/available-jobs/job/297022/phd-fellow-within-artistic-research) | 9 May 2026 |
 | NTNU | Artistic | [Music technology and AI for artistic performances](https://www.jobbnorge.no/en/available-jobs/job/293357/phd-position-in-artistic-research-in-music-technology-and-ai-for-artistic-performances) | ~~1 Apr 2026~~ |
 | NTNU | Scientific | [Music Technology with a focus on AI, health and wellbeing](https://www.jobbnorge.no/en/available-jobs/job/293368/phd-research-fellow-in-music-technology-with-a-focus-on-ai-health-and-wellbeing) | ~~1 Apr 2026~~ |
 | Western Norway University of Applied Sciences | Scientific | [Kunstfagdidaktisk/musikkpedagogisk arbeid med KI og kreativitet](https://www.jobbnorge.no/nn-no/ledige-stillingar/stilling/292672/stipendiat-i-kunstfagdidaktisk-musikkpedagogisk-arbeid-med-kunstig-intelligens-og-kreativitet) (in Norwegian) | ~~15 Mar 2026~~ |
