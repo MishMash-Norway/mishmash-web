@@ -12,8 +12,6 @@ redirect_from:
   - /events/hackaton2026/
 ---
 
-![Professorboligen](/assets/images/illustrations/professorboligen.jpg){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
-
 We are planning to run a mini-hackathon in connection with MishMash's opening events. The main topic will be using RAVE models for realtime sound interaction and controlling them with biosignals.
 
 ## What is a hackathon? 

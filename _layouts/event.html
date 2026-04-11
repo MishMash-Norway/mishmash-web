@@ -16,6 +16,13 @@ layout: default
   </div>
 </section>
 
+{% assign event_image = page.image | default: '/assets/images/bubbles/mishmash_bubbles_notext.svg' %}
+{% assign event_image_alt = page.location | default: page.title %}
+{% capture event_image_markdown %}
+![{{ event_image_alt }}]({{ event_image | relative_url }}){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
+{% endcapture %}
+{{ event_image_markdown | markdownify }}
+
 <div class="event-body">
   {{ content }}
 </div>

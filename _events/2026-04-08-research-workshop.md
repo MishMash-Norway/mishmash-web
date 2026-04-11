@@ -10,8 +10,6 @@ image: "/assets/images/illustrations/domus-bibliotheca.jpg"
 slug: "application-workshop2026"
 ---
 
-![Domus Bibliotheca](/assets/images/illustrations/domus-bibliotheca.jpg){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
-
 Which research funding sources are available? How do you write a competitive grant? How can the MishMash network be leveraged in application processes? 
 
 Join us for a workshop on research application development led by [Thomas de Ridder](https://www4.uib.no/en/find-employees/Thomas.De.Ridder) (UiB), who serves as research adviser for all of MishMash. He will be joined by senior adviser Anette Askedal and special adviser Siv Haugan from the Research Council of Norway. 

@@ -10,8 +10,6 @@ image: "/assets/images/illustrations/domus-bibliotheca.jpg"
 slug: "umuliges-kunst"
 ---
 
-![Domus Bibliotheca](/assets/images/illustrations/domus-bibliotheca.jpg){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
-
 The arts face new challenges as AI-based tools become accessible to more people. How does this affect the creative process, and what dilemmas can arise?
 
 We have invited a number of artists to showcase and perform new works that engage with artificial intelligence. In a panel discussion that also includes researchers from the broader art field, we discuss AI in creative practice.
