@@ -9,10 +9,6 @@
 {% assign fallback_icon = '/assets/images/bubbles/mishmash_bubbles.ico' | relative_url %}
 {% assign now_date = site.time | date: "%Y-%m-%d" %}
 {% assign shown = 0 %}
-{% assign show_calendar_links = false %}
-{% if include.show_calendar == true or include.show_calendar == 'true' %}
-  {% assign show_calendar_links = true %}
-{% endif %}
 
 {% if sorted_partner_events and sorted_partner_events.size > 0 %}
 {% for ev in sorted_partner_events %}
@@ -32,32 +28,7 @@
     {% endif %}
   {% endif %}
   {% assign display_desc = ev.og_description | default: ev.description %}
-  {% assign event_title_ics = display_title | default: 'Partner event' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}
-  {% assign event_location_ics = ev.partner | default: '' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}
-  {% assign event_description_raw = ev.description | default: ev.og_description | default: 'Partner event' %}
-  {% assign event_description_ics = event_description_raw | strip_html | strip_newlines | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' %}
-  {% assign event_url = ev.url | default: site.url %}
-  {% assign event_uid_source = ev.url | default: display_title %}
-  {% assign event_uid = event_uid_source | replace: 'https://', '' | replace: 'http://', '' | replace: '/', '-' | append: '@mishmash.no' %}
-  {% assign ics_start = start_date | default: now_date %}
-  {% assign ics_end = end_date | default: start_date | default: now_date %}
-  {% capture partner_event_ics %}BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//MishMash//Partner Events//EN
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-BEGIN:VEVENT
-UID:{{ event_uid }}
-DTSTAMP:{{ 'now' | date: '%Y%m%dT%H%M%SZ' }}
-DTSTART;VALUE=DATE:{{ ics_start | date: '%Y%m%d' }}
-DTEND;VALUE=DATE:{{ ics_end | date: '%s' | plus: 86400 | date: '%Y%m%d' }}
-SUMMARY:{{ event_title_ics }}
-{% if event_location_ics != '' %}LOCATION:{{ event_location_ics }}
-{% endif %}DESCRIPTION:{{ event_description_ics }}
-URL:{{ event_url }}
-END:VEVENT
-END:VCALENDAR
-{% endcapture %}
+
   {% assign start_parts = start_date_iso | split: '-' %}
   {% assign show_event = false %}
   {% if start_date and start_date_text != '' and start_date_iso != '' and start_parts.size == 3 %}
@@ -101,9 +72,6 @@ END:VCALENDAR
         {%- endif -%}
       {% endif %}
       {% if ev.partner %} &mdash; {{ ev.partner }}{% endif %}
-      {% if show_calendar_links %}
-      &mdash; <a href="data:text/calendar;charset=utf-8,{{ partner_event_ics | strip | uri_escape }}" download="partner-event.ics">Add to calendar (.ics)</a>
-      {% endif %}
       <br />
       {% if ev.url %}<a href="{{ ev.url }}">{{ display_title }}</a>{% else %}{{ display_title }}{% endif %}
       {% if display_desc %}
