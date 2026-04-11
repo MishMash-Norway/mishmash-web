@@ -6,15 +6,22 @@ location: Domus Bibliotheca, University of Oslo
 layout: event
 categories: [Conference]
 description: "Det umuliges kunst? Om bruk av KI i kreativ praksis"
-image: "/assets/images/illustrations/domus-bibliotheca.jpg"
+image: /assets/images/news/opening-2026-04-08/3D9A5953_1920px.jpg
 slug: "umuliges-kunst"
 ---
 
 The arts face new challenges as AI-based tools become accessible to more people. How does this affect the creative process, and what dilemmas can arise?
 
-We have invited a number of artists to showcase and perform new works that engage with artificial intelligence. In a panel discussion that also includes researchers from the broader art field, we discuss AI in creative practice.
+We have invited artists, journalists, and researchers to a panel discussion: 
 
-This event is particularly suitable for those working with art and culture, and are curious or skeptical about how artificial intelligence will shape the field.
+- Ole Henrik Antonsen, chair of TONO, the composers' rights organization
+- Flu Hartberg, comic artist and illustrator, and one of the founders of KIKI, an artistic initiative for regulating artificial intelligence
+- Trine Eilertsen, editor at Aftenposten
+- Benedicte Wallace, AI researcher who recently carried out a project focused on AI and dance
+- Anders Hasmo, dramaturg at Det Norske Teatret
+- Irina Eidsvold-Tøien, professor of law at BI and actor
+
+The panel is moderated by Jon Marius Aareskjold-Drecker, Associate Professor in Music Technology at UiT - The Arctic University of Norway, and Associate Professor in Music Production at the University of Oslo.
 
 [More information (in Norwegian)](https://www.uio.no/om/aktuelt/universitetsplassen/domus-bibliotheca/arrangementer/2026/mishmash-umuliges-kunst){: .button}
 
