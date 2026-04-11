@@ -1,0 +1,32 @@
+---
+layout: none
+permalink: /events/calendar.ics
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MishMash//Events Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MishMash Events
+X-WR-CALDESC:All MishMash events
+X-WR-TIMEZONE:Europe/Oslo
+{% assign all_events = site.events | where_exp: "item", "item.draft != true" | sort: 'date' %}
+{% for item in all_events %}
+{% assign event_title = item.title | default: 'MishMash event' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}
+{% assign event_location = item.location | default: '' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}
+{% assign event_description_raw = item.description | default: item.excerpt | default: 'MishMash event' %}
+{% assign event_description = event_description_raw | strip_html | strip_newlines | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' %}
+{% assign event_url = site.url | append: item.url %}
+{% assign event_uid = item.url | replace: '/', '-' | append: '@mishmash.no' %}
+BEGIN:VEVENT
+UID:{{ event_uid }}
+DTSTAMP:{{ site.time | date: '%Y%m%dT%H%M%SZ' }}
+DTSTART:{{ item.date | date: '%Y%m%dT%H%M%S' }}
+{% if item.end_date or item.enddate %}DTEND:{{ item.end_date | default: item.enddate | date: '%Y%m%dT%H%M%S' }}
+{% endif %}SUMMARY:{{ event_title }}
+{% if event_location != '' %}LOCATION:{{ event_location }}
+{% endif %}DESCRIPTION:{{ event_description }}
+URL:{{ event_url }}
+END:VEVENT
+{% endfor %}
+END:VCALENDAR

@@ -23,6 +23,36 @@ layout: default
 {% endcapture %}
 {{ event_image_markdown | markdownify }}
 
+{% assign event_title_ics = page.title | default: 'MishMash event' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}
+{% assign event_location_ics = page.location | default: '' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}
+{% assign event_description_raw = page.description | default: page.excerpt | default: 'MishMash event' %}
+{% assign event_description_ics = event_description_raw | strip_html | strip_newlines | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' %}
+{% assign event_url = site.url | append: page.url %}
+{% assign event_uid = page.url | replace: '/', '-' | append: '@mishmash.no' %}
+{% capture event_ics %}BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MishMash//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:{{ event_uid }}
+DTSTAMP:{{ 'now' | date: '%Y%m%dT%H%M%SZ' }}
+DTSTART:{{ page.date | date: '%Y%m%dT%H%M%S' }}
+{% if page.end_date %}DTEND:{{ page.end_date | date: '%Y%m%dT%H%M%S' }}
+{% endif %}SUMMARY:{{ event_title_ics }}
+{% if event_location_ics != '' %}LOCATION:{{ event_location_ics }}
+{% endif %}DESCRIPTION:{{ event_description_ics }}
+URL:{{ event_url }}
+END:VEVENT
+END:VCALENDAR
+{% endcapture %}
+{% assign events_feed_url = '/events/calendar.ics' | absolute_url %}
+{% assign events_feed_webcal = events_feed_url | replace_first: 'https://', 'webcal://' | replace_first: 'http://', 'webcal://' %}
+<p>
+  <a class="button" href="data:text/calendar;charset=utf-8,{{ event_ics | strip | uri_escape }}" download="{{ page.slug | default: 'event' }}.ics">Add to calendar (.ics)</a>
+  <a class="button" href="{{ events_feed_webcal }}">Subscribe to all events</a>
+</p>
+
 <div class="event-body">
   {{ content }}
 </div>

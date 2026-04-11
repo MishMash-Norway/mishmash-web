@@ -8,6 +8,12 @@ if (window.location.hash === '#partner-events') {
 }
 </script>
 <h1>MishMash Events</h1>
+{% assign events_feed_url = '/events/calendar.ics' | absolute_url %}
+{% assign events_feed_webcal = events_feed_url | replace_first: 'https://', 'webcal://' | replace_first: 'http://', 'webcal://' %}
+<p>
+  <a class="button" href="{{ events_feed_webcal }}">Subscribe to all events (webcal)</a>
+  <a class="button" href="{{ '/events/calendar.ics' | relative_url }}">Download calendar (.ics)</a>
+</p>
 {% assign all_events = site.events | where_exp: "item", "item.draft != true" %}
 {% assign future_events = all_events | where_exp: "item", "item.date >= site.time" | sort: 'date' %}
 {% assign past_events = all_events | where_exp: "item", "item.date < site.time" | sort: 'date' | reverse %}
