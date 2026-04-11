@@ -2,27 +2,6 @@
 layout: default
 ---
 
-<section class="event-header" role="region" aria-label="Event header">
-  <h1 class="event-title">{{ page.title }}</h1>
-  <div class="event-meta">
-    {% if page.date %}
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y, %H:%M" }}</time>
-      {%- if page.end_date %}–<time datetime="{{ page.end_date | date_to_xmlschema }}">{{ page.end_date | date: "%H:%M" }}</time>
-      {% endif %}
-    {% endif %}
-    {% if page.location %}
-      <span class="event-location"> — {{ page.location }}</span>
-    {% endif %}
-  </div>
-</section>
-
-{% assign event_image = page.image | default: '/assets/images/bubbles/mishmash_bubbles_notext.svg' %}
-{% assign event_image_alt = page.location | default: page.title %}
-{% capture event_image_markdown %}
-![{{ event_image_alt }}]({{ event_image | relative_url }}){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
-{% endcapture %}
-{{ event_image_markdown | markdownify }}
-
 {% assign event_title_ics = page.title | default: 'MishMash event' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}
 {% assign event_location_ics = page.location | default: '' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}
 {% assign event_description_raw = page.description | default: page.excerpt | default: 'MishMash event' %}
@@ -48,11 +27,31 @@ END:VCALENDAR
 {% endcapture %}
 {% assign events_feed_url = '/events/calendar.ics' | absolute_url %}
 {% assign events_feed_webcal = events_feed_url | replace_first: 'https://', 'webcal://' | replace_first: 'http://', 'webcal://' %}
-<p>
-  <a class="button" href="data:text/calendar;charset=utf-8,{{ event_ics | strip | uri_escape }}" download="{{ page.slug | default: 'event' }}.ics">Add to calendar (.ics)</a>
-  <a class="button" href="{{ events_feed_webcal }}">Subscribe to all events</a>
-</p>
+
+<section class="event-header" role="region" aria-label="Event header">
+  <h1 class="event-title">{{ page.title }}</h1>
+  <div class="event-meta">
+    {% if page.date %}
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y, %H:%M" }}</time>
+      {%- if page.end_date %}–<time datetime="{{ page.end_date | date_to_xmlschema }}">{{ page.end_date | date: "%H:%M" }}</time>
+      {% endif %}
+    {% endif %}
+    {% if page.location %}
+      <span class="event-location"> — {{ page.location }}</span>
+    {% endif %}
+    <span> — <a href="data:text/calendar;charset=utf-8,{{ event_ics | strip | uri_escape }}" download="{{ page.slug | default: 'event' }}.ics">Add to calendar (.ics)</a></span>
+  </div>
+</section>
+
+{% assign event_image = page.image | default: '/assets/images/bubbles/mishmash_bubbles_notext.svg' %}
+{% assign event_image_alt = page.location | default: page.title %}
+{% capture event_image_markdown %}
+![{{ event_image_alt }}]({{ event_image | relative_url }}){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
+{% endcapture %}
+{{ event_image_markdown | markdownify }}
 
 <div class="event-body">
   {{ content }}
 </div>
+
+<p><a class="button" href="{{ events_feed_webcal }}">Subscribe to all events</a></p>

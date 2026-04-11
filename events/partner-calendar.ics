@@ -1,0 +1,35 @@
+---
+layout: none
+permalink: /events/partner-calendar.ics
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MishMash//Partner Events Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MishMash Partner Events
+X-WR-CALDESC:Partner events listed by MishMash
+X-WR-TIMEZONE:Europe/Oslo
+{% assign partner_events = site.data.partner_events | default: empty | sort: 'start_date' %}
+{% for ev in partner_events %}
+{% assign start_date = ev.start_date | default: ev.date %}
+{% assign end_date = ev.end_date | default: ev.enddate | default: start_date %}
+{% assign event_title = ev.title | default: ev.og_title | default: 'Partner event' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}
+{% assign event_location = ev.partner | default: '' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}
+{% assign event_description_raw = ev.description | default: ev.og_description | default: 'Partner event' %}
+{% assign event_description = event_description_raw | strip_html | strip_newlines | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' %}
+{% assign event_url = ev.url | default: site.url %}
+{% assign event_uid_source = ev.url | default: event_title %}
+{% assign event_uid = event_uid_source | replace: 'https://', '' | replace: 'http://', '' | replace: '/', '-' | append: '@mishmash.no' %}
+BEGIN:VEVENT
+UID:{{ event_uid }}
+DTSTAMP:{{ site.time | date: '%Y%m%dT%H%M%SZ' }}
+DTSTART;VALUE=DATE:{{ start_date | date: '%Y%m%d' }}
+DTEND;VALUE=DATE:{{ end_date | date: '%s' | plus: 86400 | date: '%Y%m%d' }}
+SUMMARY:{{ event_title }}
+{% if event_location != '' %}LOCATION:{{ event_location }}
+{% endif %}DESCRIPTION:{{ event_description }}
+URL:{{ event_url }}
+END:VEVENT
+{% endfor %}
+END:VCALENDAR

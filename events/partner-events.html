@@ -7,9 +7,17 @@ redirect_from:
   - /partner-events/
 ---
 <h1>Partner Events</h1>
+{% assign partner_feed_url = '/events/partner-calendar.ics' | absolute_url %}
+{% assign partner_feed_webcal = partner_feed_url | replace_first: 'https://', 'webcal://' | replace_first: 'http://', 'webcal://' %}
+<p>
+  <a class="button" href="{{ partner_feed_webcal }}">Subscribe to all partner events</a>
+  <a class="button" href="{{ '/events/partner-calendar.ics' | relative_url }}">Download partner calendar (.ics)</a>
+</p>
 
 <h2>Upcoming Partner Events</h2>
 {% include partner_events_front_page.html scope="upcoming" limit=100 %}
 
 <h2>Past Partner Events</h2>
 {% include partner_events_front_page.html scope="past" limit=100 %}
+
+<p><a class="button" href="{{ partner_feed_webcal }}">Subscribe to all partner events</a></p>
