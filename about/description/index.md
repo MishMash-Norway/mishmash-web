@@ -4,12 +4,7 @@ title: Description
 translation_url: /no/about/description/
 ---
 
-<div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
-        <img class="blink-eye-thumb"
-             src="/assets/images/bubbles/mishmash_bubbles_notext.svg"
-             alt="MishMash explores the meeting point of humans and machines with art and science"
-             width="400">
-</div>
+![MishMash explores the meeting point of humans and machines with art and science](/assets/images/bubbles/mishmash_bubbles_notext.svg){: .blink-eye-thumb style="float:right;margin:0 0 1rem 1rem;" width="400" }
 
 ## Why?
 
@@ -33,9 +28,7 @@ There are many possibilities with Creative and CoCreative AI systems, but also n
 
 MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives*.
 
-<div style="text-align: center;">
-    <img src="/assets/images/cube/mishmash_cube.svg" alt="MishMash cube" width="500">
-</div>
+![MishMash cube](/assets/images/cube/mishmash_cube.svg){: style="display:block;margin:0 auto;" width="500" }
 
 The WPs are designed around seven core *themes*, addressing the challenges outlined in the previous section. While some WPs focus on leveraging AI in creative—primarily artistic—applications, others explore the innovative use of AI in adjacent domains, fostering a dynamic interplay between art, science, and society. The work will be conducted by combining a multitude of scientific and arts-based theories and methods, which can be summarised in three interconnected *research approaches*:
 
