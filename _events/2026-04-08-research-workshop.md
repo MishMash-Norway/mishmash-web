@@ -6,7 +6,7 @@ location: Domus Bibliotheca, University of Oslo
 layout: event
 categories: [Conference]
 description: "Learn about research funding sources, grant writing, and leveraging the MishMash network in application processes. Led by Thomas de Ridder (UiB) with Research Council of Norway representatives."
-image: "/assets/images/illustrations/domus-bibliotheca.jpg"
+image: "/assets/images/news/opening-2026-04-08/5R0A7263_1000px.jpg"
 slug: "application-workshop2026"
 ---
 
