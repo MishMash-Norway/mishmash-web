@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Board
+redirect_from:
+	- /organisation/board/
 ---
 
 # MishMash Board

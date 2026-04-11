@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Council
+redirect_from:
+	- /organisation/council/
 ---
 
 # Council

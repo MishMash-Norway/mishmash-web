@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Scientific Advisory Board
+redirect_from:
+	- /organisation/scientific-advisory-board/
 ---
 
 # Scientific Advisory Board
