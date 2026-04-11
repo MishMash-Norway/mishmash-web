@@ -9,6 +9,10 @@
 {% assign fallback_icon = '/assets/images/bubbles/mishmash_bubbles.ico' | relative_url %}
 {% assign now_date = site.time | date: "%Y-%m-%d" %}
 {% assign shown = 0 %}
+{% assign show_calendar_links = false %}
+{% if include.show_calendar == true or include.show_calendar == 'true' %}
+  {% assign show_calendar_links = true %}
+{% endif %}
 
 {% if sorted_partner_events and sorted_partner_events.size > 0 %}
 {% for ev in sorted_partner_events %}
@@ -97,7 +101,9 @@ END:VCALENDAR
         {%- endif -%}
       {% endif %}
       {% if ev.partner %} &mdash; {{ ev.partner }}{% endif %}
+      {% if show_calendar_links %}
       &mdash; <a href="data:text/calendar;charset=utf-8,{{ partner_event_ics | strip | uri_escape }}" download="partner-event.ics">Add to calendar (.ics)</a>
+      {% endif %}
       <br />
       {% if ev.url %}<a href="{{ ev.url }}">{{ display_title }}</a>{% else %}{{ display_title }}{% endif %}
       {% if display_desc %}
