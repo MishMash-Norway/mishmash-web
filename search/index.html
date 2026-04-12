@@ -1,0 +1,281 @@
+---
+layout: default
+title: Search
+---
+<h1>Search</h1>
+
+<form id="search-form" role="search" aria-label="Site search">
+  <div class="search-input-row">
+    <label for="search-input" class="sr-only">Search</label>
+    <input
+      type="search"
+      id="search-input"
+      name="q"
+      class="search-input"
+      placeholder="Search events, news, pages…"
+      autocomplete="off"
+      spellcheck="false"
+      aria-controls="search-results"
+      aria-autocomplete="list"
+    >
+  </div>
+
+  <div id="filter-panel" class="search-filters" aria-label="Filters" hidden>
+    <div class="filter-group">
+      <span class="filter-label">Type:</span>
+      <div id="type-chips" class="chip-list" role="group" aria-label="Filter by type"></div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Category:</span>
+      <div id="category-chips" class="chip-list" role="group" aria-label="Filter by category"></div>
+    </div>
+    <div id="tag-filter-group" class="filter-group" hidden>
+      <span class="filter-label">Tag:</span>
+      <div id="tag-chips" class="chip-list" role="group" aria-label="Filter by tag"></div>
+    </div>
+  </div>
+</form>
+
+<div id="search-status" aria-live="polite" aria-atomic="true" class="search-status"></div>
+<ul id="search-results" class="search-results" aria-label="Search results"></ul>
+
+<script>
+(function () {
+  'use strict';
+
+  const INDEX_URL = '{{ "/search.json" | relative_url }}';
+
+  // ── State ──────────────────────────────────────────────────────────────────
+  let allItems = [];
+  let activeTypes = new Set();
+  let activeCategories = new Set();
+  let activeTags = new Set();
+
+  // ── DOM refs ───────────────────────────────────────────────────────────────
+  const input          = document.getElementById('search-input');
+  const resultsList    = document.getElementById('search-results');
+  const statusEl       = document.getElementById('search-status');
+  const filterPanel    = document.getElementById('filter-panel');
+  const typeChips      = document.getElementById('type-chips');
+  const categoryChips  = document.getElementById('category-chips');
+  const tagChips       = document.getElementById('tag-chips');
+  const tagFilterGroup = document.getElementById('tag-filter-group');
+
+  // ── Helpers ────────────────────────────────────────────────────────────────
+  function normalize(str) {
+    return (str || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+
+  function escapeHtml(str) {
+    return (str || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function highlight(text, query) {
+    if (!query) return escapeHtml(text);
+    // Match against the raw text first, then escape each segment individually
+    // so HTML-sensitive characters in the query (e.g. '<', '&') match correctly.
+    const safe = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = new RegExp('(' + safe + ')', 'gi');
+    const parts = text.split(re);
+    return parts.map(function (part, i) {
+      return i % 2 === 1
+        ? '<mark>' + escapeHtml(part) + '</mark>'
+        : escapeHtml(part);
+    }).join('');
+  }
+
+  function typeLabel(type) {
+    const map = { event: 'Event', news: 'News', page: 'Page' };
+    return map[type] || type;
+  }
+
+  // ── Chip factory ───────────────────────────────────────────────────────────
+  function makeChip(label, activeSet, container, onToggle) {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'filter-chip';
+    btn.textContent = label;
+    btn.dataset.value = label;
+    btn.setAttribute('aria-pressed', 'false');
+    btn.addEventListener('click', function () {
+      const val = this.dataset.value;
+      if (activeSet.has(val)) {
+        activeSet.delete(val);
+        this.classList.remove('active');
+        this.setAttribute('aria-pressed', 'false');
+      } else {
+        activeSet.add(val);
+        this.classList.add('active');
+        this.setAttribute('aria-pressed', 'true');
+      }
+      onToggle();
+    });
+    container.appendChild(btn);
+  }
+
+  // ── Build filter UI ────────────────────────────────────────────────────────
+  function buildFilters(items) {
+    const types      = new Set();
+    const categories = new Set();
+    const tags       = new Set();
+
+    items.forEach(function (item) {
+      if (item.type) types.add(item.type);
+      (item.categories || []).forEach(function (c) { categories.add(c); });
+      (item.tags       || []).forEach(function (t) { tags.add(t); });
+    });
+
+    types     .forEach(function (v) { makeChip(v, activeTypes,      typeChips,     runSearch); });
+    categories.forEach(function (v) { makeChip(v, activeCategories, categoryChips, runSearch); });
+    tags      .forEach(function (v) { makeChip(v, activeTags,       tagChips,      runSearch); });
+
+    if (tags.size > 0) tagFilterGroup.hidden = false;
+    if (types.size > 0 || categories.size > 0 || tags.size > 0) {
+      filterPanel.hidden = false;
+    }
+  }
+
+  // ── Constants ─────────────────────────────────────────────────────────────
+  var SNIPPET_LENGTH = 200;
+
+  // ── Main search ────────────────────────────────────────────────────────────
+  function runSearch() {
+    const rawQuery = input.value.trim();
+    const query    = normalize(rawQuery);
+
+    // Combine type/category/tag chip labels into a single display string
+    const hasFilter = activeTypes.size || activeCategories.size || activeTags.size;
+
+    if (!query && !hasFilter) {
+      resultsList.innerHTML = '';
+      statusEl.textContent  = '';
+      return;
+    }
+
+    // Pre-normalize active filter values once per search run
+    const normCategories = [...activeCategories].map(normalize);
+    const normTags       = [...activeTags].map(normalize);
+
+    const results = allItems.filter(function (item) {
+      // Type filter
+      if (activeTypes.size && !activeTypes.has(item.type)) return false;
+      // Category filter
+      if (normCategories.length) {
+        const cats = (item.categories || []).map(normalize);
+        if (!normCategories.some(function (c) { return cats.includes(c); })) return false;
+      }
+      // Tag filter
+      if (normTags.length) {
+        const itemTags = (item.tags || []).map(normalize);
+        if (!normTags.some(function (t) { return itemTags.includes(t); })) return false;
+      }
+      // Text search
+      if (query) {
+        const haystack = normalize([item.title, item.description, item.content].join(' '));
+        return haystack.includes(query);
+      }
+      return true;
+    });
+
+    renderResults(results, rawQuery);
+  }
+
+  // ── Render ─────────────────────────────────────────────────────────────────
+  function renderResults(results, query) {
+    resultsList.innerHTML = '';
+
+    if (results.length === 0) {
+      statusEl.textContent = 'No results found.';
+      return;
+    }
+
+    statusEl.textContent = results.length + ' result' + (results.length === 1 ? '' : 's') + ' found.';
+
+    results.forEach(function (item) {
+      const li = document.createElement('li');
+      li.className = 'search-result-item';
+
+      const badgeHtml = '<span class="result-type-badge result-type-' + escapeHtml(item.type) + '">'
+                      + escapeHtml(typeLabel(item.type)) + '</span>';
+
+      const dateHtml = item.date
+        ? '<span class="result-date">' + escapeHtml(item.date) + '</span>'
+        : '';
+
+      const catsHtml = (item.categories || []).length
+        ? '<span class="result-cats">'
+          + item.categories.map(function (c) { return '<span class="result-cat">' + escapeHtml(c) + '</span>'; }).join('')
+          + '</span>'
+        : '';
+
+      const snippet = (item.description || item.content || '').substring(0, SNIPPET_LENGTH);
+
+      li.innerHTML =
+        '<div class="result-meta">' + badgeHtml + dateHtml + catsHtml + '</div>' +
+        '<a class="result-title" href="' + escapeHtml(item.url) + '">'
+          + highlight(item.title, query)
+        + '</a>' +
+        (snippet ? '<p class="result-snippet">' + highlight(snippet, query) + '</p>' : '');
+
+      resultsList.appendChild(li);
+    });
+  }
+
+  // ── URL param hydration ────────────────────────────────────────────────────
+  function hydrateFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get('q');
+    if (q) {
+      input.value = q;
+    }
+  }
+
+  // ── Sync URL while typing ─────────────────────────────────────────────────
+  function updateUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const q = input.value.trim();
+    if (q) {
+      params.set('q', q);
+    } else {
+      params.delete('q');
+    }
+    const newUrl = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+    window.history.replaceState(null, '', newUrl);
+  }
+
+  // ── Init ──────────────────────────────────────────────────────────────────
+  fetch(INDEX_URL)
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      allItems = data;
+      buildFilters(data);
+      hydrateFromUrl();
+      if (input.value) runSearch();
+    })
+    .catch(function () {
+      statusEl.textContent = 'Search index could not be loaded.';
+    });
+
+  let debounceTimer;
+  input.addEventListener('input', function () {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(function () {
+      updateUrl();
+      runSearch();
+    }, 200);
+  });
+
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      clearTimeout(debounceTimer);
+      updateUrl();
+      runSearch();
+    }
+  });
+})();
+</script>
