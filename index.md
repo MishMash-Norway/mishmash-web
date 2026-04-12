@@ -124,36 +124,36 @@ Numerous international academic and non-academic partners will also be involved,
 
 <div class="social-icon-row" style="display:flex;justify-content:center;gap:24px;flex-wrap:nowrap;align-items:center;white-space:nowrap;">
     <img src="assets/images/logos/NFR/Sort/Stottet_av_Forskningsradet_logo_Engelsk_01_Weller_RGB.svg" alt="RCN logo" width="400">
-    <a href="mailto:contact@mishmash.no" style="text-align:center;width:100px;display:inline-block;">
-        <img class="icon" src="/assets/images/icons/catalogue/email.svg" alt="Contact e-mail" width="64" style="display:block;margin:0 auto;">
+    <a class="social-icon-link" href="mailto:contact@mishmash.no" style="text-align:center;width:100px;display:inline-block;">
+        <img class="icon icon-email" src="/assets/images/icons/catalogue/email.svg" alt="Contact e-mail" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">Contact</span>
     </a>
-    <a href="https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info" style="text-align:center;width:100px;display:inline-block;">
-        <img class="icon" src="/assets/images/icons/catalogue/newsletter.svg" alt="Mailing list" width="64" style="display:block;margin:0 auto;">
+    <a class="social-icon-link" href="https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info" style="text-align:center;width:100px;display:inline-block;">
+        <img class="icon icon-newsletter" src="/assets/images/icons/catalogue/newsletter.svg" alt="Mailing list" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">Mailing list</span>
     </a>
-    <a href="https://www.linkedin.com/company/107529241/" style="text-align:center;width:100px;display:inline-block;">
-        <img class="icon" src="/assets/images/icons/catalogue/linkedin.svg" alt="LinkedIn" width="64" style="display:block;margin:0 auto;">
+    <a class="social-icon-link" href="https://www.linkedin.com/company/107529241/" style="text-align:center;width:100px;display:inline-block;">
+        <img class="icon icon-linkedin" src="/assets/images/icons/catalogue/linkedin.svg" alt="LinkedIn" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">LinkedIn</span>
     </a>
-    <a href="https://www.instagram.com/aimishmash/" style="text-align:center;width:100px;display:inline-block;">
-        <img class="icon" src="/assets/images/icons/catalogue/instagram.svg" alt="Instagram" width="64" style="display:block;margin:0 auto;">
+    <a class="social-icon-link" href="https://www.instagram.com/aimishmash/" style="text-align:center;width:100px;display:inline-block;">
+        <img class="icon icon-instagram" src="/assets/images/icons/catalogue/instagram.svg" alt="Instagram" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">Instagram</span>
     </a>
-    <a href="https://github.com/MishMash-Norway/" style="text-align:center;width:100px;display:inline-block;">
-        <img class="icon" src="/assets/images/icons/catalogue/github.svg" alt="GitHub" width="64" style="display:block;margin:0 auto;">
+    <a class="social-icon-link" href="https://github.com/MishMash-Norway/" style="text-align:center;width:100px;display:inline-block;">
+        <img class="icon icon-github" src="/assets/images/icons/catalogue/github.svg" alt="GitHub" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">GitHub</span>
     </a>
-    <a href="https://www.youtube.com/@MishMashNorway" style="text-align:center;width:100px;display:inline-block;">
-        <img class="icon" src="/assets/images/icons/catalogue/youtube.svg" alt="YouTube" width="64" style="display:block;margin:0 auto;">
+    <a class="social-icon-link" href="https://www.youtube.com/@MishMashNorway" style="text-align:center;width:100px;display:inline-block;">
+        <img class="icon icon-youtube" src="/assets/images/icons/catalogue/youtube.svg" alt="YouTube" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">YouTube</span>
     </a>
-    <a href="/news/feed.xml" style="text-align:center;width:100px;display:inline-block;">
-        <img class="icon" src="/assets/images/icons/catalogue/rss.svg" alt="News RSS" width="64" style="display:block;margin:0 auto;">
+    <a class="social-icon-link" href="/news/feed.xml" style="text-align:center;width:100px;display:inline-block;">
+        <img class="icon icon-rss" src="/assets/images/icons/catalogue/rss.svg" alt="News RSS" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">News RSS</span>
     </a>
-    <a href="/events/calendar.ics" style="text-align:center;width:100px;display:inline-block;">
-        <img class="icon" src="/assets/images/icons/catalogue/calendar.svg" alt="MishMash iCal" width="64" style="display:block;margin:0 auto;">
+    <a class="social-icon-link" href="/events/calendar.ics" style="text-align:center;width:100px;display:inline-block;">
+        <img class="icon icon-calendar" src="/assets/images/icons/catalogue/calendar.svg" alt="MishMash iCal" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">iCal</span>
     </a>
 </div>
