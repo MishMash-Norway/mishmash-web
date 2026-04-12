@@ -5,13 +5,12 @@ redirect_from:
 	- /organisation/board/
 ---
 
-# MishMash Board
-
 The MishMash Board provides governance and oversight of the centre's strategic directions and activities.
 
 ## Role
 
 The Board is responsible for:
+
 - Governance and oversight of MishMash
 - Strategic decisions on the future direction of the centre
 - Ensuring quality and impact of research
