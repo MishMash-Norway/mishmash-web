@@ -2,7 +2,7 @@
 layout: page
 title: Work Package Leader Group
 redirect_from:
-	- /organisation/wp-leaders/
+  - /organisation/wp-leaders/
 ---
 
 The Work Package Leader Group consists of the leaders and co-leaders of MishMash's seven scientific work packages.

@@ -2,7 +2,7 @@
 layout: page
 title: Board
 redirect_from:
-	- /organisation/board/
+  - /organisation/board/
 ---
 
 The MishMash Board provides governance and oversight of the centre's strategic directions and activities.

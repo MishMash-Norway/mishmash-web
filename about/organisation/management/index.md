@@ -2,7 +2,7 @@
 layout: page
 title: Management
 redirect_from:
-	- /organisation/management/
+  - /organisation/management/
 ---
 
 The Management group handles the day-to-day coordination and administration of MishMash activities.

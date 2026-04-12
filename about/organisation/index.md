@@ -2,7 +2,7 @@
 layout: page
 title: Organization
 redirect_from:
-	- /organisation/
+  - /organisation/
 ---
 
 MishMash is governed and managed by several organizational bodies, each with specific responsibilities and roles:

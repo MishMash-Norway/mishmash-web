@@ -2,7 +2,7 @@
 layout: page
 title: Stakeholder Board
 redirect_from:
-	- /organisation/stakeholder-board/
+  - /organisation/stakeholder-board/
 ---
 
 # Stakeholder Board

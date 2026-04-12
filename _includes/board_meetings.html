@@ -1,5 +1,5 @@
 {% comment %}Render board meeting pages from about/organisation/board/meetings/, newest first{% endcomment %}
-{% assign meetings = site.pages | where_exp: 'item', "item.path contains 'about/organisation/board/meetings/' and item.name == 'index.md'" | sort: 'url' | reverse %}
+{% assign meetings = site.pages | where_exp: 'item', "item.path contains 'about/organisation/board/meetings/'" | where: 'name', 'index.md' | sort: 'url' | reverse %}
 {% if meetings and meetings.size > 0 %}
 <table>
   <thead>
