@@ -31,21 +31,27 @@ This raises critical questions about cultural agency: Who decides what stories a
 <div class="wp-member-row">
     <a href="https://www.uib.no/en/persons/Budhaditya.Chattopadhyay"><img src="/assets/images/portraits/circle/Budhaditya_Chattopadhyay_UiB.png" alt="Budhaditya Chattopadhyay" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.uib.no/en/persons/Budhaditya.Chattopadhyay">Budhaditya Chattopadhyay</a> (University of Bergen) - Lead
+    <a href="https://www.uib.no/en/persons/Budhaditya.Chattopadhyay">Budhaditya Chattopadhyay</a><br>
+    University of Bergen<br>
+    Lead
     </div>
 </div>
 
 <div class="wp-member-row">
     <a href="https://www.inn.no/english/find-an-employee/sashi-komandur.html"><img src="/assets/images/portraits/circle/Sashidharan_Komandur_INN.png" alt="Sashi Komandur" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.inn.no/english/find-an-employee/sashi-komandur.html">Sashi Komandur</a> (University of Inland Norway) - Co-lead
+    <a href="https://www.inn.no/english/find-an-employee/sashi-komandur.html">Sashi Komandur</a><br>
+    University of Inland Norway<br>
+    Co-lead
     </div>
 </div>
 
 <div class="wp-member-row">
     <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/"><img src="/assets/images/portraits/circle/Synne_Tollerud_Bull_Kristiania.png" alt="Synne Tollerud Bull" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/">Synne Tollerud Bull</a> (Kristiania University College) - Co-lead
+    <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/">Synne Tollerud Bull</a><br>
+    Kristiania University College<br>
+    Co-lead
     </div>
 </div>
 

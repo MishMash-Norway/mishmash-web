@@ -35,21 +35,27 @@ The public sector must lead in these technologies, ensuring that powerful new ca
 <div class="wp-member-row">
     <a href="https://www.nb.no/ansatte/ingrid-romarheim-haugen/"><img src="/assets/images/portraits/circle/Ingrid_Romarheim_Haugen_NB.png" alt="Ingrid Romarheim Haugen" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.nb.no/ansatte/ingrid-romarheim-haugen/">Ingrid Romarheim Haugen</a> (National Library of Norway) - Lead
+    <a href="https://www.nb.no/ansatte/ingrid-romarheim-haugen/">Ingrid Romarheim Haugen</a><br>
+    National Library of Norway<br>
+    Lead
     </div>
 </div>
 
 <div class="wp-member-row">
     <a href="https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes"><img src="/assets/images/portraits/circle/Arnulf_Mattes_UiB.png" alt="Arnulf Mattes" class="wp-member-photo"></a>
     <div>
-    <a href="https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes">Arnulf Mattes</a> (University of Bergen) - Co-lead
+    <a href="https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes">Arnulf Mattes</a><br>
+    University of Bergen<br>
+    Co-lead
     </div>
 </div>
 
 <div class="wp-member-row">
     <a href="https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html"><img src="/assets/images/portraits/circle/Olivier_Lartillot_UiO.png" alt="Olivier Lartillot" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html">Olivier Lartillot</a> (University of Oslo) - Co-lead
+    <a href="https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html">Olivier Lartillot</a><br>
+    University of Oslo<br>
+    Co-lead
     </div>
 </div>
 

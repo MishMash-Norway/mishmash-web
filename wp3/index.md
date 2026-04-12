@@ -31,21 +31,27 @@ Ethical considerations are central to this WP, especially how AI can be used res
 <div class="wp-member-row">
     <a href="https://www.uib.no/en/persons/Claire.Ghetti"><img src="/assets/images/portraits/circle/Claire_Ghetti_UiB.png" alt="Claire Ghetti" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.uib.no/en/persons/Claire.Ghetti">Claire Ghetti</a> (University of Bergen) - Lead
+    <a href="https://www.uib.no/en/persons/Claire.Ghetti">Claire Ghetti</a><br>
+    University of Bergen<br>
+    Lead
     </div>
 </div>
 
 <div class="wp-member-row">
     <a href="https://www.ntnu.edu/employees/andreas.bergsland"><img src="/assets/images/portraits/circle/Andreas_Bergsland_NTNU.png" alt="Andreas Bergsland" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.ntnu.edu/employees/andreas.bergsland">Andreas Bergsland</a> (NTNU) - Co-lead
+    <a href="https://www.ntnu.edu/employees/andreas.bergsland">Andreas Bergsland</a><br>
+    NTNU<br>
+    Co-lead
     </div>
 </div>
 
 <div class="wp-member-row">
     <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html"><img src="/assets/images/portraits/circle/Jonna_Vuoskoski_UiO.png" alt="Jonna Vuoskoski" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html">Jonna Vuoskoski</a> (University of Oslo) - Co-lead
+    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html">Jonna Vuoskoski</a><br>
+    University of Oslo<br>
+    Co-lead
     </div>
 </div>
 

@@ -31,7 +31,8 @@ The Board is responsible for:
     <a href="https://notam.no/en/about-us/employees/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Christian_Blom_NOTAM.jpg" alt="Christian Blom"></a>
     <div>
     <a href="https://notam.no/en/about-us/employees/">Christian Blom</a><br>
-    Notam - Norwegian Centre for Technology, Art and Music
+    Notam - Norwegian Centre for Technology, Art and Music<br>
+    Member
     </div>
 </div>
 
@@ -39,7 +40,8 @@ The Board is responsible for:
     <a href="https://reimagine.no/contact"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Christian_Schussler_Reimagine.jpg" alt="Christian Schussler"></a>
     <div>
     <a href="https://reimagine.no/contact">Christian Schüssler</a><br>
-    Reimagine
+    Reimagine<br>
+    Member
     </div>
 </div>
 
@@ -47,7 +49,8 @@ The Board is responsible for:
     <a href="https://www.nb.no/ansatte/hege-stensrud-hosoien/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Hege_Stensrud_Hosoien_NB.jpg" alt="Hege Stensrud Hosoien"></a>
     <div>
     <a href="https://www.nb.no/ansatte/hege-stensrud-hosoien/">Hege Stensrud Høsøien</a><br>
-    National Library of Norway
+    National Library of Norway<br>
+    Member
     </div>
 </div>
 
@@ -55,7 +58,8 @@ The Board is responsible for:
     <a href="https://www.hvl.no/person/?user=tine.viig"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Tine_Grieg_Viig_HVL.png" alt="Tine Grieg Viig"></a>
     <div>
     <a href="https://www.hvl.no/person/?user=tine.viig">Tine Grieg Viig</a><br>
-    Western Norway University of Applied Sciences
+    Western Norway University of Applied Sciences<br>
+    Member
     </div>
 </div>
 

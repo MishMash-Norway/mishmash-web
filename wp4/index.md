@@ -31,21 +31,27 @@ The aim is to equip future practitioners and educators with the competence to na
 <div class="wp-member-row">
     <a href="https://www.uia.no/english/about-uia/employees/eiriks05/"><img src="/assets/images/portraits/circle/eirik_sorbo_UiA.png" alt="Eirik Sørbø" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.uia.no/english/about-uia/employees/eiriks05/">Eirik Sørbø</a> (University of Agder) - Lead
+    <a href="https://www.uia.no/english/about-uia/employees/eiriks05/">Eirik Sørbø</a><br>
+    University of Agder<br>
+    Lead
     </div>
 </div>
 
 <div class="wp-member-row">
     <a href="https://nmh.no/en/contact-us/employees/sidsel-karlsen"><img src="/assets/images/portraits/circle/Sidsel_Karlsen_NMH.png" alt="Sidsel Karlsen" class="wp-member-photo"></a>
     <div>
-    <a href="https://nmh.no/en/contact-us/employees/sidsel-karlsen">Sidsel Karlsen</a> (Norwegian Academy of Music) - Co-lead
+    <a href="https://nmh.no/en/contact-us/employees/sidsel-karlsen">Sidsel Karlsen</a><br>
+    Norwegian Academy of Music<br>
+    Co-lead
     </div>
 </div>
 
 <div class="wp-member-row">
     <a href="https://www.inn.no/english/find-an-employee/fredrik-graver.html"><img src="/assets/images/portraits/circle/Fredrik_Graver_INN.png" alt="Fredrik Graver" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.inn.no/english/find-an-employee/fredrik-graver.html">Fredrik Graver</a> (University of Inland Norway) - Co-lead
+    <a href="https://www.inn.no/english/find-an-employee/fredrik-graver.html">Fredrik Graver</a><br>
+    University of Inland Norway<br>
+    Co-lead
     </div>
 </div>
 

@@ -36,21 +36,27 @@ This work package examines these transformations across four interconnected area
 <div class="wp-member-row">
     <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html"><img src="/assets/images/portraits/circle/Ragnhild_Brovig_UiO.png" alt="Ragnhild Brøvig" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html">Ragnhild Brøvig</a> (University of Oslo) - Lead
+    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html">Ragnhild Brøvig</a><br>
+    University of Oslo<br>
+    Lead
     </div>
 </div>
 
 <div class="wp-member-row">
     <a href="https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/"><img src="/assets/images/portraits/circle/Irina_Eidsvold_Toien_BI.png" alt="Irina Eidsvold-Tøien" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/">Irina Eidsvold-Tøien</a> (Norwegian Business School) - Co-lead
+    <a href="https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/">Irina Eidsvold-Tøien</a><br>
+    Norwegian Business School<br>
+    Co-lead
     </div>
 </div>
 
 <div class="wp-member-row">
     <a href="https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175"><img src="/assets/images/portraits/circle/Jon_Marius_Aareskjold-Drecker_UiT.png" alt="Jon Marius Aareskjold-Drecker" class="wp-member-photo"></a>
     <div>
-    <a href="https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175">Jon Marius Aareskjold-Drecker</a> (University of Tromsø) - Co-lead
+    <a href="https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175">Jon Marius Aareskjold-Drecker</a><br>
+    University of Tromsø<br>
+    Co-lead
     </div>
 </div>
 
