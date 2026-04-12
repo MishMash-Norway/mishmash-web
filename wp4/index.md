@@ -5,7 +5,7 @@ title: "WP4: Creative use of AI in education"
 
 # WP4: Creative use of AI in education
 
-This WP explores how education can harness AI to enhance learning opportunities, foster creativity, and support critical thinking and AI literacy. The rapid inclusion of AI into education presents transformative opportunities and challenges for teaching and learning alongside significant pedagogical, ethical and practical issues. 
+This WP explores how education can harness AI to enhance learning opportunities, foster creativity, and support critical thinking and AI literacy. The rapid inclusion of AI into education presents transformative opportunities and challenges for teaching and learning alongside significant pedagogical, ethical and practical issues.
 
 ## Description
 

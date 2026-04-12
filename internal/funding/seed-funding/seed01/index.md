@@ -40,7 +40,6 @@ When processing each application, emphasis will be placed on the initiative's qu
 
 Please keep in mind that there will be new opportunities coming up at regular intervals, so don't feel the need to rush to apply this time around.
 
-
 ## Results
 
 | Project | Applicant | Institution | Funding |
@@ -81,5 +80,4 @@ Please keep in mind that there will be new opportunities coming up at regular in
 |TAO - Transductive Acoustic Organism |enrique encinas |AHO |25000 |
 |Composition using text-sound-video multimodal machine learning |Zoi Efstathiou |NMH |0 |
 |Cinema Syntethica Lab 4.0 - Co-creating film with AI |Hanne-Lovise Skartveit |INN |0 |
-
 

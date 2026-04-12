@@ -5,7 +5,7 @@ title: "WP1: AI for artistic performances"
 
 # WP1: AI for artistic performances
 
-This WP focuses on how real-time interaction with AI systems transforms the creative process in applications such as music and art performance, interactive installations, and gaming. We will emphasise AI systems that facilitate continuous interactions between humans and machine agents, especially multiple and embodied AI agents. 
+This WP focuses on how real-time interaction with AI systems transforms the creative process in applications such as music and art performance, interactive installations, and gaming. We will emphasise AI systems that facilitate continuous interactions between humans and machine agents, especially multiple and embodied AI agents.
 
 ## Description
 
@@ -29,7 +29,7 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
 - **REFLECT:** on current challenges and barriers to artistic real-time applications of AI to inform the creation of new algorithms and systems.
 
 ## Work Package Leaders
-  
+
 <div style="display:flex;align-items:center;margin-bottom:1em">
     <a href="https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html"><img src="/assets/images/portraits/circle/Kyrre_Glette_UiO.png" alt="Kyrre Glette" width="100" style="margin-right:1em"></a>
     <div>

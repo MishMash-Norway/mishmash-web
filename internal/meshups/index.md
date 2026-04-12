@@ -1,6 +1,6 @@
 ## MeshUp
 
-General structure for Thursday MeshUps: 
+General structure for Thursday MeshUps:
 
 - 11:50-12:00: Tech test
 - 12:00-12:02: Wait for people to arrive

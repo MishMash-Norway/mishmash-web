@@ -5,20 +5,18 @@ redirect_from:
   - /organisation/council/
 ---
 
-# Council
-
 The Council provides strategic guidance and oversight of MishMash activities.
 
 ## Role
 
 The Council is responsible for:
+
 - Strategic direction and planning
 - Policy guidance
 - Ensuring alignment with consortium objectives
 - Facilitating coordination between partner institutions
 
 ## Members
-
 
 - [André Alexandersen Hauge](https://www.hiof.no/iio/itk/english/people/adm/andreh/index.html) (Østfold University College)
 - [Charles Martin](https://comp.anu.edu.au/people/charles-martin/) (Australian National University)
@@ -41,4 +39,4 @@ The Council is responsible for:
 
 ## Documents
 
-*Relevant council documents and meeting notes can be found here.*
+Relevant council documents and meeting notes can be found here.

@@ -14,8 +14,6 @@ MishMash partners are now recruiting the first group of doctoral and postdoctora
 
 These positions generally require that a master's degree has been completed.
 
-
-
 | Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
 | UiT The Arctic University of Norway | Artistic | [Artistic Research](https://www.jobbnorge.no/en/available-jobs/job/297022/phd-fellow-within-artistic-research) | 9 May 2026 |

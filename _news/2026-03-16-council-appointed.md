@@ -8,7 +8,7 @@ description: "The MishMash consortium partners have appointed 18 council members
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg
 ---
 
-Following the official signature of the MishMash consortium agreements, the partners have appointed the following members to serve on the MishMash Council:  
+Following the official signature of the MishMash consortium agreements, the partners have appointed the following members to serve on the MishMash Council:
 
 - [André Alexandersen Hauge](https://www.hiof.no/iio/itk/english/people/adm/andreh/index.html) (Østfold University College)
 - [Charles Martin](https://comp.anu.edu.au/people/charles-martin/) (Australian National University)

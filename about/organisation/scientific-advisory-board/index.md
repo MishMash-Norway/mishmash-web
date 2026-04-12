@@ -5,13 +5,12 @@ redirect_from:
   - /organisation/scientific-advisory-board/
 ---
 
-# Scientific Advisory Board
-
 The Scientific Advisory Board consists of international experts who provide scientific guidance and evaluation of MishMash research.
 
 ## Role
 
 The Scientific Advisory Board is responsible for:
+
 - Providing international scientific perspective
 - Evaluating research quality and progress
 - Offering guidance on research directions
@@ -32,7 +31,6 @@ The Scientific Advisory Board is responsible for:
 - [Xavier Serra](https://www.upf.edu/web/xavier-serra) (Prof. music technology, Universitat Pompeu Fabra, Spain)
 - [Zhang Qian](https://mra.cuc.edu.cn/yy/2023/0428/c9672a206535/page.htm) (Prof. music and recording art, Communication University of China, China)
 
-
 ## Documents
 
-*Relevant scientific advisory board documents and reports can be found here.*
+Relevant scientific advisory board documents and reports can be found here.

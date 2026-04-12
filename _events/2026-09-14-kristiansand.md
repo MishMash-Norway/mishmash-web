@@ -10,6 +10,6 @@ image: "/assets/images/illustrations/Kilden-bygg-banner-slider-2426463652.jpg"
 slug: "kristiansand2026"
 ---
 
-MishMash's opening conference will contain a program consisting of parallel thematic sessions, keynote lectures, performances, and art installations. 
+MishMash's opening conference will contain a program consisting of parallel thematic sessions, keynote lectures, performances, and art installations.
 
 ![Kilden Kristiansand](/assets/images/illustrations/Kilden-bygg-banner-slider-2426463652.jpg)
