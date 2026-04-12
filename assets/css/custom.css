@@ -36,6 +36,13 @@ a:focus {
   color: #A7A1F4 !important;
 }
 
+.page-header a,
+.page-header a:hover,
+.page-header a:focus,
+.page-header a:focus-visible {
+  text-decoration: none !important;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Inter:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 
