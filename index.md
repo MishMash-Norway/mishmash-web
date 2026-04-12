@@ -154,6 +154,6 @@ Numerous international academic and non-academic partners will also be involved,
     </a>
     <a href="/events/calendar.ics" style="text-align:center;width:100px;display:inline-block;">
         <img class="icon" src="/assets/images/icons/catalogue/calendar.svg" alt="MishMash iCal" width="64" style="display:block;margin:0 auto;">
-        <span style="display:block;margin-top:8px;font-size:0.9rem;">MishMash iCal</span>
+        <span style="display:block;margin-top:8px;font-size:0.9rem;">iCal</span>
     </a>
 </div>
