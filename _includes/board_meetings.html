@@ -5,7 +5,9 @@
   <thead>
     <tr>
       <th>Date</th>
-      <th>Meeting</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Location</th>
       <th>Agenda</th>
       <th>Protocol</th>
     </tr>
@@ -15,8 +17,10 @@
     {% assign meeting_path_parts = meeting.url | split: '/' %}
     {% assign meeting_folder = meeting_path_parts[5] %}
     <tr>
-      <td>{{ meeting.meeting_datetime | default: meeting_folder }}</td>
-      <td>{{ meeting.title }}</td>
+      <td>{{ meeting.meeting_date | default: meeting_folder }}</td>
+      <td>{{ meeting.meeting_start | default: '—' }}</td>
+      <td>{{ meeting.meeting_end | default: '—' }}</td>
+      <td>{{ meeting.meeting_location | default: '—' }}</td>
       <td><a href="{{ meeting.url | relative_url }}">Agenda</a></td>
       <td>{% if meeting.protocol_url %}<a href="{{ meeting.protocol_url }}">Protocol</a>{% else %}—{% endif %}</td>
     </tr>
