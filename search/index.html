@@ -63,6 +63,7 @@ title: Search
 
   // ── Helpers ────────────────────────────────────────────────────────────────
   function normalize(str) {
+    // NFD decomposition + diacritic strip makes searches accent-insensitive (e.g. "musik" matches "Müsik")
     return (str || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   }
 
@@ -140,7 +141,7 @@ title: Search
   }
 
   // ── Constants ─────────────────────────────────────────────────────────────
-  var SNIPPET_LENGTH = 200;
+  const SNIPPET_LENGTH = 200;
 
   // ── Main search ────────────────────────────────────────────────────────────
   function runSearch() {
