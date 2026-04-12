@@ -29,4 +29,6 @@ The Board is responsible for:
 
 ## Documents
 
-*Relevant board documents and meeting minutes can be found here.*
+### Board Meeting Agendas and Protocols
+
+{% include board_meetings.html %}
