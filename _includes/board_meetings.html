@@ -1,5 +1,5 @@
-{% comment %}Render a table of board meeting agendas and protocols from _data/board_meetings.yml{% endcomment %}
-{% assign meetings = site.data.board_meetings %}
+{% comment %}Render board meeting pages from about/organisation/board/meetings/, newest first{% endcomment %}
+{% assign meetings = site.pages | where_exp: 'item', "item.path contains 'about/organisation/board/meetings/' and item.name == 'index.md'" | sort: 'url' | reverse %}
 {% if meetings and meetings.size > 0 %}
 <table>
   <thead>
@@ -12,11 +12,13 @@
   </thead>
   <tbody>
     {% for meeting in meetings %}
+    {% assign meeting_path_parts = meeting.url | split: '/' %}
+    {% assign meeting_folder = meeting_path_parts[5] %}
     <tr>
-      <td>{{ meeting.date | date: "%Y-%m-%d" }}</td>
+      <td>{{ meeting.meeting_datetime | default: meeting_folder }}</td>
       <td>{{ meeting.title }}</td>
-      <td>{% if meeting.agenda %}<a href="{{ meeting.agenda }}">Agenda</a>{% else %}—{% endif %}</td>
-      <td>{% if meeting.protocol %}<a href="{{ meeting.protocol }}">Protocol</a>{% else %}—{% endif %}</td>
+      <td><a href="{{ meeting.url | relative_url }}">Agenda</a></td>
+      <td>{% if meeting.protocol_url %}<a href="{{ meeting.protocol_url }}">Protocol</a>{% else %}—{% endif %}</td>
     </tr>
     {% endfor %}
   </tbody>
