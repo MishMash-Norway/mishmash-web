@@ -193,6 +193,26 @@ a:focus-visible .blink-eye-thumb,
 .button:active { transform: translateY(0); }
 .button:focus-visible { outline: 3px solid rgba(10,102,194,.18); outline-offset: 3px; }
 
+/* Front-page icon helper */
+.icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform .2s ease, filter .2s ease;
+}
+
+.icon:hover,
+a:hover .icon,
+a:focus-visible .icon {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+.icon--purple { fill: #A7A1F4; }
+.icon--green { fill: #C1F7AE; }
+.icon--dark { fill: #363644; }
+
 /* Language switcher */
 .lang-switcher {
   display: inline-flex;
