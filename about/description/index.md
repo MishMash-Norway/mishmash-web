@@ -59,3 +59,14 @@ The centre will be a lively, virtual research environment, with weekly online me
 The plan is to formally start the centre in December 2025, recruit doctoral and postdoctoral fellows during the spring of 2026 and get up to full speed from the autumn of 2026.
 
 ![MishMash Gantt chart](https://www.arj.no/images/2025/06/MishMash-gantt.png)
+
+## Who?
+
+MishMash is governed and managed by several organizational bodies, each with specific responsibilities and roles:
+
+- [Management](/about/organisation/management/) — Day-to-day management and coordination of MishMash activities
+- [Work Package Leader Group](/about/organisation/wp-leaders/) — Leads of the seven scientific work packages
+- [Board](/about/organisation/board/) — Governance and decision-making body
+- [Council](/about/organisation/council/) — Strategic oversight and partner compliance
+- [Scientific Advisory Board](/about/organisation/scientific-advisory-board/) — International scientific guidance and evaluation
+- [Stakeholder Board](/about/organisation/stakeholder-board/) — Representatives from partner organisations and stakeholders
