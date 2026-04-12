@@ -122,7 +122,7 @@ Numerous international academic and non-academic partners will also be involved,
 ---
 
 
-<div style="display:flex;justify-content:center;gap:24px;flex-wrap:nowrap;align-items:center;white-space:nowrap;">
+<div class="social-icon-row" style="display:flex;justify-content:center;gap:24px;flex-wrap:nowrap;align-items:center;white-space:nowrap;">
     <img src="assets/images/logos/NFR/Sort/Stottet_av_Forskningsradet_logo_Engelsk_01_Weller_RGB.svg" alt="RCN logo" width="400">
     <a href="mailto:contact@mishmash.no" style="text-align:center;width:100px;display:inline-block;">
         <img class="icon" src="/assets/images/icons/catalogue/email.svg" alt="Contact e-mail" width="64" style="display:block;margin:0 auto;">

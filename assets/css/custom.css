@@ -220,6 +220,14 @@ a:focus-visible .icon {
 .icon--green { fill: #C1F7AE; }
 .icon--dark { fill: #363644; }
 
+.social-icon-row .icon {
+  width: 64px !important;
+  height: 64px !important;
+  min-width: 64px;
+  min-height: 64px;
+  object-fit: contain;
+}
+
 /* Language switcher */
 .lang-switcher {
   display: inline-flex;
