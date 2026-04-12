@@ -1,0 +1,26 @@
+---
+layout: null
+---
+[
+  {% assign pages_to_index = site.pages | where_exp: "p", "p.title != nil" %}
+  {% assign all_items = pages_to_index %}
+  {% assign all_items = all_items | concat: site.events %}
+  {% assign all_items = all_items | concat: site.news %}
+  {% assign comma = false %}
+  {% for item in all_items %}
+    {% unless item.draft %}
+      {% if comma %},{% endif %}
+      {% assign comma = true %}
+      {
+        "title": {{ item.title | jsonify }},
+        "url": {{ item.url | relative_url | jsonify }},
+        "date": {{ item.date | date: "%Y-%m-%d" | jsonify }},
+        "categories": {{ item.categories | default: empty | jsonify }},
+        "tags": {{ item.tags | default: empty | jsonify }},
+        "description": {{ item.description | default: "" | strip_html | jsonify }},
+        "content": {{ item.content | default: item.excerpt | strip_html | truncatewords: 100 | jsonify }},
+        "type": {% if item.collection == "events" %}"event"{% elsif item.collection == "news" %}"news"{% else %}"page"{% endif %}
+      }
+    {% endunless %}
+  {% endfor %}
+]
