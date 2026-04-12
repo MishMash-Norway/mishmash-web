@@ -18,23 +18,64 @@ The Board is responsible for:
 
 ## Members
 
-![Sunniva Whittaker](../../../assets/images/portraits/square/Sunniva_Whittaker_UiA.jpg){: .person-thumb } [Sunniva Whittaker](https://www.uia.no/english/about-uia/employees/sunnivaw/)  
-  University of Agder  
-  Leader
-![Christian Blom](../../../assets/images/portraits/square/Christian_Blom_NOTAM.jpg){: .person-thumb } [Christian Blom](https://notam.no/en/about-us/employees/)  
-  Notam – Norwegian Centre for Technology, Art and Music
-![Christian Schussler](../../../assets/images/portraits/square/Christian_Schussler_Reimagine.jpg){: .person-thumb } [Christian Schüssler](https://reimagine.no/contact)  
-  Reimagine
-![Hege Stensrud Hosoien](../../../assets/images/portraits/square/Hege_Stensrud_Hosoien_NB.jpg){: .person-thumb } [Hege Stensrud Høsøien](https://www.nb.no/ansatte/hege-stensrud-hosoien/)  
-  National Library of Norway
-![Tine Grieg Viig](../../../assets/images/portraits/square/Tine_Grieg_Viig_HVL.png){: .person-thumb } [Tine Grieg Viig](https://www.hvl.no/person/?user=tine.viig)  
-  Western Norway University of Applied Sciences
-![Alexander Refsum Jensenius](../../../assets/images/portraits/square/Alexander_Refsum_Jensenius_UiO.jpg){: .person-thumb } [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/)  
-  University of Oslo  
-  Observer
-![Eskil Muan Saether](../../../assets/images/portraits/square/eskil_muan_saether_UiO.jpg){: .person-thumb } [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html)  
-  University of Oslo  
-  Secretary
+<div class="board-member-row">
+    <a href="https://www.uia.no/english/about-uia/employees/sunnivaw/"><img class="board-member-photo" src="/assets/images/portraits/square/Sunniva_Whittaker_UiA.jpg" alt="Sunniva Whittaker"></a>
+    <div>
+    <a href="https://www.uia.no/english/about-uia/employees/sunnivaw/">Sunniva Whittaker</a><br>
+    University of Agder<br>
+    Leader
+    </div>
+</div>
+
+<div class="board-member-row">
+    <a href="https://notam.no/en/about-us/employees/"><img class="board-member-photo" src="/assets/images/portraits/square/Christian_Blom_NOTAM.jpg" alt="Christian Blom"></a>
+    <div>
+    <a href="https://notam.no/en/about-us/employees/">Christian Blom</a><br>
+    Notam - Norwegian Centre for Technology, Art and Music
+    </div>
+</div>
+
+<div class="board-member-row">
+    <a href="https://reimagine.no/contact"><img class="board-member-photo" src="/assets/images/portraits/square/Christian_Schussler_Reimagine.jpg" alt="Christian Schussler"></a>
+    <div>
+    <a href="https://reimagine.no/contact">Christian Schüssler</a><br>
+    Reimagine
+    </div>
+</div>
+
+<div class="board-member-row">
+    <a href="https://www.nb.no/ansatte/hege-stensrud-hosoien/"><img class="board-member-photo" src="/assets/images/portraits/square/Hege_Stensrud_Hosoien_NB.jpg" alt="Hege Stensrud Hosoien"></a>
+    <div>
+    <a href="https://www.nb.no/ansatte/hege-stensrud-hosoien/">Hege Stensrud Høsøien</a><br>
+    National Library of Norway
+    </div>
+</div>
+
+<div class="board-member-row">
+    <a href="https://www.hvl.no/person/?user=tine.viig"><img class="board-member-photo" src="/assets/images/portraits/square/Tine_Grieg_Viig_HVL.png" alt="Tine Grieg Viig"></a>
+    <div>
+    <a href="https://www.hvl.no/person/?user=tine.viig">Tine Grieg Viig</a><br>
+    Western Norway University of Applied Sciences
+    </div>
+</div>
+
+<div class="board-member-row">
+    <a href="https://www.uio.no/ritmo/english/people/management/alexanje/"><img class="board-member-photo" src="/assets/images/portraits/square/Alexander_Refsum_Jensenius_UiO.jpg" alt="Alexander Refsum Jensenius"></a>
+    <div>
+    <a href="https://www.uio.no/ritmo/english/people/management/alexanje/">Alexander Refsum Jensenius</a><br>
+    University of Oslo<br>
+    Observer
+    </div>
+</div>
+
+<div class="board-member-row">
+    <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html"><img class="board-member-photo" src="/assets/images/portraits/square/eskil_muan_saether_UiO.jpg" alt="Eskil Muan Saether"></a>
+    <div>
+    <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html">Eskil Muan Sæther</a><br>
+    University of Oslo<br>
+    Secretary
+    </div>
+</div>
 
 ## Documents
 

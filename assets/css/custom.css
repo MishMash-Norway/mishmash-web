@@ -108,6 +108,24 @@ body {
   min-width: 0;
 }
 
+/* Board/WP member listing (image left, text right) */
+.board-member-row,
+.wp-member-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.board-member-photo,
+.wp-member-photo {
+  width: 100px;
+  height: 100px;
+  margin-right: 1em;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+
 .event-desc {
   margin: 0.4rem 0 0 0;
   color: #55606a;

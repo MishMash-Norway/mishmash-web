@@ -28,22 +28,22 @@ Ethical considerations are central to this WP, especially how AI can be used res
 
 ## Work Package Leaders
 
-<div style="display:flex;align-items:center;margin-bottom:1em">
-    <a href="https://www.uib.no/en/persons/Claire.Ghetti"><img src="/assets/images/portraits/circle/Claire_Ghetti_UiB.png" alt="Claire Ghetti" width="100" style="margin-right:1em"></a>
+<div class="wp-member-row">
+    <a href="https://www.uib.no/en/persons/Claire.Ghetti"><img src="/assets/images/portraits/circle/Claire_Ghetti_UiB.png" alt="Claire Ghetti" class="wp-member-photo"></a>
     <div>
     <a href="https://www.uib.no/en/persons/Claire.Ghetti">Claire Ghetti</a> (University of Bergen) - Lead
     </div>
 </div>
 
-<div style="display:flex;align-items:center;margin-bottom:1em">
-    <a href="https://www.ntnu.edu/employees/andreas.bergsland"><img src="/assets/images/portraits/circle/Andreas_Bergsland_NTNU.png" alt="Andreas Bergsland" width="100" style="margin-right:1em"></a>
+<div class="wp-member-row">
+    <a href="https://www.ntnu.edu/employees/andreas.bergsland"><img src="/assets/images/portraits/circle/Andreas_Bergsland_NTNU.png" alt="Andreas Bergsland" class="wp-member-photo"></a>
     <div>
     <a href="https://www.ntnu.edu/employees/andreas.bergsland">Andreas Bergsland</a> (NTNU) - Co-lead
     </div>
 </div>
 
-<div style="display:flex;align-items:center;margin-bottom:1em">
-    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html"><img src="/assets/images/portraits/circle/Jonna_Vuoskoski_UiO.png" alt="Jonna Vuoskoski" width="100" style="margin-right:1em"></a>
+<div class="wp-member-row">
+    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html"><img src="/assets/images/portraits/circle/Jonna_Vuoskoski_UiO.png" alt="Jonna Vuoskoski" class="wp-member-photo"></a>
     <div>
     <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html">Jonna Vuoskoski</a> (University of Oslo) - Co-lead
     </div>

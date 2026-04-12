@@ -32,22 +32,22 @@ The public sector must lead in these technologies, ensuring that powerful new ca
 
 ## Work Package Leaders
 
-<div style="display:flex;align-items:center;margin-bottom:1em">
-    <a href="https://www.nb.no/ansatte/ingrid-romarheim-haugen/"><img src="/assets/images/portraits/circle/Ingrid_Romarheim_Haugen_NB.png" alt="Ingrid Romarheim Haugen" width="100" style="margin-right:1em"></a>
+<div class="wp-member-row">
+    <a href="https://www.nb.no/ansatte/ingrid-romarheim-haugen/"><img src="/assets/images/portraits/circle/Ingrid_Romarheim_Haugen_NB.png" alt="Ingrid Romarheim Haugen" class="wp-member-photo"></a>
     <div>
     <a href="https://www.nb.no/ansatte/ingrid-romarheim-haugen/">Ingrid Romarheim Haugen</a> (National Library of Norway) - Lead
     </div>
 </div>
 
-<div style="display:flex;align-items:center;margin-bottom:1em">
-    <a href="https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes"><img src="/assets/images/portraits/circle/Arnulf_Mattes_UiB.png" alt="Arnulf Mattes" width="100" style="margin-right:1em"></a>
+<div class="wp-member-row">
+    <a href="https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes"><img src="/assets/images/portraits/circle/Arnulf_Mattes_UiB.png" alt="Arnulf Mattes" class="wp-member-photo"></a>
     <div>
     <a href="https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes">Arnulf Mattes</a> (University of Bergen) - Co-lead
     </div>
 </div>
 
-<div style="display:flex;align-items:center;margin-bottom:1em">
-    <a href="https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html"><img src="/assets/images/portraits/circle/Olivier_Lartillot_UiO.png" alt="Olivier Lartillot" width="100" style="margin-right:1em"></a>
+<div class="wp-member-row">
+    <a href="https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html"><img src="/assets/images/portraits/circle/Olivier_Lartillot_UiO.png" alt="Olivier Lartillot" class="wp-member-photo"></a>
     <div>
     <a href="https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html">Olivier Lartillot</a> (University of Oslo) - Co-lead
     </div>

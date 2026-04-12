@@ -32,22 +32,22 @@ AIs developed in this WP will be limited by stricter boundaries than others—fr
 
 ## Work Package Leaders
 
-<div style="display:flex;align-items:center;margin-bottom:1em">
-    <a href="https://www.mn.uio.no/ifi/english/people/aca/griff/index.html"><img src="/assets/images/portraits/circle/Carsten_Griwodz_UiO.png" alt="Carsten Griwodz" width="100" style="margin-right:1em"></a>
+<div class="wp-member-row">
+    <a href="https://www.mn.uio.no/ifi/english/people/aca/griff/index.html"><img src="/assets/images/portraits/circle/Carsten_Griwodz_UiO.png" alt="Carsten Griwodz" class="wp-member-photo"></a>
     <div>
     <a href="https://www.mn.uio.no/ifi/english/people/aca/griff/index.html">Carsten Griwodz</a> (University of Oslo) - Lead
     </div>
 </div>
 
-<div style="display:flex;align-items:center;margin-bottom:1em">
-    <a href="https://www.simula.no/people/baltasar"><img src="/assets/images/portraits/circle/Baltasar_Beferull_Simula.png" alt="Baltasar Beferull-Lozano" width="100" style="margin-right:1em"></a>
+<div class="wp-member-row">
+    <a href="https://www.simula.no/people/baltasar"><img src="/assets/images/portraits/circle/Baltasar_Beferull_Simula.png" alt="Baltasar Beferull-Lozano" class="wp-member-photo"></a>
     <div>
     <a href="https://www.simula.no/people/baltasar">Baltasar Beferull‐Lozano</a> (SimulaMet) - Co-lead
     </div>
 </div>
 
-<div style="display:flex;align-items:center;margin-bottom:1em">
-    <a href="https://www.aho.no/english/about/employees/kjetiln/"><img src="/assets/images/portraits/circle/Kjetil_Nordby_AHO.png" alt="Kjetil Nordby" width="100" style="margin-right:1em"></a>
+<div class="wp-member-row">
+    <a href="https://www.aho.no/english/about/employees/kjetiln/"><img src="/assets/images/portraits/circle/Kjetil_Nordby_AHO.png" alt="Kjetil Nordby" class="wp-member-photo"></a>
     <div>
     <a href="https://www.aho.no/english/about/employees/kjetiln/">Kjetil Nordby</a> (Oslo School of Architecture and Design) - Co-lead
     </div>
