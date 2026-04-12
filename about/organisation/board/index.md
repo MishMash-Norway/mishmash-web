@@ -19,7 +19,7 @@ The Board is responsible for:
 ## Members
 
 <div class="board-member-row">
-    <a href="https://www.uia.no/english/about-uia/employees/sunnivaw/"><img class="board-member-photo" src="/assets/images/portraits/square/Sunniva_Whittaker_UiA.jpg" alt="Sunniva Whittaker"></a>
+    <a href="https://www.uia.no/english/about-uia/employees/sunnivaw/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Sunniva_Whittaker_UiA.jpg" alt="Sunniva Whittaker"></a>
     <div>
     <a href="https://www.uia.no/english/about-uia/employees/sunnivaw/">Sunniva Whittaker</a><br>
     University of Agder<br>
@@ -28,7 +28,7 @@ The Board is responsible for:
 </div>
 
 <div class="board-member-row">
-    <a href="https://notam.no/en/about-us/employees/"><img class="board-member-photo" src="/assets/images/portraits/square/Christian_Blom_NOTAM.jpg" alt="Christian Blom"></a>
+    <a href="https://notam.no/en/about-us/employees/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Christian_Blom_NOTAM.jpg" alt="Christian Blom"></a>
     <div>
     <a href="https://notam.no/en/about-us/employees/">Christian Blom</a><br>
     Notam - Norwegian Centre for Technology, Art and Music
@@ -36,7 +36,7 @@ The Board is responsible for:
 </div>
 
 <div class="board-member-row">
-    <a href="https://reimagine.no/contact"><img class="board-member-photo" src="/assets/images/portraits/square/Christian_Schussler_Reimagine.jpg" alt="Christian Schussler"></a>
+    <a href="https://reimagine.no/contact"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Christian_Schussler_Reimagine.jpg" alt="Christian Schussler"></a>
     <div>
     <a href="https://reimagine.no/contact">Christian Schüssler</a><br>
     Reimagine
@@ -44,7 +44,7 @@ The Board is responsible for:
 </div>
 
 <div class="board-member-row">
-    <a href="https://www.nb.no/ansatte/hege-stensrud-hosoien/"><img class="board-member-photo" src="/assets/images/portraits/square/Hege_Stensrud_Hosoien_NB.jpg" alt="Hege Stensrud Hosoien"></a>
+    <a href="https://www.nb.no/ansatte/hege-stensrud-hosoien/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Hege_Stensrud_Hosoien_NB.jpg" alt="Hege Stensrud Hosoien"></a>
     <div>
     <a href="https://www.nb.no/ansatte/hege-stensrud-hosoien/">Hege Stensrud Høsøien</a><br>
     National Library of Norway
@@ -52,7 +52,7 @@ The Board is responsible for:
 </div>
 
 <div class="board-member-row">
-    <a href="https://www.hvl.no/person/?user=tine.viig"><img class="board-member-photo" src="/assets/images/portraits/square/Tine_Grieg_Viig_HVL.png" alt="Tine Grieg Viig"></a>
+    <a href="https://www.hvl.no/person/?user=tine.viig"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Tine_Grieg_Viig_HVL.png" alt="Tine Grieg Viig"></a>
     <div>
     <a href="https://www.hvl.no/person/?user=tine.viig">Tine Grieg Viig</a><br>
     Western Norway University of Applied Sciences
@@ -60,7 +60,7 @@ The Board is responsible for:
 </div>
 
 <div class="board-member-row">
-    <a href="https://www.uio.no/ritmo/english/people/management/alexanje/"><img class="board-member-photo" src="/assets/images/portraits/square/Alexander_Refsum_Jensenius_UiO.jpg" alt="Alexander Refsum Jensenius"></a>
+    <a href="https://www.uio.no/ritmo/english/people/management/alexanje/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Alexander_Refsum_Jensenius_UiO.jpg" alt="Alexander Refsum Jensenius"></a>
     <div>
     <a href="https://www.uio.no/ritmo/english/people/management/alexanje/">Alexander Refsum Jensenius</a><br>
     University of Oslo<br>
@@ -69,7 +69,7 @@ The Board is responsible for:
 </div>
 
 <div class="board-member-row">
-    <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html"><img class="board-member-photo" src="/assets/images/portraits/square/eskil_muan_saether_UiO.jpg" alt="Eskil Muan Saether"></a>
+    <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/eskil_muan_saether_UiO.jpg" alt="Eskil Muan Saether"></a>
     <div>
     <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html">Eskil Muan Sæther</a><br>
     University of Oslo<br>

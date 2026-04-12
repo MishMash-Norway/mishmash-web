@@ -118,11 +118,15 @@ body {
 
 .board-member-photo,
 .wp-member-photo {
-  width: 100px;
-  height: 100px;
+  width: 100px !important;
+  height: 100px !important;
+  min-width: 100px;
+  min-height: 100px;
   margin-right: 1em;
-  border-radius: 50%;
-  object-fit: cover;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  display: block;
+  line-height: 0;
   flex: 0 0 auto;
 }
 
