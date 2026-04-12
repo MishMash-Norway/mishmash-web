@@ -228,6 +228,30 @@ a:focus-visible .icon {
   object-fit: contain;
 }
 
+.social-icon-row a {
+  transition: transform .2s ease;
+}
+
+.social-icon-row a:hover,
+.social-icon-row a:focus-visible {
+  transform: translateY(-2px);
+}
+
+.social-icon-row a:hover .icon,
+.social-icon-row a:focus-visible .icon {
+  transform: scale(1.12);
+  filter: brightness(1.08) drop-shadow(0 6px 10px rgba(54, 54, 68, 0.18));
+}
+
+.social-icon-row a span {
+  transition: color .2s ease;
+}
+
+.social-icon-row a:hover span,
+.social-icon-row a:focus-visible span {
+  color: #A7A1F4;
+}
+
 /* Language switcher */
 .lang-switcher {
   display: inline-flex;
