@@ -1,5 +1,5 @@
 <div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
-    <a href="/about/">
+    <a href="/about/description/">
         <img src="/assets/images/bubbles/mishmash_bubbles.svg"
              alt="MishMash explores the meeting point of humans and machines with art and science"
              width="400"
