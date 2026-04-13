@@ -1,6 +1,6 @@
 ---
 layout: meeting
-meeting_title: "MishMash Board Meeting #1"
+meeting_title: "MishMash styremøte #1"
 meeting_date: "10 April 2026"
 meeting_start: "13:00"
 meeting_end: "14:00"
@@ -17,7 +17,7 @@ meeting_location: "Zoom"
 - [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/)
 - [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html)
 
-## Saksliste MishMash-styremøte #1
+## Saksliste
 
 1. Introduksjonsrunde
 2. Introduksjon til MishMash's organisering og struktur
