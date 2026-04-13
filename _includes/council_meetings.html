@@ -1,5 +1,5 @@
 {% comment %}Render council meeting pages from about/organisation/council/meetings/, newest first{% endcomment %}
-{% assign meetings = site.pages | where_exp: 'item', "item.path contains 'about/organisation/council/meetings/' and item.path != 'about/organisation/council/meetings/index.md'" | where: 'name', 'index.md' | sort: 'url' | reverse %}
+{% assign meetings = site.pages | where_exp: 'item', "item.path contains 'about/organisation/council/meetings/'" | where: 'name', 'index.md' | sort: 'url' | reverse %}
 {% if meetings and meetings.size > 0 %}
 <table>
   <thead>
@@ -10,12 +10,14 @@
   </thead>
   <tbody>
     {% for meeting in meetings %}
+    {% unless meeting.path == 'about/organisation/council/meetings/index.md' %}
     {% assign meeting_path_parts = meeting.url | split: '/' %}
     {% assign meeting_folder = meeting_path_parts[5] %}
     <tr>
       <td>{{ meeting.meeting_date | default: meeting_folder }}</td>
       <td><a href="{{ meeting.url | relative_url }}">Agenda and Protocol</a></td>
     </tr>
+    {% endunless %}
     {% endfor %}
   </tbody>
 </table>
