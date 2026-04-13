@@ -82,6 +82,17 @@ body {
   margin-top: 0.6rem;
 }
 
+.meeting-meta {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid #A7A1F4;
+  background: #f7f6fe;
+}
+
+.meeting-meta p {
+  margin: 0.25rem 0;
+}
+
 /* Event list styles (thumbnails and layout) */
 .event-item {
   display: flex;

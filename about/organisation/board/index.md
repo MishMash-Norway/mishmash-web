@@ -83,6 +83,6 @@ The Board is responsible for:
 
 ## Documents
 
-### Board Meeting Agendas and Protocols
+### Board meetings
 
 {% include board_meetings.html %}

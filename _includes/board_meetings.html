@@ -18,11 +18,9 @@
     {% assign meeting_folder = meeting_path_parts[5] %}
     <tr>
       <td>{{ meeting.meeting_date | default: meeting_folder }}</td>
-      <td>{{ meeting.meeting_start | default: '—' }}</td>
-      <td>{{ meeting.meeting_end | default: '—' }}</td>
+      <td>{{ meeting.meeting_start | default: '—' }}–{{ meeting.meeting_end | default: '—' }}</td>
       <td>{{ meeting.meeting_location | default: '—' }}</td>
-      <td><a href="{{ meeting.url | relative_url }}">Agenda</a></td>
-      <td>{% if meeting.protocol_url %}<a href="{{ meeting.protocol_url }}">Protocol</a>{% else %}—{% endif %}</td>
+      <td><a href="{{ meeting.url | relative_url }}">Agenda and Protocol</a></td>
     </tr>
     {% endfor %}
   </tbody>
