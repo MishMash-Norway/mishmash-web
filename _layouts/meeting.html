@@ -3,9 +3,10 @@ layout: default
 ---
 <main class="page">
   <div class="container">
+    {% assign page_heading = page.meeting_title | default: page.title %}
+    {% if page_heading %}<h1>{{ page_heading }}</h1>{% endif %}
     {% if page.meeting_title or page.meeting_date or page.meeting_start or page.meeting_end or page.meeting_location %}
     <div class="meeting-meta" aria-label="Meeting details">
-      {% if page.meeting_title %}<p><strong>{{ page.meeting_title }}</strong></p>{% endif %}
       {% if page.meeting_date %}<p><strong>Date:</strong> {{ page.meeting_date }}</p>{% endif %}
       {% if page.meeting_start %}<p><strong>Time:</strong> {{ page.meeting_start }}{% if page.meeting_end %}–{{ page.meeting_end }}{% endif %}</p>{% endif %}
       {% if page.meeting_location %}<p><strong>Location:</strong> {{ page.meeting_location }}</p>{% endif %}
