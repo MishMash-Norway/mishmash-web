@@ -1,8 +1,5 @@
 name: Web Quality Checks
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 on:
   pull_request:
   push:
@@ -30,12 +27,6 @@ jobs:
       - name: Build site
         run: bundle exec jekyll build --trace
 
-      - name: Upload built site artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: site-html
-          path: ./_site
-
   link_check:
     name: Check links in generated HTML
     runs-on: ubuntu-latest
@@ -50,11 +41,8 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
-      - name: Download built site artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: site-html
-          path: ./_site
+      - name: Build site
+        run: bundle exec jekyll build --trace
 
       - name: Run htmlproofer
         run: |
@@ -70,11 +58,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Download built site artifact
-        uses: actions/download-artifact@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          name: site-html
-          path: ./_site
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build site
+        run: bundle exec jekyll build --trace
 
       - name: Run Nu HTML Checker
         uses: Cyb3r-Jak3/html5validator-action@v7.2.0
@@ -89,16 +80,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Download built site artifact
-        uses: actions/download-artifact@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          name: site-html
-          path: ./_site
+          ruby-version: '3.2'
+          bundler-cache: true
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
+      - name: Build site
+        run: bundle exec jekyll build --trace
 
       - name: Serve generated site and run Pa11y CI
         run: |
