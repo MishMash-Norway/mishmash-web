@@ -31,3 +31,8 @@ feed:
     - events
 
 future: true
+
+# SHA-256 hash of the shared password for internal WP pages.
+# Default password: mishmash2025
+# To change: compute `echo -n 'newpassword' | sha256sum` and replace the value below.
+internal_password_hash: "3673331eee66d106e73f1f8d33c7df13a95d69e141c7419a767a1d515e556890"
