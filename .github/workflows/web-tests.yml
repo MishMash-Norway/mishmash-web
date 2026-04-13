@@ -1,0 +1,75 @@
+name: Web Quality Checks
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build_site:
+    name: Build static site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload built site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-html
+          path: ./_site
+
+  link_check:
+    name: Check links in generated HTML
+    runs-on: ubuntu-latest
+    needs: build_site
+    steps:
+      - name: Download built site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site-html
+          path: ./_site
+
+      - name: Run Lychee link checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress --max-concurrency 6 --retry-wait-time 2 --max-retries 2 --exclude-mail --accept 200,429 ./_site/**/*.html
+
+  accessibility_check:
+    name: Accessibility scan (Pa11y)
+    runs-on: ubuntu-latest
+    needs: build_site
+    steps:
+      - name: Download built site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site-html
+          path: ./_site
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Serve generated site and run Pa11y CI
+        run: |
+          python3 -m http.server 4000 --directory _site &
+          npx --yes pa11y-ci@3 --config .pa11yci.json

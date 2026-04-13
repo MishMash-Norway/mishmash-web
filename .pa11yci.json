@@ -1,0 +1,24 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "timeout": 30000,
+    "wait": 500,
+    "chromeLaunchConfig": {
+      "args": [
+        "--no-sandbox",
+        "--disable-setuid-sandbox"
+      ]
+    }
+  },
+  "urls": [
+    "http://127.0.0.1:4000/",
+    "http://127.0.0.1:4000/about/",
+    "http://127.0.0.1:4000/about/organisation/",
+    "http://127.0.0.1:4000/about/organisation/board/",
+    "http://127.0.0.1:4000/about/organisation/council/",
+    "http://127.0.0.1:4000/about/organisation/council/meetings/2026-04/",
+    "http://127.0.0.1:4000/events/",
+    "http://127.0.0.1:4000/news/",
+    "http://127.0.0.1:4000/search/"
+  ]
+}
