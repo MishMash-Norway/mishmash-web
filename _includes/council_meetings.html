@@ -1,0 +1,24 @@
+{% comment %}Render council meeting pages from about/organisation/council/meetings/, newest first{% endcomment %}
+{% assign meetings = site.pages | where_exp: 'item', "item.path contains 'about/organisation/council/meetings/' and item.path != 'about/organisation/council/meetings/index.md'" | where: 'name', 'index.md' | sort: 'url' | reverse %}
+{% if meetings and meetings.size > 0 %}
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Agenda and Protocol</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for meeting in meetings %}
+    {% assign meeting_path_parts = meeting.url | split: '/' %}
+    {% assign meeting_folder = meeting_path_parts[5] %}
+    <tr>
+      <td>{{ meeting.meeting_date | default: meeting_folder }}</td>
+      <td><a href="{{ meeting.url | relative_url }}">Agenda and Protocol</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+*No council meeting documents have been published yet.*
+{% endif %}

@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: meeting
+meeting_title: "MishMash Board Meeting #1"
 meeting_date: "10 April 2026"
 meeting_start: "13:00"
 meeting_end: "14:00"

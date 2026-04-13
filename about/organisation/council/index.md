@@ -39,4 +39,7 @@ The Council is responsible for:
 
 ## Documents
 
+### Council meetings
+
+{% include council_meetings.html %}
 Relevant council documents and meeting notes can be found here.
