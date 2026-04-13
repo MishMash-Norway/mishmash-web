@@ -127,7 +127,7 @@ En rekke internasjonale akademiske og ikke-akademiske partnere vil også delta, 
 ---
 
 <div class="social-icon-row" style="display:flex;justify-content:center;gap:24px;flex-wrap:nowrap;align-items:center;white-space:nowrap;">
-    <img src="/assets/images/logos/NFR/Sort/Stottet_av_Forskningsradet_logo_Norsk_01_Weller_RGB.svg" alt="NFR-logo" width="400"
+    <img src="/assets/images/logos/NFR/Sort/Stottet_av_Forskningsradet_Logo_Bokmal_01_Weller_RGB.svg" alt="NFR-logo" width="400"
          onerror="this.src='/assets/images/logos/NFR/Sort/Stottet_av_Forskningsradet_logo_Engelsk_01_Weller_RGB.svg'">
     <a class="social-icon-link" href="mailto:contact@mishmash.no" style="text-align:center;width:100px;display:inline-block;">
         <img class="icon icon-email" src="/assets/images/icons/catalogue/email.svg" alt="Kontakt e-post" width="64" style="display:block;margin:0 auto;">
