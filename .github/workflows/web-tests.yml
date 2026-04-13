@@ -21,15 +21,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
 
       - name: Build site
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+        run: bundle exec jekyll build --trace
 
       - name: Upload built site artifact
         uses: actions/upload-artifact@v4
@@ -51,13 +50,16 @@ jobs:
       - name: Run Lychee link checker
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --max-concurrency 6 --retry-wait-time 2 --max-retries 2 --exclude-mail --accept 200,429 ./_site/**/*.html
+          args: --verbose --no-progress --offline --exclude-mail ./_site/**/*.html
 
   html_validation:
     name: Validate HTML (Nu)
     runs-on: ubuntu-latest
     needs: build_site
     steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
       - name: Download built site artifact
         uses: actions/download-artifact@v4
         with:
@@ -88,4 +90,5 @@ jobs:
       - name: Serve generated site and run Pa11y CI
         run: |
           python3 -m http.server 4000 --directory _site &
+          npx --yes wait-on@7 http://127.0.0.1:4000/
           npx --yes pa11y-ci@3 --config .pa11yci.json

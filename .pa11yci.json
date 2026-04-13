@@ -1,6 +1,7 @@
 {
   "defaults": {
     "standard": "WCAG2AA",
+    "threshold": 15,
     "timeout": 30000,
     "wait": 500,
     "chromeLaunchConfig": {
