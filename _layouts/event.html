@@ -8,6 +8,14 @@ layout: default
 {% assign event_description_ics = event_description_raw | strip_html | strip_newlines | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' %}
 {% assign event_url = site.url | append: page.url %}
 {% assign event_uid = page.url | replace: '/', '-' | append: '@mishmash.no' %}
+{% assign google_start = page.date | date: '%Y%m%dT%H%M%S' %}
+{% if page.end_date %}
+  {% assign google_end = page.end_date | date: '%Y%m%dT%H%M%S' %}
+{% else %}
+  {% assign google_end_ts = page.date | date: '%s' | plus: 3600 %}
+  {% assign google_end = google_end_ts | date: '%Y%m%dT%H%M%S' %}
+{% endif %}
+{% capture google_calendar_url %}https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ page.title | default: 'MishMash event' | uri_escape }}&dates={{ google_start }}%2F{{ google_end }}&details={{ event_description_raw | strip_html | strip_newlines | uri_escape }}&location={{ page.location | default: '' | uri_escape }}&sf=true&output=xml{% endcapture %}
 {% capture event_ics %}BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//MishMash//Events//EN
@@ -39,7 +47,7 @@ END:VCALENDAR
     {% if page.location %}
       <span class="event-location"> — {{ page.location }}</span>
     {% endif %}
-    <span> — <a href="data:text/calendar;charset=utf-8,{{ event_ics | strip | uri_escape }}" download="{{ page.slug | default: 'event' }}.ics">Add to calendar (.ics)</a></span>
+    <span> — <a href="{{ google_calendar_url | strip }}" rel="noopener" target="_blank">Add to calendar</a></span>
   </div>
 </section>
 

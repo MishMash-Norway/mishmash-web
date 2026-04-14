@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<main class="page">
+<div class="page">
   <div class="container">
     {% assign page_heading = page.meeting_title | default: page.title %}
     {% if page_heading %}<h1>{{ page_heading }}</h1>{% endif %}
@@ -14,4 +14,4 @@ layout: default
     {% endif %}
     {{ content }}
   </div>
-</main>
+</div>
