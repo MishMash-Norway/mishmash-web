@@ -6,9 +6,9 @@ permalink: /internal/
 
 # Internal
 
-This page collects links to internal resources.
+This page collects internal MishMash resources.
 
-## Key resources
+## General resources
 
 - [Funding opportunities](/internal/funding/)
 - [MeshUp run-of-show](/internal/meshups/)
