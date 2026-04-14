@@ -1,0 +1,18 @@
+participants:
+  - name: "Eirik Sørbø"
+    institution: "University of Agder"
+    email: "eiriks05@uia.no"
+    information: "WP4 Lead"
+    wp4_participation: "Creative AI in Education"
+    
+  - name: "Sidsel Karlsen"
+    institution: "Norwegian Academy of Music"
+    email: "sidsel.karlsen@nmh.no"
+    information: "Co-lead"
+    wp4_participation: "Music and AI"
+    
+  - name: "Fredrik Graver"
+    institution: "University of Inland Norway"
+    email: "fredrik.graver@inn.no"
+    information: "Co-lead"
+    wp4_participation: "Educational AI"
