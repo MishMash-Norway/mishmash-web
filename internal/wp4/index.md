@@ -8,13 +8,27 @@ This page is for MishMash members only, and WP4 members in particular. It is a n
 
 ---
 
-## WP4 Subpages
+## WP4 Resources
 
 - [Participants](/internal/wp4/participants/)
 - [Projects](/internal/wp4/projects/)
 - [Other Activities](/internal/wp4/other-activities/)
 - [Documents](/internal/wp4/documents/)
+- [Documents](/internal/wp4/documents/)
 
-## Contacts
-
-*List key contacts and responsibilities here.*
+## WP4 Leaders
+<details>
+<summary>Eirik Sørbø (lead)</summary>
+<a href="mailto:eirik.sorbo@uia.no">eirik.sorbo@uia.no</a><br>
+Work Package Leader in WP4. Associate Proffesor at Department of Performing Popular Music Faculty of Fine Arts, University of Agder. Holds a PhD in electronic popular music pedagogy, and has interests evolving around music, tehcnology and education. <br>
+</details>
+<details>
+<summary>Sidsel Karlsen (co-lead)</summary>
+<a href="mailto:sidsel.karlsen@nmh.no">sidsel.karlsen@nmh.no</a><br>
+*Bio to come.*<br>
+</details>
+<details>
+<summary>Fredrik Graver (co-lead)</summary>
+<a href="mailto:fredrik.graver@inn.no">fredrik.graver@inn.no</a><br>
+*Bio to come.*<br>
+</details>
