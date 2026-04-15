@@ -35,6 +35,6 @@ This project will function as an early pilot for developing freely available, pr
 * [AI-Learn](https://www.vestfoldfylke.no/no/meny/tjenester/opplaring/ailearn/) Norwegian Centre for AI in learning and education <br>
 * [ACT-AI Academy](https://actaiacademy.eu/nb/home-2/) EU-project on AI-integration in education
 
-<p style="margin-top:2em;"><a href="/internal/wp4/index.md" style="text-decoration:underline;">&larr; Back to WP4 page</a></p>
+<p style="margin-top:2em;"><a href="/internal/wp4/" style="text-decoration:underline;">&larr; Back to WP4 page</a></p>
 
 

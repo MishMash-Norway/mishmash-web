@@ -45,4 +45,4 @@ Info. <br>
 </details>
 </details>
 
-<p style="margin-top:2em;"><a href="/internal/wp4/index.md" style="text-decoration:underline;">&larr; Back to WP4 page</a></p>
+<p style="margin-top:2em;"><a href="/internal/wp4/" style="text-decoration:underline;">&larr; Back to WP4 page</a></p>
