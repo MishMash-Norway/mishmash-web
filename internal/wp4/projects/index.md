@@ -3,8 +3,7 @@ layout: internal
 title: "Projects"
 ---
 
-# Projects
-## Active WP4 projects
+# WP4 activities
 
 ### Interactive AI-driven reading experiences
 Aims to develop a prototype that transforms books into interactive, AI-driven narrative systems, allowing readers (primarily children and adolescents) to converse with characters, co-author stories, and create multimedia content within the book's story world.  
@@ -32,6 +31,7 @@ This project will function as an early pilot for developing freely available, pr
 **Contact:** [Eirik Sørbø](mailto:eirik.sorbo@uia.no)
 
 ## Other relevant projects
+
 * [AI-Learn](https://www.vestfoldfylke.no/no/meny/tjenester/opplaring/ailearn/) Norwegian Centre for AI in learning and education <br>
 * [ACT-AI Academy](https://actaiacademy.eu/nb/home-2/) EU-project on AI-integration in education
 
