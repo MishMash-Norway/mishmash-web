@@ -14,6 +14,13 @@ Which research funding sources are available? How do you write a competitive gra
 
 Join us for a workshop on research application development led by [Thomas de Ridder](https://www4.uib.no/en/find-employees/Thomas.De.Ridder) (UiB), who serves as research adviser for all of MishMash. He will be joined by senior adviser Anette Askedal and special adviser Siv Haugan from the Research Council of Norway.
 
+## Resources
+
+The workshop was not recorded, but you can find PDFs of the slides used here: 
+
+- [MishMash presentation slides](/internal/funding/presentations/2026-04-08-MishMash-presentation.pdf) 
+- [RCN presentation slides](/internal/funding/presentations/2026-04-08-RCN-presentation.pdf)
+
 ## Other MishMash events the same day
 
 Check out all these exciting events on 8 April:

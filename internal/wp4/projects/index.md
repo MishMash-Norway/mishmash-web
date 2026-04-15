@@ -3,6 +3,12 @@ layout: internal
 title: "Projects"
 ---
 
-# WP4 Projects
+# Projects
+## Active WP4 projects
+Info will follow. 
 
-Click the projects for more information. 
+## Other relevant projects
+* [AI-Learn](https://www.vestfoldfylke.no/no/meny/tjenester/opplaring/ailearn/) Norwegian Centre for AI in learning and education <br>
+* [ACT-AI Academy](https://actaiacademy.eu/nb/home-2/) EU-project on AI-integration in education
+
+
