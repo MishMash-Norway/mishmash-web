@@ -6,42 +6,40 @@ title: "WP4 Participants"
 # WP4 Participants
 
 <details>
-<summary><b>Organisations</b></summary>
+<summary><h2>Organisations</h2></summary>
 <details>
-<summary>Kulturtanken</summary>
+<summary>&bull; Kulturtanken</summary>
 <a href="https://www.kulturtanken.no">Webpage</a><br>
-Info. <br>
+Info.
 </details>
 <details>
-<summary>Kulturskolerådet</summary>
+<summary>&bull; Kulturskolerådet</summary>
 <a href="https://www.kulturskoleradet.no">Webpage</a><br>
-Info. <br>
+Info. 
 </details>
 <details>
-<summary>Musikk i Skolen</summary>
+<summary>&bull; Musikk i Skolen</summary>
 <a href="https://www.musikkiskolen.no">Webpage</a><br>
-Info. <br>
+Info. 
 </details>
 <details>
-<summary>Skapia</summary>
+<summary>&bull; Skapia</summary>
 <a href="https://www.skapia.no">Webpage</a><br>
-Info. <br>
+Info. 
 </details>
 </details>
-<br>
 <details>
-<summary><b>Non-academic Partners</b></summary>
+<summary><h2>Non-academic Partners</h2></summary>
 <details>
-<summary>Name (organisation)</summary>
+<summary>&bull; Name (organisation)</summary>
 <a href="mailto:name@email.com">e-mail</a><br>
 Info. <br>
 </details>
 </details>
-<br>
 <details>
-<summary><b>Researchers</b></summary>
+<summary><h2>Researchers</h2></summary>
 <details>
-<summary>Name (institution)</summary>
+<summary>&bull; Name (institution)</summary>
 <a href="mailto:name@email.com">e-mail</a><br>
 Info. <br>
 </details>
