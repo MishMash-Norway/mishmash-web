@@ -4,8 +4,9 @@ date: 2025-12-03 18:00:00   # Event start date/time
 end_date: 2025-12-03 19:00:00 # Optional: Event end time
 location: "Salen, Department of Musicology, University of Oslo"
 layout: event
-categories: [concert, music]
+categories: [Concert]
 description: "An evening concert and presentation exploring generative music created with AI and quantum computing, featuring Eduardo Reck Miranda and Victoria Johnson."
+tags: [AI, quantum-computing, music, generative-music]
 image: "https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/quantum-music/quantum-loops.png"
 slug: "quantum-loops-broken-symmetries"
 ---
