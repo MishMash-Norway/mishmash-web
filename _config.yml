@@ -31,6 +31,7 @@ feed:
     - events
 
 future: true
+timezone: Europe/Oslo
 
 # SHA-256 hash of the shared password for internal WP pages.
 # Default password: mishmash2025

@@ -10,6 +10,23 @@ METHOD:PUBLISH
 X-WR-CALNAME:MishMash Events
 X-WR-CALDESC:All MishMash events
 X-WR-TIMEZONE:Europe/Oslo
+BEGIN:VTIMEZONE
+TZID:Europe/Oslo
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 {% assign all_events = site.events | where_exp: "item", "item.draft != true" | sort: 'date' %}
 {% for item in all_events %}
 {% assign event_title = item.title | default: 'MishMash event' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}
@@ -21,8 +38,8 @@ X-WR-TIMEZONE:Europe/Oslo
 BEGIN:VEVENT
 UID:{{ event_uid }}
 DTSTAMP:{{ site.time | date: '%Y%m%dT%H%M%SZ' }}
-DTSTART:{{ item.date | date: '%Y%m%dT%H%M%S' }}
-{% if item.end_date or item.enddate %}DTEND:{{ item.end_date | default: item.enddate | date: '%Y%m%dT%H%M%S' }}
+DTSTART;TZID=Europe/Oslo:{{ item.date | date: '%Y%m%dT%H%M%S' }}
+{% if item.end_date or item.enddate %}DTEND;TZID=Europe/Oslo:{{ item.end_date | default: item.enddate | date: '%Y%m%dT%H%M%S' }}
 {% endif %}SUMMARY:{{ event_title }}
 {% if event_location != '' %}LOCATION:{{ event_location }}
 {% endif %}DESCRIPTION:{{ event_description }}
