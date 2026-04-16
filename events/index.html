@@ -36,8 +36,13 @@ if (window.location.hash === '#partner-events') {
         </a>
       {% endif %}
       <div class="event-content">
-        <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
-        {%- if item.enddate or item.end_date -%}–<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }}</time>{% endif -%}
+        {% assign start_tz = item.date | date: "%z" %}
+        {% if start_tz == "+0200" %}{% assign start_tz_abbr = "CEST" %}{% else %}{% assign start_tz_abbr = "CET" %}{% endif %}
+        <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }} {{ start_tz_abbr }}</time>
+        {%- if item.enddate or item.end_date -%}
+        {% assign end_tz = item.enddate | default: item.end_date | date: "%z" %}
+        {% if end_tz == "+0200" %}{% assign end_tz_abbr = "CEST" %}{% else %}{% assign end_tz_abbr = "CET" %}{% endif %}
+        –<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }} {{ end_tz_abbr }}</time>{% endif -%}
         {% if item.location %} &mdash; {{ item.location }}{% endif %}
         <br />
         {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
@@ -73,8 +78,13 @@ if (window.location.hash === '#partner-events') {
         </a>
       {% endif %}
       <div class="event-content">
-        <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }}</time>
-        {%- if item.enddate or item.end_date -%}–<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }}</time>{% endif -%}
+        {% assign start_tz = item.date | date: "%z" %}
+        {% if start_tz == "+0200" %}{% assign start_tz_abbr = "CEST" %}{% else %}{% assign start_tz_abbr = "CET" %}{% endif %}
+        <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d, %Y at %H:%M" }} {{ start_tz_abbr }}</time>
+        {%- if item.enddate or item.end_date -%}
+        {% assign end_tz = item.enddate | default: item.end_date | date: "%z" %}
+        {% if end_tz == "+0200" %}{% assign end_tz_abbr = "CEST" %}{% else %}{% assign end_tz_abbr = "CET" %}{% endif %}
+        –<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }} {{ end_tz_abbr }}</time>{% endif -%}
         {% if item.location %} &mdash; {{ item.location }}{% endif %}
         <br />
         {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
