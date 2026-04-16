@@ -57,9 +57,7 @@ END:VCALENDAR
   <h1 class="event-title">{{ page.title }}</h1>
   <div class="event-meta">
     {% if page.date %}
-      {% assign start_tz = page.date | date: "%z" %}
-      {% if start_tz == "+0200" %}{% assign start_tz_abbr = "CEST" %}{% else %}{% assign start_tz_abbr = "CET" %}{% endif %}
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y, %H:%M" }} {{ start_tz_abbr }}</time>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y, %H:%M" }}</time>
       {%- if page.end_date %}
       {% assign end_tz = page.end_date | date: "%z" %}
       {% if end_tz == "+0200" %}{% assign end_tz_abbr = "CEST" %}{% else %}{% assign end_tz_abbr = "CET" %}{% endif %}
