@@ -6,7 +6,7 @@ location: "Salen, Department of Musicology, University of Oslo"
 layout: event
 categories: [Concert]
 description: "An evening concert and presentation exploring generative music created with AI and quantum computing, featuring Eduardo Reck Miranda and Victoria Johnson."
-tags: [AI, quantum-computing, music, generative-music]
+tags: [AI, Quantum Computing, Music, Generative Music]
 image: "https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/quantum-music/quantum-loops.png"
 slug: "quantum-loops-broken-symmetries"
 ---
