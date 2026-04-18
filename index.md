@@ -55,7 +55,7 @@ Check the list of [open positions](https://mishmash.no/news/positions/). Get in 
         <li><a href="https://www.ntnu.edu/">Norwegian University of Science and Technology (NTNU)</a></li>
         <li><a href="https://www.oslomet.no/en">Oslo Metropolitan University (OsloMet)</a></li>
         <li><a href="https://www.simulamet.no/">Simula Research Laboratory (SIMULAMET)</a></li>
-        <li><a href="https://www.sintef.no/en/">The Foundation for Industrial and Technical Research (SINTEF)</a></li>
+        <li><a href="https://www.sintef.no/en/">SINTEF</a></li>
         <li><a href="https://www.uia.no/english/index.html">University of Agder (UiA)</a></li>
         <li><a href="https://www.uib.no/en">University of Bergen (UiB)</a></li>
         <li><a href="https://www.uio.no/english/index.html">University of Oslo (UiO)</a></li>

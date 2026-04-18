@@ -15,17 +15,34 @@ layout: default
   {% assign google_end_ts = page.date | date: '%s' | plus: 3600 %}
   {% assign google_end = google_end_ts | date: '%Y%m%dT%H%M%S' %}
 {% endif %}
-{% capture google_calendar_url %}https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ page.title | default: 'MishMash event' | uri_escape }}&dates={{ google_start }}%2F{{ google_end }}&details={{ event_description_raw | strip_html | strip_newlines | uri_escape }}&location={{ page.location | default: '' | uri_escape }}&sf=true&output=xml{% endcapture %}
+{% capture google_calendar_url %}https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ page.title | default: 'MishMash event' | uri_escape }}&dates={{ google_start }}%2F{{ google_end }}&details={{ event_description_raw | strip_html | strip_newlines | uri_escape }}&location={{ page.location | default: '' | uri_escape }}&ctz=Europe%2FOslo&sf=true&output=xml{% endcapture %}
 {% capture event_ics %}BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//MishMash//Events//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Oslo
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:{{ event_uid }}
 DTSTAMP:{{ 'now' | date: '%Y%m%dT%H%M%SZ' }}
-DTSTART:{{ page.date | date: '%Y%m%dT%H%M%S' }}
-{% if page.end_date %}DTEND:{{ page.end_date | date: '%Y%m%dT%H%M%S' }}
+DTSTART;TZID=Europe/Oslo:{{ page.date | date: '%Y%m%dT%H%M%S' }}
+{% if page.end_date %}DTEND;TZID=Europe/Oslo:{{ page.end_date | date: '%Y%m%dT%H%M%S' }}
 {% endif %}SUMMARY:{{ event_title_ics }}
 {% if event_location_ics != '' %}LOCATION:{{ event_location_ics }}
 {% endif %}DESCRIPTION:{{ event_description_ics }}
@@ -41,7 +58,10 @@ END:VCALENDAR
   <div class="event-meta">
     {% if page.date %}
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y, %H:%M" }}</time>
-      {%- if page.end_date %}–<time datetime="{{ page.end_date | date_to_xmlschema }}">{{ page.end_date | date: "%H:%M" }}</time>
+      {%- if page.end_date %}
+      {% assign end_tz = page.end_date | date: "%z" %}
+      {% if end_tz == "+0200" %}{% assign end_tz_abbr = "CEST" %}{% else %}{% assign end_tz_abbr = "CET" %}{% endif %}
+      –<time datetime="{{ page.end_date | date_to_xmlschema }}">{{ page.end_date | date: "%H:%M" }} {{ end_tz_abbr }}</time>
       {% endif %}
     {% endif %}
     {% if page.location %}

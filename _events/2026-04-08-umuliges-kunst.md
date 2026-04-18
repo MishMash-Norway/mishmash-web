@@ -1,7 +1,7 @@
 ---
 title: "Det umuliges kunst: Panelsamtale om bruk av KI i kreativ praksis"
-date: 2026-04-08 15:00:00   # Event start date/time
-end_date: 2026-04-08 17:00:00 # Optional: Event end time
+date: 2026-04-08 15:00:00 +02:00   # Event start date/time
+end_date: 2026-04-08 17:00:00 +02:00 # Optional: Event end time
 location: Domus Bibliotheca, University of Oslo
 layout: event
 categories: [Conference]
