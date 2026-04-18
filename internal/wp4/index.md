@@ -11,10 +11,10 @@ This page is for MishMash members only, and WP4 members in particular. It is a n
 ## WP4 Resources
 - <details>
     <summary><a style="text-decoration: underline;">Participants</a></summary>
-    <a href="/internal/wp4/wp-leaders/">WP Leaders</a><br>
-    <a href="/internal/wp4/researchers/">Researchers</a><br>
-    <a href="/internal/wp4/non-academic-partners/">Non-academic partners</a><br>
-    <a href="/internal/wp4/organisations/">Organisations</a><br>
+    &bull; <a href="/internal/wp4/wp-leaders/">WP Leaders</a><br>
+    &bull; <a href="/internal/wp4/researchers/">Researchers</a><br>
+    &bull; <a href="/internal/wp4/non-academic-partners/">Non-academic partners</a><br>
+    &bull; <a href="/internal/wp4/organisations/">Organisations</a><br>
   </details>
 - [Activities](/internal/wp4/projects/)
 - [Other info](/internal/wp4/other-activities/)
