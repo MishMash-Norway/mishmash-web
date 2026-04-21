@@ -5,7 +5,7 @@ title: "Researchers"
 
 
 # PhD Research Fellows
-WP4 are currently recruiting 5 PhD positions and 1 postdoc position. 
+WP4 is currently recruiting 5 PhD positions and 1 postdoc position. 
 
 - University of Inland Norway (1 PhD)
 - University of Agder (2 PhDs)
