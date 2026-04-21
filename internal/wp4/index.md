@@ -15,6 +15,7 @@ This page is for MishMash members only, and WP4 members in particular. It is a n
     &#8594; <a href="/internal/wp4/researchers/">Researchers</a><br>
     &#8594; <a href="/internal/wp4/non-academic-partners/">Non-academic partners</a><br>
     &#8594; <a href="/internal/wp4/organisations/">Organisations</a><br>
+    &#8594; <a href="/internal/wp4/phd/">PhD research fellows</a><br>
   </details>
 - [Activities](/internal/wp4/projects/)
 - [Other info](/internal/wp4/other-activities/)
