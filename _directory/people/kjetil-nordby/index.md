@@ -1,6 +1,7 @@
 ---
 type: person
 slug: kjetil-nordby
+permalink: /directory/people/kjetil-nordby/
 name: Kjetil Nordby
 title: Kjetil Nordby
 position: Associate professor

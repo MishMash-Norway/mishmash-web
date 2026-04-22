@@ -1,6 +1,7 @@
 ---
 type: person
 slug: andre-alexandersen-hauge
+permalink: /directory/people/andre-alexandersen-hauge/
 name: André Alexandersen Hauge
 title: André Alexandersen Hauge
 position: Head of academic department

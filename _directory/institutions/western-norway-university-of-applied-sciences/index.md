@@ -1,6 +1,7 @@
 ---
 type: institution
 slug: western-norway-university-of-applied-sciences
+permalink: /directory/institutions/western-norway-university-of-applied-sciences/
 name: Western Norway University of Applied Sciences
 image: /images/institutions/western-norway-university-of-applied-sciences.png
 people:

@@ -1,6 +1,7 @@
 ---
 type: person
 slug: sigurd-sandvold
+permalink: /directory/people/sigurd-sandvold/
 name: Sigurd Sandvold
 title: Sigurd Sandvold
 position: Dean

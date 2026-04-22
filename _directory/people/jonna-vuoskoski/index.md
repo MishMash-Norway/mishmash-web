@@ -1,6 +1,7 @@
 ---
 type: person
 slug: jonna-vuoskoski
+permalink: /directory/people/jonna-vuoskoski/
 name: Jonna Katariina Vuoskoski
 title: Jonna Katariina Vuoskoski
 position: Professor

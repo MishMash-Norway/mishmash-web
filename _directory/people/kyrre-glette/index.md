@@ -1,6 +1,7 @@
 ---
 type: person
 slug: kyrre-glette
+permalink: /directory/people/kyrre-glette/
 name: Kyrre Glette
 title: Kyrre Glette
 position: Professor

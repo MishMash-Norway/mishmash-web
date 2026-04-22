@@ -1,6 +1,7 @@
 ---
 type: person
 slug: olivier-lartillot
+permalink: /directory/people/olivier-lartillot/
 name: Olivier Lartillot
 title: Olivier Lartillot
 position: Post-doctoral research fellow

@@ -1,6 +1,7 @@
 ---
 type: person
 slug: terje-colbjornsen
+permalink: /directory/people/terje-colbjornsen/
 name: Terje Colbjørnsen
 title: Terje Colbjørnsen
 position: Associate professor

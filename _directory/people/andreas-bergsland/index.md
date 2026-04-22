@@ -1,6 +1,7 @@
 ---
 type: person
 slug: andreas-bergsland
+permalink: /directory/people/andreas-bergsland/
 name: Andreas Bergsland
 title: Andreas Bergsland
 position: Professor

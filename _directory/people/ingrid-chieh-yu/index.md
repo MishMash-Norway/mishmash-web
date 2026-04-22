@@ -1,6 +1,7 @@
 ---
 type: person
 slug: ingrid-chieh-yu
+permalink: /directory/people/ingrid-chieh-yu/
 name: Ingrid Chieh Yu
 title: Ingrid Chieh Yu
 position: Professor

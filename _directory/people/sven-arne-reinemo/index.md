@@ -1,6 +1,7 @@
 ---
 type: person
 slug: sven-arne-reinemo
+permalink: /directory/people/sven-arne-reinemo/
 name: Sven-Arne Reinemo
 title: Sven-Arne Reinemo
 position: Research Director

@@ -1,6 +1,7 @@
 ---
 type: person
 slug: georgios-marentakis
+permalink: /directory/people/georgios-marentakis/
 name: Georgios Marentakis
 title: Georgios Marentakis
 position: Associate professor

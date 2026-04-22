@@ -1,6 +1,7 @@
 ---
 type: person
 slug: marit-wergeland
+permalink: /directory/people/marit-wergeland/
 name: Marit Wergeland-Yates
 title: Marit Wergeland-Yates
 position: University lecturer

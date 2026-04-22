@@ -1,6 +1,7 @@
 ---
 type: person
 slug: ivar-grydeland
+permalink: /directory/people/ivar-grydeland/
 name: Ivar Grydeland
 title: Ivar Grydeland
 position: Associate professor

@@ -1,6 +1,7 @@
 ---
 type: person
 slug: ingrid-romarheim-haugen
+permalink: /directory/people/ingrid-romarheim-haugen/
 name: Ingrid Romarheim Haugen
 title: Ingrid Romarheim Haugen
 position: Adviser

@@ -1,6 +1,7 @@
 ---
 type: person
 slug: jostein-gundersen
+permalink: /directory/people/jostein-gundersen/
 name: Jostein Gundersen
 title: Jostein Gundersen
 position: Council member

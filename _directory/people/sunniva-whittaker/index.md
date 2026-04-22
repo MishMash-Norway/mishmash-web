@@ -1,6 +1,7 @@
 ---
 type: person
 slug: sunniva-whittaker
+permalink: /directory/people/sunniva-whittaker/
 name: Sunniva Whittaker
 title: Sunniva Whittaker
 position: Rector

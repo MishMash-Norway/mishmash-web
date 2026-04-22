@@ -1,6 +1,7 @@
 ---
 type: person
 slug: stig-mathisen
+permalink: /directory/people/stig-mathisen/
 name: Stig Mathisen
 title: Stig Mathisen
 position: Council member

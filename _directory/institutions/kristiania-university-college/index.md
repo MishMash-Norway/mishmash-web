@@ -1,6 +1,7 @@
 ---
 type: institution
 slug: kristiania-university-college
+permalink: /directory/institutions/kristiania-university-college/
 name: Kristiania University College
 image: /images/institutions/kristiania-university-college.png
 people:

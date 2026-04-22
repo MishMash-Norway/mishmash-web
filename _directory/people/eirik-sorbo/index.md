@@ -1,6 +1,7 @@
 ---
 type: person
 slug: eirik-sorbo
+permalink: /directory/people/eirik-sorbo/
 name: Eirik Sørbø
 title: Eirik Sørbø
 position: Associate professor

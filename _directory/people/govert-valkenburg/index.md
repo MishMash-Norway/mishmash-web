@@ -1,6 +1,7 @@
 ---
 type: person
 slug: govert-valkenburg
+permalink: /directory/people/govert-valkenburg/
 name: Govert Valkenburg
 title: Govert Valkenburg
 position: Council member

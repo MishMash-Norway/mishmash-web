@@ -1,6 +1,7 @@
 ---
 type: person
 slug: yngvil-beyer
+permalink: /directory/people/yngvil-beyer/
 name: Yngvil Nesheim Beyer
 title: Yngvil Nesheim Beyer
 position: Head of Section

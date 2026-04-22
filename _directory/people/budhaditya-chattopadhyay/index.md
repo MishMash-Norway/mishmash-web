@@ -1,6 +1,7 @@
 ---
 type: person
 slug: budhaditya-chattopadhyay
+permalink: /directory/people/budhaditya-chattopadhyay/
 name: Budhaditya Chattopadhyay
 title: Budhaditya Chattopadhyay
 position: Post-doctoral research fellow

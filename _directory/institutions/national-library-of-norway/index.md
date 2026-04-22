@@ -1,6 +1,7 @@
 ---
 type: institution
 slug: national-library-of-norway
+permalink: /directory/institutions/national-library-of-norway/
 name: National Library of Norway
 image: /images/institutions/national-library-of-norway.png
 people:

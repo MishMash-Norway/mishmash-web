@@ -1,6 +1,7 @@
 ---
 type: person
 slug: sidsel-karlsen
+permalink: /directory/people/sidsel-karlsen/
 name: Sidsel Karlsen
 title: Sidsel Karlsen
 position: Professor

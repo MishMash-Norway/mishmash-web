@@ -1,6 +1,7 @@
 ---
 type: person
 slug: irina-eidsvold-toien
+permalink: /directory/people/irina-eidsvold-toien/
 name: Irina Eidsvold-Tøien
 title: Irina Eidsvold-Tøien
 position: Associate professor

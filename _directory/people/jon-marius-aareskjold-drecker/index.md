@@ -1,6 +1,7 @@
 ---
 type: person
 slug: jon-marius-aareskjold-drecker
+permalink: /directory/people/jon-marius-aareskjold-drecker/
 name: Jon Marius Aareskjold-Drecker
 title: Jon Marius Aareskjold-Drecker
 position: Senior lecturer

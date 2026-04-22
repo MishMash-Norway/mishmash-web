@@ -1,6 +1,7 @@
 ---
 type: institution
 slug: university-of-bergen
+permalink: /directory/institutions/university-of-bergen/
 name: University of Bergen
 image: /images/institutions/university-of-bergen.png
 people:

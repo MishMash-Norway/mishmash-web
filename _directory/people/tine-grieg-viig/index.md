@@ -1,6 +1,7 @@
 ---
 type: person
 slug: tine-grieg-viig
+permalink: /directory/people/tine-grieg-viig/
 name: Tine Grieg Viig
 title: Tine Grieg Viig
 position: Associate professor

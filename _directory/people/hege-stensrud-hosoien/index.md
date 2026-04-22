@@ -1,6 +1,7 @@
 ---
 type: person
 slug: hege-stensrud-hosoien
+permalink: /directory/people/hege-stensrud-hosoien/
 name: Hege Stensrud Høsøien
 title: Hege Stensrud Høsøien
 position: Academic assistant

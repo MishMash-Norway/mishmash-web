@@ -1,6 +1,7 @@
 ---
 type: person
 slug: carsten-griwodz
+permalink: /directory/people/carsten-griwodz/
 name: Carsten Griwodz
 title: Carsten Griwodz
 position: Professor

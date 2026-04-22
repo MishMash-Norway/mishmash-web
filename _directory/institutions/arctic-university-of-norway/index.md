@@ -1,6 +1,7 @@
 ---
 type: institution
 slug: arctic-university-of-norway
+permalink: /directory/institutions/arctic-university-of-norway/
 name: Arctic University of Norway
 image: /images/institutions/arctic-university-of-norway.png
 people:

@@ -1,6 +1,7 @@
 ---
 type: person
 slug: lina-plataniti
+permalink: /directory/people/lina-plataniti/
 name: Kalliopi Plataniti
 title: Kalliopi Plataniti
 position: Research Scientist

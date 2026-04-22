@@ -1,6 +1,7 @@
 ---
 type: person
 slug: ragnhild-brovig
+permalink: /directory/people/ragnhild-brovig/
 name: Ragnhild Brøvig
 title: Ragnhild Brøvig
 position: Professor

@@ -1,6 +1,7 @@
 ---
 type: person
 slug: arnulf-mattes
+permalink: /directory/people/arnulf-mattes/
 name: Arnulf Christian Mattes
 title: Arnulf Christian Mattes
 position: Professor

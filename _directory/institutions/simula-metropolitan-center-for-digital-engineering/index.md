@@ -1,6 +1,7 @@
 ---
 type: institution
 slug: simula-metropolitan-center-for-digital-engineering
+permalink: /directory/institutions/simula-metropolitan-center-for-digital-engineering/
 name: Simula Metropolitan Center for Digital Engineering
 image: /images/institutions/simula-metropolitan-center-for-digital-engineering.png
 people:

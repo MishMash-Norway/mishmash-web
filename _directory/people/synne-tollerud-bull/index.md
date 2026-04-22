@@ -1,6 +1,7 @@
 ---
 type: person
 slug: synne-tollerud-bull
+permalink: /directory/people/synne-tollerud-bull/
 name: Synne Tollerud Bull
 title: Synne Tollerud Bull
 position: Professor

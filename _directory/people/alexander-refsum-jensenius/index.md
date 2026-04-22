@@ -1,6 +1,7 @@
 ---
 type: person
 slug: alexander-refsum-jensenius
+permalink: /directory/people/alexander-refsum-jensenius/
 name: Alexander Refsum Jensenius
 title: Alexander Refsum Jensenius
 position: Professor

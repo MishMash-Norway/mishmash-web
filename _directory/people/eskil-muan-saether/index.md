@@ -1,6 +1,7 @@
 ---
 type: person
 slug: eskil-muan-saether
+permalink: /directory/people/eskil-muan-saether/
 name: Eskil Muan Sæther
 title: Eskil Muan Sæther
 position: Senior adviser

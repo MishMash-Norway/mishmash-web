@@ -1,6 +1,7 @@
 ---
 type: person
 slug: baltasar-beferull-lozano
+permalink: /directory/people/baltasar-beferull-lozano/
 name: Baltasar Beferull-Lozano
 title: Baltasar Beferull-Lozano
 position: Professor

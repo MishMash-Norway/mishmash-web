@@ -1,6 +1,7 @@
 ---
 type: person
 slug: claire-ghetti
+permalink: /directory/people/claire-ghetti/
 name: Claire Ghetti
 title: Claire Ghetti
 position: Professor

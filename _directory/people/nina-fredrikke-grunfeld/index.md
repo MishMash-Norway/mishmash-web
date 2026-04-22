@@ -1,6 +1,7 @@
 ---
 type: person
 slug: nina-fredrikke-grunfeld
+permalink: /directory/people/nina-fredrikke-grunfeld/
 name: Nina Fredrikke Grünfeld
 title: Nina Fredrikke Grünfeld
 position: Council member

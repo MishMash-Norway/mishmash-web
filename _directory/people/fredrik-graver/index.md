@@ -1,6 +1,7 @@
 ---
 type: person
 slug: fredrik-graver
+permalink: /directory/people/fredrik-graver/
 name: Fredrik (Georg Fredrik) Graver
 title: Fredrik (Georg Fredrik) Graver
 position: Professor

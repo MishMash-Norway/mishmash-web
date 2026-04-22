@@ -1,6 +1,7 @@
 ---
 type: person
 slug: lise-amy-hansen
+permalink: /directory/people/lise-amy-hansen/
 name: Lise Amy Hansen
 title: Lise Amy Hansen
 position: Professor

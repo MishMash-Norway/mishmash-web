@@ -1,6 +1,7 @@
 ---
 type: institution
 slug: bi-norwegian-business-school
+permalink: /directory/institutions/bi-norwegian-business-school/
 name: BI Norwegian Business School
 image: /images/institutions/bi-norwegian-business-school.png
 people:

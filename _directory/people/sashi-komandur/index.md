@@ -1,6 +1,7 @@
 ---
 type: person
 slug: sashi-komandur
+permalink: /directory/people/sashi-komandur/
 name: Sashidharan Komandur
 title: Sashidharan Komandur
 position: Associate professor

@@ -1,6 +1,7 @@
 ---
 type: institution
 slug: notam-norwegian-centre-for-technology-art-and-music
+permalink: /directory/institutions/notam-norwegian-centre-for-technology-art-and-music/
 name: Notam - Norwegian Centre for Technology, Art and Music
 image: /images/institutions/notam-norwegian-centre-for-technology-art-and-music.png
 people:

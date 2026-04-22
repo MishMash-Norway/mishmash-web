@@ -1,6 +1,7 @@
 ---
 type: person
 slug: morten-qvenild
+permalink: /directory/people/morten-qvenild/
 name: Morten Qvenild
 title: Morten Qvenild
 position: Pro-rector

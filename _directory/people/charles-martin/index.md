@@ -1,6 +1,7 @@
 ---
 type: person
 slug: charles-martin
+permalink: /directory/people/charles-martin/
 name: Charles Martin
 title: Charles Martin
 position: Guest

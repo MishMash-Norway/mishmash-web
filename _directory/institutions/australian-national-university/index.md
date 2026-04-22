@@ -1,6 +1,7 @@
 ---
 type: institution
 slug: australian-national-university
+permalink: /directory/institutions/australian-national-university/
 name: Australian National University
 image: /images/institutions/australian-national-university.png
 people:
