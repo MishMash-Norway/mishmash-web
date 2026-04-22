@@ -22,6 +22,6 @@ This page is for MishMash members only, and WP4 members in particular. It is a n
 - [Documents](/internal/wp4/documents/)
 
 ## Contact
-- [Eirik Sørbø](mailto:eirik.sorbo@uia.no") (lead)  
+- [Eirik Sørbø](mailto:eirik.sorbo@uia.no) (lead)  
 - [Sidsel Karlsen](mailto:sidsel.karlsen@nmh.no) (co-lead) 
 - [Fredrik Graver](mailto:fredrik.graver@inn.no) (co-lead) 
