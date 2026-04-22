@@ -2,7 +2,10 @@
 type: person
 slug: lina-plataniti
 name: Lina Plataniti
+title: Lina Plataniti
+position: Council member
 image: /images/people/lina-plataniti.jpg
+institution: norsus-norwegian-institute-for-sustainability-research
 institutions:
   - norsus-norwegian-institute-for-sustainability-research
 projects: []

@@ -2,7 +2,10 @@
 type: person
 slug: carsten-griwodz
 name: Carsten Griwodz
-image: /images/people/carsten-griwodz.jpg
+title: Carsten Griwodz
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Carsten_Griwodz_UiO.png
+institution: university-of-oslo
 institutions:
   - university-of-oslo
 projects: []

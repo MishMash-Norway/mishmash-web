@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% assign person_title = page.position | default: page.roles | first %}
+{% assign primary_institution_slug = page.institution | default: page.institutions | first %}
+{% assign primary_institution_doc = site.directory | where: "type", "institution" | where: "slug", primary_institution_slug | first %}
+
+<div class="page person-page">
+  <div class="container">
+    <section class="person-profile-card">
+      {% if page.image %}
+      <img src="{{ page.image | relative_url }}" alt="{{ page.name | default: page.slug }}" class="person-profile-image wp-member-photo">
+      {% endif %}
+      <div class="person-profile-meta">
+        <h1>{{ page.name }}</h1>
+        {% if person_title %}
+        <p><strong>Title:</strong> {{ person_title }}</p>
+        {% endif %}
+        {% if primary_institution_doc %}
+        <p><strong>Institution:</strong> <a href="{{ primary_institution_doc.url | relative_url }}">{{ primary_institution_doc.name }}</a></p>
+        {% elsif primary_institution_slug %}
+        <p><strong>Institution:</strong> {{ primary_institution_slug }}</p>
+        {% endif %}
+      </div>
+    </section>
+
+    {{ content }}
+  </div>
+</div>

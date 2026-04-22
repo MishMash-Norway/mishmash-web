@@ -2,7 +2,10 @@
 type: person
 slug: ivar-grydeland
 name: Ivar Grydeland
-image: /images/people/ivar-grydeland.jpg
+title: Ivar Grydeland
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Ivar_Grydeland_NMH.png
+institution: norwegian-academy-of-music
 institutions:
   - norwegian-academy-of-music
 projects: []

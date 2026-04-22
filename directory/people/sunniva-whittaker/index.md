@@ -2,7 +2,10 @@
 type: person
 slug: sunniva-whittaker
 name: Sunniva Whittaker
+title: Sunniva Whittaker
+position: Board Leader
 image: /images/people/sunniva-whittaker.jpg
+institution: university-of-agder
 institutions:
   - university-of-agder
 projects: []

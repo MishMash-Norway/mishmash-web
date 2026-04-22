@@ -2,7 +2,10 @@
 type: person
 slug: kjetil-nordby
 name: Kjetil Nordby
-image: /images/people/kjetil-nordby.jpg
+title: Kjetil Nordby
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Kjetil_Nordby_AHO.png
+institution: oslo-school-of-architecture-and-design
 institutions:
   - oslo-school-of-architecture-and-design
 projects: []

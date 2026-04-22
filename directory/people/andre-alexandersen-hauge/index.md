@@ -2,7 +2,10 @@
 type: person
 slug: andre-alexandersen-hauge
 name: André Alexandersen Hauge
+title: André Alexandersen Hauge
+position: Council member
 image: /images/people/andre-alexandersen-hauge.jpg
+institution: ostfold-university-college
 institutions:
   - ostfold-university-college
 projects: []

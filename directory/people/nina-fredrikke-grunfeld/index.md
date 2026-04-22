@@ -2,7 +2,10 @@
 type: person
 slug: nina-fredrikke-grunfeld
 name: Nina Fredrikke Grünfeld
+title: Nina Fredrikke Grünfeld
+position: Council member
 image: /images/people/nina-fredrikke-grunfeld.jpg
+institution: inland-norway-university-of-applied-sciences
 institutions:
   - inland-norway-university-of-applied-sciences
 projects: []

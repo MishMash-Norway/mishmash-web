@@ -2,7 +2,10 @@
 type: person
 slug: sigurd-sandvold
 name: Sigurd Sandvold
+title: Sigurd Sandvold
+position: Council member
 image: /images/people/sigurd-sandvold.jpg
+institution: western-norway-university-of-applied-sciences
 institutions:
   - western-norway-university-of-applied-sciences
 projects: []

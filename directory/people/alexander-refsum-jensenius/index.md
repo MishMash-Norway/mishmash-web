@@ -2,7 +2,10 @@
 type: person
 slug: alexander-refsum-jensenius
 name: Alexander Refsum Jensenius
-image: /images/people/alexander-refsum-jensenius.jpg
+title: Alexander Refsum Jensenius
+position: Board Observer
+image: /assets/images/portraits/circle/Alexander_Refsum_Jensenius_UiO.png
+institution: university-of-oslo
 institutions:
   - university-of-oslo
 projects: []

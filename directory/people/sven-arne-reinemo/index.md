@@ -2,7 +2,10 @@
 type: person
 slug: sven-arne-reinemo
 name: Sven-Arne Reinemo
+title: Sven-Arne Reinemo
+position: Council member
 image: /images/people/sven-arne-reinemo.jpg
+institution: simula-metropolitan-center-for-digital-engineering
 institutions:
   - simula-metropolitan-center-for-digital-engineering
 projects: []

@@ -2,7 +2,10 @@
 type: person
 slug: kyrre-glette
 name: Kyrre Glette
-image: /images/people/kyrre-glette.jpg
+title: Kyrre Glette
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Kyrre_Glette_UiO.png
+institution: university-of-oslo
 institutions:
   - university-of-oslo
 projects: []

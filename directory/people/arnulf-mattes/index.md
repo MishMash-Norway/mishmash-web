@@ -2,7 +2,10 @@
 type: person
 slug: arnulf-mattes
 name: Arnulf Mattes
-image: /images/people/arnulf-mattes.jpg
+title: Arnulf Mattes
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Arnulf_Mattes_UiB.png
+institution: university-of-bergen
 institutions:
   - university-of-bergen
 projects: []

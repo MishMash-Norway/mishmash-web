@@ -2,7 +2,10 @@
 type: person
 slug: sashi-komandur
 name: Sashi Komandur
+title: Sashi Komandur
+position: Work Package Leader Group member
 image: /images/people/sashi-komandur.jpg
+institution: inland-norway-university-of-applied-sciences
 institutions:
   - inland-norway-university-of-applied-sciences
 projects: []

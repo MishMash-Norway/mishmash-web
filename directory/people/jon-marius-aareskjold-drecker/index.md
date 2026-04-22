@@ -2,7 +2,10 @@
 type: person
 slug: jon-marius-aareskjold-drecker
 name: Jon Marius Aareskjold-Drecker
-image: /images/people/jon-marius-aareskjold-drecker.jpg
+title: Jon Marius Aareskjold-Drecker
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Jon_Marius_Aareskjold-Drecker_UiT.png
+institution: arctic-university-of-norway
 institutions:
   - arctic-university-of-norway
 projects: []

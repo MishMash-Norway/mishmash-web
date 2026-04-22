@@ -319,6 +319,37 @@ a:focus-visible .icon {
   filter: brightness(1.08) drop-shadow(0 6px 10px rgba(54, 54, 68, 0.18));
 }
 
+.person-profile-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.person-profile-image {
+  width: clamp(96px, 24vw, 140px);
+  height: clamp(96px, 24vw, 140px);
+  min-width: clamp(96px, 24vw, 140px);
+  min-height: clamp(96px, 24vw, 140px);
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.person-profile-meta h1 {
+  margin: 0 0 0.4rem 0;
+}
+
+.person-profile-meta p {
+  margin: 0.25rem 0;
+}
+
+@media (max-width: 640px) {
+  .person-profile-card {
+    align-items: flex-start;
+  }
+}
+
 .social-icon-row .social-icon-link span {
   transition: color .2s ease;
 }

@@ -2,7 +2,10 @@
 type: person
 slug: yngvil-beyer
 name: Yngvil Beyer
+title: Yngvil Beyer
+position: Council member
 image: /images/people/yngvil-beyer.jpg
+institution: national-library-of-norway
 institutions:
   - national-library-of-norway
 projects: []

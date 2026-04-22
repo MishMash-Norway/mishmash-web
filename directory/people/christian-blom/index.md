@@ -2,7 +2,10 @@
 type: person
 slug: christian-blom
 name: Christian Blom
+title: Christian Blom
+position: Board Member
 image: /images/people/christian-blom.jpg
+institution: notam-norwegian-centre-for-technology-art-and-music
 institutions:
   - notam-norwegian-centre-for-technology-art-and-music
 projects: []

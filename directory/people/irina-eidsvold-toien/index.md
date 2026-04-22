@@ -2,7 +2,10 @@
 type: person
 slug: irina-eidsvold-toien
 name: Irina Eidsvold-Tøien
-image: /images/people/irina-eidsvold-toien.jpg
+title: Irina Eidsvold-Tøien
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Irina_Eidsvold_Toien_BI.png
+institution: bi-norwegian-business-school
 institutions:
   - bi-norwegian-business-school
 projects: []

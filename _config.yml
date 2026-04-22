@@ -27,6 +27,13 @@ collections:
     output: true
     permalink: /directory/:path/
 
+defaults:
+  - scope:
+      path: "directory/people"
+      type: "directory"
+    values:
+      layout: person
+
 # optional: ask jekyll-feed to include these collections (if plugin version supports it)
 feed:
   collections:

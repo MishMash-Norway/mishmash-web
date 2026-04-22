@@ -2,7 +2,10 @@
 type: person
 slug: ingrid-romarheim-haugen
 name: Ingrid Romarheim Haugen
-image: /images/people/ingrid-romarheim-haugen.jpg
+title: Ingrid Romarheim Haugen
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Ingrid_Romarheim_Haugen_NB.png
+institution: national-library-of-norway
 institutions:
   - national-library-of-norway
 projects: []

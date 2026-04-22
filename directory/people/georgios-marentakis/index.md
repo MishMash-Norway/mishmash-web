@@ -2,7 +2,10 @@
 type: person
 slug: georgios-marentakis
 name: Georgios Marentakis
-image: /images/people/georgios-marentakis.jpg
+title: Georgios Marentakis
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Georgios_Marentakis_HiOF.png
+institution: ostfold-university-college
 institutions:
   - ostfold-university-college
 projects: []

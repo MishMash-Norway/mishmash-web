@@ -2,7 +2,10 @@
 type: person
 slug: marit-wergeland
 name: Marit Wergeland
+title: Marit Wergeland
+position: Council member
 image: /images/people/marit-wergeland.jpg
+institution: university-of-agder
 institutions:
   - university-of-agder
 projects: []

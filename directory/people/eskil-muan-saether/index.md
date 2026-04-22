@@ -2,7 +2,10 @@
 type: person
 slug: eskil-muan-saether
 name: Eskil Muan Sæther
-image: /images/people/eskil-muan-saether.jpg
+title: Eskil Muan Sæther
+position: Board Secretary
+image: /assets/images/portraits/circle/eskil_muan_saether_UiO.png
+institution: university-of-oslo
 institutions:
   - university-of-oslo
 projects: []

@@ -2,7 +2,10 @@
 type: person
 slug: synne-tollerud-bull
 name: Synne Tollerud Bull
-image: /images/people/synne-tollerud-bull.jpg
+title: Synne Tollerud Bull
+position: Council member
+image: /assets/images/portraits/circle/Synne_Tollerud_Bull_Kristiania.png
+institution: kristiania-university-college
 institutions:
   - kristiania-university-college
 projects: []

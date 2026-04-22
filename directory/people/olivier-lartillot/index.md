@@ -2,7 +2,10 @@
 type: person
 slug: olivier-lartillot
 name: Olivier Lartillot
-image: /images/people/olivier-lartillot.jpg
+title: Olivier Lartillot
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Olivier_Lartillot_UiO.png
+institution: university-of-oslo
 institutions:
   - university-of-oslo
 projects: []

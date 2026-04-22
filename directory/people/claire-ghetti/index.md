@@ -2,7 +2,10 @@
 type: person
 slug: claire-ghetti
 name: Claire Ghetti
-image: /images/people/claire-ghetti.jpg
+title: Claire Ghetti
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Claire_Ghetti_UiB.png
+institution: university-of-bergen
 institutions:
   - university-of-bergen
 projects: []

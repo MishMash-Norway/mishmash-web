@@ -2,7 +2,10 @@
 type: person
 slug: budhaditya-chattopadhyay
 name: Budhaditya Chattopadhyay
-image: /images/people/budhaditya-chattopadhyay.jpg
+title: Budhaditya Chattopadhyay
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Budhaditya_Chattopadhyay_UiB.png
+institution: university-of-bergen
 institutions:
   - university-of-bergen
 projects: []

@@ -2,7 +2,10 @@
 type: person
 slug: eirik-sorbo
 name: Eirik Sørbø
-image: /images/people/eirik-sorbo.jpg
+title: Eirik Sørbø
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/eirik_sorbo_UiA.png
+institution: university-of-agder
 institutions:
   - university-of-agder
 projects: []

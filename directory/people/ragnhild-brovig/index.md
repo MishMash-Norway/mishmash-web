@@ -2,7 +2,10 @@
 type: person
 slug: ragnhild-brovig
 name: Ragnhild Brøvig
-image: /images/people/ragnhild-brovig.jpg
+title: Ragnhild Brøvig
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Ragnhild_Brovig_UiO.png
+institution: university-of-oslo
 institutions:
   - university-of-oslo
 projects: []

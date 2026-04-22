@@ -2,7 +2,10 @@
 type: person
 slug: fredrik-graver
 name: Fredrik Graver
-image: /images/people/fredrik-graver.jpg
+title: Fredrik Graver
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Fredrik_Graver_INN.png
+institution: inland-norway-university-of-applied-sciences
 institutions:
   - inland-norway-university-of-applied-sciences
 projects: []

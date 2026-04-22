@@ -2,7 +2,10 @@
 type: person
 slug: charles-martin
 name: Charles Martin
+title: Charles Martin
+position: Council member
 image: /images/people/charles-martin.jpg
+institution: australian-national-university
 institutions:
   - australian-national-university
 projects: []

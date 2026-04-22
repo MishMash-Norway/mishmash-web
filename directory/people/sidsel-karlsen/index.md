@@ -2,7 +2,10 @@
 type: person
 slug: sidsel-karlsen
 name: Sidsel Karlsen
-image: /images/people/sidsel-karlsen.jpg
+title: Sidsel Karlsen
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Sidsel_Karlsen_NMH.png
+institution: norwegian-academy-of-music
 institutions:
   - norwegian-academy-of-music
 projects: []

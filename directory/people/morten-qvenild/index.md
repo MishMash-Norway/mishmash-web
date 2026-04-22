@@ -2,7 +2,10 @@
 type: person
 slug: morten-qvenild
 name: Morten Qvenild
-image: /images/people/morten-qvenild.jpg
+title: Morten Qvenild
+position: Council member
+image: /assets/images/portraits/circle/Morten_Qvenild_NMH.png
+institution: norwegian-academy-of-music
 institutions:
   - norwegian-academy-of-music
 projects: []

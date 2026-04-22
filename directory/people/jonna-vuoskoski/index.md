@@ -2,7 +2,10 @@
 type: person
 slug: jonna-vuoskoski
 name: Jonna Vuoskoski
-image: /images/people/jonna-vuoskoski.jpg
+title: Jonna Vuoskoski
+position: Work Package Leader Group member
+image: /assets/images/portraits/circle/Jonna_Vuoskoski_UiO.png
+institution: university-of-oslo
 institutions:
   - university-of-oslo
 projects: []
