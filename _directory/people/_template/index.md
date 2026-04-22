@@ -1,4 +1,5 @@
 ---
+published: false
 type: person
 slug: person-slug
 name: Full Name

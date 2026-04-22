@@ -1,4 +1,5 @@
 ---
+published: false
 type: institution
 slug: institution-slug
 name: Institution Name
