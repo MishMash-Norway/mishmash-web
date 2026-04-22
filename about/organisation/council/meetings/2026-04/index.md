@@ -14,6 +14,9 @@ meeting_location: "Zoom"
 1. Velkommen og introduksjonsrunde
 2. Rådets rolle og mandat i MishMash
 3. Statusoppdatering fra senterledelsen
-4. Prioriteringer for 2026 og strategiske råd
+4. Planer og prioriteringer for 2026–2027
 5. Koordinering mellom partnerinstitusjonene
-6. Eventuelt
+6. Nettsider og kommunikasjonsarbeid
+7. Økonomi
+8. Rapportering
+9. Eventuelt
