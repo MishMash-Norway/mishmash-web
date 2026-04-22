@@ -260,7 +260,7 @@ def background_to_summary(background) -> str:
 def build_institution_lookup(root: Path) -> tuple[dict[str, str], dict[str, str]]:
     lookup = {}
     slug_to_name = {}
-    base = root / "directory" / "institutions"
+    base = root / "_directory" / "institutions"
     if not base.exists():
         return lookup, slug_to_name
     for child in base.iterdir():
@@ -461,7 +461,7 @@ def main():
     args = parser.parse_args()
 
     root = Path(args.root).resolve()
-    people_base = root / "directory" / "people"
+    people_base = root / "_directory" / "people"
     if not people_base.exists():
         raise SystemExit(f"Missing directory: {people_base}")
 

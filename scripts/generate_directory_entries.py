@@ -273,7 +273,7 @@ def write_entries(root: Path, mentions, overwrite: bool = False):
     skipped = 0
 
     for t, items in mentions.items():
-        base = root / "directory" / map_dir[t]
+        base = root / "_directory" / map_dir[t]
         base.mkdir(parents=True, exist_ok=True)
 
         for raw_name, srcs in sorted(items.items(), key=lambda x: x[0].lower()):

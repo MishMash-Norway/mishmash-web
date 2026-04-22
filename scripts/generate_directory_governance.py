@@ -191,8 +191,8 @@ def parse_council(path: Path, persons: dict):
 
 def ensure_templates(root: Path):
     templates = [
-        root / "directory" / "people" / "_template" / "index.md",
-        root / "directory" / "institutions" / "_template" / "index.md",
+        root / "_directory" / "people" / "_template" / "index.md",
+        root / "_directory" / "institutions" / "_template" / "index.md",
     ]
     for p in templates:
         if not p.exists():
@@ -201,7 +201,7 @@ def ensure_templates(root: Path):
 
 def reset_dirs(root: Path):
     for section in ("people", "institutions"):
-        base = root / "directory" / section
+        base = root / "_directory" / section
         if not base.exists():
             continue
         for child in base.iterdir():
@@ -286,8 +286,8 @@ summary:
 
 
 def write_directory(root: Path, persons: dict):
-    people_base = root / "directory" / "people"
-    institutions_base = root / "directory" / "institutions"
+    people_base = root / "_directory" / "people"
+    institutions_base = root / "_directory" / "institutions"
 
     institution_to_people = defaultdict(set)
     institution_sources = defaultdict(list)

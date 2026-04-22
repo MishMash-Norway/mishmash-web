@@ -86,7 +86,7 @@ def main():
     args = parser.parse_args()
 
     root = Path(args.root).resolve()
-    directory_root = root / "directory"
+    directory_root = root / "_directory"
 
     errors = []
     warnings = []

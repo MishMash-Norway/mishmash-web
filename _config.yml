@@ -29,7 +29,7 @@ collections:
 
 defaults:
   - scope:
-      path: "directory/people"
+      path: "_directory/people"
       type: "directory"
     values:
       layout: person
