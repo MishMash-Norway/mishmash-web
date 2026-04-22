@@ -15,8 +15,8 @@ layout: default
       {% endif %}
       <div class="person-profile-meta">
         <h1>{{ page.name }}</h1>
-        {% if person_title %}
-        <p><strong>Title:</strong> {{ person_title }}</p>
+        {% if page.position %}
+        <p class="person-position">{{ page.position }}</p>
         {% endif %}
         {% if primary_institution_doc %}
         <p><strong>Institution:</strong> <a href="{{ primary_institution_doc.url | relative_url }}">{{ primary_institution_doc.name }}</a></p>
@@ -26,7 +26,9 @@ layout: default
       </div>
     </section>
 
-    {{ content }}
+    {% if page.summary.size > 0 %}
+    <p class="person-summary">{{ page.summary }}</p>
+    {% endif %}
 
     {% capture social_icons_html %}{% if social_urls %}{% if social_urls.website.size > 0 %}<a class="social-icon-link" href="{{ social_urls.website }}" target="_blank" rel="noopener noreferrer" aria-label="Website"><img class="icon icon-newsletter" src="{{ '/assets/images/icons/catalogue/newsletter.svg' | relative_url }}" alt="Website" width="64"></a>{% endif %}{% if social_urls.github.size > 0 %}<a class="social-icon-link" href="{{ social_urls.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img class="icon icon-github" src="{{ '/assets/images/icons/catalogue/github.svg' | relative_url }}" alt="GitHub" width="64"></a>{% endif %}{% if social_urls.linkedin.size > 0 %}<a class="social-icon-link" href="{{ social_urls.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img class="icon icon-linkedin" src="{{ '/assets/images/icons/catalogue/linkedin.svg' | relative_url }}" alt="LinkedIn" width="64"></a>{% endif %}{% if social_urls.orcid.size > 0 %}<a class="social-icon-link" href="{{ social_urls.orcid }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID"><img class="icon icon-orcid" src="{{ '/assets/images/icons/catalogue/orcid.svg' | relative_url }}" alt="ORCID" width="64"></a>{% endif %}{% if social_urls.nva.size > 0 %}<a class="social-icon-link" href="{{ social_urls.nva }}" target="_blank" rel="noopener noreferrer" aria-label="NVA Registry"><img class="icon icon-nva" src="{{ '/assets/images/icons/catalogue/nva.svg' | relative_url }}" alt="NVA Registry" width="64"></a>{% endif %}{% if social_urls.youtube.size > 0 %}<a class="social-icon-link" href="{{ social_urls.youtube }}" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><img class="icon icon-youtube" src="{{ '/assets/images/icons/catalogue/youtube.svg' | relative_url }}" alt="YouTube" width="64"></a>{% endif %}{% if social_urls.facebook.size > 0 %}<a class="social-icon-link" href="{{ social_urls.facebook }}" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img class="icon icon-facebook" src="{{ '/assets/images/icons/catalogue/facebook.svg' | relative_url }}" alt="Facebook" width="64"></a>{% endif %}{% if social_urls.mastodon.size > 0 %}<a class="social-icon-link" href="{{ social_urls.mastodon }}" target="_blank" rel="noopener noreferrer" aria-label="Mastodon"><img class="icon icon-mastodon" src="{{ '/assets/images/icons/catalogue/mastodon.svg' | relative_url }}" alt="Mastodon" width="64"></a>{% endif %}{% if social_urls.instagram.size > 0 %}<a class="social-icon-link" href="{{ social_urls.instagram }}" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img class="icon icon-instagram" src="{{ '/assets/images/icons/catalogue/instagram.svg' | relative_url }}" alt="Instagram" width="64"></a>{% endif %}{% endif %}{% endcapture %}
     {% unless social_icons_html == blank %}
