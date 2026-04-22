@@ -1,0 +1,403 @@
+---
+layout: default
+title: People Network
+---
+<style>
+#net-wrap {
+  position: relative;
+  width: 100%;
+  height: 680px;
+  background: #f6f8fa;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #dde2e6;
+  margin-bottom: 14px;
+}
+#net-svg { width: 100%; height: 100%; cursor: grab; display: block; }
+#net-svg:active { cursor: grabbing; }
+.n-link { stroke: #c4c9ce; stroke-width: 1.5; fill: none; }
+.n-link.hi { stroke: #157878; stroke-width: 2.5; stroke-opacity: 1; }
+.node-person circle { stroke: #fff; stroke-width: 2.5; cursor: pointer; }
+.node-person text { font: 600 9px "Open Sans", sans-serif; fill: #333; text-anchor: middle; pointer-events: none; opacity: 0; transition: opacity .15s; }
+.node-person:hover text { opacity: 1; }
+.node-inst rect { stroke: rgba(255,255,255,.6); stroke-width: 1.5; }
+.node-inst text { font: 700 9.5px "Open Sans", sans-serif; fill: #fff; text-anchor: middle; dominant-baseline: middle; pointer-events: none; }
+#net-tip {
+  position: absolute; background: #fff; border: 1px solid #d8dde2; border-radius: 9px;
+  padding: 10px 13px; font: 13px "Open Sans", sans-serif; pointer-events: none;
+  box-shadow: 0 5px 18px rgba(0,0,0,.11); max-width: 230px; display: none; z-index: 20;
+}
+#net-tip img { width: 46px; height: 46px; border-radius: 50%; object-fit: cover; float: left; margin: 0 10px 6px 0; }
+#net-tip .tt-name { font-weight: 700; font-size: 13px; line-height: 1.3; }
+#net-tip .tt-pos  { color: #555; font-size: 11px; margin-top: 1px; }
+#net-tip .tt-inst { color: #157878; font-size: 11px; margin-top: 3px; }
+#net-tip .tt-role { color: #888; font-size: 10.5px; margin-top: 1px; }
+#net-tip .tt-click { color: #aaa; font-size: 10px; margin-top: 5px; font-style: italic; }
+#net-controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+.fbtn {
+  padding: 4px 14px; border-radius: 20px; border: 1.5px solid #ccc; background: #fff;
+  cursor: pointer; font-size: 12.5px; font-family: "Open Sans", sans-serif; transition: all .15s;
+}
+.fbtn.active { background: #157878; color: #fff; border-color: #157878; }
+.fbtn:hover:not(.active) { border-color: #157878; color: #157878; }
+#net-legend { display: flex; flex-wrap: wrap; gap: 7px 16px; font: 12px "Open Sans", sans-serif; }
+.leg-item { display: flex; align-items: center; gap: 6px; cursor: pointer; padding: 2px 0; }
+.leg-item.faded { opacity: .35; }
+.leg-dot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
+#net-zoom-controls { position: absolute; bottom: 12px; right: 12px; display: flex; flex-direction: column; gap: 4px; }
+.zoom-btn {
+  width: 28px; height: 28px; border: 1px solid #ccc; background: rgba(255,255,255,.9);
+  border-radius: 5px; cursor: pointer; font-size: 16px; line-height: 27px; text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,.1); user-select: none;
+}
+.zoom-btn:hover { background: #f0f0f0; }
+</style>
+
+<div class="page">
+  <div class="container">
+    <h1>People Network</h1>
+    <p style="margin-bottom:16px;">Relationships between MishMash researchers and their institutions.
+    Hover for details · click a person to visit their profile · drag to rearrange · scroll to zoom.</p>
+
+    <div id="net-controls">
+      <strong style="font-size:13px">Filter:</strong>
+      <button class="fbtn active" data-role="all">All</button>
+      <button class="fbtn" data-role="Board">Board</button>
+      <button class="fbtn" data-role="Council">Council</button>
+      <button class="fbtn" data-role="Work Package">WP Leaders</button>
+      <label style="margin-left:8px; font-size:13px; display:flex; align-items:center; gap:6px; cursor:pointer;">
+        <input type="checkbox" id="toggle-inst" checked> Institution nodes
+      </label>
+    </div>
+
+    <div id="net-wrap">
+      <svg id="net-svg"></svg>
+      <div id="net-tip"></div>
+      <div id="net-zoom-controls">
+        <div class="zoom-btn" id="zoom-in">+</div>
+        <div class="zoom-btn" id="zoom-out">−</div>
+        <div class="zoom-btn" id="zoom-reset" style="font-size:11px; line-height:28px;">↺</div>
+      </div>
+    </div>
+
+    <div id="net-legend"></div>
+  </div>
+</div>
+
+<script>
+/* ── Data generated from Jekyll collection ──────────────────────────────── */
+const PEOPLE = [
+  {% for doc in site.directory %}{% if doc.type == "person" and doc.slug != "person-slug" %}
+  {
+    id: {{ doc.slug | jsonify }},
+    name: {{ doc.name | jsonify }},
+    position: {{ doc.position | jsonify }},
+    roles: {{ doc.roles | jsonify }},
+    institutions: {{ doc.institutions | jsonify }},
+    image: {{ doc.image | relative_url | jsonify }},
+    url: {{ doc.url | relative_url | jsonify }},
+  },
+  {% endif %}{% endfor %}
+];
+
+const INSTITUTIONS = [
+  {% for doc in site.directory %}{% if doc.type == "institution" and doc.slug != "institution-slug" %}
+  {
+    id: {{ doc.slug | jsonify }},
+    name: {{ doc.name | jsonify }},
+    url: {{ doc.url | relative_url | jsonify }},
+  },
+  {% endif %}{% endfor %}
+];
+
+/* ── Institution short labels ─────────────────────────────────────────── */
+const ABBREV = {
+  "arctic-university-of-norway":                      "UiT",
+  "australian-national-university":                   "ANU",
+  "bi-norwegian-business-school":                     "BI",
+  "inland-norway-university-of-applied-sciences":     "INN",
+  "kristiania-university-college":                    "Kristiania",
+  "national-library-of-norway":                       "NB",
+  "norsus-norwegian-institute-for-sustainability-research": "NORSUS",
+  "norwegian-academy-of-music":                       "NMH",
+  "norwegian-university-of-science-and-technology":   "NTNU",
+  "notam-norwegian-centre-for-technology-art-and-music": "NOTAM",
+  "oslo-national-academy-of-the-arts":                "KHiO",
+  "oslo-school-of-architecture-and-design":           "AHO",
+  "ostfold-university-college":                       "HiØF",
+  "reimagine":                                        "Reimagine",
+  "simula-metropolitan-center-for-digital-engineering": "Simula",
+  "university-of-agder":                              "UiA",
+  "university-of-bergen":                             "UiB",
+  "university-of-oslo":                               "UiO",
+  "western-norway-university-of-applied-sciences":    "HVL",
+};
+</script>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+(function () {
+"use strict";
+
+/* ── Colour scale (one per institution) ──────────────────────────────── */
+const PALETTE = [
+  "#1f77b4","#d62728","#2ca02c","#9467bd","#8c564b",
+  "#e377c2","#7f7f7f","#bcbd22","#17becf","#f08030",
+  "#aec7e8","#ff9896","#98df8a","#c5b0d5","#c49c94",
+  "#f7b6d2","#c7c7c7","#dbdb8d","#9edae5","#ffbb78",
+];
+const instIds = INSTITUTIONS.map(i => i.id);
+const color = d3.scaleOrdinal().domain(instIds).range(PALETTE);
+
+/* ── Inst name map ──────────────────────────────────────────────────── */
+const instName = Object.fromEntries(INSTITUTIONS.map(i => [i.id, i.name]));
+
+/* ── State ──────────────────────────────────────────────────────────── */
+let roleFilter = "all";
+let showInst   = true;
+let hiddenInst = new Set(); // slugs toggled off via legend
+
+/* ── Graph builder ──────────────────────────────────────────────────── */
+function buildGraph() {
+  let people = PEOPLE.filter(p => (p.institutions || []).length > 0);
+
+  if (roleFilter !== "all") {
+    people = people.filter(p => (p.roles || []).some(r => r.includes(roleFilter)));
+  }
+
+  // Remove people whose every institution is hidden
+  people = people.filter(p => (p.institutions || []).some(i => !hiddenInst.has(i)));
+
+  const usedInst = new Set(people.flatMap(p => (p.institutions || []).filter(i => !hiddenInst.has(i))));
+
+  const nodes = [];
+  people.forEach(p => nodes.push({ ...p, nodeType: "person" }));
+  if (showInst) {
+    INSTITUTIONS.forEach(inst => {
+      if (usedInst.has(inst.id)) nodes.push({ ...inst, nodeType: "inst" });
+    });
+  }
+
+  const nodeSet = new Set(nodes.map(n => n.id));
+  const links = [];
+
+  if (showInst) {
+    people.forEach(p => {
+      (p.institutions || []).filter(i => !hiddenInst.has(i) && nodeSet.has(i)).forEach(inst => {
+        links.push({ source: p.id, target: inst });
+      });
+    });
+  } else {
+    // person-person edges for shared institution
+    const byInst = {};
+    people.forEach(p => {
+      (p.institutions || []).filter(i => !hiddenInst.has(i)).forEach(inst => {
+        (byInst[inst] = byInst[inst] || []).push(p.id);
+      });
+    });
+    const seen = new Set();
+    Object.values(byInst).forEach(ps => {
+      for (let a = 0; a < ps.length; a++) {
+        for (let b = a + 1; b < ps.length; b++) {
+          const key = [ps[a], ps[b]].sort().join("||");
+          if (!seen.has(key)) { seen.add(key); links.push({ source: ps[a], target: ps[b] }); }
+        }
+      }
+    });
+  }
+
+  return { nodes, links };
+}
+
+/* ── SVG / zoom setup ─────────────────────────────────────────────── */
+const svg = d3.select("#net-svg");
+const wrap = document.getElementById("net-wrap");
+let W = wrap.clientWidth, H = wrap.clientHeight;
+
+let zoom = d3.zoom().scaleExtent([0.25, 5]).on("zoom", e => g.attr("transform", e.transform));
+svg.call(zoom);
+
+const g = svg.append("g");
+
+// Zoom buttons
+document.getElementById("zoom-in")   .onclick = () => svg.transition().duration(300).call(zoom.scaleBy, 1.4);
+document.getElementById("zoom-out")  .onclick = () => svg.transition().duration(300).call(zoom.scaleBy, 0.7);
+document.getElementById("zoom-reset").onclick = () => svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
+
+/* ── Tooltip helpers ─────────────────────────────────────────────── */
+const tip = document.getElementById("net-tip");
+
+function showTip(event, d) {
+  if (d.nodeType !== "person") return;
+  const inst0 = (d.institutions || [])[0];
+  const instLabel = inst0 ? (instName[inst0] || inst0) : "";
+  const imgTag = d.image ? `<img src="${d.image}" alt="" onerror="this.style.display='none'">` : "";
+  const roleStr = (d.roles || []).join(", ");
+  tip.innerHTML = `${imgTag}
+    <div class="tt-name">${d.name}</div>
+    ${d.position ? `<div class="tt-pos">${d.position}</div>` : ""}
+    ${instLabel ? `<div class="tt-inst">${instLabel}</div>` : ""}
+    ${roleStr ? `<div class="tt-role">${roleStr}</div>` : ""}
+    <div class="tt-click" style="clear:both">Click to view profile →</div>`;
+  tip.style.display = "block";
+  moveTip(event);
+}
+function moveTip(event) {
+  const r = wrap.getBoundingClientRect();
+  let x = event.clientX - r.left + 14, y = event.clientY - r.top - 20;
+  if (x + 240 > W) x -= 250;
+  if (y + 160 > H) y -= 140;
+  tip.style.left = x + "px";
+  tip.style.top  = y + "px";
+}
+function hideTip() { tip.style.display = "none"; }
+
+/* ── Drag handlers ────────────────────────────────────────────────── */
+function dragstart(event, d) {
+  if (!event.active) sim.alphaTarget(0.3).restart();
+  d.fx = d.x; d.fy = d.y;
+}
+function dragged(event, d) { d.fx = event.x; d.fy = event.y; }
+function dragend(event, d) {
+  if (!event.active) sim.alphaTarget(0);
+  d.fx = null; d.fy = null;
+}
+
+/* ── Simulation ──────────────────────────────────────────────────── */
+let sim;
+
+/* ── Main render ─────────────────────────────────────────────────── */
+function render() {
+  W = wrap.clientWidth; H = wrap.clientHeight;
+  const { nodes, links } = buildGraph();
+
+  g.selectAll("*").remove();
+  if (sim) sim.stop();
+
+  /* links */
+  const linkSel = g.append("g").attr("class", "links")
+    .selectAll("line").data(links).join("line").attr("class", "n-link");
+
+  /* nodes */
+  const nodeSel = g.append("g").attr("class", "nodes")
+    .selectAll("g").data(nodes).join("g")
+    .attr("class", d => `node node-${d.nodeType}`)
+    .call(d3.drag().on("start", dragstart).on("drag", dragged).on("end", dragend))
+    .on("mouseover", showTip).on("mousemove", moveTip).on("mouseout", hideTip)
+    .on("click", (_, d) => { if (d.url) window.location.href = d.url; });
+
+  /* person circles */
+  nodeSel.filter(d => d.nodeType === "person")
+    .append("circle")
+    .attr("r", 20)
+    .attr("fill", d => color((d.institutions || [])[0] || ""))
+    .attr("fill-opacity", 0.88);
+
+  nodeSel.filter(d => d.nodeType === "person")
+    .append("text")
+    .attr("y", 30)
+    .text(d => d.name.split(" ").pop());
+
+  /* institution rectangles */
+  const IW = 100, IH = 30;
+  nodeSel.filter(d => d.nodeType === "inst")
+    .append("rect")
+    .attr("width", IW).attr("height", IH)
+    .attr("x", -IW / 2).attr("y", -IH / 2)
+    .attr("rx", 6)
+    .attr("fill", d => color(d.id));
+
+  nodeSel.filter(d => d.nodeType === "inst")
+    .append("text")
+    .text(d => ABBREV[d.id] || d.id.toUpperCase().slice(0, 6));
+
+  /* force simulation */
+  sim = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id(d => d.id)
+      .distance(d => (d.source.nodeType === "inst" || d.target.nodeType === "inst") ? 90 : 65)
+      .strength(0.55))
+    .force("charge", d3.forceManyBody()
+      .strength(d => d.nodeType === "inst" ? -600 : -160))
+    .force("center", d3.forceCenter(W / 2, H / 2).strength(0.08))
+    .force("collide", d3.forceCollide()
+      .radius(d => d.nodeType === "inst" ? 62 : 26)
+      .strength(0.7))
+    .on("tick", () => {
+      linkSel
+        .attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+        .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+      nodeSel.attr("transform", d => `translate(${d.x},${d.y})`);
+    });
+
+  /* highlight connected on hover */
+  const linkedSet = (d) => {
+    const s = new Set();
+    links.forEach(l => {
+      if (l.source.id === d.id) s.add(l.target.id);
+      if (l.target.id === d.id) s.add(l.source.id);
+    });
+    s.add(d.id);
+    return s;
+  };
+
+  nodeSel.on("mouseover.hi", function(_, d) {
+    const connected = linkedSet(d);
+    nodeSel.style("opacity", n => connected.has(n.id) ? 1 : 0.22);
+    linkSel
+      .attr("class", l => (l.source.id === d.id || l.target.id === d.id) ? "n-link hi" : "n-link")
+      .style("stroke-opacity", l => (l.source.id === d.id || l.target.id === d.id) ? 1 : 0.12);
+  }).on("mouseout.hi", function() {
+    nodeSel.style("opacity", 1);
+    linkSel.attr("class", "n-link").style("stroke-opacity", null);
+  });
+
+  renderLegend(nodes);
+}
+
+/* ── Legend ──────────────────────────────────────────────────────── */
+function renderLegend(nodes) {
+  const usedInsts = INSTITUTIONS.filter(i => nodes.some(n => n.id === i.id));
+  const leg = document.getElementById("net-legend");
+  leg.innerHTML = usedInsts.map(i => `
+    <div class="leg-item${hiddenInst.has(i.id) ? " faded" : ""}" data-inst="${i.id}" title="${i.name}">
+      <div class="leg-dot" style="background:${color(i.id)}"></div>
+      <span>${ABBREV[i.id] || i.name}</span>
+    </div>`).join("");
+
+  leg.querySelectorAll(".leg-item").forEach(el => {
+    el.addEventListener("click", () => {
+      const id = el.dataset.inst;
+      if (hiddenInst.has(id)) hiddenInst.delete(id);
+      else hiddenInst.add(id);
+      render();
+    });
+  });
+}
+
+/* ── Controls ────────────────────────────────────────────────────── */
+document.querySelectorAll(".fbtn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".fbtn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    roleFilter = btn.dataset.role;
+    render();
+  });
+});
+
+document.getElementById("toggle-inst").addEventListener("change", function() {
+  showInst = this.checked;
+  render();
+});
+
+/* ── Resize ──────────────────────────────────────────────────────── */
+let resizeTimer;
+window.addEventListener("resize", () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(render, 200);
+});
+
+/* ── Initial render ──────────────────────────────────────────────── */
+render();
+
+})();
+</script>
