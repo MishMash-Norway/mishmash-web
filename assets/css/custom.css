@@ -279,6 +279,16 @@ a:focus-visible .icon {
   --icon-hover-scale: 1.06;
 }
 
+.social-icon-row .icon-orcid {
+  --icon-scale: 0.98;
+  --icon-hover-scale: 1.1;
+}
+
+.social-icon-row .icon-nva {
+  --icon-scale: 0.98;
+  --icon-hover-scale: 1.1;
+}
+
 .social-icon-row .icon-instagram {
   --icon-scale: 0.94;
   --icon-hover-scale: 1.06;
@@ -348,6 +358,23 @@ a:focus-visible .icon {
   .person-profile-card {
     align-items: flex-start;
   }
+}
+
+.person-social-links {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e6e6e6;
+}
+
+.person-social-links h2 {
+  margin-bottom: 0.75rem;
+}
+
+.person-social-icon-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .social-icon-row .social-icon-link span {

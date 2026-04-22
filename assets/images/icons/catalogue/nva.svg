@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">NVA registry icon</title>
+  <desc id="desc">Rounded blue square with NVA letters</desc>
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="#1F6FEB"/>
+  <text x="32" y="39" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">NVA</text>
+</svg>

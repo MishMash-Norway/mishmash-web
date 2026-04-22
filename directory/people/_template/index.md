@@ -14,6 +14,11 @@ urls:
   github:
   linkedin:
   orcid:
+  nva:
+  youtube:
+  facebook:
+  mastodon:
+  instagram:
 aliases: []
 tags: []
 search_keywords: []

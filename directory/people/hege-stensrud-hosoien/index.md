@@ -3,25 +3,30 @@ type: person
 slug: hege-stensrud-hosoien
 name: Hege Stensrud Høsøien
 title: Hege Stensrud Høsøien
-position: Board Member
+position: Academic assistant
 image: /images/people/hege-stensrud-hosoien.jpg
 institution: national-library-of-norway
 institutions:
-  - national-library-of-norway
+- national-library-of-norway
 projects: []
 roles:
-  - Board Member
+- Board Member
 urls:
   website: https://www.nb.no/ansatte/hege-stensrud-hosoien/
-  github:
-  linkedin:
-  orcid:
+  github: ''
+  linkedin: ''
+  orcid: ''
+  nva: https://nva.sikt.no/research-profile/7304
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
 aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-  - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
-summary:
+- /home/alexanje/github/mishmash-web/about/organisation/board/index.md
+summary: null
 ---
 
 # Hege Stensrud Høsøien

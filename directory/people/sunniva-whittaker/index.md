@@ -3,25 +3,30 @@ type: person
 slug: sunniva-whittaker
 name: Sunniva Whittaker
 title: Sunniva Whittaker
-position: Board Leader
+position: Rector
 image: /images/people/sunniva-whittaker.jpg
 institution: university-of-agder
 institutions:
-  - university-of-agder
+- university-of-agder
 projects: []
 roles:
-  - Board Leader
+- Board Leader
 urls:
   website: https://www.uia.no/english/about-uia/employees/sunnivaw/
-  github:
-  linkedin:
-  orcid:
+  github: ''
+  linkedin: ''
+  orcid: ''
+  nva: https://nva.sikt.no/research-profile/44551
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
 aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-  - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
-summary:
+- /home/alexanje/github/mishmash-web/about/organisation/board/index.md
+summary: null
 ---
 
 # Sunniva Whittaker

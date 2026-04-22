@@ -4,6 +4,7 @@ layout: default
 {% assign person_title = page.position | default: page.roles | first %}
 {% assign primary_institution_slug = page.institution | default: page.institutions | first %}
 {% assign primary_institution_doc = site.directory | where: "type", "institution" | where: "slug", primary_institution_slug | first %}
+{% assign social_urls = page.urls %}
 
 <div class="page person-page">
   <div class="container">
@@ -25,5 +26,58 @@ layout: default
     </section>
 
     {{ content }}
+
+    {% if social_urls %}
+    <section class="person-social-links" aria-label="Social links">
+      <h2>Links</h2>
+      <div class="social-icon-row person-social-icon-row">
+        {% if social_urls.website %}
+        <a class="social-icon-link" href="{{ social_urls.website }}" target="_blank" rel="noopener noreferrer" aria-label="Website">
+          <img class="icon icon-newsletter" src="{{ '/assets/images/icons/catalogue/newsletter.svg' | relative_url }}" alt="Website" width="64">
+        </a>
+        {% endif %}
+        {% if social_urls.github %}
+        <a class="social-icon-link" href="{{ social_urls.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <img class="icon icon-github" src="{{ '/assets/images/icons/catalogue/github.svg' | relative_url }}" alt="GitHub" width="64">
+        </a>
+        {% endif %}
+        {% if social_urls.linkedin %}
+        <a class="social-icon-link" href="{{ social_urls.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <img class="icon icon-linkedin" src="{{ '/assets/images/icons/catalogue/linkedin.svg' | relative_url }}" alt="LinkedIn" width="64">
+        </a>
+        {% endif %}
+        {% if social_urls.orcid %}
+        <a class="social-icon-link" href="{{ social_urls.orcid }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+          <img class="icon icon-orcid" src="{{ '/assets/images/icons/catalogue/orcid.svg' | relative_url }}" alt="ORCID" width="64">
+        </a>
+        {% endif %}
+        {% if social_urls.nva %}
+        <a class="social-icon-link" href="{{ social_urls.nva }}" target="_blank" rel="noopener noreferrer" aria-label="NVA Registry">
+          <img class="icon icon-nva" src="{{ '/assets/images/icons/catalogue/nva.svg' | relative_url }}" alt="NVA Registry" width="64">
+        </a>
+        {% endif %}
+        {% if social_urls.youtube %}
+        <a class="social-icon-link" href="{{ social_urls.youtube }}" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+          <img class="icon icon-youtube" src="{{ '/assets/images/icons/catalogue/youtube.svg' | relative_url }}" alt="YouTube" width="64">
+        </a>
+        {% endif %}
+        {% if social_urls.facebook %}
+        <a class="social-icon-link" href="{{ social_urls.facebook }}" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <img class="icon icon-facebook" src="{{ '/assets/images/icons/catalogue/facebook.svg' | relative_url }}" alt="Facebook" width="64">
+        </a>
+        {% endif %}
+        {% if social_urls.mastodon %}
+        <a class="social-icon-link" href="{{ social_urls.mastodon }}" target="_blank" rel="noopener noreferrer" aria-label="Mastodon">
+          <img class="icon icon-mastodon" src="{{ '/assets/images/icons/catalogue/mastodon.svg' | relative_url }}" alt="Mastodon" width="64">
+        </a>
+        {% endif %}
+        {% if social_urls.instagram %}
+        <a class="social-icon-link" href="{{ social_urls.instagram }}" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <img class="icon icon-instagram" src="{{ '/assets/images/icons/catalogue/instagram.svg' | relative_url }}" alt="Instagram" width="64">
+        </a>
+        {% endif %}
+      </div>
+    </section>
+    {% endif %}
   </div>
 </div>
