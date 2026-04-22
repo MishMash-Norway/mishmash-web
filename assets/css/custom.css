@@ -488,9 +488,12 @@ a:focus-visible .icon {
   color: #fff;
 }
 
-.result-type-event { background: #A7A1F4; }
-.result-type-news  { background: #5cb85c; }
-.result-type-page  { background: #55606a; }
+.result-type-event       { background: #A7A1F4; }
+.result-type-news        { background: #5cb85c; }
+.result-type-page        { background: #55606a; }
+.result-type-person      { background: #d9806b; }
+.result-type-institution { background: #4a90b8; }
+.result-type-project     { background: #e0a030; }
 
 .result-date {
   font-size: 0.82rem;

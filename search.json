@@ -6,6 +6,7 @@ layout: null
   {% assign all_items = pages_to_index %}
   {% assign all_items = all_items | concat: site.events %}
   {% assign all_items = all_items | concat: site.news %}
+  {% assign all_items = all_items | concat: site.directory %}
   {% assign comma = false %}
   {% for item in all_items %}
     {% unless item.draft %}
@@ -19,7 +20,7 @@ layout: null
         "tags": {{ item.tags | default: empty | jsonify }},
         "description": {{ item.description | default: "" | strip_html | jsonify }},
         "content": {{ item.content | default: item.excerpt | strip_html | truncatewords: 100 | jsonify }},
-        "type": {% if item.collection == "events" %}"event"{% elsif item.collection == "news" %}"news"{% else %}"page"{% endif %}
+        "type": {% if item.collection == "events" %}"event"{% elsif item.collection == "news" %}"news"{% elsif item.type == "person" %}"person"{% elsif item.type == "institution" %}"institution"{% elsif item.type == "project" %}"project"{% else %}"page"{% endif %}
       }
     {% endunless %}
   {% endfor %}

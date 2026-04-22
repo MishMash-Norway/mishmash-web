@@ -23,6 +23,9 @@ collections:
   events:
     output: true
     permalink: /events/:title/
+  directory:
+    output: true
+    permalink: /directory/:path/
 
 # optional: ask jekyll-feed to include these collections (if plugin version supports it)
 feed:
