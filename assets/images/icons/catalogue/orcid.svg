@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-  <title id="title">ORCID icon</title>
-  <desc id="desc">Round green icon with iD text</desc>
-  <circle cx="32" cy="32" r="30" fill="#A6CE39"/>
-  <circle cx="22" cy="20" r="3.2" fill="#FFFFFF"/>
-  <rect x="19.4" y="25" width="5.2" height="18" rx="1.4" fill="#FFFFFF"/>
-  <path d="M31 21h8.6c8.2 0 13.4 4.3 13.4 11.5S47.8 44 39.6 44H31V21zm7.9 18.1c4.9 0 8.2-2.4 8.2-6.6s-3.3-6.6-8.2-6.6h-2.3v13.2h2.3z" fill="#FFFFFF"/>
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="12" cy="12" r="9" fill="#C1F7AE" stroke="#363644" stroke-width="2"/>
+  <circle cx="9" cy="8.5" r="1.2" fill="#363644"/>
+  <rect x="8" y="10.5" width="2" height="5.5" rx="1" fill="#363644"/>
+  <path d="M13 8.5h2a3.5 3.5 0 010 7h-2v-7z" fill="none" stroke="#363644" stroke-width="2" stroke-linejoin="round"/>
 </svg>
