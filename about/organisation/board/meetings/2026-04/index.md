@@ -49,6 +49,6 @@ meeting_location: "Zoom"
     - Samarbeid UH-offentlig-privat
       - Alexander orienterte
 6. Eventuelt
-       - vi arrangerer et ekstra styremøte i løpet av våren 2026
-       - styret vil få tilsendt dokumenter og bakgrunnsinformasjon
+   - vi arrangerer et ekstra styremøte i løpet av våren 2026
+   - styret vil få tilsendt dokumenter og bakgrunnsinformasjon
            
