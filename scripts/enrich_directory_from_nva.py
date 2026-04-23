@@ -9,6 +9,7 @@ import yaml
 
 PERSON_PROFILE_RE = re.compile(r"/research-profile/(\d+)")
 CRISTIN_RE = re.compile(r"/cristin/person/(\d+)")
+ORCID_PROFILE_RE = re.compile(r"orcid\.org/((?:\d{4}-){3}[\dX]{4})", re.IGNORECASE)
 
 
 def split_frontmatter(text: str):
@@ -78,6 +79,18 @@ def extract_profile_id(nva_url: str) -> str | None:
     m = CRISTIN_RE.search(nva_url)
     if m:
         return m.group(1)
+    return None
+
+
+def extract_orcid_id(orcid_url: str) -> str | None:
+    if not orcid_url:
+        return None
+    match = ORCID_PROFILE_RE.search(orcid_url)
+    if match:
+        return match.group(1)
+    cleaned = orcid_url.strip().strip("/")
+    if re.fullmatch(r"(?:\d{4}-){3}[\dX]{4}", cleaned, flags=re.IGNORECASE):
+        return cleaned.upper()
     return None
 
 
@@ -189,6 +202,12 @@ def get_json(url: str):
     return r.json()
 
 
+def get_orcid_json(url: str):
+    r = requests.get(url, headers={"Accept": "application/json"}, timeout=30)
+    r.raise_for_status()
+    return r.json()
+
+
 def names_to_full_name(names: list[dict]) -> str:
     first = ""
     last = ""
@@ -257,6 +276,112 @@ def background_to_summary(background) -> str:
     return ""
 
 
+def merge_unique_strings(*groups: list[str], max_items: int | None = None) -> list[str]:
+    merged = []
+    seen = set()
+    for group in groups:
+        for item in group or []:
+            text = (item or "").strip()
+            if not text:
+                continue
+            key = text.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            merged.append(text)
+            if max_items is not None and len(merged) >= max_items:
+                return merged
+    return merged
+
+
+def orcid_text_value(node) -> str:
+    if isinstance(node, str):
+        return node.strip()
+    if isinstance(node, dict):
+        return (node.get("value") or "").strip()
+    return ""
+
+
+def orcid_name_to_full_name(person: dict) -> str:
+    name = person.get("name") or {}
+    given = orcid_text_value(name.get("given-names"))
+    family = orcid_text_value(name.get("family-name"))
+    return f"{given} {family}".strip()
+
+
+def orcid_biography(person: dict) -> str:
+    return orcid_text_value(person.get("biography"))
+
+
+def orcid_keyword_labels(person: dict, max_keywords: int) -> list[str]:
+    keywords = ((person.get("keywords") or {}).get("keyword") or [])
+    labels = []
+    for keyword in keywords:
+        label = orcid_text_value(keyword.get("content"))
+        if label:
+            labels.append(label)
+    return merge_unique_strings(labels, max_items=max_keywords)
+
+
+def orcid_researcher_urls(person: dict) -> list[str]:
+    researcher_urls = ((person.get("researcher-urls") or {}).get("researcher-url") or [])
+    urls = []
+    for item in researcher_urls:
+        url = orcid_text_value(item.get("url"))
+        if url:
+            urls.append(url)
+    return urls
+
+
+def choose_orcid_work_url(summary: dict, group: dict) -> str:
+    direct_url = orcid_text_value(summary.get("url"))
+    if direct_url:
+        return direct_url
+    external_ids = ((group.get("external-ids") or {}).get("external-id") or [])
+    for external_id in external_ids:
+        external_url = orcid_text_value(external_id.get("external-id-url"))
+        if external_url:
+            return external_url
+    return ""
+
+
+def orcid_selected_works(orcid_id: str, max_works: int) -> list[dict[str, str]]:
+    data = get_orcid_json(f"https://pub.orcid.org/v3.0/{orcid_id}/works")
+    works = []
+    seen = set()
+
+    for group in data.get("group") or []:
+        summaries = group.get("work-summary") or []
+        if not summaries:
+            continue
+        summary = summaries[0]
+        title = orcid_text_value(((summary.get("title") or {}).get("title") or {}))
+        if not title:
+            continue
+        key = title.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+
+        year = orcid_text_value((summary.get("publication-date") or {}).get("year"))
+        source = orcid_text_value(summary.get("journal-title")) or orcid_text_value(summary.get("type"))
+        url = choose_orcid_work_url(summary, group)
+
+        work = {"title": title}
+        if year:
+            work["year"] = year
+        if source:
+            work["source"] = source
+        if url:
+            work["url"] = url
+        works.append(work)
+
+        if len(works) >= max_works:
+            break
+
+    return works
+
+
 def build_institution_lookup(root: Path) -> tuple[dict[str, str], dict[str, str]]:
     lookup = {}
     slug_to_name = {}
@@ -298,6 +423,7 @@ def ordered_person(data: dict) -> dict:
         "aliases",
         "tags",
         "search_keywords",
+        "selected_works",
         "source_mentions",
         "summary",
     ]
@@ -342,6 +468,7 @@ def enrich_person(
     slug_to_institution_name: dict[str, str],
     org_cache: dict,
     max_keywords: int,
+    max_works: int,
     dry_run: bool,
     discover_nva: bool,
     discover_nva_loose: bool,
@@ -355,6 +482,7 @@ def enrich_person(
 
     urls = data.get("urls") or {}
     nva_url = (urls.get("nva") or "").strip()
+    orcid_url = (urls.get("orcid") or "").strip()
     if not nva_url and discover_nva:
         discovered_id, reason = discover_profile_id_by_name(
             name=(data.get("name") or ""),
@@ -368,72 +496,117 @@ def enrich_person(
             urls["nva"] = nva_url
             data["urls"] = urls
         else:
-            return False, reason
+            if not orcid_url:
+                return False, reason
 
-    if not nva_url:
-        return False, "skip: no urls.nva"
-
-    profile_id = extract_profile_id(nva_url)
-    if not profile_id:
-        return False, "skip: unsupported nva url"
-
-    profile = get_json(f"https://api.nva.unit.no/cristin/person/{profile_id}")
-    full_name = names_to_full_name(profile.get("names") or [])
-    orcid = find_orcid(profile.get("identifiers") or [])
-
-    contact = profile.get("contactDetails") or {}
-    website = (contact.get("webPage") or "").strip()
-
-    affiliation = pick_active_affiliation(profile.get("affiliations") or [])
-    role_labels = ((affiliation.get("role") or {}).get("labels") or {})
-    position = role_labels.get("en") or role_labels.get("nb") or ""
-    org_name = fetch_org_name((affiliation.get("organization") or "").strip(), org_cache)
-    org_slug = institution_lookup.get(slugify(org_name), "") if org_name else ""
-
-    kws = keyword_labels(profile.get("keywords") or [], max_keywords=max_keywords)
-    summary = background_to_summary(profile.get("background"))
+    if not nva_url and not orcid_url:
+        return False, "skip: no urls.nva or urls.orcid"
 
     changed = False
-    if full_name and data.get("name") != full_name:
-        data["name"] = full_name
-        data["title"] = full_name
-        changed = True
 
-    if position and data.get("position") != position:
-        data["position"] = position
-        changed = True
+    existing_keywords = data.get("search_keywords") or []
+    if not isinstance(existing_keywords, list):
+        existing_keywords = []
+    merged_keywords = list(existing_keywords)
 
-    if org_slug and data.get("institution") != org_slug:
-        data["institution"] = org_slug
-        changed = True
+    if nva_url:
+        profile_id = extract_profile_id(nva_url)
+        if not profile_id:
+            return False, "skip: unsupported nva url"
 
-    existing_insts = data.get("institutions") or []
-    if not isinstance(existing_insts, list):
-        existing_insts = []
-    if org_slug and org_slug not in existing_insts:
-        existing_insts.append(org_slug)
-        data["institutions"] = sorted(set(existing_insts))
-        changed = True
+        profile = get_json(f"https://api.nva.unit.no/cristin/person/{profile_id}")
+        full_name = names_to_full_name(profile.get("names") or [])
+        orcid = find_orcid(profile.get("identifiers") or [])
 
-    if kws:
-        data["search_keywords"] = kws
-        changed = True
+        contact = profile.get("contactDetails") or {}
+        website = (contact.get("webPage") or "").strip()
 
-    if summary and not (data.get("summary") or "").strip():
-        data["summary"] = summary
-        changed = True
+        affiliation = pick_active_affiliation(profile.get("affiliations") or [])
+        role_labels = ((affiliation.get("role") or {}).get("labels") or {})
+        position = role_labels.get("en") or role_labels.get("nb") or ""
+        org_name = fetch_org_name((affiliation.get("organization") or "").strip(), org_cache)
+        org_slug = institution_lookup.get(slugify(org_name), "") if org_name else ""
 
-    if orcid and urls.get("orcid") != orcid:
-        urls["orcid"] = orcid
-        changed = True
+        nva_keywords = keyword_labels(profile.get("keywords") or [], max_keywords=max_keywords)
+        merged_keywords = merge_unique_strings(existing_keywords, nva_keywords, max_items=max_keywords)
+        summary = background_to_summary(profile.get("background"))
 
-    canonical_nva = f"https://nva.sikt.no/research-profile/{profile_id}"
-    if urls.get("nva") != canonical_nva:
-        urls["nva"] = canonical_nva
-        changed = True
+        if full_name and data.get("name") != full_name:
+            data["name"] = full_name
+            data["title"] = full_name
+            changed = True
 
-    if website and not (urls.get("website") or "").strip():
-        urls["website"] = website
+        if position and data.get("position") != position:
+            data["position"] = position
+            changed = True
+
+        if org_slug and data.get("institution") != org_slug:
+            data["institution"] = org_slug
+            changed = True
+
+        existing_insts = data.get("institutions") or []
+        if not isinstance(existing_insts, list):
+            existing_insts = []
+        if org_slug and org_slug not in existing_insts:
+            existing_insts.append(org_slug)
+            data["institutions"] = sorted(set(existing_insts))
+            changed = True
+
+        if summary and not (data.get("summary") or "").strip():
+            data["summary"] = summary
+            changed = True
+
+        if orcid and urls.get("orcid") != orcid:
+            urls["orcid"] = orcid
+            orcid_url = orcid
+            changed = True
+
+        canonical_nva = f"https://nva.sikt.no/research-profile/{profile_id}"
+        if urls.get("nva") != canonical_nva:
+            urls["nva"] = canonical_nva
+            changed = True
+
+        if website and not (urls.get("website") or "").strip():
+            urls["website"] = website
+            changed = True
+
+    orcid_id = extract_orcid_id(orcid_url)
+    if orcid_url and not orcid_id:
+        return False, "skip: unsupported orcid url"
+
+    if orcid_id:
+        person = get_orcid_json(f"https://pub.orcid.org/v3.0/{orcid_id}/person")
+        orcid_name = orcid_name_to_full_name(person)
+        orcid_summary = orcid_biography(person)
+        orcid_keywords = orcid_keyword_labels(person, max_keywords=max_keywords)
+        merged_keywords = merge_unique_strings(merged_keywords, orcid_keywords, max_items=max_keywords)
+        selected_works = orcid_selected_works(orcid_id, max_works=max_works)
+        researcher_urls = orcid_researcher_urls(person)
+
+        if orcid_name and not (data.get("name") or "").strip():
+            data["name"] = orcid_name
+            data["title"] = orcid_name
+            changed = True
+
+        if orcid_summary and not (data.get("summary") or "").strip():
+            data["summary"] = orcid_summary
+            changed = True
+
+        if selected_works and data.get("selected_works") != selected_works:
+            data["selected_works"] = selected_works
+            changed = True
+
+        if researcher_urls and not (urls.get("website") or "").strip():
+            urls["website"] = researcher_urls[0]
+            changed = True
+
+        canonical_orcid = f"https://orcid.org/{orcid_id}"
+        if urls.get("orcid") != canonical_orcid:
+            urls["orcid"] = canonical_orcid
+            changed = True
+
+    if merged_keywords and data.get("search_keywords") != merged_keywords:
+        data["search_keywords"] = merged_keywords
         changed = True
 
     data["urls"] = urls
@@ -451,10 +624,11 @@ def enrich_person(
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Enrich directory people entries from NVA profile URLs.")
+    parser = argparse.ArgumentParser(description="Enrich directory people entries from NVA and ORCID profile URLs.")
     parser.add_argument("--root", default=".", help="Repository root")
     parser.add_argument("--slug", action="append", help="Only process specific person slug (repeatable)")
     parser.add_argument("--max-keywords", type=int, default=12, help="Maximum number of NVA keywords to import")
+    parser.add_argument("--max-works", type=int, default=5, help="Maximum number of ORCID works to import")
     parser.add_argument("--discover-nva", action="store_true", help="Auto-discover missing urls.nva from person name and institution")
     parser.add_argument("--discover-nva-loose", action="store_true", help="Allow a second-round looser name match for NVA discovery")
     parser.add_argument("--dry-run", action="store_true", help="Report changes without writing files")
@@ -488,6 +662,7 @@ def main():
                 slug_to_institution_name=slug_to_institution_name,
                 org_cache=org_cache,
                 max_keywords=args.max_keywords,
+                max_works=args.max_works,
                 dry_run=args.dry_run,
                 discover_nva=args.discover_nva,
                 discover_nva_loose=args.discover_nva_loose,
