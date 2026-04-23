@@ -357,6 +357,12 @@ a:focus-visible .icon {
   font-style: italic;
 }
 
+.person-mishmash-role {
+  font-size: 0.96rem;
+  color: #444;
+  margin: 0.1rem 0 0;
+}
+
 .person-profile-meta p {
   margin: 0.25rem 0;
 }
