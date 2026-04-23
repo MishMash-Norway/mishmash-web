@@ -33,6 +33,11 @@ defaults:
       type: "directory"
     values:
       layout: person
+  - scope:
+      path: "_directory/institutions"
+      type: "directory"
+    values:
+      layout: page
 
 # optional: ask jekyll-feed to include these collections (if plugin version supports it)
 feed:
