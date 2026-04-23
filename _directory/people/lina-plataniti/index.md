@@ -5,7 +5,6 @@ permalink: /directory/people/lina-plataniti/
 name: Kalliopi Plataniti
 title: Kalliopi Plataniti
 position: Research Scientist
-image: /images/people/lina-plataniti.jpg
 institution: norsus-norwegian-institute-for-sustainability-research
 institutions:
 - norsus-norwegian-institute-for-sustainability-research

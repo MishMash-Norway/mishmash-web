@@ -5,7 +5,6 @@ permalink: /directory/people/charles-martin/
 name: Charles Martin
 title: Charles Martin
 position: Guest
-image: /images/people/charles-martin.jpg
 institution: australian-national-university
 institutions:
 - australian-national-university

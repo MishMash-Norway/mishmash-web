@@ -5,7 +5,6 @@ permalink: /directory/people/sashi-komandur/
 name: Sashidharan Komandur
 title: Sashidharan Komandur
 position: Associate professor
-image: /images/people/sashi-komandur.jpg
 institution: inland-norway-university-of-applied-sciences
 institutions:
 - inland-norway-university-of-applied-sciences

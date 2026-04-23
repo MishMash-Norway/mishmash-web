@@ -5,7 +5,6 @@ permalink: /directory/people/andre-alexandersen-hauge/
 name: André Alexandersen Hauge
 title: André Alexandersen Hauge
 position: Head of academic department
-image: /images/people/andre-alexandersen-hauge.jpg
 institution: ostfold-university-college
 institutions:
 - ostfold-university-college

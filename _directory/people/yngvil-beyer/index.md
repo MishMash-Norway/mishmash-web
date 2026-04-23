@@ -5,7 +5,6 @@ permalink: /directory/people/yngvil-beyer/
 name: Yngvil Nesheim Beyer
 title: Yngvil Nesheim Beyer
 position: Head of Section
-image: /images/people/yngvil-beyer.jpg
 institution: national-library-of-norway
 institutions:
 - national-library-of-norway

@@ -5,7 +5,6 @@ permalink: /directory/people/jostein-gundersen/
 name: Jostein Gundersen
 title: Jostein Gundersen
 position: Council member
-image: /images/people/jostein-gundersen.jpg
 institution: university-of-bergen
 institutions:
   - university-of-bergen

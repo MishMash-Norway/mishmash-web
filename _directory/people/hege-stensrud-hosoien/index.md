@@ -5,7 +5,6 @@ permalink: /directory/people/hege-stensrud-hosoien/
 name: Hege Stensrud Høsøien
 title: Hege Stensrud Høsøien
 position: Academic assistant
-image: /images/people/hege-stensrud-hosoien.jpg
 institution: national-library-of-norway
 institutions:
 - national-library-of-norway

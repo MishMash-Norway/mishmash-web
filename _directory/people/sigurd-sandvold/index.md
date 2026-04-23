@@ -5,7 +5,6 @@ permalink: /directory/people/sigurd-sandvold/
 name: Sigurd Sandvold
 title: Sigurd Sandvold
 position: Dean
-image: /images/people/sigurd-sandvold.jpg
 institution: western-norway-university-of-applied-sciences
 institutions:
 - western-norway-university-of-applied-sciences

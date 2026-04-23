@@ -6,13 +6,15 @@ layout: default
 {% unless primary_institution_slug %}{% assign primary_institution_slug = page.institutions | first %}{% endunless %}
 {% assign primary_institution_doc = site.directory | where: "type", "institution" | where: "slug", primary_institution_slug | first %}
 {% assign social_urls = page.urls %}
+{% assign fallback_person_image = '/assets/images/bubbles/mishmash_bubbles_notext.png' %}
+{% assign person_image = page.image %}
+{% assign person_image_file = site.static_files | where: "path", person_image | first %}
+{% unless person_image_file %}{% assign person_image = fallback_person_image %}{% endunless %}
 
 <div class="page person-page">
   <div class="container">
     <section class="person-profile-card">
-      {% if page.image %}
-      <img src="{{ page.image | relative_url }}" alt="{{ page.name | default: page.slug }}" class="person-profile-image wp-member-photo">
-      {% endif %}
+      <img src="{{ person_image | relative_url }}" alt="{{ page.name | default: page.slug }}" class="person-profile-image wp-member-photo">
       <div class="person-profile-meta">
         <h1>{{ page.name }}</h1>
         {% if page.position %}

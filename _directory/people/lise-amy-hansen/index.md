@@ -5,7 +5,6 @@ permalink: /directory/people/lise-amy-hansen/
 name: Lise Amy Hansen
 title: Lise Amy Hansen
 position: Professor
-image: /images/people/lise-amy-hansen.jpg
 institution: oslo-national-academy-of-the-arts
 institutions:
 - oslo-national-academy-of-the-arts

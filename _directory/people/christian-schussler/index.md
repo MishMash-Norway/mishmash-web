@@ -5,7 +5,6 @@ permalink: /directory/people/christian-schussler/
 name: Christian Schüssler
 title: Christian Schüssler
 position: Board Member
-image: /images/people/christian-schussler.jpg
 institution: reimagine
 institutions:
   - reimagine

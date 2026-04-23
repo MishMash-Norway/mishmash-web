@@ -5,7 +5,6 @@ permalink: /directory/people/ingrid-chieh-yu/
 name: Ingrid Chieh Yu
 title: Ingrid Chieh Yu
 position: Professor
-image: /images/people/ingrid-chieh-yu.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo

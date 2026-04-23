@@ -5,7 +5,6 @@ permalink: /directory/people/govert-valkenburg/
 name: Govert Valkenburg
 title: Govert Valkenburg
 position: Council member
-image: /images/people/govert-valkenburg.jpg
 institution: norwegian-university-of-science-and-technology
 institutions:
   - norwegian-university-of-science-and-technology

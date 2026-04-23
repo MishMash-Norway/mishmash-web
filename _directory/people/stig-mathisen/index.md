@@ -5,7 +5,6 @@ permalink: /directory/people/stig-mathisen/
 name: Stig Mathisen
 title: Stig Mathisen
 position: Council member
-image: /images/people/stig-mathisen.jpg
 institution: arctic-university-of-norway
 institutions:
   - arctic-university-of-norway
