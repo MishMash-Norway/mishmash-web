@@ -21,15 +21,32 @@ meeting_location: "Zoom"
 
 1. Introduksjonsrunde
 2. Introduksjon til MishMash's organisering og struktur
-3. Styrets funksjon
-4. Praktikaliteter:
+        Alexander orienterte.
+4. Styrets funksjon
+        * jobbe og tenke strategisk
+        * se på andre finansieringsmuligheter
+        * stake ut en retning for prosjektet     
+6. Praktikaliteter:
     - plassering av styrepapirer
+          * etterstreber plassering av styrepapirer på nettsiden
     - prinsipper for innkallinger og referater/protokoll
+          * vi følger prinsippene fra konsortieavtalen.
+          * innkalling/protokoll legges på nettsiden
     - møteplan
-5. Identifisering av viktige temaer å jobbe med
+          * som utgangspunkt to måter i året, men med mulighet for flere
+7. Identifisering av viktige temaer å jobbe med
     - Oppfølging av arbeidspakker
+          * Alexander orienterte om arbeidspakkene
     - Oppfølging/etablering av de ulike rådene
+          * Scientific advisory board: Vi kan vurdere å ha bilaterale samtaler i mindre grupper
     - Påkobling av assosierte partnere
+          * konsortieavtale sendes ut på sirkulasjon
+          * etablere et stakeholders board
     - Interinstitusjonelt UH-samarbeid
+          * Alexander orienterte
     - Samarbeid UH-offentlig-privat
-6. Eventuelt
+          * Alexander orienterte
+8. Eventuelt
+       - vi arrangerer et ekstra styremøte i løpet av våren 2026
+       - styret vil få tilsendt dokumenter og bakgrunnsinformasjon
+           
