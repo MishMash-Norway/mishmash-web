@@ -18,7 +18,7 @@ This page is for MishMash members only, and WP4 members in particular. It is a n
     &#8594; <a href="/internal/wp4/phd/">PhD research fellows</a><br>
   </details>
 - [Activities](/internal/wp4/projects/)
-- [Other info](/internal/wp4/events/)
+- [Events](/internal/wp4/events/)
 - [Documents](/internal/wp4/documents/)
 
 ## Contact
