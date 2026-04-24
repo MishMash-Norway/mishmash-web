@@ -6,7 +6,7 @@ title: "other-activities"
 # WP4 Events
 
 ## Upcoming Events
-- WP4 Digital Morning Coffee, every other Thursday 08.30 [Zoom Link](https://uiano.zoom.us/j/9173998233?pwd=ibt2l25SD7BfBwRCMfGjr5Qjdmj8cc.1&omn=61162542813&from=addon). (Password: 123456).
+- WP4 Digital Morning Coffee, every other Thursday 08.30. [Zoom Link](https://uiano.zoom.us/j/9173998233?pwd=ibt2l25SD7BfBwRCMfGjr5Qjdmj8cc.1&omn=61162542813&from=addon). (Password: 123456).
 - WP4 Webinar June 16, 12.00-13.30
 - WP4 Session on Opening Conference, September 14
 - WP4 Webinar October 13, 12.00-13.00
