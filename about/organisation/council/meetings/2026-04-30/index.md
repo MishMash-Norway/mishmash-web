@@ -10,6 +10,8 @@ meeting_location: "Zoom"
 
 ## Deltagere
 
+Medlemmer: 
+
 - [André Alexandersen Hauge](https://www.hiof.no/iio/itk/english/people/adm/andreh/index.html) (HIØF)
 - [Charles Martin](https://comp.anu.edu.au/people/charles-martin/) (ANU)
 - [Christian Blom](https://notam.no/en/about-us/employees/) (Notam)
@@ -29,8 +31,10 @@ meeting_location: "Zoom"
 - [Terje Colbjørnsen](https://www.bi.no/en/about-bi/employees/department-of-communication-and-culture/terje-colbjornsen/) (BI)
 - [Yngvil Beyer](https://www.nb.no/ansatte/yngvil-beyer/) (NB)
 
-- [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO)
-- [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO)
+Sekretariat: 
+
+- [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) (Senterleder)
+- [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO) (Administrativ koordinator)
 
 
 
@@ -39,8 +43,12 @@ meeting_location: "Zoom"
 1. Velkommen
 2. Rådets rolle og mandat i MishMash
 3. Statusoppdatering
-4. Påkobling av studenter og ansatte
-4. Planer og prioriteringer for 2026–2027
+    - Konsortieavtalen
+    - Assosiert partner-avtale
+    - Påkobling av studenter og ansatte
+    - Gjennomførte arrangementer
+    - Aktivitet i arbeidspakkene
+4. Planer og prioriteringer 2026–2027
 5. Samarbeid i konsortiet
     - Utdanningssamarbeid (Ph.d., Bachelor/master, EVU)
     - Nettsider og kommunikasjonsarbeid
