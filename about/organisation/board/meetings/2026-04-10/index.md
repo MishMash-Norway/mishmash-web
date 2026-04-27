@@ -26,7 +26,7 @@ Sekretariat:
 
 1. Introduksjonsrunde
 2. Introduksjon til MishMash's organisering og struktur
-   - Alexander orienterte.
+   - Senterleder orienterte.
    
 3. Styrets funksjon
    - Strategisk arbeid
@@ -43,16 +43,16 @@ Sekretariat:
       - som utgangspunkt to måter i året, men med mulighet for flere ved behov
 5. Identifisering av viktige temaer å jobbe med
     - Oppfølging av arbeidspakker
-      - Alexander orienterte om arbeidspakkene
+      - Senterleder orienterte om arbeidspakkene
     - Oppfølging/etablering av de ulike rådene
       - Scientific advisory board: Vi kan vurdere å ha bilaterale samtaler i mindre grupper
     - Påkobling av assosierte partnere
       - konsortieavtale sendes ut på sirkulasjon
       - etablere et stakeholders board
     - Interinstitusjonelt UH-samarbeid
-      - Alexander orienterte
+      - Senterleder orienterte
     - Samarbeid UH-offentlig-privat
-      - Alexander orienterte
+      - Senterleder orienterte
 6. Eventuelt
    - vi arrangerer et ekstra styremøte i løpet av våren 2026
    - styret vil få tilsendt dokumenter og bakgrunnsinformasjon
