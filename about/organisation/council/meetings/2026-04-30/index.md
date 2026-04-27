@@ -37,11 +37,13 @@ meeting_location: "Zoom"
 
 1. Velkommen
 2. Rådets rolle og mandat i MishMash
-3. Statusoppdatering fra senterledelsen
+3. Statusoppdatering
 4. Påkobling av studenter og ansatte
 4. Planer og prioriteringer for 2026–2027
-5. Utdanningssamarbeid (Ph.d., Bachelor/master, EVU)
-6. Nettsider og kommunikasjonsarbeid
+5. Samarbeid i konsortiet
+    - Utdanningssamarbeid (Ph.d., Bachelor/master, EVU)
+    - Nettsider og kommunikasjonsarbeid
+    - Søknadsarbeid
 7. Økonomi
 8. Rapportering
 9. Eventuelt
