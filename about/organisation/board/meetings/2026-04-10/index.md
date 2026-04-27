@@ -9,13 +9,18 @@ meeting_location: "Zoom"
 
 # Deltagere
 
-- [Sunniva Whittaker](https://www.uia.no/english/about-uia/employees/sunnivaw/)
-- [Christian Blom](https://notam.no/en/about-us/employees/)
-- [Christian Schüssler](https://reimagine.no/contact)
-- [Hege Stensrud Høsøien](https://www.nb.no/ansatte/hege-stensrud-hosoien/)
-- [Tine Grieg Viig](https://www.hvl.no/person/?user=tine.viig)
-- [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/)
-- [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html)
+Medlemmer: 
+
+- [Sunniva Whittaker](https://www.uia.no/english/about-uia/employees/sunnivaw/) (UiA) (Styreleder)
+- [Christian Blom](https://notam.no/en/about-us/employees/) (Notam)
+- [Christian Schüssler](https://reimagine.no/contact) (Reimagine)
+- [Hege Stensrud Høsøien](https://www.nb.no/ansatte/hege-stensrud-hosoien/) (NB)
+- [Tine Grieg Viig](https://www.hvl.no/person/?user=tine.viig) (HVL)
+
+Sekretariat: 
+
+- [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) (Senterleder)
+- [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO) (Administrativ koordinator)
 
 ## Saksliste
 
