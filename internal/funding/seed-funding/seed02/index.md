@@ -59,3 +59,7 @@ When processing each application, emphasis will be placed on the initiative's qu
 - Projects with the potential for developing applications for other types of funding
 
 Please keep in mind that there will be new opportunities coming up at regular intervals, so don't feel the need to rush to apply this time around.
+
+## Contact
+
+- Administrative coordinator [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html)
