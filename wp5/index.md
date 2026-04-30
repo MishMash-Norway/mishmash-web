@@ -46,7 +46,7 @@ This work package examines these transformations across four interconnected area
     <a href="https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/"><img src="/assets/images/portraits/circle/Irina_Eidsvold_Toien_BI.png" alt="Irina Eidsvold-Tøien" class="wp-member-photo"></a>
     <div>
     <a href="https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/">Irina Eidsvold-Tøien</a><br>
-    Norwegian Business School<br>
+    BI Norwegian Business School<br>
     Co-lead
     </div>
 </div>
