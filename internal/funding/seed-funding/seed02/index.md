@@ -4,7 +4,7 @@
 
 We are announcing the second call for MishMash seed funding, to support the development and exploration of artificial intelligence (AI) in creative processes and practices. The funding is intended for projects linked to one or more of MishMash’s seven work packages.
 
-Application deadline: 1 June 2026, 13:00. [Submission form](https://nettskjema.no/a/590631).
+Application deadline: 1 June 2026, 13:00. [Submission form](https://nettskjema.no/a/seed02).
 
 Any funding must result in a publicly publishable report, blog post, article, code, dataset, artwork, or other research product, which can be featured and linked to through MishMash’s communication channels.
 
