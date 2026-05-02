@@ -44,12 +44,12 @@ Ingen vedtak.
 
 MishMash har følgende råd og utvalg: 
 
-> -   [Ledelse](https://mishmash.no/about/organisation/management/) — Daglig ledelse og koordinering av MishMash
-> -   [Arbeidspakkeledergruppen](https://mishmash.no/about/organisation/wp-leaders/) — Ledere for de syv vitenskapelige arbeidspakkene
-> -   [Rådet](https://mishmash.no/no/about/organisation/council/) — Strategisk veiledning og overordnet koordinering
-> -   [Styret](https://mishmash.no/no/about/organisation/board/) — Styring og overordnet oppfølging av senteret
-> -   [Interessentrådet](https://mishmash.no/about/organisation/stakeholder-board/) — Representanter for partnere og andre interessenter
-> -   [Det vitenskapelige rådet](https://mishmash.no/about/organisation/scientific-advisory-board/) — Internasjonal vitenskapelig rådgivning og evaluering
+- [Ledelse](https://mishmash.no/about/organisation/management/) — Daglig ledelse og koordinering av MishMash
+- [Arbeidspakkeledergruppen](https://mishmash.no/about/organisation/wp-leaders/) — Ledere for de syv vitenskapelige arbeidspakkene
+- [Rådet](https://mishmash.no/no/about/organisation/council/) — Strategisk veiledning og overordnet koordinering
+- [Styret](https://mishmash.no/no/about/organisation/board/) — Styring og overordnet oppfølging av senteret
+- [Interessentrådet](https://mishmash.no/about/organisation/stakeholder-board/) — Representanter for partnere og andre interessenter
+- [Det vitenskapelige rådet](https://mishmash.no/about/organisation/scientific-advisory-board/) — Internasjonal vitenskapelig rådgivning og evaluering
   
 #### Behandling
 
@@ -85,7 +85,7 @@ Det er ikke gitt noen føringer på hvordan styret skal jobbe. Det finnes heller
 
 #### Behandling
 
-- Plassering av styrepapirer: Det ble argumentert for at styrepapirer så langt det er mulig skal være åpent tilgjengelige og tilgjengelig fra nettsiden. 
+Plassering av styrepapirer: Det ble argumentert for at styrepapirer så langt det er mulig skal være åpent tilgjengelige og tilgjengelig fra nettsiden. 
 
 #### Vedtak
 
