@@ -10,6 +10,24 @@ image: "/assets/images/illustrations/Kilden-bygg-banner-slider-2426463652.jpg"
 slug: "kristiansand2026"
 ---
 
-MishMash's opening conference will contain a program consisting of parallel thematic sessions, keynote lectures, performances, and art installations.
 
-![Kilden Kristiansand](/assets/images/illustrations/Kilden-bygg-banner-slider-2426463652.jpg)
+## ‘Interdisciplinary research on AI in cultural & creative ecosystems’
+
+Like many technological developments, artificial intelligence (AI) is not only a tool. It reshapes the conditions for creative production, perception, and cultural infrastructures. The MishMash Centre for AI and Creativity, one of six Norwegian AI centres, combines three approaches: it creates AI-based systems, tools and artworks, explores AI in relation to creativity and learning, and it reflects on the impacts of AI.
+
+The MishMash opening conference showcases frameworks and examples based on the three approaches of the centre. It features discussions between researchers from multiple backgrounds, from the perspectives of machines, humans and society.
+
+## What the conference offers
+
+The MishMash Opening Conference offers opportunities for all involved in MishMash to meet and deepen their connections around the key research themes. For researchers outside MishMash, the conference offers opportunities to engage in in-depth discussions about research on AI and creativity, and to get acquainted with the unique profile of MishMash and its researchers.
+*Updates on keynote speakers and programme content will be published continuously over the next months.*
+
+## Inspiring environment
+
+We meet in Southern Norway, in the heart of Kristiansand’s modern cultural district: the New York Times and TIME Magazine recognised Kunstsilo museum and the award-winning Kilden concert hall. The conference aims to create an inspiring environment for the exploration of research and artistic creation in interaction with artificial intelligence.
+
+## Conference dates
+The MishMash Opening conference takes place on Monday the 14th of September. It is followed by *MishMash LIVE*, an informal opening festival in the evening. The following day (Tuesday the 15th), MishMash work package meetings take place in the morning followed by an inspiring partner conference.
+
+## Back to back with Tech:Art on Tuesday
+The MishMash Opening Conference is organised back to back with Tech:Art at Kilden performing arts centre. Tech:Art, on Tuesday the 15th of September, focuses on the interaction between research and (local and international) cultural and creative partners. It is aimed at inspiring organisations in the cultural field and facilitating dialogue between these organisations and researchers. Stay around for Tech:Art to discuss opportunities for (artistic) researchers, technology developers and the creative organisations to co-create!
