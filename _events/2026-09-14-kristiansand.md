@@ -10,8 +10,7 @@ image: "/assets/images/illustrations/Kilden-bygg-banner-slider-2426463652.jpg"
 slug: "kristiansand2026"
 ---
 
-
-## ‘Interdisciplinary research on AI in cultural & creative ecosystems’
+## Interdisciplinary research on AI in cultural & creative ecosystems
 
 Like many technological developments, artificial intelligence (AI) is not only a tool. It reshapes the conditions for creative production, perception, and cultural infrastructures. The MishMash Centre for AI and Creativity, one of six Norwegian AI centres, combines three approaches: it creates AI-based systems, tools and artworks, explores AI in relation to creativity and learning, and it reflects on the impacts of AI.
 
@@ -20,6 +19,7 @@ The MishMash opening conference showcases frameworks and examples based on the t
 ## What the conference offers
 
 The MishMash Opening Conference offers opportunities for all involved in MishMash to meet and deepen their connections around the key research themes. For researchers outside MishMash, the conference offers opportunities to engage in in-depth discussions about research on AI and creativity, and to get acquainted with the unique profile of MishMash and its researchers.
+
 *Updates on keynote speakers and programme content will be published continuously over the next months.*
 
 ## Inspiring environment
