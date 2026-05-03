@@ -1,14 +1,14 @@
 ---
 title: "Open positions at MishMash/Norway"
-date: 2025-11-21
-author: "Alexander Refsum Jensenius"
 layout: default
-categories: [Vacancies]
 description: "A large number of MishMash doctoral and postdoctoral fellowships are now announced at the various partner institutions."
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg
+permalink: /vacancies/
+redirect_from:
+  - /news/positions/
 ---
 
-MishMash partners are now recruiting the first group of doctoral and postdoctoral fellows. There are variations in profile and application procedures for the different institutions, so please read the announcement texts carefully. It is possible to apply for multiple positions, they will all have different hiring committees. Please use the contact point(s) indicated in the calls for questions for the positions. For general questions about the announcements, you can contact the [management group](mailto:contact@mishmash.no).
+Below is a list of MishMash vacancies. Please keep in mind that there are variations in profile and application procedures for the different institutions, so please read the announcement texts carefully. It is possible to apply for multiple positions, they will all have different hiring committees. Please use the contact point(s) indicated in the calls for questions for the positions. For general questions about the announcements, you can contact the [management group](mailto:contact@mishmash.no).
 
 ## Doctoral Fellowships
 
@@ -17,7 +17,7 @@ These positions generally require that a master's degree has been completed.
 | Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
 | UiT The Arctic University of Norway | Artistic | [Artistic Research](https://www.jobbnorge.no/en/available-jobs/job/297022/phd-fellow-within-artistic-research) | 9 May 2026 |
-| Nord University | Scientific | [Creative Use of AI in Music Education](https://www.jobbnorge.no/en/available-jobs/job/292933/phd-research-fellow-in-music-education-with-focus-on-creative-use-of-ai-in-music-education ) | 30 Apr 2026 |
+| Nord University | Scientific | [Creative Use of AI in Music Education](https://www.jobbnorge.no/en/available-jobs/job/292933/phd-research-fellow-in-music-education-with-focus-on-creative-use-of-ai-in-music-education ) | ~~30 Apr 2026~~ |
 | NTNU | Artistic | [Music technology and AI for artistic performances](https://www.jobbnorge.no/en/available-jobs/job/293357/phd-position-in-artistic-research-in-music-technology-and-ai-for-artistic-performances) | ~~1 Apr 2026~~ |
 | NTNU | Scientific | [Music Technology with a focus on AI, health and wellbeing](https://www.jobbnorge.no/en/available-jobs/job/293368/phd-research-fellow-in-music-technology-with-a-focus-on-ai-health-and-wellbeing) | ~~1 Apr 2026~~ |
 | Western Norway University of Applied Sciences | Scientific | [Kunstfagdidaktisk/musikkpedagogisk arbeid med KI og kreativitet](https://www.jobbnorge.no/nn-no/ledige-stillingar/stilling/292672/stipendiat-i-kunstfagdidaktisk-musikkpedagogisk-arbeid-med-kunstig-intelligens-og-kreativitet) (in Norwegian) | ~~15 Mar 2026~~ |
