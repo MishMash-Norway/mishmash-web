@@ -10,6 +10,16 @@ redirect_from:
 
 Below is a list of MishMash vacancies. Please keep in mind that there are variations in profile and application procedures for the different institutions, so please read the announcement texts carefully. It is possible to apply for multiple positions, they will all have different hiring committees. Please use the contact point(s) indicated in the calls for questions for the positions. For general questions about the announcements, you can contact the [management group](mailto:contact@mishmash.no).
 
+## Table of Contents
+
+- [Master Fellowships](#master-fellowships)
+- [Doctoral Fellowships](#doctoral-fellowships)
+- [Postdoctoral Fellowships](#postdoctoral-fellowships)
+
+## Master Fellowships
+
+We are planning the announcement of master fellowships. These are unpaid but with the opportunity to apply for travel funding to attend MishMash events.
+
 ## Doctoral Fellowships
 
 These positions generally require that a master's degree has been completed.
