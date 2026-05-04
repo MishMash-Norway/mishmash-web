@@ -62,7 +62,8 @@ Senterleder ga en oppdatering av status.
 ### 4. Planer og prioriteringer 2026–2027
 Målet er å få koblet på assosiserte partnere med tilhørende personer før sommeren, slik at senteret kan gå over i en mer normal driftsfase fra høsten. Videre planer inkluderer: 
 
-*   **Åpningskonferanse:** Den fysiske samlingen i Kristiansand 14.–15. september vil inkludere vitenskapelig og kunstnerisk innhold og være rettet både mot MishMashere og andre interesserte. Det er et særlig fokus på å få til koblinger mot bransjen. 
+*   **Åpningskonferanse:** Den fysiske samlingen i Kristiansand 14.–15. september vil inkludere vitenskapelig og kunstnerisk innhold og være rettet både mot MishMashere og andre interesserte. Det er et særlig fokus på å få til koblinger mot bransjen.
+* **Senere konferanser:** Konferansen våren 2027 vil arrangeres av Kristiania i forbindelse med deres AR@K-konferanse. Planene for senere konferanser er under utarbeidelse. 
 *   **Masterstudenter:** For å inkludere masterstudenter i nettverket planlegges det at masterstudenter kan søke om å bli "Master Fellows". De får ikke lønn, men vil bli involvert i arbeidspakker og kan få dekket kostnader for å delta på de fysiske samlingene. 
 
 ### 5. Samarbeid i konsortiet

@@ -2,7 +2,7 @@
 layout: null
 ---
 [
-  {% assign pages_to_index = site.pages | where_exp: "p", "p.title != nil" %}
+  {% assign pages_to_index = site.pages | where_exp: "p", "p.title != nil or p.meeting_title != nil or p.url == '/'" %}
   {% assign all_items = pages_to_index %}
   {% assign all_items = all_items | concat: site.events %}
   {% assign all_items = all_items | concat: site.news %}
@@ -12,8 +12,12 @@ layout: null
     {% unless item.draft %}
       {% if comma %},{% endif %}
       {% assign comma = true %}
+      {% assign search_title = item.meeting_title | default: item.title %}
+      {% if item.url == '/' %}
+        {% assign search_title = site.title %}
+      {% endif %}
       {
-        "title": {{ item.title | jsonify }},
+        "title": {{ search_title | jsonify }},
         "url": {{ item.url | relative_url | jsonify }},
         "date": {{ item.date | date: "%Y-%m-%d" | jsonify }},
         "categories": {{ item.categories | default: empty | jsonify }},
