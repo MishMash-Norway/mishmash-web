@@ -1,5 +1,6 @@
 ---
 layout: meeting
+title: "MishMash styremøte #1"
 meeting_title: "MishMash styremøte #1"
 meeting_date: "10 April 2026"
 meeting_start: "13:00"
