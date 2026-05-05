@@ -2,7 +2,10 @@
 layout: null
 ---
 [
-  {% assign pages_to_index = site.pages | where_exp: "p", "p.title != nil or p.meeting_title != nil or p.url == '/'" %}
+  {% assign pages_to_index = site.pages | where_exp: "p", "p.title != nil" %}
+  {% assign pages_meeting = site.pages | where_exp: "p", "p.meeting_title != nil" %}
+  {% assign pages_home = site.pages | where: "url", "/" %}
+  {% assign pages_to_index = pages_to_index | concat: pages_meeting | concat: pages_home | uniq %}
   {% assign all_items = pages_to_index %}
   {% assign all_items = all_items | concat: site.events %}
   {% assign all_items = all_items | concat: site.news %}
