@@ -192,6 +192,36 @@ en kulturinstitusjon, en opplyst fremtid"
   title: "DHKO Conference 2026"
   description: "Annual conference for the Norwegian network for digital humanities and cultural organisations (DHKO). Time and place: 14-15 October 2026, Campus Remmen."
 
+- start_date: 2026-01-28
+  end_date: 2026-01-28
+  url: https://www.meetup.com/trondheim-kreativ-ai/events/312208578/
+  og_title: "TKAI Meetup #3 - Gjør KI oss mer passive – eller mer kreative?"
+  og_description: "Kreativ AI Meetup om hvordan AI påvirker kreativitet, kritisk tenkning og arbeidsliv, med innlegg fra Jonas Rennemo Vaag og Magnus Lian."
+  og_image: "https://secure.meetupstatic.com/photos/event/5/c/d/1/highres_532163761.jpeg"
+  partner: Trondheim Kreativ AI
+  title: "TKAI Meetup #3 - Gjør KI oss mer passive – eller mer kreative?"
+  description: "Meetup at Digs - Mesh Community, Trondheim. Time: 5:30 PM-7:30 PM (28 January 2026). Talks on AI, creativity, critical thinking, and practical creative workflows."
+
+- start_date: 2026-03-25
+  end_date: 2026-03-25
+  url: https://www.meetup.com/trondheim-kreativ-ai/events/313109375/
+  og_title: "TKAI Meetup #4 - Deepfakes"
+  og_description: "Kreativ AI Meetup om deepfakes, med forskningsperspektiv fra Viggo Tellefsen Wivestad og en praktisk gjennomgang fra John-Ivar Eidsmo."
+  og_image: "https://secure.meetupstatic.com/photos/event/9/b/4/b/highres_532659755.webp?w=640"
+  partner: Trondheim Kreativ AI
+  title: "TKAI Meetup #4 - Deepfakes"
+  description: "Meetup at Digs - Mesh Community, Trondheim. Time: 5:30 PM-7:30 PM (25 March 2026). Deepfakes from both research and production perspectives."
+
+- start_date: 2026-05-27
+  end_date: 2026-05-27
+  url: https://www.meetup.com/trondheim-kreativ-ai/events/314623889/
+  og_title: "TKAI Meetup #5 - Bygg det selv!"
+  og_description: "Kreativ AI Meetup om people building their own tools with AI, featuring Tor Thorsrud Sporsem, Tor Martin Norvik, and Audun Kvitland Røstad."
+  og_image: "https://secure.meetupstatic.com/photos/event/3/e/f/2/highres_534076114.jpeg"
+  partner: Trondheim Kreativ AI
+  title: "TKAI Meetup #5 - Bygg det selv!"
+  description: "Meetup at Digs - Mesh Community, Trondheim. Time: 5:30 PM-7:30 PM (27 May 2026). Talks on building with AI, end-user development, and AI-supported game and service creation."
+
 - start_date: 2026-03-11
   end_date: 2026-03-11
   url: https://www.dnva.no/detskjer/2025/11/forskningssuverenitet-og-ki
