@@ -2,4 +2,4 @@
 
 - [MishMashSeed funding](/internal/funding/seed-funding/)
 - [Application opportunities](/internal/funding/opportunities)
-- [Paper acknowledgments](/internal/funding/attribution)
+- [Paper acknowledgments](/internal/attribution/)
