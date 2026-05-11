@@ -4,7 +4,7 @@ title: "Researchers"
 ---
 
 # Researchers
-
+[Legg til din profil](https://airtable.com/appJuopRNtz0fPjrT/pagZOeNYxs7U2f2bj/form)
 <iframe class="airtable-embed" src="https://airtable.com/embed/appJuopRNtz0fPjrT/shrJGuYMK24QMl83k" frameborder="0" onmousewheel="" width="100%" height="1100" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 
