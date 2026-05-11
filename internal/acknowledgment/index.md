@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MishMash acknowledgment
-permalink: /internal/attribution/
+permalink: /internal/acknowledgment/
 ---
 
 
