@@ -11,6 +11,7 @@ This page collects internal MishMash resources.
 ## General resources
 
 - [Funding opportunities](/internal/funding/)
+- [Paper acknowledgments](/internal/attribution/)
 - [MeshUp run-of-show](/internal/meshups/)
 - [QR code generator](/internal/qr-code/)
 
