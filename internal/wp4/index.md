@@ -9,7 +9,7 @@ This page is for MishMash members only, and WP4 members in particular. It is a n
 ---
 
 ## WP4 Resources
-- [Participants](/researchers)
+- [Participants](/internal/wp4/researchers)
 - [Activities](/internal/wp4/projects/)
 - [Events](/internal/wp4/events/)
 - [Documents](/internal/wp4/documents/)
