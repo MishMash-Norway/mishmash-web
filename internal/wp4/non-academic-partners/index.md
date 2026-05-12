@@ -3,17 +3,10 @@ layout: internal
 title: "WP4 Non-academic"
 ---
 
-- <details>
-		<summary>Name (organisation)</summary>
-		<a href="mailto:name@email.com">e-mail</a><br>
-		Info. <br>
-	</details>
-- <details>
-		<summary>Name (organisation)</summary>
-		<a href="mailto:name@email.com">e-mail</a><br>
-		Info. <br>
-	</details>
+- Name (organisation): [e-mail](mailto:name@email.com)
+  Info.
 
+- Name (organisation): [e-mail](mailto:name@email.com)
+  Info.
 
-
-<p style="margin-top:2em;"><a href="/internal/wp4/" style="text-decoration:underline;">&larr; Back to WP4 page</a></p>
+[<- Back to WP4 page](/internal/wp4/)
