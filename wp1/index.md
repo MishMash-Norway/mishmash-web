@@ -3,8 +3,6 @@ layout: page
 title: "WP1: AI for artistic performances"
 ---
 
-# WP1: AI for artistic performances
-
 This WP focuses on how real-time interaction with AI systems transforms the creative process in applications such as music and art performance, interactive installations, and gaming. We will emphasise AI systems that facilitate continuous interactions between humans and machine agents, especially multiple and embodied AI agents.
 
 ## Description
