@@ -12,7 +12,7 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.uib.no/en/persons/Budhaditya.Chattopadhyay
+  website: https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-9489-2721

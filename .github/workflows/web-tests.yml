@@ -50,6 +50,31 @@ jobs:
             --disable-external \
             --no-enforce-https
 
+  external_link_audit:
+    name: External link audit (non-blocking)
+    runs-on: ubuntu-latest
+    needs: build_site
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build site
+        run: bundle exec jekyll build --trace
+
+      - name: Run htmlproofer (external links)
+        continue-on-error: true
+        run: |
+          bundle exec htmlproofer ./_site \
+            --disable-internal \
+            --no-enforce-https \
+            --url-ignore "/fonts\\.gstatic\\.com/,/doi\\.org/,/dx\\.doi\\.org/,/nilu\\.com/,/no\\.gramo\\.no/,/linkedin\\.com/,/upf\\.edu/,/worldcat\\.org/,/scopus\\.com/,/dhko\\.no/,/nettskjema\\.no/,/calendar\\.google\\.com/,/aesthetics\\.mpg\\.de/,/notam\\.b-cdn\\.net/,/sfu\\.ca/"
+
   html_validation:
     name: Validate HTML (Nu)
     runs-on: ubuntu-latest

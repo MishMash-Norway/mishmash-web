@@ -29,9 +29,9 @@ Ethical considerations are central to this WP, especially how AI can be used res
 ## Work Package Leaders
 
 <div class="wp-member-row">
-    <a href="https://www.uib.no/en/persons/Claire.Ghetti"><img src="/assets/images/portraits/circle/Claire_Ghetti_UiB.png" alt="Claire Ghetti" class="wp-member-photo"></a>
+    <a href="https://www4.uib.no/en/find-employees/claire.ghetti"><img src="/assets/images/portraits/circle/Claire_Ghetti_UiB.png" alt="Claire Ghetti" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.uib.no/en/persons/Claire.Ghetti">Claire Ghetti</a><br>
+    <a href="https://www4.uib.no/en/find-employees/claire.ghetti">Claire Ghetti</a><br>
     University of Bergen<br>
     Lead
     </div>

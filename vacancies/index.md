@@ -29,24 +29,24 @@ These positions generally require that a master's degree has been completed.
 
 | Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
-| UiT The Arctic University of Norway | Artistic | [Artistic Research](https://www.jobbnorge.no/en/available-jobs/job/297022/phd-fellow-within-artistic-research) | 9 May 2026 |
-| Nord University | Scientific | [Creative Use of AI in Music Education](https://www.jobbnorge.no/en/available-jobs/job/292933/phd-research-fellow-in-music-education-with-focus-on-creative-use-of-ai-in-music-education ) | ~~30 Apr 2026~~ |
-| NTNU | Artistic | [Music technology and AI for artistic performances](https://www.jobbnorge.no/en/available-jobs/job/293357/phd-position-in-artistic-research-in-music-technology-and-ai-for-artistic-performances) | ~~1 Apr 2026~~ |
-| NTNU | Scientific | [Music Technology with a focus on AI, health and wellbeing](https://www.jobbnorge.no/en/available-jobs/job/293368/phd-research-fellow-in-music-technology-with-a-focus-on-ai-health-and-wellbeing) | ~~1 Apr 2026~~ |
-| Western Norway University of Applied Sciences | Scientific | [Kunstfagdidaktisk/musikkpedagogisk arbeid med KI og kreativitet](https://www.jobbnorge.no/nn-no/ledige-stillingar/stilling/292672/stipendiat-i-kunstfagdidaktisk-musikkpedagogisk-arbeid-med-kunstig-intelligens-og-kreativitet) (in Norwegian) | ~~15 Mar 2026~~ |
-| University of Inland Norway | Scientific | [Educational Sciences with a focus on AI and Creativity](https://www.jobbnorge.no/en/available-jobs/job/294285/phd-research-fellowship-in-educational-sciences-with-a-focus-on-ai-and-creativity) | ~~9 March 2026~~ |
-| University of Oslo | Scientific | [Psychology of music, AI and creativity](https://www.jobbnorge.no/en/available-jobs/job/290355/doctoral-research-fellowship-in-the-psychology-of-music-ai-and-creativity) | ~~1 Mar 2026~~ |
+| UiT The Arctic University of Norway | Artistic | Artistic Research | 9 May 2026 |
+| Nord University | Scientific | Creative Use of AI in Music Education | ~~30 Apr 2026~~ |
+| NTNU | Artistic | Music technology and AI for artistic performances | ~~1 Apr 2026~~ |
+| NTNU | Scientific | Music Technology with a focus on AI, health and wellbeing | ~~1 Apr 2026~~ |
+| Western Norway University of Applied Sciences | Scientific | Kunstfagdidaktisk/musikkpedagogisk arbeid med KI og kreativitet (in Norwegian) | ~~15 Mar 2026~~ |
+| University of Inland Norway | Scientific | Educational Sciences with a focus on AI and Creativity | ~~9 March 2026~~ |
+| University of Oslo | Scientific | Psychology of music, AI and creativity | ~~1 Mar 2026~~ |
 | Handelshøyskolen BI | Scientific | [Opphavsrett og KI](https://bi.easycruit.com/vacancy/3575961/45439?iso=no) (in Norwegian) | ~~1 Mar 2026~~ |
-| Østfold University College | Scientific | [Creative Human-AI Interaction](https://www.jobbnorge.no/en/available-jobs/job/291081/doctoral-research-fellow-phd-in-creative-human-ai-interaction) | ~~1 Mar 2026~~ |
-| University of Inland Norway | Artistic | [AI and Creativity in Film, TV, and Games](https://www.jobbnorge.no/en/available-jobs/job/290933/phd-fellows-in-artistic-research-focusing-on-ai-and-creativity-in-film-tv-and-games) (2 positions) | ~~1 Mar 2026~~ |
-| University of Bergen | Scientific | [Responsible AI in Health Promotion and Music Therapy](https://www.jobbnorge.no/en/available-jobs/job/291463/phd-research-fellowship-in-responsible-ai-in-health-promotion-and-music-therapy) | ~~13 Feb 2026~~ |
+| Østfold University College | Scientific | Creative Human-AI Interaction | ~~1 Mar 2026~~ |
+| University of Inland Norway | Artistic | AI and Creativity in Film, TV, and Games (2 positions) | ~~1 Mar 2026~~ |
+| University of Bergen | Scientific | Responsible AI in Health Promotion and Music Therapy | ~~13 Feb 2026~~ |
 | Høyskolen Kristiania | Scientific | [AI Creative Solutions in Health](https://web103.reachmee.com/ext/I021/1682/job?site=10&lang=UK&validator=2d7c408ab404b707c61003f4222c50cb&ihelper=https%3A%2F%2Fwww.kristiania.no%2Fen%2Fabout-kristiania%2Fvacant-positions%2F&job_id=924) | ~~2 Feb 2026~~ |
 | Høyskolen Kristiania | Scientific | [Emerging AI/XR Technologies as Mediators and Co-creators of Human Experiences](https://web103.reachmee.com/ext/I021/1682/job?site=10&lang=UK&validator=2d7c408ab404b707c61003f4222c50cb&ihelper=https%3A%2F%2Fwww.kristiania.no%2Fen%2Fabout-kristiania%2Fvacant-positions%2F&job_id=925) | ~~2 Feb 2026~~ |
 | Høyskolen Kristiania | Scientific | [Communicating Environmental Futures in the Age of AI](https://web103.reachmee.com/ext/I021/1682/job?site=10&lang=UK&validator=2d7c408ab404b707c61003f4222c50cb&ihelper=https%3A%2F%2Fwww.kristiania.no%2Fen%2Fabout-kristiania%2Fvacant-positions%2F&job_id=922) | ~~2 Feb 2026~~ |
-| University of Agder | Artistic/Scientific | [AI in the Creative and Cultural Industries](https://www.jobbnorge.no/en/available-jobs/job/290289/phd-research-fellowship-at-the-faculty-of-fine-artsin-ai-in-the-creative-and-cultural-industries) (2 positions) | ~~1 Feb 2026~~ |
-| University of Agder | Artistic/Scientific | [Creative Use of AI in Education](https://www.jobbnorge.no/en/available-jobs/job/290293/phd-research-fellowship-at-the-faculty-of-fine-arts-in-creative-use-of-ai-in-education) (2 positions) | ~~1 Feb 2026~~ |
-| Norwegian Academy of Music | Artistic | [Music and AI](https://nmh.no/en/contact/research-fellow-2026-mishmash) | ~~1 Feb 2026~~ |
-| University of Bergen | Artistic | [AI in Artistic Processes](https://www.jobbnorge.no/en/available-jobs/job/291439/phd-research-fellowship-in-artistic-research-ai-in-artistic-processes) | ~~30 Jan 2026~~ |
+| University of Agder | Artistic/Scientific | AI in the Creative and Cultural Industries (2 positions) | ~~1 Feb 2026~~ |
+| University of Agder | Artistic/Scientific | Creative Use of AI in Education (2 positions) | ~~1 Feb 2026~~ |
+| Norwegian Academy of Music | Artistic | Music and AI | ~~1 Feb 2026~~ |
+| University of Bergen | Artistic | AI in Artistic Processes | ~~30 Jan 2026~~ |
 
 ## Postdoctoral Fellowships
 
@@ -56,10 +56,10 @@ These positions generally require that the PhD dissertation has been submitted b
 | --- | --- | --- | --- |
 | NTNU | Scientific | [Postdoctoral Fellow on European AI in Creative and Cultural Industries](https://www.jobbnorge.no/en/available-jobs/job/300209/postdoctoral-fellow-on-european-ai-in-creative-and-cultural-industries) | 14 May 2026 |
 | SimulaMet | Scientific | [Machine Learning for CoCreativity in Remote Operations](https://www.simulamet.no/careers/job-openings/postdoctoral-research-fellowship-in-machine-learning-for-cocreativity-in-remote-operations) | ~~1 Apr 2026~~ |
-| University of Oslo | Scientific | [Music and AI in the creative and cultural industries](https://www.jobbnorge.no/en/available-jobs/job/290328/postdoctoral-research-fellowship-in-music-and-ai-in-the-creative-and-cultural-industries) | ~~1 Mar 2026~~ |
-| University of Oslo | Scientific | [AI for Music Analysis](https://www.jobbnorge.no/en/available-jobs/job/290318/postdoctoral-research-fellowship-in-ai-for-music-analysis) | ~~1 Mar 2026~~ |
-| University of Oslo | Scientific | [AI Methods for Creative Applications](https://www.jobbnorge.no/en/available-jobs/job/291829/postdoctoral-research-fellow-in-ai-methods-for-creative-applications) | ~~1 Mar 2026~~ |
-| Østfold University College | Scientific | [Creative Human-AI Interaction](https://www.jobbnorge.no/en/available-jobs/job/291083/postdoctoral-research-fellow-in-creative-human-ai-interaction) | ~~1 Mar 2026~~ |
-| Norwegian Academy of Music | Artistic | [Music and AI](https://www.jobbnorge.no/en/available-jobs/job/290871/postdoctoral-fellow-in-artistic-practice-within-music-and-artificial-intelligence) | ~~1 Feb 2026~~ |
+| University of Oslo | Scientific | Music and AI in the creative and cultural industries | ~~1 Mar 2026~~ |
+| University of Oslo | Scientific | AI for Music Analysis | ~~1 Mar 2026~~ |
+| University of Oslo | Scientific | AI Methods for Creative Applications | ~~1 Mar 2026~~ |
+| Østfold University College | Scientific | Creative Human-AI Interaction | ~~1 Mar 2026~~ |
+| Norwegian Academy of Music | Artistic | Music and AI | ~~1 Feb 2026~~ |
 
-| University of Bergen | Artistic | [AI in Artistic Processes](https://www.jobbnorge.no/en/available-jobs/job/291445/postdoctoral-research-fellow-in-artistic-research-ai-in-artistic-processes) | ~~30 Jan 2026~~ |
+| University of Bergen | Artistic | AI in Artistic Processes | ~~30 Jan 2026~~ |

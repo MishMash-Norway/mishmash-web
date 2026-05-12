@@ -29,9 +29,9 @@ This raises critical questions about cultural agency: Who decides what stories a
 ## Work Package Leaders
 
 <div class="wp-member-row">
-    <a href="https://www.uib.no/en/persons/Budhaditya.Chattopadhyay"><img src="/assets/images/portraits/circle/Budhaditya_Chattopadhyay_UiB.png" alt="Budhaditya Chattopadhyay" class="wp-member-photo"></a>
+    <a href="https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay"><img src="/assets/images/portraits/circle/Budhaditya_Chattopadhyay_UiB.png" alt="Budhaditya Chattopadhyay" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.uib.no/en/persons/Budhaditya.Chattopadhyay">Budhaditya Chattopadhyay</a><br>
+    <a href="https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay">Budhaditya Chattopadhyay</a><br>
     University of Bergen<br>
     Lead
     </div>
