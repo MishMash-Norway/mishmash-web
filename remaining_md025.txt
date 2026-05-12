@@ -1,2 +1,0 @@
-internal/wp4/non-academic-partners/index.md:7 error MD025/single-title/single-h1 Multiple top-level headings in the same document [Context: "Non-academic participants"]
-internal/wp4/phd/index.md:7 error MD025/single-title/single-h1 Multiple top-level headings in the same document [Context: "PhD Research Fellows"]
