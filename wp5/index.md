@@ -3,8 +3,6 @@ layout: page
 title: "WP5: AI in the Creative and Cultural Industries"
 ---
 
-# WP5: AI in the Creative and Cultural Industries
-
 This WP aims to generate new knowledge, inform policy and governance and promote responsible, equitable and future-oriented uses of AI in cultural contexts. It will do so by integrating perspectives from interdisciplinary research—including law, social sciences, the humanities and the arts, economics, informatics and technology studies, and sustainability research—together with insights from cultural institutions, rights organisations and other sector partners.
 
 ## Description

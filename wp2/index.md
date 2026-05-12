@@ -3,8 +3,6 @@ layout: page
 title: "WP2: AI in artistic processes"
 ---
 
-# WP2: AI in artistic processes
-
 This WP focuses on AI systems used in producing works associated with the arts and creative industries, including visual arts, film, VR/XR, literature, performing arts, games, and music. Prompt-based, machine-learning systems are becoming normalised in many workflows, and practitioners and professionals are increasingly aware of their benefits and costs.
 
 ## Description
