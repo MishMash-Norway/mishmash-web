@@ -8,7 +8,6 @@ meeting_end: "14:00"
 meeting_location: "Zoom"
 ---
 
-# Deltagere
 
 Medlemmer: 
 

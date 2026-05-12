@@ -51,5 +51,4 @@ summary: null
 permalink: /directory/people/kyrre-glette/
 ---
 
-# Kyrre Glette
 

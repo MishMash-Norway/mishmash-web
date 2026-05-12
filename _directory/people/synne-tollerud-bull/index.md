@@ -63,5 +63,4 @@ summary: 'Synne Tollerud Bull is a media artist, researcher, and Professor, curr
 permalink: /directory/people/synne-tollerud-bull/
 ---
 
-# Synne Tollerud Bull
 

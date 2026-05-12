@@ -40,5 +40,4 @@ source_mentions:
 summary: null
 ---
 
-# Carsten Griwodz
 

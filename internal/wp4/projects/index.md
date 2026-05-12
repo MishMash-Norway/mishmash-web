@@ -3,7 +3,6 @@ layout: internal
 title: "Projects"
 ---
 
-# WP4 activities
 
 ### AI Integration in Film and TV Education
 This idea for a project within Mishmash aims both to investigate the adoption of AI tools among students and faculty within Norwegian Film and TV programs, pilot-testing at the University of Stavanger, and to evaluate and implement ethically grounded AI workflows into the traditional curriculum. The aim is to continue the work in the autumn with a larger curriculum project with other institutions in the Mishmash network.  

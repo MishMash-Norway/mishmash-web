@@ -56,5 +56,4 @@ summary: null
 permalink: /directory/people/eirik-sorbo/
 ---
 
-# Eirik Sørbø
 

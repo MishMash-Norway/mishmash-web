@@ -3,7 +3,6 @@ layout: internal
 title: "Internal – WP5: AI in the Creative and Cultural Industries"
 ---
 
-# Internal: WP5 — AI in the Creative and Cultural Industries
 
 This page is for WP5 members only.
 

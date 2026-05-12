@@ -3,7 +3,6 @@ layout: internal
 title: "Internal – WP3: Creative use of AI for health and well-being"
 ---
 
-# Internal: WP3 — Creative use of AI for health and well-being
 
 This page is for WP3 members only.
 

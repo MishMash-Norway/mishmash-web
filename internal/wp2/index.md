@@ -3,7 +3,6 @@ layout: internal
 title: "Internal – WP2: AI in artistic processes"
 ---
 
-# Internal: WP2 — AI in artistic processes
 
 This page is for WP2 members only.
 

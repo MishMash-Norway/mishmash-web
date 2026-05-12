@@ -44,5 +44,4 @@ summary: null
 permalink: /directory/people/andreas-bergsland/
 ---
 
-# Andreas Bergsland
 

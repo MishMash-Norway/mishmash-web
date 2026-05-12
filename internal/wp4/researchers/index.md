@@ -3,7 +3,6 @@ layout: internal
 title: "Researchers"
 ---
 
-# Participants
 [Legg til din profil](https://airtable.com/appJuopRNtz0fPjrT/pagZOeNYxs7U2f2bj/form)
 <iframe class="airtable-embed" src="https://airtable.com/embed/appJuopRNtz0fPjrT/shrJGuYMK24QMl83k" height="1100" style="width: 100%; background: transparent; border: 1px solid #ccc;"></iframe>
 

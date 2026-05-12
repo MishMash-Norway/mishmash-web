@@ -3,7 +3,6 @@ layout: internal
 title: "Documents"
 ---
 
-# Shared documents
 
 ## Files and Folders
 

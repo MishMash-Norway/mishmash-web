@@ -3,7 +3,6 @@ layout: internal
 title: "Internal – WP1: AI for artistic performances"
 ---
 
-# Internal: WP1 — AI for artistic performances
 
 This page is for WP1 members only.
 

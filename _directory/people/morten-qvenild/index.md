@@ -37,5 +37,4 @@ source_mentions:
 summary: null
 ---
 
-# Morten Qvenild
 

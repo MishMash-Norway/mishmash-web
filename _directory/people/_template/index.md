@@ -27,6 +27,5 @@ source_mentions: []
 summary:
 ---
 
-# Full Name
 
 Bio.

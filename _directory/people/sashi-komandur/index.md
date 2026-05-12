@@ -41,5 +41,4 @@ source_mentions:
 summary: null
 ---
 
-# Sashi Komandur
 

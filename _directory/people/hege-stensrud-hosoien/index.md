@@ -29,5 +29,4 @@ source_mentions:
 summary: null
 ---
 
-# Hege Stensrud Høsøien
 

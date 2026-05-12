@@ -39,5 +39,4 @@ source_mentions:
 summary: null
 ---
 
-# Fredrik Graver
 

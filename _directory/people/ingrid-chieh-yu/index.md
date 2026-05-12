@@ -29,5 +29,4 @@ source_mentions:
 summary: null
 ---
 
-# Ingrid Chieh Yu
 

@@ -30,5 +30,4 @@ source_mentions:
 summary: null
 ---
 
-# Eskil Muan Sæther
 

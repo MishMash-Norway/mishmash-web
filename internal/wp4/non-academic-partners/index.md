@@ -3,9 +3,6 @@ layout: internal
 title: "WP4 Non-academic"
 ---
 
-
-# Non-academic participants
-
 - <details>
 		<summary>Name (organisation)</summary>
 		<a href="mailto:name@email.com">e-mail</a><br>

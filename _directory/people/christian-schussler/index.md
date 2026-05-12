@@ -31,5 +31,4 @@ source_mentions:
 summary:
 ---
 
-# Christian Schüssler
 

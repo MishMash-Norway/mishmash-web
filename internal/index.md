@@ -4,7 +4,6 @@ title: Internal
 permalink: /internal/
 ---
 
-# Internal
 
 This page collects internal MishMash resources.
 

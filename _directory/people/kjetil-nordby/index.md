@@ -54,5 +54,4 @@ summary: null
 permalink: /directory/people/kjetil-nordby/
 ---
 
-# Kjetil Nordby
 

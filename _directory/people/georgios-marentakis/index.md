@@ -55,5 +55,4 @@ summary: null
 permalink: /directory/people/georgios-marentakis/
 ---
 
-# Georgios Marentakis
 

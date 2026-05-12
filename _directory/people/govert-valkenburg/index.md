@@ -29,5 +29,4 @@ source_mentions:
 summary:
 ---
 
-# Govert Valkenburg
 

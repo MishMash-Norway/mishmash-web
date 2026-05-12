@@ -3,7 +3,6 @@ layout: internal
 title: "Internal – WP6: AI for cultural heritage"
 ---
 
-# Internal: WP6 — AI for cultural heritage
 
 This page is for WP6 members only.
 

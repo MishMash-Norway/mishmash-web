@@ -58,5 +58,4 @@ summary: null
 permalink: /directory/people/sidsel-karlsen/
 ---
 
-# Sidsel Karlsen
 

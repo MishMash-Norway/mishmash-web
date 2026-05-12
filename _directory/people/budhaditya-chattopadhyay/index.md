@@ -66,5 +66,4 @@ summary: 'Budhaditya Chattopadhyay is a multidisciplinary artist, researcher, an
 permalink: /directory/people/budhaditya-chattopadhyay/
 ---
 
-# Budhaditya Chattopadhyay
 

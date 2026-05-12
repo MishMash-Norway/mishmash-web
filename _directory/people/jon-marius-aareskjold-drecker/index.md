@@ -30,5 +30,4 @@ source_mentions:
 summary: null
 ---
 
-# Jon Marius Aareskjold-Drecker
 

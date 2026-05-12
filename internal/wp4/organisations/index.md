@@ -3,7 +3,6 @@ layout: internal
 title: "WP4 Participants"
 ---
 
-# WP4 Participants
 
 - <details>
 		<summary>Kulturtanken</summary>

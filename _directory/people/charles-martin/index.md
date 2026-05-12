@@ -34,5 +34,4 @@ summary: Charles Martin is a specialist in percussion, computer music, and inter
   new ways to predict musical intentions and performances in smartphone apps.
 ---
 
-# Charles Martin
 
