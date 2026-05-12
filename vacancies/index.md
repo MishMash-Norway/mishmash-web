@@ -29,7 +29,7 @@ These positions generally require that a master's degree has been completed.
 
 | Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
-| UiT The Arctic University of Norway | Artistic | Artistic Research | 9 May 2026 |
+| UiT The Arctic University of Norway | Artistic | Artistic Research | ~~9 May 2026~~ |
 | Nord University | Scientific | Creative Use of AI in Music Education | ~~30 Apr 2026~~ |
 | NTNU | Artistic | Music technology and AI for artistic performances | ~~1 Apr 2026~~ |
 | NTNU | Scientific | Music Technology with a focus on AI, health and wellbeing | ~~1 Apr 2026~~ |
