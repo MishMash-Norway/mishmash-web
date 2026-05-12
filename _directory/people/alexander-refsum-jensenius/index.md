@@ -10,16 +10,16 @@ institutions:
 - university-of-oslo
 projects: []
 roles:
-- Board Observer
+- Director
 urls:
   website: https://www.uio.no/ritmo/english/people/management/alexanje/
-  github: ''
-  linkedin: ''
+  github: https://github.com/alexarje
+  linkedin: https://www.linkedin.com/in/alexarje/
   orcid: https://orcid.org/0000-0001-6171-8743
   nva: https://nva.sikt.no/research-profile/1328
-  youtube: ''
+  youtube: https://www.youtube.com/alexarje
   facebook: ''
-  mastodon: ''
+  mastodon: https://mastodon.online/@arjensenius
   instagram: ''
 aliases: []
 tags: []
