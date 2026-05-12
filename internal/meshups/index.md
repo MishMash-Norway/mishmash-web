@@ -1,4 +1,7 @@
-## MeshUp
+---
+layout: internal
+title: MeshUp structure
+---
 
 General structure for Thursday MeshUps:
 
