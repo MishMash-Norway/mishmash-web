@@ -22,5 +22,4 @@ source_mentions:
 summary:
 ---
 
-# Arctic University of Norway
 

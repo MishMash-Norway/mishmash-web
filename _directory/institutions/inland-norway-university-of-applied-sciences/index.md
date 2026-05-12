@@ -23,5 +23,4 @@ source_mentions:
 summary:
 ---
 
-# Inland Norway University of Applied Sciences
 

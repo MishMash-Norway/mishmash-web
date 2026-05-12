@@ -20,5 +20,4 @@ source_mentions:
 summary:
 ---
 
-# NORSUS - Norwegian Institute for Sustainability Research
 

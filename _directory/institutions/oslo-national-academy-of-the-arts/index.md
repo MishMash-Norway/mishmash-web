@@ -20,5 +20,4 @@ source_mentions:
 summary:
 ---
 
-# Oslo National Academy of the Arts
 

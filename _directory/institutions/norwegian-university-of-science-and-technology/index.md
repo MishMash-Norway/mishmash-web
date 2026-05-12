@@ -22,5 +22,4 @@ source_mentions:
 summary:
 ---
 
-# Norwegian University of Science and Technology
 

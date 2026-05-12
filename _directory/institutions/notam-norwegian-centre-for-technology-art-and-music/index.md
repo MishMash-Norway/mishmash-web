@@ -21,5 +21,4 @@ source_mentions:
 summary:
 ---
 
-# Notam - Norwegian Centre for Technology, Art and Music
 

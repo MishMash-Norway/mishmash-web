@@ -21,5 +21,4 @@ source_mentions:
 summary:
 ---
 
-# Reimagine
 

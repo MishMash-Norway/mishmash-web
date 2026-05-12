@@ -24,5 +24,4 @@ source_mentions:
 summary:
 ---
 
-# University of Agder
 

@@ -22,5 +22,4 @@ source_mentions:
 summary:
 ---
 
-# Simula Metropolitan Center for Digital Engineering
 

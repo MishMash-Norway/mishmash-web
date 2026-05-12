@@ -24,5 +24,4 @@ source_mentions:
 summary:
 ---
 
-# National Library of Norway
 

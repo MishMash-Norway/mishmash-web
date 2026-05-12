@@ -20,5 +20,4 @@ source_mentions:
 summary:
 ---
 
-# Oslo School of Architecture and Design
 

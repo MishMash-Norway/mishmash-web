@@ -20,5 +20,4 @@ source_mentions:
 summary:
 ---
 
-# Australian National University
 

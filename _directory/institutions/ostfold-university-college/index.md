@@ -22,5 +22,4 @@ source_mentions:
 summary:
 ---
 
-# Ostfold University College
 

@@ -22,5 +22,4 @@ source_mentions:
 summary:
 ---
 
-# BI Norwegian Business School
 

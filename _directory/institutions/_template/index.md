@@ -18,6 +18,5 @@ source_mentions: []
 summary:
 ---
 
-# Institution Name
 
 Description.

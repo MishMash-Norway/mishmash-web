@@ -23,5 +23,4 @@ source_mentions:
 summary:
 ---
 
-# Norwegian Academy of Music
 

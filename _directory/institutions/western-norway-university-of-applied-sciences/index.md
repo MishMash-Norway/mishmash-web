@@ -22,5 +22,4 @@ source_mentions:
 summary:
 ---
 
-# Western Norway University of Applied Sciences
 

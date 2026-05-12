@@ -3,8 +3,15 @@ layout: default
 ---
 <div class="page">
   <div class="container">
-    {% if page.title %}
-    <h1>{{ page.title }}</h1>
+    {% assign page_heading = page.title %}
+    {% if page_heading == nil or page_heading == '' or page_heading == 'Index' %}
+      {% assign page_heading = page.name %}
+    {% endif %}
+    {% if page.type == 'institution' and page.name %}
+      {% assign page_heading = page.name %}
+    {% endif %}
+    {% if page_heading %}
+    <h1>{{ page_heading }}</h1>
     {% endif %}
     {{ content }}
 
