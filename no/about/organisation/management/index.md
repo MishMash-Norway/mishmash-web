@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Management
-redirect_from:
-  - /organisation/management/
+lang: nb
+title: Ledelse
+translation_url: /about/organisation/management/
 ---
 
-The Management group handles the day-to-day coordination and administration of MishMash activities.
+Ledelsen har ansvar for den daglige koordineringen og administrasjonen av MishMash-aktivitetene.
 
-## Members
+## Medlemmer
 
 <!-- markdownlint-disable MD033 -->
 
@@ -15,8 +15,8 @@ The Management group handles the day-to-day coordination and administration of M
   <a href="https://www.uio.no/ritmo/english/people/management/alexanje/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Alexander_Refsum_Jensenius_UiO.jpg" alt="Alexander Refsum Jensenius"></a>
   <div>
   <a href="https://www.uio.no/ritmo/english/people/management/alexanje/">Alexander Refsum Jensenius</a><br>
-  University of Oslo<br>
-  Director
+  Universitetet i Oslo<br>
+  Direktor
   </div>
 </div>
 
@@ -24,8 +24,8 @@ The Management group handles the day-to-day coordination and administration of M
   <a href="https://www.uia.no/kk/profil/danieln"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Daniel_Nordgaard_UiA.jpg" alt="Daniel Nordgard"></a>
   <div>
   <a href="https://www.uia.no/kk/profil/danieln">Daniel Nordgard</a><br>
-  University of Agder<br>
-  Deputy director
+  Universitetet i Agder<br>
+  Nestleder
   </div>
 </div>
 
@@ -33,8 +33,8 @@ The Management group handles the day-to-day coordination and administration of M
   <a href="https://www.inn.no/english/find-an-employee/ida-jahr.html"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/ida_jahr_INN.jpg" alt="Ida Jahr"></a>
   <div>
   <a href="https://www.inn.no/english/find-an-employee/ida-jahr.html">Ida Jahr</a><br>
-  Inland Norway University of Applied Sciences<br>
-  Deputy director
+  Hogskolen i Innlandet<br>
+  Nestleder
   </div>
 </div>
 
@@ -42,8 +42,8 @@ The Management group handles the day-to-day coordination and administration of M
   <a href="https://www4.uib.no/en/find-employees/thomas.de-ridder"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Thomas_de_Ridder_UiB.jpg" alt="Thomas de Ridder"></a>
   <div>
   <a href="https://www4.uib.no/en/find-employees/thomas.de-ridder">Thomas de Ridder</a><br>
-  University of Bergen<br>
-  Research advisor
+  Universitetet i Bergen<br>
+  Forskningsradgiver
   </div>
 </div>
 
@@ -51,18 +51,18 @@ The Management group handles the day-to-day coordination and administration of M
   <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/eskil_muan_saether_UiO.jpg" alt="Eskil Muan Saether"></a>
   <div>
   <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html">Eskil Muan Saether</a><br>
-  University of Oslo<br>
-  Administrative coordinator
+  Universitetet i Oslo<br>
+  Administrativ koordinator
   </div>
 </div>
 
 <!-- markdownlint-enable MD033 -->
 
-## Role
+## Rolle
 
-The Management group is responsible for:
+Ledelsen har ansvar for:
 
-- Operational coordination across all work packages
-- Administrative oversight
-- Budget management and resource allocation
-- Communication and dissemination of results
+- Operasjonell koordinering pa tvers av alle arbeidspakker
+- Administrativ oppfolging
+- Budsjettstyring og ressursallokering
+- Kommunikasjon og formidling av resultater

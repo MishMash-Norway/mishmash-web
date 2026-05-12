@@ -85,8 +85,6 @@ Styret har ansvar for:
 
 <!-- markdownlint-enable MD033 -->
 
-## Dokumenter
-
-### Styremøter
+## Styremøter
 
 {% include board_meetings.html %}

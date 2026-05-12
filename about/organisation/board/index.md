@@ -81,8 +81,6 @@ The Board is responsible for:
     </div>
 </div>
 
-## Documents
-
-### Board meetings
+## Board meetings
 
 {% include board_meetings.html %}
