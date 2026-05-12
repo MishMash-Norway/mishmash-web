@@ -15,7 +15,10 @@ layout: null
     {% unless item.draft %}
       {% if comma %},{% endif %}
       {% assign comma = true %}
-      {% assign search_title = item.meeting_title | default: item.title %}
+      {% assign search_title = item.meeting_title | default: item.title | default: item.name | default: item.slug %}
+      {% if item.type == "institution" and item.name %}
+        {% assign search_title = item.name %}
+      {% endif %}
       {% if item.url == '/' %}
         {% assign search_title = site.title %}
       {% endif %}
