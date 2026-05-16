@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Seed Funding #2"
+---
+
 We are announcing the second call for MishMash seed funding. The funding is intended for projects linked to one or more of MishMash's seven work packages, with a particular focus on encouraging and enabling collaboration within the network.
 
 Application deadline: 1 June 2026, 13:00. [Submission form](https://nettskjema.no/a/seed02).

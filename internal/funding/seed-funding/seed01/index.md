@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Seed Funding #1"
+---
+
 ## Call
 
 We are announcing the first call for MishMash seed funding, to support the development and exploration of artificial intelligence (AI) in creative processes and practices. The funding is intended for projects linked to one or more of MishMash’s seven work packages.
