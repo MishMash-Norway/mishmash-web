@@ -48,7 +48,7 @@
       <a href="{{ ev.url }}">
         <span class="event-thumb partner-event-icon">
           {% assign img_src = ev.og_image | default: icon_url %}
-          <img class="partner-event-thumb" src="{{ img_src }}" alt="{{ display_title }}" loading="lazy"
+          <img class="partner-event-thumb" src="{{ img_src }}" alt="{{ display_title | strip_html | escape_once }}" loading="lazy"
                onerror="if(this.src!=='{{ icon_url }}'){this.src='{{ icon_url }}'}else{this.src='{{ fallback_icon }}';this.onerror=null}">
         </span>
       </a>
@@ -71,11 +71,11 @@
           <time datetime="{{ start_date }}">{{ start_date | date: "%b %d, %Y" }}</time>
         {%- endif -%}
       {% endif %}
-      {% if ev.partner %} &mdash; {{ ev.partner }}{% endif %}
+      {% if ev.partner %} &mdash; {{ ev.partner | strip_html | escape_once }}{% endif %}
       <br />
-      {% if ev.url %}<a href="{{ ev.url }}">{{ display_title }}</a>{% else %}{{ display_title }}{% endif %}
+      {% if ev.url %}<a href="{{ ev.url }}">{{ display_title | strip_html | escape_once }}</a>{% else %}{{ display_title | strip_html | escape_once }}{% endif %}
       {% if display_desc %}
-        <p class="event-desc">{{ display_desc }}</p>
+        <p class="event-desc">{{ display_desc | strip_html | escape_once }}</p>
       {% endif %}
     </div>
   </div>
