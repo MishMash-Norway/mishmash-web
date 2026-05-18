@@ -1,5 +1,5 @@
 ---
-layout: internal
+layout: page
 title: MeshUp structure
 ---
 
