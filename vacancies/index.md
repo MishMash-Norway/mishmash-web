@@ -54,7 +54,7 @@ These positions generally require that the PhD dissertation has been submitted b
 
 | Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
-| NTNU | Scientific | [Postdoctoral Fellow on European AI in Creative and Cultural Industries](https://www.jobbnorge.no/en/available-jobs/job/300209/postdoctoral-fellow-on-european-ai-in-creative-and-cultural-industries) | 14 May 2026 |
+| NTNU | Scientific | [Postdoctoral Fellow on European AI in Creative and Cultural Industries](https://www.jobbnorge.no/en/available-jobs/job/300209/postdoctoral-fellow-on-european-ai-in-creative-and-cultural-industries) | ~~14 May 2026~~ |
 | SimulaMet | Scientific | [Machine Learning for CoCreativity in Remote Operations](https://www.simulamet.no/careers/job-openings/postdoctoral-research-fellowship-in-machine-learning-for-cocreativity-in-remote-operations) | ~~1 Apr 2026~~ |
 | University of Oslo | Scientific | Music and AI in the creative and cultural industries | ~~1 Mar 2026~~ |
 | University of Oslo | Scientific | AI for Music Analysis | ~~1 Mar 2026~~ |
