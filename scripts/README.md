@@ -57,3 +57,28 @@ Useful flags:
 - `--max-pages-per-partner 4` limits crawl depth per partner site.
 - `--max-partners 40` limits total partners scanned.
 - `--output _data/partner_events.yml` writes to a custom destination file.
+
+Combine image slices
+--------------------
+
+This script reads two images and creates one combined image where:
+
+- the left side comes from the first image
+- the right side comes from the second image
+
+Quick start:
+
+```bash
+python3 scripts/combine_image_slices.py first.png second.png combined.png
+```
+
+Optional flags:
+
+- `--left-ratio 0.5` keeps 50% of the first image width from the left edge.
+- `--right-ratio 0.5` keeps 50% of the second image width from the right edge.
+
+Example:
+
+```bash
+python3 scripts/combine_image_slices.py first.jpg second.jpg output.jpg --left-ratio 0.4 --right-ratio 0.6
+```
