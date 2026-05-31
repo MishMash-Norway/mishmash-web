@@ -5,6 +5,7 @@ end_date: 2026-04-08 17:00:00 +02:00 # Optional: Event end time
 location: Professorboligen, University of Oslo
 layout: event
 categories: [Conference, WP1]
+tags: [Computational Design]
 description: "Join our mini-hackathon exploring realtime sound interaction with RAVE models controlled by biosignals."
 image: "/assets/images/news/opening-2026-04-08/3D9A5887_1920px.jpg"
 slug: "hackathon2026"

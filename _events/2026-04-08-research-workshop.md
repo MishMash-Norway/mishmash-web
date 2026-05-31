@@ -5,6 +5,7 @@ end_date: 2026-04-08 12:00:00 +02:00 # Optional: Event end time
 location: Domus Bibliotheca, University of Oslo
 layout: event
 categories: [Conference]
+tags: [Writing]
 description: "Learn about research funding sources, grant writing, and leveraging the MishMash network in application processes. Led by Thomas de Ridder (UiB) with Research Council of Norway representatives."
 image: "/assets/images/news/opening-2026-04-08/5R0A7263_1000px.jpg"
 slug: "application-workshop2026"
