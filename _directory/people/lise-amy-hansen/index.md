@@ -4,15 +4,13 @@ slug: lise-amy-hansen
 name: Lise Amy Hansen
 title: Lise Amy Hansen
 position: Professor
-institution: oslo-school-of-architecture-and-design
-institutions:
-- oslo-national-academy-of-the-arts
-- oslo-school-of-architecture-and-design
+institution: ''
+institutions: []
 projects: []
 roles:
 - Council member
 urls:
-  website: https://www.aho.no/english/about/employees/lisehans/
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-1007-9221

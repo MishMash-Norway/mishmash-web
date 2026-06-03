@@ -5,15 +5,14 @@ name: Synne Tollerud Bull
 title: Synne Tollerud Bull
 position: Professor
 image: /assets/images/portraits/circle/Synne_Tollerud_Bull_Kristiania.png
-institution: kristiania-university-college
-institutions:
-- kristiania-university-college
+institution: ''
+institutions: []
 projects: []
 roles:
 - Council member
 - Work Package Leader Group member
 urls:
-  website: https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/
+  website: https://www.kristiania.no/om-kristiania/ansatte/school-of-arts-design-and-media/institutt-for-scenekunst-film-og-medier/synne-tollerud-bull/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-4248-5363

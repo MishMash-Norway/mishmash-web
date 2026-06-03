@@ -5,14 +5,13 @@ name: Carsten Griwodz
 title: Carsten Griwodz
 position: Professor
 image: /assets/images/portraits/circle/Carsten_Griwodz_UiO.png
-institution: university-of-oslo
-institutions:
-- university-of-oslo
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.mn.uio.no/ifi/english/people/aca/griff/index.html
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

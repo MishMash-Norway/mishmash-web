@@ -4,14 +4,13 @@ slug: sigurd-sandvold
 name: Sigurd Sandvold
 title: Sigurd Sandvold
 position: Dean
-institution: western-norway-university-of-applied-sciences
-institutions:
-- western-norway-university-of-applied-sciences
+institution: ''
+institutions: []
 projects: []
 roles:
 - Council member
 urls:
-  website: https://www.hvl.no/person/?user=Sigurd.Sandvold
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

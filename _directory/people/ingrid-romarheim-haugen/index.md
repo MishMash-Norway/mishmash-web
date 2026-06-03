@@ -5,14 +5,13 @@ name: Ingrid Romarheim Haugen
 title: Ingrid Romarheim Haugen
 position: Adviser
 image: /assets/images/portraits/circle/Ingrid_Romarheim_Haugen_NB.png
-institution: national-library-of-norway
-institutions:
-- national-library-of-norway
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.nb.no/ansatte/ingrid-romarheim-haugen/
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

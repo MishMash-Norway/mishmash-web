@@ -4,14 +4,13 @@ slug: charles-martin
 name: Charles Martin
 title: Charles Martin
 position: Guest
-institution: australian-national-university
-institutions:
-- australian-national-university
+institution: ''
+institutions: []
 projects: []
 roles:
 - Council member
 urls:
-  website: https://comp.anu.edu.au/people/charles-martin/
+  website: https://charlesmartin.com.au
   github: ''
   linkedin: ''
   orcid: ''

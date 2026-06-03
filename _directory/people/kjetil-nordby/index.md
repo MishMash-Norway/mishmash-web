@@ -5,14 +5,13 @@ name: Kjetil Nordby
 title: Kjetil Nordby
 position: Associate professor
 image: /assets/images/portraits/circle/Kjetil_Nordby_AHO.png
-institution: oslo-school-of-architecture-and-design
-institutions:
-- oslo-school-of-architecture-and-design
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.aho.no/english/about/employees/kjetiln/
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-9044-8938

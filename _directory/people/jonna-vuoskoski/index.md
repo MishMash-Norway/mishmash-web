@@ -5,14 +5,13 @@ name: Jonna Katariina Vuoskoski
 title: Jonna Katariina Vuoskoski
 position: Professor
 image: /assets/images/portraits/circle/Jonna_Vuoskoski_UiO.png
-institution: university-of-oslo
-institutions:
-- university-of-oslo
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
+  website: http://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
   github: ''
   linkedin: ''
   orcid: ''

@@ -4,14 +4,13 @@ slug: terje-colbjornsen
 name: Terje Colbjørnsen
 title: Terje Colbjørnsen
 position: Associate professor
-institution: bi-norwegian-business-school
-institutions:
-- bi-norwegian-business-school
+institution: ''
+institutions: []
 projects: []
 roles:
 - Council member
 urls:
-  website: https://www.bi.no/en/about-bi/employees/department-of-communication-and-culture/terje-colbjornsen/
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

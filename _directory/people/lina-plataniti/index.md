@@ -11,7 +11,7 @@ projects: []
 roles:
 - Council member
 urls:
-  website: https://norsus.no/en/ansatt/lina-plataniti/
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

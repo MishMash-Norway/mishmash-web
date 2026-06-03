@@ -5,14 +5,13 @@ name: Irina Eidsvold-Tøien
 title: Irina Eidsvold-Tøien
 position: Associate professor
 image: /assets/images/portraits/circle/Irina_Eidsvold_Toien_BI.png
-institution: bi-norwegian-business-school
-institutions:
-- bi-norwegian-business-school
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

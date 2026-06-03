@@ -31,8 +31,8 @@ def main() -> int:
 
     if not token:
         print("No NVA credentials found.")
-        print("Set NVA_CLIENT_ID + NVA_CLIENT_SECRET (recommended), or NVA_API_TOKEN.")
-        print("Optional: NVA_API_ENV=prod|test (default: prod)")
+        print("Set NVA_CLIENT_ID + NVA_CLIENT_SECRET, or place config/nva-credentials.prod.json")
+        print("Optional: NVA_API_ENV=prod|test (default: prod), NVA_CREDENTIALS_FILE")
         return 1
 
     env = nva_api_env()

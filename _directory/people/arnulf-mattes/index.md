@@ -5,14 +5,13 @@ name: Arnulf Christian Mattes
 title: Arnulf Christian Mattes
 position: Professor
 image: /assets/images/portraits/circle/Arnulf_Mattes_UiB.png
-institution: university-of-bergen
-institutions:
-- university-of-bergen
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-3538-7765

@@ -3,16 +3,15 @@ type: person
 slug: olivier-lartillot
 name: Olivier Lartillot
 title: Olivier Lartillot
-position: Post-doctoral research fellow
+position: Researcher
 image: /assets/images/portraits/circle/Olivier_Lartillot_UiO.png
-institution: university-of-oslo
-institutions:
-- university-of-oslo
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-6129-686X
@@ -25,44 +24,46 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Automated beat tracking of Norwegian Hardanger fiddle music
-  year: '2021'
-  source: Conference
-- title: Busca música dibujándo en el aire
-  year: '2018'
+- title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
+    og filmprodusenter nå?'
+  year: '2026'
   source: MediaInterview
-  url: https://www.metrolatam.com/hub/noticias/2018/05/28/busca-canciones-dibujandolas-aire.html
-- title: Finner musikk ved å bevege hånden
-  year: '2018'
-  source: MediaInterview
-  url: https://www.hf.uio.no/imv/forskning/aktuelt/aktuelle-saker/2018/finner-musikk-ved-a-bevege-handen.html
-- title: Mobilen finner musikk når du beveger hånden
-  year: '2018'
-  source: MediaInterview
-  url: https://forskning.no/2018/05/finner-musikk-ved-bevege-handen/produsert-og-finansiert-av/universitetet-i-oslo
-- title: Computational model of pitch detection, perceptive foundations, and application
-    to Norwegian fiddle music
-  year: '2018'
+  url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
+- title: Computational music analysis
+  year: '2025'
+  source: Lecture
+- title: Human Interaction assessment and Generative segmentation in Health & Music
+  year: '2025'
+  source: Lecture
+  url: https://www.youtube.com/watch?v=I4jaZIzX0wg
+- title: 'AcousMuScope: Users'' Guide'
+  year: '2025'
+  source: ReportResearch
+  url: https://www.uio.no/ritmo/english/projects/mirage/software/AcousMuScope/index.html
+- title: 'Towards Collaborative Analysis: Kaija Saariaho’s Io (1986–87)'
+  year: '2025'
+  source: Lecture
+- title: 'Contemporary Music Analysis and Auditory Memory: The Use of Computational
+    Tools as an Aid for Listening'
+  year: '2025'
   source: Conference
-  url: https://youtu.be/clz2Z390SFo?list=PLCCB25A1607650964
-- title: Sound analysis for gestural interactions with large music datasets
-  year: '2017'
+  url: https://fabricadesites.fcsh.unl.pt/ncmm/ncmm-2025-program/
+- title: 'MusiQAl: Music Question Answering through Audio-Video fusion'
+  year: '2025'
   source: Conference
-- title: 'L’ethnomusicologie computationnelle : Pour un renouveau de la discipline'
-  year: '2017'
-  source: Journal article
-- title: For a Copernican revolution in the understanding of universality of structural
-    analysis of music
-  year: '2013'
-  source: Book chapter
-- title: Cultural impact in listeners' structural understanding of a Tunisian traditional
-    modal improvisation, studied with the help of computational models
-  year: '2011'
-  source: Journal article
-  url: https://doi.org/10.1080/09298210903194071
-- title: Reflections towards a generative theory of musical parallelism
-  year: '2010'
-  source: Journal article
+  url: https://ismir2025.ismir.net/program-detailed-schedule
+- title: Computational Music Analysis Applied to Music Therapy Improvisation
+  year: '2025'
+  source: Conference
+  url: https://ifas.thws.de/fileadmin/user_upload/250917_HIGH-M_Symposium_Programme_updated.pdf
+- title: 'Computational Music Analysis: Toolbox and application to music psychology
+    & therapy'
+  year: '2025'
+  source: Conference
+- title: A Multimodal Dataset of Greek Folk Music
+  year: '2025'
+  source: Conference
+  url: https://dlfm.web.ox.ac.uk/2025-programme
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null

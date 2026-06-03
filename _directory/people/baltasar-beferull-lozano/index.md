@@ -5,14 +5,13 @@ name: Baltasar Beferull-Lozano
 title: Baltasar Beferull-Lozano
 position: Professor
 image: /assets/images/portraits/circle/Baltasar_Beferull_Simula.png
-institution: simula-metropolitan-center-for-digital-engineering
-institutions:
-- simula-metropolitan-center-for-digital-engineering
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.simula.no/people/baltasar
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

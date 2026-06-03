@@ -12,7 +12,7 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://nmh.no/en/contact-us/employees/sidsel-karlsen
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-3122-9302

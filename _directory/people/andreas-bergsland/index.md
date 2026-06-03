@@ -5,14 +5,13 @@ name: Andreas Bergsland
 title: Andreas Bergsland
 position: Professor
 image: /assets/images/portraits/circle/Andreas_Bergsland_NTNU.png
-institution: norwegian-university-of-science-and-technology
-institutions:
-- norwegian-university-of-science-and-technology
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.ntnu.edu/employees/andreas.bergsland
+  website: http://folk.ntnu.no/andbe/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-8517-447X

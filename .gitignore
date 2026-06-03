@@ -20,3 +20,8 @@ __pycache__/
 
 # Node modules
 node_modules/
+
+# Local API credentials (see config/README.md)
+config/nva-credentials.prod.json
+config/nva-credentials.test.json
+config/nva-credentials.json

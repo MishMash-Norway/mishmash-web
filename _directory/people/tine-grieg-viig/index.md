@@ -4,14 +4,13 @@ slug: tine-grieg-viig
 name: Tine Grieg Viig
 title: Tine Grieg Viig
 position: Associate professor
-institution: western-norway-university-of-applied-sciences
-institutions:
-- western-norway-university-of-applied-sciences
+institution: ''
+institutions: []
 projects: []
 roles:
 - Board Member
 urls:
-  website: https://www.hvl.no/person/?user=tine.viig
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

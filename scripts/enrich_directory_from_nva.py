@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import json
 import os
 import re
 from io import BytesIO
@@ -53,6 +54,8 @@ NVA_AUTH_HOSTS = {
 }
 
 _nva_request_headers: dict[str, str] = {}
+REPO_ROOT = Path(__file__).resolve().parents[1]
+NVA_CREDENTIALS_DIR = REPO_ROOT / "config"
 
 
 def split_frontmatter(text: str):
@@ -317,6 +320,27 @@ def request_nva_access_token(client_id: str, client_secret: str, env: str) -> st
     )
 
 
+def nva_credentials_file() -> Path | None:
+    override = os.environ.get("NVA_CREDENTIALS_FILE", "").strip()
+    if override:
+        return Path(override).expanduser()
+    path = NVA_CREDENTIALS_DIR / f"nva-credentials.{nva_api_env()}.json"
+    if path.exists():
+        return path
+    legacy = NVA_CREDENTIALS_DIR / "nva-credentials.json"
+    if legacy.exists():
+        return legacy
+    return None
+
+
+def load_nva_credentials_from_config() -> tuple[str, str]:
+    path = nva_credentials_file()
+    if not path or not path.exists():
+        return "", ""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return (str(data.get("clientId") or "").strip(), str(data.get("clientSecret") or "").strip())
+
+
 def resolve_nva_access_token() -> str:
     static = os.environ.get("NVA_API_TOKEN", "").strip()
     if static:
@@ -324,6 +348,8 @@ def resolve_nva_access_token() -> str:
 
     client_id = os.environ.get("NVA_CLIENT_ID", "").strip()
     client_secret = os.environ.get("NVA_CLIENT_SECRET", "").strip()
+    if not client_id or not client_secret:
+        client_id, client_secret = load_nva_credentials_from_config()
     if not client_id or not client_secret:
         return ""
 
@@ -851,13 +877,20 @@ def ordered_person(data: dict) -> dict:
     return ordered
 
 
-def apply_field(data: dict, key: str, value, changed: bool) -> bool:
-    if value in (None, "", [], {}):
+def apply_field(data: dict, key: str, value, changed: bool = False, *, allow_empty: bool = False) -> bool:
+    if not allow_empty and value in (None, "", [], {}):
         return changed
     if data.get(key) != value:
         data[key] = value
         return True
     return changed
+
+
+def synced_field_value(nva_bundle: dict, orcid_bundle: dict, key: str):
+    """When NVA data was fetched, use NVA only; otherwise ORCID fallback."""
+    if nva_bundle:
+        return nva_bundle.get(key)
+    return orcid_bundle.get(key)
 
 
 def enrich_person(
@@ -941,39 +974,39 @@ def enrich_person(
         return False, "skip: no profile data"
 
     changed = False
-    name = prefer(nva_bundle.get("name"), orcid_bundle.get("name"))
-    if name:
-        changed = apply_field(data, "name", name, changed) or changed
-        changed = apply_field(data, "title", name, changed) or changed
+    from_nva = bool(nva_bundle)
+    allow_empty = from_nva
 
-    position = prefer(nva_bundle.get("position"), orcid_bundle.get("position"))
-    changed = apply_field(data, "position", position, changed) or changed
+    position = synced_field_value(nva_bundle, orcid_bundle, "position")
+    changed = apply_field(data, "position", position, changed, allow_empty=allow_empty) or changed
 
-    institution = prefer(nva_bundle.get("institution"), orcid_bundle.get("institution"))
-    changed = apply_field(data, "institution", institution, changed) or changed
+    institution = synced_field_value(nva_bundle, orcid_bundle, "institution")
+    changed = apply_field(data, "institution", institution, changed, allow_empty=allow_empty) or changed
 
-    merged_institutions = sorted(
-        set((data.get("institutions") or []) + (nva_bundle.get("institutions") or []) + (orcid_bundle.get("institutions") or []))
-    )
-    if merged_institutions and data.get("institutions") != merged_institutions:
-        data["institutions"] = merged_institutions
-        changed = True
+    if from_nva:
+        institutions = list(nva_bundle.get("institutions") or [])
+    else:
+        institutions = sorted(
+            set((data.get("institutions") or []) + (orcid_bundle.get("institutions") or []))
+        )
+    changed = apply_field(data, "institutions", institutions, changed, allow_empty=allow_empty) or changed
 
-    tags = prefer(nva_bundle.get("tags"), orcid_bundle.get("tags")) or []
-    if tags:
-        changed = apply_field(data, "tags", tags, changed) or changed
-        changed = apply_field(data, "search_keywords", tags, changed) or changed
+    tags = synced_field_value(nva_bundle, orcid_bundle, "tags") or []
+    changed = apply_field(data, "tags", tags, changed, allow_empty=allow_empty) or changed
+    changed = apply_field(data, "search_keywords", tags, changed, allow_empty=allow_empty) or changed
 
-    summary = prefer(nva_bundle.get("summary"), orcid_bundle.get("summary"))
-    changed = apply_field(data, "summary", summary, changed) or changed
+    summary = synced_field_value(nva_bundle, orcid_bundle, "summary")
+    changed = apply_field(data, "summary", summary or None, changed, allow_empty=allow_empty) or changed
 
-    selected_works = prefer(nva_bundle.get("selected_works"), orcid_bundle.get("selected_works")) or []
-    if selected_works and data.get("selected_works") != selected_works:
-        data["selected_works"] = selected_works
-        changed = True
+    selected_works = synced_field_value(nva_bundle, orcid_bundle, "selected_works") or []
+    changed = apply_field(data, "selected_works", selected_works, changed, allow_empty=allow_empty) or changed
 
-    website = prefer(nva_bundle.get("website"), orcid_bundle.get("website"))
-    if website and not (urls.get("website") or "").strip():
+    website = synced_field_value(nva_bundle, orcid_bundle, "website") or ""
+    if from_nva:
+        if urls.get("website") != website:
+            urls["website"] = website
+            changed = True
+    elif website and urls.get("website") != website:
         urls["website"] = website
         changed = True
 
@@ -989,7 +1022,7 @@ def enrich_person(
             urls["orcid"] = canonical_orcid
             changed = True
 
-    image_url = prefer(nva_bundle.get("image_url"), orcid_bundle.get("image_url"))
+    image_url = synced_field_value(nva_bundle, orcid_bundle, "image_url") or ""
     if download_images and image_url:
         portrait_name = portrait_filename(data.get("name") or slug, institution or (data.get("institution") or ""))
         portrait_path = root / PORTRAITS_CIRCLE_DIR / portrait_name
@@ -1016,8 +1049,9 @@ def enrich_person(
 def main():
     parser = argparse.ArgumentParser(
         description=(
-            "Enrich directory people from NVA and ORCID (NVA preferred, ORCID fallback). "
-            "Updates affiliation, tags, bio, image, and recent publications."
+            "Enrich directory people from NVA and ORCID. "
+            "When urls.nva is set, NVA overwrites affiliation, tags, bio, publications, and website "
+            "(not name/title). ORCID is used only if NVA is missing."
         )
     )
     parser.add_argument("--root", default=".", help="Repository root")
@@ -1049,9 +1083,13 @@ def main():
 
     token = configure_nva_auth()
     if token:
-        print(f"NVA API: authenticated ({nva_api_env()}, {nva_api_base()})")
+        creds_file = nva_credentials_file()
+        source = "config file" if creds_file and creds_file.exists() and not os.environ.get("NVA_CLIENT_ID") else "environment"
+        print(f"NVA API: authenticated ({nva_api_env()}, {nva_api_base()}, {source})")
     else:
+        creds_hint = NVA_CREDENTIALS_DIR / f"nva-credentials.{nva_api_env()}.json"
         print("NVA API: unauthenticated (public read only; profile pictures may be unavailable)")
+        print(f"  Add credentials: {creds_hint} (see config/README.md)")
 
     slugs = set(args.slug or [])
     institution_lookup, slug_to_institution_name = build_institution_lookup(root)

@@ -5,14 +5,13 @@ name: Jon Marius Aareskjold-Drecker
 title: Jon Marius Aareskjold-Drecker
 position: Senior lecturer
 image: /assets/images/portraits/circle/Jon_Marius_Aareskjold-Drecker_UiT.png
-institution: arctic-university-of-norway
-institutions:
-- arctic-university-of-norway
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

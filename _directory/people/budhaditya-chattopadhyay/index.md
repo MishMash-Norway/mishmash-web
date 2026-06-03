@@ -5,14 +5,13 @@ name: Budhaditya Chattopadhyay
 title: Budhaditya Chattopadhyay
 position: Post-doctoral research fellow
 image: /assets/images/portraits/circle/Budhaditya_Chattopadhyay_UiB.png
-institution: university-of-bergen
-institutions:
-- university-of-bergen
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay
+  website: https://budhaditya.org
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-9489-2721

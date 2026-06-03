@@ -4,14 +4,13 @@ slug: andre-alexandersen-hauge
 name: André Alexandersen Hauge
 title: André Alexandersen Hauge
 position: Head of academic department
-institution: ostfold-university-college
-institutions:
-- ostfold-university-college
+institution: ''
+institutions: []
 projects: []
 roles:
 - Council member
 urls:
-  website: https://www.hiof.no/iio/itk/english/people/adm/andreh/index.html
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

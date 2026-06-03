@@ -5,14 +5,13 @@ name: Alexander Refsum Jensenius
 title: Alexander Refsum Jensenius
 position: Professor
 image: /assets/images/portraits/circle/Alexander_Refsum_Jensenius_UiO.png
-institution: university-of-oslo
-institutions:
-- university-of-oslo
+institution: ''
+institutions: []
 projects: []
 roles:
 - Director
 urls:
-  website: https://www.uio.no/ritmo/english/people/management/alexanje/
+  website: http://personer.uio.no/alexanje/
   github: https://github.com/alexarje
   linkedin: https://www.linkedin.com/in/alexarje/
   orcid: https://orcid.org/0000-0001-6171-8743

@@ -5,9 +5,8 @@ name: Kyrre Glette
 title: Kyrre Glette
 position: Professor
 image: /assets/images/portraits/circle/Kyrre_Glette_UiO.png
-institution: university-of-oslo
-institutions:
-- university-of-oslo
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member

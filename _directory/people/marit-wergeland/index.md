@@ -4,14 +4,13 @@ slug: marit-wergeland
 name: Marit Wergeland-Yates
 title: Marit Wergeland-Yates
 position: University lecturer
-institution: university-of-agder
-institutions:
-- university-of-agder
+institution: ''
+institutions: []
 projects: []
 roles:
 - Council member
 urls:
-  website: https://www.uia.no/english/about-uia/employees/maritwe/
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

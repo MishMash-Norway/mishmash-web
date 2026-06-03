@@ -11,7 +11,7 @@ projects: []
 roles:
 - Board Leader
 urls:
-  website: https://www.uia.no/english/about-uia/employees/sunnivaw/
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

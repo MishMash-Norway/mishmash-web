@@ -5,14 +5,13 @@ name: Georgios Marentakis
 title: Georgios Marentakis
 position: Associate professor
 image: /assets/images/portraits/circle/Georgios_Marentakis_HiOF.png
-institution: ostfold-university-college
-institutions:
-- ostfold-university-college
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-6563-9601

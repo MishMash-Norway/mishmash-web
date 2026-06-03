@@ -5,14 +5,13 @@ name: Claire Ghetti
 title: Claire Ghetti
 position: Professor
 image: /assets/images/portraits/circle/Claire_Ghetti_UiB.png
-institution: university-of-bergen
-institutions:
-- university-of-bergen
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www4.uib.no/en/find-employees/claire.ghetti
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-3892-4706

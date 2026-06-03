@@ -5,14 +5,13 @@ name: Eirik Sørbø
 title: Eirik Sørbø
 position: Associate professor
 image: /assets/images/portraits/circle/eirik_sorbo_UiA.png
-institution: university-of-agder
-institutions:
-- university-of-agder
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.uia.no/english/about-uia/employees/eiriks05/
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-3049-4422

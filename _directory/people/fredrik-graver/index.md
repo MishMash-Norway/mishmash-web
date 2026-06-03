@@ -5,14 +5,13 @@ name: Fredrik (Georg Fredrik) Graver
 title: Fredrik (Georg Fredrik) Graver
 position: Professor
 image: /assets/images/portraits/circle/Fredrik_Graver_INN.png
-institution: inland-norway-university-of-applied-sciences
-institutions:
-- inland-norway-university-of-applied-sciences
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.inn.no/english/find-an-employee/fredrik-graver.html
+  website: https://filmschoolteacher.info/fredsnotes/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-3061-1622

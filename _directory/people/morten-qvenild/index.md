@@ -5,14 +5,13 @@ name: Morten Qvenild
 title: Morten Qvenild
 position: Pro-rector
 image: /assets/images/portraits/circle/Morten_Qvenild_NMH.png
-institution: norwegian-academy-of-music
-institutions:
-- norwegian-academy-of-music
+institution: ''
+institutions: []
 projects: []
 roles:
 - Council member
 urls:
-  website: https://nmh.no/en/contact-us/employees/morten-qvenild
+  website: https://www.mortyq.com
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0004-7284-391X

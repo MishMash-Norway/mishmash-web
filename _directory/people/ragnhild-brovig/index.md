@@ -5,14 +5,13 @@ name: Ragnhild Brøvig
 title: Ragnhild Brøvig
 position: Professor
 image: /assets/images/portraits/circle/Ragnhild_Brovig_UiO.png
-institution: university-of-oslo
-institutions:
-- university-of-oslo
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-2955-2656

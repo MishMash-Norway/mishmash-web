@@ -4,14 +4,13 @@ slug: ingrid-chieh-yu
 name: Ingrid Chieh Yu
 title: Ingrid Chieh Yu
 position: Professor
-institution: university-of-oslo
-institutions:
-- university-of-oslo
+institution: ''
+institutions: []
 projects: []
 roles:
 - Council member
 urls:
-  website: https://www.mn.uio.no/ifi/english/people/aca/ingridcy/
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

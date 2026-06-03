@@ -5,14 +5,13 @@ name: Ivar Grydeland
 title: Ivar Grydeland
 position: Associate professor
 image: /assets/images/portraits/circle/Ivar_Grydeland_NMH.png
-institution: norwegian-academy-of-music
-institutions:
-- norwegian-academy-of-music
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://nmh.no/kontakt-oss/ansatte/ivar-grydeland
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0007-3445-7294

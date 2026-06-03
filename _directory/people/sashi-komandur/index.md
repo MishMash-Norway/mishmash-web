@@ -4,14 +4,13 @@ slug: sashi-komandur
 name: Sashidharan Komandur
 title: Sashidharan Komandur
 position: Associate professor
-institution: inland-norway-university-of-applied-sciences
-institutions:
-- inland-norway-university-of-applied-sciences
+institution: ''
+institutions: []
 projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://www.inn.no/english/find-an-employee/sashi-komandur.html
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

@@ -1,18 +1,16 @@
 ---
 type: person
 slug: hege-stensrud-hosoien
-permalink: /directory/people/hege-stensrud-hosoien/
 name: Hege Stensrud Høsøien
 title: Hege Stensrud Høsøien
 position: Academic assistant
-institution: national-library-of-norway
-institutions:
-- national-library-of-norway
+institution: ''
+institutions: []
 projects: []
 roles:
 - Board Member
 urls:
-  website: https://www.nb.no/ansatte/hege-stensrud-hosoien/
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -24,9 +22,10 @@ urls:
 aliases: []
 tags: []
 search_keywords: []
+selected_works: []
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
 summary: null
+permalink: /directory/people/hege-stensrud-hosoien/
 ---
-
 

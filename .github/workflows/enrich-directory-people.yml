@@ -25,7 +25,9 @@ jobs:
 
       - name: Enrich people directory
         env:
-          NVA_API_TOKEN: ${{ secrets.NVA_API_TOKEN }}
+          NVA_API_ENV: prod
+          NVA_CLIENT_ID: ${{ secrets.NVA_CLIENT_ID }}
+          NVA_CLIENT_SECRET: ${{ secrets.NVA_CLIENT_SECRET }}
         run: |
           python3 scripts/enrich_directory_from_nva.py \
             --discover-nva \

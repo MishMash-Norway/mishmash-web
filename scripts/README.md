@@ -61,7 +61,7 @@ Useful flags:
 Update directory people from NVA and ORCID
 ------------------------------------------
 
-This script refreshes `_directory/people/*/index.md` from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/). NVA data is preferred; ORCID is used as fallback when NVA data is missing.
+This script refreshes `_directory/people/*/index.md` from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/). When a person has `urls.nva`, **NVA overwrites** synced fields (affiliation, tags, bio, publications, website, portrait). `name` and `title` are never changed. ORCID is used only when no NVA profile is available. MishMash fields (`roles`, `projects`, `source_mentions`, etc.) are left unchanged.
 
 Updated fields:
 
@@ -87,24 +87,33 @@ Suggested form values for MishMash:
 | Bruksområde | MishMash-nettsider (directory people profiles) |
 | Tilgang | **Prod** for the live site; **Test** optional for local experiments |
 
-After you receive credentials:
+After you receive credentials from Sikt (JSON files with `clientId` and `clientSecret`):
 
-1. **Local shell** (add to `~/.bashrc` or a git-ignored `.env` file — never commit secrets):
+1. **Local config folder** (recommended, gitignored):
 
 ```bash
-export NVA_API_ENV=prod          # or test
+cp /path/to/uio-web-credentials\ 1.json config/nva-credentials.prod.json
+cp /path/to/uio-web-credentials.json config/nva-credentials.test.json
+```
+
+See `config/README.md`. The SMS password is not the OAuth client secret.
+
+2. **Or environment variables** (never commit):
+
+```bash
+export NVA_API_ENV=prod
 export NVA_CLIENT_ID='…'
 export NVA_CLIENT_SECRET='…'
 ```
 
-2. **Verify**:
+3. **Verify**:
 
 ```bash
 pip install -r scripts/requirements.txt
 python3 scripts/test_nva_api_auth.py
 ```
 
-3. **GitHub Actions** — in the MishMash repo go to **Settings → Secrets and variables → Actions → New repository secret**:
+4. **GitHub Actions** — in the MishMash repo go to **Settings → Secrets and variables → Actions → New repository secret**:
 
 | Secret | Value |
 | --- | --- |
