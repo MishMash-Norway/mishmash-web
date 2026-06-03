@@ -4,8 +4,18 @@ slug: govert-valkenburg
 name: Govert Valkenburg
 title: Govert Valkenburg
 position: Researcher
-institution: ''
-institutions: []
+department: Department of Interdisciplinary Studies of Culture
+institution: norwegian-university-of-science-and-technology
+institutions:
+- norwegian-university-of-science-and-technology
+affiliation_units: []
+nva_affiliations:
+- active: true
+  role: Researcher
+  unit: Department of Interdisciplinary Studies of Culture
+  institution: norwegian-university-of-science-and-technology
+  institutions:
+  - norwegian-university-of-science-and-technology
 projects: []
 roles:
 - Council member
@@ -20,7 +30,7 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: &id001
+tags:
 - Political theory
 - Politics of knowledge
 - Innovation studies
@@ -30,7 +40,16 @@ tags: &id001
 - Responsible Research and Innovation
 - Surveillance and privacy studies
 - Energy
-search_keywords: *id001
+search_keywords:
+- Political theory
+- Politics of knowledge
+- Innovation studies
+- Human biotechnologies
+- Personvern økende teknologi
+- Battery technology
+- Responsible Research and Innovation
+- Surveillance and privacy studies
+- Energy
 selected_works:
 - title: Participation in Urban Regeneration Programmes
   year: '2025'

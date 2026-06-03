@@ -4,9 +4,54 @@ slug: synne-tollerud-bull
 name: Synne Tollerud Bull
 title: Synne Tollerud Bull
 position: Professor
+department: Westerdals Department of Film and Media
 image: /assets/images/portraits/circle/Synne_Tollerud_Bull_Kristiania.png
 institution: ''
-institutions: []
+institutions:
+- oslo-national-academy-of-the-arts
+- university-of-oslo
+affiliation_units:
+- Kristiania University of Applied Sciences
+- School of Arts, Design, and Media
+- Westerdals Department of Film and Media
+nva_affiliations:
+- active: false
+  role: Research fellow
+  unit: Department of Media and Communication
+  units:
+  - University of Oslo
+  - Faculty of Humanities
+  - Department of Media and Communication
+  institution: university-of-oslo
+  institutions:
+  - university-of-oslo
+- active: false
+  role: University lecturer
+  unit: Department of Art, Design and Drama
+  units:
+  - OsloMet - Oslo Metropolitan University
+  - Faculty of Technology, Art and Design
+  - Department of Art, Design and Drama
+  institution: ''
+  institutions: []
+- active: false
+  role: Associate professor
+  unit: The Academy of Fine Art
+  units:
+  - Oslo National Academy of the Arts
+  - The Academy of Fine Art
+  institution: oslo-national-academy-of-the-arts
+  institutions:
+  - oslo-national-academy-of-the-arts
+- active: true
+  role: Professor
+  unit: Westerdals Department of Film and Media
+  units:
+  - Kristiania University of Applied Sciences
+  - School of Arts, Design, and Media
+  - Westerdals Department of Film and Media
+  institution: ''
+  institutions: []
 projects: []
 roles:
 - Council member

@@ -4,9 +4,32 @@ slug: lina-plataniti
 name: Kalliopi Plataniti
 title: Kalliopi Plataniti
 position: Researcher
+department: 'NORSUS: Norwegian Institute for Sustainability Research'
 institution: norsus-norwegian-institute-for-sustainability-research
 institutions:
 - norsus-norwegian-institute-for-sustainability-research
+- university-of-oslo
+affiliation_units:
+- 'NORSUS: Norwegian Institute for Sustainability Research'
+nva_affiliations:
+- active: false
+  role: Guest
+  unit: OUS IKT - research services
+  units:
+  - University of Oslo
+  - Faculty of Medicine
+  - OUS IKT - research services
+  institution: university-of-oslo
+  institutions:
+  - university-of-oslo
+- active: true
+  role: Researcher
+  unit: 'NORSUS: Norwegian Institute for Sustainability Research'
+  units:
+  - 'NORSUS: Norwegian Institute for Sustainability Research'
+  institution: norsus-norwegian-institute-for-sustainability-research
+  institutions:
+  - norsus-norwegian-institute-for-sustainability-research
 projects: []
 roles:
 - Council member

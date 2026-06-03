@@ -4,9 +4,60 @@ slug: jon-marius-aareskjold-drecker
 name: Jon Marius Aareskjold-Drecker
 title: Jon Marius Aareskjold-Drecker
 position: Senior lecturer
+department: IMV stab
 image: /assets/images/portraits/circle/Jon_Marius_Aareskjold-Drecker_UiT.png
-institution: ''
-institutions: []
+institution: university-of-oslo
+institutions:
+- arctic-university-of-norway
+- norwegian-university-of-science-and-technology
+- university-of-agder
+- university-of-oslo
+affiliation_units:
+- University of Oslo
+- Faculty of Humanities
+- Department of Musicology
+- IMV stab
+nva_affiliations:
+- active: true
+  role: Senior lecturer
+  unit: IMV stab
+  units:
+  - University of Oslo
+  - Faculty of Humanities
+  - Department of Musicology
+  - IMV stab
+  institution: university-of-oslo
+  institutions:
+  - university-of-oslo
+- active: true
+  role: Associate professor
+  unit: Academy of Music
+  units:
+  - UiT The Arctic University of Norway
+  - Universitetet i Tromsø - Norges arktiske universitet
+  - The Arctic University Museum of Norway and Academy of Fine Arts
+  - Academy of Music
+  institution: arctic-university-of-norway
+  institutions:
+  - arctic-university-of-norway
+- active: false
+  role: Guest
+  unit: Norwegian University of Science and Technology
+  units:
+  - Norwegian University of Science and Technology
+  institution: norwegian-university-of-science-and-technology
+  institutions:
+  - norwegian-university-of-science-and-technology
+- active: true
+  role: Associate professor
+  unit: Department of Popular Music
+  units:
+  - University of Agder
+  - Faculty of Fine Arts
+  - Department of Popular Music
+  institution: university-of-agder
+  institutions:
+  - university-of-agder
 projects: []
 roles:
 - Work Package Leader Group member

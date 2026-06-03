@@ -4,9 +4,47 @@ slug: kyrre-glette
 name: Kyrre Glette
 title: Kyrre Glette
 position: Professor
+department: Research Group for Robotics and Intelligent Systems
 image: /assets/images/portraits/circle/Kyrre_Glette_UiO.png
-institution: ''
-institutions: []
+institution: university-of-oslo
+institutions:
+- university-of-oslo
+affiliation_units:
+- University of Oslo
+- Faculty of Mathematics and Natural Sciences
+- Department for Informatics
+- Machine Learning
+- Research Group for Robotics and Intelligent Systems
+nva_affiliations:
+- active: true
+  role: Professor
+  unit: Research Group for Robotics and Intelligent Systems
+  units:
+  - University of Oslo
+  - Faculty of Mathematics and Natural Sciences
+  - Department for Informatics
+  - Machine Learning
+  - Research Group for Robotics and Intelligent Systems
+  institution: university-of-oslo
+  institutions:
+  - university-of-oslo
+- active: false
+  role: ''
+  unit: The Intervention Centre
+  units:
+  - Oslo University Hospital
+  - Div of Technology and Innovation
+  - The Intervention Centre
+  institution: ''
+  institutions: []
+- active: false
+  role: Researcher
+  unit: Defence Systems
+  units:
+  - Norwegian Defence Research Establishment
+  - Defence Systems
+  institution: ''
+  institutions: []
 projects: []
 roles:
 - Work Package Leader Group member

@@ -4,8 +4,18 @@ slug: charles-martin
 name: Charles Martin
 title: Charles Martin
 position: Guest
-institution: ''
-institutions: []
+department: Research Group for Robotics and Intelligent Systems
+institution: university-of-oslo
+institutions:
+- university-of-oslo
+affiliation_units: []
+nva_affiliations:
+- active: false
+  role: Guest
+  unit: Research Group for Robotics and Intelligent Systems
+  institution: university-of-oslo
+  institutions:
+  - university-of-oslo
 projects: []
 roles:
 - Council member

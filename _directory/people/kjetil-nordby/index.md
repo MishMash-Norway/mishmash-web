@@ -4,9 +4,33 @@ slug: kjetil-nordby
 name: Kjetil Nordby
 title: Kjetil Nordby
 position: Associate professor
+department: Institute of Design
 image: /assets/images/portraits/circle/Kjetil_Nordby_AHO.png
-institution: ''
-institutions: []
+institution: oslo-school-of-architecture-and-design
+institutions:
+- oslo-school-of-architecture-and-design
+affiliation_units:
+- The Oslo School of Architecture and Design
+- Institute of Design
+nva_affiliations:
+- active: false
+  role: Research fellow
+  unit: Institute of Design
+  units:
+  - The Oslo School of Architecture and Design
+  - Institute of Design
+  institution: oslo-school-of-architecture-and-design
+  institutions:
+  - oslo-school-of-architecture-and-design
+- active: true
+  role: Associate professor
+  unit: Institute of Design
+  units:
+  - The Oslo School of Architecture and Design
+  - Institute of Design
+  institution: oslo-school-of-architecture-and-design
+  institutions:
+  - oslo-school-of-architecture-and-design
 projects: []
 roles:
 - Work Package Leader Group member

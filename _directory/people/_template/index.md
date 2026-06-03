@@ -5,8 +5,11 @@ slug: person-slug
 name: Full Name
 title: Full Name
 position:
+department:
 institution:
 institutions: []
+affiliation_units: []
+nva_affiliations: []
 projects: []
 roles: []
 urls:

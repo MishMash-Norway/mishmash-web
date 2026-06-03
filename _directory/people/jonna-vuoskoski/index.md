@@ -4,9 +4,19 @@ slug: jonna-vuoskoski
 name: Jonna Katariina Vuoskoski
 title: Jonna Katariina Vuoskoski
 position: Professor
+department: IMV stab
 image: /assets/images/portraits/circle/Jonna_Vuoskoski_UiO.png
-institution: ''
-institutions: []
+institution: university-of-oslo
+institutions:
+- university-of-oslo
+affiliation_units: []
+nva_affiliations:
+- active: true
+  role: Professor
+  unit: IMV stab
+  institution: university-of-oslo
+  institutions:
+  - university-of-oslo
 projects: []
 roles:
 - Work Package Leader Group member

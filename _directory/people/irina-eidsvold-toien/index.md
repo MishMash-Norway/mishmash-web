@@ -4,9 +4,46 @@ slug: irina-eidsvold-toien
 name: Irina Eidsvold-Tøien
 title: Irina Eidsvold-Tøien
 position: Associate professor
+department: Department of Law and Governance
 image: /assets/images/portraits/circle/Irina_Eidsvold_Toien_BI.png
-institution: ''
-institutions: []
+institution: bi-norwegian-business-school
+institutions:
+- arctic-university-of-norway
+- bi-norwegian-business-school
+- university-of-oslo
+affiliation_units:
+- BI Norwegian Business School
+- Department of Law and Governance
+nva_affiliations:
+- active: true
+  role: Associate professor
+  unit: Department of Law and Governance
+  units:
+  - BI Norwegian Business School
+  - Department of Law and Governance
+  institution: bi-norwegian-business-school
+  institutions:
+  - bi-norwegian-business-school
+- active: false
+  role: Guest
+  unit: Faculty of Law
+  units:
+  - University of Oslo
+  - Faculty of Law
+  institution: university-of-oslo
+  institutions:
+  - university-of-oslo
+- active: false
+  role: University lecturer
+  unit: Utdanning Jurfak
+  units:
+  - UiT The Arctic University of Norway
+  - Universitetet i Tromsø - Norges arktiske universitet
+  - Faculty of Law
+  - Utdanning Jurfak
+  institution: arctic-university-of-norway
+  institutions:
+  - arctic-university-of-norway
 projects: []
 roles:
 - Work Package Leader Group member

@@ -4,9 +4,44 @@ slug: claire-ghetti
 name: Claire Ghetti
 title: Claire Ghetti
 position: Professor
+department: The Grieg Academy &#8211; Department of Music
 image: /assets/images/portraits/circle/Claire_Ghetti_UiB.png
-institution: ''
-institutions: []
+institution: university-of-bergen
+institutions:
+- university-of-bergen
+affiliation_units:
+- University of Bergen
+- Faculty of Fine Art, Music and Design
+- The Grieg Academy &#8211; Department of Music
+nva_affiliations:
+- active: true
+  role: Professor
+  unit: The Grieg Academy &#8211; Department of Music
+  units:
+  - University of Bergen
+  - Faculty of Fine Art, Music and Design
+  - The Grieg Academy &#8211; Department of Music
+  institution: university-of-bergen
+  institutions:
+  - university-of-bergen
+- active: false
+  role: ''
+  unit: NORCE Health & Social Sciences - GAMUT
+  units:
+  - NORCE Research AS
+  - NORCE Health & Social Sciences
+  - NORCE Health & Social Sciences - GAMUT
+  institution: ''
+  institutions: []
+- active: false
+  role: ''
+  unit: NORCE Health & Social Sciences - GAMUT
+  units:
+  - NORCE Research AS
+  - NORCE Health & Social Sciences
+  - NORCE Health & Social Sciences - GAMUT
+  institution: ''
+  institutions: []
 projects: []
 roles:
 - Work Package Leader Group member

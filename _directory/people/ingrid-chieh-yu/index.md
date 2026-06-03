@@ -4,8 +4,18 @@ slug: ingrid-chieh-yu
 name: Ingrid Chieh Yu
 title: Ingrid Chieh Yu
 position: Professor
-institution: ''
-institutions: []
+department: Data and Knowledge Management
+institution: university-of-oslo
+institutions:
+- university-of-oslo
+affiliation_units: []
+nva_affiliations:
+- active: true
+  role: Professor
+  unit: Data and Knowledge Management
+  institution: university-of-oslo
+  institutions:
+  - university-of-oslo
 projects: []
 roles:
 - Council member

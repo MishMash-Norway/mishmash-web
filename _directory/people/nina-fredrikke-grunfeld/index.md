@@ -4,8 +4,45 @@ slug: nina-fredrikke-grunfeld
 name: Nina Fredrikke Grünfeld
 title: Nina Fredrikke Grünfeld
 position: Professor
-institution: ''
-institutions: []
+department: The TV School - Department of Television Education
+institution: inland-norway-university-of-applied-sciences
+institutions:
+- inland-norway-university-of-applied-sciences
+affiliation_units:
+- University of Inland Norway
+- Faculty of Film, TV and Games
+- The TV School - Department of Television Education
+nva_affiliations:
+- active: false
+  role: University college lecturer
+  unit: The TV School - Department of Television Education
+  units:
+  - University of Inland Norway
+  - Faculty of Film, TV and Games
+  - The TV School - Department of Television Education
+  institution: inland-norway-university-of-applied-sciences
+  institutions:
+  - inland-norway-university-of-applied-sciences
+- active: false
+  role: Associate professor
+  unit: The TV School - Department of Television Education
+  units:
+  - University of Inland Norway
+  - Faculty of Film, TV and Games
+  - The TV School - Department of Television Education
+  institution: inland-norway-university-of-applied-sciences
+  institutions:
+  - inland-norway-university-of-applied-sciences
+- active: true
+  role: Professor
+  unit: The TV School - Department of Television Education
+  units:
+  - University of Inland Norway
+  - Faculty of Film, TV and Games
+  - The TV School - Department of Television Education
+  institution: inland-norway-university-of-applied-sciences
+  institutions:
+  - inland-norway-university-of-applied-sciences
 projects: []
 roles:
 - Council member
@@ -20,13 +57,18 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: &id001
+tags:
 - Manuscripts
 - Directing for documantaries and television
 - Film and TV
 - Audio-visual production
 - Filmbransje
-search_keywords: *id001
+search_keywords:
+- Manuscripts
+- Directing for documantaries and television
+- Film and TV
+- Audio-visual production
+- Filmbransje
 selected_works:
 - title: 'HYBRID NARRATIVES: Approaching Maternal Experience through Collecting, Writing,
     and Doubling in the Development of Mixed Media Film'

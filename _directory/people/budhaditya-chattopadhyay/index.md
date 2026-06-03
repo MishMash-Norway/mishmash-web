@@ -4,9 +4,19 @@ slug: budhaditya-chattopadhyay
 name: Budhaditya Chattopadhyay
 title: Budhaditya Chattopadhyay
 position: Post-doctoral research fellow
+department: The Art Academy &#8211; Department of Contemporary Art
 image: /assets/images/portraits/circle/Budhaditya_Chattopadhyay_UiB.png
-institution: ''
-institutions: []
+institution: university-of-bergen
+institutions:
+- university-of-bergen
+affiliation_units: []
+nva_affiliations:
+- active: true
+  role: Post-doctoral research fellow
+  unit: The Art Academy &#8211; Department of Contemporary Art
+  institution: university-of-bergen
+  institutions:
+  - university-of-bergen
 projects: []
 roles:
 - Work Package Leader Group member
@@ -21,7 +31,7 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: &id001
+tags:
 - Sound analysis /synthesis
 - Sound Art
 - Multimedia
@@ -32,7 +42,17 @@ tags: &id001
 - Artistic research
 - Artificial intelligence
 - Film Studies
-search_keywords: *id001
+search_keywords:
+- Sound analysis /synthesis
+- Sound Art
+- Multimedia
+- Aesthetics
+- Sound/music installations
+- Media Studies
+- Film Sound
+- Artistic research
+- Artificial intelligence
+- Film Studies
 selected_works:
 - title: Atomspheres
   year: '2026'

@@ -4,10 +4,33 @@ slug: sidsel-karlsen
 name: Sidsel Karlsen
 title: Sidsel Karlsen
 position: Professor
+department: Norwegian Academy of Music
 image: /assets/images/portraits/circle/Sidsel_Karlsen_NMH.png
 institution: norwegian-academy-of-music
 institutions:
+- inland-norway-university-of-applied-sciences
 - norwegian-academy-of-music
+affiliation_units:
+- Norwegian Academy of Music
+nva_affiliations:
+- active: true
+  role: Professor
+  unit: Norwegian Academy of Music
+  units:
+  - Norwegian Academy of Music
+  institution: norwegian-academy-of-music
+  institutions:
+  - norwegian-academy-of-music
+- active: false
+  role: Professor
+  unit: Department of Art and Cultural Studies
+  units:
+  - University of Inland Norway
+  - Faculty of Education
+  - Department of Art and Cultural Studies
+  institution: inland-norway-university-of-applied-sciences
+  institutions:
+  - inland-norway-university-of-applied-sciences
 projects: []
 roles:
 - Work Package Leader Group member

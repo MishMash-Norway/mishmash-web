@@ -4,8 +4,18 @@ slug: marit-wergeland
 name: Marit Wergeland-Yates
 title: Marit Wergeland-Yates
 position: University lecturer
-institution: ''
-institutions: []
+department: Department of Visual Arts and Drama
+institution: university-of-agder
+institutions:
+- university-of-agder
+affiliation_units: []
+nva_affiliations:
+- active: true
+  role: University lecturer
+  unit: Department of Visual Arts and Drama
+  institution: university-of-agder
+  institutions:
+  - university-of-agder
 projects: []
 roles:
 - Council member

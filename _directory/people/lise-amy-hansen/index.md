@@ -4,8 +4,32 @@ slug: lise-amy-hansen
 name: Lise Amy Hansen
 title: Lise Amy Hansen
 position: Professor
-institution: ''
-institutions: []
+department: Institute of Design
+institution: oslo-school-of-architecture-and-design
+institutions:
+- oslo-school-of-architecture-and-design
+affiliation_units:
+- The Oslo School of Architecture and Design
+- Institute of Design
+nva_affiliations:
+- active: false
+  role: Research fellow
+  unit: Institute of Design
+  units:
+  - The Oslo School of Architecture and Design
+  - Institute of Design
+  institution: oslo-school-of-architecture-and-design
+  institutions:
+  - oslo-school-of-architecture-and-design
+- active: true
+  role: Professor
+  unit: Institute of Design
+  units:
+  - The Oslo School of Architecture and Design
+  - Institute of Design
+  institution: oslo-school-of-architecture-and-design
+  institutions:
+  - oslo-school-of-architecture-and-design
 projects: []
 roles:
 - Council member

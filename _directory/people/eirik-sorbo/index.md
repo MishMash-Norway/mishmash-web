@@ -4,9 +4,19 @@ slug: eirik-sorbo
 name: Eirik Sørbø
 title: Eirik Sørbø
 position: Associate professor
+department: Department of Popular Music
 image: /assets/images/portraits/circle/eirik_sorbo_UiA.png
-institution: ''
-institutions: []
+institution: university-of-agder
+institutions:
+- university-of-agder
+affiliation_units: []
+nva_affiliations:
+- active: true
+  role: Associate professor
+  unit: Department of Popular Music
+  institution: university-of-agder
+  institutions:
+  - university-of-agder
 projects: []
 roles:
 - Work Package Leader Group member

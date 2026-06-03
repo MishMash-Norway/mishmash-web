@@ -61,7 +61,7 @@ Useful flags:
 Update directory people from NVA and ORCID
 ------------------------------------------
 
-This script refreshes `_directory/people/*/index.md` from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/). When a person has `urls.nva`, **NVA overwrites** synced fields (affiliation, tags, bio, publications, website, portrait). `name` and `title` are never changed. ORCID is used only when no NVA profile is available. MishMash fields (`roles`, `projects`, `source_mentions`, etc.) are left unchanged.
+This script refreshes `_directory/people/*/index.md` from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/). When a person has `urls.nva`, **NVA overwrites** synced fields: affiliation (`institution`, `institutions`, `department`, `affiliation_units`, `nva_affiliations`), tags, bio, publications, website, and portrait. NVA sub-units (departments, centres) are resolved via the organization `partOf` chain. `name` and `title` are never changed.
 
 Updated fields:
 

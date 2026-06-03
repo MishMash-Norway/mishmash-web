@@ -4,8 +4,44 @@ slug: sashi-komandur
 name: Sashidharan Komandur
 title: Sashidharan Komandur
 position: Associate professor
-institution: ''
-institutions: []
+department: The Game School - Department of Game Development
+institution: inland-norway-university-of-applied-sciences
+institutions:
+- inland-norway-university-of-applied-sciences
+- norwegian-university-of-science-and-technology
+affiliation_units:
+- University of Inland Norway
+- Faculty of Film, TV and Games
+- The Game School - Department of Game Development
+nva_affiliations:
+- active: false
+  role: Guest
+  unit: Norwegian University of Science and Technology
+  units:
+  - Norwegian University of Science and Technology
+  institution: norwegian-university-of-science-and-technology
+  institutions:
+  - norwegian-university-of-science-and-technology
+- active: false
+  role: Senior adviser
+  unit: The Game School - Department of Game Development
+  units:
+  - University of Inland Norway
+  - Faculty of Film, TV and Games
+  - The Game School - Department of Game Development
+  institution: inland-norway-university-of-applied-sciences
+  institutions:
+  - inland-norway-university-of-applied-sciences
+- active: true
+  role: Associate professor
+  unit: The Game School - Department of Game Development
+  units:
+  - University of Inland Norway
+  - Faculty of Film, TV and Games
+  - The Game School - Department of Game Development
+  institution: inland-norway-university-of-applied-sciences
+  institutions:
+  - inland-norway-university-of-applied-sciences
 projects: []
 roles:
 - Work Package Leader Group member

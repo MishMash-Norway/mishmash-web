@@ -4,9 +4,20 @@ slug: olivier-lartillot
 name: Olivier Lartillot
 title: Olivier Lartillot
 position: Researcher
+department: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  (IMV)
 image: /assets/images/portraits/circle/Olivier_Lartillot_UiO.png
-institution: ''
-institutions: []
+institution: university-of-oslo
+institutions:
+- university-of-oslo
+affiliation_units: []
+nva_affiliations:
+- active: true
+  role: Researcher
+  unit: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion (IMV)
+  institution: university-of-oslo
+  institutions:
+  - university-of-oslo
 projects: []
 roles:
 - Work Package Leader Group member

@@ -11,6 +11,11 @@ import yaml
 from PIL import Image, ImageDraw
 
 
+class NoAliasDumper(yaml.SafeDumper):
+    def ignore_aliases(self, data):
+        return True
+
+
 PERSON_PROFILE_RE = re.compile(r"/research-profile/(\d+)")
 CRISTIN_RE = re.compile(r"/cristin/person/(\d+)")
 ORCID_PROFILE_RE = re.compile(r"orcid\.org/((?:\d{4}-){3}[\dX]{4})", re.IGNORECASE)
@@ -551,21 +556,29 @@ def fetch_nva_bundle(
     max_works: int,
 ) -> dict:
     profile = get_json(nva_api_url(f"/cristin/person/{profile_id}"))
-    affiliation = pick_active_affiliation(profile.get("affiliations") or [])
-    role_labels = ((affiliation.get("role") or {}).get("labels") or {})
-    position = role_labels.get("en") or role_labels.get("nb") or ""
-    org_name = fetch_org_name((affiliation.get("organization") or "").strip(), org_cache)
-    org_slug = institution_lookup.get(slugify(org_name), "") if org_name else ""
+    nva_affiliations = parse_nva_affiliations(profile, org_cache, institution_lookup)
+    for aff in nva_affiliations:
+        aff["institutions"] = list(aff.get("institutions") or [])
+        if len(nva_affiliations) > 1:
+            aff["units"] = list(aff.get("units") or [])
+        else:
+            aff.pop("units", None)
+    primary = pick_primary_nva_affiliation(nva_affiliations)
 
-    affiliations = []
-    if org_slug:
-        affiliations.append(org_slug)
+    institution_slugs = []
+    for aff in nva_affiliations:
+        for slug in aff.get("institutions") or []:
+            if slug and slug not in institution_slugs:
+                institution_slugs.append(slug)
 
     return {
         "name": names_to_full_name(profile.get("names") or []),
-        "position": position,
-        "institution": org_slug,
-        "institutions": affiliations,
+        "position": primary.get("role") or "",
+        "department": primary.get("unit") or "",
+        "institution": primary.get("institution") or "",
+        "institutions": sorted(institution_slugs),
+        "affiliation_units": primary.get("units") or [],
+        "nva_affiliations": nva_affiliations,
         "tags": keyword_labels(profile.get("keywords") or [], max_keywords=max_tags),
         "summary": background_to_summary(profile.get("background")),
         "image_url": (profile.get("image") or "").strip(),
@@ -650,21 +663,139 @@ def pick_active_affiliation(affiliations: list[dict]) -> dict:
     return affiliations[0] if affiliations else {}
 
 
-def fetch_org_name(org_url: str, cache: dict) -> str:
+def fetch_org_data(org_url: str, cache: dict) -> dict:
     if not org_url:
-        return ""
-    if org_url in cache:
-        return cache[org_url]
+        return {}
+    cached = cache.get(org_url)
+    if isinstance(cached, dict):
+        return cached
     try:
         data = get_json(org_url)
     except Exception:
-        cache[org_url] = ""
-        return ""
+        cache[org_url] = {}
+        return {}
+    cache[org_url] = data if isinstance(data, dict) else {}
+    return cache[org_url]
 
+
+def fetch_org_name(org_url: str, cache: dict) -> str:
+    data = fetch_org_data(org_url, cache)
     labels = data.get("labels") or {}
-    name = labels.get("en") or labels.get("nb") or data.get("name") or ""
-    cache[org_url] = name
-    return name
+    return labels.get("en") or labels.get("nb") or data.get("name") or ""
+
+
+def iter_organization_nodes(org_data: dict):
+    if not org_data:
+        return
+    yield org_data
+    for parent in org_data.get("partOf") or []:
+        if isinstance(parent, dict):
+            yield from iter_organization_nodes(parent)
+
+
+def institution_slug_from_org_node(org_data: dict, institution_lookup: dict[str, str]) -> str:
+    labels = org_data.get("labels") or {}
+    for key in ("en", "nb"):
+        name = (labels.get(key) or "").strip()
+        slug = institution_lookup.get(slugify(name), "")
+        if slug:
+            return slug
+
+    acronym = (org_data.get("acronym") or "").strip().upper()
+    acronym_to_name = {
+        "UIO": "University of Oslo",
+        "NTNU": "Norwegian University of Science and Technology",
+        "UIB": "University of Bergen",
+        "UIT": "Arctic University of Norway",
+        "NMH": "Norwegian Academy of Music",
+        "AHO": "Oslo School of Architecture and Design",
+        "BI": "BI Norwegian Business School",
+        "HVL": "Western Norway University of Applied Sciences",
+        "HIOF": "Ostfold University College",
+        "INN": "Inland Norway University of Applied Sciences",
+        "KHIO": "Oslo National Academy of the Arts",
+        "NORSUS": "NORSUS - Norwegian Institute for Sustainability Research",
+    }
+    canonical = acronym_to_name.get(acronym, "")
+    if canonical:
+        return institution_lookup.get(slugify(canonical), "")
+    return ""
+
+
+def resolve_institution_slug(org_url: str, org_cache: dict, institution_lookup: dict[str, str]) -> str:
+    """Map NVA organization URL to a directory institution slug, walking parent orgs."""
+    org_data = fetch_org_data(org_url, org_cache)
+    for node in iter_organization_nodes(org_data):
+        slug = institution_slug_from_org_node(node, institution_lookup)
+        if slug:
+            return slug
+    return ""
+
+
+def organization_unit_chain_top_down(org_data: dict) -> list[str]:
+    """Organization path from top-level institution down to the affiliated unit."""
+    nodes = list(iter_organization_nodes(org_data))
+    names = []
+    seen = set()
+    for node in reversed(nodes):
+        labels = node.get("labels") or {}
+        name = (labels.get("en") or labels.get("nb") or "").strip()
+        key = name.lower()
+        if name and key not in seen:
+            seen.add(key)
+            names.append(name)
+    return names
+
+
+def institution_slugs_from_org(org_data: dict, institution_lookup: dict[str, str]) -> list[str]:
+    slugs = []
+    for node in iter_organization_nodes(org_data):
+        slug = institution_slug_from_org_node(node, institution_lookup)
+        if slug and slug not in slugs:
+            slugs.append(slug)
+    return slugs
+
+
+def parse_nva_affiliation(
+    affiliation: dict,
+    org_cache: dict,
+    institution_lookup: dict[str, str],
+) -> dict:
+    org_url = (affiliation.get("organization") or "").strip()
+    org_data = fetch_org_data(org_url, org_cache)
+    role_labels = ((affiliation.get("role") or {}).get("labels") or {})
+    role = role_labels.get("en") or role_labels.get("nb") or ""
+    units = organization_unit_chain_top_down(org_data)
+    unit = units[-1] if units else fetch_org_name(org_url, org_cache)
+    inst_slugs = institution_slugs_from_org(org_data, institution_lookup)
+
+    return {
+        "active": bool(affiliation.get("active")),
+        "role": role,
+        "unit": unit,
+        "units": units,
+        "institution": inst_slugs[0] if inst_slugs else "",
+        "institutions": inst_slugs,
+    }
+
+
+def parse_nva_affiliations(
+    profile: dict,
+    org_cache: dict,
+    institution_lookup: dict[str, str],
+) -> list[dict]:
+    return [
+        parse_nva_affiliation(aff, org_cache, institution_lookup)
+        for aff in profile.get("affiliations") or []
+        if (aff.get("organization") or "").strip()
+    ]
+
+
+def pick_primary_nva_affiliation(affiliations: list[dict]) -> dict:
+    for aff in affiliations:
+        if aff.get("active"):
+            return aff
+    return affiliations[0] if affiliations else {}
 
 
 def keyword_labels(keywords: list[dict], max_keywords: int) -> list[str]:
@@ -829,9 +960,12 @@ def ordered_person(data: dict) -> dict:
         "name",
         "title",
         "position",
+        "department",
         "image",
         "institution",
         "institutions",
+        "affiliation_units",
+        "nva_affiliations",
         "projects",
         "roles",
         "urls",
@@ -980,6 +1114,15 @@ def enrich_person(
     position = synced_field_value(nva_bundle, orcid_bundle, "position")
     changed = apply_field(data, "position", position, changed, allow_empty=allow_empty) or changed
 
+    department = synced_field_value(nva_bundle, orcid_bundle, "department")
+    changed = apply_field(data, "department", department, changed, allow_empty=allow_empty) or changed
+
+    affiliation_units = synced_field_value(nva_bundle, orcid_bundle, "affiliation_units") or []
+    changed = apply_field(data, "affiliation_units", affiliation_units, changed, allow_empty=allow_empty) or changed
+
+    nva_affiliations = synced_field_value(nva_bundle, orcid_bundle, "nva_affiliations") or []
+    changed = apply_field(data, "nva_affiliations", nva_affiliations, changed, allow_empty=allow_empty) or changed
+
     institution = synced_field_value(nva_bundle, orcid_bundle, "institution")
     changed = apply_field(data, "institution", institution, changed, allow_empty=allow_empty) or changed
 
@@ -1041,7 +1184,7 @@ def enrich_person(
         return True, "would update"
 
     ordered = ordered_person(data)
-    dumped = yaml.safe_dump(ordered, allow_unicode=True, sort_keys=False).strip()
+    dumped = yaml.dump(ordered, allow_unicode=True, sort_keys=False, Dumper=NoAliasDumper).strip()
     index_md.write_text(f"---\n{dumped}\n---\n\n{body.lstrip()}", encoding="utf-8")
     return True, "updated"
 

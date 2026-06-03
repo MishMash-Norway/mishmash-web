@@ -4,9 +4,49 @@ slug: sunniva-whittaker
 name: Sunniva Whittaker
 title: Sunniva Whittaker
 position: Rector
+department: University of Agder
 institution: university-of-agder
 institutions:
 - university-of-agder
+- university-of-bergen
+affiliation_units:
+- University of Agder
+nva_affiliations:
+- active: false
+  role: External
+  unit: Department of Foreign Languages
+  units:
+  - University of Bergen
+  - Faculty of Humanities
+  - Department of Foreign Languages
+  institution: university-of-bergen
+  institutions:
+  - university-of-bergen
+- active: false
+  role: Professor
+  unit: Department of Professional and Intercultural Communication
+  units:
+  - Norwegian School of Economics
+  - Department of Professional and Intercultural Communication
+  institution: ''
+  institutions: []
+- active: true
+  role: Rector
+  unit: University of Agder
+  units:
+  - University of Agder
+  institution: university-of-agder
+  institutions:
+  - university-of-agder
+- active: false
+  role: Professor
+  unit: Department of Cultural Studies and Languages
+  units:
+  - University of Stavanger
+  - Faculty of Arts and Education
+  - Department of Cultural Studies and Languages
+  institution: ''
+  institutions: []
 projects: []
 roles:
 - Board Leader

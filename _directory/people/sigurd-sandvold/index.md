@@ -4,8 +4,18 @@ slug: sigurd-sandvold
 name: Sigurd Sandvold
 title: Sigurd Sandvold
 position: Dean
-institution: ''
-institutions: []
+department: Faculty of Education, Arts and Sports
+institution: western-norway-university-of-applied-sciences
+institutions:
+- western-norway-university-of-applied-sciences
+affiliation_units: []
+nva_affiliations:
+- active: true
+  role: Dean
+  unit: Faculty of Education, Arts and Sports
+  institution: western-norway-university-of-applied-sciences
+  institutions:
+  - western-norway-university-of-applied-sciences
 projects: []
 roles:
 - Council member

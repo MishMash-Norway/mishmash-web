@@ -4,9 +4,37 @@ slug: ivar-grydeland
 name: Ivar Grydeland
 title: Ivar Grydeland
 position: Associate professor
+department: Fagseksjon for improvisert musikk, jazz og folkemusikk
 image: /assets/images/portraits/circle/Ivar_Grydeland_NMH.png
-institution: ''
-institutions: []
+institution: norwegian-academy-of-music
+institutions:
+- norwegian-academy-of-music
+- university-of-bergen
+affiliation_units:
+- Norwegian Academy of Music
+- Norges musikkhøgskole, Diverse fagseksjoner
+- Fagseksjon for improvisert musikk, jazz og folkemusikk
+nva_affiliations:
+- active: true
+  role: Associate professor
+  unit: Fagseksjon for improvisert musikk, jazz og folkemusikk
+  units:
+  - Norwegian Academy of Music
+  - Norges musikkhøgskole, Diverse fagseksjoner
+  - Fagseksjon for improvisert musikk, jazz og folkemusikk
+  institution: norwegian-academy-of-music
+  institutions:
+  - norwegian-academy-of-music
+- active: false
+  role: Associate professor ii
+  unit: Program for kunstnerisk utviklingsarbeid
+  units:
+  - University of Bergen
+  - Faculty of Fine Art, Music and Design
+  - Program for kunstnerisk utviklingsarbeid
+  institution: university-of-bergen
+  institutions:
+  - university-of-bergen
 projects: []
 roles:
 - Work Package Leader Group member

@@ -4,8 +4,18 @@ slug: hege-stensrud-hosoien
 name: Hege Stensrud Høsøien
 title: Hege Stensrud Høsøien
 position: Academic assistant
-institution: ''
-institutions: []
+department: Henrik Ibsens Writings
+institution: university-of-oslo
+institutions:
+- university-of-oslo
+affiliation_units: []
+nva_affiliations:
+- active: false
+  role: Academic assistant
+  unit: Henrik Ibsens Writings
+  institution: university-of-oslo
+  institutions:
+  - university-of-oslo
 projects: []
 roles:
 - Board Member

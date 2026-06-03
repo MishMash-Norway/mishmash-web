@@ -16,15 +16,37 @@ layout: default
       <div class="person-profile-meta">
         <h1>{{ page.name }}</h1>
         {% if page.position and primary_institution_doc %}
-        <p class="person-position">{{ page.position }}, <a href="{{ primary_institution_doc.url | relative_url }}">{{ primary_institution_doc.name }}</a></p>
+        <p class="person-position">{{ page.position }}{% if page.department %}, {{ page.department }}{% endif %}, <a href="{{ primary_institution_doc.url | relative_url }}">{{ primary_institution_doc.name }}</a></p>
         {% elsif page.position and primary_institution_slug %}
-        <p class="person-position">{{ page.position }}, {{ primary_institution_slug }}</p>
+        <p class="person-position">{{ page.position }}{% if page.department %}, {{ page.department }}{% endif %}, {{ primary_institution_slug }}</p>
         {% elsif page.position %}
-        <p class="person-position">{{ page.position }}</p>
+        <p class="person-position">{{ page.position }}{% if page.department %}, {{ page.department }}{% endif %}</p>
         {% elsif primary_institution_doc %}
-        <p class="person-position"><a href="{{ primary_institution_doc.url | relative_url }}">{{ primary_institution_doc.name }}</a></p>
+        <p class="person-position">{% if page.department %}{{ page.department }}, {% endif %}<a href="{{ primary_institution_doc.url | relative_url }}">{{ primary_institution_doc.name }}</a></p>
         {% elsif primary_institution_slug %}
-        <p class="person-position">{{ primary_institution_slug }}</p>
+        <p class="person-position">{% if page.department %}{{ page.department }}, {% endif %}{{ primary_institution_slug }}</p>
+        {% endif %}
+        {% if page.affiliation_units and page.affiliation_units.size > 1 %}
+        <p class="person-affiliation-units">{{ page.affiliation_units | join: ' · ' }}</p>
+        {% endif %}
+        {% if page.nva_affiliations and page.nva_affiliations.size > 1 %}
+        <ul class="person-affiliations-list">
+          {% for affiliation in page.nva_affiliations %}
+          <li>
+            {% if affiliation.role %}{{ affiliation.role }}{% endif %}
+            {% if affiliation.units and affiliation.units.size > 0 %}
+              {% if affiliation.role %}, {% endif %}{{ affiliation.units | join: ' · ' }}
+            {% elsif affiliation.unit %}
+              {% if affiliation.role %}, {% endif %}{{ affiliation.unit }}
+            {% endif %}
+            {% if affiliation.institution %}
+              {% assign aff_inst = site.directory | where: "type", "institution" | where: "slug", affiliation.institution | first %}
+              {% if aff_inst %} — <a href="{{ aff_inst.url | relative_url }}">{{ aff_inst.name }}</a>{% endif %}
+            {% endif %}
+            {% unless affiliation.active %}<span>(inactive)</span>{% endunless %}
+          </li>
+          {% endfor %}
+        </ul>
         {% endif %}
         {% if mishmash_role %}
         <p class="person-mishmash-role">MishMash role: {{ mishmash_role }}</p>
