@@ -111,6 +111,13 @@
   margin-top: 1px;
 }
 
+#net-tip .tt-tags {
+  color: #555;
+  font-size: 10.5px;
+  line-height: 1.45;
+  margin-top: 5px;
+}
+
 #net-tip .tt-click {
   color: #aaa;
   font-size: 10px;
@@ -124,6 +131,18 @@
   gap: 8px;
   align-items: center;
   margin-bottom: 12px;
+}
+
+#net-tag-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.net-tag-label {
+  font-size: 13px;
 }
 
 .fbtn {

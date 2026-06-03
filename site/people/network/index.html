@@ -21,6 +21,8 @@ custom_css: /assets/css/people-network.css
       </label>
     </div>
 
+    <div id="net-tag-controls"></div>
+
     <div id="net-wrap">
       <svg id="net-svg"></svg>
       <div id="net-tip"></div>
@@ -44,6 +46,8 @@ const PEOPLE = [
     name: {{ doc.name | jsonify }},
     position: {{ doc.position | jsonify }},
     roles: {{ doc.roles | jsonify }},
+    tags: {{ doc.tags | jsonify }},
+    search_keywords: {{ doc.search_keywords | jsonify }},
     institutions: {{ doc.institutions | jsonify }},
     image: {{ doc.image | relative_url | jsonify }},
     url: {{ doc.url | relative_url | jsonify }},
@@ -105,8 +109,58 @@ const instName = Object.fromEntries(INSTITUTIONS.map(i => [i.id, i.name]));
 
 /* ── State ──────────────────────────────────────────────────────────── */
 let roleFilter = "all";
+let tagFilter  = "all";
 let showInst   = true;
 let hiddenInst = new Set(); // slugs toggled off via legend
+
+function personTags(p) {
+  const set = new Set();
+  (p.search_keywords || []).forEach(t => { if (t) set.add(t); });
+  (p.tags || []).forEach(t => { if (t) set.add(t); });
+  return [...set];
+}
+
+function buildTagList() {
+  const counts = new Map();
+  PEOPLE.forEach(p => {
+    personTags(p).forEach(t => counts.set(t, (counts.get(t) || 0) + 1));
+  });
+  return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function renderTagControls() {
+  const container = document.getElementById("net-tag-controls");
+  const tags = buildTagList();
+  if (!tags.length) {
+    container.style.display = "none";
+    container.innerHTML = "";
+    return;
+  }
+
+  container.style.display = "flex";
+  container.innerHTML =
+    `<strong class="net-tag-label">Tags:</strong>` +
+    `<button type="button" class="fbtn tbtn${tagFilter === "all" ? " active" : ""}" data-tag="all">All</button>` +
+    tags.map(([tag, count]) =>
+      `<button type="button" class="fbtn tbtn${tagFilter === tag ? " active" : ""}" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)} (${count})</button>`
+    ).join("");
+
+  container.querySelectorAll(".tbtn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      tagFilter = btn.dataset.tag;
+      container.querySelectorAll(".tbtn").forEach(b => b.classList.toggle("active", b.dataset.tag === tagFilter));
+      render();
+    });
+  });
+}
 
 /* ── Graph builder ──────────────────────────────────────────────────── */
 function buildGraph() {
@@ -114,6 +168,10 @@ function buildGraph() {
 
   if (roleFilter !== "all") {
     people = people.filter(p => (p.roles || []).some(r => r.includes(roleFilter)));
+  }
+
+  if (tagFilter !== "all") {
+    people = people.filter(p => personTags(p).includes(tagFilter));
   }
 
   // Remove people whose every institution is hidden
@@ -182,13 +240,15 @@ function showTip(event, d) {
   if (d.nodeType !== "person") return;
   const inst0 = (d.institutions || [])[0];
   const instLabel = inst0 ? (instName[inst0] || inst0) : "";
+  const tags = personTags(d);
   const imgTag = d.image ? `<img src="${d.image}" alt="" onerror="this.style.display='none'">` : "";
   const roleStr = (d.roles || []).join(", ");
   tip.innerHTML = `${imgTag}
-    <div class="tt-name">${d.name}</div>
-    ${d.position ? `<div class="tt-pos">${d.position}</div>` : ""}
-    ${instLabel ? `<div class="tt-inst">${instLabel}</div>` : ""}
-    ${roleStr ? `<div class="tt-role">${roleStr}</div>` : ""}
+    <div class="tt-name">${escapeHtml(d.name)}</div>
+    ${d.position ? `<div class="tt-pos">${escapeHtml(d.position)}</div>` : ""}
+    ${instLabel ? `<div class="tt-inst">${escapeHtml(instLabel)}</div>` : ""}
+    ${roleStr ? `<div class="tt-role">${escapeHtml(roleStr)}</div>` : ""}
+    ${tags.length ? `<div class="tt-tags">${tags.slice(0, 8).map(escapeHtml).join(" · ")}</div>` : ""}
     <div class="tt-click" style="clear:both">Click to view profile →</div>`;
   tip.style.display = "block";
   moveTip(event);
@@ -348,6 +408,7 @@ window.addEventListener("resize", () => {
 });
 
 /* ── Initial render ──────────────────────────────────────────────── */
+renderTagControls();
 render();
 
 })();
