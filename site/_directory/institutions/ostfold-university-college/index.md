@@ -15,7 +15,8 @@ city:
 urls:
   website:
   wikipedia:
-aliases: []
+aliases:
+  - Østfold University of Applied Sciences
 tags: []
 search_keywords: []
 source_mentions:

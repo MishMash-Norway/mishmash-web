@@ -6,8 +6,9 @@ title: Ingrid Romarheim Haugen
 position: Adviser
 department: Musikk
 image: /assets/images/portraits/circle/Ingrid_Romarheim_Haugen_NB.png
-institution: ''
-institutions: []
+institution: national-library-of-norway
+institutions:
+- national-library-of-norway
 projects: []
 roles:
 - Work Package Leader Group member

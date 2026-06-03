@@ -6,8 +6,9 @@ title: Georgios Marentakis
 position: Associate professor
 department: Department of Computer Science and Communication
 image: /assets/images/portraits/circle/Georgios_Marentakis_HiOF.png
-institution: ''
-institutions: []
+institution: ostfold-university-college
+institutions:
+- ostfold-university-college
 projects: []
 roles:
 - Work Package Leader Group member

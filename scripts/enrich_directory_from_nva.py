@@ -581,7 +581,7 @@ def orcid_primary_employment(orcid_id: str, institution_lookup: dict[str, str]) 
             organization = employment.get("organization") or {}
             org_name = orcid_text_value(organization.get("name"))
             position = orcid_text_value(employment.get("role-title"))
-            org_slug = institution_lookup.get(slugify(org_name), "") if org_name else ""
+            org_slug = lookup_institution_slug(org_name, institution_lookup) if org_name else ""
             display_index = orcid_text_value(employment.get("display-index"))
             try:
                 rank = int(display_index)
@@ -678,7 +678,7 @@ def institution_slug_from_org_node(org_data: dict, institution_lookup: dict[str,
     labels = org_data.get("labels") or {}
     for key in ("en", "nb"):
         name = (labels.get(key) or "").strip()
-        slug = institution_lookup.get(slugify(name), "")
+        slug = lookup_institution_slug(name, institution_lookup)
         if slug:
             return slug
 
@@ -699,7 +699,7 @@ def institution_slug_from_org_node(org_data: dict, institution_lookup: dict[str,
     }
     canonical = acronym_to_name.get(acronym, "")
     if canonical:
-        return institution_lookup.get(slugify(canonical), "")
+        return lookup_institution_slug(canonical, institution_lookup)
     return ""
 
 
@@ -921,6 +921,31 @@ def orcid_selected_works(orcid_id: str, max_works: int) -> list[dict[str, str]]:
     return works[:max_works]
 
 
+def lookup_institution_slug(name: str, institution_lookup: dict[str, str]) -> str:
+    name = (name or "").strip()
+    if not name:
+        return ""
+    slug = institution_lookup.get(slugify(name), "")
+    if slug:
+        return slug
+    lower = name.lower()
+    if lower.startswith("the "):
+        slug = institution_lookup.get(slugify(name[4:]), "")
+        if slug:
+            return slug
+    if "university of applied sciences" in lower:
+        alt = re.sub(
+            r"university of applied sciences",
+            "University College",
+            name,
+            flags=re.IGNORECASE,
+        )
+        slug = institution_lookup.get(slugify(alt), "")
+        if slug:
+            return slug
+    return ""
+
+
 def build_institution_lookup(root: Path) -> tuple[dict[str, str], dict[str, str]]:
     lookup = {}
     slug_to_name = {}
@@ -941,6 +966,10 @@ def build_institution_lookup(root: Path) -> tuple[dict[str, str], dict[str, str]
             if name and slug:
                 lookup[slugify(name)] = slug
                 slug_to_name[slug] = name
+                for alias in data.get("aliases") or []:
+                    alias_name = (alias or "").strip()
+                    if alias_name:
+                        lookup[slugify(alias_name)] = slug
         except Exception:
             continue
     return lookup, slug_to_name
@@ -1113,16 +1142,19 @@ def enrich_person(
     nva_affiliations = synced_field_value(nva_bundle, orcid_bundle, "nva_affiliations") or []
     changed = apply_field(data, "nva_affiliations", nva_affiliations, changed, allow_empty=allow_empty) or changed
 
-    institution = synced_field_value(nva_bundle, orcid_bundle, "institution")
-    changed = apply_field(data, "institution", institution, changed, allow_empty=allow_empty) or changed
+    institution = synced_field_value(nva_bundle, orcid_bundle, "institution") or ""
+    if institution or not from_nva:
+        changed = apply_field(data, "institution", institution, changed, allow_empty=allow_empty) or changed
 
     if from_nva:
         institutions = list(nva_bundle.get("institutions") or [])
+        if institutions or not data.get("institutions"):
+            changed = apply_field(data, "institutions", institutions, changed, allow_empty=allow_empty) or changed
     else:
         institutions = sorted(
             set((data.get("institutions") or []) + (orcid_bundle.get("institutions") or []))
         )
-    changed = apply_field(data, "institutions", institutions, changed, allow_empty=allow_empty) or changed
+        changed = apply_field(data, "institutions", institutions, changed, allow_empty=allow_empty) or changed
 
     tags = synced_field_value(nva_bundle, orcid_bundle, "tags") or []
     changed = apply_field(data, "tags", tags, changed, allow_empty=allow_empty) or changed

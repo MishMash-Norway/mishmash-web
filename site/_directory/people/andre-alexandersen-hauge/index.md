@@ -5,8 +5,9 @@ name: André Alexandersen Hauge
 title: André Alexandersen Hauge
 position: Head of academic department
 department: Department of Computer Science and Communication
-institution: ''
-institutions: []
+institution: ostfold-university-college
+institutions:
+- ostfold-university-college
 affiliation_units:
 - Østfold University of Applied Sciences
 - Faculty of Computer Science, Engineering and Economics

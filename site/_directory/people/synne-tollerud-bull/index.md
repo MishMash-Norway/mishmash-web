@@ -6,8 +6,9 @@ title: Synne Tollerud Bull
 position: Professor
 department: Westerdals Department of Film and Media
 image: /assets/images/portraits/circle/Synne_Tollerud_Bull_Kristiania.png
-institution: ''
-institutions: []
+institution: kristiania-university-college
+institutions:
+- kristiania-university-college
 affiliation_units:
 - Kristiania University of Applied Sciences
 - School of Arts, Design, and Media

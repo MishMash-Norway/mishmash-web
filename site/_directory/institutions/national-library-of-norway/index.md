@@ -16,7 +16,8 @@ city:
 urls:
   website:
   wikipedia:
-aliases: []
+aliases:
+  - The National Library of Norway
 tags: []
 search_keywords: []
 source_mentions:
