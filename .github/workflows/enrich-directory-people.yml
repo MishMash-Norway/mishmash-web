@@ -43,10 +43,6 @@ jobs:
             exit 0
           fi
           git add _directory/people assets/images/portraits/circle
-          git commit -m "$(cat <<'EOF'
-Update people directory from NVA and ORCID.
-
-Scheduled sync of affiliations, tags, bios, portraits, and recent publications.
-EOF
-)"
+          git commit -m "Update people directory from NVA and ORCID." \
+            -m "Scheduled sync of affiliations, tags, bios, portraits, and recent publications."
           git push
