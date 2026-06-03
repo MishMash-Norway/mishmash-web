@@ -1,4 +1,4 @@
-synced_at: '2026-06-03T20:44:36Z'
+synced_at: '2026-06-03T20:56:02Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -11,6 +11,8 @@ results:
     Performance
   year: '2026'
   type: Book chapter
+  type_label: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Bilge Serdar
   - name: Aleksander Tidemann
@@ -58,6 +60,8 @@ results:
     Arts
   year: '2026'
   type: Book chapter
+  type_label: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Hugh Alexander von Arnim
   - name: Anna-Maria Christodoulou
@@ -89,7 +93,7 @@ results:
       url: /people/alexander-refsum-jensenius/
     title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in
       Performing Arts
-    container: In Brooks, Anthony L. (Ed.), Proceedings of the 14th EAI International
+    container: In Brooks, Anthony L. (Eds.), Proceedings of the 14th EAI International
       Conference on ArtsIT, Interactivity and Game Creation, ArtsIT 2025.
     details: Springer. ISBN 9783032269997. p. 719–738.
     abstract: This paper presents LightHearted, an open-source Python framework for
@@ -112,6 +116,8 @@ results:
     Currently Used in Music Production
   year: '2026'
   type: Book chapter
+  type_label: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Jon Marius Aareskjold-Drecker
     slug: jon-marius-aareskjold-drecker
@@ -151,6 +157,8 @@ results:
 - title: Technologies of Capture and the Global Souths
   year: '2025'
   type: Book chapter
+  type_label: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Budhaditya Chattopadhyay
     slug: budhaditya-chattopadhyay
@@ -186,6 +194,8 @@ results:
 - title: 'Pixasonics: An Image Sonification Toolbox for Python'
   year: '2025'
   type: Book chapter
+  type_label: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Balint Laczko
   - name: Alexander Refsum Jensenius
@@ -231,6 +241,8 @@ results:
 - title: Kunstnerisk forskning for en kompleks verden
   year: '2025'
   type: ChapterInReport
+  type_label: Chapter in report
+  group_type: ChapterInReport
   contributors:
   - name: Michael Francis Duch
   - name: Alexander Eriksson Furunes
@@ -272,6 +284,8 @@ results:
 - title: Bodies in Motion in the Concert Hall and Beyond
   year: '2026'
   type: Conference
+  type_label: Conference
+  group_type: Conference
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -315,6 +329,8 @@ results:
 - title: Manifestos for an Algorithmic World
   year: '2026'
   type: Conference
+  type_label: Conference
+  group_type: Conference
   contributors:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
@@ -339,6 +355,8 @@ results:
 - title: Creativity Between Art and Science
   year: '2026'
   type: Conference
+  type_label: Conference
+  group_type: Conference
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -378,6 +396,8 @@ results:
 - title: MishMash, KI og kreative prosesser
   year: '2026'
   type: Conference
+  type_label: Conference
+  group_type: Conference
   contributors:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
@@ -407,6 +427,8 @@ results:
 - title: Presentasjon av Mishmash – senter for KI og kreativitet
   year: '2026'
   type: Conference
+  type_label: Conference
+  group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
     slug: ragnhild-brovig
@@ -433,6 +455,8 @@ results:
 - title: 'AI Language/ Language on AI: Language as infrastructure'
   year: '2025'
   type: Conference
+  type_label: Conference
+  group_type: Conference
   contributors:
   - name: Ida Jahr
     slug: ida-jahr
@@ -458,6 +482,8 @@ results:
 - title: The emergence and potential decline of cloud-based sample platforms
   year: '2025'
   type: Conference
+  type_label: Conference
+  group_type: Conference
   contributors:
   - name: Vemund Hegstad Alm
   - name: Ragnhild Brøvig
@@ -511,6 +537,8 @@ results:
 - title: KI, kunst, kultur, kreativitet
   year: '2025'
   type: Conference
+  type_label: Conference
+  group_type: Conference
   contributors:
   - name: Fredrik Graver
     slug: fredrik-graver
@@ -536,6 +564,8 @@ results:
 - title: 'Artificial Consciouness: Regenerating AI Ethics and Aesthetics'
   year: '2025'
   type: Conference
+  type_label: Conference
+  group_type: Conference
   contributors:
   - name: Budhaditya Chattopadhyay
     slug: budhaditya-chattopadhyay
@@ -605,6 +635,8 @@ results:
 - title: 'Archival Intelligence: Machine Learning and Intergenerational Memory'
   year: '2025'
   type: Conference
+  type_label: Conference
+  group_type: Conference
   contributors:
   - name: Budhaditya Chattopadhyay
     slug: budhaditya-chattopadhyay
@@ -630,6 +662,8 @@ results:
 - title: Dhvāni
   year: '2025'
   type: ExhibitionProduction
+  type_label: Exhibition production
+  group_type: ExhibitionProduction
   contributors:
   - name: Budhaditya Chattopadhyay
     slug: budhaditya-chattopadhyay
@@ -662,6 +696,8 @@ results:
 - title: Performative Togetherness in networked music–dance performance
   year: '2026'
   type: Journal article
+  type_label: Journal article
+  group_type: Journal article
   contributors:
   - name: Bilge Serdar
   - name: Aleksander Tidemann
@@ -706,6 +742,8 @@ results:
     translation experiments | Language Resources and Evaluation'
   year: '2026'
   type: Journal article
+  type_label: Journal article
+  group_type: Journal article
   contributors:
   - name: Fadi Al-Ghawanmeh
   - name: Alexander Refsum Jensenius
@@ -765,6 +803,8 @@ results:
     with the SoundActions Dataset
   year: '2026'
   type: Journal article
+  type_label: Journal article
+  group_type: Journal article
   contributors:
   - name: Jinyue Guo
   - name: Jim Tørresen
@@ -813,6 +853,8 @@ results:
 - title: Inverse and indirect mappings in embodied AI systems in everyday environments
   year: '2026'
   type: Journal article
+  type_label: Journal article
+  group_type: Journal article
   contributors:
   - name: Maham Riaz
   - name: Cagri Erdem
@@ -860,6 +902,8 @@ results:
 - title: Tverrfaglighet gjør litt vondt
   year: '2026'
   type: JournalLetter
+  type_label: Journal letter
+  group_type: JournalLetter
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -887,6 +931,8 @@ results:
 - title: Auditory Situationism and Unmedia
   year: '2026'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Budhaditya Chattopadhyay
     slug: budhaditya-chattopadhyay
@@ -918,6 +964,8 @@ results:
 - title: Kunstnerisk intelligens
   year: '2026'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
@@ -950,6 +998,8 @@ results:
     research centre'
   year: '2026'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -992,6 +1042,8 @@ results:
 - title: KI i kreative prosesser
   year: '2026'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Eirik Sørbø
     slug: eirik-sorbo
@@ -1036,6 +1088,8 @@ results:
 - title: Kunstig intelligens, FoU og kreativ næring
   year: '2026'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Ragnhild Brøvig
     slug: ragnhild-brovig
@@ -1063,6 +1117,8 @@ results:
     the language machine into being'
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Ida Jahr
     slug: ida-jahr
@@ -1094,6 +1150,8 @@ results:
 - title: MishMash og Nasjonalbiblioteket
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1126,6 +1184,8 @@ results:
 - title: Openness in the age of AI
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1153,6 +1213,8 @@ results:
 - title: Musikk, opphavsrett og KI
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1178,6 +1240,8 @@ results:
 - title: What is the role of AI in creative activities?
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1203,6 +1267,8 @@ results:
 - title: MishMash and potential for games
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1228,6 +1294,8 @@ results:
 - title: KI – Kunstens død eller tidenes mulighet?
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
@@ -1263,6 +1331,8 @@ results:
 - title: Who Owns Our Knowledge? Open Research in MishMash Centre for AI & Creativity
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1289,6 +1359,8 @@ results:
 - title: MishMash og Kunstnerisk utviklingsarbeid
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1314,6 +1386,8 @@ results:
 - title: MishMash Sentre for KI og kreativitet
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1339,6 +1413,8 @@ results:
 - title: Kunst i intelligens
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Ida Jahr
     slug: ida-jahr
@@ -1384,6 +1460,8 @@ results:
 - title: MishMash - exploring AI and creativity between art and science
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1414,6 +1492,8 @@ results:
 - title: MishMash Centre for AI & Creativity
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1444,6 +1524,8 @@ results:
 - title: Musikk og KI - Utfordringer og muligheter
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1472,6 +1554,8 @@ results:
 - title: Technologies supporting research on music-related body motion
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1526,6 +1610,8 @@ results:
 - title: Video Visualization - Learn to use MG Toolbox
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1562,6 +1648,8 @@ results:
 - title: Kreativitet og KI
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1589,6 +1677,8 @@ results:
 - title: MishMash Senter for KI og kreativitet
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1637,6 +1727,8 @@ results:
     for?'
   year: '2025'
   type: Lecture
+  type_label: Lecture
+  group_type: Lecture
   contributors:
   - name: Trond Lossius
   - name: Steven Bachelder
@@ -1688,10 +1780,69 @@ results:
     nva_url: https://nva.sikt.no/publication/0198cc705f83-4264b8ca-ef34-41f0-940b-928c02780af7
   url: https://www.arendalsuka.no/programsoek/details/31679
   nva_url: https://nva.sikt.no/publication/0198cc705f83-4264b8ca-ef34-41f0-940b-928c02780af7
+- title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
+  year: '2026'
+  type: MediaParticipationInRadioOrTv
+  type_label: Media participation in radio or TV
+  group_type: Media
+  contributors:
+  - name: Torkild Jemterud
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
+    container: Abels tårn.
+    details: ''
+    abstract: 'Stafetten går! Sju eksperter svarer på sju spørsmål på rappen (3:3)
+
+      Send oss gjerne dine spørsmål også ved å trykke på snakkebobla øverst'
+    full_text_url: https://hdl.handle.net/11250/5512881
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019de25b1c1d-d9db78cb-2708-4e83-a0c5-b50130e99739
+  url: https://radio.nrk.no/podkast/abels_taarn/l_26ee6156-aa61-4ba8-ae61-56aa61bba845
+  nva_url: https://nva.sikt.no/publication/019de25b1c1d-d9db78cb-2708-4e83-a0c5-b50130e99739
+- title: 'Live frå Aulaen: Musikk-spesial'
+  year: '2026'
+  type: MediaParticipationInRadioOrTv
+  type_label: Media participation in radio or TV
+  group_type: Media
+  contributors:
+  - name: Kjersti Anderdal Bakken
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Tine Thing Helseth
+  - name: Ragnhild Schiager Folkestad
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: 'Live frå Aulaen: Musikk-spesial'
+    container: Etikketaten.
+    details: ''
+    abstract: 'Mase på folk om å danse sjølv om dei ikkje vil? Ja, - eller nei takk
+      til KI-musikk? Skal 12-åringen få vite at han syng falskt? Og: Satse på musikken
+      - eller safe? Med Tine Thing Helseth, Alexander Jensenius og Ragnhild Folkestad.
+      Programleiar Kjersti Anderdal Bakken.'
+    full_text_url: https://hdl.handle.net/11250/5512879
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019de2544f5f-3e6a1b65-e57c-412e-85ca-b7e448236da3
+  url: https://radio.nrk.no/serie/etikketaten/DMPO38401726
+  nva_url: https://nva.sikt.no/publication/019de2544f5f-3e6a1b65-e57c-412e-85ca-b7e448236da3
 - title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
     og filmprodusenter nå?'
   year: '2026'
   type: MediaInterview
+  type_label: Media interview
+  group_type: Media
   contributors:
   - name: Sunniva Monclair Bøe
   - name: Elise Koppang Frøjd
@@ -1723,6 +1874,8 @@ results:
 - title: Musikkmaskinene | Aftenposten Innsikt
   year: '2026'
   type: MediaInterview
+  type_label: Media interview
+  group_type: Media
   contributors:
   - name: Anlov Peter Mathiesen
   - name: Alexander Refsum Jensenius
@@ -1746,6 +1899,8 @@ results:
 - title: Får du frysninger
   year: '2026'
   type: MediaInterview
+  type_label: Media interview
+  group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1768,6 +1923,8 @@ results:
 - title: Er 528 Hz og 432 Hz magiske frekvenser?
   year: '2026'
   type: MediaInterview
+  type_label: Media interview
+  group_type: Media
   contributors:
   - name: Rolf Frøyland
   - name: Alexander Refsum Jensenius
@@ -1792,6 +1949,8 @@ results:
 - title: 'Matoma advarer: –⁠ Det er sjelløst'
   year: '2026'
   type: MediaInterview
+  type_label: Media interview
+  group_type: Media
   contributors:
   - name: Henrik Moisanen Jensen
   - name: Alexander Refsum Jensenius
@@ -1816,6 +1975,8 @@ results:
 - title: Eneste KI-senter som kobler teknologi og kreativitet offisielt åpnet
   year: '2026'
   type: MediaInterview
+  type_label: Media interview
+  group_type: Media
   contributors:
   - name: Cathrine Th. Brundell
   - name: Alexander Refsum Jensenius
@@ -1837,9 +1998,67 @@ results:
     nva_url: https://nva.sikt.no/publication/019d7142230d-2db844aa-a0c3-4c57-a477-9094de115b10
   url: https://www.uniforum.uio.no/nyheter/2026/04/eneste-ki-senter-som-kobler-teknologi-og-kreativit.html
   nva_url: https://nva.sikt.no/publication/019d7142230d-2db844aa-a0c3-4c57-a477-9094de115b10
+- title: Velkommen til festival!
+  year: '2026'
+  type: MediaReaderOpinion
+  type_label: Media reader opinion
+  group_type: Media
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Velkommen til festival!
+    container: ''
+    details: ''
+    abstract: Det hjelper ikke med «sånn gjør vi det her»-argumentasjon hvis vi skal
+      få til reelt samarbeid på tvers av institusjoner.
+    full_text_url: https://hdl.handle.net/11250/5504614
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
+  url: https://www.forskerforum.no/forskerlivet/nar-folk-spor-hva-slags-senter-mishmash-skal-bli-er-mitt-beste-svar-et-festivalteltsenter/
+  nva_url: https://nva.sikt.no/publication/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
+- title: Hva er "flytsonen"?
+  year: '2026'
+  type: MediaParticipationInRadioOrTv
+  type_label: Media participation in radio or TV
+  group_type: Media
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Hva er "flytsonen"?
+    container: Abels tårn.
+    details: ''
+    abstract: '"Kan kunst skape seg selv?", spør Abels Tårnpanel fra Kunsthøgskolen
+      i Oslo (KHIO).
+
+      Send inn dine spørsmål til våre eksperter!'
+    full_text_url: https://hdl.handle.net/11250/5504131
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d5da66655-e4192e72-348d-43e7-a0a2-ae2d58d59973
+  url: https://radio.nrk.no/podkast/abels_taarn/l_b5967fa0-56a7-46f3-967f-a056a7c6f32f
+  nva_url: https://nva.sikt.no/publication/019d5da66655-e4192e72-348d-43e7-a0a2-ae2d58d59973
 - title: Nesten alle lever i sin egen stille boble
   year: '2026'
   type: MediaInterview
+  type_label: Media interview
+  group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1864,6 +2083,8 @@ results:
 - title: 'Ekspert om støydemping-trenden: – Vi lever i parallelle verdener'
   year: '2026'
   type: MediaInterview
+  type_label: Media interview
+  group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1887,6 +2108,8 @@ results:
 - title: Eierskap til KI
   year: '2025'
   type: MediaInterview
+  type_label: Media interview
+  group_type: Media
   contributors:
   - name: Leif Henrik Hoøen
   - name: Alexander Refsum Jensenius
@@ -1912,6 +2135,8 @@ results:
 - title: UiA med på KI-satsing – NRK Sørlandet – Lokale nyheter, TV og radio
   year: '2025'
   type: MediaInterview
+  type_label: Media interview
+  group_type: Media
   contributors:
   - name: Daniel Nordgård
     slug: daniel-nordgard
@@ -1935,6 +2160,8 @@ results:
 - title: Kan musikk skape fred?
   year: '2025'
   type: MediaInterview
+  type_label: Media interview
+  group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -1958,87 +2185,11 @@ results:
     nva_url: https://nva.sikt.no/publication/019b0f3bb59f-39c743ed-8591-4064-9354-23e984f96c0b
   url: https://ungdomsavisa.com/index.php?artID=763&navB=1
   nva_url: https://nva.sikt.no/publication/019b0f3bb59f-39c743ed-8591-4064-9354-23e984f96c0b
-- title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
-  year: '2026'
-  type: MediaParticipationInRadioOrTv
-  contributors:
-  - name: Torkild Jemterud
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors: []
-    title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
-    container: Abels tårn.
-    details: ''
-    abstract: 'Stafetten går! Sju eksperter svarer på sju spørsmål på rappen (3:3)
-
-      Send oss gjerne dine spørsmål også ved å trykke på snakkebobla øverst'
-    full_text_url: https://hdl.handle.net/11250/5512881
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019de25b1c1d-d9db78cb-2708-4e83-a0c5-b50130e99739
-  url: https://radio.nrk.no/podkast/abels_taarn/l_26ee6156-aa61-4ba8-ae61-56aa61bba845
-  nva_url: https://nva.sikt.no/publication/019de25b1c1d-d9db78cb-2708-4e83-a0c5-b50130e99739
-- title: 'Live frå Aulaen: Musikk-spesial'
-  year: '2026'
-  type: MediaParticipationInRadioOrTv
-  contributors:
-  - name: Kjersti Anderdal Bakken
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Tine Thing Helseth
-  - name: Ragnhild Schiager Folkestad
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors: []
-    title: 'Live frå Aulaen: Musikk-spesial'
-    container: Etikketaten.
-    details: ''
-    abstract: 'Mase på folk om å danse sjølv om dei ikkje vil? Ja, - eller nei takk
-      til KI-musikk? Skal 12-åringen få vite at han syng falskt? Og: Satse på musikken
-      - eller safe? Med Tine Thing Helseth, Alexander Jensenius og Ragnhild Folkestad.
-      Programleiar Kjersti Anderdal Bakken.'
-    full_text_url: https://hdl.handle.net/11250/5512879
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019de2544f5f-3e6a1b65-e57c-412e-85ca-b7e448236da3
-  url: https://radio.nrk.no/serie/etikketaten/DMPO38401726
-  nva_url: https://nva.sikt.no/publication/019de2544f5f-3e6a1b65-e57c-412e-85ca-b7e448236da3
-- title: Hva er "flytsonen"?
-  year: '2026'
-  type: MediaParticipationInRadioOrTv
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors: []
-    title: Hva er "flytsonen"?
-    container: Abels tårn.
-    details: ''
-    abstract: '"Kan kunst skape seg selv?", spør Abels Tårnpanel fra Kunsthøgskolen
-      i Oslo (KHIO).
-
-      Send inn dine spørsmål til våre eksperter!'
-    full_text_url: https://hdl.handle.net/11250/5504131
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019d5da66655-e4192e72-348d-43e7-a0a2-ae2d58d59973
-  url: https://radio.nrk.no/podkast/abels_taarn/l_b5967fa0-56a7-46f3-967f-a056a7c6f32f
-  nva_url: https://nva.sikt.no/publication/019d5da66655-e4192e72-348d-43e7-a0a2-ae2d58d59973
 - title: Musikk og kunstig intelligens
   year: '2025'
   type: MediaParticipationInRadioOrTv
+  type_label: Media participation in radio or TV
+  group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2058,36 +2209,11 @@ results:
     nva_url: https://nva.sikt.no/publication/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
   url: https://play.tv2.no/nyheter/god-morgen-norge-y05mec7j?play=true
   nva_url: https://nva.sikt.no/publication/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
-- title: Velkommen til festival!
-  year: '2026'
-  type: MediaReaderOpinion
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: Velkommen til festival!
-    container: ''
-    details: ''
-    abstract: Det hjelper ikke med «sånn gjør vi det her»-argumentasjon hvis vi skal
-      få til reelt samarbeid på tvers av institusjoner.
-    full_text_url: https://hdl.handle.net/11250/5504614
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
-  url: https://www.forskerforum.no/forskerlivet/nar-folk-spor-hva-slags-senter-mishmash-skal-bli-er-mitt-beste-svar-et-festivalteltsenter/
-  nva_url: https://nva.sikt.no/publication/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
 - title: Atomspheres
   year: '2026'
   type: MusicPerformance
+  type_label: Music performance
+  group_type: MusicPerformance
   contributors:
   - name: Budhaditya Chattopadhyay
     slug: budhaditya-chattopadhyay
@@ -2135,6 +2261,8 @@ results:
 - title: The Great Human Filter - The Age of Evaluation (album)
   year: '2025'
   type: MusicPerformance
+  type_label: Music performance
+  group_type: MusicPerformance
   contributors:
   - name: Viggo Tellefsen Wivestad
   institutions: []
@@ -2155,6 +2283,8 @@ results:
 - title: Building intersectional Cultural Ecosystems & Institutions for the Future
   year: '2026'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2200,6 +2330,8 @@ results:
 - title: Tverrfaglighet i forskning (og utdanning)
   year: '2026'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2225,6 +2357,8 @@ results:
 - title: Mellom menneske og maskin
   year: '2026'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Silje Midtlien Sigurdsen
   - name: Camila Urrego
@@ -2273,6 +2407,8 @@ results:
 - title: Sang og KI
   year: '2026'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2298,6 +2434,8 @@ results:
 - title: 'Design Agentics :: Creative R&D x AI'
   year: '2026'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
@@ -2352,6 +2490,8 @@ results:
 - title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
   year: '2026'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
@@ -2384,6 +2524,8 @@ results:
 - title: Kunstig kreativitet?
   year: '2026'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2412,6 +2554,8 @@ results:
 - title: Permeating Art & Science Collaboration
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2453,6 +2597,8 @@ results:
 - title: Morgendagens filmskapere?
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Fredrik Graver
     slug: fredrik-graver
@@ -2479,6 +2625,8 @@ results:
 - title: 'Kreativitet og KI: presentasjon til FilmReg'
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Fredrik Graver
     slug: fredrik-graver
@@ -2504,6 +2652,8 @@ results:
 - title: Concientia
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Per Snaprud
   - name: Alexander Refsum Jensenius
@@ -2587,6 +2737,8 @@ results:
 - title: Kan musikk skape fred?
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2634,6 +2786,8 @@ results:
     A Nordic Model for Integration of Advanced Assistive Technologies (ROBOWELL) pre-kickoff'
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Diana Saplacan Lindblom
   institutions:
@@ -2657,6 +2811,8 @@ results:
 - title: 'Nytt KI-senter ved UiO: MishMash'
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2682,6 +2838,8 @@ results:
 - title: 'Nytt KI-senter ved HF: MishMash'
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2707,6 +2865,8 @@ results:
 - title: Are we still needed?
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2738,6 +2898,8 @@ results:
 - title: KI og det nye MishMash-senteret
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2763,6 +2925,8 @@ results:
 - title: Muligheter for deltagelse i MishMash Senter for KI og kreativitet
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2788,6 +2952,8 @@ results:
 - title: RITMO, MishMash and the fourMs Lab
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2813,6 +2979,8 @@ results:
 - title: AI in film (and fine arts) schools
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Fredrik Graver
     slug: fredrik-graver
@@ -2840,6 +3008,8 @@ results:
     sammen?
   year: '2025'
   type: Presentation
+  type_label: Presentation
+  group_type: Presentation
   contributors:
   - name: Fredrik Graver
     slug: fredrik-graver

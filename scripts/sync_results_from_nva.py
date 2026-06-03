@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
@@ -36,6 +37,43 @@ from enrich_directory_from_nva import (  # noqa: E402
 MISHMASH_NVA_PROJECT_ID = "2744839"
 DEFAULT_OUTPUT = ROOT / "_data" / "mishmash_results.yml"
 PAGE_SIZE = 100
+MEDIA_RESULT_TYPES = {
+    "MediaInterview",
+    "MediaParticipationInRadioOrTv",
+    "MediaReaderOpinion",
+}
+MEDIA_GROUP_LABEL = "Media"
+TYPE_DISPLAY_LABELS = {
+    "Book chapter": "Book chapter",
+    "ChapterInReport": "Chapter in report",
+    "Conference": "Conference",
+    "ConferenceLecture": "Conference lecture",
+    "ExhibitionProduction": "Exhibition production",
+    "Journal article": "Journal article",
+    "JournalLetter": "Journal letter",
+    "Lecture": "Lecture",
+    "MediaInterview": "Media interview",
+    "MediaParticipationInRadioOrTv": "Media participation in radio or TV",
+    "MediaReaderOpinion": "Media reader opinion",
+    "MusicPerformance": "Music performance",
+    "Presentation": "Presentation",
+    "OtherPresentation": "Presentation",
+}
+
+
+def type_display_label(result_type: str) -> str:
+    if result_type in TYPE_DISPLAY_LABELS:
+        return TYPE_DISPLAY_LABELS[result_type]
+    spaced = re.sub(r"(?<!^)(?=[A-Z])", " ", result_type).strip()
+    if not spaced:
+        return result_type
+    return spaced[0].upper() + spaced[1:].lower()
+
+
+def result_group_type(result_type: str) -> str:
+    if result_type in MEDIA_RESULT_TYPES or result_type.startswith("Media"):
+        return MEDIA_GROUP_LABEL
+    return result_type or "Other"
 
 
 def extract_cristin_person_id(value: str) -> str | None:
@@ -371,6 +409,8 @@ def parse_result_hit(
         "title": localized_text(entity.get("mainTitle")),
         "year": year,
         "type": result_type,
+        "type_label": type_display_label(result_type),
+        "group_type": result_group_type(result_type),
         "contributors": contributors,
         "institutions": institutions,
         "citation": citation,
@@ -383,7 +423,7 @@ def parse_result_hit(
 
 
 def result_sort_key(result: dict) -> tuple[str, int]:
-    type_name = (result.get("type") or "Other").lower()
+    type_name = (result.get("group_type") or result.get("type") or "Other").lower()
     return (type_name, -work_sort_key(result))
 
 

@@ -3,7 +3,7 @@
 {% assign data = site.data.mishmash_results %}
 
 {% if data and data.results and data.results.size > 0 %}
-{% assign grouped_results = data.results | group_by: 'type' %}
+{% assign grouped_results = data.results | group_by: 'group_type' %}
 <section class="nva-results" aria-label="{{ t.results_heading }}">
   <p class="nva-results-summary">
     {{ data.results.size }} {{ t.results_count_label }} ·
@@ -45,50 +45,53 @@
       <ol class="nva-results-list">
         {% for result in sorted_items %}
         {% assign cite = result.citation %}
+        {% assign result_url = cite.nva_url | default: result.url | default: cite.full_text_url %}
+        {% assign type_label = result.type_label | default: result.type %}
         <li class="nva-result-item">
-          <p class="nva-result-citation">
-            {% if cite.authors and cite.authors.size > 0 %}
-              {% assign author_count = cite.authors.size %}
-              {% for author in cite.authors %}
-                {% if forloop.index > 1 %}
-                  {% if forloop.index == author_count %} &amp; {% else %}; {% endif %}
-                {% endif %}
-                {% if author.url %}
-                <a href="{{ author.url | relative_url }}">{{ author.display }}</a>
+          <article class="nva-result-card">
+            <p class="nva-result-kind">
+              {{ type_label }}{% if result.year %}, {{ result.year }}{% endif %}
+            </p>
+
+            <h3 class="nva-result-title">
+              {% if result_url %}
+              <a href="{{ result_url }}" target="_blank" rel="noopener noreferrer">{{ result.title }}</a>
+              {% else %}
+              {{ result.title }}
+              {% endif %}
+            </h3>
+
+            {% if result.contributors and result.contributors.size > 0 %}
+            <p class="nva-result-authors">
+              {% for contributor in result.contributors %}
+                {% if contributor.url %}
+                <a href="{{ contributor.url | relative_url }}">{{ contributor.name }}</a>{% unless forloop.last %}; {% endunless %}
                 {% else %}
-                {{ author.display }}
+                {{ contributor.name }}{% unless forloop.last %}; {% endunless %}
                 {% endif %}
               {% endfor %}
+            </p>
             {% endif %}
-            {% if result.year %} ({{ result.year }}).{% endif %}
-            {% if cite.title %}
-            <span class="nva-result-citation-title">{{ cite.title }}</span>.
-            {% endif %}
-            {% if cite.container %} {{ cite.container }}{% endif %}
-            {% if cite.details %} {{ cite.details }}{% endif %}
-            {% if cite.full_text_url or cite.nva_url or cite.abstract %}
-            <span class="nva-result-citation-links">
-              {% if cite.full_text_url %}
-              <a href="{{ cite.full_text_url }}" target="_blank" rel="noopener noreferrer">
-                {% if cite.full_text_kind == 'archive' %}{{ t.results_full_text_archive }}{% else %}{{ t.results_full_text }}{% endif %}
-              </a>
-              {% endif %}
-              {% if cite.abstract %}
-              <button type="button" class="nva-result-summary-toggle" data-summary-target="summary-{{ type_slug }}-{{ forloop.index }}" aria-expanded="false">
+
+            {% if cite.abstract %}
+            <div class="nva-result-summary-block">
+              <p class="nva-result-abstract{% if cite.abstract.size > 280 %} is-clamped{% endif %}" id="abstract-{{ type_slug }}-{{ forloop.index }}">{{ cite.abstract }}</p>
+              {% if cite.abstract.size > 280 %}
+              <button type="button" class="nva-result-expand" aria-expanded="false" aria-controls="abstract-{{ type_slug }}-{{ forloop.index }}">
                 {{ t.results_show_summary }}
               </button>
               {% endif %}
-              {% if cite.nva_url and cite.full_text_url != cite.nva_url %}
-              <a href="{{ cite.nva_url }}" target="_blank" rel="noopener noreferrer">{{ t.results_view_in_nva }}</a>
-              {% endif %}
-            </span>
+            </div>
             {% endif %}
-          </p>
-          {% if cite.abstract %}
-          <div class="nva-result-summary" id="summary-{{ type_slug }}-{{ forloop.index }}" hidden>
-            <p>{{ cite.abstract }}</p>
-          </div>
-          {% endif %}
+
+            {% if cite.full_text_url %}
+            <p class="nva-result-links">
+              <a href="{{ cite.full_text_url }}" target="_blank" rel="noopener noreferrer">
+                {% if cite.full_text_kind == 'archive' %}{{ t.results_full_text_archive }}{% else %}{{ t.results_full_text }}{% endif %}
+              </a>
+            </p>
+            {% endif %}
+          </article>
         </li>
         {% endfor %}
       </ol>
@@ -147,13 +150,14 @@
     });
   });
 
-  document.querySelectorAll('.nva-result-summary-toggle').forEach(function (button) {
+  document.querySelectorAll('.nva-result-expand').forEach(function (button) {
     button.addEventListener('click', function () {
-      const target = document.getElementById(button.dataset.summaryTarget || '');
+      const target = document.getElementById(button.getAttribute('aria-controls') || '');
       if (!target) return;
       const expanded = button.getAttribute('aria-expanded') === 'true';
-      target.hidden = expanded;
+      target.classList.toggle('is-clamped', expanded);
       button.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      button.textContent = expanded ? {{ t.results_show_summary | jsonify }} : {{ t.results_hide_summary | jsonify }};
     });
   });
 

@@ -465,73 +465,97 @@ a:focus-visible .icon {
 }
 
 .nva-result-item + .nva-result-item {
-  margin-top: 1.25rem;
+  margin-top: 1.5rem;
 }
 
-.nva-result-citation {
+.nva-result-card {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.nva-result-kind {
   margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.nva-result-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.nva-result-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nva-result-title a:hover,
+.nva-result-title a:focus-visible {
+  color: #1a6fb0;
+  text-decoration: underline;
+}
+
+.nva-result-authors {
+  margin: 0;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.nva-result-authors a {
+  color: inherit;
+}
+
+.nva-result-authors a:hover,
+.nva-result-authors a:focus-visible {
+  color: #1a6fb0;
+}
+
+.nva-result-summary-block {
+  margin-top: 0.15rem;
+}
+
+.nva-result-abstract {
+  margin: 0;
+  color: #444;
+  font-size: 0.92rem;
   line-height: 1.55;
 }
 
-.nva-result-citation-title {
-  font-style: italic;
+.nva-result-abstract.is-clamped {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
 }
 
-.nva-result-citation-links {
-  display: inline;
-  margin-left: 0.35rem;
-  white-space: nowrap;
-}
-
-.nva-result-citation-links a,
-.nva-result-summary-toggle {
-  margin-left: 0.45rem;
-}
-
-.nva-result-summary-toggle {
+.nva-result-expand {
+  margin-top: 0.25rem;
   border: 0;
   background: none;
   padding: 0;
   color: #1a6fb0;
   cursor: pointer;
   font: inherit;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.nva-result-expand:hover,
+.nva-result-expand:focus-visible {
+  color: #0f4f82;
   text-decoration: underline;
 }
 
-.nva-result-summary-toggle:hover,
-.nva-result-summary-toggle:focus-visible {
-  color: #0f4f82;
-}
-
-.nva-result-summary {
-  margin: 0.45rem 0 0;
-  padding: 0.65rem 0.85rem;
-  background: #f7f8fa;
-  border-left: 3px solid #d8dde3;
-  color: #444;
-  font-size: 0.92rem;
-}
-
-.nva-result-summary p {
-  margin: 0;
-}
-
-.nva-result-title {
-  font-weight: 600;
-}
-
-.nva-result-meta,
-.nva-result-contributors,
-.nva-result-institutions,
 .nva-result-links {
-  color: #666;
-  font-size: 0.92rem;
-  margin-top: 0.25rem;
+  margin: 0.2rem 0 0;
+  font-size: 0.85rem;
 }
 
-.nva-result-label {
-  font-weight: 600;
-  color: #444;
+.nva-result-links a + a {
+  margin-left: 0.75rem;
 }
 
 @media (max-width: 640px) {
