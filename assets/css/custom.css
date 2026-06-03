@@ -518,7 +518,8 @@ a:focus-visible .icon {
 .nva-result-authors {
   margin: 0;
   color: #333;
-  font-size: 0.95rem;
+  font-size: inherit;
+  font-weight: 700;
   line-height: 1.45;
 }
 

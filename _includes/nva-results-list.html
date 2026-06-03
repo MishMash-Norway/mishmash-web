@@ -45,7 +45,7 @@
       <ol class="nva-results-list">
         {% for result in sorted_items %}
         {% assign cite = result.citation %}
-        {% assign result_url = result.url | default: cite.full_text_url %}
+        {% assign result_url = result.url | default: cite.nva_url | default: result.nva_url %}
         {% assign type_label = result.type_label | default: result.type %}
         <li class="nva-result-item">
           <article class="nva-result-card">
@@ -84,13 +84,6 @@
             </div>
             {% endif %}
 
-            {% if cite.full_text_url %}
-            <p class="nva-result-links">
-              <a href="{{ cite.full_text_url }}" target="_blank" rel="noopener noreferrer">
-                {% if cite.full_text_kind == 'archive' %}{{ t.results_full_text_archive }}{% else %}{{ t.results_full_text }}{% endif %}
-              </a>
-            </p>
-            {% endif %}
           </article>
         </li>
         {% endfor %}

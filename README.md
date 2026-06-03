@@ -5,6 +5,8 @@
 
 This is the source code for the web page of [MishMash Centre for AI and Creativity](https://mishmash.no). The page is built with Jekyll and published on GitHub Pages.
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for what to edit, generated files, sync scripts, and the PR/deploy workflow.
+
 ## Maintain The Website
 
 ### 1) Local setup
