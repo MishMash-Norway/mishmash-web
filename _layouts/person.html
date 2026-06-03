@@ -23,7 +23,9 @@ layout: default
             {% if affiliation.unit %}{% if affiliation.role %}, {% endif %}{{ affiliation.unit }}{% endif %}
             {% if affiliation.institution %}
               {% assign aff_inst = site.directory | where: "type", "institution" | where: "slug", affiliation.institution | first %}
-              {% if aff_inst %}{% if affiliation.role or affiliation.unit %}, {% endif %}<a href="{{ aff_inst.url | relative_url }}">{{ aff_inst.name }}</a>{% else %}<a href="{{ aff_inst.url | relative_url }}">{{ aff_inst.name }}</a>{% endif %}
+              {% if aff_inst %}
+                {% if affiliation.role or affiliation.unit %}, {% endif %}
+                <a href="{{ aff_inst.url | relative_url }}">{{ aff_inst.name }}</a>
               {% endif %}
             {% endif %}
           </li>
