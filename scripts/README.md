@@ -71,7 +71,49 @@ Updated fields:
 - Portrait (`image`, downloaded from NVA when available)
 - Recent publications (`selected_works`, up to 10)
 
-A GitHub Actions workflow runs this once per day (`.github/workflows/enrich-directory-people.yml`). Optional repository secret `NVA_API_TOKEN` enables authenticated portrait downloads from the NVA API.
+A GitHub Actions workflow runs this once per day (`.github/workflows/enrich-directory-people.yml`).
+
+### NVA API access (UiO / MishMash)
+
+Request credentials from Sikt using the [NVA API access form](https://sikt.no/tjenester/nasjonalt-vitenarkiv-nva/hjelpeside-nva/teknisk-dokumentasjon-nva) (customer institution, contact person, purpose, Test/Prod). Sikt returns a **client ID** and **client secret** for OAuth2 client credentials ([authentication docs](https://github.com/BIBSYSDEV/nva-api-documentation/blob/main/scenarios/authenticating/index.md)).
+
+Suggested form values for MishMash:
+
+| Field | Value |
+| --- | --- |
+| Kundeinstitusjon | UiO |
+| Kontaktperson | Alexander Refsum Jensenius |
+| E-post | a.r.jensenius@imv.uio.no |
+| Bruksområde | MishMash-nettsider (directory people profiles) |
+| Tilgang | **Prod** for the live site; **Test** optional for local experiments |
+
+After you receive credentials:
+
+1. **Local shell** (add to `~/.bashrc` or a git-ignored `.env` file — never commit secrets):
+
+```bash
+export NVA_API_ENV=prod          # or test
+export NVA_CLIENT_ID='…'
+export NVA_CLIENT_SECRET='…'
+```
+
+2. **Verify**:
+
+```bash
+pip install -r scripts/requirements.txt
+python3 scripts/test_nva_api_auth.py
+```
+
+3. **GitHub Actions** — in the MishMash repo go to **Settings → Secrets and variables → Actions → New repository secret**:
+
+| Secret | Value |
+| --- | --- |
+| `NVA_CLIENT_ID` | client ID from Sikt |
+| `NVA_CLIENT_SECRET` | client secret from Sikt |
+
+The workflow sets `NVA_API_ENV=prod` automatically. Tokens expire after 15 minutes; the script fetches a fresh token on each run.
+
+API hosts ([nva-api-documentation](https://github.com/BIBSYSDEV/nva-api-documentation)): production `https://api.nva.unit.no`, test `https://api.test.nva.aws.unit.no`. Swagger UI: [swagger-ui.nva.unit.no](https://swagger-ui.nva.unit.no/#/).
 
 ```bash
 pip install -r scripts/requirements.txt

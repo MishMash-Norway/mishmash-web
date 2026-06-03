@@ -43,6 +43,17 @@ PUBLICATION_TYPE_LABELS = {
     "ArtisticDesign": "Design",
 }
 
+NVA_API_HOSTS = {
+    "prod": "https://api.nva.unit.no",
+    "test": "https://api.test.nva.aws.unit.no",
+}
+NVA_AUTH_HOSTS = {
+    "prod": "nva-prod-ext.auth.eu-west-1.amazoncognito.com",
+    "test": "nva-test-ext.auth.eu-west-1.amazoncognito.com",
+}
+
+_nva_request_headers: dict[str, str] = {}
+
 
 def split_frontmatter(text: str):
     if not text.startswith("---\n"):
@@ -138,7 +149,7 @@ def discover_profile_id_by_name(
         return None, "skip: missing name"
 
     query = requests.utils.quote(name)
-    data = get_json(f"https://api.nva.unit.no/cristin/person?name={query}&results=20")
+    data = get_json(nva_api_url(f"/cristin/person?name={query}&results=20"))
     hits = data.get("hits") or []
     if not hits:
         return None, "skip: no nva person hits"
@@ -228,8 +239,108 @@ def discover_profile_id_by_name(
     return None, "skip: ambiguous exact-name matches"
 
 
+def nva_api_env() -> str:
+    value = os.environ.get("NVA_API_ENV", "prod").strip().lower()
+    return value if value in NVA_API_HOSTS else "prod"
+
+
+def nva_api_base() -> str:
+    return NVA_API_HOSTS[nva_api_env()]
+
+
+def nva_api_url(path: str) -> str:
+    if path.startswith("http"):
+        return path
+    if not path.startswith("/"):
+        path = f"/{path}"
+    return f"{nva_api_base()}{path}"
+
+
+def _nva_token_error_message(response: requests.Response, env: str) -> str:
+    detail = ""
+    try:
+        payload = response.json()
+        detail = (payload.get("error_description") or payload.get("error") or "").strip()
+    except Exception:
+        detail = (response.text or "").strip()[:300]
+    hints = [
+        f"HTTP {response.status_code} from {env} token endpoint.",
+        "Check NVA_CLIENT_ID and NVA_CLIENT_SECRET (password = client secret).",
+        f"If Sikt sent Test credentials, run: export NVA_API_ENV=test (currently: {env}).",
+    ]
+    if detail:
+        hints.insert(1, detail)
+    return " ".join(hints)
+
+
+def request_nva_access_token(client_id: str, client_secret: str, env: str) -> str:
+    auth_host = NVA_AUTH_HOSTS[env]
+    token_url = f"https://{auth_host}/oauth2/token"
+    headers = {"Content-Type": "application/x-www-form-urlencoded"}
+    scope = os.environ.get("NVA_OAUTH_SCOPE", "").strip()
+
+    attempts: list[tuple[str, dict, dict | None]] = [
+        (
+            "basic-auth",
+            {"grant_type": "client_credentials", **({"scope": scope} if scope else {})},
+            (client_id, client_secret),
+        ),
+        (
+            "form-credentials",
+            {
+                "grant_type": "client_credentials",
+                "client_id": client_id,
+                "client_secret": client_secret,
+                **({"scope": scope} if scope else {}),
+            },
+            None,
+        ),
+    ]
+
+    last_response: requests.Response | None = None
+    for _label, data, auth in attempts:
+        response = requests.post(
+            token_url,
+            data=data,
+            headers=headers,
+            auth=auth,
+            timeout=30,
+        )
+        last_response = response
+        if response.ok:
+            return (response.json().get("access_token") or "").strip()
+
+    assert last_response is not None
+    raise requests.HTTPError(
+        _nva_token_error_message(last_response, env),
+        response=last_response,
+    )
+
+
+def resolve_nva_access_token() -> str:
+    static = os.environ.get("NVA_API_TOKEN", "").strip()
+    if static:
+        return static
+
+    client_id = os.environ.get("NVA_CLIENT_ID", "").strip()
+    client_secret = os.environ.get("NVA_CLIENT_SECRET", "").strip()
+    if not client_id or not client_secret:
+        return ""
+
+    return request_nva_access_token(client_id, client_secret, nva_api_env())
+
+
+def configure_nva_auth() -> str:
+    _nva_request_headers.clear()
+    token = resolve_nva_access_token()
+    if token:
+        _nva_request_headers["Authorization"] = f"Bearer {token}"
+        _nva_request_headers["Accept"] = "application/json"
+    return token
+
+
 def get_json(url: str):
-    r = requests.get(url, timeout=30)
+    r = requests.get(url, headers=_nva_request_headers, timeout=30)
     r.raise_for_status()
     return r.json()
 
@@ -314,10 +425,7 @@ def save_circle_portrait(image_bytes: bytes, dest_path: Path, max_size: int = PO
 def download_nva_portrait(image_url: str, dest_path: Path) -> bool:
     if not image_url:
         return False
-    headers = {}
-    token = os.environ.get("NVA_API_TOKEN", "").strip()
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
+    headers = dict(_nva_request_headers)
     try:
         response = requests.get(image_url, headers=headers, timeout=30)
         response.raise_for_status()
@@ -370,8 +478,9 @@ def nva_publication_url(hit: dict) -> str:
 
 def nva_selected_works(profile_id: str, max_works: int) -> list[dict[str, str]]:
     response = requests.get(
-        "https://api.nva.unit.no/search/resources",
+        nva_api_url("/search/resources"),
         params={"contributor": profile_id, "results": max(max_works * 3, 30)},
+        headers=_nva_request_headers,
         timeout=30,
     )
     response.raise_for_status()
@@ -415,7 +524,7 @@ def fetch_nva_bundle(
     max_tags: int,
     max_works: int,
 ) -> dict:
-    profile = get_json(f"https://api.nva.unit.no/cristin/person/{profile_id}")
+    profile = get_json(nva_api_url(f"/cristin/person/{profile_id}"))
     affiliation = pick_active_affiliation(profile.get("affiliations") or [])
     role_labels = ((affiliation.get("role") or {}).get("labels") or {})
     position = role_labels.get("en") or role_labels.get("nb") or ""
@@ -937,6 +1046,12 @@ def main():
     people_base = root / "_directory" / "people"
     if not people_base.exists():
         raise SystemExit(f"Missing directory: {people_base}")
+
+    token = configure_nva_auth()
+    if token:
+        print(f"NVA API: authenticated ({nva_api_env()}, {nva_api_base()})")
+    else:
+        print("NVA API: unauthenticated (public read only; profile pictures may be unavailable)")
 
     slugs = set(args.slug or [])
     institution_lookup, slug_to_institution_name = build_institution_lookup(root)
