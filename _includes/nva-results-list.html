@@ -45,7 +45,7 @@
       <ol class="nva-results-list">
         {% for result in sorted_items %}
         {% assign cite = result.citation %}
-        {% assign result_url = cite.nva_url | default: result.url | default: cite.full_text_url %}
+        {% assign result_url = result.url | default: cite.full_text_url %}
         {% assign type_label = result.type_label | default: result.type %}
         <li class="nva-result-item">
           <article class="nva-result-card">
