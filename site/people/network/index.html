@@ -7,18 +7,25 @@ custom_css: /assets/css/people-network.css
 <div class="page">
   <div class="container">
     <h1>People Network</h1>
-    <p style="margin-bottom:16px;">Relationships between MishMash researchers and their institutions.
-    Hover for details · click a person to visit their profile · drag to rearrange · scroll to zoom.</p>
+    <p style="margin-bottom:16px;">Relationships between MishMash researchers.
+    Choose how connections are drawn · hover for details · click a person to visit their profile · drag to rearrange · scroll to zoom.</p>
+
+    <div id="net-mode-controls">
+      <strong style="font-size:13px">Connect by:</strong>
+      <button type="button" class="fbtn mbtn active" data-mode="institutions">Institutions</button>
+      <button type="button" class="fbtn mbtn" data-mode="tags">Tags</button>
+      <button type="button" class="fbtn mbtn" data-mode="wp">Work packages</button>
+      <label id="toggle-hub-wrap" style="margin-left:8px; font-size:13px; display:flex; align-items:center; gap:6px; cursor:pointer;">
+        <input type="checkbox" id="toggle-hub" checked> Group nodes
+      </label>
+    </div>
 
     <div id="net-controls">
       <strong style="font-size:13px">Filter:</strong>
-      <button class="fbtn active" data-role="all">All</button>
-      <button class="fbtn" data-role="Board">Board</button>
-      <button class="fbtn" data-role="Council">Council</button>
-      <button class="fbtn" data-role="Work Package">WP Leaders</button>
-      <label style="margin-left:8px; font-size:13px; display:flex; align-items:center; gap:6px; cursor:pointer;">
-        <input type="checkbox" id="toggle-inst" checked> Institution nodes
-      </label>
+      <button type="button" class="fbtn rbtn active" data-role="all">All</button>
+      <button type="button" class="fbtn rbtn" data-role="Board">Board</button>
+      <button type="button" class="fbtn rbtn" data-role="Council">Council</button>
+      <button type="button" class="fbtn rbtn" data-role="Work Package">WP Leaders</button>
     </div>
 
     <div id="net-tag-controls"></div>
@@ -65,6 +72,28 @@ const INSTITUTIONS = [
   {% endif %}{% endfor %}
 ];
 
+const WORK_PACKAGES = [
+  {% for wp in site.data.work_packages %}
+  {
+    id: {{ wp.id | jsonify }},
+    label: {{ wp.label | jsonify }},
+    name: {{ wp.name | jsonify }},
+    url: {{ wp.url | relative_url | jsonify }},
+    members: {{ wp.members | jsonify }},
+  },
+  {% endfor %}
+];
+
+const TAG_GROUPS = [
+  {% for group in site.data.tag_groups.groups %}
+  {
+    label: {{ group.label | jsonify }},
+    tags: {{ group.tags | jsonify }},
+    patterns: {{ group.patterns | jsonify }},
+  },
+  {% endfor %}
+];
+
 /* ── Institution short labels ─────────────────────────────────────────── */
 const ABBREV = {
   "arctic-university-of-norway":                      "UiT",
@@ -102,16 +131,45 @@ const PALETTE = [
   "#f7b6d2","#c7c7c7","#dbdb8d","#9edae5","#ffbb78",
 ];
 const instIds = INSTITUTIONS.map(i => i.id);
+const wpIds = WORK_PACKAGES.map(w => w.id);
 const color = d3.scaleOrdinal().domain(instIds).range(PALETTE);
+const wpColor = d3.scaleOrdinal().domain(wpIds).range(PALETTE);
+
+const wpById = Object.fromEntries(WORK_PACKAGES.map(w => [w.id, w]));
+const wpByMember = {};
+WORK_PACKAGES.forEach(wp => {
+  wp.members.forEach(slug => {
+    (wpByMember[slug] = wpByMember[slug] || []).push(wp.id);
+  });
+});
 
 /* ── Inst name map ──────────────────────────────────────────────────── */
 const instName = Object.fromEntries(INSTITUTIONS.map(i => [i.id, i.name]));
 
 /* ── State ──────────────────────────────────────────────────────────── */
+let connectionMode = "institutions";
 let roleFilter = "all";
 let tagFilter  = "all";
-let showInst   = true;
-let hiddenInst = new Set(); // slugs toggled off via legend
+let showHubNodes = true;
+let hiddenGroups = new Set();
+
+const tagToGroupExact = new Map();
+TAG_GROUPS.forEach(group => {
+  (group.tags || []).forEach(tag => tagToGroupExact.set(tag, group.label));
+});
+
+function mapTagToGroup(tag) {
+  if (tagToGroupExact.has(tag)) return tagToGroupExact.get(tag);
+  const lower = tag.toLowerCase();
+  for (const group of TAG_GROUPS) {
+    for (const pattern of group.patterns || []) {
+      if (pattern && lower.includes(String(pattern).toLowerCase())) {
+        return group.label;
+      }
+    }
+  }
+  return tag;
+}
 
 function personTags(p) {
   const set = new Set();
@@ -120,10 +178,55 @@ function personTags(p) {
   return [...set];
 }
 
+function personTagGroups(p) {
+  const set = new Set();
+  personTags(p).forEach(tag => set.add(mapTagToGroup(tag)));
+  return [...set];
+}
+
+function personWorkPackages(p) {
+  return wpByMember[p.id] || [];
+}
+
+function personGroups(p) {
+  if (connectionMode === "tags") return personTagGroups(p);
+  if (connectionMode === "wp") return personWorkPackages(p);
+  return (p.institutions || []).filter(i => !hiddenGroups.has(i));
+}
+
+function personNodeColor(p) {
+  if (connectionMode === "wp") {
+    const wpId = personWorkPackages(p)[0];
+    return wpId ? wpColor(wpId) : "#999";
+  }
+  return color((p.institutions || [])[0] || "");
+}
+
+function addPersonPersonLinks(links, people, groupFn) {
+  const byGroup = {};
+  people.forEach(p => {
+    groupFn(p).forEach(groupId => {
+      (byGroup[groupId] = byGroup[groupId] || []).push(p.id);
+    });
+  });
+  const seen = new Set();
+  Object.values(byGroup).forEach(ids => {
+    for (let a = 0; a < ids.length; a++) {
+      for (let b = a + 1; b < ids.length; b++) {
+        const key = [ids[a], ids[b]].sort().join("||");
+        if (!seen.has(key)) {
+          seen.add(key);
+          links.push({ source: ids[a], target: ids[b] });
+        }
+      }
+    }
+  });
+}
+
 function buildTagList() {
   const counts = new Map();
   PEOPLE.forEach(p => {
-    personTags(p).forEach(t => counts.set(t, (counts.get(t) || 0) + 1));
+    personTagGroups(p).forEach(label => counts.set(label, (counts.get(label) || 0) + 1));
   });
   return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 }
@@ -136,8 +239,20 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function updateModeControls() {
+  const hubWrap = document.getElementById("toggle-hub-wrap");
+  hubWrap.style.display = connectionMode === "tags" ? "none" : "flex";
+  renderTagControls();
+}
+
 function renderTagControls() {
   const container = document.getElementById("net-tag-controls");
+  if (connectionMode !== "tags") {
+    container.style.display = "none";
+    container.innerHTML = "";
+    return;
+  }
+
   const tags = buildTagList();
   if (!tags.length) {
     container.style.display = "none";
@@ -164,55 +279,63 @@ function renderTagControls() {
 
 /* ── Graph builder ──────────────────────────────────────────────────── */
 function buildGraph() {
-  let people = PEOPLE.filter(p => (p.institutions || []).length > 0);
+  let people = PEOPLE.slice();
+
+  if (connectionMode === "institutions") {
+    people = people.filter(p => (p.institutions || []).length > 0);
+    people = people.filter(p => (p.institutions || []).some(i => !hiddenGroups.has(i)));
+  } else if (connectionMode === "tags") {
+    people = people.filter(p => personTagGroups(p).length > 0);
+  } else if (connectionMode === "wp") {
+    people = people.filter(p => personWorkPackages(p).length > 0);
+  }
 
   if (roleFilter !== "all") {
     people = people.filter(p => (p.roles || []).some(r => r.includes(roleFilter)));
   }
 
   if (tagFilter !== "all") {
-    people = people.filter(p => personTags(p).includes(tagFilter));
+    people = people.filter(p => personTagGroups(p).includes(tagFilter));
   }
-
-  // Remove people whose every institution is hidden
-  people = people.filter(p => (p.institutions || []).some(i => !hiddenInst.has(i)));
-
-  const usedInst = new Set(people.flatMap(p => (p.institutions || []).filter(i => !hiddenInst.has(i))));
 
   const nodes = [];
   people.forEach(p => nodes.push({ ...p, nodeType: "person" }));
-  if (showInst) {
-    INSTITUTIONS.forEach(inst => {
-      if (usedInst.has(inst.id)) nodes.push({ ...inst, nodeType: "inst" });
+
+  const links = [];
+  const useHubs = showHubNodes && connectionMode !== "tags";
+
+  if (connectionMode === "institutions") {
+    const usedInst = new Set(people.flatMap(p => (p.institutions || []).filter(i => !hiddenGroups.has(i))));
+    if (useHubs) {
+      INSTITUTIONS.forEach(inst => {
+        if (usedInst.has(inst.id)) nodes.push({ ...inst, nodeType: "inst" });
+      });
+    }
+  } else if (connectionMode === "wp" && useHubs) {
+    WORK_PACKAGES.forEach(wp => {
+      if (hiddenGroups.has(wp.id)) return;
+      if (people.some(p => personWorkPackages(p).includes(wp.id))) {
+        nodes.push({ id: wp.id, label: wp.label, name: wp.name, url: wp.url, nodeType: "wp" });
+      }
     });
   }
 
   const nodeSet = new Set(nodes.map(n => n.id));
-  const links = [];
 
-  if (showInst) {
+  if (connectionMode === "institutions" && useHubs) {
     people.forEach(p => {
-      (p.institutions || []).filter(i => !hiddenInst.has(i) && nodeSet.has(i)).forEach(inst => {
+      (p.institutions || []).filter(i => !hiddenGroups.has(i) && nodeSet.has(i)).forEach(inst => {
         links.push({ source: p.id, target: inst });
       });
     });
-  } else {
-    // person-person edges for shared institution
-    const byInst = {};
+  } else if (connectionMode === "wp" && useHubs) {
     people.forEach(p => {
-      (p.institutions || []).filter(i => !hiddenInst.has(i)).forEach(inst => {
-        (byInst[inst] = byInst[inst] || []).push(p.id);
+      personWorkPackages(p).filter(wpId => !hiddenGroups.has(wpId) && nodeSet.has(wpId)).forEach(wpId => {
+        links.push({ source: p.id, target: wpId });
       });
     });
-    const seen = new Set();
-    Object.values(byInst).forEach(ps => {
-      for (let a = 0; a < ps.length; a++) {
-        for (let b = a + 1; b < ps.length; b++) {
-          const key = [ps[a], ps[b]].sort().join("||");
-          if (!seen.has(key)) { seen.add(key); links.push({ source: ps[a], target: ps[b] }); }
-        }
-      }
-    });
+  } else {
+    addPersonPersonLinks(links, people, personGroups);
   }
 
   return { nodes, links };
@@ -240,13 +363,15 @@ function showTip(event, d) {
   if (d.nodeType !== "person") return;
   const inst0 = (d.institutions || [])[0];
   const instLabel = inst0 ? (instName[inst0] || inst0) : "";
-  const tags = personTags(d);
+  const tags = personTagGroups(d);
+  const wpLabels = personWorkPackages(d).map(id => wpById[id]?.label).filter(Boolean);
   const imgTag = d.image ? `<img src="${d.image}" alt="" onerror="this.style.display='none'">` : "";
   const roleStr = (d.roles || []).join(", ");
   tip.innerHTML = `${imgTag}
     <div class="tt-name">${escapeHtml(d.name)}</div>
     ${d.position ? `<div class="tt-pos">${escapeHtml(d.position)}</div>` : ""}
     ${instLabel ? `<div class="tt-inst">${escapeHtml(instLabel)}</div>` : ""}
+    ${wpLabels.length ? `<div class="tt-wp">${wpLabels.map(escapeHtml).join(", ")}</div>` : ""}
     ${roleStr ? `<div class="tt-role">${escapeHtml(roleStr)}</div>` : ""}
     ${tags.length ? `<div class="tt-tags">${tags.slice(0, 8).map(escapeHtml).join(" · ")}</div>` : ""}
     <div class="tt-click" style="clear:both">Click to view profile →</div>`;
@@ -301,7 +426,7 @@ function render() {
   nodeSel.filter(d => d.nodeType === "person")
     .append("circle")
     .attr("r", 20)
-    .attr("fill", d => color((d.institutions || [])[0] || ""))
+    .attr("fill", d => personNodeColor(d))
     .attr("fill-opacity", 0.88);
 
   nodeSel.filter(d => d.nodeType === "person")
@@ -322,16 +447,38 @@ function render() {
     .append("text")
     .text(d => ABBREV[d.id] || d.id.toUpperCase().slice(0, 6));
 
+  /* work package rectangles */
+  const WPW = 52, WPH = 28;
+  nodeSel.filter(d => d.nodeType === "wp")
+    .append("rect")
+    .attr("width", WPW).attr("height", WPH)
+    .attr("x", -WPW / 2).attr("y", -WPH / 2)
+    .attr("rx", 6)
+    .attr("fill", d => wpColor(d.id));
+
+  nodeSel.filter(d => d.nodeType === "wp")
+    .append("text")
+    .text(d => d.label);
+
+  const isHubLink = d => {
+    const types = new Set([d.source.nodeType, d.target.nodeType]);
+    return types.has("inst") || types.has("wp");
+  };
+
   /* force simulation */
   sim = d3.forceSimulation(nodes)
     .force("link", d3.forceLink(links).id(d => d.id)
-      .distance(d => (d.source.nodeType === "inst" || d.target.nodeType === "inst") ? 90 : 65)
+      .distance(d => isHubLink(d) ? 95 : 70)
       .strength(0.55))
     .force("charge", d3.forceManyBody()
-      .strength(d => d.nodeType === "inst" ? -600 : -160))
+      .strength(d => (d.nodeType === "inst" || d.nodeType === "wp") ? -600 : -160))
     .force("center", d3.forceCenter(W / 2, H / 2).strength(0.08))
     .force("collide", d3.forceCollide()
-      .radius(d => d.nodeType === "inst" ? 62 : 26)
+      .radius(d => {
+        if (d.nodeType === "inst") return 62;
+        if (d.nodeType === "wp") return 40;
+        return 26;
+      })
       .strength(0.7))
     .on("tick", () => {
       linkSel
@@ -367,36 +514,64 @@ function render() {
 
 /* ── Legend ──────────────────────────────────────────────────────── */
 function renderLegend(nodes) {
-  const usedInsts = INSTITUTIONS.filter(i => nodes.some(n => n.id === i.id));
   const leg = document.getElementById("net-legend");
-  leg.innerHTML = usedInsts.map(i => `
-    <div class="leg-item${hiddenInst.has(i.id) ? " faded" : ""}" data-inst="${i.id}" title="${i.name}">
-      <div class="leg-dot" style="background:${color(i.id)}"></div>
-      <span>${ABBREV[i.id] || i.name}</span>
-    </div>`).join("");
+  if (connectionMode === "tags") {
+    leg.innerHTML = "";
+    return;
+  }
+
+  if (connectionMode === "wp") {
+    const usedWps = WORK_PACKAGES.filter(wp => nodes.some(n => n.id === wp.id));
+    leg.innerHTML = usedWps.map(wp => `
+      <div class="leg-item${hiddenGroups.has(wp.id) ? " faded" : ""}" data-group="${wp.id}" title="${escapeHtml(wp.name)}">
+        <div class="leg-dot" style="background:${wpColor(wp.id)}"></div>
+        <span>${escapeHtml(wp.label)}</span>
+      </div>`).join("");
+  } else {
+    const usedInsts = INSTITUTIONS.filter(i => nodes.some(n => n.id === i.id));
+    leg.innerHTML = usedInsts.map(i => `
+      <div class="leg-item${hiddenGroups.has(i.id) ? " faded" : ""}" data-group="${i.id}" title="${i.name}">
+        <div class="leg-dot" style="background:${color(i.id)}"></div>
+        <span>${ABBREV[i.id] || i.name}</span>
+      </div>`).join("");
+  }
 
   leg.querySelectorAll(".leg-item").forEach(el => {
     el.addEventListener("click", () => {
-      const id = el.dataset.inst;
-      if (hiddenInst.has(id)) hiddenInst.delete(id);
-      else hiddenInst.add(id);
+      const id = el.dataset.group;
+      if (hiddenGroups.has(id)) hiddenGroups.delete(id);
+      else hiddenGroups.add(id);
       render();
     });
   });
 }
 
 /* ── Controls ────────────────────────────────────────────────────── */
-document.querySelectorAll(".fbtn").forEach(btn => {
+document.querySelectorAll(".mbtn").forEach(btn => {
   btn.addEventListener("click", () => {
-    document.querySelectorAll(".fbtn").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".mbtn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    connectionMode = btn.dataset.mode;
+    hiddenGroups.clear();
+    if (connectionMode !== "tags") tagFilter = "all";
+    if (connectionMode === "tags") showHubNodes = false;
+    else showHubNodes = document.getElementById("toggle-hub").checked;
+    updateModeControls();
+    render();
+  });
+});
+
+document.querySelectorAll(".rbtn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".rbtn").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
     roleFilter = btn.dataset.role;
     render();
   });
 });
 
-document.getElementById("toggle-inst").addEventListener("change", function() {
-  showInst = this.checked;
+document.getElementById("toggle-hub").addEventListener("change", function() {
+  showHubNodes = this.checked;
   render();
 });
 
@@ -408,7 +583,7 @@ window.addEventListener("resize", () => {
 });
 
 /* ── Initial render ──────────────────────────────────────────────── */
-renderTagControls();
+updateModeControls();
 render();
 
 })();

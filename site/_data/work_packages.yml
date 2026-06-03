@@ -1,0 +1,57 @@
+# WP leader group members (from about/organisation/wp-leaders/).
+- id: wp1
+  label: WP1
+  name: AI for artistic performances
+  url: /wp1/
+  members:
+    - kyrre-glette
+    - ivar-grydeland
+    - georgios-marentakis
+- id: wp2
+  label: WP2
+  name: AI in artistic processes
+  url: /wp2/
+  members:
+    - budhaditya-chattopadhyay
+    - sashi-komandur
+    - synne-tollerud-bull
+- id: wp3
+  label: WP3
+  name: Creative use of AI for health and well-being
+  url: /wp3/
+  members:
+    - claire-ghetti
+    - andreas-bergsland
+    - jonna-vuoskoski
+- id: wp4
+  label: WP4
+  name: Creative use of AI in education
+  url: /wp4/
+  members:
+    - eirik-sorbo
+    - sidsel-karlsen
+    - fredrik-graver
+- id: wp5
+  label: WP5
+  name: AI in the Creative and Cultural Industries
+  url: /wp5/
+  members:
+    - ragnhild-brovig
+    - irina-eidsvold-toien
+    - jon-marius-aareskjold-drecker
+- id: wp6
+  label: WP6
+  name: AI for cultural heritage
+  url: /wp6/
+  members:
+    - ingrid-romarheim-haugen
+    - arnulf-mattes
+    - olivier-lartillot
+- id: wp7
+  label: WP7
+  name: Human-centric AI for Creative Problem-Solving
+  url: /wp7/
+  members:
+    - carsten-griwodz
+    - baltasar-beferull-lozano
+    - kjetil-nordby
