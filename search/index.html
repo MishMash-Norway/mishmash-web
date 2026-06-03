@@ -114,6 +114,7 @@ title: Search
         this.setAttribute('aria-pressed', 'true');
       }
       onToggle();
+      updateUrl();
     });
     container.appendChild(btn);
   }
@@ -226,6 +227,16 @@ title: Search
     });
   }
 
+  function activateTagChip(tag) {
+    activeTags.add(tag);
+    Array.from(tagChips.querySelectorAll('.filter-chip')).forEach(function (chip) {
+      if (chip.dataset.value === tag) {
+        chip.classList.add('active');
+        chip.setAttribute('aria-pressed', 'true');
+      }
+    });
+  }
+
   // ── URL param hydration ────────────────────────────────────────────────────
   function hydrateFromUrl() {
     const params = new URLSearchParams(window.location.search);
@@ -233,17 +244,19 @@ title: Search
     if (q) {
       input.value = q;
     }
+    params.getAll('tag').forEach(activateTagChip);
   }
 
   // ── Sync URL while typing ─────────────────────────────────────────────────
   function updateUrl() {
-    const params = new URLSearchParams(window.location.search);
+    const params = new URLSearchParams();
     const q = input.value.trim();
     if (q) {
       params.set('q', q);
-    } else {
-      params.delete('q');
     }
+    activeTags.forEach(function (tag) {
+      params.append('tag', tag);
+    });
     const newUrl = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
     window.history.replaceState(null, '', newUrl);
   }
@@ -255,7 +268,7 @@ title: Search
       allItems = data;
       buildFilters(data);
       hydrateFromUrl();
-      if (input.value) runSearch();
+      if (input.value || activeTags.size) runSearch();
     })
     .catch(function () {
       statusEl.textContent = 'Search index could not be loaded.';

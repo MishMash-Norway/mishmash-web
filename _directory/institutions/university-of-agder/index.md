@@ -5,6 +5,7 @@ permalink: /directory/institutions/university-of-agder/
 name: University of Agder
 image: /images/institutions/university-of-agder.png
 people:
+  - daniel-nordgard
   - eirik-sorbo
   - marit-wergeland
   - sunniva-whittaker

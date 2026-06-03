@@ -392,6 +392,14 @@ a:focus-visible .icon {
   color: #363644;
   font-size: 0.92rem;
   line-height: 1.2;
+  text-decoration: none;
+  transition: background 0.12s, color 0.12s;
+}
+
+.person-topic-chip:hover,
+.person-topic-chip:focus-visible {
+  background: #e0e6d4;
+  color: #1f2330;
 }
 
 .person-selected-works {

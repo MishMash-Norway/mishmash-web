@@ -6,6 +6,7 @@ name: Inland Norway University of Applied Sciences
 image: /images/institutions/inland-norway-university-of-applied-sciences.png
 people:
   - fredrik-graver
+  - ida-jahr
   - nina-fredrikke-grunfeld
   - sashi-komandur
 projects: []

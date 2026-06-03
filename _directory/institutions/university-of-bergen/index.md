@@ -9,6 +9,7 @@ people:
   - budhaditya-chattopadhyay
   - claire-ghetti
   - jostein-gundersen
+  - thomas-de-ridder
 projects: []
 country:
 city:

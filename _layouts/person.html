@@ -56,15 +56,15 @@ layout: default
     <section class="person-research-topics" aria-label="Research topics">
       <div class="person-topic-list">
         {% for keyword in page.search_keywords limit: 12 %}
-        <span class="person-topic-chip">{{ keyword }}</span>
+        <a class="person-topic-chip" href="{{ '/search/' | relative_url }}?tag={{ keyword | cgi_escape }}">{{ keyword }}</a>
         {% endfor %}
       </div>
     </section>
     {% endif %}
 
     {% if page.selected_works and page.selected_works.size > 0 %}
-    <section class="person-selected-works" aria-label="Selected works">
-      <h2>Selected works</h2>
+    <section class="person-selected-works" aria-label="Latest results">
+      <h2>Latest results</h2>
       <ul class="person-selected-works-list">
         {% for work in page.selected_works limit: 10 %}
         <li>

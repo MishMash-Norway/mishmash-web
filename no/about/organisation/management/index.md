@@ -21,27 +21,27 @@ Ledelsen har ansvar for den daglige koordineringen og administrasjonen av MishMa
 </div>
 
 <div class="board-member-row">
-  <a href="https://www.uia.no/kk/profil/danieln"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Daniel_Nordgaard_UiA.jpg" alt="Daniel Nordgard"></a>
+  <a href="/directory/people/daniel-nordgard/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Daniel_Nordgaard_UiA.jpg" alt="Daniel Nordgård"></a>
   <div>
-  <a href="https://www.uia.no/kk/profil/danieln">Daniel Nordgard</a><br>
+  <a href="/directory/people/daniel-nordgard/">Daniel Nordgård</a><br>
   Universitetet i Agder<br>
   Nestleder
   </div>
 </div>
 
 <div class="board-member-row">
-  <a href="https://www.inn.no/english/find-an-employee/ida-jahr.html"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/ida_jahr_INN.jpg" alt="Ida Jahr"></a>
+  <a href="/directory/people/ida-jahr/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/ida_jahr_INN.jpg" alt="Ida Jahr"></a>
   <div>
-  <a href="https://www.inn.no/english/find-an-employee/ida-jahr.html">Ida Jahr</a><br>
+  <a href="/directory/people/ida-jahr/">Ida Jahr</a><br>
   Hogskolen i Innlandet<br>
   Nestleder
   </div>
 </div>
 
 <div class="board-member-row">
-  <a href="https://www4.uib.no/en/find-employees/thomas.de-ridder"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Thomas_de_Ridder_UiB.jpg" alt="Thomas de Ridder"></a>
+  <a href="/directory/people/thomas-de-ridder/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Thomas_de_Ridder_UiB.jpg" alt="Thomas de Ridder"></a>
   <div>
-  <a href="https://www4.uib.no/en/find-employees/thomas.de-ridder">Thomas de Ridder</a><br>
+  <a href="/directory/people/thomas-de-ridder/">Thomas de Ridder</a><br>
   Universitetet i Bergen<br>
   Forskningsradgiver
   </div>
