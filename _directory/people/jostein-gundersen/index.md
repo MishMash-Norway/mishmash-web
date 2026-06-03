@@ -35,18 +35,18 @@ selected_works:
   url: https://www.researchcatalogue.net/view/2421554/3524484
 - title: Samspill mellom høyere musikkutdanning og kunstnerisk utviklingsarbeid
   year: '2021'
-  source: NonFictionChapter
+  source: Non-fiction chapter
 - title: Mouvance. Approaches to re-enacting medieval music.
   year: '2020'
   source: Journal article
   url: https://doi.org/10.22501/vis.635886
 - title: Improvisasjon. Diminusjonspraksis fra 1350 til 1700
   year: '2010'
-  source: DegreePhd
+  source: PhD thesis
   url: http://www.uib.no/info/dr_grad/2010/Gundersen_Jostein.html
 - title: Improvisasjon over flerstemt musikk fra 1350-1700
   year: '2009'
-  source: DegreePhd
+  source: PhD thesis
   url: http://www.uib.no/info/dr_grad/2009/Gundersen_Jostein.html
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md

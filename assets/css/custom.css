@@ -426,6 +426,11 @@ a:focus-visible .icon {
   margin-top: 0.15rem;
 }
 
+.person-selected-works-more {
+  margin: 1rem 0 0;
+  font-size: 0.95rem;
+}
+
 .nva-results {
   margin-top: 1.5rem;
 }

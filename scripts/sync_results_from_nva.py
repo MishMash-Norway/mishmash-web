@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import argparse
-import re
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
@@ -25,7 +24,6 @@ from enrich_directory_from_nva import (  # noqa: E402
     get_json,
     localized_text,
     nva_api_url,
-    nva_publication_source,
     nva_publication_url,
     normalize_publication_year,
     resolve_institution_slug,
@@ -33,47 +31,15 @@ from enrich_directory_from_nva import (  # noqa: E402
     work_sort_key,
     _nva_request_headers,
 )
+from nva_result_types import (  # noqa: E402
+    nva_publication_instance_type,
+    nva_result_type_label,
+    result_group_type,
+)
 
 MISHMASH_NVA_PROJECT_ID = "2744839"
 DEFAULT_OUTPUT = ROOT / "_data" / "mishmash_results.yml"
 PAGE_SIZE = 100
-MEDIA_RESULT_TYPES = {
-    "MediaInterview",
-    "MediaParticipationInRadioOrTv",
-    "MediaReaderOpinion",
-}
-MEDIA_GROUP_LABEL = "Media"
-TYPE_DISPLAY_LABELS = {
-    "Book chapter": "Book chapter",
-    "ChapterInReport": "Chapter in report",
-    "Conference": "Conference",
-    "ConferenceLecture": "Conference lecture",
-    "ExhibitionProduction": "Exhibition production",
-    "Journal article": "Journal article",
-    "JournalLetter": "Journal letter",
-    "Lecture": "Lecture",
-    "MediaInterview": "Media interview",
-    "MediaParticipationInRadioOrTv": "Media participation in radio or TV",
-    "MediaReaderOpinion": "Media reader opinion",
-    "MusicPerformance": "Music performance",
-    "Presentation": "Presentation",
-    "OtherPresentation": "Presentation",
-}
-
-
-def type_display_label(result_type: str) -> str:
-    if result_type in TYPE_DISPLAY_LABELS:
-        return TYPE_DISPLAY_LABELS[result_type]
-    spaced = re.sub(r"(?<!^)(?=[A-Z])", " ", result_type).strip()
-    if not spaced:
-        return result_type
-    return spaced[0].upper() + spaced[1:].lower()
-
-
-def result_group_type(result_type: str) -> str:
-    if result_type in MEDIA_RESULT_TYPES or result_type.startswith("Media"):
-        return MEDIA_GROUP_LABEL
-    return result_type or "Other"
 
 
 def extract_cristin_person_id(value: str) -> str | None:
@@ -399,8 +365,8 @@ def parse_result_hit(
             }
         )
 
-    result_type = nva_publication_source(entity.get("reference") or {})
     ref = entity.get("reference") or {}
+    instance_type = nva_publication_instance_type(ref)
     external_url = nva_publication_url(hit)
     nva_url = nva_publication_page_url(hit)
     citation = build_citation(hit, entity, ref, person_lookup, external_url, nva_url)
@@ -408,9 +374,9 @@ def parse_result_hit(
     entry = {
         "title": localized_text(entity.get("mainTitle")),
         "year": year,
-        "type": result_type,
-        "type_label": type_display_label(result_type),
-        "group_type": result_group_type(result_type),
+        "type": instance_type,
+        "type_label": nva_result_type_label(instance_type),
+        "group_type": result_group_type(instance_type),
         "contributors": contributors,
         "institutions": institutions,
         "citation": citation,

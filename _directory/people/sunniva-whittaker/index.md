@@ -38,7 +38,7 @@ selected_works:
 - title: 'Social identity in the linguistically and culturally diverse workplace:
     The impact of corporate values and language'
   year: '2015'
-  source: Conference
+  source: Conference lecture
 - title: 'Language management in a multinational workforce: The knowledge worker perspective.'
   year: '2015'
   source: Journal article
@@ -46,7 +46,7 @@ selected_works:
 - title: Social and professional identity in the multilingual workplace - the knowledge
     worker perspective
   year: '2015'
-  source: Conference
+  source: Conference lecture
 - title: Language management
   year: '2014'
   source: Book chapter
@@ -56,14 +56,14 @@ selected_works:
   url: https://doi.org/10.3917/rfla.191.0049
 - title: Learner corpora as a pedagogical resource in specialized translator training
   year: '2013'
-  source: Conference
+  source: Conference lecture
 - title: 'Les normes discursives dans le langage juridique: défis terminologiques
     et traductologiques'
   year: '2013'
   source: Book chapter
 - title: Global corporate values - a linguistic approach
   year: '2012'
-  source: Conference
+  source: Conference lecture
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
 summary: null

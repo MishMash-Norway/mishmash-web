@@ -42,6 +42,7 @@ en:
   results_filter_all: "All"
   results_showing_all: "Showing all {count} results."
   results_showing_type: "Showing {count} results in {type}."
+  person_more_results_nva: "More results in NVA…"
   about_url: "/about/"
   home_url: "/"
 
@@ -89,5 +90,6 @@ nb:
   results_filter_all: "Alle"
   results_showing_all: "Viser alle {count} resultater."
   results_showing_type: "Viser {count} resultater i {type}."
+  person_more_results_nva: "Flere resultater i NVA…"
   about_url: "/no/about/"
   home_url: "/no/"

@@ -41,7 +41,7 @@ selected_works:
 - title: On the limits of trajectory prediction for hand movement trajectories with
     motion-capture sensors
   year: '2025'
-  source: ReportBasic
+  source: Report
 - title: Upsampled Vector Autoregressive Processes
   year: '2025'
   source: Journal article
@@ -64,7 +64,7 @@ selected_works:
   url: https://doi.org/10.1016/j.sigpro.2025.109930
 - title: Proceedings of NORA’s annual conference 2025
   year: '2025'
-  source: ConferenceAbstract
+  source: Conference abstract
   url: https://doi.org/10.5617/nmi.12551
 - title: A Data-driven Transfer Learning Method for Indoor Radio Map Estimation
   year: '2025'
@@ -73,17 +73,17 @@ selected_works:
 - title: Limited Data Forecasting of Financial Time-series using Graph-based Class
     Dynamics
   year: '2024'
-  source: Conference
+  source: Conference lecture
   url: https://doi.org/10.23919/EUSIPCO63174.2024.10714981
 - title: Kalman Filtering for Simplicial Processes
   year: '2024'
-  source: Conference
+  source: Conference lecture
   url: https://ieeexplore.ieee.org/document/10942943
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/baltasar-beferull-lozano/
 redirect_from:
-  - /directory/people/baltasar-beferull-lozano/
+- /directory/people/baltasar-beferull-lozano/
 ---
 

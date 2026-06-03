@@ -1,4 +1,4 @@
-synced_at: '2026-06-03T20:56:02Z'
+synced_at: '2026-06-03T21:05:18Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -10,7 +10,7 @@ results:
 - title: Mixed Method Audio-Video Analyses of Felt Togetherness in a Networked Music-Dance
     Performance
   year: '2026'
-  type: Book chapter
+  type: AcademicChapter
   type_label: Book chapter
   group_type: Book chapter
   contributors:
@@ -59,7 +59,7 @@ results:
 - title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
     Arts
   year: '2026'
-  type: Book chapter
+  type: AcademicChapter
   type_label: Book chapter
   group_type: Book chapter
   contributors:
@@ -115,7 +115,7 @@ results:
 - title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
     Currently Used in Music Production
   year: '2026'
-  type: Book chapter
+  type: AcademicChapter
   type_label: Book chapter
   group_type: Book chapter
   contributors:
@@ -156,7 +156,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019b22052adc-18ac17fb-eda5-46c7-8d3b-e1176110c991
 - title: Technologies of Capture and the Global Souths
   year: '2025'
-  type: Book chapter
+  type: AcademicChapter
   type_label: Book chapter
   group_type: Book chapter
   contributors:
@@ -193,7 +193,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019dcbdd03cc-ac973a05-556a-4ddf-8718-6c074883f8c4
 - title: 'Pixasonics: An Image Sonification Toolbox for Python'
   year: '2025'
-  type: Book chapter
+  type: AcademicChapter
   type_label: Book chapter
   group_type: Book chapter
   contributors:
@@ -242,7 +242,7 @@ results:
   year: '2025'
   type: ChapterInReport
   type_label: Chapter in report
-  group_type: ChapterInReport
+  group_type: Chapter in report
   contributors:
   - name: Michael Francis Duch
   - name: Alexander Eriksson Furunes
@@ -283,8 +283,8 @@ results:
   nva_url: https://nva.sikt.no/publication/019a64f85829-bc3fcdfe-c287-4aea-b695-73f9cb14a14b
 - title: Bodies in Motion in the Concert Hall and Beyond
   year: '2026'
-  type: Conference
-  type_label: Conference
+  type: ConferenceLecture
+  type_label: Conference lecture
   group_type: Conference
   contributors:
   - name: Alexander Refsum Jensenius
@@ -328,8 +328,8 @@ results:
   nva_url: https://nva.sikt.no/publication/019dc482b472-5d33b852-057c-49f0-b9cb-866787dea540
 - title: Manifestos for an Algorithmic World
   year: '2026'
-  type: Conference
-  type_label: Conference
+  type: ConferenceLecture
+  type_label: Conference lecture
   group_type: Conference
   contributors:
   - name: Synne Tollerud Bull
@@ -354,8 +354,8 @@ results:
   nva_url: https://nva.sikt.no/publication/019db950be37-04a12e98-e359-48da-bf6c-33a87247c3ba
 - title: Creativity Between Art and Science
   year: '2026'
-  type: Conference
-  type_label: Conference
+  type: ConferenceLecture
+  type_label: Conference lecture
   group_type: Conference
   contributors:
   - name: Alexander Refsum Jensenius
@@ -395,8 +395,8 @@ results:
   nva_url: https://nva.sikt.no/publication/019d7dd1e19c-9e61cf91-35f8-4d6e-84d1-41f91125e13e
 - title: MishMash, KI og kreative prosesser
   year: '2026'
-  type: Conference
-  type_label: Conference
+  type: ConferenceLecture
+  type_label: Conference lecture
   group_type: Conference
   contributors:
   - name: Synne Tollerud Bull
@@ -426,8 +426,8 @@ results:
   nva_url: https://nva.sikt.no/publication/019cba9e833f-34461afe-103f-47d2-b9bf-25c96e14b005
 - title: Presentasjon av Mishmash – senter for KI og kreativitet
   year: '2026'
-  type: Conference
-  type_label: Conference
+  type: ConferenceLecture
+  type_label: Conference lecture
   group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
@@ -454,8 +454,8 @@ results:
   nva_url: https://nva.sikt.no/publication/019c2dc46b3a-c5292e5c-890c-481b-9bf9-7c06e5bd8d50
 - title: 'AI Language/ Language on AI: Language as infrastructure'
   year: '2025'
-  type: Conference
-  type_label: Conference
+  type: ConferenceLecture
+  type_label: Conference lecture
   group_type: Conference
   contributors:
   - name: Ida Jahr
@@ -481,8 +481,8 @@ results:
   nva_url: https://nva.sikt.no/publication/019c135d0457-0769b174-cf78-4f06-bd13-44ab5a8c36f8
 - title: The emergence and potential decline of cloud-based sample platforms
   year: '2025'
-  type: Conference
-  type_label: Conference
+  type: ConferenceLecture
+  type_label: Conference lecture
   group_type: Conference
   contributors:
   - name: Vemund Hegstad Alm
@@ -536,8 +536,8 @@ results:
   nva_url: https://nva.sikt.no/publication/019b21a36550-b1a9706b-df97-4126-bc7a-6c050c7f2872
 - title: KI, kunst, kultur, kreativitet
   year: '2025'
-  type: Conference
-  type_label: Conference
+  type: ConferenceLecture
+  type_label: Conference lecture
   group_type: Conference
   contributors:
   - name: Fredrik Graver
@@ -563,8 +563,8 @@ results:
   nva_url: https://nva.sikt.no/publication/019a77167982-4be430dc-bcd7-4dd8-ada8-a792cc5caff8
 - title: 'Artificial Consciouness: Regenerating AI Ethics and Aesthetics'
   year: '2025'
-  type: Conference
-  type_label: Conference
+  type: ConferenceLecture
+  type_label: Conference lecture
   group_type: Conference
   contributors:
   - name: Budhaditya Chattopadhyay
@@ -634,8 +634,8 @@ results:
   nva_url: https://nva.sikt.no/publication/019a5afbe121-5aaae060-b8e8-43fb-8994-00fa19dc6c32
 - title: 'Archival Intelligence: Machine Learning and Intergenerational Memory'
   year: '2025'
-  type: Conference
-  type_label: Conference
+  type: ConferenceLecture
+  type_label: Conference lecture
   group_type: Conference
   contributors:
   - name: Budhaditya Chattopadhyay
@@ -662,8 +662,8 @@ results:
 - title: Dhvāni
   year: '2025'
   type: ExhibitionProduction
-  type_label: Exhibition production
-  group_type: ExhibitionProduction
+  type_label: Exhibition
+  group_type: Exhibition
   contributors:
   - name: Budhaditya Chattopadhyay
     slug: budhaditya-chattopadhyay
@@ -695,7 +695,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
 - title: Performative Togetherness in networked music–dance performance
   year: '2026'
-  type: Journal article
+  type: AcademicArticle
   type_label: Journal article
   group_type: Journal article
   contributors:
@@ -741,7 +741,7 @@ results:
 - title: 'Arab music improvisation corpus for research (AMICOR): development and machine
     translation experiments | Language Resources and Evaluation'
   year: '2026'
-  type: Journal article
+  type: AcademicArticle
   type_label: Journal article
   group_type: Journal article
   contributors:
@@ -802,7 +802,7 @@ results:
 - title: Investigating Auditory–Visual Perception Using Multi-Modal Neural Networks
     with the SoundActions Dataset
   year: '2026'
-  type: Journal article
+  type: AcademicArticle
   type_label: Journal article
   group_type: Journal article
   contributors:
@@ -852,7 +852,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019cf6685f12-273d8dcb-e9b2-4230-ba94-44787a916710
 - title: Inverse and indirect mappings in embodied AI systems in everyday environments
   year: '2026'
-  type: Journal article
+  type: AcademicArticle
   type_label: Journal article
   group_type: Journal article
   contributors:
@@ -899,35 +899,6 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
-- title: Tverrfaglighet gjør litt vondt
-  year: '2026'
-  type: JournalLetter
-  type_label: Journal letter
-  group_type: JournalLetter
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: Tverrfaglighet gjør litt vondt
-    container: ''
-    details: ''
-    abstract: 'Hvordan får man til tverrfaglig forskning i praksis? Mitt tips: Heng
-      ved kaffemaskinen.'
-    full_text_url: https://hdl.handle.net/11250/5350155
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
-  url: https://www.forskerforum.no/forskerlivet/mitt-tips-til-gjesteforskere-heng-ved-kaffemaskinen/
-  nva_url: https://nva.sikt.no/publication/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
 - title: Auditory Situationism and Unmedia
   year: '2026'
   type: Lecture
@@ -1780,10 +1751,39 @@ results:
     nva_url: https://nva.sikt.no/publication/0198cc705f83-4264b8ca-ef34-41f0-940b-928c02780af7
   url: https://www.arendalsuka.no/programsoek/details/31679
   nva_url: https://nva.sikt.no/publication/0198cc705f83-4264b8ca-ef34-41f0-940b-928c02780af7
+- title: Tverrfaglighet gjør litt vondt
+  year: '2026'
+  type: JournalLetter
+  type_label: Letter to the editor
+  group_type: Letter to the editor
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Tverrfaglighet gjør litt vondt
+    container: ''
+    details: ''
+    abstract: 'Hvordan får man til tverrfaglig forskning i praksis? Mitt tips: Heng
+      ved kaffemaskinen.'
+    full_text_url: https://hdl.handle.net/11250/5350155
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
+  url: https://www.forskerforum.no/forskerlivet/mitt-tips-til-gjesteforskere-heng-ved-kaffemaskinen/
+  nva_url: https://nva.sikt.no/publication/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
 - title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
   year: '2026'
   type: MediaParticipationInRadioOrTv
-  type_label: Media participation in radio or TV
+  type_label: Radio or TV
   group_type: Media
   contributors:
   - name: Torkild Jemterud
@@ -1810,7 +1810,7 @@ results:
 - title: 'Live frå Aulaen: Musikk-spesial'
   year: '2026'
   type: MediaParticipationInRadioOrTv
-  type_label: Media participation in radio or TV
+  type_label: Radio or TV
   group_type: Media
   contributors:
   - name: Kjersti Anderdal Bakken
@@ -1841,7 +1841,7 @@ results:
     og filmprodusenter nå?'
   year: '2026'
   type: MediaInterview
-  type_label: Media interview
+  type_label: Interview
   group_type: Media
   contributors:
   - name: Sunniva Monclair Bøe
@@ -1874,7 +1874,7 @@ results:
 - title: Musikkmaskinene | Aftenposten Innsikt
   year: '2026'
   type: MediaInterview
-  type_label: Media interview
+  type_label: Interview
   group_type: Media
   contributors:
   - name: Anlov Peter Mathiesen
@@ -1899,7 +1899,7 @@ results:
 - title: Får du frysninger
   year: '2026'
   type: MediaInterview
-  type_label: Media interview
+  type_label: Interview
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
@@ -1923,7 +1923,7 @@ results:
 - title: Er 528 Hz og 432 Hz magiske frekvenser?
   year: '2026'
   type: MediaInterview
-  type_label: Media interview
+  type_label: Interview
   group_type: Media
   contributors:
   - name: Rolf Frøyland
@@ -1949,7 +1949,7 @@ results:
 - title: 'Matoma advarer: –⁠ Det er sjelløst'
   year: '2026'
   type: MediaInterview
-  type_label: Media interview
+  type_label: Interview
   group_type: Media
   contributors:
   - name: Henrik Moisanen Jensen
@@ -1975,7 +1975,7 @@ results:
 - title: Eneste KI-senter som kobler teknologi og kreativitet offisielt åpnet
   year: '2026'
   type: MediaInterview
-  type_label: Media interview
+  type_label: Interview
   group_type: Media
   contributors:
   - name: Cathrine Th. Brundell
@@ -2001,7 +2001,7 @@ results:
 - title: Velkommen til festival!
   year: '2026'
   type: MediaReaderOpinion
-  type_label: Media reader opinion
+  type_label: Reader opinion
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
@@ -2030,7 +2030,7 @@ results:
 - title: Hva er "flytsonen"?
   year: '2026'
   type: MediaParticipationInRadioOrTv
-  type_label: Media participation in radio or TV
+  type_label: Radio or TV
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
@@ -2057,7 +2057,7 @@ results:
 - title: Nesten alle lever i sin egen stille boble
   year: '2026'
   type: MediaInterview
-  type_label: Media interview
+  type_label: Interview
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
@@ -2083,7 +2083,7 @@ results:
 - title: 'Ekspert om støydemping-trenden: – Vi lever i parallelle verdener'
   year: '2026'
   type: MediaInterview
-  type_label: Media interview
+  type_label: Interview
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
@@ -2108,7 +2108,7 @@ results:
 - title: Eierskap til KI
   year: '2025'
   type: MediaInterview
-  type_label: Media interview
+  type_label: Interview
   group_type: Media
   contributors:
   - name: Leif Henrik Hoøen
@@ -2135,7 +2135,7 @@ results:
 - title: UiA med på KI-satsing – NRK Sørlandet – Lokale nyheter, TV og radio
   year: '2025'
   type: MediaInterview
-  type_label: Media interview
+  type_label: Interview
   group_type: Media
   contributors:
   - name: Daniel Nordgård
@@ -2160,7 +2160,7 @@ results:
 - title: Kan musikk skape fred?
   year: '2025'
   type: MediaInterview
-  type_label: Media interview
+  type_label: Interview
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
@@ -2188,7 +2188,7 @@ results:
 - title: Musikk og kunstig intelligens
   year: '2025'
   type: MediaParticipationInRadioOrTv
-  type_label: Media participation in radio or TV
+  type_label: Radio or TV
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
@@ -2213,7 +2213,7 @@ results:
   year: '2026'
   type: MusicPerformance
   type_label: Music performance
-  group_type: MusicPerformance
+  group_type: Music performance
   contributors:
   - name: Budhaditya Chattopadhyay
     slug: budhaditya-chattopadhyay
@@ -2262,7 +2262,7 @@ results:
   year: '2025'
   type: MusicPerformance
   type_label: Music performance
-  group_type: MusicPerformance
+  group_type: Music performance
   contributors:
   - name: Viggo Tellefsen Wivestad
   institutions: []
@@ -2282,7 +2282,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019e3f4d620d-fbdddd20-0178-42a0-b9c4-6280151fefa8
 - title: Building intersectional Cultural Ecosystems & Institutions for the Future
   year: '2026'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2329,7 +2329,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019e7fb15492-102757ea-b56a-4dc6-8734-56dac427fdc3
 - title: Tverrfaglighet i forskning (og utdanning)
   year: '2026'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2356,7 +2356,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019e45845336-b864a8b3-cf7c-458c-8385-6c3d8766059b
 - title: Mellom menneske og maskin
   year: '2026'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2406,7 +2406,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019e32c7e996-3b1abd75-32c5-410a-8cd6-833319d55756
 - title: Sang og KI
   year: '2026'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2433,7 +2433,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019dfe980ca5-56907564-ed5d-4548-9576-656c8a18419a
 - title: 'Design Agentics :: Creative R&D x AI'
   year: '2026'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2489,7 +2489,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019dc37da862-8dad0484-5d39-4e81-b014-c38f3af96941
 - title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
   year: '2026'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2523,7 +2523,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019db9aba304-1cb12c80-5618-476a-8f7a-5d2b54f6d6b5
 - title: Kunstig kreativitet?
   year: '2026'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2553,7 +2553,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019d741030ca-41f18ad7-2ac1-4300-aa6b-94e3bf2a0cfc
 - title: Permeating Art & Science Collaboration
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2596,7 +2596,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019d5dac4b99-88bca32b-76f6-4e7e-986b-3df1814fe516
 - title: Morgendagens filmskapere?
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2624,7 +2624,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019be5d865f1-d4760767-2977-44a9-8ecc-726e77e24860
 - title: 'Kreativitet og KI: presentasjon til FilmReg'
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2651,7 +2651,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019be5d0aac6-b662e509-5c5e-47fb-84cf-ceb50a865373
 - title: Concientia
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2736,7 +2736,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019b0f3f947c-ba6ad5ae-ff28-459c-b417-edbefc1bb4a1
 - title: Kan musikk skape fred?
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2785,7 +2785,7 @@ results:
 - title: 'Presentation: ROBOts as Welfare Technologies and Actors for ELderLy Care:
     A Nordic Model for Integration of Advanced Assistive Technologies (ROBOWELL) pre-kickoff'
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2810,7 +2810,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019afdebbd4d-cd5554a2-c8ab-48bd-8edb-0f82432c2553
 - title: 'Nytt KI-senter ved UiO: MishMash'
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2837,7 +2837,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019ad150d6dd-85780548-4f53-4e79-af25-b31e53284c67
 - title: 'Nytt KI-senter ved HF: MishMash'
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2864,7 +2864,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019ad141cf7a-86867c4d-286f-4448-a4bc-16d14ada5425
 - title: Are we still needed?
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2897,7 +2897,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019ad1386dd7-c33856fc-5746-486f-ac6b-8e50fbb6811c
 - title: KI og det nye MishMash-senteret
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2924,7 +2924,7 @@ results:
   nva_url: https://nva.sikt.no/publication/0199950ae66e-c741ee65-1651-46f7-a3d2-6925df7836ca
 - title: Muligheter for deltagelse i MishMash Senter for KI og kreativitet
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2951,7 +2951,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019995090b5c-2399367f-12c9-48e1-a055-b3664cebea22
 - title: RITMO, MishMash and the fourMs Lab
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -2978,7 +2978,7 @@ results:
   nva_url: https://nva.sikt.no/publication/019994c32420-9e680d19-dfe8-4061-8442-da49021add6b
 - title: AI in film (and fine arts) schools
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:
@@ -3007,7 +3007,7 @@ results:
 - title: AI-retningslinjer for norsk film – hvem lager dem, og hvordan settes en arbeidsgruppe
     sammen?
   year: '2025'
-  type: Presentation
+  type: OtherPresentation
   type_label: Presentation
   group_type: Presentation
   contributors:

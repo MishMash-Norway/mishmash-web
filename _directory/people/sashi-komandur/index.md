@@ -55,7 +55,7 @@ search_keywords:
 selected_works:
 - title: INNKU 2025 - MISHMASH
   year: '2025'
-  source: MediaPodcast
+  source: Media podcast
   url: https://shows.acast.com/fts-podden/episodes/697896b3590ca8b771a9a373
 - title: INNKU 2025
   year: '2025'
@@ -64,7 +64,7 @@ selected_works:
 - title: Efficacy of Using Large Language Model (LLM) Based Tools for Synthesizing
     Findings from Human Factors Research Studies.
   year: '2025'
-  source: ConferencePoster
+  source: Conference poster
   url: https://ieem2025.org/About
 - title: 'Cognitive workload, eye-tracking, and communication: A mixed method study
     in a navigational training context'
@@ -73,7 +73,7 @@ selected_works:
   url: https://hdl.handle.net/11250/3195950
 - title: Essential Game Elements - Immersive Training​
   year: '2023'
-  source: Conference
+  source: Conference lecture
 - title: Accounting for effects of variation in luminance in pupillometry for field
     measurements of cognitive workload
   year: '2020'

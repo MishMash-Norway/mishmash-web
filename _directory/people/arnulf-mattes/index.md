@@ -39,24 +39,24 @@ selected_works:
 - title: 'The Grieg digital catalogue and ‘Norwegian Musical Heritage’: Preserving
     legacy, facing the future'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: Utopi, symfoni og videokunst - UiB Innsikt
   year: '2025'
   source: Lecture
 - title: "Fighting ‘the devil behind the orchestra’: \r\nBeethoven in musical life\
     \ of occupied Norway"
   year: '2024'
-  source: Conference
+  source: Conference lecture
 - title: Færre gråhåra hoder i salen
   year: '2024'
-  source: MediaInterview
+  source: Interview
 - title: 'Skjulte stemmer: Anne-Marie Ørbecks sanger fra 1942'
   year: '2023'
   source: Lecture
 - title: Hennes musikk ble første spilt i Nazi-Tyskland. Nå løftes bergenskomponisten
     frem under Festspillene
   year: '2023'
-  source: MediaInterview
+  source: Interview
   url: https://www.bt.no/kultur/i/xgQRPB/hennes-musikk-ble-foerste-spilt-i-nazi-tyskland-naa-loeftes-bergenskomponisten-frem-under-festspillene
 - title: 'BIT20 NORDEN #2: Sverige  - konsert og samtale med komponistene'
   year: '2022'
@@ -64,7 +64,7 @@ selected_works:
   url: https://www.bit20.no/arrangementer/2022/4/2/norden-2-sverige
 - title: Spillerom Søndag/NRK P2/NRK klassisk - Om Anne-Marie Ørbeck
   year: '2020'
-  source: MediaParticipationInRadioOrTv
+  source: Radio or TV
   url: https://radio.nrk.no/serie/spillerom-soendag/sesong/202010/MKRS01004320
 - title: Litterær lunsj med Arnulf Christian Mattes
   year: '2020'

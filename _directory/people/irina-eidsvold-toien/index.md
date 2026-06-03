@@ -34,11 +34,11 @@ selected_works:
   source: Book chapter
 - title: Is imitating the dead and copying the living just?
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: 'Pengestrømmer og verdikjeder i musikkfeltet: Aktører, tjenester, betalinger
     og utviklingstrekk'
   year: '2025'
-  source: ReportResearch
+  source: Research report
 - title: 'Remunerating authors and performers:  Are statutory fair compensation  provisions
     sufficient?'
   year: '2023'

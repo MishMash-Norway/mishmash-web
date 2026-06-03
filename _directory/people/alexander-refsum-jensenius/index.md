@@ -71,20 +71,20 @@ selected_works:
   source: Presentation
 - title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
   year: '2026'
-  source: MediaParticipationInRadioOrTv
+  source: Radio or TV
   url: https://radio.nrk.no/podkast/abels_taarn/l_26ee6156-aa61-4ba8-ae61-56aa61bba845
 - title: 'Live frå Aulaen: Musikk-spesial'
   year: '2026'
-  source: MediaParticipationInRadioOrTv
+  source: Radio or TV
   url: https://radio.nrk.no/serie/etikketaten/DMPO38401726
 - title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
     og filmprodusenter nå?'
   year: '2026'
-  source: MediaInterview
+  source: Interview
   url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
 - title: Bodies in Motion in the Concert Hall and Beyond
   year: '2026'
-  source: Conference
+  source: Conference lecture
   url: https://moco26.movementcomputing.org/
 - title: Mixed Method Audio-Video Analyses of Felt Togetherness in a Networked Music-Dance
     Performance

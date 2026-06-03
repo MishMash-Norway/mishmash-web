@@ -39,7 +39,7 @@ selected_works:
   url: https://doi.org/10.1016/j.neunet.2026.108798
 - title: Co-Optimization of Robot Bodies and Brains with Evolutionary Algorithms
   year: '2025'
-  source: Conference
+  source: Conference lecture
   url: https://www.mn.uio.no/ifi/english/research/groups/robin/events/Tutorials/Tutorial-SSCI2025/Tutorial-SSCI2025
 - title: Integrating Sample Inheritance into Bayesian Optimization for Evolutionary
     Robotics
@@ -56,7 +56,7 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.17642435
 - title: 'MusiQAl: Music Question Answering through Audio-Video fusion'
   year: '2025'
-  source: Conference
+  source: Conference lecture
   url: https://ismir2025.ismir.net/program-detailed-schedule
 - title: Generational Replacement and Learning for High-Performing and Diverse Populations
     in Evolvable Robots

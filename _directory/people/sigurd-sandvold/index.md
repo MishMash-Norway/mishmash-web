@@ -27,14 +27,14 @@ search_keywords: []
 selected_works:
 - title: Prosjekt Livslang læring i HVL
   year: '2021'
-  source: ReportResearch
+  source: Research report
 - title: GLUT- grunnskulelærarutdanning Tilsyn
   year: '2019'
-  source: ReportResearch
+  source: Research report
 - title: "Can spontaneous Internet activity serve the goals of school? : \r\nHSH-rapport\
     \ 20016/2"
   year: '2016'
-  source: ReportResearch
+  source: Research report
   url: https://brage.bibsys.no/xmlui/bitstream/id/447321/Rapport.pdf
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md

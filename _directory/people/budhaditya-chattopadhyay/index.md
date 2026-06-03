@@ -48,7 +48,7 @@ search_keywords:
 selected_works:
 - title: Atomspheres
   year: '2026'
-  source: MusicPerformance
+  source: Music performance
   url: https://dornsife.usc.edu/cema/events/
 - title: 'Reading Aloud: Sonic Perspectives from the Global Souths'
   year: '2026'
@@ -69,22 +69,22 @@ selected_works:
   url: https://doi.org/10.4324/9781003430599-20
 - title: 'Artificial Consciouness: Regenerating AI Ethics and Aesthetics'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: 'Unmedia: De-modernising Technology'
   year: '2025'
-  source: Conference
+  source: Conference lecture
   url: https://kmd.uib.no/en/Calendar/seminar/ears-to-the-ground
 - title: Dhvāni
   year: '2025'
-  source: ExhibitionProduction
+  source: Exhibition
   url: https://hearhere.be/en/expo/dhv%C4%81ni
 - title: The noise of geography
   year: '2025'
-  source: MediaInterview
+  source: Interview
   url: https://www.ultima.no/en/the-noise-of-geography-abdellah-m-hassak-in-conversation-with-budhaditya-chattopadhyay
 - title: 'Archival Intelligence: Machine Learning and Intergenerational Memory'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: 'Budhaditya Chattopadhyay is a multidisciplinary artist, researcher, and

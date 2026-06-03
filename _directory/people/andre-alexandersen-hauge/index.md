@@ -49,7 +49,7 @@ selected_works:
   url: https://doi.org/10.1201/9781351174664
 - title: Safety Demonstration – A Strategy for Assessors
   year: '2018'
-  source: Conference
+  source: Conference lecture
 - title: Safety demonstration challenges and recommendations in the nuclear field
   year: '2015'
   source: Book chapter
@@ -66,11 +66,11 @@ selected_works:
 - title: A pattern-based method for safe control conceptualisation exemplified within
     railway signalling. HWR-1037
   year: '2014'
-  source: ReportResearch
+  source: Research report
 - title: A pattern-based method for safe control conceptualisation exemplified within
     nuclear power production. HWR-1029
   year: '2014'
-  source: ReportResearch
+  source: Research report
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null

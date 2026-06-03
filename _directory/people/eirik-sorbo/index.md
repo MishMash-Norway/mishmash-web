@@ -34,7 +34,7 @@ search_keywords:
 selected_works:
 - title: Music and Resonance
   year: '2026'
-  source: Conference
+  source: Conference lecture
 - title: KI i kreative prosesser
   year: '2026'
   source: Lecture
@@ -44,7 +44,7 @@ selected_works:
   source: Book chapter
 - title: 'Ultraprocessed Sounds: Music and AI Reconceptualized'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: Explicit Cultures — Music Education in an Accelerated World
   year: '2025'
   source: Journal article
@@ -52,7 +52,7 @@ selected_works:
 - title: From transmission to collaboration? Exploring reflective practice in Nordic
     higher music education
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: Enough student agency? Exploring student agency and autonomy in an electronic
     music theory course in higher education
   year: '2025'
@@ -61,10 +61,10 @@ selected_works:
 - title: 'Don’t do this at home: Re-amping the Norwegian National Broadcasting Orchestra
     (KORK) for Nils Petter Molvær’s Certainty of Tides (2023)'
   year: '2024'
-  source: Conference
+  source: Conference lecture
 - title: Too much student agency?
   year: '2024'
-  source: Conference
+  source: Conference lecture
 - title: What do you mean? Developing a ‘model of the aesthetic dialogue’ in collaborative
     music making
   year: '2024'

@@ -28,34 +28,34 @@ search_keywords: []
 selected_works:
 - title: – Finnes festivaler som trenger forbedring - fvn.no
   year: '2025'
-  source: MediaInterview
+  source: Interview
   url: https://www.fvn.no/kultur/i/5pVr6z/finnes-festivaler-som-trenger-forbedring
 - title: UiA med på KI-satsing – NRK Sørlandet – Lokale nyheter, TV og radio
   year: '2025'
-  source: MediaInterview
+  source: Interview
   url: https://www.nrk.no/sorlandet/uia-med-pa-ki-satsing-1.17450741
 - title: Maria Arredondo om Kina suksessen - ikke redd for å bli brukt av regimet
     – NRK Sørlandet – Lokale nyheter, TV og radio
   year: '2025'
-  source: MediaInterview
+  source: Interview
   url: https://www.nrk.no/sorlandet/maria-arredondo-om-kina-suksessen---ikke-redd-for-a-bli-brukt-av-regimet-1.17528431
 - title: Artister er lei av at Spotify har monopolmakt. På tide for musikkinteresserte
     forbrukere å droppe Spotify, skrev Ola Djupvik i Pom Poko, etter å ha lest boken
     Mood Machine av Liz Pelly.
   year: '2025'
-  source: MediaInterview
+  source: Interview
   url: https://www.morgenbladet.no/kultur/artister-er-lei-av-at-spotify-har-monopolmakt-na-tar-stadig-flere-grep/9870617
 - title: 'NRK, Intervju: Artistar boikottar Spotify: – Eg kjenner meg makteslaus'
   year: '2025'
-  source: MediaInterview
+  source: Interview
   url: https://www.nrk.no/norge/artistar-oppfordrar-til-boikott-av-spotify-1.17492627
 - title: Vårt Land, Norsk musikk og honorar
   year: '2025'
-  source: MediaInterview
+  source: Interview
   url: https://www.vl.no/kultur/er-det-hogare-terskel-for-kristne-a-be-om-honorar/10037392
 - title: NRK P2, Studio 2
   year: '2025'
-  source: MediaParticipationInRadioOrTv
+  source: Radio or TV
   url: https://radio.nrk.no/serie/studio-2-p2/sesong/202512/MKAK02024225
 - title: 'MishMash, Centre for AI and Creativity: Samling Internasjonalt Fylkesnettverk'
   year: '2025'
@@ -66,7 +66,7 @@ selected_works:
   source: Lecture
 - title: 'Ultraprocessed Sounds: Music and AI Reconceptualized'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/management/index.md
 - /home/alexanje/github/mishmash-web/no/about/organisation/management/index.md

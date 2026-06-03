@@ -38,10 +38,10 @@ selected_works:
   source: Lecture
 - title: Facilitating development of interactive wheelchair sonifications
   year: '2024'
-  source: Conference
+  source: Conference lecture
 - title: Yellowstone/winter
   year: '2024'
-  source: MusicPerformance
+  source: Music performance
   url: https://www.youtube.com/live/8TVe_Xuv3G4?feature=shared
 - title: 'The MotionComposer: A therapy device that turns movement into music. Applications
     in pediatric medicine'
@@ -49,10 +49,10 @@ selected_works:
   source: Journal article
 - title: 'Deus Ex Machina: Synchronization Strategies in Mixed Music'
   year: '2022'
-  source: DegreePhd
+  source: PhD thesis
 - title: "Beginnings and Endings - Study I\r\nfor interactive dance"
   year: '2021'
-  source: MusicPerformance
+  source: Music performance
   url: https://youtu.be/fkOZaT2pS-k
 - title: Modalities of Listening, NTNU ARTEC Seminar Series Seminar
   year: '2020'

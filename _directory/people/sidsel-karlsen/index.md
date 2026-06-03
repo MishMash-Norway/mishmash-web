@@ -32,25 +32,25 @@ search_keywords:
 selected_works:
 - title: Gjør byen mer delt!
   year: '2026'
-  source: MediaReaderOpinion
+  source: Reader opinion
   url: https://klassekampen.no/artikkel/2026-05-11/debatt-gjor-byen-mer-delt
 - title: Korttenkt av Bydel Alna
   year: '2026'
-  source: MediaReaderOpinion
+  source: Reader opinion
   url: https://klassekampen.no/artikkel/2026-04-20/debatt-korttenkt-av-bydel-alna
 - title: SAMUS - Strengthening Sámi music in music teacher education
   year: '2026'
-  source: Conference
+  source: Conference lecture
 - title: 'How music genres matter in extra-curricular music education: A longitudinal
     study of the Norwegian schools of music and performing arts'
   year: '2026'
-  source: Conference
+  source: Conference lecture
 - title: Presentasjon av NMHs arbeid opp mot kulturskole
   year: '2026'
   source: Presentation
 - title: Theoretical work in music education research
   year: '2026'
-  source: Conference
+  source: Conference lecture
 - title: Soziologie der Musikpädagogik
   year: '2026'
   source: Book chapter
@@ -60,7 +60,7 @@ selected_works:
 - title: 'Music as agent: A posthumanist attempt to understand music as a force of
     social change and turmoil'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: Hva er FoU på NMH?
   year: '2025'
   source: Lecture

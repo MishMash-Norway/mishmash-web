@@ -34,10 +34,10 @@ selected_works:
 - title: 'Legging It: An Evolutionary Approach to Morphological Adaptation for a Real-World
     Quadruped Robot'
   year: '2020'
-  source: DegreePhd
+  source: PhD thesis
 - title: Towards Movement Generation with Audio Features
   year: '2020'
-  source: Conference
+  source: Conference lecture
 - title: Generating Convincing Harmony Parts with Simple Long Short-Term Memory Networks
   year: '2019'
   source: Book chapter
@@ -59,11 +59,11 @@ selected_works:
 - title: 'Self-Modifying Morphology Experiments with DyRET: Dynamic Robot for Embodied
     Testing'
   year: '2019'
-  source: ConferencePoster
+  source: Conference poster
 - title: "Lessons Learned from Real-World Experiments with\r\nDyRET: the Dynamic Robot\
     \ for Embodied Testing"
   year: '2019'
-  source: ConferencePoster
+  source: Conference poster
 - title: Comparing models for harmony prediction in an interactive audio looper
   year: '2019'
   source: Journal article

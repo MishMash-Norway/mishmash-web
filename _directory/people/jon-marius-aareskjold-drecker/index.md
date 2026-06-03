@@ -50,43 +50,43 @@ selected_works:
   url: https://www.routledge.com/Innovation-in-Music-Current-Research-Perspectives/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757858
 - title: 'AI and Humanities: The Role of AI-Based Tool in Music Production'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: 'Vocal Chops: Another Human/Machine Hybrid'
   year: '2024'
   source: Book chapter
   url: https://doi.org/10.4324/9781003462101-8
 - title: "Hey Siri, what are the royalty splits of the\r\nsong you wrote for me?"
   year: '2024'
-  source: Conference
+  source: Conference lecture
 - title: 'Scientists explain why Seeb''s remix of I Took A Pill In Ibiza has racked
     up 1.7 billion Spotify streams: it''s all down to "micro-rhythmic nuances", hard
     work... and playing left-handed'
   year: '2023'
-  source: MediaInterview
+  source: Interview
   url: https://www.musicradar.com/news/seeb-i-took-a-pill-in-ibiza-swing#lr9ngalio32771p5ar
 - title: Scientific research uncovers why Seeb’s I Took A Pill In Ibiza remix is hugely
     popular
   year: '2023'
-  source: MediaInterview
+  source: Interview
   url: https://musictech.com/news/music/university-study-seeb-i-took-a-pill-in-ibiza-remix/
 - title: Musical rhythm. Qualitative investigations
   year: '2022'
-  source: Conference
+  source: Conference lecture
 - title: Influence du traitement de plage dynamique sur le rythme perçu dans l’EDM
   year: '2022'
   source: Book chapter
 - title: Immersed in Pop! Excursions into Compositional Design
   year: '2022'
-  source: DegreePhd
+  source: PhD thesis
 - title: 'Konsert: ARcTic Susatin Festspillene i Nord-Norge,'
   year: '2021'
-  source: MusicPerformance
+  source: Music performance
   url: https://www.researchcatalogue.net/view/1456892/1729696
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/jon-marius-aareskjold-drecker/
 redirect_from:
-  - /directory/people/jon-marius-aareskjold-drecker/
+- /directory/people/jon-marius-aareskjold-drecker/
 ---
 

@@ -35,15 +35,15 @@ selected_works:
   url: https://doi.org/10.18261/nst.41.4.2
 - title: Not for the dough. Streaming in/as public service
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: 'Bypassing the access problem: Two alternative sources for media industry
     research'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: Comparative Studies of Media Industries – Literature Review and Call for
     Action
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: Public libraries on TikTok – emerging platform vernaculars of communication
     and distribution
   year: '2025'

@@ -30,7 +30,7 @@ selected_works:
 - title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
     og filmprodusenter nå?'
   year: '2026'
-  source: MediaInterview
+  source: Interview
   url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
 - title: Computational music analysis
   year: '2025'
@@ -41,7 +41,7 @@ selected_works:
   url: https://www.youtube.com/watch?v=I4jaZIzX0wg
 - title: 'AcousMuScope: Users'' Guide'
   year: '2025'
-  source: ReportResearch
+  source: Research report
   url: https://www.uio.no/ritmo/english/projects/mirage/software/AcousMuScope/index.html
 - title: 'Towards Collaborative Analysis: Kaija Saariaho’s Io (1986–87)'
   year: '2025'
@@ -49,23 +49,23 @@ selected_works:
 - title: 'Contemporary Music Analysis and Auditory Memory: The Use of Computational
     Tools as an Aid for Listening'
   year: '2025'
-  source: Conference
+  source: Conference lecture
   url: https://fabricadesites.fcsh.unl.pt/ncmm/ncmm-2025-program/
 - title: 'MusiQAl: Music Question Answering through Audio-Video fusion'
   year: '2025'
-  source: Conference
+  source: Conference lecture
   url: https://ismir2025.ismir.net/program-detailed-schedule
 - title: Computational Music Analysis Applied to Music Therapy Improvisation
   year: '2025'
-  source: Conference
+  source: Conference lecture
   url: https://ifas.thws.de/fileadmin/user_upload/250917_HIGH-M_Symposium_Programme_updated.pdf
 - title: 'Computational Music Analysis: Toolbox and application to music psychology
     & therapy'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: A Multimodal Dataset of Greek Folk Music
   year: '2025'
-  source: Conference
+  source: Conference lecture
   url: https://dlfm.web.ox.ac.uk/2025-programme
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md

@@ -61,14 +61,14 @@ selected_works:
   source: Presentation
 - title: Innovating at NTNU - An evaluative enquiry into NTNU’s innovation ecosystem
   year: '2025'
-  source: ReportResearch
+  source: Research report
 - title: 'Solar home systems and swarm electrification: Decentralized power systems
     for energy access'
   year: '2025'
-  source: DegreePhd
+  source: PhD thesis
 - title: Arctic food and energy security at the crossroads
   year: '2025'
-  source: JournalLetter
+  source: Letter to the editor
   url: https://doi.org/10.1038/s43247-025-02122-6
 - title: 'Relational responsibilities: Researchers perspective on current and progressive
     assessment criteria: A focus group study'
@@ -77,10 +77,10 @@ selected_works:
   url: https://doi.org/10.1371/journal.pone.0307814
 - title: Validation of AI and Avant-garde music composition
   year: '2024'
-  source: Conference
+  source: Conference lecture
 - title: What does it take to be human?
   year: '2024'
-  source: Conference
+  source: Conference lecture
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null

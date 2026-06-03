@@ -43,13 +43,13 @@ selected_works:
   source: Presentation
 - title: Open user experience design - The next generation bridge
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: OpenBridge
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: Designing for Next-Generation Remote Operation centers
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: OpenBridge 6.0 Automation Case
   year: '2025'
   source: Design

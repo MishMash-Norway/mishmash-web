@@ -43,11 +43,11 @@ selected_works:
 - title: 'Tracing the generation of the Sounding Relation research project: Emerging
     methodology and preliminary analysis'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: 'Socioecological perspectives on music therapy in medical contexts: Examples
     from project Sounding Relation'
   year: '2024'
-  source: Conference
+  source: Conference lecture
 - title: 'Research ethics in Sounding Relation: Use of music microanalysis to explore
     parental contributions to premature infant regulation in the neonatal context'
   year: '2024'
@@ -70,7 +70,7 @@ selected_works:
 - title: 'Parent-led, infant-directed singing for premature infants and caregivers:
     Multinational trial LongSTEP results'
   year: '2023'
-  source: Conference
+  source: Conference lecture
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null

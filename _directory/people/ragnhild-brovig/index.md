@@ -36,7 +36,7 @@ selected_works:
   url: https://trondelag.pameldingssystem.no/nasjonalt-fagkonferanse-for-kulturell-og-kreativ-naering-28-januar?#/default-12928
 - title: Presentasjon av Mishmash – senter for KI og kreativitet
   year: '2026'
-  source: Conference
+  source: Conference lecture
   url: https://www.arkitektbedriftene.no/arrangementer/ki-dagen
 - title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
     Currently Used in Music Production
@@ -49,7 +49,7 @@ selected_works:
   url: https://www.routledge.com/Innovation-in-Music-Innovative-Creative-Practice/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757834
 - title: 'Hip Hop Live Versions: Signifyin(g) and Homage'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: Rethinking Sampling, Value, and Power in Digital Music Culture
   year: '2025'
   source: Lecture
@@ -58,14 +58,14 @@ selected_works:
   source: Lecture
 - title: The Decline of Cloud-Based Sample Platforms?
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: '"Meat Grinder”: Performing Experimental Hip-Hop'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: 'Recording, Resampling, & Repurposing: The Case of Portishead and the Bristol
     Sound'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null

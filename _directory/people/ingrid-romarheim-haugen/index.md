@@ -30,7 +30,7 @@ selected_works:
   source: Lecture
 - title: Innganger til Draumkvedet i Nasjonalbibliotekets samling
   year: '2024'
-  source: NonFictionMonograph
+  source: Non-fiction book
   url: https://www.bokselskap.no/boker/draumkvedetinnganger/tittelside
 - title: Norwegian Folk Music & Computational Analysis
   year: '2023'

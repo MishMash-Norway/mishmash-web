@@ -10,6 +10,8 @@ import requests
 import yaml
 from PIL import Image, ImageDraw
 
+from nva_result_types import nva_publication_source
+
 
 class NoAliasDumper(yaml.SafeDumper):
     def ignore_aliases(self, data):
@@ -38,15 +40,6 @@ INSTITUTION_ABBREV = {
     "inland-norway-university-of-applied-sciences": "INN",
     "western-norway-university-of-applied-sciences": "HVL",
     "oslo-national-academy-of-the-arts": "KHiO",
-}
-
-PUBLICATION_TYPE_LABELS = {
-    "AcademicArticle": "Journal article",
-    "AcademicChapter": "Book chapter",
-    "BookAnthology": "Book",
-    "ConferenceLecture": "Conference",
-    "OtherPresentation": "Presentation",
-    "ArtisticDesign": "Design",
 }
 
 NVA_API_HOSTS = {
@@ -467,15 +460,6 @@ def download_nva_portrait(image_url: str, dest_path: Path) -> bool:
         return True
     except Exception:
         return False
-
-
-def nva_publication_source(reference: dict) -> str:
-    reference = reference or {}
-    instance = reference.get("publicationInstance") or {}
-    raw_type = instance.get("type") or ""
-    if raw_type in PUBLICATION_TYPE_LABELS:
-        return PUBLICATION_TYPE_LABELS[raw_type]
-    return raw_type.replace("Academic", "").strip() or "Publication"
 
 
 def find_doi_in_object(node) -> str:

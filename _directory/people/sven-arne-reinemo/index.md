@@ -36,7 +36,7 @@ selected_works:
   source: Journal article
 - title: Multi-Homed Fat-Tree Routing With InfiniBand
   year: '2014'
-  source: Conference
+  source: Conference lecture
 - title: Prototyping Live Migration With SR-IOV Supported InfiniBand HCAs
   year: '2013'
   source: Lecture
@@ -52,7 +52,7 @@ selected_works:
   source: Journal article
 - title: Discovery and Routing of Degraded Fat-Trees
   year: '2012'
-  source: Conference
+  source: Conference lecture
 - title: VFtree - a Fat-Tree Routing Algorithm Using Virtual Lanes to Alleviate Congestion
   year: '2011'
   source: Lecture

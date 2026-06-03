@@ -42,22 +42,22 @@ search_keywords:
 selected_works:
 - title: Konsert Lokalt Piano Skoklefall Kirke
   year: '2026'
-  source: MusicPerformance
+  source: Music performance
 - title: Lokalt Piano, by Morten Qvenild - Ugla Lyd
   year: '2026'
-  source: MusicPerformance
+  source: Music performance
   url: https://mortenqvenild.bandcamp.com/album/lokalt-piano
 - title: Remembrance Konserter
   year: '2026'
-  source: MusicPerformance
+  source: Music performance
   url: https://www.researchcatalogue.net/view/3872769/3872770
 - title: Remembrance - Exposition
   year: '2025'
-  source: MusicPerformance
+  source: Music performance
   url: https://www.researchcatalogue.net/view/3872769/3872770
 - title: Mirra, by Benedicte Maurseth
   year: '2025'
-  source: MusicPerformance
+  source: Music performance
   url: https://maurseth.bandcamp.com/album/mirra
 - title: 'Samfunnsrelevans på spill: Kunstnerisk utviklingsarbeid i dagens utdanningspolitikk'
   year: '2025'
@@ -65,15 +65,15 @@ selected_works:
   url: https://www.researchcatalogue.net/view/2421554/3524484
 - title: Symfoni
   year: '2024'
-  source: MusicPerformance
+  source: Music performance
   url: https://orcd.co/symfonirnq
 - title: Unheimlich Manoeuvre, by Jo Berger Myhre
   year: '2024'
-  source: MusicPerformance
+  source: Music performance
   url: https://jobergermyhre.bandcamp.com/album/unheimlich-manoeuvre
 - title: Hvis det ikke brenner
   year: '2024'
-  source: PerformingArts
+  source: Performing arts
 - title: Hva er kunstnerisk utviklingsarbeid på Norges Musikkhøgskole
   year: '2023'
   source: Presentation

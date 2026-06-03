@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign lang = page.lang | default: 'en' %}
+{% assign t = site.data.translations[lang] %}
 {% assign primary_institution_slug = page.institution %}
 {% unless primary_institution_slug %}{% assign primary_institution_slug = page.institutions | first %}{% endunless %}
 {% assign primary_institution_doc = site.directory | where: "type", "institution" | where: "slug", primary_institution_slug | first %}
@@ -85,6 +87,11 @@ layout: default
         </li>
         {% endfor %}
       </ul>
+      {% if page.urls.nva.size > 0 %}
+      <p class="person-selected-works-more">
+        <a href="{{ page.urls.nva }}" target="_blank" rel="noopener noreferrer">{{ t.person_more_results_nva }}</a>
+      </p>
+      {% endif %}
     </section>
     {% endif %}
 

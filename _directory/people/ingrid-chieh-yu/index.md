@@ -62,7 +62,7 @@ selected_works:
   url: https://link.springer.com/content/pdf/10.1007%2F978-3-030-91431-8_14.pdf
 - title: Three-Way Semantic Merge for Feature Model Evolution Plans
   year: '2021'
-  source: DegreeMaster
+  source: Master's thesis
   url: http://urn.nb.no/URN:NBN:no-89666
 - title: 'EXPLAN: Explaining Black-box Classifiers using Adaptive Neighborhood Generation'
   year: '2020'

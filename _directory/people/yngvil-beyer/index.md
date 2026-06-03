@@ -33,7 +33,7 @@ selected_works:
   source: Book chapter
 - title: 'The NorHand Model: a new public AI model from the National Library of Norway'
   year: '2024'
-  source: MediaInterview
+  source: Interview
   url: https://www.transkribus.org/success-story/norhand
 - title: Håndskriftsgjenkjenning med Transkribus
   year: '2023'
@@ -52,11 +52,11 @@ selected_works:
   source: Lecture
 - title: NorFraktur_1600_PyLaia
   year: '2022'
-  source: DataSet
+  source: Dataset
 - title: '"The Peder Rafn-Project". Reading a  16th & 17th Century Collection of Danish
     Norwegian and German Broadsheet ballads in  Transkribus'
   year: '2022'
-  source: Conference
+  source: Conference lecture
 - title: A Comprehensive Comparison of Open-Source Libraries for Handwritten Text
     Recognition in Norwegian
   year: '2022'

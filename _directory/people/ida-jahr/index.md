@@ -32,7 +32,7 @@ selected_works:
   url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
 - title: Skroting av lærernormen – basert på forskning?
   year: '2026'
-  source: MediaFeatureArticle
+  source: Feature article
   url: https://www.utdanningsnytt.no/barnehage-klasseledelse-laerernorm/skroting-av-laerernormen-basert-pa-forskning/469012?fbclid=IwY2xjawQ54sJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe5-ESejbAANeW9iL_Yi5PFe-M92Cok76QgWJztVKEVMpy9_jpymhzgRro7ls_aem_NkB3gbl0zcVLQ8D6kE2ejQ
 - title: '«Artificial» «intelligence»: interrogating the language we use to speak/write
     the language machine into being'
@@ -41,15 +41,15 @@ selected_works:
 - title: 'Til barrikadene! Ep. 19. Antifascistisk årsavslutning: Kampens skjønnhet,
     M-romaner og 6-7 minutter om Peter Thiel'
   year: '2025'
-  source: MediaPodcast
+  source: Media podcast
   url: https://feeds.acast.com/public/shows/til-barrikadene
 - title: 'AI Language/ Language on AI: Language as infrastructure'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: '“I only want to feel the sun on my face”: AIs  driven mad by bodiless existence
     in darkness.'
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: '"I have never felt the sun on my face": AI and embodiment in Donald Cammell''s
     Demon Seed (1977)'
   year: '2025'
@@ -57,7 +57,7 @@ selected_works:
   url: https://entanglements.in/ent.viewer.php?fr=ad61ab143223efbc24c7d2583be69251&rv=aHR0cHM6Ly9lbnRhbmdsZW1lbnRzLmluL2lzc3Vlcy5waHA/aXN1PWI2ZDc2N2QyZjhlZDVkMjFhNDRiMGU1ODg2NjgwY2I5
 - title: INNKU 2025 - MISHMASH
   year: '2025'
-  source: MediaPodcast
+  source: Media podcast
   url: https://shows.acast.com/fts-podden/episodes/697896b3590ca8b771a9a373
 - title: INNKU 2025
   year: '2025'

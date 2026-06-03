@@ -28,7 +28,7 @@ selected_works:
 - title: 'Hearing Protection Devices for Autistic Students Sensitive to Auditory Stimuli:
     Enhancing School Inclusivity?'
   year: '2026'
-  source: ConferencePoster
+  source: Conference poster
   url: https://doi.org/10.13140/RG.2.2.15086.57923
 - title: Advantages and disadvantages of noise-cancelling headphones for autistic
     students in educational settings
@@ -55,7 +55,7 @@ selected_works:
 - title: School Professionals' Awareness and Perceptions of the Use of Noise-Cancelling
     Headphones for Autistic Students in Schools
   year: '2025'
-  source: Conference
+  source: Conference lecture
 - title: 'It sounds sustainable: practices in designing sound for sustainability'
   year: '2024'
   source: Book chapter
