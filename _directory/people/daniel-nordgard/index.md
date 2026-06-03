@@ -84,6 +84,8 @@ summary: 'Daniel Nordgård is professor in music business and management at the 
   invited as guest speaker at music business conferences and academic conferences,
   nationally and internationally, and is regularly used as expert by policy makers
   and legislators.'
-permalink: /directory/people/daniel-nordgard/
+permalink: /people/daniel-nordgard/
+redirect_from:
+  - /directory/people/daniel-nordgard/
 ---
 

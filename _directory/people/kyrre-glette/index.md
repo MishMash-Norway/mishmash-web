@@ -80,6 +80,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/kyrre-glette/
+permalink: /people/kyrre-glette/
+redirect_from:
+  - /directory/people/kyrre-glette/
 ---
 

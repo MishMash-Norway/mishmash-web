@@ -69,6 +69,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null
-permalink: /directory/people/lina-plataniti/
+permalink: /people/lina-plataniti/
+redirect_from:
+  - /directory/people/lina-plataniti/
 ---
 

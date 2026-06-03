@@ -29,6 +29,8 @@ selected_works: []
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
 summary: null
-permalink: /directory/people/eskil-muan-saether/
+permalink: /people/eskil-muan-saether/
+redirect_from:
+  - /directory/people/eskil-muan-saether/
 ---
 

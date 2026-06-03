@@ -69,6 +69,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/ragnhild-brovig/
+permalink: /people/ragnhild-brovig/
+redirect_from:
+  - /directory/people/ragnhild-brovig/
 ---
 

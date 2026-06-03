@@ -80,6 +80,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null
-permalink: /directory/people/morten-qvenild/
+permalink: /people/morten-qvenild/
+redirect_from:
+  - /directory/people/morten-qvenild/
 ---
 

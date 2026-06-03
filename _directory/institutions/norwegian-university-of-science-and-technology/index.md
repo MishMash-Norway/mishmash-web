@@ -1,7 +1,9 @@
 ---
 type: institution
 slug: norwegian-university-of-science-and-technology
-permalink: /directory/institutions/norwegian-university-of-science-and-technology/
+permalink: /institutions/norwegian-university-of-science-and-technology/
+redirect_from:
+  - /directory/institutions/norwegian-university-of-science-and-technology/
 name: Norwegian University of Science and Technology
 image: /images/institutions/norwegian-university-of-science-and-technology.png
 people:

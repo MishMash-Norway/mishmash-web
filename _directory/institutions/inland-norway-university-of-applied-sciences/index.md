@@ -1,7 +1,9 @@
 ---
 type: institution
 slug: inland-norway-university-of-applied-sciences
-permalink: /directory/institutions/inland-norway-university-of-applied-sciences/
+permalink: /institutions/inland-norway-university-of-applied-sciences/
+redirect_from:
+  - /directory/institutions/inland-norway-university-of-applied-sciences/
 name: Inland Norway University of Applied Sciences
 image: /images/institutions/inland-norway-university-of-applied-sciences.png
 people:

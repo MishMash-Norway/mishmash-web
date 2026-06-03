@@ -1,7 +1,9 @@
 ---
 type: institution
 slug: oslo-national-academy-of-the-arts
-permalink: /directory/institutions/oslo-national-academy-of-the-arts/
+permalink: /institutions/oslo-national-academy-of-the-arts/
+redirect_from:
+  - /directory/institutions/oslo-national-academy-of-the-arts/
 name: Oslo National Academy of the Arts
 image: /images/institutions/oslo-national-academy-of-the-arts.png
 people:

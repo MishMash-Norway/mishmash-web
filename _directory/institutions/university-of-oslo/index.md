@@ -1,7 +1,9 @@
 ---
 type: institution
 slug: university-of-oslo
-permalink: /directory/institutions/university-of-oslo/
+permalink: /institutions/university-of-oslo/
+redirect_from:
+  - /directory/institutions/university-of-oslo/
 name: University of Oslo
 image: /images/institutions/university-of-oslo.png
 people:

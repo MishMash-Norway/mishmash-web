@@ -1,7 +1,9 @@
 ---
 type: institution
 slug: norwegian-academy-of-music
-permalink: /directory/institutions/norwegian-academy-of-music/
+permalink: /institutions/norwegian-academy-of-music/
+redirect_from:
+  - /directory/institutions/norwegian-academy-of-music/
 name: Norwegian Academy of Music
 image: /images/institutions/norwegian-academy-of-music.png
 people:

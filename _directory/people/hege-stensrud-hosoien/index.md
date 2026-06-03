@@ -27,6 +27,8 @@ selected_works: []
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
 summary: null
-permalink: /directory/people/hege-stensrud-hosoien/
+permalink: /people/hege-stensrud-hosoien/
+redirect_from:
+  - /directory/people/hege-stensrud-hosoien/
 ---
 

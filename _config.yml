@@ -25,7 +25,7 @@ collections:
     permalink: /events/:title/
   directory:
     output: true
-    permalink: /directory/:path/
+    permalink: /:path/
 
 defaults:
   - scope:

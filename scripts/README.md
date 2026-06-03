@@ -71,7 +71,7 @@ Updated fields:
 - Portrait (`image`, downloaded from NVA when available)
 - Recent publications (`selected_works`, up to 10)
 
-A GitHub Actions workflow runs this once per day (`.github/workflows/enrich-directory-people.yml`).
+A GitHub Actions workflow runs this once per day (`.github/workflows/enrich-directory-people.yml`), including a sync of MishMash project results to `_data/mishmash_results.yml` for `/results/`.
 
 ### NVA API access (UiO / MishMash)
 
@@ -127,6 +127,7 @@ API hosts ([nva-api-documentation](https://github.com/BIBSYSDEV/nva-api-document
 ```bash
 pip install -r scripts/requirements.txt
 python3 scripts/enrich_directory_from_nva.py --discover-nva --discover-nva-loose --max-works 10
+python3 scripts/sync_results_from_nva.py
 ```
 
 Useful flags:

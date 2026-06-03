@@ -1,7 +1,9 @@
 ---
 type: institution
 slug: reimagine
-permalink: /directory/institutions/reimagine/
+permalink: /institutions/reimagine/
+redirect_from:
+  - /directory/institutions/reimagine/
 name: Reimagine
 image: /images/institutions/reimagine.png
 people:

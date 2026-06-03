@@ -1,7 +1,9 @@
 ---
 type: institution
 slug: norsus-norwegian-institute-for-sustainability-research
-permalink: /directory/institutions/norsus-norwegian-institute-for-sustainability-research/
+permalink: /institutions/norsus-norwegian-institute-for-sustainability-research/
+redirect_from:
+  - /directory/institutions/norsus-norwegian-institute-for-sustainability-research/
 name: NORSUS - Norwegian Institute for Sustainability Research
 image: /images/institutions/norsus-norwegian-institute-for-sustainability-research.png
 people:

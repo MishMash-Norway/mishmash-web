@@ -73,6 +73,8 @@ summary: Associate Professor of English Literature and Culture at the University
   Inland Norway. Deputy Director of the MishMash Centre for AI and Creativity. Head
   of the MA programme Digital Communication and Culture. Research interests include
   American history and culture, digital culture, and the medical humanities.
-permalink: /directory/people/ida-jahr/
+permalink: /people/ida-jahr/
+redirect_from:
+  - /directory/people/ida-jahr/
 ---
 

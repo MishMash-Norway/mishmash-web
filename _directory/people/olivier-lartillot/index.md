@@ -70,6 +70,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/olivier-lartillot/
+permalink: /people/olivier-lartillot/
+redirect_from:
+  - /directory/people/olivier-lartillot/
 ---
 

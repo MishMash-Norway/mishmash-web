@@ -69,6 +69,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/ivar-grydeland/
+permalink: /people/ivar-grydeland/
+redirect_from:
+  - /directory/people/ivar-grydeland/
 ---
 

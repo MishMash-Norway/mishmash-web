@@ -59,6 +59,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null
-permalink: /directory/people/marit-wergeland/
+permalink: /people/marit-wergeland/
+redirect_from:
+  - /directory/people/marit-wergeland/
 ---
 

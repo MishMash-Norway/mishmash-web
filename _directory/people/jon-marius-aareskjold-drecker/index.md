@@ -85,6 +85,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/jon-marius-aareskjold-drecker/
+permalink: /people/jon-marius-aareskjold-drecker/
+redirect_from:
+  - /directory/people/jon-marius-aareskjold-drecker/
 ---
 

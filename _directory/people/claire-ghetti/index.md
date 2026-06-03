@@ -74,6 +74,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/claire-ghetti/
+permalink: /people/claire-ghetti/
+redirect_from:
+  - /directory/people/claire-ghetti/
 ---
 

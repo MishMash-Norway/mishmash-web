@@ -67,6 +67,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
 summary: null
-permalink: /directory/people/sunniva-whittaker/
+permalink: /people/sunniva-whittaker/
+redirect_from:
+  - /directory/people/sunniva-whittaker/
 ---
 

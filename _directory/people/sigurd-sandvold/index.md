@@ -39,6 +39,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null
-permalink: /directory/people/sigurd-sandvold/
+permalink: /people/sigurd-sandvold/
+redirect_from:
+  - /directory/people/sigurd-sandvold/
 ---
 

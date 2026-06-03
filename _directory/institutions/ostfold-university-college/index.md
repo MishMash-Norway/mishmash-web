@@ -1,7 +1,9 @@
 ---
 type: institution
 slug: ostfold-university-college
-permalink: /directory/institutions/ostfold-university-college/
+permalink: /institutions/ostfold-university-college/
+redirect_from:
+  - /directory/institutions/ostfold-university-college/
 name: Ostfold University College
 image: /images/institutions/ostfold-university-college.png
 people:

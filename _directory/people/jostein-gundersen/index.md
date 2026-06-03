@@ -51,6 +51,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null
-permalink: /directory/people/jostein-gundersen/
+permalink: /people/jostein-gundersen/
+redirect_from:
+  - /directory/people/jostein-gundersen/
 ---
 

@@ -84,6 +84,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null
-permalink: /directory/people/govert-valkenburg/
+permalink: /people/govert-valkenburg/
+redirect_from:
+  - /directory/people/govert-valkenburg/
 ---
 

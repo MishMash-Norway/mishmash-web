@@ -91,6 +91,8 @@ summary: 'Budhaditya Chattopadhyay is a multidisciplinary artist, researcher, an
   writer. He is a Marie Curie Postdoctoral Fellow at the Faculty of Fine Art, Music
   and Design (KMD), University of Bergen, and a co-lead of the Work Package: AI in
   Artistic Processes, at the MishMash Centre for AI and Creativity.'
-permalink: /directory/people/budhaditya-chattopadhyay/
+permalink: /people/budhaditya-chattopadhyay/
+redirect_from:
+  - /directory/people/budhaditya-chattopadhyay/
 ---
 

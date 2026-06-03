@@ -88,6 +88,8 @@ summary: 'Synne Tollerud Bull is a media artist, researcher, and Professor, curr
 
   She has developed the concept of proxistant vision to describe image forms that
   combine proximity and distance within a single vi'
-permalink: /directory/people/synne-tollerud-bull/
+permalink: /people/synne-tollerud-bull/
+redirect_from:
+  - /directory/people/synne-tollerud-bull/
 ---
 

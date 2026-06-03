@@ -1,7 +1,9 @@
 ---
 type: person
 slug: christian-blom
-permalink: /directory/people/christian-blom/
+permalink: /people/christian-blom/
+redirect_from:
+  - /directory/people/christian-blom/
 name: Christian Blom
 title: Christian Blom
 position: Board Member

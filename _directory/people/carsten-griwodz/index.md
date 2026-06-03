@@ -88,6 +88,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/carsten-griwodz/
+permalink: /people/carsten-griwodz/
+redirect_from:
+  - /directory/people/carsten-griwodz/
 ---
 

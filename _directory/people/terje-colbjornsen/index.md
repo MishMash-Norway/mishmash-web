@@ -71,6 +71,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null
-permalink: /directory/people/terje-colbjornsen/
+permalink: /people/terje-colbjornsen/
+redirect_from:
+  - /directory/people/terje-colbjornsen/
 ---
 

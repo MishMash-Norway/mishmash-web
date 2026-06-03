@@ -32,6 +32,8 @@ source_mentions:
 summary: Senior adviser and research coordinator at the University of Bergen, Faculty
   of Fine Art, Music and Design. Research advisor for the MishMash Centre for AI and
   Creativity.
-permalink: /directory/people/thomas-de-ridder/
+permalink: /people/thomas-de-ridder/
+redirect_from:
+  - /directory/people/thomas-de-ridder/
 ---
 

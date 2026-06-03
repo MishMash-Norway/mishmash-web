@@ -1,8 +1,8 @@
 ---
 type: person
 slug: fredrik-graver
-name: Fredrik (Georg Fredrik) Graver
-title: Fredrik (Georg Fredrik) Graver
+name: Fredrik Graver
+title: Fredrik Graver
 position: Professor
 department: The Norwegian Film School
 image: /assets/images/portraits/circle/Fredrik_Graver_INN.png
@@ -86,6 +86,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/fredrik-graver/
+permalink: /people/fredrik-graver/
+redirect_from:
+  - /directory/people/fredrik-graver/
 ---
 

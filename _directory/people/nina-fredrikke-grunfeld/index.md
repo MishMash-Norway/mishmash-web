@@ -83,6 +83,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null
-permalink: /directory/people/nina-fredrikke-grunfeld/
+permalink: /people/nina-fredrikke-grunfeld/
+redirect_from:
+  - /directory/people/nina-fredrikke-grunfeld/
 ---
 

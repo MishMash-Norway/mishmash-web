@@ -70,6 +70,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
 summary: null
-permalink: /directory/people/tine-grieg-viig/
+permalink: /people/tine-grieg-viig/
+redirect_from:
+  - /directory/people/tine-grieg-viig/
 ---
 

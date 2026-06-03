@@ -1,7 +1,9 @@
 ---
 type: institution
 slug: university-of-agder
-permalink: /directory/institutions/university-of-agder/
+permalink: /institutions/university-of-agder/
+redirect_from:
+  - /directory/institutions/university-of-agder/
 name: University of Agder
 image: /images/institutions/university-of-agder.png
 people:

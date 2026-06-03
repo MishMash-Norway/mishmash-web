@@ -65,6 +65,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null
-permalink: /directory/people/yngvil-beyer/
+permalink: /people/yngvil-beyer/
+redirect_from:
+  - /directory/people/yngvil-beyer/
 ---
 

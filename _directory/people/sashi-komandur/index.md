@@ -101,6 +101,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/sashi-komandur/
+permalink: /people/sashi-komandur/
+redirect_from:
+  - /directory/people/sashi-komandur/
 ---
 

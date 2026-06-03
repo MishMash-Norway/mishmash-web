@@ -1,7 +1,9 @@
 ---
 type: person
 slug: christian-schussler
-permalink: /directory/people/christian-schussler/
+permalink: /people/christian-schussler/
+redirect_from:
+  - /directory/people/christian-schussler/
 name: Christian Schüssler
 title: Christian Schüssler
 position: Board Member

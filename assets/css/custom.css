@@ -426,6 +426,43 @@ a:focus-visible .icon {
   margin-top: 0.15rem;
 }
 
+.nva-results {
+  margin-top: 1.5rem;
+}
+
+.nva-results-summary {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+}
+
+.nva-results-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.nva-result-item + .nva-result-item {
+  margin-top: 1.25rem;
+}
+
+.nva-result-title {
+  font-weight: 600;
+}
+
+.nva-result-meta,
+.nva-result-contributors,
+.nva-result-institutions,
+.nva-result-links {
+  color: #666;
+  font-size: 0.92rem;
+  margin-top: 0.25rem;
+}
+
+.nva-result-label {
+  font-weight: 600;
+  color: #444;
+}
+
 @media (max-width: 640px) {
   .person-profile-card {
     align-items: flex-start;

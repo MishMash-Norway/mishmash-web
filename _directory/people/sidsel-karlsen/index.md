@@ -67,6 +67,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/sidsel-karlsen/
+permalink: /people/sidsel-karlsen/
+redirect_from:
+  - /directory/people/sidsel-karlsen/
 ---
 

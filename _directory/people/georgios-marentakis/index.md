@@ -69,6 +69,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/georgios-marentakis/
+permalink: /people/georgios-marentakis/
+redirect_from:
+  - /directory/people/georgios-marentakis/
 ---
 

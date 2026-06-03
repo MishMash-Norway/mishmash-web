@@ -74,6 +74,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null
-permalink: /directory/people/andre-alexandersen-hauge/
+permalink: /people/andre-alexandersen-hauge/
+redirect_from:
+  - /directory/people/andre-alexandersen-hauge/
 ---
 

@@ -73,6 +73,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/arnulf-mattes/
+permalink: /people/arnulf-mattes/
+redirect_from:
+  - /directory/people/arnulf-mattes/
 ---
 

@@ -82,6 +82,8 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
-permalink: /directory/people/baltasar-beferull-lozano/
+permalink: /people/baltasar-beferull-lozano/
+redirect_from:
+  - /directory/people/baltasar-beferull-lozano/
 ---
 

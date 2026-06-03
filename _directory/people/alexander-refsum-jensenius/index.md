@@ -96,6 +96,8 @@ source_mentions:
 summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music technology
   at the University of Oslo. He works on the intersection of humans and machines,
   combining methods from artistic and scientific research in creative ways.
-permalink: /directory/people/alexander-refsum-jensenius/
+permalink: /people/alexander-refsum-jensenius/
+redirect_from:
+  - /directory/people/alexander-refsum-jensenius/
 ---
 
