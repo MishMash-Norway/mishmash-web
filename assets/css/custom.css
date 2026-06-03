@@ -433,7 +433,29 @@ a:focus-visible .icon {
 .nva-results-summary {
   color: #666;
   font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.nva-results-filters {
   margin-bottom: 1.25rem;
+}
+
+.nva-results-filter-status {
+  margin: 0.35rem 0 0;
+  color: #666;
+  font-size: 0.85rem;
+  min-height: 1.2em;
+}
+
+.nva-results-group + .nva-results-group {
+  margin-top: 2rem;
+}
+
+.nva-results-group-title {
+  font-size: 1.15rem;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #e4e8ec;
 }
 
 .nva-results-list {

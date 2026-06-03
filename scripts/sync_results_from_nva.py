@@ -184,6 +184,11 @@ def parse_result_hit(
     return entry
 
 
+def result_sort_key(result: dict) -> tuple[str, int]:
+    type_name = (result.get("type") or "Other").lower()
+    return (type_name, -work_sort_key(result))
+
+
 def fetch_project_results(project_id: str) -> list[dict]:
     project_url = nva_api_url(f"/cristin/project/{project_id}")
     hits: list[dict] = []
@@ -247,7 +252,7 @@ def sync_results(root: Path, project_id: str, output: Path) -> dict:
         for hit in hits
         if localized_text((hit.get("entityDescription") or {}).get("mainTitle"))
     ]
-    results.sort(key=work_sort_key, reverse=True)
+    results.sort(key=result_sort_key)
 
     payload = {
         "synced_at": datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z"),

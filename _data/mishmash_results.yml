@@ -1,4 +1,4 @@
-synced_at: '2026-06-03T20:22:39Z'
+synced_at: '2026-06-03T20:28:41Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -7,444 +7,6 @@ project:
     en: MishMash Centre for AI and Creativity
     nb: MishMash Senter for KI og kreativitet
 results:
-- title: Building intersectional Cultural Ecosystems & Institutions for the Future
-  year: '2026'
-  type: Presentation
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Jesper Mardahl
-  - name: Simon Kimmel
-  - name: Martin Eyerer
-  - name: Roland Sillmann
-  - name: Philipp Grefer
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://www.wisenotwise.com/wise2026program
-  nva_url: https://nva.sikt.no/publication/019e7fb15492-102757ea-b56a-4dc6-8734-56dac427fdc3
-- title: Tverrfaglighet i forskning (og utdanning)
-  year: '2026'
-  type: Presentation
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  nva_url: https://nva.sikt.no/publication/019e45845336-b864a8b3-cf7c-458c-8385-6c3d8766059b
-- title: Mellom menneske og maskin
-  year: '2026'
-  type: Presentation
-  contributors:
-  - name: Silje Midtlien Sigurdsen
-  - name: Camila Urrego
-  - name: Gunnar Gabriel Gjermundsen
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://fotografiens-hus.no/samtale-mellom-menneske-og-maskin/
-  nva_url: https://nva.sikt.no/publication/019e32c7e996-3b1abd75-32c5-410a-8cd6-833319d55756
-- title: Sang og KI
-  year: '2026'
-  type: Presentation
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  nva_url: https://nva.sikt.no/publication/019dfe980ca5-56907564-ed5d-4548-9576-656c8a18419a
-- title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
-  year: '2026'
-  type: MediaParticipationInRadioOrTv
-  contributors:
-  - name: Torkild Jemterud
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://radio.nrk.no/podkast/abels_taarn/l_26ee6156-aa61-4ba8-ae61-56aa61bba845
-  nva_url: https://nva.sikt.no/publication/019de25b1c1d-d9db78cb-2708-4e83-a0c5-b50130e99739
-- title: 'Live frå Aulaen: Musikk-spesial'
-  year: '2026'
-  type: MediaParticipationInRadioOrTv
-  contributors:
-  - name: Kjersti Anderdal Bakken
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Tine Thing Helseth
-  - name: Ragnhild Schiager Folkestad
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://radio.nrk.no/serie/etikketaten/DMPO38401726
-  nva_url: https://nva.sikt.no/publication/019de2544f5f-3e6a1b65-e57c-412e-85ca-b7e448236da3
-- title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
-    og filmprodusenter nå?'
-  year: '2026'
-  type: MediaInterview
-  contributors:
-  - name: Sunniva Monclair Bøe
-  - name: Elise Koppang Frøjd
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Diego Marin-Bucio
-  - name: Benedikte Wallace
-  - name: Olivier Lartillot
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
-  nva_url: https://nva.sikt.no/publication/019dcde48166-cd974c11-c757-4b22-a122-7defb03b962e
-- title: Atomspheres
-  year: '2026'
-  type: MusicPerformance
-  contributors:
-  - name: Budhaditya Chattopadhyay
-    slug: budhaditya-chattopadhyay
-    url: /people/budhaditya-chattopadhyay/
-  institutions:
-  - name: University of Bergen
-    slug: university-of-bergen
-    url: /institutions/university-of-bergen/
-  url: https://dornsife.usc.edu/cema/events/
-  nva_url: https://nva.sikt.no/publication/019dcbf4d15b-642a468a-8e7f-4fb1-8e21-c0c8b5598702
-- title: Auditory Situationism and Unmedia
-  year: '2026'
-  type: Lecture
-  contributors:
-  - name: Budhaditya Chattopadhyay
-    slug: budhaditya-chattopadhyay
-    url: /people/budhaditya-chattopadhyay/
-  institutions:
-  - name: University of Bergen
-    slug: university-of-bergen
-    url: /institutions/university-of-bergen/
-  url: https://artacademycalendar.khio.no/open-forum/budhaditya-chattopadhyay-auditory-situationism-and-unmedia
-  nva_url: https://nva.sikt.no/publication/019dcbe84d33-c303c87c-49b8-4bdb-9d80-1927582f9afe
-- title: Bodies in Motion in the Concert Hall and Beyond
-  year: '2026'
-  type: Conference
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Laura Bishop
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://moco26.movementcomputing.org/
-  nva_url: https://nva.sikt.no/publication/019dc482b472-5d33b852-057c-49f0-b9cb-866787dea540
-- title: 'Design Agentics :: Creative R&D x AI'
-  year: '2026'
-  type: Presentation
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Ida Jahr
-    slug: ida-jahr
-    url: /people/ida-jahr/
-  - name: Enrique Encinas
-  - name: Hedda Foss Lilleng
-  - name: Lene Renneflott
-  institutions:
-  - name: Oslo School of Architecture and Design
-    slug: oslo-school-of-architecture-and-design
-    url: /institutions/oslo-school-of-architecture-and-design/
-  - name: Inland Norway University of Applied Sciences
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
-  url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
-  nva_url: https://nva.sikt.no/publication/019dc37da862-8dad0484-5d39-4e81-b014-c38f3af96941
-- title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
-  year: '2026'
-  type: Presentation
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  institutions: []
-  url: https://www.kulturdirektoratet.no/kalender/konferanse-strategisk-framsyn-i-det-norske-kulturfeltet
-  nva_url: https://nva.sikt.no/publication/019db9aba304-1cb12c80-5618-476a-8f7a-5d2b54f6d6b5
-- title: Kunstnerisk intelligens
-  year: '2026'
-  type: Lecture
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  institutions: []
-  url: https://mishmash.no/events/aulaen2026/
-  nva_url: https://nva.sikt.no/publication/019db96ab7a2-d0161680-a40a-4ab0-b2fa-9391efb07cb8
-- title: Manifestos for an Algorithmic World
-  year: '2026'
-  type: Conference
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  institutions: []
-  url: https://metamorf.art/2026/03/18/conference-program-signup/
-  nva_url: https://nva.sikt.no/publication/019db950be37-04a12e98-e359-48da-bf6c-33a87247c3ba
-- title: Musikkmaskinene | Aftenposten Innsikt
-  year: '2026'
-  type: MediaInterview
-  contributors:
-  - name: Anlov Peter Mathiesen
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://www.aftenposteninnsikt.no/kulturtrender/musikkmaskinene
-  nva_url: https://nva.sikt.no/publication/019d9a56baa7-a2902750-ef00-4f13-8fc6-2ece09aadb58
-- title: Får du frysninger
-  year: '2026'
-  type: MediaInterview
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://radio.nrk.no/serie/distriktsprogram-oestlandssendingen/DKOA02006926
-  nva_url: https://nva.sikt.no/publication/019d9a3b78fb-9167d51b-fff2-4c40-a5d6-b110eae3f802
-- title: Er 528 Hz og 432 Hz magiske frekvenser?
-  year: '2026'
-  type: MediaInterview
-  contributors:
-  - name: Rolf Frøyland
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  nva_url: https://nva.sikt.no/publication/019d9a29ae13-1da4d42a-1ca6-4746-8f07-58cc6e3efc75
-- title: 'Matoma advarer: –⁠ Det er sjelløst'
-  year: '2026'
-  type: MediaInterview
-  contributors:
-  - name: Henrik Moisanen Jensen
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://www.vg.no/rampelys/i/m0K09l/matoma-advarer-mot-oekt-ki-bruk-i-musikkbransjen-misbruker-det
-  nva_url: https://nva.sikt.no/publication/019d95a20ca1-969ab902-0c6d-44da-be8f-8cd2c54eedad
-- title: Creativity Between Art and Science
-  year: '2026'
-  type: Conference
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://metamorf.art/2026/03/11/alexander-refsum/
-  nva_url: https://nva.sikt.no/publication/019d7dd1e19c-9e61cf91-35f8-4d6e-84d1-41f91125e13e
-- title: Kunstig kreativitet?
-  year: '2026'
-  type: Presentation
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://www.uio.no/om/aktuelt/universitetsplassen/aulaen/arrangementer/litteratur-foredrag/2026/mishmash-ki-kreativitet.html
-  nva_url: https://nva.sikt.no/publication/019d741030ca-41f18ad7-2ac1-4300-aa6b-94e3bf2a0cfc
-- title: Eneste KI-senter som kobler teknologi og kreativitet offisielt åpnet
-  year: '2026'
-  type: MediaInterview
-  contributors:
-  - name: Cathrine Th. Brundell
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://www.uniforum.uio.no/nyheter/2026/04/eneste-ki-senter-som-kobler-teknologi-og-kreativit.html
-  nva_url: https://nva.sikt.no/publication/019d7142230d-2db844aa-a0c3-4c57-a477-9094de115b10
-- title: Velkommen til festival!
-  year: '2026'
-  type: MediaReaderOpinion
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://www.forskerforum.no/forskerlivet/nar-folk-spor-hva-slags-senter-mishmash-skal-bli-er-mitt-beste-svar-et-festivalteltsenter/
-  nva_url: https://nva.sikt.no/publication/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
-- title: '"Soft" and "Hard" research? Experiences from running a radically interdisciplinary
-    research centre'
-  year: '2026'
-  type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://www.uc.pt/ceis20/conferencias/alexander-jensenius-eixos-do-conhecimento-interdisciplinar/
-  nva_url: https://nva.sikt.no/publication/019d5ddae0df-a80c62e6-17b0-456c-a033-9a219326ef4d
-- title: Hva er "flytsonen"?
-  year: '2026'
-  type: MediaParticipationInRadioOrTv
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://radio.nrk.no/podkast/abels_taarn/l_b5967fa0-56a7-46f3-967f-a056a7c6f32f
-  nva_url: https://nva.sikt.no/publication/019d5da66655-e4192e72-348d-43e7-a0a2-ae2d58d59973
-- title: Nesten alle lever i sin egen stille boble
-  year: '2026'
-  type: MediaInterview
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Tuva Marie Sørum
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://www.nrk.no/kultur/nesten-alle-hodetelefoner-er-stoyreduserende_-_-vi-lurer-hjernen-1.17833006
-  nva_url: https://nva.sikt.no/publication/019d5d978610-a909e81e-9821-40f4-9a52-f62fd3bb4881
-- title: KI i kreative prosesser
-  year: '2026'
-  type: Lecture
-  contributors:
-  - name: Eirik Sørbø
-    slug: eirik-sorbo
-    url: /people/eirik-sorbo/
-  institutions:
-  - name: University of Agder
-    slug: university-of-agder
-    url: /institutions/university-of-agder/
-  nva_url: https://nva.sikt.no/publication/019cc347224e-eae2a7aa-6e0f-49b4-9e54-8eb0a578ab5a
-- title: 'Ekspert om støydemping-trenden: – Vi lever i parallelle verdener'
-  year: '2026'
-  type: MediaInterview
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Nikoline Riis Lindahl
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  nva_url: https://nva.sikt.no/publication/019cbf94714e-8916e5ba-2259-4935-85c8-cfaadef563fc
-- title: MishMash, KI og kreative prosesser
-  year: '2026'
-  type: Conference
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  institutions: []
-  url: https://kulturkonferansen.no/
-  nva_url: https://nva.sikt.no/publication/019cba9e833f-34461afe-103f-47d2-b9bf-25c96e14b005
-- title: Kunstig intelligens, FoU og kreativ næring
-  year: '2026'
-  type: Lecture
-  contributors:
-  - name: Ragnhild Brøvig
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://trondelag.pameldingssystem.no/nasjonalt-fagkonferanse-for-kulturell-og-kreativ-naering-28-januar?#/default-12928
-  nva_url: https://nva.sikt.no/publication/019c2dccfd55-8187fc7d-7bd2-400e-9148-c54952de43a0
-- title: Presentasjon av Mishmash – senter for KI og kreativitet
-  year: '2026'
-  type: Conference
-  contributors:
-  - name: Ragnhild Brøvig
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://www.arkitektbedriftene.no/arrangementer/ki-dagen
-  nva_url: https://nva.sikt.no/publication/019c2dc46b3a-c5292e5c-890c-481b-9bf9-7c06e5bd8d50
-- title: Tverrfaglighet gjør litt vondt
-  year: '2026'
-  type: JournalLetter
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://www.forskerforum.no/forskerlivet/mitt-tips-til-gjesteforskere-heng-ved-kaffemaskinen/
-  nva_url: https://nva.sikt.no/publication/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
-- title: Inverse and indirect mappings in embodied AI systems in everyday environments
-  year: '2026'
-  type: Journal article
-  contributors:
-  - name: Maham Riaz
-  - name: Cagri Erdem
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://doi.org/10.3389/fcomp.2025.1603769
-  nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
 - title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
     Currently Used in Music Production
   year: '2026'
@@ -465,14 +27,6 @@ results:
     url: /institutions/arctic-university-of-norway/
   url: https://www.routledge.com/Innovation-in-Music-Current-Research-Perspectives/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757858
   nva_url: https://nva.sikt.no/publication/019b22052adc-18ac17fb-eda5-46c7-8d3b-e1176110c991
-- title: The Great Human Filter - The Age of Evaluation (album)
-  year: '2025'
-  type: MusicPerformance
-  contributors:
-  - name: Viggo Tellefsen Wivestad
-  institutions: []
-  url: https://thegreathumanfilter.com/
-  nva_url: https://nva.sikt.no/publication/019e3f4d620d-fbdddd20-0178-42a0-b9c4-6280151fefa8
 - title: Technologies of Capture and the Global Souths
   year: '2025'
   type: Book chapter
@@ -486,11 +40,11 @@ results:
     url: /institutions/university-of-bergen/
   url: https://doi.org/10.4324/9781003430599-20
   nva_url: https://nva.sikt.no/publication/019dcbdd03cc-ac973a05-556a-4ddf-8718-6c074883f8c4
-- title: Eierskap til KI
+- title: 'Pixasonics: An Image Sonification Toolbox for Python'
   year: '2025'
-  type: MediaInterview
+  type: Book chapter
   contributors:
-  - name: Leif Henrik Hoøen
+  - name: Balint Laczko
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
@@ -498,11 +52,54 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
-  url: https://artscene.no/2025/08/25/eierskap-til-ki/
-  nva_url: https://nva.sikt.no/publication/019d646b7835-e8a021fd-f1bc-44c3-b9ba-105e5eb48540
-- title: Permeating Art & Science Collaboration
+  url: https://hdl.handle.net/1853/79958
+  nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
+- title: Kunstnerisk forskning for en kompleks verden
   year: '2025'
-  type: Presentation
+  type: ChapterInReport
+  contributors:
+  - name: Michael Francis Duch
+  - name: Alexander Eriksson Furunes
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Cecilie Sachs Olsen
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Norwegian University of Science and Technology
+    slug: norwegian-university-of-science-and-technology
+    url: /institutions/norwegian-university-of-science-and-technology/
+  url: https://akademietforyngreforskere.no/wp-content/uploads/2025/11/Jubileumsbok-digital-3.pdf
+  nva_url: https://nva.sikt.no/publication/019a64f85829-bc3fcdfe-c287-4aea-b695-73f9cb14a14b
+- title: Bodies in Motion in the Concert Hall and Beyond
+  year: '2026'
+  type: Conference
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Laura Bishop
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://moco26.movementcomputing.org/
+  nva_url: https://nva.sikt.no/publication/019dc482b472-5d33b852-057c-49f0-b9cb-866787dea540
+- title: Manifestos for an Algorithmic World
+  year: '2026'
+  type: Conference
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  institutions: []
+  url: https://metamorf.art/2026/03/18/conference-program-signup/
+  nva_url: https://nva.sikt.no/publication/019db950be37-04a12e98-e359-48da-bf6c-33a87247c3ba
+- title: Creativity Between Art and Science
+  year: '2026'
+  type: Conference
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -511,8 +108,202 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
-  url: https://www.youtube.com/live/La6LkV7YpI4
-  nva_url: https://nva.sikt.no/publication/019d5dac4b99-88bca32b-76f6-4e7e-986b-3df1814fe516
+  url: https://metamorf.art/2026/03/11/alexander-refsum/
+  nva_url: https://nva.sikt.no/publication/019d7dd1e19c-9e61cf91-35f8-4d6e-84d1-41f91125e13e
+- title: MishMash, KI og kreative prosesser
+  year: '2026'
+  type: Conference
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  institutions: []
+  url: https://kulturkonferansen.no/
+  nva_url: https://nva.sikt.no/publication/019cba9e833f-34461afe-103f-47d2-b9bf-25c96e14b005
+- title: Presentasjon av Mishmash – senter for KI og kreativitet
+  year: '2026'
+  type: Conference
+  contributors:
+  - name: Ragnhild Brøvig
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://www.arkitektbedriftene.no/arrangementer/ki-dagen
+  nva_url: https://nva.sikt.no/publication/019c2dc46b3a-c5292e5c-890c-481b-9bf9-7c06e5bd8d50
+- title: 'AI Language/ Language on AI: Language as infrastructure'
+  year: '2025'
+  type: Conference
+  contributors:
+  - name: Ida Jahr
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  institutions:
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  nva_url: https://nva.sikt.no/publication/019c135d0457-0769b174-cf78-4f06-bd13-44ab5a8c36f8
+- title: The emergence and potential decline of cloud-based sample platforms
+  year: '2025'
+  type: Conference
+  contributors:
+  - name: Vemund Hegstad Alm
+  - name: Ragnhild Brøvig
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  nva_url: https://nva.sikt.no/publication/019b21a36550-b1a9706b-df97-4126-bc7a-6c050c7f2872
+- title: KI, kunst, kultur, kreativitet
+  year: '2025'
+  type: Conference
+  contributors:
+  - name: Fredrik Graver
+    slug: fredrik-graver
+    url: /people/fredrik-graver/
+  institutions:
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  nva_url: https://nva.sikt.no/publication/019a77167982-4be430dc-bcd7-4dd8-ada8-a792cc5caff8
+- title: 'Artificial Consciouness: Regenerating AI Ethics and Aesthetics'
+  year: '2025'
+  type: Conference
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+  - name: Frans Jacobi
+  - name: David Rych
+  - name: David Jhave Johnston
+  - name: Eamon O'Kane
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  - name: Norwegian University of Science and Technology
+    slug: norwegian-university-of-science-and-technology
+    url: /institutions/norwegian-university-of-science-and-technology/
+  nva_url: https://nva.sikt.no/publication/019a5afbe121-5aaae060-b8e8-43fb-8994-00fa19dc6c32
+- title: 'Archival Intelligence: Machine Learning and Intergenerational Memory'
+  year: '2025'
+  type: Conference
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  nva_url: https://nva.sikt.no/publication/019a5a87be28-17f5f937-cf7c-4030-b2a9-6a02159cf5b7
+- title: Dhvāni
+  year: '2025'
+  type: ExhibitionProduction
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  url: https://hearhere.be/en/expo/dhv%C4%81ni
+  nva_url: https://nva.sikt.no/publication/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
+- title: Inverse and indirect mappings in embodied AI systems in everyday environments
+  year: '2026'
+  type: Journal article
+  contributors:
+  - name: Maham Riaz
+  - name: Cagri Erdem
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://doi.org/10.3389/fcomp.2025.1603769
+  nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: Tverrfaglighet gjør litt vondt
+  year: '2026'
+  type: JournalLetter
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://www.forskerforum.no/forskerlivet/mitt-tips-til-gjesteforskere-heng-ved-kaffemaskinen/
+  nva_url: https://nva.sikt.no/publication/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
+- title: Auditory Situationism and Unmedia
+  year: '2026'
+  type: Lecture
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  url: https://artacademycalendar.khio.no/open-forum/budhaditya-chattopadhyay-auditory-situationism-and-unmedia
+  nva_url: https://nva.sikt.no/publication/019dcbe84d33-c303c87c-49b8-4bdb-9d80-1927582f9afe
+- title: Kunstnerisk intelligens
+  year: '2026'
+  type: Lecture
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  institutions: []
+  url: https://mishmash.no/events/aulaen2026/
+  nva_url: https://nva.sikt.no/publication/019db96ab7a2-d0161680-a40a-4ab0-b2fa-9391efb07cb8
+- title: '"Soft" and "Hard" research? Experiences from running a radically interdisciplinary
+    research centre'
+  year: '2026'
+  type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://www.uc.pt/ceis20/conferencias/alexander-jensenius-eixos-do-conhecimento-interdisciplinar/
+  nva_url: https://nva.sikt.no/publication/019d5ddae0df-a80c62e6-17b0-456c-a033-9a219326ef4d
+- title: KI i kreative prosesser
+  year: '2026'
+  type: Lecture
+  contributors:
+  - name: Eirik Sørbø
+    slug: eirik-sorbo
+    url: /people/eirik-sorbo/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  nva_url: https://nva.sikt.no/publication/019cc347224e-eae2a7aa-6e0f-49b4-9e54-8eb0a578ab5a
+- title: Kunstig intelligens, FoU og kreativ næring
+  year: '2026'
+  type: Lecture
+  contributors:
+  - name: Ragnhild Brøvig
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://trondelag.pameldingssystem.no/nasjonalt-fagkonferanse-for-kulturell-og-kreativ-naering-28-januar?#/default-12928
+  nva_url: https://nva.sikt.no/publication/019c2dccfd55-8187fc7d-7bd2-400e-9148-c54952de43a0
 - title: '«Artificial» «intelligence»: interrogating the language we use to speak/write
     the language machine into being'
   year: '2025'
@@ -531,68 +322,6 @@ results:
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
   nva_url: https://nva.sikt.no/publication/019c1373c972-cc4d6164-eacf-422e-885f-950de9cb0cbf
-- title: 'AI Language/ Language on AI: Language as infrastructure'
-  year: '2025'
-  type: Conference
-  contributors:
-  - name: Ida Jahr
-    slug: ida-jahr
-    url: /people/ida-jahr/
-  institutions:
-  - name: Inland Norway University of Applied Sciences
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
-  nva_url: https://nva.sikt.no/publication/019c135d0457-0769b174-cf78-4f06-bd13-44ab5a8c36f8
-- title: Morgendagens filmskapere?
-  year: '2025'
-  type: Presentation
-  contributors:
-  - name: Fredrik Graver
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-  institutions:
-  - name: Inland Norway University of Applied Sciences
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
-  nva_url: https://nva.sikt.no/publication/019be5d865f1-d4760767-2977-44a9-8ecc-726e77e24860
-- title: 'Kreativitet og KI: presentasjon til FilmReg'
-  year: '2025'
-  type: Presentation
-  contributors:
-  - name: Fredrik Graver
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-  institutions:
-  - name: Inland Norway University of Applied Sciences
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
-  nva_url: https://nva.sikt.no/publication/019be5d0aac6-b662e509-5c5e-47fb-84cf-ceb50a865373
-- title: UiA med på KI-satsing – NRK Sørlandet – Lokale nyheter, TV og radio
-  year: '2025'
-  type: MediaInterview
-  contributors:
-  - name: Daniel Nordgård
-    slug: daniel-nordgard
-    url: /people/daniel-nordgard/
-  institutions:
-  - name: University of Agder
-    slug: university-of-agder
-    url: /institutions/university-of-agder/
-  url: https://www.nrk.no/sorlandet/uia-med-pa-ki-satsing-1.17450741
-  nva_url: https://nva.sikt.no/publication/019bace99db7-6dc6eba2-3317-4418-97b0-84a8851ab114
-- title: The emergence and potential decline of cloud-based sample platforms
-  year: '2025'
-  type: Conference
-  contributors:
-  - name: Vemund Hegstad Alm
-  - name: Ragnhild Brøvig
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  nva_url: https://nva.sikt.no/publication/019b21a36550-b1a9706b-df97-4126-bc7a-6c050c7f2872
 - title: MishMash og Nasjonalbiblioteket
   year: '2025'
   type: Lecture
@@ -608,75 +337,6 @@ results:
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
   nva_url: https://nva.sikt.no/publication/019b0f434058-473ac0ea-5d14-4512-827a-9c6c681e05ad
-- title: Concientia
-  year: '2025'
-  type: Presentation
-  contributors:
-  - name: Per Snaprud
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Tor Endestad
-  - name: Randi Wøien
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://happeningnext.com/event/samtale-om-bevissthet-og-det-%C3%A5-skape-eid3a0d68lba3
-  nva_url: https://nva.sikt.no/publication/019b0f3f947c-ba6ad5ae-ff28-459c-b417-edbefc1bb4a1
-- title: Kan musikk skape fred?
-  year: '2025'
-  type: MediaInterview
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://ungdomsavisa.com/index.php?artID=763&navB=1
-  nva_url: https://nva.sikt.no/publication/019b0f3bb59f-39c743ed-8591-4064-9354-23e984f96c0b
-- title: Kan musikk skape fred?
-  year: '2025'
-  type: Presentation
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kristin Bergtora Sandvik
-  - name: Birgitte Grimstad
-  - name: Andreas Hoem Røysum
-  - name: Lars Klevstrand
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://www.oslopeacedays.no/program/2025/fred-og-musikk
-  nva_url: https://nva.sikt.no/publication/019aff7b1299-d3edb8c6-f908-4691-9947-d1c898959146
-- title: 'Presentation: ROBOts as Welfare Technologies and Actors for ELderLy Care:
-    A Nordic Model for Integration of Advanced Assistive Technologies (ROBOWELL) pre-kickoff'
-  year: '2025'
-  type: Presentation
-  contributors:
-  - name: Diana Saplacan Lindblom
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  nva_url: https://nva.sikt.no/publication/019afdebbd4d-cd5554a2-c8ab-48bd-8edb-0f82432c2553
-- title: 'Nytt KI-senter ved UiO: MishMash'
-  year: '2025'
-  type: Presentation
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  nva_url: https://nva.sikt.no/publication/019ad150d6dd-85780548-4f53-4e79-af25-b31e53284c67
 - title: Openness in the age of AI
   year: '2025'
   type: Lecture
@@ -702,44 +362,6 @@ results:
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
   nva_url: https://nva.sikt.no/publication/019ad144695d-b55cfaad-3c4e-466e-b6cc-d8e44518b421
-- title: 'Nytt KI-senter ved HF: MishMash'
-  year: '2025'
-  type: Presentation
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  nva_url: https://nva.sikt.no/publication/019ad141cf7a-86867c4d-286f-4448-a4bc-16d14ada5425
-- title: Are we still needed?
-  year: '2025'
-  type: Presentation
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://filmskolen.no/artikler/2025/ki-i-filmbransjen-2-0
-  nva_url: https://nva.sikt.no/publication/019ad1386dd7-c33856fc-5746-486f-ac6b-8e50fbb6811c
-- title: Musikk og kunstig intelligens
-  year: '2025'
-  type: MediaParticipationInRadioOrTv
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  url: https://play.tv2.no/nyheter/god-morgen-norge-y05mec7j?play=true
-  nva_url: https://nva.sikt.no/publication/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
 - title: What is the role of AI in creative activities?
   year: '2025'
   type: Lecture
@@ -764,18 +386,6 @@ results:
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
   nva_url: https://nva.sikt.no/publication/019a91c472e8-ac7dbd94-fb21-4b23-a428-ed0916530ac5
-- title: KI, kunst, kultur, kreativitet
-  year: '2025'
-  type: Conference
-  contributors:
-  - name: Fredrik Graver
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-  institutions:
-  - name: Inland Norway University of Applied Sciences
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
-  nva_url: https://nva.sikt.no/publication/019a77167982-4be430dc-bcd7-4dd8-ada8-a792cc5caff8
 - title: KI – Kunstens død eller tidenes mulighet?
   year: '2025'
   type: Lecture
@@ -789,69 +399,6 @@ results:
   institutions: []
   url: https://www.empirix.no/ki-kunstens-dod-eller-tidenes-mulighet/
   nva_url: https://nva.sikt.no/publication/019a694ea3d2-46921dfa-bdbd-4233-a8f9-869c10ed14bd
-- title: Kunstnerisk forskning for en kompleks verden
-  year: '2025'
-  type: ChapterInReport
-  contributors:
-  - name: Michael Francis Duch
-  - name: Alexander Eriksson Furunes
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Cecilie Sachs Olsen
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  - name: Norwegian University of Science and Technology
-    slug: norwegian-university-of-science-and-technology
-    url: /institutions/norwegian-university-of-science-and-technology/
-  url: https://akademietforyngreforskere.no/wp-content/uploads/2025/11/Jubileumsbok-digital-3.pdf
-  nva_url: https://nva.sikt.no/publication/019a64f85829-bc3fcdfe-c287-4aea-b695-73f9cb14a14b
-- title: 'Artificial Consciouness: Regenerating AI Ethics and Aesthetics'
-  year: '2025'
-  type: Conference
-  contributors:
-  - name: Budhaditya Chattopadhyay
-    slug: budhaditya-chattopadhyay
-    url: /people/budhaditya-chattopadhyay/
-  - name: Frans Jacobi
-  - name: David Rych
-  - name: David Jhave Johnston
-  - name: Eamon O'Kane
-  institutions:
-  - name: University of Bergen
-    slug: university-of-bergen
-    url: /institutions/university-of-bergen/
-  - name: Norwegian University of Science and Technology
-    slug: norwegian-university-of-science-and-technology
-    url: /institutions/norwegian-university-of-science-and-technology/
-  nva_url: https://nva.sikt.no/publication/019a5afbe121-5aaae060-b8e8-43fb-8994-00fa19dc6c32
-- title: Dhvāni
-  year: '2025'
-  type: ExhibitionProduction
-  contributors:
-  - name: Budhaditya Chattopadhyay
-    slug: budhaditya-chattopadhyay
-    url: /people/budhaditya-chattopadhyay/
-  institutions:
-  - name: University of Bergen
-    slug: university-of-bergen
-    url: /institutions/university-of-bergen/
-  url: https://hearhere.be/en/expo/dhv%C4%81ni
-  nva_url: https://nva.sikt.no/publication/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
-- title: 'Archival Intelligence: Machine Learning and Intergenerational Memory'
-  year: '2025'
-  type: Conference
-  contributors:
-  - name: Budhaditya Chattopadhyay
-    slug: budhaditya-chattopadhyay
-    url: /people/budhaditya-chattopadhyay/
-  institutions:
-  - name: University of Bergen
-    slug: university-of-bergen
-    url: /institutions/university-of-bergen/
-  nva_url: https://nva.sikt.no/publication/019a5a87be28-17f5f937-cf7c-4030-b2a9-6a02159cf5b7
 - title: Who Owns Our Knowledge? Open Research in MishMash Centre for AI & Creativity
   year: '2025'
   type: Lecture
@@ -946,30 +493,6 @@ results:
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
   nva_url: https://nva.sikt.no/publication/019a36be4444-0cc56b03-b55f-4551-862a-aee51c4ea142
-- title: KI og det nye MishMash-senteret
-  year: '2025'
-  type: Presentation
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  nva_url: https://nva.sikt.no/publication/0199950ae66e-c741ee65-1651-46f7-a3d2-6925df7836ca
-- title: Muligheter for deltagelse i MishMash Senter for KI og kreativitet
-  year: '2025'
-  type: Presentation
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  nva_url: https://nva.sikt.no/publication/019995090b5c-2399367f-12c9-48e1-a055-b3664cebea22
 - title: Technologies supporting research on music-related body motion
   year: '2025'
   type: Lecture
@@ -996,18 +519,6 @@ results:
     url: /institutions/university-of-oslo/
   url: https://www.liser.lu/events/EXPAR2025-09-19
   nva_url: https://nva.sikt.no/publication/019994fe5672-6a721851-98aa-486b-bbb1-86d9a0cf8b22
-- title: RITMO, MishMash and the fourMs Lab
-  year: '2025'
-  type: Presentation
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  nva_url: https://nva.sikt.no/publication/019994c32420-9e680d19-dfe8-4061-8442-da49021add6b
 - title: Kreativitet og KI
   year: '2025'
   type: Lecture
@@ -1046,11 +557,51 @@ results:
     url: /institutions/university-of-agder/
   url: https://www.forskningsradet.no/arrangementer/2025/presentasjon-ki-sentra/
   nva_url: https://nva.sikt.no/publication/019994ac713a-62f7f34b-3318-424c-89a6-b45460160aa8
-- title: 'Pixasonics: An Image Sonification Toolbox for Python'
+- title: 'Kunst i intelligens: Hvilke nye kreative uttrykksmuligheter kan KI åpne
+    for?'
   year: '2025'
-  type: Book chapter
+  type: Lecture
   contributors:
-  - name: Balint Laczko
+  - name: Trond Lossius
+  - name: Steven Bachelder
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Ida Jahr
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  institutions:
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  url: https://www.arendalsuka.no/programsoek/details/31679
+  nva_url: https://nva.sikt.no/publication/0198cc705f83-4264b8ca-ef34-41f0-940b-928c02780af7
+- title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
+    og filmprodusenter nå?'
+  year: '2026'
+  type: MediaInterview
+  contributors:
+  - name: Sunniva Monclair Bøe
+  - name: Elise Koppang Frøjd
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Diego Marin-Bucio
+  - name: Benedikte Wallace
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
+  nva_url: https://nva.sikt.no/publication/019dcde48166-cd974c11-c757-4b22-a122-7defb03b962e
+- title: Musikkmaskinene | Aftenposten Innsikt
+  year: '2026'
+  type: MediaInterview
+  contributors:
+  - name: Anlov Peter Mathiesen
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
@@ -1058,8 +609,476 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
-  url: https://hdl.handle.net/1853/79958
-  nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
+  url: https://www.aftenposteninnsikt.no/kulturtrender/musikkmaskinene
+  nva_url: https://nva.sikt.no/publication/019d9a56baa7-a2902750-ef00-4f13-8fc6-2ece09aadb58
+- title: Får du frysninger
+  year: '2026'
+  type: MediaInterview
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://radio.nrk.no/serie/distriktsprogram-oestlandssendingen/DKOA02006926
+  nva_url: https://nva.sikt.no/publication/019d9a3b78fb-9167d51b-fff2-4c40-a5d6-b110eae3f802
+- title: Er 528 Hz og 432 Hz magiske frekvenser?
+  year: '2026'
+  type: MediaInterview
+  contributors:
+  - name: Rolf Frøyland
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  nva_url: https://nva.sikt.no/publication/019d9a29ae13-1da4d42a-1ca6-4746-8f07-58cc6e3efc75
+- title: 'Matoma advarer: –⁠ Det er sjelløst'
+  year: '2026'
+  type: MediaInterview
+  contributors:
+  - name: Henrik Moisanen Jensen
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://www.vg.no/rampelys/i/m0K09l/matoma-advarer-mot-oekt-ki-bruk-i-musikkbransjen-misbruker-det
+  nva_url: https://nva.sikt.no/publication/019d95a20ca1-969ab902-0c6d-44da-be8f-8cd2c54eedad
+- title: Eneste KI-senter som kobler teknologi og kreativitet offisielt åpnet
+  year: '2026'
+  type: MediaInterview
+  contributors:
+  - name: Cathrine Th. Brundell
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://www.uniforum.uio.no/nyheter/2026/04/eneste-ki-senter-som-kobler-teknologi-og-kreativit.html
+  nva_url: https://nva.sikt.no/publication/019d7142230d-2db844aa-a0c3-4c57-a477-9094de115b10
+- title: Nesten alle lever i sin egen stille boble
+  year: '2026'
+  type: MediaInterview
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Tuva Marie Sørum
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://www.nrk.no/kultur/nesten-alle-hodetelefoner-er-stoyreduserende_-_-vi-lurer-hjernen-1.17833006
+  nva_url: https://nva.sikt.no/publication/019d5d978610-a909e81e-9821-40f4-9a52-f62fd3bb4881
+- title: 'Ekspert om støydemping-trenden: – Vi lever i parallelle verdener'
+  year: '2026'
+  type: MediaInterview
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Nikoline Riis Lindahl
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  nva_url: https://nva.sikt.no/publication/019cbf94714e-8916e5ba-2259-4935-85c8-cfaadef563fc
+- title: Eierskap til KI
+  year: '2025'
+  type: MediaInterview
+  contributors:
+  - name: Leif Henrik Hoøen
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://artscene.no/2025/08/25/eierskap-til-ki/
+  nva_url: https://nva.sikt.no/publication/019d646b7835-e8a021fd-f1bc-44c3-b9ba-105e5eb48540
+- title: UiA med på KI-satsing – NRK Sørlandet – Lokale nyheter, TV og radio
+  year: '2025'
+  type: MediaInterview
+  contributors:
+  - name: Daniel Nordgård
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  url: https://www.nrk.no/sorlandet/uia-med-pa-ki-satsing-1.17450741
+  nva_url: https://nva.sikt.no/publication/019bace99db7-6dc6eba2-3317-4418-97b0-84a8851ab114
+- title: Kan musikk skape fred?
+  year: '2025'
+  type: MediaInterview
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://ungdomsavisa.com/index.php?artID=763&navB=1
+  nva_url: https://nva.sikt.no/publication/019b0f3bb59f-39c743ed-8591-4064-9354-23e984f96c0b
+- title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
+  year: '2026'
+  type: MediaParticipationInRadioOrTv
+  contributors:
+  - name: Torkild Jemterud
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://radio.nrk.no/podkast/abels_taarn/l_26ee6156-aa61-4ba8-ae61-56aa61bba845
+  nva_url: https://nva.sikt.no/publication/019de25b1c1d-d9db78cb-2708-4e83-a0c5-b50130e99739
+- title: 'Live frå Aulaen: Musikk-spesial'
+  year: '2026'
+  type: MediaParticipationInRadioOrTv
+  contributors:
+  - name: Kjersti Anderdal Bakken
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Tine Thing Helseth
+  - name: Ragnhild Schiager Folkestad
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://radio.nrk.no/serie/etikketaten/DMPO38401726
+  nva_url: https://nva.sikt.no/publication/019de2544f5f-3e6a1b65-e57c-412e-85ca-b7e448236da3
+- title: Hva er "flytsonen"?
+  year: '2026'
+  type: MediaParticipationInRadioOrTv
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://radio.nrk.no/podkast/abels_taarn/l_b5967fa0-56a7-46f3-967f-a056a7c6f32f
+  nva_url: https://nva.sikt.no/publication/019d5da66655-e4192e72-348d-43e7-a0a2-ae2d58d59973
+- title: Musikk og kunstig intelligens
+  year: '2025'
+  type: MediaParticipationInRadioOrTv
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://play.tv2.no/nyheter/god-morgen-norge-y05mec7j?play=true
+  nva_url: https://nva.sikt.no/publication/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
+- title: Velkommen til festival!
+  year: '2026'
+  type: MediaReaderOpinion
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://www.forskerforum.no/forskerlivet/nar-folk-spor-hva-slags-senter-mishmash-skal-bli-er-mitt-beste-svar-et-festivalteltsenter/
+  nva_url: https://nva.sikt.no/publication/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
+- title: Atomspheres
+  year: '2026'
+  type: MusicPerformance
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  url: https://dornsife.usc.edu/cema/events/
+  nva_url: https://nva.sikt.no/publication/019dcbf4d15b-642a468a-8e7f-4fb1-8e21-c0c8b5598702
+- title: The Great Human Filter - The Age of Evaluation (album)
+  year: '2025'
+  type: MusicPerformance
+  contributors:
+  - name: Viggo Tellefsen Wivestad
+  institutions: []
+  url: https://thegreathumanfilter.com/
+  nva_url: https://nva.sikt.no/publication/019e3f4d620d-fbdddd20-0178-42a0-b9c4-6280151fefa8
+- title: Building intersectional Cultural Ecosystems & Institutions for the Future
+  year: '2026'
+  type: Presentation
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Jesper Mardahl
+  - name: Simon Kimmel
+  - name: Martin Eyerer
+  - name: Roland Sillmann
+  - name: Philipp Grefer
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://www.wisenotwise.com/wise2026program
+  nva_url: https://nva.sikt.no/publication/019e7fb15492-102757ea-b56a-4dc6-8734-56dac427fdc3
+- title: Tverrfaglighet i forskning (og utdanning)
+  year: '2026'
+  type: Presentation
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  nva_url: https://nva.sikt.no/publication/019e45845336-b864a8b3-cf7c-458c-8385-6c3d8766059b
+- title: Mellom menneske og maskin
+  year: '2026'
+  type: Presentation
+  contributors:
+  - name: Silje Midtlien Sigurdsen
+  - name: Camila Urrego
+  - name: Gunnar Gabriel Gjermundsen
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://fotografiens-hus.no/samtale-mellom-menneske-og-maskin/
+  nva_url: https://nva.sikt.no/publication/019e32c7e996-3b1abd75-32c5-410a-8cd6-833319d55756
+- title: Sang og KI
+  year: '2026'
+  type: Presentation
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  nva_url: https://nva.sikt.no/publication/019dfe980ca5-56907564-ed5d-4548-9576-656c8a18419a
+- title: 'Design Agentics :: Creative R&D x AI'
+  year: '2026'
+  type: Presentation
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Ida Jahr
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  - name: Enrique Encinas
+  - name: Hedda Foss Lilleng
+  - name: Lene Renneflott
+  institutions:
+  - name: Oslo School of Architecture and Design
+    slug: oslo-school-of-architecture-and-design
+    url: /institutions/oslo-school-of-architecture-and-design/
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
+  nva_url: https://nva.sikt.no/publication/019dc37da862-8dad0484-5d39-4e81-b014-c38f3af96941
+- title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
+  year: '2026'
+  type: Presentation
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  institutions: []
+  url: https://www.kulturdirektoratet.no/kalender/konferanse-strategisk-framsyn-i-det-norske-kulturfeltet
+  nva_url: https://nva.sikt.no/publication/019db9aba304-1cb12c80-5618-476a-8f7a-5d2b54f6d6b5
+- title: Kunstig kreativitet?
+  year: '2026'
+  type: Presentation
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://www.uio.no/om/aktuelt/universitetsplassen/aulaen/arrangementer/litteratur-foredrag/2026/mishmash-ki-kreativitet.html
+  nva_url: https://nva.sikt.no/publication/019d741030ca-41f18ad7-2ac1-4300-aa6b-94e3bf2a0cfc
+- title: Permeating Art & Science Collaboration
+  year: '2025'
+  type: Presentation
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://www.youtube.com/live/La6LkV7YpI4
+  nva_url: https://nva.sikt.no/publication/019d5dac4b99-88bca32b-76f6-4e7e-986b-3df1814fe516
+- title: Morgendagens filmskapere?
+  year: '2025'
+  type: Presentation
+  contributors:
+  - name: Fredrik Graver
+    slug: fredrik-graver
+    url: /people/fredrik-graver/
+  institutions:
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  nva_url: https://nva.sikt.no/publication/019be5d865f1-d4760767-2977-44a9-8ecc-726e77e24860
+- title: 'Kreativitet og KI: presentasjon til FilmReg'
+  year: '2025'
+  type: Presentation
+  contributors:
+  - name: Fredrik Graver
+    slug: fredrik-graver
+    url: /people/fredrik-graver/
+  institutions:
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  nva_url: https://nva.sikt.no/publication/019be5d0aac6-b662e509-5c5e-47fb-84cf-ceb50a865373
+- title: Concientia
+  year: '2025'
+  type: Presentation
+  contributors:
+  - name: Per Snaprud
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Tor Endestad
+  - name: Randi Wøien
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://happeningnext.com/event/samtale-om-bevissthet-og-det-%C3%A5-skape-eid3a0d68lba3
+  nva_url: https://nva.sikt.no/publication/019b0f3f947c-ba6ad5ae-ff28-459c-b417-edbefc1bb4a1
+- title: Kan musikk skape fred?
+  year: '2025'
+  type: Presentation
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Kristin Bergtora Sandvik
+  - name: Birgitte Grimstad
+  - name: Andreas Hoem Røysum
+  - name: Lars Klevstrand
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://www.oslopeacedays.no/program/2025/fred-og-musikk
+  nva_url: https://nva.sikt.no/publication/019aff7b1299-d3edb8c6-f908-4691-9947-d1c898959146
+- title: 'Presentation: ROBOts as Welfare Technologies and Actors for ELderLy Care:
+    A Nordic Model for Integration of Advanced Assistive Technologies (ROBOWELL) pre-kickoff'
+  year: '2025'
+  type: Presentation
+  contributors:
+  - name: Diana Saplacan Lindblom
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  nva_url: https://nva.sikt.no/publication/019afdebbd4d-cd5554a2-c8ab-48bd-8edb-0f82432c2553
+- title: 'Nytt KI-senter ved UiO: MishMash'
+  year: '2025'
+  type: Presentation
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  nva_url: https://nva.sikt.no/publication/019ad150d6dd-85780548-4f53-4e79-af25-b31e53284c67
+- title: 'Nytt KI-senter ved HF: MishMash'
+  year: '2025'
+  type: Presentation
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  nva_url: https://nva.sikt.no/publication/019ad141cf7a-86867c4d-286f-4448-a4bc-16d14ada5425
+- title: Are we still needed?
+  year: '2025'
+  type: Presentation
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  url: https://filmskolen.no/artikler/2025/ki-i-filmbransjen-2-0
+  nva_url: https://nva.sikt.no/publication/019ad1386dd7-c33856fc-5746-486f-ac6b-8e50fbb6811c
+- title: KI og det nye MishMash-senteret
+  year: '2025'
+  type: Presentation
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  nva_url: https://nva.sikt.no/publication/0199950ae66e-c741ee65-1651-46f7-a3d2-6925df7836ca
+- title: Muligheter for deltagelse i MishMash Senter for KI og kreativitet
+  year: '2025'
+  type: Presentation
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  nva_url: https://nva.sikt.no/publication/019995090b5c-2399367f-12c9-48e1-a055-b3664cebea22
+- title: RITMO, MishMash and the fourMs Lab
+  year: '2025'
+  type: Presentation
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  nva_url: https://nva.sikt.no/publication/019994c32420-9e680d19-dfe8-4061-8442-da49021add6b
 - title: AI in film (and fine arts) schools
   year: '2025'
   type: Presentation
@@ -1086,22 +1105,3 @@ results:
     url: /institutions/inland-norway-university-of-applied-sciences/
   url: https://www.oslopix.no/no/arrangement/2025/bransje-ai-i-bransjen-hva-gj%C3%B8r-vi
   nva_url: https://nva.sikt.no/publication/01992ed0bbab-d68ebbb7-4430-422e-aba4-5a0e1bdce15b
-- title: 'Kunst i intelligens: Hvilke nye kreative uttrykksmuligheter kan KI åpne
-    for?'
-  year: '2025'
-  type: Lecture
-  contributors:
-  - name: Trond Lossius
-  - name: Steven Bachelder
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Ida Jahr
-    slug: ida-jahr
-    url: /people/ida-jahr/
-  institutions:
-  - name: Inland Norway University of Applied Sciences
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
-  url: https://www.arendalsuka.no/programsoek/details/31679
-  nva_url: https://nva.sikt.no/publication/0198cc705f83-4264b8ca-ef34-41f0-940b-928c02780af7
