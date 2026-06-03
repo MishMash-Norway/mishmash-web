@@ -22,7 +22,19 @@ urls:
   mastodon: https://mastodon.online/@arjensenius
   instagram: ''
 aliases: []
-tags: []
+tags:
+- Creative music education
+- Construction of musical instruments
+- Sound Art
+- Sound/music in new media
+- Music and health
+- Sound sculpture
+- Human Interface Devices
+- Musicology
+- Systematic musicology
+- Artificial intelligence
+- Music Technology
+- Sound analysis /synthesis
 search_keywords:
 - Creative music education
 - Construction of musical instruments
@@ -37,29 +49,46 @@ search_keywords:
 - Music Technology
 - Sound analysis /synthesis
 selected_works:
+- title: Building intersectional Cultural Ecosystems & Institutions for the Future
+  year: '2026'
+  source: Presentation
+  url: https://www.wisenotwise.com/wise2026program
+- title: Performative Togetherness in networked music–dance performance
+  year: '2026'
+  source: Journal article
+  url: https://doi.org/10.1080/14794713.2026.2657654
+- title: Tverrfaglighet i forskning (og utdanning)
+  year: '2026'
+  source: Presentation
+- title: Mellom menneske og maskin
+  year: '2026'
+  source: Presentation
+  url: https://fotografiens-hus.no/samtale-mellom-menneske-og-maskin/
+- title: Sang og KI
+  year: '2026'
+  source: Presentation
+- title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
+  year: '2026'
+  source: MediaParticipationInRadioOrTv
+  url: https://radio.nrk.no/podkast/abels_taarn/l_26ee6156-aa61-4ba8-ae61-56aa61bba845
+- title: 'Live frå Aulaen: Musikk-spesial'
+  year: '2026'
+  source: MediaParticipationInRadioOrTv
+  url: https://radio.nrk.no/serie/etikketaten/DMPO38401726
+- title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
+    og filmprodusenter nå?'
+  year: '2026'
+  source: MediaInterview
+  url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
+- title: Bodies in Motion in the Concert Hall and Beyond
+  year: '2026'
+  source: Conference
+  url: https://moco26.movementcomputing.org/
 - title: Mixed Method Audio-Video Analyses of Felt Togetherness in a Networked Music-Dance
     Performance
   year: '2026'
-  source: conference-paper
+  source: Book chapter
   url: https://doi.org/10.1145/3802842.3802884
-- title: Investigating Auditory–Visual Perception Using Multi-Modal Neural Networks
-    with the SoundActions Dataset
-  year: '2026'
-  source: Transactions of the International Society for Music Information Retrieval
-  url: https://doi.org/10.5334/tismir.223
-- title: An outline of the narrative grammar of electronic dance music
-  year: '2025'
-  source: Musicae Scientiae
-  url: https://doi.org/10.1177/10298649251321709
-- title: Cardiac Coherence among Musicians and Audiences During Orchestra Performances
-  year: '2025'
-  source: Music & Science
-  url: https://doi.org/10.1177/20592043251370977
-- title: 'A Sensor is not a Sensor: Diffracting the Preservation of Sonic Microinteraction
-    with the SiFiBand'
-  year: '2025'
-  source: conference-paper
-  url: https://doi.org/10.1145/3771594.3771626
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
 summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music technology
@@ -67,5 +96,4 @@ summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music tec
   combining methods from artistic and scientific research in creative ways.
 permalink: /directory/people/alexander-refsum-jensenius/
 ---
-
 

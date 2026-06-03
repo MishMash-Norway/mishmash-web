@@ -23,31 +23,55 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
+tags:
+- Media-art
+- Art History
+- New Media
 search_keywords:
 - Media-art
 - Art History
 - New Media
 selected_works:
-- title: Proxistant Vision
-  year: '2025'
-  source: The MIT Press
-  url: http://dx.doi.org/10.7551/mitpress/15152.001.0001
-- title: Screen Space Reconfigured
-  year: '2020'
-  source: Amsterdam University Press
-  url: http://dx.doi.org/10.5117/9789089649928
-- title: Norsk kort 2015
-  year: '2015'
-  source: Norsk filminstitutt, [Oslo], 2015
-  url: http://www.worldcat.org/oclc/1028481620
-- title: Urban Images
-  year: '2011'
-  source: The MIT Press
-  url: https://www.sternberg-press.com/product/urban-images-unruly-desires-in-film-and-architecture/
-- title: Cities Re-Imagined
-  year: '2010'
-  source: Museum of Contemporary Art Vojvodina
+- title: Kunstnerisk forskning som levende kunnskap
+  year: '2026'
+  source: Lecture
+- title: Ocean Futures in the Making
+  year: '2026'
+  source: Book chapter
+  url: https://doi.org/10.4324/9781003478805
+- title: 'Introduction: Media Seas of the High North Atlantic'
+  year: '2026'
+  source: Book chapter
+  url: https://doi.org/10.4324/9781003478805
+- title: Media Seas and the Blue Humanities Studies of the High North Atlantic
+  year: '2026'
+  source: Book
+  url: https://doi.org/10.4324/9781003478805
+- title: 'Design Agentics :: Creative R&D x AI'
+  year: '2026'
+  source: Presentation
+  url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
+- title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
+  year: '2026'
+  source: Presentation
+  url: https://www.kulturdirektoratet.no/kalender/konferanse-strategisk-framsyn-i-det-norske-kulturfeltet
+- title: Kunstnerisk intelligens
+  year: '2026'
+  source: Lecture
+  url: https://mishmash.no/events/aulaen2026/
+- title: Manifestos for an Algorithmic World
+  year: '2026'
+  source: Conference
+  url: https://metamorf.art/2026/03/18/conference-program-signup/
+- title: MishMash, KI og kreative prosesser
+  year: '2026'
+  source: Conference
+  url: https://kulturkonferansen.no/
+- title: På Google Earth kan du zoome inn på hele verden. Men hva er det egentlig
+    vi ser?
+  year: '2026'
+  source: PopularScienceArticle
+  url: https://www.forskersonen.no/digital-teknologi-kronikk-kunstig-intelligens/pa-google-earth-kan-du-zoome-inn-pa-hele-verden-men-hva-er-det-egentlig-vi-ser/2597322
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
@@ -62,5 +86,4 @@ summary: 'Synne Tollerud Bull is a media artist, researcher, and Professor, curr
   combine proximity and distance within a single vi'
 permalink: /directory/people/synne-tollerud-bull/
 ---
-
 

@@ -27,21 +27,41 @@ search_keywords: []
 selected_works:
 - title: Facilitating the Development of Interactive Wheelchair Sonifications
   year: '2026'
-  source: book-chapter
-  url: https://doi.org/10.4324/9781003475675-22
-- title: Beginnings and endings—dance phrase edges in an interactive dance study
+  source: Book chapter
+- title: The Sounds of Ski Poles in hard Packed Snow in an Upper Manhattan Bedroom
   year: '2024'
-  source: Personal and Ubiquitous Computing
-  url: https://doi.org/10.1007/s00779-024-01817-5
-- title: 'Examining the Correlation Between Dance and Electroacoustic Music Phrases:
-    A Pilot Study'
+  source: Lecture
+- title: Facilitating development of interactive wheelchair sonifications
+  year: '2024'
+  source: Conference
+- title: Yellowstone/winter
+  year: '2024'
+  source: MusicPerformance
+  url: https://www.youtube.com/live/8TVe_Xuv3G4?feature=shared
+- title: 'The MotionComposer: A therapy device that turns movement into music. Applications
+    in pediatric medicine'
   year: '2023'
-  source: conference-paper
-  url: https://doi.org/10.1145/3616195.3616218
+  source: Journal article
+- title: 'Deus Ex Machina: Synchronization Strategies in Mixed Music'
+  year: '2022'
+  source: DegreePhd
+- title: "Beginnings and Endings - Study I\r\nfor interactive dance"
+  year: '2021'
+  source: MusicPerformance
+  url: https://youtu.be/fkOZaT2pS-k
+- title: Modalities of Listening, NTNU ARTEC Seminar Series Seminar
+  year: '2020'
+  source: Lecture
+- title: Feedback systems with FM receivers and transmitters as musical instruments
+  year: '2020'
+  source: Book chapter
+- title: VIBRA - Technical and Artistic Issues in an Interactive Dance Project
+  year: '2019'
+  source: Journal article
+  url: http://smc2019.uma.es/docs/SMC2019_Proceedings.pdf
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
 permalink: /directory/people/andreas-bergsland/
 ---
-
 

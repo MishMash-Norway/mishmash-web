@@ -58,6 +58,32 @@ Useful flags:
 - `--max-partners 40` limits total partners scanned.
 - `--output _data/partner_events.yml` writes to a custom destination file.
 
+Update directory people from NVA and ORCID
+------------------------------------------
+
+This script refreshes `_directory/people/*/index.md` from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/). NVA data is preferred; ORCID is used as fallback when NVA data is missing.
+
+Updated fields:
+
+- Affiliation (`position`, `institution`, `institutions`)
+- Tags (`tags` and `search_keywords`, from research topics)
+- Bio (`summary`)
+- Portrait (`image`, downloaded from NVA when available)
+- Recent publications (`selected_works`, up to 10)
+
+A GitHub Actions workflow runs this once per day (`.github/workflows/enrich-directory-people.yml`). Optional repository secret `NVA_API_TOKEN` enables authenticated portrait downloads from the NVA API.
+
+```bash
+pip install -r scripts/requirements.txt
+python3 scripts/enrich_directory_from_nva.py --discover-nva --discover-nva-loose --max-works 10
+```
+
+Useful flags:
+
+- `--slug <slug>` process one person (repeatable)
+- `--dry-run` report changes without writing files
+- `--no-download-images` skip portrait downloads
+
 Combine image slices
 --------------------
 

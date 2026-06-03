@@ -50,7 +50,7 @@ layout: default
     <section class="person-selected-works" aria-label="Selected works">
       <h2>Selected works</h2>
       <ul class="person-selected-works-list">
-        {% for work in page.selected_works limit: 5 %}
+        {% for work in page.selected_works limit: 10 %}
         <li>
           {% if work.url %}
           <a href="{{ work.url }}" target="_blank" rel="noopener noreferrer">{{ work.title }}</a>

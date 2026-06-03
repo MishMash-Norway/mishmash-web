@@ -25,34 +25,50 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Educational Professionals' Perspectives on Hearing Protection Devices for
-    Autistic Students
+- title: 'Hearing Protection Devices for Autistic Students Sensitive to Auditory Stimuli:
+    Enhancing School Inclusivity?'
   year: '2026'
-  source: preprint
-  url: https://doi.org/10.2139/ssrn.6329524
+  source: ConferencePoster
+  url: https://doi.org/10.13140/RG.2.2.15086.57923
+- title: Advantages and disadvantages of noise-cancelling headphones for autistic
+    students in educational settings
+  year: '2026'
+  source: Journal article
+  url: https://doi.org/10.1016/j.ridd.2026.105301
+- title: Investigating Strategies in a Sound Design for Sustainability Exercise in
+    an Educational Setting
+  year: '2025'
+  source: Book chapter
+- title: Experimenter Effect in a Guided Breathing Experiment
+  year: '2025'
+  source: Book chapter
+  url: https://doi.org/10.5281/ZENODO.15032536
 - title: An investigation into the mapping of sonic parameters to pen movement in
     tablet tasks
   year: '2025'
-  source: conference-paper
+  source: Book chapter
   url: https://doi.org/10.1145/3771594.3771628
 - title: Comparing Trend-Based and Direct HRV Biofeedback in an Adaptive Game Environment
   year: '2025'
-  source: conference-paper
+  source: Book chapter
   url: https://doi.org/10.1145/3771594.3771636
-- title: Audio Technology for Autistic Persons with Auditory Sensory Differences—A
-    Scoping Review
+- title: School Professionals' Awareness and Perceptions of the Use of Noise-Cancelling
+    Headphones for Autistic Students in Schools
   year: '2025'
-  source: Review Journal of Autism and Developmental Disorders
-  url: https://doi.org/10.1007/s40489-025-00511-3
-- title: Situational impairment due to walking with conversational versus graphical
-    interfaces
+  source: Conference
+- title: 'It sounds sustainable: practices in designing sound for sustainability'
   year: '2024'
-  source: conference-paper
-  url: https://doi.org/10.1145/3678299.3678307
+  source: Book chapter
+  url: https://doi.org/10.21606/drs.2024.791
+- title: Sketching in Sound and Interaction Design
+  year: '2023'
+  source: Book chapter
+- title: Multimodal Cues for Guided Breathing
+  year: '2023'
+  source: Book chapter
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
 permalink: /directory/people/georgios-marentakis/
 ---
-
 

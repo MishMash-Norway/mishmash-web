@@ -1,7 +1,6 @@
 ---
 type: person
 slug: morten-qvenild
-permalink: /directory/people/morten-qvenild/
 name: Morten Qvenild
 title: Morten Qvenild
 position: Pro-rector
@@ -23,7 +22,14 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
+tags:
+- Music Improvisation
+- Songwriting
+- Production
+- Piano/ Keyboard
+- Art
+- Music
+- Music Technology
 search_keywords:
 - Music Improvisation
 - Songwriting
@@ -32,9 +38,47 @@ search_keywords:
 - Art
 - Music
 - Music Technology
+selected_works:
+- title: Konsert Lokalt Piano Skoklefall Kirke
+  year: '2026'
+  source: MusicPerformance
+- title: Lokalt Piano, by Morten Qvenild - Ugla Lyd
+  year: '2026'
+  source: MusicPerformance
+  url: https://mortenqvenild.bandcamp.com/album/lokalt-piano
+- title: Remembrance Konserter
+  year: '2026'
+  source: MusicPerformance
+  url: https://www.researchcatalogue.net/view/3872769/3872770
+- title: Remembrance - Exposition
+  year: '2025'
+  source: MusicPerformance
+  url: https://www.researchcatalogue.net/view/3872769/3872770
+- title: Mirra, by Benedicte Maurseth
+  year: '2025'
+  source: MusicPerformance
+  url: https://maurseth.bandcamp.com/album/mirra
+- title: 'Samfunnsrelevans på spill: Kunstnerisk utviklingsarbeid i dagens utdanningspolitikk'
+  year: '2025'
+  source: Lecture
+  url: https://www.researchcatalogue.net/view/2421554/3524484
+- title: Symfoni
+  year: '2024'
+  source: MusicPerformance
+  url: https://orcd.co/symfonirnq
+- title: Unheimlich Manoeuvre, by Jo Berger Myhre
+  year: '2024'
+  source: MusicPerformance
+  url: https://jobergermyhre.bandcamp.com/album/unheimlich-manoeuvre
+- title: Hvis det ikke brenner
+  year: '2024'
+  source: PerformingArts
+- title: Hva er kunstnerisk utviklingsarbeid på Norges Musikkhøgskole
+  year: '2023'
+  source: Presentation
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
 summary: null
+permalink: /directory/people/morten-qvenild/
 ---
-
 

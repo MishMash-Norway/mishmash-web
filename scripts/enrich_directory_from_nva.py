@@ -1,15 +1,47 @@
 #!/usr/bin/env python3
 import argparse
+import os
 import re
+from io import BytesIO
 from pathlib import Path
 
 import requests
 import yaml
+from PIL import Image, ImageDraw
 
 
 PERSON_PROFILE_RE = re.compile(r"/research-profile/(\d+)")
 CRISTIN_RE = re.compile(r"/cristin/person/(\d+)")
 ORCID_PROFILE_RE = re.compile(r"orcid\.org/((?:\d{4}-){3}[\dX]{4})", re.IGNORECASE)
+PORTRAITS_CIRCLE_DIR = "assets/images/portraits/circle"
+PORTRAIT_MAX_SIZE = 300
+DEFAULT_MAX_WORKS = 10
+DEFAULT_MAX_TAGS = 12
+
+INSTITUTION_ABBREV = {
+    "university-of-oslo": "UiO",
+    "university-of-bergen": "UiB",
+    "norwegian-university-of-science-and-technology": "NTNU",
+    "oslo-school-of-architecture-and-design": "AHO",
+    "norwegian-academy-of-music": "NMH",
+    "simula-metropolitan-center-for-digital-engineering": "Simula",
+    "norsus-norwegian-institute-for-sustainability-research": "NORSUS",
+    "arctic-university-of-norway": "UiT",
+    "university-of-agder": "UiA",
+    "ostfold-university-college": "HiO",
+    "inland-norway-university-of-applied-sciences": "INN",
+    "western-norway-university-of-applied-sciences": "HVL",
+    "oslo-national-academy-of-the-arts": "KHiO",
+}
+
+PUBLICATION_TYPE_LABELS = {
+    "AcademicArticle": "Journal article",
+    "AcademicChapter": "Book chapter",
+    "BookAnthology": "Book",
+    "ConferenceLecture": "Conference",
+    "OtherPresentation": "Presentation",
+    "ArtisticDesign": "Design",
+}
 
 
 def split_frontmatter(text: str):
@@ -208,6 +240,256 @@ def get_orcid_json(url: str):
     return r.json()
 
 
+def prefer(primary, fallback):
+    if primary not in (None, "", [], {}):
+        return primary
+    return fallback
+
+
+def normalize_publication_year(year) -> str:
+    if year is None:
+        return ""
+    text = str(year).strip()
+    if not text:
+        return ""
+    if len(text) == 2 and text.isdigit():
+        century = "20" if int(text) < 70 else "19"
+        return century + text
+    return text
+
+
+def work_sort_key(work: dict) -> int:
+    year = normalize_publication_year(work.get("year"))
+    try:
+        return int(year[:4])
+    except ValueError:
+        return 0
+
+
+def localized_text(value) -> str:
+    if isinstance(value, str):
+        return value.strip()
+    if isinstance(value, dict):
+        return (value.get("en") or value.get("nb") or value.get("no") or "").strip()
+    return ""
+
+
+def institution_abbrev(slug: str) -> str:
+    if not slug:
+        return "Org"
+    if slug in INSTITUTION_ABBREV:
+        return INSTITUTION_ABBREV[slug]
+    parts = [p for p in slug.split("-") if p]
+    if not parts:
+        return "Org"
+    return "".join(part[:1].upper() + part[1:3] for part in parts[:2])
+
+
+def portrait_filename(name: str, institution_slug: str) -> str:
+    parts = [p for p in re.sub(r"\([^)]*\)", " ", name).split() if p]
+    stem = "_".join(parts) if parts else "person"
+    return f"{stem}_{institution_abbrev(institution_slug)}.png"
+
+
+def save_circle_portrait(image_bytes: bytes, dest_path: Path, max_size: int = PORTRAIT_MAX_SIZE) -> None:
+    with Image.open(BytesIO(image_bytes)) as opened:
+        img = opened.convert("RGBA")
+        size = min(img.size)
+        left = (img.width - size) // 2
+        top = (img.height - size) // 2
+        img = img.crop((left, top, left + size, top + size))
+        if size > max_size:
+            img = img.resize((max_size, max_size), Image.Resampling.LANCZOS)
+            size = max_size
+
+        mask = Image.new("L", (size, size), 0)
+        draw = ImageDraw.Draw(mask)
+        draw.ellipse((0, 0, size, size), fill=255)
+        result = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+        result.paste(img, (0, 0), mask)
+        dest_path.parent.mkdir(parents=True, exist_ok=True)
+        result.save(dest_path)
+
+
+def download_nva_portrait(image_url: str, dest_path: Path) -> bool:
+    if not image_url:
+        return False
+    headers = {}
+    token = os.environ.get("NVA_API_TOKEN", "").strip()
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    try:
+        response = requests.get(image_url, headers=headers, timeout=30)
+        response.raise_for_status()
+        content_type = (response.headers.get("Content-Type") or "").lower()
+        if content_type.startswith("application/json"):
+            return False
+        save_circle_portrait(response.content, dest_path)
+        return True
+    except Exception:
+        return False
+
+
+def nva_publication_source(reference: dict) -> str:
+    reference = reference or {}
+    instance = reference.get("publicationInstance") or {}
+    raw_type = instance.get("type") or ""
+    if raw_type in PUBLICATION_TYPE_LABELS:
+        return PUBLICATION_TYPE_LABELS[raw_type]
+    return raw_type.replace("Academic", "").strip() or "Publication"
+
+
+def find_doi_in_object(node) -> str:
+    if isinstance(node, dict):
+        for key, value in node.items():
+            if key.lower() == "doi" and isinstance(value, str) and value.strip():
+                return value.strip()
+            found = find_doi_in_object(value)
+            if found:
+                return found
+    elif isinstance(node, list):
+        for item in node:
+            found = find_doi_in_object(item)
+            if found:
+                return found
+    return ""
+
+
+def nva_publication_url(hit: dict) -> str:
+    for artifact in hit.get("associatedArtifacts") or []:
+        if artifact.get("type") == "AssociatedLink" and artifact.get("id"):
+            return artifact["id"].strip()
+
+    doi = find_doi_in_object(hit.get("entityDescription") or {})
+    if doi:
+        if doi.startswith("http"):
+            return doi
+        return f"https://doi.org/{doi.lstrip('https://doi.org/')}"
+    return ""
+
+
+def nva_selected_works(profile_id: str, max_works: int) -> list[dict[str, str]]:
+    response = requests.get(
+        "https://api.nva.unit.no/search/resources",
+        params={"contributor": profile_id, "results": max(max_works * 3, 30)},
+        timeout=30,
+    )
+    response.raise_for_status()
+    works = []
+    seen = set()
+
+    for hit in response.json().get("hits") or []:
+        entity = hit.get("entityDescription") or {}
+        title = localized_text(entity.get("mainTitle"))
+        if not title:
+            continue
+        key = title.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+
+        publication_date = entity.get("publicationDate") or {}
+        year = ""
+        if isinstance(publication_date, dict):
+            year = normalize_publication_year(publication_date.get("year"))
+
+        work = {"title": title}
+        if year:
+            work["year"] = year
+        source = nva_publication_source(entity.get("reference") or {})
+        if source:
+            work["source"] = source
+        url = nva_publication_url(hit)
+        if url:
+            work["url"] = url
+        works.append(work)
+
+    works.sort(key=work_sort_key, reverse=True)
+    return works[:max_works]
+
+
+def fetch_nva_bundle(
+    profile_id: str,
+    institution_lookup: dict[str, str],
+    org_cache: dict,
+    max_tags: int,
+    max_works: int,
+) -> dict:
+    profile = get_json(f"https://api.nva.unit.no/cristin/person/{profile_id}")
+    affiliation = pick_active_affiliation(profile.get("affiliations") or [])
+    role_labels = ((affiliation.get("role") or {}).get("labels") or {})
+    position = role_labels.get("en") or role_labels.get("nb") or ""
+    org_name = fetch_org_name((affiliation.get("organization") or "").strip(), org_cache)
+    org_slug = institution_lookup.get(slugify(org_name), "") if org_name else ""
+
+    affiliations = []
+    if org_slug:
+        affiliations.append(org_slug)
+
+    return {
+        "name": names_to_full_name(profile.get("names") or []),
+        "position": position,
+        "institution": org_slug,
+        "institutions": affiliations,
+        "tags": keyword_labels(profile.get("keywords") or [], max_keywords=max_tags),
+        "summary": background_to_summary(profile.get("background")),
+        "image_url": (profile.get("image") or "").strip(),
+        "orcid": find_orcid(profile.get("identifiers") or []),
+        "website": ((profile.get("contactDetails") or {}).get("webPage") or "").strip(),
+        "selected_works": nva_selected_works(profile_id, max_works=max_works),
+        "profile_id": profile_id,
+    }
+
+
+def orcid_primary_employment(orcid_id: str, institution_lookup: dict[str, str]) -> tuple[str, str, str]:
+    data = get_orcid_json(f"https://pub.orcid.org/v3.0/{orcid_id}/employments")
+    candidates = []
+    for group in data.get("affiliation-group") or []:
+        for summary in group.get("summaries") or []:
+            employment = summary.get("employment-summary") or {}
+            if not employment:
+                continue
+            organization = employment.get("organization") or {}
+            org_name = orcid_text_value(organization.get("name"))
+            position = orcid_text_value(employment.get("role-title"))
+            org_slug = institution_lookup.get(slugify(org_name), "") if org_name else ""
+            display_index = orcid_text_value(employment.get("display-index"))
+            try:
+                rank = int(display_index)
+            except ValueError:
+                rank = 999
+            candidates.append((rank, position, org_slug, org_name))
+
+    if not candidates:
+        return "", "", ""
+
+    candidates.sort(key=lambda item: item[0])
+    _, position, org_slug, _ = candidates[0]
+    return position, org_slug, org_slug
+
+
+def fetch_orcid_bundle(orcid_id: str, institution_lookup: dict[str, str], max_tags: int, max_works: int) -> dict:
+    person = get_orcid_json(f"https://pub.orcid.org/v3.0/{orcid_id}/person")
+    position, institution, _ = orcid_primary_employment(orcid_id, institution_lookup)
+    institutions = [institution] if institution else []
+    tags = orcid_keyword_labels(person, max_keywords=max_tags)
+    works = orcid_selected_works(orcid_id, max_works=max_works)
+
+    return {
+        "name": orcid_name_to_full_name(person),
+        "position": position,
+        "institution": institution,
+        "institutions": institutions,
+        "tags": tags,
+        "summary": orcid_biography(person),
+        "image_url": "",
+        "orcid": f"https://orcid.org/{orcid_id}",
+        "website": (orcid_researcher_urls(person) or [""])[0],
+        "selected_works": works,
+        "profile_id": "",
+    }
+
+
 def names_to_full_name(names: list[dict]) -> str:
     first = ""
     last = ""
@@ -376,10 +658,8 @@ def orcid_selected_works(orcid_id: str, max_works: int) -> list[dict[str, str]]:
             work["url"] = url
         works.append(work)
 
-        if len(works) >= max_works:
-            break
-
-    return works
+    works.sort(key=work_sort_key, reverse=True)
+    return works[:max_works]
 
 
 def build_institution_lookup(root: Path) -> tuple[dict[str, str], dict[str, str]]:
@@ -462,16 +742,27 @@ def ordered_person(data: dict) -> dict:
     return ordered
 
 
+def apply_field(data: dict, key: str, value, changed: bool) -> bool:
+    if value in (None, "", [], {}):
+        return changed
+    if data.get(key) != value:
+        data[key] = value
+        return True
+    return changed
+
+
 def enrich_person(
     index_md: Path,
+    root: Path,
     institution_lookup: dict[str, str],
     slug_to_institution_name: dict[str, str],
     org_cache: dict,
-    max_keywords: int,
+    max_tags: int,
     max_works: int,
     dry_run: bool,
     discover_nva: bool,
     discover_nva_loose: bool,
+    download_images: bool,
 ):
     text = index_md.read_text(encoding="utf-8")
     front, body = split_frontmatter(text)
@@ -480,7 +771,11 @@ def enrich_person(
     if data.get("type") != "person":
         return False, "skip: not person"
 
+    slug = (data.get("slug") or index_md.parent.name).strip()
     urls = data.get("urls") or {}
+    if not isinstance(urls, dict):
+        urls = {}
+
     nva_url = (urls.get("nva") or "").strip()
     orcid_url = (urls.get("orcid") or "").strip()
     if not nva_url and discover_nva:
@@ -494,120 +789,106 @@ def enrich_person(
         if discovered_id:
             nva_url = f"https://nva.sikt.no/research-profile/{discovered_id}"
             urls["nva"] = nva_url
-            data["urls"] = urls
-        else:
-            if not orcid_url:
-                return False, reason
+        elif not orcid_url:
+            return False, reason
 
     if not nva_url and not orcid_url:
         return False, "skip: no urls.nva or urls.orcid"
 
+    nva_bundle = {}
+    profile_id = extract_profile_id(nva_url) if nva_url else None
+    if profile_id:
+        try:
+            nva_bundle = fetch_nva_bundle(
+                profile_id,
+                institution_lookup=institution_lookup,
+                org_cache=org_cache,
+                max_tags=max_tags,
+                max_works=max_works,
+            )
+            if nva_bundle.get("orcid"):
+                orcid_url = nva_bundle["orcid"]
+        except Exception as exc:
+            if not orcid_url:
+                return False, f"error: nva fetch failed: {exc}"
+
+    orcid_bundle = {}
+    orcid_id = extract_orcid_id(orcid_url)
+    if orcid_url and not orcid_id:
+        return False, "skip: unsupported orcid url"
+    if orcid_id:
+        try:
+            orcid_bundle = fetch_orcid_bundle(
+                orcid_id,
+                institution_lookup=institution_lookup,
+                max_tags=max_tags,
+                max_works=max_works,
+            )
+        except Exception as exc:
+            if not nva_bundle:
+                return False, f"error: orcid fetch failed: {exc}"
+
+    if not nva_bundle and not orcid_bundle:
+        return False, "skip: no profile data"
+
     changed = False
+    name = prefer(nva_bundle.get("name"), orcid_bundle.get("name"))
+    if name:
+        changed = apply_field(data, "name", name, changed) or changed
+        changed = apply_field(data, "title", name, changed) or changed
 
-    existing_keywords = data.get("search_keywords") or []
-    if not isinstance(existing_keywords, list):
-        existing_keywords = []
-    merged_keywords = list(existing_keywords)
+    position = prefer(nva_bundle.get("position"), orcid_bundle.get("position"))
+    changed = apply_field(data, "position", position, changed) or changed
 
-    if nva_url:
-        profile_id = extract_profile_id(nva_url)
-        if not profile_id:
-            return False, "skip: unsupported nva url"
+    institution = prefer(nva_bundle.get("institution"), orcid_bundle.get("institution"))
+    changed = apply_field(data, "institution", institution, changed) or changed
 
-        profile = get_json(f"https://api.nva.unit.no/cristin/person/{profile_id}")
-        full_name = names_to_full_name(profile.get("names") or [])
-        orcid = find_orcid(profile.get("identifiers") or [])
+    merged_institutions = sorted(
+        set((data.get("institutions") or []) + (nva_bundle.get("institutions") or []) + (orcid_bundle.get("institutions") or []))
+    )
+    if merged_institutions and data.get("institutions") != merged_institutions:
+        data["institutions"] = merged_institutions
+        changed = True
 
-        contact = profile.get("contactDetails") or {}
-        website = (contact.get("webPage") or "").strip()
+    tags = prefer(nva_bundle.get("tags"), orcid_bundle.get("tags")) or []
+    if tags:
+        changed = apply_field(data, "tags", tags, changed) or changed
+        changed = apply_field(data, "search_keywords", tags, changed) or changed
 
-        affiliation = pick_active_affiliation(profile.get("affiliations") or [])
-        role_labels = ((affiliation.get("role") or {}).get("labels") or {})
-        position = role_labels.get("en") or role_labels.get("nb") or ""
-        org_name = fetch_org_name((affiliation.get("organization") or "").strip(), org_cache)
-        org_slug = institution_lookup.get(slugify(org_name), "") if org_name else ""
+    summary = prefer(nva_bundle.get("summary"), orcid_bundle.get("summary"))
+    changed = apply_field(data, "summary", summary, changed) or changed
 
-        nva_keywords = keyword_labels(profile.get("keywords") or [], max_keywords=max_keywords)
-        merged_keywords = merge_unique_strings(existing_keywords, nva_keywords, max_items=max_keywords)
-        summary = background_to_summary(profile.get("background"))
+    selected_works = prefer(nva_bundle.get("selected_works"), orcid_bundle.get("selected_works")) or []
+    if selected_works and data.get("selected_works") != selected_works:
+        data["selected_works"] = selected_works
+        changed = True
 
-        if full_name and data.get("name") != full_name:
-            data["name"] = full_name
-            data["title"] = full_name
-            changed = True
+    website = prefer(nva_bundle.get("website"), orcid_bundle.get("website"))
+    if website and not (urls.get("website") or "").strip():
+        urls["website"] = website
+        changed = True
 
-        if position and data.get("position") != position:
-            data["position"] = position
-            changed = True
-
-        if org_slug and data.get("institution") != org_slug:
-            data["institution"] = org_slug
-            changed = True
-
-        existing_insts = data.get("institutions") or []
-        if not isinstance(existing_insts, list):
-            existing_insts = []
-        if org_slug and org_slug not in existing_insts:
-            existing_insts.append(org_slug)
-            data["institutions"] = sorted(set(existing_insts))
-            changed = True
-
-        if summary and not (data.get("summary") or "").strip():
-            data["summary"] = summary
-            changed = True
-
-        if orcid and urls.get("orcid") != orcid:
-            urls["orcid"] = orcid
-            orcid_url = orcid
-            changed = True
-
+    if profile_id:
         canonical_nva = f"https://nva.sikt.no/research-profile/{profile_id}"
         if urls.get("nva") != canonical_nva:
             urls["nva"] = canonical_nva
             changed = True
 
-        if website and not (urls.get("website") or "").strip():
-            urls["website"] = website
-            changed = True
-
-    orcid_id = extract_orcid_id(orcid_url)
-    if orcid_url and not orcid_id:
-        return False, "skip: unsupported orcid url"
-
     if orcid_id:
-        person = get_orcid_json(f"https://pub.orcid.org/v3.0/{orcid_id}/person")
-        orcid_name = orcid_name_to_full_name(person)
-        orcid_summary = orcid_biography(person)
-        orcid_keywords = orcid_keyword_labels(person, max_keywords=max_keywords)
-        merged_keywords = merge_unique_strings(merged_keywords, orcid_keywords, max_items=max_keywords)
-        selected_works = orcid_selected_works(orcid_id, max_works=max_works)
-        researcher_urls = orcid_researcher_urls(person)
-
-        if orcid_name and not (data.get("name") or "").strip():
-            data["name"] = orcid_name
-            data["title"] = orcid_name
-            changed = True
-
-        if orcid_summary and not (data.get("summary") or "").strip():
-            data["summary"] = orcid_summary
-            changed = True
-
-        if selected_works and data.get("selected_works") != selected_works:
-            data["selected_works"] = selected_works
-            changed = True
-
-        if researcher_urls and not (urls.get("website") or "").strip():
-            urls["website"] = researcher_urls[0]
-            changed = True
-
         canonical_orcid = f"https://orcid.org/{orcid_id}"
         if urls.get("orcid") != canonical_orcid:
             urls["orcid"] = canonical_orcid
             changed = True
 
-    if merged_keywords and data.get("search_keywords") != merged_keywords:
-        data["search_keywords"] = merged_keywords
-        changed = True
+    image_url = prefer(nva_bundle.get("image_url"), orcid_bundle.get("image_url"))
+    if download_images and image_url:
+        portrait_name = portrait_filename(data.get("name") or slug, institution or (data.get("institution") or ""))
+        portrait_path = root / PORTRAITS_CIRCLE_DIR / portrait_name
+        if download_nva_portrait(image_url, portrait_path):
+            image_ref = f"/{PORTRAITS_CIRCLE_DIR}/{portrait_name}"
+            if data.get("image") != image_ref:
+                data["image"] = image_ref
+                changed = True
 
     data["urls"] = urls
 
@@ -619,18 +900,36 @@ def enrich_person(
 
     ordered = ordered_person(data)
     dumped = yaml.safe_dump(ordered, allow_unicode=True, sort_keys=False).strip()
-    index_md.write_text(f"---\n{dumped}\n---\n\n{body.lstrip()}" , encoding="utf-8")
+    index_md.write_text(f"---\n{dumped}\n---\n\n{body.lstrip()}", encoding="utf-8")
     return True, "updated"
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Enrich directory people entries from NVA and ORCID profile URLs.")
+    parser = argparse.ArgumentParser(
+        description=(
+            "Enrich directory people from NVA and ORCID (NVA preferred, ORCID fallback). "
+            "Updates affiliation, tags, bio, image, and recent publications."
+        )
+    )
     parser.add_argument("--root", default=".", help="Repository root")
     parser.add_argument("--slug", action="append", help="Only process specific person slug (repeatable)")
-    parser.add_argument("--max-keywords", type=int, default=12, help="Maximum number of NVA keywords to import")
-    parser.add_argument("--max-works", type=int, default=5, help="Maximum number of ORCID works to import")
+    parser.add_argument(
+        "--max-tags",
+        "--max-keywords",
+        dest="max_tags",
+        type=int,
+        default=DEFAULT_MAX_TAGS,
+        help="Maximum number of research tags/keywords to import",
+    )
+    parser.add_argument(
+        "--max-works",
+        type=int,
+        default=DEFAULT_MAX_WORKS,
+        help="Maximum number of publications to import (NVA preferred, ORCID fallback)",
+    )
     parser.add_argument("--discover-nva", action="store_true", help="Auto-discover missing urls.nva from person name and institution")
     parser.add_argument("--discover-nva-loose", action="store_true", help="Allow a second-round looser name match for NVA discovery")
+    parser.add_argument("--no-download-images", action="store_true", help="Skip downloading NVA profile pictures")
     parser.add_argument("--dry-run", action="store_true", help="Report changes without writing files")
     args = parser.parse_args()
 
@@ -658,14 +957,16 @@ def main():
         try:
             changed, msg = enrich_person(
                 index_md,
+                root=root,
                 institution_lookup=institution_lookup,
                 slug_to_institution_name=slug_to_institution_name,
                 org_cache=org_cache,
-                max_keywords=args.max_keywords,
+                max_tags=args.max_tags,
                 max_works=args.max_works,
                 dry_run=args.dry_run,
                 discover_nva=args.discover_nva,
                 discover_nva_loose=args.discover_nva_loose,
+                download_images=not args.no_download_images,
             )
             if changed:
                 updated += 1

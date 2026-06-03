@@ -1,0 +1,50 @@
+name: Update directory people from NVA and ORCID
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Enrich people directory
+        env:
+          NVA_API_TOKEN: ${{ secrets.NVA_API_TOKEN }}
+        run: |
+          python3 scripts/enrich_directory_from_nva.py \
+            --discover-nva \
+            --discover-nva-loose \
+            --max-works 10
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No directory changes to commit."
+            exit 0
+          fi
+          git add _directory/people assets/images/portraits/circle
+          git commit -m "$(cat <<'EOF'
+Update people directory from NVA and ORCID.
+
+Scheduled sync of affiliations, tags, bios, portraits, and recent publications.
+EOF
+)"
+          git push
