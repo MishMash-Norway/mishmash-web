@@ -5,16 +5,6 @@
 {% if data and data.results and data.results.size > 0 %}
 {% assign grouped_results = data.results | group_by: 'group_type' %}
 <section class="nva-results" aria-label="{{ t.results_heading }}">
-  <p class="nva-results-summary">
-    {{ data.results.size }} {{ t.results_count_label }} ·
-    <a href="{{ data.project.nva_url }}" target="_blank" rel="noopener noreferrer">{{ t.results_nva_project_link }}</a>
-    {% if data.project.rcn_grant %}
-    · RCN {{ data.project.rcn_grant }}
-    {% endif %}
-    {% if data.synced_at %}
-    · {{ t.results_updated }} {{ data.synced_at | date: "%Y-%m-%d" }}
-    {% endif %}
-  </p>
 
   <div class="nva-results-filters search-filters">
     <div class="filter-group">
@@ -74,11 +64,11 @@
             {% endif %}
 
             {% if cite.abstract %}
-            <div class="nva-result-summary-block">
+            <div class="nva-result-summary-block{% if cite.abstract.size > 280 %} is-collapsible{% endif %}">
               <p class="nva-result-abstract{% if cite.abstract.size > 280 %} is-clamped{% endif %}" id="abstract-{{ type_slug }}-{{ forloop.index }}">{{ cite.abstract }}</p>
               {% if cite.abstract.size > 280 %}
               <button type="button" class="nva-result-expand" aria-expanded="false" aria-controls="abstract-{{ type_slug }}-{{ forloop.index }}">
-                {{ t.results_show_summary }}
+                {{ t.results_show_more }}
               </button>
               {% endif %}
             </div>
@@ -146,11 +136,13 @@
   document.querySelectorAll('.nva-result-expand').forEach(function (button) {
     button.addEventListener('click', function () {
       const target = document.getElementById(button.getAttribute('aria-controls') || '');
-      if (!target) return;
+      const block = button.closest('.nva-result-summary-block');
+      if (!target || !block) return;
       const expanded = button.getAttribute('aria-expanded') === 'true';
       target.classList.toggle('is-clamped', expanded);
+      block.classList.toggle('is-expanded', !expanded);
       button.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-      button.textContent = expanded ? {{ t.results_show_summary | jsonify }} : {{ t.results_hide_summary | jsonify }};
+      button.textContent = expanded ? {{ t.results_show_more | jsonify }} : {{ t.results_show_less | jsonify }};
     });
   });
 

@@ -436,12 +436,6 @@ a:focus-visible .icon {
   margin-top: 1.5rem;
 }
 
-.nva-results-summary {
-  color: #666;
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
-}
-
 .nva-results-filters {
   margin-bottom: 1.25rem;
 }
@@ -517,10 +511,10 @@ a:focus-visible .icon {
 
 .nva-result-authors {
   margin: 0;
-  color: #333;
-  font-size: inherit;
+  color: #444;
+  font-size: 0.92rem;
   font-weight: 700;
-  line-height: 1.45;
+  line-height: 1.55;
 }
 
 .nva-result-authors a {
@@ -536,6 +530,10 @@ a:focus-visible .icon {
   margin: 0;
 }
 
+.nva-result-summary-block.is-collapsible {
+  position: relative;
+}
+
 .nva-result-abstract {
   color: #444;
   font-size: 0.92rem;
@@ -545,12 +543,31 @@ a:focus-visible .icon {
 .nva-result-abstract.is-clamped {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 2;
   overflow: hidden;
 }
 
+.nva-result-summary-block.is-collapsible:not(.is-expanded) .nva-result-expand {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding-left: 2.75rem;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 35%, #fff);
+  line-height: 1.55;
+}
+
+.nva-result-summary-block.is-expanded .nva-result-abstract {
+  display: inline;
+}
+
+.nva-result-summary-block.is-expanded .nva-result-expand {
+  display: inline;
+  margin: 0 0 0 0.35em;
+  vertical-align: baseline;
+}
+
 .nva-result-expand {
-  margin-top: 0.25rem;
   border: 0;
   background: none;
   padding: 0;
@@ -559,6 +576,7 @@ a:focus-visible .icon {
   font: inherit;
   font-size: 0.92rem;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .nva-result-expand:hover,
