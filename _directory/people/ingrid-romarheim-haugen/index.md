@@ -8,13 +8,6 @@ department: Musikk
 image: /assets/images/portraits/circle/Ingrid_Romarheim_Haugen_NB.png
 institution: ''
 institutions: []
-affiliation_units: []
-nva_affiliations:
-- active: true
-  role: Adviser
-  unit: Musikk
-  institution: ''
-  institutions: []
 projects: []
 roles:
 - Work Package Leader Group member

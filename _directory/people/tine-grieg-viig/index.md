@@ -7,31 +7,11 @@ position: Associate professor
 department: Department of Arts Education
 institution: western-norway-university-of-applied-sciences
 institutions:
-- norwegian-university-of-science-and-technology
 - western-norway-university-of-applied-sciences
 affiliation_units:
 - Western Norway University of Applied Sciences
 - Faculty of Education, Arts and Sports
 - Department of Arts Education
-nva_affiliations:
-- active: false
-  role: ''
-  unit: Norwegian University of Science and Technology
-  units:
-  - Norwegian University of Science and Technology
-  institution: norwegian-university-of-science-and-technology
-  institutions:
-  - norwegian-university-of-science-and-technology
-- active: true
-  role: Associate professor
-  unit: Department of Arts Education
-  units:
-  - Western Norway University of Applied Sciences
-  - Faculty of Education, Arts and Sports
-  - Department of Arts Education
-  institution: western-norway-university-of-applied-sciences
-  institutions:
-  - western-norway-university-of-applied-sciences
 projects: []
 roles:
 - Board Member

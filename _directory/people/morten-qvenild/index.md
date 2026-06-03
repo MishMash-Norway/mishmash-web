@@ -9,14 +9,6 @@ image: /assets/images/portraits/circle/Morten_Qvenild_NMH.png
 institution: norwegian-academy-of-music
 institutions:
 - norwegian-academy-of-music
-affiliation_units: []
-nva_affiliations:
-- active: true
-  role: Pro-rector
-  unit: Fagseksjon for improvisert musikk, jazz og folkemusikk
-  institution: norwegian-academy-of-music
-  institutions:
-  - norwegian-academy-of-music
 projects: []
 roles:
 - Council member

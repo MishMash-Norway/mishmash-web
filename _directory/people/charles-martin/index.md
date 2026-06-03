@@ -6,16 +6,7 @@ title: Charles Martin
 position: Guest
 department: Research Group for Robotics and Intelligent Systems
 institution: university-of-oslo
-institutions:
-- university-of-oslo
-affiliation_units: []
-nva_affiliations:
-- active: false
-  role: Guest
-  unit: Research Group for Robotics and Intelligent Systems
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
+institutions: []
 projects: []
 roles:
 - Council member

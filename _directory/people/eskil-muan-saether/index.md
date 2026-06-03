@@ -9,14 +9,6 @@ image: /assets/images/portraits/circle/eskil_muan_saether_UiO.png
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-affiliation_units: []
-nva_affiliations:
-- active: true
-  role: Senior adviser
-  unit: IMV administrasjon
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
 projects: []
 roles:
 - Board Secretary

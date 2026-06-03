@@ -9,14 +9,6 @@ image: /assets/images/portraits/circle/Fredrik_Graver_INN.png
 institution: inland-norway-university-of-applied-sciences
 institutions:
 - inland-norway-university-of-applied-sciences
-affiliation_units: []
-nva_affiliations:
-- active: true
-  role: Professor
-  unit: The Norwegian Film School
-  institution: inland-norway-university-of-applied-sciences
-  institutions:
-  - inland-norway-university-of-applied-sciences
 projects: []
 roles:
 - Work Package Leader Group member

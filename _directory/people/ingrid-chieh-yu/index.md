@@ -8,14 +8,6 @@ department: Data and Knowledge Management
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-affiliation_units: []
-nva_affiliations:
-- active: true
-  role: Professor
-  unit: Data and Knowledge Management
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
 projects: []
 roles:
 - Council member

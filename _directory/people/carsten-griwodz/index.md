@@ -9,14 +9,6 @@ image: /assets/images/portraits/circle/Carsten_Griwodz_UiO.png
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-affiliation_units: []
-nva_affiliations:
-- active: true
-  role: Professor
-  unit: Networks and Distributed Systems
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
 projects: []
 roles:
 - Work Package Leader Group member

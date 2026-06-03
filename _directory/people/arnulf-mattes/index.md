@@ -9,32 +9,10 @@ image: /assets/images/portraits/circle/Arnulf_Mattes_UiB.png
 institution: university-of-bergen
 institutions:
 - university-of-bergen
-- university-of-oslo
 affiliation_units:
 - University of Bergen
 - Faculty of Fine Art, Music and Design
 - The Grieg Academy &#8211; Department of Music
-nva_affiliations:
-- active: true
-  role: Professor
-  unit: The Grieg Academy &#8211; Department of Music
-  units:
-  - University of Bergen
-  - Faculty of Fine Art, Music and Design
-  - The Grieg Academy &#8211; Department of Music
-  institution: university-of-bergen
-  institutions:
-  - university-of-bergen
-- active: false
-  role: Researcher
-  unit: Department of Musicology
-  units:
-  - University of Oslo
-  - Faculty of Humanities
-  - Department of Musicology
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
 projects: []
 roles:
 - Work Package Leader Group member

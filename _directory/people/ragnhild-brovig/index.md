@@ -8,31 +8,11 @@ department: Department of Musicology
 image: /assets/images/portraits/circle/Ragnhild_Brovig_UiO.png
 institution: university-of-oslo
 institutions:
-- norwegian-university-of-science-and-technology
 - university-of-oslo
 affiliation_units:
 - University of Oslo
 - Faculty of Humanities
 - Department of Musicology
-nva_affiliations:
-- active: true
-  role: Professor
-  unit: Department of Musicology
-  units:
-  - University of Oslo
-  - Faculty of Humanities
-  - Department of Musicology
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
-- active: false
-  role: Guest
-  unit: Norwegian University of Science and Technology
-  units:
-  - Norwegian University of Science and Technology
-  institution: norwegian-university-of-science-and-technology
-  institutions:
-  - norwegian-university-of-science-and-technology
 projects: []
 roles:
 - Work Package Leader Group member

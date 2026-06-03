@@ -9,32 +9,10 @@ image: /assets/images/portraits/circle/Andreas_Bergsland_NTNU.png
 institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
-- university-of-oslo
 affiliation_units:
 - Norwegian University of Science and Technology
 - Faculty of Humanities
 - Department of Music
-nva_affiliations:
-- active: false
-  role: Guest
-  unit: Department of Musicology
-  units:
-  - University of Oslo
-  - Faculty of Humanities
-  - Department of Musicology
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
-- active: true
-  role: Professor
-  unit: Department of Music
-  units:
-  - Norwegian University of Science and Technology
-  - Faculty of Humanities
-  - Department of Music
-  institution: norwegian-university-of-science-and-technology
-  institutions:
-  - norwegian-university-of-science-and-technology
 projects: []
 roles:
 - Work Package Leader Group member

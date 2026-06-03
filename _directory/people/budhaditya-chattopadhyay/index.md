@@ -9,14 +9,6 @@ image: /assets/images/portraits/circle/Budhaditya_Chattopadhyay_UiB.png
 institution: university-of-bergen
 institutions:
 - university-of-bergen
-affiliation_units: []
-nva_affiliations:
-- active: true
-  role: Post-doctoral research fellow
-  unit: The Art Academy &#8211; Department of Contemporary Art
-  institution: university-of-bergen
-  institutions:
-  - university-of-bergen
 projects: []
 roles:
 - Work Package Leader Group member

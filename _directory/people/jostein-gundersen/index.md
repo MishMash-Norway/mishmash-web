@@ -7,33 +7,11 @@ position: Associate professor
 department: The Grieg Academy &#8211; Department of Music
 institution: university-of-bergen
 institutions:
-- arctic-university-of-norway
 - university-of-bergen
 affiliation_units:
 - University of Bergen
 - Faculty of Fine Art, Music and Design
 - The Grieg Academy &#8211; Department of Music
-nva_affiliations:
-- active: true
-  role: Associate professor
-  unit: The Grieg Academy &#8211; Department of Music
-  units:
-  - University of Bergen
-  - Faculty of Fine Art, Music and Design
-  - The Grieg Academy &#8211; Department of Music
-  institution: university-of-bergen
-  institutions:
-  - university-of-bergen
-- active: false
-  role: University college lecturer
-  unit: Fakultetsledelse og -administrasjon
-  units:
-  - UiT The Arctic University of Norway
-  - Det kunstfaglige fakultet
-  - Fakultetsledelse og -administrasjon
-  institution: arctic-university-of-norway
-  institutions:
-  - arctic-university-of-norway
 projects: []
 roles:
 - Council member

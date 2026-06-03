@@ -9,14 +9,6 @@ image: /assets/images/portraits/circle/Jonna_Vuoskoski_UiO.png
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-affiliation_units: []
-nva_affiliations:
-- active: true
-  role: Professor
-  unit: IMV stab
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
 projects: []
 roles:
 - Work Package Leader Group member

@@ -557,19 +557,16 @@ def fetch_nva_bundle(
 ) -> dict:
     profile = get_json(nva_api_url(f"/cristin/person/{profile_id}"))
     nva_affiliations = parse_nva_affiliations(profile, org_cache, institution_lookup)
-    for aff in nva_affiliations:
-        aff["institutions"] = list(aff.get("institutions") or [])
-        if len(nva_affiliations) > 1:
-            aff["units"] = list(aff.get("units") or [])
-        else:
-            aff.pop("units", None)
-    primary = pick_primary_nva_affiliation(nva_affiliations)
+    active = active_nva_affiliations(nva_affiliations)
+    primary = pick_primary_nva_affiliation(active or nva_affiliations)
 
     institution_slugs = []
-    for aff in nva_affiliations:
+    for aff in active:
         for slug in aff.get("institutions") or []:
             if slug and slug not in institution_slugs:
                 institution_slugs.append(slug)
+
+    extra_active = [compact_nva_affiliation(aff) for aff in active]
 
     return {
         "name": names_to_full_name(profile.get("names") or []),
@@ -577,8 +574,8 @@ def fetch_nva_bundle(
         "department": primary.get("unit") or "",
         "institution": primary.get("institution") or "",
         "institutions": sorted(institution_slugs),
-        "affiliation_units": primary.get("units") or [],
-        "nva_affiliations": nva_affiliations,
+        "affiliation_units": [],
+        "nva_affiliations": extra_active if len(extra_active) > 1 else [],
         "tags": keyword_labels(profile.get("keywords") or [], max_keywords=max_tags),
         "summary": background_to_summary(profile.get("background")),
         "image_url": (profile.get("image") or "").strip(),
@@ -796,6 +793,18 @@ def pick_primary_nva_affiliation(affiliations: list[dict]) -> dict:
         if aff.get("active"):
             return aff
     return affiliations[0] if affiliations else {}
+
+
+def active_nva_affiliations(affiliations: list[dict]) -> list[dict]:
+    return [aff for aff in affiliations if aff.get("active")]
+
+
+def compact_nva_affiliation(aff: dict) -> dict:
+    return {
+        "role": aff.get("role") or "",
+        "unit": aff.get("unit") or "",
+        "institution": aff.get("institution") or "",
+    }
 
 
 def keyword_labels(keywords: list[dict], max_keywords: int) -> list[str]:
@@ -1117,9 +1126,6 @@ def enrich_person(
     department = synced_field_value(nva_bundle, orcid_bundle, "department")
     changed = apply_field(data, "department", department, changed, allow_empty=allow_empty) or changed
 
-    affiliation_units = synced_field_value(nva_bundle, orcid_bundle, "affiliation_units") or []
-    changed = apply_field(data, "affiliation_units", affiliation_units, changed, allow_empty=allow_empty) or changed
-
     nva_affiliations = synced_field_value(nva_bundle, orcid_bundle, "nva_affiliations") or []
     changed = apply_field(data, "nva_affiliations", nva_affiliations, changed, allow_empty=allow_empty) or changed
 
@@ -1176,6 +1182,11 @@ def enrich_person(
                 changed = True
 
     data["urls"] = urls
+
+    for key in ("affiliation_units", "nva_affiliations"):
+        if key in data and not data.get(key):
+            data.pop(key, None)
+            changed = True
 
     if not changed:
         return False, "unchanged"

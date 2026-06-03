@@ -12,25 +12,6 @@ institutions:
 affiliation_units:
 - The Oslo School of Architecture and Design
 - Institute of Design
-nva_affiliations:
-- active: false
-  role: Research fellow
-  unit: Institute of Design
-  units:
-  - The Oslo School of Architecture and Design
-  - Institute of Design
-  institution: oslo-school-of-architecture-and-design
-  institutions:
-  - oslo-school-of-architecture-and-design
-- active: true
-  role: Associate professor
-  unit: Institute of Design
-  units:
-  - The Oslo School of Architecture and Design
-  - Institute of Design
-  institution: oslo-school-of-architecture-and-design
-  institutions:
-  - oslo-school-of-architecture-and-design
 projects: []
 roles:
 - Work Package Leader Group member

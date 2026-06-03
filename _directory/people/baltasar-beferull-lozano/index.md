@@ -15,25 +15,12 @@ affiliation_units:
 - Faculty of Engineering and Science
 - Department of Information and Communication Technology (ICT)
 nva_affiliations:
-- active: true
-  role: Professor
+- role: Professor
   unit: Department of Information and Communication Technology (ICT)
-  units:
-  - University of Agder
-  - Faculty of Engineering and Science
-  - Department of Information and Communication Technology (ICT)
   institution: university-of-agder
-  institutions:
-  - university-of-agder
-- active: true
-  role: Chief Research Scientist
+- role: Chief Research Scientist
   unit: Simula Metropolitan Center for Digital Engineering
-  units:
-  - Simula
-  - Simula Metropolitan Center for Digital Engineering
   institution: simula-metropolitan-center-for-digital-engineering
-  institutions:
-  - simula-metropolitan-center-for-digital-engineering
 projects: []
 roles:
 - Work Package Leader Group member

@@ -6,41 +6,11 @@ title: André Alexandersen Hauge
 position: Head of academic department
 department: Department of Computer Science and Communication
 institution: ''
-institutions:
-- university-of-oslo
+institutions: []
 affiliation_units:
 - Østfold University of Applied Sciences
 - Faculty of Computer Science, Engineering and Economics
 - Department of Computer Science and Communication
-nva_affiliations:
-- active: false
-  role: Guest
-  unit: Faculty of Mathematics and Natural Sciences
-  units:
-  - University of Oslo
-  - Faculty of Mathematics and Natural Sciences
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
-- active: true
-  role: Head of academic department
-  unit: Department of Computer Science and Communication
-  units:
-  - Østfold University of Applied Sciences
-  - Faculty of Computer Science, Engineering and Economics
-  - Department of Computer Science and Communication
-  institution: ''
-  institutions: []
-- active: false
-  role: Senior Researcher
-  unit: Risk and Safety
-  units:
-  - Institute for Energy Technology
-  - Digital systems
-  - Risk, Security & Physical Sciences
-  - Risk and Safety
-  institution: ''
-  institutions: []
 projects: []
 roles:
 - Council member

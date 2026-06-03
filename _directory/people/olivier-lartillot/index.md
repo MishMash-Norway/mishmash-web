@@ -10,14 +10,6 @@ image: /assets/images/portraits/circle/Olivier_Lartillot_UiO.png
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-affiliation_units: []
-nva_affiliations:
-- active: true
-  role: Researcher
-  unit: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion (IMV)
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
 projects: []
 roles:
 - Work Package Leader Group member

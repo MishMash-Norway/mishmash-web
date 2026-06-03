@@ -7,49 +7,10 @@ position: Research Director
 department: Simula Metropolitan Center for Digital Engineering
 institution: simula-metropolitan-center-for-digital-engineering
 institutions:
-- norwegian-university-of-science-and-technology
 - simula-metropolitan-center-for-digital-engineering
-- university-of-oslo
 affiliation_units:
 - Simula
 - Simula Metropolitan Center for Digital Engineering
-nva_affiliations:
-- active: false
-  role: ''
-  unit: Faculty of Mathematics and Natural Sciences
-  units:
-  - University of Oslo
-  - Faculty of Mathematics and Natural Sciences
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
-- active: false
-  role: Guest
-  unit: Department for Informatics
-  units:
-  - University of Oslo
-  - Faculty of Mathematics and Natural Sciences
-  - Department for Informatics
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
-- active: false
-  role: Guest
-  unit: Norwegian University of Science and Technology
-  units:
-  - Norwegian University of Science and Technology
-  institution: norwegian-university-of-science-and-technology
-  institutions:
-  - norwegian-university-of-science-and-technology
-- active: true
-  role: Research Director
-  unit: Simula Metropolitan Center for Digital Engineering
-  units:
-  - Simula
-  - Simula Metropolitan Center for Digital Engineering
-  institution: simula-metropolitan-center-for-digital-engineering
-  institutions:
-  - simula-metropolitan-center-for-digital-engineering
 projects: []
 roles:
 - Council member

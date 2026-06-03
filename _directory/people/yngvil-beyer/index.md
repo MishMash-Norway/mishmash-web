@@ -6,45 +6,10 @@ title: Yngvil Nesheim Beyer
 position: Head of Section
 department: Language Bank and DH lab
 institution: ''
-institutions:
-- university-of-oslo
+institutions: []
 affiliation_units:
 - The National Library of Norway
 - Language Bank and DH lab
-nva_affiliations:
-- active: false
-  role: Guest
-  unit: Faculty of Humanities
-  units:
-  - University of Oslo
-  - Faculty of Humanities
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
-- active: false
-  role: Higher Executive Officer
-  unit: OsloMet - Oslo Metropolitan University
-  units:
-  - OsloMet - Oslo Metropolitan University
-  institution: ''
-  institutions: []
-- active: false
-  role: Higher Executive Officer
-  unit: Department of Social Work, Child Welfare and Social Policy
-  units:
-  - OsloMet - Oslo Metropolitan University
-  - Faculty of Social Sciences
-  - Department of Social Work, Child Welfare and Social Policy
-  institution: ''
-  institutions: []
-- active: true
-  role: Head of Section
-  unit: Language Bank and DH lab
-  units:
-  - The National Library of Norway
-  - Language Bank and DH lab
-  institution: ''
-  institutions: []
 projects: []
 roles:
 - Council member

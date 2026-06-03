@@ -9,35 +9,7 @@ department: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motio
 image: /assets/images/portraits/circle/Alexander_Refsum_Jensenius_UiO.png
 institution: university-of-oslo
 institutions:
-- norwegian-university-of-science-and-technology
 - university-of-oslo
-affiliation_units:
-- University of Oslo
-- Faculty of Humanities
-- Department of Musicology
-- RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion (IMV)
-nva_affiliations:
-- active: true
-  role: Professor
-  unit: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion (IMV)
-  units:
-  - University of Oslo
-  - Faculty of Humanities
-  - Department of Musicology
-  - RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion (IMV)
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
-- active: false
-  role: Guest
-  unit: Department of Music
-  units:
-  - Norwegian University of Science and Technology
-  - Faculty of Humanities
-  - Department of Music
-  institution: norwegian-university-of-science-and-technology
-  institutions:
-  - norwegian-university-of-science-and-technology
 projects: []
 roles:
 - Director

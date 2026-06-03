@@ -8,14 +8,6 @@ department: Department of Visual Arts and Drama
 institution: university-of-agder
 institutions:
 - university-of-agder
-affiliation_units: []
-nva_affiliations:
-- active: true
-  role: University lecturer
-  unit: Department of Visual Arts and Drama
-  institution: university-of-agder
-  institutions:
-  - university-of-agder
 projects: []
 roles:
 - Council member

@@ -8,14 +8,6 @@ department: Department of Interdisciplinary Studies of Culture
 institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
-affiliation_units: []
-nva_affiliations:
-- active: true
-  role: Researcher
-  unit: Department of Interdisciplinary Studies of Culture
-  institution: norwegian-university-of-science-and-technology
-  institutions:
-  - norwegian-university-of-science-and-technology
 projects: []
 roles:
 - Council member

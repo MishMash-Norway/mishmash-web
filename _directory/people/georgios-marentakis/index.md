@@ -8,13 +8,6 @@ department: Department of Computer Science and Communication
 image: /assets/images/portraits/circle/Georgios_Marentakis_HiOF.png
 institution: ''
 institutions: []
-affiliation_units: []
-nva_affiliations:
-- active: true
-  role: Associate professor
-  unit: Department of Computer Science and Communication
-  institution: ''
-  institutions: []
 projects: []
 roles:
 - Work Package Leader Group member

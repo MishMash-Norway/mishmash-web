@@ -7,62 +7,10 @@ position: Associate professor
 department: Department of Communication and Culture
 institution: bi-norwegian-business-school
 institutions:
-- arctic-university-of-norway
 - bi-norwegian-business-school
-- university-of-oslo
 affiliation_units:
 - BI Norwegian Business School
 - Department of Communication and Culture
-nva_affiliations:
-- active: true
-  role: Associate professor
-  unit: Department of Communication and Culture
-  units:
-  - BI Norwegian Business School
-  - Department of Communication and Culture
-  institution: bi-norwegian-business-school
-  institutions:
-  - bi-norwegian-business-school
-- active: false
-  role: Guest
-  unit: Department of Media and Communication
-  units:
-  - University of Oslo
-  - Faculty of Humanities
-  - Department of Media and Communication
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
-- active: false
-  role: Post-doctoral research fellow
-  unit: Department of Media and Communication
-  units:
-  - University of Oslo
-  - Faculty of Humanities
-  - Department of Media and Communication
-  institution: university-of-oslo
-  institutions:
-  - university-of-oslo
-- active: false
-  role: 1009 universitetslektor
-  unit: Department of Tourism and Northern Studies
-  units:
-  - UiT The Arctic University of Norway
-  - Universitetet i Tromsø - Norges arktiske universitet
-  - Faculty of Humanities, Social Sciences and Education
-  - Department of Tourism and Northern Studies
-  institution: arctic-university-of-norway
-  institutions:
-  - arctic-university-of-norway
-- active: false
-  role: Associate professor
-  unit: Department of Archivistics, Library and Information Science
-  units:
-  - OsloMet - Oslo Metropolitan University
-  - Faculty of Social Sciences
-  - Department of Archivistics, Library and Information Science
-  institution: ''
-  institutions: []
 projects: []
 roles:
 - Council member
