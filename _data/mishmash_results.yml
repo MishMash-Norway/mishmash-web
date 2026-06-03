@@ -1,4 +1,4 @@
-synced_at: '2026-06-03T20:28:41Z'
+synced_at: '2026-06-03T20:44:36Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -7,6 +7,107 @@ project:
     en: MishMash Centre for AI and Creativity
     nb: MishMash Senter for KI og kreativitet
 results:
+- title: Mixed Method Audio-Video Analyses of Felt Togetherness in a Networked Music-Dance
+    Performance
+  year: '2026'
+  type: Book chapter
+  contributors:
+  - name: Bilge Serdar
+  - name: Aleksander Tidemann
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Serdar, Bilge
+      name: Bilge Serdar
+    - display: Tidemann, Aleksander
+      name: Aleksander Tidemann
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Mixed Method Audio-Video Analyses of Felt Togetherness in a Networked Music-Dance
+      Performance
+    container: 'In Guyot, Patrice, Bosselut, Gregoire (Eds.), MOCO ''26: Proceedings
+      of the 10th International Conference on Movement and Computing.'
+    details: 'Association for Computing Machinery (ACM). ISBN 9798400725005. doi:
+      10.1145/3802842.3802884.'
+    abstract: This paper presents a mixed-method approach to investigating the felt
+      experience of a networked music–dance performance. Using this approach, we explore
+      how a sense of togetherness emerges even when performers are distributed across
+      distant spaces. Drawing on data from the Telematic@Popsenteret research concert,
+      we propose a three-layered analytical framework that integrates computer-based
+      audio-video analyses with qualitative observation, and post-performance interviews.
+      By combining sound–motion synchrony and temporal coupling with performers’ and
+      audience members’ experiential accounts, we examine how dancers and musicians
+      negotiate coordination and shared presence in a telematic environment. Our findings
+      suggest that togetherness in such settings is not merely a matter of temporal
+      alignment, but a dynamically constructed, multimodal process involving perceptual
+      adaptation, cross-modal attunement, and affective awareness.
+    full_text_url: https://hdl.handle.net/11250/5511284
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019dbe9c786a-2aaeea22-7c01-4aff-8f5d-b070934c9e78
+  url: https://doi.org/10.1145/3802842.3802884
+  nva_url: https://nva.sikt.no/publication/019dbe9c786a-2aaeea22-7c01-4aff-8f5d-b070934c9e78
+- title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
+    Arts
+  year: '2026'
+  type: Book chapter
+  contributors:
+  - name: Hugh Alexander von Arnim
+  - name: Anna-Maria Christodoulou
+  - name: Kayla Burnim
+  - name: Finn Upham
+  - name: Tejaswinee Kelkar
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Arnim, Hugh Alexander von
+      name: Hugh Alexander von Arnim
+    - display: Christodoulou, Anna-Maria
+      name: Anna-Maria Christodoulou
+    - display: Burnim, Kayla
+      name: Kayla Burnim
+    - display: Upham, Finn
+      name: Finn Upham
+    - display: Kelkar, Tejaswinee
+      name: Tejaswinee Kelkar
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in
+      Performing Arts
+    container: In Brooks, Anthony L. (Ed.), Proceedings of the 14th EAI International
+      Conference on ArtsIT, Interactivity and Game Creation, ArtsIT 2025.
+    details: Springer. ISBN 9783032269997. p. 719–738.
+    abstract: This paper presents LightHearted, an open-source Python framework for
+      mapping the heart’s electrical activity from electrocardiography (ECG) signals
+      acquired from performers to stage lighting in a concert setting. The aim is
+      to provide dynamic lighting coupled to the physiological processes occurring
+      during performance. Drawing upon critical approaches towards using biosignals
+      in interactive systems and live concert research, we outline the framework’s
+      design and implementation and present a case study with the Aarhus Symphony
+      Orchestra. This paper highlights both technical and conceptual challenges of
+      integrating biosensor-based lighting into a large-scale orchestral context.
+      Results from a post-concert audience survey (N = 324) suggest that while responses
+      to the lighting were mixed, it was generally not perceived as distracting and
+      would be welcomed for use in future concerts.
+    full_text_url: https://hdl.handle.net/11250/5505933
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d77b43c89-c73a3828-7905-4177-b75c-0bb76343906b
+  nva_url: https://nva.sikt.no/publication/019d77b43c89-c73a3828-7905-4177-b75c-0bb76343906b
 - title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
     Currently Used in Music Production
   year: '2026'
@@ -25,6 +126,26 @@ results:
   - name: Arctic University of Norway
     slug: arctic-university-of-norway
     url: /institutions/arctic-university-of-norway/
+  citation:
+    authors:
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    - display: Brøvig, Ragnhild
+      name: Ragnhild Brøvig
+      slug: ragnhild-brovig
+      url: /people/ragnhild-brovig/
+    title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
+      Currently Used in Music Production
+    container: 'In Gullö, Jan-Olof, Toulson, Rob, Paterson, Justin, Marrington, Mark,
+      Andersen, Claus Sohn, Hepworth-Sawyer, Russ (Eds.), Innovation in Music: Current
+      Research Perspectives.'
+    details: Routledge. ISBN 9781032757858.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5331540
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019b22052adc-18ac17fb-eda5-46c7-8d3b-e1176110c991
   url: https://www.routledge.com/Innovation-in-Music-Current-Research-Perspectives/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757858
   nva_url: https://nva.sikt.no/publication/019b22052adc-18ac17fb-eda5-46c7-8d3b-e1176110c991
 - title: Technologies of Capture and the Global Souths
@@ -38,6 +159,28 @@ results:
   - name: University of Bergen
     slug: university-of-bergen
     url: /institutions/university-of-bergen/
+  citation:
+    authors:
+    - display: Chattopadhyay, Budhaditya
+      name: Budhaditya Chattopadhyay
+      slug: budhaditya-chattopadhyay
+      url: /people/budhaditya-chattopadhyay/
+    title: Technologies of Capture and the Global Souths
+    container: In Rudi, Jøran, Adkins, Monty (Eds.), The Routledge Handbook to Rethinking
+      the History of Technology-Based Music.
+    details: 'Routledge. ISBN 9781003430599. doi: 10.4324/9781003430599-20.'
+    abstract: In this chapter, the colonial intervention of the technologies of capture
+      are examined in the Global South regions, especially in South Asia in the beginning
+      of the twentieth century. I study the ramifications of this entry in the form
+      of mutating everyday sounds and musical practices into commodified sound objects
+      for industrialisation and sale. From a critical decolonial position, this introduction
+      of the technologies of capture is read here as a precarious intrusion into the
+      sounding and listening cultures of the Global Souths, and a moment of emergence
+      of an extractive capitalism through the colonial routes that devastate the sonic
+      symbiosis of the land.
+    full_text_url: https://hdl.handle.net/11250/5510672
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019dcbdd03cc-ac973a05-556a-4ddf-8718-6c074883f8c4
   url: https://doi.org/10.4324/9781003430599-20
   nva_url: https://nva.sikt.no/publication/019dcbdd03cc-ac973a05-556a-4ddf-8718-6c074883f8c4
 - title: 'Pixasonics: An Image Sonification Toolbox for Python'
@@ -52,6 +195,37 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Laczko, Balint
+      name: Balint Laczko
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: 'Pixasonics: An Image Sonification Toolbox for Python'
+    container: In Roddy, Stephen, Martins, Pedro, Cardoso, F. Amílcar, Vickers, Paul
+      (Eds.), Proceedings of the 30th International Conference on Auditory Display
+      (ICAD 2025).
+    details: Department of Informatics Engineering, University of Coimbra, Portugal.
+      ISBN 9798991456210. p. 28–35.
+    abstract: Pixasonics is a new Python library for interactive image analysis and
+      exploration through image sonification. It uses real-time audio and visualization
+      to help uncover patterns in image data. With Pixasonics, users can launch one
+      or more small web applications (running in a Jupyter Notebook), probe image
+      data using various feature extraction methods, and map those feature vectors
+      to synthesis parameters. The target users are researchers interested in exploring
+      image and volumetric data and creative users who want an intuitive tool for
+      experimental sound design. Pixasonics’ design aims to strike a balance between
+      an easy-to-use web application with minimal boilerplate code necessary and a
+      library that can be integrated into more advanced workflows. Real-time exploration
+      is at the heart, but it can also be used to script non-real-time sonifications
+      of large datasets. This paper presents Pixasonics, its structure, interface,
+      and advanced features, and discusses preliminary feedback from biology researchers
+      and music technologists.
+    full_text_url: https://hdl.handle.net/11250/4102869
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
 - title: Kunstnerisk forskning for en kompleks verden
@@ -71,6 +245,28 @@ results:
   - name: Norwegian University of Science and Technology
     slug: norwegian-university-of-science-and-technology
     url: /institutions/norwegian-university-of-science-and-technology/
+  citation:
+    authors:
+    - display: Duch, Michael Francis
+      name: Michael Francis Duch
+    - display: Furunes, Alexander Eriksson
+      name: Alexander Eriksson Furunes
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Olsen, Cecilie Sachs
+      name: Cecilie Sachs Olsen
+    title: Kunstnerisk forskning for en kompleks verden
+    container: ''
+    details: Akademiet for yngre forskere. p. 90–92.
+    abstract: 'Kunstfagene spiller en viktig rolle i å utvide måten vi jobber med
+      og forstår komplekse samfunnsproblemer. Likevel blir kunstfagene stadig oversett
+      og nedprioritert i forskningspolitikken. Vi spør derfor: hva er, bør og kan
+      kunstens rolle være i det norske forskningslandskapet?'
+    full_text_url: https://hdl.handle.net/11250/5317572
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a64f85829-bc3fcdfe-c287-4aea-b695-73f9cb14a14b
   url: https://akademietforyngreforskere.no/wp-content/uploads/2025/11/Jubileumsbok-digital-3.pdf
   nva_url: https://nva.sikt.no/publication/019a64f85829-bc3fcdfe-c287-4aea-b695-73f9cb14a14b
 - title: Bodies in Motion in the Concert Hall and Beyond
@@ -85,6 +281,35 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Bishop, Laura
+      name: Laura Bishop
+    title: Bodies in Motion in the Concert Hall and Beyond
+    container: International Conference on Movement and Computing.
+    details: Montpellier.
+    abstract: Motion is at the core of how we experience and understand the world,
+      express ourselves, and interact with others. At RITMO, we explore motion that
+      is artistic, expressive, and interactive within a highly interdisciplinary research
+      environment that integrates musicology, psychology, and technology. Increasingly,
+      we are moving our research out of the lab and into the real world, where we
+      can study people behaving as they normally do and capture unique occurrences
+      that cannot be simulated in laboratory conditions. This transition is illustrated
+      by the MusicLab and Bodies in Concert projects, which investigate bodily activity
+      and experiences in performers and audience members during live concerts. From
+      data collected during a series of symphony orchestra concerts, we are learning
+      how musicians coordinate their expressive motion and how audiences synchronize
+      in their bodily responses to the music. We are also learning how to adapt new
+      technologies for real-world data capture, and exploring how captured data can
+      be used for artistic purposes. In this talk, we will discuss some of the concepts,
+      methods, and findings from this line of research.
+    full_text_url: https://hdl.handle.net/11250/5510506
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019dc482b472-5d33b852-057c-49f0-b9cb-866787dea540
   url: https://moco26.movementcomputing.org/
   nva_url: https://nva.sikt.no/publication/019dc482b472-5d33b852-057c-49f0-b9cb-866787dea540
 - title: Manifestos for an Algorithmic World
@@ -95,6 +320,20 @@ results:
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   institutions: []
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    title: Manifestos for an Algorithmic World
+    container: Meta.Morf Future Manifestos — Conference.
+    details: DIGS, Krambugata 2, Trondheim.
+    abstract: Can artistic practice find productive ground within the very systems
+      it seeks to question?
+    full_text_url: https://hdl.handle.net/11250/5509731
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019db950be37-04a12e98-e359-48da-bf6c-33a87247c3ba
   url: https://metamorf.art/2026/03/18/conference-program-signup/
   nva_url: https://nva.sikt.no/publication/019db950be37-04a12e98-e359-48da-bf6c-33a87247c3ba
 - title: Creativity Between Art and Science
@@ -108,6 +347,32 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Creativity Between Art and Science
+    container: Future Manifestos Conference.
+    details: Trondheim.
+    abstract: First, I will present MishMash Centre for AI and Creativity, a new Norwegian
+      research centre advancing AI to explore and shape human-machine creativity.
+      Funded by the Research Council of Norway in 2025, the centre brings together
+      artists, engineers, and scholars across disciplines to create, explore, and
+      reflect on AI systems that augment creative practice while foregrounding agency,
+      inclusion, and sustainability. Organized into seven work packages, the centre
+      addresses technical challenges such as real-time multi-agent systems and hybrid
+      symbolic learning methods, societal concerns including bias, copyright, and
+      equitable value distribution, and applied domains spanning health, education,
+      cultural heritage, and the creative industries.Second, I will present some of
+      my own ongoing explorations into embodied AI, including inverse control, small
+      language models, and distributed computing. This approach challenges current
+      monolithic, generative models, suggesting an alternative future for creative
+      AI.
+    full_text_url: https://hdl.handle.net/11250/5506021
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d7dd1e19c-9e61cf91-35f8-4d6e-84d1-41f91125e13e
   url: https://metamorf.art/2026/03/11/alexander-refsum/
   nva_url: https://nva.sikt.no/publication/019d7dd1e19c-9e61cf91-35f8-4d6e-84d1-41f91125e13e
 - title: MishMash, KI og kreative prosesser
@@ -118,6 +383,25 @@ results:
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   institutions: []
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    title: MishMash, KI og kreative prosesser
+    container: Kulturkonferansen 2026 – Kunstnerisk intelligens.
+    details: Drammen.
+    abstract: Innlegget presenterer forskningssenteret MishMash – Centre for AI &
+      Creativity, et av Norges nasjonale forskningssentre for kunstig intelligens.
+      Presentasjonen diskuterer hvordan KI kan forstås ikke bare som et verktøy, men
+      som en aktiv medspiller i kreative prosesser. Med utgangspunkt i kunstnerisk
+      praksis og forskning i skjæringspunktet mellom teknologi og kultur, belyses
+      nye muligheter, utfordringer og etiske spørsmål som oppstår når KI inngår i
+      kunstnerisk arbeid og kreative næringer.
+    full_text_url: https://hdl.handle.net/11250/5481801
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019cba9e833f-34461afe-103f-47d2-b9bf-25c96e14b005
   url: https://kulturkonferansen.no/
   nva_url: https://nva.sikt.no/publication/019cba9e833f-34461afe-103f-47d2-b9bf-25c96e14b005
 - title: Presentasjon av Mishmash – senter for KI og kreativitet
@@ -131,6 +415,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Brøvig, Ragnhild
+      name: Ragnhild Brøvig
+      slug: ragnhild-brovig
+      url: /people/ragnhild-brovig/
+    title: Presentasjon av Mishmash – senter for KI og kreativitet
+    container: Arkitekter og KI.
+    details: Oslo.
+    abstract: Presentasjon av Mishmash, WP5, og caser fra KI og musikk
+    full_text_url: https://hdl.handle.net/11250/5362442
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019c2dc46b3a-c5292e5c-890c-481b-9bf9-7c06e5bd8d50
   url: https://www.arkitektbedriftene.no/arrangementer/ki-dagen
   nva_url: https://nva.sikt.no/publication/019c2dc46b3a-c5292e5c-890c-481b-9bf9-7c06e5bd8d50
 - title: 'AI Language/ Language on AI: Language as infrastructure'
@@ -144,6 +441,19 @@ results:
   - name: Inland Norway University of Applied Sciences
     slug: inland-norway-university-of-applied-sciences
     url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    title: 'AI Language/ Language on AI: Language as infrastructure'
+    container: 'DHKO 2025: Infrastructure and Interfaces.'
+    details: Hamar.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5358995
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019c135d0457-0769b174-cf78-4f06-bd13-44ab5a8c36f8
   nva_url: https://nva.sikt.no/publication/019c135d0457-0769b174-cf78-4f06-bd13-44ab5a8c36f8
 - title: The emergence and potential decline of cloud-based sample platforms
   year: '2025'
@@ -157,6 +467,46 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Alm, Vemund Hegstad
+      name: Vemund Hegstad Alm
+    - display: Brøvig, Ragnhild
+      name: Ragnhild Brøvig
+      slug: ragnhild-brovig
+      url: /people/ragnhild-brovig/
+    title: The emergence and potential decline of cloud-based sample platforms
+    container: Symposium on the Platformization of Music Production.
+    details: Oslo.
+    abstract: This presentation explores the emergence of cloud-based sample platforms
+      like Splice and Loopcloud and consider their potential decline in the age of
+      AI-generated music. Sabrina Carpenter’s hit single “Espresso,” released on April
+      11th, 2024, put the spotlight on the ubiquitous use of online sample platforms
+      in popular music. The songs’ main intrumental elements-guitars and drums-stem
+      from two loops of producer Oliver’s popular pack “Power Tools Sample Pack III”
+      on the sample platform Splice. This caused a surge of social media posts demonstrating
+      how the instrumental track could be recreated in little under a minute. This
+      form of sampling—both cheap and legal, fast and convenient—represents a distinctly
+      different take on sampling than that commonly associated with “golden age hip
+      hopproductions”, where samples are extracted from existing recordings (Brøvig
+      2023; McLeod and Dicola 2011; Schloss 2004). Besides being more efficient, these
+      sample platforms’ royalty-free models allow producers to use samples freely
+      without fear of legal action. Our presentation will begin by examining the factors
+      leading to the emergence of cloudbased sample platforms. While the legal aspects
+      might have contributed to the development of sampling platforms, we will also
+      trace the platforms’ rootedness in less explored areas ranging from “library
+      music,” to synthesizer preset cassettes and sample CDs bundled with music tech
+      magazines (Cameron 2020). We will then discuss how these platforms, partly due
+      to their mitigation of copyright issues, have contributed to transforming the
+      sampling practices and aesthetics established by early hip-hop productions while
+      also encouraging other forms of practices (Arrieta 2021). Lastly, we will discuss
+      whether the advent of AIgenerated music technology has the potential to disrupt
+      the sample industry altogether. This work will draw on research on sampling,
+      copyright and musical platforms, and include insights gained from our interviews
+      with producers of sample packs.
+    full_text_url: https://hdl.handle.net/11250/5331347
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019b21a36550-b1a9706b-df97-4126-bc7a-6c050c7f2872
   nva_url: https://nva.sikt.no/publication/019b21a36550-b1a9706b-df97-4126-bc7a-6c050c7f2872
 - title: KI, kunst, kultur, kreativitet
   year: '2025'
@@ -169,6 +519,19 @@ results:
   - name: Inland Norway University of Applied Sciences
     slug: inland-norway-university-of-applied-sciences
     url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Graver, Fredrik
+      name: Fredrik Graver
+      slug: fredrik-graver
+      url: /people/fredrik-graver/
+    title: KI, kunst, kultur, kreativitet
+    container: Fylkeskulturkonferansen 2025.
+    details: Frisch Hotell, Hamar.
+    abstract: Om bruk av generativ kunstig intelligens i kunst og kultur.
+    full_text_url: https://hdl.handle.net/11250/5349788
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a77167982-4be430dc-bcd7-4dd8-ada8-a792cc5caff8
   nva_url: https://nva.sikt.no/publication/019a77167982-4be430dc-bcd7-4dd8-ada8-a792cc5caff8
 - title: 'Artificial Consciouness: Regenerating AI Ethics and Aesthetics'
   year: '2025'
@@ -188,6 +551,56 @@ results:
   - name: Norwegian University of Science and Technology
     slug: norwegian-university-of-science-and-technology
     url: /institutions/norwegian-university-of-science-and-technology/
+  citation:
+    authors:
+    - display: Chattopadhyay, Budhaditya
+      name: Budhaditya Chattopadhyay
+      slug: budhaditya-chattopadhyay
+      url: /people/budhaditya-chattopadhyay/
+    - display: Jacobi, Frans
+      name: Frans Jacobi
+    - display: Rych, David
+      name: David Rych
+    - display: Johnston, David Jhave
+      name: David Jhave Johnston
+    - display: O'Kane, Eamon
+      name: Eamon O'Kane
+    title: 'Artificial Consciouness: Regenerating AI Ethics and Aesthetics'
+    container: International Conference Media Art History.
+    details: Manizales.
+    abstract: 'Globally, in the arena of everyday practices, AI systems have increasingly
+      been causing a profound effect on contemporary everyday life across the globe.
+      From surveillance to the Internet of Things and domestic consumption, from social
+      media interactions to arts and culture, AI is taking over the processing of
+      information to provide new perceptions and augmented experiences. At the core
+      of this reconfiguration of technologically mediated everyday practice are datasets,
+      used to drive and produce new narratives across wider ranges: consumer behavior
+      and patterns, mobility, and immigration, post-human thinking, scientific in(ter)ventions,
+      media production and propaganda, online and offline social formations, etc.
+      In this context, the proposed panel presents the collective research of the
+      newly formed Center for AI Ethics, Aesthetics and Creative Human Operations
+      (CAIEAC) at The Art Academy – Department of Contemporary Art (KMD), University
+      of Bergen, Norway. The centre aims to reimagine the integration of artificial
+      intelligence in creative human operations and to challenge hegemonial AI tropes.
+      By moving beyond the binary of utopian and dystopian paradigms, the centre embraces
+      a “Prototopian" model that envisions continuous improvement in adjusting AI
+      technologies to society. The centre fosters innovative and critical approaches
+      to AI, focusing on computational aesthetics, the expansion of creativity through
+      human-machine collaboration, and the development of new conceptual frameworks
+      informed by art, media theory, and interdisciplinary research based on a reflective
+      and inclusive AI landscape that integrates ethical considerations, addresses
+      biases, and promotes decolonial and Indigenous knowledge into different AI infrastructures
+      for a diverse society. The proposed panel will address the ethical lapses in
+      AI with a regenerative approach to consciousness. Especially engaging with applied
+      AI in the arts, the panel explores the creativity-induced resistance against
+      a monolithic world of AI that populates contemporary everyday practices, as
+      mentioned earlier. The panel will advocate for an ethical and inclusive AI system
+      for the future that is emergent, self-reflective, and self-regulating, with
+      an aesthetic inclination towards artistic experimentation and radical innovations
+      by being susceptible to the questions of social justice and political agency.'
+    full_text_url: https://hdl.handle.net/11250/5316955
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a5afbe121-5aaae060-b8e8-43fb-8994-00fa19dc6c32
   nva_url: https://nva.sikt.no/publication/019a5afbe121-5aaae060-b8e8-43fb-8994-00fa19dc6c32
 - title: 'Archival Intelligence: Machine Learning and Intergenerational Memory'
   year: '2025'
@@ -200,6 +613,19 @@ results:
   - name: University of Bergen
     slug: university-of-bergen
     url: /institutions/university-of-bergen/
+  citation:
+    authors:
+    - display: Chattopadhyay, Budhaditya
+      name: Budhaditya Chattopadhyay
+      slug: budhaditya-chattopadhyay
+      url: /people/budhaditya-chattopadhyay/
+    title: 'Archival Intelligence: Machine Learning and Intergenerational Memory'
+    container: International Conference Media Art History.
+    details: Manizales.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5316938
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a5a87be28-17f5f937-cf7c-4030-b2a9-6a02159cf5b7
   nva_url: https://nva.sikt.no/publication/019a5a87be28-17f5f937-cf7c-4030-b2a9-6a02159cf5b7
 - title: Dhvāni
   year: '2025'
@@ -212,8 +638,178 @@ results:
   - name: University of Bergen
     slug: university-of-bergen
     url: /institutions/university-of-bergen/
+  citation:
+    authors: []
+    title: Dhvāni
+    container: Exhibition.
+    details: ''
+    abstract: 'Dhvāni means ​“reso­nan­ce” in Sanskrit. Resonances bet­ween soun­ding
+      objects and bet­ween peo­p­le are the star­ting point for this instal­la­ti­on
+      by Indian-born artist and thin­ker Budhaditya Chattopadhyay. In STUK’s cour­ty­ard,
+      a web is stret­ched with hund­reds of Indian cere­mo­ni­al bells and other instru­ments,
+      such as wind chi­mes and ghun­groos. By means of a self-built arti­fi­ci­al
+      intel­li­gen­ce sys­tem, this resoun­ding net­work res­ponds to human pre­sen­ce:
+      foot­steps, voi­ces, hand clap­ping. Through machi­ne learning, the inter­con­nec­ted
+      sys­tem impro­ves its per­for­man­ce over the six weeks of Hear Here, cre­a­ting
+      a beyond-human reso­nant orga­nism. In this way, Chattopadhyay links ancient
+      musi­cal tra­di­ti­ons with con­tem­po­ra­ry tech­no­lo­gies, invi­ting visi­tors
+      to lis­ten empa­the­ti­cally and step out­si­de their judg­men­tal ​“ego”.'
+    full_text_url: https://hdl.handle.net/11250/5316942
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
   url: https://hearhere.be/en/expo/dhv%C4%81ni
   nva_url: https://nva.sikt.no/publication/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
+- title: Performative Togetherness in networked music–dance performance
+  year: '2026'
+  type: Journal article
+  contributors:
+  - name: Bilge Serdar
+  - name: Aleksander Tidemann
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Serdar, Bilge
+      name: Bilge Serdar
+    - display: Tidemann, Aleksander
+      name: Aleksander Tidemann
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Performative Togetherness in networked music–dance performance
+    container: International Journal of Performance Arts and Digital Media.
+    details: 'ISSN 1479-4713. p. 1–22. doi: 10.1080/14794713.2026.2657654.'
+    abstract: This article examines how performative togetherness is constructed in
+      a technologically mediated music–dance performance environment. While togetherness
+      is often associated with co-presence and effortless flow, networked contexts
+      introduce perceptual reconfiguration that makes it fragile and effortful. We
+      present the research concert Telematic@PopSenteret, a networked performance
+      involving dancers and musicians distributed across two floors in a museum, connected
+      through audio–video transmission. Using interviews and audio-video recordings,
+      we explore how latency, fractured perception, and the absence of bodily cues
+      transformed the performers’ coordination and induced cognitive strain. We discuss
+      how performative togetherness – defined as the sense of shared meaning-making
+      that emerges through attentional, sensory, and adaptive negotiation – was maintained
+      during the performance.
+    full_text_url: https://hdl.handle.net/11250/5519131
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019e632327e5-68401a73-5041-4dcf-85c0-b05033eba169
+  url: https://doi.org/10.1080/14794713.2026.2657654
+  nva_url: https://nva.sikt.no/publication/019e632327e5-68401a73-5041-4dcf-85c0-b05033eba169
+- title: 'Arab music improvisation corpus for research (AMICOR): development and machine
+    translation experiments | Language Resources and Evaluation'
+  year: '2026'
+  type: Journal article
+  contributors:
+  - name: Fadi Al-Ghawanmeh
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Kamel Smaili
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Al-Ghawanmeh, Fadi
+      name: Fadi Al-Ghawanmeh
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Smaili, Kamel
+      name: Kamel Smaili
+    title: 'Arab music improvisation corpus for research (AMICOR): development and
+      machine translation experiments | Language Resources and Evaluation'
+    container: Language Resources and Evaluation.
+    details: 'ISSN 1574-020X. 60. doi: 10.1007/s10579-026-09905-z.'
+    abstract: Under-resourced languages (and musics) pose a challenge to machine translation
+      (MT). The challenge is greater when the content of the collected dataset is
+      a varied sample taken from a data population that is even more diverse and dynamic.
+      This is the challenge of Arab music vocal improvisation (mawwal). Here, we present
+      the development of AMICOR, a parallel dataset consisting of vocal improvisatory
+      phrases and their corresponding instrumental responses (or tarjamat in Arabic,
+      which literally means “translations”) in the mawwal tradition. These melodic
+      phrases are handled as “sentences” from the viewpoint of natural language. When
+      developing the dataset, we integrated musicological insights in order to evaluate
+      music theoretical differences between sub-datasets, primarily regarding their
+      size, sentence length, performance quality, and shared musical identity. We
+      then experimented with MT to generate instrumental responses to new vocal sentences,
+      comparing several translation modeling configurations that differ (1) in translation
+      approach (Neural MT (NMT) versus Statistical MT (SMT)), and (2) in the dataset
+      handling approach in respect to the maqam (an Arabic musical term referring
+      roughly to a melodic mode), comparing an individual model for each maqam versus
+      a unified model for all maqamat. We found that merging related sub-datasets
+      does not necessarily lead to better results, and may even favor simpler and
+      shorter sentences with lower performance quality and less sophisticated patterns.
+      This issue applies to both NMT and SMT; however, it is greater for NMT. A comparison
+      of confusion matrices of individual-maqam models suggested that, in such a small
+      dataset, the gap between SMT and NMT performance increases further if the styles,
+      or skills, of potential users differ from those who built the dataset used in
+      the training. Our discussion asserts that key factors in system design are the
+      musical background and performance decisions of vocalists who may use such responsive
+      generative models, as well as dataset size and performance quality.
+    full_text_url: https://hdl.handle.net/11250/5490948
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d2ea82f43-5875f0b5-fe79-4b2e-a8fd-266e0c03766c
+  url: https://link.springer.com/article/10.1007/s10579-026-09905-z
+  nva_url: https://nva.sikt.no/publication/019d2ea82f43-5875f0b5-fe79-4b2e-a8fd-266e0c03766c
+- title: Investigating Auditory–Visual Perception Using Multi-Modal Neural Networks
+    with the SoundActions Dataset
+  year: '2026'
+  type: Journal article
+  contributors:
+  - name: Jinyue Guo
+  - name: Jim Tørresen
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Guo, Jinyue
+      name: Jinyue Guo
+    - display: Tørresen, Jim
+      name: Jim Tørresen
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Investigating Auditory–Visual Perception Using Multi-Modal Neural Networks
+      with the SoundActions Dataset
+    container: Transactions of the International Society for Music Information Retrieval.
+    details: 'ISSN 2514-3298. 9. p. 85. doi: 10.5334/tismir.223.'
+    abstract: 'Musicologists, psychologists, and computer scientists study relationships
+      between auditory and visual stimuli from very different perspectives and using
+      various terminologies and methodologies. This article aims to bridge the gap
+      between phenomenological sound theory, auditory–visual theory, and audio–video
+      processing and machine learning. We introduce the SoundActions dataset, a collection
+      of 365 audio–video recordings of (primarily) short sound actions. Each recording
+      has been human‑labeled and annotated according to Pierre Schaeffer’s theory
+      of reduced listening, which describes the property of the sound itself (e.g.,
+      ‘an impulsive sound’) instead of the source (e.g., ‘a bird sound’). With these
+      reduced‑type labels in the audio–video dataset, we conducted two experiments:
+      (1) fine‑tuning the latest audio–video transformer model on the reduced‑type
+      labels in the SoundActions dataset, proving that the model can recognize reduced‑type
+      labels, and observing that the modality‑imbalance phenomenon is similar to the
+      added value theory by Michel Chion and (2) proposing the Ensemble of Perception
+      Mode Adapters method inspired by Pierre Schaeffer’s three listening modes, improving
+      the audio–video model also on reduced‑type tasks.'
+    full_text_url: https://hdl.handle.net/11250/5486133
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019cf6685f12-273d8dcb-e9b2-4230-ba94-44787a916710
+  url: https://doi.org/10.5334/tismir.223
+  nva_url: https://nva.sikt.no/publication/019cf6685f12-273d8dcb-e9b2-4230-ba94-44787a916710
 - title: Inverse and indirect mappings in embodied AI systems in everyday environments
   year: '2026'
   type: Journal article
@@ -227,6 +823,38 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Riaz, Maham
+      name: Maham Riaz
+    - display: Erdem, Cagri
+      name: Cagri Erdem
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Inverse and indirect mappings in embodied AI systems in everyday environments
+    container: Frontiers in Computer Science.
+    details: 'ISSN 2624-9898. 7. doi: 10.3389/fcomp.2025.1603769.'
+    abstract: 'This paper explores how musicking technologies—interactive systems
+      with musical properties—can enhance everyday public environments. We are particularly
+      interested in investigating the effects of musical interactions in non-musical
+      settings, such as offices, meeting rooms, and social work areas. Traditional
+      music technologies (such as instruments) are built for goal-directed, conscious,
+      and voluntary interactions. We propose a new perspective on embodied AI through
+      systems that utilize indirect, inverse, unconscious, and, at times, involuntary
+      interactions. Four different sound/music systems are examined and discussed
+      with regard to their activity level: a reactive “birdbox,” a reactive painting,
+      active self-playing guitars, and interactive music balls. All these systems
+      are multimodal, containing sensors that detect various physical inputs to produce
+      sound and light, and having varying levels of perceived agency. The paper explores
+      differences between direct/indirect and regular/inverse embodied AI paradigms.
+      This study demonstrates how minimalistic interactions have the potential to
+      yield complex and engaging musicking experiences, challenging the norms of overly
+      intricate AI implementations.'
+    full_text_url: https://hdl.handle.net/11250/5341046
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
 - title: Tverrfaglighet gjør litt vondt
@@ -240,6 +868,20 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Tverrfaglighet gjør litt vondt
+    container: ''
+    details: ''
+    abstract: 'Hvordan får man til tverrfaglig forskning i praksis? Mitt tips: Heng
+      ved kaffemaskinen.'
+    full_text_url: https://hdl.handle.net/11250/5350155
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
   url: https://www.forskerforum.no/forskerlivet/mitt-tips-til-gjesteforskere-heng-ved-kaffemaskinen/
   nva_url: https://nva.sikt.no/publication/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
 - title: Auditory Situationism and Unmedia
@@ -253,6 +895,24 @@ results:
   - name: University of Bergen
     slug: university-of-bergen
     url: /institutions/university-of-bergen/
+  citation:
+    authors:
+    - display: Chattopadhyay, Budhaditya
+      name: Budhaditya Chattopadhyay
+      slug: budhaditya-chattopadhyay
+      url: /people/budhaditya-chattopadhyay/
+    title: Auditory Situationism and Unmedia
+    container: Open Forum.
+    details: Oslo.
+    abstract: Artist and researcher Budhaditya Chattopadhyay will discuss his body
+      of work around sounding and listening to sculpt and give shape to two broad
+      theoretical frameworks, namely Auditory Situationism and Unmedia, within which
+      his works can be contextualised; both ideas are hinting at manifestations of
+      decolonial thought intervening into existing sound studies canon, which Chattopadhyay
+      enters with an outsider, nomadic, and polemical impulse.
+    full_text_url: https://hdl.handle.net/11250/5510674
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019dcbe84d33-c303c87c-49b8-4bdb-9d80-1927582f9afe
   url: https://artacademycalendar.khio.no/open-forum/budhaditya-chattopadhyay-auditory-situationism-and-unmedia
   nva_url: https://nva.sikt.no/publication/019dcbe84d33-c303c87c-49b8-4bdb-9d80-1927582f9afe
 - title: Kunstnerisk intelligens
@@ -263,6 +923,27 @@ results:
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   institutions: []
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    title: Kunstnerisk intelligens
+    container: MishMash Opening Ceremony.
+    details: Aulaen, University of Oslo.
+    abstract: Innlegget undersøker begrepet «kunstnerisk intelligens» i lys av dagens
+      KI-utvikling, med utgangspunkt i forståelsen av kunstig intelligens som infrastrukturelle
+      systemer heller enn autonome, intelligente aktører. Det drøfter hvordan kunstneriske
+      praksiser kan synliggjøre og utfordre slike systemer gjennom eksperimentering,
+      deltakelse og kritisk refleksjon. Med eksempler fra samtidskunst vises hvordan
+      kunst kan åpne «den svarte boksen» og bidra til nye innsikter i forholdet mellom
+      teknologi, samfunn og kunnskapsproduksjon. Innlegget posisjonerer kunstnerisk
+      utviklingsarbeid som en form for kunnskapsutvikling med relevans for en KI-drevet
+      offentlighet.
+    full_text_url: https://hdl.handle.net/11250/5509765
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019db96ab7a2-d0161680-a40a-4ab0-b2fa-9391efb07cb8
   url: https://mishmash.no/events/aulaen2026/
   nva_url: https://nva.sikt.no/publication/019db96ab7a2-d0161680-a40a-4ab0-b2fa-9391efb07cb8
 - title: '"Soft" and "Hard" research? Experiences from running a radically interdisciplinary
@@ -277,6 +958,35 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: '"Soft" and "Hard" research? Experiences from running a radically interdisciplinary
+      research centre'
+    container: Axes of Interdisciplinary Knowledge.
+    details: Coimbra.
+    abstract: In this presentation, Alexander Refsum Jensenius explores the practical
+      and theoretical dimensions of running radically interdisciplinary research centres,
+      focusing on his experiences with RITMO and the newly established MISHMASH Centre
+      for AI and Creativity. He introduces the "coffee machine" philosophy, which
+      advocates for physical colocation and social meeting points as essential tools
+      to overcome institutional silos and bridge the diverse research motivations
+      of fields like musicology, informatics, and psychology. Jensenius highlights
+      the innovative potential of this approach through projects that translate artistic
+      research into medical applications, such as using dance analysis software to
+      screen infants for cerebral palsy and investigating the impact of musical stimuli
+      on biological cells. He further details the MusicLab initiative, which scales
+      data collection to full symphony orchestras to study embodied music cognition
+      and human behaviour in real-life concert settings. The talk concludes by introducing
+      MISHMASH, a national consortium dedicated to fostering human-centric AI that
+      integrates artistic practice with technological development while navigating
+      ethical challenges such as copyright and the preservation of cultural heritage.
+    full_text_url: https://hdl.handle.net/11250/5504143
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d5ddae0df-a80c62e6-17b0-456c-a033-9a219326ef4d
   url: https://www.uc.pt/ceis20/conferencias/alexander-jensenius-eixos-do-conhecimento-interdisciplinar/
   nva_url: https://nva.sikt.no/publication/019d5ddae0df-a80c62e6-17b0-456c-a033-9a219326ef4d
 - title: KI i kreative prosesser
@@ -290,6 +1000,38 @@ results:
   - name: University of Agder
     slug: university-of-agder
     url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Sørbø, Eirik
+      name: Eirik Sørbø
+      slug: eirik-sorbo
+      url: /people/eirik-sorbo/
+    title: KI i kreative prosesser
+    container: Ledelse og kreativitet i hybride arbeidsmiljøer (EVU).
+    details: Handelshøyskolen, UiA.
+    abstract: 'Foredraget handler om hvordan kunstig intelligens kan brukes i kreative
+      prosesser, spesielt innen kunst og utdanning. KI utfordrer tradisjonelle forståelser
+      av kreativitet, som tidligere har vært definert gjennom originalitet og verdi,
+      og at nye perspektiver også inkluderer intensjon og autentisitet.
+
+
+      Foredraget understreker forskjellen mellom produktivitetsøkning og kreativitet:
+      KI er svært effektiv til å effektivisere produksjon, men dette er ikke det samme
+      som å styrke den kreative prosessen. Når kreative oppgaver automatiseres, kan
+      også verdien og eksklusiviteten av resultatet reduseres.
+
+
+      KI kan brukes i flere deler av kreative prosesser, som idéutvikling, eksperimentering,
+      produksjon og kuratering, og kan fungere både som verktøy, samarbeidspartner
+      eller materiale. Samtidig vil KI ofte trekke mot det generelle og statistisk
+      sannsynlige, noe som gjør menneskelig perspektiv og kunstnerisk intensjon fortsatt
+      viktig. Foredraget fremhever også at virkelig kreativ bruk av KI ofte krever
+      teknologisk kompetanse og programmering, og at uten dette blir bruken lett overfladisk.
+      Hovedpoenget er at KI ikke bare bør brukes til effektivisering, men til å utvide
+      det kreative handlingsrommet og muliggjøre nye kunstneriske prosesser og uttrykk.'
+    full_text_url: https://hdl.handle.net/11250/5482666
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019cc347224e-eae2a7aa-6e0f-49b4-9e54-8eb0a578ab5a
   nva_url: https://nva.sikt.no/publication/019cc347224e-eae2a7aa-6e0f-49b4-9e54-8eb0a578ab5a
 - title: Kunstig intelligens, FoU og kreativ næring
   year: '2026'
@@ -302,6 +1044,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Brøvig, Ragnhild
+      name: Ragnhild Brøvig
+      slug: ragnhild-brovig
+      url: /people/ragnhild-brovig/
+    title: Kunstig intelligens, FoU og kreativ næring
+    container: Nasjonal fagkonferanse for kulturell og kreativ næring.
+    details: Trondheim.
+    abstract: Om KI i kreative og kulturelle næringer
+    full_text_url: https://hdl.handle.net/11250/5362456
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019c2dccfd55-8187fc7d-7bd2-400e-9148-c54952de43a0
   url: https://trondelag.pameldingssystem.no/nasjonalt-fagkonferanse-for-kulturell-og-kreativ-naering-28-januar?#/default-12928
   nva_url: https://nva.sikt.no/publication/019c2dccfd55-8187fc7d-7bd2-400e-9148-c54952de43a0
 - title: '«Artificial» «intelligence»: interrogating the language we use to speak/write
@@ -321,6 +1076,20 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    title: '«Artificial» «intelligence»: interrogating the language we use to speak/write
+      the language machine into being'
+    container: Digitalization and Practices of Inclusion.
+    details: Hamar.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5359013
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019c1373c972-cc4d6164-eacf-422e-885f-950de9cb0cbf
   nva_url: https://nva.sikt.no/publication/019c1373c972-cc4d6164-eacf-422e-885f-950de9cb0cbf
 - title: MishMash og Nasjonalbiblioteket
   year: '2025'
@@ -336,6 +1105,23 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Haugen, Ingrid Romarheim
+      name: Ingrid Romarheim Haugen
+      slug: ingrid-romarheim-haugen
+      url: /people/ingrid-romarheim-haugen/
+    title: MishMash og Nasjonalbiblioteket
+    container: Seksjonsseminar.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5330416
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019b0f434058-473ac0ea-5d14-4512-827a-9c6c681e05ad
   nva_url: https://nva.sikt.no/publication/019b0f434058-473ac0ea-5d14-4512-827a-9c6c681e05ad
 - title: Openness in the age of AI
   year: '2025'
@@ -348,6 +1134,20 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Openness in the age of AI
+    container: Openness in the age of AI – A Conversation with Norway's National Centres
+      for Artificial Intelligence.
+    details: 'Oslo. doi: 10.5281/zenodo.17652120.'
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5325015
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ad14d6dd5-e4c36c63-b37b-4e19-8ff1-8625872cdfc8
   url: https://doi.org/10.5281/zenodo.17652120
   nva_url: https://nva.sikt.no/publication/019ad14d6dd5-e4c36c63-b37b-4e19-8ff1-8625872cdfc8
 - title: Musikk, opphavsrett og KI
@@ -361,6 +1161,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Musikk, opphavsrett og KI
+    container: Gjesteforelesning.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5325014
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ad144695d-b55cfaad-3c4e-466e-b6cc-d8e44518b421
   nva_url: https://nva.sikt.no/publication/019ad144695d-b55cfaad-3c4e-466e-b6cc-d8e44518b421
 - title: What is the role of AI in creative activities?
   year: '2025'
@@ -373,6 +1186,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: What is the role of AI in creative activities?
+    container: OCBE Christmas seminar.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5322244
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019aa77b67e8-bdb5b29c-0ed1-40c3-ae78-a2f237325776
   nva_url: https://nva.sikt.no/publication/019aa77b67e8-bdb5b29c-0ed1-40c3-ae78-a2f237325776
 - title: MishMash and potential for games
   year: '2025'
@@ -385,6 +1211,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: MishMash and potential for games
+    container: Excited seminar.
+    details: Levanger.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5320145
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a91c472e8-ac7dbd94-fb21-4b23-a428-ed0916530ac5
   nva_url: https://nva.sikt.no/publication/019a91c472e8-ac7dbd94-fb21-4b23-a428-ed0916530ac5
 - title: KI – Kunstens død eller tidenes mulighet?
   year: '2025'
@@ -397,6 +1236,28 @@ results:
   - name: Bruno Kvae
   - name: Erle Marie Sørheim
   institutions: []
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    - display: Hartberg, Flu
+      name: Flu Hartberg
+    - display: Kvae, Bruno
+      name: Bruno Kvae
+    - display: Sørheim, Erle Marie
+      name: Erle Marie Sørheim
+    title: KI – Kunstens død eller tidenes mulighet?
+    container: KI – Kunstens død eller tidenes mulighet?.
+    details: Kafé Hærværk.
+    abstract: Fra leksikon til psykolog og kunstner – på rekordtid har kunstig intelligens
+      blitt en stor del av livene våre. Hvordan bør kunstfeltet møte denne nye teknologien?
+      Vil KI gjøre tegnere og illustratører overflødige, eller er dette snarere en
+      enorm mulighet for utøvende kunstnere?
+    full_text_url: https://hdl.handle.net/11250/5317603
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a694ea3d2-46921dfa-bdbd-4233-a8f9-869c10ed14bd
   url: https://www.empirix.no/ki-kunstens-dod-eller-tidenes-mulighet/
   nva_url: https://nva.sikt.no/publication/019a694ea3d2-46921dfa-bdbd-4233-a8f9-869c10ed14bd
 - title: Who Owns Our Knowledge? Open Research in MishMash Centre for AI & Creativity
@@ -410,6 +1271,20 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Who Owns Our Knowledge? Open Research in MishMash Centre for AI & Creativity
+    container: International Open Access Week 2025 - Openness in the Age of AI – A
+      Conversation with Norway’s National Centres for Artificial Intelligence.
+    details: Online.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5316932
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a5a53be78-6d628a4c-bf4a-4bb9-9868-8f696e7c3572
   nva_url: https://nva.sikt.no/publication/019a5a53be78-6d628a4c-bf4a-4bb9-9868-8f696e7c3572
 - title: MishMash og Kunstnerisk utviklingsarbeid
   year: '2025'
@@ -422,6 +1297,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: MishMash og Kunstnerisk utviklingsarbeid
+    container: Nasjonalt seminar om ph.d.-programmene i kunstnerisk utviklingsarbeid.
+    details: Bergen.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5316928
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a5a4ca10a-19390837-99b2-4bae-a8c7-9f5440a1f5dc
   nva_url: https://nva.sikt.no/publication/019a5a4ca10a-19390837-99b2-4bae-a8c7-9f5440a1f5dc
 - title: MishMash Sentre for KI og kreativitet
   year: '2025'
@@ -434,6 +1322,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: MishMash Sentre for KI og kreativitet
+    container: ELE 3804 Opphavsrett i KIs tidsalder.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5316927
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a5a4a691c-856f2c69-8e09-419a-8eed-d6b7c04093d4
   nva_url: https://nva.sikt.no/publication/019a5a4a691c-856f2c69-8e09-419a-8eed-d6b7c04093d4
 - title: Kunst i intelligens
   year: '2025'
@@ -456,6 +1357,29 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Lacroix, Mathieu
+      name: Mathieu Lacroix
+    - display: Graver, Fredrik
+      name: Fredrik Graver
+      slug: fredrik-graver
+      url: /people/fredrik-graver/
+    title: Kunst i intelligens
+    container: Årsfest.
+    details: Lillehammer.
+    abstract: En paneldebatt om kunst og kunstig intelligens.
+    full_text_url: https://hdl.handle.net/11250/5316926
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a5a444ff2-74086427-4c1b-4fb1-bdf4-8199475c44ea
   nva_url: https://nva.sikt.no/publication/019a5a444ff2-74086427-4c1b-4fb1-bdf4-8199475c44ea
 - title: MishMash - exploring AI and creativity between art and science
   year: '2025'
@@ -468,6 +1392,24 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: MishMash - exploring AI and creativity between art and science
+    container: Machines – moving – music. A symposium on creative responses to AI.
+    details: Norwegian Academy of Music.
+    abstract: A presentation of MishMash, a large Norwegian consortium dedicated to
+      exploring the intersection of AI and creativity. Our primary objective is to
+      create, explore, and reflect on AI for, through, and in creative practices.
+      We will investigate AI’s impact on creative processes, develop innovative CoCreative
+      AI systems, and address AI’s ethical, cultural, and societal implications in
+      creative domains.
+    full_text_url: https://hdl.handle.net/11250/5277612
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a36cf0cd7-b55769c1-b015-428c-bf72-7e7678d4d5ca
   nva_url: https://nva.sikt.no/publication/019a36cf0cd7-b55769c1-b015-428c-bf72-7e7678d4d5ca
 - title: MishMash Centre for AI & Creativity
   year: '2025'
@@ -480,6 +1422,24 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: MishMash Centre for AI & Creativity
+    container: Department seminar.
+    details: Tøyen hovedgård.
+    abstract: A presentation of MishMash, a large Norwegian consortium dedicated to
+      exploring the intersection of AI and creativity. Our primary objective is to
+      create, explore, and reflect on AI for, through, and in creative practices.
+      We will investigate AI’s impact on creative processes, develop innovative CoCreative
+      AI systems, and address AI’s ethical, cultural, and societal implications in
+      creative domains.
+    full_text_url: https://hdl.handle.net/11250/5277610
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a36c3b701-51b55466-c7a5-4ffe-96c3-9c06108223d3
   nva_url: https://nva.sikt.no/publication/019a36c3b701-51b55466-c7a5-4ffe-96c3-9c06108223d3
 - title: Musikk og KI - Utfordringer og muligheter
   year: '2025'
@@ -492,6 +1452,22 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Musikk og KI - Utfordringer og muligheter
+    container: Faglig-pedagogisk dag.
+    details: UiO.
+    abstract: Kunstig intelligens påvirker det meste om dagen også musikklivet og
+      musikkbransjen. Men hva er egentlig KI og hva er utfordringer og muligheter
+      innenfor kunst og kultur? Presentasjonen diskuterer ulike pedagogiske tilnærminger
+      og gir eksempler på hvordan det nye KI-senteret MishMash skal angripe problemstillingene.
+    full_text_url: https://hdl.handle.net/11250/5277609
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a36be4444-0cc56b03-b55f-4551-862a-aee51c4ea142
   nva_url: https://nva.sikt.no/publication/019a36be4444-0cc56b03-b55f-4551-862a-aee51c4ea142
 - title: Technologies supporting research on music-related body motion
   year: '2025'
@@ -504,6 +1480,47 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Technologies supporting research on music-related body motion
+    container: 'In Their Hands: Emerging Participatory Technologies Supporting Professional
+      Practice.'
+    details: Belval.
+    abstract: 'As researchers, we are increasingly using emerging technologies, such
+      as multiple mobile eye tracking, virtual reality, and physiological indicators
+      (e.g., heart rate and respiration) to study professionals’ individual and collaborative
+      work practices. In this workshop, we will demonstrate how these technologies
+      can be provided to professionals in various fields (e.g., education, healthcare,
+      business, engineering, the arts) as a resource for self-reflection, enabling
+      them to study and improve their own practices.
+
+
+      The goal of this workshop is to introduce and facilitate participants to experience
+      novel approaches that use these emerging technologies and tools to help practitioners
+      study their own skills and understand their learning processes. We will also
+      show how focus groups and stimulated recall interviews can encourage and guide
+      professionals to discover ways to incorporate these new technologies into their
+      practice as resources for reflection and growth.
+
+
+      The workshop’s theme is educational practice and research, with a focus on showing
+      how we can offer teachers theoretically driven and empirically validated methodologies
+      for witnessing the micro-processes of collaborative mathematics learning. We
+      will show and discuss how multiple mobile eye-tracking and virtual reality can
+      be used in educational practice and for teacher training and professional development.
+
+
+      This approach and these emerging technologies are applicable not only in education,
+      but also in all other fields of research that aim to study individual and collective
+      practices, as well as professional learning, during the process of acquiring
+      new skills or improving existing ones.'
+    full_text_url: https://hdl.handle.net/11250/4403674
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01999502abec-42963b80-c92d-4bee-81f8-7415ec617917
   url: https://www.liser.lu/events/EXPAR2025-09-18
   nva_url: https://nva.sikt.no/publication/01999502abec-42963b80-c92d-4bee-81f8-7415ec617917
 - title: Video Visualization - Learn to use MG Toolbox
@@ -517,6 +1534,29 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Video Visualization - Learn to use MG Toolbox
+    container: Experimental and Participatory Research seminar.
+    details: Belval.
+    abstract: This workshop is targeted at students and researchers working with video
+      recordings You will learn to use MG Toolbox, a Python package with numerous
+      tools for visualizing and analyzing video files. This includes visualization
+      techniques such as motion videos, motion history images, and motiongrams; techniques
+      that, in different ways, allow for looking at video recordings from different
+      temporal and spatial perspectives. It also includes some basic computer vision
+      analysis, such as extracting quantity and centroid of motion, and using such
+      features in analysis. MG Toolbox for Python is a collection of high-level modules
+      that generate all of the above-mentioned visualizations.The toolbox is relevant
+      for everyone working with video recordings of humans, such as in linguistics,
+      psychology, medicine, human-computer interaction, and educational sciences.
+    full_text_url: https://hdl.handle.net/11250/4159930
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019994fe5672-6a721851-98aa-486b-bbb1-86d9a0cf8b22
   url: https://www.liser.lu/events/EXPAR2025-09-19
   nva_url: https://nva.sikt.no/publication/019994fe5672-6a721851-98aa-486b-bbb1-86d9a0cf8b22
 - title: Kreativitet og KI
@@ -530,6 +1570,20 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Kreativitet og KI
+    container: 'AI i bransjen: Hva gjør vi?.'
+    details: Oslo.
+    abstract: Jeg vil presentere MishMash Senter for KI og kreativitet samt gi en
+      mini-introduksjon til KI generelt.
+    full_text_url: https://hdl.handle.net/11250/4445332
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019994b681c8-564b2831-ced1-4bda-83e0-98e4170dca8f
   url: https://www.arj.no/no/2025/08/28/ki-filmbransjen/
   nva_url: https://nva.sikt.no/publication/019994b681c8-564b2831-ced1-4bda-83e0-98e4170dca8f
 - title: MishMash Senter for KI og kreativitet
@@ -555,6 +1609,28 @@ results:
   - name: University of Agder
     slug: university-of-agder
     url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    - display: Nordgård, Daniel
+      name: Daniel Nordgård
+      slug: daniel-nordgard
+      url: /people/daniel-nordgard/
+    title: MishMash Senter for KI og kreativitet
+    container: Presentasjon av KI-sentra.
+    details: Lysaker.
+    abstract: A presentation of the planned activities of MishMash Centre for AI &
+      Creativity
+    full_text_url: https://hdl.handle.net/11250/4427213
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019994ac713a-62f7f34b-3318-424c-89a6-b45460160aa8
   url: https://www.forskningsradet.no/arrangementer/2025/presentasjon-ki-sentra/
   nva_url: https://nva.sikt.no/publication/019994ac713a-62f7f34b-3318-424c-89a6-b45460160aa8
 - title: 'Kunst i intelligens: Hvilke nye kreative uttrykksmuligheter kan KI åpne
@@ -574,6 +1650,42 @@ results:
   - name: Inland Norway University of Applied Sciences
     slug: inland-norway-university-of-applied-sciences
     url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Lossius, Trond
+      name: Trond Lossius
+    - display: Bachelder, Steven
+      name: Steven Bachelder
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    title: 'Kunst i intelligens: Hvilke nye kreative uttrykksmuligheter kan KI åpne
+      for?'
+    container: Debatt unde Arendalsuka.
+    details: KI-teltet, Arendalsuka 2025, Arendal.
+    abstract: "Ny teknologi har alltid hatt evnen til å forenkle og effektivisere\
+      \ etablerte arbeidsoppgaver, men med det følger også frykten for at funksjoner\
+      \ og individer blir overflødige. Hva skjer når teknologien strekker seg forbi\
+      \ det kjente og utfordrer oss til å utforske noe nytt?\r\n\r\nKunstig intelligens\
+      \ (KI) gir oss muligheten til å stille disse spørsmålene på en ny og spennende\
+      \ måte. Hvilke nye kreative uttrykksmuligheter kan KI åpne for? Hvordan kan\
+      \ kunsten utfordre og subvertere KI? Hvordan kan vi forstå lyd, bilde, video\
+      \ og litterær tekst generert av KI i forhold til autentiske kunstneriske uttrykk?\
+      \ Hvor overlapper og utfyller de hverandre, og hvor er de fundamentalt forskjellige?\r\
+      \n\r\nKunsten har et ansvar for å gå i kritisk dialog med KI, for å bidra til\
+      \ en dypere forståelse og debatt om KIs natur og samfunnspåvirkning. Hvordan\
+      \ skal kunstutdanningene ta dette ansvaret, gjennom kunstnerisk utviklingsarbeid,\
+      \ forskning og utdanning?\r\n\r\nVi inviterer til en debatt der vi sammen utforsker\
+      \ disse spørsmålene og mer. Bli med oss i en diskusjon om kreativitet, subversjon\
+      \ og autentisitet i møte med kunstig intelligens. Velkommen!"
+    full_text_url: https://hdl.handle.net/11250/4826069
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/0198cc705f83-4264b8ca-ef34-41f0-940b-928c02780af7
   url: https://www.arendalsuka.no/programsoek/details/31679
   nva_url: https://nva.sikt.no/publication/0198cc705f83-4264b8ca-ef34-41f0-940b-928c02780af7
 - title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
@@ -595,6 +1707,17 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
+      og filmprodusenter nå?'
+    container: Forskning.no.
+    details: ''
+    abstract: Norske forskere vil finne ut hvordan kreative utøvere kan være med på
+      å utvikle kunstig intelligens – og motsatt.
+    full_text_url: https://hdl.handle.net/11250/5510803
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019dcde48166-cd974c11-c757-4b22-a122-7defb03b962e
   url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
   nva_url: https://nva.sikt.no/publication/019dcde48166-cd974c11-c757-4b22-a122-7defb03b962e
 - title: Musikkmaskinene | Aftenposten Innsikt
@@ -609,6 +1732,15 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Musikkmaskinene | Aftenposten Innsikt
+    container: Aftenposten Innsikt.
+    details: ''
+    abstract: Når KI lager og spiller musikken, hva gjenstår for mennesket?
+    full_text_url: https://hdl.handle.net/11250/5507890
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d9a56baa7-a2902750-ef00-4f13-8fc6-2ece09aadb58
   url: https://www.aftenposteninnsikt.no/kulturtrender/musikkmaskinene
   nva_url: https://nva.sikt.no/publication/019d9a56baa7-a2902750-ef00-4f13-8fc6-2ece09aadb58
 - title: Får du frysninger
@@ -622,6 +1754,15 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Får du frysninger
+    container: Østlandssendingen.
+    details: ''
+    abstract: Musikk har evnen til å skape frysninger.
+    full_text_url: https://hdl.handle.net/11250/5507859
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d9a3b78fb-9167d51b-fff2-4c40-a5d6-b110eae3f802
   url: https://radio.nrk.no/serie/distriktsprogram-oestlandssendingen/DKOA02006926
   nva_url: https://nva.sikt.no/publication/019d9a3b78fb-9167d51b-fff2-4c40-a5d6-b110eae3f802
 - title: Er 528 Hz og 432 Hz magiske frekvenser?
@@ -636,6 +1777,17 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Er 528 Hz og 432 Hz magiske frekvenser?
+    container: Stavanger Aftenblad.
+    details: ''
+    abstract: Hører du på musikk i 528 Hz, 432 Hz eller 8D kan det gjøre underverker
+      for den mentale helsen din, ifølge en rekke videoer på sosiale medier. Er det
+      sant – eller bare tull?
+    full_text_url: https://hdl.handle.net/11250/5507831
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d9a29ae13-1da4d42a-1ca6-4746-8f07-58cc6e3efc75
   nva_url: https://nva.sikt.no/publication/019d9a29ae13-1da4d42a-1ca6-4746-8f07-58cc6e3efc75
 - title: 'Matoma advarer: –⁠ Det er sjelløst'
   year: '2026'
@@ -649,6 +1801,16 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: 'Matoma advarer: –⁠ Det er sjelløst'
+    container: VG.
+    details: ''
+    abstract: 'Matoma advarer mot økt KI-bruk i musikkbransjen: – Misbruker det. Den
+      anerkjente musikkprodusenten frykter for unge musikere.'
+    full_text_url: https://hdl.handle.net/11250/5507513
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d95a20ca1-969ab902-0c6d-44da-be8f-8cd2c54eedad
   url: https://www.vg.no/rampelys/i/m0K09l/matoma-advarer-mot-oekt-ki-bruk-i-musikkbransjen-misbruker-det
   nva_url: https://nva.sikt.no/publication/019d95a20ca1-969ab902-0c6d-44da-be8f-8cd2c54eedad
 - title: Eneste KI-senter som kobler teknologi og kreativitet offisielt åpnet
@@ -663,6 +1825,16 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Eneste KI-senter som kobler teknologi og kreativitet offisielt åpnet
+    container: Uniforum.
+    details: ''
+    abstract: Mye optimisme og litt bekymring preget åpningen av MishMash – senter
+      for kunstig intelligens og kreativitet.
+    full_text_url: https://hdl.handle.net/11250/5505289
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d7142230d-2db844aa-a0c3-4c57-a477-9094de115b10
   url: https://www.uniforum.uio.no/nyheter/2026/04/eneste-ki-senter-som-kobler-teknologi-og-kreativit.html
   nva_url: https://nva.sikt.no/publication/019d7142230d-2db844aa-a0c3-4c57-a477-9094de115b10
 - title: Nesten alle lever i sin egen stille boble
@@ -677,6 +1849,16 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Nesten alle lever i sin egen stille boble
+    container: NRK.no.
+    details: ''
+    abstract: Vi søker stillhet som aldri før, og hele 95 prosent av hodetelefonene
+      som selges er støyreduserende.
+    full_text_url: https://hdl.handle.net/11250/5504130
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d5d978610-a909e81e-9821-40f4-9a52-f62fd3bb4881
   url: https://www.nrk.no/kultur/nesten-alle-hodetelefoner-er-stoyreduserende_-_-vi-lurer-hjernen-1.17833006
   nva_url: https://nva.sikt.no/publication/019d5d978610-a909e81e-9821-40f4-9a52-f62fd3bb4881
 - title: 'Ekspert om støydemping-trenden: – Vi lever i parallelle verdener'
@@ -691,6 +1873,16 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: 'Ekspert om støydemping-trenden: – Vi lever i parallelle verdener'
+    container: Aftenposten.
+    details: ''
+    abstract: Støydemping er blitt normalen. Spørsmålet er hva som skjer når fellesskapets
+      lyd forsvinner.
+    full_text_url: https://hdl.handle.net/11250/5482266
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019cbf94714e-8916e5ba-2259-4935-85c8-cfaadef563fc
   nva_url: https://nva.sikt.no/publication/019cbf94714e-8916e5ba-2259-4935-85c8-cfaadef563fc
 - title: Eierskap til KI
   year: '2025'
@@ -704,6 +1896,17 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Eierskap til KI
+    container: ArtScene Trondheim.
+    details: ''
+    abstract: Et stort, nytt forskningssenter er bevilget 173 millioner. Det skal
+      undersøke skjæringspunktet mellom kunstig intelligens (KI) og kreativitet, blant
+      annet ved å se på bruk av KI i kunstneriske prosesser.
+    full_text_url: https://hdl.handle.net/11250/5504213
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d646b7835-e8a021fd-f1bc-44c3-b9ba-105e5eb48540
   url: https://artscene.no/2025/08/25/eierskap-til-ki/
   nva_url: https://nva.sikt.no/publication/019d646b7835-e8a021fd-f1bc-44c3-b9ba-105e5eb48540
 - title: UiA med på KI-satsing – NRK Sørlandet – Lokale nyheter, TV og radio
@@ -717,6 +1920,16 @@ results:
   - name: University of Agder
     slug: university-of-agder
     url: /institutions/university-of-agder/
+  citation:
+    authors: []
+    title: UiA med på KI-satsing – NRK Sørlandet – Lokale nyheter, TV og radio
+    container: NRK Sørlandet.
+    details: ''
+    abstract: Universitetet i Agder blir en del av regjeringens milliardsatsing på
+      kunstig intelligens.
+    full_text_url: https://hdl.handle.net/11250/5341605
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019bace99db7-6dc6eba2-3317-4418-97b0-84a8851ab114
   url: https://www.nrk.no/sorlandet/uia-med-pa-ki-satsing-1.17450741
   nva_url: https://nva.sikt.no/publication/019bace99db7-6dc6eba2-3317-4418-97b0-84a8851ab114
 - title: Kan musikk skape fred?
@@ -730,6 +1943,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Kan musikk skape fred?
+    container: Ungdomsavisa.
+    details: ''
+    abstract: I kveld var en rekke personligheter fra musikkmiljøet samlet til debatt
+      ved Universitetet i Oslo. Temaet var «Kan musikk skape fred?». Blant deltakerne
+      var Birgitte Grimstad og Lars Klevstrand , som har underholdt med musikk i flere
+      tiår. Debatten ble ledet av blant annet professor i musikkvitenskap ved UiO,
+      Alexander Refsum Jensenius.
+    full_text_url: https://hdl.handle.net/11250/5330413
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019b0f3bb59f-39c743ed-8591-4064-9354-23e984f96c0b
   url: https://ungdomsavisa.com/index.php?artID=763&navB=1
   nva_url: https://nva.sikt.no/publication/019b0f3bb59f-39c743ed-8591-4064-9354-23e984f96c0b
 - title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
@@ -744,6 +1970,17 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
+    container: Abels tårn.
+    details: ''
+    abstract: 'Stafetten går! Sju eksperter svarer på sju spørsmål på rappen (3:3)
+
+      Send oss gjerne dine spørsmål også ved å trykke på snakkebobla øverst'
+    full_text_url: https://hdl.handle.net/11250/5512881
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019de25b1c1d-d9db78cb-2708-4e83-a0c5-b50130e99739
   url: https://radio.nrk.no/podkast/abels_taarn/l_26ee6156-aa61-4ba8-ae61-56aa61bba845
   nva_url: https://nva.sikt.no/publication/019de25b1c1d-d9db78cb-2708-4e83-a0c5-b50130e99739
 - title: 'Live frå Aulaen: Musikk-spesial'
@@ -760,6 +1997,18 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: 'Live frå Aulaen: Musikk-spesial'
+    container: Etikketaten.
+    details: ''
+    abstract: 'Mase på folk om å danse sjølv om dei ikkje vil? Ja, - eller nei takk
+      til KI-musikk? Skal 12-åringen få vite at han syng falskt? Og: Satse på musikken
+      - eller safe? Med Tine Thing Helseth, Alexander Jensenius og Ragnhild Folkestad.
+      Programleiar Kjersti Anderdal Bakken.'
+    full_text_url: https://hdl.handle.net/11250/5512879
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019de2544f5f-3e6a1b65-e57c-412e-85ca-b7e448236da3
   url: https://radio.nrk.no/serie/etikketaten/DMPO38401726
   nva_url: https://nva.sikt.no/publication/019de2544f5f-3e6a1b65-e57c-412e-85ca-b7e448236da3
 - title: Hva er "flytsonen"?
@@ -773,6 +2022,18 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Hva er "flytsonen"?
+    container: Abels tårn.
+    details: ''
+    abstract: '"Kan kunst skape seg selv?", spør Abels Tårnpanel fra Kunsthøgskolen
+      i Oslo (KHIO).
+
+      Send inn dine spørsmål til våre eksperter!'
+    full_text_url: https://hdl.handle.net/11250/5504131
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d5da66655-e4192e72-348d-43e7-a0a2-ae2d58d59973
   url: https://radio.nrk.no/podkast/abels_taarn/l_b5967fa0-56a7-46f3-967f-a056a7c6f32f
   nva_url: https://nva.sikt.no/publication/019d5da66655-e4192e72-348d-43e7-a0a2-ae2d58d59973
 - title: Musikk og kunstig intelligens
@@ -786,6 +2047,15 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Musikk og kunstig intelligens
+    container: God morgen Norge.
+    details: ''
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5322859
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
   url: https://play.tv2.no/nyheter/god-morgen-norge-y05mec7j?play=true
   nva_url: https://nva.sikt.no/publication/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
 - title: Velkommen til festival!
@@ -799,6 +2069,20 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Velkommen til festival!
+    container: ''
+    details: ''
+    abstract: Det hjelper ikke med «sånn gjør vi det her»-argumentasjon hvis vi skal
+      få til reelt samarbeid på tvers av institusjoner.
+    full_text_url: https://hdl.handle.net/11250/5504614
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
   url: https://www.forskerforum.no/forskerlivet/nar-folk-spor-hva-slags-senter-mishmash-skal-bli-er-mitt-beste-svar-et-festivalteltsenter/
   nva_url: https://nva.sikt.no/publication/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
 - title: Atomspheres
@@ -812,6 +2096,40 @@ results:
   - name: University of Bergen
     slug: university-of-bergen
     url: /institutions/university-of-bergen/
+  citation:
+    authors: []
+    title: Atomspheres
+    container: ''
+    details: ''
+    abstract: Atomspheres is a series of performances on elemental listening engagement
+      and meditative environmental attunement, leading to a participatory performance
+      with the co-listeners. The performances attune to the macro-scale crises of
+      the climate and ecology in a planetary context and bridges its intersection
+      with micro-level coping strategies to the crises in a regenerative gathering.
+      The performances resonate with the tradition of free improvisation as well as
+      communal and participatory sonic gatherings for affective and discursive engagement
+      with crises and conflict, practiced in many Global Souths cultures. These performance
+      gatherings involve field recordings of climate variables like wind, water, and
+      woods, comprovised by chance generative processes, accompanied by radio interferences
+      transducing situated weather patterns, weaved together by meditative instrumental
+      interventions of traditional instruments, as well as live electronics and algorithmic
+      interpretation of data and assemblages embracing free improvisational techniques
+      and ethos. As an invocation, the series invites the co-listeners into an exercise
+      of slow listening and slow breathing that try to suspend time, control, ego,
+      and individuality to tap into a humbler mode of fatalism and a distributed self-hood.
+      This philosophical positioning stresses the subjugation of events or actions
+      to fate or destiny and is commonly associated with an attitude of acceptance
+      in the face of future events, which are thought to be inevitable. This approach
+      manifests into yielding control by an emergent form of togetherness, intersubjectivity,
+      and kinship when listening transcends an overt causality, and the psychosomatic
+      condition embraces slow breathing to contemplate, and affective attunement.
+      The project is inspired by the micro-level entanglements of human, more-than-human,
+      and other life forms in a survival context, and explores sensory transduction
+      of environmental conditions to figure how to make them post-immersive and attuning
+      experiences in an openly circular, collaborative performance setting.
+    full_text_url: https://hdl.handle.net/11250/5510677
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019dcbf4d15b-642a468a-8e7f-4fb1-8e21-c0c8b5598702
   url: https://dornsife.usc.edu/cema/events/
   nva_url: https://nva.sikt.no/publication/019dcbf4d15b-642a468a-8e7f-4fb1-8e21-c0c8b5598702
 - title: The Great Human Filter - The Age of Evaluation (album)
@@ -820,6 +2138,18 @@ results:
   contributors:
   - name: Viggo Tellefsen Wivestad
   institutions: []
+  citation:
+    authors: []
+    title: The Great Human Filter - The Age of Evaluation (album)
+    container: ''
+    details: ''
+    abstract: The Great Human Filter er et KI-generert eksperimentelt funk- og nu-jazz-prosjekt.
+      Prosjektet kombinerer generativ kunstig intelligens med menneskelig kuratering,
+      og utforsker en tematiske kobling mellom teknologi, kreativitet og menneskelig
+      dømmekraft.
+    full_text_url: https://hdl.handle.net/11250/5517489
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019e3f4d620d-fbdddd20-0178-42a0-b9c4-6280151fefa8
   url: https://thegreathumanfilter.com/
   nva_url: https://nva.sikt.no/publication/019e3f4d620d-fbdddd20-0178-42a0-b9c4-6280151fefa8
 - title: Building intersectional Cultural Ecosystems & Institutions for the Future
@@ -838,6 +2168,33 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Mardahl, Jesper
+      name: Jesper Mardahl
+    - display: Kimmel, Simon
+      name: Simon Kimmel
+    - display: Eyerer, Martin
+      name: Martin Eyerer
+    - display: Sillmann, Roland
+      name: Roland Sillmann
+    - display: Grefer, Philipp
+      name: Philipp Grefer
+    title: Building intersectional Cultural Ecosystems & Institutions for the Future
+    container: WISE x House Of Nordic Visions.
+    details: Berlin.
+    abstract: Future-facing cultural ecosystems require new forms of collaboration
+      across public, private, and civic actors. This panel examines best practices
+      in building intersectional institutions and clusters that integrate diverse
+      disciplines, and leaders from art, music, science, policy, to communities, and
+      funding models.
+    full_text_url: https://hdl.handle.net/11250/5523908
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019e7fb15492-102757ea-b56a-4dc6-8734-56dac427fdc3
   url: https://www.wisenotwise.com/wise2026program
   nva_url: https://nva.sikt.no/publication/019e7fb15492-102757ea-b56a-4dc6-8734-56dac427fdc3
 - title: Tverrfaglighet i forskning (og utdanning)
@@ -851,6 +2208,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Tverrfaglighet i forskning (og utdanning)
+    container: UHR Humaniora og Samfunnsvitenskap.
+    details: Kristiansand.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5518050
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019e45845336-b864a8b3-cf7c-458c-8385-6c3d8766059b
   nva_url: https://nva.sikt.no/publication/019e45845336-b864a8b3-cf7c-458c-8385-6c3d8766059b
 - title: Mellom menneske og maskin
   year: '2026'
@@ -866,6 +2236,38 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Sigurdsen, Silje Midtlien
+      name: Silje Midtlien Sigurdsen
+    - display: Urrego, Camila
+      name: Camila Urrego
+    - display: Gjermundsen, Gunnar Gabriel
+      name: Gunnar Gabriel Gjermundsen
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Mellom menneske og maskin
+    container: Panelsamtale.
+    details: Oslo.
+    abstract: 'Hva skjer med vår opplevelse av virkelighet, kropp, natur og kreativitet
+      når grensene mellom det menneskelige og det syntetiske blir mer flytende?
+
+
+      Samtalen har ikke til hensikt å konkludere om kunstig intelligens er bra eller
+      dårlig for kunsten. Sammen skal vi heller undersøke hva som skjer med oss som
+      skapende mennesker, som publikum, og kanskje også som naturvesener, når teknologien
+      begynner å produsere bilder, idéer og identiteter som tidligere bare kom fra
+      menneskelig erfaring.
+
+
+      Fotografiens Hus ønsker velkommen til en samtale som trekker på kunst, økologi
+      og filosofi for å undersøke hvordan kunstig intelligens påvirker hvordan vi
+      skaper, sanser og møter verden rundt oss på.'
+    full_text_url: https://hdl.handle.net/11250/5517036
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019e32c7e996-3b1abd75-32c5-410a-8cd6-833319d55756
   url: https://fotografiens-hus.no/samtale-mellom-menneske-og-maskin/
   nva_url: https://nva.sikt.no/publication/019e32c7e996-3b1abd75-32c5-410a-8cd6-833319d55756
 - title: Sang og KI
@@ -879,6 +2281,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Sang og KI
+    container: Strategiseminar.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5514414
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019dfe980ca5-56907564-ed5d-4548-9576-656c8a18419a
   nva_url: https://nva.sikt.no/publication/019dfe980ca5-56907564-ed5d-4548-9576-656c8a18419a
 - title: 'Design Agentics :: Creative R&D x AI'
   year: '2026'
@@ -900,6 +2315,38 @@ results:
   - name: Inland Norway University of Applied Sciences
     slug: inland-norway-university-of-applied-sciences
     url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    - display: Encinas, Enrique
+      name: Enrique Encinas
+    - display: Lilleng, Hedda Foss
+      name: Hedda Foss Lilleng
+    - display: Renneflott, Lene
+      name: Lene Renneflott
+    title: 'Design Agentics :: Creative R&D x AI'
+    container: 'Design Agentics :: Creative R&D x AI.'
+    details: Grafills hus Møllergata 39, 0179 Oslo.
+    abstract: 'Arrangementet Design Agentics: Creative R&D x AI undersøker kunstig
+      intelligens som en integrert del av design- og kunstpraksis, ikke bare som verktøy,
+      men som infrastrukturell og agentisk aktør. Gjennom en studentpresentasjon av
+      egenutviklede AI-baserte verktøy og en påfølgende panel- og rundebordsdiskusjon
+      med forskere og bransjeaktører, tematiserer arrangementet hvordan kreative praktikere
+      kan forholde seg kritisk og operativt til eksisterende AI-systemer. Fokus ligger
+      på spørsmål om handlingsrom, makt og design i møte med ferdigdefinerte teknologiske
+      infrastrukturer, samt muligheter for å omforme, tilpasse eller motsette seg
+      disse. Arrangementet avsluttes med lanseringen av forskningsgruppen CRAITR ved
+      AHO.'
+    full_text_url: https://hdl.handle.net/11250/5510479
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019dc37da862-8dad0484-5d39-4e81-b014-c38f3af96941
   url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
   nva_url: https://nva.sikt.no/publication/019dc37da862-8dad0484-5d39-4e81-b014-c38f3af96941
 - title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
@@ -910,6 +2357,28 @@ results:
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   institutions: []
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
+    container: 'Konferanse: Strategisk framsyn i det norske kulturfeltet.'
+    details: Deichman Bjørvika og Digitalt arrangement.
+    abstract: Panelsamtalen «Risiko og motstandskraft i kulturens infrastruktur –
+      det neste tiåret» samlet Camara Lundestad Joof (Dramatikkens hus), Kirsti Mathiesen
+      Hjemdahl (Cultiva), Sveinung Rudjord Unneland (Den uferdige institusjonen),
+      Øystein Strand (Kulturdirektoratet) og Synne Tollerud Bull (Høyskolen Kristiania),
+      moderert av Hild Borchgrevink. Samtalen tok utgangspunkt i hvordan kultur i
+      økende grad formes av infrastrukturer, systemer og distribusjonslogikker, og
+      drøftet risiko og handlingsrom i møte med plattformbaserte medieformer. Det
+      ble særlig lagt vekt på behovet for å utvikle robuste og fleksible kulturinfrastrukturer,
+      samt rollen til offentlig finansierte institusjoner og høyere kunstutdanning
+      i å legge til rette for eksperimentering, kunnskapsutvikling og langsiktig motstandskraft.
+    full_text_url: https://hdl.handle.net/11250/5509790
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019db9aba304-1cb12c80-5618-476a-8f7a-5d2b54f6d6b5
   url: https://www.kulturdirektoratet.no/kalender/konferanse-strategisk-framsyn-i-det-norske-kulturfeltet
   nva_url: https://nva.sikt.no/publication/019db9aba304-1cb12c80-5618-476a-8f7a-5d2b54f6d6b5
 - title: Kunstig kreativitet?
@@ -923,6 +2392,21 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Kunstig kreativitet?
+    container: Kunstig kreativitet.
+    details: Oslo.
+    abstract: Trenger vi egentlig musikere, forfattere og filmprodusenter nå som KI
+      kan gjøre jobben? Vi tar diskusjonen om hvordan KI påvirker kreativ næring og
+      kunstneriske prosesser.
+    full_text_url: https://hdl.handle.net/11250/5505592
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d741030ca-41f18ad7-2ac1-4300-aa6b-94e3bf2a0cfc
   url: https://www.uio.no/om/aktuelt/universitetsplassen/aulaen/arrangementer/litteratur-foredrag/2026/mishmash-ki-kreativitet.html
   nva_url: https://nva.sikt.no/publication/019d741030ca-41f18ad7-2ac1-4300-aa6b-94e3bf2a0cfc
 - title: Permeating Art & Science Collaboration
@@ -936,6 +2420,34 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Permeating Art & Science Collaboration
+    container: Uroboros Festival.
+    details: Praha.
+    abstract: 'Panel discussion with Robertina Šebjanič, Anetta Mona Chişa, Alexander
+      Refsum Jensenius. Moderated by Benedetta D''Ettorre.
+
+
+      This panel examines the boundary zones where artistic and scientific approaches
+      intersect, entangle, and permeate into one another. Bringing together practitioners
+      working across more-than-human ecologies, technological imaginaries, and embodied
+      research, the conversation will explore how meaningful collaboration can emerge
+      from inter- and trans-disciplinary exchange.
+
+
+      Rather than framing art and science as opposites, we ask how their methods can
+      become mutually generative; how artistic mindsets can expand scientific inquiry,
+      and how scientific perspectives can deepen artistic experimentation. The session
+      aims to discuss questions related to collaborative ethics, shared vocabularies,
+      and the value of embracing “noise” as a catalyst for new forms of knowledge-making.'
+    full_text_url: https://hdl.handle.net/11250/5504132
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d5dac4b99-88bca32b-76f6-4e7e-986b-3df1814fe516
   url: https://www.youtube.com/live/La6LkV7YpI4
   nva_url: https://nva.sikt.no/publication/019d5dac4b99-88bca32b-76f6-4e7e-986b-3df1814fe516
 - title: Morgendagens filmskapere?
@@ -949,6 +2461,20 @@ results:
   - name: Inland Norway University of Applied Sciences
     slug: inland-norway-university-of-applied-sciences
     url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Graver, Fredrik
+      name: Fredrik Graver
+      slug: fredrik-graver
+      url: /people/fredrik-graver/
+    title: Morgendagens filmskapere?
+    container: Høstseminar.
+    details: Filmens Hus, Oslo.
+    abstract: Om utdanning for en norsk filmbransje i endring, både på grunn av publikumsvaner,
+      teknologi og kunstig intelligens
+    full_text_url: https://hdl.handle.net/11250/5349823
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019be5d865f1-d4760767-2977-44a9-8ecc-726e77e24860
   nva_url: https://nva.sikt.no/publication/019be5d865f1-d4760767-2977-44a9-8ecc-726e77e24860
 - title: 'Kreativitet og KI: presentasjon til FilmReg'
   year: '2025'
@@ -961,6 +2487,19 @@ results:
   - name: Inland Norway University of Applied Sciences
     slug: inland-norway-university-of-applied-sciences
     url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Graver, Fredrik
+      name: Fredrik Graver
+      slug: fredrik-graver
+      url: /people/fredrik-graver/
+    title: 'Kreativitet og KI: presentasjon til FilmReg'
+    container: Årsmøte i FilmReg.
+    details: Kristiandsand.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5349826
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019be5d0aac6-b662e509-5c5e-47fb-84cf-ceb50a865373
   nva_url: https://nva.sikt.no/publication/019be5d0aac6-b662e509-5c5e-47fb-84cf-ceb50a865373
 - title: Concientia
   year: '2025'
@@ -976,6 +2515,73 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Snaprud, Per
+      name: Per Snaprud
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Endestad, Tor
+      name: Tor Endestad
+    - display: Wøien, Randi
+      name: Randi Wøien
+    title: Concientia
+    container: Samtale om bevissthet og det å skape.
+    details: Oslo.
+    abstract: 'I forbindelse med utstillingen Conscientia på Gamle Munch arrangeres
+      en samtale om bevissthet og det å skape.
+
+      Utgangspunktet for tema til utstillingen er bevissthet og forhold knyttet til
+      det å skape.
+
+      En del av utstillingen tar utgangspunkt i en serie med selvportretter av Randi
+      Wøien basert på MR bilder tatt av hennes eget hode. Bildene representerer et
+      sett av intrikate mønstre i ulike størrelser og sammensetninger og kan refereres
+      til ulike organer, andre vesener og ren natur. Samtidig er de en representasjon
+      av kunstneren slik hun er satt sammen i sitt eget hode. Keramiker Jorid Krosse
+      lager objekter med form og mønster som tar inspirasjon fra naturen og kan relateres
+      til organiske strukturer, hoder og andre vesener. I samspill med maleriene vil
+      de keramiske objektene settes i en relasjon til det kroppslige.
+
+      Samtalen om bevissthet og det å skape bruker utstillingen som et utgangspunkt
+      til å få belyst hva den skapende prosessen kan bety for vår egen utvikling og
+      hvordan hjernen fungerer og responderer på skapende prosesser. Tema for samtalen
+      vil være forholdet mellom kunst og bevissthet, om relasjonen mellom maleri og
+      objekt og om hvordan det å skape kunst kan påvirke vår forståelse av oss selv
+      og omgivelsene.
+
+      For tiden forskes det mye på hva som faktisk skjer i hjernen når man skaper
+      noe. Vi har fått med oss to av de fremste forskerne på temaet fra universitetet
+      i Oslo.
+
+      Alexander Refsum Jensenius er professor i musikkteknologi ved Universitetet
+      i Oslo, hvor han også leder RITMO Senter for tverrfaglige studier av rytme,
+      tid og bevegelse og MishMash Senter for KI og kreativitet. Han forsker på hvordan
+      lyd og musikk påvirker kropp og sinn, bevisst og ubevisst.
+
+      Tor Endestad er førsteamanuensis i kognitiv- og nevropsykologi på univeristetet
+      i Oslo og er tilknyttet Ritmo. Han leder FRONT neurolab og forsker på kognitiv
+      psykologi og kognitiv nevrovitenskap med fokus på hjerneavbildningsmetodikk.
+      Pågående forskningsprosjekter omfatter studier av basale mekanismer i oppfattelse
+      av rytme og tid, oppmerksomhet og hukommelse.
+
+      Til å moderere samtalen har vi fått med oss Per Snaprud. Han er vitenskapsjournalist
+      og før det hjerneforsker. Han arbeider i det Stockholm baserte magasinet Forskning
+      og Framsteg og har tidligere vært virksom ved Dagens Nyheters og Sveriges Radios
+      vitenskapsredaksjoner. Han er også forfatter av boken «Medvetandets återkomst,
+      om hjärnan, kroppen och universum».
+
+      Victoria Johnson er fiolinist, underviser ved Institutt for musikkvitenskap
+      og deltar i ulike forskningsprosjekter ved UiO. Hun har hatt solokonserter blant
+      annet under Festspillene i Bergen, Ultima, Borealisfestivalen og Soundwaves
+      i London. Hennes lidenskap for samtidsmusikk har resultert i flere bestillingsverk
+      og plateinnspillinger. I denne sammenhengen vil hun spille musikk som er direkte
+      komponert til bildene og objektene i utstillingen.'
+    full_text_url: https://hdl.handle.net/11250/5330415
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019b0f3f947c-ba6ad5ae-ff28-459c-b417-edbefc1bb4a1
   url: https://happeningnext.com/event/samtale-om-bevissthet-og-det-%C3%A5-skape-eid3a0d68lba3
   nva_url: https://nva.sikt.no/publication/019b0f3f947c-ba6ad5ae-ff28-459c-b417-edbefc1bb4a1
 - title: Kan musikk skape fred?
@@ -993,6 +2599,35 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Sandvik, Kristin Bergtora
+      name: Kristin Bergtora Sandvik
+    - display: Grimstad, Birgitte
+      name: Birgitte Grimstad
+    - display: Røysum, Andreas Hoem
+      name: Andreas Hoem Røysum
+    - display: Klevstrand, Lars
+      name: Lars Klevstrand
+    title: Kan musikk skape fred?
+    container: Kan musikk skape fred?.
+    details: Oslo.
+    abstract: På konsert føler vi samhold med fremmede, viser forskning. I et kort
+      øyeblikk samler musikken oss. Hvordan kan musikk også samle oss i urolige tider?
+      Flere artister jobber for fred, på ulike måter. Møt noen av dem på Scene Domus
+      Bibliotheca! Hva er det med akkurat musikk som forener oss? Bli med på musikksnakk
+      med artistene Birgitte Grimstad, Lars Klevstrand og Andreas Røysum. Du møter
+      også  fredsforsker Kristin Bergtora Sandvik. Her vil musikkprofessor Alexander
+      Refsum Jensenius lede samtalen med ulike spørsmål knyttet til tematikken – kanskje
+      svarer de på ditt spørsmål også? Samtalen er beregnet for et publikum uten faglig
+      bakgrunn i temaet.
+    full_text_url: https://hdl.handle.net/11250/5328554
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019aff7b1299-d3edb8c6-f908-4691-9947-d1c898959146
   url: https://www.oslopeacedays.no/program/2025/fred-og-musikk
   nva_url: https://nva.sikt.no/publication/019aff7b1299-d3edb8c6-f908-4691-9947-d1c898959146
 - title: 'Presentation: ROBOts as Welfare Technologies and Actors for ELderLy Care:
@@ -1005,6 +2640,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Lindblom, Diana Saplacan
+      name: Diana Saplacan Lindblom
+    title: 'Presentation: ROBOts as Welfare Technologies and Actors for ELderLy Care:
+      A Nordic Model for Integration of Advanced Assistive Technologies (ROBOWELL)
+      pre-kickoff'
+    container: ROBOWELL pre-kickoff.
+    details: Digital Futures, KTH.
+    abstract: ROBOWELL - meeting with the project partners (UiO, KTH, SDU)
+    full_text_url: https://hdl.handle.net/11250/5328078
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019afdebbd4d-cd5554a2-c8ab-48bd-8edb-0f82432c2553
   nva_url: https://nva.sikt.no/publication/019afdebbd4d-cd5554a2-c8ab-48bd-8edb-0f82432c2553
 - title: 'Nytt KI-senter ved UiO: MishMash'
   year: '2025'
@@ -1017,6 +2665,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: 'Nytt KI-senter ved UiO: MishMash'
+    container: Forskningskomiteen.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5325017
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ad150d6dd-85780548-4f53-4e79-af25-b31e53284c67
   nva_url: https://nva.sikt.no/publication/019ad150d6dd-85780548-4f53-4e79-af25-b31e53284c67
 - title: 'Nytt KI-senter ved HF: MishMash'
   year: '2025'
@@ -1029,6 +2690,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: 'Nytt KI-senter ved HF: MishMash'
+    container: Fakultetsstyremøte.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5325013
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ad141cf7a-86867c4d-286f-4448-a4bc-16d14ada5425
   nva_url: https://nva.sikt.no/publication/019ad141cf7a-86867c4d-286f-4448-a4bc-16d14ada5425
 - title: Are we still needed?
   year: '2025'
@@ -1041,6 +2715,24 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Are we still needed?
+    container: Are we still needed? Kunstig intelligens i filmbransjen 2.0.
+    details: Oslo.
+    abstract: Den kunstige intelligensens frammarsj fortsetter å være den største
+      kulturelle og samfunnsmessige omveltningen siden den industrielle revolusjonen.
+      Siden fjorårets konferanse har det skjedd vanvittig mye, derfor inviterer vi
+      igjen til en dag fylt med internasjonale nøkkelpersoner, banebrytende prosjekter
+      og nye perspektiver på hvordan KI endrer måten vi utvikler, produserer og opplever
+      film.
+    full_text_url: https://hdl.handle.net/11250/5325011
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ad1386dd7-c33856fc-5746-486f-ac6b-8e50fbb6811c
   url: https://filmskolen.no/artikler/2025/ki-i-filmbransjen-2-0
   nva_url: https://nva.sikt.no/publication/019ad1386dd7-c33856fc-5746-486f-ac6b-8e50fbb6811c
 - title: KI og det nye MishMash-senteret
@@ -1054,6 +2746,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: KI og det nye MishMash-senteret
+    container: Instituttseminar.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/4669517
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/0199950ae66e-c741ee65-1651-46f7-a3d2-6925df7836ca
   nva_url: https://nva.sikt.no/publication/0199950ae66e-c741ee65-1651-46f7-a3d2-6925df7836ca
 - title: Muligheter for deltagelse i MishMash Senter for KI og kreativitet
   year: '2025'
@@ -1066,6 +2771,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Muligheter for deltagelse i MishMash Senter for KI og kreativitet
+    container: Fagseminar.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/3697314
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019995090b5c-2399367f-12c9-48e1-a055-b3664cebea22
   nva_url: https://nva.sikt.no/publication/019995090b5c-2399367f-12c9-48e1-a055-b3664cebea22
 - title: RITMO, MishMash and the fourMs Lab
   year: '2025'
@@ -1078,6 +2796,19 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: RITMO, MishMash and the fourMs Lab
+    container: Workshop with the Ukrainian Research Council.
+    details: Oslo.
+    abstract: A presentation for the Ukrainian Research Council.
+    full_text_url: https://hdl.handle.net/11250/4600335
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019994c32420-9e680d19-dfe8-4061-8442-da49021add6b
   nva_url: https://nva.sikt.no/publication/019994c32420-9e680d19-dfe8-4061-8442-da49021add6b
 - title: AI in film (and fine arts) schools
   year: '2025'
@@ -1090,6 +2821,20 @@ results:
   - name: Inland Norway University of Applied Sciences
     slug: inland-norway-university-of-applied-sciences
     url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Graver, Fredrik
+      name: Fredrik Graver
+      slug: fredrik-graver
+      url: /people/fredrik-graver/
+    title: AI in film (and fine arts) schools
+    container: AI in film (and fine arts) schools.
+    details: Netherlands Film Academy, Amsterdam.
+    abstract: Workshop for academic staff at Amsterdam University of the Arts / Netherlands
+      Film Academy
+    full_text_url: https://hdl.handle.net/11250/3441391
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/0199709a5e3e-079e05cf-7647-478c-9a5d-b67433c5a402
   nva_url: https://nva.sikt.no/publication/0199709a5e3e-079e05cf-7647-478c-9a5d-b67433c5a402
 - title: AI-retningslinjer for norsk film – hvem lager dem, og hvordan settes en arbeidsgruppe
     sammen?
@@ -1103,5 +2848,20 @@ results:
   - name: Inland Norway University of Applied Sciences
     slug: inland-norway-university-of-applied-sciences
     url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Graver, Fredrik
+      name: Fredrik Graver
+      slug: fredrik-graver
+      url: /people/fredrik-graver/
+    title: AI-retningslinjer for norsk film – hvem lager dem, og hvordan settes en
+      arbeidsgruppe sammen?
+    container: 'AI i bransjen: Hva gjør vi?.'
+    details: Oslo.
+    abstract: Presentasjon for norsk filmbransje om behov for retningslinjer for bruk
+      av kunstig intelligens i bransjen.
+    full_text_url: https://hdl.handle.net/11250/3438975
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01992ed0bbab-d68ebbb7-4430-422e-aba4-5a0e1bdce15b
   url: https://www.oslopix.no/no/arrangement/2025/bransje-ai-i-bransjen-hva-gj%C3%B8r-vi
   nva_url: https://nva.sikt.no/publication/01992ed0bbab-d68ebbb7-4430-422e-aba4-5a0e1bdce15b

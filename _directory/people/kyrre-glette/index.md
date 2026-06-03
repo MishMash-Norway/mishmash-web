@@ -82,6 +82,6 @@ source_mentions:
 summary: null
 permalink: /people/kyrre-glette/
 redirect_from:
-  - /directory/people/kyrre-glette/
+- /directory/people/kyrre-glette/
 ---
 

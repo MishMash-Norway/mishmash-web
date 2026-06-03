@@ -64,6 +64,6 @@ source_mentions:
 summary: null
 permalink: /people/sven-arne-reinemo/
 redirect_from:
-  - /directory/people/sven-arne-reinemo/
+- /directory/people/sven-arne-reinemo/
 ---
 

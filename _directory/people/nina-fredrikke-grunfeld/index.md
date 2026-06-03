@@ -85,6 +85,6 @@ source_mentions:
 summary: null
 permalink: /people/nina-fredrikke-grunfeld/
 redirect_from:
-  - /directory/people/nina-fredrikke-grunfeld/
+- /directory/people/nina-fredrikke-grunfeld/
 ---
 

@@ -13,7 +13,7 @@ projects: []
 roles:
 - Research advisor
 urls:
-  website: https://www4.uib.no/en/find-employees/thomas.de-ridder
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -29,11 +29,9 @@ selected_works: []
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/management/index.md
 - /home/alexanje/github/mishmash-web/no/about/organisation/management/index.md
-summary: Senior adviser and research coordinator at the University of Bergen, Faculty
-  of Fine Art, Music and Design. Research advisor for the MishMash Centre for AI and
-  Creativity.
+summary: null
 permalink: /people/thomas-de-ridder/
 redirect_from:
-  - /directory/people/thomas-de-ridder/
+- /directory/people/thomas-de-ridder/
 ---
 

@@ -20,6 +20,7 @@ from enrich_directory_from_nva import (  # noqa: E402
     build_institution_lookup,
     configure_nva_auth,
     extract_profile_id,
+    find_doi_in_object,
     get_json,
     localized_text,
     nva_api_url,
@@ -89,6 +90,200 @@ def nva_publication_page_url(hit: dict) -> str:
     if "/publication/" in resource_id:
         return resource_id.replace("https://api.nva.unit.no", "https://nva.sikt.no")
     return ""
+
+
+def format_cristin_name(full_name: str) -> str:
+    parts = [part for part in full_name.split() if part]
+    if not parts:
+        return full_name.strip()
+    if len(parts) == 1:
+        return parts[0]
+    return f"{parts[-1]}, {' '.join(parts[:-1])}"
+
+
+def normalize_doi(value: str) -> str:
+    value = (value or "").strip()
+    if not value:
+        return ""
+    value = value.replace("https://doi.org/", "").replace("http://doi.org/", "")
+    return value.lstrip("doi:").strip()
+
+
+def format_page_range(pages) -> str:
+    if not isinstance(pages, dict):
+        return ""
+    if pages.get("type") != "Range":
+        return ""
+    begin = str(pages.get("begin") or "").strip()
+    end = str(pages.get("end") or "").strip()
+    if begin and end and begin != end:
+        return f"{begin}–{end}"
+    return begin or end
+
+
+def find_handle_url(hit: dict) -> str:
+    for ident in hit.get("additionalIdentifiers") or []:
+        if ident.get("type") == "HandleIdentifier":
+            value = (ident.get("value") or "").strip()
+            if value:
+                return value
+    return ""
+
+
+def full_text_label(url: str) -> str:
+    if "hdl.handle.net" in url or "/11250/" in url:
+        return "archive"
+    return "generic"
+
+
+def anthology_entity(ref: dict) -> dict:
+    ctx = ref.get("publicationContext") or {}
+    entity = ctx.get("entityDescription") or {}
+    return entity if isinstance(entity, dict) else {}
+
+
+def build_citation_authors(
+    entity: dict,
+    person_lookup: dict[str, dict[str, str]],
+) -> list[dict[str, str]]:
+    authors: list[dict[str, str]] = []
+    for contributor in entity.get("contributors") or []:
+        role = ((contributor.get("role") or {}).get("type") or "").strip()
+        if role and role not in {"Creator", "Author"}:
+            continue
+        identity = contributor.get("identity") or {}
+        name = contributor_name(identity)
+        if not name:
+            continue
+        entry = {"display": format_cristin_name(name), "name": name}
+        person_id = extract_cristin_person_id(identity.get("id") or "")
+        if person_id and person_id in person_lookup:
+            person = person_lookup[person_id]
+            entry["slug"] = person["slug"]
+            entry["url"] = person["url"]
+        authors.append(entry)
+    return authors
+
+
+def build_citation_container_and_details(entity: dict, ref: dict) -> tuple[str, str]:
+    inst = ref.get("publicationInstance") or {}
+    ctx = ref.get("publicationContext") or {}
+    inst_type = (inst.get("type") or "").strip()
+    container_parts: list[str] = []
+    detail_parts: list[str] = []
+
+    if inst_type == "AcademicChapter":
+        anthology = anthology_entity(ref)
+        inner_ctx = ((anthology.get("reference") or {}).get("publicationContext") or {})
+        editors = [
+            format_cristin_name(contributor_name((contributor.get("identity") or {})))
+            for contributor in anthology.get("contributors") or []
+            if contributor_name((contributor.get("identity") or {}))
+        ]
+        anthology_title = localized_text(anthology.get("mainTitle"))
+        if editors:
+            container_parts.append(f"In {', '.join(editors)} (Eds.), {anthology_title}.")
+        elif anthology_title:
+            container_parts.append(f"In {anthology_title}.")
+        publisher = ((inner_ctx.get("publisher") or {}).get("name") or "").strip()
+        if publisher:
+            detail_parts.append(f"{publisher}.")
+        isbn_list = inner_ctx.get("isbnList") or []
+        if isbn_list:
+            detail_parts.append(f"ISBN {isbn_list[0]}.")
+        series = inner_ctx.get("series") or {}
+        issn = (series.get("printIssn") or series.get("onlineIssn") or "").strip()
+        if issn and not isbn_list:
+            detail_parts.append(f"ISSN {issn}.")
+        page_range = format_page_range(inst.get("pages"))
+        if page_range:
+            detail_parts.append(f"p. {page_range}.")
+
+    elif inst_type == "AcademicArticle":
+        journal = (ctx.get("name") or "").strip()
+        if journal:
+            container_parts.append(f"{journal}.")
+        issn = (ctx.get("printIssn") or ctx.get("onlineIssn") or "").strip()
+        if issn:
+            detail_parts.append(f"ISSN {issn}.")
+        volume = str(inst.get("volume") or "").strip()
+        if volume:
+            detail_parts.append(f"{volume}.")
+        page_range = format_page_range(inst.get("pages"))
+        if page_range:
+            detail_parts.append(f"p. {page_range}.")
+
+    elif inst_type in {"ReportBasic", "ChapterInReport"} or ctx.get("type") == "Book":
+        publisher = ((ctx.get("publisher") or {}).get("name") or "").strip()
+        if not publisher:
+            publisher = ((anthology_entity(ref).get("reference") or {}).get("publicationContext") or {}).get(
+                "publisher", {}
+            ).get("name", "")
+            publisher = (publisher or "").strip()
+        if publisher:
+            detail_parts.append(f"{publisher}.")
+        page_range = format_page_range(inst.get("pages"))
+        if page_range:
+            detail_parts.append(f"p. {page_range}.")
+
+    elif ctx.get("type") == "Event":
+        event_name = (ctx.get("name") or "").strip()
+        place = ((ctx.get("place") or {}).get("name") or "").strip()
+        if event_name:
+            container_parts.append(f"{event_name}.")
+        if place:
+            detail_parts.append(f"{place}.")
+
+    elif ctx.get("type") == "MediaContribution":
+        channel = (ctx.get("disseminationChannel") or "").strip()
+        medium = ((ctx.get("medium") or {}).get("type") or "").strip()
+        series = ""
+        part_of = ctx.get("partOf") or []
+        if part_of and isinstance(part_of[0], dict):
+            series = (part_of[0].get("seriesName") or "").strip()
+        if series:
+            container_parts.append(f"{series}.")
+        elif channel:
+            container_parts.append(f"{channel}.")
+        elif medium:
+            container_parts.append(f"{medium}.")
+
+    elif ctx.get("type") == "ExhibitionContent":
+        container_parts.append("Exhibition.")
+
+    doi = normalize_doi(ref.get("doi") or find_doi_in_object(entity) or "")
+    if doi and not doi.startswith("http"):
+        detail_parts.append(f"doi: {doi}.")
+
+    return " ".join(part for part in container_parts if part).strip(), " ".join(detail_parts).strip()
+
+
+def build_citation(
+    hit: dict,
+    entity: dict,
+    ref: dict,
+    person_lookup: dict[str, dict[str, str]],
+    external_url: str,
+    nva_url: str,
+) -> dict:
+    container, details = build_citation_container_and_details(entity, ref)
+    handle_url = find_handle_url(hit)
+    full_text_url = handle_url or external_url or nva_url
+    full_text_kind = full_text_label(full_text_url) if full_text_url else ""
+
+    citation = {
+        "authors": build_citation_authors(entity, person_lookup),
+        "title": localized_text(entity.get("mainTitle")),
+        "container": container,
+        "details": details,
+        "abstract": localized_text(entity.get("abstract")),
+    }
+    if full_text_url:
+        citation["full_text_url"] = full_text_url
+        citation["full_text_kind"] = full_text_kind
+    if nva_url:
+        citation["nva_url"] = nva_url
+    return citation
 
 
 def contributor_name(identity: dict) -> str:
@@ -167,8 +362,10 @@ def parse_result_hit(
         )
 
     result_type = nva_publication_source(entity.get("reference") or {})
+    ref = entity.get("reference") or {}
     external_url = nva_publication_url(hit)
     nva_url = nva_publication_page_url(hit)
+    citation = build_citation(hit, entity, ref, person_lookup, external_url, nva_url)
 
     entry = {
         "title": localized_text(entity.get("mainTitle")),
@@ -176,6 +373,7 @@ def parse_result_hit(
         "type": result_type,
         "contributors": contributors,
         "institutions": institutions,
+        "citation": citation,
     }
     if external_url:
         entry["url"] = external_url

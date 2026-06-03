@@ -75,6 +75,6 @@ source_mentions:
 summary: null
 permalink: /people/arnulf-mattes/
 redirect_from:
-  - /directory/people/arnulf-mattes/
+- /directory/people/arnulf-mattes/
 ---
 

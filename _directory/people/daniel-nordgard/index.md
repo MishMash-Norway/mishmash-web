@@ -13,7 +13,7 @@ projects: []
 roles:
 - Deputy director
 urls:
-  website: https://www.uia.no/om-uia/ansatte/danieln/
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-0169-963X
@@ -86,6 +86,6 @@ summary: 'Daniel Nordgård is professor in music business and management at the 
   and legislators.'
 permalink: /people/daniel-nordgard/
 redirect_from:
-  - /directory/people/daniel-nordgard/
+- /directory/people/daniel-nordgard/
 ---
 

@@ -88,6 +88,6 @@ source_mentions:
 summary: null
 permalink: /people/fredrik-graver/
 redirect_from:
-  - /directory/people/fredrik-graver/
+- /directory/people/fredrik-graver/
 ---
 

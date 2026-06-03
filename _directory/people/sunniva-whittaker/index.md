@@ -69,6 +69,6 @@ source_mentions:
 summary: null
 permalink: /people/sunniva-whittaker/
 redirect_from:
-  - /directory/people/sunniva-whittaker/
+- /directory/people/sunniva-whittaker/
 ---
 

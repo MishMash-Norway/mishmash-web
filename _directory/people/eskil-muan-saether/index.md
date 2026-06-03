@@ -31,6 +31,6 @@ source_mentions:
 summary: null
 permalink: /people/eskil-muan-saether/
 redirect_from:
-  - /directory/people/eskil-muan-saether/
+- /directory/people/eskil-muan-saether/
 ---
 

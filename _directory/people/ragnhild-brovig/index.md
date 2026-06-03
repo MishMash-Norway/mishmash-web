@@ -71,6 +71,6 @@ source_mentions:
 summary: null
 permalink: /people/ragnhild-brovig/
 redirect_from:
-  - /directory/people/ragnhild-brovig/
+- /directory/people/ragnhild-brovig/
 ---
 

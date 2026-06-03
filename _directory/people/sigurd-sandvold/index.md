@@ -41,6 +41,6 @@ source_mentions:
 summary: null
 permalink: /people/sigurd-sandvold/
 redirect_from:
-  - /directory/people/sigurd-sandvold/
+- /directory/people/sigurd-sandvold/
 ---
 

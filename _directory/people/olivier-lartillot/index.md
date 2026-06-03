@@ -72,6 +72,6 @@ source_mentions:
 summary: null
 permalink: /people/olivier-lartillot/
 redirect_from:
-  - /directory/people/olivier-lartillot/
+- /directory/people/olivier-lartillot/
 ---
 

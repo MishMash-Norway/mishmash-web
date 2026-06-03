@@ -98,6 +98,6 @@ summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music tec
   combining methods from artistic and scientific research in creative ways.
 permalink: /people/alexander-refsum-jensenius/
 redirect_from:
-  - /directory/people/alexander-refsum-jensenius/
+- /directory/people/alexander-refsum-jensenius/
 ---
 

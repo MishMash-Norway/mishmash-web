@@ -53,6 +53,6 @@ source_mentions:
 summary: null
 permalink: /people/jostein-gundersen/
 redirect_from:
-  - /directory/people/jostein-gundersen/
+- /directory/people/jostein-gundersen/
 ---
 

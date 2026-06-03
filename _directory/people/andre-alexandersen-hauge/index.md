@@ -76,6 +76,6 @@ source_mentions:
 summary: null
 permalink: /people/andre-alexandersen-hauge/
 redirect_from:
-  - /directory/people/andre-alexandersen-hauge/
+- /directory/people/andre-alexandersen-hauge/
 ---
 

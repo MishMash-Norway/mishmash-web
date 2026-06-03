@@ -90,6 +90,6 @@ source_mentions:
 summary: null
 permalink: /people/carsten-griwodz/
 redirect_from:
-  - /directory/people/carsten-griwodz/
+- /directory/people/carsten-griwodz/
 ---
 

@@ -29,6 +29,6 @@ source_mentions:
 summary: null
 permalink: /people/hege-stensrud-hosoien/
 redirect_from:
-  - /directory/people/hege-stensrud-hosoien/
+- /directory/people/hege-stensrud-hosoien/
 ---
 

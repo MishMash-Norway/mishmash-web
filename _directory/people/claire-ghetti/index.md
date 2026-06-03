@@ -76,6 +76,6 @@ source_mentions:
 summary: null
 permalink: /people/claire-ghetti/
 redirect_from:
-  - /directory/people/claire-ghetti/
+- /directory/people/claire-ghetti/
 ---
 

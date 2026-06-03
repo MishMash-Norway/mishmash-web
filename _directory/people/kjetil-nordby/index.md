@@ -71,6 +71,6 @@ source_mentions:
 summary: null
 permalink: /people/kjetil-nordby/
 redirect_from:
-  - /directory/people/kjetil-nordby/
+- /directory/people/kjetil-nordby/
 ---
 

@@ -69,6 +69,6 @@ source_mentions:
 summary: null
 permalink: /people/andreas-bergsland/
 redirect_from:
-  - /directory/people/andreas-bergsland/
+- /directory/people/andreas-bergsland/
 ---
 

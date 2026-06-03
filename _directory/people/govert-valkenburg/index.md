@@ -86,6 +86,6 @@ source_mentions:
 summary: null
 permalink: /people/govert-valkenburg/
 redirect_from:
-  - /directory/people/govert-valkenburg/
+- /directory/people/govert-valkenburg/
 ---
 

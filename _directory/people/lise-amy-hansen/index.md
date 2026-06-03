@@ -72,6 +72,6 @@ source_mentions:
 summary: null
 permalink: /people/lise-amy-hansen/
 redirect_from:
-  - /directory/people/lise-amy-hansen/
+- /directory/people/lise-amy-hansen/
 ---
 

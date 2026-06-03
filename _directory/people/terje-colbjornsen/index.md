@@ -73,6 +73,6 @@ source_mentions:
 summary: null
 permalink: /people/terje-colbjornsen/
 redirect_from:
-  - /directory/people/terje-colbjornsen/
+- /directory/people/terje-colbjornsen/
 ---
 

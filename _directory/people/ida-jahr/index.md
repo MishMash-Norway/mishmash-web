@@ -13,7 +13,7 @@ projects: []
 roles:
 - Deputy director
 urls:
-  website: https://www.inn.no/english/find-an-employee/ida-jahr.html
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0005-5622-0074
@@ -69,12 +69,9 @@ selected_works:
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/management/index.md
 - /home/alexanje/github/mishmash-web/no/about/organisation/management/index.md
-summary: Associate Professor of English Literature and Culture at the University of
-  Inland Norway. Deputy Director of the MishMash Centre for AI and Creativity. Head
-  of the MA programme Digital Communication and Culture. Research interests include
-  American history and culture, digital culture, and the medical humanities.
+summary: null
 permalink: /people/ida-jahr/
 redirect_from:
-  - /directory/people/ida-jahr/
+- /directory/people/ida-jahr/
 ---
 

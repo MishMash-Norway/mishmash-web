@@ -103,6 +103,6 @@ source_mentions:
 summary: null
 permalink: /people/sashi-komandur/
 redirect_from:
-  - /directory/people/sashi-komandur/
+- /directory/people/sashi-komandur/
 ---
 

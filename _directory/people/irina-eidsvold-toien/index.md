@@ -67,6 +67,6 @@ source_mentions:
 summary: null
 permalink: /people/irina-eidsvold-toien/
 redirect_from:
-  - /directory/people/irina-eidsvold-toien/
+- /directory/people/irina-eidsvold-toien/
 ---
 

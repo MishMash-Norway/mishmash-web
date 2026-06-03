@@ -70,6 +70,6 @@ source_mentions:
 summary: null
 permalink: /people/jonna-vuoskoski/
 redirect_from:
-  - /directory/people/jonna-vuoskoski/
+- /directory/people/jonna-vuoskoski/
 ---
 

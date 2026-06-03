@@ -460,11 +460,60 @@ a:focus-visible .icon {
 
 .nva-results-list {
   margin: 0;
-  padding-left: 1.25rem;
+  padding-left: 0;
+  list-style: none;
 }
 
 .nva-result-item + .nva-result-item {
   margin-top: 1.25rem;
+}
+
+.nva-result-citation {
+  margin: 0;
+  line-height: 1.55;
+}
+
+.nva-result-citation-title {
+  font-style: italic;
+}
+
+.nva-result-citation-links {
+  display: inline;
+  margin-left: 0.35rem;
+  white-space: nowrap;
+}
+
+.nva-result-citation-links a,
+.nva-result-summary-toggle {
+  margin-left: 0.45rem;
+}
+
+.nva-result-summary-toggle {
+  border: 0;
+  background: none;
+  padding: 0;
+  color: #1a6fb0;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: underline;
+}
+
+.nva-result-summary-toggle:hover,
+.nva-result-summary-toggle:focus-visible {
+  color: #0f4f82;
+}
+
+.nva-result-summary {
+  margin: 0.45rem 0 0;
+  padding: 0.65rem 0.85rem;
+  background: #f7f8fa;
+  border-left: 3px solid #d8dde3;
+  color: #444;
+  font-size: 0.92rem;
+}
+
+.nva-result-summary p {
+  margin: 0;
 }
 
 .nva-result-title {

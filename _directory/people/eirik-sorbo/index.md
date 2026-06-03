@@ -75,6 +75,6 @@ source_mentions:
 summary: null
 permalink: /people/eirik-sorbo/
 redirect_from:
-  - /directory/people/eirik-sorbo/
+- /directory/people/eirik-sorbo/
 ---
 

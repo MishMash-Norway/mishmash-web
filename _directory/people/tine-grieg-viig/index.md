@@ -72,6 +72,6 @@ source_mentions:
 summary: null
 permalink: /people/tine-grieg-viig/
 redirect_from:
-  - /directory/people/tine-grieg-viig/
+- /directory/people/tine-grieg-viig/
 ---
 

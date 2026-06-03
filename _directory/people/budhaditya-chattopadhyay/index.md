@@ -93,6 +93,6 @@ summary: 'Budhaditya Chattopadhyay is a multidisciplinary artist, researcher, an
   Artistic Processes, at the MishMash Centre for AI and Creativity.'
 permalink: /people/budhaditya-chattopadhyay/
 redirect_from:
-  - /directory/people/budhaditya-chattopadhyay/
+- /directory/people/budhaditya-chattopadhyay/
 ---
 

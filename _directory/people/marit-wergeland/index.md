@@ -61,6 +61,6 @@ source_mentions:
 summary: null
 permalink: /people/marit-wergeland/
 redirect_from:
-  - /directory/people/marit-wergeland/
+- /directory/people/marit-wergeland/
 ---
 

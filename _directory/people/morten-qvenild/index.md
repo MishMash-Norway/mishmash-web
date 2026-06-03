@@ -82,6 +82,6 @@ source_mentions:
 summary: null
 permalink: /people/morten-qvenild/
 redirect_from:
-  - /directory/people/morten-qvenild/
+- /directory/people/morten-qvenild/
 ---
 

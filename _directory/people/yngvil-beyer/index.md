@@ -67,6 +67,6 @@ source_mentions:
 summary: null
 permalink: /people/yngvil-beyer/
 redirect_from:
-  - /directory/people/yngvil-beyer/
+- /directory/people/yngvil-beyer/
 ---
 

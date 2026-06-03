@@ -71,6 +71,6 @@ source_mentions:
 summary: null
 permalink: /people/georgios-marentakis/
 redirect_from:
-  - /directory/people/georgios-marentakis/
+- /directory/people/georgios-marentakis/
 ---
 

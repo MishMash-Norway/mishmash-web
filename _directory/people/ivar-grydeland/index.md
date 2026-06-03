@@ -71,6 +71,6 @@ source_mentions:
 summary: null
 permalink: /people/ivar-grydeland/
 redirect_from:
-  - /directory/people/ivar-grydeland/
+- /directory/people/ivar-grydeland/
 ---
 

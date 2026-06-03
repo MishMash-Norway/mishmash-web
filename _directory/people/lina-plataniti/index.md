@@ -71,6 +71,6 @@ source_mentions:
 summary: null
 permalink: /people/lina-plataniti/
 redirect_from:
-  - /directory/people/lina-plataniti/
+- /directory/people/lina-plataniti/
 ---
 

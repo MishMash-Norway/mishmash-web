@@ -73,6 +73,6 @@ source_mentions:
 summary: null
 permalink: /people/ingrid-chieh-yu/
 redirect_from:
-  - /directory/people/ingrid-chieh-yu/
+- /directory/people/ingrid-chieh-yu/
 ---
 

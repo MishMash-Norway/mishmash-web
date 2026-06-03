@@ -35,6 +35,6 @@ source_mentions:
 summary: null
 permalink: /people/stig-mathisen/
 redirect_from:
-  - /directory/people/stig-mathisen/
+- /directory/people/stig-mathisen/
 ---
 

@@ -41,6 +41,6 @@ source_mentions:
 summary: null
 permalink: /people/ingrid-romarheim-haugen/
 redirect_from:
-  - /directory/people/ingrid-romarheim-haugen/
+- /directory/people/ingrid-romarheim-haugen/
 ---
 

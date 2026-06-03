@@ -69,6 +69,6 @@ source_mentions:
 summary: null
 permalink: /people/sidsel-karlsen/
 redirect_from:
-  - /directory/people/sidsel-karlsen/
+- /directory/people/sidsel-karlsen/
 ---
 

@@ -90,6 +90,6 @@ summary: 'Synne Tollerud Bull is a media artist, researcher, and Professor, curr
   combine proximity and distance within a single vi'
 permalink: /people/synne-tollerud-bull/
 redirect_from:
-  - /directory/people/synne-tollerud-bull/
+- /directory/people/synne-tollerud-bull/
 ---
 
