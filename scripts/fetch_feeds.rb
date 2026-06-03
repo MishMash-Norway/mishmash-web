@@ -6,8 +6,9 @@ require 'time'
 require 'fileutils'
 
 ROOT = File.expand_path('..', __dir__)
-FEEDS_FILE = File.join(ROOT, 'events', 'feeds.txt')
-OUT_DIR = File.join(ROOT, '_data')
+SITE_ROOT = File.join(ROOT, 'site')
+FEEDS_FILE = File.join(SITE_ROOT, 'events', 'feeds.txt')
+OUT_DIR = File.join(SITE_ROOT, '_data')
 OUT_FILE = File.join(OUT_DIR, 'other_events.yml')
 
 unless File.exist?(FEEDS_FILE)

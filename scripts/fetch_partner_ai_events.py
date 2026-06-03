@@ -30,7 +30,9 @@ from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 
 
-BASE_DIR = Path(__file__).resolve().parents[1]
+from repo_paths import SITE_ROOT
+
+BASE_DIR = SITE_ROOT
 INDEX_MD = BASE_DIR / "index.md"
 PARTNER_EVENTS_YML = BASE_DIR / "_data" / "partner_events.yml"
 

@@ -5,6 +5,8 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
+from repo_paths import SITE_ROOT
+
 TEXT_EXTS = {".md", ".mdx", ".html", ".htm", ".txt", ".yml", ".yaml", ".json"}
 EXCLUDE_DIRS = {
     ".git",
@@ -296,7 +298,7 @@ def write_entries(root: Path, mentions, overwrite: bool = False):
 
 def main():
     parser = argparse.ArgumentParser(description="Generate directory entries from current website content.")
-    parser.add_argument("--root", default=".", help="Repository root")
+    parser.add_argument("--root", default=str(SITE_ROOT), help="Jekyll site source directory")
     parser.add_argument("--overwrite", action="store_true", help="Overwrite existing index.md entries")
     args = parser.parse_args()
 

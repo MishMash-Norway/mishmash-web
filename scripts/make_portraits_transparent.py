@@ -3,6 +3,8 @@ import os
 
 from PIL import Image, ImageDraw
 
+from repo_paths import SITE_ROOT
+
 MAX_SIZE = 300
 
 
@@ -48,12 +50,8 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    input_folder = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "../assets/images/portraits/square")
-    )
-    output_folder = os.path.abspath(
-        os.path.join(os.path.dirname(__file__), "../assets/images/portraits/circle")
-    )
+    input_folder = os.path.join(SITE_ROOT, "assets/images/portraits/square")
+    output_folder = os.path.join(SITE_ROOT, "assets/images/portraits/circle")
     os.makedirs(output_folder, exist_ok=True)
 
     filenames = sorted(

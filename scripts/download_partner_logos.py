@@ -9,7 +9,9 @@ import sys
 import time
 from urllib import request, parse, error
 
-ROOT = os.path.dirname(os.path.dirname(__file__))
+from repo_paths import SITE_ROOT
+
+ROOT = str(SITE_ROOT)
 INDEX = os.path.join(ROOT, 'index.md')
 OUTDIR = os.path.join(ROOT, 'assets', 'images', 'logos', 'partners')
 

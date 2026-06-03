@@ -2,6 +2,8 @@
 
 This repository is the [MishMash](https://mishmash.no) website: a Jekyll site published on GitHub Pages, with Python scripts for syncing directory and research data from NVA and ORCID.
 
+**Layout:** the published site is built from [`site/`](site/). Tooling, config, and docs live at the repo root. Public URLs are unchanged.
+
 For day-to-day editing, see also the [README](README.md) and [scripts/README.md](scripts/README.md). Maintenance notes live in the [GitHub Wiki](https://github.com/MishMash-Norway/mishmash-web/wiki).
 
 ## Local setup
@@ -33,25 +35,25 @@ NVA credentials: see [config/README.md](config/README.md). **Never commit creden
 
 | Area | Location |
 | --- | --- |
-| Front page | `index.md`, `no/index.md` |
-| About pages | `about/`, `no/about/` |
-| Work packages | `wp1/` … `wp7/` |
-| News | `_news/` |
-| Events | `_events/` |
-| Partner events listing | `_data/partner_events.yml` |
-| Legal / info pages | `privacy/`, `accessibility/`, `no/privacy/`, `no/accessibility/` |
-| Results page intro | `results/index.md`, `no/results/index.md` |
-| UI strings (EN/NO) | `_data/translations.yml` |
-| Layouts, includes, CSS | `_layouts/`, `_includes/`, `assets/css/` |
-| Institutions | `_directory/institutions/` |
-| New people (structure) | `_directory/people/<slug>/index.md` from `_directory/people/_template/` |
+| Front page | `site/index.md`, `site/no/index.md` |
+| About pages | `site/about/`, `site/no/about/` |
+| Work packages | `site/wp1/` … `site/wp7/` |
+| News | `site/_news/` |
+| Events | `site/_events/` |
+| Partner events listing | `site/_data/partner_events.yml` |
+| Legal / info pages | `site/privacy/`, `site/accessibility/`, `site/no/privacy/`, `site/no/accessibility/` |
+| Results page intro | `site/results/index.md`, `site/no/results/index.md` |
+| UI strings (EN/NO) | `site/_data/translations.yml` |
+| Layouts, includes, CSS | `site/_layouts/`, `site/_includes/`, `site/assets/css/` |
+| Institutions | `site/_directory/institutions/` |
+| New people (structure) | `site/_directory/people/<slug>/index.md` from `site/_directory/people/_template/` |
 
 ### Generated or machine-updated (do not edit by hand unless you know why)
 
 | File / field | Updated by |
 | --- | --- |
-| `_data/mishmash_results.yml` | `scripts/sync_results_from_nva.py` (daily CI + manual) |
-| Person portraits in `assets/images/portraits/circle/` | NVA enrich script (daily CI) |
+| `site/_data/mishmash_results.yml` | `scripts/sync_results_from_nva.py` (daily CI + manual) |
+| Person portraits in `site/assets/images/portraits/circle/` | NVA enrich script (daily CI) |
 | Many person front-matter fields | `scripts/enrich_directory_from_nva.py` (daily CI) |
 
 ### Person profiles: what you can edit
@@ -70,15 +72,15 @@ These are **preserved** and intended for manual curation:
 - Other social URLs (`github`, `linkedin`, `youtube`, etc.)
 - Markdown body below the front matter (if present)
 
-To add a person: copy `_directory/people/_template/`, set `slug`, `name`, and at least `urls.nva` or `urls.orcid`. Run enrich locally or wait for the nightly workflow.
+To add a person: copy `site/_directory/people/_template/`, set `slug`, `name`, and at least `urls.nva` or `urls.orcid`. Run enrich locally or wait for the nightly workflow.
 
 ## Languages
 
 English pages live at the site root (`/about/`, `/results/`, …). Norwegian mirrors use `/no/…`.
 
 - Set `lang: nb` in Norwegian page front matter.
-- Link EN ↔ NO with `translation_url` (see `about/description/index.md`).
-- Shared labels use `_data/translations.yml` via `t.*` in layouts.
+- Link EN ↔ NO with `translation_url` (see `site/about/description/index.md`).
+- Shared labels use `site/_data/translations.yml` via `t.*` in layouts.
 
 Prefer absolute asset paths (`/assets/...`) in shared includes so both languages work.
 
@@ -86,7 +88,7 @@ Prefer absolute asset paths (`/assets/...`) in shared includes so both languages
 
 ### Add a news post or event
 
-Create a new file in `_news/` or `_events/` with YAML front matter (`title`, `date`, etc.). Use existing entries as examples.
+Create a new file in `site/_news/` or `site/_events/` with YAML front matter (`title`, `date`, etc.). Use existing entries as examples.
 
 ### Update research results
 
@@ -96,7 +98,7 @@ Results on `/results/` come from NVA project `2744839`. They refresh automatical
 python3 scripts/sync_results_from_nva.py
 ```
 
-Card layout and filters: `_includes/nva-results-list.html`, `assets/css/custom.css`.
+Card layout and filters: `site/_includes/nva-results-list.html`, `site/assets/css/custom.css`.
 
 ### Refresh people from NVA/ORCID
 
@@ -108,7 +110,7 @@ Useful flags: `--slug <slug>`, `--dry-run`, `--no-download-images`. See [scripts
 
 ### Internal (password-protected) pages
 
-Pages under `internal/` use layout `internal` and the hash in `_config.yml` (`internal_password_hash`). They are built with the public site but gated in the browser.
+Pages under `site/internal/` use layout `internal` and the hash in `_config.yml` (`internal_password_hash`). They are built with the public site but gated in the browser.
 
 ## Validation before opening a PR
 
@@ -147,7 +149,7 @@ python3 scripts/validate_directory.py
 5. Merge to `main`.
 6. [**Deploy Jekyll site to Pages**](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/pages.yml) publishes to mishmash.no.
 
-A separate scheduled workflow updates people and `_data/mishmash_results.yml` from NVA and may push directly to `main` (`.github/workflows/enrich-directory-people.yml`).
+A separate scheduled workflow updates people and `site/_data/mishmash_results.yml` from NVA and may push directly to `main` (`.github/workflows/enrich-directory-people.yml`).
 
 ## Secrets and files to never commit
 

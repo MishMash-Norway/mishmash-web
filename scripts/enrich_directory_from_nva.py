@@ -11,6 +11,7 @@ import yaml
 from PIL import Image, ImageDraw
 
 from nva_result_types import nva_publication_source
+from repo_paths import REPO_ROOT, SITE_ROOT
 
 
 class NoAliasDumper(yaml.SafeDumper):
@@ -52,7 +53,6 @@ NVA_AUTH_HOSTS = {
 }
 
 _nva_request_headers: dict[str, str] = {}
-REPO_ROOT = Path(__file__).resolve().parents[1]
 NVA_CREDENTIALS_DIR = REPO_ROOT / "config"
 
 
@@ -1192,7 +1192,7 @@ def main():
             "(not name/title). ORCID is used only if NVA is missing."
         )
     )
-    parser.add_argument("--root", default=".", help="Repository root")
+    parser.add_argument("--root", default=str(SITE_ROOT), help="Jekyll site source directory")
     parser.add_argument("--slug", action="append", help="Only process specific person slug (repeatable)")
     parser.add_argument(
         "--max-tags",

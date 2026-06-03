@@ -14,6 +14,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
+from repo_paths import SITE_ROOT  # noqa: E402
 from enrich_directory_from_nva import (  # noqa: E402
     CRISTIN_RE,
     NoAliasDumper,
@@ -38,7 +39,7 @@ from nva_result_types import (  # noqa: E402
 )
 
 MISHMASH_NVA_PROJECT_ID = "2744839"
-DEFAULT_OUTPUT = ROOT / "_data" / "mishmash_results.yml"
+DEFAULT_OUTPUT = SITE_ROOT / "_data" / "mishmash_results.yml"
 PAGE_SIZE = 100
 
 
@@ -473,7 +474,7 @@ def sync_results(root: Path, project_id: str, output: Path) -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sync MishMash NVA project results into _data/mishmash_results.yml.")
-    parser.add_argument("--root", default=str(ROOT), help="Repository root")
+    parser.add_argument("--root", default=str(SITE_ROOT), help="Jekyll site source directory")
     parser.add_argument("--project-id", default=MISHMASH_NVA_PROJECT_ID, help="NVA Cristin project ID")
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT), help="Output YAML path")
     args = parser.parse_args()

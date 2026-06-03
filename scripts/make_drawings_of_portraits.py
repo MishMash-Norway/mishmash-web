@@ -1,8 +1,12 @@
 import os
 from PIL import Image, ImageFilter, ImageOps
 
-input_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../assets/images/portraits/circle'))
-output_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../assets/images/portraits/circle_drawing'))
+import os
+
+from repo_paths import SITE_ROOT
+
+input_folder = os.path.join(SITE_ROOT, 'assets/images/portraits/circle')
+output_folder = os.path.join(SITE_ROOT, 'assets/images/portraits/circle_drawing')
 os.makedirs(output_folder, exist_ok=True)
 
 def pencil_sketch(img):

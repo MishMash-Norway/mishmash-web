@@ -18,7 +18,9 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-YAML_PATH = os.path.join(os.path.dirname(__file__), "..", "_data", "partner_events.yml")
+from repo_paths import SITE_ROOT
+
+YAML_PATH = str(SITE_ROOT / "_data" / "partner_events.yml")
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; mishmash-web-bot/1.0)"}
 TIMEOUT = 15
 

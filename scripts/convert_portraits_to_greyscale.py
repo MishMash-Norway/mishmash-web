@@ -1,5 +1,8 @@
 import os
+
 from PIL import Image
+
+from repo_paths import SITE_ROOT
 
 def convert_folder_to_greyscale(input_folder, output_folder, preserve_transparency=False):
     os.makedirs(output_folder, exist_ok=True)
@@ -20,7 +23,7 @@ def convert_folder_to_greyscale(input_folder, output_folder, preserve_transparen
             img.save(out_path)
             print(f"Saved: {out_path}")
 
-base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../assets/images/portraits'))
+base_dir = os.path.join(SITE_ROOT, 'assets/images/portraits')
 folders = ['square', 'circle']
 
 for folder in folders:

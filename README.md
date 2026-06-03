@@ -7,6 +7,8 @@ This is the source code for the web page of [MishMash Centre for AI and Creativi
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for what to edit, generated files, sync scripts, and the PR/deploy workflow.
 
+The Jekyll site source lives in [`site/`](site/). URLs are unchanged.
+
 ## Maintain The Website
 
 ### 1) Local setup
@@ -35,15 +37,17 @@ Site will be available at `http://127.0.0.1:4000`.
 
 ### 2) Where to edit content
 
-- Front page content: `index.md`
-- About pages: `about/` and `no/about/`
-- News posts: `_news/`
-- Events: `_events/`
+All site content is under `site/`:
+
+- Front page content: `site/index.md`
+- About pages: `site/about/` and `site/no/about/`
+- News posts: `site/_news/`
+- Events: `site/_events/`
 - Directory entries:
-  - people: `_directory/people/`
-  - institutions: `_directory/institutions/`
-  - projects: `_directory/projects/`
-- Shared translations and event data: `_data/`
+  - people: `site/_directory/people/`
+  - institutions: `site/_directory/institutions/`
+  - projects: `site/_directory/projects/`
+- Shared translations and event data: `site/_data/`
 
 ### 3) Validation before push
 

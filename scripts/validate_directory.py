@@ -4,6 +4,8 @@ import re
 import sys
 from pathlib import Path
 
+from repo_paths import SITE_ROOT
+
 SECTIONS = ("people", "institutions", "projects")
 TYPE_BY_SECTION = {
     "people": "person",
@@ -82,7 +84,7 @@ def normalize_list(v):
 
 def main():
     parser = argparse.ArgumentParser(description="Validate directory people/institutions/projects entries.")
-    parser.add_argument("--root", default=".", help="Repository root")
+    parser.add_argument("--root", default=str(SITE_ROOT), help="Jekyll site source directory")
     args = parser.parse_args()
 
     root = Path(args.root).resolve()

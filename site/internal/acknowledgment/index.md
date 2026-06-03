@@ -21,4 +21,4 @@ For researchers reporting using NVA (the Norwegian Research Information Reposito
 
 ## Using the visual profile
 
-Feel free to use MishMash's [visual profile elements](https://github.com/MishMash-Norway/mishmash-web/tree/main/assets/images) if you like, including the [bubble emblem](https://github.com/MishMash-Norway/mishmash-web/blob/main/assets/images/bubbles/mishmash_bubbles1_notext.svg). Again, since MishMash is it not a formal organization, these elements are considered *emblems*. You should use them together with your institutional *logo*.
+Feel free to use MishMash's [visual profile elements](https://github.com/MishMash-Norway/mishmash-web/tree/main/site/assets/images) if you like, including the [bubble emblem](https://github.com/MishMash-Norway/mishmash-web/blob/main/site/assets/images/bubbles/mishmash_bubbles1_notext.svg). Again, since MishMash is it not a formal organization, these elements are considered *emblems*. You should use them together with your institutional *logo*.

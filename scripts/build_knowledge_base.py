@@ -264,7 +264,11 @@ def build(root_dir='.'):
 
 
 if __name__ == '__main__':
-    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    import os
+
+    from repo_paths import SITE_ROOT
+
+    root = str(SITE_ROOT)
     print(f"Root: {root}\n")
 
     kb = build(root)

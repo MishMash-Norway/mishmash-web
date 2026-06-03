@@ -6,7 +6,7 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
-WP_LEADERS_FILE = "about/organisation/wp-leaders/index.md"
+from repo_paths import SITE_ROOT
 BOARD_FILE = "about/organisation/board/index.md"
 COUNCIL_FILE = "about/organisation/council/index.md"
 PORTRAITS_CIRCLE_DIR = "assets/images/portraits/circle"
@@ -324,7 +324,7 @@ def write_directory(root: Path, persons: dict):
 
 def main():
     parser = argparse.ArgumentParser(description="Generate people and institutions from WP leaders, board, and council.")
-    parser.add_argument("--root", default=".", help="Repository root")
+    parser.add_argument("--root", default=str(SITE_ROOT), help="Jekyll site source directory")
     parser.add_argument("--reset", action="store_true", help="Remove existing people/institutions entries before writing")
     args = parser.parse_args()
 

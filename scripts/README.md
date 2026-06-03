@@ -14,7 +14,13 @@ pip install -r scripts/requirements.txt
 1. Run against a single page:
 
 ```bash
-python3 scripts/fetch_uio_events.py "https://www.uio.no/.../deichman/index.html" --out-dir _events
+python3 scripts/fetch_uio_events.py "https://www.uio.no/.../deichman/index.html"
+```
+
+Paths default to `site/` (see `scripts/repo_paths.py`). To write elsewhere:
+
+```bash
+python3 scripts/fetch_uio_events.py "https://www.uio.no/.../deichman/index.html" --out-dir site/_events
 ```
 
 1. Or provide a file with one URL per line:
@@ -28,9 +34,9 @@ The script emits either JSON to stdout (`--json`) or writes Jekyll-style markdow
 Fetch AI-focused partner events
 -------------------------------
 
-This script scans partner links listed in `index.md`, discovers likely event pages,
+This script scans partner links listed in `site/index.md`, discovers likely event pages,
 extracts event candidates, filters for AI-focused events, and appends new items to
-`_data/partner_events.yml`.
+`site/_data/partner_events.yml`.
 
 Quick start:
 
@@ -56,12 +62,12 @@ Useful flags:
 
 - `--max-pages-per-partner 4` limits crawl depth per partner site.
 - `--max-partners 40` limits total partners scanned.
-- `--output _data/partner_events.yml` writes to a custom destination file.
+- `--output site/_data/partner_events.yml` writes to a custom destination file.
 
 Update directory people from NVA and ORCID
 ------------------------------------------
 
-This script refreshes `_directory/people/*/index.md` from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/). When a person has `urls.nva`, **NVA overwrites** synced fields: affiliation (`institution`, `institutions` from **active** affiliations only, `department` for the primary unit), tags, bio, publications, website, and portrait. Inactive NVA affiliations are ignored. `name` and `title` are never changed.
+This script refreshes `site/_directory/people/*/index.md` from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/). When a person has `urls.nva`, **NVA overwrites** synced fields: affiliation (`institution`, `institutions` from **active** affiliations only, `department` for the primary unit), tags, bio, publications, website, and portrait. Inactive NVA affiliations are ignored. `name` and `title` are never changed.
 
 Updated fields:
 
@@ -71,7 +77,7 @@ Updated fields:
 - Portrait (`image`, downloaded from NVA when available)
 - Recent publications (`selected_works`, up to 10)
 
-A GitHub Actions workflow runs this once per day (`.github/workflows/enrich-directory-people.yml`), including a sync of MishMash project results to `_data/mishmash_results.yml` for `/results/`.
+A GitHub Actions workflow runs this once per day (`.github/workflows/enrich-directory-people.yml`), including a sync of MishMash project results to `site/_data/mishmash_results.yml` for `/results/`.
 
 ### NVA API access (UiO / MishMash)
 

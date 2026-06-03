@@ -25,7 +25,9 @@ import feedparser
 import requests
 
 
-BASE_DIR = Path(__file__).resolve().parents[1]
+from repo_paths import SITE_ROOT
+
+BASE_DIR = SITE_ROOT
 EVENTS_DIR = BASE_DIR / "_events"
 
 
