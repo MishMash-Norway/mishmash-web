@@ -1,0 +1,20 @@
+{% assign lang = page.lang | default: 'en' %}
+{% assign t = site.data.translations[lang] %}
+<script>
+(function () {
+  'use strict';
+
+  document.querySelectorAll('.nva-result-expand').forEach(function (button) {
+    button.addEventListener('click', function () {
+      const target = document.getElementById(button.getAttribute('aria-controls') || '');
+      const block = button.closest('.nva-result-summary-block');
+      if (!target || !block) return;
+      const expanded = button.getAttribute('aria-expanded') === 'true';
+      target.classList.toggle('is-clamped', expanded);
+      block.classList.toggle('is-expanded', !expanded);
+      button.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      button.textContent = expanded ? {{ t.results_show_more | jsonify }} : {{ t.results_show_less | jsonify }};
+    });
+  });
+})();
+</script>

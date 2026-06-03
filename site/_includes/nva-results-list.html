@@ -34,48 +34,8 @@
       <h2 class="nva-results-group-title" id="nva-results-type-{{ type_slug }}">{{ type_name }}</h2>
       <ol class="nva-results-list">
         {% for result in sorted_items %}
-        {% assign cite = result.citation %}
-        {% assign result_url = result.url | default: cite.nva_url | default: result.nva_url %}
-        {% assign type_label = result.type_label | default: result.type %}
-        <li class="nva-result-item">
-          <article class="nva-result-card">
-            <p class="nva-result-kind">
-              {{ type_label }}{% if result.year %}, {{ result.year }}{% endif %}
-            </p>
-
-            <h3 class="nva-result-title">
-              {% if result_url %}
-              <a href="{{ result_url }}" target="_blank" rel="noopener noreferrer">{{ result.title }}</a>
-              {% else %}
-              {{ result.title }}
-              {% endif %}
-            </h3>
-
-            {% if result.contributors and result.contributors.size > 0 %}
-            <p class="nva-result-authors">
-              {% for contributor in result.contributors %}
-                {% if contributor.url %}
-                <a href="{{ contributor.url | relative_url }}">{{ contributor.name }}</a>{% unless forloop.last %}; {% endunless %}
-                {% else %}
-                {{ contributor.name }}{% unless forloop.last %}; {% endunless %}
-                {% endif %}
-              {% endfor %}
-            </p>
-            {% endif %}
-
-            {% if cite.abstract %}
-            <div class="nva-result-summary-block{% if cite.abstract.size > 280 %} is-collapsible{% endif %}">
-              <p class="nva-result-abstract{% if cite.abstract.size > 280 %} is-clamped{% endif %}" id="abstract-{{ type_slug }}-{{ forloop.index }}">{{ cite.abstract }}</p>
-              {% if cite.abstract.size > 280 %}
-              <button type="button" class="nva-result-expand" aria-expanded="false" aria-controls="abstract-{{ type_slug }}-{{ forloop.index }}">
-                {{ t.results_show_more }}
-              </button>
-              {% endif %}
-            </div>
-            {% endif %}
-
-          </article>
-        </li>
+        {% assign card_id = 'abstract-' | append: type_slug | append: '-' | append: forloop.index %}
+        {% include nva-result-card.html result=result card_id=card_id %}
         {% endfor %}
       </ol>
     </section>
@@ -133,22 +93,10 @@
     });
   });
 
-  document.querySelectorAll('.nva-result-expand').forEach(function (button) {
-    button.addEventListener('click', function () {
-      const target = document.getElementById(button.getAttribute('aria-controls') || '');
-      const block = button.closest('.nva-result-summary-block');
-      if (!target || !block) return;
-      const expanded = button.getAttribute('aria-expanded') === 'true';
-      target.classList.toggle('is-clamped', expanded);
-      block.classList.toggle('is-expanded', !expanded);
-      button.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-      button.textContent = expanded ? {{ t.results_show_more | jsonify }} : {{ t.results_show_less | jsonify }};
-    });
-  });
-
   applyFilter('all');
 })();
 </script>
+{% include nva-results-expand-script.html %}
 {% else %}
 <p>{{ t.results_empty }}</p>
 {% endif %}

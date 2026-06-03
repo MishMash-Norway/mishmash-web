@@ -94,11 +94,13 @@ GROUP_TYPE_LABELS: dict[str, str] = {
     "AcademicArticle": "Journal article",
     "JournalArticle": "Journal article",
     "AcademicChapter": "Book chapter",
+    "ChapterInReport": "Book chapter",
     "ConferenceAbstract": "Conference",
     "ConferenceLecture": "Conference",
     "ConferencePoster": "Conference",
     "ConferenceReport": "Conference",
-    "OtherPresentation": "Presentation",
+    "Lecture": "Lecture",
+    "OtherPresentation": "Lecture",
 }
 
 

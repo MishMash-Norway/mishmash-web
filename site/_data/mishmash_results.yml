@@ -242,7 +242,7 @@ results:
   year: '2025'
   type: ChapterInReport
   type_label: Chapter in report
-  group_type: Chapter in report
+  group_type: Book chapter
   contributors:
   - name: Michael Francis Duch
   - name: Alexander Eriksson Furunes
@@ -2284,7 +2284,7 @@ results:
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2331,7 +2331,7 @@ results:
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2358,7 +2358,7 @@ results:
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Silje Midtlien Sigurdsen
   - name: Camila Urrego
@@ -2408,7 +2408,7 @@ results:
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2435,7 +2435,7 @@ results:
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
@@ -2491,7 +2491,7 @@ results:
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
@@ -2525,7 +2525,7 @@ results:
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2555,7 +2555,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2598,7 +2598,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Fredrik Graver
     slug: fredrik-graver
@@ -2626,7 +2626,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Fredrik Graver
     slug: fredrik-graver
@@ -2653,7 +2653,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Per Snaprud
   - name: Alexander Refsum Jensenius
@@ -2738,7 +2738,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2787,7 +2787,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Diana Saplacan Lindblom
   institutions:
@@ -2812,7 +2812,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2839,7 +2839,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2866,7 +2866,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2899,7 +2899,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2926,7 +2926,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2953,7 +2953,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -2980,7 +2980,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Fredrik Graver
     slug: fredrik-graver
@@ -3009,7 +3009,7 @@ results:
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
-  group_type: Presentation
+  group_type: Lecture
   contributors:
   - name: Fredrik Graver
     slug: fredrik-graver

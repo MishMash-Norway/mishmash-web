@@ -1,0 +1,58 @@
+{% assign lang = page.lang | default: 'en' %}
+{% assign t = site.data.translations[lang] %}
+{% if include.result %}
+  {% assign cite = include.result.citation %}
+  {% assign result_url = include.result.url | default: cite.nva_url | default: include.result.nva_url %}
+  {% assign type_label = include.result.type_label | default: include.result.type %}
+  {% assign result_year = include.result.year %}
+  {% assign result_title = include.result.title %}
+  {% assign contributors = include.result.contributors %}
+  {% assign abstract = cite.abstract %}
+{% else %}
+  {% assign result_url = include.work.url %}
+  {% assign type_label = include.work.source %}
+  {% assign result_year = include.work.year %}
+  {% assign result_title = include.work.title %}
+  {% assign contributors = nil %}
+  {% assign abstract = nil %}
+{% endif %}
+<li class="nva-result-item">
+  <article class="nva-result-card">
+    {% if type_label or result_year %}
+    <p class="nva-result-kind">
+      {{ type_label }}{% if type_label and result_year %}, {% endif %}{% if result_year %}{{ result_year }}{% endif %}
+    </p>
+    {% endif %}
+
+    <h3 class="nva-result-title">
+      {% if result_url %}
+      <a href="{{ result_url }}" target="_blank" rel="noopener noreferrer">{{ result_title }}</a>
+      {% else %}
+      {{ result_title }}
+      {% endif %}
+    </h3>
+
+    {% if contributors and contributors.size > 0 %}
+    <p class="nva-result-authors">
+      {% for contributor in contributors %}
+        {% if contributor.url %}
+        <a href="{{ contributor.url | relative_url }}">{{ contributor.name }}</a>{% unless forloop.last %}; {% endunless %}
+        {% else %}
+        {{ contributor.name }}{% unless forloop.last %}; {% endunless %}
+        {% endif %}
+      {% endfor %}
+    </p>
+    {% endif %}
+
+    {% if abstract %}
+    <div class="nva-result-summary-block{% if abstract.size > 280 %} is-collapsible{% endif %}">
+      <p class="nva-result-abstract{% if abstract.size > 280 %} is-clamped{% endif %}" id="{{ include.card_id }}">{{ abstract }}</p>
+      {% if abstract.size > 280 %}
+      <button type="button" class="nva-result-expand" aria-expanded="false" aria-controls="{{ include.card_id }}">
+        {{ t.results_show_more }}
+      </button>
+      {% endif %}
+    </div>
+    {% endif %}
+  </article>
+</li>
