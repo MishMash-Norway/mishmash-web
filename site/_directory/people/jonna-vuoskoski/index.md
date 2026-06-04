@@ -16,16 +16,35 @@ urls:
   website: http://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0000-0003-0049-4373
   nva: https://nva.sikt.no/research-profile/891152
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Empathy
+- Social cognition
+- Emotions
+- Music psychology
+- Cognitive psychology
+- Cognitive neuroscience
+- Music Cognition
+search_keywords:
+- Empathy
+- Social cognition
+- Emotions
+- Music psychology
+- Cognitive psychology
+- Cognitive neuroscience
+- Music Cognition
 selected_works:
+- title: 'Experiences of awe and being moved evoked by music: Exploring elicitors
+    and socio-affective and behavioural correlates'
+  year: '2026'
+  source: Conference lecture
+  url: https://iaea-jena2026.org/wp-content/uploads/2026/04/IAEA26_AllAbstracts_Final.pdf
 - title: Domain-specific perception of emotional intensity in brief musical and vocal
     expressions
   year: '2026'
@@ -35,6 +54,11 @@ selected_works:
   year: '2026'
   source: Interview
   url: https://www.wn.de/muenster/kultur/luminiscence-interview-musikpsychologin-emotionen-3470903?pid=true&ueg=default
+- title: 'The social dimension of music listening: Empathy and the experience of feeling
+    moved'
+  year: '2025'
+  source: Book chapter
+  url: https://doi.org/10.5040/9781350409552.0024
 - title: Brain Responses to Musical Emotions in Autism
   year: '2025'
   source: Conference poster
@@ -45,29 +69,28 @@ selected_works:
     in response to music
   year: '2025'
   source: Conference poster
-- title: 'Dimensions of music use motivations: Genetic and environmental underpinnings,
-    and associations with Big Five and Empathy traits'
-  year: '2025'
+- title: 'Audience Musical Absorption: Exploring Attention and Affect in the Live
+    Concert Setting'
+  year: '2024'
   source: Journal article
-  url: https://doi.org/10.1371/journal.pone.0329808
-- title: Are human voices special in the way we attend to them?
+  url: https://doi.org/10.1177/20592043241263461
+- title: Does fantasy empathy predict the attribution of virtual agency to music?
   year: '2024'
-  source: Conference poster
-- title: Being Musically Moved
-  year: '2024'
-  source: Conference lecture
-- title: 'The attribution of virtual agency to music: Investigating the contributions
-    of trait fantasy and enjoyment'
-  year: '2024'
-  source: Conference lecture
-- title: The influence of musical parameters and subjective musical ratings on perceptions
-    of culture
-  year: '2023'
   source: Journal article
-  url: https://www.osf.io/a3npz/
+  url: https://doi.org/10.1177/10298649241258745
+- title: 'The Aversive Musical Experience Scale (AMES): Measuring individual differences
+    in the intensity of music-evoked aversion'
+  year: '2024'
+  source: Journal article
+  url: https://doi.org/10.1177/03057356241239336
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
-summary: null
+summary: I am Professor of Music Cognition at the Department of Musicology and the
+  Department of Psychology (University of Oslo), and part of the leader group at the
+  RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, where I lead
+  the Interaction & Pleasure research cluster. I am also a co-leader of work-package
+  3 (Creative use of AI for health and well-being) at the MishMash Centre for AI and
+  Creativity.
 permalink: /people/jonna-vuoskoski/
 redirect_from:
 - /directory/people/jonna-vuoskoski/

@@ -1,4 +1,4 @@
-synced_at: '2026-06-03T21:05:18Z'
+synced_at: '2026-06-04T08:48:02Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -191,6 +191,49 @@ results:
     nva_url: https://nva.sikt.no/publication/019dcbdd03cc-ac973a05-556a-4ddf-8718-6c074883f8c4
   url: https://doi.org/10.4324/9781003430599-20
   nva_url: https://nva.sikt.no/publication/019dcbdd03cc-ac973a05-556a-4ddf-8718-6c074883f8c4
+- title: Kunstnerisk forskning for en kompleks verden
+  year: '2025'
+  type: ChapterInReport
+  type_label: Chapter in report
+  group_type: Book chapter
+  contributors:
+  - name: Michael Francis Duch
+  - name: Alexander Eriksson Furunes
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Cecilie Sachs Olsen
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Norwegian University of Science and Technology
+    slug: norwegian-university-of-science-and-technology
+    url: /institutions/norwegian-university-of-science-and-technology/
+  citation:
+    authors:
+    - display: Duch, Michael Francis
+      name: Michael Francis Duch
+    - display: Furunes, Alexander Eriksson
+      name: Alexander Eriksson Furunes
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Olsen, Cecilie Sachs
+      name: Cecilie Sachs Olsen
+    title: Kunstnerisk forskning for en kompleks verden
+    container: ''
+    details: Akademiet for yngre forskere. p. 90–92.
+    abstract: 'Kunstfagene spiller en viktig rolle i å utvide måten vi jobber med
+      og forstår komplekse samfunnsproblemer. Likevel blir kunstfagene stadig oversett
+      og nedprioritert i forskningspolitikken. Vi spør derfor: hva er, bør og kan
+      kunstens rolle være i det norske forskningslandskapet?'
+    full_text_url: https://hdl.handle.net/11250/5317572
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019a64f85829-bc3fcdfe-c287-4aea-b695-73f9cb14a14b
+  url: https://akademietforyngreforskere.no/wp-content/uploads/2025/11/Jubileumsbok-digital-3.pdf
+  nva_url: https://nva.sikt.no/publication/019a64f85829-bc3fcdfe-c287-4aea-b695-73f9cb14a14b
 - title: 'Pixasonics: An Image Sonification Toolbox for Python'
   year: '2025'
   type: AcademicChapter
@@ -238,49 +281,6 @@ results:
     nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
-- title: Kunstnerisk forskning for en kompleks verden
-  year: '2025'
-  type: ChapterInReport
-  type_label: Chapter in report
-  group_type: Book chapter
-  contributors:
-  - name: Michael Francis Duch
-  - name: Alexander Eriksson Furunes
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Cecilie Sachs Olsen
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  - name: Norwegian University of Science and Technology
-    slug: norwegian-university-of-science-and-technology
-    url: /institutions/norwegian-university-of-science-and-technology/
-  citation:
-    authors:
-    - display: Duch, Michael Francis
-      name: Michael Francis Duch
-    - display: Furunes, Alexander Eriksson
-      name: Alexander Eriksson Furunes
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    - display: Olsen, Cecilie Sachs
-      name: Cecilie Sachs Olsen
-    title: Kunstnerisk forskning for en kompleks verden
-    container: ''
-    details: Akademiet for yngre forskere. p. 90–92.
-    abstract: 'Kunstfagene spiller en viktig rolle i å utvide måten vi jobber med
-      og forstår komplekse samfunnsproblemer. Likevel blir kunstfagene stadig oversett
-      og nedprioritert i forskningspolitikken. Vi spør derfor: hva er, bør og kan
-      kunstens rolle være i det norske forskningslandskapet?'
-    full_text_url: https://hdl.handle.net/11250/5317572
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019a64f85829-bc3fcdfe-c287-4aea-b695-73f9cb14a14b
-  url: https://akademietforyngreforskere.no/wp-content/uploads/2025/11/Jubileumsbok-digital-3.pdf
-  nva_url: https://nva.sikt.no/publication/019a64f85829-bc3fcdfe-c287-4aea-b695-73f9cb14a14b
 - title: Bodies in Motion in the Concert Hall and Beyond
   year: '2026'
   type: ConferenceLecture
@@ -335,7 +335,10 @@ results:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
-  institutions: []
+  institutions:
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
   citation:
     authors:
     - display: Bull, Synne Tollerud
@@ -402,7 +405,10 @@ results:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
-  institutions: []
+  institutions:
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
   citation:
     authors:
     - display: Bull, Synne Tollerud
@@ -899,6 +905,157 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: Building intersectional Cultural Ecosystems & Institutions for the Future
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Jesper Mardahl
+  - name: Simon Kimmel
+  - name: Martin Eyerer
+  - name: Roland Sillmann
+  - name: Philipp Grefer
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Mardahl, Jesper
+      name: Jesper Mardahl
+    - display: Kimmel, Simon
+      name: Simon Kimmel
+    - display: Eyerer, Martin
+      name: Martin Eyerer
+    - display: Sillmann, Roland
+      name: Roland Sillmann
+    - display: Grefer, Philipp
+      name: Philipp Grefer
+    title: Building intersectional Cultural Ecosystems & Institutions for the Future
+    container: WISE x House Of Nordic Visions.
+    details: Berlin.
+    abstract: Future-facing cultural ecosystems require new forms of collaboration
+      across public, private, and civic actors. This panel examines best practices
+      in building intersectional institutions and clusters that integrate diverse
+      disciplines, and leaders from art, music, science, policy, to communities, and
+      funding models.
+    full_text_url: https://hdl.handle.net/11250/5523908
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019e7fb15492-102757ea-b56a-4dc6-8734-56dac427fdc3
+  url: https://www.wisenotwise.com/wise2026program
+  nva_url: https://nva.sikt.no/publication/019e7fb15492-102757ea-b56a-4dc6-8734-56dac427fdc3
+- title: Tverrfaglighet i forskning (og utdanning)
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Tverrfaglighet i forskning (og utdanning)
+    container: UHR Humaniora og Samfunnsvitenskap.
+    details: Kristiansand.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5518050
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019e45845336-b864a8b3-cf7c-458c-8385-6c3d8766059b
+  nva_url: https://nva.sikt.no/publication/019e45845336-b864a8b3-cf7c-458c-8385-6c3d8766059b
+- title: Mellom menneske og maskin
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Silje Midtlien Sigurdsen
+  - name: Camila Urrego
+  - name: Gunnar Gabriel Gjermundsen
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Sigurdsen, Silje Midtlien
+      name: Silje Midtlien Sigurdsen
+    - display: Urrego, Camila
+      name: Camila Urrego
+    - display: Gjermundsen, Gunnar Gabriel
+      name: Gunnar Gabriel Gjermundsen
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Mellom menneske og maskin
+    container: Panelsamtale.
+    details: Oslo.
+    abstract: 'Hva skjer med vår opplevelse av virkelighet, kropp, natur og kreativitet
+      når grensene mellom det menneskelige og det syntetiske blir mer flytende?
+
+
+      Samtalen har ikke til hensikt å konkludere om kunstig intelligens er bra eller
+      dårlig for kunsten. Sammen skal vi heller undersøke hva som skjer med oss som
+      skapende mennesker, som publikum, og kanskje også som naturvesener, når teknologien
+      begynner å produsere bilder, idéer og identiteter som tidligere bare kom fra
+      menneskelig erfaring.
+
+
+      Fotografiens Hus ønsker velkommen til en samtale som trekker på kunst, økologi
+      og filosofi for å undersøke hvordan kunstig intelligens påvirker hvordan vi
+      skaper, sanser og møter verden rundt oss på.'
+    full_text_url: https://hdl.handle.net/11250/5517036
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019e32c7e996-3b1abd75-32c5-410a-8cd6-833319d55756
+  url: https://fotografiens-hus.no/samtale-mellom-menneske-og-maskin/
+  nva_url: https://nva.sikt.no/publication/019e32c7e996-3b1abd75-32c5-410a-8cd6-833319d55756
+- title: Sang og KI
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Sang og KI
+    container: Strategiseminar.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5514414
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019dfe980ca5-56907564-ed5d-4548-9576-656c8a18419a
+  nva_url: https://nva.sikt.no/publication/019dfe980ca5-56907564-ed5d-4548-9576-656c8a18419a
 - title: Auditory Situationism and Unmedia
   year: '2026'
   type: Lecture
@@ -932,6 +1089,102 @@ results:
     nva_url: https://nva.sikt.no/publication/019dcbe84d33-c303c87c-49b8-4bdb-9d80-1927582f9afe
   url: https://artacademycalendar.khio.no/open-forum/budhaditya-chattopadhyay-auditory-situationism-and-unmedia
   nva_url: https://nva.sikt.no/publication/019dcbe84d33-c303c87c-49b8-4bdb-9d80-1927582f9afe
+- title: 'Design Agentics :: Creative R&D x AI'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Ida Jahr
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  - name: Enrique Encinas
+  - name: Hedda Foss Lilleng
+  - name: Lene Renneflott
+  institutions:
+  - name: Oslo School of Architecture and Design
+    slug: oslo-school-of-architecture-and-design
+    url: /institutions/oslo-school-of-architecture-and-design/
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    - display: Encinas, Enrique
+      name: Enrique Encinas
+    - display: Lilleng, Hedda Foss
+      name: Hedda Foss Lilleng
+    - display: Renneflott, Lene
+      name: Lene Renneflott
+    title: 'Design Agentics :: Creative R&D x AI'
+    container: 'Design Agentics :: Creative R&D x AI.'
+    details: Grafills hus Møllergata 39, 0179 Oslo.
+    abstract: 'Arrangementet Design Agentics: Creative R&D x AI undersøker kunstig
+      intelligens som en integrert del av design- og kunstpraksis, ikke bare som verktøy,
+      men som infrastrukturell og agentisk aktør. Gjennom en studentpresentasjon av
+      egenutviklede AI-baserte verktøy og en påfølgende panel- og rundebordsdiskusjon
+      med forskere og bransjeaktører, tematiserer arrangementet hvordan kreative praktikere
+      kan forholde seg kritisk og operativt til eksisterende AI-systemer. Fokus ligger
+      på spørsmål om handlingsrom, makt og design i møte med ferdigdefinerte teknologiske
+      infrastrukturer, samt muligheter for å omforme, tilpasse eller motsette seg
+      disse. Arrangementet avsluttes med lanseringen av forskningsgruppen CRAITR ved
+      AHO.'
+    full_text_url: https://hdl.handle.net/11250/5510479
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019dc37da862-8dad0484-5d39-4e81-b014-c38f3af96941
+  url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
+  nva_url: https://nva.sikt.no/publication/019dc37da862-8dad0484-5d39-4e81-b014-c38f3af96941
+- title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  institutions:
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
+    container: 'Konferanse: Strategisk framsyn i det norske kulturfeltet.'
+    details: Deichman Bjørvika og Digitalt arrangement.
+    abstract: Panelsamtalen «Risiko og motstandskraft i kulturens infrastruktur –
+      det neste tiåret» samlet Camara Lundestad Joof (Dramatikkens hus), Kirsti Mathiesen
+      Hjemdahl (Cultiva), Sveinung Rudjord Unneland (Den uferdige institusjonen),
+      Øystein Strand (Kulturdirektoratet) og Synne Tollerud Bull (Høyskolen Kristiania),
+      moderert av Hild Borchgrevink. Samtalen tok utgangspunkt i hvordan kultur i
+      økende grad formes av infrastrukturer, systemer og distribusjonslogikker, og
+      drøftet risiko og handlingsrom i møte med plattformbaserte medieformer. Det
+      ble særlig lagt vekt på behovet for å utvikle robuste og fleksible kulturinfrastrukturer,
+      samt rollen til offentlig finansierte institusjoner og høyere kunstutdanning
+      i å legge til rette for eksperimentering, kunnskapsutvikling og langsiktig motstandskraft.
+    full_text_url: https://hdl.handle.net/11250/5509790
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019db9aba304-1cb12c80-5618-476a-8f7a-5d2b54f6d6b5
+  url: https://www.kulturdirektoratet.no/kalender/konferanse-strategisk-framsyn-i-det-norske-kulturfeltet
+  nva_url: https://nva.sikt.no/publication/019db9aba304-1cb12c80-5618-476a-8f7a-5d2b54f6d6b5
 - title: Kunstnerisk intelligens
   year: '2026'
   type: Lecture
@@ -941,7 +1194,10 @@ results:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
-  institutions: []
+  institutions:
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
   citation:
     authors:
     - display: Bull, Synne Tollerud
@@ -965,6 +1221,36 @@ results:
     nva_url: https://nva.sikt.no/publication/019db96ab7a2-d0161680-a40a-4ab0-b2fa-9391efb07cb8
   url: https://mishmash.no/events/aulaen2026/
   nva_url: https://nva.sikt.no/publication/019db96ab7a2-d0161680-a40a-4ab0-b2fa-9391efb07cb8
+- title: Kunstig kreativitet?
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Kunstig kreativitet?
+    container: Kunstig kreativitet.
+    details: Oslo.
+    abstract: Trenger vi egentlig musikere, forfattere og filmprodusenter nå som KI
+      kan gjøre jobben? Vi tar diskusjonen om hvordan KI påvirker kreativ næring og
+      kunstneriske prosesser.
+    full_text_url: https://hdl.handle.net/11250/5505592
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d741030ca-41f18ad7-2ac1-4300-aa6b-94e3bf2a0cfc
+  url: https://www.uio.no/om/aktuelt/universitetsplassen/aulaen/arrangementer/litteratur-foredrag/2026/mishmash-ki-kreativitet.html
+  nva_url: https://nva.sikt.no/publication/019d741030ca-41f18ad7-2ac1-4300-aa6b-94e3bf2a0cfc
 - title: '"Soft" and "Hard" research? Experiences from running a radically interdisciplinary
     research centre'
   year: '2026'
@@ -1084,6 +1370,49 @@ results:
     nva_url: https://nva.sikt.no/publication/019c2dccfd55-8187fc7d-7bd2-400e-9148-c54952de43a0
   url: https://trondelag.pameldingssystem.no/nasjonalt-fagkonferanse-for-kulturell-og-kreativ-naering-28-januar?#/default-12928
   nva_url: https://nva.sikt.no/publication/019c2dccfd55-8187fc7d-7bd2-400e-9148-c54952de43a0
+- title: Permeating Art & Science Collaboration
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Permeating Art & Science Collaboration
+    container: Uroboros Festival.
+    details: Praha.
+    abstract: 'Panel discussion with Robertina Šebjanič, Anetta Mona Chişa, Alexander
+      Refsum Jensenius. Moderated by Benedetta D''Ettorre.
+
+
+      This panel examines the boundary zones where artistic and scientific approaches
+      intersect, entangle, and permeate into one another. Bringing together practitioners
+      working across more-than-human ecologies, technological imaginaries, and embodied
+      research, the conversation will explore how meaningful collaboration can emerge
+      from inter- and trans-disciplinary exchange.
+
+
+      Rather than framing art and science as opposites, we ask how their methods can
+      become mutually generative; how artistic mindsets can expand scientific inquiry,
+      and how scientific perspectives can deepen artistic experimentation. The session
+      aims to discuss questions related to collaborative ethics, shared vocabularies,
+      and the value of embracing “noise” as a catalyst for new forms of knowledge-making.'
+    full_text_url: https://hdl.handle.net/11250/5504132
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d5dac4b99-88bca32b-76f6-4e7e-986b-3df1814fe516
+  url: https://www.youtube.com/live/La6LkV7YpI4
+  nva_url: https://nva.sikt.no/publication/019d5dac4b99-88bca32b-76f6-4e7e-986b-3df1814fe516
 - title: '«Artificial» «intelligence»: interrogating the language we use to speak/write
     the language machine into being'
   year: '2025'
@@ -1097,6 +1426,9 @@ results:
   - name: Kristin Vold Lexander
   - name: Jessica Pedersen Belisle Hansen
   institutions:
+  - name: Ostfold University College
+    slug: ostfold-university-college
+    url: /institutions/ostfold-university-college/
   - name: Inland Norway University of Applied Sciences
     slug: inland-norway-university-of-applied-sciences
     url: /institutions/inland-norway-university-of-applied-sciences/
@@ -1118,6 +1450,61 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019c1373c972-cc4d6164-eacf-422e-885f-950de9cb0cbf
   nva_url: https://nva.sikt.no/publication/019c1373c972-cc4d6164-eacf-422e-885f-950de9cb0cbf
+- title: Morgendagens filmskapere?
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Fredrik Graver
+    slug: fredrik-graver
+    url: /people/fredrik-graver/
+  institutions:
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Graver, Fredrik
+      name: Fredrik Graver
+      slug: fredrik-graver
+      url: /people/fredrik-graver/
+    title: Morgendagens filmskapere?
+    container: Høstseminar.
+    details: Filmens Hus, Oslo.
+    abstract: Om utdanning for en norsk filmbransje i endring, både på grunn av publikumsvaner,
+      teknologi og kunstig intelligens
+    full_text_url: https://hdl.handle.net/11250/5349823
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019be5d865f1-d4760767-2977-44a9-8ecc-726e77e24860
+  nva_url: https://nva.sikt.no/publication/019be5d865f1-d4760767-2977-44a9-8ecc-726e77e24860
+- title: 'Kreativitet og KI: presentasjon til FilmReg'
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Fredrik Graver
+    slug: fredrik-graver
+    url: /people/fredrik-graver/
+  institutions:
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Graver, Fredrik
+      name: Fredrik Graver
+      slug: fredrik-graver
+      url: /people/fredrik-graver/
+    title: 'Kreativitet og KI: presentasjon til FilmReg'
+    container: Årsmøte i FilmReg.
+    details: Kristiandsand.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5349826
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019be5d0aac6-b662e509-5c5e-47fb-84cf-ceb50a865373
+  nva_url: https://nva.sikt.no/publication/019be5d0aac6-b662e509-5c5e-47fb-84cf-ceb50a865373
 - title: MishMash og Nasjonalbiblioteket
   year: '2025'
   type: Lecture
@@ -1134,6 +1521,9 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  - name: National Library of Norway
+    slug: national-library-of-norway
+    url: /institutions/national-library-of-norway/
   citation:
     authors:
     - display: Jensenius, Alexander Refsum
@@ -1152,6 +1542,192 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019b0f434058-473ac0ea-5d14-4512-827a-9c6c681e05ad
   nva_url: https://nva.sikt.no/publication/019b0f434058-473ac0ea-5d14-4512-827a-9c6c681e05ad
+- title: Concientia
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Per Snaprud
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Tor Endestad
+  - name: Randi Wøien
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Snaprud, Per
+      name: Per Snaprud
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Endestad, Tor
+      name: Tor Endestad
+    - display: Wøien, Randi
+      name: Randi Wøien
+    title: Concientia
+    container: Samtale om bevissthet og det å skape.
+    details: Oslo.
+    abstract: 'I forbindelse med utstillingen Conscientia på Gamle Munch arrangeres
+      en samtale om bevissthet og det å skape.
+
+      Utgangspunktet for tema til utstillingen er bevissthet og forhold knyttet til
+      det å skape.
+
+      En del av utstillingen tar utgangspunkt i en serie med selvportretter av Randi
+      Wøien basert på MR bilder tatt av hennes eget hode. Bildene representerer et
+      sett av intrikate mønstre i ulike størrelser og sammensetninger og kan refereres
+      til ulike organer, andre vesener og ren natur. Samtidig er de en representasjon
+      av kunstneren slik hun er satt sammen i sitt eget hode. Keramiker Jorid Krosse
+      lager objekter med form og mønster som tar inspirasjon fra naturen og kan relateres
+      til organiske strukturer, hoder og andre vesener. I samspill med maleriene vil
+      de keramiske objektene settes i en relasjon til det kroppslige.
+
+      Samtalen om bevissthet og det å skape bruker utstillingen som et utgangspunkt
+      til å få belyst hva den skapende prosessen kan bety for vår egen utvikling og
+      hvordan hjernen fungerer og responderer på skapende prosesser. Tema for samtalen
+      vil være forholdet mellom kunst og bevissthet, om relasjonen mellom maleri og
+      objekt og om hvordan det å skape kunst kan påvirke vår forståelse av oss selv
+      og omgivelsene.
+
+      For tiden forskes det mye på hva som faktisk skjer i hjernen når man skaper
+      noe. Vi har fått med oss to av de fremste forskerne på temaet fra universitetet
+      i Oslo.
+
+      Alexander Refsum Jensenius er professor i musikkteknologi ved Universitetet
+      i Oslo, hvor han også leder RITMO Senter for tverrfaglige studier av rytme,
+      tid og bevegelse og MishMash Senter for KI og kreativitet. Han forsker på hvordan
+      lyd og musikk påvirker kropp og sinn, bevisst og ubevisst.
+
+      Tor Endestad er førsteamanuensis i kognitiv- og nevropsykologi på univeristetet
+      i Oslo og er tilknyttet Ritmo. Han leder FRONT neurolab og forsker på kognitiv
+      psykologi og kognitiv nevrovitenskap med fokus på hjerneavbildningsmetodikk.
+      Pågående forskningsprosjekter omfatter studier av basale mekanismer i oppfattelse
+      av rytme og tid, oppmerksomhet og hukommelse.
+
+      Til å moderere samtalen har vi fått med oss Per Snaprud. Han er vitenskapsjournalist
+      og før det hjerneforsker. Han arbeider i det Stockholm baserte magasinet Forskning
+      og Framsteg og har tidligere vært virksom ved Dagens Nyheters og Sveriges Radios
+      vitenskapsredaksjoner. Han er også forfatter av boken «Medvetandets återkomst,
+      om hjärnan, kroppen och universum».
+
+      Victoria Johnson er fiolinist, underviser ved Institutt for musikkvitenskap
+      og deltar i ulike forskningsprosjekter ved UiO. Hun har hatt solokonserter blant
+      annet under Festspillene i Bergen, Ultima, Borealisfestivalen og Soundwaves
+      i London. Hennes lidenskap for samtidsmusikk har resultert i flere bestillingsverk
+      og plateinnspillinger. I denne sammenhengen vil hun spille musikk som er direkte
+      komponert til bildene og objektene i utstillingen.'
+    full_text_url: https://hdl.handle.net/11250/5330415
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019b0f3f947c-ba6ad5ae-ff28-459c-b417-edbefc1bb4a1
+  url: https://happeningnext.com/event/samtale-om-bevissthet-og-det-%C3%A5-skape-eid3a0d68lba3
+  nva_url: https://nva.sikt.no/publication/019b0f3f947c-ba6ad5ae-ff28-459c-b417-edbefc1bb4a1
+- title: Kan musikk skape fred?
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Kristin Bergtora Sandvik
+  - name: Birgitte Grimstad
+  - name: Andreas Hoem Røysum
+  - name: Lars Klevstrand
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Sandvik, Kristin Bergtora
+      name: Kristin Bergtora Sandvik
+    - display: Grimstad, Birgitte
+      name: Birgitte Grimstad
+    - display: Røysum, Andreas Hoem
+      name: Andreas Hoem Røysum
+    - display: Klevstrand, Lars
+      name: Lars Klevstrand
+    title: Kan musikk skape fred?
+    container: Kan musikk skape fred?.
+    details: Oslo.
+    abstract: På konsert føler vi samhold med fremmede, viser forskning. I et kort
+      øyeblikk samler musikken oss. Hvordan kan musikk også samle oss i urolige tider?
+      Flere artister jobber for fred, på ulike måter. Møt noen av dem på Scene Domus
+      Bibliotheca! Hva er det med akkurat musikk som forener oss? Bli med på musikksnakk
+      med artistene Birgitte Grimstad, Lars Klevstrand og Andreas Røysum. Du møter
+      også  fredsforsker Kristin Bergtora Sandvik. Her vil musikkprofessor Alexander
+      Refsum Jensenius lede samtalen med ulike spørsmål knyttet til tematikken – kanskje
+      svarer de på ditt spørsmål også? Samtalen er beregnet for et publikum uten faglig
+      bakgrunn i temaet.
+    full_text_url: https://hdl.handle.net/11250/5328554
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019aff7b1299-d3edb8c6-f908-4691-9947-d1c898959146
+  url: https://www.oslopeacedays.no/program/2025/fred-og-musikk
+  nva_url: https://nva.sikt.no/publication/019aff7b1299-d3edb8c6-f908-4691-9947-d1c898959146
+- title: 'Presentation: ROBOts as Welfare Technologies and Actors for ELderLy Care:
+    A Nordic Model for Integration of Advanced Assistive Technologies (ROBOWELL) pre-kickoff'
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Diana Saplacan Lindblom
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Lindblom, Diana Saplacan
+      name: Diana Saplacan Lindblom
+    title: 'Presentation: ROBOts as Welfare Technologies and Actors for ELderLy Care:
+      A Nordic Model for Integration of Advanced Assistive Technologies (ROBOWELL)
+      pre-kickoff'
+    container: ROBOWELL pre-kickoff.
+    details: Digital Futures, KTH.
+    abstract: ROBOWELL - meeting with the project partners (UiO, KTH, SDU)
+    full_text_url: https://hdl.handle.net/11250/5328078
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019afdebbd4d-cd5554a2-c8ab-48bd-8edb-0f82432c2553
+  nva_url: https://nva.sikt.no/publication/019afdebbd4d-cd5554a2-c8ab-48bd-8edb-0f82432c2553
+- title: 'Nytt KI-senter ved UiO: MishMash'
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: 'Nytt KI-senter ved UiO: MishMash'
+    container: Forskningskomiteen.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5325017
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ad150d6dd-85780548-4f53-4e79-af25-b31e53284c67
+  nva_url: https://nva.sikt.no/publication/019ad150d6dd-85780548-4f53-4e79-af25-b31e53284c67
 - title: Openness in the age of AI
   year: '2025'
   type: Lecture
@@ -1208,6 +1784,66 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019ad144695d-b55cfaad-3c4e-466e-b6cc-d8e44518b421
   nva_url: https://nva.sikt.no/publication/019ad144695d-b55cfaad-3c4e-466e-b6cc-d8e44518b421
+- title: 'Nytt KI-senter ved HF: MishMash'
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: 'Nytt KI-senter ved HF: MishMash'
+    container: Fakultetsstyremøte.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5325013
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ad141cf7a-86867c4d-286f-4448-a4bc-16d14ada5425
+  nva_url: https://nva.sikt.no/publication/019ad141cf7a-86867c4d-286f-4448-a4bc-16d14ada5425
+- title: Are we still needed?
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Are we still needed?
+    container: Are we still needed? Kunstig intelligens i filmbransjen 2.0.
+    details: Oslo.
+    abstract: Den kunstige intelligensens frammarsj fortsetter å være den største
+      kulturelle og samfunnsmessige omveltningen siden den industrielle revolusjonen.
+      Siden fjorårets konferanse har det skjedd vanvittig mye, derfor inviterer vi
+      igjen til en dag fylt med internasjonale nøkkelpersoner, banebrytende prosjekter
+      og nye perspektiver på hvordan KI endrer måten vi utvikler, produserer og opplever
+      film.
+    full_text_url: https://hdl.handle.net/11250/5325011
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ad1386dd7-c33856fc-5746-486f-ac6b-8e50fbb6811c
+  url: https://filmskolen.no/artikler/2025/ki-i-filmbransjen-2-0
+  nva_url: https://nva.sikt.no/publication/019ad1386dd7-c33856fc-5746-486f-ac6b-8e50fbb6811c
 - title: What is the role of AI in creative activities?
   year: '2025'
   type: Lecture
@@ -1274,7 +1910,10 @@ results:
   - name: Flu Hartberg
   - name: Bruno Kvae
   - name: Erle Marie Sørheim
-  institutions: []
+  institutions:
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
   citation:
     authors:
     - display: Bull, Synne Tollerud
@@ -1522,6 +2161,60 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019a36be4444-0cc56b03-b55f-4551-862a-aee51c4ea142
   nva_url: https://nva.sikt.no/publication/019a36be4444-0cc56b03-b55f-4551-862a-aee51c4ea142
+- title: KI og det nye MishMash-senteret
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: KI og det nye MishMash-senteret
+    container: Instituttseminar.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/4669517
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/0199950ae66e-c741ee65-1651-46f7-a3d2-6925df7836ca
+  nva_url: https://nva.sikt.no/publication/0199950ae66e-c741ee65-1651-46f7-a3d2-6925df7836ca
+- title: Muligheter for deltagelse i MishMash Senter for KI og kreativitet
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Muligheter for deltagelse i MishMash Senter for KI og kreativitet
+    container: Fagseminar.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/3697314
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019995090b5c-2399367f-12c9-48e1-a055-b3664cebea22
+  nva_url: https://nva.sikt.no/publication/019995090b5c-2399367f-12c9-48e1-a055-b3664cebea22
 - title: Technologies supporting research on music-related body motion
   year: '2025'
   type: Lecture
@@ -1616,6 +2309,33 @@ results:
     nva_url: https://nva.sikt.no/publication/019994fe5672-6a721851-98aa-486b-bbb1-86d9a0cf8b22
   url: https://www.liser.lu/events/EXPAR2025-09-19
   nva_url: https://nva.sikt.no/publication/019994fe5672-6a721851-98aa-486b-bbb1-86d9a0cf8b22
+- title: RITMO, MishMash and the fourMs Lab
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: RITMO, MishMash and the fourMs Lab
+    container: Workshop with the Ukrainian Research Council.
+    details: Oslo.
+    abstract: A presentation for the Ukrainian Research Council.
+    full_text_url: https://hdl.handle.net/11250/4600335
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019994c32420-9e680d19-dfe8-4061-8442-da49021add6b
+  nva_url: https://nva.sikt.no/publication/019994c32420-9e680d19-dfe8-4061-8442-da49021add6b
 - title: Kreativitet og KI
   year: '2025'
   type: Lecture
@@ -1694,6 +2414,65 @@ results:
     nva_url: https://nva.sikt.no/publication/019994ac713a-62f7f34b-3318-424c-89a6-b45460160aa8
   url: https://www.forskningsradet.no/arrangementer/2025/presentasjon-ki-sentra/
   nva_url: https://nva.sikt.no/publication/019994ac713a-62f7f34b-3318-424c-89a6-b45460160aa8
+- title: AI in film (and fine arts) schools
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Fredrik Graver
+    slug: fredrik-graver
+    url: /people/fredrik-graver/
+  institutions:
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Graver, Fredrik
+      name: Fredrik Graver
+      slug: fredrik-graver
+      url: /people/fredrik-graver/
+    title: AI in film (and fine arts) schools
+    container: AI in film (and fine arts) schools.
+    details: Netherlands Film Academy, Amsterdam.
+    abstract: Workshop for academic staff at Amsterdam University of the Arts / Netherlands
+      Film Academy
+    full_text_url: https://hdl.handle.net/11250/3441391
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/0199709a5e3e-079e05cf-7647-478c-9a5d-b67433c5a402
+  nva_url: https://nva.sikt.no/publication/0199709a5e3e-079e05cf-7647-478c-9a5d-b67433c5a402
+- title: AI-retningslinjer for norsk film – hvem lager dem, og hvordan settes en arbeidsgruppe
+    sammen?
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Fredrik Graver
+    slug: fredrik-graver
+    url: /people/fredrik-graver/
+  institutions:
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Graver, Fredrik
+      name: Fredrik Graver
+      slug: fredrik-graver
+      url: /people/fredrik-graver/
+    title: AI-retningslinjer for norsk film – hvem lager dem, og hvordan settes en
+      arbeidsgruppe sammen?
+    container: 'AI i bransjen: Hva gjør vi?.'
+    details: Oslo.
+    abstract: Presentasjon for norsk filmbransje om behov for retningslinjer for bruk
+      av kunstig intelligens i bransjen.
+    full_text_url: https://hdl.handle.net/11250/3438975
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01992ed0bbab-d68ebbb7-4430-422e-aba4-5a0e1bdce15b
+  url: https://www.oslopix.no/no/arrangement/2025/bransje-ai-i-bransjen-hva-gj%C3%B8r-vi
+  nva_url: https://nva.sikt.no/publication/01992ed0bbab-d68ebbb7-4430-422e-aba4-5a0e1bdce15b
 - title: 'Kunst i intelligens: Hvilke nye kreative uttrykksmuligheter kan KI åpne
     for?'
   year: '2025'
@@ -1713,6 +2492,9 @@ results:
   - name: Inland Norway University of Applied Sciences
     slug: inland-norway-university-of-applied-sciences
     url: /institutions/inland-norway-university-of-applied-sciences/
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
   citation:
     authors:
     - display: Lossius, Trond
@@ -2280,758 +3062,3 @@ results:
     nva_url: https://nva.sikt.no/publication/019e3f4d620d-fbdddd20-0178-42a0-b9c4-6280151fefa8
   url: https://thegreathumanfilter.com/
   nva_url: https://nva.sikt.no/publication/019e3f4d620d-fbdddd20-0178-42a0-b9c4-6280151fefa8
-- title: Building intersectional Cultural Ecosystems & Institutions for the Future
-  year: '2026'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Jesper Mardahl
-  - name: Simon Kimmel
-  - name: Martin Eyerer
-  - name: Roland Sillmann
-  - name: Philipp Grefer
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    - display: Mardahl, Jesper
-      name: Jesper Mardahl
-    - display: Kimmel, Simon
-      name: Simon Kimmel
-    - display: Eyerer, Martin
-      name: Martin Eyerer
-    - display: Sillmann, Roland
-      name: Roland Sillmann
-    - display: Grefer, Philipp
-      name: Philipp Grefer
-    title: Building intersectional Cultural Ecosystems & Institutions for the Future
-    container: WISE x House Of Nordic Visions.
-    details: Berlin.
-    abstract: Future-facing cultural ecosystems require new forms of collaboration
-      across public, private, and civic actors. This panel examines best practices
-      in building intersectional institutions and clusters that integrate diverse
-      disciplines, and leaders from art, music, science, policy, to communities, and
-      funding models.
-    full_text_url: https://hdl.handle.net/11250/5523908
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019e7fb15492-102757ea-b56a-4dc6-8734-56dac427fdc3
-  url: https://www.wisenotwise.com/wise2026program
-  nva_url: https://nva.sikt.no/publication/019e7fb15492-102757ea-b56a-4dc6-8734-56dac427fdc3
-- title: Tverrfaglighet i forskning (og utdanning)
-  year: '2026'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: Tverrfaglighet i forskning (og utdanning)
-    container: UHR Humaniora og Samfunnsvitenskap.
-    details: Kristiansand.
-    abstract: ''
-    full_text_url: https://hdl.handle.net/11250/5518050
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019e45845336-b864a8b3-cf7c-458c-8385-6c3d8766059b
-  nva_url: https://nva.sikt.no/publication/019e45845336-b864a8b3-cf7c-458c-8385-6c3d8766059b
-- title: Mellom menneske og maskin
-  year: '2026'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Silje Midtlien Sigurdsen
-  - name: Camila Urrego
-  - name: Gunnar Gabriel Gjermundsen
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Sigurdsen, Silje Midtlien
-      name: Silje Midtlien Sigurdsen
-    - display: Urrego, Camila
-      name: Camila Urrego
-    - display: Gjermundsen, Gunnar Gabriel
-      name: Gunnar Gabriel Gjermundsen
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: Mellom menneske og maskin
-    container: Panelsamtale.
-    details: Oslo.
-    abstract: 'Hva skjer med vår opplevelse av virkelighet, kropp, natur og kreativitet
-      når grensene mellom det menneskelige og det syntetiske blir mer flytende?
-
-
-      Samtalen har ikke til hensikt å konkludere om kunstig intelligens er bra eller
-      dårlig for kunsten. Sammen skal vi heller undersøke hva som skjer med oss som
-      skapende mennesker, som publikum, og kanskje også som naturvesener, når teknologien
-      begynner å produsere bilder, idéer og identiteter som tidligere bare kom fra
-      menneskelig erfaring.
-
-
-      Fotografiens Hus ønsker velkommen til en samtale som trekker på kunst, økologi
-      og filosofi for å undersøke hvordan kunstig intelligens påvirker hvordan vi
-      skaper, sanser og møter verden rundt oss på.'
-    full_text_url: https://hdl.handle.net/11250/5517036
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019e32c7e996-3b1abd75-32c5-410a-8cd6-833319d55756
-  url: https://fotografiens-hus.no/samtale-mellom-menneske-og-maskin/
-  nva_url: https://nva.sikt.no/publication/019e32c7e996-3b1abd75-32c5-410a-8cd6-833319d55756
-- title: Sang og KI
-  year: '2026'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: Sang og KI
-    container: Strategiseminar.
-    details: Oslo.
-    abstract: ''
-    full_text_url: https://hdl.handle.net/11250/5514414
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019dfe980ca5-56907564-ed5d-4548-9576-656c8a18419a
-  nva_url: https://nva.sikt.no/publication/019dfe980ca5-56907564-ed5d-4548-9576-656c8a18419a
-- title: 'Design Agentics :: Creative R&D x AI'
-  year: '2026'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Ida Jahr
-    slug: ida-jahr
-    url: /people/ida-jahr/
-  - name: Enrique Encinas
-  - name: Hedda Foss Lilleng
-  - name: Lene Renneflott
-  institutions:
-  - name: Oslo School of Architecture and Design
-    slug: oslo-school-of-architecture-and-design
-    url: /institutions/oslo-school-of-architecture-and-design/
-  - name: Inland Norway University of Applied Sciences
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
-  citation:
-    authors:
-    - display: Bull, Synne Tollerud
-      name: Synne Tollerud Bull
-      slug: synne-tollerud-bull
-      url: /people/synne-tollerud-bull/
-    - display: Jahr, Ida
-      name: Ida Jahr
-      slug: ida-jahr
-      url: /people/ida-jahr/
-    - display: Encinas, Enrique
-      name: Enrique Encinas
-    - display: Lilleng, Hedda Foss
-      name: Hedda Foss Lilleng
-    - display: Renneflott, Lene
-      name: Lene Renneflott
-    title: 'Design Agentics :: Creative R&D x AI'
-    container: 'Design Agentics :: Creative R&D x AI.'
-    details: Grafills hus Møllergata 39, 0179 Oslo.
-    abstract: 'Arrangementet Design Agentics: Creative R&D x AI undersøker kunstig
-      intelligens som en integrert del av design- og kunstpraksis, ikke bare som verktøy,
-      men som infrastrukturell og agentisk aktør. Gjennom en studentpresentasjon av
-      egenutviklede AI-baserte verktøy og en påfølgende panel- og rundebordsdiskusjon
-      med forskere og bransjeaktører, tematiserer arrangementet hvordan kreative praktikere
-      kan forholde seg kritisk og operativt til eksisterende AI-systemer. Fokus ligger
-      på spørsmål om handlingsrom, makt og design i møte med ferdigdefinerte teknologiske
-      infrastrukturer, samt muligheter for å omforme, tilpasse eller motsette seg
-      disse. Arrangementet avsluttes med lanseringen av forskningsgruppen CRAITR ved
-      AHO.'
-    full_text_url: https://hdl.handle.net/11250/5510479
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019dc37da862-8dad0484-5d39-4e81-b014-c38f3af96941
-  url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
-  nva_url: https://nva.sikt.no/publication/019dc37da862-8dad0484-5d39-4e81-b014-c38f3af96941
-- title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
-  year: '2026'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  institutions: []
-  citation:
-    authors:
-    - display: Bull, Synne Tollerud
-      name: Synne Tollerud Bull
-      slug: synne-tollerud-bull
-      url: /people/synne-tollerud-bull/
-    title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
-    container: 'Konferanse: Strategisk framsyn i det norske kulturfeltet.'
-    details: Deichman Bjørvika og Digitalt arrangement.
-    abstract: Panelsamtalen «Risiko og motstandskraft i kulturens infrastruktur –
-      det neste tiåret» samlet Camara Lundestad Joof (Dramatikkens hus), Kirsti Mathiesen
-      Hjemdahl (Cultiva), Sveinung Rudjord Unneland (Den uferdige institusjonen),
-      Øystein Strand (Kulturdirektoratet) og Synne Tollerud Bull (Høyskolen Kristiania),
-      moderert av Hild Borchgrevink. Samtalen tok utgangspunkt i hvordan kultur i
-      økende grad formes av infrastrukturer, systemer og distribusjonslogikker, og
-      drøftet risiko og handlingsrom i møte med plattformbaserte medieformer. Det
-      ble særlig lagt vekt på behovet for å utvikle robuste og fleksible kulturinfrastrukturer,
-      samt rollen til offentlig finansierte institusjoner og høyere kunstutdanning
-      i å legge til rette for eksperimentering, kunnskapsutvikling og langsiktig motstandskraft.
-    full_text_url: https://hdl.handle.net/11250/5509790
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019db9aba304-1cb12c80-5618-476a-8f7a-5d2b54f6d6b5
-  url: https://www.kulturdirektoratet.no/kalender/konferanse-strategisk-framsyn-i-det-norske-kulturfeltet
-  nva_url: https://nva.sikt.no/publication/019db9aba304-1cb12c80-5618-476a-8f7a-5d2b54f6d6b5
-- title: Kunstig kreativitet?
-  year: '2026'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: Kunstig kreativitet?
-    container: Kunstig kreativitet.
-    details: Oslo.
-    abstract: Trenger vi egentlig musikere, forfattere og filmprodusenter nå som KI
-      kan gjøre jobben? Vi tar diskusjonen om hvordan KI påvirker kreativ næring og
-      kunstneriske prosesser.
-    full_text_url: https://hdl.handle.net/11250/5505592
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019d741030ca-41f18ad7-2ac1-4300-aa6b-94e3bf2a0cfc
-  url: https://www.uio.no/om/aktuelt/universitetsplassen/aulaen/arrangementer/litteratur-foredrag/2026/mishmash-ki-kreativitet.html
-  nva_url: https://nva.sikt.no/publication/019d741030ca-41f18ad7-2ac1-4300-aa6b-94e3bf2a0cfc
-- title: Permeating Art & Science Collaboration
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: Permeating Art & Science Collaboration
-    container: Uroboros Festival.
-    details: Praha.
-    abstract: 'Panel discussion with Robertina Šebjanič, Anetta Mona Chişa, Alexander
-      Refsum Jensenius. Moderated by Benedetta D''Ettorre.
-
-
-      This panel examines the boundary zones where artistic and scientific approaches
-      intersect, entangle, and permeate into one another. Bringing together practitioners
-      working across more-than-human ecologies, technological imaginaries, and embodied
-      research, the conversation will explore how meaningful collaboration can emerge
-      from inter- and trans-disciplinary exchange.
-
-
-      Rather than framing art and science as opposites, we ask how their methods can
-      become mutually generative; how artistic mindsets can expand scientific inquiry,
-      and how scientific perspectives can deepen artistic experimentation. The session
-      aims to discuss questions related to collaborative ethics, shared vocabularies,
-      and the value of embracing “noise” as a catalyst for new forms of knowledge-making.'
-    full_text_url: https://hdl.handle.net/11250/5504132
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019d5dac4b99-88bca32b-76f6-4e7e-986b-3df1814fe516
-  url: https://www.youtube.com/live/La6LkV7YpI4
-  nva_url: https://nva.sikt.no/publication/019d5dac4b99-88bca32b-76f6-4e7e-986b-3df1814fe516
-- title: Morgendagens filmskapere?
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Fredrik Graver
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-  institutions:
-  - name: Inland Norway University of Applied Sciences
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
-  citation:
-    authors:
-    - display: Graver, Fredrik
-      name: Fredrik Graver
-      slug: fredrik-graver
-      url: /people/fredrik-graver/
-    title: Morgendagens filmskapere?
-    container: Høstseminar.
-    details: Filmens Hus, Oslo.
-    abstract: Om utdanning for en norsk filmbransje i endring, både på grunn av publikumsvaner,
-      teknologi og kunstig intelligens
-    full_text_url: https://hdl.handle.net/11250/5349823
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019be5d865f1-d4760767-2977-44a9-8ecc-726e77e24860
-  nva_url: https://nva.sikt.no/publication/019be5d865f1-d4760767-2977-44a9-8ecc-726e77e24860
-- title: 'Kreativitet og KI: presentasjon til FilmReg'
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Fredrik Graver
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-  institutions:
-  - name: Inland Norway University of Applied Sciences
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
-  citation:
-    authors:
-    - display: Graver, Fredrik
-      name: Fredrik Graver
-      slug: fredrik-graver
-      url: /people/fredrik-graver/
-    title: 'Kreativitet og KI: presentasjon til FilmReg'
-    container: Årsmøte i FilmReg.
-    details: Kristiandsand.
-    abstract: ''
-    full_text_url: https://hdl.handle.net/11250/5349826
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019be5d0aac6-b662e509-5c5e-47fb-84cf-ceb50a865373
-  nva_url: https://nva.sikt.no/publication/019be5d0aac6-b662e509-5c5e-47fb-84cf-ceb50a865373
-- title: Concientia
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Per Snaprud
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Tor Endestad
-  - name: Randi Wøien
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Snaprud, Per
-      name: Per Snaprud
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    - display: Endestad, Tor
-      name: Tor Endestad
-    - display: Wøien, Randi
-      name: Randi Wøien
-    title: Concientia
-    container: Samtale om bevissthet og det å skape.
-    details: Oslo.
-    abstract: 'I forbindelse med utstillingen Conscientia på Gamle Munch arrangeres
-      en samtale om bevissthet og det å skape.
-
-      Utgangspunktet for tema til utstillingen er bevissthet og forhold knyttet til
-      det å skape.
-
-      En del av utstillingen tar utgangspunkt i en serie med selvportretter av Randi
-      Wøien basert på MR bilder tatt av hennes eget hode. Bildene representerer et
-      sett av intrikate mønstre i ulike størrelser og sammensetninger og kan refereres
-      til ulike organer, andre vesener og ren natur. Samtidig er de en representasjon
-      av kunstneren slik hun er satt sammen i sitt eget hode. Keramiker Jorid Krosse
-      lager objekter med form og mønster som tar inspirasjon fra naturen og kan relateres
-      til organiske strukturer, hoder og andre vesener. I samspill med maleriene vil
-      de keramiske objektene settes i en relasjon til det kroppslige.
-
-      Samtalen om bevissthet og det å skape bruker utstillingen som et utgangspunkt
-      til å få belyst hva den skapende prosessen kan bety for vår egen utvikling og
-      hvordan hjernen fungerer og responderer på skapende prosesser. Tema for samtalen
-      vil være forholdet mellom kunst og bevissthet, om relasjonen mellom maleri og
-      objekt og om hvordan det å skape kunst kan påvirke vår forståelse av oss selv
-      og omgivelsene.
-
-      For tiden forskes det mye på hva som faktisk skjer i hjernen når man skaper
-      noe. Vi har fått med oss to av de fremste forskerne på temaet fra universitetet
-      i Oslo.
-
-      Alexander Refsum Jensenius er professor i musikkteknologi ved Universitetet
-      i Oslo, hvor han også leder RITMO Senter for tverrfaglige studier av rytme,
-      tid og bevegelse og MishMash Senter for KI og kreativitet. Han forsker på hvordan
-      lyd og musikk påvirker kropp og sinn, bevisst og ubevisst.
-
-      Tor Endestad er førsteamanuensis i kognitiv- og nevropsykologi på univeristetet
-      i Oslo og er tilknyttet Ritmo. Han leder FRONT neurolab og forsker på kognitiv
-      psykologi og kognitiv nevrovitenskap med fokus på hjerneavbildningsmetodikk.
-      Pågående forskningsprosjekter omfatter studier av basale mekanismer i oppfattelse
-      av rytme og tid, oppmerksomhet og hukommelse.
-
-      Til å moderere samtalen har vi fått med oss Per Snaprud. Han er vitenskapsjournalist
-      og før det hjerneforsker. Han arbeider i det Stockholm baserte magasinet Forskning
-      og Framsteg og har tidligere vært virksom ved Dagens Nyheters og Sveriges Radios
-      vitenskapsredaksjoner. Han er også forfatter av boken «Medvetandets återkomst,
-      om hjärnan, kroppen och universum».
-
-      Victoria Johnson er fiolinist, underviser ved Institutt for musikkvitenskap
-      og deltar i ulike forskningsprosjekter ved UiO. Hun har hatt solokonserter blant
-      annet under Festspillene i Bergen, Ultima, Borealisfestivalen og Soundwaves
-      i London. Hennes lidenskap for samtidsmusikk har resultert i flere bestillingsverk
-      og plateinnspillinger. I denne sammenhengen vil hun spille musikk som er direkte
-      komponert til bildene og objektene i utstillingen.'
-    full_text_url: https://hdl.handle.net/11250/5330415
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019b0f3f947c-ba6ad5ae-ff28-459c-b417-edbefc1bb4a1
-  url: https://happeningnext.com/event/samtale-om-bevissthet-og-det-%C3%A5-skape-eid3a0d68lba3
-  nva_url: https://nva.sikt.no/publication/019b0f3f947c-ba6ad5ae-ff28-459c-b417-edbefc1bb4a1
-- title: Kan musikk skape fred?
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kristin Bergtora Sandvik
-  - name: Birgitte Grimstad
-  - name: Andreas Hoem Røysum
-  - name: Lars Klevstrand
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    - display: Sandvik, Kristin Bergtora
-      name: Kristin Bergtora Sandvik
-    - display: Grimstad, Birgitte
-      name: Birgitte Grimstad
-    - display: Røysum, Andreas Hoem
-      name: Andreas Hoem Røysum
-    - display: Klevstrand, Lars
-      name: Lars Klevstrand
-    title: Kan musikk skape fred?
-    container: Kan musikk skape fred?.
-    details: Oslo.
-    abstract: På konsert føler vi samhold med fremmede, viser forskning. I et kort
-      øyeblikk samler musikken oss. Hvordan kan musikk også samle oss i urolige tider?
-      Flere artister jobber for fred, på ulike måter. Møt noen av dem på Scene Domus
-      Bibliotheca! Hva er det med akkurat musikk som forener oss? Bli med på musikksnakk
-      med artistene Birgitte Grimstad, Lars Klevstrand og Andreas Røysum. Du møter
-      også  fredsforsker Kristin Bergtora Sandvik. Her vil musikkprofessor Alexander
-      Refsum Jensenius lede samtalen med ulike spørsmål knyttet til tematikken – kanskje
-      svarer de på ditt spørsmål også? Samtalen er beregnet for et publikum uten faglig
-      bakgrunn i temaet.
-    full_text_url: https://hdl.handle.net/11250/5328554
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019aff7b1299-d3edb8c6-f908-4691-9947-d1c898959146
-  url: https://www.oslopeacedays.no/program/2025/fred-og-musikk
-  nva_url: https://nva.sikt.no/publication/019aff7b1299-d3edb8c6-f908-4691-9947-d1c898959146
-- title: 'Presentation: ROBOts as Welfare Technologies and Actors for ELderLy Care:
-    A Nordic Model for Integration of Advanced Assistive Technologies (ROBOWELL) pre-kickoff'
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Diana Saplacan Lindblom
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Lindblom, Diana Saplacan
-      name: Diana Saplacan Lindblom
-    title: 'Presentation: ROBOts as Welfare Technologies and Actors for ELderLy Care:
-      A Nordic Model for Integration of Advanced Assistive Technologies (ROBOWELL)
-      pre-kickoff'
-    container: ROBOWELL pre-kickoff.
-    details: Digital Futures, KTH.
-    abstract: ROBOWELL - meeting with the project partners (UiO, KTH, SDU)
-    full_text_url: https://hdl.handle.net/11250/5328078
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019afdebbd4d-cd5554a2-c8ab-48bd-8edb-0f82432c2553
-  nva_url: https://nva.sikt.no/publication/019afdebbd4d-cd5554a2-c8ab-48bd-8edb-0f82432c2553
-- title: 'Nytt KI-senter ved UiO: MishMash'
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: 'Nytt KI-senter ved UiO: MishMash'
-    container: Forskningskomiteen.
-    details: Oslo.
-    abstract: ''
-    full_text_url: https://hdl.handle.net/11250/5325017
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019ad150d6dd-85780548-4f53-4e79-af25-b31e53284c67
-  nva_url: https://nva.sikt.no/publication/019ad150d6dd-85780548-4f53-4e79-af25-b31e53284c67
-- title: 'Nytt KI-senter ved HF: MishMash'
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: 'Nytt KI-senter ved HF: MishMash'
-    container: Fakultetsstyremøte.
-    details: Oslo.
-    abstract: ''
-    full_text_url: https://hdl.handle.net/11250/5325013
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019ad141cf7a-86867c4d-286f-4448-a4bc-16d14ada5425
-  nva_url: https://nva.sikt.no/publication/019ad141cf7a-86867c4d-286f-4448-a4bc-16d14ada5425
-- title: Are we still needed?
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: Are we still needed?
-    container: Are we still needed? Kunstig intelligens i filmbransjen 2.0.
-    details: Oslo.
-    abstract: Den kunstige intelligensens frammarsj fortsetter å være den største
-      kulturelle og samfunnsmessige omveltningen siden den industrielle revolusjonen.
-      Siden fjorårets konferanse har det skjedd vanvittig mye, derfor inviterer vi
-      igjen til en dag fylt med internasjonale nøkkelpersoner, banebrytende prosjekter
-      og nye perspektiver på hvordan KI endrer måten vi utvikler, produserer og opplever
-      film.
-    full_text_url: https://hdl.handle.net/11250/5325011
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019ad1386dd7-c33856fc-5746-486f-ac6b-8e50fbb6811c
-  url: https://filmskolen.no/artikler/2025/ki-i-filmbransjen-2-0
-  nva_url: https://nva.sikt.no/publication/019ad1386dd7-c33856fc-5746-486f-ac6b-8e50fbb6811c
-- title: KI og det nye MishMash-senteret
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: KI og det nye MishMash-senteret
-    container: Instituttseminar.
-    details: Oslo.
-    abstract: ''
-    full_text_url: https://hdl.handle.net/11250/4669517
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/0199950ae66e-c741ee65-1651-46f7-a3d2-6925df7836ca
-  nva_url: https://nva.sikt.no/publication/0199950ae66e-c741ee65-1651-46f7-a3d2-6925df7836ca
-- title: Muligheter for deltagelse i MishMash Senter for KI og kreativitet
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: Muligheter for deltagelse i MishMash Senter for KI og kreativitet
-    container: Fagseminar.
-    details: Oslo.
-    abstract: ''
-    full_text_url: https://hdl.handle.net/11250/3697314
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019995090b5c-2399367f-12c9-48e1-a055-b3664cebea22
-  nva_url: https://nva.sikt.no/publication/019995090b5c-2399367f-12c9-48e1-a055-b3664cebea22
-- title: RITMO, MishMash and the fourMs Lab
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: RITMO, MishMash and the fourMs Lab
-    container: Workshop with the Ukrainian Research Council.
-    details: Oslo.
-    abstract: A presentation for the Ukrainian Research Council.
-    full_text_url: https://hdl.handle.net/11250/4600335
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019994c32420-9e680d19-dfe8-4061-8442-da49021add6b
-  nva_url: https://nva.sikt.no/publication/019994c32420-9e680d19-dfe8-4061-8442-da49021add6b
-- title: AI in film (and fine arts) schools
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Fredrik Graver
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-  institutions:
-  - name: Inland Norway University of Applied Sciences
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
-  citation:
-    authors:
-    - display: Graver, Fredrik
-      name: Fredrik Graver
-      slug: fredrik-graver
-      url: /people/fredrik-graver/
-    title: AI in film (and fine arts) schools
-    container: AI in film (and fine arts) schools.
-    details: Netherlands Film Academy, Amsterdam.
-    abstract: Workshop for academic staff at Amsterdam University of the Arts / Netherlands
-      Film Academy
-    full_text_url: https://hdl.handle.net/11250/3441391
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/0199709a5e3e-079e05cf-7647-478c-9a5d-b67433c5a402
-  nva_url: https://nva.sikt.no/publication/0199709a5e3e-079e05cf-7647-478c-9a5d-b67433c5a402
-- title: AI-retningslinjer for norsk film – hvem lager dem, og hvordan settes en arbeidsgruppe
-    sammen?
-  year: '2025'
-  type: OtherPresentation
-  type_label: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Fredrik Graver
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-  institutions:
-  - name: Inland Norway University of Applied Sciences
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
-  citation:
-    authors:
-    - display: Graver, Fredrik
-      name: Fredrik Graver
-      slug: fredrik-graver
-      url: /people/fredrik-graver/
-    title: AI-retningslinjer for norsk film – hvem lager dem, og hvordan settes en
-      arbeidsgruppe sammen?
-    container: 'AI i bransjen: Hva gjør vi?.'
-    details: Oslo.
-    abstract: Presentasjon for norsk filmbransje om behov for retningslinjer for bruk
-      av kunstig intelligens i bransjen.
-    full_text_url: https://hdl.handle.net/11250/3438975
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/01992ed0bbab-d68ebbb7-4430-422e-aba4-5a0e1bdce15b
-  url: https://www.oslopix.no/no/arrangement/2025/bransje-ai-i-bransjen-hva-gj%C3%B8r-vi
-  nva_url: https://nva.sikt.no/publication/01992ed0bbab-d68ebbb7-4430-422e-aba4-5a0e1bdce15b
