@@ -10,11 +10,13 @@ image: "/assets/images/illustrations/Kilden-bygg-banner-slider-2426463652.jpg"
 slug: "kristiansand2026"
 ---
 
+The [MishMash opening conference](https://kilden.com/program/47818-opening-conference-of-the-mishmash-centre-for-artificial-intelligence-and-creativity/) showcases frameworks and examples based on the three approaches of the centre. It features discussions between researchers from multiple backgrounds, from the perspectives of machines, humans and society.
+
+<a class="button" href="https://kilden.com/program/47818-opening-conference-of-the-mishmash-centre-for-artificial-intelligence-and-creativity/">Read more and Register</a>
+
 ## Interdisciplinary research on AI in cultural & creative ecosystems
 
 Like many technological developments, artificial intelligence (AI) is not only a tool. It reshapes the conditions for creative production, perception, and cultural infrastructures. The MishMash Centre for AI and Creativity, one of six Norwegian AI centres, combines three approaches: it creates AI-based systems, tools and artworks, explores AI in relation to creativity and learning, and it reflects on the impacts of AI.
-
-The MishMash opening conference showcases frameworks and examples based on the three approaches of the centre. It features discussions between researchers from multiple backgrounds, from the perspectives of machines, humans and society.
 
 ## What the conference offers
 
@@ -31,3 +33,13 @@ The MishMash Opening conference takes place on Monday the 14th of September. It 
 
 ## Back to back with Tech:Art on Tuesday
 The MishMash Opening Conference is organised back to back with Tech:Art at Kilden performing arts centre. Tech:Art, on Tuesday the 15th of September, focuses on the interaction between research and (local and international) cultural and creative partners. It is aimed at inspiring organisations in the cultural field and facilitating dialogue between these organisations and researchers. Stay around for Tech:Art to discuss opportunities for (artistic) researchers, technology developers and the creative organisations to co-create!
+
+## Poster presentations
+Researchers are invited to submit an abstract for presentation at the conference in the form of a poster presentation. We invite practice-oriented and theoretical work, both fully completed research projects and research-in-progress. The poster presentations are an excellent opportunity to meet other researchers and collect feedback on your work. 
+
+<a class="button" href="https://forms.cloud.microsoft/e/xEUm0fmYw6">Submit abstract</a>
+
+
+## Registration
+
+<a class="button" href="https://kilden.com/program/47818-opening-conference-of-the-mishmash-centre-for-artificial-intelligence-and-creativity/">Read more and Register</a>
