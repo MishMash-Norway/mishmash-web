@@ -46,6 +46,14 @@ search_keywords:
 - Artificial intelligence
 - Film Studies
 selected_works:
+- title: Land without Food
+  year: '2026'
+  source: Exhibition
+  url: https://korkut.tselinny.org/artist/budhaditya-chattopadhyay
+- title: Archival Intelligence (2026)
+  year: '2026'
+  source: Exhibition
+  url: https://www.lydgalleriet.no/archive/archival-intelligence
 - title: Atomspheres
   year: '2026'
   source: Music performance
@@ -78,13 +86,6 @@ selected_works:
   year: '2025'
   source: Exhibition
   url: https://hearhere.be/en/expo/dhv%C4%81ni
-- title: The noise of geography
-  year: '2025'
-  source: Interview
-  url: https://www.ultima.no/en/the-noise-of-geography-abdellah-m-hassak-in-conversation-with-budhaditya-chattopadhyay
-- title: 'Archival Intelligence: Machine Learning and Intergenerational Memory'
-  year: '2025'
-  source: Conference lecture
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: 'Budhaditya Chattopadhyay is a multidisciplinary artist, researcher, and

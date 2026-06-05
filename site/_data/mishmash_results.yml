@@ -1,4 +1,4 @@
-synced_at: '2026-06-04T08:48:02Z'
+synced_at: '2026-06-05T08:44:41Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -665,6 +665,32 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019a5a87be28-17f5f937-cf7c-4030-b2a9-6a02159cf5b7
   nva_url: https://nva.sikt.no/publication/019a5a87be28-17f5f937-cf7c-4030-b2a9-6a02159cf5b7
+- title: Archival Intelligence (2026)
+  year: '2026'
+  type: ExhibitionProduction
+  type_label: Exhibition
+  group_type: Exhibition
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  citation:
+    authors: []
+    title: Archival Intelligence (2026)
+    container: Exhibition.
+    details: ''
+    abstract: The research exhibition Archival Intelligence examines the roles of
+      today’s all-pervasive digital technologies, such as Artificial Intelligence,
+      in extracting data from archives and museums for profit.
+    full_text_url: https://hdl.handle.net/11250/5525539
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019e94978cd6-bed6ca65-d5a7-4a86-bfe8-9c95953cd791
+  url: https://www.lydgalleriet.no/archive/archival-intelligence
+  nva_url: https://nva.sikt.no/publication/019e94978cd6-bed6ca65-d5a7-4a86-bfe8-9c95953cd791
 - title: Dhvāni
   year: '2025'
   type: ExhibitionProduction

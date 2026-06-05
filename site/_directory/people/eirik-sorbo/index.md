@@ -24,12 +24,14 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Educational theory
+- Music education
 - Higher music education
+- Artificial intelligence
 - Music Technology
 search_keywords:
-- Educational theory
+- Music education
 - Higher music education
+- Artificial intelligence
 - Music Technology
 selected_works:
 - title: Music and Resonance
@@ -72,7 +74,12 @@ selected_works:
   url: https://doi.org/10.1386/jpme_00137_1
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
-summary: null
+summary: Researcher, educator, and musician. PhD in music education from the University
+  of Agder (2023), with a focus on electronic music education, student agency, music
+  theory pedagogy, and Bildung. Committed to bridging research and educational innovation.
+  Engaged in several projects, including MishMash (work package leader) and CreaTeME
+  (project developer). Active grant writer with a strong track record of securing
+  research funding.
 permalink: /people/eirik-sorbo/
 redirect_from:
 - /directory/people/eirik-sorbo/
