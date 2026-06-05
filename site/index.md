@@ -30,7 +30,7 @@ MishMash aims to **create, explore, and reflect on AI for, through, and in creat
 
 ## Vacancies
 
-Check the list of [open positions](https://mishmash.no/news/positions/). Get in [touch](https://mishmash.no/people/) if you are interested in applying to an external fellowship program through one of our parners (for example, Marie Skłodowska-Curie Actions fellowships or Fulbright). Partners are also open for hosting self-funded internships (for example through the ERASMUS programme).
+Check the list of [open positions](https://mishmash.no/news/positions/). Get in [touch](https://mishmash.no/about/organisation/wp-leaders/) if you are interested in applying to an external fellowship program through one of our parners (for example, Marie Skłodowska-Curie Actions fellowships or Fulbright). Partners are also open for hosting self-funded internships (for example through the ERASMUS programme).
 
 ## Partners
 

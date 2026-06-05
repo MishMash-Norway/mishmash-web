@@ -36,7 +36,7 @@ MishMash er et KI-senter med mer enn 200 forskere fra høyere utdanningsinstitus
 
 ## Ledige stillinger
 
-Se oversikten over [ledige stillinger](https://mishmash.no/news/positions/). Ta [kontakt](https://mishmash.no/people/) hvis du er interessert i å søke til et eksternt stipendprogram gjennom en av våre partnere (for eksempel Marie Skłodowska-Curie Actions-stipend eller Fulbright). Partnere er også åpne for å ta imot egenfinansierte praktikanter (for eksempel gjennom ERASMUS-programmet).
+Se oversikten over [ledige stillinger](https://mishmash.no/news/positions/). Ta [kontakt](https://mishmash.no/no/about/organisation/wp-leaders/) hvis du er interessert i å søke til et eksternt stipendprogram gjennom en av våre partnere (for eksempel Marie Skłodowska-Curie Actions-stipend eller Fulbright). Partnere er også åpne for å ta imot egenfinansierte praktikanter (for eksempel gjennom ERASMUS-programmet).
 
 ## Partnere
 
