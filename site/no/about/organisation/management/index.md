@@ -5,7 +5,7 @@ title: Ledelse
 translation_url: /about/organisation/management/
 ---
 
-Ledelsen har ansvar for den daglige koordineringen og administrasjonen av MishMash-aktivitetene.
+Ledelsen håndterer den daglige koordineringen og administrasjonen av MishMash-aktivitetene.
 
 ## Medlemmer
 
@@ -16,7 +16,7 @@ Ledelsen har ansvar for den daglige koordineringen og administrasjonen av MishMa
   <div>
   <a href="https://www.uio.no/ritmo/english/people/management/alexanje/">Alexander Refsum Jensenius</a><br>
   Universitetet i Oslo<br>
-  Direktor
+  Direktør
   </div>
 </div>
 
@@ -25,7 +25,7 @@ Ledelsen har ansvar for den daglige koordineringen og administrasjonen av MishMa
   <div>
   <a href="/people/daniel-nordgard/">Daniel Nordgård</a><br>
   Universitetet i Agder<br>
-  Nestleder
+  Nestdirektør
   </div>
 </div>
 
@@ -33,8 +33,8 @@ Ledelsen har ansvar for den daglige koordineringen og administrasjonen av MishMa
   <a href="/people/ida-jahr/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/ida_jahr_INN.jpg" alt="Ida Jahr"></a>
   <div>
   <a href="/people/ida-jahr/">Ida Jahr</a><br>
-  Hogskolen i Innlandet<br>
-  Nestleder
+  Høgskolen i Innlandet<br>
+  Nestdirektør
   </div>
 </div>
 
@@ -43,7 +43,7 @@ Ledelsen har ansvar for den daglige koordineringen og administrasjonen av MishMa
   <div>
   <a href="/people/thomas-de-ridder/">Thomas de Ridder</a><br>
   Universitetet i Bergen<br>
-  Forskningsradgiver
+  Forskningsrådgiver
   </div>
 </div>
 
@@ -62,7 +62,7 @@ Ledelsen har ansvar for den daglige koordineringen og administrasjonen av MishMa
 
 Ledelsen har ansvar for:
 
-- Operasjonell koordinering pa tvers av alle arbeidspakker
-- Administrativ oppfolging
+- Operasjonell koordinering på tvers av alle arbeidspakker
+- Administrativ oppfølging
 - Budsjettstyring og ressursallokering
 - Kommunikasjon og formidling av resultater

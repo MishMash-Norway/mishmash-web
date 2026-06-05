@@ -5,14 +5,14 @@ title: Råd
 translation_url: /about/organisation/council/
 ---
 
-MishMash-rådet gir strategisk veiledning og overordnet oppfølging av MishMash-aktivitetene.
+Rådet gir strategisk veiledning og overordnet oppfølging av MishMash-aktivitetene.
 
 ## Rolle
 
 Rådet har ansvar for:
 
 - Strategisk retning og planlegging
-- Policyveiledning
+- Retningslinjer og policyveiledning
 - Å sikre samsvar med konsortiets målsettinger
 - Å legge til rette for koordinering mellom partnerinstitusjonene
 
@@ -20,12 +20,12 @@ Rådet har ansvar for:
 
 - [André Alexandersen Hauge](https://www.hiof.no/iio/itk/english/people/adm/andreh/index.html) (Høgskolen i Østfold)
 - [Charles Martin](https://comp.anu.edu.au/people/charles-martin/) (Australian National University)
-- [Christian Blom](https://notam.no/en/about-us/employees/) (Notam - Norwegian Centre for Technology, Art and Music)
+- [Christian Blom](https://notam.no/en/about-us/employees/) (Notam – Norsk senter for teknologi, kunst og musikk)
 - [Christian Schüssler](https://reimagine.no/contact) (Reimagine)
 - [Govert Valkenburg](https://www.ntnu.edu/employees/govert.valkenburg) (Norges teknisk-naturvitenskapelige universitet)
 - [Ingrid Chieh Yu](https://www.mn.uio.no/ifi/english/people/aca/ingridcy/) (Universitetet i Oslo)
 - [Jostein Gundersen](https://www4.uib.no/en/find-employees/jostein.gundersen) (Universitetet i Bergen)
-- [Lina Plataniti](https://norsus.no/en/ansatt/lina-plataniti/) (NORSUS - Norsk institutt for bærekraftsforskning)
+- [Lina Plataniti](https://norsus.no/en/ansatt/lina-plataniti/) (NORSUS – Norsk institutt for bærekraftsforskning)
 - [Lise Amy Hansen](https://www.aho.no/english/about/employees/lisehans/) (Arkitektur- og designhøgskolen i Oslo)
 - [Marit Wergeland](https://www.uia.no/english/about-uia/employees/maritwe/) (Universitetet i Agder)
 - [Morten Qvenild](https://nmh.no/en/contact-us/employees/morten-qvenild) (Norges musikkhøgskole)

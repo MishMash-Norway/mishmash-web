@@ -6,6 +6,6 @@ permalink: /no/privacy/
 translation_url: /privacy/
 ---
 
-Denne nettsiden bruker ikke informasjonskapsler (cookies). Vi setter ingen cookies i nettleseren din, og vi bruker ikke tredjepartsverktøy for analyse eller reklame som sporer besøkende.
+Denne nettsiden bruker ikke informasjonskapsler. Så enkelt er det. Vi setter ikke cookies i nettleseren din, og vi bruker ikke tredjeparts analyse- eller reklameverktøy som sporer besøkende.
 
-Spørsmål om behandling av personopplysninger kan rettes til [contact@mishmash.no](mailto:contact@mishmash.no).
+Hvis du har spørsmål, ta kontakt på [contact@mishmash.no](mailto:contact@mishmash.no).

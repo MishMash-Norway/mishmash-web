@@ -5,7 +5,7 @@ title: Styret
 translation_url: /about/organisation/board/
 ---
 
-MishMash-styret har ansvar for styring og overordnet oppfølging av senterets strategiske retning og aktiviteter.
+MishMash-styret gir styring og overordnet oppfølging av senterets strategiske retning og aktiviteter.
 
 ## Rolle
 
@@ -13,7 +13,7 @@ Styret har ansvar for:
 
 - Styring og overordnet oppfølging av MishMash
 - Strategiske beslutninger om senterets videre retning
-- Å sikre kvalitet og gjennomslag i forskningen
+- Å sikre kvalitet og effekt av forskningen
 - Representasjon av partnerinstitusjonene
 
 ## Medlemmer
@@ -33,7 +33,7 @@ Styret har ansvar for:
     <a href="https://notam.no/en/about-us/employees/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Christian_Blom_NOTAM.jpg" alt="Christian Blom"></a>
     <div>
     <a href="https://notam.no/en/about-us/employees/">Christian Blom</a><br>
-    Notam - Norwegian Centre for Technology, Art and Music<br>
+        Notam – Norsk senter for teknologi, kunst og musikk<br>
     Medlem
     </div>
 </div>

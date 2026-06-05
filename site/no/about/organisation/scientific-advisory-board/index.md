@@ -1,20 +1,20 @@
 ---
 layout: page
 lang: nb
-title: Vitenskapelig radgivende rad
+title: Vitenskapelig rådgivende råd
 translation_url: /about/organisation/scientific-advisory-board/
 ---
 
-Det vitenskapelig radgivende radet bestar av internasjonale eksperter som gir vitenskapelig radgivning og evaluering av MishMash-forskningen.
+Det vitenskapelige rådgivende rådet består av internasjonale eksperter som gir vitenskapelig veiledning og evaluering av MishMash-forskningen.
 
 ## Rolle
 
-Det vitenskapelig radgivende radet har ansvar for:
+Det vitenskapelige rådgivende rådet har ansvar for:
 
-- A bidra med internasjonalt vitenskapelig perspektiv
-- A evaluere forskningskvalitet og fremdrift
-- A gi rad om forskningsretning
-- A stotte formidling til internasjonale malgrupper
+- Å bidra med internasjonalt vitenskapelig perspektiv
+- Å evaluere forskningskvalitet og fremdrift
+- Å gi råd om forskningsretning
+- Å støtte formidling til internasjonale målgrupper
 
 ## Medlemmer
 
@@ -33,4 +33,4 @@ Det vitenskapelig radgivende radet har ansvar for:
 
 ## Dokumenter
 
-Relevante dokumenter og rapporter fra det vitenskapelig radgivende radet finnes her.
+Relevante dokumenter og rapporter fra det vitenskapelige rådgivende rådet finnes her.
