@@ -1,4 +1,4 @@
-synced_at: '2026-06-05T08:44:41Z'
+synced_at: '2026-06-06T07:46:26Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -931,6 +931,29 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: 'Calliope: Leveraging Artificial Intelligence, Preserving Human Creativity'
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Matthew Landers
+  institutions:
+  - name: Western Norway University of Applied Sciences
+    slug: western-norway-university-of-applied-sciences
+    url: /institutions/western-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Landers, Matthew
+      name: Matthew Landers
+    title: 'Calliope: Leveraging Artificial Intelligence, Preserving Human Creativity'
+    container: Temaveke KI.
+    details: Bergen.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5525930
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019e97d0274f-a73a0ec2-8c36-4390-87dc-7c18811fe013
+  nva_url: https://nva.sikt.no/publication/019e97d0274f-a73a0ec2-8c36-4390-87dc-7c18811fe013
 - title: Building intersectional Cultural Ecosystems & Institutions for the Future
   year: '2026'
   type: OtherPresentation
