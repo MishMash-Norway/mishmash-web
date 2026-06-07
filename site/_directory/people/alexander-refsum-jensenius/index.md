@@ -51,6 +51,10 @@ search_keywords:
 - Music Technology
 - Sound analysis /synthesis
 selected_works:
+- title: 'Sounding Human: Music and Machines, 1740/2020. By Deirdre Loughridge'
+  year: '2026'
+  source: Journal article
+  url: https://doi.org/10.1093/ml/gcag043
 - title: Building intersectional Cultural Ecosystems & Institutions for the Future
   year: '2026'
   source: Presentation
@@ -86,11 +90,6 @@ selected_works:
   year: '2026'
   source: Conference lecture
   url: https://moco26.movementcomputing.org/
-- title: Mixed Method Audio-Video Analyses of Felt Togetherness in a Networked Music-Dance
-    Performance
-  year: '2026'
-  source: Book chapter
-  url: https://doi.org/10.1145/3802842.3802884
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
 summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music technology

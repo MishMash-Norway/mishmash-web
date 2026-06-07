@@ -26,6 +26,9 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Presentation of MishMash Centre for AI and Creativity
+  year: '2026'
+  source: Conference poster
 - title: 'Design Agentics :: Creative R&D x AI'
   year: '2026'
   source: Presentation
@@ -63,9 +66,6 @@ selected_works:
   year: '2025'
   source: Presentation
   url: https://www.inn.no/om-universitetet/fakultet-for-film-tv-spill/hva-skjer-pa-ftvs/inkku-2025/
-- title: Kunst i intelligens
-  year: '2025'
-  source: Lecture
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/management/index.md
 - /home/alexanje/github/mishmash-web/no/about/organisation/management/index.md
