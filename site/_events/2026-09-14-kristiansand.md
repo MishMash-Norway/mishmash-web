@@ -43,3 +43,7 @@ Researchers are invited to submit an abstract for presentation at the conference
 ## Registration
 
 <a class="button" href="https://kilden.com/program/47818-opening-conference-of-the-mishmash-centre-for-artificial-intelligence-and-creativity/">Read more and Register</a>
+
+- Deadline: 6 July 2026
+- Notification: 13 July 2026
+- Later submissions may also be accepted
