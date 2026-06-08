@@ -1,4 +1,4 @@
-synced_at: '2026-06-07T08:24:24Z'
+synced_at: '2026-06-08T09:23:32Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -95,7 +95,7 @@ results:
       Performing Arts
     container: In Brooks, Anthony L. (Eds.), Proceedings of the 14th EAI International
       Conference on ArtsIT, Interactivity and Game Creation, ArtsIT 2025.
-    details: Springer. ISBN 9783032269997. p. 719–738.
+    details: 'Springer. ISBN 9783032269997. p. 719–738. doi: 10.1007/978-3-032-26999-7_18.'
     abstract: This paper presents LightHearted, an open-source Python framework for
       mapping the heart’s electrical activity from electrocardiography (ECG) signals
       acquired from performers to stage lighting in a concert setting. The aim is
@@ -111,6 +111,7 @@ results:
     full_text_url: https://hdl.handle.net/11250/5505933
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019d77b43c89-c73a3828-7905-4177-b75c-0bb76343906b
+  url: https://doi.org/10.1007/978-3-032-26999-7_18
   nva_url: https://nva.sikt.no/publication/019d77b43c89-c73a3828-7905-4177-b75c-0bb76343906b
 - title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
     Currently Used in Music Production
