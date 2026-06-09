@@ -46,6 +46,11 @@ search_keywords:
 - Operating systems
 - Informatics
 selected_works:
+- title: 'Impact of Latency on User Experience in Immersive Teleoperation: A Study
+    with Motion Capture Gloves and Dexterous Robotic Hand'
+  year: '2026'
+  source: Book chapter
+  url: https://doi.org/10.1109/swc65939.2025.00277
 - title: On the limits of trajectory prediction for hand movement trajectories with
     motion-capture sensors
   year: '2025'
@@ -80,11 +85,6 @@ selected_works:
 - title: Why Design Matters - Crowdsourcing of Complex Tasks
   year: '2015'
   source: Conference lecture
-- title: Energy Efficient Video Encoding Using the Tegra K1 Mobile Processor [Demo
-    Paper]
-  year: '2015'
-  source: Conference lecture
-  url: http://dl.acm.org/citation.cfm?id=2713186
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null

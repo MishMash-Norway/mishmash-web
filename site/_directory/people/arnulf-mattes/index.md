@@ -32,6 +32,10 @@ tags:
 search_keywords:
 - Musicology
 selected_works:
+- title: From project to national infrastructure — Building a digital work catalogue
+    for Norwegian musical heritage
+  year: '2026'
+  source: Conference lecture
 - title: Migration, identity formation, and Norwegian musical heritage in the USA
     - past and present
   year: '2025'
@@ -66,10 +70,6 @@ selected_works:
   year: '2020'
   source: Radio or TV
   url: https://radio.nrk.no/serie/spillerom-soendag/sesong/202010/MKRS01004320
-- title: Litterær lunsj med Arnulf Christian Mattes
-  year: '2020'
-  source: Lecture
-  url: https://bergenbibliotek.no/arrangement/litteraer-lunsj-med-arnulf-christian-mattes
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
