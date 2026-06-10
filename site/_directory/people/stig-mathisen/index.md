@@ -25,6 +25,10 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: '#2 Gitarmetodikk i USA vs Norge - Konsenpodden | Podcast on Spotify'
+  year: '2026'
+  source: Media podcast
+  url: https://open.spotify.com/episode/5dAUL0vjYb6uC1rZ9K4mSt?si=1880cf05df2b4f3c
 - title: Musikalsk medvirkning på Kirkekonsert i Havøysund med gitarist Stig Mathisen,
     vokalist Merethe Mikkelsen og bassist Jørgen Ytreberg.
   year: '2024'
