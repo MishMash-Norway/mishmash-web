@@ -407,6 +407,30 @@ a:focus-visible .icon {
   margin: 1.5rem 0 0;
 }
 
+.directory-related {
+  margin-top: 2rem;
+}
+
+.directory-related h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.directory-related ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.directory-related li {
+  margin-bottom: 0.4rem;
+}
+
+.directory-related .project-wp {
+  font-size: 0.85rem;
+  color: #55606a;
+}
+
 .person-selected-works .nva-results-group-title {
   margin-top: 0;
 }

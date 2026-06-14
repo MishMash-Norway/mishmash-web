@@ -87,6 +87,9 @@ layout: default
     </section>
     {% endif %}
 
+    {% assign person_slug_path = '/people/' | append: page.slug | append: '/' %}
+    {% include related-projects.html entity_path=person_slug_path project_slugs=page.projects %}
+
     {% if social_urls %}
     {% assign has_social_icons = false %}
     {% if social_urls.personal_website.size > 0 %}{% assign has_social_icons = true %}{% endif %}

@@ -1,0 +1,27 @@
+{% comment %}
+  Lists seed-funding projects linked to a person or institution.
+  include.entity_path  — e.g. /people/foo/ or /institutions/bar/
+  include.project_slugs — optional explicit slugs from front matter (page.projects)
+{% endcomment %}
+{% assign entity_path = include.entity_path %}
+{% assign all_projects = site.directory | where: "type", "project" | where_exp: "project", "project.url != '/projects/'" %}
+{% assign related_by_content = all_projects | where_exp: "project", "project.content contains entity_path" %}
+{% assign related_projects = related_by_content %}
+{% if include.project_slugs and include.project_slugs.size > 0 %}
+  {% assign related_by_slug = all_projects | where_exp: "project", "include.project_slugs contains project.slug" %}
+  {% assign related_projects = related_projects | concat: related_by_slug | uniq %}
+{% endif %}
+{% assign related_projects = related_projects | sort: "title" %}
+{% if related_projects.size > 0 %}
+<section class="directory-related" aria-label="Related projects">
+  <h2>Projects</h2>
+  <ul>
+    {% for project in related_projects %}
+    <li>
+      <a href="{{ project.url | relative_url }}">{{ project.title | default: project.name | default: project.slug }}</a>
+      {% if project.wp %}<span class="project-wp"> · {{ project.wp }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
