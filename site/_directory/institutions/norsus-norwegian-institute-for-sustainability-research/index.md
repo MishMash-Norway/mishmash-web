@@ -8,6 +8,7 @@ name: NORSUS - Norwegian Institute for Sustainability Research
 image: /images/institutions/norsus-norwegian-institute-for-sustainability-research.png
 people:
   - lina-plataniti
+  - /people/lina-plataniti/
 projects: []
 country:
 city:

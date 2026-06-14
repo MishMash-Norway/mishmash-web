@@ -9,6 +9,7 @@ image: /images/institutions/arctic-university-of-norway.png
 people:
   - jon-marius-aareskjold-drecker
   - stig-mathisen
+  - /people/shayan-dadman/
 projects: []
 country:
 city:

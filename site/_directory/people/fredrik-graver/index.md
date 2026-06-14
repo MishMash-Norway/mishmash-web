@@ -8,6 +8,7 @@ department: The Norwegian Film School
 image: /assets/images/portraits/circle/Fredrik_Graver_INN.png
 institution: inland-norway-university-of-applied-sciences
 institutions:
+  - /institutions/inland-norway-university-of-applied-sciences/
 - inland-norway-university-of-applied-sciences
 projects: []
 roles:

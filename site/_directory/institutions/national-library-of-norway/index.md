@@ -10,6 +10,7 @@ people:
   - hege-stensrud-hosoien
   - ingrid-romarheim-haugen
   - yngvil-beyer
+  - /people/eivind-rossaak/
 projects: []
 country:
 city:

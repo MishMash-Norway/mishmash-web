@@ -9,6 +9,7 @@ image: /images/institutions/western-norway-university-of-applied-sciences.png
 people:
   - sigurd-sandvold
   - tine-grieg-viig
+  - /people/zacharias-andreadakis/
 projects: []
 country:
 city:

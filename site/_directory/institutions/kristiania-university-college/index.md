@@ -8,6 +8,10 @@ name: Kristiania University College
 image: /images/institutions/kristiania-university-college.png
 people:
   - synne-tollerud-bull
+  - /people/gro-skaland/
+  - /people/henning-birkeland/
+  - /people/synne-tollerud-bull/
+  - /people/terje-gaustad/
 projects: []
 country:
 city:

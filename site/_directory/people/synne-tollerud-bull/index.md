@@ -8,6 +8,7 @@ department: Westerdals Department of Film and Media
 image: /assets/images/portraits/circle/Synne_Tollerud_Bull_Kristiania.png
 institution: kristiania-university-college
 institutions:
+  - /institutions/kristiania-university-college/
 - kristiania-university-college
 affiliation_units:
 - Kristiania University of Applied Sciences
@@ -85,7 +86,6 @@ summary: 'Synne Tollerud Bull is a media artist, researcher, and Professor, curr
   University of Applied Sciences. Her work bridges theory and practice to examine
   how emerging imaging technologies such as drones and AI shape societal structures
   through mediation in art and visual culture.
-
 
   She has developed the concept of proxistant vision to describe image forms that
   combine proximity and distance within a single vi'

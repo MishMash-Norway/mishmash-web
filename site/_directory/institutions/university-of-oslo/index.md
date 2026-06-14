@@ -15,6 +15,14 @@ people:
   - kyrre-glette
   - olivier-lartillot
   - ragnhild-brovig
+  - /people/cagri-erdem/
+  - /people/jon-marius-aareskjold-drecker/
+  - /people/ole-andreas-rognstad/
+  - /people/peter-edwards/
+  - /people/sascha-fruhholz/
+  - /people/victoria-johnson/
+  - /people/carsten-griwodz/
+  - /people/jonna-vuoskoski/
 projects: []
 country:
 city:

@@ -8,6 +8,9 @@ name: Oslo National Academy of the Arts
 image: /images/institutions/oslo-national-academy-of-the-arts.png
 people:
   - lise-amy-hansen
+  - /people/oystein-stene/
+  - /people/trine-wester/
+  - /people/tiril-schroder/
 projects: []
 country:
 city:

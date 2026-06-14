@@ -8,6 +8,7 @@ department: Department of English
 image: /assets/images/portraits/circle/ida_jahr_INN.png
 institution: inland-norway-university-of-applied-sciences
 institutions:
+  - /institutions/inland-norway-university-of-applied-sciences/
 - inland-norway-university-of-applied-sciences
 projects: []
 roles:

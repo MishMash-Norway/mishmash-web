@@ -8,6 +8,7 @@ department: Department of Music
 image: /assets/images/portraits/circle/Andreas_Bergsland_NTNU.png
 institution: norwegian-university-of-science-and-technology
 institutions:
+  - /institutions/norwegian-university-of-science-and-technology/
 - norwegian-university-of-science-and-technology
 affiliation_units:
 - Norwegian University of Science and Technology

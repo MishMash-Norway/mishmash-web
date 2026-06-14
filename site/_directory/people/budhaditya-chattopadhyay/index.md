@@ -8,6 +8,7 @@ department: The Art Academy &#8211; Department of Contemporary Art
 image: /assets/images/portraits/circle/Budhaditya_Chattopadhyay_UiB.png
 institution: university-of-bergen
 institutions:
+  - /institutions/university-of-bergen/
 - university-of-bergen
 projects: []
 roles:

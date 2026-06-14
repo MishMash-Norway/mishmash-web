@@ -11,6 +11,15 @@ people:
   - ida-jahr
   - nina-fredrikke-grunfeld
   - sashi-komandur
+  - /people/aedan-soellaart/
+  - /people/fredrik-graver/
+  - /people/ida-jahr/
+  - /people/ole-christoffer-haga/
+  - /people/sashi-komandur/
+  - /people/bjorn-tallak-bakken/
+  - /people/ole-christian-solbakken/
+  - /people/tonje-louise-finne/
+  - /people/troels-linde/
 projects: []
 country:
 city:

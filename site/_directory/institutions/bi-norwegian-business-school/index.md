@@ -9,6 +9,7 @@ image: /images/institutions/bi-norwegian-business-school.png
 people:
   - irina-eidsvold-toien
   - terje-colbjornsen
+  - /people/irina-eidsvold-toien/
 projects: []
 country:
 city:

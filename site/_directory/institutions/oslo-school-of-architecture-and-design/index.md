@@ -8,6 +8,8 @@ name: Oslo School of Architecture and Design
 image: /images/institutions/oslo-school-of-architecture-and-design.png
 people:
   - kjetil-nordby
+  - /people/enrique-encinas/
+  - /people/kjetil-nordby/
 projects: []
 country:
 city:

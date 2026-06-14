@@ -12,6 +12,10 @@ people:
   - claire-ghetti
   - jostein-gundersen
   - thomas-de-ridder
+  - /people/budhaditya-chattopadhyay/
+  - /people/daniel-peter-biro/
+  - /people/jason-nelson/
+  - /people/lars-nyre/
 projects: []
 country:
 city:

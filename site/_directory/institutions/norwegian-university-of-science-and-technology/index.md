@@ -9,6 +9,8 @@ image: /images/institutions/norwegian-university-of-science-and-technology.png
 people:
   - andreas-bergsland
   - govert-valkenburg
+  - /people/andreas-bergsland/
+  - /people/oyvind-brandsegg/
 projects: []
 country:
 city:

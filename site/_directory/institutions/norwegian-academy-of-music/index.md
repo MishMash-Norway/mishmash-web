@@ -10,6 +10,8 @@ people:
   - ivar-grydeland
   - morten-qvenild
   - sidsel-karlsen
+  - /people/ivar-grydeland/
+  - /people/sidsel-karlsen/
 projects: []
 country:
 city:

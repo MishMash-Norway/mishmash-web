@@ -42,6 +42,11 @@ defaults:
       type: "directory"
     values:
       layout: page
+  - scope:
+      path: "_directory/projects"
+      type: "directory"
+    values:
+      layout: page
 
 # optional: ask jekyll-feed to include these collections (if plugin version supports it)
 feed:

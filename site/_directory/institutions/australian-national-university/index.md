@@ -8,6 +8,7 @@ name: Australian National University
 image: /images/institutions/australian-national-university.png
 people:
   - charles-martin
+  - /people/felicity-baker/
 projects: []
 country:
 city:

@@ -8,6 +8,7 @@ department: Department of Law and Governance
 image: /assets/images/portraits/circle/Irina_Eidsvold_Toien_BI.png
 institution: bi-norwegian-business-school
 institutions:
+  - /institutions/bi-norwegian-business-school/
 - bi-norwegian-business-school
 affiliation_units:
 - BI Norwegian Business School

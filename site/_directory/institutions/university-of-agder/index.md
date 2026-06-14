@@ -11,6 +11,8 @@ people:
   - eirik-sorbo
   - marit-wergeland
   - sunniva-whittaker
+  - /people/eirik-sorbo/
+  - /people/ivar-grydeland/
 projects: []
 country:
 city:

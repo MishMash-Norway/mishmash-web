@@ -8,6 +8,8 @@ name: Notam - Norwegian Centre for Technology, Art and Music
 image: /images/institutions/notam-norwegian-centre-for-technology-art-and-music.png
 people:
   - christian-blom
+  - /people/anders-tveit/
+  - /people/christian-blom/
 projects: []
 country:
 city:
