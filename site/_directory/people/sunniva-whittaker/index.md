@@ -14,7 +14,8 @@ projects: []
 roles:
 - Board Leader
 urls:
-  website: ''
+  personal_website: \'\'
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: ''

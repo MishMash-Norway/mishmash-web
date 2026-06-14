@@ -15,7 +15,8 @@ roles:
   - Board Member
   - Council member
 urls:
-  website: https://reimagine.no/contact
+  personal_website: \'\'
+  institutional_website: https://reimagine.no/contact
   github:
   linkedin:
   orcid:

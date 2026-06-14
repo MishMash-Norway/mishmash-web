@@ -13,7 +13,8 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://budhaditya.org
+  personal_website: \'\'
+  institutional_website: https://budhaditya.org
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-9489-2721

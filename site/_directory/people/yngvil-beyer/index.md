@@ -15,7 +15,8 @@ projects: []
 roles:
 - Council member
 urls:
-  website: ''
+  personal_website: \'\'
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0009-4615-6143

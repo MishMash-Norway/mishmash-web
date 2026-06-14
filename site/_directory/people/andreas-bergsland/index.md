@@ -17,7 +17,8 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: http://folk.ntnu.no/andbe/
+  personal_website: \'\'
+  institutional_website: http://folk.ntnu.no/andbe/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-8517-447X

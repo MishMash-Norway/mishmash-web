@@ -10,7 +10,8 @@ institutions: []
 projects: []
 roles: []
 urls:
-  website: ''
+  personal_website: \'\'
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: ''

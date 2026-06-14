@@ -11,7 +11,8 @@ projects: []
 roles:
 - Council member
 urls:
-  website: https://charlesmartin.com.au
+  personal_website: \'\'
+  institutional_website: https://charlesmartin.com.au
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-5683-7529
