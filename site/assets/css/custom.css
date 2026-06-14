@@ -734,7 +734,7 @@ a:focus-visible .icon {
   list-style: none;
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
   user-select: none;
 }
 
@@ -742,14 +742,28 @@ a:focus-visible .icon {
   display: none;
 }
 
-.filter-group-collapsible summary::before {
-  content: '▸';
-  display: inline-block;
-  font-size: 0.75rem;
-  transition: transform 0.15s;
+.filter-expand-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.1em;
+  height: 1.1em;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: #55606a;
+  border: 1px solid #c1c9d2;
+  border-radius: 3px;
+  background: #f8f9fb;
+  transition: transform 0.15s, border-color 0.15s;
 }
 
-.filter-group-collapsible[open] summary::before {
+.filter-group-collapsible summary:hover .filter-expand-icon,
+.filter-group-collapsible summary:focus-visible .filter-expand-icon {
+  border-color: #A7A1F4;
+  color: #4a4580;
+}
+
+.filter-group-collapsible[open] .filter-expand-icon {
   transform: rotate(90deg);
 }
 
