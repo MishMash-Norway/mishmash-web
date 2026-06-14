@@ -27,7 +27,7 @@ This raises critical questions about cultural agency: Who decides what stories a
 ## Work Package Leaders
 
 <div class="wp-member-row">
-    <a href="https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay"><img src="/assets/images/portraits/circle/Budhaditya_Chattopadhyay_UiB.png" alt="Budhaditya Chattopadhyay" class="wp-member-photo"></a>
+    <a href="https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay"><img src="/assets/images/portraits/Budhaditya_Chattopadhyay_UiB.jpg" alt="Budhaditya Chattopadhyay" class="wp-member-photo"></a>
     <div>
     <a href="https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay">Budhaditya Chattopadhyay</a><br>
     University of Bergen<br>
@@ -36,7 +36,7 @@ This raises critical questions about cultural agency: Who decides what stories a
 </div>
 
 <div class="wp-member-row">
-    <a href="https://www.inn.no/english/find-an-employee/sashi-komandur.html"><img src="/assets/images/portraits/circle/Sashidharan_Komandur_INN.png" alt="Sashi Komandur" class="wp-member-photo"></a>
+    <a href="https://www.inn.no/english/find-an-employee/sashi-komandur.html"><img src="/assets/images/portraits/Sashidharan_Komandur_INN.jpg" alt="Sashi Komandur" class="wp-member-photo"></a>
     <div>
     <a href="https://www.inn.no/english/find-an-employee/sashi-komandur.html">Sashi Komandur</a><br>
     University of Inland Norway<br>
@@ -45,7 +45,7 @@ This raises critical questions about cultural agency: Who decides what stories a
 </div>
 
 <div class="wp-member-row">
-    <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/"><img src="/assets/images/portraits/circle/Synne_Tollerud_Bull_Kristiania.png" alt="Synne Tollerud Bull" class="wp-member-photo"></a>
+    <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/"><img src="/assets/images/portraits/Synne_Tollerud_Bull_Kristiania.jpg" alt="Synne Tollerud Bull" class="wp-member-photo"></a>
     <div>
     <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/">Synne Tollerud Bull</a><br>
     Kristiania University College<br>

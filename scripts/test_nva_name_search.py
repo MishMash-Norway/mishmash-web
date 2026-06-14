@@ -60,7 +60,7 @@ class NvaPortraitDownloadTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             dest = Path(tmp) / "portrait.png"
             self.assertTrue(download_nva_portrait("https://api.nva.unit.no/cristin/person/1/picture", dest))
-            self.assertTrue(dest.exists())
+            self.assertTrue(dest.with_suffix(".jpg").exists())
 
 
 if __name__ == "__main__":

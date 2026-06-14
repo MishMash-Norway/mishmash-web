@@ -5,7 +5,7 @@ name: Jonna Katariina Vuoskoski
 title: Jonna Katariina Vuoskoski
 position: Professor
 department: IMV stab
-image: /assets/images/portraits/circle/Jonna_Vuoskoski_UiO.png
+image: /assets/images/portraits/Jonna_Vuoskoski_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo

@@ -5,7 +5,7 @@ name: Nina Fredrikke Grünfeld
 title: Nina Fredrikke Grünfeld
 position: Professor
 department: The TV School - Department of Television Education
-image: /assets/images/portraits/circle/Nina_Fredrikke_Grünfeld_INN.png
+image: /assets/images/portraits/Nina_Fredrikke_Grünfeld_INN.png
 institution: inland-norway-university-of-applied-sciences
 institutions:
 - inland-norway-university-of-applied-sciences

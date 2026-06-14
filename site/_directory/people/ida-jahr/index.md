@@ -5,7 +5,7 @@ name: Ida Jahr
 title: Ida Jahr
 position: Associate professor
 department: Department of English
-image: /assets/images/portraits/circle/ida_jahr_INN.png
+image: /assets/images/portraits/ida_jahr_INN.jpg
 institution: inland-norway-university-of-applied-sciences
 institutions:
 - inland-norway-university-of-applied-sciences

@@ -5,7 +5,7 @@ name: Morten Qvenild
 title: Morten Qvenild
 position: Pro-rector
 department: Fagseksjon for improvisert musikk, jazz og folkemusikk
-image: /assets/images/portraits/circle/Morten_Qvenild_NMH.png
+image: /assets/images/portraits/Morten_Qvenild_NMH.jpg
 institution: norwegian-academy-of-music
 institutions:
 - norwegian-academy-of-music

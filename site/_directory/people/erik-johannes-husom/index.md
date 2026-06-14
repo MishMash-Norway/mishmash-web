@@ -5,7 +5,7 @@ name: Erik Johannes Husom
 title: Erik Johannes Husom
 position: Researcher
 department: Sustainable Communication Technologies
-image: /assets/images/portraits/circle/Erik_Johannes_Husom_SinDig.png
+image: /assets/images/portraits/Erik_Johannes_Husom_SinDig.png
 institution: sintef-digital
 institutions:
 - sintef-digital

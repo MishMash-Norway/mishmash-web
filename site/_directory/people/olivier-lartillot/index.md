@@ -6,7 +6,7 @@ title: Olivier Lartillot
 position: Researcher
 department: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   (IMV)
-image: /assets/images/portraits/circle/Olivier_Lartillot_UiO.png
+image: /assets/images/portraits/Olivier_Lartillot_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo

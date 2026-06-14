@@ -5,7 +5,7 @@ name: Fredrik Graver
 title: Fredrik Graver
 position: Professor
 department: The Norwegian Film School
-image: /assets/images/portraits/circle/Fredrik_Graver_INN.png
+image: /assets/images/portraits/Fredrik_Graver_INN.jpg
 institution: inland-norway-university-of-applied-sciences
 institutions:
 - inland-norway-university-of-applied-sciences

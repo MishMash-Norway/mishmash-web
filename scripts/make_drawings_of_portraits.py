@@ -5,8 +5,8 @@ import os
 
 from repo_paths import SITE_ROOT
 
-input_folder = os.path.join(SITE_ROOT, 'assets/images/portraits/circle')
-output_folder = os.path.join(SITE_ROOT, 'assets/images/portraits/circle_drawing')
+input_folder = os.path.join(SITE_ROOT, 'assets/images/portraits')
+output_folder = os.path.join(SITE_ROOT, 'assets/images/portraits/_drawings')
 os.makedirs(output_folder, exist_ok=True)
 
 def pencil_sketch(img):

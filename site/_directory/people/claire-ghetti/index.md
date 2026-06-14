@@ -5,7 +5,7 @@ name: Claire Ghetti
 title: Claire Ghetti
 position: Professor
 department: The Grieg Academy &#8211; Department of Music
-image: /assets/images/portraits/circle/Claire_Ghetti_UiB.png
+image: /assets/images/portraits/Claire_Ghetti_UiB.jpg
 institution: university-of-bergen
 institutions:
 - university-of-bergen

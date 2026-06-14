@@ -5,7 +5,7 @@ name: Eivind Røssaak
 title: Eivind Røssaak
 position: Researcher
 department: Visual media and conservation
-image: /assets/images/portraits/circle/Eivind_Røssaak_NatLib.png
+image: /assets/images/portraits/Eivind_Røssaak_NatLib.png
 institution: national-library-of-norway
 institutions:
 - national-library-of-norway

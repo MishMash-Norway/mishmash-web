@@ -10,7 +10,7 @@ from pathlib import Path
 
 import requests
 import yaml
-from PIL import Image, ImageDraw
+from PIL import Image
 
 from nva_result_types import nva_publication_source
 from repo_paths import REPO_ROOT, SITE_ROOT
@@ -24,7 +24,7 @@ class NoAliasDumper(yaml.SafeDumper):
 PERSON_PROFILE_RE = re.compile(r"/research-profile/(\d+)")
 CRISTIN_RE = re.compile(r"/cristin/person/(\d+)")
 ORCID_PROFILE_RE = re.compile(r"orcid\.org/((?:\d{4}-){3}[\dX]{4})", re.IGNORECASE)
-PORTRAITS_CIRCLE_DIR = "assets/images/portraits/circle"
+PORTRAITS_DIR = "assets/images/portraits"
 PORTRAIT_MAX_SIZE = 300
 DEFAULT_MAX_WORKS = 10
 DEFAULT_MAX_TAGS = 12
@@ -546,27 +546,25 @@ def institution_abbrev(slug: str) -> str:
 def portrait_filename(name: str, institution_slug: str) -> str:
     parts = [p for p in re.sub(r"\([^)]*\)", " ", name).split() if p]
     stem = "_".join(parts) if parts else "person"
-    return f"{stem}_{institution_abbrev(institution_slug)}.png"
+    return f"{stem}_{institution_abbrev(institution_slug)}.jpg"
 
 
-def save_circle_portrait(image_bytes: bytes, dest_path: Path, max_size: int = PORTRAIT_MAX_SIZE) -> None:
+def save_square_portrait(image_bytes: bytes, dest_path: Path, max_size: int = PORTRAIT_MAX_SIZE) -> None:
     with Image.open(BytesIO(image_bytes)) as opened:
-        img = opened.convert("RGBA")
+        img = opened.convert("RGB")
         size = min(img.size)
         left = (img.width - size) // 2
         top = (img.height - size) // 2
         img = img.crop((left, top, left + size, top + size))
         if size > max_size:
             img = img.resize((max_size, max_size), Image.Resampling.LANCZOS)
-            size = max_size
-
-        mask = Image.new("L", (size, size), 0)
-        draw = ImageDraw.Draw(mask)
-        draw.ellipse((0, 0, size, size), fill=255)
-        result = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-        result.paste(img, (0, 0), mask)
+        dest_path = dest_path.with_suffix(".jpg")
         dest_path.parent.mkdir(parents=True, exist_ok=True)
-        result.save(dest_path)
+        img.save(dest_path, "JPEG", quality=90)
+
+
+def save_circle_portrait(image_bytes: bytes, dest_path: Path, max_size: int = PORTRAIT_MAX_SIZE) -> None:
+    save_square_portrait(image_bytes, dest_path, max_size)
 
 
 def download_nva_portrait(image_url: str, dest_path: Path) -> bool:
@@ -585,7 +583,7 @@ def download_nva_portrait(image_url: str, dest_path: Path) -> bool:
             image_bytes = base64.b64decode(encoded)
         else:
             image_bytes = response.content
-        save_circle_portrait(image_bytes, dest_path)
+        save_square_portrait(image_bytes, dest_path)
         return True
     except Exception:
         return False
@@ -1320,9 +1318,9 @@ def enrich_person(
     existing_image = (data.get("image") or "").strip()
     if download_images and image_url and not existing_image:
         portrait_name = portrait_filename(data.get("name") or slug, institution or (data.get("institution") or ""))
-        portrait_path = root / PORTRAITS_CIRCLE_DIR / portrait_name
+        portrait_path = root / PORTRAITS_DIR / portrait_name
         if download_nva_portrait(image_url, portrait_path):
-            image_ref = f"/{PORTRAITS_CIRCLE_DIR}/{portrait_name}"
+            image_ref = f"/{PORTRAITS_DIR}/{portrait_path.with_suffix('.jpg').name}"
             if data.get("image") != image_ref:
                 data["image"] = image_ref
                 changed = True

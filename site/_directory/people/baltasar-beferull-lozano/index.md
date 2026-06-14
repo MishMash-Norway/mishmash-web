@@ -5,7 +5,7 @@ name: Baltasar Beferull-Lozano
 title: Baltasar Beferull-Lozano
 position: Professor
 department: Department of Information and Communication Technology (ICT)
-image: /assets/images/portraits/circle/Baltasar_Beferull_Simula.png
+image: /assets/images/portraits/Baltasar_Beferull_Simula.jpg
 institution: university-of-agder
 institutions:
 - simula-metropolitan-center-for-digital-engineering

@@ -5,7 +5,7 @@ name: Kyrre Glette
 title: Kyrre Glette
 position: Professor
 department: Research Group for Robotics and Intelligent Systems
-image: /assets/images/portraits/circle/Kyrre_Glette_UiO.png
+image: /assets/images/portraits/Kyrre_Glette_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo

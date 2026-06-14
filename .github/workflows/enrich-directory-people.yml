@@ -49,7 +49,7 @@ jobs:
             echo "No directory changes to commit."
             exit 0
           fi
-          git add site/_directory/people site/assets/images/portraits/circle site/_data/mishmash_results.yml
+          git add site/_directory/people site/assets/images/portraits site/_data/mishmash_results.yml
           git commit -m "Update directory and results from NVA." \
             -m "Scheduled sync of people profiles and MishMash project results."
           git push

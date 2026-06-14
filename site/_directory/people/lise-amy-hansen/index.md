@@ -5,7 +5,7 @@ name: Lise Amy Hansen
 title: Lise Amy Hansen
 position: Professor
 department: Institute of Design
-image: /assets/images/portraits/circle/Lise_Amy_Hansen_AHO.png
+image: /assets/images/portraits/Lise_Amy_Hansen_AHO.png
 institution: oslo-school-of-architecture-and-design
 institutions:
 - oslo-school-of-architecture-and-design

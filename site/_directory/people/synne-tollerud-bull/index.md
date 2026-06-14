@@ -5,7 +5,7 @@ name: Synne Tollerud Bull
 title: Synne Tollerud Bull
 position: Professor
 department: Westerdals Department of Film and Media
-image: /assets/images/portraits/circle/Synne_Tollerud_Bull_Kristiania.png
+image: /assets/images/portraits/Synne_Tollerud_Bull_Kristiania.jpg
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college

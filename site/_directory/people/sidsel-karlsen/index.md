@@ -5,7 +5,7 @@ name: Sidsel Karlsen
 title: Sidsel Karlsen
 position: Professor
 department: Norwegian Academy of Music
-image: /assets/images/portraits/circle/Sidsel_Karlsen_NMH.png
+image: /assets/images/portraits/Sidsel_Karlsen_NMH.jpg
 institution: norwegian-academy-of-music
 institutions:
 - norwegian-academy-of-music

@@ -32,7 +32,7 @@ This work package examines these transformations across four interconnected area
 ## Work Package Leaders
 
 <div class="wp-member-row">
-    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html"><img src="/assets/images/portraits/circle/Ragnhild_Brovig_UiO.png" alt="Ragnhild Brøvig" class="wp-member-photo"></a>
+    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html"><img src="/assets/images/portraits/Ragnhild_Brovig_UiO.jpg" alt="Ragnhild Brøvig" class="wp-member-photo"></a>
     <div>
     <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html">Ragnhild Brøvig</a><br>
     University of Oslo<br>
@@ -41,7 +41,7 @@ This work package examines these transformations across four interconnected area
 </div>
 
 <div class="wp-member-row">
-    <a href="https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/"><img src="/assets/images/portraits/circle/Irina_Eidsvold_Toien_BI.png" alt="Irina Eidsvold-Tøien" class="wp-member-photo"></a>
+    <a href="https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/"><img src="/assets/images/portraits/Irina_Eidsvold_Toien_BI.jpg" alt="Irina Eidsvold-Tøien" class="wp-member-photo"></a>
     <div>
     <a href="https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/">Irina Eidsvold-Tøien</a><br>
     BI Norwegian Business School<br>
@@ -50,7 +50,7 @@ This work package examines these transformations across four interconnected area
 </div>
 
 <div class="wp-member-row">
-    <a href="https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175"><img src="/assets/images/portraits/circle/Jon_Marius_Aareskjold-Drecker_UiT.png" alt="Jon Marius Aareskjold-Drecker" class="wp-member-photo"></a>
+    <a href="https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175"><img src="/assets/images/portraits/Jon_Marius_Aareskjold-Drecker_UiT.jpg" alt="Jon Marius Aareskjold-Drecker" class="wp-member-photo"></a>
     <div>
     <a href="https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175">Jon Marius Aareskjold-Drecker</a><br>
     University of Tromsø<br>

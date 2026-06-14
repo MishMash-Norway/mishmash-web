@@ -5,7 +5,7 @@ name: Andreas Bergsland
 title: Andreas Bergsland
 position: Professor
 department: Department of Music
-image: /assets/images/portraits/circle/Andreas_Bergsland_NTNU.png
+image: /assets/images/portraits/Andreas_Bergsland_NTNU.jpg
 institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology

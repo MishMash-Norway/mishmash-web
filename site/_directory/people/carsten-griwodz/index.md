@@ -5,7 +5,7 @@ name: Carsten Griwodz
 title: Carsten Griwodz
 position: Professor
 department: Networks and Distributed Systems
-image: /assets/images/portraits/circle/Carsten_Griwodz_UiO.png
+image: /assets/images/portraits/Carsten_Griwodz_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo

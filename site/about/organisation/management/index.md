@@ -12,7 +12,7 @@ The Management group handles the day-to-day coordination and administration of M
 <!-- markdownlint-disable MD033 -->
 
 <div class="board-member-row">
-  <a href="https://www.uio.no/ritmo/english/people/management/alexanje/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Alexander_Refsum_Jensenius_UiO.jpg" alt="Alexander Refsum Jensenius"></a>
+  <a href="https://www.uio.no/ritmo/english/people/management/alexanje/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/Alexander_Refsum_Jensenius_UiO.jpg" alt="Alexander Refsum Jensenius"></a>
   <div>
   <a href="https://www.uio.no/ritmo/english/people/management/alexanje/">Alexander Refsum Jensenius</a><br>
   University of Oslo<br>
@@ -21,7 +21,7 @@ The Management group handles the day-to-day coordination and administration of M
 </div>
 
 <div class="board-member-row">
-  <a href="/people/daniel-nordgard/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Daniel_Nordgaard_UiA.jpg" alt="Daniel Nordgård"></a>
+  <a href="/people/daniel-nordgard/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/Daniel_Nordgaard_UiA.jpg" alt="Daniel Nordgård"></a>
   <div>
   <a href="/people/daniel-nordgard/">Daniel Nordgård</a><br>
   University of Agder<br>
@@ -30,7 +30,7 @@ The Management group handles the day-to-day coordination and administration of M
 </div>
 
 <div class="board-member-row">
-  <a href="/people/ida-jahr/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/ida_jahr_INN.jpg" alt="Ida Jahr"></a>
+  <a href="/people/ida-jahr/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/ida_jahr_INN.jpg" alt="Ida Jahr"></a>
   <div>
   <a href="/people/ida-jahr/">Ida Jahr</a><br>
   Inland Norway University of Applied Sciences<br>
@@ -39,7 +39,7 @@ The Management group handles the day-to-day coordination and administration of M
 </div>
 
 <div class="board-member-row">
-  <a href="/people/thomas-de-ridder/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/Thomas_de_Ridder_UiB.jpg" alt="Thomas de Ridder"></a>
+  <a href="/people/thomas-de-ridder/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/Thomas_de_Ridder_UiB.jpg" alt="Thomas de Ridder"></a>
   <div>
   <a href="/people/thomas-de-ridder/">Thomas de Ridder</a><br>
   University of Bergen<br>
@@ -48,7 +48,7 @@ The Management group handles the day-to-day coordination and administration of M
 </div>
 
 <div class="board-member-row">
-  <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html"><img class="person-thumb board-member-photo" src="/assets/images/portraits/square/eskil_muan_saether_UiO.jpg" alt="Eskil Muan Saether"></a>
+  <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html"><img class="person-thumb board-member-photo" src="/assets/images/portraits/eskil_muan_saether_UiO.jpg" alt="Eskil Muan Saether"></a>
   <div>
   <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html">Eskil Muan Saether</a><br>
   University of Oslo<br>

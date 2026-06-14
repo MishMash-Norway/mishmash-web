@@ -6,7 +6,7 @@ title: Alexander Refsum Jensenius
 position: Professor
 department: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   (IMV)
-image: /assets/images/portraits/circle/Alexander_Refsum_Jensenius_UiO.png
+image: /assets/images/portraits/Alexander_Refsum_Jensenius_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo

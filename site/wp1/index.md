@@ -29,7 +29,7 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
 ## Work Package Leaders
 
 <div class="wp-member-row">
-    <a href="https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html"><img src="/assets/images/portraits/circle/Kyrre_Glette_UiO.png" alt="Kyrre Glette" class="wp-member-photo"></a>
+    <a href="https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html"><img src="/assets/images/portraits/Kyrre_Glette_UiO.jpg" alt="Kyrre Glette" class="wp-member-photo"></a>
     <div>
     <a href="https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html">Kyrre Glette</a><br>
     University of Oslo<br>
@@ -38,7 +38,7 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
 </div>
 
 <div class="wp-member-row">
-    <a href="https://nmh.no/kontakt-oss/ansatte/ivar-grydeland"><img src="/assets/images/portraits/circle/Ivar_Grydeland_NMH.png" alt="Ivar Grydeland" class="wp-member-photo"></a>
+    <a href="https://nmh.no/kontakt-oss/ansatte/ivar-grydeland"><img src="/assets/images/portraits/Ivar_Grydeland_NMH.jpg" alt="Ivar Grydeland" class="wp-member-photo"></a>
     <div>
     <a href="https://nmh.no/kontakt-oss/ansatte/ivar-grydeland">Ivar Grydeland</a><br>
     Norwegian Academy of Music<br>
@@ -47,7 +47,7 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
 </div>
 
 <div class="wp-member-row">
-    <a href="https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html"><img src="/assets/images/portraits/circle/Georgios_Marentakis_HiOF.png" alt="Georgios Marentakis" class="wp-member-photo"></a>
+    <a href="https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html"><img src="/assets/images/portraits/Georgios_Marentakis_HiOF.jpg" alt="Georgios Marentakis" class="wp-member-photo"></a>
     <div>
     <a href="https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html">Georgios Marentakis</a><br>
     Østfold University College<br>

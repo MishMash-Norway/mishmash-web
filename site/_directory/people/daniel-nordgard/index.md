@@ -5,7 +5,7 @@ name: Daniel Nordgård
 title: Daniel Nordgård
 position: Professor
 department: Department of Popular Music
-image: /assets/images/portraits/circle/Daniel_Nordgaard_UiA.png
+image: /assets/images/portraits/Daniel_Nordgaard_UiA.jpg
 institution: university-of-agder
 institutions:
 - university-of-agder

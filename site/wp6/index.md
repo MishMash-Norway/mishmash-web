@@ -31,7 +31,7 @@ The public sector must lead in these technologies, ensuring that powerful new ca
 ## Work Package Leaders
 
 <div class="wp-member-row">
-    <a href="https://www.nb.no/ansatte/ingrid-romarheim-haugen/"><img src="/assets/images/portraits/circle/Ingrid_Romarheim_Haugen_NB.png" alt="Ingrid Romarheim Haugen" class="wp-member-photo"></a>
+    <a href="https://www.nb.no/ansatte/ingrid-romarheim-haugen/"><img src="/assets/images/portraits/Ingrid_Romarheim_Haugen_NB.jpg" alt="Ingrid Romarheim Haugen" class="wp-member-photo"></a>
     <div>
     <a href="https://www.nb.no/ansatte/ingrid-romarheim-haugen/">Ingrid Romarheim Haugen</a><br>
     National Library of Norway<br>
@@ -40,7 +40,7 @@ The public sector must lead in these technologies, ensuring that powerful new ca
 </div>
 
 <div class="wp-member-row">
-    <a href="https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes"><img src="/assets/images/portraits/circle/Arnulf_Mattes_UiB.png" alt="Arnulf Mattes" class="wp-member-photo"></a>
+    <a href="https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes"><img src="/assets/images/portraits/Arnulf_Mattes_UiB.jpg" alt="Arnulf Mattes" class="wp-member-photo"></a>
     <div>
     <a href="https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes">Arnulf Mattes</a><br>
     University of Bergen<br>
@@ -49,7 +49,7 @@ The public sector must lead in these technologies, ensuring that powerful new ca
 </div>
 
 <div class="wp-member-row">
-    <a href="https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html"><img src="/assets/images/portraits/circle/Olivier_Lartillot_UiO.png" alt="Olivier Lartillot" class="wp-member-photo"></a>
+    <a href="https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html"><img src="/assets/images/portraits/Olivier_Lartillot_UiO.jpg" alt="Olivier Lartillot" class="wp-member-photo"></a>
     <div>
     <a href="https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html">Olivier Lartillot</a><br>
     University of Oslo<br>

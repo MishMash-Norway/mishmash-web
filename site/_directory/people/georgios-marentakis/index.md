@@ -5,7 +5,7 @@ name: Georgios Marentakis
 title: Georgios Marentakis
 position: Associate professor
 department: Department of Computer Science and Communication
-image: /assets/images/portraits/circle/Georgios_Marentakis_HiOF.png
+image: /assets/images/portraits/Georgios_Marentakis_HiOF.jpg
 institution: ostfold-university-college
 institutions:
 - ostfold-university-college

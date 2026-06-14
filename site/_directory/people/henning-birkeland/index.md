@@ -5,7 +5,7 @@ name: Henning Birkeland
 title: Henning Birkeland
 position: University college lecturer
 department: Westerdals Department of Film and Media
-image: /assets/images/portraits/circle/Henning_Birkeland_KriUni.png
+image: /assets/images/portraits/Henning_Birkeland_KriUni.png
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college

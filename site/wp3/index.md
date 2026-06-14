@@ -27,7 +27,7 @@ Ethical considerations are central to this WP, especially how AI can be used res
 ## Work Package Leaders
 
 <div class="wp-member-row">
-    <a href="https://www4.uib.no/en/find-employees/claire.ghetti"><img src="/assets/images/portraits/circle/Claire_Ghetti_UiB.png" alt="Claire Ghetti" class="wp-member-photo"></a>
+    <a href="https://www4.uib.no/en/find-employees/claire.ghetti"><img src="/assets/images/portraits/Claire_Ghetti_UiB.jpg" alt="Claire Ghetti" class="wp-member-photo"></a>
     <div>
     <a href="https://www4.uib.no/en/find-employees/claire.ghetti">Claire Ghetti</a><br>
     University of Bergen<br>
@@ -36,7 +36,7 @@ Ethical considerations are central to this WP, especially how AI can be used res
 </div>
 
 <div class="wp-member-row">
-    <a href="https://www.ntnu.edu/employees/andreas.bergsland"><img src="/assets/images/portraits/circle/Andreas_Bergsland_NTNU.png" alt="Andreas Bergsland" class="wp-member-photo"></a>
+    <a href="https://www.ntnu.edu/employees/andreas.bergsland"><img src="/assets/images/portraits/Andreas_Bergsland_NTNU.jpg" alt="Andreas Bergsland" class="wp-member-photo"></a>
     <div>
     <a href="https://www.ntnu.edu/employees/andreas.bergsland">Andreas Bergsland</a><br>
     NTNU<br>
@@ -45,7 +45,7 @@ Ethical considerations are central to this WP, especially how AI can be used res
 </div>
 
 <div class="wp-member-row">
-    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html"><img src="/assets/images/portraits/circle/Jonna_Vuoskoski_UiO.png" alt="Jonna Vuoskoski" class="wp-member-photo"></a>
+    <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html"><img src="/assets/images/portraits/Jonna_Vuoskoski_UiO.jpg" alt="Jonna Vuoskoski" class="wp-member-photo"></a>
     <div>
     <a href="https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html">Jonna Vuoskoski</a><br>
     University of Oslo<br>

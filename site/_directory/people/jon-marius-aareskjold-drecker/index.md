@@ -5,7 +5,7 @@ name: Jon Marius Aareskjold-Drecker
 title: Jon Marius Aareskjold-Drecker
 position: Senior lecturer
 department: IMV stab
-image: /assets/images/portraits/circle/Jon_Marius_Aareskjold-Drecker_UiT.png
+image: /assets/images/portraits/Jon_Marius_Aareskjold-Drecker_UiT.jpg
 institution: university-of-oslo
 institutions:
 - arctic-university-of-norway

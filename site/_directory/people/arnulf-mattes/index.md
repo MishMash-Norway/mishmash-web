@@ -5,7 +5,7 @@ name: Arnulf Christian Mattes
 title: Arnulf Christian Mattes
 position: Professor
 department: The Grieg Academy &#8211; Department of Music
-image: /assets/images/portraits/circle/Arnulf_Mattes_UiB.png
+image: /assets/images/portraits/Arnulf_Mattes_UiB.jpg
 institution: university-of-bergen
 institutions:
 - university-of-bergen

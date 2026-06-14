@@ -5,7 +5,7 @@ name: Eskil Muan Sæther
 title: Eskil Muan Sæther
 position: Senior adviser
 department: IMV administrasjon
-image: /assets/images/portraits/circle/eskil_muan_saether_UiO.png
+image: /assets/images/portraits/eskil_muan_saether_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo

@@ -5,7 +5,7 @@ name: Ragnhild Brøvig
 title: Ragnhild Brøvig
 position: Professor
 department: Department of Musicology
-image: /assets/images/portraits/circle/Ragnhild_Brovig_UiO.png
+image: /assets/images/portraits/Ragnhild_Brovig_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo

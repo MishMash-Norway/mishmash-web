@@ -5,7 +5,7 @@ name: Lars Nyre
 title: Lars Nyre
 position: Professor
 department: Department of Information Science and Media Studies
-image: /assets/images/portraits/circle/Lars_Nyre_UiB.png
+image: /assets/images/portraits/Lars_Nyre_UiB.png
 institution: university-of-bergen
 institutions:
 - university-of-bergen

@@ -9,7 +9,7 @@ from pathlib import Path
 from repo_paths import SITE_ROOT
 BOARD_FILE = "about/organisation/board/index.md"
 COUNCIL_FILE = "about/organisation/council/index.md"
-PORTRAITS_CIRCLE_DIR = "assets/images/portraits/circle"
+PORTRAITS_DIR = "assets/images/portraits"
 
 INSTITUTION_CANONICAL = {
     "uio": "University of Oslo",
@@ -82,7 +82,7 @@ def compact_key(value: str) -> str:
 
 
 def build_portrait_lookup(root: Path) -> dict[str, str]:
-    portrait_dir = root / PORTRAITS_CIRCLE_DIR
+    portrait_dir = root / PORTRAITS_DIR
     lookup: dict[str, str] = {}
     if not portrait_dir.exists():
         return lookup
@@ -95,7 +95,7 @@ def build_portrait_lookup(root: Path) -> dict[str, str]:
         for candidate in (stem, stem_no_affiliation):
             key = person_key(candidate)
             if key and key not in lookup:
-                lookup[key] = f"/{PORTRAITS_CIRCLE_DIR}/{img.name}"
+                lookup[key] = f"/{PORTRAITS_DIR}/{img.name}"
     return lookup
 
 

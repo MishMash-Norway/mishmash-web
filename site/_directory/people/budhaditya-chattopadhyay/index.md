@@ -5,7 +5,7 @@ name: Budhaditya Chattopadhyay
 title: Budhaditya Chattopadhyay
 position: Post-doctoral research fellow
 department: The Art Academy &#8211; Department of Contemporary Art
-image: /assets/images/portraits/circle/Budhaditya_Chattopadhyay_UiB.png
+image: /assets/images/portraits/Budhaditya_Chattopadhyay_UiB.jpg
 institution: university-of-bergen
 institutions:
 - university-of-bergen

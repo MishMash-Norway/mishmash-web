@@ -5,7 +5,7 @@ name: Tine Grieg Viig
 title: Tine Grieg Viig
 position: Associate professor
 department: Department of Arts Education
-image: /assets/images/portraits/circle/Tine_Grieg_Viig_HVL.png
+image: /assets/images/portraits/Tine_Grieg_Viig_HVL.png
 institution: western-norway-university-of-applied-sciences
 institutions:
 - western-norway-university-of-applied-sciences
