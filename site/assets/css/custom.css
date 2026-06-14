@@ -698,6 +698,41 @@ a:focus-visible .icon {
   margin-bottom: 0.5rem;
 }
 
+.filter-group-collapsible {
+  display: block;
+}
+
+.filter-group-collapsible summary {
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #55606a;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  user-select: none;
+}
+
+.filter-group-collapsible summary::-webkit-details-marker {
+  display: none;
+}
+
+.filter-group-collapsible summary::before {
+  content: '▸';
+  display: inline-block;
+  font-size: 0.75rem;
+  transition: transform 0.15s;
+}
+
+.filter-group-collapsible[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.filter-group-collapsible .chip-list {
+  margin-top: 6px;
+}
+
 .filter-label {
   font-size: 0.85rem;
   font-weight: 600;

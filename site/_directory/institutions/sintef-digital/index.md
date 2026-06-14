@@ -12,4 +12,3 @@ people:
   - /people/viggo-tellefsen-wivestad/
 ---
 
-Description coming soon.

@@ -7,13 +7,13 @@ layout: event
 categories: [Concert]
 description: "An evening concert and presentation exploring generative music created with AI and quantum computing, featuring Eduardo Reck Miranda and Victoria Johnson."
 tags: [AI, Quantum Computing, Music, Generative Music, Performance]
-image: "https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/quantum-music/quantum-loops.png"
+image: /assets/images/events/quantum-loops.png
 slug: "quantum-loops-broken-symmetries"
 ---
 
 An evening exploring music with AI and quantum computing with [Eduardo Reck Miranda](https://www.plymouth.ac.uk/staff/eduardo-miranda) and [Victoria Johnson](http://www.victoriajohnson.no/).
 
-![TV image with a face inside.](https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/quantum-music/quantum-loops.png)
+![TV image with a face inside.](/assets/images/events/quantum-loops.png)
 
 Artificial intelligence is revolutionising music creation and performance. AI-powered tools can now compose, analyse, enhance production quality, and curate personalised playlists, allowing musicians and listeners to explore new horizons. However, the advent of quantum computers promises to push these boundaries even further. Quantum computers leverage phenomena such as superposition and entanglement to perform computations in fundamentally different ways from classical computers. They can explore many possibilities simultaneously, potentially offering exponential speedups for complex computational problems. The basic unit of quantum computation, the _qubit_, differs from a classical _bit_ in that it can exist in a superposition of two states.
 

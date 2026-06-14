@@ -10,4 +10,3 @@ people:
   - /people/gerard-hodgkinson/
 ---
 
-Description coming soon.

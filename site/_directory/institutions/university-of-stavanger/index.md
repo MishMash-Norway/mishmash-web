@@ -10,4 +10,3 @@ people:
   - /people/sigmund-trageton/
 ---
 
-Description coming soon.

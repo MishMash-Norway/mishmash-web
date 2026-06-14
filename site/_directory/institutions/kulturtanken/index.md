@@ -21,4 +21,3 @@ source_mentions: []
 summary:
 ---
 
-Description coming soon.

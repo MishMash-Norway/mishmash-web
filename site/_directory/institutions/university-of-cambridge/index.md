@@ -10,4 +10,3 @@ people:
   - /people/magda-osman/
 ---
 
-Description coming soon.

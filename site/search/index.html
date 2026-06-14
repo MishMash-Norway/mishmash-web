@@ -29,10 +29,10 @@ title: Search
       <span class="filter-label">Category:</span>
       <div id="category-chips" class="chip-list" role="group" aria-label="Filter by category"></div>
     </div>
-    <div id="tag-filter-group" class="filter-group" hidden>
-      <span class="filter-label">Tag:</span>
+    <details id="tag-filter-group" class="filter-group filter-group-collapsible" hidden>
+      <summary class="filter-label">Tags</summary>
       <div id="tag-chips" class="chip-list" role="group" aria-label="Filter by tag"></div>
-    </div>
+    </details>
   </div>
 </form>
 
@@ -112,6 +112,7 @@ title: Search
         activeSet.add(val);
         this.classList.add('active');
         this.setAttribute('aria-pressed', 'true');
+        if (container === tagChips) tagFilterGroup.open = true;
       }
       onToggle();
       updateUrl();
@@ -229,6 +230,7 @@ title: Search
 
   function activateTagChip(tag) {
     activeTags.add(tag);
+    tagFilterGroup.open = true;
     Array.from(tagChips.querySelectorAll('.filter-chip')).forEach(function (chip) {
       if (chip.dataset.value === tag) {
         chip.classList.add('active');
