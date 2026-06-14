@@ -22,14 +22,47 @@ layout: null
       {% if item.url == '/' %}
         {% assign search_title = site.title %}
       {% endif %}
+      {% assign search_description = item.description | default: "" | strip_html %}
+      {% assign search_content = item.content | default: item.excerpt | strip_html | truncatewords: 100 %}
+      {% if item.type == "person" %}
+        {% assign person_summary = item.summary %}
+        {% assign person_inst_slug = item.institution %}
+        {% unless person_inst_slug %}{% assign person_inst_slug = item.institutions | first %}{% endunless %}
+        {% assign person_inst = site.directory | where: "type", "institution" | where: "slug", person_inst_slug | first %}
+        {% assign use_person_summary = false %}
+        {% if person_summary and person_summary != "" %}
+          {% unless person_summary contains "coming soon" %}
+            {% assign use_person_summary = true %}
+          {% endunless %}
+        {% endif %}
+        {% capture person_description %}
+{% if use_person_summary %}{{ person_summary }}
+{% elsif item.position and person_inst %}{{ item.position }}{% if item.department %}, {{ item.department }}{% endif %}, {{ person_inst.name }}
+{% elsif item.position and person_inst_slug %}{{ item.position }}{% if item.department %}, {{ item.department }}{% endif %}, {{ person_inst_slug }}
+{% elsif item.position %}{{ item.position }}{% if item.department %}, {{ item.department }}{% endif %}
+{% elsif person_inst %}{{ person_inst.name }}
+{% endif %}
+        {% endcapture %}
+        {% assign search_description = person_description | strip %}
+        {% capture person_content %}
+{{ item.name }}
+{{ item.position }}
+{{ item.department }}
+{% if person_inst %}{{ person_inst.name }}{% endif %}
+{{ item.roles | join: " " }}
+{{ item.tags | join: " " }}
+{{ item.search_keywords | join: " " }}
+        {% endcapture %}
+        {% assign search_content = person_content | strip %}
+      {% endif %}
       {
         "title": {{ search_title | jsonify }},
         "url": {{ item.url | relative_url | jsonify }},
         "date": {{ item.date | date: "%Y-%m-%d" | jsonify }},
         "categories": {{ item.categories | default: empty | jsonify }},
         "tags": {{ item.tags | default: empty | jsonify }},
-        "description": {{ item.description | default: "" | strip_html | jsonify }},
-        "content": {{ item.content | default: item.excerpt | strip_html | truncatewords: 100 | jsonify }},
+        "description": {{ search_description | jsonify }},
+        "content": {{ search_content | jsonify }},
         "type": {% if item.collection == "events" %}"event"{% elsif item.collection == "news" %}"news"{% elsif item.type == "person" %}"person"{% elsif item.type == "institution" %}"institution"{% elsif item.type == "project" %}"project"{% else %}"page"{% endif %}
       }
     {% endunless %}
