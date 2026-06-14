@@ -8,7 +8,6 @@ department: Institute of Design
 image: /assets/images/portraits/circle/Kjetil_Nordby_AHO.png
 institution: oslo-school-of-architecture-and-design
 institutions:
-  - /institutions/oslo-school-of-architecture-and-design/
 - oslo-school-of-architecture-and-design
 affiliation_units:
 - The Oslo School of Architecture and Design

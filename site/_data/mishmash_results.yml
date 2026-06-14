@@ -1,4 +1,4 @@
-synced_at: '2026-06-14T08:41:14Z'
+synced_at: '2026-06-14T19:34:10Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -998,6 +998,35 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: Creativity and biology research
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Creativity and biology research
+    container: AUTORHYTHM Retreat.
+    details: Son.
+    abstract: This project explains how I got into biology-related research and the
+      potential of using musical, artistic, and creative methods to get obtain both
+      artistic and scientific results.
+    full_text_url: https://hdl.handle.net/11250/5528321
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ec7866685-b8fe4e55-c8e7-43a5-8bea-1c47cbf396b8
+  nva_url: https://nva.sikt.no/publication/019ec7866685-b8fe4e55-c8e7-43a5-8bea-1c47cbf396b8
 - title: MishMash Centre for AI and Creativity
   year: '2026'
   type: OtherPresentation
@@ -3218,7 +3247,10 @@ results:
   group_type: Music performance
   contributors:
   - name: Viggo Tellefsen Wivestad
-  institutions: []
+  institutions:
+  - name: SINTEF Digital
+    slug: sintef-digital
+    url: /institutions/sintef-digital/
   citation:
     authors: []
     title: The Great Human Filter - The Age of Evaluation (album)

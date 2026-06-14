@@ -8,7 +8,6 @@ department: Networks and Distributed Systems
 image: /assets/images/portraits/circle/Carsten_Griwodz_UiO.png
 institution: university-of-oslo
 institutions:
-  - /institutions/university-of-oslo/
 - university-of-oslo
 projects: []
 roles:

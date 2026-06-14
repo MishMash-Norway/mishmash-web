@@ -8,9 +8,8 @@ department: Fagseksjon for improvisert musikk, jazz og folkemusikk
 image: /assets/images/portraits/circle/Ivar_Grydeland_NMH.png
 institution: norwegian-academy-of-music
 institutions:
-  - /institutions/norwegian-academy-of-music/
-  - /institutions/university-of-agder/
 - norwegian-academy-of-music
+- university-of-agder
 affiliation_units:
 - Norwegian Academy of Music
 - Norges musikkhøgskole, Diverse fagseksjoner

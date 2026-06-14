@@ -8,7 +8,6 @@ department: IMV stab
 image: /assets/images/portraits/circle/Jonna_Vuoskoski_UiO.png
 institution: university-of-oslo
 institutions:
-  - /institutions/university-of-oslo/
 - university-of-oslo
 projects: []
 roles:

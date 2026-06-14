@@ -7,7 +7,6 @@ position: Associate professor
 department: The Game School - Department of Game Development
 institution: inland-norway-university-of-applied-sciences
 institutions:
-  - /institutions/inland-norway-university-of-applied-sciences/
 - inland-norway-university-of-applied-sciences
 affiliation_units:
 - University of Inland Norway

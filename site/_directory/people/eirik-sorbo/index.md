@@ -8,7 +8,6 @@ department: Department of Popular Music
 image: /assets/images/portraits/circle/eirik_sorbo_UiA.png
 institution: university-of-agder
 institutions:
-  - /institutions/university-of-agder/
 - university-of-agder
 projects: []
 roles:

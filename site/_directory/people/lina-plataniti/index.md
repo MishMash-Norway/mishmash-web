@@ -7,7 +7,6 @@ position: Researcher
 department: 'NORSUS: Norwegian Institute for Sustainability Research'
 institution: norsus-norwegian-institute-for-sustainability-research
 institutions:
-  - /institutions/norsus-norwegian-institute-for-sustainability-research/
 - norsus-norwegian-institute-for-sustainability-research
 affiliation_units:
 - 'NORSUS: Norwegian Institute for Sustainability Research'

@@ -5,6 +5,7 @@ layout: default
 {% assign t = site.data.translations[lang] %}
 {% assign primary_institution_slug = page.institution %}
 {% unless primary_institution_slug %}{% assign primary_institution_slug = page.institutions | first %}{% endunless %}
+{% assign primary_institution_slug = primary_institution_slug | replace: '/institutions/', '' | replace: '/', '' %}
 {% assign primary_institution_doc = site.directory | where: "type", "institution" | where: "slug", primary_institution_slug | first %}
 {% assign mishmash_role = page.roles | first %}
 {% assign social_urls = page.urls %}
@@ -24,7 +25,8 @@ layout: default
             {% if affiliation.role %}{{ affiliation.role }}{% endif %}
             {% if affiliation.unit %}{% if affiliation.role %}, {% endif %}{{ affiliation.unit }}{% endif %}
             {% if affiliation.institution %}
-              {% assign aff_inst = site.directory | where: "type", "institution" | where: "slug", affiliation.institution | first %}
+              {% assign affiliation_institution_slug = affiliation.institution | replace: '/institutions/', '' | replace: '/', '' %}
+              {% assign aff_inst = site.directory | where: "type", "institution" | where: "slug", affiliation_institution_slug | first %}
               {% if aff_inst %}
                 {% if affiliation.role or affiliation.unit %}, {% endif %}
                 <a href="{{ aff_inst.url | relative_url }}">{{ aff_inst.name }}</a>
@@ -46,6 +48,17 @@ layout: default
         {% endif %}
         {% if mishmash_role %}
         <p class="person-mishmash-role">MishMash role: {{ mishmash_role }}</p>
+        {% endif %}
+        {% if social_urls %}
+          {% if social_urls.orcid.size > 0 or social_urls.nva.size > 0 %}
+          <section class="person-profile-links" aria-label="Research profiles">
+            <p>
+              {% if social_urls.orcid.size > 0 %}<a href="{{ social_urls.orcid }}" target="_blank" rel="noopener noreferrer">ORCID profile</a>{% endif %}
+              {% if social_urls.orcid.size > 0 and social_urls.nva.size > 0 %} | {% endif %}
+              {% if social_urls.nva.size > 0 %}<a href="{{ social_urls.nva }}" target="_blank" rel="noopener noreferrer">NVA profile</a>{% endif %}
+            </p>
+          </section>
+          {% endif %}
         {% endif %}
       </div>
     </section>

@@ -8,7 +8,6 @@ department: Norwegian Academy of Music
 image: /assets/images/portraits/circle/Sidsel_Karlsen_NMH.png
 institution: norwegian-academy-of-music
 institutions:
-  - /institutions/norwegian-academy-of-music/
 - norwegian-academy-of-music
 affiliation_units:
 - Norwegian Academy of Music

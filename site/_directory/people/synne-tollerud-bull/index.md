@@ -8,7 +8,6 @@ department: Westerdals Department of Film and Media
 image: /assets/images/portraits/circle/Synne_Tollerud_Bull_Kristiania.png
 institution: kristiania-university-college
 institutions:
-  - /institutions/kristiania-university-college/
 - kristiania-university-college
 affiliation_units:
 - Kristiania University of Applied Sciences
