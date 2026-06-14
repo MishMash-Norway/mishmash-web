@@ -20,9 +20,19 @@ layout: default
 
     {% if page.type == 'institution' and page.slug %}
     {% assign all_people = site.directory | where: "type", "person" %}
+    {% assign institution_people_explicit_slug = all_people | where_exp: "person", "page.people contains person.slug" %}
+    {% assign institution_people_explicit_url = all_people | where_exp: "person", "page.people contains person.url" %}
     {% assign institution_people_primary = all_people | where: "institution", page.slug %}
     {% assign institution_people_secondary = all_people | where_exp: "person", "person.institutions contains page.slug" %}
-    {% assign institution_people = institution_people_primary | concat: institution_people_secondary | uniq | sort: "name" %}
+    {% assign institution_slug_path = '/institutions/' | append: page.slug | append: '/' %}
+    {% assign institution_people_secondary_path = all_people | where_exp: "person", "person.institutions contains institution_slug_path" %}
+    {% assign institution_people = institution_people_explicit_slug
+      | concat: institution_people_explicit_url
+      | concat: institution_people_primary
+      | concat: institution_people_secondary
+      | concat: institution_people_secondary_path
+      | uniq
+      | sort: "name" %}
     <section class="institution-people" aria-label="Affiliated people">
       <h2>People</h2>
       {% if institution_people.size > 0 %}

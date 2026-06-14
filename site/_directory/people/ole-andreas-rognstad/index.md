@@ -3,34 +3,34 @@ type: person
 slug: ole-andreas-rognstad
 name: Ole-Andreas Rognstad
 title: Ole-Andreas Rognstad
-position:
-department:
-institution:
+position: null
+department: null
+institution: null
 institutions:
-  - /institutions/university-of-oslo/
+- /institutions/university-of-oslo/
 affiliation_units: []
 nva_affiliations: []
 projects: []
 roles: []
 urls:
-  website:
-  github:
-  linkedin:
-  orcid:
-  nva:
-  youtube:
-  facebook:
-  mastodon:
-  instagram:
+  website: ''
+  github: ''
+  linkedin: ''
+  orcid: ''
+  nva: https://nva.sikt.no/research-profile/22052
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
 aliases: []
 tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary:
+summary: null
 permalink: /people/ole-andreas-rognstad/
 redirect_from:
-  - /directory/people/ole-andreas-rognstad/
+- /directory/people/ole-andreas-rognstad/
 ---
 
 Bio coming soon.

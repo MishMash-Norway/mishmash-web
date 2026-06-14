@@ -3,35 +3,35 @@ type: person
 slug: felicity-baker
 name: Felicity Baker
 title: Felicity Baker
-position:
-department:
-institution:
+position: null
+department: null
+institution: null
 institutions:
-  - /institutions/australian-national-university/
-  - /institutions/university-of-melbourne/
+- /institutions/australian-national-university/
+- /institutions/university-of-melbourne/
 affiliation_units: []
 nva_affiliations: []
 projects: []
 roles: []
 urls:
-  website:
-  github:
-  linkedin:
-  orcid:
-  nva:
-  youtube:
-  facebook:
-  mastodon:
-  instagram:
+  website: ''
+  github: ''
+  linkedin: ''
+  orcid: ''
+  nva: https://nva.sikt.no/research-profile/1170809
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
 aliases: []
 tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary:
+summary: null
 permalink: /people/felicity-baker/
 redirect_from:
-  - /directory/people/felicity-baker/
+- /directory/people/felicity-baker/
 ---
 
 Bio coming soon.

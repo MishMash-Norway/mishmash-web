@@ -142,6 +142,25 @@ Useful flags:
 - `--dry-run` report changes without writing files
 - `--no-download-images` skip portrait downloads
 
+Fill Missing NVA and ORCID Links Only
+-------------------------------------
+
+This script only updates missing `urls.nva` and `urls.orcid` in
+`site/_directory/people/*/index.md`, without changing other profile fields.
+
+Quick start:
+
+```bash
+python3 scripts/fill_missing_nva_orcid.py --dry-run
+python3 scripts/fill_missing_nva_orcid.py --discover-nva-loose
+```
+
+Useful flags:
+
+- `--slug <slug>` process one person (repeatable)
+- `--discover-nva-loose` allow looser name matching
+- `--dry-run` report changes without writing files
+
 Combine image slices
 --------------------
 

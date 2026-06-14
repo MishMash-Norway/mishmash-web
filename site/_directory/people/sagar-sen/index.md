@@ -3,34 +3,34 @@ type: person
 slug: sagar-sen
 name: Sagar Sen
 title: Sagar Sen
-position:
-department:
-institution:
+position: null
+department: null
+institution: null
 institutions:
-  - /institutions/sintef-digital/
+- /institutions/sintef-digital/
 affiliation_units: []
 nva_affiliations: []
 projects: []
 roles: []
 urls:
-  website:
-  github:
-  linkedin:
-  orcid:
-  nva:
-  youtube:
-  facebook:
-  mastodon:
-  instagram:
+  website: ''
+  github: ''
+  linkedin: ''
+  orcid: ''
+  nva: https://nva.sikt.no/research-profile/667293
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
 aliases: []
 tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary:
+summary: null
 permalink: /people/sagar-sen/
 redirect_from:
-  - /directory/people/sagar-sen/
+- /directory/people/sagar-sen/
 ---
 
 Bio coming soon.
