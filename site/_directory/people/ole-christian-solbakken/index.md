@@ -3,13 +3,11 @@ type: person
 slug: ole-christian-solbakken
 name: Ole Christian Solbakken
 title: Ole Christian Solbakken
-position: null
-department: null
-institution: null
+position: University college instructor/student teacher
+department: Westerdals Department of Film and Media
+institution: kristiania-university-college
 institutions:
-- /institutions/inland-norway-university-of-applied-sciences/
-affiliation_units: []
-nva_affiliations: []
+- kristiania-university-college
 projects: []
 roles: []
 urls:
@@ -25,7 +23,13 @@ urls:
 aliases: []
 tags: []
 search_keywords: []
-selected_works: []
+selected_works:
+- title: Pre-Words Storytelling
+  year: '2022'
+  source: Lecture
+- title: Jul på Kutoppen
+  year: '2020'
+  source: Film or video
 source_mentions: []
 summary: null
 permalink: /people/ole-christian-solbakken/

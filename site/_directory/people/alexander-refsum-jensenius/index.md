@@ -51,6 +51,9 @@ search_keywords:
 - Music Technology
 - Sound analysis /synthesis
 selected_works:
+- title: Creativity and biology research
+  year: '2026'
+  source: Lecture
 - title: The Listening Body – for mennesker med og uten Parkinson
   year: '2026'
   source: Music performance
@@ -85,11 +88,6 @@ selected_works:
   year: '2026'
   source: Radio or TV
   url: https://radio.nrk.no/serie/etikketaten/DMPO38401726
-- title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
-    og filmprodusenter nå?'
-  year: '2026'
-  source: Interview
-  url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
 summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music technology

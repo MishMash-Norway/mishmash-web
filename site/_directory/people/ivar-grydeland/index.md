@@ -9,7 +9,6 @@ image: /assets/images/portraits/circle/Ivar_Grydeland_NMH.png
 institution: norwegian-academy-of-music
 institutions:
 - norwegian-academy-of-music
-- university-of-agder
 affiliation_units:
 - Norwegian Academy of Music
 - Norges musikkhøgskole, Diverse fagseksjoner

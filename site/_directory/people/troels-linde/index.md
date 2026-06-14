@@ -3,13 +3,18 @@ type: person
 slug: troels-linde
 name: Troels Linde
 title: Troels Linde
-position: null
-department: null
+position: Professor
+department: Faculty of Social Sciences
 institution: null
 institutions:
-- /institutions/inland-norway-university-of-applied-sciences/
-affiliation_units: []
-nva_affiliations: []
+- inland-norway-university-of-applied-sciences
+nva_affiliations:
+- role: Professor
+  unit: Faculty of Social Sciences
+  institution: ''
+- role: Professor
+  unit: The Norwegian Film School
+  institution: inland-norway-university-of-applied-sciences
 projects: []
 roles: []
 urls:
@@ -25,7 +30,12 @@ urls:
 aliases: []
 tags: []
 search_keywords: []
-selected_works: []
+selected_works:
+- title: Kamera og teknologi som kunstnerisk verktøy (Camera and technology as artistic
+    tool)
+  year: '2024'
+  source: Lecture
+  url: https://www.inn.no/arrangementer/innku/
 source_mentions: []
 summary: null
 permalink: /people/troels-linde/

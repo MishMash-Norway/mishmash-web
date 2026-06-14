@@ -86,6 +86,7 @@ summary: 'Synne Tollerud Bull is a media artist, researcher, and Professor, curr
   how emerging imaging technologies such as drones and AI shape societal structures
   through mediation in art and visual culture.
 
+
   She has developed the concept of proxistant vision to describe image forms that
   combine proximity and distance within a single vi'
 permalink: /people/synne-tollerud-bull/

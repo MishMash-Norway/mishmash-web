@@ -14,7 +14,7 @@ urls:
   website: https://charlesmartin.com.au
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0000-0001-5683-7529
   nva: https://nva.sikt.no/research-profile/795694
   youtube: ''
   facebook: ''

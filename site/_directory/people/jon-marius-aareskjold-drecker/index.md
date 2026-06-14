@@ -8,9 +8,9 @@ department: IMV stab
 image: /assets/images/portraits/circle/Jon_Marius_Aareskjold-Drecker_UiT.png
 institution: university-of-oslo
 institutions:
-- university-of-oslo
 - arctic-university-of-norway
 - university-of-agder
+- university-of-oslo
 affiliation_units:
 - University of Oslo
 - Faculty of Humanities

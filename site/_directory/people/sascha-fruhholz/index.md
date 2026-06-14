@@ -1,7 +1,7 @@
 ---
 type: person
 slug: sascha-fruhholz
-name: Sascha Fruhholz
+name: Sascha Frühholz
 title: Sascha Fruhholz
 position:
 department:
@@ -17,7 +17,7 @@ urls:
   github:
   linkedin:
   orcid:
-  nva:
+  nva: https://nva.sikt.no/research-profile/1208511
   youtube:
   facebook:
   mastodon:

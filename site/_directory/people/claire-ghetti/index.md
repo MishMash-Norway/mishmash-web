@@ -30,9 +30,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Musikkterapi
-  year: '2025'
-  source: Book chapter
 - title: Exploring responsive parenting during music therapy in the NICU - Sounding
     Relation Research Project
   year: '2025'
@@ -71,6 +68,11 @@ selected_works:
     Multinational trial LongSTEP results'
   year: '2023'
   source: Conference lecture
+- title: Israeli Parents’ Lived Experiences of Music Therapy With Their Preterm Infants
+    Post-Hospitalization
+  year: '2022'
+  source: Journal article
+  url: https://doi.org/10.1093/jmt/thac006
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
 summary: null
