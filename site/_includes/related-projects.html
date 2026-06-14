@@ -14,12 +14,11 @@
 {% assign related_projects = related_projects | sort: "title" %}
 {% if related_projects.size > 0 %}
 <section class="directory-related" aria-label="Related projects">
-  <h2>Projects</h2>
+  <h2{% if include.heading_class %} class="{{ include.heading_class }}"{% endif %}>Projects</h2>
   <ul>
     {% for project in related_projects %}
     <li>
       <a href="{{ project.url | relative_url }}">{{ project.title | default: project.name | default: project.slug }}</a>
-      {% if project.wp %}<span class="project-wp"> · {{ project.wp }}</span>{% endif %}
     </li>
     {% endfor %}
   </ul>

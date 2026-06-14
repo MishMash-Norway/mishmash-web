@@ -411,7 +411,7 @@ a:focus-visible .icon {
   margin-top: 2rem;
 }
 
-.directory-related h2 {
+.directory-related > h2:not([class]) {
   font-size: 1.25rem;
   margin-bottom: 0.75rem;
 }
@@ -424,11 +424,6 @@ a:focus-visible .icon {
 
 .directory-related li {
   margin-bottom: 0.4rem;
-}
-
-.directory-related .project-wp {
-  font-size: 0.85rem;
-  color: #55606a;
 }
 
 .person-selected-works .nva-results-group-title {
