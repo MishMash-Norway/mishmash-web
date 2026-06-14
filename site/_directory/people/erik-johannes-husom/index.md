@@ -11,7 +11,8 @@ institutions:
 projects: []
 roles: []
 urls:
-  website: https://erikjohannes.no/
+  personal_website: ''
+  institutional_website: https://erikjohannes.no/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-9325-1604

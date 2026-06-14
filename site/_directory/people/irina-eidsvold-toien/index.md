@@ -16,7 +16,8 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: ''
+  personal_website: ''
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: ''

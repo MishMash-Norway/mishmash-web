@@ -11,7 +11,8 @@ institutions:
 projects: []
 roles: []
 urls:
-  website: https://www.danielpeterbiro.no/
+  personal_website: ''
+  institutional_website: https://www.danielpeterbiro.no/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0006-9207-8885

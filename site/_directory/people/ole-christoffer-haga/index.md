@@ -19,7 +19,8 @@ nva_affiliations:
 projects: []
 roles: []
 urls:
-  website: ''
+  personal_website: ''
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0006-5975-9494

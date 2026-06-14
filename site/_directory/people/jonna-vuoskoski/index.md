@@ -13,7 +13,8 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: http://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
+  personal_website: ''
+  institutional_website: http://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-0049-4373

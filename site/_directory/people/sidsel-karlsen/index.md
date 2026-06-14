@@ -15,7 +15,8 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: ''
+  personal_website: ''
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-3122-9302
