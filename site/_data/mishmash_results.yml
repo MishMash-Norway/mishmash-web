@@ -1,4 +1,4 @@
-synced_at: '2026-06-13T08:21:25Z'
+synced_at: '2026-06-14T08:41:14Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -998,6 +998,61 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: MishMash Centre for AI and Creativity
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Ida Jahr
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  institutions:
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    title: MishMash Centre for AI and Creativity
+    container: Japan-Norway Research Forum.
+    details: Royal Norwegian Embassy of Tokyo.
+    abstract: Presentation of MishMash Centre for AI and Creativity and possibilities
+      for collaboration
+    full_text_url: https://hdl.handle.net/11250/5528181
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ec083fc4c-1511ef8f-70ac-48fc-a878-819b01fe6823
+  nva_url: https://nva.sikt.no/publication/019ec083fc4c-1511ef8f-70ac-48fc-a878-819b01fe6823
+- title: MishMash Centre for AI and Creativity
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Ida Jahr
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  institutions:
+  - name: Inland Norway University of Applied Sciences
+    slug: inland-norway-university-of-applied-sciences
+    url: /institutions/inland-norway-university-of-applied-sciences/
+  citation:
+    authors:
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    title: MishMash Centre for AI and Creativity
+    container: Japan-Norway AI Innovation Forum.
+    details: Tokyo.
+    abstract: Short presentation of MishMash Centre for AI and Creativity
+    full_text_url: https://hdl.handle.net/11250/5528177
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ec0591972-e1aecb71-db54-40fd-9934-af08a5ab90b3
+  nva_url: https://nva.sikt.no/publication/019ec0591972-e1aecb71-db54-40fd-9934-af08a5ab90b3
 - title: 'Calliope: Leveraging Artificial Intelligence, Preserving Human Creativity'
   year: '2026'
   type: Lecture
