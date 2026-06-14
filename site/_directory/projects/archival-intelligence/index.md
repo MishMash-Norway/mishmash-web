@@ -12,6 +12,9 @@ This "artivist" project aims to liberate institutional archives from colonial st
 ## Work Package
 Primary WP: [WP6](/wp6/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Budhaditya Chattopadhyay](/people/budhaditya-chattopadhyay/)
 - Participants: Lydgalleriet team, [Bergen Center for Electronic Arts (BEK)](/institutions/bergen-center-for-electronic-arts/), KMD UiB team

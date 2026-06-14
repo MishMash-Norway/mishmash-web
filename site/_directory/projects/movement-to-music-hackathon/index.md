@@ -12,6 +12,9 @@ This two-day hackathon at NTNU explores AI-based pose detection (such as Googleâ
 ## Work Package
 Primary WP: [WP3](/wp3/)
 
+## Duration
+2026â€“2026
+
 ## People
 - Project leader: [Andreas Bergsland](/people/andreas-bergsland/)
 - Participants: [Robert Wechsler](/people/robert-wechsler/)

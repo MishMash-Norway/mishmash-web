@@ -54,6 +54,31 @@ layout: null
 {{ item.search_keywords | join: " " }}
         {% endcapture %}
         {% assign search_content = person_content | strip %}
+      {% elsif item.type == "institution" %}
+        {% assign institution_summary = item.summary %}
+        {% assign use_institution_summary = false %}
+        {% if institution_summary and institution_summary != "" %}
+          {% unless institution_summary contains "coming soon" %}
+            {% assign use_institution_summary = true %}
+          {% endunless %}
+        {% endif %}
+        {% capture institution_description %}
+{% if use_institution_summary %}{{ institution_summary }}
+{% elsif item.city and item.country %}{{ item.city }}, {{ item.country }}
+{% elsif item.city %}{{ item.city }}
+{% elsif item.country %}{{ item.country }}
+{% endif %}
+        {% endcapture %}
+        {% assign search_description = institution_description | strip %}
+        {% capture institution_content %}
+{{ item.name }}
+{{ item.city }}
+{{ item.country }}
+{{ item.aliases | join: " " }}
+{{ item.tags | join: " " }}
+{{ item.search_keywords | join: " " }}
+        {% endcapture %}
+        {% assign search_content = institution_content | strip %}
       {% endif %}
       {
         "title": {{ search_title | jsonify }},

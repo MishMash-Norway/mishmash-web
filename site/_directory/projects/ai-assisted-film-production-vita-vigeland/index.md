@@ -12,6 +12,9 @@ Using screenwriter Ole Christian Solbakken’s screenplay *Vita Vigeland* as a c
 ## Work Package
 Primary WP: [WP2](/wp2/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Henning Birkeland](/people/henning-birkeland/)
 - Participants: [Ole Christian Solbakken](/people/ole-christian-solbakken/)

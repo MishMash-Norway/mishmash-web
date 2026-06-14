@@ -12,6 +12,9 @@ This project advances ongoing rhythm interface research into a self-contained ge
 ## Work Package
 Primary WP: [WP1](/wp1/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Cagri Erdem](/people/cagri-erdem/)
 - Participants: [Ivar Grydeland](/people/ivar-grydeland/), [Halldor Ulfarsson](/people/halldor-ulfarsson/), [Thor Magnusson](/people/thor-magnusson/)

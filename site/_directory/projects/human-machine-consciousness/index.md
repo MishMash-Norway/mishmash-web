@@ -12,6 +12,9 @@ This project develops a new artistic work for instrument, live electronics, and 
 ## Work Package
 Primary WP: [WP1](/wp1/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Victoria Johnson](/people/victoria-johnson/)
 - Participants: [Oyvind Brandsegg](/people/oyvind-brandsegg/)

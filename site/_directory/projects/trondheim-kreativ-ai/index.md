@@ -12,6 +12,9 @@ TKAI is a meetup series based in Trondheim that brings together researchers, art
 ## Work Package
 Primary WP: [WP5](/wp5/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Viggo Tellefsen Wivestad](/people/viggo-tellefsen-wivestad/)
 - Participants: [Audun Kvitland Rostad](/people/audun-kvitland-rostad/), [Tor Martin Norvik](/people/tor-martin-norvik/), [Oystein Eugene Hermstad](/people/oystein-eugene-hermstad/)

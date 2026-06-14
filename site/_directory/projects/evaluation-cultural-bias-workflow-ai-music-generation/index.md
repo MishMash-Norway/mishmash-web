@@ -12,6 +12,9 @@ This project validates SCOPE (Situated Creative Operation and Process Evaluation
 ## Work Package
 Primary WP: [WP5](/wp5/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Shayan Dadman](/people/shayan-dadman/)
 - Participants: [Andreas Bergsland](/people/andreas-bergsland/), [Jon Marius Aareskjold-Drecker](/people/jon-marius-aareskjold-drecker/)

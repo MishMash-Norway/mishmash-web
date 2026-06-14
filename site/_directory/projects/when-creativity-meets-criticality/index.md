@@ -12,6 +12,9 @@ This project organizes an international academic workshop to discuss how creativ
 ## Work Package
 Primary WP: [WP7](/wp7/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Bjorn Tallak Bakken](/people/bjorn-tallak-bakken/)
 - Participants: [Gerard Hodgkinson](/people/gerard-hodgkinson/), [Magda Osman](/people/magda-osman/), [Carsten Griwodz](/people/carsten-griwodz/)

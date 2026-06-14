@@ -4,6 +4,7 @@ import json
 import os
 import re
 from io import BytesIO
+from itertools import product
 from pathlib import Path
 
 import requests
@@ -107,6 +108,125 @@ def normalize_person_name_for_match(value: str) -> str:
     return normalize_name(value)
 
 
+def _levenshtein(a: str, b: str) -> int:
+    if a == b:
+        return 0
+    if not a:
+        return len(b)
+    if not b:
+        return len(a)
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        curr = [i]
+        for j, cb in enumerate(b, 1):
+            cost = 0 if ca == cb else 1
+            curr.append(min(curr[j - 1] + 1, prev[j] + 1, prev[j - 1] + cost))
+        prev = curr
+    return prev[-1]
+
+
+def _token_similar(a: str, b: str) -> bool:
+    if a == b:
+        return True
+    if not a or not b:
+        return False
+    if a.startswith(b) or b.startswith(a):
+        return True
+    if min(len(a), len(b)) >= 4 and _levenshtein(a, b) <= 1:
+        return True
+    return False
+
+
+def names_match_for_discovery(target_norm: str, candidate_norm: str) -> bool:
+    if target_norm == candidate_norm:
+        return True
+    target_first, target_last = first_last_tokens(target_norm)
+    cand_first, cand_last = first_last_tokens(candidate_norm)
+    if not target_first or not target_last or not cand_first or not cand_last:
+        return False
+    if not _token_similar(target_first, cand_first):
+        return False
+    return _token_similar(target_last, cand_last)
+
+
+def _word_spelling_variants(word: str) -> set[str]:
+    variants = {word}
+    lower = word.lower()
+
+    if len(word) >= 3 and lower.endswith("a"):
+        variants.add(word[:-1] + ("Å" if word[-1].isupper() else "å"))
+
+    if len(word) >= 4:
+        for i, ch in enumerate(word):
+            if ch.lower() == "a":
+                variants.add(word[:i] + ("Å" if ch.isupper() else "å") + word[i + 1 :])
+
+    if len(word) >= 4 and "o" in lower and "ø" not in lower:
+        variants.add(word.replace("o", "ø").replace("O", "Ø"))
+
+    if "oe" in lower:
+        variants.add(re.sub("oe", "ø", word, flags=re.IGNORECASE))
+
+    if "ae" in lower:
+        variants.add(re.sub("ae", "æ", word, flags=re.IGNORECASE))
+
+    if lower.endswith("segg") and not lower.endswith("tsegg"):
+        variants.add(f"{word[:-4]}tsegg")
+
+    return variants
+
+
+def norwegian_name_search_variants(name: str) -> list[str]:
+    name = re.sub(r"\s+", " ", name.strip())
+    if not name:
+        return []
+
+    queries: list[str] = []
+
+    def add(query: str):
+        query = re.sub(r"\s+", " ", query.strip())
+        if query and query not in queries:
+            queries.append(query)
+
+    parts = name.split()
+    word_options = [_word_spelling_variants(part) for part in parts]
+
+    add(name)
+    if len(parts) >= 2:
+        add(parts[-1])
+
+    for opts in word_options:
+        for alt in sorted(opts):
+            add(alt)
+
+    for i, opts in enumerate(word_options):
+        for alt in sorted(opts):
+            if alt == parts[i]:
+                continue
+            variant_parts = parts[:]
+            variant_parts[i] = alt
+            add(" ".join(variant_parts))
+
+    if len(word_options) <= 3:
+        for combo in product(*word_options):
+            add(" ".join(combo))
+
+    return queries
+
+
+def fetch_nva_person_hits(name: str, max_results: int = 20) -> list[dict]:
+    seen_ids: set[str] = set()
+    hits: list[dict] = []
+    for query in norwegian_name_search_variants(name):
+        data = get_json(nva_api_url(f"/cristin/person?name={requests.utils.quote(query)}&results={max_results}"))
+        for hit in data.get("hits") or []:
+            hit_id = (hit.get("id") or "").strip()
+            if hit_id and hit_id not in seen_ids:
+                seen_ids.add(hit_id)
+                hits.append(hit)
+    return hits
+
+
 def first_last_tokens(value: str) -> tuple[str, str]:
     parts = [p for p in value.split() if p]
     if not parts:
@@ -149,9 +269,7 @@ def discover_profile_id_by_name(
     if not target_name:
         return None, "skip: missing name"
 
-    query = requests.utils.quote(name)
-    data = get_json(nva_api_url(f"/cristin/person?name={query}&results=20"))
-    hits = data.get("hits") or []
+    hits = fetch_nva_person_hits(name)
     if not hits:
         return None, "skip: no nva person hits"
 
@@ -174,7 +292,7 @@ def discover_profile_id_by_name(
 
         if cristin_id:
             candidates.append((hit, cristin_id, full_norm))
-            if full_norm == target_name:
+            if names_match_for_discovery(target_name, full_norm):
                 exact.append((hit, cristin_id, full_norm))
 
     if not exact and not allow_loose:
@@ -189,9 +307,13 @@ def discover_profile_id_by_name(
         score = 0.0
         if cand_last == target_last:
             score += 1.0
+        elif _token_similar(cand_last, target_last):
+            score += 0.9
         # Accept first-name prefix matches (sashi vs sashidharan)
         if cand_first == target_first:
             score += 1.0
+        elif _token_similar(cand_first, target_first):
+            score += 0.85
         elif cand_first.startswith(target_first) or target_first.startswith(cand_first):
             score += 0.8
 

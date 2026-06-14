@@ -12,8 +12,7 @@ projects: []
 roles:
 - Council member
 urls:
-  personal_website: ''
-  institutional_website: ''
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -22,6 +21,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: ''
 aliases: []
 tags: []
 search_keywords: []
@@ -71,7 +72,7 @@ selected_works:
   url: https://doi.org/10.1109/IJCNN48605.2020.9206710
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-summary: null
+summary:
 permalink: /people/ingrid-chieh-yu/
 redirect_from:
 - /directory/people/ingrid-chieh-yu/

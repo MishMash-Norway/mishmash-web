@@ -12,6 +12,9 @@ This initiative supports a research visit to the exhibition *AI and the Paradox 
 ## Work Package
 Primary WP: [WP6](/wp6/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Synne Tollerud Bull](/people/synne-tollerud-bull/)
 - Participants: [Eivind Rossaak](/people/eivind-rossaak/), [Budhaditya Chattopadhyay](/people/budhaditya-chattopadhyay/), [Stephanie von Spreter](/people/stephanie-von-spreter/), [Susanne O. Saether](/people/susanne-o-saether/)

@@ -12,6 +12,9 @@ This legal research investigates the risks generative AI poses to performers, sp
 ## Work Package
 Primary WP: [WP5](/wp5/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Irina Eidsvold-Toien](/people/irina-eidsvold-toien/)
 - Participants: [Ole-Andreas Rognstad](/people/ole-andreas-rognstad/)

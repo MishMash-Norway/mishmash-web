@@ -12,6 +12,9 @@ This project initiates a systematic scoping review of the artistic and pedagogic
 ## Work Package
 Primary WP: [WP4](/wp4/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Sidsel Karlsen](/people/sidsel-karlsen/)
 - Participants: [Eirik Sorbo](/people/eirik-sorbo/), [Fredrik Graver](/people/fredrik-graver/), [Felicity Baker](/people/felicity-baker/)

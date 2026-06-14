@@ -16,8 +16,7 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  personal_website: ''
-  institutional_website: ''
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -26,6 +25,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: ''
 aliases: []
 tags: []
 search_keywords: []
@@ -65,7 +66,7 @@ selected_works:
   source: Lecture
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
-summary: null
+summary:
 permalink: /people/irina-eidsvold-toien/
 redirect_from:
 - /directory/people/irina-eidsvold-toien/

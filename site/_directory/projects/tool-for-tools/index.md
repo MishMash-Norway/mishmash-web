@@ -12,6 +12,9 @@ Submitted by the subgroup "Horizontal 257," this initiative develops a living AI
 ## Work Package
 Primary WP: Cross-work-package initiative
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Troels Linde](/people/troels-linde/)
 - Participants: [Irina Eidsvold-Toien](/people/irina-eidsvold-toien/), [Kjetil Nordby](/people/kjetil-nordby/), [Zacharias Andreadakis](/people/zacharias-andreadakis/)

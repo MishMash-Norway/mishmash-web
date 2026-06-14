@@ -2,7 +2,7 @@
 type: person
 slug: sascha-fruhholz
 name: Sascha Frühholz
-title: Sascha Fruhholz
+title: Sascha Frühholz
 position:
 department:
 institution:

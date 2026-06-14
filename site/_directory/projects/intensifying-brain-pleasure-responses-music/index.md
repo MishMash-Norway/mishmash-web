@@ -12,6 +12,9 @@ This study utilizes real-time fMRI neuroimaging and neurofeedback at the Univers
 ## Work Package
 Primary WP: [WP3](/wp3/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Sascha Fruhholz](/people/sascha-fruhholz/)
 - Participants: [Jonna Vuoskoski](/people/jonna-vuoskoski/)

@@ -1,8 +1,8 @@
 ---
 type: person
 slug: eivind-rossaak
-name: Eivind Rossaak
-title: Eivind Rossaak
+name: Eivind Røssaak
+title: Eivind Røssaak
 position:
 department:
 institution:
@@ -17,8 +17,8 @@ urls:
   institutional_website:
   github:
   linkedin:
-  orcid:
-  nva:
+  orcid: https://orcid.org/0000-0002-6499-4185
+  nva: https://nva.sikt.no/research-profile/13740
   youtube:
   facebook:
   mastodon:

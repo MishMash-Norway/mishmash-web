@@ -12,6 +12,9 @@ This project explores the value of artistic skills in AI workflows by investigat
 ## Work Package
 Primary WP: [WP7](/wp7/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Terje Gaustad](/people/terje-gaustad/)
 - Participants: [Aedan Soellaart](/people/aedan-soellaart/), [Lukas Erni](/people/lukas-erni/), [Sashi Komandur](/people/sashi-komandur/)

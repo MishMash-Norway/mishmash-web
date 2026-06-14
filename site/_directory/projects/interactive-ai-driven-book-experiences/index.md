@@ -12,6 +12,9 @@ This pilot project develops a prototype that transforms linear books into intera
 ## Work Package
 Primary WP: [WP4](/wp4/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Eirik Sorbo](/people/eirik-sorbo/)
 - Participants: [Bente Aasheim](/people/bente-aasheim/), [Sashi Komandur](/people/sashi-komandur/), [Fredrik Graver](/people/fredrik-graver/), [Sidsel Karlsen](/people/sidsel-karlsen/), [Jason Nelson](/people/jason-nelson/)

@@ -12,6 +12,9 @@ In collaboration with the Ultima festival, this project uses the Disklavier self
 ## Work Package
 Primary WP: [WP1](/wp1/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Peter Edwards](/people/peter-edwards/)
 - Participants: [Ivar Grydeland](/people/ivar-grydeland/), [Anders Tveit](/people/anders-tveit/), [Christian Blom](/people/christian-blom/), [Daniel Peter Biro](/people/daniel-peter-biro/), [Heloisa Amaral](/people/heloisa-amaral/)

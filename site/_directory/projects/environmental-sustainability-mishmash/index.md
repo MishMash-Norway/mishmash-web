@@ -12,6 +12,9 @@ This project establishes a knowledge base and maps the competences of MishMash p
 ## Work Package
 Primary WP: [WP5](/wp5/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Lina Plataniti](/people/lina-plataniti/)
 - Participants: [Erik Johannes Husom](/people/erik-johannes-husom/), [Sagar Sen](/people/sagar-sen/)

@@ -12,6 +12,9 @@ This collaboration between artists and pedagogues explores how generative AI is 
 ## Work Package
 Primary WP: [WP4](/wp4/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Tiril Schroder](/people/tiril-schroder/)
 - Participants: [Oystein Stene](/people/oystein-stene/), [Trine Wester](/people/trine-wester/), [Gro Skaland](/people/gro-skaland/)

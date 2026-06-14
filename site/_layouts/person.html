@@ -7,7 +7,12 @@ layout: default
 {% unless primary_institution_slug %}{% assign primary_institution_slug = page.institutions | first %}{% endunless %}
 {% assign primary_institution_slug = primary_institution_slug | replace: '/institutions/', '' | replace: '/', '' %}
 {% assign primary_institution_doc = site.directory | where: "type", "institution" | where: "slug", primary_institution_slug | first %}
-{% assign mishmash_role = page.roles | first %}
+{% assign person_wp_count = 0 %}
+{% for wp in site.data.work_packages %}
+  {% if wp.members contains page.slug %}
+    {% assign person_wp_count = person_wp_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
 {% assign social_urls = page.urls %}
 {% assign fallback_person_image = '/assets/images/bubbles/mishmash_bubbles_notext.png' %}
 {% assign person_image = page.image | default: fallback_person_image %}
@@ -46,8 +51,24 @@ layout: default
         {% elsif primary_institution_slug %}
         <p class="person-position">{% if page.department %}{{ page.department }}, {% endif %}{{ primary_institution_slug }}</p>
         {% endif %}
-        {% if mishmash_role %}
-        <p class="person-mishmash-role">MishMash role: {{ mishmash_role }}</p>
+        {% if page.roles.size > 0 or person_wp_count > 0 %}
+        <p class="person-mishmash-role">
+          MishMash role:
+          {% for role in page.roles %}
+            {% if forloop.index > 1 %}, {% endif %}{{ role }}
+          {% endfor %}
+          {% if person_wp_count > 0 %}
+            {% if page.roles.size > 0 %} · {% endif %}
+            {% assign person_wp_shown = 0 %}
+            {% for wp in site.data.work_packages %}
+              {% if wp.members contains page.slug %}
+                {% if person_wp_shown > 0 %}, {% endif %}
+                <a href="{{ wp.url | relative_url }}">{{ wp.label }}</a>
+                {% assign person_wp_shown = person_wp_shown | plus: 1 %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </p>
         {% endif %}
       </div>
     </section>

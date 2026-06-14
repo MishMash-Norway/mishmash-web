@@ -12,6 +12,9 @@ The project "Bingo" explores the use of generative AI as a controllable tool for
 ## Work Package
 Primary WP: [WP2](/wp2/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Tonje Louise Finne](/people/tonje-louise-finne/)
 - Participants: [Henning Birkeland](/people/henning-birkeland/), [Ole Christoffer Haga](/people/ole-christoffer-haga/)

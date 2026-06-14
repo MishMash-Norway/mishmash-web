@@ -12,6 +12,9 @@ This project develops practice-oriented, scalable resources for primary and seco
 ## Work Package
 Primary WP: [WP4](/wp4/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Eirik Sorbo](/people/eirik-sorbo/)
 - Participants: [Heidi Partti](/people/heidi-partti/), [Sidsel Karlsen](/people/sidsel-karlsen/), [Fredrik Graver](/people/fredrik-graver/)

@@ -12,6 +12,9 @@ This project investigates the adoption of AI tools among students and faculty wi
 ## Work Package
 Primary WP: [WP4](/wp4/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Sigmund Trageton](/people/sigmund-trageton/)
 - Participants: [Clemens Cavallin](/people/clemens-cavallin/), [Lars Nyre](/people/lars-nyre/), [Tommy Aase](/people/tommy-aase/)

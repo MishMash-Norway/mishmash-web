@@ -30,8 +30,7 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  personal_website: ''
-  institutional_website: ''
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -40,6 +39,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: ''
 aliases: []
 tags: []
 search_keywords: []
@@ -85,7 +86,7 @@ selected_works:
   url: https://www.researchcatalogue.net/view/1456892/1729696
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
-summary: null
+summary:
 permalink: /people/jon-marius-aareskjold-drecker/
 redirect_from:
 - /directory/people/jon-marius-aareskjold-drecker/

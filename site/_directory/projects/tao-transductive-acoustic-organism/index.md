@@ -12,6 +12,9 @@ TAO is a persistent AI research instrument designed to run continuously and accu
 ## Work Package
 Primary WP: [WP1](/wp1/)
 
+## Duration
+2026–2026
+
 ## People
 - Project leader: [Enrique Encinas](/people/enrique-encinas/)
 - Participants: [Kjetil Nordby](/people/kjetil-nordby/), [Synne Tollerud Bull](/people/synne-tollerud-bull/), [Ida Jahr](/people/ida-jahr/)
