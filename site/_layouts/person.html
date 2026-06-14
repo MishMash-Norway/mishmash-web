@@ -50,12 +50,34 @@ layout: default
         <p class="person-mishmash-role">MishMash role: {{ mishmash_role }}</p>
         {% endif %}
         {% if social_urls %}
-          {% if social_urls.orcid.size > 0 or social_urls.nva.size > 0 %}
-          <section class="person-profile-links" aria-label="Research profiles">
+          {% assign has_links = false %}
+          {% if social_urls.website and social_urls.website.size > 0 %}{% assign has_links = true %}{% endif %}
+          {% if social_urls.github and social_urls.github.size > 0 %}{% assign has_links = true %}{% endif %}
+          {% if social_urls.linkedin and social_urls.linkedin.size > 0 %}{% assign has_links = true %}{% endif %}
+          {% if social_urls.orcid and social_urls.orcid.size > 0 %}{% assign has_links = true %}{% endif %}
+          {% if social_urls.nva and social_urls.nva.size > 0 %}{% assign has_links = true %}{% endif %}
+          {% if social_urls.twitter and social_urls.twitter.size > 0 %}{% assign has_links = true %}{% endif %}
+          {% if social_urls.youtube and social_urls.youtube.size > 0 %}{% assign has_links = true %}{% endif %}
+          {% if social_urls.mastodon and social_urls.mastodon.size > 0 %}{% assign has_links = true %}{% endif %}
+          
+          {% if has_links %}
+          <section class="person-profile-links" aria-label="Profiles and websites">
             <p>
-              {% if social_urls.orcid.size > 0 %}<a href="{{ social_urls.orcid }}" target="_blank" rel="noopener noreferrer">ORCID profile</a>{% endif %}
-              {% if social_urls.orcid.size > 0 and social_urls.nva.size > 0 %} | {% endif %}
-              {% if social_urls.nva.size > 0 %}<a href="{{ social_urls.nva }}" target="_blank" rel="noopener noreferrer">NVA profile</a>{% endif %}
+              {% if social_urls.website and social_urls.website.size > 0 %}<a href="{{ social_urls.website }}" target="_blank" rel="noopener noreferrer">Website</a>{% endif %}
+              {% if social_urls.website and social_urls.website.size > 0 and social_urls.github and social_urls.github.size > 0 %} | {% endif %}
+              {% if social_urls.github and social_urls.github.size > 0 %}<a href="{{ social_urls.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>{% endif %}
+              {% if social_urls.github and social_urls.github.size > 0 and social_urls.linkedin and social_urls.linkedin.size > 0 %} | {% endif %}
+              {% if social_urls.linkedin and social_urls.linkedin.size > 0 %}<a href="{{ social_urls.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>{% endif %}
+              {% if social_urls.linkedin and social_urls.linkedin.size > 0 and social_urls.orcid and social_urls.orcid.size > 0 %} | {% endif %}
+              {% if social_urls.orcid and social_urls.orcid.size > 0 %}<a href="{{ social_urls.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a>{% endif %}
+              {% if social_urls.orcid and social_urls.orcid.size > 0 and social_urls.nva and social_urls.nva.size > 0 %} | {% endif %}
+              {% if social_urls.nva and social_urls.nva.size > 0 %}<a href="{{ social_urls.nva }}" target="_blank" rel="noopener noreferrer">NVA</a>{% endif %}
+              {% if social_urls.nva and social_urls.nva.size > 0 and social_urls.twitter and social_urls.twitter.size > 0 %} | {% endif %}
+              {% if social_urls.twitter and social_urls.twitter.size > 0 %}<a href="{{ social_urls.twitter }}" target="_blank" rel="noopener noreferrer">Twitter</a>{% endif %}
+              {% if social_urls.twitter and social_urls.twitter.size > 0 and social_urls.mastodon and social_urls.mastodon.size > 0 %} | {% endif %}
+              {% if social_urls.mastodon and social_urls.mastodon.size > 0 %}<a href="{{ social_urls.mastodon }}" target="_blank" rel="noopener noreferrer">Mastodon</a>{% endif %}
+              {% if social_urls.mastodon and social_urls.mastodon.size > 0 and social_urls.youtube and social_urls.youtube.size > 0 %} | {% endif %}
+              {% if social_urls.youtube and social_urls.youtube.size > 0 %}<a href="{{ social_urls.youtube }}" target="_blank" rel="noopener noreferrer">YouTube</a>{% endif %}
             </p>
           </section>
           {% endif %}
