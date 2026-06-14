@@ -11,8 +11,7 @@ institutions:
 projects: []
 roles: []
 urls:
-  personal_website: \'\'
-  institutional_website: ''
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0004-9535-2806

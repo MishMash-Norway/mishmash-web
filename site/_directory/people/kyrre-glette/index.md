@@ -19,8 +19,7 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  personal_website: \'\'
-  institutional_website: https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html
+  website: https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-3550-3225

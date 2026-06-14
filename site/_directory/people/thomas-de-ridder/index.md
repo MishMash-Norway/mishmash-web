@@ -13,8 +13,7 @@ projects: []
 roles:
 - Research advisor
 urls:
-  personal_website: \'\'
-  institutional_website: ''
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''

@@ -11,8 +11,7 @@ institutions:
 projects: []
 roles: []
 urls:
-  personal_website: \'\'
-  institutional_website: http://cagrierdem.net
+  website: http://cagrierdem.net
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-2632-6829

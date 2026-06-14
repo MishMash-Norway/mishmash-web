@@ -11,8 +11,7 @@ institutions:
 projects: []
 roles: []
 urls:
-  personal_website: \'\'
-  institutional_website: https://vimeo.com/tonjefinne
+  website: https://vimeo.com/tonjefinne
   github: ''
   linkedin: ''
   orcid: ''

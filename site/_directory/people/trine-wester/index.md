@@ -11,8 +11,7 @@ institutions:
 projects: []
 roles: []
 urls:
-  personal_website: \'\'
-  institutional_website: http://trinewester.com/
+  website: http://trinewester.com/
   github: ''
   linkedin: ''
   orcid: ''

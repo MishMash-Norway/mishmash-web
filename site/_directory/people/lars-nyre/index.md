@@ -11,8 +11,7 @@ institutions:
 projects: []
 roles: []
 urls:
-  personal_website: \'\'
-  institutional_website: http://www.larsnyre.com
+  website: http://www.larsnyre.com
   github: ''
   linkedin: ''
   orcid: ''

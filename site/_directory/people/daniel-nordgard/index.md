@@ -13,8 +13,7 @@ projects: []
 roles:
 - Deputy director
 urls:
-  personal_website: \'\'
-  institutional_website: ''
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-0169-963X

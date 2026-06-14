@@ -12,8 +12,7 @@ nva_affiliations: []
 projects: []
 roles: []
 urls:
-  personal_website: \'\'
-  institutional_website:
+  website:
   github:
   linkedin:
   orcid:

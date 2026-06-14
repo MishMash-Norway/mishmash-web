@@ -18,8 +18,7 @@ roles:
 - Council member
 - Work Package Leader Group member
 urls:
-  personal_website: \'\'
-  institutional_website: https://www.kristiania.no/om-kristiania/ansatte/school-of-arts-design-and-media/institutt-for-scenekunst-film-og-medier/synne-tollerud-bull/
+  website: https://www.kristiania.no/om-kristiania/ansatte/school-of-arts-design-and-media/institutt-for-scenekunst-film-og-medier/synne-tollerud-bull/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-4248-5363

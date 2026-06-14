@@ -13,8 +13,7 @@ projects: []
 roles:
 - Board Secretary
 urls:
-  personal_website: \'\'
-  institutional_website: ''
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''
