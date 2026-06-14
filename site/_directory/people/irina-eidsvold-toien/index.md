@@ -66,7 +66,7 @@ selected_works:
   source: Lecture
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
-summary:
+summary: null
 permalink: /people/irina-eidsvold-toien/
 redirect_from:
 - /directory/people/irina-eidsvold-toien/

@@ -5,14 +5,14 @@ name: Ole-Andreas Rognstad
 title: Ole-Andreas Rognstad
 position: Professor
 department: Department of Private Law
+image: /assets/images/portraits/circle/Ole-Andreas_Rognstad_UiO.png
 institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects: []
 roles: []
 urls:
-  personal_website: ''
-  institutional_website: ''
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -21,6 +21,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: ''
 aliases: []
 tags: []
 search_keywords: []

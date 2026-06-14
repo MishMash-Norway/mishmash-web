@@ -5,14 +5,14 @@ name: Henning Birkeland
 title: Henning Birkeland
 position: University college lecturer
 department: Westerdals Department of Film and Media
+image: /assets/images/portraits/circle/Henning_Birkeland_KriUni.png
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college
 projects: []
 roles: []
 urls:
-  personal_website: ''
-  institutional_website: https://www.henningb.com/
+  website: https://www.henningb.com/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0006-4668-4585
@@ -21,6 +21,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: https://www.henningb.com/
 aliases: []
 tags:
 - Astrophysics

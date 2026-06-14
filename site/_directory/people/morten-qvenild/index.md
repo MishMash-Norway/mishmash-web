@@ -13,8 +13,7 @@ projects: []
 roles:
 - Council member
 urls:
-  personal_website: ''
-  institutional_website: https://www.mortyq.com
+  website: https://www.mortyq.com
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0004-7284-391X
@@ -23,6 +22,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: https://www.mortyq.com
 aliases: []
 tags:
 - Music Improvisation

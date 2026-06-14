@@ -5,14 +5,14 @@ name: Clemens Cavallin
 title: Clemens Cavallin
 position: Professor
 department: Department of Teacher Education
+image: /assets/images/portraits/circle/Clemens_Cavallin_NlaUni.png
 institution: nla-university-college
 institutions:
 - nla-university-college
 projects: []
 roles: []
 urls:
-  personal_website: ''
-  institutional_website: ''
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-5836-3539
@@ -21,6 +21,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: ''
 aliases: []
 tags: []
 search_keywords: []

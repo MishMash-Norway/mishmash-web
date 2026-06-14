@@ -11,8 +11,7 @@ projects: []
 roles:
 - Council member
 urls:
-  personal_website: ''
-  institutional_website: https://charlesmartin.com.au
+  website: https://charlesmartin.com.au
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-5683-7529
@@ -21,6 +20,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: https://charlesmartin.com.au
 aliases: []
 tags:
 - Music Technology

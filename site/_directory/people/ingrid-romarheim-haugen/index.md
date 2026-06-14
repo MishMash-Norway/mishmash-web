@@ -41,7 +41,7 @@ selected_works:
   url: https://www.uio.no/ritmo/english/projects/mirage/events/2023/may/norwegian-folk-music-analysis-with-computers.html
 source_mentions:
 - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
-summary:
+summary: null
 permalink: /people/ingrid-romarheim-haugen/
 redirect_from:
 - /directory/people/ingrid-romarheim-haugen/

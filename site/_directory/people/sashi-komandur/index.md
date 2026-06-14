@@ -16,8 +16,7 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  personal_website: ''
-  institutional_website: ''
+  website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -26,6 +25,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: ''
 aliases: []
 tags:
 - Human computer interaction

@@ -11,8 +11,7 @@ institutions:
 projects: []
 roles: []
 urls:
-  personal_website: ''
-  institutional_website: http://www.peteredwards.no
+  website: http://www.peteredwards.no
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0002-7586-5597
@@ -21,6 +20,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: http://www.peteredwards.no
 aliases: []
 tags: []
 search_keywords: []

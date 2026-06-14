@@ -13,8 +13,7 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  personal_website: ''
-  institutional_website: https://budhaditya.org
+  website: https://budhaditya.org
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-9489-2721
@@ -23,6 +22,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: https://budhaditya.org
 aliases: []
 tags:
 - Sound analysis /synthesis

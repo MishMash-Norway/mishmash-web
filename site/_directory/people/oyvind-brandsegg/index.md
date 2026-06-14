@@ -75,7 +75,7 @@ selected_works:
   year: '2021'
   source: Lecture
 source_mentions: []
-summary:
+summary: null
 permalink: /people/oyvind-brandsegg/
 redirect_from:
 - /directory/people/oyvind-brandsegg/

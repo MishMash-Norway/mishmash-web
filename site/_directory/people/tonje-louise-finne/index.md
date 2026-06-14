@@ -5,14 +5,14 @@ name: Tonje Louise Finne
 title: Tonje Louise Finne
 position: Associate professor
 department: The TV School - Department of Television Education
+image: /assets/images/portraits/circle/Tonje_Louise_Finne_INN.png
 institution: inland-norway-university-of-applied-sciences
 institutions:
 - inland-norway-university-of-applied-sciences
 projects: []
 roles: []
 urls:
-  personal_website: ''
-  institutional_website: https://vimeo.com/tonjefinne
+  website: https://vimeo.com/tonjefinne
   github: ''
   linkedin: ''
   orcid: ''
@@ -21,6 +21,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: https://vimeo.com/tonjefinne
 aliases: []
 tags: []
 search_keywords: []

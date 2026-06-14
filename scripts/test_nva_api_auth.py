@@ -69,11 +69,16 @@ def main() -> int:
         headers={"Authorization": f"Bearer {token}", "Accept": "application/json"},
         timeout=30,
     )
-    if response.status_code == 200 and not (response.headers.get("Content-Type") or "").startswith(
-        "application/json"
-    ):
-        print(f"OK: profile picture endpoint reachable ({len(response.content)} bytes)")
-        return 0
+    if response.status_code == 200:
+        content_type = (response.headers.get("Content-Type") or "").lower()
+        if content_type.startswith("application/json"):
+            payload = response.json()
+            if payload.get("base64Data"):
+                print(f"OK: profile picture endpoint returned base64 JSON ({len(payload['base64Data'])} chars)")
+                return 0
+        elif content_type.startswith("image/"):
+            print(f"OK: profile picture endpoint reachable ({len(response.content)} bytes)")
+            return 0
 
     print(f"Portrait endpoint returned HTTP {response.status_code}")
     print("If this fails, confirm Prod/Test credentials match NVA_API_ENV.")

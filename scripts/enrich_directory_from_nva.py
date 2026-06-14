@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import base64
 import json
 import os
 import re
@@ -577,8 +578,14 @@ def download_nva_portrait(image_url: str, dest_path: Path) -> bool:
         response.raise_for_status()
         content_type = (response.headers.get("Content-Type") or "").lower()
         if content_type.startswith("application/json"):
-            return False
-        save_circle_portrait(response.content, dest_path)
+            payload = response.json()
+            encoded = (payload.get("base64Data") or "").strip()
+            if not encoded:
+                return False
+            image_bytes = base64.b64decode(encoded)
+        else:
+            image_bytes = response.content
+        save_circle_portrait(image_bytes, dest_path)
         return True
     except Exception:
         return False
@@ -1310,7 +1317,8 @@ def enrich_person(
             changed = True
 
     image_url = synced_field_value(nva_bundle, orcid_bundle, "image_url") or ""
-    if download_images and image_url:
+    existing_image = (data.get("image") or "").strip()
+    if download_images and image_url and not existing_image:
         portrait_name = portrait_filename(data.get("name") or slug, institution or (data.get("institution") or ""))
         portrait_path = root / PORTRAITS_CIRCLE_DIR / portrait_name
         if download_nva_portrait(image_url, portrait_path):

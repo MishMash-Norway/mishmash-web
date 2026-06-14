@@ -5,14 +5,14 @@ name: Erik Johannes Husom
 title: Erik Johannes Husom
 position: Researcher
 department: Sustainable Communication Technologies
+image: /assets/images/portraits/circle/Erik_Johannes_Husom_SinDig.png
 institution: sintef-digital
 institutions:
 - sintef-digital
 projects: []
 roles: []
 urls:
-  personal_website: ''
-  institutional_website: https://erikjohannes.no/
+  website: https://erikjohannes.no/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-9325-1604
@@ -21,6 +21,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: https://erikjohannes.no/
 aliases: []
 tags:
 - Deep learning

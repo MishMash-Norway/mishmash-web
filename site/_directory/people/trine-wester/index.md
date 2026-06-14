@@ -5,14 +5,14 @@ name: Trine Wester
 title: Trine Wester
 position: Associate professor
 department: Art and Craft
+image: /assets/images/portraits/circle/Trine_Wester_KHiO.png
 institution: oslo-national-academy-of-the-arts
 institutions:
 - oslo-national-academy-of-the-arts
 projects: []
 roles: []
 urls:
-  personal_website: ''
-  institutional_website: http://trinewester.com/
+  website: http://trinewester.com/
   github: ''
   linkedin: ''
   orcid: ''
@@ -21,6 +21,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: http://trinewester.com/
 aliases: []
 tags: []
 search_keywords: []

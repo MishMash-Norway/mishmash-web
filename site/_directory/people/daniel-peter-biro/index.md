@@ -5,14 +5,14 @@ name: Daniel Peter Biro
 title: Daniel Peter Biro
 position: Professor
 department: The Grieg Academy &#8211; Department of Music
+image: /assets/images/portraits/circle/Daniel_Peter_Biro_UiB.png
 institution: university-of-bergen
 institutions:
 - university-of-bergen
 projects: []
 roles: []
 urls:
-  personal_website: ''
-  institutional_website: https://www.danielpeterbiro.no/
+  website: https://www.danielpeterbiro.no/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0006-9207-8885
@@ -21,6 +21,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: https://www.danielpeterbiro.no/
 aliases: []
 tags:
 - Etnomusicology

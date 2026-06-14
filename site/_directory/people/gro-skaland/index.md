@@ -56,7 +56,7 @@ selected_works:
   year: '2020'
   source: Conference lecture
 source_mentions: []
-summary:
+summary: null
 permalink: /people/gro-skaland/
 redirect_from:
 - /directory/people/gro-skaland/

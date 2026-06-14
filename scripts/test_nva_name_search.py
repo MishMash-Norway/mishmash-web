@@ -1,10 +1,20 @@
 #!/usr/bin/env python3
+import base64
+import tempfile
 import unittest
+from pathlib import Path
+from unittest.mock import MagicMock, patch
 
 from enrich_directory_from_nva import (
+    download_nva_portrait,
     names_match_for_discovery,
     normalize_person_name_for_match,
     norwegian_name_search_variants,
+)
+
+# Minimal 1x1 PNG
+TINY_PNG = base64.b64decode(
+    "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg=="
 )
 
 
@@ -36,6 +46,21 @@ class NorwegianNameSearchTests(unittest.TestCase):
         target = normalize_person_name_for_match("Gro Skaland")
         candidate = normalize_person_name_for_match("Ann Kjersti Skaland")
         self.assertFalse(names_match_for_discovery(target, candidate))
+
+
+class NvaPortraitDownloadTests(unittest.TestCase):
+    @patch("enrich_directory_from_nva.requests.get")
+    def test_download_nva_portrait_decodes_json_base64(self, mock_get):
+        mock_get.return_value = MagicMock(
+            status_code=200,
+            headers={"Content-Type": "application/json; charset=utf-8"},
+            raise_for_status=lambda: None,
+            json=lambda: {"base64Data": base64.b64encode(TINY_PNG).decode("ascii")},
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            dest = Path(tmp) / "portrait.png"
+            self.assertTrue(download_nva_portrait("https://api.nva.unit.no/cristin/person/1/picture", dest))
+            self.assertTrue(dest.exists())
 
 
 if __name__ == "__main__":

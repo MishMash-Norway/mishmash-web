@@ -17,8 +17,7 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  personal_website: ''
-  institutional_website: ''
+  website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-3538-7765
@@ -27,6 +26,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  personal_website: ''
+  institutional_website: ''
 aliases: []
 tags:
 - Musicology
