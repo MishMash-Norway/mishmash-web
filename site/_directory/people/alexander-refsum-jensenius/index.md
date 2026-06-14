@@ -14,7 +14,8 @@ projects: []
 roles:
 - Director
 urls:
-  website: http://personer.uio.no/alexanje/
+  personal_website: http://www.arj.no
+  institutional_website: http://people.uio.no/alexanje/
   github: https://github.com/alexarje
   linkedin: https://www.linkedin.com/in/alexarje/
   orcid: https://orcid.org/0000-0001-6171-8743

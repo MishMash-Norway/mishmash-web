@@ -51,6 +51,8 @@ layout: default
         {% endif %}
         {% if social_urls %}
           {% assign has_links = false %}
+          {% if social_urls.personal_website and social_urls.personal_website.size > 0 %}{% assign has_links = true %}{% endif %}
+          {% if social_urls.institutional_website and social_urls.institutional_website.size > 0 %}{% assign has_links = true %}{% endif %}
           {% if social_urls.website and social_urls.website.size > 0 %}{% assign has_links = true %}{% endif %}
           {% if social_urls.github and social_urls.github.size > 0 %}{% assign has_links = true %}{% endif %}
           {% if social_urls.linkedin and social_urls.linkedin.size > 0 %}{% assign has_links = true %}{% endif %}
@@ -63,6 +65,10 @@ layout: default
           {% if has_links %}
           <section class="person-profile-links" aria-label="Profiles and websites">
             <p>
+              {% if social_urls.personal_website and social_urls.personal_website.size > 0 %}<a href="{{ social_urls.personal_website }}" target="_blank" rel="noopener noreferrer">Personal Website</a>{% endif %}
+              {% if social_urls.personal_website and social_urls.personal_website.size > 0 and social_urls.institutional_website and social_urls.institutional_website.size > 0 %} | {% endif %}
+              {% if social_urls.institutional_website and social_urls.institutional_website.size > 0 %}<a href="{{ social_urls.institutional_website }}" target="_blank" rel="noopener noreferrer">Institutional Website</a>{% endif %}
+              {% if social_urls.institutional_website and social_urls.institutional_website.size > 0 and social_urls.website and social_urls.website.size > 0 %} | {% endif %}
               {% if social_urls.website and social_urls.website.size > 0 %}<a href="{{ social_urls.website }}" target="_blank" rel="noopener noreferrer">Website</a>{% endif %}
               {% if social_urls.website and social_urls.website.size > 0 and social_urls.github and social_urls.github.size > 0 %} | {% endif %}
               {% if social_urls.github and social_urls.github.size > 0 %}<a href="{{ social_urls.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>{% endif %}
