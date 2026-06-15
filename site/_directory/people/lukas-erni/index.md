@@ -7,8 +7,7 @@ title: Lukas Erni
 position: null
 department: null
 institution: null
-institutions:
-- independent-consultant
+institutions: []
 affiliation_units: []
 nva_affiliations: []
 projects:

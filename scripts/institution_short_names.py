@@ -16,7 +16,6 @@ DEFAULT_SHORT_NAMES: dict[str, str] = {
     "barratt-due-institute-of-music": "Barratt Due",
     "bergen-center-for-electronic-arts": "BEK",
     "bi-norwegian-business-school": "BI",
-    "independent-consultant": "Consultant",
     "inland-norway-university-of-applied-sciences": "INN",
     "kristiania-university-college": "Kristiania",
     "kulturtanken": "Kulturtanken",
