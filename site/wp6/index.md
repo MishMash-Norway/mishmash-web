@@ -57,7 +57,13 @@ The public sector must lead in these technologies, ensuring that powerful new ca
     </div>
 </div>
 
-{% include wp-directory-lists.html wp="WP6" %}
+## Members
+
+{% include wp-directory-list.html wp="WP6" section="members" %}
+
+## Projects
+
+{% include wp-directory-list.html wp="WP6" section="projects" %}
 
 ## News
 

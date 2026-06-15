@@ -426,6 +426,10 @@ a:focus-visible .icon {
   margin-bottom: 0.4rem;
 }
 
+.wp-directory-list ul:empty {
+  display: none;
+}
+
 .person-selected-works .nva-results-group-title {
   margin-top: 0;
 }

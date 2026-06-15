@@ -58,7 +58,13 @@ This work package examines these transformations across four interconnected area
     </div>
 </div>
 
-{% include wp-directory-lists.html wp="WP5" %}
+## Members
+
+{% include wp-directory-list.html wp="WP5" section="members" %}
+
+## Projects
+
+{% include wp-directory-list.html wp="WP5" section="projects" %}
 
 ## News
 

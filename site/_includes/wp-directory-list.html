@@ -1,16 +1,16 @@
 {% comment %}
-  Lists seed-funding projects and affiliated people for a work package page.
+  List seed-funding projects or members for a work package page.
   include.wp — work package label, e.g. "WP1"
+  include.section — "members" or "projects"
 {% endcomment %}
 {% assign wp_label = include.wp %}
 {% assign wp_data = site.data.work_packages | where: "label", wp_label | first %}
 {% assign all_people = site.directory | where: "type", "person" | sort: "name" %}
 {% assign all_wp_projects = site.directory | where: "type", "project" | where_exp: "project", "project.url != '/projects/'" %}
 {% assign wp_projects = all_wp_projects | where_exp: "project", "project.wps contains wp_label" | sort: "title" %}
-{% assign seen_people = "|" %}
 
-<section class="directory-related wp-directory-projects" aria-label="{{ wp_label }} projects">
-  <h2>Projects</h2>
+{% if include.section == "projects" %}
+<div class="wp-directory-list wp-directory-projects" aria-label="{{ wp_label }} projects">
   {% if wp_projects.size > 0 %}
   <ul>
     {% for project in wp_projects %}
@@ -22,25 +22,15 @@
   {% else %}
   <p>No seed-funding projects listed for {{ wp_label }} yet.</p>
   {% endif %}
-</section>
-
-<section class="directory-related wp-directory-people" aria-label="{{ wp_label }} people">
-  <h2>People</h2>
+</div>
+{% elsif include.section == "members" %}
+{% assign seen_people = "|" %}
+{% assign member_count = 0 %}
+<div class="wp-directory-list wp-directory-members" aria-label="{{ wp_label }} members">
   <ul>
-    {% if wp_data and wp_data.members %}
-      {% for member_slug in wp_data.members %}
-        {% assign person = all_people | where: "slug", member_slug | first %}
-        {% if person %}
-          {% assign slug_token = "|" | append: person.slug | append: "|" %}
-          {% unless seen_people contains slug_token %}
-            <li><a href="{{ person.url | relative_url }}">{{ person.name | default: person.title | default: person.slug }}</a></li>
-            {% assign seen_people = seen_people | append: person.slug | append: "|" %}
-          {% endunless %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
     {% for person in all_people %}
       {% if person.slug == "person-slug" %}{% continue %}{% endif %}
+      {% if wp_data and wp_data.members contains person.slug %}{% continue %}{% endif %}
       {% assign slug_token = "|" | append: person.slug | append: "|" %}
       {% if seen_people contains slug_token %}{% continue %}{% endif %}
       {% assign on_wp_project = false %}
@@ -53,7 +43,12 @@
       {% if on_wp_project %}
         <li><a href="{{ person.url | relative_url }}">{{ person.name | default: person.title | default: person.slug }}</a></li>
         {% assign seen_people = seen_people | append: person.slug | append: "|" %}
+        {% assign member_count = member_count | plus: 1 %}
       {% endif %}
     {% endfor %}
   </ul>
-</section>
+  {% if member_count == 0 %}
+  <p>No members listed for {{ wp_label }} yet.</p>
+  {% endif %}
+</div>
+{% endif %}

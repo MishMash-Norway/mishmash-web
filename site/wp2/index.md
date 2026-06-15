@@ -53,7 +53,13 @@ This raises critical questions about cultural agency: Who decides what stories a
     </div>
 </div>
 
-{% include wp-directory-lists.html wp="WP2" %}
+## Members
+
+{% include wp-directory-list.html wp="WP2" section="members" %}
+
+## Projects
+
+{% include wp-directory-list.html wp="WP2" section="projects" %}
 
 ## News
 

@@ -57,7 +57,13 @@ AIs developed in this WP will be limited by stricter boundaries than others—fr
     </div>
 </div>
 
-{% include wp-directory-lists.html wp="WP7" %}
+## Members
+
+{% include wp-directory-list.html wp="WP7" section="members" %}
+
+## Projects
+
+{% include wp-directory-list.html wp="WP7" section="projects" %}
 
 ## News
 
