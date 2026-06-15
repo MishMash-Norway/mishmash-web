@@ -1,4 +1,4 @@
-synced_at: '2026-06-14T19:34:10Z'
+synced_at: '2026-06-15T10:59:39Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -957,6 +957,8 @@ results:
   contributors:
   - name: Maham Riaz
   - name: Cagri Erdem
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
@@ -970,6 +972,8 @@ results:
       name: Maham Riaz
     - display: Erdem, Cagri
       name: Cagri Erdem
+      slug: cagri-erdem
+      url: /people/cagri-erdem/
     - display: Jensenius, Alexander Refsum
       name: Alexander Refsum Jensenius
       slug: alexander-refsum-jensenius
@@ -1302,6 +1306,8 @@ results:
     slug: ida-jahr
     url: /people/ida-jahr/
   - name: Enrique Encinas
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
   - name: Hedda Foss Lilleng
   - name: Lene Renneflott
   institutions:
@@ -1326,6 +1332,8 @@ results:
       url: /people/ida-jahr/
     - display: Encinas, Enrique
       name: Enrique Encinas
+      slug: enrique-encinas
+      url: /people/enrique-encinas/
     - display: Lilleng, Hedda Foss
       name: Hedda Foss Lilleng
     - display: Renneflott, Lene
@@ -3247,6 +3255,8 @@ results:
   group_type: Music performance
   contributors:
   - name: Viggo Tellefsen Wivestad
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
   institutions:
   - name: SINTEF Digital
     slug: sintef-digital
