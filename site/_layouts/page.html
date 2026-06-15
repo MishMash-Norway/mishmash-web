@@ -15,35 +15,38 @@ layout: default
     {% endif %}
     {% if page_heading %}
     {% if page.type == 'institution' %}
-    <div class="institution-header">
-      <div class="institution-header-main">
-        <h1>{{ page_heading }}</h1>
-        {% assign institution_website = page.urls.website %}
-        {% assign institution_wikipedia = page.urls.wikipedia %}
-        {% if institution_website and institution_website != '' or institution_wikipedia and institution_wikipedia != '' %}
-        <p class="institution-links">
-          {% if institution_website and institution_website != '' %}
-          {% assign institution_website_label = institution_website | replace: 'https://', '' | replace: 'http://', '' | replace: 'www.', '' | split: '/' | first %}
-          <a class="institution-link institution-link-website" href="{{ institution_website }}" target="_blank" rel="noopener noreferrer">{{ institution_website_label }}</a>
-          {% endif %}
-          {% if institution_website and institution_website != '' and institution_wikipedia and institution_wikipedia != '' %}
-          <span class="institution-links-sep" aria-hidden="true"> · </span>
-          {% endif %}
-          {% if institution_wikipedia and institution_wikipedia != '' %}
-          <a class="institution-link institution-link-wikipedia" href="{{ institution_wikipedia }}" target="_blank" rel="noopener noreferrer">Wikipedia</a>
-          {% endif %}
-        </p>
-        {% endif %}
-      </div>
+    <div class="institution-page">
       {% include institution-map.html slug=page.slug %}
-    </div>
+      <div class="institution-body">
+        <header class="institution-header">
+          <h1>{{ page_heading }}</h1>
+          {% assign institution_website = page.urls.website %}
+          {% assign institution_wikipedia = page.urls.wikipedia %}
+          {% if institution_website and institution_website != '' or institution_wikipedia and institution_wikipedia != '' %}
+          <p class="institution-links">
+            {% if institution_website and institution_website != '' %}
+            {% assign institution_website_label = institution_website | replace: 'https://', '' | replace: 'http://', '' | replace: 'www.', '' | split: '/' | first %}
+            <a class="institution-link institution-link-website" href="{{ institution_website }}" target="_blank" rel="noopener noreferrer">{{ institution_website_label }}</a>
+            {% endif %}
+            {% if institution_website and institution_website != '' and institution_wikipedia and institution_wikipedia != '' %}
+            <span class="institution-links-sep" aria-hidden="true"> · </span>
+            {% endif %}
+            {% if institution_wikipedia and institution_wikipedia != '' %}
+            <a class="institution-link institution-link-wikipedia" href="{{ institution_wikipedia }}" target="_blank" rel="noopener noreferrer">Wikipedia</a>
+            {% endif %}
+          </p>
+          {% endif %}
+        </header>
     {% else %}
     <h1>{{ page_heading }}</h1>
     {% endif %}
     {% endif %}
+    {% unless page.type == 'institution' %}
     {{ content }}
+    {% endunless %}
 
     {% if page.type == 'institution' and page.slug %}
+        {{ content }}
     {% assign all_people = site.directory | where: "type", "person" %}
     {% assign institution_people_explicit_slug = all_people | where_exp: "person", "page.people contains person.slug" %}
     {% assign institution_people_explicit_url = all_people | where_exp: "person", "page.people contains person.url" %}
@@ -79,6 +82,8 @@ layout: default
       <img src="{{ page.image | relative_url }}" alt="{{ page.name | default: page.title }} logo">
     </figure>
     {% endif %}
+      </div>
+    </div>
     {% endif %}
   </div>
 </div>

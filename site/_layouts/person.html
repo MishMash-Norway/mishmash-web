@@ -137,7 +137,7 @@ layout: default
 
     {% if page.selected_works and page.selected_works.size > 0 %}
     <section class="person-selected-works nva-results" aria-label="Latest results">
-      <h2 class="nva-results-group-title">Latest results</h2>
+      <h2>Latest results</h2>
       <ol class="nva-results-list">
         {% assign mishmash_results = site.data.mishmash_results.results %}
         {% for work in page.selected_works limit: 10 %}
