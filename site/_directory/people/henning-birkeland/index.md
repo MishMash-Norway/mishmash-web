@@ -12,7 +12,8 @@ institutions:
 projects: []
 roles: []
 urls:
-  website: https://www.henningb.com/
+  personal_website: https://www.henningb.com/
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0006-4668-4585
@@ -21,8 +22,6 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  personal_website: ''
-  institutional_website: https://www.henningb.com/
 aliases: []
 tags:
 - Astrophysics

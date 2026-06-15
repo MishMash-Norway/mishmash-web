@@ -11,7 +11,8 @@ institutions:
 projects: []
 roles: []
 urls:
-  website: ''
+  personal_website: http://thormagnusson.github.io
+  institutional_website: https://english.hi.is/staff/thormagnusson
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-3731-0630
@@ -20,8 +21,6 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  personal_website: http://thormagnusson.github.io
-  institutional_website: https://english.hi.is/staff/thormagnusson
 aliases: []
 tags: []
 search_keywords: []

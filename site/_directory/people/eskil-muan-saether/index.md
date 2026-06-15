@@ -13,7 +13,8 @@ projects: []
 roles:
 - Board Secretary
 urls:
-  website: ''
+  personal_website: ''
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -22,8 +23,6 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  personal_website: ''
-  institutional_website: ''
 aliases: []
 tags: []
 search_keywords: []

@@ -94,7 +94,6 @@ layout: default
     {% assign has_social_icons = false %}
     {% if social_urls.personal_website.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if social_urls.institutional_website.size > 0 %}{% assign has_social_icons = true %}{% endif %}
-    {% if social_urls.website.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if social_urls.github.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if social_urls.linkedin.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if social_urls.orcid.size > 0 %}{% assign has_social_icons = true %}{% endif %}
@@ -112,9 +111,6 @@ layout: default
         {% endif %}
         {% if social_urls.institutional_website.size > 0 %}
         <a class="social-icon-link" href="{{ social_urls.institutional_website }}" target="_blank" rel="noopener noreferrer" aria-label="Institutional Website" title="Institutional Website"><img class="icon icon-web-page" src="{{ '/assets/images/icons/catalogue/web-page.svg' | relative_url }}" alt="" width="64"></a>
-        {% endif %}
-        {% if social_urls.website.size > 0 %}
-        <a class="social-icon-link" href="{{ social_urls.website }}" target="_blank" rel="noopener noreferrer" aria-label="Website" title="Website"><img class="icon icon-newsletter" src="{{ '/assets/images/icons/catalogue/newsletter.svg' | relative_url }}" alt="" width="64"></a>
         {% endif %}
         {% if social_urls.github.size > 0 %}
         <a class="social-icon-link" href="{{ social_urls.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><img class="icon icon-github" src="{{ '/assets/images/icons/catalogue/github.svg' | relative_url }}" alt="" width="64"></a>

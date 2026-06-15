@@ -12,7 +12,8 @@ institutions:
 projects: []
 roles: []
 urls:
-  website: https://www.danielpeterbiro.no/
+  personal_website: https://www.danielpeterbiro.no/
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0006-9207-8885
@@ -21,8 +22,6 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  personal_website: ''
-  institutional_website: https://www.danielpeterbiro.no/
 aliases: []
 tags:
 - Etnomusicology

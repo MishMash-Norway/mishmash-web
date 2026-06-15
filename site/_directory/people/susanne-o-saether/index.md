@@ -1,8 +1,8 @@
 ---
 type: person
 slug: susanne-o-saether
-name: Susanne O. Saether
-title: Susanne O. Saether
+name: Susanne Østby Sæther
+title: Susanne Østby Sæther
 position:
 department:
 institution:
@@ -13,11 +13,11 @@ projects: []
 roles: []
 urls:
   personal_website: ''
-  institutional_website:
+  institutional_website: https://www.nasjonalmuseet.no/ansatte/susanne-ostby-sather/
   github:
   linkedin:
-  orcid:
-  nva:
+  orcid: https://orcid.org/0009-0002-7337-5148
+  nva: https://nva.sikt.no/research-profile/23384
   youtube:
   facebook:
   mastodon:

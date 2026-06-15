@@ -13,7 +13,8 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  website: https://filmschoolteacher.info/fredsnotes/
+  personal_website: https://filmschoolteacher.info/fredsnotes/
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-3061-1622
@@ -22,8 +23,6 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  personal_website: ''
-  institutional_website: https://filmschoolteacher.info/fredsnotes/
 aliases: []
 tags:
 - Educational management

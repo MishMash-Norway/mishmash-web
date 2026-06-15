@@ -12,7 +12,8 @@ institutions:
 projects: []
 roles: []
 urls:
-  website: http://trinewester.com/
+  personal_website: http://trinewester.com/
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -21,8 +22,6 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  personal_website: ''
-  institutional_website: http://trinewester.com/
 aliases: []
 tags: []
 search_keywords: []

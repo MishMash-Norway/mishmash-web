@@ -62,14 +62,14 @@ When a person has `urls.nva`, the **daily sync overwrites** these fields from NV
 
 - `position`, `department`, `institution`, `institutions`, `nva_affiliations`
 - `tags`, `search_keywords`, `summary`, `selected_works`
-- `urls.website`, `urls.nva`, `urls.orcid` (canonical URLs)
+- `urls.institutional_website`, `urls.nva`, `urls.orcid` (canonical URLs)
 - `image` (when a portrait is downloaded)
 
 These are **preserved** and intended for manual curation:
 
 - `name`, `title`, `slug`
 - `roles`, `projects`, `source_mentions`
-- Other social URLs (`github`, `linkedin`, `youtube`, etc.)
+- Other social URLs (`personal_website`, `github`, `linkedin`, `youtube`, etc.)
 - Markdown body below the front matter (if present)
 
 To add a person: copy `site/_directory/people/_template/`, set `slug`, `name`, and at least `urls.nva` or `urls.orcid`. Run enrich locally or wait for the nightly workflow.

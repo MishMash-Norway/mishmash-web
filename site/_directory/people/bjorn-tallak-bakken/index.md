@@ -18,7 +18,8 @@ nva_affiliations:
 projects: []
 roles: []
 urls:
-  website: ''
+  personal_website: ''
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-8800-8140
@@ -27,8 +28,6 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  personal_website: ''
-  institutional_website: ''
 aliases: []
 tags: []
 search_keywords: []
@@ -74,7 +73,7 @@ selected_works:
   year: '2022'
   source: Journal article
 source_mentions: []
-summary:
+summary: null
 permalink: /people/bjorn-tallak-bakken/
 redirect_from:
 - /directory/people/bjorn-tallak-bakken/

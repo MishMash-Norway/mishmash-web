@@ -691,7 +691,7 @@ def fetch_nva_bundle(
         "summary": background_to_summary(profile.get("background")),
         "image_url": (profile.get("image") or "").strip(),
         "orcid": find_orcid(profile.get("identifiers") or []),
-        "website": ((profile.get("contactDetails") or {}).get("webPage") or "").strip(),
+        "institutional_website": ((profile.get("contactDetails") or {}).get("webPage") or "").strip(),
         "selected_works": nva_selected_works(profile_id, max_works=max_works),
         "profile_id": profile_id,
     }
@@ -740,7 +740,7 @@ def fetch_orcid_bundle(orcid_id: str, institution_lookup: dict[str, str], max_ta
         "summary": orcid_biography(person),
         "image_url": "",
         "orcid": f"https://orcid.org/{orcid_id}",
-        "website": (orcid_researcher_urls(person) or [""])[0],
+        "personal_website": (orcid_researcher_urls(person) or [""])[0],
         "selected_works": works,
         "profile_id": "",
     }
@@ -1138,7 +1138,8 @@ def ordered_person(data: dict) -> dict:
     urls = ordered.get("urls") or {}
     if isinstance(urls, dict):
         url_order = [
-            "website",
+            "personal_website",
+            "institutional_website",
             "github",
             "linkedin",
             "orcid",
@@ -1293,13 +1294,19 @@ def enrich_person(
     selected_works = synced_field_value(nva_bundle, orcid_bundle, "selected_works") or []
     changed = apply_field(data, "selected_works", selected_works, changed, allow_empty=allow_empty) or changed
 
-    website = synced_field_value(nva_bundle, orcid_bundle, "website") or ""
+    if "website" in urls:
+        urls.pop("website", None)
+        changed = True
+
+    institutional_website = (nva_bundle.get("institutional_website") or "").strip()
     if from_nva:
-        if urls.get("website") != website:
-            urls["website"] = website
+        if urls.get("institutional_website") != institutional_website:
+            urls["institutional_website"] = institutional_website
             changed = True
-    elif website and urls.get("website") != website:
-        urls["website"] = website
+
+    personal_website = (orcid_bundle.get("personal_website") or "").strip()
+    if not from_nva and personal_website and urls.get("personal_website") != personal_website:
+        urls["personal_website"] = personal_website
         changed = True
 
     if profile_id:
@@ -1348,7 +1355,7 @@ def main():
     parser = argparse.ArgumentParser(
         description=(
             "Enrich directory people from NVA and ORCID. "
-            "When urls.nva is set, NVA overwrites affiliation, tags, bio, publications, and website "
+            "When urls.nva is set, NVA overwrites affiliation, tags, bio, publications, and institutional website "
             "(not name/title). ORCID is used only if NVA is missing."
         )
     )

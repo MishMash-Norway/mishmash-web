@@ -234,7 +234,8 @@ projects: []
 roles:
 {role_block}
 urls:
-  website: {website}
+  personal_website: ''
+  institutional_website: {website}
   github:
   linkedin:
   orcid:

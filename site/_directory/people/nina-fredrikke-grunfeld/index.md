@@ -17,7 +17,8 @@ projects: []
 roles:
 - Council member
 urls:
-  website: https://grunderfilm.no
+  personal_website: https://grunderfilm.no
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0000-9450-3108
@@ -26,8 +27,6 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  personal_website: ''
-  institutional_website: https://grunderfilm.no
 aliases: []
 tags:
 - Manuscripts

@@ -12,7 +12,8 @@ institutions:
 projects: []
 roles: []
 urls:
-  website: http://www.larsnyre.com
+  personal_website: http://www.larsnyre.com
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -21,8 +22,6 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  personal_website: http://www.larsnyre.com
-  institutional_website: ''
 aliases: []
 tags: []
 search_keywords: []

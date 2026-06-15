@@ -12,7 +12,8 @@ projects: []
 roles:
 - Council member
 urls:
-  website: ''
+  personal_website: ''
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-7045-9878
@@ -21,8 +22,6 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  personal_website: ''
-  institutional_website: ''
 aliases: []
 tags:
 - Political theory

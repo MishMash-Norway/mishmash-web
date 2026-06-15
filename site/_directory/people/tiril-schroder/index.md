@@ -12,7 +12,8 @@ institutions:
 projects: []
 roles: []
 urls:
-  website: http://www.tirilschroeder.com/
+  personal_website: http://www.tirilschroeder.com/
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0000-2644-1275
@@ -21,8 +22,6 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  personal_website: ''
-  institutional_website: ''
 aliases: []
 tags:
 - Painting
