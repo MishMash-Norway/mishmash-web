@@ -7,6 +7,7 @@ position: Research fellow
 department: Fagseksjon for strykere
 institution: norwegian-academy-of-music
 institutions:
+- barratt-due-institute-of-music
 - norwegian-academy-of-music
 - university-of-oslo
 nva_affiliations:
@@ -18,7 +19,7 @@ nva_affiliations:
   institution: university-of-oslo
 - role: ''
   unit: Barratt Due Institute of Music
-  institution: ''
+  institution: barratt-due-institute-of-music
 projects:
 - human-machine-consciousness
 roles:

@@ -5,13 +5,14 @@ name: Bjørn Tallak Bakken
 title: Bjørn Tallak Bakken
 position: Associate professor
 department: Nord University Business School
-institution: inland-norway-university-of-applied-sciences
+institution: nord-university
 institutions:
 - inland-norway-university-of-applied-sciences
+- nord-university
 nva_affiliations:
 - role: Associate professor
   unit: Nord University Business School
-  institution: ''
+  institution: nord-university
 - role: Associate professor
   unit: Department of Organisation, Leadership and Management
   institution: inland-norway-university-of-applied-sciences

@@ -821,6 +821,8 @@ def institution_slug_from_org_node(org_data: dict, institution_lookup: dict[str,
         "HVL": "Western Norway University of Applied Sciences",
         "HIOF": "Ostfold University College",
         "INN": "Inland Norway University of Applied Sciences",
+        "NORD": "Nord University",
+        "BARRATDUE": "Barratt Due Institute of Music",
         "KHIO": "Oslo National Academy of the Arts",
         "NORSUS": "NORSUS - Norwegian Institute for Sustainability Research",
     }

@@ -5,13 +5,14 @@ name: Troels Linde
 title: Troels Linde
 position: Professor
 department: Faculty of Social Sciences
-institution: null
+institution: nord-university
 institutions:
 - inland-norway-university-of-applied-sciences
+- nord-university
 nva_affiliations:
 - role: Professor
   unit: Faculty of Social Sciences
-  institution: ''
+  institution: nord-university
 - role: Professor
   unit: The Norwegian Film School
   institution: inland-norway-university-of-applied-sciences
