@@ -228,6 +228,16 @@ title: Search
     });
   }
 
+  function activateTypeChip(type) {
+    activeTypes.add(type);
+    Array.from(typeChips.querySelectorAll('.filter-chip')).forEach(function (chip) {
+      if (chip.dataset.value === type) {
+        chip.classList.add('active');
+        chip.setAttribute('aria-pressed', 'true');
+      }
+    });
+  }
+
   function activateTagChip(tag) {
     activeTags.add(tag);
     tagFilterGroup.open = true;
@@ -246,6 +256,7 @@ title: Search
     if (q) {
       input.value = q;
     }
+    params.getAll('type').forEach(activateTypeChip);
     params.getAll('tag').forEach(activateTagChip);
   }
 
@@ -256,6 +267,9 @@ title: Search
     if (q) {
       params.set('q', q);
     }
+    activeTypes.forEach(function (type) {
+      params.append('type', type);
+    });
     activeTags.forEach(function (tag) {
       params.append('tag', tag);
     });
@@ -270,7 +284,7 @@ title: Search
       allItems = data;
       buildFilters(data);
       hydrateFromUrl();
-      if (input.value || activeTags.size) runSearch();
+      if (input.value || activeTypes.size || activeTags.size) runSearch();
     })
     .catch(function () {
       statusEl.textContent = 'Search index could not be loaded.';

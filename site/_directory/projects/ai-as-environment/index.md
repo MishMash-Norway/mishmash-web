@@ -17,7 +17,7 @@ Primary WP: [WP6](/wp6/)
 
 ## People
 - Project leader: [Synne Tollerud Bull](/people/synne-tollerud-bull/)
-- Participants: [Eivind Rossaak](/people/eivind-rossaak/), [Budhaditya Chattopadhyay](/people/budhaditya-chattopadhyay/), [Stephanie von Spreter](/people/stephanie-von-spreter/), [Susanne Østby Sæther](/people/susanne-o-saether/)
+- Participants: [Eivind Røssaak](/people/eivind-rossaak/), [Budhaditya Chattopadhyay](/people/budhaditya-chattopadhyay/), [Stephanie von Spreter](/people/stephanie-von-spreter/), [Susanne Østby Sæther](/people/susanne-o-saether/)
 
 ## Institutions
 - [Kristiania University College](/institutions/kristiania-university-college/)
