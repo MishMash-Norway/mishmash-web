@@ -29,22 +29,7 @@ PORTRAIT_MAX_SIZE = 300
 DEFAULT_MAX_WORKS = 10
 DEFAULT_MAX_TAGS = 12
 
-INSTITUTION_ABBREV = {
-    "university-of-oslo": "UiO",
-    "university-of-bergen": "UiB",
-    "norwegian-university-of-science-and-technology": "NTNU",
-    "oslo-school-of-architecture-and-design": "AHO",
-    "norwegian-academy-of-music": "NMH",
-    "simula-metropolitan-center-for-digital-engineering": "Simula",
-    "norsus-norwegian-institute-for-sustainability-research": "NORSUS",
-    "arctic-university-of-norway": "UiT",
-    "university-of-agder": "UiA",
-    "ostfold-university-college": "HiO",
-    "inland-norway-university-of-applied-sciences": "INN",
-    "western-norway-university-of-applied-sciences": "HVL",
-    "oslo-national-academy-of-the-arts": "KHiO",
-}
-
+from institution_short_names import institution_abbrev as resolve_institution_abbrev
 NVA_API_HOSTS = {
     "prod": "https://api.nva.unit.no",
     "test": "https://api.test.nva.aws.unit.no",
@@ -533,14 +518,7 @@ def localized_text(value) -> str:
 
 
 def institution_abbrev(slug: str) -> str:
-    if not slug:
-        return "Org"
-    if slug in INSTITUTION_ABBREV:
-        return INSTITUTION_ABBREV[slug]
-    parts = [p for p in slug.split("-") if p]
-    if not parts:
-        return "Org"
-    return "".join(part[:1].upper() + part[1:3] for part in parts[:2])
+    return resolve_institution_abbrev(slug, SITE_ROOT)
 
 
 def portrait_filename(name: str, institution_slug: str) -> str:
@@ -1439,6 +1417,17 @@ def main():
 
     print(f"Updated: {updated}")
     print(f"Skipped: {skipped}")
+
+    if not args.dry_run:
+        from sync_directory_reciprocity import sync_directory
+
+        changed = sync_directory(root, dry_run=False)
+        print(
+            "Reciprocity sync: "
+            f"people={changed['people']}, "
+            f"institutions={changed['institutions']}, "
+            f"projects={changed['projects']}"
+        )
 
 
 if __name__ == "__main__":

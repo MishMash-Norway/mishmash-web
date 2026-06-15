@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: gerard-hodgkinson
 name: Gerard Hodgkinson
@@ -7,7 +8,7 @@ position: null
 department: null
 institution: null
 institutions:
-- /institutions/university-of-manchester/
+- university-of-manchester
 affiliation_units: []
 nva_affiliations: []
 projects:

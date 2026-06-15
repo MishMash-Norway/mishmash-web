@@ -1,12 +1,27 @@
 ---
 layout: page
+type: project
 title: Environmental Sustainability in MishMash
 permalink: /projects/environmental-sustainability-mishmash/
 wps:
 - WP5
-tags: [Seed Funding, WP5, Sustainability, AI, Consortium]
+tags:
+- Seed Funding
+- WP5
+- Sustainability
+- AI
+- Consortium
+slug: environmental-sustainability-mishmash
+name: Environmental Sustainability in MishMash
+people:
+- erik-johannes-husom
+- lina-plataniti
+- sagar-sen
+institutions:
+- norsus-norwegian-institute-for-sustainability-research
+- sintef-digital
+projects: []
 ---
-
 
 ## Summary
 This project establishes a knowledge base and maps the competences of MishMash partners working on the environmental sustainability of AI systems. Through an in-person workshop, the team identifies synergies and set goals for evaluating the sustainability of AI and creativity within the consortium. The output includes a blog post documenting findings and ideas for future project proposals, ensuring that responsible and sustainable development is integrated into MishMash’s creative and cultural research.

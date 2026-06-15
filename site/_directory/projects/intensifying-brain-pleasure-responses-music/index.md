@@ -1,12 +1,25 @@
 ---
 layout: page
+type: project
 title: Intensifying Brain Pleasure Responses to Music
 permalink: /projects/intensifying-brain-pleasure-responses-music/
 wps:
 - WP3
-tags: [Seed Funding, WP3, Music, Neuroimaging, Wellbeing]
+tags:
+- Seed Funding
+- WP3
+- Music
+- Neuroimaging
+- Wellbeing
+slug: intensifying-brain-pleasure-responses-music
+name: Intensifying Brain Pleasure Responses to Music
+people:
+- jonna-vuoskoski
+- sascha-fruhholz
+institutions:
+- university-of-oslo
+projects: []
 ---
-
 
 ## Summary
 This study utilizes real-time fMRI neuroimaging and neurofeedback at the University Hospital of Oslo to quantify brain signals in the neural pleasure centers of listeners. An AI algorithm instantaneously learns patterns in these neural signals to intelligently modify musical features—such as tempo, rhythm, and timbre—in real-time to enhance the listener's experience. The project investigates how AI-controlled musical creations can intensify human pleasure, replacing human performers with adaptive code.

@@ -5,6 +5,7 @@ permalink: /institutions/kulturtanken/
 redirect_from:
   - /directory/institutions/kulturtanken/
 name: Kulturtanken
+short_name: Kulturtanken
 image: /images/institutions/kulturtanken.png
 people:
   - /people/bente-aasheim/

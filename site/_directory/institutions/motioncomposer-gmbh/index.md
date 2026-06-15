@@ -5,6 +5,7 @@ permalink: /institutions/motioncomposer-gmbh/
 redirect_from:
   - /directory/institutions/motioncomposer-gmbh/
 name: MotionComposer GmbH
+short_name: MotionComposer
 image: /images/institutions/motioncomposer-gmbh.png
 people:
   - /people/robert-wechsler/

@@ -5,6 +5,7 @@ permalink: /institutions/super-ponni/
 redirect_from:
   - /directory/institutions/super-ponni/
 name: Super Ponni
+short_name: Super Ponni
 image: /images/institutions/super-ponni.png
 people:
   - /people/audun-kvitland-rostad/

@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: tommy-aase
 name: Tommy Aase
@@ -7,7 +8,7 @@ position: null
 department: null
 institution: null
 institutions:
-- /institutions/screenstory/
+- screenstory
 affiliation_units: []
 nva_affiliations: []
 projects:

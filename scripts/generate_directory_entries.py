@@ -5,6 +5,7 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
+from institution_short_names import suggest_short_name
 from repo_paths import SITE_ROOT
 
 TEXT_EXTS = {".md", ".mdx", ".html", ".htm", ".txt", ".yml", ".yaml", ".json"}
@@ -225,6 +226,7 @@ summary:
 type: institution
 slug: {slug}
 name: {name}
+short_name: {suggest_short_name(slug, name)}
 image: /images/institutions/{slug}.png
 people: []
 projects: []

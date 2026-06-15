@@ -5,6 +5,7 @@ permalink: /institutions/ultima-festival/
 redirect_from:
   - /directory/institutions/ultima-festival/
 name: Ultima Festival
+short_name: Ultima
 image: /images/institutions/ultima-festival.png
 people:
   - /people/heloisa-amaral/

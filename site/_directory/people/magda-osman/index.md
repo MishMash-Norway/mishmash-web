@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: magda-osman
 name: Magda Osman
@@ -7,7 +8,7 @@ position: null
 department: null
 institution: null
 institutions:
-- /institutions/university-of-cambridge/
+- university-of-cambridge
 affiliation_units: []
 nva_affiliations: []
 projects:

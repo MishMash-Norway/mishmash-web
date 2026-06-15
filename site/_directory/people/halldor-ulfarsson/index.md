@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: halldor-ulfarsson
 name: Halldor Ulfarsson
@@ -7,7 +8,7 @@ position: null
 department: null
 institution: null
 institutions:
-- /institutions/university-of-iceland/
+- university-of-iceland
 affiliation_units: []
 nva_affiliations: []
 projects:

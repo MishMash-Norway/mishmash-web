@@ -5,6 +5,7 @@ permalink: /institutions/university-of-melbourne/
 redirect_from:
   - /directory/institutions/university-of-melbourne/
 name: University of Melbourne
+short_name: UniMelb
 image: /images/institutions/university-of-melbourne.png
 people:
   - /people/felicity-baker/

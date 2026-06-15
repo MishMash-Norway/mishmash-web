@@ -6,6 +6,7 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
+from institution_short_names import suggest_short_name
 from repo_paths import SITE_ROOT
 BOARD_FILE = "about/organisation/board/index.md"
 COUNCIL_FILE = "about/organisation/council/index.md"
@@ -264,6 +265,7 @@ def render_institution(name: str, slug: str, people_slugs: list[str], sources: l
 type: institution
 slug: {slug}
 name: {name}
+short_name: {suggest_short_name(slug, name)}
 image: /images/institutions/{slug}.png
 people:
 {people_block}

@@ -5,6 +5,7 @@ permalink: /institutions/screenstory/
 redirect_from:
   - /directory/institutions/screenstory/
 name: Screenstory
+short_name: Screenstory
 image: /images/institutions/screenstory.png
 people:
   - /people/tommy-aase/

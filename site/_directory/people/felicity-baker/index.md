@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: felicity-baker
 name: Felicity Baker
@@ -7,7 +8,9 @@ position: Professor ii
 department: Fagseksjon for musikkpedagogikk og musikkterapi
 institution: norwegian-academy-of-music
 institutions:
+- australian-national-university
 - norwegian-academy-of-music
+- university-of-melbourne
 projects:
 - scoping-review-creative-ai-teaching-learning
 roles:

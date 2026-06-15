@@ -5,6 +5,7 @@ permalink: /institutions/simula-metropolitan-center-for-digital-engineering/
 redirect_from:
   - /directory/institutions/simula-metropolitan-center-for-digital-engineering/
 name: Simula Metropolitan Center for Digital Engineering
+short_name: Simula
 image: /images/institutions/simula-metropolitan-center-for-digital-engineering.png
 people:
   - baltasar-beferull-lozano

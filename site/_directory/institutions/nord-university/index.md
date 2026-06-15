@@ -5,6 +5,7 @@ permalink: /institutions/nord-university/
 redirect_from:
   - /directory/institutions/nord-university/
 name: Nord University
+short_name: NORD
 image: /images/institutions/nord-university.png
 people:
   - bjorn-tallak-bakken

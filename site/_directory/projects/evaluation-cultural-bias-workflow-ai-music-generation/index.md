@@ -1,12 +1,27 @@
 ---
 layout: page
+type: project
 title: Evaluation of Cultural Bias and Workflow in AI Music Generation
 permalink: /projects/evaluation-cultural-bias-workflow-ai-music-generation/
 wps:
 - WP5
-tags: [Seed Funding, WP5, Music, Bias, Evaluation]
+tags:
+- Seed Funding
+- WP5
+- Music
+- Bias
+- Evaluation
+slug: evaluation-cultural-bias-workflow-ai-music-generation
+name: Evaluation of Cultural Bias and Workflow in AI Music Generation
+people:
+- andreas-bergsland
+- jon-marius-aareskjold-drecker
+- shayan-dadman
+institutions:
+- arctic-university-of-norway
+- norwegian-university-of-science-and-technology
+projects: []
 ---
-
 
 ## Summary
 This project validates SCOPE (Situated Creative Operation and Process Evaluation), a framework that assesses AI music tools based on their effectiveness in supporting real creative workflows. Five semi-professional musicians will spend a day working with tools like Suno and Udio while researchers measure technical performance and creative control. The study aims to uncover hidden biases in these systems and provide open-source templates for practitioners to evaluate how AI tools fragment or support their creative practice.

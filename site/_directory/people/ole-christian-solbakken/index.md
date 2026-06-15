@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: ole-christian-solbakken
 name: Ole Christian Solbakken
@@ -7,6 +8,7 @@ position: University college instructor/student teacher
 department: Westerdals Department of Film and Media
 institution: kristiania-university-college
 institutions:
+- inland-norway-university-of-applied-sciences
 - kristiania-university-college
 projects:
 - ai-assisted-film-production-vita-vigeland

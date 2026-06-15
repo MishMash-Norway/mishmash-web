@@ -5,6 +5,7 @@ permalink: /institutions/australian-national-university/
 redirect_from:
   - /directory/institutions/australian-national-university/
 name: Australian National University
+short_name: ANU
 image: /images/institutions/australian-national-university.png
 people:
   - charles-martin

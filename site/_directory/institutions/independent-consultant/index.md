@@ -5,6 +5,7 @@ permalink: /institutions/independent-consultant/
 redirect_from:
   - /directory/institutions/independent-consultant/
 name: Independent Consultant
+short_name: Consultant
 image: /images/institutions/independent-consultant.png
 people:
   - /people/lukas-erni/

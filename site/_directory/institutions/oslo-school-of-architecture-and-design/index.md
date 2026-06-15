@@ -1,27 +1,30 @@
 ---
+layout: page
 type: institution
 slug: oslo-school-of-architecture-and-design
 permalink: /institutions/oslo-school-of-architecture-and-design/
 redirect_from:
-  - /directory/institutions/oslo-school-of-architecture-and-design/
+- /directory/institutions/oslo-school-of-architecture-and-design/
 name: Oslo School of Architecture and Design
+short_name: AHO
 image: /images/institutions/oslo-school-of-architecture-and-design.png
 people:
-  - kjetil-nordby
-  - /people/enrique-encinas/
-  - /people/kjetil-nordby/
-projects: []
-country:
-city:
+- enrique-encinas
+- kjetil-nordby
+- lise-amy-hansen
+projects:
+- tao-transductive-acoustic-organism
+- tool-for-tools
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-  - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
-summary:
+- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+summary: null
 ---
-
 

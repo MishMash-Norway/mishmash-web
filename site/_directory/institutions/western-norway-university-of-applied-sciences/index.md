@@ -5,6 +5,7 @@ permalink: /institutions/western-norway-university-of-applied-sciences/
 redirect_from:
   - /directory/institutions/western-norway-university-of-applied-sciences/
 name: Western Norway University of Applied Sciences
+short_name: HVL
 image: /images/institutions/western-norway-university-of-applied-sciences.png
 people:
   - sigurd-sandvold

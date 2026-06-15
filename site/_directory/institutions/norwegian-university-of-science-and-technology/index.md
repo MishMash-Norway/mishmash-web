@@ -1,29 +1,33 @@
 ---
+layout: page
 type: institution
 slug: norwegian-university-of-science-and-technology
 permalink: /institutions/norwegian-university-of-science-and-technology/
 redirect_from:
-  - /directory/institutions/norwegian-university-of-science-and-technology/
+- /directory/institutions/norwegian-university-of-science-and-technology/
 name: Norwegian University of Science and Technology
+short_name: NTNU
 image: /images/institutions/norwegian-university-of-science-and-technology.png
 people:
-  - andreas-bergsland
-  - govert-valkenburg
-  - /people/andreas-bergsland/
-  - /people/oyvind-brandtsegg/
-projects: []
-country:
-city:
+- andreas-bergsland
+- govert-valkenburg
+- ole-christoffer-haga
+- oyvind-brandtsegg
+projects:
+- evaluation-cultural-bias-workflow-ai-music-generation
+- human-machine-consciousness
+- movement-to-music-hackathon
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-  - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-  - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
-summary:
+- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+summary: null
 ---
-
 

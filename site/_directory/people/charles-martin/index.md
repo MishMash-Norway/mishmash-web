@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: charles-martin
 name: Charles Martin
@@ -6,7 +7,8 @@ title: Charles Martin
 position: Guest
 department: Research Group for Robotics and Intelligent Systems
 institution: university-of-oslo
-institutions: []
+institutions:
+- australian-national-university
 projects: []
 roles:
 - Council member

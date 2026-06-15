@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 import argparse
-import re
 import sys
 from pathlib import Path
 
+from directory_io import (
+    apply_jekyll_defaults,
+    as_slug_list,
+    iter_directory_entries,
+    load_entry,
+)
 from repo_paths import SITE_ROOT
 
 SECTIONS = ("people", "institutions", "projects")
@@ -15,71 +20,9 @@ TYPE_BY_SECTION = {
 
 REQUIRED_FIELDS = {
     "person": ("type", "slug", "name", "institutions", "projects"),
-    "institution": ("type", "slug", "name", "people", "projects"),
+    "institution": ("type", "slug", "name", "short_name", "people", "projects"),
     "project": ("type", "slug", "name", "people", "institutions"),
 }
-
-
-def parse_frontmatter(text: str) -> dict:
-    m = re.match(r"^---\s*\n(.*?)\n---\s*\n?", text, flags=re.S)
-    if not m:
-        return {}
-
-    lines = m.group(1).splitlines()
-    data = {}
-    i = 0
-
-    while i < len(lines):
-        line = lines[i]
-        kv = re.match(r"^([A-Za-z0-9_-]+)\s*:\s*(.*)$", line)
-        if not kv:
-            i += 1
-            continue
-
-        key = kv.group(1).strip()
-        raw_val = kv.group(2).strip()
-
-        if raw_val.startswith("[") and raw_val.endswith("]"):
-            inner = raw_val[1:-1].strip()
-            if inner:
-                data[key] = [x.strip().strip("'\"") for x in inner.split(",")]
-            else:
-                data[key] = []
-            i += 1
-            continue
-
-        if raw_val:
-            data[key] = raw_val.strip().strip("'\"")
-            i += 1
-            continue
-
-        i += 1
-        arr = []
-        while i < len(lines):
-            li = re.match(r"^\s*-\s+(.+?)\s*$", lines[i])
-            if not li:
-                break
-            arr.append(li.group(1).strip().strip("'\""))
-            i += 1
-
-        data[key] = arr if arr else ""
-
-    return data
-
-
-def read_entry(index_file: Path):
-    text = index_file.read_text(encoding="utf-8", errors="ignore")
-    fm = parse_frontmatter(text)
-    return fm
-
-
-def normalize_list(v):
-    if isinstance(v, list):
-        return [x for x in v if isinstance(x, str) and x.strip()]
-    if isinstance(v, str):
-        s = v.strip()
-        return [s] if s else []
-    return []
 
 
 def main():
@@ -119,14 +62,22 @@ def main():
                 errors.append(f"Missing file: {index_md.relative_to(root)}")
                 continue
 
-            fm = read_entry(index_md)
-            if not fm:
-                errors.append(f"No/invalid frontmatter: {index_md.relative_to(root)}")
+            try:
+                fm, _ = load_entry(index_md)
+            except ValueError as exc:
+                errors.append(f"{index_md.relative_to(root)}: {exc}")
                 continue
+
+            fm = apply_jekyll_defaults(fm, section, child.name)
 
             for req in REQUIRED_FIELDS[expected_type]:
                 if req not in fm:
                     errors.append(f"{index_md.relative_to(root)} missing required field '{req}'")
+
+            if expected_type == "institution":
+                short_name = str(fm.get("short_name", "")).strip()
+                if not short_name:
+                    errors.append(f"{index_md.relative_to(root)} missing or empty short_name")
 
             actual_type = str(fm.get("type", "")).strip()
             if actual_type != expected_type:
@@ -154,9 +105,9 @@ def main():
             entries[expected_type][slug] = {
                 "path": index_md,
                 "name": str(fm.get("name", "")).strip(),
-                "institutions": normalize_list(fm.get("institutions", [])),
-                "projects": normalize_list(fm.get("projects", [])),
-                "people": normalize_list(fm.get("people", [])),
+                "institutions": as_slug_list(fm.get("institutions", [])),
+                "projects": as_slug_list(fm.get("projects", [])),
+                "people": as_slug_list(fm.get("people", [])),
             }
 
     people = entries["person"]

@@ -1,12 +1,30 @@
 ---
 layout: page
+type: project
 title: AI as Environment
 permalink: /projects/ai-as-environment/
 wps:
 - WP6
-tags: [Seed Funding, WP6, Cultural Infrastructure, Exhibition, Funding]
+tags:
+- Seed Funding
+- WP6
+- Cultural Infrastructure
+- Exhibition
+- Funding
+slug: ai-as-environment
+name: AI as Environment
+people:
+- budhaditya-chattopadhyay
+- eivind-rossaak
+- stephanie-von-spreter
+- susanne-o-saether
+- synne-tollerud-bull
+institutions:
+- kristiania-university-college
+- national-library-of-norway
+- university-of-bergen
+projects: []
 ---
-
 
 ## Summary
 This initiative supports a research visit to the exhibition *AI and the Paradox of Agency* in Umeå to analyze AI as an epistemic and institutional environment in artistic production. The visit aims to strengthen collaboration between artistic and infrastructural perspectives within MishMash and initiate a dialogue with WASP–HS toward a future Horizon Europe proposal. The delegation explores how AI is mediated institutionally through exhibition design and knowledge infrastructures, resulting in a public report and a concept note for future international funding.

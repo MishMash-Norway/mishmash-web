@@ -1,28 +1,30 @@
 ---
+layout: page
 type: institution
 slug: oslo-national-academy-of-the-arts
 permalink: /institutions/oslo-national-academy-of-the-arts/
 redirect_from:
-  - /directory/institutions/oslo-national-academy-of-the-arts/
+- /directory/institutions/oslo-national-academy-of-the-arts/
 name: Oslo National Academy of the Arts
+short_name: KHiO
 image: /images/institutions/oslo-national-academy-of-the-arts.png
 people:
-  - lise-amy-hansen
-  - /people/oystein-stene/
-  - /people/trine-wester/
-  - /people/tiril-schroder/
-projects: []
-country:
-city:
+- lise-amy-hansen
+- oystein-stene
+- tiril-schroder
+- trine-wester
+projects:
+- ki-i-kunstnerisk-utdanning-og-praksis
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-  - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-summary:
+- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+summary: null
 ---
-
 

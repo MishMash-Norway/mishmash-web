@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: aedan-soellaart
 name: Aedan Soellaart
@@ -7,7 +8,7 @@ position: Student
 department: Faculty of Social Sciences
 institution: null
 institutions:
-- /institutions/inland-norway-university-of-applied-sciences/
+- inland-norway-university-of-applied-sciences
 projects:
 - strategic-storyteller
 roles:

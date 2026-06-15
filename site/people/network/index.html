@@ -67,6 +67,7 @@ const INSTITUTIONS = [
   {
     id: {{ doc.slug | jsonify }},
     name: {{ doc.name | jsonify }},
+    shortName: {{ doc.short_name | jsonify }},
     url: {{ doc.url | relative_url | jsonify }},
   },
   {% endif %}{% endfor %}
@@ -95,27 +96,12 @@ const TAG_GROUPS = [
 ];
 
 /* ── Institution short labels ─────────────────────────────────────────── */
-const ABBREV = {
-  "arctic-university-of-norway":                      "UiT",
-  "australian-national-university":                   "ANU",
-  "bi-norwegian-business-school":                     "BI",
-  "inland-norway-university-of-applied-sciences":     "INN",
-  "kristiania-university-college":                    "Kristiania",
-  "national-library-of-norway":                       "NB",
-  "norsus-norwegian-institute-for-sustainability-research": "NORSUS",
-  "norwegian-academy-of-music":                       "NMH",
-  "norwegian-university-of-science-and-technology":   "NTNU",
-  "notam-norwegian-centre-for-technology-art-and-music": "NOTAM",
-  "oslo-national-academy-of-the-arts":                "KHiO",
-  "oslo-school-of-architecture-and-design":           "AHO",
-  "ostfold-university-college":                       "HiØF",
-  "reimagine":                                        "Reimagine",
-  "simula-metropolitan-center-for-digital-engineering": "Simula",
-  "university-of-agder":                              "UiA",
-  "university-of-bergen":                             "UiB",
-  "university-of-oslo":                               "UiO",
-  "western-norway-university-of-applied-sciences":    "HVL",
-};
+const instById = Object.fromEntries(INSTITUTIONS.map(i => [i.id, i]));
+
+function instLabel(id) {
+  const inst = instById[id];
+  return (inst && inst.shortName) || id;
+}
 </script>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -445,7 +431,7 @@ function render() {
 
   nodeSel.filter(d => d.nodeType === "inst")
     .append("text")
-    .text(d => ABBREV[d.id] || d.id.toUpperCase().slice(0, 6));
+    .text(d => instLabel(d.id));
 
   /* work package rectangles */
   const WPW = 52, WPH = 28;
@@ -532,7 +518,7 @@ function renderLegend(nodes) {
     leg.innerHTML = usedInsts.map(i => `
       <div class="leg-item${hiddenGroups.has(i.id) ? " faded" : ""}" data-group="${i.id}" title="${i.name}">
         <div class="leg-dot" style="background:${color(i.id)}"></div>
-        <span>${ABBREV[i.id] || i.name}</span>
+        <span>${escapeHtml(instLabel(i.id))}</span>
       </div>`).join("");
   }
 

@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: robert-wechsler
 name: Robert Wechsler
@@ -7,7 +8,7 @@ position: null
 department: null
 institution: null
 institutions:
-- /institutions/motioncomposer-gmbh/
+- motioncomposer-gmbh
 affiliation_units: []
 nva_affiliations: []
 projects:

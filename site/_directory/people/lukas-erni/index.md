@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: lukas-erni
 name: Lukas Erni
@@ -7,7 +8,7 @@ position: null
 department: null
 institution: null
 institutions:
-- /institutions/independent-consultant/
+- independent-consultant
 affiliation_units: []
 nva_affiliations: []
 projects:

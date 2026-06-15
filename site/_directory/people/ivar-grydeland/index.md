@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: ivar-grydeland
 name: Ivar Grydeland
@@ -9,6 +10,7 @@ image: /assets/images/portraits/Ivar_Grydeland_NMH.jpg
 institution: norwegian-academy-of-music
 institutions:
 - norwegian-academy-of-music
+- university-of-agder
 affiliation_units:
 - Norwegian Academy of Music
 - Norges musikkhøgskole, Diverse fagseksjoner

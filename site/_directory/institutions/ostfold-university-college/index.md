@@ -5,6 +5,7 @@ permalink: /institutions/ostfold-university-college/
 redirect_from:
   - /directory/institutions/ostfold-university-college/
 name: Ostfold University College
+short_name: HiØF
 image: /images/institutions/ostfold-university-college.png
 people:
   - andre-alexandersen-hauge

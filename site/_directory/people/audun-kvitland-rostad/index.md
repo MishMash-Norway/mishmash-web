@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: audun-kvitland-rostad
 name: Audun Kvitland Rostad
@@ -7,7 +8,7 @@ position: null
 department: null
 institution: null
 institutions:
-- /institutions/super-ponni/
+- super-ponni
 affiliation_units: []
 nva_affiliations: []
 projects:

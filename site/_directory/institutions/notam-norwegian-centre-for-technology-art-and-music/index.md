@@ -1,28 +1,29 @@
 ---
+layout: page
 type: institution
 slug: notam-norwegian-centre-for-technology-art-and-music
 permalink: /institutions/notam-norwegian-centre-for-technology-art-and-music/
 redirect_from:
-  - /directory/institutions/notam-norwegian-centre-for-technology-art-and-music/
+- /directory/institutions/notam-norwegian-centre-for-technology-art-and-music/
 name: Notam - Norwegian Centre for Technology, Art and Music
+short_name: NOTAM
 image: /images/institutions/notam-norwegian-centre-for-technology-art-and-music.png
 people:
-  - christian-blom
-  - /people/anders-tveit/
-  - /people/christian-blom/
-projects: []
-country:
-city:
+- anders-tveit
+- christian-blom
+projects:
+- musical-doppelgangers
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-  - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
-  - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-summary:
+- /home/alexanje/github/mishmash-web/about/organisation/board/index.md
+- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+summary: null
 ---
-
 

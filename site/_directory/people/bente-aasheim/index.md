@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: bente-aasheim
 name: Bente Aasheim
@@ -7,7 +8,7 @@ position: Student
 department: Department of Nursing and Health Promotion
 institution: null
 institutions:
-- /institutions/kulturtanken/
+- kulturtanken
 projects:
 - interactive-ai-driven-book-experiences
 roles:

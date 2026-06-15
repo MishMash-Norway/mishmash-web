@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: heloisa-amaral
 name: Heloisa Amaral
@@ -7,7 +8,7 @@ position: null
 department: null
 institution: null
 institutions:
-- /institutions/ultima-festival/
+- ultima-festival
 affiliation_units: []
 nva_affiliations: []
 projects:

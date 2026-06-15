@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: heidi-partti
 name: Heidi Partti
@@ -7,7 +8,7 @@ position: null
 department: null
 institution: null
 institutions:
-- /institutions/uniarts-helsinki/
+- uniarts-helsinki
 affiliation_units: []
 nva_affiliations: []
 projects:

@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: oystein-eugene-hermstad
 name: Oystein Eugene Hermstad
@@ -7,7 +8,7 @@ position: null
 department: null
 institution: null
 institutions:
-- /institutions/super-ponni/
+- super-ponni
 affiliation_units: []
 nva_affiliations: []
 projects:

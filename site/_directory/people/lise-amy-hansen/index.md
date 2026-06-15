@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: lise-amy-hansen
 name: Lise Amy Hansen
@@ -8,6 +9,7 @@ department: Institute of Design
 image: /assets/images/portraits/Lise_Amy_Hansen_AHO.png
 institution: oslo-school-of-architecture-and-design
 institutions:
+- oslo-national-academy-of-the-arts
 - oslo-school-of-architecture-and-design
 affiliation_units:
 - The Oslo School of Architecture and Design

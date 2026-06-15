@@ -11,9 +11,28 @@ permissions:
   contents: read
 
 jobs:
+  validate_directory:
+    name: Validate directory data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Validate directory
+        run: python3 scripts/validate_directory.py
+
   build_site:
     name: Build static site
     runs-on: ubuntu-latest
+    needs: validate_directory
     steps:
       - name: Checkout
         uses: actions/checkout@v5
