@@ -2,9 +2,11 @@
 layout: page
 title: TAO - Transductive Acoustic Organism
 permalink: /projects/tao-transductive-acoustic-organism/
-wp: WP1
+wps:
+- WP1
 tags: [Seed Funding, WP1, Instrument Design, Persistent AI, Performance]
 ---
+
 
 ## Summary
 TAO is a persistent AI research instrument designed to run continuously and accumulate context over months across multiple domains. It features two prototypes: "Open Ambient," an acoustic telepresence system for maritime operations, and "Warp," a performance instrument for navigating AI latent space as creative material. The project also includes a networking workshop at Ars Electronica to connect MishMash researchers and explore the boundary between analysis and confabulation in persistent AI systems.

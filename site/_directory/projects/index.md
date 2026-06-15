@@ -19,7 +19,7 @@ Project pages based on `project-notes.md`, with related people, institutions, ta
 - [Scoping Review of Creative AI in Teaching and Learning](/projects/scoping-review-creative-ai-teaching-learning/) - WP4
 - [Bingo: AI-Assisted Animation for Documentary Film](/projects/bingo-ai-assisted-animation-documentary-film/) - WP2
 - [Evaluation of Cultural Bias and Workflow in AI Music Generation](/projects/evaluation-cultural-bias-workflow-ai-music-generation/) - WP5
-- [Tool for tools](/projects/tool-for-tools/) - Cross-WP
+- [Tool for tools](/projects/tool-for-tools/) - WP1–WP7
 - [KI i kunstnerisk utdanning og praksis](/projects/ki-i-kunstnerisk-utdanning-og-praksis/) - WP4
 - [Strategic Storyteller](/projects/strategic-storyteller/) - WP7
 - [Copyright and Personality Rights in the AI Era](/projects/copyright-and-personality-rights-ai-era/) - WP5

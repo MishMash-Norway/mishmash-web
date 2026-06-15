@@ -2,9 +2,11 @@
 layout: page
 title: Human-Machine Consciousness
 permalink: /projects/human-machine-consciousness/
-wp: WP1
+wps:
+- WP1
 tags: [Seed Funding, WP1, Performance, Live Electronics, Agency]
 ---
+
 
 ## Summary
 This project develops a new artistic work for instrument, live electronics, and real-time AI, positioning the machine as a responsive co-performer rather than an autonomous creator. Through structured workshops in Trondheim and Oslo, the team explores consciousness, agency, and intentionality within human–machine musical systems. The work features a flexibly notated score to allow for adaptation by other instruments, producing both artistic performances and research on performer-centred AI design.

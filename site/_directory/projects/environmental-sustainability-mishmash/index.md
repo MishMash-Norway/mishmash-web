@@ -2,9 +2,11 @@
 layout: page
 title: Environmental Sustainability in MishMash
 permalink: /projects/environmental-sustainability-mishmash/
-wp: WP5
+wps:
+- WP5
 tags: [Seed Funding, WP5, Sustainability, AI, Consortium]
 ---
+
 
 ## Summary
 This project establishes a knowledge base and maps the competences of MishMash partners working on the environmental sustainability of AI systems. Through an in-person workshop, the team identifies synergies and set goals for evaluating the sustainability of AI and creativity within the consortium. The output includes a blog post documenting findings and ideas for future project proposals, ensuring that responsible and sustainable development is integrated into MishMash’s creative and cultural research.

@@ -2,9 +2,11 @@
 layout: page
 title: KI i kunstnerisk utdanning og praksis
 permalink: /projects/ki-i-kunstnerisk-utdanning-og-praksis/
-wp: WP4
+wps:
+- WP4
 tags: [Seed Funding, WP4, Artistic Education, Workshop, Ethics]
 ---
+
 
 ## Summary
 This collaboration between artists and pedagogues explores how generative AI is used in artistic development and meaning-making. Centred on a four-day workshop, participants test AI tools for text, image, 3D, and sound through methods rooted in the workshop tradition. The project investigates how individual artistic practices can be strengthened by AI while documenting reflections on ethics and aesthetics to develop teaching models that can be regularly updated as the technology evolves.

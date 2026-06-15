@@ -1,0 +1,12 @@
+{% comment %}
+  Renders linked work package labels for a project.
+  include.project — project document with wps: [WP1, WP2, ...]
+{% endcomment %}
+{% assign project_wps = include.project.wps %}
+{% if project_wps.size > 0 %}
+<span class="project-wp-label">(
+{% for wp_label in project_wps %}
+  {% if forloop.index > 1 %}, {% endif %}<a href="{{ '/' | append: wp_label | downcase | append: '/' | relative_url }}">{{ wp_label }}</a>
+{% endfor %}
+)</span>
+{% endif %}

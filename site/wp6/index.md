@@ -57,6 +57,8 @@ The public sector must lead in these technologies, ensuring that powerful new ca
     </div>
 </div>
 
+{% include wp-directory-lists.html wp="WP6" %}
+
 ## News
 
 *Updates will be posted here as the work package develops.*

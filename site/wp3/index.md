@@ -53,6 +53,8 @@ Ethical considerations are central to this WP, especially how AI can be used res
     </div>
 </div>
 
+{% include wp-directory-lists.html wp="WP3" %}
+
 ## News
 
 *Updates will be posted here as the work package develops.*

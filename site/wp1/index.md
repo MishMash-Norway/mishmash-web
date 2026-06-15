@@ -55,6 +55,8 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
     </div>
 </div>
 
+{% include wp-directory-lists.html wp="WP1" %}
+
 ## News
 
 *Updates will be posted here as the work package develops.*

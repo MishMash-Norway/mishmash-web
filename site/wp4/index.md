@@ -53,6 +53,8 @@ The aim is to equip future practitioners and educators with the competence to na
     </div>
 </div>
 
+{% include wp-directory-lists.html wp="WP4" %}
+
 ## News
 
 *Updates will be posted here as the work package develops.*

@@ -57,6 +57,8 @@ AIs developed in this WP will be limited by stricter boundaries than others—fr
     </div>
 </div>
 
+{% include wp-directory-lists.html wp="WP7" %}
+
 ## News
 
 *Updates will be posted here as the work package develops.*
