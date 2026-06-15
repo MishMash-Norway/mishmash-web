@@ -407,6 +407,10 @@ a:focus-visible .icon {
   margin: 1.5rem 0 0;
 }
 
+.person-projects {
+  margin-top: 2rem;
+}
+
 .institution-header {
   display: flex;
   flex-wrap: wrap;

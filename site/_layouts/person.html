@@ -78,9 +78,6 @@ layout: default
     </section>
     {% endif %}
 
-    {% assign person_slug_path = '/people/' | append: page.slug | append: '/' %}
-    {% include related-projects.html entity_path=person_slug_path project_slugs=page.projects heading_class="nva-results-group-title" heading="MishMash Projects" %}
-
     {% if social_urls %}
     {% assign has_social_icons = false %}
     {% if social_urls.personal_website.size > 0 %}{% assign has_social_icons = true %}{% endif %}
@@ -134,6 +131,9 @@ layout: default
     </section>
     {% endif %}
     {% endif %}
+
+    {% assign person_slug_path = '/people/' | append: page.slug | append: '/' %}
+    {% include related-projects.html entity_path=person_slug_path project_slugs=page.projects section_class="person-projects" heading="MishMash Projects" %}
 
     {% if page.selected_works and page.selected_works.size > 0 %}
     <section class="person-selected-works nva-results" aria-label="Latest results">
