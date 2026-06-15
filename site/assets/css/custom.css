@@ -432,29 +432,40 @@ a:focus-visible .icon {
 .institution-map {
   flex: 0 0 auto;
   margin: 0;
-  width: 6.5rem;
+  width: 150px;
 }
 
-.institution-map-svg {
+.institution-map-canvas {
+  position: relative;
+  width: 150px;
+}
+
+.institution-map-image {
   display: block;
-  width: 100%;
+  width: 150px;
   height: auto;
 }
 
-.institution-map-land {
-  fill: #e8edf2;
-  stroke: #8fa4b8;
-  stroke-width: 0.8;
+.institution-map-marker,
+.institution-map-marker-ring {
+  position: absolute;
+  pointer-events: none;
 }
 
 .institution-map-marker {
-  fill: #c45a3c;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  border-radius: 50%;
+  background: #c45a3c;
 }
 
 .institution-map-marker-ring {
-  fill: none;
-  stroke: #c45a3c;
-  stroke-width: 1.2;
+  width: 14px;
+  height: 14px;
+  margin: -7px 0 0 -7px;
+  border-radius: 50%;
+  border: 1.5px solid #c45a3c;
   opacity: 0.5;
 }
 
