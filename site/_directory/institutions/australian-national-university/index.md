@@ -21,6 +21,9 @@ tags: []
 search_keywords: []
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: The Australian National University (ANU) is a public research university
+  and member of the Group of Eight, located in Canberra, the capital of Australia.
+  Its main campus in Acton encompasses seven teaching and research colleges, in addition
+  to several national academies and institutes.
 ---
 

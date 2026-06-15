@@ -16,7 +16,7 @@ country: null
 city: null
 urls:
   website: https://norsus.no/en/
-  wikipedia: https://en.wikipedia.org/wiki/NORSUS
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []

@@ -25,6 +25,9 @@ tags: []
 search_keywords: []
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: The Oslo National Academy of the Arts is a tertiary institution in Oslo,
+  Norway, that provides education in visual arts, design and performing arts. It is
+  one of two public institutes of higher learning in Norway that teaches in visual
+  arts and design, the other being the Bergen National Academy of the Arts in Bergen.
 ---
 

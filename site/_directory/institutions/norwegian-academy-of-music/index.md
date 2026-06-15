@@ -31,6 +31,10 @@ search_keywords: []
 source_mentions:
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: The Norwegian Academy of Music is a university-level music conservatory located
+  in Oslo, Norway, in the neighbourhood of Majorstuen, Frogner. It is the largest
+  music academy in Norway and offers the country's highest level of music education.
+  As a specialized university, it offers both undergraduate and postgraduate courses.
+  Throughout the years the Academy has educated many of Norway's most renowned musicians.
 ---
 

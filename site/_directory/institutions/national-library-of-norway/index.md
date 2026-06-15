@@ -28,6 +28,8 @@ source_mentions:
 - about/organisation/board/index.md
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: The National Library of Norway was established in 1989. Its principal task
+  is "to preserve the past for the future". The library is located both in Oslo and
+  in Mo i Rana. The building in Oslo was restored and reopened in 2005.
 ---
 

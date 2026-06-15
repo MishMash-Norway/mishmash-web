@@ -32,6 +32,11 @@ source_mentions:
 - about/organisation/board/index.md
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: The University of Agder, formerly known as Agder College and Agder University
+  College, is a public university with campuses in Kristiansand and Grimstad, Norway.
+  The institution was established as a university college (høgskole) in 1994 through
+  the merger of the Agder University College and five other colleges, including a
+  technical college and a nursing school, and was granted the status of a full university
+  in 2007.
 ---
 

@@ -25,6 +25,8 @@ tags: []
 search_keywords: []
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: The Oslo School of Architecture and Design is an autonomous institution within
+  the Norwegian university system. The School offers education in the fields of architecture,
+  urbanism, design, and landscape architecture.
 ---
 

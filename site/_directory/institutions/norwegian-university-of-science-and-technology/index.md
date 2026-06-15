@@ -28,6 +28,8 @@ search_keywords: []
 source_mentions:
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: The Norwegian University of Science and Technology is a public research university
+  in Norway and the largest in terms of enrollment. The university's headquarters
+  is located in Trondheim, with regional campuses in Gjøvik and Ålesund.
 ---
 

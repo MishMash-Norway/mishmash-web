@@ -19,6 +19,9 @@ aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary: null
+summary: The University of the Arts Helsinki, also known as Uniarts Helsinki, is a
+  Finnish arts university that was launched in the beginning of 2013. Apart from a
+  few exceptions, it is the only university in Finland that provides education in
+  the fields it represents.
 ---
 

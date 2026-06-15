@@ -15,5 +15,8 @@ image: /images/institutions/university-of-stavanger.png
 urls:
   website: https://www.uis.no/en
   wikipedia: https://en.wikipedia.org/wiki/University_of_Stavanger
+summary: The University of Stavanger is a public research university located in Stavanger,
+  Norway. It was established in 2005 when the Stavanger University College received
+  university status.
 ---
 

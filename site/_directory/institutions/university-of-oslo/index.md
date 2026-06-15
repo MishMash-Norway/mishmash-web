@@ -41,6 +41,13 @@ source_mentions:
 - about/organisation/board/index.md
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: The University of Oslo is a public research university located in Oslo, Norway.
+  It is the oldest university in Norway. Originally named the Royal Frederick University,
+  the university was established in 1811 as the de facto Norwegian continuation of
+  Denmark–Norway's common university, the University of Copenhagen, with which it
+  shares many traditions. It was named for King Frederick VI of Denmark and Norway,
+  and received its current name in 1939. The university was commonly nicknamed "The
+  Royal Frederick's" before the name change, and informally also referred to simply
+  as Universitetet.
 ---
 

@@ -33,6 +33,8 @@ search_keywords: []
 source_mentions:
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: Kristiania University College is an educational institution in Norway organized
+  through the Ernst G. Mortensen foundation. As of 2022, Kristiania has approximately
+  19 000 students and provides higher education in Oslo, Bergen and online.
 ---
 

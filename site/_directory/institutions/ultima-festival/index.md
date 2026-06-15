@@ -19,6 +19,7 @@ aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary: null
+summary: ULTIMA Oslo Contemporary Music Festival is a Norwegian music festival for
+  contemporary music.
 ---
 

@@ -22,6 +22,13 @@ aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary: null
+summary: The University of Iceland is a public research university in Reykjavík, Iceland,
+  and the country's oldest and largest institution of higher education. Founded in
+  1911, it has grown steadily from a small civil servants' school to a modern comprehensive
+  university, providing instruction for about 14,000 students in twenty-five faculties.
+  Teaching and research is conducted in social sciences, humanities, law, medicine,
+  natural sciences, engineering and teacher education. It has a campus concentrated
+  around Suðurgata, a street in central Reykjavík, with additional facilities located
+  in nearby areas as well as in the countryside.
 ---
 

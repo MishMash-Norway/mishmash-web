@@ -18,7 +18,11 @@ aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary: null
+summary: The University of Melbourne is a public research university located in Melbourne,
+  Australia. Founded in 1853, it is Australia's second oldest university and the oldest
+  in the state of Victoria. Its main campus is located in Parkville, an inner suburb
+  north of Melbourne's central business district, with several other campuses located
+  across the state of Victoria.
 image: /images/institutions/university-of-melbourne.svg
 ---
 

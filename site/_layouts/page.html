@@ -37,6 +37,9 @@ layout: default
           </p>
           {% endif %}
         </header>
+        {% if page.summary and page.summary != '' %}
+        <p class="institution-summary">{{ page.summary }}</p>
+        {% endif %}
     {% else %}
     <h1>{{ page_heading }}</h1>
     {% endif %}

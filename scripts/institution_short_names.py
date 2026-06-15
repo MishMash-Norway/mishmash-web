@@ -100,7 +100,6 @@ DEFAULT_INSTITUTION_WIKIPEDIA: dict[str, str] = {
     "national-library-of-norway": "https://en.wikipedia.org/wiki/National_Library_of_Norway",
     "nla-university-college": "https://en.wikipedia.org/wiki/NLA_University_College",
     "nord-university": "https://en.wikipedia.org/wiki/Nord_University",
-    "norsus-norwegian-institute-for-sustainability-research": "https://en.wikipedia.org/wiki/NORSUS",
     "norwegian-academy-of-music": "https://en.wikipedia.org/wiki/Norwegian_Academy_of_Music",
     "norwegian-university-of-science-and-technology": "https://en.wikipedia.org/wiki/Norwegian_University_of_Science_and_Technology",
     "oslo-national-academy-of-the-arts": "https://en.wikipedia.org/wiki/Oslo_National_Academy_of_the_Arts",

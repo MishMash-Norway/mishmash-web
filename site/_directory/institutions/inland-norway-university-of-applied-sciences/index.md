@@ -40,6 +40,10 @@ search_keywords: []
 source_mentions:
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: The University of Inland Norway is a state university in Innlandet county,
+  Norway. It was established in 2017 as the Inland Norway University of Applied Sciences,
+  from the merger of the Hedmark University College and Lillehammer University College.
+  It has six campuses, of which the campus in Lillehammer is the biggest, located
+  at the television and radio center built for the 1994 Winter Olympic Games.
 ---
 

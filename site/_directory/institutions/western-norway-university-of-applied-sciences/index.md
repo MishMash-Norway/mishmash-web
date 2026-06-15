@@ -23,6 +23,12 @@ search_keywords: []
 source_mentions:
 - about/organisation/board/index.md
 - about/organisation/council/index.md
-summary: null
+summary: 'Western Norway University of Applied Sciences, or HVL, is a Norwegian public
+  institution of higher education, established in January 2017 through the merging
+  of formerly independent colleges across five campuses: Bergen, Førde, Haugesund,
+  Sogndalsfjøra and Stord. Its oldest programs – teacher education in Stord – can
+  be traced to 1839. The total number of students at HVL is about 16000, and there
+  are 1800 academic and administrative staff. Its main campus is in the Kronstad neighborhood
+  of Bergen, Norway.'
 ---
 

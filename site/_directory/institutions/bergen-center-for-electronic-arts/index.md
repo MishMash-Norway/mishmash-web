@@ -20,6 +20,16 @@ aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary: null
+summary: 'Bergen senter for elektronisk kunst (BEK) er en ideell stiftelse og et tverrfaglig
+  produksjonssenter for utvikling av kunst og ny teknologi. BEK utvikler, produserer
+  og formidler kunstverk og prosjekter i skjæringspunktet mellom samtidskunst, ny
+  teknologi og samfunnskritikk gjennom følgende grep:BEK støtter aktivt kunstnere
+  ved å tilby sin ekspertise gjennom rådgivning, prosjektledelse og opplæring.
+
+  BEKs studioer og prosjektrom benyttes til arbeid med elektronikk og data, lyd- og
+  videoopptak, redigering og integrering av teknologi i kunst.
+
+  BEK oppsøker, utvikler og tilbyr spisskompetanse på sitt kjerneområde og utforsker
+  teoretiske og etiske aspekter ved teknologiutvikling.'
 ---
 

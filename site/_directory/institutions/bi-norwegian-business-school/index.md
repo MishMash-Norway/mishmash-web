@@ -25,6 +25,10 @@ search_keywords: []
 source_mentions:
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: BI Norwegian Business School is a Norwegian private business school. BI is
+  organized as a self-owned foundation whose sole purpose is teaching and research.
+  As of 2024, with over 21,000 students, BI is the largest business school and the
+  fourth-largest university in Norway. BI's main campus is located in Nydalen, Oslo,
+  with regional campuses in Bergen, Stavanger, and Trondheim.
 ---
 

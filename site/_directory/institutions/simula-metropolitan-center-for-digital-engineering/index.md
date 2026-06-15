@@ -22,6 +22,7 @@ search_keywords: []
 source_mentions:
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: Simula Research Laboratory is a Norwegian non-profit research organisation
+  located in Oslo, Norway.
 ---
 

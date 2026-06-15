@@ -440,6 +440,12 @@ a:focus-visible .icon {
   margin-top: 0;
 }
 
+.institution-summary {
+  margin: 0 0 1.25rem;
+  line-height: 1.7;
+  color: #333;
+}
+
 .institution-map-canvas {
   position: relative;
   width: 300px;
