@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -90,9 +90,9 @@ jobs:
         continue-on-error: true
         run: |
           bundle exec htmlproofer ./_site \
-            --disable-internal \
+            --checks Links \
             --no-enforce-https \
-            --url-ignore "/fonts\\.gstatic\\.com/,/doi\\.org/,/dx\\.doi\\.org/,/nilu\\.com/,/no\\.gramo\\.no/,/linkedin\\.com/,/upf\\.edu/,/worldcat\\.org/,/scopus\\.com/,/dhko\\.no/,/nettskjema\\.no/,/calendar\\.google\\.com/,/aesthetics\\.mpg\\.de/,/notam\\.b-cdn\\.net/,/sfu\\.ca/"
+            --ignore-urls "/^\//,/^#/,/^mailto:/,/^tel:/,/fonts\.gstatic\.com/,/doi\.org/,/dx\.doi\.org/,/nilu\.com/,/no\.gramo\.no/,/linkedin\.com/,/upf\.edu/,/worldcat\.org/,/scopus\.com/,/dhko\.no/,/nettskjema\.no/,/calendar\.google\.com/,/aesthetics\.mpg\.de/,/notam\.b-cdn\.net/,/sfu\.ca/"
 
   html_validation:
     name: Validate HTML (Nu)

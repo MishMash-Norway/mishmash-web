@@ -72,6 +72,25 @@ class EnrichOrcidTests(unittest.TestCase):
         person = {"biography": {"value": "Legacy biography text."}}
         self.assertEqual(orcid_biography(person), "Legacy biography text.")
 
+    def test_orcid_keyword_labels_split_comma_separated_values(self):
+        from enrich_directory_from_nva import orcid_keyword_labels, split_keyword_label
+
+        self.assertEqual(
+            split_keyword_label("Music, Technology, Instruments"),
+            ["Music", "Technology", "Instruments"],
+        )
+        person = {
+            "keywords": {
+                "keyword": [
+                    {"content": "Music, Technology, Instruments, Artificial Intelligence"},
+                ]
+            }
+        }
+        self.assertEqual(
+            orcid_keyword_labels(person, max_keywords=10),
+            ["Music", "Technology", "Instruments", "Artificial Intelligence"],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

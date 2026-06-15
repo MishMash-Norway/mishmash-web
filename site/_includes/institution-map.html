@@ -23,8 +23,13 @@
       height="{{ map_height }}"
       aria-hidden="true">
     {% if loc.x and loc.y %}
-    <span class="institution-map-marker-ring" style="left: {{ loc.x }}%; top: {{ loc.y }}%;"></span>
-    <span class="institution-map-marker" style="left: {{ loc.x }}%; top: {{ loc.y }}%;"></span>
+    {% if loc.in_norway %}
+    {% assign marker_left = 'calc(' | append: loc.x | append: '% + 30px)' %}
+    {% else %}
+    {% assign marker_left = loc.x | append: '%' %}
+    {% endif %}
+    <span class="institution-map-marker-ring" style="left: {{ marker_left }}; top: {{ loc.y }}%;"></span>
+    <span class="institution-map-marker" style="left: {{ marker_left }}; top: {{ loc.y }}%;"></span>
     {% endif %}
   </div>
   {% if map_label %}

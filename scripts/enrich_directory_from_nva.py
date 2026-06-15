@@ -966,13 +966,16 @@ def orcid_biography(person: dict) -> str:
     return orcid_text_value(bio)
 
 
+def split_keyword_label(label: str) -> list[str]:
+    return [part.strip() for part in label.split(",") if part.strip()]
+
+
 def orcid_keyword_labels(person: dict, max_keywords: int) -> list[str]:
     keywords = ((person.get("keywords") or {}).get("keyword") or [])
     labels = []
     for keyword in keywords:
         label = orcid_text_value(keyword.get("content"))
-        if label:
-            labels.append(label)
+        labels.extend(split_keyword_label(label))
     return merge_unique_strings(labels, max_items=max_keywords)
 
 

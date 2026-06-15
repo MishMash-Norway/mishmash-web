@@ -25,11 +25,23 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Music, Technology, Instruments, Artificial Intelligence, Performance, Improvisation,
-  Notation, Philo
+- Music
+- Technology
+- Instruments
+- Artificial Intelligence
+- Performance
+- Improvisation
+- Notation
+- Philo
 search_keywords:
-- Music, Technology, Instruments, Artificial Intelligence, Performance, Improvisation,
-  Notation, Philo
+- Music
+- Technology
+- Instruments
+- Artificial Intelligence
+- Performance
+- Improvisation
+- Notation
+- Philo
 selected_works:
 - title: 'The open work and AI: Co-creation and haunting in text scores and inherent
     scores'
