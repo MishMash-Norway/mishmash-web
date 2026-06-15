@@ -517,18 +517,6 @@ a:focus-visible .icon {
   color: #999;
 }
 
-.institution-logo {
-  margin: 2rem 0 0;
-}
-
-.institution-logo img {
-  display: block;
-  max-height: 72px;
-  max-width: 220px;
-  width: auto;
-  height: auto;
-}
-
 .directory-related {
   margin-top: 2rem;
 }
