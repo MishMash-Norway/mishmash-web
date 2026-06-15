@@ -59,5 +59,19 @@ class DirectoryIoTests(unittest.TestCase):
         self.assertEqual(migrated["institutions"], ["university-of-oslo"])
 
 
+class EnrichOrcidTests(unittest.TestCase):
+    def test_orcid_biography_reads_content_field(self):
+        from enrich_directory_from_nva import orcid_biography
+
+        person = {"biography": {"content": "Researcher in music technology."}}
+        self.assertEqual(orcid_biography(person), "Researcher in music technology.")
+
+    def test_orcid_biography_falls_back_to_value_field(self):
+        from enrich_directory_from_nva import orcid_biography
+
+        person = {"biography": {"value": "Legacy biography text."}}
+        self.assertEqual(orcid_biography(person), "Legacy biography text.")
+
+
 if __name__ == "__main__":
     unittest.main()

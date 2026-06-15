@@ -697,7 +697,7 @@ def orcid_primary_employment(orcid_id: str, institution_lookup: dict[str, str]) 
     if not candidates:
         return "", "", ""
 
-    candidates.sort(key=lambda item: item[0])
+    candidates.sort(key=lambda item: item[0], reverse=True)
     _, position, org_slug, _ = candidates[0]
     return position, org_slug, org_slug
 
@@ -958,7 +958,12 @@ def orcid_name_to_full_name(person: dict) -> str:
 
 
 def orcid_biography(person: dict) -> str:
-    return orcid_text_value(person.get("biography"))
+    bio = person.get("biography") or {}
+    if isinstance(bio, dict):
+        content = (bio.get("content") or "").strip()
+        if content:
+            return content
+    return orcid_text_value(bio)
 
 
 def orcid_keyword_labels(person: dict, max_keywords: int) -> list[str]:
