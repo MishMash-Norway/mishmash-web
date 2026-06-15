@@ -13,7 +13,9 @@ affiliation_units:
 - Kristiania University of Applied Sciences
 - School of Arts, Design, and Media
 - Westerdals Department of Film and Media
-projects: []
+projects:
+- ai-as-environment
+- tao-transductive-acoustic-organism
 roles:
 - Council member
 - Work Package Leader Group member

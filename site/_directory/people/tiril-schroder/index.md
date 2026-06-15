@@ -9,8 +9,10 @@ image: /assets/images/portraits/Tiril_Schroder_KHiO.jpg
 institution: oslo-national-academy-of-the-arts
 institutions:
 - oslo-national-academy-of-the-arts
-projects: []
-roles: []
+projects:
+- ki-i-kunstnerisk-utdanning-og-praksis
+roles:
+- Member
 urls:
   personal_website: http://www.tirilschroeder.com/
   institutional_website: ''

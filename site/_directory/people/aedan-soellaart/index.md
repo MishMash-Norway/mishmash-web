@@ -8,8 +8,10 @@ department: Faculty of Social Sciences
 institution: null
 institutions:
 - /institutions/inland-norway-university-of-applied-sciences/
-projects: []
-roles: []
+projects:
+- strategic-storyteller
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

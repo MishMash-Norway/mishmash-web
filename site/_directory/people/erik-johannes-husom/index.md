@@ -9,8 +9,10 @@ image: /assets/images/portraits/Erik_Johannes_Husom_SinDig.png
 institution: sintef-digital
 institutions:
 - sintef-digital
-projects: []
-roles: []
+projects:
+- environmental-sustainability-mishmash
+roles:
+- Member
 urls:
   personal_website: https://erikjohannes.no/
   institutional_website: ''

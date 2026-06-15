@@ -9,8 +9,10 @@ image: /assets/images/portraits/Clemens_Cavallin_NlaUni.png
 institution: nla-university-college
 institutions:
 - nla-university-college
-projects: []
-roles: []
+projects:
+- ai-integration-film-tv-education
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

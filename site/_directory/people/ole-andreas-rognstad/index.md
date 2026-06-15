@@ -9,8 +9,10 @@ image: /assets/images/portraits/Ole-Andreas_Rognstad_UiO.png
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
-roles: []
+projects:
+- copyright-and-personality-rights-ai-era
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

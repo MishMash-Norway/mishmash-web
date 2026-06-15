@@ -8,8 +8,10 @@ department: Sustainable Communication Technologies
 institution: sintef-digital
 institutions:
 - sintef-digital
-projects: []
-roles: []
+projects:
+- environmental-sustainability-mishmash
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

@@ -8,8 +8,10 @@ department: Department of Music
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college
-projects: []
-roles: []
+projects:
+- strategic-storyteller
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

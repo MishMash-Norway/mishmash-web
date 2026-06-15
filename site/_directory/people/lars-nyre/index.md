@@ -9,8 +9,10 @@ image: /assets/images/portraits/Lars_Nyre_UiB.png
 institution: university-of-bergen
 institutions:
 - university-of-bergen
-projects: []
-roles: []
+projects:
+- ai-integration-film-tv-education
+roles:
+- Member
 urls:
   personal_website: http://www.larsnyre.com
   institutional_website: ''

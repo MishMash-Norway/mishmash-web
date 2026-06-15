@@ -8,8 +8,10 @@ department: Department of Media and Social Sciences
 institution: university-of-stavanger
 institutions:
 - university-of-stavanger
-projects: []
-roles: []
+projects:
+- ai-integration-film-tv-education
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

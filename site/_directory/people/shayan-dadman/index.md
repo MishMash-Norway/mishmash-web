@@ -8,8 +8,10 @@ department: Department of Computer Science and Computational Engineering
 institution: arctic-university-of-norway
 institutions:
 - arctic-university-of-norway
-projects: []
-roles: []
+projects:
+- evaluation-cultural-bias-workflow-ai-music-generation
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

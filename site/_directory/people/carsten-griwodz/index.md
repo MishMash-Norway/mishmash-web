@@ -9,7 +9,8 @@ image: /assets/images/portraits/Carsten_Griwodz_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
+projects:
+- when-creativity-meets-criticality
 roles:
 - Work Package Leader Group member
 urls:

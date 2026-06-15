@@ -8,8 +8,10 @@ department: Fagseksjon for musikkpedagogikk og musikkterapi
 institution: norwegian-academy-of-music
 institutions:
 - norwegian-academy-of-music
-projects: []
-roles: []
+projects:
+- scoping-review-creative-ai-teaching-learning
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

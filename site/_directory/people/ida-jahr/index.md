@@ -9,7 +9,8 @@ image: /assets/images/portraits/ida_jahr_INN.jpg
 institution: inland-norway-university-of-applied-sciences
 institutions:
 - inland-norway-university-of-applied-sciences
-projects: []
+projects:
+- tao-transductive-acoustic-organism
 roles:
 - Deputy director
 urls:

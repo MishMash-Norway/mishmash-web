@@ -3,35 +3,37 @@ type: person
 slug: heidi-partti
 name: Heidi Partti
 title: Heidi Partti
-position:
-department:
-institution:
+position: null
+department: null
+institution: null
 institutions:
-  - /institutions/uniarts-helsinki/
+- /institutions/uniarts-helsinki/
 affiliation_units: []
 nva_affiliations: []
-projects: []
-roles: []
+projects:
+- teacher-resources-critical-ai-literacy
+roles:
+- Member
 urls:
   personal_website: ''
-  institutional_website:
-  github:
-  linkedin:
-  orcid:
-  nva:
-  youtube:
-  facebook:
-  mastodon:
-  instagram:
+  institutional_website: ''
+  github: ''
+  linkedin: ''
+  orcid: ''
+  nva: ''
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
 aliases: []
 tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary:
+summary: null
 permalink: /people/heidi-partti/
 redirect_from:
-  - /directory/people/heidi-partti/
+- /directory/people/heidi-partti/
 ---
 
 Bio coming soon.

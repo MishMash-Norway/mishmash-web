@@ -9,8 +9,10 @@ image: /assets/images/portraits/Oystein_Stene_KHiO.jpg
 institution: oslo-national-academy-of-the-arts
 institutions:
 - oslo-national-academy-of-the-arts
-projects: []
-roles: []
+projects:
+- ki-i-kunstnerisk-utdanning-og-praksis
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

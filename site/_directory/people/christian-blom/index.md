@@ -7,6 +7,10 @@ position: Board Member
 institution: notam-norwegian-centre-for-technology-art-and-music
 institutions:
 - /institutions/notam-norwegian-centre-for-technology-art-and-music/
+projects:
+- musical-doppelgangers
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

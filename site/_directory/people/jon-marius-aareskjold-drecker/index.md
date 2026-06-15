@@ -26,7 +26,8 @@ nva_affiliations:
 - role: Associate professor
   unit: Department of Popular Music
   institution: university-of-agder
-projects: []
+projects:
+- evaluation-cultural-bias-workflow-ai-music-generation
 roles:
 - Work Package Leader Group member
 urls:

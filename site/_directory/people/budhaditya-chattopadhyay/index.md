@@ -9,7 +9,9 @@ image: /assets/images/portraits/Budhaditya_Chattopadhyay_UiB.jpg
 institution: university-of-bergen
 institutions:
 - university-of-bergen
-projects: []
+projects:
+- ai-as-environment
+- archival-intelligence
 roles:
 - Work Package Leader Group member
 urls:

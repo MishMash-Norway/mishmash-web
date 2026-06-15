@@ -3,35 +3,37 @@ type: person
 slug: robert-wechsler
 name: Robert Wechsler
 title: Robert Wechsler
-position:
-department:
-institution:
+position: null
+department: null
+institution: null
 institutions:
-  - /institutions/motioncomposer-gmbh/
+- /institutions/motioncomposer-gmbh/
 affiliation_units: []
 nva_affiliations: []
-projects: []
-roles: []
+projects:
+- movement-to-music-hackathon
+roles:
+- Member
 urls:
   personal_website: ''
-  institutional_website:
-  github:
-  linkedin:
-  orcid:
-  nva:
-  youtube:
-  facebook:
-  mastodon:
-  instagram:
+  institutional_website: ''
+  github: ''
+  linkedin: ''
+  orcid: ''
+  nva: ''
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
 aliases: []
 tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary:
+summary: null
 permalink: /people/robert-wechsler/
 redirect_from:
-  - /directory/people/robert-wechsler/
+- /directory/people/robert-wechsler/
 ---
 
 Bio coming soon.

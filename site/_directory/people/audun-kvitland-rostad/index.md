@@ -3,35 +3,37 @@ type: person
 slug: audun-kvitland-rostad
 name: Audun Kvitland Rostad
 title: Audun Kvitland Rostad
-position:
-department:
-institution:
+position: null
+department: null
+institution: null
 institutions:
-  - /institutions/super-ponni/
+- /institutions/super-ponni/
 affiliation_units: []
 nva_affiliations: []
-projects: []
-roles: []
+projects:
+- trondheim-kreativ-ai
+roles:
+- Member
 urls:
   personal_website: ''
-  institutional_website:
-  github:
-  linkedin:
-  orcid:
-  nva:
-  youtube:
-  facebook:
-  mastodon:
-  instagram:
+  institutional_website: ''
+  github: ''
+  linkedin: ''
+  orcid: ''
+  nva: ''
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
 aliases: []
 tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary:
+summary: null
 permalink: /people/audun-kvitland-rostad/
 redirect_from:
-  - /directory/people/audun-kvitland-rostad/
+- /directory/people/audun-kvitland-rostad/
 ---
 
 Bio coming soon.

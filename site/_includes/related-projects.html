@@ -18,7 +18,7 @@
   <ul>
     {% for project in related_projects %}
     <li>
-      <a href="{{ project.url | relative_url }}">{{ project.title | default: project.name | default: project.slug }}</a>
+      <a href="{{ project.url | relative_url }}">{{ project.title | default: project.name | default: project.slug }}</a>{% if project.wp %}{% if project.wp == 'Cross-WP' %} <span class="project-wp-label">(Cross-WP)</span>{% else %} <span class="project-wp-label">(<a href="{{ '/' | append: project.wp | downcase | append: '/' | relative_url }}">{{ project.wp }}</a>)</span>{% endif %}{% endif %}
     </li>
     {% endfor %}
   </ul>

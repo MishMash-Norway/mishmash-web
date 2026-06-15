@@ -12,7 +12,9 @@ institutions:
 affiliation_units:
 - The Oslo School of Architecture and Design
 - Institute of Design
-projects: []
+projects:
+- tao-transductive-acoustic-organism
+- tool-for-tools
 roles:
 - Work Package Leader Group member
 urls:

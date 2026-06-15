@@ -9,7 +9,10 @@ image: /assets/images/portraits/Fredrik_Graver_INN.jpg
 institution: inland-norway-university-of-applied-sciences
 institutions:
 - inland-norway-university-of-applied-sciences
-projects: []
+projects:
+- interactive-ai-driven-book-experiences
+- scoping-review-creative-ai-teaching-learning
+- teacher-resources-critical-ai-literacy
 roles:
 - Work Package Leader Group member
 urls:

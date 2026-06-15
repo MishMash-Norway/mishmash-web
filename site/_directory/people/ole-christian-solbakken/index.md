@@ -8,8 +8,10 @@ department: Westerdals Department of Film and Media
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college
-projects: []
-roles: []
+projects:
+- ai-assisted-film-production-vita-vigeland
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

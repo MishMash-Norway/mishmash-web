@@ -8,8 +8,10 @@ department: Software Engineering, Safety and Security
 institution: sintef-digital
 institutions:
 - sintef-digital
-projects: []
-roles: []
+projects:
+- trondheim-kreativ-ai
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

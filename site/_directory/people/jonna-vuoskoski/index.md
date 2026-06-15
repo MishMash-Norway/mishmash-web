@@ -9,7 +9,8 @@ image: /assets/images/portraits/Jonna_Vuoskoski_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
+projects:
+- intensifying-brain-pleasure-responses-music
 roles:
 - Work Package Leader Group member
 urls:

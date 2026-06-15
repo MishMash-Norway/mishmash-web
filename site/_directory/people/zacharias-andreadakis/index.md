@@ -8,8 +8,10 @@ department: Department of Philosophy, Classics, History of Art and Ideas
 institution: university-of-oslo
 institutions:
 - /institutions/western-norway-university-of-applied-sciences/
-projects: []
-roles: []
+projects:
+- tool-for-tools
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

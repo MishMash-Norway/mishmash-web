@@ -8,8 +8,10 @@ department: Departement of Psychology, Pedagogy and Law
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college
-projects: []
-roles: []
+projects:
+- ki-i-kunstnerisk-utdanning-og-praksis
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

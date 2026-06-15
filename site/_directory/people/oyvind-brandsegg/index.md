@@ -8,8 +8,10 @@ department: Department of Music
 institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
-projects: []
-roles: []
+projects:
+- human-machine-consciousness
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

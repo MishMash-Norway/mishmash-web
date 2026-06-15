@@ -13,7 +13,9 @@ affiliation_units:
 - Norwegian University of Science and Technology
 - Faculty of Humanities
 - Department of Music
-projects: []
+projects:
+- evaluation-cultural-bias-workflow-ai-music-generation
+- movement-to-music-hackathon
 roles:
 - Work Package Leader Group member
 urls:

@@ -8,8 +8,10 @@ department: Institute of Design
 institution: oslo-school-of-architecture-and-design
 institutions:
 - oslo-school-of-architecture-and-design
-projects: []
-roles: []
+projects:
+- tao-transductive-acoustic-organism
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

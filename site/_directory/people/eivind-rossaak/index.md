@@ -9,8 +9,10 @@ image: /assets/images/portraits/Eivind_Røssaak_NatLib.png
 institution: national-library-of-norway
 institutions:
 - national-library-of-norway
-projects: []
-roles: []
+projects:
+- ai-as-environment
+roles:
+- Member
 urls:
   personal_website: https://nb.academia.edu/EivindRøssaak
   institutional_website: ''

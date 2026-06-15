@@ -9,8 +9,10 @@ image: /assets/images/portraits/Daniel_Peter_Biro_UiB.jpg
 institution: university-of-bergen
 institutions:
 - university-of-bergen
-projects: []
-roles: []
+projects:
+- musical-doppelgangers
+roles:
+- Member
 urls:
   personal_website: https://www.danielpeterbiro.no/
   institutional_website: ''

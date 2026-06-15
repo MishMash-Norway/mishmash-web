@@ -13,7 +13,9 @@ affiliation_units:
 - Norwegian Academy of Music
 - Norges musikkhøgskole, Diverse fagseksjoner
 - Fagseksjon for improvisert musikk, jazz og folkemusikk
-projects: []
+projects:
+- musical-doppelgangers
+- rhyglyph-rhydiff-rhyseq
 roles:
 - Work Package Leader Group member
 urls:

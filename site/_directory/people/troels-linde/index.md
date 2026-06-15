@@ -15,8 +15,10 @@ nva_affiliations:
 - role: Professor
   unit: The Norwegian Film School
   institution: inland-norway-university-of-applied-sciences
-projects: []
-roles: []
+projects:
+- tool-for-tools
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

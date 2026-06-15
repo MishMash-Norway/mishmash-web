@@ -8,8 +8,10 @@ department: Department of Nursing and Health Promotion
 institution: null
 institutions:
 - /institutions/kulturtanken/
-projects: []
-roles: []
+projects:
+- interactive-ai-driven-book-experiences
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

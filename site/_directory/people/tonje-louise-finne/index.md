@@ -9,8 +9,10 @@ image: /assets/images/portraits/Tonje_Louise_Finne_INN.png
 institution: inland-norway-university-of-applied-sciences
 institutions:
 - inland-norway-university-of-applied-sciences
-projects: []
-roles: []
+projects:
+- bingo-ai-assisted-animation-documentary-film
+roles:
+- Member
 urls:
   personal_website: https://vimeo.com/tonjefinne
   institutional_website: ''

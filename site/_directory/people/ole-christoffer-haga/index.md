@@ -16,8 +16,10 @@ nva_affiliations:
 - role: Senior lecturer
   unit: The Game School - Department of Game Development
   institution: inland-norway-university-of-applied-sciences
-projects: []
-roles: []
+projects:
+- bingo-ai-assisted-animation-documentary-film
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

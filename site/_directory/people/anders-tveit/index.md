@@ -8,8 +8,10 @@ department: Department of Musicology
 institution: university-of-oslo
 institutions:
 - /institutions/notam-norwegian-centre-for-technology-art-and-music/
-projects: []
-roles: []
+projects:
+- musical-doppelgangers
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

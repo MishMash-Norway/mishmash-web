@@ -19,8 +19,10 @@ nva_affiliations:
 - role: ''
   unit: Barratt Due Institute of Music
   institution: ''
-projects: []
-roles: []
+projects:
+- human-machine-consciousness
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

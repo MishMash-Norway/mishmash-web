@@ -8,8 +8,10 @@ department: Department of Clinical Dentistry
 institution: university-of-bergen
 institutions:
 - university-of-iceland
-projects: []
-roles: []
+projects:
+- rhyglyph-rhydiff-rhyseq
+roles:
+- Member
 urls:
   personal_website: http://thormagnusson.github.io
   institutional_website: https://english.hi.is/staff/thormagnusson

@@ -12,7 +12,9 @@ institutions:
 affiliation_units:
 - BI Norwegian Business School
 - Department of Law and Governance
-projects: []
+projects:
+- copyright-and-personality-rights-ai-era
+- tool-for-tools
 roles:
 - Work Package Leader Group member
 urls:

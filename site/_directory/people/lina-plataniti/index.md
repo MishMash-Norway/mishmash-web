@@ -10,7 +10,8 @@ institutions:
 - norsus-norwegian-institute-for-sustainability-research
 affiliation_units:
 - 'NORSUS: Norwegian Institute for Sustainability Research'
-projects: []
+projects:
+- environmental-sustainability-mishmash
 roles:
 - Council member
 urls:

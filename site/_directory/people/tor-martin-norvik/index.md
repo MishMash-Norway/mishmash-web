@@ -3,35 +3,37 @@ type: person
 slug: tor-martin-norvik
 name: Tor Martin Norvik
 title: Tor Martin Norvik
-position:
-department:
-institution:
+position: null
+department: null
+institution: null
 institutions:
-  - /institutions/super-ponni/
+- /institutions/super-ponni/
 affiliation_units: []
 nva_affiliations: []
-projects: []
-roles: []
+projects:
+- trondheim-kreativ-ai
+roles:
+- Member
 urls:
   personal_website: ''
-  institutional_website:
-  github:
-  linkedin:
-  orcid:
-  nva:
-  youtube:
-  facebook:
-  mastodon:
-  instagram:
+  institutional_website: ''
+  github: ''
+  linkedin: ''
+  orcid: ''
+  nva: ''
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
 aliases: []
 tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary:
+summary: null
 permalink: /people/tor-martin-norvik/
 redirect_from:
-  - /directory/people/tor-martin-norvik/
+- /directory/people/tor-martin-norvik/
 ---
 
 Bio coming soon.

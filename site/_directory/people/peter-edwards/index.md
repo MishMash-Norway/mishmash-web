@@ -8,8 +8,10 @@ department: IMV stab
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
-roles: []
+projects:
+- musical-doppelgangers
+roles:
+- Member
 urls:
   personal_website: http://www.peteredwards.no
   institutional_website: ''

@@ -8,8 +8,10 @@ department: Kognitiv- og nevropsykologi
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
-roles: []
+projects:
+- intensifying-brain-pleasure-responses-music
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

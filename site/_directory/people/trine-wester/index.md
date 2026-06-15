@@ -9,8 +9,10 @@ image: /assets/images/portraits/Trine_Wester_KHiO.png
 institution: oslo-national-academy-of-the-arts
 institutions:
 - oslo-national-academy-of-the-arts
-projects: []
-roles: []
+projects:
+- ki-i-kunstnerisk-utdanning-og-praksis
+roles:
+- Member
 urls:
   personal_website: http://trinewester.com/
   institutional_website: ''

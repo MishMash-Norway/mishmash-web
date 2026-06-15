@@ -8,8 +8,10 @@ department: Networks and Distributed Systems
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
-roles: []
+projects:
+- rhyglyph-rhydiff-rhyseq
+roles:
+- Member
 urls:
   personal_website: http://cagrierdem.net
   institutional_website: ''

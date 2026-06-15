@@ -9,7 +9,10 @@ image: /assets/images/portraits/eirik_sorbo_UiA.jpg
 institution: university-of-agder
 institutions:
 - university-of-agder
-projects: []
+projects:
+- interactive-ai-driven-book-experiences
+- scoping-review-creative-ai-teaching-learning
+- teacher-resources-critical-ai-literacy
 roles:
 - Work Package Leader Group member
 urls:

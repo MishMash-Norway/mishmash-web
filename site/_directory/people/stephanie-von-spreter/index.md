@@ -7,8 +7,10 @@ position: Researcher
 department: Department of Language and Culture
 institution: arctic-university-of-norway
 institutions: []
-projects: []
-roles: []
+projects:
+- ai-as-environment
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

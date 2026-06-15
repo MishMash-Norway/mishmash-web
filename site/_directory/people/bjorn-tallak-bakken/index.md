@@ -15,8 +15,10 @@ nva_affiliations:
 - role: Associate professor
   unit: Department of Organisation, Leadership and Management
   institution: inland-norway-university-of-applied-sciences
-projects: []
-roles: []
+projects:
+- when-creativity-meets-criticality
+roles:
+- Member
 urls:
   personal_website: ''
   institutional_website: ''

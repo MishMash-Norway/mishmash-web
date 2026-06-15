@@ -9,8 +9,11 @@ image: /assets/images/portraits/Henning_Birkeland_KriUni.png
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college
-projects: []
-roles: []
+projects:
+- ai-assisted-film-production-vita-vigeland
+- bingo-ai-assisted-animation-documentary-film
+roles:
+- Member
 urls:
   personal_website: https://www.henningb.com/
   institutional_website: ''
