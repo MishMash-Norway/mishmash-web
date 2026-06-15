@@ -15,5 +15,8 @@ people:
 projects:
 - environmental-sustainability-mishmash
 - trondheim-kreativ-ai
+urls:
+  website: https://www.sintef.no/en/
+  wikipedia: https://en.wikipedia.org/wiki/SINTEF
 ---
 

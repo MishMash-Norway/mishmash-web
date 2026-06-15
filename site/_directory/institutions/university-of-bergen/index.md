@@ -26,8 +26,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.uib.no/en
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Bergen
 aliases: []
 tags: []
 search_keywords: []

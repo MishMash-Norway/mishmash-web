@@ -12,8 +12,8 @@ projects: []
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.unimelb.edu.au/
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Melbourne
 aliases: []
 tags: []
 search_keywords: []

@@ -23,8 +23,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.uia.no/english/index.html
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Agder
 aliases: []
 tags: []
 search_keywords: []

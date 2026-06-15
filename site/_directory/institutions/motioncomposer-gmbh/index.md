@@ -13,7 +13,7 @@ projects: []
 country: null
 city: null
 urls:
-  website: null
+  website: https://motioncomposer.de/en/
   wikipedia: null
 aliases: []
 tags: []

@@ -17,8 +17,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.bi.edu/
+  wikipedia: https://en.wikipedia.org/wiki/BI_Norwegian_Business_School
 aliases: []
 tags: []
 search_keywords: []

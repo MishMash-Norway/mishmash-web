@@ -12,7 +12,7 @@ projects: []
 country: null
 city: null
 urls:
-  website: null
+  website: https://screenstory.no/
   wikipedia: null
 aliases: []
 tags: []

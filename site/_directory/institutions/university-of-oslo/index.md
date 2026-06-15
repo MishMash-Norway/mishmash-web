@@ -32,8 +32,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.uio.no/english/index.html
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Oslo
 aliases: []
 tags: []
 search_keywords: []

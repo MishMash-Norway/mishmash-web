@@ -15,8 +15,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://norsus.no/en/
+  wikipedia: https://en.wikipedia.org/wiki/NORSUS
 aliases: []
 tags: []
 search_keywords: []

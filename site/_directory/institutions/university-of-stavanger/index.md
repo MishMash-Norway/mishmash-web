@@ -12,5 +12,8 @@ people:
 projects:
 - ai-integration-film-tv-education
 image: /images/institutions/university-of-stavanger.png
+urls:
+  website: https://www.uis.no/en
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Stavanger
 ---
 

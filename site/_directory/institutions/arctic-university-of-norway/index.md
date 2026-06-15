@@ -17,8 +17,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://en.uit.no/
+  wikipedia: https://en.wikipedia.org/wiki/UiT_The_Arctic_University_of_Norway
 aliases: []
 tags: []
 search_keywords: []

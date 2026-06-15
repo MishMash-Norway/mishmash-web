@@ -14,7 +14,7 @@ projects: []
 country: null
 city: null
 urls:
-  website: null
+  website: https://www.superponni.no/
   wikipedia: null
 aliases: []
 tags: []

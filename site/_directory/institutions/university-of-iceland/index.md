@@ -16,8 +16,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.hi.is/en
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Iceland
 aliases: []
 tags: []
 search_keywords: []

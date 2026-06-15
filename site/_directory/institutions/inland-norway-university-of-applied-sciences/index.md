@@ -32,8 +32,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.inn.no/english/
+  wikipedia: https://en.wikipedia.org/wiki/Inland_Norway_University_of_Applied_Sciences
 aliases: []
 tags: []
 search_keywords: []

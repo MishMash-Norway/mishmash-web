@@ -20,8 +20,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.ntnu.edu/
+  wikipedia: https://en.wikipedia.org/wiki/Norwegian_University_of_Science_and_Technology
 aliases: []
 tags: []
 search_keywords: []

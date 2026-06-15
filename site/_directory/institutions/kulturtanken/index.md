@@ -13,8 +13,8 @@ projects: []
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.kulturtanken.no/
+  wikipedia: https://no.wikipedia.org/wiki/Kulturtanken
 aliases: []
 tags: []
 search_keywords: []

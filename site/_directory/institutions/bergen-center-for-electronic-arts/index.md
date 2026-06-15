@@ -14,8 +14,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://bek.no/en/
+  wikipedia: https://no.wikipedia.org/wiki/Bergen_senter_for_elektronisk_kunst
 aliases: []
 tags: []
 search_keywords: []

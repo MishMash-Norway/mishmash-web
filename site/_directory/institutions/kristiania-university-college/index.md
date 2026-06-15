@@ -24,8 +24,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.kristiania.no/en/
+  wikipedia: https://en.wikipedia.org/wiki/Kristiania_University_College
 aliases:
 - Kristiania University of Applied Sciences
 tags: []

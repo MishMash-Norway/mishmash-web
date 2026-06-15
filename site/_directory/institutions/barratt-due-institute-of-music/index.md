@@ -14,7 +14,7 @@ country: null
 city: null
 urls:
   website: https://www.barrattdue.no/en
-  wikipedia: null
+  wikipedia: https://en.wikipedia.org/wiki/Barratt_Due_Institute_of_Music
 aliases: []
 tags: []
 search_keywords: []

@@ -23,8 +23,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://nmh.no/en/
+  wikipedia: https://en.wikipedia.org/wiki/Norwegian_Academy_of_Music
 aliases: []
 tags: []
 search_keywords: []

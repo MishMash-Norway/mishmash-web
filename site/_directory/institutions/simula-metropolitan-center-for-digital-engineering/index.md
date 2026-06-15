@@ -14,8 +14,8 @@ projects: []
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.simulamet.no/
+  wikipedia: https://en.wikipedia.org/wiki/Simula_Research_Laboratory
 aliases: []
 tags: []
 search_keywords: []

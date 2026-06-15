@@ -18,8 +18,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.aho.no/english/
+  wikipedia: https://en.wikipedia.org/wiki/Oslo_School_of_Architecture_and_Design
 aliases: []
 tags: []
 search_keywords: []

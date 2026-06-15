@@ -14,8 +14,8 @@ projects: []
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.hiof.no/english/
+  wikipedia: https://en.wikipedia.org/wiki/%C3%98stfold_University_College
 aliases:
 - Østfold University of Applied Sciences
 tags: []

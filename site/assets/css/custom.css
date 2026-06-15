@@ -407,13 +407,81 @@ a:focus-visible .icon {
   margin: 1.5rem 0 0;
 }
 
+.institution-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.25rem;
+}
+
+.institution-header-main {
+  flex: 1 1 16rem;
+  min-width: 0;
+}
+
+.institution-header-main h1 {
+  margin-top: 0;
+}
+
+.institution-map {
+  flex: 0 0 auto;
+  margin: 0;
+  width: 6.5rem;
+}
+
+.institution-map-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.institution-map-land {
+  fill: #e8edf2;
+  stroke: #8fa4b8;
+  stroke-width: 0.8;
+}
+
+.institution-map-marker {
+  fill: #c45a3c;
+}
+
+.institution-map-marker-ring {
+  fill: none;
+  stroke: #c45a3c;
+  stroke-width: 1.2;
+  opacity: 0.5;
+}
+
+.institution-map-label {
+  margin: 0.25rem 0 0;
+  font-size: 0.72rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #667;
+}
+
 .institution-people,
 .institution-projects {
   margin-top: 2rem;
 }
 
+.institution-links {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.institution-link {
+  color: #555;
+}
+
+.institution-links-sep {
+  color: #999;
+}
+
 .institution-logo {
-  margin: 0 0 1.25rem;
+  margin: 2rem 0 0;
 }
 
 .institution-logo img {

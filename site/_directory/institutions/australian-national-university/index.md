@@ -14,8 +14,8 @@ projects: []
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.anu.edu.au/
+  wikipedia: https://en.wikipedia.org/wiki/Australian_National_University
 aliases: []
 tags: []
 search_keywords: []

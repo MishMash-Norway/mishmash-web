@@ -18,8 +18,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://khio.no/en
+  wikipedia: https://en.wikipedia.org/wiki/Oslo_National_Academy_of_the_Arts
 aliases: []
 tags: []
 search_keywords: []

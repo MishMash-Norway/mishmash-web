@@ -13,8 +13,8 @@ projects: []
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.uniarts.fi/en
+  wikipedia: https://en.wikipedia.org/wiki/Uniarts_Helsinki
 aliases: []
 tags: []
 search_keywords: []

@@ -12,5 +12,8 @@ people:
 projects:
 - when-creativity-meets-criticality
 image: /images/institutions/university-of-cambridge.svg
+urls:
+  website: https://www.cam.ac.uk/
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Cambridge
 ---
 

@@ -13,8 +13,8 @@ projects: []
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.ultima.no/en/
+  wikipedia: https://en.wikipedia.org/wiki/Ultima_Oslo_Contemporary_Music_Festival
 aliases: []
 tags: []
 search_keywords: []

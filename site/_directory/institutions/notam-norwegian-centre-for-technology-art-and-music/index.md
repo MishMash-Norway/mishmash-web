@@ -16,7 +16,7 @@ projects:
 country: null
 city: null
 urls:
-  website: null
+  website: https://notam.no/en/
   wikipedia: null
 aliases: []
 tags: []

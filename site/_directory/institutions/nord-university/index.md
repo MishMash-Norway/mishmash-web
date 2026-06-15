@@ -17,7 +17,7 @@ country: null
 city: null
 urls:
   website: https://www.nord.no/en
-  wikipedia: null
+  wikipedia: https://en.wikipedia.org/wiki/Nord_University
 aliases: []
 tags: []
 search_keywords: []

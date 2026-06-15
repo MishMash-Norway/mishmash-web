@@ -18,8 +18,8 @@ projects:
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.nb.no/en/
+  wikipedia: https://en.wikipedia.org/wiki/National_Library_of_Norway
 aliases:
 - The National Library of Norway
 tags: []

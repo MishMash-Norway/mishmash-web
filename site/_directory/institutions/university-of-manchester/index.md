@@ -12,5 +12,8 @@ people:
 projects:
 - when-creativity-meets-criticality
 image: /images/institutions/university-of-manchester.png
+urls:
+  website: https://www.manchester.ac.uk/
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Manchester
 ---
 

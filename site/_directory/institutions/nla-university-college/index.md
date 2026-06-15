@@ -13,8 +13,8 @@ projects: []
 country: null
 city: null
 urls:
-  website: null
-  wikipedia: null
+  website: https://www.nla.no/en/
+  wikipedia: https://en.wikipedia.org/wiki/NLA_University_College
 aliases: []
 tags: []
 search_keywords: []

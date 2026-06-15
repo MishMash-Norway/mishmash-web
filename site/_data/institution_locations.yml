@@ -1,0 +1,191 @@
+arctic-university-of-norway:
+  x: 53.6
+  y: 25.6
+  label: Tromsø
+  in_norway: true
+
+barratt-due-institute-of-music:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+bergen-center-for-electronic-arts:
+  x: 3.0
+  y: 178.8
+  label: Bergen
+  in_norway: true
+
+bi-norwegian-business-school:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+inland-norway-university-of-applied-sciences:
+  x: 22.1
+  y: 166.7
+  label: Lillehammer
+  in_norway: true
+
+kristiania-university-college:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+kulturtanken:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+national-library-of-norway:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+nla-university-college:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+nord-university:
+  x: 36.7
+  y: 64.8
+  label: Bodø
+  in_norway: true
+
+norsus-norwegian-institute-for-sustainability-research:
+  x: 12.9
+  y: 215.9
+  label: Kristiansand
+  in_norway: true
+
+norwegian-academy-of-music:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+norwegian-university-of-science-and-technology:
+  x: 21.9
+  y: 128.5
+  label: Trondheim
+  in_norway: true
+
+notam-norwegian-centre-for-technology-art-and-music:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+oslo-national-academy-of-the-arts:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+oslo-school-of-architecture-and-design:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+ostfold-university-college:
+  x: 25.5
+  y: 199.8
+  label: Halden
+  in_norway: true
+
+reimagine:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+screenstory:
+  x: 4.6
+  y: 202.3
+  label: Stavanger
+  in_norway: true
+
+simula-metropolitan-center-for-digital-engineering:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+sintef-digital:
+  x: 21.9
+  y: 128.5
+  label: Trondheim
+  in_norway: true
+
+super-ponni:
+  x: 21.9
+  y: 128.5
+  label: Trondheim
+  in_norway: true
+
+ultima-festival:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+university-of-agder:
+  x: 12.9
+  y: 215.9
+  label: Kristiansand
+  in_norway: true
+
+university-of-bergen:
+  x: 3.0
+  y: 178.8
+  label: Bergen
+  in_norway: true
+
+university-of-oslo:
+  x: 23.1
+  y: 186.8
+  label: Oslo
+  in_norway: true
+
+university-of-stavanger:
+  x: 4.6
+  y: 202.3
+  label: Stavanger
+  in_norway: true
+
+western-norway-university-of-applied-sciences:
+  x: 3.0
+  y: 178.8
+  label: Bergen
+  in_norway: true
+
+australian-national-university:
+  in_norway: false
+
+university-of-cambridge:
+  in_norway: false
+
+university-of-iceland:
+  in_norway: false
+
+university-of-manchester:
+  in_norway: false
+
+university-of-melbourne:
+  in_norway: false
+
+uniarts-helsinki:
+  in_norway: false
+
+motioncomposer-gmbh:
+  in_norway: false
+
+independent-consultant:
+  in_norway: false
