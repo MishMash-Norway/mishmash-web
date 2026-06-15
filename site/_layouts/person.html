@@ -26,18 +26,9 @@ layout: default
         {% if page.nva_affiliations and page.nva_affiliations.size > 1 %}
         <ul class="person-affiliations-list">
           {% for affiliation in page.nva_affiliations %}
-          <li>
-            {% if affiliation.role %}{{ affiliation.role }}{% endif %}
-            {% if affiliation.unit %}{% if affiliation.role %}, {% endif %}{{ affiliation.unit }}{% endif %}
-            {% if affiliation.institution %}
-              {% assign affiliation_institution_slug = affiliation.institution | replace: '/institutions/', '' | replace: '/', '' %}
-              {% assign aff_inst = site.directory | where: "type", "institution" | where: "slug", affiliation_institution_slug | first %}
-              {% if aff_inst %}
-                {% if affiliation.role or affiliation.unit %}, {% endif %}
-                <a href="{{ aff_inst.url | relative_url }}">{{ aff_inst.name }}</a>
-              {% endif %}
-            {% endif %}
-          </li>
+          {% assign affiliation_institution_slug = affiliation.institution | replace: '/institutions/', '' | replace: '/', '' %}
+          {% assign aff_inst = site.directory | where: "type", "institution" | where: "slug", affiliation_institution_slug | first %}
+          <li>{%- if affiliation.role -%}{{ affiliation.role }}{%- endif -%}{%- if affiliation.unit -%}{%- if affiliation.role %}, {% endif %}{{ affiliation.unit }}{%- endif -%}{%- if aff_inst -%}{%- if affiliation.role or affiliation.unit %}, {% endif %}<a href="{{ aff_inst.url | relative_url }}">{{ aff_inst.name }}</a>{%- endif -%}</li>
           {% endfor %}
         </ul>
         {% elsif page.position and primary_institution_doc %}

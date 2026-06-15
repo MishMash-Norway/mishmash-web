@@ -2,6 +2,7 @@
   Lists seed-funding projects linked to a person or institution.
   include.entity_path  — e.g. /people/foo/ or /institutions/bar/
   include.project_slugs — optional explicit slugs from front matter (page.projects)
+  include.section_class — optional section class (default: directory-related)
 {% endcomment %}
 {% assign entity_path = include.entity_path %}
 {% assign all_projects = site.directory | where: "type", "project" | where_exp: "project", "project.url != '/projects/'" %}
@@ -12,8 +13,9 @@
   {% assign related_projects = related_projects | concat: related_by_slug | uniq %}
 {% endif %}
 {% assign related_projects = related_projects | sort: "title" %}
+{% assign section_class = include.section_class | default: "directory-related" %}
 {% if related_projects.size > 0 %}
-<section class="directory-related" aria-label="Related projects">
+<section class="{{ section_class }}" aria-label="Related projects">
   <h2{% if include.heading_class %} class="{{ include.heading_class }}"{% endif %}>Projects</h2>
   <ul>
     {% for project in related_projects %}

@@ -407,6 +407,11 @@ a:focus-visible .icon {
   margin: 1.5rem 0 0;
 }
 
+.institution-people,
+.institution-projects {
+  margin-top: 2rem;
+}
+
 .directory-related {
   margin-top: 2rem;
 }
