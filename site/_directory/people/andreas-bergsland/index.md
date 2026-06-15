@@ -68,7 +68,7 @@ selected_works:
   source: Journal article
   url: http://smc2019.uma.es/docs/SMC2019_Proceedings.pdf
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/andreas-bergsland/
 redirect_from:

@@ -77,7 +77,7 @@ selected_works:
   source: Journal article
   url: https://doi.org/10.1386/jpme_00137_1
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: Researcher, educator, and musician. PhD in music education from the University
   of Agder (2023), with a focus on electronic music education, student agency, music
   theory pedagogy, and Bildung. Committed to bridging research and educational innovation.

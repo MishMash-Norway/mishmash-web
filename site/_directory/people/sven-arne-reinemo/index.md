@@ -61,7 +61,7 @@ selected_works:
   year: '2011'
   source: Lecture
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/sven-arne-reinemo/
 redirect_from:

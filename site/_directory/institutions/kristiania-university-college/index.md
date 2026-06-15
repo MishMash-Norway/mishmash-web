@@ -7,7 +7,7 @@ redirect_from:
 - /directory/institutions/kristiania-university-college/
 name: Kristiania University College
 short_name: Kristiania
-image: /images/institutions/kristiania-university-college.png
+image: /images/institutions/kristiania-university-college.svg
 people:
 - gro-skaland
 - henning-birkeland
@@ -31,8 +31,8 @@ aliases:
 tags: []
 search_keywords: []
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/council/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 ---
 

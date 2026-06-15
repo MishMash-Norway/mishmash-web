@@ -3,22 +3,22 @@ type: institution
 slug: university-of-melbourne
 permalink: /institutions/university-of-melbourne/
 redirect_from:
-  - /directory/institutions/university-of-melbourne/
+- /directory/institutions/university-of-melbourne/
 name: University of Melbourne
 short_name: UniMelb
-image: /images/institutions/university-of-melbourne.png
 people:
-  - /people/felicity-baker/
+- /people/felicity-baker/
 projects: []
-country:
-city:
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary:
+summary: null
+image: /images/institutions/university-of-melbourne.svg
 ---
 

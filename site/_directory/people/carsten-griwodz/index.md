@@ -88,7 +88,7 @@ selected_works:
   year: '2015'
   source: Conference lecture
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/carsten-griwodz/
 redirect_from:

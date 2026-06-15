@@ -3,25 +3,24 @@ type: institution
 slug: reimagine
 permalink: /institutions/reimagine/
 redirect_from:
-  - /directory/institutions/reimagine/
+- /directory/institutions/reimagine/
 name: Reimagine
 short_name: Reimagine
 image: /images/institutions/reimagine.png
 people:
-  - christian-schussler
+- christian-schussler
 projects: []
-country:
-city:
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-  - /home/alexanje/github/mishmash-web/about/organisation/board/index.md
-  - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-summary:
+- about/organisation/board/index.md
+- about/organisation/council/index.md
+summary: null
 ---
-
 

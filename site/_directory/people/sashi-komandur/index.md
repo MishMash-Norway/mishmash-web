@@ -102,7 +102,7 @@ selected_works:
   source: Journal article
   url: https://doi.org/10.1007/978-3-030-23522-2_23
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/sashi-komandur/
 redirect_from:

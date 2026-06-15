@@ -81,7 +81,7 @@ selected_works:
   source: Conference lecture
   url: https://ieeexplore.ieee.org/document/10942943
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/baltasar-beferull-lozano/
 redirect_from:

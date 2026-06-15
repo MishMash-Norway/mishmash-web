@@ -7,7 +7,7 @@ redirect_from:
 - /directory/institutions/university-of-iceland/
 name: University of Iceland
 short_name: HI
-image: /images/institutions/university-of-iceland.png
+image: /images/institutions/university-of-iceland.svg
 people:
 - halldor-ulfarsson
 - thor-magnusson

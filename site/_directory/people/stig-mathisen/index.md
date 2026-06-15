@@ -36,7 +36,7 @@ selected_works:
   source: Music performance
   url: https://img2.custompublish.com/getfile.php/5317098.622.jsjpjuzpqpkzkw/Program%2BPerla%2B2024.pdf?return=www.masoy.kommune.no
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/stig-mathisen/
 redirect_from:

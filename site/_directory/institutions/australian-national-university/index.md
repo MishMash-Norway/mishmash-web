@@ -3,25 +3,24 @@ type: institution
 slug: australian-national-university
 permalink: /institutions/australian-national-university/
 redirect_from:
-  - /directory/institutions/australian-national-university/
+- /directory/institutions/australian-national-university/
 name: Australian National University
 short_name: ANU
-image: /images/institutions/australian-national-university.png
+image: /images/institutions/australian-national-university.svg
 people:
-  - charles-martin
-  - /people/felicity-baker/
+- charles-martin
+- /people/felicity-baker/
 projects: []
-country:
-city:
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-  - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-summary:
+- about/organisation/council/index.md
+summary: null
 ---
-
 

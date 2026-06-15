@@ -3,22 +3,21 @@ type: institution
 slug: independent-consultant
 permalink: /institutions/independent-consultant/
 redirect_from:
-  - /directory/institutions/independent-consultant/
+- /directory/institutions/independent-consultant/
 name: Independent Consultant
 short_name: Consultant
-image: /images/institutions/independent-consultant.png
 people:
-  - /people/lukas-erni/
+- /people/lukas-erni/
 projects: []
-country:
-city:
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary:
+summary: null
 ---
 

@@ -7,7 +7,7 @@ redirect_from:
 - /directory/institutions/university-of-oslo/
 name: University of Oslo
 short_name: UiO
-image: /images/institutions/university-of-oslo.png
+image: /images/institutions/university-of-oslo.svg
 people:
 - alexander-refsum-jensenius
 - cagri-erdem
@@ -38,9 +38,9 @@ aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/board/index.md
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/board/index.md
+- about/organisation/council/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 ---
 

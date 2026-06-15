@@ -69,7 +69,7 @@ selected_works:
   year: '2025'
   source: Lecture
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/sidsel-karlsen/
 redirect_from:

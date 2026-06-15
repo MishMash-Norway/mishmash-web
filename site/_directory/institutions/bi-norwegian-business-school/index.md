@@ -7,7 +7,7 @@ redirect_from:
 - /directory/institutions/bi-norwegian-business-school/
 name: BI Norwegian Business School
 short_name: BI
-image: /images/institutions/bi-norwegian-business-school.png
+image: /images/institutions/bi-norwegian-business-school.svg
 people:
 - irina-eidsvold-toien
 - terje-colbjornsen
@@ -23,8 +23,8 @@ aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/council/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 ---
 

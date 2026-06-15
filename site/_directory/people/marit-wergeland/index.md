@@ -58,7 +58,7 @@ selected_works:
   year: '2015'
   source: Lecture
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/marit-wergeland/
 redirect_from:

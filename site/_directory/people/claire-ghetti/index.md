@@ -75,7 +75,7 @@ selected_works:
   source: Journal article
   url: https://doi.org/10.1093/jmt/thac006
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/claire-ghetti/
 redirect_from:

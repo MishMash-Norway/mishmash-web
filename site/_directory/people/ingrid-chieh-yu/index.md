@@ -70,7 +70,7 @@ selected_works:
   source: Journal article
   url: https://doi.org/10.1109/IJCNN48605.2020.9206710
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/ingrid-chieh-yu/
 redirect_from:

@@ -70,7 +70,7 @@ selected_works:
   year: '2016'
   source: Conference lecture
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/board/index.md
+- about/organisation/board/index.md
 summary: null
 permalink: /people/tine-grieg-viig/
 redirect_from:

@@ -16,6 +16,11 @@ layout: default
     {% if page_heading %}
     <h1>{{ page_heading }}</h1>
     {% endif %}
+    {% if page.type == 'institution' and page.image %}
+    <figure class="institution-logo">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.name | default: page.title }} logo">
+    </figure>
+    {% endif %}
     {{ content }}
 
     {% if page.type == 'institution' and page.slug %}

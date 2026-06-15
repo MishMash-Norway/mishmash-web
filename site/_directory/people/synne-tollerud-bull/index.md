@@ -81,8 +81,8 @@ selected_works:
   source: Popular science article
   url: https://www.forskersonen.no/digital-teknologi-kronikk-kunstig-intelligens/pa-google-earth-kan-du-zoome-inn-pa-hele-verden-men-hva-er-det-egentlig-vi-ser/2597322
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/council/index.md
+- about/organisation/wp-leaders/index.md
 summary: 'Synne Tollerud Bull is a media artist, researcher, and Professor, currently
   serving as Pro-Dean of Research at the School of Arts, Design, and Media at Kristiania
   University of Applied Sciences. Her work bridges theory and practice to examine

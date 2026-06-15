@@ -25,9 +25,9 @@ aliases:
 tags: []
 search_keywords: []
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/board/index.md
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/board/index.md
+- about/organisation/council/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 ---
 

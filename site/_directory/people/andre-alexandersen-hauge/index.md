@@ -74,7 +74,7 @@ selected_works:
   year: '2014'
   source: Research report
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/andre-alexandersen-hauge/
 redirect_from:

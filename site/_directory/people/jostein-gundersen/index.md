@@ -50,7 +50,7 @@ selected_works:
   source: PhD thesis
   url: http://www.uib.no/info/dr_grad/2009/Gundersen_Jostein.html
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/jostein-gundersen/
 redirect_from:

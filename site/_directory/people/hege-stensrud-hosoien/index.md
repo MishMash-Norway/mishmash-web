@@ -28,7 +28,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/board/index.md
+- about/organisation/board/index.md
 summary: null
 permalink: /people/hege-stensrud-hosoien/
 redirect_from:

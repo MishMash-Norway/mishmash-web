@@ -88,7 +88,7 @@ selected_works:
   year: '2025'
   source: Presentation
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/fredrik-graver/
 redirect_from:

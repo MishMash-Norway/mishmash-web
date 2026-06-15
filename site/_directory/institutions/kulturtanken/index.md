@@ -3,22 +3,22 @@ type: institution
 slug: kulturtanken
 permalink: /institutions/kulturtanken/
 redirect_from:
-  - /directory/institutions/kulturtanken/
+- /directory/institutions/kulturtanken/
 name: Kulturtanken
 short_name: Kulturtanken
 image: /images/institutions/kulturtanken.png
 people:
-  - /people/bente-aasheim/
+- /people/bente-aasheim/
 projects: []
-country:
-city:
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary:
+summary: null
 ---
 

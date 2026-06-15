@@ -69,7 +69,7 @@ selected_works:
   year: '2024'
   source: Research report
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/lina-plataniti/
 redirect_from:

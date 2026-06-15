@@ -72,7 +72,7 @@ selected_works:
   year: '2019'
   source: Conference lecture
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/lise-amy-hansen/
 redirect_from:

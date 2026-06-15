@@ -28,8 +28,8 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/management/index.md
-- /home/alexanje/github/mishmash-web/no/about/organisation/management/index.md
+- about/organisation/management/index.md
+- no/about/organisation/management/index.md
 summary: null
 permalink: /people/thomas-de-ridder/
 redirect_from:

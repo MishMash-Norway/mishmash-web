@@ -69,7 +69,7 @@ selected_works:
   year: '2023'
   source: Book chapter
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/georgios-marentakis/
 redirect_from:

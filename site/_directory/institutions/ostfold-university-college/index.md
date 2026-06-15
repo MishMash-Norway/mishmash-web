@@ -3,27 +3,26 @@ type: institution
 slug: ostfold-university-college
 permalink: /institutions/ostfold-university-college/
 redirect_from:
-  - /directory/institutions/ostfold-university-college/
+- /directory/institutions/ostfold-university-college/
 name: Ostfold University College
 short_name: HiØF
 image: /images/institutions/ostfold-university-college.png
 people:
-  - andre-alexandersen-hauge
-  - georgios-marentakis
+- andre-alexandersen-hauge
+- georgios-marentakis
 projects: []
-country:
-city:
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases:
-  - Østfold University of Applied Sciences
+- Østfold University of Applied Sciences
 tags: []
 search_keywords: []
 source_mentions:
-  - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-  - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
-summary:
+- about/organisation/council/index.md
+- about/organisation/wp-leaders/index.md
+summary: null
 ---
-
 

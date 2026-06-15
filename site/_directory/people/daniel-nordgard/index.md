@@ -69,8 +69,8 @@ selected_works:
   year: '2025'
   source: Conference lecture
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/management/index.md
-- /home/alexanje/github/mishmash-web/no/about/organisation/management/index.md
+- about/organisation/management/index.md
+- no/about/organisation/management/index.md
 summary: 'Daniel Nordgård is professor in music business and management at the University
   of Agder and center director of CreaTeME, the Center for Excellence in Creative
   use of Technology in Music Education. Nordgård’s research and publications focus

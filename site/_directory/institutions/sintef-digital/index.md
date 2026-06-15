@@ -7,7 +7,7 @@ redirect_from:
 - /directory/institutions/sintef-digital/
 name: SINTEF Digital
 short_name: SINTEF
-image: /images/institutions/sintef-digital.png
+image: /images/institutions/sintef-digital.svg
 people:
 - erik-johannes-husom
 - sagar-sen

@@ -85,7 +85,7 @@ selected_works:
   source: Music performance
   url: https://www.researchcatalogue.net/view/1456892/1729696
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/jon-marius-aareskjold-drecker/
 redirect_from:

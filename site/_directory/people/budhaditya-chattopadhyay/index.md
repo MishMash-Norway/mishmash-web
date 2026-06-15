@@ -90,7 +90,7 @@ selected_works:
   source: Exhibition
   url: https://hearhere.be/en/expo/dhv%C4%81ni
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: 'Budhaditya Chattopadhyay is a multidisciplinary artist, researcher, and
   writer. He is a Marie Curie Postdoctoral Fellow at the Faculty of Fine Art, Music
   and Design (KMD), University of Bergen, and a co-lead of the Work Package: AI in

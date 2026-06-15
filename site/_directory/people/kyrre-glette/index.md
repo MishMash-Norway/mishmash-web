@@ -79,7 +79,7 @@ selected_works:
   source: Journal article
   url: https://doi.org/10.3389/fcomp.2025.1575667
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/kyrre-glette/
 redirect_from:

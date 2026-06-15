@@ -90,7 +90,7 @@ selected_works:
   source: Radio or TV
   url: https://radio.nrk.no/serie/etikketaten/DMPO38401726
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/board/index.md
+- about/organisation/board/index.md
 summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music technology
   at the University of Oslo. He works on the intersection of humans and machines,
   combining methods from artistic and scientific research in creative ways.

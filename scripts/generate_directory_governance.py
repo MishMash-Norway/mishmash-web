@@ -10,6 +10,7 @@ from institution_short_names import suggest_short_name
 from repo_paths import SITE_ROOT
 BOARD_FILE = "about/organisation/board/index.md"
 COUNCIL_FILE = "about/organisation/council/index.md"
+WP_LEADERS_FILE = "about/organisation/wp-leaders/index.md"
 PORTRAITS_DIR = "assets/images/portraits"
 
 INSTITUTION_CANONICAL = {
@@ -125,6 +126,10 @@ def resolve_person_image(name: str, slug: str, portrait_lookup: dict[str, str]) 
     return f"/images/people/{slug}.jpg"
 
 
+def source_path(path: Path, root: Path) -> str:
+    return str(path.resolve().relative_to(root.resolve()))
+
+
 def add_person(persons: dict, name: str, url: str, institution: str, role: str, source: str):
     person = persons[name]
     person["name"] = name
@@ -137,7 +142,7 @@ def add_person(persons: dict, name: str, url: str, institution: str, role: str, 
     person["sources"].add(source)
 
 
-def parse_wp_leaders(path: Path, persons: dict):
+def parse_wp_leaders(path: Path, root: Path, persons: dict):
     text = path.read_text(encoding="utf-8", errors="ignore")
     pattern = re.compile(r"\[([^\]]+)\]\((https?://[^)]+)\)\s*\(([^)]+)\)")
     for name, url, institution in pattern.findall(text):
@@ -150,11 +155,11 @@ def parse_wp_leaders(path: Path, persons: dict):
             url.strip(),
             institution.strip(),
             "Work Package Leader Group member",
-            str(path),
+            source_path(path, root),
         )
 
 
-def parse_board(path: Path, persons: dict):
+def parse_board(path: Path, root: Path, persons: dict):
     text = path.read_text(encoding="utf-8", errors="ignore")
     row_pattern = re.compile(r"<div class=\"board-member-row\">(.*?)</div>", re.S)
     member_pattern = re.compile(
@@ -170,10 +175,10 @@ def parse_board(path: Path, persons: dict):
         name = m.group(2).strip()
         institution = m.group(3).strip()
         role = m.group(4).strip()
-        add_person(persons, name, url, institution, f"Board {role}", str(path))
+        add_person(persons, name, url, institution, f"Board {role}", source_path(path, root))
 
 
-def parse_council(path: Path, persons: dict):
+def parse_council(path: Path, root: Path, persons: dict):
     text = path.read_text(encoding="utf-8", errors="ignore")
     pattern = re.compile(
         r"^\s*-\s*\[([^\]]+)\]\((https?://[^)]+)\)\s*\(([^)]+)\)\s*$",
@@ -186,7 +191,7 @@ def parse_council(path: Path, persons: dict):
             url.strip(),
             institution.strip(),
             "Council member",
-            str(path),
+            source_path(path, root),
         )
 
 
@@ -342,9 +347,9 @@ def main():
         "sources": set(),
     })
 
-    parse_wp_leaders(root / WP_LEADERS_FILE, persons)
-    parse_board(root / BOARD_FILE, persons)
-    parse_council(root / COUNCIL_FILE, persons)
+    parse_wp_leaders(root / WP_LEADERS_FILE, root, persons)
+    parse_board(root / BOARD_FILE, root, persons)
+    parse_council(root / COUNCIL_FILE, root, persons)
 
     if args.reset:
         reset_dirs(root)

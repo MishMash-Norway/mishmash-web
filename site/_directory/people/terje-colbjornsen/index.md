@@ -70,7 +70,7 @@ selected_works:
   year: '2022'
   source: Book chapter
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/terje-colbjornsen/
 redirect_from:

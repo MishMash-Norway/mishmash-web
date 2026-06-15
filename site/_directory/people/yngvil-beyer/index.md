@@ -65,7 +65,7 @@ selected_works:
   source: Book chapter
   url: https://doi.org/10.1007/978-3-031-06555-2_27
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/yngvil-beyer/
 redirect_from:

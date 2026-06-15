@@ -3,22 +3,22 @@ type: institution
 slug: uniarts-helsinki
 permalink: /institutions/uniarts-helsinki/
 redirect_from:
-  - /directory/institutions/uniarts-helsinki/
+- /directory/institutions/uniarts-helsinki/
 name: Uniarts Helsinki
 short_name: Uniarts
-image: /images/institutions/uniarts-helsinki.png
+image: /images/institutions/uniarts-helsinki.svg
 people:
-  - /people/heidi-partti/
+- /people/heidi-partti/
 projects: []
-country:
-city:
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary:
+summary: null
 ---
 

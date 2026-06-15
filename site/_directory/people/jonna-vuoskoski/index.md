@@ -86,7 +86,7 @@ selected_works:
   source: Journal article
   url: https://doi.org/10.1177/03057356241239336
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: I am Professor of Music Cognition at the Department of Musicology and the
   Department of Psychology (University of Oslo), and part of the leader group at the
   RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, where I lead

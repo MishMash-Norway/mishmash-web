@@ -66,7 +66,7 @@ selected_works:
   year: '2012'
   source: Conference lecture
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/board/index.md
+- about/organisation/board/index.md
 summary: null
 permalink: /people/sunniva-whittaker/
 redirect_from:

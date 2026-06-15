@@ -3,22 +3,22 @@ type: institution
 slug: screenstory
 permalink: /institutions/screenstory/
 redirect_from:
-  - /directory/institutions/screenstory/
+- /directory/institutions/screenstory/
 name: Screenstory
 short_name: Screenstory
-image: /images/institutions/screenstory.png
 people:
-  - /people/tommy-aase/
+- /people/tommy-aase/
 projects: []
-country:
-city:
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary:
+summary: null
+image: /images/institutions/screenstory.png
 ---
 

@@ -69,7 +69,7 @@ selected_works:
   source: Conference lecture
   url: https://dlfm.web.ox.ac.uk/2025-programme
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/olivier-lartillot/
 redirect_from:

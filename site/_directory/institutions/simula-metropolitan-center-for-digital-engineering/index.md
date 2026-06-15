@@ -3,26 +3,25 @@ type: institution
 slug: simula-metropolitan-center-for-digital-engineering
 permalink: /institutions/simula-metropolitan-center-for-digital-engineering/
 redirect_from:
-  - /directory/institutions/simula-metropolitan-center-for-digital-engineering/
+- /directory/institutions/simula-metropolitan-center-for-digital-engineering/
 name: Simula Metropolitan Center for Digital Engineering
 short_name: Simula
 image: /images/institutions/simula-metropolitan-center-for-digital-engineering.png
 people:
-  - baltasar-beferull-lozano
-  - sven-arne-reinemo
+- baltasar-beferull-lozano
+- sven-arne-reinemo
 projects: []
-country:
-city:
+country: null
+city: null
 urls:
-  website:
-  wikipedia:
+  website: null
+  wikipedia: null
 aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-  - /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-  - /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
-summary:
+- about/organisation/council/index.md
+- about/organisation/wp-leaders/index.md
+summary: null
 ---
-
 

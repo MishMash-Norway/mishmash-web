@@ -72,7 +72,7 @@ selected_works:
   source: Radio or TV
   url: https://radio.nrk.no/serie/spillerom-soendag/sesong/202010/MKRS01004320
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/arnulf-mattes/
 redirect_from:

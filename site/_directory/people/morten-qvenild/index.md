@@ -79,7 +79,7 @@ selected_works:
   year: '2023'
   source: Presentation
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/morten-qvenild/
 redirect_from:

@@ -66,7 +66,7 @@ selected_works:
   year: '2019'
   source: Lecture
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/irina-eidsvold-toien/
 redirect_from:

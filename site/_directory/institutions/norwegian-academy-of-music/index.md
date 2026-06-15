@@ -7,7 +7,7 @@ redirect_from:
 - /directory/institutions/norwegian-academy-of-music/
 name: Norwegian Academy of Music
 short_name: NMH
-image: /images/institutions/norwegian-academy-of-music.png
+image: /images/institutions/norwegian-academy-of-music.svg
 people:
 - felicity-baker
 - ivar-grydeland
@@ -29,8 +29,8 @@ aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/council/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 ---
 

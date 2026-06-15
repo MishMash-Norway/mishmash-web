@@ -70,7 +70,7 @@ selected_works:
   source: Design
   url: https://www.figma.com/community/file/1486019135013729331/openbridge-6-0-alert-case
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/kjetil-nordby/
 redirect_from:

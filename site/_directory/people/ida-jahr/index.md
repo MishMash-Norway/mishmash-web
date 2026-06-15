@@ -68,8 +68,8 @@ selected_works:
   source: Media podcast
   url: https://shows.acast.com/fts-podden/episodes/697896b3590ca8b771a9a373
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/management/index.md
-- /home/alexanje/github/mishmash-web/no/about/organisation/management/index.md
+- about/organisation/management/index.md
+- no/about/organisation/management/index.md
 summary: null
 permalink: /people/ida-jahr/
 redirect_from:

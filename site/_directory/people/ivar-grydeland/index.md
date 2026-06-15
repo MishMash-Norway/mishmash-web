@@ -72,7 +72,7 @@ selected_works:
   source: Research report
   url: https://doi.org/10.22501/nmh-ar.2255877
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/wp-leaders/index.md
+- about/organisation/wp-leaders/index.md
 summary: null
 permalink: /people/ivar-grydeland/
 redirect_from:

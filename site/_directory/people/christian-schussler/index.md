@@ -26,8 +26,8 @@ aliases: []
 tags: []
 search_keywords: []
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/board/index.md
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/board/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/christian-schussler/
 redirect_from:

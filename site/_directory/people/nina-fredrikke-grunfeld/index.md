@@ -83,7 +83,7 @@ selected_works:
   source: Presentation
   url: https://grunderfilm.no/news/f/body-my-life-in-parts
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: null
 permalink: /people/nina-fredrikke-grunfeld/
 redirect_from:

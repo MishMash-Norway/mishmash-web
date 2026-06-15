@@ -72,7 +72,7 @@ selected_works:
   source: Journal article
   url: https://link.springer.com/chapter/10.1007%2F978-3-030-16667-0_12
 source_mentions:
-- /home/alexanje/github/mishmash-web/about/organisation/council/index.md
+- about/organisation/council/index.md
 summary: Charles Martin is a specialist in percussion, computer music, and interactive
   media from Canberra, Australia. He links percussion with electroacoustic music and
   other media through new technologies. In 2016, Charles joined the Engineering Prediction

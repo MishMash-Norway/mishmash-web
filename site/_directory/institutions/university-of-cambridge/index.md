@@ -7,10 +7,10 @@ redirect_from:
 - /directory/institutions/university-of-cambridge/
 name: University of Cambridge
 short_name: Cambridge
-image: /images/institutions/university-of-cambridge.png
 people:
 - magda-osman
 projects:
 - when-creativity-meets-criticality
+image: /images/institutions/university-of-cambridge.svg
 ---
 
