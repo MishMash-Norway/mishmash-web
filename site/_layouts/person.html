@@ -79,7 +79,7 @@ layout: default
     {% endif %}
 
     {% assign person_slug_path = '/people/' | append: page.slug | append: '/' %}
-    {% include related-projects.html entity_path=person_slug_path project_slugs=page.projects heading_class="nva-results-group-title" %}
+    {% include related-projects.html entity_path=person_slug_path project_slugs=page.projects heading_class="nva-results-group-title" heading="MishMash Projects" %}
 
     {% if social_urls %}
     {% assign has_social_icons = false %}

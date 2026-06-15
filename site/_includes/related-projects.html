@@ -3,6 +3,7 @@
   include.entity_path  — e.g. /people/foo/ or /institutions/bar/
   include.project_slugs — optional explicit slugs from front matter (page.projects)
   include.section_class — optional section class (default: directory-related)
+  include.heading — optional section heading (default: Projects)
 {% endcomment %}
 {% assign entity_path = include.entity_path %}
 {% assign all_projects = site.directory | where: "type", "project" | where_exp: "project", "project.url != '/projects/'" %}
@@ -14,9 +15,10 @@
 {% endif %}
 {% assign related_projects = related_projects | sort: "title" %}
 {% assign section_class = include.section_class | default: "directory-related" %}
+{% assign projects_heading = include.heading | default: "Projects" %}
 {% if related_projects.size > 0 %}
 <section class="{{ section_class }}" aria-label="Related projects">
-  <h2{% if include.heading_class %} class="{{ include.heading_class }}"{% endif %}>Projects</h2>
+  <h2{% if include.heading_class %} class="{{ include.heading_class }}"{% endif %}>{{ projects_heading }}</h2>
   <ul>
     {% for project in related_projects %}
     <li>

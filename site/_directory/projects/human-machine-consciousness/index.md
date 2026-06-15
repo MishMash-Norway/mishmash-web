@@ -19,7 +19,7 @@ Primary WP: [WP1](/wp1/)
 
 ## People
 - Project leader: [Victoria Johnson](/people/victoria-johnson/)
-- Participants: [Oyvind Brandsegg](/people/oyvind-brandsegg/)
+- Participants: [Øyvind Brandtsegg](/people/oyvind-brandtsegg/)
 
 ## Institutions
 - Department of Musicology, [University of Oslo](/institutions/university-of-oslo/)

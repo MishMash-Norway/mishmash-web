@@ -62,7 +62,7 @@ This work package examines these transformations across four interconnected area
 
 {% include wp-directory-list.html wp="WP5" section="members" %}
 
-## Projects
+## MishMash Projects
 
 {% include wp-directory-list.html wp="WP5" section="projects" %}
 

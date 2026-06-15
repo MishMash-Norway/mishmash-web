@@ -57,7 +57,7 @@ This raises critical questions about cultural agency: Who decides what stories a
 
 {% include wp-directory-list.html wp="WP2" section="members" %}
 
-## Projects
+## MishMash Projects
 
 {% include wp-directory-list.html wp="WP2" section="projects" %}
 

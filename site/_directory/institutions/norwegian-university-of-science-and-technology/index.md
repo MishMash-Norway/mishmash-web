@@ -10,7 +10,7 @@ people:
   - andreas-bergsland
   - govert-valkenburg
   - /people/andreas-bergsland/
-  - /people/oyvind-brandsegg/
+  - /people/oyvind-brandtsegg/
 projects: []
 country:
 city:

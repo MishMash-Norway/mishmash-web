@@ -61,7 +61,7 @@ AIs developed in this WP will be limited by stricter boundaries than others—fr
 
 {% include wp-directory-list.html wp="WP7" section="members" %}
 
-## Projects
+## MishMash Projects
 
 {% include wp-directory-list.html wp="WP7" section="projects" %}
 

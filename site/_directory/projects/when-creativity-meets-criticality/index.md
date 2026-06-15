@@ -18,7 +18,7 @@ Primary WP: [WP7](/wp7/)
 2026–2026
 
 ## People
-- Project leader: [Bjorn Tallak Bakken](/people/bjorn-tallak-bakken/)
+- Project leader: [Bjørn Tallak Bakken](/people/bjorn-tallak-bakken/)
 - Participants: [Gerard Hodgkinson](/people/gerard-hodgkinson/), [Magda Osman](/people/magda-osman/), [Carsten Griwodz](/people/carsten-griwodz/)
 
 ## Institutions

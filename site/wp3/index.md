@@ -57,7 +57,7 @@ Ethical considerations are central to this WP, especially how AI can be used res
 
 {% include wp-directory-list.html wp="WP3" section="members" %}
 
-## Projects
+## MishMash Projects
 
 {% include wp-directory-list.html wp="WP3" section="projects" %}
 

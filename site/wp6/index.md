@@ -61,7 +61,7 @@ The public sector must lead in these technologies, ensuring that powerful new ca
 
 {% include wp-directory-list.html wp="WP6" section="members" %}
 
-## Projects
+## MishMash Projects
 
 {% include wp-directory-list.html wp="WP6" section="projects" %}
 

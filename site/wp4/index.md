@@ -57,7 +57,7 @@ The aim is to equip future practitioners and educators with the competence to na
 
 {% include wp-directory-list.html wp="WP4" section="members" %}
 
-## Projects
+## MishMash Projects
 
 {% include wp-directory-list.html wp="WP4" section="projects" %}
 

@@ -1,6 +1,6 @@
 ---
 type: person
-slug: oyvind-brandsegg
+slug: oyvind-brandtsegg
 name: Øyvind Brandtsegg
 title: Øyvind Brandtsegg
 position: Professor
@@ -77,8 +77,10 @@ selected_works:
   source: Lecture
 source_mentions: []
 summary: null
-permalink: /people/oyvind-brandsegg/
+permalink: /people/oyvind-brandtsegg/
 redirect_from:
+- /directory/people/oyvind-brandtsegg/
+- /people/oyvind-brandsegg/
 - /directory/people/oyvind-brandsegg/
 ---
 
