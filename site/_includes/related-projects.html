@@ -18,7 +18,7 @@
   <ul>
     {% for project in related_projects %}
     <li>
-      <a href="{{ project.url | relative_url }}">{{ project.title | default: project.name | default: project.slug }}</a>{% include project-wp-labels.html project=project %}
+      <a href="{{ project.url | relative_url }}">{{ project.title | default: project.name | default: project.slug }}</a>
     </li>
     {% endfor %}
   </ul>
