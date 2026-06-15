@@ -1,23 +1,34 @@
 {% assign loc = site.data.institution_locations[include.slug] %}
 {% if loc %}
-<figure class="institution-map" role="img" aria-label="{% if loc.in_norway %}Location in Norway: {{ loc.label }}{% else %}Norway map — international partner{% endif %}">
+{% if loc.in_norway %}
+{% assign map_image = '/assets/images/maps/norway-outline.png' %}
+{% assign map_width = 300 %}
+{% assign map_height = 373 %}
+{% assign map_label = loc.label %}
+{% assign map_aria = 'Location in Norway: ' | append: loc.label %}
+{% else %}
+{% assign map_image = '/assets/images/maps/world-outline.png' %}
+{% assign map_width = 300 %}
+{% assign map_height = 150 %}
+{% assign map_label = loc.label %}
+{% assign map_aria = 'International location: ' | append: loc.label %}
+{% endif %}
+<figure class="institution-map{% unless loc.in_norway %} institution-map--world{% endunless %}" role="img" aria-label="{{ map_aria }}">
   <div class="institution-map-canvas">
     <img
       class="institution-map-image"
-      src="{{ '/assets/images/maps/norway-outline.png' | relative_url }}"
+      src="{{ map_image | relative_url }}"
       alt=""
-      width="300"
-      height="373"
+      width="{{ map_width }}"
+      height="{{ map_height }}"
       aria-hidden="true">
-    {% if loc.in_norway and loc.x and loc.y %}
+    {% if loc.x and loc.y %}
     <span class="institution-map-marker-ring" style="left: {{ loc.x }}%; top: {{ loc.y }}%;"></span>
     <span class="institution-map-marker" style="left: {{ loc.x }}%; top: {{ loc.y }}%;"></span>
     {% endif %}
   </div>
-  {% if loc.in_norway and loc.label %}
-  <figcaption class="institution-map-label">{{ loc.label }}</figcaption>
-  {% elsif loc.in_norway == false %}
-  <figcaption class="institution-map-label">International partner</figcaption>
+  {% if map_label %}
+  <figcaption class="institution-map-label">{{ map_label }}</figcaption>
   {% endif %}
 </figure>
 {% endif %}

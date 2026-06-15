@@ -411,19 +411,24 @@ a:focus-visible .icon {
   margin-top: 2rem;
 }
 
-.institution-page::after {
-  content: "";
-  display: table;
-  clear: both;
+.institution-page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 0 1.5rem;
+  align-items: start;
 }
 
 .institution-map {
-  float: right;
-  margin: 0 0 1.5rem 1.5rem;
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: end;
+  margin: 0;
   width: 300px;
 }
 
 .institution-body {
+  grid-column: 1;
+  grid-row: 1;
   min-width: 0;
 }
 
@@ -475,6 +480,23 @@ a:focus-visible .icon {
   line-height: 1.2;
   text-align: center;
   color: #667;
+}
+
+@media screen and (max-width: 720px) {
+  .institution-page {
+    grid-template-columns: 1fr;
+  }
+
+  .institution-map {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: end;
+    margin-bottom: 1rem;
+  }
+
+  .institution-body {
+    grid-row: 2;
+  }
 }
 
 .institution-people,

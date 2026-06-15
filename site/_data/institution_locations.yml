@@ -167,22 +167,43 @@ western-norway-university-of-applied-sciences:
   in_norway: true
 
 australian-national-university:
+  x: 91.4
+  y: 69.6
+  label: Canberra
   in_norway: false
 
 university-of-cambridge:
+  x: 50.0
+  y: 21.0
+  label: Cambridge
   in_norway: false
 
 university-of-iceland:
+  x: 43.9
+  y: 14.4
+  label: Reykjavik
   in_norway: false
 
 university-of-manchester:
+  x: 49.4
+  y: 20.3
+  label: Manchester
   in_norway: false
 
 university-of-melbourne:
+  x: 90.3
+  y: 71.0
+  label: Melbourne
   in_norway: false
 
 uniarts-helsinki:
+  x: 56.9
+  y: 16.6
+  label: Helsinki
   in_norway: false
 
 motioncomposer-gmbh:
+  x: 53.4
+  y: 23.4
+  label: Rosenheim
   in_norway: false
