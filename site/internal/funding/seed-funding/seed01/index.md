@@ -47,40 +47,40 @@ Please keep in mind that there will be new opportunities coming up at regular in
 
 | Project | Applicant | Institution | Funding |
 |---------|-----------|--------|-----|
-|Trondheim Kreativ AI (TKAI) |Viggo Tellefsen Wivestad |SINTEF |15000 |
-|Archival Intelligence |Budhaditya Chattopadhyay |UiB |30000 |
+|[Trondheim Kreativ AI (TKAI)](/projects/trondheim-kreativ-ai/) |Viggo Tellefsen Wivestad |SINTEF |15000 |
+|[Archival Intelligence](/projects/archival-intelligence/) |Budhaditya Chattopadhyay |UiB |30000 |
 |Listening Without a Grid: AI, Aesthetic Judgement and Mixing/Mastering in Acoustic Ensemble Music |Ole Fredrik Norbye |NLA University College |0 |
-|AI Integration in Film and TV Education |Sigmund Trageton |UiS |14000 |
+|[AI Integration in Film and TV Education](/projects/ai-integration-film-tv-education/) |Sigmund Trageton |UiS |14000 |
 |Picturemarks |Ole Goethe |Kristiania |0 |
 |Steerable AI Systems for Real-Time Brain-Computer Interfaces: fNIRS_to_Live |Juan Sebastián Vassallo |independent |0 |
-|RhyGlyph to RhyDiff to RhySeq: A radial trajectory-based rhythm sequencer |Cagri Erdem |UiO |31900 |
+|[RhyGlyph to RhyDiff to RhySeq: A radial trajectory-based rhythm sequencer](/projects/rhyglyph-rhydiff-rhyseq/) |Cagri Erdem |UiO |31900 |
 |Multi-modal Emotion Recognition |Ali Ramezani-Kebrya |UiO |0 |
-|Intensifying the brain pleasure responses to music that is adapted by AI in real-time |Sascha Frühholz |UiO |49940 |
+|[Intensifying the brain pleasure responses to music that is adapted by AI in real-time](/projects/intensifying-brain-pleasure-responses-music/) |Sascha Frühholz |UiO |49940 |
 |Speculative AI for Sound Synthesis |David Pirrò |Institute of Electronic Music and Acoustics |0 |
-|AI-Assisted Film Production through Vita Vigeland |Henning Birkeland |Kristiania |30000 |
+|[AI-Assisted Film Production through Vita Vigeland](/projects/ai-assisted-film-production-vita-vigeland/) |Henning Birkeland |Kristiania |30000 |
 |Exploring AI Integration in Media Production: Visual Effects, 3D and Digital Content Creation |Henning Birkeland |Kristiania |0 |
 |Human–AI Co-Creation of Precision Physical Adapters |Colin R. Robinson |UiB |0 |
-|Human–Machine Consciousness: A Performer-Centred Exploration of Real-Time AI in Musical Practice |Victoria Johnson |UiO |30000 |
-|When Creativity Meets Criticality |Bjørn Tallak Bakken |INN/HHS/OLS |50000 |
-|Scoping review of Creative AI in teaching and learning |Sidsel Karlsen |NMH |22500 |
-|Bingo: AI-Assisted Animation for Documentary Film |Tonje Louise Finne |INN |50000 |
+|[Human–Machine Consciousness: A Performer-Centred Exploration of Real-Time AI in Musical Practice](/projects/human-machine-consciousness/) |Victoria Johnson |UiO |30000 |
+|[When Creativity Meets Criticality](/projects/when-creativity-meets-criticality/) |Bjørn Tallak Bakken |INN/HHS/OLS |50000 |
+|[Scoping review of Creative AI in teaching and learning](/projects/scoping-review-creative-ai-teaching-learning/) |Sidsel Karlsen |NMH |22500 |
+|[Bingo: AI-Assisted Animation for Documentary Film](/projects/bingo-ai-assisted-animation-documentary-film/) |Tonje Louise Finne |INN |50000 |
 |A New Grammar Of CreAItivity |Zacharias Andreadakis |HVL |0 |
-|Evaluation of Cultural Bias and Workflow in AI Music Generation |Shayan Dadman |UiT |50000 |
-|"Tool for tools" |Troels Linde |INN |32000 |
-|KI i kunstnerisk utdanning og praksis. |Tiril Schrøder |Kunsthøgskolen i Oslo |30000 |
+|[Evaluation of Cultural Bias and Workflow in AI Music Generation](/projects/evaluation-cultural-bias-workflow-ai-music-generation/) |Shayan Dadman |UiT |50000 |
+|[Tool for tools](/projects/tool-for-tools/) |Troels Linde |INN |32000 |
+|[KI i kunstnerisk utdanning og praksis.](/projects/ki-i-kunstnerisk-utdanning-og-praksis/) |Tiril Schrøder |Kunsthøgskolen i Oslo |30000 |
 |Web of the Mind |Dániel Péter Biró |UiB |0 |
-|Strategic Storyteller |Terje Gaustad |Kristiania |25000 |
-|Copyright and Personality Rights in the AI Era |Irina Eidsvold -Tøien |BI |50000 |
-|Musical Doppelgängers: Self-Playing Pianos, AI, and the Uncanny Self |Peter Edwards |UiO |50000 |
-|Environmental sustainability in MishMash: context and knowledge-base |Lina Plataniti |NORSUS |50000 |
+|[Strategic Storyteller](/projects/strategic-storyteller/) |Terje Gaustad |Kristiania |25000 |
+|[Copyright and Personality Rights in the AI Era](/projects/copyright-and-personality-rights-ai-era/) |Irina Eidsvold -Tøien |BI |50000 |
+|[Musical Doppelgängers: Self-Playing Pianos, AI, and the Uncanny Self](/projects/musical-doppelgangers/) |Peter Edwards |UiO |50000 |
+|[Environmental sustainability in MishMash: context and knowledge-base](/projects/environmental-sustainability-mishmash/) |Lina Plataniti |NORSUS |50000 |
 |AI as the Fifth Team Member |Jannicke Johansen |Kristiania |0 |
-|AI as Environment |Synne Tollerud Bull |Kristiania |37000 |
+|[AI as Environment](/projects/ai-as-environment/) |Synne Tollerud Bull |Kristiania |37000 |
 |NB's Hardanger fiddle performance transcription AI model |Olivier Lartillot |UiO |0 |
 |Design for Dissemination |Aedan Soellaart |INN |0 |
-|Movement-to-Music Hackathon: AI Pose Detection for Therapeutic and Wellbeing Applications |Andreas Bergsland |NTNU |45000 |
-|Teacher Resources for Critical AI Literacy |Eirik Sørbø |UiA |36800 |
-|Interactive AI-driven book experiences |Eirik Sørbø |UiA |25000 |
-|TAO - Transductive Acoustic Organism |enrique encinas |AHO |25000 |
+|[Movement-to-Music Hackathon: AI Pose Detection for Therapeutic and Wellbeing Applications](/projects/movement-to-music-hackathon/) |Andreas Bergsland |NTNU |45000 |
+|[Teacher Resources for Critical AI Literacy](/projects/teacher-resources-critical-ai-literacy/) |Eirik Sørbø |UiA |36800 |
+|[Interactive AI-driven book experiences](/projects/interactive-ai-driven-book-experiences/) |Eirik Sørbø |UiA |25000 |
+|[TAO - Transductive Acoustic Organism](/projects/tao-transductive-acoustic-organism/) |enrique encinas |AHO |25000 |
 |Composition using text-sound-video multimodal machine learning |Zoi Efstathiou |NMH |0 |
 |Cinema Syntethica Lab 4.0 - Co-creating film with AI |Hanne-Lovise Skartveit |INN |0 |
 
