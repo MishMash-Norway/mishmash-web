@@ -39,7 +39,7 @@ Primary WP: [WP4](/wp4/)
 
 ## People
 - Project leader: [Sidsel Karlsen](/people/sidsel-karlsen/)
-- Participants: [Bjørn Tallak Bakken](/people/bjorn-tallak-bakken/), [Eirik Sorbo](/people/eirik-sorbo/), [Fredrik Graver](/people/fredrik-graver/), [Ida Jahr](/people/ida-jahr/), [Jens Knigge](/people/jens-knigge/), [Øystein Skaar](/people/oystein-skaar/)
+- Participants: [Bjørn Tallak Bakken](/people/bjorn-tallak-bakken/), [Eirik Sørbø](/people/eirik-sorbo/), [Fredrik Graver](/people/fredrik-graver/), [Ida Jahr](/people/ida-jahr/), [Jens Knigge](/people/jens-knigge/), [Øystein Skaar](/people/oystein-skaar/)
 
 ## Institutions
 - [Norwegian Academy of Music](/institutions/norwegian-academy-of-music/)

@@ -38,7 +38,7 @@ Primary WP: [WP4](/wp4/)
 2026–2026
 
 ## People
-- Project leader: [Eirik Sorbo](/people/eirik-sorbo/)
+- Project leader: [Eirik Sørbø](/people/eirik-sorbo/)
 - Participants: [Bente Aasheim](/people/bente-aasheim/), [Sashi Komandur](/people/sashi-komandur/), [Fredrik Graver](/people/fredrik-graver/), [Sidsel Karlsen](/people/sidsel-karlsen/), [Jason Nelson](/people/jason-nelson/)
 
 ## Institutions

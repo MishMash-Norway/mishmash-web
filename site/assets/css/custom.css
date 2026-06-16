@@ -450,7 +450,7 @@ a:focus-visible .icon {
   margin: 0 0 1.25rem;
 }
 
-.institution-wikipedia-link {
+.institution-intro .institution-links {
   margin: 0.75rem 0 0;
   font-size: 0.95rem;
 }
@@ -519,13 +519,12 @@ a:focus-visible .icon {
   margin-top: 2rem;
 }
 
-.institution-links {
-  margin: 0;
-  font-size: 1rem;
-}
-
 .institution-link {
   color: #555;
+}
+
+.institution-links-sep {
+  color: #999;
 }
 
 .directory-related {
