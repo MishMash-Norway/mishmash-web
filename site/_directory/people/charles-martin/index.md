@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: charles-martin
 name: Charles Martin
@@ -79,6 +78,7 @@ summary: Charles Martin is a specialist in percussion, computer music, and inter
   other media through new technologies. In 2016, Charles joined the Engineering Prediction
   and Embodied Cognition (EPEC) project at the University of Oslo, where he is developing
   new ways to predict musical intentions and performances in smartphone apps.
+layout: person
 permalink: /people/charles-martin/
 redirect_from:
 - /directory/people/charles-martin/

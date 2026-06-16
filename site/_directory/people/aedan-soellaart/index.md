@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: aedan-soellaart
 name: Aedan Soellaart
@@ -41,6 +40,7 @@ selected_works:
   url: https://doi.org/10.1007/978-3-031-61041-7_17
 source_mentions: []
 summary: null
+layout: person
 permalink: /people/aedan-soellaart/
 redirect_from:
 - /directory/people/aedan-soellaart/
