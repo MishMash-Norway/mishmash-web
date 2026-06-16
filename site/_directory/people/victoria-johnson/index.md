@@ -5,6 +5,7 @@ name: Victoria Johnson
 title: Victoria Johnson
 position: Research fellow
 department: Fagseksjon for strykere
+image: /assets/images/portraits/Victoria_Johnson_NMH.jpg
 institution: norwegian-academy-of-music
 institutions:
 - barratt-due-institute-of-music
@@ -26,7 +27,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://victoriajohnson.no/
   github: ''
   linkedin: ''
   orcid: ''

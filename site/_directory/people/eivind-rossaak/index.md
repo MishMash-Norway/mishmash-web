@@ -15,7 +15,7 @@ roles:
 - Member
 urls:
   personal_website: https://nb.academia.edu/EivindRøssaak
-  institutional_website: ''
+  institutional_website: https://nb.academia.edu/EivindRøssaak
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-6499-4185

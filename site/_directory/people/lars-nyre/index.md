@@ -15,7 +15,7 @@ roles:
 - Member
 urls:
   personal_website: http://www.larsnyre.com
-  institutional_website: ''
+  institutional_website: http://www.larsnyre.com
   github: ''
   linkedin: ''
   orcid: ''

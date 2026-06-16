@@ -18,7 +18,7 @@ roles:
 - Council member
 urls:
   personal_website: https://grunderfilm.no
-  institutional_website: ''
+  institutional_website: https://grunderfilm.no
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0000-9450-3108

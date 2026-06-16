@@ -16,7 +16,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.henningb.com/
-  institutional_website: ''
+  institutional_website: https://www.henningb.com/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0006-4668-4585

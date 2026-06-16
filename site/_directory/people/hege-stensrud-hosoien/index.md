@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: hege-stensrud-hosoien
 name: Hege Stensrud Høsøien
@@ -30,6 +29,7 @@ selected_works: []
 source_mentions:
 - about/organisation/board/index.md
 summary: null
+layout: person
 permalink: /people/hege-stensrud-hosoien/
 redirect_from:
 - /directory/people/hege-stensrud-hosoien/

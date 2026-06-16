@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: http://www.peteredwards.no
-  institutional_website: ''
+  institutional_website: http://www.peteredwards.no
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0002-7586-5597

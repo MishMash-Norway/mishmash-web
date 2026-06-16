@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: anders-tveit
 name: Anders Tveit
@@ -52,6 +51,7 @@ selected_works:
   source: Music performance
 source_mentions: []
 summary: null
+layout: person
 permalink: /people/anders-tveit/
 redirect_from:
 - /directory/people/anders-tveit/

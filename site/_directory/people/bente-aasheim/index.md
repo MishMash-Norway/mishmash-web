@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: bente-aasheim
 name: Bente Aasheim
@@ -35,6 +34,7 @@ selected_works:
   url: https://doi.org/10.2196/28680
 source_mentions: []
 summary: null
+layout: person
 permalink: /people/bente-aasheim/
 redirect_from:
 - /directory/people/bente-aasheim/
