@@ -9,7 +9,6 @@ short_name: ANU
 image: /images/institutions/australian-national-university.svg
 people:
 - charles-martin
-- /people/felicity-baker/
 projects: []
 country: null
 city: null

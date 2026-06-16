@@ -22,23 +22,24 @@ layout: default
           <h1>{{ page_heading }}</h1>
           {% assign institution_website = page.urls.website %}
           {% assign institution_wikipedia = page.urls.wikipedia %}
-          {% if institution_website and institution_website != '' or institution_wikipedia and institution_wikipedia != '' %}
+          {% if institution_website and institution_website != '' %}
+          {% assign institution_website_label = institution_website | replace: 'https://', '' | replace: 'http://', '' | replace: 'www.', '' | split: '/' | first %}
           <p class="institution-links">
-            {% if institution_website and institution_website != '' %}
-            {% assign institution_website_label = institution_website | replace: 'https://', '' | replace: 'http://', '' | replace: 'www.', '' | split: '/' | first %}
             <a class="institution-link institution-link-website" href="{{ institution_website }}" target="_blank" rel="noopener noreferrer">{{ institution_website_label }}</a>
-            {% endif %}
-            {% if institution_website and institution_website != '' and institution_wikipedia and institution_wikipedia != '' %}
-            <span class="institution-links-sep" aria-hidden="true"> · </span>
-            {% endif %}
-            {% if institution_wikipedia and institution_wikipedia != '' %}
-            <a class="institution-link institution-link-wikipedia" href="{{ institution_wikipedia }}" target="_blank" rel="noopener noreferrer">Wikipedia</a>
-            {% endif %}
           </p>
           {% endif %}
         </header>
-        {% if page.summary and page.summary != '' %}
-        <p class="institution-summary">{{ page.summary }}</p>
+        {% if page.summary and page.summary != '' or institution_wikipedia and institution_wikipedia != '' %}
+        <div class="institution-intro">
+          {% if page.summary and page.summary != '' %}
+          <p class="institution-summary">{{ page.summary }}</p>
+          {% endif %}
+          {% if institution_wikipedia and institution_wikipedia != '' %}
+          <p class="institution-wikipedia-link">
+            <a class="institution-link institution-link-wikipedia" href="{{ institution_wikipedia }}" target="_blank" rel="noopener noreferrer">More on Wikipedia...</a>
+          </p>
+          {% endif %}
+        </div>
         {% endif %}
     {% else %}
     <h1>{{ page_heading }}</h1>

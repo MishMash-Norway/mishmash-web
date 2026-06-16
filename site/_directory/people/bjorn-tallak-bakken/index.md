@@ -17,6 +17,7 @@ nva_affiliations:
   unit: Department of Organisation, Leadership and Management
   institution: inland-norway-university-of-applied-sciences
 projects:
+- scoping-review-creative-ai-teaching-learning
 - when-creativity-meets-criticality
 roles:
 - Member

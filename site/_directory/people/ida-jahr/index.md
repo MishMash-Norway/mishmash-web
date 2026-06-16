@@ -10,6 +10,7 @@ institution: inland-norway-university-of-applied-sciences
 institutions:
 - inland-norway-university-of-applied-sciences
 projects:
+- scoping-review-creative-ai-teaching-learning
 - tao-transductive-acoustic-organism
 roles:
 - Deputy director

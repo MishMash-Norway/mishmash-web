@@ -9,9 +9,8 @@ short_name: NORD
 image: /images/institutions/nord-university.png
 people:
 - bjorn-tallak-bakken
+- jens-knigge
 - troels-linde
-- /people/bjorn-tallak-bakken/
-- /people/troels-linde/
 projects: []
 country: null
 city: null

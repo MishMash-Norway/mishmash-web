@@ -16,6 +16,7 @@ people:
 - nina-fredrikke-grunfeld
 - ole-christian-solbakken
 - ole-christoffer-haga
+- oystein-skaar
 - sashi-komandur
 - tonje-louise-finne
 - troels-linde
