@@ -31,37 +31,77 @@ selected_works:
 - title: Skuespillerpodden
   year: '2023'
   source: Performing arts
+  contributors:
+  - name: Øystein Stene
+    slug: oystein-stene
+    url: /people/oystein-stene/
 - title: Transmania
   year: '2019'
   source: Feature article
+  contributors:
+  - name: Øystein Stene
+    slug: oystein-stene
+    url: /people/oystein-stene/
 - title: Feighet og mangel på solidaritet er kjipt for kunstnere. Men et langt større
     problem for demokratiet
   year: '2019'
   source: Feature article
+  contributors:
+  - name: Øystein Stene
+    slug: oystein-stene
+    url: /people/oystein-stene/
 - title: De opplyste (lydbok)
   year: '2018'
   source: Literary arts
+  contributors:
+  - name: Øystein Stene
+    slug: oystein-stene
+    url: /people/oystein-stene/
 - title: 'Skriver og spiller del 2: Konseptutvikling'
   year: '2018'
   source: Working paper
+  contributors:
+  - name: Øystein Stene
+    slug: oystein-stene
+    url: /people/oystein-stene/
 - title: Jeg har sendt varsel om meg selv
   year: '2018'
   source: Feature article
+  contributors:
+  - name: Øystein Stene
+    slug: oystein-stene
+    url: /people/oystein-stene/
 - title: Jeg drømmer om en humanistisk, demokratisk og mangfoldig feminisme
   year: '2018'
   source: Feature article
+  contributors:
+  - name: Øystein Stene
+    slug: oystein-stene
+    url: /people/oystein-stene/
 - title: Jeg mot eliten
   year: '2018'
   source: Feature article
   url: https://www.aftenposten.no/kultur/i/21zeva/Jeg-mot-eliten
+  contributors:
+  - name: Øystein Stene
+    slug: oystein-stene
+    url: /people/oystein-stene/
 - title: Frykter vaksine mot religiøs tro
   year: '2018'
   source: Interview
   url: https://reportasje.vl.no/artikkel/355-frykter-vaksine-mot-religios-tro
+  contributors:
+  - name: Øystein Stene
+    slug: oystein-stene
+    url: /people/oystein-stene/
 - title: 'Jeg kjenner et dypt ubehag ved den autoritære tonen og massementaliteten
     i #metoo-bevegelsen'
   year: '2018'
   source: Feature article
+  contributors:
+  - name: Øystein Stene
+    slug: oystein-stene
+    url: /people/oystein-stene/
 source_mentions: []
 summary: "Øystein Stene er forfatter, dramatiker og regissør. Hovedfag i litteraturvitenskap\
   \ fra Universitet i Bergen 2000.\r\n\r\nStene har skrevet og regissert flere filmer\

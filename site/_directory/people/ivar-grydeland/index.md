@@ -39,38 +39,109 @@ selected_works:
   year: '2026'
   source: Book chapter
   url: https://www.routledge.com/Innovation-in-Music-Innovative-Creative-Practice/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757834
+  contributors:
+  - name: Ragnhild Brøvig
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
 - title: Ivar Grydeland - Bøyning, brytning
   year: '2025'
   source: Music performance
+  contributors:
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
 - title: Love Your Latency, September 2024
   year: '2024'
   source: Music performance
+  contributors:
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
+  - name: Michael Francis Duch
+  - name: Jan Bang
+  - name: Torben Snekkestad
+  - name: Lene Grenager
+  - name: Michaela Antalová
+  - name: Michaela Antalová
+  - name: Bjørnar Habbestad
+  - name: Hild Sofie Tafjord
 - title: Love your Latency – harmonizing from afar
   year: '2024'
   source: Conference lecture
+  contributors:
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
+  - name: Michael Francis Duch
 - title: Love your Latency and the Glitching Spatiotemporal Condition
   year: '2024'
   source: Conference lecture
+  contributors:
+  - name: Ragnhild Brøvig
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
 - title: Blikk på øyeblikket – eksempler på ulike arbeidsmetoder hos improviserende
     musikere
   year: '2024'
   source: Book chapter
   url: https://doi.org/10.55669/oa491103
+  contributors:
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
 - title: Goodbye Intuition
   year: '2020'
   source: Professional article
   url: https://doi.org/10.22501/NMH-AR.974962
+  contributors:
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
+  - name: Morten Qvenild
+    slug: morten-qvenild
+    url: /people/morten-qvenild/
+  - name: Sidsel Endresen
+  - name: Andrea Neumann
+  - name: Henrik Frisk
+  - name: David Toop
+  - name: Anna Lindal
+  - name: Lasse Marhaug
 - title: OMRÅDE 51 — Morten Qvenild og Frode Grytten
   year: '2019'
   source: Music performance
   url: https://www.mortyq.com/omrade51
+  contributors:
+  - name: Morten Qvenild
+    slug: morten-qvenild
+    url: /people/morten-qvenild/
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
+  - name: Frode Grytten
 - title: Dans les arbres - Phosphoresence
   year: '2017'
   source: Music performance
+  contributors:
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
+  - name: Xavier Charles
+  - name: Ingar Zach
+  - name: Christian Wallumrød
 - title: Ensemble and Ensemble of Me. What I think about when I think about improvisation
   year: '2016'
   source: Research report
   url: https://doi.org/10.22501/nmh-ar.2255877
+  contributors:
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

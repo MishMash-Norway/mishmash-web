@@ -4,7 +4,7 @@ slug: jostein-gundersen
 name: Jostein Gundersen
 title: Jostein Gundersen
 position: Associate professor
-department: The Grieg Academy &#8211; Department of Music
+department: Faculty of Fine Art, Music and Design
 institution: university-of-bergen
 institutions:
 - university-of-bergen
@@ -34,21 +34,51 @@ selected_works:
   year: '2025'
   source: Lecture
   url: https://www.researchcatalogue.net/view/2421554/3524484
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Morten Qvenild
+    slug: morten-qvenild
+    url: /people/morten-qvenild/
+  - name: Jostein Gundersen
+    slug: jostein-gundersen
+    url: /people/jostein-gundersen/
+  - name: Linda Herfindal Lien
 - title: Samspill mellom høyere musikkutdanning og kunstnerisk utviklingsarbeid
   year: '2021'
   source: Non-fiction chapter
+  contributors:
+  - name: Ingfrid Breie Nyhus
+  - name: Jostein Gundersen
+    slug: jostein-gundersen
+    url: /people/jostein-gundersen/
 - title: Mouvance. Approaches to re-enacting medieval music.
   year: '2020'
   source: Journal article
   url: https://doi.org/10.22501/vis.635886
+  contributors:
+  - name: Jostein Gundersen
+    slug: jostein-gundersen
+    url: /people/jostein-gundersen/
+  - name: Alwynne Pritchard
+  - name: Ruben Sverre Gjertsen
 - title: Improvisasjon. Diminusjonspraksis fra 1350 til 1700
   year: '2010'
   source: PhD thesis
   url: http://www.uib.no/info/dr_grad/2010/Gundersen_Jostein.html
+  contributors:
+  - name: Jostein Gundersen
+    slug: jostein-gundersen
+    url: /people/jostein-gundersen/
 - title: Improvisasjon over flerstemt musikk fra 1350-1700
   year: '2009'
   source: PhD thesis
   url: http://www.uib.no/info/dr_grad/2009/Gundersen_Jostein.html
+  contributors:
+  - name: Jostein Gundersen
+    slug: jostein-gundersen
+    url: /people/jostein-gundersen/
 source_mentions:
 - about/organisation/council/index.md
 summary: null

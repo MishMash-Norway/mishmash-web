@@ -4,12 +4,11 @@ slug: henning-birkeland
 name: Henning Birkeland
 title: Henning Birkeland
 position: University college lecturer
-department: Westerdals Department of Film and Media
+department: School of Arts, Design, and Media
+image: /assets/images/portraits/Henning_Birkeland_KriUni.png
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college
-wps:
-- WP2
 projects:
 - ai-assisted-film-production-vita-vigeland
 - bingo-ai-assisted-animation-documentary-film
@@ -20,12 +19,12 @@ urls:
   institutional_website: https://www.henningb.com/
   github: ''
   linkedin: https://www.linkedin.com/in/henningb/
+  orcid: https://orcid.org/0009-0006-4668-4585
+  nva: https://nva.sikt.no/research-profile/1355592
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/henningbirkeland/
-  orcid: https://orcid.org/0009-0006-4668-4585
-  nva: https://nva.sikt.no/research-profile/1355592
 aliases: []
 tags:
 - Astrophysics
@@ -36,14 +35,6 @@ tags:
 - 3D Printing
 - Visualization
 - Design
-- GenerativeVideo
-- 3D
-- ImageToVideo
-- CinematicAI
-- AICreativeControl
-- ImageTo3D
-- MeshGeneration
-- VideoToVideo
 search_keywords:
 - Astrophysics
 - 3d modelling
@@ -53,47 +44,91 @@ search_keywords:
 - 3D Printing
 - Visualization
 - Design
-- GenerativeVideo
-- 3D
-- ImageToVideo
-- CinematicAI
-- AICreativeControl
-- ImageTo3D
-- MeshGeneration
-- VideoToVideo
 selected_works:
 - title: MishMash Opening Video Projection Installation
   year: '2026'
   source: Visual arts
+  contributors:
+  - name: Marie Dahlén
+  - name: Rafal Hanzl
+  - name: Henning Birkeland
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
+  - name: Jannicke Johansen
 - title: Ctrl-AI
   year: '2025'
   source: Lecture
+  contributors:
+  - name: Ivar Kjellmo
+  - name: Henning Birkeland
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
 - title: Artificial Intelligence - Generative AI
   year: '2025'
   source: Lecture
+  contributors:
+  - name: Henning Birkeland
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
 - title: '3D-grafikk: Fra geometri til realisme'
   year: '2024'
   source: Textbook
+  contributors:
+  - name: Sigbjørn Galåen
+  - name: Henning Birkeland
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
+  - name: Ivar Kjellmo
 - title: Hvordan lager 3D-grafikere scener til spill og film?
   year: '2024'
   source: Popular science article
   url: https://www.forskersonen.no/design-film-meninger/hvordan-lager-3d-grafikere-scener-til-spill-og-film/2315134
+  contributors:
+  - name: Sigbjørn Galåen
+  - name: Henning Birkeland
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
 - title: The impact of AI – how will  it affect the industry and the  education of
     visual and 3D arts?
   year: '2024'
   source: Conference lecture
+  contributors:
+  - name: Sigbjørn Galåen
+  - name: Henning Birkeland
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
 - title: Artificial Intelligence, Generative AI
   year: '2024'
   source: Lecture
+  contributors:
+  - name: Henning Birkeland
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
 - title: Teaching Computer Graphics - A Structured Learning-By-Doing Approach
   year: '2023'
   source: Conference lecture
+  contributors:
+  - name: Sigbjørn Galåen
+  - name: Henning Birkeland
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
+  - name: Ivar Kjellmo
 - title: Hvordan vil AI prege 3D-grafikk?
   year: '2023'
   source: Conference lecture
+  contributors:
+  - name: Henning Birkeland
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
+  - name: Sigbjørn Galåen
 - title: Slik blir fremtiden i 3D-grafikk for spill, film og visualisering
   year: '2022'
   source: Professional article
+  contributors:
+  - name: Henning Birkeland
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
+  - name: Sigbjørn Galåen
 source_mentions: []
 summary: 'Henning Birkeland is a college teacher at Westerdals - Kristiania University
   College and teaches 3D-graphics and visual effects. Henning was involved in developing
@@ -103,10 +138,11 @@ summary: 'Henning Birkeland is a college teacher at Westerdals - Kristiania Univ
 
   Henning also has long experience as a freelancer in the 3D-industry in visualization,
   advertising and animation film'
+wps:
+- WP2
 permalink: /people/henning-birkeland/
 redirect_from:
 - /directory/people/henning-birkeland/
-image: /assets/images/portraits/Henning_Birkeland_KriUni.png
 ---
 
 Bio coming soon.

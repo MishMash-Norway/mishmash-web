@@ -183,9 +183,9 @@ layout: default
         {% endif %}
         {% assign card_id = 'abstract-person-' | append: page.slug | append: '-' | append: forloop.index %}
         {% if matched_result %}
-          {% include nva-result-card.html result=matched_result card_id=card_id %}
+          {% include nva-result-card.html result=matched_result card_id=card_id fallback_name=page.name fallback_url=page.url %}
         {% else %}
-          {% include nva-result-card.html work=work card_id=card_id %}
+          {% include nva-result-card.html work=work card_id=card_id fallback_name=page.name fallback_url=page.url %}
         {% endif %}
         {% endfor %}
       </ol>

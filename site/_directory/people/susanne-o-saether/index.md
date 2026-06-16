@@ -31,36 +31,94 @@ selected_works:
   year: '2026'
   source: Book chapter
   url: https://doi.org/10.4324/9781003478805
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Liv Hausken
+  - name: Jørgen Alnæs
+  - name: Susanne Østby Sæther
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
 - title: Media Seas and the Blue Humanities Studies of the High North Atlantic
   year: '2026'
   source: Book anthology
   url: https://doi.org/10.4324/9781003478805
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Liv Hausken
+  - name: Susanne Østby Sæther
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
+  - name: Jørgen Alnæs
 - title: 'Fotoboksamtale: Tom Sandberg & co'
   year: '2026'
   source: Presentation
+  contributors:
+  - name: Thale Elisabeth Sørlie
+  - name: Harald Østgaard Lund
+  - name: Susanne Østby Sæther
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
 - title: The Atlantic Ocean
   year: '2024'
   source: Non-fiction book
+  contributors:
+  - name: Susanne Østby Sæther
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
+  - name: Stefanie Hessler
+  - name: Knut Ljøgodt
 - title: Screen Space Reconfigured
   year: '2020'
   source: Book anthology
   url: https://doi.org/10.2307/j.ctv12pnt9c
+  contributors:
+  - name: Susanne Østby Sæther
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
 - title: Kunst i bevegelse. Iverksettelse av film- og videokunst
   year: '2018'
   source: Book chapter
+  contributors:
+  - name: Tore Slaatta
+  - name: Susanne Østby Sæther
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
 - title: 'Ulike kunstneriske strategier med utgangspunkt i historisk materiale, arkiv
     og samlinger: Arkivets materialitet'
   year: '2011'
   source: Conference lecture
+  contributors:
+  - name: Susanne Østby Sæther
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
 - title: 'The aesthetics of Sampling: Engaging the Media in Recent Video Art'
   year: '2009'
   source: PhD thesis
+  contributors:
+  - name: Susanne Østby Sæther
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
 - title: Ghost in the Machine
   year: '2008'
   source: Exhibition
+  contributors:
+  - name: Susanne Østby Sæther
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
 - title: Arkivets estetikk
   year: '2008'
   source: Book chapter
+  contributors:
+  - name: Susanne Østby Sæther
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
 source_mentions: []
 summary: null
 layout: person

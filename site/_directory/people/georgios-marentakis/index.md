@@ -32,42 +32,101 @@ selected_works:
   year: '2026'
   source: Conference poster
   url: https://doi.org/10.13140/RG.2.2.15086.57923
+  contributors:
+  - name: Marte Karoline Herrebrøden
+  - name: Ingjerd Skafle
+  - name: Georgios Marentakis
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Anders Nordahl-Hansen
 - title: Advantages and disadvantages of noise-cancelling headphones for autistic
     students in educational settings
   year: '2026'
   source: Journal article
   url: https://doi.org/10.1016/j.ridd.2026.105301
+  contributors:
+  - name: Marte Karoline Herrebrøden
+  - name: Georgios Marentakis
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Anders Dechsling
+  - name: G. Esposito
+  - name: D. Dimitriou
+  - name: Anders Nordahl-Hansen
 - title: Investigating Strategies in a Sound Design for Sustainability Exercise in
     an Educational Setting
   year: '2025'
   source: Book chapter
+  contributors:
+  - name: Georgios Marentakis
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Stefano Delle Monache
 - title: Experimenter Effect in a Guided Breathing Experiment
   year: '2025'
   source: Book chapter
   url: https://doi.org/10.5281/ZENODO.15032536
+  contributors:
+  - name: Georgios Marentakis
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Victoria Grace
 - title: An investigation into the mapping of sonic parameters to pen movement in
     tablet tasks
   year: '2025'
   source: Book chapter
   url: https://doi.org/10.1145/3771594.3771628
+  contributors:
+  - name: Georgios Marentakis
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Ahmed Raza  Mir
 - title: Comparing Trend-Based and Direct HRV Biofeedback in an Adaptive Game Environment
   year: '2025'
   source: Book chapter
   url: https://doi.org/10.1145/3771594.3771636
+  contributors:
+  - name: Michael Nicholas Louka
+  - name: Mahauri  Hassan Vakhajevitsj
+  - name: Krasniqi  Kedi
+  - name: Georgios Marentakis
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
 - title: School Professionals' Awareness and Perceptions of the Use of Noise-Cancelling
     Headphones for Autistic Students in Schools
   year: '2025'
   source: Conference lecture
+  contributors:
+  - name: Marte Karoline Herrebrøden
+  - name: Georgios Marentakis
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Anders Nordahl-Hansen
 - title: 'It sounds sustainable: practices in designing sound for sustainability'
   year: '2024'
   source: Book chapter
   url: https://doi.org/10.21606/drs.2024.791
+  contributors:
+  - name: Georgios Marentakis
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Doriana Dal Palù
 - title: Sketching in Sound and Interaction Design
   year: '2023'
   source: Book chapter
+  contributors:
+  - name: Georgios Marentakis
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
 - title: Multimodal Cues for Guided Breathing
   year: '2023'
   source: Book chapter
+  contributors:
+  - name: Georgios Marentakis
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Victoria Grace
+  - name: Jonathan Berger
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

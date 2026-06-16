@@ -4,7 +4,7 @@ slug: budhaditya-chattopadhyay
 name: Budhaditya Chattopadhyay
 title: Budhaditya Chattopadhyay
 position: Post-doctoral research fellow
-department: The Art Academy &#8211; Department of Contemporary Art
+department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Budhaditya_Chattopadhyay_UiB.jpg
 institution: university-of-bergen
 institutions:
@@ -53,42 +53,86 @@ selected_works:
   year: '2026'
   source: Exhibition
   url: https://korkut.tselinny.org/artist/budhaditya-chattopadhyay
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
 - title: Archival Intelligence (2026)
   year: '2026'
   source: Exhibition
   url: https://www.lydgalleriet.no/archive/archival-intelligence
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
 - title: Atomspheres
   year: '2026'
   source: Music performance
   url: https://dornsife.usc.edu/cema/events/
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
 - title: 'Reading Aloud: Sonic Perspectives from the Global Souths'
   year: '2026'
   source: Presentation
   url: https://www.rewirefestival.nl/artist/reading-aloud-sonic-perspectives-from-the-global-souths
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
 - title: Auditory Situationism and Unmedia
   year: '2026'
   source: Lecture
   url: https://artacademycalendar.khio.no/open-forum/budhaditya-chattopadhyay-auditory-situationism-and-unmedia
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
 - title: 'Sonic Perspectives from the Global Souths: Unheard Reciprocity, Resonant
     Relationality, and Aural Confluence'
   year: '2026'
   source: Monograph
   url: https://www.bloomsbury.com/uk/sonic-perspectives-from-the-global-souths-9781501365850/
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
 - title: Technologies of Capture and the Global Souths
   year: '2025'
   source: Book chapter
   url: https://doi.org/10.4324/9781003430599-20
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
 - title: 'Artificial Consciouness: Regenerating AI Ethics and Aesthetics'
   year: '2025'
   source: Conference lecture
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+  - name: Frans Jacobi
+  - name: David Rych
+  - name: David Jhave Johnston
+  - name: Eamon O'Kane
 - title: 'Unmedia: De-modernising Technology'
   year: '2025'
   source: Conference lecture
   url: https://kmd.uib.no/en/Calendar/seminar/ears-to-the-ground
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
 - title: Dhvāni
   year: '2025'
   source: Exhibition
   url: https://hearhere.be/en/expo/dhv%C4%81ni
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: 'Budhaditya Chattopadhyay is a multidisciplinary artist, researcher, and

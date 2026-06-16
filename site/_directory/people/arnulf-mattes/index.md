@@ -4,7 +4,7 @@ slug: arnulf-mattes
 name: Arnulf Christian Mattes
 title: Arnulf Christian Mattes
 position: Professor
-department: The Grieg Academy &#8211; Department of Music
+department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Arnulf_Mattes_UiB.jpg
 institution: university-of-bergen
 institutions:
@@ -17,7 +17,7 @@ projects: []
 roles:
 - Work Package Leader Group member
 urls:
-  personal_website: ''
+  personal_website: https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes
   institutional_website: ''
   github: ''
   linkedin: ''

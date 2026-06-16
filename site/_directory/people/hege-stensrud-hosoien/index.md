@@ -4,7 +4,7 @@ slug: hege-stensrud-hosoien
 name: Hege Stensrud Høsøien
 title: Hege Stensrud Høsøien
 position: Academic assistant
-department: Henrik Ibsens Writings
+department: Faculty of Humanities
 institution: university-of-oslo
 institutions:
 - national-library-of-norway

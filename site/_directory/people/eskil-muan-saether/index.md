@@ -4,7 +4,7 @@ slug: eskil-muan-saether
 name: Eskil Muan Sæther
 title: Eskil Muan Sæther
 position: Senior adviser
-department: IMV administrasjon
+department: Department of Musicology
 image: /assets/images/portraits/eskil_muan_saether_UiO.jpg
 institution: university-of-oslo
 institutions:

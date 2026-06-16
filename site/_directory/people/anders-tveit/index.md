@@ -31,25 +31,91 @@ selected_works:
 - title: In a Now
   year: '2019'
   source: Music performance
+  contributors:
+  - name: Ingvo Clauder
+  - name: Anders Tveit
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  - name: Terje Evensen
+  - name: Trond Lossius
 - title: Fritt fall - Live coding
   year: '2015'
   source: Music performance
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Anders Tveit
+    slug: anders-tveit
+    url: /people/anders-tveit/
 - title: Lær kidsa musikkoding
   year: '2015'
   source: Conference lecture
   url: http://site.uit.no/musikkteknologidagene15/
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Anders Tveit
+    slug: anders-tveit
+    url: /people/anders-tveit/
 - title: OMO på Komdagen
   year: '2015'
   source: Music performance
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Kristian Nymoen
+  - name: Anders Tveit
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  - name: Mari Romarheim Haugen
+  - name: Ragnhild Torvanger Solberg
+  - name: Håkon Bachken Eikeland
+  - name: Thomas Dahl Andersen
 - title: Reunion2012
   year: '2014'
   source: Music performance
+  contributors:
+  - name: Anders Tveit
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  - name: Eskil Muan Sæther
+  - name: Øyvind Brandtsegg
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Tone Åse
+  - name: Eskil Muan Sæther
 - title: 'Semesteråpningskonsert: Oslo mobilorkester'
   year: '2013'
   source: Music performance
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Mons Thyness
+  - name: Ellen K Sjøstrand Wingerei
+  - name: Turid Kristensen
+  - name: Hans T. Zeiner-Henriksen
+  - name: Åshild Watne
+  - name: Eirik Askerøi
+  - name: Anders Tveit
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  - name: Anne Eline Riisnæs
 - title: Oslo iPhone Ensemble @ Scandinavian Futures
   year: '2011'
   source: Music performance
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Anders Tveit
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  - name: Arve Voldsund
+  - name: Viet phi uy Hoang
 source_mentions: []
 summary: null
 layout: person

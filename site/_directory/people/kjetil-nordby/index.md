@@ -36,39 +36,104 @@ selected_works:
   year: '2026'
   source: Book chapter
   url: https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003586883-5/roc-architecture-framework-remote-ship-operations-etienne-gernez-steven-mallam-kjetil-nordby-jon-erling-fauske-bijan-johansen-borgar-kl%C3%B8ve-sandnes-sunniva-lislevand-wildhagen-hanne-lockertsen
+  contributors:
+  - name: Etienne Gernez
+  - name: Steven Mallam
+  - name: Kjetil Nordby
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+  - name: Jon Erling Fauske
+  - name: Bijan Johansen
+  - name: Borgar Kløve Sandnes
+  - name: Sunniva Lislevand Wildhagen
+  - name: Hanne Lockertsen
 - title: A virtual reality experiment shows that augmented reality can improve collaboration
     in ship navigation
   year: '2025'
   source: Journal article
   url: https://doi.org/10.1080/00140139.2025.2519874
+  contributors:
+  - name: Floris Hendrikus Johannes van den Oever
+  - name: Morten Fjeld
+  - name: Kjetil Nordby
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+  - name: Bjørn Sætrevik
 - title: Workshop for next generation fleet control interface
   year: '2025'
   source: Presentation
+  contributors:
+  - name: Kjetil Nordby
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+  - name: Jon Erling Fauske
+  - name: hanne locertsen
+  - name: Sunniva Wildhagen Lislevand
 - title: Open user experience design - The next generation bridge
   year: '2025'
   source: Conference lecture
+  contributors:
+  - name: Kjetil Nordby
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
 - title: OpenBridge
   year: '2025'
   source: Conference lecture
+  contributors:
+  - name: Kjetil Nordby
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
 - title: Designing for Next-Generation Remote Operation centers
   year: '2025'
   source: Conference lecture
+  contributors:
+  - name: Kjetil Nordby
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
 - title: OpenBridge 6.0 Automation Case
   year: '2025'
   source: Design
   url: https://www.figma.com/community/file/1549727597127372848/openbridge-6-0-automation-case
+  contributors:
+  - name: Sunniva Wildhagen Lislevand
+  - name: Kjetil Nordby
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+  - name: hanne lockertsen
+  - name: Jon Erling Fauske
 - title: OpenBridge 6.0 Application patterns
   year: '2025'
   source: Design
   url: https://www.figma.com/community/file/1486350615717873940/openbridge-6-0-application-patterns
+  contributors:
+  - name: Sunniva Wildhagen Lislevand
+  - name: hanne lockertsen
+  - name: Jon Erling Fauske
+  - name: Kjetil Nordby
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
 - title: OpenBridge 6.0 Small Screen Case
   year: '2025'
   source: Design
   url: https://www.figma.com/community/file/1484493772517407893/openbridge-6-0-small-screen-case
+  contributors:
+  - name: Sunniva Wildhagen Lislevand
+  - name: hanne lockertsen
+  - name: Kjetil Nordby
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+  - name: Jon Erling Fauske
 - title: OpenBridge 6.0 Alert Case
   year: '2025'
   source: Design
   url: https://www.figma.com/community/file/1486019135013729331/openbridge-6-0-alert-case
+  contributors:
+  - name: hanne lockertsen
+  - name: Sunniva Wildhagen Lislevand
+  - name: Kjetil Nordby
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+  - name: Jon Erling Fauske
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

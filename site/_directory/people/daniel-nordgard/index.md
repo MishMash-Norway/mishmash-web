@@ -31,43 +31,86 @@ selected_works:
   year: '2025'
   source: Interview
   url: https://www.fvn.no/kultur/i/5pVr6z/finnes-festivaler-som-trenger-forbedring
+  contributors:
+  - name: Daniel Nordgård
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
 - title: UiA med på KI-satsing – NRK Sørlandet – Lokale nyheter, TV og radio
   year: '2025'
   source: Interview
   url: https://www.nrk.no/sorlandet/uia-med-pa-ki-satsing-1.17450741
+  contributors:
+  - name: Daniel Nordgård
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
 - title: Maria Arredondo om Kina suksessen - ikke redd for å bli brukt av regimet
     – NRK Sørlandet – Lokale nyheter, TV og radio
   year: '2025'
   source: Interview
   url: https://www.nrk.no/sorlandet/maria-arredondo-om-kina-suksessen---ikke-redd-for-a-bli-brukt-av-regimet-1.17528431
+  contributors:
+  - name: Daniel Nordgård
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
 - title: Artister er lei av at Spotify har monopolmakt. På tide for musikkinteresserte
     forbrukere å droppe Spotify, skrev Ola Djupvik i Pom Poko, etter å ha lest boken
     Mood Machine av Liz Pelly.
   year: '2025'
   source: Interview
   url: https://www.morgenbladet.no/kultur/artister-er-lei-av-at-spotify-har-monopolmakt-na-tar-stadig-flere-grep/9870617
+  contributors:
+  - name: Daniel Nordgård
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
 - title: 'NRK, Intervju: Artistar boikottar Spotify: – Eg kjenner meg makteslaus'
   year: '2025'
   source: Interview
   url: https://www.nrk.no/norge/artistar-oppfordrar-til-boikott-av-spotify-1.17492627
+  contributors:
+  - name: Daniel Nordgård
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
 - title: Vårt Land, Norsk musikk og honorar
   year: '2025'
   source: Interview
   url: https://www.vl.no/kultur/er-det-hogare-terskel-for-kristne-a-be-om-honorar/10037392
+  contributors:
+  - name: Daniel Nordgård
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
 - title: NRK P2, Studio 2
   year: '2025'
   source: Radio or TV
   url: https://radio.nrk.no/serie/studio-2-p2/sesong/202512/MKAK02024225
+  contributors:
+  - name: Daniel Nordgård
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
 - title: 'MishMash, Centre for AI and Creativity: Samling Internasjonalt Fylkesnettverk'
   year: '2025'
   source: Lecture
+  contributors:
+  - name: Daniel Nordgård
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
 - title: About New Trends in Music Streaming, AI and Entrepreneurship, Norges Musikkhøgskole
     2025
   year: '2025'
   source: Lecture
+  contributors:
+  - name: Daniel Nordgård
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
 - title: 'Ultraprocessed Sounds: Music and AI Reconceptualized'
   year: '2025'
   source: Conference lecture
+  contributors:
+  - name: Daniel Nordgård
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
+  - name: Eirik Sørbø
+    slug: eirik-sorbo
+    url: /people/eirik-sorbo/
 source_mentions:
 - about/organisation/management/index.md
 - no/about/organisation/management/index.md

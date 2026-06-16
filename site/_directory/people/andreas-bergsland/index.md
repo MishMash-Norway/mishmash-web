@@ -36,37 +36,92 @@ selected_works:
 - title: Facilitating the Development of Interactive Wheelchair Sonifications
   year: '2026'
   source: Book chapter
+  contributors:
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
 - title: The Sounds of Ski Poles in hard Packed Snow in an Upper Manhattan Bedroom
   year: '2024'
   source: Lecture
+  contributors:
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Madeleine Shapiro
 - title: Facilitating development of interactive wheelchair sonifications
   year: '2024'
   source: Conference lecture
+  contributors:
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
 - title: Yellowstone/winter
   year: '2024'
   source: Music performance
   url: https://www.youtube.com/live/8TVe_Xuv3G4?feature=shared
+  contributors:
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Madeleine Shapiro
 - title: 'The MotionComposer: A therapy device that turns movement into music. Applications
     in pediatric medicine'
   year: '2023'
   source: Journal article
+  contributors:
+  - name: Robert Wechsler
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Stefan Geiger
+  - name: Alicia Peñalba
 - title: 'Deus Ex Machina: Synchronization Strategies in Mixed Music'
   year: '2022'
   source: PhD thesis
+  contributors:
+  - name: Mathieu Lacroix
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Trond Engum
+  - name: Natasha Barrett
 - title: "Beginnings and Endings - Study I\r\nfor interactive dance"
   year: '2021'
   source: Music performance
   url: https://youtu.be/fkOZaT2pS-k
+  contributors:
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
 - title: Modalities of Listening, NTNU ARTEC Seminar Series Seminar
   year: '2020'
   source: Lecture
+  contributors:
+  - name: Nina Eidsheim
+  - name: Garth Paine
+  - name: Hanna Musiol
+  - name: Thomas Richard Hilder
+  - name: Ajotikar Rasika
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
 - title: Feedback systems with FM receivers and transmitters as musical instruments
   year: '2020'
   source: Book chapter
+  contributors:
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
 - title: VIBRA - Technical and Artistic Issues in an Interactive Dance Project
   year: '2019'
   source: Journal article
   url: http://smc2019.uma.es/docs/SMC2019_Proceedings.pdf
+  contributors:
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Sigurd Saue
+  - name: Pekka Stokke
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

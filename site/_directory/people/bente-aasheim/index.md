@@ -32,6 +32,14 @@ selected_works:
   year: '2021'
   source: Journal article
   url: https://doi.org/10.2196/28680
+  contributors:
+  - name: Bente Aasheim Walter
+    slug: bente-aasheim
+    url: /people/bente-aasheim/
+  - name: Hege Vik Indreboe
+  - name: Mirjam Lukasse
+  - name: Lena Henriksen
+  - name: Lisa Garnweidner-Holme
 source_mentions: []
 summary: null
 layout: person

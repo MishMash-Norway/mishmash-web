@@ -4,8 +4,7 @@ slug: olivier-lartillot
 name: Olivier Lartillot
 title: Olivier Lartillot
 position: Researcher
-department: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
-  (IMV)
+department: Department of Musicology
 image: /assets/images/portraits/Olivier_Lartillot_UiO.jpg
 institution: university-of-oslo
 institutions:
@@ -33,41 +32,109 @@ selected_works:
   year: '2026'
   source: Interview
   url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
+  contributors:
+  - name: Sunniva Monclair Bøe
+  - name: Elise Koppang Frøjd
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Diego Marin-Bucio
+    slug: diego-marin-bucio
+    url: /people/diego-marin-bucio/
+  - name: Benedikte Wallace
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
 - title: Computational music analysis
   year: '2025'
   source: Lecture
+  contributors:
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
 - title: Human Interaction assessment and Generative segmentation in Health & Music
   year: '2025'
   source: Lecture
   url: https://www.youtube.com/watch?v=I4jaZIzX0wg
+  contributors:
+  - name: Thomas Wosch
+  - name: Bastian Vobig
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
 - title: 'AcousMuScope: Users'' Guide'
   year: '2025'
   source: Research report
   url: https://www.uio.no/ritmo/english/projects/mirage/software/AcousMuScope/index.html
+  contributors:
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Marina Sudo
 - title: 'Towards Collaborative Analysis: Kaija Saariaho’s Io (1986–87)'
   year: '2025'
   source: Lecture
+  contributors:
+  - name: Marina Sudo
+  - name: Michelle Ziegler
+  - name: Miriam Akkermann
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
 - title: 'Contemporary Music Analysis and Auditory Memory: The Use of Computational
     Tools as an Aid for Listening'
   year: '2025'
   source: Conference lecture
   url: https://fabricadesites.fcsh.unl.pt/ncmm/ncmm-2025-program/
+  contributors:
+  - name: Marina Sudo
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
 - title: 'MusiQAl: Music Question Answering through Audio-Video fusion'
   year: '2025'
   source: Conference lecture
   url: https://ismir2025.ismir.net/program-detailed-schedule
+  contributors:
+  - name: Anna-Maria Christodoulou
+    slug: anna-maria-christodoulou
+    url: /people/anna-maria-christodoulou/
+  - name: Kyrre Glette
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 - title: Computational Music Analysis Applied to Music Therapy Improvisation
   year: '2025'
   source: Conference lecture
   url: https://ifas.thws.de/fileadmin/user_upload/250917_HIGH-M_Symposium_Programme_updated.pdf
+  contributors:
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
 - title: 'Computational Music Analysis: Toolbox and application to music psychology
     & therapy'
   year: '2025'
   source: Conference lecture
+  contributors:
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
 - title: A Multimodal Dataset of Greek Folk Music
   year: '2025'
   source: Conference lecture
   url: https://dlfm.web.ox.ac.uk/2025-programme
+  contributors:
+  - name: Anna-Maria Christodoulou
+    slug: anna-maria-christodoulou
+    url: /people/anna-maria-christodoulou/
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

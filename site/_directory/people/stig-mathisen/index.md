@@ -30,11 +30,23 @@ selected_works:
   year: '2026'
   source: Media podcast
   url: https://open.spotify.com/episode/5dAUL0vjYb6uC1rZ9K4mSt?si=1880cf05df2b4f3c
+  contributors:
+  - name: Tore Morten Andreassen
+  - name: Emil Bekkevold
+  - name: Stig Mathisen
+    slug: stig-mathisen
+    url: /people/stig-mathisen/
 - title: Musikalsk medvirkning på Kirkekonsert i Havøysund med gitarist Stig Mathisen,
     vokalist Merethe Mikkelsen og bassist Jørgen Ytreberg.
   year: '2024'
   source: Music performance
   url: https://img2.custompublish.com/getfile.php/5317098.622.jsjpjuzpqpkzkw/Program%2BPerla%2B2024.pdf?return=www.masoy.kommune.no
+  contributors:
+  - name: Stein Inge Brækhus
+  - name: Stig-Roar Mathisen
+    slug: stig-mathisen
+    url: /people/stig-mathisen/
+  - name: Jørgen Ytreberg
 source_mentions:
 - about/organisation/council/index.md
 summary: null
