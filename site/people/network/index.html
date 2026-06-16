@@ -55,7 +55,10 @@ const PEOPLE = [
     roles: {{ doc.roles | jsonify }},
     tags: {{ doc.tags | jsonify }},
     search_keywords: {{ doc.search_keywords | jsonify }},
-    institutions: {{ doc.institutions | jsonify }},
+    {% if doc.institutions and doc.institutions.size > 0 %}institutions: {{ doc.institutions | jsonify }},
+    {% elsif doc.institution and doc.institution != "" %}institutions: [{{ doc.institution | jsonify }}],
+    {% else %}institutions: [],
+    {% endif %}wps: {{ doc.wps | default: nil | jsonify }},
     image: {{ doc.image | relative_url | jsonify }},
     url: {{ doc.url | relative_url | jsonify }},
   },
@@ -126,6 +129,23 @@ const wpByMember = {};
 WORK_PACKAGES.forEach(wp => {
   wp.members.forEach(slug => {
     (wpByMember[slug] = wpByMember[slug] || []).push(wp.id);
+  });
+});
+
+function normalizeWpId(value) {
+  const raw = String(value || "").trim().toLowerCase();
+  if (!raw) return "";
+  if (raw.startsWith("wp")) return raw.replace(/\s+/g, "");
+  const match = WORK_PACKAGES.find(wp => wp.label.toLowerCase() === raw || wp.id === raw);
+  return match ? match.id : "";
+}
+
+PEOPLE.forEach(person => {
+  (person.wps || []).forEach(label => {
+    const wpId = normalizeWpId(label);
+    if (!wpId) return;
+    const list = wpByMember[person.id] = wpByMember[person.id] || [];
+    if (!list.includes(wpId)) list.push(wpId);
   });
 });
 
@@ -268,12 +288,11 @@ function buildGraph() {
   let people = PEOPLE.slice();
 
   if (connectionMode === "institutions") {
-    people = people.filter(p => (p.institutions || []).length > 0);
-    people = people.filter(p => (p.institutions || []).some(i => !hiddenGroups.has(i)));
-  } else if (connectionMode === "tags") {
-    people = people.filter(p => personTagGroups(p).length > 0);
-  } else if (connectionMode === "wp") {
-    people = people.filter(p => personWorkPackages(p).length > 0);
+    people = people.filter(p => {
+      const insts = p.institutions || [];
+      if (!insts.length) return true;
+      return insts.some(i => !hiddenGroups.has(i));
+    });
   }
 
   if (roleFilter !== "all") {
