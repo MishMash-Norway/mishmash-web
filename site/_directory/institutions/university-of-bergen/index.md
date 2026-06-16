@@ -13,10 +13,13 @@ people:
 - budhaditya-chattopadhyay
 - claire-ghetti
 - daniel-peter-biro
+- gabriele-de-seta
 - jason-nelson
 - jostein-gundersen
+- juan-vassallo
 - lars-nyre
 - thomas-de-ridder
+- thor-magnusson
 projects:
 - ai-as-environment
 - ai-integration-film-tv-education

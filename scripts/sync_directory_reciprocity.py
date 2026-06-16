@@ -67,6 +67,10 @@ def sync_directory(root: Path, dry_run: bool = False) -> dict[str, int]:
         slug: {inst for inst in as_slug_list(data.get("institutions")) if inst in valid_institutions}
         for slug, data in people.items()
     }
+    for slug, data in people.items():
+        primary = str(data.get("institution") or "").strip()
+        if primary in valid_institutions:
+            person_institutions.setdefault(slug, set()).add(primary)
     person_projects = {
         slug: {project for project in as_slug_list(data.get("projects")) if project in valid_projects}
         for slug, data in people.items()

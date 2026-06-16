@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Fill missing urls.nva and urls.orcid in directory people entries.
+"""Fill and refresh urls.nva and urls.orcid in directory people entries.
 
-This script only updates the `urls.nva` and `urls.orcid` fields in
-`site/_directory/people/*/index.md`.
+This script updates `urls.nva` and `urls.orcid` in `site/_directory/people/*/index.md`:
+canonicalizes URLs, discovers missing NVA profiles, and syncs ORCID from NVA when available.
 """
 
 import argparse
@@ -15,6 +15,7 @@ from enrich_directory_from_nva import (  # noqa: E402
     build_institution_lookup,
     configure_nva_auth,
     discover_profile_id_by_name,
+    extract_orcid_id,
     extract_profile_id,
     find_orcid,
     get_json,
@@ -23,6 +24,16 @@ from enrich_directory_from_nva import (  # noqa: E402
     split_frontmatter,
 )
 from repo_paths import SITE_ROOT
+
+
+def canonical_orcid_url(value: str) -> str:
+    orcid_id = extract_orcid_id((value or "").strip())
+    return f"https://orcid.org/{orcid_id}" if orcid_id else ""
+
+
+def canonical_nva_url(value: str) -> str:
+    profile_id = extract_profile_id((value or "").strip())
+    return f"https://nva.sikt.no/research-profile/{profile_id}" if profile_id else ""
 
 
 def normalize_institution_slug(data: dict) -> str:
@@ -59,16 +70,19 @@ def update_person_file(
     changed = False
     notes = []
 
-    nva_url = (urls.get("nva") or "").strip()
-    if nva_url and not nva_url.startswith("https://nva.sikt.no/research-profile/"):
-        profile_id = extract_profile_id(nva_url)
-        if profile_id:
-            nva_url = f"https://nva.sikt.no/research-profile/{profile_id}"
-            if urls.get("nva") != nva_url:
-                urls["nva"] = nva_url
-                changed = True
-                notes.append("normalized nva")
-    elif not nva_url:
+    nva_url = canonical_nva_url(urls.get("nva") or "")
+    if nva_url and urls.get("nva") != nva_url:
+        urls["nva"] = nva_url
+        changed = True
+        notes.append("normalized nva")
+
+    orcid_url = canonical_orcid_url(urls.get("orcid") or "")
+    if orcid_url and urls.get("orcid") != orcid_url:
+        urls["orcid"] = orcid_url
+        changed = True
+        notes.append("normalized orcid")
+
+    if not nva_url:
         institution_slug = normalize_institution_slug(data)
         if name and institution_slug:
             profile_id, reason = discover_profile_id_by_name(
@@ -89,19 +103,20 @@ def update_person_file(
             notes.append("skip: missing name or institution")
 
     profile_id = extract_profile_id(nva_url)
-    orcid_url = (urls.get("orcid") or "").strip()
-    if profile_id and not orcid_url:
+    if profile_id:
         try:
             profile = get_json(nva_api_url(f"/cristin/person/{profile_id}"))
-            orcid = find_orcid(profile.get("identifiers") or [])
-            if orcid:
-                urls["orcid"] = orcid
+            nva_orcid = find_orcid(profile.get("identifiers") or [])
+            if nva_orcid and urls.get("orcid") != nva_orcid:
+                urls["orcid"] = nva_orcid
                 changed = True
-                notes.append("filled orcid from nva")
-            else:
+                notes.append("synced orcid from nva")
+            elif not nva_orcid and not orcid_url:
                 notes.append("orcid not found in nva")
         except Exception as exc:
             notes.append(f"orcid lookup failed: {exc}")
+    elif orcid_url and not nva_url:
+        notes.append("skip: orcid without nva")
 
     if not changed:
         return False, ", ".join(dict.fromkeys(notes)) if notes else "unchanged"

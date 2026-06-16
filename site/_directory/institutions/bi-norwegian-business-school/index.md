@@ -10,6 +10,7 @@ short_name: BI
 image: /images/institutions/bi-norwegian-business-school.svg
 people:
 - irina-eidsvold-toien
+- lyuba-boncheva
 - terje-colbjornsen
 projects:
 - copyright-and-personality-rights-ai-era

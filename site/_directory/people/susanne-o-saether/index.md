@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: susanne-o-saether
 name: Susanne Østby Sæther
@@ -6,7 +7,8 @@ title: Susanne Østby Sæther
 position: Guest
 department: Department of Media and Communication
 institution: university-of-oslo
-institutions: []
+institutions:
+- university-of-oslo
 projects:
 - ai-as-environment
 roles:

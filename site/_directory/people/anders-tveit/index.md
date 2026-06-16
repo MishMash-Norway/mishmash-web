@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: anders-tveit
 name: Anders Tveit
@@ -8,6 +9,7 @@ department: Department of Musicology
 institution: university-of-oslo
 institutions:
 - notam-norwegian-centre-for-technology-art-and-music
+- university-of-oslo
 projects:
 - musical-doppelgangers
 roles:
@@ -51,7 +53,6 @@ selected_works:
   source: Music performance
 source_mentions: []
 summary: null
-layout: person
 permalink: /people/anders-tveit/
 redirect_from:
 - /directory/people/anders-tveit/

@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: thor-magnusson
 name: Thor Magnusson
@@ -7,6 +8,7 @@ position: Guest
 department: Department of Clinical Dentistry
 institution: university-of-bergen
 institutions:
+- university-of-bergen
 - university-of-iceland
 projects:
 - rhyglyph-rhydiff-rhyseq

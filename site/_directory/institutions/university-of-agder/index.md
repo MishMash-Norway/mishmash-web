@@ -9,6 +9,7 @@ name: University of Agder
 short_name: UiA
 image: /images/institutions/university-of-agder.svg
 people:
+- arstein-justnes
 - baltasar-beferull-lozano
 - daniel-nordgard
 - eirik-sorbo

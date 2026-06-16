@@ -9,13 +9,6 @@ institution: nord-university
 institutions:
 - inland-norway-university-of-applied-sciences
 - nord-university
-nva_affiliations:
-- role: Associate professor
-  unit: Nord University Business School
-  institution: nord-university
-- role: Associate professor
-  unit: Department of Organisation, Leadership and Management
-  institution: inland-norway-university-of-applied-sciences
 projects:
 - scoping-review-creative-ai-teaching-learning
 - when-creativity-meets-criticality
@@ -23,18 +16,44 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.inn.no/finn-en-ansatt/bjorn-bakken.html
   github: ''
-  linkedin: ''
-  orcid: https://orcid.org/0000-0002-8800-8140
-  nva: https://nva.sikt.no/research-profile/449169
+  linkedin: https://www.linkedin.com/in/bj%C3%B8rn-tallak-bakken-a73444359/
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0002-8800-8140
+  nva: https://nva.sikt.no/research-profile/449169
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- WP2
+- WP4
+- WP7
+- Cognitive processes
+- organizational learning
+- technology leadership
+- artificial intelligence
+- complexity sciences
+- system dynamics
+- systems thinking
+- simulation & games
+- crisis mangement
+- resilience
+search_keywords:
+- WP2
+- WP4
+- WP7
+- Cognitive processes
+- organizational learning
+- technology leadership
+- artificial intelligence
+- complexity sciences
+- system dynamics
+- systems thinking
+- simulation & games
+- crisis mangement
+- resilience
 selected_works:
 - title: 'Ramping up for the AI Explosion in Military C2:  A Performance Benchmark
     for Autonomous Self-Improving AI Agents Based on Maneuver Warfare Theory'
@@ -77,10 +96,16 @@ selected_works:
   year: '2022'
   source: Journal article
 source_mentions: []
-summary: null
 permalink: /people/bjorn-tallak-bakken/
 redirect_from:
 - /directory/people/bjorn-tallak-bakken/
+nva_affiliations:
+- role: Associate professor
+  unit: Nord University Business School
+  institution: nord-university
+- role: Associate professor
+  unit: Department of Organisation, Leadership and Management
+  institution: inland-norway-university-of-applied-sciences
 ---
 
 Bio coming soon.

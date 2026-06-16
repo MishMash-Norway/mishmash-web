@@ -5,12 +5,9 @@ name: Sidsel Karlsen
 title: Sidsel Karlsen
 position: Professor
 department: Norwegian Academy of Music
-image: /assets/images/portraits/Sidsel_Karlsen_NMH.jpg
 institution: norwegian-academy-of-music
 institutions:
 - norwegian-academy-of-music
-affiliation_units:
-- Norwegian Academy of Music
 projects:
 - interactive-ai-driven-book-experiences
 - scoping-review-creative-ai-teaching-learning
@@ -19,20 +16,32 @@ roles:
 - Work Package Leader Group member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://nmh.no/kontakt-oss/ansatte/sidsel-karlsen
   github: ''
   linkedin: ''
-  orcid: https://orcid.org/0000-0003-3122-9302
-  nva: https://nva.sikt.no/research-profile/328229
   youtube: ''
-  facebook: ''
+  facebook: https://www.facebook.com/sidsel.karlsen.3
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0003-3122-9302
+  nva: https://nva.sikt.no/research-profile/328229
 aliases: []
 tags:
 - Music education
+- WP4
+- musical agency
+- sociology of music education
+- intercultural music education
+- music education and AI
+- music and informal learning
 search_keywords:
 - Music education
+- WP4
+- musical agency
+- sociology of music education
+- intercultural music education
+- music education and AI
+- music and informal learning
 selected_works:
 - title: Gjør byen mer delt!
   year: '2026'
@@ -70,9 +79,11 @@ selected_works:
   source: Lecture
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
 permalink: /people/sidsel-karlsen/
 redirect_from:
 - /directory/people/sidsel-karlsen/
+image: /assets/images/portraits/Sidsel_Karlsen_NMH.jpg
+affiliation_units:
+- Norwegian Academy of Music
 ---
 

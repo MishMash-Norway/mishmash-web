@@ -12,6 +12,7 @@ people:
 - gro-skaland
 - henning-birkeland
 - ole-christian-solbakken
+- ole-goethe
 - synne-tollerud-bull
 - terje-gaustad
 projects:

@@ -19,7 +19,7 @@ urls:
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-3910-7716
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/959009
   youtube: ''
   facebook: ''
   mastodon: ''

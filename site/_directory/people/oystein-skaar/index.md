@@ -18,7 +18,7 @@ urls:
   github: https://github.com/oeysan
   linkedin: ''
   orcid: https://orcid.org/0000-0001-5605-3492
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/553696
   youtube: ''
   facebook: ''
   mastodon: ''

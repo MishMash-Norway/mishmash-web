@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: stephanie-von-spreter
 name: Stephanie von Spreter
@@ -6,7 +7,8 @@ title: Stephanie von Spreter
 position: Researcher
 department: Department of Language and Culture
 institution: arctic-university-of-norway
-institutions: []
+institutions:
+- arctic-university-of-norway
 projects:
 - ai-as-environment
 roles:

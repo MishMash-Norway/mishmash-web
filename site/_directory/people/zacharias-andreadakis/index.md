@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: zacharias-andreadakis
 name: Zacharias Andreadakis
@@ -7,6 +8,7 @@ position: Guest
 department: Department of Philosophy, Classics, History of Art and Ideas
 institution: university-of-oslo
 institutions:
+- university-of-oslo
 - western-norway-university-of-applied-sciences
 projects:
 - tool-for-tools
@@ -41,7 +43,6 @@ selected_works:
   source: Conference lecture
 source_mentions: []
 summary: null
-layout: person
 permalink: /people/zacharias-andreadakis/
 redirect_from:
 - /directory/people/zacharias-andreadakis/
