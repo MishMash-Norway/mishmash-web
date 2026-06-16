@@ -40,7 +40,7 @@ selected_works:
   - name: Årstein Justnes
     slug: arstein-justnes
     url: /people/arstein-justnes/
-- title: "Dødehavsrullene\v– de eldgamle manuskriptene \vog de falske fragmentene"
+- title: Dødehavsrullene – de eldgamle manuskriptene og de falske fragmentene
   year: '2026'
   source: Lecture
   contributors:

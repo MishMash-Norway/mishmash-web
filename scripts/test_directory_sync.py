@@ -110,6 +110,14 @@ class NvaDepartmentTests(unittest.TestCase):
         units = ["University of Oslo", "Faculty of Humanities", "IMV stab"]
         self.assertEqual(primary_department_from_units(units), "Faculty of Humanities")
 
+    def test_sanitize_display_text_strips_vertical_tab(self):
+        from enrich_directory_from_nva import sanitize_display_text
+
+        self.assertEqual(
+            sanitize_display_text("Dødehavsrullene\v– de eldgamle manuskriptene \vog de falske fragmentene"),
+            "Dødehavsrullene – de eldgamle manuskriptene og de falske fragmentene",
+        )
+
 
 class NvaContributorTests(unittest.TestCase):
     def test_build_result_contributors_links_directory_people(self):

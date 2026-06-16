@@ -512,10 +512,20 @@ def work_sort_key(work: dict) -> int:
 
 def localized_text(value) -> str:
     if isinstance(value, str):
-        return value.strip()
-    if isinstance(value, dict):
-        return (value.get("en") or value.get("nb") or value.get("no") or "").strip()
-    return ""
+        text = value.strip()
+    elif isinstance(value, dict):
+        text = (value.get("en") or value.get("nb") or value.get("no") or "").strip()
+    else:
+        return ""
+    return sanitize_display_text(text)
+
+
+def sanitize_display_text(value: str) -> str:
+    """Remove control characters that break HTML5 validation (e.g. U+000b from NVA)."""
+    if not value:
+        return value
+    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", " ", value)
+    return re.sub(r"[ \t]+", " ", text).strip()
 
 
 def institution_abbrev(slug: str) -> str:
