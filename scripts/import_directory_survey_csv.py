@@ -44,6 +44,7 @@ HOST_TO_INSTITUTION = {
 
 INVALID_NVA_RE = re.compile(r"/my-page/|/profile/research-profile/?$")
 ORCID_ID_RE = re.compile(r"^(\d{4}-\d{4}-\d{4}-\d{3}[\dX])$", re.I)
+WP_TAG_RE = re.compile(r"^WP[1-7]$", re.I)
 URL_FIELDS = (
     "personal_website",
     "institutional_website",
@@ -159,7 +160,28 @@ def parse_work_packages(row: dict) -> list[str]:
         value = (row.get(f"Work package(s).WP{n}") or "").strip()
         if value:
             wps.append(value.upper())
-    return wps
+    return sorted(wps, key=lambda item: int(item[2:]))
+
+
+def strip_wp_tags(items: list | None) -> list[str]:
+    return [item for item in (items or []) if isinstance(item, str) and not WP_TAG_RE.match(item.strip())]
+
+
+def merge_wps(existing: list | None, new_items: list[str]) -> list[str]:
+    out: list[str] = []
+    seen: set[str] = set()
+    for item in list(existing or []) + list(new_items or []):
+        if not isinstance(item, str):
+            continue
+        value = item.strip().upper()
+        if not WP_TAG_RE.match(value):
+            continue
+        key = value.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(value)
+    return sorted(out, key=lambda item: int(item[2:]))
 
 
 def merge_unique(existing: list | None, new_items: list[str]) -> list[str]:
@@ -232,8 +254,9 @@ def build_person_data(row: dict, existing: dict | None) -> tuple[dict, str]:
     if primary_institution:
         institutions = merge_unique(institutions, [primary_institution])
 
-    tags = merge_unique(existing.get("tags"), wp_tags + csv_tags)
-    search_keywords = merge_unique(existing.get("search_keywords"), tags)
+    wps = merge_wps(existing.get("wps"), wp_tags)
+    tags = merge_unique(strip_wp_tags(existing.get("tags")), csv_tags)
+    search_keywords = merge_unique(strip_wp_tags(existing.get("search_keywords")), tags)
 
     data = {
         "type": "person",
@@ -244,6 +267,7 @@ def build_person_data(row: dict, existing: dict | None) -> tuple[dict, str]:
         "department": existing.get("department") or "",
         "institution": primary_institution,
         "institutions": institutions,
+        "wps": wps,
         "projects": existing.get("projects") or [],
         "roles": existing.get("roles") or ["Member"],
         "urls": merge_urls(existing.get("urls"), incoming_urls),

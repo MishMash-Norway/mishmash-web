@@ -5,10 +5,11 @@ name: Henning Birkeland
 title: Henning Birkeland
 position: University college lecturer
 department: Westerdals Department of Film and Media
-image: /assets/images/portraits/Henning_Birkeland_KriUni.png
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college
+wps:
+- WP2
 projects:
 - ai-assisted-film-production-vita-vigeland
 - bingo-ai-assisted-animation-documentary-film
@@ -19,12 +20,12 @@ urls:
   institutional_website: https://www.henningb.com/
   github: ''
   linkedin: https://www.linkedin.com/in/henningb/
-  orcid: https://orcid.org/0009-0006-4668-4585
-  nva: https://nva.sikt.no/research-profile/1355592
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/henningbirkeland/
+  orcid: https://orcid.org/0009-0006-4668-4585
+  nva: https://nva.sikt.no/research-profile/1355592
 aliases: []
 tags:
 - Astrophysics
@@ -35,6 +36,14 @@ tags:
 - 3D Printing
 - Visualization
 - Design
+- GenerativeVideo
+- 3D
+- ImageToVideo
+- CinematicAI
+- AICreativeControl
+- ImageTo3D
+- MeshGeneration
+- VideoToVideo
 search_keywords:
 - Astrophysics
 - 3d modelling
@@ -44,6 +53,14 @@ search_keywords:
 - 3D Printing
 - Visualization
 - Design
+- GenerativeVideo
+- 3D
+- ImageToVideo
+- CinematicAI
+- AICreativeControl
+- ImageTo3D
+- MeshGeneration
+- VideoToVideo
 selected_works:
 - title: MishMash Opening Video Projection Installation
   year: '2026'
@@ -89,6 +106,7 @@ summary: 'Henning Birkeland is a college teacher at Westerdals - Kristiania Univ
 permalink: /people/henning-birkeland/
 redirect_from:
 - /directory/people/henning-birkeland/
+image: /assets/images/portraits/Henning_Birkeland_KriUni.png
 ---
 
 Bio coming soon.

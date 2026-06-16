@@ -3,11 +3,14 @@ type: person
 slug: myrthe-tilleman
 name: Myrthe Tilleman
 title: Myrthe Tilleman
-position: ''
-department: ''
+position: Research fellow
+department: Networks and Distributed Systems
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
+- WP7
 projects: []
 roles:
 - Member
@@ -24,28 +27,43 @@ urls:
   nva: https://nva.sikt.no/research-profile/1773112
 aliases: []
 tags:
-- WP1
-- WP7
+- Prosthesis
+- Motion Capture
+- EEG
+- Robotics
+- Brain imaging
+- Neuroscience
+- Machine learning
+- Human machine interaction
+- Network systems
 - Human-machine interaction
-- neuroscience
-- robotics
 - immersive interaction
 - brain-computer interfaces
 - real-time systems
-- machine learning
-- motion capture
 search_keywords:
-- WP1
-- WP7
+- Prosthesis
+- Motion Capture
+- EEG
+- Robotics
+- Brain imaging
+- Neuroscience
+- Machine learning
+- Human machine interaction
+- Network systems
 - Human-machine interaction
-- neuroscience
-- robotics
 - immersive interaction
 - brain-computer interfaces
 - real-time systems
-- machine learning
-- motion capture
-selected_works: []
+selected_works:
+- title: 'Impact of Latency on User Experience in Immersive Teleoperation: A Study
+    with Motion Capture Gloves and Dexterous Robotic Hand'
+  year: '2026'
+  source: Book chapter
+  url: https://doi.org/10.1109/swc65939.2025.00277
+- title: On the limits of trajectory prediction for hand movement trajectories with
+    motion-capture sensors
+  year: '2025'
+  source: Report
 source_mentions: []
 permalink: /people/myrthe-tilleman/
 redirect_from:

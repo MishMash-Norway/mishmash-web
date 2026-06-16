@@ -5,10 +5,11 @@ name: Gabriele de Seta
 title: Gabriele de Seta
 position: Researcher
 department: Department of Linguistic, Literary and Aesthetic studies
-image: /assets/images/portraits/Gabriele_de_Seta_UiB.jpg
 institution: university-of-bergen
 institutions:
 - university-of-bergen
+wps:
+- WP2
 projects: []
 roles:
 - Member
@@ -17,12 +18,12 @@ urls:
   institutional_website: http://paranom.asia
   github: https://github.com/notsaved/
   linkedin: https://www.linkedin.com/in/gabrieledeseta/
-  orcid: https://orcid.org/0000-0003-0497-2811
-  nva: https://nva.sikt.no/research-profile/1241495
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0003-0497-2811
+  nva: https://nva.sikt.no/research-profile/1241495
 aliases: []
 tags:
 - Anthropology
@@ -36,6 +37,14 @@ tags:
 - Qualitative research
 - Digital ethnography
 - Artificial intelligence
+- machine learning
+- vernacular creativity
+- digital folklore
+- sociology of technology
+- China
+- infrastructure
+- sound studies
+- qualitative methods
 search_keywords:
 - Anthropology
 - Ethnography
@@ -48,6 +57,14 @@ search_keywords:
 - Qualitative research
 - Digital ethnography
 - Artificial intelligence
+- machine learning
+- vernacular creativity
+- digital folklore
+- sociology of technology
+- China
+- infrastructure
+- sound studies
+- qualitative methods
 selected_works:
 - title: 'Creativity is a trading zone: A short sociotechnical history of temperature'
   year: '2026'
@@ -94,6 +111,7 @@ summary: I use qualitative methods to study how digital technologies and creativ
 permalink: /people/gabriele-de-seta/
 redirect_from:
 - /directory/people/gabriele-de-seta/
+image: /assets/images/portraits/Gabriele_de_Seta_UiB.jpg
 ---
 
 Bio coming soon.

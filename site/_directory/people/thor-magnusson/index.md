@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: thor-magnusson
 name: Thor Magnusson
@@ -31,6 +30,7 @@ search_keywords: []
 selected_works: []
 source_mentions: []
 summary: null
+layout: person
 permalink: /people/thor-magnusson/
 redirect_from:
 - /directory/people/thor-magnusson/

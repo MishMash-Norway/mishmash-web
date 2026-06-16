@@ -12,6 +12,7 @@ people:
 - aedan-soellaart
 - bjorn-tallak-bakken
 - jens-knigge
+- ole-goethe
 - troels-linde
 projects: []
 country: null

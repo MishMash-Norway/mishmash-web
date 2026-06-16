@@ -18,6 +18,7 @@ people:
 - jostein-gundersen
 - juan-vassallo
 - lars-nyre
+- oystein-skaar
 - thomas-de-ridder
 - thor-magnusson
 projects:

@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: susanne-o-saether
 name: Susanne Østby Sæther
@@ -64,6 +63,7 @@ selected_works:
   source: Book chapter
 source_mentions: []
 summary: null
+layout: person
 permalink: /people/susanne-o-saether/
 redirect_from:
 - /directory/people/susanne-o-saether/

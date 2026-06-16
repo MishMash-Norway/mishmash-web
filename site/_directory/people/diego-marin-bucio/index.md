@@ -6,10 +6,12 @@ title: Diego Marin Bucio
 position: Research fellow
 department: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   (IMV)
-image: /assets/images/portraits/Diego_Marin_Bucio_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
+- WP2
 projects: []
 roles:
 - Member
@@ -18,12 +20,12 @@ urls:
   institutional_website: https://www.diegomarin.art
   github: ''
   linkedin: https://www.linkedin.com/in/diegomarinbucio/
-  orcid: https://orcid.org/0000-0001-8334-5124
-  nva: https://nva.sikt.no/research-profile/1635214
   youtube: https://www.youtube.com/@diegomarinmx
   facebook: https://www.facebook.com/diegomarinart/
   mastodon: ''
   instagram: https://www.instagram.com/diegomarinmx/
+  orcid: https://orcid.org/0000-0001-8334-5124
+  nva: https://nva.sikt.no/research-profile/1635214
 aliases: []
 tags:
 - Dance anthropology
@@ -33,6 +35,14 @@ tags:
 - Choreography
 - Phenomenology of the body
 - Ethnochoreology
+- Dance
+- Phenomenology
+- Human-AI interaction
+- Anthropology
+- Theater
+- Performing Arts
+- Choreomusicology
+- Choreography.
 search_keywords:
 - Dance anthropology
 - Philosophy of Technology
@@ -41,6 +51,14 @@ search_keywords:
 - Choreography
 - Phenomenology of the body
 - Ethnochoreology
+- Dance
+- Phenomenology
+- Human-AI interaction
+- Anthropology
+- Theater
+- Performing Arts
+- Choreomusicology
+- Choreography.
 selected_works:
 - title: 'A Framework for Human–AI Dance Creation: The Machinic Movement Matrix'
   year: '2026'
@@ -88,6 +106,7 @@ source_mentions: []
 permalink: /people/diego-marin-bucio/
 redirect_from:
 - /directory/people/diego-marin-bucio/
+image: /assets/images/portraits/Diego_Marin_Bucio_UiO.jpg
 ---
 
 Bio coming soon.

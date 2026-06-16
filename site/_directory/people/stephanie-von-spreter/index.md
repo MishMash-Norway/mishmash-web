@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: stephanie-von-spreter
 name: Stephanie von Spreter
@@ -71,6 +70,7 @@ selected_works:
   url: https://r-o-m.no/
 source_mentions: []
 summary: null
+layout: person
 permalink: /people/stephanie-von-spreter/
 redirect_from:
 - /directory/people/stephanie-von-spreter/

@@ -8,9 +8,18 @@ layout: default
 {% assign primary_institution_slug = primary_institution_slug | replace: '/institutions/', '' | replace: '/', '' %}
 {% assign primary_institution_doc = site.directory | where: "type", "institution" | where: "slug", primary_institution_slug | first %}
 {% assign person_wp_count = 0 %}
+{% if page.wps %}{% assign person_wp_count = page.wps.size %}{% endif %}
 {% for wp in site.data.work_packages %}
   {% if wp.members contains page.slug %}
-    {% assign person_wp_count = person_wp_count | plus: 1 %}
+    {% assign wp_already_listed = false %}
+    {% if page.wps %}
+      {% for wp_label in page.wps %}
+        {% if wp_label == wp.label %}{% assign wp_already_listed = true %}{% endif %}
+      {% endfor %}
+    {% endif %}
+    {% unless wp_already_listed %}
+      {% assign person_wp_count = person_wp_count | plus: 1 %}
+    {% endunless %}
   {% endif %}
 {% endfor %}
 {% assign social_urls = page.urls %}
@@ -51,11 +60,30 @@ layout: default
           {% if person_wp_count > 0 %}
             {% if page.roles.size > 0 %} · {% endif %}
             {% assign person_wp_shown = 0 %}
+            {% if page.wps %}
+              {% for wp_label in page.wps %}
+                {% for wp in site.data.work_packages %}
+                  {% if wp.label == wp_label %}
+                    {% if person_wp_shown > 0 %}, {% endif %}
+                    <a href="{{ wp.url | relative_url }}">{{ wp.label }}</a>
+                    {% assign person_wp_shown = person_wp_shown | plus: 1 %}
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            {% endif %}
             {% for wp in site.data.work_packages %}
               {% if wp.members contains page.slug %}
-                {% if person_wp_shown > 0 %}, {% endif %}
-                <a href="{{ wp.url | relative_url }}">{{ wp.label }}</a>
-                {% assign person_wp_shown = person_wp_shown | plus: 1 %}
+                {% assign wp_already_listed = false %}
+                {% if page.wps %}
+                  {% for wp_label in page.wps %}
+                    {% if wp_label == wp.label %}{% assign wp_already_listed = true %}{% endif %}
+                  {% endfor %}
+                {% endif %}
+                {% unless wp_already_listed %}
+                  {% if person_wp_shown > 0 %}, {% endif %}
+                  <a href="{{ wp.url | relative_url }}">{{ wp.label }}</a>
+                  {% assign person_wp_shown = person_wp_shown | plus: 1 %}
+                {% endunless %}
               {% endif %}
             {% endfor %}
           {% endif %}

@@ -8,6 +8,9 @@ department: ''
 institution: bi-norwegian-business-school
 institutions:
 - bi-norwegian-business-school
+wps:
+- WP5
+- WP6
 projects: []
 roles:
 - Member
@@ -16,16 +19,14 @@ urls:
   institutional_website: https://www.bi.no/om-bi/ansatte/fagressurser/lyuba-boncheva/
   github: ''
   linkedin: https://www.linkedin.com/in/lyuba-boncheva-4844391aa/
-  orcid: https://orcid.org/0009-0004-0753-6892
-  nva: https://nva.sikt.no/research-profile/1889228
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0009-0004-0753-6892
+  nva: https://nva.sikt.no/research-profile/1889228
 aliases: []
 tags:
-- WP5
-- WP6
 - AI
 - museums
 - culturalheritage
@@ -37,8 +38,6 @@ tags:
 - transformativetechnologies
 - performingarts
 search_keywords:
-- WP5
-- WP6
 - AI
 - museums
 - culturalheritage

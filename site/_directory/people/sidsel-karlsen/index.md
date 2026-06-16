@@ -8,6 +8,8 @@ department: Norwegian Academy of Music
 institution: norwegian-academy-of-music
 institutions:
 - norwegian-academy-of-music
+wps:
+- WP4
 projects:
 - interactive-ai-driven-book-experiences
 - scoping-review-creative-ai-teaching-learning
@@ -28,7 +30,6 @@ urls:
 aliases: []
 tags:
 - Music education
-- WP4
 - musical agency
 - sociology of music education
 - intercultural music education
@@ -36,7 +37,6 @@ tags:
 - music and informal learning
 search_keywords:
 - Music education
-- WP4
 - musical agency
 - sociology of music education
 - intercultural music education

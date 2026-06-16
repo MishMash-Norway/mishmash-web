@@ -3,11 +3,13 @@ type: person
 slug: kai-olav-ellefsen
 name: Kai Olav Ellefsen
 title: Kai Olav Ellefsen
-position: ''
-department: ''
+position: Associate professor
+department: Research Group for Robotics and Intelligent Systems
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
 projects: []
 roles:
 - Member
@@ -24,7 +26,6 @@ urls:
   nva: https://nva.sikt.no/research-profile/33506
 aliases: []
 tags:
-- WP1
 - Artificial Intelligence
 - Machine Learning
 - Robotics
@@ -33,7 +34,6 @@ tags:
 - Bio-inspired computing
 - psychology-inspired computing
 search_keywords:
-- WP1
 - Artificial Intelligence
 - Machine Learning
 - Robotics
@@ -41,7 +41,49 @@ search_keywords:
 - Evolutionary Algorithms
 - Bio-inspired computing
 - psychology-inspired computing
-selected_works: []
+selected_works:
+- title: "Fem grunner til at det ikke finnes virkelig intelligente roboter\n     \
+    \  - Titan.uio.no"
+  year: '2026'
+  source: Popular science article
+  url: https://www.titan.uio.no/teknologi/2026/fem-grunner-til-at-det-ikke-finnes-virkelig-intell.html
+- title: Sensor movement drives emergent attention and scalability in active neural
+    cellular automata
+  year: '2026'
+  source: Journal article
+  url: https://doi.org/10.1016/j.neunet.2026.108798
+- title: Towards more intelligent robots, that balance deep reasoning and rapid response
+  year: '2026'
+  source: Lecture
+- title: 'Dual Process Dreamer: Fast and Slow Decision-Making with World Models'
+  year: '2026'
+  source: Journal article
+  url: https://doi.org/10.5220/0014243200004052
+- title: Hvor blir det av de virkelig intelligente robotene?
+  year: '2026'
+  source: Lecture
+  url: https://www.mn.uio.no/ifi/om/aktuelt/arrangementer/andre/ki-dagen-2026.html
+- title: Replication Package for "Self Healing of a Mixed Autonomy Traffic System
+    Using Reinforcement Learning and Attention"
+  year: '2025'
+  source: Presentation
+  url: https://doi.org/10.5281/zenodo.17018040
+- title: 'Seminar: "Fast and Slow Thinking AI"'
+  year: '2025'
+  source: Presentation
+  url: https://dia.units.it/it/news/132615
+- title: Neuroevolution - What, Why and How?
+  year: '2025'
+  source: Presentation
+  url: https://smash.ung.si/events/seminars/seminar-with-prof-kai-olav-ellefsen-neuroevolution-optimizing-neural-networks-with-evolutionary-algorithms/
+- title: Co-Optimization of Robot Bodies and Brains with Evolutionary Algorithms
+  year: '2025'
+  source: Conference lecture
+  url: https://www.mn.uio.no/ifi/english/research/groups/robin/events/Tutorials/Tutorial-SSCI2025/Tutorial-SSCI2025
+- title: 22. juli-hets, Ekstremvær, Jobbintervju på kafé - Nyhetsmorgen - NRK Radio
+  year: '2025'
+  source: Radio or TV
+  url: https://radio.nrk.no/serie/nyhetsmorgen/sesong/202507/NPUB32027824
 source_mentions: []
 permalink: /people/kai-olav-ellefsen/
 redirect_from:

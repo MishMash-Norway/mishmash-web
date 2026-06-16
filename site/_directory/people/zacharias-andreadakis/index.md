@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: zacharias-andreadakis
 name: Zacharias Andreadakis
@@ -43,6 +42,7 @@ selected_works:
   source: Conference lecture
 source_mentions: []
 summary: null
+layout: person
 permalink: /people/zacharias-andreadakis/
 redirect_from:
 - /directory/people/zacharias-andreadakis/
