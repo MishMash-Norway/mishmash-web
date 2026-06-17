@@ -36,7 +36,7 @@ Sekretariat:
 
 Innkallingen ble godkjent.
 
-### 3. Godkjenning av protokoll
+### 2. Godkjenning av protokoll
 
 #### Bakgrunn
 
@@ -70,7 +70,7 @@ Tatt til orientering.
 
 #### Bakgrunn
 
-
+MishMash arrangerte en workshop med kommunikasjonsrådgivere fra alle budsjettpartnere 17. juni. Der ble det lagt frem en overordnet plan for kommunikasjonsarbeidet til MishMash, både internt og eksternt, og med et forslag til kanalstrategi. 
 
 #### Behandling
 
