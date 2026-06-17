@@ -16,6 +16,7 @@ layout: default
   {% assign google_end = google_end_ts | date: '%Y%m%dT%H%M%S' %}
 {% endif %}
 {% capture google_calendar_url %}https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ page.title | default: 'MishMash event' | uri_escape }}&dates={{ google_start }}%2F{{ google_end }}&details={{ event_description_raw | strip_html | strip_newlines | uri_escape }}&location={{ page.location | default: '' | uri_escape }}&ctz=Europe%2FOslo&sf=true&output=xml{% endcapture %}
+{% assign google_calendar_url = google_calendar_url | replace: '#', '%23' %}
 {% capture event_ics %}BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//MishMash//Events//EN
