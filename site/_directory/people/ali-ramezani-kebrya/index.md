@@ -3,8 +3,8 @@ type: person
 slug: ali-ramezani-kebrya
 name: Ali Ramezani-Kebrya
 title: Ali Ramezani-Kebrya
-position: Associate Professor
-department: ''
+position: Associate professor
+department: Department for Informatics
 institution: university-of-oslo
 institutions:
 - university-of-oslo
@@ -17,7 +17,7 @@ urls:
   github: ''
   linkedin: https://www.linkedin.com/in/ali-ramezani-kebrya-6896b924/
   orcid: https://orcid.org/0000-0002-8767-5603
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/1515423
   youtube: ''
   facebook: ''
   mastodon: ''
@@ -26,49 +26,205 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Principled Fourier Neural Operators for High‐Resolution Regional Ocean Modeling
+- title: Mitigating Embedding Leakage via Latent Disruption with Controlled Reconstruction
   year: '2026'
-  source: 'Journal of Geophysical Research: Machine Learning and Computation'
-  url: https://doi.org/10.1029/2025JH001131
-- title: Principled Fourier Neural Operators for High-resolution Regional Ocean Modeling
+  source: Journal article
+  url: https://openreview.net/forum?id=nZWBrxJyrS
+  contributors:
+  - name: Zhiyuan Wu
+  - name: Changkyu Choi
+  - name: Shujian Yu
+  - name: Robert Jenssen
+  - name: Ali Ramezani-Kebrya
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+- title: 'CogniLoad: A Synthetic Natural Language Reasoning Benchmark With Tunable
+    Length, Intrinsic Difficulty, and Distractor Density'
+  year: '2026'
+  source: Journal article
+  url: https://openreview.net/forum?id=0Sex2H5Jnn
+  contributors:
+  - name: Daniel Kaiser
+  - name: Arnoldo Frigessi
+  - name: Ali Ramezani-Kebrya
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+  - name: Benjamin Ricaud
+- title: Decomposing Reasoning Efficiency in Large Language Models
   year: '2025'
-  source: preprint
-  url: https://doi.org/10.22541/essoar.176279300.07801097/v1
-- title: 'MixTailor: Mixed Gradient Aggregation for Robust Learning Against Tailored
-    Attacks'
-  year: '2022'
-  source: Transactions on Machine Learning Research
-  url: https://openreview.net/pdf?id=tqDhrbKJLS
-- title: Robust Design of Multicell D2D Communication Under Partial CSI
-  year: '2022'
-  source: IEEE Internet of Things Journal
-  url: https://doi.org/10.1109/JIOT.2021.3095757
-- title: 'NUQSGD: Provably Communication-efficient Data-parallel SGD via Nonuniform
-    Quantization'
-  year: '2021'
-  source: Journal of Machine Learning Research
-  url: https://publons.com/wos-op/publon/59491963/
-- title: On the generalization of stochastic gradient descent with momentum
-  year: '2021'
-  source: arXiv
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-85102547137&partnerID=MN8TOARS
-- title: Subquadratic Overparameterization for Shallow Neural Networks
-  year: '2021'
-  source: Advances in Neural Information Processing Systems
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-85131797261&partnerID=MN8TOARS
-- title: Adaptive Gradient Quantization for Data-Parallel SGD
-  year: '2020'
-  source: preprint
-  url: http://arxiv.org/abs/2010.12460v1
-- title: 'NUQSGD: Improved Communication Efficiency for Data-parallel SGD via Nonuniform
-    Quantization'
-  year: '2019'
-  source: preprint
-  url: http://arxiv.org/abs/1908.06077v1
-- title: On the Stability and Convergence of Stochastic Gradient Descent with Momentum
-  year: '2018'
-  source: preprint
-  url: http://arxiv.org/abs/1809.04564v1
+  source: Conference poster
+  url: https://openreview.net/forum?id=mym1D6mIZR
+  contributors:
+  - name: Daniel Kaiser
+  - name: Ali Ramezani-Kebrya
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+  - name: Arnoldo Frigessi
+  - name: Benjamin Ricaud
+- title: Proceedings of NORA’s annual conference 2025
+  year: '2025'
+  source: Conference abstract
+  url: https://doi.org/10.5617/nmi.12551
+  contributors:
+  - name: Geir Halnes
+  - name: Anam Javaid
+  - name: Michael Solvang
+  - name: Stefano Nichele
+  - name: Michael Riegler
+  - name: Bjørn-Jostein Singstad
+  - name: Baltasar Beferull-Lozano
+    slug: baltasar-beferull-lozano
+    url: /people/baltasar-beferull-lozano/
+  - name: Emilio Ruiz Moreno
+  - name: Luis M. Lopez-Ramos
+  - name: Mehrzad Abdi Khalife
+  - name: Ola Huse Ramstad
+  - name: Hamze Issa
+  - name: Arina Surko
+  - name: Axel Sandvig
+  - name: Hasan Ogul
+  - name: Daniele Fantin
+  - name: Ioanna Sandvig
+  - name: Christopher Vibe
+  - name: Kushtrim Visoka
+  - name: Mehdi HoushmandSarkhoosh
+  - name: Aaron de Leyos
+  - name: Sinan Ugur Umu
+  - name: Klaus Johannsen
+  - name: Kjetil Indrehus
+  - name: Malcom McMillan
+  - name: Julia Kropiunig
+  - name: Ryan Anthony Marinelli
+  - name: Fadi Al Machot
+  - name: Xue-Cheng Tai
+  - name: Andrea Alessandro Gasparini
+  - name: David Parkes
+  - name: Semra Oztemel Sari
+  - name: Gro Fonnes
+  - name: Cise Midoglu
+  - name: Anton Tkachenko
+  - name: Maria Bashir
+  - name: Kari-Anne Kallerud Lyng
+  - name: Florenc Demrozi
+  - name: Kate Briggs
+  - name: Junyong You
+  - name: Signe Riemer-Sørensen
+  - name: Benjamin Daniel Adolphi
+  - name: Martin Thomas Horsch
+  - name: Arangan Subramaniam
+  - name: Ibrahim Riza Hallac
+  - name: Lina Plataniti
+    slug: lina-plataniti
+    url: /people/lina-plataniti/
+  - name: Hao Liu
+  - name: Mikkel Elle Lepperød
+  - name: Changkyu Choi
+  - name: Preben Castberg
+  - name: Abdelaziz Qassi
+  - name: Raymond H. Chan
+  - name: Anja Stein
+  - name: Heinz Adolf Preisig
+  - name: Alexander Johannes Stasik
+  - name: Saeed Shafiee Sabet
+  - name: Nils Olav Handegard
+  - name: Robert Jenssen
+  - name: Solve Sæbø
+  - name: Synnøve Rubach
+  - name: Waldir Leoncio Netto
+  - name: Pankaj Pandey
+  - name: Jan Wuite
+  - name: Arezo Shakeri
+  - name: Shailendra Singh
+  - name: Ali Ramezani-Kebrya
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+  - name: Pål Halvorsen
+  - name: David S. Leslie
+  - name: Matteo Iervasi
+  - name: Mathis Korseberg Stokke
+  - name: Tomas Kupka
+  - name: Lingfeng Li
+  - name: Helge Fredriksen
+  - name: Shakiba Sadat Mirbagheri
+  - name: Ali Ramezanikebrya
+  - name: Jacob Alexander Hay
+  - name: Aslak Djupskås
+  - name: Mina FNorwayarmanbar
+  - name: Claudio Sartori
+  - name: Felix Simon Reimers
+  - name: Thomas Nagler
+  - name: Amber Leeson
+- title: Can a Convex Partition caused by a CPWL Neural Network be used for Density
+    Estimation?
+  year: '2025'
+  source: Conference abstract
+  contributors:
+  - name: Johan Mylius-Kroken
+  - name: Kristoffer Wickstrøm
+  - name: Elisabeth Wetzer
+  - name: Ali Ramezani-Kebrya
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+  - name: Robert Jenssen
+- title: Layer-wise Quantization for Quantized Optimistic Dual Averaging
+  year: '2025'
+  source: Conference lecture
+  url: https://openreview.net/forum?id=J6LYjEOxbz&noteId=XPlechyXOj
+  contributors:
+  - name: Anh Duc Nguyen
+  - name: Ilia Markov
+  - name: Frank Zhengqing Wu
+  - name: Ali Ramezani-Kebrya
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+  - name: Kimon Antonakopoulos
+  - name: Dan Alistarh
+  - name: Volkan Cevher
+- title: Leveraging Foundation Model Adapters to Enable Robust and Semantic Underwater
+    Exploration
+  year: '2025'
+  source: Journal article
+  url: https://ceur-ws.org/Vol-3975/
+  contributors:
+  - name: Changkyu Choi
+  - name: Arangan Subramaniam
+  - name: Nils Olav Handegard
+  - name: Ali Ramezani-Kebrya
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+  - name: Robert Jenssen
+- title: Information-Theoretic Approach to Learn Causal Relationship Between Question
+    and Answering in DocVQA
+  year: '2025'
+  source: Conference poster
+  contributors:
+  - name: Kjetil Indrehus
+  - name: Changkyu Choi
+  - name: Ali Ramezani-Kebrya
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+- title: 'Marine Intelligence: Innovations to Enhance Underwater Exploration'
+  year: '2025'
+  source: Conference poster
+  contributors:
+  - name: Arangan Subramaniam
+  - name: Changkyu Choi
+  - name: Nils Olav Handegard
+  - name: Robert Jenssen
+  - name: Ali Ramezani-Kebrya
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+- title: Addressing Label Shift in Distributed Learning via Entropy Regularization​
+  year: '2025'
+  source: Journal article
+  contributors:
+  - name: Zhiyuan Wu
+  - name: Changkyu Choi
+  - name: Xiangcheng Cao
+  - name: Volkan Cevher
+  - name: Ali Ramezani-Kebrya
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
 source_mentions: []
 wps:
 - WP1
