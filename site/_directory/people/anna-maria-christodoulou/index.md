@@ -8,23 +8,31 @@ department: Department of Musicology
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP6
 projects: []
 roles:
 - Member
 urls:
   personal_website: https://mutecen.github.io/
-  institutional_website: ''
+  institutional_website: https://www.uio.no/ritmo/english/people/phd-fellows/annammc/index.html
   github: ''
   linkedin: ''
-  orcid: https://orcid.org/0009-0003-7063-2062
-  nva: https://nva.sikt.no/research-profile/1578841
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0009-0003-7063-2062
+  nva: https://nva.sikt.no/research-profile/1578841
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- multimodal learning
+- music artificial intelligence
+- computational music analysis
+search_keywords:
+- multimodal learning
+- music artificial intelligence
+- computational music analysis
 selected_works:
 - title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
     Arts
@@ -155,8 +163,6 @@ selected_works:
     slug: kyrre-glette
     url: /people/kyrre-glette/
 source_mentions: []
-wps:
-- WP6
 permalink: /people/anna-maria-christodoulou/
 redirect_from:
 - /directory/people/anna-maria-christodoulou/

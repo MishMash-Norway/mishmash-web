@@ -26,6 +26,9 @@ EMAIL_DOMAIN_TO_INSTITUTION = {
     "uia.no": "university-of-agder",
     "uib.no": "university-of-bergen",
     "inn.no": "inland-norway-university-of-applied-sciences",
+    "uit.no": "arctic-university-of-norway",
+    "nord.no": "nord-university",
+    "hvl.no": "western-norway-university-of-applied-sciences",
 }
 
 HOST_TO_INSTITUTION = {
@@ -40,6 +43,9 @@ HOST_TO_INSTITUTION = {
     "uia.no": "university-of-agder",
     "uib.no": "university-of-bergen",
     "inn.no": "inland-norway-university-of-applied-sciences",
+    "uit.no": "arctic-university-of-norway",
+    "nord.no": "nord-university",
+    "hvl.no": "western-norway-university-of-applied-sciences",
 }
 
 INVALID_NVA_RE = re.compile(r"/my-page/|/profile/research-profile/?$")
@@ -121,12 +127,25 @@ def institution_from_orcid(orcid_url: str) -> tuple[str, str, str]:
     return orcid_primary_employment(match.group(1), lookup)
 
 
+def institution_slug_from_email_domain(domain: str) -> str:
+    domain = (domain or "").strip().lower()
+    if not domain:
+        return ""
+    if domain in EMAIL_DOMAIN_TO_INSTITUTION:
+        return EMAIL_DOMAIN_TO_INSTITUTION[domain]
+    for known_domain, slug in EMAIL_DOMAIN_TO_INSTITUTION.items():
+        if domain.endswith(f".{known_domain}"):
+            return slug
+    return ""
+
+
 def institution_from_row(row: dict) -> str:
     email = (row.get("Email address") or "").strip().lower()
     if "@" in email:
         domain = email.split("@", 1)[1]
-        if domain in EMAIL_DOMAIN_TO_INSTITUTION:
-            return EMAIL_DOMAIN_TO_INSTITUTION[domain]
+        slug = institution_slug_from_email_domain(domain)
+        if slug:
+            return slug
 
     for column in ("website (institution)", "website (personal)"):
         host = host_from_url(row.get(column, ""))
@@ -214,7 +233,11 @@ def merge_urls(existing: dict | None, incoming: dict[str, str]) -> dict[str, str
 
 def build_person_data(row: dict, existing: dict | None) -> tuple[dict, str]:
     name = (row.get("Name") or "").strip()
-    slug = (existing or {}).get("slug") or slugify(name)
+    existing = existing or {}
+    existing_name = str(existing.get("name") or "").strip()
+    if existing_name and len(existing_name.split()) > len(name.split()):
+        name = existing_name
+    slug = existing.get("slug") or slugify(name)
     institution = institution_from_row(row)
     wp_tags = parse_work_packages(row)
     csv_tags = parse_tags(row.get("Tags", ""))
@@ -300,11 +323,21 @@ def build_person_data(row: dict, existing: dict | None) -> tuple[dict, str]:
     return data, body
 
 
-def find_existing_slug(people_root: Path, name: str) -> Path | None:
+def find_existing_slug(people_root: Path, name: str, email: str = "") -> Path | None:
     slug = slugify(name)
     candidate = people_root / slug / "index.md"
     if candidate.exists():
         return candidate
+
+    email = (email or "").strip().lower()
+    if "@" in email:
+        local = email.split("@", 1)[0].replace(".", "-").replace("_", "-")
+        for variant in {local, slugify(local)}:
+            if not variant:
+                continue
+            email_candidate = people_root / variant / "index.md"
+            if email_candidate.exists():
+                return email_candidate
 
     target = name.strip().lower()
     for index_md in people_root.glob("*/index.md"):
@@ -316,42 +349,68 @@ def find_existing_slug(people_root: Path, name: str) -> Path | None:
     return None
 
 
+def load_survey_rows(path: Path) -> list[dict[str, str]]:
+    suffix = path.suffix.lower()
+    if suffix == ".csv":
+        with path.open(encoding="utf-8-sig", newline="") as handle:
+            return list(csv.DictReader(handle, delimiter=";"))
+
+    if suffix in {".xlsx", ".xlsm"}:
+        try:
+            import openpyxl
+        except ImportError as exc:
+            raise SystemExit("openpyxl is required for .xlsx imports (pip install openpyxl)") from exc
+        workbook = openpyxl.load_workbook(path, read_only=True, data_only=True)
+        worksheet = workbook.active
+        rows = list(worksheet.iter_rows(values_only=True))
+        if not rows:
+            return []
+        headers = [str(cell).strip() if cell is not None else "" for cell in rows[0]]
+        parsed: list[dict[str, str]] = []
+        for row in rows[1:]:
+            values = ["" if cell is None else str(cell).strip() for cell in row]
+            if not any(values):
+                continue
+            parsed.append(dict(zip(headers, values)))
+        return parsed
+
+    raise SystemExit(f"Unsupported survey file type: {path.suffix}")
+
+
 def import_csv(csv_path: Path, dry_run: bool = False) -> dict[str, int]:
     people_root = SITE_ROOT / "_directory" / "people"
     stats = {"created": 0, "updated": 0, "skipped": 0}
 
-    with csv_path.open(encoding="utf-8-sig", newline="") as handle:
-        reader = csv.DictReader(handle, delimiter=";")
-        for row in reader:
-            name = (row.get("Name") or "").strip()
-            if not name:
-                stats["skipped"] += 1
-                continue
+    for row in load_survey_rows(csv_path):
+        name = (row.get("Name") or "").strip()
+        if not name:
+            stats["skipped"] += 1
+            continue
 
-            existing_path = find_existing_slug(people_root, name)
-            existing_data: dict | None = None
-            existing_body = ""
-            if existing_path:
-                existing_data, existing_body = load_entry(existing_path)
-                existing_data["_body"] = existing_body
+        existing_path = find_existing_slug(people_root, name, row.get("Email address", ""))
+        existing_data: dict | None = None
+        existing_body = ""
+        if existing_path:
+            existing_data, existing_body = load_entry(existing_path)
+            existing_data["_body"] = existing_body
 
-            data, body = build_person_data(row, existing_data)
-            slug = data["slug"]
-            target = people_root / slug / "index.md"
+        data, body = build_person_data(row, existing_data)
+        slug = data["slug"]
+        target = people_root / slug / "index.md"
 
-            if dry_run:
-                action = "update" if existing_path else "create"
-                print(f"{action}: {name} -> {target.relative_to(SITE_ROOT)}")
-                continue
+        if dry_run:
+            action = "update" if existing_path else "create"
+            print(f"{action}: {name} -> {target.relative_to(SITE_ROOT)}")
+            continue
 
-            target.parent.mkdir(parents=True, exist_ok=True)
-            save_entry(target, data, body)
-            if existing_path:
-                stats["updated"] += 1
-                print(f"Updated {name}")
-            else:
-                stats["created"] += 1
-                print(f"Created {name}")
+        target.parent.mkdir(parents=True, exist_ok=True)
+        save_entry(target, data, body)
+        if existing_path:
+            stats["updated"] += 1
+            print(f"Updated {name}")
+        else:
+            stats["created"] += 1
+            print(f"Created {name}")
 
     if not dry_run:
         sync_directory(SITE_ROOT, dry_run=False)
@@ -396,7 +455,7 @@ def fill_missing_institutions(dry_run: bool = False) -> int:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("csv_path", nargs="?", type=Path, help="Path to survey CSV export")
+    parser.add_argument("csv_path", nargs="?", type=Path, help="Path to survey CSV or XLSX export")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument(
         "--fill-missing-institutions",

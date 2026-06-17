@@ -10,6 +10,7 @@ short_name: UiO
 image: /images/institutions/university-of-oslo.svg
 people:
 - alexander-refsum-jensenius
+- ali-ramezani-kebrya
 - anders-tveit
 - anna-maria-christodoulou
 - cagri-erdem

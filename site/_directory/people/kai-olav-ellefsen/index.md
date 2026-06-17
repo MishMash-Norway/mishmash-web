@@ -8,23 +8,39 @@ department: Department for Informatics
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
 projects: []
 roles:
 - Member
 urls:
   personal_website: https://www.koellefsen.com/
-  institutional_website: ''
+  institutional_website: https://www.mn.uio.no/ifi/english/people/aca/kaiolae/
   github: https://github.com/kaiolae
   linkedin: https://www.linkedin.com/in/kaiolav?originalSubdomain=no
-  orcid: https://orcid.org/0000-0003-2466-2319
-  nva: https://nva.sikt.no/research-profile/33506
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0003-2466-2319
+  nva: https://nva.sikt.no/research-profile/33506
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Artificial Intelligence
+- Machine Learning
+- Robotics
+- Reinforcement Learning
+- Evolutionary Algorithms
+- Bio-inspired computing
+- psychology-inspired computing
+search_keywords:
+- Artificial Intelligence
+- Machine Learning
+- Robotics
+- Reinforcement Learning
+- Evolutionary Algorithms
+- Bio-inspired computing
+- psychology-inspired computing
 selected_works:
 - title: "Fem grunner til at det ikke finnes virkelig intelligente roboter\n - Titan.uio.no"
   year: '2026'
@@ -125,8 +141,6 @@ selected_works:
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 source_mentions: []
-wps:
-- WP1
 permalink: /people/kai-olav-ellefsen/
 redirect_from:
 - /directory/people/kai-olav-ellefsen/

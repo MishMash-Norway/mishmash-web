@@ -5,10 +5,11 @@ name: Stefano Fasciani
 title: Stefano Fasciani
 position: Professor
 department: Department of Musicology
-image: /assets/images/portraits/Stefano_Fasciani_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
 projects: []
 roles:
 - Member
@@ -17,12 +18,12 @@ urls:
   institutional_website: http://people.uio.no/stefanof
   github: https://github.com/stefanofasciani
   linkedin: https://no.linkedin.com/in/stefanofasciani
-  orcid: https://orcid.org/0000-0001-5555-3225
-  nva: https://nva.sikt.no/research-profile/1093312
   youtube: https://www.youtube.com/@stefanofasciani
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0001-5555-3225
+  nva: https://nva.sikt.no/research-profile/1093312
 aliases: []
 tags:
 - Digital electronics
@@ -33,6 +34,10 @@ tags:
 - Musical interaction
 - Embedded system
 - Music Technology
+- Sound and Music Computing
+- Musical Interfaces
+- Sound Synthesis
+- Embedded Systems
 search_keywords:
 - Digital electronics
 - Sound analysis /synthesis
@@ -42,6 +47,10 @@ search_keywords:
 - Musical interaction
 - Embedded system
 - Music Technology
+- Sound and Music Computing
+- Musical Interfaces
+- Sound Synthesis
+- Embedded Systems
 selected_works:
 - title: 'HS-ims: A Platform for Human-Swarm Interactive Music Systems'
   year: '2025'
@@ -165,11 +174,10 @@ selected_works:
 source_mentions: []
 summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learning,
   Music Technology.
-wps:
-- WP1
 permalink: /people/stefano-fasciani/
 redirect_from:
 - /directory/people/stefano-fasciani/
+image: /assets/images/portraits/Stefano_Fasciani_UiO.jpg
 ---
 
 Bio coming soon.

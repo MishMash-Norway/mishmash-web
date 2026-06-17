@@ -5,24 +5,27 @@ name: Tejaswinee Kelkar
 title: Tejaswinee Kelkar
 position: Associate professor
 department: Department of Musicology
-image: /assets/images/portraits/Tejaswinee_Kelkar_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
+- WP5
+- WP6
 projects: []
 roles:
 - Member
 urls:
   personal_website: http://tejaswinee.com
-  institutional_website: ''
+  institutional_website: https://www.hf.uio.no/imv/personer/vit/fast/tejaswik/
   github: https://github.com/shockmonger
   linkedin: https://www.linkedin.com/in/tejaswineekelkar/
-  orcid: https://orcid.org/0000-0002-2324-6850
-  nva: https://nva.sikt.no/research-profile/781725
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/tejaswineekelkar
+  orcid: https://orcid.org/0000-0002-2324-6850
+  nva: https://nva.sikt.no/research-profile/781725
 aliases: []
 tags:
 - Music Technology
@@ -131,13 +134,10 @@ selected_works:
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
 source_mentions: []
-wps:
-- WP1
-- WP5
-- WP6
 permalink: /people/tejaswinee-kelkar/
 redirect_from:
 - /directory/people/tejaswinee-kelkar/
+image: /assets/images/portraits/Tejaswinee_Kelkar_UiO.jpg
 ---
 
 Bio coming soon.

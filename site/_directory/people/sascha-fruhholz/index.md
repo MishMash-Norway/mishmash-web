@@ -8,24 +8,48 @@ department: Department of Psychology
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
+- WP3
+- WP5
 projects:
 - intensifying-brain-pleasure-responses-music
 roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
-  github: ''
-  linkedin: ''
-  orcid: ''
-  nva: https://nva.sikt.no/research-profile/1208511
+  institutional_website: https://www.sv.uio.no/psi/english/research/groups/canlab/
+  github: https://caneuro.github.io/
+  linkedin: https://www.linkedin.com/in/sascha-fr%C3%BChholz-29036b25/
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0002-6485-3817
+  nva: https://nva.sikt.no/research-profile/1208511
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- human voice
+- music
+- digital humans
+- deepfakes
+- human brain
+- neuroimaging
+- sound archeology
+- affective neuroscience
+- AI music
+- computational cognition
+search_keywords:
+- human voice
+- music
+- digital humans
+- deepfakes
+- human brain
+- neuroimaging
+- sound archeology
+- affective neuroscience
+- AI music
+- computational cognition
 selected_works:
 - title: Domain-specific perception of emotional intensity in brief musical and vocal
     expressions
@@ -158,7 +182,6 @@ selected_works:
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
 source_mentions: []
-summary: null
 permalink: /people/sascha-fruhholz/
 redirect_from:
 - /directory/people/sascha-fruhholz/
