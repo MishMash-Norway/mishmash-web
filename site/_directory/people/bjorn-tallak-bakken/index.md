@@ -36,7 +36,7 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: 'Ramping up for the AI Explosion in Military C2:  A Performance Benchmark
+- title: 'Ramping up for the AI Explosion in Military C2: A Performance Benchmark
     for Autonomous Self-Improving AI Agents Based on Maneuver Warfare Theory'
   year: '2025'
   source: Journal article

@@ -61,7 +61,7 @@ selected_works:
     slug: terje-gaustad
     url: /people/terje-gaustad/
   - name: Inga Ørving Aasen
-- title: 'Remunerating authors and performers:  Are statutory fair compensation  provisions
+- title: 'Remunerating authors and performers: Are statutory fair compensation provisions
     sufficient?'
   year: '2023'
   source: Book chapter

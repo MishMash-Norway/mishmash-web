@@ -26,8 +26,7 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: "Fem grunner til at det ikke finnes virkelig intelligente roboter\n     \
-    \  - Titan.uio.no"
+- title: "Fem grunner til at det ikke finnes virkelig intelligente roboter\n - Titan.uio.no"
   year: '2026'
   source: Popular science article
   url: https://www.titan.uio.no/teknologi/2026/fem-grunner-til-at-det-ikke-finnes-virkelig-intell.html

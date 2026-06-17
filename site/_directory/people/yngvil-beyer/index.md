@@ -95,8 +95,8 @@ selected_works:
   - name: Yngvil Beyer
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
-- title: '"The Peder Rafn-Project". Reading a  16th & 17th Century Collection of Danish
-    Norwegian and German Broadsheet ballads in  Transkribus'
+- title: '"The Peder Rafn-Project". Reading a 16th & 17th Century Collection of Danish
+    Norwegian and German Broadsheet ballads in Transkribus'
   year: '2022'
   source: Conference lecture
   contributors:

@@ -146,7 +146,7 @@ selected_works:
   - name: Ida Jahr
     slug: ida-jahr
     url: /people/ida-jahr/
-- title: '“I only want to feel the sun on my face”: AIs  driven mad by bodiless existence
+- title: '“I only want to feel the sun on my face”: AIs driven mad by bodiless existence
     in darkness.'
   year: '2025'
   source: Conference lecture

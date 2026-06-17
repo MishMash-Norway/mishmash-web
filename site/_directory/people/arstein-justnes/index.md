@@ -54,7 +54,7 @@ selected_works:
   - name: Årstein Justnes
     slug: arstein-justnes
     url: /people/arstein-justnes/
-- title: "UiA får to nye Marie Curie-stipendiater\n       - Universitetet i Agder"
+- title: "UiA får to nye Marie Curie-stipendiater\n - Universitetet i Agder"
   year: '2026'
   source: Interview
   url: https://www.uia.no/om-uia/nyheter/uia-far-to-nye-marie-curie-stipendiater.html
