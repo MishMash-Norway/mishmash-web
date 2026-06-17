@@ -3,23 +3,51 @@
 [![Web Quality Checks](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml/badge.svg)](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml)
 [![Deploy Jekyll site to Pages](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/pages.yml/badge.svg)](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/pages.yml)
 
-This is the source code for the web page of [MishMash Centre for AI and Creativity](https://mishmash.no). The page is built with Jekyll and published on GitHub Pages.
+Source for [mishmash.no](https://mishmash.no) — the website of the **MishMash Centre for AI and Creativity**, a Norwegian research centre funded by the Research Council of Norway (2025–2030).
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for what to edit, generated files, sync scripts, and the PR/deploy workflow.
+The site is a [Jekyll](https://jekyllrb.com/) static site (Cayman theme + custom CSS) published on GitHub Pages. Jekyll source lives in [`site/`](site/); tooling and config live at the repo root. Public URLs are unchanged.
 
-The Jekyll site source lives in [`site/`](site/). URLs are unchanged.
+## About the site
 
-## Maintain The Website
+| Area | URL | Source |
+| --- | --- | --- |
+| Front page | [/](https://mishmash.no/) | `site/index.md`, `site/no/index.md` |
+| About & organisation | [/about/](https://mishmash.no/about/) | `site/about/`, `site/no/about/` |
+| Work packages | [/wp1/](https://mishmash.no/wp1/) … [/wp7/](https://mishmash.no/wp7/) | `site/wp1/` … `site/wp7/` |
+| Events & calendar | [/events/](https://mishmash.no/events/) | `site/_events/` |
+| News | [/news/](https://mishmash.no/news/) | `site/_news/` |
+| People | [/people/{slug}/](https://mishmash.no/people/) | `site/_directory/people/` |
+| Institutions | [/institutions/{slug}/](https://mishmash.no/institutions/) | `site/_directory/institutions/` |
+| Projects | [/projects/{slug}/](https://mishmash.no/projects/) | `site/_directory/projects/` |
+| People network | [/people/network/](https://mishmash.no/people/network/) | `site/people/network/index.html` |
+| Research results | [/results/](https://mishmash.no/results/) | NVA sync → `site/_data/mishmash_results.yml` |
+| Vacancies | [/vacancies/](https://mishmash.no/vacancies/) | `site/vacancies/index.md` |
+| Search | [/search/](https://mishmash.no/search/) | `site/search/` + `site/search.json` |
+| Norwegian (Bokmål) | [/no/…](https://mishmash.no/no/) | `site/no/` |
 
-### 1) Local setup
+English is the default language. Norwegian pages mirror key sections under `/no/…` with `lang: nb` and `translation_url` links.
 
-Install Ruby gems (Jekyll and tooling):
+## Documentation
+
+- [CONTRIBUTING.md](CONTRIBUTING.md) — what to edit, generated files, PR workflow
+- [scripts/README.md](scripts/README.md) — Python automation (NVA sync, events, tags, images)
+- [config/README.md](config/README.md) — local NVA credentials and tag merge map
+- [GitHub Wiki](https://github.com/MishMash-Norway/mishmash-web/wiki) — detailed maintenance guides
+
+## Local setup
+
+### Jekyll
 
 ```bash
 bundle install
+bundle exec jekyll serve --livereload
 ```
 
-Optional Python helper scripts setup:
+Site: `http://127.0.0.1:4000`
+
+### Python scripts (optional)
+
+For NVA/ORCID sync, directory validation, tag merging, and event helpers:
 
 ```bash
 python3 -m venv venv
@@ -27,43 +55,27 @@ source venv/bin/activate
 pip install -r scripts/requirements.txt
 ```
 
-Run locally:
+NVA credentials: see [config/README.md](config/README.md). Never commit credential files.
 
-```bash
-bundle exec jekyll serve --livereload
-```
+## Where to edit content
 
-Site will be available at `http://127.0.0.1:4000`.
+All published content is under `site/`:
 
-### 2) Where to edit content
+- **Hand-edited:** about pages, news, events, vacancies, work packages, institution entries, layouts/CSS
+- **People profiles:** `site/_directory/people/<slug>/index.md` — many fields sync nightly from [NVA](https://nva.sikt.no/) when `urls.nva` is set
+- **Machine-updated:** `site/_data/mishmash_results.yml`, person portraits, synced person fields (see CONTRIBUTING.md)
 
-All site content is under `site/`:
+Copy `site/_directory/people/_template/` to add a new person. Set `slug`, `name`, and at least `urls.nva` or `urls.orcid`.
 
-- Front page content: `site/index.md`
-- About pages: `site/about/` and `site/no/about/`
-- News posts: `site/_news/`
-- Events: `site/_events/`
-- Directory entries:
-  - people: `site/_directory/people/`
-  - institutions: `site/_directory/institutions/`
-  - projects: `site/_directory/projects/`
-- Shared translations and event data: `site/_data/`
-
-### 3) Validation before push
-
-Build:
+## Validation before push
 
 ```bash
 bundle exec jekyll build --trace
-```
-
-Check internal links (same check as CI):
-
-```bash
 bundle exec htmlproofer ./_site --disable-external --no-enforce-https
+python3 scripts/validate_directory.py
 ```
 
-Accessibility scan (same URLs as CI):
+Optional accessibility scan (same as CI):
 
 ```bash
 python3 -m http.server 4000 --directory _site &
@@ -71,25 +83,28 @@ npx --yes wait-on@7 http://127.0.0.1:4000/
 npx --yes pa11y-ci@3 --config .pa11yci.json
 ```
 
-### 4) Publish flow
+## Automation
 
-1. Create a branch and commit changes.
-1. Open a pull request.
-1. Ensure "Web Quality Checks" passes.
-1. Merge to `main`.
-1. GitHub Pages deployment runs automatically via `.github/workflows/pages.yml`.
+| What | How |
+| --- | --- |
+| Deploy to mishmash.no | Push/merge to `main` → `.github/workflows/pages.yml` |
+| Quality checks on PRs | `.github/workflows/web-tests.yml` |
+| Nightly people + results sync | `.github/workflows/enrich-directory-people.yml` |
+| Merge similar tags | `python3 scripts/merge_tags.py` (see `config/tag_merge_map.yml`) |
 
-### 5) Important maintenance notes
+## Publish flow
 
-- Internal pages use a password hash in `_config.yml` (`internal_password_hash`).
-  - To rotate password: `echo -n 'newpassword' | sha256sum`
-  - Replace hash value and redeploy.
-- Prefer absolute asset paths (`/assets/...`) in shared pages/includes to avoid language-path breakage.
-- Keep event/news dates accurate and watch `future: true` behavior for future-dated entries.
+1. Branch from `main`, commit changes.
+2. Open a pull request.
+3. Wait for **Web Quality Checks** to pass.
+4. Merge to `main` — GitHub Pages deploys automatically.
 
 ## Wiki
 
-Maintenance documentation is also available in the GitHub Wiki:
+Extended documentation lives in the [GitHub Wiki](https://github.com/MishMash-Norway/mishmash-web/wiki):
 
-- [Wiki Home](https://github.com/MishMash-Norway/mishmash-web/wiki)
+- [Home](https://github.com/MishMash-Norway/mishmash-web/wiki)
+- [Site Architecture](https://github.com/MishMash-Norway/mishmash-web/wiki/Site-Architecture)
+- [Directory](https://github.com/MishMash-Norway/mishmash-web/wiki/Directory)
+- [Scripts and Automation](https://github.com/MishMash-Norway/mishmash-web/wiki/Scripts-and-Automation)
 - [Maintaining the Page](https://github.com/MishMash-Norway/mishmash-web/wiki/Maintaining-the-Page)
