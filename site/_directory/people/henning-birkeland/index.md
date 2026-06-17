@@ -88,8 +88,8 @@ selected_works:
   - name: Henning Birkeland
     slug: henning-birkeland
     url: /people/henning-birkeland/
-- title: The impact of AI – how will  it affect the industry and the  education of
-    visual and 3D arts?
+- title: The impact of AI – how will it affect the industry and the education of visual
+    and 3D arts?
   year: '2024'
   source: Conference lecture
   contributors:

@@ -51,6 +51,14 @@ search_keywords:
 - Music Technology
 - Sound analysis /synthesis
 selected_works:
+- title: Mennesker og maskiner
+  year: '2026'
+  source: Reader opinion
+  url: https://www.forskerforum.no/forskerlivet/vi-ma-se-oss-selv-i-speilet-hver-gang-vi-bruker-et-ki-verktoy-er-vi-med-pa-a-legitimere-det/
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 - title: Creativity and biology research
   year: '2026'
   source: Lecture
@@ -133,17 +141,6 @@ selected_works:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: 'Live frå Aulaen: Musikk-spesial'
-  year: '2026'
-  source: Radio or TV
-  url: https://radio.nrk.no/serie/etikketaten/DMPO38401726
-  contributors:
-  - name: Kjersti Anderdal Bakken
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Tine Thing Helseth
-  - name: Ragnhild Schiager Folkestad
 source_mentions:
 - about/organisation/board/index.md
 summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music technology

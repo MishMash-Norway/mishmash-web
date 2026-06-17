@@ -83,7 +83,7 @@ selected_works:
   - name: Prof. Dr. Claus-Steffen Mahnkopf
   - name: Prof. Dr. Tobias Janz
   - name: Dr. Sonja Dierks
-- title: 'Who Brought You Out of the Land:  Composition and Migration in the Composition
+- title: 'Who Brought You Out of the Land: Composition and Migration in the Composition
     Asher Hotseti Etkhem'
   year: '2026'
   source: Journal article
