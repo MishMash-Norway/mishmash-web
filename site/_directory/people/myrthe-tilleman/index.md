@@ -33,13 +33,12 @@ tags:
 - Robotics
 - Brain imaging
 - Neuroscience
-- Machine learning
-- Human machine interaction
+- Machine Learning
+- Human computer interaction
 - Network systems
-- Human-machine interaction
 - immersive interaction
 - brain-computer interfaces
-- real-time systems
+- Real-time systems
 search_keywords:
 - Prosthesis
 - Motion Capture
@@ -47,13 +46,12 @@ search_keywords:
 - Robotics
 - Brain imaging
 - Neuroscience
-- Machine learning
-- Human machine interaction
+- Machine Learning
+- Human computer interaction
 - Network systems
-- Human-machine interaction
 - immersive interaction
 - brain-computer interfaces
-- real-time systems
+- Real-time systems
 selected_works:
 - title: 'Impact of Latency on User Experience in Immersive Teleoperation: A Study
     with Motion Capture Gloves and Dexterous Robotic Hand'

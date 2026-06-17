@@ -27,11 +27,11 @@ urls:
 aliases: []
 tags:
 - multimodal learning
-- music artificial intelligence
+- AI music
 - computational music analysis
 search_keywords:
 - multimodal learning
-- music artificial intelligence
+- AI music
 - computational music analysis
 selected_works:
 - title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing

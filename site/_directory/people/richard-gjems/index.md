@@ -26,18 +26,18 @@ urls:
   nva: https://nva.sikt.no/research-profile/13842
 aliases: []
 tags:
-- Digital libary
+- Digital library
 - Cultural History
-- Archive
+- Archives
 - Library Science
 - digital cultural heritage
 - rights management
 - archival theory
 - popular music history
 search_keywords:
-- Digital libary
+- Digital library
 - Cultural History
-- Archive
+- Archives
 - Library Science
 - digital cultural heritage
 - rights management

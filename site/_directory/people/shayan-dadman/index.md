@@ -29,18 +29,18 @@ urls:
   nva: https://nva.sikt.no/research-profile/1218059
 aliases: []
 tags:
-- Human-Computer Interaction (HCI)
+- Human computer interaction
 - Computational Creativity
-- Deep Learning
+- Deep learning
 - Reinforcement Learning
 - Multi-Agent Systems
 - Human-AI Co-Creation
 - Music Information Retrieval
 - Neural Audio Synthesis
 search_keywords:
-- Human-Computer Interaction (HCI)
+- Human computer interaction
 - Computational Creativity
-- Deep Learning
+- Deep learning
 - Reinforcement Learning
 - Multi-Agent Systems
 - Human-AI Co-Creation

@@ -41,7 +41,6 @@ tags:
 - Theater
 - Performing Arts
 - Choreomusicology
-- Choreography.
 search_keywords:
 - Dance anthropology
 - Philosophy of Technology
@@ -57,7 +56,6 @@ search_keywords:
 - Theater
 - Performing Arts
 - Choreomusicology
-- Choreography.
 selected_works:
 - title: 'A Framework for Human–AI Dance Creation: The Machinic Movement Matrix'
   year: '2026'

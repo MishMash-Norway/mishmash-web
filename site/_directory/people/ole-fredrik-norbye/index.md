@@ -30,24 +30,24 @@ tags:
 - Creativity
 - Music performance
 - Contemporary Church Music
-- Innovation
-- Popularmusic
+- innovation
+- Popular music
 - Music
-- AI
-- improvisation
+- Artificial intelligence
+- Improvisation
 - self efficacy
-- education
+- Education
 search_keywords:
 - Creativity
 - Music performance
 - Contemporary Church Music
-- Innovation
-- Popularmusic
+- innovation
+- Popular music
 - Music
-- AI
-- improvisation
+- Artificial intelligence
+- Improvisation
 - self efficacy
-- education
+- Education
 selected_works:
 - title: Mastersamling for masterstudentar frå INN, NMH og NLA
   year: '2026'

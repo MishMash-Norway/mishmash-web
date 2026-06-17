@@ -28,29 +28,27 @@ aliases: []
 tags:
 - Digital electronics
 - Sound analysis /synthesis
-- Machine learning
+- Machine Learning
 - Real-time systems
 - Digital signal processing
 - Musical interaction
-- Embedded system
+- Embedded Systems
 - Music Technology
 - Sound and Music Computing
 - Musical Interfaces
 - Sound Synthesis
-- Embedded Systems
 search_keywords:
 - Digital electronics
 - Sound analysis /synthesis
-- Machine learning
+- Machine Learning
 - Real-time systems
 - Digital signal processing
 - Musical interaction
-- Embedded system
+- Embedded Systems
 - Music Technology
 - Sound and Music Computing
 - Musical Interfaces
 - Sound Synthesis
-- Embedded Systems
 selected_works:
 - title: 'HS-ims: A Platform for Human-Swarm Interactive Music Systems'
   year: '2025'

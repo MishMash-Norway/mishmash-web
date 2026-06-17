@@ -37,7 +37,7 @@ tags:
 - Qualitative research
 - Digital ethnography
 - Artificial intelligence
-- machine learning
+- Machine Learning
 - vernacular creativity
 - digital folklore
 - sociology of technology
@@ -57,7 +57,7 @@ search_keywords:
 - Qualitative research
 - Digital ethnography
 - Artificial intelligence
-- machine learning
+- Machine Learning
 - vernacular creativity
 - digital folklore
 - sociology of technology

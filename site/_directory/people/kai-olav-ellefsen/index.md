@@ -26,7 +26,7 @@ urls:
   nva: https://nva.sikt.no/research-profile/33506
 aliases: []
 tags:
-- Artificial Intelligence
+- Artificial intelligence
 - Machine Learning
 - Robotics
 - Reinforcement Learning
@@ -34,7 +34,7 @@ tags:
 - Bio-inspired computing
 - psychology-inspired computing
 search_keywords:
-- Artificial Intelligence
+- Artificial intelligence
 - Machine Learning
 - Robotics
 - Reinforcement Learning

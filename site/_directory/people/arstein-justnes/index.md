@@ -27,15 +27,15 @@ urls:
 aliases: []
 tags:
 - Dead Sea Scrolls
-- Manuscript Studies
+- Manuscripts
 - Digital Humanities
-- AI
+- Artificial intelligence
 - Mindfulness
 search_keywords:
 - Dead Sea Scrolls
-- Manuscript Studies
+- Manuscripts
 - Digital Humanities
-- AI
+- Artificial intelligence
 - Mindfulness
 selected_works:
 - title: Smuglergodset som ble buddhismens dødehavsruller

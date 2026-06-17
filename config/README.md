@@ -20,3 +20,9 @@ Scripts pick credentials in this order:
 3. Override path with `NVA_CREDENTIALS_FILE=/path/to/file.json`
 
 GitHub Actions still uses repository secrets (`NVA_CLIENT_ID`, `NVA_CLIENT_SECRET`), not these files.
+
+## Tag merge map
+
+`tag_merge_map.yml` defines canonical tag names and variants to merge across the site.
+Use `python3 scripts/merge_tags.py --report` to audit tags and
+`python3 scripts/merge_tags.py --dry-run` before applying changes.

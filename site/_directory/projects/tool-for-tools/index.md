@@ -15,7 +15,7 @@ tags:
 - Seed Funding
 - Cross-WP
 - Tools
-- Infrastructure
+- infrastructure
 - Collaboration
 slug: tool-for-tools
 name: Tool for tools

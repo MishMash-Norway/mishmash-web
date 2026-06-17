@@ -30,9 +30,9 @@ urls:
 aliases: []
 tags:
 - human voice
-- music
+- Music
 - digital humans
-- deepfakes
+- Deepfakes
 - human brain
 - neuroimaging
 - sound archeology
@@ -41,9 +41,9 @@ tags:
 - computational cognition
 search_keywords:
 - human voice
-- music
+- Music
 - digital humans
-- deepfakes
+- Deepfakes
 - human brain
 - neuroimaging
 - sound archeology

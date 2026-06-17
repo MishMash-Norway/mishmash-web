@@ -27,8 +27,8 @@ urls:
   nva: https://nva.sikt.no/research-profile/1288971
 aliases: []
 tags:
-- Artificial Intelligence
-- Human–Computer Interaction
+- Artificial intelligence
+- Human computer interaction
 - Computer-Assisted Composition
 - Algorithmic Creativity
 - Live Electronics
@@ -36,10 +36,10 @@ tags:
 - Computational Musicology
 - Algorithmic Poetry
 - Interactive Systems
-- Artistic Research
+- Artistic research
 search_keywords:
-- Artificial Intelligence
-- Human–Computer Interaction
+- Artificial intelligence
+- Human computer interaction
 - Computer-Assisted Composition
 - Algorithmic Creativity
 - Live Electronics
@@ -47,7 +47,7 @@ search_keywords:
 - Computational Musicology
 - Algorithmic Poetry
 - Interactive Systems
-- Artistic Research
+- Artistic research
 selected_works:
 - title: 'NeuralConstraints: integrating a neural generative model with constraint-based
     composition'

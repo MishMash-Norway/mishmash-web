@@ -34,7 +34,7 @@ tags:
 - Cognitive processes
 - organizational learning
 - technology leadership
-- artificial intelligence
+- Artificial intelligence
 - complexity sciences
 - system dynamics
 - systems thinking
@@ -45,7 +45,7 @@ search_keywords:
 - Cognitive processes
 - organizational learning
 - technology leadership
-- artificial intelligence
+- Artificial intelligence
 - complexity sciences
 - system dynamics
 - systems thinking

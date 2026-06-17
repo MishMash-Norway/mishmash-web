@@ -33,7 +33,7 @@ tags:
 - Music didaktik
 - Empirical music education research
 - Musical competence development
-- Arts Education
+- Arts education
 - Psychometrics
 - Item response theory
 - Competency modelling
@@ -46,7 +46,7 @@ search_keywords:
 - Music didaktik
 - Empirical music education research
 - Musical competence development
-- Arts Education
+- Arts education
 - Psychometrics
 - Item response theory
 - Competency modelling

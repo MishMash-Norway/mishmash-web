@@ -28,7 +28,6 @@ urls:
   nva: https://nva.sikt.no/research-profile/451223
 aliases: []
 tags:
-- Human-Computer Interaction
 - Human computer interaction
 - User Experience
 - Human Engaged Computing
@@ -42,7 +41,6 @@ tags:
 - Data Visualization
 - Creative Technologies
 search_keywords:
-- Human-Computer Interaction
 - Human computer interaction
 - User Experience
 - Human Engaged Computing

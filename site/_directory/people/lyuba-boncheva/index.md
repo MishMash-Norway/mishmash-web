@@ -27,27 +27,27 @@ urls:
   nva: https://nva.sikt.no/research-profile/1889228
 aliases: []
 tags:
-- AI
+- Artificial intelligence
 - museums
-- culturalheritage
+- Cultural Heritage
 - innovation
 - audienceexperience
 - AI-mediation
 - valuecreation
 - culturalvalue
 - transformativetechnologies
-- performingarts
+- Performing Arts
 search_keywords:
-- AI
+- Artificial intelligence
 - museums
-- culturalheritage
+- Cultural Heritage
 - innovation
 - audienceexperience
 - AI-mediation
 - valuecreation
 - culturalvalue
 - transformativetechnologies
-- performingarts
+- Performing Arts
 selected_works: []
 source_mentions: []
 summary: 'Thank you for this! : )'

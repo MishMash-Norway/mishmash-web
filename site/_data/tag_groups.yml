@@ -1,147 +1,134 @@
-# Maps NVA research keywords to broader display groups on the people network.
-# Each person tag matches the first group with an exact tag hit, then the first
-# pattern substring match. Unmatched tags are shown under their original name.
 groups:
-  - label: Artificial intelligence
-    tags:
-      - Artificial intelligence
-
-  - label: Music & sound
-    tags:
-      - Music Technology
-      - Sound Art
-      - Sound analysis /synthesis
-      - Musicology
-      - Systematic musicology
-      - Music
-      - Music education
-      - Creative music education
-      - Music and health
-      - Music Improvisation
-      - Construction of musical instruments
-      - Sound sculpture
-      - Human Interface Devices
-      - Sound/music in new media
-      - Sound/music installations
-      - Piano/ Keyboard
-      - Songwriting
-    patterns:
-      - music
-      - sound
-
-  - label: Film & media
-    tags:
-      - Film and TV
-      - Film Studies
-      - Film Sound
-      - Filmbransje
-      - Media Studies
-      - Media-art
-      - New Media
-      - Multimedia
-      - Audio-visual production
-      - Directing for documantaries and television
-      - Manuscripts
-      - Production
-    patterns:
-      - film
-      - media
-      - television
-      - documantar
-
-  - label: Education
-    tags:
-      - Educational theory
-      - Higher music education
-      - Educational management
-      - Arts education
-      - Philosophy of education
-      - Theory of education
-      - Arts didactics
-    patterns:
-      - education
-      - didactics
-      - pedagog
-
-  - label: Human–computer interaction
-    tags:
-      - Human computer interaction
-      - Interaction design
-      - Human Factors
-      - Cognitive Ergonomics
-      - Physical Ergonomics
-      - Ergonomics
-      - Eye-tracking
-      - Training Assessment
-      - Maritime Human Factors
-      - Simulator training
-    patterns:
-      - ergonomics
-      - human factor
-      - interaction design
-      - eye-tracking
-      - simulator
-
-  - label: Computing & networks
-    tags:
-      - Informatics
-      - Communication systems
-      - Operating systems
-      - Distributed multimedia
-      - Computer networking
-      - Data communication
-      - Internet
-      - Distributed systems
-      - Networks and distributed systems
-      - Communication protocols
-      - Applied statistics
-    patterns:
-      - networking
-      - distributed system
-      - communication protocol
-      - informatics
-      - operating system
-
-  - label: Arts & aesthetics
-    tags:
-      - Artistic research
-      - Art research
-      - Aesthetics
-      - Art History
-      - Art
-      - Arts
-    patterns:
-      - aesthetics
-      - art history
-      - artistic research
-
-  - label: Innovation & technology studies
-    tags:
-      - Innovation studies
-      - Technology, Innovation and Culture
-      - Responsible Research and Innovation
-    patterns:
-      - innovation
-      - responsible research
-
-  - label: Politics & society
-    tags:
-      - Politics of knowledge
-      - Political theory
-      - Surveillance and privacy studies
-      - Personvern økende teknologi
-    patterns:
-      - political
-      - privacy
-      - personvern
-      - surveillance
-
-  - label: Energy & biotechnology
-    tags:
-      - Energy
-      - Battery technology
-      - Human biotechnologies
-    patterns:
-      - biotechnolog
-      - battery
-      - energy
+- label: Artificial intelligence
+  tags:
+  - Artificial intelligence
+- label: Music & sound
+  tags:
+  - Music Technology
+  - Sound Art
+  - Sound analysis /synthesis
+  - Musicology
+  - Systematic musicology
+  - Music
+  - Music education
+  - Creative music education
+  - Music and health
+  - Music Improvisation
+  - Construction of musical instruments
+  - Sound sculpture
+  - Human Interface Devices
+  - Sound/music in new media
+  - Sound/music installations
+  - Piano/ Keyboard
+  - Songwriting
+  patterns:
+  - music
+  - sound
+- label: Film & media
+  tags:
+  - Film and TV
+  - Film Studies
+  - Film Sound
+  - Filmbransje
+  - Media Studies
+  - Media-art
+  - New Media
+  - Multimedia
+  - Audio-visual production
+  - Directing for documentaries and television
+  - Manuscripts
+  - Production
+  patterns:
+  - film
+  - media
+  - television
+  - documantar
+- label: Education
+  tags:
+  - Educational theory
+  - Higher music education
+  - Educational management
+  - Arts education
+  - Philosophy of education
+  - Theory of education
+  - Arts didactics
+  patterns:
+  - education
+  - didactics
+  - pedagog
+- label: Human–computer interaction
+  tags:
+  - Human computer interaction
+  - Interaction design
+  - Human Factors
+  - Cognitive Ergonomics
+  - Physical Ergonomics
+  - Ergonomics
+  - Eye-tracking
+  - Training Assessment
+  - Maritime Human Factors
+  - Simulator training
+  patterns:
+  - ergonomics
+  - human factor
+  - interaction design
+  - eye-tracking
+  - simulator
+- label: Computing & networks
+  tags:
+  - Informatics
+  - Communication systems
+  - Operating systems
+  - Distributed multimedia
+  - Computer networking
+  - Data communication
+  - Internet
+  - Distributed systems
+  - Networks and distributed systems
+  - Communication protocols
+  - Applied statistics
+  patterns:
+  - networking
+  - distributed system
+  - communication protocol
+  - informatics
+  - operating system
+- label: Arts & aesthetics
+  tags:
+  - Artistic research
+  - Aesthetics
+  - Art History
+  - Art
+  - Arts
+  patterns:
+  - aesthetics
+  - art history
+  - artistic research
+- label: Innovation & technology studies
+  tags:
+  - Innovation studies
+  - Technology, Innovation and Culture
+  - Responsible Research and Innovation
+  patterns:
+  - innovation
+  - responsible research
+- label: Politics & society
+  tags:
+  - Politics of knowledge
+  - Political theory
+  - Surveillance and privacy studies
+  - Personvern økende teknologi
+  patterns:
+  - political
+  - privacy
+  - personvern
+  - surveillance
+- label: Energy & biotechnology
+  tags:
+  - Energy
+  - Battery technology
+  - Human biotechnologies
+  patterns:
+  - biotechnolog
+  - battery
+  - energy

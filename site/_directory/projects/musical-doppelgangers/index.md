@@ -8,7 +8,7 @@ wps:
 tags:
 - Seed Funding
 - WP1
-- Music Performance
+- Music performance
 - Replay
 - Agency
 slug: musical-doppelgangers

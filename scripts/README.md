@@ -185,3 +185,23 @@ Example:
 ```bash
 python3 scripts/combine_image_slices.py first.jpg second.jpg output.jpg --left-ratio 0.4 --right-ratio 0.6
 ```
+
+Merge similar tags
+------------------
+
+Tags appear in directory profiles, events, and `search_keywords`. Similar spellings
+and casing variants can be merged site-wide with `config/tag_merge_map.yml`.
+
+Quick start:
+
+```bash
+python3 scripts/merge_tags.py --report
+python3 scripts/merge_tags.py --dry-run
+python3 scripts/merge_tags.py
+```
+
+Useful flags:
+
+- `--suggest` with `--report` prints YAML for unmapped duplicate groups.
+- `--map path/to/tag_merge_map.yml` uses a custom mapping file.
+- `--tag-groups site/_data/tag_groups.yml` also updates people-network tag groups.

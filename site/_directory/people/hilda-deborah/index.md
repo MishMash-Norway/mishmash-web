@@ -37,7 +37,6 @@ tags:
 - manuscript research
 - texture analysis
 - perception studies
-- image quality assessments
 search_keywords:
 - Digital Humanities
 - Remote sensing
@@ -50,7 +49,6 @@ search_keywords:
 - manuscript research
 - texture analysis
 - perception studies
-- image quality assessments
 selected_works:
 - title: Catching illegal construction from 700 km up
   year: '2026'

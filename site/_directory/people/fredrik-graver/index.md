@@ -35,7 +35,7 @@ tags:
 - Technology, Innovation and Culture
 - Theory of education
 - Arts education
-- Art research
+- Artistic research
 - Arts
 search_keywords:
 - Educational management
@@ -45,7 +45,7 @@ search_keywords:
 - Technology, Innovation and Culture
 - Theory of education
 - Arts education
-- Art research
+- Artistic research
 - Arts
 selected_works:
 - title: 'Towards a philosophy of film school pedagogy: An ongoing philosophic journey

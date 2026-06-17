@@ -1,0 +1,130 @@
+# Tag merge map for the MishMash site.
+#
+# Each canonical tag (key) absorbs the listed variants. Variants are replaced
+# everywhere `tags` and `search_keywords` appear in Jekyll front matter, and
+# in `site/_data/tag_groups.yml`.
+#
+# Usage:
+#   python3 scripts/merge_tags.py --report     # audit tags and suggest gaps
+#   python3 scripts/merge_tags.py --dry-run    # preview changes
+#   python3 scripts/merge_tags.py              # apply mappings
+#
+# Add new groups here when you spot duplicates, then run with --dry-run first.
+
+fields:
+  - tags
+  - search_keywords
+
+merges:
+  # --- Artificial intelligence ---
+  Artificial intelligence:
+    - Artificial Intelligence
+    - artificial intelligence
+    - AI
+
+  Generative AI:
+    - genAI
+
+  # --- Human–computer interaction ---
+  Human computer interaction:
+    - Human-Computer Interaction
+    - Human–Computer Interaction
+    - Human-Computer Interaction (HCI)
+    - Human machine interaction
+    - Human-machine interaction
+
+  Human-AI interaction:
+    - Human AI Interaction
+
+  # --- Music ---
+  Music:
+    - music
+
+  Music education:
+    - Music Education
+
+  Music performance:
+    - Music Performance
+
+  AI music:
+    - music artificial intelligence
+
+  Popular music:
+    - Popularmusic
+
+  Computer-Assisted Composition:
+    - Computer assisted composition -music
+
+  Ethnomusicology:
+    - Etnomusicology
+
+  # --- Arts & research ---
+  Artistic research:
+    - Artistic Research
+    - Art research
+
+  Arts education:
+    - Arts Education
+
+  Archives:
+    - Archive
+
+  Manuscripts:
+    - Manuscript Studies
+
+  Performing Arts:
+    - performingarts
+
+  Choreography:
+    - Choreography.
+
+  # --- Heritage & culture ---
+  Cultural Heritage:
+    - culturalheritage
+
+  # --- Computing & methods ---
+  Machine Learning:
+    - Machine learning
+    - machine learning
+
+  Deep learning:
+    - Deep Learning
+
+  Deepfakes:
+    - deepfakes
+
+  Digital signal processing:
+    - Digital Signal Processing
+
+  Embedded Systems:
+    - Embedded system
+
+  Real-time systems:
+    - real-time systems
+
+  Image quality:
+    - image quality assessments
+
+  # --- Education & society ---
+  Education:
+    - education
+
+  Improvisation:
+    - improvisation
+
+  Creative Industries:
+    - Creative industry
+
+  innovation:
+    - Innovation
+
+  infrastructure:
+    - Infrastructure
+
+  neuroimaging:
+    - Neuroimaging
+
+# One-off variant -> canonical mappings (typos, abbreviations, etc.).
+aliases:
+  Digital libary: Digital library
+  Directing for documantaries and television: Directing for documentaries and television
