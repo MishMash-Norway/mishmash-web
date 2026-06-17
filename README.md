@@ -3,31 +3,13 @@
 [![Web Quality Checks](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml/badge.svg)](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml)
 [![Deploy Jekyll site to Pages](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/pages.yml/badge.svg)](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/pages.yml)
 
-Source for [mishmash.no](https://mishmash.no) — the website of the **MishMash Centre for AI and Creativity**, a Norwegian research centre funded by the Research Council of Norway (2025–2030).
+Source for [mishmash.no](https://mishmash.no) — the website of **MishMash Centre for AI and Creativity**, a Norwegian research consortium funded by the Research Council of Norway.
 
-The site is a [Jekyll](https://jekyllrb.com/) static site (Cayman theme + custom CSS) published on GitHub Pages. Jekyll source lives in [`site/`](site/); tooling and config live at the repo root. Public URLs are unchanged.
+The site is a [Jekyll](https://jekyllrb.com/) static site (Cayman theme + custom CSS) published on GitHub Pages. Jekyll source lives in [`site/`](site/); tooling and config live at the repo root. 
 
 ## About the site
 
-| Area | URL | Source |
-| --- | --- | --- |
-| Front page | [/](https://mishmash.no/) | `site/index.md`, `site/no/index.md` |
-| About & organisation | [/about/](https://mishmash.no/about/) | `site/about/`, `site/no/about/` |
-| Work packages | [/wp1/](https://mishmash.no/wp1/) … [/wp7/](https://mishmash.no/wp7/) | `site/wp1/` … `site/wp7/` |
-| Events & calendar | [/events/](https://mishmash.no/events/) | `site/_events/` |
-| News | [/news/](https://mishmash.no/news/) | `site/_news/` |
-| People | [/people/{slug}/](https://mishmash.no/people/) | `site/_directory/people/` |
-| Institutions | [/institutions/{slug}/](https://mishmash.no/institutions/) | `site/_directory/institutions/` |
-| Projects | [/projects/{slug}/](https://mishmash.no/projects/) | `site/_directory/projects/` |
-| People network | [/people/network/](https://mishmash.no/people/network/) | `site/people/network/index.html` |
-| Research results | [/results/](https://mishmash.no/results/) | NVA sync → `site/_data/mishmash_results.yml` |
-| Vacancies | [/vacancies/](https://mishmash.no/vacancies/) | `site/vacancies/index.md` |
-| Search | [/search/](https://mishmash.no/search/) | `site/search/` + `site/search.json` |
-| Norwegian (Bokmål) | [/no/…](https://mishmash.no/no/) | `site/no/` |
-
 English is the default language. Norwegian pages mirror key sections under `/no/…` with `lang: nb` and `translation_url` links.
-
-## Documentation
 
 - [CONTRIBUTING.md](CONTRIBUTING.md) — what to edit, generated files, PR workflow
 - [scripts/README.md](scripts/README.md) — Python automation (NVA sync, events, tags, images)
@@ -99,12 +81,6 @@ npx --yes pa11y-ci@3 --config .pa11yci.json
 3. Wait for **Web Quality Checks** to pass.
 4. Merge to `main` — GitHub Pages deploys automatically.
 
-## Wiki
+## Questions
 
-Extended documentation lives in the [GitHub Wiki](https://github.com/MishMash-Norway/mishmash-web/wiki):
-
-- [Home](https://github.com/MishMash-Norway/mishmash-web/wiki)
-- [Site Architecture](https://github.com/MishMash-Norway/mishmash-web/wiki/Site-Architecture)
-- [Directory](https://github.com/MishMash-Norway/mishmash-web/wiki/Directory)
-- [Scripts and Automation](https://github.com/MishMash-Norway/mishmash-web/wiki/Scripts-and-Automation)
-- [Maintaining the Page](https://github.com/MishMash-Norway/mishmash-web/wiki/Maintaining-the-Page)
+Write to contact@mishmash.no if you have any questions or comments.
