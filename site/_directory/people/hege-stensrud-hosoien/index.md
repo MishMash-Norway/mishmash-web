@@ -18,7 +18,7 @@ urls:
   github: ''
   linkedin: ''
   orcid: ''
-  nva: https://nva.sikt.no/research-profile/7304
+  nva: ''
   youtube: ''
   facebook: ''
   mastodon: ''
