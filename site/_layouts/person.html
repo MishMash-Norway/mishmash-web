@@ -164,37 +164,7 @@ layout: default
     {% include related-projects.html entity_path=person_slug_path project_slugs=page.projects section_class="person-projects" heading="MishMash Projects" %}
 
     {% if page.selected_works and page.selected_works.size > 0 %}
-    <section class="person-selected-works nva-results" aria-label="Latest results">
-      <h2>Latest results</h2>
-      <ol class="nva-results-list">
-        {% assign mishmash_results = site.data.mishmash_results.results %}
-        {% for work in page.selected_works limit: 10 %}
-        {% assign matched_result = nil %}
-        {% if mishmash_results %}
-          {% for candidate in mishmash_results %}
-            {% unless matched_result %}
-              {% if work.url and candidate.url and candidate.url == work.url %}
-                {% assign matched_result = candidate %}
-              {% elsif candidate.title == work.title %}
-                {% assign matched_result = candidate %}
-              {% endif %}
-            {% endunless %}
-          {% endfor %}
-        {% endif %}
-        {% assign card_id = 'abstract-person-' | append: page.slug | append: '-' | append: forloop.index %}
-        {% if matched_result %}
-          {% include nva-result-card.html result=matched_result card_id=card_id fallback_name=page.name fallback_url=page.url %}
-        {% else %}
-          {% include nva-result-card.html work=work card_id=card_id fallback_name=page.name fallback_url=page.url %}
-        {% endif %}
-        {% endfor %}
-      </ol>
-      {% if page.urls.nva.size > 0 %}
-      <p class="person-selected-works-more">
-        <a href="{{ page.urls.nva }}" target="_blank" rel="noopener noreferrer">{{ t.person_more_results_nva }}</a>
-      </p>
-      {% endif %}
-    </section>
+    {% include person-selected-works.html %}
     {% include nva-results-expand-script.html %}
     {% endif %}
   </div>

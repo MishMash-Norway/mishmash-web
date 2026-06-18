@@ -1,0 +1,182 @@
+{% assign lang = page.lang | default: 'en' %}
+{% assign t = site.data.translations[lang] %}
+{% assign mishmash_results = site.data.mishmash_results.results %}
+{% assign works_limit = include.limit | default: 10 %}
+{% assign ordered_type_slugs = "" %}
+{% assign ordered_type_names = "" %}
+{% assign person_work_count = 0 %}
+
+{% for work in page.selected_works limit: works_limit %}
+  {% assign matched_result = nil %}
+  {% if mishmash_results %}
+    {% for candidate in mishmash_results %}
+      {% unless matched_result %}
+        {% if work.url and candidate.url and candidate.url == work.url %}
+          {% assign matched_result = candidate %}
+        {% elsif candidate.title == work.title %}
+          {% assign matched_result = candidate %}
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+  {% endif %}
+  {% assign type_name = matched_result.group_type | default: matched_result.type_label | default: work.source | default: 'Other' %}
+  {% assign type_slug = type_name | slugify %}
+  {% assign slug_marker = "|" | append: type_slug | append: "|" %}
+  {% unless ordered_type_slugs contains slug_marker %}
+    {% assign ordered_type_slugs = ordered_type_slugs | append: slug_marker %}
+    {% assign ordered_type_names = ordered_type_names | append: type_name | append: "%%" %}
+  {% endunless %}
+  {% assign person_work_count = person_work_count | plus: 1 %}
+{% endfor %}
+
+{% assign type_name_list = ordered_type_names | split: "%%" %}
+
+<section class="person-selected-works nva-results" aria-label="Latest results">
+  <h2>Latest results</h2>
+
+  {% if type_name_list.size > 1 %}
+  <div class="nva-results-filters search-filters">
+    <div class="filter-group">
+      <span class="filter-label" id="person-results-filter-label">{{ t.results_filter_label }}</span>
+      <div class="chip-list" role="group" aria-labelledby="person-results-filter-label">
+        <button type="button" class="filter-chip nva-filter-chip active" data-filter="all">
+          {{ t.results_filter_all }} ({{ person_work_count }})
+        </button>
+        {% for type_name in type_name_list %}
+        {% if type_name != '' %}
+        {% assign type_slug = type_name | slugify %}
+        {% assign type_count = 0 %}
+        {% for work in page.selected_works limit: works_limit %}
+          {% assign matched_result = nil %}
+          {% if mishmash_results %}
+            {% for candidate in mishmash_results %}
+              {% unless matched_result %}
+                {% if work.url and candidate.url and candidate.url == work.url %}
+                  {% assign matched_result = candidate %}
+                {% elsif candidate.title == work.title %}
+                  {% assign matched_result = candidate %}
+                {% endif %}
+              {% endunless %}
+            {% endfor %}
+          {% endif %}
+          {% assign work_type_name = matched_result.group_type | default: matched_result.type_label | default: work.source | default: 'Other' %}
+          {% if work_type_name == type_name %}
+            {% assign type_count = type_count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+        <button type="button" class="filter-chip nva-filter-chip" data-filter="{{ type_slug }}">
+          {{ type_name }} ({{ type_count }})
+        </button>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <p id="person-results-filter-status" class="nva-results-filter-status" aria-live="polite"></p>
+  </div>
+  {% endif %}
+
+  <div class="nva-results-groups">
+    {% for type_name in type_name_list %}
+    {% if type_name != '' %}
+    {% assign type_slug = type_name | slugify %}
+    <section class="nva-results-group" data-result-type="{{ type_slug }}"{% if type_name_list.size > 1 %} aria-labelledby="person-results-type-{{ type_slug }}"{% endif %}>
+      {% if type_name_list.size > 1 %}
+      <h3 class="nva-results-group-title" id="person-results-type-{{ type_slug }}">{{ type_name }}</h3>
+      {% endif %}
+      <ol class="nva-results-list">
+        {% assign group_index = 0 %}
+        {% for work in page.selected_works limit: works_limit %}
+          {% assign matched_result = nil %}
+          {% if mishmash_results %}
+            {% for candidate in mishmash_results %}
+              {% unless matched_result %}
+                {% if work.url and candidate.url and candidate.url == work.url %}
+                  {% assign matched_result = candidate %}
+                {% elsif candidate.title == work.title %}
+                  {% assign matched_result = candidate %}
+                {% endif %}
+              {% endunless %}
+            {% endfor %}
+          {% endif %}
+          {% assign work_type_name = matched_result.group_type | default: matched_result.type_label | default: work.source | default: 'Other' %}
+          {% if work_type_name == type_name %}
+            {% assign group_index = group_index | plus: 1 %}
+            {% assign card_id = 'abstract-person-' | append: page.slug | append: '-' | append: type_slug | append: '-' | append: group_index %}
+            {% if matched_result %}
+              {% include nva-result-card.html result=matched_result card_id=card_id fallback_name=page.name fallback_url=page.url %}
+            {% else %}
+              {% include nva-result-card.html work=work card_id=card_id fallback_name=page.name fallback_url=page.url %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </section>
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  {% if page.urls.nva.size > 0 %}
+  <p class="person-selected-works-more">
+    <a href="{{ page.urls.nva }}" target="_blank" rel="noopener noreferrer">{{ t.person_more_results_nva }}</a>
+  </p>
+  {% endif %}
+</section>
+
+{% if type_name_list.size > 1 %}
+<script>
+(function () {
+  'use strict';
+
+  const root = document.querySelector('.person-selected-works.nva-results');
+  if (!root) return;
+
+  const filters = root.querySelectorAll('.nva-filter-chip');
+  const groups = root.querySelectorAll('.nva-results-group');
+  const statusEl = root.querySelector('#person-results-filter-status');
+  if (!filters.length || !groups.length) return;
+
+  const totalCount = {{ person_work_count }};
+  const showingAllLabel = {{ t.results_showing_all | jsonify }};
+  const showingTypeLabel = {{ t.results_showing_type | jsonify }};
+
+  function updateStatus(activeFilter, visibleCount) {
+    if (!statusEl) return;
+    if (activeFilter === 'all') {
+      statusEl.textContent = showingAllLabel.replace('{count}', String(totalCount));
+      return;
+    }
+    const activeButton = root.querySelector('.nva-filter-chip.active');
+    const typeName = activeButton ? activeButton.textContent.replace(/\s*\(\d+\)\s*$/, '').trim() : activeFilter;
+    statusEl.textContent = showingTypeLabel
+      .replace('{count}', String(visibleCount))
+      .replace('{type}', typeName);
+  }
+
+  function applyFilter(filter) {
+    let visibleCount = 0;
+
+    groups.forEach(function (group) {
+      const show = filter === 'all' || group.dataset.resultType === filter;
+      group.hidden = !show;
+      if (show) {
+        visibleCount += group.querySelectorAll('.nva-result-item').length;
+      }
+    });
+
+    filters.forEach(function (button) {
+      button.classList.toggle('active', button.dataset.filter === filter);
+    });
+
+    updateStatus(filter, visibleCount);
+  }
+
+  filters.forEach(function (button) {
+    button.addEventListener('click', function () {
+      applyFilter(button.dataset.filter || 'all');
+    });
+  });
+
+  applyFilter('all');
+})();
+</script>
+{% endif %}
