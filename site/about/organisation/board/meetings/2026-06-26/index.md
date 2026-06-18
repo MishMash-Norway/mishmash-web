@@ -58,7 +58,7 @@ Styret har bedt senterleder om å undersøke ansvarsforhold og mandat for styrea
 
 - Ansvar: Ettersom MishMash ikke er en egen organisasjon, men organisert som et konsortium med mange partnere som alle har uavhengig økonomi, har ikke styremedlemmene personlig ansvar for f.eks. økonomien i senteret. 
 
-- Mandat: Forskningsrådet krever at KI-sentrene har et styre, men har ikke spesifisert nærmere hvilket mandat som gjelder. Det foreslås følgende mandat for styret. 
+- Mandat: Forskningsrådet krever at KI-sentrene har et styre, men har ikke spesifisert nærmere hvilket mandat som gjelder. Det foreslås følgende mandat for styret:
 
 > Styret har ansvar for:
 >
@@ -127,10 +127,12 @@ Styret bes om kommentarer for å svare på henvendelsen.
 
 #### Bakgrunn
 
-Neste styremøte blir fysisk i Kristiansand i forbindelse med åpningskonferansen 14. september. Det foreslås at arbeidspakkelederne innkalles til møtet for å orientere kort om aktiviteten. Styret bes om å komme med innspill til hvilke saker som ønskes på agendaen. 
+Neste styremøte blir fysisk i Kristiansand i forbindelse med åpningskonferansen 14. september. Det foreslås at arbeidspakkelederne innkalles til møtet for å orientere kort om aktiviteten. Styret bes om å komme med innspill til hvilke saker som ønskes på agendaen.
 
 #### Behandling
 
 
 #### Forslag til vedtak 
 
+
+### 8. Eventuelt
