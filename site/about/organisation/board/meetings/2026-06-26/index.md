@@ -28,6 +28,7 @@ Sekretariat:
 
 #### Bakgrunn
 
+Innkallingen er utarbeidet av styreleder i samarbeid med senterleder.
 
 #### Behandling
 
@@ -40,37 +41,81 @@ Innkallingen ble godkjent.
 
 #### Bakgrunn
 
-  
+- [MishMash styremøte #1](https://mishmash.no/about/organisation/board/meetings/2026-04-10/)
+
 #### Behandling
 
 
 #### Forslag til vedtak
 
-Tatt til orientering.
+Protokollen fra forrige styremøte godkjennes.
    
 ### 3. Styrets funksjon
 
 #### Bakgrunn
 
-Forskningsrådet har ikke satt noen krav til styrets funksjon, det er dermed opp til styret selv å definere sin funksjon og mandat. 
+Styret har bedt senterleder om å undersøke ansvarsforhold og mandat for styrearbeidet. 
+
+- Ansvar: Ettersom MishMash ikke er en egen organisasjon, men organisert som et konsortium med mange partnere som alle har uavhengig økonomi, har ikke styremedlemmene personlig ansvar for f.eks. økonomien i senteret. 
+
+- Mandat: Forskningsrådet krever at KI-sentrene har et styre, men har ikke spesifisert nærmere hvilket mandat som gjelder. Det foreslås følgende mandat for styret. 
+
+> Styret har ansvar for:
+>
+> - Styring og overordnet oppfølging av MishMash
+> - Årlig godkjenning av regnskap og budsjett
+> - Strategiske beslutninger om senterets videre retning
+> - Oppfølging av at arbeidspakkene fungerer etter hensikten
+> - Strategisk arbeid innen både forskning og utdanning
+> - Tilrettelegging for søknader om ekstern finansiering
+
 
 #### Behandling
 
-Diskusjonen fokuserte på følgende punkter: 
-
-- Godkjenning av regnskap og budsjett
-- Strategisk arbeid innen både forskning og utdanning
-- Muligheter for ekstern finansiering
 
 #### Forslag til vedtak
 
-Tatt til orientering.
+Mandatet vedtas.
 
 ### 4. Kommunikasjon
 
 #### Bakgrunn
 
-MishMash arrangerte en workshop med kommunikasjonsrådgivere fra alle budsjettpartnere 17. juni. Der ble det lagt frem en overordnet plan for kommunikasjonsarbeidet til MishMash, både internt og eksternt, og med et forslag til kanalstrategi. 
+MishMash arrangerte en workshop med kommunikasjonsrådgivere fra alle budsjettpartnere 17. juni. Der ble det redegjort for det pågående kommunikasjonsarbeidet og lagt frem en kanalstrategi for det videre arbeidet. 
+
+#### Behandling
+
+
+#### Forslag til vedtak
+
+Saken tas til orientering.
+
+### 5. Regnskapsorientering
+
+#### Bakgrunn
+
+Administrativ koordinator vil orientere om hvordan det jobbes med med økonomistyring, regnskap og budsjett.
+
+#### Behandling
+
+
+#### Forslag til vedtak
+
+Saken tas til orientering
+
+### 6. Henvendelse fra KIKI
+
+#### Bakgrunn
+
+Styret har mottatt en henvendelse fra KIKI v/styreleder Flu Hartberg med følgende spørsmål: 
+
+> Er MishMash enig i at generativ KI, som billed, tekst og lyd-tjenester (Midjourney, Chat GPT, Suno osv) er en trussel mot norske kreative arbeidsplasser?
+>
+> Er MishMash enig i at tilblivelsen av nevnte språkmodeller er gjort ved å bryte norske og internasjonale regler om opphavsrett? Og at skraping av internett for å trene KI-modeller bør forbli ulovlig?
+>
+> Er MishMash enig i at man bør gjøre tiltak for å sikre norske kunstneres opphavsrett i møte med disse tjenestene? Det være seg offentlige krav til tek-selskaper som opererer på norsk jord, reguleringer og retningslinjer for offentlige instanser og kulturinstitusjoner osv.
+
+Styret bes om kommentarer for å svare på henvendelsen. 
 
 #### Behandling
 
@@ -78,36 +123,14 @@ MishMash arrangerte en workshop med kommunikasjonsrådgivere fra alle budsjettpa
 #### Forslag til vedtak
 
 
-
-### 5. Identifisering av viktige temaer å jobbe med
-
-#### Bakgrunn
-
-Gitt størrelsen og kompleksiteten til MishMash, vil det være mange store og generelle saker som vil måtte håndteres i årene fremover. 
-
-#### Behandling
-
-Senterleder orienterte om pågående saker:
-
-- Mye av den faglige aktiviteten vil foregå i arbeidspakkene, så det er viktig å følge med på at disse kommer godt i gang og fungerer som planlagt. 
-- Nå som rådet og styret er opprettet, er neste jobb å sikre at de assosierte partnere får tilsendt samarbeidsavtale til signering. De vil også kobles på via et interessentråd. 
-- Interinstitusjonelt UH-samarbeid blir en hovedutfordring for MishMash. Dette vil gjelde både forskning og utdanning og det vil være nødvendig å jobbe med eksisterende systemer (f.eks. UHR) for å finne gode løsninger.  
-- Samarbeid mellom UH-sektor og offentlige og private aktører er to andre viktige samarbeidsflater som må utvikles og utvides. 
-
-#### Forslag til vedtak
-
-Tatt til orientering. 
-
-### 6. Kommende møter
+### 7. Kommende møter
 
 #### Bakgrunn
 
-Det legges i utgangspunktet opp til to styremøter i året, med mulighet for ekstra møter ved behov. 
+Neste styremøte blir fysisk i Kristiansand i forbindelse med åpningskonferansen 14. september. Det foreslås at arbeidspakkelederne innkalles til møtet for å orientere kort om aktiviteten. Styret bes om å komme med innspill til hvilke saker som ønskes på agendaen. 
 
 #### Behandling
 
-Det ble ytret ønske om noen flere møter i begynnelsen for å komme i gang med arbeidet. 
 
 #### Forslag til vedtak 
 
-Det arrangeres et nettmøte før sommeren og et fysisk møte i forbindelse med konferansen i Kristiansand i september. 
