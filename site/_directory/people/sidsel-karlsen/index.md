@@ -12,7 +12,6 @@ institutions:
 affiliation_units:
 - Norwegian Academy of Music
 projects:
-- interactive-ai-driven-book-experiences
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
 roles:

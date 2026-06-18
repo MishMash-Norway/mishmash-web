@@ -10,7 +10,6 @@ institution: university-of-agder
 institutions:
 - university-of-agder
 projects:
-- interactive-ai-driven-book-experiences
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
 roles:

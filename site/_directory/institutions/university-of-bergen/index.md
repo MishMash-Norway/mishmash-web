@@ -25,7 +25,6 @@ projects:
 - ai-as-environment
 - ai-integration-film-tv-education
 - archival-intelligence
-- interactive-ai-driven-book-experiences
 - musical-doppelgangers
 country: null
 city: null

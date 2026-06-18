@@ -13,7 +13,6 @@ affiliation_units:
 - Faculty of Film, TV and Games
 - The Game School - Department of Game Development
 projects:
-- interactive-ai-driven-book-experiences
 - strategic-storyteller
 roles:
 - Work Package Leader Group member

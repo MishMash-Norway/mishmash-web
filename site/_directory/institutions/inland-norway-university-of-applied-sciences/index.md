@@ -24,7 +24,6 @@ people:
 projects:
 - ai-assisted-film-production-vita-vigeland
 - bingo-ai-assisted-animation-documentary-film
-- interactive-ai-driven-book-experiences
 - scoping-review-creative-ai-teaching-learning
 - strategic-storyteller
 - tao-transductive-acoustic-organism

@@ -79,7 +79,6 @@ Please keep in mind that there will be new opportunities coming up at regular in
 |Design for Dissemination |Aedan Soellaart |INN |0 |
 |[Movement-to-Music Hackathon: AI Pose Detection for Therapeutic and Wellbeing Applications](/projects/movement-to-music-hackathon/) |Andreas Bergsland |NTNU |45000 |
 |[Teacher Resources for Critical AI Literacy](/projects/teacher-resources-critical-ai-literacy/) |Eirik Sørbø |UiA |36800 |
-|[Interactive AI-driven book experiences](/projects/interactive-ai-driven-book-experiences/) |Eirik Sørbø |UiA |25000 |
 |[TAO - Transductive Acoustic Organism](/projects/tao-transductive-acoustic-organism/) |enrique encinas |AHO |25000 |
 |Composition using text-sound-video multimodal machine learning |Zoi Efstathiou |NMH |0 |
 |Cinema Syntethica Lab 4.0 - Co-creating film with AI |Hanne-Lovise Skartveit |INN |0 |

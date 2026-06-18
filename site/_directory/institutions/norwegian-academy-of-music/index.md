@@ -15,7 +15,6 @@ people:
 - sidsel-karlsen
 - victoria-johnson
 projects:
-- interactive-ai-driven-book-experiences
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq
 - scoping-review-creative-ai-teaching-learning

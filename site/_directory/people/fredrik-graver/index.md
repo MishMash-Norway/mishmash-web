@@ -10,7 +10,6 @@ institution: inland-norway-university-of-applied-sciences
 institutions:
 - inland-norway-university-of-applied-sciences
 projects:
-- interactive-ai-driven-book-experiences
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
 roles:

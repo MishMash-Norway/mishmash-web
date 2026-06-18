@@ -8,8 +8,7 @@ department: Department of Linguistic, Literary and Aesthetic studies
 institution: university-of-bergen
 institutions:
 - university-of-bergen
-projects:
-- interactive-ai-driven-book-experiences
+projects: []
 roles:
 - Member
 urls:
