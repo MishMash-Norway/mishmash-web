@@ -44,6 +44,7 @@ selected_works:
 - title: Konsert Lokalt Piano Skoklefall Kirke
   year: '2026'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Morten Qvenild
     slug: morten-qvenild
@@ -52,6 +53,7 @@ selected_works:
 - title: Lokalt Piano, by Morten Qvenild - Ugla Lyd
   year: '2026'
   source: Music performance
+  group_type: Music performance
   url: https://mortenqvenild.bandcamp.com/album/lokalt-piano
   contributors:
   - name: Morten Qvenild
@@ -61,6 +63,7 @@ selected_works:
 - title: Remembrance Konserter
   year: '2026'
   source: Music performance
+  group_type: Music performance
   url: https://www.researchcatalogue.net/view/3872769/3872770
   contributors:
   - name: Roger Arntzen
@@ -73,6 +76,7 @@ selected_works:
 - title: Remembrance - Exposition
   year: '2025'
   source: Music performance
+  group_type: Music performance
   url: https://www.researchcatalogue.net/view/3872769/3872770
   contributors:
   - name: Morten Qvenild
@@ -83,6 +87,7 @@ selected_works:
 - title: Mirra, by Benedicte Maurseth
   year: '2025'
   source: Music performance
+  group_type: Music performance
   url: https://maurseth.bandcamp.com/album/mirra
   contributors:
   - name: Håkon Mørch Stene
@@ -94,6 +99,7 @@ selected_works:
 - title: 'Samfunnsrelevans på spill: Kunstnerisk utviklingsarbeid i dagens utdanningspolitikk'
   year: '2025'
   source: Lecture
+  group_type: Lecture
   url: https://www.researchcatalogue.net/view/2421554/3524484
   contributors:
   - name: Synne Tollerud Bull
@@ -109,6 +115,7 @@ selected_works:
 - title: Symfoni
   year: '2024'
   source: Music performance
+  group_type: Music performance
   url: https://orcd.co/symfonirnq
   contributors:
   - name: Live Maria Roggen
@@ -119,6 +126,7 @@ selected_works:
 - title: Unheimlich Manoeuvre, by Jo Berger Myhre
   year: '2024'
   source: Music performance
+  group_type: Music performance
   url: https://jobergermyhre.bandcamp.com/album/unheimlich-manoeuvre
   contributors:
   - name: Morten Qvenild
@@ -130,6 +138,7 @@ selected_works:
 - title: Hvis det ikke brenner
   year: '2024'
   source: Performing arts
+  group_type: Performing arts
   contributors:
   - name: Morten Qvenild
     slug: morten-qvenild
@@ -139,6 +148,7 @@ selected_works:
 - title: Hva er kunstnerisk utviklingsarbeid på Norges Musikkhøgskole
   year: '2023'
   source: Presentation
+  group_type: Lecture
   contributors:
   - name: Morten Qvenild
     slug: morten-qvenild

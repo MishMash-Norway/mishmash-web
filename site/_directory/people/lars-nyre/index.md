@@ -31,6 +31,7 @@ selected_works:
 - title: Håndbok i innovasjon for studenter
   year: '2025'
   source: Textbook
+  group_type: Textbook
   contributors:
   - name: Lars Nyre
     slug: lars-nyre
@@ -43,6 +44,7 @@ selected_works:
 - title: 'Abels tårn: Hva skjer når to sorte hull krasjer?'
   year: '2024'
   source: Radio or TV
+  group_type: Media
   url: https://radio.nrk.no/podkast/abels_taarn/l_7b4d4843-70ae-440d-8d48-4370ae940d8c
   contributors:
   - name: Vegard Undheim
@@ -54,6 +56,7 @@ selected_works:
 - title: 'Mediedesign: en postnormal undersökning av framtidens tekniska medielösningar'
   year: '2023'
   source: Non-fiction chapter
+  group_type: Non-fiction chapter
   contributors:
   - name: Lars Nyre
     slug: lars-nyre
@@ -62,6 +65,7 @@ selected_works:
 - title: Veivakselen
   year: '2021'
   source: Popular science article
+  group_type: Popular science article
   contributors:
   - name: Lars Nyre
     slug: lars-nyre
@@ -70,6 +74,7 @@ selected_works:
 - title: Vi lagar teknologi. Innovasjonspedagogikk i Media City Bergen
   year: '2019'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Lars Nyre
     slug: lars-nyre
@@ -77,6 +82,7 @@ selected_works:
 - title: Innovasjonspedagogikk i Media City Bergen
   year: '2018'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Lars Nyre
     slug: lars-nyre
@@ -84,6 +90,7 @@ selected_works:
 - title: Principles for an AI Narrator
   year: '2018'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Lars Nyre
     slug: lars-nyre
@@ -91,6 +98,7 @@ selected_works:
 - title: Innovasjonspedagogikk for arbeidslivet i Media City Bergen
   year: '2018'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Lars Nyre
     slug: lars-nyre
@@ -98,6 +106,7 @@ selected_works:
 - title: Realistic face manipulation by morphing with average faces
   year: '2017'
   source: Journal article
+  group_type: Journal article
   url: https://ojs.bibsys.no/index.php/NIK/article/view/426
   contributors:
   - name: Joar Midtun
@@ -110,6 +119,7 @@ selected_works:
     Prototype
   year: '2016'
   source: Conference lecture
+  group_type: Conference
   url: http://foredrag.infodesign.no/home/2016/07-16-micro-positioned-storytelling-in-sound
   contributors:
   - name: Jon Hoem

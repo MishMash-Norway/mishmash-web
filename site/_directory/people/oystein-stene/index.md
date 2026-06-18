@@ -31,6 +31,7 @@ selected_works:
 - title: Skuespillerpodden
   year: '2023'
   source: Performing arts
+  group_type: Performing arts
   contributors:
   - name: Øystein Stene
     slug: oystein-stene
@@ -38,6 +39,7 @@ selected_works:
 - title: Transmania
   year: '2019'
   source: Feature article
+  group_type: Media
   contributors:
   - name: Øystein Stene
     slug: oystein-stene
@@ -46,6 +48,7 @@ selected_works:
     problem for demokratiet
   year: '2019'
   source: Feature article
+  group_type: Media
   contributors:
   - name: Øystein Stene
     slug: oystein-stene
@@ -53,6 +56,7 @@ selected_works:
 - title: De opplyste (lydbok)
   year: '2018'
   source: Literary arts
+  group_type: Literary arts
   contributors:
   - name: Øystein Stene
     slug: oystein-stene
@@ -60,6 +64,7 @@ selected_works:
 - title: 'Skriver og spiller del 2: Konseptutvikling'
   year: '2018'
   source: Working paper
+  group_type: Working paper
   contributors:
   - name: Øystein Stene
     slug: oystein-stene
@@ -67,6 +72,7 @@ selected_works:
 - title: Jeg har sendt varsel om meg selv
   year: '2018'
   source: Feature article
+  group_type: Media
   contributors:
   - name: Øystein Stene
     slug: oystein-stene
@@ -74,6 +80,7 @@ selected_works:
 - title: Jeg drømmer om en humanistisk, demokratisk og mangfoldig feminisme
   year: '2018'
   source: Feature article
+  group_type: Media
   contributors:
   - name: Øystein Stene
     slug: oystein-stene
@@ -81,6 +88,7 @@ selected_works:
 - title: Jeg mot eliten
   year: '2018'
   source: Feature article
+  group_type: Media
   url: https://www.aftenposten.no/kultur/i/21zeva/Jeg-mot-eliten
   contributors:
   - name: Øystein Stene
@@ -89,6 +97,7 @@ selected_works:
 - title: Frykter vaksine mot religiøs tro
   year: '2018'
   source: Interview
+  group_type: Media
   url: https://reportasje.vl.no/artikkel/355-frykter-vaksine-mot-religios-tro
   contributors:
   - name: Øystein Stene
@@ -98,6 +107,7 @@ selected_works:
     i #metoo-bevegelsen'
   year: '2018'
   source: Feature article
+  group_type: Media
   contributors:
   - name: Øystein Stene
     slug: oystein-stene

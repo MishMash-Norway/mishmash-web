@@ -35,6 +35,7 @@ selected_works:
     Relation Research Project
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Claire Ghetti
     slug: claire-ghetti
@@ -43,6 +44,7 @@ selected_works:
 - title: En rød tråd? Stemme som helsefremmende ressurs mellom foreldre og barn
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Claire Ghetti
     slug: claire-ghetti
@@ -52,6 +54,7 @@ selected_works:
     methodology and preliminary analysis'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Claire Ghetti
     slug: claire-ghetti
@@ -61,6 +64,7 @@ selected_works:
     from project Sounding Relation'
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Claire Ghetti
     slug: claire-ghetti
@@ -69,6 +73,7 @@ selected_works:
     parental contributions to premature infant regulation in the neonatal context'
   year: '2024'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Claire Ghetti
     slug: claire-ghetti
@@ -77,6 +82,7 @@ selected_works:
     A Secondary Analysis of the LongSTEP Randomized Clinical Trial'
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1001/jamanetworkopen.2024.10721
   contributors:
   - name: Lucja Bieleninik
@@ -101,6 +107,7 @@ selected_works:
     infants and their parents: the LongSTEP study'
   year: '2023'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1186/s13063-022-06971-w
   contributors:
   - name: Tora Söderström Gaden
@@ -116,6 +123,7 @@ selected_works:
     A Randomized Clinical Trial'
   year: '2023'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1001/jamanetworkopen.2023.15750
   contributors:
   - name: Claire Ghetti
@@ -147,6 +155,7 @@ selected_works:
     Multinational trial LongSTEP results'
   year: '2023'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Claire Ghetti
     slug: claire-ghetti
@@ -159,6 +168,7 @@ selected_works:
     Post-Hospitalization
   year: '2022'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1093/jmt/thac006
   contributors:
   - name: Shulamit Epstein

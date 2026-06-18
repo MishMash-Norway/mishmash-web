@@ -29,6 +29,7 @@ selected_works:
 - title: '#2 Gitarmetodikk i USA vs Norge - Konsenpodden | Podcast on Spotify'
   year: '2026'
   source: Media podcast
+  group_type: Media
   url: https://open.spotify.com/episode/5dAUL0vjYb6uC1rZ9K4mSt?si=1880cf05df2b4f3c
   contributors:
   - name: Tore Morten Andreassen
@@ -40,6 +41,7 @@ selected_works:
     vokalist Merethe Mikkelsen og bassist Jørgen Ytreberg.
   year: '2024'
   source: Music performance
+  group_type: Music performance
   url: https://img2.custompublish.com/getfile.php/5317098.622.jsjpjuzpqpkzkw/Program%2BPerla%2B2024.pdf?return=www.masoy.kommune.no
   contributors:
   - name: Stein Inge Brækhus

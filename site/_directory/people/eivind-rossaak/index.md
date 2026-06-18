@@ -33,7 +33,7 @@ tags:
 - Media and communication
 - Records management
 - Film history
-- Digital library
+- Digital libary
 - Media Aesthetics
 - Literature
 - Digital media
@@ -46,7 +46,7 @@ search_keywords:
 - Media and communication
 - Records management
 - Film history
-- Digital library
+- Digital libary
 - Media Aesthetics
 - Literature
 - Digital media
@@ -55,6 +55,7 @@ selected_works:
 - title: '"Jeg nekter!" Motstandens former i vår tid'
   year: '2026'
   source: Presentation
+  group_type: Lecture
   contributors:
   - name: Eivind Røssaak
     slug: eivind-rossaak
@@ -63,6 +64,7 @@ selected_works:
 - title: Kunst i automatiseringens tidsalder
   year: '2026'
   source: Professional article
+  group_type: Professional article
   url: https://kunstavisen.no/artikler/kunst-i-automatiseringens-tidsalder
   contributors:
   - name: Eivind Røssaak
@@ -71,6 +73,7 @@ selected_works:
 - title: 'Dokumentasjon: "Kampen om Mardøla", motstandsbliven og montasjestil'
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Eivind Røssaak
     slug: eivind-rossaak
@@ -78,6 +81,7 @@ selected_works:
 - title: Motstandens mikropolitikk
   year: '2026'
   source: Introduction
+  group_type: Introduction
   contributors:
   - name: Knut Stene-Johansen
   - name: Eivind Røssaak
@@ -86,6 +90,7 @@ selected_works:
 - title: Motstandens former. Tretten skisser.
   year: '2026'
   source: Book anthology
+  group_type: Book anthology
   url: https://existenz.no/produkt/boker-til-salgs/motstandens-former/
   contributors:
   - name: Knut Stene-Johansen
@@ -105,6 +110,7 @@ selected_works:
 - title: The Cory Arcangel Hack
   year: '2025'
   source: Presentation
+  group_type: Lecture
   contributors:
   - name: Eivind Røssaak
     slug: eivind-rossaak
@@ -114,6 +120,7 @@ selected_works:
 - title: 'Static Energy: Ribbing Warhol and Marker in Chafed Elbows'
   year: '2025'
   source: Non-fiction chapter
+  group_type: Non-fiction chapter
   contributors:
   - name: Eivind Røssaak
     slug: eivind-rossaak
@@ -121,6 +128,7 @@ selected_works:
 - title: 'The Cory Arcangel Hack: Digital Culture and Aesthetic Practice'
   year: '2025'
   source: Monograph
+  group_type: Monograph
   url: https://direct.mit.edu/books/oa-monograph/6049/The-Cory-Arcangel-HackDigital-Culture-and
   contributors:
   - name: Eivind Røssaak
@@ -129,6 +137,7 @@ selected_works:
 - title: 'Classification, Photography, Eugenics: The Colonial Machine in Sápmi'
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Eivind Røssaak
     slug: eivind-rossaak
@@ -136,6 +145,7 @@ selected_works:
 - title: Art as Sharing - The Art of Sharing
   year: '2023'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Eivind Røssaak
     slug: eivind-rossaak

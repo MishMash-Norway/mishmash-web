@@ -29,6 +29,7 @@ selected_works:
 - title: Mitigating Embedding Leakage via Latent Disruption with Controlled Reconstruction
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://openreview.net/forum?id=nZWBrxJyrS
   contributors:
   - name: Zhiyuan Wu
@@ -42,6 +43,7 @@ selected_works:
     Length, Intrinsic Difficulty, and Distractor Density'
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://openreview.net/forum?id=0Sex2H5Jnn
   contributors:
   - name: Daniel Kaiser
@@ -53,6 +55,7 @@ selected_works:
 - title: Decomposing Reasoning Efficiency in Large Language Models
   year: '2025'
   source: Conference poster
+  group_type: Conference
   url: https://openreview.net/forum?id=mym1D6mIZR
   contributors:
   - name: Daniel Kaiser
@@ -64,6 +67,7 @@ selected_works:
 - title: Proceedings of NORA’s annual conference 2025
   year: '2025'
   source: Conference abstract
+  group_type: Conference
   url: https://doi.org/10.5617/nmi.12551
   contributors:
   - name: Geir Halnes
@@ -158,6 +162,7 @@ selected_works:
     Estimation?
   year: '2025'
   source: Conference abstract
+  group_type: Conference
   contributors:
   - name: Johan Mylius-Kroken
   - name: Kristoffer Wickstrøm
@@ -169,6 +174,7 @@ selected_works:
 - title: Layer-wise Quantization for Quantized Optimistic Dual Averaging
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   url: https://openreview.net/forum?id=J6LYjEOxbz&noteId=XPlechyXOj
   contributors:
   - name: Anh Duc Nguyen
@@ -184,6 +190,7 @@ selected_works:
     Exploration
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://ceur-ws.org/Vol-3975/
   contributors:
   - name: Changkyu Choi
@@ -197,6 +204,7 @@ selected_works:
     and Answering in DocVQA
   year: '2025'
   source: Conference poster
+  group_type: Conference
   contributors:
   - name: Kjetil Indrehus
   - name: Changkyu Choi
@@ -206,6 +214,7 @@ selected_works:
 - title: 'Marine Intelligence: Innovations to Enhance Underwater Exploration'
   year: '2025'
   source: Conference poster
+  group_type: Conference
   contributors:
   - name: Arangan Subramaniam
   - name: Changkyu Choi
@@ -217,6 +226,7 @@ selected_works:
 - title: Addressing Label Shift in Distributed Learning via Entropy Regularization​
   year: '2025'
   source: Journal article
+  group_type: Journal article
   contributors:
   - name: Zhiyuan Wu
   - name: Changkyu Choi

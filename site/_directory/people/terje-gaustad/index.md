@@ -25,15 +25,16 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Creative Industries
+- Creative industry
 - Strategic leadership
 search_keywords:
-- Creative Industries
+- Creative industry
 - Strategic leadership
 selected_works:
 - title: 'Fra lesesal til lønnsslipp: arbeidsrelevans i bransjestudier'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Terje Gaustad
     slug: terje-gaustad
@@ -41,6 +42,7 @@ selected_works:
 - title: 'Balancing Tradition and Transformation in PSB: Resilience in TV Formats'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Terje Gaustad
     slug: terje-gaustad
@@ -51,6 +53,7 @@ selected_works:
     og utviklingstrekk'
   year: '2025'
   source: Research report
+  group_type: Research report
   contributors:
   - name: Leo A. Grünfeld
   - name: Erika Minerva Karttinen
@@ -65,6 +68,7 @@ selected_works:
 - title: 'Strategisk storytelling: velg dine fiender med omhu'
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Terje Gaustad
     slug: terje-gaustad
@@ -73,6 +77,7 @@ selected_works:
     utviklingen over tid og fremtidsutsikter'
   year: '2025'
   source: Research report
+  group_type: Research report
   contributors:
   - name: Leo Grünfeld
   - name: Erika Minerva Karttinen
@@ -85,6 +90,7 @@ selected_works:
 - title: Empowering Public Service Media through Strategic Storytelling
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Terje Gaustad
     slug: terje-gaustad
@@ -96,6 +102,7 @@ selected_works:
     and empathy'
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Terje Gaustad
     slug: terje-gaustad
@@ -105,6 +112,7 @@ selected_works:
 - title: 'Strategisk historiefortelling: Hvem er byggenæringen i 2024?'
   year: '2024'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Terje Gaustad
     slug: terje-gaustad
@@ -112,6 +120,7 @@ selected_works:
 - title: Velg dine fiender med omhu
   year: '2024'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Terje Gaustad
     slug: terje-gaustad
@@ -119,6 +128,7 @@ selected_works:
 - title: For å vinne en debatt må du velge rett motstander
   year: '2024'
   source: Popular science article
+  group_type: Popular science article
   url: https://www.forskersonen.no/debatt-laks-likestilling/for-a-vinne-en-debatt-ma-du-velge-rett-motstander/2413769
   contributors:
   - name: Terje Gaustad

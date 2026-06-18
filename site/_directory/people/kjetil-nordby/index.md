@@ -35,6 +35,7 @@ selected_works:
 - title: The ROC Architecture Framework for Remote Ship Operations
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   url: https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003586883-5/roc-architecture-framework-remote-ship-operations-etienne-gernez-steven-mallam-kjetil-nordby-jon-erling-fauske-bijan-johansen-borgar-kl%C3%B8ve-sandnes-sunniva-lislevand-wildhagen-hanne-lockertsen
   contributors:
   - name: Etienne Gernez
@@ -51,6 +52,7 @@ selected_works:
     in ship navigation
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1080/00140139.2025.2519874
   contributors:
   - name: Floris Hendrikus Johannes van den Oever
@@ -62,6 +64,7 @@ selected_works:
 - title: Workshop for next generation fleet control interface
   year: '2025'
   source: Presentation
+  group_type: Lecture
   contributors:
   - name: Kjetil Nordby
     slug: kjetil-nordby
@@ -72,6 +75,7 @@ selected_works:
 - title: Open user experience design - The next generation bridge
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Kjetil Nordby
     slug: kjetil-nordby
@@ -79,6 +83,7 @@ selected_works:
 - title: OpenBridge
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Kjetil Nordby
     slug: kjetil-nordby
@@ -86,6 +91,7 @@ selected_works:
 - title: Designing for Next-Generation Remote Operation centers
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Kjetil Nordby
     slug: kjetil-nordby
@@ -93,6 +99,7 @@ selected_works:
 - title: OpenBridge 6.0 Automation Case
   year: '2025'
   source: Design
+  group_type: Design
   url: https://www.figma.com/community/file/1549727597127372848/openbridge-6-0-automation-case
   contributors:
   - name: Sunniva Wildhagen Lislevand
@@ -104,6 +111,7 @@ selected_works:
 - title: OpenBridge 6.0 Application patterns
   year: '2025'
   source: Design
+  group_type: Design
   url: https://www.figma.com/community/file/1486350615717873940/openbridge-6-0-application-patterns
   contributors:
   - name: Sunniva Wildhagen Lislevand
@@ -115,6 +123,7 @@ selected_works:
 - title: OpenBridge 6.0 Small Screen Case
   year: '2025'
   source: Design
+  group_type: Design
   url: https://www.figma.com/community/file/1484493772517407893/openbridge-6-0-small-screen-case
   contributors:
   - name: Sunniva Wildhagen Lislevand
@@ -126,6 +135,7 @@ selected_works:
 - title: OpenBridge 6.0 Alert Case
   year: '2025'
   source: Design
+  group_type: Design
   url: https://www.figma.com/community/file/1486019135013729331/openbridge-6-0-alert-case
   contributors:
   - name: hanne lockertsen

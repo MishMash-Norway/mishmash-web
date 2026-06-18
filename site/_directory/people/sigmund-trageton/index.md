@@ -30,6 +30,7 @@ selected_works:
 - title: "Konseptforslag Skåreparken\r\nTHE GLOBAL VILLAGE"
   year: '2024'
   source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Sigmund Trageton
     slug: sigmund-trageton
@@ -37,6 +38,7 @@ selected_works:
 - title: Tester ut kunstig intelligens til begrunnelser
   year: '2024'
   source: Interview
+  group_type: Media
   contributors:
   - name: Sigmund Trageton
     slug: sigmund-trageton
@@ -44,6 +46,7 @@ selected_works:
 - title: Kunstnarleg forsking i film
   year: '2024'
   source: Research report
+  group_type: Research report
   contributors:
   - name: Sigmund Trageton
     slug: sigmund-trageton
@@ -51,6 +54,7 @@ selected_works:
 - title: Er KI i skolen ein trussel mot læring og danning?
   year: '2024'
   source: Interview
+  group_type: Media
   contributors:
   - name: Sigmund Trageton
     slug: sigmund-trageton
@@ -59,6 +63,7 @@ selected_works:
     \ styrka studentanes munnlege engasjement i møte med skjermteknologi og ChatGPT"
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.18261/nmt.31.2-3.5
   contributors:
   - name: Sigmund Trageton
@@ -70,6 +75,7 @@ selected_works:
 - title: "Rekonstruksjoner og dramatisering\r\nFiksjonelle strategier i dokumentarfilm"
   year: '2023'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Sigmund Trageton
     slug: sigmund-trageton
@@ -77,6 +83,7 @@ selected_works:
 - title: Diskutek som pedagogisk metode
   year: '2023'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Sigmund Trageton
     slug: sigmund-trageton
@@ -85,6 +92,7 @@ selected_works:
     tradisjonell media
   year: '2021'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Claudia Morsut
   - name: Christian Henrik Alexander Kuran
@@ -97,6 +105,7 @@ selected_works:
     about the 22. July 2011 terrorist attack in Norway
   year: '2020'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.37390/avancacinema.2020.a151
   contributors:
   - name: Sigmund Trageton
@@ -105,6 +114,7 @@ selected_works:
 - title: "IMMERSIVE JOURNALISM AS\r\nSTORYTELLING"
   year: '2020'
   source: Interview
+  group_type: Media
   contributors:
   - name: Sigmund Trageton
     slug: sigmund-trageton

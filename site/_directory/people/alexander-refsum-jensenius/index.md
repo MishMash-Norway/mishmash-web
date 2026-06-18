@@ -54,6 +54,7 @@ selected_works:
 - title: Mennesker og maskiner
   year: '2026'
   source: Reader opinion
+  group_type: Media
   url: https://www.forskerforum.no/forskerlivet/vi-ma-se-oss-selv-i-speilet-hver-gang-vi-bruker-et-ki-verktoy-er-vi-med-pa-a-legitimere-det/
   contributors:
   - name: Alexander Refsum Jensenius
@@ -62,6 +63,7 @@ selected_works:
 - title: Creativity and biology research
   year: '2026'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -69,6 +71,7 @@ selected_works:
 - title: The Listening Body – for mennesker med og uten Parkinson
   year: '2026'
   source: Music performance
+  group_type: Music performance
   url: https://thelisteningbody.me/event/oslo-musiclab-the-listening-body-for-mennesker-med-og-uten-parkinson/
   contributors:
   - name: Annabel Balean Guaita
@@ -79,6 +82,7 @@ selected_works:
 - title: 'Sounding Human: Music and Machines, 1740/2020. By Deirdre Loughridge'
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1093/ml/gcag043
   contributors:
   - name: Alexander Refsum Jensenius
@@ -87,6 +91,7 @@ selected_works:
 - title: Building intersectional Cultural Ecosystems & Institutions for the Future
   year: '2026'
   source: Presentation
+  group_type: Lecture
   url: https://www.wisenotwise.com/wise2026program
   contributors:
   - name: Alexander Refsum Jensenius
@@ -100,6 +105,7 @@ selected_works:
 - title: Performative Togetherness in networked music–dance performance
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1080/14794713.2026.2657654
   contributors:
   - name: Bilge Serdar
@@ -110,6 +116,7 @@ selected_works:
 - title: Tverrfaglighet i forskning (og utdanning)
   year: '2026'
   source: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -117,6 +124,7 @@ selected_works:
 - title: Mellom menneske og maskin
   year: '2026'
   source: Presentation
+  group_type: Lecture
   url: https://fotografiens-hus.no/samtale-mellom-menneske-og-maskin/
   contributors:
   - name: Silje Midtlien Sigurdsen
@@ -128,6 +136,7 @@ selected_works:
 - title: Sang og KI
   year: '2026'
   source: Presentation
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -135,6 +144,7 @@ selected_works:
 - title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
   year: '2026'
   source: Radio or TV
+  group_type: Media
   url: https://radio.nrk.no/podkast/abels_taarn/l_26ee6156-aa61-4ba8-ae61-56aa61bba845
   contributors:
   - name: Torkild Jemterud

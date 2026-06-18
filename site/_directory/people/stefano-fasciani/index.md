@@ -5,11 +5,10 @@ name: Stefano Fasciani
 title: Stefano Fasciani
 position: Professor
 department: Department of Musicology
+image: /assets/images/portraits/Stefano_Fasciani_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-wps:
-- WP1
 projects: []
 roles:
 - Member
@@ -18,41 +17,36 @@ urls:
   institutional_website: http://people.uio.no/stefanof
   github: https://github.com/stefanofasciani
   linkedin: https://no.linkedin.com/in/stefanofasciani
+  orcid: https://orcid.org/0000-0001-5555-3225
+  nva: https://nva.sikt.no/research-profile/1093312
   youtube: https://www.youtube.com/@stefanofasciani
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0000-0001-5555-3225
-  nva: https://nva.sikt.no/research-profile/1093312
 aliases: []
 tags:
 - Digital electronics
 - Sound analysis /synthesis
-- Machine Learning
+- Machine learning
 - Real-time systems
 - Digital signal processing
 - Musical interaction
-- Embedded Systems
+- Embedded system
 - Music Technology
-- Sound and Music Computing
-- Musical Interfaces
-- Sound Synthesis
 search_keywords:
 - Digital electronics
 - Sound analysis /synthesis
-- Machine Learning
+- Machine learning
 - Real-time systems
 - Digital signal processing
 - Musical interaction
-- Embedded Systems
+- Embedded system
 - Music Technology
-- Sound and Music Computing
-- Musical Interfaces
-- Sound Synthesis
 selected_works:
 - title: 'HS-ims: A Platform for Human-Swarm Interactive Music Systems'
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1109/ACSOS-C66519.2025.00067
   contributors:
   - name: Pedro Pablo Lucas Bravo
@@ -66,6 +60,7 @@ selected_works:
 - title: Live Coding the Lineage
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.5281/zenodo.17642435
   contributors:
   - name: Björn Thór Jónsson
@@ -82,6 +77,7 @@ selected_works:
     in Networked Music Performances
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1109/is264627.2025.11284626
   contributors:
   - name: Leigh Daniel Murray
@@ -92,6 +88,7 @@ selected_works:
     musical structures'
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.5281/ZENODO.16946080
   contributors:
   - name: Vincenzo Madaghiele
@@ -109,6 +106,7 @@ selected_works:
 - title: Sines, transient, noise neural modeling of piano notes
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3389/frsip.2024.1494864
   contributors:
   - name: Riccardo Simionato
@@ -118,6 +116,7 @@ selected_works:
 - title: A Universal Tool for Generating Datasets from Sound Synthesizers
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.5281/zenodo.15838159
   contributors:
   - name: Stefano Fasciani
@@ -126,6 +125,7 @@ selected_works:
 - title: An Interactive Self-Assembly Swarm Music System in Extended Reality
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3771594.3771620
   contributors:
   - name: Pedro Pablo Lucas Bravo
@@ -139,6 +139,7 @@ selected_works:
 - title: Physics-informed differentiable method for piano modeling
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3389/frsip.2023.1276748
   contributors:
   - name: Riccardo Simionato
@@ -149,6 +150,7 @@ selected_works:
 - title: Neural Modeling of Musical Devices
   year: '2024'
   source: PhD thesis
+  group_type: PhD thesis
   contributors:
   - name: Riccardo Simionato
   - name: Stefano Fasciani
@@ -159,6 +161,7 @@ selected_works:
     Oscillators'
   year: '2024'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1109/ACSOS61780.2024.00034
   contributors:
   - name: Pedro Pablo Lucas Bravo
@@ -172,10 +175,11 @@ selected_works:
 source_mentions: []
 summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learning,
   Music Technology.
+wps:
+- WP1
 permalink: /people/stefano-fasciani/
 redirect_from:
 - /directory/people/stefano-fasciani/
-image: /assets/images/portraits/Stefano_Fasciani_UiO.jpg
 ---
 
 Bio coming soon.

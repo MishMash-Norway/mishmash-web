@@ -35,6 +35,7 @@ selected_works:
 - title: Performer's Rights - A child of technology and a stepchild of copyright
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Irina  Eidsvold-Tøien
     slug: irina-eidsvold-toien
@@ -42,6 +43,7 @@ selected_works:
 - title: Is imitating the dead and copying the living just?
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Irina  Eidsvold-Tøien
     slug: irina-eidsvold-toien
@@ -50,6 +52,7 @@ selected_works:
     og utviklingstrekk'
   year: '2025'
   source: Research report
+  group_type: Research report
   contributors:
   - name: Leo A. Grünfeld
   - name: Erika Minerva Karttinen
@@ -65,6 +68,7 @@ selected_works:
     sufficient?'
   year: '2023'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Irina  Eidsvold-Tøien
     slug: irina-eidsvold-toien
@@ -72,6 +76,7 @@ selected_works:
 - title: Opphavsrett, håndheving og mangfold
   year: '2021'
   source: Journal article
+  group_type: Journal article
   contributors:
   - name: Irina Eidsvold-Tøien
     slug: irina-eidsvold-toien
@@ -82,6 +87,7 @@ selected_works:
 - title: Maktforskyvninger (panelsamtale)
   year: '2021'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Hanne Hammer Stien
   - name: Eirik Høyer Leivestad
@@ -93,6 +99,7 @@ selected_works:
 - title: Sikring av en bærekraftig kulturøkonomi, nødvendiggjør innføring av DSM-direktivet
   year: '2020'
   source: Journal article
+  group_type: Journal article
   contributors:
   - name: Irina Eidsvold-Tøien
     slug: irina-eidsvold-toien
@@ -100,6 +107,7 @@ selected_works:
 - title: Kunstnerisk frihet - en menneskerett
   year: '2020'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Irina  Eidsvold-Tøien
     slug: irina-eidsvold-toien
@@ -108,6 +116,7 @@ selected_works:
     skapende og utøvende i kulturøkonomien
   year: '2019'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Irina  Eidsvold-Tøien
     slug: irina-eidsvold-toien
@@ -115,6 +124,7 @@ selected_works:
 - title: Utøverbegrepet i fondsloven
   year: '2019'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Irina  Eidsvold-Tøien
     slug: irina-eidsvold-toien

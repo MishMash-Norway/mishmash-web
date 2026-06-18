@@ -33,6 +33,7 @@ selected_works:
     from the National Library of Norway
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Tita Ranveig Enstad
   - name: Trond Trosterud
@@ -44,6 +45,7 @@ selected_works:
 - title: 'The NorHand Model: a new public AI model from the National Library of Norway'
   year: '2024'
   source: Interview
+  group_type: Media
   url: https://www.transkribus.org/success-story/norhand
   contributors:
   - name: Yngvil Beyer
@@ -52,6 +54,7 @@ selected_works:
 - title: Håndskriftsgjenkjenning med Transkribus
   year: '2023'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Yngvil Nesheim Beyer
     slug: yngvil-beyer
@@ -60,6 +63,7 @@ selected_works:
 - title: Digitale tjenester fra Nasjonalbiblioteket
   year: '2023'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Yngvil Nesheim Beyer
     slug: yngvil-beyer
@@ -67,6 +71,7 @@ selected_works:
 - title: Nasjonal infrastruktur for språkteknologi
   year: '2023'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Yngvil Nesheim Beyer
     slug: yngvil-beyer
@@ -74,6 +79,7 @@ selected_works:
 - title: Handwritten text recognition at the National Library
   year: '2023'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Yngvil Nesheim Beyer
     slug: yngvil-beyer
@@ -81,6 +87,7 @@ selected_works:
 - title: Digitale utforskninger av Harriet Backers brev
   year: '2023'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Yngvil Nesheim Beyer
     slug: yngvil-beyer
@@ -88,6 +95,7 @@ selected_works:
 - title: NorFraktur_1600_PyLaia
   year: '2022'
   source: Dataset
+  group_type: Dataset
   contributors:
   - name: Siv Frøydis Berg
   - name: Trond Haugen
@@ -99,6 +107,7 @@ selected_works:
     Norwegian and German Broadsheet ballads in Transkribus'
   year: '2022'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Trond Haugen
   - name: Yngvil Beyer
@@ -108,6 +117,7 @@ selected_works:
     Recognition in Norwegian
   year: '2022'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1007/978-3-031-06555-2_27
   contributors:
   - name: Martin Maarand

@@ -30,6 +30,7 @@ selected_works:
     Action in Autonomous Driving
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1109/indin64977.2025.11279112
   contributors:
   - name: Yan Zhou
@@ -41,6 +42,7 @@ selected_works:
     Modelling
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3233/faia251478
   contributors:
   - name: Yan Zhou
@@ -53,6 +55,7 @@ selected_works:
 - title: NMN-BART:Generating Natural Language Explanations for Visual Question Answering
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://ceur-ws.org/Vol-3975/paper4.pdf
   contributors:
   - name: Yan Zhou
@@ -64,6 +67,7 @@ selected_works:
     Generation
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3701716.3715310
   contributors:
   - name: Yan Zhou
@@ -78,6 +82,7 @@ selected_works:
 - title: Modular Soundness Checking of Feature Model Evolution Plans
   year: '2023'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1007/978-3-031-47963-2_25
   contributors:
   - name: Ida Sandberg Motzfeldt
@@ -90,6 +95,7 @@ selected_works:
 - title: Robust Recourse for Binary Allocation Problems
   year: '2023'
   source: Journal article
+  group_type: Journal article
   url: https://openreview.net/forum?id=qt9yTS7TKc
   contributors:
   - name: Meirav Segal
@@ -101,6 +107,7 @@ selected_works:
 - title: 'CARE: coherent actionable recourse based on sound counterfactual explanations'
   year: '2022'
   source: Journal article
+  group_type: Journal article
   url: https://link.springer.com/article/10.1007/s41060-022-00365-6
   contributors:
   - name: Peyman Rasouli
@@ -110,6 +117,7 @@ selected_works:
 - title: Boreas – A Service Scheduler for Optimal Kubernetes Deployment
   year: '2021'
   source: Journal article
+  group_type: Journal article
   url: https://link.springer.com/content/pdf/10.1007%2F978-3-030-91431-8_14.pdf
   contributors:
   - name: Torgeir Lebesbye
@@ -121,6 +129,7 @@ selected_works:
 - title: Three-Way Semantic Merge for Feature Model Evolution Plans
   year: '2021'
   source: Master's thesis
+  group_type: Master's thesis
   url: http://urn.nb.no/URN:NBN:no-89666
   contributors:
   - name: Eirik Halvard Sæther
@@ -131,6 +140,7 @@ selected_works:
 - title: 'EXPLAN: Explaining Black-box Classifiers using Adaptive Neighborhood Generation'
   year: '2020'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1109/IJCNN48605.2020.9206710
   contributors:
   - name: Peyman Rasouli

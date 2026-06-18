@@ -29,6 +29,7 @@ selected_works:
 - title: Prosjekt Livslang læring i HVL
   year: '2021'
   source: Research report
+  group_type: Research report
   contributors:
   - name: Ingvild Brekke Myhre
   - name: Sigurd Sandvold
@@ -37,6 +38,7 @@ selected_works:
 - title: GLUT- grunnskulelærarutdanning Tilsyn
   year: '2019'
   source: Research report
+  group_type: Research report
   contributors:
   - name: Bente Cathrine Janby Bakke
   - name: Jan Olav Fretland
@@ -48,6 +50,7 @@ selected_works:
     \ 20016/2"
   year: '2016'
   source: Research report
+  group_type: Research report
   url: https://brage.bibsys.no/xmlui/bitstream/id/447321/Rapport.pdf
   contributors:
   - name: Gavriel Salomon

@@ -28,7 +28,7 @@ tags:
 - Convolution
 - Music Improvisation
 - Improvisation
-- Digital signal processing
+- Digital Signal Processing
 - Feedback
 - Granular audio synthesis
 - Artificial intelligence
@@ -37,7 +37,7 @@ search_keywords:
 - Convolution
 - Music Improvisation
 - Improvisation
-- Digital signal processing
+- Digital Signal Processing
 - Feedback
 - Granular audio synthesis
 - Artificial intelligence
@@ -46,6 +46,7 @@ selected_works:
 - title: Persistent Disequilibrium
   year: '2025'
   source: Other artistic output
+  group_type: Other artistic output
   url: https://wrap.hdu.no/kjelbju-laven-iii-pc.html
   contributors:
   - name: Øyvind Brandtsegg
@@ -57,6 +58,7 @@ selected_works:
 - title: ØYA Lydstrømmer
   year: '2025'
   source: Performing arts
+  group_type: Performing arts
   contributors:
   - name: Anna Thu Schmidt
   - name: Øyvind Brandtsegg
@@ -67,6 +69,7 @@ selected_works:
 - title: Rhythm and intentionality in generative music performance
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Øyvind Brandtsegg
     slug: oyvind-brandtsegg
@@ -74,6 +77,7 @@ selected_works:
 - title: Rhythm and Intentionality at ESMAE
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Øyvind Brandtsegg
     slug: oyvind-brandtsegg
@@ -82,6 +86,7 @@ selected_works:
 - title: Rhythm and Intentionality at IIL
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Øyvind Brandtsegg
     slug: oyvind-brandtsegg
@@ -90,6 +95,7 @@ selected_works:
 - title: Beethoven (re)Created - 32 Variations in C minor WoO 80
   year: '2025'
   source: Music performance
+  group_type: Music performance
   url: https://transvariations.web.ua.pt/assets/audios/Beethoven32VariationsCminor.mp3
   contributors:
   - name: Øyvind Brandtsegg
@@ -101,6 +107,7 @@ selected_works:
 - title: 'FEEDBACK: Vibrotactile Materials Informing Artistic Practice'
   year: '2021'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Øyvind Brandtsegg
     slug: oyvind-brandtsegg
@@ -109,6 +116,7 @@ selected_works:
 - title: Show and tell feedback instruments
   year: '2021'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Øyvind Brandtsegg
     slug: oyvind-brandtsegg
@@ -116,6 +124,7 @@ selected_works:
 - title: Processing Musicianship lecture
   year: '2021'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Øyvind Brandtsegg
     slug: oyvind-brandtsegg
@@ -124,6 +133,7 @@ selected_works:
 - title: Electronic Musicianship lecture
   year: '2021'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Øyvind Brandtsegg
     slug: oyvind-brandtsegg

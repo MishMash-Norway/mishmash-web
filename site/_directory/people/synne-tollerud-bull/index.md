@@ -43,6 +43,7 @@ selected_works:
 - title: Kunstnerisk forskning som levende kunnskap
   year: '2026'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
@@ -50,6 +51,7 @@ selected_works:
 - title: Ocean Futures in the Making
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.4324/9781003478805
   contributors:
   - name: Camilla Brattland
@@ -59,6 +61,7 @@ selected_works:
 - title: 'Introduction: Media Seas of the High North Atlantic'
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.4324/9781003478805
   contributors:
   - name: Synne Tollerud Bull
@@ -72,6 +75,7 @@ selected_works:
 - title: Media Seas and the Blue Humanities Studies of the High North Atlantic
   year: '2026'
   source: Book anthology
+  group_type: Book anthology
   url: https://doi.org/10.4324/9781003478805
   contributors:
   - name: Synne Tollerud Bull
@@ -85,6 +89,7 @@ selected_works:
 - title: 'Design Agentics :: Creative R&D x AI'
   year: '2026'
   source: Presentation
+  group_type: Lecture
   url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
   contributors:
   - name: Synne Tollerud Bull
@@ -101,6 +106,7 @@ selected_works:
 - title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
   year: '2026'
   source: Presentation
+  group_type: Lecture
   url: https://www.kulturdirektoratet.no/kalender/konferanse-strategisk-framsyn-i-det-norske-kulturfeltet
   contributors:
   - name: Synne Tollerud Bull
@@ -109,6 +115,7 @@ selected_works:
 - title: Kunstnerisk intelligens
   year: '2026'
   source: Lecture
+  group_type: Lecture
   url: https://mishmash.no/events/aulaen2026/
   contributors:
   - name: Synne Tollerud Bull
@@ -117,6 +124,7 @@ selected_works:
 - title: Manifestos for an Algorithmic World
   year: '2026'
   source: Conference lecture
+  group_type: Conference
   url: https://metamorf.art/2026/03/18/conference-program-signup/
   contributors:
   - name: Synne Tollerud Bull
@@ -125,6 +133,7 @@ selected_works:
 - title: MishMash, KI og kreative prosesser
   year: '2026'
   source: Conference lecture
+  group_type: Conference
   url: https://kulturkonferansen.no/
   contributors:
   - name: Synne Tollerud Bull
@@ -134,6 +143,7 @@ selected_works:
     vi ser?
   year: '2026'
   source: Popular science article
+  group_type: Popular science article
   url: https://www.forskersonen.no/digital-teknologi-kronikk-kunstig-intelligens/pa-google-earth-kan-du-zoome-inn-pa-hele-verden-men-hva-er-det-egentlig-vi-ser/2597322
   contributors:
   - name: Synne Tollerud Bull

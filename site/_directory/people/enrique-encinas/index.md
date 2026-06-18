@@ -30,6 +30,7 @@ selected_works:
 - title: 'Design Agentics :: Creative R&D x AI'
   year: '2026'
   source: Presentation
+  group_type: Lecture
   url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
   contributors:
   - name: Synne Tollerud Bull
@@ -46,6 +47,7 @@ selected_works:
 - title: 'Playing with Failure: A Queer Framework for Making Service Systems Otherwise'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.21606/servdes2025.41
   contributors:
   - name: Josina Vink
@@ -58,6 +60,7 @@ selected_works:
     Arts Prague (AVU)
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Enrique Encinas
     slug: enrique-encinas
@@ -65,6 +68,7 @@ selected_works:
 - title: 'Un/learning with a Dragon : More Than Human Design and the river Akerselva'
   year: '2024'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Enrique Encinas
     slug: enrique-encinas
@@ -73,6 +77,7 @@ selected_works:
     Design'
   year: '2023'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3563657.3596024
   contributors:
   - name: Rikke Hagensby Jensen
@@ -89,6 +94,7 @@ selected_works:
 - title: 'Ways of seeing design research: A polyphonic speculation'
   year: '2023'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.21606/nordes.2023.96
   contributors:
   - name: David Philip Green
@@ -103,6 +109,7 @@ selected_works:
     European perspective'
   year: '2023'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.21606/nordes.2023.98
   contributors:
   - name: Enrique Encinas Pollos
@@ -115,6 +122,7 @@ selected_works:
 - title: 'Speculative and Critical Design: Approaches and influences in education'
   year: '2022'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.55612/s-5002-051-001psi
   contributors:
   - name: Ingi Helgason

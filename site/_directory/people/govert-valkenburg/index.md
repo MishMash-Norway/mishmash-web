@@ -47,6 +47,7 @@ selected_works:
 - title: Participation in Urban Regeneration Programmes
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.4324/9781003463443-5
   contributors:
   - name: Vedran Zerjav
@@ -57,6 +58,7 @@ selected_works:
 - title: Renewable energy sources for arctic food sufficiency and sustainability
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1038/s44264-025-00079-9
   contributors:
   - name: Getu Hailu
@@ -84,6 +86,7 @@ selected_works:
 - title: Epistemic Work and Epistemic Justice in Just Green Transitions
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1007/978-3-031-95075-9_6
   contributors:
   - name: Govert Valkenburg
@@ -93,6 +96,7 @@ selected_works:
     Innovasjon
   year: '2025'
   source: Presentation
+  group_type: Lecture
   contributors:
   - name: William Throndsen
   - name: Govert Valkenburg
@@ -101,6 +105,7 @@ selected_works:
 - title: Innovating at NTNU - An evaluative enquiry into NTNU’s innovation ecosystem
   year: '2025'
   source: Research report
+  group_type: Research report
   contributors:
   - name: Govert Valkenburg
     slug: govert-valkenburg
@@ -110,6 +115,7 @@ selected_works:
     for energy access'
   year: '2025'
   source: PhD thesis
+  group_type: PhD thesis
   contributors:
   - name: Jayaprakash Rajasekharan
   - name: Ole-Morten Midtgård
@@ -121,6 +127,7 @@ selected_works:
 - title: Arctic food and energy security at the crossroads
   year: '2025'
   source: Letter to the editor
+  group_type: Letter to the editor
   url: https://doi.org/10.1038/s43247-025-02122-6
   contributors:
   - name: Adrian Unc
@@ -151,6 +158,7 @@ selected_works:
     assessment criteria: A focus group study'
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1371/journal.pone.0307814
   contributors:
   - name: Joeri K. Tijdink
@@ -162,6 +170,7 @@ selected_works:
 - title: Validation of AI and Avant-garde music composition
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Govert Valkenburg
     slug: govert-valkenburg
@@ -169,6 +178,7 @@ selected_works:
 - title: What does it take to be human?
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Govert Valkenburg
     slug: govert-valkenburg

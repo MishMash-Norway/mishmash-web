@@ -39,6 +39,7 @@ selected_works:
     tool)
   year: '2024'
   source: Lecture
+  group_type: Lecture
   url: https://www.inn.no/arrangementer/innku/
   contributors:
   - name: Troels Linde

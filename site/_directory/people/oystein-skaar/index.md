@@ -41,6 +41,7 @@ selected_works:
     Sikt AI Chat'
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.18261/njdl.21.1.3
   contributors:
   - name: Øystein Olav Skaar
@@ -50,6 +51,7 @@ selected_works:
 - title: Skroting av lærernormen – basert på forskning?
   year: '2026'
   source: Feature article
+  group_type: Media
   url: https://www.utdanningsnytt.no/barnehage-klasseledelse-laerernorm/skroting-av-laerernormen-basert-pa-forskning/469012?fbclid=IwY2xjawQ54sJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe5-ESejbAANeW9iL_Yi5PFe-M92Cok76QgWJztVKEVMpy9_jpymhzgRro7ls_aem_NkB3gbl0zcVLQ8D6kE2ejQ
   contributors:
   - name: Christina Niemi Mølstad
@@ -109,6 +111,7 @@ selected_works:
 - title: Støtte til lærerne fra lærerutdannere ved Universitetet i Innlandet
   year: '2025'
   source: Reader opinion
+  group_type: Media
   url: https://www.h-a.no/stotte-til-larerne-fra-larerutdannere-ved-universitetet-i-innlandet/o/5-139-1873013?fbclid=IwY2xjawQ557pleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeTSA5OfTw61ApyWbm7JXXcExAT-H4uI9U7ndr8v2lF02OUZ0xBQLC61mOAGg_aem_B1VQaG05Q8KC3_Qx3F8fVw
   contributors:
   - name: Åse Wedø Løfblad
@@ -154,6 +157,7 @@ selected_works:
 - title: Artificial intelligence in higher education (symposium)
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   url: https://www.bera.ac.uk/conference/bera-conference-2024-and-wera-focal-meeting/programme/programme-at-a-glance
   contributors:
   - name: Rune Johan Krumsvik
@@ -165,6 +169,7 @@ selected_works:
     and constructive feedback
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3389/feduc.2024.1281334
   contributors:
   - name: Kristian Øen
@@ -175,6 +180,7 @@ selected_works:
 - title: 'A Call for Bildung: Addressing the Challenges of a Digitalized Education'
   year: '2024'
   source: Professional article
+  group_type: Professional article
   url: https://doi.org/10.18261/NJDL.19.2.4
   contributors:
   - name: Øystein Olav Skaar
@@ -183,6 +189,7 @@ selected_works:
 - title: DigitalInnSights- To play or not to play?
   year: '2023'
   source: Conference poster
+  group_type: Conference
   contributors:
   - name: Odd Rune Stalheim
   - name: Oda Julie Hembre
@@ -193,6 +200,7 @@ selected_works:
 - title: 'Inclusion in the heat of the moment: Balancing participation and mastery'
   year: '2023'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3389/feduc.2023.967279
   contributors:
   - name: Kristian Øen
@@ -203,6 +211,7 @@ selected_works:
 - title: "Digital kompetanse, vaksinemotstand, KI og pandemisk\r\nrisikopersepsjon"
   year: '2023'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Rune Johan Krumsvik
   - name: Øystein Olav Skaar
@@ -211,6 +220,7 @@ selected_works:
 - title: 'Alone or together: The role of gender and social context prior to Aha-experiences'
   year: '2022'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1111/sjop.12883
   contributors:
   - name: Øystein Olav Skaar

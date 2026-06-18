@@ -30,6 +30,7 @@ selected_works:
 - title: MishMash og Nasjonalbiblioteket
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -40,6 +41,7 @@ selected_works:
 - title: Innganger til Draumkvedet i Nasjonalbibliotekets samling
   year: '2024'
   source: Non-fiction book
+  group_type: Non-fiction book
   url: https://www.bokselskap.no/boker/draumkvedetinnganger/tittelside
   contributors:
   - name: Astrid Nora Ressem
@@ -53,6 +55,7 @@ selected_works:
 - title: Norwegian Folk Music & Computational Analysis
   year: '2023'
   source: Lecture
+  group_type: Lecture
   url: https://www.uio.no/ritmo/english/projects/mirage/events/2023/may/norwegian-folk-music-analysis-with-computers.html
   contributors:
   - name: Olivier Lartillot

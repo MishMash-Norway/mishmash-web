@@ -31,6 +31,7 @@ selected_works:
 - title: INNKU 2025 - Å UTFORSKE SERIEFORMATET
   year: '2025'
   source: Media podcast
+  group_type: Media
   url: https://shows.acast.com/fts-podden/episodes/6978975929bfee017da2ba0f
   contributors:
   - name: Tonje Louise Finne
@@ -40,6 +41,7 @@ selected_works:
 - title: INNKU 2025
   year: '2025'
   source: Presentation
+  group_type: Lecture
   url: https://www.inn.no/om-universitetet/fakultet-for-film-tv-spill/hva-skjer-pa-ftvs/inkku-2025/
   contributors:
   - name: Nina Grünfeld
@@ -94,6 +96,7 @@ selected_works:
 - title: Side om side sesong 10
   year: '2023'
   source: Film or video
+  group_type: Film or video
   contributors:
   - name: Tonje Louise Finne
     slug: tonje-louise-finne
@@ -101,6 +104,7 @@ selected_works:
 - title: Martine - Jakten på rettferdighet.
   year: '2022'
   source: Film or video
+  group_type: Film or video
   contributors:
   - name: Tonje Louise Finne
     slug: tonje-louise-finne
@@ -108,6 +112,7 @@ selected_works:
 - title: '"Nødt eller sannhet" sesong 2'
   year: '2021'
   source: Film or video
+  group_type: Film or video
   contributors:
   - name: Tonje Louise Finne
     slug: tonje-louise-finne

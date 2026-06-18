@@ -34,6 +34,7 @@ selected_works:
 - title: Kunstig intelligens, FoU og kreativ næring
   year: '2026'
   source: Lecture
+  group_type: Lecture
   url: https://trondelag.pameldingssystem.no/nasjonalt-fagkonferanse-for-kulturell-og-kreativ-naering-28-januar?#/default-12928
   contributors:
   - name: Ragnhild Brøvig
@@ -42,6 +43,7 @@ selected_works:
 - title: Presentasjon av Mishmash – senter for KI og kreativitet
   year: '2026'
   source: Conference lecture
+  group_type: Conference
   url: https://www.arkitektbedriftene.no/arrangementer/ki-dagen
   contributors:
   - name: Ragnhild Brøvig
@@ -51,6 +53,7 @@ selected_works:
     Currently Used in Music Production
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   url: https://www.routledge.com/Innovation-in-Music-Current-Research-Perspectives/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757858
   contributors:
   - name: Jon Marius Aareskjold-Drecker
@@ -62,6 +65,7 @@ selected_works:
 - title: 'Love Your Latency: The Glitching Spatiotemporality of Telematic Music Performances'
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   url: https://www.routledge.com/Innovation-in-Music-Innovative-Creative-Practice/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757834
   contributors:
   - name: Ragnhild Brøvig
@@ -73,6 +77,7 @@ selected_works:
 - title: 'Hip Hop Live Versions: Signifyin(g) and Homage'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
     slug: ragnhild-brovig
@@ -81,6 +86,7 @@ selected_works:
 - title: Rethinking Sampling, Value, and Power in Digital Music Culture
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Ragnhild Brøvig
     slug: ragnhild-brovig
@@ -88,6 +94,7 @@ selected_works:
 - title: Turning Vague Ideas into Strong Research Proposals
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Ragnhild Brøvig
     slug: ragnhild-brovig
@@ -95,6 +102,7 @@ selected_works:
 - title: The Decline of Cloud-Based Sample Platforms?
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Vemund Hegstad Alm
   - name: Ragnhild Brøvig
@@ -103,6 +111,7 @@ selected_works:
 - title: '"Meat Grinder”: Performing Experimental Hip-Hop'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
     slug: ragnhild-brovig
@@ -112,6 +121,7 @@ selected_works:
     Sound'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
     slug: ragnhild-brovig

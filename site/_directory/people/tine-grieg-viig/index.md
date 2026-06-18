@@ -34,6 +34,7 @@ selected_works:
 - title: AI + human collaborations in creativity and music education
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Tine Grieg Viig
     slug: tine-grieg-viig
@@ -41,6 +42,7 @@ selected_works:
 - title: KI som musikalsk partner
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   url: https://www.hvl.no/forsking/konferanse/hvl-konferansen/
   contributors:
   - name: Tine Grieg Viig
@@ -49,6 +51,7 @@ selected_works:
 - title: Kan vi snakke om læring — på nytt?
   year: '2025'
   source: Feature article
+  group_type: Media
   url: https://www.khrono.no/kan-vi-snakke-om-laering-pa-nytt/986768
   contributors:
   - name: Tine Grieg Viig
@@ -58,6 +61,7 @@ selected_works:
     education'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.23865/nrme.v6.6593
   contributors:
   - name: Tine Grieg Viig
@@ -66,6 +70,7 @@ selected_works:
 - title: Becoming post-researchers in a Nordic music education context
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Mari Ystanes Fjeldstad
   - name: Tine Grieg Viig
@@ -80,6 +85,7 @@ selected_works:
     music education'
   year: '2021'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Tine Grieg Viig
     slug: tine-grieg-viig
@@ -88,6 +94,7 @@ selected_works:
     music teacher education
   year: '2021'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Tine Grieg Viig
     slug: tine-grieg-viig
@@ -99,6 +106,7 @@ selected_works:
 - title: 'Symposium: Critical Perspectives on Creative Practices in the Nordic Countries'
   year: '2017'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Tine Grieg Viig
     slug: tine-grieg-viig
@@ -112,6 +120,7 @@ selected_works:
     Symposium presentation'
   year: '2017'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Tine Grieg Viig
     slug: tine-grieg-viig
@@ -120,6 +129,7 @@ selected_works:
     facilitation and interaction'
   year: '2016'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Tine Grieg Viig
     slug: tine-grieg-viig

@@ -30,6 +30,7 @@ selected_works:
 - title: Exploring peer-support in co-creation in higher education
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Maren Omland
   - name: Gro Skåland
@@ -38,6 +39,7 @@ selected_works:
 - title: Critical source evaluation in higher education teachers
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Leila Ferguson
   - name: Anette Andresen
@@ -49,6 +51,7 @@ selected_works:
     for a Norwegian public library makerspace
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1080/10749039.2024.2316073
   contributors:
   - name: Gro Skåland
@@ -59,6 +62,7 @@ selected_works:
     of making in a public library context'
   year: '2023'
   source: PhD thesis
+  group_type: PhD thesis
   contributors:
   - name: Gro Skåland
     slug: gro-skaland
@@ -67,6 +71,7 @@ selected_works:
     making in a public library makerspace'
   year: '2022'
   source: Book chapter
+  group_type: Book chapter
   url: https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003145257-17/hate-little-bits-gro-sk%C3%A5land
   contributors:
   - name: Gro Skåland
@@ -76,6 +81,7 @@ selected_works:
     in a Public Library Context
   year: '2020'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3390/educsci10060158
   contributors:
   - name: Gro Skåland
@@ -87,6 +93,7 @@ selected_works:
     the STEAM in the library project.
   year: '2020'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Gro Skåland
     slug: gro-skaland

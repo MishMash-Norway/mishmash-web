@@ -27,17 +27,18 @@ urls:
 aliases: []
 tags:
 - Deep learning
-- Machine Learning
+- Machine learning
 - Artificial intelligence
 search_keywords:
 - Deep learning
-- Machine Learning
+- Machine learning
 - Artificial intelligence
 selected_works:
 - title: Kunstig intelligens kan svekke vår egen tenkning, mener Erik Johannes Husom,
     KI-forsker
   year: '2026'
   source: Feature article
+  group_type: Media
   url: https://www.vl.no/meninger/a-sette-bort-tenking-kan-vaere-mer-hemmende-enn-frigjorende/10247827
   contributors:
   - name: Erik Johannes Husom
@@ -46,6 +47,7 @@ selected_works:
 - title: Hvor mye strøm bruker egentlig KI?
   year: '2026'
   source: Interview
+  group_type: Media
   url: https://www.ge.no/artikler/stroemmarked/hvor-mye-strom-bruker-egentlig-ki
   contributors:
   - name: Gudbrandsdal Energi
@@ -55,6 +57,7 @@ selected_works:
 - title: Over 900 milliarder spørsmål på ChatGPT (Tekna)
   year: '2026'
   source: Interview
+  group_type: Media
   url: https://www.tekna.no/magasinet/kunstig-intelligens-og-energibruk/
   contributors:
   - name: Erik Johannes Husom
@@ -64,6 +67,7 @@ selected_works:
 - title: 'Inviterer til «digital strandrydding»: – Nå er det på tide'
   year: '2026'
   source: Interview
+  group_type: Media
   url: https://www.glomdalen.no/inviterer-til-digital-strandrydding-na-er-det-pa-tide/s/80-19-207860
   contributors:
   - name: Emma Rosenberg Hammeren
@@ -74,6 +78,7 @@ selected_works:
     for Automatic Speech Recognition'
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1007/978-3-032-06118-8_3
   contributors:
   - name: Maria Ulan
@@ -85,6 +90,7 @@ selected_works:
     the IIoT
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1145/3777897
   contributors:
   - name: Erik Johannes Husom
@@ -100,6 +106,7 @@ selected_works:
 - title: Generativ KI og energiforbruk
   year: '2025'
   source: Lecture
+  group_type: Lecture
   url: https://erikjohannes.no/slides/talk-2025-12-03-dnd-baerekraftig-ki.pdf
   contributors:
   - name: Erik Johannes Husom
@@ -108,6 +115,7 @@ selected_works:
 - title: Hvordan kan KI bli grønnere – Abels tårn (NRK)
   year: '2025'
   source: Radio or TV
+  group_type: Media
   url: https://radio.nrk.no/serie/abels-taarn-radio/MDFP05001225?utm_source=nrkradio&utm_medium=delelenke-ios&utm_content=prf:MDFP05001225#t=29m4s
   contributors:
   - name: Erik Johannes Husom
@@ -118,6 +126,7 @@ selected_works:
     Protocol
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1145/3785470
   contributors:
   - name: Rustem Dautov
@@ -128,6 +137,7 @@ selected_works:
     Efficiency, Output Accuracy, and Inference Latency'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1145/3767742
   contributors:
   - name: Erik Johannes Husom

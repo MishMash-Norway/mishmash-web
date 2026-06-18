@@ -8,10 +8,6 @@ department: Department of Computer Science and Computational Engineering
 institution: arctic-university-of-norway
 institutions:
 - arctic-university-of-norway
-wps:
-- WP1
-- WP2
-- WP5
 projects:
 - evaluation-cultural-bias-workflow-ai-music-generation
 roles:
@@ -21,36 +17,21 @@ urls:
   institutional_website: ''
   github: https://github.com/dadmaan
   linkedin: https://www.linkedin.com/in/dadman/
+  orcid: https://orcid.org/0000-0003-1970-5353
+  nva: https://nva.sikt.no/research-profile/1218059
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0000-0003-1970-5353
-  nva: https://nva.sikt.no/research-profile/1218059
 aliases: []
-tags:
-- Human computer interaction
-- Computational Creativity
-- Deep learning
-- Reinforcement Learning
-- Multi-Agent Systems
-- Human-AI Co-Creation
-- Music Information Retrieval
-- Neural Audio Synthesis
-search_keywords:
-- Human computer interaction
-- Computational Creativity
-- Deep learning
-- Reinforcement Learning
-- Multi-Agent Systems
-- Human-AI Co-Creation
-- Music Information Retrieval
-- Neural Audio Synthesis
+tags: []
+search_keywords: []
 selected_works:
 - title: 'Beyond Autonomous Creation in AI Music Generation: Multi-Agent Perception-Policy
     Separation with Process-Oriented Evaluation for User-Centric, Adaptive Systems'
   year: '2026'
   source: PhD thesis
+  group_type: PhD thesis
   contributors:
   - name: Shayan Dadman
     slug: shayan-dadman
@@ -60,6 +41,7 @@ selected_works:
     for Variable-Length Audio Inputs'
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://proceedings.mlr.press/v307/dadman26a.html
   contributors:
   - name: Shayan Dadman
@@ -71,6 +53,7 @@ selected_works:
 - title: 'Crafting Creative Melodies: A User-Centric Approach for Symbolic Music Generation'
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3390/electronics13061116
   contributors:
   - name: Shayan Dadman
@@ -80,6 +63,7 @@ selected_works:
 - title: 'Mindful Integration of AI in the Design Industry: Opportunities and Implications'
   year: '2023'
   source: Conference poster
+  group_type: Conference
   contributors:
   - name: Shayan Dadman
     slug: shayan-dadman
@@ -88,6 +72,7 @@ selected_works:
 - title: Multi-agent Reinforcement Learning for Structured Symbolic Music Generation
   year: '2023'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1007/978-3-031-37616-0_5
   contributors:
   - name: Shayan Dadman
@@ -97,6 +82,7 @@ selected_works:
 - title: Predicting Peak Prices in the Current Day-Ahead Market
   year: '2023'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1049/icp.2023.1244
   contributors:
   - name: Bernt Arild Bremdal
@@ -106,6 +92,7 @@ selected_works:
 - title: Using Light Weight Electric Vehicles for V2G services in the Arctic
   year: '2023'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1049/icp.2023.1230
   contributors:
   - name: Shayan Dadman
@@ -115,6 +102,7 @@ selected_works:
 - title: E-Mobility and Batteries—A Business Case for Flexibility in the Arctic Region
   year: '2023'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3390/wevj14030061
   contributors:
   - name: Bernt Arild Bremdal
@@ -126,6 +114,7 @@ selected_works:
 - title: 'Toward Interactive Music Generation: A Position Paper'
   year: '2022'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1109/ACCESS.2022.3225689
   contributors:
   - name: Shayan Dadman
@@ -138,6 +127,7 @@ selected_works:
     The Case of Longyearbyen'
   year: '2021'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.18178/JOCET.2021.9.4.530
   contributors:
   - name: Shayan Dadman
@@ -146,10 +136,11 @@ selected_works:
   - name: Bernt Arild Bremdal
   - name: Kristoffer Tangrand
 source_mentions: []
-summary: Shayan Dadman (BSc, MSc, PhD) is a researcher at UiT — The Arctic University
-  of Norway. His research explores human-AI co-creation in music through the development
-  of AI-driven tools designed to foster meaningful collaboration and partnership between
-  humans and machines.
+summary: null
+wps:
+- WP1
+- WP2
+- WP5
 permalink: /people/shayan-dadman/
 redirect_from:
 - /directory/people/shayan-dadman/

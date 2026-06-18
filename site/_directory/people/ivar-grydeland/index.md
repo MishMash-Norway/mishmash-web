@@ -38,6 +38,7 @@ selected_works:
 - title: 'Love Your Latency: The Glitching Spatiotemporality of Telematic Music Performances'
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   url: https://www.routledge.com/Innovation-in-Music-Innovative-Creative-Practice/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757834
   contributors:
   - name: Ragnhild Brøvig
@@ -49,6 +50,7 @@ selected_works:
 - title: Ivar Grydeland - Bøyning, brytning
   year: '2025'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Ivar Grydeland
     slug: ivar-grydeland
@@ -56,6 +58,7 @@ selected_works:
 - title: Love Your Latency, September 2024
   year: '2024'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Ivar Grydeland
     slug: ivar-grydeland
@@ -71,6 +74,7 @@ selected_works:
 - title: Love your Latency – harmonizing from afar
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Ivar Grydeland
     slug: ivar-grydeland
@@ -79,6 +83,7 @@ selected_works:
 - title: Love your Latency and the Glitching Spatiotemporal Condition
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
     slug: ragnhild-brovig
@@ -90,6 +95,7 @@ selected_works:
     musikere
   year: '2024'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.55669/oa491103
   contributors:
   - name: Ivar Grydeland
@@ -98,6 +104,7 @@ selected_works:
 - title: Goodbye Intuition
   year: '2020'
   source: Professional article
+  group_type: Professional article
   url: https://doi.org/10.22501/NMH-AR.974962
   contributors:
   - name: Ivar Grydeland
@@ -115,6 +122,7 @@ selected_works:
 - title: OMRÅDE 51 — Morten Qvenild og Frode Grytten
   year: '2019'
   source: Music performance
+  group_type: Music performance
   url: https://www.mortyq.com/omrade51
   contributors:
   - name: Morten Qvenild
@@ -127,6 +135,7 @@ selected_works:
 - title: Dans les arbres - Phosphoresence
   year: '2017'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Ivar Grydeland
     slug: ivar-grydeland
@@ -137,6 +146,7 @@ selected_works:
 - title: Ensemble and Ensemble of Me. What I think about when I think about improvisation
   year: '2016'
   source: Research report
+  group_type: Research report
   url: https://doi.org/10.22501/nmh-ar.2255877
   contributors:
   - name: Ivar Grydeland

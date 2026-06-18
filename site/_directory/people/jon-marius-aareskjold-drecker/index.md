@@ -49,6 +49,7 @@ selected_works:
     Currently Used in Music Production
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   url: https://www.routledge.com/Innovation-in-Music-Current-Research-Perspectives/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757858
   contributors:
   - name: Jon Marius Aareskjold-Drecker
@@ -60,6 +61,7 @@ selected_works:
 - title: 'AI and Humanities: The Role of AI-Based Tool in Music Production'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
     slug: ragnhild-brovig
@@ -70,6 +72,7 @@ selected_works:
 - title: 'Vocal Chops: Another Human/Machine Hybrid'
   year: '2024'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.4324/9781003462101-8
   contributors:
   - name: Ragnhild Brøvig
@@ -81,6 +84,7 @@ selected_works:
 - title: "Hey Siri, what are the royalty splits of the\r\nsong you wrote for me?"
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
     slug: ragnhild-brovig
@@ -93,6 +97,7 @@ selected_works:
     work... and playing left-handed'
   year: '2023'
   source: Interview
+  group_type: Media
   url: https://www.musicradar.com/news/seeb-i-took-a-pill-in-ibiza-swing#lr9ngalio32771p5ar
   contributors:
   - name: Andy Jones
@@ -106,6 +111,7 @@ selected_works:
     popular
   year: '2023'
   source: Interview
+  group_type: Media
   url: https://musictech.com/news/music/university-study-seeb-i-took-a-pill-in-ibiza-remix/
   contributors:
   - name: Rachel Roberts
@@ -118,6 +124,7 @@ selected_works:
 - title: Musical rhythm. Qualitative investigations
   year: '2022'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Ragnhild Brøvig-Hanssen
     slug: ragnhild-brovig
@@ -132,6 +139,7 @@ selected_works:
 - title: Influence du traitement de plage dynamique sur le rythme perçu dans l’EDM
   year: '2022'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Ragnhild Brøvig
     slug: ragnhild-brovig
@@ -143,6 +151,7 @@ selected_works:
 - title: Immersed in Pop! Excursions into Compositional Design
   year: '2022'
   source: PhD thesis
+  group_type: PhD thesis
   contributors:
   - name: Zack Bresler
   - name: Stan Hawkins
@@ -152,6 +161,7 @@ selected_works:
 - title: 'Konsert: ARcTic Susatin Festspillene i Nord-Norge,'
   year: '2021'
   source: Music performance
+  group_type: Music performance
   url: https://www.researchcatalogue.net/view/1456892/1729696
   contributors:
   - name: Berit Norbakken

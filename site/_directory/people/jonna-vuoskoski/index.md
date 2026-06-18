@@ -46,6 +46,7 @@ selected_works:
     and socio-affective and behavioural correlates'
   year: '2026'
   source: Conference lecture
+  group_type: Conference
   url: https://iaea-jena2026.org/wp-content/uploads/2026/04/IAEA26_AllAbstracts_Final.pdf
   contributors:
   - name: Jonna Katariina Vuoskoski
@@ -55,6 +56,7 @@ selected_works:
     expressions
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1121/10.0042460
   contributors:
   - name: Liv Merve Akca Abrahamsson
@@ -67,6 +69,7 @@ selected_works:
 - title: '„Luminiscence“: Warum uns Licht und Live-Musik so sehr bewegen'
   year: '2026'
   source: Interview
+  group_type: Media
   url: https://www.wn.de/muenster/kultur/luminiscence-interview-musikpsychologin-emotionen-3470903?pid=true&ueg=default
   contributors:
   - name: Jonna Katariina Vuoskoski
@@ -77,6 +80,7 @@ selected_works:
     moved'
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.5040/9781350409552.0024
   contributors:
   - name: Jonna Katariina Vuoskoski
@@ -85,6 +89,7 @@ selected_works:
 - title: Brain Responses to Musical Emotions in Autism
   year: '2025'
   source: Conference poster
+  group_type: Conference
   contributors:
   - name: Liv Merve Akca Abrahamsson
   - name: Katharina Egger
@@ -97,6 +102,7 @@ selected_works:
 - title: Music, emotion, and the experience of social connection
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Jonna Katariina Vuoskoski
     slug: jonna-vuoskoski
@@ -105,6 +111,7 @@ selected_works:
     in response to music
   year: '2025'
   source: Conference poster
+  group_type: Conference
   contributors:
   - name: Jonna Katariina Vuoskoski
     slug: jonna-vuoskoski
@@ -116,6 +123,7 @@ selected_works:
     Concert Setting'
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1177/20592043241263461
   contributors:
   - name: Dana Swarbrick
@@ -128,6 +136,7 @@ selected_works:
 - title: Does fantasy empathy predict the attribution of virtual agency to music?
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1177/10298649241258745
   contributors:
   - name: Jonna Katariina Vuoskoski
@@ -139,6 +148,7 @@ selected_works:
     in the intensity of music-evoked aversion'
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1177/03057356241239336
   contributors:
   - name: Jonna Katariina Vuoskoski

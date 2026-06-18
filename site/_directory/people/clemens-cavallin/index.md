@@ -31,6 +31,7 @@ selected_works:
 - title: Den katolske kirkens tilbakekomst til Bergen
   year: '2026'
   source: Non-fiction chapter
+  group_type: Non-fiction chapter
   contributors:
   - name: Clemens Cavallin
     slug: clemens-cavallin
@@ -38,6 +39,7 @@ selected_works:
 - title: Hevder at KI er i ferd med å endre teologien
   year: '2026'
   source: Interview
+  group_type: Media
   url: https://www.dagen.no/tro/hevder-at-ki-er-i-ferd-med-a-endre-teologien/1549662
   contributors:
   - name: Gunnar Innerdal
@@ -48,6 +50,7 @@ selected_works:
 - title: Introduktion
   year: '2026'
   source: Non-fiction chapter
+  group_type: Non-fiction chapter
   contributors:
   - name: Clemens Cavallin
     slug: clemens-cavallin
@@ -56,6 +59,7 @@ selected_works:
 - title: Katolsk kristendom
   year: '2026'
   source: Non-fiction chapter
+  group_type: Non-fiction chapter
   contributors:
   - name: Clemens Cavallin
     slug: clemens-cavallin
@@ -63,6 +67,7 @@ selected_works:
 - title: Den tomaskristna traditionen
   year: '2026'
   source: Non-fiction chapter
+  group_type: Non-fiction chapter
   contributors:
   - name: Clemens Cavallin
     slug: clemens-cavallin
@@ -70,6 +75,7 @@ selected_works:
 - title: 'Kristendom i Indien : En introduktion'
   year: '2026'
   source: Non-fiction book
+  group_type: Non-fiction book
   contributors:
   - name: Julia Kuhlin
   - name: Anita Yadala Suneson
@@ -81,6 +87,7 @@ selected_works:
     Religious Education: A Case Study: The Eternals'
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Clemens Cavallin
     slug: clemens-cavallin
@@ -89,6 +96,7 @@ selected_works:
     i ödemarken. Om människans förmåga att besjäla världen. Norstedts 2023, 318 s.'
   year: '2023'
   source: Book review
+  group_type: Book review
   contributors:
   - name: Paul Clemens Cavallin
     slug: clemens-cavallin
@@ -96,6 +104,7 @@ selected_works:
 - title: Religion
   year: '2023'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Paul Clemens Cavallin
     slug: clemens-cavallin
@@ -104,6 +113,7 @@ selected_works:
     av religio
   year: '2022'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Paul Clemens Cavallin
     slug: clemens-cavallin

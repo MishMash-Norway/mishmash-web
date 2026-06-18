@@ -8,36 +8,29 @@ department: Department of Musicology
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-wps:
-- WP6
 projects: []
 roles:
 - Member
 urls:
   personal_website: https://mutecen.github.io/
-  institutional_website: https://www.uio.no/ritmo/english/people/phd-fellows/annammc/index.html
+  institutional_website: ''
   github: ''
   linkedin: ''
+  orcid: https://orcid.org/0009-0003-7063-2062
+  nva: https://nva.sikt.no/research-profile/1578841
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0009-0003-7063-2062
-  nva: https://nva.sikt.no/research-profile/1578841
 aliases: []
-tags:
-- multimodal learning
-- AI music
-- computational music analysis
-search_keywords:
-- multimodal learning
-- AI music
-- computational music analysis
+tags: []
+search_keywords: []
 selected_works:
 - title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
     Arts
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1007/978-3-032-26999-7_18
   contributors:
   - name: Hugh Alexander von Arnim
@@ -55,6 +48,7 @@ selected_works:
 - title: Editorial Note
   year: '2025'
   source: Introduction
+  group_type: Introduction
   contributors:
   - name: Abbigail Marie Fleckenstein
   - name: Hugh Alexander von Arnim
@@ -65,6 +59,7 @@ selected_works:
     Light
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.5281/zenodo.17496754
   contributors:
   - name: Anna-Maria Christodoulou
@@ -77,6 +72,7 @@ selected_works:
 - title: SysMus25 Conference Proceedings
   year: '2025'
   source: Book anthology
+  group_type: Book anthology
   url: https://doi.org/10.5281/zenodo.17632991
   contributors:
   - name: Hugh Alexander von Arnim
@@ -87,6 +83,7 @@ selected_works:
 - title: SysMus25 Book of Abstracts
   year: '2025'
   source: Book anthology
+  group_type: Book anthology
   url: https://doi.org/10.5281/zenodo.17531650
   contributors:
   - name: Abbigail Marie Fleckenstein
@@ -97,6 +94,7 @@ selected_works:
 - title: 'MusiQAl: Music Question Answering through Audio-Video fusion'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   url: https://ismir2025.ismir.net/program-detailed-schedule
   contributors:
   - name: Anna-Maria Christodoulou
@@ -115,6 +113,7 @@ selected_works:
     Improvisation
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   url: https://ifas.thws.de/fileadmin/user_upload/250917_HIGH-M_Symposium_Programme_updated.pdf
   contributors:
   - name: Anna-Maria Christodoulou
@@ -123,6 +122,7 @@ selected_works:
 - title: A Multimodal Dataset of Greek Folk Music
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   url: https://dlfm.web.ox.ac.uk/2025-programme
   contributors:
   - name: Anna-Maria Christodoulou
@@ -134,6 +134,7 @@ selected_works:
 - title: 'MusiQAl: A Dataset for Music Question–Answering through Audio–Video Fusion'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.5334/tismir.222
   contributors:
   - name: Anna-Maria Christodoulou
@@ -152,6 +153,7 @@ selected_works:
     Search'
   year: '2024'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3638530.3654432
   contributors:
   - name: Jinyue Guo
@@ -163,6 +165,8 @@ selected_works:
     slug: kyrre-glette
     url: /people/kyrre-glette/
 source_mentions: []
+wps:
+- WP6
 permalink: /people/anna-maria-christodoulou/
 redirect_from:
 - /directory/people/anna-maria-christodoulou/

@@ -18,6 +18,7 @@ people:
 - charles-martin
 - diego-marin-bucio
 - eskil-muan-saether
+- hege-stensrud-hosoien
 - ingrid-chieh-yu
 - jon-marius-aareskjold-drecker
 - jonna-vuoskoski

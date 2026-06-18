@@ -31,6 +31,7 @@ selected_works:
 - title: In a Now
   year: '2019'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Ingvo Clauder
   - name: Anders Tveit
@@ -41,6 +42,7 @@ selected_works:
 - title: Fritt fall - Live coding
   year: '2015'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -51,6 +53,7 @@ selected_works:
 - title: Lær kidsa musikkoding
   year: '2015'
   source: Conference lecture
+  group_type: Conference
   url: http://site.uit.no/musikkteknologidagene15/
   contributors:
   - name: Alexander Refsum Jensenius
@@ -62,6 +65,7 @@ selected_works:
 - title: OMO på Komdagen
   year: '2015'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -77,6 +81,7 @@ selected_works:
 - title: Reunion2012
   year: '2014'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Anders Tveit
     slug: anders-tveit
@@ -90,6 +95,7 @@ selected_works:
 - title: 'Semesteråpningskonsert: Oslo mobilorkester'
   year: '2013'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
@@ -107,6 +113,7 @@ selected_works:
 - title: Oslo iPhone Ensemble @ Scandinavian Futures
   year: '2011'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius

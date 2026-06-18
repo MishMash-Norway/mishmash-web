@@ -43,6 +43,7 @@ selected_works:
     motion-capture sensors
   year: '2025'
   source: Report
+  group_type: Report
   contributors:
   - name: Emilio Ruiz
   - name: Konstantinos Kousias
@@ -61,6 +62,7 @@ selected_works:
 - title: Upsampled Vector Autoregressive Processes
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://ieeexplore.ieee.org/abstract/document/11226438
   contributors:
   - name: Emilio Ruiz Moreno
@@ -71,6 +73,7 @@ selected_works:
 - title: Doubly Truncated Mode Kriging
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1109/ssp64130.2025.11073282
   contributors:
   - name: Emilio Ruiz Moreno
@@ -80,6 +83,7 @@ selected_works:
 - title: Cellular Autoregressive Higher-Order Models
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.23919/eusipco63237.2025.11226689
   contributors:
   - name: "Abdullah\t Canbolat"
@@ -90,6 +94,7 @@ selected_works:
 - title: Online Topology Identification of Higher-Order Cell Structures
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1109/mlsp62443.2025.11204205
   contributors:
   - name: "Abdullah\t Canbolat"
@@ -100,6 +105,7 @@ selected_works:
 - title: 'Topological signal processing and learning: Recent advances and future challenges'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1016/j.sigpro.2025.109930
   contributors:
   - name: Elvin Isufi
@@ -112,6 +118,7 @@ selected_works:
 - title: Proceedings of NORA’s annual conference 2025
   year: '2025'
   source: Conference abstract
+  group_type: Conference
   url: https://doi.org/10.5617/nmi.12551
   contributors:
   - name: Geir Halnes
@@ -184,6 +191,8 @@ selected_works:
   - name: Arezo Shakeri
   - name: Shailendra Singh
   - name: Ali Ramezani-Kebrya
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
   - name: Pål Halvorsen
   - name: David S. Leslie
   - name: Matteo Iervasi
@@ -203,6 +212,7 @@ selected_works:
 - title: A Data-driven Transfer Learning Method for Indoor Radio Map Estimation
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1109/tvt.2025.3609207
   contributors:
   - name: Rahul Kumar Jaiswal
@@ -215,6 +225,7 @@ selected_works:
     Dynamics
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   url: https://doi.org/10.23919/EUSIPCO63174.2024.10714981
   contributors:
   - name: Rohan Money
@@ -225,6 +236,7 @@ selected_works:
 - title: Kalman Filtering for Simplicial Processes
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   url: https://ieeexplore.ieee.org/document/10942943
   contributors:
   - name: Rohan Money

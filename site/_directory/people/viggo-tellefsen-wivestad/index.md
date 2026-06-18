@@ -30,6 +30,7 @@ selected_works:
 - title: Safe and Sustainable Development of AI tools for German Primary Care
   year: '2026'
   source: Research report
+  group_type: Research report
   contributors:
   - name: Mari Gunnes
   - name: Viggo Tellefsen Wivestad
@@ -40,6 +41,7 @@ selected_works:
     Case Study'
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://hdl.handle.net/10125/112286
   contributors:
   - name: Viktoria Stray
@@ -52,6 +54,7 @@ selected_works:
 - title: The Great Human Filter - The Age of Evaluation (album)
   year: '2025'
   source: Music performance
+  group_type: Music performance
   url: https://thegreathumanfilter.com/
   contributors:
   - name: Viggo Tellefsen Wivestad
@@ -60,6 +63,7 @@ selected_works:
 - title: Kommer KI til å drepe kreativiteten vår?
   year: '2025'
   source: Media podcast
+  group_type: Media
   url: https://shows.acast.com/smart-forklart/episodes/kommer-ki-til-a-drepe-kreativiteten-var
   contributors:
   - name: Aksel Faanes Persson
@@ -69,6 +73,7 @@ selected_works:
 - title: KI og kampen om sannheten   – Ytring
   year: '2025'
   source: Reader opinion
+  group_type: Media
   url: https://www.nrk.no/ytring/ki-og-kampen-om-sannheten__-1.17314734
   contributors:
   - name: Viggo Tellefsen Wivestad
@@ -77,6 +82,7 @@ selected_works:
 - title: 'Debatt: Slik kan man sikre seg mot økonomisk «deepfake»-svindel'
   year: '2025'
   source: Reader opinion
+  group_type: Media
   url: https://www.dn.no/innlegg/svindel/datasikkerhet/deepfake/slik-kan-man-sikre-seg-mot-okonomisk-deepfake-svindel/2-1-1788857
   contributors:
   - name: Viggo Tellefsen Wivestad
@@ -86,6 +92,7 @@ selected_works:
 - title: 'Generative AI in the Workplace: Affective Affordances and Employee Flourishing'
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.24251/hicss.2025.720
   contributors:
   - name: Astri Moksnes Barbala
@@ -97,6 +104,7 @@ selected_works:
 - title: Copilot’s Island of Joy
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1007/978-3-031-72781-8_13
   contributors:
   - name: Viggo Tellefsen Wivestad
@@ -107,6 +115,7 @@ selected_works:
 - title: Hva betyr at noe er "deepfake"?
   year: '2025'
   source: Interview
+  group_type: Media
   contributors:
   - name: Viggo Tellefsen Wivestad
     slug: viggo-tellefsen-wivestad
@@ -116,6 +125,7 @@ selected_works:
     Developers’ Use of GitHub Copilot and ChatGPT'
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3696630.3730566
   contributors:
   - name: Viktoria Stray

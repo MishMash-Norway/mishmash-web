@@ -35,6 +35,7 @@ selected_works:
 - title: Activating aesthetics - explorations for shifting design practices
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.21606/nordes.2025.24
   contributors:
   - name: Felicia Nilsson
@@ -45,6 +46,7 @@ selected_works:
 - title: The Perceived and the Performed - Exploring a Sensate Corporeal Practice
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Lise Amy Hansen
     slug: lise-amy-hansen
@@ -53,6 +55,7 @@ selected_works:
 - title: Sensate and sensed – configuring conditions for a relational movement potential
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   url: https://www.nsae.fi/conferences/
   contributors:
   - name: Lise Amy Hansen
@@ -62,6 +65,7 @@ selected_works:
 - title: Anticipation, agency and aging–conditions for making movement irresistible
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3389/fragi.2024.1380838
   contributors:
   - name: Lise Amy Hansen
@@ -73,6 +77,7 @@ selected_works:
 - title: More than now – placing an experience of co-temporality in movement
   year: '2023'
   source: Conference lecture
+  group_type: Conference
   url: https://www.hf.uio.no/ikos/forskning/prosjekter/livstider/arrangementer/presence-and-rhythms.html
   contributors:
   - name: Janne-Camilla Lyster
@@ -83,6 +88,7 @@ selected_works:
     disabillities in working life
   year: '2019'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Elin Thygesen
   - name: Sofie Sara Terese Wass
@@ -97,6 +103,7 @@ selected_works:
     disability in working life
   year: '2019'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Elin Thygesen
   - name: Sofie Sara Terese Wass
@@ -111,6 +118,7 @@ selected_works:
     noen metodiske og etiske refleksjoner
   year: '2019'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.18261/issn.2387-5984-2019-03-06
   contributors:
   - name: Elisabeth Holen-Rabbersvik
@@ -124,6 +132,7 @@ selected_works:
     spaces across systems
   year: '2019'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Sofie Sara Terese Wass
   - name: Lise Amy Hansen
@@ -132,6 +141,7 @@ selected_works:
 - title: InnArbeid og Innovasjon
   year: '2019'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Lise Amy Hansen
     slug: lise-amy-hansen

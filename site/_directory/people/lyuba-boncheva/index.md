@@ -3,7 +3,7 @@ type: person
 slug: lyuba-boncheva
 name: Lyuba Boncheva
 title: Lyuba Boncheva
-position: PhD Candidate
+position: ''
 department: ''
 institution: bi-norwegian-business-school
 institutions:
@@ -13,41 +13,21 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: https://www.bi.no/om-bi/ansatte/fagressurser/lyuba-boncheva/
+  institutional_website: ''
   github: ''
   linkedin: https://www.linkedin.com/in/lyuba-boncheva-4844391aa/
   orcid: https://orcid.org/0009-0004-0753-6892
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/1889228
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
 aliases: []
-tags:
-- Artificial intelligence
-- museums
-- Cultural Heritage
-- innovation
-- audienceexperience
-- AI-mediation
-- valuecreation
-- culturalvalue
-- transformativetechnologies
-- Performing Arts
-search_keywords:
-- Artificial intelligence
-- museums
-- Cultural Heritage
-- innovation
-- audienceexperience
-- AI-mediation
-- valuecreation
-- culturalvalue
-- transformativetechnologies
-- Performing Arts
+tags: []
+search_keywords: []
 selected_works: []
 source_mentions: []
-summary: ''
+summary: null
 wps:
 - WP5
 - WP6

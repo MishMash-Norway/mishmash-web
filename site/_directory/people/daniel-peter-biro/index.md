@@ -26,28 +26,29 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Ethnomusicology
+- Etnomusicology
 - Musical memory
 - Musical modernism
 - Experimental Music
 - Musical composition
 - Musical electronics
-- Computer-Assisted Composition
+- Computer assisted composition -music
 - Musical analysis
 search_keywords:
-- Ethnomusicology
+- Etnomusicology
 - Musical memory
 - Musical modernism
 - Experimental Music
 - Musical composition
 - Musical electronics
-- Computer-Assisted Composition
+- Computer assisted composition -music
 - Musical analysis
 selected_works:
 - title: “Philosophical Translation as Compositional Research in the Ethica Composition
     Cycle after Baruch Spinoza”
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   url: https://www.wolke-verlag.de/en/
   contributors:
   - name: Daniel Peter Biro
@@ -56,6 +57,7 @@ selected_works:
 - title: Composition as Research
   year: '2026'
   source: Non-fiction book
+  group_type: Non-fiction book
   contributors:
   - name: Daniel Peter Biro
     slug: daniel-peter-biro
@@ -64,6 +66,7 @@ selected_works:
 - title: Hagirot (Immigrations)
   year: '2026'
   source: Music performance
+  group_type: Music performance
   url: https://www.editiongravis.de/verlag/authors.php?authors_id=137
   contributors:
   - name: Daniel Peter Biro
@@ -75,6 +78,7 @@ selected_works:
     Seele des Fremden'
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://www.musikundaesthetik.de/
   contributors:
   - name: Daniel Peter Biro
@@ -87,6 +91,7 @@ selected_works:
     Asher Hotseti Etkhem'
   year: '2026'
   source: Journal article
+  group_type: Journal article
   contributors:
   - name: Daniel Peter Biro
     slug: daniel-peter-biro
@@ -96,6 +101,7 @@ selected_works:
 - title: Ethica
   year: '2025'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Daniel Peter Biro
     slug: daniel-peter-biro
@@ -106,6 +112,7 @@ selected_works:
 - title: Et Tsarah (Time of Trouble)
   year: '2025'
   source: Music performance
+  group_type: Music performance
   url: https://www.zhdk.ch/en/news/d-niel-p-ter-bir-8256
   contributors:
   - name: Daniel Peter Biro
@@ -114,6 +121,7 @@ selected_works:
 - title: In Nono's Footsteps
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   url: https://www.researchcatalogue.net/view/3552879/3552878
   contributors:
   - name: Daniel Peter Biro
@@ -122,6 +130,7 @@ selected_works:
 - title: At in numeris simplicissimis
   year: '2021'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Daniel Peter Biro
     slug: daniel-peter-biro
@@ -129,6 +138,7 @@ selected_works:
 - title: Sokharim for 5 Voices and % String Instruments
   year: '2021'
   source: Music performance
+  group_type: Music performance
   contributors:
   - name: Daniel Peter Biro
     slug: daniel-peter-biro

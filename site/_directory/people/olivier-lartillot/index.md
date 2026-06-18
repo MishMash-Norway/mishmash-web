@@ -31,6 +31,7 @@ selected_works:
     og filmprodusenter nå?'
   year: '2026'
   source: Interview
+  group_type: Media
   url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
   contributors:
   - name: Sunniva Monclair Bøe
@@ -48,6 +49,7 @@ selected_works:
 - title: Computational music analysis
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Olivier Lartillot
     slug: olivier-lartillot
@@ -55,6 +57,7 @@ selected_works:
 - title: Human Interaction assessment and Generative segmentation in Health & Music
   year: '2025'
   source: Lecture
+  group_type: Lecture
   url: https://www.youtube.com/watch?v=I4jaZIzX0wg
   contributors:
   - name: Thomas Wosch
@@ -65,6 +68,7 @@ selected_works:
 - title: 'AcousMuScope: Users'' Guide'
   year: '2025'
   source: Research report
+  group_type: Research report
   url: https://www.uio.no/ritmo/english/projects/mirage/software/AcousMuScope/index.html
   contributors:
   - name: Olivier Lartillot
@@ -74,6 +78,7 @@ selected_works:
 - title: 'Towards Collaborative Analysis: Kaija Saariaho’s Io (1986–87)'
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Marina Sudo
   - name: Michelle Ziegler
@@ -85,6 +90,7 @@ selected_works:
     Tools as an Aid for Listening'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   url: https://fabricadesites.fcsh.unl.pt/ncmm/ncmm-2025-program/
   contributors:
   - name: Marina Sudo
@@ -94,6 +100,7 @@ selected_works:
 - title: 'MusiQAl: Music Question Answering through Audio-Video fusion'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   url: https://ismir2025.ismir.net/program-detailed-schedule
   contributors:
   - name: Anna-Maria Christodoulou
@@ -111,6 +118,7 @@ selected_works:
 - title: Computational Music Analysis Applied to Music Therapy Improvisation
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   url: https://ifas.thws.de/fileadmin/user_upload/250917_HIGH-M_Symposium_Programme_updated.pdf
   contributors:
   - name: Olivier Lartillot
@@ -120,6 +128,7 @@ selected_works:
     & therapy'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Olivier Lartillot
     slug: olivier-lartillot
@@ -127,6 +136,7 @@ selected_works:
 - title: A Multimodal Dataset of Greek Folk Music
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   url: https://dlfm.web.ox.ac.uk/2025-programme
   contributors:
   - name: Anna-Maria Christodoulou

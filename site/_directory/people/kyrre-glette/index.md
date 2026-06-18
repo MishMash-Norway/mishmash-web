@@ -37,6 +37,7 @@ selected_works:
     cellular automata
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1016/j.neunet.2026.108798
   contributors:
   - name: Mia-Katrin Ose Kvalsund
@@ -51,6 +52,7 @@ selected_works:
 - title: Co-Optimization of Robot Bodies and Brains with Evolutionary Algorithms
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   url: https://www.mn.uio.no/ifi/english/research/groups/robin/events/Tutorials/Tutorial-SSCI2025/Tutorial-SSCI2025
   contributors:
   - name: Frank Veenstra
@@ -65,6 +67,7 @@ selected_works:
     Robotics
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1162/ISAL.a.866
   contributors:
   - name: Ege de Bruin
@@ -77,6 +80,7 @@ selected_works:
 - title: 'HS-ims: A Platform for Human-Swarm Interactive Music Systems'
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1109/ACSOS-C66519.2025.00067
   contributors:
   - name: Pedro Pablo Lucas Bravo
@@ -90,6 +94,7 @@ selected_works:
 - title: Live Coding the Lineage
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.5281/zenodo.17642435
   contributors:
   - name: Björn Thór Jónsson
@@ -105,6 +110,7 @@ selected_works:
 - title: 'MusiQAl: Music Question Answering through Audio-Video fusion'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   url: https://ismir2025.ismir.net/program-detailed-schedule
   contributors:
   - name: Anna-Maria Christodoulou
@@ -123,6 +129,7 @@ selected_works:
     in Evolvable Robots
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1109/alife-cis64968.2025.10979828
   contributors:
   - name: Ege de Bruin
@@ -136,6 +143,7 @@ selected_works:
     mechanisms
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1088/1361-665x/addf98
   contributors:
   - name: Andrija Milojevic
@@ -145,6 +153,7 @@ selected_works:
 - title: 'MusiQAl: A Dataset for Music Question–Answering through Audio–Video Fusion'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.5334/tismir.222
   contributors:
   - name: Anna-Maria Christodoulou
@@ -163,6 +172,7 @@ selected_works:
     and future directions
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3389/fcomp.2025.1575667
   contributors:
   - name: Benedikte Wallace

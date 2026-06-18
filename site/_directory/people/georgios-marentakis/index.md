@@ -31,6 +31,7 @@ selected_works:
     Enhancing School Inclusivity?'
   year: '2026'
   source: Conference poster
+  group_type: Conference
   url: https://doi.org/10.13140/RG.2.2.15086.57923
   contributors:
   - name: Marte Karoline Herrebrøden
@@ -43,6 +44,7 @@ selected_works:
     students in educational settings
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1016/j.ridd.2026.105301
   contributors:
   - name: Marte Karoline Herrebrøden
@@ -57,6 +59,7 @@ selected_works:
     an Educational Setting
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Georgios Marentakis
     slug: georgios-marentakis
@@ -65,6 +68,7 @@ selected_works:
 - title: Experimenter Effect in a Guided Breathing Experiment
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.5281/ZENODO.15032536
   contributors:
   - name: Georgios Marentakis
@@ -75,6 +79,7 @@ selected_works:
     tablet tasks
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3771594.3771628
   contributors:
   - name: Georgios Marentakis
@@ -84,6 +89,7 @@ selected_works:
 - title: Comparing Trend-Based and Direct HRV Biofeedback in an Adaptive Game Environment
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3771594.3771636
   contributors:
   - name: Michael Nicholas Louka
@@ -96,6 +102,7 @@ selected_works:
     Headphones for Autistic Students in Schools
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Marte Karoline Herrebrøden
   - name: Georgios Marentakis
@@ -105,6 +112,7 @@ selected_works:
 - title: 'It sounds sustainable: practices in designing sound for sustainability'
   year: '2024'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.21606/drs.2024.791
   contributors:
   - name: Georgios Marentakis
@@ -114,6 +122,7 @@ selected_works:
 - title: Sketching in Sound and Interaction Design
   year: '2023'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Georgios Marentakis
     slug: georgios-marentakis
@@ -121,6 +130,7 @@ selected_works:
 - title: Multimodal Cues for Guided Breathing
   year: '2023'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Georgios Marentakis
     slug: georgios-marentakis

@@ -31,6 +31,7 @@ selected_works:
 - title: Panelsamtale om språk og arbeid
   year: '2025'
   source: Presentation
+  group_type: Lecture
   contributors:
   - name: Verónica Pájaro
   - name: Sunniva Whittaker
@@ -43,6 +44,7 @@ selected_works:
     Romanian case study.'
   year: '2020'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.24193/subbphilo.2020.3.04
   contributors:
   - name: Anne Kari Bjørge
@@ -54,6 +56,7 @@ selected_works:
     The impact of corporate values and language'
   year: '2015'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Anne Kari Bjørge
   - name: Sunniva Whittaker
@@ -63,6 +66,7 @@ selected_works:
 - title: 'Language management in a multinational workforce: The knowledge worker perspective.'
   year: '2015'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.7146/hjlcb.v27i54.22952
   contributors:
   - name: Anne Kari Bjørge
@@ -73,6 +77,7 @@ selected_works:
     worker perspective
   year: '2015'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Anne Kari Bjørge
   - name: Sunniva Whittaker
@@ -81,6 +86,7 @@ selected_works:
 - title: Language management
   year: '2014'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Anne Kari Bjørge
   - name: Sunniva Whittaker
@@ -89,6 +95,7 @@ selected_works:
 - title: Contrastive legal discourse research. Corpus design and application
   year: '2014'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3917/rfla.191.0049
   contributors:
   - name: Sunniva Whittaker
@@ -97,6 +104,7 @@ selected_works:
 - title: Learner corpora as a pedagogical resource in specialized translator training
   year: '2013'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Ingrid Simonnæs
   - name: Sunniva Whittaker
@@ -106,6 +114,7 @@ selected_works:
     et traductologiques'
   year: '2013'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Sunniva Whittaker
     slug: sunniva-whittaker
@@ -114,6 +123,7 @@ selected_works:
 - title: Global corporate values - a linguistic approach
   year: '2012'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Anne Kari Bjørge
   - name: Sunniva Whittaker

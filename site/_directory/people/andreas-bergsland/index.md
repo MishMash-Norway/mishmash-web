@@ -36,6 +36,7 @@ selected_works:
 - title: Facilitating the Development of Interactive Wheelchair Sonifications
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Andreas Bergsland
     slug: andreas-bergsland
@@ -43,6 +44,7 @@ selected_works:
 - title: The Sounds of Ski Poles in hard Packed Snow in an Upper Manhattan Bedroom
   year: '2024'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Andreas Bergsland
     slug: andreas-bergsland
@@ -51,6 +53,7 @@ selected_works:
 - title: Facilitating development of interactive wheelchair sonifications
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Andreas Bergsland
     slug: andreas-bergsland
@@ -58,6 +61,7 @@ selected_works:
 - title: Yellowstone/winter
   year: '2024'
   source: Music performance
+  group_type: Music performance
   url: https://www.youtube.com/live/8TVe_Xuv3G4?feature=shared
   contributors:
   - name: Andreas Bergsland
@@ -68,6 +72,7 @@ selected_works:
     in pediatric medicine'
   year: '2023'
   source: Journal article
+  group_type: Journal article
   contributors:
   - name: Robert Wechsler
   - name: Andreas Bergsland
@@ -78,6 +83,7 @@ selected_works:
 - title: 'Deus Ex Machina: Synchronization Strategies in Mixed Music'
   year: '2022'
   source: PhD thesis
+  group_type: PhD thesis
   contributors:
   - name: Mathieu Lacroix
   - name: Andreas Bergsland
@@ -88,6 +94,7 @@ selected_works:
 - title: "Beginnings and Endings - Study I\r\nfor interactive dance"
   year: '2021'
   source: Music performance
+  group_type: Music performance
   url: https://youtu.be/fkOZaT2pS-k
   contributors:
   - name: Andreas Bergsland
@@ -96,6 +103,7 @@ selected_works:
 - title: Modalities of Listening, NTNU ARTEC Seminar Series Seminar
   year: '2020'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Nina Eidsheim
   - name: Garth Paine
@@ -108,6 +116,7 @@ selected_works:
 - title: Feedback systems with FM receivers and transmitters as musical instruments
   year: '2020'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Andreas Bergsland
     slug: andreas-bergsland
@@ -115,6 +124,7 @@ selected_works:
 - title: VIBRA - Technical and Artistic Issues in an Interactive Dance Project
   year: '2019'
   source: Journal article
+  group_type: Journal article
   url: http://smc2019.uma.es/docs/SMC2019_Proceedings.pdf
   contributors:
   - name: Andreas Bergsland

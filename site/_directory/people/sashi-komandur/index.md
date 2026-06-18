@@ -59,6 +59,7 @@ selected_works:
 - title: INNKU 2025 - MISHMASH
   year: '2025'
   source: Media podcast
+  group_type: Media
   url: https://shows.acast.com/fts-podden/episodes/697896b3590ca8b771a9a373
   contributors:
   - name: Ida Jahr
@@ -74,6 +75,7 @@ selected_works:
 - title: INNKU 2025
   year: '2025'
   source: Presentation
+  group_type: Lecture
   url: https://www.inn.no/om-universitetet/fakultet-for-film-tv-spill/hva-skjer-pa-ftvs/inkku-2025/
   contributors:
   - name: Nina Grünfeld
@@ -129,6 +131,7 @@ selected_works:
     Findings from Human Factors Research Studies.
   year: '2025'
   source: Conference poster
+  group_type: Conference
   url: https://ieem2025.org/About
   contributors:
   - name: Sashidharan Komandur
@@ -138,6 +141,7 @@ selected_works:
     in a navigational training context'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://hdl.handle.net/11250/3195950
   contributors:
   - name: Per Haavardtun
@@ -152,6 +156,7 @@ selected_works:
 - title: Essential Game Elements - Immersive Training​
   year: '2023'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Fred Fröhlich
   - name: Sashidharan Komandur
@@ -161,6 +166,7 @@ selected_works:
     measurements of cognitive workload
   year: '2020'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1109/JSEN.2020.3038291
   contributors:
   - name: Giovanni Pignoni
@@ -171,6 +177,7 @@ selected_works:
 - title: Attention! Designing a Target Group-Oriented Risk Communication Strategy
   year: '2020'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1007/978-3-030-50732-9_77
   contributors:
   - name: Lara Raffel
@@ -182,6 +189,7 @@ selected_works:
     Navigation Activity'
   year: '2020'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1007/978-3-030-50726-8_65
   contributors:
   - name: Tim Streilein
@@ -196,6 +204,7 @@ selected_works:
     Studies Through Eye Tracking.
   year: '2019'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1007/978-3-030-22507-0_9
   contributors:
   - name: Giovanni Pignoni
@@ -206,6 +215,7 @@ selected_works:
     Phones
   year: '2019'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1007/978-3-030-23522-2_23
   contributors:
   - name: Carly Grace Allen

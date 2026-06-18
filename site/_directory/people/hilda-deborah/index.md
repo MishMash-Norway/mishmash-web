@@ -5,11 +5,10 @@ name: Hilda Deborah
 title: Hilda Deborah
 position: Researcher
 department: Department of Computer Science
+image: /assets/images/portraits/Hilda_Deborah_NTNU.jpg
 institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
-wps:
-- WP6
 projects: []
 roles:
 - Member
@@ -18,12 +17,12 @@ urls:
   institutional_website: https://sites.google.com/view/tobinghd/
   github: https://github.com/hildatobing
   linkedin: https://www.linkedin.com/in/hildadeborah/
+  orcid: https://orcid.org/0000-0003-3779-2569
+  nva: https://nva.sikt.no/research-profile/1305503
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0000-0003-3779-2569
-  nva: https://nva.sikt.no/research-profile/1305503
 aliases: []
 tags:
 - Digital Humanities
@@ -31,28 +30,17 @@ tags:
 - Hyperspectral imaging
 - Image quality
 - Image processing
-- imaging for cultural heritage
-- image analysis
-- databases
-- manuscript research
-- texture analysis
-- perception studies
 search_keywords:
 - Digital Humanities
 - Remote sensing
 - Hyperspectral imaging
 - Image quality
 - Image processing
-- imaging for cultural heritage
-- image analysis
-- databases
-- manuscript research
-- texture analysis
-- perception studies
 selected_works:
 - title: Catching illegal construction from 700 km up
   year: '2026'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Hilda Deborah
     slug: hilda-deborah
@@ -61,6 +49,7 @@ selected_works:
 - title: Surveying Imaging Workflows and Software in Cultural Heritage
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.2352/issn.2168-3204.2025.22.1.10
   contributors:
   - name: Nina Christine Eckertz
@@ -72,6 +61,7 @@ selected_works:
 - title: Pigment Identification of Ortelius Historical Maps using Hyperspectral Imaging
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.2352/issn.2168-3204.2025.22.1.4
   contributors:
   - name: Zealandia Sarah Nurul Fatma
@@ -84,6 +74,7 @@ selected_works:
     context
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Hilda Deborah
     slug: hilda-deborah
@@ -94,6 +85,7 @@ selected_works:
     of a misconception and a future recommendation'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   url: https://www.inn.no/om-universitetet/fakultet-for-lererutdanning-og-pedagogikk/arrangementer-fra-lup/dhko-2025/deborah.pdf
   contributors:
   - name: Hilda Deborah
@@ -102,6 +94,7 @@ selected_works:
 - title: Ad fontes! Ad fragmenta! Reinventing the Dead Sea Scrolls
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Årstein Justnes
     slug: arstein-justnes
@@ -113,6 +106,7 @@ selected_works:
     Undergraduates'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Anna Lawrance
   - name: Mateusz Janiszewski
@@ -129,6 +123,7 @@ selected_works:
     Datasets of Artworks
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1109/WHISPERS65427.2024.10876534
   contributors:
   - name: Dipendra Jee Mandal
@@ -139,6 +134,7 @@ selected_works:
 - title: Spatially Constrained Hyperspectral Pigment Mapping using Watershed Segmentation
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1109/WHISPERS65427.2024.10876543
   contributors:
   - name: Nina Christine Eckertz
@@ -150,6 +146,7 @@ selected_works:
 - title: Hyperspectral Image Based Visualisations for Cultural Heritage Applications
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Hilda Deborah
     slug: hilda-deborah
@@ -159,10 +156,11 @@ selected_works:
   - name: Nina Christine Eckertz
   - name: Jon Yngve Hardeberg
 source_mentions: []
+wps:
+- WP6
 permalink: /people/hilda-deborah/
 redirect_from:
 - /directory/people/hilda-deborah/
-image: /assets/images/portraits/Hilda_Deborah_NTNU.jpg
 ---
 
 Bio coming soon.

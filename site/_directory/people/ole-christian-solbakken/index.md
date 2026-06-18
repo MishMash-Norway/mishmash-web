@@ -32,6 +32,7 @@ selected_works:
 - title: Pre-Words Storytelling
   year: '2022'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Ole Christian Solbakken
     slug: ole-christian-solbakken
@@ -39,6 +40,7 @@ selected_works:
 - title: Jul på Kutoppen
   year: '2020'
   source: Film or video
+  group_type: Film or video
   contributors:
   - name: Ole Christian Solbakken
     slug: ole-christian-solbakken

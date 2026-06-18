@@ -30,6 +30,7 @@ selected_works:
 - title: 'Introduction: Media Seas of the High North Atlantic'
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.4324/9781003478805
   contributors:
   - name: Synne Tollerud Bull
@@ -43,6 +44,7 @@ selected_works:
 - title: Media Seas and the Blue Humanities Studies of the High North Atlantic
   year: '2026'
   source: Book anthology
+  group_type: Book anthology
   url: https://doi.org/10.4324/9781003478805
   contributors:
   - name: Synne Tollerud Bull
@@ -56,6 +58,7 @@ selected_works:
 - title: 'Fotoboksamtale: Tom Sandberg & co'
   year: '2026'
   source: Presentation
+  group_type: Lecture
   contributors:
   - name: Thale Elisabeth Sørlie
   - name: Harald Østgaard Lund
@@ -65,6 +68,7 @@ selected_works:
 - title: The Atlantic Ocean
   year: '2024'
   source: Non-fiction book
+  group_type: Non-fiction book
   contributors:
   - name: Susanne Østby Sæther
     slug: susanne-o-saether
@@ -74,6 +78,7 @@ selected_works:
 - title: Screen Space Reconfigured
   year: '2020'
   source: Book anthology
+  group_type: Book anthology
   url: https://doi.org/10.2307/j.ctv12pnt9c
   contributors:
   - name: Susanne Østby Sæther
@@ -85,6 +90,7 @@ selected_works:
 - title: Kunst i bevegelse. Iverksettelse av film- og videokunst
   year: '2018'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Tore Slaatta
   - name: Susanne Østby Sæther
@@ -94,6 +100,7 @@ selected_works:
     og samlinger: Arkivets materialitet'
   year: '2011'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Susanne Østby Sæther
     slug: susanne-o-saether
@@ -101,6 +108,7 @@ selected_works:
 - title: 'The aesthetics of Sampling: Engaging the Media in Recent Video Art'
   year: '2009'
   source: PhD thesis
+  group_type: PhD thesis
   contributors:
   - name: Susanne Østby Sæther
     slug: susanne-o-saether
@@ -108,6 +116,7 @@ selected_works:
 - title: Ghost in the Machine
   year: '2008'
   source: Exhibition
+  group_type: Exhibition
   contributors:
   - name: Susanne Østby Sæther
     slug: susanne-o-saether
@@ -115,6 +124,7 @@ selected_works:
 - title: Arkivets estetikk
   year: '2008'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Susanne Østby Sæther
     slug: susanne-o-saether

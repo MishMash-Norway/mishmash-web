@@ -41,6 +41,7 @@ selected_works:
 - title: Music and Resonance
   year: '2026'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Øivind Varkøy
   - name: Eirik Sørbø
@@ -54,6 +55,7 @@ selected_works:
 - title: KI i kreative prosesser
   year: '2026'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Eirik Sørbø
     slug: eirik-sorbo
@@ -62,6 +64,7 @@ selected_works:
     for Nils Petter Molvær''s Certainty of Tides'
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Eirik Askerøi
   - name: Eirik Sørbø
@@ -70,6 +73,7 @@ selected_works:
 - title: 'Ultraprocessed Sounds: Music and AI Reconceptualized'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Daniel Nordgård
     slug: daniel-nordgard
@@ -80,6 +84,7 @@ selected_works:
 - title: Explicit Cultures — Music Education in an Accelerated World
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://act.maydaygroup.org/explicit-cultures-music-education-in-an-accelerated-world/
   contributors:
   - name: Eirik Sørbø
@@ -90,6 +95,7 @@ selected_works:
     higher music education
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Eirik Sørbø
     slug: eirik-sorbo
@@ -99,6 +105,7 @@ selected_works:
     music theory course in higher education
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1386/jmte_00068_1
   contributors:
   - name: Eirik Sørbø
@@ -108,6 +115,7 @@ selected_works:
     (KORK) for Nils Petter Molvær’s Certainty of Tides (2023)'
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Eirik Askerøi
   - name: Eirik Sørbø
@@ -116,6 +124,7 @@ selected_works:
 - title: Too much student agency?
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Eirik Sørbø
     slug: eirik-sorbo
@@ -124,6 +133,7 @@ selected_works:
     music making
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1386/jpme_00137_1
   contributors:
   - name: Eirik Sørbø

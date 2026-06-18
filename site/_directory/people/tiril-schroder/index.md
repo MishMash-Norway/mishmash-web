@@ -37,6 +37,7 @@ selected_works:
 - title: Neon Gallery/Galeria Neon ASP Wrocław, Poland
   year: '2025'
   source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder
@@ -44,6 +45,7 @@ selected_works:
 - title: Serie «På camping med Dahl/Å se fremtiden gjennom bakspeilet» 2022
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder
@@ -51,6 +53,7 @@ selected_works:
 - title: 'Ufo in forest: 5 times it didn''t work and one time it did'
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder
@@ -58,6 +61,7 @@ selected_works:
 - title: Enkelttegninger
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder
@@ -65,6 +69,7 @@ selected_works:
 - title: Dorè GIF
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder
@@ -73,6 +78,7 @@ selected_works:
     and distance'
   year: '2023'
   source: Professional article
+  group_type: Professional article
   url: https://impact-journal-cfpr.uwe.ac.uk/index.php/impact/article/view/116/98
   contributors:
   - name: Tiril Schrøder
@@ -81,6 +87,7 @@ selected_works:
 - title: 3 små krysskraveringer
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder
@@ -88,6 +95,7 @@ selected_works:
 - title: '"Gjenfortellinger av Flintoe" fra en lengre serie'
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder
@@ -95,6 +103,7 @@ selected_works:
 - title: Animated Gargoyleface
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder
@@ -102,6 +111,7 @@ selected_works:
 - title: Voiceless
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder

@@ -33,6 +33,7 @@ selected_works:
     in Electric Guitar Performance Using Deep Neural Networks'
   year: '2020'
   source: Book chapter
+  group_type: Book chapter
   url: https://smc2020torino.it/adminupload/file/SMC2020Proceedings.pdf?fbclid=IwAR0X9iNjBq_D_xs2xqmm8KA-9fBn-XQg9dh0md7CMxqrBiYxbOeI4m3hiz4#page=193
   contributors:
   - name: Cagri Erdem
@@ -51,6 +52,7 @@ selected_works:
     Quadruped Robot'
   year: '2020'
   source: PhD thesis
+  group_type: PhD thesis
   contributors:
   - name: Tønnes Nygaard
   - name: Kyrre Glette
@@ -63,6 +65,7 @@ selected_works:
 - title: Towards Movement Generation with Audio Features
   year: '2020'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Benedikte Wallace
   - name: Kristian Nymoen
@@ -73,6 +76,7 @@ selected_works:
 - title: Generating Convincing Harmony Parts with Simple Long Short-Term Memory Networks
   year: '2019'
   source: Book chapter
+  group_type: Book chapter
   url: https://www.nime.org/proceedings/2019/nime2019_paper062.pdf
   contributors:
   - name: Andrei Faitas
@@ -85,6 +89,7 @@ selected_works:
 - title: A Physical Intelligent Instrument using Recurrent Neural Networks
   year: '2019'
   source: Book chapter
+  group_type: Book chapter
   url: http://www.nime.org/proceedings/2019/nime2019_paper016.pdf
   contributors:
   - name: Torgrim Rudland Næss
@@ -95,6 +100,7 @@ selected_works:
     Networks
   year: '2019'
   source: Book chapter
+  group_type: Book chapter
   url: https://www.researchgate.net/publication/333718481_An_Interactive_Musical_Prediction_System_with_Mixture_Density_Recurrent_Neural_Networks
   contributors:
   - name: Charles Patrick Martin
@@ -105,6 +111,7 @@ selected_works:
     Testing'
   year: '2019'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1007/978-3-030-35664-4_6
   contributors:
   - name: Tønnes Frostad Nygaard
@@ -123,6 +130,7 @@ selected_works:
     Testing'
   year: '2019'
   source: Conference poster
+  group_type: Conference
   contributors:
   - name: Tønnes Frostad Nygaard
   - name: Charles Patrick Martin
@@ -136,6 +144,7 @@ selected_works:
     \ for Embodied Testing"
   year: '2019'
   source: Conference poster
+  group_type: Conference
   contributors:
   - name: Tønnes Frostad Nygaard
   - name: Jørgen Halvorsen Nordmoen
@@ -149,6 +158,7 @@ selected_works:
 - title: Comparing models for harmony prediction in an interactive audio looper
   year: '2019'
   source: Journal article
+  group_type: Journal article
   url: https://link.springer.com/chapter/10.1007%2F978-3-030-16667-0_12
   contributors:
   - name: Benedikte Wallace

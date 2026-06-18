@@ -31,6 +31,7 @@ selected_works:
     the IIoT
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1145/3777897
   contributors:
   - name: Erik Johannes Husom
@@ -46,6 +47,7 @@ selected_works:
 - title: Detecting Technical Debt in Source Code Changes Using Large Language Models
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1007/978-3-032-12089-2_21
   contributors:
   - name: Merve Astekin
@@ -59,6 +61,7 @@ selected_works:
     Trees Creators'
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Sagar Sen
     slug: sagar-sen
@@ -67,6 +70,7 @@ selected_works:
     the Lifecycle'
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Sagar Sen
     slug: sagar-sen
@@ -74,6 +78,7 @@ selected_works:
 - title: Grønn KI for kreative prosseser
   year: '2025'
   source: Presentation
+  group_type: Lecture
   contributors:
   - name: Sagar Sen
     slug: sagar-sen
@@ -81,6 +86,7 @@ selected_works:
 - title: Positioning LLM-Enabled Agents as Legal Compliance Aides for Data Pipelines
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1007/978-3-032-08887-1_14
   contributors:
   - name: Adela Nedisan Videsjorden
@@ -97,6 +103,7 @@ selected_works:
     Efficiency, Output Accuracy, and Inference Latency'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1145/3767742
   contributors:
   - name: Erik Johannes Husom
@@ -114,6 +121,7 @@ selected_works:
 - title: '3D-DaVa: Enhancing 3D Point Cloud Data Reliability for Industrial Applications'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1145/3711817
   contributors:
   - name: Adela Nedisan Videsjorden
@@ -129,6 +137,7 @@ selected_works:
     Things
   year: '2024'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3703790.3703794
   contributors:
   - name: Arda Goknil
@@ -147,6 +156,7 @@ selected_works:
     LLM feedback'
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1007/s10489-024-05796-1
   contributors:
   - name: Sagar Sen

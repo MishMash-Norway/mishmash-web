@@ -33,6 +33,7 @@ selected_works:
     av boklov i 2013 og 2023'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.18261/nst.41.4.2
   contributors:
   - name: Terje Colbjørnsen
@@ -43,6 +44,7 @@ selected_works:
 - title: Not for the dough. Streaming in/as public service
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Terje Colbjørnsen
     slug: terje-colbjornsen
@@ -51,6 +53,7 @@ selected_works:
     research'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Terje Colbjørnsen
     slug: terje-colbjornsen
@@ -59,6 +62,7 @@ selected_works:
     Action
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Mads M. Tommerup Andersen
   - name: Terje Colbjørnsen
@@ -69,6 +73,7 @@ selected_works:
     and distribution
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1080/1369118X.2025.2461644
   contributors:
   - name: Camilla Holm Soelseth
@@ -81,6 +86,7 @@ selected_works:
 - title: 'Joe Rogan v. Spotify: Platformization and worlds colliding'
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1177/13548565241253909
   contributors:
   - name: Terje Colbjørnsen
@@ -90,6 +96,7 @@ selected_works:
     tilbudet til norske folkebibliotek
   year: '2024'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.55669/10.55669/oa420410
   contributors:
   - name: Madeléne Johansen
@@ -99,6 +106,7 @@ selected_works:
 - title: 'Extending the media welfare state: The role of libraries in the Nordic countries'
   year: '2024'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.48335/9789188855893-14
   contributors:
   - name: Terje Colbjørnsen
@@ -110,6 +118,7 @@ selected_works:
 - title: Curating collections in LAMs
   year: '2022'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Terje Colbjørnsen
     slug: terje-colbjornsen
@@ -119,6 +128,7 @@ selected_works:
 - title: Digital communication in LAMs
   year: '2022'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Henriette Roued-Cunliffe
   - name: Bjarki Valtýsson

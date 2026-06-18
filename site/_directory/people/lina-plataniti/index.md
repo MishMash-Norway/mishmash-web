@@ -32,6 +32,7 @@ selected_works:
 - title: Faktaark om matsvinn i mat- og serveringsbransjen 2024
   year: '2025'
   source: Research report
+  group_type: Research report
   url: https://norsus.no/publikasjon/faktaark-om-matsvinn-i-mat-og-serveringsbransjen-2024/
   contributors:
   - name: Lina Plataniti
@@ -41,6 +42,7 @@ selected_works:
 - title: Faktaark om matsvinn i dagligvarehandelen 2024
   year: '2025'
   source: Research report
+  group_type: Research report
   url: https://norsus.no/publikasjon/faktaark-om-matsvinn-i-dagligvarehandelen-2024/
   contributors:
   - name: Lina Plataniti
@@ -49,6 +51,7 @@ selected_works:
 - title: Faktaark om matsvinn i Norge 2024
   year: '2025'
   source: Research report
+  group_type: Research report
   url: https://norsus.no/publikasjon/faktaark-om-matsvinn-i-norge-2024/
   contributors:
   - name: Lina Plataniti
@@ -58,6 +61,7 @@ selected_works:
 - title: Faktaark om matsvinn i Kiosk-,Bensin- og Servicehandel 2024
   year: '2025'
   source: Research report
+  group_type: Research report
   url: https://norsus.no/publikasjon/faktaark-om-matsvinn-i-kiosk-bensin-og-servicehandel-2024/
   contributors:
   - name: Lina Plataniti
@@ -66,6 +70,7 @@ selected_works:
 - title: Faktaark om matsvinn i grossistleddet 2024
   year: '2025'
   source: Research report
+  group_type: Research report
   url: https://norsus.no/publikasjon/faktaark-om-matsvinn-i-grossistleddet-2024/
   contributors:
   - name: Lina Plataniti
@@ -74,6 +79,7 @@ selected_works:
 - title: Faktaark om matsvinn i matindustrien 2024
   year: '2025'
   source: Research report
+  group_type: Research report
   url: https://norsus.no/publikasjon/faktaark-om-matsvinn-i-matindustrien-2024/
   contributors:
   - name: Lina Plataniti
@@ -82,6 +88,7 @@ selected_works:
 - title: Proceedings of NORA’s annual conference 2025
   year: '2025'
   source: Conference abstract
+  group_type: Conference
   url: https://doi.org/10.5617/nmi.12551
   contributors:
   - name: Geir Halnes
@@ -154,6 +161,8 @@ selected_works:
   - name: Arezo Shakeri
   - name: Shailendra Singh
   - name: Ali Ramezani-Kebrya
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
   - name: Pål Halvorsen
   - name: David S. Leslie
   - name: Matteo Iervasi
@@ -173,6 +182,7 @@ selected_works:
 - title: Can coupling of green and blue sector reduce pressure on the planetary boundaries?
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Kalliopi Plataniti
     slug: lina-plataniti
@@ -182,6 +192,7 @@ selected_works:
     jackets at Oslo University Hospital
   year: '2024'
   source: Research report
+  group_type: Research report
   url: https://norsus.no/publikasjon/life-cycle-sustainability-assessment-lcsa-ofdisposable-and-reusable-warm-jackets-at-oslouniversity-hospital/
   contributors:
   - name: Kalliopi Plataniti
@@ -191,6 +202,7 @@ selected_works:
 - title: Faktaark om matsvinn i serveringsbransjen 2023
   year: '2024'
   source: Research report
+  group_type: Research report
   contributors:
   - name: Lina Plataniti
     slug: lina-plataniti

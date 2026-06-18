@@ -8,53 +8,30 @@ department: Department of Psychology
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-wps:
-- WP1
-- WP3
-- WP5
 projects:
 - intensifying-brain-pleasure-responses-music
 roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: https://www.sv.uio.no/psi/english/research/groups/canlab/
+  institutional_website: ''
   github: https://caneuro.github.io/
   linkedin: https://www.linkedin.com/in/sascha-fr%C3%BChholz-29036b25/
+  orcid: https://orcid.org/0000-0002-6485-3817
+  nva: https://nva.sikt.no/research-profile/1208511
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0000-0002-6485-3817
-  nva: https://nva.sikt.no/research-profile/1208511
 aliases: []
-tags:
-- human voice
-- Music
-- digital humans
-- Deepfakes
-- human brain
-- neuroimaging
-- sound archeology
-- affective neuroscience
-- AI music
-- computational cognition
-search_keywords:
-- human voice
-- Music
-- digital humans
-- Deepfakes
-- human brain
-- neuroimaging
-- sound archeology
-- affective neuroscience
-- AI music
-- computational cognition
+tags: []
+search_keywords: []
 selected_works:
 - title: Domain-specific perception of emotional intensity in brief musical and vocal
     expressions
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1121/10.0042460
   contributors:
   - name: Liv Merve Akca Abrahamsson
@@ -67,6 +44,7 @@ selected_works:
 - title: Brain Responses to Musical Emotions in Autism
   year: '2025'
   source: Conference poster
+  group_type: Conference
   contributors:
   - name: Liv Merve Akca Abrahamsson
   - name: Katharina Egger
@@ -80,6 +58,7 @@ selected_works:
     human voices
   year: '2025'
   source: Conference poster
+  group_type: Conference
   url: https://www.abstractsonline.com/pp8/#!/21171/presentation/23566
   contributors:
   - name: Christine Leilani Skjegstad
@@ -91,6 +70,7 @@ selected_works:
     alarm calls in humans
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1038/s42003-025-08248-9
   contributors:
   - name: Gard Kvammen Beinnes
@@ -102,6 +82,7 @@ selected_works:
     and Human Text Messages'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1177/17540739241303505
   contributors:
   - name: T. Gruber
@@ -116,6 +97,7 @@ selected_works:
 - title: Understanding voice naturalness
   year: '2025'
   source: Literature review
+  group_type: Literature review
   url: https://doi.org/10.1016/j.tics.2025.01.010
   contributors:
   - name: Christine Nussbaum
@@ -127,6 +109,7 @@ selected_works:
     Ideational Creativity
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1002/hbm.70182
   contributors:
   - name: Radwa Khalil
@@ -137,6 +120,7 @@ selected_works:
 - title: Evolutionary Continuities and Discontinuities in Affective Voice Signaling
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1037/emo0001484
   contributors:
   - name: Sascha Frühholz
@@ -150,6 +134,7 @@ selected_works:
     neurofeedback training
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1016/j.isci.2024.108915
   contributors:
   - name: Jeanette Popovova
@@ -167,6 +152,7 @@ selected_works:
     in Parkinson's disease patients
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1016/j.brs.2024.01.006
   contributors:
   - name: Marine Bobin
@@ -182,6 +168,10 @@ selected_works:
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
 source_mentions: []
+wps:
+- WP1
+- WP3
+- WP5
 permalink: /people/sascha-fruhholz/
 redirect_from:
 - /directory/people/sascha-fruhholz/

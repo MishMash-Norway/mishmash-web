@@ -31,6 +31,7 @@ selected_works:
     to Promote Safety Behaviors in a Randomized Controlled Trial: Qualitative Study'
   year: '2021'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.2196/28680
   contributors:
   - name: Bente Aasheim Walter

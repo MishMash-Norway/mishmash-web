@@ -30,6 +30,7 @@ selected_works:
 - title: 'Introduction: on photography and care'
   year: '2025'
   source: Literature review
+  group_type: Literature review
   url: https://doi.org/10.1080/17540763.2024.2435678
   contributors:
   - name: Marthe Tolnes Fjellestad
@@ -41,6 +42,7 @@ selected_works:
 - title: Sensing Polar Ice Bodies
   year: '2024'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1007/978-3-031-39787-5_7
   contributors:
   - name: Stephanie von Spreter
@@ -50,6 +52,7 @@ selected_works:
     Art Practices Sensing the Arctic and the Circumpolar North
   year: '2024'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Stephanie von Spreter
     slug: stephanie-von-spreter
@@ -58,6 +61,7 @@ selected_works:
     Perspective. Three Contemporary Artistic Practices
   year: '2023'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Stephanie von Spreter
     slug: stephanie-von-spreter
@@ -66,6 +70,7 @@ selected_works:
     Oslo
   year: '2023'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Stephanie von Spreter
     slug: stephanie-von-spreter
@@ -74,6 +79,7 @@ selected_works:
     med Ulla Schildt)
   year: '2023'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Stephanie von Spreter
     slug: stephanie-von-spreter
@@ -82,6 +88,7 @@ selected_works:
 - title: Welcome and introduction to conference, Photographic Practices as Care-Taking
   year: '2022'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Marthe Tolnes Fjellestad
   - name: Stephanie von Spreter
@@ -91,6 +98,7 @@ selected_works:
     of a ‘Lost’ Artwork'
   year: '2022'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.18261/kk.105.2.3
   contributors:
   - name: Stephanie von Spreter
@@ -100,6 +108,7 @@ selected_works:
     narratives through (the staging of) photographs, travel writing and found objects'
   year: '2021'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1080/20004214.2021.1997462
   contributors:
   - name: Stephanie von Spreter
@@ -108,6 +117,7 @@ selected_works:
 - title: Urban Ecologies After A.I.
   year: '2021'
   source: Exhibition
+  group_type: Exhibition
   url: https://r-o-m.no/
   contributors:
   - name: Synne Tollerud Bull

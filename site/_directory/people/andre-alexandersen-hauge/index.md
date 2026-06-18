@@ -33,6 +33,7 @@ selected_works:
 - title: Towards Risk Informed BIM Models in Major Norwegian Transport Projects
   year: '2019'
   source: Book chapter
+  group_type: Book chapter
   url: http://itekcmsonline.com/rps2prod/esrel2019/e-proceedings/pdf/0431.pdf
   contributors:
   - name: Sizarta Sarshar
@@ -44,6 +45,7 @@ selected_works:
     Safety Assessment Framework for Efficient Transport
   year: '2019'
   source: Book chapter
+  group_type: Book chapter
   url: http://itekcmsonline.com/rps2prod/esrel2019/e-proceedings/pdf/0734.pdf
   contributors:
   - name: André A Hauge
@@ -55,6 +57,7 @@ selected_works:
     efficient transport
   year: '2018'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1201/9781351174664
   contributors:
   - name: Peter Karpati
@@ -67,6 +70,7 @@ selected_works:
     assessment framework for efficient transport
   year: '2018'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1201/9781351174664
   contributors:
   - name: Øystein Skogvang
@@ -82,6 +86,7 @@ selected_works:
 - title: Safety Demonstration – A Strategy for Assessors
   year: '2018'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: André A Hauge
     slug: andre-alexandersen-hauge
@@ -92,6 +97,7 @@ selected_works:
 - title: Safety demonstration challenges and recommendations in the nuclear field
   year: '2015'
   source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Peter Karpati
   - name: André A Hauge
@@ -103,6 +109,7 @@ selected_works:
     of safety critical systems
   year: '2014'
   source: Journal article
+  group_type: Journal article
   url: http://www.iariajournals.org/software/soft_v7_n34_2014_paged.pdf
   contributors:
   - name: André A Hauge
@@ -113,6 +120,7 @@ selected_works:
     of Major Design Choices
   year: '2014'
   source: Book chapter
+  group_type: Book chapter
   url: http://www.thinkmind.org/download.php?articleid=patterns_2014_3_20_70031
   contributors:
   - name: André A Hauge
@@ -123,6 +131,7 @@ selected_works:
     railway signalling. HWR-1037
   year: '2014'
   source: Research report
+  group_type: Research report
   contributors:
   - name: André A Hauge
     slug: andre-alexandersen-hauge
@@ -132,6 +141,7 @@ selected_works:
     nuclear power production. HWR-1029
   year: '2014'
   source: Research report
+  group_type: Research report
   contributors:
   - name: André A Hauge
     slug: andre-alexandersen-hauge

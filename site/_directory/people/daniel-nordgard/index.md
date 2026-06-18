@@ -30,6 +30,7 @@ selected_works:
 - title: – Finnes festivaler som trenger forbedring - fvn.no
   year: '2025'
   source: Interview
+  group_type: Media
   url: https://www.fvn.no/kultur/i/5pVr6z/finnes-festivaler-som-trenger-forbedring
   contributors:
   - name: Daniel Nordgård
@@ -38,6 +39,7 @@ selected_works:
 - title: UiA med på KI-satsing – NRK Sørlandet – Lokale nyheter, TV og radio
   year: '2025'
   source: Interview
+  group_type: Media
   url: https://www.nrk.no/sorlandet/uia-med-pa-ki-satsing-1.17450741
   contributors:
   - name: Daniel Nordgård
@@ -47,6 +49,7 @@ selected_works:
     – NRK Sørlandet – Lokale nyheter, TV og radio
   year: '2025'
   source: Interview
+  group_type: Media
   url: https://www.nrk.no/sorlandet/maria-arredondo-om-kina-suksessen---ikke-redd-for-a-bli-brukt-av-regimet-1.17528431
   contributors:
   - name: Daniel Nordgård
@@ -57,6 +60,7 @@ selected_works:
     Mood Machine av Liz Pelly.
   year: '2025'
   source: Interview
+  group_type: Media
   url: https://www.morgenbladet.no/kultur/artister-er-lei-av-at-spotify-har-monopolmakt-na-tar-stadig-flere-grep/9870617
   contributors:
   - name: Daniel Nordgård
@@ -65,6 +69,7 @@ selected_works:
 - title: 'NRK, Intervju: Artistar boikottar Spotify: – Eg kjenner meg makteslaus'
   year: '2025'
   source: Interview
+  group_type: Media
   url: https://www.nrk.no/norge/artistar-oppfordrar-til-boikott-av-spotify-1.17492627
   contributors:
   - name: Daniel Nordgård
@@ -73,6 +78,7 @@ selected_works:
 - title: Vårt Land, Norsk musikk og honorar
   year: '2025'
   source: Interview
+  group_type: Media
   url: https://www.vl.no/kultur/er-det-hogare-terskel-for-kristne-a-be-om-honorar/10037392
   contributors:
   - name: Daniel Nordgård
@@ -81,6 +87,7 @@ selected_works:
 - title: NRK P2, Studio 2
   year: '2025'
   source: Radio or TV
+  group_type: Media
   url: https://radio.nrk.no/serie/studio-2-p2/sesong/202512/MKAK02024225
   contributors:
   - name: Daniel Nordgård
@@ -89,6 +96,7 @@ selected_works:
 - title: 'MishMash, Centre for AI and Creativity: Samling Internasjonalt Fylkesnettverk'
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Daniel Nordgård
     slug: daniel-nordgard
@@ -97,6 +105,7 @@ selected_works:
     2025
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Daniel Nordgård
     slug: daniel-nordgard
@@ -104,6 +113,7 @@ selected_works:
 - title: 'Ultraprocessed Sounds: Music and AI Reconceptualized'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Daniel Nordgård
     slug: daniel-nordgard

@@ -5,12 +5,10 @@ name: Diego Marin Bucio
 title: Diego Marin Bucio
 position: Research fellow
 department: Department of Musicology
+image: /assets/images/portraits/Diego_Marin_Bucio_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-wps:
-- WP1
-- WP2
 projects: []
 roles:
 - Member
@@ -19,12 +17,12 @@ urls:
   institutional_website: https://www.diegomarin.art
   github: ''
   linkedin: https://www.linkedin.com/in/diegomarinbucio/
+  orcid: https://orcid.org/0000-0001-8334-5124
+  nva: https://nva.sikt.no/research-profile/1635214
   youtube: https://www.youtube.com/@diegomarinmx
   facebook: https://www.facebook.com/diegomarinart/
   mastodon: ''
   instagram: https://www.instagram.com/diegomarinmx/
-  orcid: https://orcid.org/0000-0001-8334-5124
-  nva: https://nva.sikt.no/research-profile/1635214
 aliases: []
 tags:
 - Dance anthropology
@@ -34,13 +32,6 @@ tags:
 - Choreography
 - Phenomenology of the body
 - Ethnochoreology
-- Dance
-- Phenomenology
-- Human-AI interaction
-- Anthropology
-- Theater
-- Performing Arts
-- Choreomusicology
 search_keywords:
 - Dance anthropology
 - Philosophy of Technology
@@ -49,17 +40,11 @@ search_keywords:
 - Choreography
 - Phenomenology of the body
 - Ethnochoreology
-- Dance
-- Phenomenology
-- Human-AI interaction
-- Anthropology
-- Theater
-- Performing Arts
-- Choreomusicology
 selected_works:
 - title: 'A Framework for Human–AI Dance Creation: The Machinic Movement Matrix'
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
   url: https://dl.acm.org/doi/10.1145/3802842.3802849
   contributors:
   - name: Diego Marin-Bucio
@@ -69,6 +54,7 @@ selected_works:
     og filmprodusenter nå?'
   year: '2026'
   source: Interview
+  group_type: Media
   url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
   contributors:
   - name: Sunniva Monclair Bøe
@@ -87,6 +73,7 @@ selected_works:
     in dance improvisation'
   year: '2026'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3389/fpsyg.2026.1751590
   contributors:
   - name: Diego Marin-Bucio
@@ -99,6 +86,7 @@ selected_works:
     movement
   year: '2025'
   source: Performing arts
+  group_type: Performing arts
   url: https://diegomarin.art/portfolio/the-origins-of-intelligence/
   contributors:
   - name: Diego Marin-Bucio
@@ -107,6 +95,7 @@ selected_works:
 - title: 'Machinic Movement Matrix: A framework and tool for human-AI dance-creation'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Diego Marin-Bucio
     slug: diego-marin-bucio
@@ -115,6 +104,7 @@ selected_works:
     creación de danza humano-máquina'
   year: '2025'
   source: Lecture
+  group_type: Lecture
   url: https://masters.filescat.uab.cat/muet/classe-magistral-amb-diego-marin-bucio/
   contributors:
   - name: Diego Marin-Bucio
@@ -123,6 +113,7 @@ selected_works:
 - title: Co-creation of rhythm in Djembe Music-Dance
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Diego Marin-Bucio
     slug: diego-marin-bucio
@@ -130,6 +121,7 @@ selected_works:
 - title: 'Dancing Embryo: Enacting Dance Experience Through Human-AI Kinematic Collaboration'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.21825/documenta.93276
   contributors:
   - name: Diego Marin-Bucio
@@ -138,6 +130,7 @@ selected_works:
 - title: Matriz de Movimiento Maquínico (MMM)
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Diego Marin-Bucio
     slug: diego-marin-bucio
@@ -146,16 +139,19 @@ selected_works:
     análisis estructural y fenomenológico de la creación dancística'
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.14483/25909398.19823
   contributors:
   - name: Diego Antonio Marin Bucio
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 source_mentions: []
+wps:
+- WP1
+- WP2
 permalink: /people/diego-marin-bucio/
 redirect_from:
 - /directory/people/diego-marin-bucio/
-image: /assets/images/portraits/Diego_Marin_Bucio_UiO.jpg
 ---
 
 Bio coming soon.

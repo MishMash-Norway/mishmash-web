@@ -32,6 +32,7 @@ selected_works:
 - title: MishMash Centre for AI and Creativity
   year: '2026'
   source: Presentation
+  group_type: Lecture
   contributors:
   - name: Ida Jahr
     slug: ida-jahr
@@ -39,6 +40,7 @@ selected_works:
 - title: Presentation of MishMash Centre for AI and Creativity
   year: '2026'
   source: Conference poster
+  group_type: Conference
   contributors:
   - name: Ida Jahr
     slug: ida-jahr
@@ -46,6 +48,7 @@ selected_works:
 - title: 'Design Agentics :: Creative R&D x AI'
   year: '2026'
   source: Presentation
+  group_type: Lecture
   url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
   contributors:
   - name: Synne Tollerud Bull
@@ -62,6 +65,7 @@ selected_works:
 - title: Skroting av lærernormen – basert på forskning?
   year: '2026'
   source: Feature article
+  group_type: Media
   url: https://www.utdanningsnytt.no/barnehage-klasseledelse-laerernorm/skroting-av-laerernormen-basert-pa-forskning/469012?fbclid=IwY2xjawQ54sJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe5-ESejbAANeW9iL_Yi5PFe-M92Cok76QgWJztVKEVMpy9_jpymhzgRro7ls_aem_NkB3gbl0zcVLQ8D6kE2ejQ
   contributors:
   - name: Christina Niemi Mølstad
@@ -122,6 +126,7 @@ selected_works:
     the language machine into being'
   year: '2025'
   source: Lecture
+  group_type: Lecture
   contributors:
   - name: Ida Jahr
     slug: ida-jahr
@@ -132,6 +137,7 @@ selected_works:
     M-romaner og 6-7 minutter om Peter Thiel'
   year: '2025'
   source: Media podcast
+  group_type: Media
   url: https://feeds.acast.com/public/shows/til-barrikadene
   contributors:
   - name: Ida Jahr
@@ -142,6 +148,7 @@ selected_works:
 - title: 'AI Language/ Language on AI: Language as infrastructure'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Ida Jahr
     slug: ida-jahr
@@ -150,6 +157,7 @@ selected_works:
     in darkness.'
   year: '2025'
   source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Ida Jahr
     slug: ida-jahr
@@ -158,6 +166,7 @@ selected_works:
     Demon Seed (1977)'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://entanglements.in/ent.viewer.php?fr=ad61ab143223efbc24c7d2583be69251&rv=aHR0cHM6Ly9lbnRhbmdsZW1lbnRzLmluL2lzc3Vlcy5waHA/aXN1PWI2ZDc2N2QyZjhlZDVkMjFhNDRiMGU1ODg2NjgwY2I5
   contributors:
   - name: Ida Jahr
@@ -166,6 +175,7 @@ selected_works:
 - title: INNKU 2025 - MISHMASH
   year: '2025'
   source: Media podcast
+  group_type: Media
   url: https://shows.acast.com/fts-podden/episodes/697896b3590ca8b771a9a373
   contributors:
   - name: Ida Jahr
