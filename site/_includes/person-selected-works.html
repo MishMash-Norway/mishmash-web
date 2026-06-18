@@ -19,7 +19,8 @@
       {% endunless %}
     {% endfor %}
   {% endif %}
-  {% assign type_name = matched_result.group_type | default: matched_result.type_label | default: work.source | default: 'Other' %}
+  {% include nva-resolve-result-type.html work=work matched_result=matched_result %}
+  {% assign type_name = resolved_result_type %}
   {% assign type_slug = type_name | slugify %}
   {% assign slug_marker = "|" | append: type_slug | append: "|" %}
   {% unless ordered_type_slugs contains slug_marker %}
@@ -61,7 +62,8 @@
               {% endunless %}
             {% endfor %}
           {% endif %}
-          {% assign work_type_name = matched_result.group_type | default: matched_result.type_label | default: work.source | default: 'Other' %}
+          {% include nva-resolve-result-type.html work=work matched_result=matched_result %}
+          {% assign work_type_name = resolved_result_type %}
           {% if work_type_name == type_name %}
             {% assign type_count = type_count | plus: 1 %}
           {% endif %}
@@ -100,7 +102,8 @@
               {% endunless %}
             {% endfor %}
           {% endif %}
-          {% assign work_type_name = matched_result.group_type | default: matched_result.type_label | default: work.source | default: 'Other' %}
+          {% include nva-resolve-result-type.html work=work matched_result=matched_result %}
+          {% assign work_type_name = resolved_result_type %}
           {% if work_type_name == type_name %}
             {% assign group_index = group_index | plus: 1 %}
             {% assign card_id = 'abstract-person-' | append: page.slug | append: '-' | append: type_slug | append: '-' | append: group_index %}

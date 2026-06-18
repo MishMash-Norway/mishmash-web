@@ -1,0 +1,13 @@
+# Maps NVA publication type labels to broader result groups (same rules as /results/).
+normalize:
+  Blog post: Media
+  Chapter in report: Book chapter
+  Conference abstract: Conference
+  Conference lecture: Conference
+  Conference poster: Conference
+  Conference report: Conference
+  Feature article: Media
+  Interview: Media
+  Presentation: Lecture
+  Radio or TV: Media
+  Reader opinion: Media

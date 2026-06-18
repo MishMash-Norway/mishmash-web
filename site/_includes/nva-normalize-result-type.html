@@ -1,0 +1,8 @@
+{% comment %}
+  Normalizes include.type_name to normalized_type_name using result_type_normalize.
+{% endcomment %}
+{% assign normalized_type_name = include.type_name | default: 'Other' %}
+{% assign mapped = site.data.result_type_normalize.normalize[normalized_type_name] %}
+{% if mapped %}
+  {% assign normalized_type_name = mapped %}
+{% endif %}

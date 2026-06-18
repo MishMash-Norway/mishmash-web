@@ -12,7 +12,7 @@ import requests
 import yaml
 from PIL import Image
 
-from nva_result_types import nva_publication_source
+from nva_result_types import nva_publication_instance_type, nva_publication_source, result_group_type
 from nva_publication_contributors import build_person_lookup, build_result_contributors
 from repo_paths import REPO_ROOT, SITE_ROOT
 
@@ -640,9 +640,14 @@ def nva_selected_works(
         work = {"title": title}
         if year:
             work["year"] = year
-        source = nva_publication_source(entity.get("reference") or {})
+        reference = entity.get("reference") or {}
+        instance_type = nva_publication_instance_type(reference)
+        source = nva_publication_source(reference)
         if source:
             work["source"] = source
+        group_type = result_group_type(instance_type)
+        if group_type:
+            work["group_type"] = group_type
         url = nva_publication_url(hit)
         if url:
             work["url"] = url
