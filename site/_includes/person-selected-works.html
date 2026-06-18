@@ -30,6 +30,8 @@
 {% endfor %}
 
 {% assign type_name_list = ordered_type_names | split: "%%" %}
+{% include nva-order-result-types.html types=type_name_list %}
+{% assign type_name_list = ordered_type_names %}
 
 <section class="person-selected-works nva-results" aria-label="Latest results">
   <h2>Latest results</h2>
@@ -136,7 +138,7 @@
   if (!filters.length || !groups.length) return;
 
   const totalCount = {{ person_work_count }};
-  const showingAllLabel = {{ t.results_showing_all | jsonify }};
+  const showingAllLabel = {{ t.person_results_showing_all | jsonify }};
   const showingTypeLabel = {{ t.results_showing_type | jsonify }};
 
   function updateStatus(activeFilter, visibleCount) {
