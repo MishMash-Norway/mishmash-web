@@ -32,4 +32,7 @@ This page is for WP1 members only.
 
 ## Contacts
 
-*List key contacts and responsibilities here.*
+[Work package leaders](mailto:wp1-leaders@mishmash.no)
+- [Kyrre Glette](mailto:kyrrehg@uio.no) (lead)  
+- [Ivar Grydeland](mailto:ivar.grydeland@nmh.no) (co-lead) 
+- [Georgios Marentakis](mailto:georgios.marentakis@hiof.no) (co-lead) 
