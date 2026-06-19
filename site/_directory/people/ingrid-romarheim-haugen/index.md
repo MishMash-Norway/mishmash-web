@@ -30,14 +30,48 @@ selected_works:
 - title: MishMash og Nasjonalbiblioteket
   year: '2025'
   source: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Ingrid Romarheim Haugen
+    slug: ingrid-romarheim-haugen
+    url: /people/ingrid-romarheim-haugen/
 - title: Innganger til Draumkvedet i Nasjonalbibliotekets samling
   year: '2024'
   source: Non-fiction book
+  group_type: Non-fiction book
   url: https://www.bokselskap.no/boker/draumkvedetinnganger/tittelside
+  contributors:
+  - name: Astrid Nora Ressem
+  - name: David Stephen Grant
+  - name: Ingrid Romarheim Haugen
+    slug: ingrid-romarheim-haugen
+    url: /people/ingrid-romarheim-haugen/
+  - name: Trond Haugen
+  - name: Charlotte Piene
+  - name: Hans-Hinrich Thedens
 - title: Norwegian Folk Music & Computational Analysis
   year: '2023'
   source: Lecture
+  group_type: Lecture
   url: https://www.uio.no/ritmo/english/projects/mirage/events/2023/may/norwegian-folk-music-analysis-with-computers.html
+  contributors:
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Hans-Hinrich Thedens
+  - name: Olav Luksengård Mjelva
+  - name: Anders Elovsson
+  - name: Lars Løberg Monstad
+  - name: Mats Sigvard Johansson
+  - name: Ingrid Romarheim Haugen
+    slug: ingrid-romarheim-haugen
+    url: /people/ingrid-romarheim-haugen/
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

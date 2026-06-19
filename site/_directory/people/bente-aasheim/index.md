@@ -8,8 +8,7 @@ department: Department of Nursing and Health Promotion
 institution: null
 institutions:
 - kulturtanken
-projects:
-- interactive-ai-driven-book-experiences
+projects: []
 roles:
 - Member
 urls:
@@ -31,7 +30,16 @@ selected_works:
     to Promote Safety Behaviors in a Randomized Controlled Trial: Qualitative Study'
   year: '2021'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.2196/28680
+  contributors:
+  - name: Bente Aasheim Walter
+    slug: bente-aasheim
+    url: /people/bente-aasheim/
+  - name: Hege Vik Indreboe
+  - name: Mirjam Lukasse
+  - name: Lena Henriksen
+  - name: Lisa Garnweidner-Holme
 source_mentions: []
 summary: null
 layout: person

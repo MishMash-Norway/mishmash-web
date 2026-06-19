@@ -14,7 +14,7 @@ translation_url: /
     </a>
 </div>
 
-MishMash er et KI-senter med mer enn 200 forskere fra høyere utdanningsinstitusjoner i Norge, i samarbeid med en rekke offentlige og private partnere. Det primære målet med MishMash er å **skape, utforske og reflektere over KI for, gjennom og i kreative praksiser**. MishMash-forskere undersøker KIs innvirkning på kreative prosesser, utvikler innovative samskapende KI-systemer og pedagogiske strategier, og tar opp de etiske, kulturelle, juridiske og samfunnsmessige implikasjonene av KI i kreative praksiser. [Mer om MishMash...](/no/about/)
+MishMash **skaper, utforsker og reflekterer over KI for, gjennom og i kreative praksiser**. Mer enn 200 forskere undersøker KIs innvirkning på kreative prosesser, utvikler innovative samskapende KI-systemer og pedagogiske strategier, og tar opp de etiske, kulturelle, juridiske og samfunnsmessige implikasjonene av KI i kreative praksiser. [Mer om MishMash...](/no/about/)
 
 <h2><a href="https://mishmash.no/events/">MishMash-arrangementer</a></h2>
 

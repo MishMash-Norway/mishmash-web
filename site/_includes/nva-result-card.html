@@ -7,13 +7,16 @@
   {% assign result_year = include.result.year %}
   {% assign result_title = include.result.title %}
   {% assign contributors = include.result.contributors %}
+  {% if contributors == nil or contributors.size == 0 %}
+    {% assign contributors = cite.authors %}
+  {% endif %}
   {% assign abstract = cite.abstract %}
 {% else %}
   {% assign result_url = include.work.url %}
   {% assign type_label = include.work.source %}
   {% assign result_year = include.work.year %}
   {% assign result_title = include.work.title %}
-  {% assign contributors = nil %}
+  {% assign contributors = include.work.contributors %}
   {% assign abstract = nil %}
 {% endif %}
 <li class="nva-result-item">
@@ -35,12 +38,21 @@
     {% if contributors and contributors.size > 0 %}
     <p class="nva-result-authors">
       {% for contributor in contributors %}
+        {% assign author_name = contributor.name | default: contributor.display %}
         {% if contributor.url %}
-        <a href="{{ contributor.url | relative_url }}">{{ contributor.name }}</a>{% unless forloop.last %}; {% endunless %}
+        <a href="{{ contributor.url | relative_url }}">{{ author_name }}</a>{% unless forloop.last %}; {% endunless %}
         {% else %}
-        {{ contributor.name }}{% unless forloop.last %}; {% endunless %}
+        {{ author_name }}{% unless forloop.last %}; {% endunless %}
         {% endif %}
       {% endfor %}
+    </p>
+    {% elsif include.fallback_name %}
+    <p class="nva-result-authors">
+      {% if include.fallback_url %}
+      <a href="{{ include.fallback_url | relative_url }}">{{ include.fallback_name }}</a>
+      {% else %}
+      {{ include.fallback_name }}
+      {% endif %}
     </p>
     {% endif %}
 

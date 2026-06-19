@@ -4,6 +4,14 @@
 
 {% if data and data.results and data.results.size > 0 %}
 {% assign grouped_results = data.results | group_by: 'group_type' %}
+{% assign all_type_names = "" %}
+{% for group in grouped_results %}
+  {% assign all_type_names = all_type_names | append: group.name | append: "%%" %}
+{% endfor %}
+{% assign type_name_list = all_type_names | split: "%%" %}
+{% include nva-order-result-types.html types=type_name_list %}
+{% assign ordered_type_names = ordered_type_names %}
+
 <section class="nva-results" aria-label="{{ t.results_heading }}">
 
   <div class="nva-results-filters search-filters">
@@ -13,12 +21,17 @@
         <button type="button" class="filter-chip nva-filter-chip active" data-filter="all">
           {{ t.results_filter_all }} ({{ data.results.size }})
         </button>
+        {% for type_name in ordered_type_names %}
+        {% if type_name != '' %}
         {% for group in grouped_results %}
-        {% assign type_name = group.name | default: 'Other' %}
+        {% if group.name == type_name %}
         {% assign type_slug = type_name | slugify %}
         <button type="button" class="filter-chip nva-filter-chip" data-filter="{{ type_slug }}">
           {{ type_name }} ({{ group.items.size }})
         </button>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
         {% endfor %}
       </div>
     </div>
@@ -26,8 +39,10 @@
   </div>
 
   <div class="nva-results-groups">
+    {% for type_name in ordered_type_names %}
+    {% if type_name != '' %}
     {% for group in grouped_results %}
-    {% assign type_name = group.name | default: 'Other' %}
+    {% if group.name == type_name %}
     {% assign type_slug = type_name | slugify %}
     {% assign sorted_items = group.items | sort: 'year' | reverse %}
     <section class="nva-results-group" data-result-type="{{ type_slug }}" aria-labelledby="nva-results-type-{{ type_slug }}">
@@ -39,6 +54,9 @@
         {% endfor %}
       </ol>
     </section>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
     {% endfor %}
   </div>
 </section>

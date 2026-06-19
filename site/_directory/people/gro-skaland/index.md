@@ -4,7 +4,7 @@ slug: gro-skaland
 name: Gro Skåland
 title: Gro Skåland
 position: Associate professor
-department: Departement of Psychology, Pedagogy and Law
+department: School of Health Sciences
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college
@@ -30,32 +30,74 @@ selected_works:
 - title: Exploring peer-support in co-creation in higher education
   year: '2025'
   source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Maren Omland
+  - name: Gro Skåland
+    slug: gro-skaland
+    url: /people/gro-skaland/
 - title: Critical source evaluation in higher education teachers
   year: '2025'
   source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Leila Ferguson
+  - name: Anette Andresen
+  - name: Thea Kanstad Heimdal
+  - name: Gro Skåland
+    slug: gro-skaland
+    url: /people/gro-skaland/
 - title: Making the library of the future identifying the zone of proximal development
     for a Norwegian public library makerspace
   year: '2024'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1080/10749039.2024.2316073
+  contributors:
+  - name: Gro Skåland
+    slug: gro-skaland
+    url: /people/gro-skaland/
+  - name: Hans Christian Arnseth
 - title: '"Once upon a time, there was an inventor.." A Cultural Historical study
     of making in a public library context'
   year: '2023'
   source: PhD thesis
+  group_type: PhD thesis
+  contributors:
+  - name: Gro Skåland
+    slug: gro-skaland
+    url: /people/gro-skaland/
 - title: 'I hate little bits : The collaborative construction of children''s creative
     making in a public library makerspace'
   year: '2022'
   source: Book chapter
+  group_type: Book chapter
   url: https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003145257-17/hate-little-bits-gro-sk%C3%A5land
+  contributors:
+  - name: Gro Skåland
+    slug: gro-skaland
+    url: /people/gro-skaland/
 - title: Doing Inventing in the Library. Analyzing the Narrative Framing of Making
     in a Public Library Context
   year: '2020'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.3390/educsci10060158
+  contributors:
+  - name: Gro Skåland
+    slug: gro-skaland
+    url: /people/gro-skaland/
+  - name: Hans Christian Arnseth
+  - name: Palmyre Pierroux
 - title: Doing Inventing In The Library. A presentation of research and findings from
     the STEAM in the library project.
   year: '2020'
   source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Gro Skåland
+    slug: gro-skaland
+    url: /people/gro-skaland/
 source_mentions: []
 summary: null
 permalink: /people/gro-skaland/

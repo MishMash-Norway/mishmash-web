@@ -12,6 +12,8 @@
     {% assign thumb = item.thumbnail %}
   {% elsif item.images and item.images.size > 0 %}
     {% assign thumb = item.images[0] %}
+  {% elsif item.categories contains 'MeshUp' %}
+    {% assign thumb = '/assets/images/bubbles/mishmash_bubbles_notext.svg' %}
   {% endif %}
   {% if thumb %}
     <a href="{{ item.url | relative_url }}">

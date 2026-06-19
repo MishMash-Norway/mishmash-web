@@ -1,4 +1,5 @@
 ---
+layout: page
 type: institution
 slug: nord-university
 permalink: /institutions/nord-university/
@@ -8,10 +9,11 @@ name: Nord University
 short_name: NORD
 image: /images/institutions/nord-university.png
 people:
+- aedan-soellaart
 - bjorn-tallak-bakken
+- jens-knigge
+- ole-goethe
 - troels-linde
-- /people/bjorn-tallak-bakken/
-- /people/troels-linde/
 projects: []
 country: null
 city: null

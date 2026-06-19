@@ -14,9 +14,12 @@ tags:
 slug: scoping-review-creative-ai-teaching-learning
 name: Scoping Review of Creative AI in Teaching and Learning
 people:
+- bjorn-tallak-bakken
 - eirik-sorbo
-- felicity-baker
 - fredrik-graver
+- ida-jahr
+- jens-knigge
+- oystein-skaar
 - sidsel-karlsen
 institutions:
 - inland-norway-university-of-applied-sciences
@@ -36,7 +39,7 @@ Primary WP: [WP4](/wp4/)
 
 ## People
 - Project leader: [Sidsel Karlsen](/people/sidsel-karlsen/)
-- Participants: [Eirik Sorbo](/people/eirik-sorbo/), [Fredrik Graver](/people/fredrik-graver/), [Felicity Baker](/people/felicity-baker/)
+- Participants: [Bjørn Tallak Bakken](/people/bjorn-tallak-bakken/), [Eirik Sørbø](/people/eirik-sorbo/), [Fredrik Graver](/people/fredrik-graver/), [Ida Jahr](/people/ida-jahr/), [Jens Knigge](/people/jens-knigge/), [Øystein Skaar](/people/oystein-skaar/)
 
 ## Institutions
 - [Norwegian Academy of Music](/institutions/norwegian-academy-of-music/)

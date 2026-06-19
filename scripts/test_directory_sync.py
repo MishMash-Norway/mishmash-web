@@ -92,5 +92,67 @@ class EnrichOrcidTests(unittest.TestCase):
         )
 
 
+class NvaDepartmentTests(unittest.TestCase):
+    def test_primary_department_prefers_department_over_stab(self):
+        from enrich_directory_from_nva import primary_department_from_units
+
+        units = [
+            "University of Oslo",
+            "Faculty of Humanities",
+            "Department of Musicology",
+            "IMV stab",
+        ]
+        self.assertEqual(primary_department_from_units(units), "Department of Musicology")
+
+    def test_primary_department_falls_back_to_faculty(self):
+        from enrich_directory_from_nva import primary_department_from_units
+
+        units = ["University of Oslo", "Faculty of Humanities", "IMV stab"]
+        self.assertEqual(primary_department_from_units(units), "Faculty of Humanities")
+
+    def test_sanitize_display_text_strips_vertical_tab(self):
+        from enrich_directory_from_nva import sanitize_display_text
+
+        self.assertEqual(
+            sanitize_display_text("Dødehavsrullene\v– de eldgamle manuskriptene \vog de falske fragmentene"),
+            "Dødehavsrullene – de eldgamle manuskriptene og de falske fragmentene",
+        )
+
+
+class NvaContributorTests(unittest.TestCase):
+    def test_build_result_contributors_links_directory_people(self):
+        from nva_publication_contributors import build_result_contributors
+
+        entity = {
+            "contributors": [
+                {
+                    "identity": {
+                        "id": "https://api.nva.unit.no/cristin/person/12345",
+                        "name": "Ada Lovelace",
+                    }
+                },
+                {
+                    "identity": {
+                        "id": "https://api.nva.unit.no/cristin/person/99999",
+                        "name": "Unknown Person",
+                    }
+                },
+            ]
+        }
+        lookup = {
+            "12345": {
+                "slug": "ada-lovelace",
+                "name": "Ada Lovelace",
+                "url": "/people/ada-lovelace/",
+            }
+        }
+        contributors = build_result_contributors(entity, lookup)
+        self.assertEqual(len(contributors), 2)
+        self.assertEqual(contributors[0]["name"], "Ada Lovelace")
+        self.assertEqual(contributors[0]["slug"], "ada-lovelace")
+        self.assertEqual(contributors[1]["name"], "Unknown Person")
+        self.assertNotIn("slug", contributors[1])
+
+
 if __name__ == "__main__":
     unittest.main()

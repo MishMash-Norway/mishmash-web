@@ -13,15 +13,18 @@ people:
 - budhaditya-chattopadhyay
 - claire-ghetti
 - daniel-peter-biro
+- gabriele-de-seta
 - jason-nelson
 - jostein-gundersen
+- juan-vassallo
 - lars-nyre
+- oystein-skaar
 - thomas-de-ridder
+- thor-magnusson
 projects:
 - ai-as-environment
 - ai-integration-film-tv-education
 - archival-intelligence
-- interactive-ai-driven-book-experiences
 - musical-doppelgangers
 country: null
 city: null

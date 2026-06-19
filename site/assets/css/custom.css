@@ -441,9 +441,18 @@ a:focus-visible .icon {
 }
 
 .institution-summary {
-  margin: 0 0 1.25rem;
+  margin: 0;
   line-height: 1.7;
   color: #333;
+}
+
+.institution-intro {
+  margin: 0 0 1.25rem;
+}
+
+.institution-intro .institution-links {
+  margin: 0.75rem 0 0;
+  font-size: 0.95rem;
 }
 
 .institution-map-canvas {
@@ -508,11 +517,6 @@ a:focus-visible .icon {
 .institution-people,
 .institution-projects {
   margin-top: 2rem;
-}
-
-.institution-links {
-  margin: 0;
-  font-size: 1rem;
 }
 
 .institution-link {

@@ -33,37 +33,100 @@ selected_works:
     from the National Library of Norway
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Tita Ranveig Enstad
+  - name: Trond Trosterud
+  - name: Marie Iversdatter Røsok
+  - name: Yngvil Nesheim Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
+  - name: Marie Roald
 - title: 'The NorHand Model: a new public AI model from the National Library of Norway'
   year: '2024'
   source: Interview
+  group_type: Media
   url: https://www.transkribus.org/success-story/norhand
+  contributors:
+  - name: Yngvil Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
 - title: Håndskriftsgjenkjenning med Transkribus
   year: '2023'
   source: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Yngvil Nesheim Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
+  - name: Andre Kåsen
 - title: Digitale tjenester fra Nasjonalbiblioteket
   year: '2023'
   source: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Yngvil Nesheim Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
 - title: Nasjonal infrastruktur for språkteknologi
   year: '2023'
   source: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Yngvil Nesheim Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
 - title: Handwritten text recognition at the National Library
   year: '2023'
   source: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Yngvil Nesheim Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
 - title: Digitale utforskninger av Harriet Backers brev
   year: '2023'
   source: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Yngvil Nesheim Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
 - title: NorFraktur_1600_PyLaia
   year: '2022'
   source: Dataset
-- title: '"The Peder Rafn-Project". Reading a  16th & 17th Century Collection of Danish
-    Norwegian and German Broadsheet ballads in  Transkribus'
+  group_type: Dataset
+  contributors:
+  - name: Siv Frøydis Berg
+  - name: Trond Haugen
+  - name: Astrid Nora Ressem
+  - name: Yngvil Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
+- title: '"The Peder Rafn-Project". Reading a 16th & 17th Century Collection of Danish
+    Norwegian and German Broadsheet ballads in Transkribus'
   year: '2022'
   source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Trond Haugen
+  - name: Yngvil Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
 - title: A Comprehensive Comparison of Open-Source Libraries for Handwritten Text
     Recognition in Norwegian
   year: '2022'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1007/978-3-031-06555-2_27
+  contributors:
+  - name: Martin Maarand
+  - name: Yngvil Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
+  - name: Andre Kåsen
+  - name: Knut T. Fosseide
+  - name: Christopher Kermorvant
 source_mentions:
 - about/organisation/council/index.md
 summary: null

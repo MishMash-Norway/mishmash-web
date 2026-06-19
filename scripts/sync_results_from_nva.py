@@ -16,11 +16,9 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from repo_paths import SITE_ROOT  # noqa: E402
 from enrich_directory_from_nva import (  # noqa: E402
-    CRISTIN_RE,
     NoAliasDumper,
     build_institution_lookup,
     configure_nva_auth,
-    extract_profile_id,
     find_doi_in_object,
     get_json,
     localized_text,
@@ -28,9 +26,14 @@ from enrich_directory_from_nva import (  # noqa: E402
     nva_publication_url,
     normalize_publication_year,
     resolve_institution_slug,
-    split_frontmatter,
     work_sort_key,
     _nva_request_headers,
+)
+from nva_publication_contributors import (  # noqa: E402
+    build_person_lookup,
+    build_result_contributors,
+    contributor_name,
+    extract_cristin_person_id,
 )
 from nva_result_types import (  # noqa: E402
     nva_publication_instance_type,
@@ -41,49 +44,6 @@ from nva_result_types import (  # noqa: E402
 MISHMASH_NVA_PROJECT_ID = "2744839"
 DEFAULT_OUTPUT = SITE_ROOT / "_data" / "mishmash_results.yml"
 PAGE_SIZE = 100
-
-
-def extract_cristin_person_id(value: str) -> str | None:
-    if not value:
-        return None
-    match = CRISTIN_RE.search(value)
-    return match.group(1) if match else None
-
-
-def build_person_lookup(root: Path) -> dict[str, dict[str, str]]:
-    lookup: dict[str, dict[str, str]] = {}
-    base = root / "_directory" / "people"
-    if not base.exists():
-        return lookup
-
-    for child in sorted(base.iterdir()):
-        if not child.is_dir() or child.name.startswith("_"):
-            continue
-        index = child / "index.md"
-        if not index.exists():
-            continue
-        try:
-            front, _ = split_frontmatter(index.read_text(encoding="utf-8"))
-            data = yaml.safe_load(front) or {}
-        except Exception:
-            continue
-
-        slug = (data.get("slug") or child.name).strip()
-        name = (data.get("name") or "").strip()
-        urls = data.get("urls") or {}
-        if not isinstance(urls, dict):
-            urls = {}
-        profile_id = extract_profile_id((urls.get("nva") or "").strip())
-        if not profile_id or not slug:
-            continue
-
-        lookup[profile_id] = {
-            "slug": slug,
-            "name": name or slug,
-            "url": f"/people/{slug}/",
-        }
-
-    return lookup
 
 
 def nva_publication_page_url(hit: dict) -> str:
@@ -291,15 +251,6 @@ def build_citation(
     return citation
 
 
-def contributor_name(identity: dict) -> str:
-    name = (identity.get("name") or "").strip()
-    if name:
-        return name
-    first = (identity.get("firstName") or "").strip()
-    last = (identity.get("lastName") or "").strip()
-    return f"{first} {last}".strip()
-
-
 def collect_institution_urls(hit: dict) -> list[str]:
     urls: list[str] = []
     seen: set[str] = set()
@@ -337,19 +288,7 @@ def parse_result_hit(
     if isinstance(publication_date, dict):
         year = normalize_publication_year(publication_date.get("year"))
 
-    contributors: list[dict[str, str]] = []
-    for contributor in entity.get("contributors") or []:
-        identity = contributor.get("identity") or {}
-        name = contributor_name(identity)
-        if not name:
-            continue
-        entry: dict[str, str] = {"name": name}
-        person_id = extract_cristin_person_id(identity.get("id") or "")
-        if person_id and person_id in person_lookup:
-            person = person_lookup[person_id]
-            entry["slug"] = person["slug"]
-            entry["url"] = person["url"]
-        contributors.append(entry)
+    contributors = build_result_contributors(entity, person_lookup)
 
     institutions: list[dict[str, str]] = []
     seen_slugs: set[str] = set()

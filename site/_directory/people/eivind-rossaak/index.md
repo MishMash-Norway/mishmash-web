@@ -55,36 +55,101 @@ selected_works:
 - title: '"Jeg nekter!" Motstandens former i vår tid'
   year: '2026'
   source: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Eivind Røssaak
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
+  - name: Brita Strand Rangnes
 - title: Kunst i automatiseringens tidsalder
   year: '2026'
   source: Professional article
+  group_type: Professional article
   url: https://kunstavisen.no/artikler/kunst-i-automatiseringens-tidsalder
+  contributors:
+  - name: Eivind Røssaak
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
 - title: 'Dokumentasjon: "Kampen om Mardøla", motstandsbliven og montasjestil'
   year: '2026'
   source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Eivind Røssaak
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
 - title: Motstandens mikropolitikk
   year: '2026'
   source: Introduction
+  group_type: Introduction
+  contributors:
+  - name: Knut Stene-Johansen
+  - name: Eivind Røssaak
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
 - title: Motstandens former. Tretten skisser.
   year: '2026'
   source: Book anthology
+  group_type: Book anthology
   url: https://existenz.no/produkt/boker-til-salgs/motstandens-former/
+  contributors:
+  - name: Knut Stene-Johansen
+  - name: Eivind Røssaak
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
+  - name: Kjerstin Aukrust
+  - name: Hilde Bondevik
+  - name: Inga Bostad
+  - name: Sylvain Briens
+  - name: Erin Kathleen Small Capistrano
+  - name: Gérard Danou
+  - name: Ulf Peter Hallberg
+  - name: Runar Hodne
+  - name: Erland Kiøsterud
+  - name: Christian Refsum
 - title: The Cory Arcangel Hack
   year: '2025'
   source: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Eivind Røssaak
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
+  - name: Ed Halter
+  - name: Cory Arcangel
 - title: 'Static Energy: Ribbing Warhol and Marker in Chafed Elbows'
   year: '2025'
   source: Non-fiction chapter
+  group_type: Non-fiction chapter
+  contributors:
+  - name: Eivind Røssaak
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
 - title: 'The Cory Arcangel Hack: Digital Culture and Aesthetic Practice'
   year: '2025'
   source: Monograph
+  group_type: Monograph
   url: https://direct.mit.edu/books/oa-monograph/6049/The-Cory-Arcangel-HackDigital-Culture-and
+  contributors:
+  - name: Eivind Røssaak
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
 - title: 'Classification, Photography, Eugenics: The Colonial Machine in Sápmi'
   year: '2025'
   source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Eivind Røssaak
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
 - title: Art as Sharing - The Art of Sharing
   year: '2023'
   source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Eivind Røssaak
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
 source_mentions: []
 summary: null
 permalink: /people/eivind-rossaak/

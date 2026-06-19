@@ -1,0 +1,20 @@
+{% comment %}
+  Resolves include.work + include.matched_result to resolved_result_type.
+{% endcomment %}
+{% assign matched_result = include.matched_result %}
+{% assign work = include.work %}
+{% assign raw_type = matched_result.group_type %}
+{% if raw_type == nil or raw_type == '' %}
+  {% assign raw_type = matched_result.type_label %}
+{% endif %}
+{% if raw_type == nil or raw_type == '' %}
+  {% assign raw_type = work.group_type %}
+{% endif %}
+{% if raw_type == nil or raw_type == '' %}
+  {% assign raw_type = work.source %}
+{% endif %}
+{% if raw_type == nil or raw_type == '' %}
+  {% assign raw_type = 'Other' %}
+{% endif %}
+{% include nva-normalize-result-type.html type_name=raw_type %}
+{% assign resolved_result_type = normalized_type_name %}

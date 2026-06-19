@@ -13,7 +13,7 @@
 {% assign map_label = loc.label %}
 {% assign map_aria = 'International location: ' | append: loc.label %}
 {% endif %}
-<figure class="institution-map{% unless loc.in_norway %} institution-map--world{% endunless %}" role="img" aria-label="{{ map_aria }}">
+<figure class="institution-map{% unless loc.in_norway %} institution-map--world{% endunless %}" aria-label="{{ map_aria }}">
   <div class="institution-map-canvas">
     <img
       class="institution-map-image"

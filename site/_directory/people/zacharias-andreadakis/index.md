@@ -7,6 +7,7 @@ position: Guest
 department: Department of Philosophy, Classics, History of Art and Ideas
 institution: university-of-oslo
 institutions:
+- university-of-oslo
 - western-norway-university-of-applied-sciences
 projects:
 - tool-for-tools
@@ -31,14 +32,30 @@ selected_works:
     and Care for Sustainable Futures'
   year: '2026'
   source: Book anthology
+  group_type: Book anthology
   url: https://link.springer.com/book/9783032221667
+  contributors:
+  - name: Czarecah Tuppil Oropilla
+  - name: Zacharias Andreadakis
+    slug: zacharias-andreadakis
+    url: /people/zacharias-andreadakis/
 - title: 'KINDknow Working Paper 1: Exploration in the Age of AI'
   year: '2024'
   source: Letter to the editor
+  group_type: Letter to the editor
   url: https://doi.org/10.5281/zenodo.10868306
+  contributors:
+  - name: Zacharias Andreadakis
+    slug: zacharias-andreadakis
+    url: /people/zacharias-andreadakis/
 - title: 'Mentoring PhDs: Lessons from DocTalent4EU'
   year: '2024'
   source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Zacharias Andreadakis
+    slug: zacharias-andreadakis
+    url: /people/zacharias-andreadakis/
 source_mentions: []
 summary: null
 layout: person

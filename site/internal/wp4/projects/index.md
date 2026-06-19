@@ -26,7 +26,7 @@ Workshopen er åpen for: Studenter og fagansatte fra KHiO, Kristiania og andre M
 
 ### Scoping Review of Creative AI in Teaching and Learning
 Conducts a systematic scoping review of existing research on Creative AI in artistic and educational contexts, to provide a knowledge foundation for all WP4 work and support external partners needing guidance. 
-**People involved:** Sidsel Karlsen (NMH - lead), Eirik Sørbø (UiA), Fredrik Graver (INN), Felicity Baker (NMH), Øystein Olav Skaar (INN), Zacharias Andreadakis (HVL), Jens Knigge (NORD), Bjørn Tallak Bakken (INN).   
+**People involved:** Sidsel Karlsen (NMH - lead), Eirik Sørbø (UiA), Fredrik Graver (INN), Øystein Olav Skaar (INN), Zacharias Andreadakis (HVL), Jens Knigge (NORD), Bjørn Tallak Bakken (INN).   
 **Contact:** [Sidsel Karlsen](mailto:sidsel.karlsen@nmh.no)
 
 ### Teacher Resources for Critical AI Literacy 

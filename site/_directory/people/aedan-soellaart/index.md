@@ -8,6 +8,7 @@ department: Faculty of Social Sciences
 institution: nord-university
 institutions:
 - inland-norway-university-of-applied-sciences
+- nord-university
 projects:
 - strategic-storyteller
 roles:
@@ -31,12 +32,29 @@ selected_works:
     Project-Based Learning in Game Development Education'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.1109/fie63693.2025.11328382
+  contributors:
+  - name: Victor Manuel Perez Colado
+  - name: Aedan Soellaart
+    slug: aedan-soellaart
+    url: /people/aedan-soellaart/
+  - name: Christopher William Theodore Hart
+  - name: Adam Palmquist
 - title: “Not in Kansas Anymore” Exploring Avatar-Player Dynamics Through a Wizard
     of Oz Approach in Virtual Reality
   year: '2024'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1007/978-3-031-61041-7_17
+  contributors:
+  - name: Adam Palmquist
+  - name: Izabella Alexandra Victoria Jedel
+  - name: Chris Hart
+  - name: Victor Manuel Perez Colado
+  - name: Aedan Soellaart
+    slug: aedan-soellaart
+    url: /people/aedan-soellaart/
 source_mentions: []
 summary: null
 layout: person

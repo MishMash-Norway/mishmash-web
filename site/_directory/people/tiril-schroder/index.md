@@ -37,35 +37,85 @@ selected_works:
 - title: Neon Gallery/Galeria Neon ASP Wrocław, Poland
   year: '2025'
   source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Tiril Schrøder
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
 - title: Serie «På camping med Dahl/Å se fremtiden gjennom bakspeilet» 2022
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Tiril Schrøder
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
 - title: 'Ufo in forest: 5 times it didn''t work and one time it did'
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Tiril Schrøder
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
 - title: Enkelttegninger
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Tiril Schrøder
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
 - title: Dorè GIF
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Tiril Schrøder
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
 - title: 'Between the pen and the line: Digital drawing and the feeling of alienation
     and distance'
   year: '2023'
   source: Professional article
+  group_type: Professional article
   url: https://impact-journal-cfpr.uwe.ac.uk/index.php/impact/article/view/116/98
+  contributors:
+  - name: Tiril Schrøder
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
 - title: 3 små krysskraveringer
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Tiril Schrøder
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
 - title: '"Gjenfortellinger av Flintoe" fra en lengre serie'
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Tiril Schrøder
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
 - title: Animated Gargoyleface
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Tiril Schrøder
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
 - title: Voiceless
   year: '2023'
   source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Tiril Schrøder
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
 source_mentions: []
 summary: null
 permalink: /people/tiril-schroder/

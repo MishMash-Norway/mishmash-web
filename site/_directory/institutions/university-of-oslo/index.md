@@ -10,19 +10,32 @@ short_name: UiO
 image: /images/institutions/university-of-oslo.svg
 people:
 - alexander-refsum-jensenius
+- ali-ramezani-kebrya
+- anders-tveit
+- anna-maria-christodoulou
 - cagri-erdem
 - carsten-griwodz
+- charles-martin
+- diego-marin-bucio
 - eskil-muan-saether
+- hege-stensrud-hosoien
 - ingrid-chieh-yu
 - jon-marius-aareskjold-drecker
 - jonna-vuoskoski
+- kai-olav-ellefsen
 - kyrre-glette
+- myrthe-tilleman
 - ole-andreas-rognstad
 - olivier-lartillot
 - peter-edwards
 - ragnhild-brovig
 - sascha-fruhholz
+- stefano-fasciani
+- susanne-o-saether
+- tejaswinee-kelkar
 - victoria-johnson
+- vincenzo-madaghiele
+- zacharias-andreadakis
 projects:
 - copyright-and-personality-rights-ai-era
 - human-machine-consciousness

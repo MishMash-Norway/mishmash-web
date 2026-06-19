@@ -14,7 +14,7 @@ nva_affiliations:
   unit: Faculty of Social Sciences
   institution: nord-university
 - role: Professor
-  unit: The Norwegian Film School
+  unit: Faculty of Film, TV and Games
   institution: inland-norway-university-of-applied-sciences
 projects:
 - tool-for-tools
@@ -39,7 +39,14 @@ selected_works:
     tool)
   year: '2024'
   source: Lecture
+  group_type: Lecture
   url: https://www.inn.no/arrangementer/innku/
+  contributors:
+  - name: Troels Linde
+    slug: troels-linde
+    url: /people/troels-linde/
+  - name: Anna Myking
+  - name: Duane Hopkins
 source_mentions: []
 summary: null
 permalink: /people/troels-linde/

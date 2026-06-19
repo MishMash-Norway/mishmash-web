@@ -11,6 +11,7 @@ image: /images/institutions/arctic-university-of-norway.png
 people:
 - jon-marius-aareskjold-drecker
 - shayan-dadman
+- stephanie-von-spreter
 - stig-mathisen
 projects:
 - evaluation-cultural-bias-workflow-ai-music-generation

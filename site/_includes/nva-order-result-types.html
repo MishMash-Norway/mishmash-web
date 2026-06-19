@@ -1,0 +1,27 @@
+{% comment %}
+  Sorts include.types (array of type name strings) into ordered_type_names
+  using site.data.result_type_order.order, then appends unlisted types.
+{% endcomment %}
+{% assign preferred_order = site.data.result_type_order.order %}
+{% assign ordered_type_names = "" | split: "" %}
+{% assign source_types = include.types %}
+
+{% for preferred in preferred_order %}
+  {% for type_name in source_types %}
+    {% if type_name != '' and type_name == preferred %}
+      {% unless ordered_type_names contains type_name %}
+        {% assign ordered_type_names = ordered_type_names | push: type_name %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% for type_name in source_types %}
+  {% if type_name != '' %}
+    {% unless preferred_order contains type_name %}
+      {% unless ordered_type_names contains type_name %}
+        {% assign ordered_type_names = ordered_type_names | push: type_name %}
+      {% endunless %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}

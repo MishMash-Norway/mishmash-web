@@ -16,13 +16,14 @@ people:
 - nina-fredrikke-grunfeld
 - ole-christian-solbakken
 - ole-christoffer-haga
+- ole-goethe
+- oystein-skaar
 - sashi-komandur
 - tonje-louise-finne
 - troels-linde
 projects:
 - ai-assisted-film-production-vita-vigeland
 - bingo-ai-assisted-animation-documentary-film
-- interactive-ai-driven-book-experiences
 - scoping-review-creative-ai-teaching-learning
 - strategic-storyteller
 - tao-transductive-acoustic-organism

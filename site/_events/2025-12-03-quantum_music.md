@@ -1,14 +1,21 @@
 ---
-title: "Concert: Quantum Loops, Broken Symmetries "
-date: 2025-12-03 18:00:00 +01:00   # Event start date/time
-end_date: 2025-12-03 19:00:00 +01:00 # Optional: Event end time
-location: "Salen, Department of Musicology, University of Oslo"
+title: 'Concert: Quantum Loops, Broken Symmetries '
+date: 2025-12-03 18:00:00+01:00
+end_date: 2025-12-03 19:00:00+01:00
+location: Salen, Department of Musicology, University of Oslo
 layout: event
-categories: [Concert]
-description: "An evening concert and presentation exploring generative music created with AI and quantum computing, featuring Eduardo Reck Miranda and Victoria Johnson."
-tags: [AI, Quantum Computing, Music, Generative Music, Performance]
+categories:
+- Concert
+description: An evening concert and presentation exploring generative music created
+  with AI and quantum computing, featuring Eduardo Reck Miranda and Victoria Johnson.
+tags:
+- Artificial intelligence
+- Quantum Computing
+- Music
+- Generative Music
+- Performance
 image: /assets/images/events/quantum-loops.jpg
-slug: "quantum-loops-broken-symmetries"
+slug: quantum-loops-broken-symmetries
 ---
 
 An evening exploring music with AI and quantum computing with [Eduardo Reck Miranda](https://www.plymouth.ac.uk/staff/eduardo-miranda) and [Victoria Johnson](http://www.victoriajohnson.no/).

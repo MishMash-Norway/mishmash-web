@@ -7,6 +7,7 @@ position: Guest
 department: Department of Clinical Dentistry
 institution: university-of-bergen
 institutions:
+- university-of-bergen
 - university-of-iceland
 projects:
 - rhyglyph-rhydiff-rhyseq
@@ -29,6 +30,7 @@ search_keywords: []
 selected_works: []
 source_mentions: []
 summary: null
+layout: person
 permalink: /people/thor-magnusson/
 redirect_from:
 - /directory/people/thor-magnusson/

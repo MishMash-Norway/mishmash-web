@@ -1,4 +1,4 @@
-synced_at: '2026-06-16T10:09:17Z'
+synced_at: '2026-06-18T09:18:25Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -65,9 +65,13 @@ results:
   contributors:
   - name: Hugh Alexander von Arnim
   - name: Anna-Maria Christodoulou
+    slug: anna-maria-christodoulou
+    url: /people/anna-maria-christodoulou/
   - name: Kayla Burnim
   - name: Finn Upham
   - name: Tejaswinee Kelkar
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
@@ -81,12 +85,16 @@ results:
       name: Hugh Alexander von Arnim
     - display: Christodoulou, Anna-Maria
       name: Anna-Maria Christodoulou
+      slug: anna-maria-christodoulou
+      url: /people/anna-maria-christodoulou/
     - display: Burnim, Kayla
       name: Kayla Burnim
     - display: Upham, Finn
       name: Finn Upham
     - display: Kelkar, Tejaswinee
       name: Tejaswinee Kelkar
+      slug: tejaswinee-kelkar
+      url: /people/tejaswinee-kelkar/
     - display: Jensenius, Alexander Refsum
       name: Alexander Refsum Jensenius
       slug: alexander-refsum-jensenius
@@ -1874,7 +1882,7 @@ results:
       Flere artister jobber for fred, på ulike måter. Møt noen av dem på Scene Domus
       Bibliotheca! Hva er det med akkurat musikk som forener oss? Bli med på musikksnakk
       med artistene Birgitte Grimstad, Lars Klevstrand og Andreas Røysum. Du møter
-      også  fredsforsker Kristin Bergtora Sandvik. Her vil musikkprofessor Alexander
+      også fredsforsker Kristin Bergtora Sandvik. Her vil musikkprofessor Alexander
       Refsum Jensenius lede samtalen med ulike spørsmål knyttet til tematikken – kanskje
       svarer de på ditt spørsmål også? Samtalen er beregnet for et publikum uten faglig
       bakgrunn i temaet.
@@ -2770,6 +2778,35 @@ results:
     nva_url: https://nva.sikt.no/publication/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
   url: https://www.forskerforum.no/forskerlivet/mitt-tips-til-gjesteforskere-heng-ved-kaffemaskinen/
   nva_url: https://nva.sikt.no/publication/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
+- title: Mennesker og maskiner
+  year: '2026'
+  type: MediaReaderOpinion
+  type_label: Reader opinion
+  group_type: Media
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Mennesker og maskiner
+    container: ''
+    details: ''
+    abstract: Det er en del KI-optimister rundt omkring. Men jeg møter flere skeptikere.
+      Da forsøker jeg å minne om at det også finnes mange muligheter.
+    full_text_url: https://hdl.handle.net/11250/5529337
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ed4c83ce5-3e0642d3-76b5-4aa2-89ad-eceeda464110
+  url: https://www.forskerforum.no/forskerlivet/vi-ma-se-oss-selv-i-speilet-hver-gang-vi-bruker-et-ki-verktoy-er-vi-med-pa-a-legitimere-det/
+  nva_url: https://nva.sikt.no/publication/019ed4c83ce5-3e0642d3-76b5-4aa2-89ad-eceeda464110
 - title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
   year: '2026'
   type: MediaParticipationInRadioOrTv
@@ -2840,6 +2877,8 @@ results:
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Diego Marin-Bucio
+    slug: diego-marin-bucio
+    url: /people/diego-marin-bucio/
   - name: Benedikte Wallace
   - name: Olivier Lartillot
     slug: olivier-lartillot

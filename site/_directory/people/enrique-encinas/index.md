@@ -30,36 +30,106 @@ selected_works:
 - title: 'Design Agentics :: Creative R&D x AI'
   year: '2026'
   source: Presentation
+  group_type: Lecture
   url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Ida Jahr
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  - name: Enrique Encinas
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Hedda Foss Lilleng
+  - name: Lene Renneflott
 - title: 'Playing with Failure: A Queer Framework for Making Service Systems Otherwise'
   year: '2025'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.21606/servdes2025.41
+  contributors:
+  - name: Josina Vink
+  - name: Enrique Encinas
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Daphne Chan
+  - name: Shreya Bhattacharya
 - title: Participation as Panelist in PhD Research Colloquium at the Academy of Fine
     Arts Prague (AVU)
   year: '2025'
   source: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Enrique Encinas
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
 - title: 'Un/learning with a Dragon : More Than Human Design and the river Akerselva'
   year: '2024'
   source: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Enrique Encinas
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
 - title: 'Provotyping Accountability: Exploring Smartphone Use in the Home through
     Design'
   year: '2023'
   source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3563657.3596024
+  contributors:
+  - name: Rikke Hagensby Jensen
+  - name: Enrique Encinas Pollos
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Yolande Strengers
+  - name: Christian Dannesboe
+  - name: Erik Kruuse
+  - name: Jesper Skovby
+  - name: Marcus Bach
+  - name: Patrick Bering Tietze
+  - name: Simon Christensen
 - title: 'Ways of seeing design research: A polyphonic speculation'
   year: '2023'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.21606/nordes.2023.96
+  contributors:
+  - name: David Philip Green
+  - name: Joseph Lindley
+  - name: Enrique Encinas Pollos
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Mayane Dore
+  - name: Jesse Joshua Benjamin
+  - name: Spyros Bofylatos
 - title: 'Speculative designs in educational settings: Tension-patterns from a (mostly)
     European perspective'
   year: '2023'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.21606/nordes.2023.98
+  contributors:
+  - name: Enrique Encinas Pollos
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Ingi Helgason
+  - name: James Auger
+  - name: Ivica Mitrović
+  - name: julian hanna
 - title: 'Speculative and Critical Design: Approaches and influences in education'
   year: '2022'
   source: Journal article
+  group_type: Journal article
   url: https://doi.org/10.55612/s-5002-051-001psi
+  contributors:
+  - name: Ingi Helgason
+  - name: Enrique Encinas Pollos
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Michael Smyth
 source_mentions: []
 summary: null
 permalink: /people/enrique-encinas/

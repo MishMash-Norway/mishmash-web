@@ -12,7 +12,8 @@ import requests
 import yaml
 from PIL import Image
 
-from nva_result_types import nva_publication_source
+from nva_result_types import nva_publication_instance_type, nva_publication_source, result_group_type
+from nva_publication_contributors import build_person_lookup, build_result_contributors
 from repo_paths import REPO_ROOT, SITE_ROOT
 
 
@@ -511,10 +512,20 @@ def work_sort_key(work: dict) -> int:
 
 def localized_text(value) -> str:
     if isinstance(value, str):
-        return value.strip()
-    if isinstance(value, dict):
-        return (value.get("en") or value.get("nb") or value.get("no") or "").strip()
-    return ""
+        text = value.strip()
+    elif isinstance(value, dict):
+        text = (value.get("en") or value.get("nb") or value.get("no") or "").strip()
+    else:
+        return ""
+    return sanitize_display_text(text)
+
+
+def sanitize_display_text(value: str) -> str:
+    """Remove control characters that break HTML5 validation (e.g. U+000b from NVA)."""
+    if not value:
+        return value
+    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", " ", value)
+    return re.sub(r"[ \t]+", " ", text).strip()
 
 
 def institution_abbrev(slug: str) -> str:
@@ -596,7 +607,11 @@ def nva_publication_url(hit: dict) -> str:
     return ""
 
 
-def nva_selected_works(profile_id: str, max_works: int) -> list[dict[str, str]]:
+def nva_selected_works(
+    profile_id: str,
+    max_works: int,
+    person_lookup: dict[str, dict[str, str]] | None = None,
+) -> list[dict[str, str]]:
     response = requests.get(
         nva_api_url("/search/resources"),
         params={"contributor": profile_id, "results": max(max_works * 3, 30)},
@@ -625,12 +640,21 @@ def nva_selected_works(profile_id: str, max_works: int) -> list[dict[str, str]]:
         work = {"title": title}
         if year:
             work["year"] = year
-        source = nva_publication_source(entity.get("reference") or {})
+        reference = entity.get("reference") or {}
+        instance_type = nva_publication_instance_type(reference)
+        source = nva_publication_source(reference)
         if source:
             work["source"] = source
+        group_type = result_group_type(instance_type)
+        if group_type:
+            work["group_type"] = group_type
         url = nva_publication_url(hit)
         if url:
             work["url"] = url
+        if person_lookup is not None:
+            contributors = build_result_contributors(entity, person_lookup)
+            if contributors:
+                work["contributors"] = contributors
         works.append(work)
 
     works.sort(key=work_sort_key, reverse=True)
@@ -643,6 +667,7 @@ def fetch_nva_bundle(
     org_cache: dict,
     max_tags: int,
     max_works: int,
+    person_lookup: dict[str, dict[str, str]] | None = None,
 ) -> dict:
     profile = get_json(nva_api_url(f"/cristin/person/{profile_id}"))
     nva_affiliations = parse_nva_affiliations(profile, org_cache, institution_lookup)
@@ -660,7 +685,7 @@ def fetch_nva_bundle(
     return {
         "name": names_to_full_name(profile.get("names") or []),
         "position": primary.get("role") or "",
-        "department": primary.get("unit") or "",
+        "department": primary.get("department") or primary.get("unit") or "",
         "institution": primary.get("institution") or "",
         "institutions": sorted(institution_slugs),
         "affiliation_units": [],
@@ -670,7 +695,7 @@ def fetch_nva_bundle(
         "image_url": (profile.get("image") or "").strip(),
         "orcid": find_orcid(profile.get("identifiers") or []),
         "institutional_website": ((profile.get("contactDetails") or {}).get("webPage") or "").strip(),
-        "selected_works": nva_selected_works(profile_id, max_works=max_works),
+        "selected_works": nva_selected_works(profile_id, max_works=max_works, person_lookup=person_lookup),
         "profile_id": profile_id,
     }
 
@@ -835,6 +860,67 @@ def organization_unit_chain_top_down(org_data: dict) -> list[str]:
     return names
 
 
+def _is_admin_unit(name: str) -> bool:
+    low = name.strip().lower()
+    if not low:
+        return True
+    if low.endswith(" stab") or low == "stab":
+        return True
+    return bool(re.search(r"\b(administration|administrasjon|sekretariat)\b", low))
+
+
+def _is_institution_level(name: str) -> bool:
+    low = name.strip().lower()
+    return bool(
+        re.search(
+            r"\b(university|universitet|høyskole|høgskole|college|museum|library|bibliotek|academy)\b",
+            low,
+        )
+    )
+
+
+def _is_department_unit(name: str) -> bool:
+    low = name.strip().lower()
+    return bool(
+        re.match(
+            r"(department(?:\s+of)?|institutt(?:\s+for)?|avdeling|seksjon|school of)\b",
+            low,
+        )
+    )
+
+
+def _is_faculty_unit(name: str) -> bool:
+    low = name.strip().lower()
+    return bool(re.match(r"(faculty(?:\s+of)?|fakultet(?:\s+for)?|det\s+.+\bfakultet)\b", low))
+
+
+def primary_department_from_units(units: list[str]) -> str:
+    """Pick the best academic department/faculty label from an NVA unit chain."""
+    chain = [unit.strip() for unit in units if isinstance(unit, str) and unit.strip()]
+    if not chain:
+        return ""
+
+    trimmed = list(chain)
+    while trimmed and _is_admin_unit(trimmed[-1]):
+        trimmed.pop()
+    if not trimmed:
+        trimmed = list(chain)
+
+    for unit in reversed(trimmed):
+        if _is_department_unit(unit):
+            return unit
+
+    for unit in reversed(trimmed):
+        if _is_faculty_unit(unit):
+            return unit
+
+    for unit in reversed(trimmed):
+        if not _is_institution_level(unit):
+            return unit
+
+    return trimmed[-1]
+
+
 def institution_slugs_from_org(org_data: dict, institution_lookup: dict[str, str]) -> list[str]:
     slugs = []
     for node in iter_organization_nodes(org_data):
@@ -855,12 +941,14 @@ def parse_nva_affiliation(
     role = role_labels.get("en") or role_labels.get("nb") or ""
     units = organization_unit_chain_top_down(org_data)
     unit = units[-1] if units else fetch_org_name(org_url, org_cache)
+    department = primary_department_from_units(units) or unit
     inst_slugs = institution_slugs_from_org(org_data, institution_lookup)
 
     return {
         "active": bool(affiliation.get("active")),
         "role": role,
         "unit": unit,
+        "department": department,
         "units": units,
         "institution": inst_slugs[0] if inst_slugs else "",
         "institutions": inst_slugs,
@@ -893,7 +981,7 @@ def active_nva_affiliations(affiliations: list[dict]) -> list[dict]:
 def compact_nva_affiliation(aff: dict) -> dict:
     return {
         "role": aff.get("role") or "",
-        "unit": aff.get("unit") or "",
+        "unit": aff.get("department") or aff.get("unit") or "",
         "institution": aff.get("institution") or "",
     }
 
@@ -1171,6 +1259,7 @@ def enrich_person(
     institution_lookup: dict[str, str],
     slug_to_institution_name: dict[str, str],
     org_cache: dict,
+    person_lookup: dict[str, dict[str, str]],
     max_tags: int,
     max_works: int,
     dry_run: bool,
@@ -1219,6 +1308,7 @@ def enrich_person(
                 org_cache=org_cache,
                 max_tags=max_tags,
                 max_works=max_works,
+                person_lookup=person_lookup,
             )
             if nva_bundle.get("orcid"):
                 orcid_url = nva_bundle["orcid"]
@@ -1386,6 +1476,7 @@ def main():
 
     slugs = set(args.slug or [])
     institution_lookup, slug_to_institution_name = build_institution_lookup(root)
+    person_lookup = build_person_lookup(root)
     org_cache = {}
 
     updated = 0
@@ -1407,6 +1498,7 @@ def main():
                 institution_lookup=institution_lookup,
                 slug_to_institution_name=slug_to_institution_name,
                 org_cache=org_cache,
+                person_lookup=person_lookup,
                 max_tags=args.max_tags,
                 max_works=args.max_works,
                 dry_run=args.dry_run,

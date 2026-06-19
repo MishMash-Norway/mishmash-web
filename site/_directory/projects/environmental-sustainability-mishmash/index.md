@@ -9,7 +9,7 @@ tags:
 - Seed Funding
 - WP5
 - Sustainability
-- AI
+- Artificial intelligence
 - Consortium
 slug: environmental-sustainability-mishmash
 name: Environmental Sustainability in MishMash

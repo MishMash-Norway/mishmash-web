@@ -12,6 +12,7 @@ people:
 - eivind-rossaak
 - hege-stensrud-hosoien
 - ingrid-romarheim-haugen
+- richard-gjems
 - yngvil-beyer
 projects:
 - ai-as-environment

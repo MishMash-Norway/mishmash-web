@@ -9,13 +9,12 @@ name: Norwegian Academy of Music
 short_name: NMH
 image: /images/institutions/norwegian-academy-of-music.svg
 people:
-- felicity-baker
 - ivar-grydeland
+- jens-knigge
 - morten-qvenild
 - sidsel-karlsen
 - victoria-johnson
 projects:
-- interactive-ai-driven-book-experiences
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq
 - scoping-review-creative-ai-teaching-learning

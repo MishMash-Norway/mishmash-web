@@ -30,6 +30,7 @@ These positions generally require that a master's degree has been completed.
 | Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
 | University of Oslo | Scientific | [Continuous Experience Recognition for Distributed Co-creative Immersive Systems](https://www.jobbnorge.no/en/available-jobs/job/302742/phd-research-fellow-continuous-experience-recognition-for-distributed-co-creative-immersive-systems) | 1 August 2026|
+| University of Oslo | Scientific | [AI for Rehabilitation and Motor Learning](https://www.jobbnorge.no/en/available-jobs/job/303644/phd-research-fellow-in-ai-for-rehabilitation-and-motor-learning) | 16 July 2026 |
 | UiT The Arctic University of Norway | Artistic | Artistic Research | ~~9 May 2026~~ |
 | Nord University | Scientific | Creative Use of AI in Music Education | ~~30 Apr 2026~~ |
 | NTNU | Artistic | Music technology and AI for artistic performances | ~~1 Apr 2026~~ |

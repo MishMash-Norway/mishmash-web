@@ -6,8 +6,7 @@ redirect_from:
 - /directory/institutions/university-of-melbourne/
 name: University of Melbourne
 short_name: UniMelb
-people:
-- /people/felicity-baker/
+people: []
 projects: []
 country: null
 city: null

@@ -35,7 +35,7 @@ Primary WP: [WP4](/wp4/)
 2026–2026
 
 ## People
-- Project leader: [Eirik Sorbo](/people/eirik-sorbo/)
+- Project leader: [Eirik Sørbø](/people/eirik-sorbo/)
 - Participants: [Heidi Partti](/people/heidi-partti/), [Sidsel Karlsen](/people/sidsel-karlsen/), [Fredrik Graver](/people/fredrik-graver/)
 
 ## Institutions

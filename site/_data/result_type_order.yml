@@ -1,0 +1,8 @@
+# Display order for result type groups (filters and section headings).
+# Types not listed here appear afterwards, in first-seen order.
+order:
+  - Book
+  - Book chapter
+  - Journal article
+  - Music performance
+  - Exhibition

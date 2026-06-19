@@ -11,6 +11,8 @@ image: /images/institutions/norwegian-university-of-science-and-technology.png
 people:
 - andreas-bergsland
 - govert-valkenburg
+- hilda-deborah
+- jens-knigge
 - ole-christoffer-haga
 - oyvind-brandtsegg
 projects:
