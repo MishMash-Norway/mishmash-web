@@ -29,7 +29,7 @@ The Council is responsible for:
 - [Lise Amy Hansen](https://www.aho.no/english/about/employees/lisehans/) (Oslo National Academy of the Arts)
 - [Marit Wergeland](https://www.uia.no/english/about-uia/employees/maritwe/) (University of Agder)
 - [Morten Qvenild](https://nmh.no/en/contact-us/employees/morten-qvenild) (Norwegian Academy of Music)
-- [Nina Fredrikke Grünfeld](https://www.inn.no/finn-en-ansatt/nina-grunfeld.html) (Inland Norway University of Applied Sciences)
+- [Nina Fredrikke Grünfeld](https://www.inn.no/finn-en-ansatt/nina-grunfeld.html) (University of Inland Norway)
 - [Sigurd Sandvold](https://www.hvl.no/person/?user=Sigurd.Sandvold) (Western Norway University of Applied Sciences)
 - [Stig Mathisen](https://en.uit.no/ansatte/stig-roar.mathisen) (Arctic University of Norway)
 - [Sven-Arne Reinemo](https://www.simula.no/people/svenar) (Simula Metropolitan Center for Digital Engineering)

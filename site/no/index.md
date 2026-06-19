@@ -49,7 +49,7 @@ Se oversikten over [ledige stillinger](https://mishmash.no/news/positions/). Ta 
         <li><a href="https://www.bi.no/">Handelshøyskolen BI</a></li>
         <li><a href="https://www.hiof.no/">Høgskolen i Østfold (HiØ)</a></li>
         <li><a href="https://www.hvl.no/">Høgskulen på Vestlandet (HVL)</a></li>
-        <li><a href="https://www.inn.no/">Høgskolen i Innlandet (INN)</a></li>
+        <li><a href="https://www.inn.no/">Universitetet i Innlandet (INN)</a></li>
         <li><a href="https://khio.no">Kunsthøgskolen i Oslo (KHiO)</a></li>
         <li><a href="https://www.kristiania.no/">Høyskolen Kristiania</a></li>
         <li><a href="https://www.nb.no/">Nasjonalbiblioteket</a></li>

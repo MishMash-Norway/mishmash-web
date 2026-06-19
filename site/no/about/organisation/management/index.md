@@ -33,7 +33,7 @@ Ledelsen håndterer den daglige koordineringen og administrasjonen av MishMash-a
   <a href="/people/ida-jahr/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/ida_jahr_INN.jpg" alt="Ida Jahr"></a>
   <div>
   <a href="/people/ida-jahr/">Ida Jahr</a><br>
-  Høgskolen i Innlandet<br>
+  Universitetet i Innlandet<br>
   Nestdirektør
   </div>
 </div>

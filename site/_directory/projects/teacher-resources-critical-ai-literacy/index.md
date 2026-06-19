@@ -41,4 +41,4 @@ Primary WP: [WP4](/wp4/)
 ## Institutions
 - [University of Agder](/institutions/university-of-agder/)
 - [Norwegian Academy of Music](/institutions/norwegian-academy-of-music/)
-- [Inland Norway University of Applied Sciences](/institutions/inland-norway-university-of-applied-sciences/)
+- [University of Inland Norway](/institutions/inland-norway-university-of-applied-sciences/)

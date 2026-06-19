@@ -37,5 +37,5 @@ Primary WP: [WP2](/wp2/)
 - Participants: [Henning Birkeland](/people/henning-birkeland/), [Ole Christoffer Haga](/people/ole-christoffer-haga/)
 
 ## Institutions
-- TV-School, [Inland Norway University of Applied Sciences](/institutions/inland-norway-university-of-applied-sciences/)
+- TV-School, [University of Inland Norway](/institutions/inland-norway-university-of-applied-sciences/)
 - [Kristiania University College](/institutions/kristiania-university-college/)

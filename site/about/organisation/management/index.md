@@ -33,7 +33,7 @@ The Management group handles the day-to-day coordination and administration of M
   <a href="/people/ida-jahr/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/ida_jahr_INN.jpg" alt="Ida Jahr"></a>
   <div>
   <a href="/people/ida-jahr/">Ida Jahr</a><br>
-  Inland Norway University of Applied Sciences<br>
+  University of Inland Norway<br>
   Deputy director
   </div>
 </div>

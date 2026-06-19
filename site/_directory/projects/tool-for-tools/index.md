@@ -45,6 +45,6 @@ Cross-work-package initiative (WP1–WP7)
 - Participants: [Irina Eidsvold-Toien](/people/irina-eidsvold-toien/), [Kjetil Nordby](/people/kjetil-nordby/), [Zacharias Andreadakis](/people/zacharias-andreadakis/)
 
 ## Institutions
-- [Inland Norway University of Applied Sciences](/institutions/inland-norway-university-of-applied-sciences/)
+- [University of Inland Norway](/institutions/inland-norway-university-of-applied-sciences/)
 - [BI Norwegian Business School](/institutions/bi-norwegian-business-school/)
 - [Oslo School of Architecture and Design](/institutions/oslo-school-of-architecture-and-design/)

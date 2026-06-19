@@ -20,7 +20,7 @@ INSTITUTION_CANONICAL = {
     "nmh": "Norwegian Academy of Music",
     "hiof": "Ostfold University College",
     "hiø": "Ostfold University College",
-    "inn": "Inland Norway University of Applied Sciences",
+    "inn": "University of Inland Norway",
     "kristiania": "Kristiania University College",
     "ntnu": "Norwegian University of Science and Technology",
     "bi": "BI Norwegian Business School",

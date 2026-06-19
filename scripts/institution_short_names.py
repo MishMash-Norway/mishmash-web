@@ -94,7 +94,7 @@ DEFAULT_INSTITUTION_WIKIPEDIA: dict[str, str] = {
     "barratt-due-institute-of-music": "https://en.wikipedia.org/wiki/Barratt_Due_Institute_of_Music",
     "bergen-center-for-electronic-arts": "https://no.wikipedia.org/wiki/Bergen_senter_for_elektronisk_kunst",
     "bi-norwegian-business-school": "https://en.wikipedia.org/wiki/BI_Norwegian_Business_School",
-    "inland-norway-university-of-applied-sciences": "https://en.wikipedia.org/wiki/Inland_Norway_University_of_Applied_Sciences",
+    "inland-norway-university-of-applied-sciences": "https://en.wikipedia.org/wiki/University_of_Inland_Norway",
     "kristiania-university-college": "https://en.wikipedia.org/wiki/Kristiania_University_College",
     "kulturtanken": "https://no.wikipedia.org/wiki/Kulturtanken",
     "national-library-of-norway": "https://en.wikipedia.org/wiki/National_Library_of_Norway",

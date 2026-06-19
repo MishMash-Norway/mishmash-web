@@ -39,6 +39,6 @@ Primary WP: [WP7](/wp7/)
 - Participants: [Gerard Hodgkinson](/people/gerard-hodgkinson/), [Magda Osman](/people/magda-osman/), [Carsten Griwodz](/people/carsten-griwodz/)
 
 ## Institutions
-- [Inland Norway University of Applied Sciences](/institutions/inland-norway-university-of-applied-sciences/)
+- [University of Inland Norway](/institutions/inland-norway-university-of-applied-sciences/)
 - [University of Manchester](/institutions/university-of-manchester/)
 - [University of Cambridge](/institutions/university-of-cambridge/)

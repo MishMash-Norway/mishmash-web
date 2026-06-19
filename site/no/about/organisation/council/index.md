@@ -29,7 +29,7 @@ Rådet har ansvar for:
 - [Lise Amy Hansen](https://www.aho.no/english/about/employees/lisehans/) (Arkitektur- og designhøgskolen i Oslo)
 - [Marit Wergeland](https://www.uia.no/english/about-uia/employees/maritwe/) (Universitetet i Agder)
 - [Morten Qvenild](https://nmh.no/en/contact-us/employees/morten-qvenild) (Norges musikkhøgskole)
-- [Nina Fredrikke Grünfeld](https://www.inn.no/finn-en-ansatt/nina-grunfeld.html) (Høgskolen i Innlandet)
+- [Nina Fredrikke Grünfeld](https://www.inn.no/finn-en-ansatt/nina-grunfeld.html) (Universitetet i Innlandet)
 - [Sigurd Sandvold](https://www.hvl.no/person/?user=Sigurd.Sandvold) (Høgskulen på Vestlandet)
 - [Stig Mathisen](https://en.uit.no/ansatte/stig-roar.mathisen) (UiT Norges arktiske universitet)
 - [Sven-Arne Reinemo](https://www.simula.no/people/svenar) (Simula Metropolitan Center for Digital Engineering)

@@ -39,4 +39,4 @@ Primary WP: [WP7](/wp7/)
 
 ## Institutions
 - [Kristiania University College](/institutions/kristiania-university-college/)
-- [Inland Norway University of Applied Sciences](/institutions/inland-norway-university-of-applied-sciences/)
+- [University of Inland Norway](/institutions/inland-norway-university-of-applied-sciences/)
