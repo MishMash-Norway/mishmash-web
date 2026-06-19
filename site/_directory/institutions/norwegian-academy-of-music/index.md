@@ -9,6 +9,7 @@ name: Norwegian Academy of Music
 short_name: NMH
 image: /images/institutions/norwegian-academy-of-music.svg
 people:
+- anders-tveit
 - ivar-grydeland
 - jens-knigge
 - morten-qvenild

@@ -30,8 +30,16 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Construction of musical instruments
+- Interactive music
+- Interactive systems
+- Music Technology
+search_keywords:
+- Construction of musical instruments
+- Interactive music
+- Interactive systems
+- Music Technology
 selected_works:
 - title: Facilitating the Development of Interactive Wheelchair Sonifications
   year: '2026'

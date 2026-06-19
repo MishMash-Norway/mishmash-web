@@ -34,12 +34,31 @@ aliases: []
 tags:
 - Media-art
 - Art History
+- Cultural and Creative Industries
+- Media Theory
+- Visual culture
 - New Media
 search_keywords:
 - Media-art
 - Art History
+- Cultural and Creative Industries
+- Media Theory
+- Visual culture
 - New Media
 selected_works:
+- title: F@ck AI or else… A roundtable discussion on music and art among cursed algorithms.
+  year: '2026'
+  source: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Enrique Encinas
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Markéta Dolejšová
+  - name: Einar Sneve Martinussen
 - title: Kunstnerisk forskning som levende kunnskap
   year: '2026'
   source: Lecture
@@ -135,16 +154,6 @@ selected_works:
   source: Conference lecture
   group_type: Conference
   url: https://kulturkonferansen.no/
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-- title: På Google Earth kan du zoome inn på hele verden. Men hva er det egentlig
-    vi ser?
-  year: '2026'
-  source: Popular science article
-  group_type: Popular science article
-  url: https://www.forskersonen.no/digital-teknologi-kronikk-kunstig-intelligens/pa-google-earth-kan-du-zoome-inn-pa-hele-verden-men-hva-er-det-egentlig-vi-ser/2597322
   contributors:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull

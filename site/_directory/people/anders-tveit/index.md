@@ -1,12 +1,14 @@
 ---
+layout: person
 type: person
 slug: anders-tveit
 name: Anders Tveit
 title: Anders Tveit
 position: University lecturer
-department: Department of Musicology
-institution: university-of-oslo
+department: Fagseksjon for musikkteori, komposisjon og musikkteknologi
+institution: norwegian-academy-of-music
 institutions:
+- norwegian-academy-of-music
 - notam-norwegian-centre-for-technology-art-and-music
 - university-of-oslo
 projects:
@@ -125,7 +127,6 @@ selected_works:
   - name: Viet phi uy Hoang
 source_mentions: []
 summary: null
-layout: person
 permalink: /people/anders-tveit/
 redirect_from:
 - /directory/people/anders-tveit/

@@ -42,6 +42,14 @@ search_keywords:
 - Cognitive neuroscience
 - Music Cognition
 selected_works:
+- title: Would you cry to a song written by AI?
+  year: '2026'
+  source: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Jonna Katariina Vuoskoski
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
 - title: 'Experiences of awe and being moved evoked by music: Exploring elicitors
     and socio-affective and behavioural correlates'
   year: '2026'
@@ -144,17 +152,6 @@ selected_works:
     url: /people/jonna-vuoskoski/
   - name: John Melvin Gudnyson Treider
   - name: David Huron
-- title: 'The Aversive Musical Experience Scale (AMES): Measuring individual differences
-    in the intensity of music-evoked aversion'
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1177/03057356241239336
-  contributors:
-  - name: Jonna Katariina Vuoskoski
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-  - name: Henna-Riikka Peltola
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: I am Professor of Music Cognition at the Department of Musicology and the

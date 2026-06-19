@@ -1,4 +1,4 @@
-synced_at: '2026-06-18T09:18:25Z'
+synced_at: '2026-06-19T09:33:27Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -1010,6 +1010,92 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: Would you cry to a song written by AI?
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Jonna Katariina Vuoskoski
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Vuoskoski, Jonna Katariina
+      name: Jonna Katariina Vuoskoski
+      slug: jonna-vuoskoski
+      url: /people/jonna-vuoskoski/
+    title: Would you cry to a song written by AI?
+    container: Summer Seminar.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5530118
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019edf1e440b-0947af48-9fa9-45b3-8d1a-21078ccf9182
+  nva_url: https://nva.sikt.no/publication/019edf1e440b-0947af48-9fa9-45b3-8d1a-21078ccf9182
+- title: F@ck AI or else… A roundtable discussion on music and art among cursed algorithms.
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Enrique Encinas
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Markéta Dolejšová
+  - name: Einar Sneve Martinussen
+  institutions:
+  - name: Oslo School of Architecture and Design
+    slug: oslo-school-of-architecture-and-design
+    url: /institutions/oslo-school-of-architecture-and-design/
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  citation:
+    authors:
+    - display: Encinas, Enrique
+      name: Enrique Encinas
+      slug: enrique-encinas
+      url: /people/enrique-encinas/
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    - display: Dolejšová, Markéta
+      name: Markéta Dolejšová
+    - display: Martinussen, Einar Sneve
+      name: Einar Sneve Martinussen
+    title: F@ck AI or else… A roundtable discussion on music and art among cursed
+      algorithms.
+    container: Lyse Netter.
+    details: House of Foundation, Moss.
+    abstract: 'AI keeps faking it until it makes it as infrastructure. Vibing effortlessly
+      with wearing language as interface for doomstyle hype, timewarping efficiency,
+      subscription-based fate and a long generative etc.
+
+      So, let''s talk about something else…
+
+      The roundtable moves between creative practice and research, speculation and
+      error, embodiment and idiocy. Beyond ritual denunciation or loving embrace,
+      we open a conversation about the pleasures, traps, politics, and odd possibilities
+      of working with these tools to learn (and act on) how they set the terms. As
+      the slogans dry out: how to resist, how to misuse, how to play inside systems
+      built to smooth everything into an average slop(py) shape. After the refusal,
+      after the fatigue, after the sales pitch and the creative ditch, what else?
+
+
+      Organized by AHO''s CRAITR research group'
+    full_text_url: https://hdl.handle.net/11250/5529846
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019eda892a16-08df6975-9b84-45f0-88f8-e7d69a0e0569
+  nva_url: https://nva.sikt.no/publication/019eda892a16-08df6975-9b84-45f0-88f8-e7d69a0e0569
 - title: Creativity and biology research
   year: '2026'
   type: Lecture

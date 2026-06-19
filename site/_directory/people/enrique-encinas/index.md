@@ -27,6 +27,19 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: F@ck AI or else… A roundtable discussion on music and art among cursed algorithms.
+  year: '2026'
+  source: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Enrique Encinas
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Markéta Dolejšová
+  - name: Einar Sneve Martinussen
 - title: 'Design Agentics :: Creative R&D x AI'
   year: '2026'
   source: Presentation
