@@ -9,7 +9,7 @@
     {% assign hidden_group = matched_result.group_type %}
   {% endif %}
 {% endif %}
-{% if hidden_group == 'Media' or hidden_group == 'Lecture' %}
+{% if hidden_group == 'Media' or hidden_group == 'Lecture' or hidden_group == 'Letter to the editor' %}
   {% assign person_result_visible = false %}
 {% else %}
   {% assign hidden_source = work.source %}
@@ -19,7 +19,7 @@
     {% endif %}
   {% endif %}
   {% case hidden_source %}
-    {% when 'Lecture', 'Presentation', 'Interview', 'Radio or TV', 'Blog post', 'Feature article', 'Reader opinion' %}
+    {% when 'Lecture', 'Presentation', 'Interview', 'Radio or TV', 'Blog post', 'Feature article', 'Reader opinion', 'Letter to the editor' %}
       {% assign person_result_visible = false %}
   {% endcase %}
 {% endif %}

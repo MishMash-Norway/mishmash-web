@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: eskil-muan-saether
 name: Eskil Muan Sæther
@@ -9,7 +10,8 @@ image: /assets/images/portraits/eskil_muan_saether_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
+projects:
+- the-mishmash-website
 roles:
 - Board Secretary
 urls:

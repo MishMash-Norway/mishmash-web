@@ -20,6 +20,7 @@ people:
 projects:
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
+- the-mishmash-website
 country: null
 city: null
 urls:

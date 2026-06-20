@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: eirik-sorbo
 name: Eirik Sørbø
@@ -12,6 +13,7 @@ institutions:
 projects:
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
+- the-mishmash-website
 other_projects:
 - title: CreateMe
   url: https://nva.sikt.no/projects/2591724

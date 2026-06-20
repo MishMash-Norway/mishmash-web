@@ -73,6 +73,26 @@ selected_works:
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/
   - name: Vilde Schanke Sundet
+- title: 'Joe Rogan v. Spotify: Platformization and worlds colliding'
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/13548565241253909
+  contributors:
+  - name: Terje Colbjørnsen
+    slug: terje-colbjornsen
+    url: /people/terje-colbjornsen/
+- title: Digital spilldistribusjon i folkebiblioteket. Hvordan spill som service utfordrer
+    tilbudet til norske folkebibliotek
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.55669/10.55669/oa420410
+  contributors:
+  - name: Madeléne Johansen
+  - name: Terje Colbjørnsen
+    slug: terje-colbjornsen
+    url: /people/terje-colbjornsen/
 - title: Curating collections in LAMs
   year: '2022'
   source: Book chapter
@@ -101,37 +121,13 @@ selected_works:
   - name: Terje Colbjørnsen
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/
-- title: Til orientering
+- title: 'The Janus Strategy: Launching a Norwegian ebook distribution service in
+    an internationalized publishing industry'
   year: '2012'
-  source: Letter to the editor
-  group_type: Letter to the editor
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.18848/1447-9516/cgp/v09i01/36920
   contributors:
-  - name: Helge Rønning
-  - name: Tore Slaatta
-  - name: Olav Torvund
-  - name: Håkon Larsen
-  - name: Terje Colbjørnsen
-    slug: terje-colbjornsen
-    url: /people/terje-colbjornsen/
-- title: En boklov for distriktene
-  year: '2012'
-  source: Letter to the editor
-  group_type: Letter to the editor
-  contributors:
-  - name: Helge Rønning
-  - name: Tore Slaatta
-  - name: Olav Torvund
-  - name: Håkon Larsen
-  - name: Terje Colbjørnsen
-    slug: terje-colbjornsen
-    url: /people/terje-colbjornsen/
-- title: E-bøker er med
-  year: '2012'
-  source: Letter to the editor
-  group_type: Letter to the editor
-  contributors:
-  - name: Håkon Larsen
-  - name: Helge Rønning
   - name: Terje Colbjørnsen
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/

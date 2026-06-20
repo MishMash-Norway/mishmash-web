@@ -21,6 +21,11 @@ class ExcludePersonProfileResultsTests(unittest.TestCase):
         self.assertFalse(exclude_from_person_profile("JournalArticle"))
         self.assertFalse(exclude_from_person_profile("PopularScienceArticle"))
 
+    def test_excludes_letters_to_the_editor(self):
+        self.assertTrue(exclude_from_person_profile("JournalLetter"))
+        self.assertTrue(exclude_from_person_profile(group_type="Letter to the editor"))
+        self.assertTrue(exclude_from_person_profile(source="Letter to the editor"))
+
 
 if __name__ == "__main__":
     unittest.main()

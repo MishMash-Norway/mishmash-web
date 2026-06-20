@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: carsten-griwodz
 name: Carsten Griwodz
@@ -10,6 +11,7 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects:
+- the-mishmash-website
 - when-creativity-meets-criticality
 roles:
 - Work Package Leader Group member

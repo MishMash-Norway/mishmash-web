@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: stefano-fasciani
 name: Stefano Fasciani
@@ -9,7 +10,8 @@ image: /assets/images/portraits/Stefano_Fasciani_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
+projects:
+- the-mishmash-website
 other_projects:
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602

@@ -81,11 +81,11 @@ selected_works:
   - name: Nina Grünfeld
     slug: nina-fredrikke-grunfeld
     url: /people/nina-fredrikke-grunfeld/
-- title: Vi har hørt det før - en artikkel om de norske IS-barna i Syria sett opp
-    mot de jødiske barnas beskyttelsesbehov i 1939.
-  year: '2019'
-  source: Letter to the editor
-  group_type: Letter to the editor
+- title: Frida - Egy magyar utcalány a történelem viharaiban
+  year: '2022'
+  source: Non-fiction book
+  group_type: Non-fiction book
+  url: https://www.lira.hu/hu/konyv/szepirodalom/felnottirodalom/regenyek/frida-egy-magyar-utcalany-a-tortenelem-viharaiban#
   contributors:
   - name: Nina Grünfeld
     slug: nina-fredrikke-grunfeld

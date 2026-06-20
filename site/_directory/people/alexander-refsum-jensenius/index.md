@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: alexander-refsum-jensenius
 name: Alexander Refsum Jensenius
@@ -9,7 +10,16 @@ image: /assets/images/portraits/Alexander_Refsum_Jensenius_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
+wps:
+- WP1
+- WP2
+- WP3
+- WP4
+- WP5
+- WP6
+- WP7
+projects:
+- the-mishmash-website
 other_projects:
 - title: Bodies in Concert
   url: https://nva.sikt.no/projects/2744062
@@ -182,12 +192,16 @@ selected_works:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: Tverrfaglighet gjør litt vondt
+- title: Inverse and indirect mappings in embodied AI systems in everyday environments
   year: '2026'
-  source: Letter to the editor
-  group_type: Letter to the editor
-  url: https://www.forskerforum.no/forskerlivet/mitt-tips-til-gjesteforskere-heng-ved-kaffemaskinen/
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.3389/fcomp.2025.1603769
   contributors:
+  - name: Maham Riaz
+  - name: Cagri Erdem
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/

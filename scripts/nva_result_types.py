@@ -22,10 +22,12 @@ MEDIA_GROUP_LABEL = "Media"
 PERSON_PROFILE_EXCLUDED_INSTANCE_TYPES = MEDIA_RESULT_TYPES | {
     "Lecture",
     "OtherPresentation",
+    "JournalLetter",
 }
 PERSON_PROFILE_EXCLUDED_GROUP_TYPES = {
     MEDIA_GROUP_LABEL,
     "Lecture",
+    "Letter to the editor",
 }
 
 # Curated labels for types we display or expect to encounter. Unknown types fall

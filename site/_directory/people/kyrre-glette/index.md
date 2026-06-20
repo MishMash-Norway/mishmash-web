@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: kyrre-glette
 name: Kyrre Glette
@@ -15,7 +16,8 @@ affiliation_units:
 - Department for Informatics
 - Machine Learning
 - Research Group for Robotics and Intelligent Systems
-projects: []
+projects:
+- the-mishmash-website
 other_projects:
 - title: Collaboration on Intelligent Machines 2 (COINMAC-2)
   url: https://nva.sikt.no/projects/2748297
