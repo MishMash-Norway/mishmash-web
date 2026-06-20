@@ -63,114 +63,80 @@ Communication in MishMash is a shared responsibility across the network.
 * Partners contribute content such as [news](/news/), [events](/events/), and [project](/projects/) updates
 * A central team coordinates overall communication and website development
 
-In practice, MishMash operates as a collaborative effort (“spleiselag”) where contributions from partners are essential.
+In practice, MishMash operates as a collaborative effort where contributions from partners are essential.
 
 </details>
 
 <details class="faq-item" id="how-can-i-contribute" markdown="1">
 <summary><span class="faq-summary-text">How can I contribute content to the website?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash relies on active contributions from its community.
+MishMash relies on active contributions from its community. You can contribute by:
 
-You can contribute by:
+* Submitting [news](/news/) or [events](/events/) to be automatically linked
+* Adding content to NVA and Orcid that will be automatically synced daily
+* Requesting access to contribute to the [GitHub repository](https://github.com/MishMash-Norway/mishmash-web) that the site is built from
 
-* Submitting [news](/news/), [events](/events/), or [project](/projects/) updates
-* Sharing links and materials for publication
-* Requesting access to contribute directly
-
-Content is not automatically aggregated—partners are encouraged to actively share what they want to be visible. Researchers listed in the [people directory](/search/?type=person) can also keep their profiles up to date via [NVA](https://nva.sikt.no/) or [ORCID](https://orcid.org/) links.
 
 </details>
 
 <details class="faq-item" id="what-are-meshups" markdown="1">
 <summary><span class="faq-summary-text">What are MeshUps?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MeshUps are short, regular online events designed for sharing ongoing work and ideas.
+MeshUps are short, weekly online events designed for sharing ongoing work and ideas. During the semesters, they run on Thursdays 12:00–12:30. They begin with a couple of minutes of information from the management team. This is followed by a 15-minute presentation and 10 minutes of Q&A. 
 
-* Typically around **30 minutes in total**
-* Include a short presentation followed by discussion
-* Open to the broader research community
-
-They provide a lightweight format for connecting across disciplines and institutions. Upcoming and past MeshUps are listed on the [events page](/events/).
+MeshUps provide a lightweight format for connecting across disciplines and institutions. Upcoming and past MeshUps are listed on the [events page](/events/).
 
 </details>
 
 <details class="faq-item" id="who-can-join-mishmash" markdown="1">
 <summary><span class="faq-summary-text">Who can join MishMash?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash includes several types of participants:
+MishMash connected institutions (partners) and people (members): 
 
-* **Core partners** ([institutions](/search/?type=institution) formally part of the centre)
-* **Associate partners** (institutions joining the network)
-* **Individual members** ([researchers](/search/?type=person) connected through work packages)
+* Partners are institutions (both research-performing and others) that have signed either the original consortium agreement or an associate partner agreement. Check the [institution list](/search/?type=institution) for an overview of connected partners. 
 
-The centre is continuously developing its network and welcomes new collaborations.
+* Members are individuals that have signed up for one or more work packages. Many are connected through institutions, but MishMash is also open for non-affiliated researchers. 
+
+The centre is continuously developing its network and welcomes new collaborations. It is a research consortium, but non-researchers are also welcome if they are interested in following the research activities.
 
 </details>
 
 <details class="faq-item" id="how-do-i-become-a-partner" markdown="1">
 <summary><span class="faq-summary-text">How do I become a partner or member?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Institutions and individuals can express interest in joining MishMash.
-
-* Contact the MishMash team at [contact@mishmash.no](mailto:contact@mishmash.no) for more information
-* You will receive details about roles, expectations, and next steps
-
-Participation typically involves contributing to work packages and collaborative activities.
+Institutions and individuals can express interest in joining MishMash by sending an e-mail to [contact@mishmash.no](mailto:contact@mishmash.no) for more information. You will then receive details about roles, expectations, and next steps. Participation typically involves contributing to work packages and collaborative activities.
 
 </details>
 
 <details class="faq-item" id="what-are-seed-funding-projects" markdown="1">
 <summary><span class="faq-summary-text">What are seed funding projects?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash supports smaller research initiatives through seed funding.
-
-* [Project pages](/projects/) are created based on submitted applications
-* These projects are presented on the MishMash website
-* Project leaders are responsible for verifying and updating their information
-
-Seed funding is intended to stimulate new collaborations and ideas within the network.
-
-</details>
-
-<details class="faq-item" id="what-kinds-of-activities" markdown="1">
-<summary><span class="faq-summary-text">What kinds of activities does MishMash organise?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
-
-MishMash hosts a wide range of activities, including:
-
-* Research presentations ([MeshUps](/events/))
-* Conferences and workshops
-* Calls for funding and project development
-* Collaborative meetings across work packages
-
-See [MishMash events](/events/), [partner events](/events/partner-events.html), and [news](/news/) for current activities. [Research results](/results/) from the centre are also published on the website.
+MishMash supports smaller research initiatives through seed funding announced internally in the centre regularly. See the [project pages](/projects/) for examples of ongoing projects.
 
 </details>
 
 <details class="faq-item" id="how-does-the-website-work" markdown="1">
 <summary><span class="faq-summary-text">How does the MishMash website work?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-The MishMash website is developed as a collaborative platform.
+The site is a [Jekyll](https://jekyllrb.com/) static website. Source code, content, and tooling live in the open [mishmash-web](https://github.com/MishMash-Norway/mishmash-web) repository on GitHub.
 
-* It is built as a **custom solution**, designed to evolve over time
-* It supports distributed contributions from across the network
-* It is intended to reflect the diversity of activities within the centre
+* **Build and publish:** Changes merged to the `main` branch are built automatically by [GitHub Actions](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/pages.yml) and published to [mishmash.no](https://mishmash.no/) via GitHub Pages
+* **Quality checks:** Pull requests are checked for broken links, directory consistency, and accessibility before merge
+* **Data sync:** Person profiles and research results can be updated nightly from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/) where linked
+* **Contributing:** Partners with repo access can propose edits via pull requests; see [CONTRIBUTING.md](https://github.com/MishMash-Norway/mishmash-web/blob/main/CONTRIBUTING.md) for what to edit locally
 
-Explore the [about section](/about/) ([people](/search/?type=person), [institutions](/search/?type=institution), [projects](/projects/), [results](/results/)), and [search](/search/) to find content across the site.
+Each page shows metadata at the bottom (last edit, licence, data sources, and a link to its source file on GitHub).
 
 </details>
 
 <details class="faq-item" id="what-is-expected-from-partners" markdown="1">
 <summary><span class="faq-summary-text">What is expected from partners?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Partners play an active role in shaping MishMash.
+Partners play an active role in shaping MishMash. Typical expectations include:
 
-Typical expectations include:
-
-* Participating in work packages
-* Contributing to communication and visibility
-* Sharing events, results, and activities
-* Supporting collaboration across the network
+* Participating with members (people) in work package actvities
+* Contributing to communication and visibility by sending information about relevant events that can be added to the [events page](/events/).
+* Supporting collaboration across the network and developing applications for MishMash-related projects.
 
 Many activities rely on shared effort across institutions, rather than central coordination alone.
 
@@ -179,12 +145,7 @@ Many activities rely on shared effort across institutions, rather than central c
 <details class="faq-item" id="are-events-open-to-the-public" markdown="1">
 <summary><span class="faq-summary-text">Are MishMash events open to the public?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Many MishMash activities are open:
-
-* MeshUps are typically open to a broad audience
-* Conferences and workshops may be open or targeted depending on context
-
-Details are provided for each [event](/events/) individually.
+Many MishMash activities are open, including the weekly MeshUps and conferences. See the [event page](/events/) for details. Work package events are typically reserved for partners and members. 
 
 </details>
 
