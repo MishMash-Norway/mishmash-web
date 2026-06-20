@@ -1,0 +1,867 @@
+_directory/institutions/_template/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/institutions/arctic-university-of-norway/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:11:15+02:00'
+_directory/institutions/australian-national-university/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T19:31:04+02:00'
+_directory/institutions/barratt-due-institute-of-music/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/bergen-center-for-electronic-arts/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/bi-norwegian-business-school/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:11:15+02:00'
+_directory/institutions/inland-norway-university-of-applied-sciences/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+_directory/institutions/kristiania-university-college/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:11:15+02:00'
+_directory/institutions/kulturtanken/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/motioncomposer-gmbh/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T22:42:35+02:00'
+_directory/institutions/national-library-of-norway/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:11:15+02:00'
+_directory/institutions/nla-university-college/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:11:15+02:00'
+_directory/institutions/nord-university/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:21:27+02:00'
+_directory/institutions/norsus-norwegian-institute-for-sustainability-research/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/norwegian-academy-of-music/index.md:
+  author: GitHub Actions
+  date: '2026-06-19T09:33:31+00:00'
+_directory/institutions/norwegian-university-of-science-and-technology/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:21:27+02:00'
+_directory/institutions/notam-norwegian-centre-for-technology-art-and-music/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T22:42:35+02:00'
+_directory/institutions/oslo-national-academy-of-the-arts/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/oslo-school-of-architecture-and-design/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/ostfold-university-college/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/reimagine/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T22:42:35+02:00'
+_directory/institutions/screenstory/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T22:42:35+02:00'
+_directory/institutions/simula-metropolitan-center-for-digital-engineering/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/sintef-digital/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/super-ponni/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T22:42:35+02:00'
+_directory/institutions/ultima-festival/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/uniarts-helsinki/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/university-of-agder/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-18T11:45:20+02:00'
+_directory/institutions/university-of-bergen/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-18T11:45:20+02:00'
+_directory/institutions/university-of-cambridge/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/university-of-iceland/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/university-of-manchester/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/university-of-melbourne/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T19:31:04+02:00'
+_directory/institutions/university-of-oslo/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/institutions/university-of-stavanger/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/institutions/western-norway-university-of-applied-sciences/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T23:19:45+02:00'
+_directory/people/_template/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-20T20:28:58+02:00'
+_directory/people/aedan-soellaart/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/alexander-refsum-jensenius/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/ali-ramezani-kebrya/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/anders-tveit/index.md:
+  author: GitHub Actions
+  date: '2026-06-20T08:24:19+00:00'
+_directory/people/andre-alexandersen-hauge/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/andreas-bergsland/index.md:
+  author: GitHub Actions
+  date: '2026-06-19T09:33:31+00:00'
+_directory/people/anna-maria-christodoulou/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/arnulf-mattes/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:40:00+02:00'
+_directory/people/arstein-justnes/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/audun-kvitland-rostad/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/people/baltasar-beferull-lozano/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/bente-aasheim/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-18T11:45:20+02:00'
+_directory/people/bjorn-tallak-bakken/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/budhaditya-chattopadhyay/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/cagri-erdem/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/carsten-griwodz/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:40:00+02:00'
+_directory/people/charles-martin/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/christian-blom/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/people/christian-schussler/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T21:40:22+02:00'
+_directory/people/claire-ghetti/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/clemens-cavallin/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/daniel-nordgard/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/daniel-peter-biro/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/diego-marin-bucio/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/eirik-sorbo/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-18T11:45:20+02:00'
+_directory/people/eivind-rossaak/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/enrique-encinas/index.md:
+  author: GitHub Actions
+  date: '2026-06-19T09:33:31+00:00'
+_directory/people/erik-johannes-husom/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/eskil-muan-saether/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:40:00+02:00'
+_directory/people/fredrik-graver/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-18T11:45:20+02:00'
+_directory/people/gabriele-de-seta/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/georgios-marentakis/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/gerard-hodgkinson/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/people/govert-valkenburg/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/gro-skaland/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/halldor-ulfarsson/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/people/hege-stensrud-hosoien/index.md:
+  author: GitHub Actions
+  date: '2026-06-19T09:33:31+00:00'
+_directory/people/heidi-partti/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/people/heloisa-amaral/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/people/henning-birkeland/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/hilda-deborah/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/ida-jahr/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/ingrid-chieh-yu/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/ingrid-romarheim-haugen/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/irina-eidsvold-toien/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/ivar-grydeland/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/jason-nelson/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-18T11:45:20+02:00'
+_directory/people/jens-knigge/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/jon-marius-aareskjold-drecker/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/jonna-vuoskoski/index.md:
+  author: GitHub Actions
+  date: '2026-06-19T09:33:31+00:00'
+_directory/people/jostein-gundersen/index.md:
+  author: GitHub Actions
+  date: '2026-06-20T08:24:19+00:00'
+_directory/people/juan-vassallo/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/kai-olav-ellefsen/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/kjetil-nordby/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/kyrre-glette/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/lars-nyre/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/lina-plataniti/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/lise-amy-hansen/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/lukas-erni/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T22:44:39+02:00'
+_directory/people/lyuba-boncheva/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/magda-osman/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/people/marit-wergeland/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/morten-qvenild/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/myrthe-tilleman/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/nina-fredrikke-grunfeld/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/ole-andreas-rognstad/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/ole-christian-solbakken/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/ole-christoffer-haga/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/ole-fredrik-norbye/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/ole-goethe/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/olivier-lartillot/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/oystein-eugene-hermstad/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/people/oystein-skaar/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/oystein-stene/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/oyvind-brandtsegg/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/peter-edwards/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/ragnhild-brovig/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/richard-gjems/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/robert-wechsler/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/people/sagar-sen/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/sascha-fruhholz/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/sashi-komandur/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-18T11:45:20+02:00'
+_directory/people/shayan-dadman/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/sidsel-karlsen/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-18T11:45:20+02:00'
+_directory/people/sigmund-trageton/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/sigurd-sandvold/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/stefano-fasciani/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/stephanie-von-spreter/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/stig-mathisen/index.md:
+  author: GitHub Actions
+  date: '2026-06-19T09:33:31+00:00'
+_directory/people/sunniva-whittaker/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/susanne-o-saether/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/sven-arne-reinemo/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:40:00+02:00'
+_directory/people/synne-tollerud-bull/index.md:
+  author: GitHub Actions
+  date: '2026-06-19T09:33:31+00:00'
+_directory/people/tejaswinee-kelkar/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/terje-colbjornsen/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/terje-gaustad/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/thomas-de-ridder/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T21:40:22+02:00'
+_directory/people/thor-magnusson/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:21:27+02:00'
+_directory/people/tine-grieg-viig/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/tiril-schroder/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/tommy-aase/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/people/tonje-louise-finne/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/tor-martin-norvik/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/people/trine-wester/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/troels-linde/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/victoria-johnson/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/viggo-tellefsen-wivestad/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/vincenzo-madaghiele/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/yngvil-beyer/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/people/zacharias-andreadakis/index.md:
+  author: GitHub Actions
+  date: '2026-06-18T09:18:29+00:00'
+_directory/projects/ai-as-environment/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/projects/ai-assisted-film-production-vita-vigeland/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+_directory/projects/ai-integration-film-tv-education/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/projects/archival-intelligence/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/projects/bingo-ai-assisted-animation-documentary-film/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+_directory/projects/copyright-and-personality-rights-ai-era/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/projects/environmental-sustainability-mishmash/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:37:06+02:00'
+_directory/projects/evaluation-cultural-bias-workflow-ai-music-generation/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/projects/human-machine-consciousness/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/projects/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T21:40:22+02:00'
+_directory/projects/intensifying-brain-pleasure-responses-music/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:37:06+02:00'
+_directory/projects/ki-i-kunstnerisk-utdanning-og-praksis/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/projects/movement-to-music-hackathon/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/projects/musical-doppelgangers/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:37:06+02:00'
+_directory/projects/rhyglyph-rhydiff-rhyseq/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/projects/scoping-review-creative-ai-teaching-learning/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+_directory/projects/strategic-storyteller/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+_directory/projects/tao-transductive-acoustic-organism/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+_directory/projects/teacher-resources-critical-ai-literacy/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+_directory/projects/tool-for-tools/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+_directory/projects/trondheim-kreativ-ai/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:58:15+02:00'
+_directory/projects/when-creativity-meets-criticality/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+_events/2025-12-03-quantum_music.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:37:06+02:00'
+_events/2026-01-29-meshup01.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:37:06+02:00'
+_events/2026-02-05-meshup02.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_events/2026-02-12-meshup03.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_events/2026-02-19-meshup04.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:37:06+02:00'
+_events/2026-02-26-meshup05.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_events/2026-03-05-meshup06.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_events/2026-03-12-meshup07.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_events/2026-03-19-meshup08.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_events/2026-03-26-meshup09.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_events/2026-04-08-aulaen.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+_events/2026-04-08-domus.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+_events/2026-04-08-hackathon.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+_events/2026-04-08-research-workshop.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+_events/2026-04-08-umuliges-kunst.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+_events/2026-04-16-meshup10.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_events/2026-04-21-wp4-webinar.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:12:14+02:00'
+_events/2026-04-23-meshup11.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_events/2026-04-30-meshup12.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_events/2026-05-07-meshup13.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:37:06+02:00'
+_events/2026-05-21-meshup14.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_events/2026-05-28-meshup15.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:37:06+02:00'
+_events/2026-06-04-meshup16.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:37:06+02:00'
+_events/2026-06-11-meshup17.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:37:06+02:00'
+_events/2026-06-16-wp4-webinar02.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:37:06+02:00'
+_events/2026-06-18-meshup18.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_events/2026-06-19-wp1-webinar.md:
+  author: kyrre2000
+  date: '2026-06-19T10:16:21+02:00'
+_events/2026-08-20-meshup19.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:37:06+02:00'
+_events/2026-08-27-meshup20.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-09-03-meshup21.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-09-10-meshup22.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-09-14-kristiansand.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-08T09:08:35+02:00'
+_events/2026-09-17-meshup23.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-09-24-meshup24.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-10-01-meshup25.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-10-08-meshup26.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-10-15-meshup27.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-10-22-meshup28.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-10-29-meshup29.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-11-05-meshup30.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-11-12-meshup31.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-11-19-meshup32.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-11-26-meshup33.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_events/2026-12-03-meshup34.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+_news/2026-01-21-administrative-coordinator.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+_news/2026-03-16-council-appointed.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+_news/2026-03-27-board-appointed.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+_news/2026-04-09-opening.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+about/description/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+about/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:01:12+02:00'
+about/organisation/board/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+about/organisation/board/meetings/2026-04-10/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+about/organisation/board/meetings/2026-06-26/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-18T14:15:20+02:00'
+about/organisation/council/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+about/organisation/council/meetings/2026-04-30/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+about/organisation/council/meetings/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+about/organisation/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+about/organisation/management/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+about/organisation/scientific-advisory-board/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+about/organisation/stakeholder-board/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+about/organisation/wp-leaders/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T19:51:33+02:00'
+accessibility/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+chat/index.html:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+events/index.html:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T20:56:44+02:00'
+events/other_events.html:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+events/partner-events.html:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+faq/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-20T20:28:58+02:00'
+gallery/bubbles/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:01:12+02:00'
+internal/acknowledgment/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/funding/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/funding/opportunities/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/funding/seed-funding/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/funding/seed-funding/seed01/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-18T11:46:42+02:00'
+internal/funding/seed-funding/seed02/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/meshups/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/qr-code/index.html:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/wp1/index.md:
+  author: kyrre2000
+  date: '2026-06-19T11:10:39+02:00'
+internal/wp2/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/wp3/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/wp4/documents/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/wp4/events/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/wp4/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/wp4/non-academic-partners/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/wp4/organisations/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/wp4/phd/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/wp4/projects/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T19:31:04+02:00'
+internal/wp4/researchers/index.md:
+  author: EirikSorbo
+  date: '2026-06-09T09:43:01+02:00'
+internal/wp4/wp-leaders/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+internal/wp5/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/wp6/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+internal/wp7/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+news/index.html:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+no/about/description/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+no/about/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:01:12+02:00'
+no/about/organisation/board/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-14T23:26:10+02:00'
+no/about/organisation/council/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+no/about/organisation/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-05T19:14:11+02:00'
+no/about/organisation/management/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+no/about/organisation/scientific-advisory-board/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-05T19:14:11+02:00'
+no/about/organisation/stakeholder-board/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-05T19:14:11+02:00'
+no/about/organisation/wp-leaders/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T19:51:33+02:00'
+no/accessibility/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-05T18:05:21+02:00'
+no/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-19T12:29:54+02:00'
+no/privacy/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-05T19:14:11+02:00'
+no/results/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-05T19:14:11+02:00'
+people/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+people/network/index.html:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-16T22:48:12+02:00'
+privacy/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:36:08+02:00'
+results/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-03T23:48:20+02:00'
+search/index.html:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:01:12+02:00'
+vacancies/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-17T22:29:21+02:00'
+wp1/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:34:46+02:00'
+wp2/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:34:46+02:00'
+wp3/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:34:46+02:00'
+wp4/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:34:46+02:00'
+wp5/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:34:46+02:00'
+wp6/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:34:46+02:00'
+wp7/index.md:
+  author: Alexander Refsum Jensenius
+  date: '2026-06-15T20:34:46+02:00'

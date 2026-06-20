@@ -1088,15 +1088,65 @@ a:focus-visible .icon {
   color: #55606a;
 }
 
-.page-about-heading {
+.page-about-summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
   margin: 0 0 0.85rem;
   font-size: 1rem;
   font-weight: 700;
   color: #333;
+  user-select: none;
+}
+
+.page-about:not([open]) .page-about-summary {
+  margin-bottom: 0;
+}
+
+.page-about-summary::-webkit-details-marker {
+  display: none;
+}
+
+.page-about-summary:hover,
+.page-about-summary:focus-visible {
+  color: #159957;
+}
+
+.page-about-summary-text {
+  flex: 1 1 auto;
+}
+
+.page-about-expand-icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.1em;
+  height: 1.1em;
+  font-size: 0.8rem;
+  color: #55606a;
+  border: 1px solid #c1c9d2;
+  border-radius: 3px;
+  background: #f8f9fb;
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.page-about-summary:hover .page-about-expand-icon,
+.page-about-summary:focus-visible .page-about-expand-icon {
+  border-color: #A7A1F4;
+  color: #4a4580;
+}
+
+.page-about[open] .page-about-expand-icon {
+  transform: rotate(90deg);
 }
 
 .page-about-list {
   margin: 0;
+  padding-top: 0.15rem;
 }
 
 .page-about-item {
@@ -1118,6 +1168,21 @@ a:focus-visible .icon {
 
 .page-about-item dd {
   margin: 0;
+}
+
+.page-about-privacy-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-about-privacy-link:hover,
+.page-about-privacy-link:focus-visible {
+  text-decoration: underline;
+}
+
+.page-about-privacy-link:hover .page-about-privacy,
+.page-about-privacy-link:focus-visible .page-about-privacy {
+  color: inherit;
 }
 
 .page-about-privacy {

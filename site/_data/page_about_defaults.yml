@@ -1,7 +1,11 @@
 copyright:
   label: "CC BY 4.0"
-  url: "https://creativecommons.org/licenses/by/4.0/"
+  url: "https://creativecommons.org/licenses/by/4.0/deed.en"
+github_repo: "https://github.com/MishMash-Norway/mishmash-web"
+github_branch: "main"
+source_root: "site"
 privacy: green
+privacy_guide_url: "https://www.uio.no/english/for-employees/support/research/funding/units/hf/imv/data-ethics/colors.html"
 privacy_labels:
   green: "Green"
   yellow: "Yellow"

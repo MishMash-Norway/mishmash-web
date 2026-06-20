@@ -6,6 +6,9 @@
 {% assign meta = page.page_about | default: page.about_page | default: empty %}
 
 {% assign last_edited = meta.last_edited | default: page.last_edited %}
+{% assign git_meta = site.data.page_git_meta[page.path] %}
+{% assign last_edited_date = last_edited.date | default: git_meta.date %}
+{% assign last_edited_by = last_edited.by | default: git_meta.author %}
 
 {% assign copyright_meta = meta.copyright %}
 {% if copyright_meta.label or copyright_meta.url %}
@@ -31,6 +34,7 @@
   {% assign privacy_note = nil %}
 {% endif %}
 {% assign privacy_label = defaults.privacy_labels[privacy_level] | default: privacy_level %}
+{% assign privacy_guide_url = meta.privacy_guide_url | default: defaults.privacy_guide_url %}
 
 {% assign ai_meta = meta.ai_support | default: page.ai_support %}
 {% if ai_meta == empty %}
@@ -47,17 +51,32 @@
 
 {% assign source_override = meta.data_sources | default: page.data_sources %}
 
-<section class="page-about" aria-label="{{ t.page_about_heading }}">
-  <h2 class="page-about-heading">{{ t.page_about_heading }}</h2>
+{% assign github_repo = meta.github_repo | default: defaults.github_repo | default: site.github.repository_url %}
+{% assign github_branch = meta.github_branch | default: defaults.github_branch | default: site.github.branch | default: 'main' %}
+{% assign github_source_root = meta.source_root | default: defaults.source_root | default: 'site' %}
+{% assign github_source_path = meta.github_path | default: page.path %}
+{% if meta.github_url %}
+  {% assign github_source_url = meta.github_url %}
+{% elsif github_repo and github_source_path %}
+  {% assign github_source_url = github_repo | append: '/blob/' | append: github_branch | append: '/' | append: github_source_root | append: '/' | append: github_source_path %}
+{% else %}
+  {% assign github_source_url = nil %}
+{% endif %}
+
+<details class="page-about" id="page-about">
+  <summary class="page-about-summary">
+    <span class="page-about-summary-text">{{ t.page_about_heading }}</span>
+    <span class="page-about-expand-icon" aria-hidden="true">▸</span>
+  </summary>
   <dl class="page-about-list">
     <div class="page-about-item">
       <dt>{{ t.page_about_last_edited }}</dt>
       <dd>
-        {% if last_edited.date %}
-          <time datetime="{{ last_edited.date | date: '%Y-%m-%d' }}">{{ last_edited.date | date: "%-d %B %Y" }}</time>
-          {% if last_edited.by %} · {{ last_edited.by }}{% endif %}
-        {% elsif last_edited.by %}
-          {{ last_edited.by }}
+        {% if last_edited_date %}
+          <time datetime="{{ last_edited_date | date: '%Y-%m-%d' }}">{{ last_edited_date | date: "%-d %B %Y" }}</time>
+          {% if last_edited_by %} · {{ last_edited_by }}{% endif %}
+        {% elsif last_edited_by %}
+          {{ last_edited_by }}
         {% elsif page.date and page.layout == 'event' %}
           <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%-d %B %Y" }}</time>
         {% else %}
@@ -65,6 +84,15 @@
         {% endif %}
       </dd>
     </div>
+
+    {% if github_source_url %}
+    <div class="page-about-item">
+      <dt>{{ t.page_about_source_code }}</dt>
+      <dd>
+        <a href="{{ github_source_url }}" target="_blank" rel="noopener noreferrer">{{ t.page_about_view_on_github }}</a>
+      </dd>
+    </div>
+    {% endif %}
 
     <div class="page-about-item">
       <dt>{{ t.page_about_copyright }}</dt>
@@ -80,10 +108,12 @@
     <div class="page-about-item">
       <dt>{{ t.page_about_privacy }}</dt>
       <dd>
-        <span class="page-about-privacy page-about-privacy--{{ privacy_level | downcase }}">
-          <span class="page-about-privacy-dot" aria-hidden="true"></span>
-          {{ privacy_label }}
-        </span>
+        <a href="{{ privacy_guide_url }}" class="page-about-privacy-link" target="_blank" rel="noopener noreferrer" title="{{ t.page_about_privacy_guide }}">
+          <span class="page-about-privacy page-about-privacy--{{ privacy_level | downcase }}">
+            <span class="page-about-privacy-dot" aria-hidden="true"></span>
+            {{ privacy_label }}
+          </span>
+        </a>
         {% if privacy_note %}<span class="page-about-note"> — {{ privacy_note }}</span>{% endif %}
       </dd>
     </div>
@@ -162,5 +192,5 @@
     </div>
     {% endif %}
   </dl>
-</section>
+</details>
 {% endif %}
