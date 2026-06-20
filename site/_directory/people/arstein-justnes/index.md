@@ -42,56 +42,6 @@ selected_works:
   - name: Årstein Justnes
     slug: arstein-justnes
     url: /people/arstein-justnes/
-- title: Dødehavsrullene – de eldgamle manuskriptene og de falske fragmentene
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Årstein Justnes
-    slug: arstein-justnes
-    url: /people/arstein-justnes/
-- title: How Much Can a Researcher Actually Research? Capacity, Attention, and Limits
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Årstein Justnes
-    slug: arstein-justnes
-    url: /people/arstein-justnes/
-- title: "UiA får to nye Marie Curie-stipendiater\n - Universitetet i Agder"
-  year: '2026'
-  source: Interview
-  group_type: Media
-  url: https://www.uia.no/om-uia/nyheter/uia-far-to-nye-marie-curie-stipendiater.html
-  contributors:
-  - name: Walter Norman Wehus
-  - name: Årstein Justnes
-    slug: arstein-justnes
-    url: /people/arstein-justnes/
-- title: DEADSEAREous – et nytt forskningsprosjekt
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Årstein Justnes
-    slug: arstein-justnes
-    url: /people/arstein-justnes/
-- title: Introduksjon til seminaret
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Årstein Justnes
-    slug: arstein-justnes
-    url: /people/arstein-justnes/
-- title: Introduction
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Årstein Justnes
-    slug: arstein-justnes
-    url: /people/arstein-justnes/
 - title: Ad fontes! Ad fragmenta! Reinventing the Dead Sea Scrolls
   year: '2025'
   source: Conference lecture
@@ -109,6 +59,55 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1163/15685179-bja10052
+  contributors:
+  - name: Årstein Justnes
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
+- title: Dødehavsrullene i bilder - og i endring
+  year: '2021'
+  source: Research report
+  group_type: Research report
+  contributors:
+  - name: Årstein Justnes
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
+  - name: Martin S. Stomnås
+- title: Dødehavsrullene: hemmeligheten(e) i hulen(e)
+  year: '2014'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Årstein Justnes
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
+- title: Retreat med minfulness
+  year: '2013'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Årstein Justnes
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
+- title: Bibelen - mellom hellig skrift og stor litteratur
+  year: '2013'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Årstein Justnes
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
+- title: 'Kunsten å være nybegynner: En bok om mindfulness/oppmerksomhetstrening'
+  year: '2013'
+  source: Working paper
+  group_type: Working paper
+  contributors:
+  - name: Årstein Justnes
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
+- title: Språksituasjonen i Palestina i det første århundre e. Kr
+  year: '1999'
+  source: Working paper
+  group_type: Working paper
   contributors:
   - name: Årstein Justnes
     slug: arstein-justnes

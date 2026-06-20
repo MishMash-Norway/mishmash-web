@@ -19,17 +19,21 @@
       {% endunless %}
     {% endfor %}
   {% endif %}
-  {% include nva-resolve-result-type.html work=work matched_result=matched_result %}
-  {% assign type_name = resolved_result_type %}
-  {% assign type_slug = type_name | slugify %}
-  {% assign slug_marker = "|" | append: type_slug | append: "|" %}
-  {% unless ordered_type_slugs contains slug_marker %}
-    {% assign ordered_type_slugs = ordered_type_slugs | append: slug_marker %}
-    {% assign ordered_type_names = ordered_type_names | append: type_name | append: "%%" %}
-  {% endunless %}
-  {% assign person_work_count = person_work_count | plus: 1 %}
+  {% include nva-person-result-visible.html work=work matched_result=matched_result %}
+  {% if person_result_visible %}
+    {% include nva-resolve-result-type.html work=work matched_result=matched_result %}
+    {% assign type_name = resolved_result_type %}
+    {% assign type_slug = type_name | slugify %}
+    {% assign slug_marker = "|" | append: type_slug | append: "|" %}
+    {% unless ordered_type_slugs contains slug_marker %}
+      {% assign ordered_type_slugs = ordered_type_slugs | append: slug_marker %}
+      {% assign ordered_type_names = ordered_type_names | append: type_name | append: "%%" %}
+    {% endunless %}
+    {% assign person_work_count = person_work_count | plus: 1 %}
+  {% endif %}
 {% endfor %}
 
+{% if person_work_count > 0 %}
 {% assign type_name_list = ordered_type_names | split: "%%" %}
 {% include nva-order-result-types.html types=type_name_list %}
 {% assign type_name_list = ordered_type_names %}
@@ -62,10 +66,13 @@
               {% endunless %}
             {% endfor %}
           {% endif %}
-          {% include nva-resolve-result-type.html work=work matched_result=matched_result %}
-          {% assign work_type_name = resolved_result_type %}
-          {% if work_type_name == type_name %}
-            {% assign type_count = type_count | plus: 1 %}
+          {% include nva-person-result-visible.html work=work matched_result=matched_result %}
+          {% if person_result_visible %}
+            {% include nva-resolve-result-type.html work=work matched_result=matched_result %}
+            {% assign work_type_name = resolved_result_type %}
+            {% if work_type_name == type_name %}
+              {% assign type_count = type_count | plus: 1 %}
+            {% endif %}
           {% endif %}
         {% endfor %}
         <button type="button" class="filter-chip nva-filter-chip" data-filter="{{ type_slug }}">
@@ -102,15 +109,18 @@
               {% endunless %}
             {% endfor %}
           {% endif %}
-          {% include nva-resolve-result-type.html work=work matched_result=matched_result %}
-          {% assign work_type_name = resolved_result_type %}
-          {% if work_type_name == type_name %}
-            {% assign group_index = group_index | plus: 1 %}
-            {% assign card_id = 'abstract-person-' | append: page.slug | append: '-' | append: type_slug | append: '-' | append: group_index %}
-            {% if matched_result %}
-              {% include nva-result-card.html result=matched_result card_id=card_id fallback_name=page.name fallback_url=page.url %}
-            {% else %}
-              {% include nva-result-card.html work=work card_id=card_id fallback_name=page.name fallback_url=page.url %}
+          {% include nva-person-result-visible.html work=work matched_result=matched_result %}
+          {% if person_result_visible %}
+            {% include nva-resolve-result-type.html work=work matched_result=matched_result %}
+            {% assign work_type_name = resolved_result_type %}
+            {% if work_type_name == type_name %}
+              {% assign group_index = group_index | plus: 1 %}
+              {% assign card_id = 'abstract-person-' | append: page.slug | append: '-' | append: type_slug | append: '-' | append: group_index %}
+              {% if matched_result %}
+                {% include nva-result-card.html result=matched_result card_id=card_id fallback_name=page.name fallback_url=page.url %}
+              {% else %}
+                {% include nva-result-card.html work=work card_id=card_id fallback_name=page.name fallback_url=page.url %}
+              {% endif %}
             {% endif %}
           {% endif %}
         {% endfor %}
@@ -184,4 +194,5 @@
   applyFilter('all');
 })();
 </script>
+{% endif %}
 {% endif %}

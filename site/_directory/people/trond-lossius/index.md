@@ -75,16 +75,6 @@ selected_works:
   - name: Trond Lossius
     slug: trond-lossius
     url: /people/trond-lossius/
-- title: 'Plattform: Anawana Haloba in conversation with Trond Lossius'
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  url: https://www.kunsthall.no/en/events/3314-2026-05-30/
-  contributors:
-  - name: Annie Anawana Haloba Hobøl
-  - name: Trond Lossius
-    slug: trond-lossius
-    url: /people/trond-lossius/
 - title: Filmbildet og den lange tagningen
   year: '2026'
   source: Artistic degree phd
@@ -93,27 +83,6 @@ selected_works:
   contributors:
   - name: Cecilie Semec Mikkelson
   - name: Kjell Vassdal
-  - name: Trond Lossius
-    slug: trond-lossius
-    url: /people/trond-lossius/
-- title: Kunstnersamtale i forbindelse med utstillingen "Lengsel etter den andre"
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  url: https://www.gallerinn.no/utstilling/lengsel-etter-den-andre/
-  contributors:
-  - name: Ingeborg Annie Lindahl
-  - name: Marte Huke
-  - name: Trond Lossius
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: Hanne Hammer Stien
-- title: Presenting artistic research PhD outcomes as expositions in the Research
-    Catalogue
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  contributors:
   - name: Trond Lossius
     slug: trond-lossius
     url: /people/trond-lossius/
@@ -127,16 +96,6 @@ selected_works:
   - name: Trond Lossius
     slug: trond-lossius
     url: /people/trond-lossius/
-- title: Kunstnersamtale
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Ingeborg Annie Lindahl
-  - name: Trond Lossius
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: Gunhild Lien
 - title: Whales Surround Us (Concert Version)
   year: '2025'
   source: Music performance
@@ -175,6 +134,51 @@ selected_works:
     slug: trond-lossius
     url: /people/trond-lossius/
   - name: David Rothenberg
+- title: 'Whalesound 2: Who Knows Why Whales Sing?'
+  year: '2025'
+  source: Other artistic output
+  group_type: Other artistic output
+  url: https://luma.com/7qowriw9
+  contributors:
+  - name: David Rothenberg
+  - name: Bjarne Kvinnsland
+  - name: Trond Lossius
+    slug: trond-lossius
+    url: /people/trond-lossius/
+- title: 'Whalesound 1: Humpback Whale Meditation Session'
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  url: https://luma.com/dp73kjej
+  contributors:
+  - name: David Rothenberg
+  - name: Bjarne Kvinnsland
+  - name: Trond Lossius
+    slug: trond-lossius
+    url: /people/trond-lossius/
+- title: 'Whalesound 3: Whales Surround Us (Concert Version)'
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  url: https://luma.com/2w777u1o
+  contributors:
+  - name: Bjarne Kvinnsland
+  - name: Trond Lossius
+    slug: trond-lossius
+    url: /people/trond-lossius/
+  - name: David Rothenberg
+- title: Open seminar for INN’s Research Programme in AI & VR/AR
+  year: '2025'
+  source: Exhibition
+  group_type: Exhibition
+  contributors:
+  - name: Trond Lossius
+    slug: trond-lossius
+    url: /people/trond-lossius/
+  - name: Therese Næss Diesen
+  - name: Gunn Tove Grønsberg
+  - name: James Welburn
+  - name: Stein Tore Sønsteli
 source_mentions: []
 summary: "Trond Lossius is a sound and installation artist based in Bergen, Norway.\
   \ His projects investigate sound, place and space, using sound spatialisation and\

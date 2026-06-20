@@ -12,7 +12,12 @@ import requests
 import yaml
 from PIL import Image
 
-from nva_result_types import nva_publication_instance_type, nva_publication_source, result_group_type
+from nva_result_types import (
+    exclude_from_person_profile,
+    nva_publication_instance_type,
+    nva_publication_source,
+    result_group_type,
+)
 from nva_publication_contributors import build_person_lookup, build_result_contributors
 from repo_paths import REPO_ROOT, SITE_ROOT
 
@@ -614,50 +619,68 @@ def nva_selected_works(
     max_works: int,
     person_lookup: dict[str, dict[str, str]] | None = None,
 ) -> list[dict[str, str]]:
-    response = requests.get(
-        nva_api_url("/search/resources"),
-        params={"contributor": profile_id, "results": max(max_works * 3, 30)},
-        headers=_nva_request_headers,
-        timeout=30,
-    )
-    response.raise_for_status()
     works = []
-    seen = set()
+    seen: set[str] = set()
+    from_offset = 0
 
-    for hit in response.json().get("hits") or []:
-        entity = hit.get("entityDescription") or {}
-        title = localized_text(entity.get("mainTitle"))
-        if not title:
-            continue
-        key = title.lower()
-        if key in seen:
-            continue
-        seen.add(key)
+    while len(works) < max_works:
+        response = requests.get(
+            nva_api_url("/search/resources"),
+            params={"contributor": profile_id, "size": NVA_SEARCH_PAGE_SIZE, "from": from_offset},
+            headers=_nva_request_headers,
+            timeout=30,
+        )
+        response.raise_for_status()
+        payload = response.json()
+        hits = payload.get("hits") or []
+        if not hits:
+            break
 
-        publication_date = entity.get("publicationDate") or {}
-        year = ""
-        if isinstance(publication_date, dict):
-            year = normalize_publication_year(publication_date.get("year"))
+        for hit in hits:
+            entity = hit.get("entityDescription") or {}
+            title = localized_text(entity.get("mainTitle"))
+            if not title:
+                continue
+            key = title.lower()
+            if key in seen:
+                continue
 
-        work = {"title": title}
-        if year:
-            work["year"] = year
-        reference = entity.get("reference") or {}
-        instance_type = nva_publication_instance_type(reference)
-        source = nva_publication_source(reference)
-        if source:
-            work["source"] = source
-        group_type = result_group_type(instance_type)
-        if group_type:
-            work["group_type"] = group_type
-        url = nva_publication_url(hit)
-        if url:
-            work["url"] = url
-        if person_lookup is not None:
-            contributors = build_result_contributors(entity, person_lookup)
-            if contributors:
-                work["contributors"] = contributors
-        works.append(work)
+            reference = entity.get("reference") or {}
+            instance_type = nva_publication_instance_type(reference)
+            group_type = result_group_type(instance_type)
+            source = nva_publication_source(reference)
+            if exclude_from_person_profile(instance_type, group_type=group_type, source=source):
+                continue
+
+            seen.add(key)
+
+            publication_date = entity.get("publicationDate") or {}
+            year = ""
+            if isinstance(publication_date, dict):
+                year = normalize_publication_year(publication_date.get("year"))
+
+            work = {"title": title}
+            if year:
+                work["year"] = year
+            if source:
+                work["source"] = source
+            if group_type:
+                work["group_type"] = group_type
+            url = nva_publication_url(hit)
+            if url:
+                work["url"] = url
+            if person_lookup is not None:
+                contributors = build_result_contributors(entity, person_lookup)
+                if contributors:
+                    work["contributors"] = contributors
+            works.append(work)
+            if len(works) >= max_works:
+                break
+
+        from_offset += len(hits)
+        total_hits = payload.get("totalHits") or 0
+        if from_offset >= total_hits:
+            break
 
     works.sort(key=work_sort_key, reverse=True)
     return works[:max_works]
@@ -1182,6 +1205,8 @@ def orcid_selected_works(orcid_id: str, max_works: int) -> list[dict[str, str]]:
 
         year = orcid_text_value((summary.get("publication-date") or {}).get("year"))
         source = orcid_text_value(summary.get("journal-title")) or orcid_text_value(summary.get("type"))
+        if exclude_from_person_profile(source=source):
+            continue
         url = choose_orcid_work_url(summary, group)
 
         work = {"title": title}

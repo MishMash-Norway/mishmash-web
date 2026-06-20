@@ -34,22 +34,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: 'Samfunnsrelevans på spill: Kunstnerisk utviklingsarbeid i dagens utdanningspolitikk'
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  url: https://www.researchcatalogue.net/view/2421554/3524484
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Morten Qvenild
-    slug: morten-qvenild
-    url: /people/morten-qvenild/
-  - name: Jostein Gundersen
-    slug: jostein-gundersen
-    url: /people/jostein-gundersen/
-  - name: Linda Herfindal Lien
 - title: Samspill mellom høyere musikkutdanning og kunstnerisk utviklingsarbeid
   year: '2021'
   source: Non-fiction chapter

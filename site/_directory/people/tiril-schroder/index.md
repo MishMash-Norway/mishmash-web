@@ -66,58 +66,67 @@ selected_works:
   - name: Tiril Schrøder
     slug: tiril-schroder
     url: /people/tiril-schroder/
-- title: Enkelttegninger
-  year: '2023'
+- title: Gjennom landskap
+  year: '2022'
   source: Visual arts
   group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder
     url: /people/tiril-schroder/
-- title: Dorè GIF
-  year: '2023'
+- title: Undersøkelse av digitale tegneverktøy - strektester
+  year: '2021'
   source: Visual arts
   group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder
     url: /people/tiril-schroder/
-- title: 'Between the pen and the line: Digital drawing and the feeling of alienation
-    and distance'
-  year: '2023'
-  source: Professional article
-  group_type: Professional article
-  url: https://impact-journal-cfpr.uwe.ac.uk/index.php/impact/article/view/116/98
+- title: Rapport fra Research Lab høst 2020
+  year: '2021'
+  source: Report
+  group_type: Report
   contributors:
+  - name: Trine Wester
+    slug: trine-wester
+    url: /people/trine-wester/
   - name: Tiril Schrøder
     slug: tiril-schroder
     url: /people/tiril-schroder/
-- title: 3 små krysskraveringer
-  year: '2023'
+  - name: Karen Disen
+- title: 3rd International Academic Printmaking Alliance (IAPA) Biennial and Academic
+    Symposium
+  year: '2020'
   source: Visual arts
   group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder
     url: /people/tiril-schroder/
-- title: '"Gjenfortellinger av Flintoe" fra en lengre serie'
-  year: '2023'
-  source: Visual arts
-  group_type: Visual arts
+- title: Trykk fra serien "Gjenfortellinger" s.254
+  year: '2020'
+  source: Popular science chapter
+  group_type: Popular science chapter
   contributors:
   - name: Tiril Schrøder
     slug: tiril-schroder
     url: /people/tiril-schroder/
-- title: Animated Gargoyleface
-  year: '2023'
-  source: Visual arts
-  group_type: Visual arts
+- title: Our digital selves
+  year: '2016'
+  source: Book anthology
+  group_type: Book anthology
   contributors:
+  - name: Francis Robertson
+  - name: Trine Wester
+    slug: trine-wester
+    url: /people/trine-wester/
+  - name: Hege Bratsberg
   - name: Tiril Schrøder
     slug: tiril-schroder
     url: /people/tiril-schroder/
-- title: Voiceless
-  year: '2023'
+  - name: Karen Disen
+- title: Storyline
+  year: '2013'
   source: Visual arts
   group_type: Visual arts
   contributors:

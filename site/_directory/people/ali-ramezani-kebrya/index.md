@@ -90,6 +90,8 @@ selected_works:
   - name: Anam Javaid
   - name: Michael Solvang
   - name: Stefano Nichele
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
   - name: Michael Riegler
   - name: Bjørn-Jostein Singstad
   - name: Baltasar Beferull-Lozano
@@ -239,18 +241,19 @@ selected_works:
   - name: Ali Ramezani-Kebrya
     slug: ali-ramezani-kebrya
     url: /people/ali-ramezani-kebrya/
-- title: Addressing Label Shift in Distributed Learning via Entropy Regularization​
-  year: '2025'
+- title: Federated Learning under Covariate Shifts with Generalization Guarantees
+  year: '2023'
   source: Journal article
   group_type: Journal article
+  url: https://openreview.net/pdf?id=N7lCDaeNiS
   contributors:
-  - name: Zhiyuan Wu
-  - name: Changkyu Choi
-  - name: Xiangcheng Cao
-  - name: Volkan Cevher
   - name: Ali Ramezani-Kebrya
     slug: ali-ramezani-kebrya
     url: /people/ali-ramezani-kebrya/
+  - name: Fanghui Liu
+  - name: Thomas Pethick
+  - name: Grigorios Chrysos
+  - name: Volkan Cevher
 source_mentions: []
 wps:
 - WP1

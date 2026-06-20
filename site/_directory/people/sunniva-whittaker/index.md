@@ -28,18 +28,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Panelsamtale om språk og arbeid
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Verónica Pájaro
-  - name: Sunniva Whittaker
-    slug: sunniva-whittaker
-    url: /people/sunniva-whittaker/
-  - name: Kamilla Kraft
-  - name: Charlotte Sun Jensen
-  - name: Jean Nitzke
 - title: 'Student perspectives on future careers: What is the role of languages? A
     Romanian case study.'
   year: '2020'
@@ -83,24 +71,6 @@ selected_works:
   - name: Sunniva Whittaker
     slug: sunniva-whittaker
     url: /people/sunniva-whittaker/
-- title: Language management
-  year: '2014'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Anne Kari Bjørge
-  - name: Sunniva Whittaker
-    slug: sunniva-whittaker
-    url: /people/sunniva-whittaker/
-- title: Contrastive legal discourse research. Corpus design and application
-  year: '2014'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.3917/rfla.191.0049
-  contributors:
-  - name: Sunniva Whittaker
-    slug: sunniva-whittaker
-    url: /people/sunniva-whittaker/
 - title: Learner corpora as a pedagogical resource in specialized translator training
   year: '2013'
   source: Conference lecture
@@ -110,22 +80,47 @@ selected_works:
   - name: Sunniva Whittaker
     slug: sunniva-whittaker
     url: /people/sunniva-whittaker/
-- title: 'Les normes discursives dans le langage juridique: défis terminologiques
-    et traductologiques'
-  year: '2013'
+- title: Qu'est-ce qu'un néologisme juridique?
+  year: '2011'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Sunniva Whittaker
+    slug: sunniva-whittaker
+    url: /people/sunniva-whittaker/
+- title: Comparing Le N en question and the N in question
+  year: '2007'
   source: Book chapter
   group_type: Book chapter
   contributors:
   - name: Sunniva Whittaker
     slug: sunniva-whittaker
     url: /people/sunniva-whittaker/
-  - name: Jan Roald
-- title: Global corporate values - a linguistic approach
-  year: '2012'
+- title: La publicité pseudocomparative
+  year: '2006'
+  source: Professional article
+  group_type: Professional article
+  url: http://www.ruc.dk/isok/skriftserier/XVI-SRK-Pub/KFL/KFL21-Sunniva_Whittaker
+  contributors:
+  - name: Sunniva Whittaker
+    slug: sunniva-whittaker
+    url: /people/sunniva-whittaker/
+- title: Portrait de l'expression anaphorique Ledit N
+  year: '2002'
   source: Conference lecture
   group_type: Conference
+  url: http://www.digbib.uio.no/roman/Art/Rf-16-02-2/fra/Whittaker.pdf
   contributors:
-  - name: Anne Kari Bjørge
+  - name: Sunniva Whittaker
+    slug: sunniva-whittaker
+    url: /people/sunniva-whittaker/
+- title: 'Caractérisants à complément causatif et restructurabilité: exceptionnel
+    de beauté/d''une beauté exceptionnelle'
+  year: '2001'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Reidar Magne Veland
   - name: Sunniva Whittaker
     slug: sunniva-whittaker
     url: /people/sunniva-whittaker/

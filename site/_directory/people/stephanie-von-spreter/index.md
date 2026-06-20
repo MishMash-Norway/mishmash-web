@@ -48,24 +48,6 @@ selected_works:
   - name: Stephanie von Spreter
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
-- title: Destructed Environments, Gendered Spaces and Colonial Legacies. Contemporary
-    Art Practices Sensing the Arctic and the Circumpolar North
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Stephanie von Spreter
-    slug: stephanie-von-spreter
-    url: /people/stephanie-von-spreter/
-- title: Investigating the Arctic from a Gendered, (Post)Colonial and Posthuman Feminist
-    Perspective. Three Contemporary Artistic Practices
-  year: '2023'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Stephanie von Spreter
-    slug: stephanie-von-spreter
-    url: /people/stephanie-von-spreter/
 - title: Ghost of the Past? The (In)visible Hans Egede Monument at Trinity Church,
     Oslo
   year: '2023'
@@ -75,16 +57,6 @@ selected_works:
   - name: Stephanie von Spreter
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
-- title: Om kunsten i det antropocen og fotopioneren Hanna Resvoll-Holmsen (sammen
-    med Ulla Schildt)
-  year: '2023'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Stephanie von Spreter
-    slug: stephanie-von-spreter
-    url: /people/stephanie-von-spreter/
-  - name: Ulla Schildt
 - title: Welcome and introduction to conference, Photographic Practices as Care-Taking
   year: '2022'
   source: Conference lecture
@@ -127,6 +99,33 @@ selected_works:
   - name: Petrine Vinje
   - name: Christine Pettersen
   - name: Ingrid Halland
+  - name: Stephanie von Spreter
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
+- title: 'Shifting Focus. From Representation to Re-presentation and Materiality:
+    Reading the Photographic Works of Pia Arke (1958-2007)'
+  year: '2021'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Stephanie von Spreter
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
+- title: 'Artistic (Re)search Into the Ice: Seeing What We Cannot Grasp, Grasping
+    What We Need to See'
+  year: '2021'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Stephanie von Spreter
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
+- title: A story for you to continue
+  year: '2018'
+  source: Exhibition
+  group_type: Exhibition
+  contributors:
+  - name: Felix Gmelin
   - name: Stephanie von Spreter
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/

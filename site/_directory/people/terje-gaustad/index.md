@@ -65,39 +65,6 @@ selected_works:
     slug: terje-gaustad
     url: /people/terje-gaustad/
   - name: Inga Ørving Aasen
-- title: 'Strategisk storytelling: velg dine fiender med omhu'
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Terje Gaustad
-    slug: terje-gaustad
-    url: /people/terje-gaustad/
-- title: 'Kompetanse og kapasitet i filmbransjen: En kartlegging av dagens tilstand,
-    utviklingen over tid og fremtidsutsikter'
-  year: '2025'
-  source: Research report
-  group_type: Research report
-  contributors:
-  - name: Leo Grünfeld
-  - name: Erika Minerva Karttinen
-  - name: Terje Gaustad
-    slug: terje-gaustad
-    url: /people/terje-gaustad/
-  - name: Aljoscha Schöpfer
-  - name: Trygve Leithe Svalheim
-  - name: Ada Lunde
-- title: Empowering Public Service Media through Strategic Storytelling
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Terje Gaustad
-    slug: terje-gaustad
-    url: /people/terje-gaustad/
-  - name: Mona Kristin Solvoll
-  - name: Sarah Joy Lyons
-  - name: Arne H. Krumsvik
 - title: 'The value of connecting emotionally with the world: Training identification
     and empathy'
   year: '2024'
@@ -109,27 +76,63 @@ selected_works:
     url: /people/terje-gaustad/
   - name: Gabriel Paletz
   - name: Lukas Erni
-- title: 'Strategisk historiefortelling: Hvem er byggenæringen i 2024?'
-  year: '2024'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Terje Gaustad
-    slug: terje-gaustad
-    url: /people/terje-gaustad/
 - title: Velg dine fiender med omhu
-  year: '2024'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Terje Gaustad
-    slug: terje-gaustad
-    url: /people/terje-gaustad/
-- title: For å vinne en debatt må du velge rett motstander
   year: '2024'
   source: Popular science article
   group_type: Popular science article
-  url: https://www.forskersonen.no/debatt-laks-likestilling/for-a-vinne-en-debatt-ma-du-velge-rett-motstander/2413769
+  contributors:
+  - name: Terje Gaustad
+    slug: terje-gaustad
+    url: /people/terje-gaustad/
+- title: Opphavsrett, håndheving og mangfold
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Irina Eidsvold-Tøien
+    slug: irina-eidsvold-toien
+    url: /people/irina-eidsvold-toien/
+  - name: Terje Gaustad
+    slug: terje-gaustad
+    url: /people/terje-gaustad/
+- title: Economic Concequenses of Nuances in National Implementationn of International
+    Law
+  year: '2019'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Irina  Eidsvold-Tøien
+    slug: irina-eidsvold-toien
+    url: /people/irina-eidsvold-toien/
+  - name: Terje Gaustad
+    slug: terje-gaustad
+    url: /people/terje-gaustad/
+- title: 'New Faculty Roles in Online Education: the Professor as Writer, Director,
+    Actor and Producer?'
+  year: '2017'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Terje Gaustad
+    slug: terje-gaustad
+    url: /people/terje-gaustad/
+  - name: Donatella De Paoli
+- title: Digitalt kulturkonsum - en norsk studie
+  year: '2012'
+  source: Research report
+  group_type: Research report
+  contributors:
+  - name: Anne-Britt Gran
+  - name: Terje Gaustad
+    slug: terje-gaustad
+    url: /people/terje-gaustad/
+  - name: Audun Molde
+  - name: Anitra Guddal Figenschou
+- title: The Problem of Excludability for Media and Entertainment Products in New
+    Electronic Market Channels
+  year: '2002'
+  source: Journal article
+  group_type: Journal article
   contributors:
   - name: Terje Gaustad
     slug: terje-gaustad

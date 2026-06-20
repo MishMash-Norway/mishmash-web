@@ -47,46 +47,6 @@ search_keywords:
 - Machine learning
 - Artificial intelligence
 selected_works:
-- title: Kunstig intelligens kan svekke vår egen tenkning, mener Erik Johannes Husom,
-    KI-forsker
-  year: '2026'
-  source: Feature article
-  group_type: Media
-  url: https://www.vl.no/meninger/a-sette-bort-tenking-kan-vaere-mer-hemmende-enn-frigjorende/10247827
-  contributors:
-  - name: Erik Johannes Husom
-    slug: erik-johannes-husom
-    url: /people/erik-johannes-husom/
-- title: Hvor mye strøm bruker egentlig KI?
-  year: '2026'
-  source: Interview
-  group_type: Media
-  url: https://www.ge.no/artikler/stroemmarked/hvor-mye-strom-bruker-egentlig-ki
-  contributors:
-  - name: Gudbrandsdal Energi
-  - name: Erik Johannes Husom
-    slug: erik-johannes-husom
-    url: /people/erik-johannes-husom/
-- title: Over 900 milliarder spørsmål på ChatGPT (Tekna)
-  year: '2026'
-  source: Interview
-  group_type: Media
-  url: https://www.tekna.no/magasinet/kunstig-intelligens-og-energibruk/
-  contributors:
-  - name: Erik Johannes Husom
-    slug: erik-johannes-husom
-    url: /people/erik-johannes-husom/
-  - name: Sondre Tallaksrud
-- title: 'Inviterer til «digital strandrydding»: – Nå er det på tide'
-  year: '2026'
-  source: Interview
-  group_type: Media
-  url: https://www.glomdalen.no/inviterer-til-digital-strandrydding-na-er-det-pa-tide/s/80-19-207860
-  contributors:
-  - name: Emma Rosenberg Hammeren
-  - name: Erik Johannes Husom
-    slug: erik-johannes-husom
-    url: /people/erik-johannes-husom/
 - title: 'Talk is Cheap, Energy is Not: Towards a Green, Context-Aware Metrics Framework
     for Automatic Speech Recognition'
   year: '2026'
@@ -116,25 +76,6 @@ selected_works:
     slug: sagar-sen
     url: /people/sagar-sen/
   - name: Phu Hong Nguyen
-- title: Generativ KI og energiforbruk
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  url: https://erikjohannes.no/slides/talk-2025-12-03-dnd-baerekraftig-ki.pdf
-  contributors:
-  - name: Erik Johannes Husom
-    slug: erik-johannes-husom
-    url: /people/erik-johannes-husom/
-- title: Hvordan kan KI bli grønnere – Abels tårn (NRK)
-  year: '2025'
-  source: Radio or TV
-  group_type: Media
-  url: https://radio.nrk.no/serie/abels-taarn-radio/MDFP05001225?utm_source=nrkradio&utm_medium=delelenke-ios&utm_content=prf:MDFP05001225#t=29m4s
-  contributors:
-  - name: Erik Johannes Husom
-    slug: erik-johannes-husom
-    url: /people/erik-johannes-husom/
-  - name: Torkild Jemterud
 - title: Controlled Self-Recovery of the Aggregator in Federated Learning Using RAFT
     Protocol
   year: '2025'
@@ -165,6 +106,77 @@ selected_works:
     url: /people/sagar-sen/
   - name: Benedikt Andreas Mithassel
   - name: Ahmet Soylu
+- title: 'FedMAC: Federated Multi-Algorithm Clustering for Autonomic Systems'
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/acsos-c66519.2025.00025
+  contributors:
+  - name: Erik Johannes Husom
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+  - name: Rustem Dautov
+  - name: Arda Goknil
+- title: Data Quality as a Service Framework for AI-Enabled Industrial Internet of
+    Things
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3703790.3703794
+  contributors:
+  - name: Arda Goknil
+  - name: Phu Hong Nguyen
+  - name: Erik Johannes Husom
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+  - name: Sagar Sen
+    slug: sagar-sen
+    url: /people/sagar-sen/
+  - name: Simeon Tverdal
+  - name: Flavien Peysson
+  - name: Dimitra Politaki
+  - name: Roberto González-Velázquez
+- title: 'ERG-AI: enhancing occupational ergonomics with uncertainty-aware ML and
+    LLM feedback'
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1007/s10489-024-05796-1
+  contributors:
+  - name: Sagar Sen
+    slug: sagar-sen
+    url: /people/sagar-sen/
+  - name: Victor Evaristo Gonzalez Sanchez
+  - name: Erik Johannes Husom
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+  - name: Simeon Tverdal
+  - name: Shukun Tokas
+  - name: Svein Ove Tjøsvoll
+- title: 'REPTILE: a Tool for Replay-driven Continual Learning in IIoT'
+  year: '2023'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Erik Johannes Husom
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+- title: Replay-Driven Continual Learning for the Industrial Internet of Things
+  year: '2023'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Erik Johannes Husom
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+- title: 'UDAVA: an unsupervised learning pipeline for sensor data validation in manufacturing'
+  year: '2022'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Erik Johannes Husom
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
 source_mentions: []
 summary: Erik Johannes Husom is a researcher with a M.Sc. in Computational Physics
   from the University of Oslo. Currently at SINTEF Digital's Trustworthy Green IoT

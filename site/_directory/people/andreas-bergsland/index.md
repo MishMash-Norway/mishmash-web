@@ -49,33 +49,6 @@ selected_works:
   - name: Andreas Bergsland
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
-- title: The Sounds of Ski Poles in hard Packed Snow in an Upper Manhattan Bedroom
-  year: '2024'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Andreas Bergsland
-    slug: andreas-bergsland
-    url: /people/andreas-bergsland/
-  - name: Madeleine Shapiro
-- title: Facilitating development of interactive wheelchair sonifications
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Andreas Bergsland
-    slug: andreas-bergsland
-    url: /people/andreas-bergsland/
-- title: Yellowstone/winter
-  year: '2024'
-  source: Music performance
-  group_type: Music performance
-  url: https://www.youtube.com/live/8TVe_Xuv3G4?feature=shared
-  contributors:
-  - name: Andreas Bergsland
-    slug: andreas-bergsland
-    url: /people/andreas-bergsland/
-  - name: Madeleine Shapiro
 - title: 'The MotionComposer: A therapy device that turns movement into music. Applications
     in pediatric medicine'
   year: '2023'
@@ -88,58 +61,75 @@ selected_works:
     url: /people/andreas-bergsland/
   - name: Stefan Geiger
   - name: Alicia Peñalba
-- title: 'Deus Ex Machina: Synchronization Strategies in Mixed Music'
-  year: '2022'
-  source: PhD thesis
-  group_type: PhD thesis
+- title: Intermediality and Memory in the Tower Block - Post Mortem Project
+  year: '2017'
+  source: Journal article
+  group_type: Journal article
   contributors:
-  - name: Mathieu Lacroix
   - name: Andreas Bergsland
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
-  - name: Trond Engum
-  - name: Natasha Barrett
-- title: "Beginnings and Endings - Study I\r\nfor interactive dance"
-  year: '2021'
+  - name: Barbro Rønning
+- title: 'Aspects of Digital Affordances: Openness, Skill and Exploration'
+  year: '2015'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+- title: Jeu de modes III - NIME version. Interactive dance for five performers.
+  year: '2015'
   source: Music performance
   group_type: Music performance
-  url: https://youtu.be/fkOZaT2pS-k
   contributors:
   - name: Andreas Bergsland
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
-- title: Modalities of Listening, NTNU ARTEC Seminar Series Seminar
-  year: '2020'
-  source: Lecture
-  group_type: Lecture
+- title: Jeu de modes IV - DAFx version. Interactive dance for solo performer.
+  year: '2015'
+  source: Music performance
+  group_type: Music performance
   contributors:
-  - name: Nina Eidsheim
-  - name: Garth Paine
-  - name: Hanna Musiol
-  - name: Thomas Richard Hilder
-  - name: Ajotikar Rasika
   - name: Andreas Bergsland
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
-- title: Feedback systems with FM receivers and transmitters as musical instruments
-  year: '2020'
+- title: I am sitting in that room – reverberation, resonance and expanded meanings
+    in Lucier’s "I am sitting in a room”
+  year: '2013'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Asbjørn Tiller
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+- title: Lyddesign / komponist på "Signaler"
+  year: '2006'
+  source: Exhibition
+  group_type: Exhibition
+  contributors:
+  - name: Andreas Bergsland
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+- title: 'Stemmetransformasjoner i elektroakustisk musikk: Identitetskonstruksjoner
+    og meningsdannelse'
+  year: '2004'
   source: Book chapter
   group_type: Book chapter
   contributors:
   - name: Andreas Bergsland
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
-- title: VIBRA - Technical and Artistic Issues in an Interactive Dance Project
-  year: '2019'
-  source: Journal article
-  group_type: Journal article
-  url: http://smc2019.uma.es/docs/SMC2019_Proceedings.pdf
+- title: Vævet av "Roser" .... - Olav Anton Thommesens "Vævet av stængler" som lesning
+    av Obstfelders "Roser"
+  year: '1999'
+  source: Master's thesis
+  group_type: Master's thesis
   contributors:
   - name: Andreas Bergsland
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
-  - name: Sigurd Saue
-  - name: Pekka Stokke
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

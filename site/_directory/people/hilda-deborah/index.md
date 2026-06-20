@@ -42,15 +42,6 @@ search_keywords:
 - Image quality
 - Image processing
 selected_works:
-- title: Catching illegal construction from 700 km up
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Hilda Deborah
-    slug: hilda-deborah
-    url: /people/hilda-deborah/
-  - name: Marius Pedersen
 - title: Surveying Imaging Workflows and Software in Cultural Heritage
   year: '2025'
   source: Journal article
@@ -124,30 +115,6 @@ selected_works:
   - name: Dipendra Jee Mandal
   - name: Brett D. Roads
   - name: James W. Tanaka
-- title: Metrology-Based Statistical Framework for Monitoring Changes in Hyperspectral
-    Datasets of Artworks
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1109/WHISPERS65427.2024.10876534
-  contributors:
-  - name: Dipendra Jee Mandal
-  - name: Hilda Deborah
-    slug: hilda-deborah
-    url: /people/hilda-deborah/
-  - name: Markus Sebastian Bakken Storeide
-- title: Spatially Constrained Hyperspectral Pigment Mapping using Watershed Segmentation
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1109/WHISPERS65427.2024.10876543
-  contributors:
-  - name: Nina Christine Eckertz
-  - name: Hilda Deborah
-    slug: hilda-deborah
-    url: /people/hilda-deborah/
-  - name: Jon Yngve Hardeberg
-  - name: Irina Crina Anca Sandu
 - title: Hyperspectral Image Based Visualisations for Cultural Heritage Applications
   year: '2024'
   source: Conference lecture
@@ -160,6 +127,39 @@ selected_works:
   - name: Zealandia Sarah Nurul Fatma
   - name: Nina Christine Eckertz
   - name: Jon Yngve Hardeberg
+- title: Metrological hyperspectral image analysis through spectral differences
+  year: '2020'
+  source: Non-fiction chapter
+  group_type: Non-fiction chapter
+  url: https://doi.org/10.1016/B978-0-08-102894-0.00020-6
+  contributors:
+  - name: Hilda Deborah
+    slug: hilda-deborah
+    url: /people/hilda-deborah/
+  - name: Noel Richard
+  - name: Jon Yngve Hardeberg
+  - name: Jón Atli Benediktsson
+- title: Path opening for hyperspectral crack detection of cultural heritage paintings
+  year: '2019'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/SITIS.2018.00105
+  contributors:
+  - name: Thomas Brendon Gillooly
+  - name: Hilda Deborah
+    slug: hilda-deborah
+    url: /people/hilda-deborah/
+  - name: Jon Yngve Hardeberg
+- title: Towards Spectral Mathematical Morphology
+  year: '2016'
+  source: PhD thesis
+  group_type: PhD thesis
+  contributors:
+  - name: Hilda Deborah
+    slug: hilda-deborah
+    url: /people/hilda-deborah/
+  - name: Jon Yngve Hardeberg
+  - name: Christine Fernandez-Maloigne
 source_mentions: []
 wps:
 - WP6

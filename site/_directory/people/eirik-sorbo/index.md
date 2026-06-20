@@ -58,14 +58,6 @@ selected_works:
   - name: Ellen Mikalsen Stabell
   - name: Randi Margrethe Clausen Aarflot
   - name: Cecilia Ferm Almqvist
-- title: KI i kreative prosesser
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Eirik Sørbø
-    slug: eirik-sorbo
-    url: /people/eirik-sorbo/
 - title: 'Don''t do this at home: Re-amping the Norwegian Broadcasting Orchestra (KORK)
     for Nils Petter Molvær''s Certainty of Tides'
   year: '2026'
@@ -127,25 +119,30 @@ selected_works:
   - name: Eirik Sørbø
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
-- title: Too much student agency?
-  year: '2024'
+- title: Tomorrow's Creativity
+  year: '2023'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Eirik Sørbø
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
-- title: What do you mean? Developing a ‘model of the aesthetic dialogue’ in collaborative
-    music making
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1386/jpme_00137_1
+- title: Teaching music theory to popular electronic music students
+  year: '2021'
+  source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Eirik Sørbø
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
-  - name: Andreas Waaler Røshol
+- title: Balancing Educational Purposes in Electronic Music Education
+  year: '2019'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Eirik Sørbø
+    slug: eirik-sorbo
+    url: /people/eirik-sorbo/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: Researcher, educator, and musician. PhD in music education from the University

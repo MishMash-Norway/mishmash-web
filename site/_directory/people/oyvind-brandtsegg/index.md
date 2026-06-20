@@ -84,24 +84,6 @@ selected_works:
   - name: Øyvind Brandtsegg
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
-- title: Rhythm and Intentionality at ESMAE
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Øyvind Brandtsegg
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Daniel Buner Formo
-- title: Rhythm and Intentionality at IIL
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Øyvind Brandtsegg
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Daniel Buner Formo
 - title: Beethoven (re)Created - 32 Variations in C minor WoO 80
   year: '2025'
   source: Music performance
@@ -123,32 +105,64 @@ selected_works:
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
   - name: Alexandra Nicki Murray-Leslie
-- title: Show and tell feedback instruments
-  year: '2021'
-  source: Lecture
-  group_type: Lecture
+- title: Morten Qvenild – The HyPer(sonal) Piano Project
+  year: '2017'
+  source: Artistic degree phd
+  group_type: Artistic degree phd
+  url: https://doi.org/10.22501/nmh-ar.291286
+  contributors:
+  - name: Morten Qvenild
+    slug: morten-qvenild
+    url: /people/morten-qvenild/
+  - name: Jon Henrik Hellstenius
+  - name: Eivind Buene
+  - name: Øyvind Brandtsegg
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+- title: Atom Seized Violin
+  year: '2014'
+  source: Music performance
+  group_type: Music performance
   contributors:
   - name: Øyvind Brandtsegg
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
-- title: Processing Musicianship lecture
-  year: '2021'
-  source: Lecture
-  group_type: Lecture
+  - name: Victoria Johnson
+- title: BRAK RUG NOTAM 2014
+  year: '2014'
+  source: Music performance
+  group_type: Music performance
   contributors:
   - name: Øyvind Brandtsegg
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
-  - name: Trond Engum
-- title: Electronic Musicianship lecture
-  year: '2021'
-  source: Lecture
-  group_type: Lecture
+  - name: Siv Øyunn Kjenstad
+  - name: Maja Solveig Kjelstrup Ratkje
+- title: THE DEVELOPMENT OF AN ONLINE COURSE IN DSP EARTRAINING
+  year: '2012'
+  source: Book chapter
+  group_type: Book chapter
+  url: http://dafx12.york.ac.uk/papers/dafx12_submission_13.pdf
   contributors:
   - name: Øyvind Brandtsegg
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
-  - name: Trond Engum
+  - name: Sigurd Saue
+  - name: John Pål Inderberg
+  - name: Håkon Kvidal
+  - name: Jøran Rudi
+  - name: Jan Tro
+  - name: Axel Tidemann
+  - name: Notto W. Thelle
+  - name: Victor Lazzarini
+- title: Live sampling og Algoritmisk improvisasjon
+  year: '2009'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Øyvind Brandtsegg
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
 source_mentions: []
 summary: null
 permalink: /people/oyvind-brandtsegg/

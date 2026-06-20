@@ -35,15 +35,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Nordisk film, Kortfilm | Lokal sang ble prisnominert animasjonsfilm i USA
-  year: '2026'
-  source: Interview
-  group_type: Media
-  url: https://www.oa.no/lokal-sang-ble-prisnominert-animasjonsfilm-i-usa/s/5-35-2212415
-  contributors:
-  - name: Ole Christoffer Haga
-    slug: ole-christoffer-haga
-    url: /people/ole-christoffer-haga/
 - title: Haaland vs 100 gorillaer | Godfisk.no
   year: '2026'
   source: Film or video
@@ -53,73 +44,6 @@ selected_works:
   - name: Ole Christoffer Haga
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
-- title: INNKU 2025 - VIQUEENS
-  year: '2025'
-  source: Media podcast
-  group_type: Media
-  url: https://shows.acast.com/fts-podden/episodes/6978996ca7c1a04bcb3a2ebb
-  contributors:
-  - name: Nina Monika Bergstrøm
-  - name: Ole Christoffer Haga
-    slug: ole-christoffer-haga
-    url: /people/ole-christoffer-haga/
-- title: INNKU 2025
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  url: https://www.inn.no/om-universitetet/fakultet-for-film-tv-spill/hva-skjer-pa-ftvs/inkku-2025/
-  contributors:
-  - name: Nina Grünfeld
-    slug: nina-fredrikke-grunfeld
-    url: /people/nina-fredrikke-grunfeld/
-  - name: Anne-Brit Soma Reienes
-  - name: Hanne-Lovise Skartveit
-  - name: Guro Erika Trøseid Gjerstadberget
-  - name: Nina Malterud
-  - name: Trond Lossius
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: Azar Ebrahimi
-  - name: Dino Murselovic
-  - name: Martin Anil Choudari
-  - name: Gunhild Lien
-  - name: James Welburn
-  - name: Fredrik Graver
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-  - name: Sashidharan Komandur
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-  - name: Ida Jahr
-    slug: ida-jahr
-    url: /people/ida-jahr/
-  - name: Mathieu Lacroix
-  - name: Hedda Fredly
-  - name: Magnus B. Lysbakken
-  - name: Trine Kampmann-Jensen
-  - name: Tonje Louise Finne
-    slug: tonje-louise-finne
-    url: /people/tonje-louise-finne/
-  - name: Camilla Vanebo
-  - name: Heidi Linde
-  - name: Nina Monika Bergstrøm
-  - name: Ole Christoffer Haga
-    slug: ole-christoffer-haga
-    url: /people/ole-christoffer-haga/
-  - name: Wenche Hellekås
-  - name: Jørgen Stangebye Larsen
-  - name: Rasmus Jakob Tuve Eriksson
-  - name: Eli Bø
-  - name: Per Ditlef Fredriksen
-  - name: Linn-Terese Bern
-  - name: Steven Bachelder
-  - name: Carl Henrik Olof Svensson
-  - name: Signe Gerda Landfald
-  - name: Arild Andresen
-  - name: Stefan Faldbakken
-  - name: Fredrik Skrattegård
-  - name: Lotte Mik-Meyer
-  - name: Sara Johnsen
 - title: Det går en båt (Departing)
   year: '2025'
   source: Film or video
@@ -128,19 +52,6 @@ selected_works:
   - name: Ole Christoffer Haga
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
-- title: 'From Algorithms to Imagination: Histories, Practices and Futures of Artificial
-    Intelligence in Animation'
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Ole Christoffer Haga
-    slug: ole-christoffer-haga
-    url: /people/ole-christoffer-haga/
-  - name: M Javad Khajavi
-  - name: Mojtaba Kargar
-  - name: Herinarivo Rakatomanana
-  - name: James Calvert
 - title: A brief history of AI in Animation
   year: '2025'
   source: Conference lecture
@@ -150,35 +61,61 @@ selected_works:
   - name: Ole Christoffer Haga
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
-- title: Generative Artificial Intelligence in Game Animation
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Ole Christoffer Haga
-    slug: ole-christoffer-haga
-    url: /people/ole-christoffer-haga/
-- title: Hvem tror vi at vi er? Et dykk ned i vår KU-virksomhet.
-  year: '2024'
-  source: Lecture
-  group_type: Lecture
-  url: https://shows.acast.com/fts-podden/episodes/6786875be1dde61281cd0a2c
-  contributors:
-  - name: Nina Grünfeld
-    slug: nina-fredrikke-grunfeld
-    url: /people/nina-fredrikke-grunfeld/
-  - name: Ole Christoffer Haga
-    slug: ole-christoffer-haga
-    url: /people/ole-christoffer-haga/
-  - name: Trond Lossius
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: Lotte Mik-Meyer
-  - name: Camilla Vanebo
 - title: Animated Traumas - The Films of Anita Killi
   year: '2023'
   source: Conference lecture
   group_type: Conference
+  contributors:
+  - name: Ole Christoffer Haga
+    slug: ole-christoffer-haga
+    url: /people/ole-christoffer-haga/
+- title: Gaming patterns and needs
+  year: '2022'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Ole Christoffer Haga
+    slug: ole-christoffer-haga
+    url: /people/ole-christoffer-haga/
+- title: Hvilke egenskaper ved et dataspill kan bidra til avhengighet?
+  year: '2022'
+  source: Research report
+  group_type: Research report
+  url: https://www.medietilsynet.no/nyheter/aktuelt/medietilsynet-fordeler-fire-millioner-kroner-til-medieforskning/
+  contributors:
+  - name: Ole Christoffer Haga
+    slug: ole-christoffer-haga
+    url: /people/ole-christoffer-haga/
+- title: From Puppets and Peg Bars to Virtual Reality
+  year: '2021'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Ole Christoffer Haga
+    slug: ole-christoffer-haga
+    url: /people/ole-christoffer-haga/
+- title: Film style in Cinematic VR
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://journal.animationstudies.org/ole-christoffer-haga-film-style-in-cinematic-vr/
+  contributors:
+  - name: Ole Christoffer Haga
+    slug: ole-christoffer-haga
+    url: /people/ole-christoffer-haga/
+- title: Anthropomorphic deviations in BoJack Horseman
+  year: '2020'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Ole Christoffer Haga
+    slug: ole-christoffer-haga
+    url: /people/ole-christoffer-haga/
+- title: Flyndre
+  year: '2016'
+  source: Film or video
+  group_type: Film or video
+  url: https://tv.nrk.no/program/KOIF75001217
   contributors:
   - name: Ole Christoffer Haga
     slug: ole-christoffer-haga

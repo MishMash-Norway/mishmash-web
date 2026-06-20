@@ -40,17 +40,6 @@ selected_works:
   - name: Clemens Cavallin
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
-- title: Hevder at KI er i ferd med å endre teologien
-  year: '2026'
-  source: Interview
-  group_type: Media
-  url: https://www.dagen.no/tro/hevder-at-ki-er-i-ferd-med-a-endre-teologien/1549662
-  contributors:
-  - name: Gunnar Innerdal
-  - name: Atle Ottesen Søvik
-  - name: Clemens Cavallin
-    slug: clemens-cavallin
-    url: /people/clemens-cavallin/
 - title: Introduktion
   year: '2026'
   source: Non-fiction chapter
@@ -113,11 +102,19 @@ selected_works:
   - name: Paul Clemens Cavallin
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
-- title: Vad är religion? En religionsvetenskaplig läsning av Thomas Aquinos förståelse
-    av religio
-  year: '2022'
+- title: Reflections on Sacrifice and the Mission of Comparative Religion
+  year: '2021'
   source: Conference lecture
   group_type: Conference
+  contributors:
+  - name: Paul Clemens Cavallin
+    slug: clemens-cavallin
+    url: /people/clemens-cavallin/
+- title: 'Ciência da religião aplicada: quatro tipos ideais'
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.23925/1677-1222.2021vol21i1a11
   contributors:
   - name: Paul Clemens Cavallin
     slug: clemens-cavallin

@@ -91,46 +91,6 @@ selected_works:
   - name: Jon Marius Aareskjold-Drecker
     slug: jon-marius-aareskjold-drecker
     url: /people/jon-marius-aareskjold-drecker/
-- title: "Hey Siri, what are the royalty splits of the\r\nsong you wrote for me?"
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Ragnhild Brøvig
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
-  - name: Jon Marius Aareskjold-Drecker
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
-- title: 'Scientists explain why Seeb''s remix of I Took A Pill In Ibiza has racked
-    up 1.7 billion Spotify streams: it''s all down to "micro-rhythmic nuances", hard
-    work... and playing left-handed'
-  year: '2023'
-  source: Interview
-  group_type: Media
-  url: https://www.musicradar.com/news/seeb-i-took-a-pill-in-ibiza-swing#lr9ngalio32771p5ar
-  contributors:
-  - name: Andy Jones
-  - name: Ragnhild Brøvig
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
-  - name: Jon Marius Aareskjold-Drecker
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
-- title: Scientific research uncovers why Seeb’s I Took A Pill In Ibiza remix is hugely
-    popular
-  year: '2023'
-  source: Interview
-  group_type: Media
-  url: https://musictech.com/news/music/university-study-seeb-i-took-a-pill-in-ibiza-remix/
-  contributors:
-  - name: Rachel Roberts
-  - name: Ragnhild Brøvig
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
-  - name: Jon Marius Aareskjold-Drecker
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
 - title: Musical rhythm. Qualitative investigations
   year: '2022'
   source: Conference lecture
@@ -146,28 +106,6 @@ selected_works:
     slug: jon-marius-aareskjold-drecker
     url: /people/jon-marius-aareskjold-drecker/
   - name: Anne Danielsen
-- title: Influence du traitement de plage dynamique sur le rythme perçu dans l’EDM
-  year: '2022'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Ragnhild Brøvig
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
-  - name: Bjørnar Ersland Sandvik
-  - name: Jon Marius Aareskjold-Drecker
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
-- title: Immersed in Pop! Excursions into Compositional Design
-  year: '2022'
-  source: PhD thesis
-  group_type: PhD thesis
-  contributors:
-  - name: Zack Bresler
-  - name: Stan Hawkins
-  - name: Jon Marius Aareskjold-Drecker
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
 - title: 'Konsert: ARcTic Susatin Festspillene i Nord-Norge,'
   year: '2021'
   source: Music performance
@@ -186,6 +124,53 @@ selected_works:
   - name: Friederike Bischoff
   - name: Odd Kyrre Alsvik
   - name: Ingrid Eliassen
+- title: Gæ
+  year: '2020'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Geir Davidsen
+  - name: Jon Marius Aareskjold-Drecker
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  - name: Lars Lien
+  - name: Friederike Bischoff
+  - name: Ingrid Eliassen
+  - name: Jens Christian Kloster
+  - name: Karsten Brustad
+  - name: Solmund Nystabakk
+- title: Sound of Light
+  year: '2018'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Jon Marius Aareskjold
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+- title: Sound of Light - Installasjon på Nordlysobservatoriet (NOBS)
+  year: '2018'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Jon Marius Aareskjold
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+- title: Torun Eriksen - Luxury and Waste
+  year: '2018'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Jon Marius Aareskjold
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+- title: Northern Lights
+  year: '2014'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Jon Marius Aareskjold
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

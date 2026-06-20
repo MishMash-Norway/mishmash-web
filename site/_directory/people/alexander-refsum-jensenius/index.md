@@ -73,23 +73,6 @@ search_keywords:
 - Music Technology
 - Sound analysis /synthesis
 selected_works:
-- title: Mennesker og maskiner
-  year: '2026'
-  source: Reader opinion
-  group_type: Media
-  url: https://www.forskerforum.no/forskerlivet/vi-ma-se-oss-selv-i-speilet-hver-gang-vi-bruker-et-ki-verktoy-er-vi-med-pa-a-legitimere-det/
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: Creativity and biology research
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
 - title: The Listening Body – for mennesker med og uten Parkinson
   year: '2026'
   source: Music performance
@@ -110,20 +93,6 @@ selected_works:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: Building intersectional Cultural Ecosystems & Institutions for the Future
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  url: https://www.wisenotwise.com/wise2026program
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Jesper Mardahl
-  - name: Simon Kimmel
-  - name: Martin Eyerer
-  - name: Roland Sillmann
-  - name: Philipp Grefer
 - title: Performative Togetherness in networked music–dance performance
   year: '2026'
   source: Journal article
@@ -135,41 +104,90 @@ selected_works:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: Tverrfaglighet i forskning (og utdanning)
+- title: Bodies in Motion in the Concert Hall and Beyond
   year: '2026'
-  source: Presentation
-  group_type: Lecture
+  source: Conference lecture
+  group_type: Conference
+  url: https://moco26.movementcomputing.org/
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: Mellom menneske og maskin
+  - name: Laura Bishop
+- title: Mixed Method Audio-Video Analyses of Felt Togetherness in a Networked Music-Dance
+    Performance
   year: '2026'
-  source: Presentation
-  group_type: Lecture
-  url: https://fotografiens-hus.no/samtale-mellom-menneske-og-maskin/
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3802842.3802884
   contributors:
-  - name: Silje Midtlien Sigurdsen
-  - name: Camila Urrego
-  - name: Gunnar Gabriel Gjermundsen
+  - name: Bilge Serdar
+  - name: Aleksander Tidemann
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: Sang og KI
+- title: Creativity Between Art and Science
   year: '2026'
-  source: Presentation
-  group_type: Lecture
+  source: Conference lecture
+  group_type: Conference
+  url: https://metamorf.art/2026/03/11/alexander-refsum/
   contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
+- title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
+    Arts
   year: '2026'
-  source: Radio or TV
-  group_type: Media
-  url: https://radio.nrk.no/podkast/abels_taarn/l_26ee6156-aa61-4ba8-ae61-56aa61bba845
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-032-26999-7_18
   contributors:
-  - name: Torkild Jemterud
+  - name: Hugh Alexander von Arnim
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
+  - name: Anna-Maria Christodoulou
+    slug: anna-maria-christodoulou
+    url: /people/anna-maria-christodoulou/
+  - name: Kayla Burnim
+  - name: Finn Upham
+  - name: Tejaswinee Kelkar
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: 'Arab music improvisation corpus for research (AMICOR): development and machine
+    translation experiments | Language Resources and Evaluation'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://link.springer.com/article/10.1007/s10579-026-09905-z
+  contributors:
+  - name: Fadi Al-Ghawanmeh
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Kamel Smaili
+- title: Investigating Auditory–Visual Perception Using Multi-Modal Neural Networks
+    with the SoundActions Dataset
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5334/tismir.223
+  contributors:
+  - name: Jinyue Guo
+  - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: Tverrfaglighet gjør litt vondt
+  year: '2026'
+  source: Letter to the editor
+  group_type: Letter to the editor
+  url: https://www.forskerforum.no/forskerlivet/mitt-tips-til-gjesteforskere-heng-ved-kaffemaskinen/
+  contributors:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/

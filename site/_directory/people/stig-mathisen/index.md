@@ -26,28 +26,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: '#3 Gitarmetodikk ved UiT - Konsenpodden | Podcast on Spotify'
-  year: '2026'
-  source: Media podcast
-  group_type: Media
-  url: https://open.spotify.com/episode/6B0ZGMSrQVkw9rqiGw8E8Z?si=9aff5c11f48b46d4
-  contributors:
-  - name: Tore Morten Andreassen
-  - name: Stig Mathisen
-    slug: stig-mathisen
-    url: /people/stig-mathisen/
-  - name: Emil Bekkevold
-- title: '#2 Gitarmetodikk i USA vs Norge - Konsenpodden | Podcast on Spotify'
-  year: '2026'
-  source: Media podcast
-  group_type: Media
-  url: https://open.spotify.com/episode/5dAUL0vjYb6uC1rZ9K4mSt?si=1880cf05df2b4f3c
-  contributors:
-  - name: Tore Morten Andreassen
-  - name: Emil Bekkevold
-  - name: Stig Mathisen
-    slug: stig-mathisen
-    url: /people/stig-mathisen/
 - title: Musikalsk medvirkning på Kirkekonsert i Havøysund med gitarist Stig Mathisen,
     vokalist Merethe Mikkelsen og bassist Jørgen Ytreberg.
   year: '2024'

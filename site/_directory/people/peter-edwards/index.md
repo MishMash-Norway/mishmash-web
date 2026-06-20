@@ -46,32 +46,6 @@ selected_works:
   - name: Peter Edwards
     slug: peter-edwards
     url: /people/peter-edwards/
-- title: Literacy of Silence for Twenty-First Century Citizenship
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Peter Edwards
-    slug: peter-edwards
-    url: /people/peter-edwards/
-- title: Sonic Citizenship
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Research-Forum/2025/sonic-citizenship.html
-  contributors:
-  - name: Peter Edwards
-    slug: peter-edwards
-    url: /people/peter-edwards/
-- title: 'Premieresamtale: Fin de partie'
-  year: '2025'
-  source: Media podcast
-  group_type: Media
-  url: https://soundcloud.com/user-346437832/01-opptak-samtale-fin-de?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
-  contributors:
-  - name: Peter Edwards
-    slug: peter-edwards
-    url: /people/peter-edwards/
 - title: 'The Eye of the Storm: Music and the Aesthetics of Overload'
   year: '2025'
   source: Conference lecture
@@ -99,23 +73,49 @@ selected_works:
   - name: Peter Edwards
     slug: peter-edwards
     url: /people/peter-edwards/
-- title: 'Infernal Voices: The Sinister Reaches of the High Voice'
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  url: https://www.hf.uio.no/imv/forskning/aktuelt/arrangementer/?view=allprevious&page=2&u-page=2
-  contributors:
-  - name: Freya Jarman
-  - name: Áine Ryan Mangaoang
-  - name: Peter Edwards
-    slug: peter-edwards
-    url: /people/peter-edwards/
 - title: En oppdiktet musikk. Irrasjonell logikk og ekspressiv tilblivelse i Adrian
     Leverkühns Dr. Fausti Veklage
   year: '2025'
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.18261/agora.43.3-4.5
+  contributors:
+  - name: Peter Edwards
+    slug: peter-edwards
+    url: /people/peter-edwards/
+- title: 'Absence in Music: Enacting the Non-Conceptual in the Twenty-First Century'
+  year: '2024'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Peter Edwards
+    slug: peter-edwards
+    url: /people/peter-edwards/
+  - name: Christine Dysers
+  - name: Judith Lochhead
+- title: Twenty-First Century Lament
+  year: '2024'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Peter Edwards
+    slug: peter-edwards
+    url: /people/peter-edwards/
+- title: 'Imagining Form and Capturing the Moment: The Musical Sketches of György
+    Ligeti'
+  year: '2024'
+  source: Conference lecture
+  group_type: Conference
+  url: https://www.hf.uio.no/ilos/english/research/centre/lce/news-and-events/events/workshops/previous.html
+  contributors:
+  - name: Peter Edwards
+    slug: peter-edwards
+    url: /people/peter-edwards/
+- title: Convergences and Discord in the Correspondence between Ligeti and Adorno
+  year: '2015'
+  source: Literature review
+  group_type: Literature review
+  url: https://doi.org/10.1093/ml/gcu132
   contributors:
   - name: Peter Edwards
     slug: peter-edwards

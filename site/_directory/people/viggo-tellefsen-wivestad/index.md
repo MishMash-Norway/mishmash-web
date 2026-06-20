@@ -67,35 +67,6 @@ selected_works:
   - name: Viggo Tellefsen Wivestad
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
-- title: Kommer KI til å drepe kreativiteten vår?
-  year: '2025'
-  source: Media podcast
-  group_type: Media
-  url: https://shows.acast.com/smart-forklart/episodes/kommer-ki-til-a-drepe-kreativiteten-var
-  contributors:
-  - name: Aksel Faanes Persson
-  - name: Viggo Tellefsen Wivestad
-    slug: viggo-tellefsen-wivestad
-    url: /people/viggo-tellefsen-wivestad/
-- title: KI og kampen om sannheten   – Ytring
-  year: '2025'
-  source: Reader opinion
-  group_type: Media
-  url: https://www.nrk.no/ytring/ki-og-kampen-om-sannheten__-1.17314734
-  contributors:
-  - name: Viggo Tellefsen Wivestad
-    slug: viggo-tellefsen-wivestad
-    url: /people/viggo-tellefsen-wivestad/
-- title: 'Debatt: Slik kan man sikre seg mot økonomisk «deepfake»-svindel'
-  year: '2025'
-  source: Reader opinion
-  group_type: Media
-  url: https://www.dn.no/innlegg/svindel/datasikkerhet/deepfake/slik-kan-man-sikre-seg-mot-okonomisk-deepfake-svindel/2-1-1788857
-  contributors:
-  - name: Viggo Tellefsen Wivestad
-    slug: viggo-tellefsen-wivestad
-    url: /people/viggo-tellefsen-wivestad/
-  - name: Bjørn Magnus Mathisen
 - title: 'Generative AI in the Workplace: Affective Affordances and Employee Flourishing'
   year: '2025'
   source: Book chapter
@@ -119,15 +90,6 @@ selected_works:
     url: /people/viggo-tellefsen-wivestad/
   - name: Astri Moksnes Barbala
   - name: Viktoria Stray
-- title: Hva betyr at noe er "deepfake"?
-  year: '2025'
-  source: Interview
-  group_type: Media
-  contributors:
-  - name: Viggo Tellefsen Wivestad
-    slug: viggo-tellefsen-wivestad
-    url: /people/viggo-tellefsen-wivestad/
-  - name: Nikolea Solstad
 - title: 'Human-AI Collaboration in Software Development: A Mixed-Methods Study of
     Developers’ Use of GitHub Copilot and ChatGPT'
   year: '2025'
@@ -140,6 +102,37 @@ selected_works:
   - name: Viggo Tellefsen Wivestad
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
+- title: 'Attitudes Towards LLM Use Among Software Engineering Researchers: Results
+    From A Two-Phase Survey Study'
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3696630.3731671
+  contributors:
+  - name: Viggo Tellefsen Wivestad
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
+  - name: Astri Moksnes Barbala
+- title: Copilot's Island of Joy - Balancing Individual Satisfaction with Team Interaction
+    in Agile Development
+  year: '2024'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Viggo Tellefsen Wivestad
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
+- title: 'A Journey Through SPACE: Unpacking the Perceived Productivity of GitHub
+    Copilot'
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-031-72781-8_5
+  contributors:
+  - name: Viggo Tellefsen Wivestad
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
+  - name: Rasmus Ulfsnes
 source_mentions: []
 summary: null
 permalink: /people/viggo-tellefsen-wivestad/

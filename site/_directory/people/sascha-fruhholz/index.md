@@ -88,58 +88,6 @@ selected_works:
   - name: Sascha Frühholz
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
-- title: 'Emotion in Nonverbal Communication: Comparing Animal and Human Vocalizations
-    and Human Text Messages'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1177/17540739241303505
-  contributors:
-  - name: T. Gruber
-  - name: E.F. Briefer
-  - name: A. Grütter
-  - name: A. Xanthos
-  - name: D. Grandjean
-  - name: M.B. Manser
-  - name: Sascha Frühholz
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-- title: Understanding voice naturalness
-  year: '2025'
-  source: Literature review
-  group_type: Literature review
-  url: https://doi.org/10.1016/j.tics.2025.01.010
-  contributors:
-  - name: Christine Nussbaum
-  - name: Sascha Frühholz
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-  - name: Stefan R. Schweinberger
-- title: Emotion Induction Modulates Neural Dynamics Related to the Originality of
-    Ideational Creativity
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1002/hbm.70182
-  contributors:
-  - name: Radwa Khalil
-  - name: Sascha Frühholz
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-  - name: Ben Godde
-- title: Evolutionary Continuities and Discontinuities in Affective Voice Signaling
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1037/emo0001484
-  contributors:
-  - name: Sascha Frühholz
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-  - name: Joris Dietziker
-  - name: Matthias Staib
-  - name: Marine Bobin
-  - name: Florence Steiner
 - title: Enhanced attention-related alertness following right anterior insular cortex
     neurofeedback training
   year: '2024'
@@ -177,6 +125,59 @@ selected_works:
   - name: Sascha Frühholz
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
+- title: Music as an Evolved Tool for Socio-Affective Fiction
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/17540739241259562
+  contributors:
+  - name: Caitlyn Trevor
+  - name: Sascha Frühholz
+    slug: sascha-fruhholz
+    url: /people/sascha-fruhholz/
+- title: 'Studying clinical communication through multiple lenses: The underused potential
+    of inter-disciplinary collaborations'
+  year: '2022'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1016/j.pec.2022.04.010
+  contributors:
+  - name: Hanne Cathrine Lie
+  - name: Jennifer Gerwing
+  - name: Hilde Bondevik
+  - name: Inga Bostad
+  - name: Dan-Mikael Ellingsen
+  - name: Sascha Frühholz
+    slug: sascha-fruhholz
+    url: /people/sascha-fruhholz/
+  - name: Pål Gulbrandsen
+  - name: Magnus Hontvedt
+  - name: Thomas de Lange
+  - name: Anne Marie Landmark
+  - name: Berit Hofset Larsen
+  - name: Julia Menichetti
+- title: The evolutionary benefit of less-credible affective musical signals for emotion
+    induction during storytelling
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1017/S0140525X20001004
+  contributors:
+  - name: Caitlyn Trevor
+  - name: Sascha Frühholz
+    slug: sascha-fruhholz
+    url: /people/sascha-fruhholz/
+- title: 'Face and voice perception: Understanding commonalities and differences'
+  year: '2020'
+  source: Literature review
+  group_type: Literature review
+  url: https://doi.org/10.1016/j.tics.2020.02.001
+  contributors:
+  - name: Andrew W. Young
+  - name: Sascha Frühholz
+    slug: sascha-fruhholz
+    url: /people/sascha-fruhholz/
+  - name: Stefan R. Schweinberger
 source_mentions: []
 wps:
 - WP1

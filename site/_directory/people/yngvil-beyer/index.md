@@ -42,56 +42,6 @@ selected_works:
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
   - name: Marie Roald
-- title: 'The NorHand Model: a new public AI model from the National Library of Norway'
-  year: '2024'
-  source: Interview
-  group_type: Media
-  url: https://www.transkribus.org/success-story/norhand
-  contributors:
-  - name: Yngvil Beyer
-    slug: yngvil-beyer
-    url: /people/yngvil-beyer/
-- title: Håndskriftsgjenkjenning med Transkribus
-  year: '2023'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Yngvil Nesheim Beyer
-    slug: yngvil-beyer
-    url: /people/yngvil-beyer/
-  - name: Andre Kåsen
-- title: Digitale tjenester fra Nasjonalbiblioteket
-  year: '2023'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Yngvil Nesheim Beyer
-    slug: yngvil-beyer
-    url: /people/yngvil-beyer/
-- title: Nasjonal infrastruktur for språkteknologi
-  year: '2023'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Yngvil Nesheim Beyer
-    slug: yngvil-beyer
-    url: /people/yngvil-beyer/
-- title: Handwritten text recognition at the National Library
-  year: '2023'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Yngvil Nesheim Beyer
-    slug: yngvil-beyer
-    url: /people/yngvil-beyer/
-- title: Digitale utforskninger av Harriet Backers brev
-  year: '2023'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Yngvil Nesheim Beyer
-    slug: yngvil-beyer
-    url: /people/yngvil-beyer/
 - title: NorFraktur_1600_PyLaia
   year: '2022'
   source: Dataset
@@ -127,6 +77,59 @@ selected_works:
   - name: Andre Kåsen
   - name: Knut T. Fosseide
   - name: Christopher Kermorvant
+- title: 'NorHand: a preliminary dataset for Norwegian Handwriting Recognition'
+  year: '2022'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Yngvil Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
+  - name: Andre Kåsen
+- title: 'Christiane Koren: Dagbok 1809'
+  year: '2017'
+  source: Non-fiction book
+  group_type: Non-fiction book
+  contributors:
+  - name: Yngvil Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
+- title: 'Christiane Koren: Dagbok 1810'
+  year: '2017'
+  source: Non-fiction book
+  group_type: Non-fiction book
+  contributors:
+  - name: Yngvil Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
+- title: Christiane Koren. Dagbok 1814
+  year: '2016'
+  source: Popular science book
+  group_type: Popular science book
+  contributors:
+  - name: Yngvil Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
+- title: 'Christiane Koren: Reisedagbok for turen til Kongsberg 1805'
+  year: '2016'
+  source: Non-fiction book
+  group_type: Non-fiction book
+  contributors:
+  - name: Yngvil Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
+- title: 'Small talk makes a big difference: recent developments in interactive, SMS-based
+    television'
+  year: '2007'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Yngvil Beyer
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
+  - name: Gunn Enli
+  - name: Arnt Maasø
+  - name: Espen Ytreberg
 source_mentions:
 - about/organisation/council/index.md
 summary: null

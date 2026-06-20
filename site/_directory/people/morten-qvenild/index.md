@@ -109,22 +109,6 @@ selected_works:
     slug: morten-qvenild
     url: /people/morten-qvenild/
   - name: Mats Eilertsen
-- title: 'Samfunnsrelevans på spill: Kunstnerisk utviklingsarbeid i dagens utdanningspolitikk'
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  url: https://www.researchcatalogue.net/view/2421554/3524484
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Morten Qvenild
-    slug: morten-qvenild
-    url: /people/morten-qvenild/
-  - name: Jostein Gundersen
-    slug: jostein-gundersen
-    url: /people/jostein-gundersen/
-  - name: Linda Herfindal Lien
 - title: Symfoni
   year: '2024'
   source: Music performance
@@ -158,14 +142,38 @@ selected_works:
     url: /people/morten-qvenild/
   - name: Ronja Berget
   - name: Robin Barstow
-- title: Hva er kunstnerisk utviklingsarbeid på Norges Musikkhøgskole
-  year: '2023'
-  source: Presentation
-  group_type: Lecture
+- title: Goodbye Intuition
+  year: '2020'
+  source: Professional article
+  group_type: Professional article
+  url: https://doi.org/10.22501/NMH-AR.974962
+  contributors:
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
+  - name: Morten Qvenild
+    slug: morten-qvenild
+    url: /people/morten-qvenild/
+  - name: Sidsel Endresen
+  - name: Andrea Neumann
+  - name: Henrik Frisk
+  - name: David Toop
+  - name: Anna Lindal
+  - name: Lasse Marhaug
+- title: Morten Qvenild – The HyPer(sonal) Piano Project
+  year: '2017'
+  source: Artistic degree phd
+  group_type: Artistic degree phd
+  url: https://doi.org/10.22501/nmh-ar.291286
   contributors:
   - name: Morten Qvenild
     slug: morten-qvenild
     url: /people/morten-qvenild/
+  - name: Jon Henrik Hellstenius
+  - name: Eivind Buene
+  - name: Øyvind Brandtsegg
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
 source_mentions:
 - about/organisation/council/index.md
 summary: null

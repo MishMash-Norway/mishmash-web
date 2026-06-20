@@ -52,15 +52,6 @@ selected_works:
   - name: Tine Grieg Viig
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
-- title: Kan vi snakke om læring — på nytt?
-  year: '2025'
-  source: Feature article
-  group_type: Media
-  url: https://www.khrono.no/kan-vi-snakke-om-laering-pa-nytt/986768
-  contributors:
-  - name: Tine Grieg Viig
-    slug: tine-grieg-viig
-    url: /people/tine-grieg-viig/
 - title: 'MineMixMusics: Exploring co-creative learning processes in postdigital music
     education'
   year: '2025'
@@ -71,20 +62,6 @@ selected_works:
   - name: Tine Grieg Viig
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
-- title: Becoming post-researchers in a Nordic music education context
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Mari Ystanes Fjeldstad
-  - name: Tine Grieg Viig
-    slug: tine-grieg-viig
-    url: /people/tine-grieg-viig/
-  - name: Runa Hestad Jensen
-  - name: Rolf Martin Snustad
-  - name: Guro von Germeten
-  - name: Synnøve Kvile
-  - name: Mali Hauen
 - title: 'The MineMixMusic project: exploring digital tools and virtual spaces in
     music education'
   year: '2021'
@@ -132,6 +109,34 @@ selected_works:
 - title: 'The dynamics of collaborative creative music-making: reflection-in-action,
     facilitation and interaction'
   year: '2016'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Tine Grieg Viig
+    slug: tine-grieg-viig
+    url: /people/tine-grieg-viig/
+- title: 'DATES a cappella quintet: comprised of David, Anne, Tine, Egil, and Silje,
+    hence the name DATES (see previous listings for 2012 and 2013). In 2014, DATES
+    for the first time received institutional funding as a research group (for a 3-year
+    period). The group’s focus is now on original arrangements and compositions for
+    jazz voices, and documentation of artistic development. In Autumn 2014 we performed
+    for the grand opening of Bergen University College’s new campus, the Grieg Research
+    School, etc'
+  year: '2014'
+  source: Music performance
+  group_type: Music performance
+  url: https://www.facebook.com/vokalgruppendates?ref=hl
+  contributors:
+  - name: David Gabriel Hebert
+  - name: Anne Kristine Wallace Turøy
+  - name: Tine Grieg Viig
+    slug: tine-grieg-viig
+    url: /people/tine-grieg-viig/
+  - name: Egil Haugland
+  - name: Silje Valde Onsrud
+- title: Phenomenological readings of poetics - an approach to a phenomenological
+    attitude
+  year: '2011'
   source: Conference lecture
   group_type: Conference
   contributors:

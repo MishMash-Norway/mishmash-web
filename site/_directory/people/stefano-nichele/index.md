@@ -45,6 +45,8 @@ selected_works:
   - name: Michael E. Rule
   - name: Henning Sprekeler
   - name: Stefano Nichele
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
   - name: Timothy O’Leary
 - title: 'Engramnca: a neural cellular automaton model of memory transfer'
   year: '2025'
@@ -57,6 +59,8 @@ selected_works:
   - name: Mia-Katrin Kvalsund
   - name: Mikkel Lepperød
   - name: Stefano Nichele
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
 - title: Reservoir Computing with Evolved Critical Neural Cellular Automata
   year: '2025'
   source: Book chapter
@@ -65,6 +69,8 @@ selected_works:
   contributors:
   - name: Sidney Pontes-Filho
   - name: Stefano Nichele
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
   - name: Mikkel Elle Lepperød
 - title: Information Encoding and Decoding in In Vitro Neural Networks on Micro Electrode
     Arrays through Stimulation Timing
@@ -78,6 +84,8 @@ selected_works:
   - name: Ioanna Sandvig
   - name: Axel Sandvig
   - name: Stefano Nichele
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
 - title: Proceedings of NORA’s annual conference 2025
   year: '2025'
   source: Conference abstract
@@ -88,6 +96,8 @@ selected_works:
   - name: Anam Javaid
   - name: Michael Solvang
   - name: Stefano Nichele
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
   - name: Michael Riegler
   - name: Bjørn-Jostein Singstad
   - name: Baltasar Beferull-Lozano
@@ -183,45 +193,60 @@ selected_works:
   - name: Rosanne Francisca van de Wijdeven
   - name: Kristine Heiney
   - name: Stefano Nichele
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
   - name: Ioanna Sandvig
   - name: Axel Sandvig
-- title: The Role of the Substrate in CA-based Evolutionary Algorithms
-  year: '2024'
+- title: "The Dynamical Landscape of Reservoir Computing\r\nwith Elementary Cellular\
+    \ Automata"
+  year: '2021'
   source: Book chapter
   group_type: Book chapter
-  url: https://doi.org/10.1145/3638529.3654112
+  url: https://doi.org/10.1162/isal_a_00440
   contributors:
-  - name: Gloria Pietropolli
+  - name: Tom Eivind Glover
+  - name: Pedro Lind
+  - name: Anis Yazidi
+  - name: Evgeny Osipov
   - name: Stefano Nichele
-  - name: Eric Medvet
-- title: Critical Neural Cellular Automata
-  year: '2023'
-  source: Lecture
-  group_type: Lecture
-  url: https://www.nichele.eu/ALIFE-DistributedGhost/2-Pontes.pdf
-  contributors:
-  - name: Sidney Pontes-Filho
-  - name: Stefano Nichele
-  - name: Mikkel Lepperød
-- title: Pathfinding Neural Cellular Automata with Local Self-Attention
-  year: '2023'
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
+- title: Ethical Tissues
+  year: '2020'
   source: Conference lecture
   group_type: Conference
+  url: http://www.chalmers.se/SiteCollectionDocuments/Centrum/CHAIR/SAIS2020/SAIS_2020_Vie_et_al.pdf
   contributors:
-  - name: Felix Simon Reimers
-  - name: Sanyam Jain
-  - name: Shrestha Aarati
+  - name: Knut Jørgen Vie
+  - name: Erik Thorstensen
+  - name: Mads Dahl Gjefsen
   - name: Stefano Nichele
-- title: 'Beyond weight plasticity: Local learning with propagation delays in spiking
-    neural networks'
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
+  - name: Gunnar Tufte
+- title: Instantaneous Mental Workload Recognition Using Wavelet-Packet Decomposition
+    and Semi-Supervised Learning
+  year: '2020'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/SSCI44817.2019.9002997
   contributors:
-  - name: Jørgen Jensen Farner
-  - name: Ola Huse Ramstad
+  - name: Jianhua Zhang
+  - name: Jianrong Li
   - name: Stefano Nichele
-  - name: Kristine Heiney
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
+- title: Trajectories and Attractors as Specification for the Evolution of Behavior
+    in Cellular Automata
+  year: '2010'
+  source: Book chapter
+  group_type: Book chapter
+  url: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5586115&tag=1
+  contributors:
+  - name: Stefano Nichele
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
+  - name: Gunnar Tufte
 source_mentions: []
 wps:
 - WP1

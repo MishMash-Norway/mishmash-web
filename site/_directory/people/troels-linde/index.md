@@ -34,19 +34,7 @@ urls:
 aliases: []
 tags: []
 search_keywords: []
-selected_works:
-- title: Kamera og teknologi som kunstnerisk verktøy (Camera and technology as artistic
-    tool)
-  year: '2024'
-  source: Lecture
-  group_type: Lecture
-  url: https://www.inn.no/arrangementer/innku/
-  contributors:
-  - name: Troels Linde
-    slug: troels-linde
-    url: /people/troels-linde/
-  - name: Anna Myking
-  - name: Duane Hopkins
+selected_works: []
 source_mentions: []
 summary: null
 permalink: /people/troels-linde/

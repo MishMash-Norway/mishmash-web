@@ -99,16 +99,6 @@ selected_works:
   - name: Govert Valkenburg
     slug: govert-valkenburg
     url: /people/govert-valkenburg/
-- title: Innovasjon ved NTNU - Evaluering av Strategisk program for Kunnskapsbasert
-    Innovasjon
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: William Throndsen
-  - name: Govert Valkenburg
-    slug: govert-valkenburg
-    url: /people/govert-valkenburg/
 - title: Innovating at NTNU - An evaluative enquiry into NTNU’s innovation ecosystem
   year: '2025'
   source: Research report
@@ -131,36 +121,6 @@ selected_works:
     slug: govert-valkenburg
     url: /people/govert-valkenburg/
   - name: Ida Fagerli
-- title: Arctic food and energy security at the crossroads
-  year: '2025'
-  source: Letter to the editor
-  group_type: Letter to the editor
-  url: https://doi.org/10.1038/s43247-025-02122-6
-  contributors:
-  - name: Adrian Unc
-  - name: Majdi R. Abou Najm
-  - name: Paul Eric Aspholm
-  - name: Tirupati Bolisetti
-  - name: Colleen Charles
-  - name: Ranjan Datta
-  - name: Trine Eggen
-  - name: Belinda Eline Flem
-  - name: Getu Hailu
-  - name: Eldbjørg Sofie Heimstad
-  - name: Margot Hurlbert
-  - name: Meriam Karlsson
-  - name: Marius Støylen Korsnes
-  - name: Arthur Nash
-  - name: David Parsons
-  - name: Radha Sivarajan Sajeevan
-  - name: Narasinha J. Shurpali
-  - name: Govert Valkenburg
-    slug: govert-valkenburg
-    url: /people/govert-valkenburg/
-  - name: Danielle Wilde
-  - name: Bing Wu
-  - name: Sandra F. Yanni
-  - name: Debasmita Misra
 - title: 'Relational responsibilities: Researchers perspective on current and progressive
     assessment criteria: A focus group study'
   year: '2024'
@@ -190,6 +150,25 @@ selected_works:
   - name: Govert Valkenburg
     slug: govert-valkenburg
     url: /people/govert-valkenburg/
+- title: Time(s) on Earth
+  year: '2023'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Pia P. Palme
+  - name: Govert Valkenburg
+    slug: govert-valkenburg
+    url: /people/govert-valkenburg/
+- title: Technology and Social Problems
+  year: '2018'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://www.govertvalkenburg.net/node/178
+  contributors:
+  - name: Govert Valkenburg
+    slug: govert-valkenburg
+    url: /people/govert-valkenburg/
+  - name: Harro van Lente
 source_mentions:
 - about/organisation/council/index.md
 summary: null

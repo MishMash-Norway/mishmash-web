@@ -100,6 +100,8 @@ selected_works:
   - name: Anam Javaid
   - name: Michael Solvang
   - name: Stefano Nichele
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
   - name: Michael Riegler
   - name: Bjørn-Jostein Singstad
   - name: Baltasar Beferull-Lozano

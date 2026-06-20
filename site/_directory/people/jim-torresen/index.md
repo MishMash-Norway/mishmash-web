@@ -67,6 +67,8 @@ selected_works:
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: Investigating Auditory–Visual Perception Using Multi-Modal Neural Networks
     with the SoundActions Dataset
   year: '2026'
@@ -76,6 +78,8 @@ selected_works:
   contributors:
   - name: Jinyue Guo
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
@@ -92,6 +96,8 @@ selected_works:
   - name: Adel Baselizadeh
   - name: Md Zia Uddin
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: 'PINE: Planning and Identifying Neural Network for Thinking Fast and Slow'
   year: '2025'
   source: Book chapter
@@ -101,6 +107,8 @@ selected_works:
   - name: Håkon Haustreis Tønnessen
   - name: Md Zia Uddin
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: Privacy-Preserving 3D Lidar-Based Multi-Modal Activity Recognition in Human-Robot
     Interaction
   year: '2025'
@@ -113,6 +121,8 @@ selected_works:
   - name: Weria Khaksar
   - name: Diana Saplacan Lindblom
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: An Autonomous Floor Clearing Strategy to Tidy up Unknown Home Environments
     with a Mobile Manipulator Robot
   year: '2025'
@@ -122,6 +132,8 @@ selected_works:
   contributors:
   - name: Letícia dos Santos
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
   - name: Mariana Kolberg
   - name: Renan Maffei
 - title: 'Robot Ethics: Ethical, Legal, and User Perspectives in the Development and
@@ -132,6 +144,8 @@ selected_works:
   url: https://doi.org/10.1109/mra.2025.3619589
   contributors:
   - name: Jim Torresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
   - name: Cecilia Laschi
   - name: Edson Prestes
   - name: Lydia E. Kavraki
@@ -148,6 +162,8 @@ selected_works:
   - name: Farzan Majeed Noori
   - name: Md Zia Uddin
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: Situation-Based Navigation Strategy Switching for Mobile Robots in Dynamic
     Pedestrian Environments
   year: '2025'
@@ -159,6 +175,8 @@ selected_works:
   - name: Ørjan Strand
   - name: Jun Miura
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: Integrating Bilevel Planning and Offline Skill Learning for Enhancing Mobile
     Manipulation
   year: '2025'
@@ -169,6 +187,8 @@ selected_works:
   - name: Shin Watanabe
   - name: Geir Horn
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
   - name: Kai Olav Ellefsen
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/

@@ -56,29 +56,14 @@ selected_works:
     slug: henning-birkeland
     url: /people/henning-birkeland/
   - name: Jannicke Johansen
-- title: Ctrl-AI
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Ivar Kjellmo
-  - name: Henning Birkeland
-    slug: henning-birkeland
-    url: /people/henning-birkeland/
-- title: Artificial Intelligence - Generative AI
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Henning Birkeland
-    slug: henning-birkeland
-    url: /people/henning-birkeland/
 - title: '3D-grafikk: Fra geometri til realisme'
   year: '2024'
   source: Textbook
   group_type: Textbook
   contributors:
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
   - name: Henning Birkeland
     slug: henning-birkeland
     url: /people/henning-birkeland/
@@ -90,6 +75,8 @@ selected_works:
   url: https://www.forskersonen.no/design-film-meninger/hvordan-lager-3d-grafikere-scener-til-spill-og-film/2315134
   contributors:
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
   - name: Henning Birkeland
     slug: henning-birkeland
     url: /people/henning-birkeland/
@@ -100,14 +87,8 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sigbjørn Galåen
-  - name: Henning Birkeland
-    slug: henning-birkeland
-    url: /people/henning-birkeland/
-- title: Artificial Intelligence, Generative AI
-  year: '2024'
-  source: Lecture
-  group_type: Lecture
-  contributors:
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
   - name: Henning Birkeland
     slug: henning-birkeland
     url: /people/henning-birkeland/
@@ -117,6 +98,8 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
   - name: Henning Birkeland
     slug: henning-birkeland
     url: /people/henning-birkeland/
@@ -130,6 +113,8 @@ selected_works:
     slug: henning-birkeland
     url: /people/henning-birkeland/
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
 - title: Slik blir fremtiden i 3D-grafikk for spill, film og visualisering
   year: '2022'
   source: Professional article
@@ -139,6 +124,20 @@ selected_works:
     slug: henning-birkeland
     url: /people/henning-birkeland/
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
+- title: 'Formidlingsprosjekt: Bransjerelatert Fagbok Innen 3D-grafikk'
+  year: '2021'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
+  - name: Ivar Kjellmo
+  - name: Henning Birkeland
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
 source_mentions: []
 summary: 'Henning Birkeland is a college teacher at Westerdals - Kristiania University
   College and teaches 3D-graphics and visual effects. Henning was involved in developing

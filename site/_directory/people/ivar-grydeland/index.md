@@ -54,14 +54,6 @@ selected_works:
   - name: Ivar Grydeland
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
-- title: Ivar Grydeland - Bøyning, brytning
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Ivar Grydeland
-    slug: ivar-grydeland
-    url: /people/ivar-grydeland/
 - title: Love Your Latency, September 2024
   year: '2024'
   source: Music performance
@@ -98,16 +90,6 @@ selected_works:
   - name: Ivar Grydeland
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
-- title: Blikk på øyeblikket – eksempler på ulike arbeidsmetoder hos improviserende
-    musikere
-  year: '2024'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.55669/oa491103
-  contributors:
-  - name: Ivar Grydeland
-    slug: ivar-grydeland
-    url: /people/ivar-grydeland/
 - title: Goodbye Intuition
   year: '2020'
   source: Professional article
@@ -139,17 +121,6 @@ selected_works:
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
   - name: Frode Grytten
-- title: Dans les arbres - Phosphoresence
-  year: '2017'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Ivar Grydeland
-    slug: ivar-grydeland
-    url: /people/ivar-grydeland/
-  - name: Xavier Charles
-  - name: Ingar Zach
-  - name: Christian Wallumrød
 - title: Ensemble and Ensemble of Me. What I think about when I think about improvisation
   year: '2016'
   source: Research report
@@ -159,6 +130,33 @@ selected_works:
   - name: Ivar Grydeland
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
+- title: Stop Freeze Wait Eat
+  year: '2015'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
+- title: Ensemble & Ensemble of Me – What I Think About When I Think About Improvisation
+  year: '2015'
+  source: PhD thesis
+  group_type: PhD thesis
+  contributors:
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
+- title: Dans les arbres
+  year: '2008'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Ivar Grydeland
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
+  - name: Ingar Zach
+  - name: Christian Wallumrød
+  - name: Xavier Charles
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

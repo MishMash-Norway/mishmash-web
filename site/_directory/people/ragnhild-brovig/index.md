@@ -41,15 +41,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Kunstig intelligens, FoU og kreativ næring
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  url: https://trondelag.pameldingssystem.no/nasjonalt-fagkonferanse-for-kulturell-og-kreativ-naering-28-januar?#/default-12928
-  contributors:
-  - name: Ragnhild Brøvig
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
 - title: Presentasjon av Mishmash – senter for KI og kreativitet
   year: '2026'
   source: Conference lecture
@@ -93,22 +84,6 @@ selected_works:
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
   - name: Alex Stevenson
-- title: Rethinking Sampling, Value, and Power in Digital Music Culture
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Ragnhild Brøvig
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
-- title: Turning Vague Ideas into Strong Research Proposals
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Ragnhild Brøvig
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
 - title: The Decline of Cloud-Based Sample Platforms?
   year: '2025'
   source: Conference lecture
@@ -138,6 +113,33 @@ selected_works:
     url: /people/ragnhild-brovig/
   - name: Paul Harkins
   - name: Nick Prior
+- title: 'Sampling''s AH, AHA, and HAHA: Perspectives on Aesthetic, Political, and
+    Humorous Aspects of Sampling'
+  year: '2025'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Ragnhild Brøvig
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
+- title: The emergence and potential decline of cloud-based sample platforms
+  year: '2025'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Vemund Hegstad Alm
+  - name: Ragnhild Brøvig
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
+- title: Stealing From or Facilitating Hard-Working Musicians? Remixers' Code of Honor
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.4324/9781003402459-33
+  contributors:
+  - name: Ragnhild Brøvig
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

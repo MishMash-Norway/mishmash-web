@@ -79,15 +79,6 @@ selected_works:
   - name: Cagri Erdem
     slug: cagri-erdem
     url: /people/cagri-erdem/
-- title: Three is a crowd?
-  year: '2024'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Bernt Isak Grave Wærstad
-  - name: Tejaswinee Kelkar
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
 - title: Household Objects
   year: '2024'
   source: Music performance
@@ -108,48 +99,60 @@ selected_works:
   - name: Tejaswinee Kelkar
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
-- title: 'IEMI: AN IMMERSIVE, EVOLVING MOTION-CONTROLLED INSTALLATION'
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  url: https://smcnetwork.org/smc2024/papers/SMC2024_paper_id158.pdf
-  contributors:
-  - name: Ahmet Emin Memis
-  - name: Tejaswinee Kelkar
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-- title: Computational and Multimodal Music Creativity
-  year: '2024'
-  source: Lecture
-  group_type: Lecture
-  url: https://www.meetup.com/oslo-ai/events/300631583/
-  contributors:
-  - name: Tejaswinee Kelkar
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-- title: Musikkteknologi – skap fremtidens lydbilde
-  year: '2024'
-  source: Lecture
-  group_type: Lecture
-  url: https://www.mn.uio.no/om/aktuelt/arrangementer/jenter-og-teknologi-oslo-2024.html
-  contributors:
-  - name: Tejaswinee Kelkar
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-- title: Nyege Nyege Remix Oslo
-  year: '2024'
+- title: 'Mira Thiruchelvam og Vestnorsk Jazzensemble: Pantone 448 C with Cumin'
+  year: '2023'
   source: Music performance
   group_type: Music performance
-  url: https://www.mela.no/arrangement/nyege-nyege-remix-oslo/
   contributors:
   - name: Tejaswinee Kelkar
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
-- title: Raga Bad
-  year: '2024'
+- title: Coreference and disjoint reference in the semantics of narrative dance
+  year: '2018'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://semanticsarchive.net/Archive/GE4MWViN/Patel-Grosz.pdf
+  contributors:
+  - name: Pritty Patel-Grosz
+  - name: Patrick Georg Grosz
+  - name: Tejaswinee Kelkar
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: Evaluating a collection of Sound-Tracing Data of Melodic Phrases
+  year: '2018'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Tejaswinee Kelkar
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Udit Roy
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: MAM - Nepal / Avatar
+  year: '2018'
   source: Music performance
   group_type: Music performance
-  url: https://deichman.no/event/raga-bad-3%23%3A-med-sanskriti-shreshtha_8efbae8b-71c6-4916-bebc-cff9990406a9
+  contributors:
+  - name: Tejaswinee Kelkar
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+- title: 'Jazz in Khartoum - ft Tejaswinee Kelkar #2'
+  year: '2018'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Tejaswinee Kelkar
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+- title: Jazz in Khartoum - ft. Sudeshna Bhattacharya
+  year: '2018'
+  source: Music performance
+  group_type: Music performance
   contributors:
   - name: Tejaswinee Kelkar
     slug: tejaswinee-kelkar

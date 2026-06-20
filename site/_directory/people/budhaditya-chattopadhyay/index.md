@@ -80,24 +80,6 @@ selected_works:
   - name: Budhaditya Chattopadhyay
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
-- title: 'Reading Aloud: Sonic Perspectives from the Global Souths'
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  url: https://www.rewirefestival.nl/artist/reading-aloud-sonic-perspectives-from-the-global-souths
-  contributors:
-  - name: Budhaditya Chattopadhyay
-    slug: budhaditya-chattopadhyay
-    url: /people/budhaditya-chattopadhyay/
-- title: Auditory Situationism and Unmedia
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  url: https://artacademycalendar.khio.no/open-forum/budhaditya-chattopadhyay-auditory-situationism-and-unmedia
-  contributors:
-  - name: Budhaditya Chattopadhyay
-    slug: budhaditya-chattopadhyay
-    url: /people/budhaditya-chattopadhyay/
 - title: 'Sonic Perspectives from the Global Souths: Unheard Reciprocity, Resonant
     Relationality, and Aural Confluence'
   year: '2026'
@@ -143,6 +125,23 @@ selected_works:
   source: Exhibition
   group_type: Exhibition
   url: https://hearhere.be/en/expo/dhv%C4%81ni
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+- title: 'Archival Intelligence: Machine Learning and Intergenerational Memory'
+  year: '2025'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+- title: 'Dhvāni: Sacred Sounds and Decolonial Machines'
+  year: '2023'
+  source: Conference lecture
+  group_type: Conference
+  url: https://doi.org/10.5281/ZENODO.11189323
   contributors:
   - name: Budhaditya Chattopadhyay
     slug: budhaditya-chattopadhyay

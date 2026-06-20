@@ -55,79 +55,6 @@ search_keywords:
 - Interaction design
 - Artificial intelligence
 selected_works:
-- title: INNKU 2025 - MISHMASH
-  year: '2025'
-  source: Media podcast
-  group_type: Media
-  url: https://shows.acast.com/fts-podden/episodes/697896b3590ca8b771a9a373
-  contributors:
-  - name: Ida Jahr
-    slug: ida-jahr
-    url: /people/ida-jahr/
-  - name: Fredrik Graver
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-  - name: Mathieu Lacroix
-  - name: Sashidharan Komandur
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-- title: INNKU 2025
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  url: https://www.inn.no/om-universitetet/fakultet-for-film-tv-spill/hva-skjer-pa-ftvs/inkku-2025/
-  contributors:
-  - name: Nina Grünfeld
-    slug: nina-fredrikke-grunfeld
-    url: /people/nina-fredrikke-grunfeld/
-  - name: Anne-Brit Soma Reienes
-  - name: Hanne-Lovise Skartveit
-  - name: Guro Erika Trøseid Gjerstadberget
-  - name: Nina Malterud
-  - name: Trond Lossius
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: Azar Ebrahimi
-  - name: Dino Murselovic
-  - name: Martin Anil Choudari
-  - name: Gunhild Lien
-  - name: James Welburn
-  - name: Fredrik Graver
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-  - name: Sashidharan Komandur
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-  - name: Ida Jahr
-    slug: ida-jahr
-    url: /people/ida-jahr/
-  - name: Mathieu Lacroix
-  - name: Hedda Fredly
-  - name: Magnus B. Lysbakken
-  - name: Trine Kampmann-Jensen
-  - name: Tonje Louise Finne
-    slug: tonje-louise-finne
-    url: /people/tonje-louise-finne/
-  - name: Camilla Vanebo
-  - name: Heidi Linde
-  - name: Nina Monika Bergstrøm
-  - name: Ole Christoffer Haga
-    slug: ole-christoffer-haga
-    url: /people/ole-christoffer-haga/
-  - name: Wenche Hellekås
-  - name: Jørgen Stangebye Larsen
-  - name: Rasmus Jakob Tuve Eriksson
-  - name: Eli Bø
-  - name: Per Ditlef Fredriksen
-  - name: Linn-Terese Bern
-  - name: Steven Bachelder
-  - name: Carl Henrik Olof Svensson
-  - name: Signe Gerda Landfald
-  - name: Arild Andresen
-  - name: Stefan Faldbakken
-  - name: Fredrik Skrattegård
-  - name: Lotte Mik-Meyer
-  - name: Sara Johnsen
 - title: Efficacy of Using Large Language Model (LLM) Based Tools for Synthesizing
     Findings from Human Factors Research Studies.
   year: '2025'
@@ -154,53 +81,6 @@ selected_works:
   - name: Giovanni Pignoni
   - name: Amit Sharma
   - name: Frode Strand Volden
-- title: Essential Game Elements - Immersive Training​
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Fred Fröhlich
-  - name: Sashidharan Komandur
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-- title: Accounting for effects of variation in luminance in pupillometry for field
-    measurements of cognitive workload
-  year: '2020'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1109/JSEN.2020.3038291
-  contributors:
-  - name: Giovanni Pignoni
-  - name: Sashidharan Komandur
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-  - name: Frode Volden
-- title: Attention! Designing a Target Group-Oriented Risk Communication Strategy
-  year: '2020'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1007/978-3-030-50732-9_77
-  contributors:
-  - name: Lara Raffel
-  - name: Patrick Bours
-  - name: Sashidharan Komandur
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-- title: 'Maritime Navigation: Characterizing Collaboration in a High-Speed Craft
-    Navigation Activity'
-  year: '2020'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1007/978-3-030-50726-8_65
-  contributors:
-  - name: Tim Streilein
-  - name: Sashidharan Komandur
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-  - name: Giovanni Pignoni
-  - name: Frode Volden
-  - name: Petter Lunde
-  - name: Frode Voll Mjelde
 - title: Development of a Quantitative Evaluation Tool of Cognitive Workload in Field
     Studies Through Eye Tracking.
   year: '2019'
@@ -212,17 +92,86 @@ selected_works:
   - name: Sashidharan Komandur
     slug: sashi-komandur
     url: /people/sashi-komandur/
-- title: The Relationship Between Usability and Biometric Authentication in Mobile
-    Phones
-  year: '2019'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1007/978-3-030-23522-2_23
+- title: Touchless Access Control Using iBeacons in Norwegian Hospitals
+  year: '2018'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-319-96089-0_41
   contributors:
-  - name: Carly Grace Allen
+  - name: Sebastian Brage Hansen
   - name: Sashidharan Komandur
     slug: sashi-komandur
     url: /people/sashi-komandur/
+- title: Contours of a Roadmap for Developing Scenarios for the World of Autonomous
+    Ocean Systems
+  year: '2018'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Sashidharan Komandur
+    slug: sashi-komandur
+    url: /people/sashi-komandur/
+  - name: Thomas Porathe
+- title: 'Lean design of Spare Part Kit Production Cell : A Case Study from a Sperre
+    Industri AS'
+  year: '2016'
+  source: Book chapter
+  group_type: Book chapter
+  url: http://www.sefi.be/conference-2016/papers/Engineering_Education_Research__I_feel_brilliant/vijayan-lean-design-of-spare-part-kit-production-cell,-a-case-study-185.pdf
+  contributors:
+  - name: K.K. Vijayan
+  - name: Ola Jon Mork
+  - name: Sashidharan Komandur
+    slug: sashi-komandur
+    url: /people/sashi-komandur/
+  - name: Irina-Emily Hansen
+- title: Towards Tactile Alarms Systems for Increased Awareness in Smart Environments
+  year: '2014'
+  source: Book chapter
+  group_type: Book chapter
+  url: http://www.thinkmind.org/download.php?articleid=smart_2014_1_30_40083
+  contributors:
+  - name: Girts Strazdins
+  - name: Sashidharan Komandur
+    slug: sashi-komandur
+    url: /people/sashi-komandur/
+  - name: Frøy Birte Bjørneseth
+- title: Towards an Experimental Design Framework for Evaluation of Dynamic Workload
+    and Situational Awareness in Safety Critical Maritime Settings
+  year: '2012'
+  source: Book anthology
+  group_type: Book anthology
+  contributors:
+  - name: Frøy Birte Bjørneseth
+  - name: Sathiya kumar Renganayagalu
+  - name: Mark Dunlop
+  - name: Eva Hornecker
+  - name: Sashidharan Komandur
+    slug: sashi-komandur
+    url: /people/sashi-komandur/
+- title: Relation between index finger width and hand width anthropometric measures
+  year: '2009'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/IEMBS.2009.5333195
+  contributors:
+  - name: Sashidharan Komandur
+    slug: sashi-komandur
+    url: /people/sashi-komandur/
+  - name: Peter Wallace Johnson
+  - name: Richard Lee Storch
+  - name: Michael G. Yost
+- title: Relation between mouse button click duration and muscle contraction time
+  year: '2008'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/IEMBS.2008.4649657
+  contributors:
+  - name: Sashidharan Komandur
+    slug: sashi-komandur
+    url: /people/sashi-komandur/
+  - name: Peter Wallace Johnson
+  - name: Richard Lee Storch
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

@@ -54,147 +54,87 @@ selected_works:
     url: /people/nina-fredrikke-grunfeld/
   - name: Birgitta Hosea
   - name: Asbjørn Tiller
-- title: Reaksjonene hagler etter spørsmål om Israel
-  year: '2026'
-  source: Interview
-  group_type: Media
-  url: https://utgave.vl.no/p/vart-land/2026-02-20/a/reaksjonene-hagler-etter-spoersmal-om-israel/81/2130133/70009383
-  contributors:
-  - name: Sofie Kristine Flydal
-  - name: Nina Grünfeld
-    slug: nina-fredrikke-grunfeld
-    url: /people/nina-fredrikke-grunfeld/
-- title: Fredagspanelet NRK
-  year: '2026'
-  source: Interview
-  group_type: Media
-  url: https://radio.nrk.no/podkast/fredagspanelet/l_c7fa9fd9-b5d2-4e2a-ba9f-d9b5d22e2a40
-  contributors:
-  - name: Nina Grünfeld
-    slug: nina-fredrikke-grunfeld
-    url: /people/nina-fredrikke-grunfeld/
-  - name: Knut Olav Åmås
-  - name: Iselin Shumba
-  - name: Ugo Fermariello
-- title: 'INNKU 2025: ARV OG MILJØ'
+- title: Representation of The Other - Fra jomfru Maria til Berit, jødinnen som arketype
   year: '2025'
-  source: Media podcast
-  group_type: Media
-  url: https://shows.acast.com/fts-podden/episodes/6978a1789c8df6b525a408fb
+  source: Conference lecture
+  group_type: Conference
+  url: https://www.researchcatalogue.net/view/2421554/2674688
   contributors:
   - name: Nina Grünfeld
     slug: nina-fredrikke-grunfeld
     url: /people/nina-fredrikke-grunfeld/
-  - name: Sara Johnsen
-- title: Dagsrevyen NRK
-  year: '2025'
-  source: Interview
-  group_type: Media
-  url: https://tv.nrk.no/serie/dagsrevyen/sesong/202512/episode/NNFA19121525#:~:text=18.%20Gjest-,Nina,-Grünfeld
+- title: Auf der Suche nach meiner verfolgten Großmutter
+  year: '2023'
+  source: Non-fiction book
+  group_type: Non-fiction book
+  url: https://www.schoeffling.de/buecher/nina-f-gr%C3%BCnfeld/frida
   contributors:
   - name: Nina Grünfeld
     slug: nina-fredrikke-grunfeld
     url: /people/nina-fredrikke-grunfeld/
-  - name: Åsa Vartdal
-- title: For oss jøder handler Eurovision om mer enn musikk, fest og glitter
-  year: '2025'
-  source: Feature article
-  group_type: Media
-  url: https://www.aftenposten.no/meninger/debatt/i/K8Bem7/israel-i-eurovision-song-contest-for-oss-joeder-handler-det-om-mer-enn-musikk-fest-og-glitter
+- title: Frida - Moje zbloudilá babička ve víru dějin
+  year: '2022'
+  source: Monograph
+  group_type: Monograph
+  url: https://www.grada.cz/frida-12178/
   contributors:
   - name: Nina Grünfeld
     slug: nina-fredrikke-grunfeld
     url: /people/nina-fredrikke-grunfeld/
-- title: Fredagspanelet
-  year: '2025'
-  source: Interview
-  group_type: Media
-  url: https://radio.nrk.no/podkast/fredagspanelet/l_ed08fa5d-002a-4e11-88fa-5d002a4e114b
+- title: Vi har hørt det før - en artikkel om de norske IS-barna i Syria sett opp
+    mot de jødiske barnas beskyttelsesbehov i 1939.
+  year: '2019'
+  source: Letter to the editor
+  group_type: Letter to the editor
   contributors:
   - name: Nina Grünfeld
     slug: nina-fredrikke-grunfeld
     url: /people/nina-fredrikke-grunfeld/
-  - name: Vegard Bjørsmo
-  - name: Simon Formo Hay
-  - name: Ugo Fermariello
-- title: INNKU 2025
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  url: https://www.inn.no/om-universitetet/fakultet-for-film-tv-spill/hva-skjer-pa-ftvs/inkku-2025/
+- title: 'Hvem tror du at du er? : ulike kjennetegn ved den personlige dokumentarfilmen'
+  year: '2014'
+  source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Nina Grünfeld
     slug: nina-fredrikke-grunfeld
     url: /people/nina-fredrikke-grunfeld/
-  - name: Anne-Brit Soma Reienes
-  - name: Hanne-Lovise Skartveit
-  - name: Guro Erika Trøseid Gjerstadberget
-  - name: Nina Malterud
-  - name: Trond Lossius
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: Azar Ebrahimi
-  - name: Dino Murselovic
-  - name: Martin Anil Choudari
-  - name: Gunhild Lien
-  - name: James Welburn
-  - name: Fredrik Graver
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-  - name: Sashidharan Komandur
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-  - name: Ida Jahr
-    slug: ida-jahr
-    url: /people/ida-jahr/
-  - name: Mathieu Lacroix
-  - name: Hedda Fredly
-  - name: Magnus B. Lysbakken
-  - name: Trine Kampmann-Jensen
-  - name: Tonje Louise Finne
-    slug: tonje-louise-finne
-    url: /people/tonje-louise-finne/
-  - name: Camilla Vanebo
-  - name: Heidi Linde
-  - name: Nina Monika Bergstrøm
-  - name: Ole Christoffer Haga
-    slug: ole-christoffer-haga
-    url: /people/ole-christoffer-haga/
-  - name: Wenche Hellekås
-  - name: Jørgen Stangebye Larsen
-  - name: Rasmus Jakob Tuve Eriksson
-  - name: Eli Bø
-  - name: Per Ditlef Fredriksen
-  - name: Linn-Terese Bern
-  - name: Steven Bachelder
-  - name: Carl Henrik Olof Svensson
-  - name: Signe Gerda Landfald
-  - name: Arild Andresen
-  - name: Stefan Faldbakken
-  - name: Fredrik Skrattegård
-  - name: Lotte Mik-Meyer
-  - name: Sara Johnsen
-- title: Kurset om antisemittisme
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  url: https://grunderfilm.no/news/f/kurset-om-antisemittisme
+- title: Mens du står utenfor (kortfilm, fiksjon, for barn)
+  year: '2001'
+  source: Film or video
+  group_type: Film or video
+  url: https://vimeo.com/342042759
   contributors:
   - name: Nina Grünfeld
     slug: nina-fredrikke-grunfeld
     url: /people/nina-fredrikke-grunfeld/
-  - name: Claudia Lenz
-  - name: Marius Haavind
-- title: 'Body: My Life in Parts'
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  url: https://grunderfilm.no/news/f/body-my-life-in-parts
+- title: Mellom min mors ben (kortfilm, fiksjon 8 min)
+  year: '1998'
+  source: Film or video
+  group_type: Film or video
+  url: https://vimeo.com/44922962
   contributors:
   - name: Nina Grünfeld
     slug: nina-fredrikke-grunfeld
     url: /people/nina-fredrikke-grunfeld/
-  - name: Nina B. Lichtenstein
+- title: Stikk i hjertet (novellefilm, fiksjon)
+  year: '1995'
+  source: Film or video
+  group_type: Film or video
+  url: https://vimeo.com/44917304
+  contributors:
+  - name: Nina Grünfeld
+    slug: nina-fredrikke-grunfeld
+    url: /people/nina-fredrikke-grunfeld/
+- title: Lang og tro tjeneste (novellefilm, fiksjon)
+  year: '1994'
+  source: Film or video
+  group_type: Film or video
+  url: https://vimeo.com/44974246
+  contributors:
+  - name: Nina Grünfeld
+    slug: nina-fredrikke-grunfeld
+    url: /people/nina-fredrikke-grunfeld/
+  - name: Sophie Hesselberg
 source_mentions:
 - about/organisation/council/index.md
 summary: null

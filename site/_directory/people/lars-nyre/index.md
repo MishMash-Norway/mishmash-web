@@ -41,18 +41,6 @@ selected_works:
   - name: Julie Sofie Berntsen
   - name: Julia Hellem Brandt
   - name: Helene Høylandskjær
-- title: 'Abels tårn: Hva skjer når to sorte hull krasjer?'
-  year: '2024'
-  source: Radio or TV
-  group_type: Media
-  url: https://radio.nrk.no/podkast/abels_taarn/l_7b4d4843-70ae-440d-8d48-4370ae940d8c
-  contributors:
-  - name: Vegard Undheim
-  - name: Sigrid Bratlie
-  - name: Lars Nyre
-    slug: lars-nyre
-    url: /people/lars-nyre/
-  - name: Torkild Jemterud
 - title: 'Mediedesign: en postnormal undersökning av framtidens tekniska medielösningar'
   year: '2023'
   source: Non-fiction chapter
@@ -71,62 +59,68 @@ selected_works:
     slug: lars-nyre
     url: /people/lars-nyre/
   - name: Bjørnar Tessem
-- title: Vi lagar teknologi. Innovasjonspedagogikk i Media City Bergen
-  year: '2019'
-  source: Lecture
-  group_type: Lecture
+- title: 'Book review: Paddy Scannell’s Television and the Meaning of Live (2014)'
+  year: '2015'
+  source: Book review
+  group_type: Book review
   contributors:
   - name: Lars Nyre
     slug: lars-nyre
     url: /people/lars-nyre/
-- title: Innovasjonspedagogikk i Media City Bergen
-  year: '2018'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Lars Nyre
-    slug: lars-nyre
-    url: /people/lars-nyre/
-- title: Principles for an AI Narrator
-  year: '2018'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Lars Nyre
-    slug: lars-nyre
-    url: /people/lars-nyre/
-- title: Innovasjonspedagogikk for arbeidslivet i Media City Bergen
-  year: '2018'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Lars Nyre
-    slug: lars-nyre
-    url: /people/lars-nyre/
-- title: Realistic face manipulation by morphing with average faces
-  year: '2017'
+- title: Designing the Amplifon. A locative sound medium to supplement DAB radio
+  year: '2015'
   source: Journal article
   group_type: Journal article
-  url: https://ojs.bibsys.no/index.php/NIK/article/view/426
+  url: https://doi.org/10.5617/jmi.v2i2.985
   contributors:
-  - name: Joar Midtun
-  - name: Bjørnar Tessem
-  - name: Simen Skaret Karlsen
   - name: Lars Nyre
     slug: lars-nyre
     url: /people/lars-nyre/
-- title: Micro-positioned Storytelling in Sound – Field Trial Evaluation of a Media
-    Prototype
-  year: '2016'
+- title: 'Book review: Mobility and Locative Media, edited by Adriana de Souza e Sliva
+    and Mimi Sheller'
+  year: '2015'
+  source: Book review
+  group_type: Book review
+  contributors:
+  - name: Lars Nyre
+    slug: lars-nyre
+    url: /people/lars-nyre/
+- title: Urban Headphone Listening and the Situational Fit of Music, Radio and Podcasting
+  year: '2015'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1080/19376529.2015.1083155
+  contributors:
+  - name: Lars Nyre
+    slug: lars-nyre
+    url: /people/lars-nyre/
+- title: Akademiske prototypar. Ei retning for medieutviklinga på Vestlandet
+  year: '2015'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Lars Nyre
+    slug: lars-nyre
+    url: /people/lars-nyre/
+- title: Design implications for mobile journalism beyond the professional newsroom
+  year: '2014'
   source: Conference lecture
   group_type: Conference
-  url: http://foredrag.infodesign.no/home/2016/07-16-micro-positioned-storytelling-in-sound
   contributors:
-  - name: Jon Hoem
+  - name: Frode Guribye
   - name: Lars Nyre
     slug: lars-nyre
     url: /people/lars-nyre/
-  - name: Johannes Mario Ringheim
+  - name: Erlend Torvund
+- title: Effekten av sosiale medium-bruk på villigheit til å dele personleg informasjon
+    på mobilen
+  year: '2012'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Lars Nyre
+    slug: lars-nyre
+    url: /people/lars-nyre/
   - name: Bjørnar Tessem
 source_mentions: []
 summary: null

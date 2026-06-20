@@ -27,51 +27,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: "Konseptforslag Skåreparken\r\nTHE GLOBAL VILLAGE"
-  year: '2024'
-  source: Visual arts
-  group_type: Visual arts
-  contributors:
-  - name: Sigmund Trageton
-    slug: sigmund-trageton
-    url: /people/sigmund-trageton/
-- title: Tester ut kunstig intelligens til begrunnelser
-  year: '2024'
-  source: Interview
-  group_type: Media
-  contributors:
-  - name: Sigmund Trageton
-    slug: sigmund-trageton
-    url: /people/sigmund-trageton/
-- title: Kunstnarleg forsking i film
-  year: '2024'
-  source: Research report
-  group_type: Research report
-  contributors:
-  - name: Sigmund Trageton
-    slug: sigmund-trageton
-    url: /people/sigmund-trageton/
-- title: Er KI i skolen ein trussel mot læring og danning?
-  year: '2024'
-  source: Interview
-  group_type: Media
-  contributors:
-  - name: Sigmund Trageton
-    slug: sigmund-trageton
-    url: /people/sigmund-trageton/
-- title: "Diskusjon i undervisninga og podkasting i vurderinga.\r\nEit forsøk på å\
-    \ styrka studentanes munnlege engasjement i møte med skjermteknologi og ChatGPT"
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.18261/nmt.31.2-3.5
-  contributors:
-  - name: Sigmund Trageton
-    slug: sigmund-trageton
-    url: /people/sigmund-trageton/
-  - name: Lars Nyre
-    slug: lars-nyre
-    url: /people/lars-nyre/
 - title: "Rekonstruksjoner og dramatisering\r\nFiksjonelle strategier i dokumentarfilm"
   year: '2023'
   source: Conference lecture
@@ -111,10 +66,52 @@ selected_works:
   - name: Sigmund Trageton
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
-- title: "IMMERSIVE JOURNALISM AS\r\nSTORYTELLING"
-  year: '2020'
-  source: Interview
-  group_type: Media
+- title: "When one frame is not enough;\r\nFrom still photography to Virtual reality"
+  year: '2019'
+  source: Journal article
+  group_type: Journal article
+  url: https://cinematographyinprogress.com/index.php/cito/article/view/19
+  contributors:
+  - name: Sigmund Trageton
+    slug: sigmund-trageton
+    url: /people/sigmund-trageton/
+- title: Offshore ID, lyddesign
+  year: '2018'
+  source: Film or video
+  group_type: Film or video
+  contributors:
+  - name: Sindre Skjøld
+  - name: Sigmund Trageton
+    slug: sigmund-trageton
+    url: /people/sigmund-trageton/
+- title: Virtual reality; a question of subjectivity and authenticity?
+  year: '2018'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Sigmund Trageton
+    slug: sigmund-trageton
+    url: /people/sigmund-trageton/
+- title: Virtual reality, poetic possibilities and narrative challenges
+  year: '2017'
+  source: Professional article
+  group_type: Professional article
+  contributors:
+  - name: Sigmund Trageton
+    slug: sigmund-trageton
+    url: /people/sigmund-trageton/
+- title: Adblock dokumentar
+  year: '2015'
+  source: Film or video
+  group_type: Film or video
+  contributors:
+  - name: Sigmund Trageton
+    slug: sigmund-trageton
+    url: /people/sigmund-trageton/
+- title: Oljearbeideren
+  year: '2012'
+  source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Sigmund Trageton
     slug: sigmund-trageton

@@ -129,53 +129,62 @@ selected_works:
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: 'From Knobs to Whole Body: Dance with Feedback'
-  year: '2025'
-  source: Non-fiction chapter
-  group_type: Non-fiction chapter
-  url: https://doi.org/10.1007/978-3-031-97257-7_3
+- title: 'The Feedback Mop Cello: An Instrument for Interacting with Acoustic Feedback
+    Loops'
+  year: '2023'
+  source: Conference lecture
+  group_type: Conference
   contributors:
+  - name: Hugh Alexander von Arnim
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
+  - name: Stefano Fasciani
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
   - name: Cagri Erdem
     slug: cagri-erdem
     url: /people/cagri-erdem/
-  - name: Katja Henriksen Schia
-- title: 'VentHackz: Exploring the Musicality of Ventilation Systems'
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://osf.io/enb3m/?view_only=09ef03393ef349d197fd1771b71ad9a4
+- title: The MusicLab App – Exploring the usage of mobile accelerometry to measure
+    audience movement and respiration
+  year: '2021'
+  source: Conference poster
+  group_type: Conference
   contributors:
-  - name: Maham Riaz
-  - name: Ioannis Theodoridis
+  - name: Dana Swarbrick
+  - name: Finn Upham
   - name: Cagri Erdem
     slug: cagri-erdem
     url: /people/cagri-erdem/
+  - name: Kayla Burnim
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: 'The Hyper-Ney: An Enhanced Traditional Flute'
-  year: '2024'
+- title: 'Towards Playing in the ''Air'': Modeling Motion-Sound Energy Relationships
+    in Electric Guitar Performance Using Deep Neural Networks'
+  year: '2020'
   source: Book chapter
   group_type: Book chapter
-  url: https://doi.org/10.5281/zenodo.13904806
+  url: https://smc2020torino.it/adminupload/file/SMC2020Proceedings.pdf?fbclid=IwAR0X9iNjBq_D_xs2xqmm8KA-9fBn-XQg9dh0md7CMxqrBiYxbOeI4m3hiz4#page=193
   contributors:
-  - name: Ahmet Emin Memis
-  - name: Stefano Fasciani
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
   - name: Cagri Erdem
     slug: cagri-erdem
     url: /people/cagri-erdem/
-- title: 'Xyborg: A Wearable Hand-based Instrument for Musical Expression'
-  year: '2024'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/zenodo.13904921
+  - name: Qichao Lan
+  - name: Julian Fuhrer
+  - name: Charles Patrick Martin
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: 'RAW: A Muscle-based instrument'
+  year: '2019'
+  source: Music performance
+  group_type: Music performance
   contributors:
-  - name: Kristian Eicke
-  - name: Stefano Fasciani
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
   - name: Cagri Erdem
     slug: cagri-erdem
     url: /people/cagri-erdem/

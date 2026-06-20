@@ -29,14 +29,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Pre-Words Storytelling
-  year: '2022'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Ole Christian Solbakken
-    slug: ole-christian-solbakken
-    url: /people/ole-christian-solbakken/
 - title: Jul på Kutoppen
   year: '2020'
   source: Film or video

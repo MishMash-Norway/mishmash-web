@@ -53,22 +53,6 @@ selected_works:
   - name: Irina  Eidsvold-Tøien
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
-- title: 'Pengestrømmer og verdikjeder i musikkfeltet: Aktører, tjenester, betalinger
-    og utviklingstrekk'
-  year: '2025'
-  source: Research report
-  group_type: Research report
-  contributors:
-  - name: Leo A. Grünfeld
-  - name: Erika Minerva Karttinen
-  - name: Audun Molde
-  - name: Irina  Eidsvold-Tøien
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
-  - name: Terje Gaustad
-    slug: terje-gaustad
-    url: /people/terje-gaustad/
-  - name: Inga Ørving Aasen
 - title: 'Remunerating authors and performers: Are statutory fair compensation provisions
     sufficient?'
   year: '2023'
@@ -89,18 +73,6 @@ selected_works:
   - name: Terje Gaustad
     slug: terje-gaustad
     url: /people/terje-gaustad/
-- title: Maktforskyvninger (panelsamtale)
-  year: '2021'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Hanne Hammer Stien
-  - name: Eirik Høyer Leivestad
-  - name: Siemke Böhnisch
-  - name: Adele Matheson Mestad
-  - name: Irina Eidsvold-Tøien
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
 - title: Sikring av en bærekraftig kulturøkonomi, nødvendiggjør innføring av DSM-direktivet
   year: '2020'
   source: Journal article
@@ -117,19 +89,40 @@ selected_works:
   - name: Irina  Eidsvold-Tøien
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
-- title: Hvordan digitaliseringen gjør det nødvendig med EUs DSM-direktiv for å sikre
-    skapende og utøvende i kulturøkonomien
+- title: Rapport om kunstnerundersøkelser
   year: '2019'
-  source: Lecture
-  group_type: Lecture
+  source: Research report
+  group_type: Research report
+  contributors:
+  - name: Sigrid Røyseng
+  - name: Irina  Eidsvold-Tøien
+    slug: irina-eidsvold-toien
+    url: /people/irina-eidsvold-toien/
+- title: Economic Concequenses of Nuances in National Implementationn of International
+    Law
+  year: '2019'
+  source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Irina  Eidsvold-Tøien
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
-- title: Utøverbegrepet i fondsloven
+  - name: Terje Gaustad
+    slug: terje-gaustad
+    url: /people/terje-gaustad/
+- title: Hvor effektive er de norske opphavsrettslige håndhevingsregler?
   year: '2019'
-  source: Lecture
-  group_type: Lecture
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Irina  Eidsvold-Tøien
+    slug: irina-eidsvold-toien
+    url: /people/irina-eidsvold-toien/
+  - name: Monica Viken
+- title: Originalitetsbegrepet i EU-retten- ny kurs?
+  year: '2012'
+  source: Journal article
+  group_type: Journal article
   contributors:
   - name: Irina  Eidsvold-Tøien
     slug: irina-eidsvold-toien

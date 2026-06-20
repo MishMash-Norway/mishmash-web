@@ -61,27 +61,6 @@ search_keywords:
 - Visual culture
 - New Media
 selected_works:
-- title: F@ck AI or else… A roundtable discussion on music and art among cursed algorithms.
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Enrique Encinas
-    slug: enrique-encinas
-    url: /people/enrique-encinas/
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Markéta Dolejšová
-  - name: Einar Sneve Martinussen
-- title: Kunstnerisk forskning som levende kunnskap
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
 - title: Ocean Futures in the Making
   year: '2026'
   source: Book chapter
@@ -120,41 +99,6 @@ selected_works:
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
   - name: Jørgen Alnæs
-- title: 'Design Agentics :: Creative R&D x AI'
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Ida Jahr
-    slug: ida-jahr
-    url: /people/ida-jahr/
-  - name: Enrique Encinas
-    slug: enrique-encinas
-    url: /people/enrique-encinas/
-  - name: Hedda Foss Lilleng
-  - name: Lene Renneflott
-- title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  url: https://www.kulturdirektoratet.no/kalender/konferanse-strategisk-framsyn-i-det-norske-kulturfeltet
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-- title: Kunstnerisk intelligens
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  url: https://mishmash.no/events/aulaen2026/
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
 - title: Manifestos for an Algorithmic World
   year: '2026'
   source: Conference lecture
@@ -173,6 +117,52 @@ selected_works:
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
+- title: På Google Earth kan du zoome inn på hele verden. Men hva er det egentlig
+    vi ser?
+  year: '2026'
+  source: Popular science article
+  group_type: Popular science article
+  url: https://www.forskersonen.no/digital-teknologi-kronikk-kunstig-intelligens/pa-google-earth-kan-du-zoome-inn-pa-hele-verden-men-hva-er-det-egentlig-vi-ser/2597322
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+- title: Når data ikke er nok
+  year: '2026'
+  source: Popular science article
+  group_type: Popular science article
+  url: https://www.khrono.no/nar-data-ikke-er-nok/1028243
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Pedro Lind
+- title: Månedens forsker, SADM
+  year: '2025'
+  source: Other artistic output
+  group_type: Other artistic output
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+- title: There's No Place Like Here
+  year: '2007'
+  source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Dragan Miletic
+- title: The Violence of Participation
+  year: '2007'
+  source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Synne Tollerud Bull
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Dragan Miletic
 source_mentions:
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md

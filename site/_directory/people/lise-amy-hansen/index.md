@@ -99,50 +99,38 @@ selected_works:
   - name: Elisabeth Holen-Rabbersvik
   - name: Ann-Elisabeth Ludvigsen
   - name: Frida  Almqvist
-- title: InnArbeid - Userdriven technology innovation for including people with intellectual
-    disability in working life
-  year: '2019'
-  source: Conference lecture
-  group_type: Conference
+- title: 'Communicating movement : full-body movement as a design material for digital
+    interaction'
+  year: '2014'
+  source: PhD thesis
+  group_type: PhD thesis
   contributors:
-  - name: Elin Thygesen
-  - name: Sofie Sara Terese Wass
   - name: Lise Amy Hansen
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
-  - name: Carl Erik Moe
-  - name: Elisabeth Holen-Rabbersvik
-  - name: Ann-Elisabeth Ludvigsen
-  - name: Frida  Almqvist
-- title: Fra behovskartlegging til innovasjon for personer med utviklingshemming –
-    noen metodiske og etiske refleksjoner
-  year: '2019'
+- title: Materialising acts
+  year: '2013'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Lise Amy Hansen
+    slug: lise-amy-hansen
+    url: /people/lise-amy-hansen/
+- title: Full-body movement as material for interaction design
+  year: '2011'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.18261/issn.2387-5984-2019-03-06
+  url: https://doi.org/10.1080/14626268.2011.622284
   contributors:
-  - name: Elisabeth Holen-Rabbersvik
-  - name: Silje Haugland
-  - name: Hans Olav Omland
-  - name: Terje Emil Fredwall
   - name: Lise Amy Hansen
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
-- title: Inclusive worklife innovation – reflections on problem framing and solution
-    spaces across systems
-  year: '2019'
-  source: Conference lecture
-  group_type: Conference
+- title: Program to Perform, Exploring Dance and New Media
+  year: '2009'
+  source: Research report
+  group_type: Research report
   contributors:
-  - name: Sofie Sara Terese Wass
-  - name: Lise Amy Hansen
-    slug: lise-amy-hansen
-    url: /people/lise-amy-hansen/
-- title: InnArbeid og Innovasjon
-  year: '2019'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
+  - name: Ine Therese Berg
   - name: Lise Amy Hansen
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/

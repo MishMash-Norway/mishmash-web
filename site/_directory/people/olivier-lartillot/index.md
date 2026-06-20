@@ -40,44 +40,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
-    og filmprodusenter nå?'
-  year: '2026'
-  source: Interview
-  group_type: Media
-  url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
-  contributors:
-  - name: Sunniva Monclair Bøe
-  - name: Elise Koppang Frøjd
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Diego Marin-Bucio
-    slug: diego-marin-bucio
-    url: /people/diego-marin-bucio/
-  - name: Benedikte Wallace
-  - name: Olivier Lartillot
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
-- title: Computational music analysis
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Olivier Lartillot
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
-- title: Human Interaction assessment and Generative segmentation in Health & Music
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  url: https://www.youtube.com/watch?v=I4jaZIzX0wg
-  contributors:
-  - name: Thomas Wosch
-  - name: Bastian Vobig
-  - name: Olivier Lartillot
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
 - title: 'AcousMuScope: Users'' Guide'
   year: '2025'
   source: Research report
@@ -88,17 +50,6 @@ selected_works:
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
   - name: Marina Sudo
-- title: 'Towards Collaborative Analysis: Kaija Saariaho’s Io (1986–87)'
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Marina Sudo
-  - name: Michelle Ziegler
-  - name: Miriam Akkermann
-  - name: Olivier Lartillot
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
 - title: 'Contemporary Music Analysis and Auditory Memory: The Use of Computational
     Tools as an Aid for Listening'
   year: '2025'
@@ -155,6 +106,52 @@ selected_works:
   - name: Anna-Maria Christodoulou
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+- title: 'MusiQAl: A Dataset for Music Question–Answering through Audio–Video Fusion'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5334/tismir.222
+  contributors:
+  - name: Anna-Maria Christodoulou
+    slug: anna-maria-christodoulou
+    url: /people/anna-maria-christodoulou/
+  - name: Kyrre Glette
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: The MIRAGE project
+  year: '2019'
+  source: Conference lecture
+  group_type: Conference
+  url: https://www.hf.uio.no/imv/english/research/news-and-events/events/guest-lectures-seminars/2019/research-seminar-28012019.html
+  contributors:
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+- title: Computational sound/music/gesture analysis and application to gesture-based
+    query in music catalogue
+  year: '2018'
+  source: Conference lecture
+  group_type: Conference
+  url: https://www.jyu.fi/en/current/archive/2018/11/visiting-lecture-phd-olivier-lartillot-computational-sound-music-gesture-analysis-and-application-to-gesture-based-query-in-music-catalogue
+  contributors:
+  - name: Olivier Lartillot
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+- title: Overview of signal-based rhythm analysis
+  year: '2018'
+  source: Conference lecture
+  group_type: Conference
+  url: https://www.uio.no/english/for-employees/unitpages/hf/ritmo/meetings/sama/2018/signal-based-rhythm-analysis.html
+  contributors:
   - name: Olivier Lartillot
     slug: olivier-lartillot
     url: /people/olivier-lartillot/

@@ -65,19 +65,6 @@ selected_works:
   - name: Ole Goethe
     slug: ole-goethe
     url: /people/ole-goethe/
-- title: Design Implications for a Gamified Recycling House
-  year: '2022'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1007/978-3-031-05637-6_18
-  contributors:
-  - name: Adam Palmquist
-  - name: Ole Goethe
-    slug: ole-goethe
-    url: /people/ole-goethe/
-  - name: Jeanine Krath
-  - name: Joacim Rosenlund
-  - name: Miralem Helmefalk
 - title: An Industry Experiment of Academic Performance and Drop-Out in Gamified Distance
     Education
   year: '2021'
@@ -112,38 +99,44 @@ selected_works:
   - name: Ole Goethe
     slug: ole-goethe
     url: /people/ole-goethe/
-- title: Juicy Design Constructs
-  year: '2020'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Ole Goethe
-    slug: ole-goethe
-    url: /people/ole-goethe/
-- title: Approaching Instant Messaging (IM) by Connecting Usage Scenario and User
-    Interaction for More Meaningful Notification
-  year: '2020'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Ole Goethe
-    slug: ole-goethe
-    url: /people/ole-goethe/
-- title: Broader Understanding of Gamification by Addressing Ethics and Diversity
-  year: '2020'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1007/978-3-030-60128-7_50
-  contributors:
-  - name: Ole Goethe
-    slug: ole-goethe
-    url: /people/ole-goethe/
-  - name: Adam Palmquist
 - title: 'From Aggregation to Navigation: Large Image Collections Seeking and Exploration'
   year: '2019'
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1007/978-3-030-25629-6_3
+  contributors:
+  - name: Ole Goethe
+    slug: ole-goethe
+    url: /people/ole-goethe/
+- title: Practice and Value Aspects of Indie Game Development in Norway and Beyond
+  year: '2019'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Ole Goethe
+    slug: ole-goethe
+    url: /people/ole-goethe/
+- title: Gamification Mindset
+  year: '2019'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Ole Goethe
+    slug: ole-goethe
+    url: /people/ole-goethe/
+- title: 'Picturemarks: Changes in Mining Media and Digital Storytelling'
+  year: '2018'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-319-92052-8_37
+  contributors:
+  - name: Ole Goethe
+    slug: ole-goethe
+    url: /people/ole-goethe/
+- title: 'Video Game (AAA): Blue Estate'
+  year: '2014'
+  source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Ole Goethe
     slug: ole-goethe

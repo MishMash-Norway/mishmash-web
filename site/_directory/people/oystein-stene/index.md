@@ -36,23 +36,6 @@ selected_works:
   - name: Øystein Stene
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: Transmania
-  year: '2019'
-  source: Feature article
-  group_type: Media
-  contributors:
-  - name: Øystein Stene
-    slug: oystein-stene
-    url: /people/oystein-stene/
-- title: Feighet og mangel på solidaritet er kjipt for kunstnere. Men et langt større
-    problem for demokratiet
-  year: '2019'
-  source: Feature article
-  group_type: Media
-  contributors:
-  - name: Øystein Stene
-    slug: oystein-stene
-    url: /people/oystein-stene/
 - title: De opplyste (lydbok)
   year: '2018'
   source: Literary arts
@@ -69,45 +52,60 @@ selected_works:
   - name: Øystein Stene
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: Jeg har sendt varsel om meg selv
+- title: Fra feminisme til aktivisme til populisme
   year: '2018'
-  source: Feature article
-  group_type: Media
+  source: Professional article
+  group_type: Professional article
   contributors:
   - name: Øystein Stene
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: Jeg drømmer om en humanistisk, demokratisk og mangfoldig feminisme
+- title: UFO-bygda
   year: '2018'
-  source: Feature article
-  group_type: Media
+  source: Performing arts
+  group_type: Performing arts
+  url: https://www.nationaltheatret.no/forestillinger/arkiv/2018/ufo-bygda/
   contributors:
   - name: Øystein Stene
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: Jeg mot eliten
-  year: '2018'
-  source: Feature article
-  group_type: Media
-  url: https://www.aftenposten.no/kultur/i/21zeva/Jeg-mot-eliten
+- title: 'Skriver og spiller del 1: Karakterutvikling'
+  year: '2017'
+  source: Working paper
+  group_type: Working paper
   contributors:
   - name: Øystein Stene
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: Frykter vaksine mot religiøs tro
-  year: '2018'
-  source: Interview
-  group_type: Media
-  url: https://reportasje.vl.no/artikkel/355-frykter-vaksine-mot-religios-tro
+- title: Umut
+  year: '2017'
+  source: Journal article
+  group_type: Journal article
   contributors:
   - name: Øystein Stene
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: 'Jeg kjenner et dypt ubehag ved den autoritære tonen og massementaliteten
-    i #metoo-bevegelsen'
-  year: '2018'
-  source: Feature article
-  group_type: Media
+- title: Utdrag fra Zombie Nation
+  year: '2017'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Øystein Stene
+    slug: oystein-stene
+    url: /people/oystein-stene/
+- title: 'Oslo International Acting Festival 2015: Rapport og oppsummering'
+  year: '2016'
+  source: Report
+  group_type: Report
+  contributors:
+  - name: Øystein Stene
+    slug: oystein-stene
+    url: /people/oystein-stene/
+  - name: Gianluca Iumiento
+- title: Acting After Postmodernism
+  year: '2015'
+  source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Øystein Stene
     slug: oystein-stene

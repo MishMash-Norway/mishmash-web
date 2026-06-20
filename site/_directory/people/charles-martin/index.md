@@ -45,34 +45,11 @@ selected_works:
     slug: charles-martin
     url: /people/charles-martin/
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: 'Legging It: An Evolutionary Approach to Morphological Adaptation for a Real-World
-    Quadruped Robot'
-  year: '2020'
-  source: PhD thesis
-  group_type: PhD thesis
-  contributors:
-  - name: Tønnes Nygaard
-  - name: Kyrre Glette
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Jim Tørresen
-  - name: Charles Patrick Martin
-    slug: charles-martin
-    url: /people/charles-martin/
-- title: Towards Movement Generation with Audio Features
-  year: '2020'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Benedikte Wallace
-  - name: Kristian Nymoen
-  - name: Charles Patrick Martin
-    slug: charles-martin
-    url: /people/charles-martin/
-  - name: Jim Tørresen
 - title: Generating Convincing Harmony Parts with Simple Long Short-Term Memory Networks
   year: '2019'
   source: Book chapter
@@ -83,6 +60,8 @@ selected_works:
   - name: Synne Engdahl Baumann
   - name: Torgrim Rudland Næss
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
   - name: Charles Patrick Martin
     slug: charles-martin
     url: /people/charles-martin/
@@ -107,6 +86,8 @@ selected_works:
     slug: charles-martin
     url: /people/charles-martin/
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: 'Experiences from Real-World Evolution with DyRET: Dynamic Robot for Embodied
     Testing'
   year: '2019'
@@ -123,45 +104,70 @@ selected_works:
     slug: charles-martin
     url: /people/charles-martin/
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
   - name: Kyrre Glette
     slug: kyrre-glette
     url: /people/kyrre-glette/
-- title: 'Self-Modifying Morphology Experiments with DyRET: Dynamic Robot for Embodied
-    Testing'
-  year: '2019'
+- title: Self-Awareness in a Cyber-Physical Predictive Musical Interface
+  year: '2018'
   source: Conference poster
   group_type: Conference
+  contributors:
+  - name: Charles Patrick Martin
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Kyrre Glette
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: Tønnes Frostad Nygaard
+  - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
+- title: Exploring Mechanically Self-Reconfiguring Robots for Autonomous Design
+  year: '2018'
+  source: Conference lecture
+  group_type: Conference
+  url: https://arxiv.org/abs/1805.02965
   contributors:
   - name: Tønnes Frostad Nygaard
   - name: Charles Patrick Martin
     slug: charles-martin
     url: /people/charles-martin/
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
   - name: Kyrre Glette
     slug: kyrre-glette
     url: /people/kyrre-glette/
-- title: "Lessons Learned from Real-World Experiments with\r\nDyRET: the Dynamic Robot\
-    \ for Embodied Testing"
-  year: '2019'
-  source: Conference poster
+- title: Predictive Music Systems for Interactive Performance
+  year: '2018'
+  source: Conference lecture
   group_type: Conference
   contributors:
-  - name: Tønnes Frostad Nygaard
-  - name: Jørgen Halvorsen Nordmoen
   - name: Charles Patrick Martin
     slug: charles-martin
     url: /people/charles-martin/
-  - name: Jim Tørresen
+- title: Creative Prediction with Neural Networks
+  year: '2018'
+  source: Conference lecture
+  group_type: Conference
+  url: https://cpmpercussion.github.io/creative-prediction/
+  contributors:
+  - name: Charles Patrick Martin
+    slug: charles-martin
+    url: /people/charles-martin/
   - name: Kyrre Glette
     slug: kyrre-glette
     url: /people/kyrre-glette/
-- title: Comparing models for harmony prediction in an interactive audio looper
-  year: '2019'
-  source: Journal article
-  group_type: Journal article
-  url: https://link.springer.com/chapter/10.1007%2F978-3-030-16667-0_12
+  - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
+- title: Virtuosic Interactions / Performing with a Neural iPad Band
+  year: '2017'
+  source: Conference lecture
+  group_type: Conference
   contributors:
-  - name: Benedikte Wallace
   - name: Charles Patrick Martin
     slug: charles-martin
     url: /people/charles-martin/

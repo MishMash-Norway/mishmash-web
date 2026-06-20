@@ -57,25 +57,6 @@ selected_works:
   - name: Diego Marin-Bucio
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
-- title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
-    og filmprodusenter nå?'
-  year: '2026'
-  source: Interview
-  group_type: Media
-  url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
-  contributors:
-  - name: Sunniva Monclair Bøe
-  - name: Elise Koppang Frøjd
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Diego Marin-Bucio
-    slug: diego-marin-bucio
-    url: /people/diego-marin-bucio/
-  - name: Benedikte Wallace
-  - name: Olivier Lartillot
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
 - title: 'Memory in performance: kinesthetic and procedural dimensions of skill acquisition
     in dance improvisation'
   year: '2026'
@@ -107,34 +88,7 @@ selected_works:
   - name: Diego Marin-Bucio
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
-- title: 'Matriz de Movimiento Maquínico (MMM): Una herramienta conceptual sobre la
-    creación de danza humano-máquina'
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  url: https://masters.filescat.uab.cat/muet/classe-magistral-amb-diego-marin-bucio/
-  contributors:
-  - name: Diego Marin-Bucio
-    slug: diego-marin-bucio
-    url: /people/diego-marin-bucio/
 - title: Co-creation of rhythm in Djembe Music-Dance
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Diego Marin-Bucio
-    slug: diego-marin-bucio
-    url: /people/diego-marin-bucio/
-- title: 'Dancing Embryo: Enacting Dance Experience Through Human-AI Kinematic Collaboration'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.21825/documenta.93276
-  contributors:
-  - name: Diego Marin-Bucio
-    slug: diego-marin-bucio
-    url: /people/diego-marin-bucio/
-- title: Matriz de Movimiento Maquínico (MMM)
   year: '2025'
   source: Conference lecture
   group_type: Conference
@@ -150,6 +104,41 @@ selected_works:
   url: https://doi.org/10.14483/25909398.19823
   contributors:
   - name: Diego Antonio Marin Bucio
+    slug: diego-marin-bucio
+    url: /people/diego-marin-bucio/
+- title: 'Dancing Embryo: Danza y co-creatividad humano-IA'
+  year: '2024'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Diego Antonio Marin Bucio
+    slug: diego-marin-bucio
+    url: /people/diego-marin-bucio/
+- title: ¿Puede una IA bailar?
+  year: '2024'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Diego Antonio Marin Bucio
+    slug: diego-marin-bucio
+    url: /people/diego-marin-bucio/
+- title: 'Exploring motion capture systems in dance research: a case study of djembe
+    dance from West Africa'
+  year: '2024'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Diego Antonio Marín Bucio
+    slug: diego-marin-bucio
+    url: /people/diego-marin-bucio/
+  - name: Rainer Polak
+- title: Danza y co-creatividad kinestésica Humano-IA
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.29057/ia.v11i22.10684
+  contributors:
+  - name: Diego Antonio Marín Bucio
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 source_mentions: []

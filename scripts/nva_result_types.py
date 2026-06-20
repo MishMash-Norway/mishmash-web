@@ -19,6 +19,14 @@ MEDIA_RESULT_TYPES = {
     "MediaReaderOpinion",
 }
 MEDIA_GROUP_LABEL = "Media"
+PERSON_PROFILE_EXCLUDED_INSTANCE_TYPES = MEDIA_RESULT_TYPES | {
+    "Lecture",
+    "OtherPresentation",
+}
+PERSON_PROFILE_EXCLUDED_GROUP_TYPES = {
+    MEDIA_GROUP_LABEL,
+    "Lecture",
+}
 
 # Curated labels for types we display or expect to encounter. Unknown types fall
 # back to camelCase splitting via nva_result_type_label().
@@ -131,6 +139,36 @@ def result_group_type(instance_type: str) -> str:
     if instance_type in GROUP_TYPE_LABELS:
         return GROUP_TYPE_LABELS[instance_type]
     return nva_result_type_label(instance_type)
+
+
+def exclude_from_person_profile(
+    instance_type: str = "",
+    *,
+    group_type: str = "",
+    source: str = "",
+) -> bool:
+    instance_type = (instance_type or "").strip()
+    if instance_type:
+        if instance_type in PERSON_PROFILE_EXCLUDED_INSTANCE_TYPES:
+            return True
+        if instance_type.startswith("Media"):
+            return True
+
+    group_type = (group_type or "").strip()
+    if group_type in PERSON_PROFILE_EXCLUDED_GROUP_TYPES:
+        return True
+
+    source_label = (source or "").strip().lower()
+    if source_label:
+        excluded_sources = {
+            nva_result_type_label(item).lower()
+            for item in PERSON_PROFILE_EXCLUDED_INSTANCE_TYPES
+        }
+        excluded_sources.update(label.lower() for label in PERSON_PROFILE_EXCLUDED_GROUP_TYPES)
+        if source_label in excluded_sources:
+            return True
+
+    return False
 
 
 def nva_publication_source(reference: dict) -> str:

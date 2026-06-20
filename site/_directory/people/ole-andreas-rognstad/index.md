@@ -94,36 +94,35 @@ selected_works:
   - name: Ole-Andreas Rognstad
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
-- title: Opphavsrett, 2. utgave
-  year: '2019'
-  source: Monograph
-  group_type: Monograph
+- title: Kollektiv forvaltning av rettigheter til online-overføring mv. av musikk.
+    EU-kommisjonens vedtak i CISAC-saken
+  year: '2008'
+  source: Journal article
+  group_type: Journal article
   contributors:
   - name: Ole-Andreas Rognstad
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
-- title: Opphavsrett. Ny åndsverklov
-  year: '2018'
-  source: Professional article
-  group_type: Professional article
+- title: Opphavsrett.Databasevern. EF-domstolens dom i sak C-304/07 (Direct Media)
+  year: '2008'
+  source: Journal article
+  group_type: Journal article
   contributors:
   - name: Ole-Andreas Rognstad
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
-- title: Opphavsrett. Virtuelle videoopptakere - EU-domstolens dom i sak C-265/16
-    (VCast)
-  year: '2018'
-  source: Professional article
-  group_type: Professional article
+- title: Konsumpsjon og digitale overføringer. Et forslag til en alternativ løsningsmodell
+  year: '2003'
+  source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Ole-Andreas Rognstad
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
-- title: Restructuring Copyright in a Time of Highly Dynamic, Technological and Economic
-    Change
-  year: '2018'
-  source: Conference lecture
-  group_type: Conference
+- title: Mot en ny immaterialrettsprosess i Europa
+  year: '2000'
+  source: Journal article
+  group_type: Journal article
   contributors:
   - name: Ole-Andreas Rognstad
     slug: ole-andreas-rognstad

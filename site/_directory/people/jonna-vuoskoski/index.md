@@ -58,14 +58,6 @@ search_keywords:
 - Cognitive neuroscience
 - Music Cognition
 selected_works:
-- title: Would you cry to a song written by AI?
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Jonna Katariina Vuoskoski
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
 - title: 'Experiences of awe and being moved evoked by music: Exploring elicitors
     and socio-affective and behavioural correlates'
   year: '2026'
@@ -76,30 +68,6 @@ selected_works:
   - name: Jonna Katariina Vuoskoski
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
-- title: Domain-specific perception of emotional intensity in brief musical and vocal
-    expressions
-  year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1121/10.0042460
-  contributors:
-  - name: Liv Merve Akca Abrahamsson
-  - name: Sascha Frühholz
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-  - name: Jonna Katariina Vuoskoski
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-- title: '„Luminiscence“: Warum uns Licht und Live-Musik so sehr bewegen'
-  year: '2026'
-  source: Interview
-  group_type: Media
-  url: https://www.wn.de/muenster/kultur/luminiscence-interview-musikpsychologin-emotionen-3470903?pid=true&ueg=default
-  contributors:
-  - name: Jonna Katariina Vuoskoski
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-  - name: Robin Gerke
 - title: 'The social dimension of music listening: Empathy and the experience of feeling
     moved'
   year: '2025'
@@ -110,39 +78,6 @@ selected_works:
   - name: Jonna Katariina Vuoskoski
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
-- title: Brain Responses to Musical Emotions in Autism
-  year: '2025'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Liv Merve Akca Abrahamsson
-  - name: Katharina Egger
-  - name: Jonna Katariina Vuoskoski
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-  - name: Sascha Frühholz
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-- title: Music, emotion, and the experience of social connection
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Jonna Katariina Vuoskoski
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-- title: Rhythmic complexity and trait empathy modulate internal motor simulation
-    in response to music
-  year: '2025'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Jonna Katariina Vuoskoski
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-  - name: Lieke Perik
-  - name: Christian Dyhre Foldal
-  - name: Jan Stupacher
 - title: 'Audience Musical Absorption: Exploring Attention and Affect in the Live
     Concert Setting'
   year: '2024'
@@ -168,6 +103,80 @@ selected_works:
     url: /people/jonna-vuoskoski/
   - name: John Melvin Gudnyson Treider
   - name: David Huron
+- title: 'The Aversive Musical Experience Scale (AMES): Measuring individual differences
+    in the intensity of music-evoked aversion'
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/03057356241239336
+  contributors:
+  - name: Jonna Katariina Vuoskoski
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Henna-Riikka Peltola
+- title: 'Collectively Classical: Connectedness, Awe, Feeling Moved, and Motion at
+    a Live and Livestreamed Concert'
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: https://osf.io/89s5w/
+  contributors:
+  - name: Dana Swarbrick
+  - name: Jonna Katariina Vuoskoski
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+- title: 'Feeling moved by music: Investigating continuous ratings and acoustic correlates'
+  year: '2022'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1371/journal.pone.0261151
+  contributors:
+  - name: Jonna Katariina Vuoskoski
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Janis Heinrich Zickfeld
+  - name: Vinoo Alluri
+  - name: Vishnu Moorthigari
+  - name: Beate Seibt
+- title: 'Corona Concerts: The Effect of Virtual Concert Characteristics on Social
+    Connection and Kama Muta'
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.3389/fpsyg.2021.648448
+  contributors:
+  - name: Dana Swarbrick
+  - name: Christa Beate Seibt
+  - name: Noemi Grinspun
+  - name: Jonna Katariina Vuoskoski
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+- title: Being moved by listening to unfamiliar sad music induces reward-related hormonal
+    changes in empathic listeners
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1111/nyas.14660
+  contributors:
+  - name: Tuomas Eerola
+  - name: Jonna K. Vuoskoski
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Hannu Kautiainen
+  - name: Henna-Riikka Peltola
+  - name: Vesa Putkinen
+  - name: Katharina Schäfer
+- title: 'On the enjoyment of sad music: Pleasurable Compassion Theory and the role
+    of trait empathy'
+  year: '2020'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.3389/fpsyg.2020.01060
+  contributors:
+  - name: David Huron
+  - name: Jonna Katariina Vuoskoski
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: I am Professor of Music Cognition at the Department of Musicology and the

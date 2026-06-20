@@ -59,15 +59,6 @@ search_keywords:
 - Digital media
 - New Media
 selected_works:
-- title: '"Jeg nekter!" Motstandens former i vår tid'
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Eivind Røssaak
-    slug: eivind-rossaak
-    url: /people/eivind-rossaak/
-  - name: Brita Strand Rangnes
 - title: Kunst i automatiseringens tidsalder
   year: '2026'
   source: Professional article
@@ -114,16 +105,6 @@ selected_works:
   - name: Runar Hodne
   - name: Erland Kiøsterud
   - name: Christian Refsum
-- title: The Cory Arcangel Hack
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Eivind Røssaak
-    slug: eivind-rossaak
-    url: /people/eivind-rossaak/
-  - name: Ed Halter
-  - name: Cory Arcangel
 - title: 'Static Energy: Ribbing Warhol and Marker in Chafed Elbows'
   year: '2025'
   source: Non-fiction chapter
@@ -149,10 +130,26 @@ selected_works:
   - name: Eivind Røssaak
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
-- title: Art as Sharing - The Art of Sharing
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
+- title: Between Stillness and Motion. Film, Photography, Algorithms
+  year: '2011'
+  source: Book anthology
+  group_type: Book anthology
+  contributors:
+  - name: Eivind Røssaak
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
+- title: Kunstens møte med massemediene
+  year: '2004'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Eivind Røssaak
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
+- title: 'Learning from fashion. Eller: Moten har også en moral'
+  year: '2001'
+  source: Journal article
+  group_type: Journal article
   contributors:
   - name: Eivind Røssaak
     slug: eivind-rossaak

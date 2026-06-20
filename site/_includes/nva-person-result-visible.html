@@ -1,0 +1,25 @@
+{% comment %}
+  Sets include.person_result_visible to false for lectures and media on person pages.
+  Pass work= and optionally matched_result=.
+{% endcomment %}
+{% assign person_result_visible = true %}
+{% assign hidden_group = work.group_type %}
+{% if hidden_group == nil or hidden_group == '' %}
+  {% if matched_result and matched_result.group_type %}
+    {% assign hidden_group = matched_result.group_type %}
+  {% endif %}
+{% endif %}
+{% if hidden_group == 'Media' or hidden_group == 'Lecture' %}
+  {% assign person_result_visible = false %}
+{% else %}
+  {% assign hidden_source = work.source %}
+  {% if hidden_source == nil or hidden_source == '' %}
+    {% if matched_result and matched_result.source %}
+      {% assign hidden_source = matched_result.source %}
+    {% endif %}
+  {% endif %}
+  {% case hidden_source %}
+    {% when 'Lecture', 'Presentation', 'Interview', 'Radio or TV', 'Blog post', 'Feature article', 'Reader opinion' %}
+      {% assign person_result_visible = false %}
+  {% endcase %}
+{% endif %}

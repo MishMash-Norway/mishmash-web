@@ -58,30 +58,6 @@ tags:
 search_keywords:
 - Music education
 selected_works:
-- title: Gjør byen mer delt!
-  year: '2026'
-  source: Reader opinion
-  group_type: Media
-  url: https://klassekampen.no/artikkel/2026-05-11/debatt-gjor-byen-mer-delt
-  contributors:
-  - name: Anne Jordhus-Lier
-  - name: Sidsel Karlsen
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
-  - name: Siw Graabræk Nielsen
-- title: Korttenkt av Bydel Alna
-  year: '2026'
-  source: Reader opinion
-  group_type: Media
-  url: https://klassekampen.no/artikkel/2026-04-20/debatt-korttenkt-av-bydel-alna
-  contributors:
-  - name: Sidsel Karlsen
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
-  - name: Anne Jordhus-Lier
-  - name: Siw Graabræk Nielsen
-  - name: Sigrid Røyseng
-  - name: Øivind Varkøy
 - title: SAMUS - Strengthening Sámi music in music teacher education
   year: '2026'
   source: Conference lecture
@@ -103,15 +79,6 @@ selected_works:
   - name: Sidsel Karlsen
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
-- title: Presentasjon av NMHs arbeid opp mot kulturskole
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Sidsel Karlsen
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
-  - name: Siw Graabræk Nielsen
 - title: Theoretical work in music education research
   year: '2026'
   source: Conference lecture
@@ -132,25 +99,6 @@ selected_works:
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
   - name: Siw Graabræk Nielsen
-- title: The double game of music, boklansering
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Live Weider Ellefsen
-  - name: Petter Dyndahl
-  - name: Anne Jordhus-Lier
-  - name: Siw Graabræk Nielsen
-  - name: Sidsel Karlsen
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
-  - name: Ingeborg Lunde Vestad
-  - name: Kari Marie Manum
-  - name: Friederike Merkelbach
-  - name: Anna Bull
-  - name: Iver Graabræk-Dyndahl
-  - name: Monica Lindgren
-  - name: Cristobal Rodriguez
 - title: 'Music as agent: A posthumanist attempt to understand music as a force of
     social change and turmoil'
   year: '2025'
@@ -160,10 +108,47 @@ selected_works:
   - name: Sidsel Karlsen
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
-- title: Hva er FoU på NMH?
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
+- title: Musical agency as the redistribution of hope
+  year: '2023'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Sidsel Karlsen
+    slug: sidsel-karlsen
+    url: /people/sidsel-karlsen/
+- title: 'Changing rhythms, ideas and status in jazz: The case of the Norwegian Jazz
+    Forum in the 1960s'
+  year: '2021'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Odd Sjønne Skårberg
+  - name: Sidsel Karlsen
+    slug: sidsel-karlsen
+    url: /people/sidsel-karlsen/
+- title: 'Musical agency meets musical gentrification: Exploring the workings of hegemonic
+    power in (popular) music academisation'
+  year: '2021'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Sidsel Karlsen
+    slug: sidsel-karlsen
+    url: /people/sidsel-karlsen/
+- title: 'Assessing the state of sociological theory in music education: Uncovering
+    the epistemic unconscious'
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Sidsel Karlsen
+    slug: sidsel-karlsen
+    url: /people/sidsel-karlsen/
+- title: Inclusion – of what and of whom? A problematization of music education practice
+    in multicultural society
+  year: '2015'
+  source: Conference lecture
+  group_type: Conference
   contributors:
   - name: Sidsel Karlsen
     slug: sidsel-karlsen

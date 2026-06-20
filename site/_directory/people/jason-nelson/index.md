@@ -44,25 +44,6 @@ selected_works:
     url: /people/jason-nelson/
   - name: Alinta Krauth
   - name: Lina Ruth Harder
-- title: New Directions in Digital Writing and Art with Jason Nelson
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  url: https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=828956&lang=EN&__pj0=0&__pj1=971a0ee086da647e78918f8284286712
-  contributors:
-  - name: Jason Nelson
-    slug: jason-nelson
-    url: /people/jason-nelson/
-- title: 'Critical Making as a Posthuman Methodology: Developing Experimental Digital
-    Practices'
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  url: https://www.uni-regensburg.de/en/university/dimas/visiting-academics/jason-nelson
-  contributors:
-  - name: Jason Nelson
-    slug: jason-nelson
-    url: /people/jason-nelson/
 - title: Drift Vector Field
   year: '2025'
   source: Visual arts
@@ -128,6 +109,27 @@ selected_works:
   url: https://www.euppublishing.com/doi/full/10.3366/count.2024.0362
   contributors:
   - name: Jason Nelson
+    slug: jason-nelson
+    url: /people/jason-nelson/
+- title: 'AIwriting: Text to Image Generation as a Mode of Digital Narrative'
+  year: '2023'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Scott Robert Rettberg
+  - name: Walter Jason Nelson
+    slug: jason-nelson
+    url: /people/jason-nelson/
+  - name: Jill Walker Rettberg
+  - name: Patrick Lichty
+  - name: Talan Memmott
+- title: The Many Occasions of Moving
+  year: '2022'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://www.dpoetry.com/moving2/
+  contributors:
+  - name: Walter Jason Nelson
     slug: jason-nelson
     url: /people/jason-nelson/
 source_mentions: []

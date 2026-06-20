@@ -47,20 +47,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Stillness – Silence
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Research-Forum/2025/research-forum-stillness-and-silence.html
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kari Anne Vadstensvik Bjerkestrand
-  - name: Victoria Christine Årang Johnson
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-  - name: Shabari Rao
 - title: Musikalsk framførelse på Earfest i Duisburg, Tyskland
   year: '2022'
   source: Music performance
@@ -100,20 +86,6 @@ selected_works:
   - name: Victoria Kristine Å Johnson
     slug: victoria-johnson
     url: /people/victoria-johnson/
-- title: Fremtidens musikere må bygge instrumentet og lage låta underveis
-  year: '2013'
-  source: Interview
-  group_type: Media
-  url: http://www.tu.no/it/2013/03/11/-fremtidens-musikere-ma-bygge-instrumentet-og-lage-lata-underveis
-  contributors:
-  - name: Alexander Refsum Jensenius
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Rolf Inge Godøy
-  - name: Victoria Kristine Å Johnson
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-  - name: Kristin Straumsheim Grønli
 - title: Sverm - mikrobevegelser og mikrolyd
   year: '2012'
   source: Music performance
@@ -182,6 +154,28 @@ selected_works:
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Victoria Johnson
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+- title: A video based analysis system for realtime control of concatenative sound
+    synthesis and spatialisation
+  year: '2010'
+  source: Book chapter
+  group_type: Book chapter
+  url: http://urn.nb.no/URN:NBN:no-28129
+  contributors:
+  - name: Alexander Refsum Jensenius
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Victoria Johnson
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+- title: No Reason - Aftermath
+  year: '2010'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Thomas T. Dahl
+  - name: Victoria Kristine Å Johnson
     slug: victoria-johnson
     url: /people/victoria-johnson/
 source_mentions: []

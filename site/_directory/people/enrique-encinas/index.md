@@ -27,36 +27,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: F@ck AI or else… A roundtable discussion on music and art among cursed algorithms.
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Enrique Encinas
-    slug: enrique-encinas
-    url: /people/enrique-encinas/
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Markéta Dolejšová
-  - name: Einar Sneve Martinussen
-- title: 'Design Agentics :: Creative R&D x AI'
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
-  contributors:
-  - name: Synne Tollerud Bull
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Ida Jahr
-    slug: ida-jahr
-    url: /people/ida-jahr/
-  - name: Enrique Encinas
-    slug: enrique-encinas
-    url: /people/enrique-encinas/
-  - name: Hedda Foss Lilleng
-  - name: Lene Renneflott
 - title: 'Playing with Failure: A Queer Framework for Making Service Systems Otherwise'
   year: '2025'
   source: Journal article
@@ -69,23 +39,6 @@ selected_works:
     url: /people/enrique-encinas/
   - name: Daphne Chan
   - name: Shreya Bhattacharya
-- title: Participation as Panelist in PhD Research Colloquium at the Academy of Fine
-    Arts Prague (AVU)
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Enrique Encinas
-    slug: enrique-encinas
-    url: /people/enrique-encinas/
-- title: 'Un/learning with a Dragon : More Than Human Design and the river Akerselva'
-  year: '2024'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Enrique Encinas
-    slug: enrique-encinas
-    url: /people/enrique-encinas/
 - title: 'Provotyping Accountability: Exploring Smartphone Use in the Home through
     Design'
   year: '2023'

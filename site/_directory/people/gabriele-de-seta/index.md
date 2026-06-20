@@ -83,48 +83,12 @@ selected_works:
   - name: Gabriele de Seta
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
-- title: 'AI and digital ethnography: A discussion of ethnographic processes, practices,
-    and boundaries around generative AI'
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  url: https://sci.rutgers.edu/events/february-27-ai-and-digital-ethnography-discussion-ethnographic-processes-practices-and-boundaries-around-generative-ai
-  contributors:
-  - name: Gabriele de Seta
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
-- title: 'Algorithmic folklore: What is it, and how to study it'
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  url: https://www.polyu.edu.hk/apss/news-and-events/event/2026/2/20260227-202526-apss-international-scholar-talk-series-5/?sc_lang=en
-  contributors:
-  - name: Gabriele de Seta
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
-- title: 'Algorithmic folklore: A global history'
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Gabriele de Seta
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
 - title: 'Ball-ache, dick hair and serial cunt words: The role of vulgarity in Chinese
     internet language'
   year: '2026'
   source: Book chapter
   group_type: Book chapter
   url: https://www.taylorfrancis.com/chapters/edit/10.4324/9781003698067-9/ball-ache-dick-hair-serial-cunt-words-role-vulgarity-chinese-internet-language-gabriele-de-seta
-  contributors:
-  - name: Gabriele de Seta
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
-- title: Why we should not talk about AI being creative
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  url: https://www.mediaevolution.se/program/Gabriel-de-Seta-Why-we-should-not-talk-about-AI-being-creative
   contributors:
   - name: Gabriele de Seta
     slug: gabriele-de-seta
@@ -143,6 +107,45 @@ selected_works:
   source: Conference lecture
   group_type: Conference
   contributors:
+  - name: Gabriele de Seta
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
+- title: 'Support for deepfake regulation: The role of third-person perception, trust,
+    and risk'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5771/2192-4007-2025-4-570
+  contributors:
+  - name: Daniel Vogler
+  - name: Adrian Rauchfleisch
+  - name: Gabriele de Seta
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
+- title: Creativity is a trading zone
+  year: '2025'
+  source: Conference lecture
+  group_type: Conference
+  url: https://rdt.uva.nl/content/events/2025/12/genai--creative-practices-conference.html
+  contributors:
+  - name: Gabriele de Seta
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
+- title: LLM lore
+  year: '2025'
+  source: Conference lecture
+  group_type: Conference
+  url: https://dlcplus.org/current-keywords-in-digital-culture-mini-conference-series/
+  contributors:
+  - name: Gabriele de Seta
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
+- title: 'Spectral hauntings, ancestral tunings: Two unnaturalist modes of listening'
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Luigi Monteanni
   - name: Gabriele de Seta
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/

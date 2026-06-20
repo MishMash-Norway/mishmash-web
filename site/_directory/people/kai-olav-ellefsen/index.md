@@ -65,14 +65,6 @@ selected_works:
     url: /people/kyrre-glette/
   - name: Sidney Pontes-Filho
   - name: Mikkel Elle Lepperød
-- title: Towards more intelligent robots, that balance deep reasoning and rapid response
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Kai Olav Ellefsen
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
 - title: 'Dual Process Dreamer: Fast and Slow Decision-Making with World Models'
   year: '2026'
   source: Journal article
@@ -85,45 +77,8 @@ selected_works:
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
   - name: Jim Tørresen
-- title: Hvor blir det av de virkelig intelligente robotene?
-  year: '2026'
-  source: Lecture
-  group_type: Lecture
-  url: https://www.mn.uio.no/ifi/om/aktuelt/arrangementer/andre/ki-dagen-2026.html
-  contributors:
-  - name: Kai Olav Ellefsen
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
-- title: Replication Package for "Self Healing of a Mixed Autonomy Traffic System
-    Using Reinforcement Learning and Attention"
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  url: https://doi.org/10.5281/zenodo.17018040
-  contributors:
-  - name: Safia Fatima
-  - name: Kai Ellefsen
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
-  - name: Leon Moonen
-- title: 'Seminar: "Fast and Slow Thinking AI"'
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  url: https://dia.units.it/it/news/132615
-  contributors:
-  - name: Kai Olav Ellefsen
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
-- title: Neuroevolution - What, Why and How?
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  url: https://smash.ung.si/events/seminars/seminar-with-prof-kai-olav-ellefsen-neuroevolution-optimizing-neural-networks-with-evolutionary-algorithms/
-  contributors:
-  - name: Kai Olav Ellefsen
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: Co-Optimization of Robot Bodies and Brains with Evolutionary Algorithms
   year: '2025'
   source: Conference lecture
@@ -138,16 +93,82 @@ selected_works:
   - name: Kai Olav Ellefsen
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
-- title: 22. juli-hets, Ekstremvær, Jobbintervju på kafé - Nyhetsmorgen - NRK Radio
+- title: Integrating Bilevel Planning and Offline Skill Learning for Enhancing Mobile
+    Manipulation
   year: '2025'
-  source: Radio or TV
-  group_type: Media
-  url: https://radio.nrk.no/serie/nyhetsmorgen/sesong/202507/NPUB32027824
+  source: Book chapter
+  group_type: Book chapter
+  url: https://ieeexplore.ieee.org/abstract/document/11163881
   contributors:
-  - name: Linn Wiik
+  - name: Shin Watanabe
+  - name: Geir Horn
+  - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
   - name: Kai Olav Ellefsen
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
+- title: 2025 IEEE 21st International Conference on Automation Science and Engineering
+    (CASE)
+  year: '2025'
+  source: Book anthology
+  group_type: Book anthology
+  url: https://ieeexplore.ieee.org/xpl/conhome/11163731/proceeding
+  contributors:
+  - name: Shin Watanabe
+  - name: Geir Horn
+  - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Kai Olav Ellefsen
+    slug: kai-olav-ellefsen
+    url: /people/kai-olav-ellefsen/
+- title: Integrating Sample Inheritance into Bayesian Optimization for Evolutionary
+    Robotics
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1162/ISAL.a.866
+  contributors:
+  - name: Ege de Bruin
+  - name: Kyrre Glette
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: Kai Olav Ellefsen
+    slug: kai-olav-ellefsen
+    url: /people/kai-olav-ellefsen/
+- title: Exploring fast and slow thinking in artificial intelligence
+  year: '2025'
+  source: Master's thesis
+  group_type: Master's thesis
+  contributors:
+  - name: Kevin Tran Torheim
+  - name: Kai Olav Ellefsen
+    slug: kai-olav-ellefsen
+    url: /people/kai-olav-ellefsen/
+- title: Fast and Slow Reasoning with Model-Based Reinforcement Learning
+  year: '2025'
+  source: Master's thesis
+  group_type: Master's thesis
+  contributors:
+  - name: Viktor Ringvold Hasle
+  - name: Kai Olav Ellefsen
+    slug: kai-olav-ellefsen
+    url: /people/kai-olav-ellefsen/
+- title: 'Fast or Slow: Adaptive Decision Making in Reinforcement Learning with Pre-Trained
+    LLMs'
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/ICDL63968.2025.11204357
+  contributors:
+  - name: Katrine Linnea Nergård
+  - name: Kai Olav Ellefsen
+    slug: kai-olav-ellefsen
+    url: /people/kai-olav-ellefsen/
+  - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
 source_mentions: []
 wps:
 - WP1

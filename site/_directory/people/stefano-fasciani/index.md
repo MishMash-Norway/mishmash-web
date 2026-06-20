@@ -117,29 +117,6 @@ selected_works:
   - name: Stefano Fasciani
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
-- title: A Universal Tool for Generating Datasets from Sound Synthesizers
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/zenodo.15838159
-  contributors:
-  - name: Stefano Fasciani
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-- title: An Interactive Self-Assembly Swarm Music System in Extended Reality
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/3771594.3771620
-  contributors:
-  - name: Pedro Pablo Lucas Bravo
-  - name: Stefano Fasciani
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Alexander Szorkovszky
-  - name: Kyrre Glette
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
 - title: Physics-informed differentiable method for piano modeling
   year: '2024'
   source: Journal article
@@ -176,6 +153,32 @@ selected_works:
   - name: Kyrre Glette
     slug: kyrre-glette
     url: /people/kyrre-glette/
+- title: 'The Feedback Mop Cello: An Instrument for Interacting with Acoustic Feedback
+    Loops'
+  year: '2023'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Hugh Alexander von Arnim
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
+  - name: Stefano Fasciani
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Cagri Erdem
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+- title: Vocal control of sound synthesis personalized by unsupervised machine listening
+    and learning
+  year: '2018'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1162/comj_a_00450
+  contributors:
+  - name: Stefano Fasciani
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Lonce Wyse
 source_mentions: []
 summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learning,
   Music Technology.

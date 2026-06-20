@@ -59,16 +59,6 @@ selected_works:
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
   - name: Jørgen Alnæs
-- title: 'Fotoboksamtale: Tom Sandberg & co'
-  year: '2026'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Thale Elisabeth Sørlie
-  - name: Harald Østgaard Lund
-  - name: Susanne Østby Sæther
-    slug: susanne-o-saether
-    url: /people/susanne-o-saether/
 - title: The Atlantic Ocean
   year: '2024'
   source: Non-fiction book
@@ -100,15 +90,6 @@ selected_works:
   - name: Susanne Østby Sæther
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
-- title: 'Ulike kunstneriske strategier med utgangspunkt i historisk materiale, arkiv
-    og samlinger: Arkivets materialitet'
-  year: '2011'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Susanne Østby Sæther
-    slug: susanne-o-saether
-    url: /people/susanne-o-saether/
 - title: 'The aesthetics of Sampling: Engaging the Media in Recent Video Art'
   year: '2009'
   source: PhD thesis
@@ -117,19 +98,37 @@ selected_works:
   - name: Susanne Østby Sæther
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
-- title: Ghost in the Machine
-  year: '2008'
-  source: Exhibition
-  group_type: Exhibition
+- title: Life Remixed
+  year: '2006'
+  source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Susanne Østby Sæther
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
-- title: Arkivets estetikk
-  year: '2008'
-  source: Book chapter
-  group_type: Book chapter
+- title: Samplingens estetikk
+  year: '2006'
+  source: Conference lecture
+  group_type: Conference
   contributors:
+  - name: Susanne Østby Sæther
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
+- title: Life Remixed. Biopolitics and Materiality in Recent Media Art
+  year: '2006'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Susanne Østby Sæther
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
+- title: Et hjem for oss - et hjem for deg? Analyser av TV 2. 2 utgave
+  year: '2006'
+  source: Book anthology
+  group_type: Book anthology
+  contributors:
+  - name: Trine Syvertsen
+  - name: Gunn Enli
   - name: Susanne Østby Sæther
     slug: susanne-o-saether
     url: /people/susanne-o-saether/

@@ -58,19 +58,6 @@ selected_works:
   - name: Bjørn Tallak Bakken
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
-- title: '“Nobody is superman”: exploring stress and coping in Norwegian firefighters
-    in rural areas'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1108/IJES-03-2025-0016
-  contributors:
-  - name: Marthe Maritsdatter Granlund
-  - name: Marianne Torp Stensvehagen
-  - name: Bjørn Tallak Bakken
-    slug: bjorn-tallak-bakken
-    url: /people/bjorn-tallak-bakken/
-  - name: Ulf Gerry Larsson
 - title: 'Challenging the doctrine of “non-discerning” decision-making: Investigating
     the interaction effects of cognitive styles'
   year: '2023'
@@ -94,48 +81,6 @@ selected_works:
     url: /people/bjorn-tallak-bakken/
   - name: Trine Lovold Syversen
   - name: Ole Boe
-- title: 'Intuition in Organizations: New Theoretical and Methodological Perspectives'
-  year: '2023'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.5465/AMPROC.2023.10126symposium
-  contributors:
-  - name: Cinla Akinci
-  - name: Vita Akstinaite
-  - name: Bjørn Tallak Bakken
-    slug: bjorn-tallak-bakken
-    url: /people/bjorn-tallak-bakken/
-  - name: Suzi Ellen Ferreira Dias
-  - name: Robert M Fuller
-  - name: Michael Grant
-  - name: Gerard Paul Hodgkinson
-  - name: Thorvald Hærem
-  - name: Edson Zadao Lizuka
-  - name: Fredrik Nilsson
-  - name: Eugene Sadler-Smith
-  - name: Codou Samba
-  - name: Marta Sinclair
-  - name: Dusuya Vera
-  - name: David W. Williams
-- title: LEDERSKAP I LANGVARIGE KRISER
-  year: '2023'
-  source: Professional article
-  group_type: Professional article
-  contributors:
-  - name: Bjørn Tallak Bakken
-    slug: bjorn-tallak-bakken
-    url: /people/bjorn-tallak-bakken/
-  - name: Gerry Larsson
-- title: AI in Future C2 – Who’s in Command When AI Takes Control?
-  year: '2023'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Bjørn Tallak Bakken
-    slug: bjorn-tallak-bakken
-    url: /people/bjorn-tallak-bakken/
-  - name: Inger Lund-Kordahl
-  - name: Erik Bjurström
 - title: 'The Impact of Trust in Time of Covid-19: Trust in Crisis Management and
     Crisis Communication in Inland Norway University of Applied Sciences'
   year: '2022'
@@ -147,17 +92,68 @@ selected_works:
   - name: Bjørn T. Bakken
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
-- title: Augmented and Virtual Reality (AR/VR) and Artificial Intelligence (AI) Technology
-    in Systematic Inter-Professional Crisis Management Training
-  year: '2022'
-  source: Journal article
-  group_type: Journal article
+- title: Whistleblowing and Mindful Organizing in High-Risk Organizations
+  year: '2019'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.34190/KM.19.205
   contributors:
-  - name: Bjørn Tallak Bakken
+  - name: Bjørn T. Bakken
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
-  - name: Inger Lund-Kordahl
-  - name: Ina Sandberg
+  - name: Åse Storhaug Hole
+  - name: Anne Oline Haugen
+  - name: Per Olav Lund
+- title: Varsling og ytringsklima i beredskapssektoren
+  year: '2018'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Bjørn T. Bakken
+    slug: bjorn-tallak-bakken
+    url: /people/bjorn-tallak-bakken/
+  - name: Åse Storhaug Hole
+  - name: Anne Oline Haugen
+  - name: Per Olav Lund
+- title: Flipped gaming for enhanced learning outcome crisis preparedness courses
+  year: '2017'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/ithet.2017.8067830
+  contributors:
+  - name: Geir Ove Venemyr
+  - name: Bjørn T. Bakken
+    slug: bjorn-tallak-bakken
+    url: /people/bjorn-tallak-bakken/
+  - name: Linda Vibeke Kiønig
+  - name: Ole Jørgen Stefferud Ranglund
+  - name: Stig Holen
+  - name: Hanne Marit Haave
+  - name: Aud Tone Vold
+  - name: Robin Braun
+- title: Interaction Effects of Intuitive and Analytic Cognitive Styles on Decision
+    Making Performance
+  year: '2016'
+  source: Conference abstract
+  group_type: Conference
+  url: https://doi.org/10.5465/AMBPP.2016.14419abstract
+  contributors:
+  - name: Bjørn T. Bakken
+    slug: bjorn-tallak-bakken
+    url: /people/bjorn-tallak-bakken/
+  - name: Mathias Hansson
+  - name: Thorvald Hærem
+- title: Utvikling av et system for beslutningstrening - erfaringer med testspillet
+    ``Hannibal``
+  year: '2000'
+  source: Research report
+  group_type: Research report
+  contributors:
+  - name: Bent Erik Bakken
+  - name: Bjørn T. Bakken
+    slug: bjorn-tallak-bakken
+    url: /people/bjorn-tallak-bakken/
+  - name: G. H. Rodal
 source_mentions: []
 wps:
 - WP2

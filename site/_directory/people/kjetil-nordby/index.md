@@ -75,17 +75,6 @@ selected_works:
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
   - name: Bjørn Sætrevik
-- title: Workshop for next generation fleet control interface
-  year: '2025'
-  source: Presentation
-  group_type: Lecture
-  contributors:
-  - name: Kjetil Nordby
-    slug: kjetil-nordby
-    url: /people/kjetil-nordby/
-  - name: Jon Erling Fauske
-  - name: hanne locertsen
-  - name: Sunniva Wildhagen Lislevand
 - title: Open user experience design - The next generation bridge
   year: '2025'
   source: Conference lecture
@@ -158,6 +147,14 @@ selected_works:
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
   - name: Jon Erling Fauske
+- title: OpenBridge research presentation
+  year: '2024'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Kjetil Nordby
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

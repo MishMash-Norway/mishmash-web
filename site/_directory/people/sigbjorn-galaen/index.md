@@ -37,19 +37,14 @@ search_keywords:
 - Visual education
 - Visualising in akademia
 selected_works:
-- title: 'The Thing Remastered: demonstrasjon og "making of" 3D'
-  year: '2025'
-  source: Lecture
-  group_type: Lecture
-  contributors:
-  - name: Trygve Bjellvåg
-  - name: Sigbjørn Galåen
 - title: '3D-grafikk: Fra geometri til realisme'
   year: '2024'
   source: Textbook
   group_type: Textbook
   contributors:
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
   - name: Henning Birkeland
     slug: henning-birkeland
     url: /people/henning-birkeland/
@@ -61,6 +56,8 @@ selected_works:
   url: https://www.forskersonen.no/design-film-meninger/hvordan-lager-3d-grafikere-scener-til-spill-og-film/2315134
   contributors:
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
   - name: Henning Birkeland
     slug: henning-birkeland
     url: /people/henning-birkeland/
@@ -71,6 +68,8 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
   - name: Henning Birkeland
     slug: henning-birkeland
     url: /people/henning-birkeland/
@@ -80,6 +79,8 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
   - name: Henning Birkeland
     slug: henning-birkeland
     url: /people/henning-birkeland/
@@ -93,6 +94,8 @@ selected_works:
     slug: henning-birkeland
     url: /people/henning-birkeland/
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
 - title: Slik blir fremtiden i 3D-grafikk for spill, film og visualisering
   year: '2022'
   source: Professional article
@@ -102,29 +105,36 @@ selected_works:
     slug: henning-birkeland
     url: /people/henning-birkeland/
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
 - title: 'Formidlingsprosjekt: Bransjerelatert Fagbok Innen 3D-grafikk'
   year: '2021'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
   - name: Ivar Kjellmo
   - name: Henning Birkeland
     slug: henning-birkeland
     url: /people/henning-birkeland/
-- title: Påvirkes barn av voldelige dataspill?
-  year: '2019'
-  source: Interview
-  group_type: Media
-  url: https://www.barnevakten.no/skades-barn-av-voldelige-dataspill/
-  contributors:
-  - name: Sigbjørn Galåen
 - title: Strategic Challenges For An Independent Game Studio – A Case Study
   year: '2019'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
+- title: Visuelle utfordringer innen spillutvikling
+  year: '2010'
+  source: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Sigbjørn Galåen
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
 source_mentions: []
 summary: Sigbjørn Galåen is associate professor of 3D-graphics at Kristiania University
   College, Westerdals institute of film and media. Sigbjørn has over 20 years experience
