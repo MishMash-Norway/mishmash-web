@@ -1046,6 +1046,31 @@ a:focus-visible .icon {
   flex: 1 1 auto;
 }
 
+.faq-permalink {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25em;
+  height: 1.25em;
+  font-size: 0.85rem;
+  color: #55606a;
+  border: 1px solid #c1c9d2;
+  border-radius: 3px;
+  background: #f8f9fb;
+  text-decoration: none;
+  line-height: 1;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.faq-permalink:hover,
+.faq-permalink:focus-visible {
+  border-color: #A7A1F4;
+  color: #4a4580;
+  background: #fff;
+  text-decoration: none;
+}
+
 .faq-expand-icon {
   flex-shrink: 0;
   display: inline-flex;

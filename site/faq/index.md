@@ -162,6 +162,8 @@ Get in touch at [contact@mishmash.no](mailto:contact@mishmash.no), or explore [p
 (function () {
   'use strict';
 
+  var linkIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>';
+
   function openFaqFromHash() {
     var id = window.location.hash.slice(1);
     if (!id) return;
@@ -170,6 +172,30 @@ Get in touch at [contact@mishmash.no](mailto:contact@mishmash.no), or explore [p
       item.open = true;
     }
   }
+
+  document.querySelectorAll('.faq-item[id]').forEach(function (item) {
+    var summary = item.querySelector('summary');
+    if (!summary || summary.querySelector('.faq-permalink')) return;
+
+    var link = document.createElement('a');
+    link.className = 'faq-permalink';
+    link.href = '#' + item.id;
+    link.setAttribute('aria-label', 'Link to this question');
+    link.innerHTML = linkIcon;
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      item.open = true;
+      history.pushState(null, '', '#' + item.id);
+    });
+
+    var expandIcon = summary.querySelector('.faq-expand-icon');
+    if (expandIcon) {
+      summary.insertBefore(link, expandIcon);
+    } else {
+      summary.appendChild(link);
+    }
+  });
 
   openFaqFromHash();
   window.addEventListener('hashchange', openFaqFromHash);

@@ -19,3 +19,5 @@ data_source_urls:
   nva: "https://nva.sikt.no/"
   orcid: "https://orcid.org/"
   wikipedia: "https://www.wikipedia.org/"
+translation:
+  model: "Claude (Cursor)"

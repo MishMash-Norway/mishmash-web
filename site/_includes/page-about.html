@@ -42,11 +42,25 @@
 {% endif %}
 
 {% assign translation_meta = meta.translation | default: page.translation %}
+{% assign translation_suppressed = false %}
+{% if translation_meta.automatic == false %}
+  {% assign translation_suppressed = true %}
+{% endif %}
+
 {% assign show_translation = false %}
-{% if translation_meta.automatic %}
-  {% assign show_translation = true %}
+{% unless translation_suppressed %}
+  {% if translation_meta.automatic %}
+    {% assign show_translation = true %}
+  {% elsif page.lang == 'nb' %}
+    {% assign show_translation = true %}
+  {% elsif page.path contains 'no/' %}
+    {% assign show_translation = true %}
+  {% endif %}
+{% endunless %}
+
+{% if show_translation %}
   {% assign translation_source = translation_meta.source_url | default: page.translation_url %}
-  {% assign translation_model = translation_meta.model %}
+  {% assign translation_model = translation_meta.model | default: defaults.translation.model %}
 {% endif %}
 
 {% assign source_override = meta.data_sources | default: page.data_sources %}
@@ -184,9 +198,11 @@
             {% assign translation_source_href = translation_source_href | relative_url %}
           {% endunless %}
           <a href="{{ translation_source_href }}">{{ t.page_about_translated_original }}</a>
+        {% else %}
+          {{ t.page_about_translated_original }}
         {% endif %}
         {% if translation_model %}
-          · {{ t.page_about_translated_model }} {{ translation_model }}
+          · {{ t.page_about_translated_model }}: {{ translation_model }}
         {% endif %}
       </dd>
     </div>

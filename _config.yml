@@ -48,6 +48,11 @@ defaults:
     values:
       layout: page
       type: project
+  - scope:
+      path: "no"
+    values:
+      translation:
+        automatic: true
 
 # optional: ask jekyll-feed to include these collections (if plugin version supports it)
 feed:
