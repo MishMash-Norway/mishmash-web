@@ -1,6 +1,15 @@
 ---
 layout: default
 title: FAQ
+page_about:
+  last_edited:
+    date: 2026-06-17
+    by: MishMash web team
+  ai_support:
+    agent: Cursor
+    model: Claude
+  data_sources:
+    - manual
 ---
 
 # Frequently Asked Questions

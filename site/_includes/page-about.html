@@ -1,0 +1,166 @@
+{% if page.page_about == false or page.hide_page_about %}
+{% else %}
+{% assign lang = page.lang | default: 'en' %}
+{% assign t = site.data.translations[lang] %}
+{% assign defaults = site.data.page_about_defaults %}
+{% assign meta = page.page_about | default: page.about_page | default: empty %}
+
+{% assign last_edited = meta.last_edited | default: page.last_edited %}
+
+{% assign copyright_meta = meta.copyright %}
+{% if copyright_meta.label or copyright_meta.url %}
+  {% assign copyright_label = copyright_meta.label | default: copyright_meta.name %}
+  {% assign copyright_url = copyright_meta.url %}
+{% elsif copyright_meta %}
+  {% assign copyright_label = copyright_meta %}
+  {% assign copyright_url = '' %}
+{% else %}
+  {% assign copyright_label = defaults.copyright.label %}
+  {% assign copyright_url = defaults.copyright.url %}
+{% endif %}
+
+{% assign privacy_meta = meta.privacy %}
+{% if privacy_meta == nil or privacy_meta == '' %}
+  {% assign privacy_meta = defaults.privacy %}
+{% endif %}
+{% if privacy_meta.level %}
+  {% assign privacy_level = privacy_meta.level %}
+  {% assign privacy_note = privacy_meta.note %}
+{% else %}
+  {% assign privacy_level = privacy_meta %}
+  {% assign privacy_note = nil %}
+{% endif %}
+{% assign privacy_label = defaults.privacy_labels[privacy_level] | default: privacy_level %}
+
+{% assign ai_meta = meta.ai_support | default: page.ai_support %}
+{% if ai_meta == empty %}
+  {% assign ai_meta = meta.ai | default: page.ai %}
+{% endif %}
+
+{% assign translation_meta = meta.translation | default: page.translation %}
+{% assign show_translation = false %}
+{% if translation_meta.automatic %}
+  {% assign show_translation = true %}
+  {% assign translation_source = translation_meta.source_url | default: page.translation_url %}
+  {% assign translation_model = translation_meta.model %}
+{% endif %}
+
+{% assign source_override = meta.data_sources | default: page.data_sources %}
+
+<section class="page-about" aria-label="{{ t.page_about_heading }}">
+  <h2 class="page-about-heading">{{ t.page_about_heading }}</h2>
+  <dl class="page-about-list">
+    <div class="page-about-item">
+      <dt>{{ t.page_about_last_edited }}</dt>
+      <dd>
+        {% if last_edited.date %}
+          <time datetime="{{ last_edited.date | date: '%Y-%m-%d' }}">{{ last_edited.date | date: "%-d %B %Y" }}</time>
+          {% if last_edited.by %} · {{ last_edited.by }}{% endif %}
+        {% elsif last_edited.by %}
+          {{ last_edited.by }}
+        {% elsif page.date and page.layout == 'event' %}
+          <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%-d %B %Y" }}</time>
+        {% else %}
+          {{ t.page_about_not_recorded }}
+        {% endif %}
+      </dd>
+    </div>
+
+    <div class="page-about-item">
+      <dt>{{ t.page_about_copyright }}</dt>
+      <dd>
+        {% if copyright_url %}
+        <a href="{{ copyright_url }}" rel="license noopener" target="_blank">{{ copyright_label }}</a>
+        {% else %}
+        {{ copyright_label }}
+        {% endif %}
+      </dd>
+    </div>
+
+    <div class="page-about-item">
+      <dt>{{ t.page_about_privacy }}</dt>
+      <dd>
+        <span class="page-about-privacy page-about-privacy--{{ privacy_level | downcase }}">
+          <span class="page-about-privacy-dot" aria-hidden="true"></span>
+          {{ privacy_label }}
+        </span>
+        {% if privacy_note %}<span class="page-about-note"> — {{ privacy_note }}</span>{% endif %}
+      </dd>
+    </div>
+
+    {% if ai_meta.agent or ai_meta.model %}
+    <div class="page-about-item">
+      <dt>{{ t.page_about_ai_support }}</dt>
+      <dd>
+        {% if ai_meta.agent %}{{ ai_meta.agent }}{% endif %}
+        {% if ai_meta.agent and ai_meta.model %} · {% endif %}
+        {% if ai_meta.model %}{{ ai_meta.model }}{% endif %}
+      </dd>
+    </div>
+    {% endif %}
+
+    <div class="page-about-item">
+      <dt>{{ t.page_about_data_sources }}</dt>
+      <dd class="page-about-sources">
+        {% if source_override and source_override.size > 0 %}
+          {% for source in source_override %}
+            {% unless forloop.first %}<span class="page-about-source-sep"> · </span>{% endunless %}
+            {% assign source_key = source | downcase | strip %}
+            {% if source_key == 'manual' %}
+              {{ defaults.data_source_labels.manual }}
+            {% elsif source_key == 'nva' %}
+              <a href="{{ defaults.data_source_urls.nva }}" target="_blank" rel="noopener noreferrer">{{ defaults.data_source_labels.nva }}</a>
+            {% elsif source_key == 'orcid' %}
+              <a href="{{ defaults.data_source_urls.orcid }}" target="_blank" rel="noopener noreferrer">{{ defaults.data_source_labels.orcid }}</a>
+            {% elsif source_key == 'wikipedia' %}
+              <a href="{{ defaults.data_source_urls.wikipedia }}" target="_blank" rel="noopener noreferrer">{{ defaults.data_source_labels.wikipedia }}</a>
+            {% else %}
+              {{ source }}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {{ defaults.data_source_labels.manual }}
+          {% if page.type == 'person' %}
+            {% if page.urls.nva and page.urls.nva != '' %}
+              <span class="page-about-source-sep"> · </span><a href="{{ defaults.data_source_urls.nva }}" target="_blank" rel="noopener noreferrer">{{ defaults.data_source_labels.nva }}</a>
+            {% endif %}
+            {% if page.urls.orcid and page.urls.orcid != '' %}
+              <span class="page-about-source-sep"> · </span><a href="{{ defaults.data_source_urls.orcid }}" target="_blank" rel="noopener noreferrer">{{ defaults.data_source_labels.orcid }}</a>
+            {% endif %}
+            {% if page.selected_works and page.selected_works.size > 0 %}
+              {% unless page.urls.nva or page.urls.orcid %}
+                <span class="page-about-source-sep"> · </span><a href="{{ defaults.data_source_urls.nva }}" target="_blank" rel="noopener noreferrer">{{ defaults.data_source_labels.nva }}</a>
+              {% endunless %}
+            {% endif %}
+          {% elsif page.type == 'institution' %}
+            {% if page.urls.wikipedia and page.urls.wikipedia != '' %}
+              <span class="page-about-source-sep"> · </span><a href="{{ defaults.data_source_urls.wikipedia }}" target="_blank" rel="noopener noreferrer">{{ defaults.data_source_labels.wikipedia }}</a>
+            {% endif %}
+          {% elsif page.url == '/results/' or page.url == '/no/results/' %}
+            <span class="page-about-source-sep"> · </span><a href="{{ defaults.data_source_urls.nva }}" target="_blank" rel="noopener noreferrer">{{ defaults.data_source_labels.nva }}</a>
+          {% endif %}
+        {% endif %}
+      </dd>
+    </div>
+
+    {% if show_translation %}
+    <div class="page-about-item">
+      <dt>{{ t.page_about_translated }}</dt>
+      <dd>
+        {{ t.page_about_translated_automatic }}
+        {% if translation_source %}
+          {% assign translation_source_href = translation_source %}
+          {% unless translation_source_href contains '://' %}
+            {% assign translation_source_href = translation_source_href | relative_url %}
+          {% endunless %}
+          <a href="{{ translation_source_href }}">{{ t.page_about_translated_original }}</a>
+        {% endif %}
+        {% if translation_model %}
+          · {{ t.page_about_translated_model }} {{ translation_model }}
+        {% endif %}
+      </dd>
+    </div>
+    {% endif %}
+  </dl>
+</section>
+{% endif %}

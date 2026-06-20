@@ -31,6 +31,20 @@ search_keywords: []
 selected_works: []
 source_mentions: []
 summary:
+# Optional page metadata (shown in "About the page" at the bottom):
+# page_about:
+#   last_edited:
+#     date: 2026-06-17
+#     by: Full Name
+#   privacy: green
+#   ai_support:
+#     agent: Cursor
+#     model: Example Model
+#   data_sources: [manual, nva, orcid]
+#   translation:
+#     automatic: true
+#     source_url: /about/description/
+#     model: Example Model
 ---
 
 

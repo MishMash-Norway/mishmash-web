@@ -1078,3 +1078,81 @@ a:focus-visible .icon {
 .faq-item > :not(summary):first-of-type {
   margin-top: 0;
 }
+
+/* Page metadata ("About the page") */
+.page-about {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e6e6e6;
+  font-size: 0.92rem;
+  color: #55606a;
+}
+
+.page-about-heading {
+  margin: 0 0 0.85rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.page-about-list {
+  margin: 0;
+}
+
+.page-about-item {
+  display: grid;
+  grid-template-columns: minmax(7rem, 10rem) 1fr;
+  gap: 0.35rem 1rem;
+  margin: 0 0 0.55rem;
+}
+
+.page-about-item:last-child {
+  margin-bottom: 0;
+}
+
+.page-about-item dt {
+  margin: 0;
+  font-weight: 600;
+  color: #444;
+}
+
+.page-about-item dd {
+  margin: 0;
+}
+
+.page-about-privacy {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+}
+
+.page-about-privacy-dot {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.page-about-privacy--green {
+  color: #1a7f37;
+}
+
+.page-about-privacy--yellow {
+  color: #9a6700;
+}
+
+.page-about-privacy--red {
+  color: #c0392b;
+}
+
+.page-about-note {
+  font-weight: 400;
+}
+
+@media (max-width: 640px) {
+  .page-about-item {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+}

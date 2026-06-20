@@ -1,0 +1,17 @@
+copyright:
+  label: "CC BY 4.0"
+  url: "https://creativecommons.org/licenses/by/4.0/"
+privacy: green
+privacy_labels:
+  green: "Green"
+  yellow: "Yellow"
+  red: "Red"
+data_source_labels:
+  manual: "Manual"
+  nva: "NVA"
+  orcid: "ORCID"
+  wikipedia: "Wikipedia"
+data_source_urls:
+  nva: "https://nva.sikt.no/"
+  orcid: "https://orcid.org/"
+  wikipedia: "https://www.wikipedia.org/"
