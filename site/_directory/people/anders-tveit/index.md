@@ -30,6 +30,17 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 11. The composition of acousmatic electroacoustic music in a Norwegian context
+    part II
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.55669/oa491111
+  contributors:
+  - name: Natasha Barrett
+  - name: Anders Tveit
+    slug: anders-tveit
+    url: /people/anders-tveit/
 - title: In a Now
   year: '2019'
   source: Music performance
