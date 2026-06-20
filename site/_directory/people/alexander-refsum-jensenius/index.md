@@ -10,6 +10,28 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects: []
+other_projects:
+- title: Bodies in Concert
+  url: https://nva.sikt.no/projects/2744062
+  nva_id: '2744062'
+- title: Bodily Entrainment to Audiovisual Rhythms
+  url: https://nva.sikt.no/projects/2743421
+  nva_id: '2743421'
+- title: DjembeDance - Multimodal rhythm in music and dance from West Africa
+  url: https://nva.sikt.no/projects/2747770
+  nva_id: '2747770'
+- title: fourMs Lab Upgrade
+  url: https://nva.sikt.no/projects/2748527
+  nva_id: '2748527'
+- title: 'MIRAGE: A Comprehensive AI-Based System for Advanced Music Analysis'
+  url: https://nva.sikt.no/projects/2748972
+  nva_id: '2748972'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
+- title: SynchInConcert
+  url: https://nva.sikt.no/projects/2748469
+  nva_id: '2748469'
 roles:
 - Director
 urls:

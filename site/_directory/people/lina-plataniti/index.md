@@ -12,6 +12,11 @@ affiliation_units:
 - 'NORSUS: Norwegian Institute for Sustainability Research'
 projects:
 - environmental-sustainability-mishmash
+other_projects:
+- title: 'CIRCULIZER Anaerobic digestate produced from marine residual resources:
+    Fertilizer quality, environmental benefits and facilitating change'
+  url: https://nva.sikt.no/projects/2710742
+  nva_id: '2710742'
 roles:
 - Council member
 urls:

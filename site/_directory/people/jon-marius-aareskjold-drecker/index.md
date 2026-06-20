@@ -28,6 +28,16 @@ nva_affiliations:
   institution: university-of-agder
 projects:
 - evaluation-cultural-bias-workflow-ai-music-generation
+other_projects:
+- title: Art VAPO - True North
+  url: https://nva.sikt.no/projects/658566
+  nva_id: '658566'
+- title: CreateMe
+  url: https://nva.sikt.no/projects/2591724
+  nva_id: '2591724'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Work Package Leader Group member
 urls:

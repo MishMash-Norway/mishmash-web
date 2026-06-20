@@ -9,6 +9,13 @@ institution: university-of-bergen
 institutions:
 - university-of-bergen
 projects: []
+other_projects:
+- title: Center for Digital Narrative
+  url: https://nva.sikt.no/projects/2629404
+  nva_id: '2629404'
+- title: Extending Digital Narrative
+  url: https://nva.sikt.no/projects/2720899
+  nva_id: '2720899'
 roles:
 - Member
 urls:

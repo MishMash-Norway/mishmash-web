@@ -13,6 +13,7 @@ people:
 - henning-birkeland
 - ole-christian-solbakken
 - ole-goethe
+- sigbjorn-galaen
 - synne-tollerud-bull
 - terje-gaustad
 projects:

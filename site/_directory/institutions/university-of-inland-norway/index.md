@@ -1,13 +1,15 @@
 ---
 layout: page
 type: institution
-slug: inland-norway-university-of-applied-sciences
-permalink: /institutions/inland-norway-university-of-applied-sciences/
+slug: university-of-inland-norway
+permalink: /institutions/university-of-inland-norway/
 redirect_from:
+- /directory/institutions/university-of-inland-norway/
+- /institutions/inland-norway-university-of-applied-sciences/
 - /directory/institutions/inland-norway-university-of-applied-sciences/
 name: University of Inland Norway
 short_name: INN
-image: /images/institutions/inland-norway-university-of-applied-sciences.png
+image: /images/institutions/university-of-inland-norway.png
 people:
 - aedan-soellaart
 - bjorn-tallak-bakken
@@ -21,6 +23,7 @@ people:
 - sashi-komandur
 - tonje-louise-finne
 - troels-linde
+- trond-lossius
 projects:
 - ai-assisted-film-production-vita-vigeland
 - bingo-ai-assisted-animation-documentary-film
@@ -36,8 +39,9 @@ urls:
   website: https://www.inn.no/english/
   wikipedia: https://en.wikipedia.org/wiki/University_of_Inland_Norway
 aliases:
-- University of Inland Norway
+- Inland Norway University of Applied Sciences
 - Høgskolen i Innlandet
+- Universitetet i Innlandet
 tags: []
 search_keywords: []
 source_mentions:

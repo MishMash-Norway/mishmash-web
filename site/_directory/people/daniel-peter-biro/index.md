@@ -11,6 +11,10 @@ institutions:
 - university-of-bergen
 projects:
 - musical-doppelgangers
+other_projects:
+- title: Sounding Philosophy
+  url: https://nva.sikt.no/projects/2532124
+  nva_id: '2532124'
 roles:
 - Member
 urls:

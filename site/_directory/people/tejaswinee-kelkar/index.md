@@ -10,6 +10,16 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects: []
+other_projects:
+- title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
+  url: https://nva.sikt.no/projects/2743421
+  nva_id: '2743421'
+- title: Bodies in Concert
+  url: https://nva.sikt.no/projects/2744062
+  nva_id: '2744062'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:
@@ -37,6 +47,8 @@ selected_works:
   url: https://doi.org/10.1007/978-3-032-26999-7_18
   contributors:
   - name: Hugh Alexander von Arnim
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
   - name: Anna-Maria Christodoulou
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
@@ -91,6 +103,8 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Hugh Alexander von Arnim
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
   - name: Tejaswinee Kelkar
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/

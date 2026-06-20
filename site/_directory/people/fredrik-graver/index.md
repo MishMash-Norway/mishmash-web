@@ -6,9 +6,9 @@ title: Fredrik Graver
 position: Professor
 department: Faculty of Film, TV and Games
 image: /assets/images/portraits/Fredrik_Graver_INN.jpg
-institution: inland-norway-university-of-applied-sciences
+institution: university-of-inland-norway
 institutions:
-- inland-norway-university-of-applied-sciences
+- university-of-inland-norway
 projects:
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy

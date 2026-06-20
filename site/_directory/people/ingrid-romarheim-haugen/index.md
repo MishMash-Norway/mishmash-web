@@ -11,13 +11,13 @@ institutions:
 - national-library-of-norway
 projects: []
 roles:
-- Work Package Leader Group member
+- Member
 urls:
   personal_website: ''
   institutional_website: ''
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0009-0001-8326-7135
   nva: https://nva.sikt.no/research-profile/1142067
   youtube: ''
   facebook: ''
@@ -74,7 +74,8 @@ selected_works:
     url: /people/alexander-refsum-jensenius/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+wps:
+- WP6
 permalink: /people/ingrid-romarheim-haugen/
 redirect_from:
 - /directory/people/ingrid-romarheim-haugen/

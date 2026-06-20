@@ -10,6 +10,10 @@ institutions:
 - university-of-oslo
 projects:
 - ai-as-environment
+other_projects:
+- title: Media Seas of the High North Atlantic
+  url: https://nva.sikt.no/projects/2743373
+  nva_id: '2743373'
 roles:
 - Member
 urls:

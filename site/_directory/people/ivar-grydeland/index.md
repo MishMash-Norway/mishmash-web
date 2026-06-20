@@ -18,6 +18,13 @@ affiliation_units:
 projects:
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq
+other_projects:
+- title: CreateMe
+  url: https://nva.sikt.no/projects/2591724
+  nva_id: '2591724'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Work Package Leader Group member
 urls:

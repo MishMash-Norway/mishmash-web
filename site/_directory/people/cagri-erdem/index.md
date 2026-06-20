@@ -10,19 +10,29 @@ institutions:
 - university-of-oslo
 projects:
 - rhyglyph-rhydiff-rhyseq
+other_projects:
+- title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
+  url: https://nva.sikt.no/projects/2743421
+  nva_id: '2743421'
+- title: fourMs Lab Upgrade
+  url: https://nva.sikt.no/projects/2748527
+  nva_id: '2748527'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:
   personal_website: http://cagrierdem.net
   institutional_website: http://cagrierdem.net
-  github: ''
-  linkedin: ''
+  github: https://github.com/cerdemo
+  linkedin: https://www.linkedin.com/in/cagrierdem/
   orcid: https://orcid.org/0000-0003-2632-6829
   nva: https://nva.sikt.no/research-profile/1008031
   youtube: ''
   facebook: ''
   mastodon: ''
-  instagram: ''
+  instagram: https://www.instagram.com/cagrierdem_/
 aliases: []
 tags: []
 search_keywords: []
@@ -110,6 +120,8 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Hugh Alexander von Arnim
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
   - name: Cagri Erdem
     slug: cagri-erdem
     url: /people/cagri-erdem/
@@ -168,7 +180,10 @@ selected_works:
     slug: cagri-erdem
     url: /people/cagri-erdem/
 source_mentions: []
-summary: null
+wps:
+- WP1
+- WP4
+- WP7
 permalink: /people/cagri-erdem/
 redirect_from:
 - /directory/people/cagri-erdem/

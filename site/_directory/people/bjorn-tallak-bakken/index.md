@@ -7,18 +7,22 @@ position: Associate professor
 department: Nord University Business School
 institution: nord-university
 institutions:
-- inland-norway-university-of-applied-sciences
 - nord-university
+- university-of-inland-norway
 nva_affiliations:
 - role: Associate professor
   unit: Nord University Business School
   institution: nord-university
 - role: Associate professor
   unit: Department of Organisation, Leadership and Management
-  institution: inland-norway-university-of-applied-sciences
+  institution: university-of-inland-norway
 projects:
 - scoping-review-creative-ai-teaching-learning
 - when-creativity-meets-criticality
+other_projects:
+- title: Incredilab
+  url: https://nva.sikt.no/projects/2757567
+  nva_id: '2757567'
 roles:
 - Member
 urls:

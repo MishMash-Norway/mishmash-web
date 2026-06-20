@@ -11,6 +11,19 @@ institutions:
 - sintef-digital
 projects:
 - environmental-sustainability-mishmash
+other_projects:
+- title: 'ENFIELD: European Lighthouse to Manifest Trustworthy and Green AI'
+  url: https://nva.sikt.no/projects/2751996
+  nva_id: '2751996'
+- title: ENsuring Secure and Safe CMD Design with Zero TRUST Principles
+  url: https://nva.sikt.no/projects/2751997
+  nva_id: '2751997'
+- title: Intent-based data operation in the computing continuum
+  url: https://nva.sikt.no/projects/2751489
+  nva_id: '2751489'
+- title: 'Privacy@Edge: Privacy-aware Edge and Data Subjects'
+  url: https://nva.sikt.no/projects/2715312
+  nva_id: '2715312'
 roles:
 - Member
 urls:

@@ -12,6 +12,7 @@ people:
 - alexander-refsum-jensenius
 - ali-ramezani-kebrya
 - anders-tveit
+- andreas-love
 - anna-maria-christodoulou
 - cagri-erdem
 - carsten-griwodz
@@ -19,7 +20,9 @@ people:
 - diego-marin-bucio
 - eskil-muan-saether
 - hege-stensrud-hosoien
+- hugh-alexander-von-arnim
 - ingrid-chieh-yu
+- jim-torresen
 - jon-marius-aareskjold-drecker
 - jonna-vuoskoski
 - kai-olav-ellefsen

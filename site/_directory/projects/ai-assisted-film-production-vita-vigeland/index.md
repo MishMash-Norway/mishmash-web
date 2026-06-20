@@ -17,8 +17,8 @@ people:
 - henning-birkeland
 - ole-christian-solbakken
 institutions:
-- inland-norway-university-of-applied-sciences
 - kristiania-university-college
+- university-of-inland-norway
 projects: []
 ---
 
@@ -37,4 +37,4 @@ Primary WP: [WP2](/wp2/)
 
 ## Institutions
 - Department of Performing Arts, Film and Media, [Kristiania University College](/institutions/kristiania-university-college/)
-- [University of Inland Norway](/institutions/inland-norway-university-of-applied-sciences/)
+- [University of Inland Norway](/institutions/university-of-inland-norway/)

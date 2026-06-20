@@ -19,8 +19,8 @@ people:
 - sashi-komandur
 - terje-gaustad
 institutions:
-- inland-norway-university-of-applied-sciences
 - kristiania-university-college
+- university-of-inland-norway
 projects: []
 ---
 
@@ -39,4 +39,4 @@ Primary WP: [WP7](/wp7/)
 
 ## Institutions
 - [Kristiania University College](/institutions/kristiania-university-college/)
-- [University of Inland Norway](/institutions/inland-norway-university-of-applied-sciences/)
+- [University of Inland Norway](/institutions/university-of-inland-norway/)

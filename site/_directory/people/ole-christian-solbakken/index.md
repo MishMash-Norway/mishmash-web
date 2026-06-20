@@ -8,8 +8,8 @@ position: University college instructor/student teacher
 department: School of Arts, Design, and Media
 institution: kristiania-university-college
 institutions:
-- inland-norway-university-of-applied-sciences
 - kristiania-university-college
+- university-of-inland-norway
 projects:
 - ai-assisted-film-production-vita-vigeland
 roles:

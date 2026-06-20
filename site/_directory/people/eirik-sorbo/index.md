@@ -12,13 +12,20 @@ institutions:
 projects:
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
+other_projects:
+- title: CreateMe
+  url: https://nva.sikt.no/projects/2591724
+  nva_id: '2591724'
+- title: studX - Activating student expertise in electronic music education
+  url: https://nva.sikt.no/projects/2538604
+  nva_id: '2538604'
 roles:
-- Work Package Leader Group member
+- Member
 urls:
   personal_website: ''
   institutional_website: ''
-  github: ''
-  linkedin: ''
+  github: https://github.com/EirikSorbo
+  linkedin: https://www.linkedin.com/in/eirik-s%C3%B8rb%C3%B8-bb4344189/
   orcid: https://orcid.org/0000-0002-3049-4422
   nva: https://nva.sikt.no/research-profile/1014980
   youtube: ''
@@ -147,6 +154,8 @@ summary: Researcher, educator, and musician. PhD in music education from the Uni
   Engaged in several projects, including MishMash (work package leader) and CreaTeME
   (project developer). Active grant writer with a strong track record of securing
   research funding.
+wps:
+- WP4
 permalink: /people/eirik-sorbo/
 redirect_from:
 - /directory/people/eirik-sorbo/

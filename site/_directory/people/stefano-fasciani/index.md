@@ -10,6 +10,10 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects: []
+other_projects:
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:

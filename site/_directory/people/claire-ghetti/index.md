@@ -14,6 +14,11 @@ affiliation_units:
 - Faculty of Fine Art, Music and Design
 - The Grieg Academy &#8211; Department of Music
 projects: []
+other_projects:
+- title: 'Sounding Relation: Foreldres bidrag til premature spedbarns regulering gjennom
+    musikalsk samspill'
+  url: https://nva.sikt.no/projects/2581000
+  nva_id: '2581000'
 roles:
 - Work Package Leader Group member
 urls:

@@ -10,6 +10,10 @@ institutions:
 - kristiania-university-college
 projects:
 - ki-i-kunstnerisk-utdanning-og-praksis
+other_projects:
+- title: SEHER!
+  url: https://nva.sikt.no/projects/2749203
+  nva_id: '2749203'
 roles:
 - Member
 urls:

@@ -7,10 +7,14 @@ position: Student
 department: Faculty of Social Sciences
 institution: nord-university
 institutions:
-- inland-norway-university-of-applied-sciences
 - nord-university
+- university-of-inland-norway
 projects:
 - strategic-storyteller
+other_projects:
+- title: 'Excited: GameLab XL'
+  url: https://nva.sikt.no/projects/2745336
+  nva_id: '2745336'
 roles:
 - Member
 urls:

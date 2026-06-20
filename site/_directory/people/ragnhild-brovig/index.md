@@ -14,10 +14,20 @@ affiliation_units:
 - Faculty of Humanities
 - Department of Musicology
 projects: []
+other_projects:
+- title: CreateMe
+  url: https://nva.sikt.no/projects/2591724
+  nva_id: '2591724'
+- title: 'MASHED: Mashup Music, Copyright, and Platform Regulation'
+  url: https://nva.sikt.no/projects/612470
+  nva_id: '612470'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
-- Work Package Leader Group member
+- Member
 urls:
-  personal_website: ''
+  personal_website: https://www.ragnhildbrovig.com
   institutional_website: ''
   github: ''
   linkedin: ''
@@ -131,8 +141,11 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null
+wps:
+- WP5
 permalink: /people/ragnhild-brovig/
 redirect_from:
 - /directory/people/ragnhild-brovig/
 ---
 
+I suggest that only publications and artistic output should be imported from NVA, not invited lectures, talks, conference presentations, interviews etc. I would at least prefer that.

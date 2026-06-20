@@ -6,9 +6,9 @@ title: Tonje Louise Finne
 position: Associate professor
 department: Faculty of Film, TV and Games
 image: /assets/images/portraits/Tonje_Louise_Finne_INN.png
-institution: inland-norway-university-of-applied-sciences
+institution: university-of-inland-norway
 institutions:
-- inland-norway-university-of-applied-sciences
+- university-of-inland-norway
 projects:
 - bingo-ai-assisted-animation-documentary-film
 roles:
@@ -52,6 +52,8 @@ selected_works:
   - name: Guro Erika Trøseid Gjerstadberget
   - name: Nina Malterud
   - name: Trond Lossius
+    slug: trond-lossius
+    url: /people/trond-lossius/
   - name: Azar Ebrahimi
   - name: Dino Murselovic
   - name: Martin Anil Choudari

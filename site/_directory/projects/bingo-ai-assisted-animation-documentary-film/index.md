@@ -18,8 +18,8 @@ people:
 - ole-christoffer-haga
 - tonje-louise-finne
 institutions:
-- inland-norway-university-of-applied-sciences
 - kristiania-university-college
+- university-of-inland-norway
 projects: []
 ---
 
@@ -37,5 +37,5 @@ Primary WP: [WP2](/wp2/)
 - Participants: [Henning Birkeland](/people/henning-birkeland/), [Ole Christoffer Haga](/people/ole-christoffer-haga/)
 
 ## Institutions
-- TV-School, [University of Inland Norway](/institutions/inland-norway-university-of-applied-sciences/)
+- TV-School, [University of Inland Norway](/institutions/university-of-inland-norway/)
 - [Kristiania University College](/institutions/kristiania-university-college/)

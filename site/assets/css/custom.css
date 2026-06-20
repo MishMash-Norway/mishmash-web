@@ -411,6 +411,15 @@ a:focus-visible .icon {
   margin-top: 2rem;
 }
 
+.person-other-projects {
+  margin-top: 2rem;
+}
+
+.person-other-projects ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
 .institution-page {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 300px;

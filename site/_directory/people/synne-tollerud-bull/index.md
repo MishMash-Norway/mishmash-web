@@ -16,20 +16,35 @@ affiliation_units:
 projects:
 - ai-as-environment
 - tao-transductive-acoustic-organism
+other_projects:
+- title: 'Kunstens co-pilot: Kunst og KI i et prosessøkologisk perspektiv'
+  url: https://nva.sikt.no/projects/2755448
+  nva_id: '2755448'
+- title: Media Seas of the High North Atlantic
+  url: https://nva.sikt.no/projects/2743373
+  nva_id: '2743373'
+- title: Re:place
+  url: https://nva.sikt.no/projects/2750521
+  nva_id: '2750521'
+- title: 'Urban Ecologies: City Sensing Beyond the Human'
+  url: https://nva.sikt.no/projects/2743013
+  nva_id: '2743013'
+- title: Writing the Writer
+  url: https://nva.sikt.no/projects/2563350
+  nva_id: '2563350'
 roles:
-- Council member
-- Work Package Leader Group member
+- Member
 urls:
-  personal_website: ''
+  personal_website: https://bull.miletic.info/
   institutional_website: https://www.kristiania.no/om-kristiania/ansatte/school-of-arts-design-and-media/institutt-for-scenekunst-film-og-medier/synne-tollerud-bull/
-  github: ''
-  linkedin: ''
+  github: https://github.com/SynneTB
+  linkedin: https://www.linkedin.com/in/synne-tollerud-bull-a86b0222/
   orcid: https://orcid.org/0000-0002-4248-5363
   nva: https://nva.sikt.no/research-profile/325669
-  youtube: ''
-  facebook: ''
+  youtube: https://vimeo.com/bullmiletic
+  facebook: https://www.facebook.com/synne.t.bull
   mastodon: ''
-  instagram: ''
+  instagram: https://www.instagram.com/synnetollerudbull/
 aliases: []
 tags:
 - Media-art
@@ -170,6 +185,10 @@ summary: 'Synne Tollerud Bull is a media artist, researcher, and Professor, curr
 
   She has developed the concept of proxistant vision to describe image forms that
   combine proximity and distance within a single vi'
+wps:
+- WP2
+- WP5
+- WP6
 permalink: /people/synne-tollerud-bull/
 redirect_from:
 - /directory/people/synne-tollerud-bull/

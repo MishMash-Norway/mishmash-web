@@ -15,6 +15,20 @@ affiliation_units:
 projects:
 - tao-transductive-acoustic-organism
 - tool-for-tools
+other_projects:
+- title: OpenAR – Framework for augmented reality in advanced maritime operations
+  url: https://nva.sikt.no/projects/2749023
+  nva_id: '2749023'
+- title: OpenRemote  - Harmonising design of remote connected maritime workstations
+  url: https://nva.sikt.no/projects/2749025
+  nva_id: '2749025'
+- title: OpenZero – Digital user interface design for energy-conscious and safe maritime
+    operations
+  url: https://nva.sikt.no/projects/2749022
+  nva_id: '2749022'
+- title: Using Augmented Reality to Facilitate Maritime Collaboration
+  url: https://nva.sikt.no/projects/2684134
+  nva_id: '2684134'
 roles:
 - Work Package Leader Group member
 urls:

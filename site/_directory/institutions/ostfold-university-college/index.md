@@ -1,4 +1,5 @@
 ---
+layout: page
 type: institution
 slug: ostfold-university-college
 permalink: /institutions/ostfold-university-college/
@@ -10,6 +11,7 @@ image: /images/institutions/ostfold-university-college.png
 people:
 - andre-alexandersen-hauge
 - georgios-marentakis
+- stefano-nichele
 projects: []
 country: null
 city: null

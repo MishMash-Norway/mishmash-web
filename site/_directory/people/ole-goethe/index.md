@@ -8,16 +8,16 @@ department: Faculty of Social Sciences
 image: /assets/images/portraits/Ole_Goethe_NORD.jpg
 institution: nord-university
 institutions:
-- inland-norway-university-of-applied-sciences
 - kristiania-university-college
 - nord-university
+- university-of-inland-norway
 nva_affiliations:
 - role: Senior lecturer
   unit: Faculty of Social Sciences
   institution: nord-university
 - role: Senior lecturer
   unit: Faculty of Film, TV and Games
-  institution: inland-norway-university-of-applied-sciences
+  institution: university-of-inland-norway
 - role: Senior lecturer
   unit: School of Arts, Design, and Media
   institution: kristiania-university-college

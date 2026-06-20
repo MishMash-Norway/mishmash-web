@@ -8,15 +8,15 @@ department: Department of Education
 image: /assets/images/portraits/Øystein_Skaar_UiB.jpg
 institution: university-of-bergen
 institutions:
-- inland-norway-university-of-applied-sciences
 - university-of-bergen
+- university-of-inland-norway
 nva_affiliations:
 - role: Associate professor
   unit: Department of Education
   institution: university-of-bergen
 - role: Associate professor
   unit: Department of Educational Studies in Teacher Education
-  institution: inland-norway-university-of-applied-sciences
+  institution: university-of-inland-norway
 projects:
 - scoping-review-creative-ai-teaching-learning
 roles:

@@ -21,6 +21,7 @@ people:
 - oystein-skaar
 - thomas-de-ridder
 - thor-magnusson
+- trond-lossius
 projects:
 - ai-as-environment
 - ai-integration-film-tv-education

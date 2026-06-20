@@ -7,15 +7,15 @@ position: Professor
 department: Faculty of Social Sciences
 institution: nord-university
 institutions:
-- inland-norway-university-of-applied-sciences
 - nord-university
+- university-of-inland-norway
 nva_affiliations:
 - role: Professor
   unit: Faculty of Social Sciences
   institution: nord-university
 - role: Professor
   unit: Faculty of Film, TV and Games
-  institution: inland-norway-university-of-applied-sciences
+  institution: university-of-inland-norway
 projects:
 - tool-for-tools
 roles:

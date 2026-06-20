@@ -9,6 +9,22 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects: []
+other_projects:
+- title: 'AURoRA: ??? ??? ?? ????? ??? ?? ??? ??–?? ?? ??'
+  url: https://nva.sikt.no/projects/2769429
+  nva_id: '2769429'
+- title: Integreat - Norsk senter for kunnskapsdrevet maskinlæring
+  url: https://nva.sikt.no/projects/2769426
+  nva_id: '2769426'
+- title: Maskinlæring i den Virkelige Verden (MLReal)
+  url: https://nva.sikt.no/projects/2769425
+  nva_id: '2769425'
+- title: Norwegian Centre for Knowledge-driven Machine Learning
+  url: https://nva.sikt.no/projects/2637937
+  nva_id: '2637937'
+- title: Visuell Intelligens
+  url: https://nva.sikt.no/projects/2769427
+  nva_id: '2769427'
 roles:
 - Member
 urls:

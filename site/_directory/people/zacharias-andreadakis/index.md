@@ -11,6 +11,15 @@ institutions:
 - western-norway-university-of-applied-sciences
 projects:
 - tool-for-tools
+other_projects:
+- title: KINDKNOW - Kindergarten Knowledge Centre for Systemic Research on Diversity
+    and Sustainable Futures
+  url: https://nva.sikt.no/projects/582967
+  nva_id: '582967'
+- title: Sustainable design in kindergarten sector through 'Exploration and Pedagogical
+    Innovation Laboratory' [EX-PED-LAB]
+  url: https://nva.sikt.no/projects/2524562
+  nva_id: '2524562'
 roles:
 - Member
 urls:

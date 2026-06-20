@@ -22,13 +22,18 @@ nva_affiliations:
   unit: Simula Metropolitan Center for Digital Engineering
   institution: simula-metropolitan-center-for-digital-engineering
 projects: []
+other_projects:
+- title: DEEPCOBOT-Collective Efficient Deep Learning and Networked Control for Multiple
+    Collaborative Robot Systems (DEEPCOBOT)
+  url: https://nva.sikt.no/projects/2500730
+  nva_id: '2500730'
 roles:
-- Work Package Leader Group member
+- Member
 urls:
-  personal_website: ''
+  personal_website: https://www.simulamet.no/sigipro
   institutional_website: ''
   github: ''
-  linkedin: ''
+  linkedin: https://www.linkedin.com/in/baltasar-beferull-lozano-8b306918/
   orcid: https://orcid.org/0000-0002-0902-6245
   nva: https://nva.sikt.no/research-profile/588528
   youtube: ''
@@ -247,7 +252,8 @@ selected_works:
     url: /people/baltasar-beferull-lozano/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+wps:
+- WP7
 permalink: /people/baltasar-beferull-lozano/
 redirect_from:
 - /directory/people/baltasar-beferull-lozano/

@@ -20,7 +20,7 @@ INSTITUTION_LOGO_SOURCES: dict[str, str] = {
     "barratt-due-institute-of-music": "barratt-due.svg",
     "bergen-center-for-electronic-arts": "bek.png",
     "bi-norwegian-business-school": "bi.svg",
-    "inland-norway-university-of-applied-sciences": "inn.png",
+    "university-of-inland-norway": "inn.png",
     "kristiania-university-college": "kristiania.svg",
     "kulturtanken": "kulturtanken.png",
     "motioncomposer-gmbh": "motioncomposer.png",

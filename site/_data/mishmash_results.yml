@@ -1,4 +1,4 @@
-synced_at: '2026-06-20T08:24:16Z'
+synced_at: '2026-06-20T19:39:50Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -64,6 +64,8 @@ results:
   group_type: Book chapter
   contributors:
   - name: Hugh Alexander von Arnim
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
   - name: Anna-Maria Christodoulou
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
@@ -83,6 +85,8 @@ results:
     authors:
     - display: Arnim, Hugh Alexander von
       name: Hugh Alexander von Arnim
+      slug: hugh-alexander-von-arnim
+      url: /people/hugh-alexander-von-arnim/
     - display: Christodoulou, Anna-Maria
       name: Anna-Maria Christodoulou
       slug: anna-maria-christodoulou
@@ -301,8 +305,8 @@ results:
     url: /people/ida-jahr/
   institutions:
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   citation:
     authors:
     - display: Jahr, Ida
@@ -505,8 +509,8 @@ results:
     url: /people/ida-jahr/
   institutions:
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   citation:
     authors:
     - display: Jahr, Ida
@@ -587,8 +591,8 @@ results:
     url: /people/fredrik-graver/
   institutions:
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   citation:
     authors:
     - display: Graver, Fredrik
@@ -915,6 +919,8 @@ results:
   contributors:
   - name: Jinyue Guo
   - name: Jim Tørresen
+    slug: jim-torresen
+    url: /people/jim-torresen/
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
@@ -928,6 +934,8 @@ results:
       name: Jinyue Guo
     - display: Tørresen, Jim
       name: Jim Tørresen
+      slug: jim-torresen
+      url: /people/jim-torresen/
     - display: Jensenius, Alexander Refsum
       name: Alexander Refsum Jensenius
       slug: alexander-refsum-jensenius
@@ -1136,8 +1144,8 @@ results:
     url: /people/ida-jahr/
   institutions:
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   citation:
     authors:
     - display: Jahr, Ida
@@ -1164,8 +1172,8 @@ results:
     url: /people/ida-jahr/
   institutions:
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   citation:
     authors:
     - display: Jahr, Ida
@@ -1409,8 +1417,8 @@ results:
     slug: oslo-school-of-architecture-and-design
     url: /institutions/oslo-school-of-architecture-and-design/
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   - name: Kristiania University College
     slug: kristiania-university-college
     url: /institutions/kristiania-university-college/
@@ -1732,8 +1740,8 @@ results:
     slug: ostfold-university-college
     url: /institutions/ostfold-university-college/
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
@@ -1763,8 +1771,8 @@ results:
     url: /people/fredrik-graver/
   institutions:
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   citation:
     authors:
     - display: Graver, Fredrik
@@ -1791,8 +1799,8 @@ results:
     url: /people/fredrik-graver/
   institutions:
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   citation:
     authors:
     - display: Graver, Fredrik
@@ -2340,8 +2348,8 @@ results:
     url: /people/fredrik-graver/
   institutions:
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
@@ -2684,8 +2692,8 @@ results:
     url: /people/daniel-nordgard/
   institutions:
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
@@ -2727,8 +2735,8 @@ results:
     url: /people/fredrik-graver/
   institutions:
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   citation:
     authors:
     - display: Graver, Fredrik
@@ -2756,8 +2764,8 @@ results:
     url: /people/fredrik-graver/
   institutions:
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   citation:
     authors:
     - display: Graver, Fredrik
@@ -2783,6 +2791,8 @@ results:
   group_type: Lecture
   contributors:
   - name: Trond Lossius
+    slug: trond-lossius
+    url: /people/trond-lossius/
   - name: Steven Bachelder
   - name: Synne Tollerud Bull
     slug: synne-tollerud-bull
@@ -2792,8 +2802,8 @@ results:
     url: /people/ida-jahr/
   institutions:
   - name: University of Inland Norway
-    slug: inland-norway-university-of-applied-sciences
-    url: /institutions/inland-norway-university-of-applied-sciences/
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   - name: Kristiania University College
     slug: kristiania-university-college
     url: /institutions/kristiania-university-college/
@@ -2801,6 +2811,8 @@ results:
     authors:
     - display: Lossius, Trond
       name: Trond Lossius
+      slug: trond-lossius
+      url: /people/trond-lossius/
     - display: Bachelder, Steven
       name: Steven Bachelder
     - display: Bull, Synne Tollerud

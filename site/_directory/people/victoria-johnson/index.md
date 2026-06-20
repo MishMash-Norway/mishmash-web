@@ -23,6 +23,13 @@ nva_affiliations:
   institution: barratt-due-institute-of-music
 projects:
 - human-machine-consciousness
+other_projects:
+- title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
+  url: https://nva.sikt.no/projects/2743421
+  nva_id: '2743421'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:

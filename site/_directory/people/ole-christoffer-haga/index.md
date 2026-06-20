@@ -7,15 +7,15 @@ position: Guest
 department: Department of Art and Media Studies
 institution: norwegian-university-of-science-and-technology
 institutions:
-- inland-norway-university-of-applied-sciences
 - norwegian-university-of-science-and-technology
+- university-of-inland-norway
 nva_affiliations:
 - role: Guest
   unit: Department of Art and Media Studies
   institution: norwegian-university-of-science-and-technology
 - role: Senior lecturer
   unit: Faculty of Film, TV and Games
-  institution: inland-norway-university-of-applied-sciences
+  institution: university-of-inland-norway
 projects:
 - bingo-ai-assisted-animation-documentary-film
 roles:
@@ -77,6 +77,8 @@ selected_works:
   - name: Guro Erika Trøseid Gjerstadberget
   - name: Nina Malterud
   - name: Trond Lossius
+    slug: trond-lossius
+    url: /people/trond-lossius/
   - name: Azar Ebrahimi
   - name: Dino Murselovic
   - name: Martin Anil Choudari
@@ -169,6 +171,8 @@ selected_works:
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
   - name: Trond Lossius
+    slug: trond-lossius
+    url: /people/trond-lossius/
   - name: Lotte Mik-Meyer
   - name: Camilla Vanebo
 - title: Animated Traumas - The Films of Anita Killi

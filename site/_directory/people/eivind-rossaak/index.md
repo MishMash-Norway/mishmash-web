@@ -11,6 +11,13 @@ institutions:
 - national-library-of-norway
 projects:
 - ai-as-environment
+other_projects:
+- title: Digital kultur, estetiske praksiser
+  url: https://nva.sikt.no/projects/2757849
+  nva_id: '2757849'
+- title: Time Bomb Art
+  url: https://nva.sikt.no/projects/2757858
+  nva_id: '2757858'
 roles:
 - Member
 urls:

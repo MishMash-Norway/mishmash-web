@@ -12,7 +12,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: ''
+  personal_website: https://www.uia.no/om-uia/ansatte/arsteinj/
   institutional_website: ''
   github: ''
   linkedin: ''
@@ -114,6 +114,7 @@ selected_works:
     slug: arstein-justnes
     url: /people/arstein-justnes/
 source_mentions: []
+summary: null
 wps:
 - WP6
 permalink: /people/arstein-justnes/
@@ -122,3 +123,5 @@ redirect_from:
 ---
 
 Bio coming soon.
+
+Jeg leder et internasjonalt forskerseminar på Zoom (DeadSearious Seminars) som møtes annenhver uke. Det samler i hovedsak manuskriptforskere og noen arkeologer. MishMashere vil selvsagt være velkommen. Jeg har nylig ledet et NFR Toppforsk-prosjekt, “The Lying Pen of Scribes”: Manuscript Forgeries, Digital Imaging, and Critical Provenance Research (2019–2024)

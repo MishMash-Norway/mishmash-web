@@ -19,9 +19,9 @@ people:
 - kjetil-nordby
 - synne-tollerud-bull
 institutions:
-- inland-norway-university-of-applied-sciences
 - kristiania-university-college
 - oslo-school-of-architecture-and-design
+- university-of-inland-norway
 projects: []
 ---
 
@@ -41,4 +41,4 @@ Primary WP: [WP1](/wp1/)
 ## Institutions
 - [Oslo School of Architecture and Design](/institutions/oslo-school-of-architecture-and-design/)
 - [Kristiania University College](/institutions/kristiania-university-college/)
-- [University of Inland Norway](/institutions/inland-norway-university-of-applied-sciences/)
+- [University of Inland Norway](/institutions/university-of-inland-norway/)

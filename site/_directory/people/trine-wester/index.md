@@ -11,6 +11,13 @@ institutions:
 - oslo-national-academy-of-the-arts
 projects:
 - ki-i-kunstnerisk-utdanning-og-praksis
+other_projects:
+- title: Bypassing Deep Time
+  url: https://nva.sikt.no/projects/2755086
+  nva_id: '2755086'
+- title: CRAFT- Decoding Ceramics
+  url: https://nva.sikt.no/projects/2563486
+  nva_id: '2563486'
 roles:
 - Member
 urls:

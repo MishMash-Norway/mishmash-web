@@ -29,6 +29,8 @@ PORTRAITS_DIR = "assets/images/portraits"
 PORTRAIT_MAX_SIZE = 300
 DEFAULT_MAX_WORKS = 10
 DEFAULT_MAX_TAGS = 12
+MISHMASH_NVA_PROJECT_ID = "2744839"
+NVA_SEARCH_PAGE_SIZE = 100
 
 from institution_short_names import institution_abbrev as resolve_institution_abbrev
 NVA_API_HOSTS = {
@@ -661,6 +663,76 @@ def nva_selected_works(
     return works[:max_works]
 
 
+def nva_project_id_from_url(value: str) -> str:
+    value = (value or "").strip().rstrip("/")
+    if not value:
+        return ""
+    return value.split("/")[-1]
+
+
+def nva_public_project_url(project_id: str) -> str:
+    return f"https://nva.sikt.no/projects/{project_id}"
+
+
+def project_name_from_nva_hit(project: dict) -> str:
+    name = project.get("name") or project.get("title") or ""
+    if isinstance(name, dict):
+        name = name.get("en") or name.get("nb") or next(iter(name.values()), "")
+    return str(name).strip()
+
+
+def collect_other_projects_from_hits(hits: list[dict]) -> dict[str, str]:
+    projects: dict[str, str] = {}
+    for hit in hits or []:
+        for project in hit.get("projects") or []:
+            project_id = nva_project_id_from_url(project.get("id") or "")
+            name = project_name_from_nva_hit(project)
+            if not project_id or not name or project_id == MISHMASH_NVA_PROJECT_ID:
+                continue
+            projects[project_id] = name
+    return projects
+
+
+def nva_other_projects(profile_id: str) -> list[dict[str, str]]:
+    contributor = nva_api_url(f"/cristin/person/{profile_id}")
+    projects: dict[str, str] = {}
+    from_offset = 0
+
+    while True:
+        response = requests.get(
+            nva_api_url("/search/resources"),
+            params={"contributor": contributor, "size": NVA_SEARCH_PAGE_SIZE, "from": from_offset},
+            headers=_nva_request_headers,
+            timeout=30,
+        )
+        response.raise_for_status()
+        payload = response.json()
+        hits = payload.get("hits") or []
+        if not hits:
+            break
+        projects.update(collect_other_projects_from_hits(hits))
+        from_offset += len(hits)
+        total_hits = payload.get("totalHits") or 0
+        if from_offset >= total_hits:
+            break
+
+    return [
+        {
+            "title": name,
+            "url": nva_public_project_url(project_id),
+            "nva_id": project_id,
+        }
+        for project_id, name in sorted(projects.items(), key=lambda item: item[1].lower())
+    ]
+
+
+def _safe_nva_other_projects(profile_id: str) -> list[dict[str, str]]:
+    try:
+        return nva_other_projects(profile_id)
+    except Exception:
+        return []
+
+
 def fetch_nva_bundle(
     profile_id: str,
     institution_lookup: dict[str, str],
@@ -696,6 +768,7 @@ def fetch_nva_bundle(
         "orcid": find_orcid(profile.get("identifiers") or []),
         "institutional_website": ((profile.get("contactDetails") or {}).get("webPage") or "").strip(),
         "selected_works": nva_selected_works(profile_id, max_works=max_works, person_lookup=person_lookup),
+        "other_projects": _safe_nva_other_projects(profile_id),
         "profile_id": profile_id,
     }
 
@@ -1192,6 +1265,7 @@ def ordered_person(data: dict) -> dict:
         "affiliation_units",
         "nva_affiliations",
         "projects",
+        "other_projects",
         "roles",
         "urls",
         "aliases",
@@ -1372,6 +1446,9 @@ def enrich_person(
     selected_works = synced_field_value(nva_bundle, orcid_bundle, "selected_works") or []
     changed = apply_field(data, "selected_works", selected_works, changed, allow_empty=allow_empty) or changed
 
+    other_projects = synced_field_value(nva_bundle, orcid_bundle, "other_projects") or []
+    changed = apply_field(data, "other_projects", other_projects, changed, allow_empty=allow_empty) or changed
+
     if "website" in urls:
         urls.pop("website", None)
         changed = True
@@ -1412,7 +1489,7 @@ def enrich_person(
 
     data["urls"] = urls
 
-    for key in ("affiliation_units", "nva_affiliations"):
+    for key in ("affiliation_units", "nva_affiliations", "other_projects"):
         if key in data and not data.get(key):
             data.pop(key, None)
             changed = True

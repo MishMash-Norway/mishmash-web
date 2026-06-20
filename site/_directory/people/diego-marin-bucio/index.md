@@ -10,6 +10,13 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects: []
+other_projects:
+- title: DjembeDance - Multimodal rhythm in music and dance from West Africa
+  url: https://nva.sikt.no/projects/2747770
+  nva_id: '2747770'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:

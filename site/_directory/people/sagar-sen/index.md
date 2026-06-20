@@ -10,6 +10,26 @@ institutions:
 - sintef-digital
 projects:
 - environmental-sustainability-mishmash
+other_projects:
+- title: 'DATAPACT: COMPLIANCE BY DESIGN OF DATA/AI OPERATIONS AND PIPELINES'
+  url: https://nva.sikt.no/projects/2739280
+  nva_id: '2739280'
+- title: 'ENFIELD: European Lighthouse to Manifest Trustworthy and Green AI'
+  url: https://nva.sikt.no/projects/2751996
+  nva_id: '2751996'
+- title: enRichMyData
+  url: https://nva.sikt.no/projects/2754432
+  nva_id: '2754432'
+- title: Intent-based data operation in the computing continuum
+  url: https://nva.sikt.no/projects/2751489
+  nva_id: '2751489'
+- title: 'TechDebtOps: Data-driven continuous management of technical debts for sustainable
+    software development'
+  url: https://nva.sikt.no/projects/2604704
+  nva_id: '2604704'
+- title: UPCAST
+  url: https://nva.sikt.no/projects/2754428
+  nva_id: '2754428'
 roles:
 - Member
 urls:

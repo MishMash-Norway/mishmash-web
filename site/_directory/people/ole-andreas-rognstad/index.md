@@ -11,6 +11,14 @@ institutions:
 - university-of-oslo
 projects:
 - copyright-and-personality-rights-ai-era
+other_projects:
+- title: 'Bærekraftige markeder: Rettslige rammer for innovasjon og konkurranse for
+    bærekraftige markedsresultater'
+  url: https://nva.sikt.no/projects/2748711
+  nva_id: '2748711'
+- title: EURNOR - Research Centre on the European Dimension of Norwegian Law
+  url: https://nva.sikt.no/projects/2748291
+  nva_id: '2748291'
 roles:
 - Member
 urls:

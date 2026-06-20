@@ -11,8 +11,24 @@ institutions:
 - university-of-oslo
 projects:
 - intensifying-brain-pleasure-responses-music
+other_projects:
+- title: Auditory Attentional Blink (AAB)
+  url: https://nva.sikt.no/projects/2763406
+  nva_id: '2763406'
+- title: Auditory Emotion Processing in Autism
+  url: https://nva.sikt.no/projects/2763404
+  nva_id: '2763404'
+- title: Musikalitet, personlighet, helse og livskvalitet. En tvillingstudie.
+  url: https://nva.sikt.no/projects/2520576
+  nva_id: '2520576'
+- title: PROMENTA Research Center
+  url: https://nva.sikt.no/projects/2492068
+  nva_id: '2492068'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
-- Work Package Leader Group member
+- Member
 urls:
   personal_website: ''
   institutional_website: http://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
@@ -160,6 +176,8 @@ summary: I am Professor of Music Cognition at the Department of Musicology and t
   the Interaction & Pleasure research cluster. I am also a co-leader of work-package
   3 (Creative use of AI for health and well-being) at the MishMash Centre for AI and
   Creativity.
+wps:
+- WP3
 permalink: /people/jonna-vuoskoski/
 redirect_from:
 - /directory/people/jonna-vuoskoski/

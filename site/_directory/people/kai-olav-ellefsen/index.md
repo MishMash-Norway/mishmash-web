@@ -9,6 +9,20 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects: []
+other_projects:
+- title: Norwegian Centre for Embodied AI (NCEI)
+  url: https://nva.sikt.no/projects/2762680
+  nva_id: '2762680'
+- title: Predictive and Intuitive Robot Companion (PIRC)
+  url: https://nva.sikt.no/projects/2747768
+  nva_id: '2747768'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
+- title: Smart AUVs for detection and quantification of greenhouse gas seepage in
+    the oceans
+  url: https://nva.sikt.no/projects/2722044
+  nva_id: '2722044'
 roles:
 - Member
 urls:

@@ -11,6 +11,10 @@ institutions:
 - nla-university-college
 projects:
 - ai-integration-film-tv-education
+other_projects:
+- title: Teaching and Learning Theology in Crisis
+  url: https://nva.sikt.no/projects/2538482
+  nva_id: '2538482'
 roles:
 - Member
 urls:

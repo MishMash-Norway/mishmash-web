@@ -27,8 +27,26 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Music Improvisation
+- Electroacoustic musikk
+- Teaching
+- Guidance
+- Musical composition
+- Interactive music
+- Ambisonics
+- Music
+- Music Technology
+search_keywords:
+- Music Improvisation
+- Electroacoustic musikk
+- Teaching
+- Guidance
+- Musical composition
+- Interactive music
+- Ambisonics
+- Music
+- Music Technology
 selected_works:
 - title: 11. The composition of acousmatic electroacoustic music in a Norwegian context
     part II
@@ -38,6 +56,15 @@ selected_works:
   url: https://doi.org/10.55669/oa491111
   contributors:
   - name: Natasha Barrett
+  - name: Anders Tveit
+    slug: anders-tveit
+    url: /people/anders-tveit/
+- title: Mesmerisms no.1
+  year: '2022'
+  source: Music performance
+  group_type: Music performance
+  url: https://spatialaudiogathering.github.io/April1.html#D2AV2
+  contributors:
   - name: Anders Tveit
     slug: anders-tveit
     url: /people/anders-tveit/
@@ -52,6 +79,8 @@ selected_works:
     url: /people/anders-tveit/
   - name: Terje Evensen
   - name: Trond Lossius
+    slug: trond-lossius
+    url: /people/trond-lossius/
 - title: Fritt fall - Live coding
   year: '2015'
   source: Music performance

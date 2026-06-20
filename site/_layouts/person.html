@@ -163,6 +163,23 @@ layout: default
     {% assign person_slug_path = '/people/' | append: page.slug | append: '/' %}
     {% include related-projects.html entity_path=person_slug_path project_slugs=page.projects section_class="person-projects" heading="MishMash Projects" %}
 
+    {% if page.other_projects and page.other_projects.size > 0 %}
+    <section class="person-other-projects" aria-label="Other projects">
+      <h2>Other projects</h2>
+      <ul>
+        {% for project in page.other_projects %}
+        <li>
+          {% if project.url %}
+          <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+          {% else %}
+          {{ project.title }}
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
     {% if page.selected_works and page.selected_works.size > 0 %}
     {% include person-selected-works.html %}
     {% include nva-results-expand-script.html %}

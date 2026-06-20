@@ -19,9 +19,9 @@ people:
 - heidi-partti
 - sidsel-karlsen
 institutions:
-- inland-norway-university-of-applied-sciences
 - norwegian-academy-of-music
 - university-of-agder
+- university-of-inland-norway
 projects: []
 ---
 
@@ -41,4 +41,4 @@ Primary WP: [WP4](/wp4/)
 ## Institutions
 - [University of Agder](/institutions/university-of-agder/)
 - [Norwegian Academy of Music](/institutions/norwegian-academy-of-music/)
-- [University of Inland Norway](/institutions/inland-norway-university-of-applied-sciences/)
+- [University of Inland Norway](/institutions/university-of-inland-norway/)
