@@ -8,8 +8,9 @@ custom_css: /assets/css/people-network.css
   <div class="container">
     <h1>People Network</h1>
     <p style="margin-bottom:16px;">Relationships between MishMash researchers.
-    Choose how connections are drawn · hover for details · click a person to visit their profile · drag to rearrange · scroll to zoom.</p>
+    Choose how connections are drawn · hover for details · click a person to visit their profile · drag to rearrange · scroll to zoom · use <strong>Full screen</strong> for a larger view.</p>
 
+    <div id="net-panel">
     <div id="net-mode-controls">
       <strong style="font-size:13px">Connect by:</strong>
       <button type="button" class="fbtn mbtn active" data-mode="institutions">Institutions</button>
@@ -18,6 +19,7 @@ custom_css: /assets/css/people-network.css
       <label id="toggle-hub-wrap" style="margin-left:8px; font-size:13px; display:flex; align-items:center; gap:6px; cursor:pointer;">
         <input type="checkbox" id="toggle-hub" checked> Group nodes
       </label>
+      <button type="button" class="fbtn net-fullscreen-btn" id="net-fullscreen-btn" aria-pressed="false" aria-label="Enter full screen" title="Full screen">Full screen</button>
     </div>
 
     <div id="net-controls">
@@ -34,6 +36,7 @@ custom_css: /assets/css/people-network.css
       <svg id="net-svg"></svg>
       <div id="net-tip"></div>
       <div id="net-zoom-controls">
+        <div class="zoom-btn" id="zoom-fullscreen" title="Full screen" aria-label="Toggle full screen">⛶</div>
         <div class="zoom-btn" id="zoom-in">+</div>
         <div class="zoom-btn" id="zoom-out">−</div>
         <div class="zoom-btn" id="zoom-reset" style="font-size:11px; line-height:28px;">↺</div>
@@ -41,6 +44,7 @@ custom_css: /assets/css/people-network.css
     </div>
 
     <div id="net-legend"></div>
+    </div>
   </div>
 </div>
 
@@ -349,7 +353,43 @@ function buildGraph() {
 /* ── SVG / zoom setup ─────────────────────────────────────────────── */
 const svg = d3.select("#net-svg");
 const wrap = document.getElementById("net-wrap");
+const panel = document.getElementById("net-panel");
 let W = wrap.clientWidth, H = wrap.clientHeight;
+
+function isFullscreen() {
+  return document.fullscreenElement === panel;
+}
+
+function updateFullscreenUi() {
+  const active = isFullscreen();
+  const label = active ? "Exit full screen" : "Full screen";
+  const icon = active ? "✕" : "⛶";
+  ["net-fullscreen-btn", "zoom-fullscreen"].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.setAttribute("aria-pressed", active ? "true" : "false");
+    el.setAttribute("aria-label", label);
+    el.title = label;
+    if (el.classList.contains("zoom-btn")) el.textContent = icon;
+    else el.textContent = label;
+    el.classList.toggle("active", active);
+  });
+}
+
+function toggleFullscreen() {
+  if (isFullscreen()) {
+    document.exitFullscreen();
+    return;
+  }
+  panel.requestFullscreen().catch(() => {});
+}
+
+document.getElementById("net-fullscreen-btn").addEventListener("click", toggleFullscreen);
+document.getElementById("zoom-fullscreen").addEventListener("click", toggleFullscreen);
+document.addEventListener("fullscreenchange", () => {
+  updateFullscreenUi();
+  render();
+});
 
 let zoom = d3.zoom().scaleExtent([0.25, 5]).on("zoom", e => g.attr("transform", e.transform));
 svg.call(zoom);

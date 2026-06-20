@@ -246,3 +246,40 @@
 .zoom-btn:hover {
   background: #f0f0f0;
 }
+
+#net-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+#net-panel:fullscreen {
+  background: #fff;
+  padding: 16px 20px 20px;
+  overflow: auto;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+#net-panel:fullscreen #net-wrap {
+  flex: 1 1 auto;
+  height: auto;
+  min-height: 320px;
+  margin-bottom: 12px;
+}
+
+.net-fullscreen-btn {
+  margin-left: auto;
+}
+
+.net-fullscreen-btn.active {
+  background: #0f5f5f;
+  border-color: #0f5f5f;
+}
+
+#zoom-fullscreen.active {
+  background: #157878;
+  color: #fff;
+  border-color: #157878;
+}
