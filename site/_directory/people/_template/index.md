@@ -39,7 +39,8 @@ summary:
 #   privacy: green
 #   ai_support:
 #     agent: Cursor
-#     model: Example Model
+#     model_name: Claude
+#     model_version: "4.6 Sonnet"
 #   data_sources: [manual, nva, orcid]
 #   translation:
 #     automatic: true

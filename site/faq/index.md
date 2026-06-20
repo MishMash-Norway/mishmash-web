@@ -4,7 +4,8 @@ title: FAQ
 page_about:
   ai_support:
     agent: Cursor
-    model: Claude
+    model_name: Claude
+    model_version: "4.6 Sonnet"
   data_sources:
     - manual
 ---

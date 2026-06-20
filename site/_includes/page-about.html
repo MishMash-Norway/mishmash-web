@@ -40,6 +40,9 @@
 {% if ai_meta == empty %}
   {% assign ai_meta = meta.ai | default: page.ai %}
 {% endif %}
+{% assign ai_agent = ai_meta.agent %}
+{% assign ai_model_name = ai_meta.model_name | default: ai_meta.model %}
+{% assign ai_model_version = ai_meta.model_version | default: ai_meta.model_number %}
 
 {% assign translation_meta = meta.translation | default: page.translation %}
 {% assign translation_suppressed = false %}
@@ -132,13 +135,19 @@
       </dd>
     </div>
 
-    {% if ai_meta.agent or ai_meta.model %}
+    {% if ai_agent or ai_model_name or ai_model_version %}
     <div class="page-about-item">
       <dt>{{ t.page_about_ai_support }}</dt>
       <dd>
-        {% if ai_meta.agent %}{{ ai_meta.agent }}{% endif %}
-        {% if ai_meta.agent and ai_meta.model %} · {% endif %}
-        {% if ai_meta.model %}{{ ai_meta.model }}{% endif %}
+        {% if ai_agent %}<span>{{ t.page_about_ai_agent }}: {{ ai_agent }}</span>{% endif %}
+        {% if ai_model_name %}
+          {% if ai_agent %}<span class="page-about-source-sep"> · </span>{% endif %}
+          <span>{{ t.page_about_ai_model_name }}: {{ ai_model_name }}</span>
+        {% endif %}
+        {% if ai_model_version %}
+          {% if ai_agent or ai_model_name %}<span class="page-about-source-sep"> · </span>{% endif %}
+          <span>{{ t.page_about_ai_model_version }}: {{ ai_model_version }}</span>
+        {% endif %}
       </dd>
     </div>
     {% endif %}
