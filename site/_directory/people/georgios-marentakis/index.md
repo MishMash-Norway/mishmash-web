@@ -11,7 +11,7 @@ institutions:
 - ostfold-university-college
 projects: []
 roles:
-- Work Package Leader Group member
+- Work package leader
 urls:
   personal_website: ''
   institutional_website: ''

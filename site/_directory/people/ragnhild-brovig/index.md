@@ -22,7 +22,7 @@ other_projects:
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
 roles:
-- Member
+- Work package leader
 urls:
   personal_website: https://www.ragnhildbrovig.com
   institutional_website: ''

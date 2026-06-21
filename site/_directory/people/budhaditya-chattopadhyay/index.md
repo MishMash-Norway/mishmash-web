@@ -17,7 +17,7 @@ other_projects:
   url: https://nva.sikt.no/projects/2748101
   nva_id: '2748101'
 roles:
-- Work Package Leader Group member
+- Work package leader
 urls:
   personal_website: https://budhaditya.org
   institutional_website: https://budhaditya.org

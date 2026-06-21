@@ -13,7 +13,7 @@ projects:
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
 roles:
-- Work Package Leader Group member
+- Work package leader
 urls:
   personal_website: https://filmschoolteacher.info/fredsnotes/
   institutional_website: https://filmschoolteacher.info/fredsnotes/

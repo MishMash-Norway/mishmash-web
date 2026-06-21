@@ -20,7 +20,7 @@ other_projects:
   url: https://nva.sikt.no/projects/2581000
   nva_id: '2581000'
 roles:
-- Work Package Leader Group member
+- Work package leader
 urls:
   personal_website: ''
   institutional_website: ''

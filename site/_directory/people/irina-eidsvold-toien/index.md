@@ -16,7 +16,7 @@ projects:
 - copyright-and-personality-rights-ai-era
 - tool-for-tools
 roles:
-- Work Package Leader Group member
+- Work package leader
 urls:
   personal_website: ''
   institutional_website: ''

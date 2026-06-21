@@ -154,7 +154,7 @@ def parse_wp_leaders(path: Path, root: Path, persons: dict):
             clean_name,
             url.strip(),
             institution.strip(),
-            "Work Package Leader Group member",
+            "Work package leader",
             source_path(path, root),
         )
 

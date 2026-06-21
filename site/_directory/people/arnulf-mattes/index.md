@@ -15,7 +15,7 @@ affiliation_units:
 - The Grieg Academy &#8211; Department of Music
 projects: []
 roles:
-- Work Package Leader Group member
+- Work package leader
 urls:
   personal_website: https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes
   institutional_website: ''

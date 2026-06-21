@@ -17,7 +17,7 @@ projects:
 - evaluation-cultural-bias-workflow-ai-music-generation
 - movement-to-music-hackathon
 roles:
-- Work Package Leader Group member
+- Work package leader
 urls:
   personal_website: ''
   institutional_website: http://folk.ntnu.no/andbe/

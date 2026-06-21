@@ -23,7 +23,7 @@ nva_affiliations:
   institution: simula-metropolitan-center-for-digital-engineering
 projects: []
 roles:
-- Member
+- Work package leader
 urls:
   personal_website: https://www.simulamet.no/sigipro
   institutional_website: ''

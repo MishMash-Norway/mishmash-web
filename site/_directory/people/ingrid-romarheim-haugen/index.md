@@ -11,7 +11,7 @@ institutions:
 - national-library-of-norway
 projects: []
 roles:
-- Member
+- Work package leader
 urls:
   personal_website: ''
   institutional_website: ''

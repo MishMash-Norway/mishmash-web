@@ -21,7 +21,7 @@ other_projects:
   url: https://nva.sikt.no/projects/2755448
   nva_id: '2755448'
 roles:
-- Member
+- Work package leader
 urls:
   personal_website: https://bull.miletic.info/
   institutional_website: https://www.kristiania.no/om-kristiania/ansatte/school-of-arts-design-and-media/institutt-for-scenekunst-film-og-medier/synne-tollerud-bull/
