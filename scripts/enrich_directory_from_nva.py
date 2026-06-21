@@ -17,6 +17,8 @@ from nva_result_types import (
     exclude_from_person_profile,
     nva_publication_instance_type,
     nva_publication_source,
+    orcid_result_group_type,
+    orcid_work_type_label,
     result_group_type,
 )
 from nva_publication_contributors import build_person_lookup, build_result_contributors, person_should_exclude_from_profile
@@ -1264,16 +1266,20 @@ def orcid_selected_works(orcid_id: str, max_works: int) -> list[dict[str, str]]:
         seen.add(key)
 
         year = orcid_text_value((summary.get("publication-date") or {}).get("year"))
-        source = orcid_text_value(summary.get("journal-title")) or orcid_text_value(summary.get("type"))
-        if exclude_from_person_profile(source=source):
+        orcid_type = orcid_text_value(summary.get("type"))
+        type_label = orcid_work_type_label(orcid_type)
+        group_type = orcid_result_group_type(orcid_type)
+        if exclude_from_person_profile(group_type=group_type, source=type_label):
             continue
         url = choose_orcid_work_url(summary, group)
 
         work = {"title": title}
         if year:
             work["year"] = year
-        if source:
-            work["source"] = source
+        if type_label:
+            work["source"] = type_label
+        if group_type:
+            work["group_type"] = group_type
         if url:
             work["url"] = url
         works.append(work)

@@ -114,6 +114,43 @@ GROUP_TYPE_LABELS: dict[str, str] = {
     "OtherPresentation": "Lecture",
 }
 
+# ORCID work types (kebab-case) from the ORCID API work-summary type field.
+ORCID_WORK_TYPE_LABELS: dict[str, str] = {
+    "journal-article": "Journal article",
+    "conference-paper": "Conference paper",
+    "book": "Book",
+    "book-chapter": "Book chapter",
+    "dissertation-thesis": "Thesis",
+    "report": "Report",
+    "working-paper": "Working paper",
+    "preprint": "Preprint",
+    "magazine-article": "Magazine article",
+    "newspaper-article": "Newspaper article",
+    "newsletter-article": "Newsletter article",
+    "online-resource": "Online resource",
+    "software": "Software",
+    "patent": "Patent",
+    "other": "Other",
+}
+
+ORCID_GROUP_TYPE_LABELS: dict[str, str] = {
+    "journal-article": "Journal article",
+    "conference-paper": "Conference",
+    "book": "Book",
+    "book-chapter": "Book chapter",
+    "dissertation-thesis": "Thesis",
+    "report": "Report",
+    "working-paper": "Working paper",
+    "preprint": "Preprint",
+    "magazine-article": "Magazine article",
+    "newspaper-article": "Newspaper article",
+    "newsletter-article": "Newsletter article",
+    "online-resource": "Online resource",
+    "software": "Software",
+    "patent": "Patent",
+    "other": "Other",
+}
+
 
 def nva_publication_instance_type(reference: dict) -> str:
     reference = reference or {}
@@ -142,6 +179,22 @@ def result_group_type(instance_type: str) -> str:
     if instance_type in GROUP_TYPE_LABELS:
         return GROUP_TYPE_LABELS[instance_type]
     return nva_result_type_label(instance_type)
+
+
+def orcid_work_type_label(orcid_type: str) -> str:
+    orcid_type = (orcid_type or "").strip().lower()
+    if orcid_type in ORCID_WORK_TYPE_LABELS:
+        return ORCID_WORK_TYPE_LABELS[orcid_type]
+    if orcid_type:
+        return orcid_type.replace("-", " ").title()
+    return "Publication"
+
+
+def orcid_result_group_type(orcid_type: str) -> str:
+    orcid_type = (orcid_type or "").strip().lower()
+    if orcid_type in ORCID_GROUP_TYPE_LABELS:
+        return ORCID_GROUP_TYPE_LABELS[orcid_type]
+    return orcid_work_type_label(orcid_type)
 
 
 def exclude_from_person_profile(

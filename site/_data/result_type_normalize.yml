@@ -6,6 +6,7 @@ normalize:
   Conference lecture: Conference
   Conference poster: Conference
   Conference report: Conference
+  Conference paper: Conference
   Feature article: Media
   Interview: Media
   Presentation: Lecture
