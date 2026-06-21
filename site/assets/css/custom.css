@@ -415,9 +415,22 @@ a:focus-visible .icon {
   margin-top: 2rem;
 }
 
+.person-projects > h2,
+.person-other-projects > h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.person-projects ul,
 .person-other-projects ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
-  padding-left: 1.25rem;
+}
+
+.person-projects li,
+.person-other-projects li {
+  margin-bottom: 0.4rem;
 }
 
 .institution-page {
