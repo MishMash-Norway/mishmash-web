@@ -4,6 +4,7 @@ import base64
 import json
 import os
 import re
+from datetime import UTC, date, datetime
 from io import BytesIO
 from itertools import product
 from pathlib import Path
@@ -697,6 +698,38 @@ def nva_public_project_url(project_id: str) -> str:
     return f"https://nva.sikt.no/projects/{project_id}"
 
 
+def parse_nva_date(value: str) -> date | None:
+    value = (value or "").strip()
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00")).date()
+    except ValueError:
+        return None
+
+
+def nva_project_is_active(project: dict, *, today: date | None = None) -> bool:
+    today = today or datetime.now(UTC).date()
+    end = parse_nva_date(str(project.get("endDate") or ""))
+    if end is None:
+        return True
+    return end >= today
+
+
+def nva_project_active(project_id: str, project_cache: dict[str, bool | None]) -> bool:
+    if project_id in project_cache:
+        cached = project_cache[project_id]
+        return True if cached is None else bool(cached)
+    try:
+        project = get_json(nva_api_url(f"/cristin/project/{project_id}"))
+        active = nva_project_is_active(project)
+        project_cache[project_id] = active
+        return active
+    except Exception:
+        project_cache[project_id] = None
+        return True
+
+
 def project_name_from_nva_hit(project: dict) -> str:
     name = project.get("name") or project.get("title") or ""
     if isinstance(name, dict):
@@ -716,10 +749,11 @@ def collect_other_projects_from_hits(hits: list[dict]) -> dict[str, str]:
     return projects
 
 
-def nva_other_projects(profile_id: str) -> list[dict[str, str]]:
+def nva_other_projects(profile_id: str, project_cache: dict[str, bool | None] | None = None) -> list[dict[str, str]]:
     contributor = nva_api_url(f"/cristin/person/{profile_id}")
     projects: dict[str, str] = {}
     from_offset = 0
+    cache = project_cache if project_cache is not None else {}
 
     while True:
         response = requests.get(
@@ -739,19 +773,28 @@ def nva_other_projects(profile_id: str) -> list[dict[str, str]]:
         if from_offset >= total_hits:
             break
 
+    active_projects = {
+        project_id: name
+        for project_id, name in projects.items()
+        if nva_project_active(project_id, cache)
+    }
+
     return [
         {
             "title": name,
             "url": nva_public_project_url(project_id),
             "nva_id": project_id,
         }
-        for project_id, name in sorted(projects.items(), key=lambda item: item[1].lower())
+        for project_id, name in sorted(active_projects.items(), key=lambda item: item[1].lower())
     ]
 
 
-def _safe_nva_other_projects(profile_id: str) -> list[dict[str, str]]:
+def _safe_nva_other_projects(
+    profile_id: str,
+    project_cache: dict[str, bool | None] | None = None,
+) -> list[dict[str, str]]:
     try:
-        return nva_other_projects(profile_id)
+        return nva_other_projects(profile_id, project_cache=project_cache)
     except Exception:
         return []
 
@@ -763,6 +806,7 @@ def fetch_nva_bundle(
     max_tags: int,
     max_works: int,
     person_lookup: dict[str, dict[str, str]] | None = None,
+    project_cache: dict[str, bool | None] | None = None,
 ) -> dict:
     profile = get_json(nva_api_url(f"/cristin/person/{profile_id}"))
     nva_affiliations = parse_nva_affiliations(profile, org_cache, institution_lookup)
@@ -791,7 +835,7 @@ def fetch_nva_bundle(
         "orcid": find_orcid(profile.get("identifiers") or []),
         "institutional_website": ((profile.get("contactDetails") or {}).get("webPage") or "").strip(),
         "selected_works": nva_selected_works(profile_id, max_works=max_works, person_lookup=person_lookup),
-        "other_projects": _safe_nva_other_projects(profile_id),
+        "other_projects": _safe_nva_other_projects(profile_id, project_cache=project_cache),
         "profile_id": profile_id,
     }
 
@@ -1358,6 +1402,7 @@ def enrich_person(
     institution_lookup: dict[str, str],
     slug_to_institution_name: dict[str, str],
     org_cache: dict,
+    project_cache: dict[str, bool | None],
     person_lookup: dict[str, dict[str, str]],
     max_tags: int,
     max_works: int,
@@ -1408,6 +1453,7 @@ def enrich_person(
                 max_tags=max_tags,
                 max_works=max_works,
                 person_lookup=person_lookup,
+                project_cache=project_cache,
             )
             if nva_bundle.get("orcid"):
                 orcid_url = nva_bundle["orcid"]
@@ -1580,6 +1626,7 @@ def main():
     institution_lookup, slug_to_institution_name = build_institution_lookup(root)
     person_lookup = build_person_lookup(root)
     org_cache = {}
+    project_cache: dict[str, bool | None] = {}
 
     updated = 0
     skipped = 0
@@ -1600,6 +1647,7 @@ def main():
                 institution_lookup=institution_lookup,
                 slug_to_institution_name=slug_to_institution_name,
                 org_cache=org_cache,
+                project_cache=project_cache,
                 person_lookup=person_lookup,
                 max_tags=args.max_tags,
                 max_works=args.max_works,

@@ -26,16 +26,6 @@ other_projects:
     Dialogical Arts Education
   url: https://nva.sikt.no/projects/2653343
   nva_id: '2653343'
-- title: 'MoVeM: Multimodal Veiledning i Musikklærerutdanning'
-  url: https://nva.sikt.no/projects/2501191
-  nva_id: '2501191'
-- title: 'OutMus: Outcomes of Instrumental Tuition and Playing in an Ensemble - Teaching
-    Music in Cooperation Between Primary and Music Schools'
-  url: https://nva.sikt.no/projects/2501196
-  nva_id: '2501196'
-- title: Sang i barnehage/skole og sosiale fellesskap
-  url: https://nva.sikt.no/projects/678110
-  nva_id: '678110'
 roles:
 - Member
 urls:

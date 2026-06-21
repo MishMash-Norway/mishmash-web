@@ -15,9 +15,6 @@ other_projects:
     reality (XR)'
   url: https://nva.sikt.no/projects/2731892
   nva_id: '2731892'
-- title: Real-time Telematic Audiovisual Improvisation (RTAI)
-  url: https://nva.sikt.no/projects/2529643
-  nva_id: '2529643'
 roles:
 - Member
 urls:

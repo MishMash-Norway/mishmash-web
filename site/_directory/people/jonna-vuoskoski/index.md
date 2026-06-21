@@ -12,9 +12,6 @@ institutions:
 projects:
 - intensifying-brain-pleasure-responses-music
 other_projects:
-- title: Auditory Attentional Blink (AAB)
-  url: https://nva.sikt.no/projects/2763406
-  nva_id: '2763406'
 - title: Auditory Emotion Processing in Autism
   url: https://nva.sikt.no/projects/2763404
   nva_id: '2763404'

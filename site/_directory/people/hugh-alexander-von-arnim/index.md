@@ -29,9 +29,6 @@ other_projects:
     in professional higher education
   url: https://nva.sikt.no/projects/2750147
   nva_id: '2750147'
-- title: Vulnerability in Robot Society (VIROS)
-  url: https://nva.sikt.no/projects/2505737
-  nva_id: '2505737'
 roles:
 - Member
 urls:

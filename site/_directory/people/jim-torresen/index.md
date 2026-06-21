@@ -18,9 +18,6 @@ other_projects:
 - title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
   url: https://nva.sikt.no/projects/2743421
   nva_id: '2743421'
-- title: Collaboration on Intelligent Machines 2 (COINMAC-2)
-  url: https://nva.sikt.no/projects/2748297
-  nva_id: '2748297'
 - title: fourMs Lab Upgrade
   url: https://nva.sikt.no/projects/2748527
   nva_id: '2748527'
@@ -33,9 +30,6 @@ other_projects:
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
-- title: Vulnerability in Robot Society (VIROS)
-  url: https://nva.sikt.no/projects/2505737
-  nva_id: '2505737'
 roles:
 - Member
 urls:

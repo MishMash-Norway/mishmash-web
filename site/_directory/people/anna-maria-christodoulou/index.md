@@ -22,9 +22,6 @@ other_projects:
 - title: fourMs Lab Upgrade
   url: https://nva.sikt.no/projects/2748527
   nva_id: '2748527'
-- title: 'MIRAGE: A Comprehensive AI-Based System for Advanced Music Analysis'
-  url: https://nva.sikt.no/projects/2748972
-  nva_id: '2748972'
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'

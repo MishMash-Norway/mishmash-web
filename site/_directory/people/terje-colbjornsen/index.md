@@ -12,10 +12,6 @@ affiliation_units:
 - BI Norwegian Business School
 - Department of Communication and Culture
 projects: []
-other_projects:
-- title: Political Dynamics of the Cultural Sector
-  url: https://nva.sikt.no/projects/2752941
-  nva_id: '2752941'
 roles:
 - Council member
 urls:

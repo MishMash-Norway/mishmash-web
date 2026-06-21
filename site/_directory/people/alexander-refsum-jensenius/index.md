@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: alexander-refsum-jensenius
 name: Alexander Refsum Jensenius
@@ -10,14 +9,6 @@ image: /assets/images/portraits/Alexander_Refsum_Jensenius_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-wps:
-- WP1
-- WP2
-- WP3
-- WP4
-- WP5
-- WP6
-- WP7
 projects:
 - the-mishmash-website
 other_projects:
@@ -33,15 +24,12 @@ other_projects:
 - title: fourMs Lab Upgrade
   url: https://nva.sikt.no/projects/2748527
   nva_id: '2748527'
-- title: 'MIRAGE: A Comprehensive AI-Based System for Advanced Music Analysis'
-  url: https://nva.sikt.no/projects/2748972
-  nva_id: '2748972'
+- title: MusicLab
+  url: https://nva.sikt.no/projects/2770055
+  nva_id: '2770055'
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
-- title: SynchInConcert
-  url: https://nva.sikt.no/projects/2748469
-  nva_id: '2748469'
 roles:
 - Director
 urls:
@@ -90,10 +78,10 @@ selected_works:
   url: https://thelisteningbody.me/event/oslo-musiclab-the-listening-body-for-mennesker-med-og-uten-parkinson/
   contributors:
   - name: Annabel Balean Guaita
+  - name: Finn Upham
   - name: Alexander Refsum Jensenius
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-  - name: Finn Upham
 - title: 'Sounding Human: Music and Machines, 1740/2020. By Deirdre Loughridge'
   year: '2026'
   source: Journal article
@@ -209,7 +197,16 @@ source_mentions:
 - about/organisation/board/index.md
 summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music technology
   at the University of Oslo. He works on the intersection of humans and machines,
-  combining methods from artistic and scientific research in creative ways.
+  combining artistic and scientific research methods in creative ways.
+layout: person
+wps:
+- WP1
+- WP2
+- WP3
+- WP4
+- WP5
+- WP6
+- WP7
 permalink: /people/alexander-refsum-jensenius/
 redirect_from:
 - /directory/people/alexander-refsum-jensenius/

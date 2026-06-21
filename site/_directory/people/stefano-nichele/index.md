@@ -9,13 +9,6 @@ institution: ostfold-university-college
 institutions:
 - ostfold-university-college
 projects: []
-other_projects:
-- title: DeepCA - Hybrid Deep Learning Cellular Automata Reservoir
-  url: https://nva.sikt.no/projects/2057339
-  nva_id: '2057339'
-- title: 'SOCRATES: Self-Organizing Computational substRATES'
-  url: https://nva.sikt.no/projects/596390
-  nva_id: '596390'
 roles:
 - Member
 urls:

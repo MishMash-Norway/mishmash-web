@@ -13,9 +13,6 @@ other_projects:
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
-- title: SynchInConcert
-  url: https://nva.sikt.no/projects/2748469
-  nva_id: '2748469'
 roles:
 - Member
 urls:

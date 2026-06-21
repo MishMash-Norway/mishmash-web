@@ -11,18 +11,12 @@ institutions:
 - norwegian-academy-of-music
 projects: []
 other_projects:
-- title: (u)Romantisk / Improviserende interpretasjon
-  url: https://nva.sikt.no/projects/2762906
-  nva_id: '2762906'
 - title: Benedicte Maurseth MIRRA
   url: https://nva.sikt.no/projects/2749846
   nva_id: '2749846'
 - title: Lokalt Piano
   url: https://nva.sikt.no/projects/2767806
   nva_id: '2767806'
-- title: Remembrance - poems by Bronte and Dickinson
-  url: https://nva.sikt.no/projects/2748193
-  nva_id: '2748193'
 roles:
 - Council member
 urls:

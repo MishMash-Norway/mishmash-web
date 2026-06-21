@@ -13,10 +13,6 @@ affiliation_units:
 - Faculty of Fine Art, Music and Design
 - The Grieg Academy &#8211; Department of Music
 projects: []
-other_projects:
-- title: CEMPE
-  url: https://nva.sikt.no/projects/2763073
-  nva_id: '2763073'
 roles:
 - Council member
 urls:

@@ -29,9 +29,6 @@ nva_affiliations:
 projects:
 - evaluation-cultural-bias-workflow-ai-music-generation
 other_projects:
-- title: Art VAPO - True North
-  url: https://nva.sikt.no/projects/658566
-  nva_id: '658566'
 - title: CreateMe
   url: https://nva.sikt.no/projects/2591724
   nva_id: '2591724'

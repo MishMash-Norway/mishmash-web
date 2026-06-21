@@ -10,13 +10,6 @@ institutions:
 - sintef-digital
 projects:
 - trondheim-kreativ-ai
-other_projects:
-- title: Digital Klasse -  Metode for eksperimentbasert digital produktinnovasjon
-  url: https://nva.sikt.no/projects/2495186
-  nva_id: '2495186'
-- title: Transformit - Datadrevet digital transformasjon
-  url: https://nva.sikt.no/projects/2525050
-  nva_id: '2525050'
 roles:
 - Member
 urls:

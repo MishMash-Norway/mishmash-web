@@ -11,14 +11,6 @@ institutions:
 - oslo-national-academy-of-the-arts
 projects:
 - ki-i-kunstnerisk-utdanning-og-praksis
-other_projects:
-- title: Common Craft; a collaborative project between staff at Glasgow School of
-    Art and staff at Oslo National Academy of Arts.  ​
-  url: https://nva.sikt.no/projects/572239
-  nva_id: '572239'
-- title: 'Undersøkelse av digital tegning - del 2: Bevegelig og stillestående tegning'
-  url: https://nva.sikt.no/projects/2541781
-  nva_id: '2541781'
 roles:
 - Full member
 urls:

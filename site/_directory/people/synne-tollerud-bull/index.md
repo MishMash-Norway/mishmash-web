@@ -20,18 +20,6 @@ other_projects:
 - title: 'Kunstens co-pilot: Kunst og KI i et prosessøkologisk perspektiv'
   url: https://nva.sikt.no/projects/2755448
   nva_id: '2755448'
-- title: Media Seas of the High North Atlantic
-  url: https://nva.sikt.no/projects/2743373
-  nva_id: '2743373'
-- title: Re:place
-  url: https://nva.sikt.no/projects/2750521
-  nva_id: '2750521'
-- title: 'Urban Ecologies: City Sensing Beyond the Human'
-  url: https://nva.sikt.no/projects/2743013
-  nva_id: '2743013'
-- title: Writing the Writer
-  url: https://nva.sikt.no/projects/2563350
-  nva_id: '2563350'
 roles:
 - Member
 urls:

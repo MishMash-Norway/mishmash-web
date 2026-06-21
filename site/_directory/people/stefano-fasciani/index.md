@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: stefano-fasciani
 name: Stefano Fasciani
@@ -184,6 +183,7 @@ selected_works:
 source_mentions: []
 summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learning,
   Music Technology.
+layout: person
 wps:
 - WP1
 permalink: /people/stefano-fasciani/

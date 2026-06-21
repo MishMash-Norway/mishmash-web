@@ -15,11 +15,6 @@ affiliation_units:
 projects:
 - copyright-and-personality-rights-ai-era
 - tool-for-tools
-other_projects:
-- title: 'Creative IPR: The History of Intellectual Property Rights in the Creative
-    Industries'
-  url: https://nva.sikt.no/projects/2530409
-  nva_id: '2530409'
 roles:
 - Work Package Leader Group member
 urls:

@@ -10,11 +10,6 @@ institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
 projects: []
-other_projects:
-- title: 'The Lying Pen of Scribes: Manuscript Forgeries, Digital Imaging, and Critical
-    Provenance Research'
-  url: https://nva.sikt.no/projects/2556702
-  nva_id: '2556702'
 roles:
 - Member
 urls:

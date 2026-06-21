@@ -9,13 +9,6 @@ institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
 projects: []
-other_projects:
-- title: 'Risk in the information society: towards epistemic justice'
-  url: https://nva.sikt.no/projects/2494996
-  nva_id: '2494996'
-- title: VIRtEE
-  url: https://nva.sikt.no/projects/2749105
-  nva_id: '2749105'
 roles:
 - Council member
 urls:

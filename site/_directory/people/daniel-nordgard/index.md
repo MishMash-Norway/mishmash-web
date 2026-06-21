@@ -14,9 +14,6 @@ other_projects:
 - title: CreateMe
   url: https://nva.sikt.no/projects/2591724
   nva_id: '2591724'
-- title: 'Crowdfunding in the Culture Sector: Adoption, Effects and Implications (CROWDCUL)'
-  url: https://nva.sikt.no/projects/2495328
-  nva_id: '2495328'
 roles:
 - Deputy director
 urls:

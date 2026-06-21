@@ -14,10 +14,6 @@ affiliation_units:
 - Faculty of Education, Arts and Sports
 - Department of Arts Education
 projects: []
-other_projects:
-- title: Music Teacher Education for the Future (FUTURED 2019-2022)
-  url: https://nva.sikt.no/projects/685949
-  nva_id: '685949'
 roles:
 - Board Member
 urls:

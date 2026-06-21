@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: eskil-muan-saether
 name: Eskil Muan Sæther
@@ -32,6 +31,7 @@ selected_works: []
 source_mentions:
 - about/organisation/board/index.md
 summary: null
+layout: person
 permalink: /people/eskil-muan-saether/
 redirect_from:
 - /directory/people/eskil-muan-saether/

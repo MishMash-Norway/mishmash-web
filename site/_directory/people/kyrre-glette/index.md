@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: kyrre-glette
 name: Kyrre Glette
@@ -19,18 +18,12 @@ affiliation_units:
 projects:
 - the-mishmash-website
 other_projects:
-- title: Collaboration on Intelligent Machines 2 (COINMAC-2)
-  url: https://nva.sikt.no/projects/2748297
-  nva_id: '2748297'
 - title: DjembeDance - Multimodal rhythm in music and dance from West Africa
   url: https://nva.sikt.no/projects/2747770
   nva_id: '2747770'
 - title: fourMs Lab Upgrade
   url: https://nva.sikt.no/projects/2748527
   nva_id: '2748527'
-- title: 'MIRAGE: A Comprehensive AI-Based System for Advanced Music Analysis'
-  url: https://nva.sikt.no/projects/2748972
-  nva_id: '2748972'
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
@@ -201,6 +194,7 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null
+layout: person
 permalink: /people/kyrre-glette/
 redirect_from:
 - /directory/people/kyrre-glette/

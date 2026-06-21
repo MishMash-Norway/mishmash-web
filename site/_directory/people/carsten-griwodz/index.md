@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: carsten-griwodz
 name: Carsten Griwodz
@@ -206,6 +205,7 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null
+layout: person
 permalink: /people/carsten-griwodz/
 redirect_from:
 - /directory/people/carsten-griwodz/

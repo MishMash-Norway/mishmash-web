@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: eirik-sorbo
 name: Eirik Sørbø
@@ -18,9 +17,6 @@ other_projects:
 - title: CreateMe
   url: https://nva.sikt.no/projects/2591724
   nva_id: '2591724'
-- title: studX - Activating student expertise in electronic music education
-  url: https://nva.sikt.no/projects/2538604
-  nva_id: '2538604'
 roles:
 - Member
 urls:
@@ -153,6 +149,7 @@ summary: Researcher, educator, and musician. PhD in music education from the Uni
   Engaged in several projects, including MishMash (work package leader) and CreaTeME
   (project developer). Active grant writer with a strong track record of securing
   research funding.
+layout: person
 wps:
 - WP4
 permalink: /people/eirik-sorbo/

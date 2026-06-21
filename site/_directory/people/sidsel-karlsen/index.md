@@ -15,30 +15,9 @@ projects:
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
 other_projects:
-- title: Barents festivals and the development of local identity
-  url: https://nva.sikt.no/projects/363895
-  nva_id: '363895'
-- title: DYNAMUS - The social dynamics of musical upbringing and schooling in the
-    Norwegian welfare state
-  url: https://nva.sikt.no/projects/600096
-  nva_id: '600096'
-- title: Musical gentrification and socio-cultural diversities
-  url: https://nva.sikt.no/projects/412240
-  nva_id: '412240'
 - title: SAMUS - Samisk musikk i musikkundervisningen
   url: https://nva.sikt.no/projects/2757025
   nva_id: '2757025'
-- title: Skolens musikkundervisning og det multikulturelle samfunnet – sosialiseres
-    til demokrati?
-  url: https://nva.sikt.no/projects/363887
-  nva_id: '363887'
-- title: 'The music festival as an arena for learning: Festspel i Pite Älvdal and
-    matters of identity'
-  url: https://nva.sikt.no/projects/404469
-  nva_id: '404469'
-- title: Ti år med CEMPE – hva er endret?
-  url: https://nva.sikt.no/projects/2755337
-  nva_id: '2755337'
 roles:
 - Member
 urls:

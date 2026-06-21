@@ -18,9 +18,6 @@ other_projects:
 - title: CreateMe
   url: https://nva.sikt.no/projects/2591724
   nva_id: '2591724'
-- title: 'MASHED: Mashup Music, Copyright, and Platform Regulation'
-  url: https://nva.sikt.no/projects/612470
-  nva_id: '612470'
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
