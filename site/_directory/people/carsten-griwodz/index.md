@@ -100,175 +100,147 @@ selected_works:
     url: /people/carsten-griwodz/
   - name: Alessandro Filippeschi
     role: Creator
-- title: Efficient Live and On-Demand Tiled HEVC 360 VR Video Streaming
-  year: '2019'
+- title: Introduction to the Special Issue on MMSys 2023 and NOSSDAV 2023
+  year: '2025'
+  source: Professional article
+  group_type: Professional article
+  url: https://doi.org/10.1145/3722560
+  contributors:
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+  - name: Mea Wang
+    role: Creator
+  - name: Roger Zimmermann
+    role: Creator
+  - name: Asbjørg Dyveke Johnsen
+    role: Creator
+- title: 'RhyGlyph: Radial Glyph Visualization of Rhythm Interactions'
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3771594.3771643
+  contributors:
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+  - name: Davide Rocchesso
+    role: Creator
+- title: Acceptable Latency in Predictable First-Person VR Cloud Games
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3712677.3720467
+  contributors:
+  - name: Håkon Medhus Fornes
+    role: Creator
+  - name: Elias Hoel Birketvedt
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+  - name: Magnus Skjegstad
+    role: Creator
+  - name: Michael Welzl
+    role: Creator
+  - name: Ozgu Alay
+    role: Creator
+- title: 'dB: A Web-based Drummer Bot for Finger-Tapping'
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.13904788
+  contributors:
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+- title: Interactive Experiences with a Web-based Drummer Bot for Finger-Tapping
+  year: '2024'
+  source: Conference abstract
+  group_type: Conference
+  url: https://doi.org/10.1162/isal_a_00768
+  contributors:
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+- title: Longitudinal Analysis of Inter-City Network Delays
+  year: '2023'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.23919/TMA58422.2023.10198987
+  contributors:
+  - name: Selim Özcan
+    role: Creator
+  - name: Ioana Livadariu
+    role: Creator
+  - name: Georgios Smaragdakis
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+- title: Quantitative Comparison of Point Cloud Compression Algorithms with PCC Arena
+  year: '2023'
   source: Journal article
   group_type: Journal article
+  url: https://doi.org/10.1109/TMM.2022.3154927
   contributors:
-  - name: Mattis Jeppsson
+  - name: Cheng-Hao Wu
     role: Creator
-  - name: Håvard Espeland
+  - name: Chih-Fan Hsu
     role: Creator
-  - name: Tomas Kupka
-    role: Creator
-  - name: Ragnar Langseth
-    role: Creator
-  - name: Andreas Petlund
-    role: Creator
-  - name: Dag Johansen
-    role: Creator
-  - name: Konstantin Pogorelov
-    role: Creator
-  - name: Håkon Stensland
+  - name: Tzu-Kuan Hung
     role: Creator
   - name: Carsten Griwodz
     role: Creator
     slug: carsten-griwodz
     url: /people/carsten-griwodz/
-  - name: Michael Riegler
+  - name: Wei Tsang Ooi
     role: Creator
-  - name: Pål Halvorsen
+  - name: Cheng-Hsin Hsu
     role: Creator
-- title: 'Kvasir: A Multi-Class Image-Dataset for Computer Aided Gastrointestinal
-    Disease Detection'
-  year: '2017'
-  source: Conference lecture
-  group_type: Conference
+- title: Experiencing Rotation and Curvature Gain for Redirected Walking in Virtual
+    Reality
+  year: '2023'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3592834.3592874
   contributors:
-  - name: Konstantin Pogorelov
+  - name: Emil Magnar Kjenstad
     role: Creator
-  - name: Kristin Ranheim
+  - name: Halvor Kristian Ringsby
+    role: Creator
+  - name: Rahel Jamal Gaeb
+    role: Creator
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Konstantinos Kousias
+    role: Creator
+  - name: Ozgu Alay
     role: Creator
   - name: Carsten Griwodz
     role: Creator
     slug: carsten-griwodz
     url: /people/carsten-griwodz/
-  - name: Thomas de Lange
-    role: Creator
-  - name: Sigrun Eskeland
-    role: Creator
-  - name: Dag Johansen
-    role: Creator
-  - name: Peter Schmidt
-    role: Creator
-  - name: Concetto Spampinato
-    role: Creator
-  - name: Duc-Tien Dang-Nguyen
-    role: Creator
-  - name: Michael Riegler
-    role: Creator
-  - name: Pål Halvorsen
-    role: Creator
-- title: OpenVQ - A Video Quality Assessment Toolkit
-  year: '2016'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Kristian Skarseth
-    role: Creator
-  - name: Henrik Bjørlo
-    role: Creator
-  - name: Pål Halvorsen
-    role: Creator
-  - name: Michael Riegler
-    role: Creator
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
-- title: 'Crowdsourcing as Self Fulfilling Prophecy: Influence of Discarding Workers
-    in Subjective Assessment Tasks'
-  year: '2016'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Michael Riegler
-    role: Creator
-  - name: Vamsidhar Gaddam
-    role: Creator
-  - name: Unknown
-    role: Creator
-  - name: Pål Halvorsen
-    role: Creator
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
-- title: Efficient Processing of Videos in a Multi Auditory Environment Using Device
-    Lending of GPUs
-  year: '2016'
-  source: Conference lecture
-  group_type: Conference
-  url: https://doi.org/10.1145/2910017.2910636
-  contributors:
-  - name: Konstantin Pogorelov
-    role: Creator
-  - name: Michael Riegler
-    role: Creator
-  - name: Jonas Markussen
-    role: Creator
-  - name: Håkon Stensland
-    role: Creator
-  - name: Pål Halvorsen
-    role: Creator
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
-  - name: Sigrun Eskeland
-    role: Creator
-  - name: Thomas de Lange
-    role: Creator
-- title: Why Race-to-Finish is Energy-Inefficient for Continuous Multimedia Workloads
-  year: '2015'
-  source: Conference lecture
-  group_type: Conference
-  url: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7328187
-  contributors:
-  - name: Kristoffer Stokke
-    role: Creator
-  - name: Håkon Stensland
-    role: Creator
-  - name: Pål Halvorsen
-    role: Creator
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
-- title: Why Design Matters - Crowdsourcing of Complex Tasks
-  year: '2015'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Bård Winther
-    role: Creator
-  - name: Michael Riegler
-    role: Creator
-  - name: Lilian Calvet
-    role: Creator
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
-  - name: Pål Halvorsen
-    role: Creator
-- title: Energy Efficient Video Encoding Using the Tegra K1 Mobile Processor [Demo
-    Paper]
-  year: '2015'
-  source: Conference lecture
-  group_type: Conference
-  url: http://dl.acm.org/citation.cfm?id=2713186
-  contributors:
-  - name: Kristoffer Stokke
-    role: Creator
-  - name: Håkon Stensland
-    role: Creator
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
-  - name: Pål Halvorsen
-    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

@@ -37,160 +37,230 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: 'Industry-Academia Research Collaboration and Knowledge Co-creation: Patterns
-    and Anti-patterns'
-  year: '2022'
+- title: Unsupervised Learning and Process Analysis for Sensor Data Validation in
+    the IIoT
+  year: '2026'
   source: Journal article
   group_type: Journal article
-  url: https://dl.acm.org/doi/10.1145/3494519https://dl.acm.org/doi/pdf/10.1145/3494519
+  url: https://doi.org/10.1145/3777897
   contributors:
-  - name: Dusica Marijan
+  - name: Erik Johannes Husom
+    role: Creator
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+  - name: Arda Goknil
+    role: Creator
+  - name: Felix Mannhardt
+    role: Creator
+  - name: Simeon Tverdal
     role: Creator
   - name: Sagar Sen
     role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
-- title: 'Certus: an organizational effort towards research-based innovation in software
-    verification and validation'
-  year: '2018'
+  - name: Phu Hong Nguyen
+    role: Creator
+- title: Detecting Technical Debt in Source Code Changes Using Large Language Models
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-032-12089-2_21
+  contributors:
+  - name: Merve Astekin
+    role: Creator
+  - name: Arda Goknil
+    role: Creator
+  - name: Sagar Sen
+    role: Creator
+    slug: sagar-sen
+    url: /people/sagar-sen/
+  - name: Simeon Tverdal
+    role: Creator
+  - name: Phu Hong Nguyen
+    role: Creator
+- title: Positioning LLM-Enabled Agents as Legal Compliance Aides for Data Pipelines
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-032-08887-1_14
+  contributors:
+  - name: Adela Nedisan Videsjorden
+    role: Creator
+  - name: Nikolay Vladimirov Nikolov
+    role: Creator
+  - name: Carl-Henrik Lien
+    role: Creator
+  - name: Arda Goknil
+    role: Creator
+  - name: Sagar Sen
+    role: Creator
+    slug: sagar-sen
+    url: /people/sagar-sen/
+  - name: Hui Song
+    role: Creator
+  - name: Ahmet Soylu
+    role: Creator
+  - name: Dumitru Roman
+    role: Creator
+- title: 'Sustainable LLM Inference for Edge AI: Evaluating Quantized LLMs for Energy
+    Efficiency, Output Accuracy, and Inference Latency'
+  year: '2025'
   source: Journal article
   group_type: Journal article
+  url: https://doi.org/10.1145/3767742
   contributors:
-  - name: Sagar Sen
+  - name: Erik Johannes Husom
     role: Creator
-    slug: sagar-sen
-    url: /people/sagar-sen/
-  - name: Dusica Marijan
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+  - name: Arda Goknil
     role: Creator
-  - name: Arnaud Gotlieb
+  - name: Merve Astekin
     role: Creator
-- title: 'TITAN: Test Suite Optimization for Highly Configurable Software'
-  year: '2017'
-  source: Conference lecture
-  group_type: Conference
-  url: https://doi.org/10.1109/ICST.2017.60
-  contributors:
-  - name: Dusica Marijan
+  - name: Lwin Khin Shar
     role: Creator
-  - name: Arnaud Gotlieb
-    role: Creator
-  - name: Marius Liaaen
+  - name: Andre Kåsen
     role: Creator
   - name: Sagar Sen
     role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
-- title: Detecting and Reducing Redundancy in Software Testing for Highly Configurable
-    Systems
-  year: '2017'
-  source: Conference lecture
-  group_type: Conference
-  url: https://doi.org/10.1109/HASE.2017.31
-  contributors:
-  - name: Dusica Marijan
+  - name: Benedikt Andreas Mithassel
     role: Creator
-  - name: Sagar Sen
+  - name: Ahmet Soylu
     role: Creator
-    slug: sagar-sen
-    url: /people/sagar-sen/
-- title: Constraint-Based Verification of a Mobile App Game Designed for Nudging People
-    to Attend Cancer Screening
-  year: '2017'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Arnaud Gotlieb
-    role: Creator
-  - name: Marine Louarn
-    role: Creator
-  - name: Mari Nygård
-    role: Creator
-  - name: Tomas Ruiz-Lopez
-    role: Creator
-  - name: Sagar Sen
-    role: Creator
-    slug: sagar-sen
-    url: /people/sagar-sen/
-- title: 'Naming the Pain in Requirements Engineering: Contemporary Problems, Causes,
-    and Effects in Practice'
-  year: '2016'
+- title: '3D-DaVa: Enhancing 3D Point Cloud Data Reliability for Industrial Applications'
+  year: '2025'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.1007/s10664-016-9451-7
+  url: https://doi.org/10.1145/3711817
   contributors:
-  - name: Daniel Fernandez
+  - name: Adela Nedisan Videsjorden
     role: Creator
-  - name: Stefan Wagner
-    role: Creator
-  - name: Casper Lassenius
-    role: Creator
-  - name: D. Pfahl
+  - name: Arda Goknil
     role: Creator
   - name: Sagar Sen
     role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
-  - name: J. de la Vara
+  - name: Erik Johannes Husom
     role: Creator
-- title: 'Modelling and Verifying Combinatorial Interactions to Test Data Intensive
-    Systems: Experience with Optimal Archiving at the Norwegian Customs and Excise
-    Directorate'
-  year: '2016'
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+  - name: Phu Hong Nguyen
+    role: Creator
+- title: Data Quality as a Service Framework for AI-Enabled Industrial Internet of
+    Things
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3703790.3703794
+  contributors:
+  - name: Arda Goknil
+    role: Creator
+  - name: Phu Hong Nguyen
+    role: Creator
+  - name: Erik Johannes Husom
+    role: Creator
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+  - name: Sagar Sen
+    role: Creator
+    slug: sagar-sen
+    url: /people/sagar-sen/
+  - name: Simeon Tverdal
+    role: Creator
+  - name: Flavien Peysson
+    role: Creator
+  - name: Dimitra Politaki
+    role: Creator
+  - name: Roberto González-Velázquez
+    role: Creator
+- title: 'ERG-AI: enhancing occupational ergonomics with uncertainty-aware ML and
+    LLM feedback'
+  year: '2024'
   source: Journal article
   group_type: Journal article
+  url: https://doi.org/10.1007/s10489-024-05796-1
   contributors:
   - name: Sagar Sen
     role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
-  - name: Dusica Marijan
+  - name: Victor Evaristo Gonzalez Sanchez
     role: Creator
-  - name: Carlo Ieva
+  - name: Erik Johannes Husom
     role: Creator
-- title: 'Certus: Glimpses of a Centre for Research-Based Innovation in Software Verification
-    and Validation'
-  year: '2015'
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+  - name: Simeon Tverdal
+    role: Creator
+  - name: Shukun Tokas
+    role: Creator
+  - name: Svein Ove Tjøsvoll
+    role: Creator
+- title: Engineering Carbon Emission-aware Machine Learning Pipelines
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3644815.3644943
+  contributors:
+  - name: Erik Johannes Husom
+    role: Creator
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+  - name: Sagar Sen
+    role: Creator
+    slug: sagar-sen
+    url: /people/sagar-sen/
+  - name: Arda Goknil
+    role: Creator
+- title: SEA4DQ 2024 Workshop Summary
+  year: '2024'
   source: Journal article
   group_type: Journal article
+  url: https://doi.org/10.1145/3696117.3696125
   contributors:
-  - name: Sagar Sen
+  - name: Tim Menzies
     role: Creator
-    slug: sagar-sen
-    url: /people/sagar-sen/
-  - name: Dusica Marijan
+  - name: Bowen Xu
     role: Creator
-  - name: Arnaud Gotlieb
+  - name: Hong Jin Kang
     role: Creator
-- title: Towards More Relational Feature Models
-  year: '2015'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Arnaud Gotlieb
+  - name: Jie M. Zhang
     role: Creator
-  - name: Dusica Marijan
+  - name: Jiri Gesi
     role: Creator
   - name: Sagar Sen
     role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
-- title: Evaluating Reconfiguration Impact in Self-Adaptive Systems – An Approach
-    Based on Combinatorial Interaction Testing
-  year: '2015'
-  source: Conference lecture
-  group_type: Conference
-  url: https://doi.org/10.1109/SEAA.2015.72
+  - name: Beatriz Cassoli
+    role: Creator
+  - name: Nicolas Jourdan
+    role: Creator
+  - name: Jieke Shi
+    role: Creator
+  - name: Phu Hong Nguyen
+    role: Creator
+  - name: Valentina Golendukhina
+    role: Creator
+- title: 'Editorial: Special Issue on Software Engineering and AI for Data Quality'
+  year: '2024'
+  source: Editorial
+  group_type: Editorial
+  url: https://doi.org/10.1145/3708503
   contributors:
+  - name: Foutse Khomh
+    role: Creator
+  - name: Andreas Metzger
+    role: Creator
+  - name: Phu Hong Nguyen
+    role: Creator
   - name: Sagar Sen
     role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
-  - name: Stefano Di Alesio
-    role: Creator
-  - name: Dusica Marijan
-    role: Creator
-  - name: Arnab Sarkar
-    role: Creator
 source_mentions: []
 summary: null
 permalink: /people/sagar-sen/

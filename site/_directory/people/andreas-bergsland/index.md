@@ -50,6 +50,28 @@ selected_works:
     role: Creator
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
+- title: Yellowstone/winter
+  year: '2024'
+  source: Music performance
+  group_type: Music performance
+  url: https://www.youtube.com/live/8TVe_Xuv3G4?feature=shared
+  contributors:
+  - name: Andreas Bergsland
+    role: Composer
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Madeleine Shapiro
+    role: Composer
+- title: Beginnings and endings—dance phrase edges in an interactive dance study
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1007/s00779-024-01817-5
+  contributors:
+  - name: Andreas Bergsland
+    role: Creator
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
 - title: 'The MotionComposer: A therapy device that turns movement into music. Applications
     in pediatric medicine'
   year: '2023'
@@ -66,8 +88,22 @@ selected_works:
     role: Creator
   - name: Alicia Peñalba
     role: Creator
-- title: Intermediality and Memory in the Tower Block - Post Mortem Project
-  year: '2017'
+- title: 'Examining the Correlation Between Dance and Electroacoustic Music Phrases:
+    A Pilot Study'
+  year: '2023'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3616195.3616218
+  contributors:
+  - name: Andreas Bergsland
+    role: Creator
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Sanket Rajeev Sabharwal
+    role: Creator
+- title: 'Der MotionComposer: ein Gerät, das Bewegung in Musik umwandelt - Mögliche
+    Anwendungen in der pädiatrischen Medizin (re-print)'
+  year: '2023'
   source: Journal article
   group_type: Journal article
   contributors:
@@ -75,71 +111,55 @@ selected_works:
     role: Creator
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
-  - name: Barbro Rønning
+  - name: Robert Wechsler
     role: Creator
-- title: 'Aspects of Digital Affordances: Openness, Skill and Exploration'
-  year: '2015'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Andreas Bergsland
+  - name: Alicia Peñalba
     role: Creator
-    slug: andreas-bergsland
-    url: /people/andreas-bergsland/
-- title: Jeu de modes III - NIME version. Interactive dance for five performers.
-  year: '2015'
+  - name: Stefan Geiger
+    role: Creator
+- title: Constellation Stories
+  year: '2022'
   source: Music performance
   group_type: Music performance
+  url: https://folk.ntnu.no/andbe/#ConstellationStories
   contributors:
   - name: Andreas Bergsland
     role: Composer
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
-- title: Jeu de modes IV - DAFx version. Interactive dance for solo performer.
-  year: '2015'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Andreas Bergsland
+  - name: Madeleine Shapiro
     role: Composer
-    slug: andreas-bergsland
-    url: /people/andreas-bergsland/
-- title: I am sitting in that room – reverberation, resonance and expanded meanings
-    in Lucier’s "I am sitting in a room”
-  year: '2013'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Asbjørn Tiller
-    role: Creator
-  - name: Andreas Bergsland
-    role: Creator
-    slug: andreas-bergsland
-    url: /people/andreas-bergsland/
-- title: Lyddesign / komponist på "Signaler"
-  year: '2006'
-  source: Exhibition
-  group_type: Exhibition
-  contributors:
-  - name: Andreas Bergsland
-    role: AcademicCoordinator
-    slug: andreas-bergsland
-    url: /people/andreas-bergsland/
-- title: 'Stemmetransformasjoner i elektroakustisk musikk: Identitetskonstruksjoner
-    og meningsdannelse'
-  year: '2004'
+- title: Designing Interactive Sonifications for the Exploration Of Dance Phrase Edges
+  year: '2022'
   source: Book chapter
   group_type: Book chapter
+  url: https://zenodo.org/record/6572982
   contributors:
   - name: Andreas Bergsland
     role: Creator
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
-- title: Vævet av "Roser" .... - Olav Anton Thommesens "Vævet av stængler" som lesning
-    av Obstfelders "Roser"
-  year: '1999'
-  source: Master's thesis
-  group_type: Master's thesis
+- title: 'Der MotionComposer: ein Gerät, das Bewegung in Musik umwandelt - Mögliche
+    Anwendungen in der pädiatrischen Medizin'
+  year: '2022'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Robert Wechsler
+    role: Creator
+  - name: Andreas Bergsland
+    role: Creator
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Alicia Peñalba
+    role: Creator
+  - name: Stefan Geiger
+    role: Creator
+- title: Dance phrase onsets and endings in an interactive dance study
+  year: '2022'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3561212.3561242
   contributors:
   - name: Andreas Bergsland
     role: Creator

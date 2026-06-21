@@ -81,15 +81,6 @@ selected_works:
     role: RoleOther
   - name: Tomas Vikeland
     role: Dancer
-- title: Rhythm and intentionality in generative music performance
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: Creator
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
 - title: Beethoven (re)Created - 32 Variations in C minor WoO 80
   year: '2025'
   source: Music performance
@@ -106,19 +97,8 @@ selected_works:
     role: Soloist
   - name: Francisco Moreira
     role: Soloist
-- title: 'FEEDBACK: Vibrotactile Materials Informing Artistic Practice'
-  year: '2021'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: Creator
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Alexandra Nicki Murray-Leslie
-    role: Creator
-- title: Atom Seized Violin
-  year: '2014'
+- title: TransVariations – Music beyond the limits of time and technology
+  year: '2024'
   source: Music performance
   group_type: Music performance
   contributors:
@@ -126,75 +106,90 @@ selected_works:
     role: Composer
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
-  - name: Victoria Johnson
-    role: Organizer
-- title: BRAK RUG NOTAM 2014
-  year: '2014'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: Artist
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Siv Øyunn Kjenstad
-    role: Artist
-  - name: Maja Solveig Kjelstrup Ratkje
-    role: Artist
-- title: THE DEVELOPMENT OF AN ONLINE COURSE IN DSP EARTRAINING
-  year: '2012'
-  source: Book chapter
-  group_type: Book chapter
-  url: http://dafx12.york.ac.uk/papers/dafx12_submission_13.pdf
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: Creator
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Sigurd Saue
-    role: Creator
-  - name: John Pål Inderberg
-    role: Creator
-  - name: Håkon Kvidal
-    role: Creator
-  - name: Jøran Rudi
-    role: Creator
-  - name: Jan Tro
-    role: Creator
-  - name: Axel Tidemann
-    role: Creator
-  - name: Notto W. Thelle
-    role: Creator
-  - name: Victor Lazzarini
-    role: Creator
-- title: T-EMP in concert
-  year: '2011'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: Artist
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Carl Haakon Waadeland
-    role: Artist
-  - name: Bernt Isak Grave Wærstad
-    role: Artist
   - name: Trond Engum
-    role: Artist
-  - name: Tone Åse
-    role: Artist
-  - name: Ingrid Lode
-    role: Artist
-- title: Live sampling og Algoritmisk improvisasjon
-  year: '2009'
-  source: Conference lecture
-  group_type: Conference
+    role: Composer
+  - name: Alfonso Benetti
+    role: Composer
+  - name: Francisco Monteiro
+    role: Composer
+- title: Organotopia, film
+  year: '2024'
+  source: Film or video
+  group_type: Film or video
+  contributors:
+  - name: Øyvind Brandtsegg
+    role: AcademicCoordinator
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Nils Henrik Asheim
+    role: AcademicCoordinator
+  - name: Reidar Ewing
+    role: AcademicCoordinator
+- title: TransVariations – Music beyond the limits of time and technology.
+  year: '2024'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Øyvind Brandtsegg
+    role: Composer
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Trond Engum
+    role: Composer
+  - name: Alfonso Benetti
+    role: Composer
+  - name: Francisco Monteiro
+    role: Composer
+- title: Lyden fra dypet
+  year: '2023'
+  source: Non-fiction chapter
+  group_type: Non-fiction chapter
   contributors:
   - name: Øyvind Brandtsegg
     role: Creator
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
+- title: Ocean's Disequilibrium
+  year: '2023'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Øyvind Brandtsegg
+    role: Composer
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Joel Olof Vide Hynsjø
+    role: Artist
+- title: The Not Even Remotely Dead Cats - in Copenhagen
+  year: '2023'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Øyvind Brandtsegg
+    role: Artist
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Helena Marinho
+    role: Artist
+  - name: Rui Penha
+    role: Artist
+  - name: Bruno Pereira
+    role: Artist
+- title: Transvariations 2023
+  year: '2023'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Øyvind Brandtsegg
+    role: Composer
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Trond Engum
+    role: Composer
+  - name: Alfonso Benetti
+    role: Composer
+  - name: Monteiro Francisco
+    role: Composer
 source_mentions: []
 summary: null
 permalink: /people/oyvind-brandtsegg/

@@ -142,28 +142,31 @@ selected_works:
     role: Creator
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
-- title: Between Stillness and Motion. Film, Photography, Algorithms
-  year: '2011'
-  source: Book anthology
-  group_type: Book anthology
-  contributors:
-  - name: Eivind Røssaak
-    role: Editor
-    slug: eivind-rossaak
-    url: /people/eivind-rossaak/
-- title: Kunstens møte med massemediene
-  year: '2004'
+- title: Maskinteori. Om syntesene i Anti-Ødipus
+  year: '2023'
   source: Journal article
   group_type: Journal article
+  url: https://doi.org/10.18261/agora.41.4.5
   contributors:
   - name: Eivind Røssaak
     role: Creator
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
-- title: 'Learning from fashion. Eller: Moten har også en moral'
-  year: '2001'
-  source: Journal article
-  group_type: Journal article
+- title: Memory in the digital age
+  year: '2023'
+  source: Book review
+  group_type: Book review
+  url: https://doi.org/10.21956/openreseurope.17518.r34274
+  contributors:
+  - name: Eivind Røssaak
+    role: Creator
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
+- title: Hack. Cory Arcangels medieintervensjoner
+  year: '2022'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.55669/oa140504
   contributors:
   - name: Eivind Røssaak
     role: Creator

@@ -97,6 +97,22 @@ selected_works:
     role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
+- title: 'Better Luck Next Time: About Robust Recourse in Binary Allocation Problems'
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1007/978-3-031-63800-8_19
+  contributors:
+  - name: Meirav Segal
+    role: Creator
+  - name: Anne-Marie George
+    role: Creator
+  - name: Ingrid Chieh Yu
+    role: Creator
+    slug: ingrid-chieh-yu
+    url: /people/ingrid-chieh-yu/
+  - name: Christos Dimitrakakis
+    role: Creator
 - title: Modular Soundness Checking of Feature Model Evolution Plans
   year: '2023'
   source: Journal article
@@ -115,6 +131,36 @@ selected_works:
     role: Creator
   - name: Volker Stolz
     role: Creator
+- title: Robust Recourse for Binary Allocation Problems
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: https://openreview.net/forum?id=qt9yTS7TKc
+  contributors:
+  - name: Meirav Segal
+    role: Creator
+  - name: Anne-Marie George
+    role: Creator
+  - name: Ingrid Chieh Yu
+    role: Creator
+    slug: ingrid-chieh-yu
+    url: /people/ingrid-chieh-yu/
+  - name: Christos Dimitrakakis
+    role: Creator
+- title: Semantics-Based Version Control for Feature Model Evolution Plans
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: https://www.ntnu.no/ojs/index.php/nikt/article/view/5664
+  contributors:
+  - name: Eirik Halvard Sæther
+    role: Creator
+  - name: Ingrid Chieh Yu
+    role: Creator
+    slug: ingrid-chieh-yu
+    url: /people/ingrid-chieh-yu/
+  - name: Crystal Chang Din
+    role: Creator
 - title: 'CARE: coherent actionable recourse based on sound counterfactual explanations'
   year: '2022'
   source: Journal article
@@ -127,11 +173,11 @@ selected_works:
     role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
-- title: 'EXPLAN: Explaining Black-box Classifiers using Adaptive Neighborhood Generation'
-  year: '2020'
+- title: Interpreting Categorical Data Classifiers using Explanation-based Locality
+  year: '2022'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.1109/IJCNN48605.2020.9206710
+  url: https://doi.org/10.1109/ICDMW58026.2022.00030
   contributors:
   - name: Peyman Rasouli
     role: Creator
@@ -139,48 +185,8 @@ selected_works:
     role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
-- title: User profiles for context-aware reconfiguration in software product lines
-  year: '2016'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1007/978-3-319-47169-3_44
-  contributors:
-  - name: Michael Nieke
+  - name: Ernesto Jimenez-Ruiz
     role: Creator
-  - name: Jacopo Mauro
-    role: Creator
-  - name: Christoph Seidl
-    role: Creator
-  - name: Ingrid Chieh Yu
-    role: Creator
-    slug: ingrid-chieh-yu
-    url: /people/ingrid-chieh-yu/
-- title: Introduction to the track on variability modeling for scalable software evolution
-  year: '2016'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1007/978-3-319-47169-3_35
-  contributors:
-  - name: Ferruccio Damiani
-    role: Creator
-  - name: Christoph Seidl
-    role: Creator
-  - name: Ingrid Chieh Yu
-    role: Creator
-    slug: ingrid-chieh-yu
-    url: /people/ingrid-chieh-yu/
-- title: Backwards type analysis of asynchronous method calls
-  year: '2008'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1016/j.jlap.2008.05.004
-  contributors:
-  - name: Einar Broch Johnsen
-    role: Creator
-  - name: Ingrid Chieh Yu De Vibe
-    role: Creator
-    slug: ingrid-chieh-yu
-    url: /people/ingrid-chieh-yu/
 source_mentions:
 - about/organisation/council/index.md
 summary: null

@@ -54,34 +54,38 @@ selected_works:
     role: Director
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
-- title: A brief history of AI in Animation
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://animationfestival.no/no/program
+- title: Shifting Diegetic Boundaries
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-031-54100-1_2
   contributors:
   - name: Ole Christoffer Haga
     role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
-- title: Animated Traumas - The Films of Anita Killi
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
+- title: Anthropomorphic Deviations
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Ole Christoffer Haga
     role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
-- title: Gaming patterns and needs
-  year: '2022'
-  source: Conference lecture
-  group_type: Conference
+- title: Conceptualising Cinematic Augmented Reality
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
   contributors:
+  - name: Shih-Chueh Kao
+    role: Creator
   - name: Ole Christoffer Haga
     role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
+  - name: Seyyed Meisam Taheri
+    role: Creator
 - title: Hvilke egenskaper ved et dataspill kan bidra til avhengighet?
   year: '2022'
   source: Research report
@@ -92,13 +96,14 @@ selected_works:
     role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
-- title: From Puppets and Peg Bars to Virtual Reality
-  year: '2021'
-  source: Conference lecture
-  group_type: Conference
+- title: Animasjoner til Folkeopplysningen S07
+  year: '2022'
+  source: Film or video
+  group_type: Film or video
+  url: https://tv.nrk.no/serie/folkeopplysningen
   contributors:
   - name: Ole Christoffer Haga
-    role: Creator
+    role: AcademicCoordinator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 - title: Film style in Cinematic VR
@@ -111,23 +116,22 @@ selected_works:
     role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
-- title: Anthropomorphic deviations in BoJack Horseman
-  year: '2020'
-  source: Conference lecture
-  group_type: Conference
+- title: Animated storytelling in 360 degrees
+  year: '2019'
+  source: Master's thesis
+  group_type: Master's thesis
   contributors:
   - name: Ole Christoffer Haga
     role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
-- title: Flyndre
-  year: '2016'
-  source: Film or video
-  group_type: Film or video
-  url: https://tv.nrk.no/program/KOIF75001217
+- title: Bransjetreff - Fabelaktiv
+  year: '2017'
+  source: Conference poster
+  group_type: Conference
   contributors:
   - name: Ole Christoffer Haga
-    role: AcademicCoordinator
+    role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 source_mentions: []

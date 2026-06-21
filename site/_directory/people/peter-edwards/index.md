@@ -50,36 +50,6 @@ selected_works:
     role: Soloist
     slug: peter-edwards
     url: /people/peter-edwards/
-- title: 'The Eye of the Storm: Music and the Aesthetics of Overload'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://www.southampton.ac.uk/music/RMAconference2025.page
-  contributors:
-  - name: Peter Edwards
-    role: Creator
-    slug: peter-edwards
-    url: /people/peter-edwards/
-- title: Memory and the Aesthetics of Overload
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://fabricadesites.fcsh.unl.pt/ncmm/
-  contributors:
-  - name: Peter Edwards
-    role: Creator
-    slug: peter-edwards
-    url: /people/peter-edwards/
-- title: Music, the Crossroads, and the Prospect of Loss
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://nsae25.wordpress.com/programme/
-  contributors:
-  - name: Peter Edwards
-    role: Creator
-    slug: peter-edwards
-    url: /people/peter-edwards/
 - title: En oppdiktet musikk. Irrasjonell logikk og ekspressiv tilblivelse i Adrian
     Leverkühns Dr. Fausti Veklage
   year: '2025'
@@ -91,44 +61,72 @@ selected_works:
     role: Creator
     slug: peter-edwards
     url: /people/peter-edwards/
-- title: 'Absence in Music: Enacting the Non-Conceptual in the Twenty-First Century'
+- title: Critical Composition, Creativity and Style in "Le Grand Macabre"
   year: '2024'
-  source: Conference lecture
-  group_type: Conference
+  source: Book chapter
+  group_type: Book chapter
+  url: https://www.etk-muenchen.de/search/Details.aspx?sid=nmw22&sort=2&sname=neue+musik+wissenschaft&ISBN=9783967078466
   contributors:
   - name: Peter Edwards
     role: Creator
     slug: peter-edwards
     url: /people/peter-edwards/
-  - name: Christine Dysers
-    role: Creator
-  - name: Judith Lochhead
-    role: Creator
-- title: Twenty-First Century Lament
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
+- title: 'Death in Music and Music in Death: Reflections on Mortality and Listening
+    in the Performances of Marino Formenti'
+  year: '2023'
+  source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Peter Edwards
     role: Creator
     slug: peter-edwards
     url: /people/peter-edwards/
-- title: 'Imagining Form and Capturing the Moment: The Musical Sketches of György
-    Ligeti'
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  url: https://www.hf.uio.no/ilos/english/research/centre/lce/news-and-events/events/workshops/previous.html
+  - name: Uta Sailer
+    role: Creator
+- title: Tilleggskommentarer og oppsummering av sakkyndig rapport for høyesterett
+  year: '2023'
+  source: Research report
+  group_type: Research report
   contributors:
   - name: Peter Edwards
     role: Creator
     slug: peter-edwards
     url: /people/peter-edwards/
-- title: Convergences and Discord in the Correspondence between Ligeti and Adorno
-  year: '2015'
-  source: Literature review
-  group_type: Literature review
-  url: https://doi.org/10.1093/ml/gcu132
+- title: Pønkebadet
+  year: '2022'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Peter Edwards
+    role: Artist
+    slug: peter-edwards
+    url: /people/peter-edwards/
+- title: 'Analysing the Concerto for Violin and Orchestra: Apparitions of the Past
+    and Future'
+  year: '2022'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://www.brepols.net/products/IS-9782503602400-1
+  contributors:
+  - name: Peter Edwards
+    role: Creator
+    slug: peter-edwards
+    url: /people/peter-edwards/
+- title: Musikkfaglig sakkyndig vitne rapport. Oslo tingrett og Borgarting lagmannsrett.
+  year: '2022'
+  source: Research report
+  group_type: Research report
+  url: https://lovdata.no/dokument/LBSIV/avgjorelse/lb-2022-26097?q=22-026097ASK-BORG/04
+  contributors:
+  - name: Peter Edwards
+    role: Creator
+    slug: peter-edwards
+    url: /people/peter-edwards/
+- title: Frode Olsen – om å synge Fin de partie
+  year: '2022'
+  source: Popular science article
+  group_type: Popular science article
+  url: https://scenekunst.no/artikler/frode-olsen-om-a-synge-fin-de-partie
   contributors:
   - name: Peter Edwards
     role: Creator

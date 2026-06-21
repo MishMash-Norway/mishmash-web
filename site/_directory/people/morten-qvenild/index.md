@@ -162,50 +162,34 @@ selected_works:
     role: Librettist
   - name: Robin Barstow
     role: SoundDesigner
-- title: Goodbye Intuition
-  year: '2020'
-  source: Professional article
-  group_type: Professional article
-  url: https://doi.org/10.22501/NMH-AR.974962
+- title: Schumann Songs Dichterliebe Recomposed
+  year: '2022'
+  source: Music performance
+  group_type: Music performance
+  url: https://vimeo.com/762544686?fl=pl&fe=sh
   contributors:
-  - name: Ivar Grydeland
-    role: Creator
-    slug: ivar-grydeland
-    url: /people/ivar-grydeland/
-  - name: Morten Qvenild
-    role: Creator
-    slug: morten-qvenild
-    url: /people/morten-qvenild/
-  - name: Sidsel Endresen
-    role: Creator
-  - name: Andrea Neumann
-    role: Creator
-  - name: Henrik Frisk
-    role: Creator
-  - name: David Toop
-    role: Creator
-  - name: Anna Lindal
-    role: Creator
-  - name: Lasse Marhaug
-    role: Creator
-- title: Morten Qvenild – The HyPer(sonal) Piano Project
-  year: '2017'
-  source: Artistic degree phd
-  group_type: Artistic degree phd
-  url: https://doi.org/10.22501/nmh-ar.291286
-  contributors:
-  - name: Morten Qvenild
-    role: Creator
-    slug: morten-qvenild
-    url: /people/morten-qvenild/
   - name: Jon Henrik Hellstenius
-    role: Supervisor
-  - name: Eivind Buene
-    role: Supervisor
-  - name: Øyvind Brandtsegg
-    role: Supervisor
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
+    role: Composer
+  - name: Solveig Slettahjell
+    role: Soloist
+  - name: Morten Qvenild
+    role: Organizer
+    slug: morten-qvenild
+    url: /people/morten-qvenild/
+- title: Stillhetens Implosjoner by Morten Qvenild
+  year: '2022'
+  source: Music performance
+  group_type: Music performance
+  url: https://www.researchcatalogue.net/view/1479582/1479583
+  contributors:
+  - name: Morten Qvenild
+    role: Composer
+    slug: morten-qvenild
+    url: /people/morten-qvenild/
+  - name: Thomas Strønen
+    role: Composer
+  - name: Torben Snekkestad
+    role: Composer
 source_mentions:
 - about/organisation/council/index.md
 summary: null

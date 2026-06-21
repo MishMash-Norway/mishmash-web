@@ -41,21 +41,20 @@ search_keywords:
 - Audio-visual production
 - Filmbransje
 selected_works:
-- title: Representation of The Other - Fra jomfru Maria til Berit, jødinnen som arketype
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://www.researchcatalogue.net/view/2421554/2674688
-  contributors:
-  - name: Nina Grünfeld
-    role: Creator
-    slug: nina-fredrikke-grunfeld
-    url: /people/nina-fredrikke-grunfeld/
 - title: Auf der Suche nach meiner verfolgten Großmutter
   year: '2023'
   source: Non-fiction book
   group_type: Non-fiction book
   url: https://www.schoeffling.de/buecher/nina-f-gr%C3%BCnfeld/frida
+  contributors:
+  - name: Nina Grünfeld
+    role: Creator
+    slug: nina-fredrikke-grunfeld
+    url: /people/nina-fredrikke-grunfeld/
+- title: 'Mine formative filmår: Fra "Holocaust" til "Shoah"'
+  year: '2023'
+  source: Professional article
+  group_type: Professional article
   contributors:
   - name: Nina Grünfeld
     role: Creator
@@ -81,71 +80,73 @@ selected_works:
     role: Creator
     slug: nina-fredrikke-grunfeld
     url: /people/nina-fredrikke-grunfeld/
-- title: From Industry to Dissemination
+- title: "Frida - Wojna Mojej Nieznanej Babki\r\nPolsk oversettelse av norsk originalutgave"
+  year: '2022'
+  source: Monograph
+  group_type: Monograph
+  url: https://karta.org.pl/aktualnosci/frida-wojna-mojej-nieznanej-babki-premiera
+  contributors:
+  - name: Nina Grünfeld
+    role: Creator
+    slug: nina-fredrikke-grunfeld
+    url: /people/nina-fredrikke-grunfeld/
+- title: Alexia Alone
+  year: '2022'
+  source: Journal article
+  group_type: Journal article
+  url: https://screenworks.org.uk/archive/volume-12-1/alexia-alone
+  contributors:
+  - name: Nina Grünfeld
+    role: Creator
+    slug: nina-fredrikke-grunfeld
+    url: /people/nina-fredrikke-grunfeld/
+- title: "Frida - Egy magyar utcalány a történelem viharaiban [előrendelhető]\r\n\
+    Ungarsk oversttelse av norsk original"
+  year: '2022'
+  source: Monograph
+  group_type: Monograph
+  url: https://www.lira.hu/hu/konyv/szepirodalom/felnottirodalom/regenyek/frida-egy-magyar-utcalany-a-tortenelem-viharaiban
+  contributors:
+  - name: Nina Grünfeld
+    role: Creator
+    slug: nina-fredrikke-grunfeld
+    url: /people/nina-fredrikke-grunfeld/
+- title: Forskning på egen kreativ praksis
+  year: '2022'
+  source: Editorial
+  group_type: Editorial
+  url: https://doi.org/10.18261/nmt.29.4.1
+  contributors:
+  - name: Audun Engelstad
+    role: Creator
+  - name: Nina Grünfeld
+    role: Creator
+    slug: nina-fredrikke-grunfeld
+    url: /people/nina-fredrikke-grunfeld/
+  - name: Håvard Andreas Vibeto
+    role: Creator
+- title: Metode i kunstnerisk utviklingsarbeid
+  year: '2022'
+  source: Professional article
+  group_type: Professional article
+  url: https://www.idunn.no/doi/10.18261/nmt.29.4.6
+  contributors:
+  - name: Nina Grünfeld
+    role: Creator
+    slug: nina-fredrikke-grunfeld
+    url: /people/nina-fredrikke-grunfeld/
+- title: Farmor Fridas öde i förintelsens skugga
   year: '2021'
-  source: Conference lecture
-  group_type: Conference
-  url: https://nordmedianetwork.org/nordmedia-conference-2021/
+  source: Book review
+  group_type: Book review
+  url: https://grunderfilm.no/news/f/norrbottens-kuriren-anmelder-frida
   contributors:
+  - name: Sven Nyberg
+    role: Creator
   - name: Nina Grünfeld
     role: Creator
     slug: nina-fredrikke-grunfeld
     url: /people/nina-fredrikke-grunfeld/
-  - name: Camilla Vanebo
-    role: Creator
-  - name: Mette Nyseter
-    role: Creator
-- title: 'Hvem tror du at du er? : ulike kjennetegn ved den personlige dokumentarfilmen'
-  year: '2014'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Nina Grünfeld
-    role: Creator
-    slug: nina-fredrikke-grunfeld
-    url: /people/nina-fredrikke-grunfeld/
-- title: Mens du står utenfor (kortfilm, fiksjon, for barn)
-  year: '2001'
-  source: Film or video
-  group_type: Film or video
-  url: https://vimeo.com/342042759
-  contributors:
-  - name: Nina Grünfeld
-    role: AcademicCoordinator
-    slug: nina-fredrikke-grunfeld
-    url: /people/nina-fredrikke-grunfeld/
-- title: Mellom min mors ben (kortfilm, fiksjon 8 min)
-  year: '1998'
-  source: Film or video
-  group_type: Film or video
-  url: https://vimeo.com/44922962
-  contributors:
-  - name: Nina Grünfeld
-    role: AcademicCoordinator
-    slug: nina-fredrikke-grunfeld
-    url: /people/nina-fredrikke-grunfeld/
-- title: Stikk i hjertet (novellefilm, fiksjon)
-  year: '1995'
-  source: Film or video
-  group_type: Film or video
-  url: https://vimeo.com/44917304
-  contributors:
-  - name: Nina Grünfeld
-    role: AcademicCoordinator
-    slug: nina-fredrikke-grunfeld
-    url: /people/nina-fredrikke-grunfeld/
-- title: Lang og tro tjeneste (novellefilm, fiksjon)
-  year: '1994'
-  source: Film or video
-  group_type: Film or video
-  url: https://vimeo.com/44974246
-  contributors:
-  - name: Nina Grünfeld
-    role: AcademicCoordinator
-    slug: nina-fredrikke-grunfeld
-    url: /people/nina-fredrikke-grunfeld/
-  - name: Sophie Hesselberg
-    role: VideoEditor
 source_mentions:
 - about/organisation/council/index.md
 summary: null

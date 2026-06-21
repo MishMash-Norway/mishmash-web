@@ -276,17 +276,6 @@ selected_works:
     role: Creator
   - name: Amber Leeson
     role: Creator
-- title: Can coupling of green and blue sector reduce pressure on the planetary boundaries?
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Kalliopi Plataniti
-    role: Creator
-    slug: lina-plataniti
-    url: /people/lina-plataniti/
-  - name: Anna Woodhouse
-    role: Creator
 - title: Life Cycle Sustainability Assessment (LCSA) of disposable and reusable warm
     jackets at Oslo University Hospital
   year: '2024'
@@ -309,6 +298,22 @@ selected_works:
     role: Creator
     slug: lina-plataniti
     url: /people/lina-plataniti/
+- title: Does utilizing fish sludge as biofertilizer reduce pressure on planetary
+    boundaries? - a case study
+  year: '2024'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Anna Woodhouse
+    role: Creator
+  - name: Kalliopi Plataniti
+    role: Creator
+    slug: lina-plataniti
+    url: /people/lina-plataniti/
+  - name: Stine Samsonstuen
+    role: Creator
+  - name: Kari-Anne Kallerud Lyng
+    role: Creator
 source_mentions:
 - about/organisation/council/index.md
 summary: null

@@ -93,17 +93,8 @@ selected_works:
     url: /people/tiril-schroder/
   - name: Karen Disen
     role: Creator
-- title: The Technosublime. Rapport del 2
-  year: '2018'
-  source: Report
-  group_type: Report
-  contributors:
-  - name: Trine Wester
-    role: Creator
-    slug: trine-wester
-    url: /people/trine-wester/
-- title: '''Postkort fra monsterets mage'''
-  year: '2017'
+- title: Den Andre
+  year: '2021'
   source: Exhibition
   group_type: Exhibition
   contributors:
@@ -111,8 +102,8 @@ selected_works:
     role: Artist
     slug: trine-wester
     url: /people/trine-wester/
-- title: I.am
-  year: '2017'
+- title: Belly of the Monster-3
+  year: '2020'
   source: Exhibition
   group_type: Exhibition
   contributors:
@@ -120,52 +111,49 @@ selected_works:
     role: Artist
     slug: trine-wester
     url: /people/trine-wester/
-- title: Our digital selves
-  year: '2016'
-  source: Book anthology
-  group_type: Book anthology
-  contributors:
-  - name: Francis Robertson
-    role: Creator
-  - name: Trine Wester
-    role: Editor
-    slug: trine-wester
-    url: /people/trine-wester/
-  - name: Hege Bratsberg
-    role: Editor
-  - name: Tiril Schrøder
-    role: Editor
-    slug: tiril-schroder
-    url: /people/tiril-schroder/
-  - name: Karen Disen
-    role: Editor
-- title: States of Matter
-  year: '2016'
-  source: Visual arts
-  group_type: Visual arts
+- title: Ukjent Art
+  year: '2019'
+  source: Exhibition
+  group_type: Exhibition
   contributors:
   - name: Trine Wester
     role: Artist
     slug: trine-wester
     url: /people/trine-wester/
-  - name: Anita Hanch-Hansen
-    role: Artist
-- title: BOMBARDO
-  year: '2013'
-  source: Research report
-  group_type: Research report
+- title: Belly of the Monster-2
+  year: '2019'
+  source: Exhibition
+  group_type: Exhibition
   contributors:
   - name: Trine Wester
-    role: Creator
+    role: Artist
     slug: trine-wester
     url: /people/trine-wester/
-- title: Reisen til jordens indre
-  year: '2013'
-  source: Visual arts
-  group_type: Visual arts
+- title: Belly of the Monster
+  year: '2019'
+  source: Exhibition
+  group_type: Exhibition
   contributors:
   - name: Trine Wester
     role: Artist
+    slug: trine-wester
+    url: /people/trine-wester/
+- title: Blindtrykk
+  year: '2019'
+  source: Exhibition
+  group_type: Exhibition
+  contributors:
+  - name: Trine Wester
+    role: Artist
+    slug: trine-wester
+    url: /people/trine-wester/
+- title: Sommerutstillingen 2019
+  year: '2019'
+  source: Exhibition
+  group_type: Exhibition
+  contributors:
+  - name: Trine Wester
+    role: AcademicCoordinator
     slug: trine-wester
     url: /people/trine-wester/
 source_mentions: []

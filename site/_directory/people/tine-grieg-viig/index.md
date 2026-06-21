@@ -31,25 +31,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: AI + human collaborations in creativity and music education
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Tine Grieg Viig
-    role: Creator
-    slug: tine-grieg-viig
-    url: /people/tine-grieg-viig/
-- title: KI som musikalsk partner
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://www.hvl.no/forsking/konferanse/hvl-konferansen/
-  contributors:
-  - name: Tine Grieg Viig
-    role: Creator
-    slug: tine-grieg-viig
-    url: /people/tine-grieg-viig/
 - title: 'MineMixMusics: Exploring co-creative learning processes in postdigital music
     education'
   year: '2025'
@@ -61,102 +42,113 @@ selected_works:
     role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
-- title: 'The MineMixMusic project: exploring digital tools and virtual spaces in
-    music education'
-  year: '2021'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Tine Grieg Viig
-    role: Creator
-    slug: tine-grieg-viig
-    url: /people/tine-grieg-viig/
-- title: Developing visions for the future? Initiating a discussion on utopias in
-    music teacher education
-  year: '2021'
-  source: Conference lecture
-  group_type: Conference
+- title: Developing visions for the future. A reflection on utopias in music teacher
+    education
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: https://digitalcommons.lib.uconn.edu/vrme/
   contributors:
   - name: Tine Grieg Viig
     role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
   - name: Silje Valde Onsrud
-    role: Creator
-  - name: Øystein Røsseland Kvinge
     role: Creator
   - name: Judy Lewis
     role: Creator
+  - name: Øystein Røsseland Kvinge
+    role: Creator
   - name: Catharina Renate Christophersen
     role: Creator
-- title: 'Symposium: Critical Perspectives on Creative Practices in the Nordic Countries'
-  year: '2017'
-  source: Conference lecture
-  group_type: Conference
+- title: 'Music Teacher Education for the Future: Reflections on Change'
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: http://act.maydaygroup.org/music-teacher-education-for-the-future-reflections-on-change/
+  contributors:
+  - name: Catharina Renate Christophersen
+    role: Creator
+  - name: José Luis Aróstegui Plaza
+    role: Creator
+  - name: Kari Mette Holdhus
+    role: Creator
+  - name: Ailbhe Kenny
+    role: Creator
+  - name: Jan Sverre Knudsen
+    role: Creator
+  - name: Monica Lindgren
+    role: Creator
+  - name: Lauri Väkevä
+    role: Creator
+  - name: Tine Grieg Viig
+    role: Creator
+    slug: tine-grieg-viig
+    url: /people/tine-grieg-viig/
+- title: Stilla og ropet – kunstnerisk (ut)forskning gjennom fem elastiske byggekomponenter.
+  year: '2022'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.23865/noasp.158.ch11
   contributors:
   - name: Tine Grieg Viig
     role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
-  - name: Jon Helge Sætre
-    role: Creator
-  - name: Peter Falthin
-    role: Creator
-  - name: Cecilia Ferm Almqvist
-    role: Creator
-  - name: Marja-Leena Juntunen
-    role: Creator
-  - name: Juha Ojala
-    role: Creator
-- title: 'Mediating cultural tools in a primary school creative music making project:
-    Symposium presentation'
-  year: '2017'
-  source: Conference lecture
-  group_type: Conference
+- title: Developing reflection-in-musicking in creative practices
+  year: '2020'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.23865/nrme.v1.2633
   contributors:
   - name: Tine Grieg Viig
     role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
-- title: 'The dynamics of collaborative creative music-making: reflection-in-action,
-    facilitation and interaction'
-  year: '2016'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Tine Grieg Viig
-    role: Creator
-    slug: tine-grieg-viig
-    url: /people/tine-grieg-viig/
-- title: 'DATES a cappella quintet: comprised of David, Anne, Tine, Egil, and Silje,
-    hence the name DATES (see previous listings for 2012 and 2013). In 2014, DATES
-    for the first time received institutional funding as a research group (for a 3-year
-    period). The group’s focus is now on original arrangements and compositions for
-    jazz voices, and documentation of artistic development. In Autumn 2014 we performed
-    for the grand opening of Bergen University College’s new campus, the Grieg Research
-    School, etc'
-  year: '2014'
+- title: '@voluspáproject'
+  year: '2020'
   source: Music performance
   group_type: Music performance
-  url: https://www.facebook.com/vokalgruppendates?ref=hl
   contributors:
-  - name: David Gabriel Hebert
-    role: Artist
-  - name: Anne Kristine Wallace Turøy
-    role: Composer
   - name: Tine Grieg Viig
     role: Composer
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
-  - name: Egil Haugland
-    role: Artist
-  - name: Silje Valde Onsrud
-    role: Artist
-- title: Phenomenological readings of poetics - an approach to a phenomenological
-    attitude
-  year: '2011'
-  source: Conference lecture
-  group_type: Conference
+- title: '''There is a shark coming, then there is a du-du-du-du-du...'': Mediating
+    cultural tools in a Norwegian creative music-making project'
+  year: '2019'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1017/S026505171900007X
+  contributors:
+  - name: Tine Grieg Viig
+    role: Creator
+    slug: tine-grieg-viig
+    url: /people/tine-grieg-viig/
+- title: 'The Dynamics of Creative Music Making: Et sosiokulturelt perspektiv på læring
+    i skapende musikalske praksiser'
+  year: '2018'
+  source: PhD thesis
+  group_type: PhD thesis
+  contributors:
+  - name: Tine Grieg Viig
+    role: Creator
+    slug: tine-grieg-viig
+    url: /people/tine-grieg-viig/
+- title: Reflections in Wood
+  year: '2018'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Tine Grieg Viig
+    role: Composer
+    slug: tine-grieg-viig
+    url: /people/tine-grieg-viig/
+- title: Multiple modes of facilitation in a Norwegian creative musicking project
+  year: '2017'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/1321103X17734414
   contributors:
   - name: Tine Grieg Viig
     role: Creator

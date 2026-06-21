@@ -66,48 +66,6 @@ selected_works:
     role: Creator
     slug: henning-birkeland
     url: /people/henning-birkeland/
-- title: The impact of AI – how will it affect the industry and the education of visual
-    and 3D arts?
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Sigbjørn Galåen
-    role: Creator
-    slug: sigbjorn-galaen
-    url: /people/sigbjorn-galaen/
-  - name: Henning Birkeland
-    role: Creator
-    slug: henning-birkeland
-    url: /people/henning-birkeland/
-- title: Teaching Computer Graphics - A Structured Learning-By-Doing Approach
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Sigbjørn Galåen
-    role: Creator
-    slug: sigbjorn-galaen
-    url: /people/sigbjorn-galaen/
-  - name: Henning Birkeland
-    role: Creator
-    slug: henning-birkeland
-    url: /people/henning-birkeland/
-  - name: Ivar Kjellmo
-    role: Creator
-- title: Hvordan vil AI prege 3D-grafikk?
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Henning Birkeland
-    role: Creator
-    slug: henning-birkeland
-    url: /people/henning-birkeland/
-  - name: Sigbjørn Galåen
-    role: Creator
-    slug: sigbjorn-galaen
-    url: /people/sigbjorn-galaen/
 - title: Slik blir fremtiden i 3D-grafikk for spill, film og visualisering
   year: '2022'
   source: Professional article
@@ -117,39 +75,6 @@ selected_works:
     role: Creator
     slug: henning-birkeland
     url: /people/henning-birkeland/
-  - name: Sigbjørn Galåen
-    role: Creator
-    slug: sigbjorn-galaen
-    url: /people/sigbjorn-galaen/
-- title: 'Formidlingsprosjekt: Bransjerelatert Fagbok Innen 3D-grafikk'
-  year: '2021'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Sigbjørn Galåen
-    role: Creator
-    slug: sigbjorn-galaen
-    url: /people/sigbjorn-galaen/
-  - name: Ivar Kjellmo
-    role: Creator
-  - name: Henning Birkeland
-    role: Creator
-    slug: henning-birkeland
-    url: /people/henning-birkeland/
-- title: Strategic Challenges For An Independent Game Studio – A Case Study
-  year: '2019'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Sigbjørn Galåen
-    role: Creator
-    slug: sigbjorn-galaen
-    url: /people/sigbjorn-galaen/
-- title: Visuelle utfordringer innen spillutvikling
-  year: '2010'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
   - name: Sigbjørn Galåen
     role: Creator
     slug: sigbjorn-galaen

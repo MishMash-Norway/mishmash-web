@@ -89,24 +89,6 @@ selected_works:
     role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
-- title: Co-Optimization of Robot Bodies and Brains with Evolutionary Algorithms
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://www.mn.uio.no/ifi/english/research/groups/robin/events/Tutorials/Tutorial-SSCI2025/Tutorial-SSCI2025
-  contributors:
-  - name: Frank Veenstra
-    role: Creator
-  - name: Ege de Bruin
-    role: Creator
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Kai Olav Ellefsen
-    role: Creator
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
 - title: Integrating Bilevel Planning and Offline Skill Learning for Enhancing Mobile
     Manipulation
   year: '2025'
@@ -201,6 +183,24 @@ selected_works:
     role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
+- title: Optimal Sampling Patterns for Robotic Environmental Monitoring
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/iccar64901.2025.11073028
+  contributors:
+  - name: Ivar-Kristian Waarum
+    role: Creator
+  - name: Ann Elisabeth Albright Blomberg
+    role: Creator
+  - name: Thomas Røbekk Krogstad
+    role: Creator
+  - name: Marius Dewar
+    role: Creator
+  - name: Kai Olav Ellefsen
+    role: Creator
+    slug: kai-olav-ellefsen
+    url: /people/kai-olav-ellefsen/
 source_mentions: []
 wps:
 - WP1

@@ -41,15 +41,28 @@ selected_works:
     role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
-- title: Is imitating the dead and copying the living just?
+- title: 'Pengestrømmer og verdikjeder i musikkfeltet: Aktører, tjenester, betalinger
+    og utviklingstrekk'
   year: '2025'
-  source: Conference lecture
-  group_type: Conference
+  source: Research report
+  group_type: Research report
   contributors:
+  - name: Leo A. Grünfeld
+    role: Creator
+  - name: Erika Minerva Karttinen
+    role: Creator
+  - name: Audun Molde
+    role: Creator
   - name: Irina  Eidsvold-Tøien
     role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
+  - name: Terje Gaustad
+    role: Creator
+    slug: terje-gaustad
+    url: /people/terje-gaustad/
+  - name: Inga Ørving Aasen
+    role: Creator
 - title: 'Remunerating authors and performers: Are statutory fair compensation provisions
     sufficient?'
   year: '2023'
@@ -60,6 +73,18 @@ selected_works:
     role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
+- title: Copyright for Performers – An Obligation under International Law
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1093/jiplp/jpad073
+  contributors:
+  - name: Irina Eidsvold-Tøien
+    role: Creator
+    slug: irina-eidsvold-toien
+    url: /people/irina-eidsvold-toien/
+  - name: Are Stenvik
+    role: Creator
 - title: Opphavsrett, håndheving og mangfold
   year: '2021'
   source: Journal article
@@ -73,6 +98,24 @@ selected_works:
     role: Creator
     slug: terje-gaustad
     url: /people/terje-gaustad/
+- title: Parodirettslig vakuum i norsk rett
+  year: '2021'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Irina Eidsvold-Tøien
+    role: Creator
+    slug: irina-eidsvold-toien
+    url: /people/irina-eidsvold-toien/
+- title: Opphavsrett for en bærekraftig næring
+  year: '2021'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Irina Eidsvold-Tøien
+    role: Creator
+    slug: irina-eidsvold-toien
+    url: /people/irina-eidsvold-toien/
 - title: Sikring av en bærekraftig kulturøkonomi, nødvendiggjør innføring av DSM-direktivet
   year: '2020'
   source: Journal article
@@ -91,44 +134,8 @@ selected_works:
     role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
-- title: Rapport om kunstnerundersøkelser
-  year: '2019'
-  source: Research report
-  group_type: Research report
-  contributors:
-  - name: Sigrid Røyseng
-    role: Editor
-  - name: Irina  Eidsvold-Tøien
-    role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
-- title: Economic Concequenses of Nuances in National Implementationn of International
-    Law
-  year: '2019'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Irina  Eidsvold-Tøien
-    role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
-  - name: Terje Gaustad
-    role: Creator
-    slug: terje-gaustad
-    url: /people/terje-gaustad/
-- title: Hvor effektive er de norske opphavsrettslige håndhevingsregler?
-  year: '2019'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Irina  Eidsvold-Tøien
-    role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
-  - name: Monica Viken
-    role: Creator
-- title: Originalitetsbegrepet i EU-retten- ny kurs?
-  year: '2012'
+- title: Sikring av en bærekraftig kulturøkonomi nødvendiggjør innføring av DSM-direktivet
+  year: '2020'
   source: Journal article
   group_type: Journal article
   contributors:

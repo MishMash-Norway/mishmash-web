@@ -109,18 +109,6 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: Bodies in Motion in the Concert Hall and Beyond
-  year: '2026'
-  source: Conference lecture
-  group_type: Conference
-  url: https://moco26.movementcomputing.org/
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Laura Bishop
-    role: Creator
 - title: Mixed Method Audio-Video Analyses of Felt Togetherness in a Networked Music-Dance
     Performance
   year: '2026'
@@ -132,16 +120,6 @@ selected_works:
     role: Creator
   - name: Aleksander Tidemann
     role: Creator
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: Creativity Between Art and Science
-  year: '2026'
-  source: Conference lecture
-  group_type: Conference
-  url: https://metamorf.art/2026/03/11/alexander-refsum/
-  contributors:
   - name: Alexander Refsum Jensenius
     role: Creator
     slug: alexander-refsum-jensenius
@@ -217,6 +195,42 @@ selected_works:
     role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: Supporting Narrative Comprehension in Programmatic Music through Music and
+    Light
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.17496754
+  contributors:
+  - name: Anna-Maria Christodoulou
+    role: Creator
+    slug: anna-maria-christodoulou
+    url: /people/anna-maria-christodoulou/
+  - name: Hugh Alexander von Arnim
+    role: Creator
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: Cross-modal Analysis of Spatial-Temporal Auditory Stimuli and Human Micromotion
+    when Standing Still in Indoor Environments (poster)
+  year: '2025'
+  source: Conference poster
+  group_type: Conference
+  url: https://doi.org/10.5281/zenodo.17502603
+  contributors:
+  - name: Jinyue Guo
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
   - name: Alexander Refsum Jensenius
     role: Creator
     slug: alexander-refsum-jensenius

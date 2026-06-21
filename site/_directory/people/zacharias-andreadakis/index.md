@@ -46,15 +46,6 @@ selected_works:
     role: Editor
     slug: zacharias-andreadakis
     url: /people/zacharias-andreadakis/
-- title: 'Mentoring PhDs: Lessons from DocTalent4EU'
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Zacharias Andreadakis
-    role: Creator
-    slug: zacharias-andreadakis
-    url: /people/zacharias-andreadakis/
 source_mentions: []
 summary: null
 layout: person

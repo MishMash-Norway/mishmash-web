@@ -43,6 +43,57 @@ selected_works:
     role: Artist
     slug: tiril-schroder
     url: /people/tiril-schroder/
+- title: AI as a tool in the drawing process- exhibition of tests and examples
+  year: '2025'
+  source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Tiril Schrøder
+    role: Artist
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
+- title: Perspektiv på trykk - Fagområde Grafikk og Tegning ved Kunsthøgskolen i Oslo
+  year: '2024'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://www.norske-grafikere.no/tidligere-utstillinger/perspektiv-pa-trykk/
+  contributors:
+  - name: Victoria Rowena Browne
+    role: Artist
+  - name: Oliver Hambsch
+    role: Artist
+  - name: Aleksandra Anna Janik
+    role: Artist
+  - name: Tiril Schrøder
+    role: Artist
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
+  - name: Erik Solheim
+    role: Artist
+  - name: Dler Mariam Dalo
+    role: Artist
+  - name: Maria Erikson
+    role: Artist
+  - name: Karen Disen
+    role: Artist
+- title: Research Week exhibition- Khio- Resepsjonsgalleriet
+  year: '2024'
+  source: Exhibition
+  group_type: Exhibition
+  contributors:
+  - name: Tiril Schrøder
+    role: Artist
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
+- title: Perspektiv på trykk
+  year: '2024'
+  source: Exhibition
+  group_type: Exhibition
+  contributors:
+  - name: Tiril Schrøder
+    role: Artist
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
 - title: Serie «På camping med Dahl/Å se fremtiden gjennom bakspeilet» 2022
   year: '2023'
   source: Visual arts
@@ -61,8 +112,8 @@ selected_works:
     role: Artist
     slug: tiril-schroder
     url: /people/tiril-schroder/
-- title: Gjennom landskap
-  year: '2022'
+- title: Enkelttegninger
+  year: '2023'
   source: Visual arts
   group_type: Visual arts
   contributors:
@@ -70,8 +121,8 @@ selected_works:
     role: Artist
     slug: tiril-schroder
     url: /people/tiril-schroder/
-- title: Undersøkelse av digitale tegneverktøy - strektester
-  year: '2021'
+- title: Dorè GIF
+  year: '2023'
   source: Visual arts
   group_type: Visual arts
   contributors:
@@ -79,66 +130,15 @@ selected_works:
     role: Artist
     slug: tiril-schroder
     url: /people/tiril-schroder/
-- title: Rapport fra Research Lab høst 2020
-  year: '2021'
-  source: Report
-  group_type: Report
-  contributors:
-  - name: Trine Wester
-    role: Creator
-    slug: trine-wester
-    url: /people/trine-wester/
-  - name: Tiril Schrøder
-    role: Creator
-    slug: tiril-schroder
-    url: /people/tiril-schroder/
-  - name: Karen Disen
-    role: Creator
-- title: 3rd International Academic Printmaking Alliance (IAPA) Biennial and Academic
-    Symposium
-  year: '2020'
-  source: Visual arts
-  group_type: Visual arts
-  contributors:
-  - name: Tiril Schrøder
-    role: Artist
-    slug: tiril-schroder
-    url: /people/tiril-schroder/
-- title: Trykk fra serien "Gjenfortellinger" s.254
-  year: '2020'
-  source: Popular science chapter
-  group_type: Popular science chapter
+- title: 'Between the pen and the line: Digital drawing and the feeling of alienation
+    and distance'
+  year: '2023'
+  source: Professional article
+  group_type: Professional article
+  url: https://impact-journal-cfpr.uwe.ac.uk/index.php/impact/article/view/116/98
   contributors:
   - name: Tiril Schrøder
     role: Creator
-    slug: tiril-schroder
-    url: /people/tiril-schroder/
-- title: Our digital selves
-  year: '2016'
-  source: Book anthology
-  group_type: Book anthology
-  contributors:
-  - name: Francis Robertson
-    role: Creator
-  - name: Trine Wester
-    role: Editor
-    slug: trine-wester
-    url: /people/trine-wester/
-  - name: Hege Bratsberg
-    role: Editor
-  - name: Tiril Schrøder
-    role: Editor
-    slug: tiril-schroder
-    url: /people/tiril-schroder/
-  - name: Karen Disen
-    role: Editor
-- title: Storyline
-  year: '2013'
-  source: Visual arts
-  group_type: Visual arts
-  contributors:
-  - name: Tiril Schrøder
-    role: Artist
     slug: tiril-schroder
     url: /people/tiril-schroder/
 source_mentions: []

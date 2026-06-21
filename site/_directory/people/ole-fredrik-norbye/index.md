@@ -38,25 +38,6 @@ search_keywords:
 - Popularmusic
 - Music
 selected_works:
-- title: Skaperskolekonferansen
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Ole Fredrik Norbye
-    role: Creator
-    slug: ole-fredrik-norbye
-    url: /people/ole-fredrik-norbye/
-- title: Kreativitet og innovasjon i urolige tider
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://funkon.fleksibelutdanning.no/
-  contributors:
-  - name: Ole Fredrik Norbye
-    role: Creator
-    slug: ole-fredrik-norbye
-    url: /people/ole-fredrik-norbye/
 - title: Kublai Trio
   year: '2025'
   source: Music performance
@@ -70,6 +51,29 @@ selected_works:
     role: Musician
   - name: Per Oddvar Johansen
     role: Musician
+- title: 'Utøvende under 8.mai-markering: Rådhuset, Oslo (Norbye/Borøy duo)'
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Sandra Borøy
+    role: Artist
+  - name: Ole Fredrik Norbye
+    role: Artist
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
+- title: Bird Food
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  url: https://urn.nb.no/URN:NBN:no-nb_pliktmusikk_EAN_7090067830002
+  contributors:
+  - name: Njål Ølnes
+    role: Composer
+  - name: Ole Fredrik Norbye
+    role: Composer
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
 - title: Repka - EP by Alexander Scriabin | Spotify
   year: '2024'
   source: Music performance
@@ -91,8 +95,36 @@ selected_works:
     role: Artist
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
-- title: O how great is your compassion
-  year: '2021'
+- title: "Improvisasjon som \r\nundervisningsmetode – en pedagogisk \r\nbalansekunst"
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.23865/cdf.227.ch24
+  contributors:
+  - name: Ole Fredrik Norbye
+    role: Creator
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
+  - name: Linnéa K. Jermstad
+    role: Creator
+  - name: Bernt Rune Stray
+    role: Creator
+- title: "Posterpresentasjon:Improvisasjon som \r\nundervisningsmetode – en pedagogisk\
+    \ \r\nbalansekunst"
+  year: '2024'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Ole Fredrik Norbye
+    role: Creator
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
+  - name: Linnéa K. Jermstad
+    role: Creator
+  - name: Bernt Rune Stray
+    role: Creator
+- title: Solokonsert - Manglerud Kirke
+  year: '2023'
   source: Music performance
   group_type: Music performance
   contributors:
@@ -100,8 +132,8 @@ selected_works:
     role: Composer
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
-- title: Liturgisk improvisasjoner
-  year: '2021'
+- title: Artistic research presentation - NLAs ansattsamling 2023
+  year: '2023'
   source: Music performance
   group_type: Music performance
   contributors:
@@ -109,31 +141,13 @@ selected_works:
     role: Composer
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
-- title: Den Vesle bygda som glemte at det var jul - juleturne, Folkeakademiet
-  year: '2017'
+- title: Babelkongen med hele sin hær
+  year: '2023'
   source: Music performance
   group_type: Music performance
   contributors:
   - name: Ole Fredrik Norbye
-    role: Artist
-    slug: ole-fredrik-norbye
-    url: /people/ole-fredrik-norbye/
-- title: Den lekende musikk - Konsertserie støttet av Oslo Kommune
-  year: '2017'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Ole Fredrik Norbye
-    role: Artist
-    slug: ole-fredrik-norbye
-    url: /people/ole-fredrik-norbye/
-- title: Kapellmester, TV2s høstlansering
-  year: '2014'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Ole Fredrik Norbye
-    role: Artist
+    role: Composer
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 source_mentions: []

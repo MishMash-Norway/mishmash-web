@@ -47,24 +47,6 @@ selected_works:
     url: /people/stefano-nichele/
   - name: Timothy O’Leary
     role: Creator
-- title: 'Engramnca: a neural cellular automaton model of memory transfer'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://doi.org/10.1162/ISAL.a.831
-  contributors:
-  - name: Etienne Guichard
-    role: Creator
-  - name: Felix Reimers
-    role: Creator
-  - name: Mia-Katrin Kvalsund
-    role: Creator
-  - name: Mikkel Lepperød
-    role: Creator
-  - name: Stefano Nichele
-    role: Creator
-    slug: stefano-nichele
-    url: /people/stefano-nichele/
 - title: Reservoir Computing with Evolved Critical Neural Cellular Automata
   year: '2025'
   source: Book chapter
@@ -276,6 +258,38 @@ selected_works:
     role: Creator
   - name: Amber Leeson
     role: Creator
+- title: Studying Encoder–Decoder Relation Between Cellular Automata to Uncover Their
+    Computational Structure
+  year: '2025'
+  source: Non-fiction chapter
+  group_type: Non-fiction chapter
+  url: https://link.springer.com/chapter/10.1007/978-3-031-81097-8_1
+  contributors:
+  - name: Barbora Hudcová
+    role: Creator
+  - name: Tomas Mikolov
+    role: Creator
+  - name: Stefano Nichele
+    role: Creator
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
+- title: Optimizing Quantum Circuits with Evolutionary Algorithms for Stable Boolean
+    Gates, Elementary Cellular Automata, and Highly Entangled Quantum States
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.32908/ijuc.v20.270425
+  contributors:
+  - name: Shailendra Bhandari
+    role: Creator
+  - name: Stefano Nichele
+    role: Creator
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
+  - name: Sergiy Denysov
+    role: Creator
+  - name: Pedro Lind
+    role: Creator
 - title: MICRO- AND MESOSCALE ASPECTS OF NEURODEGENERATION IN MULT-NODAL HUMAN NEURAL
     NETWORKS CARRYING THE LRRK2 G2019S MUTATION
   year: '2024'
@@ -298,70 +312,62 @@ selected_works:
     role: Creator
   - name: Axel Sandvig
     role: Creator
-- title: "The Dynamical Landscape of Reservoir Computing\r\nwith Elementary Cellular\
-    \ Automata"
-  year: '2021'
+- title: The Role of the Substrate in CA-based Evolutionary Algorithms
+  year: '2024'
   source: Book chapter
   group_type: Book chapter
-  url: https://doi.org/10.1162/isal_a_00440
+  url: https://doi.org/10.1145/3638529.3654112
   contributors:
-  - name: Tom Eivind Glover
-    role: Creator
-  - name: Pedro Lind
-    role: Creator
-  - name: Anis Yazidi
-    role: Creator
-  - name: Evgeny Osipov
+  - name: Gloria Pietropolli
     role: Creator
   - name: Stefano Nichele
     role: Creator
     slug: stefano-nichele
     url: /people/stefano-nichele/
-- title: Ethical Tissues
-  year: '2020'
-  source: Conference lecture
+  - name: Eric Medvet
+    role: Creator
+- title: Micro-and mesoscale aspects of neurodegeneration in engineered human neural
+    networks carrying the LRRK2 G2019S mutation
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2024.1366098/full
+  contributors:
+  - name: Vibeke Devold Valderhaug
+    role: Creator
+  - name: Ola Huse Ramstad
+    role: Creator
+  - name: Rosanne Francisca van de Wijdeven
+    role: Creator
+  - name: Kristine Heiney
+    role: Creator
+  - name: Stefano Nichele
+    role: Creator
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
+  - name: Axel Sandvig
+    role: Creator
+  - name: Ioanna Sandvig
+    role: Creator
+- title: MICRO- AND MESOSCALE ASPECTS OF NEURODEGENERATION IN MULTI-NODAL HUMAN NEURAL
+    NETWORKS CARRYING THE LRRK2 G2019S MUTATION
+  year: '2024'
+  source: Conference poster
   group_type: Conference
-  url: http://www.chalmers.se/SiteCollectionDocuments/Centrum/CHAIR/SAIS2020/SAIS_2020_Vie_et_al.pdf
   contributors:
-  - name: Knut Jørgen Vie
+  - name: Ola Huse Ramstad
     role: Creator
-  - name: Erik Thorstensen
+  - name: Rosanne Francisca van de Wijdeven
     role: Creator
-  - name: Mads Dahl Gjefsen
+  - name: Kristine Heiney
     role: Creator
   - name: Stefano Nichele
     role: Creator
     slug: stefano-nichele
     url: /people/stefano-nichele/
-  - name: Gunnar Tufte
+  - name: Axel Sandvig
     role: Creator
-- title: Instantaneous Mental Workload Recognition Using Wavelet-Packet Decomposition
-    and Semi-Supervised Learning
-  year: '2020'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/SSCI44817.2019.9002997
-  contributors:
-  - name: Jianhua Zhang
-    role: Creator
-  - name: Jianrong Li
-    role: Creator
-  - name: Stefano Nichele
-    role: Creator
-    slug: stefano-nichele
-    url: /people/stefano-nichele/
-- title: Trajectories and Attractors as Specification for the Evolution of Behavior
-    in Cellular Automata
-  year: '2010'
-  source: Book chapter
-  group_type: Book chapter
-  url: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5586115&tag=1
-  contributors:
-  - name: Stefano Nichele
-    role: Creator
-    slug: stefano-nichele
-    url: /people/stefano-nichele/
-  - name: Gunnar Tufte
+  - name: Ioanna Sandvig
     role: Creator
 source_mentions: []
 wps:

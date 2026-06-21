@@ -65,24 +65,6 @@ selected_works:
     role: Creator
   - name: Mikkel Elle Lepperød
     role: Creator
-- title: Co-Optimization of Robot Bodies and Brains with Evolutionary Algorithms
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://www.mn.uio.no/ifi/english/research/groups/robin/events/Tutorials/Tutorial-SSCI2025/Tutorial-SSCI2025
-  contributors:
-  - name: Frank Veenstra
-    role: Creator
-  - name: Ege de Bruin
-    role: Creator
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Kai Olav Ellefsen
-    role: Creator
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
 - title: Integrating Sample Inheritance into Bayesian Optimization for Evolutionary
     Robotics
   year: '2025'
@@ -138,28 +120,6 @@ selected_works:
     role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
-- title: 'MusiQAl: Music Question Answering through Audio-Video fusion'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://ismir2025.ismir.net/program-detailed-schedule
-  contributors:
-  - name: Anna-Maria Christodoulou
-    role: Creator
-    slug: anna-maria-christodoulou
-    url: /people/anna-maria-christodoulou/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Olivier Lartillot
-    role: Creator
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
 - title: Generational Replacement and Learning for High-Performing and Diverse Populations
     in Evolvable Robots
   year: '2025'
@@ -227,6 +187,42 @@ selected_works:
     url: /people/kyrre-glette/
   - name: Alexander Szorkovszky
     role: Creator
+- title: Behaviour Diversity in a Walking and Climbing Centipede-Like Virtual Creature
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1162/artl_a_00476
+  contributors:
+  - name: Emma Stensby Norstein
+    role: Creator
+  - name: Kotaro Yasui
+    role: Creator
+  - name: Takeshi Kano
+    role: Creator
+  - name: Akio Ishiguro
+    role: Creator
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+- title: An Interactive Self-Assembly Swarm Music System in Extended Reality
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3771594.3771620
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Alexander Szorkovszky
+    role: Creator
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

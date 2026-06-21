@@ -101,6 +101,76 @@ selected_works:
     role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
+- title: 'Emotion in Nonverbal Communication: Comparing Animal and Human Vocalizations
+    and Human Text Messages'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/17540739241303505
+  contributors:
+  - name: T. Gruber
+    role: Creator
+  - name: E.F. Briefer
+    role: Creator
+  - name: A. Grütter
+    role: Creator
+  - name: A. Xanthos
+    role: Creator
+  - name: D. Grandjean
+    role: Creator
+  - name: M.B. Manser
+    role: Creator
+  - name: Sascha Frühholz
+    role: Creator
+    slug: sascha-fruhholz
+    url: /people/sascha-fruhholz/
+- title: Understanding voice naturalness
+  year: '2025'
+  source: Literature review
+  group_type: Literature review
+  url: https://doi.org/10.1016/j.tics.2025.01.010
+  contributors:
+  - name: Christine Nussbaum
+    role: Creator
+  - name: Sascha Frühholz
+    role: Creator
+    slug: sascha-fruhholz
+    url: /people/sascha-fruhholz/
+  - name: Stefan R. Schweinberger
+    role: Creator
+- title: Emotion Induction Modulates Neural Dynamics Related to the Originality of
+    Ideational Creativity
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1002/hbm.70182
+  contributors:
+  - name: Radwa Khalil
+    role: Creator
+  - name: Sascha Frühholz
+    role: Creator
+    slug: sascha-fruhholz
+    url: /people/sascha-fruhholz/
+  - name: Ben Godde
+    role: Creator
+- title: Evolutionary Continuities and Discontinuities in Affective Voice Signaling
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1037/emo0001484
+  contributors:
+  - name: Sascha Frühholz
+    role: Creator
+    slug: sascha-fruhholz
+    url: /people/sascha-fruhholz/
+  - name: Joris Dietziker
+    role: Creator
+  - name: Matthias Staib
+    role: Creator
+  - name: Marine Bobin
+    role: Creator
+  - name: Florence Steiner
+    role: Creator
 - title: Enhanced attention-related alertness following right anterior insular cortex
     neurofeedback training
   year: '2024'
@@ -157,78 +227,6 @@ selected_works:
     role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
-- title: Music as an Evolved Tool for Socio-Affective Fiction
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1177/17540739241259562
-  contributors:
-  - name: Caitlyn Trevor
-    role: Creator
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-- title: 'Studying clinical communication through multiple lenses: The underused potential
-    of inter-disciplinary collaborations'
-  year: '2022'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1016/j.pec.2022.04.010
-  contributors:
-  - name: Hanne Cathrine Lie
-    role: Creator
-  - name: Jennifer Gerwing
-    role: Creator
-  - name: Hilde Bondevik
-    role: Creator
-  - name: Inga Bostad
-    role: Creator
-  - name: Dan-Mikael Ellingsen
-    role: Creator
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-  - name: Pål Gulbrandsen
-    role: Creator
-  - name: Magnus Hontvedt
-    role: Creator
-  - name: Thomas de Lange
-    role: Creator
-  - name: Anne Marie Landmark
-    role: Creator
-  - name: Berit Hofset Larsen
-    role: Creator
-  - name: Julia Menichetti
-    role: Creator
-- title: The evolutionary benefit of less-credible affective musical signals for emotion
-    induction during storytelling
-  year: '2021'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1017/S0140525X20001004
-  contributors:
-  - name: Caitlyn Trevor
-    role: Creator
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-- title: 'Face and voice perception: Understanding commonalities and differences'
-  year: '2020'
-  source: Literature review
-  group_type: Literature review
-  url: https://doi.org/10.1016/j.tics.2020.02.001
-  contributors:
-  - name: Andrew W. Young
-    role: Creator
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-  - name: Stefan R. Schweinberger
-    role: Creator
 source_mentions: []
 wps:
 - WP1

@@ -67,19 +67,6 @@ selected_works:
     role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
-- title: 'AI and Humanities: The Role of AI-Based Tool in Music Production'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Ragnhild Brøvig
-    role: Creator
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
-  - name: Jon Marius Aareskjold-Drecker
-    role: Creator
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
 - title: 'Vocal Chops: Another Human/Machine Hybrid'
   year: '2024'
   source: Book chapter
@@ -94,27 +81,21 @@ selected_works:
     role: Creator
     slug: jon-marius-aareskjold-drecker
     url: /people/jon-marius-aareskjold-drecker/
-- title: Musical rhythm. Qualitative investigations
+- title: Influence du traitement de plage dynamique sur le rythme perçu dans l’EDM
   year: '2022'
-  source: Conference lecture
-  group_type: Conference
+  source: Book chapter
+  group_type: Book chapter
   contributors:
-  - name: Ragnhild Brøvig-Hanssen
+  - name: Ragnhild Brøvig
     role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
-  - name: Mats Sigvard Johansson
-    role: Creator
-  - name: Bjørnar Sandvik
-    role: Creator
-  - name: Eirik Jacobsen
+  - name: Bjørnar Ersland Sandvik
     role: Creator
   - name: Jon Marius Aareskjold-Drecker
     role: Creator
     slug: jon-marius-aareskjold-drecker
     url: /people/jon-marius-aareskjold-drecker/
-  - name: Anne Danielsen
-    role: Creator
 - title: 'Konsert: ARcTic Susatin Festspillene i Nord-Norge,'
   year: '2021'
   source: Music performance
@@ -143,6 +124,80 @@ selected_works:
     role: Musician
   - name: Ingrid Eliassen
     role: Musician
+- title: Nearly Invisible Stitches - Nils Petter Molvær
+  year: '2021'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Jon Marius Aareskjold-Drecker
+    role: Artist
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+- title: 'Slow Attacks, Peculiar Accents, and Pumping Grooves: Perceptual Interaction
+    between Timing and Intensity in Music Production'
+  year: '2021'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Ragnhild Brøvig-Hanssen
+    role: Creator
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
+  - name: Bjørnar Sandvik
+    role: Creator
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+- title: 'A Grid in Flux: Sound and Timing in Electronic Dance Music'
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1093/mts/mtab013
+  contributors:
+  - name: Ragnhild Brøvig-Hanssen
+    role: Creator
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
+  - name: Bjørnar Sandvik
+    role: Creator
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  - name: Anne Danielsen
+    role: Creator
+- title: ARcTic Sustain
+  year: '2021'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Friederike Bischoff
+    role: Artist
+  - name: Lars Lien
+    role: Artist
+  - name: Berit Solset
+    role: Artist
+  - name: Jon Marius Aareskjold-Drecker
+    role: Artist
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  - name: Rolf-Steinar Borch
+    role: Artist
+  - name: Ingrid Eliassen
+    role: Artist
+  - name: Geir Davidsen
+    role: Artist
+  - name: Kåre Solmund Nystabakk
+    role: Artist
+  - name: Odd Kyrre Alsvik
+    role: Artist
+  - name: Erik Stifjell
+    role: Composer
+  - name: Anneli Marian Aareskjold Drecker
+    role: Composer
+  - name: Karsten Brustad
+    role: Composer
 - title: Gæ
   year: '2020'
   source: Music performance
@@ -166,42 +221,27 @@ selected_works:
     role: Artist
   - name: Solmund Nystabakk
     role: Artist
-- title: Sound of Light
-  year: '2018'
+- title: NORTEM
+  year: '2020'
   source: Music performance
   group_type: Music performance
   contributors:
-  - name: Jon Marius Aareskjold
-    role: Composer
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
-- title: Sound of Light - Installasjon på Nordlysobservatoriet (NOBS)
-  year: '2018'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Jon Marius Aareskjold
-    role: Composer
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
-- title: Torun Eriksen - Luxury and Waste
-  year: '2018'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Jon Marius Aareskjold
+  - name: Geir Davidsen
+    role: Artist
+  - name: Jon Marius Aareskjold-Drecker
     role: Artist
     slug: jon-marius-aareskjold-drecker
     url: /people/jon-marius-aareskjold-drecker/
-- title: Northern Lights
-  year: '2014'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Jon Marius Aareskjold
-    role: Composer
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
+  - name: Lars Lien
+    role: Artist
+  - name: Friederike Bischoff
+    role: Artist
+  - name: Solmund Nystabakk
+    role: Artist
+  - name: Jens Christian Kloster
+    role: Artist
+  - name: Ingrid Eliassen
+    role: Artist
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

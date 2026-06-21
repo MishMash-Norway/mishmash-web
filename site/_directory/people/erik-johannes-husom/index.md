@@ -136,6 +136,26 @@ selected_works:
     role: Creator
   - name: Arda Goknil
     role: Creator
+- title: '3D-DaVa: Enhancing 3D Point Cloud Data Reliability for Industrial Applications'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1145/3711817
+  contributors:
+  - name: Adela Nedisan Videsjorden
+    role: Creator
+  - name: Arda Goknil
+    role: Creator
+  - name: Sagar Sen
+    role: Creator
+    slug: sagar-sen
+    url: /people/sagar-sen/
+  - name: Erik Johannes Husom
+    role: Creator
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+  - name: Phu Hong Nguyen
+    role: Creator
 - title: Data Quality as a Service Framework for AI-Enabled Industrial Internet of
     Things
   year: '2024'
@@ -186,33 +206,34 @@ selected_works:
     role: Creator
   - name: Svein Ove Tjøsvoll
     role: Creator
-- title: 'REPTILE: a Tool for Replay-driven Continual Learning in IIoT'
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
+- title: Latency-Aware Node Selection in Federated Learning
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.23919/IFIPNetworking62109.2024.10619860
+  contributors:
+  - name: Rustem Dautov
+    role: Creator
+  - name: Erik Johannes Husom
+    role: Creator
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+- title: Engineering Carbon Emission-aware Machine Learning Pipelines
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3644815.3644943
   contributors:
   - name: Erik Johannes Husom
     role: Creator
     slug: erik-johannes-husom
     url: /people/erik-johannes-husom/
-- title: Replay-Driven Continual Learning for the Industrial Internet of Things
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Erik Johannes Husom
+  - name: Sagar Sen
     role: Creator
-    slug: erik-johannes-husom
-    url: /people/erik-johannes-husom/
-- title: 'UDAVA: an unsupervised learning pipeline for sensor data validation in manufacturing'
-  year: '2022'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Erik Johannes Husom
+    slug: sagar-sen
+    url: /people/sagar-sen/
+  - name: Arda Goknil
     role: Creator
-    slug: erik-johannes-husom
-    url: /people/erik-johannes-husom/
 source_mentions: []
 summary: Erik Johannes Husom is a researcher with a M.Sc. in Computational Physics
   from the University of Oslo. Currently at SINTEF Digital's Trustworthy Green IoT

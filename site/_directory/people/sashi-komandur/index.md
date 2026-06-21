@@ -89,6 +89,56 @@ selected_works:
     role: Creator
   - name: Frode Strand Volden
     role: Creator
+- title: Accounting for effects of variation in luminance in pupillometry for field
+    measurements of cognitive workload
+  year: '2020'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/JSEN.2020.3038291
+  contributors:
+  - name: Giovanni Pignoni
+    role: Creator
+  - name: Sashidharan Komandur
+    role: Creator
+    slug: sashi-komandur
+    url: /people/sashi-komandur/
+  - name: Frode Volden
+    role: Creator
+- title: Attention! Designing a Target Group-Oriented Risk Communication Strategy
+  year: '2020'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1007/978-3-030-50732-9_77
+  contributors:
+  - name: Lara Raffel
+    role: Creator
+  - name: Patrick Bours
+    role: Creator
+  - name: Sashidharan Komandur
+    role: Creator
+    slug: sashi-komandur
+    url: /people/sashi-komandur/
+- title: 'Maritime Navigation: Characterizing Collaboration in a High-Speed Craft
+    Navigation Activity'
+  year: '2020'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1007/978-3-030-50726-8_65
+  contributors:
+  - name: Tim Streilein
+    role: Creator
+  - name: Sashidharan Komandur
+    role: Creator
+    slug: sashi-komandur
+    url: /people/sashi-komandur/
+  - name: Giovanni Pignoni
+    role: Creator
+  - name: Frode Volden
+    role: Creator
+  - name: Petter Lunde
+    role: Creator
+  - name: Frode Voll Mjelde
+    role: Creator
 - title: Development of a Quantitative Evaluation Tool of Cognitive Workload in Field
     Studies Through Eye Tracking.
   year: '2019'
@@ -102,6 +152,35 @@ selected_works:
     role: Creator
     slug: sashi-komandur
     url: /people/sashi-komandur/
+- title: The Relationship Between Usability and Biometric Authentication in Mobile
+    Phones
+  year: '2019'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1007/978-3-030-23522-2_23
+  contributors:
+  - name: Carly Grace Allen
+    role: Creator
+  - name: Sashidharan Komandur
+    role: Creator
+    slug: sashi-komandur
+    url: /people/sashi-komandur/
+- title: "Trial application of pupillometry\r\nfor a maritime usability study in\r\
+    \nfield conditions"
+  year: '2019'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Giovanni Pignoni
+    role: Creator
+  - name: Odd Sveinung Hareide
+    role: Creator
+  - name: Sashidharan Komandur
+    role: Creator
+    slug: sashi-komandur
+    url: /people/sashi-komandur/
+  - name: Frode Volden
+    role: Creator
 - title: Touchless Access Control Using iBeacons in Norwegian Hospitals
   year: '2018'
   source: Book chapter
@@ -125,85 +204,6 @@ selected_works:
     slug: sashi-komandur
     url: /people/sashi-komandur/
   - name: Thomas Porathe
-    role: Creator
-- title: 'Lean design of Spare Part Kit Production Cell : A Case Study from a Sperre
-    Industri AS'
-  year: '2016'
-  source: Book chapter
-  group_type: Book chapter
-  url: http://www.sefi.be/conference-2016/papers/Engineering_Education_Research__I_feel_brilliant/vijayan-lean-design-of-spare-part-kit-production-cell,-a-case-study-185.pdf
-  contributors:
-  - name: K.K. Vijayan
-    role: Creator
-  - name: Ola Jon Mork
-    role: Creator
-  - name: Sashidharan Komandur
-    role: Creator
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-  - name: Irina-Emily Hansen
-    role: Creator
-- title: Towards Tactile Alarms Systems for Increased Awareness in Smart Environments
-  year: '2014'
-  source: Book chapter
-  group_type: Book chapter
-  url: http://www.thinkmind.org/download.php?articleid=smart_2014_1_30_40083
-  contributors:
-  - name: Girts Strazdins
-    role: Creator
-  - name: Sashidharan Komandur
-    role: Creator
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-  - name: Frøy Birte Bjørneseth
-    role: Creator
-- title: Towards an Experimental Design Framework for Evaluation of Dynamic Workload
-    and Situational Awareness in Safety Critical Maritime Settings
-  year: '2012'
-  source: Book anthology
-  group_type: Book anthology
-  contributors:
-  - name: Frøy Birte Bjørneseth
-    role: Creator
-  - name: Sathiya kumar Renganayagalu
-    role: Creator
-  - name: Mark Dunlop
-    role: Creator
-  - name: Eva Hornecker
-    role: Creator
-  - name: Sashidharan Komandur
-    role: Creator
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-- title: Relation between index finger width and hand width anthropometric measures
-  year: '2009'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/IEMBS.2009.5333195
-  contributors:
-  - name: Sashidharan Komandur
-    role: Creator
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-  - name: Peter Wallace Johnson
-    role: Creator
-  - name: Richard Lee Storch
-    role: Creator
-  - name: Michael G. Yost
-    role: Creator
-- title: Relation between mouse button click duration and muscle contraction time
-  year: '2008'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/IEMBS.2008.4649657
-  contributors:
-  - name: Sashidharan Komandur
-    role: Creator
-    slug: sashi-komandur
-    url: /people/sashi-komandur/
-  - name: Peter Wallace Johnson
-    role: Creator
-  - name: Richard Lee Storch
     role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md

@@ -144,20 +144,56 @@ selected_works:
     role: Creator
   - name: Guus Dix
     role: Creator
-- title: Validation of AI and Avant-garde music composition
+- title: An Enquiry Into Modes of Non-Existence
   year: '2024'
-  source: Conference lecture
-  group_type: Conference
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/01622439241300744
   contributors:
   - name: Govert Valkenburg
     role: Creator
     slug: govert-valkenburg
     url: /people/govert-valkenburg/
-- title: What does it take to be human?
+- title: How does science and technology studies contribute to climate mitigation
+    research? Advanced review of infrastructure as a concept and method
   year: '2024'
-  source: Conference lecture
-  group_type: Conference
+  source: Literature review
+  group_type: Literature review
+  url: https://doi.org/10.1002/wcc.888
   contributors:
+  - name: Antti Edward Silvast
+    role: Creator
+  - name: Mikko J. Virtanen
+    role: Creator
+  - name: Govert Valkenburg
+    role: Creator
+    slug: govert-valkenburg
+    url: /people/govert-valkenburg/
+  - name: Rico Kongsager
+    role: Creator
+- title: Energy Justice as Epistemic Justice
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1080/21550085.2024.2418789
+  contributors:
+  - name: Govert Valkenburg
+    role: Creator
+    slug: govert-valkenburg
+    url: /people/govert-valkenburg/
+- title: 'Swarm electrification for Raqaypampa: Impact of different battery control
+    setpoints on energy sharing in interconnected solar homes systems'
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1016/j.segan.2024.101535
+  contributors:
+  - name: Ida Fuchs
+    role: Creator
+  - name: Claudia Sanchez-Solis
+    role: Creator
+  - name: Sergio Balderrama
+    role: Creator
   - name: Govert Valkenburg
     role: Creator
     slug: govert-valkenburg
@@ -173,37 +209,6 @@ selected_works:
     role: Artist
     slug: govert-valkenburg
     url: /people/govert-valkenburg/
-- title: 'Algorithmic Allocation: Untangling Rival Considerations of Fairness in Research
-    Management'
-  year: '2020'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.17645/pag.v8i2.2594
-  contributors:
-  - name: Guus Dix
-    role: Creator
-  - name: Wolfgang Kaltenbrunner
-    role: Creator
-  - name: Joeri K. Tijdink
-    role: Creator
-  - name: Govert Valkenburg
-    role: Creator
-    slug: govert-valkenburg
-    url: /people/govert-valkenburg/
-  - name: Sarah de Rijcke
-    role: Creator
-- title: Technology and Social Problems
-  year: '2018'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://www.govertvalkenburg.net/node/178
-  contributors:
-  - name: Govert Valkenburg
-    role: Creator
-    slug: govert-valkenburg
-    url: /people/govert-valkenburg/
-  - name: Harro van Lente
-    role: Creator
 source_mentions:
 - about/organisation/council/index.md
 summary: null

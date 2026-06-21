@@ -38,25 +38,6 @@ selected_works:
     role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
-- title: 'AI Language/ Language on AI: Language as infrastructure'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Ida Jahr
-    role: Creator
-    slug: ida-jahr
-    url: /people/ida-jahr/
-- title: '“I only want to feel the sun on my face”: AIs driven mad by bodiless existence
-    in darkness.'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Ida Jahr
-    role: Creator
-    slug: ida-jahr
-    url: /people/ida-jahr/
 - title: '"I have never felt the sun on my face": AI and embodiment in Donald Cammell''s
     Demon Seed (1977)'
   year: '2025'
@@ -68,8 +49,59 @@ selected_works:
     role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
+- title: 'Ketil Raknes har forsøkt å finne ut hvordan Trump kunne bli valgt: Anmeldelse
+    av Ketil Raknes: Hvit makt: USAs rasistiske historie'
+  year: '2024'
+  source: Book review
+  group_type: Book review
+  contributors:
+  - name: Ida Jahr
+    role: Creator
+    slug: ida-jahr
+    url: /people/ida-jahr/
+- title: 'Funker det når en jurist prøver å skrive arbeiderhistorie? Tja, til en viss
+    grad.: Anmeldelse av Hans Petter Graver: Tukthuslovene: Sivil ulydighet og trusselen
+    mot rettsstaten'
+  year: '2024'
+  source: Book review
+  group_type: Book review
+  contributors:
+  - name: Ida Jahr
+    role: Creator
+    slug: ida-jahr
+    url: /people/ida-jahr/
+- title: 'En grundig gjennomgang av tenkningen om teknologi: Anmeldelse av Lars Nyre:
+    Teknologi'
+  year: '2024'
+  source: Book review
+  group_type: Book review
+  contributors:
+  - name: Ida Jahr
+    role: Creator
+    slug: ida-jahr
+    url: /people/ida-jahr/
 - title: 'En viktig bok om rasetenkning. Anmeldelse av Jon Røyne Kyllingstad: "Rase:
     En vitenskapshistorie"'
+  year: '2023'
+  source: Book review
+  group_type: Book review
+  contributors:
+  - name: Ida Jahr
+    role: Creator
+    slug: ida-jahr
+    url: /people/ida-jahr/
+- title: Blomstenes fotsoldat. Anmeldelse av Anka Ryalls «Hanna Resvoll-Holmsen –
+    en arktisk pioner»
+  year: '2023'
+  source: Book review
+  group_type: Book review
+  contributors:
+  - name: Ida Jahr
+    role: Creator
+    slug: ida-jahr
+    url: /people/ida-jahr/
+- title: Slentrende og ambisiøst om meningen og minnene i en forringet natur. Anmeldelse
+    av Dag O. Hessens «Jervesporet»
   year: '2023'
   source: Book review
   group_type: Book review
@@ -93,36 +125,6 @@ selected_works:
   source: Book review
   group_type: Book review
   url: https://www.forskerforum.no/om-a-ikke-bli-mor/
-  contributors:
-  - name: Ida Jahr
-    role: Creator
-    slug: ida-jahr
-    url: /people/ida-jahr/
-- title: Skarpt og kildenært om tiden etter folkemordet
-  year: '2021'
-  source: Book review
-  group_type: Book review
-  url: https://www.forskerforum.no/etter-folkemordet-forbilledlig-formidling-av-andres-og-egen-forskning/
-  contributors:
-  - name: Ida Jahr
-    role: Creator
-    slug: ida-jahr
-    url: /people/ida-jahr/
-- title: En god bok å tenke med
-  year: '2021'
-  source: Book review
-  group_type: Book review
-  url: https://www.forskerforum.no/anine-kierulf-har-skrevet-bok-om-ytringsfrihet-som-er-god-a-tenke-med/
-  contributors:
-  - name: Ida Jahr
-    role: Creator
-    slug: ida-jahr
-    url: /people/ida-jahr/
-- title: Ulikhetens saktevirkende pris
-  year: '2021'
-  source: Book review
-  group_type: Book review
-  url: https://www.forskerforum.no/en-oversiktlig-og-nyttig-bok-om-okonomisk-og-sosial-ulikhet-i-norge-som-til-tider-prover-a-vaere-litt-for-aktuell/
   contributors:
   - name: Ida Jahr
     role: Creator

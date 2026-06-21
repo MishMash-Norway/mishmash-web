@@ -289,28 +289,6 @@ selected_works:
     url: /people/ali-ramezani-kebrya/
   - name: Robert Jenssen
     role: Creator
-- title: Layer-wise Quantization for Quantized Optimistic Dual Averaging
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://openreview.net/forum?id=J6LYjEOxbz&noteId=XPlechyXOj
-  contributors:
-  - name: Anh Duc Nguyen
-    role: Creator
-  - name: Ilia Markov
-    role: Creator
-  - name: Frank Zhengqing Wu
-    role: Creator
-  - name: Ali Ramezani-Kebrya
-    role: Creator
-    slug: ali-ramezani-kebrya
-    url: /people/ali-ramezani-kebrya/
-  - name: Kimon Antonakopoulos
-    role: Creator
-  - name: Dan Alistarh
-    role: Creator
-  - name: Volkan Cevher
-    role: Creator
 - title: Leveraging Foundation Model Adapters to Enable Robust and Semantic Underwater
     Exploration
   year: '2025'
@@ -361,22 +339,37 @@ selected_works:
     role: Creator
     slug: ali-ramezani-kebrya
     url: /people/ali-ramezani-kebrya/
-- title: Federated Learning under Covariate Shifts with Generalization Guarantees
-  year: '2023'
+- title: Addressing Label Shift in Distributed Learning via Entropy Regularization​
+  year: '2025'
   source: Journal article
   group_type: Journal article
-  url: https://openreview.net/pdf?id=N7lCDaeNiS
   contributors:
+  - name: Zhiyuan Wu
+    role: Creator
+  - name: Changkyu Choi
+    role: Creator
+  - name: Xiangcheng Cao
+    role: Creator
+  - name: Volkan Cevher
+    role: Creator
   - name: Ali Ramezani-Kebrya
     role: Creator
     slug: ali-ramezani-kebrya
     url: /people/ali-ramezani-kebrya/
-  - name: Fanghui Liu
+- title: Mixed Nash for Robust Federated Learning
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://openreview.net/pdf?id=mqMzerrVOB
+  contributors:
+  - name: Wanyun Xie
     role: Creator
   - name: Thomas Pethick
     role: Creator
-  - name: Grigorios Chrysos
+  - name: Ali Ramezani-Kebrya
     role: Creator
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
   - name: Volkan Cevher
     role: Creator
 source_mentions: []

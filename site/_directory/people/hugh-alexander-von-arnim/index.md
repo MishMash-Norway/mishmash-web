@@ -175,6 +175,23 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
+- title: 'Motion Pointillism: The (Re/De)Construction of the Normative Body through
+    Motion Capture'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.21825/documenta.93271
+  contributors:
+  - name: Hugh Alexander von Arnim
+    role: Creator
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Live Noven
+    role: Creator
 - title: Sense-making and Use of Multimodal Feedback in Team-based Simulations in
     Nursing Education
   year: '2024'
@@ -205,24 +222,6 @@ selected_works:
     url: /people/hugh-alexander-von-arnim/
   - name: Crina I. Damsa
     role: Creator
-- title: 'The Feedback Mop Cello: An Instrument for Interacting with Acoustic Feedback
-    Loops'
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Hugh Alexander von Arnim
-    role: Creator
-    slug: hugh-alexander-von-arnim
-    url: /people/hugh-alexander-von-arnim/
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
 source_mentions: []
 wps:
 - WP1

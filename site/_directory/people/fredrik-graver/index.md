@@ -47,50 +47,12 @@ search_keywords:
 - Art research
 - Arts
 selected_works:
-- title: 'Towards a philosophy of film school pedagogy: An ongoing philosophic journey
-    through teaching practices at film schools'
-  year: '2026'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Fredrik Graver
-    role: Creator
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-- title: KI, kunst, kultur, kreativitet
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Fredrik Graver
-    role: Creator
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
 - title: KI kan gjøre oss rikere – og fattigere.
   year: '2024'
   source: Popular science article
   group_type: Popular science article
   contributors:
   - name: Fredrik (Georg Fredrik) Graver
-    role: Creator
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-- title: Den norske filmskolens erfaringsbaserte metode
-  year: '2018'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Fredrik Graver
-    role: Creator
-    slug: fredrik-graver
-    url: /people/fredrik-graver/
-- title: 'Artistic Research in PhD degrees: A European Model?'
-  year: '2015'
-  source: Conference lecture
-  group_type: Conference
-  url: http://www.cilect.org/cake/event/53#.VWgrc0YXtSB
-  contributors:
-  - name: Fredrik Graver
     role: Creator
     slug: fredrik-graver
     url: /people/fredrik-graver/

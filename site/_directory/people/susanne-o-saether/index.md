@@ -101,6 +101,34 @@ selected_works:
     role: Creator
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
+- title: Grey Room, Glimmers of Light
+  year: '2015'
+  source: Popular science chapter
+  group_type: Popular science chapter
+  url: http://www.moussepublishing.com/products-page/product/susanne-m-winterling/
+  contributors:
+  - name: Susanne Østby Sæther
+    role: Creator
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
+- title: '"Are you talking to me?" Spectatorship in Post-Cinema Art'
+  year: '2013'
+  source: Non-fiction chapter
+  group_type: Non-fiction chapter
+  contributors:
+  - name: Susanne Østby Sæther
+    role: Creator
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
+- title: 'Archival Art: Negotiating the Role of New Media'
+  year: '2010'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Susanne Østby Sæther
+    role: Creator
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
 - title: 'The aesthetics of Sampling: Engaging the Media in Recent Video Art'
   year: '2009'
   source: PhD thesis
@@ -110,44 +138,13 @@ selected_works:
     role: Creator
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
-- title: Life Remixed
-  year: '2006'
-  source: Book chapter
-  group_type: Book chapter
+- title: Ghost in the Machine
+  year: '2008'
+  source: Exhibition
+  group_type: Exhibition
   contributors:
   - name: Susanne Østby Sæther
-    role: Creator
-    slug: susanne-o-saether
-    url: /people/susanne-o-saether/
-- title: Samplingens estetikk
-  year: '2006'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Susanne Østby Sæther
-    role: Creator
-    slug: susanne-o-saether
-    url: /people/susanne-o-saether/
-- title: Life Remixed. Biopolitics and Materiality in Recent Media Art
-  year: '2006'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Susanne Østby Sæther
-    role: Creator
-    slug: susanne-o-saether
-    url: /people/susanne-o-saether/
-- title: Et hjem for oss - et hjem for deg? Analyser av TV 2. 2 utgave
-  year: '2006'
-  source: Book anthology
-  group_type: Book anthology
-  contributors:
-  - name: Trine Syvertsen
-    role: Editor
-  - name: Gunn Enli
-    role: Editor
-  - name: Susanne Østby Sæther
-    role: Editor
+    role: Curator
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
 source_mentions: []

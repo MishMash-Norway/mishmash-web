@@ -69,36 +69,45 @@ selected_works:
     role: Creator
   - name: Lefteris Papachristos
     role: Creator
-- title: Identifying land use land cover changes using Sentinel-2 images in the Norwegian
-    context
+- title: Metrology-Based Statistical Framework for Monitoring Changes in Hyperspectral
+    Datasets of Artworks
   year: '2025'
-  source: Conference lecture
-  group_type: Conference
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/WHISPERS65427.2024.10876534
   contributors:
+  - name: Dipendra Jee Mandal
+    role: Creator
   - name: Hilda Deborah
     role: Creator
     slug: hilda-deborah
     url: /people/hilda-deborah/
-  - name: Joe Amundsen
+  - name: Markus Sebastian Bakken Storeide
     role: Creator
-  - name: Marius Pedersen
-    role: Creator
-- title: 'Color as A Physical Description of the Dead Sea Fragments: An explanation
-    of a misconception and a future recommendation'
+- title: Spatially Constrained Hyperspectral Pigment Mapping using Watershed Segmentation
   year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://www.inn.no/om-universitetet/fakultet-for-lererutdanning-og-pedagogikk/arrangementer-fra-lup/dhko-2025/deborah.pdf
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/WHISPERS65427.2024.10876543
   contributors:
+  - name: Nina Christine Eckertz
+    role: Creator
   - name: Hilda Deborah
     role: Creator
     slug: hilda-deborah
     url: /people/hilda-deborah/
-- title: Ad fontes! Ad fragmenta! Reinventing the Dead Sea Scrolls
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
+  - name: Jon Yngve Hardeberg
+    role: Creator
+  - name: Irina Crina Anca Sandu
+    role: Creator
+- title: A Database of Post-2002 Dead Sea Scrolls-like Fragments
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5334/johd.140
   contributors:
+  - name: Ludvik Andreas Kjeldsberg
+    role: Creator
   - name: Årstein Justnes
     role: Creator
     slug: arstein-justnes
@@ -107,92 +116,89 @@ selected_works:
     role: Creator
     slug: hilda-deborah
     url: /people/hilda-deborah/
-- title: 'Vision and Semantics: Insights into Rock Category Learning Among Geology
-    Undergraduates'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
+- title: Comprehensive Evaluation of ImageNet-Trained CNNs for Texture-Based Rock
+    Classification
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/ACCESS.2024.3424931
   contributors:
-  - name: Anna Lawrance
+  - name: Dipendra Jee Mandal
+    role: Creator
+  - name: Hilda Deborah
+    role: Creator
+    slug: hilda-deborah
+    url: /people/hilda-deborah/
+  - name: Tabita Anggraini Meilita Lumban Tobing
     role: Creator
   - name: Mateusz Janiszewski
     role: Creator
-  - name: Hilda Deborah
-    role: Creator
-    slug: hilda-deborah
-    url: /people/hilda-deborah/
-  - name: Andy J. Fraass
-    role: Creator
-  - name: Duncan Johannessen
-    role: Creator
-  - name: Lucinda J. Leonard
-    role: Creator
-  - name: Dipendra Jee Mandal
-    role: Creator
-  - name: Brett D. Roads
-    role: Creator
   - name: James W. Tanaka
     role: Creator
-- title: Hyperspectral Image Based Visualisations for Cultural Heritage Applications
-  year: '2024'
-  source: Conference lecture
+  - name: Anna Lawrance
+    role: Creator
+- title: 'Estimating the Color Palette of Ortelius'' Atlas: A case study of hyperspectral
+    imaging for rapid pigment screening'
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/WHISPERS61460.2023.10430960
+  contributors:
+  - name: Hilda Deborah
+    role: Creator
+    slug: hilda-deborah
+    url: /people/hilda-deborah/
+  - name: Chiara Palandri
+    role: Creator
+  - name: Giulia Oretti
+    role: Creator
+- title: 'Unsupervised Clustering for Works of Art Using Hyperspectral Imaging: A
+    Case Study on Edvard Munch''s Self-Portrait (1905)'
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/WHISPERS61460.2023.10430604
+  contributors:
+  - name: Dipendra Jee Mandal
+    role: Creator
+  - name: Hilda Deborah
+    role: Creator
+    slug: hilda-deborah
+    url: /people/hilda-deborah/
+  - name: Sony George
+    role: Creator
+  - name: Jon Yngve Hardeberg
+    role: Creator
+- title: An Experiment-based Comparative Analysis of Pigment Classification Algorithms
+    using Hyperspectral Imaging
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.2352/J.ImagingSci.Technol.2023.67.3.030403
+  contributors:
+  - name: Dipendra Jee Mandal
+    role: Creator
+  - name: Marius Pedersen
+    role: Creator
+  - name: Sony George
+    role: Creator
+  - name: Hilda Deborah
+    role: Creator
+    slug: hilda-deborah
+    url: /people/hilda-deborah/
+  - name: Clotilde Boust
+    role: Creator
+- title: Hyperspectral pigment mapping of Edvard Munch’s Self Portrait (1905)
+  year: '2023'
+  source: Conference poster
   group_type: Conference
   contributors:
-  - name: Hilda Deborah
-    role: Creator
-    slug: hilda-deborah
-    url: /people/hilda-deborah/
-  - name: Eleftherios Papachristos
-    role: Creator
-  - name: Zealandia Sarah Nurul Fatma
-    role: Creator
-  - name: Nina Christine Eckertz
-    role: Creator
-  - name: Jon Yngve Hardeberg
-    role: Creator
-- title: Metrological hyperspectral image analysis through spectral differences
-  year: '2020'
-  source: Non-fiction chapter
-  group_type: Non-fiction chapter
-  url: https://doi.org/10.1016/B978-0-08-102894-0.00020-6
-  contributors:
-  - name: Hilda Deborah
-    role: Creator
-    slug: hilda-deborah
-    url: /people/hilda-deborah/
-  - name: Noel Richard
-    role: Creator
-  - name: Jon Yngve Hardeberg
-    role: Creator
-  - name: Jón Atli Benediktsson
-    role: Creator
-- title: Path opening for hyperspectral crack detection of cultural heritage paintings
-  year: '2019'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/SITIS.2018.00105
-  contributors:
-  - name: Thomas Brendon Gillooly
+  - name: Nina Eckertz
     role: Creator
   - name: Hilda Deborah
     role: Creator
     slug: hilda-deborah
     url: /people/hilda-deborah/
-  - name: Jon Yngve Hardeberg
-    role: Creator
-- title: Towards Spectral Mathematical Morphology
-  year: '2016'
-  source: PhD thesis
-  group_type: PhD thesis
-  contributors:
-  - name: Hilda Deborah
-    role: Creator
-    slug: hilda-deborah
-    url: /people/hilda-deborah/
-  - name: Jon Yngve Hardeberg
-    role: Supervisor
-  - name: Christine Fernandez-Maloigne
-    role: Supervisor
 source_mentions: []
 wps:
 - WP6

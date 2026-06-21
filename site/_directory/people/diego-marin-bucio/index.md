@@ -86,19 +86,11 @@ selected_works:
     role: Choreographer
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
-- title: 'Machinic Movement Matrix: A framework and tool for human-AI dance-creation'
+- title: 'Dancing Embryo: Enacting Dance Experience Through Human-AI Kinematic Collaboration'
   year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Diego Marin-Bucio
-    role: Creator
-    slug: diego-marin-bucio
-    url: /people/diego-marin-bucio/
-- title: Co-creation of rhythm in Djembe Music-Dance
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.21825/documenta.93276
   contributors:
   - name: Diego Marin-Bucio
     role: Creator
@@ -115,36 +107,49 @@ selected_works:
     role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
-- title: 'Dancing Embryo: Danza y co-creatividad humano-IA'
+- title: 'Encarnando lo artificial: danza y co-creatividad humano-IA'
   year: '2024'
-  source: Conference lecture
-  group_type: Conference
+  source: Monograph
+  group_type: Monograph
   contributors:
-  - name: Diego Antonio Marin Bucio
+  - name: Diego Marin-Bucio
     role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
-- title: ¿Puede una IA bailar?
+- title: 'Hacia una danza posthumana: encarnando lo artificial'
   year: '2024'
-  source: Conference lecture
-  group_type: Conference
+  source: Popular science book
+  group_type: Popular science book
   contributors:
-  - name: Diego Antonio Marin Bucio
+  - name: Diego Marin-Bucio
     role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
-- title: 'Exploring motion capture systems in dance research: a case study of djembe
-    dance from West Africa'
+- title: Imitation or Innovation? Translating Features of Expressive Motion from Humans
+    to Robots
   year: '2024'
-  source: Conference lecture
-  group_type: Conference
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3687272.3688302
   contributors:
-  - name: Diego Antonio Marín Bucio
+  - name: Benedikte Wallace
+    role: Creator
+  - name: Marieke van Otterdijk
+    role: Creator
+  - name: Yuchong Zhang
+    role: Creator
+  - name: Nona Rajabi
+    role: Creator
+  - name: Diego Marin-Bucio
     role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
-  - name: Rainer Polak
+  - name: Danica Kragic
     role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: Danza y co-creatividad kinestésica Humano-IA
   year: '2023'
   source: Journal article
@@ -153,6 +158,15 @@ selected_works:
   contributors:
   - name: Diego Antonio Marín Bucio
     role: Creator
+    slug: diego-marin-bucio
+    url: /people/diego-marin-bucio/
+- title: Dancing Embryo
+  year: '2022'
+  source: Performing arts
+  group_type: Performing arts
+  contributors:
+  - name: Diego Antonio Marín Bucio
+    role: AcademicCoordinator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 source_mentions: []

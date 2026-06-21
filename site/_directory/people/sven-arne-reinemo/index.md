@@ -3,7 +3,7 @@ type: person
 slug: sven-arne-reinemo
 name: Sven-Arne Reinemo
 title: Sven-Arne Reinemo
-position: Research director
+position: Research Director
 department: Simula Metropolitan Center for Digital Engineering
 institution: simula-metropolitan-center-for-digital-engineering
 institutions:
@@ -29,54 +29,192 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Detailed modeling of heterogeneous and contention-constrained point-to-point
+    MPI communication
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: https://ieeexplore.ieee.org/document/10064025
+  contributors:
+  - name: Andreas Thune
+    role: Creator
+  - name: Sven- Arne Reinemo
+    role: Creator
+    slug: sven-arne-reinemo
+    url: /people/sven-arne-reinemo/
+  - name: Tor Skeie
+    role: Creator
+  - name: Xing Cai
+    role: Creator
+- title: Adaptive Routing in InfiniBand Hardware
+  year: '2022'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/CCGrid54584.2022.00056
+  contributors:
+  - name: José Rocher-González
+    role: Creator
+  - name: Ernst Gunnar Gran
+    role: Creator
+  - name: Sven- Arne Reinemo
+    role: Creator
+    slug: sven-arne-reinemo
+    url: /people/sven-arne-reinemo/
+  - name: Tor Skeie
+    role: Creator
+  - name: Jesús Escudero-Sahuquillo
+    role: Creator
+  - name: Pedro J. Garcia
+    role: Creator
+  - name: Francisco J. Quiles Flor
+    role: Creator
+- title: Smittestopp Backend
+  year: '2022'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-031-05466-2_3
+  contributors:
+  - name: Cise Midoglu
+    role: Creator
+  - name: Benjamin Ragan-Kelley
+    role: Creator
+  - name: Sven- Arne Reinemo
+    role: Creator
+    slug: sven-arne-reinemo
+    url: /people/sven-arne-reinemo/
+  - name: Jon Jahren
+    role: Creator
+  - name: Pål Halvorsen
+    role: Creator
 - title: Nationwide rollout reveals efficacy of epidemic control through digital contact
     tracing
   year: '2021'
-  source: medRxiv
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-85105498705&partnerID=MN8TOARS
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1038/s41467-021-26144-8
+  contributors:
+  - name: Ahmed Mustafa Abdalla Elmokashfi
+    role: Creator
+  - name: Joakim Sundnes
+    role: Creator
+  - name: Amund Kvalbein
+    role: Creator
+  - name: Valeriya Naumova
+    role: Creator
+  - name: Sven-Arne Reinemo
+    role: Creator
+    slug: sven-arne-reinemo
+    url: /people/sven-arne-reinemo/
+  - name: Per Magne Florvaag
+    role: Creator
+  - name: Håkon Kvale Stensland
+    role: Creator
+  - name: Olav Lysne
+    role: Creator
 - title: Early experiences with live migration of SR-IOV enabled InfiniBand
   year: '2015'
-  source: Journal of Parallel and Distributed Computing
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84939995114&partnerID=MN8TOARS
-- title: A new proposal to deal with congestion in InfiniBand-based fat-trees
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Wei Guay
+    role: Creator
+  - name: Sven-Arne Reinemo
+    role: Creator
+    slug: sven-arne-reinemo
+    url: /people/sven-arne-reinemo/
+  - name: Bjørn Johnsen
+    role: Creator
+  - name: Chien-Hua Yen
+    role: Creator
+  - name: Tor Skeie
+    role: Creator
+  - name: Olav Lysne
+    role: Creator
+- title: A New Proposal to Deal With Congestion in InfiniBand-Based Fat-Trees
   year: '2014'
-  source: Journal of Parallel and Distributed Computing
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84887417941&partnerID=MN8TOARS
-- title: Multi-homed fat-tree routing with infiniband
-  year: '2014'
-  source: Proceedings - 2014 22nd Euromicro International Conference on Parallel,
-    Distributed, and Network-Based Processing, PDP 2014
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84899415155&partnerID=MN8TOARS
-- title: 'Making the network scalable: Inter-subnet routing in InfiniBand'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Jesús Escudero-Sahuquillo
+    role: Creator
+  - name: Sven-Arne Reinemo
+    role: Creator
+    slug: sven-arne-reinemo
+    url: /people/sven-arne-reinemo/
+  - name: Tor Skeie
+    role: Creator
+  - name: Olav Lysne
+    role: Creator
+- title: 'Making the Network Scalable: Inter-subnet Routing in InfiniBand'
   year: '2013'
-  source: Lecture Notes in Computer Science (including subseries Lecture Notes in
-    Artificial Intelligence and Lecture Notes in Bioinformatics)
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84883205455&partnerID=MN8TOARS
-- title: A scalable signalling mechanism for VM migration with SR-IOV over InfiniBand
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-642-40047-6_69
+  contributors:
+  - name: Bartosz Grzegorz Bogdanski
+    role: Creator
+  - name: Bjørn Dag Johnsen
+    role: Creator
+  - name: Sve Arne Reinemo
+    role: Creator
+    slug: sven-arne-reinemo
+    url: /people/sven-arne-reinemo/
+  - name: Jose Flich
+    role: Creator
+- title: 'SFtree: a Fully Connected and Deadlock Free Switch-to-Switch Routing Algorithm
+    for Fat-Trees'
   year: '2012'
-  source: Proceedings of the International Conference on Parallel and Distributed
-    Systems - ICPADS
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84874098091&partnerID=MN8TOARS
-- title: Discovery and routing of degraded fat-trees
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Bartosz Bogdanski
+    role: Creator
+  - name: Sven-Arne Reinemo
+    role: Creator
+    slug: sven-arne-reinemo
+    url: /people/sven-arne-reinemo/
+  - name: Frank Sem-Jacobsen
+    role: Creator
+  - name: Ernst Gran
+    role: Creator
+- title: A Scalable Signalling Mechanism for VM Migration with SR-IOV over InfiniBand
   year: '2012'
-  source: Parallel and Distributed Computing, Applications and Technologies, PDCAT
-    Proceedings
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84884603990&partnerID=MN8TOARS
-- title: Exploring the scope of the InfiniBand congestion control mechanism
+  source: Book chapter
+  group_type: Book chapter
+  url: http://dx.doi.org/10.1109/ICPADS.2012.60
+  contributors:
+  - name: Wei Lin Guay
+    role: Creator
+  - name: Sven-Arne Reinemo
+    role: Creator
+    slug: sven-arne-reinemo
+    url: /people/sven-arne-reinemo/
+  - name: Bjørn Dag Johnsen
+    role: Creator
+  - name: Tor Skeie
+    role: Creator
+  - name: Ola Torudbakken
+    role: Creator
+- title: Exploring the Scope of the InfiniBand Congestion Control Mechanism
   year: '2012'
-  source: Proceedings of the 2012 IEEE 26th International Parallel and Distributed
-    Processing Symposium, IPDPS 2012
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84866870475&partnerID=MN8TOARS
-- title: 'SFtree: A fully connected and deadlock-free switch-to-switch routing algorithm
-    for fat-trees'
-  year: '2012'
-  source: Transactions on Architecture and Code Optimization
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84857850757&partnerID=MN8TOARS
-- title: A scalable method for signalling dynamic reconfiguration events with openSM
-  year: '2011'
-  source: Proceedings - 11th IEEE/ACM International Symposium on Cluster, Cloud and
-    Grid Computing, CCGrid 2011
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-79961136342&partnerID=MN8TOARS
+  source: Book chapter
+  group_type: Book chapter
+  url: http://dx.doi.org/10.1109/IPDPS.2012.104
+  contributors:
+  - name: Ernst Gunnar Gran
+    role: Creator
+  - name: Sven-Arne Reinemo
+    role: Creator
+    slug: sven-arne-reinemo
+    url: /people/sven-arne-reinemo/
+  - name: Olav Lysne
+    role: Creator
+  - name: Tor Skeie
+    role: Creator
+  - name: Eitan Zahavi
+    role: Creator
+  - name: Gilad Shainer
+    role: Creator
 source_mentions:
 - about/organisation/council/index.md
 summary: null

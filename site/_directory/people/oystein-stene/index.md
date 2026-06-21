@@ -37,26 +37,47 @@ selected_works:
     role: Dancer
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: De opplyste (lydbok)
-  year: '2018'
-  source: Literary arts
-  group_type: Literary arts
+- title: Skuespillerens arbeid med seg selv
+  year: '2023'
+  source: Non-fiction book
+  group_type: Non-fiction book
   contributors:
+  - name: Konstantin Stanislavskij
+    role: Creator
   - name: Øystein Stene
-    role: RoleOther
+    role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: 'Skriver og spiller del 2: Konseptutvikling'
-  year: '2018'
-  source: Working paper
-  group_type: Working paper
+- title: 'Å iscenesette sannheten: en introduksjon til Konstantin Stanislavskij og
+    hans ideer'
+  year: '2023'
+  source: Non-fiction chapter
+  group_type: Non-fiction chapter
   contributors:
   - name: Øystein Stene
     role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: Fra feminisme til aktivisme til populisme
-  year: '2018'
+- title: Tankenes rett
+  year: '2022'
+  source: Popular science book
+  group_type: Popular science book
+  contributors:
+  - name: Øystein Stene
+    role: Creator
+    slug: oystein-stene
+    url: /people/oystein-stene/
+- title: Drømmenes orden
+  year: '2021'
+  source: Popular science book
+  group_type: Popular science book
+  contributors:
+  - name: Øystein Stene
+    role: Creator
+    slug: oystein-stene
+    url: /people/oystein-stene/
+- title: 'Klimakrisen løst på femti år: Tre Utopier'
+  year: '2021'
   source: Professional article
   group_type: Professional article
   contributors:
@@ -64,58 +85,37 @@ selected_works:
     role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: UFO-bygda
-  year: '2018'
-  source: Performing arts
-  group_type: Performing arts
-  url: https://www.nationaltheatret.no/forestillinger/arkiv/2018/ufo-bygda/
-  contributors:
-  - name: Øystein Stene
-    role: AcademicCoordinator
-    slug: oystein-stene
-    url: /people/oystein-stene/
-- title: 'Skriver og spiller del 1: Karakterutvikling'
-  year: '2017'
-  source: Working paper
-  group_type: Working paper
+- title: Pustens lov
+  year: '2020'
+  source: Popular science book
+  group_type: Popular science book
   contributors:
   - name: Øystein Stene
     role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: Umut
-  year: '2017'
-  source: Journal article
-  group_type: Journal article
+- title: Introverted polyvocality
+  year: '2019'
+  source: Professional article
+  group_type: Professional article
   contributors:
   - name: Øystein Stene
     role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: Utdrag fra Zombie Nation
-  year: '2017'
-  source: Journal article
-  group_type: Journal article
+- title: Drama for a new millennium
+  year: '2019'
+  source: Professional article
+  group_type: Professional article
   contributors:
   - name: Øystein Stene
     role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
-- title: 'Oslo International Acting Festival 2015: Rapport og oppsummering'
-  year: '2016'
-  source: Report
-  group_type: Report
-  contributors:
-  - name: Øystein Stene
-    role: Creator
-    slug: oystein-stene
-    url: /people/oystein-stene/
-  - name: Gianluca Iumiento
-    role: Creator
-- title: Acting After Postmodernism
-  year: '2015'
-  source: Conference lecture
-  group_type: Conference
+- title: 'Mitt liv som mann : i likestillingens hjemland'
+  year: '2019'
+  source: Popular science book
+  group_type: Popular science book
   contributors:
   - name: Øystein Stene
     role: Creator

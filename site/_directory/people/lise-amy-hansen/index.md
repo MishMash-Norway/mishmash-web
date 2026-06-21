@@ -46,29 +46,6 @@ selected_works:
     url: /people/lise-amy-hansen/
   - name: Maria Göransdotter
     role: Creator
-- title: The Perceived and the Performed - Exploring a Sensate Corporeal Practice
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Lise Amy Hansen
-    role: Creator
-    slug: lise-amy-hansen
-    url: /people/lise-amy-hansen/
-  - name: Janne-Camilla Lyster
-    role: Creator
-- title: Sensate and sensed – configuring conditions for a relational movement potential
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  url: https://www.nsae.fi/conferences/
-  contributors:
-  - name: Lise Amy Hansen
-    role: Creator
-    slug: lise-amy-hansen
-    url: /people/lise-amy-hansen/
-  - name: Janne-Camilla Lyster
-    role: Creator
 - title: Anticipation, agency and aging–conditions for making movement irresistible
   year: '2024'
   source: Journal article
@@ -85,27 +62,40 @@ selected_works:
     role: Creator
   - name: Heidi Wilson
     role: Creator
-- title: More than now – placing an experience of co-temporality in movement
+- title: The Futti Krutti Festival - Teaching Experiences for Social Innovation
   year: '2023'
-  source: Conference lecture
-  group_type: Conference
-  url: https://www.hf.uio.no/ikos/forskning/prosjekter/livstider/arrangementer/presence-and-rhythms.html
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.21606/drslxd.2024.088
   contributors:
-  - name: Janne-Camilla Lyster
+  - name: Aleksandra Zamarajeva Fischer
+    role: Creator
+  - name: Vera Pahle
     role: Creator
   - name: Lise Amy Hansen
     role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
-- title: InnArbeid - need-based innovation of technology-supported services with intellectual
-    disabillities in working life
-  year: '2019'
-  source: Conference lecture
-  group_type: Conference
+- title: Enactive methods towards situational learning - engaging people with intellectual
+    and developmental disability in design
+  year: '2022'
+  source: Journal article
+  group_type: Journal article
+  url: https://www.sciencedirect.com/science/article/pii/S1877050921022778
   contributors:
-  - name: Elin Thygesen
+  - name: Lise Amy Hansen
     role: Creator
-  - name: Sofie Sara Terese Wass
+    slug: lise-amy-hansen
+    url: /people/lise-amy-hansen/
+  - name: Sofie Wass
+    role: Creator
+- title: Generation of Design Principles as Knowledge Conversion - Elucidating Dynamics.
+  year: '2021'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-030-82405-1_17
+  contributors:
+  - name: Sofie Wass
     role: Creator
   - name: Lise Amy Hansen
     role: Creator
@@ -113,52 +103,91 @@ selected_works:
     url: /people/lise-amy-hansen/
   - name: Carl Erik Moe
     role: Creator
-  - name: Elisabeth Holen-Rabbersvik
-    role: Creator
-  - name: Ann-Elisabeth Ludvigsen
-    role: Creator
-  - name: Frida  Almqvist
-    role: Creator
-- title: 'Communicating movement : full-body movement as a design material for digital
-    interaction'
-  year: '2014'
-  source: PhD thesis
-  group_type: PhD thesis
+- title: Designing Transport Supporting Services Together with Users with Intellectual
+    Disabilities
+  year: '2020'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-030-64823-7_6
   contributors:
+  - name: Sofie Wass
+    role: Creator
   - name: Lise Amy Hansen
     role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
-- title: Materialising acts
-  year: '2013'
-  source: Conference lecture
-  group_type: Conference
+  - name: Mugula Chris Safari
+    role: Creator
+- title: Me, Myself and I - Supporting People with Intellectual Disabilities Towards
+    Self-determination
+  year: '2020'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-030-64823-7_40
   contributors:
+  - name: Sofie Wass
+    role: Creator
   - name: Lise Amy Hansen
     role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
-- title: Full-body movement as material for interaction design
-  year: '2011'
+  - name: Erlend Stuve
+    role: Creator
+- title: Fra behovskartlegging til innovasjon for personer med utviklingshemming –
+    noen metodiske og etiske refleksjoner
+  year: '2019'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.1080/14626268.2011.622284
+  url: https://doi.org/10.18261/issn.2387-5984-2019-03-06
   contributors:
+  - name: Elisabeth Holen-Rabbersvik
+    role: Creator
+  - name: Silje Haugland
+    role: Creator
+  - name: Hans Olav Omland
+    role: Creator
+  - name: Terje Emil Fredwall
+    role: Creator
   - name: Lise Amy Hansen
     role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
-- title: Program to Perform, Exploring Dance and New Media
-  year: '2009'
+- title: Avstandsoppfølgning – Nasjonalt velferdsteknologiprogram
+  year: '2018'
   source: Research report
   group_type: Research report
   contributors:
-  - name: Ine Therese Berg
-    role: Editor
+  - name: Nils-Otto Ørjaseter
+    role: Creator
+  - name: Kirchhoff Sindre
+    role: Creator
   - name: Lise Amy Hansen
-    role: Editor
+    role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
+  - name: Kaja Misvær Kistorp
+    role: Creator
+  - name: Ole Moland
+    role: Creator
+  - name: Frida  Almqvist
+    role: Creator
+- title: Velferdsteknologi i sentrum (VIS) – evaluering av velferdsteknologi fra et
+    tjenestedesignperspektiv
+  year: '2017'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.18261/issn.2387-5984-2017-02-12
+  contributors:
+  - name: Lise Amy Hansen
+    role: Creator
+    slug: lise-amy-hansen
+    url: /people/lise-amy-hansen/
+  - name: Frida  Almqvist
+    role: Creator
+  - name: Nils-Otto Ørjasæter
+    role: Creator
+  - name: Kaja Misvær Kistorp
+    role: Creator
 source_mentions:
 - about/organisation/council/index.md
 summary: null

@@ -27,32 +27,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Exploring peer-support in co-creation in higher education
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Maren Omland
-    role: Creator
-  - name: Gro Skåland
-    role: Creator
-    slug: gro-skaland
-    url: /people/gro-skaland/
-- title: Critical source evaluation in higher education teachers
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Leila Ferguson
-    role: Creator
-  - name: Anette Andresen
-    role: Creator
-  - name: Thea Kanstad Heimdal
-    role: Creator
-  - name: Gro Skåland
-    role: Creator
-    slug: gro-skaland
-    url: /people/gro-skaland/
 - title: Making the library of the future identifying the zone of proximal development
     for a Norwegian public library makerspace
   year: '2024'
@@ -102,16 +76,6 @@ selected_works:
     role: Creator
   - name: Palmyre Pierroux
     role: Creator
-- title: Doing Inventing In The Library. A presentation of research and findings from
-    the STEAM in the library project.
-  year: '2020'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Gro Skåland
-    role: Creator
-    slug: gro-skaland
-    url: /people/gro-skaland/
 source_mentions: []
 summary: null
 permalink: /people/gro-skaland/

@@ -56,6 +56,15 @@ selected_works:
     role: Creator
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
+- title: Ivar Grydeland - Bøyning, brytning
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Ivar Grydeland
+    role: Composer
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
 - title: Love Your Latency, September 2024
   year: '2024'
   source: Music performance
@@ -81,26 +90,13 @@ selected_works:
     role: Composer
   - name: Hild Sofie Tafjord
     role: Composer
-- title: Love your Latency – harmonizing from afar
+- title: Blikk på øyeblikket – eksempler på ulike arbeidsmetoder hos improviserende
+    musikere
   year: '2024'
-  source: Conference lecture
-  group_type: Conference
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.55669/oa491103
   contributors:
-  - name: Ivar Grydeland
-    role: Creator
-    slug: ivar-grydeland
-    url: /people/ivar-grydeland/
-  - name: Michael Francis Duch
-    role: Creator
-- title: Love your Latency and the Glitching Spatiotemporal Condition
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Ragnhild Brøvig
-    role: Creator
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
   - name: Ivar Grydeland
     role: Creator
     slug: ivar-grydeland
@@ -147,6 +143,21 @@ selected_works:
     url: /people/ivar-grydeland/
   - name: Frode Grytten
     role: Writer
+- title: Dans les arbres - Phosphoresence
+  year: '2017'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Ivar Grydeland
+    role: Composer
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
+  - name: Xavier Charles
+    role: Composer
+  - name: Ingar Zach
+    role: Composer
+  - name: Christian Wallumrød
+    role: Composer
 - title: Ensemble and Ensemble of Me. What I think about when I think about improvisation
   year: '2016'
   source: Research report
@@ -175,21 +186,6 @@ selected_works:
     role: Creator
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
-- title: Dans les arbres
-  year: '2008'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Ivar Grydeland
-    role: Composer
-    slug: ivar-grydeland
-    url: /people/ivar-grydeland/
-  - name: Ingar Zach
-    role: Composer
-  - name: Christian Wallumrød
-    role: Composer
-  - name: Xavier Charles
-    role: Composer
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

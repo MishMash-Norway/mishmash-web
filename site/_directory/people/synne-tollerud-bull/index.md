@@ -97,26 +97,6 @@ selected_works:
     url: /people/susanne-o-saether/
   - name: Jørgen Alnæs
     role: Editor
-- title: Manifestos for an Algorithmic World
-  year: '2026'
-  source: Conference lecture
-  group_type: Conference
-  url: https://metamorf.art/2026/03/18/conference-program-signup/
-  contributors:
-  - name: Synne Tollerud Bull
-    role: Creator
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-- title: MishMash, KI og kreative prosesser
-  year: '2026'
-  source: Conference lecture
-  group_type: Conference
-  url: https://kulturkonferansen.no/
-  contributors:
-  - name: Synne Tollerud Bull
-    role: Creator
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
 - title: På Google Earth kan du zoome inn på hele verden. Men hva er det egentlig
     vi ser?
   year: '2026'
@@ -149,8 +129,31 @@ selected_works:
     role: RoleOther
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
-- title: There's No Place Like Here
-  year: '2007'
+- title: 'Proxistant Vision: Motion, Navigation, Scale'
+  year: '2025'
+  source: Monograph
+  group_type: Monograph
+  url: https://doi.org/10.7551/mitpress/15152.001.0001
+  contributors:
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Dragan Miletic
+    role: Creator
+- title: Studentene tar tak i Grønlands utfordringer med kreativ kraft
+  year: '2025'
+  source: Popular science article
+  group_type: Popular science article
+  contributors:
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Leo Rygnestad
+    role: Creator
+- title: THE FUTURES OF THE PASTS (2023)
+  year: '2023'
   source: Visual arts
   group_type: Visual arts
   contributors:
@@ -160,10 +163,11 @@ selected_works:
     url: /people/synne-tollerud-bull/
   - name: Dragan Miletic
     role: Artist
-- title: The Violence of Participation
-  year: '2007'
+- title: 'Bull.Miletic: Proxistant Vision'
+  year: '2022'
   source: Visual arts
   group_type: Visual arts
+  url: https://proxistantvision.net/
   contributors:
   - name: Synne Tollerud Bull
     role: Artist

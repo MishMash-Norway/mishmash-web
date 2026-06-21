@@ -67,70 +67,288 @@ selected_works:
     url: /people/carsten-griwodz/
   - name: Alessandro Filippeschi
     role: Creator
-- title: Limited Data Forecasting of Financial Time-series using Graph-based Class
-    Dynamics
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  url: https://doi.org/10.23919/EUSIPCO63174.2024.10714981
+- title: Upsampled Vector Autoregressive Processes
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://ieeexplore.ieee.org/abstract/document/11226438
   contributors:
-  - name: Rohan Money
+  - name: Emilio Ruiz Moreno
     role: Creator
-  - name: Joshin Krishnan
+  - name: Luis M. Lopez-Ramos
     role: Creator
   - name: Baltasar Beferull-Lozano
     role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
-- title: Kalman Filtering for Simplicial Processes
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  url: https://ieeexplore.ieee.org/document/10942943
+- title: Doubly Truncated Mode Kriging
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/ssp64130.2025.11073282
   contributors:
-  - name: Rohan Money
-    role: Creator
-  - name: Mohammad Sabbaqi
-    role: Creator
-  - name: Joshin Krishnan
+  - name: Emilio Ruiz Moreno
     role: Creator
   - name: Baltasar Beferull-Lozano
     role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
-- title: Graph-Vector Auto-regressive Model for Lithium-Ion Cell Capacity Estimation
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  url: https://doi.org/10.1109/MLSP58920.2024.10734722
+- title: Cellular Autoregressive Higher-Order Models
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.23919/eusipco63237.2025.11226689
   contributors:
-  - name: Samuel Dominguez-Cid
+  - name: "Abdullah\t Canbolat"
     role: Creator
-  - name: Joshin Krishnan
-    role: Creator
-  - name: Rohan Money
+  - name: Rohan Thekkemarickal Money
     role: Creator
   - name: Baltasar Beferull-Lozano
     role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
-- title: Evolution Backcasting of Edge Flows from Partial Observations using Simplicial
-    Vector Autoregressive Models
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  url: https://doi.org/10.1109/ICASSP48485.2024.10448180
+- title: Online Topology Identification of Higher-Order Cell Structures
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/mlsp62443.2025.11204205
   contributors:
-  - name: Rohan Money
+  - name: "Abdullah\t Canbolat"
     role: Creator
-  - name: Joshin Krishnan
+  - name: Rohan Thekkemarickal Money
     role: Creator
   - name: Baltasar Beferull-Lozano
     role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
+- title: 'Topological signal processing and learning: Recent advances and future challenges'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1016/j.sigpro.2025.109930
+  contributors:
   - name: Elvin Isufi
     role: Creator
+  - name: Geert Leus
+    role: Creator
+  - name: Baltasar Beferull-Lozano
+    role: Creator
+    slug: baltasar-beferull-lozano
+    url: /people/baltasar-beferull-lozano/
+  - name: Sergio Barbarossa
+    role: Creator
+  - name: Paolo Di Lorenzo
+    role: Creator
+- title: Proceedings of NORA’s annual conference 2025
+  year: '2025'
+  source: Conference abstract
+  group_type: Conference
+  url: https://doi.org/10.5617/nmi.12551
+  contributors:
+  - name: Geir Halnes
+    role: Creator
+  - name: Anam Javaid
+    role: Creator
+  - name: Michael Solvang
+    role: Creator
+  - name: Stefano Nichele
+    role: Creator
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
+  - name: Michael Riegler
+    role: Creator
+  - name: Bjørn-Jostein Singstad
+    role: Creator
+  - name: Baltasar Beferull-Lozano
+    role: Creator
+    slug: baltasar-beferull-lozano
+    url: /people/baltasar-beferull-lozano/
+  - name: Emilio Ruiz Moreno
+    role: Creator
+  - name: Luis M. Lopez-Ramos
+    role: Creator
+  - name: Mehrzad Abdi Khalife
+    role: Creator
+  - name: Ola Huse Ramstad
+    role: Creator
+  - name: Hamze Issa
+    role: Creator
+  - name: Arina Surko
+    role: Creator
+  - name: Axel Sandvig
+    role: Creator
+  - name: Hasan Ogul
+    role: Creator
+  - name: Daniele Fantin
+    role: Creator
+  - name: Ioanna Sandvig
+    role: Creator
+  - name: Christopher Vibe
+    role: Creator
+  - name: Kushtrim Visoka
+    role: Creator
+  - name: Mehdi HoushmandSarkhoosh
+    role: Creator
+  - name: Aaron de Leyos
+    role: Creator
+  - name: Sinan Ugur Umu
+    role: Creator
+  - name: Klaus Johannsen
+    role: Creator
+  - name: Kjetil Indrehus
+    role: Creator
+  - name: Malcom McMillan
+    role: Creator
+  - name: Julia Kropiunig
+    role: Creator
+  - name: Ryan Anthony Marinelli
+    role: Creator
+  - name: Fadi Al Machot
+    role: Creator
+  - name: Xue-Cheng Tai
+    role: Creator
+  - name: Andrea Alessandro Gasparini
+    role: Creator
+  - name: David Parkes
+    role: Creator
+  - name: Semra Oztemel Sari
+    role: Creator
+  - name: Gro Fonnes
+    role: Creator
+  - name: Cise Midoglu
+    role: Creator
+  - name: Anton Tkachenko
+    role: Creator
+  - name: Maria Bashir
+    role: Creator
+  - name: Kari-Anne Kallerud Lyng
+    role: Creator
+  - name: Florenc Demrozi
+    role: Creator
+  - name: Kate Briggs
+    role: Creator
+  - name: Junyong You
+    role: Creator
+  - name: Signe Riemer-Sørensen
+    role: Creator
+  - name: Benjamin Daniel Adolphi
+    role: Creator
+  - name: Martin Thomas Horsch
+    role: Creator
+  - name: Arangan Subramaniam
+    role: Creator
+  - name: Ibrahim Riza Hallac
+    role: Creator
+  - name: Lina Plataniti
+    role: Creator
+    slug: lina-plataniti
+    url: /people/lina-plataniti/
+  - name: Hao Liu
+    role: Creator
+  - name: Mikkel Elle Lepperød
+    role: Creator
+  - name: Changkyu Choi
+    role: Creator
+  - name: Preben Castberg
+    role: Creator
+  - name: Abdelaziz Qassi
+    role: Creator
+  - name: Raymond H. Chan
+    role: Creator
+  - name: Anja Stein
+    role: Creator
+  - name: Heinz Adolf Preisig
+    role: Creator
+  - name: Alexander Johannes Stasik
+    role: Creator
+  - name: Saeed Shafiee Sabet
+    role: Creator
+  - name: Nils Olav Handegard
+    role: Creator
+  - name: Robert Jenssen
+    role: Creator
+  - name: Solve Sæbø
+    role: Creator
+  - name: Synnøve Rubach
+    role: Creator
+  - name: Waldir Leoncio Netto
+    role: Creator
+  - name: Pankaj Pandey
+    role: Creator
+  - name: Jan Wuite
+    role: Creator
+  - name: Arezo Shakeri
+    role: Creator
+  - name: Shailendra Singh
+    role: Creator
+  - name: Ali Ramezani-Kebrya
+    role: Creator
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+  - name: Pål Halvorsen
+    role: Creator
+  - name: David S. Leslie
+    role: Creator
+  - name: Matteo Iervasi
+    role: Creator
+  - name: Mathis Korseberg Stokke
+    role: Creator
+  - name: Tomas Kupka
+    role: Creator
+  - name: Lingfeng Li
+    role: Creator
+  - name: Helge Fredriksen
+    role: Creator
+  - name: Shakiba Sadat Mirbagheri
+    role: Creator
+  - name: Ali Ramezanikebrya
+    role: Creator
+  - name: Jacob Alexander Hay
+    role: Creator
+  - name: Aslak Djupskås
+    role: Creator
+  - name: Mina FNorwayarmanbar
+    role: Creator
+  - name: Claudio Sartori
+    role: Creator
+  - name: Felix Simon Reimers
+    role: Creator
+  - name: Thomas Nagler
+    role: Creator
+  - name: Amber Leeson
+    role: Creator
+- title: A Data-driven Transfer Learning Method for Indoor Radio Map Estimation
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/tvt.2025.3609207
+  contributors:
+  - name: Rahul Kumar Jaiswal
+    role: Creator
+  - name: Mohamed Elnourani
+    role: Creator
+  - name: Siddharth Deshmukh
+    role: Creator
+  - name: Baltasar Beferull-Lozano
+    role: Creator
+    slug: baltasar-beferull-lozano
+    url: /people/baltasar-beferull-lozano/
+- title: Leveraging Transfer Learning for Radio Map Estimation via Mixture of Experts
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/TCCN.2025.3570469
+  contributors:
+  - name: Rahul Kumar Jaiswal
+    role: Creator
+  - name: Mohamed Elnourani
+    role: Creator
+  - name: Siddharth Deshmukh
+    role: Creator
+  - name: Baltasar Beferull-Lozano
+    role: Creator
+    slug: baltasar-beferull-lozano
+    url: /people/baltasar-beferull-lozano/
 - title: Simplicial Vector Autoregressive Models
   year: '2024'
   source: Journal article
@@ -140,65 +358,6 @@ selected_works:
   - name: Joshin Krishnan
     role: Creator
   - name: Rohan Money
-    role: Creator
-  - name: Baltasar Beferull-Lozano
-    role: Creator
-    slug: baltasar-beferull-lozano
-    url: /people/baltasar-beferull-lozano/
-  - name: Elvin Isufi
-    role: Creator
-- title: 'Enhancing Multi-Agent Reinforcement Learning: Set Function Approximation
-    and Dynamic Policy Adaptation'
-  year: '2023'
-  source: Book anthology
-  group_type: Book anthology
-  contributors:
-  - name: Jayant Singh
-    role: Creator
-  - name: Jing Zhou
-    role: Creator
-  - name: Baltasar Beferull-Lozano
-    role: Creator
-    slug: baltasar-beferull-lozano
-    url: /people/baltasar-beferull-lozano/
-- title: Risk-Aware Particle-Filtering for State Estimation in Recirculating Aquaculture
-    Systems
-  year: '2022'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Juan Cardenas-Cartagena
-    role: Creator
-  - name: Mohamed Elnourani
-    role: Creator
-  - name: Baltasar Beferull-Lozano
-    role: Creator
-    slug: baltasar-beferull-lozano
-    url: /people/baltasar-beferull-lozano/
-  - name: Daniel Romero
-    role: Creator
-- title: Resource Allocation for Underlay Interfering D2D Networks with Multi-antenna
-    and Imperfect CSI
-  year: '2022'
-  source: Journal article
-  group_type: Journal article
-  url: https://ieeexplore.ieee.org/document/9841599
-  contributors:
-  - name: Mohamed Elnourani
-    role: Creator
-  - name: Siddharth Deskmukh
-    role: Creator
-  - name: Baltasar Beferull-Lozano
-    role: Creator
-    slug: baltasar-beferull-lozano
-    url: /people/baltasar-beferull-lozano/
-- title: Quantization Analysis and Robust Design in Distributed Graph Filters
-  year: '2021'
-  source: Journal article
-  group_type: Journal article
-  url: https://ieeexplore.ieee.org/document/9665348
-  contributors:
-  - name: Leila Ben Saad
     role: Creator
   - name: Baltasar Beferull-Lozano
     role: Creator

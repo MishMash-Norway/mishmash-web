@@ -47,10 +47,25 @@ search_keywords:
 - User Experience
 - Human Engaged Computing
 selected_works:
+- title: Universal Design in Video Games
+  year: '2024'
+  source: Monograph
+  group_type: Monograph
+  url: https://link.springer.com/book/10.1007/978-3-031-30595-5#:~:text=Games%20with%20universal%20design%2C%20at,%2C%20options%2C%20and%20user%20experience.
+  contributors:
+  - name: Adam Palmquist
+    role: Creator
+  - name: Izabella Alexandra Victoria Jedel
+    role: Creator
+  - name: Ole Goethe
+    role: Creator
+    slug: ole-goethe
+    url: /people/ole-goethe/
 - title: Towards Attainable Game Experiences
   year: '2024'
-  source: Conference lecture
-  group_type: Conference
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1007/978-3-031-60695-3_16
   contributors:
   - name: Adam Palmquist
     role: Creator
@@ -69,6 +84,24 @@ selected_works:
     role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
+- title: Design Implications for a Gamified Recycling House
+  year: '2022'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-031-05637-6_18
+  contributors:
+  - name: Adam Palmquist
+    role: Creator
+  - name: Ole Goethe
+    role: Creator
+    slug: ole-goethe
+    url: /people/ole-goethe/
+  - name: Jeanine Krath
+    role: Creator
+  - name: Joacim Rosenlund
+    role: Creator
+  - name: Miralem Helmefalk
+    role: Creator
 - title: An Industry Experiment of Academic Performance and Drop-Out in Gamified Distance
     Education
   year: '2021'
@@ -104,6 +137,21 @@ selected_works:
     role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
+- title: The Effect or Non-effect of Virtual Versus Non-virtual Backgrounds in Digital
+    Learning
+  year: '2021'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-030-85540-6_35
+  contributors:
+  - name: Ole Goethe
+    role: Creator
+    slug: ole-goethe
+    url: /people/ole-goethe/
+  - name: Hanne Sørum
+    role: Creator
+  - name: Jannicke Johansen
+    role: Creator
 - title: 'Gamification for Good: Addressing Dark Patterns in Gamified UX Design'
   year: '2020'
   source: Book chapter
@@ -113,53 +161,28 @@ selected_works:
     role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
-- title: 'From Aggregation to Navigation: Large Image Collections Seeking and Exploration'
-  year: '2019'
+- title: Approaching Instant Messaging (IM) by Connecting Usage Scenario and User
+    Interaction for More Meaningful Notification
+  year: '2020'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.1007/978-3-030-25629-6_3
   contributors:
   - name: Ole Goethe
     role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
-- title: Practice and Value Aspects of Indie Game Development in Norway and Beyond
-  year: '2019'
-  source: Conference lecture
-  group_type: Conference
+- title: Broader Understanding of Gamification by Addressing Ethics and Diversity
+  year: '2020'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1007/978-3-030-60128-7_50
   contributors:
   - name: Ole Goethe
     role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
-- title: Gamification Mindset
-  year: '2019'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Ole Goethe
+  - name: Adam Palmquist
     role: Creator
-    slug: ole-goethe
-    url: /people/ole-goethe/
-- title: 'Picturemarks: Changes in Mining Media and Digital Storytelling'
-  year: '2018'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1007/978-3-319-92052-8_37
-  contributors:
-  - name: Ole Goethe
-    role: Creator
-    slug: ole-goethe
-    url: /people/ole-goethe/
-- title: 'Video Game (AAA): Blue Estate'
-  year: '2014'
-  source: Visual arts
-  group_type: Visual arts
-  contributors:
-  - name: Ole Goethe
-    role: Artist
-    slug: ole-goethe
-    url: /people/ole-goethe/
 source_mentions: []
 summary: 'Ole Goethe (born December 26, 1975), a Norwegian researcher and product
   designer at Kristiania University, NTNU and Nord University. His research is concerning

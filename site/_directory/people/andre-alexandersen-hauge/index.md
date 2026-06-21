@@ -142,6 +142,30 @@ selected_works:
     url: /people/andre-alexandersen-hauge/
   - name: Ketil Stølen
     role: Creator
+- title: A pattern-based method for safe control conceptualisation exemplified within
+    railway signalling. HWR-1037
+  year: '2014'
+  source: Research report
+  group_type: Research report
+  contributors:
+  - name: André A Hauge
+    role: Creator
+    slug: andre-alexandersen-hauge
+    url: /people/andre-alexandersen-hauge/
+  - name: Ketil Stølen
+    role: Creator
+- title: A pattern-based method for safe control conceptualisation exemplified within
+    nuclear power production. HWR-1029
+  year: '2014'
+  source: Research report
+  group_type: Research report
+  contributors:
+  - name: André A Hauge
+    role: Creator
+    slug: andre-alexandersen-hauge
+    url: /people/andre-alexandersen-hauge/
+  - name: Ketil Stølen
+    role: Creator
 - title: Developing Safe Control Systems using Patterns for Assurance
   year: '2013'
   source: Book chapter
@@ -151,32 +175,6 @@ selected_works:
     role: Creator
     slug: andre-alexandersen-hauge
     url: /people/andre-alexandersen-hauge/
-  - name: Ketil Stølen
-    role: Creator
-- title: SACS — A Pattern Language for Safe Adaptive Control Software
-  year: '2011'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/2578903.2579145
-  contributors:
-  - name: André A Hauge
-    role: Creator
-    slug: andre-alexandersen-hauge
-    url: /people/andre-alexandersen-hauge/
-  - name: Ketil Stølen
-    role: Creator
-- title: Method for assuring that self-imposed changes made by adaptive systems do
-    not compromise safety
-  year: '2010'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: André A Hauge
-    role: Creator
-    slug: andre-alexandersen-hauge
-    url: /people/andre-alexandersen-hauge/
-  - name: Terje Sivertsen
-    role: Creator
   - name: Ketil Stølen
     role: Creator
 source_mentions:

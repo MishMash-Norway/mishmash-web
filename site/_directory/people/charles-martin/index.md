@@ -29,6 +29,110 @@ tags:
 search_keywords:
 - Music Technology
 selected_works:
+- title: Embodying an Interactive AI for Dance Through Movement Ideation
+  year: '2023'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://dl.acm.org/doi/pdf/10.1145/3591196.3593336
+  contributors:
+  - name: Benedikte Wallace
+    role: Creator
+  - name: C. Hilton
+    role: Creator
+  - name: Kristian Nymoen
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Charles Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Rebecca Fiebrink
+    role: Creator
+- title: Real-world embodied AI through a morphologically adaptive quadruped robot
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://www.nature.com/articles/s42256-021-00320-3
+  contributors:
+  - name: Tønnes Nygaard
+    role: Creator
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: David Howard
+    role: Creator
+- title: Exploring the Effect of Sampling Strategy on Movement Generation with Generative
+    Neural Networks
+  year: '2021'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-030-72914-1_23
+  contributors:
+  - name: Benedikte Wallace
+    role: Creator
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Kristian Nymoen
+    role: Creator
+- title: 'Learning Embodied Sound-Motion Mappings: Evaluating AI-Generated Dance Improvisation'
+  year: '2021'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://dl.acm.org/doi/pdf/10.1145/3450741.3465245
+  contributors:
+  - name: Benedikte Wallace
+    role: Creator
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Kristian Nymoen
+    role: Creator
+- title: Environmental Adaptation of Robot Morphology and Control Through Real-world
+    Evolution
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1162/evco_a_00291
+  contributors:
+  - name: Tønnes Nygaard
+    role: Creator
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: David Howard
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
 - title: 'Towards Playing in the ''Air'': Modeling Motion-Sound Energy Relationships
     in Electric Guitar Performance Using Deep Neural Networks'
   year: '2020'
@@ -56,6 +160,41 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
+- title: Data-Driven Analysis of Tiny Touchscreen Performance with MicroJam
+  year: '2020'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1162/comj_a_00536
+  contributors:
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+- title: Understanding Musical Predictions With an Embodied Interface for Musical
+    Machine Learning
+  year: '2020'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5281/zenodo.3451729
+  contributors:
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: Tønnes Nygaard
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: Generating Convincing Harmony Parts with Simple Long Short-Term Memory Networks
   year: '2019'
   source: Book chapter
@@ -84,123 +223,6 @@ selected_works:
   contributors:
   - name: Torgrim Rudland Næss
     role: Creator
-  - name: Charles Patrick Martin
-    role: Creator
-    slug: charles-martin
-    url: /people/charles-martin/
-- title: An Interactive Musical Prediction System with Mixture Density Recurrent Neural
-    Networks
-  year: '2019'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://www.researchgate.net/publication/333718481_An_Interactive_Musical_Prediction_System_with_Mixture_Density_Recurrent_Neural_Networks
-  contributors:
-  - name: Charles Patrick Martin
-    role: Creator
-    slug: charles-martin
-    url: /people/charles-martin/
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-- title: 'Experiences from Real-World Evolution with DyRET: Dynamic Robot for Embodied
-    Testing'
-  year: '2019'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1007/978-3-030-35664-4_6
-  contributors:
-  - name: Tønnes Frostad Nygaard
-    role: Creator
-  - name: Jørgen Halvorsen Nordmoen
-    role: Creator
-  - name: Kai Olav Ellefsen
-    role: Creator
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
-  - name: Charles Patrick Martin
-    role: Creator
-    slug: charles-martin
-    url: /people/charles-martin/
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-- title: Self-Awareness in a Cyber-Physical Predictive Musical Interface
-  year: '2018'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Charles Patrick Martin
-    role: Creator
-    slug: charles-martin
-    url: /people/charles-martin/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Tønnes Frostad Nygaard
-    role: Creator
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-- title: Exploring Mechanically Self-Reconfiguring Robots for Autonomous Design
-  year: '2018'
-  source: Conference lecture
-  group_type: Conference
-  url: https://arxiv.org/abs/1805.02965
-  contributors:
-  - name: Tønnes Frostad Nygaard
-    role: Creator
-  - name: Charles Patrick Martin
-    role: Creator
-    slug: charles-martin
-    url: /people/charles-martin/
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-- title: Predictive Music Systems for Interactive Performance
-  year: '2018'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Charles Patrick Martin
-    role: Creator
-    slug: charles-martin
-    url: /people/charles-martin/
-- title: Creative Prediction with Neural Networks
-  year: '2018'
-  source: Conference lecture
-  group_type: Conference
-  url: https://cpmpercussion.github.io/creative-prediction/
-  contributors:
-  - name: Charles Patrick Martin
-    role: Creator
-    slug: charles-martin
-    url: /people/charles-martin/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-- title: Virtuosic Interactions / Performing with a Neural iPad Band
-  year: '2017'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
   - name: Charles Patrick Martin
     role: Creator
     slug: charles-martin

@@ -31,28 +31,6 @@ search_keywords:
 - Creative industry
 - Strategic leadership
 selected_works:
-- title: 'Fra lesesal til lønnsslipp: arbeidsrelevans i bransjestudier'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Terje Gaustad
-    role: RoleOther
-    slug: terje-gaustad
-    url: /people/terje-gaustad/
-- title: 'Balancing Tradition and Transformation in PSB: Resilience in TV Formats'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Terje Gaustad
-    role: Creator
-    slug: terje-gaustad
-    url: /people/terje-gaustad/
-  - name: Arne H. Krumsvik
-    role: Creator
-  - name: Sarah Joy Lyons
-    role: Creator
 - title: 'Pengestrømmer og verdikjeder i musikkfeltet: Aktører, tjenester, betalinger
     og utviklingstrekk'
   year: '2025'
@@ -75,19 +53,25 @@ selected_works:
     url: /people/terje-gaustad/
   - name: Inga Ørving Aasen
     role: Creator
-- title: 'The value of connecting emotionally with the world: Training identification
-    and empathy'
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
+- title: 'Kompetanse og kapasitet i filmbransjen: En kartlegging av dagens tilstand,
+    utviklingen over tid og fremtidsutsikter'
+  year: '2025'
+  source: Research report
+  group_type: Research report
   contributors:
+  - name: Leo Grünfeld
+    role: Creator
+  - name: Erika Minerva Karttinen
+    role: Creator
   - name: Terje Gaustad
     role: Creator
     slug: terje-gaustad
     url: /people/terje-gaustad/
-  - name: Gabriel Paletz
+  - name: Aljoscha Schöpfer
     role: Creator
-  - name: Lukas Erni
+  - name: Trygve Leithe Svalheim
+    role: Creator
+  - name: Ada Lunde
     role: Creator
 - title: Velg dine fiender med omhu
   year: '2024'
@@ -98,49 +82,55 @@ selected_works:
     role: Creator
     slug: terje-gaustad
     url: /people/terje-gaustad/
-- title: Opphavsrett, håndheving og mangfold
-  year: '2021'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Irina Eidsvold-Tøien
-    role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
-  - name: Terje Gaustad
-    role: Creator
-    slug: terje-gaustad
-    url: /people/terje-gaustad/
-- title: Economic Concequenses of Nuances in National Implementationn of International
-    Law
-  year: '2019'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Irina  Eidsvold-Tøien
-    role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
-  - name: Terje Gaustad
-    role: Creator
-    slug: terje-gaustad
-    url: /people/terje-gaustad/
-- title: 'New Faculty Roles in Online Education: the Professor as Writer, Director,
-    Actor and Producer?'
-  year: '2017'
-  source: Conference lecture
-  group_type: Conference
+- title: For å vinne en debatt må du velge rett motstander
+  year: '2024'
+  source: Popular science article
+  group_type: Popular science article
+  url: https://www.forskersonen.no/debatt-laks-likestilling/for-a-vinne-en-debatt-ma-du-velge-rett-motstander/2413769
   contributors:
   - name: Terje Gaustad
     role: Creator
     slug: terje-gaustad
     url: /people/terje-gaustad/
-  - name: Donatella De Paoli
+- title: 'Strømmetjenestene: hvor mye bør de som lager filmene og seriene tjene?'
+  year: '2023'
+  source: Popular science article
+  group_type: Popular science article
+  contributors:
+  - name: Terje Gaustad
     role: Creator
-- title: Digitalt kulturkonsum - en norsk studie
-  year: '2012'
+    slug: terje-gaustad
+    url: /people/terje-gaustad/
+- title: Når publikum er fienden
+  year: '2023'
+  source: Popular science article
+  group_type: Popular science article
+  contributors:
+  - name: Terje Gaustad
+    role: Creator
+    slug: terje-gaustad
+    url: /people/terje-gaustad/
+- title: 'Evaluation Report: Nordisk Film & TV Fond'
+  year: '2023'
   source: Research report
   group_type: Research report
+  contributors:
+  - name: Terje Gaustad
+    role: Creator
+    slug: terje-gaustad
+    url: /people/terje-gaustad/
+  - name: Audun Engelstad
+    role: Creator
+  - name: Embla Elisabeth Skurtveit
+    role: Creator
+  - name: Leo A. Grünfeld
+    role: Creator
+- title: Digitizing Cinemas – Comprehensive Intended and Unintended Consequences for
+    Diversity
+  year: '2022'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1080/10632921.2021.2018374
   contributors:
   - name: Anne-Britt Gran
     role: Creator
@@ -148,20 +138,39 @@ selected_works:
     role: Creator
     slug: terje-gaustad
     url: /people/terje-gaustad/
-  - name: Audun Molde
-    role: Creator
-  - name: Anitra Guddal Figenschou
-    role: Creator
-- title: The Problem of Excludability for Media and Entertainment Products in New
-    Electronic Market Channels
-  year: '2002'
-  source: Journal article
-  group_type: Journal article
+- title: 'Nye regler for tilskudd til film- og TV-produksjon: Hva blir konsekvensene
+    for næringen?'
+  year: '2022'
+  source: Research report
+  group_type: Research report
   contributors:
   - name: Terje Gaustad
     role: Creator
     slug: terje-gaustad
     url: /people/terje-gaustad/
+  - name: Audun Engelstad
+    role: Creator
+  - name: Henrik Foseid
+    role: Creator
+  - name: Ine Lading
+    role: Creator
+  - name: Leo A. Grünfeld
+    role: Creator
+- title: Evaluering av Viken filmsenters tilskuddsordning for audiovisuelle verk
+  year: '2022'
+  source: Research report
+  group_type: Research report
+  contributors:
+  - name: Terje Gaustad
+    role: Creator
+    slug: terje-gaustad
+    url: /people/terje-gaustad/
+  - name: Audun Engelstad
+    role: Creator
+  - name: Ada Lunde
+    role: Creator
+  - name: Leo A. Grünfeld
+    role: Creator
 source_mentions: []
 summary: null
 permalink: /people/terje-gaustad/

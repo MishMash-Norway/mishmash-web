@@ -62,18 +62,6 @@ selected_works:
     role: DataManager
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
-- title: '"The Peder Rafn-Project". Reading a 16th & 17th Century Collection of Danish
-    Norwegian and German Broadsheet ballads in Transkribus'
-  year: '2022'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Trond Haugen
-    role: Creator
-  - name: Yngvil Beyer
-    role: Creator
-    slug: yngvil-beyer
-    url: /people/yngvil-beyer/
 - title: A Comprehensive Comparison of Open-Source Libraries for Handwritten Text
     Recognition in Norwegian
   year: '2022'
@@ -104,6 +92,35 @@ selected_works:
     url: /people/yngvil-beyer/
   - name: Andre Kåsen
     role: Creator
+- title: 'Din hengivne: fulltekstssøk i håndskrifter'
+  year: '2022'
+  source: Popular science article
+  group_type: Popular science article
+  contributors:
+  - name: Yngvil Beyer
+    role: Creator
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
+  - name: Andre Kåsen
+    role: Creator
+- title: 'Christiane Koren: Reisedagbok fra turen til Danmark 1802'
+  year: '2019'
+  source: Non-fiction book
+  group_type: Non-fiction book
+  contributors:
+  - name: Yngvil Beyer
+    role: Editor
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
+- title: 'Christiane Koren: Reisedagbok fra turen til Hurdalen 1798'
+  year: '2018'
+  source: Non-fiction book
+  group_type: Non-fiction book
+  contributors:
+  - name: Yngvil Beyer
+    role: Editor
+    slug: yngvil-beyer
+    url: /people/yngvil-beyer/
 - title: 'Christiane Koren: Dagbok 1809'
   year: '2017'
   source: Non-fiction book
@@ -122,17 +139,8 @@ selected_works:
     role: Editor
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
-- title: Christiane Koren. Dagbok 1814
-  year: '2016'
-  source: Popular science book
-  group_type: Popular science book
-  contributors:
-  - name: Yngvil Beyer
-    role: Editor
-    slug: yngvil-beyer
-    url: /people/yngvil-beyer/
-- title: 'Christiane Koren: Reisedagbok for turen til Kongsberg 1805'
-  year: '2016'
+- title: 'Christiane Koren: Dagbok 1812'
+  year: '2017'
   source: Non-fiction book
   group_type: Non-fiction book
   contributors:
@@ -140,22 +148,6 @@ selected_works:
     role: Editor
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
-- title: 'Small talk makes a big difference: recent developments in interactive, SMS-based
-    television'
-  year: '2007'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Yngvil Beyer
-    role: Creator
-    slug: yngvil-beyer
-    url: /people/yngvil-beyer/
-  - name: Gunn Enli
-    role: Creator
-  - name: Arnt Maasø
-    role: Creator
-  - name: Espen Ytreberg
-    role: Creator
 source_mentions:
 - about/organisation/council/index.md
 summary: null

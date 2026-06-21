@@ -135,44 +135,11 @@ selected_works:
     role: Editor
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
-- title: 'MusiQAl: Music Question Answering through Audio-Video fusion'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://ismir2025.ismir.net/program-detailed-schedule
-  contributors:
-  - name: Anna-Maria Christodoulou
-    role: Creator
-    slug: anna-maria-christodoulou
-    url: /people/anna-maria-christodoulou/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Olivier Lartillot
-    role: Creator
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: The Benefits of Multimodal MIR in Computational Analysis of Music Therapy
-    Improvisation
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://ifas.thws.de/fileadmin/user_upload/250917_HIGH-M_Symposium_Programme_updated.pdf
-  contributors:
-  - name: Anna-Maria Christodoulou
-    role: Creator
-    slug: anna-maria-christodoulou
-    url: /people/anna-maria-christodoulou/
 - title: A Multimodal Dataset of Greek Folk Music
   year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://dlfm.web.ox.ac.uk/2025-programme
+  source: Book chapter
+  group_type: Book chapter
+  url: https://dl.acm.org/doi/10.1145/3748336.3748339
   contributors:
   - name: Anna-Maria Christodoulou
     role: Creator
@@ -223,6 +190,49 @@ selected_works:
     role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
+- title: Exploring Convolutional Neural Network Models for Multimodal Classification
+    of Expressive Piano Performance
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://zenodo.org/records/13918961
+  contributors:
+  - name: Anna-Maria Christodoulou
+    role: Creator
+    slug: anna-maria-christodoulou
+    url: /people/anna-maria-christodoulou/
+  - name: Sagar Dutta
+    role: Creator
+  - name: Olivier Serge Gabriel Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: Multimodal music datasets? Challenges and future goals in music processing
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1007/s13735-024-00344-6
+  contributors:
+  - name: Anna-Maria Christodoulou
+    role: Creator
+    slug: anna-maria-christodoulou
+    url: /people/anna-maria-christodoulou/
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 source_mentions: []
 wps:
 - WP6

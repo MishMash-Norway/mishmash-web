@@ -136,24 +136,6 @@ selected_works:
     url: /people/victoria-johnson/
   - name: Maja Roel
     role: Artist
-- title: 'Sverm: foreløpige resultater'
-  year: '2012'
-  source: Conference lecture
-  group_type: Conference
-  url: http://www.fourms.uio.no/activities/2012/sverm-seminar.html
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kari Anne Vadstensvik Bjerkestrand
-    role: Creator
-  - name: Victoria Johnson
-    role: Creator
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-  - name: Lisa Dillan
-    role: Creator
 - title: 'Sverm: et mikrounivers av dans og musikk'
   year: '2012'
   source: Music performance
@@ -189,30 +171,57 @@ selected_works:
     role: Creator
     slug: victoria-johnson
     url: /people/victoria-johnson/
-- title: A video based analysis system for realtime control of concatenative sound
-    synthesis and spatialisation
-  year: '2010'
-  source: Book chapter
-  group_type: Book chapter
-  url: http://urn.nb.no/URN:NBN:no-28129
+- title: Microsounds
+  year: '2012'
+  source: Film or video
+  group_type: Film or video
+  url: https://vimeo.com/52656574
   contributors:
+  - name: Lavasir Nordrum
+    role: AcademicCoordinator
   - name: Alexander Refsum Jensenius
-    role: Creator
+    role: AcademicCoordinator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
+  - name: Kari Anne Vadstensvik Bjerkestrand
+    role: AcademicCoordinator
   - name: Victoria Johnson
-    role: Creator
+    role: AcademicCoordinator
     slug: victoria-johnson
     url: /people/victoria-johnson/
-- title: No Reason - Aftermath
-  year: '2010'
-  source: Music performance
-  group_type: Music performance
+- title: Micromovements
+  year: '2012'
+  source: Film or video
+  group_type: Film or video
+  url: https://vimeo.com/50569862
   contributors:
-  - name: Thomas T. Dahl
-    role: Composer
-  - name: Victoria Kristine Å Johnson
-    role: Artist
+  - name: Lavasir Nordrum
+    role: AcademicCoordinator
+  - name: Alexander Refsum Jensenius
+    role: AcademicCoordinator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Kari Anne Vadstensvik Bjerkestrand
+    role: AcademicCoordinator
+  - name: Victoria Johnson
+    role: AcademicCoordinator
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+- title: Resonance
+  year: '2012'
+  source: Film or video
+  group_type: Film or video
+  contributors:
+  - name: Lavasir Nordrum
+    role: AcademicCoordinator
+  - name: Alexander Refsum Jensenius
+    role: AcademicCoordinator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Kari Anne Vadstensvik Bjerkestrand
+    role: AcademicCoordinator
+  - name: Victoria Johnson
+    role: AcademicCoordinator
     slug: victoria-johnson
     url: /people/victoria-johnson/
 source_mentions: []

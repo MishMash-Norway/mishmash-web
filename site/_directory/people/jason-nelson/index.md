@@ -33,20 +33,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Research as a creative practice
-  year: '2026'
-  source: Conference lecture
-  group_type: Conference
-  url: https://www4.uib.no/en/research/research-centres/center-for-digital-narrative/events/cdn-equinox
-  contributors:
-  - name: Jason Nelson
-    role: RoleOther
-    slug: jason-nelson
-    url: /people/jason-nelson/
-  - name: Alinta Krauth
-    role: RoleOther
-  - name: Lina Ruth Harder
-    role: RoleOther
 - title: Drift Vector Field
   year: '2025'
   source: Visual arts
@@ -126,33 +112,41 @@ selected_works:
     role: Creator
     slug: jason-nelson
     url: /people/jason-nelson/
-- title: 'AIwriting: Text to Image Generation as a Mode of Digital Narrative'
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Scott Robert Rettberg
-    role: Creator
-  - name: Walter Jason Nelson
-    role: Creator
-    slug: jason-nelson
-    url: /people/jason-nelson/
-  - name: Jill Walker Rettberg
-    role: Creator
-  - name: Patrick Lichty
-    role: Creator
-  - name: Talan Memmott
-    role: Creator
-- title: The Many Occasions of Moving
-  year: '2022'
+- title: "‘Entirely Every Forever’. Queen’s Wharf Brisbane public\r\nAugmented Reality\
+    \ media artwork and digital narrative"
+  year: '2024'
   source: Visual arts
   group_type: Visual arts
-  url: https://www.dpoetry.com/moving2/
+  contributors:
+  - name: Jason Nelson
+    role: Artist
+    slug: jason-nelson
+    url: /people/jason-nelson/
+  - name: Alinta Kiri Krauth
+    role: Artist
+- title: '‘Versos Codificados: La poesia creada con Inteligencia Artificial’'
+  year: '2024'
+  source: Visual arts
+  group_type: Visual arts
   contributors:
   - name: Walter Jason Nelson
     role: Artist
     slug: jason-nelson
     url: /people/jason-nelson/
+  - name: Alinta Kiri Krauth
+    role: Artist
+- title: 'A(I)nimal-centred AI Jam: Design Fictions for Positive Multispecies Futures'
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3637882.3637903
+  contributors:
+  - name: Walter Jason Nelson
+    role: Creator
+    slug: jason-nelson
+    url: /people/jason-nelson/
+  - name: Alinta Kiri Krauth
+    role: Creator
 source_mentions: []
 summary: null
 permalink: /people/jason-nelson/

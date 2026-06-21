@@ -186,8 +186,17 @@ selected_works:
     role: AudioVisualContributor
   - name: Stein Tore Sønsteli
     role: CollaborationPartner
-- title: Elektroakustisk Trondheim i Planetariet vol. 3
-  year: '2023'
+- title: Lento o Tempo Muda em Poço do Canto / Slow Time Change in Poço do Canto
+  year: '2024'
+  source: Non-fiction chapter
+  group_type: Non-fiction chapter
+  contributors:
+  - name: Trond Lossius
+    role: Creator
+    slug: trond-lossius
+    url: /people/trond-lossius/
+- title: Drift studies (Clouds)
+  year: '2024'
   source: Music performance
   group_type: Music performance
   contributors:
@@ -195,24 +204,6 @@ selected_works:
     role: Composer
     slug: trond-lossius
     url: /people/trond-lossius/
-- title: Flexible Control of Composite Parameters in Max/MSP
-  year: '2008'
-  source: Conference lecture
-  group_type: Conference
-  url: http://www.duo.uio.no/sok/work.html?WORKID=86094&fid=44545
-  contributors:
-  - name: Timothy Place
-    role: Creator
-  - name: Trond Lossius
-    role: Creator
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Nils Peters
-    role: Creator
 source_mentions: []
 summary: "Trond Lossius is a sound and installation artist based in Bergen, Norway.\
   \ His projects investigate sound, place and space, using sound spatialisation and\

@@ -35,28 +35,16 @@ selected_works:
     role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
-- title: Situasjonen for religionsfagene
-  year: '2026'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Årstein Justnes
-    role: Creator
-    slug: arstein-justnes
-    url: /people/arstein-justnes/
-- title: Ad fontes! Ad fragmenta! Reinventing the Dead Sea Scrolls
+- title: Ultimately Not Important? The Publication of the Post-2002 Dead Sea Scrolls-Like
+    Fragments
   year: '2025'
-  source: Conference lecture
-  group_type: Conference
+  source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Årstein Justnes
     role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
-  - name: Hilda Deborah
-    role: Creator
-    slug: hilda-deborah
-    url: /people/hilda-deborah/
 - title: From Qumran Caves to Swiss Vaults Unprovenanced Dead Sea Scrolls-Like Fragments
     and Transformative Travels
   year: '2024'
@@ -68,62 +56,89 @@ selected_works:
     role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
-- title: Dødehavsrullene i bilder - og i endring
-  year: '2021'
+- title: Ghost Scrolls—Rumoured and Longed-for Dead Sea Scrolls
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://www.tandfonline.com/doi/epdf/10.1080/09018328.2024.2341784
+  contributors:
+  - name: Årstein Justnes
+    role: Creator
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
+- title: A Database of Post-2002 Dead Sea Scrolls-like Fragments
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5334/johd.140
+  contributors:
+  - name: Ludvik Andreas Kjeldsberg
+    role: Creator
+  - name: Årstein Justnes
+    role: Creator
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
+  - name: Hilda Deborah
+    role: Creator
+    slug: hilda-deborah
+    url: /people/hilda-deborah/
+- title: 'Provenance and the Dead Sea Scrolls: Five Examples'
+  year: '2023'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Årstein Justnes
+    role: Creator
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
+- title: Vitenskapelig assistent i The Lying Pen of Scribes
+  year: '2023'
   source: Research report
   group_type: Research report
+  url: https://www.uia.no/studenter-i-forskningsprosjekt/vitenskapelig-assistent-i-the-lying-pen-of-scribes
   contributors:
+  - name: Andreas Thorsen Lie
+    role: Creator
   - name: Årstein Justnes
     role: Editor
     slug: arstein-justnes
     url: /people/arstein-justnes/
-  - name: Martin S. Stomnås
-    role: Creator
-- title: Dødehavsrullene: hemmeligheten(e) i hulen(e)
-  year: '2014'
-  source: Conference lecture
-  group_type: Conference
+- title: '“Much Clean Paper for Little Dirty Paper”: The Market for Dead Sea Scrolls
+    in the Twenty-First Century'
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.30965/21967954-bja10043
   contributors:
   - name: Årstein Justnes
     role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
-- title: Retreat med minfulness
-  year: '2013'
-  source: Conference poster
-  group_type: Conference
+  - name: Ludvik A. Kjeldsberg
+    role: Creator
+- title: 'Introduction: The Market for Jewish Antiquities'
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.30965/21967954-bja10044
+  contributors:
+  - name: Michael David Press
+    role: Creator
+  - name: Årstein Justnes
+    role: Creator
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
+- title: 'Missing: Have You Seen These Scrolls?'
+  year: '2022'
+  source: Popular science article
+  group_type: Popular science article
   contributors:
   - name: Årstein Justnes
     role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
-- title: Bibelen - mellom hellig skrift og stor litteratur
-  year: '2013'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Årstein Justnes
+  - name: Signe Marie Hægeland
     role: Creator
-    slug: arstein-justnes
-    url: /people/arstein-justnes/
-- title: 'Kunsten å være nybegynner: En bok om mindfulness/oppmerksomhetstrening'
-  year: '2013'
-  source: Working paper
-  group_type: Working paper
-  contributors:
-  - name: Årstein Justnes
-    role: Creator
-    slug: arstein-justnes
-    url: /people/arstein-justnes/
-- title: Språksituasjonen i Palestina i det første århundre e. Kr
-  year: '1999'
-  source: Working paper
-  group_type: Working paper
-  contributors:
-  - name: Årstein Justnes
-    role: Creator
-    slug: arstein-justnes
-    url: /people/arstein-justnes/
 source_mentions: []
 summary: null
 wps:

@@ -134,11 +134,39 @@ selected_works:
     role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
-- title: Physics-informed differentiable method for piano modeling
-  year: '2024'
+- title: A Universal Tool for Generating Datasets from Sound Synthesizers
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.15838159
+  contributors:
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+- title: An Interactive Self-Assembly Swarm Music System in Extended Reality
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3771594.3771620
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Alexander Szorkovszky
+    role: Creator
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+- title: Modeling Time-Variant Responses of Optical Compressors With Selective State
+    Space Models
+  year: '2025'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.3389/frsip.2023.1276748
   contributors:
   - name: Riccardo Simionato
     role: Creator
@@ -146,70 +174,28 @@ selected_works:
     role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
-  - name: Sverre Holm
-    role: Creator
-- title: 'Self-Assembly and Synchronization: Crafting Music with Multi-Agent Embodied
-    Oscillators'
-  year: '2024'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/ACSOS61780.2024.00034
-  contributors:
-  - name: Pedro Pablo Lucas Bravo
-    role: Creator
-  - name: Alexander Szorkovszky
-    role: Creator
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-- title: 'The Feedback Mop Cello: An Instrument for Interacting with Acoustic Feedback
-    Loops'
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Hugh Alexander von Arnim
-    role: Creator
-    slug: hugh-alexander-von-arnim
-    url: /people/hugh-alexander-von-arnim/
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-- title: Towards a High-Performance Platform for Sonic Interaction Interfaces
-  year: '2019'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/zenodo.3249278
-  contributors:
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Manohar Vohra
-    role: Creator
-- title: Vocal control of sound synthesis personalized by unsupervised machine listening
-    and learning
-  year: '2018'
+- title: Neural Sample-Based Piano Synthesis
+  year: '2025'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.1162/comj_a_00450
   contributors:
+  - name: Riccardo Simionato
+    role: Creator
   - name: Stefano Fasciani
     role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
-  - name: Lonce Wyse
+- title: Towards Neural Emulation of Voltage-Controlled Oscillators
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Riccardo Simionato
     role: Creator
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
 source_mentions: []
 summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learning,
   Music Technology.

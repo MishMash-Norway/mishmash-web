@@ -81,33 +81,6 @@ selected_works:
     url: /people/kjetil-nordby/
   - name: Bjørn Sætrevik
     role: Creator
-- title: Open user experience design - The next generation bridge
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Kjetil Nordby
-    role: Creator
-    slug: kjetil-nordby
-    url: /people/kjetil-nordby/
-- title: OpenBridge
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Kjetil Nordby
-    role: Creator
-    slug: kjetil-nordby
-    url: /people/kjetil-nordby/
-- title: Designing for Next-Generation Remote Operation centers
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Kjetil Nordby
-    role: Creator
-    slug: kjetil-nordby
-    url: /people/kjetil-nordby/
 - title: OpenBridge 6.0 Automation Case
   year: '2025'
   source: Design
@@ -172,15 +145,65 @@ selected_works:
     url: /people/kjetil-nordby/
   - name: Jon Erling Fauske
     role: Designer
-- title: OpenBridge research presentation
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
+- title: OpenBridge 6.0 Maritime Instruments
+  year: '2025'
+  source: Design
+  group_type: Design
+  url: https://www.figma.com/community/file/1553397820114536880/openbridge-6-0-maritime-instruments
   contributors:
+  - name: Jon Erling Fauske
+    role: Designer
+  - name: Kjetil Nordby
+    role: CuratorOrganizer
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+- title: OpenBridge 6.0 AR framework
+  year: '2025'
+  source: Design
+  group_type: Design
+  url: https://www.figma.com/community/file/1539167811791910040/openbridge-6-0-ar-framework
+  contributors:
+  - name: Jon Erling Fauske
+    role: Designer
+  - name: Kjetil Nordby
+    role: CuratorOrganizer
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+- title: OpenBridge 6.0
+  year: '2025'
+  source: Design
+  group_type: Design
+  url: https://www.figma.com/community/file/1468161149546275705/openbridge-design-system-6-0-maritime-industrial-ui-ux-components
+  contributors:
+  - name: Jon Erling Fauske
+    role: Designer
+  - name: Kjetil Nordby
+    role: CuratorOrganizer
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+  - name: hanne lockertsen
+    role: Designer
+  - name: Sunniva Wildhagen Lislevand
+    role: Designer
+- title: A Systematic Curriculum Review of Ship Energy Efficiency Content Across Global
+    Maritime Education and Training Institutions
+  year: '2025'
+  source: Literature review
+  group_type: Literature review
+  url: https://doi.org/10.54941/ahfe1006546
+  contributors:
+  - name: Gift Bassey
+    role: Creator
+  - name: Susan Ebaretonbofa-okonji
+    role: Creator
   - name: Kjetil Nordby
     role: Creator
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
+  - name: Etienne Gernez
+    role: Creator
+  - name: Steven Mallam
+    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

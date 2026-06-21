@@ -136,32 +136,32 @@ selected_works:
     role: Soloist
     slug: daniel-peter-biro
     url: /people/daniel-peter-biro/
-- title: In Nono's Footsteps
+- title: Complete Works for Strings
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Daniel Peter Biro
+    role: Composer
+    slug: daniel-peter-biro
+    url: /people/daniel-peter-biro/
+- title: Omaggio a György Kurtág
   year: '2024'
-  source: Conference lecture
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Daniel Peter Biro
+    role: Artist
+    slug: daniel-peter-biro
+    url: /people/daniel-peter-biro/
+- title: 'Divine Rationality: Computational Transcription of Chants and Parametric
+    Structuring in Historicized Composition'
+  year: '2024'
+  source: Conference poster
   group_type: Conference
-  url: https://www.researchcatalogue.net/view/3552879/3552878
   contributors:
   - name: Daniel Peter Biro
-    role: RoleOther
-    slug: daniel-peter-biro
-    url: /people/daniel-peter-biro/
-- title: At in numeris simplicissimis
-  year: '2021'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Daniel Peter Biro
-    role: Composer
-    slug: daniel-peter-biro
-    url: /people/daniel-peter-biro/
-- title: Sokharim for 5 Voices and % String Instruments
-  year: '2021'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Daniel Peter Biro
-    role: Composer
+    role: Creator
     slug: daniel-peter-biro
     url: /people/daniel-peter-biro/
 source_mentions: []

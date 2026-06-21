@@ -101,20 +101,6 @@ selected_works:
     role: Artist
     slug: anders-tveit
     url: /people/anders-tveit/
-- title: Lær kidsa musikkoding
-  year: '2015'
-  source: Conference lecture
-  group_type: Conference
-  url: http://site.uit.no/musikkteknologidagene15/
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Anders Tveit
-    role: Creator
-    slug: anders-tveit
-    url: /people/anders-tveit/
 - title: OMO på Komdagen
   year: '2015'
   source: Music performance

@@ -91,44 +91,54 @@ selected_works:
     role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
-- title: 'Med fokus på det genuint mänskliga: recension av David Thurfjell: En lockton
-    i ödemarken. Om människans förmåga att besjäla världen. Norstedts 2023, 318 s.'
-  year: '2023'
-  source: Book review
-  group_type: Book review
+- title: Thomas av Aquino – En introduktion till hans teologi och filosofi
+  year: '2025'
+  source: Book anthology
+  group_type: Book anthology
   contributors:
   - name: Paul Clemens Cavallin
-    role: Creator
+    role: Editor
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
+  - name: Wahlberg Mats
+    role: Editor
+  - name: Stefan Lindholm
+    role: Editor
 - title: Religion
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Paul Clemens Cavallin
     role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
-- title: Reflections on Sacrifice and the Mission of Comparative Religion
-  year: '2021'
-  source: Conference lecture
-  group_type: Conference
+- title: Kontemplation
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Katarina Gustavsson O.P.
+    role: Creator
+  - name: Paul Clemens Cavallin
+    role: Creator
+    slug: clemens-cavallin
+    url: /people/clemens-cavallin/
+- title: Inledning
+  year: '2025'
+  source: Introduction
+  group_type: Introduction
   contributors:
   - name: Paul Clemens Cavallin
     role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
-- title: 'Ciência da religião aplicada: quatro tipos ideais'
-  year: '2021'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.23925/1677-1222.2021vol21i1a11
-  contributors:
-  - name: Paul Clemens Cavallin
+  - name: Mats Wahlberg
     role: Creator
-    slug: clemens-cavallin
-    url: /people/clemens-cavallin/
+  - name: Stefan Lindholm
+    role: Creator
+  - name: Mikael Schink
+    role: Creator
 source_mentions: []
 summary: null
 permalink: /people/clemens-cavallin/

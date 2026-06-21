@@ -30,24 +30,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Functional Near Infrared Spectroscopy (fNIRS) Responses of Professional Violinists
-    during Orchestra Performances
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Sara D'Amario
-    role: Creator
-  - name: Andreas Løve
-    role: Creator
-    slug: andreas-love
-    url: /people/andreas-love/
-  - name: Maja Dyhre Foldal
-    role: Creator
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
 - title: Method for Using Functional Near-Infrared Spectroscopy (fNIRS) to Explore
     Music-Induced Brain Activation in Orchestral Musicians in Concert
   year: '2025'

@@ -43,11 +43,11 @@ selected_works:
     role: Creator
     slug: sunniva-whittaker
     url: /people/sunniva-whittaker/
-- title: 'Social identity in the linguistically and culturally diverse workplace:
-    The impact of corporate values and language'
-  year: '2015'
-  source: Conference lecture
-  group_type: Conference
+- title: 'Offshoring language-sensitive services: a case study'
+  year: '2018'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1108/CCIJ-04-2018-0040
   contributors:
   - name: Anne Kari Bjørge
     role: Creator
@@ -55,8 +55,20 @@ selected_works:
     role: Creator
     slug: sunniva-whittaker
     url: /people/sunniva-whittaker/
-  - name: Alexander Madsen sandvik
+- title: The recontextualisation of values in the multilingual workplace
+  year: '2017'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1108/CCIJ-09-2016-0062
+  contributors:
+  - name: Anne Kari Bjørge
     role: Creator
+  - name: Alexander Madsen Sandvik
+    role: Creator
+  - name: Sunniva Whittaker
+    role: Creator
+    slug: sunniva-whittaker
+    url: /people/sunniva-whittaker/
 - title: 'Language management in a multinational workforce: The knowledge worker perspective.'
   year: '2015'
   source: Journal article
@@ -69,11 +81,11 @@ selected_works:
     role: Creator
     slug: sunniva-whittaker
     url: /people/sunniva-whittaker/
-- title: Social and professional identity in the multilingual workplace - the knowledge
-    worker perspective
+- title: 'Corporate values: A linguistic approach'
   year: '2015'
-  source: Conference lecture
-  group_type: Conference
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/1470595815606742
   contributors:
   - name: Anne Kari Bjørge
     role: Creator
@@ -81,28 +93,41 @@ selected_works:
     role: Creator
     slug: sunniva-whittaker
     url: /people/sunniva-whittaker/
-- title: Learner corpora as a pedagogical resource in specialized translator training
+- title: Language management
+  year: '2014'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Anne Kari Bjørge
+    role: Creator
+  - name: Sunniva Whittaker
+    role: Creator
+    slug: sunniva-whittaker
+    url: /people/sunniva-whittaker/
+- title: Contrastive legal discourse research. Corpus design and application
+  year: '2014'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.3917/rfla.191.0049
+  contributors:
+  - name: Sunniva Whittaker
+    role: Creator
+    slug: sunniva-whittaker
+    url: /people/sunniva-whittaker/
+- title: 'The harmonization of legal cultures, concepts and terms: Depth of harmonization
+    and research design'
+  year: '2014'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1075/tlrp.16.04whi
+  contributors:
+  - name: Sunniva Whittaker
+    role: Creator
+    slug: sunniva-whittaker
+    url: /people/sunniva-whittaker/
+- title: 'Les normes discursives dans le langage juridique: défis terminologiques
+    et traductologiques'
   year: '2013'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Ingrid Simonnæs
-    role: Creator
-  - name: Sunniva Whittaker
-    role: Creator
-    slug: sunniva-whittaker
-    url: /people/sunniva-whittaker/
-- title: Qu'est-ce qu'un néologisme juridique?
-  year: '2011'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Sunniva Whittaker
-    role: Creator
-    slug: sunniva-whittaker
-    url: /people/sunniva-whittaker/
-- title: Comparing Le N en question and the N in question
-  year: '2007'
   source: Book chapter
   group_type: Book chapter
   contributors:
@@ -110,33 +135,15 @@ selected_works:
     role: Creator
     slug: sunniva-whittaker
     url: /people/sunniva-whittaker/
-- title: La publicité pseudocomparative
-  year: '2006'
-  source: Professional article
-  group_type: Professional article
-  url: http://www.ruc.dk/isok/skriftserier/XVI-SRK-Pub/KFL/KFL21-Sunniva_Whittaker
-  contributors:
-  - name: Sunniva Whittaker
+  - name: Jan Roald
     role: Creator
-    slug: sunniva-whittaker
-    url: /people/sunniva-whittaker/
-- title: Portrait de l'expression anaphorique Ledit N
-  year: '2002'
-  source: Conference lecture
-  group_type: Conference
-  url: http://www.digbib.uio.no/roman/Art/Rf-16-02-2/fra/Whittaker.pdf
+- title: The Bergen translation corpus TK-NHH – design and applications
+  year: '2013'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.15845/bells.v3i1.364
   contributors:
-  - name: Sunniva Whittaker
-    role: Creator
-    slug: sunniva-whittaker
-    url: /people/sunniva-whittaker/
-- title: 'Caractérisants à complément causatif et restructurabilité: exceptionnel
-    de beauté/d''une beauté exceptionnelle'
-  year: '2001'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Reidar Magne Veland
+  - name: Ingrid Simonnæs
     role: Creator
   - name: Sunniva Whittaker
     role: Creator

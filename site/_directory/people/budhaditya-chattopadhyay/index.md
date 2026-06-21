@@ -104,33 +104,6 @@ selected_works:
     role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
-- title: 'Artificial Consciouness: Regenerating AI Ethics and Aesthetics'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Budhaditya Chattopadhyay
-    role: Creator
-    slug: budhaditya-chattopadhyay
-    url: /people/budhaditya-chattopadhyay/
-  - name: Frans Jacobi
-    role: Creator
-  - name: David Rych
-    role: Creator
-  - name: David Jhave Johnston
-    role: Creator
-  - name: Eamon O'Kane
-    role: Creator
-- title: 'Unmedia: De-modernising Technology'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://kmd.uib.no/en/Calendar/seminar/ears-to-the-ground
-  contributors:
-  - name: Budhaditya Chattopadhyay
-    role: Creator
-    slug: budhaditya-chattopadhyay
-    url: /people/budhaditya-chattopadhyay/
 - title: Dhvāni
   year: '2025'
   source: Exhibition
@@ -141,20 +114,21 @@ selected_works:
     role: ProjectLeader
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
-- title: 'Archival Intelligence: Machine Learning and Intergenerational Memory'
+- title: 'Post-immersive Listening: Perspectives on the Mediation of Sonic Environments'
   year: '2025'
-  source: Conference lecture
-  group_type: Conference
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.33871/vortex.2024.12.9663
   contributors:
   - name: Budhaditya Chattopadhyay
     role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
-- title: 'Dhvāni: Sacred Sounds and Decolonial Machines'
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
-  url: https://doi.org/10.5281/ZENODO.11189323
+- title: A Sonic Indofuturism
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1017/s1355771825000068
   contributors:
   - name: Budhaditya Chattopadhyay
     role: Creator

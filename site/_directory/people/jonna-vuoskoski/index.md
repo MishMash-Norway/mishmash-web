@@ -55,13 +55,19 @@ search_keywords:
 - Cognitive neuroscience
 - Music Cognition
 selected_works:
-- title: 'Experiences of awe and being moved evoked by music: Exploring elicitors
-    and socio-affective and behavioural correlates'
+- title: Domain-specific perception of emotional intensity in brief musical and vocal
+    expressions
   year: '2026'
-  source: Conference lecture
-  group_type: Conference
-  url: https://iaea-jena2026.org/wp-content/uploads/2026/04/IAEA26_AllAbstracts_Final.pdf
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1121/10.0042460
   contributors:
+  - name: Liv Merve Akca Abrahamsson
+    role: Creator
+  - name: Sascha Frühholz
+    role: Creator
+    slug: sascha-fruhholz
+    url: /people/sascha-fruhholz/
   - name: Jonna Katariina Vuoskoski
     role: Creator
     slug: jonna-vuoskoski
@@ -77,6 +83,148 @@ selected_works:
     role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
+- title: Brain Responses to Musical Emotions in Autism
+  year: '2025'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Liv Merve Akca Abrahamsson
+    role: Creator
+  - name: Katharina Egger
+    role: Creator
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Sascha Frühholz
+    role: Creator
+    slug: sascha-fruhholz
+    url: /people/sascha-fruhholz/
+- title: Rhythmic complexity and trait empathy modulate internal motor simulation
+    in response to music
+  year: '2025'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Lieke Perik
+    role: Creator
+  - name: Christian Dyhre Foldal
+    role: Creator
+  - name: Jan Stupacher
+    role: Creator
+- title: 'Dimensions of music use motivations: Genetic and environmental underpinnings,
+    and associations with Big Five and Empathy traits'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1371/journal.pone.0329808
+  contributors:
+  - name: Heidi Marie Umbach Hansen
+    role: Creator
+  - name: Espen Røysamb
+    role: Creator
+  - name: Olav Mandt Vassend
+    role: Creator
+  - name: Nikolai Olavi Czajkowski
+    role: Creator
+  - name: Tor Endestad
+    role: Creator
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Anne Danielsen
+    role: Creator
+  - name: Bruno Laeng
+    role: Creator
+- title: "Empathy and Music Preferences: Exploring Music Listening Behaviours in\r\
+    \nNaturalistic Settings"
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Jatin Agarwala
+    role: Creator
+  - name: Sriharsha M.S.S.
+    role: Creator
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Vinoo Alluri
+    role: Creator
+- title: Introducing the MusicLab Copenhagen Dataset
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/20592043241303288
+  contributors:
+  - name: Simon Høffding
+    role: Creator
+  - name: Rebecca Josefine Five Bergstrøm
+    role: Creator
+  - name: Laura Bishop
+    role: Creator
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+  - name: Kayla Burnim
+    role: Creator
+  - name: Carlos Eduardo Cancino-Chacón
+    role: Creator
+  - name: Maria-Alena Clim
+    role: Creator
+  - name: Matthew Good
+    role: Creator
+  - name: Niels Chr. Hansen
+    role: Creator
+  - name: Eirik Slinning Karlsen
+    role: Creator
+  - name: Live Håndlykken Kvale
+    role: Creator
+  - name: Bruno Laeng
+    role: Creator
+  - name: Olivier Serge Gabriel Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Eigil Lippert
+    role: Creator
+  - name: Remy Richard Martin
+    role: Creator
+  - name: Nanette Nielsen
+    role: Creator
+  - name: Rahul Omprakash Agrawal
+    role: Creator
+  - name: Thea Sørli Paulsrud
+    role: Creator
+  - name: Fernando E. Rosas
+    role: Creator
+  - name: Dana Swarbrick
+    role: Creator
+  - name: Solveig Sørbø
+    role: Creator
+  - name: Finn Upham
+    role: Creator
+  - name: Atilla Juliana Vrasdonk
+    role: Creator
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Sebastian Wallot
+    role: Creator
+  - name: Wenbo Yi
+    role: Creator
+  - name: Anne Danielsen
+    role: Creator
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 - title: 'Audience Musical Absorption: Exploring Attention and Affect in the Live
     Concert Setting'
   year: '2024'
@@ -123,88 +271,6 @@ selected_works:
     url: /people/jonna-vuoskoski/
   - name: Henna-Riikka Peltola
     role: Creator
-- title: 'Collectively Classical: Connectedness, Awe, Feeling Moved, and Motion at
-    a Live and Livestreamed Concert'
-  year: '2023'
-  source: Journal article
-  group_type: Journal article
-  url: https://osf.io/89s5w/
-  contributors:
-  - name: Dana Swarbrick
-    role: Creator
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-- title: 'Feeling moved by music: Investigating continuous ratings and acoustic correlates'
-  year: '2022'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1371/journal.pone.0261151
-  contributors:
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-  - name: Janis Heinrich Zickfeld
-    role: Creator
-  - name: Vinoo Alluri
-    role: Creator
-  - name: Vishnu Moorthigari
-    role: Creator
-  - name: Beate Seibt
-    role: Creator
-- title: 'Corona Concerts: The Effect of Virtual Concert Characteristics on Social
-    Connection and Kama Muta'
-  year: '2021'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.3389/fpsyg.2021.648448
-  contributors:
-  - name: Dana Swarbrick
-    role: Creator
-  - name: Christa Beate Seibt
-    role: Creator
-  - name: Noemi Grinspun
-    role: Creator
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-- title: Being moved by listening to unfamiliar sad music induces reward-related hormonal
-    changes in empathic listeners
-  year: '2021'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1111/nyas.14660
-  contributors:
-  - name: Tuomas Eerola
-    role: Creator
-  - name: Jonna K. Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-  - name: Hannu Kautiainen
-    role: Creator
-  - name: Henna-Riikka Peltola
-    role: Creator
-  - name: Vesa Putkinen
-    role: Creator
-  - name: Katharina Schäfer
-    role: Creator
-- title: 'On the enjoyment of sad music: Pleasurable Compassion Theory and the role
-    of trait empathy'
-  year: '2020'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.3389/fpsyg.2020.01060
-  contributors:
-  - name: David Huron
-    role: Creator
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: I am Professor of Music Cognition at the Department of Musicology and the

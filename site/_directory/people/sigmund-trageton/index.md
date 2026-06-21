@@ -27,48 +27,55 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: "Rekonstruksjoner og dramatisering\r\nFiksjonelle strategier i dokumentarfilm"
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
+- title: "Konseptforslag Skåreparken\r\nTHE GLOBAL VILLAGE"
+  year: '2024'
+  source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Sigmund Trageton
+    role: Artist
+    slug: sigmund-trageton
+    url: /people/sigmund-trageton/
+- title: Kunstnarleg forsking i film
+  year: '2024'
+  source: Research report
+  group_type: Research report
   contributors:
   - name: Sigmund Trageton
     role: Creator
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
-- title: Diskutek som pedagogisk metode
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
+- title: "Diskusjon i undervisninga og podkasting i vurderinga.\r\nEit forsøk på å\
+    \ styrka studentanes munnlege engasjement i møte med skjermteknologi og ChatGPT"
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.18261/nmt.31.2-3.5
   contributors:
   - name: Sigmund Trageton
     role: Creator
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
-- title: Risikobevissthet og risikokommunikasjon i skjæringspunktet mellom SoMe og
-    tradisjonell media
-  year: '2021'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Claudia Morsut
+  - name: Lars Nyre
     role: Creator
-  - name: Christian Henrik Alexander Kuran
-    role: Creator
-  - name: Odd Einar Falnes Olsen
-    role: Creator
-  - name: Sigmund Trageton
-    role: Creator
-    slug: sigmund-trageton
-    url: /people/sigmund-trageton/
-  - name: Espen Mathiesen
-    role: Creator
+    slug: lars-nyre
+    url: /people/lars-nyre/
 - title: In the pursuit of the authentic cinema. A comparative study of two films
     about the 22. July 2011 terrorist attack in Norway
   year: '2020'
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.37390/avancacinema.2020.a151
+  contributors:
+  - name: Sigmund Trageton
+    role: Creator
+    slug: sigmund-trageton
+    url: /people/sigmund-trageton/
+- title: D2.3 SOCIAL MEDIA CAMPAIGN ANALYSIS AND GOVERNMENTS’ RESPONSES TO DISINFORMATION
+    BuildERS report grant agreement No. 833496
+  year: '2020'
+  source: Research report
+  group_type: Research report
   contributors:
   - name: Sigmund Trageton
     role: Creator
@@ -104,6 +111,17 @@ selected_works:
     role: Creator
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
+- title: Oljeliv/Offshore ID
+  year: '2018'
+  source: Exhibition
+  group_type: Exhibition
+  contributors:
+  - name: Sigmund Trageton
+    role: AcademicCoordinator
+    slug: sigmund-trageton
+    url: /people/sigmund-trageton/
+  - name: Nadine Zoghbi
+    role: AcademicCoordinator
 - title: Virtual reality, poetic possibilities and narrative challenges
   year: '2017'
   source: Professional article
@@ -111,24 +129,6 @@ selected_works:
   contributors:
   - name: Sigmund Trageton
     role: Creator
-    slug: sigmund-trageton
-    url: /people/sigmund-trageton/
-- title: Adblock dokumentar
-  year: '2015'
-  source: Film or video
-  group_type: Film or video
-  contributors:
-  - name: Sigmund Trageton
-    role: AcademicCoordinator
-    slug: sigmund-trageton
-    url: /people/sigmund-trageton/
-- title: Oljearbeideren
-  year: '2012'
-  source: Visual arts
-  group_type: Visual arts
-  contributors:
-  - name: Sigmund Trageton
-    role: Artist
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
 source_mentions: []

@@ -127,16 +127,6 @@ selected_works:
     url: /people/viggo-tellefsen-wivestad/
   - name: Astri Moksnes Barbala
     role: Creator
-- title: Copilot's Island of Joy - Balancing Individual Satisfaction with Team Interaction
-    in Agile Development
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Viggo Tellefsen Wivestad
-    role: Creator
-    slug: viggo-tellefsen-wivestad
-    url: /people/viggo-tellefsen-wivestad/
 - title: 'A Journey Through SPACE: Unpacking the Perceived Productivity of GitHub
     Copilot'
   year: '2024'

@@ -50,11 +50,37 @@ selected_works:
     url: /people/oystein-skaar/
   - name: Caroline Miriam Skaar
     role: Creator
-- title: Artificial intelligence in higher education (symposium)
+- title: Development of inclusive practice – the art of balancing emotional support
+    and constructive feedback
   year: '2024'
-  source: Conference lecture
-  group_type: Conference
-  url: https://www.bera.ac.uk/conference/bera-conference-2024-and-wera-focal-meeting/programme/programme-at-a-glance
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.3389/feduc.2024.1281334
+  contributors:
+  - name: Kristian Øen
+    role: Creator
+  - name: Rune Johan Krumsvik
+    role: Creator
+  - name: Øystein Olav Skaar
+    role: Creator
+    slug: oystein-skaar
+    url: /people/oystein-skaar/
+- title: 'A Call for Bildung: Addressing the Challenges of a Digitalized Education'
+  year: '2024'
+  source: Professional article
+  group_type: Professional article
+  url: https://doi.org/10.18261/NJDL.19.2.4
+  contributors:
+  - name: Øystein Olav Skaar
+    role: Creator
+    slug: oystein-skaar
+    url: /people/oystein-skaar/
+- title: 'PhD-supervisors experiences during and after the COVID-19 pandemic: a case
+    study'
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.3389/feduc.2024.1436521
   contributors:
   - name: Rune Johan Krumsvik
     role: Creator
@@ -64,6 +90,37 @@ selected_works:
     role: Creator
     slug: oystein-skaar
     url: /people/oystein-skaar/
+  - name: Lise Øen Jones
+    role: Creator
+  - name: Stein Helge Solstad
+    role: Creator
+  - name: Øystein Salhus
+    role: Creator
+  - name: Kjetil L Høydal
+    role: Creator
+- title: Doctoral Supervision in Challenging Times – some Experiences from the Pandemic
+    (Part II)
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://library.iated.org/view/KRUMSVIK2024DOC
+  contributors:
+  - name: Rune Johan Krumsvik
+    role: Creator
+  - name: Lise Øen Jones
+    role: Creator
+  - name: Fredrik Mørk Røkenes
+    role: Creator
+  - name: Øystein Olav Skaar
+    role: Creator
+    slug: oystein-skaar
+    url: /people/oystein-skaar/
+  - name: Stein Helge Solstad
+    role: Creator
+  - name: Øystein Salhus
+    role: Creator
+  - name: Kjetil L Høydal
+    role: Creator
 - title: DigitalInnSights- To play or not to play?
   year: '2023'
   source: Conference poster
@@ -87,6 +144,17 @@ selected_works:
   contributors:
   - name: Kristian Øen
     role: Creator
+  - name: Rune Johan Krumsvik
+    role: Creator
+  - name: Øystein Olav Skaar
+    role: Creator
+    slug: oystein-skaar
+    url: /people/oystein-skaar/
+- title: "Digital kompetanse, vaksinemotstand, KI og pandemisk\r\nrisikopersepsjon"
+  year: '2023'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
   - name: Rune Johan Krumsvik
     role: Creator
   - name: Øystein Olav Skaar
@@ -124,65 +192,6 @@ selected_works:
     role: Creator
   - name: Kjetil L Høydal
     role: Creator
-- title: 'The Black Void: Students’ perceived learning outcome from remote teaching'
-  year: '2022'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Øystein Olav Skaar
-    role: Creator
-    slug: oystein-skaar
-    url: /people/oystein-skaar/
-  - name: Gaute Rydland Nilsen
-    role: Creator
-- title: 'Effects of facial symmetry and gaze direction on perception of social attributes:
-    A study in experimental art history'
-  year: '2016'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.3389/fnhum.2016.00452
-  contributors:
-  - name: Per Olav Folgerø
-    role: Creator
-  - name: Lasse Hodne
-    role: Creator
-  - name: Christer Johansson
-    role: Creator
-  - name: Alf Edgar Andresen
-    role: Creator
-  - name: Lill Charlotte Sætren
-    role: Creator
-  - name: Karsten Specht
-    role: Creator
-  - name: Øystein Olav Skaar
-    role: Creator
-    slug: oystein-skaar
-    url: /people/oystein-skaar/
-  - name: Rolf Reber
-    role: Creator
-- title: Multimedia discrepancies - plenary lectures as perceived by students
-  year: '2015'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.18261/ISSN1893-8981-2015-01-05
-  contributors:
-  - name: Øystein Olav Skaar
-    role: Creator
-    slug: oystein-skaar
-    url: /people/oystein-skaar/
-  - name: Rune Johan Krumsvik
-    role: Creator
-- title: The Multimedia Expanse
-  year: '2013'
-  source: Master's thesis
-  group_type: Master's thesis
-  contributors:
-  - name: Øystein Olav Skaar
-    role: Creator
-    slug: oystein-skaar
-    url: /people/oystein-skaar/
-  - name: Rune Johan Krumsvik
-    role: Supervisor
 source_mentions: []
 summary: null
 permalink: /people/oystein-skaar/

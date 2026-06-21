@@ -56,39 +56,6 @@ search_keywords:
 - Digital ethnography
 - Artificial intelligence
 selected_works:
-- title: 'Creativity is a trading zone: A short sociotechnical history of temperature'
-  year: '2026'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Gabriele de Seta
-    role: Creator
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
-- title: 'Algorithmic folklore: Vernacular narratives from the Black Box'
-  year: '2026'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Gabriele de Seta
-    role: Creator
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
-  - name: Marianne Gunderson
-    role: Creator
-  - name: Hanna Hellesø Lauvli
-    role: Creator
-  - name: Yagmur Cisem Vik
-    role: Creator
-- title: 'Algorithmic folklore: Collecting and archiving vernacular narratives'
-  year: '2026'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Gabriele de Seta
-    role: Creator
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
 - title: 'Ball-ache, dick hair and serial cunt words: The role of vulgarity in Chinese
     internet language'
   year: '2026'
@@ -110,15 +77,6 @@ selected_works:
     role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
-- title: 40,000 years of algorithmic folklore
-  year: '2026'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Gabriele de Seta
-    role: Creator
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
 - title: 'Support for deepfake regulation: The role of third-person perception, trust,
     and risk'
   year: '2025'
@@ -134,26 +92,6 @@ selected_works:
     role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
-- title: Creativity is a trading zone
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://rdt.uva.nl/content/events/2025/12/genai--creative-practices-conference.html
-  contributors:
-  - name: Gabriele de Seta
-    role: Creator
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
-- title: LLM lore
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  url: https://dlcplus.org/current-keywords-in-digital-culture-mini-conference-series/
-  contributors:
-  - name: Gabriele de Seta
-    role: Creator
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
 - title: 'Spectral hauntings, ancestral tunings: Two unnaturalist modes of listening'
   year: '2025'
   source: Book chapter
@@ -165,6 +103,84 @@ selected_works:
     role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
+- title: The short-term impact of an on-site literacy intervention on discerning deepfake
+    videos based on visual features
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/10776990251373088
+  contributors:
+  - name: Daniel Vogler
+    role: Creator
+  - name: Adrian Rauchfleisch
+    role: Creator
+  - name: Gabriele de Seta
+    role: Creator
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
+- title: 'Technologies of clairvoyance: Chinese lineages and mythologies of machine
+    vision'
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://www.urbanomic.com/chapter/machine-decision-is-not-final-10-technologies-of-clairvoyance/
+  contributors:
+  - name: Gabriele de Seta
+    role: Creator
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
+- title: Deepfakes or synthetic media? The effect of euphemisms for labeling technology
+    on risk and benefit perceptions
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/20563051251350975
+  contributors:
+  - name: Adrian Rauchfleisch
+    role: Creator
+  - name: Daniel Vogler
+    role: Creator
+  - name: Gabriele de Seta
+    role: Creator
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
+- title: Diviner [A]
+  year: '2025'
+  source: Literary arts
+  group_type: Literary arts
+  contributors:
+  - name: Mariella Otto
+    role: Creator
+  - name: Gabriele de Seta
+    role: Creator
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
+- title: 'Groundhog Day: Memes Are New'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Gabriele de Seta
+    role: Creator
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
+  - name: Idil Galip
+    role: Creator
+  - name: Lucie Chateau
+    role: Creator
+  - name: Günseli Yalcinkaya
+    role: Creator
+- title: Algorithms don't make the rules
+  year: '2025'
+  source: Editorial
+  group_type: Editorial
+  contributors:
+  - name: Gabriele de Seta
+    role: Creator
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
+  - name: P. Kerim Friedman
+    role: Creator
 source_mentions: []
 summary: I use qualitative methods to study how digital technologies and creative
   practices shape one another. My research focuses on the everyday use of algorithms,

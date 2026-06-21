@@ -53,27 +53,6 @@ selected_works:
     role: Creator
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
-- title: Ghost of the Past? The (In)visible Hans Egede Monument at Trinity Church,
-    Oslo
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Stephanie von Spreter
-    role: Creator
-    slug: stephanie-von-spreter
-    url: /people/stephanie-von-spreter/
-- title: Welcome and introduction to conference, Photographic Practices as Care-Taking
-  year: '2022'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Marthe Tolnes Fjellestad
-    role: Creator
-  - name: Stephanie von Spreter
-    role: Creator
-    slug: stephanie-von-spreter
-    url: /people/stephanie-von-spreter/
 - title: 'Pia Arke and ‘Arctic Hysteria’: Visual Repatriation and the Problematics
     of a ‘Lost’ Artwork'
   year: '2022'
@@ -116,26 +95,6 @@ selected_works:
     role: Artist
   - name: Stephanie von Spreter
     role: Artist
-    slug: stephanie-von-spreter
-    url: /people/stephanie-von-spreter/
-- title: 'Shifting Focus. From Representation to Re-presentation and Materiality:
-    Reading the Photographic Works of Pia Arke (1958-2007)'
-  year: '2021'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Stephanie von Spreter
-    role: Creator
-    slug: stephanie-von-spreter
-    url: /people/stephanie-von-spreter/
-- title: 'Artistic (Re)search Into the Ice: Seeing What We Cannot Grasp, Grasping
-    What We Need to See'
-  year: '2021'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Stephanie von Spreter
-    role: Creator
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
 - title: A story for you to continue

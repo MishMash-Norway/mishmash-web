@@ -118,19 +118,56 @@ selected_works:
     role: Creator
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
-- title: School Professionals' Awareness and Perceptions of the Use of Noise-Cancelling
-    Headphones for Autistic Students in Schools
+- title: Diagnosing Auditory Processing Disorder in Adults - A Scoping Review of Diagnostic
+    Gaps
   year: '2025'
-  source: Conference lecture
+  source: Conference poster
   group_type: Conference
+  url: https://www.researchgate.net/publication/392123286_DIAGNOSING_AUDITORY_PROCESSING_DISORDER_IN_ADULTS_-_A_SCOPING_REVIEW_OF_DIAGNOSTIC_GAPS
   contributors:
-  - name: Marte Karoline Herrebrøden
+  - name: Cathrine Rismo Redi
+    role: Creator
+  - name: Anders Dechsling
     role: Creator
   - name: Georgios Marentakis
     role: Creator
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
-  - name: Anders Nordahl-Hansen
+  - name: Anders  Nordahl-Hansen
+    role: Creator
+- title: Audio Technology for Autistic Persons with Auditory Sensory Differences—A
+    Scoping Review
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1007/s40489-025-00511-3
+  contributors:
+  - name: Marte Karoline Herrebrøden
+    role: Creator
+  - name: Anders Dechsling
+    role: Creator
+  - name: Georgios Marentakis
+    role: Creator
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Anders  Nordahl-Hansen
+    role: Creator
+- title: "Autistic Persons with Auditory Sensory Differences:\r\nThe Use of Audio\
+    \ Technology - A Scoping Review"
+  year: '2025'
+  source: Conference poster
+  group_type: Conference
+  url: http://dx.doi.org/10.13140/RG.2.2.31799.23200
+  contributors:
+  - name: Marte Karoline Herrebrøden
+    role: Creator
+  - name: Anders Dechsling
+    role: Creator
+  - name: Georgios Marentakis
+    role: Creator
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Anders  Nordahl-Hansen
     role: Creator
 - title: 'It sounds sustainable: practices in designing sound for sustainability'
   year: '2024'
@@ -143,28 +180,6 @@ selected_works:
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
   - name: Doriana Dal Palù
-    role: Creator
-- title: Sketching in Sound and Interaction Design
-  year: '2023'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Georgios Marentakis
-    role: Creator
-    slug: georgios-marentakis
-    url: /people/georgios-marentakis/
-- title: Multimodal Cues for Guided Breathing
-  year: '2023'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Georgios Marentakis
-    role: Creator
-    slug: georgios-marentakis
-    url: /people/georgios-marentakis/
-  - name: Victoria Grace
-    role: Creator
-  - name: Jonathan Berger
     role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md

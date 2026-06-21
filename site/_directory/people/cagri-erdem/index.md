@@ -151,16 +151,44 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: 'The Feedback Mop Cello: An Instrument for Interacting with Acoustic Feedback
-    Loops'
-  year: '2023'
-  source: Conference lecture
-  group_type: Conference
+- title: 'From Knobs to Whole Body: Dance with Feedback'
+  year: '2025'
+  source: Non-fiction chapter
+  group_type: Non-fiction chapter
+  url: https://doi.org/10.1007/978-3-031-97257-7_3
   contributors:
-  - name: Hugh Alexander von Arnim
+  - name: Cagri Erdem
     role: Creator
-    slug: hugh-alexander-von-arnim
-    url: /people/hugh-alexander-von-arnim/
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Katja Henriksen Schia
+    role: Creator
+- title: 'VentHackz: Exploring the Musicality of Ventilation Systems'
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://osf.io/enb3m/?view_only=09ef03393ef349d197fd1771b71ad9a4
+  contributors:
+  - name: Maham Riaz
+    role: Creator
+  - name: Ioannis Theodoridis
+    role: Creator
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: 'The Hyper-Ney: An Enhanced Traditional Flute'
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.13904806
+  contributors:
+  - name: Ahmet Emin Memis
+    role: Creator
   - name: Stefano Fasciani
     role: Creator
     slug: stefano-fasciani
@@ -169,60 +197,20 @@ selected_works:
     role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
-- title: The MusicLab App – Exploring the usage of mobile accelerometry to measure
-    audience movement and respiration
-  year: '2021'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Dana Swarbrick
-    role: Creator
-  - name: Finn Upham
-    role: Creator
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Kayla Burnim
-    role: Creator
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: 'Towards Playing in the ''Air'': Modeling Motion-Sound Energy Relationships
-    in Electric Guitar Performance Using Deep Neural Networks'
-  year: '2020'
+- title: 'Xyborg: A Wearable Hand-based Instrument for Musical Expression'
+  year: '2024'
   source: Book chapter
   group_type: Book chapter
-  url: https://smc2020torino.it/adminupload/file/SMC2020Proceedings.pdf?fbclid=IwAR0X9iNjBq_D_xs2xqmm8KA-9fBn-XQg9dh0md7CMxqrBiYxbOeI4m3hiz4#page=193
+  url: https://doi.org/10.5281/zenodo.13904921
   contributors:
+  - name: Kristian Eicke
+    role: Creator
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
   - name: Cagri Erdem
     role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Qichao Lan
-    role: Creator
-  - name: Julian Fuhrer
-    role: Creator
-  - name: Charles Patrick Martin
-    role: Creator
-    slug: charles-martin
-    url: /people/charles-martin/
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: 'RAW: A Muscle-based instrument'
-  year: '2019'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Cagri Erdem
-    role: Artist
     slug: cagri-erdem
     url: /people/cagri-erdem/
 source_mentions: []

@@ -31,39 +31,6 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: 'Ultraprocessed Sounds: Music and AI Reconceptualized'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Daniel Nordgård
-    role: Creator
-    slug: daniel-nordgard
-    url: /people/daniel-nordgard/
-  - name: Eirik Sørbø
-    role: Creator
-    slug: eirik-sorbo
-    url: /people/eirik-sorbo/
-- title: 'Better Live: Sustainable touring and program diversity in Europe'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Daniel Nordgård
-    role: Creator
-    slug: daniel-nordgard
-    url: /people/daniel-nordgard/
-  - name: Liucija Fosseli
-    role: Creator
-- title: 'Music, Digitalization and Entrepreneurship: BAIL, Madrid, 2025'
-  year: '2025'
-  source: Conference lecture
-  group_type: Conference
-  contributors:
-  - name: Daniel Nordgård
-    role: Creator
-    slug: daniel-nordgard
-    url: /people/daniel-nordgard/
 - title: 'Crowdfunding visual artists: Alternative or complementary financing mode?'
   year: '2025'
   source: Book chapter
@@ -89,39 +56,77 @@ selected_works:
     role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
-- title: 'AI in the context of music: Lessons to be shared'
+- title: 'The international music industry: A plural sector adapting to continuous
+    change'
   year: '2024'
-  source: Conference lecture
-  group_type: Conference
+  source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Daniel Nordgård
     role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
-- title: Understanding artist entrepreneurship
-  year: '2024'
-  source: Conference lecture
-  group_type: Conference
+- title: 'Financing Preferences of Individual Entrepreneurs: Music Careers in the
+    Spotlight'
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Roderick Udo
+    role: Creator
+  - name: Daniel Nordgård
+    role: Creator
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
+  - name: Lex van Teeffelen
+    role: Creator
+- title: 'Financing Preferences of Individual Entrepreneurs: Music Careers in the
+    Spotlight.'
+  year: '2023'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Roderick Udo
+    role: Creator
+  - name: Daniel Nordgård
+    role: Creator
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
+  - name: Lex van Teeffelen
+    role: Creator
+- title: The presence and Absence of Policy in the Digital Music Industries
+  year: '2022'
+  source: Book chapter
+  group_type: Book chapter
   contributors:
   - name: Daniel Nordgård
     role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
-- title: "Book Review: Everyone Loves Live Music: A Theory of\r\nPerformance Institutions"
-  year: '2021'
-  source: Book review
-  group_type: Book review
-  url: https://doi.org/10.2478/ijmbr-2021-0009
+- title: 'Nesten alene: Artisten, økonomien og bransjen'
+  year: '2022'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.23865/noasp.160.ch8
   contributors:
   - name: Daniel Nordgård
     role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
-- title: "The Music Modernization Act: Mechanical\r\ncopyright in the age of music\
-    \ streaming"
-  year: '2021'
-  source: Conference lecture
-  group_type: Conference
+- title: MUSIC MANAGEMENT IN THE AGE OF THE ALGORITHMS – NAVIGATING BY NUMBERS
+  year: '2022'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Daniel Nordgård
+    role: Creator
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
+- title: 'The Music Modernization Act: Mechanical Copyright in the Age of Music Streaming'
+  year: '2022'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-031-09532-0_10
   contributors:
   - name: Daniel Nordgård
     role: Creator
@@ -129,15 +134,19 @@ selected_works:
     url: /people/daniel-nordgard/
   - name: Guy Morrow
     role: Creator
-- title: 'Book Review,The New Music Industries: Disruption and Discovery'
-  year: '2017'
-  source: Book review
-  group_type: Book review
+- title: 'Rethinking the Music Business: Music Contexts, Rights, Data, and COVID-19'
+  year: '2022'
+  source: Book anthology
+  group_type: Book anthology
   contributors:
   - name: Daniel Nordgård
-    role: Creator
+    role: Editor
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
+  - name: Guy Morrow
+    role: Editor
+  - name: Peter Tschmuck
+    role: Editor
 source_mentions:
 - about/organisation/management/index.md
 - no/about/organisation/management/index.md
