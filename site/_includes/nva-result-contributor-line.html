@@ -1,0 +1,32 @@
+{% comment %}
+  Semicolon-separated contributor list.
+  include.contributors — list of contributor hashes
+  include.roles — optional comma-separated NVA role types to include
+{% endcomment %}
+{% assign role_filter = include.roles | default: "" | strip %}
+{% if role_filter != "" %}
+  {% assign allowed_roles = role_filter | split: "," %}
+{% endif %}
+{% assign rendered = 0 %}
+{% for contributor in include.contributors %}
+  {% assign contributor_role = contributor.role | default: "" %}
+  {% if role_filter != "" %}
+    {% assign include_contributor = false %}
+    {% for allowed_role in allowed_roles %}
+      {% assign allowed_role = allowed_role | strip %}
+      {% if contributor_role == allowed_role %}
+        {% assign include_contributor = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% unless include_contributor %}{% continue %}{% endunless %}
+  {% endif %}
+  {% assign author_name = contributor.name | default: contributor.display %}
+  {% if rendered > 0 %}; {% endif %}
+  {% if contributor.url %}
+  <a href="{{ contributor.url | relative_url }}">{{ author_name }}</a>
+  {% else %}
+  {{ author_name }}
+  {% endif %}
+  {% assign rendered = rendered | plus: 1 %}
+{% endfor %}

@@ -12,6 +12,12 @@ from directory_io import split_frontmatter
 PERSON_PROFILE_RE = re.compile(r"/research-profile/(\d+)")
 CRISTIN_RE = re.compile(r"/cristin/person/(\d+)")
 
+THESIS_INSTANCE_TYPES = frozenset(
+    {"DegreePhd", "DegreeMaster", "DegreeBachelor", "DegreeLicentiate"}
+)
+DEFAULT_AUTHOR_ROLES = frozenset({"Creator", "Author"})
+SUPERVISOR_ROLES = frozenset({"Supervisor"})
+
 
 def extract_profile_id(url: str) -> str:
     match = PERSON_PROFILE_RE.search(url or "")
@@ -34,17 +40,50 @@ def contributor_name(identity: dict) -> str:
     return f"{first} {last}".strip()
 
 
+def contributor_role(contributor: dict) -> str:
+    return ((contributor.get("role") or {}).get("type") or "").strip()
+
+
+def contributor_roles_for_instance(instance_type: str) -> frozenset[str]:
+    roles = set(DEFAULT_AUTHOR_ROLES)
+    if (instance_type or "").strip() in THESIS_INSTANCE_TYPES:
+        roles |= SUPERVISOR_ROLES
+    return frozenset(roles)
+
+
+def person_contributor_role(entity: dict, profile_id: str) -> str:
+    profile_id = str(profile_id or "").strip()
+    if not profile_id:
+        return ""
+    for contributor in entity.get("contributors") or []:
+        identity = contributor.get("identity") or {}
+        person_id = extract_cristin_person_id(identity.get("id") or "")
+        if person_id == profile_id:
+            return contributor_role(contributor)
+    return ""
+
+
+def person_has_supervisor_role(entity: dict, profile_id: str) -> bool:
+    return person_contributor_role(entity, profile_id) == "Supervisor"
+
+
 def build_result_contributors(
     entity: dict,
     person_lookup: dict[str, dict[str, str]],
+    allowed_roles: frozenset[str] | None = None,
 ) -> list[dict[str, str]]:
     contributors: list[dict[str, str]] = []
     for contributor in entity.get("contributors") or []:
+        role = contributor_role(contributor)
+        if allowed_roles is not None and role and role not in allowed_roles:
+            continue
         identity = contributor.get("identity") or {}
         name = contributor_name(identity)
         if not name:
             continue
         entry: dict[str, str] = {"name": name}
+        if role:
+            entry["role"] = role
         person_id = extract_cristin_person_id(identity.get("id") or "")
         if person_id and person_id in person_lookup:
             person = person_lookup[person_id]

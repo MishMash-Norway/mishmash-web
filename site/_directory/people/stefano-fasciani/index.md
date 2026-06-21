@@ -55,11 +55,15 @@ selected_works:
   url: https://doi.org/10.1109/ACSOS-C66519.2025.00067
   contributors:
   - name: Pedro Pablo Lucas Bravo
+    role: Creator
   - name: Alexander Szorkovszky
+    role: Creator
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
 - title: Live Coding the Lineage
@@ -69,13 +73,17 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.17642435
   contributors:
   - name: Björn Thór Jónsson
+    role: Creator
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
 - title: Characterisation of Teensy 4.1 Ecosystem for Low-Latency Audio Network Transmission
@@ -86,7 +94,9 @@ selected_works:
   url: https://doi.org/10.1109/is264627.2025.11284626
   contributors:
   - name: Leigh Daniel Murray
+    role: Creator
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
 - title: 'MAAL: a multi-agent autonomous live looper for improvised co-creation of
@@ -97,15 +107,19 @@ selected_works:
   url: https://doi.org/10.5281/ZENODO.16946080
   contributors:
   - name: Vincenzo Madaghiele
+    role: Creator
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Tejaswinee Kelkar
+    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
 - title: Sines, transient, noise neural modeling of piano notes
@@ -115,7 +129,9 @@ selected_works:
   url: https://doi.org/10.3389/frsip.2024.1494864
   contributors:
   - name: Riccardo Simionato
+    role: Creator
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
 - title: Physics-informed differentiable method for piano modeling
@@ -125,20 +141,13 @@ selected_works:
   url: https://doi.org/10.3389/frsip.2023.1276748
   contributors:
   - name: Riccardo Simionato
+    role: Creator
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Sverre Holm
-- title: Neural Modeling of Musical Devices
-  year: '2024'
-  source: PhD thesis
-  group_type: PhD thesis
-  contributors:
-  - name: Riccardo Simionato
-  - name: Stefano Fasciani
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Sverre Holm
+    role: Creator
 - title: 'Self-Assembly and Synchronization: Crafting Music with Multi-Agent Embodied
     Oscillators'
   year: '2024'
@@ -147,11 +156,15 @@ selected_works:
   url: https://doi.org/10.1109/ACSOS61780.2024.00034
   contributors:
   - name: Pedro Pablo Lucas Bravo
+    role: Creator
   - name: Alexander Szorkovszky
+    role: Creator
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
 - title: 'The Feedback Mop Cello: An Instrument for Interacting with Acoustic Feedback
@@ -161,14 +174,29 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
+- title: Towards a High-Performance Platform for Sonic Interaction Interfaces
+  year: '2019'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.3249278
+  contributors:
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Manohar Vohra
+    role: Creator
 - title: Vocal control of sound synthesis personalized by unsupervised machine listening
     and learning
   year: '2018'
@@ -177,9 +205,11 @@ selected_works:
   url: https://doi.org/10.1162/comj_a_00450
   contributors:
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Lonce Wyse
+    role: Creator
 source_mentions: []
 summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learning,
   Music Technology.

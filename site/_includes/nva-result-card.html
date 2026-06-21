@@ -37,14 +37,7 @@
 
     {% if contributors and contributors.size > 0 %}
     <p class="nva-result-authors">
-      {% for contributor in contributors %}
-        {% assign author_name = contributor.name | default: contributor.display %}
-        {% if contributor.url %}
-        <a href="{{ contributor.url | relative_url }}">{{ author_name }}</a>{% unless forloop.last %}; {% endunless %}
-        {% else %}
-        {{ author_name }}{% unless forloop.last %}; {% endunless %}
-        {% endif %}
-      {% endfor %}
+      {% include nva-result-contributor-line.html contributors=contributors %}
     </p>
     {% elsif include.fallback_name %}
     <p class="nva-result-authors">

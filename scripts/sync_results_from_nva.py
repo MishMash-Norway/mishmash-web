@@ -30,6 +30,7 @@ from enrich_directory_from_nva import (  # noqa: E402
     _nva_request_headers,
 )
 from nva_publication_contributors import (  # noqa: E402
+    DEFAULT_AUTHOR_ROLES,
     build_person_lookup,
     build_result_contributors,
     contributor_name,
@@ -112,21 +113,18 @@ def build_citation_authors(
     person_lookup: dict[str, dict[str, str]],
 ) -> list[dict[str, str]]:
     authors: list[dict[str, str]] = []
-    for contributor in entity.get("contributors") or []:
-        role = ((contributor.get("role") or {}).get("type") or "").strip()
-        if role and role not in {"Creator", "Author"}:
-            continue
-        identity = contributor.get("identity") or {}
-        name = contributor_name(identity)
-        if not name:
-            continue
-        entry = {"display": format_cristin_name(name), "name": name}
-        person_id = extract_cristin_person_id(identity.get("id") or "")
-        if person_id and person_id in person_lookup:
-            person = person_lookup[person_id]
-            entry["slug"] = person["slug"]
-            entry["url"] = person["url"]
-        authors.append(entry)
+    for entry in build_result_contributors(
+        entity,
+        person_lookup,
+        allowed_roles=DEFAULT_AUTHOR_ROLES,
+    ):
+        name = entry.get("name") or ""
+        author = {"display": format_cristin_name(name), "name": name}
+        if entry.get("slug"):
+            author["slug"] = entry["slug"]
+        if entry.get("url"):
+            author["url"] = entry["url"]
+        authors.append(author)
     return authors
 
 
