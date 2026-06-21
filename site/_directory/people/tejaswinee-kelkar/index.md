@@ -47,17 +47,23 @@ selected_works:
   url: https://doi.org/10.1007/978-3-032-26999-7_18
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Kayla Burnim
+    role: Creator
   - name: Finn Upham
+    role: Creator
   - name: Tejaswinee Kelkar
+    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: 'MAAL: a multi-agent autonomous live looper for improvised co-creation of
@@ -68,15 +74,19 @@ selected_works:
   url: https://doi.org/10.5281/ZENODO.16946080
   contributors:
   - name: Vincenzo Madaghiele
+    role: Creator
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Tejaswinee Kelkar
+    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
 - title: Household Objects
@@ -85,6 +95,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Tejaswinee Kelkar
+    role: Composer
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
 - title: 'The Shapeshifter: Motion Capture and Interactive Dance for Co-constructing
@@ -94,9 +105,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Tejaswinee Kelkar
+    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
 - title: 'Mira Thiruchelvam og Vestnorsk Jazzensemble: Pantone 448 C with Cumin'
@@ -105,6 +118,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Tejaswinee Kelkar
+    role: Artist
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
 - title: Coreference and disjoint reference in the semantics of narrative dance
@@ -114,11 +128,15 @@ selected_works:
   url: https://semanticsarchive.net/Archive/GE4MWViN/Patel-Grosz.pdf
   contributors:
   - name: Pritty Patel-Grosz
+    role: Creator
   - name: Patrick Georg Grosz
+    role: Creator
   - name: Tejaswinee Kelkar
+    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: Evaluating a collection of Sound-Tracing Data of Melodic Phrases
@@ -127,10 +145,13 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Tejaswinee Kelkar
+    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
   - name: Udit Roy
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: MAM - Nepal / Avatar
@@ -139,6 +160,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Tejaswinee Kelkar
+    role: Artist
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
 - title: 'Jazz in Khartoum - ft Tejaswinee Kelkar #2'
@@ -147,6 +169,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Tejaswinee Kelkar
+    role: Artist
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
 - title: Jazz in Khartoum - ft. Sudeshna Bhattacharya
@@ -155,6 +178,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Tejaswinee Kelkar
+    role: Artist
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
 source_mentions: []

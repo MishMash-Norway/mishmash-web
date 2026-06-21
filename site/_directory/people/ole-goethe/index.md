@@ -53,8 +53,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Adam Palmquist
+    role: Creator
   - name: Izabella Alexandra Victoria Jedel
+    role: Creator
   - name: Ole Goethe
+    role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
 - title: Animasjon gjort enkelt for film, spill og apper.
@@ -63,6 +66,7 @@ selected_works:
   group_type: Non-fiction book
   contributors:
   - name: Ole Goethe
+    role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
 - title: An Industry Experiment of Academic Performance and Drop-Out in Gamified Distance
@@ -73,13 +77,19 @@ selected_works:
   url: http://ceur-ws.org/Vol-2883/paper1.pdf
   contributors:
   - name: Izabella Alexandra Victor Jedel
+    role: Creator
   - name: Adam Palmquist
+    role: Creator
   - name: Robin Isfold Munkvold
+    role: Creator
   - name: Ole Goethe
+    role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
   - name: Hrafnhildur Jonasdottir
+    role: Creator
   - name: Erik Martin Olsson
+    role: Creator
 - title: Gamification Design Predicaments for E-learning
   year: '2021'
   source: Journal article
@@ -87,8 +97,11 @@ selected_works:
   url: https://doi.org/10.1007/978-3-030-77414-1_18
   contributors:
   - name: Adam Palmquist
+    role: Creator
   - name: Robin Isfold Munkvold
+    role: Creator
   - name: Ole Goethe
+    role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
 - title: 'Gamification for Good: Addressing Dark Patterns in Gamified UX Design'
@@ -97,6 +110,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Ole Goethe
+    role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
 - title: 'From Aggregation to Navigation: Large Image Collections Seeking and Exploration'
@@ -106,6 +120,7 @@ selected_works:
   url: https://doi.org/10.1007/978-3-030-25629-6_3
   contributors:
   - name: Ole Goethe
+    role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
 - title: Practice and Value Aspects of Indie Game Development in Norway and Beyond
@@ -114,6 +129,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ole Goethe
+    role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
 - title: Gamification Mindset
@@ -122,6 +138,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ole Goethe
+    role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
 - title: 'Picturemarks: Changes in Mining Media and Digital Storytelling'
@@ -131,6 +148,7 @@ selected_works:
   url: https://doi.org/10.1007/978-3-319-92052-8_37
   contributors:
   - name: Ole Goethe
+    role: Creator
     slug: ole-goethe
     url: /people/ole-goethe/
 - title: 'Video Game (AAA): Blue Estate'
@@ -139,6 +157,7 @@ selected_works:
   group_type: Visual arts
   contributors:
   - name: Ole Goethe
+    role: Artist
     slug: ole-goethe
     url: /people/ole-goethe/
 source_mentions: []

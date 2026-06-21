@@ -45,9 +45,11 @@ selected_works:
   url: https://doi.org/10.18261/njdl.21.1.3
   contributors:
   - name: Øystein Olav Skaar
+    role: Creator
     slug: oystein-skaar
     url: /people/oystein-skaar/
   - name: Caroline Miriam Skaar
+    role: Creator
 - title: Artificial intelligence in higher education (symposium)
   year: '2024'
   source: Conference lecture
@@ -55,8 +57,11 @@ selected_works:
   url: https://www.bera.ac.uk/conference/bera-conference-2024-and-wera-focal-meeting/programme/programme-at-a-glance
   contributors:
   - name: Rune Johan Krumsvik
+    role: Creator
   - name: Fredrik Mørk Røkenes
+    role: Creator
   - name: Øystein Olav Skaar
+    role: Creator
     slug: oystein-skaar
     url: /people/oystein-skaar/
 - title: DigitalInnSights- To play or not to play?
@@ -65,11 +70,15 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Odd Rune Stalheim
+    role: Creator
   - name: Oda Julie Hembre
+    role: Creator
   - name: Øystein Olav Skaar
+    role: Creator
     slug: oystein-skaar
     url: /people/oystein-skaar/
   - name: Eloisa Michaelsen
+    role: Creator
 - title: 'Inclusion in the heat of the moment: Balancing participation and mastery'
   year: '2023'
   source: Journal article
@@ -77,8 +86,11 @@ selected_works:
   url: https://doi.org/10.3389/feduc.2023.967279
   contributors:
   - name: Kristian Øen
+    role: Creator
   - name: Rune Johan Krumsvik
+    role: Creator
   - name: Øystein Olav Skaar
+    role: Creator
     slug: oystein-skaar
     url: /people/oystein-skaar/
 - title: 'Alone or together: The role of gender and social context prior to Aha-experiences'
@@ -88,9 +100,11 @@ selected_works:
   url: https://doi.org/10.1111/sjop.12883
   contributors:
   - name: Øystein Olav Skaar
+    role: Creator
     slug: oystein-skaar
     url: /people/oystein-skaar/
   - name: Rolf Reber
+    role: Creator
 - title: "Experiences of WNGER II Ph.D.Fellows During the COVID-19\r\nPandemic – A\
     \ Case Study"
   year: '2022'
@@ -99,21 +113,28 @@ selected_works:
   url: https://doi.org/10.3389/feduc.2022.860828
   contributors:
   - name: Rune Johan Krumsvik
+    role: Creator
   - name: Øystein Olav Skaar
+    role: Creator
     slug: oystein-skaar
     url: /people/oystein-skaar/
   - name: Fredrik Mørk Røkenes
+    role: Creator
   - name: Stein Helge Solstad
+    role: Creator
   - name: Kjetil L Høydal
+    role: Creator
 - title: 'The Black Void: Students’ perceived learning outcome from remote teaching'
   year: '2022'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Øystein Olav Skaar
+    role: Creator
     slug: oystein-skaar
     url: /people/oystein-skaar/
   - name: Gaute Rydland Nilsen
+    role: Creator
 - title: 'Effects of facial symmetry and gaze direction on perception of social attributes:
     A study in experimental art history'
   year: '2016'
@@ -122,15 +143,23 @@ selected_works:
   url: https://doi.org/10.3389/fnhum.2016.00452
   contributors:
   - name: Per Olav Folgerø
+    role: Creator
   - name: Lasse Hodne
+    role: Creator
   - name: Christer Johansson
+    role: Creator
   - name: Alf Edgar Andresen
+    role: Creator
   - name: Lill Charlotte Sætren
+    role: Creator
   - name: Karsten Specht
+    role: Creator
   - name: Øystein Olav Skaar
+    role: Creator
     slug: oystein-skaar
     url: /people/oystein-skaar/
   - name: Rolf Reber
+    role: Creator
 - title: Multimedia discrepancies - plenary lectures as perceived by students
   year: '2015'
   source: Journal article
@@ -138,18 +167,22 @@ selected_works:
   url: https://doi.org/10.18261/ISSN1893-8981-2015-01-05
   contributors:
   - name: Øystein Olav Skaar
+    role: Creator
     slug: oystein-skaar
     url: /people/oystein-skaar/
   - name: Rune Johan Krumsvik
+    role: Creator
 - title: The Multimedia Expanse
   year: '2013'
   source: Master's thesis
   group_type: Master's thesis
   contributors:
   - name: Øystein Olav Skaar
+    role: Creator
     slug: oystein-skaar
     url: /people/oystein-skaar/
   - name: Rune Johan Krumsvik
+    role: Supervisor
 source_mentions: []
 summary: null
 permalink: /people/oystein-skaar/

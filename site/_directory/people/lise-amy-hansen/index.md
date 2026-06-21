@@ -39,19 +39,24 @@ selected_works:
   url: https://doi.org/10.21606/nordes.2025.24
   contributors:
   - name: Felicia Nilsson
+    role: Creator
   - name: Lise Amy Hansen
+    role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
   - name: Maria Göransdotter
+    role: Creator
 - title: The Perceived and the Performed - Exploring a Sensate Corporeal Practice
   year: '2025'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Lise Amy Hansen
+    role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
   - name: Janne-Camilla Lyster
+    role: Creator
 - title: Sensate and sensed – configuring conditions for a relational movement potential
   year: '2024'
   source: Conference lecture
@@ -59,9 +64,11 @@ selected_works:
   url: https://www.nsae.fi/conferences/
   contributors:
   - name: Lise Amy Hansen
+    role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
   - name: Janne-Camilla Lyster
+    role: Creator
 - title: Anticipation, agency and aging–conditions for making movement irresistible
   year: '2024'
   source: Journal article
@@ -69,11 +76,15 @@ selected_works:
   url: https://doi.org/10.3389/fragi.2024.1380838
   contributors:
   - name: Lise Amy Hansen
+    role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
   - name: Wendy Keay-Bright
+    role: Creator
   - name: Felicia Nilsson
+    role: Creator
   - name: Heidi Wilson
+    role: Creator
 - title: More than now – placing an experience of co-temporality in movement
   year: '2023'
   source: Conference lecture
@@ -81,7 +92,9 @@ selected_works:
   url: https://www.hf.uio.no/ikos/forskning/prosjekter/livstider/arrangementer/presence-and-rhythms.html
   contributors:
   - name: Janne-Camilla Lyster
+    role: Creator
   - name: Lise Amy Hansen
+    role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
 - title: InnArbeid - need-based innovation of technology-supported services with intellectual
@@ -91,14 +104,21 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Elin Thygesen
+    role: Creator
   - name: Sofie Sara Terese Wass
+    role: Creator
   - name: Lise Amy Hansen
+    role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
   - name: Carl Erik Moe
+    role: Creator
   - name: Elisabeth Holen-Rabbersvik
+    role: Creator
   - name: Ann-Elisabeth Ludvigsen
+    role: Creator
   - name: Frida  Almqvist
+    role: Creator
 - title: 'Communicating movement : full-body movement as a design material for digital
     interaction'
   year: '2014'
@@ -106,6 +126,7 @@ selected_works:
   group_type: PhD thesis
   contributors:
   - name: Lise Amy Hansen
+    role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
 - title: Materialising acts
@@ -114,6 +135,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Lise Amy Hansen
+    role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
 - title: Full-body movement as material for interaction design
@@ -123,6 +145,7 @@ selected_works:
   url: https://doi.org/10.1080/14626268.2011.622284
   contributors:
   - name: Lise Amy Hansen
+    role: Creator
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
 - title: Program to Perform, Exploring Dance and New Media
@@ -131,7 +154,9 @@ selected_works:
   group_type: Research report
   contributors:
   - name: Ine Therese Berg
+    role: Editor
   - name: Lise Amy Hansen
+    role: Editor
     slug: lise-amy-hansen
     url: /people/lise-amy-hansen/
 source_mentions:

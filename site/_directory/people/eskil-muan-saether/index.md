@@ -15,7 +15,7 @@ roles:
 - Administrative coordinator
 urls:
   personal_website: ''
-  institutional_website: https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: ''

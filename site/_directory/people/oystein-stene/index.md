@@ -34,6 +34,7 @@ selected_works:
   group_type: Performing arts
   contributors:
   - name: Øystein Stene
+    role: Dancer
     slug: oystein-stene
     url: /people/oystein-stene/
 - title: De opplyste (lydbok)
@@ -42,6 +43,7 @@ selected_works:
   group_type: Literary arts
   contributors:
   - name: Øystein Stene
+    role: RoleOther
     slug: oystein-stene
     url: /people/oystein-stene/
 - title: 'Skriver og spiller del 2: Konseptutvikling'
@@ -50,6 +52,7 @@ selected_works:
   group_type: Working paper
   contributors:
   - name: Øystein Stene
+    role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
 - title: Fra feminisme til aktivisme til populisme
@@ -58,6 +61,7 @@ selected_works:
   group_type: Professional article
   contributors:
   - name: Øystein Stene
+    role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
 - title: UFO-bygda
@@ -67,6 +71,7 @@ selected_works:
   url: https://www.nationaltheatret.no/forestillinger/arkiv/2018/ufo-bygda/
   contributors:
   - name: Øystein Stene
+    role: AcademicCoordinator
     slug: oystein-stene
     url: /people/oystein-stene/
 - title: 'Skriver og spiller del 1: Karakterutvikling'
@@ -75,6 +80,7 @@ selected_works:
   group_type: Working paper
   contributors:
   - name: Øystein Stene
+    role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
 - title: Umut
@@ -83,6 +89,7 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Øystein Stene
+    role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
 - title: Utdrag fra Zombie Nation
@@ -91,6 +98,7 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Øystein Stene
+    role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
 - title: 'Oslo International Acting Festival 2015: Rapport og oppsummering'
@@ -99,15 +107,18 @@ selected_works:
   group_type: Report
   contributors:
   - name: Øystein Stene
+    role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
   - name: Gianluca Iumiento
+    role: Creator
 - title: Acting After Postmodernism
   year: '2015'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Øystein Stene
+    role: Creator
     slug: oystein-stene
     url: /people/oystein-stene/
 source_mentions: []

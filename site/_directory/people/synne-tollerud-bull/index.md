@@ -24,7 +24,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://bull.miletic.info/
-  institutional_website: https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/
+  institutional_website: https://www.kristiania.no/om-kristiania/ansatte/school-of-arts-design-and-media/institutt-for-scenekunst-film-og-medier/synne-tollerud-bull/
   github: https://github.com/SynneTB
   linkedin: https://www.linkedin.com/in/synne-tollerud-bull-a86b0222/
   orcid: https://orcid.org/0000-0002-4248-5363
@@ -56,7 +56,9 @@ selected_works:
   url: https://doi.org/10.4324/9781003478805
   contributors:
   - name: Camilla Brattland
+    role: Creator
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
 - title: 'Introduction: Media Seas of the High North Atlantic'
@@ -66,11 +68,15 @@ selected_works:
   url: https://doi.org/10.4324/9781003478805
   contributors:
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   - name: Liv Hausken
+    role: Creator
   - name: Jørgen Alnæs
+    role: Creator
   - name: Susanne Østby Sæther
+    role: Creator
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
 - title: Media Seas and the Blue Humanities Studies of the High North Atlantic
@@ -80,13 +86,17 @@ selected_works:
   url: https://doi.org/10.4324/9781003478805
   contributors:
   - name: Synne Tollerud Bull
+    role: Editor
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   - name: Liv Hausken
+    role: Editor
   - name: Susanne Østby Sæther
+    role: Editor
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
   - name: Jørgen Alnæs
+    role: Editor
 - title: Manifestos for an Algorithmic World
   year: '2026'
   source: Conference lecture
@@ -94,6 +104,7 @@ selected_works:
   url: https://metamorf.art/2026/03/18/conference-program-signup/
   contributors:
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
 - title: MishMash, KI og kreative prosesser
@@ -103,6 +114,7 @@ selected_works:
   url: https://kulturkonferansen.no/
   contributors:
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
 - title: På Google Earth kan du zoome inn på hele verden. Men hva er det egentlig
@@ -113,6 +125,7 @@ selected_works:
   url: https://www.forskersonen.no/digital-teknologi-kronikk-kunstig-intelligens/pa-google-earth-kan-du-zoome-inn-pa-hele-verden-men-hva-er-det-egentlig-vi-ser/2597322
   contributors:
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
 - title: Når data ikke er nok
@@ -122,15 +135,18 @@ selected_works:
   url: https://www.khrono.no/nar-data-ikke-er-nok/1028243
   contributors:
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   - name: Pedro Lind
+    role: Creator
 - title: Månedens forsker, SADM
   year: '2025'
   source: Other artistic output
   group_type: Other artistic output
   contributors:
   - name: Synne Tollerud Bull
+    role: RoleOther
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
 - title: There's No Place Like Here
@@ -139,18 +155,22 @@ selected_works:
   group_type: Visual arts
   contributors:
   - name: Synne Tollerud Bull
+    role: Artist
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   - name: Dragan Miletic
+    role: Artist
 - title: The Violence of Participation
   year: '2007'
   source: Visual arts
   group_type: Visual arts
   contributors:
   - name: Synne Tollerud Bull
+    role: Artist
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   - name: Dragan Miletic
+    role: Artist
 source_mentions:
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md

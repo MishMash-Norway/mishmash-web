@@ -12,6 +12,7 @@ from directory_io import (
     extract_person_slugs,
     iter_directory_entries,
     save_entry,
+    slug_list_uses_path_refs,
 )
 from repo_paths import SITE_ROOT
 
@@ -123,8 +124,11 @@ def sync_directory(root: Path, dry_run: bool = False) -> dict[str, int]:
     for slug, data in people.items():
         new_institutions = sorted_unique(person_institutions.get(slug, set()))
         new_projects = sorted_unique(person_projects.get(slug, set()))
-        if new_institutions != as_slug_list(data.get("institutions")) or new_projects != as_slug_list(
-            data.get("projects")
+        if (
+            new_institutions != as_slug_list(data.get("institutions"))
+            or new_projects != as_slug_list(data.get("projects"))
+            or slug_list_uses_path_refs(data.get("institutions"))
+            or slug_list_uses_path_refs(data.get("projects"))
         ):
             data["institutions"] = new_institutions
             data["projects"] = new_projects
@@ -135,7 +139,12 @@ def sync_directory(root: Path, dry_run: bool = False) -> dict[str, int]:
     for slug, data in institutions.items():
         new_people = sorted_unique(institution_people.get(slug, set()))
         new_projects = sorted_unique(institution_projects.get(slug, set()))
-        if new_people != as_slug_list(data.get("people")) or new_projects != as_slug_list(data.get("projects")):
+        if (
+            new_people != as_slug_list(data.get("people"))
+            or new_projects != as_slug_list(data.get("projects"))
+            or slug_list_uses_path_refs(data.get("people"))
+            or slug_list_uses_path_refs(data.get("projects"))
+        ):
             data["people"] = new_people
             data["projects"] = new_projects
             if not dry_run:
@@ -155,6 +164,8 @@ def sync_directory(root: Path, dry_run: bool = False) -> dict[str, int]:
             or str(updated.get("name", "")).strip() != expected_name
             or updated["people"] != as_slug_list(raw.get("people"))
             or updated["institutions"] != as_slug_list(raw.get("institutions"))
+            or slug_list_uses_path_refs(raw.get("people"))
+            or slug_list_uses_path_refs(raw.get("institutions"))
         ):
             if not dry_run:
                 save_entry(paths[f"projects:{slug}"], updated, body)

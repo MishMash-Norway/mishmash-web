@@ -34,6 +34,7 @@ selected_works:
   group_type: Film or video
   contributors:
   - name: Tonje Louise Finne
+    role: AcademicCoordinator
     slug: tonje-louise-finne
     url: /people/tonje-louise-finne/
 - title: Martine - Jakten på rettferdighet.
@@ -42,6 +43,7 @@ selected_works:
   group_type: Film or video
   contributors:
   - name: Tonje Louise Finne
+    role: AcademicCoordinator
     slug: tonje-louise-finne
     url: /people/tonje-louise-finne/
 - title: '"Nødt eller sannhet" sesong 2'
@@ -50,6 +52,7 @@ selected_works:
   group_type: Film or video
   contributors:
   - name: Tonje Louise Finne
+    role: AcademicCoordinator
     slug: tonje-louise-finne
     url: /people/tonje-louise-finne/
 source_mentions: []

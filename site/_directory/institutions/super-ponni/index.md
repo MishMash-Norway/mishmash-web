@@ -1,4 +1,5 @@
 ---
+layout: page
 type: institution
 slug: super-ponni
 permalink: /institutions/super-ponni/
@@ -7,9 +8,9 @@ redirect_from:
 name: Super Ponni
 short_name: Super Ponni
 people:
-- /people/audun-kvitland-rostad/
-- /people/oystein-eugene-hermstad/
-- /people/tor-martin-norvik/
+- audun-kvitland-rostad
+- oystein-eugene-hermstad
+- tor-martin-norvik
 projects: []
 country: null
 city: null

@@ -36,7 +36,9 @@ selected_works:
   group_type: Non-fiction chapter
   contributors:
   - name: Ingfrid Breie Nyhus
+    role: Creator
   - name: Jostein Gundersen
+    role: Creator
     slug: jostein-gundersen
     url: /people/jostein-gundersen/
 - title: Mouvance. Approaches to re-enacting medieval music.
@@ -46,10 +48,13 @@ selected_works:
   url: https://doi.org/10.22501/vis.635886
   contributors:
   - name: Jostein Gundersen
+    role: Creator
     slug: jostein-gundersen
     url: /people/jostein-gundersen/
   - name: Alwynne Pritchard
+    role: Creator
   - name: Ruben Sverre Gjertsen
+    role: Creator
 - title: Improvisasjon. Diminusjonspraksis fra 1350 til 1700
   year: '2010'
   source: PhD thesis
@@ -57,6 +62,7 @@ selected_works:
   url: http://www.uib.no/info/dr_grad/2010/Gundersen_Jostein.html
   contributors:
   - name: Jostein Gundersen
+    role: Creator
     slug: jostein-gundersen
     url: /people/jostein-gundersen/
 - title: Improvisasjon over flerstemt musikk fra 1350-1700
@@ -66,6 +72,7 @@ selected_works:
   url: http://www.uib.no/info/dr_grad/2009/Gundersen_Jostein.html
   contributors:
   - name: Jostein Gundersen
+    role: Creator
     slug: jostein-gundersen
     url: /people/jostein-gundersen/
 source_mentions:

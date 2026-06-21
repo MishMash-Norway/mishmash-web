@@ -14,7 +14,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://www.nb.no/ansatte/ingrid-romarheim-haugen/
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0001-8326-7135
@@ -34,13 +34,19 @@ selected_works:
   url: https://www.bokselskap.no/boker/draumkvedetinnganger/tittelside
   contributors:
   - name: Astrid Nora Ressem
+    role: Editor
   - name: David Stephen Grant
+    role: EditorialBoardMember
   - name: Ingrid Romarheim Haugen
+    role: EditorialBoardMember
     slug: ingrid-romarheim-haugen
     url: /people/ingrid-romarheim-haugen/
   - name: Trond Haugen
+    role: EditorialBoardMember
   - name: Charlotte Piene
+    role: EditorialBoardMember
   - name: Hans-Hinrich Thedens
+    role: EditorialBoardMember
 source_mentions:
 - about/organisation/wp-leaders/index.md
 wps:

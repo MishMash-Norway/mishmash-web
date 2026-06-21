@@ -34,11 +34,15 @@ selected_works:
   url: https://doi.org/10.4324/9781003478805
   contributors:
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   - name: Liv Hausken
+    role: Creator
   - name: Jørgen Alnæs
+    role: Creator
   - name: Susanne Østby Sæther
+    role: Creator
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
 - title: Media Seas and the Blue Humanities Studies of the High North Atlantic
@@ -48,23 +52,30 @@ selected_works:
   url: https://doi.org/10.4324/9781003478805
   contributors:
   - name: Synne Tollerud Bull
+    role: Editor
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   - name: Liv Hausken
+    role: Editor
   - name: Susanne Østby Sæther
+    role: Editor
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
   - name: Jørgen Alnæs
+    role: Editor
 - title: The Atlantic Ocean
   year: '2024'
   source: Non-fiction book
   group_type: Non-fiction book
   contributors:
   - name: Susanne Østby Sæther
+    role: Editor
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
   - name: Stefanie Hessler
+    role: Editor
   - name: Knut Ljøgodt
+    role: Editor
 - title: Screen Space Reconfigured
   year: '2020'
   source: Book anthology
@@ -72,9 +83,11 @@ selected_works:
   url: https://doi.org/10.2307/j.ctv12pnt9c
   contributors:
   - name: Susanne Østby Sæther
+    role: Editor
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
   - name: Synne Tollerud Bull
+    role: Editor
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
 - title: Kunst i bevegelse. Iverksettelse av film- og videokunst
@@ -83,7 +96,9 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Tore Slaatta
+    role: Creator
   - name: Susanne Østby Sæther
+    role: Creator
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
 - title: 'The aesthetics of Sampling: Engaging the Media in Recent Video Art'
@@ -92,6 +107,7 @@ selected_works:
   group_type: PhD thesis
   contributors:
   - name: Susanne Østby Sæther
+    role: Creator
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
 - title: Life Remixed
@@ -100,6 +116,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Susanne Østby Sæther
+    role: Creator
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
 - title: Samplingens estetikk
@@ -108,6 +125,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Susanne Østby Sæther
+    role: Creator
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
 - title: Life Remixed. Biopolitics and Materiality in Recent Media Art
@@ -116,6 +134,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Susanne Østby Sæther
+    role: Creator
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
 - title: Et hjem for oss - et hjem for deg? Analyser av TV 2. 2 utgave
@@ -124,8 +143,11 @@ selected_works:
   group_type: Book anthology
   contributors:
   - name: Trine Syvertsen
+    role: Editor
   - name: Gunn Enli
+    role: Editor
   - name: Susanne Østby Sæther
+    role: Editor
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
 source_mentions: []

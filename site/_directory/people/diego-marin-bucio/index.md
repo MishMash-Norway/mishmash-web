@@ -55,6 +55,7 @@ selected_works:
   url: https://dl.acm.org/doi/10.1145/3802842.3802849
   contributors:
   - name: Diego Marin-Bucio
+    role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 - title: 'Memory in performance: kinesthetic and procedural dimensions of skill acquisition
@@ -65,11 +66,15 @@ selected_works:
   url: https://doi.org/10.3389/fpsyg.2026.1751590
   contributors:
   - name: Diego Marin-Bucio
+    role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
   - name: Anne Danielsen
+    role: Creator
   - name: Noumouke Doumbia
+    role: Creator
   - name: Rainer Polak
+    role: Creator
 - title: The Origins of Intelligence – A performative statement on the primacy of
     movement
   year: '2025'
@@ -78,6 +83,7 @@ selected_works:
   url: https://diegomarin.art/portfolio/the-origins-of-intelligence/
   contributors:
   - name: Diego Marin-Bucio
+    role: Choreographer
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 - title: 'Machinic Movement Matrix: A framework and tool for human-AI dance-creation'
@@ -86,6 +92,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Diego Marin-Bucio
+    role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 - title: Co-creation of rhythm in Djembe Music-Dance
@@ -94,6 +101,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Diego Marin-Bucio
+    role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 - title: 'Consciencia intuitiva en la construcción de experiencias kinestésicas: un
@@ -104,6 +112,7 @@ selected_works:
   url: https://doi.org/10.14483/25909398.19823
   contributors:
   - name: Diego Antonio Marin Bucio
+    role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 - title: 'Dancing Embryo: Danza y co-creatividad humano-IA'
@@ -112,6 +121,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Diego Antonio Marin Bucio
+    role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 - title: ¿Puede una IA bailar?
@@ -120,6 +130,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Diego Antonio Marin Bucio
+    role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 - title: 'Exploring motion capture systems in dance research: a case study of djembe
@@ -129,9 +140,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Diego Antonio Marín Bucio
+    role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
   - name: Rainer Polak
+    role: Creator
 - title: Danza y co-creatividad kinestésica Humano-IA
   year: '2023'
   source: Journal article
@@ -139,6 +152,7 @@ selected_works:
   url: https://doi.org/10.29057/ia.v11i22.10684
   contributors:
   - name: Diego Antonio Marín Bucio
+    role: Creator
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 source_mentions: []

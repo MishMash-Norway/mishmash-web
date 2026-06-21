@@ -29,7 +29,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://nmh.no/kontakt-oss/ansatte/ivar-grydeland
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0007-3445-7294
@@ -49,9 +49,11 @@ selected_works:
   url: https://www.routledge.com/Innovation-in-Music-Innovative-Creative-Practice/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757834
   contributors:
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
   - name: Ivar Grydeland
+    role: Creator
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
 - title: Love Your Latency, September 2024
@@ -60,34 +62,47 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Ivar Grydeland
+    role: Composer
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
   - name: Michael Francis Duch
+    role: Composer
   - name: Jan Bang
+    role: Composer
   - name: Torben Snekkestad
+    role: Composer
   - name: Lene Grenager
+    role: Composer
   - name: Michaela Antalová
+    role: Composer
   - name: Michaela Antalová
+    role: Artist
   - name: Bjørnar Habbestad
+    role: Composer
   - name: Hild Sofie Tafjord
+    role: Composer
 - title: Love your Latency – harmonizing from afar
   year: '2024'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Ivar Grydeland
+    role: Creator
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
   - name: Michael Francis Duch
+    role: Creator
 - title: Love your Latency and the Glitching Spatiotemporal Condition
   year: '2024'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
   - name: Ivar Grydeland
+    role: Creator
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
 - title: Goodbye Intuition
@@ -97,17 +112,25 @@ selected_works:
   url: https://doi.org/10.22501/NMH-AR.974962
   contributors:
   - name: Ivar Grydeland
+    role: Creator
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
   - name: Morten Qvenild
+    role: Creator
     slug: morten-qvenild
     url: /people/morten-qvenild/
   - name: Sidsel Endresen
+    role: Creator
   - name: Andrea Neumann
+    role: Creator
   - name: Henrik Frisk
+    role: Creator
   - name: David Toop
+    role: Creator
   - name: Anna Lindal
+    role: Creator
   - name: Lasse Marhaug
+    role: Creator
 - title: OMRÅDE 51 — Morten Qvenild og Frode Grytten
   year: '2019'
   source: Music performance
@@ -115,12 +138,15 @@ selected_works:
   url: https://www.mortyq.com/omrade51
   contributors:
   - name: Morten Qvenild
+    role: Composer
     slug: morten-qvenild
     url: /people/morten-qvenild/
   - name: Ivar Grydeland
+    role: Composer
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
   - name: Frode Grytten
+    role: Writer
 - title: Ensemble and Ensemble of Me. What I think about when I think about improvisation
   year: '2016'
   source: Research report
@@ -128,6 +154,7 @@ selected_works:
   url: https://doi.org/10.22501/nmh-ar.2255877
   contributors:
   - name: Ivar Grydeland
+    role: Creator
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
 - title: Stop Freeze Wait Eat
@@ -136,6 +163,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Ivar Grydeland
+    role: Composer
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
 - title: Ensemble & Ensemble of Me – What I Think About When I Think About Improvisation
@@ -144,6 +172,7 @@ selected_works:
   group_type: PhD thesis
   contributors:
   - name: Ivar Grydeland
+    role: Creator
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
 - title: Dans les arbres
@@ -152,11 +181,15 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Ivar Grydeland
+    role: Composer
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
   - name: Ingar Zach
+    role: Composer
   - name: Christian Wallumrød
+    role: Composer
   - name: Xavier Charles
+    role: Composer
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

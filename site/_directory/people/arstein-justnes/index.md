@@ -32,6 +32,7 @@ selected_works:
   group_type: Monograph
   contributors:
   - name: Årstein Justnes
+    role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
 - title: Situasjonen for religionsfagene
@@ -40,6 +41,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Årstein Justnes
+    role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
 - title: Ad fontes! Ad fragmenta! Reinventing the Dead Sea Scrolls
@@ -48,9 +50,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Årstein Justnes
+    role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
   - name: Hilda Deborah
+    role: Creator
     slug: hilda-deborah
     url: /people/hilda-deborah/
 - title: From Qumran Caves to Swiss Vaults Unprovenanced Dead Sea Scrolls-Like Fragments
@@ -61,6 +65,7 @@ selected_works:
   url: https://doi.org/10.1163/15685179-bja10052
   contributors:
   - name: Årstein Justnes
+    role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
 - title: Dødehavsrullene i bilder - og i endring
@@ -69,15 +74,18 @@ selected_works:
   group_type: Research report
   contributors:
   - name: Årstein Justnes
+    role: Editor
     slug: arstein-justnes
     url: /people/arstein-justnes/
   - name: Martin S. Stomnås
+    role: Creator
 - title: Dødehavsrullene: hemmeligheten(e) i hulen(e)
   year: '2014'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Årstein Justnes
+    role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
 - title: Retreat med minfulness
@@ -86,6 +94,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Årstein Justnes
+    role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
 - title: Bibelen - mellom hellig skrift og stor litteratur
@@ -94,6 +103,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Årstein Justnes
+    role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
 - title: 'Kunsten å være nybegynner: En bok om mindfulness/oppmerksomhetstrening'
@@ -102,6 +112,7 @@ selected_works:
   group_type: Working paper
   contributors:
   - name: Årstein Justnes
+    role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
 - title: Språksituasjonen i Palestina i det første århundre e. Kr
@@ -110,6 +121,7 @@ selected_works:
   group_type: Working paper
   contributors:
   - name: Årstein Justnes
+    role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
 source_mentions: []

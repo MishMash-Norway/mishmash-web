@@ -43,6 +43,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Ole-Andreas Rognstad
+    role: Creator
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
 - title: Creating Value Through Design and Law
@@ -51,15 +52,18 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ole-Andreas Rognstad
+    role: Creator
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
   - name: Stina Teilmann-Lock
+    role: Creator
 - title: Copyright and environmental sustainability
   year: '2025'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Ole-Andreas Rognstad
+    role: Creator
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
 - title: Design og eierskap - designfaglige, estetiske og juridiske perspektiver
@@ -69,9 +73,11 @@ selected_works:
   url: https://doi.org/10.7577/formakademisk.5086
   contributors:
   - name: Ole-Andreas Rognstad
+    role: Creator
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
   - name: Astrid Maria Heimer
+    role: Creator
 - title: 'The Delicate Scope of Economic Rights in the EU Copyright Law: Opinion of
     the European Copyright Society in Light of Case C-161/17, Land Nordrhein-Westfalen
     v Renckhoff (Cordoba case) (2019)'
@@ -80,18 +86,24 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Ole-Andreas Rognstad
+    role: Creator
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
   - name: Christophe Geiger
+    role: Creator
   - name: Marie-Christine Janssens
+    role: Creator
   - name: Alain Strowel
+    role: Creator
   - name: Raquel Xalabarder
+    role: Creator
 - title: Opphavsrett til smaker? EU-domstolens dom i sak C-310/17 (Levola Hengelo)
   year: '2019'
   source: Popular science article
   group_type: Popular science article
   contributors:
   - name: Ole-Andreas Rognstad
+    role: Creator
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
 - title: Kollektiv forvaltning av rettigheter til online-overføring mv. av musikk.
@@ -101,6 +113,7 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Ole-Andreas Rognstad
+    role: Creator
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
 - title: Opphavsrett.Databasevern. EF-domstolens dom i sak C-304/07 (Direct Media)
@@ -109,6 +122,7 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Ole-Andreas Rognstad
+    role: Creator
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
 - title: Konsumpsjon og digitale overføringer. Et forslag til en alternativ løsningsmodell
@@ -117,6 +131,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Ole-Andreas Rognstad
+    role: Creator
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
 - title: Mot en ny immaterialrettsprosess i Europa
@@ -125,6 +140,7 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Ole-Andreas Rognstad
+    role: Creator
     slug: ole-andreas-rognstad
     url: /people/ole-andreas-rognstad/
 source_mentions: []

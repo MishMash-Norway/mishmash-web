@@ -1,4 +1,5 @@
 ---
+layout: page
 type: institution
 slug: screenstory
 permalink: /institutions/screenstory/
@@ -7,7 +8,7 @@ redirect_from:
 name: Screenstory
 short_name: Screenstory
 people:
-- /people/tommy-aase/
+- tommy-aase
 projects: []
 country: null
 city: null

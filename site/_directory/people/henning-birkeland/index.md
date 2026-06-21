@@ -51,23 +51,30 @@ selected_works:
   group_type: Visual arts
   contributors:
   - name: Marie Dahlén
+    role: Artist
   - name: Rafal Hanzl
+    role: Artist
   - name: Henning Birkeland
+    role: Artist
     slug: henning-birkeland
     url: /people/henning-birkeland/
   - name: Jannicke Johansen
+    role: Artist
 - title: '3D-grafikk: Fra geometri til realisme'
   year: '2024'
   source: Textbook
   group_type: Textbook
   contributors:
   - name: Sigbjørn Galåen
+    role: Creator
     slug: sigbjorn-galaen
     url: /people/sigbjorn-galaen/
   - name: Henning Birkeland
+    role: Creator
     slug: henning-birkeland
     url: /people/henning-birkeland/
   - name: Ivar Kjellmo
+    role: Creator
 - title: Hvordan lager 3D-grafikere scener til spill og film?
   year: '2024'
   source: Popular science article
@@ -75,9 +82,11 @@ selected_works:
   url: https://www.forskersonen.no/design-film-meninger/hvordan-lager-3d-grafikere-scener-til-spill-og-film/2315134
   contributors:
   - name: Sigbjørn Galåen
+    role: Creator
     slug: sigbjorn-galaen
     url: /people/sigbjorn-galaen/
   - name: Henning Birkeland
+    role: Creator
     slug: henning-birkeland
     url: /people/henning-birkeland/
 - title: The impact of AI – how will it affect the industry and the education of visual
@@ -87,9 +96,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sigbjørn Galåen
+    role: Creator
     slug: sigbjorn-galaen
     url: /people/sigbjorn-galaen/
   - name: Henning Birkeland
+    role: Creator
     slug: henning-birkeland
     url: /people/henning-birkeland/
 - title: Teaching Computer Graphics - A Structured Learning-By-Doing Approach
@@ -98,21 +109,26 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sigbjørn Galåen
+    role: Creator
     slug: sigbjorn-galaen
     url: /people/sigbjorn-galaen/
   - name: Henning Birkeland
+    role: Creator
     slug: henning-birkeland
     url: /people/henning-birkeland/
   - name: Ivar Kjellmo
+    role: Creator
 - title: Hvordan vil AI prege 3D-grafikk?
   year: '2023'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Henning Birkeland
+    role: Creator
     slug: henning-birkeland
     url: /people/henning-birkeland/
   - name: Sigbjørn Galåen
+    role: Creator
     slug: sigbjorn-galaen
     url: /people/sigbjorn-galaen/
 - title: Slik blir fremtiden i 3D-grafikk for spill, film og visualisering
@@ -121,9 +137,11 @@ selected_works:
   group_type: Professional article
   contributors:
   - name: Henning Birkeland
+    role: Creator
     slug: henning-birkeland
     url: /people/henning-birkeland/
   - name: Sigbjørn Galåen
+    role: Creator
     slug: sigbjorn-galaen
     url: /people/sigbjorn-galaen/
 - title: 'Formidlingsprosjekt: Bransjerelatert Fagbok Innen 3D-grafikk'
@@ -132,10 +150,13 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sigbjørn Galåen
+    role: Creator
     slug: sigbjorn-galaen
     url: /people/sigbjorn-galaen/
   - name: Ivar Kjellmo
+    role: Creator
   - name: Henning Birkeland
+    role: Creator
     slug: henning-birkeland
     url: /people/henning-birkeland/
 source_mentions: []

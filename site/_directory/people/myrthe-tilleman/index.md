@@ -52,13 +52,19 @@ selected_works:
   url: https://doi.org/10.1109/swc65939.2025.00277
   contributors:
   - name: Shravan Kumar Pattiwar
+    role: Creator
   - name: Myrthe Tilleman
+    role: Creator
     slug: myrthe-tilleman
     url: /people/myrthe-tilleman/
   - name: Konstantinos Kousias
+    role: Creator
   - name: Paresh Saxena
+    role: Creator
   - name: Ozgu Alay
+    role: Creator
   - name: Carsten Griwodz
+    role: Creator
     slug: carsten-griwodz
     url: /people/carsten-griwodz/
 - title: On the limits of trajectory prediction for hand movement trajectories with
@@ -68,19 +74,27 @@ selected_works:
   group_type: Report
   contributors:
   - name: Emilio Ruiz
+    role: Creator
   - name: Konstantinos Kousias
+    role: Creator
   - name: Shravan Kumar
+    role: Creator
   - name: Myrthe Tilleman
+    role: Creator
     slug: myrthe-tilleman
     url: /people/myrthe-tilleman/
   - name: Baltasar Beferull-Lozano
+    role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
   - name: Özgü Alay
+    role: Creator
   - name: Carsten Griwodz
+    role: Creator
     slug: carsten-griwodz
     url: /people/carsten-griwodz/
   - name: Alessandro Filippeschi
+    role: Creator
 source_mentions: []
 wps:
 - WP1

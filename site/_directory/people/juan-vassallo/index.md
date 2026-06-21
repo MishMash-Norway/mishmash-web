@@ -35,10 +35,13 @@ selected_works:
   url: https://doi.org/10.3389/fcomp.2025.1543074
   contributors:
   - name: Juan Sebastián Vassallo
+    role: Creator
     slug: juan-vassallo
     url: /people/juan-vassallo/
   - name: Örjan Sandred
+    role: Creator
   - name: Julien Vincenot
+    role: Creator
 - title: 'Exploring Musical Procedural Rhetoric: Computational Influence on Compositional
     Frameworks and Methods in the piece "Elevator Pitch"'
   year: '2024'
@@ -47,6 +50,7 @@ selected_works:
   url: https://doi.org/10.48293/IJMSTA-114
   contributors:
   - name: Juan Sebastián Vassallo
+    role: Creator
     slug: juan-vassallo
     url: /people/juan-vassallo/
 - title: SYMBOLIC MUSICAL RESYNTHESIS AS AN EKPHRASTIC COMPOSITIONAL PRACTICE USING
@@ -57,6 +61,7 @@ selected_works:
   url: https://doi.org/10.55877/cc.vol22.443
   contributors:
   - name: Juan Sebastián Vassallo
+    role: Creator
     slug: juan-vassallo
     url: /people/juan-vassallo/
 - title: 'Machinic automation in the process of text and music composition: The versificator'
@@ -66,6 +71,7 @@ selected_works:
   url: https://nivel.teak.fi/carpa7/machinic-automation-in-the-process-of-text-and-music-composition/
   contributors:
   - name: Juan Sebastián Vassallo
+    role: Creator
     slug: juan-vassallo
     url: /people/juan-vassallo/
 source_mentions: []

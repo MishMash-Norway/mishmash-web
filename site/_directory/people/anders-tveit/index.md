@@ -56,7 +56,9 @@ selected_works:
   url: https://doi.org/10.55669/oa491111
   contributors:
   - name: Natasha Barrett
+    role: Creator
   - name: Anders Tveit
+    role: Creator
     slug: anders-tveit
     url: /people/anders-tveit/
 - title: Mesmerisms no.1
@@ -66,6 +68,7 @@ selected_works:
   url: https://spatialaudiogathering.github.io/April1.html#D2AV2
   contributors:
   - name: Anders Tveit
+    role: Composer
     slug: anders-tveit
     url: /people/anders-tveit/
 - title: In a Now
@@ -74,11 +77,15 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Ingvo Clauder
+    role: Composer
   - name: Anders Tveit
+    role: Composer
     slug: anders-tveit
     url: /people/anders-tveit/
   - name: Terje Evensen
+    role: Composer
   - name: Trond Lossius
+    role: Composer
     slug: trond-lossius
     url: /people/trond-lossius/
 - title: Fritt fall - Live coding
@@ -87,9 +94,11 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Artist
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Anders Tveit
+    role: Artist
     slug: anders-tveit
     url: /people/anders-tveit/
 - title: Lær kidsa musikkoding
@@ -99,9 +108,11 @@ selected_works:
   url: http://site.uit.no/musikkteknologidagene15/
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Anders Tveit
+    role: Creator
     slug: anders-tveit
     url: /people/anders-tveit/
 - title: OMO på Komdagen
@@ -110,61 +121,86 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Artist
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Kristian Nymoen
+    role: Artist
   - name: Anders Tveit
+    role: Artist
     slug: anders-tveit
     url: /people/anders-tveit/
   - name: Mari Romarheim Haugen
+    role: Artist
   - name: Ragnhild Torvanger Solberg
+    role: Artist
   - name: Håkon Bachken Eikeland
+    role: Artist
   - name: Thomas Dahl Andersen
+    role: Artist
 - title: Reunion2012
   year: '2014'
   source: Music performance
   group_type: Music performance
   contributors:
   - name: Anders Tveit
+    role: Composer
     slug: anders-tveit
     url: /people/anders-tveit/
   - name: Eskil Muan Sæther
+    role: Composer
   - name: Øyvind Brandtsegg
+    role: Artist
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
   - name: Tone Åse
+    role: Artist
   - name: Eskil Muan Sæther
+    role: Artist
 - title: 'Semesteråpningskonsert: Oslo mobilorkester'
   year: '2013'
   source: Music performance
   group_type: Music performance
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Artist
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Mons Thyness
+    role: Artist
   - name: Ellen K Sjøstrand Wingerei
+    role: Artist
   - name: Turid Kristensen
+    role: Artist
   - name: Hans T. Zeiner-Henriksen
+    role: Artist
   - name: Åshild Watne
+    role: Artist
   - name: Eirik Askerøi
+    role: Artist
   - name: Anders Tveit
+    role: Artist
     slug: anders-tveit
     url: /people/anders-tveit/
   - name: Anne Eline Riisnæs
+    role: Artist
 - title: Oslo iPhone Ensemble @ Scandinavian Futures
   year: '2011'
   source: Music performance
   group_type: Music performance
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Artist
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Anders Tveit
+    role: Artist
     slug: anders-tveit
     url: /people/anders-tveit/
   - name: Arve Voldsund
+    role: Artist
   - name: Viet phi uy Hoang
+    role: Artist
 source_mentions: []
 summary: null
 permalink: /people/anders-tveit/

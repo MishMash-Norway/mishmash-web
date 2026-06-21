@@ -40,6 +40,7 @@ selected_works:
   group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
+    role: Artist
     slug: tiril-schroder
     url: /people/tiril-schroder/
 - title: Serie «På camping med Dahl/Å se fremtiden gjennom bakspeilet» 2022
@@ -48,6 +49,7 @@ selected_works:
   group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
+    role: Artist
     slug: tiril-schroder
     url: /people/tiril-schroder/
 - title: 'Ufo in forest: 5 times it didn''t work and one time it did'
@@ -56,6 +58,7 @@ selected_works:
   group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
+    role: Artist
     slug: tiril-schroder
     url: /people/tiril-schroder/
 - title: Gjennom landskap
@@ -64,6 +67,7 @@ selected_works:
   group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
+    role: Artist
     slug: tiril-schroder
     url: /people/tiril-schroder/
 - title: Undersøkelse av digitale tegneverktøy - strektester
@@ -72,6 +76,7 @@ selected_works:
   group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
+    role: Artist
     slug: tiril-schroder
     url: /people/tiril-schroder/
 - title: Rapport fra Research Lab høst 2020
@@ -80,12 +85,15 @@ selected_works:
   group_type: Report
   contributors:
   - name: Trine Wester
+    role: Creator
     slug: trine-wester
     url: /people/trine-wester/
   - name: Tiril Schrøder
+    role: Creator
     slug: tiril-schroder
     url: /people/tiril-schroder/
   - name: Karen Disen
+    role: Creator
 - title: 3rd International Academic Printmaking Alliance (IAPA) Biennial and Academic
     Symposium
   year: '2020'
@@ -93,6 +101,7 @@ selected_works:
   group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
+    role: Artist
     slug: tiril-schroder
     url: /people/tiril-schroder/
 - title: Trykk fra serien "Gjenfortellinger" s.254
@@ -101,6 +110,7 @@ selected_works:
   group_type: Popular science chapter
   contributors:
   - name: Tiril Schrøder
+    role: Creator
     slug: tiril-schroder
     url: /people/tiril-schroder/
 - title: Our digital selves
@@ -109,20 +119,26 @@ selected_works:
   group_type: Book anthology
   contributors:
   - name: Francis Robertson
+    role: Creator
   - name: Trine Wester
+    role: Editor
     slug: trine-wester
     url: /people/trine-wester/
   - name: Hege Bratsberg
+    role: Editor
   - name: Tiril Schrøder
+    role: Editor
     slug: tiril-schroder
     url: /people/tiril-schroder/
   - name: Karen Disen
+    role: Editor
 - title: Storyline
   year: '2013'
   source: Visual arts
   group_type: Visual arts
   contributors:
   - name: Tiril Schrøder
+    role: Artist
     slug: tiril-schroder
     url: /people/tiril-schroder/
 source_mentions: []

@@ -9,7 +9,7 @@ institutions:
 - reimagine
 projects: []
 roles:
-- Board Member
+- Board member
 - Council member
 urls:
   personal_website: ''

@@ -64,28 +64,6 @@ search_keywords:
 - Listening
 - Contemporary art
 selected_works:
-- title: Trust and Creativity Values. Structures and Leadership in Film Production
-  year: '2026'
-  source: Artistic degree phd
-  group_type: Artistic degree phd
-  url: https://www.researchcatalogue.net/view/3667868/3820856
-  contributors:
-  - name: Frederick Howard
-  - name: Tom Remlov
-  - name: Trond Lossius
-    slug: trond-lossius
-    url: /people/trond-lossius/
-- title: Filmbildet og den lange tagningen
-  year: '2026'
-  source: Artistic degree phd
-  group_type: Artistic degree phd
-  url: https://www.researchcatalogue.net/view/3561121/3561122
-  contributors:
-  - name: Cecilie Semec Mikkelson
-  - name: Kjell Vassdal
-  - name: Trond Lossius
-    slug: trond-lossius
-    url: /people/trond-lossius/
 - title: Longue Durée
   year: '2026'
   source: Visual arts
@@ -93,7 +71,9 @@ selected_works:
   url: https://www.kunstforeninger.no/nyheter/en-audiovisuell-opplevelse-skapt-gjennom-dialog-og-improvisasjon
   contributors:
   - name: Ingeborg Annie Lindahl
+    role: Artist
   - name: Trond Lossius
+    role: Artist
     slug: trond-lossius
     url: /people/trond-lossius/
 - title: Whales Surround Us (Concert Version)
@@ -102,10 +82,13 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Bjarne Kvinnsland
+    role: Composer
   - name: Trond Lossius
+    role: Composer
     slug: trond-lossius
     url: /people/trond-lossius/
   - name: David Rothenberg
+    role: Composer
 - title: Persistent Disequilibrium
   year: '2025'
   source: Other artistic output
@@ -113,13 +96,17 @@ selected_works:
   url: https://wrap.hdu.no/kjelbju-laven-iii-pc.html
   contributors:
   - name: Øyvind Brandtsegg
+    role: RoleOther
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
   - name: Tijs Ham
+    role: RoleOther
   - name: Trond Lossius
+    role: RoleOther
     slug: trond-lossius
     url: /people/trond-lossius/
   - name: Jeremy Welsh
+    role: RoleOther
 - title: En konsert i omsluttende lyd
   year: '2025'
   source: Music performance
@@ -127,13 +114,19 @@ selected_works:
   url: https://notam.no/nyheter/en-konsert-i-omsluttende-lyd-notam-cinemateket/
   contributors:
   - name: Mariam Gviniashvili
+    role: Composer
   - name: Michael Francis Duch
+    role: Musician
   - name: Vilbjørg Broch
+    role: Composer
   - name: Bjarne Kvinnsland
+    role: Composer
   - name: Trond Lossius
+    role: Composer
     slug: trond-lossius
     url: /people/trond-lossius/
   - name: David Rothenberg
+    role: Composer
 - title: 'Whalesound 2: Who Knows Why Whales Sing?'
   year: '2025'
   source: Other artistic output
@@ -141,8 +134,11 @@ selected_works:
   url: https://luma.com/7qowriw9
   contributors:
   - name: David Rothenberg
+    role: RoleOther
   - name: Bjarne Kvinnsland
+    role: RoleOther
   - name: Trond Lossius
+    role: RoleOther
     slug: trond-lossius
     url: /people/trond-lossius/
 - title: 'Whalesound 1: Humpback Whale Meditation Session'
@@ -152,8 +148,11 @@ selected_works:
   url: https://luma.com/dp73kjej
   contributors:
   - name: David Rothenberg
+    role: Composer
   - name: Bjarne Kvinnsland
+    role: Composer
   - name: Trond Lossius
+    role: Composer
     slug: trond-lossius
     url: /people/trond-lossius/
 - title: 'Whalesound 3: Whales Surround Us (Concert Version)'
@@ -163,22 +162,57 @@ selected_works:
   url: https://luma.com/2w777u1o
   contributors:
   - name: Bjarne Kvinnsland
+    role: Composer
   - name: Trond Lossius
+    role: Composer
     slug: trond-lossius
     url: /people/trond-lossius/
   - name: David Rothenberg
+    role: Composer
 - title: Open seminar for INN’s Research Programme in AI & VR/AR
   year: '2025'
   source: Exhibition
   group_type: Exhibition
   contributors:
   - name: Trond Lossius
+    role: Curator
     slug: trond-lossius
     url: /people/trond-lossius/
   - name: Therese Næss Diesen
+    role: AudioVisualContributor
   - name: Gunn Tove Grønsberg
+    role: AudioVisualContributor
   - name: James Welburn
+    role: AudioVisualContributor
   - name: Stein Tore Sønsteli
+    role: CollaborationPartner
+- title: Elektroakustisk Trondheim i Planetariet vol. 3
+  year: '2023'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Trond Lossius
+    role: Composer
+    slug: trond-lossius
+    url: /people/trond-lossius/
+- title: Flexible Control of Composite Parameters in Max/MSP
+  year: '2008'
+  source: Conference lecture
+  group_type: Conference
+  url: http://www.duo.uio.no/sok/work.html?WORKID=86094&fid=44545
+  contributors:
+  - name: Timothy Place
+    role: Creator
+  - name: Trond Lossius
+    role: Creator
+    slug: trond-lossius
+    url: /people/trond-lossius/
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Nils Peters
+    role: Creator
 source_mentions: []
 summary: "Trond Lossius is a sound and installation artist based in Bergen, Norway.\
   \ His projects investigate sound, place and space, using sound spatialisation and\

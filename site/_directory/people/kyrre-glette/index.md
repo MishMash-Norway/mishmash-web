@@ -52,14 +52,19 @@ selected_works:
   url: https://doi.org/10.1016/j.neunet.2026.108798
   contributors:
   - name: Mia-Katrin Ose Kvalsund
+    role: Creator
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Sidney Pontes-Filho
+    role: Creator
   - name: Mikkel Elle Lepperød
+    role: Creator
 - title: Co-Optimization of Robot Bodies and Brains with Evolutionary Algorithms
   year: '2025'
   source: Conference lecture
@@ -67,11 +72,15 @@ selected_works:
   url: https://www.mn.uio.no/ifi/english/research/groups/robin/events/Tutorials/Tutorial-SSCI2025/Tutorial-SSCI2025
   contributors:
   - name: Frank Veenstra
+    role: Creator
   - name: Ege de Bruin
+    role: Creator
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 - title: Integrating Sample Inheritance into Bayesian Optimization for Evolutionary
@@ -82,10 +91,13 @@ selected_works:
   url: https://doi.org/10.1162/ISAL.a.866
   contributors:
   - name: Ege de Bruin
+    role: Creator
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 - title: 'HS-ims: A Platform for Human-Swarm Interactive Music Systems'
@@ -95,11 +107,15 @@ selected_works:
   url: https://doi.org/10.1109/ACSOS-C66519.2025.00067
   contributors:
   - name: Pedro Pablo Lucas Bravo
+    role: Creator
   - name: Alexander Szorkovszky
+    role: Creator
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
 - title: Live Coding the Lineage
@@ -109,13 +125,17 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.17642435
   contributors:
   - name: Björn Thór Jónsson
+    role: Creator
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
 - title: 'MusiQAl: Music Question Answering through Audio-Video fusion'
@@ -125,15 +145,19 @@ selected_works:
   url: https://ismir2025.ismir.net/program-detailed-schedule
   contributors:
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: Generational Replacement and Learning for High-Performing and Diverse Populations
@@ -144,10 +168,13 @@ selected_works:
   url: https://doi.org/10.1109/alife-cis64968.2025.10979828
   contributors:
   - name: Ege de Bruin
+    role: Creator
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 - title: Design and fabrication of soft locomotion robots based on spatial compliant
@@ -158,7 +185,9 @@ selected_works:
   url: https://doi.org/10.1088/1361-665x/addf98
   contributors:
   - name: Andrija Milojevic
+    role: Creator
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
 - title: 'MusiQAl: A Dataset for Music Question–Answering through Audio–Video Fusion'
@@ -168,15 +197,19 @@ selected_works:
   url: https://doi.org/10.5334/tismir.222
   contributors:
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: How can we make robot dance expressive and responsive? A survey of methods
@@ -187,10 +220,13 @@ selected_works:
   url: https://doi.org/10.3389/fcomp.2025.1575667
   contributors:
   - name: Benedikte Wallace
+    role: Creator
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Alexander Szorkovszky
+    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

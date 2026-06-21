@@ -22,7 +22,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://nmh.no/en/contact-us/employees/sidsel-karlsen
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-3122-9302
@@ -43,8 +43,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: John Vinge
+    role: Creator
   - name: Ellen Mikalsen Stabell
+    role: Creator
   - name: Sidsel Karlsen
+    role: Creator
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
 - title: 'How music genres matter in extra-curricular music education: A longitudinal
@@ -54,8 +57,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Siw Graabræk Nielsen
+    role: Creator
   - name: Anne Jordhus-Lier
+    role: Creator
   - name: Sidsel Karlsen
+    role: Creator
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
 - title: Theoretical work in music education research
@@ -64,6 +70,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sidsel Karlsen
+    role: Creator
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
 - title: Soziologie der Musikpädagogik
@@ -72,12 +79,17 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Petter Dyndahl
+    role: Creator
   - name: Live Weider Ellefsen
+    role: Creator
   - name: Anne Jordhus-Lier
+    role: Creator
   - name: Sidsel Karlsen
+    role: Creator
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
   - name: Siw Graabræk Nielsen
+    role: Creator
 - title: 'Music as agent: A posthumanist attempt to understand music as a force of
     social change and turmoil'
   year: '2025'
@@ -85,6 +97,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sidsel Karlsen
+    role: Creator
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
 - title: Musical agency as the redistribution of hope
@@ -93,6 +106,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sidsel Karlsen
+    role: Creator
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
 - title: 'Changing rhythms, ideas and status in jazz: The case of the Norwegian Jazz
@@ -102,7 +116,9 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Odd Sjønne Skårberg
+    role: Creator
   - name: Sidsel Karlsen
+    role: Creator
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
 - title: 'Musical agency meets musical gentrification: Exploring the workings of hegemonic
@@ -112,6 +128,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Sidsel Karlsen
+    role: Creator
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
 - title: 'Assessing the state of sociological theory in music education: Uncovering
@@ -121,6 +138,7 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Sidsel Karlsen
+    role: Creator
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
 - title: Inclusion – of what and of whom? A problematization of music education practice
@@ -130,6 +148,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sidsel Karlsen
+    role: Creator
     slug: sidsel-karlsen
     url: /people/sidsel-karlsen/
 source_mentions:

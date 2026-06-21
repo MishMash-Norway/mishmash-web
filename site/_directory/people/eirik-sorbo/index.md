@@ -21,7 +21,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://www.uia.no/english/about-uia/employees/eiriks05/
+  institutional_website: ''
   github: https://github.com/EirikSorbo
   linkedin: https://www.linkedin.com/in/eirik-s%C3%B8rb%C3%B8-bb4344189/
   orcid: https://orcid.org/0000-0002-3049-4422
@@ -48,14 +48,21 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Øivind Varkøy
+    role: Creator
   - name: Eirik Sørbø
+    role: Creator
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
   - name: Carl Holmgren
+    role: Creator
   - name: Gaute Storsve
+    role: Creator
   - name: Ellen Mikalsen Stabell
+    role: Creator
   - name: Randi Margrethe Clausen Aarflot
+    role: Creator
   - name: Cecilia Ferm Almqvist
+    role: Creator
 - title: 'Don''t do this at home: Re-amping the Norwegian Broadcasting Orchestra (KORK)
     for Nils Petter Molvær''s Certainty of Tides'
   year: '2026'
@@ -63,7 +70,9 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Eirik Askerøi
+    role: Creator
   - name: Eirik Sørbø
+    role: Creator
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
 - title: 'Ultraprocessed Sounds: Music and AI Reconceptualized'
@@ -72,9 +81,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Daniel Nordgård
+    role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
   - name: Eirik Sørbø
+    role: Creator
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
 - title: Explicit Cultures — Music Education in an Accelerated World
@@ -84,9 +95,11 @@ selected_works:
   url: https://act.maydaygroup.org/explicit-cultures-music-education-in-an-accelerated-world/
   contributors:
   - name: Eirik Sørbø
+    role: Creator
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
   - name: Catharina Christophersen
+    role: Creator
 - title: From transmission to collaboration? Exploring reflective practice in Nordic
     higher music education
   year: '2025'
@@ -94,9 +107,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Eirik Sørbø
+    role: Creator
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
   - name: Heidi Partti
+    role: Creator
 - title: Enough student agency? Exploring student agency and autonomy in an electronic
     music theory course in higher education
   year: '2025'
@@ -105,6 +120,7 @@ selected_works:
   url: https://doi.org/10.1386/jmte_00068_1
   contributors:
   - name: Eirik Sørbø
+    role: Creator
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
 - title: 'Don’t do this at home: Re-amping the Norwegian National Broadcasting Orchestra
@@ -114,7 +130,9 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Eirik Askerøi
+    role: Creator
   - name: Eirik Sørbø
+    role: Creator
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
 - title: Tomorrow's Creativity
@@ -123,6 +141,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Eirik Sørbø
+    role: Creator
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
 - title: Teaching music theory to popular electronic music students
@@ -131,6 +150,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Eirik Sørbø
+    role: Creator
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
 - title: Balancing Educational Purposes in Electronic Music Education
@@ -139,6 +159,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Eirik Sørbø
+    role: Creator
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
 source_mentions:

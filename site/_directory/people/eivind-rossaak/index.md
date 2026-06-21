@@ -59,6 +59,7 @@ selected_works:
   url: https://kunstavisen.no/artikler/kunst-i-automatiseringens-tidsalder
   contributors:
   - name: Eivind Røssaak
+    role: Creator
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
 - title: 'Dokumentasjon: "Kampen om Mardøla", motstandsbliven og montasjestil'
@@ -67,6 +68,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Eivind Røssaak
+    role: Creator
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
 - title: Motstandens mikropolitikk
@@ -75,7 +77,9 @@ selected_works:
   group_type: Introduction
   contributors:
   - name: Knut Stene-Johansen
+    role: Creator
   - name: Eivind Røssaak
+    role: Creator
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
 - title: Motstandens former. Tretten skisser.
@@ -85,25 +89,38 @@ selected_works:
   url: https://existenz.no/produkt/boker-til-salgs/motstandens-former/
   contributors:
   - name: Knut Stene-Johansen
+    role: Editor
   - name: Eivind Røssaak
+    role: Editor
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
   - name: Kjerstin Aukrust
+    role: Creator
   - name: Hilde Bondevik
+    role: Creator
   - name: Inga Bostad
+    role: Creator
   - name: Sylvain Briens
+    role: Creator
   - name: Erin Kathleen Small Capistrano
+    role: Creator
   - name: Gérard Danou
+    role: Creator
   - name: Ulf Peter Hallberg
+    role: Creator
   - name: Runar Hodne
+    role: Creator
   - name: Erland Kiøsterud
+    role: Creator
   - name: Christian Refsum
+    role: Creator
 - title: 'Static Energy: Ribbing Warhol and Marker in Chafed Elbows'
   year: '2025'
   source: Non-fiction chapter
   group_type: Non-fiction chapter
   contributors:
   - name: Eivind Røssaak
+    role: Creator
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
 - title: 'The Cory Arcangel Hack: Digital Culture and Aesthetic Practice'
@@ -113,6 +130,7 @@ selected_works:
   url: https://direct.mit.edu/books/oa-monograph/6049/The-Cory-Arcangel-HackDigital-Culture-and
   contributors:
   - name: Eivind Røssaak
+    role: Creator
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
 - title: 'Classification, Photography, Eugenics: The Colonial Machine in Sápmi'
@@ -121,6 +139,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Eivind Røssaak
+    role: Creator
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
 - title: Between Stillness and Motion. Film, Photography, Algorithms
@@ -129,6 +148,7 @@ selected_works:
   group_type: Book anthology
   contributors:
   - name: Eivind Røssaak
+    role: Editor
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
 - title: Kunstens møte med massemediene
@@ -137,6 +157,7 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Eivind Røssaak
+    role: Creator
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
 - title: 'Learning from fashion. Eller: Moten har også en moral'
@@ -145,6 +166,7 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Eivind Røssaak
+    role: Creator
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
 source_mentions: []

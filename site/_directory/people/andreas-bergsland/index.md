@@ -20,7 +20,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://www.ntnu.edu/employees/andreas.bergsland
+  institutional_website: http://folk.ntnu.no/andbe/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-8517-447X
@@ -47,6 +47,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Andreas Bergsland
+    role: Creator
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
 - title: 'The MotionComposer: A therapy device that turns movement into music. Applications
@@ -56,26 +57,33 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Robert Wechsler
+    role: Creator
   - name: Andreas Bergsland
+    role: Creator
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
   - name: Stefan Geiger
+    role: Creator
   - name: Alicia Peñalba
+    role: Creator
 - title: Intermediality and Memory in the Tower Block - Post Mortem Project
   year: '2017'
   source: Journal article
   group_type: Journal article
   contributors:
   - name: Andreas Bergsland
+    role: Creator
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
   - name: Barbro Rønning
+    role: Creator
 - title: 'Aspects of Digital Affordances: Openness, Skill and Exploration'
   year: '2015'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Andreas Bergsland
+    role: Creator
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
 - title: Jeu de modes III - NIME version. Interactive dance for five performers.
@@ -84,6 +92,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Andreas Bergsland
+    role: Composer
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
 - title: Jeu de modes IV - DAFx version. Interactive dance for solo performer.
@@ -92,6 +101,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Andreas Bergsland
+    role: Composer
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
 - title: I am sitting in that room – reverberation, resonance and expanded meanings
@@ -101,7 +111,9 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Asbjørn Tiller
+    role: Creator
   - name: Andreas Bergsland
+    role: Creator
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
 - title: Lyddesign / komponist på "Signaler"
@@ -110,6 +122,7 @@ selected_works:
   group_type: Exhibition
   contributors:
   - name: Andreas Bergsland
+    role: AcademicCoordinator
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
 - title: 'Stemmetransformasjoner i elektroakustisk musikk: Identitetskonstruksjoner
@@ -119,6 +132,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Andreas Bergsland
+    role: Creator
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
 - title: Vævet av "Roser" .... - Olav Anton Thommesens "Vævet av stængler" som lesning
@@ -128,6 +142,7 @@ selected_works:
   group_type: Master's thesis
   contributors:
   - name: Andreas Bergsland
+    role: Creator
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
 source_mentions:

@@ -36,21 +36,30 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Tita Ranveig Enstad
+    role: Creator
   - name: Trond Trosterud
+    role: Creator
   - name: Marie Iversdatter Røsok
+    role: Creator
   - name: Yngvil Nesheim Beyer
+    role: Creator
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
   - name: Marie Roald
+    role: Creator
 - title: NorFraktur_1600_PyLaia
   year: '2022'
   source: Dataset
   group_type: Dataset
   contributors:
   - name: Siv Frøydis Berg
+    role: Researcher
   - name: Trond Haugen
+    role: Researcher
   - name: Astrid Nora Ressem
+    role: Researcher
   - name: Yngvil Beyer
+    role: DataManager
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
 - title: '"The Peder Rafn-Project". Reading a 16th & 17th Century Collection of Danish
@@ -60,7 +69,9 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Trond Haugen
+    role: Creator
   - name: Yngvil Beyer
+    role: Creator
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
 - title: A Comprehensive Comparison of Open-Source Libraries for Handwritten Text
@@ -71,27 +82,35 @@ selected_works:
   url: https://doi.org/10.1007/978-3-031-06555-2_27
   contributors:
   - name: Martin Maarand
+    role: Creator
   - name: Yngvil Beyer
+    role: Creator
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
   - name: Andre Kåsen
+    role: Creator
   - name: Knut T. Fosseide
+    role: Creator
   - name: Christopher Kermorvant
+    role: Creator
 - title: 'NorHand: a preliminary dataset for Norwegian Handwriting Recognition'
   year: '2022'
   source: Conference poster
   group_type: Conference
   contributors:
   - name: Yngvil Beyer
+    role: Creator
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
   - name: Andre Kåsen
+    role: Creator
 - title: 'Christiane Koren: Dagbok 1809'
   year: '2017'
   source: Non-fiction book
   group_type: Non-fiction book
   contributors:
   - name: Yngvil Beyer
+    role: Editor
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
 - title: 'Christiane Koren: Dagbok 1810'
@@ -100,6 +119,7 @@ selected_works:
   group_type: Non-fiction book
   contributors:
   - name: Yngvil Beyer
+    role: Editor
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
 - title: Christiane Koren. Dagbok 1814
@@ -108,6 +128,7 @@ selected_works:
   group_type: Popular science book
   contributors:
   - name: Yngvil Beyer
+    role: Editor
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
 - title: 'Christiane Koren: Reisedagbok for turen til Kongsberg 1805'
@@ -116,6 +137,7 @@ selected_works:
   group_type: Non-fiction book
   contributors:
   - name: Yngvil Beyer
+    role: Editor
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
 - title: 'Small talk makes a big difference: recent developments in interactive, SMS-based
@@ -125,11 +147,15 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Yngvil Beyer
+    role: Creator
     slug: yngvil-beyer
     url: /people/yngvil-beyer/
   - name: Gunn Enli
+    role: Creator
   - name: Arnt Maasø
+    role: Creator
   - name: Espen Ytreberg
+    role: Creator
 source_mentions:
 - about/organisation/council/index.md
 summary: null

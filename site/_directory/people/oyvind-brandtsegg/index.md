@@ -55,30 +55,39 @@ selected_works:
   url: https://wrap.hdu.no/kjelbju-laven-iii-pc.html
   contributors:
   - name: Øyvind Brandtsegg
+    role: RoleOther
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
   - name: Tijs Ham
+    role: RoleOther
   - name: Trond Lossius
+    role: RoleOther
     slug: trond-lossius
     url: /people/trond-lossius/
   - name: Jeremy Welsh
+    role: RoleOther
 - title: ØYA Lydstrømmer
   year: '2025'
   source: Performing arts
   group_type: Performing arts
   contributors:
   - name: Anna Thu Schmidt
+    role: Dancer
   - name: Øyvind Brandtsegg
+    role: ArtisticDirector
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
   - name: Joel Olof Vide Hynsjö
+    role: RoleOther
   - name: Tomas Vikeland
+    role: Dancer
 - title: Rhythm and intentionality in generative music performance
   year: '2025'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Øyvind Brandtsegg
+    role: Creator
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
 - title: Beethoven (re)Created - 32 Variations in C minor WoO 80
@@ -88,53 +97,50 @@ selected_works:
   url: https://transvariations.web.ua.pt/assets/audios/Beethoven32VariationsCminor.mp3
   contributors:
   - name: Øyvind Brandtsegg
+    role: Soloist
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
   - name: Trond Engum
+    role: Soloist
   - name: Alfonso Benetti
+    role: Soloist
   - name: Francisco Moreira
+    role: Soloist
 - title: 'FEEDBACK: Vibrotactile Materials Informing Artistic Practice'
   year: '2021'
   source: Book chapter
   group_type: Book chapter
   contributors:
   - name: Øyvind Brandtsegg
+    role: Creator
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
   - name: Alexandra Nicki Murray-Leslie
-- title: Morten Qvenild – The HyPer(sonal) Piano Project
-  year: '2017'
-  source: Artistic degree phd
-  group_type: Artistic degree phd
-  url: https://doi.org/10.22501/nmh-ar.291286
-  contributors:
-  - name: Morten Qvenild
-    slug: morten-qvenild
-    url: /people/morten-qvenild/
-  - name: Jon Henrik Hellstenius
-  - name: Eivind Buene
-  - name: Øyvind Brandtsegg
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
+    role: Creator
 - title: Atom Seized Violin
   year: '2014'
   source: Music performance
   group_type: Music performance
   contributors:
   - name: Øyvind Brandtsegg
+    role: Composer
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
   - name: Victoria Johnson
+    role: Organizer
 - title: BRAK RUG NOTAM 2014
   year: '2014'
   source: Music performance
   group_type: Music performance
   contributors:
   - name: Øyvind Brandtsegg
+    role: Artist
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
   - name: Siv Øyunn Kjenstad
+    role: Artist
   - name: Maja Solveig Kjelstrup Ratkje
+    role: Artist
 - title: THE DEVELOPMENT OF AN ONLINE COURSE IN DSP EARTRAINING
   year: '2012'
   source: Book chapter
@@ -142,22 +148,51 @@ selected_works:
   url: http://dafx12.york.ac.uk/papers/dafx12_submission_13.pdf
   contributors:
   - name: Øyvind Brandtsegg
+    role: Creator
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
   - name: Sigurd Saue
+    role: Creator
   - name: John Pål Inderberg
+    role: Creator
   - name: Håkon Kvidal
+    role: Creator
   - name: Jøran Rudi
+    role: Creator
   - name: Jan Tro
+    role: Creator
   - name: Axel Tidemann
+    role: Creator
   - name: Notto W. Thelle
+    role: Creator
   - name: Victor Lazzarini
+    role: Creator
+- title: T-EMP in concert
+  year: '2011'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Øyvind Brandtsegg
+    role: Artist
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Carl Haakon Waadeland
+    role: Artist
+  - name: Bernt Isak Grave Wærstad
+    role: Artist
+  - name: Trond Engum
+    role: Artist
+  - name: Tone Åse
+    role: Artist
+  - name: Ingrid Lode
+    role: Artist
 - title: Live sampling og Algoritmisk improvisasjon
   year: '2009'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Øyvind Brandtsegg
+    role: Creator
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
 source_mentions: []

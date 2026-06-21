@@ -33,6 +33,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sigmund Trageton
+    role: Creator
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
 - title: Diskutek som pedagogisk metode
@@ -41,6 +42,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sigmund Trageton
+    role: Creator
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
 - title: Risikobevissthet og risikokommunikasjon i skjæringspunktet mellom SoMe og
@@ -50,12 +52,17 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Claudia Morsut
+    role: Creator
   - name: Christian Henrik Alexander Kuran
+    role: Creator
   - name: Odd Einar Falnes Olsen
+    role: Creator
   - name: Sigmund Trageton
+    role: Creator
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
   - name: Espen Mathiesen
+    role: Creator
 - title: In the pursuit of the authentic cinema. A comparative study of two films
     about the 22. July 2011 terrorist attack in Norway
   year: '2020'
@@ -64,6 +71,7 @@ selected_works:
   url: https://doi.org/10.37390/avancacinema.2020.a151
   contributors:
   - name: Sigmund Trageton
+    role: Creator
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
 - title: "When one frame is not enough;\r\nFrom still photography to Virtual reality"
@@ -73,6 +81,7 @@ selected_works:
   url: https://cinematographyinprogress.com/index.php/cito/article/view/19
   contributors:
   - name: Sigmund Trageton
+    role: Creator
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
 - title: Offshore ID, lyddesign
@@ -81,7 +90,9 @@ selected_works:
   group_type: Film or video
   contributors:
   - name: Sindre Skjøld
+    role: AcademicCoordinator
   - name: Sigmund Trageton
+    role: AcademicCoordinator
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
 - title: Virtual reality; a question of subjectivity and authenticity?
@@ -90,6 +101,7 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Sigmund Trageton
+    role: Creator
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
 - title: Virtual reality, poetic possibilities and narrative challenges
@@ -98,6 +110,7 @@ selected_works:
   group_type: Professional article
   contributors:
   - name: Sigmund Trageton
+    role: Creator
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
 - title: Adblock dokumentar
@@ -106,6 +119,7 @@ selected_works:
   group_type: Film or video
   contributors:
   - name: Sigmund Trageton
+    role: AcademicCoordinator
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
 - title: Oljearbeideren
@@ -114,6 +128,7 @@ selected_works:
   group_type: Visual arts
   contributors:
   - name: Sigmund Trageton
+    role: Artist
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
 source_mentions: []

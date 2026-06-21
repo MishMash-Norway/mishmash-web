@@ -62,6 +62,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Gabriele de Seta
+    role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
 - title: 'Algorithmic folklore: Vernacular narratives from the Black Box'
@@ -70,17 +71,22 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Gabriele de Seta
+    role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
   - name: Marianne Gunderson
+    role: Creator
   - name: Hanna Hellesø Lauvli
+    role: Creator
   - name: Yagmur Cisem Vik
+    role: Creator
 - title: 'Algorithmic folklore: Collecting and archiving vernacular narratives'
   year: '2026'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Gabriele de Seta
+    role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
 - title: 'Ball-ache, dick hair and serial cunt words: The role of vulgarity in Chinese
@@ -91,6 +97,7 @@ selected_works:
   url: https://www.taylorfrancis.com/chapters/edit/10.4324/9781003698067-9/ball-ache-dick-hair-serial-cunt-words-role-vulgarity-chinese-internet-language-gabriele-de-seta
   contributors:
   - name: Gabriele de Seta
+    role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
 - title: 'Digital ethnography in, on, and through China: A methodological history'
@@ -100,6 +107,7 @@ selected_works:
   url: https://doi.org/10.4135/9781036236724.n41
   contributors:
   - name: Gabriele de Seta
+    role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
 - title: 40,000 years of algorithmic folklore
@@ -108,6 +116,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Gabriele de Seta
+    role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
 - title: 'Support for deepfake regulation: The role of third-person perception, trust,
@@ -118,8 +127,11 @@ selected_works:
   url: https://doi.org/10.5771/2192-4007-2025-4-570
   contributors:
   - name: Daniel Vogler
+    role: Creator
   - name: Adrian Rauchfleisch
+    role: Creator
   - name: Gabriele de Seta
+    role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
 - title: Creativity is a trading zone
@@ -129,6 +141,7 @@ selected_works:
   url: https://rdt.uva.nl/content/events/2025/12/genai--creative-practices-conference.html
   contributors:
   - name: Gabriele de Seta
+    role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
 - title: LLM lore
@@ -138,6 +151,7 @@ selected_works:
   url: https://dlcplus.org/current-keywords-in-digital-culture-mini-conference-series/
   contributors:
   - name: Gabriele de Seta
+    role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
 - title: 'Spectral hauntings, ancestral tunings: Two unnaturalist modes of listening'
@@ -146,7 +160,9 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Luigi Monteanni
+    role: Creator
   - name: Gabriele de Seta
+    role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
 source_mentions: []

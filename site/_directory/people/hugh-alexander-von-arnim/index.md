@@ -54,17 +54,23 @@ selected_works:
   url: https://doi.org/10.1007/978-3-032-26999-7_18
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Kayla Burnim
+    role: Creator
   - name: Finn Upham
+    role: Creator
   - name: Tejaswinee Kelkar
+    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: Editorial Note
@@ -73,10 +79,13 @@ selected_works:
   group_type: Introduction
   contributors:
   - name: Abbigail Marie Fleckenstein
+    role: Creator
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
 - title: Supporting Narrative Comprehension in Programmatic Music through Music and
@@ -87,12 +96,15 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.17496754
   contributors:
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: SysMus25 Conference Proceedings
@@ -102,10 +114,13 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.17632991
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Editor
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Abbigail Marie Fleckenstein
+    role: Editor
   - name: Anna-Maria Christodoulou
+    role: Editor
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
 - title: SysMus25 Book of Abstracts
@@ -115,10 +130,13 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.17531650
   contributors:
   - name: Abbigail Marie Fleckenstein
+    role: Editor
   - name: Hugh Alexander von Arnim
+    role: Editor
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Anna-Maria Christodoulou
+    role: Editor
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
 - title: Multimodal Transfer Learning for Privacy in Human Activity Recognition
@@ -128,11 +146,15 @@ selected_works:
   url: https://doi.org/10.1109/ro-man63969.2025.11217600
   contributors:
   - name: Sigmund Johannes Ljosvoll Rolfsjord
+    role: Creator
   - name: "Safia\t Fatima"
+    role: Creator
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Adel Baselizadeh
+    role: Creator
 - title: 'A Sensor is not a Sensor: Diffracting the Preservation of Sonic Microinteraction
     with the SiFiBand'
   year: '2025'
@@ -140,13 +162,17 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Ulysse Teller Masao Côté-Allard
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: Sense-making and Use of Multimodal Feedback in Team-based Simulations in
@@ -156,9 +182,13 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Daniel Sanchez
+    role: Creator
   - name: Crina I. Damsa
+    role: Creator
   - name: Rachelle Esterhazy
+    role: Creator
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
 - title: Multimodal learning analytics to explore key moments of interdisciplinary
@@ -168,10 +198,13 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Rachelle Esterhazy
+    role: Creator
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Crina I. Damsa
+    role: Creator
 - title: 'The Feedback Mop Cello: An Instrument for Interacting with Acoustic Feedback
     Loops'
   year: '2023'
@@ -179,12 +212,15 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
 source_mentions: []

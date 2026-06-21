@@ -37,11 +37,15 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Sara D'Amario
+    role: Creator
   - name: Andreas Løve
+    role: Creator
     slug: andreas-love
     url: /people/andreas-love/
   - name: Maja Dyhre Foldal
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: Method for Using Functional Near-Infrared Spectroscopy (fNIRS) to Explore
@@ -52,13 +56,19 @@ selected_works:
   url: https://doi.org/10.3390/s25061807
   contributors:
   - name: Steffen Knut Maude Fagerland
+    role: Creator
   - name: Andreas Løve
+    role: Creator
     slug: andreas-love
     url: /people/andreas-love/
   - name: Tord K. Helliesen
+    role: Creator
   - name: Ørjan Grøttem Martinsen
+    role: Creator
   - name: Mona-Elisabeth Rootwelt-Revheim
+    role: Creator
   - name: Tor Endestad
+    role: Creator
 source_mentions: []
 wps:
 - WP3

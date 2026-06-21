@@ -50,6 +50,16 @@ def save_entry(index_md: Path, data: dict, body: str) -> None:
     index_md.write_text(f"---\n{dumped}\n---\n\n{body.lstrip()}", encoding="utf-8")
 
 
+def slug_list_uses_path_refs(value) -> bool:
+    items = value if isinstance(value, list) else []
+    for item in items:
+        if not isinstance(item, str):
+            continue
+        if "/people/" in item or "/institutions/" in item:
+            return True
+    return False
+
+
 def as_slug_list(value) -> list[str]:
     if isinstance(value, list):
         items = value

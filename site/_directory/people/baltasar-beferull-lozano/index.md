@@ -26,7 +26,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://www.simulamet.no/sigipro
-  institutional_website: https://www.simula.no/people/baltasar
+  institutional_website: ''
   github: ''
   linkedin: https://www.linkedin.com/in/baltasar-beferull-lozano-8b306918/
   orcid: https://orcid.org/0000-0002-0902-6245
@@ -46,19 +46,27 @@ selected_works:
   group_type: Report
   contributors:
   - name: Emilio Ruiz
+    role: Creator
   - name: Konstantinos Kousias
+    role: Creator
   - name: Shravan Kumar
+    role: Creator
   - name: Myrthe Tilleman
+    role: Creator
     slug: myrthe-tilleman
     url: /people/myrthe-tilleman/
   - name: Baltasar Beferull-Lozano
+    role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
   - name: Özgü Alay
+    role: Creator
   - name: Carsten Griwodz
+    role: Creator
     slug: carsten-griwodz
     url: /people/carsten-griwodz/
   - name: Alessandro Filippeschi
+    role: Creator
 - title: Limited Data Forecasting of Financial Time-series using Graph-based Class
     Dynamics
   year: '2024'
@@ -67,8 +75,11 @@ selected_works:
   url: https://doi.org/10.23919/EUSIPCO63174.2024.10714981
   contributors:
   - name: Rohan Money
+    role: Creator
   - name: Joshin Krishnan
+    role: Creator
   - name: Baltasar Beferull-Lozano
+    role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
 - title: Kalman Filtering for Simplicial Processes
@@ -78,9 +89,13 @@ selected_works:
   url: https://ieeexplore.ieee.org/document/10942943
   contributors:
   - name: Rohan Money
+    role: Creator
   - name: Mohammad Sabbaqi
+    role: Creator
   - name: Joshin Krishnan
+    role: Creator
   - name: Baltasar Beferull-Lozano
+    role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
 - title: Graph-Vector Auto-regressive Model for Lithium-Ion Cell Capacity Estimation
@@ -90,9 +105,13 @@ selected_works:
   url: https://doi.org/10.1109/MLSP58920.2024.10734722
   contributors:
   - name: Samuel Dominguez-Cid
+    role: Creator
   - name: Joshin Krishnan
+    role: Creator
   - name: Rohan Money
+    role: Creator
   - name: Baltasar Beferull-Lozano
+    role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
 - title: Evolution Backcasting of Edge Flows from Partial Observations using Simplicial
@@ -103,11 +122,15 @@ selected_works:
   url: https://doi.org/10.1109/ICASSP48485.2024.10448180
   contributors:
   - name: Rohan Money
+    role: Creator
   - name: Joshin Krishnan
+    role: Creator
   - name: Baltasar Beferull-Lozano
+    role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
   - name: Elvin Isufi
+    role: Creator
 - title: Simplicial Vector Autoregressive Models
   year: '2024'
   source: Journal article
@@ -115,11 +138,15 @@ selected_works:
   url: https://doi.org/10.1109/TSP.2024.3503063
   contributors:
   - name: Joshin Krishnan
+    role: Creator
   - name: Rohan Money
+    role: Creator
   - name: Baltasar Beferull-Lozano
+    role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
   - name: Elvin Isufi
+    role: Creator
 - title: 'Enhancing Multi-Agent Reinforcement Learning: Set Function Approximation
     and Dynamic Policy Adaptation'
   year: '2023'
@@ -127,8 +154,11 @@ selected_works:
   group_type: Book anthology
   contributors:
   - name: Jayant Singh
+    role: Creator
   - name: Jing Zhou
+    role: Creator
   - name: Baltasar Beferull-Lozano
+    role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
 - title: Risk-Aware Particle-Filtering for State Estimation in Recirculating Aquaculture
@@ -138,11 +168,15 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Juan Cardenas-Cartagena
+    role: Creator
   - name: Mohamed Elnourani
+    role: Creator
   - name: Baltasar Beferull-Lozano
+    role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
   - name: Daniel Romero
+    role: Creator
 - title: Resource Allocation for Underlay Interfering D2D Networks with Multi-antenna
     and Imperfect CSI
   year: '2022'
@@ -151,8 +185,11 @@ selected_works:
   url: https://ieeexplore.ieee.org/document/9841599
   contributors:
   - name: Mohamed Elnourani
+    role: Creator
   - name: Siddharth Deskmukh
+    role: Creator
   - name: Baltasar Beferull-Lozano
+    role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
 - title: Quantization Analysis and Robust Design in Distributed Graph Filters
@@ -162,10 +199,13 @@ selected_works:
   url: https://ieeexplore.ieee.org/document/9665348
   contributors:
   - name: Leila Ben Saad
+    role: Creator
   - name: Baltasar Beferull-Lozano
+    role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
   - name: Elvin Isufi
+    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
 wps:

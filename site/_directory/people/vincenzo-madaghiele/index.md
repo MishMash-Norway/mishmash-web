@@ -34,13 +34,19 @@ selected_works:
   url: https://www.cambridge.org/core/journals/organised-sound/article/expanding-the-machine-notating-generative-synthesis-with-a-statebased-representation-and-a-navigable-timbre-space/B748EA8856943F9BF02F8E4E95BF759A
   contributors:
   - name: Vincenzo Madaghiele
+    role: Creator
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
   - name: Leonard Lund
+    role: Creator
   - name: Derek Holzer
+    role: Creator
   - name: Tejaswinee Kelkar
+    role: Creator
   - name: Kıvanç Tatar
+    role: Creator
   - name: Andre Holzapfel
+    role: Creator
 - title: Recursive speculation
   year: '2025'
   source: Music performance
@@ -48,9 +54,11 @@ selected_works:
   url: https://zenodo.org/records/17306433
   contributors:
   - name: Vincenzo Madaghiele
+    role: Composer
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
   - name: Cotton, Kelsey
+    role: Soloist
 - title: Reinterpreting Anatolian rugs through multi-sensory experiences
   year: '2025'
   source: Journal article
@@ -58,7 +66,9 @@ selected_works:
   url: https://biccs.dh.gu.se/2025/2025-22/1
   contributors:
   - name: Arife Dila Demir
+    role: Creator
   - name: Vincenzo Madaghiele
+    role: Creator
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
 - title: 'MAAL: a multi-agent autonomous live looper for improvised co-creation of
@@ -69,15 +79,19 @@ selected_works:
   url: https://doi.org/10.5281/ZENODO.16946080
   contributors:
   - name: Vincenzo Madaghiele
+    role: Creator
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Tejaswinee Kelkar
+    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
 - title: Experience Replay
@@ -87,6 +101,7 @@ selected_works:
   url: https://aimc2024.pubpub.org/pub/eghiq141/release/1
   contributors:
   - name: Vincenzo Madaghiele
+    role: Composer
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
 - title: Stutter
@@ -96,6 +111,7 @@ selected_works:
   url: https://www.youtube.com/watch?v=DtuVZ4XHsz0
   contributors:
   - name: Vincenzo Madaghiele
+    role: Composer
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
 - title: Pain Creature
@@ -105,9 +121,11 @@ selected_works:
   url: https://nime.org/proc_music/nime2024_music_32/index.html
   contributors:
   - name: Vincenzo Madaghiele
+    role: SoundDesigner
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
   - name: Arife Dila Demir
+    role: Dancer
 - title: 'Pain Creature: interdisciplinary collaboration in the design of an embodied
     textile instrument for interactive dance'
   year: '2024'
@@ -116,9 +134,11 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.13904917
   contributors:
   - name: Vincenzo Madaghiele
+    role: Creator
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
   - name: Arife Dila Demir
+    role: Creator
 - title: A listening agent for live control of synthesis parameters using reinforcement
     learning
   year: '2024'
@@ -127,9 +147,11 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.15110192
   contributors:
   - name: Vincenzo Madaghiele
+    role: Creator
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
 - title: 'MINGUS: Melodic Improvisation Neural Generator Using Seq2Seq'
@@ -139,10 +161,13 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.5625684
   contributors:
   - name: Vincenzo Madaghiele
+    role: Creator
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
   - name: Pasquale Lisena
+    role: Creator
   - name: Raphaël Troncy
+    role: Creator
 source_mentions: []
 summary: null
 wps:

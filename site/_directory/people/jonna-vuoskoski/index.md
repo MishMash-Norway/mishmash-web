@@ -28,7 +28,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
+  institutional_website: http://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-0049-4373
@@ -63,6 +63,7 @@ selected_works:
   url: https://iaea-jena2026.org/wp-content/uploads/2026/04/IAEA26_AllAbstracts_Final.pdf
   contributors:
   - name: Jonna Katariina Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
 - title: 'The social dimension of music listening: Empathy and the experience of feeling
@@ -73,6 +74,7 @@ selected_works:
   url: https://doi.org/10.5040/9781350409552.0024
   contributors:
   - name: Jonna Katariina Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
 - title: 'Audience Musical Absorption: Exploring Attention and Affect in the Live
@@ -83,10 +85,15 @@ selected_works:
   url: https://doi.org/10.1177/20592043241263461
   contributors:
   - name: Dana Swarbrick
+    role: Creator
   - name: Remy Richard Martin
+    role: Creator
   - name: Simon Høffding
+    role: Creator
   - name: Nanette Nielsen
+    role: Creator
   - name: Jonna Katariina Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
 - title: Does fantasy empathy predict the attribution of virtual agency to music?
@@ -96,10 +103,13 @@ selected_works:
   url: https://doi.org/10.1177/10298649241258745
   contributors:
   - name: Jonna Katariina Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
   - name: John Melvin Gudnyson Treider
+    role: Creator
   - name: David Huron
+    role: Creator
 - title: 'The Aversive Musical Experience Scale (AMES): Measuring individual differences
     in the intensity of music-evoked aversion'
   year: '2024'
@@ -108,9 +118,11 @@ selected_works:
   url: https://doi.org/10.1177/03057356241239336
   contributors:
   - name: Jonna Katariina Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
   - name: Henna-Riikka Peltola
+    role: Creator
 - title: 'Collectively Classical: Connectedness, Awe, Feeling Moved, and Motion at
     a Live and Livestreamed Concert'
   year: '2023'
@@ -119,7 +131,9 @@ selected_works:
   url: https://osf.io/89s5w/
   contributors:
   - name: Dana Swarbrick
+    role: Creator
   - name: Jonna Katariina Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
 - title: 'Feeling moved by music: Investigating continuous ratings and acoustic correlates'
@@ -129,12 +143,17 @@ selected_works:
   url: https://doi.org/10.1371/journal.pone.0261151
   contributors:
   - name: Jonna Katariina Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
   - name: Janis Heinrich Zickfeld
+    role: Creator
   - name: Vinoo Alluri
+    role: Creator
   - name: Vishnu Moorthigari
+    role: Creator
   - name: Beate Seibt
+    role: Creator
 - title: 'Corona Concerts: The Effect of Virtual Concert Characteristics on Social
     Connection and Kama Muta'
   year: '2021'
@@ -143,9 +162,13 @@ selected_works:
   url: https://doi.org/10.3389/fpsyg.2021.648448
   contributors:
   - name: Dana Swarbrick
+    role: Creator
   - name: Christa Beate Seibt
+    role: Creator
   - name: Noemi Grinspun
+    role: Creator
   - name: Jonna Katariina Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
 - title: Being moved by listening to unfamiliar sad music induces reward-related hormonal
@@ -156,13 +179,19 @@ selected_works:
   url: https://doi.org/10.1111/nyas.14660
   contributors:
   - name: Tuomas Eerola
+    role: Creator
   - name: Jonna K. Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
   - name: Hannu Kautiainen
+    role: Creator
   - name: Henna-Riikka Peltola
+    role: Creator
   - name: Vesa Putkinen
+    role: Creator
   - name: Katharina Schäfer
+    role: Creator
 - title: 'On the enjoyment of sad music: Pleasurable Compassion Theory and the role
     of trait empathy'
   year: '2020'
@@ -171,7 +200,9 @@ selected_works:
   url: https://doi.org/10.3389/fpsyg.2020.01060
   contributors:
   - name: David Huron
+    role: Creator
   - name: Jonna Katariina Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
 source_mentions:

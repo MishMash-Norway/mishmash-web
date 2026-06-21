@@ -19,7 +19,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -38,6 +38,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Irina  Eidsvold-Tøien
+    role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
 - title: Is imitating the dead and copying the living just?
@@ -46,6 +47,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Irina  Eidsvold-Tøien
+    role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
 - title: 'Remunerating authors and performers: Are statutory fair compensation provisions
@@ -55,6 +57,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Irina  Eidsvold-Tøien
+    role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
 - title: Opphavsrett, håndheving og mangfold
@@ -63,9 +66,11 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Irina Eidsvold-Tøien
+    role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
   - name: Terje Gaustad
+    role: Creator
     slug: terje-gaustad
     url: /people/terje-gaustad/
 - title: Sikring av en bærekraftig kulturøkonomi, nødvendiggjør innføring av DSM-direktivet
@@ -74,6 +79,7 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Irina Eidsvold-Tøien
+    role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
 - title: Kunstnerisk frihet - en menneskerett
@@ -82,6 +88,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Irina  Eidsvold-Tøien
+    role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
 - title: Rapport om kunstnerundersøkelser
@@ -90,7 +97,9 @@ selected_works:
   group_type: Research report
   contributors:
   - name: Sigrid Røyseng
+    role: Editor
   - name: Irina  Eidsvold-Tøien
+    role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
 - title: Economic Concequenses of Nuances in National Implementationn of International
@@ -100,9 +109,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Irina  Eidsvold-Tøien
+    role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
   - name: Terje Gaustad
+    role: Creator
     slug: terje-gaustad
     url: /people/terje-gaustad/
 - title: Hvor effektive er de norske opphavsrettslige håndhevingsregler?
@@ -111,15 +122,18 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Irina  Eidsvold-Tøien
+    role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
   - name: Monica Viken
+    role: Creator
 - title: Originalitetsbegrepet i EU-retten- ny kurs?
   year: '2012'
   source: Journal article
   group_type: Journal article
   contributors:
   - name: Irina  Eidsvold-Tøien
+    role: Creator
     slug: irina-eidsvold-toien
     url: /people/irina-eidsvold-toien/
 source_mentions:

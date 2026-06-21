@@ -42,17 +42,22 @@ selected_works:
   url: https://www.youtube.com/watch?v=pfG92Ke1Jjs&t=9s
   contributors:
   - name: Tor Einar Bjørnhullet Bekken
+    role: Soloist
   - name: Richard Gjems
+    role: Soloist
     slug: richard-gjems
     url: /people/richard-gjems/
   - name: Bengt Berg
+    role: Soloist
 - title: Bekken & Gjems Live @ Herr Nilsen
   year: '2025'
   source: Music performance
   group_type: Music performance
   contributors:
   - name: Tor Einar Bjørnhullet Bekken
+    role: Musician
   - name: Richard Gjems
+    role: Musician
     slug: richard-gjems
     url: /people/richard-gjems/
 - title: Lille Blå Scene, Notodden Blues 2025
@@ -61,7 +66,9 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Tor Einar Bjørnhullet Bekken
+    role: Artist
   - name: Richard Gjems
+    role: Artist
     slug: richard-gjems
     url: /people/richard-gjems/
 - title: Konsert Sarpsborg Jazzklubb
@@ -70,7 +77,9 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Tor Einar Bjørnhullet Bekken
+    role: Artist
   - name: Richard Gjems
+    role: Artist
     slug: richard-gjems
     url: /people/richard-gjems/
 - title: Konsert på Skibladner
@@ -79,7 +88,9 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Tor Einar Bjørnhullet Bekken
+    role: Artist
   - name: Richard Gjems
+    role: Artist
     slug: richard-gjems
     url: /people/richard-gjems/
 - title: Lille Blå Scene - Notodden Bluesfestival 2024 - fire konserter
@@ -88,7 +99,9 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Tor Einar Bjørnhullet Bekken
+    role: Artist
   - name: Richard Gjems
+    role: Artist
     slug: richard-gjems
     url: /people/richard-gjems/
 - title: Konsert, Abelone, Oslo
@@ -98,7 +111,9 @@ selected_works:
   url: https://youtu.be/xGxwnL0SwXw?si=Zp4mzaUHT0gttgIZ
   contributors:
   - name: Tor Einar Bjørnhullet Bekken
+    role: Artist
   - name: Richard Gjems
+    role: Artist
     slug: richard-gjems
     url: /people/richard-gjems/
 - title: Konsert i Svarte Skauen
@@ -107,7 +122,9 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Tor Einar Bjørnhullet Bekken
+    role: Artist
   - name: Richard Gjems
+    role: Artist
     slug: richard-gjems
     url: /people/richard-gjems/
 - title: Konsert på Svullrya, Grue Finnskog
@@ -116,7 +133,9 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Tor Einar Bjørnhullet Bekken
+    role: Artist
   - name: Richard Gjems
+    role: Artist
     slug: richard-gjems
     url: /people/richard-gjems/
 - title: To konserter, Tuff Enuff Bluesfestival, Mo i Rana
@@ -125,7 +144,9 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Tor Einar Bjørnhullet Bekken
+    role: Artist
   - name: Richard Gjems
+    role: Artist
     slug: richard-gjems
     url: /people/richard-gjems/
 source_mentions: []

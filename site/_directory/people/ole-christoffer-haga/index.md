@@ -42,6 +42,7 @@ selected_works:
   url: https://youtu.be/Y8mqgmXiMHc?si=uKrZ7corPT2ziiYT
   contributors:
   - name: Ole Christoffer Haga
+    role: RoleOther
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 - title: Det går en båt (Departing)
@@ -50,6 +51,7 @@ selected_works:
   group_type: Film or video
   contributors:
   - name: Ole Christoffer Haga
+    role: Director
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 - title: A brief history of AI in Animation
@@ -59,6 +61,7 @@ selected_works:
   url: https://animationfestival.no/no/program
   contributors:
   - name: Ole Christoffer Haga
+    role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 - title: Animated Traumas - The Films of Anita Killi
@@ -67,6 +70,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ole Christoffer Haga
+    role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 - title: Gaming patterns and needs
@@ -75,6 +79,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ole Christoffer Haga
+    role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 - title: Hvilke egenskaper ved et dataspill kan bidra til avhengighet?
@@ -84,6 +89,7 @@ selected_works:
   url: https://www.medietilsynet.no/nyheter/aktuelt/medietilsynet-fordeler-fire-millioner-kroner-til-medieforskning/
   contributors:
   - name: Ole Christoffer Haga
+    role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 - title: From Puppets and Peg Bars to Virtual Reality
@@ -92,6 +98,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ole Christoffer Haga
+    role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 - title: Film style in Cinematic VR
@@ -101,6 +108,7 @@ selected_works:
   url: https://journal.animationstudies.org/ole-christoffer-haga-film-style-in-cinematic-vr/
   contributors:
   - name: Ole Christoffer Haga
+    role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 - title: Anthropomorphic deviations in BoJack Horseman
@@ -109,6 +117,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ole Christoffer Haga
+    role: Creator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 - title: Flyndre
@@ -118,6 +127,7 @@ selected_works:
   url: https://tv.nrk.no/program/KOIF75001217
   contributors:
   - name: Ole Christoffer Haga
+    role: AcademicCoordinator
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 source_mentions: []

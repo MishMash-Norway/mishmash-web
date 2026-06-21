@@ -24,7 +24,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://www.uio.no/ritmo/english/people/tenured/oliviel/index.html
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-6129-686X
@@ -44,9 +44,11 @@ selected_works:
   url: https://www.uio.no/ritmo/english/projects/mirage/software/AcousMuScope/index.html
   contributors:
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
   - name: Marina Sudo
+    role: Creator
 - title: 'Contemporary Music Analysis and Auditory Memory: The Use of Computational
     Tools as an Aid for Listening'
   year: '2025'
@@ -55,7 +57,9 @@ selected_works:
   url: https://fabricadesites.fcsh.unl.pt/ncmm/ncmm-2025-program/
   contributors:
   - name: Marina Sudo
+    role: Creator
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
 - title: 'MusiQAl: Music Question Answering through Audio-Video fusion'
@@ -65,15 +69,19 @@ selected_works:
   url: https://ismir2025.ismir.net/program-detailed-schedule
   contributors:
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: Computational Music Analysis Applied to Music Therapy Improvisation
@@ -83,6 +91,7 @@ selected_works:
   url: https://ifas.thws.de/fileadmin/user_upload/250917_HIGH-M_Symposium_Programme_updated.pdf
   contributors:
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
 - title: 'Computational Music Analysis: Toolbox and application to music psychology
@@ -92,6 +101,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
 - title: A Multimodal Dataset of Greek Folk Music
@@ -101,9 +111,11 @@ selected_works:
   url: https://dlfm.web.ox.ac.uk/2025-programme
   contributors:
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
 - title: 'MusiQAl: A Dataset for Music Question–Answering through Audio–Video Fusion'
@@ -113,15 +125,19 @@ selected_works:
   url: https://doi.org/10.5334/tismir.222
   contributors:
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: The MIRAGE project
@@ -131,6 +147,7 @@ selected_works:
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/guest-lectures-seminars/2019/research-seminar-28012019.html
   contributors:
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
 - title: Computational sound/music/gesture analysis and application to gesture-based
@@ -141,6 +158,7 @@ selected_works:
   url: https://www.jyu.fi/en/current/archive/2018/11/visiting-lecture-phd-olivier-lartillot-computational-sound-music-gesture-analysis-and-application-to-gesture-based-query-in-music-catalogue
   contributors:
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
 - title: Overview of signal-based rhythm analysis
@@ -150,6 +168,7 @@ selected_works:
   url: https://www.uio.no/english/for-employees/unitpages/hf/ritmo/meetings/sama/2018/signal-based-rhythm-analysis.html
   contributors:
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
 source_mentions:

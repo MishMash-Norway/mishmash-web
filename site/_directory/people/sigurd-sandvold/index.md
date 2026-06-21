@@ -32,7 +32,9 @@ selected_works:
   group_type: Research report
   contributors:
   - name: Ingvild Brekke Myhre
+    role: Creator
   - name: Sigurd Sandvold
+    role: Creator
     slug: sigurd-sandvold
     url: /people/sigurd-sandvold/
 - title: GLUT- grunnskulelærarutdanning Tilsyn
@@ -41,11 +43,15 @@ selected_works:
   group_type: Research report
   contributors:
   - name: Bente Cathrine Janby Bakke
+    role: Creator
   - name: Jan Olav Fretland
+    role: Editor
   - name: Sigurd Sandvold
+    role: Editor
     slug: sigurd-sandvold
     url: /people/sigurd-sandvold/
   - name: Nina Grieg Viig
+    role: Editor
 - title: "Can spontaneous Internet activity serve the goals of school? : \r\nHSH-rapport\
     \ 20016/2"
   year: '2016'
@@ -54,8 +60,11 @@ selected_works:
   url: https://brage.bibsys.no/xmlui/bitstream/id/447321/Rapport.pdf
   contributors:
   - name: Gavriel Salomon
+    role: Creator
   - name: Martin Meggele Sjøen
+    role: Creator
   - name: Sigurd Sandvold
+    role: Creator
     slug: sigurd-sandvold
     url: /people/sigurd-sandvold/
 source_mentions:

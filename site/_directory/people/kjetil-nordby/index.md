@@ -27,7 +27,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://www.aho.no/english/about/employees/kjetiln/
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-9044-8938
@@ -47,15 +47,23 @@ selected_works:
   url: https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003586883-5/roc-architecture-framework-remote-ship-operations-etienne-gernez-steven-mallam-kjetil-nordby-jon-erling-fauske-bijan-johansen-borgar-kl%C3%B8ve-sandnes-sunniva-lislevand-wildhagen-hanne-lockertsen
   contributors:
   - name: Etienne Gernez
+    role: Creator
   - name: Steven Mallam
+    role: Creator
   - name: Kjetil Nordby
+    role: Creator
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
   - name: Jon Erling Fauske
+    role: Creator
   - name: Bijan Johansen
+    role: Creator
   - name: Borgar Kløve Sandnes
+    role: Creator
   - name: Sunniva Lislevand Wildhagen
+    role: Creator
   - name: Hanne Lockertsen
+    role: Creator
 - title: A virtual reality experiment shows that augmented reality can improve collaboration
     in ship navigation
   year: '2025'
@@ -64,17 +72,22 @@ selected_works:
   url: https://doi.org/10.1080/00140139.2025.2519874
   contributors:
   - name: Floris Hendrikus Johannes van den Oever
+    role: Creator
   - name: Morten Fjeld
+    role: Creator
   - name: Kjetil Nordby
+    role: Creator
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
   - name: Bjørn Sætrevik
+    role: Creator
 - title: Open user experience design - The next generation bridge
   year: '2025'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Kjetil Nordby
+    role: Creator
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
 - title: OpenBridge
@@ -83,6 +96,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Kjetil Nordby
+    role: Creator
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
 - title: Designing for Next-Generation Remote Operation centers
@@ -91,6 +105,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Kjetil Nordby
+    role: Creator
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
 - title: OpenBridge 6.0 Automation Case
@@ -100,11 +115,15 @@ selected_works:
   url: https://www.figma.com/community/file/1549727597127372848/openbridge-6-0-automation-case
   contributors:
   - name: Sunniva Wildhagen Lislevand
+    role: Designer
   - name: Kjetil Nordby
+    role: Designer
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
   - name: hanne lockertsen
+    role: Designer
   - name: Jon Erling Fauske
+    role: Designer
 - title: OpenBridge 6.0 Application patterns
   year: '2025'
   source: Design
@@ -112,9 +131,13 @@ selected_works:
   url: https://www.figma.com/community/file/1486350615717873940/openbridge-6-0-application-patterns
   contributors:
   - name: Sunniva Wildhagen Lislevand
+    role: Designer
   - name: hanne lockertsen
+    role: Designer
   - name: Jon Erling Fauske
+    role: Designer
   - name: Kjetil Nordby
+    role: Designer
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
 - title: OpenBridge 6.0 Small Screen Case
@@ -124,11 +147,15 @@ selected_works:
   url: https://www.figma.com/community/file/1484493772517407893/openbridge-6-0-small-screen-case
   contributors:
   - name: Sunniva Wildhagen Lislevand
+    role: Designer
   - name: hanne lockertsen
+    role: Designer
   - name: Kjetil Nordby
+    role: CuratorOrganizer
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
   - name: Jon Erling Fauske
+    role: Designer
 - title: OpenBridge 6.0 Alert Case
   year: '2025'
   source: Design
@@ -136,17 +163,22 @@ selected_works:
   url: https://www.figma.com/community/file/1486019135013729331/openbridge-6-0-alert-case
   contributors:
   - name: hanne lockertsen
+    role: Designer
   - name: Sunniva Wildhagen Lislevand
+    role: Designer
   - name: Kjetil Nordby
+    role: Designer
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
   - name: Jon Erling Fauske
+    role: Designer
 - title: OpenBridge research presentation
   year: '2024'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Kjetil Nordby
+    role: Creator
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
 source_mentions:

@@ -45,10 +45,13 @@ selected_works:
   url: https://doi.org/10.1121/10.0042460
   contributors:
   - name: Liv Merve Akca Abrahamsson
+    role: Creator
   - name: Sascha Frühholz
+    role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
   - name: Jonna Katariina Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
 - title: Brain Responses to Musical Emotions in Autism
@@ -57,11 +60,15 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Liv Merve Akca Abrahamsson
+    role: Creator
   - name: Katharina Egger
+    role: Creator
   - name: Jonna Katariina Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
   - name: Sascha Frühholz
+    role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
 - title: Social traits influence behavioral and neural responses to emotional AI and
@@ -72,8 +79,11 @@ selected_works:
   url: https://www.abstractsonline.com/pp8/#!/21171/presentation/23566
   contributors:
   - name: Christine Leilani Skjegstad
+    role: Creator
   - name: Liv Merve Akca Abrahamsson
+    role: Creator
   - name: Sascha Frühholz
+    role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
 - title: Differential neural decoding of alarm and avoidance information from vocal
@@ -84,8 +94,11 @@ selected_works:
   url: https://doi.org/10.1038/s42003-025-08248-9
   contributors:
   - name: Gard Kvammen Beinnes
+    role: Creator
   - name: Christine Leilani Skjegstad
+    role: Creator
   - name: Sascha Frühholz
+    role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
 - title: Enhanced attention-related alertness following right anterior insular cortex
@@ -96,16 +109,25 @@ selected_works:
   url: https://doi.org/10.1016/j.isci.2024.108915
   contributors:
   - name: Jeanette Popovova
+    role: Creator
   - name: Reza Mazloum
+    role: Creator
   - name: Gianluca Macauda
+    role: Creator
   - name: Philipp Stämpfli
+    role: Creator
   - name: Patrik Vuilleumier
+    role: Creator
   - name: Sascha Frühholz
+    role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
   - name: Frank Scharnowski
+    role: Creator
   - name: Vinod Menon
+    role: Creator
   - name: Lars Michels
+    role: Creator
 - title: Direct subthalamic nucleus stimulation influences speech and voice quality
     in Parkinson's disease patients
   year: '2024'
@@ -114,15 +136,25 @@ selected_works:
   url: https://doi.org/10.1016/j.brs.2024.01.006
   contributors:
   - name: Marine Bobin
+    role: Creator
   - name: Neil Sulzer
+    role: Creator
   - name: Gina Bründler
+    role: Creator
   - name: Matthias Staib
+    role: Creator
   - name: Lukas L. Imbach
+    role: Creator
   - name: Lennart H. Stieglitz
+    role: Creator
   - name: Philipp Krauss
+    role: Creator
   - name: Oliver Bichsel
+    role: Creator
   - name: Christian R. Baumann
+    role: Creator
   - name: Sascha Frühholz
+    role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
 - title: Music as an Evolved Tool for Socio-Affective Fiction
@@ -132,7 +164,9 @@ selected_works:
   url: https://doi.org/10.1177/17540739241259562
   contributors:
   - name: Caitlyn Trevor
+    role: Creator
   - name: Sascha Frühholz
+    role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
 - title: 'Studying clinical communication through multiple lenses: The underused potential
@@ -143,19 +177,31 @@ selected_works:
   url: https://doi.org/10.1016/j.pec.2022.04.010
   contributors:
   - name: Hanne Cathrine Lie
+    role: Creator
   - name: Jennifer Gerwing
+    role: Creator
   - name: Hilde Bondevik
+    role: Creator
   - name: Inga Bostad
+    role: Creator
   - name: Dan-Mikael Ellingsen
+    role: Creator
   - name: Sascha Frühholz
+    role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
   - name: Pål Gulbrandsen
+    role: Creator
   - name: Magnus Hontvedt
+    role: Creator
   - name: Thomas de Lange
+    role: Creator
   - name: Anne Marie Landmark
+    role: Creator
   - name: Berit Hofset Larsen
+    role: Creator
   - name: Julia Menichetti
+    role: Creator
 - title: The evolutionary benefit of less-credible affective musical signals for emotion
     induction during storytelling
   year: '2021'
@@ -164,7 +210,9 @@ selected_works:
   url: https://doi.org/10.1017/S0140525X20001004
   contributors:
   - name: Caitlyn Trevor
+    role: Creator
   - name: Sascha Frühholz
+    role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
 - title: 'Face and voice perception: Understanding commonalities and differences'
@@ -174,10 +222,13 @@ selected_works:
   url: https://doi.org/10.1016/j.tics.2020.02.001
   contributors:
   - name: Andrew W. Young
+    role: Creator
   - name: Sascha Frühholz
+    role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
   - name: Stefan R. Schweinberger
+    role: Creator
 source_mentions: []
 wps:
 - WP1

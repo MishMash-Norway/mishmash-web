@@ -1,4 +1,5 @@
 ---
+layout: page
 type: institution
 slug: ultima-festival
 permalink: /institutions/ultima-festival/
@@ -8,7 +9,7 @@ name: Ultima Festival
 short_name: Ultima
 image: /images/institutions/ultima-festival.svg
 people:
-- /people/heloisa-amaral/
+- heloisa-amaral
 projects: []
 country: null
 city: null

@@ -23,7 +23,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://www4.uib.no/en/find-employees/claire.ghetti
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-3892-4706
@@ -43,9 +43,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Claire Ghetti
+    role: Creator
     slug: claire-ghetti
     url: /people/claire-ghetti/
   - name: Eva Marija Vukich
+    role: Creator
 - title: 'Socioecological perspectives on music therapy in medical contexts: Examples
     from project Sounding Relation'
   year: '2024'
@@ -53,6 +55,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Claire Ghetti
+    role: Creator
     slug: claire-ghetti
     url: /people/claire-ghetti/
 - title: Israeli Parents’ Lived Experiences of Music Therapy With Their Preterm Infants
@@ -63,8 +66,11 @@ selected_works:
   url: https://doi.org/10.1093/jmt/thac006
   contributors:
   - name: Shulamit Epstein
+    role: Creator
   - name: Cochavit Elefant
+    role: Creator
   - name: Claire Ghetti
+    role: Creator
     slug: claire-ghetti
     url: /people/claire-ghetti/
 - title: 'Parent-driven infant-directed singing as resource-oriented music therapy:
@@ -74,19 +80,26 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Claire Ghetti
+    role: Creator
     slug: claire-ghetti
     url: /people/claire-ghetti/
   - name: Tora Söderström Gaden
+    role: Creator
   - name: Christian Gold
+    role: Creator
   - name: Ingrid Kvestad
+    role: Creator
 - title: Musikkterapi
   year: '2021'
   source: Textbook chapter
   group_type: Textbook chapter
   contributors:
   - name: Brynjulf Stige
+    role: Creator
   - name: Hans Petter Solli
+    role: Creator
   - name: Claire Ghetti
+    role: Creator
     slug: claire-ghetti
     url: /people/claire-ghetti/
 - title: 'Music therapy for people with substance use disorders: preliminary findings
@@ -96,16 +109,20 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Claire Ghetti
+    role: Creator
     slug: claire-ghetti
     url: /people/claire-ghetti/
   - name: Annette Brenner
+    role: Creator
   - name: Christian Gold
+    role: Creator
 - title: Music therapy and addiction
   year: '2017'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Claire Ghetti
+    role: Creator
     slug: claire-ghetti
     url: /people/claire-ghetti/
 - title: 'Reflexive practice: Considering music therapy for procedural support in
@@ -115,6 +132,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Claire Ghetti
+    role: Creator
     slug: claire-ghetti
     url: /people/claire-ghetti/
 - title: Music therapy as procedural support - theoretical model and practical examples
@@ -123,6 +141,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Claire Ghetti
+    role: Creator
     slug: claire-ghetti
     url: /people/claire-ghetti/
 - title: Pediatric intensive care unit (PICU)
@@ -131,9 +150,11 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Claire Ghetti
+    role: Creator
     slug: claire-ghetti
     url: /people/claire-ghetti/
   - name: Ann Hannan
+    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

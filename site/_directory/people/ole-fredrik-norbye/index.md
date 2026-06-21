@@ -44,6 +44,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ole Fredrik Norbye
+    role: Creator
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 - title: Kreativitet og innovasjon i urolige tider
@@ -53,6 +54,7 @@ selected_works:
   url: https://funkon.fleksibelutdanning.no/
   contributors:
   - name: Ole Fredrik Norbye
+    role: Creator
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 - title: Kublai Trio
@@ -61,10 +63,13 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Ole Fredrik Norbye
+    role: Musician
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
   - name: Njål Ølnes
+    role: Musician
   - name: Per Oddvar Johansen
+    role: Musician
 - title: Repka - EP by Alexander Scriabin | Spotify
   year: '2024'
   source: Music performance
@@ -72,6 +77,7 @@ selected_works:
   url: https://open.spotify.com/album/086OCn947NCnzNH3TJiPSU?si=zRxFFNdQS6OyceL9to1O7g
   contributors:
   - name: Ole Fredrik Norbye
+    role: Musician
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 - title: 'Utøvende: Oslo Bys Arkitekturpris, Rådhuset, Oslo (Norbye/Borøy duo)'
@@ -80,7 +86,9 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Sandra Borøy
+    role: Artist
   - name: Ole Fredrik Norbye
+    role: Artist
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 - title: O how great is your compassion
@@ -89,6 +97,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Ole Fredrik Norbye
+    role: Composer
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 - title: Liturgisk improvisasjoner
@@ -97,6 +106,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Ole Fredrik Norbye
+    role: Composer
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 - title: Den Vesle bygda som glemte at det var jul - juleturne, Folkeakademiet
@@ -105,6 +115,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Ole Fredrik Norbye
+    role: Artist
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 - title: Den lekende musikk - Konsertserie støttet av Oslo Kommune
@@ -113,6 +124,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Ole Fredrik Norbye
+    role: Artist
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 - title: Kapellmester, TV2s høstlansering
@@ -121,6 +133,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Ole Fredrik Norbye
+    role: Artist
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 source_mentions: []

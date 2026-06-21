@@ -1,4 +1,5 @@
 ---
+layout: page
 type: institution
 slug: uniarts-helsinki
 permalink: /institutions/uniarts-helsinki/
@@ -8,7 +9,7 @@ name: Uniarts Helsinki
 short_name: Uniarts
 image: /images/institutions/uniarts-helsinki.svg
 people:
-- /people/heidi-partti/
+- heidi-partti
 projects: []
 country: null
 city: null

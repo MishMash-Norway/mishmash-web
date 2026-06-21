@@ -40,10 +40,13 @@ selected_works:
   url: https://www4.uib.no/en/research/research-centres/center-for-digital-narrative/events/cdn-equinox
   contributors:
   - name: Jason Nelson
+    role: RoleOther
     slug: jason-nelson
     url: /people/jason-nelson/
   - name: Alinta Krauth
+    role: RoleOther
   - name: Lina Ruth Harder
+    role: RoleOther
 - title: Drift Vector Field
   year: '2025'
   source: Visual arts
@@ -51,7 +54,9 @@ selected_works:
   url: https://dpoetry.com/aicodeart/
   contributors:
   - name: Alinta Krauth
+    role: Artist
   - name: Jason Nelson
+    role: Artist
     slug: jason-nelson
     url: /people/jason-nelson/
 - title: 'Reading Data Readings: Posthuman Poetry Authorship'
@@ -61,7 +66,9 @@ selected_works:
   url: https://biss.pensoft.net/article/175400/
   contributors:
   - name: Alinta Krauth
+    role: Creator
   - name: Jason Nelson
+    role: Creator
     slug: jason-nelson
     url: /people/jason-nelson/
 - title: Careful of This
@@ -71,9 +78,11 @@ selected_works:
   url: https://dpoetry.com/careful/
   contributors:
   - name: Jason Nelson
+    role: Artist
     slug: jason-nelson
     url: /people/jason-nelson/
   - name: Alinta Krauth
+    role: Artist
 - title: TimeStamp Overlay
   year: '2025'
   source: Visual arts
@@ -81,6 +90,7 @@ selected_works:
   url: https://www4.uib.no/forskning/forskningssentre/senter-for-digitale-fortellinger/arrangementer/intimate-atmospheres
   contributors:
   - name: Jason Nelson
+    role: Artist
     slug: jason-nelson
     url: /people/jason-nelson/
 - title: Katabatic
@@ -90,18 +100,22 @@ selected_works:
   url: https://www4.uib.no/forskning/forskningssentre/senter-for-digitale-fortellinger/arrangementer/intimate-atmospheres
   contributors:
   - name: Jason Nelson
+    role: Artist
     slug: jason-nelson
     url: /people/jason-nelson/
   - name: Alinta Krauth
+    role: Artist
 - title: Co-creative multimodal authorship as procedural performance with DALL-E
   year: '2024'
   source: Non-fiction chapter
   group_type: Non-fiction chapter
   contributors:
   - name: Walter Jason Nelson
+    role: Creator
     slug: jason-nelson
     url: /people/jason-nelson/
   - name: Astrid Ensslin
+    role: Creator
 - title: 'Mutacosm: A Digital Poem about AI’s Monstrous Mutation Powers'
   year: '2024'
   source: Journal article
@@ -109,6 +123,7 @@ selected_works:
   url: https://www.euppublishing.com/doi/full/10.3366/count.2024.0362
   contributors:
   - name: Jason Nelson
+    role: Creator
     slug: jason-nelson
     url: /people/jason-nelson/
 - title: 'AIwriting: Text to Image Generation as a Mode of Digital Narrative'
@@ -117,12 +132,17 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Scott Robert Rettberg
+    role: Creator
   - name: Walter Jason Nelson
+    role: Creator
     slug: jason-nelson
     url: /people/jason-nelson/
   - name: Jill Walker Rettberg
+    role: Creator
   - name: Patrick Lichty
+    role: Creator
   - name: Talan Memmott
+    role: Creator
 - title: The Many Occasions of Moving
   year: '2022'
   source: Visual arts
@@ -130,6 +150,7 @@ selected_works:
   url: https://www.dpoetry.com/moving2/
   contributors:
   - name: Walter Jason Nelson
+    role: Artist
     slug: jason-nelson
     url: /people/jason-nelson/
 source_mentions: []

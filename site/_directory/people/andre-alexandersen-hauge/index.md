@@ -37,10 +37,13 @@ selected_works:
   url: http://itekcmsonline.com/rps2prod/esrel2019/e-proceedings/pdf/0431.pdf
   contributors:
   - name: Sizarta Sarshar
+    role: Creator
   - name: André A Hauge
+    role: Creator
     slug: andre-alexandersen-hauge
     url: /people/andre-alexandersen-hauge/
   - name: Rune Winther
+    role: Creator
 - title: Evaluating Approaches Supporting Safety Argumentation for Inclusion in a
     Safety Assessment Framework for Efficient Transport
   year: '2019'
@@ -49,10 +52,13 @@ selected_works:
   url: http://itekcmsonline.com/rps2prod/esrel2019/e-proceedings/pdf/0734.pdf
   contributors:
   - name: André A Hauge
+    role: Creator
     slug: andre-alexandersen-hauge
     url: /people/andre-alexandersen-hauge/
   - name: Terje Sivertsen
+    role: Creator
   - name: Bjørn Axel Gran
+    role: Creator
 - title: Evaluating models for the inclusion in a safety assessment framework for
     efficient transport
   year: '2018'
@@ -61,11 +67,15 @@ selected_works:
   url: https://doi.org/10.1201/9781351174664
   contributors:
   - name: Peter Karpati
+    role: Creator
   - name: André A Hauge
+    role: Creator
     slug: andre-alexandersen-hauge
     url: /people/andre-alexandersen-hauge/
   - name: Terje Sivertsen
+    role: Creator
   - name: Bjørn Axel Gran
+    role: Creator
 - title: Evaluating approaches for hazard identification for the inclusion in a safety
     assessment framework for efficient transport
   year: '2018'
@@ -74,26 +84,38 @@ selected_works:
   url: https://doi.org/10.1201/9781351174664
   contributors:
   - name: Øystein Skogvang
+    role: Creator
   - name: Reidun Kristine Opsahl
+    role: Creator
   - name: Sindre Solibakke
+    role: Creator
   - name: Peter Karpati
+    role: Creator
   - name: André A Hauge
+    role: Creator
     slug: andre-alexandersen-hauge
     url: /people/andre-alexandersen-hauge/
   - name: Terje Sivertsen
+    role: Creator
   - name: Bjørn Axel Gran
+    role: Creator
   - name: Mary Ann Lundteigen
+    role: Creator
 - title: Safety demonstration challenges and recommendations in the nuclear field
   year: '2015'
   source: Book chapter
   group_type: Book chapter
   contributors:
   - name: Peter Karpati
+    role: Creator
   - name: André A Hauge
+    role: Creator
     slug: andre-alexandersen-hauge
     url: /people/andre-alexandersen-hauge/
   - name: Vikash Katta
+    role: Creator
   - name: Christian Raspotnig
+    role: Creator
 - title: An analytic evaluation of the SaCS pattern language for conceptualisation
     of safety critical systems
   year: '2014'
@@ -102,9 +124,11 @@ selected_works:
   url: http://www.iariajournals.org/software/soft_v7_n34_2014_paged.pdf
   contributors:
   - name: André A Hauge
+    role: Creator
     slug: andre-alexandersen-hauge
     url: /people/andre-alexandersen-hauge/
   - name: Ketil Stølen
+    role: Creator
 - title: An Analytic Evaluation of the SaCS Pattern Language – Including Explanations
     of Major Design Choices
   year: '2014'
@@ -113,18 +137,22 @@ selected_works:
   url: http://www.thinkmind.org/download.php?articleid=patterns_2014_3_20_70031
   contributors:
   - name: André A Hauge
+    role: Creator
     slug: andre-alexandersen-hauge
     url: /people/andre-alexandersen-hauge/
   - name: Ketil Stølen
+    role: Creator
 - title: Developing Safe Control Systems using Patterns for Assurance
   year: '2013'
   source: Book chapter
   group_type: Book chapter
   contributors:
   - name: André A Hauge
+    role: Creator
     slug: andre-alexandersen-hauge
     url: /people/andre-alexandersen-hauge/
   - name: Ketil Stølen
+    role: Creator
 - title: SACS — A Pattern Language for Safe Adaptive Control Software
   year: '2011'
   source: Book chapter
@@ -132,9 +160,11 @@ selected_works:
   url: https://doi.org/10.1145/2578903.2579145
   contributors:
   - name: André A Hauge
+    role: Creator
     slug: andre-alexandersen-hauge
     url: /people/andre-alexandersen-hauge/
   - name: Ketil Stølen
+    role: Creator
 - title: Method for assuring that self-imposed changes made by adaptive systems do
     not compromise safety
   year: '2010'
@@ -142,10 +172,13 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: André A Hauge
+    role: Creator
     slug: andre-alexandersen-hauge
     url: /people/andre-alexandersen-hauge/
   - name: Terje Sivertsen
+    role: Creator
   - name: Ketil Stølen
+    role: Creator
 source_mentions:
 - about/organisation/council/index.md
 summary: null

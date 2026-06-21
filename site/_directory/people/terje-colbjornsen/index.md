@@ -37,16 +37,20 @@ selected_works:
   url: https://doi.org/10.18261/nst.41.4.2
   contributors:
   - name: Terje Colbjørnsen
+    role: Creator
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/
   - name: Håkon Larsen
+    role: Creator
   - name: Kim Tallerås
+    role: Creator
 - title: Not for the dough. Streaming in/as public service
   year: '2025'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Terje Colbjørnsen
+    role: Creator
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/
 - title: 'Bypassing the access problem: Two alternative sources for media industry
@@ -56,6 +60,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Terje Colbjørnsen
+    role: Creator
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/
 - title: Comparative Studies of Media Industries – Literature Review and Call for
@@ -65,10 +70,13 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Mads M. Tommerup Andersen
+    role: Creator
   - name: Terje Colbjørnsen
+    role: Creator
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/
   - name: Vilde Schanke Sundet
+    role: Creator
 - title: 'Joe Rogan v. Spotify: Platformization and worlds colliding'
   year: '2024'
   source: Journal article
@@ -76,6 +84,7 @@ selected_works:
   url: https://doi.org/10.1177/13548565241253909
   contributors:
   - name: Terje Colbjørnsen
+    role: Creator
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/
 - title: Digital spilldistribusjon i folkebiblioteket. Hvordan spill som service utfordrer
@@ -86,7 +95,9 @@ selected_works:
   url: https://doi.org/10.55669/10.55669/oa420410
   contributors:
   - name: Madeléne Johansen
+    role: Creator
   - name: Terje Colbjørnsen
+    role: Creator
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/
 - title: Curating collections in LAMs
@@ -95,18 +106,24 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Terje Colbjørnsen
+    role: Creator
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/
   - name: Brita  Brenna
+    role: Creator
   - name: Samuel Edquist
+    role: Creator
 - title: Digital communication in LAMs
   year: '2022'
   source: Book chapter
   group_type: Book chapter
   contributors:
   - name: Henriette Roued-Cunliffe
+    role: Creator
   - name: Bjarki Valtýsson
+    role: Creator
   - name: Terje Colbjørnsen
+    role: Creator
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/
 - title: Korona og «solutionism»
@@ -115,6 +132,7 @@ selected_works:
   group_type: Editorial
   contributors:
   - name: Terje Colbjørnsen
+    role: Creator
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/
 - title: 'The Janus Strategy: Launching a Norwegian ebook distribution service in
@@ -125,6 +143,7 @@ selected_works:
   url: https://doi.org/10.18848/1447-9516/cgp/v09i01/36920
   contributors:
   - name: Terje Colbjørnsen
+    role: Creator
     slug: terje-colbjornsen
     url: /people/terje-colbjornsen/
 source_mentions:

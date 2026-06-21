@@ -55,11 +55,15 @@ selected_works:
   url: https://doi.org/10.17605/OSF.IO/PSUH9
   contributors:
   - name: Jens Knigge
+    role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
   - name: Gerd Mannhaupt
+    role: Creator
   - name: Stephan Sallat
+    role: Creator
   - name: Claudia Steinbrink
+    role: Creator
 - title: A question of time?—Relations between temporal auditory processing abilities
     and literacy skills over the course of primary school and how they are mediated
     by phonological processing
@@ -69,11 +73,15 @@ selected_works:
   url: https://doi.org/10.3389/flang.2026.1704202
   contributors:
   - name: Sindy Weise
+    role: Creator
   - name: Jens Knigge
+    role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
   - name: Gerd Mannhaupt
+    role: Creator
   - name: Claudia Steinbrink
+    role: Creator
 - title: 'Developing music teaching self-efficacy in ECEC preservice teachers: A comparison
     of practice-oriented and skill-based course formats'
   year: '2026'
@@ -81,7 +89,9 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Thomas Nguyen
+    role: Creator
   - name: Jens Knigge
+    role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
 - title: What Makes Future Teachers Sing? Contextual and Dispositional Predictors
@@ -91,7 +101,9 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Anne Haugland Balsnes
+    role: Creator
   - name: Jens Knigge
+    role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
 - title: 'Promoting singing in school through teacher education: a quasi-experimental
@@ -101,8 +113,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Alexander Elmies-Vestergren
+    role: Creator
   - name: Anne Haugland Balsnes
+    role: Creator
   - name: Jens Knigge
+    role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
 - title: 'Methodological Humility: Decolonising Cultural Literacy Research in dialoguing@rts'
@@ -111,17 +126,22 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Runa Hestad Jenssen
+    role: Creator
   - name: Jens Knigge
+    role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
   - name: Terhi Nokkala
+    role: Creator
 - title: Kompetenz und Expertise
   year: '2026'
   source: Book chapter
   group_type: Book chapter
   contributors:
   - name: Johannes Hasselhorn
+    role: Creator
   - name: Jens Knigge
+    role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
 - title: Quantitativ-explanative Zugänge
@@ -130,7 +150,9 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Friedrich Platz
+    role: Creator
   - name: Jens Knigge
+    role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
 - title: Quantitativ-deskriptive Forschungszugänge
@@ -139,19 +161,24 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Jens Knigge
+    role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
   - name: Friedrich Platz
+    role: Creator
 - title: Transfer
   year: '2026'
   source: Book chapter
   group_type: Book chapter
   contributors:
   - name: Michael Dartsch
+    role: Creator
   - name: Jens Knigge
+    role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
   - name: Friedrich Platz
+    role: Creator
 source_mentions: []
 wps:
 - WP4

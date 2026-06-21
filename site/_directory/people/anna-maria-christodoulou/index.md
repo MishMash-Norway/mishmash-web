@@ -50,17 +50,23 @@ selected_works:
   url: https://doi.org/10.1007/978-3-032-26999-7_18
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Kayla Burnim
+    role: Creator
   - name: Finn Upham
+    role: Creator
   - name: Tejaswinee Kelkar
+    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: Editorial Note
@@ -69,10 +75,13 @@ selected_works:
   group_type: Introduction
   contributors:
   - name: Abbigail Marie Fleckenstein
+    role: Creator
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
 - title: Supporting Narrative Comprehension in Programmatic Music through Music and
@@ -83,12 +92,15 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.17496754
   contributors:
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: SysMus25 Conference Proceedings
@@ -98,10 +110,13 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.17632991
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Editor
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Abbigail Marie Fleckenstein
+    role: Editor
   - name: Anna-Maria Christodoulou
+    role: Editor
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
 - title: SysMus25 Book of Abstracts
@@ -111,10 +126,13 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.17531650
   contributors:
   - name: Abbigail Marie Fleckenstein
+    role: Editor
   - name: Hugh Alexander von Arnim
+    role: Editor
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Anna-Maria Christodoulou
+    role: Editor
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
 - title: 'MusiQAl: Music Question Answering through Audio-Video fusion'
@@ -124,15 +142,19 @@ selected_works:
   url: https://ismir2025.ismir.net/program-detailed-schedule
   contributors:
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: The Benefits of Multimodal MIR in Computational Analysis of Music Therapy
@@ -143,6 +165,7 @@ selected_works:
   url: https://ifas.thws.de/fileadmin/user_upload/250917_HIGH-M_Symposium_Programme_updated.pdf
   contributors:
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
 - title: A Multimodal Dataset of Greek Folk Music
@@ -152,9 +175,11 @@ selected_works:
   url: https://dlfm.web.ox.ac.uk/2025-programme
   contributors:
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
 - title: 'MusiQAl: A Dataset for Music Question–Answering through Audio–Video Fusion'
@@ -164,15 +189,19 @@ selected_works:
   url: https://doi.org/10.5334/tismir.222
   contributors:
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Olivier Lartillot
+    role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: 'LVNS-RAVE: Diversified audio generation with RAVE and Latent Vector Novelty
@@ -183,11 +212,15 @@ selected_works:
   url: https://doi.org/10.1145/3638530.3654432
   contributors:
   - name: Jinyue Guo
+    role: Creator
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Balint Laczko
+    role: Creator
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
 source_mentions: []

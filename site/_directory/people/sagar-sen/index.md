@@ -45,7 +45,9 @@ selected_works:
   url: https://dl.acm.org/doi/10.1145/3494519https://dl.acm.org/doi/pdf/10.1145/3494519
   contributors:
   - name: Dusica Marijan
+    role: Creator
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
 - title: 'Certus: an organizational effort towards research-based innovation in software
@@ -55,10 +57,13 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
   - name: Dusica Marijan
+    role: Creator
   - name: Arnaud Gotlieb
+    role: Creator
 - title: 'TITAN: Test Suite Optimization for Highly Configurable Software'
   year: '2017'
   source: Conference lecture
@@ -66,9 +71,13 @@ selected_works:
   url: https://doi.org/10.1109/ICST.2017.60
   contributors:
   - name: Dusica Marijan
+    role: Creator
   - name: Arnaud Gotlieb
+    role: Creator
   - name: Marius Liaaen
+    role: Creator
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
 - title: Detecting and Reducing Redundancy in Software Testing for Highly Configurable
@@ -79,7 +88,9 @@ selected_works:
   url: https://doi.org/10.1109/HASE.2017.31
   contributors:
   - name: Dusica Marijan
+    role: Creator
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
 - title: Constraint-Based Verification of a Mobile App Game Designed for Nudging People
@@ -89,10 +100,15 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Arnaud Gotlieb
+    role: Creator
   - name: Marine Louarn
+    role: Creator
   - name: Mari Nygård
+    role: Creator
   - name: Tomas Ruiz-Lopez
+    role: Creator
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
 - title: 'Naming the Pain in Requirements Engineering: Contemporary Problems, Causes,
@@ -103,13 +119,19 @@ selected_works:
   url: https://doi.org/10.1007/s10664-016-9451-7
   contributors:
   - name: Daniel Fernandez
+    role: Creator
   - name: Stefan Wagner
+    role: Creator
   - name: Casper Lassenius
+    role: Creator
   - name: D. Pfahl
+    role: Creator
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
   - name: J. de la Vara
+    role: Creator
 - title: 'Modelling and Verifying Combinatorial Interactions to Test Data Intensive
     Systems: Experience with Optimal Archiving at the Norwegian Customs and Excise
     Directorate'
@@ -118,10 +140,13 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
   - name: Dusica Marijan
+    role: Creator
   - name: Carlo Ieva
+    role: Creator
 - title: 'Certus: Glimpses of a Centre for Research-Based Innovation in Software Verification
     and Validation'
   year: '2015'
@@ -129,18 +154,24 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
   - name: Dusica Marijan
+    role: Creator
   - name: Arnaud Gotlieb
+    role: Creator
 - title: Towards More Relational Feature Models
   year: '2015'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Arnaud Gotlieb
+    role: Creator
   - name: Dusica Marijan
+    role: Creator
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
 - title: Evaluating Reconfiguration Impact in Self-Adaptive Systems – An Approach
@@ -151,11 +182,15 @@ selected_works:
   url: https://doi.org/10.1109/SEAA.2015.72
   contributors:
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
   - name: Stefano Di Alesio
+    role: Creator
   - name: Dusica Marijan
+    role: Creator
   - name: Arnab Sarkar
+    role: Creator
 source_mentions: []
 summary: null
 permalink: /people/sagar-sen/

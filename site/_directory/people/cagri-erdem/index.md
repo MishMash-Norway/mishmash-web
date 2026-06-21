@@ -44,10 +44,13 @@ selected_works:
   url: https://doi.org/10.3389/fcomp.2025.1603769
   contributors:
   - name: Maham Riaz
+    role: Creator
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: 'RhyGlyph: Radial Glyph Visualization of Rhythm Interactions'
@@ -57,12 +60,15 @@ selected_works:
   url: https://doi.org/10.1145/3771594.3771643
   contributors:
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Carsten Griwodz
+    role: Creator
     slug: carsten-griwodz
     url: /people/carsten-griwodz/
   - name: Davide Rocchesso
+    role: Creator
 - title: Live Coding the Lineage
   year: '2025'
   source: Book chapter
@@ -70,13 +76,17 @@ selected_works:
   url: https://doi.org/10.5281/zenodo.17642435
   contributors:
   - name: Björn Thór Jónsson
+    role: Creator
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
 - title: Where to Put That Microphone? A Study of Sound Localization in Ambisonics
@@ -87,11 +97,15 @@ selected_works:
   url: https://doi.org/10.5281/ZENODO.17497086
   contributors:
   - name: Maham Riaz
+    role: Creator
   - name: Jinyue Guo
+    role: Creator
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: 'MAAL: a multi-agent autonomous live looper for improvised co-creation of
@@ -102,15 +116,19 @@ selected_works:
   url: https://doi.org/10.5281/ZENODO.16946080
   contributors:
   - name: Vincenzo Madaghiele
+    role: Creator
     slug: vincenzo-madaghiele
     url: /people/vincenzo-madaghiele/
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Tejaswinee Kelkar
+    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
 - title: 'A Sensor is not a Sensor: Diffracting the Preservation of Sonic Microinteraction
@@ -120,13 +138,17 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Ulysse Teller Masao Côté-Allard
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: 'The Feedback Mop Cello: An Instrument for Interacting with Acoustic Feedback
@@ -136,12 +158,15 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Stefano Fasciani
+    role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
 - title: The MusicLab App – Exploring the usage of mobile accelerometry to measure
@@ -151,12 +176,17 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Dana Swarbrick
+    role: Creator
   - name: Finn Upham
+    role: Creator
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Kayla Burnim
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: 'Towards Playing in the ''Air'': Modeling Motion-Sound Energy Relationships
@@ -167,17 +197,23 @@ selected_works:
   url: https://smc2020torino.it/adminupload/file/SMC2020Proceedings.pdf?fbclid=IwAR0X9iNjBq_D_xs2xqmm8KA-9fBn-XQg9dh0md7CMxqrBiYxbOeI4m3hiz4#page=193
   contributors:
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Qichao Lan
+    role: Creator
   - name: Julian Fuhrer
+    role: Creator
   - name: Charles Patrick Martin
+    role: Creator
     slug: charles-martin
     url: /people/charles-martin/
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: 'RAW: A Muscle-based instrument'
@@ -186,6 +222,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Cagri Erdem
+    role: Artist
     slug: cagri-erdem
     url: /people/cagri-erdem/
 source_mentions: []

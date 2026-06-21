@@ -14,7 +14,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-6563-9601
@@ -35,11 +35,15 @@ selected_works:
   url: https://doi.org/10.13140/RG.2.2.15086.57923
   contributors:
   - name: Marte Karoline Herrebrøden
+    role: Creator
   - name: Ingjerd Skafle
+    role: Creator
   - name: Georgios Marentakis
+    role: Creator
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
   - name: Anders Nordahl-Hansen
+    role: Creator
 - title: Advantages and disadvantages of noise-cancelling headphones for autistic
     students in educational settings
   year: '2026'
@@ -48,13 +52,19 @@ selected_works:
   url: https://doi.org/10.1016/j.ridd.2026.105301
   contributors:
   - name: Marte Karoline Herrebrøden
+    role: Creator
   - name: Georgios Marentakis
+    role: Creator
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
   - name: Anders Dechsling
+    role: Creator
   - name: G. Esposito
+    role: Creator
   - name: D. Dimitriou
+    role: Creator
   - name: Anders Nordahl-Hansen
+    role: Creator
 - title: Investigating Strategies in a Sound Design for Sustainability Exercise in
     an Educational Setting
   year: '2025'
@@ -62,9 +72,11 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Georgios Marentakis
+    role: Creator
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
   - name: Stefano Delle Monache
+    role: Creator
 - title: Experimenter Effect in a Guided Breathing Experiment
   year: '2025'
   source: Book chapter
@@ -72,9 +84,11 @@ selected_works:
   url: https://doi.org/10.5281/ZENODO.15032536
   contributors:
   - name: Georgios Marentakis
+    role: Creator
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
   - name: Victoria Grace
+    role: Creator
 - title: An investigation into the mapping of sonic parameters to pen movement in
     tablet tasks
   year: '2025'
@@ -83,9 +97,11 @@ selected_works:
   url: https://doi.org/10.1145/3771594.3771628
   contributors:
   - name: Georgios Marentakis
+    role: Creator
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
   - name: Ahmed Raza  Mir
+    role: Creator
 - title: Comparing Trend-Based and Direct HRV Biofeedback in an Adaptive Game Environment
   year: '2025'
   source: Book chapter
@@ -93,9 +109,13 @@ selected_works:
   url: https://doi.org/10.1145/3771594.3771636
   contributors:
   - name: Michael Nicholas Louka
+    role: Creator
   - name: Mahauri  Hassan Vakhajevitsj
+    role: Creator
   - name: Krasniqi  Kedi
+    role: Creator
   - name: Georgios Marentakis
+    role: Creator
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
 - title: School Professionals' Awareness and Perceptions of the Use of Noise-Cancelling
@@ -105,10 +125,13 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Marte Karoline Herrebrøden
+    role: Creator
   - name: Georgios Marentakis
+    role: Creator
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
   - name: Anders Nordahl-Hansen
+    role: Creator
 - title: 'It sounds sustainable: practices in designing sound for sustainability'
   year: '2024'
   source: Book chapter
@@ -116,15 +139,18 @@ selected_works:
   url: https://doi.org/10.21606/drs.2024.791
   contributors:
   - name: Georgios Marentakis
+    role: Creator
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
   - name: Doriana Dal Palù
+    role: Creator
 - title: Sketching in Sound and Interaction Design
   year: '2023'
   source: Book chapter
   group_type: Book chapter
   contributors:
   - name: Georgios Marentakis
+    role: Creator
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
 - title: Multimodal Cues for Guided Breathing
@@ -133,10 +159,13 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Georgios Marentakis
+    role: Creator
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
   - name: Victoria Grace
+    role: Creator
   - name: Jonathan Berger
+    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

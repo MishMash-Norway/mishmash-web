@@ -47,15 +47,7 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Bjørn Tallak Bakken
-    slug: bjorn-tallak-bakken
-    url: /people/bjorn-tallak-bakken/
-- title: Innovations in Crisis Management Training and Exercises – a Systemic Approach
-  year: '2025'
-  source: PhD thesis
-  group_type: PhD thesis
-  contributors:
-  - name: Geir Ove Venemyr
-  - name: Bjørn Tallak Bakken
+    role: Creator
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
 - title: 'Challenging the doctrine of “non-discerning” decision-making: Investigating
@@ -66,10 +58,13 @@ selected_works:
   url: https://doi.org/10.1111/joop.12467
   contributors:
   - name: Bjørn Tallak Bakken
+    role: Creator
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
   - name: Mathias Hansson
+    role: Creator
   - name: Thorvald Hærem
+    role: Creator
 - title: 'VM i Qatar 2022: sportsvasking og eventberedskap'
   year: '2023'
   source: Book chapter
@@ -77,10 +72,13 @@ selected_works:
   url: https://doi.org/10.18261/9788215054599-23-07
   contributors:
   - name: Bjørn Tallak Bakken
+    role: Creator
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
   - name: Trine Lovold Syversen
+    role: Creator
   - name: Ole Boe
+    role: Creator
 - title: 'The Impact of Trust in Time of Covid-19: Trust in Crisis Management and
     Crisis Communication in Inland Norway University of Applied Sciences'
   year: '2022'
@@ -89,7 +87,9 @@ selected_works:
   url: https://doi.org/10.1007/978-3-030-94814-6_14
   contributors:
   - name: Åse Storhaug Hole
+    role: Creator
   - name: Bjørn T. Bakken
+    role: Creator
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
 - title: Whistleblowing and Mindful Organizing in High-Risk Organizations
@@ -99,22 +99,30 @@ selected_works:
   url: https://doi.org/10.34190/KM.19.205
   contributors:
   - name: Bjørn T. Bakken
+    role: Creator
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
   - name: Åse Storhaug Hole
+    role: Creator
   - name: Anne Oline Haugen
+    role: Creator
   - name: Per Olav Lund
+    role: Creator
 - title: Varsling og ytringsklima i beredskapssektoren
   year: '2018'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Bjørn T. Bakken
+    role: Creator
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
   - name: Åse Storhaug Hole
+    role: Creator
   - name: Anne Oline Haugen
+    role: Creator
   - name: Per Olav Lund
+    role: Creator
 - title: Flipped gaming for enhanced learning outcome crisis preparedness courses
   year: '2017'
   source: Book chapter
@@ -122,15 +130,54 @@ selected_works:
   url: https://doi.org/10.1109/ithet.2017.8067830
   contributors:
   - name: Geir Ove Venemyr
+    role: Creator
   - name: Bjørn T. Bakken
+    role: Creator
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
   - name: Linda Vibeke Kiønig
+    role: Creator
   - name: Ole Jørgen Stefferud Ranglund
+    role: Creator
   - name: Stig Holen
+    role: Creator
   - name: Hanne Marit Haave
+    role: Creator
   - name: Aud Tone Vold
+    role: Creator
   - name: Robin Braun
+    role: Creator
+- title: 'Flipped Gaming: The Teachers Role When Using the Students as Content Providers'
+  year: '2017'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Aud Tone Vold
+    role: Creator
+  - name: Ole Jørgen Stefferud Ranglund
+    role: Creator
+  - name: Hanne Marit Haave
+    role: Creator
+  - name: Linda Vibeke Kiønig
+    role: Creator
+  - name: Geir Ove Venemyr
+    role: Creator
+  - name: Monica Johannesen Lervik
+    role: Creator
+  - name: Bjørn T. Bakken
+    role: Creator
+    slug: bjorn-tallak-bakken
+    url: /people/bjorn-tallak-bakken/
+  - name: Svein Bergum
+    role: Creator
+  - name: Stig Holen
+    role: Creator
+  - name: Petter Granlien
+    role: Creator
+  - name: Henrik Klevhus
+    role: Creator
+  - name: Anders Klevhus
+    role: Creator
 - title: Interaction Effects of Intuitive and Analytic Cognitive Styles on Decision
     Making Performance
   year: '2016'
@@ -139,10 +186,13 @@ selected_works:
   url: https://doi.org/10.5465/AMBPP.2016.14419abstract
   contributors:
   - name: Bjørn T. Bakken
+    role: Creator
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
   - name: Mathias Hansson
+    role: Creator
   - name: Thorvald Hærem
+    role: Creator
 - title: Utvikling av et system for beslutningstrening - erfaringer med testspillet
     ``Hannibal``
   year: '2000'
@@ -150,10 +200,13 @@ selected_works:
   group_type: Research report
   contributors:
   - name: Bent Erik Bakken
+    role: Creator
   - name: Bjørn T. Bakken
+    role: Creator
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
   - name: G. H. Rodal
+    role: Creator
 source_mentions: []
 wps:
 - WP2

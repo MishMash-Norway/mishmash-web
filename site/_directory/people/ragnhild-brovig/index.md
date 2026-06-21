@@ -25,7 +25,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://www.ragnhildbrovig.com
-  institutional_website: https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-2955-2656
@@ -45,6 +45,7 @@ selected_works:
   url: https://www.arkitektbedriftene.no/arrangementer/ki-dagen
   contributors:
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
 - title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
@@ -55,9 +56,11 @@ selected_works:
   url: https://www.routledge.com/Innovation-in-Music-Current-Research-Perspectives/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757858
   contributors:
   - name: Jon Marius Aareskjold-Drecker
+    role: Creator
     slug: jon-marius-aareskjold-drecker
     url: /people/jon-marius-aareskjold-drecker/
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
 - title: 'Love Your Latency: The Glitching Spatiotemporality of Telematic Music Performances'
@@ -67,9 +70,11 @@ selected_works:
   url: https://www.routledge.com/Innovation-in-Music-Innovative-Creative-Practice/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757834
   contributors:
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
   - name: Ivar Grydeland
+    role: Creator
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
 - title: 'Hip Hop Live Versions: Signifyin(g) and Homage'
@@ -78,16 +83,20 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
   - name: Alex Stevenson
+    role: Creator
 - title: The Decline of Cloud-Based Sample Platforms?
   year: '2025'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Vemund Hegstad Alm
+    role: Creator
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
 - title: '"Meat Grinder”: Performing Experimental Hip-Hop'
@@ -96,9 +105,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
   - name: Alex Stevenson
+    role: Creator
 - title: 'Recording, Resampling, & Repurposing: The Case of Portishead and the Bristol
     Sound'
   year: '2025'
@@ -106,10 +117,13 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
   - name: Paul Harkins
+    role: Creator
   - name: Nick Prior
+    role: Creator
 - title: 'Sampling''s AH, AHA, and HAHA: Perspectives on Aesthetic, Political, and
     Humorous Aspects of Sampling'
   year: '2025'
@@ -117,6 +131,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
 - title: The emergence and potential decline of cloud-based sample platforms
@@ -125,7 +140,9 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Vemund Hegstad Alm
+    role: Creator
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
 - title: Stealing From or Facilitating Hard-Working Musicians? Remixers' Code of Honor
@@ -135,6 +152,7 @@ selected_works:
   url: https://doi.org/10.4324/9781003402459-33
   contributors:
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
 source_mentions:

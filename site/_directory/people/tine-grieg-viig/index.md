@@ -15,7 +15,7 @@ affiliation_units:
 - Department of Arts Education
 projects: []
 roles:
-- Board Member
+- Board member
 urls:
   personal_website: ''
   institutional_website: ''
@@ -37,6 +37,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Tine Grieg Viig
+    role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
 - title: KI som musikalsk partner
@@ -46,6 +47,7 @@ selected_works:
   url: https://www.hvl.no/forsking/konferanse/hvl-konferansen/
   contributors:
   - name: Tine Grieg Viig
+    role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
 - title: 'MineMixMusics: Exploring co-creative learning processes in postdigital music
@@ -56,6 +58,7 @@ selected_works:
   url: https://doi.org/10.23865/nrme.v6.6593
   contributors:
   - name: Tine Grieg Viig
+    role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
 - title: 'The MineMixMusic project: exploring digital tools and virtual spaces in
@@ -65,6 +68,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Tine Grieg Viig
+    role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
 - title: Developing visions for the future? Initiating a discussion on utopias in
@@ -74,25 +78,36 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Tine Grieg Viig
+    role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
   - name: Silje Valde Onsrud
+    role: Creator
   - name: Øystein Røsseland Kvinge
+    role: Creator
   - name: Judy Lewis
+    role: Creator
   - name: Catharina Renate Christophersen
+    role: Creator
 - title: 'Symposium: Critical Perspectives on Creative Practices in the Nordic Countries'
   year: '2017'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Tine Grieg Viig
+    role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
   - name: Jon Helge Sætre
+    role: Creator
   - name: Peter Falthin
+    role: Creator
   - name: Cecilia Ferm Almqvist
+    role: Creator
   - name: Marja-Leena Juntunen
+    role: Creator
   - name: Juha Ojala
+    role: Creator
 - title: 'Mediating cultural tools in a primary school creative music making project:
     Symposium presentation'
   year: '2017'
@@ -100,6 +115,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Tine Grieg Viig
+    role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
 - title: 'The dynamics of collaborative creative music-making: reflection-in-action,
@@ -109,6 +125,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Tine Grieg Viig
+    role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
 - title: 'DATES a cappella quintet: comprised of David, Anne, Tine, Egil, and Silje,
@@ -124,12 +141,17 @@ selected_works:
   url: https://www.facebook.com/vokalgruppendates?ref=hl
   contributors:
   - name: David Gabriel Hebert
+    role: Artist
   - name: Anne Kristine Wallace Turøy
+    role: Composer
   - name: Tine Grieg Viig
+    role: Composer
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
   - name: Egil Haugland
+    role: Artist
   - name: Silje Valde Onsrud
+    role: Artist
 - title: Phenomenological readings of poetics - an approach to a phenomenological
     attitude
   year: '2011'
@@ -137,6 +159,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Tine Grieg Viig
+    role: Creator
     slug: tine-grieg-viig
     url: /people/tine-grieg-viig/
 source_mentions:

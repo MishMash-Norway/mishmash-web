@@ -16,7 +16,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://filmschoolteacher.info/fredsnotes/
-  institutional_website: https://www.inn.no/english/find-an-employee/fredrik-graver.html
+  institutional_website: https://filmschoolteacher.info/fredsnotes/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-3061-1622
@@ -54,6 +54,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Fredrik Graver
+    role: Creator
     slug: fredrik-graver
     url: /people/fredrik-graver/
 - title: KI, kunst, kultur, kreativitet
@@ -62,6 +63,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Fredrik Graver
+    role: Creator
     slug: fredrik-graver
     url: /people/fredrik-graver/
 - title: KI kan gjøre oss rikere – og fattigere.
@@ -70,6 +72,7 @@ selected_works:
   group_type: Popular science article
   contributors:
   - name: Fredrik (Georg Fredrik) Graver
+    role: Creator
     slug: fredrik-graver
     url: /people/fredrik-graver/
 - title: Den norske filmskolens erfaringsbaserte metode
@@ -78,6 +81,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Fredrik Graver
+    role: Creator
     slug: fredrik-graver
     url: /people/fredrik-graver/
 - title: 'Artistic Research in PhD degrees: A European Model?'
@@ -87,6 +91,7 @@ selected_works:
   url: http://www.cilect.org/cake/event/53#.VWgrc0YXtSB
   contributors:
   - name: Fredrik Graver
+    role: Creator
     slug: fredrik-graver
     url: /people/fredrik-graver/
 source_mentions:

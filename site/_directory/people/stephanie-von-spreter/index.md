@@ -34,11 +34,15 @@ selected_works:
   url: https://doi.org/10.1080/17540763.2024.2435678
   contributors:
   - name: Marthe Tolnes Fjellestad
+    role: Creator
   - name: Elin Kristine Haugdal
+    role: Creator
   - name: Stephanie Spreter von Kreudenstein
+    role: Creator
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
   - name: Hanne Hammer Stien
+    role: Creator
 - title: Sensing Polar Ice Bodies
   year: '2024'
   source: Book chapter
@@ -46,6 +50,7 @@ selected_works:
   url: https://doi.org/10.1007/978-3-031-39787-5_7
   contributors:
   - name: Stephanie von Spreter
+    role: Creator
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
 - title: Ghost of the Past? The (In)visible Hans Egede Monument at Trinity Church,
@@ -55,6 +60,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Stephanie von Spreter
+    role: Creator
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
 - title: Welcome and introduction to conference, Photographic Practices as Care-Taking
@@ -63,7 +69,9 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Marthe Tolnes Fjellestad
+    role: Creator
   - name: Stephanie von Spreter
+    role: Creator
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
 - title: 'Pia Arke and ‘Arctic Hysteria’: Visual Repatriation and the Problematics
@@ -74,6 +82,7 @@ selected_works:
   url: https://doi.org/10.18261/kk.105.2.3
   contributors:
   - name: Stephanie von Spreter
+    role: Creator
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
 - title: 'Feminist strategies for changing the story: re-imagining Arctic exploration
@@ -84,6 +93,7 @@ selected_works:
   url: https://doi.org/10.1080/20004214.2021.1997462
   contributors:
   - name: Stephanie von Spreter
+    role: Creator
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
 - title: Urban Ecologies After A.I.
@@ -93,13 +103,19 @@ selected_works:
   url: https://r-o-m.no/
   contributors:
   - name: Synne Tollerud Bull
+    role: Artist
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   - name: Dragan Miletic
+    role: Artist
   - name: Petrine Vinje
+    role: Artist
   - name: Christine Pettersen
+    role: Artist
   - name: Ingrid Halland
+    role: Artist
   - name: Stephanie von Spreter
+    role: Artist
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
 - title: 'Shifting Focus. From Representation to Re-presentation and Materiality:
@@ -109,6 +125,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Stephanie von Spreter
+    role: Creator
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
 - title: 'Artistic (Re)search Into the Ice: Seeing What We Cannot Grasp, Grasping
@@ -118,6 +135,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Stephanie von Spreter
+    role: Creator
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
 - title: A story for you to continue
@@ -126,7 +144,9 @@ selected_works:
   group_type: Exhibition
   contributors:
   - name: Felix Gmelin
+    role: Artist
   - name: Stephanie von Spreter
+    role: AcademicCoordinator
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
 source_mentions: []

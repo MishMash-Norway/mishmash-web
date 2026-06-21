@@ -1,4 +1,5 @@
 ---
+layout: page
 type: institution
 slug: western-norway-university-of-applied-sciences
 permalink: /institutions/western-norway-university-of-applied-sciences/
@@ -10,7 +11,7 @@ image: /images/institutions/western-norway-university-of-applied-sciences.svg
 people:
 - sigurd-sandvold
 - tine-grieg-viig
-- /people/zacharias-andreadakis/
+- zacharias-andreadakis
 projects: []
 country: null
 city: null

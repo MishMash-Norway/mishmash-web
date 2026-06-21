@@ -78,8 +78,11 @@ selected_works:
   url: https://thelisteningbody.me/event/oslo-musiclab-the-listening-body-for-mennesker-med-og-uten-parkinson/
   contributors:
   - name: Annabel Balean Guaita
+    role: Musician
   - name: Finn Upham
+    role: RoleOther
   - name: Alexander Refsum Jensenius
+    role: RoleOther
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: 'Sounding Human: Music and Machines, 1740/2020. By Deirdre Loughridge'
@@ -89,6 +92,7 @@ selected_works:
   url: https://doi.org/10.1093/ml/gcag043
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: Performative Togetherness in networked music–dance performance
@@ -98,8 +102,11 @@ selected_works:
   url: https://doi.org/10.1080/14794713.2026.2657654
   contributors:
   - name: Bilge Serdar
+    role: Creator
   - name: Aleksander Tidemann
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: Bodies in Motion in the Concert Hall and Beyond
@@ -109,9 +116,11 @@ selected_works:
   url: https://moco26.movementcomputing.org/
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Laura Bishop
+    role: Creator
 - title: Mixed Method Audio-Video Analyses of Felt Togetherness in a Networked Music-Dance
     Performance
   year: '2026'
@@ -120,8 +129,11 @@ selected_works:
   url: https://doi.org/10.1145/3802842.3802884
   contributors:
   - name: Bilge Serdar
+    role: Creator
   - name: Aleksander Tidemann
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: Creativity Between Art and Science
@@ -131,6 +143,7 @@ selected_works:
   url: https://metamorf.art/2026/03/11/alexander-refsum/
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
@@ -141,17 +154,23 @@ selected_works:
   url: https://doi.org/10.1007/978-3-032-26999-7_18
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Kayla Burnim
+    role: Creator
   - name: Finn Upham
+    role: Creator
   - name: Tejaswinee Kelkar
+    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: 'Arab music improvisation corpus for research (AMICOR): development and machine
@@ -162,10 +181,13 @@ selected_works:
   url: https://link.springer.com/article/10.1007/s10579-026-09905-z
   contributors:
   - name: Fadi Al-Ghawanmeh
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Kamel Smaili
+    role: Creator
 - title: Investigating Auditory–Visual Perception Using Multi-Modal Neural Networks
     with the SoundActions Dataset
   year: '2026'
@@ -174,10 +196,13 @@ selected_works:
   url: https://doi.org/10.5334/tismir.223
   contributors:
   - name: Jinyue Guo
+    role: Creator
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: Inverse and indirect mappings in embodied AI systems in everyday environments
@@ -187,10 +212,13 @@ selected_works:
   url: https://doi.org/10.3389/fcomp.2025.1603769
   contributors:
   - name: Maham Riaz
+    role: Creator
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 source_mentions:

@@ -37,9 +37,11 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Daniel Nordgård
+    role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
   - name: Eirik Sørbø
+    role: Creator
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
 - title: 'Better Live: Sustainable touring and program diversity in Europe'
@@ -48,15 +50,18 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Daniel Nordgård
+    role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
   - name: Liucija Fosseli
+    role: Creator
 - title: 'Music, Digitalization and Entrepreneurship: BAIL, Madrid, 2025'
   year: '2025'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Daniel Nordgård
+    role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
 - title: 'Crowdfunding visual artists: Alternative or complementary financing mode?'
@@ -66,7 +71,9 @@ selected_works:
   url: https://www.taylorfrancis.com/chapters/edit/10.4324/9781003308911-16/crowdfunding-visual-artists-elisabetta-lazzaro-daniel-nordg%C3%A5rd?context=ubx&refId=f88f5485-9104-471b-9eb4-64c553d86477
   contributors:
   - name: Elisabetta Lazzaro
+    role: Creator
   - name: Daniel Nordgård
+    role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
 - title: 'The skills to pay the bills: new digital skills in a digital and global
@@ -77,7 +84,9 @@ selected_works:
   url: https://doi.org/10.4337/9781035314775
   contributors:
   - name: Liucija Fosseli
+    role: Creator
   - name: Daniel Nordgård
+    role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
 - title: 'AI in the context of music: Lessons to be shared'
@@ -86,6 +95,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Daniel Nordgård
+    role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
 - title: Understanding artist entrepreneurship
@@ -94,6 +104,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Daniel Nordgård
+    role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
 - title: "Book Review: Everyone Loves Live Music: A Theory of\r\nPerformance Institutions"
@@ -103,6 +114,7 @@ selected_works:
   url: https://doi.org/10.2478/ijmbr-2021-0009
   contributors:
   - name: Daniel Nordgård
+    role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
 - title: "The Music Modernization Act: Mechanical\r\ncopyright in the age of music\
@@ -112,15 +124,18 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Daniel Nordgård
+    role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
   - name: Guy Morrow
+    role: Creator
 - title: 'Book Review,The New Music Industries: Disruption and Discovery'
   year: '2017'
   source: Book review
   group_type: Book review
   contributors:
   - name: Daniel Nordgård
+    role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
 source_mentions:

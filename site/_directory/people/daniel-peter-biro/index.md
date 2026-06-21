@@ -52,6 +52,7 @@ selected_works:
   url: https://www.wolke-verlag.de/en/
   contributors:
   - name: Daniel Peter Biro
+    role: Creator
     slug: daniel-peter-biro
     url: /people/daniel-peter-biro/
 - title: Composition as Research
@@ -60,9 +61,11 @@ selected_works:
   group_type: Non-fiction book
   contributors:
   - name: Daniel Peter Biro
+    role: Editor
     slug: daniel-peter-biro
     url: /people/daniel-peter-biro/
   - name: Hakan Ulus
+    role: Editor
 - title: Hagirot (Immigrations)
   year: '2026'
   source: Music performance
@@ -70,10 +73,13 @@ selected_works:
   url: https://www.editiongravis.de/verlag/authors.php?authors_id=137
   contributors:
   - name: Daniel Peter Biro
+    role: Composer
     slug: daniel-peter-biro
     url: /people/daniel-peter-biro/
   - name: Margit Kern
+    role: Soloist
   - name: Thomas Hummmel
+    role: RoleOther
 - title: 'Meine Krise ist die Krise der Anderen: Autokratie, Antisemitismus und die
     Seele des Fremden'
   year: '2026'
@@ -82,11 +88,15 @@ selected_works:
   url: https://www.musikundaesthetik.de/
   contributors:
   - name: Daniel Peter Biro
+    role: Creator
     slug: daniel-peter-biro
     url: /people/daniel-peter-biro/
   - name: Prof. Dr. Claus-Steffen Mahnkopf
+    role: Editor
   - name: Prof. Dr. Tobias Janz
+    role: Editor
   - name: Dr. Sonja Dierks
+    role: Editor
 - title: 'Who Brought You Out of the Land: Composition and Migration in the Composition
     Asher Hotseti Etkhem'
   year: '2026'
@@ -94,21 +104,28 @@ selected_works:
   group_type: Journal article
   contributors:
   - name: Daniel Peter Biro
+    role: Creator
     slug: daniel-peter-biro
     url: /people/daniel-peter-biro/
   - name: Noam Lemish
+    role: Editor
   - name: Miranda Crowdus
+    role: Editor
 - title: Ethica
   year: '2025'
   source: Music performance
   group_type: Music performance
   contributors:
   - name: Daniel Peter Biro
+    role: Composer
     slug: daniel-peter-biro
     url: /people/daniel-peter-biro/
   - name: Walter Nussbaum
+    role: Conductor
   - name: Schola Heidelberg
+    role: Musician
   - name: ensemble aisthesis
+    role: Musician
 - title: Et Tsarah (Time of Trouble)
   year: '2025'
   source: Music performance
@@ -116,6 +133,7 @@ selected_works:
   url: https://www.zhdk.ch/en/news/d-niel-p-ter-bir-8256
   contributors:
   - name: Daniel Peter Biro
+    role: Soloist
     slug: daniel-peter-biro
     url: /people/daniel-peter-biro/
 - title: In Nono's Footsteps
@@ -125,6 +143,7 @@ selected_works:
   url: https://www.researchcatalogue.net/view/3552879/3552878
   contributors:
   - name: Daniel Peter Biro
+    role: RoleOther
     slug: daniel-peter-biro
     url: /people/daniel-peter-biro/
 - title: At in numeris simplicissimis
@@ -133,6 +152,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Daniel Peter Biro
+    role: Composer
     slug: daniel-peter-biro
     url: /people/daniel-peter-biro/
 - title: Sokharim for 5 Voices and % String Instruments
@@ -141,6 +161,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Daniel Peter Biro
+    role: Composer
     slug: daniel-peter-biro
     url: /people/daniel-peter-biro/
 source_mentions: []

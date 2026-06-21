@@ -33,7 +33,9 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Maren Omland
+    role: Creator
   - name: Gro Skåland
+    role: Creator
     slug: gro-skaland
     url: /people/gro-skaland/
 - title: Critical source evaluation in higher education teachers
@@ -42,9 +44,13 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Leila Ferguson
+    role: Creator
   - name: Anette Andresen
+    role: Creator
   - name: Thea Kanstad Heimdal
+    role: Creator
   - name: Gro Skåland
+    role: Creator
     slug: gro-skaland
     url: /people/gro-skaland/
 - title: Making the library of the future identifying the zone of proximal development
@@ -55,9 +61,11 @@ selected_works:
   url: https://doi.org/10.1080/10749039.2024.2316073
   contributors:
   - name: Gro Skåland
+    role: Creator
     slug: gro-skaland
     url: /people/gro-skaland/
   - name: Hans Christian Arnseth
+    role: Creator
 - title: '"Once upon a time, there was an inventor.." A Cultural Historical study
     of making in a public library context'
   year: '2023'
@@ -65,6 +73,7 @@ selected_works:
   group_type: PhD thesis
   contributors:
   - name: Gro Skåland
+    role: Creator
     slug: gro-skaland
     url: /people/gro-skaland/
 - title: 'I hate little bits : The collaborative construction of children''s creative
@@ -75,6 +84,7 @@ selected_works:
   url: https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003145257-17/hate-little-bits-gro-sk%C3%A5land
   contributors:
   - name: Gro Skåland
+    role: Creator
     slug: gro-skaland
     url: /people/gro-skaland/
 - title: Doing Inventing in the Library. Analyzing the Narrative Framing of Making
@@ -85,10 +95,13 @@ selected_works:
   url: https://doi.org/10.3390/educsci10060158
   contributors:
   - name: Gro Skåland
+    role: Creator
     slug: gro-skaland
     url: /people/gro-skaland/
   - name: Hans Christian Arnseth
+    role: Creator
   - name: Palmyre Pierroux
+    role: Creator
 - title: Doing Inventing In The Library. A presentation of research and findings from
     the STEAM in the library project.
   year: '2020'
@@ -96,6 +109,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Gro Skåland
+    role: Creator
     slug: gro-skaland
     url: /people/gro-skaland/
 source_mentions: []

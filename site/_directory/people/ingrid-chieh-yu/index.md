@@ -34,8 +34,11 @@ selected_works:
   url: https://doi.org/10.1109/indin64977.2025.11279112
   contributors:
   - name: Yan Zhou
+    role: Creator
   - name: Baifan Zhou
+    role: Creator
   - name: Ingrid Chieh Yu
+    role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
 - title: User-Centric Question Answering with Explanation for Industrial System Information
@@ -46,10 +49,15 @@ selected_works:
   url: https://doi.org/10.3233/faia251478
   contributors:
   - name: Yan Zhou
+    role: Creator
   - name: Baifan Zhou
+    role: Creator
   - name: Qianhang Lyu
+    role: Creator
   - name: Arild Torolv Søetorp Waaler
+    role: Creator
   - name: Ingrid Chieh Yu
+    role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
 - title: NMN-BART:Generating Natural Language Explanations for Visual Question Answering
@@ -59,8 +67,11 @@ selected_works:
   url: https://ceur-ws.org/Vol-3975/paper4.pdf
   contributors:
   - name: Yan Zhou
+    role: Creator
   - name: Baifan Zhou
+    role: Creator
   - name: Ingrid Chieh Yu
+    role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
 - title: Dataset for Industrial Question Answering with Explanation and Scalable Ensemble
@@ -71,12 +82,19 @@ selected_works:
   url: https://doi.org/10.1145/3701716.3715310
   contributors:
   - name: Yan Zhou
+    role: Creator
   - name: Baifan Zhou
+    role: Creator
   - name: Huajian Li
+    role: Creator
   - name: Qianhang Lyu
+    role: Creator
   - name: Yuanwei Qu
+    role: Creator
   - name: Arild Torolv Søetorp Waaler
+    role: Creator
   - name: Ingrid Chieh Yu
+    role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
 - title: Modular Soundness Checking of Feature Model Evolution Plans
@@ -86,12 +104,17 @@ selected_works:
   url: https://doi.org/10.1007/978-3-031-47963-2_25
   contributors:
   - name: Ida Sandberg Motzfeldt
+    role: Creator
   - name: Ingrid Chieh Yu
+    role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
   - name: Crystal Chang Din
+    role: Creator
   - name: Violet Ka I Pun
+    role: Creator
   - name: Volker Stolz
+    role: Creator
 - title: 'CARE: coherent actionable recourse based on sound counterfactual explanations'
   year: '2022'
   source: Journal article
@@ -99,7 +122,9 @@ selected_works:
   url: https://link.springer.com/article/10.1007/s41060-022-00365-6
   contributors:
   - name: Peyman Rasouli
+    role: Creator
   - name: Ingrid Chieh Yu
+    role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
 - title: 'EXPLAN: Explaining Black-box Classifiers using Adaptive Neighborhood Generation'
@@ -109,7 +134,9 @@ selected_works:
   url: https://doi.org/10.1109/IJCNN48605.2020.9206710
   contributors:
   - name: Peyman Rasouli
+    role: Creator
   - name: Ingrid Chieh Yu
+    role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
 - title: User profiles for context-aware reconfiguration in software product lines
@@ -119,9 +146,13 @@ selected_works:
   url: https://doi.org/10.1007/978-3-319-47169-3_44
   contributors:
   - name: Michael Nieke
+    role: Creator
   - name: Jacopo Mauro
+    role: Creator
   - name: Christoph Seidl
+    role: Creator
   - name: Ingrid Chieh Yu
+    role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
 - title: Introduction to the track on variability modeling for scalable software evolution
@@ -131,8 +162,11 @@ selected_works:
   url: https://doi.org/10.1007/978-3-319-47169-3_35
   contributors:
   - name: Ferruccio Damiani
+    role: Creator
   - name: Christoph Seidl
+    role: Creator
   - name: Ingrid Chieh Yu
+    role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
 - title: Backwards type analysis of asynchronous method calls
@@ -142,7 +176,9 @@ selected_works:
   url: https://doi.org/10.1016/j.jlap.2008.05.004
   contributors:
   - name: Einar Broch Johnsen
+    role: Creator
   - name: Ingrid Chieh Yu De Vibe
+    role: Creator
     slug: ingrid-chieh-yu
     url: /people/ingrid-chieh-yu/
 source_mentions:

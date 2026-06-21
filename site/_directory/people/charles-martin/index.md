@@ -37,17 +37,23 @@ selected_works:
   url: https://smc2020torino.it/adminupload/file/SMC2020Proceedings.pdf?fbclid=IwAR0X9iNjBq_D_xs2xqmm8KA-9fBn-XQg9dh0md7CMxqrBiYxbOeI4m3hiz4#page=193
   contributors:
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Qichao Lan
+    role: Creator
   - name: Julian Fuhrer
+    role: Creator
   - name: Charles Patrick Martin
+    role: Creator
     slug: charles-martin
     url: /people/charles-martin/
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: Generating Convincing Harmony Parts with Simple Long Short-Term Memory Networks
@@ -57,12 +63,17 @@ selected_works:
   url: https://www.nime.org/proceedings/2019/nime2019_paper062.pdf
   contributors:
   - name: Andrei Faitas
+    role: Creator
   - name: Synne Engdahl Baumann
+    role: Creator
   - name: Torgrim Rudland Næss
+    role: Creator
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
   - name: Charles Patrick Martin
+    role: Creator
     slug: charles-martin
     url: /people/charles-martin/
 - title: A Physical Intelligent Instrument using Recurrent Neural Networks
@@ -72,7 +83,9 @@ selected_works:
   url: http://www.nime.org/proceedings/2019/nime2019_paper016.pdf
   contributors:
   - name: Torgrim Rudland Næss
+    role: Creator
   - name: Charles Patrick Martin
+    role: Creator
     slug: charles-martin
     url: /people/charles-martin/
 - title: An Interactive Musical Prediction System with Mixture Density Recurrent Neural
@@ -83,9 +96,11 @@ selected_works:
   url: https://www.researchgate.net/publication/333718481_An_Interactive_Musical_Prediction_System_with_Mixture_Density_Recurrent_Neural_Networks
   contributors:
   - name: Charles Patrick Martin
+    role: Creator
     slug: charles-martin
     url: /people/charles-martin/
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
 - title: 'Experiences from Real-World Evolution with DyRET: Dynamic Robot for Embodied
@@ -96,17 +111,23 @@ selected_works:
   url: https://doi.org/10.1007/978-3-030-35664-4_6
   contributors:
   - name: Tønnes Frostad Nygaard
+    role: Creator
   - name: Jørgen Halvorsen Nordmoen
+    role: Creator
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
   - name: Charles Patrick Martin
+    role: Creator
     slug: charles-martin
     url: /people/charles-martin/
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
 - title: Self-Awareness in a Cyber-Physical Predictive Musical Interface
@@ -115,13 +136,17 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Charles Patrick Martin
+    role: Creator
     slug: charles-martin
     url: /people/charles-martin/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Tønnes Frostad Nygaard
+    role: Creator
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
 - title: Exploring Mechanically Self-Reconfiguring Robots for Autonomous Design
@@ -131,13 +156,17 @@ selected_works:
   url: https://arxiv.org/abs/1805.02965
   contributors:
   - name: Tønnes Frostad Nygaard
+    role: Creator
   - name: Charles Patrick Martin
+    role: Creator
     slug: charles-martin
     url: /people/charles-martin/
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
 - title: Predictive Music Systems for Interactive Performance
@@ -146,6 +175,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Charles Patrick Martin
+    role: Creator
     slug: charles-martin
     url: /people/charles-martin/
 - title: Creative Prediction with Neural Networks
@@ -155,12 +185,15 @@ selected_works:
   url: https://cpmpercussion.github.io/creative-prediction/
   contributors:
   - name: Charles Patrick Martin
+    role: Creator
     slug: charles-martin
     url: /people/charles-martin/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
 - title: Virtuosic Interactions / Performing with a Neural iPad Band
@@ -169,6 +202,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Charles Patrick Martin
+    role: Creator
     slug: charles-martin
     url: /people/charles-martin/
 source_mentions:

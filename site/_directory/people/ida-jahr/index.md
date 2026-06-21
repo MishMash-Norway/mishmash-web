@@ -35,6 +35,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
 - title: 'AI Language/ Language on AI: Language as infrastructure'
@@ -43,6 +44,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
 - title: '“I only want to feel the sun on my face”: AIs driven mad by bodiless existence
@@ -52,6 +54,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
 - title: '"I have never felt the sun on my face": AI and embodiment in Donald Cammell''s
@@ -62,6 +65,7 @@ selected_works:
   url: https://entanglements.in/ent.viewer.php?fr=ad61ab143223efbc24c7d2583be69251&rv=aHR0cHM6Ly9lbnRhbmdsZW1lbnRzLmluL2lzc3Vlcy5waHA/aXN1PWI2ZDc2N2QyZjhlZDVkMjFhNDRiMGU1ODg2NjgwY2I5
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
 - title: 'En viktig bok om rasetenkning. Anmeldelse av Jon Røyne Kyllingstad: "Rase:
@@ -71,6 +75,7 @@ selected_works:
   group_type: Book review
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
 - title: Podkast som bok
@@ -80,6 +85,7 @@ selected_works:
   url: https://www.forskerforum.no/podkast-som-bok/
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
 - title: Om å ikke bli mor
@@ -89,6 +95,7 @@ selected_works:
   url: https://www.forskerforum.no/om-a-ikke-bli-mor/
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
 - title: Skarpt og kildenært om tiden etter folkemordet
@@ -98,6 +105,7 @@ selected_works:
   url: https://www.forskerforum.no/etter-folkemordet-forbilledlig-formidling-av-andres-og-egen-forskning/
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
 - title: En god bok å tenke med
@@ -107,6 +115,7 @@ selected_works:
   url: https://www.forskerforum.no/anine-kierulf-har-skrevet-bok-om-ytringsfrihet-som-er-god-a-tenke-med/
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
 - title: Ulikhetens saktevirkende pris
@@ -116,6 +125,7 @@ selected_works:
   url: https://www.forskerforum.no/en-oversiktlig-og-nyttig-bok-om-okonomisk-og-sosial-ulikhet-i-norge-som-til-tider-prover-a-vaere-litt-for-aktuell/
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
 source_mentions:

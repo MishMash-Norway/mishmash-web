@@ -36,11 +36,15 @@ selected_works:
   url: https://doi.org/10.1109/fie63693.2025.11328382
   contributors:
   - name: Victor Manuel Perez Colado
+    role: Creator
   - name: Aedan Soellaart
+    role: Creator
     slug: aedan-soellaart
     url: /people/aedan-soellaart/
   - name: Christopher William Theodore Hart
+    role: Creator
   - name: Adam Palmquist
+    role: Creator
 - title: “Not in Kansas Anymore” Exploring Avatar-Player Dynamics Through a Wizard
     of Oz Approach in Virtual Reality
   year: '2024'
@@ -49,10 +53,15 @@ selected_works:
   url: https://doi.org/10.1007/978-3-031-61041-7_17
   contributors:
   - name: Adam Palmquist
+    role: Creator
   - name: Izabella Alexandra Victoria Jedel
+    role: Creator
   - name: Chris Hart
+    role: Creator
   - name: Victor Manuel Perez Colado
+    role: Creator
   - name: Aedan Soellaart
+    role: Creator
     slug: aedan-soellaart
     url: /people/aedan-soellaart/
 source_mentions: []

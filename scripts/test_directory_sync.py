@@ -31,6 +31,12 @@ class DirectoryIoTests(unittest.TestCase):
             ["a", "b", "c"],
         )
 
+    def test_slug_list_uses_path_refs(self):
+        from directory_io import slug_list_uses_path_refs
+
+        self.assertTrue(slug_list_uses_path_refs(["/people/a/"]))
+        self.assertFalse(slug_list_uses_path_refs(["a", "b"]))
+
     def test_apply_jekyll_defaults_for_projects(self):
         data = apply_jekyll_defaults(
             {"layout": "page", "title": "Example Project"},

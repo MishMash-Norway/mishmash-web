@@ -34,9 +34,11 @@ selected_works:
   group_type: PhD thesis
   contributors:
   - name: Shayan Dadman
+    role: Creator
     slug: shayan-dadman
     url: /people/shayan-dadman/
   - name: Bernt Arild Bremdal
+    role: Supervisor
 - title: 'Learning Normal Patterns in Musical Loops: Unsupervised Anomaly Detection
     for Variable-Length Audio Inputs'
   year: '2026'
@@ -45,11 +47,15 @@ selected_works:
   url: https://proceedings.mlr.press/v307/dadman26a.html
   contributors:
   - name: Shayan Dadman
+    role: Creator
     slug: shayan-dadman
     url: /people/shayan-dadman/
   - name: Bernt Arild Bremdal
+    role: Creator
   - name: Børre Bang
+    role: Creator
   - name: Rune Dalmo
+    role: Creator
 - title: 'Crafting Creative Melodies: A User-Centric Approach for Symbolic Music Generation'
   year: '2024'
   source: Journal article
@@ -57,18 +63,22 @@ selected_works:
   url: https://doi.org/10.3390/electronics13061116
   contributors:
   - name: Shayan Dadman
+    role: Creator
     slug: shayan-dadman
     url: /people/shayan-dadman/
   - name: Bernt Arild Bremdal
+    role: Creator
 - title: 'Mindful Integration of AI in the Design Industry: Opportunities and Implications'
   year: '2023'
   source: Conference poster
   group_type: Conference
   contributors:
   - name: Shayan Dadman
+    role: Creator
     slug: shayan-dadman
     url: /people/shayan-dadman/
   - name: Ali Naeimaei
+    role: Creator
 - title: Multi-agent Reinforcement Learning for Structured Symbolic Music Generation
   year: '2023'
   source: Book chapter
@@ -76,9 +86,11 @@ selected_works:
   url: https://doi.org/10.1007/978-3-031-37616-0_5
   contributors:
   - name: Shayan Dadman
+    role: Creator
     slug: shayan-dadman
     url: /people/shayan-dadman/
   - name: Bernt Arild Bremdal
+    role: Creator
 - title: Predicting Peak Prices in the Current Day-Ahead Market
   year: '2023'
   source: Book chapter
@@ -86,7 +98,9 @@ selected_works:
   url: https://doi.org/10.1049/icp.2023.1244
   contributors:
   - name: Bernt Arild Bremdal
+    role: Creator
   - name: Shayan Dadman
+    role: Creator
     slug: shayan-dadman
     url: /people/shayan-dadman/
 - title: Using Light Weight Electric Vehicles for V2G services in the Arctic
@@ -96,9 +110,11 @@ selected_works:
   url: https://doi.org/10.1049/icp.2023.1230
   contributors:
   - name: Shayan Dadman
+    role: Creator
     slug: shayan-dadman
     url: /people/shayan-dadman/
   - name: Bernt Arild Bremdal
+    role: Creator
 - title: E-Mobility and Batteries—A Business Case for Flexibility in the Arctic Region
   year: '2023'
   source: Journal article
@@ -106,9 +122,13 @@ selected_works:
   url: https://doi.org/10.3390/wevj14030061
   contributors:
   - name: Bernt Arild Bremdal
+    role: Creator
   - name: Iliana Ilieva
+    role: Creator
   - name: Kristoffer Meyer Tangrand
+    role: Creator
   - name: Shayan Dadman
+    role: Creator
     slug: shayan-dadman
     url: /people/shayan-dadman/
 - title: 'Toward Interactive Music Generation: A Position Paper'
@@ -118,11 +138,15 @@ selected_works:
   url: https://doi.org/10.1109/ACCESS.2022.3225689
   contributors:
   - name: Shayan Dadman
+    role: Creator
     slug: shayan-dadman
     url: /people/shayan-dadman/
   - name: Bernt Arild Bremdal
+    role: Creator
   - name: Børre Bang
+    role: Creator
   - name: Rune Dalmo
+    role: Creator
 - title: 'The Role of Electric Snowmobiles and Rooftop Energy Production in the Arctic:
     The Case of Longyearbyen'
   year: '2021'
@@ -131,10 +155,13 @@ selected_works:
   url: https://doi.org/10.18178/JOCET.2021.9.4.530
   contributors:
   - name: Shayan Dadman
+    role: Creator
     slug: shayan-dadman
     url: /people/shayan-dadman/
   - name: Bernt Arild Bremdal
+    role: Creator
   - name: Kristoffer Tangrand
+    role: Creator
 source_mentions: []
 summary: null
 wps:

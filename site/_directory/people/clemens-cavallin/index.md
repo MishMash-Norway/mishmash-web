@@ -34,6 +34,7 @@ selected_works:
   group_type: Non-fiction chapter
   contributors:
   - name: Clemens Cavallin
+    role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
 - title: Introduktion
@@ -42,15 +43,18 @@ selected_works:
   group_type: Non-fiction chapter
   contributors:
   - name: Clemens Cavallin
+    role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
   - name: Julia Kuhlin
+    role: Creator
 - title: Katolsk kristendom
   year: '2026'
   source: Non-fiction chapter
   group_type: Non-fiction chapter
   contributors:
   - name: Clemens Cavallin
+    role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
 - title: Den tomaskristna traditionen
@@ -59,6 +63,7 @@ selected_works:
   group_type: Non-fiction chapter
   contributors:
   - name: Clemens Cavallin
+    role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
 - title: 'Kristendom i Indien : En introduktion'
@@ -67,11 +72,15 @@ selected_works:
   group_type: Non-fiction book
   contributors:
   - name: Julia Kuhlin
+    role: Creator
   - name: Anita Yadala Suneson
+    role: Creator
   - name: Clemens Cavallin
+    role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
   - name: Pär Samuel Eliasson
+    role: Creator
 - title: 'Sacrifice and Emancipation: Universal values and Narratives in Norwegian
     Religious Education: A Case Study: The Eternals'
   year: '2025'
@@ -79,6 +88,7 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Clemens Cavallin
+    role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
 - title: 'Med fokus på det genuint mänskliga: recension av David Thurfjell: En lockton
@@ -88,6 +98,7 @@ selected_works:
   group_type: Book review
   contributors:
   - name: Paul Clemens Cavallin
+    role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
 - title: Religion
@@ -96,6 +107,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Paul Clemens Cavallin
+    role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
 - title: Reflections on Sacrifice and the Mission of Comparative Religion
@@ -104,6 +116,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Paul Clemens Cavallin
+    role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
 - title: 'Ciência da religião aplicada: quatro tipos ideais'
@@ -113,6 +126,7 @@ selected_works:
   url: https://doi.org/10.23925/1677-1222.2021vol21i1a11
   contributors:
   - name: Paul Clemens Cavallin
+    role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
 source_mentions: []

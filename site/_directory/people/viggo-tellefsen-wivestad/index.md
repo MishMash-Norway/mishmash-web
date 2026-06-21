@@ -33,10 +33,13 @@ selected_works:
   group_type: Research report
   contributors:
   - name: Mari Gunnes
+    role: Creator
   - name: Viggo Tellefsen Wivestad
+    role: Creator
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
   - name: Kristin Thaulow
+    role: Creator
 - title: 'Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods
     Case Study'
   year: '2026'
@@ -45,12 +48,17 @@ selected_works:
   url: https://hdl.handle.net/10125/112286
   contributors:
   - name: Viktoria Stray
+    role: Creator
   - name: Elias Goldmann Brandtzæg
+    role: Creator
   - name: Viggo Tellefsen Wivestad
+    role: Creator
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
   - name: Astri Moksnes Barbala
+    role: Creator
   - name: Nils Brede Moe
+    role: Creator
 - title: The Great Human Filter - The Age of Evaluation (album)
   year: '2025'
   source: Music performance
@@ -58,6 +66,7 @@ selected_works:
   url: https://thegreathumanfilter.com/
   contributors:
   - name: Viggo Tellefsen Wivestad
+    role: Organizer
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
 - title: 'Generative AI in the Workplace: Affective Affordances and Employee Flourishing'
@@ -67,9 +76,13 @@ selected_works:
   url: https://doi.org/10.24251/hicss.2025.720
   contributors:
   - name: Astri Moksnes Barbala
+    role: Creator
   - name: Rasmus Ulfsnes
+    role: Creator
   - name: Viktoria Stray
+    role: Creator
   - name: Viggo Tellefsen Wivestad
+    role: Creator
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
 - title: Copilot’s Island of Joy
@@ -79,10 +92,13 @@ selected_works:
   url: https://doi.org/10.1007/978-3-031-72781-8_13
   contributors:
   - name: Viggo Tellefsen Wivestad
+    role: Creator
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
   - name: Astri Moksnes Barbala
+    role: Creator
   - name: Viktoria Stray
+    role: Creator
 - title: 'Human-AI Collaboration in Software Development: A Mixed-Methods Study of
     Developers’ Use of GitHub Copilot and ChatGPT'
   year: '2025'
@@ -91,8 +107,11 @@ selected_works:
   url: https://doi.org/10.1145/3696630.3730566
   contributors:
   - name: Viktoria Stray
+    role: Creator
   - name: Astri Moksnes Barbala
+    role: Creator
   - name: Viggo Tellefsen Wivestad
+    role: Creator
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
 - title: 'Attitudes Towards LLM Use Among Software Engineering Researchers: Results
@@ -103,9 +122,11 @@ selected_works:
   url: https://doi.org/10.1145/3696630.3731671
   contributors:
   - name: Viggo Tellefsen Wivestad
+    role: Creator
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
   - name: Astri Moksnes Barbala
+    role: Creator
 - title: Copilot's Island of Joy - Balancing Individual Satisfaction with Team Interaction
     in Agile Development
   year: '2024'
@@ -113,6 +134,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Viggo Tellefsen Wivestad
+    role: Creator
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
 - title: 'A Journey Through SPACE: Unpacking the Perceived Productivity of GitHub
@@ -123,9 +145,11 @@ selected_works:
   url: https://doi.org/10.1007/978-3-031-72781-8_5
   contributors:
   - name: Viggo Tellefsen Wivestad
+    role: Creator
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
   - name: Rasmus Ulfsnes
+    role: Creator
 source_mentions: []
 summary: null
 permalink: /people/viggo-tellefsen-wivestad/

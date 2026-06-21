@@ -47,6 +47,7 @@ selected_works:
   url: https://www.titan.uio.no/teknologi/2026/fem-grunner-til-at-det-ikke-finnes-virkelig-intell.html
   contributors:
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 - title: Sensor movement drives emergent attention and scalability in active neural
@@ -57,14 +58,19 @@ selected_works:
   url: https://doi.org/10.1016/j.neunet.2026.108798
   contributors:
   - name: Mia-Katrin Ose Kvalsund
+    role: Creator
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Sidney Pontes-Filho
+    role: Creator
   - name: Mikkel Elle Lepperød
+    role: Creator
 - title: 'Dual Process Dreamer: Fast and Slow Decision-Making with World Models'
   year: '2026'
   source: Journal article
@@ -72,11 +78,15 @@ selected_works:
   url: https://doi.org/10.5220/0014243200004052
   contributors:
   - name: Tobias Lømo
+    role: Creator
   - name: Adel Baselizadeh
+    role: Creator
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
 - title: Co-Optimization of Robot Bodies and Brains with Evolutionary Algorithms
@@ -86,11 +96,15 @@ selected_works:
   url: https://www.mn.uio.no/ifi/english/research/groups/robin/events/Tutorials/Tutorial-SSCI2025/Tutorial-SSCI2025
   contributors:
   - name: Frank Veenstra
+    role: Creator
   - name: Ege de Bruin
+    role: Creator
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 - title: Integrating Bilevel Planning and Offline Skill Learning for Enhancing Mobile
@@ -101,11 +115,15 @@ selected_works:
   url: https://ieeexplore.ieee.org/abstract/document/11163881
   contributors:
   - name: Shin Watanabe
+    role: Creator
   - name: Geir Horn
+    role: Creator
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 - title: 2025 IEEE 21st International Conference on Automation Science and Engineering
@@ -116,11 +134,15 @@ selected_works:
   url: https://ieeexplore.ieee.org/xpl/conhome/11163731/proceeding
   contributors:
   - name: Shin Watanabe
+    role: Creator
   - name: Geir Horn
+    role: Creator
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 - title: Integrating Sample Inheritance into Bayesian Optimization for Evolutionary
@@ -131,10 +153,13 @@ selected_works:
   url: https://doi.org/10.1162/ISAL.a.866
   contributors:
   - name: Ege de Bruin
+    role: Creator
   - name: Kyrre Glette
+    role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 - title: Exploring fast and slow thinking in artificial intelligence
@@ -143,7 +168,9 @@ selected_works:
   group_type: Master's thesis
   contributors:
   - name: Kevin Tran Torheim
+    role: Creator
   - name: Kai Olav Ellefsen
+    role: RoleOther
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 - title: Fast and Slow Reasoning with Model-Based Reinforcement Learning
@@ -152,7 +179,9 @@ selected_works:
   group_type: Master's thesis
   contributors:
   - name: Viktor Ringvold Hasle
+    role: Creator
   - name: Kai Olav Ellefsen
+    role: RoleOther
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 - title: 'Fast or Slow: Adaptive Decision Making in Reinforcement Learning with Pre-Trained
@@ -163,10 +192,13 @@ selected_works:
   url: https://doi.org/10.1109/ICDL63968.2025.11204357
   contributors:
   - name: Katrine Linnea Nergård
+    role: Creator
   - name: Kai Olav Ellefsen
+    role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
 source_mentions: []

@@ -35,6 +35,7 @@ selected_works:
   group_type: Film or video
   contributors:
   - name: Ole Christian Solbakken
+    role: AcademicCoordinator
     slug: ole-christian-solbakken
     url: /people/ole-christian-solbakken/
 source_mentions: []

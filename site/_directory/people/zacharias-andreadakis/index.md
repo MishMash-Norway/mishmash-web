@@ -41,7 +41,9 @@ selected_works:
   url: https://link.springer.com/book/9783032221667
   contributors:
   - name: Czarecah Tuppil Oropilla
+    role: Editor
   - name: Zacharias Andreadakis
+    role: Editor
     slug: zacharias-andreadakis
     url: /people/zacharias-andreadakis/
 - title: 'Mentoring PhDs: Lessons from DocTalent4EU'
@@ -50,6 +52,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Zacharias Andreadakis
+    role: Creator
     slug: zacharias-andreadakis
     url: /people/zacharias-andreadakis/
 source_mentions: []

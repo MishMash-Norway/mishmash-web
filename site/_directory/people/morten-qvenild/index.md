@@ -54,9 +54,11 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Morten Qvenild
+    role: Composer
     slug: morten-qvenild
     url: /people/morten-qvenild/
   - name: Lars Finborud
+    role: Soloist
 - title: Lokalt Piano, by Morten Qvenild - Ugla Lyd
   year: '2026'
   source: Music performance
@@ -64,9 +66,11 @@ selected_works:
   url: https://mortenqvenild.bandcamp.com/album/lokalt-piano
   contributors:
   - name: Morten Qvenild
+    role: Composer
     slug: morten-qvenild
     url: /people/morten-qvenild/
   - name: Solveig Slettahjell
+    role: Soloist
 - title: Remembrance Konserter
   year: '2026'
   source: Music performance
@@ -74,12 +78,17 @@ selected_works:
   url: https://www.researchcatalogue.net/view/3872769/3872770
   contributors:
   - name: Roger Arntzen
+    role: Musician
   - name: Solveig Slettahjell
+    role: Musician
   - name: Knut Reiersrud
+    role: Musician
   - name: Morten Qvenild
+    role: Conductor
     slug: morten-qvenild
     url: /people/morten-qvenild/
   - name: Pål Hausken
+    role: Musician
 - title: Remembrance - Exposition
   year: '2025'
   source: Music performance
@@ -87,10 +96,13 @@ selected_works:
   url: https://www.researchcatalogue.net/view/3872769/3872770
   contributors:
   - name: Morten Qvenild
+    role: Composer
     slug: morten-qvenild
     url: /people/morten-qvenild/
   - name: Roger Arntzen
+    role: Musician
   - name: Solveig Slettahjell
+    role: Musician
 - title: Mirra, by Benedicte Maurseth
   year: '2025'
   source: Music performance
@@ -98,11 +110,15 @@ selected_works:
   url: https://maurseth.bandcamp.com/album/mirra
   contributors:
   - name: Håkon Mørch Stene
+    role: Musician
   - name: Benedicte Maurseth
+    role: Composer
   - name: Morten Qvenild
+    role: Musician
     slug: morten-qvenild
     url: /people/morten-qvenild/
   - name: Mats Eilertsen
+    role: Musician
 - title: Symfoni
   year: '2024'
   source: Music performance
@@ -110,8 +126,11 @@ selected_works:
   url: https://orcd.co/symfonirnq
   contributors:
   - name: Live Maria Roggen
+    role: RoleOther
   - name: Ingfrid Breie Nyhus
+    role: RoleOther
   - name: Morten Qvenild
+    role: RoleOther
     slug: morten-qvenild
     url: /people/morten-qvenild/
 - title: Unheimlich Manoeuvre, by Jo Berger Myhre
@@ -121,21 +140,28 @@ selected_works:
   url: https://jobergermyhre.bandcamp.com/album/unheimlich-manoeuvre
   contributors:
   - name: Morten Qvenild
+    role: Musician
     slug: morten-qvenild
     url: /people/morten-qvenild/
   - name: Jo Berger Myhre
+    role: Composer
   - name: Kaveh Mahmudiyan
+    role: Musician
   - name: Jo David Meyer Lysne
+    role: Musician
 - title: Hvis det ikke brenner
   year: '2024'
   source: Performing arts
   group_type: Performing arts
   contributors:
   - name: Morten Qvenild
+    role: RoleOther
     slug: morten-qvenild
     url: /people/morten-qvenild/
   - name: Ronja Berget
+    role: Librettist
   - name: Robin Barstow
+    role: SoundDesigner
 - title: Goodbye Intuition
   year: '2020'
   source: Professional article
@@ -143,17 +169,25 @@ selected_works:
   url: https://doi.org/10.22501/NMH-AR.974962
   contributors:
   - name: Ivar Grydeland
+    role: Creator
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
   - name: Morten Qvenild
+    role: Creator
     slug: morten-qvenild
     url: /people/morten-qvenild/
   - name: Sidsel Endresen
+    role: Creator
   - name: Andrea Neumann
+    role: Creator
   - name: Henrik Frisk
+    role: Creator
   - name: David Toop
+    role: Creator
   - name: Anna Lindal
+    role: Creator
   - name: Lasse Marhaug
+    role: Creator
 - title: Morten Qvenild – The HyPer(sonal) Piano Project
   year: '2017'
   source: Artistic degree phd
@@ -161,11 +195,15 @@ selected_works:
   url: https://doi.org/10.22501/nmh-ar.291286
   contributors:
   - name: Morten Qvenild
+    role: Creator
     slug: morten-qvenild
     url: /people/morten-qvenild/
   - name: Jon Henrik Hellstenius
+    role: Supervisor
   - name: Eivind Buene
+    role: Supervisor
   - name: Øyvind Brandtsegg
+    role: Supervisor
     slug: oyvind-brandtsegg
     url: /people/oyvind-brandtsegg/
 source_mentions:

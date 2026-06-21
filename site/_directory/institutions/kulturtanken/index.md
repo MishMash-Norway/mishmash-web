@@ -1,4 +1,5 @@
 ---
+layout: page
 type: institution
 slug: kulturtanken
 permalink: /institutions/kulturtanken/
@@ -8,7 +9,7 @@ name: Kulturtanken
 short_name: Kulturtanken
 image: /images/institutions/kulturtanken.png
 people:
-- /people/bente-aasheim/
+- bente-aasheim
 projects: []
 country: null
 city: null

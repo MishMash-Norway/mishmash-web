@@ -14,7 +14,7 @@ wps:
 tags:
 - Website
 - GitHub
-- Infrastructure
+- infrastructure
 - Directory
 - Cross-WP
 slug: the-mishmash-website

@@ -34,12 +34,17 @@ selected_works:
   url: https://doi.org/10.2196/28680
   contributors:
   - name: Bente Aasheim Walter
+    role: Creator
     slug: bente-aasheim
     url: /people/bente-aasheim/
   - name: Hege Vik Indreboe
+    role: Creator
   - name: Mirjam Lukasse
+    role: Creator
   - name: Lena Henriksen
+    role: Creator
   - name: Lisa Garnweidner-Holme
+    role: Creator
 source_mentions: []
 summary: null
 layout: person

@@ -3,11 +3,14 @@ import argparse
 import sys
 from pathlib import Path
 
+import yaml
+
 from directory_io import (
     apply_jekyll_defaults,
     as_slug_list,
     iter_directory_entries,
     load_entry,
+    slug_list_uses_path_refs,
 )
 from repo_paths import SITE_ROOT
 
@@ -24,6 +27,43 @@ REQUIRED_FIELDS = {
     "project": ("type", "slug", "name", "people", "institutions"),
 }
 
+DEPRECATED_ROLES = {
+    "Full member": "Member",
+    "Work Package Leader Group member": "Work package leader",
+    "Associate member": "Associate member",
+    "Affiliate member": "Affiliate member",
+    "Board Member": "Board member",
+}
+
+CANONICAL_ROLES = {
+    "Member",
+    "Work package leader",
+    "Council member",
+    "Board member",
+    "Board Leader",
+    "Deputy director",
+    "Research advisor",
+    "Administrative coordinator",
+    "Director",
+    "Associate member",
+    "Affiliate member",
+}
+
+
+def load_wp_leader_slugs(root: Path) -> set[str]:
+    wp_file = root / "_data" / "work_packages.yml"
+    if not wp_file.exists():
+        return set()
+    data = yaml.safe_load(wp_file.read_text(encoding="utf-8")) or []
+    return {member for wp in data for member in wp.get("members") or []}
+
+
+def warn_path_style_slug_lists(relative_path, field_name: str, value, warnings: list[str]) -> None:
+    if slug_list_uses_path_refs(value):
+        warnings.append(
+            f"{relative_path}: {field_name} uses /people/ or /institutions/ paths; use slugs instead"
+        )
+
 
 def main():
     parser = argparse.ArgumentParser(description="Validate directory people/institutions/projects entries.")
@@ -32,6 +72,7 @@ def main():
 
     root = Path(args.root).resolve()
     directory_root = root / "_directory"
+    wp_leader_slugs = load_wp_leader_slugs(root)
 
     errors = []
     warnings = []
@@ -109,6 +150,35 @@ def main():
                 "projects": as_slug_list(fm.get("projects", [])),
                 "people": as_slug_list(fm.get("people", [])),
             }
+
+            rel = index_md.relative_to(root)
+            if expected_type == "person":
+                for role in fm.get("roles") or []:
+                    if role in DEPRECATED_ROLES:
+                        warnings.append(
+                            f"{rel}: deprecated role '{role}' (use '{DEPRECATED_ROLES[role]}')"
+                        )
+                    elif role not in CANONICAL_ROLES:
+                        warnings.append(f"{rel}: non-standard role '{role}'")
+                if slug in wp_leader_slugs and "Work package leader" not in (fm.get("roles") or []):
+                    warnings.append(
+                        f"{rel}: listed in work_packages.yml but missing 'Work package leader' role"
+                    )
+                urls = fm.get("urls") or {}
+                if not (urls.get("nva") or urls.get("orcid")):
+                    warnings.append(f"{rel}: missing urls.nva and urls.orcid (will not auto-sync from NVA)")
+
+            if expected_type == "institution":
+                warn_path_style_slug_lists(rel, "people", fm.get("people"), warnings)
+                warn_path_style_slug_lists(rel, "projects", fm.get("projects"), warnings)
+
+            if expected_type == "project":
+                warn_path_style_slug_lists(rel, "people", fm.get("people"), warnings)
+                warn_path_style_slug_lists(rel, "institutions", fm.get("institutions"), warnings)
+
+            if expected_type == "person":
+                warn_path_style_slug_lists(rel, "institutions", fm.get("institutions"), warnings)
+                warn_path_style_slug_lists(rel, "projects", fm.get("projects"), warnings)
 
     people = entries["person"]
     institutions = entries["institution"]

@@ -52,10 +52,13 @@ selected_works:
   url: https://doi.org/10.1007/978-3-032-06118-8_3
   contributors:
   - name: Maria Ulan
+    role: Creator
   - name: Erik Johannes Husom
+    role: Creator
     slug: erik-johannes-husom
     url: /people/erik-johannes-husom/
   - name: Jeriek Paul Van den Abeele
+    role: Creator
 - title: Unsupervised Learning and Process Analysis for Sensor Data Validation in
     the IIoT
   year: '2026'
@@ -64,15 +67,21 @@ selected_works:
   url: https://doi.org/10.1145/3777897
   contributors:
   - name: Erik Johannes Husom
+    role: Creator
     slug: erik-johannes-husom
     url: /people/erik-johannes-husom/
   - name: Arda Goknil
+    role: Creator
   - name: Felix Mannhardt
+    role: Creator
   - name: Simeon Tverdal
+    role: Creator
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
   - name: Phu Hong Nguyen
+    role: Creator
 - title: Controlled Self-Recovery of the Aggregator in Federated Learning Using RAFT
     Protocol
   year: '2025'
@@ -81,7 +90,9 @@ selected_works:
   url: https://doi.org/10.1145/3785470
   contributors:
   - name: Rustem Dautov
+    role: Creator
   - name: Erik Johannes Husom
+    role: Creator
     slug: erik-johannes-husom
     url: /people/erik-johannes-husom/
 - title: 'Sustainable LLM Inference for Edge AI: Evaluating Quantized LLMs for Energy
@@ -92,17 +103,25 @@ selected_works:
   url: https://doi.org/10.1145/3767742
   contributors:
   - name: Erik Johannes Husom
+    role: Creator
     slug: erik-johannes-husom
     url: /people/erik-johannes-husom/
   - name: Arda Goknil
+    role: Creator
   - name: Merve Astekin
+    role: Creator
   - name: Lwin Khin Shar
+    role: Creator
   - name: Andre Kåsen
+    role: Creator
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
   - name: Benedikt Andreas Mithassel
+    role: Creator
   - name: Ahmet Soylu
+    role: Creator
 - title: 'FedMAC: Federated Multi-Algorithm Clustering for Autonomic Systems'
   year: '2025'
   source: Book chapter
@@ -110,10 +129,13 @@ selected_works:
   url: https://doi.org/10.1109/acsos-c66519.2025.00025
   contributors:
   - name: Erik Johannes Husom
+    role: Creator
     slug: erik-johannes-husom
     url: /people/erik-johannes-husom/
   - name: Rustem Dautov
+    role: Creator
   - name: Arda Goknil
+    role: Creator
 - title: Data Quality as a Service Framework for AI-Enabled Industrial Internet of
     Things
   year: '2024'
@@ -122,17 +144,25 @@ selected_works:
   url: https://doi.org/10.1145/3703790.3703794
   contributors:
   - name: Arda Goknil
+    role: Creator
   - name: Phu Hong Nguyen
+    role: Creator
   - name: Erik Johannes Husom
+    role: Creator
     slug: erik-johannes-husom
     url: /people/erik-johannes-husom/
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
   - name: Simeon Tverdal
+    role: Creator
   - name: Flavien Peysson
+    role: Creator
   - name: Dimitra Politaki
+    role: Creator
   - name: Roberto González-Velázquez
+    role: Creator
 - title: 'ERG-AI: enhancing occupational ergonomics with uncertainty-aware ML and
     LLM feedback'
   year: '2024'
@@ -141,21 +171,28 @@ selected_works:
   url: https://doi.org/10.1007/s10489-024-05796-1
   contributors:
   - name: Sagar Sen
+    role: Creator
     slug: sagar-sen
     url: /people/sagar-sen/
   - name: Victor Evaristo Gonzalez Sanchez
+    role: Creator
   - name: Erik Johannes Husom
+    role: Creator
     slug: erik-johannes-husom
     url: /people/erik-johannes-husom/
   - name: Simeon Tverdal
+    role: Creator
   - name: Shukun Tokas
+    role: Creator
   - name: Svein Ove Tjøsvoll
+    role: Creator
 - title: 'REPTILE: a Tool for Replay-driven Continual Learning in IIoT'
   year: '2023'
   source: Conference lecture
   group_type: Conference
   contributors:
   - name: Erik Johannes Husom
+    role: Creator
     slug: erik-johannes-husom
     url: /people/erik-johannes-husom/
 - title: Replay-Driven Continual Learning for the Industrial Internet of Things
@@ -164,6 +201,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Erik Johannes Husom
+    role: Creator
     slug: erik-johannes-husom
     url: /people/erik-johannes-husom/
 - title: 'UDAVA: an unsupervised learning pipeline for sensor data validation in manufacturing'
@@ -172,6 +210,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Erik Johannes Husom
+    role: Creator
     slug: erik-johannes-husom
     url: /people/erik-johannes-husom/
 source_mentions: []

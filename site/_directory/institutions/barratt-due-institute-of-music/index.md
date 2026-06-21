@@ -1,4 +1,5 @@
 ---
+layout: page
 type: institution
 slug: barratt-due-institute-of-music
 permalink: /institutions/barratt-due-institute-of-music/
@@ -8,7 +9,6 @@ name: Barratt Due Institute of Music
 short_name: Barratt Due
 people:
 - victoria-johnson
-- /people/victoria-johnson/
 projects: []
 country: null
 city: null

@@ -53,6 +53,7 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Victoria Christine Årang Johnson
+    role: Artist
     slug: victoria-johnson
     url: /people/victoria-johnson/
 - title: Bela-based augmented acoustic guitars for sonic microinteraction
@@ -62,15 +63,21 @@ selected_works:
   url: http://www.nime.org/proceedings/2018/nime2018_paper0068.pdf
   contributors:
   - name: Victor Evaristo Gonzalez Sanchez
+    role: Creator
   - name: Charles Patrick Martin
+    role: Creator
     slug: charles-martin
     url: /people/charles-martin/
   - name: Agata Zelechowska
+    role: Creator
   - name: Kari Anne Vadstensvik Bjerkestrand
+    role: Creator
   - name: Victoria Kristine Å Johnson
+    role: Creator
     slug: victoria-johnson
     url: /people/victoria-johnson/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 - title: How still is still? Exploring human standstill for artistic applications
@@ -80,10 +87,13 @@ selected_works:
   url: http://www.inderscience.com/info/ingeneral/forthcoming.php?jcode=ijart
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Kari Bjerkestrand
+    role: Creator
   - name: Victoria Kristine Å Johnson
+    role: Creator
     slug: victoria-johnson
     url: /people/victoria-johnson/
 - title: Sverm - mikrobevegelser og mikrolyd
@@ -92,29 +102,40 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Artist
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Kari Anne Vadstensvik Bjerkestrand
+    role: Artist
   - name: Victoria Johnson
+    role: Artist
     slug: victoria-johnson
     url: /people/victoria-johnson/
   - name: Lisa Dillan
+    role: Artist
   - name: Maja Roel
+    role: Artist
   - name: Elisabeth Kjeldahl Nilsson
+    role: Artist
 - title: 'Sverm: Visning og felles utprøving av mikrolyd/mikrobevegelser'
   year: '2012'
   source: Music performance
   group_type: Music performance
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Artist
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Kari Anne Vadstensvik Bjerkestrand
+    role: Artist
   - name: Lisa Dillan
+    role: Artist
   - name: Victoria Johnson
+    role: Artist
     slug: victoria-johnson
     url: /people/victoria-johnson/
   - name: Maja Roel
+    role: Artist
 - title: 'Sverm: foreløpige resultater'
   year: '2012'
   source: Conference lecture
@@ -122,28 +143,38 @@ selected_works:
   url: http://www.fourms.uio.no/activities/2012/sverm-seminar.html
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Kari Anne Vadstensvik Bjerkestrand
+    role: Creator
   - name: Victoria Johnson
+    role: Creator
     slug: victoria-johnson
     url: /people/victoria-johnson/
   - name: Lisa Dillan
+    role: Creator
 - title: 'Sverm: et mikrounivers av dans og musikk'
   year: '2012'
   source: Music performance
   group_type: Music performance
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Artist
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Kari Anne Vadstensvik Bjerkestrand
+    role: Artist
   - name: Lisa Dillan
+    role: Artist
   - name: Victoria Johnson
+    role: Artist
     slug: victoria-johnson
     url: /people/victoria-johnson/
   - name: Elisabeth Kjeldahl Nilsson
+    role: Artist
   - name: Maja Roel
+    role: Artist
 - title: Performing the Electric Violin in a Sonic Space
   year: '2012'
   source: Journal article
@@ -151,9 +182,11 @@ selected_works:
   url: http://www.mitpressjournals.org/doi/abs/10.1162/COMJ_a_00148?prevSearch=authorsfield%253A%2528Refsum%2BJensenius%252C%2BAlexander%2529&searchHistoryKey=
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Victoria Johnson
+    role: Creator
     slug: victoria-johnson
     url: /people/victoria-johnson/
 - title: A video based analysis system for realtime control of concatenative sound
@@ -164,9 +197,11 @@ selected_works:
   url: http://urn.nb.no/URN:NBN:no-28129
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Victoria Johnson
+    role: Creator
     slug: victoria-johnson
     url: /people/victoria-johnson/
 - title: No Reason - Aftermath
@@ -175,7 +210,9 @@ selected_works:
   group_type: Music performance
   contributors:
   - name: Thomas T. Dahl
+    role: Composer
   - name: Victoria Kristine Å Johnson
+    role: Artist
     slug: victoria-johnson
     url: /people/victoria-johnson/
 source_mentions: []

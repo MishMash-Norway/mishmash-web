@@ -20,7 +20,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://budhaditya.org
-  institutional_website: https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay
+  institutional_website: https://budhaditya.org
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-9489-2721
@@ -60,6 +60,7 @@ selected_works:
   url: https://korkut.tselinny.org/artist/budhaditya-chattopadhyay
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: ProjectLeader
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
 - title: Archival Intelligence (2026)
@@ -69,6 +70,7 @@ selected_works:
   url: https://www.lydgalleriet.no/archive/archival-intelligence
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: ProjectLeader
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
 - title: Atomspheres
@@ -78,6 +80,7 @@ selected_works:
   url: https://dornsife.usc.edu/cema/events/
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: Composer
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
 - title: 'Sonic Perspectives from the Global Souths: Unheard Reciprocity, Resonant
@@ -88,6 +91,7 @@ selected_works:
   url: https://www.bloomsbury.com/uk/sonic-perspectives-from-the-global-souths-9781501365850/
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
 - title: Technologies of Capture and the Global Souths
@@ -97,6 +101,7 @@ selected_works:
   url: https://doi.org/10.4324/9781003430599-20
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
 - title: 'Artificial Consciouness: Regenerating AI Ethics and Aesthetics'
@@ -105,12 +110,17 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
   - name: Frans Jacobi
+    role: Creator
   - name: David Rych
+    role: Creator
   - name: David Jhave Johnston
+    role: Creator
   - name: Eamon O'Kane
+    role: Creator
 - title: 'Unmedia: De-modernising Technology'
   year: '2025'
   source: Conference lecture
@@ -118,6 +128,7 @@ selected_works:
   url: https://kmd.uib.no/en/Calendar/seminar/ears-to-the-ground
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
 - title: Dhvāni
@@ -127,6 +138,7 @@ selected_works:
   url: https://hearhere.be/en/expo/dhv%C4%81ni
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: ProjectLeader
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
 - title: 'Archival Intelligence: Machine Learning and Intergenerational Memory'
@@ -135,6 +147,7 @@ selected_works:
   group_type: Conference
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
 - title: 'Dhvāni: Sacred Sounds and Decolonial Machines'
@@ -144,6 +157,7 @@ selected_works:
   url: https://doi.org/10.5281/ZENODO.11189323
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
 source_mentions:
