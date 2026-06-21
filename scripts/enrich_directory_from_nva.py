@@ -615,6 +615,12 @@ def nva_publication_url(hit: dict) -> str:
     return ""
 
 
+def top_selected_works(works: list[dict[str, str]], max_works: int) -> list[dict[str, str]]:
+    """Return the newest eligible works regardless of NVA search result order."""
+    ranked = sorted(works, key=work_sort_key, reverse=True)
+    return ranked[:max_works]
+
+
 def nva_selected_works(
     profile_id: str,
     max_works: int,
@@ -624,7 +630,7 @@ def nva_selected_works(
     seen: set[str] = set()
     from_offset = 0
 
-    while len(works) < max_works:
+    while True:
         response = requests.get(
             nva_api_url("/search/resources"),
             params={"contributor": profile_id, "size": NVA_SEARCH_PAGE_SIZE, "from": from_offset},
@@ -677,16 +683,13 @@ def nva_selected_works(
                 if contributors:
                     work["contributors"] = contributors
             works.append(work)
-            if len(works) >= max_works:
-                break
 
         from_offset += len(hits)
         total_hits = payload.get("totalHits") or 0
         if from_offset >= total_hits:
             break
 
-    works.sort(key=work_sort_key, reverse=True)
-    return works[:max_works]
+    return top_selected_works(works, max_works)
 
 
 def nva_project_id_from_url(value: str) -> str:

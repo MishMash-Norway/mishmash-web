@@ -31,12 +31,28 @@ def extract_cristin_person_id(value: str) -> str | None:
     return match.group(1) if match else None
 
 
+def _localized_label(value) -> str:
+    if isinstance(value, str):
+        return value.strip()
+    if isinstance(value, list):
+        for item in value:
+            if isinstance(item, dict):
+                text = (item.get("value") or item.get("en") or item.get("nb") or "").strip()
+                if text:
+                    return text
+            elif isinstance(item, str) and item.strip():
+                return item.strip()
+    if isinstance(value, dict):
+        return (value.get("en") or value.get("nb") or value.get("no") or value.get("value") or "").strip()
+    return ""
+
+
 def contributor_name(identity: dict) -> str:
-    name = (identity.get("name") or "").strip()
+    name = _localized_label(identity.get("name"))
     if name:
         return name
-    first = (identity.get("firstName") or "").strip()
-    last = (identity.get("lastName") or "").strip()
+    first = _localized_label(identity.get("firstName"))
+    last = _localized_label(identity.get("lastName"))
     return f"{first} {last}".strip()
 
 

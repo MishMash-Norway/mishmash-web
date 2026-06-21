@@ -21,6 +21,7 @@ MEDIA_RESULT_TYPES = {
 MEDIA_GROUP_LABEL = "Media"
 PERSON_PROFILE_EXCLUDED_INSTANCE_TYPES = MEDIA_RESULT_TYPES | {
     "Lecture",
+    "ConferenceLecture",
     "OtherPresentation",
     "JournalLetter",
 }

@@ -3,6 +3,7 @@ import unittest
 
 from nva_publication_contributors import (
     build_result_contributors,
+    contributor_name,
     contributor_roles_for_instance,
     person_contributor_role,
     person_has_supervisor_role,
@@ -65,6 +66,10 @@ class NvaPublicationContributorsTests(unittest.TestCase):
         self.assertFalse(person_has_supervisor_role(entity, "1"))
         self.assertTrue(person_has_supervisor_role(entity, "2"))
         self.assertEqual(person_contributor_role(entity, "2"), "Supervisor")
+
+    def test_contributor_name_handles_localized_list(self):
+        identity = {"name": [{"value": "Arnulf Christian Mattes", "language": "nb"}]}
+        self.assertEqual(contributor_name(identity), "Arnulf Christian Mattes")
 
     def test_build_result_contributors_can_filter_roles(self):
         entity = {

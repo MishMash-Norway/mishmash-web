@@ -7,9 +7,10 @@ from nva_result_types import exclude_from_person_profile, result_group_type
 class ExcludePersonProfileResultsTests(unittest.TestCase):
     def test_excludes_regular_lectures(self):
         self.assertTrue(exclude_from_person_profile("Lecture"))
+        self.assertTrue(exclude_from_person_profile("ConferenceLecture"))
         self.assertTrue(exclude_from_person_profile("OtherPresentation"))
         self.assertEqual(result_group_type("ConferenceLecture"), "Conference")
-        self.assertFalse(exclude_from_person_profile("ConferenceLecture"))
+        self.assertTrue(exclude_from_person_profile(source="Conference lecture"))
 
     def test_excludes_media_appearances(self):
         self.assertTrue(exclude_from_person_profile("MediaInterview"))

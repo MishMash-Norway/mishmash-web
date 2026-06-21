@@ -75,7 +75,7 @@ Updated fields:
 - Tags (`tags` and `search_keywords`, from research topics)
 - Bio (`summary`)
 - Portrait (`image`, downloaded from NVA when available)
-- Recent publications (`selected_works`, up to 10)
+- Recent publications (`selected_works`, up to 10 — newest eligible works after filtering lectures, media, and supervisor-only entries)
 
 A GitHub Actions workflow runs this once per day (`.github/workflows/enrich-directory-people.yml`), including a sync of MishMash project results to `site/_data/mishmash_results.yml` for `/results/`.
 
