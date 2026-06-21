@@ -12,10 +12,10 @@ institutions:
 projects:
 - the-mishmash-website
 roles:
-- Board Secretary
+- Administrative coordinator
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html
   github: ''
   linkedin: ''
   orcid: ''
