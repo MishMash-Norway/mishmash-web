@@ -1,4 +1,4 @@
-synced_at: '2026-06-20T19:39:50Z'
+synced_at: '2026-06-21T09:08:31Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -15,8 +15,11 @@ results:
   group_type: Book chapter
   contributors:
   - name: Bilge Serdar
+    role: Creator
   - name: Aleksander Tidemann
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -64,17 +67,23 @@ results:
   group_type: Book chapter
   contributors:
   - name: Hugh Alexander von Arnim
+    role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
   - name: Anna-Maria Christodoulou
+    role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
   - name: Kayla Burnim
+    role: Creator
   - name: Finn Upham
+    role: Creator
   - name: Tejaswinee Kelkar
+    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -133,9 +142,11 @@ results:
   group_type: Book chapter
   contributors:
   - name: Jon Marius Aareskjold-Drecker
+    role: Creator
     slug: jon-marius-aareskjold-drecker
     url: /people/jon-marius-aareskjold-drecker/
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
   institutions:
@@ -174,6 +185,7 @@ results:
   group_type: Book chapter
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
   institutions:
@@ -211,11 +223,15 @@ results:
   group_type: Book chapter
   contributors:
   - name: Michael Francis Duch
+    role: Creator
   - name: Alexander Eriksson Furunes
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Cecilie Sachs Olsen
+    role: Creator
   institutions:
   - name: University of Oslo
     slug: university-of-oslo
@@ -254,7 +270,9 @@ results:
   group_type: Book chapter
   contributors:
   - name: Balint Laczko
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -301,6 +319,7 @@ results:
   group_type: Conference
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
   institutions:
@@ -328,9 +347,11 @@ results:
   group_type: Conference
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Laura Bishop
+    role: Creator
   institutions:
   - name: University of Oslo
     slug: university-of-oslo
@@ -373,6 +394,7 @@ results:
   group_type: Conference
   contributors:
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   institutions:
@@ -402,6 +424,7 @@ results:
   group_type: Conference
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -443,6 +466,7 @@ results:
   group_type: Conference
   contributors:
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   institutions:
@@ -477,6 +501,7 @@ results:
   group_type: Conference
   contributors:
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
   institutions:
@@ -505,6 +530,7 @@ results:
   group_type: Conference
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
   institutions:
@@ -532,7 +558,9 @@ results:
   group_type: Conference
   contributors:
   - name: Vemund Hegstad Alm
+    role: Creator
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
   institutions:
@@ -587,6 +615,7 @@ results:
   group_type: Conference
   contributors:
   - name: Fredrik Graver
+    role: Creator
     slug: fredrik-graver
     url: /people/fredrik-graver/
   institutions:
@@ -614,12 +643,17 @@ results:
   group_type: Conference
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
   - name: Frans Jacobi
+    role: Creator
   - name: David Rych
+    role: Creator
   - name: David Jhave Johnston
+    role: Creator
   - name: Eamon O'Kane
+    role: Creator
   institutions:
   - name: University of Bergen
     slug: university-of-bergen
@@ -685,6 +719,7 @@ results:
   group_type: Conference
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
   institutions:
@@ -712,6 +747,7 @@ results:
   group_type: Exhibition
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: ProjectLeader
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
   institutions:
@@ -738,6 +774,7 @@ results:
   group_type: Exhibition
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: ProjectLeader
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
   institutions:
@@ -772,6 +809,7 @@ results:
   group_type: Journal article
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -811,8 +849,11 @@ results:
   group_type: Journal article
   contributors:
   - name: Bilge Serdar
+    role: Creator
   - name: Aleksander Tidemann
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -857,10 +898,13 @@ results:
   group_type: Journal article
   contributors:
   - name: Fadi Al-Ghawanmeh
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Kamel Smaili
+    role: Creator
   institutions:
   - name: University of Oslo
     slug: university-of-oslo
@@ -918,10 +962,13 @@ results:
   group_type: Journal article
   contributors:
   - name: Jinyue Guo
+    role: Creator
   - name: Jim Tørresen
+    role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -972,10 +1019,13 @@ results:
   group_type: Journal article
   contributors:
   - name: Maham Riaz
+    role: Creator
   - name: Cagri Erdem
+    role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -1025,6 +1075,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Jonna Katariina Vuoskoski
+    role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
   institutions:
@@ -1052,13 +1103,17 @@ results:
   group_type: Lecture
   contributors:
   - name: Enrique Encinas
+    role: Creator
     slug: enrique-encinas
     url: /people/enrique-encinas/
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   - name: Markéta Dolejšová
+    role: Creator
   - name: Einar Sneve Martinussen
+    role: Creator
   institutions:
   - name: Oslo School of Architecture and Design
     slug: oslo-school-of-architecture-and-design
@@ -1111,6 +1166,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -1140,6 +1196,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
   institutions:
@@ -1168,6 +1225,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
   institutions:
@@ -1195,6 +1253,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Matthew Landers
+    role: Creator
   institutions:
   - name: Western Norway University of Applied Sciences
     slug: western-norway-university-of-applied-sciences
@@ -1218,13 +1277,19 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Jesper Mardahl
+    role: Creator
   - name: Simon Kimmel
+    role: Creator
   - name: Martin Eyerer
+    role: Creator
   - name: Roland Sillmann
+    role: Creator
   - name: Philipp Grefer
+    role: Creator
   institutions:
   - name: University of Oslo
     slug: university-of-oslo
@@ -1265,6 +1330,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -1292,9 +1358,13 @@ results:
   group_type: Lecture
   contributors:
   - name: Silje Midtlien Sigurdsen
+    role: Creator
   - name: Camila Urrego
+    role: Creator
   - name: Gunnar Gabriel Gjermundsen
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -1342,6 +1412,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -1369,6 +1440,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
   institutions:
@@ -1402,16 +1474,21 @@ results:
   group_type: Lecture
   contributors:
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
   - name: Enrique Encinas
+    role: Creator
     slug: enrique-encinas
     url: /people/enrique-encinas/
   - name: Hedda Foss Lilleng
+    role: Creator
   - name: Lene Renneflott
+    role: Creator
   institutions:
   - name: Oslo School of Architecture and Design
     slug: oslo-school-of-architecture-and-design
@@ -1465,6 +1542,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   institutions:
@@ -1502,6 +1580,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   institutions:
@@ -1538,6 +1617,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -1569,6 +1649,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -1613,6 +1694,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Eirik Sørbø
+    role: Creator
     slug: eirik-sorbo
     url: /people/eirik-sorbo/
   institutions:
@@ -1659,6 +1741,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Ragnhild Brøvig
+    role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
   institutions:
@@ -1687,6 +1770,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -1731,10 +1815,13 @@ results:
   group_type: Lecture
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
   - name: Kristin Vold Lexander
+    role: RoleOther
   - name: Jessica Pedersen Belisle Hansen
+    role: RoleOther
   institutions:
   - name: Ostfold University College
     slug: ostfold-university-college
@@ -1767,6 +1854,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Fredrik Graver
+    role: Creator
     slug: fredrik-graver
     url: /people/fredrik-graver/
   institutions:
@@ -1795,6 +1883,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Fredrik Graver
+    role: Creator
     slug: fredrik-graver
     url: /people/fredrik-graver/
   institutions:
@@ -1822,9 +1911,11 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Ingrid Romarheim Haugen
+    role: Creator
     slug: ingrid-romarheim-haugen
     url: /people/ingrid-romarheim-haugen/
   institutions:
@@ -1859,11 +1950,15 @@ results:
   group_type: Lecture
   contributors:
   - name: Per Snaprud
+    role: Creator
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Tor Endestad
+    role: Creator
   - name: Randi Wøien
+    role: Creator
   institutions:
   - name: University of Oslo
     slug: university-of-oslo
@@ -1944,12 +2039,17 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Kristin Bergtora Sandvik
+    role: Creator
   - name: Birgitte Grimstad
+    role: Creator
   - name: Andreas Hoem Røysum
+    role: Creator
   - name: Lars Klevstrand
+    role: Creator
   institutions:
   - name: University of Oslo
     slug: university-of-oslo
@@ -1993,6 +2093,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Diana Saplacan Lindblom
+    role: Creator
   institutions:
   - name: University of Oslo
     slug: university-of-oslo
@@ -2018,6 +2119,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2045,6 +2147,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2074,6 +2177,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2101,6 +2205,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2128,6 +2233,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2161,6 +2267,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2188,6 +2295,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2215,11 +2323,15 @@ results:
   group_type: Lecture
   contributors:
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   - name: Flu Hartberg
+    role: Creator
   - name: Bruno Kvae
+    role: Creator
   - name: Erle Marie Sørheim
+    role: Creator
   institutions:
   - name: Kristiania University College
     slug: kristiania-university-college
@@ -2255,6 +2367,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2283,6 +2396,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2310,6 +2424,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2337,13 +2452,17 @@ results:
   group_type: Lecture
   contributors:
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Mathieu Lacroix
+    role: Creator
   - name: Fredrik Graver
+    role: Creator
     slug: fredrik-graver
     url: /people/fredrik-graver/
   institutions:
@@ -2384,6 +2503,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2416,6 +2536,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2448,6 +2569,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2478,6 +2600,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2505,6 +2628,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2532,6 +2656,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2588,6 +2713,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2626,6 +2752,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2653,6 +2780,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2682,12 +2810,15 @@ results:
   group_type: Lecture
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
   - name: Daniel Nordgård
+    role: Creator
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
   institutions:
@@ -2731,6 +2862,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Fredrik Graver
+    role: Creator
     slug: fredrik-graver
     url: /people/fredrik-graver/
   institutions:
@@ -2760,6 +2892,7 @@ results:
   group_type: Lecture
   contributors:
   - name: Fredrik Graver
+    role: Creator
     slug: fredrik-graver
     url: /people/fredrik-graver/
   institutions:
@@ -2791,13 +2924,17 @@ results:
   group_type: Lecture
   contributors:
   - name: Trond Lossius
+    role: Creator
     slug: trond-lossius
     url: /people/trond-lossius/
   - name: Steven Bachelder
+    role: Creator
   - name: Synne Tollerud Bull
+    role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
   - name: Ida Jahr
+    role: Creator
     slug: ida-jahr
     url: /people/ida-jahr/
   institutions:
@@ -2854,6 +2991,7 @@ results:
   group_type: Letter to the editor
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2883,6 +3021,7 @@ results:
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2912,7 +3051,9 @@ results:
   group_type: Media
   contributors:
   - name: Torkild Jemterud
+    role: ProgrammeLeader
   - name: Alexander Refsum Jensenius
+    role: ProgrammeParticipant
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -2939,11 +3080,15 @@ results:
   group_type: Media
   contributors:
   - name: Kjersti Anderdal Bakken
+    role: ProgrammeLeader
   - name: Alexander Refsum Jensenius
+    role: ProgrammeParticipant
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Tine Thing Helseth
+    role: ProgrammeParticipant
   - name: Ragnhild Schiager Folkestad
+    role: ProgrammeParticipant
   institutions:
   - name: University of Oslo
     slug: university-of-oslo
@@ -2970,15 +3115,21 @@ results:
   group_type: Media
   contributors:
   - name: Sunniva Monclair Bøe
+    role: Journalist
   - name: Elise Koppang Frøjd
+    role: Journalist
   - name: Alexander Refsum Jensenius
+    role: InterviewSubject
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Diego Marin-Bucio
+    role: InterviewSubject
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
   - name: Benedikte Wallace
+    role: InterviewSubject
   - name: Olivier Lartillot
+    role: InterviewSubject
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
   institutions:
@@ -3005,7 +3156,9 @@ results:
   group_type: Media
   contributors:
   - name: Anlov Peter Mathiesen
+    role: Journalist
   - name: Alexander Refsum Jensenius
+    role: InterviewSubject
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -3030,6 +3183,7 @@ results:
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
+    role: InterviewSubject
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -3054,7 +3208,9 @@ results:
   group_type: Media
   contributors:
   - name: Rolf Frøyland
+    role: Journalist
   - name: Alexander Refsum Jensenius
+    role: InterviewSubject
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -3080,7 +3236,9 @@ results:
   group_type: Media
   contributors:
   - name: Henrik Moisanen Jensen
+    role: Journalist
   - name: Alexander Refsum Jensenius
+    role: InterviewSubject
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -3106,7 +3264,9 @@ results:
   group_type: Media
   contributors:
   - name: Cathrine Th. Brundell
+    role: Journalist
   - name: Alexander Refsum Jensenius
+    role: InterviewSubject
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -3132,6 +3292,7 @@ results:
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -3161,6 +3322,7 @@ results:
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
+    role: ProgrammeParticipant
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -3188,9 +3350,11 @@ results:
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
+    role: InterviewSubject
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Tuva Marie Sørum
+    role: Journalist
   institutions:
   - name: University of Oslo
     slug: university-of-oslo
@@ -3214,9 +3378,11 @@ results:
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
+    role: InterviewSubject
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   - name: Nikoline Riis Lindahl
+    role: Journalist
   institutions:
   - name: University of Oslo
     slug: university-of-oslo
@@ -3239,7 +3405,9 @@ results:
   group_type: Media
   contributors:
   - name: Leif Henrik Hoøen
+    role: Journalist
   - name: Alexander Refsum Jensenius
+    role: InterviewSubject
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -3266,6 +3434,7 @@ results:
   group_type: Media
   contributors:
   - name: Daniel Nordgård
+    role: InterviewSubject
     slug: daniel-nordgard
     url: /people/daniel-nordgard/
   institutions:
@@ -3291,6 +3460,7 @@ results:
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
+    role: Journalist
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -3319,6 +3489,7 @@ results:
   group_type: Media
   contributors:
   - name: Alexander Refsum Jensenius
+    role: ProgrammeLeader
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
   institutions:
@@ -3343,6 +3514,7 @@ results:
   group_type: Music performance
   contributors:
   - name: Budhaditya Chattopadhyay
+    role: Composer
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
   institutions:
@@ -3392,6 +3564,7 @@ results:
   group_type: Music performance
   contributors:
   - name: Viggo Tellefsen Wivestad
+    role: Organizer
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
   institutions:

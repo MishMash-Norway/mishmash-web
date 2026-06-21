@@ -37,12 +37,10 @@ urls:
   instagram: https://www.instagram.com/ole_goethe
 aliases: []
 tags:
-- Human-Computer Interaction
 - Human computer interaction
 - User Experience
 - Human Engaged Computing
 search_keywords:
-- Human-Computer Interaction
 - Human computer interaction
 - User Experience
 - Human Engaged Computing

@@ -44,7 +44,7 @@ tags:
 - Experimental Music
 - Audio-visual production
 - Installation
-- Artistic Research
+- Artistic research
 - Music Technology
 - Place
 - Installations
@@ -57,7 +57,7 @@ search_keywords:
 - Experimental Music
 - Audio-visual production
 - Installation
-- Artistic Research
+- Artistic research
 - Music Technology
 - Place
 - Installations

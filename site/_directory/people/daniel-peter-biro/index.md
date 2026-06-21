@@ -26,22 +26,22 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Etnomusicology
+- Ethnomusicology
 - Musical memory
 - Musical modernism
 - Experimental Music
 - Musical composition
 - Musical electronics
-- Computer assisted composition -music
+- Computer-Assisted Composition
 - Musical analysis
 search_keywords:
-- Etnomusicology
+- Ethnomusicology
 - Musical memory
 - Musical modernism
 - Experimental Music
 - Musical composition
 - Musical electronics
-- Computer assisted composition -music
+- Computer-Assisted Composition
 - Musical analysis
 selected_works:
 - title: “Philosophical Translation as Compositional Research in the Ethica Composition
