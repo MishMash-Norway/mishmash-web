@@ -27,6 +27,7 @@ custom_css: /assets/css/people-network.css
       <button type="button" class="fbtn rbtn active" data-role="all">All</button>
       <button type="button" class="fbtn rbtn" data-role="Board">Board</button>
       <button type="button" class="fbtn rbtn" data-role="Council">Council</button>
+      <button type="button" class="fbtn rbtn" data-role="Member">Members</button>
       <button type="button" class="fbtn rbtn" data-role="Work Package">WP Leaders</button>
     </div>
 
@@ -130,6 +131,7 @@ const wpColor = d3.scaleOrdinal().domain(wpIds).range(PALETTE);
 
 const wpById = Object.fromEntries(WORK_PACKAGES.map(w => [w.id, w]));
 const wpLeaderSlugs = new Set(WORK_PACKAGES.flatMap(wp => wp.members || []));
+const memberRoleLabels = new Set(["member"]);
 const wpByMember = {};
 WORK_PACKAGES.forEach(wp => {
   wp.members.forEach(slug => {
@@ -303,6 +305,8 @@ function buildGraph() {
   if (roleFilter !== "all") {
     if (roleFilter === "Work Package") {
       people = people.filter(p => wpLeaderSlugs.has(p.id));
+    } else if (roleFilter === "Member") {
+      people = people.filter(p => (p.roles || []).some(r => memberRoleLabels.has(String(r).trim().toLowerCase())));
     } else {
       people = people.filter(p => (p.roles || []).some(r => r.includes(roleFilter)));
     }

@@ -12,7 +12,7 @@ institutions:
 projects:
 - ki-i-kunstnerisk-utdanning-og-praksis
 roles:
-- Full member
+- Member
 urls:
   personal_website: http://www.tirilschroeder.com/
   institutional_website: http://www.tirilschroeder.com/

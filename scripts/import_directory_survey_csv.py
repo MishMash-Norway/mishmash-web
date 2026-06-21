@@ -103,7 +103,7 @@ def is_full_member(row: dict) -> bool:
 
 def parse_survey_roles(row: dict) -> list[str]:
     if is_full_member(row):
-        return ["Full member"]
+        return ["Member"]
     role = survey_membership_role(row)
     if role.lower().startswith("associate member"):
         return ["Associate member"]
