@@ -24,7 +24,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://bull.miletic.info/
-  institutional_website: https://www.kristiania.no/om-kristiania/ansatte/school-of-arts-design-and-media/institutt-for-scenekunst-film-og-medier/synne-tollerud-bull/
+  institutional_website: https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/
   github: https://github.com/SynneTB
   linkedin: https://www.linkedin.com/in/synne-tollerud-bull-a86b0222/
   orcid: https://orcid.org/0000-0002-4248-5363

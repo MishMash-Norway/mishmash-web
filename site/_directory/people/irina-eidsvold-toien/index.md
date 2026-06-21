@@ -19,7 +19,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.bi.no/en/about-bi/employees/department-of-law2/irina-eidsvold-toien/
   github: ''
   linkedin: ''
   orcid: ''

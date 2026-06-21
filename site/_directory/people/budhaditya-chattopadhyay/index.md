@@ -20,7 +20,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://budhaditya.org
-  institutional_website: https://budhaditya.org
+  institutional_website: https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-9489-2721

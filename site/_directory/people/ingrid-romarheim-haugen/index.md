@@ -14,7 +14,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.nb.no/ansatte/ingrid-romarheim-haugen/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0001-8326-7135

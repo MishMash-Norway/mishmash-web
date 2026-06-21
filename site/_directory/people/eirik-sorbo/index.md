@@ -21,7 +21,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.uia.no/english/about-uia/employees/eiriks05/
   github: https://github.com/EirikSorbo
   linkedin: https://www.linkedin.com/in/eirik-s%C3%B8rb%C3%B8-bb4344189/
   orcid: https://orcid.org/0000-0002-3049-4422

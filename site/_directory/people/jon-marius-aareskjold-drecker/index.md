@@ -39,7 +39,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://en.uit.no/ansatte/person?p_document_id=93949&p_dimension_id=88175
   github: ''
   linkedin: ''
   orcid: ''

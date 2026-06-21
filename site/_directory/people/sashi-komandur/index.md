@@ -18,7 +18,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.inn.no/english/find-an-employee/sashi-komandur.html
   github: ''
   linkedin: ''
   orcid: ''

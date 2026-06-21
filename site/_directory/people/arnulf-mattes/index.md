@@ -18,7 +18,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes
-  institutional_website: ''
+  institutional_website: https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-3538-7765

@@ -23,7 +23,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www4.uib.no/en/find-employees/claire.ghetti
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-3892-4706

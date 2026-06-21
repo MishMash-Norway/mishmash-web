@@ -14,7 +14,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-6563-9601

@@ -25,7 +25,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://www.ragnhildbrovig.com
-  institutional_website: ''
+  institutional_website: https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-2955-2656

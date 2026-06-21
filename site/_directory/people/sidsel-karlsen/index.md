@@ -22,7 +22,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://nmh.no/en/contact-us/employees/sidsel-karlsen
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-3122-9302

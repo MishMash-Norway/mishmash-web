@@ -16,7 +16,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://filmschoolteacher.info/fredsnotes/
-  institutional_website: https://filmschoolteacher.info/fredsnotes/
+  institutional_website: https://www.inn.no/english/find-an-employee/fredrik-graver.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-3061-1622

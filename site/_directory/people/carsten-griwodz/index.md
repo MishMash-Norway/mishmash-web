@@ -16,7 +16,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.mn.uio.no/ifi/english/people/aca/griff/index.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-1254-537X
