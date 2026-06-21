@@ -3,9 +3,10 @@ type: person
 slug: hege-stensrud-hosoien
 name: Hege Stensrud Høsøien
 title: Hege Stensrud Høsøien
-position: Academic assistant
-department: Faculty of Humanities
-institution: university-of-oslo
+position: Department Director
+department: Research and Special Collections
+image: /assets/images/portraits/Hege_Stensrud_Hosoien_NB.jpg
+institution: national-library-of-norway
 institutions:
 - national-library-of-norway
 - university-of-oslo
@@ -14,7 +15,7 @@ roles:
 - Board Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.nb.no/ansatte/hege-stensrud-hosoien/
   github: ''
   linkedin: ''
   orcid: ''

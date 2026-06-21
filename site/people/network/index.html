@@ -129,6 +129,7 @@ const color = d3.scaleOrdinal().domain(instIds).range(PALETTE);
 const wpColor = d3.scaleOrdinal().domain(wpIds).range(PALETTE);
 
 const wpById = Object.fromEntries(WORK_PACKAGES.map(w => [w.id, w]));
+const wpLeaderSlugs = new Set(WORK_PACKAGES.flatMap(wp => wp.members || []));
 const wpByMember = {};
 WORK_PACKAGES.forEach(wp => {
   wp.members.forEach(slug => {
@@ -300,7 +301,11 @@ function buildGraph() {
   }
 
   if (roleFilter !== "all") {
-    people = people.filter(p => (p.roles || []).some(r => r.includes(roleFilter)));
+    if (roleFilter === "Work Package") {
+      people = people.filter(p => wpLeaderSlugs.has(p.id));
+    } else {
+      people = people.filter(p => (p.roles || []).some(r => r.includes(roleFilter)));
+    }
   }
 
   if (tagFilter !== "all") {
