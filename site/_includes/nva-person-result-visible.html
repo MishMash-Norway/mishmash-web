@@ -23,3 +23,21 @@
       {% assign person_result_visible = false %}
   {% endcase %}
 {% endif %}
+{% if person_result_visible %}
+  {% assign thesis_group = hidden_group %}
+  {% if thesis_group == nil or thesis_group == '' %}
+    {% assign thesis_group = work.group_type %}
+  {% endif %}
+  {% if thesis_group == "PhD thesis" or thesis_group == "Master's thesis" or thesis_group == "Bachelor's thesis" or thesis_group == "Licentiate thesis" %}
+    {% if work.contributors %}
+      {% for contributor in work.contributors %}
+        {% if contributor.slug == page.slug %}
+          {% assign contributor_role = contributor.role | default: "" %}
+          {% unless contributor_role == "Creator" or contributor_role == "Author" %}
+            {% assign person_result_visible = false %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endif %}
+{% endif %}

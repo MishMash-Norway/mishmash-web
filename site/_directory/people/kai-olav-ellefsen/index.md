@@ -144,28 +144,6 @@ selected_works:
     role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
-- title: Exploring fast and slow thinking in artificial intelligence
-  year: '2025'
-  source: Master's thesis
-  group_type: Master's thesis
-  contributors:
-  - name: Kevin Tran Torheim
-    role: Creator
-  - name: Kai Olav Ellefsen
-    role: RoleOther
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
-- title: Fast and Slow Reasoning with Model-Based Reinforcement Learning
-  year: '2025'
-  source: Master's thesis
-  group_type: Master's thesis
-  contributors:
-  - name: Viktor Ringvold Hasle
-    role: Creator
-  - name: Kai Olav Ellefsen
-    role: RoleOther
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
 - title: 'Fast or Slow: Adaptive Decision Making in Reinforcement Learning with Pre-Trained
     LLMs'
   year: '2025'
@@ -201,6 +179,39 @@ selected_works:
     role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
+- title: Generational Replacement and Learning for High-Performing and Diverse Populations
+    in Evolvable Robots
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/alife-cis64968.2025.10979828
+  contributors:
+  - name: Ege de Bruin
+    role: Creator
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: Kai Olav Ellefsen
+    role: Creator
+    slug: kai-olav-ellefsen
+    url: /people/kai-olav-ellefsen/
+- title: 'Fast or Slow: Adaptive Decision Maiking in Reinfocement Learning with Pre-Trained
+    LLMs'
+  year: '2025'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Katrine Linnea Nergård
+    role: Creator
+  - name: Kai Olav Ellefsen
+    role: Creator
+    slug: kai-olav-ellefsen
+    url: /people/kai-olav-ellefsen/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
 source_mentions: []
 wps:
 - WP1

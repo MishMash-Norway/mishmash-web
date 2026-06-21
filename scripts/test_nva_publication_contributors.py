@@ -7,6 +7,7 @@ from nva_publication_contributors import (
     contributor_roles_for_instance,
     person_contributor_role,
     person_has_supervisor_role,
+    person_should_exclude_from_profile,
 )
 
 
@@ -66,6 +67,26 @@ class NvaPublicationContributorsTests(unittest.TestCase):
         self.assertFalse(person_has_supervisor_role(entity, "1"))
         self.assertTrue(person_has_supervisor_role(entity, "2"))
         self.assertEqual(person_contributor_role(entity, "2"), "Supervisor")
+
+    def test_excludes_masters_thesis_supervision_with_role_other(self):
+        entity = {
+            "reference": {"publicationInstance": {"type": "DegreeMaster"}},
+            "contributors": [
+                {"role": {"type": "Creator"}, "identity": {"id": "https://api.nva.unit.no/cristin/person/1"}},
+                {"role": {"type": "RoleOther"}, "identity": {"id": "https://api.nva.unit.no/cristin/person/2"}},
+            ],
+        }
+        self.assertFalse(person_should_exclude_from_profile(entity, "1", "DegreeMaster"))
+        self.assertTrue(person_should_exclude_from_profile(entity, "2", "DegreeMaster"))
+
+    def test_keeps_own_masters_thesis_as_creator(self):
+        entity = {
+            "reference": {"publicationInstance": {"type": "DegreeMaster"}},
+            "contributors": [
+                {"role": {"type": "Creator"}, "identity": {"id": "https://api.nva.unit.no/cristin/person/3"}},
+            ],
+        }
+        self.assertFalse(person_should_exclude_from_profile(entity, "3", "DegreeMaster"))
 
     def test_contributor_name_handles_localized_list(self):
         identity = {"name": [{"value": "Arnulf Christian Mattes", "language": "nb"}]}

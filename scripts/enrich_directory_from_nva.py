@@ -19,7 +19,7 @@ from nva_result_types import (
     nva_publication_source,
     result_group_type,
 )
-from nva_publication_contributors import build_person_lookup, build_result_contributors, person_has_supervisor_role
+from nva_publication_contributors import build_person_lookup, build_result_contributors, person_should_exclude_from_profile
 from repo_paths import REPO_ROOT, SITE_ROOT
 
 
@@ -669,7 +669,7 @@ def nva_selected_works(
             source = nva_publication_source(reference)
             if exclude_from_person_profile(instance_type, group_type=group_type, source=source):
                 continue
-            if person_has_supervisor_role(entity, profile_id):
+            if person_should_exclude_from_profile(entity, profile_id, instance_type):
                 continue
 
             seen.add(key)

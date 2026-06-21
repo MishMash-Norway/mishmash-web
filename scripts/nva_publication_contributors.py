@@ -8,6 +8,7 @@ from pathlib import Path
 import yaml
 
 from directory_io import split_frontmatter
+from nva_result_types import nva_publication_instance_type
 
 PERSON_PROFILE_RE = re.compile(r"/research-profile/(\d+)")
 CRISTIN_RE = re.compile(r"/cristin/person/(\d+)")
@@ -79,8 +80,32 @@ def person_contributor_role(entity: dict, profile_id: str) -> str:
     return ""
 
 
+def person_should_exclude_from_profile(
+    entity: dict,
+    profile_id: str,
+    instance_type: str | None = None,
+) -> bool:
+    """Exclude supervised theses and other works where the person is not the author."""
+    profile_id = str(profile_id or "").strip()
+    if not profile_id:
+        return False
+
+    role = person_contributor_role(entity, profile_id)
+    if not role:
+        return False
+
+    if instance_type is None:
+        reference = entity.get("reference") or {}
+        instance_type = nva_publication_instance_type(reference)
+
+    if (instance_type or "").strip() in THESIS_INSTANCE_TYPES:
+        return role not in DEFAULT_AUTHOR_ROLES
+
+    return role in SUPERVISOR_ROLES
+
+
 def person_has_supervisor_role(entity: dict, profile_id: str) -> bool:
-    return person_contributor_role(entity, profile_id) == "Supervisor"
+    return person_should_exclude_from_profile(entity, profile_id)
 
 
 def build_result_contributors(
