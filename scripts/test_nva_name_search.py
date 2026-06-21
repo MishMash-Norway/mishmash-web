@@ -10,6 +10,7 @@ from enrich_directory_from_nva import (
     names_match_for_discovery,
     normalize_person_name_for_match,
     norwegian_name_search_variants,
+    nva_profile_matches_orcid,
 )
 
 # Minimal 1x1 PNG
@@ -46,6 +47,17 @@ class NorwegianNameSearchTests(unittest.TestCase):
         target = normalize_person_name_for_match("Gro Skaland")
         candidate = normalize_person_name_for_match("Ann Kjersti Skaland")
         self.assertFalse(names_match_for_discovery(target, candidate))
+
+    def test_thor_does_not_match_thorgny(self):
+        target = normalize_person_name_for_match("Thor Magnusson")
+        candidate = normalize_person_name_for_match("Thorgny Magnusson")
+        self.assertFalse(names_match_for_discovery(target, candidate))
+
+    def test_nva_profile_matches_orcid(self):
+        profile = {"identifiers": [{"type": "ORCID", "value": "0000-0002-3731-0630"}]}
+        self.assertTrue(nva_profile_matches_orcid(profile, "https://orcid.org/0000-0002-3731-0630"))
+        self.assertFalse(nva_profile_matches_orcid(profile, "https://orcid.org/0000-0001-1111-1111"))
+        self.assertFalse(nva_profile_matches_orcid({}, "https://orcid.org/0000-0002-3731-0630"))
 
 
 class NvaPortraitDownloadTests(unittest.TestCase):

@@ -126,10 +126,21 @@ def _token_similar(a: str, b: str) -> bool:
     if not a or not b:
         return False
     if a.startswith(b) or b.startswith(a):
-        return True
+        if abs(len(a) - len(b)) <= 2:
+            return True
     if min(len(a), len(b)) >= 4 and _levenshtein(a, b) <= 1:
         return True
     return False
+
+
+def nva_profile_matches_orcid(profile: dict, orcid_url: str) -> bool:
+    expected = extract_orcid_id(orcid_url)
+    if not expected:
+        return True
+    actual = extract_orcid_id(find_orcid(profile.get("identifiers") or []))
+    if not actual:
+        return False
+    return actual.lower() == expected.lower()
 
 
 def names_match_for_discovery(target_norm: str, candidate_norm: str) -> bool:
@@ -1438,6 +1449,14 @@ def enrich_person(
             org_cache=org_cache,
             allow_loose=discover_nva_loose,
         )
+        if discovered_id:
+            if orcid_url:
+                try:
+                    profile = get_json(nva_api_url(f"/cristin/person/{discovered_id}"))
+                    if not nva_profile_matches_orcid(profile, orcid_url):
+                        discovered_id = None
+                except Exception:
+                    discovered_id = None
         if discovered_id:
             nva_url = f"https://nva.sikt.no/research-profile/{discovered_id}"
             urls["nva"] = nva_url

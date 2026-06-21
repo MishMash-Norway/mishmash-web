@@ -20,7 +20,6 @@ people:
 - lars-nyre
 - oystein-skaar
 - thomas-de-ridder
-- thor-magnusson
 - trond-lossius
 projects:
 - ai-as-environment
