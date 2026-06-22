@@ -1,7 +1,7 @@
 {% assign lang = page.lang | default: 'en' %}
 {% assign t = site.data.translations[lang] %}
 {% assign mishmash_results = site.data.mishmash_results.results %}
-{% assign works_limit = include.limit | default: 10 %}
+{% assign works_limit = include.limit | default: 20 %}
 {% assign ordered_type_slugs = "" %}
 {% assign ordered_type_names = "" %}
 {% assign person_work_count = 0 %}
