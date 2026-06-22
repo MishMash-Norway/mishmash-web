@@ -1,10 +1,13 @@
 {% assign partner_news = site.data.partner_news | default: empty %}
 {% assign display_limit = include.limit | default: 100 %}
+{% assign current_lang = page.lang | default: 'en' %}
 {% assign sorted_news = partner_news | sort: "date" | reverse %}
 {% assign shown = 0 %}
 
 {% if sorted_news and sorted_news.size > 0 %}
 {% for item in sorted_news %}
+{% assign item_lang = item.lang | default: 'en' %}
+{% if item_lang == current_lang %}
 <div class="event-item">
   <div class="event-content">
     <time datetime="{{ item.date }}">{{ item.date | date: "%b %d, %Y" }}</time>
@@ -18,7 +21,11 @@
 </div>
 {% assign shown = shown | plus: 1 %}
 {% if shown >= display_limit %}{% break %}{% endif %}
+{% endif %}
 {% endfor %}
+{% if shown == 0 %}
+<p>No partner news yet.</p>
+{% endif %}
 {% else %}
 <p>No partner news yet.</p>
 {% endif %}
