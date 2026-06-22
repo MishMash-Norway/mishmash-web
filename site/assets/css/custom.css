@@ -3,15 +3,63 @@
   background-color: #A7A1F4 !important;
 }
 
-.main-content > footer {
+.site-footer {
   margin-top: 1.5rem;
   padding-top: 1.25rem;
   border-top: 1px solid #e6e6e6;
 }
 
+.site-footer-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  list-style: none;
+  cursor: default;
+}
+
+.site-footer-bar::-webkit-details-marker {
+  display: none;
+}
+
 .site-footer-credits {
-  color: #363644 !important;
+  color: #55606a;
   font-size: 0.85rem;
+  flex: 1 1 auto;
+}
+
+.site-footer-credits a {
+  color: #55606a;
+  text-decoration: none;
+}
+
+.site-footer-credits a:hover {
+  color: #159957;
+  text-decoration: underline;
+}
+
+.site-footer-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+  color: #55606a;
+  font-size: 0.82rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.site-footer-toggle:hover {
+  color: #159957;
+}
+
+.site-footer-toggle:hover .page-about-expand-icon {
+  border-color: #A7A1F4;
+  color: #4a4580;
+}
+
+.site-footer-toggle-label {
+  opacity: 0.75;
 }
 
 h1,
@@ -1134,42 +1182,16 @@ a:focus-visible .icon {
 
 /* Page metadata ("About the page") */
 .page-about {
-  margin-top: 2.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid #e6e6e6;
   font-size: 0.92rem;
   color: #55606a;
 }
 
-.page-about-summary {
-  cursor: pointer;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0.45rem;
-  margin: 0 0 0.85rem;
-  font-size: 1rem;
-  font-weight: 700;
-  color: #333;
-  user-select: none;
+.page-about[open] .site-footer-bar {
+  margin-bottom: 0.75rem;
 }
 
-.page-about:not([open]) .page-about-summary {
-  margin-bottom: 0;
-}
-
-.page-about-summary::-webkit-details-marker {
-  display: none;
-}
-
-.page-about-summary:hover,
-.page-about-summary:focus-visible {
-  color: #159957;
-}
-
-.page-about-summary-text {
-  flex: 0 1 auto;
+.page-about[open] .page-about-expand-icon {
+  transform: rotate(90deg);
 }
 
 .page-about-expand-icon {
@@ -1187,19 +1209,10 @@ a:focus-visible .icon {
   transition: transform 0.15s, border-color 0.15s;
 }
 
-.page-about-summary:hover .page-about-expand-icon,
-.page-about-summary:focus-visible .page-about-expand-icon {
-  border-color: #A7A1F4;
-  color: #4a4580;
-}
-
-.page-about[open] .page-about-expand-icon {
-  transform: rotate(90deg);
-}
-
 .page-about-list {
   margin: 0;
-  padding-top: 0.15rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e6e6e6;
 }
 
 .page-about-item {
