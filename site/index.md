@@ -22,11 +22,17 @@ MishMash aims to **create, explore, and reflect on AI for, through, and in creat
 
 [More partner events...](https://mishmash.no/events/partner-events)
 
-<h2><a href="https://mishmash.no/news/">News</a></h2>
+<h2><a href="https://mishmash.no/news/">MishMash News</a></h2>
 
 {% include news_front_page.html limit=3 %}
 
-[More news...](https://mishmash.no/news/)
+[More MishMash news...](https://mishmash.no/news/)
+
+<h2><a href="https://mishmash.no/news/partner-news/">Partner News</a></h2>
+
+{% include partner_news_front_page.html limit=3 %}
+
+[More partner news...](https://mishmash.no/news/partner-news/)
 
 ## Vacancies
 

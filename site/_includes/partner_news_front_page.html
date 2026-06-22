@@ -1,0 +1,24 @@
+{% assign partner_news = site.data.partner_news | default: empty %}
+{% assign display_limit = include.limit | default: 100 %}
+{% assign sorted_news = partner_news | sort: "date" | reverse %}
+{% assign shown = 0 %}
+
+{% if sorted_news and sorted_news.size > 0 %}
+{% for item in sorted_news %}
+<div class="event-item">
+  <div class="event-content">
+    <time datetime="{{ item.date }}">{{ item.date | date: "%b %d, %Y" }}</time>
+    {% if item.partner %} &mdash; {{ item.partner | strip_html | escape_once }}{% endif %}
+    <br />
+    <a href="{{ item.url }}">{{ item.title | strip_html | escape_once }}</a>
+    {% if item.description %}
+    <p class="event-desc">{{ item.description | strip_html | escape_once }}</p>
+    {% endif %}
+  </div>
+</div>
+{% assign shown = shown | plus: 1 %}
+{% if shown >= display_limit %}{% break %}{% endif %}
+{% endfor %}
+{% else %}
+<p>No partner news yet.</p>
+{% endif %}
