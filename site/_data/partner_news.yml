@@ -2,6 +2,22 @@
 # Keep dates in ISO format (YYYY-MM-DD).
 # Use lang: en or lang: nb to control which language version of the site shows each entry.
 
+- date: 2026-03-12
+  lang: en
+  url: https://www.hiof.no/iio/english/research/news-events/news/2026/bringing-viking-ships-back-to-life---one-algorithm.html
+  og_image: https://www.hiof.no/iio/english/research/news-events/news/2026/milan-illustration-2.jpg
+  title: "Bringing Viking ships back to life – one algorithm at a time"
+  description: "A PhD candidate at Østfold University College is building interactive 3D reconstruction tools for ancient Viking ships, making interpretive uncertainty visible alongside the digital model itself."
+  partner: Østfold University College (HiØ)
+
+- date: 2025-11-18
+  lang: en
+  url: https://www.nla.no/en/news/2025/november/nla-university-college-participates-in-national-research-center
+  og_image: https://www.nla.no/en/news/2025/november/nla-university-college-participates-in-national-research-center/_/image/0a8d0ba5-8aba-4a39-b20b-c6e64cd2c590:e679bb3ee26f161d221172d00677d30dd6479365/block-1200-630/KI-prosjekt.JPG
+  title: "NLA University College participates in national research center"
+  description: "NLA joins MishMash, contributing expertise in language, communication, and aesthetic subjects to explore how generative AI impacts creativity, education, and cultural heritage."
+  partner: NLA University College
+
 - date: 2026-06-08
   lang: en
   url: https://www.uio.no/english/research/research-news/articles/2026/human-ai-jamming.html
