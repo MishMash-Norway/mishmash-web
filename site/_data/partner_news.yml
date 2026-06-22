@@ -2,6 +2,22 @@
 # Keep dates in ISO format (YYYY-MM-DD).
 # Use lang: en or lang: nb to control which language version of the site shows each entry.
 
+- date: 2025-06-27
+  lang: en
+  url: https://www4.uib.no/en/about-uib/featured/kmd-takes-on-a-key-role-in-national-centre-for-ai-and-creativity
+  og_image: https://www4.uib.no/sites/default/files/styles/wide/public/media/_dsc1511.jpg.avif?itok=d2_ci_2f
+  title: "KMD takes on a key role in national centre for AI and creativity"
+  description: "Researchers at the Faculty of Fine Art, Music and Design (KMD) at the University of Bergen have been given a central role in the new national research center MishMash – Center for AI and Creativity."
+  partner: University of Bergen (UiB)
+
+- date: 2025-06-11
+  lang: en
+  url: https://www.inn.no/english/about-inn/faculty-of-film-tv-games/news/strengthening-ai-in-creative-education/
+  og_image: https://www.inn.no/om-universitetet/fakultet-for-film-tv-spill/aktuelt-fra-ftvs/vi-skal-styrke-ki-kompetansen-i-kreative-utdanninger/fredrik-graver-(002).jpg
+  title: "We are going to strengthen AI expertise in creative education"
+  description: "The University of Inland Norway joins MishMash, one of six new AI research centres, to investigate how AI can promote creativity and ethical awareness in creative education."
+  partner: University of Inland Norway (INN)
+
 - date: 2026-03-12
   lang: en
   url: https://www.hiof.no/iio/english/research/news-events/news/2026/bringing-viking-ships-back-to-life---one-algorithm.html
@@ -41,6 +57,22 @@
   title: "Where Humans Outshine AI: \"There is something quietly hopeful in these findings\""
   description: "Researchers at the University of Oslo discovered that humans excel at navigating unfamiliar situations by actively exploring with their bodies, revealing that embodied cognition remains a foundational human capacity."
   partner: University of Oslo
+
+- date: 2026-04-24
+  lang: nb
+  url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
+  og_image: https://image.forskning.no/2649159.jpg?imageId=2649159&x=12.09&y=34.11&cropw=80&croph=57.33&panox=12.09&panoy=34.11&panow=80&panoh=57.33&width=1200&height=683
+  title: "Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere og filmprodusenter nå?"
+  description: "Norske forskere vil finne ut hvordan kreative utøvere kan være med på å utvikle kunstig intelligens – og motsatt."
+  partner: forskning.no
+
+- date: 2026-04-08
+  lang: nb
+  url: https://www.uniforum.uio.no/nyheter/2026/04/eneste-ki-senter-som-kobler-teknologi-og-kreativit.html
+  og_image: https://www.uniforum.uio.no/nyheter/2026/04/bilder/mishmash-jensenius.jpg
+  title: "Eneste KI-senter som kobler teknologi og kreativitet offisielt åpnet"
+  description: "Mye optimisme og litt bekymring preget åpningen av MishMash – senter for kunstig intelligens og kreativitet."
+  partner: Uniforum (UiO)
 
 - date: 2026-06-08
   lang: nb
