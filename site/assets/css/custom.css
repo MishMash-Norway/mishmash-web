@@ -1052,6 +1052,22 @@ a:focus-visible .icon {
   padding: 1px 6px;
 }
 
+.result-wp-tags {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-top: 2px;
+}
+
+.result-wp-tag {
+  font-size: 0.75rem;
+  background: #e8e7fb;
+  color: #4a4580;
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-weight: 600;
+}
+
 .result-title {
   font-size: 1.1rem;
   font-weight: 700;

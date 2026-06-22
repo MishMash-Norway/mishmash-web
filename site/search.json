@@ -86,6 +86,7 @@ layout: null
         "date": {{ item.date | date: "%Y-%m-%d" | jsonify }},
         "categories": {{ item.categories | default: empty | jsonify }},
         "tags": {{ item.tags | default: empty | jsonify }},
+        "roles": {{ item.roles | default: empty | jsonify }},
         "description": {{ search_description | jsonify }},
         "content": {{ search_content | jsonify }},
         "type": {% if item.collection == "events" %}"event"{% elsif item.collection == "news" %}"news"{% elsif item.type == "person" %}"person"{% elsif item.type == "institution" %}"institution"{% elsif item.type == "project" %}"project"{% else %}"page"{% endif %}
