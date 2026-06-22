@@ -28,11 +28,17 @@ MishMash **skaper, utforsker og reflekterer over KI for, gjennom og i kreative p
 
 [Flere partnerarrangementer...](https://mishmash.no/events/partner-events)
 
-<h2><a href="https://mishmash.no/news/">Nyheter</a></h2>
+<h2><a href="https://mishmash.no/news/">MishMash-nyheter</a></h2>
 
 {% include news_front_page.html limit=3 %}
 
-[Flere nyheter...](https://mishmash.no/news/)
+[Flere MishMash-nyheter...](https://mishmash.no/news/)
+
+<h2><a href="https://mishmash.no/news/partner-news/">Partnernyheter</a></h2>
+
+{% include partner_news_front_page.html limit=3 %}
+
+[Flere partnernyheter...](https://mishmash.no/news/partner-news/)
 
 ## Ledige stillinger
 
