@@ -8,7 +8,14 @@
 {% for item in sorted_news %}
 {% assign item_lang = item.lang | default: 'en' %}
 {% if item_lang == current_lang %}
-<div class="event-item">
+<div class="event-item partner-event-item">
+  {% if item.url %}
+  <a href="{{ item.url }}">
+    <span class="event-thumb partner-event-icon">
+      <img class="partner-event-thumb" src="{{ item.og_image }}" alt="{{ item.title | strip_html | escape_once }}" loading="lazy">
+    </span>
+  </a>
+  {% endif %}
   <div class="event-content">
     <time datetime="{{ item.date }}">{{ item.date | date: "%b %d, %Y" }}</time>
     {% if item.partner %} &mdash; {{ item.partner | strip_html | escape_once }}{% endif %}
