@@ -12,7 +12,7 @@
   {% endif %}
   {% if thumb %}
   <a href="{{ item.url | relative_url }}">
-    <img class="event-thumb" src="{{ thumb | relative_url }}" alt="{{ item.title }}">
+    <img class="event-thumb" src="{{ thumb | relative_url }}" alt="{{ item.title }}" loading="lazy">
   </a>
   {% endif %}
   <div class="event-content">

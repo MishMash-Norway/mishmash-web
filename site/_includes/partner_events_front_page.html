@@ -17,7 +17,6 @@
   {% assign start_date_iso = start_date_text | slice: 0, 10 %}
   {% assign end_date = ev.end_date | default: ev.enddate %}
   {% assign domain = ev.url | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first %}
-  {% assign icon_url = 'https://www.google.com/s2/favicons?sz=128&domain=' | append: domain %}
   {% assign display_title = ev.title %}
   {% if ev.og_title %}
     {% assign og_title_clean = ev.og_title | replace: '
@@ -47,9 +46,9 @@
     {% if ev.url %}
       <a href="{{ ev.url }}">
         <span class="event-thumb partner-event-icon">
-          {% assign img_src = ev.og_image | default: icon_url %}
+          {% assign img_src = ev.og_image | default: fallback_icon %}
           <img class="partner-event-thumb" src="{{ img_src }}" alt="{{ display_title | strip_html | escape_once }}" loading="lazy"
-               onerror="if(this.src!=='{{ icon_url }}'){this.src='{{ icon_url }}'}else{this.src='{{ fallback_icon }}';this.onerror=null}">
+               onerror="this.src='{{ fallback_icon }}';this.onerror=null">
         </span>
       </a>
     {% endif %}
