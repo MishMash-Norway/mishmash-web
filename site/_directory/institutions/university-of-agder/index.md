@@ -6,6 +6,7 @@ permalink: /institutions/university-of-agder/
 redirect_from:
 - /directory/institutions/university-of-agder/
 name: University of Agder
+description: The University of Agder, formerly known as Agder College and Agder University College, is a public university with campuses in Kristiansand and Grimstad,...
 short_name: UiA
 image: /images/institutions/university-of-agder.svg
 people:

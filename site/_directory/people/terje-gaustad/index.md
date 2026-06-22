@@ -3,6 +3,7 @@ type: person
 slug: terje-gaustad
 name: Terje Gaustad
 title: Terje Gaustad
+description: Associate professor, Department of Music, Kristiania University College
 position: Associate professor
 department: Department of Music
 institution: kristiania-university-college

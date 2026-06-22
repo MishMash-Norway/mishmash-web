@@ -3,6 +3,7 @@ type: person
 slug: ole-christoffer-haga
 name: Ole Christoffer Haga
 title: Ole Christoffer Haga
+description: Guest, Department of Art and Media Studies, Norwegian University of Science and Technology
 position: Guest
 department: Department of Art and Media Studies
 institution: norwegian-university-of-science-and-technology

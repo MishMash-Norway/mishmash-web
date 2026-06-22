@@ -3,6 +3,7 @@ type: person
 slug: andreas-love
 name: Andreas Løve
 title: Andreas Løve
+description: Academic assistant, Department of Psychology, University of Oslo
 position: Academic assistant
 department: Department of Psychology
 institution: university-of-oslo

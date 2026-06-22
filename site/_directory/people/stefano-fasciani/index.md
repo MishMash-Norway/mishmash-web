@@ -3,6 +3,7 @@ type: person
 slug: stefano-fasciani
 name: Stefano Fasciani
 title: Stefano Fasciani
+description: Professor, Department of Musicology, University of Oslo
 position: Professor
 department: Department of Musicology
 image: /assets/images/portraits/Stefano_Fasciani_UiO.jpg

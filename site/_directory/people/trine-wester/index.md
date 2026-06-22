@@ -3,6 +3,7 @@ type: person
 slug: trine-wester
 name: Trine Wester
 title: Trine Wester
+description: Associate professor, Art and Craft, Oslo National Academy of the Arts
 position: Associate professor
 department: Art and Craft
 image: /assets/images/portraits/Trine_Wester_KHiO.png

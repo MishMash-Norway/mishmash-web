@@ -3,6 +3,7 @@ type: person
 slug: ole-andreas-rognstad
 name: Ole-Andreas Rognstad
 title: Ole-Andreas Rognstad
+description: Professor, Department of Private Law, University of Oslo
 position: Professor
 department: Department of Private Law
 image: /assets/images/portraits/Ole-Andreas_Rognstad_UiO.png

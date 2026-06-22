@@ -4,6 +4,7 @@ type: person
 slug: tommy-aase
 name: Tommy Aase
 title: Tommy Aase
+description: Screenstory
 position: null
 department: null
 institution: null

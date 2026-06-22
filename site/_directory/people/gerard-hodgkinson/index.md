@@ -4,6 +4,7 @@ type: person
 slug: gerard-hodgkinson
 name: Gerard Hodgkinson
 title: Gerard Hodgkinson
+description: University of Manchester
 position: null
 department: null
 institution: null

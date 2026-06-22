@@ -4,6 +4,7 @@ type: person
 slug: heidi-partti
 name: Heidi Partti
 title: Heidi Partti
+description: Uniarts Helsinki
 position: null
 department: null
 institution: null

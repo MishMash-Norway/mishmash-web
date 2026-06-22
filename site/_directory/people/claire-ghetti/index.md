@@ -3,6 +3,7 @@ type: person
 slug: claire-ghetti
 name: Claire Ghetti
 title: Claire Ghetti
+description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
 position: Professor
 department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Claire_Ghetti_UiB.jpg

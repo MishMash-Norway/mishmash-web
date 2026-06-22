@@ -3,6 +3,7 @@ type: person
 slug: eirik-sorbo
 name: Eirik Sørbø
 title: Eirik Sørbø
+description: Associate professor, Department of Popular Music, University of Agder
 position: Associate professor
 department: Department of Popular Music
 image: /assets/images/portraits/eirik_sorbo_UiA.jpg

@@ -6,6 +6,7 @@ permalink: /institutions/university-of-iceland/
 redirect_from:
 - /directory/institutions/university-of-iceland/
 name: University of Iceland
+description: The University of Iceland is a public research university in Reykjavík, Iceland, and the country's oldest and largest institution of higher education....
 short_name: HI
 image: /images/institutions/university-of-iceland.svg
 people:

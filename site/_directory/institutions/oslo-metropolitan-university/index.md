@@ -3,6 +3,7 @@ layout: page
 type: institution
 slug: oslo-metropolitan-university
 name: Oslo Metropolitan University
+description: Oslo Metropolitan University
 short_name: OsloMet
 permalink: /institutions/oslo-metropolitan-university/
 redirect_from:

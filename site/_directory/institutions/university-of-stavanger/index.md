@@ -6,6 +6,7 @@ permalink: /institutions/university-of-stavanger/
 redirect_from:
 - /directory/institutions/university-of-stavanger/
 name: University of Stavanger
+description: The University of Stavanger is a public research university located in Stavanger, Norway. It was established in 2005 when the Stavanger University College ...
 short_name: UiS
 people:
 - sigmund-trageton

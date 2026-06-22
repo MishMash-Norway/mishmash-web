@@ -3,6 +3,7 @@ type: person
 slug: budhaditya-chattopadhyay
 name: Budhaditya Chattopadhyay
 title: Budhaditya Chattopadhyay
+description: Post-doctoral research fellow, Faculty of Fine Art, Music and Design, University of Bergen
 position: Post-doctoral research fellow
 department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Budhaditya_Chattopadhyay_UiB.jpg

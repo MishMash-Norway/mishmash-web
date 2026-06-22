@@ -3,6 +3,7 @@ type: person
 slug: andre-alexandersen-hauge
 name: André Alexandersen Hauge
 title: André Alexandersen Hauge
+description: Head of academic department, Department of Computer Science and Communication, Ostfold University College
 position: Head of academic department
 department: Department of Computer Science and Communication
 institution: ostfold-university-college

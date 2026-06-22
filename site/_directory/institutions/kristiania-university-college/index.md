@@ -6,6 +6,7 @@ permalink: /institutions/kristiania-university-college/
 redirect_from:
 - /directory/institutions/kristiania-university-college/
 name: Kristiania University College
+description: Kristiania University College is an educational institution in Norway organized through the Ernst G. Mortensen foundation. As of 2022, Kristiania has...
 short_name: Kristiania
 image: /images/institutions/kristiania-university-college.svg
 people:

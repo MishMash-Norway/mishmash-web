@@ -5,6 +5,7 @@ permalink: /institutions/reimagine/
 redirect_from:
 - /directory/institutions/reimagine/
 name: Reimagine
+description: Reimagine
 short_name: Reimagine
 image: /images/institutions/reimagine.png
 people:

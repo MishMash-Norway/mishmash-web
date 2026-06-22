@@ -3,6 +3,7 @@ type: person
 slug: gro-skaland
 name: Gro Skåland
 title: Gro Skåland
+description: Associate professor, School of Health Sciences, Kristiania University College
 position: Associate professor
 department: School of Health Sciences
 institution: kristiania-university-college

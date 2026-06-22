@@ -3,6 +3,7 @@ type: person
 slug: kyrre-glette
 name: Kyrre Glette
 title: Kyrre Glette
+description: Professor, Department for Informatics, University of Oslo
 position: Professor
 department: Department for Informatics
 image: /assets/images/portraits/Kyrre_Glette_UiO.jpg

@@ -3,6 +3,7 @@ type: person
 slug: charles-martin
 name: Charles Martin
 title: Charles Martin
+description: Guest, Department for Informatics, University of Oslo
 position: Guest
 department: Department for Informatics
 institution: university-of-oslo

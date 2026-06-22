@@ -3,6 +3,7 @@ type: person
 slug: oystein-skaar
 name: Øystein Skaar
 title: Øystein Skaar
+description: Associate professor, Department of Education, University of Bergen
 position: Associate professor
 department: Department of Education
 image: /assets/images/portraits/Øystein_Skaar_UiB.jpg

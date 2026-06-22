@@ -3,6 +3,7 @@ type: person
 slug: susanne-o-saether
 name: Susanne Østby Sæther
 title: Susanne Østby Sæther
+description: Guest, Department of Media and Communication, University of Oslo
 position: Guest
 department: Department of Media and Communication
 institution: university-of-oslo

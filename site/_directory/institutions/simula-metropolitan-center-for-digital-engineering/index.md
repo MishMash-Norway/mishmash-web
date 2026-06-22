@@ -5,6 +5,7 @@ permalink: /institutions/simula-metropolitan-center-for-digital-engineering/
 redirect_from:
 - /directory/institutions/simula-metropolitan-center-for-digital-engineering/
 name: Simula Metropolitan Center for Digital Engineering
+description: Simula Research Laboratory is a Norwegian non-profit research organisation located in Oslo, Norway.
 short_name: Simula
 image: /images/institutions/simula-metropolitan-center-for-digital-engineering.png
 people:

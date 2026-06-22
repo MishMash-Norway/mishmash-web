@@ -3,6 +3,7 @@ type: person
 slug: oystein-stene
 name: Oystein Stene
 title: Oystein Stene
+description: Professor, The Academy of Theatre, Oslo National Academy of the Arts
 position: Professor
 department: The Academy of Theatre
 image: /assets/images/portraits/Oystein_Stene_KHiO.jpg

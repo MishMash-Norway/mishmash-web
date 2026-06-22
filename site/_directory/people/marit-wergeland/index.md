@@ -3,6 +3,7 @@ type: person
 slug: marit-wergeland
 name: Marit Wergeland-Yates
 title: Marit Wergeland-Yates
+description: University lecturer, Department of Visual Arts and Drama, University of Agder
 position: University lecturer
 department: Department of Visual Arts and Drama
 institution: university-of-agder

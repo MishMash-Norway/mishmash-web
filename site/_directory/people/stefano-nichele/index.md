@@ -3,6 +3,7 @@ type: person
 slug: stefano-nichele
 name: Stefano Nichele
 title: Stefano Nichele
+description: Professor, Department of Computer Science and Communication, Ostfold University College
 position: Professor
 department: Department of Computer Science and Communication
 institution: ostfold-university-college

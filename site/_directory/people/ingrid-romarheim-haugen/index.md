@@ -3,6 +3,7 @@ type: person
 slug: ingrid-romarheim-haugen
 name: Ingrid Romarheim Haugen
 title: Ingrid Romarheim Haugen
+description: Adviser, Musikk, National Library of Norway
 position: Adviser
 department: Musikk
 image: /assets/images/portraits/Ingrid_Romarheim_Haugen_NB.jpg

@@ -3,6 +3,7 @@ type: person
 slug: ole-fredrik-norbye
 name: Ole Fredrik Norbye
 title: Ole Fredrik Norbye
+description: Senior lecturer, NLA University College, NLA University College
 position: Senior lecturer
 department: NLA University College
 institution: nla-university-college

@@ -4,6 +4,7 @@ type: person
 slug: jens-knigge
 name: Jens Knigge
 title: Jens Knigge
+description: Professor, Department of Teacher Education, Norwegian University of Science and Technology
 position: Professor
 department: Department of Teacher Education
 image: /assets/images/portraits/Jens_Knigge_NTNU.jpg

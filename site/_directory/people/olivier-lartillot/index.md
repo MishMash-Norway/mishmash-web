@@ -3,6 +3,7 @@ type: person
 slug: olivier-lartillot
 name: Olivier Lartillot
 title: Olivier Lartillot
+description: Researcher, Department of Musicology, University of Oslo
 position: Researcher
 department: Department of Musicology
 image: /assets/images/portraits/Olivier_Lartillot_UiO.jpg

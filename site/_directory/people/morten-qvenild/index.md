@@ -3,6 +3,7 @@ type: person
 slug: morten-qvenild
 name: Morten Qvenild
 title: Morten Qvenild
+description: Pro-rector, Fagseksjon for improvisert musikk, jazz og folkemusikk, Norwegian Academy of Music
 position: Pro-rector
 department: Fagseksjon for improvisert musikk, jazz og folkemusikk
 image: /assets/images/portraits/Morten_Qvenild_NMH.jpg

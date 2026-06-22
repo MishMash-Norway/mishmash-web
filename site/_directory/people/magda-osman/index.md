@@ -4,6 +4,7 @@ type: person
 slug: magda-osman
 name: Magda Osman
 title: Magda Osman
+description: University of Cambridge
 position: null
 department: null
 institution: null

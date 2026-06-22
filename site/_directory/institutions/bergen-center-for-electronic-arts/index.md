@@ -6,6 +6,7 @@ permalink: /institutions/bergen-center-for-electronic-arts/
 redirect_from:
 - /directory/institutions/bergen-center-for-electronic-arts/
 name: Bergen Center for Electronic Arts
+description: Bergen senter for elektronisk kunst (BEK) er en ideell stiftelse og et tverrfaglig produksjonssenter for utvikling av kunst og ny teknologi. BEK utvikler, ...
 short_name: BEK
 image: /images/institutions/bergen-center-for-electronic-arts.png
 people: []

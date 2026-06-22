@@ -6,6 +6,7 @@ permalink: /institutions/nord-university/
 redirect_from:
 - /directory/institutions/nord-university/
 name: Nord University
+description: Nord University is a state university in Nordland and Trøndelag counties of Norway. As of 2024, it is the second-largest research and educational...
 short_name: NORD
 image: /images/institutions/nord-university.png
 people:

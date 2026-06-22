@@ -4,6 +4,7 @@ type: person
 slug: lise-amy-hansen
 name: Lise Amy Hansen
 title: Lise Amy Hansen
+description: Professor, Institute of Design, Oslo School of Architecture and Design
 position: Professor
 department: Institute of Design
 image: /assets/images/portraits/Lise_Amy_Hansen_AHO.png

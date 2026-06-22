@@ -3,6 +3,7 @@ type: person
 slug: eivind-rossaak
 name: Eivind Røssaak
 title: Eivind Røssaak
+description: Researcher, Visual media and conservation, National Library of Norway
 position: Researcher
 department: Visual media and conservation
 image: /assets/images/portraits/Eivind_Røssaak_NatLib.png

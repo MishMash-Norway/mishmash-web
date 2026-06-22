@@ -3,6 +3,7 @@ type: person
 slug: nina-fredrikke-grunfeld
 name: Nina Fredrikke Grünfeld
 title: Nina Fredrikke Grünfeld
+description: Professor, Faculty of Film, TV and Games, University of Inland Norway
 position: Professor
 department: Faculty of Film, TV and Games
 image: /assets/images/portraits/Nina_Fredrikke_Grünfeld_INN.png

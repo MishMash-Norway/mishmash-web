@@ -4,6 +4,7 @@ type: person
 slug: anders-tveit
 name: Anders Tveit
 title: Anders Tveit
+description: University lecturer, Fagseksjon for musikkteori, komposisjon og musikkteknologi, Norwegian Academy of Music
 position: University lecturer
 department: Fagseksjon for musikkteori, komposisjon og musikkteknologi
 institution: norwegian-academy-of-music

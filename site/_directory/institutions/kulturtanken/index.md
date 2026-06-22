@@ -6,6 +6,7 @@ permalink: /institutions/kulturtanken/
 redirect_from:
 - /directory/institutions/kulturtanken/
 name: Kulturtanken
+description: Kulturtanken – Den kulturelle skolesekken Norge, tidligere Rikskonsertene, er et norsk forvaltningsorgan med hovedkontor i Nydalen i Oslo. Det ble...
 short_name: Kulturtanken
 image: /images/institutions/kulturtanken.png
 people:

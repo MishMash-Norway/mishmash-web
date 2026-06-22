@@ -3,6 +3,7 @@ type: person
 slug: vincenzo-madaghiele
 name: Vincenzo Madaghiele
 title: Vincenzo Madaghiele
+description: Research fellow, Department of Musicology, University of Oslo
 position: Research fellow
 department: Department of Musicology
 institution: university-of-oslo

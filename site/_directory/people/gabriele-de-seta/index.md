@@ -3,6 +3,7 @@ type: person
 slug: gabriele-de-seta
 name: Gabriele de Seta
 title: Gabriele de Seta
+description: Researcher, Department of Linguistic, Literary and Aesthetic studies, University of Bergen
 position: Researcher
 department: Department of Linguistic, Literary and Aesthetic studies
 image: /assets/images/portraits/Gabriele_de_Seta_UiB.jpg

@@ -3,6 +3,7 @@ type: person
 slug: anna-maria-christodoulou
 name: Anna-Maria Christodoulou
 title: Anna-Maria Christodoulou
+description: Research fellow, Department of Musicology, University of Oslo
 position: Research fellow
 department: Department of Musicology
 institution: university-of-oslo

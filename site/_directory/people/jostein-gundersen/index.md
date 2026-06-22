@@ -3,6 +3,7 @@ type: person
 slug: jostein-gundersen
 name: Jostein Gundersen
 title: Jostein Gundersen
+description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
 position: Professor
 department: Faculty of Fine Art, Music and Design
 institution: university-of-bergen

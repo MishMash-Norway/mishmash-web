@@ -3,6 +3,7 @@ type: person
 slug: viggo-tellefsen-wivestad
 name: Viggo Tellefsen Wivestad
 title: Viggo Tellefsen Wivestad
+description: Researcher, Software Engineering, Safety and Security, SINTEF Digital
 position: Researcher
 department: Software Engineering, Safety and Security
 institution: sintef-digital

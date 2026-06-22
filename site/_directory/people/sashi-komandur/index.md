@@ -3,6 +3,7 @@ type: person
 slug: sashi-komandur
 name: Sashidharan Komandur
 title: Sashidharan Komandur
+description: Associate professor, Faculty of Film, TV and Games, University of Inland Norway
 position: Associate professor
 department: Faculty of Film, TV and Games
 institution: university-of-inland-norway

@@ -6,6 +6,7 @@ permalink: /institutions/ultima-festival/
 redirect_from:
 - /directory/institutions/ultima-festival/
 name: Ultima Festival
+description: ULTIMA Oslo Contemporary Music Festival is a Norwegian music festival for contemporary music.
 short_name: Ultima
 image: /images/institutions/ultima-festival.svg
 people:

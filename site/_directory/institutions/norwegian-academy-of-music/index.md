@@ -6,6 +6,7 @@ permalink: /institutions/norwegian-academy-of-music/
 redirect_from:
 - /directory/institutions/norwegian-academy-of-music/
 name: Norwegian Academy of Music
+description: The Norwegian Academy of Music is a university-level music conservatory located in Oslo, Norway, in the neighbourhood of Majorstuen, Frogner. It is the...
 short_name: NMH
 image: /images/institutions/norwegian-academy-of-music.svg
 people:

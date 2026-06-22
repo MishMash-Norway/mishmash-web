@@ -3,6 +3,7 @@ type: person
 slug: kjetil-nordby
 name: Kjetil Nordby
 title: Kjetil Nordby
+description: Associate professor, Institute of Design, Oslo School of Architecture and Design
 position: Associate professor
 department: Institute of Design
 image: /assets/images/portraits/Kjetil_Nordby_AHO.jpg

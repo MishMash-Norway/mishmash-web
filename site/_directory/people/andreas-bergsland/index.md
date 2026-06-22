@@ -3,6 +3,7 @@ type: person
 slug: andreas-bergsland
 name: Andreas Bergsland
 title: Andreas Bergsland
+description: Professor, Department of Music, Norwegian University of Science and Technology
 position: Professor
 department: Department of Music
 image: /assets/images/portraits/Andreas_Bergsland_NTNU.jpg

@@ -4,6 +4,7 @@ type: person
 slug: halldor-ulfarsson
 name: Halldor Ulfarsson
 title: Halldor Ulfarsson
+description: University of Iceland
 position: null
 department: null
 institution: null

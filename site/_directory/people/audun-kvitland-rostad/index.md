@@ -4,6 +4,7 @@ type: person
 slug: audun-kvitland-rostad
 name: Audun Kvitland Rostad
 title: Audun Kvitland Rostad
+description: Super Ponni
 position: null
 department: null
 institution: null

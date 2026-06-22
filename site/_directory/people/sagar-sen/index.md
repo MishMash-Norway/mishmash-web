@@ -3,6 +3,7 @@ type: person
 slug: sagar-sen
 name: Sagar Sen
 title: Sagar Sen
+description: Researcher, Sustainable Communication Technologies, SINTEF Digital
 position: Researcher
 department: Sustainable Communication Technologies
 institution: sintef-digital

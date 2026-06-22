@@ -6,6 +6,27 @@
     <meta charset="UTF-8">
 
 {% seo %}
+{% if page.translation_url %}
+  {% assign _hreflang_other = page.translation_url %}
+  {% assign _hreflang_other_exists = true %}
+{% elsif lang == 'nb' %}
+  {% assign _hreflang_other = page.url | remove_first: '/no' %}
+  {% assign _hreflang_other_exists = true %}
+{% else %}
+  {% assign _hreflang_other = '/no' | append: page.url %}
+  {% assign _hreflang_other_exists = false %}
+  {% for _p in site.pages %}{% if _p.url == _hreflang_other %}{% assign _hreflang_other_exists = true %}{% break %}{% endif %}{% endfor %}
+  {% unless _hreflang_other_exists %}{% for _d in site.documents %}{% if _d.url == _hreflang_other %}{% assign _hreflang_other_exists = true %}{% break %}{% endif %}{% endfor %}{% endunless %}
+{% endif %}
+{% if lang == 'nb' %}
+    <link rel="alternate" hreflang="nb" href="{{ site.url }}{{ page.url }}">
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ _hreflang_other }}">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ _hreflang_other }}">
+{% else %}
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}">
+    {% if _hreflang_other_exists %}<link rel="alternate" hreflang="nb" href="{{ site.url }}{{ _hreflang_other }}">{% endif %}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
+{% endif %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:wght@400;700&display=swap">

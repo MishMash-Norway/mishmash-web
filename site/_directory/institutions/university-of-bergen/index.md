@@ -6,6 +6,7 @@ permalink: /institutions/university-of-bergen/
 redirect_from:
 - /directory/institutions/university-of-bergen/
 name: University of Bergen
+description: The University of Bergen is a public research university in Bergen, Norway. As of 2021, the university had over 4,000 employees and 19,000 students. It...
 short_name: UiB
 image: /images/institutions/university-of-bergen.png
 people:

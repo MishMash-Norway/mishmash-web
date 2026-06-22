@@ -3,6 +3,7 @@ type: person
 slug: terje-colbjornsen
 name: Terje Colbjørnsen
 title: Terje Colbjørnsen
+description: Associate professor, Department of Communication and Culture, BI Norwegian Business School
 position: Associate professor
 department: Department of Communication and Culture
 institution: bi-norwegian-business-school

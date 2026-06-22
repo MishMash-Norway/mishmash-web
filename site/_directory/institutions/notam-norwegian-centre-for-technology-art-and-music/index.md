@@ -6,6 +6,7 @@ permalink: /institutions/notam-norwegian-centre-for-technology-art-and-music/
 redirect_from:
 - /directory/institutions/notam-norwegian-centre-for-technology-art-and-music/
 name: Notam - Norwegian Centre for Technology, Art and Music
+description: Notam - Norwegian Centre for Technology, Art and Music
 short_name: NOTAM
 image: /images/institutions/notam-norwegian-centre-for-technology-art-and-music.png
 people:

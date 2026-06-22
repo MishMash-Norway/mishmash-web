@@ -4,6 +4,7 @@ type: person
 slug: robert-wechsler
 name: Robert Wechsler
 title: Robert Wechsler
+description: MotionComposer GmbH
 position: null
 department: null
 institution: null

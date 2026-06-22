@@ -3,6 +3,7 @@ type: person
 slug: myrthe-tilleman
 name: Myrthe Tilleman
 title: Myrthe Tilleman
+description: Research fellow, Department for Informatics, University of Oslo
 position: Research fellow
 department: Department for Informatics
 institution: university-of-oslo

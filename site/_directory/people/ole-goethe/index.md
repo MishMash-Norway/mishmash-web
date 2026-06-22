@@ -3,6 +3,7 @@ type: person
 slug: ole-goethe
 name: Ole Goethe
 title: Ole Goethe
+description: Senior lecturer, Faculty of Social Sciences, Nord University
 position: Senior lecturer
 department: Faculty of Social Sciences
 image: /assets/images/portraits/Ole_Goethe_NORD.jpg

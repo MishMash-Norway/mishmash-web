@@ -26,6 +26,26 @@ layout: default
 {% assign fallback_person_image = '/assets/images/bubbles/mishmash_bubbles_notext.png' %}
 {% assign person_image = page.image | default: fallback_person_image %}
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ page.name | jsonify }},
+  "url": {{ site.url | append: page.url | jsonify }}{% if page.image %},
+  "image": {{ site.url | append: page.image | jsonify }}{% elsif page.image == nil and primary_institution_doc %}{% endif %}{% if page.position %},
+  "jobTitle": {{ page.position | jsonify }}{% endif %}{% if primary_institution_doc %},
+  "affiliation": {
+    "@type": "Organization",
+    "name": {{ primary_institution_doc.name | jsonify }},
+    "url": {{ site.url | append: primary_institution_doc.url | jsonify }}
+  }{% elsif primary_institution_slug != blank %},
+  "affiliation": {
+    "@type": "Organization",
+    "name": {{ primary_institution_slug | jsonify }}
+  }{% endif %}{% if page.description %},
+  "description": {{ page.description | jsonify }}{% endif %}
+}
+</script>
 <div class="page person-page">
   <div class="container">
     <section class="person-profile-card">

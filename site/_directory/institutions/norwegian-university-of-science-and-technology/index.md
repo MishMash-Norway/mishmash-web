@@ -6,6 +6,7 @@ permalink: /institutions/norwegian-university-of-science-and-technology/
 redirect_from:
 - /directory/institutions/norwegian-university-of-science-and-technology/
 name: Norwegian University of Science and Technology
+description: The Norwegian University of Science and Technology is a public research university in Norway and the largest in terms of enrollment. The university's...
 short_name: NTNU
 image: /images/institutions/norwegian-university-of-science-and-technology.png
 people:

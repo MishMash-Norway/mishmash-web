@@ -4,6 +4,7 @@ type: person
 slug: heloisa-amaral
 name: Heloisa Amaral
 title: Heloisa Amaral
+description: Ultima Festival
 position: null
 department: null
 institution: null

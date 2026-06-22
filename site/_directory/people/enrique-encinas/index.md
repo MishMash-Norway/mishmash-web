@@ -3,6 +3,7 @@ type: person
 slug: enrique-encinas
 name: Enrique Encinas
 title: Enrique Encinas
+description: Associate professor, Institute of Design, Oslo School of Architecture and Design
 position: Associate professor
 department: Institute of Design
 institution: oslo-school-of-architecture-and-design

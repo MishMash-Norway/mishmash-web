@@ -3,6 +3,7 @@ type: person
 slug: sigbjorn-galaen
 name: Sigbjørn Galåen
 title: Sigbjørn Galåen
+description: Associate professor, School of Arts, Design, and Media, Kristiania University College
 position: Associate professor
 department: School of Arts, Design, and Media
 image: /assets/images/portraits/Sigbjørn_Galåen_Kristiania.jpg

@@ -3,6 +3,7 @@ type: person
 slug: ingrid-chieh-yu
 name: Ingrid Chieh Yu
 title: Ingrid Chieh Yu
+description: Professor, Department for Informatics, University of Oslo
 position: Professor
 department: Department for Informatics
 institution: university-of-oslo

@@ -5,6 +5,7 @@ permalink: /institutions/university-of-melbourne/
 redirect_from:
 - /directory/institutions/university-of-melbourne/
 name: University of Melbourne
+description: The University of Melbourne is a public research university located in Melbourne, Australia. Founded in 1853, it is Australia's second oldest university...
 short_name: UniMelb
 people: []
 projects: []

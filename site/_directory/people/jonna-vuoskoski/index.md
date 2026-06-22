@@ -3,6 +3,7 @@ type: person
 slug: jonna-vuoskoski
 name: Jonna Katariina Vuoskoski
 title: Jonna Katariina Vuoskoski
+description: Professor, Department of Musicology, University of Oslo
 position: Professor
 department: Department of Musicology
 image: /assets/images/portraits/Jonna_Vuoskoski_UiO.jpg

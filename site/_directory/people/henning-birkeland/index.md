@@ -3,6 +3,7 @@ type: person
 slug: henning-birkeland
 name: Henning Birkeland
 title: Henning Birkeland
+description: University college lecturer, School of Arts, Design, and Media, Kristiania University College
 position: University college lecturer
 department: School of Arts, Design, and Media
 image: /assets/images/portraits/Henning_Birkeland_KriUni.png

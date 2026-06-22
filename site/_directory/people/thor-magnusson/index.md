@@ -3,6 +3,7 @@ type: person
 slug: thor-magnusson
 name: Thor Magnusson
 title: Thor Magnusson
+description: Research Professor, University of Iceland
 position: Research Professor
 department: null
 institution: university-of-iceland

@@ -3,6 +3,7 @@ type: person
 slug: ida-jahr
 name: Ida Jahr
 title: Ida Jahr
+description: Associate professor, Department of English, University of Inland Norway
 position: Associate professor
 department: Department of English
 image: /assets/images/portraits/ida_jahr_INN.jpg

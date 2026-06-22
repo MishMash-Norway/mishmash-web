@@ -3,6 +3,7 @@ type: person
 slug: bjorn-tallak-bakken
 name: Bjørn Tallak Bakken
 title: Bjørn Tallak Bakken
+description: Associate professor, Nord University Business School, Nord University
 position: Associate professor
 department: Nord University Business School
 institution: nord-university

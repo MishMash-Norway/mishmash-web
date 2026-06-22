@@ -4,6 +4,7 @@ type: person
 slug: tor-martin-norvik
 name: Tor Martin Norvik
 title: Tor Martin Norvik
+description: Super Ponni
 position: null
 department: null
 institution: null

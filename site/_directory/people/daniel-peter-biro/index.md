@@ -3,6 +3,7 @@ type: person
 slug: daniel-peter-biro
 name: Daniel Peter Biro
 title: Daniel Peter Biro
+description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
 position: Professor
 department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Daniel_Peter_Biro_UiB.jpg

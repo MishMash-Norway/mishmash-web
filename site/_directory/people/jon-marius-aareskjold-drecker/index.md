@@ -3,6 +3,7 @@ type: person
 slug: jon-marius-aareskjold-drecker
 name: Jon Marius Aareskjold-Drecker
 title: Jon Marius Aareskjold-Drecker
+description: Senior lecturer, Department of Musicology, University of Oslo
 position: Senior lecturer
 department: Department of Musicology
 image: /assets/images/portraits/Jon_Marius_Aareskjold-Drecker_UiT.jpg

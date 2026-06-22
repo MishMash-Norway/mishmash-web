@@ -3,6 +3,7 @@ type: person
 slug: carsten-griwodz
 name: Carsten Griwodz
 title: Carsten Griwodz
+description: Professor, Department for Informatics, University of Oslo
 position: Professor
 department: Department for Informatics
 image: /assets/images/portraits/Carsten_Griwodz_UiO.jpg

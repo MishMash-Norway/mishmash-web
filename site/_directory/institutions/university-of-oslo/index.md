@@ -6,6 +6,7 @@ permalink: /institutions/university-of-oslo/
 redirect_from:
 - /directory/institutions/university-of-oslo/
 name: University of Oslo
+description: The University of Oslo is a public research university located in Oslo, Norway. It is the oldest university in Norway. Originally named the Royal...
 short_name: UiO
 image: /images/institutions/university-of-oslo.svg
 people:

@@ -6,6 +6,7 @@ permalink: /institutions/norsus-norwegian-institute-for-sustainability-research/
 redirect_from:
 - /directory/institutions/norsus-norwegian-institute-for-sustainability-research/
 name: NORSUS - Norwegian Institute for Sustainability Research
+description: NORSUS - Norwegian Institute for Sustainability Research
 short_name: NORSUS
 image: /images/institutions/norsus-norwegian-institute-for-sustainability-research.png
 people:

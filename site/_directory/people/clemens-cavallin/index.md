@@ -3,6 +3,7 @@ type: person
 slug: clemens-cavallin
 name: Clemens Cavallin
 title: Clemens Cavallin
+description: Professor, Department of Teacher Education, NLA University College
 position: Professor
 department: Department of Teacher Education
 image: /assets/images/portraits/Clemens_Cavallin_NlaUni.png

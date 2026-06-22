@@ -6,6 +6,7 @@ permalink: /institutions/sintef-digital/
 redirect_from:
 - /directory/institutions/sintef-digital/
 name: SINTEF Digital
+description: SINTEF, headquartered in Trondheim, Norway, is an independent research organization founded in 1950 that conducts contract research and development...
 short_name: SINTEF
 image: /images/institutions/sintef-digital.svg
 people:

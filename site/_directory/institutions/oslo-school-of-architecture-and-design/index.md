@@ -6,6 +6,7 @@ permalink: /institutions/oslo-school-of-architecture-and-design/
 redirect_from:
 - /directory/institutions/oslo-school-of-architecture-and-design/
 name: Oslo School of Architecture and Design
+description: The Oslo School of Architecture and Design is an autonomous institution within the Norwegian university system. The School offers education in the fields...
 short_name: AHO
 image: /images/institutions/oslo-school-of-architecture-and-design.png
 people:

@@ -3,6 +3,7 @@ type: person
 slug: erik-johannes-husom
 name: Erik Johannes Husom
 title: Erik Johannes Husom
+description: Researcher, Sustainable Communication Technologies, SINTEF Digital
 position: Researcher
 department: Sustainable Communication Technologies
 image: /assets/images/portraits/Erik_Johannes_Husom_SinDig.png

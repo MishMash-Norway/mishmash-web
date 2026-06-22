@@ -6,6 +6,7 @@ permalink: /institutions/barratt-due-institute-of-music/
 redirect_from:
 - /directory/institutions/barratt-due-institute-of-music/
 name: Barratt Due Institute of Music
+description: The Barratt Due Institute of Music in Oslo, Norway, is a music education institute founded in 1927 by pianist Mary Barratt Due and violinist Henrik Adam...
 short_name: Barratt Due
 people:
 - victoria-johnson

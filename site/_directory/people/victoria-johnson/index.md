@@ -3,6 +3,7 @@ type: person
 slug: victoria-johnson
 name: Victoria Johnson
 title: Victoria Johnson
+description: Research fellow, Fagseksjon for strykere, Norwegian Academy of Music
 position: Research fellow
 department: Fagseksjon for strykere
 image: /assets/images/portraits/Victoria_Johnson_NMH.jpg

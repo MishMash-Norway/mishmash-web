@@ -3,6 +3,7 @@ type: person
 slug: synne-tollerud-bull
 name: Synne Tollerud Bull
 title: Synne Tollerud Bull
+description: Professor, School of Arts, Design, and Media, Kristiania University College
 position: Professor
 department: School of Arts, Design, and Media
 image: /assets/images/portraits/Synne_Tollerud_Bull_Kristiania.jpg

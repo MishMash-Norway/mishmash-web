@@ -3,6 +3,7 @@ type: person
 slug: daniel-nordgard
 name: Daniel Nordgård
 title: Daniel Nordgård
+description: Professor, Department of Popular Music, University of Agder
 position: Professor
 department: Department of Popular Music
 image: /assets/images/portraits/Daniel_Nordgaard_UiA.jpg

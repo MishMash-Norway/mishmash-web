@@ -3,6 +3,7 @@ type: person
 slug: christian-schussler
 name: Christian Schüssler
 title: Christian Schüssler
+description: Board Member, Reimagine
 position: Board Member
 institution: reimagine
 institutions:
