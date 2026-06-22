@@ -10,10 +10,8 @@
 }
 
 .site-footer-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+  display: block;
+  text-align: center;
   list-style: none;
   cursor: default;
 }
@@ -25,7 +23,6 @@
 .site-footer-credits {
   color: #55606a;
   font-size: 0.85rem;
-  flex: 1 1 auto;
 }
 
 .site-footer-credits a {
@@ -42,11 +39,11 @@
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  flex-shrink: 0;
   color: #55606a;
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   cursor: pointer;
   user-select: none;
+  white-space: nowrap;
 }
 
 .site-footer-toggle:hover {
@@ -1212,7 +1209,6 @@ a:focus-visible .icon {
 .page-about-list {
   margin: 0;
   padding-top: 0.75rem;
-  border-top: 1px solid #e6e6e6;
 }
 
 .page-about-item {
