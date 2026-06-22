@@ -4,14 +4,14 @@ type: person
 slug: christian-blom
 name: Christian Blom
 title: Christian Blom
-position: Board Member
+position: Director
 institution: notam-norwegian-centre-for-technology-art-and-music
 institutions:
 - notam-norwegian-centre-for-technology-art-and-music
 projects:
 - musical-doppelgangers
 roles:
-- Member
+- Board member
 urls:
   personal_website: ''
   institutional_website: ''
