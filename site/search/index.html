@@ -33,7 +33,7 @@ title: Search
       <span class="filter-label">WP:</span>
       <div id="wp-category-chips" class="chip-list" role="group" aria-label="Filter by work package"></div>
     </div>
-    <div class="filter-group">
+    <div id="category-filter-group" class="filter-group" hidden>
       <span class="filter-label">Category:</span>
       <div id="category-chips" class="chip-list" role="group" aria-label="Filter by category"></div>
     </div>
@@ -72,7 +72,8 @@ title: Search
   const wpCategoryChips      = document.getElementById('wp-category-chips');
   const categoryChips        = document.getElementById('category-chips');
   const tagChips             = document.getElementById('tag-chips');
-  const tagFilterGroup       = document.getElementById('tag-filter-group');
+  const tagFilterGroup        = document.getElementById('tag-filter-group');
+  const categoryFilterGroup  = document.getElementById('category-filter-group');
 
   // ── Helpers ────────────────────────────────────────────────────────────────
   function normalize(str) {
@@ -109,11 +110,11 @@ title: Search
   }
 
   // ── Chip factory ───────────────────────────────────────────────────────────
-  function makeChip(label, activeSet, container, onToggle) {
+  function makeChip(label, activeSet, container, onToggle, displayText) {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'filter-chip';
-    btn.textContent = label;
+    btn.textContent = displayText || label;
     btn.dataset.value = label;
     btn.setAttribute('aria-pressed', 'false');
     btn.addEventListener('click', function () {
@@ -147,6 +148,33 @@ title: Search
     }
   }
 
+  function syncCategoryFilterVisibility() {
+    const eventSelected = activeTypes.has('event');
+    categoryFilterGroup.hidden = !(eventSelected && categoryChips.children.length > 0);
+    if (!eventSelected && activeCategories.size) {
+      const cleared = [];
+      activeCategories.forEach(function (c) {
+        if (!isWpCategory(c)) cleared.push(c);
+      });
+      cleared.forEach(function (c) { activeCategories.delete(c); });
+      Array.from(categoryChips.querySelectorAll('.filter-chip.active')).forEach(function (chip) {
+        chip.classList.remove('active');
+        chip.setAttribute('aria-pressed', 'false');
+      });
+    }
+  }
+
+  // ── Role groups ────────────────────────────────────────────────────────────
+  const ROLE_GROUPS = {
+    'Management':   ['Director', 'Deputy director', 'Administrative coordinator', 'Research advisor'],
+    'Board member': ['Board Leader', 'Board member']
+  };
+
+  // Expand a chip label to the actual role values it covers
+  function expandRole(label) {
+    return ROLE_GROUPS[label] || [label];
+  }
+
   // ── Build filter UI ────────────────────────────────────────────────────────
   function buildFilters(items) {
     const types      = new Set();
@@ -160,24 +188,44 @@ title: Search
       (item.roles      || []).forEach(function (r) { roles.add(r); });
       (item.categories || []).forEach(function (c) {
         if (isWpCategory(c)) wpCats.add(c.toUpperCase());
-        else categories.add(c);
+        else if (c !== 'Administration') categories.add(c);
       });
       (item.tags || []).forEach(function (t) { tags.add(t); });
     });
 
-    // Type chips — custom toggle so role row syncs
+    // Type chips — display title-case; custom toggle so role/category rows sync
     types.forEach(function (v) {
       makeChip(v, activeTypes, typeChips, function () {
         syncRoleFilterVisibility();
+        syncCategoryFilterVisibility();
         runSearch();
-      });
+      }, typeLabel(v));
     });
 
-    // Role chips (hidden until person type is selected)
-    const roleOrder = ['Director', 'Deputy director', 'Administrative coordinator', 'Research advisor',
-                       'Board Leader', 'Board member', 'Council member', 'Work package leader', 'Member'];
-    [...roles].sort(function (a, b) {
-      const ai = roleOrder.indexOf(a), bi = roleOrder.indexOf(b);
+    // Role chips — collapse grouped roles into single chips
+    const chipOrder = ['Management', 'Board member', 'Council member', 'Work package leader', 'Member'];
+
+    // Build a flat set of all role values that belong to any group
+    const groupedRoleValues = new Set();
+    Object.values(ROLE_GROUPS).forEach(function (members) {
+      members.forEach(function (r) { groupedRoleValues.add(normalize(r)); });
+    });
+
+    const chipLabels = new Set();
+    // Add a group chip if any of its members exist in the data
+    Object.keys(ROLE_GROUPS).forEach(function (groupLabel) {
+      const members = new Set(ROLE_GROUPS[groupLabel].map(normalize));
+      if ([...roles].some(function (r) { return members.has(normalize(r)); })) {
+        chipLabels.add(groupLabel);
+      }
+    });
+    // Add remaining ungrouped roles
+    roles.forEach(function (r) {
+      if (!groupedRoleValues.has(normalize(r))) chipLabels.add(r);
+    });
+
+    [...chipLabels].sort(function (a, b) {
+      const ai = chipOrder.indexOf(a), bi = chipOrder.indexOf(b);
       if (ai < 0 && bi < 0) return a.localeCompare(b);
       return (ai < 0 ? 999 : ai) - (bi < 0 ? 999 : bi);
     }).forEach(function (v) { makeChip(v, activeRoles, roleChips, runSearch); });
@@ -229,9 +277,12 @@ title: Search
         const itemTags = (item.tags || []).map(normalize);
         if (!normTags.some(function (t) { return itemTags.includes(t); })) return false;
       }
-      if (normRoles.length) {
+      if (activeRoles.size) {
         const itemRoles = (item.roles || []).map(normalize);
-        if (!normRoles.some(function (r) { return itemRoles.includes(r); })) return false;
+        const matches = [...activeRoles].some(function (label) {
+          return expandRole(label).map(normalize).some(function (r) { return itemRoles.includes(r); });
+        });
+        if (!matches) return false;
       }
       if (query) {
         const haystack = normalize([item.title, item.description, item.content].join(' '));
@@ -308,6 +359,7 @@ title: Search
     activeTypes.add(type);
     activateChipIn(typeChips, type);
     syncRoleFilterVisibility();
+    syncCategoryFilterVisibility();
   }
 
   function activateTagChip(tag) {
