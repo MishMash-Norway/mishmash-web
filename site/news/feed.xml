@@ -4,10 +4,10 @@ layout: none
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>{{ site.title }} - Events</title>
-    <link>{{ site.url }}/events/</link>
-    <description>Latest events from {{ site.title }}</description>
-    {% for item in site.events %}
+    <title>{{ site.title }} - News</title>
+    <link>{{ site.url }}/news/</link>
+    <description>Latest news from {{ site.title }}</description>
+    {% for item in site.news %}
     <item>
       <title>{{ item.title }}</title>
       <link>{{ site.url }}{{ item.url }}</link>

@@ -1,0 +1,25 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title }} - Partner News</title>
+    <link>{{ site.url }}/news/partner-news/</link>
+    <atom:link href="{{ site.url }}/news/partner-news/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Partner news from {{ site.title }}</description>
+    {% assign sorted = site.data.partner_news | sort: "date" | reverse %}
+    {% for item in sorted %}
+    {% if item.lang == 'en' or item.lang == nil %}
+    <item>
+      <title>{{ item.title | xml_escape }}</title>
+      <link>{{ item.url }}</link>
+      <guid isPermaLink="true">{{ item.url }}</guid>
+      <pubDate>{{ item.date | date: "%a, %d %b %Y 00:00:00 +0000" }}</pubDate>
+      {% if item.description %}<description>{{ item.description | xml_escape }}</description>{% endif %}
+      {% if item.partner %}<author>{{ item.partner | xml_escape }}</author>{% endif %}
+    </item>
+    {% endif %}
+    {% endfor %}
+  </channel>
+</rss>
