@@ -19,7 +19,7 @@ We have invited artists, journalists, and researchers to a panel discussion:
 - Trine Eilertsen, editor at Aftenposten
 - Benedicte Wallace, AI researcher who recently carried out a project focused on AI and dance
 - Anders Hasmo, dramaturg at Det Norske Teatret
-- Irina Eidsvold-Tøien, professor of law at BI and actor
+- Irina Eidsvold, professor of law at BI and actor
 
 The panel is moderated by Jon Marius Aareskjold-Drecker, Associate Professor in Music Technology at UiT - The Arctic University of Norway, and Associate Professor in Music Production at the University of Oslo.
 

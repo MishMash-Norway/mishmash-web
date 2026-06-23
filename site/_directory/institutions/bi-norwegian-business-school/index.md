@@ -10,7 +10,7 @@ description: BI Norwegian Business School is a Norwegian private business school
 short_name: BI
 image: /images/institutions/bi-norwegian-business-school.svg
 people:
-- irina-eidsvold-toien
+- irina-eidsvold
 - lyuba-boncheva
 - terje-colbjornsen
 projects:

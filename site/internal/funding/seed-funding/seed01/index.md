@@ -70,7 +70,7 @@ Please keep in mind that there will be new opportunities coming up at regular in
 |[KI i kunstnerisk utdanning og praksis.](/projects/ki-i-kunstnerisk-utdanning-og-praksis/) |Tiril Schrøder |Kunsthøgskolen i Oslo |30000 |
 |Web of the Mind |Dániel Péter Biró |UiB |0 |
 |[Strategic Storyteller](/projects/strategic-storyteller/) |Terje Gaustad |Kristiania |25000 |
-|[Copyright and Personality Rights in the AI Era](/projects/copyright-and-personality-rights-ai-era/) |Irina Eidsvold -Tøien |BI |50000 |
+|[Copyright and Personality Rights in the AI Era](/projects/copyright-and-personality-rights-ai-era/) |Irina Eidsvold |BI |50000 |
 |[Musical Doppelgängers: Self-Playing Pianos, AI, and the Uncanny Self](/projects/musical-doppelgangers/) |Peter Edwards |UiO |50000 |
 |[Environmental sustainability in MishMash: context and knowledge-base](/projects/environmental-sustainability-mishmash/) |Lina Plataniti |NORSUS |50000 |
 |AI as the Fifth Team Member |Jannicke Johansen |Kristiania |0 |

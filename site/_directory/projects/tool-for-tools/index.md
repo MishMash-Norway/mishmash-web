@@ -20,7 +20,7 @@ tags:
 slug: tool-for-tools
 name: Tool for tools
 people:
-- irina-eidsvold-toien
+- irina-eidsvold
 - kjetil-nordby
 - troels-linde
 - zacharias-andreadakis
@@ -42,7 +42,7 @@ Cross-work-package initiative (WP1–WP7)
 
 ## People
 - Project leader: [Troels Linde](/people/troels-linde/)
-- Participants: [Irina Eidsvold-Toien](/people/irina-eidsvold-toien/), [Kjetil Nordby](/people/kjetil-nordby/), [Zacharias Andreadakis](/people/zacharias-andreadakis/)
+- Participants: [Irina Eidsvold](/people/irina-eidsvold/), [Kjetil Nordby](/people/kjetil-nordby/), [Zacharias Andreadakis](/people/zacharias-andreadakis/)
 
 ## Institutions
 - [University of Inland Norway](/institutions/university-of-inland-norway/)

@@ -1,8 +1,8 @@
 ---
 type: person
-slug: irina-eidsvold-toien
-name: Irina Eidsvold-Tøien
-title: Irina Eidsvold-Tøien
+slug: irina-eidsvold
+name: Irina Eidsvold
+title: Irina Eidsvold
 position: Associate professor
 department: Department of Law and Governance
 image: /assets/images/portraits/Irina_Eidsvold_Toien_BI.jpg
@@ -37,10 +37,10 @@ selected_works:
   source: Book chapter
   group_type: Book chapter
   contributors:
-  - name: Irina  Eidsvold-Tøien
+  - name: Irina Eidsvold
     role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
+    slug: irina-eidsvold
+    url: /people/irina-eidsvold/
 - title: 'Pengestrømmer og verdikjeder i musikkfeltet: Aktører, tjenester, betalinger
     og utviklingstrekk'
   year: '2025'
@@ -53,10 +53,10 @@ selected_works:
     role: Creator
   - name: Audun Molde
     role: Creator
-  - name: Irina  Eidsvold-Tøien
+  - name: Irina Eidsvold
     role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
+    slug: irina-eidsvold
+    url: /people/irina-eidsvold/
   - name: Terje Gaustad
     role: Creator
     slug: terje-gaustad
@@ -69,20 +69,20 @@ selected_works:
   source: Book chapter
   group_type: Book chapter
   contributors:
-  - name: Irina  Eidsvold-Tøien
+  - name: Irina Eidsvold
     role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
+    slug: irina-eidsvold
+    url: /people/irina-eidsvold/
 - title: Copyright for Performers – An Obligation under International Law
   year: '2023'
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1093/jiplp/jpad073
   contributors:
-  - name: Irina Eidsvold-Tøien
+  - name: Irina Eidsvold
     role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
+    slug: irina-eidsvold
+    url: /people/irina-eidsvold/
   - name: Are Stenvik
     role: Creator
 - title: Opphavsrett, håndheving og mangfold
@@ -90,10 +90,10 @@ selected_works:
   source: Journal article
   group_type: Journal article
   contributors:
-  - name: Irina Eidsvold-Tøien
+  - name: Irina Eidsvold
     role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
+    slug: irina-eidsvold
+    url: /people/irina-eidsvold/
   - name: Terje Gaustad
     role: Creator
     slug: terje-gaustad
@@ -103,53 +103,55 @@ selected_works:
   source: Book chapter
   group_type: Book chapter
   contributors:
-  - name: Irina Eidsvold-Tøien
+  - name: Irina Eidsvold
     role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
+    slug: irina-eidsvold
+    url: /people/irina-eidsvold/
 - title: Opphavsrett for en bærekraftig næring
   year: '2021'
   source: Book chapter
   group_type: Book chapter
   contributors:
-  - name: Irina Eidsvold-Tøien
+  - name: Irina Eidsvold
     role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
+    slug: irina-eidsvold
+    url: /people/irina-eidsvold/
 - title: Sikring av en bærekraftig kulturøkonomi, nødvendiggjør innføring av DSM-direktivet
   year: '2020'
   source: Journal article
   group_type: Journal article
   contributors:
-  - name: Irina Eidsvold-Tøien
+  - name: Irina Eidsvold
     role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
+    slug: irina-eidsvold
+    url: /people/irina-eidsvold/
 - title: Kunstnerisk frihet - en menneskerett
   year: '2020'
   source: Book chapter
   group_type: Book chapter
   contributors:
-  - name: Irina  Eidsvold-Tøien
+  - name: Irina Eidsvold
     role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
+    slug: irina-eidsvold
+    url: /people/irina-eidsvold/
 - title: Sikring av en bærekraftig kulturøkonomi nødvendiggjør innføring av DSM-direktivet
   year: '2020'
   source: Journal article
   group_type: Journal article
   contributors:
-  - name: Irina  Eidsvold-Tøien
+  - name: Irina Eidsvold
     role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
+    slug: irina-eidsvold
+    url: /people/irina-eidsvold/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null
 description: Associate professor, Department of Law and Governance, BI Norwegian Business
   School
-permalink: /people/irina-eidsvold-toien/
+permalink: /people/irina-eidsvold/
 redirect_from:
+- /people/irina-eidsvold-toien/
 - /directory/people/irina-eidsvold-toien/
+- /directory/people/irina-eidsvold/
 ---
 

@@ -43,10 +43,10 @@ selected_works:
     role: Creator
   - name: Audun Molde
     role: Creator
-  - name: Irina  Eidsvold-Tøien
+  - name: Irina Eidsvold
     role: Creator
-    slug: irina-eidsvold-toien
-    url: /people/irina-eidsvold-toien/
+    slug: irina-eidsvold
+    url: /people/irina-eidsvold/
   - name: Terje Gaustad
     role: Creator
     slug: terje-gaustad

@@ -14,7 +14,7 @@ tags:
 slug: copyright-and-personality-rights-ai-era
 name: Copyright and Personality Rights in the AI Era
 people:
-- irina-eidsvold-toien
+- irina-eidsvold
 - ole-andreas-rognstad
 institutions:
 - bi-norwegian-business-school
@@ -32,7 +32,7 @@ Primary WP: [WP5](/wp5/)
 2026–2026
 
 ## People
-- Project leader: [Irina Eidsvold-Toien](/people/irina-eidsvold-toien/)
+- Project leader: [Irina Eidsvold](/people/irina-eidsvold/)
 - Participants: [Ole-Andreas Rognstad](/people/ole-andreas-rognstad/)
 
 ## Institutions
