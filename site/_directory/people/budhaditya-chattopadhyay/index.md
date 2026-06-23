@@ -3,7 +3,6 @@ type: person
 slug: budhaditya-chattopadhyay
 name: Budhaditya Chattopadhyay
 title: Budhaditya Chattopadhyay
-description: Post-doctoral research fellow, Faculty of Fine Art, Music and Design, University of Bergen
 position: Post-doctoral research fellow
 department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Budhaditya_Chattopadhyay_UiB.jpg
@@ -141,6 +140,8 @@ summary: 'Budhaditya Chattopadhyay is a multidisciplinary artist, researcher, an
   writer. He is a Marie Curie Postdoctoral Fellow at the Faculty of Fine Art, Music
   and Design (KMD), University of Bergen, and a co-lead of the Work Package: AI in
   Artistic Processes, at the MishMash Centre for AI and Creativity.'
+description: Post-doctoral research fellow, Faculty of Fine Art, Music and Design,
+  University of Bergen
 permalink: /people/budhaditya-chattopadhyay/
 redirect_from:
 - /directory/people/budhaditya-chattopadhyay/

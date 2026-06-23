@@ -3,7 +3,6 @@ type: person
 slug: diego-marin-bucio
 name: Diego Marin Bucio
 title: Diego Marin Bucio
-description: Research fellow, Department of Musicology, University of Oslo
 position: Research fellow
 department: Department of Musicology
 image: /assets/images/portraits/Diego_Marin_Bucio_UiO.jpg
@@ -171,6 +170,7 @@ selected_works:
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 source_mentions: []
+description: Research fellow, Department of Musicology, University of Oslo
 wps:
 - WP1
 - WP2

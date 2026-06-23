@@ -3,7 +3,6 @@ type: person
 slug: anna-maria-christodoulou
 name: Anna-Maria Christodoulou
 title: Anna-Maria Christodoulou
-description: Research fellow, Department of Musicology, University of Oslo
 position: Research fellow
 department: Department of Musicology
 institution: university-of-oslo
@@ -235,6 +234,7 @@ selected_works:
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 source_mentions: []
+description: Research fellow, Department of Musicology, University of Oslo
 wps:
 - WP6
 permalink: /people/anna-maria-christodoulou/

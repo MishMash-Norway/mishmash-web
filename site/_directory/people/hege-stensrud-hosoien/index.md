@@ -3,7 +3,6 @@ type: person
 slug: hege-stensrud-hosoien
 name: Hege Stensrud Høsøien
 title: Hege Stensrud Høsøien
-description: Academic assistant, Faculty of Humanities, University of Oslo
 position: Academic assistant
 department: Faculty of Humanities
 image: /assets/images/portraits/Hege_Stensrud_Hosoien_NB.jpg
@@ -32,6 +31,7 @@ selected_works: []
 source_mentions:
 - about/organisation/board/index.md
 summary: null
+description: Academic assistant, Faculty of Humanities, University of Oslo
 layout: person
 permalink: /people/hege-stensrud-hosoien/
 redirect_from:

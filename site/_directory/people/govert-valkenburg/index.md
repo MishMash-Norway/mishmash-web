@@ -3,7 +3,6 @@ type: person
 slug: govert-valkenburg
 name: Govert Valkenburg
 title: Govert Valkenburg
-description: Researcher, Department of Interdisciplinary Studies of Culture, Norwegian University of Science and Technology
 position: Researcher
 department: Department of Interdisciplinary Studies of Culture
 institution: norwegian-university-of-science-and-technology
@@ -213,6 +212,8 @@ selected_works:
 source_mentions:
 - about/organisation/council/index.md
 summary: null
+description: Researcher, Department of Interdisciplinary Studies of Culture, Norwegian
+  University of Science and Technology
 permalink: /people/govert-valkenburg/
 redirect_from:
 - /directory/people/govert-valkenburg/

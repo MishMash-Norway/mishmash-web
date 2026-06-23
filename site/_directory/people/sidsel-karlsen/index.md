@@ -3,7 +3,6 @@ type: person
 slug: sidsel-karlsen
 name: Sidsel Karlsen
 title: Sidsel Karlsen
-description: Professor, Norwegian Academy of Music, Norwegian Academy of Music
 position: Professor
 department: Norwegian Academy of Music
 image: /assets/images/portraits/Sidsel_Karlsen_NMH.jpg
@@ -180,6 +179,7 @@ selected_works:
     url: /people/sidsel-karlsen/
 source_mentions:
 - about/organisation/wp-leaders/index.md
+description: Professor, Norwegian Academy of Music, Norwegian Academy of Music
 wps:
 - WP4
 permalink: /people/sidsel-karlsen/

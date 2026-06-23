@@ -3,7 +3,6 @@ type: person
 slug: erik-johannes-husom
 name: Erik Johannes Husom
 title: Erik Johannes Husom
-description: Researcher, Sustainable Communication Technologies, SINTEF Digital
 position: Researcher
 department: Sustainable Communication Technologies
 image: /assets/images/portraits/Erik_Johannes_Husom_SinDig.png
@@ -243,6 +242,7 @@ summary: Erik Johannes Husom is a researcher with a M.Sc. in Computational Physi
   He is particularly focused on Trustworthy and Green AI. He received hMaster of Science
   in Computational Physics from the University of Oslo, with a focus on applied machine
   learning.
+description: Researcher, Sustainable Communication Technologies, SINTEF Digital
 permalink: /people/erik-johannes-husom/
 redirect_from:
 - /directory/people/erik-johannes-husom/

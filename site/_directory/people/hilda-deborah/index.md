@@ -3,7 +3,6 @@ type: person
 slug: hilda-deborah
 name: Hilda Deborah
 title: Hilda Deborah
-description: Researcher, Department of Computer Science, Norwegian University of Science and Technology
 position: Researcher
 department: Department of Computer Science
 image: /assets/images/portraits/Hilda_Deborah_NTNU.jpg
@@ -201,6 +200,8 @@ selected_works:
     slug: hilda-deborah
     url: /people/hilda-deborah/
 source_mentions: []
+description: Researcher, Department of Computer Science, Norwegian University of Science
+  and Technology
 wps:
 - WP6
 permalink: /people/hilda-deborah/

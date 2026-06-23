@@ -3,7 +3,6 @@ type: person
 slug: tonje-louise-finne
 name: Tonje Louise Finne
 title: Tonje Louise Finne
-description: Associate professor, Faculty of Film, TV and Games, University of Inland Norway
 position: Associate professor
 department: Faculty of Film, TV and Games
 image: /assets/images/portraits/Tonje_Louise_Finne_INN.png
@@ -58,6 +57,8 @@ selected_works:
     url: /people/tonje-louise-finne/
 source_mentions: []
 summary: null
+description: Associate professor, Faculty of Film, TV and Games, University of Inland
+  Norway
 permalink: /people/tonje-louise-finne/
 redirect_from:
 - /directory/people/tonje-louise-finne/

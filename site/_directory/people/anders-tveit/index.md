@@ -4,7 +4,6 @@ type: person
 slug: anders-tveit
 name: Anders Tveit
 title: Anders Tveit
-description: University lecturer, Fagseksjon for musikkteori, komposisjon og musikkteknologi, Norwegian Academy of Music
 position: University lecturer
 department: Fagseksjon for musikkteori, komposisjon og musikkteknologi
 institution: norwegian-academy-of-music
@@ -62,6 +61,21 @@ selected_works:
     role: Creator
     slug: anders-tveit
     url: /people/anders-tveit/
+- title: Electric Audio Unit - Aparte Festival
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Mathieu Lacroix
+    role: Musician
+  - name: Natasha Barrett
+    role: Musician
+  - name: Ernst van der Loo
+    role: Musician
+  - name: Anders Tveit
+    role: Organizer
+    slug: anders-tveit
+    url: /people/anders-tveit/
 - title: Mesmerisms no.1
   year: '2022'
   source: Music performance
@@ -72,6 +86,36 @@ selected_works:
     role: Composer
     slug: anders-tveit
     url: /people/anders-tveit/
+- title: Online Binaural concert with 3D sound and video
+  year: '2022'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Mathieu Lacroix
+    role: Organizer
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  - name: Natasha Barrett
+    role: Organizer
+  - name: Ernst van der Loo
+    role: Organizer
+- title: EAU presents four world premiers of 3D electroacoustic music
+  year: '2022'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Mathieu Lacroix
+    role: Organizer
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  - name: Natasha Barrett
+    role: Organizer
+  - name: Ernst van der Loo
+    role: Organizer
 - title: In a Now
   year: '2019'
   source: Music performance
@@ -171,25 +215,10 @@ selected_works:
     url: /people/anders-tveit/
   - name: Anne Eline Riisnæs
     role: Artist
-- title: Oslo iPhone Ensemble @ Scandinavian Futures
-  year: '2011'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Artist
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Anders Tveit
-    role: Artist
-    slug: anders-tveit
-    url: /people/anders-tveit/
-  - name: Arve Voldsund
-    role: Artist
-  - name: Viet phi uy Hoang
-    role: Artist
 source_mentions: []
 summary: null
+description: University lecturer, Fagseksjon for musikkteori, komposisjon og musikkteknologi,
+  Norwegian Academy of Music
 permalink: /people/anders-tveit/
 redirect_from:
 - /directory/people/anders-tveit/

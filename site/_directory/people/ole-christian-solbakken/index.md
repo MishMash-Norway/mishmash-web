@@ -4,7 +4,6 @@ type: person
 slug: ole-christian-solbakken
 name: Ole Christian Solbakken
 title: Ole Christian Solbakken
-description: University college instructor/student teacher, School of Arts, Design, and Media, Kristiania University College
 position: University college instructor/student teacher
 department: School of Arts, Design, and Media
 institution: kristiania-university-college
@@ -41,6 +40,8 @@ selected_works:
     url: /people/ole-christian-solbakken/
 source_mentions: []
 summary: null
+description: University college instructor/student teacher, School of Arts, Design,
+  and Media, Kristiania University College
 permalink: /people/ole-christian-solbakken/
 redirect_from:
 - /directory/people/ole-christian-solbakken/

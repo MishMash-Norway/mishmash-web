@@ -3,7 +3,6 @@ type: person
 slug: arstein-justnes
 name: Årstein Justnes
 title: Årstein Justnes
-description: Associate professor, Department of Religion, Philosophy and History, University of Agder
 position: Associate professor
 department: Department of Religion, Philosophy and History
 institution: university-of-agder
@@ -142,6 +141,8 @@ selected_works:
     role: Creator
 source_mentions: []
 summary: null
+description: Associate professor, Department of Religion, Philosophy and History,
+  University of Agder
 wps:
 - WP6
 permalink: /people/arstein-justnes/

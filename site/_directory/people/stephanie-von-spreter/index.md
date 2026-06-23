@@ -3,7 +3,6 @@ type: person
 slug: stephanie-von-spreter
 name: Stephanie von Spreter
 title: Stephanie von Spreter
-description: Researcher, Department of Language and Culture, Arctic University of Norway
 position: Researcher
 department: Department of Language and Culture
 institution: arctic-university-of-norway
@@ -111,6 +110,8 @@ selected_works:
     url: /people/stephanie-von-spreter/
 source_mentions: []
 summary: null
+description: Researcher, Department of Language and Culture, Arctic University of
+  Norway
 layout: person
 permalink: /people/stephanie-von-spreter/
 redirect_from:

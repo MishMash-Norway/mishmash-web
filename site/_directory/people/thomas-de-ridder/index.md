@@ -3,7 +3,6 @@ type: person
 slug: thomas-de-ridder
 name: Thomas de Ridder
 title: Thomas de Ridder
-description: Senior adviser, Faculty of Fine Art, Music and Design, University of Bergen
 position: Senior adviser
 department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Thomas_de_Ridder_UiB.jpg
@@ -32,6 +31,8 @@ source_mentions:
 - about/organisation/management/index.md
 - no/about/organisation/management/index.md
 summary: null
+description: Senior adviser, Faculty of Fine Art, Music and Design, University of
+  Bergen
 permalink: /people/thomas-de-ridder/
 redirect_from:
 - /directory/people/thomas-de-ridder/

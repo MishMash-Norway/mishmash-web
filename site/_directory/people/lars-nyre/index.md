@@ -3,7 +3,6 @@ type: person
 slug: lars-nyre
 name: Lars Nyre
 title: Lars Nyre
-description: Professor, Department of Information Science and Media Studies, University of Bergen
 position: Professor
 department: Department of Information Science and Media Studies
 image: /assets/images/portraits/Lars_Nyre_UiB.png
@@ -159,6 +158,8 @@ selected_works:
     url: /people/lars-nyre/
 source_mentions: []
 summary: null
+description: Professor, Department of Information Science and Media Studies, University
+  of Bergen
 permalink: /people/lars-nyre/
 redirect_from:
 - /directory/people/lars-nyre/

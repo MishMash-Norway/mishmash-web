@@ -3,7 +3,6 @@ type: person
 slug: tiril-schroder
 name: Tiril Schrøder
 title: Tiril Schrøder
-description: Professor, Art and Craft, Oslo National Academy of the Arts
 position: Professor
 department: Art and Craft
 image: /assets/images/portraits/Tiril_Schroder_KHiO.jpg
@@ -144,6 +143,7 @@ selected_works:
     url: /people/tiril-schroder/
 source_mentions: []
 summary: null
+description: Professor, Art and Craft, Oslo National Academy of the Arts
 wps:
 - WP2
 - WP4

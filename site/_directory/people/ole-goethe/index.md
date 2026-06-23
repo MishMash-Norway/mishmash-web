@@ -3,7 +3,6 @@ type: person
 slug: ole-goethe
 name: Ole Goethe
 title: Ole Goethe
-description: Senior lecturer, Faculty of Social Sciences, Nord University
 position: Senior lecturer
 department: Faculty of Social Sciences
 image: /assets/images/portraits/Ole_Goethe_NORD.jpg
@@ -189,6 +188,7 @@ summary: 'Ole Goethe (born December 26, 1975), a Norwegian researcher and produc
   engaging systems that support diversity and inclusion,
 
   longevity and meaningfulness in user engagement and engagement at scale'
+description: Senior lecturer, Faculty of Social Sciences, Nord University
 wps:
 - WP6
 permalink: /people/ole-goethe/

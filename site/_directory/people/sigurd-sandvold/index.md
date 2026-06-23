@@ -3,7 +3,6 @@ type: person
 slug: sigurd-sandvold
 name: Sigurd Sandvold
 title: Sigurd Sandvold
-description: Dean, Faculty of Education, Arts and Sports, Western Norway University of Applied Sciences
 position: Dean
 department: Faculty of Education, Arts and Sports
 institution: western-norway-university-of-applied-sciences
@@ -71,6 +70,8 @@ selected_works:
 source_mentions:
 - about/organisation/council/index.md
 summary: null
+description: Dean, Faculty of Education, Arts and Sports, Western Norway University
+  of Applied Sciences
 permalink: /people/sigurd-sandvold/
 redirect_from:
 - /directory/people/sigurd-sandvold/

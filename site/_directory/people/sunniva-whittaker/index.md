@@ -3,7 +3,6 @@ type: person
 slug: sunniva-whittaker
 name: Sunniva Whittaker
 title: Sunniva Whittaker
-description: Rector, University of Agder, University of Agder
 position: Rector
 department: University of Agder
 institution: university-of-agder
@@ -153,6 +152,7 @@ selected_works:
 source_mentions:
 - about/organisation/board/index.md
 summary: null
+description: Rector, University of Agder, University of Agder
 permalink: /people/sunniva-whittaker/
 redirect_from:
 - /directory/people/sunniva-whittaker/

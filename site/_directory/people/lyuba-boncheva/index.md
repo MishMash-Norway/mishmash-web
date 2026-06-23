@@ -3,7 +3,6 @@ type: person
 slug: lyuba-boncheva
 name: Lyuba Boncheva
 title: Lyuba Boncheva
-description: BI Norwegian Business School
 position: ''
 department: ''
 institution: bi-norwegian-business-school
@@ -29,6 +28,7 @@ search_keywords: []
 selected_works: []
 source_mentions: []
 summary: null
+description: BI Norwegian Business School
 wps:
 - WP5
 - WP6

@@ -3,7 +3,6 @@ type: person
 slug: cagri-erdem
 name: Cagri Erdem
 title: Cagri Erdem
-description: Post-doctoral research fellow, Department for Informatics, University of Oslo
 position: Post-doctoral research fellow
 department: Department for Informatics
 institution: university-of-oslo
@@ -215,6 +214,8 @@ selected_works:
     slug: cagri-erdem
     url: /people/cagri-erdem/
 source_mentions: []
+description: Post-doctoral research fellow, Department for Informatics, University
+  of Oslo
 wps:
 - WP1
 - WP4

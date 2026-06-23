@@ -3,7 +3,6 @@ type: person
 slug: ali-ramezani-kebrya
 name: Ali Ramezani-Kebrya
 title: Ali Ramezani-Kebrya
-description: Associate professor, Department for Informatics, University of Oslo
 position: Associate professor
 department: Department for Informatics
 institution: university-of-oslo
@@ -374,6 +373,7 @@ selected_works:
   - name: Volkan Cevher
     role: Creator
 source_mentions: []
+description: Associate professor, Department for Informatics, University of Oslo
 wps:
 - WP1
 - WP7

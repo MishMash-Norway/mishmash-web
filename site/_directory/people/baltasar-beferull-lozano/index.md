@@ -3,7 +3,6 @@ type: person
 slug: baltasar-beferull-lozano
 name: Baltasar Beferull-Lozano
 title: Baltasar Beferull-Lozano
-description: Professor, Department of Information and Communication Technology (ICT), University of Agder
 position: Professor
 department: Department of Information and Communication Technology (ICT)
 image: /assets/images/portraits/Baltasar_Beferull_Simula.jpg
@@ -368,6 +367,8 @@ selected_works:
     role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
+description: Professor, Department of Information and Communication Technology (ICT),
+  University of Agder
 wps:
 - WP7
 permalink: /people/baltasar-beferull-lozano/

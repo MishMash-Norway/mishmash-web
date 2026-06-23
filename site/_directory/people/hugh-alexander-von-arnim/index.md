@@ -3,7 +3,6 @@ type: person
 slug: hugh-alexander-von-arnim
 name: Hugh Alexander von Arnim
 title: Hugh Alexander von Arnim
-description: Research fellow, Department of Musicology, University of Oslo
 position: Research fellow
 department: Department of Musicology
 institution: university-of-oslo
@@ -224,6 +223,7 @@ selected_works:
   - name: Crina I. Damsa
     role: Creator
 source_mentions: []
+description: Research fellow, Department of Musicology, University of Oslo
 wps:
 - WP1
 - WP6

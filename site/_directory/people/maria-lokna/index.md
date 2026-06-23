@@ -3,7 +3,6 @@ type: person
 slug: maria-lokna
 name: Maria Lokna
 title: Maria Lokna
-description: Research fellow, Centre for the Study of Professions, Oslo Metropolitan University
 position: Research fellow
 department: Centre for the Study of Professions
 institution: oslo-metropolitan-university
@@ -28,6 +27,8 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
+description: Research fellow, Centre for the Study of Professions, Oslo Metropolitan
+  University
 wps:
 - WP5
 permalink: /people/maria-lokna/

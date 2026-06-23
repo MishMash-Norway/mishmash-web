@@ -3,7 +3,6 @@ type: person
 slug: eskil-muan-saether
 name: Eskil Muan Sæther
 title: Eskil Muan Sæther
-description: Senior adviser, Department of Musicology, University of Oslo
 position: Senior adviser
 department: Department of Musicology
 image: /assets/images/portraits/eskil_muan_saether_UiO.jpg
@@ -32,6 +31,7 @@ selected_works: []
 source_mentions:
 - about/organisation/board/index.md
 summary: null
+description: Senior adviser, Department of Musicology, University of Oslo
 layout: person
 permalink: /people/eskil-muan-saether/
 redirect_from:

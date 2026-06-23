@@ -3,7 +3,6 @@ type: person
 slug: thor-magnusson
 name: Thor Magnusson
 title: Thor Magnusson
-description: Research Professor, University of Iceland
 position: Research Professor
 department: null
 institution: university-of-iceland
@@ -128,6 +127,7 @@ summary: "Thor Magnusson is a Professor in Future Music at the University of Sus
   \ Arts), ICMC (International Computer Music Conference), NIME Conference (New Interfaces\
   \ for Musical Expression), Impact festival, Soundwaves, Cybersonica, Ultrasound\
   \ and Pixelache.\n\nFurther information here: http://thormagnusson.github.io"
+description: Research Professor, University of Iceland
 layout: person
 permalink: /people/thor-magnusson/
 redirect_from:

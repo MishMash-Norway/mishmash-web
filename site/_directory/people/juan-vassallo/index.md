@@ -3,7 +3,6 @@ type: person
 slug: juan-vassallo
 name: Juan Vassallo
 title: Juan Vassallo
-description: Research fellow, Faculty of Fine Art, Music and Design, University of Bergen
 position: Research fellow
 department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Juan_Vassallo_UiB.jpg
@@ -76,6 +75,8 @@ selected_works:
     slug: juan-vassallo
     url: /people/juan-vassallo/
 source_mentions: []
+description: Research fellow, Faculty of Fine Art, Music and Design, University of
+  Bergen
 wps:
 - WP1
 - WP2

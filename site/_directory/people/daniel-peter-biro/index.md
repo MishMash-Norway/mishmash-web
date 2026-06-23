@@ -3,7 +3,6 @@ type: person
 slug: daniel-peter-biro
 name: Daniel Peter Biro
 title: Daniel Peter Biro
-description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
 position: Professor
 department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Daniel_Peter_Biro_UiB.jpg
@@ -175,6 +174,7 @@ summary: 'Dániel Péter Biró studied in Hungary, Germany, Switzerland, Austria
   Péter Biró is Professor for Composition at the Grieg Academy in Bergen, Norway and
   directs the project Sounding Philosophy as part of the Norwegian Artistic Research
   Program (2021-2025). Website: www.danielpeterbiro.no'
+description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
 permalink: /people/daniel-peter-biro/
 redirect_from:
 - /directory/people/daniel-peter-biro/

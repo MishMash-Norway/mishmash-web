@@ -3,7 +3,6 @@ type: person
 slug: bente-aasheim
 name: Bente Aasheim
 title: Bente Aasheim
-description: Student, Department of Nursing and Health Promotion, Kulturtanken
 position: Student
 department: Department of Nursing and Health Promotion
 institution: null
@@ -48,6 +47,7 @@ selected_works:
     role: Creator
 source_mentions: []
 summary: null
+description: Student, Department of Nursing and Health Promotion, Kulturtanken
 layout: person
 permalink: /people/bente-aasheim/
 redirect_from:

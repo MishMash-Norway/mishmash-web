@@ -3,7 +3,6 @@ type: person
 slug: sigmund-trageton
 name: Sigmund Trageton
 title: Sigmund Trageton
-description: University lecturer, Department of Media and Social Sciences, University of Stavanger
 position: University lecturer
 department: Department of Media and Social Sciences
 institution: university-of-stavanger
@@ -134,6 +133,8 @@ selected_works:
     url: /people/sigmund-trageton/
 source_mentions: []
 summary: null
+description: University lecturer, Department of Media and Social Sciences, University
+  of Stavanger
 permalink: /people/sigmund-trageton/
 redirect_from:
 - /directory/people/sigmund-trageton/

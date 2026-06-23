@@ -3,7 +3,6 @@ type: person
 slug: andreas-bergsland
 name: Andreas Bergsland
 title: Andreas Bergsland
-description: Professor, Department of Music, Norwegian University of Science and Technology
 position: Professor
 department: Department of Music
 image: /assets/images/portraits/Andreas_Bergsland_NTNU.jpg
@@ -168,7 +167,13 @@ selected_works:
     url: /people/andreas-bergsland/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: Andreas Bergsland completed a PhD in music technology/systematic musicology
+  from NTNU in 2010 with the dissertation "Experiencing Voices in Electroacoustic
+  Music," in which he developed an analytical framework for electroacoustic music
+  featuring voice. Bergsland previously holds a graduate degree (1999) from the same
+  university, with a thesis on the relationship between text and music in Olav Anton
+  Thommessen's symphonic song, "Vævet af stængler."
+description: Professor, Department of Music, Norwegian University of Science and Technology
 permalink: /people/andreas-bergsland/
 redirect_from:
 - /directory/people/andreas-bergsland/

@@ -3,7 +3,6 @@ type: person
 slug: eirik-sorbo
 name: Eirik Sørbø
 title: Eirik Sørbø
-description: Associate professor, Department of Popular Music, University of Agder
 position: Associate professor
 department: Department of Popular Music
 image: /assets/images/portraits/eirik_sorbo_UiA.jpg
@@ -145,6 +144,7 @@ summary: Researcher, educator, and musician. PhD in music education from the Uni
   Engaged in several projects, including MishMash (work package leader) and CreaTeME
   (project developer). Active grant writer with a strong track record of securing
   research funding.
+description: Associate professor, Department of Popular Music, University of Agder
 layout: person
 wps:
 - WP4

@@ -3,7 +3,6 @@ type: person
 slug: zacharias-andreadakis
 name: Zacharias Andreadakis
 title: Zacharias Andreadakis
-description: Guest, Department of Philosophy, Classics, History of Art and Ideas, University of Oslo
 position: Guest
 department: Department of Philosophy, Classics, History of Art and Ideas
 institution: university-of-oslo
@@ -49,6 +48,8 @@ selected_works:
     url: /people/zacharias-andreadakis/
 source_mentions: []
 summary: null
+description: Guest, Department of Philosophy, Classics, History of Art and Ideas,
+  University of Oslo
 layout: person
 permalink: /people/zacharias-andreadakis/
 redirect_from:

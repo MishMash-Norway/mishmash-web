@@ -3,7 +3,6 @@ type: person
 slug: gabriele-de-seta
 name: Gabriele de Seta
 title: Gabriele de Seta
-description: Researcher, Department of Linguistic, Literary and Aesthetic studies, University of Bergen
 position: Researcher
 department: Department of Linguistic, Literary and Aesthetic studies
 image: /assets/images/portraits/Gabriele_de_Seta_UiB.jpg
@@ -187,6 +186,8 @@ summary: I use qualitative methods to study how digital technologies and creativ
   practices shape one another. My research focuses on the everyday use of algorithms,
   social media platforms and digital infrastructures in the Chinese-speaking world.
   I write about memes, deepfakes, and whatever we mean by "AI".
+description: Researcher, Department of Linguistic, Literary and Aesthetic studies,
+  University of Bergen
 wps:
 - WP2
 permalink: /people/gabriele-de-seta/

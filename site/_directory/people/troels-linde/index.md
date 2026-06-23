@@ -3,7 +3,6 @@ type: person
 slug: troels-linde
 name: Troels Linde
 title: Troels Linde
-description: Professor, Faculty of Social Sciences, Nord University
 position: Professor
 department: Faculty of Social Sciences
 institution: nord-university
@@ -38,6 +37,7 @@ search_keywords: []
 selected_works: []
 source_mentions: []
 summary: null
+description: Professor, Faculty of Social Sciences, Nord University
 permalink: /people/troels-linde/
 redirect_from:
 - /directory/people/troels-linde/

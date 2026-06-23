@@ -3,7 +3,6 @@ type: person
 slug: sascha-fruhholz
 name: Sascha Frühholz
 title: Sascha Frühholz
-description: Professor, Department of Psychology, University of Oslo
 position: Professor
 department: Department of Psychology
 institution: university-of-oslo
@@ -229,6 +228,7 @@ selected_works:
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
 source_mentions: []
+description: Professor, Department of Psychology, University of Oslo
 wps:
 - WP1
 - WP3

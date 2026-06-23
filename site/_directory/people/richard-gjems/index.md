@@ -3,7 +3,6 @@ type: person
 slug: richard-gjems
 name: Richard Gjems
 title: Richard Gjems
-description: Head of Section, Musikk, National Library of Norway
 position: Head of Section
 department: Musikk
 image: /assets/images/portraits/Richard_Gjems_NB.jpg
@@ -152,6 +151,7 @@ selected_works:
     url: /people/richard-gjems/
 source_mentions: []
 summary: Master in Cultural History from the University of Oslo (2003).
+description: Head of Section, Musikk, National Library of Norway
 wps:
 - WP6
 permalink: /people/richard-gjems/

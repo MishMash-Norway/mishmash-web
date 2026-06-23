@@ -3,7 +3,6 @@ type: person
 slug: tejaswinee-kelkar
 name: Tejaswinee Kelkar
 title: Tejaswinee Kelkar
-description: Associate professor, Department of Musicology, University of Oslo
 position: Associate professor
 department: Department of Musicology
 image: /assets/images/portraits/Tejaswinee_Kelkar_UiO.jpg
@@ -178,6 +177,7 @@ selected_works:
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
 source_mentions: []
+description: Associate professor, Department of Musicology, University of Oslo
 wps:
 - WP1
 - WP5

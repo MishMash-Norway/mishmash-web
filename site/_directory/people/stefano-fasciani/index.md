@@ -3,7 +3,6 @@ type: person
 slug: stefano-fasciani
 name: Stefano Fasciani
 title: Stefano Fasciani
-description: Professor, Department of Musicology, University of Oslo
 position: Professor
 department: Department of Musicology
 image: /assets/images/portraits/Stefano_Fasciani_UiO.jpg
@@ -200,6 +199,7 @@ selected_works:
 source_mentions: []
 summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learning,
   Music Technology.
+description: Professor, Department of Musicology, University of Oslo
 layout: person
 wps:
 - WP1

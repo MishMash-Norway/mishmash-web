@@ -3,7 +3,6 @@ type: person
 slug: irina-eidsvold-toien
 name: Irina Eidsvold-Tøien
 title: Irina Eidsvold-Tøien
-description: Associate professor, Department of Law and Governance, BI Norwegian Business School
 position: Associate professor
 department: Department of Law and Governance
 image: /assets/images/portraits/Irina_Eidsvold_Toien_BI.jpg
@@ -147,6 +146,8 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null
+description: Associate professor, Department of Law and Governance, BI Norwegian Business
+  School
 permalink: /people/irina-eidsvold-toien/
 redirect_from:
 - /directory/people/irina-eidsvold-toien/

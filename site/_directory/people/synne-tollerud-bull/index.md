@@ -3,7 +3,6 @@ type: person
 slug: synne-tollerud-bull
 name: Synne Tollerud Bull
 title: Synne Tollerud Bull
-description: Professor, School of Arts, Design, and Media, Kristiania University College
 position: Professor
 department: School of Arts, Design, and Media
 image: /assets/images/portraits/Synne_Tollerud_Bull_Kristiania.jpg
@@ -188,6 +187,7 @@ summary: 'Synne Tollerud Bull is a media artist, researcher, and Professor, curr
 
   She has developed the concept of proxistant vision to describe image forms that
   combine proximity and distance within a single vi'
+description: Professor, School of Arts, Design, and Media, Kristiania University College
 wps:
 - WP2
 - WP5

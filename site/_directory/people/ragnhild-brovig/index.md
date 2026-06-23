@@ -3,7 +3,6 @@ type: person
 slug: ragnhild-brovig
 name: Ragnhild Brøvig
 title: Ragnhild Brøvig
-description: Professor, Department of Musicology, University of Oslo
 position: Professor
 department: Department of Musicology
 image: /assets/images/portraits/Ragnhild_Brovig_UiO.jpg
@@ -199,6 +198,7 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null
+description: Professor, Department of Musicology, University of Oslo
 wps:
 - WP5
 permalink: /people/ragnhild-brovig/

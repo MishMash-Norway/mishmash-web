@@ -3,7 +3,6 @@ type: person
 slug: kai-olav-ellefsen
 name: Kai Olav Ellefsen
 title: Kai Olav Ellefsen
-description: Associate professor, Department for Informatics, University of Oslo
 position: Associate professor
 department: Department for Informatics
 institution: university-of-oslo
@@ -214,6 +213,7 @@ selected_works:
     slug: jim-torresen
     url: /people/jim-torresen/
 source_mentions: []
+description: Associate professor, Department for Informatics, University of Oslo
 wps:
 - WP1
 permalink: /people/kai-olav-ellefsen/

@@ -3,7 +3,6 @@ type: person
 slug: daniel-nordgard
 name: Daniel Nordgård
 title: Daniel Nordgård
-description: Professor, Department of Popular Music, University of Agder
 position: Professor
 department: Department of Popular Music
 image: /assets/images/portraits/Daniel_Nordgaard_UiA.jpg
@@ -165,6 +164,7 @@ summary: 'Daniel Nordgård is professor in music business and management at the 
   invited as guest speaker at music business conferences and academic conferences,
   nationally and internationally, and is regularly used as expert by policy makers
   and legislators.'
+description: Professor, Department of Popular Music, University of Agder
 permalink: /people/daniel-nordgard/
 redirect_from:
 - /directory/people/daniel-nordgard/

@@ -3,7 +3,6 @@ type: person
 slug: myrthe-tilleman
 name: Myrthe Tilleman
 title: Myrthe Tilleman
-description: Research fellow, Department for Informatics, University of Oslo
 position: Research fellow
 department: Department for Informatics
 institution: university-of-oslo
@@ -97,6 +96,7 @@ selected_works:
   - name: Alessandro Filippeschi
     role: Creator
 source_mentions: []
+description: Research fellow, Department for Informatics, University of Oslo
 wps:
 - WP1
 - WP7

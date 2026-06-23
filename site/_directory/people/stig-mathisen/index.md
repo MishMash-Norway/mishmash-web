@@ -3,7 +3,6 @@ type: person
 slug: stig-mathisen
 name: Stig Mathisen
 title: Stig Mathisen
-description: Head of academic department, Academy of Music, Arctic University of Norway
 position: Head of academic department
 department: Academy of Music
 institution: arctic-university-of-norway
@@ -45,6 +44,7 @@ selected_works:
 source_mentions:
 - about/organisation/council/index.md
 summary: null
+description: Head of academic department, Academy of Music, Arctic University of Norway
 permalink: /people/stig-mathisen/
 redirect_from:
 - /directory/people/stig-mathisen/

@@ -3,7 +3,6 @@ type: person
 slug: aedan-soellaart
 name: Aedan Soellaart
 title: Aedan Soellaart
-description: Student, Faculty of Social Sciences, Nord University
 position: Student
 department: Faculty of Social Sciences
 institution: nord-university
@@ -67,6 +66,7 @@ selected_works:
     url: /people/aedan-soellaart/
 source_mentions: []
 summary: null
+description: Student, Faculty of Social Sciences, Nord University
 layout: person
 permalink: /people/aedan-soellaart/
 redirect_from:

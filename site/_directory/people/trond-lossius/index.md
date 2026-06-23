@@ -3,7 +3,6 @@ type: person
 slug: trond-lossius
 name: Trond Lossius
 title: Trond Lossius
-description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
 position: Professor
 department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Trond_Lossius_UiB.jpg
@@ -230,6 +229,7 @@ summary: "Trond Lossius is a sound and installation artist based in Bergen, Norw
   \ software framework Jamoma, and he has ported Ambisonic Toolkit to a set of plugins\
   \ for the Reaper DAW. He supervises PhD candidates at several institutions in Norway\
   \ and Sweden."
+description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
 wps:
 - WP1
 - WP2

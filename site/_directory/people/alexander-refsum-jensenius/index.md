@@ -3,7 +3,6 @@ type: person
 slug: alexander-refsum-jensenius
 name: Alexander Refsum Jensenius
 title: Alexander Refsum Jensenius
-description: Professor, Department of Musicology, University of Oslo
 position: Professor
 department: Department of Musicology
 image: /assets/images/portraits/Alexander_Refsum_Jensenius_UiO.jpg
@@ -241,6 +240,7 @@ source_mentions:
 summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music technology
   at the University of Oslo. He works on the intersection of humans and machines,
   combining artistic and scientific research methods in creative ways.
+description: Professor, Department of Musicology, University of Oslo
 layout: person
 wps:
 - WP1

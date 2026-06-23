@@ -3,7 +3,6 @@ type: person
 slug: jason-nelson
 name: Jason Nelson
 title: Jason Nelson
-description: Professor, Department of Linguistic, Literary and Aesthetic studies, University of Bergen
 position: Professor
 department: Department of Linguistic, Literary and Aesthetic studies
 institution: university-of-bergen
@@ -150,6 +149,8 @@ selected_works:
     role: Creator
 source_mentions: []
 summary: null
+description: Professor, Department of Linguistic, Literary and Aesthetic studies,
+  University of Bergen
 permalink: /people/jason-nelson/
 redirect_from:
 - /directory/people/jason-nelson/

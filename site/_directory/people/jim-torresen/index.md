@@ -3,7 +3,6 @@ type: person
 slug: jim-torresen
 name: Jim Tørresen
 title: Jim Tørresen
-description: Professor, Department for Informatics, University of Oslo
 position: Professor
 department: Department for Informatics
 image: /assets/images/portraits/Jim_Tørresen_UiO.jpg
@@ -232,6 +231,7 @@ selected_works:
     url: /people/kai-olav-ellefsen/
 source_mentions: []
 summary: null
+description: Professor, Department for Informatics, University of Oslo
 wps:
 - WP1
 - WP3

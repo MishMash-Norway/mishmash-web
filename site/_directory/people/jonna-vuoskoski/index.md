@@ -3,7 +3,6 @@ type: person
 slug: jonna-vuoskoski
 name: Jonna Katariina Vuoskoski
 title: Jonna Katariina Vuoskoski
-description: Professor, Department of Musicology, University of Oslo
 position: Professor
 department: Department of Musicology
 image: /assets/images/portraits/Jonna_Vuoskoski_UiO.jpg
@@ -280,6 +279,7 @@ summary: I am Professor of Music Cognition at the Department of Musicology and t
   the Interaction & Pleasure research cluster. I am also a co-leader of work-package
   3 (Creative use of AI for health and well-being) at the MishMash Centre for AI and
   Creativity.
+description: Professor, Department of Musicology, University of Oslo
 wps:
 - WP3
 permalink: /people/jonna-vuoskoski/

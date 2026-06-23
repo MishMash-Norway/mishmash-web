@@ -3,7 +3,6 @@ type: person
 slug: oyvind-brandtsegg
 name: Øyvind Brandtsegg
 title: Øyvind Brandtsegg
-description: Professor, Department of Music, Norwegian University of Science and Technology
 position: Professor
 department: Department of Music
 institution: norwegian-university-of-science-and-technology
@@ -193,6 +192,7 @@ selected_works:
     role: Composer
 source_mentions: []
 summary: null
+description: Professor, Department of Music, Norwegian University of Science and Technology
 permalink: /people/oyvind-brandtsegg/
 redirect_from:
 - /directory/people/oyvind-brandtsegg/

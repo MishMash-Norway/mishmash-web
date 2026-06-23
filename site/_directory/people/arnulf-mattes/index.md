@@ -3,7 +3,6 @@ type: person
 slug: arnulf-mattes
 name: Arnulf Christian Mattes
 title: Arnulf Christian Mattes
-description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
 position: Professor
 department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Arnulf_Mattes_UiB.jpg
@@ -148,6 +147,7 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null
+description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
 permalink: /people/arnulf-mattes/
 redirect_from:
 - /directory/people/arnulf-mattes/

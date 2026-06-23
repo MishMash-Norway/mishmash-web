@@ -3,7 +3,6 @@ type: person
 slug: lina-plataniti
 name: Kalliopi Plataniti
 title: Kalliopi Plataniti
-description: "Researcher, NORSUS: Norwegian Institute for Sustainability Research, NORSUS - Norwegian Institute for Sustainability Research"
 position: Researcher
 department: 'NORSUS: Norwegian Institute for Sustainability Research'
 institution: norsus-norwegian-institute-for-sustainability-research
@@ -318,6 +317,8 @@ selected_works:
 source_mentions:
 - about/organisation/council/index.md
 summary: null
+description: 'Researcher, NORSUS: Norwegian Institute for Sustainability Research,
+  NORSUS - Norwegian Institute for Sustainability Research'
 permalink: /people/lina-plataniti/
 redirect_from:
 - /directory/people/lina-plataniti/

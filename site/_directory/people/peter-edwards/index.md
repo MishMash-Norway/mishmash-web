@@ -3,7 +3,6 @@ type: person
 slug: peter-edwards
 name: Peter Edwards
 title: Peter Edwards
-description: Professor, Department of Musicology, University of Oslo
 position: Professor
 department: Department of Musicology
 institution: university-of-oslo
@@ -135,6 +134,7 @@ selected_works:
     url: /people/peter-edwards/
 source_mentions: []
 summary: null
+description: Professor, Department of Musicology, University of Oslo
 permalink: /people/peter-edwards/
 redirect_from:
 - /directory/people/peter-edwards/

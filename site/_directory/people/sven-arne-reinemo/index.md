@@ -3,7 +3,6 @@ type: person
 slug: sven-arne-reinemo
 name: Sven-Arne Reinemo
 title: Sven-Arne Reinemo
-description: Research Director, Simula Metropolitan Center for Digital Engineering, Simula Metropolitan Center for Digital Engineering
 position: Research Director
 department: Simula Metropolitan Center for Digital Engineering
 institution: simula-metropolitan-center-for-digital-engineering
@@ -219,6 +218,8 @@ selected_works:
 source_mentions:
 - about/organisation/council/index.md
 summary: null
+description: Research Director, Simula Metropolitan Center for Digital Engineering,
+  Simula Metropolitan Center for Digital Engineering
 permalink: /people/sven-arne-reinemo/
 redirect_from:
 - /directory/people/sven-arne-reinemo/

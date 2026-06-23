@@ -3,7 +3,6 @@ type: person
 slug: andreas-love
 name: Andreas Løve
 title: Andreas Løve
-description: Academic assistant, Department of Psychology, University of Oslo
 position: Academic assistant
 department: Department of Psychology
 institution: university-of-oslo
@@ -53,6 +52,7 @@ selected_works:
   - name: Tor Endestad
     role: Creator
 source_mentions: []
+description: Academic assistant, Department of Psychology, University of Oslo
 wps:
 - WP3
 permalink: /people/andreas-love/

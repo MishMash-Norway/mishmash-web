@@ -3,7 +3,6 @@ type: person
 slug: fredrik-graver
 name: Fredrik Graver
 title: Fredrik Graver
-description: Professor, Faculty of Film, TV and Games, University of Inland Norway
 position: Professor
 department: Faculty of Film, TV and Games
 image: /assets/images/portraits/Fredrik_Graver_INN.jpg
@@ -60,6 +59,7 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null
+description: Professor, Faculty of Film, TV and Games, University of Inland Norway
 permalink: /people/fredrik-graver/
 redirect_from:
 - /directory/people/fredrik-graver/

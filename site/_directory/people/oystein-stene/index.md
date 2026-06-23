@@ -3,7 +3,6 @@ type: person
 slug: oystein-stene
 name: Oystein Stene
 title: Oystein Stene
-description: Professor, The Academy of Theatre, Oslo National Academy of the Arts
 position: Professor
 department: The Academy of Theatre
 image: /assets/images/portraits/Oystein_Stene_KHiO.jpg
@@ -135,6 +134,7 @@ summary: "Øystein Stene er forfatter, dramatiker og regissør. Hovedfag i litte
   \ og formidlingsprosjekt om skuespillerkunst i 2015, oppsummert i boka ”Skuespillerkunsten”\
   \ på Universitetsforlaget. Boka er en avgrensing av skuespillerkunsten som fagfelt,\
   \ og en introduksjon av skuespillerkunstens historie og metode."
+description: Professor, The Academy of Theatre, Oslo National Academy of the Arts
 permalink: /people/oystein-stene/
 redirect_from:
 - /directory/people/oystein-stene/
