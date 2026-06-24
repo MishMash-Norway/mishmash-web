@@ -39,6 +39,29 @@ tags:
 search_keywords:
 - Music Technology
 selected_works:
+- title: Autonomous Listening-Based Synthesizer Control with Reinforcement Learning
+    for Live Sound Matching
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://nime.org/proceedings/2026/nime2026_89.pdf
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
 - title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
     Arts
   year: '2026'
@@ -165,15 +188,6 @@ selected_works:
     role: Creator
   - name: Tejaswinee Kelkar
     role: Creator
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-- title: 'Mira Thiruchelvam og Vestnorsk Jazzensemble: Pantone 448 C with Cumin'
-  year: '2023'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Tejaswinee Kelkar
-    role: Artist
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
 source_mentions: []

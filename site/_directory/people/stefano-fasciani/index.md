@@ -48,6 +48,29 @@ search_keywords:
 - Embedded Systems
 - Music Technology
 selected_works:
+- title: Autonomous Listening-Based Synthesizer Control with Reinforcement Learning
+    for Live Sound Matching
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://nime.org/proceedings/2026/nime2026_89.pdf
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
 - title: 'HS-ims: A Platform for Human-Swarm Interactive Music Systems'
   year: '2025'
   source: Book chapter
@@ -175,17 +198,6 @@ selected_works:
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
 - title: Neural Sample-Based Piano Synthesis
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Riccardo Simionato
-    role: Creator
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-- title: Towards Neural Emulation of Voltage-Controlled Oscillators
   year: '2025'
   source: Journal article
   group_type: Journal article

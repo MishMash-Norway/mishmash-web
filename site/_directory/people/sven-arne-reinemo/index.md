@@ -5,6 +5,7 @@ name: Sven-Arne Reinemo
 title: Sven-Arne Reinemo
 position: Research Director
 department: Simula Metropolitan Center for Digital Engineering
+image: /assets/images/portraits/Sven-Arne_Reinemo_Simula.jpg
 institution: simula-metropolitan-center-for-digital-engineering
 institutions:
 - simula-metropolitan-center-for-digital-engineering
@@ -16,7 +17,7 @@ roles:
 - Council member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.simula.no/people/svenar
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-6167-4784
@@ -26,8 +27,24 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Communication systems
+- Interconnection networks
+- Quality of Service
+- Supercomputing
+- Data communication
+- Networks and distributed systems
+- Routing
+- Informatics
+search_keywords:
+- Communication systems
+- Interconnection networks
+- Quality of Service
+- Supercomputing
+- Data communication
+- Networks and distributed systems
+- Routing
+- Informatics
 selected_works:
 - title: Detailed modeling of heterogeneous and contention-constrained point-to-point
     MPI communication
@@ -217,7 +234,10 @@ selected_works:
     role: Creator
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: Sven-Arne Reinemo (cand.mag., cand.scient, dr.scient.) er forskningsdirektør
+  ved SimulaMet. Hans forskning er fokusert på på arkitektur, rutingalgoritmer, metningskontroll,
+  arkitektur og ytelsesoptimalisering i avanserte sammenkoblingsnettverk for høyytelsesdatabehandling
+  (HPC), med særlig vekt på teknologier som InfiniBand og Ethernet.
 description: Research Director, Simula Metropolitan Center for Digital Engineering,
   Simula Metropolitan Center for Digital Engineering
 permalink: /people/sven-arne-reinemo/

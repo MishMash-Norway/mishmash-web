@@ -37,7 +37,7 @@ selected_works:
   source: Book chapter
   group_type: Book chapter
   contributors:
-  - name: Irina Eidsvold
+  - name: Irina  Eidsvold-Tøien
     role: Creator
     slug: irina-eidsvold
     url: /people/irina-eidsvold/
@@ -53,7 +53,7 @@ selected_works:
     role: Creator
   - name: Audun Molde
     role: Creator
-  - name: Irina Eidsvold
+  - name: Irina  Eidsvold-Tøien
     role: Creator
     slug: irina-eidsvold
     url: /people/irina-eidsvold/
@@ -69,7 +69,7 @@ selected_works:
   source: Book chapter
   group_type: Book chapter
   contributors:
-  - name: Irina Eidsvold
+  - name: Irina  Eidsvold-Tøien
     role: Creator
     slug: irina-eidsvold
     url: /people/irina-eidsvold/
@@ -79,7 +79,7 @@ selected_works:
   group_type: Journal article
   url: https://doi.org/10.1093/jiplp/jpad073
   contributors:
-  - name: Irina Eidsvold
+  - name: Irina Eidsvold-Tøien
     role: Creator
     slug: irina-eidsvold
     url: /people/irina-eidsvold/
@@ -90,7 +90,7 @@ selected_works:
   source: Journal article
   group_type: Journal article
   contributors:
-  - name: Irina Eidsvold
+  - name: Irina Eidsvold-Tøien
     role: Creator
     slug: irina-eidsvold
     url: /people/irina-eidsvold/
@@ -103,7 +103,7 @@ selected_works:
   source: Book chapter
   group_type: Book chapter
   contributors:
-  - name: Irina Eidsvold
+  - name: Irina Eidsvold-Tøien
     role: Creator
     slug: irina-eidsvold
     url: /people/irina-eidsvold/
@@ -112,7 +112,7 @@ selected_works:
   source: Book chapter
   group_type: Book chapter
   contributors:
-  - name: Irina Eidsvold
+  - name: Irina Eidsvold-Tøien
     role: Creator
     slug: irina-eidsvold
     url: /people/irina-eidsvold/
@@ -121,7 +121,7 @@ selected_works:
   source: Journal article
   group_type: Journal article
   contributors:
-  - name: Irina Eidsvold
+  - name: Irina Eidsvold-Tøien
     role: Creator
     slug: irina-eidsvold
     url: /people/irina-eidsvold/
@@ -130,7 +130,7 @@ selected_works:
   source: Book chapter
   group_type: Book chapter
   contributors:
-  - name: Irina Eidsvold
+  - name: Irina  Eidsvold-Tøien
     role: Creator
     slug: irina-eidsvold
     url: /people/irina-eidsvold/
@@ -139,7 +139,7 @@ selected_works:
   source: Journal article
   group_type: Journal article
   contributors:
-  - name: Irina Eidsvold
+  - name: Irina  Eidsvold-Tøien
     role: Creator
     slug: irina-eidsvold
     url: /people/irina-eidsvold/

@@ -26,6 +26,29 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Autonomous Listening-Based Synthesizer Control with Reinforcement Learning
+    for Live Sound Matching
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://nime.org/proceedings/2026/nime2026_89.pdf
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
 - title: 'Expanding the machine: Notating generative synthesis with a state-based
     representation and a navigable timbre space'
   year: '2026'
@@ -154,20 +177,6 @@ selected_works:
     role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
-- title: 'MINGUS: Melodic Improvisation Neural Generator Using Seq2Seq'
-  year: '2021'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/zenodo.5625684
-  contributors:
-  - name: Vincenzo Madaghiele
-    role: Creator
-    slug: vincenzo-madaghiele
-    url: /people/vincenzo-madaghiele/
-  - name: Pasquale Lisena
-    role: Creator
-  - name: Raphaël Troncy
-    role: Creator
 source_mentions: []
 summary: null
 description: Research fellow, Department of Musicology, University of Oslo
