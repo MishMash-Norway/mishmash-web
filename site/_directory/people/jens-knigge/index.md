@@ -10,7 +10,6 @@ image: /assets/images/portraits/Jens_Knigge_NTNU.jpg
 institution: norwegian-university-of-science-and-technology
 institutions:
 - nord-university
-- norwegian-academy-of-music
 - norwegian-university-of-science-and-technology
 nva_affiliations:
 - role: Professor
