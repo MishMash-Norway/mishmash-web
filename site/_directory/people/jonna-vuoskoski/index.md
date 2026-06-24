@@ -5,13 +5,25 @@ name: Jonna Katariina Vuoskoski
 title: Jonna Katariina Vuoskoski
 position: Professor
 department: Department of Musicology
+image: /assets/images/portraits/Jonna_Vuoskoski_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-wps:
-- WP3
 projects:
 - intensifying-brain-pleasure-responses-music
+other_projects:
+- title: Auditory Emotion Processing in Autism
+  url: https://nva.sikt.no/projects/2763404
+  nva_id: '2763404'
+- title: Musikalitet, personlighet, helse og livskvalitet. En tvillingstudie.
+  url: https://nva.sikt.no/projects/2520576
+  nva_id: '2520576'
+- title: PROMENTA Research Center
+  url: https://nva.sikt.no/projects/2492068
+  nva_id: '2492068'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:
@@ -19,12 +31,12 @@ urls:
   institutional_website: http://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
   github: ''
   linkedin: ''
+  orcid: https://orcid.org/0000-0003-0049-4373
+  nva: https://nva.sikt.no/research-profile/891152
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0000-0003-0049-4373
-  nva: https://nva.sikt.no/research-profile/891152
 aliases: []
 tags:
 - Empathy
@@ -34,8 +46,6 @@ tags:
 - Cognitive psychology
 - Cognitive neuroscience
 - Music Cognition
-- AI-generated music
-- experimental psychology
 search_keywords:
 - Empathy
 - Social cognition
@@ -44,8 +54,6 @@ search_keywords:
 - Cognitive psychology
 - Cognitive neuroscience
 - Music Cognition
-- AI-generated music
-- experimental psychology
 selected_works:
 - title: Domain-specific perception of emotional intensity in brief musical and vocal
     expressions
@@ -163,6 +171,8 @@ selected_works:
     role: Creator
   - name: Pedro Pablo Lucas Bravo
     role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
   - name: Kayla Burnim
     role: Creator
   - name: Carlos Eduardo Cancino-Chacón
@@ -271,9 +281,10 @@ summary: I am Professor of Music Cognition at the Department of Musicology and t
   the Interaction & Pleasure research cluster. I am also a co-leader of work-package
   3 (Creative use of AI for health and well-being) at the MishMash Centre for AI and
   Creativity.
+wps:
+- WP3
 permalink: /people/jonna-vuoskoski/
 redirect_from:
 - /directory/people/jonna-vuoskoski/
-image: /assets/images/portraits/Jonna_Vuoskoski_UiO.jpg
 ---
 

@@ -34,7 +34,7 @@ tags:
 - Technology, Innovation and Culture
 - Theory of education
 - Arts education
-- Artistic research
+- Art research
 - Arts
 search_keywords:
 - Educational management
@@ -44,7 +44,7 @@ search_keywords:
 - Technology, Innovation and Culture
 - Theory of education
 - Arts education
-- Artistic research
+- Art research
 - Arts
 selected_works:
 - title: KI kan gjøre oss rikere – og fattigere.

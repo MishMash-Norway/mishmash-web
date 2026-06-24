@@ -8,9 +8,6 @@ department: ''
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-wps:
-- WP3
-- WP4
 projects: []
 roles:
 - Member
@@ -19,12 +16,12 @@ urls:
   institutional_website: http://people.uio.no/nanetten
   github: ''
   linkedin: https://www.linkedin.com/in/nanette-nielsen-a6a86a
+  orcid: https://orcid.org/0000-0002-2282-505X
+  nva: ''
   youtube: ''
   facebook: ''
   mastodon: https://@NanetteNielsen@mastodon.social
   instagram: ''
-  orcid: https://orcid.org/0000-0002-2282-505X
-  nva: ''
 aliases: []
 tags:
 - AI and creativity
@@ -38,8 +35,32 @@ search_keywords:
 - music and philosophy
 - ethics and aesthetics
 - sound on screen.
-selected_works: []
+selected_works:
+- title: Embodied, Exploratory Listening in the Concert Hall
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.3390/bs15050710
+- title: 'Absorbed Concert Listening: A Qualitative, Phenomenological Inquiry'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.3390/philosophies10020038
+- title: 'Audience Musical Absorption: Exploring Attention and Affect in the Live
+    Concert Setting'
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/20592043241263461
+- title: 'Enacting Musical Aesthetics: The Embodied Experience of Live Music'
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/20592043231225732
 source_mentions: []
+wps:
+- WP3
+- WP4
 permalink: /people/nanette-nielsen/
 redirect_from:
 - /directory/people/nanette-nielsen/

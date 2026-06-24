@@ -8,9 +8,11 @@ department: Department of Psychology
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-wps:
-- WP3
 projects: []
+other_projects:
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:
@@ -18,31 +20,15 @@ urls:
   institutional_website: ''
   github: ''
   linkedin: ''
+  orcid: https://orcid.org/0009-0007-8878-4514
+  nva: https://nva.sikt.no/research-profile/1662435
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0009-0007-8878-4514
-  nva: https://nva.sikt.no/research-profile/1662435
 aliases: []
-tags:
-- fMRI
-- EEG
-- fNIRS
-- Music
-- AI
-- groove
-- movement
-- Motion Capture
-search_keywords:
-- fMRI
-- EEG
-- fNIRS
-- Music
-- AI
-- groove
-- movement
-- Motion Capture
+tags: []
+search_keywords: []
 selected_works:
 - title: Method for Using Functional Near-Infrared Spectroscopy (fNIRS) to Explore
     Music-Induced Brain Activation in Orchestral Musicians in Concert
@@ -66,6 +52,8 @@ selected_works:
   - name: Tor Endestad
     role: Creator
 source_mentions: []
+wps:
+- WP3
 permalink: /people/andreas-love/
 redirect_from:
 - /directory/people/andreas-love/

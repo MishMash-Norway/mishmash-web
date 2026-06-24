@@ -5,13 +5,22 @@ name: Ole Goethe
 title: Ole Goethe
 position: Senior lecturer
 department: Faculty of Social Sciences
+image: /assets/images/portraits/Ole_Goethe_NORD.jpg
 institution: nord-university
 institutions:
 - kristiania-university-college
 - nord-university
 - university-of-inland-norway
-wps:
-- WP6
+nva_affiliations:
+- role: Senior lecturer
+  unit: Faculty of Social Sciences
+  institution: nord-university
+- role: Senior lecturer
+  unit: Faculty of Film, TV and Games
+  institution: university-of-inland-norway
+- role: Senior lecturer
+  unit: School of Arts, Design, and Media
+  institution: kristiania-university-college
 projects: []
 roles:
 - Member
@@ -20,39 +29,23 @@ urls:
   institutional_website: https://olegoethe.com
   github: https://github.com/olegoethe
   linkedin: https://www.linkedin.com/in/olegoethe/
+  orcid: https://orcid.org/0000-0001-9565-2914
+  nva: https://nva.sikt.no/research-profile/451223
   youtube: https://www.youtube.com/@olegoethe
   facebook: https://www.facebook.com/olegoethe
   mastodon: https://mastodon.social/@olegoethe
   instagram: https://www.instagram.com/ole_goethe
-  orcid: https://orcid.org/0000-0001-9565-2914
-  nva: https://nva.sikt.no/research-profile/451223
 aliases: []
 tags:
+- Human-Computer Interaction
 - Human computer interaction
 - User Experience
 - Human Engaged Computing
-- Human-Centered AI
-- Gameful Design
-- Agentic AI
-- Human-AI Collaboration
-- Game Data Science
-- Experience Design
-- Game-Based Learning
-- Data Visualization
-- Creative Technologies
 search_keywords:
+- Human-Computer Interaction
 - Human computer interaction
 - User Experience
 - Human Engaged Computing
-- Human-Centered AI
-- Gameful Design
-- Agentic AI
-- Human-AI Collaboration
-- Game Data Science
-- Experience Design
-- Game-Based Learning
-- Data Visualization
-- Creative Technologies
 selected_works:
 - title: Universal Design in Video Games
   year: '2024'
@@ -197,20 +190,11 @@ summary: 'Ole Goethe (born December 26, 1975), a Norwegian researcher and produc
   engaging systems that support diversity and inclusion,
 
   longevity and meaningfulness in user engagement and engagement at scale'
+wps:
+- WP6
 permalink: /people/ole-goethe/
 redirect_from:
 - /directory/people/ole-goethe/
-image: /assets/images/portraits/Ole_Goethe_NORD.jpg
-nva_affiliations:
-- role: Senior lecturer
-  unit: Faculty of Social Sciences
-  institution: nord-university
-- role: Senior lecturer
-  unit: Faculty of Film, TV and Games
-  institution: university-of-inland-norway
-- role: Senior lecturer
-  unit: School of Arts, Design, and Media
-  institution: kristiania-university-college
 ---
 
 Bio coming soon.

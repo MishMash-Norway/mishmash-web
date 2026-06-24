@@ -30,13 +30,13 @@ urls:
 aliases: []
 tags:
 - Manuscripts
-- Directing for documentaries and television
+- Directing for documantaries and television
 - Film and TV
 - Audio-visual production
 - Filmbransje
 search_keywords:
 - Manuscripts
-- Directing for documentaries and television
+- Directing for documantaries and television
 - Film and TV
 - Audio-visual production
 - Filmbransje
@@ -125,6 +125,8 @@ selected_works:
     url: /people/nina-fredrikke-grunfeld/
   - name: Håvard Andreas Vibeto
     role: Creator
+    slug: havard-vibeto
+    url: /people/havard-vibeto/
 - title: Metode i kunstnerisk utviklingsarbeid
   year: '2022'
   source: Professional article

@@ -8,46 +8,35 @@ department: NLA University College
 institution: nla-university-college
 institutions:
 - nla-university-college
-wps:
-- WP2
-- WP5
 projects: []
 roles:
 - Member
 urls:
   personal_website: https://www.olenorbye.no
-  institutional_website: https://www.nla.no/om-nla/ansatte/ole-fredrik-norbye
+  institutional_website: ''
   github: ''
   linkedin: https://www.linkedin.com/olenorbye
+  orcid: https://orcid.org/0009-0007-6471-4749
+  nva: https://nva.sikt.no/research-profile/906631
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0009-0007-6471-4749
-  nva: https://nva.sikt.no/research-profile/906631
 aliases: []
 tags:
 - Creativity
 - Music performance
 - Contemporary Church Music
-- innovation
-- Popular music
+- Innovation
+- Popularmusic
 - Music
-- AI
-- improvisation
-- self efficacy
-- education
 search_keywords:
 - Creativity
 - Music performance
 - Contemporary Church Music
-- innovation
-- Popular music
+- Innovation
+- Popularmusic
 - Music
-- AI
-- improvisation
-- self efficacy
-- education
 selected_works:
 - title: Kublai Trio
   year: '2025'
@@ -162,6 +151,9 @@ selected_works:
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 source_mentions: []
+wps:
+- WP2
+- WP5
 permalink: /people/ole-fredrik-norbye/
 redirect_from:
 - /directory/people/ole-fredrik-norbye/

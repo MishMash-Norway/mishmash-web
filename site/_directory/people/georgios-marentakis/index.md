@@ -5,42 +5,27 @@ name: Georgios Marentakis
 title: Georgios Marentakis
 position: Associate professor
 department: Department of Computer Science and Communication
+image: /assets/images/portraits/Georgios_Marentakis_HiOF.jpg
 institution: ostfold-university-college
 institutions:
 - ostfold-university-college
-wps:
-- WP1
 projects: []
 roles:
 - Member
 urls:
   personal_website: https://it.hiof.no/~georgiom/
-  institutional_website: https://www.hiof.no/iio/itk/personer/und-forsk-ansatte/georgiom/
+  institutional_website: ''
   github: ''
   linkedin: https://no.linkedin.com/in/georgios-marentakis
+  orcid: https://orcid.org/0000-0002-6563-9601
+  nva: https://nva.sikt.no/research-profile/1171070
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0000-0002-6563-9601
-  nva: https://nva.sikt.no/research-profile/1171070
 aliases: []
-tags:
-- human computer interaction
-- sonic interaction design
-- affective computing
-- biofeedback
-- auditory perception and cognition
-- embodied interaction
-- multimodal interaction
-search_keywords:
-- human computer interaction
-- sonic interaction design
-- affective computing
-- biofeedback
-- auditory perception and cognition
-- embodied interaction
-- multimodal interaction
+tags: []
+search_keywords: []
 selected_works:
 - title: 'Hearing Protection Devices for Autistic Students Sensitive to Auditory Stimuli:
     Enhancing School Inclusivity?'
@@ -198,9 +183,10 @@ selected_works:
     role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
+wps:
+- WP1
 permalink: /people/georgios-marentakis/
 redirect_from:
 - /directory/people/georgios-marentakis/
-image: /assets/images/portraits/Georgios_Marentakis_HiOF.jpg
 ---
 

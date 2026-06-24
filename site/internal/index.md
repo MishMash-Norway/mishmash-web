@@ -13,6 +13,7 @@ This page collects internal MishMash resources.
 - [Paper acknowledgments](/internal/acknowledgment/)
 - [MeshUp run-of-show](/internal/meshups/)
 - [QR code generator](/internal/qr-code/)
+- [Kanalstrategi](/internal/kanalstrategi/)
 
 ## Work packages
 

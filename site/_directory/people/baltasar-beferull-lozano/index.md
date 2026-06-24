@@ -5,49 +5,39 @@ name: Baltasar Beferull-Lozano
 title: Baltasar Beferull-Lozano
 position: Professor
 department: Department of Information and Communication Technology (ICT)
+image: /assets/images/portraits/Baltasar_Beferull_Simula.jpg
 institution: university-of-agder
 institutions:
 - simula-metropolitan-center-for-digital-engineering
 - university-of-agder
-wps:
-- WP7
+affiliation_units:
+- University of Agder
+- Faculty of Engineering and Science
+- Department of Information and Communication Technology (ICT)
+nva_affiliations:
+- role: Professor
+  unit: Department of Information and Communication Technology (ICT)
+  institution: university-of-agder
+- role: Chief Research Scientist
+  unit: Simula Metropolitan Center for Digital Engineering
+  institution: simula-metropolitan-center-for-digital-engineering
 projects: []
 roles:
 - Member
 urls:
   personal_website: https://www.simulamet.no/sigipro
-  institutional_website: https://www.simulamet.no/
+  institutional_website: ''
   github: ''
   linkedin: https://www.linkedin.com/in/baltasar-beferull-lozano-8b306918/
+  orcid: https://orcid.org/0000-0002-0902-6245
+  nva: https://nva.sikt.no/research-profile/588528
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0000-0002-0902-6245
-  nva: https://nva.sikt.no/research-profile/588528
 aliases: []
-tags:
-- data science
-- machine learning
-- topological signal processing
-- multi-sensor data processing
-- human embodiment through robotic avatars
-- online optimization
-- multi-agent systems
-- AI-driven networks
-- cyber-physical systems
-- cooperative decentralized intelligence.
-search_keywords:
-- data science
-- machine learning
-- topological signal processing
-- multi-sensor data processing
-- human embodiment through robotic avatars
-- online optimization
-- multi-agent systems
-- AI-driven networks
-- cyber-physical systems
-- cooperative decentralized intelligence.
+tags: []
+search_keywords: []
 selected_works:
 - title: On the limits of trajectory prediction for hand movement trajectories with
     motion-capture sensors
@@ -377,20 +367,10 @@ selected_works:
     role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
+wps:
+- WP7
 permalink: /people/baltasar-beferull-lozano/
 redirect_from:
 - /directory/people/baltasar-beferull-lozano/
-image: /assets/images/portraits/Baltasar_Beferull_Simula.jpg
-nva_affiliations:
-- role: Professor
-  unit: Department of Information and Communication Technology (ICT)
-  institution: university-of-agder
-- role: Chief Research Scientist
-  unit: Simula Metropolitan Center for Digital Engineering
-  institution: simula-metropolitan-center-for-digital-engineering
-affiliation_units:
-- University of Agder
-- Faculty of Engineering and Science
-- Department of Information and Communication Technology (ICT)
 ---
 

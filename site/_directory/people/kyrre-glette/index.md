@@ -90,6 +90,8 @@ selected_works:
   contributors:
   - name: Pedro Pablo Lucas Bravo
     role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
   - name: Alexander Szorkovszky
     role: Creator
   - name: Stefano Fasciani
@@ -181,6 +183,8 @@ selected_works:
   contributors:
   - name: Benedikte Wallace
     role: Creator
+    slug: benedikte-wallace
+    url: /people/benedikte-wallace/
   - name: Kyrre Glette
     role: Creator
     slug: kyrre-glette
@@ -213,6 +217,8 @@ selected_works:
   contributors:
   - name: Pedro Pablo Lucas Bravo
     role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
   - name: Stefano Fasciani
     role: Creator
     slug: stefano-fasciani

@@ -37,6 +37,8 @@ selected_works:
   contributors:
   - name: Benedikte Wallace
     role: Creator
+    slug: benedikte-wallace
+    url: /people/benedikte-wallace/
   - name: C. Hilton
     role: Creator
   - name: Kristian Nymoen
@@ -82,6 +84,8 @@ selected_works:
   contributors:
   - name: Benedikte Wallace
     role: Creator
+    slug: benedikte-wallace
+    url: /people/benedikte-wallace/
   - name: Charles Patrick Martin
     role: Creator
     slug: charles-martin
@@ -100,6 +104,8 @@ selected_works:
   contributors:
   - name: Benedikte Wallace
     role: Creator
+    slug: benedikte-wallace
+    url: /people/benedikte-wallace/
   - name: Charles Patrick Martin
     role: Creator
     slug: charles-martin

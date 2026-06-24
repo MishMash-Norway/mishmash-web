@@ -37,11 +37,11 @@ urls:
 aliases: []
 tags:
 - Deep learning
-- Machine Learning
+- Machine learning
 - Artificial intelligence
 search_keywords:
 - Deep learning
-- Machine Learning
+- Machine learning
 - Artificial intelligence
 selected_works:
 - title: 'Talk is Cheap, Energy is Not: Towards a Green, Context-Aware Metrics Framework

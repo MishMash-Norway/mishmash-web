@@ -116,6 +116,8 @@ selected_works:
     role: Creator
   - name: Pedro Pablo Lucas Bravo
     role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
   - name: Kayla Burnim
     role: Creator
   - name: Carlos Eduardo Cancino-Chacón

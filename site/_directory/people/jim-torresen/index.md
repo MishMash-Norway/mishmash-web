@@ -5,14 +5,31 @@ name: Jim Tørresen
 title: Jim Tørresen
 position: Professor
 department: Department for Informatics
+image: /assets/images/portraits/Jim_Tørresen_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-wps:
-- WP1
-- WP3
-- WP7
 projects: []
+other_projects:
+- title: '(ROBOWELL) ROBOts as Welfare Technologies and Actors for ELderLy Care: A
+    Nordic Model for Integration of Advanced Assistive Technologies'
+  url: https://nva.sikt.no/projects/2752696
+  nva_id: '2752696'
+- title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
+  url: https://nva.sikt.no/projects/2743421
+  nva_id: '2743421'
+- title: fourMs Lab Upgrade
+  url: https://nva.sikt.no/projects/2748527
+  nva_id: '2748527'
+- title: Norwegian Centre for Embodied AI (NCEI)
+  url: https://nva.sikt.no/projects/2762680
+  nva_id: '2762680'
+- title: Predictive and Intuitive Robot Companion (PIRC)
+  url: https://nva.sikt.no/projects/2747768
+  nva_id: '2747768'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:
@@ -20,35 +37,17 @@ urls:
   institutional_website: http://www.jimtoer.no
   github: ''
   linkedin: https://no.linkedin.com/in/jim-tørresen-50919b10
+  orcid: https://orcid.org/0000-0003-0556-0288
+  nva: https://nva.sikt.no/research-profile/22734
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0000-0003-0556-0288
-  nva: https://nva.sikt.no/research-profile/22734
 aliases: []
 tags:
 - Informatics
-- robotics
-- AI
-- machine learning
-- interactive music
-- real-world applications
-- bio-inspired computing
-- robot assistants
-- human-robot interaction
-- HRI
 search_keywords:
 - Informatics
-- robotics
-- AI
-- machine learning
-- interactive music
-- real-world applications
-- bio-inspired computing
-- robot assistants
-- human-robot interaction
-- HRI
 selected_works:
 - title: 'Dual Process Dreamer: Fast and Slow Decision-Making with World Models'
   year: '2026'
@@ -231,10 +230,13 @@ selected_works:
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 source_mentions: []
+wps:
+- WP1
+- WP3
+- WP7
 permalink: /people/jim-torresen/
 redirect_from:
 - /directory/people/jim-torresen/
-image: /assets/images/portraits/Jim_Tørresen_UiO.jpg
 ---
 
 Bio coming soon.

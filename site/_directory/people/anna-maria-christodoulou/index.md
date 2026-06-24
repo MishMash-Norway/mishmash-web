@@ -8,31 +8,39 @@ department: Department of Musicology
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-wps:
-- WP6
 projects: []
+other_projects:
+- title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
+  url: https://nva.sikt.no/projects/2743421
+  nva_id: '2743421'
+- title: Bodies in Concert
+  url: https://nva.sikt.no/projects/2744062
+  nva_id: '2744062'
+- title: DjembeDance - Multimodal rhythm in music and dance from West Africa
+  url: https://nva.sikt.no/projects/2747770
+  nva_id: '2747770'
+- title: fourMs Lab Upgrade
+  url: https://nva.sikt.no/projects/2748527
+  nva_id: '2748527'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:
   personal_website: https://mutecen.github.io/
-  institutional_website: https://www.uio.no/ritmo/english/people/phd-fellows/annammc/index.html
+  institutional_website: ''
   github: ''
   linkedin: ''
+  orcid: https://orcid.org/0009-0003-7063-2062
+  nva: https://nva.sikt.no/research-profile/1578841
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0009-0003-7063-2062
-  nva: https://nva.sikt.no/research-profile/1578841
 aliases: []
-tags:
-- multimodal learning
-- music artificial intelligence
-- computational music analysis
-search_keywords:
-- multimodal learning
-- music artificial intelligence
-- computational music analysis
+tags: []
+search_keywords: []
 selected_works:
 - title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
     Arts
@@ -178,6 +186,8 @@ selected_works:
     url: /people/anna-maria-christodoulou/
   - name: Balint Laczko
     role: Creator
+    slug: balint-laczko
+    url: /people/balint-laczko/
   - name: Kyrre Glette
     role: Creator
     slug: kyrre-glette
@@ -226,6 +236,8 @@ selected_works:
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 source_mentions: []
+wps:
+- WP6
 permalink: /people/anna-maria-christodoulou/
 redirect_from:
 - /directory/people/anna-maria-christodoulou/

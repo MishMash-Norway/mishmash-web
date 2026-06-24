@@ -9,49 +9,36 @@ institution: nord-university
 institutions:
 - nord-university
 - university-of-inland-norway
-wps:
-- WP2
-- WP4
-- WP7
+nva_affiliations:
+- role: Associate professor
+  unit: Nord University Business School
+  institution: nord-university
+- role: Associate professor
+  unit: Department of Organisation, Leadership and Management
+  institution: university-of-inland-norway
 projects:
 - scoping-review-creative-ai-teaching-learning
 - when-creativity-meets-criticality
+other_projects:
+- title: Incredilab
+  url: https://nva.sikt.no/projects/2757567
+  nva_id: '2757567'
 roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: https://www.inn.no/finn-en-ansatt/bjorn-bakken.html
+  institutional_website: ''
   github: ''
   linkedin: https://www.linkedin.com/in/bj%C3%B8rn-tallak-bakken-a73444359/
+  orcid: https://orcid.org/0000-0002-8800-8140
+  nva: https://nva.sikt.no/research-profile/449169
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0000-0002-8800-8140
-  nva: https://nva.sikt.no/research-profile/449169
 aliases: []
-tags:
-- Cognitive processes
-- organizational learning
-- technology leadership
-- artificial intelligence
-- complexity sciences
-- system dynamics
-- systems thinking
-- simulation & games
-- crisis mangement
-- resilience
-search_keywords:
-- Cognitive processes
-- organizational learning
-- technology leadership
-- artificial intelligence
-- complexity sciences
-- system dynamics
-- systems thinking
-- simulation & games
-- crisis mangement
-- resilience
+tags: []
+search_keywords: []
 selected_works:
 - title: 'Ramping up for the AI Explosion in Military C2: A Performance Benchmark
     for Autonomous Self-Improving AI Agents Based on Maneuver Warfare Theory'
@@ -216,16 +203,13 @@ selected_works:
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
 source_mentions: []
+wps:
+- WP2
+- WP4
+- WP7
 permalink: /people/bjorn-tallak-bakken/
 redirect_from:
 - /directory/people/bjorn-tallak-bakken/
-nva_affiliations:
-- role: Associate professor
-  unit: Nord University Business School
-  institution: nord-university
-- role: Associate professor
-  unit: Department of Organisation, Leadership and Management
-  institution: university-of-inland-norway
 ---
 
 Bio coming soon.

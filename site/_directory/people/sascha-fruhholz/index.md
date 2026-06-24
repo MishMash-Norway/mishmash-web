@@ -8,48 +8,34 @@ department: Department of Psychology
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-wps:
-- WP1
-- WP3
-- WP5
 projects:
 - intensifying-brain-pleasure-responses-music
+other_projects:
+- title: Auditory Emotion Processing in Autism
+  url: https://nva.sikt.no/projects/2763404
+  nva_id: '2763404'
+- title: Neural dynamics of processing natural and digital emotions
+  url: https://nva.sikt.no/projects/2750014
+  nva_id: '2750014'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: https://www.sv.uio.no/psi/english/research/groups/canlab/
+  institutional_website: ''
   github: https://caneuro.github.io/
   linkedin: https://www.linkedin.com/in/sascha-fr%C3%BChholz-29036b25/
+  orcid: https://orcid.org/0000-0002-6485-3817
+  nva: https://nva.sikt.no/research-profile/1208511
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
-  orcid: https://orcid.org/0000-0002-6485-3817
-  nva: https://nva.sikt.no/research-profile/1208511
 aliases: []
-tags:
-- human voice
-- music
-- digital humans
-- deepfakes
-- human brain
-- neuroimaging
-- sound archeology
-- affective neuroscience
-- AI music
-- computational cognition
-search_keywords:
-- human voice
-- music
-- digital humans
-- deepfakes
-- human brain
-- neuroimaging
-- sound archeology
-- affective neuroscience
-- AI music
-- computational cognition
+tags: []
+search_keywords: []
 selected_works:
 - title: Domain-specific perception of emotional intensity in brief musical and vocal
     expressions
@@ -242,6 +228,10 @@ selected_works:
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
 source_mentions: []
+wps:
+- WP1
+- WP3
+- WP5
 permalink: /people/sascha-fruhholz/
 redirect_from:
 - /directory/people/sascha-fruhholz/
