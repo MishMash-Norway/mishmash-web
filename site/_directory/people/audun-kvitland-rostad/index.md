@@ -4,14 +4,12 @@ type: person
 slug: audun-kvitland-rostad
 name: Audun Kvitland Rostad
 title: Audun Kvitland Rostad
-description: Super Ponni
-position: null
-department: null
-institution: null
+position: University lecturer
+department: Department of Art and Media Studies
+institution: norwegian-university-of-science-and-technology
 institutions:
+- norwegian-university-of-science-and-technology
 - super-ponni
-affiliation_units: []
-nva_affiliations: []
 projects:
 - trondheim-kreativ-ai
 roles:
@@ -22,7 +20,7 @@ urls:
   github: ''
   linkedin: ''
   orcid: ''
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/1192192
   youtube: ''
   facebook: ''
   mastodon: ''
@@ -33,6 +31,7 @@ search_keywords: []
 selected_works: []
 source_mentions: []
 summary: null
+description: Super Ponni
 permalink: /people/audun-kvitland-rostad/
 redirect_from:
 - /directory/people/audun-kvitland-rostad/

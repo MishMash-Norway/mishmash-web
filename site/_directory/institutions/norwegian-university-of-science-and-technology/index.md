@@ -13,6 +13,7 @@ image: /images/institutions/norwegian-university-of-science-and-technology.png
 people:
 - andreas-bergsland
 - andrew-perkis
+- audun-kvitland-rostad
 - govert-valkenburg
 - hilda-deborah
 - jens-knigge
