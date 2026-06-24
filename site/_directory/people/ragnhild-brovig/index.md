@@ -5,38 +5,48 @@ name: Ragnhild Brøvig
 title: Ragnhild Brøvig
 position: Professor
 department: Department of Musicology
-image: /assets/images/portraits/Ragnhild_Brovig_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-affiliation_units:
-- University of Oslo
-- Faculty of Humanities
-- Department of Musicology
+wps:
+- WP5
 projects: []
-other_projects:
-- title: CreateMe
-  url: https://nva.sikt.no/projects/2591724
-  nva_id: '2591724'
-- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
-  url: https://nva.sikt.no/projects/568602
-  nva_id: '568602'
 roles:
-- Work package leader
+- Member
 urls:
   personal_website: https://www.ragnhildbrovig.com
-  institutional_website: ''
+  institutional_website: https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html
   github: ''
   linkedin: ''
-  orcid: https://orcid.org/0000-0002-2955-2656
-  nva: https://nva.sikt.no/research-profile/5635
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0002-2955-2656
+  nva: https://nva.sikt.no/research-profile/5635
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- popular music
+- music production
+- digitalization
+- AI
+- music and media
+- aesthetics
+- platformisation
+- sound
+- groove
+- cultural theory
+search_keywords:
+- popular music
+- music production
+- digitalization
+- AI
+- music and media
+- aesthetics
+- platformisation
+- sound
+- groove
+- cultural theory
 selected_works:
 - title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
     Currently Used in Music Production
@@ -197,13 +207,17 @@ selected_works:
     url: /people/jon-marius-aareskjold-drecker/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
-description: Professor, Department of Musicology, University of Oslo
-wps:
-- WP5
+summary: I suggest that only publications and artistic output should be imported from
+  NVA, not invited lectures, talks, conference presentations, interviews etc. I would
+  at least prefer that.
 permalink: /people/ragnhild-brovig/
 redirect_from:
 - /directory/people/ragnhild-brovig/
+image: /assets/images/portraits/Ragnhild_Brovig_UiO.jpg
+affiliation_units:
+- University of Oslo
+- Faculty of Humanities
+- Department of Musicology
 ---
 
 I suggest that only publications and artistic output should be imported from NVA, not invited lectures, talks, conference presentations, interviews etc. I would at least prefer that.

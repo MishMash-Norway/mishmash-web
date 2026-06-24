@@ -5,10 +5,11 @@ name: Hilda Deborah
 title: Hilda Deborah
 position: Researcher
 department: Department of Computer Science
-image: /assets/images/portraits/Hilda_Deborah_NTNU.jpg
 institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
+wps:
+- WP6
 projects: []
 roles:
 - Member
@@ -17,12 +18,12 @@ urls:
   institutional_website: https://sites.google.com/view/tobinghd/
   github: https://github.com/hildatobing
   linkedin: https://www.linkedin.com/in/hildadeborah/
-  orcid: https://orcid.org/0000-0003-3779-2569
-  nva: https://nva.sikt.no/research-profile/1305503
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0003-3779-2569
+  nva: https://nva.sikt.no/research-profile/1305503
 aliases: []
 tags:
 - Digital Humanities
@@ -30,12 +31,26 @@ tags:
 - Hyperspectral imaging
 - Image quality
 - Image processing
+- imaging for cultural heritage
+- image analysis
+- databases
+- manuscript research
+- texture analysis
+- perception studies
+- image quality assessments
 search_keywords:
 - Digital Humanities
 - Remote sensing
 - Hyperspectral imaging
 - Image quality
 - Image processing
+- imaging for cultural heritage
+- image analysis
+- databases
+- manuscript research
+- texture analysis
+- perception studies
+- image quality assessments
 selected_works:
 - title: Surveying Imaging Workflows and Software in Cultural Heritage
   year: '2025'
@@ -200,13 +215,10 @@ selected_works:
     slug: hilda-deborah
     url: /people/hilda-deborah/
 source_mentions: []
-description: Researcher, Department of Computer Science, Norwegian University of Science
-  and Technology
-wps:
-- WP6
 permalink: /people/hilda-deborah/
 redirect_from:
 - /directory/people/hilda-deborah/
+image: /assets/images/portraits/Hilda_Deborah_NTNU.jpg
 ---
 
 Bio coming soon.

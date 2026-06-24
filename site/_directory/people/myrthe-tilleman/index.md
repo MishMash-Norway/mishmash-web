@@ -8,20 +8,23 @@ department: Department for Informatics
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
+- WP7
 projects: []
 roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.mn.uio.no/ifi/english/people/aca/metillem/index.html
   github: https://github.com/MyrtheTi
   linkedin: https://www.linkedin.com/in/myrthe-t
-  orcid: https://orcid.org/0009-0009-9182-5000
-  nva: https://nva.sikt.no/research-profile/1773112
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0009-0009-9182-5000
+  nva: https://nva.sikt.no/research-profile/1773112
 aliases: []
 tags:
 - Prosthesis
@@ -33,6 +36,10 @@ tags:
 - Machine Learning
 - Human computer interaction
 - Network systems
+- Human-machine interaction
+- immersive interaction
+- brain-computer interfaces
+- real-time systems
 search_keywords:
 - Prosthesis
 - Motion Capture
@@ -43,6 +50,10 @@ search_keywords:
 - Machine Learning
 - Human computer interaction
 - Network systems
+- Human-machine interaction
+- immersive interaction
+- brain-computer interfaces
+- real-time systems
 selected_works:
 - title: 'Impact of Latency on User Experience in Immersive Teleoperation: A Study
     with Motion Capture Gloves and Dexterous Robotic Hand'
@@ -96,10 +107,6 @@ selected_works:
   - name: Alessandro Filippeschi
     role: Creator
 source_mentions: []
-description: Research fellow, Department for Informatics, University of Oslo
-wps:
-- WP1
-- WP7
 permalink: /people/myrthe-tilleman/
 redirect_from:
 - /directory/people/myrthe-tilleman/

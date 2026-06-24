@@ -8,6 +8,8 @@ department: Department of Computer Science and Communication
 institution: ostfold-university-college
 institutions:
 - ostfold-university-college
+wps:
+- WP1
 projects: []
 roles:
 - Member
@@ -16,15 +18,17 @@ urls:
   institutional_website: http://www.nichele.eu
   github: ''
   linkedin: https://www.linkedin.com/in/stefano-nichele-a873714/
-  orcid: https://orcid.org/0000-0003-4696-9872
-  nva: https://nva.sikt.no/research-profile/34224
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0003-4696-9872
+  nva: https://nva.sikt.no/research-profile/34224
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- artificial life
+search_keywords:
+- artificial life
 selected_works:
 - title: Information theoretic measures of neural and behavioural coupling predict
     representational drift
@@ -370,10 +374,6 @@ selected_works:
   - name: Ioanna Sandvig
     role: Creator
 source_mentions: []
-description: Professor, Department of Computer Science and Communication, Ostfold
-  University College
-wps:
-- WP1
 permalink: /people/stefano-nichele/
 redirect_from:
 - /directory/people/stefano-nichele/

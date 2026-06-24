@@ -1,31 +1,19 @@
 ---
-layout: person
 type: person
 slug: jens-knigge
 name: Jens Knigge
 title: Jens Knigge
 position: Professor
 department: Department of Teacher Education
-image: /assets/images/portraits/Jens_Knigge_NTNU.jpg
 institution: norwegian-university-of-science-and-technology
 institutions:
 - nord-university
 - norwegian-academy-of-music
 - norwegian-university-of-science-and-technology
-nva_affiliations:
-- role: Professor
-  unit: Department of Teacher Education
-  institution: norwegian-university-of-science-and-technology
-- role: Professor
-  unit: Faculty of Education and Arts
-  institution: nord-university
+wps:
+- WP4
 projects:
 - scoping-review-creative-ai-teaching-learning
-other_projects:
-- title: dialoguing@rts – Advancing Cultural Literacy for Social Inclusion through
-    Dialogical Arts Education
-  url: https://nva.sikt.no/projects/2653343
-  nva_id: '2653343'
 roles:
 - Member
 urls:
@@ -33,19 +21,39 @@ urls:
   institutional_website: http://jensknigge.info
   github: ''
   linkedin: https://www.linkedin.com/in/jens-knigge-558490117/
-  orcid: https://orcid.org/0000-0002-3910-7716
-  nva: https://nva.sikt.no/research-profile/959009
   youtube: ''
   facebook: https://www.facebook.com/knigge.jens/
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0002-3910-7716
+  nva: https://nva.sikt.no/research-profile/959009
 aliases: []
 tags:
 - Music education
 - Music didaktik
+- Empirical music education research
+- Musical competence development
+- Arts Education
+- Psychometrics
+- Item response theory
+- Competency modelling
+- Technology-based assessment
+- Large-scale assessment
+- Instructional quality in music education
+- Music teacher education
 search_keywords:
 - Music education
 - Music didaktik
+- Empirical music education research
+- Musical competence development
+- Arts Education
+- Psychometrics
+- Item response theory
+- Competency modelling
+- Technology-based assessment
+- Large-scale assessment
+- Instructional quality in music education
+- Music teacher education
 selected_works:
 - title: 'Music Screening for Children I (MSC-I): Adaptation, technical report, and
     companion materials'
@@ -191,13 +199,18 @@ selected_works:
   - name: Ola Marius Ryan
     role: Creator
 source_mentions: []
-description: Professor, Department of Teacher Education, Norwegian University of Science
-  and Technology
-wps:
-- WP4
 permalink: /people/jens-knigge/
 redirect_from:
 - /directory/people/jens-knigge/
+layout: person
+image: /assets/images/portraits/Jens_Knigge_NTNU.jpg
+nva_affiliations:
+- role: Professor
+  unit: Department of Teacher Education
+  institution: norwegian-university-of-science-and-technology
+- role: Professor
+  unit: Faculty of Education and Arts
+  institution: nord-university
 ---
 
 Bio coming soon.

@@ -5,10 +5,12 @@ name: Juan Vassallo
 title: Juan Vassallo
 position: Research fellow
 department: Faculty of Fine Art, Music and Design
-image: /assets/images/portraits/Juan_Vassallo_UiB.jpg
 institution: university-of-bergen
 institutions:
 - university-of-bergen
+wps:
+- WP1
+- WP2
 projects: []
 roles:
 - Member
@@ -17,15 +19,35 @@ urls:
   institutional_website: https://www.juanvassallo.com
   github: https://github.com/juansv2k2
   linkedin: ''
-  orcid: https://orcid.org/0009-0000-3714-601X
-  nva: https://nva.sikt.no/research-profile/1288971
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0009-0000-3714-601X
+  nva: https://nva.sikt.no/research-profile/1288971
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Artificial Intelligence
+- Human–Computer Interaction
+- Computer-Assisted Composition
+- Algorithmic Creativity
+- Live Electronics
+- Generative Art
+- Computational Musicology
+- Algorithmic Poetry
+- Interactive Systems
+- Artistic Research
+search_keywords:
+- Artificial Intelligence
+- Human–Computer Interaction
+- Computer-Assisted Composition
+- Algorithmic Creativity
+- Live Electronics
+- Generative Art
+- Computational Musicology
+- Algorithmic Poetry
+- Interactive Systems
+- Artistic Research
 selected_works:
 - title: 'NeuralConstraints: integrating a neural generative model with constraint-based
     composition'
@@ -75,14 +97,10 @@ selected_works:
     slug: juan-vassallo
     url: /people/juan-vassallo/
 source_mentions: []
-description: Research fellow, Faculty of Fine Art, Music and Design, University of
-  Bergen
-wps:
-- WP1
-- WP2
 permalink: /people/juan-vassallo/
 redirect_from:
 - /directory/people/juan-vassallo/
+image: /assets/images/portraits/Juan_Vassallo_UiB.jpg
 ---
 
 Bio coming soon.

@@ -8,6 +8,10 @@ department: Department of Computer Science and Computational Engineering
 institution: arctic-university-of-norway
 institutions:
 - arctic-university-of-norway
+wps:
+- WP1
+- WP2
+- WP5
 projects:
 - evaluation-cultural-bias-workflow-ai-music-generation
 roles:
@@ -17,15 +21,31 @@ urls:
   institutional_website: ''
   github: https://github.com/dadmaan
   linkedin: https://www.linkedin.com/in/dadman/
-  orcid: https://orcid.org/0000-0003-1970-5353
-  nva: https://nva.sikt.no/research-profile/1218059
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0003-1970-5353
+  nva: https://nva.sikt.no/research-profile/1218059
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Human-Computer Interaction (HCI)
+- Computational Creativity
+- Deep Learning
+- Reinforcement Learning
+- Multi-Agent Systems
+- Human-AI Co-Creation
+- Music Information Retrieval
+- Neural Audio Synthesis
+search_keywords:
+- Human-Computer Interaction (HCI)
+- Computational Creativity
+- Deep Learning
+- Reinforcement Learning
+- Multi-Agent Systems
+- Human-AI Co-Creation
+- Music Information Retrieval
+- Neural Audio Synthesis
 selected_works:
 - title: 'Beyond Autonomous Creation in AI Music Generation: Multi-Agent Perception-Policy
     Separation with Process-Oriented Evaluation for User-Centric, Adaptive Systems'
@@ -163,13 +183,10 @@ selected_works:
   - name: Kristoffer Tangrand
     role: Creator
 source_mentions: []
-summary: null
-description: Research fellow, Department of Computer Science and Computational Engineering,
-  Arctic University of Norway
-wps:
-- WP1
-- WP2
-- WP5
+summary: Shayan Dadman (BSc, MSc, PhD) is a researcher at UiT — The Arctic University
+  of Norway. His research explores human-AI co-creation in music through the development
+  of AI-driven tools designed to foster meaningful collaboration and partnership between
+  humans and machines.
 permalink: /people/shayan-dadman/
 redirect_from:
 - /directory/people/shayan-dadman/

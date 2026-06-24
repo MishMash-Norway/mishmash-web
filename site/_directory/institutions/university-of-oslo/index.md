@@ -6,7 +6,8 @@ permalink: /institutions/university-of-oslo/
 redirect_from:
 - /directory/institutions/university-of-oslo/
 name: University of Oslo
-description: The University of Oslo is a public research university located in Oslo, Norway. It is the oldest university in Norway. Originally named the Royal...
+description: The University of Oslo is a public research university located in Oslo,
+  Norway. It is the oldest university in Norway. Originally named the Royal...
 short_name: UiO
 image: /images/institutions/university-of-oslo.svg
 people:
@@ -15,6 +16,8 @@ people:
 - anders-tveit
 - andreas-love
 - anna-maria-christodoulou
+- balint-laczko
+- benedikte-wallace
 - cagri-erdem
 - carsten-griwodz
 - charles-martin
@@ -28,11 +31,15 @@ people:
 - jonna-vuoskoski
 - kai-olav-ellefsen
 - kyrre-glette
+- maham-riaz
 - myrthe-tilleman
+- nanette-nielsen
 - ole-andreas-rognstad
 - olivier-lartillot
+- pedro-lucas
 - peter-edwards
 - ragnhild-brovig
+- sagar-dutta
 - sascha-fruhholz
 - stefano-fasciani
 - susanne-o-saether

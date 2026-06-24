@@ -5,35 +5,44 @@ name: Richard Gjems
 title: Richard Gjems
 position: Head of Section
 department: Musikk
-image: /assets/images/portraits/Richard_Gjems_NB.jpg
 institution: national-library-of-norway
 institutions:
 - national-library-of-norway
+wps:
+- WP6
 projects: []
 roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.nb.no
   github: ''
   linkedin: https://www.linkedin.com/in/richard-gjems-42682216/
-  orcid: https://orcid.org/0009-0007-2687-6376
-  nva: https://nva.sikt.no/research-profile/13842
   youtube: https://www.youtube.com/c/RichardGjems
   facebook: https://www.facebook.com/richard.gjems/
   mastodon: ''
   instagram: https://www.instagram.com/richardgjems/
+  orcid: https://orcid.org/0009-0007-2687-6376
+  nva: https://nva.sikt.no/research-profile/13842
 aliases: []
 tags:
 - Digital library
 - Cultural History
 - Archives
 - Library Science
+- digital cultural heritage
+- rights management
+- archival theory
+- popular music history
 search_keywords:
 - Digital library
 - Cultural History
 - Archives
 - Library Science
+- digital cultural heritage
+- rights management
+- archival theory
+- popular music history
 selected_works:
 - title: Bekken, Gjems & Berg - De Små Scener, Kongsvinger
   year: '2026'
@@ -151,12 +160,10 @@ selected_works:
     url: /people/richard-gjems/
 source_mentions: []
 summary: Master in Cultural History from the University of Oslo (2003).
-description: Head of Section, Musikk, National Library of Norway
-wps:
-- WP6
 permalink: /people/richard-gjems/
 redirect_from:
 - /directory/people/richard-gjems/
+image: /assets/images/portraits/Richard_Gjems_NB.jpg
 ---
 
 Bio coming soon.

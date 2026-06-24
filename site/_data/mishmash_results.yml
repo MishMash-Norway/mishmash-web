@@ -1,4 +1,4 @@
-synced_at: '2026-06-24T08:27:52Z'
+synced_at: '2026-06-24T21:02:56Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -271,6 +271,8 @@ results:
   contributors:
   - name: Balint Laczko
     role: Creator
+    slug: balint-laczko
+    url: /people/balint-laczko/
   - name: Alexander Refsum Jensenius
     role: Creator
     slug: alexander-refsum-jensenius
@@ -283,6 +285,8 @@ results:
     authors:
     - display: Laczko, Balint
       name: Balint Laczko
+      slug: balint-laczko
+      url: /people/balint-laczko/
     - display: Jensenius, Alexander Refsum
       name: Alexander Refsum Jensenius
       slug: alexander-refsum-jensenius
@@ -3128,6 +3132,8 @@ results:
     url: /people/diego-marin-bucio/
   - name: Benedikte Wallace
     role: InterviewSubject
+    slug: benedikte-wallace
+    url: /people/benedikte-wallace/
   - name: Olivier Lartillot
     role: InterviewSubject
     slug: olivier-lartillot

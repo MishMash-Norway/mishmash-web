@@ -25,3 +25,7 @@ node_modules/
 config/nva-credentials.prod.json
 config/nva-credentials.test.json
 config/nva-credentials.json
+
+# Others
+
+temp/

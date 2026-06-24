@@ -5,41 +5,51 @@ name: Andreas Bergsland
 title: Andreas Bergsland
 position: Professor
 department: Department of Music
-image: /assets/images/portraits/Andreas_Bergsland_NTNU.jpg
 institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
-affiliation_units:
-- Norwegian University of Science and Technology
-- Faculty of Humanities
-- Department of Music
+wps:
+- WP1
+- WP3
 projects:
 - evaluation-cultural-bias-workflow-ai-music-generation
 - movement-to-music-hackathon
 roles:
-- Work package leader
+- Member
 urls:
-  personal_website: ''
+  personal_website: https://andbe.folk.ntnu.no/
   institutional_website: http://folk.ntnu.no/andbe/
   github: ''
   linkedin: ''
-  orcid: https://orcid.org/0000-0001-8517-447X
-  nva: https://nva.sikt.no/research-profile/40738
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0001-8517-447X
+  nva: https://nva.sikt.no/research-profile/40738
 aliases: []
 tags:
 - Construction of musical instruments
 - Interactive music
 - Interactive systems
 - Music Technology
+- interactive dance
+- accessible musical instruments
+- electroacoustic music
+- movement-music relationships
+- AI and music
+- rave models
 search_keywords:
 - Construction of musical instruments
 - Interactive music
 - Interactive systems
 - Music Technology
+- interactive dance
+- accessible musical instruments
+- electroacoustic music
+- movement-music relationships
+- AI and music
+- rave models
 selected_works:
 - title: Facilitating the Development of Interactive Wheelchair Sonifications
   year: '2026'
@@ -173,9 +183,13 @@ summary: Andreas Bergsland completed a PhD in music technology/systematic musico
   featuring voice. Bergsland previously holds a graduate degree (1999) from the same
   university, with a thesis on the relationship between text and music in Olav Anton
   Thommessen's symphonic song, "Vævet af stængler."
-description: Professor, Department of Music, Norwegian University of Science and Technology
 permalink: /people/andreas-bergsland/
 redirect_from:
 - /directory/people/andreas-bergsland/
+image: /assets/images/portraits/Andreas_Bergsland_NTNU.jpg
+affiliation_units:
+- Norwegian University of Science and Technology
+- Faculty of Humanities
+- Department of Music
 ---
 

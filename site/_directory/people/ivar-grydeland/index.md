@@ -1,46 +1,42 @@
 ---
-layout: person
 type: person
 slug: ivar-grydeland
 name: Ivar Grydeland
 title: Ivar Grydeland
 position: Associate professor
 department: Fagseksjon for improvisert musikk, jazz og folkemusikk
-image: /assets/images/portraits/Ivar_Grydeland_NMH.jpg
 institution: norwegian-academy-of-music
 institutions:
 - norwegian-academy-of-music
 - university-of-agder
-affiliation_units:
-- Norwegian Academy of Music
-- Norges musikkhøgskole, Diverse fagseksjoner
-- Fagseksjon for improvisert musikk, jazz og folkemusikk
+wps:
+- WP1
+- WP2
 projects:
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq
-other_projects:
-- title: CreateMe
-  url: https://nva.sikt.no/projects/2591724
-  nva_id: '2591724'
-- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
-  url: https://nva.sikt.no/projects/568602
-  nva_id: '568602'
 roles:
-- Work package leader
+- Member
 urls:
-  personal_website: ''
-  institutional_website: ''
+  personal_website: https://ivargrydeland.com/
+  institutional_website: https://nmh.no/kontakt-oss/ansatte/ivar-grydeland
   github: ''
-  linkedin: ''
+  linkedin: https://linkedin.com/in/ivar-grydeland-126b74383
+  youtube: ''
+  facebook: https://www.facebook.com/ivar.grydeland.5
+  mastodon: ''
+  instagram: https://ivargrydeland
   orcid: https://orcid.org/0009-0007-3445-7294
   nva: https://nva.sikt.no/research-profile/326537
-  youtube: ''
-  facebook: ''
-  mastodon: ''
-  instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- human-machine improvisation
+- collective improvisation
+- telematic performance
+search_keywords:
+- human-machine improvisation
+- collective improvisation
+- telematic performance
 selected_works:
 - title: 'Love Your Latency: The Glitching Spatiotemporality of Telematic Music Performances'
   year: '2026'
@@ -188,11 +184,14 @@ selected_works:
     url: /people/ivar-grydeland/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
-description: Associate professor, Fagseksjon for improvisert musikk, jazz og folkemusikk,
-  Norwegian Academy of Music
 permalink: /people/ivar-grydeland/
 redirect_from:
 - /directory/people/ivar-grydeland/
+layout: person
+image: /assets/images/portraits/Ivar_Grydeland_NMH.jpg
+affiliation_units:
+- Norwegian Academy of Music
+- Norges musikkhøgskole, Diverse fagseksjoner
+- Fagseksjon for improvisert musikk, jazz og folkemusikk
 ---
 

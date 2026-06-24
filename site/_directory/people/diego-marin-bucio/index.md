@@ -5,18 +5,13 @@ name: Diego Marin Bucio
 title: Diego Marin Bucio
 position: Research fellow
 department: Department of Musicology
-image: /assets/images/portraits/Diego_Marin_Bucio_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
+- WP2
 projects: []
-other_projects:
-- title: DjembeDance - Multimodal rhythm in music and dance from West Africa
-  url: https://nva.sikt.no/projects/2747770
-  nva_id: '2747770'
-- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
-  url: https://nva.sikt.no/projects/568602
-  nva_id: '568602'
 roles:
 - Member
 urls:
@@ -24,12 +19,12 @@ urls:
   institutional_website: https://www.diegomarin.art
   github: ''
   linkedin: https://www.linkedin.com/in/diegomarinbucio/
-  orcid: https://orcid.org/0000-0001-8334-5124
-  nva: https://nva.sikt.no/research-profile/1635214
   youtube: https://www.youtube.com/@diegomarinmx
   facebook: https://www.facebook.com/diegomarinart/
   mastodon: ''
   instagram: https://www.instagram.com/diegomarinmx/
+  orcid: https://orcid.org/0000-0001-8334-5124
+  nva: https://nva.sikt.no/research-profile/1635214
 aliases: []
 tags:
 - Dance anthropology
@@ -39,6 +34,14 @@ tags:
 - Choreography
 - Phenomenology of the body
 - Ethnochoreology
+- Dance
+- Phenomenology
+- Human-AI interaction
+- Anthropology
+- Theater
+- Performing Arts
+- Choreomusicology
+- Choreography.
 search_keywords:
 - Dance anthropology
 - Philosophy of Technology
@@ -47,6 +50,14 @@ search_keywords:
 - Choreography
 - Phenomenology of the body
 - Ethnochoreology
+- Dance
+- Phenomenology
+- Human-AI interaction
+- Anthropology
+- Theater
+- Performing Arts
+- Choreomusicology
+- Choreography.
 selected_works:
 - title: 'A Framework for Human–AI Dance Creation: The Machinic Movement Matrix'
   year: '2026'
@@ -170,13 +181,10 @@ selected_works:
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 source_mentions: []
-description: Research fellow, Department of Musicology, University of Oslo
-wps:
-- WP1
-- WP2
 permalink: /people/diego-marin-bucio/
 redirect_from:
 - /directory/people/diego-marin-bucio/
+image: /assets/images/portraits/Diego_Marin_Bucio_UiO.jpg
 ---
 
 Bio coming soon.

@@ -6,11 +6,13 @@ permalink: /institutions/nla-university-college/
 redirect_from:
 - /directory/institutions/nla-university-college/
 name: NLA University College
-description: NLA University College is a private Norwegian Christian college accredited by the Norwegian Agency for Quality Assurance in Education. The university...
+description: NLA University College is a private Norwegian Christian college accredited
+  by the Norwegian Agency for Quality Assurance in Education. The university...
 short_name: NLA
 image: /images/institutions/nla-university-college.png
 people:
 - clemens-cavallin
+- francis-borchardt
 - ole-fredrik-norbye
 projects: []
 country: null

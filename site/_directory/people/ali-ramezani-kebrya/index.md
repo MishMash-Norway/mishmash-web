@@ -8,23 +8,10 @@ department: Department for Informatics
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
+- WP7
 projects: []
-other_projects:
-- title: 'AURoRA: ??? ??? ?? ????? ??? ?? ??? ??–?? ?? ??'
-  url: https://nva.sikt.no/projects/2769429
-  nva_id: '2769429'
-- title: Integreat - Norsk senter for kunnskapsdrevet maskinlæring
-  url: https://nva.sikt.no/projects/2769426
-  nva_id: '2769426'
-- title: Maskinlæring i den Virkelige Verden (MLReal)
-  url: https://nva.sikt.no/projects/2769425
-  nva_id: '2769425'
-- title: Norwegian Centre for Knowledge-driven Machine Learning
-  url: https://nva.sikt.no/projects/2637937
-  nva_id: '2637937'
-- title: Visuell Intelligens
-  url: https://nva.sikt.no/projects/2769427
-  nva_id: '2769427'
 roles:
 - Member
 urls:
@@ -32,12 +19,12 @@ urls:
   institutional_website: ''
   github: ''
   linkedin: https://www.linkedin.com/in/ali-ramezani-kebrya-6896b924/
-  orcid: https://orcid.org/0000-0002-8767-5603
-  nva: https://nva.sikt.no/research-profile/1515423
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0002-8767-5603
+  nva: https://nva.sikt.no/research-profile/1515423
 aliases: []
 tags: []
 search_keywords: []
@@ -373,10 +360,6 @@ selected_works:
   - name: Volkan Cevher
     role: Creator
 source_mentions: []
-description: Associate professor, Department for Informatics, University of Oslo
-wps:
-- WP1
-- WP7
 permalink: /people/ali-ramezani-kebrya/
 redirect_from:
 - /directory/people/ali-ramezani-kebrya/

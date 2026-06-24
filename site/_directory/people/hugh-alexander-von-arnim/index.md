@@ -8,43 +8,42 @@ department: Department of Musicology
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
+- WP6
 projects: []
-other_projects:
-- title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
-  url: https://nva.sikt.no/projects/2743421
-  nva_id: '2743421'
-- title: Bodies in Concert
-  url: https://nva.sikt.no/projects/2744062
-  nva_id: '2744062'
-- title: fourMs Lab Upgrade
-  url: https://nva.sikt.no/projects/2748527
-  nva_id: '2748527'
-- title: Predictive and Intuitive Robot Companion (PIRC)
-  url: https://nva.sikt.no/projects/2747768
-  nva_id: '2747768'
-- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
-  url: https://nva.sikt.no/projects/568602
-  nva_id: '568602'
-- title: TeamLearn - Teamwork analytics for training collaborative problem solving
-    in professional higher education
-  url: https://nva.sikt.no/projects/2750147
-  nva_id: '2750147'
 roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.uio.no/ritmo/english/people/phd-fellows/hughav/
   github: https://github.com/Hughav92
   linkedin: ''
-  orcid: https://orcid.org/0009-0005-7511-9019
-  nva: https://nva.sikt.no/research-profile/1705517
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0009-0005-7511-9019
+  nva: https://nva.sikt.no/research-profile/1705517
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Motion Analysis
+- Sensors
+- Sound Analysis
+- Interactive Performance Systems
+- Live Concert Research
+- Multimodality
+- Philosophy of Technology
+- Agential Realism
+search_keywords:
+- Motion Analysis
+- Sensors
+- Sound Analysis
+- Interactive Performance Systems
+- Live Concert Research
+- Multimodality
+- Philosophy of Technology
+- Agential Realism
 selected_works:
 - title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
     Arts
@@ -223,10 +222,6 @@ selected_works:
   - name: Crina I. Damsa
     role: Creator
 source_mentions: []
-description: Research fellow, Department of Musicology, University of Oslo
-wps:
-- WP1
-- WP6
 permalink: /people/hugh-alexander-von-arnim/
 redirect_from:
 - /directory/people/hugh-alexander-von-arnim/

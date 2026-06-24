@@ -8,23 +8,35 @@ department: Department of Religion, Philosophy and History
 institution: university-of-agder
 institutions:
 - university-of-agder
+wps:
+- WP6
 projects: []
 roles:
 - Member
 urls:
   personal_website: https://www.uia.no/om-uia/ansatte/arsteinj/
-  institutional_website: ''
+  institutional_website: https://www.uia.no/om-uia/ansatte/arsteinj/
   github: ''
   linkedin: ''
-  orcid: https://orcid.org/0000-0001-6448-0507
-  nva: https://nva.sikt.no/research-profile/328873
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0001-6448-0507
+  nva: https://nva.sikt.no/research-profile/328873
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Dead Sea Scrolls
+- Manuscript Studies
+- Digital Humanities
+- AI
+- Mindfulness
+search_keywords:
+- Dead Sea Scrolls
+- Manuscript Studies
+- Digital Humanities
+- AI
+- Mindfulness
 selected_works:
 - title: Smuglergodset som ble buddhismens dødehavsruller
   year: '2026'
@@ -140,11 +152,6 @@ selected_works:
   - name: Signe Marie Hægeland
     role: Creator
 source_mentions: []
-summary: null
-description: Associate professor, Department of Religion, Philosophy and History,
-  University of Agder
-wps:
-- WP6
 permalink: /people/arstein-justnes/
 redirect_from:
 - /directory/people/arstein-justnes/

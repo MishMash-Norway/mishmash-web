@@ -5,42 +5,51 @@ name: Eirik Sørbø
 title: Eirik Sørbø
 position: Associate professor
 department: Department of Popular Music
-image: /assets/images/portraits/eirik_sorbo_UiA.jpg
 institution: university-of-agder
 institutions:
 - university-of-agder
+wps:
+- WP4
 projects:
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
 - the-mishmash-website
-other_projects:
-- title: CreateMe
-  url: https://nva.sikt.no/projects/2591724
-  nva_id: '2591724'
 roles:
-- Work package leader
+- Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.uia.no/english/about-uia/employees/eiriks05/index.html
   github: https://github.com/EirikSorbo
   linkedin: https://www.linkedin.com/in/eirik-s%C3%B8rb%C3%B8-bb4344189/
-  orcid: https://orcid.org/0000-0002-3049-4422
-  nva: https://nva.sikt.no/research-profile/1014980
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0002-3049-4422
+  nva: https://nva.sikt.no/research-profile/1014980
 aliases: []
 tags:
 - Music education
 - Higher music education
 - Artificial intelligence
 - Music Technology
+- Music Pedagogy
+- Popular Music Education
+- Electronic Music Education
+- Subjectification
+- World-centered Education
+- Popular Music History.
 search_keywords:
 - Music education
 - Higher music education
 - Artificial intelligence
 - Music Technology
+- Music Pedagogy
+- Popular Music Education
+- Electronic Music Education
+- Subjectification
+- World-centered Education
+- Popular Music History.
 selected_works:
 - title: 'Don''t do this at home: Re-amping the Norwegian Broadcasting Orchestra (KORK)
     for Nils Petter Molvær''s Certainty of Tides'
@@ -144,12 +153,10 @@ summary: Researcher, educator, and musician. PhD in music education from the Uni
   Engaged in several projects, including MishMash (work package leader) and CreaTeME
   (project developer). Active grant writer with a strong track record of securing
   research funding.
-description: Associate professor, Department of Popular Music, University of Agder
-layout: person
-wps:
-- WP4
 permalink: /people/eirik-sorbo/
 redirect_from:
 - /directory/people/eirik-sorbo/
+layout: person
+image: /assets/images/portraits/eirik_sorbo_UiA.jpg
 ---
 

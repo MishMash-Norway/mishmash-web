@@ -5,34 +5,29 @@ name: Synne Tollerud Bull
 title: Synne Tollerud Bull
 position: Professor
 department: School of Arts, Design, and Media
-image: /assets/images/portraits/Synne_Tollerud_Bull_Kristiania.jpg
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college
-affiliation_units:
-- Kristiania University of Applied Sciences
-- School of Arts, Design, and Media
-- Westerdals Department of Film and Media
+wps:
+- WP2
+- WP5
+- WP6
 projects:
 - ai-as-environment
 - tao-transductive-acoustic-organism
-other_projects:
-- title: 'Kunstens co-pilot: Kunst og KI i et prosessøkologisk perspektiv'
-  url: https://nva.sikt.no/projects/2755448
-  nva_id: '2755448'
 roles:
-- Work package leader
+- Member
 urls:
   personal_website: https://bull.miletic.info/
   institutional_website: https://www.kristiania.no/om-kristiania/ansatte/school-of-arts-design-and-media/institutt-for-scenekunst-film-og-medier/synne-tollerud-bull/
   github: https://github.com/SynneTB
   linkedin: https://www.linkedin.com/in/synne-tollerud-bull-a86b0222/
-  orcid: https://orcid.org/0000-0002-4248-5363
-  nva: https://nva.sikt.no/research-profile/325669
   youtube: https://vimeo.com/bullmiletic
   facebook: https://www.facebook.com/synne.t.bull
   mastodon: ''
   instagram: https://www.instagram.com/synnetollerudbull/
+  orcid: https://orcid.org/0000-0002-4248-5363
+  nva: https://nva.sikt.no/research-profile/325669
 aliases: []
 tags:
 - Media-art
@@ -41,6 +36,16 @@ tags:
 - Media Theory
 - Visual culture
 - New Media
+- AI Ecologies
+- Artistic Research
+- Media Art
+- Artificial Intelligence
+- Environmental Humanities
+- Machine Vision
+- Creative AI
+- Media Archaeology
+- Art and Technology
+- Proxistance
 search_keywords:
 - Media-art
 - Art History
@@ -48,6 +53,16 @@ search_keywords:
 - Media Theory
 - Visual culture
 - New Media
+- AI Ecologies
+- Artistic Research
+- Media Art
+- Artificial Intelligence
+- Environmental Humanities
+- Machine Vision
+- Creative AI
+- Media Archaeology
+- Art and Technology
+- Proxistance
 selected_works:
 - title: Ocean Futures in the Making
   year: '2026'
@@ -187,13 +202,13 @@ summary: 'Synne Tollerud Bull is a media artist, researcher, and Professor, curr
 
   She has developed the concept of proxistant vision to describe image forms that
   combine proximity and distance within a single vi'
-description: Professor, School of Arts, Design, and Media, Kristiania University College
-wps:
-- WP2
-- WP5
-- WP6
 permalink: /people/synne-tollerud-bull/
 redirect_from:
 - /directory/people/synne-tollerud-bull/
+image: /assets/images/portraits/Synne_Tollerud_Bull_Kristiania.jpg
+affiliation_units:
+- Kristiania University of Applied Sciences
+- School of Arts, Design, and Media
+- Westerdals Department of Film and Media
 ---
 

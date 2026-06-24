@@ -8,18 +8,12 @@ department: Department for Informatics
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
+- WP4
+- WP7
 projects:
 - rhyglyph-rhydiff-rhyseq
-other_projects:
-- title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
-  url: https://nva.sikt.no/projects/2743421
-  nva_id: '2743421'
-- title: fourMs Lab Upgrade
-  url: https://nva.sikt.no/projects/2748527
-  nva_id: '2748527'
-- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
-  url: https://nva.sikt.no/projects/568602
-  nva_id: '568602'
 roles:
 - Member
 urls:
@@ -27,15 +21,35 @@ urls:
   institutional_website: http://cagrierdem.net
   github: https://github.com/cerdemo
   linkedin: https://www.linkedin.com/in/cagrierdem/
-  orcid: https://orcid.org/0000-0003-2632-6829
-  nva: https://nva.sikt.no/research-profile/1008031
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/cagrierdem_/
+  orcid: https://orcid.org/0000-0003-2632-6829
+  nva: https://nva.sikt.no/research-profile/1008031
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- music
+- rhythm
+- embodied
+- machine learning
+- interaction
+- multimodal
+- co-creativity
+- agency
+- entanglement
+- design
+search_keywords:
+- music
+- rhythm
+- embodied
+- machine learning
+- interaction
+- multimodal
+- co-creativity
+- agency
+- entanglement
+- design
 selected_works:
 - title: Autonomous Listening-Based Synthesizer Control with Reinforcement Learning
     for Live Sound Matching
@@ -221,12 +235,6 @@ selected_works:
     slug: cagri-erdem
     url: /people/cagri-erdem/
 source_mentions: []
-description: Post-doctoral research fellow, Department for Informatics, University
-  of Oslo
-wps:
-- WP1
-- WP4
-- WP7
 permalink: /people/cagri-erdem/
 redirect_from:
 - /directory/people/cagri-erdem/

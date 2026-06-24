@@ -5,18 +5,12 @@ name: Gabriele de Seta
 title: Gabriele de Seta
 position: Researcher
 department: Department of Linguistic, Literary and Aesthetic studies
-image: /assets/images/portraits/Gabriele_de_Seta_UiB.jpg
 institution: university-of-bergen
 institutions:
 - university-of-bergen
+wps:
+- WP2
 projects: []
-other_projects:
-- title: 'Algorithmic folklore: The mutual shaping of vernacular creativity and automation'
-  url: https://nva.sikt.no/projects/2712526
-  nva_id: '2712526'
-- title: Center for Digital Narrative
-  url: https://nva.sikt.no/projects/2629404
-  nva_id: '2629404'
 roles:
 - Member
 urls:
@@ -24,12 +18,12 @@ urls:
   institutional_website: http://paranom.asia
   github: https://github.com/notsaved/
   linkedin: https://www.linkedin.com/in/gabrieledeseta/
-  orcid: https://orcid.org/0000-0003-0497-2811
-  nva: https://nva.sikt.no/research-profile/1241495
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0003-0497-2811
+  nva: https://nva.sikt.no/research-profile/1241495
 aliases: []
 tags:
 - Anthropology
@@ -43,6 +37,14 @@ tags:
 - Qualitative research
 - Digital ethnography
 - Artificial intelligence
+- machine learning
+- vernacular creativity
+- digital folklore
+- sociology of technology
+- China
+- infrastructure
+- sound studies
+- qualitative methods
 search_keywords:
 - Anthropology
 - Ethnography
@@ -55,6 +57,14 @@ search_keywords:
 - Qualitative research
 - Digital ethnography
 - Artificial intelligence
+- machine learning
+- vernacular creativity
+- digital folklore
+- sociology of technology
+- China
+- infrastructure
+- sound studies
+- qualitative methods
 selected_works:
 - title: 'Ball-ache, dick hair and serial cunt words: The role of vulgarity in Chinese
     internet language'
@@ -186,13 +196,10 @@ summary: I use qualitative methods to study how digital technologies and creativ
   practices shape one another. My research focuses on the everyday use of algorithms,
   social media platforms and digital infrastructures in the Chinese-speaking world.
   I write about memes, deepfakes, and whatever we mean by "AI".
-description: Researcher, Department of Linguistic, Literary and Aesthetic studies,
-  University of Bergen
-wps:
-- WP2
 permalink: /people/gabriele-de-seta/
 redirect_from:
 - /directory/people/gabriele-de-seta/
+image: /assets/images/portraits/Gabriele_de_Seta_UiB.jpg
 ---
 
 Bio coming soon.

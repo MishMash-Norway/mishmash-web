@@ -5,16 +5,13 @@ name: Stefano Fasciani
 title: Stefano Fasciani
 position: Professor
 department: Department of Musicology
-image: /assets/images/portraits/Stefano_Fasciani_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
+wps:
+- WP1
 projects:
 - the-mishmash-website
-other_projects:
-- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
-  url: https://nva.sikt.no/projects/568602
-  nva_id: '568602'
 roles:
 - Member
 urls:
@@ -22,12 +19,12 @@ urls:
   institutional_website: http://people.uio.no/stefanof
   github: https://github.com/stefanofasciani
   linkedin: https://no.linkedin.com/in/stefanofasciani
-  orcid: https://orcid.org/0000-0001-5555-3225
-  nva: https://nva.sikt.no/research-profile/1093312
   youtube: https://www.youtube.com/@stefanofasciani
   facebook: ''
   mastodon: ''
   instagram: ''
+  orcid: https://orcid.org/0000-0001-5555-3225
+  nva: https://nva.sikt.no/research-profile/1093312
 aliases: []
 tags:
 - Digital electronics
@@ -38,6 +35,9 @@ tags:
 - Musical interaction
 - Embedded Systems
 - Music Technology
+- Sound and Music Computing
+- Musical Interfaces
+- Sound Synthesis
 search_keywords:
 - Digital electronics
 - Sound analysis /synthesis
@@ -47,6 +47,9 @@ search_keywords:
 - Musical interaction
 - Embedded Systems
 - Music Technology
+- Sound and Music Computing
+- Musical Interfaces
+- Sound Synthesis
 selected_works:
 - title: Autonomous Listening-Based Synthesizer Control with Reinforcement Learning
     for Live Sound Matching
@@ -211,13 +214,11 @@ selected_works:
 source_mentions: []
 summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learning,
   Music Technology.
-description: Professor, Department of Musicology, University of Oslo
-layout: person
-wps:
-- WP1
 permalink: /people/stefano-fasciani/
 redirect_from:
 - /directory/people/stefano-fasciani/
+layout: person
+image: /assets/images/portraits/Stefano_Fasciani_UiO.jpg
 ---
 
 Bio coming soon.

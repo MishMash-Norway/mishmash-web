@@ -8,14 +8,17 @@ redirect_from:
 - /institutions/inland-norway-university-of-applied-sciences/
 - /directory/institutions/inland-norway-university-of-applied-sciences/
 name: University of Inland Norway
-description: The University of Inland Norway (INN) is a state university in Innlandet county, Norway. It was established in 2017 from the merger of Hedmark University...
+description: The University of Inland Norway (INN) is a state university in Innlandet
+  county, Norway. It was established in 2017 from the merger of Hedmark University...
 short_name: INN
 image: /images/institutions/university-of-inland-norway.png
 people:
 - aedan-soellaart
 - bjorn-tallak-bakken
 - fredrik-graver
+- havard-vibeto
 - ida-jahr
+- mina-brodshaug-sveen
 - nina-fredrikke-grunfeld
 - ole-christian-solbakken
 - ole-christoffer-haga

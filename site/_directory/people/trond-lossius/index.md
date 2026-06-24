@@ -5,24 +5,14 @@ name: Trond Lossius
 title: Trond Lossius
 position: Professor
 department: Faculty of Fine Art, Music and Design
-image: /assets/images/portraits/Trond_Lossius_UiB.jpg
 institution: university-of-bergen
 institutions:
 - university-of-bergen
 - university-of-inland-norway
-nva_affiliations:
-- role: Professor
-  unit: Faculty of Fine Art, Music and Design
-  institution: university-of-bergen
-- role: Professor
-  unit: Faculty of Film, TV and Games
-  institution: university-of-inland-norway
+wps:
+- WP1
+- WP2
 projects: []
-other_projects:
-- title: 'A portal to new worlds of sound: Artistic research into 3D audio in extended
-    reality (XR)'
-  url: https://nva.sikt.no/projects/2731892
-  nva_id: '2731892'
 roles:
 - Member
 urls:
@@ -30,12 +20,12 @@ urls:
   institutional_website: http://trondlossius.no
   github: https://github.com/lossius
   linkedin: ''
-  orcid: https://orcid.org/0000-0003-1162-5551
-  nva: https://nva.sikt.no/research-profile/1081
   youtube: ''
   facebook: https://www.facebook.com/trond.lossius/
   mastodon: ''
   instagram: https://www.instagram.com/trondlossius/
+  orcid: https://orcid.org/0000-0003-1162-5551
+  nva: https://nva.sikt.no/research-profile/1081
 aliases: []
 tags:
 - Electronic Music
@@ -50,6 +40,15 @@ tags:
 - Installations
 - Listening
 - Contemporary art
+- ambisonics
+- audio-vision
+- cross-disciplinarity
+- Dolby Atmos
+- field recording
+- installation art
+- sound art
+- spatial audio
+- suburb soundscapes
 search_keywords:
 - Electronic Music
 - Sound/music in new media
@@ -63,6 +62,15 @@ search_keywords:
 - Installations
 - Listening
 - Contemporary art
+- ambisonics
+- audio-vision
+- cross-disciplinarity
+- Dolby Atmos
+- field recording
+- installation art
+- sound art
+- spatial audio
+- suburb soundscapes
 selected_works:
 - title: Longue Durée
   year: '2026'
@@ -229,13 +237,17 @@ summary: "Trond Lossius is a sound and installation artist based in Bergen, Norw
   \ software framework Jamoma, and he has ported Ambisonic Toolkit to a set of plugins\
   \ for the Reaper DAW. He supervises PhD candidates at several institutions in Norway\
   \ and Sweden."
-description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
-wps:
-- WP1
-- WP2
 permalink: /people/trond-lossius/
 redirect_from:
 - /directory/people/trond-lossius/
+image: /assets/images/portraits/Trond_Lossius_UiB.jpg
+nva_affiliations:
+- role: Professor
+  unit: Faculty of Fine Art, Music and Design
+  institution: university-of-bergen
+- role: Professor
+  unit: Faculty of Film, TV and Games
+  institution: university-of-inland-norway
 ---
 
 Bio coming soon.
