@@ -4,7 +4,7 @@ slug: jacqueline-rowley
 name: Jacqueline Rowley
 title: Jacqueline Rowley
 position: PhD Researcher
-department: ''
+department: Trondheim Academy of Fine Art
 institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
