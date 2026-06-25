@@ -27,7 +27,7 @@ urls:
   nva: https://nva.sikt.no/research-profile/636125
   youtube: ''
   facebook: ''
-  mastodon: https://@NanetteNielsen@mastodon.social
+  mastodon: https://mastodon.social/@NanetteNielsen
   instagram: ''
 aliases: []
 tags: []
