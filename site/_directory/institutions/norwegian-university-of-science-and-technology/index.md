@@ -16,6 +16,7 @@ people:
 - audun-kvitland-rostad
 - govert-valkenburg
 - hilda-deborah
+- jacqueline-rowley
 - jens-knigge
 - ole-christoffer-haga
 - oyvind-brandtsegg

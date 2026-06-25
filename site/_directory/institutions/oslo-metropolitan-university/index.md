@@ -10,6 +10,7 @@ redirect_from:
 - /directory/institutions/oslo-metropolitan-university/
 image: /images/institutions/oslo-metropolitan-university.png
 people:
+- jana-verena-gerhart
 - maria-lokna
 projects: []
 country: null

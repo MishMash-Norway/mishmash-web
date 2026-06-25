@@ -6,13 +6,15 @@ permalink: /institutions/national-library-of-norway/
 redirect_from:
 - /directory/institutions/national-library-of-norway/
 name: National Library of Norway
-description: The National Library of Norway was established in 1989. Its principal task is "to preserve the past for the future". The library is located both in Oslo...
+description: The National Library of Norway was established in 1989. Its principal
+  task is "to preserve the past for the future". The library is located both in Oslo...
 short_name: NB
 image: /images/institutions/national-library-of-norway.png
 people:
 - eivind-rossaak
 - hege-stensrud-hosoien
 - ingrid-romarheim-haugen
+- pierre-beauguitte
 - richard-gjems
 - yngvil-beyer
 projects:
