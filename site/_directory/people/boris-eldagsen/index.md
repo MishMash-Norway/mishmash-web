@@ -5,7 +5,7 @@ name: Boris Eldagsen
 title: Boris Eldagsen
 position: Lecturer
 department: ''
-institution: ''
+institution: LABASAD School of Art & Design
 institutions: []
 projects: []
 roles:
