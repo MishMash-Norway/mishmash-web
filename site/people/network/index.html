@@ -476,12 +476,34 @@ function render() {
     .on("mouseover", showTip).on("mousemove", moveTip).on("mouseout", hideTip)
     .on("click", (_, d) => { if (d.url) window.location.href = d.url; });
 
-  /* person circles */
-  nodeSel.filter(d => d.nodeType === "person")
-    .append("circle")
-    .attr("r", 20)
-    .attr("fill", d => personNodeColor(d))
-    .attr("fill-opacity", 0.88);
+  /* person circles — pie slices when multiple WPs in wp mode */
+  nodeSel.filter(d => d.nodeType === "person").each(function(d) {
+    const el = d3.select(this);
+    const r = 20;
+    if (connectionMode === "wp") {
+      const wps = personWorkPackages(d);
+      if (wps.length > 1) {
+        const arc = d3.arc().innerRadius(0).outerRadius(r);
+        const step = (2 * Math.PI) / wps.length;
+        wps.forEach((wpId, i) => {
+          el.append("path")
+            .attr("d", arc({ startAngle: i * step, endAngle: (i + 1) * step }))
+            .attr("fill", wpColor(wpId))
+            .attr("fill-opacity", 0.88);
+        });
+        el.append("circle").attr("r", r).attr("fill", "none")
+          .attr("stroke", "rgba(255,255,255,0.5)").attr("stroke-width", 1);
+      } else {
+        el.append("circle").attr("r", r)
+          .attr("fill", wps.length ? wpColor(wps[0]) : "#999")
+          .attr("fill-opacity", 0.88);
+      }
+    } else {
+      el.append("circle").attr("r", r)
+        .attr("fill", personNodeColor(d))
+        .attr("fill-opacity", 0.88);
+    }
+  });
 
   nodeSel.filter(d => d.nodeType === "person")
     .append("text")
