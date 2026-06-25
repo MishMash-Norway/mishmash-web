@@ -205,6 +205,8 @@ selected_works:
     url: /people/anna-maria-christodoulou/
   - name: Sagar Dutta
     role: Creator
+    slug: sagar-dutta
+    url: /people/sagar-dutta/
   - name: Olivier Serge Gabriel Lartillot
     role: Creator
     slug: olivier-lartillot

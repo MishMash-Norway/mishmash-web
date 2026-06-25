@@ -30,13 +30,13 @@ urls:
 aliases: []
 tags:
 - Manuscripts
-- Directing for documantaries and television
+- Directing for documentaries and television
 - Film and TV
 - Audio-visual production
 - Filmbransje
 search_keywords:
 - Manuscripts
-- Directing for documantaries and television
+- Directing for documentaries and television
 - Film and TV
 - Audio-visual production
 - Filmbransje

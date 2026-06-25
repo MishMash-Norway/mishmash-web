@@ -33,7 +33,7 @@ tags:
 - Convolution
 - Music Improvisation
 - Improvisation
-- Digital Signal Processing
+- Digital signal processing
 - Feedback
 - Granular audio synthesis
 - Artificial intelligence
@@ -42,7 +42,7 @@ search_keywords:
 - Convolution
 - Music Improvisation
 - Improvisation
-- Digital Signal Processing
+- Digital signal processing
 - Feedback
 - Granular audio synthesis
 - Artificial intelligence

@@ -32,20 +32,20 @@ aliases: []
 tags:
 - Digital electronics
 - Sound analysis /synthesis
-- Machine learning
+- Machine Learning
 - Real-time systems
 - Digital signal processing
 - Musical interaction
-- Embedded system
+- Embedded Systems
 - Music Technology
 search_keywords:
 - Digital electronics
 - Sound analysis /synthesis
-- Machine learning
+- Machine Learning
 - Real-time systems
 - Digital signal processing
 - Musical interaction
-- Embedded system
+- Embedded Systems
 - Music Technology
 selected_works:
 - title: 'Teaching Interactive Music Systems: a Research-Oriented, Project-Based Graduate
@@ -53,6 +53,7 @@ selected_works:
   year: '2026'
   source: Journal article
   group_type: Journal article
+  url: https://doi.org/10.5281/zenodo.20784254
   contributors:
   - name: Stefano Fasciani
     role: Creator
@@ -63,7 +64,7 @@ selected_works:
   year: '2026'
   source: Journal article
   group_type: Journal article
-  url: https://nime.org/proceedings/2026/nime2026_89.pdf
+  url: https://doi.org/10.5281/zenodo.20784273
   contributors:
   - name: Vincenzo Madaghiele
     role: Creator

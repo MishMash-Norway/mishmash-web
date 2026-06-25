@@ -41,6 +41,8 @@ selected_works:
   contributors:
   - name: Nanette Nielsen
     role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
 - title: 'Absorbed Concert Listening: A Qualitative, Phenomenological Inquiry'
   year: '2025'
   source: Journal article
@@ -53,6 +55,8 @@ selected_works:
     role: Creator
   - name: Nanette Nielsen
     role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
 - title: Embodied, Exploratory Listening in the Concert Hall
   year: '2025'
   source: Journal article
@@ -67,6 +71,8 @@ selected_works:
     role: Creator
   - name: Nanette Nielsen
     role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
 - title: Introducing the MusicLab Copenhagen Dataset
   year: '2025'
   source: Journal article
@@ -109,6 +115,8 @@ selected_works:
     role: Creator
   - name: Nanette Nielsen
     role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
   - name: Rahul Omprakash Agrawal
     role: Creator
   - name: Thea Sørli Paulsrud
@@ -147,6 +155,8 @@ selected_works:
     role: Creator
   - name: Nanette Nielsen
     role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
 - title: 'Audience Musical Absorption: Exploring Attention and Affect in the Live
     Concert Setting'
   year: '2024'
@@ -162,6 +172,8 @@ selected_works:
     role: Creator
   - name: Nanette Nielsen
     role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
   - name: Jonna Katariina Vuoskoski
     role: Creator
     slug: jonna-vuoskoski
@@ -174,6 +186,8 @@ selected_works:
   contributors:
   - name: Nanette Nielsen
     role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
   - name: Simon Høffding
     role: Creator
   - name: Bruno Laeng
@@ -185,6 +199,8 @@ selected_works:
   contributors:
   - name: Nanette Nielsen
     role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
 - title: Introduction
   year: '2020'
   source: Book chapter
@@ -193,6 +209,8 @@ selected_works:
   contributors:
   - name: Nanette Nielsen
     role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
   - name: Tomas McAuley
     role: Creator
   - name: Jerrold Levinson
@@ -204,6 +222,8 @@ selected_works:
   contributors:
   - name: Nanette Nielsen
     role: Editor
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
   - name: Tomas McAuley
     role: Editor
   - name: Jerrold Levinson

@@ -59,6 +59,8 @@ selected_works:
     role: Creator
   - name: Andrew Niels Perkis
     role: Creator
+    slug: andrew-perkis
+    url: /people/andrew-perkis/
   - name: Oddbjørn Bruland
     role: Creator
   - name: Christian Andreas Nikolaus Klöckner
@@ -74,6 +76,8 @@ selected_works:
     role: Creator
   - name: Andrew Niels Perkis
     role: Creator
+    slug: andrew-perkis
+    url: /people/andrew-perkis/
 - title: Stakeholder engagement to increase the impact of water technology case studies
   year: '2025'
   source: Journal article
@@ -82,6 +86,8 @@ selected_works:
   contributors:
   - name: Andrew Niels Perkis
     role: Creator
+    slug: andrew-perkis
+    url: /people/andrew-perkis/
   - name: Wendy Ann Mansilla Obiri
     role: Creator
   - name: R. Glotzbach
@@ -108,6 +114,8 @@ selected_works:
     role: Creator
   - name: Andrew Niels Perkis
     role: Creator
+    slug: andrew-perkis
+    url: /people/andrew-perkis/
 - title: 'Virtual reality visualization of geophysical flows: A framework'
   year: '2024'
   source: Journal article
@@ -126,6 +134,8 @@ selected_works:
     role: Creator
   - name: Andrew Perkis
     role: Creator
+    slug: andrew-perkis
+    url: /people/andrew-perkis/
   - name: Vikas Thakur
     role: Creator
 - title: 'Authenticity and presence: defining perceived quality in VR experiences'
@@ -138,6 +148,8 @@ selected_works:
     role: Creator
   - name: Andrew Niels Perkis
     role: Creator
+    slug: andrew-perkis
+    url: /people/andrew-perkis/
 - title: How good are virtual hands? Influences of input modality on motor tasks in
     virtual reality
   year: '2023'
@@ -151,6 +163,8 @@ selected_works:
     role: Creator
   - name: Andrew Niels Perkis
     role: Creator
+    slug: andrew-perkis
+    url: /people/andrew-perkis/
 - title: 'Editorial: Interactive digital narratives representing complexity'
   year: '2023'
   source: Editorial
@@ -163,6 +177,8 @@ selected_works:
     role: Creator
   - name: Andrew Niels Perkis
     role: Creator
+    slug: andrew-perkis
+    url: /people/andrew-perkis/
 - title: 'QuickAware: a virtual reality tool for quick clay landslide hazard awareness'
   year: '2023'
   source: Journal article
@@ -177,6 +193,8 @@ selected_works:
     role: Creator
   - name: Andrew Niels Perkis
     role: Creator
+    slug: andrew-perkis
+    url: /people/andrew-perkis/
   - name: Oddbjørn Bruland
     role: Creator
 - title: Effects of Spatial Speech Presentation on Listener Response Strategy for
@@ -190,6 +208,8 @@ selected_works:
     role: Creator
   - name: Andrew Perkis
     role: Creator
+    slug: andrew-perkis
+    url: /people/andrew-perkis/
   - name: Sebastian Möller
     role: Creator
   - name: U. Peter Svensson

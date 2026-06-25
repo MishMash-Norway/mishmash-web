@@ -144,6 +144,8 @@ selected_works:
     role: Creator
   - name: Nanette Nielsen
     role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
   - name: Rahul Omprakash Agrawal
     role: Creator
   - name: Thea Sørli Paulsrud
@@ -185,6 +187,8 @@ selected_works:
     url: /people/anna-maria-christodoulou/
   - name: Sagar Dutta
     role: Creator
+    slug: sagar-dutta
+    url: /people/sagar-dutta/
   - name: Olivier Serge Gabriel Lartillot
     role: Creator
     slug: olivier-lartillot

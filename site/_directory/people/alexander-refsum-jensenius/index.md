@@ -191,6 +191,8 @@ selected_works:
   contributors:
   - name: Maham Riaz
     role: Creator
+    slug: maham-riaz
+    url: /people/maham-riaz/
   - name: Cagri Erdem
     role: Creator
     slug: cagri-erdem

@@ -33,7 +33,7 @@ tags:
 - Media and communication
 - Records management
 - Film history
-- Digital libary
+- Digital library
 - Media Aesthetics
 - Literature
 - Digital media
@@ -46,7 +46,7 @@ search_keywords:
 - Media and communication
 - Records management
 - Film history
-- Digital libary
+- Digital library
 - Media Aesthetics
 - Literature
 - Digital media

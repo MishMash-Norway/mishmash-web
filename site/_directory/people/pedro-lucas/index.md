@@ -112,6 +112,8 @@ selected_works:
     role: Creator
   - name: Nanette Nielsen
     role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
   - name: Rahul Omprakash Agrawal
     role: Creator
   - name: Thea Sørli Paulsrud

@@ -27,15 +27,15 @@ tags:
 - Creativity
 - Music performance
 - Contemporary Church Music
-- Innovation
-- Popularmusic
+- innovation
+- Popular music
 - Music
 search_keywords:
 - Creativity
 - Music performance
 - Contemporary Church Music
-- Innovation
-- Popularmusic
+- innovation
+- Popular music
 - Music
 selected_works:
 - title: Kublai Trio

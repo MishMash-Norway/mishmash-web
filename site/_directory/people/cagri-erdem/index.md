@@ -42,7 +42,7 @@ selected_works:
   year: '2026'
   source: Journal article
   group_type: Journal article
-  url: https://nime.org/proceedings/2026/nime2026_89.pdf
+  url: https://doi.org/10.5281/zenodo.20784273
   contributors:
   - name: Vincenzo Madaghiele
     role: Creator
@@ -68,6 +68,8 @@ selected_works:
   contributors:
   - name: Maham Riaz
     role: Creator
+    slug: maham-riaz
+    url: /people/maham-riaz/
   - name: Cagri Erdem
     role: Creator
     slug: cagri-erdem
@@ -121,6 +123,8 @@ selected_works:
   contributors:
   - name: Maham Riaz
     role: Creator
+    slug: maham-riaz
+    url: /people/maham-riaz/
   - name: Jinyue Guo
     role: Creator
   - name: Cagri Erdem
@@ -194,6 +198,8 @@ selected_works:
   contributors:
   - name: Maham Riaz
     role: Creator
+    slug: maham-riaz
+    url: /people/maham-riaz/
   - name: Ioannis Theodoridis
     role: Creator
   - name: Cagri Erdem

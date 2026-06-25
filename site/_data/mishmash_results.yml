@@ -1,4 +1,4 @@
-synced_at: '2026-06-24T21:02:56Z'
+synced_at: '2026-06-25T08:30:14Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -1024,6 +1024,8 @@ results:
   contributors:
   - name: Maham Riaz
     role: Creator
+    slug: maham-riaz
+    url: /people/maham-riaz/
   - name: Cagri Erdem
     role: Creator
     slug: cagri-erdem
@@ -1040,6 +1042,8 @@ results:
     authors:
     - display: Riaz, Maham
       name: Maham Riaz
+      slug: maham-riaz
+      url: /people/maham-riaz/
     - display: Erdem, Cagri
       name: Cagri Erdem
       slug: cagri-erdem

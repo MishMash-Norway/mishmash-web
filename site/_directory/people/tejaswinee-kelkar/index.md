@@ -44,7 +44,7 @@ selected_works:
   year: '2026'
   source: Journal article
   group_type: Journal article
-  url: https://nime.org/proceedings/2026/nime2026_89.pdf
+  url: https://doi.org/10.5281/zenodo.20784273
   contributors:
   - name: Vincenzo Madaghiele
     role: Creator

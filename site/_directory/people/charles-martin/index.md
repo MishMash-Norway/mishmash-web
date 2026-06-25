@@ -28,7 +28,7 @@ tags:
 - computer music
 - HCI
 - NIME
-- improvisation
+- Improvisation
 - percussion
 - performance
 - touch-screen
@@ -36,7 +36,7 @@ search_keywords:
 - computer music
 - HCI
 - NIME
-- improvisation
+- Improvisation
 - percussion
 - performance
 - touch-screen

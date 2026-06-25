@@ -30,8 +30,8 @@ tags:
 - Robotics
 - Brain imaging
 - Neuroscience
-- Machine learning
-- Human machine interaction
+- Machine Learning
+- Human computer interaction
 - Network systems
 search_keywords:
 - Prosthesis
@@ -40,8 +40,8 @@ search_keywords:
 - Robotics
 - Brain imaging
 - Neuroscience
-- Machine learning
-- Human machine interaction
+- Machine Learning
+- Human computer interaction
 - Network systems
 selected_works:
 - title: 'Impact of Latency on User Experience in Immersive Teleoperation: A Study
