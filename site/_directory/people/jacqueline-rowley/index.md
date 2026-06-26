@@ -3,8 +3,8 @@ type: person
 slug: jacqueline-rowley
 name: Jacqueline Rowley
 title: Jacqueline Rowley
-position: PhD Researcher
-department: Trondheim Academy of Fine Art
+position: Research fellow
+department: Faculty of Architecture and Design
 institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
@@ -17,22 +17,14 @@ urls:
   github: ''
   linkedin: ''
   orcid: ''
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/1872053
   youtube: ''
   facebook: ''
   mastodon: ''
   instagram: ''
 aliases: []
-tags:
-- Artistic Research
-- Filmmaker
-- Documentary
-- Artist
-search_keywords:
-- Artist
-- Filmmaker
-- Documentary
-- Artistic Research
+tags: []
+search_keywords: []
 selected_works: []
 source_mentions: []
 wps:

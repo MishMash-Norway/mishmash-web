@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: https://www.nb.no/ansatte/pierre-beauguitte/
+  institutional_website: ''
   github: https://github.com/pierrebeauguitte
   linkedin: https://www.linkedin.com/in/pierre-beauguitte/
   orcid: https://orcid.org/0000-0003-3711-8419
@@ -23,18 +23,8 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags:
-- Music Information Retrieval
-- Ethnomusicology
-- Cataloguing
-- Metadata
-search_keywords:
-- Music Information Retrieval
-- Ethnomusicology
-- Traditional Music
-- Cataloguing
-- Ontologies
-- Metadata
+tags: []
+search_keywords: []
 selected_works:
 - title: A Large Norwegian Dataset for Weak Supervision ASR
   year: '2023'

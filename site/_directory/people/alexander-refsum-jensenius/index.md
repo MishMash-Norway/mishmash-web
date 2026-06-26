@@ -71,6 +71,20 @@ search_keywords:
 - Music Technology
 - Sound analysis /synthesis
 selected_works:
+- title: 'Laughter in the making: social bonding and coordination in dance practices'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.3389/fpsyg.2026.1754425
+  contributors:
+  - name: Finn Upham
+    role: Creator
+  - name: Bilge Serdar Göksülük
+    role: Creator
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 - title: The Listening Body – for mennesker med og uten Parkinson
   year: '2026'
   source: Music performance
@@ -216,23 +230,6 @@ selected_works:
     role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: Cross-modal Analysis of Spatial-Temporal Auditory Stimuli and Human Micromotion
-    when Standing Still in Indoor Environments (poster)
-  year: '2025'
-  source: Conference poster
-  group_type: Conference
-  url: https://doi.org/10.5281/zenodo.17502603
-  contributors:
-  - name: Jinyue Guo
-    role: Creator
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
   - name: Alexander Refsum Jensenius
     role: Creator
     slug: alexander-refsum-jensenius

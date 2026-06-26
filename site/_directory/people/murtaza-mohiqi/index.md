@@ -24,21 +24,8 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags:
-- Human Rights
-- AI Governance
-- Digital Regulation
-- AI Ethics
-- Intellectual Property
-search_keywords:
-- Human Rights
-- AI Governance
-- Digital Regulation
-- AI Ethics
-- Intellectual Property
-- Digital Rights
-- AI in Education
-- Digital Inclusion
+tags: []
+search_keywords: []
 selected_works:
 - title: 'Innovation Versus Regulation: Intellectual Property Rights Implications
     for ChatGPT Technology in India'

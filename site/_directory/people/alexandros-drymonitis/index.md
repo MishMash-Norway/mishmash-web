@@ -37,11 +37,6 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1017/S1355771826101332
-- title: 'The Symbolic Soundscape: Reversing the Roots'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1162/comj.a.692
 - title: 'Composing for acoustic robots: Instant synthesis for computer-controlled
     acoustic instruments through live coding and AI – A research conclusion'
   year: '2025'
@@ -54,6 +49,11 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://journal.computermusic.org.au/chroma/article/view/21
+- title: 'The Symbolic Soundscape: Reversing the Roots'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: http://dx.doi.org/10.1162/comj.a.692
 - title: Digital Electronics for Musicians
   year: '2024'
   source: Book
@@ -87,16 +87,6 @@ selected_works:
   source: Conference paper
   group_type: Conference
   url: https://zenodo.org/doi/10.5281/zenodo.11189176
-- title: Live Coding on a Modular Synthesizer
-  year: '2022'
-  source: Conference paper
-  group_type: Conference
-  url: https://zenodo.org/record/5888343
-- title: 'Echo and Narcissus: Live Coding and Code Poetry in the Opera'
-  year: '2022'
-  source: Conference paper
-  group_type: Conference
-  url: https://www.fulcrum.org/epubs/8910jx22c?locale=en#page=28
 source_mentions: []
 wps:
 - WP1

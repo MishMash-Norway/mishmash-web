@@ -24,8 +24,24 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Sound analysis /synthesis
+- Human computer interaction
+- Psychoacoustics
+- Audio engineering
+- Acoustic communication
+- Sound
+- Spatial audio
+- Interaction design
+search_keywords:
+- Sound analysis /synthesis
+- Human computer interaction
+- Psychoacoustics
+- Audio engineering
+- Acoustic communication
+- Sound
+- Spatial audio
+- Interaction design
 selected_works:
 - title: 'Hearing Protection Devices for Autistic Students Sensitive to Auditory Stimuli:
     Enhancing School Inclusivity?'
@@ -183,6 +199,11 @@ selected_works:
     role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
+summary: Georgios Marentakis has a background in HCI and Sound and Music Computing
+  in particular sonic interaction design, sound synthesis and spatialization, and
+  auditory perception and cognition. He holds an MSc in Electrical and Computer Engineering,
+  an MSc in Acoustics and Signal Processing, a PhD in Human Computer Interaction,
+  and has worked in research-intensive environments in North America and Europe.
 wps:
 - WP1
 permalink: /people/georgios-marentakis/
