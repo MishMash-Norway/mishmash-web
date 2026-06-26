@@ -10,6 +10,7 @@ description: Østfold University College is a university college in Østfold cou
 short_name: HiØF
 image: /images/institutions/ostfold-university-college.png
 people:
+- alexandros-drymonitis
 - andre-alexandersen-hauge
 - georgios-marentakis
 - stefano-nichele

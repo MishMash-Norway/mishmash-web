@@ -3,10 +3,11 @@ type: person
 slug: alexandros-drymonitis
 name: Alexandros Drymonitis
 title: Alexandros Drymonitis
-position: Adjanct Lecturer
-department: ''
-institution: ''
-institutions: []
+position: Postdoctoral Researcher
+department: Computer Science
+institution: ostfold-university-college
+institutions:
+- ostfold-university-college
 projects: []
 roles:
 - Member
@@ -36,12 +37,23 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1017/S1355771826101332
+- title: 'The Symbolic Soundscape: Reversing the Roots'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1162/comj.a.692
 - title: 'Composing for acoustic robots: Instant synthesis for computer-controlled
     acoustic instruments through live coding and AI – A research conclusion'
   year: '2025'
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.12688/openreseurope.20968.1
+- title: 'Composing for Acoustic Robots - Instant Synthesis For Computer-Controlled
+    Acoustic Instruments Through Live Coding And AI: Research In Progress'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://journal.computermusic.org.au/chroma/article/view/21
 - title: Digital Electronics for Musicians
   year: '2024'
   source: Book
