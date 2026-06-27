@@ -1,0 +1,1102 @@
+<!doctype html>
+<html lang="no" class="html-locale-no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+    <title>OsloMet</title><link href="/build/css/main.css?v=202510021148" rel="preload" as="style" nonce="1d2e18055c776d991a9d3474db6580e3406bb6bbf4ed32ec8140608149e3eeb5">
+                <link href="/build/js/lib/loadjs.min.js" rel="preload" as="script" nonce="1d2e18055c776d991a9d3474db6580e3406bb6bbf4ed32ec8140608149e3eeb5">
+                
+    
+    
+            <meta name="description" content="OsloMet er et statlig universitet med utdanninger og forskning innen blant annet helse, samfunn, teknologi og pedagogikk.">
+    
+        
+                
+    
+    <meta name="keywords" content="">
+
+        <meta name="author" content="OsloMet - storbyuniversitetet">
+
+        <meta name="copyright" content="OsloMet - storbyuniversitetet">
+
+        <meta name="robots" content="all">
+
+
+            <meta property="og:title" content="OsloMet – storbyuniversitetet">
+
+            <meta property="og:description" content="OsloMet er et statlig universitet med utdanninger og forskning innen blant annet helse, samfunn, teknologi og pedagogikk.">
+
+        <meta property="og:type" content="website">
+
+        
+    <meta property="og:url" content="https://www.oslomet.no/">
+
+        
+    <meta property="og:locale" content="nb_NO">
+
+            
+    
+            
+    
+    
+    <meta property="og:image" content="https://www.oslomet.no/var/oslomet/storage/images/9/2/1/4/14129-28-nor-NO/317c7589321e-oslomet_master.jpg">
+    <meta property="og:image:url" content="https://www.oslomet.no/var/oslomet/storage/images/9/2/1/4/14129-28-nor-NO/317c7589321e-oslomet_master.jpg">
+    <meta property="og:image:width" content="2400">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:alt" content="Tre masterstudenter ved OsloMet sitter sammen og jobber rundt en laptop. De smiler.">
+
+        
+    
+    
+    <link rel="canonical" href="https://www.oslomet.no/">
+<link rel="home" href="https://www.oslomet.no/" title="OsloMet">
+<link rel="manifest" href="https://www.oslomet.no/manifest.json">
+        <link rel="sitemap" href="https://www.oslomet.no/sitemap.xml" title="Sitemap">
+    <link rel="shortcut icon" href="https://www.oslomet.no/build/images/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="https://www.oslomet.no/build/images/apple-touch-icon.png">
+<link href="/build/css/main.css?v=202510021148" rel="stylesheet" nonce="1d2e18055c776d991a9d3474db6580e3406bb6bbf4ed32ec8140608149e3eeb5">
+                        
+<script nonce="1d2e18055c776d991a9d3474db6580e3406bb6bbf4ed32ec8140608149e3eeb5">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+    {'gtm.start': new Date().getTime(),event:'gtm.js'}
+    );var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5MNZMZWW');</script>
+        <script src="/build/js/lib/loadjs.min.js" nonce="1d2e18055c776d991a9d3474db6580e3406bb6bbf4ed32ec8140608149e3eeb5"></script>
+        <script nonce="1d2e18055c776d991a9d3474db6580e3406bb6bbf4ed32ec8140608149e3eeb5">window.OM_VERSION_UPDATE = (new Date()).getTime();</script>
+    </head><body class="body-locale-no content-spacing frontpage" data-page-id="">                
+<noscript nonce="1d2e18055c776d991a9d3474db6580e3406bb6bbf4ed32ec8140608149e3eeb5"><iframe class="display-none visibility-hidden" src="https://www.googletagmanager.com/ns.html?id=GTM-5MNZMZWW" height="0" width="0"></iframe></noscript>
+         
+            
+    
+    
+        
+    
+
+
+
+
+
+
+
+<div class="o-header yellow" role="dialog">
+            <a href="#start-hovedinnhold" class="a-skip-to-main-content">
+    <span>Hopp til hovedinnhold</span>
+</a>
+    
+    <div class="header-wrapper">
+        <div class="header-top">
+                        
+                        
+            <a href="/" class="logo">
+                                <svg role="img" aria-label="OsloMet - Forside" width="60px" height="36px" viewBox="0 0 60 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>OsloMet - Forside</title>
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="logo-color" transform="translate(-23.000000, -22.000000)" fill="#222222">
+                            <g transform="translate(23.000000, 22.000000)">
+                                <polygon id="Fill-11" points="57.8624118 30.8473235 56.0465294 29.0314412 49.5541765 35.5237941 47.703 33.6717353 54.1953529 27.1802647 52.3785882 25.3635 54.0894706 23.6526176 59.5732941 29.1364412"></polygon>
+                                <polygon id="Fill-13" points="46.4544706 29.0481176 44.7665294 30.7360588 39.9938824 25.9634118 48.1971176 17.7601765 52.9653529 22.5284118 51.2782941 24.2154706 48.3144706 21.2525294 46.7553529 22.8107647 49.443 25.4992941 47.8494706 27.0919412 45.1618235 24.4042941 43.4862353 26.0807647"></polygon>
+                                <polygon id="Fill-15" points="38.4021176 24.3710294 36.6091765 22.5789706 41.2027059 17.9589706 35.073 21.0375 33.4097647 19.3901471 36.4874118 13.1933824 31.8665294 17.8363235 30.0735882 16.0433824 38.2768235 7.84014706 40.6671176 10.2304412 37.0044706 17.4710294 44.2027059 13.7660294 46.6053529 16.1686765"></polygon>
+                                <path d="M30.6798529,3.76491176 C29.2857353,2.36991176 27.2810294,2.31255882 26.0157353,3.57697059 C24.7036765,4.88902941 24.7857353,6.87079412 26.1798529,8.26491176 C27.5748529,9.65991176 29.5548529,9.74108824 30.8677941,8.42902941 C32.1445588,7.15226471 32.0748529,5.15902941 30.6798529,3.76491176 M24.2351471,10.2096176 C21.8325,7.80697059 21.7857353,4.22197059 24.2227941,1.78402941 C26.6254412,-0.618617647 30.2227941,-0.583323529 32.6254412,1.81932353 C35.0272059,4.22197059 35.0633824,7.81932353 32.6607353,10.2210882 C30.2113235,12.6713824 26.6369118,12.6113824 24.2351471,10.2096176" id="Fill-6"></path>
+                                <polygon id="Fill-9" points="25.8596471 13.4018824 27.5528824 15.0951176 22.782 19.8651176 14.5796471 11.6627647 16.3955294 9.84688235 22.9055294 16.3568824"></polygon>
+                                <path d="M18.4322647,24.4502647 C16.4866765,26.3949706 14.1546176,26.3129118 12.4790294,24.6373235 L14.2957941,22.8205588 C15.0810882,23.6067353 16.0296176,23.6887941 16.9084412,22.8099706 C17.4360882,22.2823235 17.6346176,21.5667353 17.1078529,21.0399706 C16.5449118,20.4779118 15.6546176,20.7355588 14.3893235,21.2985 C12.8425588,21.9311471 10.9437353,22.6335 9.58402941,21.2737941 C8.02579412,19.7164412 8.3655,17.6411471 9.88932353,16.1190882 C11.6822647,14.3243824 13.8731471,14.4540882 15.2566765,15.8367353 L13.5572647,17.5361471 C12.9590294,17.0332059 12.1746176,16.9732059 11.4713824,17.6764412 C10.9552059,18.1917353 10.8616765,18.8252647 11.3072647,19.2708529 C11.7405,19.7040882 12.3378529,19.5285 13.5810882,19.0132059 C15.7137353,18.1687941 17.5410882,17.6764412 19.0296176,19.1649706 C20.5887353,20.7232059 20.1316765,22.7508529 18.4322647,24.4502647" id="Fill-4"></path>
+                                <path d="M1.80917647,24.1979118 C4.21182353,21.7952647 7.80917647,21.8305588 10.2118235,24.2332059 C12.6135882,26.6358529 12.6488824,30.2332059 10.2471176,32.6349706 C7.79770588,35.0852647 4.22329412,35.0261471 1.82064706,32.6243824 C-0.582,30.2217353 -0.627882353,26.6358529 1.80917647,24.1979118 Z M3.60211765,25.9908529 C2.29005882,27.3029118 2.37211765,29.2837941 3.76623529,30.6787941 C5.16123529,32.0737941 7.14123529,32.1549706 8.45417647,30.8420294 C9.73094118,29.5652647 9.66123529,27.5729118 8.26623529,26.1779118 C6.87211765,24.7837941 4.86741176,24.7255588 3.60211765,25.9908529 Z" id="Fill-1"></path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+            <div class="icon-box">
+                                                
+            <a class="lang-toggle-menu-bar" href="/en" lang="en">EN</a>
+    
+                
+                                    <div class="a-header-item false" id="search">
+        
+            <form action="/s" method="get" class="header-search locale-no">
+            <label for="global-search">Søk</label>
+            <input id="global-search" type="text" name="q">
+            <button type="submit" aria-label="Søk">
+                <img src="/build/images/search-icon.svg" alt="Søk">
+            </button>
+        </form>
+    
+    </div>
+                                    <div class="a-header-item true" id="menu">
+        
+                                Meny
+
+            
+            
+            <button class="menu-icon" aria-label="Åpne/Lukk menyen" aria-expanded="false" aria-controls="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+                            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <nav class="menu-inner">
+            <ul class="menu-primary-group">
+                                                                        
+        
+                    
+        <li id="mainnav-item-page-studier"><a href="/studier">Studier</a></li>
+                        
+        
+                    
+        <li id="mainnav-item-page-forskning"><a href="/forskning">Forskningen vår</a></li>
+                        
+        
+                    
+        <li id="mainnav-item-page-om__samarbeid"><a href="/om/samarbeid">Samarbeid</a></li>
+                        
+        
+                    
+        <li id="mainnav-item-page-ub"><a href="/ub">Universitetsbiblioteket</a></li>
+                        
+        
+                    
+        <li id="mainnav-item-page-om"><a href="/om">Om OsloMet</a></li>
+                        
+        
+                    
+        <li id="mainnav-item-page-om__kontakt"><a href="/om/kontakt">Kontakt</a></li>
+                        
+        
+                    
+        <li id="mainnav-item-page-om__for-studenter"><a href="/om/for-studenter">For studenter</a></li>
+                </ul>
+
+                                        
+            <ul class="menu-lang-group">
+            <li><a href="/en" lang="en">English</a></li>
+        </ul>
+    
+            
+                    </nav>
+  </div>
+</div>
+
+
+
+
+    
+            <h1 class="a-headline grid-item bold screen-reader-only">
+        <span>OsloMet – storbyuniversitetet</span>
+    </h1>
+
+          
+        
+
+    
+
+    
+
+                
+
+
+    
+    
+
+<div class="o-hero-block grid-item" id="start-hovedinnhold">
+    <div class="hero">
+        <div class="hero-column hero-right">
+            <div class="column-content">
+                                    
+                    
+        
+        <img src="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/4/2/8/5/795824-2-nor-NO/98ebc1a2dada-drone-kjeller.jpg" alt="OsloMet campus Kjeller." class="lazyload" data-srcset="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/4/2/8/5/795824-2-nor-NO/98ebc1a2dada-drone-kjeller.jpg 150w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumbnail/4/2/8/5/795824-2-nor-NO/98ebc1a2dada-drone-kjeller.jpg 200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumb/4/2/8/5/795824-2-nor-NO/98ebc1a2dada-drone-kjeller.jpg 300w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/small/4/2/8/5/795824-2-nor-NO/98ebc1a2dada-drone-kjeller.jpg 600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/medium/4/2/8/5/795824-2-nor-NO/98ebc1a2dada-drone-kjeller.jpg 800w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/large/4/2/8/5/795824-2-nor-NO/98ebc1a2dada-drone-kjeller.jpg 1200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xlarge/4/2/8/5/795824-2-nor-NO/98ebc1a2dada-drone-kjeller.jpg 1600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxlarge/4/2/8/5/795824-2-nor-NO/98ebc1a2dada-drone-kjeller.jpg 2000w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxxlarge/4/2/8/5/795824-2-nor-NO/98ebc1a2dada-drone-kjeller.jpg 2400w" loading="lazy">
+    
+                            </div>
+        </div>
+        <div class="hero-column hero-left">
+            <div class="column-content">
+                            <a href="/studier" class="title-link">
+                <h2 class="a-headline grid-item featured loaded">
+        <span>Studier</span>
+    </h2>
+        </a>
+        
+
+                                    <ul>
+                                                    <li class="loaded">
+                                            
+
+<a href="/studier/studieoversikt" class="a-link arrow">
+    <span>Studieoversikt</span>
+</a>    
+                            </li>
+                                                    <li class="loaded">
+                                            
+
+<a href="/studier/studenthistorier" class="a-link arrow">
+    <span>Studenthistorier</span>
+</a>    
+                            </li>
+                                            </ul>
+                            </div>
+        </div>
+    </div>
+</div>
+
+
+
+      
+        
+
+    
+
+    
+
+                
+
+
+    
+    
+<div class="o-grid-split-block grid-item">
+    <div class="grid-split">
+
+                                
+            <div class="split-column white">
+                <div class="column-content">
+                                <a href="/forskning" class="title-link">
+                <h2 class="a-headline grid-item featured loaded">
+        <span>Forskning</span>
+    </h2>
+        </a>
+    
+
+                                            <ul>
+                                                            <li class="loaded">
+                                                
+
+<a href="/forskning/forskningsnyheter" class="a-link arrow">
+    <span>Forskningsnyheter</span>
+</a>    
+                                </li>
+                                                    </ul>
+                                    </div>
+            </div>
+                                
+            <div class="split-column blue">
+                <div class="column-content">
+                                <a href="/om/samarbeid/forside" class="title-link">
+                <h2 class="a-headline grid-item featured loaded">
+        <span>Samarbeid</span>
+    </h2>
+        </a>
+    
+
+                                            <ul>
+                                                            <li class="loaded">
+                                                
+<p class="a-paragraph grid-item normal">
+    OsloMet samarbeider med samfunnet om forskning, innovasjon og utdanning.
+</p>
+    
+                                </li>
+                                                    </ul>
+                                    </div>
+            </div>
+            </div>
+</div>
+
+
+
+      
+        
+
+    
+
+    
+
+                
+
+
+    
+        <div class="m-campaign-module grid-item media red">
+    <div class="campaign-module-inner">
+                                    <div class="media">
+                    
+                                                                    
+                    
+        
+        <img src="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/2/8/3/4/264382-6-nor-NO/67b970be27d4-laererogbarnehagelaerer.jpg" alt="En elev sitter ved en skolepult og får hjelp av en lærer. De smiler." class="lazyload" data-srcset="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/2/8/3/4/264382-6-nor-NO/67b970be27d4-laererogbarnehagelaerer.jpg 150w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumbnail/2/8/3/4/264382-6-nor-NO/67b970be27d4-laererogbarnehagelaerer.jpg 200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumb/2/8/3/4/264382-6-nor-NO/67b970be27d4-laererogbarnehagelaerer.jpg 300w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/small/2/8/3/4/264382-6-nor-NO/67b970be27d4-laererogbarnehagelaerer.jpg 600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/medium/2/8/3/4/264382-6-nor-NO/67b970be27d4-laererogbarnehagelaerer.jpg 800w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/large/2/8/3/4/264382-6-nor-NO/67b970be27d4-laererogbarnehagelaerer.jpg 1200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xlarge/2/8/3/4/264382-6-nor-NO/67b970be27d4-laererogbarnehagelaerer.jpg 1600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxlarge/2/8/3/4/264382-6-nor-NO/67b970be27d4-laererogbarnehagelaerer.jpg 2000w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxxlarge/2/8/3/4/264382-6-nor-NO/67b970be27d4-laererogbarnehagelaerer.jpg 2400w" loading="lazy">
+    
+                    
+                        
+                </div>
+                            
+        <div class="text">
+                <h2 class="a-headline grid-item featured">
+        <span>Bli noe som betyr noe!</span>
+    </h2>
+
+            
+<p class="a-paragraph grid-item featured">
+    Ved OsloMet får du kunnskap og erfaringer for livet.
+</p>
+
+                                <a href="/studier" class="a-button small">
+        Finn din utdanning
+    </a>
+                    </div>
+    </div>
+</div>
+
+
+
+
+
+      
+        
+
+    
+
+    
+
+                
+
+
+    
+        
+
+
+
+
+
+<div class="o-front-page-news">
+    <div class="featured-news">
+
+        <div class="landing-splitt yellow left">
+                    
+            
+                    
+        
+        <img src="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/3/5/5/3/83553-1-nor-NO/Studiestart_foto_Benjamin_A_Ward_Cropped.jpg" alt="Flere hundre studenter sitter på en gressplen med armene til værs." class="lazyload" data-srcset="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/3/5/5/3/83553-1-nor-NO/Studiestart_foto_Benjamin_A_Ward_Cropped.jpg 150w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumbnail/3/5/5/3/83553-1-nor-NO/Studiestart_foto_Benjamin_A_Ward_Cropped.jpg 200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumb/3/5/5/3/83553-1-nor-NO/Studiestart_foto_Benjamin_A_Ward_Cropped.jpg 300w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/small/3/5/5/3/83553-1-nor-NO/Studiestart_foto_Benjamin_A_Ward_Cropped.jpg 600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/medium/3/5/5/3/83553-1-nor-NO/Studiestart_foto_Benjamin_A_Ward_Cropped.jpg 800w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/large/3/5/5/3/83553-1-nor-NO/Studiestart_foto_Benjamin_A_Ward_Cropped.jpg 1200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xlarge/3/5/5/3/83553-1-nor-NO/Studiestart_foto_Benjamin_A_Ward_Cropped.jpg 1600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxlarge/3/5/5/3/83553-1-nor-NO/Studiestart_foto_Benjamin_A_Ward_Cropped.jpg 2000w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxxlarge/3/5/5/3/83553-1-nor-NO/Studiestart_foto_Benjamin_A_Ward_Cropped.jpg 2400w" loading="lazy">
+    
+        
+    <div class="article-content half-width">
+        <a class="article-link" href="/studier/studenthistorier/dette-er-oslomet">
+                <h2 class="a-headline grid-item bold">
+        <span>Dette er OsloMet</span>
+    </h2>
+            
+<p class="a-paragraph grid-item featured">
+        
+            Læringsrike praksisperioder i arbeidslivet – og en sosial studietid. Ved OsloMet får du kunnskap og erfaringer for livet!
+    
+</p>
+        </a>
+    </div>  
+
+
+                                            
+                    
+    <div class="news-wrapper half-width">
+        <div class="news-inner">
+                            <a class="article-content" href="/studier/studenthistorier/ti-tips-studiesokere">
+                        <h2 class="a-headline grid-item h4 bold">
+        <span>Ti tips til deg som er usikker på hvilken utdanning du skal ta</span>
+    </h2>
+                    
+                    
+<p class="a-paragraph grid-item small">
+        
+            Er du usikker? Da bør du gjøre som en student, finne frem penn og papir og gå systematisk til verks. På den måten blir det lettere å finne fordeler og ulemper ved de ulike mulighetene du vurderer.
+    
+</p>
+                </a>
+                            <a class="article-content" href="/studier/studenthistorier/bli-kjent-med-studentbyen-oslo">
+                        <h2 class="a-headline grid-item h4 bold">
+        <span>Bli kjent med studentbyen Oslo</span>
+    </h2>
+                    
+                    
+<p class="a-paragraph grid-item small">
+        
+            I studentbyen Oslo kan du gå på kafé før frokost, sitte på lesesalen om dagen og dingle i en hengekøye i marka om natta. Det er kort vei fra liv og røre i sentrum til stillheten i skogen.
+    
+</p>
+                </a>
+                    </div>
+
+                    
+
+<a href="/studier/studenthistorier" class="a-link goto interactive-enhanced">
+    <span>Se alle studenthistorier</span>
+</a>            </div>
+
+                    </div>
+
+        <div class="landing-splitt right">
+                    
+            
+                    
+        
+        <img src="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/5/8/8/8/1358885-1-nor-NO/d2ea56bc6c6d-Plainpicture.NTB-2400px.jpg" alt="to jenter holder hver sin telefon" class="lazyload" data-srcset="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/5/8/8/8/1358885-1-nor-NO/d2ea56bc6c6d-Plainpicture.NTB-2400px.jpg 150w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumbnail/5/8/8/8/1358885-1-nor-NO/d2ea56bc6c6d-Plainpicture.NTB-2400px.jpg 200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumb/5/8/8/8/1358885-1-nor-NO/d2ea56bc6c6d-Plainpicture.NTB-2400px.jpg 300w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/small/5/8/8/8/1358885-1-nor-NO/d2ea56bc6c6d-Plainpicture.NTB-2400px.jpg 600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/medium/5/8/8/8/1358885-1-nor-NO/d2ea56bc6c6d-Plainpicture.NTB-2400px.jpg 800w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/large/5/8/8/8/1358885-1-nor-NO/d2ea56bc6c6d-Plainpicture.NTB-2400px.jpg 1200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xlarge/5/8/8/8/1358885-1-nor-NO/d2ea56bc6c6d-Plainpicture.NTB-2400px.jpg 1600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxlarge/5/8/8/8/1358885-1-nor-NO/d2ea56bc6c6d-Plainpicture.NTB-2400px.jpg 2000w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxxlarge/5/8/8/8/1358885-1-nor-NO/d2ea56bc6c6d-Plainpicture.NTB-2400px.jpg 2400w" loading="lazy">
+    
+        
+    <div class="article-content half-width">
+        <a class="article-link" href="/forskning/forskningsnyheter/barndom-pa-skjerm">
+                <h2 class="a-headline grid-item bold">
+        <span>Barndom på skjerm: Strengere aldersgrenser løser ikke problemene, mener forsker</span>
+    </h2>
+            
+<p class="a-paragraph grid-item featured">
+        
+            Forsker Clara Julia Reich er kritisk til strengere aldersgrenser. Hun mener plattformene må reguleres bedre, og at vi må lytte mer til barna.
+    
+</p>
+        </a>
+    </div>  
+
+
+                                            
+                    
+    <div class="news-wrapper half-width">
+        <div class="news-inner">
+                            <a class="article-content" href="/forskning/forskningsnyheter/hele-familien-til-syke-barnet-rammes">
+                        <h2 class="a-headline grid-item h4 bold">
+        <span>Hele familien til det syke barnet rammes</span>
+    </h2>
+                    
+                    
+<p class="a-paragraph grid-item small">
+        
+            Søsken til alvorlig syke barn kan kjenne seg usynlige og tilsidesatt. Det viser ny doktorgradsforskning fra Trine Brun Kittelsen ved OsloMet.
+    
+</p>
+                </a>
+                            <a class="article-content" href="/forskning/forskningsnyheter/oppvekst-lukkede-trossamfunn">
+                        <h2 class="a-headline grid-item h4 bold">
+        <span>Segregerte barndommer: Når troen styrer hele livet</span>
+    </h2>
+                    
+                    
+<p class="a-paragraph grid-item small">
+        
+            Lydighet mot Gud, menigheten og foreldrene settes over alt annet i noen lukkede kristne trossamfunn, ifølge ny rapport fra NOVA.
+    
+</p>
+                </a>
+                    </div>
+
+                    
+
+<a href="/forskning/forskningsnyheter" class="a-link goto interactive-enhanced">
+    <span>Se alle forskningsnyheter</span>
+</a>            </div>
+
+                    </div>
+
+    </div>
+</div>
+
+
+
+
+
+      
+        
+
+    
+
+    
+
+                
+
+
+    
+        <div class="m-campaign-module grid-item blue">
+    <div class="campaign-module-inner">
+                                        
+                            
+        <div class="text">
+                <h2 class="a-headline grid-item featured">
+        <span>Treng du ein ekspert?</span>
+    </h2>
+
+            
+<p class="a-paragraph grid-item featured">
+    OsloMet-forskarar har kompetanse på ei rekkje fagfelt. Her finn du eit utval av forskarar som kan svare på aktuelle tema i media.
+</p>
+
+                                <a href="/om/pressekontakt/ekspertliste" class="a-button small">
+        Finn ein ekspert
+    </a>
+                    </div>
+    </div>
+</div>
+
+
+
+
+
+      
+        
+
+    
+
+    
+
+                
+
+
+    
+        
+    <div class="o-front-page-content">
+        <div class="inner-wrapper">
+
+                            
+
+    
+
+    
+
+                
+
+
+    
+     
+
+
+    
+    
+        
+    
+        
+    
+    
+                
+    
+    
+    
+            
+     
+        
+
+<div class="o-article-list-block grid-item article small">
+                <h2 class="a-headline grid-item bold">
+        <span>Aktuelt frå OsloMet</span>
+    </h2>
+    
+    <div class="article-list">
+                                    <a href="/om/nyheter/startar-eigedomssok-campus-romerike" class="a-article-list-item grid-item loaded article small">
+    <div class="article-content">
+            <span class="a-headline grid-item bold h3">
+        Startar eigedomssøk for Campus Romerike
+    </span>
+
+                    
+<p class="a-paragraph grid-item">
+    OsloMets søk etter mellombelse lokale i Lillestrøm er lagt ut i eigedomsmarknaden. – Eigedomssøket er det første trinnet i prosessen med å etablere ein kraftfull campus med 4500-5000 studentar i Lillestrøm sentrum, seier rektor Christen Krogh.
+</p>
+            </div>
+
+            
+        <div class="article-image">
+            <div class="image-wrapper">
+                                    
+                    
+        
+        <img src="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/7/5/2/3/1383257-1-nor-NO/7f51f37cfd1e-Lillestroem-2400x1200.jpg" alt="Oversiktsbilete over Lillestrøm" class="lazyload" data-srcset="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/7/5/2/3/1383257-1-nor-NO/7f51f37cfd1e-Lillestroem-2400x1200.jpg 150w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumbnail/7/5/2/3/1383257-1-nor-NO/7f51f37cfd1e-Lillestroem-2400x1200.jpg 200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumb/7/5/2/3/1383257-1-nor-NO/7f51f37cfd1e-Lillestroem-2400x1200.jpg 300w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/small/7/5/2/3/1383257-1-nor-NO/7f51f37cfd1e-Lillestroem-2400x1200.jpg 600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/medium/7/5/2/3/1383257-1-nor-NO/7f51f37cfd1e-Lillestroem-2400x1200.jpg 800w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/large/7/5/2/3/1383257-1-nor-NO/7f51f37cfd1e-Lillestroem-2400x1200.jpg 1200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xlarge/7/5/2/3/1383257-1-nor-NO/7f51f37cfd1e-Lillestroem-2400x1200.jpg 1600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxlarge/7/5/2/3/1383257-1-nor-NO/7f51f37cfd1e-Lillestroem-2400x1200.jpg 2000w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxxlarge/7/5/2/3/1383257-1-nor-NO/7f51f37cfd1e-Lillestroem-2400x1200.jpg 2400w" loading="lazy">
+    
+                            </div>
+        </div>
+    </a>                            <a href="/om/nyheter/gjennomslag-campus-romerike-lillestrom-sentrum" class="a-article-list-item grid-item loaded article small">
+    <div class="article-content">
+            <span class="a-headline grid-item bold h3">
+        Gjennomslag for Campus Romerike i Lillestrøm sentrum
+    </span>
+
+                    
+<p class="a-paragraph grid-item">
+    Regjeringen har bestemt at OsloMet kan gå videre med planene for den fremtidige campusen i Lillestrøm sentrum, med flere studenter og fagmiljøer enn på Kjeller i dag.
+</p>
+            </div>
+
+            
+        <div class="article-image">
+            <div class="image-wrapper">
+                                    
+                    
+        
+        <img src="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/4/5/7/3/1333754-3-nor-NO/47e2c456005c-rektor-og-politikere-ute-8203.jpg" alt="Hoda Imad, Jørgen Vik, Christen Krogh, Tonje Brenna, Sigrun Aasland og Kjartan Berland foran inngangen til OsloMet på Kjeller" class="lazyload" data-srcset="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/4/5/7/3/1333754-3-nor-NO/47e2c456005c-rektor-og-politikere-ute-8203.jpg 150w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumbnail/4/5/7/3/1333754-3-nor-NO/47e2c456005c-rektor-og-politikere-ute-8203.jpg 200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumb/4/5/7/3/1333754-3-nor-NO/47e2c456005c-rektor-og-politikere-ute-8203.jpg 300w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/small/4/5/7/3/1333754-3-nor-NO/47e2c456005c-rektor-og-politikere-ute-8203.jpg 600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/medium/4/5/7/3/1333754-3-nor-NO/47e2c456005c-rektor-og-politikere-ute-8203.jpg 800w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/large/4/5/7/3/1333754-3-nor-NO/47e2c456005c-rektor-og-politikere-ute-8203.jpg 1200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xlarge/4/5/7/3/1333754-3-nor-NO/47e2c456005c-rektor-og-politikere-ute-8203.jpg 1600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxlarge/4/5/7/3/1333754-3-nor-NO/47e2c456005c-rektor-og-politikere-ute-8203.jpg 2000w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxxlarge/4/5/7/3/1333754-3-nor-NO/47e2c456005c-rektor-og-politikere-ute-8203.jpg 2400w" loading="lazy">
+    
+                            </div>
+        </div>
+    </a>                            <a href="/om/nyheter/tre-nye-kvantesenter" class="a-article-list-item grid-item loaded article small">
+    <div class="article-content">
+            <span class="a-headline grid-item bold h3">
+        OsloMet er med i tre nye kvantesenter
+    </span>
+
+                    
+<p class="a-paragraph grid-item">
+    Regjeringa investerer 244 millionar kroner i fire nye forskingssenter for kvanteteknologi, der OsloMet er knytt til tre av dei.
+</p>
+            </div>
+
+            
+        <div class="article-image">
+            <div class="image-wrapper">
+                                    
+                    
+        
+        <img src="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/0/1/8/3/1353810-8-nor-NO/9485d1cd0889-OsloMet-Kvantedata-beskjaert_BAW_11-utsnitt.jpg" alt="Kvantedatamaskin til venstre. Mann i profil til høgre ser på maskinen. Vi skimtar personar i bakgrunnen." class="lazyload" data-srcset="https://www.oslomet.no/var/oslomet/storage/images/_aliases/tiny/0/1/8/3/1353810-8-nor-NO/9485d1cd0889-OsloMet-Kvantedata-beskjaert_BAW_11-utsnitt.jpg 150w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumbnail/0/1/8/3/1353810-8-nor-NO/9485d1cd0889-OsloMet-Kvantedata-beskjaert_BAW_11-utsnitt.jpg 200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/thumb/0/1/8/3/1353810-8-nor-NO/9485d1cd0889-OsloMet-Kvantedata-beskjaert_BAW_11-utsnitt.jpg 300w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/small/0/1/8/3/1353810-8-nor-NO/9485d1cd0889-OsloMet-Kvantedata-beskjaert_BAW_11-utsnitt.jpg 600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/medium/0/1/8/3/1353810-8-nor-NO/9485d1cd0889-OsloMet-Kvantedata-beskjaert_BAW_11-utsnitt.jpg 800w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/large/0/1/8/3/1353810-8-nor-NO/9485d1cd0889-OsloMet-Kvantedata-beskjaert_BAW_11-utsnitt.jpg 1200w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xlarge/0/1/8/3/1353810-8-nor-NO/9485d1cd0889-OsloMet-Kvantedata-beskjaert_BAW_11-utsnitt.jpg 1600w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxlarge/0/1/8/3/1353810-8-nor-NO/9485d1cd0889-OsloMet-Kvantedata-beskjaert_BAW_11-utsnitt.jpg 2000w, https://www.oslomet.no/var/oslomet/storage/images/_aliases/xxxlarge/0/1/8/3/1353810-8-nor-NO/9485d1cd0889-OsloMet-Kvantedata-beskjaert_BAW_11-utsnitt.jpg 2400w" loading="lazy">
+    
+                            </div>
+        </div>
+    </a>                        </div>
+
+    </div>
+
+
+    
+
+
+            
+        </div>
+    </div>
+
+
+
+
+
+
+      
+        
+
+    
+
+    
+
+                
+
+
+    
+        
+    <div class="o-front-page-content">
+        <div class="inner-wrapper">
+
+                            
+
+    
+
+    
+
+                
+
+
+    
+    
+
+
+
+                                                                                    
+
+
+
+
+
+ 
+    
+
+    
+
+    
+
+                    
+        
+    
+    
+ 
+        
+
+    
+    
+        
+    
+        
+    
+    
+            
+                
+    
+        
+    <div class="o-list-block grid-item">
+                        <h2 class="a-headline grid-item bold">
+        <span>Hva skjer på OsloMet?</span>
+    </h2>
+        
+                    <ul>
+                                    <li class="loaded">
+                        <a href="/om/arrangement/apen-dag" class="m-list-item list-item  date">
+            <div class="a-list-item-side-content">
+            <div class="date">
+            <span class="day">05</span>
+            <span class="month">Mars</span>
+        </div>
+    </div>    
+    <div class="a-list-item-content information">
+        <span class="a-headline grid-item h4">
+        Åpen dag 2026
+    </span>
+
+    
+    
+            
+    <ul class="a-metadata-list">
+                    <li class="item">Pilestredet, Oslo</li>
+                    <li class="item">OsloMet / Fakultet for helsevitenskap / Fakultet for lærerutdanning og internasjonale studier / Fakultet for samfunnsvitenskap / Fakultet for teknologi, kunst og design</li>
+                    <li class="item">Andre arrangementer</li>
+            </ul>
+    
+    
+    
+    </div></a>
+
+
+                    </li>
+                            </ul>
+        
+                    
+
+                
+
+<div class="a-load-more-link right">
+    
+
+<a href="/om/arrangement/arrangementsoversikt" class="a-link  interactive-enhanced">
+    <span>Se alle arrangementer</span>
+</a></div>        
+            </div>
+
+
+
+
+
+
+            
+        </div>
+    </div>
+
+
+
+
+
+
+    
+                    <!-- Footer byline: disabled -->
+            
+    
+
+
+
+
+
+<div class="o-footer">
+                    
+    
+                        
+                                                        
+                        
+                            <div class="newsletter">
+                    <div class="newsletter-inner">
+                            <h2 class="a-headline grid-item bold">
+        <span>Hold deg oppdatert på hva som skjer på OsloMet.</span>
+    </h2>
+
+                        <div class="button-wrapper">
+                                <a href="/nyhetsbrev" class="a-button black">
+        Abonner på vårt nyhetsbrev!
+    </a>
+                        </div>
+                    </div>
+                </div>
+                             
+    <div class="o-footer-container">
+        
+
+
+
+ 
+
+
+
+<div class="m-footer-contact">
+    <img class="m-footer-logo" src="/build/images/logo-footer.svg" alt="Oslo Metropolitan University - Storbyuniversitetet logo">
+    <div class="m-footer-info">
+        Postboks 4, St. Olavs plass<br />
+0130 Oslo<br>
+        Tlf.: 67 23 50 00
+    </div>
+
+    <div class="m-footer-action">
+                                
+            
+            
+
+<a href="/om/kontakt" class="a-link black">
+    <span>Kontakt oss</span>
+</a>                
+    </div>
+</div>
+        
+
+
+
+ 
+
+
+
+<ul class="m-footer-links arrow-mobile">
+            
+                            
+        
+        
+                                                    
+                                        
+        
+        
+        <li class="m-footer-link">
+            
+
+<a href="/en" class="a-link arrow black">
+    <span>English</span>
+</a>        </li> 
+            
+        
+        
+        
+                                                    
+        
+        
+        
+        <li class="m-footer-link">
+            
+
+<a href="/alumni" class="a-link arrow black">
+    <span>Alumni</span>
+</a>        </li> 
+            
+        
+        
+        
+                                                    
+        
+        
+        
+        <li class="m-footer-link">
+            
+
+<a href="/om/ansatteoversikt" class="a-link arrow black">
+    <span>Ansatteoversikt</span>
+</a>        </li> 
+            
+        
+        
+        
+                                                    
+        
+        
+        
+        <li class="m-footer-link">
+            
+
+<a href="/om/arrangement/arrangementsoversikt" class="a-link arrow black">
+    <span>Arrangementsoversikt</span>
+</a>        </li> 
+            
+        
+        
+        
+                                                    
+        
+        
+        
+        <li class="m-footer-link">
+            
+
+<a href="/om/for-ansatte" class="a-link arrow black">
+    <span>For ansatte</span>
+</a>        </li> 
+            
+        
+        
+        
+                                                    
+        
+        
+        
+        <li class="m-footer-link">
+            
+
+<a href="/om/for-studenter" class="a-link arrow black">
+    <span>For studenter</span>
+</a>        </li> 
+            
+        
+        
+        
+                                                    
+        
+        
+        
+        <li class="m-footer-link">
+            
+
+<a href="/om/ledige-stillinger" class="a-link arrow black">
+    <span>Ledige stillinger</span>
+</a>        </li> 
+            
+        
+        
+        
+                                                    
+        
+        
+        
+        <li class="m-footer-link">
+            
+
+<a href="/om/personvernerklering-informasjonskapslar" class="a-link arrow black">
+    <span>Personvernerklæring og informasjonskapslar</span>
+</a>        </li> 
+            
+        
+        
+        
+                                                    
+        
+        
+        
+        <li class="m-footer-link">
+            
+
+<a href="/om/pressekontakt" class="a-link arrow black">
+    <span>Pressekontakt</span>
+</a>        </li> 
+            
+        
+        
+        
+                                                    
+        
+        
+        
+        <li class="m-footer-link">
+            
+
+<a href="/om/tilgjengelegheitserklering" class="a-link arrow black">
+    <span>Tilgjengelegheitserklæring</span>
+</a>        </li> 
+    
+                        <li class="m-footer-link">                    
+        
+
+<a href="https://www-admin.oslomet.no/admin/view/content/54" class="a-link arrow black" target="_blank">
+    <span>Admin</span>
+</a>    </li>
+            </ul>
+        
+
+
+
+
+
+<div class="m-footer-social">
+    <ul class="m-footer-links arrow-mobile">
+                    
+                            <li class="m-footer-link">
+                    
+
+<a href="https://www.facebook.com/oslomet/" class="a-link arrow black">
+    <span>Facebook</span>
+</a>                </li>
+                                
+                                
+                            <li class="m-footer-link">
+                    
+
+<a href="https://no.linkedin.com/school/oslomet/" class="a-link arrow black">
+    <span>LinkedIn</span>
+</a>                </li>
+                                
+                                
+                            <li class="m-footer-link">
+                    
+
+<a href="https://www.instagram.com/oslomet/?hl=nb" class="a-link arrow black">
+    <span>Instagram</span>
+</a>                </li>
+                        </ul>
+</div>    </div>
+</div>    <script nonce="1d2e18055c776d991a9d3474db6580e3406bb6bbf4ed32ec8140608149e3eeb5">
+        loadjs('/build/js/lib/lazysizes.min.js', 'lazysizes');
+        loadjs('/build/js/lib/jquery.min.js', 'jquery');
+        loadjs('/build/js/lib/inview.js', 'inview');
+        loadjs('/build/js/lib/counterUp.js', 'counterUp');
+        loadjs('/build/js/lib/moment.min.js', 'moment');
+
+        loadjs('/build/js/storage.js', 'storage');
+
+        loadjs.ready(['jquery'], {
+            success: function() {
+                loadjs('/build/js/lib/lightgallery.min.js', 'lightgallery');
+                // loadjs('/build/js/lib/fitvids.js', 'fitvids');
+                loadjs.ready(['lightgallery'], {
+                    success: function() {
+                        loadjs('css!/build/css/lib/lightgallery.css', 'lightgallerycss');
+                        loadjs('/build/js/main.js?v=202510021148', 'main');
+                    }
+                });
+
+                loadjs('/build/js/ajax.js?v=202510021148', 'ajax');
+
+                loadjs('/build/js/lib/jquery.hotkeys.js', 'hotkeys');
+                loadjs.ready(['hotkeys'], {
+                    success: function() {
+                        if ($('.m-accordion-group-headline').length) {
+                                $(document).on('keydown', null, 'ctrl+f meta+f', function(e) {
+                                    $('.m-accordion-group-headline').find('.a-expand-button').addClass('expanded').attr('aria-expanded', true);
+                                    $('.m-accordion-group-panel').css('display', 'block');
+                                });
+                            }}
+                });
+            }
+        });
+
+        loadjs.ready(['lazysizes'], {
+            success: function() {
+                if(!window.HTMLPictureElement || document.msElementsFromPoint) {
+                    document.createElement('picture');
+                    loadjs('/build/js/lib/respimage.min.js', 'respimage');
+                    loadjs.ready(['respimage'], { success: function() {} });
+                }
+
+                // Lazyload bg images
+                document.addEventListener('lazybeforeunveil', function(e) {
+                    var bg = e.target.getAttribute('data-bg');
+                    if(bg) {
+                        e.target.style.backgroundImage = "url('" + bg + "')";
+                    }
+
+                    var poster = e.target.getAttribute('data-poster');
+                    if(poster) {
+                        e.target.poster = poster;
+                    }
+                });
+            }
+        });
+
+        loadjs('https://siteimproveanalytics.com/js/siteanalyze_6000487.js', 'siteanalyze');
+        </script>
+</body>
+</html>

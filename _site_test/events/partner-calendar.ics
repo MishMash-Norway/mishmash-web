@@ -1,0 +1,691 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MishMash//Partner Events Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MishMash Partner Events
+X-WR-CALDESC:Partner events listed by MishMash
+X-WR-TIMEZONE:Europe/Oslo
+
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.uio.no-ritmo-english-news-and-events-events-workshops-2024-mishmash-index.html@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20240925
+DTEND;VALUE=DATE:20240926
+SUMMARY:National Workshop on AI and Creativity
+LOCATION:RITMO (UiO) / CreaTeME (UiA)
+DESCRIPTION:Workshop on AI and creativity bringing together interested institutions to plan research applications. Topics: AI development and creative use\, policy and rights\, knowledge and ethics.
+URL:https://www.uio.no/ritmo/english/news-and-events/events/workshops/2024/mishmash/index.html
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.meetup.com-trondheim-kreativ-ai-events-312208578-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260128
+DTEND;VALUE=DATE:20260129
+SUMMARY:TKAI Meetup #3 - Gjør KI oss mer passive – eller mer kreative?
+LOCATION:Trondheim Kreativ AI
+DESCRIPTION:Meetup at Digs - Mesh Community\, Trondheim. Time: 5:30 PM-7:30 PM (28 January 2026). Talks on AI\, creativity\, critical thinking\, and practical creative workflows.
+URL:https://www.meetup.com/trondheim-kreativ-ai/events/312208578/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.dnva.no-detskjer-2025-11-forskningssuverenitet-og-ki@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260312
+SUMMARY:Forskningssuverenitet og KI
+LOCATION:Det Norske Videnskaps-Akademi (DNVA)
+DESCRIPTION:Apent mote i Kavlisalen\, DNVA (Drammensveien 78\, Oslo). Opptak er tilgjengelig hos DNVA.
+URL:https://www.dnva.no/detskjer/2025/11/forskningssuverenitet-og-ki
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.meetup.com-trondheim-kreativ-ai-events-313109375-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260326
+SUMMARY:TKAI Meetup #4 - Deepfakes
+LOCATION:Trondheim Kreativ AI
+DESCRIPTION:Meetup at Digs - Mesh Community\, Trondheim. Time: 5:30 PM-7:30 PM (25 March 2026). Deepfakes from both research and production perspectives.
+URL:https://www.meetup.com/trondheim-kreativ-ai/events/313109375/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:notam.no-en-event-notams-online-supercollider-meetup-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+SUMMARY:Online SuperCollider Meetup
+LOCATION:Notam
+DESCRIPTION:SuperCollider is an open source tool for sound synthesis and algorithmic composition. It is used for composition\, generative music\, installations\, live coding\,
+URL:https://notam.no/en/event/notams-online-supercollider-meetup/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.hf.uio.no-imv-english-research-news-and-events-events-disputations-2026-riaz.html@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260407
+DTEND;VALUE=DATE:20260408
+SUMMARY:Public defence: Designing Spaces That Live With Us
+LOCATION:University of Oslo (Department of Musicology)
+DESCRIPTION:Master Maham Riaz will defend her PhD dissertation. Time and place: Apr. 7\, 2026 1:15 PM to 4:00 PM\, Harald Schjeldrups hus\, Forsamlingssalen.
+URL:https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/riaz.html
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:metamorf.art-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260409
+DTEND;VALUE=DATE:20260413
+SUMMARY:META.MORF 2026: Future Manifestos
+LOCATION:TEKS
+DESCRIPTION:Learn how artificial intelligence is shaping the future of art and technology. Discover the fusion of creativity and innovation.
+URL:https://metamorf.art/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:metamorf.art-2026-01-15-stanza-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260409
+DTEND;VALUE=DATE:20260601
+SUMMARY:Toxicity. Driven Breathless
+LOCATION:TEKS
+DESCRIPTION:Installation by Stanza translating real-time pollution data from 120 cities into aesthetic experience using machine learning. Opening: 9 April at 18:00. Place: TEKS.studio\, Trondheim. On view until 31 May 2026.
+URL:https://metamorf.art/2026/01/15/stanza/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:metamorf.art-2026-03-12-lorrr-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260411
+SUMMARY:LORRR presents Monumental Transmission
+LOCATION:TEKS
+DESCRIPTION:Performance by Andy Gracie blending sacred minimalism with distorted high-tempo noise. Part of Meta.Morf 2026: Future Manifestos.
+URL:https://metamorf.art/2026/03/12/lorrr/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:metamorf.art-2026-01-11-nordheimgruppen-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260412
+SUMMARY:Nordheimgruppen
+LOCATION:TEKS
+DESCRIPTION:Electroacoustic performance with an interactive instrument built from a mannequin as avatar of composer Arne Nordheim. By Arnfinn Killingtveit and Steinar Stensen. Time: 16:00–17:30. Place: Kjøpmannsgata Ung Kunst (K-U-K). Free admission.
+URL:https://metamorf.art/2026/01/11/nordheimgruppen/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.kristiania.no-forskning-forskningsgrupper-arak-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260416
+SUMMARY:AR@K26 symposium
+LOCATION:Kristiania
+DESCRIPTION:The 8th annual AR@K symposium will span two days with international participants exploring this year’s topic of Reclaiming art! Creative expression as a building block in our social foundations.
+URL:https://www.kristiania.no/forskning/forskningsgrupper/arak/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:nmh.no-en-concerts-giuseppe-pisano@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:Giuseppe Pisano-Riise – Extended Field Recording
+LOCATION:Norwegian Academy of Music (NMH)
+DESCRIPTION:Final concert in the PhD programme for artistic research. Featuring four works exploring field recording across electronic music composition. Time: 18:00. Place: The Levin Hall\, NMH. Price: 150 NOK (free for students).
+URL:https://nmh.no/en/concerts/giuseppe-pisano
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.hf.uio.no-imv-english-research-news-and-events-events-artist-at-imv-2026-feedback-and-flying-squids@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:Artist@IMV: Feedback and Flying Squids with Claudio Panariello
+LOCATION:University of Oslo
+DESCRIPTION:Presenting OTIAC\, a work for feedback-augmented guitar and co-improvising musical agent. Artist@IMV is a series of artist talks hosted at the Department of Musicology\, University of Oslo.
+URL:https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/feedback-and-flying-squids
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:metamorf.art-2026-01-02-sitron-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:Music for instruments\, objects and electronics
+LOCATION:TEKS
+DESCRIPTION:Concert by SiTron\, SWR Experimental Studio\, and NTNU Music Technology students featuring works by Natasha Barrett\, Heather Frasch\, and Ann Cleare. Time: 19:00. Place: Dokkhuset Scene\, Trondheim. Tickets via Dokkhuset.no.
+URL:https://metamorf.art/2026/01/02/sitron/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.uio.no-ritmo-english-news-and-events-events-ritmo-seminar-series-2026-sturm-index.html@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:Perspectives after the MUSAiC Project
+LOCATION:University of Oslo (RITMO)
+DESCRIPTION:RITMO Seminar Series talk by Bob L. T. Sturm. Time: 1:15 PM-3:00 PM. Place: RITMO\, Forsamlingssalen/YouTube.
+URL:https://www.uio.no/ritmo/english/news-and-events/events/ritmo-seminar-series/2026/sturm/index.html
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.kristiania.no-om-kristiania-kalender-official-kick-off-of-the-kai-center@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:Official kick-off of the KAI Center
+LOCATION:Kristiania
+DESCRIPTION:Welcome to the official launch of the Kristiania AI Center (KAI). An inspiring evening featuring a keynote by Camila Lombana-Diaz on responsible and trustworthy AI\, followed by networking\, drinks\, and snacks.
+URL:https://www.kristiania.no/om-kristiania/kalender/official-kick-off-of-the-kai-center
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:ticket.kunstsilo.no-Detaljer-EVENT-459@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260508
+DTEND;VALUE=DATE:20260509
+SUMMARY:Fra kunstverk til algoritme
+LOCATION:Kunstsilo
+DESCRIPTION:Fagdag i Kristiansand med innlegg og ideworkshop om KI\, samlingsdata\, rettigheter og nye former for tilgang. Tid: 09:00-15:30.
+URL:https://ticket.kunstsilo.no/Detaljer/EVENT/459
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.uio.no-ritmo-english-news-and-events-events-food-and-paper-2026-20260513_Ken-D%C3%A9guernel%20-index.html@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260514
+SUMMARY:Food and Paper: MICCDroP
+LOCATION:University of Oslo (RITMO)
+DESCRIPTION:Food and Paper talk by Ken Déguernel. Time: 12:15 PM-1:00 PM (13 May 2026). Place: RITMO common area / Zoom.
+URL:https://www.uio.no/ritmo/english/news-and-events/events/food-and-paper/2026/20260513_Ken-D%C3%A9guernel%20/index.html
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.hf.uio.no-ifikk-english-research-news-and-events-events-guest-lectures-seminars-aesthetics-seminar-2026-antonio-somaini.html@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:Antonio Somaini on Latent Spaces: AI\, Art and the Meta-Archive
+LOCATION:University of Oslo (IFIKK)
+DESCRIPTION:Seminar of Aesthetics lecture. Time: 3:00 PM-5:00 PM. Place: Aud 2\, Eilert Sundt's Hus.
+URL:https://www.hf.uio.no/ifikk/english/research/news-and-events/events/guest-lectures-seminars/aesthetics-seminar/2026/antonio-somaini.html
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:fotografiens-hus.no-samtale-mellom-menneske-og-maskin-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
+SUMMARY:Mellom menneske og maskin
+LOCATION:Fotografiens Hus
+DESCRIPTION:Panelsamtale. Time: Saturday 16 May 2026\, 14:00. Place: Fotografiens Hus\, Oslo. Free entry.
+URL:https://fotografiens-hus.no/samtale-mellom-menneske-og-maskin/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.electricaudiounit.no-awash-with-sound-an-immersive-chillout-concert-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
+SUMMARY:Awash With Sound: An immersive chillout concert
+LOCATION:Electric Audio Unit
+DESCRIPTION:Immersive chillout concert at Sentralen\, Oslo. Time: 19:00-20:30 (20 May 2026). Public event hosted by Electric Audio Unit.
+URL:https://www.electricaudiounit.no/awash-with-sound-an-immersive-chillout-concert/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.dnva.no-detskjer-2026-03-hvordan-endrer-ki-agenter-forskningsprosessen@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
+SUMMARY:Hvordan endrer KI-agenter forskningsprosessen?
+LOCATION:Det Norske Videnskaps-Akademi (DNVA)
+DESCRIPTION:Apent mote i Kavlisalen\, DNVA (Drammensveien 78\, Oslo). Krever pamelding.
+URL:https://www.dnva.no/detskjer/2026/03/hvordan-endrer-ki-agenter-forskningsprosessen
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:kmd.uib.no-en-Calendar-seminar-archival-intelligence-epistemic-shifts-from-sound-to-listening@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260525
+SUMMARY:Archival Intelligence: Epistemic Shifts from Sound to Listening
+LOCATION:University of Bergen
+DESCRIPTION:Fakultet for kunst\, musikk og design\, UiB\, en kunnskapsbygger\, en kulturinstitusjon\, en opplyst fremtid
+URL:https://kmd.uib.no/en/Calendar/seminar/archival-intelligence-epistemic-shifts-from-sound-to-listening
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.kristiania.no-om-kristiania-kalender-kai-26.mai-2026-Artificial-Intelligence-what-is-everyone-talking-about@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+SUMMARY:Artificial Intelligence: what is everyone talking about?
+LOCATION:Kristiania
+DESCRIPTION:KAI Center evening talk by Luís Cruz-Filipe. Time: 5:30 PM–7:00 PM (doors 5:00 PM). Place: Kirkegata 24\, room CU-101\, Oslo. Free\, registration required.
+URL:https://www.kristiania.no/om-kristiania/kalender/kai-26.mai-2026-Artificial-Intelligence-what-is-everyone-talking-about
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.meetup.com-trondheim-kreativ-ai-events-314623889-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:TKAI Meetup #5 - Bygg det selv!
+LOCATION:Trondheim Kreativ AI
+DESCRIPTION:Meetup at Digs - Mesh Community\, Trondheim. Time: 5:30 PM-7:30 PM (27 May 2026). Talks on building with AI\, end-user development\, and AI-supported game and service creation.
+URL:https://www.meetup.com/trondheim-kreativ-ai/events/314623889/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.hvl.no-alu-temaveke-ki-2026-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260606
+SUMMARY:Temaveke KI 2026
+LOCATION:Høgskulen på Vestlandet (HVL)
+DESCRIPTION:Tema week on AI for students and staff at HVL. Time and place: 1-5 June 2026\, workshops and presentations across all five campuses and online streaming.
+URL:https://www.hvl.no/alu/temaveke-ki-2026/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.uio.no-ritmo-english-news-and-events-events-conferences-2026-daim-index.html@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260608
+DTEND;VALUE=DATE:20260610
+SUMMARY:Symposium on Digital and AI Musicology
+LOCATION:University of Oslo (RITMO)
+DESCRIPTION:Current research on the use of computational methods and AI in music libraries and musicology.
+URL:https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/index.html
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.uio.no-ritmo-english-news-and-events-events-lectures-2026-implicit-neural-measures-of-trust-in-ai-index.html@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+SUMMARY:Implicit neural measures of trust in artificial intelligence
+LOCATION:University of Oslo (RITMO)
+DESCRIPTION:Structure and Cognition Cluster meeting with Tobias Feldmann-Wüstefeld (TU Berlin) on EEG-based measures of trust in AI. Time: 10:45 AM-11:45 AM. Place: RITMO Meeting room v217/Zoom.
+URL:https://www.uio.no/ritmo/english/news-and-events/events/lectures/2026/implicit-neural-measures-of-trust-in-ai/index.html
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.uio.no-ritmo-english-news-and-events-events-disputations-2026-lucas-index.html@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SUMMARY:Public defence: Pedro Pablo Lucas Bravo
+LOCATION:University of Oslo (RITMO)
+DESCRIPTION:PhD defence on human-swarm interactive music systems in XR. Trial lecture 11:15\, public defence 13:15. Place: Forsamlingssalen\, Harald Schjelderups hus / YouTube.
+URL:https://www.uio.no/ritmo/english/news-and-events/events/disputations/2026/lucas/index.html
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:metamorf.art-2026-01-01-ai-in-the-cathedral-@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+SUMMARY:KI i Katedralen (AI in the Cathedral)
+LOCATION:TEKS
+DESCRIPTION:Interdisciplinary performance at Nidarosdomen exploring AI\, music\, dance\, and spirituality. Directed by Øyvind Brandtsegg\, curated by Zane Cerpina and Espen Gangvik. Time: 19:00. Tickets via Olavsfest.no.
+URL:https://metamorf.art/2026/01/01/ai-in-the-cathedral/
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.inn.no-om-universitetet-fakultet-for-film-tv-spill-den-norske-filmskolen-arrangementer-ki-kurs-for-produsenter-index.html@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20261002
+SUMMARY:Kurs: KI for produsenter
+LOCATION:Universitetet i Innlandet
+DESCRIPTION:Kurs fra Den norske filmskolen om KI i filmproduksjon\, med fokus pa arbeidsflyt\, budsjettering\, muligheter og utfordringer. Oppgitt sted er Oslo. Kurset gar over to dager hosten 2026\, med datoer TBA.
+URL:https://www.inn.no/om-universitetet/fakultet-for-film-tv-spill/den-norske-filmskolen/arrangementer/ki-kurs-for-produsenter/index.html
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.inn.no-om-universitetet-fakultet-for-film-tv-spill-den-norske-filmskolen-arrangementer-kurs-generativ-ki-filmskaping-index.html@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20261007
+SUMMARY:Kurs: KI-generert film som kunstnerisk verktøy
+LOCATION:Universitetet i Innlandet
+DESCRIPTION:Workshop fra Den norske filmskolen om generativ KI i filmskaping. Deltakerne utforsker verktoy\, metoder og begrensninger gjennom produksjon av en KI-generert kortfilm. Oppgitt sted er Oslo. Nar er oppfort som TBA\, og workshopen gar over fire kursdager.
+URL:https://www.inn.no/om-universitetet/fakultet-for-film-tv-spill/den-norske-filmskolen/arrangementer/kurs-generativ-ki-filmskaping/index.html
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:ultima.no-nb@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260920
+SUMMARY:Ultima Oslo Contemporary Music Festival 2026
+LOCATION:Ultima
+DESCRIPTION:Partner event
+URL:https://ultima.no/nb
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+BEGIN:VEVENT
+UID:www.hiof.no-forskning-satsingsomrader-sprak-i-oppleringen-ella-arrangementer-konferanse-norsk-nettverk-for-digital-humaniora-og.html@mishmash.no
+DTSTAMP:20260627T123658Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261016
+SUMMARY:DHKO Conference 2026
+LOCATION:Høgskolen i Østfold (HiØf)
+DESCRIPTION:Annual conference for the Norwegian network for digital humanities and cultural organisations (DHKO). Time and place: 14-15 October 2026\, Campus Remmen.
+URL:https://www.hiof.no/forskning/satsingsomrader/sprak-i-oppleringen/ella/arrangementer/konferanse-norsk-nettverk-for-digital-humaniora-og.html
+END:VEVENT
+
+END:VCALENDAR

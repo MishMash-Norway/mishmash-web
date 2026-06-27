@@ -88,7 +88,7 @@ Mandatet ble vedtatt.
 
 #### Bakgrunn
 
-MishMash arrangerte en workshop med kommunikasjonsmedarbeidere fra alle budsjettpartnere 17. juni. Der ble det redegjort for det pågående kommunikasjonsarbeidet og lagt frem en [kanalstrategi](https://mishmash.no/internal/kanalstrategi/).
+MishMash arrangerte en workshop med kommunikasjonsmedarbeidere fra alle budsjettpartnere 17. juni. Der ble det redegjort for det pågående kommunikasjonsarbeidet og lagt frem en [kanalstrategi](https://mishmash.no/no/internal/kanalstrategi/).
 
 #### Behandling
 

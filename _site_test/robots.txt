@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /internal/
+Sitemap: https://mishmash.no/sitemap.xml

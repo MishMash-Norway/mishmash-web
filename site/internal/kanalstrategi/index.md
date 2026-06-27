@@ -1,116 +1,120 @@
 ---
 layout: page
-title: Kanalstrategi
+title: Channel strategy
+translation_url: /no/internal/kanalstrategi/
+translation:
+  automatic: true
+  source_url: /no/internal/kanalstrategi/
+  original_label: "Norwegian original"
 ---
 
-## Mishmash -- organisasjon og mål
+## MishMash — organisation and goals
 
-Mishmash er et norsk forskningskonsortium med fokus på KI i kreative praksiser.
+MishMash is a Norwegian research consortium focused on AI in creative practices. It is a centre with more than 200 researchers from higher education institutions and research institutes in Norway, in collaboration with a number of public and private partners.
 
-Et senter med mer enn 200 forskere fra høyere utdanningsinstitusjoner og forskningsinstitutter i Norge, i samarbeid med en rekke offentlige og private partnere.
+The primary goal of MishMash is to *create, explore and reflect on AI, for, through and in creative practices.*
 
-Det primære **målet** med Mishmash er å *skape, utforske og reflektere over KI, for, gjennom og i kreative praksiser.*
+## The purpose of this plan
 
-## Formålet med denne planen
+MishMash is a large network in a build-up phase. In this phase there is a need for a shared understanding of which MishMash channels exist, and how they can be used by the partners to reach involved and interested people both inside and outside the network.
 
-Mishmash er et stort nettverk som er i en oppbyggingsfase. I denne fasen er det behov for en felles forståelse av hvilke Mishmash-kanaler som finnes, og hvordan de kan brukes av partnerne for å nå involverte og interesserte både i og utenfor nettverket.
+The channel strategy is a plan for:
 
-Kanalstrategien er en plan for:
+- which channels MishMash uses
+- who they are for
+- how they should be used and work together to support MishMash's goals
 
-- hvilke kanaler Mishmash bruker
-- hvem de er for
-- og hvordan de skal brukes og spille sammen for å støtte Mishmash sine mål.
+The plan is limited to MishMash's own channels, and how they can interact with partner channels.
 
-Planen er avgrenset til Mishmash sine kanaler, og hvordan de kan spille sammen med partnerkanaler.
+The channel strategy is evaluated and adjusted on an ongoing basis. This document is not a communication strategy, which is a plan for how to use communication to reach defined goals. Nor is it a communication plan that concretely describes what is to be done, when and by whom.
 
-*Denne kanalstrategien er en versjon 1. Strategien blir evaluert fortløpende, og behov for presiseringer/oppdateringer vil komme. Dette dokumentet er ikke en kommunikasjonsstrategi, som er en plan for hvordan man skal bruke kommunikasjon for å nå definerte mål. Det er heller ikke en kommunikasjonsplan som konkret beskriver hva som skal gjøres, når og av hvem.*
+## Goals for the communication
 
-## Mål med kommunikasjonen
+- Achieve good information flow *within* the initiative (prioritised now)
+  - Challenges: Many partners that need to coordinate, and different digital solutions that need to talk to each other.
+- Achieve good *external* dissemination about MishMash
+  - Challenges: making visible what the initiative achieves, and what its contribution to society is
 
-- **Få til god *informasjonsflyt innad i satsingen* (prioriteres nå)**
-  - Utfordringer: Mange partnere som skal koordinere seg og ulike digitale løsninger skal snakke med hverandre.
-- Få til *god formidling eksternt om Mishmash* -- synliggjøring av hva satsingen får til, og hva samfunnsbidraget er
+#### Language
 
-#### Språk
+English and Norwegian. English is the main language.
 
-Engelsk og norsk. Engelsk er hovedspråk.
+*The communication must be in line with the [Language Act](https://lovdata.no/dokument/NL/lov/2021-05-21-42) (publicly funded research).*
 
-*Kommunikasjonen må være tråd med [Språkloven](https://lovdata.no/dokument/NL/lov/2021-05-21-42) (offentlig finansiert forskning).*
+## Target groups
 
-## Målgrupper
+MishMash shall communicate and disseminate internally in the network, between researchers in the network, and externally towards a general audience.
 
-Mishmash skal kommunisere og formidle internt i nettverket, mellom forskere i nettverket, og eksternt mot en allmenn målgruppe.
+Communication vs. dissemination:
 
-Kommunikasjon vs. formidling:
+- **Communication = RESEARCHER communication:** Primarily aimed at other researchers. Developing understanding together.
+- **Dissemination = RESEARCH communication:** Explaining what one does and the research to people who are not researchers — both internally and externally.
 
-- **Kommunikasjon = FORSKERkommunikasjon:** Primært rettet mot andre forskere. Utvikle forståelse sammen.
-- **Formidling = FORSKNINGSkommunikasjon:** Forklare hva man gjør og forskningen til folk som ikke er forskere -- både innad og utad.
+## Channels
 
-## Kanaler
+### 1. MishMash.no
 
-### 1. Mishmash.no
+[MishMash.no](https://mishmash.no/) is the main channel for all activity at MishMash:
 
-[Mishmash.no](https://mishmash.no/) er hovedkanal for all aktivitet ved Mishmash:
+- Information about the initiative itself should as far as possible be on MishMash.no to avoid competing and out-of-date content. Partners link to mishmash.no. See for example <https://www.uio.no/forskning/toppforskning/ki/>
+- Results and activity are published at the partners', and fed to mishmash.no
 
-- Informasjon om selve satsingen skal i størst mulig grad ligge på Mishmash.no for å unngå konkurrerende innhold og ikke-oppdatert innhold. Partnere lenker til mishmash.no. Se for eksempel <https://www.uio.no/forskning/toppforskning/ki/>
-- Resultater og aktivitet publiseres hos partnere, og feedes til mishmash.no
+MishMash.no uses the GitHub platform and develops its own solution. This gives people in the network the opportunity to take part in developing the solution. In this way the website can be a development project in itself.
 
-Mishmash.no bruker plattformen GitHub og utvikler sin egen løsning. Dette gir mulighet for folk i nettverket til å være med å utvikle løsningen. Slik kan nettsiden være et utviklingsprosjekt i seg selv.
+- *What should the channel contribute to?* Researcher communication and research communication, internally and externally. MishMash.no is a channel that should strengthen all the partners.
+- *Who should it reach?* Everyone in the network, and everyone interested in the network.
+- *Who is responsible for the channel?* The MishMash management, but with a decentralised structure for publishing.
+- *What is the need for interaction between channels?* MishMash.no is the hub. The content lies primarily elsewhere, and is fed there.
 
-- *Hva skal kanalen bidra til?* Forskerkommunikasjon og forskningskommunikasjon, internt og eksternt. Mishmash.no er en kanal som skal styrke alle partnerne.
-- *Hvem skal den nå?* Alle i nettverket, og alle som er interessert i nettverket.
-- *Hvem har ansvaret for kanalen?* Ledelsen i Mishmash. Men en desentralisert struktur mht. publisering.
-- *Hva er behovet for samspill mellom kanaler?* Mishmash.no er navet. Innholdet ligger primært andre steder, og feedes dit.
+#### Content
 
-#### Innhold
+##### News
 
-##### Aktuelt
+- MishMash publishes its own stories on its website.
+- Stories written by partners are published elsewhere, and fed to MishMash.no.
 
-- Mishmash publiserer egne saker på sitt nettsted.
-- Saker som skrives av partnere publiseres andre steder, og feedes til Mishmash.no.
+##### Content from the National Research Archive and ORCID
 
-##### Innhold fra Nasjonalt vitenarkiv og ORCID
+The following content is retrieved from the National Research Archive (NVA) and ORCID to MishMash.no. In this way one ensures that the content is available and up to date:
 
-Følgende innhold hentes fra Nasjonalt vitenarkiv (NVA) og ORCID til Mishmash.no. På den måten sørger man for at innholdet er tilgjengelig og oppdatert:
+- Results
+- Person presentations
+- Projects
+- Institutions
 
-- Resultater
-- Personpresentasjoner
-- Prosjekter
-- Institusjoner
+##### Events
 
-##### Arrangementer/events
+- MishMash events: Published on mishmash.no.
+- Partner events: Created at the partner's, and fed to mishmash.no
 
-- Mishmash-events: Publiseres på mishmash.no.
-- Partner events: Opprettes hos partner, og feedes til mishmash.no
+Examples — Internal: Work package meetings every other week, thematic seminars, etc. / External: Weekly online meetings (MeshUp), public workshops, lifelong-learning events, semi-annual symposia, performances and exhibitions, etc.
 
-Eksempler -- Internt: Arbeidspakkemøter annenhver uke, tematiske seminarer m.m. / Eksternt: Ukentlige nettmøter (Meshup), offentlige workshops, livslang læring-arrangementer, halvårlige symposier, fremføringer og utstillinger m.m.
+### 2. Mailing lists
 
-### 2. E-postlister
+**ALL AT MISHMASH:** Used several times a week, low-threshold, internal, approx. 300 recipients (the MishMash management sends)
 
-**ALL AT MISHMASH:** Brukes flere ganger i uken, lavterskel, intern, ca. 300 mottakere (Mishmash-ledelsen sender)
+- *What should the channel contribute to?* That people in the MishMash network stay informed about what is happening.
+- *Who should it reach?* Everyone in the MishMash network.
+- *Who is responsible for the channel?* The management sends/moderates. The content can come from several places.
+- *What is the need for interaction between channels?* That the content of the e-mail can point to a place where more info is published, for example at partners.
 
-- *Hva skal kanalen bidra til?* At folk i nettverket til Mishmash holder seg orientert om hva som skjer.
-- *Hvem skal den nå?* Alle i nettverket til Mishmash.
-- *Hvem har ansvaret for kanalen?* Ledelsen sender/modererer. Innholdet kan komme fra flere steder.
-- *Hva er behovet for samspill mellom kanaler?* At innholdet i e-posten kan vise til et sted der mer info er publisert, for eksempel hos partnere.
+**ANNOUNCEMENTS:** Important things, less frequent, external, approx. 1000 recipients (the MishMash management sends)
 
-**ANNOUNCEMENTS:** Viktige ting, ikke så hyppig, ekstern, ca. 1000 mottakere (Mishmash-ledelsen sender)
+- *What should the channel contribute to?* That interested people inside and outside the network receive information about what is happening.
+- *Who should it reach?* Interested people inside and outside the network.
+- *Who is responsible for the channel?* The management sends/moderates. The content can come from several places.
+- *What is the need for interaction between channels?* That the content of the e-mail can point to a place where more info is published, for example at partners.
 
-- *Hva skal kanalen bidra til?* At interesserte folk i og utenfor nettverket får informasjon om hva som skjer.
-- *Hvem skal den nå?* Interesserte folk i og utenfor nettverket.
-- *Hvem har ansvaret for kanalen?* Ledelsen sender/modererer. Innholdet kan komme fra flere steder.
-- *Hva er behovet for samspill mellom kanaler?* At innholdet i e-posten kan vise til et sted der mer info er publisert, for eksempel hos partnere.
+**THE WORK PACKAGES' MAILING LISTS:** [wpx@mishmash.no](mailto:wpx@mishmash.no). Managed by the work packages.
 
-**ARBEIDSPAKKENES E-POSTLISTER:** [wpx@mishmash.no](mailto:wpx@mishmash.no). Styres av arbeidspakkene.
+### 3. Social media
 
-### 3. Sosiale medier
+- **LinkedIn:** Most active
+- **Instagram:** Irregular updates
+- **YouTube:** Video content lives here
 
-- **LinkedIn:** Mest aktiv
-- **Instagram:** Uregelmessige oppdateringer
-- **YouTube:** Videoinnhold bor her
+The channels exist, but it has not been clarified how they should be used.
 
-Kanalene finnes, men det er ikke avklart hvordan de skal brukes.
+## Resources
 
-## Ressurser
-
-Mishmash baserer seg primært på at partnere bidrar med egne ressurser inn i arbeidet med kommunikasjon og formidling.
+MishMash relies primarily on partners contributing their own resources to the work on communication and dissemination.
