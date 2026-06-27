@@ -1,125 +1,130 @@
 ---
 layout: meeting
-title: "MishMash styremøte #1"
-meeting_title: "MishMash styremøte #1"
+title: "MishMash Board Meeting #1"
+meeting_title: "MishMash Board Meeting #1"
 meeting_date: "10 April 2026"
 meeting_start: "13:00"
 meeting_end: "14:00"
 meeting_location: "Zoom"
+translation_url: /no/about/organisation/board/meetings/2026-04-10/
+translation:
+  automatic: true
+  source_url: /no/about/organisation/board/meetings/2026-04-10/
+  original_label: "Norwegian original"
 ---
 
 
-Medlemmer: 
+Members: 
 
-- [Sunniva Whittaker](https://www.uia.no/english/about-uia/employees/sunnivaw/) (UiA) (Styreleder)
+- [Sunniva Whittaker](https://www.uia.no/english/about-uia/employees/sunnivaw/) (UiA) (Chair)
 - [Christian Blom](https://notam.no/en/about-us/employees/) (Notam)
 - [Christian Schüssler](https://reimagine.no/contact) (Reimagine)
 - [Hege Stensrud Høsøien](https://www.nb.no/ansatte/hege-stensrud-hosoien/) (NB)
 - [Tine Grieg Viig](https://www.hvl.no/person/?user=tine.viig) (HVL)
 
-Sekretariat: 
+Secretariat: 
 
-- [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) (Senterleder)
-- [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO) (Administrativ koordinator)
+- [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) (Centre Director)
+- [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO) (Administrative Coordinator)
 
-## Saksliste
+## Agenda
 
-### 1. Velkommen 
+### 1. Welcome 
 
-#### Bakgrunn
+#### Background
 
-Dette er det første styremøtet for MishMash. 
+This is the first board meeting for MishMash. 
 
-#### Behandling
+#### Discussion
 
-Styreleder ønsket velkommen og inviterte medlemmene til å introdusere seg.
+The chair welcomed the members and invited them to introduce themselves.
 
-#### Vedtak
+#### Decision
 
-Ingen vedtak. 
+No decisions. 
 
-### 2. Introduksjon til MishMash's organisering og struktur
+### 2. Introduction to MishMash's organisation and structure
 
-#### Bakgrunn
+#### Background
 
-MishMash har følgende råd og utvalg: 
+MishMash has the following councils and committees: 
 
-- [Ledelse](https://mishmash.no/about/organisation/management/) — Daglig ledelse og koordinering av MishMash
-- [Arbeidspakkeledergruppen](https://mishmash.no/about/organisation/wp-leaders/) — Ledere for de syv vitenskapelige arbeidspakkene
-- [Rådet](https://mishmash.no/no/about/organisation/council/) — Strategisk veiledning og overordnet koordinering
-- [Styret](https://mishmash.no/no/about/organisation/board/) — Styring og overordnet oppfølging av senteret
-- [Interessentrådet](https://mishmash.no/about/organisation/stakeholder-board/) — Representanter for partnere og andre interessenter
-- [Det vitenskapelige rådet](https://mishmash.no/about/organisation/scientific-advisory-board/) — Internasjonal vitenskapelig rådgivning og evaluering
+- [Management](https://mishmash.no/about/organisation/management/) — Day-to-day management and coordination of MishMash
+- [Work package leader group](https://mishmash.no/about/organisation/wp-leaders/) — Leaders of the seven scientific work packages
+- [The Council](https://mishmash.no/no/about/organisation/council/) — Strategic guidance and overall coordination
+- [The Board](https://mishmash.no/no/about/organisation/board/) — Governance and overall oversight of the centre
+- [The Stakeholder Board](https://mishmash.no/about/organisation/stakeholder-board/) — Representatives of partners and other stakeholders
+- [The Scientific Advisory Board](https://mishmash.no/about/organisation/scientific-advisory-board/) — International scientific advice and evaluation
   
-#### Behandling
+#### Discussion
 
-Senterleder orienterte om organiseringern av MishMash. 
+The Centre Director gave an account of the organisation of MishMash. 
 
-#### Vedtak
+#### Decision
 
-Tatt til orientering.
+Noted.
    
-### 3. Styrets funksjon
+### 3. The Board's function
 
-#### Bakgrunn
+#### Background
 
-Forskningsrådet har ikke satt noen krav til styrets funksjon, det er dermed opp til styret selv å definere sin funksjon og mandat. 
+The Research Council of Norway has not set any requirements for the board's function; it is therefore up to the board itself to define its function and mandate. 
 
-#### Behandling
+#### Discussion
 
-Diskusjonen fokuserte på følgende punkter: 
+The discussion focused on the following points: 
 
-- Godkjenning av regnskap og budsjett
-- Strategisk arbeid innen både forskning og utdanning
-- Muligheter for ekstern finansiering
+- Approval of accounts and budget
+- Strategic work within both research and education
+- Opportunities for external funding
 
-#### Vedtak
+#### Decision
 
-Tatt til orientering.
+Noted.
 
-### 4. Praktikaliteter
+### 4. Practicalities
 
-#### Bakgrunn
+#### Background
 
-Det er ikke gitt noen føringer på hvordan styret skal jobbe. Det finnes heller ingen verktøy tilgjengelig som fungerer på tvers av alle institusjonene involvert. Styret må derfor selv finne ut av arbeidsform og verktøy. 
+No guidelines have been given for how the board should work. Nor are there any tools available that work across all the institutions involved. The board must therefore decide on its own working methods and tools. 
 
-#### Behandling
+#### Discussion
 
-Plassering av styrepapirer: Det ble argumentert for at styrepapirer så langt det er mulig skal være åpent tilgjengelige og tilgjengelig fra nettsiden. 
+Placement of board papers: It was argued that board papers should, as far as possible, be openly available and accessible from the website. 
 
-#### Vedtak
+#### Decision
 
-Styrepapirer legges ut på nettsiden. Relevant bakgrunnsinformasjon fra søknasfasen sendes til styremedlemmene per e-post. 
+Board papers are published on the website. Relevant background information from the application phase is sent to the board members by e-mail. 
 
-### 5. Identifisering av viktige temaer å jobbe med
+### 5. Identification of important topics to work on
 
-#### Bakgrunn
+#### Background
 
-Gitt størrelsen og kompleksiteten til MishMash, vil det være mange store og generelle saker som vil måtte håndteres i årene fremover. 
+Given the size and complexity of MishMash, there will be many large and general matters that will have to be handled in the years ahead. 
 
-#### Behandling
+#### Discussion
 
-Senterleder orienterte om pågående saker:
+The Centre Director gave an account of ongoing matters:
 
-- Mye av den faglige aktiviteten vil foregå i arbeidspakkene, så det er viktig å følge med på at disse kommer godt i gang og fungerer som planlagt. 
-- Nå som rådet og styret er opprettet, er neste jobb å sikre at de assosierte partnere får tilsendt samarbeidsavtale til signering. De vil også kobles på via et interessentråd. 
-- Interinstitusjonelt UH-samarbeid blir en hovedutfordring for MishMash. Dette vil gjelde både forskning og utdanning og det vil være nødvendig å jobbe med eksisterende systemer (f.eks. UHR) for å finne gode løsninger.  
-- Samarbeid mellom UH-sektor og offentlige og private aktører er to andre viktige samarbeidsflater som må utvikles og utvides. 
+- Much of the academic activity will take place in the work packages, so it is important to follow up that these get off to a good start and function as planned. 
+- Now that the council and the board have been established, the next task is to ensure that the associated partners are sent a collaboration agreement for signing. They will also be connected via a stakeholder board. 
+- Inter-institutional collaboration in the higher education sector will be a main challenge for MishMash. This will apply to both research and education, and it will be necessary to work with existing systems (e.g. UHR) to find good solutions.  
+- Collaboration between the higher education sector and public and private actors are two other important interfaces that must be developed and expanded. 
 
-#### Vedtak
+#### Decision
 
-Tatt til orientering. 
+Noted. 
 
-### 6. Kommende møter
+### 6. Upcoming meetings
 
-#### Bakgrunn
+#### Background
 
-Det legges i utgangspunktet opp til to styremøter i året, med mulighet for ekstra møter ved behov. 
+In principle, two board meetings per year are planned, with the possibility of additional meetings as needed. 
 
-#### Behandling
+#### Discussion
 
-Det ble ytret ønske om noen flere møter i begynnelsen for å komme i gang med arbeidet. 
+A wish was expressed for some additional meetings in the beginning to get the work started. 
 
-#### Vedtak 
+#### Decision 
 
-Det arrangeres et nettmøte før sommeren og et fysisk møte i forbindelse med konferansen i Kristiansand i september. 
+An online meeting is held before the summer and a physical meeting in connection with the conference in Kristiansand in September. 

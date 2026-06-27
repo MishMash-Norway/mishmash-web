@@ -75,6 +75,7 @@
 {% if show_translation %}
   {% assign translation_source = translation_meta.source_url | default: page.translation_url %}
   {% assign translation_model = translation_meta.model | default: defaults.translation.model %}
+  {% assign translation_original_label = translation_meta.original_label | default: t.page_about_translated_original %}
 {% endif %}
 
 {% assign source_override = meta.data_sources | default: page.data_sources %}
@@ -219,9 +220,9 @@
             {% unless translation_source_href contains '://' %}
               {% assign translation_source_href = translation_source_href | relative_url %}
             {% endunless %}
-            <a href="{{ translation_source_href }}">{{ t.page_about_translated_original }}</a>
+            <a href="{{ translation_source_href }}">{{ translation_original_label }}</a>
           {% else %}
-            {{ t.page_about_translated_original }}
+            {{ translation_original_label }}
           {% endif %}
           {% if translation_model %}
             · {{ t.page_about_translated_model }}: {{ translation_model }}

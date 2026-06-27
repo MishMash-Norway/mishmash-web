@@ -1,156 +1,161 @@
 ---
 layout: meeting
-title: "MishMash styremøte #2"
-meeting_title: "MishMash styremøte #2"
+title: "MishMash Board Meeting #2"
+meeting_title: "MishMash Board Meeting #2"
 meeting_date: "26 June 2026"
 meeting_start: "14:00"
 meeting_end: "15:00"
 meeting_location: "Zoom"
+translation_url: /no/about/organisation/board/meetings/2026-06-26/
+translation:
+  automatic: true
+  source_url: /no/about/organisation/board/meetings/2026-06-26/
+  original_label: "Norwegian original"
 ---
 
 
-Medlemmer: 
+Members: 
 
-- [Sunniva Whittaker](https://www.uia.no/english/about-uia/employees/sunnivaw/) (UiA) (Styreleder)
+- [Sunniva Whittaker](https://www.uia.no/english/about-uia/employees/sunnivaw/) (UiA) (Chair)
 - [Christian Blom](https://notam.no/en/about-us/employees/) (Notam)
 - ~~[Christian Schüssler](https://reimagine.no/contact) (Reimagine)~~
 - [Hege Stensrud Høsøien](https://www.nb.no/ansatte/hege-stensrud-hosoien/) (NB)
 - [Tine Grieg Viig](https://www.hvl.no/person/?user=tine.viig) (HVL)
 
-Sekretariat: 
+Secretariat: 
 
-- [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) (Senterleder)
-- [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO) (Administrativ koordinator)
+- [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) (Centre Director)
+- [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO) (Administrative Coordinator)
 
-## Saksliste
+## Agenda
 
-### 1. Innkalling 
+### 1. Notice of meeting 
 
-#### Bakgrunn
+#### Background
 
-Innkallingen er utarbeidet av styreleder i samarbeid med senterleder.
+The notice of meeting was prepared by the chair in collaboration with the Centre Director.
 
-#### Behandling
+#### Discussion
 
-Det var ingen kommentarer eller spørsmål til innkallingen, og det ble ikke meldt saker under eventuelt ved møtestart.
+There were no comments or questions to the notice of meeting, and no items were raised under any other business at the start of the meeting.
 
-#### Vedtak
+#### Decision
 
-Innkallingen ble godkjent.
+The notice of meeting was approved.
 
-### 2. Godkjenning av protokoll
+### 2. Approval of the minutes
 
-#### Bakgrunn
+#### Background
 
-- [MishMash styremøte #1](https://mishmash.no/about/organisation/board/meetings/2026-04-10/)
+- [MishMash Board Meeting #1](https://mishmash.no/about/organisation/board/meetings/2026-04-10/)
 
-#### Behandling
+#### Discussion
 
-Det var ingen kommentarer til protokollen fra det første styremøtet.
+There were no comments to the minutes from the first board meeting.
 
-#### Vedtak
+#### Decision
 
-Protokollen fra forrige styremøte ble godkjent.
+The minutes from the previous board meeting were approved.
    
-### 3. Styrets funksjon
+### 3. The Board's function
 
-#### Bakgrunn
+#### Background
 
-Styret har bedt senterleder om å undersøke ansvarsforhold og mandat for styrearbeidet. 
+The board has asked the Centre Director to investigate the responsibilities and mandate for the board's work. 
 
-- Ansvar: Ettersom MishMash ikke er en egen organisasjon, men organisert som et konsortium med mange partnere som alle har uavhengig økonomi, har ikke styremedlemmene personlig ansvar for f.eks. økonomien i senteret. 
+- Responsibility: Since MishMash is not a separate organisation, but organised as a consortium with many partners that all have independent finances, the board members do not have personal responsibility for, e.g., the centre's finances. 
 
-- Mandat: Forskningsrådet krever at KI-sentrene har et styre, men har ikke spesifisert nærmere hvilket mandat som gjelder. Det foreslås følgende mandat for styret:
+- Mandate: The Research Council of Norway requires that the AI centres have a board, but has not further specified which mandate applies. The following mandate is proposed for the board:
 
-> Styret har ansvar for:
+> The Board is responsible for:
 >
-> - Styring og overordnet oppfølging av MishMash
-> - Årlig godkjenning av regnskap og budsjett
-> - Strategiske beslutninger om senterets videre retning
-> - Oppfølging av at arbeidspakkene fungerer etter hensikten
-> - Strategisk arbeid innen både forskning og utdanning
-> - Tilrettelegging for søknader om ekstern finansiering
+> - Governance and overall oversight of MishMash
+> - Annual approval of accounts and budget
+> - Strategic decisions on the centre's future direction
+> - Following up that the work packages function as intended
+> - Strategic work within both research and education
+> - Facilitating applications for external funding
 
 
-#### Behandling
+#### Discussion
 
-Senterleder redegjorde for ansvarsforholdet og pekte på at styremedlemmenes ansvar er begrenset ettersom MishMash er et prosjekt under Universitetet i Oslo og ikke en egen organisasjon. Forskningsrådet stiller kun krav om at senteret har et styre, uten å spesifisere mandatet, dette er opp til styret selv. Det ble pekt på at godkjenning av regnskap og budsjett er det mest formelle punktet, mens strategiarbeid fremstår som styrets viktigste oppgave. Styret sluttet seg til at mandatet er romslig og dekkende, og hadde ingen ytterligere tilføyelser.
+The Centre Director explained the responsibilities and pointed out that the board members' responsibility is limited, since MishMash is a project under the University of Oslo and not a separate organisation. The Research Council of Norway only requires that the centre has a board, without specifying the mandate; this is up to the board itself. It was pointed out that approval of accounts and budget is the most formal point, while strategic work appears to be the board's most important task. The board agreed that the mandate is broad and comprehensive, and had no further additions.
 
-#### Vedtak
+#### Decision
 
-Mandatet ble vedtatt.
+The mandate was adopted.
 
-### 4. Kommunikasjon
+### 4. Communication
 
-#### Bakgrunn
+#### Background
 
-MishMash arrangerte en workshop med kommunikasjonsmedarbeidere fra alle budsjettpartnere 17. juni. Der ble det redegjort for det pågående kommunikasjonsarbeidet og lagt frem en [kanalstrategi](https://mishmash.no/internal/kanalstrategi/).
+MishMash held a workshop with communication staff from all budget partners on 17 June. There, the ongoing communication work was presented and a [channel strategy](https://mishmash.no/internal/kanalstrategi/) was put forward.
 
-#### Behandling
+#### Discussion
 
-Senterleder og administrativ koordinator orienterte om kommunikasjonsarbeidet. Kanalstrategien er utarbeidet i samarbeid med kommunikasjonsavdelingen ved Det humanistiske fakultet (UiO). Når det gjelder nettsiden, er målet å legge minst mulig rådata på mishmash.no og heller hente informasjon automatisk fra andre kilder: personinformasjon og forskningsresultater hentes fra NVA, med ORCID som backup for deltakere utenfor norsk akademia. Arrangementer og nyheter hentes inn fra partnernes egne publiseringsplattformer fra spesifiserte lenker. Formålet er å unngå duplisering av arbeid, tydeliggjøre hvem som har ansvar for hva, og la senteret fungere som et nav som styrker institusjonene selv, fremfor å bygge en omfattende egen nettside for et senter som i utgangspunktet bare skal leve i fem år. Det ble også orientert om e-postlister og sosiale medier, der arbeidet er kommet noe kortere.
+The Centre Director and the Administrative Coordinator gave an account of the communication work. The channel strategy has been developed in collaboration with the communications department at the Faculty of Humanities (UiO). Regarding the website, the goal is to put as little raw data as possible on mishmash.no and instead retrieve information automatically from other sources: information about people and research results is retrieved from NVA, with ORCID as a backup for participants outside Norwegian academia. Events and news are retrieved from the partners' own publishing platforms from specified links. The purpose is to avoid duplication of work, clarify who is responsible for what, and let the centre function as a hub that strengthens the institutions themselves, rather than building an extensive website of its own for a centre that is in principle only meant to last for five years. There was also an account of mailing lists and social media, where the work has come somewhat further behind.
 
-I diskusjonen ble det blant annet tatt opp redaksjonsansvar for sosiale medier, som foreløpig ikke er avklart, samt spørsmål om målgrupper. Senteret skiller mellom forskerkommunikasjon (mellom forskere) og forskningskommunikasjon/formidling mot allmennheten. Så langt har arbeidet vært rettet mot å bygge nettverket og infrastrukturen (forskerkommunikasjon), mens formidling mot allmennheten vil få større vekt fra høsten. Det jobbes også med transparens på nettsidene (hver side viser informasjon om kildekode, lisens, personvern, datakilde og opplysning om evt. oversettelse). Styret bifalt den nøkterne og målrettete strategien og støttet at det utarbeides en mer overordnet kommunikasjonsstrategi til høsten.
+In the discussion, editorial responsibility for social media, which has not yet been clarified, was among the topics raised, as well as questions about target groups. The centre distinguishes between researcher communication (between researchers) and research communication/dissemination to the general public. So far the work has been directed at building the network and the infrastructure (researcher communication), while dissemination to the general public will be given greater weight from the autumn. Work is also being done on transparency on the web pages (each page shows information about source code, licence, privacy, data source and information about any translation). The board endorsed the sober and targeted strategy and supported the development of a more overarching communication strategy in the autumn.
 
-#### Vedtak
+#### Decision
 
-Saken ble tatt til orientering.
+The matter was noted.
 
-### 5. Regnskapsorientering
+### 5. Accounts orientation
 
-#### Bakgrunn
+#### Background
 
-Administrativ koordinator vil orientere om hvordan det jobbes med med økonomistyring, regnskap og budsjett.
+The Administrative Coordinator will give an account of how financial management, accounts and budget are being handled.
 
-#### Behandling
+#### Discussion
 
-Administrativ koordinator orienterte om økonomistyringen. Prosjektøkonomen ved UiO følger økonomien tett, og det avholdes månedlige oppfølgingsmøter. Det foreligger ennå ikke et ferdig regnskap, men foreløpige rapporter viser at det ikke er noen store overraskelser. Såkornmidler utbetales på ulik måte avhengig av partnertype. Budsjettpartnere utbetaler fra egen institusjon og fakturerer UiO i etterkant, mens assosierte partnere fakturerer UiO direkte.
+The Administrative Coordinator gave an account of the financial management. The project economist at UiO follows the finances closely, and monthly follow-up meetings are held. Final accounts are not yet available, but preliminary reports show that there are no major surprises. Seed funding is paid out in different ways depending on the type of partner. Budget partners pay out from their own institution and invoice UiO afterwards, while associated partners invoice UiO directly.
 
-Styret ba om at fremtidig økonomirapportering settes opp med regnskap mot budsjett, langtidsprognoser og en kort vurdering fra sekretariatet. Det er ønskelig med et eget økonomimøte i løpet av høsten der budsjettpostene gjennomgås. Da vil det også være relevant å diskutere regnskapsoppsett og mekanismer for å synliggøre synliggjøre tilleggsfinansiering.
+The board asked that future financial reporting be set up with accounts against budget, long-term forecasts and a brief assessment from the secretariat. A separate financial meeting in the course of the autumn, where the budget items are reviewed, is desirable. It will then also be relevant to discuss the accounting setup and mechanisms for making additional funding visible.
 
-#### Vedtak
+#### Decision
 
-Saken ble tatt til orientering. Det tas sikte på et eget økonomimøte i løpet av høsten.
+The matter was noted. A separate financial meeting is planned for the course of the autumn.
 
-### 6. Henvendelse fra KIKI
+### 6. Inquiry from KIKI
 
-#### Bakgrunn
+#### Background
 
-Styret har mottatt en henvendelse fra KIKI v/styreleder Flu Hartberg med følgende spørsmål: 
+The board has received an inquiry from KIKI by chair Flu Hartberg with the following questions: 
 
-> Er MishMash enig i at generativ KI, som billed, tekst og lyd-tjenester (Midjourney, Chat GPT, Suno osv) er en trussel mot norske kreative arbeidsplasser?
+> Does MishMash agree that generative AI, such as image, text and audio services (Midjourney, ChatGPT, Suno, etc.), is a threat to Norwegian creative jobs?
 >
-> Er MishMash enig i at tilblivelsen av nevnte språkmodeller er gjort ved å bryte norske og internasjonale regler om opphavsrett? Og at skraping av internett for å trene KI-modeller bør forbli ulovlig?
+> Does MishMash agree that the creation of the said language models has been done by breaking Norwegian and international rules on copyright? And that scraping the internet to train AI models should remain illegal?
 >
-> Er MishMash enig i at man bør gjøre tiltak for å sikre norske kunstneres opphavsrett i møte med disse tjenestene? Det være seg offentlige krav til tek-selskaper som opererer på norsk jord, reguleringer og retningslinjer for offentlige instanser og kulturinstitusjoner osv.
+> Does MishMash agree that measures should be taken to secure Norwegian artists' copyright in the face of these services? Be it public requirements for tech companies operating on Norwegian soil, regulations and guidelines for public bodies and cultural institutions, etc.
 
-Styret bes om kommentarer for å svare på henvendelsen. 
+The board is asked for comments in order to answer the inquiry. 
 
-#### Behandling
+#### Discussion
 
-Styret drøftet henvendelsen. MishMash er et forskningskonsortium med mange forskjellige aktører som jobber på ulike måter. Det er ikke styrets eller ledelsens rolle å innta entydige politiske standpunkter på vegne av hele senteret. Senteret er bygget på en identifisering av [utfordrende områder](https://mishmash.no/no/about/description/#hvorfor), hvor opphavsrett er ett felt, men også personvern, skjevheter, miljøpåvirkning, m.m. Som et forskningssenter vil MishMash bidra til å fremskaffe et systematisk kunnskapsgrunnlag som kan hjelpe med å heve kunnskapsnivået om KI og kreativitet i Norge og bidra til god offentlig debatt. På teknologisiden jobber MishMash med å utvikle små, lokale modeller trent på eget materiale, noe som nettopp vil kunne være alternativer til store kommersielle modeller. 
+The board discussed the inquiry. MishMash is a research consortium with many different actors who work in different ways. It is not the role of the board or the management to take unambiguous political positions on behalf of the entire centre. The centre is built on an identification of [challenging areas](https://mishmash.no/about/description/#why), where copyright is one field, but also privacy, biases, environmental impact, and so on. As a research centre, MishMash will contribute to producing a systematic knowledge base that can help raise the level of knowledge about AI and creativity in Norway and contribute to good public debate. On the technology side, MishMash is working to develop small, local models trained on its own material, which precisely could be alternatives to large commercial models. 
 
-#### Vedtak
+#### Decision
 
-Styreleder utformer et svar på henvendelsen i samråd med senterleder. De prinsipielle problemstillingene tas videre i styret og i det videre kommunikasjonsarbeidet.
+The chair drafts a response to the inquiry in consultation with the Centre Director. The matters of principle are taken further in the board and in the ongoing communication work.
 
-### 7. Kommende møter
+### 7. Upcoming meetings
 
-#### Bakgrunn
+#### Background
 
-Neste styremøte blir fysisk i Kristiansand i forbindelse med åpningskonferansen 14. september. Det foreslås at arbeidspakkelederne innkalles til møtet for å orientere kort om aktiviteten. Styret bes om å komme med innspill til hvilke saker som ønskes på agendaen.
+The next board meeting will be a physical meeting in Kristiansand in connection with the opening conference on 14 September. It is proposed that the work package leaders be invited to the meeting to give a brief account of the activity. The board is asked to provide input on which matters are wanted on the agenda.
 
-#### Behandling
+#### Discussion
 
-Styret ønsker å møte arbeidspakkelederne for å høre om hvordan det går med arbeidet. De inviteres til å holde et kort innlegg på om lag fem minutter, med vekt på status for prosjektoppstart og eventuelle problemstillinger styret kan bistå med.
+The board wishes to meet the work package leaders to hear how the work is going. They are invited to give a short presentation of about five minutes, with emphasis on the status of the project start-up and any issues the board can assist with.
 
-#### Vedtak 
+#### Decision 
 
-Arbeidspakkelederne inviteres til å gi korte statusinnlegg, og administrativ koordinator følger opp invitasjoner og møtelokale.
+The work package leaders are invited to give short status presentations, and the Administrative Coordinator follows up on invitations and the meeting venue.
 
-### 8. Eventuelt
+### 8. Any other business
 
-- **Såkornmidler:** Det har blitt gjennomført to runder med fordelinger av såkornsmidler til partnere i løpet av våren. Hvert prosjekt kan få opp til 50 000,-. Prosedyren for tildelinger ble justert mellom runde en og to . I den siste runden silte arbeidspakkelederne søknadene knyttet til egen arbeidspakke, deretter utarbeidet ledelsen et samlet forslag som ble diskutert, justert og vedtatt av arbeidspakkelederne. Det har blitt lagt vekt på å stimulere til samarbeid og spredning på tvers av arbeidspakker og institusjoner.
-- **Deltagelse i relevante KI-fora:** MishMash blir stadig invitert til å være representert i ulike fora. Senterleder møter i et eget nettverk for KI-senterledere initiert av Forskningsrådet. Senterledelsen har generelt takket ja til å delta i mange ulike paneldebatter og har holdt en rekke presentasjoner av senteret i inn- og utland. Det ble foreslått at sekretariatet lager en kort «siden sist»-oppsummering til styret.
-- **Tverrinstitusjonelt samarbeid:** På grunn av den unike organiseringen, er MishMash særlig godt egnet til å identifisere strukturelle og organisatoriske utfordringer, f.eks. på utdanningssiden. Det vil være relevant å diskutere dette i styret.
-- **Regneressurser:** Søknader om såkornsmidler viser at det er ulik tilgang til regneressurser mellom institusjonene. Noen har gode interne ressurser mens andre må kjøpe kommersielt. Styret kan være behjelpelig med å jobbe for å finne gode nasjonale løsninger.
+- **Seed funding:** Two rounds of seed funding distributions to partners have been carried out during the spring. Each project can receive up to NOK 50,000. The procedure for allocations was adjusted between round one and two. In the last round, the work package leaders screened the applications related to their own work package, after which the management prepared a combined proposal that was discussed, adjusted and adopted by the work package leaders. Emphasis has been placed on stimulating collaboration and distribution across work packages and institutions.
+- **Participation in relevant AI forums:** MishMash is continually invited to be represented in various forums. The Centre Director attends a dedicated network for AI centre directors initiated by the Research Council of Norway. The centre management has generally accepted to participate in many different panel debates and has given a number of presentations of the centre at home and abroad. It was proposed that the secretariat prepare a brief "since last time" summary for the board.
+- **Inter-institutional collaboration:** Because of its unique organisation, MishMash is particularly well suited to identify structural and organisational challenges, e.g. on the education side. It will be relevant to discuss this in the board.
+- **Computing resources:** Applications for seed funding show that there is unequal access to computing resources between the institutions. Some have good internal resources while others must purchase commercially. The board can help by working to find good national solutions.
