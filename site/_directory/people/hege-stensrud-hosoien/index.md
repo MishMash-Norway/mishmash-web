@@ -1,12 +1,13 @@
 ---
+layout: person
 type: person
 slug: hege-stensrud-hosoien
 name: Hege Stensrud Høsøien
 title: Hege Stensrud Høsøien
-position: Academic assistant
-department: Faculty of Humanities
+position: Head of division
+department: The National Library of Norway
 image: /assets/images/portraits/Hege_Stensrud_Hosoien_NB.jpg
-institution: university-of-oslo
+institution: national-library-of-norway
 institutions:
 - national-library-of-norway
 - university-of-oslo
@@ -32,7 +33,6 @@ source_mentions:
 - about/organisation/board/index.md
 summary: null
 description: Academic assistant, Faculty of Humanities, University of Oslo
-layout: person
 permalink: /people/hege-stensrud-hosoien/
 redirect_from:
 - /directory/people/hege-stensrud-hosoien/

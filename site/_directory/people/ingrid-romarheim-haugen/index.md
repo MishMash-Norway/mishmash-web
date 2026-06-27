@@ -3,7 +3,7 @@ type: person
 slug: ingrid-romarheim-haugen
 name: Ingrid Romarheim Haugen
 title: Ingrid Romarheim Haugen
-position: Adviser
+position: Head of Section
 department: Musikk
 image: /assets/images/portraits/Ingrid_Romarheim_Haugen_NB.jpg
 institution: national-library-of-norway
