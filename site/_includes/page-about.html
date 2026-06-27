@@ -149,6 +149,13 @@
         </dd>
       </div>
 
+      <div class="page-about-item">
+        <dt>{{ t.page_about_accessibility }}</dt>
+        <dd>
+          <a href="{{ t.accessibility_url | relative_url }}">{{ t.page_about_accessibility_level }}</a>
+        </dd>
+      </div>
+
       {% if ai_agent or ai_model_name or ai_model_version %}
       <div class="page-about-item">
         <dt>{{ t.page_about_ai_support }}</dt>
