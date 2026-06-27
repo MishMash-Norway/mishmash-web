@@ -29,3 +29,5 @@ config/nva-credentials.json
 # Others
 
 temp/
+_site_test/
+_site_clean/
