@@ -30,14 +30,12 @@ The channel strategy is evaluated and adjusted on an ongoing basis. This documen
 
 ## Goals for the communication
 
-- Achieve good information flow *within* the initiative (prioritised now)
-  - Challenges: Many partners that need to coordinate, and different digital solutions that need to talk to each other.
-- Achieve good *external* dissemination about MishMash
-  - Challenges: making visible what the initiative achieves, and what its contribution to society is
+- Achieve good information flow *within* the initiative. This is the first priority, as there are many partners that need to coordinate and different digital solutions that need to talk to each other.
+- Achieve good *external* dissemination about MishMash. Making visible what the initiative achieves, and what its contribution to society is.
 
 #### Language
 
-English and Norwegian. English is the main language.
+English and Norwegian. English is the main language. The use of automated translation will be explored, which will be indicated on the pages concerned.
 
 *The communication must be in line with the [Language Act](https://lovdata.no/dokument/NL/lov/2021-05-21-42) (publicly funded research).*
 
@@ -48,7 +46,7 @@ MishMash shall communicate and disseminate internally in the network, between re
 Communication vs. dissemination:
 
 - **Communication = RESEARCHER communication:** Primarily aimed at other researchers. Developing understanding together.
-- **Dissemination = RESEARCH communication:** Explaining what one does and the research to people who are not researchers — both internally and externally.
+- **Dissemination = RESEARCH communication:** Explaining what one does and the research to people who are not researchers, both internally and externally.
 
 ## Channels
 
@@ -91,21 +89,21 @@ Examples — Internal: Work package meetings every other week, thematic seminars
 
 ### 2. Mailing lists
 
-**ALL AT MISHMASH:** Used several times a week, low-threshold, internal, approx. 300 recipients (the MishMash management sends)
+**ALL@** Used several times a week, low-threshold, internal, approx. 300 recipients (the MishMash management sends)
 
 - *What should the channel contribute to?* That people in the MishMash network stay informed about what is happening.
 - *Who should it reach?* Everyone in the MishMash network.
 - *Who is responsible for the channel?* The management sends/moderates. The content can come from several places.
 - *What is the need for interaction between channels?* That the content of the e-mail can point to a place where more info is published, for example at partners.
 
-**ANNOUNCEMENTS:** Important things, less frequent, external, approx. 1000 recipients (the MishMash management sends)
+**ANNOUNCEMENTS@** Important things, less frequent, external, approx. 1000 recipients (the MishMash management sends)
 
 - *What should the channel contribute to?* That interested people inside and outside the network receive information about what is happening.
 - *Who should it reach?* Interested people inside and outside the network.
 - *Who is responsible for the channel?* The management sends/moderates. The content can come from several places.
 - *What is the need for interaction between channels?* That the content of the e-mail can point to a place where more info is published, for example at partners.
 
-**THE WORK PACKAGES' MAILING LISTS:** [wpx@mishmash.no](mailto:wpx@mishmash.no). Managed by the work packages.
+**WPX@:** Managed by the work packages.
 
 ### 3. Social media
 
@@ -113,7 +111,7 @@ Examples — Internal: Work package meetings every other week, thematic seminars
 - **Instagram:** Irregular updates
 - **YouTube:** Video content lives here
 
-The channels exist, but it has not been clarified how they should be used.
+The channels exist, but a plan must be developed for how they should be used.
 
 ## Resources
 
