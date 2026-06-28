@@ -1,4 +1,4 @@
-synced_at: '2026-06-27T08:01:18Z'
+synced_at: '2026-06-28T08:33:06Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -1076,6 +1076,34 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: Muligheter innen KI og kreativitet
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Muligheter innen KI og kreativitet
+    container: Personalseminar.
+    details: Oslo.
+    abstract: En presentasjon om det nye MishMash-senteret på personalansvar ved OsloMet.
+    full_text_url: https://hdl.handle.net/11250/5532768
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f0aa74b32-25a4e835-f392-40bb-8df5-a908873de20c
+  nva_url: https://nva.sikt.no/publication/019f0aa74b32-25a4e835-f392-40bb-8df5-a908873de20c
 - title: Would you cry to a song written by AI?
   year: '2026'
   type: OtherPresentation
