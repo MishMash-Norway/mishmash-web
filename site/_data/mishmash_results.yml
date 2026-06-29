@@ -1,4 +1,4 @@
-synced_at: '2026-06-28T08:33:06Z'
+synced_at: '2026-06-29T09:32:14Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -806,6 +806,60 @@ results:
     nva_url: https://nva.sikt.no/publication/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
   url: https://hearhere.be/en/expo/dhv%C4%81ni
   nva_url: https://nva.sikt.no/publication/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
+- title: 'Digital parasitism: The use of pirated books in AI training datasets'
+  year: '2026'
+  type: AcademicArticle
+  type_label: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Terje Colbjørnsen
+    role: Creator
+    slug: terje-colbjornsen
+    url: /people/terje-colbjornsen/
+  - name: Tsehaye  Haidemariam
+    role: Creator
+  - name: Michael Preminger
+    role: Creator
+  institutions:
+  - name: BI Norwegian Business School
+    slug: bi-norwegian-business-school
+    url: /institutions/bi-norwegian-business-school/
+  citation:
+    authors:
+    - display: Colbjørnsen, Terje
+      name: Terje Colbjørnsen
+      slug: terje-colbjornsen
+      url: /people/terje-colbjornsen/
+    - display: Haidemariam, Tsehaye
+      name: Tsehaye  Haidemariam
+    - display: Preminger, Michael
+      name: Michael Preminger
+    title: 'Digital parasitism: The use of pirated books in AI training datasets'
+    container: Convergence. The International Journal of Research into New Media Technologies.
+    details: ISSN 1354-8565.
+    abstract: This article investigates the intersection of generative Artificial
+      Intelligence (AI) and the book industry, focusing on the use of copyrighted
+      literary works for training large language models (LLMs). As LLMs require enormous
+      volumes of content for training, published books and other media have become
+      valuable sources of data. Many training datasets appear to have been assembled
+      without authorization or transparency, raising acute legal, ethical and cultural
+      questions. In this article, we provide a detailed empirical analysis of the
+      Scandinavian content within the Books3 dataset, used to train multiple major
+      AI systems, characterizing it by publication year, publisher, authorship, genre,
+      and language. As comparatively small language markets situated outside of the
+      main hubs for AI development, the Scandinavian countries provide a relevant
+      context for exploring the local implications of global AI deployment. The findings
+      are discussed through a theoretical lens drawing on Michel Serres’s concept
+      of the “parasite.” We argue that the inclusion of Scandinavian books in Books3
+      is part of a multidimensional ecology of parasitic exchange. This framework
+      interprets the relationship between AI developers, shadow libraries, and publishers
+      as a cascade of information appropriation, signifying a reconfiguration of cultural
+      production and ownership in the age of generative AI.
+    full_text_url: https://hdl.handle.net/11250/5532985
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f12aef5ee-eb7133d4-82a3-4c16-9ea8-21704034005e
+  url: https://doi-org.bi.idm.oclc.org/10.1177/13548565261464938
+  nva_url: https://nva.sikt.no/publication/019f12aef5ee-eb7133d4-82a3-4c16-9ea8-21704034005e
 - title: 'Sounding Human: Music and Machines, 1740/2020. By Deirdre Loughridge'
   year: '2026'
   type: AcademicArticle

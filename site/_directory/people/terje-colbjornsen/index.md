@@ -29,6 +29,20 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Digital parasitism: The use of pirated books in AI training datasets'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi-org.bi.idm.oclc.org/10.1177/13548565261464938
+  contributors:
+  - name: Terje Colbjørnsen
+    role: Creator
+    slug: terje-colbjornsen
+    url: /people/terje-colbjornsen/
+  - name: Tsehaye  Haidemariam
+    role: Creator
+  - name: Michael Preminger
+    role: Creator
 - title: 'Høringsinstituttet og påvirkning gjennom den korporative kanalen: Innføring
     av boklov i 2013 og 2023'
   year: '2025'
@@ -151,19 +165,6 @@ selected_works:
   - name: Kim Tallerås
     role: Creator
   - name: Ann Steiner
-    role: Creator
-- title: Curating collections in LAMs
-  year: '2022'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Terje Colbjørnsen
-    role: Creator
-    slug: terje-colbjornsen
-    url: /people/terje-colbjornsen/
-  - name: Brita  Brenna
-    role: Creator
-  - name: Samuel Edquist
     role: Creator
 source_mentions:
 - about/organisation/council/index.md
