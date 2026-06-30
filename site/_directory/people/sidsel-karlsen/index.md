@@ -14,10 +14,6 @@ affiliation_units:
 projects:
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
-other_projects:
-- title: SAMUS - Samisk musikk i musikkundervisningen
-  url: https://nva.sikt.no/projects/2757025
-  nva_id: '2757025'
 roles:
 - Member
 urls:

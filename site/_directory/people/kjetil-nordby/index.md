@@ -40,6 +40,22 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Interaction design contributions to standardisation of navigation icons
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/0020868X261442672
+  contributors:
+  - name: Sahil Mathur
+    role: Creator
+  - name: Jon Erling Fauske
+    role: Creator
+  - name: Kjetil Nordby
+    role: Creator
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+  - name: Andrew Morrison
+    role: Creator
 - title: The ROC Architecture Framework for Remote Ship Operations
   year: '2026'
   source: Book chapter
@@ -185,25 +201,6 @@ selected_works:
     role: Designer
   - name: Sunniva Wildhagen Lislevand
     role: Designer
-- title: A Systematic Curriculum Review of Ship Energy Efficiency Content Across Global
-    Maritime Education and Training Institutions
-  year: '2025'
-  source: Literature review
-  group_type: Literature review
-  url: https://doi.org/10.54941/ahfe1006546
-  contributors:
-  - name: Gift Bassey
-    role: Creator
-  - name: Susan Ebaretonbofa-okonji
-    role: Creator
-  - name: Kjetil Nordby
-    role: Creator
-    slug: kjetil-nordby
-    url: /people/kjetil-nordby/
-  - name: Etienne Gernez
-    role: Creator
-  - name: Steven Mallam
-    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: null

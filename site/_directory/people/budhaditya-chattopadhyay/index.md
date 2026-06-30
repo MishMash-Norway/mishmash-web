@@ -12,10 +12,6 @@ institutions:
 projects:
 - ai-as-environment
 - archival-intelligence
-other_projects:
-- title: Connecting Resonances
-  url: https://nva.sikt.no/projects/2748101
-  nva_id: '2748101'
 roles:
 - Work package leader
 urls:

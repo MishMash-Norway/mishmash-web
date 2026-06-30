@@ -48,6 +48,24 @@ search_keywords:
 - Embedded Systems
 - Music Technology
 selected_works:
+- title: Low-latency six-channel Bi-LSTM for near-real-time epileptic seizure detection
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1007/s44163-026-01340-x
+  contributors:
+  - name: Kiyan Afsari
+    role: Creator
+  - name: May El Barachi
+    role: Creator
+  - name: Christian Ritz
+    role: Creator
+  - name: Abigail Copiaco
+    role: Creator
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
 - title: 'Teaching Interactive Music Systems: a Research-Oriented, Project-Based Graduate
     Course in a Multidisciplinary Master’s Program'
   year: '2026'
@@ -200,18 +218,6 @@ selected_works:
     role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
-- title: Modeling Time-Variant Responses of Optical Compressors With Selective State
-    Space Models
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Riccardo Simionato
-    role: Creator
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
 source_mentions: []
 summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learning,
   Music Technology.

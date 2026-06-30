@@ -56,6 +56,17 @@ search_keywords:
 - Digital ethnography
 - Artificial intelligence
 selected_works:
+- title: '“Hi everyone, I am Yilong Ma”: Synthetic impersonators and despicable celebrities
+    in global media circuits'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5210/fm.v31i5.15440
+  contributors:
+  - name: Gabriele de Seta
+    role: Creator
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
 - title: 'Ball-ache, dick hair and serial cunt words: The role of vulgarity in Chinese
     internet language'
   year: '2026'
@@ -169,17 +180,6 @@ selected_works:
   - name: Lucie Chateau
     role: Creator
   - name: Günseli Yalcinkaya
-    role: Creator
-- title: Algorithms don't make the rules
-  year: '2025'
-  source: Editorial
-  group_type: Editorial
-  contributors:
-  - name: Gabriele de Seta
-    role: Creator
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
-  - name: P. Kerim Friedman
     role: Creator
 source_mentions: []
 summary: I use qualitative methods to study how digital technologies and creative
