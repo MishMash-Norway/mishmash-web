@@ -234,10 +234,11 @@ selected_works:
     role: Creator
 source_mentions:
 - about/organisation/council/index.md
-summary: Sven-Arne Reinemo (cand.mag., cand.scient, dr.scient.) er forskningsdirektør
-  ved SimulaMet. Hans forskning er fokusert på på arkitektur, rutingalgoritmer, metningskontroll,
-  arkitektur og ytelsesoptimalisering i avanserte sammenkoblingsnettverk for høyytelsesdatabehandling
-  (HPC), med særlig vekt på teknologier som InfiniBand og Ethernet.
+summary: Sven-Arne Reinemo (cand.mag., cand.scient., dr.scient.) is Research Director
+  at SimulaMet. His research focuses on architecture, routing algorithms, congestion
+  control and performance optimisation in advanced interconnection networks for high-performance
+  computing (HPC), with particular emphasis on technologies such as InfiniBand and
+  Ethernet.
 description: Research Director, Simula Metropolitan Center for Digital Engineering,
   Simula Metropolitan Center for Digital Engineering
 permalink: /people/sven-arne-reinemo/

@@ -56,6 +56,42 @@ search_keywords:
 - Digital ethnography
 - Artificial intelligence
 selected_works:
+- title: Algorithmic folklore
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://networkcultures.org/blog/publication/network-notion-7-imagining-the-internets-a-collaborative-glossary/
+  contributors:
+  - name: Gabriele de Seta
+    role: Creator
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
+  - name: Marianne Gunderson
+    role: Creator
+  - name: Hanna Hellesø Lauvli
+    role: Creator
+  - name: Debarun Sarkar
+    role: Creator
+  - name: Yagmur Cisem Vik
+    role: Creator
+- title: Algorithmic folklore lexicon
+  year: '2026'
+  source: Research report
+  group_type: Research report
+  url: https://doi.org/10.5281/ZENODO.20927912
+  contributors:
+  - name: Gabriele de Seta
+    role: Creator
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
+  - name: Marianne Gunderson
+    role: Creator
+  - name: Hanna Hellesø Lauvli
+    role: Creator
+  - name: Debarun Sarkar
+    role: Creator
+  - name: Yagmur Cisem Vik
+    role: Creator
 - title: '“Hi everyone, I am Yilong Ma”: Synthetic impersonators and despicable celebrities
     in global media circuits'
   year: '2026'
@@ -155,32 +191,6 @@ selected_works:
     role: Creator
     slug: gabriele-de-seta
     url: /people/gabriele-de-seta/
-- title: Diviner [A]
-  year: '2025'
-  source: Literary arts
-  group_type: Literary arts
-  contributors:
-  - name: Mariella Otto
-    role: Creator
-  - name: Gabriele de Seta
-    role: Creator
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
-- title: 'Groundhog Day: Memes Are New'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Gabriele de Seta
-    role: Creator
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
-  - name: Idil Galip
-    role: Creator
-  - name: Lucie Chateau
-    role: Creator
-  - name: Günseli Yalcinkaya
-    role: Creator
 source_mentions: []
 summary: I use qualitative methods to study how digital technologies and creative
   practices shape one another. My research focuses on the everyday use of algorithms,
