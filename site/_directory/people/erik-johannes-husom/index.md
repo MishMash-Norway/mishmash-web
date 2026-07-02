@@ -44,6 +44,20 @@ search_keywords:
 - Machine Learning
 - Artificial intelligence
 selected_works:
+- title: Overview over the first decade of LIMITS
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.48550/ARXIV.2605.30543
+  contributors:
+  - name: Maria Emine Nylund
+    role: Creator
+  - name: Erik Johannes Husom
+    role: Creator
+    slug: erik-johannes-husom
+    url: /people/erik-johannes-husom/
+  - name: Ophelia Prillard
+    role: Creator
 - title: 'Talk is Cheap, Energy is Not: Towards a Green, Context-Aware Metrics Framework
     for Automatic Speech Recognition'
   year: '2026'
@@ -218,22 +232,6 @@ selected_works:
     role: Creator
     slug: erik-johannes-husom
     url: /people/erik-johannes-husom/
-- title: Engineering Carbon Emission-aware Machine Learning Pipelines
-  year: '2024'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/3644815.3644943
-  contributors:
-  - name: Erik Johannes Husom
-    role: Creator
-    slug: erik-johannes-husom
-    url: /people/erik-johannes-husom/
-  - name: Sagar Sen
-    role: Creator
-    slug: sagar-sen
-    url: /people/sagar-sen/
-  - name: Arda Goknil
-    role: Creator
 source_mentions: []
 summary: Erik Johannes Husom is a researcher with a M.Sc. in Computational Physics
   from the University of Oslo. Currently at SINTEF Digital's Trustworthy Green IoT
