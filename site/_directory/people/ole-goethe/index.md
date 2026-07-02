@@ -26,7 +26,7 @@ roles:
 - Member
 urls:
   personal_website: https://olegoethe.com/
-  institutional_website: https://olegoethe.com
+  institutional_website: https://www.kristiania.no/en/about-kristiania/employees/fakultet-for-samfunn-kunst-og-medier/department-of-performing-arts-film-and-media/ole-goethe/
   github: https://github.com/olegoethe
   linkedin: https://www.linkedin.com/in/olegoethe/
   orcid: https://orcid.org/0000-0001-9565-2914
@@ -189,6 +189,7 @@ summary: 'Ole Goethe (born December 26, 1975), a Norwegian researcher and produc
 
   longevity and meaningfulness in user engagement and engagement at scale'
 wps:
+- WP4
 - WP6
 permalink: /people/ole-goethe/
 redirect_from:
