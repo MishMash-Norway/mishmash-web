@@ -20,7 +20,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://people.uio.no/nanetten
   github: ''
   linkedin: https://www.linkedin.com/in/nanette-nielsen-a6a86a
   orcid: https://orcid.org/0000-0002-2282-505X
@@ -237,6 +237,7 @@ wps:
 permalink: /people/nanette-nielsen/
 redirect_from:
 - /directory/people/nanette-nielsen/
+summary: ''
 ---
 
 Bio coming soon.

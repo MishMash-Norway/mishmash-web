@@ -5,9 +5,9 @@ slug: halldor-ulfarsson
 name: Halldor Ulfarsson
 title: Halldor Ulfarsson
 description: University of Iceland
-position: null
-department: null
-institution: null
+position: ''
+department: ''
+institution: ''
 institutions:
 - university-of-iceland
 affiliation_units: []
@@ -32,7 +32,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 permalink: /people/halldor-ulfarsson/
 redirect_from:
 - /directory/people/halldor-ulfarsson/

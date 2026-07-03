@@ -1512,7 +1512,8 @@ def enrich_person(
 
     changed = False
     from_nva = bool(nva_bundle)
-    allow_empty = from_nva
+    # Preserve existing profile data when the authoritative source omits a field.
+    allow_empty = False
 
     position = synced_field_value(nva_bundle, orcid_bundle, "position")
     changed = apply_field(data, "position", position, changed, allow_empty=allow_empty) or changed
@@ -1555,7 +1556,7 @@ def enrich_person(
         changed = True
 
     institutional_website = (nva_bundle.get("institutional_website") or "").strip()
-    if from_nva:
+    if from_nva and institutional_website:
         if urls.get("institutional_website") != institutional_website:
             urls["institutional_website"] = institutional_website
             changed = True
@@ -1575,6 +1576,13 @@ def enrich_person(
         canonical_orcid = f"https://orcid.org/{orcid_id}"
         if urls.get("orcid") != canonical_orcid:
             urls["orcid"] = canonical_orcid
+            changed = True
+
+    personal_website_value = (urls.get("personal_website") or "").strip().rstrip("/")
+    institutional_website_value = (urls.get("institutional_website") or "").strip().rstrip("/")
+    if personal_website_value and institutional_website_value and personal_website_value == institutional_website_value:
+        if urls.get("institutional_website") != "":
+            urls["institutional_website"] = ""
             changed = True
 
     image_url = synced_field_value(nva_bundle, orcid_bundle, "image_url") or ""

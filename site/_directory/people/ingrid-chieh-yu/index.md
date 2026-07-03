@@ -189,7 +189,7 @@ selected_works:
     role: Creator
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: ''
 description: Professor, Department for Informatics, University of Oslo
 permalink: /people/ingrid-chieh-yu/
 redirect_from:

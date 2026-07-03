@@ -29,9 +29,10 @@ search_keywords: []
 source_mentions:
 - about/organisation/board/index.md
 - about/organisation/council/index.md
-summary: null
+summary: ''
 permalink: /people/christian-schussler/
 redirect_from:
 - /directory/people/christian-schussler/
+department: ''
 ---
 

@@ -109,7 +109,7 @@ selected_works:
     slug: stephanie-von-spreter
     url: /people/stephanie-von-spreter/
 source_mentions: []
-summary: null
+summary: ''
 description: Researcher, Department of Language and Culture, Arctic University of
   Norway
 layout: person

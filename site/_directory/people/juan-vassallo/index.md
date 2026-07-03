@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.juanvassallo.com
-  institutional_website: https://www.juanvassallo.com
+  institutional_website: ''
   github: https://github.com/juansv2k2
   linkedin: ''
   orcid: https://orcid.org/0009-0000-3714-601X
@@ -75,6 +75,7 @@ selected_works:
     slug: juan-vassallo
     url: /people/juan-vassallo/
 source_mentions: []
+summary: ''
 wps:
 - WP1
 - WP2

@@ -33,7 +33,7 @@ other_projects:
 roles:
 - Director
 urls:
-  personal_website: http://www.arj.no
+  personal_website: https://www.arj.no
   institutional_website: http://personer.uio.no/alexanje/
   github: https://github.com/alexarje
   linkedin: https://www.linkedin.com/in/alexarje/

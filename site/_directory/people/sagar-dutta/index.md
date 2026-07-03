@@ -78,6 +78,7 @@ wps:
 permalink: /people/sagar-dutta/
 redirect_from:
 - /directory/people/sagar-dutta/
+summary: ''
 ---
 
 Bio coming soon.

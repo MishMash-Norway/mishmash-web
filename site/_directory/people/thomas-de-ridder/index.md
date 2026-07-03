@@ -30,7 +30,7 @@ selected_works: []
 source_mentions:
 - about/organisation/management/index.md
 - no/about/organisation/management/index.md
-summary: null
+summary: ''
 description: Senior adviser, Faculty of Fine Art, Music and Design, University of
   Bergen
 permalink: /people/thomas-de-ridder/

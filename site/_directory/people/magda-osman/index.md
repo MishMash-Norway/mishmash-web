@@ -5,9 +5,9 @@ slug: magda-osman
 name: Magda Osman
 title: Magda Osman
 description: University of Cambridge
-position: null
-department: null
-institution: null
+position: ''
+department: ''
+institution: ''
 institutions:
 - university-of-cambridge
 affiliation_units: []
@@ -32,7 +32,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 permalink: /people/magda-osman/
 redirect_from:
 - /directory/people/magda-osman/

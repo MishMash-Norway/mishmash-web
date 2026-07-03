@@ -1,6 +1,9 @@
 ---
 type: person
 slug: ragnhild-brovig
+redirect_from:
+- /people/ragnhild-brvig/
+- /directory/people/ragnhild-brvig/
 name: Ragnhild Brøvig
 title: Ragnhild Brøvig
 position: Professor
@@ -25,7 +28,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.ragnhildbrovig.com
-  institutional_website: ''
+  institutional_website: https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-2955-2656
@@ -197,7 +200,7 @@ selected_works:
     url: /people/jon-marius-aareskjold-drecker/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: ''
 wps:
 - WP5
 permalink: /people/ragnhild-brovig/

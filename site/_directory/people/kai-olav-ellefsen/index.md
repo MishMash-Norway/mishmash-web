@@ -27,7 +27,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.koellefsen.com/
-  institutional_website: ''
+  institutional_website: https://www.mn.uio.no/ifi/english/people/aca/kaiolae/
   github: https://github.com/kaiolae
   linkedin: https://www.linkedin.com/in/kaiolav?originalSubdomain=no
   orcid: https://orcid.org/0000-0003-2466-2319
@@ -213,6 +213,7 @@ selected_works:
     slug: jim-torresen
     url: /people/jim-torresen/
 source_mentions: []
+summary: ''
 wps:
 - WP1
 permalink: /people/kai-olav-ellefsen/

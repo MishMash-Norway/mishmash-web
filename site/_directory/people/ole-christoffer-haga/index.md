@@ -135,7 +135,7 @@ selected_works:
     slug: ole-christoffer-haga
     url: /people/ole-christoffer-haga/
 source_mentions: []
-summary: null
+summary: ''
 description: Guest, Department of Art and Media Studies, Norwegian University of Science
   and Technology
 permalink: /people/ole-christoffer-haga/

@@ -231,7 +231,7 @@ selected_works:
     url: /people/kyrre-glette/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: ''
 description: Professor, Department for Informatics, University of Oslo
 layout: person
 permalink: /people/kyrre-glette/

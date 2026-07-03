@@ -132,7 +132,7 @@ selected_works:
     slug: sigmund-trageton
     url: /people/sigmund-trageton/
 source_mentions: []
-summary: null
+summary: ''
 description: University lecturer, Department of Media and Social Sciences, University
   of Stavanger
 permalink: /people/sigmund-trageton/

@@ -1,6 +1,9 @@
 ---
 type: person
 slug: bjorn-tallak-bakken
+redirect_from:
+- /people/bjrn-tallak-bakken/
+- /directory/people/bjrn-tallak-bakken/
 name: Bjørn Tallak Bakken
 title: Bjørn Tallak Bakken
 position: Associate professor
@@ -27,7 +30,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.inn.no/finn-en-ansatt/bjorn-bakken.html
   github: ''
   linkedin: https://www.linkedin.com/in/bj%C3%B8rn-tallak-bakken-a73444359/
   orcid: https://orcid.org/0000-0002-8800-8140
@@ -203,6 +206,7 @@ selected_works:
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
 source_mentions: []
+summary: ''
 wps:
 - WP2
 - WP4

@@ -5,9 +5,9 @@ slug: heloisa-amaral
 name: Heloisa Amaral
 title: Heloisa Amaral
 description: Ultima Festival
-position: null
-department: null
-institution: null
+position: ''
+department: ''
+institution: ''
 institutions:
 - ultima-festival
 affiliation_units: []
@@ -32,7 +32,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 permalink: /people/heloisa-amaral/
 redirect_from:
 - /directory/people/heloisa-amaral/

@@ -14,7 +14,7 @@ projects:
 roles:
 - Member
 urls:
-  personal_website: http://www.larsnyre.com
+  personal_website: https://www.larsnyre.com
   institutional_website: http://www.larsnyre.com
   github: ''
   linkedin: ''
@@ -157,7 +157,7 @@ selected_works:
     slug: lars-nyre
     url: /people/lars-nyre/
 source_mentions: []
-summary: null
+summary: ''
 description: Professor, Department of Information Science and Media Studies, University
   of Bergen
 permalink: /people/lars-nyre/

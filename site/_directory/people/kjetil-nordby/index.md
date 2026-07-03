@@ -203,7 +203,7 @@ selected_works:
     role: Designer
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: ''
 description: Associate professor, Institute of Design, Oslo School of Architecture
   and Design
 permalink: /people/kjetil-nordby/

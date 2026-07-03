@@ -4,9 +4,9 @@ type: person
 slug: lukas-erni
 name: Lukas Erni
 title: Lukas Erni
-position: null
-department: null
-institution: null
+position: ''
+department: ''
+institution: ''
 institutions: []
 affiliation_units: []
 nva_affiliations: []
@@ -30,7 +30,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 permalink: /people/lukas-erni/
 redirect_from:
 - /directory/people/lukas-erni/

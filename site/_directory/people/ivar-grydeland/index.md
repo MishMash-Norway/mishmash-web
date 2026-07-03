@@ -29,7 +29,7 @@ roles:
 - Member
 urls:
   personal_website: https://ivargrydeland.com/
-  institutional_website: ''
+  institutional_website: https://nmh.no/kontakt-oss/ansatte/ivar-grydeland
   github: ''
   linkedin: https://linkedin.com/in/ivar-grydeland-126b74383
   orcid: https://orcid.org/0009-0007-3445-7294
@@ -37,7 +37,7 @@ urls:
   youtube: ''
   facebook: https://www.facebook.com/ivar.grydeland.5
   mastodon: ''
-  instagram: https://ivargrydeland
+  instagram: https://www.instagram.com/ivargrydeland
 aliases: []
 tags: []
 search_keywords: []
@@ -188,6 +188,7 @@ selected_works:
     url: /people/ivar-grydeland/
 source_mentions:
 - about/organisation/wp-leaders/index.md
+summary: ''
 wps:
 - WP1
 - WP2

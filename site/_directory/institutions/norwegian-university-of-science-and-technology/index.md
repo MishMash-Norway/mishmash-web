@@ -14,6 +14,7 @@ people:
 - andreas-bergsland
 - andrew-perkis
 - audun-kvitland-rostad
+- david-rych
 - govert-valkenburg
 - hilda-deborah
 - jacqueline-rowley

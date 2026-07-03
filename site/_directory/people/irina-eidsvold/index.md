@@ -145,7 +145,7 @@ selected_works:
     url: /people/irina-eidsvold/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: ''
 description: Associate professor, Department of Law and Governance, BI Norwegian Business
   School
 permalink: /people/irina-eidsvold/

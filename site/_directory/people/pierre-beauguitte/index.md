@@ -13,9 +13,9 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.nb.no/ansatte/pierre-beauguitte/
   github: https://github.com/pierrebeauguitte
-  linkedin: https://www.linkedin.com/in/pierre-beauguitte/
+  linkedin: https://www.linkedin.com/in/pierre-beauguitte/en/
   orcid: https://orcid.org/0000-0003-3711-8419
   nva: https://nva.sikt.no/research-profile/1672532
   youtube: ''
@@ -48,6 +48,7 @@ wps:
 permalink: /people/pierre-beauguitte/
 redirect_from:
 - /directory/people/pierre-beauguitte/
+summary: ''
 ---
 
 Bio coming soon.

@@ -146,7 +146,7 @@ selected_works:
     url: /people/arnulf-mattes/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: ''
 description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
 permalink: /people/arnulf-mattes/
 redirect_from:

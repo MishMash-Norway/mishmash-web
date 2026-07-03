@@ -78,6 +78,23 @@ selected_works:
     url: /people/ali-ramezani-kebrya/
   - name: Benjamin Ricaud
     role: Creator
+- title: 'geobin: Geometric Binning Estimator'
+  year: '2025'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Johan Mylius-Kroken
+    role: Creator
+  - name: Elisabeth Wetzer
+    role: Creator
+  - name: Ali Ramezani-Kebrya
+    role: Creator
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+  - name: Robert Jenssen
+    role: Creator
+  - name: Kristoffer Wickstrøm
+    role: Creator
 - title: Decomposing Reasoning Efficiency in Large Language Models
   year: '2025'
   source: Conference poster
@@ -357,23 +374,8 @@ selected_works:
     role: Creator
     slug: ali-ramezani-kebrya
     url: /people/ali-ramezani-kebrya/
-- title: Mixed Nash for Robust Federated Learning
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://openreview.net/pdf?id=mqMzerrVOB
-  contributors:
-  - name: Wanyun Xie
-    role: Creator
-  - name: Thomas Pethick
-    role: Creator
-  - name: Ali Ramezani-Kebrya
-    role: Creator
-    slug: ali-ramezani-kebrya
-    url: /people/ali-ramezani-kebrya/
-  - name: Volkan Cevher
-    role: Creator
 source_mentions: []
+summary: ''
 wps:
 - WP1
 - WP7

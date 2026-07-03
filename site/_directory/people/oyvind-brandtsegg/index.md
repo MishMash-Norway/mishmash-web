@@ -33,7 +33,7 @@ tags:
 - Convolution
 - Music Improvisation
 - Improvisation
-- Digital signal processing
+- Digital Signal Processing
 - Feedback
 - Granular audio synthesis
 - Artificial intelligence
@@ -42,7 +42,7 @@ search_keywords:
 - Convolution
 - Music Improvisation
 - Improvisation
-- Digital signal processing
+- Digital Signal Processing
 - Feedback
 - Granular audio synthesis
 - Artificial intelligence
@@ -191,7 +191,7 @@ selected_works:
   - name: Monteiro Francisco
     role: Composer
 source_mentions: []
-summary: null
+summary: ''
 description: Professor, Department of Music, Norwegian University of Science and Technology
 permalink: /people/oyvind-brandtsegg/
 redirect_from:

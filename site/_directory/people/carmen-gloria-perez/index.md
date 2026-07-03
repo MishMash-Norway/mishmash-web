@@ -17,10 +17,10 @@ urls:
   linkedin: https://www.linkedin.com/in/carmen-gloria-perez/
   orcid: ''
   nva: ''
-  youtube: https://www.youtube.com/@moonframestudios
-  facebook: https://www.facebook.com/TheCarmenGloria
+  youtube: https://youtube.com/@moonframestudios
+  facebook: https://facebook.com/TheCarmenGloria
   mastodon: ''
-  instagram: https://www.instagram.com/TheCarmenGloria
+  instagram: https://instagram.com/TheCarmenGloria
 aliases: []
 tags:
 - AI Filmmaking
@@ -46,6 +46,7 @@ wps:
 permalink: /people/carmen-gloria-perez/
 redirect_from:
 - /directory/people/carmen-gloria-perez/
+summary: ''
 ---
 
 Bio coming soon.

@@ -15,7 +15,7 @@ roles:
 - Member
 urls:
   personal_website: https://nb.academia.edu/EivindRøssaak
-  institutional_website: https://nb.academia.edu/EivindRøssaak
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-6499-4185
@@ -33,7 +33,7 @@ tags:
 - Media and communication
 - Records management
 - Film history
-- Digital library
+- Digital libary
 - Media Aesthetics
 - Literature
 - Digital media
@@ -46,7 +46,7 @@ search_keywords:
 - Media and communication
 - Records management
 - Film history
-- Digital library
+- Digital libary
 - Media Aesthetics
 - Literature
 - Digital media
@@ -173,7 +173,7 @@ selected_works:
     slug: eivind-rossaak
     url: /people/eivind-rossaak/
 source_mentions: []
-summary: null
+summary: ''
 description: Researcher, Visual media and conservation, National Library of Norway
 permalink: /people/eivind-rossaak/
 redirect_from:

@@ -245,7 +245,7 @@ selected_works:
     role: Artist
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: ''
 permalink: /people/jon-marius-aareskjold-drecker/
 redirect_from:
 - /directory/people/jon-marius-aareskjold-drecker/

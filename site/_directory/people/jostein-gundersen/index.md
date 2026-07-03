@@ -77,7 +77,7 @@ selected_works:
     url: /people/jostein-gundersen/
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: ''
 description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
 permalink: /people/jostein-gundersen/
 redirect_from:

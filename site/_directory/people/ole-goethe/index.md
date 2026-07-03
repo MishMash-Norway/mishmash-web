@@ -26,7 +26,7 @@ roles:
 - Member
 urls:
   personal_website: https://olegoethe.com/
-  institutional_website: https://www.kristiania.no/en/about-kristiania/employees/fakultet-for-samfunn-kunst-og-medier/department-of-performing-arts-film-and-media/ole-goethe/
+  institutional_website: ''
   github: https://github.com/olegoethe
   linkedin: https://www.linkedin.com/in/olegoethe/
   orcid: https://orcid.org/0000-0001-9565-2914
@@ -35,12 +35,15 @@ urls:
   facebook: https://www.facebook.com/olegoethe
   mastodon: https://mastodon.social/@olegoethe
   instagram: https://www.instagram.com/ole_goethe
+  bluesky: https://bsky.app/profile/olegoethe.bsky.social
 aliases: []
 tags:
+- Human-Computer Interaction
 - Human computer interaction
 - User Experience
 - Human Engaged Computing
 search_keywords:
+- Human-Computer Interaction
 - Human computer interaction
 - User Experience
 - Human Engaged Computing

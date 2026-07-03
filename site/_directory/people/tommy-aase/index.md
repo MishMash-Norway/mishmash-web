@@ -5,9 +5,9 @@ slug: tommy-aase
 name: Tommy Aase
 title: Tommy Aase
 description: Screenstory
-position: null
-department: null
-institution: null
+position: ''
+department: ''
+institution: ''
 institutions:
 - screenstory
 affiliation_units: []
@@ -32,7 +32,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 permalink: /people/tommy-aase/
 redirect_from:
 - /directory/people/tommy-aase/

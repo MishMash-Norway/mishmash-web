@@ -65,7 +65,7 @@ selected_works:
     slug: aedan-soellaart
     url: /people/aedan-soellaart/
 source_mentions: []
-summary: null
+summary: ''
 description: Student, Faculty of Social Sciences, Nord University
 layout: person
 permalink: /people/aedan-soellaart/

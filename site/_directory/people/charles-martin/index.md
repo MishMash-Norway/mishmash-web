@@ -14,7 +14,7 @@ roles:
 - Council member
 urls:
   personal_website: http://charlesmartin.com.au
-  institutional_website: https://charlesmartin.com.au
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-5683-7529
@@ -28,7 +28,7 @@ tags:
 - computer music
 - HCI
 - NIME
-- Improvisation
+- improvisation
 - percussion
 - performance
 - touch-screen
@@ -36,7 +36,7 @@ search_keywords:
 - computer music
 - HCI
 - NIME
-- Improvisation
+- improvisation
 - percussion
 - performance
 - touch-screen

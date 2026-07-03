@@ -21,7 +21,7 @@ roles:
 - Council member
 urls:
   personal_website: https://www.mortyq.com
-  institutional_website: https://www.mortyq.com
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0004-7284-391X
@@ -192,7 +192,7 @@ selected_works:
     role: Composer
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: ''
 description: Pro-rector, Fagseksjon for improvisert musikk, jazz og folkemusikk, Norwegian
   Academy of Music
 permalink: /people/morten-qvenild/

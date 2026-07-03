@@ -16,7 +16,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://filmschoolteacher.info/fredsnotes/
-  institutional_website: https://filmschoolteacher.info/fredsnotes/
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-3061-1622
@@ -34,7 +34,7 @@ tags:
 - Technology, Innovation and Culture
 - Theory of education
 - Arts education
-- Artistic research
+- Art research
 - Arts
 search_keywords:
 - Educational management
@@ -44,7 +44,7 @@ search_keywords:
 - Technology, Innovation and Culture
 - Theory of education
 - Arts education
-- Artistic research
+- Art research
 - Arts
 selected_works:
 - title: KI kan gjøre oss rikere – og fattigere.
@@ -58,7 +58,7 @@ selected_works:
     url: /people/fredrik-graver/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: ''
 description: Professor, Faculty of Film, TV and Games, University of Inland Norway
 permalink: /people/fredrik-graver/
 redirect_from:

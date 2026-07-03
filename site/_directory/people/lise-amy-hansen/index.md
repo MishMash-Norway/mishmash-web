@@ -190,7 +190,7 @@ selected_works:
     role: Creator
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: ''
 description: Professor, Institute of Design, Oslo School of Architecture and Design
 permalink: /people/lise-amy-hansen/
 redirect_from:

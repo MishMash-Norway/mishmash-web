@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.olenorbye.no
-  institutional_website: ''
+  institutional_website: https://www.nla.no/om-nla/ansatte/ole-fredrik-norbye
   github: ''
   linkedin: https://www.linkedin.com/olenorbye
   orcid: https://orcid.org/0009-0007-6471-4749
@@ -27,15 +27,15 @@ tags:
 - Creativity
 - Music performance
 - Contemporary Church Music
-- innovation
-- Popular music
+- Innovation
+- Popularmusic
 - Music
 search_keywords:
 - Creativity
 - Music performance
 - Contemporary Church Music
-- innovation
-- Popular music
+- Innovation
+- Popularmusic
 - Music
 selected_works:
 - title: Kublai Trio
@@ -151,6 +151,7 @@ selected_works:
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 source_mentions: []
+summary: ''
 wps:
 - WP2
 - WP5

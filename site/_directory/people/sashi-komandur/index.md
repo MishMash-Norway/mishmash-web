@@ -207,7 +207,7 @@ selected_works:
     role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: ''
 description: Associate professor, Faculty of Film, TV and Games, University of Inland
   Norway
 permalink: /people/sashi-komandur/

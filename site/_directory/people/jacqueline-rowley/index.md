@@ -1,8 +1,8 @@
 ---
 type: person
 slug: jacqueline-rowley
-name: Jacqueline Rowley
-title: Jacqueline Rowley
+name: jacqueline Rowley
+title: jacqueline Rowley
 position: Research fellow
 department: Faculty of Architecture and Design
 institution: norwegian-university-of-science-and-technology
@@ -34,6 +34,7 @@ wps:
 permalink: /people/jacqueline-rowley/
 redirect_from:
 - /directory/people/jacqueline-rowley/
+summary: ''
 ---
 
 Bio coming soon.

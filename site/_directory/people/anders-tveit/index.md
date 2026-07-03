@@ -216,7 +216,7 @@ selected_works:
   - name: Anne Eline Riisnæs
     role: Artist
 source_mentions: []
-summary: null
+summary: ''
 description: University lecturer, Fagseksjon for musikkteori, komposisjon og musikkteknologi,
   Norwegian Academy of Music
 permalink: /people/anders-tveit/

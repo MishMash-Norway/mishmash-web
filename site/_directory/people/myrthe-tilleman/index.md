@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.mn.uio.no/ifi/english/people/aca/metillem/index.html
   github: https://github.com/MyrtheTi
   linkedin: https://www.linkedin.com/in/myrthe-t
   orcid: https://orcid.org/0009-0009-9182-5000
@@ -30,8 +30,8 @@ tags:
 - Robotics
 - Brain imaging
 - Neuroscience
-- Machine Learning
-- Human computer interaction
+- Machine learning
+- Human machine interaction
 - Network systems
 search_keywords:
 - Prosthesis
@@ -40,8 +40,8 @@ search_keywords:
 - Robotics
 - Brain imaging
 - Neuroscience
-- Machine Learning
-- Human computer interaction
+- Machine learning
+- Human machine interaction
 - Network systems
 selected_works:
 - title: 'Impact of Latency on User Experience in Immersive Teleoperation: A Study
@@ -96,6 +96,7 @@ selected_works:
   - name: Alessandro Filippeschi
     role: Creator
 source_mentions: []
+summary: ''
 wps:
 - WP1
 - WP7

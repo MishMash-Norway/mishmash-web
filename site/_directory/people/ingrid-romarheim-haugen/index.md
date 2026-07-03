@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.nb.no
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0001-8326-7135
@@ -54,5 +54,6 @@ wps:
 permalink: /people/ingrid-romarheim-haugen/
 redirect_from:
 - /directory/people/ingrid-romarheim-haugen/
+summary: ''
 ---
 

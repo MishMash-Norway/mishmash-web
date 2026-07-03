@@ -211,7 +211,7 @@ selected_works:
     url: /people/govert-valkenburg/
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: ''
 description: Researcher, Department of Interdisciplinary Studies of Culture, Norwegian
   University of Science and Technology
 permalink: /people/govert-valkenburg/

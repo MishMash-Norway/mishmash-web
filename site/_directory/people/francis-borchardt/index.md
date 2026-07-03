@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.nla.no/om-nla/ansatte/francis-borchardt
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-2755-4735
@@ -141,6 +141,7 @@ wps:
 permalink: /people/francis-borchardt/
 redirect_from:
 - /directory/people/francis-borchardt/
+summary: ''
 ---
 
 Bio coming soon.

@@ -18,7 +18,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://nmh.no/kontakt-oss/ansatte/sidsel-karlsen
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-3122-9302
@@ -180,5 +180,6 @@ wps:
 permalink: /people/sidsel-karlsen/
 redirect_from:
 - /directory/people/sidsel-karlsen/
+summary: ''
 ---
 

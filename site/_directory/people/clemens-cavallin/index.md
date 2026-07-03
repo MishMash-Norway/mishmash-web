@@ -140,7 +140,7 @@ selected_works:
   - name: Mikael Schink
     role: Creator
 source_mentions: []
-summary: null
+summary: ''
 description: Professor, Department of Teacher Education, NLA University College
 permalink: /people/clemens-cavallin/
 redirect_from:

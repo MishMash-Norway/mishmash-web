@@ -4,7 +4,7 @@ slug: thor-magnusson
 name: Thor Magnusson
 title: Thor Magnusson
 position: Research Professor
-department: null
+department: ''
 institution: university-of-iceland
 institutions:
 - university-of-iceland
@@ -28,7 +28,7 @@ tags:
 - Music
 - Technology
 - Instruments
-- Artificial intelligence
+- Artificial Intelligence
 - Performance
 - Improvisation
 - Notation
@@ -37,7 +37,7 @@ search_keywords:
 - Music
 - Technology
 - Instruments
-- Artificial intelligence
+- Artificial Intelligence
 - Performance
 - Improvisation
 - Notation

@@ -25,10 +25,10 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Creative Industries
+- Creative industry
 - Strategic leadership
 search_keywords:
-- Creative Industries
+- Creative industry
 - Strategic leadership
 selected_works:
 - title: 'Pengestrømmer og verdikjeder i musikkfeltet: Aktører, tjenester, betalinger
@@ -172,7 +172,7 @@ selected_works:
   - name: Leo A. Grünfeld
     role: Creator
 source_mentions: []
-summary: null
+summary: ''
 description: Associate professor, Department of Music, Kristiania University College
 permalink: /people/terje-gaustad/
 redirect_from:

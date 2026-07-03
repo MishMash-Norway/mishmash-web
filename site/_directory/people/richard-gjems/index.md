@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.nb.no
   github: ''
   linkedin: https://www.linkedin.com/in/richard-gjems-42682216/
   orcid: https://orcid.org/0009-0007-2687-6376
@@ -22,17 +22,17 @@ urls:
   youtube: https://www.youtube.com/c/RichardGjems
   facebook: https://www.facebook.com/richard.gjems/
   mastodon: ''
-  instagram: https://www.instagram.com/richardgjems/
+  instagram: https://www.instagram.com/richardgjems
 aliases: []
 tags:
-- Digital library
+- Digital libary
 - Cultural History
-- Archives
+- Archive
 - Library Science
 search_keywords:
-- Digital library
+- Digital libary
 - Cultural History
-- Archives
+- Archive
 - Library Science
 selected_works:
 - title: Bekken, Gjems & Berg - De Små Scener, Kongsvinger

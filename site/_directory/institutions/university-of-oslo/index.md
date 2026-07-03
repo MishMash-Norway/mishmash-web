@@ -20,7 +20,9 @@ people:
 - benedikte-wallace
 - cagri-erdem
 - carsten-griwodz
+- changkyu-choi
 - charles-martin
+- dana-swarbrick
 - diego-marin-bucio
 - eskil-muan-saether
 - hege-stensrud-hosoien

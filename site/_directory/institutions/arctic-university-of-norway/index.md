@@ -6,11 +6,14 @@ permalink: /institutions/arctic-university-of-norway/
 redirect_from:
 - /directory/institutions/arctic-university-of-norway/
 name: Arctic University of Norway
-description: The University of Tromsø – The Arctic University of Norway is a state university in Norway and the world's northernmost university. Located in the city of ...
+description: The University of Tromsø – The Arctic University of Norway is a state
+  university in Norway and the world's northernmost university. Located in the city
+  of ...
 short_name: UiT
 image: /images/institutions/arctic-university-of-norway.png
 people:
 - jon-marius-aareskjold-drecker
+- shayan
 - shayan-dadman
 - stephanie-von-spreter
 - stig-mathisen

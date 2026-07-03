@@ -93,6 +93,7 @@ wps:
 permalink: /people/alexandros-drymonitis/
 redirect_from:
 - /directory/people/alexandros-drymonitis/
+summary: ''
 ---
 
 Bio coming soon.

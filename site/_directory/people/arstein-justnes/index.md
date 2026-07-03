@@ -22,6 +22,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  bluesky: https://bsky.app/profile/arsteinjustnes.bsky.social
 aliases: []
 tags: []
 search_keywords: []
@@ -145,6 +146,7 @@ wps:
 permalink: /people/arstein-justnes/
 redirect_from:
 - /directory/people/arstein-justnes/
+summary: ''
 ---
 
 Bio coming soon.

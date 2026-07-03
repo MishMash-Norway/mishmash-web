@@ -12,7 +12,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://mf.no/ansatte/matthew-phillip-monger
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0008-4412-3682
@@ -148,6 +148,7 @@ wps:
 permalink: /people/matthew-phillip-monger/
 redirect_from:
 - /directory/people/matthew-phillip-monger/
+summary: ''
 ---
 
 Bio coming soon.

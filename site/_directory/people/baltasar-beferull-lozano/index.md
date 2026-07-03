@@ -22,11 +22,15 @@ nva_affiliations:
   unit: Simula Metropolitan Center for Digital Engineering
   institution: simula-metropolitan-center-for-digital-engineering
 projects: []
+other_projects:
+- title: SURE-AI Centre for Sustainable, Risk-averse and Ethical AI
+  url: https://nva.sikt.no/projects/2769809
+  nva_id: '2769809'
 roles:
 - Member
 urls:
   personal_website: https://www.simulamet.no/sigipro
-  institutional_website: ''
+  institutional_website: https://www.simulamet.no/people/baltasar
   github: ''
   linkedin: https://www.linkedin.com/in/baltasar-beferull-lozano-8b306918/
   orcid: https://orcid.org/0000-0002-0902-6245
@@ -39,6 +43,39 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Topological Kalman Filtering on Cell Complexes
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://arxiv.org/abs/2605.15955
+  contributors:
+  - name: Chengen Liu
+    role: Creator
+  - name: Rohan Thekkemarickal Money
+    role: Creator
+  - name: Ting Gao
+    role: Creator
+  - name: Mohammad Sabbaqi
+    role: Creator
+  - name: Baltasar Beferull-Lozano
+    role: Creator
+    slug: baltasar-beferull-lozano
+    url: /people/baltasar-beferull-lozano/
+  - name: Elvin Isufi
+    role: Creator
+- title: Distributed online learning of higher-order cellular models
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: "Abdullah\t Canbolat"
+    role: Creator
+  - name: Rohan Thekkemarickal Money
+    role: Creator
+  - name: Baltasar Beferull-Lozano
+    role: Creator
+    slug: baltasar-beferull-lozano
+    url: /people/baltasar-beferull-lozano/
 - title: On the limits of trajectory prediction for hand movement trajectories with
     motion-capture sensors
   year: '2025'
@@ -333,40 +370,9 @@ selected_works:
     role: Creator
     slug: baltasar-beferull-lozano
     url: /people/baltasar-beferull-lozano/
-- title: Leveraging Transfer Learning for Radio Map Estimation via Mixture of Experts
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1109/TCCN.2025.3570469
-  contributors:
-  - name: Rahul Kumar Jaiswal
-    role: Creator
-  - name: Mohamed Elnourani
-    role: Creator
-  - name: Siddharth Deshmukh
-    role: Creator
-  - name: Baltasar Beferull-Lozano
-    role: Creator
-    slug: baltasar-beferull-lozano
-    url: /people/baltasar-beferull-lozano/
-- title: Simplicial Vector Autoregressive Models
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1109/TSP.2024.3503063
-  contributors:
-  - name: Joshin Krishnan
-    role: Creator
-  - name: Rohan Money
-    role: Creator
-  - name: Baltasar Beferull-Lozano
-    role: Creator
-    slug: baltasar-beferull-lozano
-    url: /people/baltasar-beferull-lozano/
-  - name: Elvin Isufi
-    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
+summary: ''
 wps:
 - WP7
 permalink: /people/baltasar-beferull-lozano/

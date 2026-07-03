@@ -17,7 +17,7 @@ roles:
 - Member
 urls:
   personal_website: https://pedrolucas.tech/
-  institutional_website: ''
+  institutional_website: https://www.mn.uio.no/ifi/english/people/aca/pedroplu/
   github: https://github.com/pedro-lucas-bravo
   linkedin: https://www.linkedin.com/in/pedro-lucas-bravo/
   orcid: https://orcid.org/0000-0002-7939-473X
@@ -255,6 +255,7 @@ wps:
 permalink: /people/pedro-lucas/
 redirect_from:
 - /directory/people/pedro-lucas/
+summary: ''
 ---
 
 Bio coming soon.

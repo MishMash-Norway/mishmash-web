@@ -13,7 +13,7 @@ projects:
 roles:
 - Member
 urls:
-  personal_website: http://www.peteredwards.no
+  personal_website: https://www.peteredwards.no
   institutional_website: http://www.peteredwards.no
   github: ''
   linkedin: ''
@@ -133,7 +133,7 @@ selected_works:
     slug: peter-edwards
     url: /people/peter-edwards/
 source_mentions: []
-summary: null
+summary: ''
 description: Professor, Department of Musicology, University of Oslo
 permalink: /people/peter-edwards/
 redirect_from:

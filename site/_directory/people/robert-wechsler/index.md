@@ -5,9 +5,9 @@ slug: robert-wechsler
 name: Robert Wechsler
 title: Robert Wechsler
 description: MotionComposer GmbH
-position: null
-department: null
-institution: null
+position: ''
+department: ''
+institution: ''
 institutions:
 - motioncomposer-gmbh
 affiliation_units: []
@@ -32,7 +32,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 permalink: /people/robert-wechsler/
 redirect_from:
 - /directory/people/robert-wechsler/

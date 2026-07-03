@@ -1,6 +1,9 @@
 ---
 type: person
 slug: jim-torresen
+redirect_from:
+- /people/jim-trresen/
+- /directory/people/jim-trresen/
 name: Jim Tørresen
 title: Jim Tørresen
 position: Professor
@@ -230,6 +233,7 @@ selected_works:
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
 source_mentions: []
+summary: ''
 wps:
 - WP1
 - WP3

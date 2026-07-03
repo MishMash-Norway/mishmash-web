@@ -52,11 +52,14 @@ selected_works:
   - name: Tor Endestad
     role: Creator
 source_mentions: []
+summary: ''
 wps:
 - WP3
 permalink: /people/andreas-love/
 redirect_from:
 - /directory/people/andreas-love/
+- /people/andreas-lve/
+- /directory/people/andreas-lve/
 ---
 
 Bio coming soon.

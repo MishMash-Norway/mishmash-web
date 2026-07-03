@@ -39,7 +39,7 @@ selected_works:
     slug: ole-christian-solbakken
     url: /people/ole-christian-solbakken/
 source_mentions: []
-summary: null
+summary: ''
 description: University college instructor/student teacher, School of Arts, Design,
   and Media, Kristiania University College
 permalink: /people/ole-christian-solbakken/

@@ -1,52 +1,61 @@
 ---
-published: false
 type: person
 slug: david-rych
 name: David Rych
 title: David Rych
-position:
-department:
-institution:
-institutions: []
-affiliation_units: []
-nva_affiliations: []
+position: Professor
+department: Faculty of Fine Art, Music and Design
+institution: university-of-bergen
+institutions:
+- norwegian-university-of-science-and-technology
+- university-of-bergen
+nva_affiliations:
+- role: Professor
+  unit: Faculty of Fine Art, Music and Design
+  institution: university-of-bergen
+- role: Professor
+  unit: Faculty of Architecture and Design
+  institution: norwegian-university-of-science-and-technology
 projects: []
-wps: []
 roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website:
-  github:
-  linkedin:
+  institutional_website: ''
+  github: ''
+  linkedin: ''
   orcid: https://orcid.org/0009-0007-7337-2146
   nva: https://nva.sikt.no/research-profile/811552
-  youtube:
-  facebook:
-  mastodon:
-  instagram:
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
 aliases: []
 tags: []
 search_keywords: []
-selected_works: []
+selected_works:
+- title: "Olafur Eliasson\r\nGreen light\r\nAn artistic workshop"
+  year: '2017'
+  source: Exhibition catalog
+  group_type: Exhibition catalog
+  contributors:
+  - name: David Rych
+    role: Creator
+    slug: david-rych
+    url: /people/david-rych/
+- title: Border Act / VR Film Installation
+  year: '2016'
+  source: Film or video
+  group_type: Film or video
+  contributors:
+  - name: David Rych
+    role: AcademicCoordinator
+    slug: david-rych
+    url: /people/david-rych/
 source_mentions: []
-summary:
-# Optional page metadata (shown in "About the page" at the bottom):
-# page_about:
-#   last_edited:
-#     date: 2026-06-17
-#     by: Full Name
-#   privacy: green
-#   ai_support:
-#     agent: Cursor
-#     model_name: Claude
-#     model_version: "4.6 Sonnet"
-#   data_sources: [manual, nva, orcid]
-#   translation:
-#     automatic: true
-#     source_url: /about/description/
-#     model: Example Model
+summary: ''
+published: false
+wps: []
 ---
-
 
 Bio.

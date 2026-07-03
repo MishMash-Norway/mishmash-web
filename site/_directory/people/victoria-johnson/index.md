@@ -223,7 +223,7 @@ selected_works:
     slug: victoria-johnson
     url: /people/victoria-johnson/
 source_mentions: []
-summary: null
+summary: ''
 description: Research fellow, Fagseksjon for strykere, Norwegian Academy of Music
 permalink: /people/victoria-johnson/
 redirect_from:

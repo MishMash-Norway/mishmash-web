@@ -262,7 +262,7 @@ selected_works:
     slug: sagar-sen
     url: /people/sagar-sen/
 source_mentions: []
-summary: null
+summary: ''
 description: Researcher, Sustainable Communication Technologies, SINTEF Digital
 permalink: /people/sagar-sen/
 redirect_from:

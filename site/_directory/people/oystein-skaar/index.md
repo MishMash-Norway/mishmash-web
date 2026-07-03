@@ -193,7 +193,7 @@ selected_works:
   - name: Kjetil L Høydal
     role: Creator
 source_mentions: []
-summary: null
+summary: ''
 description: Associate professor, Department of Education, University of Bergen
 permalink: /people/oystein-skaar/
 redirect_from:

@@ -5,7 +5,7 @@ name: Bente Aasheim
 title: Bente Aasheim
 position: Student
 department: Department of Nursing and Health Promotion
-institution: null
+institution: ''
 institutions:
 - kulturtanken
 projects: []
@@ -46,7 +46,7 @@ selected_works:
   - name: Lisa Garnweidner-Holme
     role: Creator
 source_mentions: []
-summary: null
+summary: ''
 description: Student, Department of Nursing and Health Promotion, Kulturtanken
 layout: person
 permalink: /people/bente-aasheim/

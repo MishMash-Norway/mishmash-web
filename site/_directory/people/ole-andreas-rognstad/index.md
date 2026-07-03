@@ -152,7 +152,7 @@ selected_works:
   - name: Tommy Dahlen
     role: Creator
 source_mentions: []
-summary: null
+summary: ''
 description: Professor, Department of Private Law, University of Oslo
 permalink: /people/ole-andreas-rognstad/
 redirect_from:

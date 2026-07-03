@@ -15,7 +15,7 @@ urls:
   personal_website: https://jvgerhart.de/
   institutional_website: ''
   github: ''
-  linkedin: https://www.linkedin.com/in/jana-gerhart/
+  linkedin: https://se.linkedin.com/in/jana-gerhart
   orcid: https://orcid.org/0009-0004-7290-6909
   nva: ''
   youtube: ''
@@ -60,6 +60,7 @@ wps:
 permalink: /people/jana-verena-gerhart/
 redirect_from:
 - /directory/people/jana-verena-gerhart/
+summary: ''
 ---
 
 Bio coming soon.

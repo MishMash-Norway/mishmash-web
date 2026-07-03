@@ -33,7 +33,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.uio.no/ritmo/english/people/phd-fellows/hughav/
   github: https://github.com/Hughav92
   linkedin: ''
   orcid: https://orcid.org/0009-0005-7511-9019
@@ -229,6 +229,7 @@ wps:
 permalink: /people/hugh-alexander-von-arnim/
 redirect_from:
 - /directory/people/hugh-alexander-von-arnim/
+summary: ''
 ---
 
 Bio coming soon.

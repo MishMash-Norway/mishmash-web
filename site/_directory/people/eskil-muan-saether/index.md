@@ -30,7 +30,7 @@ search_keywords: []
 selected_works: []
 source_mentions:
 - about/organisation/board/index.md
-summary: null
+summary: ''
 description: Senior adviser, Department of Musicology, University of Oslo
 layout: person
 permalink: /people/eskil-muan-saether/

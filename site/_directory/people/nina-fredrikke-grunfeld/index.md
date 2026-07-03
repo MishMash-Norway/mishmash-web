@@ -18,7 +18,7 @@ roles:
 - Council member
 urls:
   personal_website: https://grunderfilm.no
-  institutional_website: https://grunderfilm.no
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0000-9450-3108
@@ -30,13 +30,13 @@ urls:
 aliases: []
 tags:
 - Manuscripts
-- Directing for documentaries and television
+- Directing for documantaries and television
 - Film and TV
 - Audio-visual production
 - Filmbransje
 search_keywords:
 - Manuscripts
-- Directing for documentaries and television
+- Directing for documantaries and television
 - Film and TV
 - Audio-visual production
 - Filmbransje
@@ -151,7 +151,7 @@ selected_works:
     url: /people/nina-fredrikke-grunfeld/
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: ''
 description: Professor, Faculty of Film, TV and Games, University of Inland Norway
 permalink: /people/nina-fredrikke-grunfeld/
 redirect_from:

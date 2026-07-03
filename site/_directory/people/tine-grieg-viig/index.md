@@ -156,7 +156,7 @@ selected_works:
     url: /people/tine-grieg-viig/
 source_mentions:
 - about/organisation/board/index.md
-summary: null
+summary: ''
 description: Associate professor, Department of Arts Education, Western Norway University
   of Applied Sciences
 permalink: /people/tine-grieg-viig/

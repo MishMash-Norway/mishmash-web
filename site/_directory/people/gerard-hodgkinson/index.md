@@ -5,9 +5,9 @@ slug: gerard-hodgkinson
 name: Gerard Hodgkinson
 title: Gerard Hodgkinson
 description: University of Manchester
-position: null
-department: null
-institution: null
+position: ''
+department: ''
+institution: ''
 institutions:
 - university-of-manchester
 affiliation_units: []
@@ -32,7 +32,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 permalink: /people/gerard-hodgkinson/
 redirect_from:
 - /directory/people/gerard-hodgkinson/

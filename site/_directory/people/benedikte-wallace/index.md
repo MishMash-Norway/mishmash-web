@@ -17,7 +17,7 @@ roles:
 - Member
 urls:
   personal_website: https://benediwa.notion.site/Benedikte-Wallace-e724a4424ded4c22ab78bc6d080d9ea6?source=copy_link
-  institutional_website: ''
+  institutional_website: https://www.mn.uio.no/ifi/english/people/aca/benediwa/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-7818-9224
@@ -25,7 +25,7 @@ urls:
   youtube: ''
   facebook: ''
   mastodon: ''
-  instagram: https://www.instagram.com/benediktewallace/
+  instagram: https://www.instagram.com/benediktewallace
 aliases: []
 tags: []
 search_keywords: []
@@ -223,6 +223,7 @@ selected_works:
   - name: Kristian Nymoen
     role: Creator
 source_mentions: []
+summary: ''
 wps:
 - WP1
 - WP2

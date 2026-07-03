@@ -1,6 +1,9 @@
 ---
 type: person
 slug: eirik-sorbo
+redirect_from:
+- /people/eirik-srb/
+- /directory/people/eirik-srb/
 name: Eirik Sørbø
 title: Eirik Sørbø
 position: Associate professor
@@ -21,7 +24,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.uia.no/english/about-uia/employees/eiriks05/index.html
   github: https://github.com/EirikSorbo
   linkedin: https://www.linkedin.com/in/eirik-s%C3%B8rb%C3%B8-bb4344189/
   orcid: https://orcid.org/0000-0002-3049-4422

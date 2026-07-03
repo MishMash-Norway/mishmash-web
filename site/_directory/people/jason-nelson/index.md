@@ -148,7 +148,7 @@ selected_works:
   - name: Alinta Kiri Krauth
     role: Creator
 source_mentions: []
-summary: null
+summary: ''
 description: Professor, Department of Linguistic, Literary and Aesthetic studies,
   University of Bergen
 permalink: /people/jason-nelson/

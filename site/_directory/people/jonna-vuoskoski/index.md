@@ -1,8 +1,8 @@
 ---
 type: person
 slug: jonna-vuoskoski
-name: Jonna Katariina Vuoskoski
-title: Jonna Katariina Vuoskoski
+name: Jonna Vuoskoski
+title: Jonna Vuoskoski
 position: Professor
 department: Department of Musicology
 image: /assets/images/portraits/Jonna_Vuoskoski_UiO.jpg
@@ -37,6 +37,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  bluesky: https://bsky.app/profile/jokavuos.bsky.social
 aliases: []
 tags:
 - Empathy
@@ -55,6 +56,24 @@ search_keywords:
 - Cognitive neuroscience
 - Music Cognition
 selected_works:
+- title: Videopelien musiikin kokeminen ja musiikilliset käytänteet
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.51816/musiikki.185954
+  contributors:
+  - name: Lasse Lehtonen
+    role: Creator
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Henna-Riikka Peltola
+    role: Creator
+  - name: Kaj Ahlsved
+    role: Creator
+  - name: Kai Tuuri
+    role: Creator
 - title: Domain-specific perception of emotional intensity in brief musical and vocal
     expressions
   year: '2026'
@@ -263,19 +282,6 @@ selected_works:
   - name: John Melvin Gudnyson Treider
     role: Creator
   - name: David Huron
-    role: Creator
-- title: 'The Aversive Musical Experience Scale (AMES): Measuring individual differences
-    in the intensity of music-evoked aversion'
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1177/03057356241239336
-  contributors:
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-  - name: Henna-Riikka Peltola
     role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md

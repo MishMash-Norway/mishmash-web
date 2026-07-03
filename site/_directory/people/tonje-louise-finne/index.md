@@ -15,7 +15,7 @@ roles:
 - Member
 urls:
   personal_website: https://vimeo.com/tonjefinne
-  institutional_website: https://vimeo.com/tonjefinne
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -56,7 +56,7 @@ selected_works:
     slug: tonje-louise-finne
     url: /people/tonje-louise-finne/
 source_mentions: []
-summary: null
+summary: ''
 description: Associate professor, Faculty of Film, TV and Games, University of Inland
   Norway
 permalink: /people/tonje-louise-finne/

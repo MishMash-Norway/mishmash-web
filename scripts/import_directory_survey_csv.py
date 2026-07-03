@@ -506,6 +506,10 @@ def merge_urls(existing: dict | None, incoming: dict[str, str]) -> dict[str, str
     for key, value in incoming.items():
         if value and not merged.get(key):
             merged[key] = value
+    personal = normalize_url(merged.get("personal_website", "")).rstrip("/")
+    institutional = normalize_url(merged.get("institutional_website", "")).rstrip("/")
+    if personal and institutional and personal == institutional:
+        merged["institutional_website"] = ""
     return merged
 
 

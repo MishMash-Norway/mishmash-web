@@ -36,7 +36,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 description: Professor, Faculty of Social Sciences, Nord University
 permalink: /people/troels-linde/
 redirect_from:

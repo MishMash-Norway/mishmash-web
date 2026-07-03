@@ -31,7 +31,7 @@ search_keywords: []
 selected_works: []
 source_mentions:
 - about/organisation/board/index.md
-summary: null
+summary: ''
 description: Academic assistant, Faculty of Humanities, University of Oslo
 permalink: /people/hege-stensrud-hosoien/
 redirect_from:

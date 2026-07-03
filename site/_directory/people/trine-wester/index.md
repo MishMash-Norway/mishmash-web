@@ -18,8 +18,8 @@ other_projects:
 roles:
 - Member
 urls:
-  personal_website: http://trinewester.com/
-  institutional_website: http://trinewester.com/
+  personal_website: https://trinewester.com/
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -157,7 +157,7 @@ selected_works:
     slug: trine-wester
     url: /people/trine-wester/
 source_mentions: []
-summary: null
+summary: ''
 description: Associate professor, Art and Craft, Oslo National Academy of the Arts
 permalink: /people/trine-wester/
 redirect_from:

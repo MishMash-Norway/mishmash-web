@@ -3,7 +3,7 @@ type: person
 slug: yngvil-beyer
 name: Yngvil Nesheim Beyer
 title: Yngvil Nesheim Beyer
-position: Head of Section
+position: Head of section
 department: Language Bank and DH lab
 institution: national-library-of-norway
 institutions:
@@ -150,7 +150,7 @@ selected_works:
     url: /people/yngvil-beyer/
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: ''
 description: Head of Section, Language Bank and DH lab, National Library of Norway
 permalink: /people/yngvil-beyer/
 redirect_from:

@@ -280,7 +280,7 @@ selected_works:
     url: /people/claire-ghetti/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: ''
 description: Professor, Faculty of Fine Art, Music and Design, University of Bergen
 permalink: /people/claire-ghetti/
 redirect_from:

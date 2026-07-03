@@ -1,6 +1,9 @@
 ---
 type: person
 slug: sigbjorn-galaen
+redirect_from:
+- /people/sigbjrn-galaen/
+- /directory/people/sigbjrn-galaen/
 name: Sigbjørn Galåen
 title: Sigbjørn Galåen
 position: Associate professor
@@ -14,7 +17,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.linkedin.com/in/sigbj%C3%B8rn-siggy-gal%C3%A5en-ab84a52/
-  institutional_website: ''
+  institutional_website: https://www.kristiania.no/en/about-kristiania/employees/fakultet-for-samfunn-kunst-og-medier/department-of-performing-arts-film-and-media/sigbjorn-galaen/
   github: ''
   linkedin: https://www.linkedin.com/in/sigbj%C3%B8rn-siggy-gal%C3%A5en-ab84a52/
   orcid: https://orcid.org/0009-0009-3838-9051

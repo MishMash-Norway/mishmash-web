@@ -163,7 +163,7 @@ selected_works:
   - name: Kristoffer Tangrand
     role: Creator
 source_mentions: []
-summary: null
+summary: ''
 wps:
 - WP1
 - WP2

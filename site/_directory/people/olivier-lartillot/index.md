@@ -285,7 +285,7 @@ selected_works:
     url: /people/alexander-refsum-jensenius/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: ''
 description: Researcher, Department of Musicology, University of Oslo
 permalink: /people/olivier-lartillot/
 redirect_from:

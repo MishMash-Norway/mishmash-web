@@ -18,6 +18,7 @@ people:
 - fredrik-graver
 - havard-vibeto
 - ida-jahr
+- mette-nyseter
 - mina-brodshaug-sveen
 - nina-fredrikke-grunfeld
 - ole-christian-solbakken

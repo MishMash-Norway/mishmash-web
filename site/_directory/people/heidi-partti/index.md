@@ -5,9 +5,9 @@ slug: heidi-partti
 name: Heidi Partti
 title: Heidi Partti
 description: Uniarts Helsinki
-position: null
-department: null
-institution: null
+position: ''
+department: ''
+institution: ''
 institutions:
 - uniarts-helsinki
 affiliation_units: []
@@ -32,7 +32,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 permalink: /people/heidi-partti/
 redirect_from:
 - /directory/people/heidi-partti/

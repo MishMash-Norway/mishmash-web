@@ -151,7 +151,7 @@ selected_works:
     url: /people/sunniva-whittaker/
 source_mentions:
 - about/organisation/board/index.md
-summary: null
+summary: ''
 description: Rector, University of Agder, University of Agder
 permalink: /people/sunniva-whittaker/
 redirect_from:

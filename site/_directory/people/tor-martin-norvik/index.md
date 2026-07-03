@@ -5,9 +5,9 @@ slug: tor-martin-norvik
 name: Tor Martin Norvik
 title: Tor Martin Norvik
 description: Super Ponni
-position: null
-department: null
-institution: null
+position: ''
+department: ''
+institution: ''
 institutions:
 - super-ponni
 affiliation_units: []
@@ -32,7 +32,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 permalink: /people/tor-martin-norvik/
 redirect_from:
 - /directory/people/tor-martin-norvik/

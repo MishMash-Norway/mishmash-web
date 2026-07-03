@@ -124,7 +124,7 @@ selected_works:
   - name: Michael Smyth
     role: Creator
 source_mentions: []
-summary: null
+summary: ''
 description: Associate professor, Institute of Design, Oslo School of Architecture
   and Design
 permalink: /people/enrique-encinas/

@@ -69,7 +69,7 @@ selected_works:
     url: /people/sigurd-sandvold/
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: ''
 description: Dean, Faculty of Education, Arts and Sports, Western Norway University
   of Applied Sciences
 permalink: /people/sigurd-sandvold/

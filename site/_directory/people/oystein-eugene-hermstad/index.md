@@ -5,9 +5,9 @@ slug: oystein-eugene-hermstad
 name: Oystein Eugene Hermstad
 title: Oystein Eugene Hermstad
 description: Super Ponni
-position: null
-department: null
-institution: null
+position: ''
+department: ''
+institution: ''
 institutions:
 - super-ponni
 affiliation_units: []
@@ -32,7 +32,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 permalink: /people/oystein-eugene-hermstad/
 redirect_from:
 - /directory/people/oystein-eugene-hermstad/

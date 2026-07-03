@@ -20,7 +20,7 @@ urls:
   youtube: https://www.youtube.com/@boriseldagsen
   facebook: https://www.facebook.com/boriseldagsen/
   mastodon: ''
-  instagram: https://www.instagram.com/boriseldagsen/
+  instagram: https://www.instagram.com/boriseldagsen
 aliases: []
 tags:
 - AI Images
@@ -47,6 +47,7 @@ wps:
 permalink: /people/boris-eldagsen/
 redirect_from:
 - /directory/people/boris-eldagsen/
+summary: ''
 ---
 
 Bio coming soon.

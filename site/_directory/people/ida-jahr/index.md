@@ -133,7 +133,7 @@ selected_works:
 source_mentions:
 - about/organisation/management/index.md
 - no/about/organisation/management/index.md
-summary: null
+summary: ''
 description: Associate professor, Department of English, University of Inland Norway
 permalink: /people/ida-jahr/
 redirect_from:

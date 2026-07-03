@@ -12,6 +12,7 @@ short_name: NMH
 image: /images/institutions/norwegian-academy-of-music.svg
 people:
 - anders-tveit
+- guro-von-germeten
 - ivar-grydeland
 - morten-qvenild
 - sidsel-karlsen

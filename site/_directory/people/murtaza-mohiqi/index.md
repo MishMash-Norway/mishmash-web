@@ -16,7 +16,7 @@ urls:
   personal_website: ''
   institutional_website: https://www.uia.no/english/about-uia/employees/murtazam/
   github: ''
-  linkedin: https://www.linkedin.com/in/murtaza-mohiqi-phd-bbb7561a4/
+  linkedin: https://www.linkedin.com/in/murtaza-mohiqi-phd-bbb7561a4/?skipRedirect=true
   orcid: https://orcid.org/0000-0002-7198-4348
   nva: https://nva.sikt.no/research-profile/1587754
   youtube: ''
@@ -80,6 +80,7 @@ selected_works:
     slug: murtaza-mohiqi
     url: /people/murtaza-mohiqi/
 source_mentions: []
+summary: ''
 wps:
 - WP4
 - WP5

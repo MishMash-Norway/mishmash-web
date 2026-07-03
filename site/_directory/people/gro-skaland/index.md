@@ -77,7 +77,7 @@ selected_works:
   - name: Palmyre Pierroux
     role: Creator
 source_mentions: []
-summary: null
+summary: ''
 description: Associate professor, School of Health Sciences, Kristiania University
   College
 permalink: /people/gro-skaland/

@@ -27,5 +27,7 @@ urls:
 permalink: /people/christian-blom/
 redirect_from:
 - /directory/people/christian-blom/
+department: ''
+summary: ''
 ---
 

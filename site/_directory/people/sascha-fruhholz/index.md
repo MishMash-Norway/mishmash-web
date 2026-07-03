@@ -24,7 +24,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.sv.uio.no/psi/english/research/groups/canlab/
   github: https://caneuro.github.io/
   linkedin: https://www.linkedin.com/in/sascha-fr%C3%BChholz-29036b25/
   orcid: https://orcid.org/0000-0002-6485-3817
@@ -235,6 +235,7 @@ wps:
 permalink: /people/sascha-fruhholz/
 redirect_from:
 - /directory/people/sascha-fruhholz/
+summary: ''
 ---
 
 Bio coming soon.

@@ -1,52 +1,51 @@
 ---
-published: false
 type: person
 slug: rujeena-mathema
 name: Rujeena Mathema
 title: Rujeena Mathema
-position:
-department:
-institution:
+position: Researcher
+department: ''
+institution: ''
 institutions: []
-affiliation_units: []
-nva_affiliations: []
 projects: []
-wps: []
 roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website:
-  github:
-  linkedin:
-  orcid: 0009-0000-3779-6813
-  nva:
-  youtube:
-  facebook:
-  mastodon:
-  instagram:
+  institutional_website: https://www.kristiania.no/
+  github: ''
+  linkedin: ''
+  orcid: https://orcid.org/0009-0000-3779-6813
+  nva: ''
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
 aliases: []
 tags: []
 search_keywords: []
-selected_works: []
+selected_works:
+- title: 'Validation of webcam-based eye-tracking for clinically relevant paradigms:
+    Saccade, attention bias, and free-viewing tasks'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1016/j.ibmed.2026.100384
+- title: Processed Data for Comparing Eyelink portable duo and obsbot tiny 2
+  year: '2025'
+  source: Data Set
+  group_type: Data Set
+  url: https://figshare.com/articles/dataset/Processed_Data_for_Comparing_Eyelink_portable_duo_and_obsbot_tiny_2/30477926
+- title: 'Exploring Human Cognition From Eye-Movements: Is There Unconscious Visual
+    Information?'
+  year: '2024'
+  source: Conference paper
+  group_type: Conference
+  url: https://doi.org/10.1145/3643488.3660307
 source_mentions: []
-summary:
-# Optional page metadata (shown in "About the page" at the bottom):
-# page_about:
-#   last_edited:
-#     date: 2026-06-17
-#     by: Full Name
-#   privacy: green
-#   ai_support:
-#     agent: Cursor
-#     model_name: Claude
-#     model_version: "4.6 Sonnet"
-#   data_sources: [manual, nva, orcid]
-#   translation:
-#     automatic: true
-#     source_url: /about/description/
-#     model: Example Model
+summary: ''
+published: false
+wps: []
 ---
-
 
 Bio.

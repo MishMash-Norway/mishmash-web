@@ -370,6 +370,7 @@ selected_works:
   - name: Ioanna Sandvig
     role: Creator
 source_mentions: []
+summary: ''
 wps:
 - WP1
 permalink: /people/stefano-nichele/

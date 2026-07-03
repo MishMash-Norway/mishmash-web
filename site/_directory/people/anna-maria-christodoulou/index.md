@@ -243,6 +243,7 @@ wps:
 permalink: /people/anna-maria-christodoulou/
 redirect_from:
 - /directory/people/anna-maria-christodoulou/
+summary: ''
 ---
 
 Bio coming soon.

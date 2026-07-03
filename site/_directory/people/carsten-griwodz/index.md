@@ -243,7 +243,7 @@ selected_works:
     url: /people/carsten-griwodz/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: null
+summary: ''
 description: Professor, Department for Informatics, University of Oslo
 layout: person
 permalink: /people/carsten-griwodz/

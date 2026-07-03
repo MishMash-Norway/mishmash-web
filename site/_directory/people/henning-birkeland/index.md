@@ -16,7 +16,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.henningb.com/
-  institutional_website: https://www.henningb.com/
+  institutional_website: ''
   github: ''
   linkedin: https://www.linkedin.com/in/henningb/
   orcid: https://orcid.org/0009-0006-4668-4585
@@ -24,7 +24,7 @@ urls:
   youtube: ''
   facebook: ''
   mastodon: ''
-  instagram: https://www.instagram.com/henningbirkeland/
+  instagram: https://www.instagram.com/henningbirkeland
 aliases: []
 tags:
 - Astrophysics

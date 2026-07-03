@@ -12,7 +12,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: http://www.iet-multimedialabs.org/senseit/
+  personal_website: https://www.ntnu.edu/employees/andrew.perkis
   institutional_website: http://www.iet-multimedialabs.org/senseit/
   github: ''
   linkedin: https://www.linkedin.com/in/andrewperkis
@@ -217,7 +217,7 @@ selected_works:
   - name: Dawn Marie Behne
     role: Creator
 source_mentions: []
-summary: null
+summary: ''
 wps:
 - WP2
 - WP3

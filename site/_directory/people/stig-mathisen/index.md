@@ -43,7 +43,7 @@ selected_works:
     role: Artist
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: ''
 description: Head of academic department, Academy of Music, Arctic University of Norway
 permalink: /people/stig-mathisen/
 redirect_from:

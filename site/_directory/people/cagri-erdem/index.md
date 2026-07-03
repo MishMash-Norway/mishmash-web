@@ -23,7 +23,7 @@ other_projects:
 roles:
 - Member
 urls:
-  personal_website: http://cagrierdem.net
+  personal_website: https://cerdem.ooo/
   institutional_website: http://cagrierdem.net
   github: https://github.com/cerdemo
   linkedin: https://www.linkedin.com/in/cagrierdem/
@@ -32,7 +32,7 @@ urls:
   youtube: ''
   facebook: ''
   mastodon: ''
-  instagram: https://www.instagram.com/cagrierdem_/
+  instagram: https://www.instagram.com/cagrierdem_
 aliases: []
 tags: []
 search_keywords: []
@@ -227,6 +227,7 @@ selected_works:
     slug: cagri-erdem
     url: /people/cagri-erdem/
 source_mentions: []
+summary: ''
 wps:
 - WP1
 - WP4

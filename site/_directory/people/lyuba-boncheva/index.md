@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.bi.no/om-bi/ansatte/fagressurser/lyuba-boncheva/
   github: ''
   linkedin: https://www.linkedin.com/in/lyuba-boncheva-4844391aa/
   orcid: https://orcid.org/0009-0004-0753-6892
@@ -27,7 +27,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 wps:
 - WP5
 - WP6

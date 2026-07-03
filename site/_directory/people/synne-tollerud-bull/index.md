@@ -32,7 +32,8 @@ urls:
   youtube: https://vimeo.com/bullmiletic
   facebook: https://www.facebook.com/synne.t.bull
   mastodon: ''
-  instagram: https://www.instagram.com/synnetollerudbull/
+  instagram: https://www.instagram.com/synnetollerudbull
+  bluesky: https://bsky.app/profile/synnebull.bsky.social
 aliases: []
 tags:
 - Media-art

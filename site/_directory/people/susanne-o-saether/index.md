@@ -148,7 +148,7 @@ selected_works:
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
 source_mentions: []
-summary: null
+summary: ''
 description: Guest, Department of Media and Communication, University of Oslo
 layout: person
 permalink: /people/susanne-o-saether/

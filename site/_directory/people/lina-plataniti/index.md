@@ -316,7 +316,7 @@ selected_works:
     role: Creator
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: ''
 description: 'Researcher, NORSUS: Norwegian Institute for Sustainability Research,
   NORSUS - Norwegian Institute for Sustainability Research'
 permalink: /people/lina-plataniti/

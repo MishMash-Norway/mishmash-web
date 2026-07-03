@@ -23,7 +23,7 @@ roles:
 - Member
 urls:
   personal_website: https://balintlaczko.com/works
-  institutional_website: ''
+  institutional_website: https://www.uio.no/ritmo/english/people/phd-fellows/balintl/
   github: https://github.com/balintlaczko
   linkedin: https://www.linkedin.com/in/balintlaczko01/
   orcid: https://orcid.org/0009-0001-8337-2509
@@ -31,7 +31,7 @@ urls:
   youtube: https://www.youtube.com/@BalintLaczko
   facebook: ''
   mastodon: ''
-  instagram: https://www.instagram.com/balint.laczko.1/
+  instagram: https://www.instagram.com/balint.laczko.1
 aliases: []
 tags: []
 search_keywords: []
@@ -162,6 +162,7 @@ wps:
 permalink: /people/balint-laczko/
 redirect_from:
 - /directory/people/balint-laczko/
+summary: ''
 ---
 
 Bio coming soon.

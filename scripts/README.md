@@ -161,6 +161,32 @@ Useful flags:
 - `--discover-nva-loose` allow looser name matching
 - `--dry-run` report changes without writing files
 
+Import people from XLSX
+-----------------------
+
+The XLSX importer now auto-detects the sheet type:
+
+- intake sheets with an include column only import rows that are marked for inclusion
+- existing-member sheets update matching people entries with URL data
+
+Use the canonical XLSX importer for MishMash directory entries:
+
+```bash
+python3 scripts/import_people_from_xlsx.py
+```
+
+If you still have the older entrypoint name, it is kept as a compatibility wrapper:
+
+```bash
+python3 scripts/import_people_from_xlsx_all.py
+```
+
+Useful flags on the canonical importer:
+
+- `--xlsx path/to/file.xlsx` selects a different spreadsheet.
+- `--template path/to/index.md` uses a different directory template.
+- `--out-base path/to/output` writes entries to another people directory.
+
 Combine image slices
 --------------------
 

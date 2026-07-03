@@ -16,7 +16,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://budhaditya.org
-  institutional_website: https://budhaditya.org
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-9489-2721

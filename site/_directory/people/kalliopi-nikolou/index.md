@@ -1,52 +1,34 @@
 ---
-published: false
 type: person
 slug: kalliopi-nikolou
 name: Kalliopi Nikolou
 title: Kalliopi Nikolou
-position:
-department:
-institution:
+position: ''
+department: ''
+institution: ''
 institutions: []
-affiliation_units: []
-nva_affiliations: []
 projects: []
-wps: []
 roles:
 - Member
 urls:
-  personal_website: ''
-  institutional_website:
-  github:
-  linkedin:
-  orcid: 0009-0006-9490-8424
-  nva:
-  youtube:
-  facebook:
-  mastodon:
-  instagram:
+  personal_website: https://www.kalinikolou.com
+  institutional_website: ''
+  github: ''
+  linkedin: ''
+  orcid: https://orcid.org/0009-0006-9490-8424
+  nva: ''
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: https://www.instagram.com/kali_nikolou
 aliases: []
 tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary:
-# Optional page metadata (shown in "About the page" at the bottom):
-# page_about:
-#   last_edited:
-#     date: 2026-06-17
-#     by: Full Name
-#   privacy: green
-#   ai_support:
-#     agent: Cursor
-#     model_name: Claude
-#     model_version: "4.6 Sonnet"
-#   data_sources: [manual, nva, orcid]
-#   translation:
-#     automatic: true
-#     source_url: /about/description/
-#     model: Example Model
+summary: ''
+published: false
+wps: []
 ---
-
 
 Bio.

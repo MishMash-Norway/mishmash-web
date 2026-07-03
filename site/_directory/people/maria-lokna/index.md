@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.oslomet.no/om/ansatt/marialok/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0009-2619-8207
@@ -33,6 +33,7 @@ permalink: /people/maria-lokna/
 redirect_from:
 - /directory/people/maria-lokna/
 layout: person
+summary: ''
 ---
 
 Bio coming soon.

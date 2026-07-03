@@ -25,7 +25,7 @@ roles:
 - Member
 urls:
   personal_website: https://erikjohannes.no/
-  institutional_website: https://erikjohannes.no/
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-9325-1604
@@ -37,11 +37,11 @@ urls:
 aliases: []
 tags:
 - Deep learning
-- Machine Learning
+- Machine learning
 - Artificial intelligence
 search_keywords:
 - Deep learning
-- Machine Learning
+- Machine learning
 - Artificial intelligence
 selected_works:
 - title: Overview over the first decade of LIMITS

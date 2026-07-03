@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: https://it.hiof.no/~georgiom/
-  institutional_website: ''
+  institutional_website: https://www.hiof.no/iio/itk/personer/und-forsk-ansatte/georgiom/
   github: ''
   linkedin: https://no.linkedin.com/in/georgios-marentakis
   orcid: https://orcid.org/0000-0002-6563-9601

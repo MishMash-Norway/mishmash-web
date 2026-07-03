@@ -30,7 +30,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: null
+summary: ''
 description: Super Ponni
 permalink: /people/audun-kvitland-rostad/
 redirect_from:

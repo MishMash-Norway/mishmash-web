@@ -193,6 +193,7 @@ selected_works:
   - name: Ola Marius Ryan
     role: Creator
 source_mentions: []
+summary: ''
 layout: person
 wps:
 - WP4

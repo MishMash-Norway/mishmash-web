@@ -168,7 +168,7 @@ selected_works:
     role: Creator
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: ''
 description: Associate professor, Department of Communication and Culture, BI Norwegian
   Business School
 permalink: /people/terje-colbjornsen/

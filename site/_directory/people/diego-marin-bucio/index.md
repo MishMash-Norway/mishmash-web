@@ -29,7 +29,7 @@ urls:
   youtube: https://www.youtube.com/@diegomarinmx
   facebook: https://www.facebook.com/diegomarinart/
   mastodon: ''
-  instagram: https://www.instagram.com/diegomarinmx/
+  instagram: https://www.instagram.com/diegomarinmx
 aliases: []
 tags:
 - Dance anthropology
@@ -172,6 +172,7 @@ selected_works:
     slug: diego-marin-bucio
     url: /people/diego-marin-bucio/
 source_mentions: []
+summary: ''
 wps:
 - WP1
 - WP2

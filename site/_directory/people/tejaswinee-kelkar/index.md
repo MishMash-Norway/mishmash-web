@@ -23,8 +23,8 @@ other_projects:
 roles:
 - Member
 urls:
-  personal_website: http://tejaswinee.com
-  institutional_website: ''
+  personal_website: https://tejaswinee.com
+  institutional_website: https://www.hf.uio.no/imv/personer/vit/fast/tejaswik/
   github: https://github.com/shockmonger
   linkedin: https://www.linkedin.com/in/tejaswineekelkar/
   orcid: https://orcid.org/0000-0002-2324-6850
@@ -191,6 +191,7 @@ selected_works:
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
 source_mentions: []
+summary: ''
 wps:
 - WP1
 - WP5

@@ -54,9 +54,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet; then
+          changed_files="$(git status --porcelain --untracked-files=all | awk '{print $2}')"
+          if [ -z "$changed_files" ]; then
             echo "No directory changes to commit."
             exit 0
+          fi
+          unexpected_files="$(printf '%s\n' "$changed_files" | grep -Ev '^(site/_directory|site/_data|site/assets/images/portraits)/' || true)"
+          if [ -n "$unexpected_files" ]; then
+            echo "::error title=Unexpected workflow diff::Refusing to push files outside the approved paths."
+            echo "Refusing to push unexpected changed files:"
+            printf '%s\n' "$unexpected_files"
+            exit 1
           fi
           git add site/_directory site/_data site/assets/images/portraits
           git commit -m "Update directory and results from NVA." \

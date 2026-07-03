@@ -160,7 +160,7 @@ selected_works:
     url: /people/marit-wergeland/
 source_mentions:
 - about/organisation/council/index.md
-summary: null
+summary: ''
 description: University lecturer, Department of Visual Arts and Drama, University
   of Agder
 permalink: /people/marit-wergeland/

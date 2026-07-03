@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: https://sites.google.com/view/tobinghd/
-  institutional_website: https://sites.google.com/view/tobinghd/
+  institutional_website: ''
   github: https://github.com/hildatobing
   linkedin: https://www.linkedin.com/in/hildadeborah/
   orcid: https://orcid.org/0000-0003-3779-2569
@@ -23,6 +23,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  bluesky: https://bsky.app/profile/tobinghd.bsky.social
 aliases: []
 tags:
 - Digital Humanities
@@ -200,6 +201,7 @@ selected_works:
     slug: hilda-deborah
     url: /people/hilda-deborah/
 source_mentions: []
+summary: ''
 wps:
 - WP6
 permalink: /people/hilda-deborah/

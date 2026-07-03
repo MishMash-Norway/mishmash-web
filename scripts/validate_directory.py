@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import argparse
+import re
 import sys
+import unicodedata
 from pathlib import Path
 
 import yaml
@@ -63,6 +65,13 @@ def warn_path_style_slug_lists(relative_path, field_name: str, value, warnings: 
         warnings.append(
             f"{relative_path}: {field_name} uses /people/ or /institutions/ paths; use slugs instead"
         )
+
+
+def normalized_name_key(name: str) -> str:
+    ascii_name = unicodedata.normalize("NFKD", name or "")
+    ascii_name = "".join(ch for ch in ascii_name if not unicodedata.combining(ch))
+    ascii_name = ascii_name.casefold()
+    return re.sub(r"[^a-z0-9]+", " ", ascii_name).strip()
 
 
 def main():
@@ -254,6 +263,21 @@ def main():
                 errors.append(
                     f"{prpath}: project.institutions '{islug}' not reciprocated in institution.projects"
                 )
+
+    people_by_name_key = {}
+    for pslug, p in people.items():
+        key = normalized_name_key(p.get("name", ""))
+        if not key:
+            continue
+        people_by_name_key.setdefault(key, []).append((pslug, p["name"], p["path"].relative_to(root)))
+
+    for key, items in sorted(people_by_name_key.items()):
+        if len(items) < 2:
+            continue
+        details = ", ".join(f"{slug} ({path})" for slug, _name, path in items)
+        errors.append(
+            f"duplicate person names (accent-insensitive) for '{key}': {details}"
+        )
 
     print("Directory validation report")
     print("---------------------------")
