@@ -20,11 +20,13 @@ tags:
 slug: the-mishmash-website
 name: The MishMash Website
 people:
+- aedan-soellaart
 - alexander-refsum-jensenius
 - carsten-griwodz
 - eirik-sorbo
 - eskil-muan-saether
 - kyrre-glette
+- sashi-komandur
 - stefano-fasciani
 institutions:
 - university-of-agder
@@ -47,7 +49,7 @@ Cross-work-package initiative (WP1–WP7)
 ## People
 
 - Project leader: [Alexander Refsum Jensenius](/people/alexander-refsum-jensenius/)
-- Participants: [Carsten Griwodz](/people/carsten-griwodz/), [Stefano Fasciani](/people/stefano-fasciani/), [Eirik Sørbø](/people/eirik-sorbo/), [Kyrre Glette](/people/kyrre-glette/), [Eskil Muan Sæther](/people/eskil-muan-saether/)
+- Participants: [Aedan Soellaart](/people/aedan-soellaart/), [Carsten Griwodz](/people/carsten-griwodz/), [Stefano Fasciani](/people/stefano-fasciani/), [Eirik Sørbø](/people/eirik-sorbo/), [Kyrre Glette](/people/kyrre-glette/), [Eskil Muan Sæther](/people/eskil-muan-saether/), [Sashidharan Komandur](/people/sashi-komandur/)
 
 ## Institutions
 

@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: sashi-komandur
 name: Sashidharan Komandur
@@ -14,6 +15,7 @@ affiliation_units:
 - The Game School - Department of Game Development
 projects:
 - strategic-storyteller
+- the-mishmash-website
 roles:
 - Work package leader
 urls:

@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: aedan-soellaart
 name: Aedan Soellaart
@@ -11,6 +12,7 @@ institutions:
 - university-of-inland-norway
 projects:
 - strategic-storyteller
+- the-mishmash-website
 roles:
 - Member
 urls:
@@ -67,7 +69,6 @@ selected_works:
 source_mentions: []
 summary: ''
 description: Student, Faculty of Social Sciences, Nord University
-layout: person
 permalink: /people/aedan-soellaart/
 redirect_from:
 - /directory/people/aedan-soellaart/
