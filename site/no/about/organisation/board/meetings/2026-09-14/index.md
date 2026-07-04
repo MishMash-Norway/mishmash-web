@@ -70,4 +70,14 @@ Arbeidspakkelederne er invitert til å gi korte statusinnlegg på om lag fem min
 
 Saken tas til orientering.
 
-### 5. Eventuelt
+### 5. Kommunikasjonsstrategi
+
+#### Bakgrunn
+
+Ledelsen har utarbeidet en [kommunikasjonsstrategi](https://mishmash.no/no/internal/kommunikasjonsstrategi/) som utfyller [kanalstrategien](https://mishmash.no/no/internal/kanalstrategi/). Strategien beskriver hvordan MishMash kommuniserer med ulike lesere: tre lesenivåer på nettsidene (enkel, standard, avansert), sekundære målgrupper, kobling mellom målgrupper og kanaler, og åpen, eksperimentell bruk av KI i utviklingen av nettstedet.
+
+#### Forslag til vedtak
+
+Styret godkjenner kommunikasjonsstrategien.
+
+### 6. Eventuelt

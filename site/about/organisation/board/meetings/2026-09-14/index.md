@@ -71,4 +71,14 @@ The work package leaders have been invited to give short status presentations of
 
 The matter is noted.
 
-### 5. Any other business
+### 5. Communication strategy
+
+#### Background
+
+The management has prepared a [communication strategy](https://mishmash.no/internal/communication-strategy/) that complements the [channel strategy](https://mishmash.no/internal/kanalstrategi/). The strategy describes how MishMash communicates with different readers: three reading levels on the website (simple, standard, advanced), secondary audiences, the mapping between audiences and channels, and transparent, experimental use of AI in developing the website.
+
+#### Proposed decision
+
+The board approves the communication strategy.
+
+### 6. Any other business
