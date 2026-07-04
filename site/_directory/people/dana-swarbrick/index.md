@@ -17,7 +17,7 @@ urls:
   github: https://github.com/dana-and-monsters
   linkedin: https://www.linkedin.com/in/dana-swarbrick/
   orcid: https://orcid.org/0000-0001-7242-9138
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/1136991
   youtube: https://www.youtube.com/@dana.and.monsters
   facebook: https://www.facebook.com/dana.and.monsters
   mastodon: ''

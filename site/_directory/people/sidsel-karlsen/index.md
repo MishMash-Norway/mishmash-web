@@ -16,6 +16,7 @@ projects:
 - teacher-resources-critical-ai-literacy
 roles:
 - Member
+- Work package leader
 urls:
   personal_website: ''
   institutional_website: https://nmh.no/kontakt-oss/ansatte/sidsel-karlsen

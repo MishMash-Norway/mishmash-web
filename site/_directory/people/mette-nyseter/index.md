@@ -17,7 +17,7 @@ urls:
   github: ''
   linkedin: https://www.linkedin.com/in/mette-nyseter-2679731/
   orcid: https://orcid.org/0009-0002-4778-0801
-  nva: https://nva.sikt.no/my-page/profile/research-profile
+  nva: https://nva.sikt.no/research-profile/1063907
   youtube: ''
   facebook: ''
   mastodon: ''

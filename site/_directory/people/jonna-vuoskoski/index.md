@@ -26,9 +26,10 @@ other_projects:
   nva_id: '568602'
 roles:
 - Member
+- Work package leader
 urls:
   personal_website: ''
-  institutional_website: http://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
+  institutional_website: https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-0049-4373

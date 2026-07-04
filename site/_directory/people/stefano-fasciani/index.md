@@ -19,7 +19,7 @@ roles:
 - Member
 urls:
   personal_website: https://stefanofasciani.com
-  institutional_website: http://people.uio.no/stefanof
+  institutional_website: https://people.uio.no/stefanof
   github: https://github.com/stefanofasciani
   linkedin: https://no.linkedin.com/in/stefanofasciani
   orcid: https://orcid.org/0000-0001-5555-3225

@@ -2,8 +2,7 @@
 type: person
 slug: ragnhild-brovig
 redirect_from:
-- /people/ragnhild-brvig/
-- /directory/people/ragnhild-brvig/
+- /directory/people/ragnhild-brovig/
 name: Ragnhild Brøvig
 title: Ragnhild Brøvig
 position: Professor
@@ -26,6 +25,7 @@ other_projects:
   nva_id: '568602'
 roles:
 - Member
+- Work package leader
 urls:
   personal_website: https://www.ragnhildbrovig.com
   institutional_website: https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html
@@ -204,8 +204,6 @@ summary: ''
 wps:
 - WP5
 permalink: /people/ragnhild-brovig/
-redirect_from:
-- /directory/people/ragnhild-brovig/
 ---
 
 I suggest that only publications and artistic output should be imported from NVA, not invited lectures, talks, conference presentations, interviews etc. I would at least prefer that.

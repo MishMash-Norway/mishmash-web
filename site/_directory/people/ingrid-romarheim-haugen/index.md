@@ -12,6 +12,7 @@ institutions:
 projects: []
 roles:
 - Member
+- Work package leader
 urls:
   personal_website: ''
   institutional_website: https://www.nb.no

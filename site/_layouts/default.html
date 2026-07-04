@@ -44,7 +44,7 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <a id="skip-to-content" href="#content">{{ t.skip_to_content }}</a>
+    <a id="skip-to-content" href="#main-content">{{ t.skip_to_content }}</a>
 
     <header class="page-header" role="banner">
       <h1 class="project-name"><a href="{{ t.home_url | relative_url }}">{{ t.project_name }}</a></h1>
@@ -86,7 +86,7 @@
 
     </header>
 
-    <main id="content" class="main-content" role="main">
+    <main id="main-content" class="main-content" role="main">
       {{ content }}
 
       {% include page-about.html %}

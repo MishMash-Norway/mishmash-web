@@ -27,6 +27,7 @@ other_projects:
   nva_id: '568602'
 roles:
 - Member
+- Work package leader
 urls:
   personal_website: https://ivargrydeland.com/
   institutional_website: https://nmh.no/kontakt-oss/ansatte/ivar-grydeland

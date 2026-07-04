@@ -12,6 +12,7 @@ institutions:
 projects: []
 roles:
 - Member
+- Work package leader
 urls:
   personal_website: https://it.hiof.no/~georgiom/
   institutional_website: https://www.hiof.no/iio/itk/personer/und-forsk-ansatte/georgiom/

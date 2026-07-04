@@ -2,8 +2,7 @@
 type: person
 slug: eirik-sorbo
 redirect_from:
-- /people/eirik-srb/
-- /directory/people/eirik-srb/
+- /directory/people/eirik-sorbo/
 name: Eirik Sørbø
 title: Eirik Sørbø
 position: Associate professor
@@ -22,6 +21,7 @@ other_projects:
   nva_id: '2591724'
 roles:
 - Member
+- Work package leader
 urls:
   personal_website: ''
   institutional_website: https://www.uia.no/english/about-uia/employees/eiriks05/index.html
@@ -150,8 +150,6 @@ summary: Researcher, educator, and musician. PhD in music education from the Uni
 wps:
 - WP4
 permalink: /people/eirik-sorbo/
-redirect_from:
-- /directory/people/eirik-sorbo/
 layout: person
 ---
 
