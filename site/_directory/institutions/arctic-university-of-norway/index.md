@@ -18,6 +18,7 @@ people:
 - stephanie-von-spreter
 - stig-mathisen
 projects:
+- ai-as-environment
 - evaluation-cultural-bias-workflow-ai-music-generation
 country: null
 city: null

@@ -17,6 +17,8 @@ people:
 - oyvind-brandtsegg
 - victoria-johnson
 institutions:
+- barratt-due-institute-of-music
+- norwegian-academy-of-music
 - norwegian-university-of-science-and-technology
 - university-of-oslo
 projects: []

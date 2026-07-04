@@ -18,6 +18,7 @@ people:
 - sidsel-karlsen
 - victoria-johnson
 projects:
+- human-machine-consciousness
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq
 - scoping-review-creative-ai-teaching-learning

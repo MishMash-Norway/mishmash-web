@@ -50,12 +50,16 @@ people:
 - vincenzo-madaghiele
 - zacharias-andreadakis
 projects:
+- ai-as-environment
 - copyright-and-personality-rights-ai-era
+- evaluation-cultural-bias-workflow-ai-music-generation
 - human-machine-consciousness
 - intensifying-brain-pleasure-responses-music
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq
 - the-mishmash-website
+- tool-for-tools
+- when-creativity-meets-criticality
 country: null
 city: null
 urls:

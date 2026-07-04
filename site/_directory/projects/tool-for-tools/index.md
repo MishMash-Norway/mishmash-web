@@ -26,8 +26,11 @@ people:
 - zacharias-andreadakis
 institutions:
 - bi-norwegian-business-school
+- nord-university
 - oslo-school-of-architecture-and-design
 - university-of-inland-norway
+- university-of-oslo
+- western-norway-university-of-applied-sciences
 projects: []
 ---
 

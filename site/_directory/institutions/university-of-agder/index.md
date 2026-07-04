@@ -21,6 +21,9 @@ people:
 - murtaza-mohiqi
 - sunniva-whittaker
 projects:
+- evaluation-cultural-bias-workflow-ai-music-generation
+- musical-doppelgangers
+- rhyglyph-rhydiff-rhyseq
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
 - the-mishmash-website

@@ -20,9 +20,11 @@ people:
 - susanne-o-saether
 - synne-tollerud-bull
 institutions:
+- arctic-university-of-norway
 - kristiania-university-college
 - national-library-of-norway
 - university-of-bergen
+- university-of-oslo
 projects: []
 ---
 

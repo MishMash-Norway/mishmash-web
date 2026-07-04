@@ -20,6 +20,8 @@ people:
 institutions:
 - arctic-university-of-norway
 - norwegian-university-of-science-and-technology
+- university-of-agder
+- university-of-oslo
 projects: []
 ---
 

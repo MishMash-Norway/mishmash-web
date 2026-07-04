@@ -29,6 +29,7 @@ projects:
 - ai-integration-film-tv-education
 - archival-intelligence
 - musical-doppelgangers
+- scoping-review-creative-ai-teaching-learning
 country: null
 city: null
 urls:

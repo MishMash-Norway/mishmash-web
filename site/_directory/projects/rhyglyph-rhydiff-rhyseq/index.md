@@ -20,6 +20,7 @@ people:
 - thor-magnusson
 institutions:
 - norwegian-academy-of-music
+- university-of-agder
 - university-of-iceland
 - university-of-oslo
 projects: []

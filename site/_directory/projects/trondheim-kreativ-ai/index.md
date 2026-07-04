@@ -19,7 +19,9 @@ people:
 - tor-martin-norvik
 - viggo-tellefsen-wivestad
 institutions:
+- norwegian-university-of-science-and-technology
 - sintef-digital
+- super-ponni
 projects: []
 ---
 

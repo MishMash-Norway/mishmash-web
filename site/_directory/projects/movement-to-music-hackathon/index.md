@@ -17,6 +17,7 @@ people:
 - andreas-bergsland
 - robert-wechsler
 institutions:
+- motioncomposer-gmbh
 - norwegian-university-of-science-and-technology
 projects: []
 ---

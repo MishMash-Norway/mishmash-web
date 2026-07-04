@@ -19,9 +19,11 @@ people:
 - gerard-hodgkinson
 - magda-osman
 institutions:
+- nord-university
 - university-of-cambridge
 - university-of-inland-norway
 - university-of-manchester
+- university-of-oslo
 projects: []
 ---
 

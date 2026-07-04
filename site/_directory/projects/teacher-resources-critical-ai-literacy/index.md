@@ -20,6 +20,7 @@ people:
 - sidsel-karlsen
 institutions:
 - norwegian-academy-of-music
+- uniarts-helsinki
 - university-of-agder
 - university-of-inland-norway
 projects: []

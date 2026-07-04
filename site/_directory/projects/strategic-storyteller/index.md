@@ -20,6 +20,7 @@ people:
 - terje-gaustad
 institutions:
 - kristiania-university-college
+- nord-university
 - university-of-inland-norway
 projects: []
 ---

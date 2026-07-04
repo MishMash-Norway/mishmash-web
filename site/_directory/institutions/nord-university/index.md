@@ -16,7 +16,12 @@ people:
 - jens-knigge
 - ole-goethe
 - troels-linde
-projects: []
+projects:
+- scoping-review-creative-ai-teaching-learning
+- strategic-storyteller
+- the-mishmash-website
+- tool-for-tools
+- when-creativity-meets-criticality
 country: null
 city: null
 urls:

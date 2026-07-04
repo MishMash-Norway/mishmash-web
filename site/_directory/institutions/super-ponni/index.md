@@ -12,7 +12,8 @@ people:
 - audun-kvitland-rostad
 - oystein-eugene-hermstad
 - tor-martin-norvik
-projects: []
+projects:
+- trondheim-kreativ-ai
 country: null
 city: null
 urls:

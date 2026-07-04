@@ -233,6 +233,20 @@ def main():
             if islug not in institutions:
                 errors.append(f"{prpath}: unknown institution reference '{islug}'")
 
+        # A project's institutions should cover its participants' institutions.
+        participant_insts = {
+            islug
+            for pslug in proj["people"]
+            if pslug in people
+            for islug in people[pslug]["institutions"]
+        }
+        uncovered = participant_insts - set(proj["institutions"])
+        if uncovered:
+            warnings.append(
+                f"{prpath}: institutions missing for participants' affiliations: "
+                + ", ".join(sorted(uncovered))
+            )
+
     for pslug, p in people.items():
         ppath = p["path"].relative_to(root)
 

@@ -19,6 +19,7 @@ people:
 - tonje-louise-finne
 institutions:
 - kristiania-university-college
+- norwegian-university-of-science-and-technology
 - university-of-inland-norway
 projects: []
 ---

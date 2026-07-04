@@ -22,8 +22,11 @@ people:
 - oystein-skaar
 - sidsel-karlsen
 institutions:
+- nord-university
 - norwegian-academy-of-music
+- norwegian-university-of-science-and-technology
 - university-of-agder
+- university-of-bergen
 - university-of-inland-norway
 projects: []
 ---

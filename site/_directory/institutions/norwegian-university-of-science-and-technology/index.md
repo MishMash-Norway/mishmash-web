@@ -22,9 +22,12 @@ people:
 - ole-christoffer-haga
 - oyvind-brandtsegg
 projects:
+- bingo-ai-assisted-animation-documentary-film
 - evaluation-cultural-bias-workflow-ai-music-generation
 - human-machine-consciousness
 - movement-to-music-hackathon
+- scoping-review-creative-ai-teaching-learning
+- trondheim-kreativ-ai
 country: null
 city: null
 urls:

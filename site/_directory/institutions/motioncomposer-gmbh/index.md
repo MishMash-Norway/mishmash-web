@@ -11,7 +11,8 @@ short_name: MotionComposer
 image: /images/institutions/motioncomposer-gmbh.png
 people:
 - robert-wechsler
-projects: []
+projects:
+- movement-to-music-hackathon
 country: null
 city: null
 urls:

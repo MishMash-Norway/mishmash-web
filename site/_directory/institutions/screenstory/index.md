@@ -10,7 +10,8 @@ description: Screenstory
 short_name: Screenstory
 people:
 - tommy-aase
-projects: []
+projects:
+- ai-integration-film-tv-education
 country: null
 city: null
 urls:

@@ -6,14 +6,16 @@ permalink: /institutions/western-norway-university-of-applied-sciences/
 redirect_from:
 - /directory/institutions/western-norway-university-of-applied-sciences/
 name: Western Norway University of Applied Sciences
-description: Western Norway University of Applied Sciences, or HVL, is a Norwegian public institution of higher education, established in January 2017 through the...
+description: Western Norway University of Applied Sciences, or HVL, is a Norwegian
+  public institution of higher education, established in January 2017 through the...
 short_name: HVL
 image: /images/institutions/western-norway-university-of-applied-sciences.svg
 people:
 - sigurd-sandvold
 - tine-grieg-viig
 - zacharias-andreadakis
-projects: []
+projects:
+- tool-for-tools
 country: null
 city: null
 urls:

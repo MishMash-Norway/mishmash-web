@@ -19,6 +19,8 @@ people:
 - sigmund-trageton
 - tommy-aase
 institutions:
+- nla-university-college
+- screenstory
 - university-of-bergen
 - university-of-stavanger
 projects: []

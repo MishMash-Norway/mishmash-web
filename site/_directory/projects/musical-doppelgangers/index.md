@@ -23,6 +23,8 @@ people:
 institutions:
 - norwegian-academy-of-music
 - notam-norwegian-centre-for-technology-art-and-music
+- ultima-festival
+- university-of-agder
 - university-of-bergen
 - university-of-oslo
 projects: []

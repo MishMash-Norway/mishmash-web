@@ -14,7 +14,8 @@ people:
 - clemens-cavallin
 - francis-borchardt
 - ole-fredrik-norbye
-projects: []
+projects:
+- ai-integration-film-tv-education
 country: null
 city: null
 urls:

@@ -6,12 +6,15 @@ permalink: /institutions/uniarts-helsinki/
 redirect_from:
 - /directory/institutions/uniarts-helsinki/
 name: Uniarts Helsinki
-description: The University of the Arts Helsinki, also known as Uniarts Helsinki, is a Finnish arts university that was launched in the beginning of 2013. Apart from a ...
+description: The University of the Arts Helsinki, also known as Uniarts Helsinki,
+  is a Finnish arts university that was launched in the beginning of 2013. Apart from
+  a ...
 short_name: Uniarts
 image: /images/institutions/uniarts-helsinki.svg
 people:
 - heidi-partti
-projects: []
+projects:
+- teacher-resources-critical-ai-literacy
 country: null
 city: null
 urls:
