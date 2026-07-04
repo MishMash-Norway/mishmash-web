@@ -29,6 +29,10 @@ jobs:
       - name: Validate directory
         run: python3 scripts/validate_directory.py
 
+      - name: Readability of adaptive pages (non-blocking)
+        continue-on-error: true
+        run: python3 scripts/check_readability.py --strict
+
   build_site:
     name: Build static site
     runs-on: ubuntu-latest
