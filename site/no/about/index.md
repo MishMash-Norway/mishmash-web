@@ -7,6 +7,7 @@ translation_url: /about/
 
 - [Beskrivelse](/no/about/description/) — Hvorfor, hvordan, hva, når?
 - [Organisasjon](/no/about/organisation/) — Styring, ledelse og rådgivende organer
+- [Ordliste](/no/about/glossary/) — Sentrale begreper forklart
 
 ### Katalog
 

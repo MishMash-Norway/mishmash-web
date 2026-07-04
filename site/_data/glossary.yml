@@ -1,0 +1,44 @@
+# Site-wide glossary. Each entry powers both the inline stretchtext
+# explanations ({% include stretch.html term="<key>" %}) and the
+# glossary pages (/about/glossary/ and /no/about/glossary/), so a
+# definition is written exactly once. Definitions support inline
+# markdown and should stay at a phrase or a sentence.
+- key: ai
+  term:
+    en: "AI"
+    nb: "KI"
+  definition:
+    en: "AI is short for *artificial intelligence* — computer programs that learn from lots of examples, a bit like how you learn from practice"
+    nb: "KI står for *kunstig intelligens* — dataprogrammer som lærer av mange eksempler, litt som du lærer av å øve"
+
+- key: creative-ai
+  term:
+    en: "Creative AI"
+    nb: "Kreativ KI"
+  definition:
+    en: "machine systems that can produce results that are both *novel* and *meaningful* — not just random, and not just copies"
+    nb: "maskinsystemer som kan produsere resultater som er både *nyskapende* og *meningsfulle* — ikke bare tilfeldige, og ikke bare kopier"
+
+- key: cocreative-ai
+  term:
+    en: "CoCreative AI"
+    nb: "Samskapende KI"
+  definition:
+    en: "AI systems designed for genuine partnership between humans and machines, where both contribute to the creative result"
+    nb: "KI-systemer laget for ekte partnerskap mellom mennesker og maskiner, der begge bidrar til det kreative resultatet"
+
+- key: work-package
+  term:
+    en: "work package"
+    nb: "arbeidspakke"
+  definition:
+    en: "a *work package* is research-speak for a team of people working on one part of a big project"
+    nb: "en *arbeidspakke* er forskerspråk for et lag med folk som jobber med én del av et stort prosjekt"
+
+- key: stretchtext
+  term:
+    en: "stretchtext"
+    nb: "stretchtext"
+  definition:
+    en: "text the reader can *stretch* — unfolding more detail in place, an idea proposed by Ted Nelson in 1967 and used on this website"
+    nb: "tekst leseren kan *strekke* — mer detalj foldes ut der du er, en idé foreslått av Ted Nelson i 1967 og brukt på dette nettstedet"

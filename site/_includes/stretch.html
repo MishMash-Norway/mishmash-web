@@ -1,7 +1,24 @@
 {%- comment -%}
 Inline stretchtext: a term that unfolds extra detail in place.
-Usage: {% include stretch.html text="Creative AI" more="machine systems that can produce *novel and meaningful* results" %}
-The `more` parameter supports inline markdown. Requires `adaptive: true`
-on the page (which loads adaptive.css/js via the default layout).
+
+Preferred usage — look the definition up in _data/glossary.yml so it is
+shared with the glossary page (/about/glossary/):
+  {% include stretch.html term="creative-ai" %}
+  {% include stretch.html term="work-package" text="work packages" %}
+`term` is the glossary key; `text` optionally overrides the visible text
+(e.g. plural or case). The definition follows the page language.
+
+Ad-hoc usage for one-off explanations that don't belong in the glossary:
+  {% include stretch.html text="LCA" more="life-cycle assessment of environmental impact" %}
+
+Requires `adaptive: true` on the page (which loads adaptive.css/js).
 {%- endcomment -%}
-<span class="stretch"><button type="button" class="stretch-toggle" aria-expanded="false">{{ include.text }}</button> <span class="stretch-more" hidden>{{ include.more | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></span>
+{%- assign _lang = page.lang | default: 'en' -%}
+{%- assign _text = include.text -%}
+{%- assign _more = include.more -%}
+{%- if include.term -%}
+{%- assign _entry = site.data.glossary | where: "key", include.term | first -%}
+{%- if _text == nil -%}{%- assign _text = _entry.term[_lang] | default: _entry.term.en -%}{%- endif -%}
+{%- assign _more = _entry.definition[_lang] | default: _entry.definition.en -%}
+{%- endif -%}
+<span class="stretch"><button type="button" class="stretch-toggle" aria-expanded="false">{{ _text }}</button> <span class="stretch-more" hidden>{{ _more | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></span>

@@ -75,16 +75,6 @@ html:not([data-audience]) .adaptive:not([data-for~="{{ site.data.audiences.defau
   border-bottom: 2px dotted #a7a1f4;
 }
 
-.stretch-toggle::after {
-  content: " +";
-  color: #7a73e0;
-  font-weight: 700;
-}
-
-.stretch-toggle[aria-expanded="true"]::after {
-  content: " −";
-}
-
 .stretch-more {
   background: rgba(193, 247, 174, 0.35);
   border-radius: 4px;
