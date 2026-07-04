@@ -22,6 +22,7 @@ urls:
   linkedin:
   orcid:
   nva:
+  wikidata:
   youtube:
   facebook:
   mastodon:

@@ -145,6 +145,14 @@ def main():
                     f"{index_md.relative_to(root)} slug '{slug}' does not match folder '{child.name}'"
                 )
 
+            wikidata_url = str(((fm.get("urls") or {}).get("wikidata")) or "").strip()
+            if wikidata_url and not re.match(
+                r"^https://www\.wikidata\.org/wiki/Q\d+$", wikidata_url
+            ):
+                warnings.append(
+                    f"{index_md.relative_to(root)}: malformed urls.wikidata '{wikidata_url}'"
+                )
+
             # Without an explicit permalink, Jekyll publishes the entry at
             # /<section>/<slug>/index/ and links to /<section>/<slug>/ break.
             expected_permalink = f"/{section}/{slug}/"

@@ -134,6 +134,7 @@ layout: default
     {% if social_urls.linkedin.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if social_urls.orcid.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if social_urls.nva.size > 0 %}{% assign has_social_icons = true %}{% endif %}
+    {% if social_urls.wikidata.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if social_urls.twitter.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if social_urls.youtube.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if social_urls.mastodon.size > 0 %}{% assign has_social_icons = true %}{% endif %}
@@ -159,6 +160,9 @@ layout: default
         {% endif %}
         {% if social_urls.nva.size > 0 %}
         <a class="social-icon-link" href="{{ social_urls.nva }}" target="_blank" rel="noopener noreferrer" aria-label="NVA Registry" title="NVA"><img class="icon icon-nva" src="{{ '/assets/images/icons/catalogue/nva.svg' | relative_url }}" alt="" width="64"></a>
+        {% endif %}
+        {% if social_urls.wikidata.size > 0 %}
+        <a class="social-icon-link" href="{{ social_urls.wikidata }}" target="_blank" rel="noopener noreferrer" aria-label="Wikidata" title="Wikidata"><img class="icon icon-wikidata" src="{{ '/assets/images/icons/catalogue/wikidata.svg' | relative_url }}" alt="" width="64"></a>
         {% endif %}
         {% if social_urls.twitter.size > 0 %}
         <a class="social-icon-link" href="{{ social_urls.twitter }}" target="_blank" rel="noopener noreferrer" aria-label="Twitter" title="Twitter"><img class="icon icon-x-twitter" src="{{ '/assets/images/icons/catalogue/x-twitter.svg' | relative_url }}" alt="" width="64"></a>

@@ -231,3 +231,27 @@ Useful flags:
 - `--suggest` with `--report` prints YAML for unmapped duplicate groups.
 - `--map path/to/tag_merge_map.yml` uses a custom mapping file.
 - `--tag-groups site/_data/tag_groups.yml` also updates people-network tag groups.
+
+Wikidata identifiers and facts
+------------------------------
+
+`sync_wikidata.py` connects directory entries to Wikidata (first step of the
+linked-data roadmap in the wiki's Web Philosophy page):
+
+- People with an ORCID iD are matched exactly via Wikidata's ORCID property
+  (P496); ORCIDs matching several Wikidata items (duplicates) are skipped
+  with a warning for manual resolution.
+- Institutions are matched exactly via their English Wikipedia article.
+- Matches are written as `urls.wikidata` on the entries; existing values are
+  never overwritten.
+- Basic facts for resolved institutions (coordinates, logo, official
+  website, inception) are written to `site/_data/wikidata_institutions.yml`
+  as generated reference data.
+
+```bash
+python3 scripts/sync_wikidata.py --dry-run
+python3 scripts/sync_wikidata.py
+python3 scripts/sync_wikidata.py --skip-facts   # only resolve QIDs
+```
+
+The directory validator warns about malformed `urls.wikidata` values.
