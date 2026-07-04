@@ -60,7 +60,7 @@ MishMash bruker aktivt KI i utviklingen og vedlikeholdet av mishmash.no — pass
 1. **Åpenhet.** Vi er åpne om hvor og hvordan KI bidrar: maskinoversatte sider merkes, KI-assistert utvikling er synlig i den offentlige commit-historikken, og denne seksjonen erklærer selv praksisen. Lesere og partnere skal aldri måtte gjette på om KI var involvert.
 2. **Det er et eksperiment.** Å bruke KI til å bygge senterets egen kommunikasjonskanal er en del av MishMash sin forskningspraksis — en måte å *skape, utforske og reflektere* over egne verktøy. Menneskelige redaktører er ansvarlige for alt som publiseres: KI-produsert innhold gjennomgås før det går ut, og feil er våre, ikke maskinens. Det vi lærer føres tilbake til senterets forskning og undervisning.
 
-Tilnærmingen er dokumentert nærmere i [nettfilosofien](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) og evalueres sammen med de andre nettstedseksperimentene.
+Praksisen erklæres offentlig på [KI-kolofonen](/no/about/ai-colophon/), er dokumentert nærmere i [nettfilosofien](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) og evalueres sammen med de andre nettstedseksperimentene.
 
 ## Språk
 

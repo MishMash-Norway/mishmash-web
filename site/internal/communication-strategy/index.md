@@ -57,7 +57,7 @@ MishMash actively uses AI in developing and maintaining mishmash.no — fitting 
 1. **Transparency.** We are open about where and how AI contributes: machine-translated pages are marked as such, AI-assisted development is visible in the public commit history, and this section itself declares the practice. Readers and partners should never have to guess whether AI was involved.
 2. **It is an experiment.** Using AI to build the centre's own communication channel is part of MishMash's research practice — a way to *create, explore, and reflect* on our own tools. Human editors remain responsible for everything published: AI output is reviewed before it goes live, and errors are ours, not the machine's. What we learn feeds back into the centre's research and teaching.
 
-The approach is documented in more depth in the [web philosophy](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) and evaluated alongside the other website experiments.
+The practice is declared publicly on the [AI colophon](/about/ai-colophon/) page, documented in more depth in the [web philosophy](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy), and evaluated alongside the other website experiments.
 
 ## Language
 

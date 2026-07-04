@@ -150,6 +150,31 @@ Many MishMash activities are open, including the weekly MeshUps and conferences.
 
 </details>
 
+<details class="faq-item" id="why-reading-levels" markdown="1">
+<summary><span class="faq-summary-text">Why does the about page have reading levels?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Some pages on mishmash.no are *adaptive*: the same content is written at three complexity levels — Simple, Standard, and Advanced — and you choose which one to read with the "Reading level" switcher at the top of the page. Your choice is remembered as you browse. The idea is that a school class, a curious visitor, and a fellow researcher should all be able to read the *same page* without one being bored or the other lost.
+
+Dotted-underlined words are [stretchtext](https://github.com/MishMash-Norway/mishmash-web/wiki/Adaptive-Content): click them to unfold a short explanation in place. All the explanations are collected in the [glossary](/about/glossary/). Try it on the [centre description](/about/description/).
+
+</details>
+
+<details class="faq-item" id="does-the-website-use-ai" markdown="1">
+<summary><span class="faq-summary-text">Is this website made with AI?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Partly, and openly — fitting for a centre that studies creative uses of AI. AI assistance is used for drafting content, developing code and automation, and translation. Human editors review everything before it is published and remain responsible for it, machine-translated pages are marked, and every AI-assisted change is traceable in the public commit history.
+
+The [AI colophon](/about/ai-colophon/) declares the practice in full, with live numbers.
+
+</details>
+
+<details class="faq-item" id="can-students-develop-the-website" markdown="1">
+<summary><span class="faq-summary-text">Can students help develop the website?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Yes — the website doubles as a development playground. Student groups can build **alternative frontends** (switchable UI themes that cannot break the production site) or **backend automation** (data sync, validation, visualization). See the [student development guide](https://github.com/MishMash-Norway/mishmash-web/wiki/Student-Development) in the wiki, the open [issues](https://github.com/MishMash-Norway/mishmash-web/issues) for project ideas, and [the website project](/projects/the-mishmash-website/) for who to talk to.
+
+</details>
+
 <details class="faq-item" id="still-have-questions" markdown="1">
 <summary><span class="faq-summary-text">Still have questions?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
