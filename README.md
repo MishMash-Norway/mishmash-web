@@ -36,6 +36,19 @@ bundle exec jekyll serve --livereload
 
 Site: `http://127.0.0.1:4000`
 
+### Alternative UI themes (student projects)
+
+Student groups can build alternative frontends as overlay themes in [`themes/`](themes/) — each theme shadows files in `site/` at build time without touching the production site. Create and test them with the switcher:
+
+```bash
+./scripts/ui new group-a       # scaffold a theme
+./scripts/ui serve group-a     # serve the site with that UI (livereload)
+./scripts/ui serve example     # try the demo theme
+./scripts/ui list              # see all themes
+```
+
+See [themes/README.md](themes/README.md) for the student guide.
+
 ### Python scripts (optional)
 
 For NVA/ORCID sync, directory validation, tag merging, and event helpers:

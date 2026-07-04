@@ -1,0 +1,40 @@
+/* Example student UI theme.
+ * Loaded on top of the regular site CSS via the overridden
+ * _layouts/default.html in this theme. Replace freely. */
+
+.page-header {
+  /* !important needed: site custom.css sets the header gradient with !important */
+  background: linear-gradient(120deg, #4b2e83, #b5179e) !important;
+}
+
+.main-content {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  color: #4b2e83;
+}
+
+.main-content a {
+  color: #b5179e;
+}
+
+.btn {
+  border-radius: 999px;
+}
+
+/* Badge so it is obvious which UI theme is being served. */
+.ui-theme-badge {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 2000;
+  padding: 4px 12px;
+  background: #b5179e;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  border-top-left-radius: 8px;
+}

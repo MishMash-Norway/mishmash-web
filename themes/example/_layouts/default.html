@@ -1,0 +1,97 @@
+{% assign lang = page.lang | default: 'en' %}
+{% assign t = site.data.translations[lang] %}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="VYQPGEZaiYNH8BxvSZjP0xHFhbLYOfPz_Qs3e3f15tw">
+
+{% seo %}
+{% if page.translation_url %}
+  {% assign _hreflang_other = page.translation_url %}
+  {% assign _hreflang_other_exists = true %}
+{% elsif lang == 'nb' %}
+  {% assign _hreflang_other = page.url | remove_first: '/no' %}
+  {% assign _hreflang_other_exists = true %}
+{% else %}
+  {% assign _hreflang_other = '/no' | append: page.url %}
+  {% assign _hreflang_other_exists = false %}
+  {% for _p in site.pages %}{% if _p.url == _hreflang_other %}{% assign _hreflang_other_exists = true %}{% break %}{% endif %}{% endfor %}
+  {% unless _hreflang_other_exists %}{% for _d in site.documents %}{% if _d.url == _hreflang_other %}{% assign _hreflang_other_exists = true %}{% break %}{% endif %}{% endfor %}{% endunless %}
+{% endif %}
+{% if lang == 'nb' %}
+    <link rel="alternate" hreflang="nb" href="{{ site.url }}{{ page.url }}">
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ _hreflang_other }}">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ _hreflang_other }}">
+{% else %}
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}">
+    {% if _hreflang_other_exists %}<link rel="alternate" hreflang="nb" href="{{ site.url }}{{ _hreflang_other }}">{% endif %}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
+{% endif %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:wght@400;700&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/icons.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/example-theme.css' | relative_url }}">
+    {% if page.custom_css %}
+    <link rel="stylesheet" href="{{ page.custom_css | relative_url }}">
+    {% endif %}
+    <link rel="icon" href="{{ '/assets/images/bubbles/mishmash_bubbles.ico' | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="ui-theme-badge">UI theme: example</div>
+    <a id="skip-to-content" href="#main-content">{{ t.skip_to_content }}</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name"><a href="{{ t.home_url | relative_url }}">{{ t.project_name }}</a></h1>
+      <h2 class="project-tagline">{{ t.project_tagline }}</h2>
+<details class="btn wp-dropdown" style="position:relative; display:inline-block;">
+  <summary id="about-summary" aria-haspopup="true" aria-expanded="false" aria-label="{{ t.nav_about }}" aria-controls="about-menu">{{ t.nav_about }} ▾</summary>
+  <ul id="about-menu" class="wp-list" role="menu" aria-labelledby="about-summary" style="list-style:none; margin:0; padding:8px 0; position:absolute; top:100%; left:0; z-index:1000; background:#fff; box-shadow:0 2px 6px rgba(0,0,0,.15); min-width:160px;">
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ t.about_url | append: 'description/' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_about_description }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ t.about_url | append: 'organisation/' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_about_organisation }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ t.directory_people_url | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_directory_people }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ t.directory_institutions_url | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_directory_institutions }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ t.directory_projects_url | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_directory_projects }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ t.results_url | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_directory_results }}</a></li>
+  </ul>
+</details>
+<details class="btn wp-dropdown" style="position:relative; display:inline-block;">
+  <summary id="wp-summary" aria-haspopup="true" aria-expanded="false" aria-label="{{ t.nav_wp }}" aria-controls="wp-menu">{{ t.nav_wp }} ▾</summary>
+  <ul id="wp-menu" class="wp-list" role="menu" aria-labelledby="wp-summary" style="list-style:none; margin:0; padding:8px 0; position:absolute; top:100%; left:0; z-index:1000; background:#fff; box-shadow:0 2px 6px rgba(0,0,0,.15); min-width:160px;">
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/wp1/' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_wp1 }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/wp2/' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_wp2 }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/wp3/' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_wp3 }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/wp4/' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_wp4 }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/wp5/' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_wp5 }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/wp6/' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_wp6 }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/wp7/' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_wp7 }}</a></li>
+  </ul>
+</details>
+<details class="btn wp-dropdown" style="position:relative; display:inline-block;">
+  <summary id="news-events-summary" aria-haspopup="true" aria-expanded="false" aria-label="{{ t.nav_news_events }}" aria-controls="news-events-menu">{{ t.nav_news_events }} ▾</summary>
+  <ul id="news-events-menu" class="wp-list" role="menu" aria-labelledby="news-events-summary" style="list-style:none; margin:0; padding:8px 0; position:absolute; top:100%; left:0; z-index:1000; background:#fff; box-shadow:0 2px 6px rgba(0,0,0,.15); min-width:160px;">
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/events/' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_mishmash_events }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/events/partner-events' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_partner_events }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/news/' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_news }}</a></li>
+    <li role="none" style="padding:0;"><a role="menuitem" href="{{ '/news/partner-news/' | relative_url }}" style="display:block; padding:6px 12px;">{{ t.nav_partner_news }}</a></li>
+  </ul>
+</details>
+<a class="btn" href="{{ '/search/' | relative_url }}" style="text-decoration:none !important;">{{ t.nav_search }}</a>
+{% include lang-switcher.html %}
+
+    </header>
+
+    <main id="main-content" class="main-content" role="main">
+      {{ content }}
+
+      {% include page-about.html %}
+    </main>
+  </body>
+</html>

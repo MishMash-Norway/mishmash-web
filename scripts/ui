@@ -1,0 +1,137 @@
+#!/usr/bin/env bash
+# scripts/ui — build or serve the site with an alternative UI theme overlaid.
+#
+# Student themes live in themes/<name>/ and shadow files in site/ at the same
+# relative path (e.g. themes/my-group/_layouts/default.html replaces
+# site/_layouts/default.html). Anything a theme does not override falls back
+# to the regular site. See themes/README.md for the full guide.
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT"
+
+THEMES_DIR="themes"
+WORK=".ui-work"
+STAGE="$WORK/source"
+DEST="$WORK/_site"
+
+usage() {
+  cat <<'EOF'
+Usage: scripts/ui <command> [args]
+
+Commands:
+  list                  List available UI themes
+  new <name>            Scaffold a new theme in themes/<name>/
+  serve <name> [args]   Serve the site with theme <name> overlaid (livereload).
+                        Use "default" for the unmodified site.
+                        Extra args go to `jekyll serve` (e.g. --port 4001).
+  build <name> [args]   One-off build with <name> overlaid into .ui-work/_site/
+
+Examples:
+  scripts/ui new group-a
+  scripts/ui serve group-a
+  scripts/ui serve default --port 4001   # compare against the original
+EOF
+}
+
+list_themes() {
+  find "$THEMES_DIR" -mindepth 1 -maxdepth 1 -type d -printf '%f\n' 2>/dev/null | sort
+}
+
+check_name() {
+  [[ "$1" =~ ^[a-z0-9][a-z0-9_-]*$ ]] || {
+    echo "Invalid theme name '$1' (use lowercase letters, digits, - and _)" >&2
+    exit 1
+  }
+}
+
+require_theme() {
+  [ -d "$THEMES_DIR/$1" ] && return
+  echo "No such theme: $THEMES_DIR/$1" >&2
+  echo "Available themes:" >&2
+  list_themes >&2
+  exit 1
+}
+
+# Copy site/ into the staging dir, then lay the theme on top. Theme files are
+# excluded from the site/ pass (and thereby protected from --delete), so only
+# real changes are transferred and Jekyll's watcher only sees real edits.
+sync_stage() {
+  local theme="$THEMES_DIR/$1"
+  mkdir -p "$STAGE"
+  (cd "$theme" && find . -type f ! -name 'README.md' ! -name '_config.yml' | sed 's|^\.||') > "$WORK/exclude.txt"
+  rsync -a --delete --exclude-from="$WORK/exclude.txt" site/ "$STAGE/"
+  rsync -a --exclude='/README.md' --exclude='/_config.yml' "$theme/" "$STAGE/"
+}
+
+config_opt() {
+  local cfg="_config.yml"
+  [ -f "$THEMES_DIR/$1/_config.yml" ] && cfg="$cfg,$THEMES_DIR/$1/_config.yml"
+  echo "$cfg"
+}
+
+cmd_serve() {
+  local name="$1"; shift
+  if [ "$name" = "default" ]; then
+    exec bundle exec jekyll serve --livereload "$@"
+  fi
+  check_name "$name"
+  require_theme "$name"
+  sync_stage "$name"
+  ( while :; do sleep 1; sync_stage "$name" 2>/dev/null || true; done ) &
+  local sync_pid=$!
+  trap 'kill "$sync_pid" 2>/dev/null || true' EXIT INT TERM
+  echo "==> Serving with UI theme '$name' — edits under themes/$name/ or site/ are picked up automatically"
+  bundle exec jekyll serve -s "$STAGE" -d "$DEST" --config "$(config_opt "$name")" --livereload "$@"
+}
+
+cmd_build() {
+  local name="$1"; shift
+  if [ "$name" = "default" ]; then
+    exec bundle exec jekyll build "$@"
+  fi
+  check_name "$name"
+  require_theme "$name"
+  sync_stage "$name"
+  bundle exec jekyll build -s "$STAGE" -d "$DEST" --config "$(config_opt "$name")" "$@"
+  echo "==> Built with UI theme '$name' into $DEST/"
+}
+
+cmd_new() {
+  local name="$1"
+  check_name "$name"
+  local dir="$THEMES_DIR/$name"
+  [ -e "$dir" ] && { echo "Theme already exists: $dir" >&2; exit 1; }
+  mkdir -p "$dir/_layouts" "$dir/assets/css"
+  cp site/_layouts/default.html "$dir/_layouts/default.html"
+  cat > "$dir/assets/css/theme.css" <<EOF
+/* Extra stylesheet for the '$name' UI theme.
+   Link it from _layouts/default.html:
+   <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}"> */
+EOF
+  cat > "$dir/README.md" <<EOF
+# UI theme: $name
+
+Files in this folder replace files in \`site/\` at the same relative path.
+Start by editing \`_layouts/default.html\` (already copied here) and
+\`assets/css/theme.css\`. Full guide: [themes/README.md](../README.md).
+
+Run it with:
+
+\`\`\`bash
+./scripts/ui serve $name
+\`\`\`
+EOF
+  echo "==> Scaffolded $dir/"
+  echo "    Edit $dir/_layouts/default.html and $dir/assets/css/theme.css,"
+  echo "    then run: ./scripts/ui serve $name"
+}
+
+case "${1:-}" in
+  list)  list_themes ;;
+  new)   [ $# -ge 2 ] || { usage >&2; exit 1; }; cmd_new "$2" ;;
+  serve) [ $# -ge 2 ] || { usage >&2; exit 1; }; shift; cmd_serve "$@" ;;
+  build) [ $# -ge 2 ] || { usage >&2; exit 1; }; shift; cmd_build "$@" ;;
+  ""|-h|--help|help) usage ;;
+  *) echo "Unknown command: $1" >&2; usage >&2; exit 1 ;;
+esac

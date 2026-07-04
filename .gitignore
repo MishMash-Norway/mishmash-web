@@ -31,3 +31,6 @@ config/nva-credentials.json
 temp/
 _site_test/
 _site_clean/
+
+# Staging area for alternative UI themes (scripts/ui)
+.ui-work/
