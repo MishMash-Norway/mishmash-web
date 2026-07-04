@@ -54,7 +54,7 @@ selected_works:
     url: /people/david-rych/
 source_mentions: []
 summary: ''
-published: false
+published: true
 wps: []
 ---
 

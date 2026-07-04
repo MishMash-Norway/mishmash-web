@@ -412,7 +412,7 @@ selected_works:
     role: Creator
 source_mentions: []
 summary: ''
-published: false
+published: true
 wps: []
 ---
 
