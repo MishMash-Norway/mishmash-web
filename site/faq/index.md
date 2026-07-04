@@ -23,6 +23,20 @@ MishMash is a national research centre dedicated to exploring AI in and through 
 
 </details>
 
+<details class="faq-item" id="what-does-the-name-mean" markdown="1">
+<summary><span class="faq-summary-text">What does the name MishMash mean?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+MishMash is not an acronym — it is exactly what it sounds like. When the founders started sketching the centre, their ideas were scattered across disciplines and institutions and "it all felt like a *mishmash*". The word began as a working title but proved so memorable that it stuck: among more than a hundred competing centre proposals pitched to the Research Council of Norway, the name was the one people remembered. It also captures the centre's mission — merging a deliberate mix of artistic and scientific disciplines into something new. Read [the full story of the name](https://www.arj.no/2025/06/14/mishmash-name/).
+
+</details>
+
+<details class="faq-item" id="what-is-the-emblem-story" markdown="1">
+<summary><span class="faq-summary-text">What is the story behind the MishMash emblem?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+The emblem's overlapping circles symbolise two things at once: AI as a *meeting point between humans and machines*, and MishMash as a centre doing both artistic and scientific research — with the centre itself in the overlap. It started as a rough sketch by the centre director for early presentations and was refined by the designers at Appex, the same studio behind the RITMO centre's emblem, along with the "MishMash cube" that summarises the centre's themes, approaches, and perspectives. Fittingly for a centre studying AI, the emblem itself was made entirely by humans. Read [the full story of the emblem](https://www.arj.no/2025/06/29/the-mishmash-emblem/).
+
+</details>
+
 <details class="faq-item" id="how-is-mishmash-organised" markdown="1">
 <summary><span class="faq-summary-text">How is MishMash organised?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 

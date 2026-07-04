@@ -1142,6 +1142,17 @@ a:focus-visible .icon {
   font-size: 1.3rem;
 }
 
+/* Compact spacing inside the answers */
+.faq-item p,
+.faq-item ul,
+.faq-item ol {
+  margin: 0 0 0.6rem;
+}
+
+.faq-item[open] {
+  padding-bottom: 0.6rem;
+}
+
 .faq-item summary {
   cursor: pointer;
   list-style: none;
