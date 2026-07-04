@@ -6,7 +6,9 @@ permalink: /institutions/oslo-national-academy-of-the-arts/
 redirect_from:
 - /directory/institutions/oslo-national-academy-of-the-arts/
 name: Oslo National Academy of the Arts
-description: The Oslo National Academy of the Arts is a tertiary institution in Oslo, Norway, that provides education in visual arts, design and performing arts. It is ...
+description: The Oslo National Academy of the Arts is a tertiary institution in Oslo,
+  Norway, that provides education in visual arts, design and performing arts. It is
+  ...
 short_name: KHiO
 image: /images/institutions/oslo-national-academy-of-the-arts.png
 people:
@@ -21,6 +23,7 @@ city: null
 urls:
   website: https://khio.no/en
   wikipedia: https://en.wikipedia.org/wiki/Oslo_National_Academy_of_the_Arts
+  wikidata: https://www.wikidata.org/wiki/Q1291884
 aliases: []
 tags: []
 search_keywords: []

@@ -32,6 +32,7 @@ city: null
 urls:
   website: https://www.uia.no/english/index.html
   wikipedia: https://en.wikipedia.org/wiki/University_of_Agder
+  wikidata: https://www.wikidata.org/wiki/Q1470769
 aliases: []
 tags: []
 search_keywords: []

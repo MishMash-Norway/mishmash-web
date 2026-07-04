@@ -24,6 +24,7 @@ city: null
 urls:
   website: https://www.nb.no/en/
   wikipedia: https://en.wikipedia.org/wiki/National_Library_of_Norway
+  wikidata: https://www.wikidata.org/wiki/Q924551
 aliases:
 - The National Library of Norway
 tags: []

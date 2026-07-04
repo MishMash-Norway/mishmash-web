@@ -23,6 +23,7 @@ urls:
   mastodon: https://sigmoid.social/@creativeEndvs
   instagram: ''
   bluesky: https://creativeendvs.bsky.social‬
+  wikidata: https://www.wikidata.org/wiki/Q130803759
 aliases: []
 tags:
 - Computational Creativity

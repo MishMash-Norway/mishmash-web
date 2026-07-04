@@ -6,7 +6,8 @@ permalink: /institutions/university-of-manchester/
 redirect_from:
 - /directory/institutions/university-of-manchester/
 name: University of Manchester
-description: The University of Manchester is a public research university in Manchester, England, with its main campus south of the city centre on Oxford Road. It is a ...
+description: The University of Manchester is a public research university in Manchester,
+  England, with its main campus south of the city centre on Oxford Road. It is a ...
 short_name: UoM
 people:
 - gerard-hodgkinson
@@ -16,6 +17,7 @@ image: /images/institutions/university-of-manchester.png
 urls:
   website: https://www.manchester.ac.uk/
   wikipedia: https://en.wikipedia.org/wiki/University_of_Manchester
+  wikidata: https://www.wikidata.org/wiki/Q230899
 summary: The University of Manchester is a public research university in Manchester,
   England, with its main campus south of the city centre on Oxford Road. It is a red
   brick university, a product of the civic university movement of the late 19th century.

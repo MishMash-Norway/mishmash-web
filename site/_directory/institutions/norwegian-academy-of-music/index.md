@@ -28,6 +28,7 @@ city: null
 urls:
   website: https://nmh.no/en/
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_Academy_of_Music
+  wikidata: https://www.wikidata.org/wiki/Q2001488
 aliases: []
 tags: []
 search_keywords: []

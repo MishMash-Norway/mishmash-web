@@ -33,6 +33,7 @@ city: null
 urls:
   website: https://www.ntnu.edu/
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_University_of_Science_and_Technology
+  wikidata: https://www.wikidata.org/wiki/Q314536
 aliases: []
 tags: []
 search_keywords: []

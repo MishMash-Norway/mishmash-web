@@ -23,6 +23,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q130826535
 aliases: []
 tags: []
 search_keywords: []

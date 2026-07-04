@@ -6,7 +6,8 @@ permalink: /institutions/bi-norwegian-business-school/
 redirect_from:
 - /directory/institutions/bi-norwegian-business-school/
 name: BI Norwegian Business School
-description: BI Norwegian Business School is a Norwegian private business school. BI is organized as a self-owned foundation whose sole purpose is teaching and...
+description: BI Norwegian Business School is a Norwegian private business school.
+  BI is organized as a self-owned foundation whose sole purpose is teaching and...
 short_name: BI
 image: /images/institutions/bi-norwegian-business-school.svg
 people:
@@ -21,6 +22,7 @@ city: null
 urls:
   website: https://www.bi.edu/
   wikipedia: https://en.wikipedia.org/wiki/BI_Norwegian_Business_School
+  wikidata: https://www.wikidata.org/wiki/Q604629
 aliases: []
 tags: []
 search_keywords: []

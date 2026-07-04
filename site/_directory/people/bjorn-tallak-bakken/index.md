@@ -2,8 +2,7 @@
 type: person
 slug: bjorn-tallak-bakken
 redirect_from:
-- /people/bjrn-tallak-bakken/
-- /directory/people/bjrn-tallak-bakken/
+- /directory/people/bjorn-tallak-bakken/
 name: Bjørn Tallak Bakken
 title: Bjørn Tallak Bakken
 position: Associate professor
@@ -39,6 +38,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q138230885
 aliases: []
 tags: []
 search_keywords: []
@@ -212,8 +212,6 @@ wps:
 - WP4
 - WP7
 permalink: /people/bjorn-tallak-bakken/
-redirect_from:
-- /directory/people/bjorn-tallak-bakken/
 ---
 
 Bio coming soon.

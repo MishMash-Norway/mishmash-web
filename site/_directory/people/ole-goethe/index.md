@@ -36,6 +36,7 @@ urls:
   mastodon: https://mastodon.social/@olegoethe
   instagram: https://www.instagram.com/ole_goethe
   bluesky: https://bsky.app/profile/olegoethe.bsky.social
+  wikidata: https://www.wikidata.org/wiki/Q136987663
 aliases: []
 tags:
 - Human computer interaction

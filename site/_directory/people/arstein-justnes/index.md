@@ -23,6 +23,7 @@ urls:
   mastodon: ''
   instagram: ''
   bluesky: https://bsky.app/profile/arsteinjustnes.bsky.social
+  wikidata: https://www.wikidata.org/wiki/Q105063503
 aliases: []
 tags: []
 search_keywords: []

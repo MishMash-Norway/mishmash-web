@@ -5,7 +5,8 @@ permalink: /institutions/australian-national-university/
 redirect_from:
 - /directory/institutions/australian-national-university/
 name: Australian National University
-description: The Australian National University (ANU) is a public research university and member of the Group of Eight, located in Canberra, the capital of Australia....
+description: The Australian National University (ANU) is a public research university
+  and member of the Group of Eight, located in Canberra, the capital of Australia....
 short_name: ANU
 image: /images/institutions/australian-national-university.svg
 people:
@@ -16,6 +17,7 @@ city: null
 urls:
   website: https://www.anu.edu.au/
   wikipedia: https://en.wikipedia.org/wiki/Australian_National_University
+  wikidata: https://www.wikidata.org/wiki/Q127990
 aliases: []
 tags: []
 search_keywords: []

@@ -24,6 +24,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q122577833
 aliases: []
 tags:
 - Critical theory

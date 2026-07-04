@@ -39,6 +39,7 @@ urls:
   mastodon: ''
   instagram: ''
   bluesky: https://bsky.app/profile/jokavuos.bsky.social
+  wikidata: https://www.wikidata.org/wiki/Q61961414
 aliases: []
 tags:
 - Empathy

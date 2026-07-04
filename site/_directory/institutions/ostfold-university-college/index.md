@@ -6,7 +6,9 @@ permalink: /institutions/ostfold-university-college/
 redirect_from:
 - /directory/institutions/ostfold-university-college/
 name: Ostfold University College
-description: Østfold University College is a university college in Østfold county, Norway. It has campuses in Fredrikstad and Halden, and has around 7000 students and...
+description: Østfold University College is a university college in Østfold county,
+  Norway. It has campuses in Fredrikstad and Halden, and has around 7000 students
+  and...
 short_name: HiØF
 image: /images/institutions/ostfold-university-college.png
 people:
@@ -20,6 +22,7 @@ city: null
 urls:
   website: https://www.hiof.no/english/
   wikipedia: https://en.wikipedia.org/wiki/%C3%98stfold_University_College
+  wikidata: https://www.wikidata.org/wiki/Q616752
 aliases:
 - Østfold University of Applied Sciences
 tags: []

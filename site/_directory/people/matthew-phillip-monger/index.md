@@ -21,6 +21,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q113739293
 aliases: []
 tags:
 - Reception history

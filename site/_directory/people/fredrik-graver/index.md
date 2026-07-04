@@ -25,6 +25,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q138000982
 aliases: []
 tags:
 - Educational management

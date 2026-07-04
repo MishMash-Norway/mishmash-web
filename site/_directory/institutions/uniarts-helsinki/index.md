@@ -20,6 +20,7 @@ city: null
 urls:
   website: https://www.uniarts.fi/en
   wikipedia: https://en.wikipedia.org/wiki/Uniarts_Helsinki
+  wikidata: https://www.wikidata.org/wiki/Q4352418
 aliases: []
 tags: []
 search_keywords: []

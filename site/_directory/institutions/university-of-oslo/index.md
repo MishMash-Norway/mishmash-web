@@ -65,6 +65,7 @@ city: null
 urls:
   website: https://www.uio.no/english/index.html
   wikipedia: https://en.wikipedia.org/wiki/University_of_Oslo
+  wikidata: https://www.wikidata.org/wiki/Q486156
 aliases: []
 tags: []
 search_keywords: []

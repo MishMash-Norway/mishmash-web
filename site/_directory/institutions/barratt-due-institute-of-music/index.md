@@ -18,6 +18,7 @@ city: null
 urls:
   website: https://www.barrattdue.no/en
   wikipedia: https://en.wikipedia.org/wiki/Barratt_Due_Institute_of_Music
+  wikidata: https://www.wikidata.org/wiki/Q4863263
 aliases: []
 tags: []
 search_keywords: []

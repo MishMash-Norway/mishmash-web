@@ -6,7 +6,8 @@ permalink: /institutions/university-of-cambridge/
 redirect_from:
 - /directory/institutions/university-of-cambridge/
 name: University of Cambridge
-description: The University of Cambridge is a collegiate public research university in Cambridge, England. Founded in 1209, the University of Cambridge is the...
+description: The University of Cambridge is a collegiate public research university
+  in Cambridge, England. Founded in 1209, the University of Cambridge is the...
 short_name: Cambridge
 people:
 - magda-osman
@@ -16,6 +17,7 @@ image: /images/institutions/university-of-cambridge.svg
 urls:
   website: https://www.cam.ac.uk/
   wikipedia: https://en.wikipedia.org/wiki/University_of_Cambridge
+  wikidata: https://www.wikidata.org/wiki/Q35794
 summary: The University of Cambridge is a collegiate public research university in
   Cambridge, England. Founded in 1209, the University of Cambridge is the second-oldest
   university in the English-speaking world and the world's third-oldest university

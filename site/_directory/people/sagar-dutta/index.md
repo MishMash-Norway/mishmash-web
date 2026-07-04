@@ -29,6 +29,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q130866091
 aliases: []
 tags:
 - Technology, Innovation and Culture

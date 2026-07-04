@@ -21,6 +21,7 @@ city: null
 urls:
   website: https://www.nla.no/en/
   wikipedia: https://en.wikipedia.org/wiki/NLA_University_College
+  wikidata: https://www.wikidata.org/wiki/Q11990541
 aliases: []
 tags: []
 search_keywords: []

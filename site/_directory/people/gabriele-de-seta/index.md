@@ -30,6 +30,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q110873276
 aliases: []
 tags:
 - Anthropology

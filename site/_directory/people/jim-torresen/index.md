@@ -45,6 +45,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q90647708
 aliases: []
 tags:
 - Informatics

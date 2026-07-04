@@ -22,6 +22,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q47974426
 aliases: []
 tags:
 - Data Science

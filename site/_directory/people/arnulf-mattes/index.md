@@ -27,6 +27,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q138300907
 aliases: []
 tags:
 - Musicology

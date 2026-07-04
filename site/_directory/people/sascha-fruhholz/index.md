@@ -33,6 +33,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q92198952
 aliases: []
 tags: []
 search_keywords: []

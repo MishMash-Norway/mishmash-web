@@ -22,6 +22,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q97415429
 aliases: []
 tags:
 - Political theory

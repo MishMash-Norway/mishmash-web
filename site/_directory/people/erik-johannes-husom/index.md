@@ -34,6 +34,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q130993731
 aliases: []
 tags:
 - Deep learning

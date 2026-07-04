@@ -24,6 +24,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q130970724
 aliases: []
 tags:
 - Sound analysis /synthesis

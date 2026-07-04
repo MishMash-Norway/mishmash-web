@@ -44,6 +44,7 @@ city: null
 urls:
   website: https://www.inn.no/english/
   wikipedia: https://en.wikipedia.org/wiki/University_of_Inland_Norway
+  wikidata: https://www.wikidata.org/wiki/Q27050380
 aliases:
 - Inland Norway University of Applied Sciences
 - Høgskolen i Innlandet

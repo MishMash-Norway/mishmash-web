@@ -35,6 +35,7 @@ city: null
 urls:
   website: https://www.uib.no/en
   wikipedia: https://en.wikipedia.org/wiki/University_of_Bergen
+  wikidata: https://www.wikidata.org/wiki/Q204457
 aliases: []
 tags: []
 search_keywords: []
