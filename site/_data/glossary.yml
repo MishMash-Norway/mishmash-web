@@ -42,3 +42,99 @@
   definition:
     en: "text the reader can *stretch* — unfolding more detail in place, an idea proposed by Ted Nelson in 1967 and used on this website"
     nb: "tekst leseren kan *strekke* — mer detalj foldes ut der du er, en idé foreslått av Ted Nelson i 1967 og brukt på dette nettstedet"
+
+- key: generative-ai
+  term:
+    en: "generative AI"
+    nb: "generativ KI"
+  definition:
+    en: "AI systems that produce new content — text, images, sound, or video — from patterns learned in large collections of examples"
+    nb: "KI-systemer som lager nytt innhold — tekst, bilder, lyd eller video — ut fra mønstre lært fra store samlinger av eksempler"
+
+- key: machine-learning
+  term:
+    en: "machine learning"
+    nb: "maskinlæring"
+  definition:
+    en: "computer methods that get better at a task by learning from examples, instead of following rules written by hand"
+    nb: "datametoder som blir bedre til en oppgave ved å lære av eksempler, i stedet for å følge regler skrevet for hånd"
+
+- key: rule-based-system
+  term:
+    en: "rule-based system"
+    nb: "regelbasert system"
+  definition:
+    en: "early AI built from hand-crafted rules — like the first computer systems for music composition and painting"
+    nb: "tidlig KI bygget av håndlagde regler — som de første datasystemene for musikkomposisjon og maleri"
+
+- key: prompt
+  term:
+    en: "prompt"
+    nb: "prompt"
+  definition:
+    en: "the instruction — usually text — you give a generative AI system to tell it what to make"
+    nb: "instruksjonen — som regel tekst — du gir et generativt KI-system for å fortelle hva det skal lage"
+
+- key: embodied-ai
+  term:
+    en: "embodied AI"
+    nb: "kroppsliggjort KI"
+  definition:
+    en: "AI with a body — systems that sense and act in the physical world, like robots or musical machines on a stage"
+    nb: "KI med kropp — systemer som sanser og handler i den fysiske verden, som roboter eller musikkmaskiner på en scene"
+
+- key: computational-creativity
+  term:
+    en: "computational creativity"
+    nb: "beregningsmessig kreativitet"
+  definition:
+    en: "the research field studying whether and how computer systems can behave in ways we would call creative"
+    nb: "forskningsfeltet som studerer om og hvordan datasystemer kan oppføre seg på måter vi ville kalt kreative"
+
+- key: ai-literacy
+  term:
+    en: "AI literacy"
+    nb: "KI-kompetanse"
+  definition:
+    en: "knowing enough about AI to use it, question it, and understand what it does — for everyone, not just programmers"
+    nb: "å kunne nok om KI til å bruke den, stille spørsmål ved den og forstå hva den gjør — for alle, ikke bare programmerere"
+
+- key: artistic-research
+  term:
+    en: "artistic research"
+    nb: "kunstnerisk forskning"
+  definition:
+    en: "research carried out *through* making and performing art, where the artistic process itself produces new knowledge"
+    nb: "forskning som skjer *gjennom* å skape og fremføre kunst, der den kunstneriske prosessen selv gir ny kunnskap"
+
+- key: consortium
+  term:
+    en: "consortium"
+    nb: "konsortium"
+  definition:
+    en: "a group of organisations teaming up on a shared goal — MishMash gathers universities, research institutes, and cultural and industry partners from all over Norway"
+    nb: "en gruppe organisasjoner som går sammen om et felles mål — MishMash samler universiteter, forskningsinstitutter og kultur- og næringslivspartnere fra hele Norge"
+
+- key: nva
+  term:
+    en: "NVA"
+    nb: "NVA"
+  definition:
+    en: "the Norwegian National Research Archive (Nasjonalt vitenarkiv), where Norwegian research is registered — mishmash.no pulls publications, people, and project data from it every night"
+    nb: "Nasjonalt vitenarkiv, der norsk forskning registreres — mishmash.no henter publikasjoner, personer og prosjektdata derfra hver natt"
+
+- key: orcid
+  term:
+    en: "ORCID"
+    nb: "ORCID"
+  definition:
+    en: "a free, unique ID for researchers that connects them to their publications across systems and employers"
+    nb: "en gratis, unik ID for forskere som knytter dem til publikasjonene sine på tvers av systemer og arbeidsgivere"
+
+- key: lca
+  term:
+    en: "LCA"
+    nb: "LCA"
+  definition:
+    en: "life-cycle assessment — a method for measuring the total environmental footprint of a product or system, from creation to disposal"
+    nb: "livsløpsanalyse — en metode for å måle det samlede miljøavtrykket til et produkt eller system, fra det lages til det kasseres"
