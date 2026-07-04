@@ -116,6 +116,13 @@
         </dd>
       </div>
 
+      <div class="page-about-item" data-page-stats hidden
+           data-min-label="{{ t.page_about_reading_min }}"
+           data-words-label="{{ t.page_about_reading_words }}">
+        <dt>{{ t.page_about_reading }}</dt>
+        <dd><span data-page-stats-value></span></dd>
+      </div>
+
       {% if github_source_url %}
       <div class="page-about-item">
         <dt>{{ t.page_about_source_code }}</dt>
