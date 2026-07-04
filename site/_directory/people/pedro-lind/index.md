@@ -57,6 +57,16 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1177/08944393261417730
+- title: Dynamic Graphs Analysis of EEG
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-981-95-9575-4_2
+- title: Frequency Bands EEG Biomarkers for Dementia Using Graph Neural Networks
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-981-95-9575-4_25
 - title: Reusable Test Suites for Reinforcement Learning
   year: '2026'
   source: Book chapter
@@ -83,16 +93,6 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1016/j.softx.2025.102334
-- title: Frequency bands EEG Biomarkers for Dementia using Graph Neural Networks
-  year: '2025'
-  source: Preprint
-  group_type: Preprint
-  url: https://doi.org/10.1101/2025.08.18.670945
-- title: Dynamic Graphs Analysis of EEG
-  year: '2025'
-  source: Preprint
-  group_type: Preprint
-  url: https://doi.org/10.1101/2025.07.30.667711
 source_mentions: []
 summary: 'Pedro Goncalves Lind works in artificial intelligence and data analysis
   applied to several of the nowadays'' challenges in society, environment, economy

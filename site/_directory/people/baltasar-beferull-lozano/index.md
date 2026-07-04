@@ -286,6 +286,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Preben Castberg
     role: Creator
   - name: Abdelaziz Qassi

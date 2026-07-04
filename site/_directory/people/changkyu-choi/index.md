@@ -43,13 +43,13 @@ aliases: []
 tags:
 - Multimodality
 - Computer Vision
-- Artificial Intelligence
+- Artificial intelligence
 - Class imbalance problem for Machine Learning
 - Unsupervised Machine Learning algorithms
 search_keywords:
 - Multimodality
 - Computer Vision
-- Artificial Intelligence
+- Artificial intelligence
 - Class imbalance problem for Machine Learning
 - Unsupervised Machine Learning algorithms
 selected_works:
@@ -76,6 +76,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Yunseok Choi
     role: Creator
 - title: 'Selective Disclosure: Controlling Information Leakage in DocVQA Explanations'
@@ -90,6 +92,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Catuscia Palamidessi
     role: Creator
 - title: Mitigating Embedding Leakage via Latent Disruption with Controlled Reconstruction
@@ -102,6 +106,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Shujian Yu
     role: Creator
   - name: Robert Jenssen
@@ -220,6 +226,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Preben Castberg
     role: Creator
   - name: Abdelaziz Qassi
@@ -302,6 +310,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Adín Ramírez Rivera
     role: Creator
 - title: Leveraging Foundation Model Adapters to Enable Robust and Semantic Underwater
@@ -313,6 +323,8 @@ selected_works:
   contributors:
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Arangan Subramaniam
     role: Creator
   - name: Nils Olav Handegard
@@ -333,6 +345,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Ali Ramezani-Kebrya
     role: Creator
     slug: ali-ramezani-kebrya
@@ -346,6 +360,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Nils Olav Handegard
     role: Creator
   - name: Robert Jenssen
@@ -364,6 +380,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Andrey Barsky
     role: Creator
   - name: Kangsoo Jung
@@ -382,6 +400,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Michael Christian Kampffmeyer
     role: Creator
   - name: Terje Berge

@@ -3,7 +3,7 @@ type: person
 slug: tiril-schroder
 name: Tiril Schrøder
 title: Tiril Schrøder
-position: professor
+position: Professor
 department: Art and Craft
 image: /assets/images/portraits/Tiril_Schroder_KHiO.jpg
 institution: oslo-national-academy-of-the-arts
@@ -15,7 +15,7 @@ roles:
 - Member
 urls:
   personal_website: https://wo.cristin.no/as/WebObjects/cristin.woa/wa/personVis?type=PERSON&pnr=325758&la=no&instnr=260
-  institutional_website: ''
+  institutional_website: http://www.tirilschroeder.com/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0000-2644-1275

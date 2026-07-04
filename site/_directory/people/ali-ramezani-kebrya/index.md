@@ -53,6 +53,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Shujian Yu
     role: Creator
   - name: Robert Jenssen
@@ -221,6 +223,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Preben Castberg
     role: Creator
   - name: Abdelaziz Qassi
@@ -316,6 +320,8 @@ selected_works:
   contributors:
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Arangan Subramaniam
     role: Creator
   - name: Nils Olav Handegard
@@ -336,6 +342,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Ali Ramezani-Kebrya
     role: Creator
     slug: ali-ramezani-kebrya
@@ -349,6 +357,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Nils Olav Handegard
     role: Creator
   - name: Robert Jenssen
@@ -366,6 +376,8 @@ selected_works:
     role: Creator
   - name: Changkyu Choi
     role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
   - name: Xiangcheng Cao
     role: Creator
   - name: Volkan Cevher

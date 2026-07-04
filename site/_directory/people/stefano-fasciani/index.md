@@ -32,20 +32,20 @@ aliases: []
 tags:
 - Digital electronics
 - Sound analysis /synthesis
-- Machine learning
+- Machine Learning
 - Real-time systems
 - Digital signal processing
 - Musical interaction
-- Embedded system
+- Embedded Systems
 - Music Technology
 search_keywords:
 - Digital electronics
 - Sound analysis /synthesis
-- Machine learning
+- Machine Learning
 - Real-time systems
 - Digital signal processing
 - Musical interaction
-- Embedded system
+- Embedded Systems
 - Music Technology
 selected_works:
 - title: Low-latency six-channel Bi-LSTM for near-real-time epileptic seizure detection

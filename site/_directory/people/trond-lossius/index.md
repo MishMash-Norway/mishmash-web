@@ -3,7 +3,7 @@ type: person
 slug: trond-lossius
 name: Trond Lossius
 title: Trond Lossius
-position: Professor II
+position: Professor
 department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Trond_Lossius_UiB.jpg
 institution: university-of-bergen
@@ -27,7 +27,7 @@ roles:
 - Member
 urls:
   personal_website: https://trondlossius.no
-  institutional_website: https://www.inn.no/english/find-an-employee/trond-lossius.html
+  institutional_website: http://trondlossius.no
   github: https://github.com/lossius
   linkedin: ''
   orcid: https://orcid.org/0000-0003-1162-5551
@@ -38,15 +38,31 @@ urls:
   instagram: https://www.instagram.com/trondlossius
 aliases: []
 tags:
-- artistic research
-- audio-visual
-- sound art
-- spatial audio
+- Electronic Music
+- Sound/music in new media
+- Sound/music installations
+- Experimental Music
+- Audio-visual production
+- Installation
+- Artistic research
+- Music Technology
+- Place
+- Installations
+- Listening
+- Contemporary art
 search_keywords:
-- artistic research
-- audio-visual
-- sound art
-- spatial audio
+- Electronic Music
+- Sound/music in new media
+- Sound/music installations
+- Experimental Music
+- Audio-visual production
+- Installation
+- Artistic research
+- Music Technology
+- Place
+- Installations
+- Listening
+- Contemporary art
 selected_works:
 - title: Longue Durée
   year: '2026'

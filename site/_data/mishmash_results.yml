@@ -1,4 +1,4 @@
-synced_at: '2026-07-02T08:23:29Z'
+synced_at: '2026-07-04T07:55:16Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -654,6 +654,8 @@ results:
     role: Creator
   - name: David Rych
     role: Creator
+    slug: david-rych
+    url: /people/david-rych/
   - name: David Jhave Johnston
     role: Creator
   - name: Eamon O'Kane
@@ -675,6 +677,8 @@ results:
       name: Frans Jacobi
     - display: Rych, David
       name: David Rych
+      slug: david-rych
+      url: /people/david-rych/
     - display: Johnston, David Jhave
       name: David Jhave Johnston
     - display: O'Kane, Eamon

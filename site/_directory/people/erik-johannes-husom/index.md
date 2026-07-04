@@ -37,11 +37,11 @@ urls:
 aliases: []
 tags:
 - Deep learning
-- Machine learning
+- Machine Learning
 - Artificial intelligence
 search_keywords:
 - Deep learning
-- Machine learning
+- Machine Learning
 - Artificial intelligence
 selected_works:
 - title: Overview over the first decade of LIMITS

@@ -38,12 +38,10 @@ urls:
   bluesky: https://bsky.app/profile/olegoethe.bsky.social
 aliases: []
 tags:
-- Human-Computer Interaction
 - Human computer interaction
 - User Experience
 - Human Engaged Computing
 search_keywords:
-- Human-Computer Interaction
 - Human computer interaction
 - User Experience
 - Human Engaged Computing

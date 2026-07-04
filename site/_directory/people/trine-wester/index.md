@@ -19,7 +19,7 @@ roles:
 - Member
 urls:
   personal_website: https://trinewester.com/
-  institutional_website: ''
+  institutional_website: http://trinewester.com/
   github: ''
   linkedin: ''
   orcid: ''
