@@ -231,7 +231,6 @@ selected_works:
   - name: Dana Swarbrick
     role: Creator
     slug: dana-swarbrick
-    url: /people/dana-swarbrick/
   - name: Solveig Sørbø
     role: Creator
   - name: Finn Upham
@@ -262,7 +261,6 @@ selected_works:
   - name: Dana Swarbrick
     role: Creator
     slug: dana-swarbrick
-    url: /people/dana-swarbrick/
   - name: Remy Richard Martin
     role: Creator
   - name: Simon Høffding

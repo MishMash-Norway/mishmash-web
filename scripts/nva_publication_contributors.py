@@ -152,6 +152,10 @@ def build_person_lookup(root: Path) -> dict[str, dict[str, str]]:
         except Exception:
             continue
 
+        # Unpublished entries have no page, so linking them breaks links.
+        if data.get("published") is False:
+            continue
+
         slug = (data.get("slug") or child.name).strip()
         name = (data.get("name") or "").strip()
         urls = data.get("urls") or {}

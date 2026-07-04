@@ -176,9 +176,11 @@ def main():
             entries[expected_type][slug] = {
                 "path": index_md,
                 "name": str(fm.get("name", "")).strip(),
+                "published": fm.get("published") is not False,
                 "institutions": as_slug_list(fm.get("institutions", [])),
                 "projects": as_slug_list(fm.get("projects", [])),
                 "people": as_slug_list(fm.get("people", [])),
+                "selected_works": fm.get("selected_works") or [],
             }
 
             rel = index_md.relative_to(root)
@@ -216,6 +218,18 @@ def main():
 
     for pslug, p in people.items():
         ppath = p["path"].relative_to(root)
+        for work in p["selected_works"]:
+            for contributor in (work.get("contributors") or []):
+                if not isinstance(contributor, dict) or not contributor.get("url"):
+                    continue
+                cslug = str(contributor.get("slug") or "").strip()
+                target = people.get(cslug)
+                if target is None or not target["published"]:
+                    errors.append(
+                        f"{ppath}: selected_works links contributor '{cslug}' "
+                        "whose page is missing or unpublished (drop the url; "
+                        "the nightly sync will re-add it when published)"
+                    )
         for islug in p["institutions"]:
             if islug not in institutions:
                 errors.append(f"{ppath}: unknown institution reference '{islug}'")

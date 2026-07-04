@@ -65,7 +65,6 @@ selected_works:
   - name: Mette Nyseter
     role: Organizer
     slug: mette-nyseter
-    url: /people/mette-nyseter/
 source_mentions: []
 summary: Mette Nyseter holds a degree in documentary directing from the TV School
   in Lillehammer and a degree in Social Anthropology from the University of Oslo.

@@ -99,7 +99,6 @@ selected_works:
   - name: Dana Swarbrick
     role: Creator
     slug: dana-swarbrick
-    url: /people/dana-swarbrick/
   - name: Finn Upham
     role: Creator
   - name: Carlos Eduardo Cancino-Chacón
@@ -157,7 +156,6 @@ selected_works:
   - name: Dana Swarbrick
     role: Creator
     slug: dana-swarbrick
-    url: /people/dana-swarbrick/
   - name: Solveig Sørbø
     role: Creator
   - name: Finn Upham

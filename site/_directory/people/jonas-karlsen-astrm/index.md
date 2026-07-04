@@ -69,7 +69,6 @@ selected_works:
   - name: Jonas Karlsen Åstrøm
     role: Creator
     slug: jonas-karlsen-astrm
-    url: /people/jonas-karlsen-astrm/
   - name: Amanda Jo Templeton
     role: Creator
   - name: Ayşegül Gündüz Songur
@@ -123,7 +122,6 @@ selected_works:
   - name: Jonas Karlsen Åstrøm
     role: Creator
     slug: jonas-karlsen-astrm
-    url: /people/jonas-karlsen-astrm/
 - title: Theming and Sustainability in Experiences
   year: '2026'
   source: Book chapter
@@ -133,7 +131,6 @@ selected_works:
   - name: Jonas Karlsen Åstrøm
     role: Creator
     slug: jonas-karlsen-astrm
-    url: /people/jonas-karlsen-astrm/
 - title: Merkevarestrategier i fysiske rom. Betydningen av den fysiske butikken og
     DTC-salg.
   year: '2025'
@@ -143,7 +140,6 @@ selected_works:
   - name: Jonas Karlsen Åstrøm
     role: Creator
     slug: jonas-karlsen-astrm
-    url: /people/jonas-karlsen-astrm/
   - name: Gunhild Wedum
     role: Creator
 - title: 'Kapittel 7: Fra flaggskip til forbruker: Betydningen av den fysiske butikken
@@ -156,7 +152,6 @@ selected_works:
   - name: Jonas Karlsen Åstrøm
     role: Creator
     slug: jonas-karlsen-astrm
-    url: /people/jonas-karlsen-astrm/
   - name: Gunhild Wedum
     role: Creator
 - title: 'Temaparker: Hvordan skapes egentlig Disneyland-effekten?'
@@ -168,7 +163,6 @@ selected_works:
   - name: Jonas Karlsen Åstrøm
     role: Creator
     slug: jonas-karlsen-astrm
-    url: /people/jonas-karlsen-astrm/
 - title: 'Theming in Experience-based Tourism: Visitor and Provider Perspectives'
   year: '2022'
   source: PhD thesis
@@ -177,7 +171,6 @@ selected_works:
   - name: Jonas Karlsen Åstrøm
     role: Creator
     slug: jonas-karlsen-astrm
-    url: /people/jonas-karlsen-astrm/
 - title: Why Theming? Identifying the Purposes of Theming in Tourism
   year: '2019'
   source: Journal article
@@ -187,7 +180,6 @@ selected_works:
   - name: Jonas Karlsen Åstrøm
     role: Creator
     slug: jonas-karlsen-astrm
-    url: /people/jonas-karlsen-astrm/
 - title: Exploring theming dimensions in a tourism context
   year: '2018'
   source: Journal article
@@ -197,7 +189,6 @@ selected_works:
   - name: Jonas Karlsen Åstrøm
     role: Creator
     slug: jonas-karlsen-astrm
-    url: /people/jonas-karlsen-astrm/
 - title: Theme factors that drive the tourist customer experience
   year: '2017'
   source: Journal article
@@ -207,7 +198,6 @@ selected_works:
   - name: Jonas Karlsen Åstrøm
     role: Creator
     slug: jonas-karlsen-astrm
-    url: /people/jonas-karlsen-astrm/
 source_mentions: []
 summary: ''
 published: false
