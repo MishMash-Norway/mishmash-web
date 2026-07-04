@@ -18,6 +18,9 @@ projects:
 - the-mishmash-website
 roles:
 - Work package leader
+wps:
+- WP4
+- WP7
 urls:
   personal_website: ''
   institutional_website: ''
