@@ -38,6 +38,11 @@
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/icons.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/artsy-theme.css' | relative_url }}">
+    {% if page.adaptive %}
+    <script>try{document.documentElement.setAttribute('data-audience',localStorage.getItem('mishmash-audience')||'{{ site.data.audiences.default }}');}catch(e){}</script>
+    <link rel="stylesheet" href="{{ '/assets/css/adaptive.css' | relative_url }}">
+    <script defer src="{{ '/assets/js/adaptive.js' | relative_url }}"></script>
+    {% endif %}
     {% if page.custom_css %}
     <link rel="stylesheet" href="{{ page.custom_css | relative_url }}">
     {% endif %}
@@ -89,6 +94,7 @@
     </header>
 
     <main id="main-content" class="main-content" role="main">
+      {% if page.adaptive %}{% include audience-switcher.html %}{% endif %}
       {{ content }}
 
       {% include page-about.html %}

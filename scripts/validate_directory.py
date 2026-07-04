@@ -145,6 +145,19 @@ def main():
                     f"{index_md.relative_to(root)} slug '{slug}' does not match folder '{child.name}'"
                 )
 
+            # Without an explicit permalink, Jekyll publishes the entry at
+            # /<section>/<slug>/index/ and links to /<section>/<slug>/ break.
+            expected_permalink = f"/{section}/{slug}/"
+            permalink = str(fm.get("permalink", "")).strip()
+            if not permalink:
+                errors.append(
+                    f"{index_md.relative_to(root)} missing permalink '{expected_permalink}'"
+                )
+            elif permalink != expected_permalink:
+                errors.append(
+                    f"{index_md.relative_to(root)} permalink '{permalink}' should be '{expected_permalink}'"
+                )
+
             if slug in entries[expected_type]:
                 other = entries[expected_type][slug]["path"]
                 errors.append(

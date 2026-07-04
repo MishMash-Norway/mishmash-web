@@ -94,6 +94,34 @@ body {
   color: #363644 !important;
 }
 
+/* Header nav dropdowns (markup in _layouts/default.html) */
+.wp-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.wp-dropdown .wp-list {
+  list-style: none;
+  margin: 0;
+  padding: 8px 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  min-width: 160px;
+}
+
+.wp-dropdown .wp-list li {
+  padding: 0;
+}
+
+.wp-dropdown .wp-list a {
+  display: block;
+  padding: 6px 12px;
+}
+
 /* Event page header styles */
 .event-header {
   border-bottom: 1px solid #e6e6e6;
