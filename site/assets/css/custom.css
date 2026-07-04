@@ -1132,8 +1132,14 @@ a:focus-visible .icon {
   border-top: 1px solid #e6e6e6;
 }
 
-.faq-item:last-child {
+.faq-item:last-child,
+.faq-item:has(+ .faq-section) {
   border-bottom: 1px solid #e6e6e6;
+}
+
+.faq-section {
+  margin: 2.5rem 0 0.75rem;
+  font-size: 1.3rem;
 }
 
 .faq-item summary {
