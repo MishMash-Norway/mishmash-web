@@ -147,31 +147,31 @@ MishMash is governed and managed by several organizational bodies, each with spe
 
 The text on this page draws on the MishMash project description (2025). Works cited:
 
-- Abadi, M. A. et al. (2023). "The Turning Point of Civilization: Sociological Perspective toward Artificial Intelligence on Modern Humanity". *Simulacra* 6(2).
-- Anscomb, C. (2024). "AI: Artistic Collaborator?" *AI & Society*.
-- Blitz, M. J. (2018). "Lies, Line Drawing, and (Deep) Fake News". *Oklahoma Law Review* 71(1).
-- Boden, M. A. (2004). *The Creative Mind: Myths and Mechanisms*. Routledge.
-- Bozkurt, A. et al. (2024). "The Manifesto for Teaching and Learning in a Time of Generative AI: A Critical Collective Stance to Better Navigate the Future". *Open Praxis* 16(4).
-- Bryan-Kinns, N. et al. (2024). "Explainable AI and Music". In: *Artificial Intelligence for Art Creation and Understanding*. CRC Press.
-- Cohen, H. (1995). "The Further Exploits of AARON, Painter". *Stanford Humanities Review* 4(2).
-- Colton, S. and G. A. Wiggins (2012). "Computational Creativity: The Final Frontier?" In: *ECAI 2012*. IOS Press.
-- Dahlstedt, P. (2021). "Musicking with Algorithms: Thoughts on Artificial Intelligence, Creativity, and Agency". In: *Handbook of Artificial Intelligence for Music*. Springer.
-- de Vries, K. (2020). "You Never Fake Alone. Creative AI in Action". *Information, Communication & Society* 23(14).
-- Duan, J. et al. (2022). "A Survey of Embodied AI: From Simulators to Research Tasks". *IEEE Transactions on Emerging Topics in Computational Intelligence* 6(2).
-- Erdem, Ç. et al. (2022). "Tool or Actor? Expert Improvisers' Evaluation of a Musical AI "Toddler"". *Computer Music Journal* 46(4).
-- Fancourt, D. and S. Finn (2019). *What Is the Evidence on the Role of the Arts in Improving Health and Well-Being? A Scoping Review*. WHO Regional Office for Europe.
-- Geiger, C. and V. Iaia (2024). "Towards an Independent EU Regulator for Copyright Issues of Generative AI". *Auteurs & Média* 2.
-- Huang, R. et al. (2023). "Beyond Diverse Datasets: Responsible MIR, Interdisciplinarity, and the Fractured Worlds of Music". *Transactions of the International Society for Music Information Retrieval* 6(1).
-- Jónsson, B. Þ., Ç. Erdem, and K. Glette (2024). "A System for Sonic Explorations With Evolutionary Algorithms". *Journal of the Audio Engineering Society* 72(4).
-- Lartillot, O. et al. (2022). "Segmentation, Transcription, Analysis and Visualisation of the Norwegian Folk Music Archive". *Proceedings of the International Conference on Digital Libraries for Musicology*.
-- Lawton, T. et al. (2023). "Drawing with Reframer: Emergence and Control in Co-Creative AI". *Proceedings of the 28th International Conference on Intelligent User Interfaces*. ACM.
-- Long, D. and B. Magerko (2020). "What Is AI Literacy? Competencies and Design Considerations". *Proceedings of the CHI Conference on Human Factors in Computing Systems*.
-- Martin, C. P. et al. (2020). "Understanding Musical Predictions With an Embodied Interface for Musical Machine Learning". *Frontiers in Artificial Intelligence* 3.
-- McCormack, J. et al. (2020). "Design Considerations for Real-Time Collaboration with Creative Artificial Intelligence". *Organised Sound* 25(1).
-- Miranda, E. R. (2021). *Handbook of Artificial Intelligence for Music: Foundations, Advanced Approaches, and Developments for Creativity*. Springer.
-- Paradise, A. et al. (2023). "RealTHASC — a Cyber-Physical XR Testbed for AI-supported Real-Time Human Autonomous Systems Collaborations". *Frontiers in Virtual Reality* 4.
-- Vallor, S. (2024). *The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking*. Oxford University Press.
-- Vinchon, F. et al. (2023). "Artificial Intelligence & Creativity: A Manifesto for Collaboration". *The Journal of Creative Behavior* 57(4).
+- Abadi, M. A. et al. (2023). "The Turning Point of Civilization: Sociological Perspective toward Artificial Intelligence on Modern Humanity". *Simulacra* 6(2). [doi:10.21107/sml.v6i2.22808](https://doi.org/10.21107/sml.v6i2.22808)
+- Anscomb, C. (2024). "AI: Artistic Collaborator?" *AI & Society*. [doi:10.1007/s00146-024-02083-y](https://doi.org/10.1007/s00146-024-02083-y)
+- Blitz, M. J. (2018). "Lies, Line Drawing, and (Deep) Fake News". *Oklahoma Law Review* 71(1). [available online](https://digitalcommons.law.ou.edu/olr/vol71/iss1/5/)
+- Boden, M. A. (2004). *The Creative Mind: Myths and Mechanisms*. Routledge. [doi:10.4324/9780203508527](https://doi.org/10.4324/9780203508527)
+- Bozkurt, A. et al. (2024). "The Manifesto for Teaching and Learning in a Time of Generative AI: A Critical Collective Stance to Better Navigate the Future". *Open Praxis* 16(4). [doi:10.55982/openpraxis.16.4.777](https://doi.org/10.55982/openpraxis.16.4.777)
+- Bryan-Kinns, N. et al. (2024). "Explainable AI and Music". In: *Artificial Intelligence for Art Creation and Understanding*. CRC Press. [doi:10.1201/9781003406273-1](https://doi.org/10.1201/9781003406273-1)
+- Cohen, H. (1995). "The Further Exploits of AARON, Painter". *Stanford Humanities Review* 4(2). [available online](https://www.aaronshome.com/aaron/publications/furtherexploits.pdf)
+- Colton, S. and G. A. Wiggins (2012). "Computational Creativity: The Final Frontier?" In: *ECAI 2012*. IOS Press. [doi:10.3233/978-1-61499-098-7-21](https://doi.org/10.3233/978-1-61499-098-7-21)
+- Dahlstedt, P. (2021). "Musicking with Algorithms: Thoughts on Artificial Intelligence, Creativity, and Agency". In: *Handbook of Artificial Intelligence for Music*. Springer. [doi:10.1007/978-3-030-72116-9_31](https://doi.org/10.1007/978-3-030-72116-9_31)
+- de Vries, K. (2020). "You Never Fake Alone. Creative AI in Action". *Information, Communication & Society* 23(14). [doi:10.1080/1369118X.2020.1754877](https://doi.org/10.1080/1369118X.2020.1754877)
+- Duan, J. et al. (2022). "A Survey of Embodied AI: From Simulators to Research Tasks". *IEEE Transactions on Emerging Topics in Computational Intelligence* 6(2). [doi:10.1109/TETCI.2022.3141105](https://doi.org/10.1109/TETCI.2022.3141105)
+- Erdem, Ç. et al. (2022). "Tool or Actor? Expert Improvisers' Evaluation of a Musical AI "Toddler"". *Computer Music Journal* 46(4). [doi:10.1162/comj_a_00657](https://doi.org/10.1162/comj_a_00657)
+- Fancourt, D. and S. Finn (2019). *What Is the Evidence on the Role of the Arts in Improving Health and Well-Being? A Scoping Review*. WHO Regional Office for Europe. [available online](https://iris.who.int/handle/10665/329834)
+- Geiger, C. and V. Iaia (2024). "Towards an Independent EU Regulator for Copyright Issues of Generative AI". *Auteurs & Média* 2. [doi:10.2139/ssrn.4914938](https://doi.org/10.2139/ssrn.4914938)
+- Huang, R. et al. (2023). "Beyond Diverse Datasets: Responsible MIR, Interdisciplinarity, and the Fractured Worlds of Music". *Transactions of the International Society for Music Information Retrieval* 6(1). [doi:10.5334/tismir.141](https://doi.org/10.5334/tismir.141)
+- Jónsson, B. Þ., Ç. Erdem, and K. Glette (2024). "A System for Sonic Explorations With Evolutionary Algorithms". *Journal of the Audio Engineering Society* 72(4). [doi:10.17743/jaes.2022.0137](https://doi.org/10.17743/jaes.2022.0137)
+- Lartillot, O. et al. (2022). "Segmentation, Transcription, Analysis and Visualisation of the Norwegian Folk Music Archive". *Proceedings of the International Conference on Digital Libraries for Musicology*. [doi:10.1145/3543882.3543883](https://doi.org/10.1145/3543882.3543883)
+- Lawton, T. et al. (2023). "Drawing with Reframer: Emergence and Control in Co-Creative AI". *Proceedings of the 28th International Conference on Intelligent User Interfaces*. ACM. [doi:10.1145/3581641.3584095](https://doi.org/10.1145/3581641.3584095)
+- Long, D. and B. Magerko (2020). "What Is AI Literacy? Competencies and Design Considerations". *Proceedings of the CHI Conference on Human Factors in Computing Systems*. [doi:10.1145/3313831.3376727](https://doi.org/10.1145/3313831.3376727)
+- Martin, C. P. et al. (2020). "Understanding Musical Predictions With an Embodied Interface for Musical Machine Learning". *Frontiers in Artificial Intelligence* 3. [doi:10.3389/frai.2020.00006](https://doi.org/10.3389/frai.2020.00006)
+- McCormack, J. et al. (2020). "Design Considerations for Real-Time Collaboration with Creative Artificial Intelligence". *Organised Sound* 25(1). [doi:10.1017/S1355771819000451](https://doi.org/10.1017/S1355771819000451)
+- Miranda, E. R. (2021). *Handbook of Artificial Intelligence for Music: Foundations, Advanced Approaches, and Developments for Creativity*. Springer. [doi:10.1007/978-3-030-72116-9](https://doi.org/10.1007/978-3-030-72116-9)
+- Paradise, A. et al. (2023). "RealTHASC — a Cyber-Physical XR Testbed for AI-supported Real-Time Human Autonomous Systems Collaborations". *Frontiers in Virtual Reality* 4. [doi:10.3389/frvir.2023.1210211](https://doi.org/10.3389/frvir.2023.1210211)
+- Vallor, S. (2024). *The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking*. Oxford University Press. [doi:10.1093/oso/9780197759066.001.0001](https://doi.org/10.1093/oso/9780197759066.001.0001)
+- Vinchon, F. et al. (2023). "Artificial Intelligence & Creativity: A Manifesto for Collaboration". *The Journal of Creative Behavior* 57(4). [doi:10.1002/jocb.597](https://doi.org/10.1002/jocb.597)
 </div>
 
 ---

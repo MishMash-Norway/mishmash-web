@@ -35,6 +35,14 @@ def load_levels(root: Path) -> list[str]:
     return [g["key"] for g in data["groups"]]
 
 
+def strip_reference_section(text: str) -> str:
+    """Drop a trailing References/Referanser section — bibliography
+    entries are not prose and skew the LIX score."""
+    return re.split(
+        r"^##\s+(?:References|Referanser)\b.*$", text, maxsplit=1, flags=re.M | re.I
+    )[0]
+
+
 def strip_markup(text: str) -> str:
     text = re.sub(r"\{%.*?%\}", " ", text, flags=re.S)  # liquid tags/includes
     text = re.sub(r"\{\{.*?\}\}", " ", text, flags=re.S)
@@ -93,7 +101,7 @@ def check_page(path: Path, body: str, levels: list[str], warnings: list[str]) ->
     for match in BLOCK_RE.finditer(body):
         for level in match.group(1).split():
             if level in per_level:
-                per_level[level] += " " + match.group(2)
+                per_level[level] += " " + strip_reference_section(match.group(2))
     return {lv: lix(strip_markup(t)) for lv, t in per_level.items()}
 
 

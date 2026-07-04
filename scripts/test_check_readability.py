@@ -38,6 +38,15 @@ class StripMarkupTests(unittest.TestCase):
         self.assertNotIn("/somewhere/", cleaned)
 
 
+class StripReferenceSectionTests(unittest.TestCase):
+    def test_drops_reference_list(self):
+        text = "Some prose here.\n\n## References\n\n- Boden (2004). doi:10.1/x\n"
+        self.assertEqual(cr.strip_reference_section(text).strip(), "Some prose here.")
+
+    def test_keeps_text_without_references(self):
+        self.assertEqual(cr.strip_reference_section("Just prose."), "Just prose.")
+
+
 class CheckPageTests(unittest.TestCase):
     LEVELS = ["simple", "standard", "advanced"]
 
