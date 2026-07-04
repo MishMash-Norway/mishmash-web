@@ -5,88 +5,34 @@
 
 Source for [mishmash.no](https://mishmash.no) — the website of **MishMash Centre for AI and Creativity**, a Norwegian research consortium funded by the Research Council of Norway.
 
-The site is a [Jekyll](https://jekyllrb.com/) static site (Cayman theme + custom CSS) published on GitHub Pages. Jekyll source lives in [`site/`](site/); tooling and config live at the repo root.
+The site is a [Jekyll](https://jekyllrb.com/) static site published on GitHub Pages. It is also a research and teaching project in itself: content is pulled from authoritative sources (NVA, ORCID, Wikipedia), pages experiment with [adaptive content and stretchtext](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy), and students build alternative frontends and backend automation. **The [wiki](https://github.com/MishMash-Norway/mishmash-web/wiki) is the main documentation** — this README only covers getting started.
 
-## About the site
-
-English is the default language. Norwegian pages mirror key sections under `/no/…` with `lang: nb` and `translation_url` links.
-
-| Area | Location | Notes |
-| --- | --- | --- |
-| People directory | `site/_directory/people/` | 117 profiles; many fields sync nightly from NVA |
-| Institutions | `site/_directory/institutions/` | 36 entries |
-| Projects | `site/_directory/projects/` | 22 entries |
-| Research results | `site/_data/mishmash_results.yml` | MishMash NVA project publications |
-| People network | `/people/network/` | Interactive graph with governance filters |
-| Work packages | `site/wp1/` … `site/wp7/` | Public pages + internal password-gated copies |
-
-- [CONTRIBUTING.md](CONTRIBUTING.md) — what to edit, generated files, PR workflow
-- [scripts/README.md](scripts/README.md) — Python automation (NVA sync, events, tags, images)
-- [config/README.md](config/README.md) — local NVA credentials and tag merge map
-- [GitHub Wiki](https://github.com/MishMash-Norway/mishmash-web/wiki) — detailed maintenance guides
-
-## Local setup
-
-### Jekyll
+## Quick start
 
 ```bash
 bundle install
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve --livereload   # → http://127.0.0.1:4000
 ```
 
-Site: `http://127.0.0.1:4000`
-
-### Alternative UI themes (student projects)
-
-Student groups can build alternative frontends as overlay themes in [`themes/`](themes/) — each theme shadows files in `site/` at build time without touching the production site. Create and test them with the switcher:
+Python automation (NVA/ORCID sync, validation, tags — optional):
 
 ```bash
-./scripts/ui new group-a       # scaffold a theme
-./scripts/ui serve group-a     # serve the site with that UI (livereload)
-./scripts/ui serve example     # try the demo theme
-./scripts/ui list              # see all themes
-```
-
-See [themes/README.md](themes/README.md) for the student guide.
-
-### Python scripts (optional)
-
-For NVA/ORCID sync, directory validation, tag merging, and event helpers:
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv venv && source venv/bin/activate
 pip install -r scripts/requirements.txt
 ```
 
-NVA credentials: see [config/README.md](config/README.md). Never commit credential files.
+## What's where
 
-## Where to edit content
+| Path | Contents |
+| --- | --- |
+| `site/` | All published content: pages, collections (`_directory`, `_news`, `_events`), layouts, CSS/JS |
+| `themes/` | Alternative student UI themes ([guide](themes/README.md)); switch with `./scripts/ui serve <name>` |
+| `scripts/` | Python/Ruby automation ([overview](scripts/README.md)) and the `ui` theme switcher |
+| `config/` | Local credentials (never committed) and tag merge map ([readme](config/README.md)) |
 
-All published content is under `site/`:
+## Contributing
 
-- **Hand-edited:** about pages, news, events, vacancies, work packages, institution entries, layouts/CSS
-- **People profiles:** `site/_directory/people/<slug>/index.md` — many fields sync nightly from [NVA](https://nva.sikt.no/) when `urls.nva` is set
-- **Machine-updated:** `site/_data/mishmash_results.yml`, person portraits, synced person fields (see CONTRIBUTING.md)
-
-Copy `site/_directory/people/_template/` to add a new person. Set `slug`, `name`, and at least `urls.nva` or `urls.orcid`.
-
-### Governance roles
-
-Person `roles` are curated manually and drive filters on `/people/network/`. Use these canonical labels:
-
-- `Member` — consortium members (not WP leaders)
-- `Work package leader` — all 21 WP leaders listed in `site/_data/work_packages.yml`
-- `Council member`, `Board member`, `Board Leader`, `Director`, `Deputy director`, `Research advisor`, `Administrative coordinator`
-- `Associate member`, `Affiliate member` — external stakeholders
-
-Run `python3 scripts/validate_directory.py` to catch deprecated role spellings (e.g. `Full member`, `Board Member`).
-
-### Cross-links
-
-List related people, institutions, and projects by **slug** only (e.g. `university-of-oslo`), not as `/people/…` paths. The reciprocity sync and validator enforce bidirectional links.
-
-## Validation before push
+Branch from `main`, open a pull request, and merge when **Web Quality Checks** pass — GitHub Pages deploys `main` automatically. Before pushing:
 
 ```bash
 bundle exec jekyll build --trace
@@ -94,33 +40,13 @@ bundle exec htmlproofer ./_site --disable-external --no-enforce-https
 python3 scripts/validate_directory.py
 ```
 
-The directory validator reports **errors** (broken links, missing fields) and **warnings** (deprecated roles, missing NVA/ORCID, WP leader role mismatches). Fix errors before merging; warnings are informational.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for what to edit (and what is machine-generated), and the wiki for guides:
 
-Optional accessibility scan (same as CI):
-
-```bash
-python3 -m http.server 4000 --directory _site &
-npx --yes wait-on@7 http://127.0.0.1:4000/
-npx --yes pa11y-ci@3 --config .pa11yci.json
-```
-
-## Automation
-
-| What | How |
-| --- | --- |
-| Deploy to mishmash.no | Push/merge to `main` → `.github/workflows/pages.yml` |
-| Quality checks on PRs | `.github/workflows/web-tests.yml` |
-| Nightly directory sync | `.github/workflows/enrich-directory-people.yml` — NVA enrich, results sync, reciprocity fix, tag merge, validation |
-| Merge similar tags | `python3 scripts/merge_tags.py` (see `config/tag_merge_map.yml`; also runs nightly in CI) |
-
-The nightly workflow may push directly to `main` when NVA data or tag normalisation changes profiles or `site/_data/mishmash_results.yml`.
-
-## Publish flow
-
-1. Branch from `main`, commit changes.
-2. Open a pull request.
-3. Wait for **Web Quality Checks** to pass.
-4. Merge to `main` — GitHub Pages deploys automatically.
+- [Web Philosophy](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) — why the site works the way it does
+- [Adaptive Content](https://github.com/MishMash-Norway/mishmash-web/wiki/Adaptive-Content) — authoring reading levels and stretchtext
+- [Student Development](https://github.com/MishMash-Norway/mishmash-web/wiki/Student-Development) — frontend themes and backend work
+- [Directory](https://github.com/MishMash-Norway/mishmash-web/wiki/Directory) — people/institutions/projects, NVA sync, roles
+- [Site Architecture](https://github.com/MishMash-Norway/mishmash-web/wiki/Site-Architecture), [Deployment](https://github.com/MishMash-Norway/mishmash-web/wiki/Deployment), [Maintaining the Page](https://github.com/MishMash-Norway/mishmash-web/wiki/Maintaining-the-Page)
 
 ## Questions
 

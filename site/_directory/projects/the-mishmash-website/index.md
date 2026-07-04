@@ -36,7 +36,15 @@ projects: []
 
 ## Summary
 
-This project develops and maintains the public MishMash website. The site is built with Jekyll and hosted on GitHub Pages, with all content versioned in a shared GitHub repository. The team is currently extending the site through pull requests and automated workflows that sync people profiles, institutions, seed-funding projects, and research results from NVA and ORCID, import directory data from surveys, and keep work package pages and metadata aligned across the directory.
+This project develops and maintains the public MishMash website — and treats the website itself as a research and teaching project. The site is built with Jekyll and hosted on GitHub Pages, with all content versioned in a shared GitHub repository, so anyone in the network can take part in developing it. The thinking behind the site is documented in the [web philosophy](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) page of the project wiki.
+
+## Strategy
+
+The site follows three ideas:
+
+- **One source of truth.** Facts about people, projects, institutions, and results are pulled from authoritative sources — [NVA](https://nva.sikt.no/), [ORCID](https://orcid.org/), and Wikipedia — through nightly automated syncs, rather than being retyped by hand. The project is working towards connecting with Wikidata, Wikimedia Commons, and other reliable open sources, both drawing from them and contributing back.
+- **One text, many readers.** The site experiments with [stretchtext and adaptive content](https://github.com/MishMash-Norway/mishmash-web/wiki/Adaptive-Content): pages that offer the same content at different levels of complexity (young readers, everyone, academics & artists, experts), with the reader choosing the level. The [about page](/about/description/) is the pilot; the reader groups are defined in the centre's communication strategy.
+- **Open, student-driven development.** Students build alternative frontends (switchable UI themes) and backend automation on top of the site — see the [student development guide](https://github.com/MishMash-Norway/mishmash-web/wiki/Student-Development).
 
 ## Work Package
 
