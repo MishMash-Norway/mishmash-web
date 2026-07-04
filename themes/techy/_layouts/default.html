@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/icons.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/techy-theme.css' | relative_url }}">
-    {% if page.adaptive %}
+    {% if page.adaptive or page.stretchtext %}
     <script>try{document.documentElement.setAttribute('data-audience',localStorage.getItem('mishmash-audience')||'{{ site.data.audiences.default }}');}catch(e){}</script>
     <link rel="stylesheet" href="{{ '/assets/css/adaptive.css' | relative_url }}">
     <script defer src="{{ '/assets/js/adaptive.js' | relative_url }}"></script>
@@ -46,6 +46,7 @@
     {% if page.custom_css %}
     <link rel="stylesheet" href="{{ page.custom_css | relative_url }}">
     {% endif %}
+    <script defer src="{{ '/assets/js/page-stats.js' | relative_url }}"></script>
     <link rel="icon" href="{{ '/assets/images/bubbles/mishmash_bubbles.ico' | relative_url }}">
     {% include head-custom.html %}
   </head>

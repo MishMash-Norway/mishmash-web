@@ -3,14 +3,15 @@ layout: default
 lang: nb
 title: Ordliste
 translation_url: /about/glossary/
+stretchtext: true
 ---
 
 ## Ordliste
 
 Sentrale begreper brukt på mishmash.no. De samme definisjonene driver
-[stretchtext](https://github.com/MishMash-Norway/mishmash-web/wiki/Adaptive-Content)-forklaringene
-i tekstene — ord med stiplet understrek som kan foldes ut — slik at denne
-listen og forklaringene i tekstene alltid stemmer overens.
+{% include stretch.html term="stretchtext" %}-forklaringene i tekstene — ord
+med stiplet understrek, som det der, som kan foldes ut — slik at denne listen
+og forklaringene i tekstene alltid stemmer overens.
 
 {% assign entries = site.data.glossary | sort: "key" %}
 <dl class="glossary">

@@ -94,6 +94,11 @@ body {
   color: #363644 !important;
 }
 
+/* Glossary (/about/glossary/) */
+.glossary dt {
+  text-transform: capitalize;
+}
+
 /* Header nav dropdowns (markup in _layouts/default.html) */
 .wp-dropdown {
   position: relative;

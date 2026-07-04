@@ -2,14 +2,15 @@
 layout: default
 title: Glossary
 translation_url: /no/about/glossary/
+stretchtext: true
 ---
 
 ## Glossary
 
 Key terms used across mishmash.no. The same definitions power the inline
-[stretchtext](https://github.com/MishMash-Norway/mishmash-web/wiki/Adaptive-Content)
-explanations — dotted-underlined terms you can click to unfold — so this list
-and the in-text explanations always match.
+{% include stretch.html term="stretchtext" %} explanations — dotted-underlined
+terms like that one, which you can click to unfold — so this list and the
+in-text explanations always match.
 
 {% assign entries = site.data.glossary | sort: "key" %}
 <dl class="glossary">
