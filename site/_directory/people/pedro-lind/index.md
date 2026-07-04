@@ -1,6 +1,7 @@
 ---
 type: person
 slug: pedro-lind
+permalink: /people/pedro-lind/
 name: Pedro Lind
 title: Pedro Lind
 position: Professor

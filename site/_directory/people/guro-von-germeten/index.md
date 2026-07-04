@@ -1,6 +1,7 @@
 ---
 type: person
 slug: guro-von-germeten
+permalink: /people/guro-von-germeten/
 name: Guro von Germeten
 title: Guro von Germeten
 position: Research fellow

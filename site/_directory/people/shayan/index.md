@@ -1,6 +1,7 @@
 ---
 type: person
 slug: shayan
+permalink: /people/shayan/
 name: Shayan
 title: Shayan
 position: Research fellow

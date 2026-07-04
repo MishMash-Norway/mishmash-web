@@ -1,6 +1,7 @@
 ---
 type: person
 slug: kalliopi-nikolou
+permalink: /people/kalliopi-nikolou/
 name: Kalliopi Nikolou
 title: Kalliopi Nikolou
 position: ''

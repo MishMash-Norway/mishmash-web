@@ -1,6 +1,7 @@
 ---
 type: person
 slug: rujeena-mathema
+permalink: /people/rujeena-mathema/
 name: Rujeena Mathema
 title: Rujeena Mathema
 position: Researcher

@@ -1,6 +1,7 @@
 ---
 type: person
 slug: dana-swarbrick
+permalink: /people/dana-swarbrick/
 name: Dana Swarbrick
 title: Dana Swarbrick
 position: Doctoral Researcher

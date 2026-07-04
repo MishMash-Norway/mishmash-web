@@ -2,6 +2,7 @@
 published: false
 type: person
 slug: bjrnar-bruket
+permalink: /people/bjrnar-bruket/
 name: Bjørnar Bruket
 title: Bjørnar Bruket
 position: ''

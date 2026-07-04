@@ -1,6 +1,7 @@
 ---
 type: person
 slug: changkyu-choi
+permalink: /people/changkyu-choi/
 name: Changkyu Choi
 title: Changkyu Choi
 position: Associate professor

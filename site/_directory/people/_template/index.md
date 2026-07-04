@@ -2,6 +2,7 @@
 published: false
 type: person
 slug: person-slug
+permalink: /people/person-slug/
 name: Full Name
 title: Full Name
 position:

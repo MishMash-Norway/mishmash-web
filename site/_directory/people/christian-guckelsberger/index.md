@@ -1,6 +1,7 @@
 ---
 type: person
 slug: christian-guckelsberger
+permalink: /people/christian-guckelsberger/
 name: Christian Guckelsberger
 title: Christian Guckelsberger
 position: Visiting Research Fellow

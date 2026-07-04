@@ -2,6 +2,7 @@
 layout: person
 type: person
 slug: ana-brotas
+permalink: /people/ana-brotas/
 name: Ana Brotas
 title: Ana Brotas
 position: Admin.sekretær/prosjektkoordinator

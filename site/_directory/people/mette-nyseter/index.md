@@ -1,6 +1,7 @@
 ---
 type: person
 slug: mette-nyseter
+permalink: /people/mette-nyseter/
 name: Mette Nyseter
 title: Mette Nyseter
 position: Assistant Professor

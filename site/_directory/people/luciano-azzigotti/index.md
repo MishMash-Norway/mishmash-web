@@ -1,6 +1,7 @@
 ---
 type: person
 slug: luciano-azzigotti
+permalink: /people/luciano-azzigotti/
 name: Luciano Azzigotti
 title: Luciano Azzigotti
 position: Lecturer

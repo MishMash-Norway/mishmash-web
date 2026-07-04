@@ -1,6 +1,7 @@
 ---
 type: person
 slug: david-rych
+permalink: /people/david-rych/
 name: David Rych
 title: David Rych
 position: Professor
