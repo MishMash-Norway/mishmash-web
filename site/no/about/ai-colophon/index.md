@@ -17,8 +17,8 @@ MishMash forsker på kreativ bruk av KI — og bruker KI, helt åpent, i arbeide
 
 ### Våre forpliktelser
 
-1. **Mennesker er ansvarlige.** KI-produsert innhold gjennomgås før det publiseres. Feil er våre, ikke maskinens.
+1. **Mennesker er ansvarlige.** KI-produsert innhold gjennomgås som regel før det publiseres. Unntaket er de nattlige byggene, som henter nye data fra NVA og ORCID. Uansett er feil våre, ikke maskinens.
 2. **Ingenting skjules.** KI-bruk erklæres her, merkes på oversatte sider og kan spores i den åpne [commit-historikken](https://github.com/MishMash-Norway/mishmash-web/commits/main).
-3. **Det er et eksperiment.** Å bygge vår egen kommunikasjonskanal med KI er en del av MishMash sin forskningspraksis — en måte å *skape, utforske og reflektere* over verktøyene vi forsker på. Det vi lærer føres tilbake til senterets forskning og undervisning.
+3. **Det er et eksperiment.** Å bygge vår egen kommunikasjonskanal med KI-basert assistanse er en del av MishMash sin forskningspraksis. Det er en måte å *skape, utforske og reflektere* over verktøyene vi forsker på. Det vi lærer føres tilbake til senterets forskning og undervisning.
 
-Mer om tankene bak nettstedet: [nettfilosofien](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) i prosjektwikien og senterets [kommunikasjonsstrategi](/no/internal/kommunikasjonsstrategi/). Spørsmål eller innspill: contact@mishmash.no.
+Mer om tankene bak nettstedet: [nettfilosofien](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) i prosjektwikien og senterets [kommunikasjonsstrategi](/no/internal/kommunikasjonsstrategi/). Spørsmål eller innspill: [contact@mishmash.no](mailto:contact@mishmash.no).
