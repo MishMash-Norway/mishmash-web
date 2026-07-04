@@ -28,14 +28,6 @@ groups:
       en: "Plain language for everyone"
       nb: "Klarspråk for alle"
 
-  - key: detailed
-    label:
-      en: "Detailed"
-      nb: "Detaljert"
-    description:
-      en: "More background and precision"
-      nb: "Mer bakgrunn og presisjon"
-
   - key: advanced
     label:
       en: "Advanced"

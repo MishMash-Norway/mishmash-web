@@ -29,7 +29,9 @@ people:
 - sashi-komandur
 - stefano-fasciani
 institutions:
+- nord-university
 - university-of-agder
+- university-of-inland-norway
 - university-of-oslo
 projects: []
 ---
@@ -43,7 +45,7 @@ This project develops and maintains the public MishMash website — and treats t
 The site follows three ideas:
 
 - **One source of truth.** Facts about people, projects, institutions, and results are pulled from authoritative sources — [NVA](https://nva.sikt.no/), [ORCID](https://orcid.org/), and Wikipedia — through nightly automated syncs, rather than being retyped by hand. The project is working towards connecting with Wikidata, Wikimedia Commons, and other reliable open sources, both drawing from them and contributing back.
-- **One text, many readers.** The site experiments with [stretchtext and adaptive content](https://github.com/MishMash-Norway/mishmash-web/wiki/Adaptive-Content): pages that offer the same content at four complexity levels (simple, standard, detailed, advanced), with the reader choosing the level. The [about page](/about/description/) is the pilot; how the levels map to typical readers is defined in the centre's communication strategy.
+- **One text, many readers.** The site experiments with [stretchtext and adaptive content](https://github.com/MishMash-Norway/mishmash-web/wiki/Adaptive-Content): pages that offer the same content at three complexity levels (simple, standard, advanced), with the reader choosing the level. The [about page](/about/description/) is the pilot; how the levels map to typical readers is defined in the centre's communication strategy.
 - **Open, student-driven development.** Students build alternative frontends (switchable UI themes) and backend automation on top of the site — see the [student development guide](https://github.com/MishMash-Norway/mishmash-web/wiki/Student-Development).
 
 ## Work Package
@@ -61,5 +63,7 @@ Cross-work-package initiative (WP1–WP7)
 
 ## Institutions
 
+- [Nord University](/institutions/nord-university/)
 - [University of Agder](/institutions/university-of-agder/)
+- [University of Inland Norway](/institutions/university-of-inland-norway/)
 - [University of Oslo](/institutions/university-of-oslo/)
