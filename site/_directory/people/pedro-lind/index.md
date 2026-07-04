@@ -1,7 +1,6 @@
 ---
 type: person
 slug: pedro-lind
-permalink: /people/pedro-lind/
 name: Pedro Lind
 title: Pedro Lind
 position: Professor
@@ -12,7 +11,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://www.cs.oslomet.no/~pedrolin
+  personal_website: http://www.cs.oslomet.no/~pedrolin
   institutional_website: https://www.kristiania.no/en/about-kristiania/employees/fakultet-for-helse-og-teknologi/department-of-technology/pedro-lind/
   github: ''
   linkedin: ''
@@ -128,6 +127,7 @@ summary: 'Pedro Goncalves Lind works in artificial intelligence and data analysi
   about his activities, including scientific projects coordination, awards, supervision
   and teaching, invited talks and other communications and seminars, can be found
   in his homepage: https://www.cs.oslomet.no/~pedrolin/.'
+permalink: /people/pedro-lind/
 published: false
 wps: []
 ---

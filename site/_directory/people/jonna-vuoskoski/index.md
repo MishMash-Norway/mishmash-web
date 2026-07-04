@@ -29,7 +29,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
+  institutional_website: http://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-0049-4373
@@ -230,6 +230,8 @@ selected_works:
     role: Creator
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Solveig Sørbø
     role: Creator
   - name: Finn Upham
@@ -259,6 +261,8 @@ selected_works:
   contributors:
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Remy Richard Martin
     role: Creator
   - name: Simon Høffding

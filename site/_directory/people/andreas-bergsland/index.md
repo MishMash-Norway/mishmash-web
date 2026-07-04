@@ -21,7 +21,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://andbe.folk.ntnu.no/
-  institutional_website: https://folk.ntnu.no/andbe/
+  institutional_website: http://folk.ntnu.no/andbe/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0001-8517-447X

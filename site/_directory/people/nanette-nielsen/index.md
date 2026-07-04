@@ -125,6 +125,8 @@ selected_works:
     role: Creator
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Solveig Sørbø
     role: Creator
   - name: Finn Upham
@@ -166,6 +168,8 @@ selected_works:
   contributors:
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Remy Richard Martin
     role: Creator
   - name: Simon Høffding
@@ -231,13 +235,13 @@ selected_works:
   - name: Ariana Phillips-Hutton
     role: Editor
 source_mentions: []
+summary: ''
 wps:
 - WP3
 - WP4
 permalink: /people/nanette-nielsen/
 redirect_from:
 - /directory/people/nanette-nielsen/
-summary: ''
 ---
 
 Bio coming soon.

@@ -144,6 +144,8 @@ selected_works:
     url: /people/jim-torresen/
   - name: Charles Martin
     role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
   - name: Rebecca Fiebrink
     role: Creator
 - title: Transformer and LSTM Models for Automatic Counterpoint Generation using Raw
@@ -216,6 +218,8 @@ selected_works:
     url: /people/benedikte-wallace/
   - name: Charles Patrick Martin
     role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
   - name: Jim Tørresen
     role: Creator
     slug: jim-torresen

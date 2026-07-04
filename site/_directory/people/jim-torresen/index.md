@@ -1,8 +1,6 @@
 ---
 type: person
 slug: jim-torresen
-redirect_from:
-- /directory/people/jim-torresen/
 name: Jim Tørresen
 title: Jim Tørresen
 position: Professor
@@ -36,7 +34,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.jimtoer.no
-  institutional_website: https://www.jimtoer.no
+  institutional_website: http://www.jimtoer.no
   github: ''
   linkedin: https://no.linkedin.com/in/jim-tørresen-50919b10
   orcid: https://orcid.org/0000-0003-0556-0288
@@ -234,6 +232,8 @@ selected_works:
     url: /people/kai-olav-ellefsen/
 source_mentions: []
 summary: ''
+redirect_from:
+- /directory/people/jim-torresen/
 wps:
 - WP1
 - WP3

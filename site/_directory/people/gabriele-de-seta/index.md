@@ -21,7 +21,7 @@ roles:
 - Member
 urls:
   personal_website: https://paranom.asia/
-  institutional_website: https://paranom.asia
+  institutional_website: http://paranom.asia
   github: https://github.com/notsaved/
   linkedin: https://www.linkedin.com/in/gabrieledeseta/
   orcid: https://orcid.org/0000-0003-0497-2811

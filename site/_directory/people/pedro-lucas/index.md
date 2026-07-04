@@ -122,6 +122,8 @@ selected_works:
     role: Creator
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Solveig Sørbø
     role: Creator
   - name: Finn Upham
@@ -250,12 +252,12 @@ selected_works:
     slug: pedro-lucas
     url: /people/pedro-lucas/
 source_mentions: []
+summary: ''
 wps:
 - WP1
 permalink: /people/pedro-lucas/
 redirect_from:
 - /directory/people/pedro-lucas/
-summary: ''
 ---
 
 Bio coming soon.

@@ -1,7 +1,6 @@
 ---
 type: person
 slug: changkyu-choi
-permalink: /people/changkyu-choi/
 name: Changkyu Choi
 title: Changkyu Choi
 position: Associate professor
@@ -413,6 +412,7 @@ selected_works:
     role: Creator
 source_mentions: []
 summary: ''
+permalink: /people/changkyu-choi/
 published: true
 wps: []
 ---

@@ -66,6 +66,8 @@ selected_works:
     role: Creator
   - name: Charles Patrick Martin
     role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
   - name: Agata Zelechowska
     role: Creator
   - name: Kari Anne Vadstensvik Bjerkestrand

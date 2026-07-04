@@ -32,7 +32,7 @@ roles:
 - Member
 urls:
   personal_website: https://jensknigge.info/
-  institutional_website: https://jensknigge.info
+  institutional_website: http://jensknigge.info
   github: ''
   linkedin: https://www.linkedin.com/in/jens-knigge-558490117/
   orcid: https://orcid.org/0000-0002-3910-7716

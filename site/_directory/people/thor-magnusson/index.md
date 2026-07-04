@@ -13,7 +13,7 @@ projects:
 roles:
 - Member
 urls:
-  personal_website: https://thormagnusson.github.io
+  personal_website: http://thormagnusson.github.io
   institutional_website: ''
   github: ''
   linkedin: ''

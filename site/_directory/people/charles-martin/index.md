@@ -5,7 +5,7 @@ name: Charles Martin
 title: Charles Martin
 position: Guest
 department: Department for Informatics
-institution: australian-national-university
+institution: university-of-oslo
 institutions:
 - australian-national-university
 - university-of-oslo
@@ -26,84 +26,221 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q130841172
 aliases: []
 tags:
-- computer music
-- HCI
-- NIME
-- Improvisation
-- percussion
-- performance
-- touch-screen
+- Music Technology
 search_keywords:
-- computer music
-- HCI
-- NIME
-- Improvisation
-- percussion
-- performance
-- touch-screen
+- Music Technology
 selected_works:
-- title: 20250115 Studio Trio Improvisation Take 3
-  year: '2026'
-  source: Other
-  group_type: Other
-- title: 'Music(re)ality: A Collaborative Improvisation between Virtual and Real World'
-  year: '2026'
-  source: Other
-  group_type: Other
-- title: Zip file with material from the 2025 International Conference on New Interfaces
-    for Musical Expression
-  year: '2025'
-  source: Other
-  group_type: Other
-- title: 'SMCClab live #1'
-  year: '2025'
-  source: Image
-  group_type: Image
-  url: https://researchportalplus.anu.edu.au/en/publications/75406a78-afaa-4814-b965-b009d6b75b99
-- title: International Conference on New Interfaces for Musical Expression NIME2025
-    Sessions
-  year: '2025'
-  source: Other
-  group_type: Other
-- title: 'Seeing the Sound: Supporting Musical Collaboration with Augmented Reality'
-  year: '2025'
-  source: Conference paper
-  group_type: Conference
-  url: https://doi.org/10.1145/3698061.3726905
-- title: A Musical Tension and Release Framework for Sonic Interaction Designers
-  year: '2025'
-  source: Conference paper
-  group_type: Conference
-  url: https://doi.org/10.1145/3706599.3720089
-- title: 'AI See, You See: Human-AI Musical Collaboration in Augmented Reality'
-  year: '2025'
-  source: Conference paper
-  group_type: Conference
-  url: https://doi.org/10.1145/3706599.3720052
-- title: 'GenAICHI 2025: Generative AI and HCI at CHI 2025'
-  year: '2025'
-  source: Conference paper
-  group_type: Conference
-  url: https://doi.org/10.1145/3706599.3707213
-- title: Scenario-Based Design to Envision How GenAI Can Support Sound Design Practices
-  year: '2024'
-  source: Conference paper
-  group_type: Conference
-  url: https://doi.org/10.1145/3726986.3727042
+- title: Embodying an Interactive AI for Dance Through Movement Ideation
+  year: '2023'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://dl.acm.org/doi/pdf/10.1145/3591196.3593336
+  contributors:
+  - name: Benedikte Wallace
+    role: Creator
+    slug: benedikte-wallace
+    url: /people/benedikte-wallace/
+  - name: C. Hilton
+    role: Creator
+  - name: Kristian Nymoen
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Charles Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Rebecca Fiebrink
+    role: Creator
+- title: Real-world embodied AI through a morphologically adaptive quadruped robot
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://www.nature.com/articles/s42256-021-00320-3
+  contributors:
+  - name: Tønnes Nygaard
+    role: Creator
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: David Howard
+    role: Creator
+- title: Exploring the Effect of Sampling Strategy on Movement Generation with Generative
+    Neural Networks
+  year: '2021'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-030-72914-1_23
+  contributors:
+  - name: Benedikte Wallace
+    role: Creator
+    slug: benedikte-wallace
+    url: /people/benedikte-wallace/
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Kristian Nymoen
+    role: Creator
+- title: 'Learning Embodied Sound-Motion Mappings: Evaluating AI-Generated Dance Improvisation'
+  year: '2021'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://dl.acm.org/doi/pdf/10.1145/3450741.3465245
+  contributors:
+  - name: Benedikte Wallace
+    role: Creator
+    slug: benedikte-wallace
+    url: /people/benedikte-wallace/
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Kristian Nymoen
+    role: Creator
+- title: Environmental Adaptation of Robot Morphology and Control Through Real-world
+    Evolution
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1162/evco_a_00291
+  contributors:
+  - name: Tønnes Nygaard
+    role: Creator
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: David Howard
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+- title: 'Towards Playing in the ''Air'': Modeling Motion-Sound Energy Relationships
+    in Electric Guitar Performance Using Deep Neural Networks'
+  year: '2020'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://smc2020torino.it/adminupload/file/SMC2020Proceedings.pdf?fbclid=IwAR0X9iNjBq_D_xs2xqmm8KA-9fBn-XQg9dh0md7CMxqrBiYxbOeI4m3hiz4#page=193
+  contributors:
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Qichao Lan
+    role: Creator
+  - name: Julian Fuhrer
+    role: Creator
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: Data-Driven Analysis of Tiny Touchscreen Performance with MicroJam
+  year: '2020'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1162/comj_a_00536
+  contributors:
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+- title: Understanding Musical Predictions With an Embodied Interface for Musical
+    Machine Learning
+  year: '2020'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5281/zenodo.3451729
+  contributors:
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: Tønnes Nygaard
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+- title: Generating Convincing Harmony Parts with Simple Long Short-Term Memory Networks
+  year: '2019'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://www.nime.org/proceedings/2019/nime2019_paper062.pdf
+  contributors:
+  - name: Andrei Faitas
+    role: Creator
+  - name: Synne Engdahl Baumann
+    role: Creator
+  - name: Torgrim Rudland Næss
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
+- title: A Physical Intelligent Instrument using Recurrent Neural Networks
+  year: '2019'
+  source: Book chapter
+  group_type: Book chapter
+  url: http://www.nime.org/proceedings/2019/nime2019_paper016.pdf
+  contributors:
+  - name: Torgrim Rudland Næss
+    role: Creator
+  - name: Charles Patrick Martin
+    role: Creator
+    slug: charles-martin
+    url: /people/charles-martin/
 source_mentions:
 - about/organisation/council/index.md
-summary: 'Charles Martin is a computer scientist specialising in music technology,
-  musical AI and human-computer interaction at The Australian National University,
-  Canberra.
-
-
-  Charles develops musical apps such as MicroJam, PhaseRings, and IMPSY, researches
-  creative AI, and performs music with Ensemble Metatone and Andromeda is Coming.
-
-
-  At the ANU, Charles lead research into sound, music, and creative computing. His
-  lab works at the cutting edge of computing and creative practice to invent new ways
-  for humans to work with computers and AI and bring them to a broad audience.'
+summary: Charles Martin is a specialist in percussion, computer music, and interactive
+  media from Canberra, Australia. He links percussion with electroacoustic music and
+  other media through new technologies. In 2016, Charles joined the Engineering Prediction
+  and Embodied Cognition (EPEC) project at the University of Oslo, where he is developing
+  new ways to predict musical intentions and performances in smartphone apps.
 description: Guest, Department for Informatics, University of Oslo
 layout: person
 permalink: /people/charles-martin/

@@ -1,7 +1,6 @@
 ---
 type: person
 slug: christian-guckelsberger
-permalink: /people/christian-guckelsberger/
 name: Christian Guckelsberger
 title: Christian Guckelsberger
 position: Visiting Research Fellow
@@ -12,7 +11,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://ccg.doc.gold.ac.uk/christianguckelsberger
+  personal_website: http://ccg.doc.gold.ac.uk/christianguckelsberger
   institutional_website: https://www.aalto.fi/en/department-of-computer-science/autotelic-interaction-research
   github: ''
   linkedin: https://www.linkedin.com/in/christianguckelsberger/
@@ -93,6 +92,7 @@ selected_works:
   group_type: Conference
 source_mentions: []
 summary: ''
+permalink: /people/christian-guckelsberger/
 published: false
 wps: []
 ---
