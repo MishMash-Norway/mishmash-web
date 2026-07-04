@@ -9,27 +9,27 @@ adaptive: true
 
 ## Why?
 
-<div class="adaptive" data-for="young" markdown="1">
+<div class="adaptive" data-for="simple" markdown="1">
 Machines can now make pictures, music, and stories. But are they really *creative*? Or are they just copying us?
 
 MishMash is a big Norwegian research centre where scientists and artists team up to find out. We build new {% include stretch.html text="AI" more="AI is short for *artificial intelligence* — computer programs that learn from lots of examples, a bit like how you learn from practice" %} systems that people can make things *with*, we try them out in music, art, school, and games, and we ask the hard questions: Who owns a song made by a machine? Is it fair? Is it fun?
 </div>
 
-<div class="adaptive" data-for="general" markdown="1">
+<div class="adaptive" data-for="standard" markdown="1">
 Computers can now produce images, music, and text that look and sound as if people made them. Systems like these are often called {% include stretch.html text="Creative AI" more="machine systems that can produce results that are both *novel* and *meaningful* — not just random, and not just copies" %}, and they are changing how we create and experience culture.
 
 MishMash brings together researchers and artists from all over Norway to understand these systems: what they can and cannot do, how people can create *together with* machines rather than being replaced by them, and what this means for jobs, schools, health, and culture. We believe artists and creative researchers are especially well placed to explore AI critically and responsibly.
 </div>
 
-<div class="adaptive" data-for="academic" markdown="1">
+<div class="adaptive" data-for="detailed" markdown="1">
 Human creativity has both shaped and been shaped by technological developments. Today, human creativity faces unprecedented challenges and opportunities brought by **Creative AI**, machine systems that can produce results that are both novel and meaningful. This raises several important questions: to what extent are Creative AI systems genuinely creative, how do they differ from human creativity, and how can humans and machines be co-creative?
 
 We view **artistic exploration** as an excellent entry point for engaging in critical discussions about AI and its implications for human-machine interaction and society. Artistic research has been integral to computer-based AI development since the early days of computer science, from early *rule-based systems* for music composition and painting to today's *learning-based systems*.
 
-MishMash aims to expand current knowledge and pioneer new **CoCreative AI** systems that allow partnerships between humans and machines, developed responsibly by researchers and practitioners from creative disciplines. The centre's work is organised around seven knowledge challenges spanning artistic performance, creative processes, health, education, industry, cultural heritage, and problem-solving — described in full in the expert view of this page.
+MishMash aims to expand current knowledge and pioneer new **CoCreative AI** systems that allow partnerships between humans and machines, developed responsibly by researchers and practitioners from creative disciplines. The centre's work is organised around seven knowledge challenges spanning artistic performance, creative processes, health, education, industry, cultural heritage, and problem-solving — described in full in the advanced view of this page.
 </div>
 
-<div class="adaptive" data-for="expert" markdown="1">
+<div class="adaptive" data-for="advanced" markdown="1">
 Human creativity has both shaped and been shaped by technological developments. Today, human creativity faces unprecedented challenges and opportunities brought by **Creative AI**, machine systems that can produce results that are both novel and meaningful. This raises several important questions: to what extent are Creative AI systems genuinely creative, how do they differ from human creativity, and how can humans and machines be co-creative? Furthermore, what are the societal implications of Creative AI, how will producers' and consumers' attitudes towards AI-generated creative content develop, and how can creative approaches to AI have an impact beyond the cultural and creative sectors?
 
 We view **artistic exploration** as an excellent entry point for engaging in critical discussions about AI and its implications for human-machine interaction and society. Artistic research has been integral to computer-based AI development since the early days of computer science, exemplified by early *rule-based systems* for music composition and painting. Today, *learning-based systems* can produce all sorts of artistic products, and several have become popular commercial products, such as Dall-E (images), ChatGPT (text), and Suno.ai (music).
@@ -49,7 +49,7 @@ There are many possibilities with Creative and CoCreative AI systems, but also n
 
 ## How?
 
-<div class="adaptive" data-for="young" markdown="1">
+<div class="adaptive" data-for="simple" markdown="1">
 More than 200 researchers and artists from all over Norway work together in MishMash. They meet online every week and do three things:
 
 - **CREATE:** build new AI tools and artworks
@@ -59,7 +59,7 @@ More than 200 researchers and artists from all over Norway work together in Mish
 The work is split into seven teams, called {% include stretch.html text="work packages" more="a *work package* is research-speak for a team of people working on one part of a big project" %}, each looking at AI from a different angle.
 </div>
 
-<div class="adaptive" data-for="general" markdown="1">
+<div class="adaptive" data-for="standard" markdown="1">
 MishMash gathers more than 200 researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. The centre is a lively, mostly virtual research environment with weekly online meetings, public workshops, and regular symposia with lectures, performances, and exhibitions.
 
 The work follows three interconnected approaches:
@@ -69,7 +69,7 @@ The work follows three interconnected approaches:
 - **REFLECT:** critically studying the impact of AI on people, culture, and society
 </div>
 
-<div class="adaptive" data-for="academic expert" markdown="1">
+<div class="adaptive" data-for="detailed advanced" markdown="1">
 MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives*.
 
 ![MishMash cube](/assets/images/cube/mishmash_cube.svg){: style="display:block;margin:0 auto;" width="500" }
@@ -85,7 +85,7 @@ The centre will be a lively, virtual research environment, with weekly online me
 
 ## What?
 
-<div class="adaptive" data-for="young" markdown="1">
+<div class="adaptive" data-for="simple" markdown="1">
 The seven teams:
 
 - [WP1](/wp1) — concerts and art shows where humans and machines perform *together*
@@ -97,7 +97,7 @@ The seven teams:
 - [WP7](/wp7) — AI that helps people solve tricky problems, from design to emergencies
 </div>
 
-<div class="adaptive" data-for="general" markdown="1">
+<div class="adaptive" data-for="standard" markdown="1">
 The centre's research is organised in seven work packages:
 
 - [WP1: AI for artistic performances](/wp1) — live music and art where humans and machines improvise together
@@ -109,7 +109,7 @@ The centre's research is organised in seven work packages:
 - [WP7: Human-centric AI for Creative Problem-Solving](/wp7) — AI that supports people solving practical problems
 </div>
 
-<div class="adaptive" data-for="academic expert" markdown="1">
+<div class="adaptive" data-for="detailed advanced" markdown="1">
 - [WP1: AI for artistic performances](/wp1) — Focus on real-time, multi-agent and embodied AI for live music, art and interactive installations, enabling synchronous, improvisational human–machine collaboration with controllable, personalised expressive outputs, explainability, embodied sensing, and ethically inclusive designs for spontaneous co-creation.
 
 - [WP2: AI in artistic processes](/wp2) — Study how generative and prompt-based AI integrate into production workflows across visual arts, film, VR/XR, music and games, defend artist autonomy and cultural diversity against homogenisation and bias, and develop artist-centred tools and practices that address ethical and legal concerns.
@@ -127,11 +127,11 @@ The centre's research is organised in seven work packages:
 
 ## When?
 
-<div class="adaptive" data-for="young general" markdown="1">
+<div class="adaptive" data-for="simple standard" markdown="1">
 The centre started in December 2025 and will run for many years. During 2026, new researchers are being hired across Norway, and the centre gets up to full speed from the autumn of 2026.
 </div>
 
-<div class="adaptive" data-for="academic expert" markdown="1">
+<div class="adaptive" data-for="detailed advanced" markdown="1">
 The plan is to formally start the centre in December 2025, recruit doctoral and postdoctoral fellows during the spring of 2026 and get up to full speed from the autumn of 2026.
 
 ![MishMash Gantt chart](https://www.arj.no/images/2025/06/MishMash-gantt.png)

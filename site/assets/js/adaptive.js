@@ -32,11 +32,20 @@
   }
 
   function init() {
-    document
-      .querySelectorAll('.audience-switcher')
-      .forEach(function (bar) {
-        bar.hidden = false;
-      });
+    var bars = document.querySelectorAll('.audience-switcher');
+    bars.forEach(function (bar) {
+      bar.hidden = false;
+    });
+
+    // A stored level that no longer exists (e.g. after a rename in
+    // _data/audiences.yml) would match no CSS rule — reset to default.
+    var valid = Array.prototype.map.call(
+      document.querySelectorAll('.audience-switcher button[data-audience-choice]'),
+      function (btn) { return btn.getAttribute('data-audience-choice'); }
+    );
+    if (bars.length && valid.indexOf(root.getAttribute('data-audience')) === -1) {
+      setAudience(bars[0].getAttribute('data-default') || valid[0]);
+    }
     document
       .querySelectorAll('.audience-switcher button[data-audience-choice]')
       .forEach(function (btn) {

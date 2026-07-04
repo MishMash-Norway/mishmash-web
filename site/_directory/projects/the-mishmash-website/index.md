@@ -43,7 +43,7 @@ This project develops and maintains the public MishMash website — and treats t
 The site follows three ideas:
 
 - **One source of truth.** Facts about people, projects, institutions, and results are pulled from authoritative sources — [NVA](https://nva.sikt.no/), [ORCID](https://orcid.org/), and Wikipedia — through nightly automated syncs, rather than being retyped by hand. The project is working towards connecting with Wikidata, Wikimedia Commons, and other reliable open sources, both drawing from them and contributing back.
-- **One text, many readers.** The site experiments with [stretchtext and adaptive content](https://github.com/MishMash-Norway/mishmash-web/wiki/Adaptive-Content): pages that offer the same content at different levels of complexity (young readers, everyone, academics & artists, experts), with the reader choosing the level. The [about page](/about/description/) is the pilot; the reader groups are defined in the centre's communication strategy.
+- **One text, many readers.** The site experiments with [stretchtext and adaptive content](https://github.com/MishMash-Norway/mishmash-web/wiki/Adaptive-Content): pages that offer the same content at four complexity levels (simple, standard, detailed, advanced), with the reader choosing the level. The [about page](/about/description/) is the pilot; how the levels map to typical readers is defined in the centre's communication strategy.
 - **Open, student-driven development.** Students build alternative frontends (switchable UI themes) and backend automation on top of the site — see the [student development guide](https://github.com/MishMash-Norway/mishmash-web/wiki/Student-Development).
 
 ## Work Package

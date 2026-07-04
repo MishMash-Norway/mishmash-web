@@ -1,40 +1,45 @@
-# Reader groups for adaptive content (stretchtext / reading levels).
+# Reading levels for adaptive content (stretchtext / complexity levels).
+# The levels describe TEXT COMPLEXITY only — who typically reads at which
+# level (kids, general public, academics, experts) is described in the
+# communication strategy, not encoded here, to avoid mixing roles into
+# the ladder.
+#
 # Pages opt in with `adaptive: true` in front matter and wrap variant
 # content in <div class="adaptive" data-for="<key>" markdown="1"> blocks.
 # See the wiki page "Adaptive Content" for the authoring guide.
 #
 # `default` is shown to first-time visitors and when JavaScript is off.
-default: general
+default: standard
 
 groups:
-  - key: young
+  - key: simple
     label:
-      en: "Young"
-      nb: "Ung"
+      en: "Simple"
+      nb: "Enkel"
     description:
-      en: "Short and simple — for kids and teenagers"
-      nb: "Kort og enkelt — for barn og ungdom"
+      en: "Short and simple, no jargon"
+      nb: "Kort og enkelt, uten fagspråk"
 
-  - key: general
+  - key: standard
     label:
-      en: "Everyone"
-      nb: "Alle"
+      en: "Standard"
+      nb: "Standard"
     description:
-      en: "Plain language for the general public"
+      en: "Plain language for everyone"
       nb: "Klarspråk for alle"
 
-  - key: academic
+  - key: detailed
     label:
-      en: "Academics & artists"
-      nb: "Akademia og kunst"
+      en: "Detailed"
+      nb: "Detaljert"
     description:
-      en: "For researchers, students, and artists in any field"
-      nb: "For forskere, studenter og kunstnere"
+      en: "More background and precision"
+      nb: "Mer bakgrunn og presisjon"
 
-  - key: expert
+  - key: advanced
     label:
-      en: "Experts"
-      nb: "Eksperter"
+      en: "Advanced"
+      nb: "Avansert"
     description:
-      en: "Full detail — for readers who know the field"
-      nb: "Alle detaljer — for lesere som kjenner feltet"
+      en: "Full detail, nothing simplified away"
+      nb: "Alle detaljer, ingenting forenklet"
