@@ -1,0 +1,97 @@
+---
+# Liquid-processed stylesheet for adaptive content and stretchtext.
+# The visibility rules are generated from _data/audiences.yml so the
+# reader groups are defined in exactly one place.
+---
+
+/* ---- Audience visibility ----
+   Only one variant of each .adaptive block is shown, chosen by the
+   data-audience attribute that assets/js/adaptive.js sets on <html>.
+   A block can serve several groups: data-for="academic expert". */
+{% for g in site.data.audiences.groups %}
+html[data-audience="{{ g.key }}"] .adaptive:not([data-for~="{{ g.key }}"]) {
+  display: none;
+}
+{% endfor %}
+
+/* No JavaScript: fall back to the default group. */
+html:not([data-audience]) .adaptive:not([data-for~="{{ site.data.audiences.default }}"]) {
+  display: none;
+}
+
+/* ---- Audience switcher ---- */
+.audience-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 1.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  background: rgba(167, 161, 244, 0.08);
+  font-size: 0.85rem;
+}
+
+.audience-switcher[hidden] {
+  display: none;
+}
+
+.audience-switcher-label {
+  margin-right: 0.25rem;
+  font-weight: 700;
+}
+
+.audience-switcher button {
+  padding: 0.25rem 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 999px;
+  background: #fff;
+  color: #363644;
+  font: inherit;
+  cursor: pointer;
+}
+
+.audience-switcher button:hover {
+  border-color: #363644;
+}
+
+.audience-switcher button[aria-pressed="true"] {
+  background: #363644;
+  border-color: #363644;
+  color: #fff;
+}
+
+/* ---- Stretchtext ----
+   Inline expandable text: a dotted-underlined term that unfolds extra
+   detail in place. Authored with {% raw %}{% include stretch.html %}{% endraw %}. */
+.stretch-toggle {
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-bottom: 2px dotted #a7a1f4;
+}
+
+.stretch-toggle::after {
+  content: " +";
+  color: #7a73e0;
+  font-weight: 700;
+}
+
+.stretch-toggle[aria-expanded="true"]::after {
+  content: " −";
+}
+
+.stretch-more {
+  background: rgba(193, 247, 174, 0.35);
+  border-radius: 4px;
+  padding: 0 0.2em;
+}
+
+/* Without JavaScript the toggles are inert, so show everything. */
+html:not([data-audience]) .stretch-more[hidden] {
+  display: inline;
+}

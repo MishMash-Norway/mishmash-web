@@ -14,6 +14,7 @@ This page collects internal MishMash resources.
 - [MeshUp run-of-show](/internal/meshups/)
 - [QR code generator](/internal/qr-code/)
 - [Channel strategy](/internal/kanalstrategi/)
+- [Communication strategy](/internal/communication-strategy/)
 
 ## Work packages
 

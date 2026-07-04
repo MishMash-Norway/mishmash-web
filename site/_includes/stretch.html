@@ -1,0 +1,7 @@
+{%- comment -%}
+Inline stretchtext: a term that unfolds extra detail in place.
+Usage: {% include stretch.html text="Creative AI" more="machine systems that can produce *novel and meaningful* results" %}
+The `more` parameter supports inline markdown. Requires `adaptive: true`
+on the page (which loads adaptive.css/js via the default layout).
+{%- endcomment -%}
+<span class="stretch"><button type="button" class="stretch-toggle" aria-expanded="false">{{ include.text }}</button> <span class="stretch-more" hidden>{{ include.more | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></span>

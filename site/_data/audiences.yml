@@ -1,0 +1,40 @@
+# Reader groups for adaptive content (stretchtext / reading levels).
+# Pages opt in with `adaptive: true` in front matter and wrap variant
+# content in <div class="adaptive" data-for="<key>" markdown="1"> blocks.
+# See the wiki page "Adaptive Content" for the authoring guide.
+#
+# `default` is shown to first-time visitors and when JavaScript is off.
+default: general
+
+groups:
+  - key: young
+    label:
+      en: "Young"
+      nb: "Ung"
+    description:
+      en: "Short and simple — for kids and teenagers"
+      nb: "Kort og enkelt — for barn og ungdom"
+
+  - key: general
+    label:
+      en: "Everyone"
+      nb: "Alle"
+    description:
+      en: "Plain language for the general public"
+      nb: "Klarspråk for alle"
+
+  - key: academic
+    label:
+      en: "Academics & artists"
+      nb: "Akademia og kunst"
+    description:
+      en: "For researchers, students, and artists in any field"
+      nb: "For forskere, studenter og kunstnere"
+
+  - key: expert
+    label:
+      en: "Experts"
+      nb: "Eksperter"
+    description:
+      en: "Full detail — for readers who know the field"
+      nb: "Alle detaljer — for lesere som kjenner feltet"

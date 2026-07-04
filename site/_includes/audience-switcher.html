@@ -1,0 +1,8 @@
+{%- assign _lang = page.lang | default: 'en' -%}
+{%- if _lang == 'nb' -%}{%- assign _switcher_label = 'Les som:' -%}{%- else -%}{%- assign _switcher_label = 'Read as:' -%}{%- endif -%}
+<div class="audience-switcher" role="group" aria-label="{{ _switcher_label }}" hidden>
+  <span class="audience-switcher-label">{{ _switcher_label }}</span>
+  {%- for g in site.data.audiences.groups %}
+  <button type="button" data-audience-choice="{{ g.key }}" aria-pressed="false" title="{{ g.description[_lang] | default: g.description.en }}">{{ g.label[_lang] | default: g.label.en }}</button>
+  {%- endfor %}
+</div>
