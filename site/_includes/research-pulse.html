@@ -22,20 +22,20 @@
     <h2>{% if nb %}Resultater etter type{% else %}Results by type{% endif %}</h2>
     <p class="pulse-card-sub">{% if nb %}Alle resultater registrert i NVA{% else %}All results registered in NVA{% endif %}</p>
     <div class="pulse-chart" id="pulse-types"></div>
-    <details class="pulse-table" id="pulse-types-table"></details>
+    <details class="pulse-table" id="pulse-types-table"><summary>{% if nb %}Vis som tabell{% else %}View as table{% endif %}</summary></details>
   </div>
   <div class="pulse-card">
     <h2>{% if nb %}Resultater etter institusjon{% else %}Results by institution{% endif %}</h2>
     <p class="pulse-card-sub">{% if nb %}Et resultat kan telle for flere institusjoner{% else %}A result may count towards several institutions{% endif %}</p>
     <div class="pulse-chart" id="pulse-insts"></div>
-    <details class="pulse-table" id="pulse-insts-table"></details>
+    <details class="pulse-table" id="pulse-insts-table"><summary>{% if nb %}Vis som tabell{% else %}View as table{% endif %}</summary></details>
   </div>
   <div class="pulse-card pulse-card-wide">
     <h2>{% if nb %}Arrangementer per måned{% else %}Events per month{% endif %}</h2>
     <p class="pulse-card-sub">{% if nb %}Fra arrangementskalenderen{% else %}From the event calendar{% endif %}</p>
     <div class="pulse-legend" id="pulse-events-legend"></div>
     <div class="pulse-chart" id="pulse-events"></div>
-    <details class="pulse-table" id="pulse-events-table"></details>
+    <details class="pulse-table" id="pulse-events-table"><summary>{% if nb %}Vis som tabell{% else %}View as table{% endif %}</summary></details>
   </div>
 </div>
 

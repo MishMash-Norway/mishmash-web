@@ -312,10 +312,8 @@ function renderLegend() {
 
 function renderTable(id, headers, rows) {
   var details = document.getElementById(id);
-  details.textContent = "";
-  var summary = document.createElement("summary");
-  summary.textContent = PULSE_STR.viewTable;
-  details.appendChild(summary);
+  var old = details.querySelector("table");
+  if (old) old.remove();
   var table = document.createElement("table");
   var thead = document.createElement("thead");
   var trh = document.createElement("tr");
