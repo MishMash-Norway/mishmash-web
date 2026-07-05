@@ -1,0 +1,35 @@
+{% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
+{% if nb %}
+<p>Hvordan høres et forskningssenter ut? Dette er publikasjonsstrømmen til MishMash som lyd: hvert av de <span id="scape-count"></span> resultatene i <a href="https://nva.sikt.no/projects/2744839">NVA</a> er en tone, spilt kronologisk. Resultattypen bestemmer klangen (foredrag er myke, tidsskriftartikler klinger lenge, utstillinger og fremføringer skimrer), antall bidragsytere bygger akkorden, og institusjonen velger tonehøyden. Ny data hver natt — stykket er aldri helt det samme.</p>
+<p>Lyden starter bare når du trykker på knappen.</p>
+{% else %}
+<p>What does a research centre sound like? This is the MishMash publication stream as sound: each of the <span id="scape-count"></span> results in <a href="https://nva.sikt.no/projects/2744839">NVA</a> is a note, played chronologically. The result type sets the timbre (lectures are soft, journal articles ring long, exhibitions and performances shimmer), the number of contributors builds the chord, and the institution picks the pitch. New data arrives nightly — the piece is never quite the same.</p>
+<p>Sound starts only when you press the button.</p>
+{% endif %}
+
+<div class="scape-controls">
+  <button type="button" id="scape-play" class="btn" aria-pressed="false">{% if nb %}Spill{% else %}Play{% endif %}</button>
+  <label for="scape-volume">{% if nb %}Volum{% else %}Volume{% endif %}
+    <input type="range" id="scape-volume" min="0" max="1" step="0.05" value="0.5">
+  </label>
+</div>
+<progress id="scape-progress" value="0" max="100" class="scape-progress"></progress>
+<p id="scape-now" class="scape-now" aria-live="polite"></p>
+
+<noscript>
+{% if nb %}
+<p><em>Lydlandskapet krever JavaScript. Resultatene finnes i <a href="/no/results/">resultatlisten</a>.</em></p>
+{% else %}
+<p><em>The soundscape requires JavaScript. The results are available in the <a href="/results/">results list</a>.</em></p>
+{% endif %}
+</noscript>
+
+<script>
+const SOUNDSCAPE_RESULTS = [
+{% for r in site.data.mishmash_results.results %}
+  { t: {{ r.title | jsonify }}, y: {{ r.year | jsonify }}, g: {{ r.group_type | jsonify }}, n: {{ r.contributors | size }}, i: {{ r.institutions | map: "name" | first | jsonify }} },
+{% endfor %}
+];
+const SCAPE_STR = {% if nb %}{ play: "Spill", stop: "Stopp" }{% else %}{ play: "Play", stop: "Stop" }{% endif %};
+</script>
+<script src="{{ '/assets/js/soundscape.js' | relative_url }}"></script>

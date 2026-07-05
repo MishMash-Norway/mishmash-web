@@ -30,6 +30,20 @@
     En variasjon av bobleemblemet tegnes på nytt hver natt, med dagens
     aktivitet på nettstedet som frø. Vises og forklares i KI-kolofonen.
   external: false
+- title: Research Soundscape
+  title_nb: Forskningslydlandskap
+  url: /gallery/soundscape/
+  url_nb: /no/gallery/soundscape/
+  kind: Sound
+  kind_nb: Lyd
+  byline: mishmash.no
+  description: >-
+    The publication stream as sound — one note per research result,
+    harmony from co-authorship, timbre from result type.
+  description_nb: >-
+    Publikasjonsstrømmen som lyd — én tone per forskningsresultat,
+    harmoni fra medforfatterskap, klang fra resultattype.
+  external: false
 - title: Student UI themes
   title_nb: Studentenes UI-temaer
   url: /ui/
