@@ -2,17 +2,10 @@
 {% assign news_items = site.news | sort: 'date' | reverse %}
 {% for item in news_items limit:news_limit %}
 <div class="event-item">
-  {% assign thumb = nil %}
-  {% if item.image %}
-    {% assign thumb = item.image %}
-  {% elsif item.thumbnail %}
-    {% assign thumb = item.thumbnail %}
-  {% elsif item.images and item.images.size > 0 %}
-    {% assign thumb = item.images[0] %}
-  {% endif %}
+  {% include pick-thumb.html item=item %}
   {% if thumb %}
   <a href="{{ item.url | relative_url }}">
-    <img class="event-thumb" src="{{ thumb | relative_url }}" alt="{{ item.title }}" loading="lazy">
+    <img class="event-thumb" src="{{ thumb | relative_url }}" alt="{{ item.title }}" width="120" height="120" loading="lazy">
   </a>
   {% endif %}
   <div class="event-content">

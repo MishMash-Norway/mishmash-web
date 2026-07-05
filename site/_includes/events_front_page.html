@@ -5,19 +5,10 @@
 {% if future_events.size > 0 %}
 {% for item in future_events limit:3 %}
 <div class="event-item">
-  {% assign thumb = nil %}
-  {% if item.image %}
-    {% assign thumb = item.image %}
-  {% elsif item.thumbnail %}
-    {% assign thumb = item.thumbnail %}
-  {% elsif item.images and item.images.size > 0 %}
-    {% assign thumb = item.images[0] %}
-  {% elsif item.categories contains 'MeshUp' %}
-    {% assign thumb = '/assets/images/bubbles/mishmash_bubbles_notext.svg' %}
-  {% endif %}
+  {% include pick-thumb.html item=item meshup_fallback=true %}
   {% if thumb %}
     <a href="{{ item.url | relative_url }}">
-      <img class="event-thumb" src="{{ thumb | relative_url }}" alt="{{ item.title }}">
+      <img class="event-thumb" src="{{ thumb | relative_url }}" alt="{{ item.title }}" width="120" height="120" loading="lazy">
     </a>
   {% endif %}
   <div class="event-content">

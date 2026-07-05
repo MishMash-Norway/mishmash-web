@@ -6,6 +6,7 @@ description: "MishMash creates, explores, and reflects on AI for, through, and i
         <img src="/assets/images/bubbles/mishmash_bubbles.svg"
              alt="MishMash explores the meeting point of humans and machines with art and science"
              width="400"
+             height="305"
              onmouseover="this.lastImage = this.lastImage ?? -1; let next; do { next = Math.floor(Math.random() * 5 + 2); } while (next === this.lastImage); this.lastImage = next; this.src='/assets/images/bubbles/mishmash_bubbles' + next + '.svg';"
              onmouseout="this.src='/assets/images/bubbles/mishmash_bubbles.svg';">
     </a>

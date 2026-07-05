@@ -1,0 +1,14 @@
+{% comment %}
+  Sets `thumb` for a news/event item: image → thumbnail → first of images.
+  Pass meshup_fallback=true to fall back to the bubbles for MeshUp events.
+{% endcomment %}
+{% assign thumb = nil %}
+{% if include.item.image %}
+  {% assign thumb = include.item.image %}
+{% elsif include.item.thumbnail %}
+  {% assign thumb = include.item.thumbnail %}
+{% elsif include.item.images and include.item.images.size > 0 %}
+  {% assign thumb = include.item.images[0] %}
+{% elsif include.meshup_fallback and include.item.categories contains 'MeshUp' %}
+  {% assign thumb = '/assets/images/bubbles/mishmash_bubbles_notext.svg' %}
+{% endif %}
