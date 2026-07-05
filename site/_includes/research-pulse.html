@@ -1,0 +1,98 @@
+{% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
+<div class="pulse-intro">
+{% if nb %}
+<p>Et øyeblikksbilde av aktiviteten i MishMash, tegnet fra forskningsresultatene som synkroniseres hver natt fra <a href="https://nva.sikt.no/projects/2744839">NVA</a> og fra arrangementskalenderen på dette nettstedet. Se også <a href="/no/results/">resultatlisten</a> og <a href="/people/network/">personnettverket</a>.</p>
+{% else %}
+<p>A snapshot of MishMash activity, drawn from the research results synced nightly from <a href="https://nva.sikt.no/projects/2744839">NVA</a> and from the event calendar on this site. See also the <a href="/results/">results list</a> and the <a href="/people/network/">people network</a>.</p>
+{% endif %}
+</div>
+
+<noscript>
+{% if nb %}
+<p><em>Visualiseringene krever JavaScript. Alle resultatene finnes i <a href="/no/results/">resultatlisten</a>.</em></p>
+{% else %}
+<p><em>The visualizations require JavaScript. All results are available in the <a href="/results/">results list</a>.</em></p>
+{% endif %}
+</noscript>
+
+<div class="pulse-tiles" id="pulse-tiles"></div>
+
+<div class="pulse-grid">
+  <div class="pulse-card">
+    <h2>{% if nb %}Resultater etter type{% else %}Results by type{% endif %}</h2>
+    <p class="pulse-card-sub">{% if nb %}Alle resultater registrert i NVA{% else %}All results registered in NVA{% endif %}</p>
+    <div class="pulse-chart" id="pulse-types"></div>
+    <details class="pulse-table" id="pulse-types-table"></details>
+  </div>
+  <div class="pulse-card">
+    <h2>{% if nb %}Resultater etter institusjon{% else %}Results by institution{% endif %}</h2>
+    <p class="pulse-card-sub">{% if nb %}Et resultat kan telle for flere institusjoner{% else %}A result may count towards several institutions{% endif %}</p>
+    <div class="pulse-chart" id="pulse-insts"></div>
+    <details class="pulse-table" id="pulse-insts-table"></details>
+  </div>
+  <div class="pulse-card pulse-card-wide">
+    <h2>{% if nb %}Arrangementer per måned{% else %}Events per month{% endif %}</h2>
+    <p class="pulse-card-sub">{% if nb %}Fra arrangementskalenderen{% else %}From the event calendar{% endif %}</p>
+    <div class="pulse-legend" id="pulse-events-legend"></div>
+    <div class="pulse-chart" id="pulse-events"></div>
+    <details class="pulse-table" id="pulse-events-table"></details>
+  </div>
+</div>
+
+<p class="pulse-meta">{% if nb %}Resultatdata synkronisert fra NVA {% else %}Result data synced from NVA {% endif %}<span id="pulse-synced"></span>.</p>
+
+<script>
+const PULSE_RESULTS = [
+{% for r in site.data.mishmash_results.results %}
+  { y: {{ r.year | jsonify }}, t: {{ r.group_type | jsonify }}, inst: [{% for i in r.institutions %}{{ i.name | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}] },
+{% endfor %}
+];
+const PULSE_EVENTS = [
+{% for e in site.events %}
+  { m: {{ e.date | date: "%Y-%m" | jsonify }} },
+{% endfor %}
+];
+const PULSE_INST_SHORT = {
+{% for doc in site.directory %}{% if doc.type == "institution" and doc.short_name %}
+  {{ doc.name | jsonify }}: {{ doc.short_name | jsonify }},
+{% endif %}{% endfor %}
+};
+const PULSE_BUILD_MONTH = {{ site.time | date: "%Y-%m" | jsonify }};
+const PULSE_SYNCED = {{ site.data.mishmash_results.synced_at | jsonify }};
+const PULSE_LANG = {% if nb %}"nb"{% else %}"en"{% endif %};
+const PULSE_STR = {% if nb %}{
+  results: "resultater", result: "resultat",
+  events: "arrangementer", event: "arrangement",
+  held: "Avholdt", upcoming: "Kommende",
+  viewTable: "Vis som tabell",
+  type: "Type", institution: "Institusjon", month: "Måned", count: "Antall",
+  tileResults: "Registrerte resultater",
+  tilePubs: "Fagfellevurderte publikasjoner",
+  tileInsts: "Bidragende institusjoner",
+  tileEvents: "Arrangementer",
+  months: ["jan", "feb", "mar", "apr", "mai", "jun", "jul", "aug", "sep", "okt", "nov", "des"],
+  typeLabels: {
+    "Lecture": "Foredrag",
+    "Media": "Mediebidrag",
+    "Conference": "Konferansebidrag",
+    "Book chapter": "Bokkapittel",
+    "Journal article": "Tidsskriftartikkel",
+    "Exhibition": "Utstilling",
+    "Music performance": "Musikkfremføring",
+    "Letter to the editor": "Leserinnlegg"
+  }
+}{% else %}{
+  results: "results", result: "result",
+  events: "events", event: "event",
+  held: "Held", upcoming: "Upcoming",
+  viewTable: "View as table",
+  type: "Type", institution: "Institution", month: "Month", count: "Count",
+  tileResults: "Registered results",
+  tilePubs: "Peer-reviewed publications",
+  tileInsts: "Contributing institutions",
+  tileEvents: "Events",
+  months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+}{% endif %};
+</script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="{{ '/assets/js/pulse.js' | relative_url }}"></script>

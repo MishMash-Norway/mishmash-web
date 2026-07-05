@@ -1,0 +1,174 @@
+/* Research pulse page */
+
+.pulse-intro {
+  margin-bottom: 1rem;
+}
+
+.pulse-meta {
+  color: #767676;
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+
+/* KPI tiles */
+.pulse-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin-bottom: 1.75rem;
+}
+
+.pulse-tile {
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 14px 16px;
+  background: #ffffff;
+}
+
+.pulse-tile-label {
+  font-size: 0.8rem;
+  color: #55606a;
+  margin-bottom: 4px;
+}
+
+.pulse-tile-value {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #1c1c1c;
+}
+
+/* Chart cards */
+.pulse-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 760px) {
+  .pulse-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pulse-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 16px 16px 10px;
+  background: #ffffff;
+  margin-bottom: 16px;
+}
+
+.pulse-card-wide {
+  grid-column: 1 / -1;
+}
+
+.pulse-card h2 {
+  font-size: 1.05rem;
+  margin: 0 0 2px;
+}
+
+.pulse-card-sub {
+  font-size: 0.8rem;
+  color: #767676;
+  margin: 0 0 10px;
+}
+
+.pulse-chart {
+  position: relative;
+  width: 100%;
+}
+
+.pulse-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pulse-chart text {
+  font-family: inherit;
+}
+
+.pulse-bar-hit {
+  fill: transparent;
+  cursor: default;
+}
+
+.pulse-bar-hit:focus {
+  outline: none;
+}
+
+.pulse-bar-hit:focus + .pulse-bar,
+.pulse-bar-hit:hover + .pulse-bar {
+  filter: brightness(1.12);
+}
+
+/* Legend */
+.pulse-legend {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #55606a;
+  margin: 6px 0 2px;
+}
+
+.pulse-legend-swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  margin-right: 5px;
+  vertical-align: -1px;
+}
+
+/* Tooltip */
+.pulse-tip {
+  position: absolute;
+  pointer-events: none;
+  background: #1c1c1c;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 6px 9px;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  max-width: 240px;
+  opacity: 0;
+  transition: opacity 0.08s linear;
+  z-index: 10;
+}
+
+.pulse-tip strong {
+  font-size: 0.9rem;
+}
+
+/* Table view */
+.pulse-table {
+  margin: 8px 0 4px;
+  font-size: 0.85rem;
+}
+
+.pulse-table summary {
+  cursor: pointer;
+  color: #55606a;
+  font-size: 0.8rem;
+}
+
+.pulse-table table {
+  margin-top: 8px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pulse-table th,
+.pulse-table td {
+  text-align: left;
+  padding: 3px 10px 3px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.pulse-table td:last-child,
+.pulse-table th:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
