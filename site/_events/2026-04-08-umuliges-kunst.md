@@ -6,7 +6,7 @@ location: Domus Bibliotheca, University of Oslo
 layout: event
 categories: [Conference]
 description: "Det umuliges kunst? Om bruk av KI i kreativ praksis"
-image: /assets/images/news/opening-2026-04-08/3D9A5953_1920px.jpg
+image: /assets/images/news/opening-2026-04-08/3D9A5953_1920px.webp
 slug: "umuliges-kunst"
 ---
 
