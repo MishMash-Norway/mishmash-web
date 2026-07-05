@@ -1,6 +1,8 @@
-/* "techy" student UI theme — dark terminal aesthetic.
+/* "techy" student UI theme — dark terminal aesthetic, two-column layout.
  * Loaded after the site CSS by this theme's _layouts/default.html,
- * which also strips the nav's inline styles so it can be themed here. */
+ * which also strips the nav's inline styles so it can be themed here.
+ * Layout: a sticky terminal-style sidebar (the page header) on the left,
+ * content filling the rest of the viewport on the right. */
 
 :root {
   --bg: #0d1117;
@@ -10,6 +12,7 @@
   --accent: #39ff88;
   --accent-2: #58d5ff;
   --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --side-w: 320px;
 }
 
 body {
@@ -18,19 +21,52 @@ body {
   font-family: var(--mono);
 }
 
-/* ---- Header: terminal prompt ---- */
+/* ---- Two-column shell ---- */
+@media screen and (min-width: 64em) {
+  body {
+    display: grid;
+    grid-template-columns: var(--side-w) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .page-header {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+    border-right: 1px solid var(--accent);
+    border-bottom: none;
+  }
+
+  .main-content {
+    max-width: none !important;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 2.5rem 4rem 3rem !important;
+    overflow-x: hidden;
+  }
+}
+
+/* ---- Sidebar: terminal session ---- */
 .page-header {
   /* !important needed: site custom.css sets the header gradient with !important */
   background: var(--panel) !important;
-  border-bottom: 1px solid var(--accent);
   color: var(--text) !important;
+  text-align: left !important;
+  padding: 1.6rem 1.4rem !important;
+  border-bottom: 1px solid var(--accent);
 }
 
 .project-name,
 .project-name a {
   font-family: var(--mono) !important;
+  font-size: 1.15rem !important;
+  line-height: 1.4;
   color: var(--accent) !important;
   text-decoration: none;
+  margin: 0 0 0.2rem;
 }
 
 .project-name::before {
@@ -48,22 +84,38 @@ body {
   50% { opacity: 0; }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .project-name::after { animation: none; }
+}
+
 .project-tagline {
   font-family: var(--mono) !important;
+  font-size: 0.8rem !important;
   color: var(--accent-2) !important;
   opacity: 0.85;
+  margin: 0 0 1.4rem;
 }
 
 .project-tagline::before { content: "// "; }
 
-/* ---- Nav buttons and dropdowns ---- */
+/* ---- Nav: stacked tree in the sidebar ---- */
 .page-header .btn,
 .btn {
   font-family: var(--mono) !important;
+  font-size: 0.85rem;
   color: var(--accent) !important;
   background: transparent;
   border: 1px solid var(--border);
   border-radius: 0;
+}
+
+.page-header .btn {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 0.5rem !important;
+  padding: 0.45rem 0.7rem;
+  text-align: left;
 }
 
 .page-header .btn:hover,
@@ -73,28 +125,32 @@ body {
   color: var(--accent) !important;
 }
 
-.wp-dropdown { position: relative; display: inline-block; }
+.wp-dropdown { position: relative; display: block; }
 
+.wp-dropdown summary { cursor: pointer; }
+
+.wp-dropdown summary::before { content: "~/"; color: var(--accent-2); }
+
+/* Menus expand in place, like a directory listing */
 .wp-dropdown .wp-list {
   list-style: none;
-  margin: 0;
-  padding: 4px 0;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  min-width: 200px;
-  background: var(--panel);
-  border: 1px solid var(--accent);
-  box-shadow: 0 0 12px rgba(57, 255, 136, 0.25);
+  margin: 0.3rem 0 0.2rem;
+  padding: 0 0 0 0.5rem;
+  position: static;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  border-left: 1px solid var(--border);
+  box-shadow: none;
 }
 
 .wp-dropdown .wp-list li { padding: 0; }
 
 .wp-dropdown .wp-list a {
   display: block;
-  padding: 6px 12px;
+  padding: 4px 8px;
   color: var(--text);
+  font-size: 0.82rem;
   text-decoration: none;
 }
 
@@ -103,6 +159,11 @@ body {
 .wp-dropdown .wp-list a:hover {
   background: rgba(88, 213, 255, 0.12);
   color: var(--accent-2);
+}
+
+/* Small screens: sidebar becomes a normal stacked header */
+@media screen and (max-width: 63.99em) {
+  .page-header { padding: 1.4rem 1.2rem !important; }
 }
 
 /* ---- Main content ---- */
@@ -116,7 +177,8 @@ body {
 .main-content h3,
 .main-content h4 {
   font-family: var(--mono);
-  color: var(--accent);
+  /* !important: site custom.css forces heading/link colors with !important */
+  color: var(--accent) !important;
 }
 
 .main-content h2 { border-bottom: 1px dashed var(--border); padding-bottom: 0.2em; }
@@ -124,8 +186,8 @@ body {
 .main-content h1::before,
 .main-content h2::before { content: "# "; color: var(--accent-2); }
 
-.main-content a { color: var(--accent-2); }
-.main-content a:hover { color: var(--accent); }
+.main-content a { color: var(--accent-2) !important; }
+.main-content a:hover { color: var(--accent) !important; }
 
 .main-content code,
 .main-content pre {

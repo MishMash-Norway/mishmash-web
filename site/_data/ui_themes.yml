@@ -4,9 +4,8 @@
 - name: artsy
   title: Artsy
   description: >-
-    A warm, editorial/gallery-inspired UI: cream paper background, serif
-    display headings, terracotta/plum/ochre palette, and offset "print"
-    shadows.
+    A warm exhibition-catalogue UI: paper grain, serif display, drop caps,
+    hand-painted ochre strokes, and photos hung like tilted canvases.
 - name: example
   title: Example
   description: >-
@@ -16,5 +15,5 @@
 - name: techy
   title: Techy
   description: >-
-    A dark, terminal-inspired UI: monospace type, near-black panels, neon
-    green/cyan accents, and a $-prompt header with a blinking cursor.
+    A dark, terminal-inspired UI in a page-wide two-column layout: sticky
+    sidebar with tree-style menus, monospace type, neon green/cyan accents.
