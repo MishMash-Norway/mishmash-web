@@ -2,9 +2,9 @@
 {% assign c = site.data.ai_colophon %}
 <h3>{% if nb %}De siste endringene{% else %}The latest changes{% endif %}</h3>
 {% if nb %}
-<p>Hver endring på dette nettstedet loggføres åpent. Her er de {{ c.recent_commits | size }} nyeste, med en merknad om hvordan hver av dem ble laget (endringsmeldingene er på engelsk). Til nå er det gjort {{ c.total_commits }} endringer, {{ c.ai_assisted_commits }} av dem med KI-assistanse.</p>
+<p>Hver endring på dette nettstedet loggføres åpent. Her er de {{ c.recent_commits | size }} nyeste, med en merknad om hvordan hver av dem ble laget (endringsmeldingene er på engelsk). Til nå er det gjort {{ c.total_commits }} endringer. KI-assistanse — fra ulike verktøy og agenter — har vært med helt siden den første; {{ c.ai_marked_commits }} av endringene er dessuten uttrykkelig merket som KI-assisterte, men tidlige endringer ble ikke systematisk merket, så det tallet er en nedre grense.</p>
 {% else %}
-<p>Every change to this site is logged in the open. Here are the {{ c.recent_commits | size }} most recent, with a note on how each was made. So far {{ c.total_commits }} changes have been made, {{ c.ai_assisted_commits }} of them with AI assistance.</p>
+<p>Every change to this site is logged in the open. Here are the {{ c.recent_commits | size }} most recent, with a note on how each was made. So far {{ c.total_commits }} changes have been made. AI assistance — from a variety of tools and agents — has been part of the work since the very first one; {{ c.ai_marked_commits }} of the changes also carry an explicit AI-assistance marker, but early changes were not systematically marked, so that number is a lower bound.</p>
 {% endif %}
 <ul class="colophon-commits">
 {% for commit in c.recent_commits %}

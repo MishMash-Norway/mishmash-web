@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """Generate commit statistics for the AI colophon page.
 
-Counts commits in the repository and how many carry an AI co-author
-trailer (Co-Authored-By: Claude/Copilot/…), lists the latest commits
-(subject, date, and how each was made — no author names or emails),
-and writes the result to site/_data/ai_colophon.yml for the
-/about/ai-colophon/ pages.
+Counts commits in the repository and how many carry an explicit,
+machine-readable AI marker — a Co-Authored-By trailer from any of the
+agents used on this repo (Claude, Copilot, ChatGPT, Gemini, Cursor, …)
+or authorship by a coding-agent bot. AI assistance has been used since
+the very first commit, but early commits were not systematically
+marked, so this is a lower bound, and the colophon says so.
+
+Also lists the latest commits (subject, date, and how each was made —
+no author names or emails) and writes everything to
+site/_data/ai_colophon.yml for the /about/ai-colophon/ pages.
 """
 import datetime
 import re
@@ -15,7 +20,9 @@ import yaml
 
 from repo_paths import SITE_ROOT
 
-AI_TRAILER = r"^Co-Authored-By: (Claude|GitHub Copilot|Copilot|ChatGPT|Gemini)"
+AI_TRAILER = r"^Co-Authored-By:.*(Claude|Copilot|ChatGPT|Gemini|Cursor|Aider|Codex|Devin|anthropic\.com|cursor\.com)"
+AI_AUTHOR = r"(copilot-swe-agent|cursoragent|devin-ai|aider)"
+AUTOMATION_AUTHOR = r"^github-actions\[bot\]$"
 RECENT_COUNT = 5
 
 
@@ -37,9 +44,11 @@ def recent_commits() -> list:
         if not record.strip():
             continue
         sha, date, author, subject, body = record.split("\x1f")
-        if author.endswith("[bot]"):
+        if re.search(AUTOMATION_AUTHOR, author):
             how = "automated"
-        elif re.search(AI_TRAILER, body, flags=re.MULTILINE):
+        elif re.search(AI_AUTHOR, author, flags=re.IGNORECASE) or re.search(
+            AI_TRAILER, body, flags=re.MULTILINE | re.IGNORECASE
+        ):
             how = "ai_assisted"
         else:
             how = "human"
@@ -49,19 +58,27 @@ def recent_commits() -> list:
 
 def main() -> None:
     total = int(git("rev-list", "--count", "HEAD"))
-    ai_hashes = git(
-        "log", "--extended-regexp", f"--grep={AI_TRAILER}", "--format=%H"
-    ).splitlines()
-    first_ai = (
-        git("log", "--format=%as", ai_hashes[-1], "-1") if ai_hashes else None
+    trailer_hashes = set(
+        git(
+            "log", "--extended-regexp", "--regexp-ignore-case",
+            f"--grep={AI_TRAILER}", "--format=%H",
+        ).splitlines()
     )
+    author_hashes = set(
+        git(
+            "log", "--extended-regexp", "--regexp-ignore-case",
+            f"--author={AI_AUTHOR}", "--format=%H",
+        ).splitlines()
+    )
+    marked = trailer_hashes | author_hashes
     recent = recent_commits()
 
     out = SITE_ROOT / "_data" / "ai_colophon.yml"
     data = {
         "total_commits": total,
-        "ai_assisted_commits": len(ai_hashes),
-        "first_ai_commit": first_ai,
+        # Lower bound: commits carrying an explicit AI marker. AI
+        # assistance predates systematic marking on this repo.
+        "ai_marked_commits": len(marked),
         "updated": datetime.date.today().isoformat(),
         "recent_commits": recent,
     }
@@ -70,7 +87,7 @@ def main() -> None:
         + yaml.safe_dump(data, allow_unicode=True, sort_keys=False),
         encoding="utf-8",
     )
-    print(f"Wrote {out}: {len(ai_hashes)}/{total} commits AI-assisted, "
+    print(f"Wrote {out}: {len(marked)}/{total} commits carry an AI marker, "
           f"{len(recent)} recent commits listed")
 
 
