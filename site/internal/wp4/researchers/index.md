@@ -11,33 +11,33 @@ title: "Researchers"
   <h2>Register your profile</h2>
   <p>Fill in the form below. Your profile will appear on this page within a few minutes after submission.</p>
 
-  <p style="font-size:.9rem;color:#555;margin-top:0;">Fields marked <span style="color:#c0392b">*</span> are required. Your name, institution, position, role, and email will be visible on this page and in the public GitHub repository.</p>
+  <p style="font-size:.9rem;color:#555;margin-top:0;">Fields marked <span class="mm-required">*</span> are required. Your name, institution, position, role, and email will be visible on this page and in the public GitHub repository.</p>
 
   <form id="profile-form" style="max-width:560px;">
 
-    <div style="margin-bottom:1rem;">
-      <label for="f-name" style="display:block;font-weight:600;margin-bottom:.3rem;">Full name <span style="color:#c0392b">*</span></label>
-      <input id="f-name" type="text" required style="width:100%;padding:.5rem .7rem;border:1px solid #bbb;border-radius:6px;font-size:1rem;box-sizing:border-box;">
+    <div class="mm-field">
+      <label for="f-name" class="mm-label">Full name <span class="mm-required">*</span></label>
+      <input id="f-name" type="text" required class="mm-text-input">
     </div>
 
-    <div style="margin-bottom:1rem;">
-      <label for="f-email" style="display:block;font-weight:600;margin-bottom:.3rem;">Email <span style="color:#c0392b">*</span></label>
-      <input id="f-email" type="email" required style="width:100%;padding:.5rem .7rem;border:1px solid #bbb;border-radius:6px;font-size:1rem;box-sizing:border-box;">
+    <div class="mm-field">
+      <label for="f-email" class="mm-label">Email <span class="mm-required">*</span></label>
+      <input id="f-email" type="email" required class="mm-text-input">
       <p style="font-size:.8rem;color:#c0392b;margin:.3rem 0 0;">⚠️ Your email will be published on this page and stored in a public repository. Only submit an email address you are comfortable making public.</p>
     </div>
 
-    <div style="margin-bottom:1rem;">
-      <label for="f-institution" style="display:block;font-weight:600;margin-bottom:.3rem;">Institution / Organisation <span style="color:#c0392b">*</span></label>
-      <input id="f-institution" type="text" required style="width:100%;padding:.5rem .7rem;border:1px solid #bbb;border-radius:6px;font-size:1rem;box-sizing:border-box;">
+    <div class="mm-field">
+      <label for="f-institution" class="mm-label">Institution / Organisation <span class="mm-required">*</span></label>
+      <input id="f-institution" type="text" required class="mm-text-input">
     </div>
 
-    <div style="margin-bottom:1rem;">
-      <label for="f-position" style="display:block;font-weight:600;margin-bottom:.3rem;">Position / Title <span style="color:#c0392b">*</span></label>
-      <input id="f-position" type="text" required style="width:100%;padding:.5rem .7rem;border:1px solid #bbb;border-radius:6px;font-size:1rem;box-sizing:border-box;">
+    <div class="mm-field">
+      <label for="f-position" class="mm-label">Position / Title <span class="mm-required">*</span></label>
+      <input id="f-position" type="text" required class="mm-text-input">
     </div>
 
-    <div style="margin-bottom:1rem;">
-      <label for="f-role" style="display:block;font-weight:600;margin-bottom:.3rem;">Role in WP4 <span style="color:#c0392b">*</span></label>
+    <div class="mm-field">
+      <label for="f-role" class="mm-label">Role in WP4 <span class="mm-required">*</span></label>
       <select id="f-role" required style="width:100%;padding:.5rem .7rem;border:1px solid #bbb;border-radius:6px;font-size:1rem;box-sizing:border-box;background:#fff;">
         <option value="">— select —</option>
         <option value="leader">Leader</option>
@@ -46,19 +46,19 @@ title: "Researchers"
       </select>
     </div>
 
-    <div style="margin-bottom:1rem;">
-      <label for="f-bio" style="display:block;font-weight:600;margin-bottom:.3rem;">Short bio <span style="color:#888;font-weight:400">(optional)</span></label>
+    <div class="mm-field">
+      <label for="f-bio" class="mm-label">Short bio <span style="color:#888;font-weight:400">(optional)</span></label>
       <textarea id="f-bio" rows="4" style="width:100%;padding:.5rem .7rem;border:1px solid #bbb;border-radius:6px;font-size:1rem;box-sizing:border-box;resize:vertical;"></textarea>
     </div>
 
-    <div style="margin-bottom:1rem;">
-      <label for="f-website" style="display:block;font-weight:600;margin-bottom:.3rem;">Website / profile URL <span style="color:#888;font-weight:400">(optional)</span></label>
-      <input id="f-website" type="url" placeholder="https://" style="width:100%;padding:.5rem .7rem;border:1px solid #bbb;border-radius:6px;font-size:1rem;box-sizing:border-box;">
+    <div class="mm-field">
+      <label for="f-website" class="mm-label">Website / profile URL <span style="color:#888;font-weight:400">(optional)</span></label>
+      <input id="f-website" type="url" placeholder="https://" class="mm-text-input">
     </div>
 
     <div style="margin-bottom:1.5rem;">
-      <label for="f-keywords" style="display:block;font-weight:600;margin-bottom:.3rem;">Research keywords <span style="color:#888;font-weight:400">(optional, comma-separated)</span></label>
-      <input id="f-keywords" type="text" placeholder="e.g. AI, music education, machine learning" style="width:100%;padding:.5rem .7rem;border:1px solid #bbb;border-radius:6px;font-size:1rem;box-sizing:border-box;">
+      <label for="f-keywords" class="mm-label">Research keywords <span style="color:#888;font-weight:400">(optional, comma-separated)</span></label>
+      <input id="f-keywords" type="text" placeholder="e.g. AI, music education, machine learning" class="mm-text-input">
     </div>
 
     <div style="margin-bottom:1.5rem;padding:.8rem;background:#fff8e1;border:1px solid #f0c040;border-radius:6px;font-size:.85rem;">
@@ -100,8 +100,8 @@ title: "Researchers"
   <span style="color:#777;font-size:.85rem;">{{ person.institution }}</span>
   {% if person.bio %}<p style="font-size:.9rem;margin:.6rem 0 0;">{{ person.bio }}</p>{% endif %}
   {% if person.keywords %}<p style="font-size:.8rem;color:#888;margin:.4rem 0 0;">🏷 {{ person.keywords }}</p>{% endif %}
-  {% if person.email %}<p style="margin:.4rem 0 0;font-size:.85rem;"><a href="mailto:{{ person.email }}">✉️ {{ person.email }}</a></p>{% endif %}
-  {% if person.website %}<p style="margin:.4rem 0 0;font-size:.85rem;"><a href="{{ person.website }}" target="_blank" rel="noopener">🔗 Profile</a></p>{% endif %}
+  {% if person.email %}<p class="mm-help"><a href="mailto:{{ person.email }}">✉️ {{ person.email }}</a></p>{% endif %}
+  {% if person.website %}<p class="mm-help"><a href="{{ person.website }}" target="_blank" rel="noopener">🔗 Profile</a></p>{% endif %}
 </div>
 {% endfor %}
 </div>
@@ -118,8 +118,8 @@ title: "Researchers"
   <span style="color:#777;font-size:.85rem;">{{ person.institution }}</span>
   {% if person.bio %}<p style="font-size:.9rem;margin:.6rem 0 0;">{{ person.bio }}</p>{% endif %}
   {% if person.keywords %}<p style="font-size:.8rem;color:#888;margin:.4rem 0 0;">🏷 {{ person.keywords }}</p>{% endif %}
-  {% if person.email %}<p style="margin:.4rem 0 0;font-size:.85rem;"><a href="mailto:{{ person.email }}">✉️ {{ person.email }}</a></p>{% endif %}
-  {% if person.website %}<p style="margin:.4rem 0 0;font-size:.85rem;"><a href="{{ person.website }}" target="_blank" rel="noopener">🔗 Profile</a></p>{% endif %}
+  {% if person.email %}<p class="mm-help"><a href="mailto:{{ person.email }}">✉️ {{ person.email }}</a></p>{% endif %}
+  {% if person.website %}<p class="mm-help"><a href="{{ person.website }}" target="_blank" rel="noopener">🔗 Profile</a></p>{% endif %}
 </div>
 {% endfor %}
 </div>
@@ -136,8 +136,8 @@ title: "Researchers"
   <span style="color:#777;font-size:.85rem;">{{ person.institution }}</span>
   {% if person.bio %}<p style="font-size:.9rem;margin:.6rem 0 0;">{{ person.bio }}</p>{% endif %}
   {% if person.keywords %}<p style="font-size:.8rem;color:#888;margin:.4rem 0 0;">🏷 {{ person.keywords }}</p>{% endif %}
-  {% if person.email %}<p style="margin:.4rem 0 0;font-size:.85rem;"><a href="mailto:{{ person.email }}">✉️ {{ person.email }}</a></p>{% endif %}
-  {% if person.website %}<p style="margin:.4rem 0 0;font-size:.85rem;"><a href="{{ person.website }}" target="_blank" rel="noopener">🔗 Profile</a></p>{% endif %}
+  {% if person.email %}<p class="mm-help"><a href="mailto:{{ person.email }}">✉️ {{ person.email }}</a></p>{% endif %}
+  {% if person.website %}<p class="mm-help"><a href="{{ person.website }}" target="_blank" rel="noopener">🔗 Profile</a></p>{% endif %}
 </div>
 {% endfor %}
 </div>
