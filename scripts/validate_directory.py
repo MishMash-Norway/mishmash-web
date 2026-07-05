@@ -129,6 +129,14 @@ def main():
                 if not short_name:
                     errors.append(f"{index_md.relative_to(root)} missing or empty short_name")
 
+            if expected_type == "person":
+                tags = fm.get("tags") or []
+                if len(tags) > 6:
+                    warnings.append(
+                        f"{index_md.relative_to(root)}: {len(tags)} tags "
+                        "(guideline is 2-6, see CONTRIBUTING.md)"
+                    )
+
             actual_type = str(fm.get("type", "")).strip()
             if actual_type != expected_type:
                 errors.append(

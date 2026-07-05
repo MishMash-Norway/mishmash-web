@@ -74,6 +74,16 @@ These are **preserved** and intended for manual curation:
 
 To add a person: copy `site/_directory/people/_template/`, set `slug`, `name`, and at least `urls.nva` or `urls.orcid`. Run enrich locally or wait for the nightly workflow.
 
+### Tags
+
+Tags appear on person pages, events, and the [people network](https://mishmash.no/people/network/). The conventions (decided in [#13](https://github.com/MishMash-Norway/mishmash-web/issues/13)):
+
+- **Form:** short, human-readable phrases in sentence case — `Music technology`, not `music-technology` or `MUSIC TECH`. Capitals only for proper nouns and established acronyms (`AI`, `3D`). No abbreviations otherwise.
+- **Count:** 2–6 tags per entry. `validate_directory.py` warns above 6.
+- **Reuse before inventing:** check whether an existing tag fits before adding a new spelling; the network view only connects people whose tags match.
+- **Source of truth for people:** profiles with `urls.nva` get tags from NVA on the nightly sync — lasting fixes belong in NVA or in the merge map, not in the profile file.
+- **Cleanup routine:** near-duplicate spellings are merged nightly by `scripts/merge_tags.py` using [`config/tag_merge_map.yml`](config/tag_merge_map.yml); add mappings there to fold variants together. `python3 scripts/merge_tags.py --report` suggests candidates. Groupings for the network view live in `site/_data/tag_groups.yml`.
+
 ## Languages
 
 English pages live at the site root (`/about/`, `/results/`, …). Norwegian mirrors use `/no/…`.
