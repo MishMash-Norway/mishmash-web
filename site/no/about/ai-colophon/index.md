@@ -14,6 +14,7 @@ MishMash forsker på kreativ bruk av KI — og bruker KI, helt åpent, i arbeide
 - **Innhold.** KI-assistanse brukes til å skrive utkast og tilpasse tekster, blant annet lesenivåvariantene på [adaptive sider](/no/about/description/) og oppslag i [ordlisten](/no/about/glossary/). Redaktører gjennomgår og bearbeider alt før det publiseres.
 - **Kode og automatisering.** Mye av nettstedets verktøy — synkroniseringsskriptene som henter data fra NVA, ORCID og Wikipedia, temavelgeren, maskineriet for adaptivt innhold, kvalitetssjekkene — utvikles med KI-assistanse, synlig i [commit-historikken](https://github.com/MishMash-Norway/mishmash-web/commits/main) gjennom `Co-Authored-By`-merking.
 - **Oversettelse.** Maskinoversettelse brukes mellom engelsk og norsk, og merkes på de aktuelle sidene.
+- **Kunstverk.** Boble-emblemet på forsiden tegnes på nytt hver natt av et [lite skript](https://github.com/MishMash-Norway/mishmash-web/blob/main/scripts/generate_daily_bubbles.py): en deterministisk variasjon med dato og dagens aktivitet på nettstedet som frø (hver liten boble er et kommende arrangement). Det er generativt i algoritmisk forstand — ingen KI-modell er involvert — og merkes som generert der det vises.
 
 ### Våre forpliktelser
 

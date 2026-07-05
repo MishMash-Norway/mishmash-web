@@ -51,6 +51,9 @@ jobs:
       - name: Merge similar tags
         run: python3 scripts/merge_tags.py
 
+      - name: Generate daily bubble artwork
+        run: python3 scripts/generate_daily_bubbles.py
+
       - name: Validate directory
         run: python3 scripts/validate_directory.py
 
@@ -63,14 +66,14 @@ jobs:
             echo "No directory changes to commit."
             exit 0
           fi
-          unexpected_files="$(printf '%s\n' "$changed_files" | grep -Ev '^(site/_directory|site/_data|site/assets/images/portraits)/' || true)"
+          unexpected_files="$(printf '%s\n' "$changed_files" | grep -Ev '^(site/_directory|site/_data|site/assets/images/portraits|site/assets/images/bubbles/daily)/' || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error title=Unexpected workflow diff::Refusing to push files outside the approved paths."
             echo "Refusing to push unexpected changed files:"
             printf '%s\n' "$unexpected_files"
             exit 1
           fi
-          git add site/_directory site/_data site/assets/images/portraits
+          git add site/_directory site/_data site/assets/images/portraits site/assets/images/bubbles/daily
           git commit -m "Update directory and results from NVA." \
-            -m "Scheduled sync of people profiles and MishMash project results."
+            -m "Scheduled sync of people profiles, MishMash project results, and the daily bubble artwork."
           git push

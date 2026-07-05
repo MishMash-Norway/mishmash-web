@@ -4,14 +4,15 @@ lang: nb
 title: "MishMash Senter for KI og kreativitet"
 translation_url: /
 ---
-<div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
+<div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;text-align:center;">
     <a href="/no/about/">
-        <img src="/assets/images/bubbles/mishmash_bubbles.svg"
+        <img src="/assets/images/bubbles/daily/mishmash_bubbles_daily.svg"
              alt="MishMash utforsker møtepunktet mellom mennesker og maskiner med kunst og vitenskap"
              width="400"
              onmouseover="this.lastImage = this.lastImage ?? -1; let next; do { next = Math.floor(Math.random() * 5 + 2); } while (next === this.lastImage); this.lastImage = next; this.src='/assets/images/bubbles/mishmash_bubbles' + next + '.svg';"
-             onmouseout="this.src='/assets/images/bubbles/mishmash_bubbles.svg';">
+             onmouseout="this.src='/assets/images/bubbles/daily/mishmash_bubbles_daily.svg';">
     </a>
+    <div style="font-size:0.75rem;color:#767676;">Dagens bobler — <a href="/no/about/ai-colophon/" style="color:#767676;">generert daglig</a> fra aktiviteten på nettstedet</div>
 </div>
 
 MishMash **skaper, utforsker og reflekterer over KI for, gjennom og i kreative praksiser**. Mer enn 200 forskere undersøker KIs innvirkning på kreative prosesser, utvikler innovative samskapende KI-systemer og pedagogiske strategier, og tar opp de etiske, kulturelle, juridiske og samfunnsmessige implikasjonene av KI i kreative praksiser. [Mer om MishMash...](/no/about/)
