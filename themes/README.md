@@ -7,8 +7,13 @@ built with that theme. Anything a theme does not override falls back to the
 regular site, so a theme can be as small as one CSS file or as large as a full
 redesign of every layout.
 
-Nothing in this folder affects the live website: production builds only use
-`site/`. Themes are built and viewed locally with the switcher script.
+Nothing in this folder affects the regular website, whose production builds
+only use `site/`. Themes are built and viewed locally with the switcher
+script — and every theme is also published automatically as a **live preview**
+at `https://mishmash.no/ui/<name>/`, listed in the gallery at
+[mishmash.no/ui/](https://mishmash.no/ui/). To appear in the gallery with a
+title and description, add your theme to
+[`site/_data/ui_themes.yml`](../site/_data/ui_themes.yml).
 
 ## Quick start
 
@@ -89,6 +94,8 @@ them, and copy anything you want as a starting point.
 
 ## Submitting your work
 
-Work on a branch, keep everything inside `themes/<your-group>/`, and open a
-pull request. Check that `./scripts/ui build <your-group>` completes without
-errors before submitting.
+Work on a branch, keep everything inside `themes/<your-group>/` (plus your
+gallery entry in `site/_data/ui_themes.yml`), and open a pull request. Check
+that `./scripts/ui build <your-group>` completes without errors before
+submitting. Once merged, your theme goes live at
+`https://mishmash.no/ui/<your-group>/` on the next deployment.

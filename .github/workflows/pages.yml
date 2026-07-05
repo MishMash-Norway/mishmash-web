@@ -40,6 +40,18 @@ jobs:
       - name: Build site
         run: bundle exec jekyll build --trace
 
+      # Publish every student UI theme as a browsable preview under
+      # /ui/<name>/, listed on the /ui/ gallery page. Previews exclude
+      # internal pages and must not carry their own CNAME.
+      - name: Build UI theme previews
+        run: |
+          for theme in $(./scripts/ui list); do
+            ./scripts/ui build "$theme" --baseurl "/ui/$theme" --trace
+            mkdir -p "_site/ui/$theme"
+            rsync -a --delete .ui-work/_site/ "_site/ui/$theme/"
+            rm -rf "_site/ui/$theme/internal" "_site/ui/$theme/CNAME"
+          done
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:

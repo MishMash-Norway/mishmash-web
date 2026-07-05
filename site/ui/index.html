@@ -1,0 +1,81 @@
+---
+layout: page
+title: UI Theme Previews
+permalink: /ui/
+sitemap: false
+description: "Alternative frontends for mishmash.no made by student groups, browsable as live previews."
+---
+
+<p>Alternative frontends for mishmash.no, made by student groups. Each theme
+replaces parts of the regular site — layouts, stylesheets, or a full redesign —
+and is published here as a live preview of the whole site. The regular site is
+untouched; previews are rebuilt on every deployment. Want to make one? See the
+<a href="https://github.com/MishMash-Norway/mishmash-web/tree/main/themes">theme guide</a>.</p>
+
+<div class="ui-gallery">
+{% for theme in site.data.ui_themes %}
+  <div class="ui-card">
+    <a class="ui-thumb" href="/ui/{{ theme.name }}/" data-proofer-ignore aria-label="Open the {{ theme.title }} preview">
+      <iframe src="/ui/{{ theme.name }}/" title="Preview of the {{ theme.title }} theme" loading="lazy" tabindex="-1" data-proofer-ignore></iframe>
+    </a>
+    <div class="ui-card-body">
+      <h2>{{ theme.title }}</h2>
+      <p>{{ theme.description }}</p>
+      <p><a href="/ui/{{ theme.name }}/" data-proofer-ignore>Open preview →</a></p>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+<p class="ui-note">Previews mirror the public site at deploy time, minus
+internal pages. Links inside a preview may occasionally jump back to the
+regular site.</p>
+
+<style>
+.ui-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin: 1.5rem 0;
+}
+.ui-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.ui-thumb {
+  display: block;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #f6f6f6;
+  border-bottom: 1px solid #e6e6e6;
+}
+.ui-thumb iframe {
+  width: 400%;
+  height: 400%;
+  transform: scale(0.25);
+  transform-origin: top left;
+  border: 0;
+  pointer-events: none;
+}
+.ui-card-body {
+  padding: 12px 16px;
+}
+.ui-card-body h2 {
+  font-size: 1.05rem;
+  margin: 0 0 6px;
+}
+.ui-card-body p {
+  font-size: 0.9rem;
+  margin: 0 0 6px;
+}
+.ui-note {
+  color: #767676;
+  font-size: 0.85rem;
+}
+</style>

@@ -1,0 +1,20 @@
+# UI themes listed on the /ui/ preview gallery. Each name must match a
+# folder under themes/ — the deploy workflow builds every theme it finds
+# into /ui/<name>/, and this file controls what the gallery says about them.
+- name: artsy
+  title: Artsy
+  description: >-
+    A warm, editorial/gallery-inspired UI: cream paper background, serif
+    display headings, terracotta/plum/ochre palette, and offset "print"
+    shadows.
+- name: example
+  title: Example
+  description: >-
+    A minimal demonstration theme showing the two basic moves: an extra
+    stylesheet layered on the regular site, and a badge showing which theme
+    is active.
+- name: techy
+  title: Techy
+  description: >-
+    A dark, terminal-inspired UI: monospace type, near-black panels, neon
+    green/cyan accents, and a $-prompt header with a blinking cursor.
