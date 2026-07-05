@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "WP6: AI for cultural heritage"
+description: "Creative use of AI for cultural heritage: archives, collections, and new ways of accessing culture."
 ---
 
 This work package investigates how AI can help discover, organise, and showcase the richness of cultural heritage collections. We develop intelligent tools for curating vast archives—with a particular focus on music and minority cultural expressions—while ensuring ethical, inclusive, and responsible use of AI in the cultural heritage sector.

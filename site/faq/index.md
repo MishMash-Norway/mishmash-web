@@ -8,6 +8,7 @@ page_about:
     model_version: "4.6 Sonnet"
   data_sources:
     - manual
+description: "Frequently asked questions about MishMash: the name, the emblem, funding, partners, and how to get involved."
 ---
 
 # Frequently Asked Questions

@@ -36,6 +36,16 @@ collections:
     permalink: /:path/
 
 defaults:
+  # Internal pages are disallowed in robots.txt; keep them out of the
+  # sitemap too so the two signals agree.
+  - scope:
+      path: "internal"
+    values:
+      sitemap: false
+  - scope:
+      path: "no/internal"
+    values:
+      sitemap: false
   - scope:
       path: "_directory/people"
       type: "directory"

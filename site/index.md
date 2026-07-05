@@ -1,3 +1,6 @@
+---
+description: "MishMash creates, explores, and reflects on AI for, through, and in creative practices — a Norwegian research centre with 200+ researchers across art, science, and society."
+---
 <div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
     <a href="/about/description/">
         <img src="/assets/images/bubbles/mishmash_bubbles.svg"

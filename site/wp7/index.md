@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "WP7: Human-centric AI for Creative Problem-Solving"
+description: "Creative AI for problem-solving: applying artistic and creative methods to challenges beyond the arts."
 ---
 
 This WP explores how a person or group can use Creative AI for task-specific problem-solving. The tasks considered in this WP range from industrial design, where artistic methods are integral to design processes, to emergency rescue scenarios, where imminent problems must be solved by creatively using available resources.

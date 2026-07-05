@@ -3,6 +3,7 @@ layout: default
 title: Description
 translation_url: /no/about/description/
 adaptive: true
+description: "What MishMash is: a Norwegian research centre on AI and creativity, its goals, approach, and work packages."
 ---
 
 ![MishMash explores the meeting point of humans and machines with art and science](/assets/images/bubbles/mishmash_bubbles_notext.svg){: .blink-eye-thumb style="float:right;margin:0 0 1rem 1rem;" width="400" }

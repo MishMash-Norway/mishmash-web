@@ -3,6 +3,7 @@ layout: page
 title: Organisation
 redirect_from:
   - /organization/
+description: "How MishMash is organised: board, council, leadership, and work package structure."
 ---
 
 MishMash is governed and managed by several organizational bodies, each with specific responsibilities and roles:

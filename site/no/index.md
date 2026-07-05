@@ -3,6 +3,7 @@ layout: default
 lang: nb
 title: "MishMash Senter for KI og kreativitet"
 translation_url: /
+description: "MishMash skaper, utforsker og reflekterer over KI for, gjennom og i kreative praksiser — et norsk forskningssenter med over 200 forskere."
 ---
 <div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
     <a href="/no/about/">

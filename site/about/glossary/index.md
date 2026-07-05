@@ -3,6 +3,7 @@ layout: default
 title: Glossary
 translation_url: /no/about/glossary/
 stretchtext: true
+description: "A glossary of AI and creativity terms used across the MishMash centre."
 ---
 
 ## Glossary
