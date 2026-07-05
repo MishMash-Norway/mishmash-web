@@ -1,0 +1,29 @@
+{% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
+{% for group in site.data.partners %}
+<hr>
+<details>
+  {% if group.key == 'research' %}
+  <summary>+ {% if nb %}Norske forskningspartnere{% else %}Norwegian research partners{% endif %}</summary>
+  {% elsif group.key == 'other' %}
+  <summary>+ {% if nb %}Andre norske partnere{% else %}Other Norwegian partners{% endif %}</summary>
+  <p>{% if nb %}I alfabetisk rekkefølge:{% else %}In alphabetical order:{% endif %}</p>
+  {% endif %}
+  <ul>
+    {% for p in group.entries %}
+    {% assign pname = p.name %}{% if nb and p.name_nb %}{% assign pname = p.name_nb %}{% endif %}
+    {% assign purl = p.url %}{% if nb and p.url_nb %}{% assign purl = p.url_nb %}{% endif %}
+    <li>{% if purl %}<a href="{{ purl }}">{{ pname }}</a>{% else %}{{ pname }}{% endif %}</li>
+    {% endfor %}
+  </ul>
+</details>
+{% endfor %}
+<hr>
+<details>
+  <summary>+ {% if nb %}Internasjonale partnere{% else %}International partners{% endif %}</summary>
+  {% if nb %}
+  En rekke internasjonale akademiske og ikke-akademiske partnere vil også delta, og vi vil opprette et affiliert program for andre som ønsker å bli en del av nettverket og delta i relevante aktiviteter.
+  {% else %}
+  Numerous international academic and non-academic partners will also be involved, and we will set up an affiliate program for others to join the network and participate in relevant activities.
+  {% endif %}
+</details>
+<hr>

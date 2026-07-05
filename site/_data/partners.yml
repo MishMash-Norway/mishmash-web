@@ -1,0 +1,207 @@
+# Partner organisations shown on the front pages (EN and NB).
+# Each entry: name/url (English), with name_nb/url_nb overrides where the
+# Norwegian front page differs. Rendered by _includes/partner-list.html.
+- key: research
+  entries:
+  - name: The Oslo School of Architecture and Design (AHO)
+    url: https://www.aho.no/english/
+    name_nb: Arkitektur- og designhøgskolen i Oslo (AHO)
+    url_nb: https://www.aho.no/
+  - name: Norwegian Business School (BI)
+    url: https://www.bi.edu/
+    name_nb: Handelshøyskolen BI
+    url_nb: https://www.bi.no/
+  - name: Østfold University College (HiØ)
+    url: https://www.hiof.no/english/
+    name_nb: Høgskolen i Østfold (HiØ)
+    url_nb: https://www.hiof.no/
+  - name: Western Norway University of Applied Sciences (HVL)
+    url: https://www.hvl.no/en/
+    name_nb: Høgskulen på Vestlandet (HVL)
+    url_nb: https://www.hvl.no/
+  - name: University of Inland Norway (INN)
+    url: https://www.inn.no/english/
+    name_nb: Universitetet i Innlandet (INN)
+    url_nb: https://www.inn.no/
+  - name: The Oslo National Academy of the Arts (KHiO)
+    url: https://khio.no/en
+    name_nb: Kunsthøgskolen i Oslo (KHiO)
+    url_nb: https://khio.no
+  - name: Kristiania University College (Kristiania)
+    url: https://www.kristiania.no/en/
+    name_nb: Høyskolen Kristiania
+    url_nb: https://www.kristiania.no/
+  - name: National Library of Norway
+    url: https://www.nb.no/en/
+    name_nb: Nasjonalbiblioteket
+    url_nb: https://www.nb.no/
+  - name: The Climate and Environmental Research Institute (NILU)
+    url: https://nilu.com/
+    name_nb: Norsk institutt for luftforskning (NILU)
+  - name: NLA University College (NLA)
+    url: https://www.nla.no/en/
+    name_nb: NLA Høgskolen
+    url_nb: https://www.nla.no/
+  - name: Norwegian Academy of Music (NMH)
+    url: https://nmh.no/en/
+    name_nb: Norges musikkhøgskole (NMH)
+    url_nb: https://nmh.no/
+  - name: Nord University (Nord)
+    url: https://www.nord.no/en
+    name_nb: Nord universitet
+    url_nb: https://www.nord.no/
+  - name: Norwegian Institute for Sustainability Research (NORSUS)
+    url: https://norsus.no/en/
+    name_nb: Norsus – Norsk institutt for bærekraftsforskning
+    url_nb: https://norsus.no/
+  - name: Norwegian University of Science and Technology (NTNU)
+    url: https://www.ntnu.edu/
+    name_nb: Norges teknisk-naturvitenskapelige universitet (NTNU)
+    url_nb: https://www.ntnu.no/
+  - name: Oslo Metropolitan University (OsloMet)
+    url: https://www.oslomet.no/en
+    url_nb: https://www.oslomet.no/
+  - name: Simula Research Laboratory (SIMULAMET)
+    url: https://www.simulamet.no/
+  - name: SINTEF
+    url: https://www.sintef.no/en/
+    url_nb: https://www.sintef.no/
+  - name: University of Agder (UiA)
+    url: https://www.uia.no/english/index.html
+    name_nb: Universitetet i Agder (UiA)
+    url_nb: https://www.uia.no/
+  - name: University of Bergen (UiB)
+    url: https://www.uib.no/en
+    name_nb: Universitetet i Bergen (UiB)
+    url_nb: https://www.uib.no/
+  - name: University of Oslo (UiO)
+    url: https://www.uio.no/english/index.html
+    name_nb: Universitetet i Oslo (UiO)
+    url_nb: https://www.uio.no/
+  - name: University of Tromsø (UiT)
+    url: https://en.uit.no/
+    name_nb: Universitetet i Tromsø (UiT)
+- key: other
+  entries:
+  - name: AKKS Norge (In Norwegian)
+    url: https://akks.no/
+    name_nb: AKKS Norge
+  - name: ANNO
+    url: https://annomuseum.no/en
+  - name: Atelier Nord
+    url: https://ateliernord.no/?lang=en
+    url_nb: https://ateliernord.no/
+  - name: BEK
+    url: https://bek.no/en/
+    url_nb: https://bek.no/
+  - name: Bergen International Festival
+    url: https://www.fib.no/en
+    name_nb: Bergen internasjonale festival
+    url_nb: https://www.fib.no/
+  - name: Borealis
+    url: https://www.borealisfestival.no/en/home/
+    url_nb: https://www.borealisfestival.no/
+  - name: Cultiva
+    url: https://www.cultiva.no/en/
+    url_nb: https://www.cultiva.no/
+  - name: DHKO
+    url: https://dhko.no/en
+    url_nb: https://dhko.no
+  - name: Fynd Reality AS
+    url: https://www.fyndreality.com/
+  - name: GramArt (In Norwegian)
+    url: https://www.gramart.no/
+    name_nb: GramArt
+  - name: GRAMO
+    url: https://en.gramo.no/
+    url_nb: https://no.gramo.no/
+  - name: Halogen AS
+    url: https://halogen.no/en/
+    url_nb: https://halogen.no/
+  - name: Hamarregionen utvikling
+    url: https://hamarregionen.no/move-to-the-hamar-region/
+    url_nb: https://hamarregionen.no/
+  - name: HelseINN (In Norwegian)
+    url: https://helseinn.no/
+    name_nb: HelseINN
+  - name: JM Norway
+    url: https://www.jmn.no/eng
+    name_nb: JM Norge
+    url_nb: https://www.jmn.no/
+  - name: Kilden Performing Arts Centre
+    url: https://kilden.com/en/
+    url_nb: https://kilden.com/
+  - name: KODE Bergen Art Museum
+    url: https://www.kodebergen.no/en
+    name_nb: KODE Kunstmuseer og komponisthjem
+    url_nb: https://www.kodebergen.no/
+  - name: Kunstsilo
+    url: https://www.kunstsilo.no/en
+    url_nb: https://www.kunstsilo.no/
+  - name: Kulturskolerådet (In Norwegian)
+    url: https://kulturskoleradet.no/
+    name_nb: Kulturskolerådet
+  - name: Kulturtanken (In Norwegian)
+    url: https://www.kulturtanken.no/
+    name_nb: Kulturtanken
+  - name: Media Cluster Norway AS
+    url: https://mediacitybergen.no/
+  - name: Multikjetil AS
+  - name: Nasjonalmuseet
+    url: https://www.nasjonalmuseet.no/en/
+    url_nb: https://www.nasjonalmuseet.no/
+  - name: Norwegian Centre for Arts and Culture in Education (NCACE)
+    url: https://kunstkultursenteret.no/english/
+    name_nb: Nasjonalt senter for kunst og kultur i opplæringen (KKS)
+    url_nb: https://kunstkultursenteret.no/
+  - name: Notam
+    url: https://notam.no/en/
+    url_nb: https://notam.no/
+  - name: Norwegian Society of Composers and Lyricists (NOPA)
+    url: https://nopa.no/english/
+    name_nb: NOPA
+    url_nb: https://nopa.no/
+  - name: Norwegian AI Cloud (NAIC)
+    url: https://www.naic.no/english/
+    url_nb: https://www.naic.no/
+  - name: Norwegian Broadcasting Corporation (NRK) (In Norwegian)
+    url: https://www.nrk.no/
+    name_nb: NRK
+  - name: Oslo Kreativ AI (OKAI)
+    url: https://www.kreativai.no/
+  - name: Polyfon
+    url: https://polyfon.no/en_US/
+    url_nb: https://polyfon.no/
+  - name: PUNKT
+    url: https://punktfestival.no/
+  - name: Reimagine AS
+    url: https://reimagine.no/
+  - name: Sarepta Studio AS
+    url: https://sareptastudio.com/
+  - name: Skapia (In Norwegian)
+    url: https://skapia.no/
+    name_nb: Skapia
+  - name: Skolene i Innlandet (In Norwegian)
+    url: https://innlandetfylke.no/
+    name_nb: Skolene i Innlandet
+  - name: StoryPhone AS (In Norwegian)
+    url: https://www.storyphone.no/
+    name_nb: StoryPhone AS
+  - name: Oslo Science Centre
+    url: https://www.tekniskmuseum.no/en/
+    name_nb: Oslo vitensenter
+    url_nb: https://www.tekniskmuseum.no/
+  - name: TEKS
+    url: https://teks.no/
+  - name: TONO
+    url: https://www.tono.no/en/
+    url_nb: https://www.tono.no/
+  - name: Ultima – Oslo Contemporary Music Festival
+    url: https://www.ultima.no/en/
+    name_nb: Ultima – Oslo samtidsmusikkfestival
+    url_nb: https://www.ultima.no/
+  - name: Vest‐Agder Museum
+    url: https://www.vestagdermuseet.no/
+    name_nb: Vest-Agder-museet
+  - name: VRINN
+    url: https://vrinn.no/
