@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # scripts/ui — build or serve the site with an alternative UI theme overlaid.
 #
-# Student themes live in themes/<name>/ and shadow files in site/ at the same
+# UI themes live in themes/<name>/ and shadow files in site/ at the same
 # relative path (e.g. themes/my-group/_layouts/default.html replaces
 # site/_layouts/default.html). Anything a theme does not override falls back
 # to the regular site. See themes/README.md for the full guide.
@@ -28,8 +28,8 @@ Commands:
   build <name> [args]   One-off build with <name> overlaid into .ui-work/_site/
 
 Examples:
-  scripts/ui new group-a
-  scripts/ui serve group-a
+  scripts/ui new my-theme
+  scripts/ui serve my-theme
   scripts/ui serve default --port 4001   # compare against the original
 EOF
 }

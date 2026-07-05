@@ -44,17 +44,17 @@
     Publikasjonsstrømmen som lyd — én tone per forskningsresultat,
     harmoni fra medforfatterskap, klang fra resultattype.
   external: false
-- title: Student UI themes
-  title_nb: Studentenes UI-temaer
+- title: UI themes
+  title_nb: UI-temaer
   url: /ui/
   kind: Web design
   kind_nb: Webdesign
-  byline: Student groups
-  byline_nb: Studentgrupper
+  byline: Community contributions
+  byline_nb: Bidrag fra fellesskapet
   description: >-
-    Alternative frontends for this site, made by student groups and
-    browsable as live previews.
+    Alternative frontends for this site, contributed by the community and
+    browsable as live previews. Anyone can make one.
   description_nb: >-
-    Alternative grensesnitt for dette nettstedet, laget av studentgrupper
-    og tilgjengelige som forhåndsvisninger.
+    Alternative grensesnitt for dette nettstedet, bidratt av fellesskapet
+    og tilgjengelige som forhåndsvisninger. Hvem som helst kan lage ett.
   external: false
