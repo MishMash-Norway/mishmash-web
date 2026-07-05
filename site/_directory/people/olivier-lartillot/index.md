@@ -98,7 +98,6 @@ selected_works:
     url: /people/olivier-lartillot/
   - name: Dana Swarbrick
     role: Creator
-    slug: dana-swarbrick
   - name: Finn Upham
     role: Creator
   - name: Carlos Eduardo Cancino-Chacón
@@ -155,7 +154,6 @@ selected_works:
     role: Creator
   - name: Dana Swarbrick
     role: Creator
-    slug: dana-swarbrick
   - name: Solveig Sørbø
     role: Creator
   - name: Finn Upham
