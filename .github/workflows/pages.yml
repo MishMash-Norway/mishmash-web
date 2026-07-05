@@ -37,6 +37,9 @@ jobs:
       - name: Generate page git metadata
         run: python3 scripts/generate_page_git_meta.py
 
+      - name: Generate AI colophon statistics
+        run: pip install PyYAML && python3 scripts/generate_ai_colophon_stats.py
+
       - name: Build site
         run: bundle exec jekyll build --trace
 

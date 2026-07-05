@@ -1,0 +1,30 @@
+{% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
+{% assign c = site.data.ai_colophon %}
+<h3>{% if nb %}De siste endringene{% else %}The latest changes{% endif %}</h3>
+{% if nb %}
+<p>Hver endring på dette nettstedet loggføres åpent. Her er de {{ c.recent_commits | size }} nyeste, med en merknad om hvordan hver av dem ble laget (endringsmeldingene er på engelsk). Til nå er det gjort {{ c.total_commits }} endringer, {{ c.ai_assisted_commits }} av dem med KI-assistanse.</p>
+{% else %}
+<p>Every change to this site is logged in the open. Here are the {{ c.recent_commits | size }} most recent, with a note on how each was made. So far {{ c.total_commits }} changes have been made, {{ c.ai_assisted_commits }} of them with AI assistance.</p>
+{% endif %}
+<ul class="colophon-commits">
+{% for commit in c.recent_commits %}
+  <li>
+    <span class="colophon-commit-date">{% if nb %}{{ commit.date | date: "%-d.%-m.%Y" }}{% else %}{{ commit.date | date: "%-d %B %Y" }}{% endif %}</span>
+    {{ commit.subject }}
+    <span class="colophon-commit-how colophon-commit-how-{{ commit.how }}">
+      {%- if commit.how == 'automated' -%}
+        {% if nb %}automatisk oppdatering{% else %}automatic update{% endif %}
+      {%- elsif commit.how == 'ai_assisted' -%}
+        {% if nb %}laget med KI-assistanse{% else %}made with AI assistance{% endif %}
+      {%- else -%}
+        {% if nb %}laget for hånd{% else %}made by hand{% endif %}
+      {%- endif -%}
+    </span>
+  </li>
+{% endfor %}
+</ul>
+{% if nb %}
+<p>Alle endringer, helt tilbake til den første, ligger i den åpne <a href="https://github.com/MishMash-Norway/mishmash-web/commits/main">endringsloggen på GitHub</a>.</p>
+{% else %}
+<p>All changes, back to the very first, are in the open <a href="https://github.com/MishMash-Norway/mishmash-web/commits/main">change log on GitHub</a>.</p>
+{% endif %}

@@ -1345,3 +1345,41 @@ a:focus-visible .icon {
     gap: 0.15rem;
   }
 }
+
+/* AI colophon: latest changes list */
+.colophon-commits {
+  list-style: none;
+  padding-left: 0;
+}
+
+.colophon-commits li {
+  margin-bottom: 0.5rem;
+}
+
+.colophon-commit-date {
+  display: inline-block;
+  min-width: 6.5em;
+  color: #767676;
+  font-size: 0.9em;
+}
+
+.colophon-commit-how {
+  display: inline-block;
+  margin-left: 0.35em;
+  padding: 1px 9px;
+  border-radius: 10px;
+  font-size: 0.75em;
+  background: #f0f0f0;
+  color: #55606a;
+  white-space: nowrap;
+}
+
+.colophon-commit-how-ai_assisted {
+  background: #efedfc;
+  color: #4a4580;
+}
+
+.colophon-commit-how-automated {
+  background: #e8f6e3;
+  color: #33691e;
+}
