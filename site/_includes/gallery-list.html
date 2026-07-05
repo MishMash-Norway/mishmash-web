@@ -1,0 +1,65 @@
+{% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
+<div class="gallery-intro">
+{% if nb %}
+<p>Et utstillingsvindu for kunstnerisk og vitenskapelig arbeid fra MishMash-miljøet. Verkene lever der de hører hjemme — gallerier, scener, plattformer — og denne siden peker dit. Kunstneriske resultater som registreres i <a href="https://nva.sikt.no/projects/2744839">NVA</a> dukker opp her automatisk.</p>
+{% else %}
+<p>A showcase of artistic and scientific work from the MishMash community. The works live where they belong — galleries, stages, platforms — and this page points there. Artistic results registered in <a href="https://nva.sikt.no/projects/2744839">NVA</a> appear here automatically.</p>
+{% endif %}
+</div>
+
+<div class="gallery-grid">
+{% for item in site.data.gallery %}
+  <div class="gallery-card">
+    <span class="gallery-kind">{% if nb and item.kind_nb %}{{ item.kind_nb }}{% else %}{{ item.kind }}{% endif %}</span>
+    <h2>
+      {% assign item_url = item.url %}{% if nb and item.url_nb %}{% assign item_url = item.url_nb %}{% endif %}
+      {% if item.external %}
+      <a href="{{ item_url }}" target="_blank" rel="noopener noreferrer">{% if nb and item.title_nb %}{{ item.title_nb }}{% else %}{{ item.title }}{% endif %}</a>
+      {% else %}
+      <a href="{{ item_url | relative_url }}">{% if nb and item.title_nb %}{{ item.title_nb }}{% else %}{{ item.title }}{% endif %}</a>
+      {% endif %}
+    </h2>
+    <p class="gallery-byline">{% if nb and item.byline_nb %}{{ item.byline_nb }}{% else %}{{ item.byline }}{% endif %}{% if item.year %} · {{ item.year }}{% endif %}</p>
+    <p class="gallery-desc">{% if nb and item.description_nb %}{{ item.description_nb }}{% else %}{{ item.description }}{% endif %}</p>
+  </div>
+{% endfor %}
+
+{% assign artistic_types = "Exhibition,Music performance,Artistic production,Musical composition,Film,Concert" | split: "," %}
+{% for r in site.data.mishmash_results.results %}
+{% if artistic_types contains r.group_type %}
+  <div class="gallery-card">
+    <span class="gallery-kind">
+      {%- if nb -%}
+        {%- case r.group_type -%}
+        {%- when 'Exhibition' -%}Utstilling
+        {%- when 'Music performance' -%}Musikkfremføring
+        {%- when 'Artistic production' -%}Kunstnerisk produksjon
+        {%- when 'Musical composition' -%}Musikkomposisjon
+        {%- when 'Concert' -%}Konsert
+        {%- else -%}{{ r.group_type }}
+        {%- endcase -%}
+      {%- else -%}{{ r.group_type }}{%- endif -%}
+    </span>
+    <h2>
+      {% assign work_url = r.url | default: r.nva_url %}
+      <a href="{{ work_url }}" target="_blank" rel="noopener noreferrer">{{ r.title }}</a>
+    </h2>
+    <p class="gallery-byline">
+      {%- for c in r.contributors -%}
+        {%- if c.url %}<a href="{{ c.url | relative_url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% unless forloop.last %}, {% endunless -%}
+      {%- endfor -%}
+      {%- if r.year %} · {{ r.year }}{% endif -%}
+    </p>
+    <p class="gallery-desc"><a href="{{ r.nva_url }}" target="_blank" rel="noopener noreferrer">NVA</a></p>
+  </div>
+{% endif %}
+{% endfor %}
+</div>
+
+<p class="gallery-note">
+{% if nb %}
+Vil du vise arbeidet ditt her? Registrer kunstneriske resultater i NVA med MishMash i finansieringsfeltet, eller foreslå et innslag til <a href="mailto:contact@mishmash.no">contact@mishmash.no</a>.
+{% else %}
+Want your work shown here? Register artistic results in NVA with MishMash in the funding section, or suggest an entry to <a href="mailto:contact@mishmash.no">contact@mishmash.no</a>.
+{% endif %}
+</p>

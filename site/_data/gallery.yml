@@ -1,0 +1,46 @@
+# Curated gallery entries shown at /gallery/ (and /no/gallery/), in order.
+# Artistic results registered in NVA (exhibitions, performances) are added
+# to the page automatically — this file is for work that lives elsewhere
+# or on this site and deserves a spot in the overview.
+#
+# Fields: title, url, kind/kind_nb (short type label), byline (who/where),
+# description/description_nb, year (optional), external (true opens in a
+# new tab).
+- title: MishMash Bubbles
+  url: /gallery/bubbles/
+  kind: Interactive
+  kind_nb: Interaktiv
+  byline: mishmash.no
+  description: >-
+    Play with the centre's emblem — two bubbles with springy physics.
+  description_nb: >-
+    Lek med senterets emblem — to bobler med fjærende fysikk.
+  external: false
+- title: Daily bubble artwork
+  title_nb: Dagens bobler
+  url: /about/ai-colophon/
+  url_nb: /no/about/ai-colophon/
+  kind: Generative
+  kind_nb: Generativ
+  byline: mishmash.no
+  description: >-
+    The front-page emblem is redrawn every night, seeded by the day's site
+    activity. The AI colophon explains how.
+  description_nb: >-
+    Forsideemblemet tegnes på nytt hver natt, med dagens aktivitet på
+    nettstedet som frø. KI-kolofonen forklarer hvordan.
+  external: false
+- title: Student UI themes
+  title_nb: Studentenes UI-temaer
+  url: /ui/
+  kind: Web design
+  kind_nb: Webdesign
+  byline: Student groups
+  byline_nb: Studentgrupper
+  description: >-
+    Alternative frontends for this site, made by student groups and
+    browsable as live previews.
+  description_nb: >-
+    Alternative grensesnitt for dette nettstedet, laget av studentgrupper
+    og tilgjengelige som forhåndsvisninger.
+  external: false
