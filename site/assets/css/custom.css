@@ -1383,3 +1383,15 @@ a:focus-visible .icon {
   background: #e8f6e3;
   color: #33691e;
 }
+
+/* AI colophon: daily generated bubbles */
+.colophon-bubbles {
+  text-align: center;
+  margin: 1rem 0 1.5rem;
+}
+
+.colophon-bubbles p {
+  font-size: 0.8rem;
+  color: #767676;
+  margin-top: 0.25rem;
+}

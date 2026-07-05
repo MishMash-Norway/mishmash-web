@@ -7,7 +7,7 @@ within tight bounds, and one small satellite bubble per upcoming event.
 Same date + same data = same artwork, so the nightly commit is stable.
 
 Transparency: the SVG carries a <desc> stating that it is generated and
-from what, and the front page links to the AI colophon next to it.
+from what, and it is shown on the AI colophon page with a caption.
 
 Usage: generate_daily_bubbles.py [--date YYYY-MM-DD] [--out PATH]
 """

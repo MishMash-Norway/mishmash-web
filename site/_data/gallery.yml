@@ -24,11 +24,11 @@
   kind_nb: Generativ
   byline: mishmash.no
   description: >-
-    The front-page emblem is redrawn every night, seeded by the day's site
-    activity. The AI colophon explains how.
+    A variation of the bubble emblem is redrawn every night, seeded by the
+    day's site activity. Shown and explained in the AI colophon.
   description_nb: >-
-    Forsideemblemet tegnes på nytt hver natt, med dagens aktivitet på
-    nettstedet som frø. KI-kolofonen forklarer hvordan.
+    En variasjon av bobleemblemet tegnes på nytt hver natt, med dagens
+    aktivitet på nettstedet som frø. Vises og forklares i KI-kolofonen.
   external: false
 - title: Student UI themes
   title_nb: Studentenes UI-temaer

@@ -1,12 +1,11 @@
-<div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;text-align:center;">
+<div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
     <a href="/about/description/">
-        <img src="/assets/images/bubbles/daily/mishmash_bubbles_daily.svg"
+        <img src="/assets/images/bubbles/mishmash_bubbles.svg"
              alt="MishMash explores the meeting point of humans and machines with art and science"
              width="400"
              onmouseover="this.lastImage = this.lastImage ?? -1; let next; do { next = Math.floor(Math.random() * 5 + 2); } while (next === this.lastImage); this.lastImage = next; this.src='/assets/images/bubbles/mishmash_bubbles' + next + '.svg';"
-             onmouseout="this.src='/assets/images/bubbles/daily/mishmash_bubbles_daily.svg';">
+             onmouseout="this.src='/assets/images/bubbles/mishmash_bubbles.svg';">
     </a>
-    <div style="font-size:0.75rem;color:#767676;">Today's bubbles — <a href="/about/ai-colophon/" style="color:#767676;">generated daily</a> from site activity</div>
 </div>
 
 MishMash aims to **create, explore, and reflect on AI for, through, and in creative practices**. More than 200 researchers investigate AI's impact on creative processes, develop innovative co-creative AI systems and educational strategies, and address AI’s ethical, cultural, legal, and societal implications in creative domains. [More about MishMash...](https://mishmash.no/about/)
