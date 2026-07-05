@@ -1,9 +1,10 @@
 # UI theme: artsy
 
-A warm, editorial/gallery-inspired UI: cream paper background, Playfair
-Display serif headings in italic, terracotta/plum/ochre palette, painterly
-gradient header, pill buttons, and offset "print" shadows on images and
-dropdowns.
+A warm exhibition-catalogue UI: cream paper with a subtle grain, Playfair
+Display serif in italic, and a terracotta/plum/ochre palette. Its signature
+is a hand-painted ochre stroke — under the site title, behind every h2, and
+as dividers — joined by drop caps, a slowly drifting painterly header, and
+photos hung like tilted, matted canvases that straighten on hover.
 
 - `_layouts/default.html` — copy of the site layout with the nav's inline
   styles removed (so the dropdowns can be themed), a swapped Google Fonts

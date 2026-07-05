@@ -1,6 +1,9 @@
-/* "artsy" student UI theme — warm editorial / gallery aesthetic.
+/* "artsy" student UI theme — an exhibition catalogue for the centre.
  * Loaded after the site CSS by this theme's _layouts/default.html,
- * which also strips the nav's inline styles so it can be themed here. */
+ * which also strips the nav's inline styles so it can be themed here.
+ * Signature device: ochre paint strokes — behind headings, under the
+ * site title, as dividers. Supporting cast: paper grain, drop caps,
+ * and images hung like tilted, matted canvases. */
 
 :root {
   --paper: #faf5ec;
@@ -10,6 +13,8 @@
   --ochre: #d9a441;
   --serif: "Playfair Display", Georgia, "Times New Roman", serif;
   --sans: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  /* hand-drawn ochre stroke, reused at several sizes */
+  --stroke: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 28' preserveAspectRatio='none'%3E%3Cpath d='M4 16 C 40 8, 85 6, 130 10 C 170 13, 200 12, 216 15 C 200 19, 160 22, 110 21 C 65 20, 25 22, 4 16 Z' fill='%23d9a441' fill-opacity='0.5'/%3E%3C/svg%3E");
 }
 
 body {
@@ -18,15 +23,52 @@ body {
   font-family: var(--sans);
 }
 
-/* ---- Header: big painterly banner ---- */
+/* Paper grain over everything, very quiet */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+::selection {
+  background: var(--ochre);
+  color: var(--ink);
+}
+
+/* ---- Header: painterly banner with slowly drifting colour ---- */
 .page-header {
-  background:
-    radial-gradient(ellipse at 15% 110%, rgba(217, 164, 65, 0.55), transparent 55%),
-    radial-gradient(ellipse at 85% -10%, rgba(122, 59, 105, 0.6), transparent 60%),
-    linear-gradient(160deg, #c4552d, #7a3b69) !important;
   /* !important needed: site custom.css sets the header gradient with !important */
+  background: linear-gradient(160deg, #c4552d, #7a3b69) !important;
   background-color: #7a3b69 !important;
   color: var(--paper) !important;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.page-header::before {
+  content: "";
+  position: absolute;
+  inset: -25%;
+  z-index: -1;
+  background:
+    radial-gradient(ellipse at 15% 110%, rgba(217, 164, 65, 0.55), transparent 55%),
+    radial-gradient(ellipse at 85% -10%, rgba(122, 59, 105, 0.75), transparent 60%),
+    radial-gradient(ellipse at 55% 55%, rgba(196, 85, 45, 0.35), transparent 50%);
+  animation: artsy-drift 36s ease-in-out infinite alternate;
+}
+
+@keyframes artsy-drift {
+  from { transform: translate(-2%, -2%) rotate(-2deg) scale(1); }
+  to   { transform: translate(2%, 3%) rotate(2deg) scale(1.08); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-header::before { animation: none; }
 }
 
 .project-name,
@@ -37,6 +79,13 @@ body {
   letter-spacing: 0.5px;
   color: var(--paper) !important;
   text-decoration: none;
+}
+
+/* the title sits on a painted stroke */
+.project-name {
+  display: inline-block;
+  padding: 0 0.4em 0.12em;
+  background: var(--stroke) no-repeat center bottom / 100% 0.5em;
 }
 
 .project-tagline {
@@ -108,33 +157,43 @@ body {
 .main-content h4 {
   font-family: var(--serif);
   font-weight: 700;
-  color: var(--terracotta);
+  /* !important: site custom.css forces heading colors with !important */
+  color: var(--terracotta) !important;
 }
 
 .main-content h1 {
   font-style: italic;
   font-weight: 900;
-  font-size: 2.4rem;
-  color: var(--plum);
+  font-size: 2.8rem;
+  line-height: 1.15;
+  color: var(--plum) !important;
 }
 
+/* Signature: headings carry a painted ochre stroke */
 .main-content h2 {
+  display: table;             /* shrink-wraps so the stroke hugs the words */
   border-bottom: none;
-  padding-bottom: 0;
+  padding: 0 0.35em 0.08em;
+  margin-left: -0.35em;
+  background: var(--stroke) no-repeat left bottom / 100% 0.45em;
 }
 
-.main-content h2::after {
-  content: "";
-  display: block;
-  width: 3.5em;
-  height: 4px;
-  margin-top: 0.25em;
-  border-radius: 2px;
-  background: linear-gradient(90deg, var(--terracotta), var(--ochre));
+.main-content h2::after { content: none; }
+
+/* Drop cap opens the page like a catalogue essay */
+.main-content > p:first-of-type::first-letter,
+.main-content .page .container > p:first-of-type::first-letter {
+  font-family: var(--serif);
+  font-weight: 900;
+  font-size: 3.4em;
+  line-height: 0.8;
+  float: left;
+  padding: 0.08em 0.12em 0 0;
+  color: var(--terracotta);
 }
 
 .main-content a {
-  color: var(--plum);
+  color: var(--plum) !important;
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-color: var(--ochre);
@@ -142,17 +201,32 @@ body {
 }
 
 .main-content a:hover {
-  color: var(--terracotta);
+  color: var(--terracotta) !important;
   text-decoration-style: solid;
+  text-decoration-thickness: 0.18em;
+  text-decoration-color: var(--ochre);
 }
 
 .main-content blockquote {
+  position: relative;
   font-family: var(--serif);
   font-style: italic;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   color: var(--plum);
-  border-left: 4px solid var(--ochre);
+  border-left: none;
+  padding: 0.4em 1em 0.4em 2.2em;
   background: rgba(217, 164, 65, 0.08);
+  border-radius: 0 14px 14px 0;
+}
+
+.main-content blockquote::before {
+  content: "\201C";
+  position: absolute;
+  left: 0.15em;
+  top: -0.05em;
+  font-size: 3em;
+  font-weight: 900;
+  color: var(--ochre);
 }
 
 .main-content table th {
@@ -166,9 +240,36 @@ body {
   border-color: rgba(43, 33, 24, 0.15);
 }
 
-.main-content img {
-  border-radius: 16px;
-  box-shadow: 6px 8px 0 rgba(122, 59, 105, 0.18);
+/* Images hang like matted canvases, each slightly askew */
+.main-content img:not(.event-thumb):not(.person-thumb) {
+  border-radius: 4px;
+  border: 10px solid #fffdf7;
+  outline: 1px solid rgba(217, 164, 65, 0.6);
+  box-shadow: 8px 10px 0 rgba(122, 59, 105, 0.18);
+  transform: rotate(-0.7deg);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.main-content p:nth-of-type(even) img:not(.event-thumb):not(.person-thumb) {
+  transform: rotate(0.7deg);
+}
+
+.main-content img:not(.event-thumb):not(.person-thumb):hover {
+  transform: rotate(0) scale(1.015);
+  box-shadow: 10px 14px 0 rgba(122, 59, 105, 0.25);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .main-content img:not(.event-thumb):not(.person-thumb),
+  .main-content p:nth-of-type(even) img:not(.event-thumb):not(.person-thumb) {
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Event/news avatars keep their circle, gain a mat ring */
+.main-content .event-thumb {
+  box-shadow: 0 0 0 4px #fffdf7, 0 0 0 5px rgba(217, 164, 65, 0.6);
 }
 
 .main-content code,
@@ -177,12 +278,21 @@ body {
   color: var(--ink);
 }
 
+/* Dividers are small painted strokes, not lines */
+.main-content hr {
+  border: none;
+  height: 0.55em;
+  width: 9em;
+  margin: 2.2em auto;
+  background: var(--stroke) no-repeat center / 100% 100%;
+}
+
 /* ---- Theme badge ---- */
 .ui-theme-badge {
   position: fixed;
   right: 12px;
   bottom: 12px;
-  z-index: 2000;
+  z-index: 3001;
   padding: 5px 14px;
   background: var(--plum);
   color: var(--paper);
