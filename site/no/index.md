@@ -57,7 +57,7 @@ Se oversikten over [ledige stillinger](https://mishmash.no/news/positions/). Ta 
         <img class="icon icon-email" src="/assets/images/icons/catalogue/email.svg" alt="Kontakt e-post" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">Kontakt</span>
     </a>
-    <a class="social-icon-link" href="https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info" style="text-align:center;width:100px;display:inline-block;">
+    <a class="social-icon-link" href="https://sympa.uio.no/mishmash.no/subscribe/announcements" style="text-align:center;width:100px;display:inline-block;">
         <img class="icon icon-newsletter" src="/assets/images/icons/catalogue/newsletter.svg" alt="E-postliste" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">E-postliste</span>
     </a>

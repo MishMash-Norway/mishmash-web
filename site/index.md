@@ -52,7 +52,7 @@ Check the list of [open positions](https://mishmash.no/news/positions/). Get in 
         <img class="icon icon-email" src="/assets/images/icons/catalogue/email.svg" alt="Contact e-mail" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">Contact</span>
     </a>
-    <a class="social-icon-link" href="https://sympa.uio.no/mishmash.no/subscribe/announcements?previous_action=info" style="text-align:center;width:100px;display:inline-block;">
+    <a class="social-icon-link" href="https://sympa.uio.no/mishmash.no/subscribe/announcements" style="text-align:center;width:100px;display:inline-block;">
         <img class="icon icon-newsletter" src="/assets/images/icons/catalogue/newsletter.svg" alt="Mailing list" width="64" style="display:block;margin:0 auto;">
         <span style="display:block;margin-top:8px;font-size:0.9rem;">Mailing list</span>
     </a>
