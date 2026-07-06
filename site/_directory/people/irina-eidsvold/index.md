@@ -21,10 +21,10 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.bi.no/om-bi/ansatte/institutt-for-rettsvitenskap-og-styring/irina-eidsvold-toien/
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0009-0002-5700-6377
   nva: https://nva.sikt.no/research-profile/312256
   youtube: ''
   facebook: ''
