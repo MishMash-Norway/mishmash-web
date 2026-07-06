@@ -31,7 +31,7 @@ Primary WP: [WP5](/wp5/)
 
 ## People
 - PhD fellow: [Sondre Knudsen](/people/sondre-knudsen/)
-- Supervisors: [Ole-Andreas Rognstad](/people/ole-andreas-rognstad/) and [Irina Eidsvold-Tøien](/people/irina-eidsvold/)
+- Supervisors: [Irina Eidsvold](/people/irina-eidsvold/) and [Ole-Andreas Rognstad](/people/ole-andreas-rognstad/)
 
 ## Institutions
 - [BI Norwegian Business School](/institutions/bi-norwegian-business-school/)

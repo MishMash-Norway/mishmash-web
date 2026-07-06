@@ -36,7 +36,7 @@ summary: "Sondre Knudsen earned his Master of Laws from the University of Bergen
   has since worked as an associate lawyer at Haver Advokatfirma in Stavanger. Knudsen
   works on a PhD project under the umbrella of MishMash, investigating artificial
   intelligence and the legal protection of personal characteristics. His doctoral
-  work is supervised by Professor Ole-Andreas Rognstad and Professor Irina Eidsvold-T\xF8ien."
+  work is supervised by Professor Irina Eidsvold and Professor Ole-Andreas Rognstad."
 wps:
 - WP5
 permalink: /people/sondre-knudsen/
@@ -44,4 +44,4 @@ permalink: /people/sondre-knudsen/
 
 Sondre Knudsen earned his Master of Laws from the University of Bergen, with part of his studies completed at Shanghai Jiao Tong University in China. He has since worked as an associate lawyer at Haver Advokatfirma in Stavanger.
 
-Knudsen works on a [PhD project](/projects/ai-and-legal-protection-of-personal-characteristics/) under the umbrella of MishMash, investigating artificial intelligence and the legal protection of personal characteristics. His doctoral work is supervised by Professor [Ole-Andreas Rognstad](/people/ole-andreas-rognstad/) and Professor [Irina Eidsvold-Tøien](/people/irina-eidsvold/).
+Knudsen works on a [PhD project](/projects/ai-and-legal-protection-of-personal-characteristics/) under the umbrella of MishMash, investigating artificial intelligence and the legal protection of personal characteristics. His doctoral work is supervised by Professor [Irina Eidsvold](/people/irina-eidsvold/) and Professor [Ole-Andreas Rognstad](/people/ole-andreas-rognstad/).
