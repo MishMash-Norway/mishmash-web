@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: irina-eidsvold
 name: Irina Eidsvold
@@ -13,6 +14,7 @@ affiliation_units:
 - BI Norwegian Business School
 - Department of Law and Governance
 projects:
+- ai-and-legal-protection-of-personal-characteristics
 - copyright-and-personality-rights-ai-era
 - tool-for-tools
 roles:

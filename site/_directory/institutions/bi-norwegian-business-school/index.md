@@ -13,8 +13,10 @@ image: /images/institutions/bi-norwegian-business-school.svg
 people:
 - irina-eidsvold
 - lyuba-boncheva
+- sondre-knudsen
 - terje-colbjornsen
 projects:
+- ai-and-legal-protection-of-personal-characteristics
 - copyright-and-personality-rights-ai-era
 - tool-for-tools
 country: null

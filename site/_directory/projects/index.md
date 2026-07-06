@@ -4,13 +4,22 @@ title: Projects
 permalink: /projects/
 ---
 
-Seed-funding projects in the MishMash directory, with related people, institutions, tags, and work package (WP) mappings.
+Projects in the MishMash directory, with related people, institutions, tags, and work package (WP) mappings.
+
+{% assign all_projects = site.directory | where: "type", "project" | where_exp: "project", "project.slug" | sort: "title" %}
+
+## PhD Projects
+
+<ul>
+{% for project in all_projects %}{% if project.tags contains "PhD Project" %}
+  <li><a href="{{ project.url | relative_url }}">{{ project.title | default: project.name }}</a>{% if project.wps and project.wps.size > 0 %} — {{ project.wps | join: ", " }}{% endif %}</li>
+{% endif %}{% endfor %}
+</ul>
 
 ## Seed Funding Projects
 
-{% assign seed_projects = site.directory | where: "type", "project" | where_exp: "project", "project.slug" | sort: "title" %}
 <ul>
-{% for project in seed_projects %}
+{% for project in all_projects %}{% unless project.tags contains "PhD Project" %}
   <li><a href="{{ project.url | relative_url }}">{{ project.title | default: project.name }}</a>{% if project.wps and project.wps.size > 0 %} — {{ project.wps | join: ", " }}{% endif %}</li>
-{% endfor %}
+{% endunless %}{% endfor %}
 </ul>

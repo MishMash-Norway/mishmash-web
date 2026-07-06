@@ -162,7 +162,9 @@ wps:
 permalink: /people/balint-laczko/
 redirect_from:
 - /directory/people/balint-laczko/
-summary: ''
+summary: His doctoral work is supervised by Professor Alexander Refsum Jensenius.
 ---
 
 Bio coming soon.
+
+His doctoral work is supervised by Professor [Alexander Refsum Jensenius](/people/alexander-refsum-jensenius/).

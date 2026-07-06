@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: ole-andreas-rognstad
 name: Ole-Andreas Rognstad
@@ -10,6 +11,7 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects:
+- ai-and-legal-protection-of-personal-characteristics
 - copyright-and-personality-rights-ai-era
 other_projects:
 - title: 'Bærekraftige markeder: Rettslige rammer for innovasjon og konkurranse for

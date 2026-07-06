@@ -250,7 +250,8 @@ selected_works:
     slug: pedro-lucas
     url: /people/pedro-lucas/
 source_mentions: []
-summary: ''
+summary: His doctoral work is supervised by Professor Kyrre Glette and Professor
+  Stefano Fasciani.
 wps:
 - WP1
 permalink: /people/pedro-lucas/
@@ -259,3 +260,5 @@ redirect_from:
 ---
 
 Bio coming soon.
+
+His doctoral work is supervised by Professor [Kyrre Glette](/people/kyrre-glette/) and Professor [Stefano Fasciani](/people/stefano-fasciani/).

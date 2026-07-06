@@ -178,7 +178,10 @@ selected_works:
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
 source_mentions: []
-summary: ''
+summary: Vincenzo Madaghiele is a musician and researcher working on improvisation
+  with algorithmic techniques. He is a doctoral researcher in musicology at the University
+  of Oslo, where he investigates the design and application of autonomous systems
+  in music improvisation. His doctoral work is supervised by Professor Stefano Fasciani.
 wps:
 - WP1
 permalink: /people/vincenzo-madaghiele/
@@ -187,3 +190,5 @@ redirect_from:
 ---
 
 Vincenzo Madaghiele is a musician and researcher working on improvisation with algorithmic techniques. He combines sound-generating processes from various sources into feedback systems focusing on dynamic and textural relations. He is currently a doctoral researcher in musicology at the University of Oslo, where he investigates the design and application of autonomous systems in music improvisation.
+
+His doctoral work is supervised by Professor [Stefano Fasciani](/people/stefano-fasciani/).
