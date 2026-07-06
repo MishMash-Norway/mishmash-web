@@ -20,21 +20,28 @@ description: "Frequently asked questions about MishMash: the name, the emblem, f
 <details class="faq-item" id="what-is-mishmash" markdown="1">
 <summary><span class="faq-summary-text">What is MishMash?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash is a national research centre dedicated to exploring AI in and through creative practices. It brings together researchers across disciplines and institutions to develop new knowledge, methods, and applications at the intersection of AI, creativity, and society. Read more in the [centre description](/about/description/).
+MishMash is a Norwegian research centre dedicated to exploring AI *in* and *through* creative practices. It brings together researchers across disciplines and institutions to develop new knowledge, methods, and applications at the intersection of AI, creativity, and society. Read more in the [centre description](/about/description/).
 
 </details>
 
 <details class="faq-item" id="what-does-the-name-mean" markdown="1">
 <summary><span class="faq-summary-text">What does the name MishMash mean?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash is not an acronym — it is exactly what it sounds like. When the founders started sketching the centre, their ideas were scattered across disciplines and institutions and "it all felt like a *mishmash*". The word began as a working title but proved so memorable that it stuck: among more than a hundred competing centre proposals pitched to the Research Council of Norway, the name was the one people remembered. It also captures the centre's mission — merging a deliberate mix of artistic and scientific disciplines into something new. Read [the full story of the name](https://www.arj.no/2025/06/14/mishmash-name/).
+MishMash is not an acronym; it is a description of how the founders perceived of the assembled group of people and institutions when the application process started out. At first, MishMash was only thought of as the working title for the proposal. However, it proved so memorable that it stuck. Among more than 150 competing centre proposals pitched to the Research Council of Norway in 2024, the name was one of a few people remembered. It also captures the centre's mission — merging a deliberate mix of artistic and scientific disciplines into something new. Read [the full story of the name](https://www.arj.no/2025/06/14/mishmash-name/).
 
 </details>
 
 <details class="faq-item" id="what-is-the-emblem-story" markdown="1">
 <summary><span class="faq-summary-text">What is the story behind the MishMash emblem?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-The emblem's overlapping circles symbolise two things at once: AI as a *meeting point between humans and machines*, and MishMash as a centre doing both artistic and scientific research — with the centre itself in the overlap. It started as a rough sketch by the centre director for early presentations and was refined by the designers at Appex, the same studio behind the RITMO centre's emblem, along with the "MishMash cube" that summarises the centre's themes, approaches, and perspectives. Fittingly for a centre studying AI, the emblem itself was made entirely by humans. Read [the full story of the emblem](https://www.arj.no/2025/06/29/the-mishmash-emblem/).
+The emblem's overlapping circles symbolise two things at once: AI as a *meeting point between humans and machines*, and MishMash as a centre doing both artistic and scientific research (and various combinations of the two approaches). The emblem was sketched by the centre director during one of the first application workshops and was refined by the designers at Appex design studio. Fittingly for a centre studying AI, the emblem itself was made entirely by humans. Read [the full story of the emblem](https://www.arj.no/2025/06/29/the-mishmash-emblem/).
+
+</details>
+
+<details class="faq-item" id="what-is-the-cube-story" markdown="1">
+<summary><span class="faq-summary-text">What is the story behind the MishMash cube?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+The cube was proposed during one of the early application workshops to explain the multidimensionality of the centre's themes, approaches, and perspectives. It shows the seven work packages on the front, which govern the organisational structure of MishMash. One of the other sides shows how we aim to combine perspectives from creating, exploring, and reflecting on AI in all work packages. Equally important is to think about how AI influences both machines, humans, and society at large. The visual look was refined by the designers at Appex design studio. Read [the full story of the cube](https://www.arj.no/2025/06/29/the-mishmash-emblem/).
 
 </details>
 
@@ -44,7 +51,7 @@ The emblem's overlapping circles symbolise two things at once: AI as a *meeting 
 MishMash operates as a distributed, collaborative network rather than a single centralized organisation.
 
 * Research activities are organised into [work packages](#what-are-work-packages), which form the core of the centre’s work
-* Each work package has its own leadership and research agenda — see the [Work Package Leader Group](/about/organisation/wp-leaders/)
+* Each work package has its own [leadership and research agenda](/about/organisation/wp-leaders/)
 * A [central management team](/about/organisation/management/) and [board](/about/organisation/board/) provide coordination and strategic oversight
 
 This structure enables broad participation across institutions while maintaining a shared direction. See [Organisation](/about/organisation/) for the full governance structure, including the [Council](/about/organisation/council/) and [Scientific Advisory Board](/about/organisation/scientific-advisory-board/).
@@ -58,7 +65,7 @@ Work packages (WPs) are the main organisational units for research and collabora
 
 * Each WP focuses on a specific theme or research area
 * Researchers and partners participate through one or more WPs
-* Most activities—projects, events, and collaborations—are organised within these units
+* Most activities (projects, events, and collaborations) are organised within these units
 
 The seven work packages are:
 
@@ -77,22 +84,38 @@ The seven work packages are:
 <details class="faq-item" id="who-can-join-mishmash" markdown="1">
 <summary><span class="faq-summary-text">Who can join MishMash?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash connected institutions (partners) and people (members): 
+Everyone! However, keep in mind that MishMash's primary mission is to connect researchers (and their institutions) in Norway. That said, we are also eager to connect to non-academic Norwegian partners and both academic and non-academic international partners (institutions) and members (people). The centre is continuously developing its network and welcomes new collaborations (see below). 
 
-* Partners are institutions (both research-performing and others) that have signed either the original consortium agreement or an associate partner agreement. Check the [institution list](/search/?type=institution) for an overview of connected partners. 
+</details>
 
-* Members are individuals that have signed up for one or more work packages. Many are connected through institutions, but MishMash is also open for non-affiliated researchers. 
+<details class="faq-item" id="partners-vs-members" markdown="1">
+<summary><span class="faq-summary-text">What is the difference between partners and members?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-The centre is continuously developing its network and welcomes new collaborations. It is a research consortium, but non-researchers are also welcome if they are interested in following the research activities.
+*Partners* are institutions (both research-performing and others) that have signed either the original consortium agreement or an associate partner agreement. Check the [institution list](/search/?type=institution) for an overview of connected partners.
+
+*Members* are individuals that have signed up for one or more work packages. Many are connected through institutions, but MishMash is also open for non-affiliated researchers.
 
 </details>
 
 <details class="faq-item" id="how-do-i-become-a-partner" markdown="1">
-<summary><span class="faq-summary-text">How do I become a partner or member?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+<summary><span class="faq-summary-text">How do I become a partner and what do I get?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Institutions and individuals can express interest in joining MishMash by sending an e-mail to [contact@mishmash.no](mailto:contact@mishmash.no) for more information. You will then receive details about roles, expectations, and next steps. Participation typically involves contributing to work packages and collaborative activities.
+Institutions can express interest in becoming an associate partner by sending an e-mail to [contact@mishmash.no](mailto:contact@mishmash.no) for more information. You will then receive details about roles, expectations, and next steps. Participation gives institutions access to the MishMash network and invitation to events. Being a partner is not an end-goal, it should be seen as a door opener for connecting people in the partner institution with people in the MishMash network.
+
+You will not receive any funding by joining as a partner but you do not have to pay anything either. However, we see that many partners apply for (and get!) external funding together with other MishMash partners.
 
 </details>
+
+<details class="faq-item" id="how-do-i-become-a-member" markdown="1">
+<summary><span class="faq-summary-text">How do I become a member and what do I get?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+People can express interest in becoming a MishMash member by sending an e-mail to [contact@mishmash.no](mailto:contact@mishmash.no) for more information. You will then receive details about roles, expectations, and next steps. 
+
+Members are usually connected to a MishMash partner institution, although we are open for members without institutional backing or without a current affiliation. 
+
+You will not receive any funding by joining as a member, but you will be able to apply for seed funding together with other MishMash partners. 
+</details>
+
 
 <details class="faq-item" id="what-is-expected-from-partners" markdown="1">
 <summary><span class="faq-summary-text">What is expected from partners?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
@@ -110,7 +133,7 @@ Many activities rely on shared effort across institutions, rather than central c
 <details class="faq-item" id="what-are-seed-funding-projects" markdown="1">
 <summary><span class="faq-summary-text">What are seed funding projects?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash supports smaller research initiatives through seed funding announced internally in the centre regularly. See the [project pages](/projects/) for examples of ongoing projects.
+MishMash supports smaller research initiatives through seed funding announced internally in the centre regularly. See the [project pages](/projects/) for examples of ongoing projects. Keep in mind that MishMash primarily supports research activities in Norway. International partners can apply, but there should be a solid Norwegian collaboration involved.
 
 </details>
 
@@ -128,7 +151,7 @@ MeshUps provide a lightweight format for connecting across disciplines and insti
 <details class="faq-item" id="are-events-open-to-the-public" markdown="1">
 <summary><span class="faq-summary-text">Are MishMash events open to the public?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Many MishMash activities are open, including the weekly MeshUps and conferences. See the [event page](/events/) for details. Work package events are typically reserved for partners and members. 
+Many MishMash activities are open, including the weekly MeshUps and conferences. See the [event page](/events/) for details. Work package events are typically reserved for members. 
 
 </details>
 
