@@ -180,15 +180,13 @@ selected_works:
 source_mentions:
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md
-summary: 'Synne Tollerud Bull is a media artist, researcher, and Professor, currently
-  serving as Pro-Dean of Research at the School of Arts, Design, and Media at Kristiania
-  University of Applied Sciences. Her work bridges theory and practice to examine
-  how emerging imaging technologies such as drones and AI shape societal structures
-  through mediation in art and visual culture.
-
-
-  She has developed the concept of proxistant vision to describe image forms that
-  combine proximity and distance within a single vi'
+summary: Synne Tollerud Bull is Professor of Media Art and Pro Dean of Research at
+  Kristiania University of Applied Sciences. Working in the artist duo Bull.Miletic
+  with Dragan Miletic, her practice-based research examines artistic intelligence,
+  AI infrastructures, and media ecologies through moving image, installation, and
+  the concepts of cinéma trouvé and proxistance. She co-leads WP2 in MishMash – Centre
+  for AI and Creativity, serves as co-Director of the Kristiania AI Centre (KAI),
+  and AI Ecologies.
 wps:
 - WP2
 - WP5
