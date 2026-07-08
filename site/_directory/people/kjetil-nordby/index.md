@@ -40,6 +40,21 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Assessing Haptic Eco-Feedback in Ship Bridges: A Technology Acceptance Model
+    Study'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3797248.3815405
+  contributors:
+  - name: Karoline Sund Wahl
+    role: Creator
+  - name: Taufik Akbar Sitompul
+    role: Creator
+  - name: Kjetil Nordby
+    role: Creator
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
 - title: Interaction design contributions to standardisation of navigation icons
   year: '2026'
   source: Journal article
@@ -185,22 +200,6 @@ selected_works:
     role: CuratorOrganizer
     slug: kjetil-nordby
     url: /people/kjetil-nordby/
-- title: OpenBridge 6.0
-  year: '2025'
-  source: Design
-  group_type: Design
-  url: https://www.figma.com/community/file/1468161149546275705/openbridge-design-system-6-0-maritime-industrial-ui-ux-components
-  contributors:
-  - name: Jon Erling Fauske
-    role: Designer
-  - name: Kjetil Nordby
-    role: CuratorOrganizer
-    slug: kjetil-nordby
-    url: /people/kjetil-nordby/
-  - name: hanne lockertsen
-    role: Designer
-  - name: Sunniva Wildhagen Lislevand
-    role: Designer
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''
