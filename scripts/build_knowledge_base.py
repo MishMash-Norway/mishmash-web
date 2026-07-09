@@ -22,24 +22,22 @@ import math
 import os
 import re
 
-# ── Site pages to always include ────────────────────────────────────────────
-SITE_SOURCES = [
-    ("about/index.md",   "About MishMash"),
-    ("wp1/index.md",     "WP1: AI for Artistic Performances"),
-    ("wp2/index.md",     "WP2: AI for Creative Processes"),
-    ("wp3/index.md",     "WP3: AI for Well-being"),
-    ("wp4/index.md",     "WP4: AI in Education"),
-    ("wp5/index.md",     "WP5: AI in Creative Industries"),
-    ("wp6/index.md",     "WP6: AI for Cultural Heritage"),
-    ("wp7/index.md",     "WP7: AI for Problem-solving"),
-    ("people/index.md",  "People"),
-]
+# ── Site walking configuration ───────────────────────────────────────────────
+# All published English markdown pages are included. These directories are
+# skipped when walking the site root (collections with dedicated handling,
+# build output, assets, and the Norwegian mirror, which duplicates content).
+SKIP_DIRS = {
+    "_site", "_layouts", "_includes", "_data", "assets", "images",
+    "chat", "no", "ui", "_directory", "_news", "_events",
+}
 
 # Extra documents directory (relative to repo root)
 DOCS_DIR = "chat/docs"
 
-# News directory
+# Collections with dedicated labels
 NEWS_DIR = "_news"
+EVENTS_DIR = "_events"
+DIRECTORY_DIR = "_directory"
 
 STOP_WORDS = {
     'a','an','the','and','or','but','if','in','on','at','to','for','of','with',
@@ -64,8 +62,27 @@ def strip_front_matter(text):
     return text.strip()
 
 
+def parse_front_matter(path):
+    """Return (front matter dict, body) for a markdown file."""
+    import yaml
+    with open(path, encoding='utf-8') as f:
+        raw = f.read()
+    if raw.startswith("---"):
+        end = raw.find("\n---", 3)
+        if end != -1:
+            try:
+                fm = yaml.safe_load(raw[3:end]) or {}
+            except yaml.YAMLError:
+                fm = {}
+            return fm, raw[end + 4:]
+    return {}, raw
+
+
 def clean_text(text):
     """Strip HTML tags, markdown syntax, and excessive whitespace."""
+    # Remove Liquid tags and expressions
+    text = re.sub(r'{%.*?%}', ' ', text, flags=re.DOTALL)
+    text = re.sub(r'{{.*?}}', ' ', text, flags=re.DOTALL)
     # Remove HTML tags
     text = re.sub(r'<[^>]+>', ' ', text)
     # Remove markdown images
@@ -205,35 +222,127 @@ def build_tfidf(chunks):
 
 # ── Main ─────────────────────────────────────────────────────────────────────
 
+def page_label(fm, rel_path):
+    title = str(fm.get('title') or '').strip()
+    if title:
+        return title
+    label = os.path.dirname(rel_path) or rel_path
+    return label.replace('/', ' / ').replace('-', ' ').title() or 'Home'
+
+
+def walk_site_pages(root_dir):
+    """Yield (rel_path, label, body) for every published English page."""
+    for dirpath, dirnames, filenames in os.walk(root_dir):
+        rel_dir = os.path.relpath(dirpath, root_dir)
+        top = rel_dir.split(os.sep)[0]
+        if top in SKIP_DIRS:
+            dirnames[:] = []
+            continue
+        dirnames[:] = [d for d in sorted(dirnames) if not (rel_dir == '.' and d in SKIP_DIRS)]
+        for fname in sorted(filenames):
+            if not fname.endswith('.md'):
+                continue
+            full = os.path.join(dirpath, fname)
+            rel_path = os.path.relpath(full, root_dir)
+            fm, body = parse_front_matter(full)
+            if fm.get('published') is False or fm.get('sitemap') is False:
+                continue
+            yield rel_path, page_label(fm, rel_path), clean_text(body)
+
+
+def directory_entry_chunks(root_dir):
+    """One compact chunk per published person/project/institution entry."""
+    chunks = []
+    sections = [
+        ('people', 'Person'),
+        ('projects', 'Project'),
+        ('institutions', 'Institution'),
+    ]
+    for section, kind in sections:
+        base = os.path.join(root_dir, DIRECTORY_DIR, section)
+        if not os.path.isdir(base):
+            continue
+        count = 0
+        for slug in sorted(os.listdir(base)):
+            if slug.startswith('_'):
+                continue
+            index_md = os.path.join(base, slug, 'index.md')
+            if not os.path.exists(index_md):
+                continue
+            fm, body = parse_front_matter(index_md)
+            if fm.get('published') is False:
+                continue
+            name = str(fm.get('name') or slug).strip()
+            facts = []
+            if kind == 'Person':
+                position = str(fm.get('position') or '').strip()
+                department = str(fm.get('department') or '').strip()
+                if position:
+                    facts.append(f"{name} is {position}" + (f" at {department}" if department else "") + ".")
+                wps = fm.get('wps') or []
+                if wps:
+                    facts.append(f"Work packages: {', '.join(map(str, wps))}.")
+            summary = str(fm.get('summary') or '').strip()
+            text_parts = facts + ([summary] if summary else [])
+            body_text = clean_text(body)
+            if body_text and body_text.lower() not in ('bio.', 'bio coming soon.'):
+                text_parts.append(body_text)
+            text = '\n\n'.join(dict.fromkeys(text_parts))
+            if len(text.split()) < 10:
+                continue
+            for chunk in split_into_chunks(text, f"{kind}: {name}"):
+                chunk['source'] = f"{kind}: {name}"
+                chunks.append(chunk)
+            count += 1
+        print(f"  _directory/{section}: {count} entries")
+    return chunks
+
+
 def build(root_dir='.'):
     all_chunks = []
 
-    # 1. Site pages
+    # 1. Site pages (all published English markdown)
     print("Processing site pages…")
-    for rel_path, label in SITE_SOURCES:
-        full = os.path.join(root_dir, rel_path)
-        if not os.path.exists(full):
-            print(f"  not found: {rel_path}")
-            continue
-        text = read_markdown(full)
+    page_count = 0
+    for rel_path, label, text in walk_site_pages(root_dir):
         chunks = split_into_chunks(text, label)
-        print(f"  {rel_path}: {len(chunks)} chunks")
-        all_chunks.extend(chunks)
+        for chunk in chunks:
+            if chunk['source'] != label:
+                chunk['source'] = f"{label} — {chunk['source']}"
+        if chunks:
+            page_count += 1
+            all_chunks.extend(chunks)
+    print(f"  {page_count} pages")
 
-    # 2. News items
-    news_path = os.path.join(root_dir, NEWS_DIR)
-    if os.path.isdir(news_path):
-        news_chunks = []
-        for fname in sorted(os.listdir(news_path)):
+    # 2. Directory entries (people, projects, institutions)
+    print("Processing directory…")
+    all_chunks.extend(directory_entry_chunks(root_dir))
+
+    # 3. News and events
+    for coll_dir, prefix in ((NEWS_DIR, 'News'), (EVENTS_DIR, 'Event')):
+        coll_path = os.path.join(root_dir, coll_dir)
+        if not os.path.isdir(coll_path):
+            continue
+        coll_chunks = []
+        for fname in sorted(os.listdir(coll_path)):
             if not fname.endswith('.md'):
                 continue
-            text = read_markdown(os.path.join(news_path, fname))
-            label = "News: " + re.sub(r'^\d{4}-\d{2}-\d{2}-', '', fname[:-3]).replace('-', ' ').title()
-            news_chunks.extend(split_into_chunks(text, label))
-        print(f"  _news/: {len(news_chunks)} chunks")
-        all_chunks.extend(news_chunks)
+            full = os.path.join(coll_path, fname)
+            fm, body = parse_front_matter(full)
+            if fm.get('published') is False:
+                continue
+            title = str(fm.get('title') or '').strip() or re.sub(
+                r'^\d{4}-\d{2}-\d{2}-', '', fname[:-3]).replace('-', ' ').title()
+            date = re.match(r'^(\d{4}-\d{2}-\d{2})-', fname)
+            label = f"{prefix}: {title}" + (f" ({date.group(1)})" if date else "")
+            text = clean_text(body)
+            for chunk in split_into_chunks(text, label):
+                chunk['source'] = label
+                coll_chunks.append(chunk)
+        print(f"  {coll_dir}/: {len(coll_chunks)} chunks")
+        all_chunks.extend(coll_chunks)
 
-    # 3. Extra documents in chat/docs/
+    # 4. Extra documents in chat/docs/
     docs_path = os.path.join(root_dir, DOCS_DIR)
     if os.path.isdir(docs_path):
         print(f"\nProcessing extra documents in {DOCS_DIR}/…")
