@@ -1,4 +1,4 @@
-synced_at: '2026-07-08T07:39:44Z'
+synced_at: '2026-07-09T08:35:21Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -168,15 +168,15 @@ results:
       url: /people/ragnhild-brovig/
     title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
       Currently Used in Music Production
-    container: 'In Hepworth-Sawyer, Russ, Paterson, Justin, Marrington, Mark, Toulson,
-      Rob, Gullö, Jan-Olof, Andersen, Claus Sohn (Eds.), Innovation in Music: Current
+    container: 'In Marrington, Mark, Hepworth-Sawyer, Russ, Toulson, Rob, Andersen,
+      Claus Sohn, Paterson, Justin, Gullö, Jan-Olof (Eds.), Innovation in Music: Current
       Research Perspectives.'
-    details: Routledge. ISBN 9781032757858.
+    details: 'Routledge. ISBN 9781032757858. doi: 10.4324/9781003475675-9.'
     abstract: ''
     full_text_url: https://hdl.handle.net/11250/5331540
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019b22052adc-18ac17fb-eda5-46c7-8d3b-e1176110c991
-  url: https://www.routledge.com/Innovation-in-Music-Current-Research-Perspectives/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757858
+  url: https://doi.org/10.4324/9781003475675-9
   nva_url: https://nva.sikt.no/publication/019b22052adc-18ac17fb-eda5-46c7-8d3b-e1176110c991
 - title: Technologies of Capture and the Global Souths
   year: '2025'
@@ -1134,6 +1134,427 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: Musikksektoren – Nåtid og fremtid
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Musikksektoren – Nåtid og fremtid
+    container: Melbukonferansen.
+    details: Melbu.
+    abstract: Alexander Refsum Jensenius presenterer om sin forskning som omfatter
+      blant annet kroppslige dimensjoner ved musikkopplevelse og -utøvelse, som kombinerer
+      perspektiver fra musikkvitenskap, psykologi og teknologi. Hans arbeid har som
+      mål å frembringe både vitenskapelige og kunstneriske resultater.
+    full_text_url: https://hdl.handle.net/11250/5535481
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f43ef873a-6b2ad553-c46e-45b6-9c8e-1faacb7d1385
+  url: https://www.nordland-akademi.no/sommer2026.html#melbukonf26
+  nva_url: https://nva.sikt.no/publication/019f43ef873a-6b2ad553-c46e-45b6-9c8e-1faacb7d1385
+- title: Musikklandet 2050
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Musikklandet 2050
+    container: Årsmøtehelgen 2026.
+    details: Fredrikstad.
+    abstract: En presentasjon med tanker om musikklivet i 2050 og hvordan teknologi
+      (og særlig KI) kommer til å påvirke musikkbransjen.
+    full_text_url: https://hdl.handle.net/11250/5535480
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f43e16fcd-14ffa585-9b55-433b-9a5c-bb32201b8249
+  url: https://www.musikk.no/prosjekt/fredrikstad2026
+  nva_url: https://nva.sikt.no/publication/019f43e16fcd-14ffa585-9b55-433b-9a5c-bb32201b8249
+- title: My way to a research career
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: My way to a research career
+    container: Seminar for yngre forskningsledere.
+    details: Oslo.
+    abstract: A presentation talking about how I ended up as a centre director, where
+      I started from, and which choices I made along the way.
+    full_text_url: https://hdl.handle.net/11250/5535479
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f43dbe6d5-e79630af-4cc7-4233-8535-bd82b8a6e40b
+  nva_url: https://nva.sikt.no/publication/019f43dbe6d5-e79630af-4cc7-4233-8535-bd82b8a6e40b
+- title: 'AI and Caring Futures: Creativity, Learning and Empowerment'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Barbara Wasson
+    role: Creator
+  - name: Adio-Adet Dinika
+    role: Creator
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Birgitte Aga
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  citation:
+    authors:
+    - display: Wasson, Barbara
+      name: Barbara Wasson
+    - display: Dinika, Adio-Adet
+      name: Adio-Adet Dinika
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Aga, Birgitte
+      name: Birgitte Aga
+    title: 'AI and Caring Futures: Creativity, Learning and Empowerment'
+    container: SDG Conference.
+    details: Oslo.
+    abstract: The closing session of the SDG conference will also represent an opening
+      – towards provoking thoughts and emotions, plural perspectives and anticipation
+      of futures simultaneously too far and too near to grasp. The evening will bring
+      exhilarating possibilities of ontological shifts, deep listening and embodied
+      perception through collaborative human-technology movement and critical conversations.
+      But let’s not forget, there will also be the comfort of food, laughter and relaxation
+      after two full, invigorating conference days where we have aimed, and hopefully
+      succeeded, to hold complexity without slipping into solutionism or despair.
+    full_text_url: https://hdl.handle.net/11250/5535478
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f43d28697-4c35313b-3599-4bcb-b41b-a250888bb0c5
+  url: https://uni.oslomet.no/sdgconference/program-day-2/
+  nva_url: https://nva.sikt.no/publication/019f43d28697-4c35313b-3599-4bcb-b41b-a250888bb0c5
+- title: Har statlig finansiert kunst et større etisk ansvar i møte med KI?
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Nils Petter Mørland
+    role: Creator
+  - name: Ingjerd Egeberg
+    role: Creator
+  - name: Christopher Pahle
+    role: Creator
+  - name: Hans Ole Rian
+    role: Creator
+  - name: Åsmund Færavaag
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Mørland, Nils Petter
+      name: Nils Petter Mørland
+    - display: Egeberg, Ingjerd
+      name: Ingjerd Egeberg
+    - display: Pahle, Christopher
+      name: Christopher Pahle
+    - display: Rian, Hans Ole
+      name: Hans Ole Rian
+    - display: Færavaag, Åsmund
+      name: Åsmund Færavaag
+    title: Har statlig finansiert kunst et større etisk ansvar i møte med KI?
+    container: 'KI: The yellow brick road?.'
+    details: Oslo.
+    abstract: I likhet med en rekke bransjer, står kunst- og kulturfeltet overfor
+      store endringer preget av digitalisering og fremveksten av kunstig intelligens
+      (KI). Representanter fra statlige teaterinstitusjoner, selvstendige scenekunstnere
+      og forskere møtes til samtale om hverdagen for scenekunstnere og framtida for
+      vår bransje i lys av den teknologiske utviklingen.
+    full_text_url: https://hdl.handle.net/11250/5535477
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f43c5ea23-2699d73e-f3aa-42da-bf3b-6e572d110736
+  url: https://www.heddadagene.no/event/theyellowbrickroadBikuben
+  nva_url: https://nva.sikt.no/publication/019f43c5ea23-2699d73e-f3aa-42da-bf3b-6e572d110736
+- title: What can the Centre for Global Sustainability do for UiO – and the other
+    way around?
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Geir Kjetil Ferkingstad Sandve
+    role: Creator
+  - name: Elin Lerum Boasson
+    role: Creator
+  - name: Marius Timmann Mjaaland
+    role: Creator
+  - name: Brit Lisa Skjelkvåle
+    role: Creator
+  - name: Kåre Moen
+    role: Creator
+  - name: Helge Jordheim
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Sandve, Geir Kjetil Ferkingstad
+      name: Geir Kjetil Ferkingstad Sandve
+    - display: Boasson, Elin Lerum
+      name: Elin Lerum Boasson
+    - display: Mjaaland, Marius Timmann
+      name: Marius Timmann Mjaaland
+    - display: Skjelkvåle, Brit Lisa
+      name: Brit Lisa Skjelkvåle
+    - display: Moen, Kåre
+      name: Kåre Moen
+    - display: Jordheim, Helge
+      name: Helge Jordheim
+    title: What can the Centre for Global Sustainability do for UiO – and the other
+      way around?
+    container: 'Strategy 2030: Centre for Global Sustainability.'
+    details: Asker.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5535476
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f43bc537e-aaa661c5-dc28-4ce3-afa3-c65f763d78fa
+  nva_url: https://nva.sikt.no/publication/019f43bc537e-aaa661c5-dc28-4ce3-afa3-c65f763d78fa
+- title: MishMash@NORA.AI
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: MishMash@NORA.AI
+    container: NORA Annual Conference.
+    details: Oslo.
+    abstract: A presentation held at the annual NORA AI conference about MishMash.
+      The centre will conduct research on how AI promotes and challenges creativity,
+      including issues related to copyright and regulation. The research results are
+      relevant for many actors, and especially for creative industries such as film,
+      music, design and literature, and for public and private actors in health, education
+      and cultural heritage.
+    full_text_url: https://hdl.handle.net/11250/5535475
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f43b21079-0393a3db-694b-44b3-837a-a22e77432058
+  url: https://www.nora.ai/nora-events/annual-conference-2026/program2026.html
+  nva_url: https://nva.sikt.no/publication/019f43b21079-0393a3db-694b-44b3-837a-a22e77432058
+- title: The Official Opening of MishMash Centre for AI and Creativity
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: The Official Opening of MishMash Centre for AI and Creativity
+    container: The Official Opening of MishMash Centre for AI and Creativity.
+    details: Oslo.
+    abstract: On April 8, 2026, the University of Oslo (UiO) hosted a launch event
+      in the University Aula for MishMash, one of Norway's six new national research
+      centres for artificial intelligence. The primary objective of MishMash is to
+      create, explore, and reflect on AI for, through, and in creative practices.
+    full_text_url: https://hdl.handle.net/11250/5535474
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f43a38325-91aee3be-fba3-4411-88a9-e6dbd8e1ba65
+  url: https://www.youtube.com/watch?v=rq8UnZlzYk4
+  nva_url: https://nva.sikt.no/publication/019f43a38325-91aee3be-fba3-4411-88a9-e6dbd8e1ba65
+- title: Hvordan endrer KI-agenter forskningsprosessen?
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Anders Malthe-Sørenssen
+    role: Creator
+  - name: Fabian Andsem Harang
+    role: Creator
+  - name: Victoria Christine Årang Johnson
+    role: Creator
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Jacob Nyrup
+    role: Creator
+  - name: Knut-Andreas Lie
+    role: Creator
+  - name: Geir Kjetil Ferkingstad Sandve
+    role: Creator
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: Norwegian Academy of Music
+    slug: norwegian-academy-of-music
+    url: /institutions/norwegian-academy-of-music/
+  - name: Norwegian University of Science and Technology
+    slug: norwegian-university-of-science-and-technology
+    url: /institutions/norwegian-university-of-science-and-technology/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: BI Norwegian Business School
+    slug: bi-norwegian-business-school
+    url: /institutions/bi-norwegian-business-school/
+  - name: Barratt Due Institute of Music
+    slug: barratt-due-institute-of-music
+    url: /institutions/barratt-due-institute-of-music/
+  - name: SINTEF Digital
+    slug: sintef-digital
+    url: /institutions/sintef-digital/
+  citation:
+    authors:
+    - display: Malthe-Sørenssen, Anders
+      name: Anders Malthe-Sørenssen
+    - display: Harang, Fabian Andsem
+      name: Fabian Andsem Harang
+    - display: Johnson, Victoria Christine Årang
+      name: Victoria Christine Årang Johnson
+      slug: victoria-johnson
+      url: /people/victoria-johnson/
+    - display: Nyrup, Jacob
+      name: Jacob Nyrup
+    - display: Lie, Knut-Andreas
+      name: Knut-Andreas Lie
+    - display: Sandve, Geir Kjetil Ferkingstad
+      name: Geir Kjetil Ferkingstad Sandve
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Hvordan endrer KI-agenter forskningsprosessen?
+    container: Hvordan endrer KI-agenter forskningsprosessen?.
+    details: Oslo.
+    abstract: Dette møtet vil ta for seg de forskningsetiske spørsmålene som reiser
+      seg i møte med bruken av KI-agenter i forskning
+    full_text_url: https://hdl.handle.net/11250/5535473
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f439b567b-f8c806c3-7a53-4978-9b73-3ae465113471
+  url: https://www.dnva.no/detskjer/2026/03/hvordan-endrer-ki-agenter-forskningsprosessen
+  nva_url: https://nva.sikt.no/publication/019f439b567b-f8c806c3-7a53-4978-9b73-3ae465113471
+- title: MishMash, nytt nasjonalt KI-senter
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: MishMash, nytt nasjonalt KI-senter
+    container: IT-forum 2026.
+    details: Bergen.
+    abstract: Denne presentasjonen forteller om det nye norske KI-senteret Mishmash.
+      Rundt 200 forskere vil i årene fremover jobbe med både utfordringer og muligheter
+      ved bruk av KI i kunst og kultur, særlig knyttet til opphavsrett, personvern
+      og fremtiden for kreative fag. Målet er å utforske og utvikle ansvarlig bruk
+      av KI i blant annet musikk, utdanning, helse, kulturvern og kreativ næring.
+    full_text_url: https://hdl.handle.net/11250/5535472
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f437d37c5-fab53e6f-1e97-43a1-842d-5394ef1a4f72
+  url: https://www.uib.no/it/181268/it-forum-2026#program-torsdag-9-april
+  nva_url: https://nva.sikt.no/publication/019f437d37c5-fab53e6f-1e97-43a1-842d-5394ef1a4f72
 - title: Muligheter innen KI og kreativitet
   year: '2026'
   type: Lecture
@@ -1157,7 +1578,8 @@ results:
     title: Muligheter innen KI og kreativitet
     container: Personalseminar.
     details: Oslo.
-    abstract: En presentasjon om det nye MishMash-senteret på personalansvar ved OsloMet.
+    abstract: En presentasjon om det nye nasjonale MishMash-senteret med fokus på
+      utfordringer og muligheter med KI innen kunstfagene.
     full_text_url: https://hdl.handle.net/11250/5532768
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019f0aa74b32-25a4e835-f392-40bb-8df5-a908873de20c

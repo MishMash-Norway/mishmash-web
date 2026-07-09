@@ -1,8 +1,6 @@
 ---
 type: person
 slug: ragnhild-brovig
-redirect_from:
-- /directory/people/ragnhild-brovig/
 name: Ragnhild Brøvig
 title: Ragnhild Brøvig
 position: Professor
@@ -46,7 +44,7 @@ selected_works:
   year: '2026'
   source: Book chapter
   group_type: Book chapter
-  url: https://www.routledge.com/Innovation-in-Music-Current-Research-Perspectives/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757858
+  url: https://doi.org/10.4324/9781003475675-9
   contributors:
   - name: Jon Marius Aareskjold-Drecker
     role: Creator
@@ -201,6 +199,8 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''
+redirect_from:
+- /directory/people/ragnhild-brovig/
 wps:
 - WP5
 permalink: /people/ragnhild-brovig/

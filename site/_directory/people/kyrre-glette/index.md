@@ -41,8 +41,30 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Computational Neuroscience
+- Artificial Life
+- Computer Science
+- Field Programmable Gate Array
+- Bio Inspired Algorithms
+- Robotics
+- Embedded Systems
+- Evolutionary Computation
+- Informatics
+- Artificial intelligence
+- Music Technology
+search_keywords:
+- Computational Neuroscience
+- Artificial Life
+- Computer Science
+- Field Programmable Gate Array
+- Bio Inspired Algorithms
+- Robotics
+- Embedded Systems
+- Evolutionary Computation
+- Informatics
+- Artificial intelligence
+- Music Technology
 selected_works:
 - title: Sensor movement drives emergent attention and scalability in active neural
     cellular automata

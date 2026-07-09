@@ -30,6 +30,16 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Human-Swarm Interactive Music Systems: Exploring Collaborative Sonic Creation
+    Between Humans and Autonomous Agents'
+  year: '2026'
+  source: PhD thesis
+  group_type: PhD thesis
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
 - title: 'HS-ims: A Platform for Human-Swarm Interactive Music Systems'
   year: '2025'
   source: Book chapter
@@ -239,19 +249,9 @@ selected_works:
     url: /people/pedro-lucas/
   - name: Enrique Peláez
     role: Creator
-- title: 'AuSynthAR: A simple low-cost modular synthesizer based on Augmented Reality'
-  year: '2019'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.5281/zenodo.3673011
-  contributors:
-  - name: Pedro Pablo Lucas Bravo
-    role: Creator
-    slug: pedro-lucas
-    url: /people/pedro-lucas/
 source_mentions: []
-summary: His doctoral work is supervised by Professor Kyrre Glette and Professor
-  Stefano Fasciani.
+summary: His doctoral work is supervised by Professor Kyrre Glette and Professor Stefano
+  Fasciani.
 wps:
 - WP1
 permalink: /people/pedro-lucas/

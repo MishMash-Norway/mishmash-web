@@ -3,7 +3,6 @@ type: person
 slug: jon-marius-aareskjold-drecker
 name: Jon Marius Aareskjold-Drecker
 title: Jon Marius Aareskjold-Drecker
-description: Senior lecturer, Department of Musicology, University of Oslo
 position: Senior lecturer
 department: Department of Musicology
 image: /assets/images/portraits/Jon_Marius_Aareskjold-Drecker_UiT.jpg
@@ -58,7 +57,7 @@ selected_works:
   year: '2026'
   source: Book chapter
   group_type: Book chapter
-  url: https://www.routledge.com/Innovation-in-Music-Current-Research-Perspectives/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757858
+  url: https://doi.org/10.4324/9781003475675-9
   contributors:
   - name: Jon Marius Aareskjold-Drecker
     role: Creator
@@ -246,6 +245,7 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''
+description: Senior lecturer, Department of Musicology, University of Oslo
 permalink: /people/jon-marius-aareskjold-drecker/
 redirect_from:
 - /directory/people/jon-marius-aareskjold-drecker/
