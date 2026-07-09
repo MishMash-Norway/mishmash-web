@@ -1,7 +1,19 @@
 ---
 layout: page
-title: "I have received seed funding from MishMash. Now what?"
+title: Information to leaders of MishMash seed-funded projects
 ---
+
+<!-- markdownlint-disable MD041 -->
+
+## On this page
+
+- [I have received seed funding from MishMash. Now what?](#i-have-received-seed-funding-from-mishmash-now-what)
+- [Budget partners](#budget-partners)
+- [Associated partners](#associated-partners)
+- [Partners at UiO](#partners-at-uio)
+- [Contact](#contact)
+
+## I have received seed funding from MishMash. Now what?
 
 If you have received an email notifying you that your application for seed funding from MishMash has been approved, you may start working on the project. Before you begin, please note the following:
 
@@ -55,3 +67,4 @@ If you are employed at UiO, follow these steps:
 ## Contact
 
 For questions, clarification and feedback, please contact [e.m.sather@imv.uio.no](mailto:e.m.sather@imv.uio.no).
+<!-- markdownlint-enable MD041 -->

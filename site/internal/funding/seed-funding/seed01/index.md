@@ -54,7 +54,7 @@ Please keep in mind that there will be new opportunities coming up at regular in
 |Picturemarks |Ole Goethe |Kristiania |0 |
 |Steerable AI Systems for Real-Time Brain-Computer Interfaces: fNIRS_to_Live |Juan Sebastián Vassallo |independent |0 |
 |[RhyGlyph to RhyDiff to RhySeq: A radial trajectory-based rhythm sequencer](/projects/rhyglyph-rhydiff-rhyseq/) |Cagri Erdem |UiO |31900 |
-|Multi-modal Emotion Recognition |Ali Ramezani-Kebrya |UiO |0 |
+|Multi-Modal Emotion Recognition |Ali Ramezani-Kebrya |UiO |0 |
 |[Intensifying the brain pleasure responses to music that is adapted by AI in real-time](/projects/intensifying-brain-pleasure-responses-music/) |Sascha Frühholz |UiO |49940 |
 |Speculative AI for Sound Synthesis |David Pirrò |Institute of Electronic Music and Acoustics |0 |
 |[AI-Assisted Film Production through Vita Vigeland](/projects/ai-assisted-film-production-vita-vigeland/) |Henning Birkeland |Kristiania |30000 |
@@ -64,7 +64,7 @@ Please keep in mind that there will be new opportunities coming up at regular in
 |[When Creativity Meets Criticality](/projects/when-creativity-meets-criticality/) |Bjørn Tallak Bakken |INN/HHS/OLS |50000 |
 |[Scoping review of Creative AI in teaching and learning](/projects/scoping-review-creative-ai-teaching-learning/) |Sidsel Karlsen |NMH |22500 |
 |[Bingo: AI-Assisted Animation for Documentary Film](/projects/bingo-ai-assisted-animation-documentary-film/) |Tonje Louise Finne |INN |50000 |
-|A New Grammar Of CreAItivity |Zacharias Andreadakis |HVL |0 |
+|A New Grammar of CreAItivity |Zacharias Andreadakis |HVL |0 |
 |[Evaluation of Cultural Bias and Workflow in AI Music Generation](/projects/evaluation-cultural-bias-workflow-ai-music-generation/) |Shayan Dadman |UiT |50000 |
 |[Tool for tools](/projects/tool-for-tools/) |Troels Linde |INN |32000 |
 |[KI i kunstnerisk utdanning og praksis.](/projects/ki-i-kunstnerisk-utdanning-og-praksis/) |Tiril Schrøder |Kunsthøgskolen i Oslo |30000 |
@@ -75,12 +75,12 @@ Please keep in mind that there will be new opportunities coming up at regular in
 |[Environmental sustainability in MishMash: context and knowledge-base](/projects/environmental-sustainability-mishmash/) |Lina Plataniti |NORSUS |50000 |
 |AI as the Fifth Team Member |Jannicke Johansen |Kristiania |0 |
 |[AI as Environment](/projects/ai-as-environment/) |Synne Tollerud Bull |Kristiania |37000 |
-|NB's Hardanger fiddle performance transcription AI model |Olivier Lartillot |UiO |0 |
+|NB's Hardanger Fiddle Performance Transcription AI Model |Olivier Lartillot |UiO |0 |
 |Design for Dissemination |Aedan Soellaart |INN |0 |
 |[Movement-to-Music Hackathon: AI Pose Detection for Therapeutic and Wellbeing Applications](/projects/movement-to-music-hackathon/) |Andreas Bergsland |NTNU |45000 |
 |[Teacher Resources for Critical AI Literacy](/projects/teacher-resources-critical-ai-literacy/) |Eirik Sørbø |UiA |36800 |
-|Interactive AI-driven book experiences |Eirik Sørbø |UiA |0 |
+|Interactive AI-Driven Book Experiences |Eirik Sørbø |UiA |0 |
 |[TAO - Transductive Acoustic Organism](/projects/tao-transductive-acoustic-organism/) |enrique encinas |AHO |25000 |
-|Composition using text-sound-video multimodal machine learning |Zoi Efstathiou |NMH |0 |
-|Cinema Syntethica Lab 4.0 - Co-creating film with AI |Hanne-Lovise Skartveit |INN |0 |
+|Composition Using Text-Sound-Video Multimodal Machine Learning |Zoi Efstathiou |NMH |0 |
+|Cinema Syntethica Lab 4.0 - Co-Creating Film with AI |Hanne-Lovise Skartveit |INN |0 |
 

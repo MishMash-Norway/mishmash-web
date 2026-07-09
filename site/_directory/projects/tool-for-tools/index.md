@@ -18,7 +18,7 @@ tags:
 - infrastructure
 - Collaboration
 slug: tool-for-tools
-name: Tool for tools
+name: Tool for Tools
 people:
 - irina-eidsvold
 - kjetil-nordby

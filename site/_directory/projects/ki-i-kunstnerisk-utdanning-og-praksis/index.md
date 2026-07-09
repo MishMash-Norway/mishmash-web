@@ -12,7 +12,7 @@ tags:
 - Workshop
 - Ethics
 slug: ki-i-kunstnerisk-utdanning-og-praksis
-name: KI i kunstnerisk utdanning og praksis
+name: KI i Kunstnerisk Utdanning og Praksis
 people:
 - gro-skaland
 - oystein-stene
