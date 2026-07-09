@@ -5,8 +5,6 @@ title: Information to leaders of MishMash seed-funded projects
 
 <!-- markdownlint-disable MD041 -->
 
-## On this page
-
 - [I have received seed funding from MishMash. Now what?](#i-have-received-seed-funding-from-mishmash-now-what)
 - [Budget partners](#budget-partners)
 - [Associated partners](#associated-partners)
