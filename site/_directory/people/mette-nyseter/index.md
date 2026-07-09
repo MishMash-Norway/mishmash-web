@@ -9,7 +9,8 @@ image: /assets/images/portraits/Mette_Nyseter_INN.jpg
 institution: university-of-inland-norway
 institutions:
 - university-of-inland-norway
-projects: []
+projects:
+- authentic-anonymity-in-documentary-film
 other_projects:
 - title: Rollespill som metode i kunstnerisk og pedagogisk utviklingsarbeid innen
     TV - og dokumentarfilmproduksjon

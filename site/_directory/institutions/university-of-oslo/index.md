@@ -50,14 +50,18 @@ people:
 - vincenzo-madaghiele
 - zacharias-andreadakis
 projects:
+- agency-and-control-in-musical-ensemble
 - ai-and-legal-protection-of-personal-characteristics
 - ai-as-environment
 - copyright-and-personality-rights-ai-era
 - evaluation-cultural-bias-workflow-ai-music-generation
 - human-machine-consciousness
 - intensifying-brain-pleasure-responses-music
+- madelaines
+- music-archive-of-the-future
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq
+- scsci-workshops-and-concert
 - the-mishmash-website
 - tool-for-tools
 - when-creativity-meets-criticality

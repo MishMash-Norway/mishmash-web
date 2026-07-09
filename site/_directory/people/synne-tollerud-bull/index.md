@@ -15,6 +15,7 @@ affiliation_units:
 - Westerdals Department of Film and Media
 projects:
 - ai-as-environment
+- curating-ai-driven-artistic-processes
 - tao-transductive-acoustic-organism
 other_projects:
 - title: 'Kunstens co-pilot: Kunst og KI i et prosessøkologisk perspektiv'

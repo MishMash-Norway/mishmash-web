@@ -19,6 +19,8 @@ people:
 - yngvil-beyer
 projects:
 - ai-as-environment
+- music-archive-of-the-future
+- picturemarks
 country: null
 city: null
 urls:

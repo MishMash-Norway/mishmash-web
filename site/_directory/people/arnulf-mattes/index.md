@@ -13,7 +13,8 @@ affiliation_units:
 - University of Bergen
 - Faculty of Fine Art, Music and Design
 - The Grieg Academy &#8211; Department of Music
-projects: []
+projects:
+- music-archive-of-the-future
 roles:
 - Work package leader
 urls:

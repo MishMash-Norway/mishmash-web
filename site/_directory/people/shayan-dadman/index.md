@@ -9,6 +9,7 @@ institution: arctic-university-of-norway
 institutions:
 - arctic-university-of-norway
 projects:
+- ai-transcription-of-music
 - evaluation-cultural-bias-workflow-ai-music-generation
 roles:
 - Member

@@ -8,7 +8,8 @@ department: Department of Musicology
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
+projects:
+- agency-and-control-in-musical-ensemble
 other_projects:
 - title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
   url: https://nva.sikt.no/projects/2743421

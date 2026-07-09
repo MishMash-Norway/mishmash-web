@@ -14,7 +14,8 @@ institutions:
 affiliation_units:
 - The Oslo School of Architecture and Design
 - Institute of Design
-projects: []
+projects:
+- making-movement-matter
 roles:
 - Council member
 urls:

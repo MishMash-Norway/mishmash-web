@@ -14,6 +14,7 @@ people:
 - ana-brotas
 - gro-skaland
 - henning-birkeland
+- jannicke-johansen
 - jonas-karlsen-astrm
 - ole-christian-solbakken
 - ole-goethe
@@ -24,7 +25,10 @@ projects:
 - ai-as-environment
 - ai-assisted-film-production-vita-vigeland
 - bingo-ai-assisted-animation-documentary-film
+- curating-ai-driven-artistic-processes
+- digital-twins-of-textile-heritage
 - ki-i-kunstnerisk-utdanning-og-praksis
+- picturemarks
 - strategic-storyteller
 - tao-transductive-acoustic-organism
 country: null

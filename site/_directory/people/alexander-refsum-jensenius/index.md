@@ -10,6 +10,7 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects:
+- agency-and-control-in-musical-ensemble
 - the-mishmash-website
 other_projects:
 - title: Bodies in Concert

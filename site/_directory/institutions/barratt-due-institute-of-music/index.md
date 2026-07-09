@@ -13,6 +13,7 @@ people:
 - victoria-johnson
 projects:
 - human-machine-consciousness
+- madelaines
 country: null
 city: null
 urls:

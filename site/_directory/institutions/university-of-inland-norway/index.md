@@ -15,9 +15,12 @@ image: /images/institutions/university-of-inland-norway.png
 people:
 - aedan-soellaart
 - bjorn-tallak-bakken
+- changkyu-choi
 - fredrik-graver
+- hanne-lovise-skartveit
 - havard-vibeto
 - ida-jahr
+- mathieu-lacroix
 - mette-nyseter
 - mina-brodshaug-sveen
 - nina-fredrikke-grunfeld
@@ -31,11 +34,17 @@ people:
 - trond-lossius
 projects:
 - ai-assisted-film-production-vita-vigeland
+- authentic-anonymity-in-documentary-film
 - bingo-ai-assisted-animation-documentary-film
+- curating-ai-driven-artistic-processes
+- hybrid-ai-film-production-workshop
+- madelaines
+- picturemarks
 - scoping-review-creative-ai-teaching-learning
 - strategic-storyteller
 - tao-transductive-acoustic-organism
 - teacher-resources-critical-ai-literacy
+- the-mishmash-mesh
 - the-mishmash-website
 - tool-for-tools
 - when-creativity-meets-criticality

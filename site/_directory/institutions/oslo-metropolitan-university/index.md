@@ -12,7 +12,8 @@ image: /images/institutions/oslo-metropolitan-university.png
 people:
 - jana-verena-gerhart
 - maria-lokna
-projects: []
+projects:
+- digital-twins-of-textile-heritage
 country: null
 city: null
 urls:

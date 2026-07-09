@@ -14,7 +14,9 @@ affiliation_units:
 - Faculty of Film, TV and Games
 - The Game School - Department of Game Development
 projects:
+- curating-ai-driven-artistic-processes
 - strategic-storyteller
+- the-mishmash-mesh
 - the-mishmash-website
 roles:
 - Work package leader

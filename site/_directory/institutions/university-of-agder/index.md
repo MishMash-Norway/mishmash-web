@@ -12,6 +12,7 @@ short_name: UiA
 image: /images/institutions/university-of-agder.svg
 people:
 - arstein-justnes
+- ase-ava-fredheim
 - baltasar-beferull-lozano
 - daniel-nordgard
 - eirik-sorbo
@@ -21,10 +22,13 @@ people:
 - murtaza-mohiqi
 - sunniva-whittaker
 projects:
+- agency-and-control-in-musical-ensemble
 - evaluation-cultural-bias-workflow-ai-music-generation
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq
 - scoping-review-creative-ai-teaching-learning
+- scsci-workshops-and-concert
+- sound-heritage-research-stay
 - teacher-resources-critical-ai-literacy
 - the-mishmash-website
 country: null

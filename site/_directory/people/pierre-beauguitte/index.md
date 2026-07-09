@@ -8,7 +8,8 @@ department: The National Library of Norway
 institution: national-library-of-norway
 institutions:
 - national-library-of-norway
-projects: []
+projects:
+- music-archive-of-the-future
 roles:
 - Member
 urls:

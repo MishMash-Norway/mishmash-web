@@ -11,9 +11,11 @@ description: The University of Stavanger is a public research university located
   ...
 short_name: UiS
 people:
+- ingerine-dahl
 - sigmund-trageton
 projects:
 - ai-integration-film-tv-education
+- creative-health-technologies
 image: /images/institutions/university-of-stavanger.png
 urls:
   website: https://www.uis.no/en

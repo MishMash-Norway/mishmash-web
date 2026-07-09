@@ -18,10 +18,13 @@ people:
 - sidsel-karlsen
 - victoria-johnson
 projects:
+- agency-and-control-in-musical-ensemble
 - human-machine-consciousness
+- madelaines
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq
 - scoping-review-creative-ai-teaching-learning
+- scsci-workshops-and-concert
 - teacher-resources-critical-ai-literacy
 country: null
 city: null

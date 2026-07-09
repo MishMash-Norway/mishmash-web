@@ -8,7 +8,8 @@ department: Department for Informatics
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
+projects:
+- agency-and-control-in-musical-ensemble
 other_projects:
 - title: 'AURoRA: South-Korea and Norway collaboration on Advancing Universal Resource-Scarce
     Large Vision-Language Models Towards Robust and Reliable AI'

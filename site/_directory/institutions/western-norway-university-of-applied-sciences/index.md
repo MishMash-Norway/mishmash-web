@@ -11,10 +11,12 @@ description: Western Norway University of Applied Sciences, or HVL, is a Norwegi
 short_name: HVL
 image: /images/institutions/western-norway-university-of-applied-sciences.svg
 people:
+- hanne-maren-meldahl
 - sigurd-sandvold
 - tine-grieg-viig
 - zacharias-andreadakis
 projects:
+- a-skape-med-ki
 - tool-for-tools
 country: null
 city: null

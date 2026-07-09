@@ -19,6 +19,7 @@ people:
 - stig-mathisen
 projects:
 - ai-as-environment
+- ai-transcription-of-music
 - evaluation-cultural-bias-workflow-ai-music-generation
 country: null
 city: null

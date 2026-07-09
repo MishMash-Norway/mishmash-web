@@ -15,6 +15,7 @@ people:
 - kjetil-nordby
 - lise-amy-hansen
 projects:
+- making-movement-matter
 - tao-transductive-acoustic-organism
 - tool-for-tools
 country: null

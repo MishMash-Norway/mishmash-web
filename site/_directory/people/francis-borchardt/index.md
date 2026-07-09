@@ -8,7 +8,8 @@ department: Department of Theology, Religion and Philosophy
 institution: nla-university-college
 institutions:
 - nla-university-college
-projects: []
+projects:
+- re-fragmenting-schoyen
 roles:
 - Member
 urls:

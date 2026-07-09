@@ -16,6 +16,7 @@ people:
 - ole-fredrik-norbye
 projects:
 - ai-integration-film-tv-education
+- re-fragmenting-schoyen
 country: null
 city: null
 urls:

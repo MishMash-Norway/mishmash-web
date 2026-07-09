@@ -12,6 +12,7 @@ institutions:
 projects:
 - ai-as-environment
 - archival-intelligence
+- curating-ai-driven-artistic-processes
 roles:
 - Work package leader
 urls:

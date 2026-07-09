@@ -17,8 +17,10 @@ people:
 - ole-goethe
 - troels-linde
 projects:
+- picturemarks
 - scoping-review-creative-ai-teaching-learning
 - strategic-storyteller
+- the-mishmash-mesh
 - the-mishmash-website
 - tool-for-tools
 - when-creativity-meets-criticality

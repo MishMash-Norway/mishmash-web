@@ -7,7 +7,8 @@ position: Associate professor
 department: MF Norwegian School of Theology, Religion and Society
 institution: ''
 institutions: []
-projects: []
+projects:
+- re-fragmenting-schoyen
 roles:
 - Member
 urls:

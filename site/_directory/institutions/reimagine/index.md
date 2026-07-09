@@ -10,7 +10,9 @@ short_name: Reimagine
 image: /images/institutions/reimagine.png
 people:
 - christian-schussler
-projects: []
+projects:
+- authentic-anonymity-in-documentary-film
+- hybrid-ai-film-production-workshop
 country: null
 city: null
 urls:

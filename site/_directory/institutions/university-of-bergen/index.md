@@ -17,6 +17,7 @@ people:
 - daniel-peter-biro
 - david-rych
 - gabriele-de-seta
+- hans-skaug
 - jason-nelson
 - jostein-gundersen
 - juan-vassallo
@@ -27,7 +28,10 @@ people:
 projects:
 - ai-as-environment
 - ai-integration-film-tv-education
+- ai-transcription-of-music
 - archival-intelligence
+- curating-ai-driven-artistic-processes
+- music-archive-of-the-future
 - musical-doppelgangers
 - scoping-review-creative-ai-teaching-learning
 country: null

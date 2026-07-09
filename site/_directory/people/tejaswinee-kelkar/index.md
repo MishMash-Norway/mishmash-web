@@ -9,7 +9,8 @@ image: /assets/images/portraits/Tejaswinee_Kelkar_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
+projects:
+- scsci-workshops-and-concert
 other_projects:
 - title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
   url: https://nva.sikt.no/projects/2743421

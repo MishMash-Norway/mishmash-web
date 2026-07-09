@@ -9,7 +9,8 @@ image: /assets/images/portraits/Olivier_Lartillot_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
+projects:
+- music-archive-of-the-future
 other_projects:
 - title: DjembeDance - Multimodal rhythm in music and dance from West Africa
   url: https://nva.sikt.no/projects/2747770

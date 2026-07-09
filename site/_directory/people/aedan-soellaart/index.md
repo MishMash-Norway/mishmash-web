@@ -12,6 +12,7 @@ institutions:
 - university-of-inland-norway
 projects:
 - strategic-storyteller
+- the-mishmash-mesh
 - the-mishmash-website
 roles:
 - Member

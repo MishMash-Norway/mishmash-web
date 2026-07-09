@@ -9,7 +9,9 @@ image: /assets/images/portraits/Ingrid_Romarheim_Haugen_NB.jpg
 institution: national-library-of-norway
 institutions:
 - national-library-of-norway
-projects: []
+projects:
+- music-archive-of-the-future
+- picturemarks
 roles:
 - Member
 - Work package leader

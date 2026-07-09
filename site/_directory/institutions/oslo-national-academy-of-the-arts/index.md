@@ -18,6 +18,7 @@ people:
 - trine-wester
 projects:
 - ki-i-kunstnerisk-utdanning-og-praksis
+- making-movement-matter
 country: null
 city: null
 urls:

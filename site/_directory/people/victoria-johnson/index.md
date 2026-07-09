@@ -23,6 +23,7 @@ nva_affiliations:
   institution: barratt-due-institute-of-music
 projects:
 - human-machine-consciousness
+- madelaines
 other_projects:
 - title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
   url: https://nva.sikt.no/projects/2743421

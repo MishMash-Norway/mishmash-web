@@ -8,7 +8,8 @@ department: Department of Musicology
 institution: university-of-oslo
 institutions:
 - university-of-oslo
-projects: []
+projects:
+- scsci-workshops-and-concert
 roles:
 - Member
 urls:

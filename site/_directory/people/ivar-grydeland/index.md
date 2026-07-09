@@ -16,8 +16,10 @@ affiliation_units:
 - Norges musikkhøgskole, Diverse fagseksjoner
 - Fagseksjon for improvisert musikk, jazz og folkemusikk
 projects:
+- agency-and-control-in-musical-ensemble
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq
+- scsci-workshops-and-concert
 other_projects:
 - title: CreateMe
   url: https://nva.sikt.no/projects/2591724

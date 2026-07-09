@@ -10,6 +10,7 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects:
+- scsci-workshops-and-concert
 - the-mishmash-website
 other_projects:
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion

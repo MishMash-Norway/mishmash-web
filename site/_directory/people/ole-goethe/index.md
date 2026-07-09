@@ -21,7 +21,8 @@ nva_affiliations:
 - role: Senior lecturer
   unit: School of Arts, Design, and Media
   institution: kristiania-university-college
-projects: []
+projects:
+- picturemarks
 roles:
 - Member
 urls:
