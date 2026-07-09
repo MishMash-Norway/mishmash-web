@@ -13,7 +13,6 @@ short_name: UiT
 image: /images/institutions/arctic-university-of-norway.png
 people:
 - jon-marius-aareskjold-drecker
-- shayan
 - shayan-dadman
 - stephanie-von-spreter
 - stig-mathisen
