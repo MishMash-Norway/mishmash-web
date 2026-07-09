@@ -5,7 +5,7 @@ custom_css: /assets/css/chat.css
 ---
 
 <h1>Chat</h1>
-<p>Chat with a local AI model that answers questions about MishMash based on the site's content. The model runs entirely in your browser via <a href="https://webllm.mlc.ai/" target="_blank" rel="noopener">WebLLM</a> — no data is sent to any server. The model is downloaded once and cached locally.</p>
+<p>Chat with a local AI model that answers questions about MishMash based on the site's content. The model runs entirely in your browser via <a href="https://webllm.mlc.ai/" target="_blank" rel="noopener">WebLLM</a> — no data is sent to any server. The model is downloaded once and cached locally. The knowledge base covers the whole site: pages, news, events, and the directory of people, projects, and institutions.</p>
 
 <div id="chat-wrapper">
 
@@ -15,18 +15,49 @@ custom_css: /assets/css/chat.css
     <div id="model-row">
       <label for="model-select"><strong>Model:</strong></label>
       <select id="model-select">
-        <option value="SmolLM2-1.7B-Instruct-q4f16_1-MLC">SmolLM2 1.7B (~1.0 GB) — fast</option>
-        <option value="Llama-3.2-1B-Instruct-q4f32_1-MLC">Llama 3.2 1B (~0.9 GB) — fastest</option>
-        <option value="Llama-3.2-3B-Instruct-q4f16_1-MLC">Llama 3.2 3B (~2.0 GB) — good balance</option>
-        <option value="Phi-3.5-mini-instruct-q4f16_1-MLC">Phi-3.5 Mini (~2.2 GB) — higher quality</option>
-        <option value="gemma-2-2b-it-q4f16_1-MLC">Gemma 2 2B (~1.6 GB)</option>
+        <option value="gemma3-1b-it-q4f16_1-MLC">Gemma 3 1B (~0.7 GB) — fastest</option>
+        <option value="Llama-3.2-1B-Instruct-q4f16_1-MLC">Llama 3.2 1B (~0.9 GB) — fast</option>
+        <option value="Qwen3.5-2B-q4f16_1-MLC" selected>Qwen3.5 2B (~2.2 GB) — good balance</option>
+        <option value="Llama-3.2-3B-Instruct-q4f16_1-MLC">Llama 3.2 3B (~2.3 GB)</option>
+        <option value="Phi-4-mini-instruct-q4f16_1-MLC">Phi-4 Mini (~3.4 GB) — higher quality</option>
+        <option value="Qwen3.5-4B-q4f16_1-MLC">Qwen3.5 4B (~3.9 GB) — highest quality</option>
       </select>
       <button id="load-btn">Load model</button>
     </div>
+    <p style="font-size:0.85rem;color:#666;margin:0.3rem 0 0;">Sizes are approximate GPU memory requirements. The first load downloads the model (several minutes on a slow connection); later loads use the local cache. If your GPU lacks 16-bit shader support, a compatible variant is selected automatically.</p>
     <div id="progress-container" style="display:none">
       <div id="progress-track"><div id="progress-fill"></div></div>
       <p id="progress-text"></p>
     </div>
+
+    <details id="troubleshooting" style="margin-top:0.8rem;">
+      <summary style="cursor:pointer;font-weight:600;">Troubleshooting</summary>
+      <ul style="margin:0.5rem 0 0 1.2rem;line-height:1.8;">
+        <li><strong>Browser:</strong> WebGPU works best in recent Chrome or Edge (113+). Firefox and Safari are adding support; if the page reports that WebGPU is unavailable, try Chrome or Edge first.</li>
+        <li><strong>First load is slow:</strong> the model (0.5–2.5 GB) is downloaded once and cached by the browser. Keep the tab open until the progress bar completes.</li>
+        <li><strong>Load fails or the tab crashes:</strong> your GPU may not have enough memory for the selected model. Pick a smaller one (Gemma 3 1B or Llama 3.2 1B) and try again.</li>
+        <li><strong>Shader-f16 errors:</strong> some GPUs lack 16-bit shader support. The page detects this and automatically loads a 32-bit variant (larger, but compatible). The Debug info below shows what was selected.</li>
+        <li><strong>Redownload a broken model:</strong> clear the site's cached data (browser settings → site settings → view permissions and data stored across sites → this site → clear data), then reload the page.</li>
+        <li><strong>Linux / Ubuntu:</strong> WebGPU needs Vulkan.
+          <ol style="margin:0.3rem 0 0 1.2rem;line-height:1.8;">
+            <li>Install Vulkan drivers: <code>sudo apt install mesa-vulkan-drivers vulkan-tools</code><br>
+              For NVIDIA: install the proprietary driver via <em>Software &amp; Updates → Additional Drivers</em>.<br>
+              For Intel Arc: <code>sudo apt install intel-media-va-driver-non-free</code>.
+            </li>
+            <li>Verify Vulkan works: <code>vulkaninfo | head -5</code></li>
+            <li>In Chrome or Edge, enable <strong>Vulkan</strong> and <strong>WebGPU Developer Features</strong> at <code>chrome://flags</code>.</li>
+            <li>Enable hardware acceleration: <em>Settings → System → Use hardware acceleration when available</em>.</li>
+            <li>Check <code>chrome://gpu</code> — look for <em>Vulkan: Enabled</em> under Graphics Feature Status.</li>
+            <li>As a last resort, launch the browser with <code>google-chrome --enable-features=Vulkan,UseSkiaRenderer</code></li>
+          </ol>
+        </li>
+      </ul>
+    </details>
+
+    <details id="debug-details" style="margin-top:0.5rem;">
+      <summary style="cursor:pointer;font-weight:600;">Debug info</summary>
+      <pre id="debug-info" style="font-size:0.8rem;overflow-x:auto;background:rgba(127,127,127,0.08);padding:0.6rem;border-radius:6px;">Collecting diagnostics…</pre>
+    </details>
   </div>
 
   <div id="messages"></div>
@@ -57,6 +88,41 @@ let engine = null;
 let knowledgeBase = null;
 let chatHistory = [{ role: "system", content: SYSTEM_PROMPT }];
 let isGenerating = false;
+let supportsShaderF16 = false;
+
+// ── Debug diagnostics ─────────────────────────────────────────────────────
+const debugState = {
+  webgpu_available: !!navigator.gpu,
+  adapter_detected: false,
+  shader_f16_supported: "unknown",
+  adapter_info: "n/a",
+  selected_model: "n/a",
+  resolved_model: "n/a",
+  knowledge_chunks: 0,
+  last_error: "n/a",
+};
+
+function setDebug(patch) {
+  Object.assign(debugState, patch);
+  const el = document.getElementById("debug-info");
+  if (!el) return;
+  const lines = Object.entries(debugState).map(([k, v]) => `${k}: ${v}`);
+  lines.push(`available_models: ${availableModelIds().length}`);
+  lines.push(`user_agent: ${navigator.userAgent}`);
+  el.textContent = lines.join("\n");
+}
+
+function availableModelIds() {
+  const list = webllm?.prebuiltAppConfig?.model_list;
+  return Array.isArray(list) ? list.map((m) => m.model_id).filter(Boolean) : [];
+}
+
+// Swap a f16 model id for its f32 sibling when the GPU lacks shader-f16.
+function resolveModelId(requested) {
+  if (supportsShaderF16 || !/f16/i.test(requested)) return requested;
+  const f32 = requested.replace(/f16/gi, "f32");
+  return availableModelIds().includes(f32) ? f32 : requested;
+}
 
 // ── Knowledge base ────────────────────────────────────────────────────────
 const STOP_WORDS = new Set([
@@ -129,9 +195,11 @@ async function loadKnowledgeBase() {
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     knowledgeBase = await resp.json();
     kbStatus.innerHTML =
-      `Knowledge base: <strong>${knowledgeBase.chunks.length} passages</strong> loaded from MishMash content.`;
+      `Knowledge base: <strong>${knowledgeBase.chunks.length} passages</strong> loaded from the full MishMash site.`;
+    setDebug({ knowledge_chunks: knowledgeBase.chunks.length });
   } catch (e) {
     kbStatus.textContent = 'Knowledge base unavailable — using general knowledge only.';
+    setDebug({ last_error: 'knowledge base: ' + e.message });
   }
 }
 
@@ -142,6 +210,7 @@ loadKnowledgeBase();
 const webgpuStatus = document.getElementById("webgpu-status");
 
 async function checkWebGPU() {
+  setDebug({});
   if (!navigator.gpu) {
     showWebGPUError('no-api');
     document.getElementById("load-btn").disabled = true;
@@ -155,57 +224,46 @@ async function checkWebGPU() {
       document.getElementById("load-btn").disabled = true;
       return;
     }
+    supportsShaderF16 = adapter.features?.has?.("shader-f16") ?? false;
+    let adapterInfo = "unavailable";
+    try {
+      const info = adapter.info ?? (adapter.requestAdapterInfo ? await adapter.requestAdapterInfo() : null);
+      if (info) adapterInfo = [info.vendor, info.architecture, info.device].filter(Boolean).join(" / ") || "unnamed";
+    } catch { /* adapter info is optional */ }
+    setDebug({ adapter_detected: true, shader_f16_supported: supportsShaderF16, adapter_info: adapterInfo });
   } catch (e) {
+    setDebug({ last_error: e.message });
     showWebGPUError('no-adapter');
     document.getElementById("load-btn").disabled = true;
     return;
   }
-  webgpuStatus.innerHTML = '<span id="webgpu-ok">✓ WebGPU is available.</span>';
+  webgpuStatus.innerHTML = '<span id="webgpu-ok">✓ WebGPU is available.</span>' +
+    (supportsShaderF16 ? '' : ' <small>(no shader-f16 — 32-bit model variants will be used)</small>');
 }
 
 function showWebGPUError(type) {
-  const isLinux = /Linux/.test(navigator.userAgent) && !/Android/.test(navigator.userAgent);
-  const linuxTips = isLinux ? `
-    <details style="margin-top:0.6rem;">
-      <summary style="cursor:pointer;font-weight:600;">Linux / Ubuntu fix ▾</summary>
-      <ol style="margin:0.5rem 0 0 1.2rem;line-height:1.9;">
-        <li>Install Vulkan drivers (required by WebGPU on Linux):<br>
-          <code>sudo apt install mesa-vulkan-drivers vulkan-tools</code><br>
-          For NVIDIA: install the proprietary driver via <em>Software &amp; Updates → Additional Drivers</em>.<br>
-          For Intel Arc: <code>sudo apt install intel-media-va-driver-non-free</code>.
-        </li>
-        <li>Verify Vulkan works: <code>vulkaninfo | head -5</code></li>
-        <li>In Chrome or Edge, go to <code>chrome://flags</code> and enable:
-          <ul style="margin:0.2rem 0 0 1rem;">
-            <li><strong>Vulkan</strong> → Enabled</li>
-            <li><strong>WebGPU Developer Features</strong> → Enabled</li>
-          </ul>
-        </li>
-        <li>Enable hardware acceleration: <em>Settings → System → Use hardware acceleration when available</em>.</li>
-        <li>Check <code>chrome://gpu</code> — look for <em>Vulkan: Enabled</em> under Graphics Feature Status.</li>
-        <li>As a last resort, launch the browser with:<br>
-          <code>google-chrome --enable-features=Vulkan,UseSkiaRenderer</code>
-        </li>
-      </ol>
-    </details>` : '';
   webgpuStatus.innerHTML =
     `<span id="webgpu-err">⚠ ${
       type === 'no-api'
         ? 'WebGPU is not available in your browser. Please use Chrome 113+ or Edge 113+.'
         : 'WebGPU is supported by your browser but no compatible GPU adapter was found.'
-    }</span>${linuxTips}`;
+    }</span> <small>See Troubleshooting below.</small>`;
+  document.getElementById("troubleshooting").open = true;
 }
 
 checkWebGPU();
 
 // ── Model loading ─────────────────────────────────────────────────────────
 document.getElementById("load-btn").addEventListener("click", async () => {
-  const modelId  = document.getElementById("model-select").value;
+  const requested = document.getElementById("model-select").value;
+  const modelId   = resolveModelId(requested);
   const loadBtn  = document.getElementById("load-btn");
   const modelSel = document.getElementById("model-select");
   const progCont = document.getElementById("progress-container");
   const progText = document.getElementById("progress-text");
   const progFill = document.getElementById("progress-fill");
+
+  setDebug({ selected_model: requested, resolved_model: modelId });
 
   loadBtn.disabled  = true;
   modelSel.disabled = true;
@@ -224,18 +282,16 @@ document.getElementById("load-btn").addEventListener("click", async () => {
     document.getElementById("input-area").style.display  = "flex";
     document.getElementById("user-input").focus();
   } catch (err) {
-    const isGpuError = /GPU|WebGPU|adapter|compatible/i.test(err.message);
-    const isLinux = /Linux/.test(navigator.userAgent) && !/Android/.test(navigator.userAgent);
-    if (isGpuError && isLinux) {
+    setDebug({ last_error: err.message });
+    const isGpuError = /GPU|WebGPU|adapter|compatible|shader/i.test(err.message);
+    if (isGpuError) {
       progText.innerHTML =
-        '<strong>GPU not accessible.</strong> On Ubuntu/Linux, WebGPU needs Vulkan: ' +
-        'install drivers (<code>sudo apt install mesa-vulkan-drivers</code>), ' +
-        'then enable the <strong>Vulkan</strong> flag at <code>chrome://flags</code> and restart the browser.<br>' +
-        '<small>See the full checklist above the model selector.</small>';
+        '<strong>GPU problem while loading.</strong> Try a smaller model, and see the Troubleshooting section below. ' +
+        '<small>Details are in Debug info.</small>';
+      document.getElementById("troubleshooting").open = true;
     } else {
       progText.textContent = 'Error loading model: ' + err.message;
     }
-    showWebGPUError('no-adapter');
     loadBtn.disabled  = false;
     modelSel.disabled = false;
   }
@@ -252,6 +308,17 @@ textarea.addEventListener("input", () => {
   textarea.style.height = "auto";
   textarea.style.height = Math.min(textarea.scrollHeight, 120) + "px";
 });
+
+// Some models (e.g. Qwen3.5) emit <think>…</think> reasoning before the
+// answer; hide it from the chat bubble.
+function stripThinking(text) {
+  const stripped = text.replace(/<think>[\s\S]*?<\/think>/g, "").replace(/^\s+/, "");
+  if (/<think>/.test(stripped)) {
+    // Unclosed think block: still reasoning
+    return { text: stripped.slice(0, stripped.indexOf("<think>")), thinking: true };
+  }
+  return { text: stripped, thinking: false };
+}
 
 async function sendMessage() {
   if (isGenerating || !engine) return;
@@ -285,11 +352,13 @@ async function sendMessage() {
     for await (const chunk of stream) {
       const delta = chunk.choices[0]?.delta?.content ?? "";
       responseText += delta;
-      assistantBubble.textContent = responseText + "▌";
+      const { text: visible, thinking } = stripThinking(responseText);
+      assistantBubble.textContent = thinking && !visible ? "(thinking…)" : visible + "▌";
       scrollToBottom();
     }
-    assistantBubble.textContent = responseText;
-    chatHistory.push({ role: "assistant", content: responseText });
+    const finalText = stripThinking(responseText).text;
+    assistantBubble.textContent = finalText;
+    chatHistory.push({ role: "assistant", content: finalText });
 
     // Show sources if context was used
     if (chunks.length > 0) {
@@ -307,6 +376,7 @@ async function sendMessage() {
       scrollToBottom();
     }
   } catch (err) {
+    setDebug({ last_error: err.message });
     assistantBubble.textContent = "Error: " + err.message;
   }
 
