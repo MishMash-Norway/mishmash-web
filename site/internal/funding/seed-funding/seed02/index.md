@@ -58,7 +58,7 @@ We do not have capacity to give written feedback on all proposals. However, it i
 
 | Project | Applicant | Institution | Funding |
 |---------|-----------|--------|-----|
-| [Å Skape med KI: En Intro til KI i Kunstnerisk Utdanning og Praksis](/projects/a-skape-med-ki/) | Hanne Maren Meldahl | HVL | 15000 |
+| [Å Skape med KI: En Intro til KI i Kunstnerisk Utdanning og Praksis](/projects/ki-i-kunstnerisk-utdanning-og-praksis/) | Hanne Maren Meldahl | HVL | 15000 |
 | [Re-fragmenting Schøyen: AI-Assisted Mapping and Analysis of an Antiquities Network](/projects/re-fragmenting-schoyen/) | Francis Borchardt | NLA | 50000 |
 | [Forskningsopphold ved Senter for Samiske Studier i Forbindelse med PhD-Prosjektet "Sound Heritage"](/projects/sound-heritage-research-stay/) | Åse Áva Fredheim | UiA | 40000 |
 | Human and Machine Improvisation — A Study Visit to the Georgia Tech Center for Music Technology | Ole Fredrik Norbye | NLA | 0 |

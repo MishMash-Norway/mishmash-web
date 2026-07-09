@@ -15,12 +15,14 @@ slug: ki-i-kunstnerisk-utdanning-og-praksis
 name: KI i Kunstnerisk Utdanning og Praksis
 people:
 - gro-skaland
+- hanne-maren-meldahl
 - oystein-stene
 - tiril-schroder
 - trine-wester
 institutions:
 - kristiania-university-college
 - oslo-national-academy-of-the-arts
+- western-norway-university-of-applied-sciences
 projects: []
 ---
 
@@ -35,8 +37,9 @@ Primary WP: [WP4](/wp4/)
 
 ## People
 - Project leader: [Tiril Schroder](/people/tiril-schroder/)
-- Participants: [Oystein Stene](/people/oystein-stene/), [Trine Wester](/people/trine-wester/), [Gro Skaland](/people/gro-skaland/)
+- Participants: [Oystein Stene](/people/oystein-stene/), [Trine Wester](/people/trine-wester/), [Gro Skaland](/people/gro-skaland/), [Hanne Maren Meldahl](/people/hanne-maren-meldahl/)
 
 ## Institutions
 - [Oslo National Academy of the Arts](/institutions/oslo-national-academy-of-the-arts/)
 - [Kristiania University College](/institutions/kristiania-university-college/)
+- [Western Norway University of Applied Sciences](/institutions/western-norway-university-of-applied-sciences/)

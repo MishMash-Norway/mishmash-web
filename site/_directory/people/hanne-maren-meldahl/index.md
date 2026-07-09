@@ -9,7 +9,7 @@ institution: western-norway-university-of-applied-sciences
 institutions:
 - western-norway-university-of-applied-sciences
 projects:
-- a-skape-med-ki
+- ki-i-kunstnerisk-utdanning-og-praksis
 roles:
 - Member
 urls:
@@ -45,4 +45,4 @@ permalink: /people/hanne-maren-meldahl/
 
 Hanne Maren Meldahl is an artist, teacher educator, and PhD research fellow at the Department of Arts Education, Western Norway University of Applied Sciences (HVL), working at the intersection of arts education, creative practices, materiality, postdigital pedagogy, and artificial intelligence.
 
-Her PhD project, *The Haptic Hacking Lab*, investigates how pedagogical practices in arts teacher education can be developed through artistic, material-based, and technological experimentation in postdigital learning environments. Through the MishMash seed-funded project [Å skape med KI](/projects/a-skape-med-ki/), she takes part in the workshop initiative [KI i kunstnerisk utdanning og praksis](/projects/ki-i-kunstnerisk-utdanning-og-praksis/).
+Her PhD project, *The Haptic Hacking Lab*, investigates how pedagogical practices in arts teacher education can be developed through artistic, material-based, and technological experimentation in postdigital learning environments. Through MishMash seed funding she takes part in the workshop initiative [KI i kunstnerisk utdanning og praksis](/projects/ki-i-kunstnerisk-utdanning-og-praksis/).

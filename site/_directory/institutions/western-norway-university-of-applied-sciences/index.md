@@ -16,7 +16,7 @@ people:
 - tine-grieg-viig
 - zacharias-andreadakis
 projects:
-- a-skape-med-ki
+- ki-i-kunstnerisk-utdanning-og-praksis
 - tool-for-tools
 country: null
 city: null
