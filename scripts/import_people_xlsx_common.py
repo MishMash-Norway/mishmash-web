@@ -160,6 +160,17 @@ def slugify(value: str) -> str:
     return value[:80].strip("-")
 
 
+def fix_name_case(name: str) -> str:
+    """Title-case names submitted in all caps or all lower case.
+
+    Mixed-case names are left untouched so curated forms like
+    "von Arnim" or "de Seta" are never mangled.
+    """
+    if name and (name == name.upper() or name == name.lower()):
+        return " ".join(part.capitalize() for part in name.split())
+    return name
+
+
 def truthy(value) -> bool:
     if value is None:
         return False
@@ -208,7 +219,7 @@ def read_people(path: Path):
     for row in rows[1:]:
         if not row or all(cell is None for cell in row):
             continue
-        name = cell_text(row, name_idx)
+        name = fix_name_case(cell_text(row, name_idx))
         if not name:
             continue
 
@@ -238,17 +249,38 @@ def read_people(path: Path):
     return people, sheet_kind
 
 
-def apply_person_to_entry(data: dict, person: dict) -> dict:
+# Fields that identify a person; a stored value is never silently replaced
+# by a different one from a form row (cumulative exports resubmit old
+# mistakes on every import).
+IDENTITY_URL_FIELDS = ("orcid", "nva")
+
+
+def apply_person_to_entry(data: dict, person: dict, is_new: bool = True, warnings: list | None = None) -> dict:
     updated = deepcopy(data)
     updated["slug"] = person["slug"]
-    updated["name"] = person["name"]
-    updated["title"] = person["name"]
+    if is_new or not str(updated.get("name") or "").strip():
+        updated["name"] = person["name"]
+        updated["title"] = person["name"]
     urls = updated.setdefault("urls", {})
     for field_name, value in person.get("urls", {}).items():
-        if value:
-            normalized = normalize_field_value(field_name, value)
-            if normalized:
-                urls[field_name] = normalized
+        if not value:
+            continue
+        normalized = normalize_field_value(field_name, value)
+        if not normalized:
+            continue
+        existing = str(urls.get(field_name) or "").strip()
+        if (
+            not is_new
+            and field_name in IDENTITY_URL_FIELDS
+            and existing
+            and existing != normalized
+        ):
+            if warnings is not None:
+                warnings.append(
+                    f"{person['slug']}: kept {field_name} {existing} (form submitted {normalized})"
+                )
+            continue
+        urls[field_name] = normalized
     for field_name, value in list(urls.items()):
         normalized = normalize_field_value(field_name, value)
         if normalized:
@@ -257,11 +289,64 @@ def apply_person_to_entry(data: dict, person: dict) -> dict:
     return updated
 
 
+def build_alias_map(out_base: Path) -> dict:
+    """Map slugified names and aliases of existing entries to their slug.
+
+    Lets a form row that uses a nickname or short name (e.g. "Shayan" for
+    shayan-dadman) update the existing entry instead of creating a duplicate.
+    """
+    alias_map = {}
+    if not out_base.is_dir():
+        return alias_map
+    for child in sorted(out_base.iterdir()):
+        index_md = child / "index.md"
+        if child.name.startswith("_") or not index_md.exists():
+            continue
+        try:
+            data, _ = load_entry(index_md)
+        except ValueError:
+            continue
+        candidates = [str(data.get("name") or "")] + [str(a) for a in data.get("aliases") or []]
+        for candidate in candidates:
+            key = slugify(candidate)
+            if key and key != child.name:
+                alias_map[key] = child.name
+    return alias_map
+
+
+def drop_duplicate_identity_values(people, warnings: list) -> None:
+    """Remove orcid/nva values submitted by rows for different people.
+
+    Two people cannot share an ORCID or NVA profile, so such a value is a
+    copy-paste mistake in at least one row; it is applied to neither.
+    Multiple rows from the same person (common in cumulative exports) are
+    fine and left alone.
+    """
+    for field_name in IDENTITY_URL_FIELDS:
+        owners = {}
+        for person in people:
+            value = person.get("urls", {}).get(field_name)
+            if value:
+                owners.setdefault(value, set()).add(person["slug"])
+        for person in people:
+            value = person.get("urls", {}).get(field_name)
+            if value and len(owners[value]) > 1:
+                others = sorted(owners[value] - {person["slug"]})
+                warnings.append(
+                    f"{person['slug']}: dropped {field_name} {value} (also submitted by {', '.join(others)})"
+                )
+                del person["urls"][field_name]
+
+
 def import_people(people, template_path: Path, out_base: Path):
     template_data, template_body = load_entry(template_path)
     created = 0
     updated = 0
+    warnings = []
     out_base.mkdir(parents=True, exist_ok=True)
+    alias_map = build_alias_map(out_base)
+
+    drop_duplicate_identity_values(people, warnings)
 
     for person in people:
         slug = person["slug"]
@@ -269,11 +354,16 @@ def import_people(people, template_path: Path, out_base: Path):
             print(f"Skipping name with empty slug: {person['name']}")
             continue
 
+        if not (out_base / slug / "index.md").exists() and slug in alias_map:
+            warnings.append(f"{slug}: matched existing entry {alias_map[slug]} via alias")
+            slug = alias_map[slug]
+            person = {**person, "slug": slug}
+
         out_dir = out_base / slug
         out_file = out_dir / "index.md"
         if out_file.exists():
             data, body = load_entry(out_file)
-            updated_data = apply_person_to_entry(data, person)
+            updated_data = apply_person_to_entry(data, person, is_new=False, warnings=warnings)
             save_entry(out_file, updated_data, body)
             updated += 1
             continue
@@ -283,5 +373,8 @@ def import_people(people, template_path: Path, out_base: Path):
         created_data["permalink"] = f"/people/{slug}/"
         save_entry(out_file, created_data, template_body)
         created += 1
+
+    for warning in warnings:
+        print(f"  WARNING: {warning}")
 
     return created, updated, 0
