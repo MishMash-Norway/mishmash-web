@@ -4,9 +4,10 @@ slug: changkyu-choi
 name: Changkyu Choi
 title: Changkyu Choi
 position: Associate professor
-department: Department for Informatics
-institution: university-of-oslo
+department: Department of Game Development
+institution: university-of-inland-norway
 institutions:
+- university-of-inland-norway
 - university-of-oslo
 projects: []
 other_projects:
