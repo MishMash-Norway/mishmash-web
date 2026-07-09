@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: bjornar-bruket
 permalink: /people/bjornar-bruket/
@@ -35,4 +35,4 @@ source_mentions: []
 summary: null
 ---
 
-Bio.
+Bio coming soon.

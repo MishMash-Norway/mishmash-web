@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: melissa-avdeeff
 permalink: /people/melissa-avdeeff/
@@ -35,4 +35,4 @@ source_mentions: []
 summary: null
 ---
 
-Bio.
+Bio coming soon.

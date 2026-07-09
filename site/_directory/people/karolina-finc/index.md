@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: karolina-finc
 permalink: /people/karolina-finc/
@@ -35,4 +35,4 @@ source_mentions: []
 summary: null
 ---
 
-Bio.
+Bio coming soon.

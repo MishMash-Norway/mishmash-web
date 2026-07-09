@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: marie-dahlen
 permalink: /people/marie-dahlen/
@@ -35,4 +35,4 @@ source_mentions: []
 summary: null
 ---
 
-Bio.
+Bio coming soon.

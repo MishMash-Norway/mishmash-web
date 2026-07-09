@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: adam-lewartowski
 permalink: /people/adam-lewartowski/
@@ -35,4 +35,4 @@ source_mentions: []
 summary: null
 ---
 
-Bio.
+Bio coming soon.

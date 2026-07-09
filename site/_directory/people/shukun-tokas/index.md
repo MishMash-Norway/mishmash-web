@@ -1,10 +1,10 @@
 ---
-published: false
+published: true
 type: person
 slug: shukun-tokas
 permalink: /people/shukun-tokas/
-name: shukun tokas
-title: shukun tokas
+name: Shukun Tokas
+title: Shukun Tokas
 position: null
 department: null
 institution: null
@@ -35,4 +35,4 @@ source_mentions: []
 summary: null
 ---
 
-Bio.
+Bio coming soon.

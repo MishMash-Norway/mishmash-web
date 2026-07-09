@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: luz-maria-sanchez-cardona
 permalink: /people/luz-maria-sanchez-cardona/
@@ -35,4 +35,4 @@ source_mentions: []
 summary: null
 ---
 
-Bio.
+Bio coming soon.

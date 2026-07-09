@@ -24,7 +24,8 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-aliases: []
+aliases:
+- Shayan
 tags: []
 search_keywords: []
 selected_works:

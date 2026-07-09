@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: frank-ekeberg
 permalink: /people/frank-ekeberg/
@@ -35,4 +35,4 @@ source_mentions: []
 summary: null
 ---
 
-Bio.
+Bio coming soon.
