@@ -16,7 +16,6 @@ affiliation_units:
 projects:
 - curating-ai-driven-artistic-processes
 - strategic-storyteller
-- the-mishmash-mesh
 - the-mishmash-website
 roles:
 - Work package leader

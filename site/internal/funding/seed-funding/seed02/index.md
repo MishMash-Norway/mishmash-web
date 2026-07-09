@@ -85,7 +85,7 @@ We do not have capacity to give written feedback on all proposals. However, it i
 | [Exploring Authentic Anonymity in Documentary Film Through AI](/projects/authentic-anonymity-in-documentary-film/) | Mette Nyseter | INN | 50000 |
 | Between Code and Culture: Experimenting with Generative AI | Marieke Verbiesen | UiB | 0 |
 | AI-Driven Interactive Book Experience | Bente Aasheim | Kulturtanken | 0 |
-| [The MishMash Mesh](/projects/the-mishmash-mesh/) | Aedan Soellaart | INN | 50000 |
+| [The MishMash Mesh](/projects/the-mishmash-website/) | Aedan Soellaart | INN | 50000 |
 
 
 

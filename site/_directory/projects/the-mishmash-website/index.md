@@ -17,6 +17,7 @@ tags:
 - infrastructure
 - Directory
 - Cross-WP
+- Seed Funding
 slug: the-mishmash-website
 name: The MishMash Website
 people:
@@ -39,6 +40,8 @@ projects: []
 ## Summary
 
 This project develops and maintains the public MishMash website — and treats the website itself as a research and teaching project. The site is built with Jekyll and hosted on GitHub Pages, with all content versioned in a shared GitHub repository, so anyone in the network can take part in developing it. The thinking behind the site is documented in the [web philosophy](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) page of the project wiki.
+
+Through [seed funding #2](/internal/funding/seed-funding/seed02/) (2026), the project also develops *The MishMash Mesh*, led by [Aedan Soellaart](/people/aedan-soellaart/) with UI/UX designer Mihaela Daniela Crudu (INN): an internal co-creative engine that maps members' expertise and work-package affiliations and recommends collaborations through natural-language queries, a public LLM interface grounded in MishMash documentation, and a WCAG 2.2-compliant accessibility toolbar.
 
 ## Strategy
 

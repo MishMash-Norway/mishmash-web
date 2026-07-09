@@ -44,7 +44,6 @@ projects:
 - strategic-storyteller
 - tao-transductive-acoustic-organism
 - teacher-resources-critical-ai-literacy
-- the-mishmash-mesh
 - the-mishmash-website
 - tool-for-tools
 - when-creativity-meets-criticality
