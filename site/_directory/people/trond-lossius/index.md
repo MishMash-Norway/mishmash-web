@@ -27,7 +27,7 @@ roles:
 - Member
 urls:
   personal_website: https://trondlossius.no
-  institutional_website: http://trondlossius.no
+  institutional_website: https://www.inn.no/english/find-an-employee/trond-lossius.html
   github: https://github.com/lossius
   linkedin: ''
   orcid: https://orcid.org/0000-0003-1162-5551

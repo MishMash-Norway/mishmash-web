@@ -2,8 +2,7 @@
 type: person
 slug: sigbjorn-galaen
 redirect_from:
-- /people/sigbjrn-galaen/
-- /directory/people/sigbjrn-galaen/
+- /directory/people/sigbjorn-galaen/
 name: Sigbjørn Galåen
 title: Sigbjørn Galåen
 position: Associate professor
@@ -91,8 +90,6 @@ summary: Sigbjørn Galåen is associate professor of 3D-graphics at Kristiania U
 wps:
 - WP2
 permalink: /people/sigbjorn-galaen/
-redirect_from:
-- /directory/people/sigbjorn-galaen/
 ---
 
 NVA har ikke en egen profil-link, men navnet er søkbart og krysslinket til ORCID.

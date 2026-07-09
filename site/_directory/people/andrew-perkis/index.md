@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.ntnu.edu/employees/andrew.perkis
-  institutional_website: http://www.iet-multimedialabs.org/senseit/
+  institutional_website: https://www.ntnu.no/
   github: ''
   linkedin: https://www.linkedin.com/in/andrewperkis
   orcid: https://orcid.org/0000-0003-1414-2870

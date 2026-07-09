@@ -229,8 +229,8 @@ wps:
 permalink: /people/hugh-alexander-von-arnim/
 redirect_from:
 - /directory/people/hugh-alexander-von-arnim/
-summary: His doctoral work is supervised by Professor Alexander Refsum Jensenius
-  and Associate Professor Tejaswinee Kelkar.
+summary: His doctoral work is supervised by Professor Alexander Refsum Jensenius and
+  Associate Professor Tejaswinee Kelkar.
 ---
 
 Bio coming soon.

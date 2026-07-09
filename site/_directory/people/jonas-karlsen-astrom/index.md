@@ -1,6 +1,6 @@
 ---
 type: person
-slug: jonas-karlsen-astrm
+slug: jonas-karlsen-astrom
 name: Jonas Karlsen Åstrøm
 title: Jonas Karlsen Åstrøm
 position: Associate professor
@@ -189,7 +189,7 @@ selected_works:
     role: Creator
 source_mentions: []
 summary: ''
-permalink: /people/jonas-karlsen-astrm/
+permalink: /people/jonas-karlsen-astrom/
 published: false
 wps: []
 ---

@@ -30,7 +30,7 @@ roles:
 - Member
 urls:
   personal_website: https://mutecen.github.io/
-  institutional_website: ''
+  institutional_website: https://www.uio.no/ritmo/english/people/phd-fellows/annammc/index.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0003-7063-2062

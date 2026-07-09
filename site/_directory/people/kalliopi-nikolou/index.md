@@ -11,7 +11,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://kalinikolou.com/
+  personal_website: https://www.kalinikolou.com
   institutional_website: ''
   github: ''
   linkedin: ''

@@ -17,7 +17,7 @@ urls:
   institutional_website: https://www.inn.no/english/find-an-employee/mathieu-lacroix.html
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0009-0003-6783-3816
   nva: https://nva.sikt.no/research-profile/727752
   youtube: ''
   facebook: ''
@@ -31,13 +31,13 @@ tags:
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: "Mathieu Lacroix is a Canadian composer, producer, musician and programmer
+summary: Mathieu Lacroix is a Canadian composer, producer, musician and programmer
   based in Norway, and an associate professor at the Department of Arts and Cultural
   Studies, University of Inland Norway. He holds a PhD in composition and analysis
   from NTNU, with studies at IRCAM and Musiques et recherches. His work juxtaposes
   electroacoustic and acoustic traditions, with research interests in computer-assisted
   composition, mixed music, spatial and 3D audio, and how musicians and computers
-  can interpret each other."
+  can interpret each other.
 wps:
 - WP1
 permalink: /people/mathieu-lacroix/

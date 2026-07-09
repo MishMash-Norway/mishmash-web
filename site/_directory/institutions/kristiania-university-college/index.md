@@ -15,7 +15,7 @@ people:
 - gro-skaland
 - henning-birkeland
 - jannicke-johansen
-- jonas-karlsen-astrm
+- jonas-karlsen-astrom
 - ole-christian-solbakken
 - ole-goethe
 - sigbjorn-galaen

@@ -34,7 +34,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.jimtoer.no
-  institutional_website: http://www.jimtoer.no
+  institutional_website: https://www.mn.uio.no/ifi/english/people/aca/jimtoer/
   github: ''
   linkedin: https://no.linkedin.com/in/jim-tørresen-50919b10
   orcid: https://orcid.org/0000-0003-0556-0288

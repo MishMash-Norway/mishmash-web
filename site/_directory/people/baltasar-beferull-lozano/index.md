@@ -31,7 +31,7 @@ roles:
 - Work package leader
 urls:
   personal_website: https://www.simulamet.no/sigipro
-  institutional_website: https://www.simulamet.no/people/baltasar
+  institutional_website: https://www.simulamet.no/
   github: ''
   linkedin: https://www.linkedin.com/in/baltasar-beferull-lozano-8b306918/
   orcid: https://orcid.org/0000-0002-0902-6245

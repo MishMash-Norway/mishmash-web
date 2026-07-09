@@ -16,7 +16,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.henningb.com/
-  institutional_website: ''
+  institutional_website: https://www.kristiania.no/om-kristiania/ansatte/fakultet-for-samfunn-kunst-og-medier/institutt-for-scenekunst-film-og-medier/henning-birkeland/
   github: ''
   linkedin: https://www.linkedin.com/in/henningb/
   orcid: https://orcid.org/0009-0006-4668-4585
