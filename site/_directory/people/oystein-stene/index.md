@@ -1,8 +1,8 @@
 ---
 type: person
 slug: oystein-stene
-name: Oystein Stene
-title: Oystein Stene
+name: Øystein Stene
+title: Øystein Stene
 position: Professor
 department: The Academy of Theatre
 image: /assets/images/portraits/Oystein_Stene_KHiO.jpg

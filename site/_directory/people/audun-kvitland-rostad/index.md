@@ -2,8 +2,8 @@
 layout: person
 type: person
 slug: audun-kvitland-rostad
-name: Audun Kvitland Rostad
-title: Audun Kvitland Rostad
+name: Audun Kvitland Røstad
+title: Audun Kvitland Røstad
 position: University lecturer
 department: Department of Art and Media Studies
 institution: norwegian-university-of-science-and-technology

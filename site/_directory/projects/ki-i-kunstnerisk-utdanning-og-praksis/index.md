@@ -36,8 +36,8 @@ Primary WP: [WP4](/wp4/)
 2026–2026
 
 ## People
-- Project leader: [Tiril Schroder](/people/tiril-schroder/)
-- Participants: [Oystein Stene](/people/oystein-stene/), [Trine Wester](/people/trine-wester/), [Gro Skaland](/people/gro-skaland/), [Hanne Maren Meldahl](/people/hanne-maren-meldahl/)
+- Project leader: [Tiril Schrøder](/people/tiril-schroder/)
+- Participants: [Øystein Stene](/people/oystein-stene/), [Trine Wester](/people/trine-wester/), [Gro Skåland](/people/gro-skaland/), [Hanne Maren Meldahl](/people/hanne-maren-meldahl/)
 
 ## Institutions
 - [Oslo National Academy of the Arts](/institutions/oslo-national-academy-of-the-arts/)

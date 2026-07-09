@@ -2,8 +2,8 @@
 layout: person
 type: person
 slug: oystein-eugene-hermstad
-name: Oystein Eugene Hermstad
-title: Oystein Eugene Hermstad
+name: Øystein Eugene Hermstad
+title: Øystein Eugene Hermstad
 description: Super Ponni
 position: ''
 department: ''

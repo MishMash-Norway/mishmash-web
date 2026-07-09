@@ -48,9 +48,9 @@ The Management group handles the day-to-day coordination and administration of M
 </div>
 
 <div class="board-member-row">
-  <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html"><img class="person-thumb board-member-photo" src="/assets/images/portraits/eskil_muan_saether_UiO.jpg" alt="Eskil Muan Saether"></a>
+  <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html"><img class="person-thumb board-member-photo" src="/assets/images/portraits/eskil_muan_saether_UiO.jpg" alt="Eskil Muan Sæther"></a>
   <div>
-  <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html">Eskil Muan Saether</a><br>
+  <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html">Eskil Muan Sæther</a><br>
   University of Oslo<br>
   Administrative coordinator
   </div>

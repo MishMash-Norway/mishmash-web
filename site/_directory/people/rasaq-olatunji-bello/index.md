@@ -3,8 +3,8 @@ published: false
 type: person
 slug: rasaq-olatunji-bello
 permalink: /people/rasaq-olatunji-bello/
-name: RASAQ OLATUNJI BELLO
-title: RASAQ OLATUNJI BELLO
+name: Rasaq Olatunji Bello
+title: Rasaq Olatunji Bello
 position: ''
 department: ''
 institution: ''

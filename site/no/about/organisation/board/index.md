@@ -39,7 +39,7 @@ Styret har ansvar for:
 </div>
 
 <div class="board-member-row">
-    <a href="https://reimagine.no/contact"><img class="person-thumb board-member-photo" src="/assets/images/portraits/Christian_Schussler_Reimagine.jpg" alt="Christian Schussler"></a>
+    <a href="https://reimagine.no/contact"><img class="person-thumb board-member-photo" src="/assets/images/portraits/Christian_Schussler_Reimagine.jpg" alt="Christian Schüssler"></a>
     <div>
     <a href="https://reimagine.no/contact">Christian Schüssler</a><br>
     Reimagine<br>
@@ -48,7 +48,7 @@ Styret har ansvar for:
 </div>
 
 <div class="board-member-row">
-    <a href="https://www.nb.no/ansatte/hege-stensrud-hosoien/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/Hege_Stensrud_Hosoien_NB.jpg" alt="Hege Stensrud Hosoien"></a>
+    <a href="https://www.nb.no/ansatte/hege-stensrud-hosoien/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/Hege_Stensrud_Hosoien_NB.jpg" alt="Hege Stensrud Høsøien"></a>
     <div>
     <a href="https://www.nb.no/ansatte/hege-stensrud-hosoien/">Hege Stensrud Høsøien</a><br>
     Nasjonalbiblioteket<br>
@@ -75,7 +75,7 @@ Styret har ansvar for:
 </div>
 
 <div class="board-member-row">
-    <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html"><img class="person-thumb board-member-photo" src="/assets/images/portraits/eskil_muan_saether_UiO.jpg" alt="Eskil Muan Saether"></a>
+    <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html"><img class="person-thumb board-member-photo" src="/assets/images/portraits/eskil_muan_saether_UiO.jpg" alt="Eskil Muan Sæther"></a>
     <div>
     <a href="https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html">Eskil Muan Sæther</a><br>
     Universitetet i Oslo<br>
