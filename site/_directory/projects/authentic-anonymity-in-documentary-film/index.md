@@ -37,7 +37,7 @@ Primary WP: [WP2](/wp2/)
 
 ## People
 
-- Project leader: Mette Nyseter
+- Project leader: [Mette Nyseter](/people/mette-nyseter/)
 
 ## Institutions
 

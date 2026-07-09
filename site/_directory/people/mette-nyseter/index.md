@@ -74,8 +74,9 @@ summary: Mette Nyseter holds a degree in documentary directing from the TV Schoo
   creative processes, learning and artistic development through role play, improv
   and simulation.
 permalink: /people/mette-nyseter/
-published: false
-wps: []
+published: true
+wps:
+- WP2
 ---
 
 Bio.
