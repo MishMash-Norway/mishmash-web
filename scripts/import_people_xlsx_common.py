@@ -52,13 +52,11 @@ def canonical_orcid_url(value: str) -> str:
     value = (value or "").strip()
     if not value:
         return ""
-    if value.startswith("https://orcid.org/"):
-        return value
-    if value.startswith("http://orcid.org/"):
-        return "https://orcid.org/" + value.removeprefix("http://orcid.org/")
-    cleaned = value.removeprefix("orcid.org/").strip().strip("/")
-    if re.fullmatch(r"(?:\d{4}-){3}[\dX]{4}", cleaned, flags=re.IGNORECASE):
-        return f"https://orcid.org/{cleaned.upper()}"
+    # Accept any input containing an ORCID iD (bare, path, or e.g. a
+    # my-orcid?orcid=... dashboard URL) and canonicalize it.
+    match = re.search(r"(\d{4}-\d{4}-\d{4}-[\dX]{4})", value, flags=re.IGNORECASE)
+    if match:
+        return f"https://orcid.org/{match.group(1).upper()}"
     return value
 
 
@@ -72,7 +70,10 @@ def canonical_nva_url(value: str) -> str:
     if value.isdigit():
         return f"https://nva.sikt.no/research-profile/{value}"
     if value.startswith("https://nva.sikt.no/") or value.startswith("http://nva.sikt.no/"):
-        return normalize_http_url(value)
+        # nva.sikt.no URLs without a research-profile id (my-page dashboards,
+        # search links) identify nothing; drop them so they cannot clobber a
+        # previously stored profile URL.
+        return ""
     return ""
 
 
@@ -150,6 +151,9 @@ def dedupe_website_pair(urls: dict) -> bool:
 
 
 def slugify(value: str) -> str:
+    # NFKD leaves ø/æ (and their upper-case forms) undecomposed, so fold them
+    # explicitly before stripping to ASCII; otherwise Løve becomes lve.
+    value = value.translate(str.maketrans({"ø": "o", "Ø": "O", "æ": "ae", "Æ": "Ae", "ß": "ss"}))
     value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
     value = re.sub(r"[^\w\s-]", "", value).strip().lower()
     value = re.sub(r"[-\s]+", "-", value)
@@ -276,6 +280,7 @@ def import_people(people, template_path: Path, out_base: Path):
 
         out_dir.mkdir(parents=True, exist_ok=True)
         created_data = apply_person_to_entry(template_data, person)
+        created_data["permalink"] = f"/people/{slug}/"
         save_entry(out_file, created_data, template_body)
         created += 1
 
