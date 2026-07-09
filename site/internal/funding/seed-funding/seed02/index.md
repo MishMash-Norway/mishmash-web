@@ -91,7 +91,7 @@ We do not have capacity to give written feedback on all proposals. However, it i
 | Exploring Authentic Anonymity in Documentary Film through AI | Mette Nyseter | The TV School in Lillehammer, Faculty of Film, TV and Games, University of Inland Norway | 50000 |
 | Between Code and Culture: Experimenting with Generative AI | Marieke Verbiesen | UIB/KMD/Institute for design | 0 |
 | AI-driven Interactive Book Experience | Bente Aasheim | Kulturtanken | 0 |
-| The MishMash Mesh | Aedan Soellaart | University of Inland Norway | 0 |
+| The MishMash Mesh | Aedan Soellaart | University of Inland Norway | 50000 |
 
 
 ## Contact
