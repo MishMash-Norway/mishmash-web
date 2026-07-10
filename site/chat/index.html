@@ -281,13 +281,16 @@ document.getElementById("load-btn").addEventListener("click", async () => {
   progText.textContent   = "Initialising…";
 
   try {
+    // gemma3 prebuilts use a sliding window; the engine's default
+    // context_window_size conflicts with it, so disable it explicitly.
+    const chatOpts = /^gemma3/i.test(modelId) ? { context_window_size: -1 } : undefined;
     engine = await webllm.CreateMLCEngine(modelId, {
       initProgressCallback: (progress) => {
         progText.textContent = progress.text;
         const m = progress.text.match(/(\d+\.?\d*)%/);
         if (m) progFill.style.width = m[1] + "%";
       },
-    });
+    }, chatOpts);
     document.getElementById("setup-panel").style.display = "none";
     document.getElementById("input-area").style.display  = "flex";
     document.getElementById("user-input").focus();
