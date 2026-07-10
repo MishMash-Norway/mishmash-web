@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: https://sites.google.com/view/tobinghd/
-  institutional_website: https://www.ntnu.no/ansatte/hilda.deborah
+  institutional_website: ''
   github: https://github.com/hildatobing
   linkedin: https://www.linkedin.com/in/hildadeborah/
   orcid: https://orcid.org/0000-0003-3779-2569

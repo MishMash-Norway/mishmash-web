@@ -47,6 +47,8 @@ selected_works:
   contributors:
   - name: Liv Merve Akca Abrahamsson
     role: Creator
+    slug: liv-merve-abrahamsson
+    url: /people/liv-merve-abrahamsson/
   - name: Sascha Frühholz
     role: Creator
     slug: sascha-fruhholz
@@ -62,6 +64,8 @@ selected_works:
   contributors:
   - name: Liv Merve Akca Abrahamsson
     role: Creator
+    slug: liv-merve-abrahamsson
+    url: /people/liv-merve-abrahamsson/
   - name: Katharina Egger
     role: Creator
   - name: Jonna Katariina Vuoskoski
@@ -83,6 +87,8 @@ selected_works:
     role: Creator
   - name: Liv Merve Akca Abrahamsson
     role: Creator
+    slug: liv-merve-abrahamsson
+    url: /people/liv-merve-abrahamsson/
   - name: Sascha Frühholz
     role: Creator
     slug: sascha-fruhholz
@@ -229,6 +235,7 @@ selected_works:
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
 source_mentions: []
+summary: ''
 wps:
 - WP1
 - WP3
@@ -236,7 +243,6 @@ wps:
 permalink: /people/sascha-fruhholz/
 redirect_from:
 - /directory/people/sascha-fruhholz/
-summary: ''
 ---
 
 Bio coming soon.

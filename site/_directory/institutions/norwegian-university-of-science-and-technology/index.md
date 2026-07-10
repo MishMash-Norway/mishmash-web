@@ -15,6 +15,7 @@ people:
 - andrew-perkis
 - audun-kvitland-rostad
 - david-rych
+- frank-ekeberg
 - govert-valkenburg
 - hilda-deborah
 - jacqueline-rowley

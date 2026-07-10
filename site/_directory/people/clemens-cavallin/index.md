@@ -24,6 +24,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q77441304
 aliases: []
 tags: []
 search_keywords: []

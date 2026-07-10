@@ -1,7 +1,7 @@
 ---
 layout: page
 type: project
-title: "Curating AI-driven Artistic Processes: WP2 Showcases"
+title: 'Curating AI-driven Artistic Processes: WP2 Showcases'
 permalink: /projects/curating-ai-driven-artistic-processes/
 wps:
 - WP1
@@ -13,9 +13,9 @@ tags:
 - WP2
 - Curation
 - Exhibition
-- Artistic Research
+- Artistic research
 slug: curating-ai-driven-artistic-processes
-name: "Curating AI-driven Artistic Processes: WP2 Showcases"
+name: 'Curating AI-driven Artistic Processes: WP2 Showcases'
 people:
 - budhaditya-chattopadhyay
 - sashi-komandur

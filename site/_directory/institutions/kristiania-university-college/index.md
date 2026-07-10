@@ -16,6 +16,7 @@ people:
 - henning-birkeland
 - jannicke-johansen
 - jonas-karlsen-astrom
+- marie-dahlen
 - ole-christian-solbakken
 - ole-goethe
 - sigbjorn-galaen

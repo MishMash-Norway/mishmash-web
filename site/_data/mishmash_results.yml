@@ -1,4 +1,4 @@
-synced_at: '2026-07-09T08:35:21Z'
+synced_at: '2026-07-10T08:31:13Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -2977,6 +2977,8 @@ results:
     url: /people/alexander-refsum-jensenius/
   - name: Mathieu Lacroix
     role: Creator
+    slug: mathieu-lacroix
+    url: /people/mathieu-lacroix/
   - name: Fredrik Graver
     role: Creator
     slug: fredrik-graver
@@ -3000,6 +3002,8 @@ results:
       url: /people/alexander-refsum-jensenius/
     - display: Lacroix, Mathieu
       name: Mathieu Lacroix
+      slug: mathieu-lacroix
+      url: /people/mathieu-lacroix/
     - display: Graver, Fredrik
       name: Fredrik Graver
       slug: fredrik-graver

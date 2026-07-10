@@ -25,18 +25,18 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Arts Education
+- Arts education
 - Digital Culture
 - Youth
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: "Jens Nyland is an adviser at Kulturskolerådet, the Norwegian council for
-  municipal schools of music and performing arts, where he is contact person for
-  Region øst and works with the council's digital development area, breadth programmes,
-  diversity and inclusion, and interest politics. He has contributed to production
-  and project management of Kulturskole-tv and represents the council in national
-  work on artificial intelligence and creativity in the kulturskole field."
+summary: Jens Nyland is an adviser at Kulturskolerådet, the Norwegian council for
+  municipal schools of music and performing arts, where he is contact person for Region
+  øst and works with the council's digital development area, breadth programmes, diversity
+  and inclusion, and interest politics. He has contributed to production and project
+  management of Kulturskole-tv and represents the council in national work on artificial
+  intelligence and creativity in the kulturskole field.
 wps:
 - WP4
 permalink: /people/jens-nyland/

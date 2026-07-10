@@ -33,6 +33,7 @@ people:
 - jonna-vuoskoski
 - kai-olav-ellefsen
 - kyrre-glette
+- liv-merve-abrahamsson
 - maham-riaz
 - myrthe-tilleman
 - nanette-nielsen

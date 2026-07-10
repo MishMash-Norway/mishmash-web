@@ -29,7 +29,7 @@ roles:
 - Work package leader
 urls:
   personal_website: ''
-  institutional_website: https://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
+  institutional_website: http://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-0049-4373
@@ -85,6 +85,8 @@ selected_works:
   contributors:
   - name: Liv Merve Akca Abrahamsson
     role: Creator
+    slug: liv-merve-abrahamsson
+    url: /people/liv-merve-abrahamsson/
   - name: Sascha Frühholz
     role: Creator
     slug: sascha-fruhholz
@@ -111,6 +113,8 @@ selected_works:
   contributors:
   - name: Liv Merve Akca Abrahamsson
     role: Creator
+    slug: liv-merve-abrahamsson
+    url: /people/liv-merve-abrahamsson/
   - name: Katharina Egger
     role: Creator
   - name: Jonna Katariina Vuoskoski

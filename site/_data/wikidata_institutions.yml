@@ -38,6 +38,10 @@ kristiania-university-college:
   logo: http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B8yskolen%20Kristiania%20logo.png
   qid: Q5028646
   website: http://kristiania.no/
+kulturskoleradet:
+  inception: '1973-01-01'
+  qid: Q19383926
+  website: http://www.kulturskoleradet.no/
 national-library-of-norway:
   coordinates:
     lat: 59.914044

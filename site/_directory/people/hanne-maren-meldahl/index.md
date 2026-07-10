@@ -3,7 +3,7 @@ type: person
 slug: hanne-maren-meldahl
 name: Hanne Maren Meldahl
 title: Hanne Maren Meldahl
-position: PhD research fellow
+position: Research fellow
 department: Department of Arts Education
 institution: western-norway-university-of-applied-sciences
 institutions:
@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: https://www.hvl.no/en/employee/?user=Hanne.Maren.Meldahl
+  institutional_website: http://www.walkofshame.no
   github: ''
   linkedin: ''
   orcid: ''
@@ -25,19 +25,27 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Arts Education
-- Postdigital Pedagogy
-- Artistic Research
-search_keywords: []
+- Action research
+- Fine arts education
+- Pedagogy
+- Future workshop
+- Artistic research
+- Art
+- Artificial intelligence
+search_keywords:
+- Action research
+- Fine arts education
+- Pedagogy
+- Future workshop
+- Artistic research
+- Art
+- Artificial intelligence
 selected_works: []
 source_mentions: []
-summary: "Hanne Maren Meldahl is an artist, teacher educator, and PhD research fellow
-  at the Department of Arts Education, Western Norway University of Applied Sciences
-  (HVL), working at the intersection of arts education, creative practices, materiality,
-  postdigital pedagogy, and artificial intelligence. Her PhD project, The Haptic
-  Hacking Lab, investigates how pedagogical practices in arts teacher education can
-  be developed through artistic, material-based, and technological experimentation
-  in postdigital learning environments."
+summary: Hanne Maren Meldahl is an artist, teacher educator, and PhD Research Fellow
+  at Western Norway University of Applied Sciences (HVL). Her work explores the intersections
+  of art, education, and research, with a particular focus on creative practices,
+  materiality, postdigital pedagogy, and artificial intelligence.
 wps:
 - WP4
 permalink: /people/hanne-maren-meldahl/

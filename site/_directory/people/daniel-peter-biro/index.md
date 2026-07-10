@@ -24,6 +24,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q109822335
 aliases: []
 tags:
 - Ethnomusicology

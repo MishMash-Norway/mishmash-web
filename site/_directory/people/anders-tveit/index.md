@@ -68,6 +68,8 @@ selected_works:
   contributors:
   - name: Mathieu Lacroix
     role: Musician
+    slug: mathieu-lacroix
+    url: /people/mathieu-lacroix/
   - name: Natasha Barrett
     role: Musician
   - name: Ernst van der Loo
@@ -93,6 +95,8 @@ selected_works:
   contributors:
   - name: Mathieu Lacroix
     role: Organizer
+    slug: mathieu-lacroix
+    url: /people/mathieu-lacroix/
   - name: Anders Tveit
     role: Composer
     slug: anders-tveit
@@ -108,6 +112,8 @@ selected_works:
   contributors:
   - name: Mathieu Lacroix
     role: Organizer
+    slug: mathieu-lacroix
+    url: /people/mathieu-lacroix/
   - name: Anders Tveit
     role: Composer
     slug: anders-tveit

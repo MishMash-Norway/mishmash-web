@@ -20,7 +20,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.inn.no/english/research/research-projects/Role-playing-for-documentarists/
-  institutional_website: https://www.inn.no/om-universitetet/fakultet-for-film-tv-spill/institutt-for-tv-utdanninger/
+  institutional_website: https://www.inn.no/forskning/forskningsprosjekter/rollespill-for-dokumentarister/
   github: ''
   linkedin: https://www.linkedin.com/in/mette-nyseter-2679731/
   orcid: https://orcid.org/0009-0002-4778-0801
@@ -65,6 +65,8 @@ selected_works:
   contributors:
   - name: Mette Nyseter
     role: Organizer
+    slug: mette-nyseter
+    url: /people/mette-nyseter/
 source_mentions: []
 summary: Mette Nyseter holds a degree in documentary directing from the TV School
   in Lillehammer and a degree in Social Anthropology from the University of Oslo.

@@ -22,6 +22,7 @@ people:
 - jostein-gundersen
 - juan-vassallo
 - lars-nyre
+- luz-maria-sanchez-cardona
 - oystein-skaar
 - thomas-de-ridder
 - trond-lossius

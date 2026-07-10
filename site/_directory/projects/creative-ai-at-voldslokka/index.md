@@ -1,7 +1,7 @@
 ---
 layout: page
 type: project
-title: "Creative AI at Voldsløkka"
+title: Creative AI at Voldsløkka
 permalink: /projects/creative-ai-at-voldslokka/
 wps:
 - WP2
@@ -12,9 +12,9 @@ tags:
 - WP4
 - Youth
 - Co-Creation
-- Arts Education
+- Arts education
 slug: creative-ai-at-voldslokka
-name: "Creative AI at Voldsløkka"
+name: Creative AI at Voldsløkka
 people:
 - jens-nyland
 institutions:
