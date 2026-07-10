@@ -136,7 +136,19 @@
   background: #C1F7AE;
   color: #363644;
   border-bottom-left-radius: 4px;
+  white-space: normal; /* assistant bubbles hold rendered markdown */
 }
+
+.bubble > :first-child { margin-top: 0; }
+.bubble > :last-child  { margin-bottom: 0; }
+.bubble p  { margin: 0.4rem 0; }
+.bubble ul, .bubble ol { margin: 0.4rem 0; padding-left: 1.3rem; }
+.bubble li { margin: 0.15rem 0; }
+.bubble h1, .bubble h2, .bubble h3, .bubble h4 { font-size: 1em; margin: 0.6rem 0 0.3rem; }
+.bubble code { background: rgba(0, 0, 0, 0.08); padding: 0 0.25em; border-radius: 4px; font-size: 0.9em; }
+.bubble pre { overflow-x: auto; background: rgba(0, 0, 0, 0.08); padding: 0.5rem; border-radius: 6px; margin: 0.4rem 0; }
+.bubble pre code { background: none; padding: 0; }
+.bubble blockquote { border-left: 3px solid rgba(0, 0, 0, 0.2); margin: 0.4rem 0; padding-left: 0.6rem; }
 
 .sources {
   max-width: 75%;

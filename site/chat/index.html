@@ -38,6 +38,7 @@ custom_css: /assets/css/chat.css
         <li><strong>Load fails or the tab crashes:</strong> your GPU may not have enough memory for the selected model. Pick a smaller one (Gemma 3 1B or Llama 3.2 1B) and try again.</li>
         <li><strong>Shader-f16 errors:</strong> some GPUs lack 16-bit shader support. The page detects this and automatically loads a 32-bit variant (larger, but compatible). The Debug info below shows what was selected.</li>
         <li><strong>Redownload a broken model:</strong> clear the site's cached data (browser settings → site settings → view permissions and data stored across sites → this site → clear data), then reload the page.</li>
+        <li><strong>Edge on Linux:</strong> Edge does not enable Vulkan/WebGPU by default on Linux, even on machines where Chrome works. Enable <strong>Vulkan</strong> and <strong>WebGPU Developer Features</strong> at <code>edge://flags</code>, restart Edge, and check <code>edge://gpu</code> shows <em>Vulkan: Enabled</em>. Alternatively launch with <code>microsoft-edge --enable-features=Vulkan</code>.</li>
         <li><strong>Linux / Ubuntu:</strong> WebGPU needs Vulkan.
           <ol style="margin:0.3rem 0 0 1.2rem;line-height:1.8;">
             <li>Install Vulkan drivers: <code>sudo apt install mesa-vulkan-drivers vulkan-tools</code><br>
@@ -45,9 +46,9 @@ custom_css: /assets/css/chat.css
               For Intel Arc: <code>sudo apt install intel-media-va-driver-non-free</code>.
             </li>
             <li>Verify Vulkan works: <code>vulkaninfo | head -5</code></li>
-            <li>In Chrome or Edge, enable <strong>Vulkan</strong> and <strong>WebGPU Developer Features</strong> at <code>chrome://flags</code>.</li>
+            <li>In Chrome or Edge, enable <strong>Vulkan</strong> and <strong>WebGPU Developer Features</strong> at <code>chrome://flags</code> (in Edge: <code>edge://flags</code>).</li>
             <li>Enable hardware acceleration: <em>Settings → System → Use hardware acceleration when available</em>.</li>
-            <li>Check <code>chrome://gpu</code> — look for <em>Vulkan: Enabled</em> under Graphics Feature Status.</li>
+            <li>Check <code>chrome://gpu</code> (in Edge: <code>edge://gpu</code>) — look for <em>Vulkan: Enabled</em> under Graphics Feature Status.</li>
             <li>As a last resort, launch the browser with <code>google-chrome --enable-features=Vulkan,UseSkiaRenderer</code></li>
           </ol>
         </li>
@@ -72,6 +73,15 @@ custom_css: /assets/css/chat.css
 
 <script type="module">
 import * as webllm from "https://esm.run/@mlc-ai/web-llm";
+import { marked } from "https://esm.run/marked";
+import DOMPurify from "https://esm.run/dompurify";
+
+marked.setOptions({ breaks: true });
+
+// Render assistant markdown safely (models answer in markdown).
+function renderMarkdown(el, text) {
+  el.innerHTML = DOMPurify.sanitize(marked.parse(text));
+}
 
 // ── System prompt ─────────────────────────────────────────────────────────
 const SYSTEM_PROMPT =
@@ -353,11 +363,15 @@ async function sendMessage() {
       const delta = chunk.choices[0]?.delta?.content ?? "";
       responseText += delta;
       const { text: visible, thinking } = stripThinking(responseText);
-      assistantBubble.textContent = thinking && !visible ? "(thinking…)" : visible + "▌";
+      if (thinking && !visible) {
+        assistantBubble.textContent = "(thinking…)";
+      } else {
+        renderMarkdown(assistantBubble, visible + " ▌");
+      }
       scrollToBottom();
     }
     const finalText = stripThinking(responseText).text;
-    assistantBubble.textContent = finalText;
+    renderMarkdown(assistantBubble, finalText);
     chatHistory.push({ role: "assistant", content: finalText });
 
     // Show sources if context was used
