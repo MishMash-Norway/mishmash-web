@@ -33,17 +33,10 @@ en kulturinstitusjon, en opplyst fremtid"
   end_date: 2026-08-19
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/laczko.html
   og_title: "Public defence: Listening to cells under the microscope – how turning images into sound can reveal what is hidden in plain sight"
+  og_image: "https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/laczko.jpg"
   partner: University of Oslo
   title: "PhD defence: Bálint Laczkó – Listening to Instrumental Image Sonification"
   description: "Bálint Laczkó defends his dissertation Listening to Instrumental Image Sonification at the Department of Musicology, University of Oslo. The thesis explores image sonification — converting images into sound — as a scientific tool for biological research, including Pixasonics, an interactive sonification platform. Trial lecture at 11:15, defence at 13:15, Forsamlingssalen, Harald Schjelderups hus."
-
-- start_date: 2026-09-10
-  end_date: 2026-09-19
-  url: https://ultima.no/nb
-  og_title: "ultima • oslo contemporary
-      music festival"
-  partner: Ultima
-  title: "Ultima Oslo Contemporary Music Festival 2026"
 
 - start_date: 2026-03-26
   end_date: 2026-03-26
@@ -214,6 +207,14 @@ en kulturinstitusjon, en opplyst fremtid"
   partner: Det Norske Videnskaps-Akademi (DNVA)
   title: "Hvordan endrer KI-agenter forskningsprosessen?"
   description: "Apent mote i Kavlisalen, DNVA (Drammensveien 78, Oslo). Krever pamelding."
+
+- start_date: 2026-09-12
+  end_date: 2026-09-12
+  url: https://www.ultima.no/nb/2026-smalltown-supersound-presenterer-kjell-samkopf
+  og_title: "Smalltown Supersound presenterer Kjell Samkopf"
+  partner: Ultima
+  title: "Ultima: Kjell Samkopf – Music for Solo Percussion and Electronics"
+  description: "Kjell Samkopf markerer nyutgivelsen av soloalbumet Music for Solo Percussion and Electronics (1981) med utdrag fra platen og verdenspremieren på The Cloud of Unknowing, et nytt verk for vibrafon og åttekanals lyd der en mystisk 1300-tallstekst brukes som generativt system. Nasjonalbiblioteket, kl. 15:00, under Ultima-festivalen."
 
 - start_date: 2026-10-14
   end_date: 2026-10-15
