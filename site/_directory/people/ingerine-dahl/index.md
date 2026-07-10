@@ -19,7 +19,7 @@ urls:
   institutional_website: https://www.uis.no/en/profile/4936
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0009-0002-7116-5008
   nva: https://nva.sikt.no/research-profile/332689
   youtube: ''
   facebook: ''
