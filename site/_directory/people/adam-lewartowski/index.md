@@ -3,10 +3,11 @@ type: person
 slug: adam-lewartowski
 name: Adam Lewartowski
 title: Adam Lewartowski
-position: PHD candidate
-department: null
-institution: null
-institutions: []
+position: PhD candidate
+department: Interdisciplinary Doctoral School of Social Sciences
+institution: nicolaus-copernicus-university
+institutions:
+- nicolaus-copernicus-university
 projects: []
 roles:
 - Member
@@ -22,7 +23,8 @@ urls:
   mastodon: ''
   instagram: ''
   wikidata: ''
-aliases: []
+aliases:
+- Adam Bartłomiej Lewartowski
 tags: []
 search_keywords: []
 selected_works:
@@ -39,10 +41,13 @@ selected_works:
   group_type: Preprint
   url: https://doi.org/10.31234/osf.io/sb8w7_v2
 source_mentions: []
-summary: null
+summary: Adam Lewartowski is a PhD candidate at the Interdisciplinary Doctoral School
+  of Social Sciences, Nicolaus Copernicus University in Toruń, Poland. His research
+  explores polyrhythmic entrainment, embodied rhythm learning, and adaptive brain-body
+  dynamics.
 published: true
 permalink: /people/adam-lewartowski/
 wps: []
 ---
 
-Bio coming soon.
+Adam Lewartowski is a PhD candidate at the Interdisciplinary Doctoral School of Social Sciences, Nicolaus Copernicus University in Toruń, Poland. His research explores polyrhythmic entrainment, embodied rhythm learning, and adaptive brain–body dynamics.
