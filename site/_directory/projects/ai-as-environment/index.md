@@ -29,7 +29,7 @@ projects: []
 ---
 
 ## Summary
-This initiative supports a research visit to the exhibition *AI and the Paradox of Agency* in Umeå to analyze AI as an epistemic and institutional environment in artistic production. The visit aims to strengthen collaboration between artistic and infrastructural perspectives within MishMash and initiate a dialogue with WASP–HS toward a future Horizon Europe proposal. The delegation explores how AI is mediated institutionally through exhibition design and knowledge infrastructures, resulting in a public report and a concept note for future international funding.
+This initiative uses strategic mobility funding to develop a new interdisciplinary research programme at the intersection of contemporary art, artistic research, artificial intelligence, and cultural infrastructures. Originally planned as a research visit to the exhibition *AI and the Paradox of Agency* in Umeå, the funding has been reallocated to a delegation visit to the 2026 Venice Biennale, which offers an even stronger international setting for the project's ambitions. The visit investigates how AI increasingly functions as an environment within which artistic practice, cultural institutions, and knowledge production operate, with particular attention to artistic responses to AI and computational infrastructures, emerging artistic research methodologies, and opportunities for collaboration across artistic research, AI, and cultural heritage. Expected outcomes include a shared analytical report, strengthened collaboration across MishMash partners, new international contacts, and a concept note supporting future Horizon Europe and other externally funded research applications.
 
 ## Work Package
 Primary WP: [WP6](/wp6/)
