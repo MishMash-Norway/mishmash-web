@@ -69,6 +69,8 @@ selected_works:
     url: /people/henning-birkeland/
   - name: Jannicke Johansen
     role: Artist
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: Grønlandsport, sfinxen og «det nye lands bro»
   year: '2025'
   source: Visual arts
@@ -78,6 +80,8 @@ selected_works:
     role: Artist
   - name: Jannicke Johansen
     role: Artist
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: A multimodal artwork (AI/ meta human,film,sound and physical installations)
     at the at the exhibition "The Battle for Greenland 2.0" at Intercultural Museum
     (Interkulturelt Museum, Oslo Museum),Oslo. Supported by the Nordic Culture Fund
@@ -88,6 +92,8 @@ selected_works:
   contributors:
   - name: Jannicke Johansen
     role: RoleOther
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: Unicornius - For play or existential void? The homo Ludens museum project
     ( A multimodal artwork) at AR@K24 – The Artist, The Ghost, and The Machine (Artistic
     Research symposium)
@@ -98,6 +104,8 @@ selected_works:
   contributors:
   - name: Jannicke Johansen
     role: ExhibitionDesigner
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: Spillifisering i praksis
   year: '2024'
   source: Non-fiction book
@@ -105,6 +113,8 @@ selected_works:
   contributors:
   - name: Jannicke Johansen
     role: Creator
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: "\"De tre røverne på Colosseum\", Kunsten å påvirke, Strategisk kommunikasjon,\
     \ Kunnskapsmagasinet\r\nhttps://indd.adobe.com/view/8769cea7-bc0c-4831-91cb-bfdcb9fac998\
     \ , side 86"
@@ -114,6 +124,8 @@ selected_works:
   contributors:
   - name: Jannicke Johansen
     role: Creator
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: "\"Den gode nabo\"- Kommunikasjon som endrer samfunnet, Strategisk kommunikasjon,\
     \ Kunnskapsmagasinet\r\nhttps://indd.adobe.com/view/8769cea7-bc0c-4831-91cb-bfdcb9fac998\
     \ , side 43"
@@ -123,6 +135,8 @@ selected_works:
   contributors:
   - name: Jannicke Johansen
     role: Creator
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: "\"Fortell meg hva du ser på, og jeg skal si deg hva du kjøper\", Kunsten\
     \ å påvirke, Strategisk kommunikasjon, Kunnskapsmagasinet\r\nhttps://indd.adobe.com/view/8769cea7-bc0c-4831-91cb-bfdcb9fac998\
     \ , side 80"
@@ -132,6 +146,8 @@ selected_works:
   contributors:
   - name: Jannicke Johansen
     role: Creator
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: Instagram meets homo ludens - For play or existential void? The homo Ludens
     museum project at AR@K24 – The Artist, The Ghost, and The Machine (Artistic Research
     symposium)
@@ -141,6 +157,8 @@ selected_works:
   contributors:
   - name: Jannicke Johansen
     role: ExhibitionDesigner
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: '"Kunst på Elgsletta" under Researchers Night, Forskningsdagene 2023'
   year: '2023'
   source: Other artistic output
@@ -149,6 +167,8 @@ selected_works:
   contributors:
   - name: Jannicke Johansen
     role: RoleOther
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
   - name: Silje Straume
     role: RoleOther
 source_mentions: []

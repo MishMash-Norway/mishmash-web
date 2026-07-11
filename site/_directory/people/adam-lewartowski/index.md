@@ -3,7 +3,7 @@ type: person
 slug: adam-lewartowski
 name: Adam Lewartowski
 title: Adam Lewartowski
-position: PhD candidate
+position: PHD candidate
 department: Interdisciplinary Doctoral School of Social Sciences
 institution: nicolaus-copernicus-university
 institutions:

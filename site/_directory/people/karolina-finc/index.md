@@ -5,8 +5,9 @@ name: Karolina Finc
 title: Karolina Finc
 position: Research Assistant, PhD candidate
 department: null
-institution: null
-institutions: []
+institution: nicolaus-copernicus-university
+institutions:
+- nicolaus-copernicus-university
 projects: []
 roles:
 - Member

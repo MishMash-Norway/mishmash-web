@@ -51,6 +51,8 @@ selected_works:
     role: Artist
   - name: Ingerine Dahl
     role: Artist
+    slug: ingerine-dahl
+    url: /people/ingerine-dahl/
 - title: 'Konsert med Stavanger Domkor og Stavanger Katerdralensemble. Ogna Kirke,
     Rogaland. Fremføring av "Mass" av Steve Dobrogosz, og komposisjoner av Thomas
     Torstrup, Phillip Glass, Ola Gjeilo, m.m. dirigent: Oddgeir Kjetilstad'
@@ -68,6 +70,8 @@ selected_works:
     role: Artist
   - name: Ingerine Dahl
     role: Artist
+    slug: ingerine-dahl
+    url: /people/ingerine-dahl/
   - name: Wauter Raubenheimer
     role: Artist
 - title: 'Allehelgenskonsert: Thomas Torstrup/Stavanger Domkor og Stavanger Katedralensemble'
@@ -79,6 +83,8 @@ selected_works:
     role: Artist
   - name: Ingerine Dahl
     role: Artist
+    slug: ingerine-dahl
+    url: /people/ingerine-dahl/
   - name: Benedicte Øhrn Kyllingstad
     role: Artist
   - name: Wouter Raubenheimer

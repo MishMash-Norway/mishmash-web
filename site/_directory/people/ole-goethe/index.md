@@ -153,6 +153,8 @@ selected_works:
     role: Creator
   - name: Jannicke Johansen
     role: Creator
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: 'Gamification for Good: Addressing Dark Patterns in Gamified UX Design'
   year: '2020'
   source: Book chapter

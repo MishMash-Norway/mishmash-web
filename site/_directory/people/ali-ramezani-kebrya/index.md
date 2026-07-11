@@ -44,6 +44,41 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Aligning Attention with Human Rationales for Self-Explaining Hate Speech
+    Detection
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1609/aaai.v40i44.41069
+  contributors:
+  - name: Brage Eilertsen
+    role: Creator
+  - name: Røskva Bjørgfinsdóttir
+    role: Creator
+  - name: Francielle Vargas
+    role: Creator
+  - name: Ali Ramezani-Kebrya
+    role: Creator
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+- title: Principled Fourier Neural Operators for High‐Resolution Regional Ocean Modeling
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1029/2025jh001131
+  contributors:
+  - name: Vahidreza Jahanmard
+    role: Creator
+  - name: Robinson Hordoir
+    role: Creator
+  - name: Ali Ramezani-Kebrya
+    role: Creator
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+  - name: Artu Ellmann
+    role: Creator
+  - name: Nicole Delpeche‐Ellmann
+    role: Creator
 - title: Mitigating Embedding Leakage via Latent Disruption with Controlled Reconstruction
   year: '2026'
   source: Journal article
@@ -312,6 +347,28 @@ selected_works:
     url: /people/ali-ramezani-kebrya/
   - name: Robert Jenssen
     role: Creator
+- title: Layer-wise Quantization for Quantized Optimistic Dual Averaging
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://openreview.net/forum?id=J6LYjEOxbz&noteId=XPlechyXOj
+  contributors:
+  - name: Anh Duc Nguyen
+    role: Creator
+  - name: Ilia Markov
+    role: Creator
+  - name: Frank Zhengqing Wu
+    role: Creator
+  - name: Ali Ramezani-Kebrya
+    role: Creator
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+  - name: Kimon Antonakopoulos
+    role: Creator
+  - name: Dan Alistarh
+    role: Creator
+  - name: Volkan Cevher
+    role: Creator
 - title: Leveraging Foundation Model Adapters to Enable Robust and Semantic Underwater
     Exploration
   year: '2025'
@@ -333,60 +390,6 @@ selected_works:
     url: /people/ali-ramezani-kebrya/
   - name: Robert Jenssen
     role: Creator
-- title: Information-Theoretic Approach to Learn Causal Relationship Between Question
-    and Answering in DocVQA
-  year: '2025'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Kjetil Indrehus
-    role: Creator
-  - name: Changkyu Choi
-    role: Creator
-    slug: changkyu-choi
-    url: /people/changkyu-choi/
-  - name: Ali Ramezani-Kebrya
-    role: Creator
-    slug: ali-ramezani-kebrya
-    url: /people/ali-ramezani-kebrya/
-- title: 'Marine Intelligence: Innovations to Enhance Underwater Exploration'
-  year: '2025'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Arangan Subramaniam
-    role: Creator
-  - name: Changkyu Choi
-    role: Creator
-    slug: changkyu-choi
-    url: /people/changkyu-choi/
-  - name: Nils Olav Handegard
-    role: Creator
-  - name: Robert Jenssen
-    role: Creator
-  - name: Ali Ramezani-Kebrya
-    role: Creator
-    slug: ali-ramezani-kebrya
-    url: /people/ali-ramezani-kebrya/
-- title: Addressing Label Shift in Distributed Learning via Entropy Regularization​
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Zhiyuan Wu
-    role: Creator
-  - name: Changkyu Choi
-    role: Creator
-    slug: changkyu-choi
-    url: /people/changkyu-choi/
-  - name: Xiangcheng Cao
-    role: Creator
-  - name: Volkan Cevher
-    role: Creator
-  - name: Ali Ramezani-Kebrya
-    role: Creator
-    slug: ali-ramezani-kebrya
-    url: /people/ali-ramezani-kebrya/
 source_mentions: []
 summary: ''
 wps:

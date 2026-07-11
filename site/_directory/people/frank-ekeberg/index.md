@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: frank-ekeberg
 name: Frank Ekeberg
@@ -35,6 +34,8 @@ selected_works:
   contributors:
   - name: Frank Ekeberg
     role: Editor
+    slug: frank-ekeberg
+    url: /people/frank-ekeberg/
   - name: Espen Gangvik
     role: Editor
 - title: 'Utstilling: New American City'
@@ -44,6 +45,8 @@ selected_works:
   contributors:
   - name: Frank Ekeberg
     role: AcademicCoordinator
+    slug: frank-ekeberg
+    url: /people/frank-ekeberg/
 - title: Multimedieinstallasjon i samarbeid med Betsy Schneider (USA)
   year: '2006'
   source: Exhibition
@@ -51,8 +54,11 @@ selected_works:
   contributors:
   - name: Frank Ekeberg
     role: AcademicCoordinator
+    slug: frank-ekeberg
+    url: /people/frank-ekeberg/
 source_mentions: []
 summary: null
+layout: person
 published: true
 permalink: /people/frank-ekeberg/
 wps: []

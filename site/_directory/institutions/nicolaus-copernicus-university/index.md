@@ -12,12 +12,14 @@ description: Nicolaus Copernicus University in Toruń, Poland, is a public resea
 short_name: NCU
 people:
 - adam-lewartowski
+- karolina-finc
 projects: []
 country: null
 city: null
 urls:
   website: https://www.umk.pl/en/
   wikipedia: https://en.wikipedia.org/wiki/Nicolaus_Copernicus_University_in_Toru%C5%84
+  wikidata: https://www.wikidata.org/wiki/Q1752712
 aliases:
 - Nicolaus Copernicus University in Toruń
 - Uniwersytet Mikołaja Kopernika w Toruniu
@@ -28,3 +30,4 @@ summary: Nicolaus Copernicus University in Toruń, Poland, is a public research 
   founded in 1945, named after the astronomer Nicolaus Copernicus, who was born in
   Toruń.
 ---
+

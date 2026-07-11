@@ -62,6 +62,8 @@ selected_works:
     url: /people/henning-birkeland/
   - name: Jannicke Johansen
     role: Artist
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: '3D-grafikk: Fra geometri til realisme'
   year: '2024'
   source: Textbook

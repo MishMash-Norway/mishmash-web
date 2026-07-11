@@ -48,6 +48,8 @@ selected_works:
     url: /people/henning-birkeland/
   - name: Jannicke Johansen
     role: Artist
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: Siren's Call
   year: '2025'
   source: Performing arts

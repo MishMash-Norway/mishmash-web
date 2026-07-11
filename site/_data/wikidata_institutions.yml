@@ -50,6 +50,14 @@ national-library-of-norway:
   logo: http://commons.wikimedia.org/wiki/Special:FilePath/Nasjonalbiblioteket.jpg
   qid: Q924551
   website: https://nb.no
+nicolaus-copernicus-university:
+  coordinates:
+    lat: 53.0153
+    lon: 18.5722
+  inception: '1945-08-24'
+  logo: http://commons.wikimedia.org/wiki/Special:FilePath/UMK%20logo%202015.svg
+  qid: Q1752712
+  website: http://www.umk.pl/
 nla-university-college:
   coordinates:
     lat: 60.408443
