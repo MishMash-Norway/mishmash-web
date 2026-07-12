@@ -217,23 +217,22 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: Supporting Narrative Comprehension in Programmatic Music through Music and
-    Light
+- title: Stillstanding at Deichman Bjørvika
   year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/zenodo.17496754
+  source: Performing arts
+  group_type: Performing arts
+  url: https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/deichman/index.html
   contributors:
-  - name: Anna-Maria Christodoulou
-    role: Creator
-    slug: anna-maria-christodoulou
-    url: /people/anna-maria-christodoulou/
-  - name: Hugh Alexander von Arnim
-    role: Creator
-    slug: hugh-alexander-von-arnim
-    url: /people/hugh-alexander-von-arnim/
+  - name: Shabari Rao
+    role: Dancer
+  - name: Kari Anne Vadstensvik Bjerkestrand
+    role: Dancer
+  - name: Victoria Christine Årang Johnson
+    role: Dancer
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
   - name: Alexander Refsum Jensenius
-    role: Creator
+    role: Dancer
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 source_mentions:

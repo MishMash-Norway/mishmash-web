@@ -47,15 +47,6 @@ selected_works:
     role: AcademicCoordinator
     slug: frank-ekeberg
     url: /people/frank-ekeberg/
-- title: Multimedieinstallasjon i samarbeid med Betsy Schneider (USA)
-  year: '2006'
-  source: Exhibition
-  group_type: Exhibition
-  contributors:
-  - name: Frank Ekeberg
-    role: AcademicCoordinator
-    slug: frank-ekeberg
-    url: /people/frank-ekeberg/
 source_mentions: []
 summary: null
 layout: person

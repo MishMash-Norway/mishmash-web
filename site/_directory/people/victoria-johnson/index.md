@@ -48,6 +48,24 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Stillstanding at Deichman Bjørvika
+  year: '2025'
+  source: Performing arts
+  group_type: Performing arts
+  url: https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/deichman/index.html
+  contributors:
+  - name: Shabari Rao
+    role: Dancer
+  - name: Kari Anne Vadstensvik Bjerkestrand
+    role: Dancer
+  - name: Victoria Christine Årang Johnson
+    role: Dancer
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Alexander Refsum Jensenius
+    role: Dancer
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 - title: Musikalsk framførelse på Earfest i Duisburg, Tyskland
   year: '2022'
   source: Music performance
@@ -195,23 +213,6 @@ selected_works:
   source: Film or video
   group_type: Film or video
   url: https://vimeo.com/50569862
-  contributors:
-  - name: Lavasir Nordrum
-    role: AcademicCoordinator
-  - name: Alexander Refsum Jensenius
-    role: AcademicCoordinator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kari Anne Vadstensvik Bjerkestrand
-    role: AcademicCoordinator
-  - name: Victoria Johnson
-    role: AcademicCoordinator
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-- title: Resonance
-  year: '2012'
-  source: Film or video
-  group_type: Film or video
   contributors:
   - name: Lavasir Nordrum
     role: AcademicCoordinator
