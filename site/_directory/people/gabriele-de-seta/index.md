@@ -17,6 +17,9 @@ other_projects:
 - title: Center for Digital Narrative
   url: https://nva.sikt.no/projects/2629404
   nva_id: '2629404'
+- title: Extending Digital Narrative
+  url: https://nva.sikt.no/projects/2720899
+  nva_id: '2720899'
 roles:
 - Member
 urls:
@@ -57,6 +60,16 @@ search_keywords:
 - Digital ethnography
 - Artificial intelligence
 selected_works:
+- title: Four theses on algorithmic folklore
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.16995/olh.28650
+  contributors:
+  - name: Gabriele de Seta
+    role: Creator
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
 - title: Algorithmic folklore
   year: '2026'
   source: Book chapter
@@ -173,21 +186,6 @@ selected_works:
   group_type: Book chapter
   url: https://www.urbanomic.com/chapter/machine-decision-is-not-final-10-technologies-of-clairvoyance/
   contributors:
-  - name: Gabriele de Seta
-    role: Creator
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
-- title: Deepfakes or synthetic media? The effect of euphemisms for labeling technology
-    on risk and benefit perceptions
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1177/20563051251350975
-  contributors:
-  - name: Adrian Rauchfleisch
-    role: Creator
-  - name: Daniel Vogler
-    role: Creator
   - name: Gabriele de Seta
     role: Creator
     slug: gabriele-de-seta
