@@ -44,6 +44,25 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Towards Self-Explainable Document Visual Question Answering with Chain-of-Explanation
+    Predictions
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://arxiv.org/abs/2605.06058
+  contributors:
+  - name: Indrehus, Kjetil
+    role: Creator
+  - name: Adrian Duric
+    role: Creator
+  - name: Changkyu Choi
+    role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
+  - name: Ali Ramezani-Kebrya
+    role: Creator
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
 - title: Aligning Attention with Human Rationales for Self-Explaining Hate Speech
     Detection
   year: '2026'
@@ -368,27 +387,6 @@ selected_works:
   - name: Dan Alistarh
     role: Creator
   - name: Volkan Cevher
-    role: Creator
-- title: Leveraging Foundation Model Adapters to Enable Robust and Semantic Underwater
-    Exploration
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://ceur-ws.org/Vol-3975/
-  contributors:
-  - name: Changkyu Choi
-    role: Creator
-    slug: changkyu-choi
-    url: /people/changkyu-choi/
-  - name: Arangan Subramaniam
-    role: Creator
-  - name: Nils Olav Handegard
-    role: Creator
-  - name: Ali Ramezani-Kebrya
-    role: Creator
-    slug: ali-ramezani-kebrya
-    url: /people/ali-ramezani-kebrya/
-  - name: Robert Jenssen
     role: Creator
 source_mentions: []
 summary: ''

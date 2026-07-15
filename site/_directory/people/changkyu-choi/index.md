@@ -55,6 +55,44 @@ search_keywords:
 - Class imbalance problem for Machine Learning
 - Unsupervised Machine Learning algorithms
 selected_works:
+- title: Towards Self-Explainable Document Visual Question Answering with Chain-of-Explanation
+    Predictions
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://arxiv.org/abs/2605.06058
+  contributors:
+  - name: Indrehus, Kjetil
+    role: Creator
+  - name: Adrian Duric
+    role: Creator
+  - name: Changkyu Choi
+    role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
+  - name: Ali Ramezani-Kebrya
+    role: Creator
+    slug: ali-ramezani-kebrya
+    url: /people/ali-ramezani-kebrya/
+- title: 'Remember Your Trace: Memory-Guided Long-Horizon Agentic Framework for Consistent
+    and Hierarchical Repository-Level Code Documentation'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://arxiv.org/abs/2605.14563
+  contributors:
+  - name: Bae, Suyoung
+    role: Creator
+  - name: Changkyu Choi
+    role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
+  - name: Choi, YunSeok
+    role: Creator
+  - name: Lee, Jaehoon
+    role: Creator
+  - name: Lee, Jee-Hyong
+    role: Creator
 - title: 'PubTables-QA: A Benchmark Toward Cross-Page Table Reasoning in Table Visual
     Question Answering'
   year: '2026'
@@ -372,46 +410,6 @@ selected_works:
     role: Creator
     slug: ali-ramezani-kebrya
     url: /people/ali-ramezani-kebrya/
-- title: 'DocVXQA: Context-Aware Visual Explanations for Document Question Answering'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://proceedings.mlr.press/v267/souibgui25a.html
-  contributors:
-  - name: Mohamed Ali Souibgui
-    role: Creator
-  - name: Changkyu Choi
-    role: Creator
-    slug: changkyu-choi
-    url: /people/changkyu-choi/
-  - name: Andrey Barsky
-    role: Creator
-  - name: Kangsoo Jung
-    role: Creator
-  - name: Ernest Valveny
-    role: Creator
-  - name: Dimosthenis Karatzas
-    role: Creator
-- title: 'ProxyDR: Deep Hyperspherical Metric Learning with Distance Ratio-Based Formulation'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1007/978-3-031-91585-7_26
-  contributors:
-  - name: Hyeongji Kim
-    role: Creator
-  - name: Changkyu Choi
-    role: Creator
-    slug: changkyu-choi
-    url: /people/changkyu-choi/
-  - name: Michael Christian Kampffmeyer
-    role: Creator
-  - name: Terje Berge
-    role: Creator
-  - name: Pekka Parviainen
-    role: Creator
-  - name: Ketil Malde
-    role: Creator
 source_mentions: []
 summary: ''
 permalink: /people/changkyu-choi/
