@@ -9,6 +9,11 @@ institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
 projects: []
+other_projects:
+- title: Doctoral Programme for Integrated Research Activities to Unlock a Potential
+    of Top-level Researchers in Digital Transformation for Sustainability PERSEUS
+  url: https://nva.sikt.no/projects/2734838
+  nva_id: '2734838'
 roles:
 - Member
 urls:
@@ -39,6 +44,19 @@ search_keywords:
 - Multimedia Signal Processing
 - Art and technology
 selected_works:
+- title: 'Enhancing Divers’ Training and Safety: A Comparative Analysis of Extended
+    Reality Diving Simulators'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-032-30427-8_24
+  contributors:
+  - name: Baher Gunied
+    role: Creator
+  - name: Andrew Perkis
+    role: Creator
+    slug: andrew-perkis
+    url: /people/andrew-perkis/
 - title: 'Beyond presence: understanding the role of identity and emotions in virtual
     reality for natural hazards preparedness'
   year: '2025'
@@ -197,25 +215,6 @@ selected_works:
     slug: andrew-perkis
     url: /people/andrew-perkis/
   - name: Oddbjørn Bruland
-    role: Creator
-- title: Effects of Spatial Speech Presentation on Listener Response Strategy for
-    Talker-Identification.
-  year: '2022'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.3389/fnins.2021.730744
-  contributors:
-  - name: Stefan Uhrig
-    role: Creator
-  - name: Andrew Perkis
-    role: Creator
-    slug: andrew-perkis
-    url: /people/andrew-perkis/
-  - name: Sebastian Möller
-    role: Creator
-  - name: U. Peter Svensson
-    role: Creator
-  - name: Dawn Marie Behne
     role: Creator
 source_mentions: []
 summary: ''
