@@ -3,7 +3,7 @@ type: person
 slug: shayan-dadman
 name: Shayan Dadman
 title: Shayan Dadman
-position: Research fellow
+position: Researcher
 department: Department of Computer Science and Computational Engineering
 institution: arctic-university-of-norway
 institutions:
