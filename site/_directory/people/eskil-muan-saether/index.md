@@ -25,12 +25,21 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Performing artist
+- Public Administration
+- Musicology
+search_keywords:
+- Performing artist
+- Public Administration
+- Musicology
 selected_works: []
 source_mentions:
 - about/organisation/board/index.md
-summary: ''
+summary: Administrative Coordinator at MishMash — Centre for AI and Creativity. Educated
+  musician (Conservatorium van Amsterdam) and musicologist (University of Oslo), with
+  professional experience from Arts and Culture Norway, the Norwegian Society of Composers,
+  and the Norwegian Academy of Music.
 description: Senior adviser, Department of Musicology, University of Oslo
 layout: person
 permalink: /people/eskil-muan-saether/
