@@ -24,8 +24,14 @@ urls:
   instagram: ''
   wikidata: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Sound/music installations
+- Computer-Assisted Composition
+- Art
+search_keywords:
+- Sound/music installations
+- Computer-Assisted Composition
+- Art
 selected_works:
 - title: Meta.Morf 2016 Biennale For Kunst and Teknologi
   year: '2016'
