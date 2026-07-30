@@ -82,8 +82,8 @@ selected_works:
     url: /people/ali-ramezani-kebrya/
 - title: Principled Fourier Neural Operators for High‐Resolution Regional Ocean Modeling
   year: '2026'
-  source: Journal article
-  group_type: Journal article
+  source: Literature review
+  group_type: Literature review
   url: https://doi.org/10.1029/2025jh001131
   contributors:
   - name: Vahidreza Jahanmard
