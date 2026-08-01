@@ -49,6 +49,25 @@ search_keywords:
 - Embedded Systems
 - Music Technology
 selected_works:
+- title: Personalising behaviours of the multi-agent autonomous looper with a corpus
+    of annotated co-performances
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1017/s1355771826101484
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
 - title: Low-latency six-channel Bi-LSTM for near-real-time epileptic seizure detection
   year: '2026'
   source: Journal article
@@ -199,26 +218,6 @@ selected_works:
     role: Creator
     slug: stefano-fasciani
     url: /people/stefano-fasciani/
-- title: An Interactive Self-Assembly Swarm Music System in Extended Reality
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/3771594.3771620
-  contributors:
-  - name: Pedro Pablo Lucas Bravo
-    role: Creator
-    slug: pedro-lucas
-    url: /people/pedro-lucas/
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Alexander Szorkovszky
-    role: Creator
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
 source_mentions: []
 summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learning,
   Music Technology.

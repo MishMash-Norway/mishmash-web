@@ -50,6 +50,23 @@ tags:
 search_keywords:
 - Informatics
 selected_works:
+- title: The Privacy-Preserving Capabilities of a Service Robot in a Scenario-Based
+    Healthcare Setting
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://doi.org/10.1145/3776734.3794481
+  contributors:
+  - name: Burhan Mohammad Sarfraz
+    role: Creator
+  - name: Diana Saplacan Lindblom
+    role: Creator
+  - name: Adel Baselizadeh
+    role: Creator
+  - name: Jim Torresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: 'Dual Process Dreamer: Fast and Slow Decision-Making with World Models'
   year: '2026'
   source: Journal article
@@ -211,25 +228,6 @@ selected_works:
     role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
-- title: Integrating Bilevel Planning and Offline Skill Learning for Enhancing Mobile
-    Manipulation
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://ieeexplore.ieee.org/abstract/document/11163881
-  contributors:
-  - name: Shin Watanabe
-    role: Creator
-  - name: Geir Horn
-    role: Creator
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-  - name: Kai Olav Ellefsen
-    role: Creator
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
 source_mentions: []
 summary: ''
 redirect_from:

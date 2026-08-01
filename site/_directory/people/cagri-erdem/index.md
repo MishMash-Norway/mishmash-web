@@ -39,6 +39,25 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Personalising behaviours of the multi-agent autonomous looper with a corpus
+    of annotated co-performances
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1017/s1355771826101484
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
 - title: Autonomous Listening-Based Synthesizer Control with Reinforcement Learning
     for Live Sound Matching
   year: '2026'
@@ -212,22 +231,6 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: 'The Hyper-Ney: An Enhanced Traditional Flute'
-  year: '2024'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/zenodo.13904806
-  contributors:
-  - name: Ahmet Emin Memis
-    role: Creator
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
 source_mentions: []
 summary: ''
 wps:

@@ -1,4 +1,4 @@
-synced_at: '2026-07-31T08:04:38Z'
+synced_at: '2026-08-01T07:36:04Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -1134,6 +1134,31 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: Presentation of ROBOWELL research project during MishMash launch
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Diana Saplacan Lindblom
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Lindblom, Diana Saplacan
+      name: Diana Saplacan Lindblom
+    title: Presentation of ROBOWELL research project during MishMash launch
+    container: MishMash launch.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5538780
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019fb7b8c8d2-4c155af5-fd74-40f1-9fec-9e702332682d
+  url: https://mishmash.no/events/aulaen2026/
+  nva_url: https://nva.sikt.no/publication/019fb7b8c8d2-4c155af5-fd74-40f1-9fec-9e702332682d
 - title: Musikksektoren – Nåtid og fremtid
   year: '2026'
   type: Lecture
@@ -3534,6 +3559,103 @@ results:
     nva_url: https://nva.sikt.no/publication/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
   url: https://www.forskerforum.no/forskerlivet/mitt-tips-til-gjesteforskere-heng-ved-kaffemaskinen/
   nva_url: https://nva.sikt.no/publication/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
+- title: 'Supervisor for Master thesis: "Moving with the Music: A Novel Robotic Floor
+    for Motion-Enhanced Music Experience" (60 ECTS)'
+  year: '2026'
+  type: DegreeMaster
+  type_label: Master's thesis
+  group_type: Master's thesis
+  contributors:
+  - name: Sigmund Kleivene Slåttum
+    role: Creator
+  - name: Mats Erling Høvin
+    role: Supervisor
+  - name: Benedikte Wallace
+    role: Supervisor
+    slug: benedikte-wallace
+    url: /people/benedikte-wallace/
+  - name: Diana Saplacan Lindblom
+    role: Supervisor
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Slåttum, Sigmund Kleivene
+      name: Sigmund Kleivene Slåttum
+    title: 'Supervisor for Master thesis: "Moving with the Music: A Novel Robotic
+      Floor for Motion-Enhanced Music Experience" (60 ECTS)'
+    container: ''
+    details: ''
+    abstract: 'This thesis investigates how synchronized whole-body movement shapes
+      the experience of listening
+
+      to music. The two research questions ask whether floor movement changes the
+      listening
+
+      experience, and whether the specific character of the movement matters for that
+      experience.
+
+      To address these questions, a one-degree-of-freedom robotic floor was designed
+      and built from
+
+      scratch. The system, named Harmonic Audio-Reactive Platform (HARP), lifts a
+      person standing
+
+      on it in a vertical rolling motion derived from features extracted from the
+      music. Two motion patterns
+
+      were implemented for use in the study: a simple pattern oscillating at the beat
+      frequency,
+
+      and a complex pattern that combines two sinusoids whose amplitudes vary with
+      the spectral content
+
+      of the music. The hardware, software, and trajectory generation are described
+      in detail in the
+
+      thesis, and form a methodological contribution alongside the empirical findings.
+      Six participants
+
+      took part in a within-group user study. Each experienced three songs from contrasting
+      genres
+
+      (classical, EDM, and metal) under three motion conditions (no motion, simple,
+      and complex),
+
+      giving nine conditions per participant. A qualitatively-driven mixed methods
+      design was used.
+
+      Semi-structured interviews were analyzed with reflexive thematic analysis, alongside
+      Likert ratings,
+
+      amplitude adjustment logs, synchronization measurements, and video observations.
+      Three
+
+      themes were constructed from the interviews: Enjoyment, Emotion, and Congruence.
+      Across
+
+      all data sources, the most consistent finding is that motion pattern preference
+      is personal. No
+
+      single pattern worked for everyone, and the same pattern could feel mismatched
+      or stressful to
+
+      one participant and meaningful to another. The movement was mostly received
+      as adding to the
+
+      listening experience, with Likert ratings, qualitative themes, and participants’
+      own descriptions
+
+      of real-world use pointing the same way. Synchronization between music and motion
+      shaped the
+
+      experience but its specific role could not be settled within this study.'
+    full_text_url: https://hdl.handle.net/11250/5538832
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019fb812f3c4-da54c6b0-39a3-4359-9a7c-6af13991ed68
+  nva_url: https://nva.sikt.no/publication/019fb812f3c4-da54c6b0-39a3-4359-9a7c-6af13991ed68
 - title: Mennesker og maskiner
   year: '2026'
   type: MediaReaderOpinion

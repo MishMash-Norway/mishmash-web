@@ -10,6 +10,13 @@ institutions:
 - university-of-oslo
 projects: []
 other_projects:
+- title: '(ROBOWELL) ROBOts as Welfare Technologies and Actors for ELderLy Care: A
+    Nordic Model for Integration of Advanced Assistive Technologies'
+  url: https://nva.sikt.no/projects/2752696
+  nva_id: '2752696'
+- title: Predictive and Intuitive Robot Companion (PIRC)
+  url: https://nva.sikt.no/projects/2747768
+  nva_id: '2747768'
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
