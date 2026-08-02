@@ -4,7 +4,7 @@ slug: andre-alexandersen-hauge
 name: André Alexandersen Hauge
 title: André Alexandersen Hauge
 position: Dean
-department: Department of Computer Science and Communication
+department: Faculty of Computer Science, Engineering and Economics
 institution: ostfold-university-college
 institutions:
 - ostfold-university-college
