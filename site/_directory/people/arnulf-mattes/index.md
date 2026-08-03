@@ -16,7 +16,7 @@ affiliation_units:
 projects:
 - music-archive-of-the-future
 roles:
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes
   institutional_website: ''

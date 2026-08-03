@@ -215,8 +215,13 @@ python3 scripts/combine_image_slices.py first.jpg second.jpg output.jpg --left-r
 Merge similar tags
 ------------------
 
-Tags appear in directory profiles, events, and `search_keywords`. Similar spellings
-and casing variants can be merged site-wide with `config/tag_merge_map.yml`.
+Tags appear in directory profiles, events, and `search_keywords`, and roles appear in
+directory profiles (`roles`). `merge_tags.py` normalizes both mapping and capitalization:
+
+- Merge configured variants into canonical values from `config/tag_merge_map.yml`.
+- Normalize capitalization to title case (for example `machine learning` -> `Machine Learning`,
+  `work package leader` -> `Work Package Leader`) while keeping connector words such as
+  `and`, `of`, and `to` lowercase when they are in the middle.
 
 Quick start:
 

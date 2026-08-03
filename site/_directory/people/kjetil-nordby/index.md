@@ -24,7 +24,7 @@ other_projects:
   url: https://nva.sikt.no/projects/2749022
   nva_id: '2749022'
 roles:
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: ''
   institutional_website: ''

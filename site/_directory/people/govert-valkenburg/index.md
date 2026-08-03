@@ -10,7 +10,7 @@ institutions:
 - norwegian-university-of-science-and-technology
 projects: []
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: ''

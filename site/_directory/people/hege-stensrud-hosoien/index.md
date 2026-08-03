@@ -13,7 +13,7 @@ institutions:
 - university-of-oslo
 projects: []
 roles:
-- Board member
+- Board Member
 urls:
   personal_website: ''
   institutional_website: ''

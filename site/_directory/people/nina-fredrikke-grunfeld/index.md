@@ -15,7 +15,7 @@ affiliation_units:
 - The TV School - Department of Television Education
 projects: []
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: https://grunderfilm.no
   institutional_website: ''

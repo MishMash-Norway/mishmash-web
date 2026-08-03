@@ -18,7 +18,7 @@ projects:
 - movement-to-music-hackathon
 roles:
 - Member
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: https://andbe.folk.ntnu.no/
   institutional_website: http://folk.ntnu.no/andbe/

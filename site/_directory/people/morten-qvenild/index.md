@@ -18,7 +18,7 @@ other_projects:
   url: https://nva.sikt.no/projects/2767806
   nva_id: '2767806'
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: https://www.mortyq.com
   institutional_website: ''

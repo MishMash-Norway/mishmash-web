@@ -15,7 +15,7 @@ other_projects:
   url: https://nva.sikt.no/projects/2591724
   nva_id: '2591724'
 roles:
-- Deputy director
+- Deputy Director
 urls:
   personal_website: ''
   institutional_website: ''

@@ -9,6 +9,7 @@ from pathlib import Path
 
 from repo_paths import SITE_ROOT
 from tag_merge import (
+    DEFAULT_FIELDS,
     DEFAULT_MAP_PATH,
     DEFAULT_TAG_GROUPS_PATH,
     apply_all,
@@ -18,6 +19,7 @@ from tag_merge import (
     find_unmapped_duplicate_groups,
     load_merge_config,
     suggest_merge_yaml,
+    title_case_tag,
 )
 
 
@@ -30,6 +32,11 @@ def main() -> int:
         "--map",
         default=str(DEFAULT_MAP_PATH),
         help="Path to tag merge map YAML",
+    )
+    parser.add_argument(
+        "--capitalize-only",
+        action="store_true",
+        help="Normalize capitalization only (skip merge map aliases/merges)",
     )
     parser.add_argument(
         "--tag-groups",
@@ -57,14 +64,19 @@ def main() -> int:
     map_path = Path(args.map).resolve()
     tag_groups_path = Path(args.tag_groups).resolve()
 
-    if not map_path.exists():
+    if not args.capitalize_only and not map_path.exists():
         print(f"ERROR: Missing merge map: {map_path}")
         return 1
 
     try:
-        config = load_merge_config(map_path)
-        lookup = build_lookup(config)
-        fields = configured_fields(config)
+        if args.capitalize_only:
+            config = {}
+            lookup = build_lookup(config)
+            fields = DEFAULT_FIELDS
+        else:
+            config = load_merge_config(map_path)
+            lookup = build_lookup(config)
+            fields = configured_fields(config)
     except ValueError as exc:
         print(f"ERROR: {exc}")
         return 1
@@ -74,7 +86,11 @@ def main() -> int:
         print("Tag audit")
         print("-----------")
         print(f"Unique tags:   {len(counts)}")
-        print(f"Mapped tags:   {sum(1 for tag in counts if lookup.get(tag, tag) != tag)}")
+        if args.capitalize_only:
+            print(f"Capitalized:   {sum(1 for tag in counts if title_case_tag(tag) != tag)}")
+            print("Mapped tags:   n/a (capitalize-only mode)")
+        else:
+            print(f"Mapped tags:   {sum(1 for tag in counts if lookup.get(tag, tag) != tag)}")
         print(f"Fields:        {', '.join(fields)}")
         print()
         print("Most common tags:")
@@ -104,7 +120,7 @@ def main() -> int:
 
     file_changes, group_changes = apply_all(
         root=root,
-        map_path=map_path,
+        map_path=None if args.capitalize_only else map_path,
         tag_groups_path=tag_groups_path,
         write=write,
     )

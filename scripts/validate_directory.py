@@ -31,24 +31,29 @@ REQUIRED_FIELDS = {
 
 DEPRECATED_ROLES = {
     "Full member": "Member",
-    "Work Package Leader Group member": "Work package leader",
-    "Associate member": "Associate member",
-    "Affiliate member": "Affiliate member",
-    "Board Member": "Board member",
+    "Work Package Leader Group member": "Work Package Leader",
+    "Associate member": "Associate Member",
+    "Affiliate member": "Affiliate Member",
+    "Work package leader": "Work Package Leader",
+    "Council member": "Council Member",
+    "Board member": "Board Member",
+    "Deputy director": "Deputy Director",
+    "Research advisor": "Research Advisor",
+    "Administrative coordinator": "Administrative Coordinator",
 }
 
 CANONICAL_ROLES = {
     "Member",
-    "Work package leader",
-    "Council member",
-    "Board member",
+    "Work Package Leader",
+    "Council Member",
+    "Board Member",
     "Board Leader",
-    "Deputy director",
-    "Research advisor",
-    "Administrative coordinator",
+    "Deputy Director",
+    "Research Advisor",
+    "Administrative Coordinator",
     "Director",
-    "Associate member",
-    "Affiliate member",
+    "Associate Member",
+    "Affiliate Member",
 }
 
 
@@ -200,9 +205,9 @@ def main():
                         )
                     elif role not in CANONICAL_ROLES:
                         warnings.append(f"{rel}: non-standard role '{role}'")
-                if slug in wp_leader_slugs and "Work package leader" not in (fm.get("roles") or []):
+                if slug in wp_leader_slugs and "Work Package Leader" not in (fm.get("roles") or []):
                     warnings.append(
-                        f"{rel}: listed in work_packages.yml but missing 'Work package leader' role"
+                        f"{rel}: listed in work_packages.yml but missing 'Work Package Leader' role"
                     )
                 urls = fm.get("urls") or {}
                 if not (urls.get("nva") or urls.get("orcid")):

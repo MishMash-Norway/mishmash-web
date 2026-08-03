@@ -13,7 +13,7 @@ projects:
 - the-mishmash-website
 - when-creativity-meets-criticality
 roles:
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: ''
   institutional_website: ''

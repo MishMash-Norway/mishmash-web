@@ -14,7 +14,7 @@ from repo_paths import REPO_ROOT, SITE_ROOT
 
 DEFAULT_MAP_PATH = REPO_ROOT / "config" / "tag_merge_map.yml"
 DEFAULT_TAG_GROUPS_PATH = SITE_ROOT / "_data" / "tag_groups.yml"
-DEFAULT_FIELDS = ("tags", "search_keywords")
+DEFAULT_FIELDS = ("tags", "search_keywords", "roles")
 SKIP_DIR_NAMES = {"_site", "node_modules", ".git", ".jekyll-cache"}
 LOWERCASE_TITLE_WORDS = {
     "a",
@@ -271,11 +271,11 @@ def suggest_merge_yaml(duplicates: dict[str, list[tuple[str, int]]]) -> str:
 def apply_all(
     *,
     root: Path,
-    map_path: Path,
+    map_path: Path | None,
     tag_groups_path: Path,
     write: bool = False,
 ) -> tuple[list[str], list[str]]:
-    config = load_merge_config(map_path)
+    config = load_merge_config(map_path) if map_path is not None else {}
     lookup = build_lookup(config)
     fields = configured_fields(config)
 

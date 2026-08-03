@@ -14,7 +14,7 @@ projects:
 - picturemarks
 roles:
 - Member
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: ''
   institutional_website: https://www.nb.no

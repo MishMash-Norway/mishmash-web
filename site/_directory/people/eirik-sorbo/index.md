@@ -21,7 +21,7 @@ other_projects:
   nva_id: '2591724'
 roles:
 - Member
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: ''
   institutional_website: https://www.uia.no/english/about-uia/employees/eiriks05/index.html

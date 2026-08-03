@@ -12,7 +12,7 @@ institutions:
 projects:
 - the-mishmash-website
 roles:
-- Administrative coordinator
+- Administrative Coordinator
 urls:
   personal_website: ''
   institutional_website: ''

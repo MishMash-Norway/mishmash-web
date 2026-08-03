@@ -18,7 +18,7 @@ projects:
 - strategic-storyteller
 - the-mishmash-website
 roles:
-- Work package leader
+- Work Package Leader
 wps:
 - WP4
 - WP7

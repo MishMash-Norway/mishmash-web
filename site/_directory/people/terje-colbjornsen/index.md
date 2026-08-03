@@ -13,7 +13,7 @@ affiliation_units:
 - Department of Communication and Culture
 projects: []
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: ''

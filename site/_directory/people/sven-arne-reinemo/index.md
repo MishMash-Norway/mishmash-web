@@ -14,7 +14,7 @@ affiliation_units:
 - Simula Metropolitan Center for Digital Engineering
 projects: []
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: https://www.simula.no/people/svenar

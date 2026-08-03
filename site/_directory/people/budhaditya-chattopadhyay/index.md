@@ -14,7 +14,7 @@ projects:
 - archival-intelligence
 - curating-ai-driven-artistic-processes
 roles:
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: https://budhaditya.org
   institutional_website: ''

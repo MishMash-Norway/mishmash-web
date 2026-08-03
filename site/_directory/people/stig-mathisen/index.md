@@ -10,7 +10,7 @@ institutions:
 - arctic-university-of-norway
 projects: []
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: ''

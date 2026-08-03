@@ -12,7 +12,7 @@ institutions:
 projects:
 - musical-doppelgangers
 roles:
-- Board member
+- Board Member
 urls:
   personal_website: ''
   institutional_website: ''

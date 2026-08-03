@@ -9,6 +9,7 @@ import yaml
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from tag_merge import (
+    apply_all,
     apply_to_frontmatter,
     apply_to_tag_groups,
     build_lookup,
@@ -120,6 +121,55 @@ Body
                 data["groups"][0]["tags"],
                 ["Artificial Intelligence", "Robotics"],
             )
+
+    def test_apply_all_without_map_capitalizes_tags(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            page = root / "page.md"
+            page.write_text(
+                """---
+title: Example
+tags:
+- machine learning
+- art and design
+search_keywords:
+- human computer interaction
+roles:
+- work package leader
+---
+
+Body
+""",
+                encoding="utf-8",
+            )
+            tag_groups = root / "tag_groups.yml"
+            tag_groups.write_text(
+                """groups:
+  - label: Example
+    tags:
+      - art and design
+""",
+                encoding="utf-8",
+            )
+
+            file_changes, group_changes = apply_all(
+                root=root,
+                map_path=None,
+                tag_groups_path=tag_groups,
+                write=True,
+            )
+
+            self.assertEqual(
+                file_changes,
+                ["page.md: tags", "page.md: search_keywords", "page.md: roles"],
+            )
+            self.assertEqual(group_changes, ["tag_groups.yml: group 'Example'"])
+
+            text = page.read_text(encoding="utf-8")
+            self.assertIn("- Machine Learning\n", text)
+            self.assertIn("- Art and Design\n", text)
+            self.assertIn("- Human Computer Interaction\n", text)
+            self.assertIn("- Work Package Leader\n", text)
 
     def test_title_case_tag_capitalizes_words_and_preserves_connectors(self):
         self.assertEqual(
