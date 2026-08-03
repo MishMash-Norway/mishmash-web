@@ -33,8 +33,9 @@ merges:
     - Human machine interaction
     - Human-machine interaction
 
-  Human-AI interaction:
+  Human-AI Interaction:
     - Human AI Interaction
+    - Human-AI interaction
 
   # --- Music ---
   Music:
@@ -55,8 +56,14 @@ merges:
   Computer-Assisted Composition:
     - Computer assisted composition -music
 
+  Composition:
+    - composition
+
   Ethnomusicology:
     - Etnomusicology
+
+  Systematic musicology:
+    - systematic musicology
 
   # --- Arts & research ---
   Artistic research:
@@ -77,6 +84,9 @@ merges:
 
   Choreography:
     - Choreography.
+
+  Film Production:
+    - Film production
 
   # --- Heritage & culture ---
   Cultural Heritage:
@@ -104,6 +114,12 @@ merges:
 
   Image quality:
     - image quality assessments
+
+  cognitive science:
+    - Cognitive Science
+
+  technology:
+    - Technology
 
   # --- Education & society ---
   Education:
