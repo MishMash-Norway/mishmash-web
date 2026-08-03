@@ -60,8 +60,8 @@ description: "Search MishMash people, institutions, projects, pages, and events.
 
         <div id="tag-cluster-size-row" class="tag-cluster-size-row">
           <label class="filter-label" for="cluster-count">Clusters:</label>
-          <input id="cluster-count" class="cluster-count-input" type="range" min="1" max="40" step="1" value="14" aria-label="Number of clusters">
-          <output id="cluster-count-value" for="cluster-count" class="cluster-count-value">14</output>
+          <input id="cluster-count" class="cluster-count-input" type="range" min="20" max="40" step="1" value="20" aria-label="Number of clusters">
+          <output id="cluster-count-value" for="cluster-count" class="cluster-count-value">20</output>
         </div>
       </div>
 
@@ -87,7 +87,8 @@ description: "Search MishMash people, institutions, projects, pages, and events.
   'use strict';
 
   const INDEX_URL = '{{ "/search.json" | relative_url }}';
-  const DEFAULT_CLUSTER_COUNT = 14;
+  const DEFAULT_CLUSTER_COUNT = 20;
+  const MIN_CLUSTER_COUNT = 20;
   const MAX_CLUSTER_TAGS = 100;
 
   let allItems = [];
@@ -172,12 +173,16 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     return /^WP\d+$/i.test(val || '');
   }
 
-  function makeChip(value, activeSet, container, onToggle, displayText) {
+  function makeChip(value, activeSet, container, onToggle, displayText, titleText) {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'filter-chip';
     btn.textContent = displayText || value;
     btn.dataset.value = value;
+    if (titleText) {
+      btn.title = titleText;
+      btn.setAttribute('aria-label', titleText);
+    }
     btn.setAttribute('aria-pressed', activeSet.has(value) ? 'true' : 'false');
     if (activeSet.has(value)) btn.classList.add('active');
     btn.addEventListener('click', function () {
@@ -465,7 +470,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       tags = tags.slice(0, MAX_CLUSTER_TAGS);
     }
 
-    const k = Math.max(1, Math.min(desiredCount, tags.length));
+    const k = Math.max(1, Math.min(Math.max(desiredCount, MIN_CLUSTER_COUNT), tags.length));
     const rawClusters = hierarchicalCluster(tags, k);
 
     const usedKeys = new Set();
@@ -480,6 +485,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       return {
         key: key,
         label: label,
+        memberTags: memberTags,
         memberNorm: memberNorm,
         totalCount: totalCount
       };
@@ -495,7 +501,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
 
   function syncClusterInputBounds(totalTags) {
     const maxVal = Math.max(1, Math.min(MAX_CLUSTER_TAGS, totalTags));
-    const minVal = 1;
+    const minVal = Math.min(MIN_CLUSTER_COUNT, maxVal);
 
     clusterCountInput.min = String(minVal);
     clusterCountInput.max = String(maxVal);
@@ -514,7 +520,15 @@ description: "Search MishMash people, institutions, projects, pages, and events.
 
     clusterModel.forEach(function (cluster) {
       clusterByKey.set(cluster.key, cluster);
-      makeChip(cluster.key, activeTagClusters, tagClusterChips, runSearch, cluster.label);
+      const memberList = cluster.memberTags ? cluster.memberTags.join(', ') : '';
+      makeChip(
+        cluster.key,
+        activeTagClusters,
+        tagClusterChips,
+        runSearch,
+        cluster.label,
+        cluster.label + ': ' + memberList
+      );
     });
 
     const valid = new Set(clusterModel.map(function (c) { return c.key; }));
