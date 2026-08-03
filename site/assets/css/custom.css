@@ -988,6 +988,29 @@ a:focus-visible .icon {
   margin-top: 6px;
 }
 
+.tag-logic-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0 6px;
+}
+
+.tag-logic-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tag-logic-option {
+  text-transform: uppercase;
+}
+
+.tag-logic-option:hover,
+.tag-logic-option:focus-visible {
+  color: #4a4580;
+}
+
 .filter-label {
   font-size: 0.85rem;
   font-weight: 600;

@@ -40,6 +40,13 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     </div>
     <details id="tag-filter-group" class="filter-group filter-group-collapsible" hidden>
       <summary class="filter-label">Tags<span class="filter-expand-icon" aria-hidden="true">▸</span></summary>
+      <div class="tag-logic-row">
+        <span class="filter-label">Match:</span>
+        <div class="tag-logic-switch" role="group" aria-label="Tag matching mode">
+          <button id="tag-logic-any" class="filter-chip tag-logic-option active" type="button" aria-pressed="true">ANY</button>
+          <button id="tag-logic-all" class="filter-chip tag-logic-option" type="button" aria-pressed="false">ALL</button>
+        </div>
+      </div>
       <div id="tag-chips" class="chip-list" role="group" aria-label="Filter by tag"></div>
     </details>
   </div>
@@ -60,6 +67,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
   let activeCategories = new Set();
   let activeTags       = new Set();
   let activeRoles      = new Set();
+  let tagLogic         = 'or';
 
   // ── DOM refs ───────────────────────────────────────────────────────────────
   const input                = document.getElementById('search-input');
@@ -74,6 +82,8 @@ description: "Search MishMash people, institutions, projects, pages, and events.
   const categoryChips        = document.getElementById('category-chips');
   const tagChips             = document.getElementById('tag-chips');
   const tagFilterGroup        = document.getElementById('tag-filter-group');
+  const tagLogicAny          = document.getElementById('tag-logic-any');
+  const tagLogicAll          = document.getElementById('tag-logic-all');
   const categoryFilterGroup  = document.getElementById('category-filter-group');
 
   // ── Helpers ────────────────────────────────────────────────────────────────
@@ -179,6 +189,17 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     return targetValues.some(function (tv) {
       return itemRoles.some(function (ir) { return norm(ir) === norm(tv); });
     });
+  }
+
+  function syncTagLogicUI() {
+    if (tagLogicAny) {
+      tagLogicAny.classList.toggle('active', tagLogic === 'or');
+      tagLogicAny.setAttribute('aria-pressed', tagLogic === 'or' ? 'true' : 'false');
+    }
+    if (tagLogicAll) {
+      tagLogicAll.classList.toggle('active', tagLogic === 'and');
+      tagLogicAll.setAttribute('aria-pressed', tagLogic === 'and' ? 'true' : 'false');
+    }
   }
 
   function collectWpValues(item) {
@@ -299,7 +320,10 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       }
       if (normTags.length) {
         const itemTags = (item.tags || []).map(normalize);
-        if (!normTags.some(function (t) { return itemTags.includes(t); })) return false;
+        const tagMatches = tagLogic === 'and'
+          ? normTags.every(function (t) { return itemTags.includes(t); })
+          : normTags.some(function (t) { return itemTags.includes(t); });
+        if (!tagMatches) return false;
       }
       if (activeRoles.size) {
         const matches = [...activeRoles].some(function (label) {
@@ -391,6 +415,16 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     activateChipIn(tagChips, tag);
   }
 
+  function setTagLogic(mode) {
+    if (mode !== 'or' && mode !== 'and') return;
+    tagLogic = mode;
+    syncTagLogicUI();
+    updateUrl();
+    if (input.value || activeTypes.size || activeTags.size || activeCategories.size || activeRoles.size) {
+      runSearch();
+    }
+  }
+
   function activateCategoryChip(cat) {
     activeCategories.add(cat);
     activateChipIn(isWpCategory(cat) ? wpCategoryChips : categoryChips, cat);
@@ -410,6 +444,8 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     params.getAll('tag').forEach(activateTagChip);
     params.getAll('cat').forEach(activateCategoryChip);
     params.getAll('role').forEach(activateRoleChip);
+    tagLogic = params.get('tag_logic') === 'and' ? 'and' : 'or';
+    syncTagLogicUI();
   }
 
   // ── Sync URL while typing ─────────────────────────────────────────────────
@@ -421,6 +457,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     activeTags      .forEach(function (v) { params.append('tag',  v); });
     activeCategories.forEach(function (v) { params.append('cat',  v); });
     activeRoles     .forEach(function (v) { params.append('role', v); });
+    params.set('tag_logic', tagLogic);
     const newUrl = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
     window.history.replaceState(null, '', newUrl);
   }
@@ -432,6 +469,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       allItems = data;
       buildFilters(data);
       hydrateFromUrl();
+      syncTagLogicUI();
       if (input.value || activeTypes.size || activeTags.size || activeCategories.size || activeRoles.size) runSearch();
     })
     .catch(function () {
@@ -455,5 +493,17 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       runSearch();
     }
   });
+
+  if (tagLogicAny) {
+    tagLogicAny.addEventListener('click', function () {
+      setTagLogic('or');
+    });
+  }
+
+  if (tagLogicAll) {
+    tagLogicAll.addEventListener('click', function () {
+      setTagLogic('and');
+    });
+  }
 })();
 </script>
