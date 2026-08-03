@@ -1011,6 +1011,53 @@ a:focus-visible .icon {
   color: #4a4580;
 }
 
+.tag-cluster-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin: 6px 0 6px;
+}
+
+.tag-cluster-size-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tag-cluster-size-row.is-disabled {
+  opacity: 0.5;
+}
+
+.cluster-count-input {
+  width: 160px;
+}
+
+.cluster-count-input:disabled {
+  cursor: not-allowed;
+}
+
+.cluster-count-value {
+  min-width: 2ch;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #55606a;
+}
+
+.cluster-help-text {
+  margin: 4px 0 8px;
+  font-size: 0.82rem;
+  color: #55606a;
+}
+
+.cluster-section-label {
+  margin: 6px 0 6px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #55606a;
+}
+
 .filter-label {
   font-size: 0.85rem;
   font-weight: 600;
