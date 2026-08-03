@@ -30,20 +30,6 @@ pip install -r scripts/requirements.txt
 | `scripts/` | Python/Ruby automation ([overview](scripts/README.md)) and the `ui` theme switcher |
 | `config/` | Local credentials (never committed) and tag merge map ([readme](config/README.md)) |
 
-## Search Clustering
-
-The `/search/` page supports tag clustering to reduce long tag lists.
-
-- `Cluster: ON/OFF` toggles clustered topics vs raw tag chips.
-- `Clusters` slider controls the clustering level (hierarchical agglomerative clustering).
-- `Match: ANY/ALL` controls OR vs AND behavior for selected tag topics/tags.
-
-Implementation details:
-
-- Clustering runs client-side in `site/search/index.html`.
-- The code keeps a hard cap `MAX_CLUSTER_TAGS = 100` for clustering input tags.
-- WP tags (`WP1` ... `WP7`) remain handled by the `WP` filter, not the tag list.
-
 ## Contributing
 
 Branch from `main`, open a pull request, and merge when **Web Quality Checks** pass — GitHub Pages deploys `main` automatically. Before pushing:

@@ -216,12 +216,14 @@ Merge similar tags
 ------------------
 
 Tags appear in directory profiles, events, and `search_keywords`, and roles appear in
-directory profiles (`roles`). `merge_tags.py` normalizes both mapping and capitalization:
+directory profiles (`roles`). `merge_tags.py` normalizes both mapping and capitalization,
+including role labels used by the site filters:
 
 - Merge configured variants into canonical values from `config/tag_merge_map.yml`.
 - Normalize capitalization to title case (for example `machine learning` -> `Machine Learning`,
   `work package leader` -> `Work Package Leader`) while keeping connector words such as
   `and`, `of`, and `to` lowercase when they are in the middle.
+- Normalize role labels such as `Board member`, `Council member`, `Work package leader`, and `Member`.
 
 Quick start:
 
