@@ -14,6 +14,7 @@ people:
 - alexander-refsum-jensenius
 - ali-ramezani-kebrya
 - anders-tveit
+- andre-alexandersen-hauge
 - andreas-love
 - anna-maria-christodoulou
 - balint-laczko
