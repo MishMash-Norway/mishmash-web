@@ -9,7 +9,7 @@ categories:
 description: An evening concert and presentation exploring generative music created
   with AI and quantum computing, featuring Eduardo Reck Miranda and Victoria Johnson.
 tags:
-- Artificial intelligence
+- Artificial Intelligence
 - Quantum Computing
 - Music
 - Generative Music

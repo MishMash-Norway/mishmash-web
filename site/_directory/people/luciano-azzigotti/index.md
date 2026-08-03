@@ -24,31 +24,31 @@ urls:
   instagram: https://www.instagram.com/azzigotti
 aliases: []
 tags:
-- composition
-- new organology
-- livecoding
-- dynamic music scores
-- extended music
-- orchestral composition
-- acoustics
-- diy musical instruments
-- expanded music
-- electronic art
-- systematic musicology
-- historically informed performance
+- Composition
+- New Organology
+- Livecoding
+- Dynamic Music Scores
+- Extended Music
+- Orchestral Composition
+- Acoustics
+- Diy Musical Instruments
+- Expanded Music
+- Electronic Art
+- Systematic Musicology
+- Historically Informed Performance
 search_keywords:
-- composition
-- new organology
-- livecoding
-- dynamic music scores
-- extended music
-- orchestral composition
-- acoustics
-- diy musical instruments
-- expanded music
-- electronic art
-- systematic musicology
-- historically informed performance
+- Composition
+- New Organology
+- Livecoding
+- Dynamic Music Scores
+- Extended Music
+- Orchestral Composition
+- Acoustics
+- Diy Musical Instruments
+- Expanded Music
+- Electronic Art
+- Systematic Musicology
+- Historically Informed Performance
 selected_works:
 - title: 'M5live: a historical online environment for electronic music'
   year: '2022'

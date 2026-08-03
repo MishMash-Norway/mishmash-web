@@ -25,13 +25,13 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q87891208
 aliases: []
 tags:
-- neuroplasticity
-- cognitive science
-- network neuroscience
+- Neuroplasticity
+- Cognitive Science
+- Network Neuroscience
 search_keywords:
-- neuroplasticity
-- cognitive science
-- network neuroscience
+- Neuroplasticity
+- Cognitive Science
+- Network Neuroscience
 selected_works:
 - title: 'The dancing brain: Structural and functional signatures of expert dance
     training'

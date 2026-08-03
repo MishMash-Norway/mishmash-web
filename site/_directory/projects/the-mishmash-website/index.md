@@ -14,7 +14,7 @@ wps:
 tags:
 - Website
 - GitHub
-- infrastructure
+- Infrastructure
 - Directory
 - Cross-WP
 - Seed Funding

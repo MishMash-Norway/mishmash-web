@@ -25,11 +25,11 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Sound/music installations
+- Sound/Music Installations
 - Computer-Assisted Composition
 - Art
 search_keywords:
-- Sound/music installations
+- Sound/Music Installations
 - Computer-Assisted Composition
 - Art
 selected_works:

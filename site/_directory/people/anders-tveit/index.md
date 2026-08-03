@@ -29,21 +29,21 @@ urls:
 aliases: []
 tags:
 - Music Improvisation
-- Electroacoustic musikk
+- Electroacoustic Musikk
 - Teaching
 - Guidance
-- Musical composition
-- Interactive music
+- Musical Composition
+- Interactive Music
 - Ambisonics
 - Music
 - Music Technology
 search_keywords:
 - Music Improvisation
-- Electroacoustic musikk
+- Electroacoustic Musikk
 - Teaching
 - Guidance
-- Musical composition
-- Interactive music
+- Musical Composition
+- Interactive Music
 - Ambisonics
 - Music
 - Music Technology

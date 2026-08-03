@@ -13,7 +13,7 @@ tags:
 - WP2
 - Curation
 - Exhibition
-- Artistic research
+- Artistic Research
 slug: curating-ai-driven-artistic-processes
 name: 'Curating AI-driven Artistic Processes: WP2 Showcases'
 people:

@@ -28,21 +28,21 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Communication systems
-- Interconnection networks
+- Communication Systems
+- Interconnection Networks
 - Quality of Service
 - Supercomputing
-- Data communication
-- Networks and distributed systems
+- Data Communication
+- Networks and Distributed Systems
 - Routing
 - Informatics
 search_keywords:
-- Communication systems
-- Interconnection networks
+- Communication Systems
+- Interconnection Networks
 - Quality of Service
 - Supercomputing
-- Data communication
-- Networks and distributed systems
+- Data Communication
+- Networks and Distributed Systems
 - Routing
 - Informatics
 selected_works:

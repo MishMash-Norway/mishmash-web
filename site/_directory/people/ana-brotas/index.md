@@ -29,12 +29,12 @@ tags:
 - Pedagogy
 - Communication
 - Art
-- Artistic research
+- Artistic Research
 search_keywords:
 - Pedagogy
 - Communication
 - Art
-- Artistic research
+- Artistic Research
 selected_works: []
 source_mentions: []
 summary: Ana Brotas has a background in public art, audiovisual communication, and

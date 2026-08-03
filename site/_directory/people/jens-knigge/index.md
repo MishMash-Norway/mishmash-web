@@ -44,11 +44,11 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q132804769
 aliases: []
 tags:
-- Music education
-- Music didaktik
+- Music Education
+- Music Didaktik
 search_keywords:
-- Music education
-- Music didaktik
+- Music Education
+- Music Didaktik
 selected_works:
 - title: 'Music Screening for Children I (MSC-I): Adaptation, technical report, and
     companion materials'

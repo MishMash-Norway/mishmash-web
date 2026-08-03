@@ -30,9 +30,9 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Music education
+- Music Education
 search_keywords:
-- Music education
+- Music Education
 selected_works:
 - title: Soziologie der Musikpädagogik
   year: '2026'

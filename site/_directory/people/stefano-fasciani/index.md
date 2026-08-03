@@ -31,21 +31,21 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Digital electronics
-- Sound analysis /synthesis
+- Digital Electronics
+- Sound Analysis /Synthesis
 - Machine Learning
-- Real-time systems
-- Digital signal processing
-- Musical interaction
+- Real-Time Systems
+- Digital Signal Processing
+- Musical Interaction
 - Embedded Systems
 - Music Technology
 search_keywords:
-- Digital electronics
-- Sound analysis /synthesis
+- Digital Electronics
+- Sound Analysis /Synthesis
 - Machine Learning
-- Real-time systems
-- Digital signal processing
-- Musical interaction
+- Real-Time Systems
+- Digital Signal Processing
+- Musical Interaction
 - Embedded Systems
 - Music Technology
 selected_works:

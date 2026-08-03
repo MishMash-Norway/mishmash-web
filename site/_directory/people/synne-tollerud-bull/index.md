@@ -38,18 +38,18 @@ urls:
   bluesky: https://bsky.app/profile/synnebull.bsky.social
 aliases: []
 tags:
-- Media-art
+- Media-Art
 - Art History
 - Cultural and Creative Industries
 - Media Theory
-- Visual culture
+- Visual Culture
 - New Media
 search_keywords:
-- Media-art
+- Media-Art
 - Art History
 - Cultural and Creative Industries
 - Media Theory
-- Visual culture
+- Visual Culture
 - New Media
 selected_works:
 - title: Ocean Futures in the Making

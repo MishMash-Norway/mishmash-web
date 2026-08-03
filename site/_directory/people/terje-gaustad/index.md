@@ -26,10 +26,10 @@ urls:
 aliases: []
 tags:
 - Creative Industries
-- Strategic leadership
+- Strategic Leadership
 search_keywords:
 - Creative Industries
-- Strategic leadership
+- Strategic Leadership
 selected_works:
 - title: 'Pengestrømmer og verdikjeder i musikkfeltet: Aktører, tjenester, betalinger
     og utviklingstrekk'
