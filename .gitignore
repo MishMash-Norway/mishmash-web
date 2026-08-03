@@ -35,4 +35,3 @@ _site_clean/
 # Staging area for alternative UI themes (scripts/ui)
 .ui-work/
 *.log
-Gemfile.lock
