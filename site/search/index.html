@@ -171,9 +171,25 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     'Board member': ['Board Leader', 'Board member']
   };
 
-  // Expand a chip label to the actual role values it covers
-  function expandRole(label) {
-    return ROLE_GROUPS[label] || [label];
+  // Normalize one string for case-insensitive comparison
+  function norm(str) { return (str || '').toLowerCase().trim(); }
+
+  function roleMatchesChip(itemRoles, chipLabel) {
+    const targetValues = ROLE_GROUPS[chipLabel] || [chipLabel];
+    return targetValues.some(function (tv) {
+      return itemRoles.some(function (ir) { return norm(ir) === norm(tv); });
+    });
+  }
+
+  function collectWpValues(item) {
+    const wpValues = new Set();
+    (item.categories || []).forEach(function (c) {
+      if (isWpCategory(c)) wpValues.add(normalize(c));
+    });
+    (item.tags || []).forEach(function (t) {
+      if (isWpCategory(t)) wpValues.add(normalize(t));
+    });
+    return wpValues;
   }
 
   // ── Build filter UI ────────────────────────────────────────────────────────
@@ -191,7 +207,11 @@ description: "Search MishMash people, institutions, projects, pages, and events.
         if (isWpCategory(c)) wpCats.add(c.toUpperCase());
         else if (c !== 'Administration') categories.add(c);
       });
-      (item.tags || []).forEach(function (t) { tags.add(t); });
+      (item.tags || []).forEach(function (t) {
+        // WP1..WPn belong in the WP filter, not in the tag chip list.
+        if (isWpCategory(t)) wpCats.add(t.toUpperCase());
+        else tags.add(t);
+      });
     });
 
     // Type chips — display title-case; custom toggle so role/category rows sync
@@ -266,22 +286,24 @@ description: "Search MishMash people, institutions, projects, pages, and events.
 
     const normCategories = [...activeCategories].map(normalize);
     const normTags       = [...activeTags].map(normalize);
-    const normRoles      = [...activeRoles].map(normalize);
 
     const results = allItems.filter(function (item) {
       if (activeTypes.size && !activeTypes.has(item.type)) return false;
       if (normCategories.length) {
         const cats = (item.categories || []).map(normalize);
-        if (!normCategories.some(function (c) { return cats.includes(c); })) return false;
+        const wpValues = collectWpValues(item);
+        if (!normCategories.some(function (c) {
+          if (isWpCategory(c)) return wpValues.has(c);
+          return cats.includes(c);
+        })) return false;
       }
       if (normTags.length) {
         const itemTags = (item.tags || []).map(normalize);
         if (!normTags.some(function (t) { return itemTags.includes(t); })) return false;
       }
       if (activeRoles.size) {
-        const itemRoles = (item.roles || []).map(normalize);
         const matches = [...activeRoles].some(function (label) {
-          return expandRole(label).map(normalize).some(function (r) { return itemRoles.includes(r); });
+          return roleMatchesChip(item.roles || [], label);
         });
         if (!matches) return false;
       }
