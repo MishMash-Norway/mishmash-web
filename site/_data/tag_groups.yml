@@ -1,24 +1,24 @@
 groups:
 - label: Artificial intelligence
   tags:
-  - Artificial intelligence
+  - Artificial Intelligence
 - label: Music & sound
   tags:
   - Music Technology
   - Sound Art
-  - Sound analysis /synthesis
+  - Sound Analysis /Synthesis
   - Musicology
-  - Systematic musicology
+  - Systematic Musicology
   - Music
-  - Music education
-  - Creative music education
-  - Music and health
+  - Music Education
+  - Creative Music Education
+  - Music and Health
   - Music Improvisation
-  - Construction of musical instruments
-  - Sound sculpture
+  - Construction of Musical Instruments
+  - Sound Sculpture
   - Human Interface Devices
-  - Sound/music in new media
-  - Sound/music installations
+  - Sound/Music in New Media
+  - Sound/Music Installations
   - Piano/ Keyboard
   - Songwriting
   patterns:
@@ -31,11 +31,11 @@ groups:
   - Film Sound
   - Filmbransje
   - Media Studies
-  - Media-art
+  - Media-Art
   - New Media
   - Multimedia
-  - Audio-visual production
-  - Directing for documentaries and television
+  - Audio-Visual Production
+  - Directing for Documentaries and Television
   - Manuscripts
   - Production
   patterns:
@@ -45,29 +45,29 @@ groups:
   - documantar
 - label: Education
   tags:
-  - Educational theory
-  - Higher music education
-  - Educational management
-  - Arts education
-  - Philosophy of education
-  - Theory of education
-  - Arts didactics
+  - Educational Theory
+  - Higher Music Education
+  - Educational Management
+  - Arts Education
+  - Philosophy of Education
+  - Theory of Education
+  - Arts Didactics
   patterns:
   - education
   - didactics
   - pedagog
 - label: Human–computer interaction
   tags:
-  - Human computer interaction
-  - Interaction design
+  - Human Computer Interaction
+  - Interaction Design
   - Human Factors
   - Cognitive Ergonomics
   - Physical Ergonomics
   - Ergonomics
-  - Eye-tracking
+  - Eye-Tracking
   - Training Assessment
   - Maritime Human Factors
-  - Simulator training
+  - Simulator Training
   patterns:
   - ergonomics
   - human factor
@@ -77,16 +77,16 @@ groups:
 - label: Computing & networks
   tags:
   - Informatics
-  - Communication systems
-  - Operating systems
-  - Distributed multimedia
-  - Computer networking
-  - Data communication
+  - Communication Systems
+  - Operating Systems
+  - Distributed Multimedia
+  - Computer Networking
+  - Data Communication
   - Internet
-  - Distributed systems
-  - Networks and distributed systems
-  - Communication protocols
-  - Applied statistics
+  - Distributed Systems
+  - Networks and Distributed Systems
+  - Communication Protocols
+  - Applied Statistics
   patterns:
   - networking
   - distributed system
@@ -95,7 +95,7 @@ groups:
   - operating system
 - label: Arts & aesthetics
   tags:
-  - Artistic research
+  - Artistic Research
   - Aesthetics
   - Art History
   - Art
@@ -106,7 +106,7 @@ groups:
   - artistic research
 - label: Innovation & technology studies
   tags:
-  - Innovation studies
+  - Innovation Studies
   - Technology, Innovation and Culture
   - Responsible Research and Innovation
   patterns:
@@ -114,10 +114,10 @@ groups:
   - responsible research
 - label: Politics & society
   tags:
-  - Politics of knowledge
-  - Political theory
-  - Surveillance and privacy studies
-  - Personvern økende teknologi
+  - Politics of Knowledge
+  - Political Theory
+  - Surveillance and Privacy Studies
+  - Personvern Økende Teknologi
   patterns:
   - political
   - privacy
@@ -126,8 +126,8 @@ groups:
 - label: Energy & biotechnology
   tags:
   - Energy
-  - Battery technology
-  - Human biotechnologies
+  - Battery Technology
+  - Human Biotechnologies
   patterns:
   - biotechnolog
   - battery

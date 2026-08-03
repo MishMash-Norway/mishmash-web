@@ -32,14 +32,14 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Construction of musical instruments
-- Interactive music
-- Interactive systems
+- Construction of Musical Instruments
+- Interactive Music
+- Interactive Systems
 - Music Technology
 search_keywords:
-- Construction of musical instruments
-- Interactive music
-- Interactive systems
+- Construction of Musical Instruments
+- Interactive Music
+- Interactive Systems
 - Music Technology
 selected_works:
 - title: Facilitating the Development of Interactive Wheelchair Sonifications

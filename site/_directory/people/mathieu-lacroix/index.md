@@ -25,21 +25,21 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Electroacoustic musikk
+- Electroacoustic Musikk
 - MaxMSP
-- Sound programming
-- Contemporary music
-- Musical composition
+- Sound Programming
+- Contemporary Music
+- Musical Composition
 - Computer-Assisted Composition
 - Ambisonics
 - Composition
 - Music Technology
 search_keywords:
-- Electroacoustic musikk
+- Electroacoustic Musikk
 - MaxMSP
-- Sound programming
-- Contemporary music
-- Musical composition
+- Sound Programming
+- Contemporary Music
+- Musical Composition
 - Computer-Assisted Composition
 - Ambisonics
 - Composition

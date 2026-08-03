@@ -28,21 +28,21 @@ tags:
 - Motion Capture
 - EEG
 - Robotics
-- Brain imaging
+- Brain Imaging
 - Neuroscience
 - Machine Learning
-- Human computer interaction
-- Network systems
+- Human Computer Interaction
+- Network Systems
 search_keywords:
 - Prosthesis
 - Motion Capture
 - EEG
 - Robotics
-- Brain imaging
+- Brain Imaging
 - Neuroscience
 - Machine Learning
-- Human computer interaction
-- Network systems
+- Human Computer Interaction
+- Network Systems
 selected_works:
 - title: 'Impact of Latency on User Experience in Immersive Teleoperation: A Study
     with Motion Capture Gloves and Dexterous Robotic Hand'

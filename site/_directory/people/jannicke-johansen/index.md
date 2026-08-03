@@ -26,28 +26,28 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Emerging technologies
+- Emerging Technologies
 - Ecommerce
 - Scenography
-- Product design
-- Art and culture innovation
-- Pedagogical entrepreneurship
-- Sustainable design
-- User centred design
-- Furniture design
+- Product Design
+- Art and Culture Innovation
+- Pedagogical Entrepreneurship
+- Sustainable Design
+- User Centred Design
+- Furniture Design
 - Merkevarebygging
 - Entrepreneurship
 - Research
 search_keywords:
-- Emerging technologies
+- Emerging Technologies
 - Ecommerce
 - Scenography
-- Product design
-- Art and culture innovation
-- Pedagogical entrepreneurship
-- Sustainable design
-- User centred design
-- Furniture design
+- Product Design
+- Art and Culture Innovation
+- Pedagogical Entrepreneurship
+- Sustainable Design
+- User Centred Design
+- Furniture Design
 - Merkevarebygging
 - Entrepreneurship
 - Research

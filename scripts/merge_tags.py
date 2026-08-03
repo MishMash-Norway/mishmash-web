@@ -23,7 +23,7 @@ from tag_merge import (
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Merge similar tags site-wide using config/tag_merge_map.yml."
+        description="Normalize tag variants and title casing site-wide using config/tag_merge_map.yml."
     )
     parser.add_argument("--root", default=str(SITE_ROOT), help="Jekyll site source directory")
     parser.add_argument(

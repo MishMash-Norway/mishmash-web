@@ -25,7 +25,7 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Arts education
+- Arts Education
 - Digital Culture
 - Youth
 search_keywords: []

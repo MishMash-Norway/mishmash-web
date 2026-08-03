@@ -25,17 +25,17 @@ urls:
   instagram: https://www.instagram.com/gurovongermeten
 aliases: []
 tags:
-- Music and traditions
+- Music and Traditions
 - Musical Theater
 - Song
 - Music
-- Higher music education
+- Higher Music Education
 search_keywords:
-- Music and traditions
+- Music and Traditions
 - Musical Theater
 - Song
 - Music
-- Higher music education
+- Higher Music Education
 selected_works:
 - title: 'Voice and Gender in Contemporary Musical Theater Education: An Exploratory
     Practice Study'

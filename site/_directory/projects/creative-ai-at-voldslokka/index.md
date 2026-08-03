@@ -12,7 +12,7 @@ tags:
 - WP4
 - Youth
 - Co-Creation
-- Arts education
+- Arts Education
 slug: creative-ai-at-voldslokka
 name: Creative AI at Voldsløkka
 people:

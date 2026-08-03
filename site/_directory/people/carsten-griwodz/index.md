@@ -27,26 +27,26 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Computer networking
-- Communication systems
-- Distributed systems
-- Data communication
-- Communication protocols
+- Computer Networking
+- Communication Systems
+- Distributed Systems
+- Data Communication
+- Communication Protocols
 - Internet
-- Networks and distributed systems
-- Distributed multimedia
-- Operating systems
+- Networks and Distributed Systems
+- Distributed Multimedia
+- Operating Systems
 - Informatics
 search_keywords:
-- Computer networking
-- Communication systems
-- Distributed systems
-- Data communication
-- Communication protocols
+- Computer Networking
+- Communication Systems
+- Distributed Systems
+- Data Communication
+- Communication Protocols
 - Internet
-- Networks and distributed systems
-- Distributed multimedia
-- Operating systems
+- Networks and Distributed Systems
+- Distributed Multimedia
+- Operating Systems
 - Informatics
 selected_works:
 - title: 'Impact of Latency on User Experience in Immersive Teleoperation: A Study

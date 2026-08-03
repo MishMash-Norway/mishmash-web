@@ -29,7 +29,7 @@ tags:
 - Music
 - Technology
 - Instruments
-- Artificial intelligence
+- Artificial Intelligence
 - Performance
 - Improvisation
 - Notation
@@ -38,7 +38,7 @@ search_keywords:
 - Music
 - Technology
 - Instruments
-- Artificial intelligence
+- Artificial Intelligence
 - Performance
 - Improvisation
 - Notation

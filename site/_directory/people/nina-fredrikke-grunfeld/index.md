@@ -31,15 +31,15 @@ urls:
 aliases: []
 tags:
 - Manuscripts
-- Directing for documentaries and television
+- Directing for Documentaries and Television
 - Film and TV
-- Audio-visual production
+- Audio-Visual Production
 - Filmbransje
 search_keywords:
 - Manuscripts
-- Directing for documentaries and television
+- Directing for Documentaries and Television
 - Film and TV
-- Audio-visual production
+- Audio-Visual Production
 - Filmbransje
 selected_works:
 - title: Auf der Suche nach meiner verfolgten Großmutter

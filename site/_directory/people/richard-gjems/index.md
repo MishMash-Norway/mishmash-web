@@ -25,12 +25,12 @@ urls:
   instagram: https://www.instagram.com/richardgjems
 aliases: []
 tags:
-- Digital library
+- Digital Library
 - Cultural History
 - Archives
 - Library Science
 search_keywords:
-- Digital library
+- Digital Library
 - Cultural History
 - Archives
 - Library Science

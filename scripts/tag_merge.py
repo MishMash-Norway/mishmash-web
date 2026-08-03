@@ -5,6 +5,7 @@ from __future__ import annotations
 
 from collections import Counter, defaultdict
 from pathlib import Path
+import re
 
 import yaml
 
@@ -15,6 +16,52 @@ DEFAULT_MAP_PATH = REPO_ROOT / "config" / "tag_merge_map.yml"
 DEFAULT_TAG_GROUPS_PATH = SITE_ROOT / "_data" / "tag_groups.yml"
 DEFAULT_FIELDS = ("tags", "search_keywords")
 SKIP_DIR_NAMES = {"_site", "node_modules", ".git", ".jekyll-cache"}
+LOWERCASE_TITLE_WORDS = {
+    "a",
+    "an",
+    "and",
+    "as",
+    "at",
+    "but",
+    "by",
+    "for",
+    "from",
+    "in",
+    "into",
+    "nor",
+    "of",
+    "on",
+    "or",
+    "per",
+    "so",
+    "the",
+    "to",
+    "up",
+    "via",
+    "vs",
+}
+WORD_RE = re.compile(r"[^\W\d_]+", re.UNICODE)
+
+
+def title_case_tag(tag: str) -> str:
+    """Title-case ordinary tag words without changing acronyms or brand casing."""
+
+    words = list(WORD_RE.finditer(tag))
+    first_word_start = words[0].start() if words else None
+    last_word_start = words[-1].start() if words else None
+
+    def replace_word(match: re.Match[str]) -> str:
+        word = match.group()
+        if (
+            word.casefold() in LOWERCASE_TITLE_WORDS
+            and match.start() not in {first_word_start, last_word_start}
+        ):
+            return word.casefold()
+        if word.isupper() or any(char.isupper() for char in word[1:]):
+            return word
+        return word[:1].upper() + word[1:].lower()
+
+    return WORD_RE.sub(replace_word, tag)
 
 
 def load_merge_config(path: Path | None = None) -> dict:
@@ -33,9 +80,11 @@ def build_lookup(config: dict) -> dict[str, str]:
         raise ValueError("merges must be a mapping of canonical tag -> variants")
 
     for canonical, variants in merges.items():
-        canonical = str(canonical).strip()
-        if not canonical:
+        raw_canonical = str(canonical).strip()
+        if not raw_canonical:
             continue
+        canonical = title_case_tag(raw_canonical)
+        lookup[raw_canonical] = canonical
         lookup[canonical] = canonical
         if variants is None:
             continue
@@ -59,7 +108,7 @@ def build_lookup(config: dict) -> dict[str, str]:
         raise ValueError("aliases must be a mapping of variant -> canonical")
     for variant, canonical in aliases.items():
         variant = str(variant).strip()
-        canonical = str(canonical).strip()
+        canonical = title_case_tag(str(canonical).strip())
         if not variant or not canonical:
             continue
         if variant in lookup and lookup[variant] != canonical:
@@ -80,7 +129,7 @@ def configured_fields(config: dict) -> tuple[str, ...]:
     return tuple(str(field).strip() for field in fields if str(field).strip())
 
 
-def merge_tag_list(items, lookup: dict[str, str]) -> list[str]:
+def tag_list_items(items) -> list[str]:
     if items is None:
         return []
     if isinstance(items, str):
@@ -88,15 +137,14 @@ def merge_tag_list(items, lookup: dict[str, str]) -> list[str]:
     if not isinstance(items, list):
         return []
 
+    return [item.strip() for item in items if isinstance(item, str) and item.strip()]
+
+
+def merge_tag_list(items, lookup: dict[str, str]) -> list[str]:
     out: list[str] = []
     seen_lower: set[str] = set()
-    for item in items:
-        if not isinstance(item, str):
-            continue
-        tag = item.strip()
-        if not tag:
-            continue
-        canonical = lookup.get(tag, tag)
+    for tag in tag_list_items(items):
+        canonical = title_case_tag(lookup.get(tag, tag))
         key = canonical.lower()
         if key in seen_lower:
             continue
@@ -134,10 +182,10 @@ def apply_to_frontmatter(
             continue
         before = data.get(field)
         after = merge_tag_list(before, lookup)
-        if merge_tag_list(before, {}) == after:
+        if tag_list_items(before) == after:
             continue
         try:
-            rel = path.relative_to(site_root)
+            rel = path.resolve().relative_to(site_root)
         except ValueError:
             rel = path
         changes.append(f"{rel}: {field}")
@@ -170,7 +218,7 @@ def apply_to_tag_groups(
             continue
         before = group.get("tags")
         after = merge_tag_list(before, lookup)
-        if merge_tag_list(before, {}) == after:
+        if tag_list_items(before) == after:
             continue
         label = group.get("label", "?")
         changes.append(f"{path.name}: group {label!r}")
@@ -202,7 +250,7 @@ def find_unmapped_duplicate_groups(counts: Counter, lookup: dict[str, str]) -> d
     for key, variants in grouped.items():
         if len(variants) < 2:
             continue
-        canonical_forms = {lookup.get(tag, tag) for tag, _ in variants}
+        canonical_forms = {title_case_tag(lookup.get(tag, tag)) for tag, _ in variants}
         if len(canonical_forms) == 1:
             continue
         variants.sort(key=lambda item: (-item[1], item[0].lower()))

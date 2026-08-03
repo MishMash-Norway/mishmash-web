@@ -29,7 +29,7 @@ aliases: []
 tags:
 - Violin
 - Health Technology
-- innovation
+- Innovation
 search_keywords: []
 selected_works:
 - title: 'Konsert med Stavanger Domkor og Stavanger Katerdralensemble. St. Petri Kirke,
