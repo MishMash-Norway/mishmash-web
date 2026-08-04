@@ -39,6 +39,22 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Studying Embodied Expression in Drumming for Virtual Systems
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3802842.3802867
+  contributors:
+  - name: Olav Utne Skjeldal
+    role: Creator
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
 - title: Personalising behaviours of the multi-agent autonomous looper with a corpus
     of annotated co-performances
   year: '2026'
@@ -211,26 +227,6 @@ selected_works:
     url: /people/cagri-erdem/
   - name: Katja Henriksen Schia
     role: Creator
-- title: 'VentHackz: Exploring the Musicality of Ventilation Systems'
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://osf.io/enb3m/?view_only=09ef03393ef349d197fd1771b71ad9a4
-  contributors:
-  - name: Maham Riaz
-    role: Creator
-    slug: maham-riaz
-    url: /people/maham-riaz/
-  - name: Ioannis Theodoridis
-    role: Creator
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
 source_mentions: []
 summary: ''
 wps:

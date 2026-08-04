@@ -49,6 +49,43 @@ search_keywords:
 - Operating systems
 - Informatics
 selected_works:
+- title: Studying Embodied Expression in Drumming for Virtual Systems
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3802842.3802867
+  contributors:
+  - name: Olav Utne Skjeldal
+    role: Creator
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+- title: 'Rethinking Cardiac Anatomy Learning with Markerless AR: A Design and Usability
+    Evaluation'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/cspa68262.2026.11517875
+  contributors:
+  - name: Sayed Muchallil
+    role: Creator
+  - name: Malika Atifa Kaifan
+    role: Creator
+  - name: Mulkan Azhary
+    role: Creator
+  - name: Maya Fitria
+    role: Creator
+  - name: Yudha Nurdin
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
 - title: 'Impact of Latency on User Experience in Immersive Teleoperation: A Study
     with Motion Capture Gloves and Dexterous Robotic Hand'
   year: '2026'
@@ -67,6 +104,40 @@ selected_works:
   - name: Paresh Saxena
     role: Creator
   - name: Ozgu Alay
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+- title: A cross-vendor implementation of PopSift using SYCL
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://dl.acm.org/doi/pdf/10.1145/3811257.3811261
+  contributors:
+  - name: Mohammad Fadel Al Khafaji
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+  - name: Håkon Kvale Stensland
+    role: Creator
+- title: Augmented Reality Implementation for Hijab Try-on Application
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/cosite68330.2025.11414287
+  contributors:
+  - name: Sayed Muchallil
+    role: Creator
+  - name: Rahmat Ferdiansyah
+    role: Creator
+  - name: Khairun Saddami
+    role: Creator
+  - name: Ernita Dewi Meutia
+    role: Creator
+  - name: Afnan Afnan
     role: Creator
   - name: Carsten Griwodz
     role: Creator
@@ -162,81 +233,6 @@ selected_works:
     role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
-- title: Interactive Experiences with a Web-based Drummer Bot for Finger-Tapping
-  year: '2024'
-  source: Conference abstract
-  group_type: Conference
-  url: https://doi.org/10.1162/isal_a_00768
-  contributors:
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
-- title: Longitudinal Analysis of Inter-City Network Delays
-  year: '2023'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.23919/TMA58422.2023.10198987
-  contributors:
-  - name: Selim Özcan
-    role: Creator
-  - name: Ioana Livadariu
-    role: Creator
-  - name: Georgios Smaragdakis
-    role: Creator
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
-- title: Quantitative Comparison of Point Cloud Compression Algorithms with PCC Arena
-  year: '2023'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1109/TMM.2022.3154927
-  contributors:
-  - name: Cheng-Hao Wu
-    role: Creator
-  - name: Chih-Fan Hsu
-    role: Creator
-  - name: Tzu-Kuan Hung
-    role: Creator
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
-  - name: Wei Tsang Ooi
-    role: Creator
-  - name: Cheng-Hsin Hsu
-    role: Creator
-- title: Experiencing Rotation and Curvature Gain for Redirected Walking in Virtual
-    Reality
-  year: '2023'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/3592834.3592874
-  contributors:
-  - name: Emil Magnar Kjenstad
-    role: Creator
-  - name: Halvor Kristian Ringsby
-    role: Creator
-  - name: Rahel Jamal Gaeb
-    role: Creator
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Konstantinos Kousias
-    role: Creator
-  - name: Ozgu Alay
-    role: Creator
   - name: Carsten Griwodz
     role: Creator
     slug: carsten-griwodz

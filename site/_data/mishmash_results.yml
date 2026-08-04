@@ -1,4 +1,4 @@
-synced_at: '2026-08-03T08:37:41Z'
+synced_at: '2026-08-04T07:46:12Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -316,6 +316,96 @@ results:
     nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
+- title: Artificial Intelligence as Art
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Clemens Cavallin
+    role: Creator
+    slug: clemens-cavallin
+    url: /people/clemens-cavallin/
+  institutions:
+  - name: NLA University College
+    slug: nla-university-college
+    url: /institutions/nla-university-college/
+  citation:
+    authors:
+    - display: Cavallin, Clemens
+      name: Clemens Cavallin
+      slug: clemens-cavallin
+      url: /people/clemens-cavallin/
+    title: Artificial Intelligence as Art
+    container: 'Nature Lost, Nature Regained: Rethinking Nature Across Theology, Philosophy,
+      and the Sciences.'
+    details: Roma, Pontifical University of the Holy Cross.
+    abstract: The rise of increasingly sophisticated simulations of human reasoning,
+      creativity, and language presents many challenges to individuals, institutions,
+      and societies. For religious and spiritual traditions navigating the tension
+      between adoption and rejection, AI revitalizes long-standing debates on human
+      nature, the relationship between science and faith, and the natural and supernatural.
+      Simultaneously, it fuels both secular and religious radical forms of techno-criticism
+      against the industrialization and rationalization of culture. Within the Catholic
+      tradition specifically, AI is often met with skepticism, as computational processes
+      are seen to lack human qualities such as consciousness, emotion, and understanding,
+      a stance exemplified by the Vatican document Antiqua et Nova. While many current
+      Christian responses to AI development focus on the ethical, environmental, and
+      social risks of large-scale AI adoption, this paper investigates whether a Thomist
+      framework can offer an alternative evaluation that avoids a binary antagonism
+      between humanism and automation. In a discussion with Edward Feser's critique
+      of AI in Immortal Souls (2024), the paper argues for understanding AI through
+      the lens of art (ars) rather than mere mechanics. As biotechnology further blurs
+      the boundary between the organic and the mechanical, a theology of creation
+      and art may better balance human nature in relation to artificial simulations
+      than a humanism based on the privilege of interiority. This paper suggests that
+      Thomism provides intellectual resources helpful for developing such a perspective.
+    full_text_url: https://hdl.handle.net/11250/5539132
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019fc7758eb2-7ae65944-f835-468a-9dd3-1ab7c19505c8
+  nva_url: https://nva.sikt.no/publication/019fc7758eb2-7ae65944-f835-468a-9dd3-1ab7c19505c8
+- title: The Dignity of Artificial Intelligence
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Clemens Cavallin
+    role: Creator
+    slug: clemens-cavallin
+    url: /people/clemens-cavallin/
+  institutions:
+  - name: NLA University College
+    slug: nla-university-college
+    url: /institutions/nla-university-college/
+  citation:
+    authors:
+    - display: Cavallin, Clemens
+      name: Clemens Cavallin
+      slug: clemens-cavallin
+      url: /people/clemens-cavallin/
+    title: The Dignity of Artificial Intelligence
+    container: European Academy of Religion, Ninth Annual Conference.
+    details: Roma.
+    abstract: 'A frequently used perspective for theological analysis of AI is that
+      of the Imago Dei, an application pioneered by Noreen Herzfeld. The Imago Dei
+      concept highlights the “artificiality” so to speak (the very createdness), also
+      of the human person. AI is then created in the imago hominis, while, in a third
+      step, AI systems generate artificial objects: increasingly in the imago automati,
+      as the Internet is taken over by agentic AI. To put AI into the context of creation
+      theology and art, is, I think, a promising path to thematize also the aesthetically
+      and religiously important aspects of the current worldwide project striving
+      to simulate intelligence, but also life. In this paper presentation, I will
+      investigate to what extent the thinking of Thomas Aquinas can be a resource
+      for such an investigation into the dignity of artificial intelligence. Of course,
+      Aquinas had no idea of digital technology and modern neurophysiology, but maybe
+      his taxonomies and principles can still be of value for an intellectual engagement
+      with the nature and worth of AI.iv'
+    full_text_url: https://hdl.handle.net/11250/5539114
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019fc7651904-abec043d-5934-4669-a980-e6fae7fd554a
+  url: https://secure.onlinecongress.it/Olc/Client/Programme/Public/Abstract/EUARE2026/1997208256990597002202207/en/AbstractList
+  nva_url: https://nva.sikt.no/publication/019fc7651904-abec043d-5934-4669-a980-e6fae7fd554a
 - title: Presentation of MishMash Centre for AI and Creativity
   year: '2026'
   type: ConferencePoster
