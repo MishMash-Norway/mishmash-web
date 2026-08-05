@@ -65,6 +65,26 @@ selected_works:
     role: Creator
     slug: carsten-griwodz
     url: /people/carsten-griwodz/
+- title: Augmented Reality Implementation for Hijab Try-on Application
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/cosite68330.2025.11414287
+  contributors:
+  - name: Sayed Muchallil
+    role: Creator
+  - name: Rahmat Ferdiansyah
+    role: Creator
+  - name: Khairun Saddami
+    role: Creator
+  - name: Ernita Dewi Meutia
+    role: Creator
+  - name: Afnan Afnan
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
 - title: 'Rethinking Cardiac Anatomy Learning with Markerless AR: A Design and Usability
     Evaluation'
   year: '2026'
@@ -123,26 +143,6 @@ selected_works:
     url: /people/carsten-griwodz/
   - name: Håkon Kvale Stensland
     role: Creator
-- title: Augmented Reality Implementation for Hijab Try-on Application
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/cosite68330.2025.11414287
-  contributors:
-  - name: Sayed Muchallil
-    role: Creator
-  - name: Rahmat Ferdiansyah
-    role: Creator
-  - name: Khairun Saddami
-    role: Creator
-  - name: Ernita Dewi Meutia
-    role: Creator
-  - name: Afnan Afnan
-    role: Creator
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
 - title: On the limits of trajectory prediction for hand movement trajectories with
     motion-capture sensors
   year: '2025'
