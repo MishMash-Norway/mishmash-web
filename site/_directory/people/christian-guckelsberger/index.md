@@ -42,7 +42,7 @@ selected_works:
   year: '2026'
   source: Preprint
   group_type: Preprint
-  url: https://doi.org/10.31234/osf.io/vzd3w_v1
+  url: https://doi.org/10.31234/osf.io/vzd3w_v2
 - title: 'Generative AI in Game Development: A Qualitative Research Synthesis'
   year: '2026'
   source: Conference paper
