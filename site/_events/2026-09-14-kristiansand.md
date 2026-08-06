@@ -25,28 +25,29 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 ## Draft programme
 *Subject to changes. The full programme is published in the week before the conference.*
  
-**Monday, September 14th**
-09:15 registration opens
-10:00 Central opening session
-10:30 KEYNOTE: Prof. Jane C. Ginsburg, Professor of Literary and Artistic Property Law at Columbia University School of Law
-11:15 Plenary introductions Humans, Machines, Society
-11:30 3 parallel tracks around the themes Humans, Machines, Society
+**Monday, September 14th**  
+09:15 registration opens  
+10:00 Central opening session  
+10:30 KEYNOTE: Prof. Jane C. Ginsburg, Professor of Literary and Artistic Property Law at Columbia University School of Law  
+11:15 Plenary introductions Humans, Machines, Society  
+11:30 3 parallel tracks around the themes Humans, Machines, Society  
 
-12:45 Lunch with poster presentations; the poster presentations are clustered around 8 themes: 1. Human-AI interaction & perception, 2. Heritage, archives & collections, 3. Music making & AI, 4. Understanding and testing AI, 5. AI in education, 6. AI for health & wellbeing, 7. Artistic research & creative works, 8. Responsible AI & critical futures
+12:45 Lunch with poster presentations; the poster presentations are clustered around 8 themes: 1. Human-AI interaction & perception, 2. Heritage, archives & collections, 3. Music making & AI, 4. Understanding and testing AI, 5. AI in education, 6. AI for health & wellbeing, 7. Artistic research & creative works, 8. Responsible AI & critical futures  
 
-14:00 7 parallel tracks, detailed titles follow soon. Topics include the interaction between humans and technology in dynamic performances, the impact of AI on artistic integrity and human aesthetic, the application of AI in (music) therapy, educational contexts, and in the organisation and protection of cultural heritage, as well as the impact of AI on the creative and cultural industries, and reflections on the algorithmic, personal and societal challenges of the interaction between AI and human creativity. 
-15:30 Poster presentations (continued); the poster presentations are clustered around 8 themes: 1. Human-AI interaction & perception, 2. Heritage, archives & collections, 3. Music making & AI, 4. Understanding and testing AI, 5. AI in education, 6. AI for health & wellbeing, 7. Artistic research & creative works, 8. Responsible AI & critical futures
-16:15 KEYNOTE: speaker to be confirmed
-17:00 Plenary closing session: setting the agenda for the near future & closing statements
-17:45 end of the daytime programme
-19:00 MishMash LIVE: social event with food, drinks and inspiration
-23:00 End of the Monday programme
+14:00 7 parallel tracks, detailed titles follow soon. Topics include the interaction between humans and technology in dynamic performances, the impact of AI on artistic integrity and human aesthetic, the application of AI in (music) therapy, educational contexts, and in the organisation and protection of cultural heritage, as well as the impact of AI on the creative and cultural industries, and reflections on the algorithmic, personal and societal challenges of the interaction between AI and human creativity.    
+15:30 Poster presentations (continued); the poster presentations are clustered around 8 themes: 1. Human-AI interaction & perception, 2. Heritage, archives & collections, 3. Music making & AI, 4. Understanding and testing AI, 5. AI in education, 6. AI for health & wellbeing, 7. Artistic research & creative works, 8. Responsible AI & critical futures  
+16:15 KEYNOTE: speaker to be confirmed  
+17:00 Plenary closing session: setting the agenda for the near future & closing statements  
+17:45 end of the daytime programme  
+19:00 MishMash LIVE: social event with food, drinks and inspiration  
+23:00 End of the Monday programme  
+
 
 **Tuesday, September 15th**
-08:30 MishMash Work Package meetings (closed, invite-only)
-10:00 opening of TechArt - see the [separate TechArt page](https://kilden.com/program/47927-tech-art/) for the details on the daytime programme
-19:00 Closing reception with food, drinks and performance
-23:00 End of the conference
+08:30 MishMash Work Package meetings (closed, invite-only)  
+10:00 opening of TechArt - see the [separate TechArt page](https://kilden.com/program/47927-tech-art/) for the details on the daytime programme  
+19:00 Closing reception with food, drinks and performance  
+23:00 End of the conference  
 
 
 ## Inspiring environment
