@@ -51,7 +51,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
         </div>
 
         <div class="tag-logic-row">
-          <span class="filter-label">Cluster:</span>
+          <span class="filter-label">Tag groups:</span>
           <div class="tag-logic-switch" role="group" aria-label="Enable or disable tag clustering">
             <button id="cluster-mode-on" class="filter-chip tag-logic-option active" type="button" aria-pressed="true">ON</button>
             <button id="cluster-mode-off" class="filter-chip tag-logic-option" type="button" aria-pressed="false">OFF</button>
@@ -59,15 +59,19 @@ description: "Search MishMash people, institutions, projects, pages, and events.
         </div>
 
         <div id="tag-cluster-size-row" class="tag-cluster-size-row">
-          <label class="filter-label" for="cluster-count">Clusters:</label>
-          <input id="cluster-count" class="cluster-count-input" type="range" min="20" max="40" step="1" value="20" aria-label="Number of clusters">
+          <label class="filter-label" for="cluster-count">Number of Groups</label>
+          <div class="cluster-slider-wrap">
+            <div class="cluster-slider-track" aria-hidden="true"></div>
+            <div class="cluster-slider-thumb" aria-hidden="true"></div>
+            <input id="cluster-count" class="cluster-count-input" type="range" min="20" max="40" step="1" value="20" aria-label="Number of clusters">
+          </div>
           <output id="cluster-count-value" for="cluster-count" class="cluster-count-value">20</output>
         </div>
       </div>
 
       <div id="clustered-tags-section">
         <p class="cluster-section-label">CLUSTERED TAGS</p>
-        <p id="cluster-help-text" class="cluster-help-text">Cluster labels are representative tags. Selecting one topic matches items that include any tag from that cluster.</p>
+        <p id="cluster-help-text" class="cluster-help-text">Group similar tags into themes instead of a long list. Selecting a group matches any tag in that theme. Hover a selected group to see its tags. Fewer groups mean more specific topics; more groups mean broader themes.</p>
         <div id="tag-cluster-chips" class="chip-list" role="group" aria-label="Filter by clustered tags"></div>
       </div>
 
@@ -128,6 +132,9 @@ description: "Search MishMash people, institutions, projects, pages, and events.
   const clusterCountValue = document.getElementById('cluster-count-value');
   const clusterHelpText = document.getElementById('cluster-help-text');
   const tagClusterSizeRow = document.getElementById('tag-cluster-size-row');
+  const clusterSliderWrap = document.querySelector('.cluster-slider-wrap');
+  const clusterSliderTrack = document.querySelector('.cluster-slider-track');
+  const clusterSliderThumb = document.querySelector('.cluster-slider-thumb');
   const clusteredTagsSection = document.getElementById('clustered-tags-section');
   const allTagsSection = document.getElementById('all-tags-section');
 
@@ -512,6 +519,24 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     clusterCountInput.value = String(clusterCount);
     clusterCountValue.value = String(clusterCount);
     clusterCountValue.textContent = String(clusterCount);
+    syncClusterSliderFill();
+    syncClusterSliderState();
+  }
+
+  function syncClusterSliderFill() {
+    if (!clusterCountInput || !clusterSliderWrap) return;
+    const min = parseFloat(clusterCountInput.min || '0');
+    const max = parseFloat(clusterCountInput.max || '0');
+    const value = parseFloat(clusterCountInput.value || '0');
+    const pct = max > min ? ((value - min) / (max - min)) * 100 : 0;
+    const fill = Math.max(0, Math.min(100, pct)) + '%';
+    clusterSliderWrap.style.setProperty('--cluster-fill', fill);
+    if (clusterSliderThumb) clusterSliderThumb.style.left = fill;
+  }
+
+  function syncClusterSliderState() {
+    if (!clusterSliderWrap) return;
+    clusterSliderWrap.classList.toggle('is-disabled', !clusteringEnabled);
   }
 
   function renderTagClusterChips() {
@@ -558,6 +583,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     clusterCountInput.value = String(clusterCount);
     clusterCountValue.value = String(clusterCount);
     clusterCountValue.textContent = String(clusterCount);
+    syncClusterSliderFill();
 
     const previouslySelected = new Set(activeTagClusters);
     clusterModel = buildTagClusterModel(allItems, clusterCount);
@@ -581,6 +607,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
   function setClusteringEnabled(enabled) {
     clusteringEnabled = !!enabled;
     syncClusteringModeUI();
+    syncClusterSliderState();
     updateUrl();
     if (input.value || activeTypes.size || activeCategories.size || activeRoles.size || activeTags.size || activeTagClusters.size) {
       runSearch();
@@ -954,5 +981,8 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       setClusterCount(this.value, true);
     });
   }
+
+  syncClusterSliderState();
+  syncClusterSliderFill();
 })();
 </script>
