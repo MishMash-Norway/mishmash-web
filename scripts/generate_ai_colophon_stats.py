@@ -33,17 +33,19 @@ def git(*args: str) -> str:
     ).stdout.strip()
 
 
-def recent_commits() -> list:
-    """The latest commits as date + subject + how they were made."""
+def parse_recent_commit_log(log: str) -> list:
+    """Parse NUL-delimited recent commit metadata from git log."""
     entries = []
-    log = git(
-        "log", f"-{RECENT_COUNT}", "--format=%H%x1f%as%x1f%an%x1f%s%x1f%b%x1e"
-    )
-    for record in log.split("\x1e"):
-        record = record.strip("\n")
-        if not record.strip():
-            continue
-        sha, date, author, subject, body = record.split("\x1f")
+    fields = log.split("\x00")
+    if fields and not fields[-1]:
+        fields.pop()
+    if len(fields) % 5 != 0:
+        raise ValueError(
+            "Malformed git log payload: expected field count divisible by 5, "
+            f"got {len(fields)}"
+        )
+    for i in range(0, len(fields), 5):
+        _sha, date, author, subject, body = fields[i:i + 5]
         if re.search(AUTOMATION_AUTHOR, author):
             how = "automated"
         elif re.search(AI_AUTHOR, author, flags=re.IGNORECASE) or re.search(
@@ -54,6 +56,15 @@ def recent_commits() -> list:
             how = "human"
         entries.append({"date": date, "subject": subject, "how": how})
     return entries
+
+
+def recent_commits() -> list:
+    """The latest commits as date + subject + how they were made."""
+    log = git(
+        "log", "-z", f"-{RECENT_COUNT}",
+        "--format=%H%x00%as%x00%an%x00%s%x00%b",
+    )
+    return parse_recent_commit_log(log)
 
 
 def main() -> None:
