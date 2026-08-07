@@ -1039,7 +1039,7 @@ a:focus-visible .icon {
   top: 50%;
   transform: translateY(-50%);
   height: 8px;
-  border: 1px solid #A7A1F4;
+  border: 1px solid #c1c9d2;
   border-radius: 999px;
   background: linear-gradient(to right, #A7A1F4 0%, #A7A1F4 var(--cluster-fill, 0%), #fff var(--cluster-fill, 0%), #fff 100%);
 }
@@ -1051,7 +1051,7 @@ a:focus-visible .icon {
   width: 16px;
   height: 16px;
   transform: translate(-50%, -50%);
-  border: 1px solid #A7A1F4;
+  border: 1px solid #c1c9d2;
   border-radius: 50%;
   background: #A7A1F4;
   pointer-events: none;
@@ -1096,7 +1096,7 @@ a:focus-visible .icon {
 
 .tag-cluster-size-row.is-disabled .cluster-slider-thumb {
   background: #c8c4f8;
-  border-color: #c8c4f8;
+  border-color: #c1c9d2;
 }
 
 .cluster-count-value {
