@@ -4,9 +4,9 @@ type: person
 slug: andre-alexandersen-hauge
 name: André Alexandersen Hauge
 title: André Alexandersen Hauge
-position: Guest
-department: Faculty of Mathematics and Natural Sciences
-institution: university-of-oslo
+position: Dean
+department: Faculty of Computer Science, Engineering and Economics
+institution: ostfold-university-college
 institutions:
 - ostfold-university-college
 - university-of-oslo

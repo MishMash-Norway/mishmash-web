@@ -29,6 +29,16 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Sacrifice: Religion & the Revitalization of Christian Life'
+  year: '2026'
+  source: Non-fiction book
+  group_type: Non-fiction book
+  url: https://stpaulcenter.com/store/sacrifice-religion-the-revitalization-of-christian-life
+  contributors:
+  - name: Clemens Cavallin
+    role: Creator
+    slug: clemens-cavallin
+    url: /people/clemens-cavallin/
 - title: Den katolske kirkens tilbakekomst til Bergen
   year: '2026'
   source: Non-fiction chapter
@@ -125,21 +135,6 @@ selected_works:
     role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/
-- title: Inledning
-  year: '2025'
-  source: Introduction
-  group_type: Introduction
-  contributors:
-  - name: Paul Clemens Cavallin
-    role: Creator
-    slug: clemens-cavallin
-    url: /people/clemens-cavallin/
-  - name: Mats Wahlberg
-    role: Creator
-  - name: Stefan Lindholm
-    role: Creator
-  - name: Mikael Schink
-    role: Creator
 source_mentions: []
 summary: ''
 description: Professor, Department of Teacher Education, NLA University College

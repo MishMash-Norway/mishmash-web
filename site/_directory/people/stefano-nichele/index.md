@@ -27,6 +27,21 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Benchmarking the State of Networks with a Low-Cost Method Based on Reservoir
+    Computing | Springer Nature Link
+  year: '2026'
+  source: Monograph
+  group_type: Monograph
+  url: https://link.springer.com/chapter/10.1007/978-3-032-27698-8_87
+  contributors:
+  - name: Stefano Nichele
+    role: Creator
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
+  - name: Carl-Hendrik Peters
+    role: Creator
+  - name: Felix Simon Reimers
+    role: Creator
 - title: Information theoretic measures of neural and behavioural coupling predict
     representational drift
   year: '2026'
@@ -338,26 +353,6 @@ selected_works:
   contributors:
   - name: Vibeke Devold Valderhaug
     role: Creator
-  - name: Ola Huse Ramstad
-    role: Creator
-  - name: Rosanne Francisca van de Wijdeven
-    role: Creator
-  - name: Kristine Heiney
-    role: Creator
-  - name: Stefano Nichele
-    role: Creator
-    slug: stefano-nichele
-    url: /people/stefano-nichele/
-  - name: Axel Sandvig
-    role: Creator
-  - name: Ioanna Sandvig
-    role: Creator
-- title: MICRO- AND MESOSCALE ASPECTS OF NEURODEGENERATION IN MULTI-NODAL HUMAN NEURAL
-    NETWORKS CARRYING THE LRRK2 G2019S MUTATION
-  year: '2024'
-  source: Conference poster
-  group_type: Conference
-  contributors:
   - name: Ola Huse Ramstad
     role: Creator
   - name: Rosanne Francisca van de Wijdeven

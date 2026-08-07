@@ -14,6 +14,10 @@ affiliation_units:
 projects:
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
+other_projects:
+- title: SAMUS - Samisk musikk i musikkundervisningen
+  url: https://nva.sikt.no/projects/2757025
+  nva_id: '2757025'
 roles:
 - Member
 - Work Package Leader
@@ -176,11 +180,11 @@ selected_works:
     url: /people/sidsel-karlsen/
 source_mentions:
 - about/organisation/wp-leaders/index.md
+summary: ''
 wps:
 - WP4
 permalink: /people/sidsel-karlsen/
 redirect_from:
 - /directory/people/sidsel-karlsen/
-summary: ''
 ---
 

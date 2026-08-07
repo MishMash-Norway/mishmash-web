@@ -3,8 +3,8 @@ type: person
 slug: lyuba-boncheva
 name: Lyuba Boncheva
 title: Lyuba Boncheva
-position: ''
-department: ''
+position: PhD Fellow
+department: Department of Communication and Culture
 institution: bi-norwegian-business-school
 institutions:
 - bi-norwegian-business-school
