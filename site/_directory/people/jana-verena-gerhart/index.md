@@ -26,13 +26,13 @@ aliases: []
 tags:
 - Generative AI
 - AI and Creativity
-- Human-AI Co-creation
+- Human-AI Co-Creation
 - Creative Industries
 - Creative Agency
 search_keywords:
 - Generative AI
 - AI and Creativity
-- Human-AI Co-creation
+- Human-AI Co-Creation
 - Creative Processes
 - Creative Industries
 - Consumer Psychology

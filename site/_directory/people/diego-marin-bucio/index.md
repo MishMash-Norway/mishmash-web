@@ -32,20 +32,20 @@ urls:
   instagram: https://www.instagram.com/diegomarinmx
 aliases: []
 tags:
-- Dance anthropology
+- Dance Anthropology
 - Philosophy of Technology
-- Philosophy of art
-- Contemporary dance
+- Philosophy of Art
+- Contemporary Dance
 - Choreography
-- Phenomenology of the body
+- Phenomenology of the Body
 - Ethnochoreology
 search_keywords:
-- Dance anthropology
+- Dance Anthropology
 - Philosophy of Technology
-- Philosophy of art
-- Contemporary dance
+- Philosophy of Art
+- Contemporary Dance
 - Choreography
-- Phenomenology of the body
+- Phenomenology of the Body
 - Ethnochoreology
 selected_works:
 - title: 'A Framework for Human–AI Dance Creation: The Machinic Movement Matrix'

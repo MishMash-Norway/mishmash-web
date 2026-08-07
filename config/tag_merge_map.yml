@@ -1,8 +1,11 @@
 # Tag merge map for the MishMash site.
 #
 # Each canonical tag (key) absorbs the listed variants. Variants are replaced
-# everywhere `tags` and `search_keywords` appear in Jekyll front matter, and
-# in `site/_data/tag_groups.yml`.
+# in configured front-matter fields (currently `tags`, `search_keywords`, and
+# `roles`) and in `site/_data/tag_groups.yml`.
+#
+# The script also normalizes capitalization to title case, while keeping connector
+# words such as `and`, `of`, and `to` lowercase when they occur in the middle.
 #
 # Usage:
 #   python3 scripts/merge_tags.py --report     # audit tags and suggest gaps
@@ -14,6 +17,7 @@
 fields:
   - tags
   - search_keywords
+  - roles
 
 merges:
   # --- Artificial intelligence ---
@@ -33,8 +37,9 @@ merges:
     - Human machine interaction
     - Human-machine interaction
 
-  Human-AI interaction:
+  Human-AI Interaction:
     - Human AI Interaction
+    - Human-AI interaction
 
   # --- Music ---
   Music:
@@ -55,8 +60,14 @@ merges:
   Computer-Assisted Composition:
     - Computer assisted composition -music
 
+  Composition:
+    - composition
+
   Ethnomusicology:
     - Etnomusicology
+
+  Systematic musicology:
+    - systematic musicology
 
   # --- Arts & research ---
   Artistic research:
@@ -77,6 +88,9 @@ merges:
 
   Choreography:
     - Choreography.
+
+  Film Production:
+    - Film production
 
   # --- Heritage & culture ---
   Cultural Heritage:
@@ -104,6 +118,12 @@ merges:
 
   Image quality:
     - image quality assessments
+
+  cognitive science:
+    - Cognitive Science
+
+  technology:
+    - Technology
 
   # --- Education & society ---
   Education:

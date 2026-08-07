@@ -11,7 +11,7 @@ institutions:
 - university-of-bergen
 projects: []
 roles:
-- Research advisor
+- Research Advisor
 urls:
   personal_website: ''
   institutional_website: ''

@@ -18,7 +18,7 @@ projects:
 - strategic-storyteller
 - the-mishmash-website
 roles:
-- Work package leader
+- Work Package Leader
 wps:
 - WP4
 - WP7
@@ -35,31 +35,31 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Human computer interaction
-- Simulator training
-- Applied statistics
-- Eye-tracking
+- Human Computer Interaction
+- Simulator Training
+- Applied Statistics
+- Eye-Tracking
 - Cognitive Ergonomics
 - Ergonomics
 - Human Factors
 - Training Assessment
 - Physical Ergonomics
 - Maritime Human Factors
-- Interaction design
-- Artificial intelligence
+- Interaction Design
+- Artificial Intelligence
 search_keywords:
-- Human computer interaction
-- Simulator training
-- Applied statistics
-- Eye-tracking
+- Human Computer Interaction
+- Simulator Training
+- Applied Statistics
+- Eye-Tracking
 - Cognitive Ergonomics
 - Ergonomics
 - Human Factors
 - Training Assessment
 - Physical Ergonomics
 - Maritime Human Factors
-- Interaction design
-- Artificial intelligence
+- Interaction Design
+- Artificial Intelligence
 selected_works:
 - title: Efficacy of Using Large Language Model (LLM) Based Tools for Synthesizing
     Findings from Human Factors Research Studies.

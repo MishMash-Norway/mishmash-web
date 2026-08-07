@@ -15,7 +15,7 @@ affiliation_units:
 - Department of Arts Education
 projects: []
 roles:
-- Board member
+- Board Member
 urls:
   personal_website: ''
   institutional_website: ''

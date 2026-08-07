@@ -47,31 +47,31 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q47281555
 aliases: []
 tags:
-- Creative music education
-- Construction of musical instruments
+- Creative Music Education
+- Construction of Musical Instruments
 - Sound Art
-- Sound/music in new media
-- Music and health
-- Sound sculpture
+- Sound/Music in New Media
+- Music and Health
+- Sound Sculpture
 - Human Interface Devices
 - Musicology
-- Systematic musicology
-- Artificial intelligence
+- Systematic Musicology
+- Artificial Intelligence
 - Music Technology
-- Sound analysis /synthesis
+- Sound Analysis /Synthesis
 search_keywords:
-- Creative music education
-- Construction of musical instruments
+- Creative Music Education
+- Construction of Musical Instruments
 - Sound Art
-- Sound/music in new media
-- Music and health
-- Sound sculpture
+- Sound/Music in New Media
+- Music and Health
+- Sound Sculpture
 - Human Interface Devices
 - Musicology
-- Systematic musicology
-- Artificial intelligence
+- Systematic Musicology
+- Artificial Intelligence
 - Music Technology
-- Sound analysis /synthesis
+- Sound Analysis /Synthesis
 selected_works:
 - title: 'Laughter in the making: social bonding and coordination in dance practices'
   year: '2026'

@@ -18,7 +18,7 @@ other_projects:
   url: https://nva.sikt.no/projects/2710742
   nva_id: '2710742'
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: ''

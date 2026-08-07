@@ -28,7 +28,7 @@ other_projects:
   nva_id: '2769809'
 roles:
 - Member
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: https://www.simulamet.no/sigipro
   institutional_website: https://www.simulamet.no/people/baltasar

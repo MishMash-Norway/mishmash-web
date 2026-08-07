@@ -20,7 +20,7 @@ other_projects:
   nva_id: '2757025'
 roles:
 - Member
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: ''
   institutional_website: https://nmh.no/kontakt-oss/ansatte/sidsel-karlsen
@@ -34,9 +34,9 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Music education
+- Music Education
 search_keywords:
-- Music education
+- Music Education
 selected_works:
 - title: Soziologie der Musikpädagogik
   year: '2026'

@@ -13,7 +13,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       id="search-input"
       name="q"
       class="search-input"
-      placeholder="Search events, news, pages…"
+      placeholder="Search events, news, pages..."
       autocomplete="off"
       spellcheck="false"
       aria-controls="search-results"
@@ -40,7 +40,44 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     </div>
     <details id="tag-filter-group" class="filter-group filter-group-collapsible" hidden>
       <summary class="filter-label">Tags<span class="filter-expand-icon" aria-hidden="true">▸</span></summary>
-      <div id="tag-chips" class="chip-list" role="group" aria-label="Filter by tag"></div>
+
+      <div class="tag-cluster-controls">
+        <div class="tag-logic-row">
+          <span class="filter-label">Match:</span>
+          <div class="tag-logic-switch" role="group" aria-label="Tag matching mode">
+            <button id="tag-logic-any" class="filter-chip tag-logic-option active" type="button" aria-pressed="true">ANY</button>
+            <button id="tag-logic-all" class="filter-chip tag-logic-option" type="button" aria-pressed="false">ALL</button>
+          </div>
+        </div>
+
+        <div class="tag-logic-row">
+          <span class="filter-label">Tag groups:</span>
+          <div class="tag-logic-switch" role="group" aria-label="Enable or disable tag clustering">
+            <button id="cluster-mode-on" class="filter-chip tag-logic-option active" type="button" aria-pressed="true">ON</button>
+            <button id="cluster-mode-off" class="filter-chip tag-logic-option" type="button" aria-pressed="false">OFF</button>
+          </div>
+        </div>
+
+        <div id="tag-cluster-size-row" class="tag-cluster-size-row">
+          <label class="filter-label" for="cluster-count">Number of Groups</label>
+          <div class="cluster-slider-wrap">
+            <div class="cluster-slider-track" aria-hidden="true"></div>
+            <div class="cluster-slider-thumb" aria-hidden="true"></div>
+            <input id="cluster-count" class="cluster-count-input" type="range" min="20" max="40" step="1" value="20" aria-label="Number of clusters">
+          </div>
+          <output id="cluster-count-value" for="cluster-count" class="cluster-count-value">20</output>
+        </div>
+      </div>
+
+      <div id="clustered-tags-section">
+        <p id="cluster-help-text" class="cluster-help-text">Group similar tags into themes instead of a long list. Selecting a group matches any tag in that theme. Hover a selected group to see its tags. Fewer groups mean more specific topics; more groups mean broader themes.</p>
+        <div id="tag-cluster-chips" class="chip-list" role="group" aria-label="Filter by clustered tags"></div>
+      </div>
+
+      <div id="all-tags-section" hidden>
+        <p class="cluster-section-label">ALL TAGS</p>
+        <div id="tag-chips" class="chip-list" role="group" aria-label="Filter by tag"></div>
+      </div>
     </details>
   </div>
 </form>
@@ -53,32 +90,59 @@ description: "Search MishMash people, institutions, projects, pages, and events.
   'use strict';
 
   const INDEX_URL = '{{ "/search.json" | relative_url }}';
+  const DEFAULT_CLUSTER_COUNT = 20;
+  const MIN_CLUSTER_COUNT = 20;
+  const MAX_CLUSTER_TAGS = 100;
 
-  // ── State ──────────────────────────────────────────────────────────────────
   let allItems = [];
-  let activeTypes      = new Set();
+  let activeTypes = new Set();
   let activeCategories = new Set();
-  let activeTags       = new Set();
-  let activeRoles      = new Set();
+  let activeRoles = new Set();
+  let activeTags = new Set();
+  let activeTagClusters = new Set();
+  let tagLogic = 'or';
+  let clusteringEnabled = true;
+  let clusterCount = DEFAULT_CLUSTER_COUNT;
 
-  // ── DOM refs ───────────────────────────────────────────────────────────────
-  const input                = document.getElementById('search-input');
-  const resultsList          = document.getElementById('search-results');
-  const statusEl             = document.getElementById('search-status');
-  const filterPanel          = document.getElementById('filter-panel');
-  const typeChips            = document.getElementById('type-chips');
-  const roleFilterGroup      = document.getElementById('role-filter-group');
-  const roleChips            = document.getElementById('role-chips');
+  let clusterModel = [];
+  let clusterByKey = new Map();
+
+  const input = document.getElementById('search-input');
+  const resultsList = document.getElementById('search-results');
+  const statusEl = document.getElementById('search-status');
+  const filterPanel = document.getElementById('filter-panel');
+
+  const typeChips = document.getElementById('type-chips');
+  const roleFilterGroup = document.getElementById('role-filter-group');
+  const roleChips = document.getElementById('role-chips');
   const wpCategoryFilterGroup = document.getElementById('wp-category-filter-group');
-  const wpCategoryChips      = document.getElementById('wp-category-chips');
-  const categoryChips        = document.getElementById('category-chips');
-  const tagChips             = document.getElementById('tag-chips');
-  const tagFilterGroup        = document.getElementById('tag-filter-group');
-  const categoryFilterGroup  = document.getElementById('category-filter-group');
+  const wpCategoryChips = document.getElementById('wp-category-chips');
+  const categoryFilterGroup = document.getElementById('category-filter-group');
+  const categoryChips = document.getElementById('category-chips');
 
-  // ── Helpers ────────────────────────────────────────────────────────────────
+  const tagFilterGroup = document.getElementById('tag-filter-group');
+  const tagChips = document.getElementById('tag-chips');
+  const tagClusterChips = document.getElementById('tag-cluster-chips');
+  const tagLogicAny = document.getElementById('tag-logic-any');
+  const tagLogicAll = document.getElementById('tag-logic-all');
+  const clusterModeOn = document.getElementById('cluster-mode-on');
+  const clusterModeOff = document.getElementById('cluster-mode-off');
+  const clusterCountInput = document.getElementById('cluster-count');
+  const clusterCountValue = document.getElementById('cluster-count-value');
+  const clusterHelpText = document.getElementById('cluster-help-text');
+  const tagClusterSizeRow = document.getElementById('tag-cluster-size-row');
+  const clusterSliderWrap = document.querySelector('.cluster-slider-wrap');
+  const clusterSliderTrack = document.querySelector('.cluster-slider-track');
+  const clusterSliderThumb = document.querySelector('.cluster-slider-thumb');
+  const clusteredTagsSection = document.getElementById('clustered-tags-section');
+  const allTagsSection = document.getElementById('all-tags-section');
+
   function normalize(str) {
     return (str || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  }
+
+  function normalizeSpace(str) {
+    return (str || '').replace(/\s+/g, ' ').trim();
   }
 
   function escapeHtml(str) {
@@ -93,31 +157,40 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     if (!query) return escapeHtml(text);
     const safe = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const re = new RegExp('(' + safe + ')', 'gi');
-    const parts = text.split(re);
+    const parts = (text || '').split(re);
     return parts.map(function (part, i) {
-      return i % 2 === 1
-        ? '<mark>' + escapeHtml(part) + '</mark>'
-        : escapeHtml(part);
+      return i % 2 === 1 ? '<mark>' + escapeHtml(part) + '</mark>' : escapeHtml(part);
     }).join('');
   }
 
   function typeLabel(type) {
-    const map = { event: 'Event', news: 'News', page: 'Page', person: 'Person', institution: 'Institution', project: 'Project' };
+    const map = {
+      event: 'Event',
+      news: 'News',
+      page: 'Page',
+      person: 'Person',
+      institution: 'Institution',
+      project: 'Project'
+    };
     return map[type] || type;
   }
 
   function isWpCategory(val) {
-    return /^WP\d+$/i.test(val);
+    return /^WP\d+$/i.test(val || '');
   }
 
-  // ── Chip factory ───────────────────────────────────────────────────────────
-  function makeChip(label, activeSet, container, onToggle, displayText) {
+  function makeChip(value, activeSet, container, onToggle, displayText, titleText) {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'filter-chip';
-    btn.textContent = displayText || label;
-    btn.dataset.value = label;
-    btn.setAttribute('aria-pressed', 'false');
+    btn.textContent = displayText || value;
+    btn.dataset.value = value;
+    if (titleText) {
+      btn.title = titleText;
+      btn.setAttribute('aria-label', titleText);
+    }
+    btn.setAttribute('aria-pressed', activeSet.has(value) ? 'true' : 'false');
+    if (activeSet.has(value)) btn.classList.add('active');
     btn.addEventListener('click', function () {
       const val = this.dataset.value;
       if (activeSet.has(val)) {
@@ -128,7 +201,9 @@ description: "Search MishMash people, institutions, projects, pages, and events.
         activeSet.add(val);
         this.classList.add('active');
         this.setAttribute('aria-pressed', 'true');
-        if (container === tagChips) tagFilterGroup.open = true;
+      }
+      if (container === tagChips || container === tagClusterChips) {
+        tagFilterGroup.open = true;
       }
       onToggle();
       updateUrl();
@@ -136,7 +211,6 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     container.appendChild(btn);
   }
 
-  // ── Role filter visibility ─────────────────────────────────────────────────
   function syncRoleFilterVisibility() {
     const personSelected = activeTypes.has('person');
     roleFilterGroup.hidden = !(personSelected && roleChips.children.length > 0);
@@ -165,36 +239,409 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     }
   }
 
-  // ── Role groups ────────────────────────────────────────────────────────────
   const ROLE_GROUPS = {
-    'Management':   ['Director', 'Deputy director', 'Administrative coordinator', 'Research advisor'],
-    'Board member': ['Board Leader', 'Board member']
+    'Management': ['Director', 'Deputy Director', 'Administrative Coordinator', 'Research Advisor'],
+    'Board Member': ['Board Leader', 'Board Member']
   };
 
-  // Expand a chip label to the actual role values it covers
-  function expandRole(label) {
-    return ROLE_GROUPS[label] || [label];
+  function norm(str) {
+    return (str || '').toLowerCase().trim();
   }
 
-  // ── Build filter UI ────────────────────────────────────────────────────────
+  function roleMatchesChip(itemRoles, chipLabel) {
+    const targetValues = ROLE_GROUPS[chipLabel] || [chipLabel];
+    return targetValues.some(function (tv) {
+      return itemRoles.some(function (ir) { return norm(ir) === norm(tv); });
+    });
+  }
+
+  function syncTagLogicUI() {
+    if (tagLogicAny) {
+      tagLogicAny.classList.toggle('active', tagLogic === 'or');
+      tagLogicAny.setAttribute('aria-pressed', tagLogic === 'or' ? 'true' : 'false');
+    }
+    if (tagLogicAll) {
+      tagLogicAll.classList.toggle('active', tagLogic === 'and');
+      tagLogicAll.setAttribute('aria-pressed', tagLogic === 'and' ? 'true' : 'false');
+    }
+  }
+
+  function syncClusteringModeUI() {
+    if (clusterModeOn) {
+      clusterModeOn.classList.toggle('active', clusteringEnabled);
+      clusterModeOn.setAttribute('aria-pressed', clusteringEnabled ? 'true' : 'false');
+    }
+    if (clusterModeOff) {
+      clusterModeOff.classList.toggle('active', !clusteringEnabled);
+      clusterModeOff.setAttribute('aria-pressed', !clusteringEnabled ? 'true' : 'false');
+    }
+
+    if (tagClusterSizeRow) {
+      tagClusterSizeRow.classList.toggle('is-disabled', !clusteringEnabled);
+    }
+    if (clusterCountInput) {
+      clusterCountInput.disabled = !clusteringEnabled;
+      clusterCountInput.setAttribute('aria-disabled', clusteringEnabled ? 'false' : 'true');
+    }
+    if (clusterHelpText) clusterHelpText.hidden = !clusteringEnabled;
+    if (clusteredTagsSection) clusteredTagsSection.hidden = !clusteringEnabled;
+    if (allTagsSection) allTagsSection.hidden = clusteringEnabled;
+    if (tagClusterChips) tagClusterChips.hidden = !clusteringEnabled;
+    if (tagChips) tagChips.hidden = clusteringEnabled;
+  }
+
+  function collectWpValues(item) {
+    const wpValues = new Set();
+    (item.categories || []).forEach(function (c) {
+      if (isWpCategory(c)) wpValues.add(normalize(c));
+    });
+    (item.tags || []).forEach(function (t) {
+      if (isWpCategory(t)) wpValues.add(normalize(t));
+    });
+    return wpValues;
+  }
+
+  function tagTokens(tag) {
+    return normalize(tag)
+      .replace(/[^a-z0-9\s/-]+/g, ' ')
+      .split(/[\s/-]+/)
+      .map(function (t) { return t.trim(); })
+      .filter(function (t) { return t.length > 1; });
+  }
+
+  function charBigrams(tag) {
+    const s = normalize(tag).replace(/\s+/g, ' ').trim();
+    if (s.length < 2) return [s];
+    const out = [];
+    for (let i = 0; i < s.length - 1; i += 1) {
+      out.push(s.slice(i, i + 2));
+    }
+    return out;
+  }
+
+  function setFromArray(arr) {
+    const s = new Set();
+    arr.forEach(function (v) { s.add(v); });
+    return s;
+  }
+
+  function jaccard(a, b) {
+    if (!a.size && !b.size) return 1;
+    let inter = 0;
+    a.forEach(function (v) {
+      if (b.has(v)) inter += 1;
+    });
+    const uni = a.size + b.size - inter;
+    return uni ? inter / uni : 0;
+  }
+
+  function dice(a, b) {
+    if (!a.size && !b.size) return 1;
+    let inter = 0;
+    a.forEach(function (v) {
+      if (b.has(v)) inter += 1;
+    });
+    const denom = a.size + b.size;
+    return denom ? (2 * inter) / denom : 0;
+  }
+
+  function buildSimilarity(tags) {
+    const n = tags.length;
+    const matrix = Array.from({ length: n }, function () {
+      return new Float32Array(n);
+    });
+
+    const tokenSets = tags.map(function (t) { return setFromArray(tagTokens(t)); });
+    const bigramSets = tags.map(function (t) { return setFromArray(charBigrams(t)); });
+
+    for (let i = 0; i < n; i += 1) {
+      matrix[i][i] = 1;
+      for (let j = i + 1; j < n; j += 1) {
+        const tokenSim = jaccard(tokenSets[i], tokenSets[j]);
+        const charSim = dice(bigramSets[i], bigramSets[j]);
+        const sim = (0.68 * tokenSim) + (0.32 * charSim);
+        matrix[i][j] = sim;
+        matrix[j][i] = sim;
+      }
+    }
+    return matrix;
+  }
+
+  function chooseRepresentative(memberIdxs, simMatrix) {
+    if (memberIdxs.length === 1) return memberIdxs[0];
+    let best = memberIdxs[0];
+    let bestScore = -1;
+
+    memberIdxs.forEach(function (candidate) {
+      let sum = 0;
+      memberIdxs.forEach(function (other) {
+        sum += simMatrix[candidate][other];
+      });
+      const score = sum / memberIdxs.length;
+      if (score > bestScore) {
+        bestScore = score;
+        best = candidate;
+      }
+    });
+    return best;
+  }
+
+  function hierarchicalCluster(tags, desiredK) {
+    if (!tags.length) return [];
+    if (desiredK >= tags.length) {
+      return tags.map(function (_, idx) {
+        return { members: [idx], rep: idx };
+      });
+    }
+
+    const simMatrix = buildSimilarity(tags);
+    let clusters = tags.map(function (_, idx) {
+      return { members: [idx], rep: idx };
+    });
+
+    while (clusters.length > desiredK) {
+      let bestI = 0;
+      let bestJ = 1;
+      let bestSim = -1;
+
+      for (let i = 0; i < clusters.length; i += 1) {
+        for (let j = i + 1; j < clusters.length; j += 1) {
+          const sim = simMatrix[clusters[i].rep][clusters[j].rep];
+          if (sim > bestSim) {
+            bestSim = sim;
+            bestI = i;
+            bestJ = j;
+          }
+        }
+      }
+
+      const mergedMembers = clusters[bestI].members.concat(clusters[bestJ].members);
+      const mergedRep = chooseRepresentative(mergedMembers, simMatrix);
+
+      const next = [];
+      for (let k = 0; k < clusters.length; k += 1) {
+        if (k !== bestI && k !== bestJ) next.push(clusters[k]);
+      }
+      next.push({ members: mergedMembers, rep: mergedRep });
+      clusters = next;
+    }
+
+    return clusters;
+  }
+
+  function clusterLabel(memberTags, tagCounts) {
+    const sorted = memberTags.slice().sort(function (a, b) {
+      const countDiff = (tagCounts.get(b) || 0) - (tagCounts.get(a) || 0);
+      if (countDiff !== 0) return countDiff;
+      return a.localeCompare(b);
+    });
+    return sorted[0] || 'Topic';
+  }
+
+  function uniqueKey(base, used) {
+    let key = base;
+    let i = 2;
+    while (used.has(key)) {
+      key = base + '-' + i;
+      i += 1;
+    }
+    used.add(key);
+    return key;
+  }
+
+  function slugify(str) {
+    return normalize(str).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'topic';
+  }
+
+  function buildTagClusterModel(items, desiredCount) {
+    const tagCounts = new Map();
+
+    items.forEach(function (item) {
+      (item.tags || []).forEach(function (t) {
+        const tag = normalizeSpace(t);
+        if (!tag || isWpCategory(tag)) return;
+        tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+      });
+    });
+
+    let tags = [...tagCounts.keys()].sort(function (a, b) {
+      const countDiff = (tagCounts.get(b) || 0) - (tagCounts.get(a) || 0);
+      if (countDiff !== 0) return countDiff;
+      return a.localeCompare(b);
+    });
+
+    if (!tags.length) return [];
+
+    if (tags.length > MAX_CLUSTER_TAGS) {
+      tags = tags.slice(0, MAX_CLUSTER_TAGS);
+    }
+
+    const k = Math.max(1, Math.min(Math.max(desiredCount, MIN_CLUSTER_COUNT), tags.length));
+    const rawClusters = hierarchicalCluster(tags, k);
+
+    const usedKeys = new Set();
+    const clusters = rawClusters.map(function (c) {
+      const memberTags = c.members.map(function (idx) { return tags[idx]; });
+      const label = clusterLabel(memberTags, tagCounts);
+      const key = uniqueKey(slugify(label), usedKeys);
+      const memberNorm = new Set(memberTags.map(normalize));
+      const totalCount = memberTags.reduce(function (acc, tag) {
+        return acc + (tagCounts.get(tag) || 0);
+      }, 0);
+      return {
+        key: key,
+        label: label,
+        memberTags: memberTags,
+        memberNorm: memberNorm,
+        totalCount: totalCount
+      };
+    });
+
+    clusters.sort(function (a, b) {
+      if (b.totalCount !== a.totalCount) return b.totalCount - a.totalCount;
+      return a.label.localeCompare(b.label);
+    });
+
+    return clusters;
+  }
+
+  function syncClusterInputBounds(totalTags) {
+    const maxVal = Math.max(1, Math.min(MAX_CLUSTER_TAGS, totalTags));
+    const minVal = Math.min(MIN_CLUSTER_COUNT, maxVal);
+
+    clusterCountInput.min = String(minVal);
+    clusterCountInput.max = String(maxVal);
+
+    if (clusterCount < minVal) clusterCount = minVal;
+    if (clusterCount > maxVal) clusterCount = maxVal;
+
+    clusterCountInput.value = String(clusterCount);
+    clusterCountValue.value = String(clusterCount);
+    clusterCountValue.textContent = String(clusterCount);
+    syncClusterSliderFill();
+    syncClusterSliderState();
+  }
+
+  function syncClusterSliderFill() {
+    if (!clusterCountInput || !clusterSliderWrap) return;
+    const min = parseFloat(clusterCountInput.min || '0');
+    const max = parseFloat(clusterCountInput.max || '0');
+    const value = parseFloat(clusterCountInput.value || '0');
+    const pct = max > min ? ((value - min) / (max - min)) * 100 : 0;
+    const fill = Math.max(0, Math.min(100, pct)) + '%';
+    clusterSliderWrap.style.setProperty('--cluster-fill', fill);
+    if (clusterSliderThumb) clusterSliderThumb.style.left = fill;
+  }
+
+  function syncClusterSliderState() {
+    if (!clusterSliderWrap) return;
+    clusterSliderWrap.classList.toggle('is-disabled', !clusteringEnabled);
+  }
+
+  function renderTagClusterChips() {
+    tagClusterChips.innerHTML = '';
+    clusterByKey = new Map();
+
+    clusterModel.forEach(function (cluster) {
+      clusterByKey.set(cluster.key, cluster);
+      const memberList = cluster.memberTags ? cluster.memberTags.join(', ') : '';
+      makeChip(
+        cluster.key,
+        activeTagClusters,
+        tagClusterChips,
+        runSearch,
+        cluster.label,
+        cluster.label + ': ' + memberList
+      );
+    });
+
+    const valid = new Set(clusterModel.map(function (c) { return c.key; }));
+    [...activeTagClusters].forEach(function (key) {
+      if (!valid.has(key)) activeTagClusters.delete(key);
+    });
+
+    if (clusterModel.length > 0) tagFilterGroup.hidden = false;
+  }
+
+  function renderRawTagChips(tags) {
+    tagChips.innerHTML = '';
+    tags.forEach(function (t) {
+      makeChip(t, activeTags, tagChips, runSearch);
+    });
+
+    if (tags.length > 0) tagFilterGroup.hidden = false;
+  }
+
+  function setClusterCount(newCount, rerenderSearch) {
+    const parsed = parseInt(newCount, 10);
+    const min = parseInt(clusterCountInput.min, 10);
+    const max = parseInt(clusterCountInput.max, 10);
+    if (Number.isNaN(parsed)) return;
+
+    clusterCount = Math.max(min, Math.min(max, parsed));
+    clusterCountInput.value = String(clusterCount);
+    clusterCountValue.value = String(clusterCount);
+    clusterCountValue.textContent = String(clusterCount);
+    syncClusterSliderFill();
+
+    const previouslySelected = new Set(activeTagClusters);
+    clusterModel = buildTagClusterModel(allItems, clusterCount);
+    renderTagClusterChips();
+
+    activeTagClusters.clear();
+    previouslySelected.forEach(function (key) {
+      if (clusterByKey.has(key)) activeTagClusters.add(key);
+    });
+
+    Array.from(tagClusterChips.querySelectorAll('.filter-chip')).forEach(function (chip) {
+      const isActive = activeTagClusters.has(chip.dataset.value);
+      chip.classList.toggle('active', isActive);
+      chip.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+    });
+
+    updateUrl();
+    if (rerenderSearch) runSearch();
+  }
+
+  function setClusteringEnabled(enabled) {
+    clusteringEnabled = !!enabled;
+    syncClusteringModeUI();
+    syncClusterSliderState();
+    updateUrl();
+    if (input.value || activeTypes.size || activeCategories.size || activeRoles.size || activeTags.size || activeTagClusters.size) {
+      runSearch();
+    }
+  }
+
   function buildFilters(items) {
-    const types      = new Set();
-    const roles      = new Set();
-    const wpCats     = new Set();
+    const types = new Set();
+    const roles = new Set();
+    const wpCats = new Set();
     const categories = new Set();
-    const tags       = new Set();
+    const clusterableTags = new Set();
+    const rawTags = new Set();
 
     items.forEach(function (item) {
       if (item.type) types.add(item.type);
-      (item.roles      || []).forEach(function (r) { roles.add(r); });
+      (item.roles || []).forEach(function (r) { roles.add(r); });
       (item.categories || []).forEach(function (c) {
         if (isWpCategory(c)) wpCats.add(c.toUpperCase());
         else if (c !== 'Administration') categories.add(c);
       });
-      (item.tags || []).forEach(function (t) { tags.add(t); });
+      (item.tags || []).forEach(function (t) {
+        if (isWpCategory(t)) {
+          wpCats.add(t.toUpperCase());
+          return;
+        }
+        const rawTag = normalizeSpace(t);
+        if (!rawTag) return;
+        rawTags.add(rawTag);
+        clusterableTags.add(rawTag);
+      });
     });
 
-    // Type chips — display title-case; custom toggle so role/category rows sync
+    syncClusterInputBounds(clusterableTags.size);
+
     types.forEach(function (v) {
       makeChip(v, activeTypes, typeChips, function () {
         syncRoleFilterVisibility();
@@ -203,99 +650,132 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       }, typeLabel(v));
     });
 
-    // Role chips — collapse grouped roles into single chips
-    const chipOrder = ['Management', 'Board member', 'Council member', 'Work package leader', 'Member'];
-
-    // Build a flat set of all role values that belong to any group
+    const chipOrder = ['Management', 'Board Member', 'Council Member', 'Work Package Leader', 'Member'];
     const groupedRoleValues = new Set();
     Object.values(ROLE_GROUPS).forEach(function (members) {
       members.forEach(function (r) { groupedRoleValues.add(normalize(r)); });
     });
 
     const chipLabels = new Set();
-    // Add a group chip if any of its members exist in the data
     Object.keys(ROLE_GROUPS).forEach(function (groupLabel) {
       const members = new Set(ROLE_GROUPS[groupLabel].map(normalize));
       if ([...roles].some(function (r) { return members.has(normalize(r)); })) {
         chipLabels.add(groupLabel);
       }
     });
-    // Add remaining ungrouped roles
     roles.forEach(function (r) {
       if (!groupedRoleValues.has(normalize(r))) chipLabels.add(r);
     });
 
     [...chipLabels].sort(function (a, b) {
-      const ai = chipOrder.indexOf(a), bi = chipOrder.indexOf(b);
+      const ai = chipOrder.indexOf(a);
+      const bi = chipOrder.indexOf(b);
       if (ai < 0 && bi < 0) return a.localeCompare(b);
       return (ai < 0 ? 999 : ai) - (bi < 0 ? 999 : bi);
-    }).forEach(function (v) { makeChip(v, activeRoles, roleChips, runSearch); });
+    }).forEach(function (v) {
+      makeChip(v, activeRoles, roleChips, runSearch);
+    });
 
-    // WP category chips — sorted numerically, same activeCategories set
     [...wpCats].sort(function (a, b) {
       return parseInt(a.replace(/\D/g, ''), 10) - parseInt(b.replace(/\D/g, ''), 10);
-    }).forEach(function (v) { makeChip(v, activeCategories, wpCategoryChips, runSearch); });
+    }).forEach(function (v) {
+      makeChip(v, activeCategories, wpCategoryChips, runSearch);
+    });
     if (wpCats.size > 0) wpCategoryFilterGroup.hidden = false;
 
-    // Other category chips — sorted alphabetically
-    [...categories].sort().forEach(function (v) { makeChip(v, activeCategories, categoryChips, runSearch); });
+    [...categories].sort().forEach(function (v) {
+      makeChip(v, activeCategories, categoryChips, runSearch);
+    });
 
-    // Tag chips
-    [...tags].sort().forEach(function (v) { makeChip(v, activeTags, tagChips, runSearch); });
-    if (tags.size > 0) tagFilterGroup.hidden = false;
+    clusterModel = buildTagClusterModel(items, clusterCount);
+    renderTagClusterChips();
+    renderRawTagChips([...rawTags].sort());
 
-    if (types.size > 0 || wpCats.size > 0 || categories.size > 0 || tags.size > 0) {
+    if (types.size > 0 || wpCats.size > 0 || categories.size > 0 || rawTags.size > 0) {
       filterPanel.hidden = false;
     }
   }
 
-  // ── Constants ─────────────────────────────────────────────────────────────
   const SNIPPET_LENGTH = 200;
 
-  // ── Main search ────────────────────────────────────────────────────────────
   function runSearch() {
     const rawQuery = input.value.trim();
-    const query    = normalize(rawQuery);
-    const hasFilter = activeTypes.size || activeCategories.size || activeTags.size || activeRoles.size;
+    const query = normalize(rawQuery);
+    const hasTagFilter = clusteringEnabled ? activeTagClusters.size : activeTags.size;
+    const hasFilter = activeTypes.size || activeCategories.size || activeRoles.size || hasTagFilter;
 
     if (!query && !hasFilter) {
       resultsList.innerHTML = '';
-      statusEl.textContent  = '';
+      statusEl.textContent = '';
       return;
     }
 
     const normCategories = [...activeCategories].map(normalize);
-    const normTags       = [...activeTags].map(normalize);
-    const normRoles      = [...activeRoles].map(normalize);
+    const selectedClusters = [...activeTagClusters]
+      .map(function (key) { return clusterByKey.get(key); })
+      .filter(Boolean);
+    const normTags = [...activeTags].map(normalize);
 
     const results = allItems.filter(function (item) {
       if (activeTypes.size && !activeTypes.has(item.type)) return false;
+
       if (normCategories.length) {
         const cats = (item.categories || []).map(normalize);
-        if (!normCategories.some(function (c) { return cats.includes(c); })) return false;
+        const wpValues = collectWpValues(item);
+        const categoryMatch = normCategories.some(function (c) {
+          if (isWpCategory(c)) return wpValues.has(c);
+          return cats.includes(c);
+        });
+        if (!categoryMatch) return false;
       }
-      if (normTags.length) {
+
+      if (clusteringEnabled && selectedClusters.length) {
+        const itemTagSet = new Set(
+          (item.tags || [])
+            .filter(function (t) { return !isWpCategory(t); })
+            .map(normalize)
+        );
+
+        const clusterMatch = function (cluster) {
+          for (const t of cluster.memberNorm) {
+            if (itemTagSet.has(t)) return true;
+          }
+          return false;
+        };
+
+        const matches = tagLogic === 'and'
+          ? selectedClusters.every(clusterMatch)
+          : selectedClusters.some(clusterMatch);
+
+        if (!matches) return false;
+      }
+
+      if (!clusteringEnabled && normTags.length) {
         const itemTags = (item.tags || []).map(normalize);
-        if (!normTags.some(function (t) { return itemTags.includes(t); })) return false;
+        const tagMatches = tagLogic === 'and'
+          ? normTags.every(function (t) { return itemTags.includes(t); })
+          : normTags.some(function (t) { return itemTags.includes(t); });
+        if (!tagMatches) return false;
       }
+
       if (activeRoles.size) {
-        const itemRoles = (item.roles || []).map(normalize);
         const matches = [...activeRoles].some(function (label) {
-          return expandRole(label).map(normalize).some(function (r) { return itemRoles.includes(r); });
+          return roleMatchesChip(item.roles || [], label);
         });
         if (!matches) return false;
       }
+
       if (query) {
         const haystack = normalize([item.title, item.description, item.content].join(' '));
         return haystack.includes(query);
       }
+
       return true;
     });
 
     renderResults(results, rawQuery);
   }
 
-  // ── Render ─────────────────────────────────────────────────────────────────
   function renderResults(results, query) {
     resultsList.innerHTML = '';
 
@@ -310,26 +790,22 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       const li = document.createElement('li');
       li.className = 'search-result-item';
 
-      const badgeHtml = '<span class="result-type-badge result-type-' + escapeHtml(item.type) + '">'
-                      + escapeHtml(typeLabel(item.type)) + '</span>';
-
-      const dateHtml = item.date
-        ? '<span class="result-date">' + escapeHtml(item.date) + '</span>'
-        : '';
+      const badgeHtml = '<span class="result-type-badge result-type-' + escapeHtml(item.type) + '">' + escapeHtml(typeLabel(item.type)) + '</span>';
+      const dateHtml = item.date ? '<span class="result-date">' + escapeHtml(item.date) + '</span>' : '';
 
       const wpCatList = (item.categories || []).filter(isWpCategory);
       const otherCats = (item.categories || []).filter(function (c) { return !isWpCategory(c); });
 
       const catsHtml = otherCats.length
-        ? '<span class="result-cats">'
-          + otherCats.map(function (c) { return '<span class="result-cat">' + escapeHtml(c) + '</span>'; }).join('')
-          + '</span>'
+        ? '<span class="result-cats">' + otherCats.map(function (c) {
+          return '<span class="result-cat">' + escapeHtml(c) + '</span>';
+        }).join('') + '</span>'
         : '';
 
       const wpHtml = wpCatList.length
-        ? '<div class="result-wp-tags">'
-          + wpCatList.map(function (c) { return '<span class="result-wp-tag">' + escapeHtml(c.toUpperCase()) + '</span>'; }).join('')
-          + '</div>'
+        ? '<div class="result-wp-tags">' + wpCatList.map(function (c) {
+          return '<span class="result-wp-tag">' + escapeHtml(c.toUpperCase()) + '</span>';
+        }).join('') + '</div>'
         : '';
 
       const snippet = (item.description || item.content || '').substring(0, SNIPPET_LENGTH);
@@ -337,16 +813,13 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       li.innerHTML =
         '<div class="result-meta">' + badgeHtml + dateHtml + catsHtml + '</div>' +
         wpHtml +
-        '<a class="result-title" href="' + escapeHtml(item.url) + '">'
-          + highlight(item.title, query)
-        + '</a>' +
+        '<a class="result-title" href="' + escapeHtml(item.url) + '">' + highlight(item.title, query) + '</a>' +
         (snippet ? '<p class="result-snippet">' + highlight(snippet, query) + '</p>' : '');
 
       resultsList.appendChild(li);
     });
   }
 
-  // ── Chip activation helpers (for URL hydration) ────────────────────────────
   function activateChipIn(container, value) {
     Array.from(container.querySelectorAll('.filter-chip')).forEach(function (chip) {
       if (chip.dataset.value === value) {
@@ -363,12 +836,6 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     syncCategoryFilterVisibility();
   }
 
-  function activateTagChip(tag) {
-    activeTags.add(tag);
-    tagFilterGroup.open = true;
-    activateChipIn(tagChips, tag);
-  }
-
   function activateCategoryChip(cat) {
     activeCategories.add(cat);
     activateChipIn(isWpCategory(cat) ? wpCategoryChips : categoryChips, cat);
@@ -379,38 +846,88 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     activateChipIn(roleChips, role);
   }
 
-  // ── URL param hydration ────────────────────────────────────────────────────
+  function activateTagChip(tag) {
+    activeTags.add(tag);
+    activateChipIn(tagChips, tag);
+    tagFilterGroup.open = true;
+  }
+
+  function activateTagClusterChip(key) {
+    activeTagClusters.add(key);
+    activateChipIn(tagClusterChips, key);
+    tagFilterGroup.open = true;
+  }
+
+  function setTagLogic(mode) {
+    if (mode !== 'or' && mode !== 'and') return;
+    tagLogic = mode;
+    syncTagLogicUI();
+    updateUrl();
+    if (input.value || activeTypes.size || activeCategories.size || activeRoles.size || activeTags.size || activeTagClusters.size) {
+      runSearch();
+    }
+  }
+
   function hydrateFromUrl() {
     const params = new URLSearchParams(window.location.search);
     const q = params.get('q');
     if (q) input.value = q;
+
+    const k = parseInt(params.get('k') || '', 10);
+    if (!Number.isNaN(k)) {
+      setClusterCount(k, false);
+    }
+
+    clusteringEnabled = params.get('cluster_enabled') !== '0';
+    syncClusteringModeUI();
+
     params.getAll('type').forEach(activateTypeChip);
-    params.getAll('tag').forEach(activateTagChip);
     params.getAll('cat').forEach(activateCategoryChip);
     params.getAll('role').forEach(activateRoleChip);
+
+    tagLogic = params.get('tag_logic') === 'and' ? 'and' : 'or';
+    syncTagLogicUI();
+
+    params.getAll('tag').forEach(activateTagChip);
+    params.getAll('tc').forEach(function (key) {
+      if (clusterByKey.has(key)) activateTagClusterChip(key);
+    });
   }
 
-  // ── Sync URL while typing ─────────────────────────────────────────────────
   function updateUrl() {
     const params = new URLSearchParams();
     const q = input.value.trim();
     if (q) params.set('q', q);
-    activeTypes     .forEach(function (v) { params.append('type', v); });
-    activeTags      .forEach(function (v) { params.append('tag',  v); });
-    activeCategories.forEach(function (v) { params.append('cat',  v); });
-    activeRoles     .forEach(function (v) { params.append('role', v); });
+
+    activeTypes.forEach(function (v) { params.append('type', v); });
+    activeCategories.forEach(function (v) { params.append('cat', v); });
+    activeRoles.forEach(function (v) { params.append('role', v); });
+
+    if (clusteringEnabled) {
+      activeTagClusters.forEach(function (v) { params.append('tc', v); });
+    } else {
+      activeTags.forEach(function (v) { params.append('tag', v); });
+    }
+
+    params.set('cluster_enabled', clusteringEnabled ? '1' : '0');
+    params.set('tag_logic', tagLogic);
+    params.set('k', String(clusterCount));
+
     const newUrl = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
     window.history.replaceState(null, '', newUrl);
   }
 
-  // ── Init ──────────────────────────────────────────────────────────────────
   fetch(INDEX_URL)
     .then(function (r) { return r.json(); })
     .then(function (data) {
       allItems = data;
       buildFilters(data);
       hydrateFromUrl();
-      if (input.value || activeTypes.size || activeTags.size || activeCategories.size || activeRoles.size) runSearch();
+      syncTagLogicUI();
+      syncClusteringModeUI();
+      if (input.value || activeTypes.size || activeCategories.size || activeRoles.size || activeTags.size || activeTagClusters.size) {
+        runSearch();
+      }
     })
     .catch(function () {
       statusEl.textContent = 'Search index could not be loaded.';
@@ -433,5 +950,38 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       runSearch();
     }
   });
+
+  if (tagLogicAny) {
+    tagLogicAny.addEventListener('click', function () {
+      setTagLogic('or');
+    });
+  }
+
+  if (tagLogicAll) {
+    tagLogicAll.addEventListener('click', function () {
+      setTagLogic('and');
+    });
+  }
+
+  if (clusterModeOn) {
+    clusterModeOn.addEventListener('click', function () {
+      setClusteringEnabled(true);
+    });
+  }
+
+  if (clusterModeOff) {
+    clusterModeOff.addEventListener('click', function () {
+      setClusteringEnabled(false);
+    });
+  }
+
+  if (clusterCountInput) {
+    clusterCountInput.addEventListener('input', function () {
+      setClusterCount(this.value, true);
+    });
+  }
+
+  syncClusterSliderState();
+  syncClusterSliderFill();
 })();
 </script>

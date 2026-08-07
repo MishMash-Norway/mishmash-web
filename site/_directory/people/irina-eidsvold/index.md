@@ -18,7 +18,7 @@ projects:
 - copyright-and-personality-rights-ai-era
 - tool-for-tools
 roles:
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: ''
   institutional_website: https://www.bi.no/om-bi/ansatte/institutt-for-rettsvitenskap-og-styring/irina-eidsvold-toien/

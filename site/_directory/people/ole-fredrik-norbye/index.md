@@ -25,17 +25,17 @@ urls:
 aliases: []
 tags:
 - Creativity
-- Music performance
+- Music Performance
 - Contemporary Church Music
-- innovation
-- Popular music
+- Innovation
+- Popular Music
 - Music
 search_keywords:
 - Creativity
-- Music performance
+- Music Performance
 - Contemporary Church Music
-- innovation
-- Popular music
+- Innovation
+- Popular Music
 - Music
 selected_works:
 - title: Kublai Trio

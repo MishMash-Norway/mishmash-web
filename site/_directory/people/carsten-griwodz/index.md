@@ -13,7 +13,7 @@ projects:
 - the-mishmash-website
 - when-creativity-meets-criticality
 roles:
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: ''
   institutional_website: ''
@@ -27,26 +27,26 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Computer networking
-- Communication systems
-- Distributed systems
-- Data communication
-- Communication protocols
+- Computer Networking
+- Communication Systems
+- Distributed Systems
+- Data Communication
+- Communication Protocols
 - Internet
-- Networks and distributed systems
-- Distributed multimedia
-- Operating systems
+- Networks and Distributed Systems
+- Distributed Multimedia
+- Operating Systems
 - Informatics
 search_keywords:
-- Computer networking
-- Communication systems
-- Distributed systems
-- Data communication
-- Communication protocols
+- Computer Networking
+- Communication Systems
+- Distributed Systems
+- Data Communication
+- Communication Protocols
 - Internet
-- Networks and distributed systems
-- Distributed multimedia
-- Operating systems
+- Networks and Distributed Systems
+- Distributed Multimedia
+- Operating Systems
 - Informatics
 selected_works:
 - title: Studying Embodied Expression in Drumming for Virtual Systems

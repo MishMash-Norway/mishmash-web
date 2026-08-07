@@ -13,7 +13,7 @@ projects:
 - scoping-review-creative-ai-teaching-learning
 - tao-transductive-acoustic-organism
 roles:
-- Deputy director
+- Deputy Director
 urls:
   personal_website: ''
   institutional_website: ''

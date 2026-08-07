@@ -14,7 +14,7 @@ affiliation_units:
 - Simula Metropolitan Center for Digital Engineering
 projects: []
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: https://www.simula.no/people/svenar
@@ -28,21 +28,21 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Communication systems
-- Interconnection networks
+- Communication Systems
+- Interconnection Networks
 - Quality of Service
 - Supercomputing
-- Data communication
-- Networks and distributed systems
+- Data Communication
+- Networks and Distributed Systems
 - Routing
 - Informatics
 search_keywords:
-- Communication systems
-- Interconnection networks
+- Communication Systems
+- Interconnection Networks
 - Quality of Service
 - Supercomputing
-- Data communication
-- Networks and distributed systems
+- Data Communication
+- Networks and Distributed Systems
 - Routing
 - Informatics
 selected_works:

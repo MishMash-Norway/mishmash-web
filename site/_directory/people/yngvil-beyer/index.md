@@ -13,7 +13,7 @@ affiliation_units:
 - Language Bank and DH lab
 projects: []
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: ''

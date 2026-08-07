@@ -23,7 +23,7 @@ other_projects:
   nva_id: '568602'
 roles:
 - Member
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: https://www.ragnhildbrovig.com
   institutional_website: https://www.hf.uio.no/imv/english/people/aca/tenured/ragnhiba/index.html

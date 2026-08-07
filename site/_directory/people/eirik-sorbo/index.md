@@ -21,7 +21,7 @@ other_projects:
   nva_id: '2591724'
 roles:
 - Member
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: ''
   institutional_website: https://www.uia.no/english/about-uia/employees/eiriks05/index.html
@@ -36,14 +36,14 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q138232847
 aliases: []
 tags:
-- Music education
-- Higher music education
-- Artificial intelligence
+- Music Education
+- Higher Music Education
+- Artificial Intelligence
 - Music Technology
 search_keywords:
-- Music education
-- Higher music education
-- Artificial intelligence
+- Music Education
+- Higher Music Education
+- Artificial Intelligence
 - Music Technology
 selected_works:
 - title: 'Don''t do this at home: Re-amping the Norwegian Broadcasting Orchestra (KORK)

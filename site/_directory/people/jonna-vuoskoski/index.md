@@ -26,7 +26,7 @@ other_projects:
   nva_id: '568602'
 roles:
 - Member
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: ''
   institutional_website: http://www.hf.uio.no/imv/english/people/aca/tenured/jonnakv/index.html
@@ -43,19 +43,19 @@ urls:
 aliases: []
 tags:
 - Empathy
-- Social cognition
+- Social Cognition
 - Emotions
-- Music psychology
-- Cognitive psychology
-- Cognitive neuroscience
+- Music Psychology
+- Cognitive Psychology
+- Cognitive Neuroscience
 - Music Cognition
 search_keywords:
 - Empathy
-- Social cognition
+- Social Cognition
 - Emotions
-- Music psychology
-- Cognitive psychology
-- Cognitive neuroscience
+- Music Psychology
+- Cognitive Psychology
+- Cognitive Neuroscience
 - Music Cognition
 selected_works:
 - title: Videopelien musiikin kokeminen ja musiikilliset käytänteet

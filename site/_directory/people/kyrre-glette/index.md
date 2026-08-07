@@ -28,7 +28,7 @@ other_projects:
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
 roles:
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: ''
   institutional_website: https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html
@@ -51,7 +51,7 @@ tags:
 - Embedded Systems
 - Evolutionary Computation
 - Informatics
-- Artificial intelligence
+- Artificial Intelligence
 - Music Technology
 search_keywords:
 - Computational Neuroscience
@@ -63,7 +63,7 @@ search_keywords:
 - Embedded Systems
 - Evolutionary Computation
 - Informatics
-- Artificial intelligence
+- Artificial Intelligence
 - Music Technology
 selected_works:
 - title: Sensor movement drives emergent attention and scalability in active neural

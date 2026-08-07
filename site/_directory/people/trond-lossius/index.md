@@ -39,30 +39,30 @@ urls:
 aliases: []
 tags:
 - Electronic Music
-- Sound/music in new media
-- Sound/music installations
+- Sound/Music in New Media
+- Sound/Music Installations
 - Experimental Music
-- Audio-visual production
+- Audio-Visual Production
 - Installation
-- Artistic research
+- Artistic Research
 - Music Technology
 - Place
 - Installations
 - Listening
-- Contemporary art
+- Contemporary Art
 search_keywords:
 - Electronic Music
-- Sound/music in new media
-- Sound/music installations
+- Sound/Music in New Media
+- Sound/Music Installations
 - Experimental Music
-- Audio-visual production
+- Audio-Visual Production
 - Installation
-- Artistic research
+- Artistic Research
 - Music Technology
 - Place
 - Installations
 - Listening
-- Contemporary art
+- Contemporary Art
 selected_works:
 - title: Longue Durée
   year: '2026'

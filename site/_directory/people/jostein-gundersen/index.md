@@ -14,7 +14,7 @@ affiliation_units:
 - The Grieg Academy &#8211; Department of Music
 projects: []
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: ''

@@ -10,8 +10,8 @@ institutions:
 - reimagine
 projects: []
 roles:
-- Board member
-- Council member
+- Board Member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: https://reimagine.no/contact

@@ -23,6 +23,9 @@ GitHub Actions still uses repository secrets (`NVA_CLIENT_ID`, `NVA_CLIENT_SECRE
 
 ## Tag merge map
 
-`tag_merge_map.yml` defines canonical tag names and variants to merge across the site.
+`tag_merge_map.yml` defines canonical values and variants to merge across the site
+for front-matter fields such as `tags`, `search_keywords`, and `roles`.
+Running `scripts/merge_tags.py` also normalizes capitalization (title case with connector
+word exceptions like `and`, `of`, `to`).
 Use `python3 scripts/merge_tags.py --report` to audit tags and
 `python3 scripts/merge_tags.py --dry-run` before applying changes.

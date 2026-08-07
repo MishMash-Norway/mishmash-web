@@ -29,7 +29,7 @@ tags:
 - Creative Direction
 - Authorship and AI
 search_keywords:
-- AI-native Filmmaking
+- AI-Native Filmmaking
 - Hybrid Filmmaking
 - Generative AI for Film
 - Cinematic Storytelling
@@ -37,7 +37,7 @@ search_keywords:
 - Directing
 - Creative Direction
 - AI Production Workflows
-- Human-led AI
+- Human-Led AI
 selected_works: []
 source_mentions: []
 wps:

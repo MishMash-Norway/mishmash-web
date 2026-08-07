@@ -40,11 +40,11 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q136987663
 aliases: []
 tags:
-- Human computer interaction
+- Human Computer Interaction
 - User Experience
 - Human Engaged Computing
 search_keywords:
-- Human computer interaction
+- Human Computer Interaction
 - User Experience
 - Human Engaged Computing
 selected_works:

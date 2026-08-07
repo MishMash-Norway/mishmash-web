@@ -16,7 +16,7 @@ affiliation_units:
 - Department of Computer Science and Communication
 projects: []
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: ''

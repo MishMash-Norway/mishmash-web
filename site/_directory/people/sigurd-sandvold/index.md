@@ -10,7 +10,7 @@ institutions:
 - western-norway-university-of-applied-sciences
 projects: []
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: ''

@@ -14,7 +14,7 @@ projects:
 - archival-intelligence
 - curating-ai-driven-artistic-processes
 roles:
-- Work package leader
+- Work Package Leader
 urls:
   personal_website: https://budhaditya.org
   institutional_website: ''
@@ -28,26 +28,26 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Sound analysis /synthesis
+- Sound Analysis /Synthesis
 - Sound Art
 - Multimedia
 - Aesthetics
-- Sound/music installations
+- Sound/Music Installations
 - Media Studies
 - Film Sound
-- Artistic research
-- Artificial intelligence
+- Artistic Research
+- Artificial Intelligence
 - Film Studies
 search_keywords:
-- Sound analysis /synthesis
+- Sound Analysis /Synthesis
 - Sound Art
 - Multimedia
 - Aesthetics
-- Sound/music installations
+- Sound/Music Installations
 - Media Studies
 - Film Sound
-- Artistic research
-- Artificial intelligence
+- Artistic Research
+- Artificial Intelligence
 - Film Studies
 selected_works:
 - title: Land without Food

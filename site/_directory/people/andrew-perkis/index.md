@@ -30,19 +30,19 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q138230253
 aliases: []
 tags:
-- Multimedia standards
-- Media technology
-- Multimedia framework
-- Digital media
+- Multimedia Standards
+- Media Technology
+- Multimedia Framework
+- Digital Media
 - Multimedia Signal Processing
-- Art and technology
+- Art and Technology
 search_keywords:
-- Multimedia standards
-- Media technology
-- Multimedia framework
-- Digital media
+- Multimedia Standards
+- Media Technology
+- Multimedia Framework
+- Digital Media
 - Multimedia Signal Processing
-- Art and technology
+- Art and Technology
 selected_works:
 - title: 'Enhancing Divers’ Training and Safety: A Comparative Analysis of Extended
     Reality Diving Simulators'

@@ -9,7 +9,7 @@ tags:
 - Seed Funding
 - WP3
 - Music
-- neuroimaging
+- Neuroimaging
 - Wellbeing
 slug: intensifying-brain-pleasure-responses-music
 name: Intensifying Brain Pleasure Responses to Music

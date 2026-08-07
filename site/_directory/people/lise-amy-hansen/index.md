@@ -17,7 +17,7 @@ affiliation_units:
 projects:
 - making-movement-matter
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: ''

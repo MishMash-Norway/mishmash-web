@@ -10,7 +10,7 @@ institutions:
 - university-of-oslo
 projects: []
 roles:
-- Council member
+- Council Member
 urls:
   personal_website: ''
   institutional_website: ''

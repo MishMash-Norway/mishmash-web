@@ -106,9 +106,9 @@ def parse_survey_roles(row: dict) -> list[str]:
         return ["Member"]
     role = survey_membership_role(row)
     if role.lower().startswith("associate member"):
-        return ["Associate member"]
+        return ["Associate Member"]
     if "affiliate" in role.lower():
-        return ["Affiliate member"]
+        return ["Affiliate Member"]
     return ["Member"]
 
 INSTITUTION_NAME_MAP = {

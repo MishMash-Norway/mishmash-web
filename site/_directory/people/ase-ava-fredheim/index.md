@@ -26,16 +26,16 @@ urls:
 aliases:
 - Åse Ava Lange Fredheim
 tags:
-- Indigenous music studies
-- Sound studies
-- Music production
-- Field recordings
+- Indigenous Music Studies
+- Sound Studies
+- Music Production
+- Field Recordings
 - Musicology
 search_keywords:
-- Indigenous music studies
-- Sound studies
-- Music production
-- Field recordings
+- Indigenous Music Studies
+- Sound Studies
+- Music Production
+- Field Recordings
 - Musicology
 selected_works:
 - title: Playing Field Recordings in Music Production
