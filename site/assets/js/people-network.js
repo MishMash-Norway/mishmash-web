@@ -48,7 +48,16 @@ const instName = Object.fromEntries(INSTITUTIONS.map(i => [i.id, i.name]));
 /* ── State ──────────────────────────────────────────────────────────── */
 let connectionMode = "institutions";
 let roleFilter = "all";
-let tagFilter  = "all";
+let activeTagClusters = new Set();
+let activeRawTags = new Set();
+let tagMatchMode = "or";
+let clusteringEnabled = true;
+const DEFAULT_CLUSTER_COUNT = 20;
+const MIN_CLUSTER_COUNT = 20;
+const MAX_CLUSTER_TAGS = 100;
+let clusterCount = DEFAULT_CLUSTER_COUNT;
+let clusterModel = [];
+let clusterByKey = new Map();
 let showHubNodes = true;
 let hiddenGroups = new Set();
 
@@ -83,12 +92,232 @@ function personTagGroups(p) {
   return [...set];
 }
 
+function normalize(str) {
+  return (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+function normalizeSpace(str) {
+  return String(str || "").replace(/\s+/g, " ").trim();
+}
+
+function tagTokens(tag) {
+  return normalize(tag)
+    .replace(/[^a-z0-9\s-]/g, " ")
+    .split(/[\s-]+/)
+    .filter(Boolean);
+}
+
+function charBigrams(tag) {
+  const txt = normalize(tag).replace(/\s+/g, " ");
+  if (txt.length < 2) return [txt];
+  const out = [];
+  for (let i = 0; i < txt.length - 1; i += 1) out.push(txt.slice(i, i + 2));
+  return out;
+}
+
+function setFromArray(arr) {
+  return new Set(arr);
+}
+
+function jaccard(a, b) {
+  if (!a.size && !b.size) return 1;
+  let inter = 0;
+  a.forEach(v => { if (b.has(v)) inter += 1; });
+  const union = a.size + b.size - inter;
+  return union ? inter / union : 0;
+}
+
+function dice(a, b) {
+  if (!a.size && !b.size) return 1;
+  let inter = 0;
+  a.forEach(v => { if (b.has(v)) inter += 1; });
+  return (2 * inter) / (a.size + b.size || 1);
+}
+
+function buildSimilarity(tags) {
+  const n = tags.length;
+  const matrix = Array.from({ length: n }, () => new Float32Array(n));
+  const tokenSets = tags.map(t => setFromArray(tagTokens(t)));
+  const bigramSets = tags.map(t => setFromArray(charBigrams(t)));
+
+  for (let i = 0; i < n; i += 1) {
+    matrix[i][i] = 1;
+    for (let j = i + 1; j < n; j += 1) {
+      const tokenSim = jaccard(tokenSets[i], tokenSets[j]);
+      const charSim = dice(bigramSets[i], bigramSets[j]);
+      const sim = (0.68 * tokenSim) + (0.32 * charSim);
+      matrix[i][j] = sim;
+      matrix[j][i] = sim;
+    }
+  }
+
+  return matrix;
+}
+
+function chooseRepresentative(memberIdxs, simMatrix) {
+  if (memberIdxs.length === 1) return memberIdxs[0];
+  let best = memberIdxs[0];
+  let bestScore = -1;
+
+  memberIdxs.forEach(candidate => {
+    let sum = 0;
+    memberIdxs.forEach(other => { sum += simMatrix[candidate][other]; });
+    const score = sum / memberIdxs.length;
+    if (score > bestScore) {
+      bestScore = score;
+      best = candidate;
+    }
+  });
+
+  return best;
+}
+
+function hierarchicalCluster(tags, desiredK) {
+  if (!tags.length) return [];
+  if (desiredK >= tags.length) {
+    return tags.map((_, idx) => ({ members: [idx], rep: idx }));
+  }
+
+  const simMatrix = buildSimilarity(tags);
+  let clusters = tags.map((_, idx) => ({ members: [idx], rep: idx }));
+
+  while (clusters.length > desiredK) {
+    let bestI = 0;
+    let bestJ = 1;
+    let bestSim = -1;
+
+    for (let i = 0; i < clusters.length; i += 1) {
+      for (let j = i + 1; j < clusters.length; j += 1) {
+        const sim = simMatrix[clusters[i].rep][clusters[j].rep];
+        if (sim > bestSim) {
+          bestSim = sim;
+          bestI = i;
+          bestJ = j;
+        }
+      }
+    }
+
+    const mergedMembers = clusters[bestI].members.concat(clusters[bestJ].members);
+    const mergedRep = chooseRepresentative(mergedMembers, simMatrix);
+    const next = [];
+
+    for (let k = 0; k < clusters.length; k += 1) {
+      if (k !== bestI && k !== bestJ) next.push(clusters[k]);
+    }
+    next.push({ members: mergedMembers, rep: mergedRep });
+    clusters = next;
+  }
+
+  return clusters;
+}
+
+function clusterLabel(memberTags, tagCounts) {
+  const sorted = memberTags.slice().sort((a, b) => {
+    const countDiff = (tagCounts.get(b) || 0) - (tagCounts.get(a) || 0);
+    if (countDiff !== 0) return countDiff;
+    return a.localeCompare(b);
+  });
+  return sorted[0] || "Topic";
+}
+
+function slugify(str) {
+  return normalize(str).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "topic";
+}
+
+function uniqueKey(base, used) {
+  let key = base;
+  let i = 2;
+  while (used.has(key)) {
+    key = base + "-" + i;
+    i += 1;
+  }
+  used.add(key);
+  return key;
+}
+
+function buildRawTagCounts() {
+  const counts = new Map();
+  PEOPLE.forEach(p => {
+    personTagGroups(p).forEach(tag => {
+      const clean = normalizeSpace(tag);
+      if (!clean) return;
+      counts.set(clean, (counts.get(clean) || 0) + 1);
+    });
+  });
+  return counts;
+}
+
+function buildTagClusterModel() {
+  const tagCounts = buildRawTagCounts();
+  let tags = [...tagCounts.keys()].sort((a, b) => {
+    const countDiff = (tagCounts.get(b) || 0) - (tagCounts.get(a) || 0);
+    if (countDiff !== 0) return countDiff;
+    return a.localeCompare(b);
+  });
+
+  if (!tags.length) return [];
+  if (tags.length > MAX_CLUSTER_TAGS) tags = tags.slice(0, MAX_CLUSTER_TAGS);
+
+  const maxAllowed = Math.max(1, tags.length);
+  const desired = Math.max(MIN_CLUSTER_COUNT, clusterCount);
+  const k = Math.max(1, Math.min(desired, maxAllowed));
+  const rawClusters = hierarchicalCluster(tags, k);
+
+  const usedKeys = new Set();
+  const clusters = rawClusters.map(c => {
+    const memberTags = c.members.map(idx => tags[idx]);
+    const label = clusterLabel(memberTags, tagCounts);
+    const key = uniqueKey(slugify(label), usedKeys);
+    const memberNorm = new Set(memberTags.map(normalize));
+    const totalCount = memberTags.reduce((acc, tag) => acc + (tagCounts.get(tag) || 0), 0);
+    return { key, label, memberTags, memberNorm, totalCount };
+  });
+
+  clusters.sort((a, b) => {
+    if (b.totalCount !== a.totalCount) return b.totalCount - a.totalCount;
+    return a.label.localeCompare(b.label);
+  });
+
+  return clusters;
+}
+
+function personGroupSet(p) {
+  const set = new Set();
+  personTagGroups(p).forEach(tag => {
+    const clean = normalizeSpace(tag);
+    if (clean) set.add(clean);
+  });
+  return set;
+}
+
+function personClusterKeys(p) {
+  const normTags = new Set([...personGroupSet(p)].map(normalize));
+  const keys = [];
+  clusterModel.forEach(cluster => {
+    for (const t of cluster.memberNorm) {
+      if (normTags.has(t)) {
+        keys.push(cluster.key);
+        break;
+      }
+    }
+  });
+  return keys;
+}
+
+function groupMemberTags(groupLabel) {
+  const group = TAG_GROUPS.find(g => g.label === groupLabel);
+  if (group && group.tags && group.tags.length) return group.tags;
+  return [groupLabel];
+}
+
 function personWorkPackages(p) {
   return wpByMember[p.id] || [];
 }
 
 function personGroups(p) {
-  if (connectionMode === "tags") return personTagGroups(p);
+  if (connectionMode === "tags") {
+    return clusteringEnabled ? personClusterKeys(p) : [...personGroupSet(p)];
+  }
   if (connectionMode === "wp") return personWorkPackages(p);
   return (p.institutions || []).filter(i => !hiddenGroups.has(i));
 }
@@ -123,10 +352,7 @@ function addPersonPersonLinks(links, people, groupFn) {
 }
 
 function buildTagList() {
-  const counts = new Map();
-  PEOPLE.forEach(p => {
-    personTagGroups(p).forEach(label => counts.set(label, (counts.get(label) || 0) + 1));
-  });
+  const counts = buildRawTagCounts();
   return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 }
 
@@ -152,28 +378,145 @@ function renderTagControls() {
     return;
   }
 
-  const tags = buildTagList();
-  if (!tags.length) {
+  const rawTags = buildTagList();
+  if (!rawTags.length) {
     container.style.display = "none";
     container.innerHTML = "";
     return;
   }
 
-  container.style.display = "flex";
-  container.innerHTML =
-    `<strong class="net-tag-label">Tags:</strong>` +
-    `<button type="button" class="fbtn tbtn${tagFilter === "all" ? " active" : ""}" data-tag="all">All</button>` +
-    tags.map(([tag, count]) =>
-      `<button type="button" class="fbtn tbtn${tagFilter === tag ? " active" : ""}" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)} (${count})</button>`
-    ).join("");
+  clusterModel = buildTagClusterModel();
+  clusterByKey = new Map(clusterModel.map(c => [c.key, c]));
+  const validClusterKeys = new Set(clusterModel.map(c => c.key));
+  [...activeTagClusters].forEach(key => {
+    if (!validClusterKeys.has(key)) activeTagClusters.delete(key);
+  });
 
-  container.querySelectorAll(".tbtn").forEach(btn => {
+  const maxClusters = Math.max(1, Math.min(MAX_CLUSTER_TAGS, rawTags.length));
+  const minClusters = Math.min(MIN_CLUSTER_COUNT, maxClusters);
+  if (clusterCount < minClusters) clusterCount = minClusters;
+  if (clusterCount > maxClusters) clusterCount = maxClusters;
+
+  container.style.display = "flex";
+  const anyPressed = tagMatchMode === "or" ? "true" : "false";
+  const allPressed = tagMatchMode === "and" ? "true" : "false";
+  const selectedCount = clusteringEnabled ? activeTagClusters.size : activeRawTags.size;
+  const showMatchMode = selectedCount >= 2;
+
+  container.innerHTML = `
+    <div class="net-tag-controls-inner">
+      <div class="net-tag-row">
+        <strong class="net-tag-label">Match:</strong>
+        <div class="net-tag-match${showMatchMode ? "" : " is-hidden"}" role="group" aria-label="Tag matching mode">
+          <button type="button" id="net-tag-any" class="fbtn tlogic-btn${tagMatchMode === "or" ? " active" : ""}" aria-pressed="${anyPressed}">ANY</button>
+          <button type="button" id="net-tag-all" class="fbtn tlogic-btn${tagMatchMode === "and" ? " active" : ""}" aria-pressed="${allPressed}">ALL</button>
+        </div>
+      </div>
+
+      <div class="net-tag-row">
+        <strong class="net-tag-label">Tag groups:</strong>
+        <div class="net-tag-match" role="group" aria-label="Enable or disable tag clustering">
+          <button type="button" id="net-cluster-on" class="fbtn tlogic-btn${clusteringEnabled ? " active" : ""}" aria-pressed="${clusteringEnabled ? "true" : "false"}">ON</button>
+          <button type="button" id="net-cluster-off" class="fbtn tlogic-btn${!clusteringEnabled ? " active" : ""}" aria-pressed="${!clusteringEnabled ? "true" : "false"}">OFF</button>
+        </div>
+      </div>
+
+      <div class="net-tag-row net-cluster-size-row${clusteringEnabled ? "" : " is-disabled"}">
+        <label class="net-tag-label" for="net-cluster-count">Number of Groups</label>
+        <input id="net-cluster-count" class="net-cluster-count" type="range" min="${minClusters}" max="${maxClusters}" step="1" value="${clusterCount}" ${clusteringEnabled ? "" : "disabled"}>
+        <output id="net-cluster-count-value" class="net-cluster-count-value">${clusterCount}</output>
+      </div>
+
+      <p class="net-tag-help">Group similar tags into themes instead of a long list. Selecting a group matches any tag in that theme. Hover a selected group to see its tags. Fewer groups mean more specific topics; more groups mean broader themes.</p>
+
+      <div class="net-clustered-tags-section${clusteringEnabled ? "" : " is-hidden"}">
+        <div class="net-tag-chip-list">
+          ${clusterModel.map(cluster =>
+            `<button type="button" class="fbtn tcluster-btn${activeTagClusters.has(cluster.key) ? " active" : ""}" data-cluster="${escapeHtml(cluster.key)}" title="${escapeHtml(cluster.label)}: ${escapeHtml(cluster.memberTags.join(", "))}">${escapeHtml(cluster.label)} (${cluster.totalCount})</button>`
+          ).join("")}
+        </div>
+      </div>
+
+      <div class="net-all-tags-section${clusteringEnabled ? " is-hidden" : ""}">
+        <p class="net-section-label">ALL TAGS</p>
+        <div class="net-tag-chip-list">
+          ${rawTags.map(([tag, count]) =>
+            `<button type="button" class="fbtn traw-btn${activeRawTags.has(tag) ? " active" : ""}" data-tag="${escapeHtml(tag)}">${escapeHtml(tag)} (${count})</button>`
+          ).join("")}
+        </div>
+      </div>
+    </div>`;
+
+  container.querySelectorAll(".tcluster-btn").forEach(btn => {
     btn.addEventListener("click", () => {
-      tagFilter = btn.dataset.tag;
-      container.querySelectorAll(".tbtn").forEach(b => b.classList.toggle("active", b.dataset.tag === tagFilter));
+      const key = btn.dataset.cluster;
+      if (activeTagClusters.has(key)) activeTagClusters.delete(key);
+      else activeTagClusters.add(key);
       render();
     });
   });
+
+  container.querySelectorAll(".traw-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const tag = btn.dataset.tag;
+      if (activeRawTags.has(tag)) activeRawTags.delete(tag);
+      else activeRawTags.add(tag);
+      render();
+    });
+  });
+
+  const anyBtn = container.querySelector("#net-tag-any");
+  const allBtn = container.querySelector("#net-tag-all");
+  if (anyBtn) {
+    anyBtn.addEventListener("click", () => {
+      tagMatchMode = "or";
+      render();
+    });
+  }
+  if (allBtn) {
+    allBtn.addEventListener("click", () => {
+      tagMatchMode = "and";
+      render();
+    });
+  }
+
+  const clusterOnBtn = container.querySelector("#net-cluster-on");
+  const clusterOffBtn = container.querySelector("#net-cluster-off");
+  if (clusterOnBtn) {
+    clusterOnBtn.addEventListener("click", () => {
+      clusteringEnabled = true;
+      render();
+    });
+  }
+  if (clusterOffBtn) {
+    clusterOffBtn.addEventListener("click", () => {
+      clusteringEnabled = false;
+      render();
+    });
+  }
+
+  const countInput = container.querySelector("#net-cluster-count");
+  const countValue = container.querySelector("#net-cluster-count-value");
+  if (countInput) {
+    countInput.addEventListener("input", () => {
+      const min = parseInt(countInput.min, 10);
+      const max = parseInt(countInput.max, 10);
+      const parsed = parseInt(countInput.value, 10);
+      if (Number.isNaN(parsed)) return;
+      clusterCount = Math.max(min, Math.min(max, parsed));
+      if (countValue) countValue.textContent = String(clusterCount);
+    });
+
+    countInput.addEventListener("change", () => {
+      const min = parseInt(countInput.min, 10);
+      const max = parseInt(countInput.max, 10);
+      const parsed = parseInt(countInput.value, 10);
+      if (Number.isNaN(parsed)) return;
+      clusterCount = Math.max(min, Math.min(max, parsed));
+      if (countValue) countValue.textContent = String(clusterCount);
+      render();
+    });
+  }
 }
 
 /* ── Graph builder ──────────────────────────────────────────────────── */
@@ -198,8 +541,31 @@ function buildGraph() {
     }
   }
 
-  if (tagFilter !== "all") {
-    people = people.filter(p => personTagGroups(p).includes(tagFilter));
+  if (clusteringEnabled && activeTagClusters.size) {
+    const selectedClusters = [...activeTagClusters]
+      .map(key => clusterByKey.get(key))
+      .filter(Boolean);
+
+    people = people.filter(p => {
+      const itemTagSet = new Set([...personGroupSet(p)].map(normalize));
+      const clusterMatch = cluster => {
+        for (const t of cluster.memberNorm) {
+          if (itemTagSet.has(t)) return true;
+        }
+        return false;
+      };
+      if (tagMatchMode === "and") return selectedClusters.every(clusterMatch);
+      return selectedClusters.some(clusterMatch);
+    });
+  }
+
+  if (!clusteringEnabled && activeRawTags.size) {
+    const selected = [...activeRawTags].map(normalize);
+    people = people.filter(p => {
+      const groups = new Set([...personGroupSet(p)].map(normalize));
+      if (tagMatchMode === "and") return selected.every(tag => groups.has(tag));
+      return selected.some(tag => groups.has(tag));
+    });
   }
 
   const nodes = [];
@@ -345,6 +711,11 @@ let sim;
 /* ── Main render ─────────────────────────────────────────────────── */
 function render() {
   W = wrap.clientWidth; H = wrap.clientHeight;
+
+  if (connectionMode === "tags") {
+    renderTagControls();
+  }
+
   const { nodes, links } = buildGraph();
 
   g.selectAll("*").remove();
@@ -515,7 +886,13 @@ document.querySelectorAll(".mbtn").forEach(btn => {
     btn.classList.add("active");
     connectionMode = btn.dataset.mode;
     hiddenGroups.clear();
-    if (connectionMode !== "tags") tagFilter = "all";
+    if (connectionMode !== "tags") {
+      activeTagClusters.clear();
+      activeRawTags.clear();
+      tagMatchMode = "or";
+      clusteringEnabled = true;
+      clusterCount = DEFAULT_CLUSTER_COUNT;
+    }
     if (connectionMode === "tags") showHubNodes = false;
     else showHubNodes = document.getElementById("toggle-hub").checked;
     updateModeControls();
