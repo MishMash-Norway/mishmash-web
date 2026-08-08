@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: sashi-komandur
 name: Sashidharan Komandur
@@ -19,9 +18,6 @@ projects:
 - the-mishmash-website
 roles:
 - Work Package Leader
-wps:
-- WP4
-- WP7
 urls:
   personal_website: ''
   institutional_website: ''
@@ -214,6 +210,10 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''
+layout: person
+wps:
+- WP4
+- WP7
 description: Associate professor, Faculty of Film, TV and Games, University of Inland
   Norway
 permalink: /people/sashi-komandur/

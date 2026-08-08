@@ -1,8 +1,6 @@
 ---
 type: person
 slug: bjorn-tallak-bakken
-redirect_from:
-- /directory/people/bjorn-tallak-bakken/
 name: Bjørn Tallak Bakken
 title: Bjørn Tallak Bakken
 position: Associate professor
@@ -86,8 +84,8 @@ selected_works:
     role: Creator
   - name: Monica Sjöstrand
     role: Creator
-- title: BUILDING COMPETENCE AGAINST HYBRID THREATS Training and exercising hybrid
-    command organizations
+- title: 'Building competence against hybrid threats: Training and exercising hybrid
+    command organizations'
   year: '2024'
   source: Book chapter
   group_type: Book chapter
@@ -207,6 +205,8 @@ selected_works:
     url: /people/bjorn-tallak-bakken/
 source_mentions: []
 summary: ''
+redirect_from:
+- /directory/people/bjorn-tallak-bakken/
 wps:
 - WP2
 - WP4

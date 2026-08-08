@@ -1,8 +1,6 @@
 ---
-layout: person
 type: person
 slug: ana-brotas
-permalink: /people/ana-brotas/
 name: Ana Brotas
 title: Ana Brotas
 position: Admin.sekretær/prosjektkoordinator
@@ -45,6 +43,8 @@ summary: Ana Brotas has a background in public art, audiovisual communication, a
   and the European Capitals of Culture in Plovdiv (BG) and Veszprém (HU). Brotas holds
   a Master in Art and Public Space from the Oslo National Academy of the Arts (NO),
   for which she was awarded a bursary from the Calouste Gulbenkian Foundation (PT).
+layout: person
+permalink: /people/ana-brotas/
 published: false
 wps: []
 ---

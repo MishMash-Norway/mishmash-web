@@ -1,8 +1,6 @@
 ---
 type: person
 slug: eirik-sorbo
-redirect_from:
-- /directory/people/eirik-sorbo/
 name: Eirik Sørbø
 title: Eirik Sørbø
 position: Associate professor
@@ -148,6 +146,8 @@ summary: Researcher, educator, and musician. PhD in music education from the Uni
   Engaged in several projects, including MishMash (work package leader) and CreaTeME
   (project developer). Active grant writer with a strong track record of securing
   research funding.
+redirect_from:
+- /directory/people/eirik-sorbo/
 wps:
 - WP4
 permalink: /people/eirik-sorbo/
