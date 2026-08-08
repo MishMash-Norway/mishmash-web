@@ -90,6 +90,8 @@ description: "Search MishMash people, institutions, projects, pages, and events.
   'use strict';
 
   const INDEX_URL = '{{ "/search.json" | relative_url }}';
+  const TAG_CLUSTERING_SOURCE = {{ site.data.tag_clustering.source | default: "runtime" | jsonify }};
+  const OFFLINE_CLUSTER_URL = '{{ site.data.tag_clustering.offline_clusters_path | default: "/assets/data/tag-clusters.json" | relative_url }}';
   const DEFAULT_CLUSTER_COUNT = 20;
   const MIN_CLUSTER_COUNT = 20;
   const MAX_CLUSTER_TAGS = 100;
@@ -103,9 +105,63 @@ description: "Search MishMash people, institutions, projects, pages, and events.
   let tagLogic = 'or';
   let clusteringEnabled = true;
   let clusterCount = DEFAULT_CLUSTER_COUNT;
+  let useOfflineClusters = TAG_CLUSTERING_SOURCE === 'offline';
+  let offlineClustersByCount = new Map();
+  let offlineAvailableCounts = [];
 
   let clusterModel = [];
   let clusterByKey = new Map();
+
+  function parseOfflineClusterPayload(payload) {
+    if (Array.isArray(payload)) {
+      const k = String(payload.length || 1);
+      return { byCount: new Map([[k, payload]]), counts: [parseInt(k, 10)] };
+    }
+
+    if (payload && payload.clusters_by_count && typeof payload.clusters_by_count === 'object') {
+      const byCount = new Map();
+      Object.keys(payload.clusters_by_count).forEach(function (key) {
+        const n = parseInt(key, 10);
+        if (Number.isNaN(n)) return;
+        const groups = payload.clusters_by_count[key];
+        if (!Array.isArray(groups)) return;
+        byCount.set(String(n), groups);
+      });
+      const counts = Array.from(byCount.keys())
+        .map(function (k) { return parseInt(k, 10); })
+        .sort(function (a, b) { return a - b; });
+      return { byCount: byCount, counts: counts };
+    }
+
+    return { byCount: new Map(), counts: [] };
+  }
+
+  function nearestOfflineCount(desiredCount) {
+    if (!offlineAvailableCounts.length) return 1;
+    let best = offlineAvailableCounts[0];
+    let bestDiff = Math.abs(best - desiredCount);
+    offlineAvailableCounts.forEach(function (count) {
+      const diff = Math.abs(count - desiredCount);
+      if (diff < bestDiff) {
+        best = count;
+        bestDiff = diff;
+      }
+    });
+    return best;
+  }
+
+  function offlineCountBounds() {
+    if (!offlineAvailableCounts.length) return { min: 1, max: 1 };
+    return {
+      min: offlineAvailableCounts[0],
+      max: offlineAvailableCounts[offlineAvailableCounts.length - 1]
+    };
+  }
+
+  function getOfflineGroupsForCount(desiredCount) {
+    const k = String(nearestOfflineCount(desiredCount));
+    return offlineClustersByCount.get(k) || [];
+  }
 
   const input = document.getElementById('search-input');
   const resultsList = document.getElementById('search-results');
@@ -505,12 +561,54 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     return clusters;
   }
 
+  function buildOfflineClusterModel(items, desiredCount) {
+    const defs = getOfflineGroupsForCount(desiredCount).filter(function (c) {
+      return c && c.id && c.label && Array.isArray(c.tags) && c.tags.length;
+    });
+    if (!defs.length) return [];
+
+    const tagCounts = new Map();
+    items.forEach(function (item) {
+      (item.tags || []).forEach(function (t) {
+        const tag = normalizeSpace(t);
+        if (!tag || isWpCategory(tag)) return;
+        tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+      });
+    });
+
+    const used = defs;
+
+    return used.map(function (group, idx) {
+      const memberTags = Array.from(new Set(group.tags.map(normalizeSpace).filter(Boolean)));
+      const memberNorm = new Set(memberTags.map(normalize));
+      const totalCount = memberTags.reduce(function (acc, tag) {
+        return acc + (tagCounts.get(tag) || 0);
+      }, 0);
+      return {
+        key: String(group.id || ('group_' + idx)),
+        label: String(group.label || ('Group ' + (idx + 1))),
+        memberTags: memberTags,
+        memberNorm: memberNorm,
+        totalCount: totalCount
+      };
+    });
+  }
+
   function syncClusterInputBounds(totalTags) {
-    const maxVal = Math.max(1, Math.min(MAX_CLUSTER_TAGS, totalTags));
-    const minVal = Math.min(MIN_CLUSTER_COUNT, maxVal);
+    const bounds = useOfflineClusters ? offlineCountBounds() : null;
+    const maxVal = bounds
+      ? Math.max(1, bounds.max)
+      : Math.max(1, Math.min(MAX_CLUSTER_TAGS, totalTags));
+    const minVal = bounds
+      ? Math.max(1, bounds.min)
+      : Math.min(MIN_CLUSTER_COUNT, maxVal);
 
     clusterCountInput.min = String(minVal);
     clusterCountInput.max = String(maxVal);
+
+    if (useOfflineClusters) {
+      clusterCount = nearestOfflineCount(clusterCount);
+    }
 
     if (clusterCount < minVal) clusterCount = minVal;
     if (clusterCount > maxVal) clusterCount = maxVal;
@@ -578,14 +676,18 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     const max = parseInt(clusterCountInput.max, 10);
     if (Number.isNaN(parsed)) return;
 
-    clusterCount = Math.max(min, Math.min(max, parsed));
+    clusterCount = useOfflineClusters
+      ? nearestOfflineCount(parsed)
+      : Math.max(min, Math.min(max, parsed));
     clusterCountInput.value = String(clusterCount);
     clusterCountValue.value = String(clusterCount);
     clusterCountValue.textContent = String(clusterCount);
     syncClusterSliderFill();
 
     const previouslySelected = new Set(activeTagClusters);
-    clusterModel = buildTagClusterModel(allItems, clusterCount);
+    clusterModel = useOfflineClusters
+      ? buildOfflineClusterModel(allItems, clusterCount)
+      : buildTagClusterModel(allItems, clusterCount);
     renderTagClusterChips();
 
     activeTagClusters.clear();
@@ -687,7 +789,9 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       makeChip(v, activeCategories, categoryChips, runSearch);
     });
 
-    clusterModel = buildTagClusterModel(items, clusterCount);
+    clusterModel = useOfflineClusters
+      ? buildOfflineClusterModel(items, clusterCount)
+      : buildTagClusterModel(items, clusterCount);
     renderTagClusterChips();
     renderRawTagChips([...rawTags].sort());
 
@@ -917,11 +1021,35 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     window.history.replaceState(null, '', newUrl);
   }
 
+  function loadOfflineClusters() {
+    if (!useOfflineClusters) return Promise.resolve();
+    return fetch(OFFLINE_CLUSTER_URL)
+      .then(function (r) {
+        if (!r.ok) throw new Error('offline cluster file not found');
+        return r.json();
+      })
+      .then(function (data) {
+        const parsed = parseOfflineClusterPayload(data);
+        if (!parsed.counts.length) throw new Error('offline cluster file is empty');
+        offlineClustersByCount = parsed.byCount;
+        offlineAvailableCounts = parsed.counts;
+      })
+      .catch(function () {
+        // Fallback to current runtime clustering when offline clusters are unavailable.
+        useOfflineClusters = false;
+        offlineClustersByCount = new Map();
+        offlineAvailableCounts = [];
+      });
+  }
+
   fetch(INDEX_URL)
     .then(function (r) { return r.json(); })
     .then(function (data) {
       allItems = data;
-      buildFilters(data);
+      return loadOfflineClusters();
+    })
+    .then(function () {
+      buildFilters(allItems);
       hydrateFromUrl();
       syncTagLogicUI();
       syncClusteringModeUI();
