@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: irina-eidsvold
 name: Irina Eidsvold
@@ -70,6 +69,7 @@ selected_works:
   year: '2023'
   source: Book chapter
   group_type: Book chapter
+  url: https://doi.org/10.4337/9781035311460.00013
   contributors:
   - name: Irina  Eidsvold-Tøien
     role: Creator
@@ -148,6 +148,7 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''
+layout: person
 description: Associate professor, Department of Law and Governance, BI Norwegian Business
   School
 permalink: /people/irina-eidsvold/

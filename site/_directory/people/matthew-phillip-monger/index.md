@@ -145,12 +145,12 @@ selected_works:
     slug: matthew-phillip-monger
     url: /people/matthew-phillip-monger/
 source_mentions: []
+summary: ''
 wps:
 - WP6
 permalink: /people/matthew-phillip-monger/
 redirect_from:
 - /directory/people/matthew-phillip-monger/
-summary: ''
 ---
 
 Bio coming soon.

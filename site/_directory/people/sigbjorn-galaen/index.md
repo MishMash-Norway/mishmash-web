@@ -1,8 +1,6 @@
 ---
 type: person
 slug: sigbjorn-galaen
-redirect_from:
-- /directory/people/sigbjorn-galaen/
 name: Sigbjørn Galåen
 title: Sigbjørn Galåen
 position: Associate professor
@@ -87,6 +85,8 @@ summary: Sigbjørn Galåen is associate professor of 3D-graphics at Kristiania U
   from the gaming industry as 3D artist, concept artist, animator and producer, and
   has worked both in Norwegian and international companies. Sigbjørn is autodidact
   within fine art, has had three solo exhibitions, and has made many cover illustrations.
+redirect_from:
+- /directory/people/sigbjorn-galaen/
 wps:
 - WP2
 permalink: /people/sigbjorn-galaen/

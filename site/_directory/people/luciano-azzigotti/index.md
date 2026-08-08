@@ -1,7 +1,6 @@
 ---
 type: person
 slug: luciano-azzigotti
-permalink: /people/luciano-azzigotti/
 name: Luciano Azzigotti
 title: Luciano Azzigotti
 position: Lecturer
@@ -87,6 +86,7 @@ summary: "Luciano Azzigotti is a composer and media artist whose work focuses on
   \ and directed the Experimental Center Tacec (2018) at the Teatro Argentino de La\
   \ Plata. \n\nCurrently a doctoral student of the binational programme HKB-HM Freiburg,\
   \ he curates and researches about fictional objects and hypermusic at foMi.Lab"
+permalink: /people/luciano-azzigotti/
 published: false
 wps: []
 ---

@@ -38,6 +38,15 @@ search_keywords:
 - Popular Music
 - Music
 selected_works:
+- title: Ordinasjonsgudstjeneste Aremark Kirke
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Ole Fredrik Norbye
+    role: Soloist
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
 - title: Kublai Trio
   year: '2025'
   source: Music performance
@@ -133,15 +142,6 @@ selected_works:
     slug: ole-fredrik-norbye
     url: /people/ole-fredrik-norbye/
 - title: Artistic research presentation - NLAs ansattsamling 2023
-  year: '2023'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Ole Fredrik Norbye
-    role: Composer
-    slug: ole-fredrik-norbye
-    url: /people/ole-fredrik-norbye/
-- title: Babelkongen med hele sin hær
   year: '2023'
   source: Music performance
   group_type: Music performance
