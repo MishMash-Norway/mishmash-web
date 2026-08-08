@@ -58,8 +58,62 @@ const MAX_CLUSTER_TAGS = 100;
 let clusterCount = DEFAULT_CLUSTER_COUNT;
 let clusterModel = [];
 let clusterByKey = new Map();
+let useOfflineClusters = typeof NET_TAG_CLUSTERING_SOURCE === "string" && NET_TAG_CLUSTERING_SOURCE === "offline";
+let offlineClustersByCount = new Map();
+let offlineAvailableCounts = [];
 let showHubNodes = true;
 let hiddenGroups = new Set();
+
+function parseOfflineClusterPayload(payload) {
+  if (Array.isArray(payload)) {
+    const k = String(payload.length || 1);
+    return { byCount: new Map([[k, payload]]), counts: [parseInt(k, 10)] };
+  }
+
+  if (payload && payload.clusters_by_count && typeof payload.clusters_by_count === "object") {
+    const byCount = new Map();
+    Object.keys(payload.clusters_by_count).forEach(key => {
+      const n = parseInt(key, 10);
+      if (Number.isNaN(n)) return;
+      const groups = payload.clusters_by_count[key];
+      if (!Array.isArray(groups)) return;
+      byCount.set(String(n), groups);
+    });
+    const counts = Array.from(byCount.keys())
+      .map(value => parseInt(value, 10))
+      .sort((a, b) => a - b);
+    return { byCount, counts };
+  }
+
+  return { byCount: new Map(), counts: [] };
+}
+
+function nearestOfflineCount(desiredCount) {
+  if (!offlineAvailableCounts.length) return 1;
+  let best = offlineAvailableCounts[0];
+  let bestDiff = Math.abs(best - desiredCount);
+  offlineAvailableCounts.forEach(count => {
+    const diff = Math.abs(count - desiredCount);
+    if (diff < bestDiff) {
+      best = count;
+      bestDiff = diff;
+    }
+  });
+  return best;
+}
+
+function offlineCountBounds() {
+  if (!offlineAvailableCounts.length) return { min: 1, max: 1 };
+  return {
+    min: offlineAvailableCounts[0],
+    max: offlineAvailableCounts[offlineAvailableCounts.length - 1]
+  };
+}
+
+function getOfflineGroupsForCount(desiredCount) {
+  const key = String(nearestOfflineCount(desiredCount));
+  return offlineClustersByCount.get(key) || [];
+}
 
 const tagToGroupExact = new Map();
 TAG_GROUPS.forEach(group => {
@@ -281,6 +335,49 @@ function buildTagClusterModel() {
   return clusters;
 }
 
+function buildTagClusterModelFromOffline() {
+  const defs = getOfflineGroupsForCount(clusterCount).filter(group => {
+    return group && group.id && group.label && Array.isArray(group.tags) && group.tags.length;
+  });
+  if (!defs.length) return [];
+
+  const tagCounts = buildRawTagCounts();
+  const selected = defs;
+
+  return selected.map((group, idx) => {
+    const memberTags = Array.from(new Set(group.tags.map(normalizeSpace).filter(Boolean)));
+    const memberNorm = new Set(memberTags.map(normalize));
+    const totalCount = memberTags.reduce((acc, tag) => acc + (tagCounts.get(tag) || 0), 0);
+    return {
+      key: String(group.id || ("group_" + idx)),
+      label: String(group.label || ("Group " + (idx + 1))),
+      memberTags,
+      memberNorm,
+      totalCount
+    };
+  });
+}
+
+function loadOfflineClusters() {
+  if (!useOfflineClusters) return Promise.resolve();
+  return fetch(typeof NET_TAG_CLUSTER_FILE === "string" ? NET_TAG_CLUSTER_FILE : "/assets/data/tag-clusters.json")
+    .then(response => {
+      if (!response.ok) throw new Error("offline cluster file not found");
+      return response.json();
+    })
+    .then(data => {
+      const parsed = parseOfflineClusterPayload(data);
+      if (!parsed.counts.length) throw new Error("offline cluster file empty");
+      offlineClustersByCount = parsed.byCount;
+      offlineAvailableCounts = parsed.counts;
+    })
+    .catch(() => {
+      useOfflineClusters = false;
+      offlineClustersByCount = new Map();
+      offlineAvailableCounts = [];
+    });
+}
+
 function personGroupSet(p) {
   const set = new Set();
   personTagGroups(p).forEach(tag => {
@@ -385,15 +482,23 @@ function renderTagControls() {
     return;
   }
 
-  clusterModel = buildTagClusterModel();
+  clusterModel = useOfflineClusters ? buildTagClusterModelFromOffline() : buildTagClusterModel();
   clusterByKey = new Map(clusterModel.map(c => [c.key, c]));
   const validClusterKeys = new Set(clusterModel.map(c => c.key));
   [...activeTagClusters].forEach(key => {
     if (!validClusterKeys.has(key)) activeTagClusters.delete(key);
   });
 
-  const maxClusters = Math.max(1, Math.min(MAX_CLUSTER_TAGS, rawTags.length));
-  const minClusters = Math.min(MIN_CLUSTER_COUNT, maxClusters);
+  const offlineBounds = useOfflineClusters ? offlineCountBounds() : null;
+  const maxClusters = offlineBounds
+    ? Math.max(1, offlineBounds.max)
+    : Math.max(1, Math.min(MAX_CLUSTER_TAGS, rawTags.length));
+  const minClusters = offlineBounds
+    ? Math.max(1, offlineBounds.min)
+    : Math.min(MIN_CLUSTER_COUNT, maxClusters);
+  if (useOfflineClusters) {
+    clusterCount = nearestOfflineCount(clusterCount);
+  }
   if (clusterCount < minClusters) clusterCount = minClusters;
   if (clusterCount > maxClusters) clusterCount = maxClusters;
 
@@ -499,20 +604,18 @@ function renderTagControls() {
   const countValue = container.querySelector("#net-cluster-count-value");
   if (countInput) {
     countInput.addEventListener("input", () => {
-      const min = parseInt(countInput.min, 10);
-      const max = parseInt(countInput.max, 10);
       const parsed = parseInt(countInput.value, 10);
       if (Number.isNaN(parsed)) return;
-      clusterCount = Math.max(min, Math.min(max, parsed));
+      clusterCount = useOfflineClusters ? nearestOfflineCount(parsed) : parsed;
+      countInput.value = String(clusterCount);
       if (countValue) countValue.textContent = String(clusterCount);
     });
 
     countInput.addEventListener("change", () => {
-      const min = parseInt(countInput.min, 10);
-      const max = parseInt(countInput.max, 10);
       const parsed = parseInt(countInput.value, 10);
       if (Number.isNaN(parsed)) return;
-      clusterCount = Math.max(min, Math.min(max, parsed));
+      clusterCount = useOfflineClusters ? nearestOfflineCount(parsed) : parsed;
+      countInput.value = String(clusterCount);
       if (countValue) countValue.textContent = String(clusterCount);
       render();
     });
@@ -922,7 +1025,9 @@ window.addEventListener("resize", () => {
 });
 
 /* ── Initial render ──────────────────────────────────────────────── */
-updateModeControls();
-render();
+loadOfflineClusters().finally(() => {
+  updateModeControls();
+  render();
+});
 
 })();

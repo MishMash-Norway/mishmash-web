@@ -1,0 +1,5 @@
+# Global tag clustering source for search and people/network pages.
+# Set source to "runtime" to use browser-side clustering (current behavior),
+# or "offline" to load precomputed groups from offline_clusters_path.
+source: offline
+offline_clusters_path: /assets/data/tag-clusters.json

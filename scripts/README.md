@@ -239,6 +239,26 @@ Useful flags:
 - `--map path/to/tag_merge_map.yml` uses a custom mapping file.
 - `--tag-groups site/_data/tag_groups.yml` also updates people-network tag groups.
 
+Tag clustering
+--------------
+
+The `/search/` and `/people/network/` pages support two cluster sources:
+
+- `source: runtime` in [site/_data/tag_clustering.yml](site/_data/tag_clustering.yml) uses the current in-browser clustering.
+- `source: offline` loads precomputed groups from [site/assets/data/tag-clusters.json](site/assets/data/tag-clusters.json).
+
+When offline mode is enabled, the UI still uses the same slider and tag-group controls, but only cluster counts that actually exist in `tag-clusters.json` are selectable.
+
+Quick toggle example:
+
+```yaml
+# site/_data/tag_clustering.yml
+source: offline
+offline_clusters_path: /assets/data/tag-clusters.json
+```
+
+Use `source: runtime` to fall back to browser-side clustering without changing the page UI.
+
 Wikidata identifiers and facts
 ------------------------------
 
