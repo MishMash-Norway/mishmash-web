@@ -321,6 +321,7 @@ PLATFORMS
   x86_64-linux-gnu
 
 DEPENDENCIES
+  console (< 1.37)
   github-pages (~> 232)
   html-proofer (~> 5.2)
 
