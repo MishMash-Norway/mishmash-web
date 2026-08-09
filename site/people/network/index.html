@@ -104,6 +104,9 @@ const TAG_GROUPS = [
   {% endfor %}
 ];
 
+const NET_TAG_CLUSTERING_SOURCE = {{ site.data.tag_clustering.source | default: "runtime" | jsonify }};
+const NET_TAG_CLUSTER_FILE = '{{ site.data.tag_clustering.offline_clusters_path | default: "/assets/data/tag-clusters.json" | relative_url }}';
+
 /* ── Institution short labels ─────────────────────────────────────────── */
 const instById = Object.fromEntries(INSTITUTIONS.map(i => [i.id, i]));
 
