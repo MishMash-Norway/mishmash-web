@@ -17,3 +17,9 @@
   description: >-
     A dark, terminal-inspired UI in a page-wide two-column layout: sticky
     sidebar with tree-style menus, monospace type, neon green/cyan accents.
+- name: sfa
+  title: SFA
+  description: >-
+    A light experimental interface with a live p5.js Game of Life background,
+    mild reload-to-reload palette shifts, and a WebAudio granular engine that
+    reshapes Freesound material into dense audio-reactive textures.
