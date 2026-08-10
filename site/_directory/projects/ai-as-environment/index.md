@@ -5,9 +5,11 @@ title: AI as Environment
 permalink: /projects/ai-as-environment/
 wps:
 - WP6
+- WP2
 tags:
 - Seed Funding
 - WP6
+- WP2
 - Cultural Infrastructure
 - Exhibition
 - Funding
