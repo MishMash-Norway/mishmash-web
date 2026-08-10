@@ -146,6 +146,10 @@ MeshUps are short, weekly online events designed for sharing ongoing work and id
 
 MeshUps provide a lightweight format for connecting across disciplines and institutions. Upcoming and past MeshUps are listed on the [events page](/events/).
 
+To receive meeting links and reminders, subscribe to the MeshUps announcement list or add MeshUps to your calendar from the events page. Use the "Subscribe (webcal)" link to add the calendar directly, or use "Download calendar (ICS)" if your mail client (for example Outlook) does not open webcal links.
+
+For Norwegian: For å motta møte-lenker og påminnelser, abonner på MeshUps' annonse-liste eller legg MeshUps til i kalenderen fra arrangementsiden. Bruk «Subscribe (webcal)» for å legge kalenderen direkte til, eller bruk «Download calendar (ICS)» hvis e-postprogrammet ditt (for eksempel Outlook) ikke åpner webcal-lenker.
+
 </details>
 
 <details class="faq-item" id="are-events-open-to-the-public" markdown="1">

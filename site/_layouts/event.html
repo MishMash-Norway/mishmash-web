@@ -83,4 +83,10 @@ END:VCALENDAR
   {{ content }}
 </div>
 
-<p><a class="button" href="{{ events_feed_webcal }}">Subscribe to all events</a></p>
+<p>
+  <a class="button" href="{{ events_feed_webcal }}">Subscribe to all events (webcal)</a>
+  <a class="button" href="{{ events_feed_url }}">Download calendar (ICS)</a>
+  <br>
+  <small>If the webcal link doesn't open in your calendar (e.g. Outlook), use "Download calendar (ICS)" and open the file in your calendar app.</small>
+  <small lang="nb">Hvis webcal-lenken ikke åpner i kalenderen din (for eksempel Outlook), bruk «Last ned kalender (ICS)» og åpne filen i kalenderappen din.</small>
+</p>
