@@ -38,7 +38,7 @@ search_keywords:
 - Popular Music
 - Music
 selected_works:
-- title: Ordinasjonsgudstjeneste Aremark Kirke
+- title: Bestillingsverk til ordinasjonsgudstjeneste LKN
   year: '2026'
   source: Music performance
   group_type: Music performance

@@ -47,6 +47,7 @@ people:
 - sascha-fruhholz
 - stefano-fasciani
 - susanne-o-saether
+- synne-tollerud-bull
 - tejaswinee-kelkar
 - victoria-johnson
 - vincenzo-madaghiele

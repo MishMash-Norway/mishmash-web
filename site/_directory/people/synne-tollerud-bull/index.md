@@ -3,12 +3,13 @@ type: person
 slug: synne-tollerud-bull
 name: Synne Tollerud Bull
 title: Synne Tollerud Bull
-position: Professor
+position: Associate Professor Fellowship
 department: School of Arts, Design, and Media
 image: /assets/images/portraits/Synne_Tollerud_Bull_Kristiania.jpg
-institution: kristiania-university-college
+institution: university-of-oslo
 institutions:
 - kristiania-university-college
+- university-of-oslo
 affiliation_units:
 - Kristiania University of Applied Sciences
 - School of Arts, Design, and Media
@@ -52,142 +53,53 @@ search_keywords:
 - Visual Culture
 - New Media
 selected_works:
-- title: Ocean Futures in the Making
+- title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard
+    Media Production Workflows
   year: '2026'
   source: Book chapter
   group_type: Book chapter
-  url: https://doi.org/10.4324/9781003478805
-  contributors:
-  - name: Camilla Brattland
-    role: Creator
-  - name: Synne Tollerud Bull
-    role: Creator
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-- title: 'Introduction: Media Seas of the High North Atlantic'
-  year: '2026'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.4324/9781003478805
-  contributors:
-  - name: Synne Tollerud Bull
-    role: Creator
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Liv Hausken
-    role: Creator
-  - name: Jørgen Alnæs
-    role: Creator
-  - name: Susanne Østby Sæther
-    role: Creator
-    slug: susanne-o-saether
-    url: /people/susanne-o-saether/
-- title: Media Seas and the Blue Humanities Studies of the High North Atlantic
-  year: '2026'
-  source: Book anthology
-  group_type: Book anthology
-  url: https://doi.org/10.4324/9781003478805
-  contributors:
-  - name: Synne Tollerud Bull
-    role: Editor
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Liv Hausken
-    role: Editor
-  - name: Susanne Østby Sæther
-    role: Editor
-    slug: susanne-o-saether
-    url: /people/susanne-o-saether/
-  - name: Jørgen Alnæs
-    role: Editor
-- title: På Google Earth kan du zoome inn på hele verden. Men hva er det egentlig
-    vi ser?
-  year: '2026'
-  source: Popular science article
-  group_type: Popular science article
-  url: https://www.forskersonen.no/digital-teknologi-kronikk-kunstig-intelligens/pa-google-earth-kan-du-zoome-inn-pa-hele-verden-men-hva-er-det-egentlig-vi-ser/2597322
-  contributors:
-  - name: Synne Tollerud Bull
-    role: Creator
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-- title: Når data ikke er nok
-  year: '2026'
-  source: Popular science article
-  group_type: Popular science article
-  url: https://www.khrono.no/nar-data-ikke-er-nok/1028243
-  contributors:
-  - name: Synne Tollerud Bull
-    role: Creator
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Pedro Lind
-    role: Creator
-- title: Månedens forsker, SADM
+  url: https://doi.org/10.1007/978-3-032-30846-7_4
+- title: Proxistant Vision
   year: '2025'
-  source: Other artistic output
-  group_type: Other artistic output
-  contributors:
-  - name: Synne Tollerud Bull
-    role: RoleOther
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-- title: 'Proxistant Vision: Motion, Navigation, Scale'
-  year: '2025'
-  source: Monograph
-  group_type: Monograph
-  url: https://doi.org/10.7551/mitpress/15152.001.0001
-  contributors:
-  - name: Synne Tollerud Bull
-    role: Creator
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Dragan Miletic
-    role: Creator
-- title: Studentene tar tak i Grønlands utfordringer med kreativ kraft
-  year: '2025'
-  source: Popular science article
-  group_type: Popular science article
-  contributors:
-  - name: Synne Tollerud Bull
-    role: Creator
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Leo Rygnestad
-    role: Creator
-- title: THE FUTURES OF THE PASTS (2023)
-  year: '2023'
-  source: Visual arts
-  group_type: Visual arts
-  contributors:
-  - name: Synne Tollerud Bull
-    role: Artist
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Dragan Miletic
-    role: Artist
-- title: 'Bull.Miletic: Proxistant Vision'
-  year: '2022'
-  source: Visual arts
-  group_type: Visual arts
-  url: https://proxistantvision.net/
-  contributors:
-  - name: Synne Tollerud Bull
-    role: Artist
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Dragan Miletic
-    role: Artist
+  source: Book
+  group_type: Book
+  url: http://dx.doi.org/10.7551/mitpress/15152.001.0001
+- title: Screen Space Reconfigured
+  year: '2020'
+  source: Book
+  group_type: Book
+  url: http://dx.doi.org/10.5117/9789089649928
+- title: Norsk kort 2015
+  year: '2015'
+  source: Moving Image
+  group_type: Moving Image
+  url: http://www.worldcat.org/oclc/1028481620
+- title: Urban Images
+  year: '2011'
+  source: Book
+  group_type: Book
+  url: https://www.sternberg-press.com/product/urban-images-unruly-desires-in-film-and-architecture/
+- title: Cities Re-Imagined
+  year: '2010'
+  source: Book
+  group_type: Book
+- title: Unfinished
+  year: '2007'
+  source: Book
+  group_type: Book
+  url: https://www.worldcat.org/isbn/867101254X
+- title: 'Bull.Miletic: Slow Seeing'
+  year: '2004'
+  source: Book
+  group_type: Book
 source_mentions:
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md
-summary: Synne Tollerud Bull is Professor of Media Art and Pro Dean of Research at
-  Kristiania University of Applied Sciences. Working in the artist duo Bull.Miletic
-  with Dragan Miletic, her practice-based research examines artistic intelligence,
-  AI infrastructures, and media ecologies through moving image, installation, and
-  the concepts of cinéma trouvé and proxistance. She co-leads WP2 in MishMash – Centre
-  for AI and Creativity, serves as co-Director of the Kristiania AI Centre (KAI),
-  and AI Ecologies.
+summary: Synne Tollerud Bull is Professor of Media Art and Pro-Dean of Research at
+  Kristiania University of Applied Sciences, at the School of Arts, Design, and Media.
+  Her work bridges theory and practice to examine how emerging imaging technologies,
+  such as drones and AI, shape societal structures through mediation in art and visual
+  communication.
 wps:
 - WP2
 - WP5

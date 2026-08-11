@@ -58,6 +58,22 @@ search_keywords:
 - Cognitive Neuroscience
 - Music Cognition
 selected_works:
+- title: Individual Tempo Asymmetries and Coupling Dynamics in Dyadic Musical Synchronization
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://escholarship.org/uc/item/40q8w4b4
+  contributors:
+  - name: Andrii Smykovskyi
+    role: Creator
+  - name: Bravo van Kerrebroeck
+    role: Creator
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Caroline Palmer
+    role: Creator
 - title: Videopelien musiikin kokeminen ja musiikilliset käytänteet
   year: '2026'
   source: Journal article
@@ -275,20 +291,6 @@ selected_works:
     role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
-- title: Does fantasy empathy predict the attribution of virtual agency to music?
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1177/10298649241258745
-  contributors:
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-  - name: John Melvin Gudnyson Treider
-    role: Creator
-  - name: David Huron
-    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: I am Professor of Music Cognition at the Department of Musicology and the
