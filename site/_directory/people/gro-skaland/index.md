@@ -27,6 +27,21 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Kreativ praksis i teoretiske fag: En sammenliknende case-analyse av undervisning
+    i to skaperverksteder'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.18261/npt.110.2.4
+  contributors:
+  - name: Gro Skåland
+    role: Creator
+    slug: gro-skaland
+    url: /people/gro-skaland/
+  - name: Kristina Torine Litherland
+    role: Creator
+  - name: Anders Mørch
+    role: Creator
 - title: Making the library of the future identifying the zone of proximal development
     for a Norwegian public library makerspace
   year: '2024'

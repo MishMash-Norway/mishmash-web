@@ -14,6 +14,7 @@ people:
 - anders-tveit
 - guro-von-germeten
 - ivar-grydeland
+- jens-knigge
 - morten-qvenild
 - sidsel-karlsen
 - victoria-johnson

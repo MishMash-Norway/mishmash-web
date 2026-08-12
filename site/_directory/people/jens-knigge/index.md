@@ -1,19 +1,21 @@
 ---
+layout: person
 type: person
 slug: jens-knigge
 name: Jens Knigge
 title: Jens Knigge
-position: Professor
-department: Department of Teacher Education
+position: Professor ii
+department: Fagseksjon for musikkpedagogikk og musikkterapi
 image: /assets/images/portraits/Jens_Knigge_NTNU.jpg
-institution: norwegian-university-of-science-and-technology
+institution: norwegian-academy-of-music
 institutions:
 - nord-university
+- norwegian-academy-of-music
 - norwegian-university-of-science-and-technology
 nva_affiliations:
-- role: Professor
-  unit: Department of Teacher Education
-  institution: norwegian-university-of-science-and-technology
+- role: Professor ii
+  unit: Fagseksjon for musikkpedagogikk og musikkterapi
+  institution: norwegian-academy-of-music
 - role: Professor
   unit: Faculty of Education and Arts
   institution: nord-university
@@ -195,7 +197,6 @@ selected_works:
     role: Creator
 source_mentions: []
 summary: ''
-layout: person
 wps:
 - WP4
 permalink: /people/jens-knigge/
