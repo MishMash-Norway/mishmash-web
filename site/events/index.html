@@ -15,8 +15,11 @@ if (window.location.hash === '#partner-events') {
   <a class="button" href="{{ events_feed_webcal }}">Subscribe to all MishMash events (webcal)</a>
   <a class="button" href="{{ events_feed_url }}">Download calendar (ICS)</a>
   <br>
-  <small>If the webcal link doesn't open in your calendar (e.g. Outlook), use "Download calendar (ICS)" and open the file in your calendar app.</small>
+  {% if page.lang == 'nb' %}
   <small lang="nb">Hvis webcal-lenken ikke åpner i kalenderen din (for eksempel Outlook), bruk «Last ned kalender (ICS)» og åpne filen i kalenderappen din.</small>
+  {% else %}
+  <small>If the webcal link doesn't open in your calendar (e.g. Outlook), use "Download calendar (ICS)" and open the file in your calendar app.</small>
+  {% endif %}
 </p>
 {% assign all_events = site.events | where_exp: "item", "item.draft != true" %}
 {% assign future_events = all_events | where_exp: "item", "item.date >= site.time" | sort: 'date' %}
@@ -110,6 +113,9 @@ if (window.location.hash === '#partner-events') {
   <a class="button" href="{{ events_feed_webcal }}">Subscribe to all MishMash events (webcal)</a>
   <a class="button" href="{{ events_feed_url }}">Download calendar (ICS)</a>
   <br>
-  <small>If the webcal link doesn't open in your calendar (e.g. Outlook), use "Download calendar (ICS)" and open the file in your calendar app.</small>
+  {% if page.lang == 'nb' %}
   <small lang="nb">Hvis webcal-lenken ikke åpner i kalenderen din (for eksempel Outlook), bruk «Last ned kalender (ICS)» og åpne filen i kalenderappen din.</small>
+  {% else %}
+  <small>If the webcal link doesn't open in your calendar (e.g. Outlook), use "Download calendar (ICS)" and open the file in your calendar app.</small>
+  {% endif %}
 </p>
