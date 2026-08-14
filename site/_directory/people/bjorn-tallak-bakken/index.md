@@ -41,6 +41,20 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: The 2022 FIFA World Cup in Qatar - Article - CGScholar
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://cgscholar.com/publishers/articles/the-2022-fifa-world-cup-in-qatar
+  contributors:
+  - name: Bjørn Tallak Bakken
+    role: Creator
+    slug: bjorn-tallak-bakken
+    url: /people/bjorn-tallak-bakken/
+  - name: Trine Lövold Syversen
+    role: Creator
+  - name: Ole Boe
+    role: Creator
 - title: 'Ramping up for the AI Explosion in Military C2: A Performance Benchmark
     for Autonomous Self-Improving AI Agents Based on Maneuver Warfare Theory'
   year: '2025'
@@ -190,19 +204,6 @@ selected_works:
     role: Creator
   - name: Erik Bjurström
     role: Creator
-- title: 'The Impact of Trust in Time of Covid-19: Trust in Crisis Management and
-    Crisis Communication in Inland Norway University of Applied Sciences'
-  year: '2022'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1007/978-3-030-94814-6_14
-  contributors:
-  - name: Åse Storhaug Hole
-    role: Creator
-  - name: Bjørn T. Bakken
-    role: Creator
-    slug: bjorn-tallak-bakken
-    url: /people/bjorn-tallak-bakken/
 source_mentions: []
 summary: ''
 redirect_from:
