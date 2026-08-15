@@ -1,12 +1,13 @@
 ---
+layout: person
 type: person
 slug: trond-lossius
 name: Trond Lossius
 title: Trond Lossius
 position: Professor
-department: Faculty of Fine Art, Music and Design
+department: Faculty of Film, TV and Games
 image: /assets/images/portraits/Trond_Lossius_UiB.jpg
-institution: university-of-bergen
+institution: university-of-inland-norway
 institutions:
 - university-of-bergen
 - university-of-inland-norway
