@@ -52,7 +52,6 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | 19:00 | Closing reception with food, drinks and performance |
 | 23:00 | End of the conference |
 
-
 ## Inspiring environment
 We meet in Southern Norway, in the heart of Kristiansand’s modern cultural district: the New York Times and TIME Magazine recognised Kunstsilo museum and the award-winning Kilden concert hall. The conference aims to create an inspiring environment for the exploration of research and artistic creation in interaction with artificial intelligence.
 
