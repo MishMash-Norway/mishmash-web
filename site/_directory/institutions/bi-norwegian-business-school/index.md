@@ -11,6 +11,7 @@ description: BI Norwegian Business School is a Norwegian private business school
 short_name: BI
 image: /images/institutions/bi-norwegian-business-school.svg
 people:
+- baltasar-beferull-lozano
 - irina-eidsvold
 - lyuba-boncheva
 - sondre-knudsen

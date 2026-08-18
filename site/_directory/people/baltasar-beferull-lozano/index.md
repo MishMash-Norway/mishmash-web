@@ -3,11 +3,12 @@ type: person
 slug: baltasar-beferull-lozano
 name: Baltasar Beferull-Lozano
 title: Baltasar Beferull-Lozano
-position: Professor
-department: Department of Information and Communication Technology (ICT)
+position: Professor ii
+department: Department of Data Science and Analytics
 image: /assets/images/portraits/Baltasar_Beferull_Simula.jpg
-institution: university-of-agder
+institution: bi-norwegian-business-school
 institutions:
+- bi-norwegian-business-school
 - simula-metropolitan-center-for-digital-engineering
 - university-of-agder
 affiliation_units:
@@ -15,6 +16,9 @@ affiliation_units:
 - Faculty of Engineering and Science
 - Department of Information and Communication Technology (ICT)
 nva_affiliations:
+- role: Professor ii
+  unit: Department of Data Science and Analytics
+  institution: bi-norwegian-business-school
 - role: Professor
   unit: Department of Information and Communication Technology (ICT)
   institution: university-of-agder

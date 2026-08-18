@@ -29,6 +29,16 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Education, Love, and the Fear of God
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://www.waxmann.com/buecher/Virtus-et-Humanitas:-Bridging-Virtues-and-Values-of-Greco-Roman-Jewish-and-Christian-Paideia
+  contributors:
+  - name: Clemens Cavallin
+    role: Creator
+    slug: clemens-cavallin
+    url: /people/clemens-cavallin/
 - title: 'Sacrifice: Religion & the Revitalization of Christian Life'
   year: '2026'
   source: Non-fiction book
@@ -120,17 +130,6 @@ selected_works:
   source: Book chapter
   group_type: Book chapter
   contributors:
-  - name: Paul Clemens Cavallin
-    role: Creator
-    slug: clemens-cavallin
-    url: /people/clemens-cavallin/
-- title: Kontemplation
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Katarina Gustavsson O.P.
-    role: Creator
   - name: Paul Clemens Cavallin
     role: Creator
     slug: clemens-cavallin
