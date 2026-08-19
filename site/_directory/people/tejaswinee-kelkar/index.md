@@ -24,7 +24,7 @@ other_projects:
 roles:
 - Member
 urls:
-  personal_website: http://tejaswinee.com
+  personal_website: https://tejaswinee.com
   institutional_website: https://www.hf.uio.no/imv/personer/vit/fast/tejaswik/
   github: https://github.com/shockmonger
   linkedin: https://www.linkedin.com/in/tejaswineekelkar/

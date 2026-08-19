@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.jyu.fi/en/people/dana-swarbrick
-  institutional_website: https://www.uio.no/ritmo/english/people/phd-fellows/danasw/
+  institutional_website: ''
   github: https://github.com/dana-and-monsters
   linkedin: https://www.linkedin.com/in/dana-swarbrick/
   orcid: https://orcid.org/0000-0001-7242-9138

@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.nichele.eu/
-  institutional_website: http://www.nichele.eu
+  institutional_website: https://www.hiof.no/iio/itk/english/people/aca/stefanon/
   github: ''
   linkedin: https://www.linkedin.com/in/stefano-nichele-a873714/
   orcid: https://orcid.org/0000-0003-4696-9872

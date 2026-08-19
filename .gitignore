@@ -4,6 +4,7 @@ venv/
 vendor/
 _site/
 chat/docs/
+TEMP/ 
 
 # VS Code settings
 .vscode/

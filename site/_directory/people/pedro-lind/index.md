@@ -11,7 +11,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: http://www.cs.oslomet.no/~pedrolin
+  personal_website: https://www.cs.oslomet.no/~pedrolin
   institutional_website: https://www.kristiania.no/en/about-kristiania/employees/fakultet-for-helse-og-teknologi/department-of-technology/pedro-lind/
   github: ''
   linkedin: ''

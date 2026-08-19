@@ -21,7 +21,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.diegomarin.art/en
-  institutional_website: https://www.diegomarin.art
+  institutional_website: https://www.uio.no/ritmo/english/people/phd-fellows/dabucio/
   github: ''
   linkedin: https://www.linkedin.com/in/diegomarinbucio/
   orcid: https://orcid.org/0000-0001-8334-5124

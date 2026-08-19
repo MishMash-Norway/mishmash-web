@@ -1,0 +1,38 @@
+---
+published: false
+type: person
+slug: rose-martin
+permalink: /people/rose-martin/
+name: Rose Martin
+title: Rose Martin
+position: null
+department: null
+institution: null
+institutions: []
+affiliation_units: []
+nva_affiliations: []
+projects: []
+wps: []
+roles:
+- Member
+urls:
+  personal_website: https://professorrosemartin.com/
+  institutional_website: https://www.nord.no/en/about/employees/rosemary-kate-martin
+  github: null
+  linkedin: null
+  orcid: null
+  nva: null
+  wikidata: null
+  youtube: null
+  facebook: null
+  mastodon: null
+  instagram: null
+aliases: []
+tags: []
+search_keywords: []
+selected_works: []
+source_mentions: []
+summary: null
+---
+
+Bio.

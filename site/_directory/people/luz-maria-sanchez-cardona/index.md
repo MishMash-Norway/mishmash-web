@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: Https://www.luzmariasanchez.com
-  institutional_website: https://www.luzmariasanchez.com
+  institutional_website: https://www4.uib.no/en/find-employees/luz-maria.sanchez-cardona
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-4279-9490
