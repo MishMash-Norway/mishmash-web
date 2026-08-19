@@ -49,7 +49,7 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | --- | --- |
 | 08:30 | MishMash Work Package meetings (closed, invite-only) |
 | 10:00 | Opening of TechArt. See the [separate TechArt page](https://kilden.com/program/47927-tech-art/) for details of the daytime programme. |
-| 19:00 | _MishMash invites to_ the MishMash Opening Conference **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element |
+| 18:30 | _MishMash invites to_ the MishMash Opening Conference **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element |
 | 23:00 | End of the conference |
 
 ## Inspiring environment
