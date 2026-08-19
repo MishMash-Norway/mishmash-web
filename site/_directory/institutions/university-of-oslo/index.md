@@ -28,6 +28,7 @@ people:
 - eskil-muan-saether
 - hege-stensrud-hosoien
 - hugh-alexander-von-arnim
+- ida-jahr
 - ingrid-chieh-yu
 - jim-torresen
 - jon-marius-aareskjold-drecker

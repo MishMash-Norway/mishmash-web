@@ -63,6 +63,7 @@ selected_works:
   year: '2025'
   source: Music performance
   group_type: Music performance
+  url: https://sofamusic.bandcamp.com/album/b-yning-brytning
   contributors:
   - name: Ivar Grydeland
     role: Composer
