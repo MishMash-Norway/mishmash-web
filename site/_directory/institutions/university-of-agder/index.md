@@ -20,6 +20,7 @@ people:
 - jon-marius-aareskjold-drecker
 - marit-wergeland
 - murtaza-mohiqi
+- ruzbeh-smiley
 - sunniva-whittaker
 projects:
 - agency-and-control-in-musical-ensemble

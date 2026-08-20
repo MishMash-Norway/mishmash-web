@@ -27,7 +27,7 @@ roles:
 - Member
 urls:
   personal_website: https://olegoethe.com/
-  institutional_website: https://www.kristiania.no/en/about-kristiania/employees/fakultet-for-samfunn-kunst-og-medier/department-of-performing-arts-film-and-media/ole-goethe/
+  institutional_website: ''
   github: https://github.com/olegoethe
   linkedin: https://www.linkedin.com/in/olegoethe/
   orcid: https://orcid.org/0000-0001-9565-2914

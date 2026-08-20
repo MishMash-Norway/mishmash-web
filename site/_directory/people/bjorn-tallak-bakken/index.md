@@ -41,6 +41,23 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Navigating Obstacles to Cross-Border Crisis Preparedness– Preliminary Findings
+    from an Interview Study
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.59297/ap7f1j82
+  contributors:
+  - name: Monika Magnusson
+    role: Creator
+  - name: Erik Persson Pavlović
+    role: Creator
+  - name: Peter Bellström
+    role: Creator
+  - name: Bjørn Tallak Bakken
+    role: Creator
+    slug: bjorn-tallak-bakken
+    url: /people/bjorn-tallak-bakken/
 - title: The 2022 FIFA World Cup in Qatar - Article - CGScholar
   year: '2026'
   source: Journal article
@@ -190,19 +207,6 @@ selected_works:
     slug: bjorn-tallak-bakken
     url: /people/bjorn-tallak-bakken/
   - name: Gerry Larsson
-    role: Creator
-- title: AI in Future C2 – Who’s in Command When AI Takes Control?
-  year: '2023'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Bjørn Tallak Bakken
-    role: Creator
-    slug: bjorn-tallak-bakken
-    url: /people/bjorn-tallak-bakken/
-  - name: Inger Lund-Kordahl
-    role: Creator
-  - name: Erik Bjurström
     role: Creator
 source_mentions: []
 summary: ''
