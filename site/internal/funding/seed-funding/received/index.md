@@ -32,7 +32,7 @@ If your institution is a MishMash budget partner, follow these steps:
 - All goods and services needed for the project (travel, licenses, speaker fees, etc.) should be procured according to your institution's normal procedures.
 - Use the procurement agreements that apply at your institution.
 - When requesting reimbursement from your institution, indicate that the expenditures relate to the MishMash-funded project. For example, you can mark the reimbursement claim with the project ID shown in the approval letter. Alternatively, consult your institution about the best way to distinguish between regular MishMash expenses and seed-funding expenses.
-- Project expenses must be included when the institution invoices MishMash/UiO during the year, either as a separate invoice or as part of a consolidated invoice. Expenses related to the seed-funded project must be clearly labeled with the project ID (as stated in the approval letter) and the text: "Work package 1, seed funding from MishMash."
+- - Project expenses will be billed to MishMash/UiO either on a separate invoice or together with other MishMash-related expenses. Expenses related to the seed-funded project must be clearly labeled with the project ID (as stated in the approval letter) and the following text: "Work package 1, seed funding from MishMash.
 - Submit a report using [this form](https://nettskjema.no/a/638628).
 - Unused funds will not be disbursed. They will be returned to MishMash's operating budget to benefit other projects.
 
