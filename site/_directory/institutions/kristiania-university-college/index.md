@@ -17,6 +17,7 @@ people:
 - jannicke-johansen
 - jonas-karlsen-astrom
 - marie-dahlen
+- morten-h-forsberg
 - ole-christian-solbakken
 - ole-goethe
 - sigbjorn-galaen

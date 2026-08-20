@@ -12,6 +12,7 @@ short_name: SINTEF
 image: /images/institutions/sintef-digital.svg
 people:
 - erik-johannes-husom
+- karthik-shivashankar
 - sagar-sen
 - viggo-tellefsen-wivestad
 projects:

@@ -1,38 +1,37 @@
 ---
-published: false
 type: person
 slug: abdolrahim-tooranian
-permalink: /people/abdolrahim-tooranian/
 name: Abdolrahim Tooranian
 title: Abdolrahim Tooranian
-position: null
+position: PhD candidate
 department: null
-institution: null
-institutions: []
-affiliation_units: []
-nva_affiliations: []
+institution: ostfold-university-college
+institutions:
+- ostfold-university-college
 projects: []
-wps: []
 roles:
 - Member
 urls:
   personal_website: https://isole-01.github.io/
-  institutional_website: null
-  github: null
-  linkedin: null
+  institutional_website: ''
+  github: ''
+  linkedin: ''
   orcid: https://orcid.org/0009-0004-8697-876X
-  nva: null
-  wikidata: null
-  youtube: null
-  facebook: null
-  mastodon: null
-  instagram: null
+  nva: ''
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
+  wikidata: ''
 aliases: []
 tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
 summary: null
+published: false
+permalink: /people/abdolrahim-tooranian/
+wps: []
 ---
 
 Bio.

@@ -26,7 +26,7 @@ roles:
 - Member
 urls:
   personal_website: https://cerdem.ooo/
-  institutional_website: https://people.uio.no/cagrie
+  institutional_website: http://cagrierdem.net
   github: https://github.com/cerdemo
   linkedin: https://www.linkedin.com/in/cagrierdem/
   orcid: https://orcid.org/0000-0003-2632-6829

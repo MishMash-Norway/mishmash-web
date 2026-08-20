@@ -18,12 +18,14 @@ people:
 - david-rych
 - gabriele-de-seta
 - hans-skaug
+- jane-sverdrupsen
 - jason-nelson
 - jostein-gundersen
 - juan-vassallo
 - lars-nyre
 - luz-maria-sanchez-cardona
 - oystein-skaar
+- stylianos-dimou
 - thomas-de-ridder
 - trond-lossius
 projects:
