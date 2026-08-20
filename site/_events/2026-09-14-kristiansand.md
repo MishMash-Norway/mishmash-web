@@ -37,10 +37,10 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | 12:45 | Lunch with poster presentations, clustered around eight themes: Human-AI interaction & perception; Heritage, archives & collections; Music making & AI; Understanding and testing AI; AI in education; AI for health & wellbeing; Artistic research & creative works; Responsible AI & critical futures |
 | 14:00 | Seven parallel tracks. Detailed titles follow soon. Topics include the interaction between humans and technology in dynamic performances; AI, artistic integrity and human aesthetics; AI in (music) therapy and education; cultural heritage; creative and cultural industries; and the algorithmic, personal and societal challenges of AI and human creativity. |
 | 15:30 | Poster presentations continue, clustered around the eight themes listed above |
-| 16:15 | **KEYNOTE:** Speaker to be confirmed |
-| 17:00 | Plenary closing session: setting the agenda for the near future and closing statements |
-| 17:45 | End of the daytime programme |
-| 19:00 | **MishMash LIVE:** social event with food, drinks and inspiration |
+| 16:15 | to be confirmed |
+| 16:30 | Plenary closing session: setting the agenda for the near future and closing statements |
+| 17:30 | End of the daytime programme |
+| 18:30 | **MishMash LIVE:** social event with food, drinks and inspiration |
 | 23:00 | End of the Monday programme |
 
 ### Tuesday, September 15th
