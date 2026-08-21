@@ -12,7 +12,7 @@ slug: "kristiansand2026"
 
 The MishMash opening conference showcases frameworks and examples based on the three approaches of the centre. It features discussions between researchers from multiple backgrounds, from the perspectives of machines, humans and society and covering a wide range of creative fields and cross-sectoral applications of creativity.
 
-Do you want to attend? Please register through the <a class="button" href="https://kilden.com/program/47818-opening-conference-of-the-mishmash-centre-for-artificial-intelligence-and-creativity/">Conference registration page</a>
+Do you want to attend? Please register through the <a class="button" href="https://event.checkin.no/224377/mishmash-opening-conference">Conference registration page</a>
 
 ## Interdisciplinary research on AI in cultural & creative ecosystems
 
@@ -71,6 +71,6 @@ The MishMash Opening Conference is organised back to back with Tech:Art at Kilde
 
 ## Registration
 
-<a class="button" href="https://kilden.com/program/47818-opening-conference-of-the-mishmash-centre-for-artificial-intelligence-and-creativity/">Register here for the conference</a>
+<a class="button" href="https://event.checkin.no/224377/mishmash-opening-conference">Register here for the conference</a>
 
 - Deadline: 7 September 2026
