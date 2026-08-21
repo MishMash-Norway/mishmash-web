@@ -12,7 +12,7 @@ slug: "kristiansand2026"
 
 The [MishMash opening conference](https://kilden.com/program/47818-opening-conference-of-the-mishmash-centre-for-artificial-intelligence-and-creativity/) showcases frameworks and examples based on the three approaches of the centre. It features discussions between researchers from multiple backgrounds, from the perspectives of machines, humans and society.
 
-<a class="button" href="https://kilden.com/program/47818-opening-conference-of-the-mishmash-centre-for-artificial-intelligence-and-creativity/">Read more and Register</a>
+<a class="button" href="https://kilden.com/program/47818-opening-conference-of-the-mishmash-centre-for-artificial-intelligence-and-creativity/">Conference registration page</a>
 
 ## Interdisciplinary research on AI in cultural & creative ecosystems
 
@@ -69,11 +69,8 @@ We meet in Southern Norway, in the heart of Kristiansand’s modern cultural dis
 ## Back to back with Tech:Art on Tuesday
 The MishMash Opening Conference is organised back to back with Tech:Art at Kilden performing arts centre. Tech:Art, on Tuesday the 15th of September, focuses on the interaction between research and cultural and creative partners. It is aimed at inspiring organisations in the cultural field and facilitating dialogue between these organisations and researchers. Stay around for Tech:Art to discuss opportunities for (artistic) researchers, technology developers and the creative organisations to co-create!
 
-## Poster presentations
-Researchers are invited to submit an abstract for presentation at the conference in the form of a poster presentation. We invite practice-oriented and theoretical work, both fully completed research projects and research-in-progress. The poster presentations are an excellent opportunity to meet other researchers and collect feedback on your work. 
-
 ## Registration
 
-<a class="button" href="https://kilden.com/program/47818-opening-conference-of-the-mishmash-centre-for-artificial-intelligence-and-creativity/">Read more and Register</a>
+<a class="button" href="https://kilden.com/program/47818-opening-conference-of-the-mishmash-centre-for-artificial-intelligence-and-creativity/">Register here for the conference</a>
 
 - Deadline: 7 September 2026
