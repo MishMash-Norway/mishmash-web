@@ -34,9 +34,9 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | 10:30 | **KEYNOTE:** Prof. Jane C. Ginsburg, Professor of Literary and Artistic Property Law at Columbia University School of Law |
 | 11:15 | Plenary introductions: Humans, Machines, Society |
 | 11:30 | Three parallel tracks around the themes Humans, Machines, Society |
-| 12:45 | Lunch with poster presentations, clustered around eight themes: Human-AI interaction & perception; Heritage, archives & collections; Music making & AI; Understanding and testing AI; AI in education; AI for health & wellbeing; Artistic research & creative works; Responsible AI & critical futures |
+| 12:45 | Lunch with poster presentations, clustered around eight themes: <br>- Human-AI interaction & perception <br>- Heritage, archives & collections <br>- Music making & AI <br>- Understanding and testing AI <br>- AI in education <br>- AI for health & wellbeing <br>- Artistic research & creative works <br>- Responsible AI & critical futures |
 | 14:00 | Seven parallel tracks: <br>- Machine agency, shared autonomy, and expressive generative models: perspectives on creative performance with AI <br>- Aesthetic Intelligence: Showcasing AI in Artistic Processes <br>- But what is “health” and what do creative uses of AI have to do with it? <br>- Press Start to Generate: AI in Game Development Education <br>- Solutions and Opportunities Across the Creative Value Chain <br>- From Collections to Connections: Responsible AI for Cultural Heritage <br>- How can MishMash partners collaborate in and through education?|
-| 15:30 | Poster presentations continue, clustered around the eight themes listed above |
+| 15:30 | Poster presentations continue, clustered around the eight themes: <br>- Human-AI interaction & perception <br>- Heritage, archives & collections <br>- Music making & AI <br>- Understanding and testing AI <br>- AI in education <br>- AI for health & wellbeing <br>- Artistic research & creative works <br>- Responsible AI & critical futures  |
 | 16:15 | to be confirmed |
 | 16:30 | Plenary closing session: setting the agenda for the near future and closing statements |
 | 17:30 | End of the daytime programme |
