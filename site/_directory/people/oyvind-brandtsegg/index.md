@@ -19,10 +19,10 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://oyvinbra.folk.ntnu.no/portfolio/projects/
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0000-0001-9152-9193
   nva: https://nva.sikt.no/research-profile/37022
   youtube: ''
   facebook: ''
@@ -48,6 +48,111 @@ search_keywords:
 - Artificial Intelligence
 - Music Technology
 selected_works:
+- title: Kunstig Intelligens i Katedralen
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://olavsfest.no/arrangement/kunstig-intelligens-i-katedralen-apningskonsert-2026/
+  contributors:
+  - name: Øyvind Brandtsegg
+    role: Composer
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Daniel Buner Formo
+    role: Composer
+  - name: Andreas Bergsland
+    role: Composer
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Petra Bjørkhaug
+    role: Composer
+  - name: Anna Thu Schmidt
+    role: RoleOther
+  - name: Dag Aakre
+    role: RoleOther
+  - name: Pekka Stokke
+    role: RoleOther
+- title: 'SHORES: Where Land, Water and People Meet'
+  year: '2026'
+  source: Other artistic output
+  group_type: Other artistic output
+  url: https://kunsthalltrondheim.no/en/utstillinger/shores-der-land-vann-og-mennesker-motes
+  contributors:
+  - name: Jônatas Manzolli
+    role: RoleOther
+  - name: Jasmine Karimova
+    role: RoleOther
+  - name: Carlos Correia
+    role: RoleOther
+  - name: Øyvind Brandtsegg
+    role: RoleOther
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Heather Frasch
+    role: RoleOther
+- title: 'ShoreScapes: Edges Where Sound Lingers'
+  year: '2026'
+  source: Other artistic output
+  group_type: Other artistic output
+  url: https://shores.pt/first-shores-residency-in-aveiro/
+  contributors:
+  - name: Jônatas Manzolli
+    role: RoleOther
+  - name: Øyvind Brandtsegg
+    role: RoleOther
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Henrique Portovedo
+    role: RoleOther
+  - name: Helena Marinho
+    role: RoleOther
+- title: Waves / ØYA
+  year: '2026'
+  source: Performing arts
+  group_type: Performing arts
+  url: https://www.facebook.com/events/1048885834475930
+  contributors:
+  - name: Anna Thu Schmidt
+    role: Dancer
+  - name: Øyvind Brandtsegg
+    role: SoundDesigner
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+- title: In Defense of Self
+  year: '2026'
+  source: Film or video
+  group_type: Film or video
+  url: https://www.imdb.com/title/tt40560697/?ref_=ttfc_ov_bk
+  contributors:
+  - name: Linn Helene Løken
+    role: Director
+  - name: Audun Kvitland Røstad
+    role: SoundDesigner
+    slug: audun-kvitland-rostad
+    url: /people/audun-kvitland-rostad/
+  - name: Øyvind Brandtsegg
+    role: RoleOther
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Kim Thanh Ngo
+    role: RoleOther
+- title: 'Transvariations: Radical Interpretations of a Classical Piece by Means of
+    Live Audio Processing'
+  year: '2026'
+  source: Non-fiction chapter
+  group_type: Non-fiction chapter
+  url: https://www.routledge.com/Innovation-in-Music-Innovative-Creative-Practice/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757834
+  contributors:
+  - name: Øyvind Brandtsegg
+    role: Creator
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Trond Engum
+    role: Creator
+  - name: Alfonso Benetti
+    role: Creator
+  - name: Francisco Monteiro
+    role: Creator
 - title: Persistent Disequilibrium
   year: '2025'
   source: Other artistic output
@@ -111,84 +216,6 @@ selected_works:
   - name: Alfonso Benetti
     role: Composer
   - name: Francisco Monteiro
-    role: Composer
-- title: Organotopia, film
-  year: '2024'
-  source: Film or video
-  group_type: Film or video
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: AcademicCoordinator
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Nils Henrik Asheim
-    role: AcademicCoordinator
-  - name: Reidar Ewing
-    role: AcademicCoordinator
-- title: TransVariations – Music beyond the limits of time and technology.
-  year: '2024'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: Composer
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Trond Engum
-    role: Composer
-  - name: Alfonso Benetti
-    role: Composer
-  - name: Francisco Monteiro
-    role: Composer
-- title: Lyden fra dypet
-  year: '2023'
-  source: Non-fiction chapter
-  group_type: Non-fiction chapter
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: Creator
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-- title: Ocean's Disequilibrium
-  year: '2023'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: Composer
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Joel Olof Vide Hynsjø
-    role: Artist
-- title: The Not Even Remotely Dead Cats - in Copenhagen
-  year: '2023'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: Artist
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Helena Marinho
-    role: Artist
-  - name: Rui Penha
-    role: Artist
-  - name: Bruno Pereira
-    role: Artist
-- title: Transvariations 2023
-  year: '2023'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: Composer
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Trond Engum
-    role: Composer
-  - name: Alfonso Benetti
-    role: Composer
-  - name: Monteiro Francisco
     role: Composer
 source_mentions: []
 summary: ''

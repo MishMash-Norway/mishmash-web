@@ -28,7 +28,25 @@ urls:
 aliases: []
 tags: []
 search_keywords: []
-selected_works: []
+selected_works:
+- title: In Defense of Self
+  year: '2026'
+  source: Film or video
+  group_type: Film or video
+  url: https://www.imdb.com/title/tt40560697/?ref_=ttfc_ov_bk
+  contributors:
+  - name: Linn Helene Løken
+    role: Director
+  - name: Audun Kvitland Røstad
+    role: SoundDesigner
+    slug: audun-kvitland-rostad
+    url: /people/audun-kvitland-rostad/
+  - name: Øyvind Brandtsegg
+    role: RoleOther
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Kim Thanh Ngo
+    role: RoleOther
 source_mentions: []
 summary: ''
 description: Super Ponni

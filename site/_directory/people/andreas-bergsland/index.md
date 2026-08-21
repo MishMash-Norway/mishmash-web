@@ -42,6 +42,30 @@ search_keywords:
 - Interactive Systems
 - Music Technology
 selected_works:
+- title: Kunstig Intelligens i Katedralen
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://olavsfest.no/arrangement/kunstig-intelligens-i-katedralen-apningskonsert-2026/
+  contributors:
+  - name: Øyvind Brandtsegg
+    role: Composer
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Daniel Buner Formo
+    role: Composer
+  - name: Andreas Bergsland
+    role: Composer
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Petra Bjørkhaug
+    role: Composer
+  - name: Anna Thu Schmidt
+    role: RoleOther
+  - name: Dag Aakre
+    role: RoleOther
+  - name: Pekka Stokke
+    role: RoleOther
 - title: Facilitating the Development of Interactive Wheelchair Sonifications
   year: '2026'
   source: Book chapter
@@ -156,16 +180,6 @@ selected_works:
     role: Creator
   - name: Stefan Geiger
     role: Creator
-- title: Dance phrase onsets and endings in an interactive dance study
-  year: '2022'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/3561212.3561242
-  contributors:
-  - name: Andreas Bergsland
-    role: Creator
-    slug: andreas-bergsland
-    url: /people/andreas-bergsland/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: Andreas Bergsland completed a PhD in music technology/systematic musicology

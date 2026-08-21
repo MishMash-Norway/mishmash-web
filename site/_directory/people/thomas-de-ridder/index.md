@@ -14,10 +14,10 @@ roles:
 - Research Advisor
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www4.uib.no/en/find-employees/thomas.de-ridder
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0009-0008-9635-9056
   nva: https://nva.sikt.no/research-profile/51122
   youtube: ''
   facebook: ''

@@ -28,6 +28,20 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Transnational identities in the European labour market: a multilingual perspective'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1504/EJIM.2022.10059206
+  contributors:
+  - name: Anne Kari Bjørge
+    role: Creator
+  - name: Sanda Tomescu-Baciu
+    role: Creator
+  - name: Sunniva Whittaker
+    role: Creator
+    slug: sunniva-whittaker
+    url: /people/sunniva-whittaker/
 - title: 'Student perspectives on future careers: What is the role of languages? A
     Romanian case study.'
   year: '2020'
@@ -137,18 +151,6 @@ selected_works:
     url: /people/sunniva-whittaker/
   - name: Jan Roald
     role: Creator
-- title: The Bergen translation corpus TK-NHH – design and applications
-  year: '2013'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.15845/bells.v3i1.364
-  contributors:
-  - name: Ingrid Simonnæs
-    role: Creator
-  - name: Sunniva Whittaker
-    role: Creator
-    slug: sunniva-whittaker
-    url: /people/sunniva-whittaker/
 source_mentions:
 - about/organisation/board/index.md
 summary: ''
