@@ -2,6 +2,22 @@
 # Keep dates in ISO format (YYYY-MM-DD).
 # Use lang: en or lang: nb to control which language version of the site shows each entry.
 
+- date: 2026-08-21
+  lang: en
+  url: https://ateliernord.no/project/atelier-nord-residency/?lang=en
+  og_image: https://newateliernord.imgix.net/Instagram_Bilde-2-scaled.png?fm=jpg&q=60&w=1800
+  title: "Atelier Nord Residency: Norway's First Research Residency for AI and Artistic Exploration"
+  description: "Atelier Nord establishes Norway's first research residency for artistic exploration of artificial intelligence as an environment. Applications open for three six-month artist residencies from January 2027 to June 2028."
+  partner: Atelier Nord
+
+- date: 2026-08-21
+  lang: nb
+  url: https://ateliernord.no/project/atelier-nord-residency/
+  og_image: https://newateliernord.imgix.net/Instagram_Bilde-2-scaled.png?fm=jpg&q=60&w=1800
+  title: "Atelier Nord Residency: Norges første kunstneroppholdsprogram for kunstnerisk utforskning av KI"
+  description: "Atelier Nord etablerer Norges første forskningsopphold for kunstnerisk utforskning av kunstig intelligens som miljø. Søknad åpent for tre kunstneropphold på seks måneder hver fra januar 2027 til juni 2028."
+  partner: Atelier Nord
+
 - date: 2025-06-27
   lang: en
   url: https://www4.uib.no/en/about-uib/featured/kmd-takes-on-a-key-role-in-national-centre-for-ai-and-creativity
