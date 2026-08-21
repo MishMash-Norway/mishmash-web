@@ -37,10 +37,10 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | 12:45 | **LUNCH** with **poster presentations**, clustered around eight themes: <br>- Human-AI interaction & perception <br>- Heritage, archives & collections <br>- Music making & AI <br>- Understanding and testing AI <br>- AI in education <br>- AI for health & wellbeing <br>- Artistic research & creative works <br>- Responsible AI & critical futures |
 | 14:00 | Seven **parallel tracks:** <br>- Machine agency, shared autonomy, and expressive generative models: perspectives on creative performance with AI <br>- Aesthetic Intelligence: Showcasing AI in Artistic Processes <br>- But what is “health” and what do creative uses of AI have to do with it? <br>- Press Start to Generate: AI in Game Development Education <br>- Solutions and Opportunities Across the Creative Value Chain <br>- From Collections to Connections: Responsible AI for Cultural Heritage <br>- How can MishMash partners collaborate in and through education?|
 | 15:30 | **Poster presentations** continue, clustered around the eight themes: <br>- Human-AI interaction & perception <br>- Heritage, archives & collections <br>- Music making & AI <br>- Understanding and testing AI <br>- AI in education <br>- AI for health & wellbeing <br>- Artistic research & creative works <br>- Responsible AI & critical futures  |
-| 16:15 | to be confirmed |
+| 16:15 | To be announced |
 | 16:30 | Plenary closing session: setting the agenda for the near future and closing statements |
 | 17:30 | End of the daytime programme |
-| 18:30 | **MishMash LIVE:** social event with food, drinks and inspiration |
+| 18:30 | **MishMash LIVE:** A mini festival of exploration around AI & Creativity: food, drinks and inspiration <br>-showcases of arts installations <br>- brief talks and Q&As <br>- the best local food and drinks from Sørlandet|
 | 23:00 | End of the Monday programme |
 
 ### Tuesday, September 15th
@@ -48,9 +48,20 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | Time | Programme |
 | --- | --- |
 | 08:30 | MishMash Work Package meetings (closed, invite-only) |
-| 10:00 | Opening of TechArt. See the [separate TechArt page](https://kilden.com/program/47927-tech-art/) for details of the daytime programme. |
+| 10:00 | Opening of day 2: MishMash in co-operation with TechArt |
+| 10:10 | **KEYNOTE:** Gerfried Stocker (Ars Electronica), with Q&A |
+| 10:50 | The use of new technologies in cultural practice: Det Norske Teater & NRK |
+| 11:10 | Expert statement Prof. Jane C. Ginsburg, Professor of Literary and Artistic Property Law at Columbia University School of Law, on practical implications of rights and ownership in artistic work |
+| 11:30 | Research in practice: insights from MishMash Centre for AI & Creativity |
+| 12:30 | Lunch|
+| 13:15 | Norwegian cultural sectors spotlight: Kilden, Det Norske Teater, and others |
+| 14:00 | **KEYNOTE:** Sarah Ellis, Royal Shakespeare Company, with Q&A and reflections from the sector |
+| 15:00 | Break |
+| 15:15 | To be announced |
+| 16:00 | Performance (to be announced) |
+| 16:15 | Take-aways and closing statements |
 | 18:30 | _MishMash invites to_ the MishMash Opening Conference **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element |
-| 23:00 | End of the conference |
+| 22:30 | End of the conference |
 
 ## Inspiring environment
 We meet in Southern Norway, in the heart of Kristiansand’s modern cultural district: the New York Times and TIME Magazine recognised Kunstsilo museum and the award-winning Kilden concert hall. The conference aims to create an inspiring environment for the exploration of research and artistic creation in interaction with artificial intelligence.
