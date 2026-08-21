@@ -31,7 +31,7 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | --- | --- |
 | 09:15 | Registration opens |
 | 10:00 | Central opening session |
-| 10:30 | **KEYNOTE:** Prof. Jane C. Ginsburg, Professor of Literary and Artistic Property Law at Columbia University School of Law // _Six Images in Search of an Author: Copyright, Artistic Creation and Artificial Intelligence_ |
+| 10:30 | **KEYNOTE:** Prof. Jane C. Ginsburg, Professor of Literary and Artistic Property Law at Columbia University School of Law <br>_Six Images in Search of an Author: Copyright, Artistic Creation and Artificial Intelligence_ |
 | 11:15 | Plenary introductions: Humans, Machines, Society |
 | 11:30 | Three **parallel tracks** around the themes: <br>- Humans <br>- Machines <br>- Society |
 | 12:45 | **LUNCH** with **poster presentations**, clustered around eight themes: <br>- Human-AI interaction & perception <br>- Heritage, archives & collections <br>- Music making & AI <br>- Understanding and testing AI <br>- AI in education <br>- AI for health & wellbeing <br>- Artistic research & creative works <br>- Responsible AI & critical futures |
