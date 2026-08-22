@@ -4,7 +4,7 @@ type: person
 slug: ivar-grydeland
 name: Ivar Grydeland
 title: Ivar Grydeland
-position: Associate professor
+position: Professor
 department: Fagseksjon for improvisert musikk, jazz og folkemusikk
 image: /assets/images/portraits/Ivar_Grydeland_NMH.jpg
 institution: norwegian-academy-of-music

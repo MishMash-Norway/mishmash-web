@@ -19,6 +19,10 @@ other_projects:
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
+- title: ROBOFARMER - Safe and Reliable Sensing, Learning and Control of an Autonomous
+    Multi-arm Agri-robot Platform
+  url: https://nva.sikt.no/projects/2565822
+  nva_id: '2565822'
 - title: Smart AUVs for detection and quantification of greenhouse gas seepage in
     the oceans
   url: https://nva.sikt.no/projects/2722044
