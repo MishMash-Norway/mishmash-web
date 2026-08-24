@@ -60,6 +60,11 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1007/s11031-025-10156-8
+- title: 'Conceptualising Creative Autonomy in People, AI, and Their Interaction:
+    A Scoping Review Protocol'
+  year: '2026'
+  source: Conference paper
+  group_type: Conference
 - title: 'Untapped Potential in Self-Optimization of Hopfield Networks: The Creativity
     of Unsupervised Learning'
   year: '2025'
@@ -86,10 +91,6 @@ selected_works:
   year: '2024'
   source: Conference Presentation
   group_type: Conference Presentation
-- title: Creativity and Markov Decision Processes
-  year: '2024'
-  source: Conference paper
-  group_type: Conference
 source_mentions: []
 summary: ''
 permalink: /people/christian-guckelsberger/
