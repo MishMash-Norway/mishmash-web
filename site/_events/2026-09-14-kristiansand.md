@@ -40,7 +40,7 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | 16:15 | To be announced |
 | 16:30 | Plenary closing session: setting the agenda for the near future and closing statements |
 | 17:30 | End of the daytime programme |
-| 18:30 | **MishMash LIVE:** A mini festival of exploration around AI & Creativity: food, drinks and inspiration <br>-showcases of arts installations <br>- brief talks and Q&As <br>- the best local food and drinks from Sørlandet|
+| 18:30 | **MishMash LIVE:** A mini festival of exploration around AI & Creativity: food, drinks and inspiration <br>- showcases of arts installations <br>- brief talks and Q&As <br>- the best local food and drinks from Sørlandet|
 | 23:00 | End of the Monday programme |
 
 ### Tuesday, September 15th
