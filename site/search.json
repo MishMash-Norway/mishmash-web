@@ -24,6 +24,7 @@ layout: null
       {% endif %}
       {% assign search_description = item.description | default: "" | strip_html %}
       {% assign search_content = item.content | default: item.excerpt | strip_html | truncatewords: 100 %}
+      {% assign search_categories = item.categories %}
       {% if item.type == "person" %}
         {% assign person_summary = item.summary %}
         {% assign person_inst_slug = item.institution %}
@@ -44,6 +45,7 @@ layout: null
 {% endif %}
         {% endcapture %}
         {% assign search_description = person_description | strip %}
+        {% assign search_categories = item.wps %}
         {% capture person_content %}
 {{ item.name }}
 {{ item.position }}
@@ -51,6 +53,7 @@ layout: null
 {% if person_inst %}{{ person_inst.name }}{% endif %}
 {{ item.roles | join: " " }}
 {{ item.tags | join: " " }}
+{{ item.wps | join: " " }}
 {{ item.search_keywords | join: " " }}
         {% endcapture %}
         {% assign search_content = person_content | strip %}
@@ -84,7 +87,7 @@ layout: null
         "title": {{ search_title | jsonify }},
         "url": {{ item.url | relative_url | jsonify }},
         "date": {{ item.date | date: "%Y-%m-%d" | jsonify }},
-        "categories": {{ item.categories | default: empty | jsonify }},
+        "categories": {{ search_categories | default: empty | jsonify }},
         "tags": {{ item.tags | default: empty | jsonify }},
         "roles": {{ item.roles | default: empty | jsonify }},
         "description": {{ search_description | jsonify }},
