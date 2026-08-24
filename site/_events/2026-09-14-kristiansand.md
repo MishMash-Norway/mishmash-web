@@ -67,7 +67,7 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 We meet in Southern Norway, in the heart of Kristiansand’s modern cultural district: the New York Times and TIME Magazine recognised Kunstsilo museum and the award-winning Kilden concert hall. The conference aims to create an inspiring environment for the exploration of research and artistic creation in interaction with artificial intelligence.
 
 ## Back to back with Tech:Art on Tuesday
-The MishMash Opening Conference is organised back to back with Tech:Art at Kilden performing arts centre. Tech:Art, on Tuesday the 15th of September, focuses on the interaction between research and cultural and creative partners. It is aimed at inspiring organisations in the cultural field and facilitating dialogue between these organisations and researchers. Stay around for Tech:Art to discuss opportunities for (artistic) researchers, technology developers and the creative organisations to co-create!
+The MishMash Opening Conference is organised back to back with Tech:Art at Kilden performing arts centre. Tech:Art, on Tuesday the 15th of September, focuses on the interaction between research and cultural and creative partners. It is aimed at inspiring organisations in the cultural field and facilitating dialogue between these organisations and researchers. Stay around for Tech:Art to discuss opportunities for (artistic) researchers, technology developers and creative organisations to co-create!
 
 ## Registration
 
