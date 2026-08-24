@@ -60,7 +60,7 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | 15:15 | To be announced |
 | 16:00 | Performance (to be announced) |
 | 16:15 | Take-aways and closing statements |
-| 18:30 | _MishMash invites to_ the MishMash Opening Conference **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element |
+| 18:30 | _MishMash invites to_ the MishMash Opening Conference **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element - followed by a special afterparty. |
 | 22:30 | End of the conference |
 
 ## Inspiring environment
