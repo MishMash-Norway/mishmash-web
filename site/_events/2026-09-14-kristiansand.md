@@ -12,7 +12,7 @@ slug: "kristiansand2026"
 
 The MishMash opening conference showcases frameworks and examples based on the three approaches of the centre. It features discussions between researchers from multiple backgrounds, from the perspectives of machines, humans and society and covering a wide range of creative fields and cross-sectoral applications of creativity.
 
-Do you want to attend? Please register through the <a class="button" href="https://event.checkin.no/224377/mishmash-opening-conference">Conference registration page</a>
+Do you want to attend? Please register through the <a class="button" href="https://event.checkin.no/224377/mishmash-opening-conference" target="_blank">Conference registration page</a>
 
 ## Interdisciplinary research on AI in cultural & creative ecosystems
 
@@ -27,9 +27,9 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 
 ### Monday, September 14th
 *Locations:* <br>
-- *Kilden Performing Arts Centre:* <a href="https://maps.app.goo.gl/E42n5EpejXHhox9p7">*Sjølystveien 2, Kristiansand*</a> <br>
-- *Kunstsilo:* <a class="button" href="https://maps.app.goo.gl/iGzQX8yu7fUwx1em9">*Sjølystveien 8, Kristiansand*</a> <br>
-- *Kraftverk/BARE:* <a class="button" href="https://maps.app.goo.gl/RjgJmXNJhYdCQACj7">*Skippergata 24b, Kristiansand*</a>
+- *Kilden Performing Arts Centre:* <a href="https://maps.app.goo.gl/E42n5EpejXHhox9p7" target="_blank">*Sjølystveien 2, Kristiansand*</a> <br>
+- *Kunstsilo:* <a href="https://maps.app.goo.gl/iGzQX8yu7fUwx1em9" target="_blank">*Sjølystveien 8, Kristiansand*</a> <br>
+- *Kraftverk/BARE:* <a href="https://maps.app.goo.gl/RjgJmXNJhYdCQACj7" target="_blank">*Skippergata 24b, Kristiansand*</a>
 
 | Time | Programme | Location (see above for addresses) |
 | --- | --- | --- |
@@ -49,8 +49,8 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 
 ### Tuesday, September 15th
 Locations: <br>
-- *Kilden Performing Arts Centre:* <a class="button" href="https://maps.app.goo.gl/E42n5EpejXHhox9p7">*Sjølystveien 2, Kristiansand*</a> <br>
-- *Kunstsilo:* <a class="button" href="https://maps.app.goo.gl/iGzQX8yu7fUwx1em9">*Sjølystveien 8, Kristiansand*</a>
+- *Kilden Performing Arts Centre:* <a href="https://maps.app.goo.gl/E42n5EpejXHhox9p7" target="_blank">*Sjølystveien 2, Kristiansand*</a> <br>
+- *Kunstsilo:* <a href="https://maps.app.goo.gl/iGzQX8yu7fUwx1em9" target="_blank">*Sjølystveien 8, Kristiansand*</a>
 
 | Time | Programme | Location (see above for addresses) |
 | --- | --- | --- |
@@ -78,6 +78,6 @@ The MishMash Opening Conference is organised back to back with Tech:Art at Kilde
 
 ## Registration
 
-<a class="button" href="https://event.checkin.no/224377/mishmash-opening-conference">Register here for the conference</a>
+<a class="button" href="https://event.checkin.no/224377/mishmash-opening-conference" target="_blank">Register here for the conference</a>
 
 - Deadline: 7 September 2026
