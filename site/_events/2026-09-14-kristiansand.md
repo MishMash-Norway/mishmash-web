@@ -27,7 +27,7 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 
 ### Monday, September 14th
 *Locations:* <br>
-- *Kilden Performing Arts Centre:* <a class="button" href="https://maps.app.goo.gl/E42n5EpejXHhox9p7">*Sjølystveien 2, Kristiansand*</a> <br>
+- *Kilden Performing Arts Centre:* <a href="https://maps.app.goo.gl/E42n5EpejXHhox9p7">*Sjølystveien 2, Kristiansand*</a> <br>
 - *Kunstsilo:* <a class="button" href="https://maps.app.goo.gl/iGzQX8yu7fUwx1em9">*Sjølystveien 8, Kristiansand*</a> <br>
 - *Kraftverk/BARE:* <a class="button" href="https://maps.app.goo.gl/RjgJmXNJhYdCQACj7">*Skippergata 24b, Kristiansand*</a>
 
