@@ -89,9 +89,9 @@
   entries:
   - name: AI Mission Hub Association
     url: https://aimissionhub.org/
-  #- name: AKKS Norge (In Norwegian)
-    #url: https://akks.no/
-    #name_nb: AKKS Norge
+  # - name: AKKS Norge (In Norwegian)
+    # url: https://akks.no/
+    # name_nb: AKKS Norge
   - name: Aldea — Center for Contemporary Art, Design and Technology
     url: https://aldea.art
   - name: ANNO museums
