@@ -95,9 +95,9 @@
   entries:
   - name: AI Mission Hub Association
     url: https://aimissionhub.org/
-  # - name: AKKS Norge (In Norwegian)
-   # url: https://akks.no/
-   # name_nb: AKKS Norge
+# - name: AKKS Norge (In Norwegian)
+  # url: https://akks.no/
+  # name_nb: AKKS Norge
   - name: Aldea — Center for Contemporary Art, Design and Technology
     url: https://aldea.art
   - name: ANNO museums
@@ -107,78 +107,78 @@
   - name: Atelier Nord
     url: https://ateliernord.no/?lang=en
     url_nb: https://ateliernord.no/
- # - name: BEK
-   # url: https://bek.no/en/
-   # url_nb: https://bek.no/
+# - name: BEK
+  # url: https://bek.no/en/
+  # url_nb: https://bek.no/
   - name: Bergen International Festival
     url: https://www.fib.no/en
     name_nb: Festspillene i Bergen
     url_nb: https://www.fib.no/
- # - name: Borealis
-   # url: https://www.borealisfestival.no/en/home/
-   # url_nb: https://www.borealisfestival.no/
+# - name: Borealis
+  # url: https://www.borealisfestival.no/en/home/
+  # url_nb: https://www.borealisfestival.no/
   - name: Cultiva
     url: https://www.cultiva.no/en/
     url_nb: https://www.cultiva.no/
   - name: DHKO Norwegian network for digital humanities and cultural organization
     url: https://dhko.no/en
     url_nb: https://dhko.no
- # - name: Fynd Reality AS
-   # url: https://www.fyndreality.com/
- # - name: GramArt (In Norwegian)
-   # url: https://www.gramart.no/
-   # name_nb: GramArt
- # - name: GRAMO
-   # url: https://en.gramo.no/
-   # url_nb: https://no.gramo.no/
- # - name: Halogen AS
-   # url: https://halogen.no/en/
-   # url_nb: https://halogen.no/
- # - name: Hamarregionen utvikling
-   # url: https://hamarregionen.no/move-to-the-hamar-region/
-   # url_nb: https://hamarregionen.no/
- # - name: HelseINN (In Norwegian)
-   # url: https://helseinn.no/
-   # name_nb: HelseINN
+# - name: Fynd Reality AS
+  # url: https://www.fyndreality.com/
+# - name: GramArt (In Norwegian)
+  # url: https://www.gramart.no/
+  # name_nb: GramArt
+# - name: GRAMO
+  # url: https://en.gramo.no/
+  # url_nb: https://no.gramo.no/
+# - name: Halogen AS
+  # url: https://halogen.no/en/
+  # url_nb: https://halogen.no/
+# - name: Hamarregionen utvikling
+  # url: https://hamarregionen.no/move-to-the-hamar-region/
+  # url_nb: https://hamarregionen.no/
+# - name: HelseINN (In Norwegian)
+  # url: https://helseinn.no/
+  # name_nb: HelseINN
    - name: Human Learning Lab
      url: https://www.humanlearninglab.com/
    - name: i/o/lab
      url: https://iolab.no/
- # - name: JM Norway
-   # url: https://www.jmn.no/eng
-   # name_nb: JM Norge
-   # url_nb: https://www.jmn.no/
+# - name: JM Norway
+  # url: https://www.jmn.no/eng
+  # name_nb: JM Norge
+  # url_nb: https://www.jmn.no/
   - name: Kilden Performing Arts Centre
     url: https://kilden.com/en/
     url_nb: https://kilden.com/
- # - name: KODE Bergen Art Museum
-   # url: https://www.kodebergen.no/en
-   # name_nb: KODE Kunstmuseer og komponisthjem
-   # url_nb: https://www.kodebergen.no/
+# - name: KODE Bergen Art Museum
+  # url: https://www.kodebergen.no/en
+  # name_nb: KODE Kunstmuseer og komponisthjem
+  # url_nb: https://www.kodebergen.no/
   - name: Kunstsilo
     url: https://www.kunstsilo.no/en
     url_nb: https://www.kunstsilo.no/
   - name: Kulturskolerådet (In Norwegian)
     url: https://kulturskoleradet.no/
     name_nb: Kulturskolerådet
- # - name: Kulturtanken (In Norwegian)
-   # url: https://www.kulturtanken.no/
-   # name_nb: Kulturtanken
+# - name: Kulturtanken (In Norwegian)
+  # url: https://www.kulturtanken.no/
+  # name_nb: Kulturtanken
   - name: Media Cluster Norway AS
     url: https://mediacitybergen.no/
-#  - name: Multikjetil AS
+# - name: Multikjetil AS
   - name: Musikk i skolen
     url: https://musikkiskolen.no
   - name: Muzziball
     url: https://muzziball.no/en/home-en/
     url_nb: https://muzziball.no/
-#  - name: Nasjonalmuseet
-  #  url: https://www.nasjonalmuseet.no/en/
-  #  url_nb: https://www.nasjonalmuseet.no/
- # - name: Norwegian Centre for Arts and Culture in Education (NCACE)
-   # url: https://kunstkultursenteret.no/english/
-   # name_nb: Nasjonalt senter for kunst og kultur i opplæringen (KKS)
-   # url_nb: https://kunstkultursenteret.no/
+# - name: Nasjonalmuseet
+  # url: https://www.nasjonalmuseet.no/en/
+  # url_nb: https://www.nasjonalmuseet.no/
+# - name: Norwegian Centre for Arts and Culture in Education (NCACE)
+  # url: https://kunstkultursenteret.no/english/
+  # name_nb: Nasjonalt senter for kunst og kultur i opplæringen (KKS)
+  # url_nb: https://kunstkultursenteret.no/
   - name: Rockheim og Ringve Musikkmuseum (MIST)
     url: https://mist.no/en
     url_nb: https://mist.no/
@@ -189,53 +189,53 @@
     url: https://nopa.no/english/
     name_nb: NOPA
     url_nb: https://nopa.no/
- # - name: Norwegian AI Cloud (NAIC)
-   # url: https://www.naic.no/english/
-   # url_nb: https://www.naic.no/
- # - name: Norwegian Broadcasting Corporation (NRK) (In Norwegian)
-   # url: https://www.nrk.no/
-   # name_nb: NRK
-#  - name: Oslo Kreativ AI (OKAI)
-   # url: https://www.kreativai.no/
+# - name: Norwegian AI Cloud (NAIC)
+  # url: https://www.naic.no/english/
+  # url_nb: https://www.naic.no/
+# - name: Norwegian Broadcasting Corporation (NRK) (In Norwegian)
+  # url: https://www.nrk.no/
+  # name_nb: NRK
+# - name: Oslo Kreativ AI (OKAI)
+  # url: https://www.kreativai.no/
   - name: Pahn - Performing arts hub Norway
     url: https://english.pahn.no/
     name_nb: Pahn Senter for scenekunst Norge
     url_nb: https://www.pahn.no/
- # - name: Polyfon
-   # url: https://polyfon.no/en_US/
-   # url_nb: https://polyfon.no/
+# - name: Polyfon
+  # url: https://polyfon.no/en_US/
+  # url_nb: https://polyfon.no/
   - name: PUNKT
     url: https://punktfestival.no/
   - name: Reimagine AS
     url: https://reimagine.no/
- # - name: Sarepta Studio AS
-   # url: https://sareptastudio.com/
+# - name: Sarepta Studio AS
+  # url: https://sareptastudio.com/
   - name: Skapia (In Norwegian)
     url: https://skapia.no/
     name_nb: Skapia
- # - name: Skolene i Innlandet (In Norwegian)
-   # url: https://innlandetfylke.no/
-   # name_nb: Skolene i Innlandet
+# - name: Skolene i Innlandet (In Norwegian)
+  # url: https://innlandetfylke.no/
+  # name_nb: Skolene i Innlandet
   - name: StoryPhone AS (In Norwegian)
     url: https://www.storyphone.no/
     name_nb: StoryPhone AS
- # - name: Oslo Science Centre
-   # url: https://www.tekniskmuseum.no/en/
-   # name_nb: Oslo vitensenter
-   # url_nb: https://www.tekniskmuseum.no/
+# - name: Oslo Science Centre
+  # url: https://www.tekniskmuseum.no/en/
+  # name_nb: Oslo vitensenter
+  # url_nb: https://www.tekniskmuseum.no/
   - name: TEKS - Trondheim Electronic Arts Centre
     url: https://teks.no/
- # - name: TONO
-   # url: https://www.tono.no/en/
-   # url_nb: https://www.tono.no/
- # - name: Ultima – Oslo Contemporary Music Festival
-   # url: https://www.ultima.no/en/
-   # name_nb: Ultima – Oslo samtidsmusikkfestival
-   # url_nb: https://www.ultima.no/
- # - name: Vest‐Agder Museum
-   # url: https://www.vestagdermuseet.no/
-   # name_nb: Vest-Agder-museet
- # - name: VRINN
-   # url: https://vrinn.no/
+# - name: TONO
+  # url: https://www.tono.no/en/
+  # url_nb: https://www.tono.no/
+# - name: Ultima – Oslo Contemporary Music Festival
+  # url: https://www.ultima.no/en/
+  # name_nb: Ultima – Oslo samtidsmusikkfestival
+  # url_nb: https://www.ultima.no/
+# - name: Vest‐Agder Museum
+  # url: https://www.vestagdermuseet.no/
+  # name_nb: Vest-Agder-museet
+# - name: VRINN
+  # url: https://vrinn.no/
   - name: Østfoldsmuseene
     url: https://ostfoldmuseene.no
