@@ -26,10 +26,11 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 *Subject to changes. The full programme is published in the week before the conference.*
 
 ### Monday, September 14th
-_Locations: <br>
+*Locations: <br>
 - Kilden Performing Arts Centre: <a class="button" href="https://maps.app.goo.gl/E42n5EpejXHhox9p7">Sjølystveien 2, Kristiansand</a> <br>
 - Kunstsilo: <a class="button" href="https://maps.app.goo.gl/iGzQX8yu7fUwx1em9">Sjølystveien 8, Kristiansand</a> <br>
-- Kraftverk/BARE: <a class="button" href="https://maps.app.goo.gl/RjgJmXNJhYdCQACj7">Skippergata 24b, Kristiansand</a> _
+- Kraftverk/BARE: <a class="button" href="https://maps.app.goo.gl/RjgJmXNJhYdCQACj7">Skippergata 24b, Kristiansand</a> *
+
 | Time | Programme | Location (see above for addresses) |
 | --- | --- | --- |
 | 09:15 | Registration opens | Kilden |
@@ -47,9 +48,10 @@ _Locations: <br>
 | 23:00 | End of the Monday programme | Kraftverk/BARE |
 
 ### Tuesday, September 15th
-_Locations: <br>
+*Locations: <br>
 - Kilden Performing Arts Centre: <a class="button" href="https://maps.app.goo.gl/E42n5EpejXHhox9p7">Sjølystveien 2, Kristiansand</a> <br>
-- Kunstsilo: <a class="button" href="https://maps.app.goo.gl/iGzQX8yu7fUwx1em9">Sjølystveien 8, Kristiansand</a> _
+- Kunstsilo: <a class="button" href="https://maps.app.goo.gl/iGzQX8yu7fUwx1em9">Sjølystveien 8, Kristiansand</a> *
+
 | Time | Programme | Location (see above for addresses) |
 | --- | --- | --- |
 | 08:30 | MishMash Work Package meetings (closed, invite-only) | see invitation (for WP members only) |
