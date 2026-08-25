@@ -140,10 +140,10 @@
 # - name: HelseINN (In Norwegian)
   # url: https://helseinn.no/
   # name_nb: HelseINN
-   - name: Human Learning Lab
-     url: https://www.humanlearninglab.com/
-   - name: i/o/lab
-     url: https://iolab.no/
+  - name: Human Learning Lab
+    url: https://www.humanlearninglab.com/
+  - name: i/o/lab
+    url: https://iolab.no/
 # - name: JM Norway
   # url: https://www.jmn.no/eng
   # name_nb: JM Norge
