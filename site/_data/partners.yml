@@ -11,7 +11,7 @@
     url: https://www.bi.edu/
     name_nb: Handelshøyskolen BI
     url_nb: https://www.bi.no/
-  - name: Østfold University College (HiØ)
+  - name: Østfold University of Applied Sciences (HiØ)
     url: https://www.hiof.no/english/
     name_nb: Høgskolen i Østfold (HiØ)
     url_nb: https://www.hiof.no/
@@ -19,6 +19,10 @@
     url: https://www.hvl.no/en/
     name_nb: Høgskulen på Vestlandet (HVL)
     url_nb: https://www.hvl.no/
+  - name: Institute for Energy Technology (IFE)
+    url: https://ife.no/en/front-page/
+    name_nb: Institutt for energiteknikk (IFE)
+    url_nb: https://www.ife.no
   - name: University of Inland Norway (INN)
     url: https://www.inn.no/english/
     name_nb: Universitetet i Innlandet (INN)
@@ -27,7 +31,7 @@
     url: https://khio.no/en
     name_nb: Kunsthøgskolen i Oslo (KHiO)
     url_nb: https://khio.no
-  - name: Kristiania University College (Kristiania)
+  - name: Kristiania University of Applied Sciences (Kristiania)
     url: https://www.kristiania.no/en/
     name_nb: Høyskolen Kristiania
     url_nb: https://www.kristiania.no/
