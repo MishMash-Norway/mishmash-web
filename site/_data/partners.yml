@@ -92,8 +92,12 @@
   #- name: AKKS Norge (In Norwegian)
     url: https://akks.no/
     name_nb: AKKS Norge
-  - name: ANNO
+  - name: Aldea — Center for Contemporary Art, Design and Technology
+    url: https://aldea.art
+  - name: ANNO museums
     url: https://annomuseum.no/en
+    name_nb: Anno museum
+    url_https://annomuseum.no
   - name: Atelier Nord
     url: https://ateliernord.no/?lang=en
     url_nb: https://ateliernord.no/
