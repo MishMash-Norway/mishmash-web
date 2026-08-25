@@ -1,6 +1,12 @@
 # Partner organisations shown on the front pages (EN and NB).
 # Each entry: name/url (English), with name_nb/url_nb overrides where the
 # Norwegian front page differs. Rendered by _includes/partner-list.html.
+
+# - name: 
+#    url: 
+#    name_nb: 
+#    url_nb: 
+
 - key: research
   entries:
   - name: The Oslo School of Architecture and Design (AHO)
@@ -89,9 +95,9 @@
   entries:
   - name: AI Mission Hub Association
     url: https://aimissionhub.org/
-  - name: AKKS Norge (In Norwegian)
-    url: https://akks.no/
-    name_nb: AKKS Norge
+  # - name: AKKS Norge (In Norwegian)
+   # url: https://akks.no/
+   # name_nb: AKKS Norge
   - name: Aldea — Center for Contemporary Art, Design and Technology
     url: https://aldea.art
   - name: ANNO museums
@@ -101,20 +107,20 @@
   - name: Atelier Nord
     url: https://ateliernord.no/?lang=en
     url_nb: https://ateliernord.no/
-  - name: BEK
-    url: https://bek.no/en/
-    url_nb: https://bek.no/
+ # - name: BEK
+   # url: https://bek.no/en/
+   # url_nb: https://bek.no/
   - name: Bergen International Festival
     url: https://www.fib.no/en
-    name_nb: Bergen internasjonale festival
+    name_nb: Festspillene i Bergen
     url_nb: https://www.fib.no/
-  - name: Borealis
-    url: https://www.borealisfestival.no/en/home/
-    url_nb: https://www.borealisfestival.no/
+ # - name: Borealis
+   # url: https://www.borealisfestival.no/en/home/
+   # url_nb: https://www.borealisfestival.no/
   - name: Cultiva
     url: https://www.cultiva.no/en/
     url_nb: https://www.cultiva.no/
-  - name: DHKO
+  - name: DHKO Norwegian network for digital humanities and cultural organization
     url: https://dhko.no/en
     url_nb: https://dhko.no
   - name: Fynd Reality AS
