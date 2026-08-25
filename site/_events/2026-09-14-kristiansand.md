@@ -35,16 +35,16 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | --- | --- | --- |
 | 09:15 | Registration opens | Kilden |
 | 10:00 | Central opening session | Kilden |
-| 10:30 | **KEYNOTE:** Prof. Jane C. Ginsburg, Professor of Literary and Artistic Property Law at Columbia University School of Law <br>_Six Images in Search of an Author: Copyright, Artistic Creation and Artificial Intelligence_ | Kilden |
+| 10:30 | **KEYNOTE:** Prof. [Jane C. Ginsburg](https://www.law.columbia.edu/faculty/jane-c-ginsburg), Professor of Literary and Artistic Property Law at Columbia University School of Law <br>_Six Images in Search of an Author: Copyright, Artistic Creation and Artificial Intelligence_ | Kilden |
 | 11:15 | Plenary introductions: Humans, Machines, Society | Kilden |
-| 11:30 | Three **parallel tracks** around the themes: <br>- Humans <br>- Machines <br>- Society | Kunstsilo & Kilden |
-| 12:45 | **LUNCH** with **poster presentations**, clustered around eight themes: <br>- Human-AI interaction & perception <br>- Heritage, archives & collections <br>- Music making & AI <br>- Understanding and testing AI <br>- AI in education <br>- AI for health & wellbeing <br>- Artistic research & creative works <br>- Responsible AI & critical futures | Kilden |
-| 14:00 | Seven **parallel tracks:** <br>- Machine agency, shared autonomy, and expressive generative models: perspectives on **creative performance with AI** <br>- Aesthetic Intelligence: Showcasing **AI in Artistic Processes** <br>- But what is **“health”** and what do creative uses of AI have to do with it? <br>- Press Start to Generate: AI in **Game Development Education** <br>- Solutions and Opportunities Across the **Creative Value Chain** <br>- From Collections to Connections: Responsible AI for **Cultural Heritage** <br>- How can MishMash partners **collaborate in and through education**?| Kunstsilo & Kilden |
-| 15:30 | **Poster presentations** continue, clustered around the eight themes: <br>- Human-AI interaction & perception <br>- Heritage, archives & collections <br>- Music making & AI <br>- Understanding and testing AI <br>- AI in education <br>- AI for health & wellbeing <br>- Artistic research & creative works <br>- Responsible AI & critical futures  | Kilden |
+| 11:30 | Three **parallel tracks** around the themes:<br>&bull; Humans<br>&bull; Machines<br>&bull; Society | Kunstsilo & Kilden |
+| 12:45 | **LUNCH** with **poster presentations**, clustered around eight themes:<br>&bull; Human-AI interaction & perception<br>&bull; Heritage, archives & collections<br>&bull; Music making & AI<br>&bull; Understanding and testing AI<br>&bull; AI in education<br>&bull; AI for health & wellbeing<br>&bull; Artistic research & creative works<br>&bull; Responsible AI & critical futures | Kilden |
+| 14:00 | Seven **parallel tracks:**<br>&bull; Machine agency, shared autonomy, and expressive generative models: perspectives on **creative performance with AI**<br>&bull; Aesthetic Intelligence: Showcasing **AI in Artistic Processes**<br>&bull; But what is **“health”** and what do creative uses of AI have to do with it?<br>&bull; Press Start to Generate: AI in **Game Development Education**<br>&bull; Solutions and Opportunities Across the **Creative Value Chain**<br>&bull; From Collections to Connections: Responsible AI for **Cultural Heritage**<br>&bull; How can MishMash partners **collaborate in and through education**? | Kunstsilo & Kilden |
+| 15:30 | **Poster presentations** continue, clustered around the eight themes:<br>&bull; Human-AI interaction & perception<br>&bull; Heritage, archives & collections<br>&bull; Music making & AI<br>&bull; Understanding and testing AI<br>&bull; AI in education<br>&bull; AI for health & wellbeing<br>&bull; Artistic research & creative works<br>&bull; Responsible AI & critical futures | Kilden |
 | 16:15 | To be announced | Kilden |
 | 16:30 | Plenary closing session: setting the agenda for the near future and closing statements | Kilden |
 | 17:30 | End of the daytime programme | Kilden |
-| 18:30 | **MishMash LIVE:** A mini festival of exploration around AI & Creativity: food, drinks and inspiration <br>- showcases of arts installations <br>- brief talks and Q&As <br>- the best local food and drinks from Sørlandet| Kraftverk/BARE |
+| 18:30 | **MishMash LIVE:** A mini festival of exploration around AI & Creativity: food, drinks and inspiration<br>&bull; Showcases of arts installations<br>&bull; Brief talks and Q&As<br>&bull; The best local food and drinks from Sørlandet | Kraftverk/BARE |
 | 23:00 | End of the Monday programme | Kraftverk/BARE |
 
 ### Tuesday, September 15th
@@ -56,7 +56,7 @@ Locations: <br>
 | --- | --- | --- |
 | 08:30 | MishMash Work Package meetings (closed, invite-only) | invite-only |
 | 10:00 | Opening of day 2: MishMash in co-operation with TechArt | Kilden |
-| 10:10 | **KEYNOTE:** Gerfried Stocker (Ars Electronica), with Q&A | Kilden |
+| 10:10 | **KEYNOTE:** [Gerfried Stocker](https://de.wikipedia.org/wiki/Gerfried_Stocker) (Ars Electronica), with Q&A | Kilden |
 | 10:50 | The use of new technologies in cultural practice: Det Norske Teater & NRK | Kilden |
 | 11:10 | Expert statement Prof. Jane C. Ginsburg, Professor of Literary and Artistic Property Law at Columbia University School of Law, on practical implications of rights and ownership in artistic work | Kilden |
 | 11:30 | Research in practice: insights from MishMash Centre for AI & Creativity | Kilden |
