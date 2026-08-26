@@ -1,6 +1,16 @@
 # Partner Events shown on the front page.
 # Keep dates in ISO format (YYYY-MM-DD or YYYY-MM-DD HH:MM).
 
+- start_date: 2026-09-02
+  end_date: 2026-09-02
+  url: https://www.kristiania.no/en/about-kristiania/calendar/semester-kick-off-of-kristiania-ai-center-activities/
+  og_title: "Semester Kick-off of Kristiania AI center activities"
+  og_description: "Join us for the semester kick-off of the Kristiania AI Center (KAI), with insights on responsible AI followed by networking, drinks, and snacks."
+  og_image: "https://www.kristiania.no/contentassets/17b2f99c52f241899f430c19ca8e14cd/eventkalender-1250x730-mal-2_1250_730-1.jpg?width=1136&rxy=0.5,0.5"
+  partner: Kristiania
+  title: "Semester Kick-off of Kristiania AI Center activities"
+  description: "Semester kick-off of the Kristiania AI Center (KAI), featuring The Importance of Explainability in AI for Industry. Time: 17:00-19:30. Place: Kirkegata 24, KAU-B1-02, Oslo."
+
 - start_date: 2026-08-26
   end_date: 2026-08-26
   url: https://luma.com/cqszfq09
