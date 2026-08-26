@@ -54,6 +54,33 @@ search_keywords:
 - Visual Culture
 - New Media
 selected_works:
+- title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard
+    Media Production Workflows
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-032-30846-7_4
+  contributors:
+  - name: Marie Dahlén
+    role: Creator
+    slug: marie-dahlen
+    url: /people/marie-dahlen/
+  - name: Henning Birkeland
+    role: Creator
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
+  - name: Ivar Kjellmo
+    role: Creator
+  - name: Morten Moen
+    role: Creator
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Sigbjørn Galåen
+    role: Creator
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
 - title: Ocean Futures in the Making
   year: '2026'
   source: Book chapter
@@ -161,18 +188,6 @@ selected_works:
   year: '2023'
   source: Visual arts
   group_type: Visual arts
-  contributors:
-  - name: Synne Tollerud Bull
-    role: Artist
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Dragan Miletic
-    role: Artist
-- title: 'Bull.Miletic: Proxistant Vision'
-  year: '2022'
-  source: Visual arts
-  group_type: Visual arts
-  url: https://proxistantvision.net/
   contributors:
   - name: Synne Tollerud Bull
     role: Artist

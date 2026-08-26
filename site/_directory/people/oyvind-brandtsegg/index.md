@@ -139,8 +139,8 @@ selected_works:
 - title: 'Transvariations: Radical Interpretations of a Classical Piece by Means of
     Live Audio Processing'
   year: '2026'
-  source: Non-fiction chapter
-  group_type: Non-fiction chapter
+  source: Book chapter
+  group_type: Book chapter
   url: https://www.routledge.com/Innovation-in-Music-Innovative-Creative-Practice/SohnAndersen-Gullo-Hepworth-Sawyer-Marrington-Paterson-Toulson/p/book/9781032757834
   contributors:
   - name: Øyvind Brandtsegg

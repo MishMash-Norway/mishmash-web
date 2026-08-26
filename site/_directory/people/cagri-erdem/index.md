@@ -39,6 +39,18 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: A Visualization and Control Interface for Rhythmic Relations
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://doi.org/10.1145/3811427.3811503
+  contributors:
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Davide Rocchesso
+    role: Creator
 - title: Studying Embodied Expression in Drumming for Virtual Systems
   year: '2026'
   source: Book chapter
@@ -215,18 +227,6 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: 'From Knobs to Whole Body: Dance with Feedback'
-  year: '2025'
-  source: Non-fiction chapter
-  group_type: Non-fiction chapter
-  url: https://doi.org/10.1007/978-3-031-97257-7_3
-  contributors:
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Katja Henriksen Schia
-    role: Creator
 source_mentions: []
 summary: ''
 wps:

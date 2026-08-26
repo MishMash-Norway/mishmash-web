@@ -45,6 +45,22 @@ search_keywords:
 - Spatial Audio
 - Interaction Design
 selected_works:
+- title: Unlocking the Potential of Hearing Protection Devices in Supporting Inclusive
+    School Environments for Autistic Students
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Marte Karoline Herrebrøden
+    role: Creator
+  - name: Ingjerd Skafle
+    role: Creator
+  - name: Georgios Marentakis
+    role: Creator
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Anders Nordahl-Hansen
+    role: Creator
 - title: 'Hearing Protection Devices for Autistic Students Sensitive to Auditory Stimuli:
     Enhancing School Inclusivity?'
   year: '2026'
@@ -186,18 +202,6 @@ selected_works:
     slug: georgios-marentakis
     url: /people/georgios-marentakis/
   - name: Anders  Nordahl-Hansen
-    role: Creator
-- title: 'It sounds sustainable: practices in designing sound for sustainability'
-  year: '2024'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.21606/drs.2024.791
-  contributors:
-  - name: Georgios Marentakis
-    role: Creator
-    slug: georgios-marentakis
-    url: /people/georgios-marentakis/
-  - name: Doriana Dal Palù
     role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md

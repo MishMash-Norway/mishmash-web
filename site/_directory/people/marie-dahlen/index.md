@@ -31,6 +31,33 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard
+    Media Production Workflows
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-032-30846-7_4
+  contributors:
+  - name: Marie Dahlén
+    role: Creator
+    slug: marie-dahlen
+    url: /people/marie-dahlen/
+  - name: Henning Birkeland
+    role: Creator
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
+  - name: Ivar Kjellmo
+    role: Creator
+  - name: Morten Moen
+    role: Creator
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Sigbjørn Galåen
+    role: Creator
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
 - title: MishMash Opening Video Projection Installation
   year: '2026'
   source: Visual arts

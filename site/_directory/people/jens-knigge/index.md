@@ -52,6 +52,19 @@ search_keywords:
 - Music Education
 - Music Didaktik
 selected_works:
+- title: 'OutMus: Outcomes of Instrumental Tuition and Playing in an Ensemble - Teaching
+    Music in Cooperation Between Primary and Music Schools (Version 1) [Data set]'
+  year: '2026'
+  source: Dataset
+  group_type: Dataset
+  url: https://doi.org/10.18712/NSD-NSD3455-V1
+  contributors:
+  - name: Jens Knigge
+    role: ContactPerson
+    slug: jens-knigge
+    url: /people/jens-knigge/
+  - name: Kirsti Nørstebø
+    role: DataCollector
 - title: 'Music Screening for Children I (MSC-I): Adaptation, technical report, and
     companion materials'
   year: '2026'
@@ -179,22 +192,6 @@ selected_works:
     role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
-- title: Muligheter og utfordringer ved bruk av digital veiledningsteknologi i musikklærerutdanning
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.23865/jased.v9.7056
-  contributors:
-  - name: Solveig Salthammer Kolaas
-    role: Creator
-  - name: Ola Buan Øien
-    role: Creator
-  - name: Jens Knigge
-    role: Creator
-    slug: jens-knigge
-    url: /people/jens-knigge/
-  - name: Ola Marius Ryan
-    role: Creator
 source_mentions: []
 summary: ''
 wps:

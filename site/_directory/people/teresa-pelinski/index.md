@@ -11,7 +11,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://teresapelinski.com/
+  personal_website: http://teresapelinski.com
   institutional_website: https://musicairesearch.wordpress.com/teresa-pelinski/
   github: https://github.com/pelinski
   linkedin: https://www.linkedin.com/in/teresapelinski/
