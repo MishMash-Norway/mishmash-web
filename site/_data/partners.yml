@@ -104,9 +104,9 @@
     url: https://annomuseum.no/en
     name_nb: Anno museum
     url_nb: https://annomuseum.no
- #- name: Atelier Nord
-  # url: https://ateliernord.no/?lang=en
-  # url_nb: https://ateliernord.no/
+  - name: Atelier Nord
+    url: https://ateliernord.no/?lang=en
+    url_nb: https://ateliernord.no/
   - name: Barratt Due musikkinstitutt
     url: https://www.barrattdue.no
 # - name: BEK
