@@ -1,6 +1,16 @@
 # Partner Events shown on the front page.
 # Keep dates in ISO format (YYYY-MM-DD or YYYY-MM-DD HH:MM).
 
+- start_date: 2026-08-26
+  end_date: 2026-08-26
+  url: https://luma.com/cqszfq09
+  og_title: "AI Mission Hub and BI Business School cohosting on Build What Matters"
+  og_description: "AI Mission Hub and BI Startup Village bring together AI professionals, researchers, founders, students, and technology experts for talks, panels, case studies, networking, and the presentation of AI Mission Hub's founding cohort."
+  og_image: "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=280,height=280/uploads/fq/618f9ad9-0882-48e8-9a34-d29ccda2e3e8.png"
+  partner: AI Mission Hub / BI Startup Village
+  title: "Build What Matters"
+  description: "AI Mission Hub and BI Startup Village co-host an event on AI, business, technology, creativity, and society. Time: 13:00-19:00. Place: BI Norwegian Business School - Oslo campus, Nydalsveien 37, Oslo."
+
 - start_date: 2026-04-09
   end_date: 2026-04-12
   url: https://metamorf.art/
