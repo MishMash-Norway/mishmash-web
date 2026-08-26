@@ -244,5 +244,14 @@
 
 - key: international
   entries:
+  - name: Aalto University
+    url: https://www.aalto.fi/en
+  - name: Australian National University
+    url: https://www.anu.edu.au/en
+  - name: Simon Fraser University, School of Interactive Arts & Technology
+    url: https://www.sfu.ca/siat.html
+  - name: University of Music and Performing arts - Institute of Electronic music and Acoustics
+    url: https://iem.kug.ac.at
   - name: University of Music Lübeck
     url: https://www.mh-luebeck.de
+  
