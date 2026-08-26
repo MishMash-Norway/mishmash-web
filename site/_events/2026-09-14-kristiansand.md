@@ -66,7 +66,7 @@ Locations: <br>
 | 13:45 | **KEYNOTE:** Sarah Ellis, Royal Shakespeare Company | Kilden |
 | 14:15 | Reflections from the industry representatives on the use of new technologies (dialogue) | Kilden |
 | 14:45 | Break | Kilden |
-| 15:00 | **KEYNOTE:** Jon McCormack, 'Insights and musings on artistic co-creation with Frontier AI models' | Kilden |
+| 15:00 | **KEYNOTE:** Prof. Jon McCormack, artist and researcher, 'Insights and musings on artistic co-creation with Frontier AI models' | Kilden |
 | 15:30 | Networking session | Kilden |
 | 16:15 | Take-aways and closing statements | Kilden |
 | 16:30 | End of the daytime programme | Kilden |
