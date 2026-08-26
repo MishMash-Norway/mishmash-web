@@ -241,3 +241,8 @@
   # url: https://vrinn.no/
   - name: Østfoldsmuseene
     url: https://ostfoldmuseene.no
+
+- key: international
+  entries:
+  - name: University of Music Lübeck
+    url: https://www.mh-luebeck.de
