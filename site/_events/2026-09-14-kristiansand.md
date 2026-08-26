@@ -64,7 +64,7 @@ Locations: <br>
 | 12:15 | Lunch| Kilden |
 | 13:00 | Norwegian cultural sectors spotlights: Kilden, Det Norske Teater, Pixel, and others | Kilden |
 | 13:45 | **KEYNOTE:** Sarah Ellis, Royal Shakespeare Company | Kilden |
-| 14:15 | Reflections from the industry representatives on the use of new technologies | Kilden |
+| 14:15 | Reflections from the industry representatives on the use of new technologies (dialogue) | Kilden |
 | 14:45 | Break | Kilden |
 | 15:00 | **KEYNOTE:** Jon McCormack, 'Insights and musings on artistic co-creation with Frontier AI models' | Kilden |
 | 15:30 | Networking session | Kilden |
