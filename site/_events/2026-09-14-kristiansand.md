@@ -57,17 +57,20 @@ Locations: <br>
 | 08:30 | MishMash Work Package meetings (closed, invite-only) | invite-only |
 | 10:00 | Opening of day 2: MishMash in co-operation with TechArt | Kilden |
 | 10:10 | **KEYNOTE:** [Gerfried Stocker](https://de.wikipedia.org/wiki/Gerfried_Stocker) (Ars Electronica), with Q&A | Kilden |
-| 10:50 | The use of new technologies in cultural practice: Det Norske Teater & NRK | Kilden |
+| 10:50 | The use of new technologies in cultural practice: NRK | Kilden |
+| 11:00 | MishMash Centre for AI & Creativity - Connections between research & practice | Kilden |
 | 11:10 | Expert statement Prof. Jane C. Ginsburg, Professor of Literary and Artistic Property Law at Columbia University School of Law, on practical implications of rights and ownership in artistic work | Kilden |
-| 11:30 | Research in practice: insights from MishMash Centre for AI & Creativity | Kilden |
-| 12:30 | Lunch| Kilden |
-| 13:15 | Norwegian cultural sectors spotlight: Kilden, Det Norske Teater, and others | Kilden |
-| 14:00 | **KEYNOTE:** Sarah Ellis, Royal Shakespeare Company, with Q&A and reflections from the sector | Kilden |
-| 15:00 | Break | Kilden |
-| 15:15 | To be announced | Kilden |
-| 16:00 | Performance (to be announced) | Kilden |
+| 11:30 | Research in practice: insights from MishMash Centre for AI & Creativity (dialogue) | Kilden |
+| 12:15 | Lunch| Kilden |
+| 13:00 | Norwegian cultural sectors spotlights: Kilden, Det Norske Teater, Pixel, and others | Kilden |
+| 13:45 | **KEYNOTE:** Sarah Ellis, Royal Shakespeare Company | Kilden |
+| 14:15 | Reflections from the industry representatives on the use of new technologies | Kilden |
+| 14:45 | Break | Kilden |
+| 15:00 | **KEYNOTE:** Jon McCormack, 'Insights and musings on artistic co-creation with Frontier AI models' | Kilden |
+| 15:30 | Networking session | Kilden |
 | 16:15 | Take-aways and closing statements | Kilden |
-| 18:30 | _MishMash invites to_ the MishMash Opening Conference **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element - followed by a special afterparty. | Kunstsilo |
+| 16:30 | End of the daytime programme | Kilden |
+| 18:45 | _MishMash invites to_ the MishMash Opening Conference **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element - followed by a special afterparty. | Kunstsilo |
 | 22:30 | End of the conference | Kunstsilo |
 
 ## Inspiring environment
