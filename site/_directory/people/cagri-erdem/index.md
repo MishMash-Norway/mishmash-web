@@ -41,8 +41,8 @@ search_keywords: []
 selected_works:
 - title: A Visualization and Control Interface for Rhythmic Relations
   year: '2026'
-  source: Conference poster
-  group_type: Conference
+  source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3811427.3811503
   contributors:
   - name: Cagri Erdem
