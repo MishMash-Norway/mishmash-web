@@ -34,8 +34,8 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | Time | Programme | Location (see above for addresses) |
 | --- | --- | --- |
 | 09:15 | Registration opens | Kilden |
-| 10:00 | Central opening session | Kilden |
-| 10:20 | **KEYNOTE:** <a href="https://www.law.columbia.edu/faculty/jane-c-ginsburg" target="_blank">Prof. Jane C. Ginsburg</a> (Professor of Literary and Artistic Property Law at Columbia University School of Law, USA), <br>_Six Images in Search of an Author: Copyright, Artistic Creation and Artificial Intelligence_ | Kilden |
+| 10:00 | Central opening session: <a href="https://www.uia.no/om-uia/ansatte/sunnivaw/" target="_blank">Sunniva Whittaker</a>, rector of University of Agder <br>&bull; <a href="https://www.forskningsradet.no/en/about/executive-leadership-team/" target="_blank">Anne Kjersti Fahlvik</a>, Executive Director - Innovation in Industry and the Public Sector, The Research Council of Norway <br>&bull; <a href="https://www.arj.no" target="_blank">Alexander Refsum Jensenius</a>, Director of MishMash, University of Oslo | Kilden |
+| 10:25 | **KEYNOTE:** <a href="https://www.law.columbia.edu/faculty/jane-c-ginsburg" target="_blank">Prof. Jane C. Ginsburg</a> (Professor of Literary and Artistic Property Law at Columbia University School of Law, USA), <br>_Six Images in Search of an Author: Copyright, Artistic Creation and Artificial Intelligence_ | Kilden |
 | 11:10 | Plenary introductions: Humans, Machines, Society | Kilden |
 | 11:20 | Short break, _go to room of preferred parallel session_ | Kilden |
 | 11:40 | Three **parallel tracks** around the themes:<br>&bull; Humans<br>&bull; Machines<br>&bull; Society | Kunstsilo & Kilden |
