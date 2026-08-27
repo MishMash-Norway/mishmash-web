@@ -35,7 +35,7 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | --- | --- | --- |
 | 09:15 | Registration opens | Kilden |
 | 10:00 | Central opening session | Kilden |
-| 10:30 | **KEYNOTE:** <a href="https://www.law.columbia.edu/faculty/jane-c-ginsburg" target="_blank">Prof. Jane C. Ginsburg</a>, Professor of Literary and Artistic Property Law at Columbia University School of Law <br>_Six Images in Search of an Author: Copyright, Artistic Creation and Artificial Intelligence_ | Kilden |
+| 10:30 | **KEYNOTE:** <a href="https://www.law.columbia.edu/faculty/jane-c-ginsburg" target="_blank">Prof. Jane C. Ginsburg</a> (Professor of Literary and Artistic Property Law at Columbia University School of Law, USA), <br>_Six Images in Search of an Author: Copyright, Artistic Creation and Artificial Intelligence_ | Kilden |
 | 11:15 | Plenary introductions: Humans, Machines, Society | Kilden |
 | 11:30 | Three **parallel tracks** around the themes:<br>&bull; Humans<br>&bull; Machines<br>&bull; Society | Kunstsilo & Kilden |
 | 12:45 | **LUNCH** with **poster presentations**, clustered around eight themes:<br>&bull; Human-AI interaction & perception<br>&bull; Heritage, archives & collections<br>&bull; Music making & AI<br>&bull; Understanding and testing AI<br>&bull; AI in education<br>&bull; AI for health & wellbeing<br>&bull; Artistic research & creative works<br>&bull; Responsible AI & critical futures | Kilden |
@@ -59,14 +59,14 @@ Locations: <br>
 | 10:10 | **KEYNOTE:** <a href="https://ars.electronica.art/about/en/organization/" target="_blank">Gerfried Stocker</a> (Ars Electronica), with Q&A | Kilden |
 | 10:50 | The use of new technologies in cultural practice: NRK | Kilden |
 | 11:00 | MishMash Centre for AI & Creativity - Connections between research & practice | Kilden |
-| 11:10 | Expert statement Prof. Jane C. Ginsburg, Professor of Literary and Artistic Property Law at Columbia University School of Law, on practical implications of rights and ownership in artistic work | Kilden |
+| 11:10 | Expert statement <a href="https://www.law.columbia.edu/faculty/jane-c-ginsburg" target="_blank">Prof. Jane C. Ginsburg</a> (Columbia University School of Law, USA) on practical implications of rights and ownership in artistic work | Kilden |
 | 11:30 | Research in practice: insights from MishMash Centre for AI & Creativity (dialogue) | Kilden |
 | 12:15 | Lunch| Kilden |
 | 13:00 | Norwegian cultural sectors spotlights: Kilden, Det Norske Teater, Pixel, and others | Kilden |
 | 13:45 | **KEYNOTE:** Sarah Ellis, Royal Shakespeare Company | Kilden |
 | 14:15 | Reflections from the industry representatives on the use of new technologies (dialogue) | Kilden |
 | 14:45 | Break | Kilden |
-| 15:00 | **KEYNOTE:** <a href="https://sensilab.monash.edu/people/jon-mccormack/" target="_blank">Prof. Jon McCormack</a>, artist and researcher, 'Insights and musings on artistic co-creation with Frontier AI models' | Kilden |
+| 15:00 | **KEYNOTE:** <a href="https://sensilab.monash.edu/people/jon-mccormack/" target="_blank">Prof. Jon McCormack</a> (artist and professor at Monash University, Australia), _'Insights and musings on artistic co-creation with Frontier AI models'_ | Kilden |
 | 15:30 | Networking session | Kilden |
 | 16:15 | Take-aways and closing statements | Kilden |
 | 16:30 | End of the daytime programme | Kilden |
