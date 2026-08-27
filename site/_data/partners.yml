@@ -174,9 +174,10 @@
   - name: Muzziball
     url: https://muzziball.no/en/home-en/
     url_nb: https://muzziball.no/
-# - name: Nasjonalmuseet
-  # url: https://www.nasjonalmuseet.no/en/
-  # url_nb: https://www.nasjonalmuseet.no/
+  - name: The National Muesum
+    name_nb: Nasjonalmuseet
+    url: https://www.nasjonalmuseet.no/en/
+    url_nb: https://www.nasjonalmuseet.no/
 # - name: Norwegian Centre for Arts and Culture in Education (NCACE)
   # url: https://kunstkultursenteret.no/english/
   # name_nb: Nasjonalt senter for kunst og kultur i opplæringen (KKS)
