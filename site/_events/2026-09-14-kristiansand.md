@@ -42,10 +42,10 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | 12:45 | **LUNCH** with **poster presentations**, clustered around eight themes:<br>&bull; Human-AI interaction & perception<br>&bull; Heritage, archives & collections<br>&bull; Music making & AI<br>&bull; Understanding and testing AI<br>&bull; AI in education<br>&bull; AI for health & wellbeing<br>&bull; Artistic research & creative works<br>&bull; Responsible AI & critical futures | Kilden |
 | 14:00 | Seven **parallel tracks:**<br>&bull; Machine agency, shared autonomy, and expressive generative models: perspectives on **creative performance with AI**<br>&bull; Aesthetic Intelligence: Showcasing **AI in Artistic Processes**<br>&bull; But what is **“health”** and what do creative uses of AI have to do with it?<br>&bull; Press Start to Generate: AI in **Game Development Education**<br>&bull; Solutions and Opportunities Across the **Creative Value Chain**<br>&bull; From Collections to Connections: Responsible AI for **Cultural Heritage**<br>&bull; How can MishMash partners **collaborate in and through education**? | Kunstsilo & Kilden |
 | 15:30 | **Poster presentations** continue, clustered around the eight themes:<br>&bull; Human-AI interaction & perception<br>&bull; Heritage, archives & collections<br>&bull; Music making & AI<br>&bull; Understanding and testing AI<br>&bull; AI in education<br>&bull; AI for health & wellbeing<br>&bull; Artistic research & creative works<br>&bull; Responsible AI & critical futures | Kilden |
-| 16:15 | To be announced | Kilden |
-| 16:30 | Plenary closing session: <br>&bull; setting the agenda for the near future<br>&bull; residency programme (Atelier Nord)<br>&bull; practical information about evening programme <br>&bull; closing statements | Kilden |
-| 17:30 | End of the daytime programme | Kilden |
-| 18:30 | **MishMash LIVE:** A mini festival of exploration around AI & Creativity: food, drinks and inspiration<br>&bull; Showcases of arts installations<br>&bull; Brief talks and Q&As<br>&bull; The best local food and drinks from Sørlandet | Kraftverk/BARE |
+| 16:10 | The importance of knowledge in the use of AI in creations: reflections from makers in music, film and museums | Kilden |
+| 16:40 | Plenary closing session: <br>&bull; setting the agenda for the near future (discussion)<br>&bull; residency programme (Atelier Nord)<br>&bull; practical information about evening programme <br>&bull; closing statements | Kilden |
+| 17:45 | End of the daytime programme | Kilden |
+| 19:00 | **MishMash LIVE:** A mini festival of exploration around AI & Creativity: food, drinks and inspiration<br>&bull; Showcases of arts installations<br>&bull; Brief talks and Q&As<br>&bull; The best local food and drinks from Sørlandet | Kraftverk/BARE |
 | 23:00 | End of the Monday programme | Kraftverk/BARE |
 
 ### Tuesday, September 15th
@@ -71,7 +71,7 @@ Locations: <br>
 | 15:30 | Networking session | Kilden |
 | 16:15 | Take-aways and closing statements | Kilden |
 | 16:30 | End of the daytime programme | Kilden |
-| 18:45 | _MishMash invites to_ the MishMash Opening Conference **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element - followed by a special afterparty. | Kunstsilo |
+| 18:30 | _MishMash invites to_ the **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element - followed by a special afterparty. **Doors open: 18:30h, Opening 18:45h** | Kunstsilo |
 | 22:30 | End of the conference | Kunstsilo |
 
 ## Inspiring environment
