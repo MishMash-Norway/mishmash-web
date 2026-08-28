@@ -1,6 +1,15 @@
 # Partner Events shown on the front page.
 # Keep dates in ISO format (YYYY-MM-DD or YYYY-MM-DD HH:MM).
 
+- title: "JP/NO Research Alliance 2026"
+  url: https://www.mn.uio.no/hylleraas/english/news-and-events/events/events-in-oslo/2026/jp-no-research-alliance-2026.html
+  og_title: "Seminar serie: Japan-Norway Research Alliance –  Next Generation Research with AI
+       - Hylleraas Centre for Quantum Molecular Sciences"
+  og_description: "This seminar serie is part of a collaboration between the Japanese research institutions, the Japanese embassy, the Japanese Society for the Promotion of Science, Research Council of Norway, Norwegian Directorate for Higher Education and Skills, Innovation Norway, Norwegian Embassy in Tokyo, UiO and the Hylleraas Centre."
+  og_image: "https://www.mn.uio.no/hylleraas/english/news-and-events/events/events-in-oslo/2026/japan-norway-research-alliance---front-page-v2-1000x562.jpg"
+  partner: University of Oslo
+  description: "See partner site for details."
+
 - start_date: 2026-09-02
   end_date: 2026-09-02
   url: https://www.kristiania.no/en/about-kristiania/calendar/semester-kick-off-of-kristiania-ai-center-activities/
@@ -340,6 +349,9 @@ en kulturinstitusjon, en opplyst fremtid"
 - start_date: 2026-04-09
   end_date: 2026-05-31
   url: https://metamorf.art/2026/01/15/stanza/
+  og_title: "Stanza - META.MORF 2026"
+  og_description: "Toxicity. Driven BreathlessTEKS.studio10.04. – 26.07.26Opening 10.04. @ 18:00!"
+  og_image: "https://metamorf.art/wp-content/uploads/2026/02/Toxicitystanza2.jpg"
   og_image: "https://i0.wp.com/metamorf.art/wp-content/uploads/2026/01/1-Toxicitystanza2.jpg"
   partner: TEKS
   title: "Toxicity. Driven Breathless"
@@ -348,6 +360,9 @@ en kulturinstitusjon, en opplyst fremtid"
 - start_date: 2026-04-10
   end_date: 2026-04-10
   url: https://metamorf.art/2026/03/12/lorrr/
+  og_title: "LORRR presents Monumental Transmission - META.MORF 2026"
+  og_description: "Andy GracieA performative science-fiction narrativeKjøpmannsgata Ung KunstSaturday 11.04.26 @ 16:00 – 17:30"
+  og_image: "https://metamorf.art/wp-content/uploads/2026/03/LORRR_MM_300dpi.jpeg"
   og_image: "https://i0.wp.com/metamorf.art/wp-content/uploads/2026/03/LORRR_MM_banner-2.jpg"
   partner: TEKS
   title: "LORRR presents Monumental Transmission"
@@ -356,6 +371,9 @@ en kulturinstitusjon, en opplyst fremtid"
 - start_date: 2026-04-11
   end_date: 2026-04-11
   url: https://metamorf.art/2026/01/11/nordheimgruppen/
+  og_title: "Nordheimgruppen - META.MORF 2026"
+  og_description: "Steinar StensenArnfinn KillingtveitMini-ConcertKjøpmannsgata Ung KunstSaturday 11.04.26 @ 16:00 – 17:30"
+  og_image: "https://metamorf.art/wp-content/uploads/2026/01/nordheimcollager-fargerfacked.webp"
   og_image: "https://i0.wp.com/metamorf.art/wp-content/uploads/2026/01/nordheimcollager-fargerfacked.webp"
   partner: TEKS
   title: "Nordheimgruppen"
@@ -364,6 +382,9 @@ en kulturinstitusjon, en opplyst fremtid"
 - start_date: 2026-05-03
   end_date: 2026-05-03
   url: https://metamorf.art/2026/01/02/sitron/
+  og_title: "Music for instruments, objects and electronics - META.MORF 2026"
+  og_description: "SiTron / SWR Experimental studio / Creative Music Technology, NTNU KonsertDokkhuset, Søndag 03.05.26"
+  og_image: "https://metamorf.art/wp-content/uploads/2026/02/AUSLAND2.png"
   og_image: "https://i0.wp.com/metamorf.art/wp-content/uploads/2026/01/sitron-upscale-dec-2025-web.jpg"
   partner: TEKS
   title: "Music for instruments, objects and electronics"
@@ -372,6 +393,9 @@ en kulturinstitusjon, en opplyst fremtid"
 - start_date: 2026-07-28
   end_date: 2026-07-28
   url: https://metamorf.art/2026/01/01/ai-in-the-cathedral/
+  og_title: "AI in the Cathedral - META.MORF 2026"
+  og_description: "Brandtsegg, Bjørkhaug, Schmidt, Formo, Bergsland, Aakre, StokkeKonsert, NidarosdomenTirsdag 28.07.26 @ 19:00"
+  og_image: "https://metamorf.art/wp-content/uploads/2026/02/ki_foto1.png"
   og_image: "https://i0.wp.com/metamorf.art/wp-content/uploads/2026/02/ki_foto1-1.png"
   partner: TEKS
   title: "KI i Katedralen (AI in the Cathedral)"
