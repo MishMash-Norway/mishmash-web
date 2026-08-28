@@ -1,14 +1,16 @@
 # Partner Events shown on the front page.
 # Keep dates in ISO format (YYYY-MM-DD or YYYY-MM-DD HH:MM).
 
-- title: "JP/NO Research Alliance 2026"
+- start_date: 2026-09-18
+  end_date: 2026-09-18
+  title: "JP/NO Research Alliance 2026"
   url: https://www.mn.uio.no/hylleraas/english/news-and-events/events/events-in-oslo/2026/jp-no-research-alliance-2026.html
   og_title: "Seminar serie: Japan-Norway Research Alliance –  Next Generation Research with AI
        - Hylleraas Centre for Quantum Molecular Sciences"
   og_description: "This seminar serie is part of a collaboration between the Japanese research institutions, the Japanese embassy, the Japanese Society for the Promotion of Science, Research Council of Norway, Norwegian Directorate for Higher Education and Skills, Innovation Norway, Norwegian Embassy in Tokyo, UiO and the Hylleraas Centre."
   og_image: "https://www.mn.uio.no/hylleraas/english/news-and-events/events/events-in-oslo/2026/japan-norway-research-alliance---front-page-v2-1000x562.jpg"
   partner: University of Oslo
-  description: "See partner site for details."
+  description: "This seminar serie is part of a collaboration between the Japanese research institutions, the Japanese embassy, the Japanese Society for the Promotion of Science, Research Council of Norway, Norwegian Directorate for Higher Education and Skills, Innovation Norway, Norwegian Embassy in Tokyo, UiO and the Hylleraas Centre."
 
 - start_date: 2026-09-02
   end_date: 2026-09-02
