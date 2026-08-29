@@ -72,185 +72,57 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1016/j.neunet.2026.108798
-  contributors:
-  - name: Mia-Katrin Ose Kvalsund
-    role: Creator
-  - name: Kai Olav Ellefsen
-    role: Creator
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Sidney Pontes-Filho
-    role: Creator
-  - name: Mikkel Elle Lepperød
-    role: Creator
-- title: Integrating Sample Inheritance into Bayesian Optimization for Evolutionary
-    Robotics
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1162/ISAL.a.866
-  contributors:
-  - name: Ege de Bruin
-    role: Creator
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Kai Olav Ellefsen
-    role: Creator
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
-- title: 'HS-ims: A Platform for Human-Swarm Interactive Music Systems'
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/ACSOS-C66519.2025.00067
-  contributors:
-  - name: Pedro Pablo Lucas Bravo
-    role: Creator
-    slug: pedro-lucas
-    url: /people/pedro-lucas/
-  - name: Alexander Szorkovszky
-    role: Creator
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-- title: Live Coding the Lineage
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/zenodo.17642435
-  contributors:
-  - name: Björn Thór Jónsson
-    role: Creator
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-- title: Generational Replacement and Learning for High-Performing and Diverse Populations
-    in Evolvable Robots
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/alife-cis64968.2025.10979828
-  contributors:
-  - name: Ege de Bruin
-    role: Creator
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Kai Olav Ellefsen
-    role: Creator
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
-- title: Design and fabrication of soft locomotion robots based on spatial compliant
-    mechanisms
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1088/1361-665x/addf98
-  contributors:
-  - name: Andrija Milojevic
-    role: Creator
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-- title: 'MusiQAl: A Dataset for Music Question–Answering through Audio–Video Fusion'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.5334/tismir.222
-  contributors:
-  - name: Anna-Maria Christodoulou
-    role: Creator
-    slug: anna-maria-christodoulou
-    url: /people/anna-maria-christodoulou/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Olivier Lartillot
-    role: Creator
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: How can we make robot dance expressive and responsive? A survey of methods
-    and future directions
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.3389/fcomp.2025.1575667
-  contributors:
-  - name: Benedikte Wallace
-    role: Creator
-    slug: benedikte-wallace
-    url: /people/benedikte-wallace/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Alexander Szorkovszky
-    role: Creator
-- title: Behaviour Diversity in a Walking and Climbing Centipede-Like Virtual Creature
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1162/artl_a_00476
-  contributors:
-  - name: Emma Stensby Norstein
-    role: Creator
-  - name: Kotaro Yasui
-    role: Creator
-  - name: Takeshi Kano
-    role: Creator
-  - name: Akio Ishiguro
-    role: Creator
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
 - title: An Interactive Self-Assembly Swarm Music System in Extended Reality
   year: '2025'
+  source: Conference paper
+  group_type: Conference
+  url: https://doi.org/10.1145/3771594.3771620
+- title: 'LVNS-RAVE: Diversified audio generation with RAVE and Latent Vector Novelty
+    Search'
+  year: '2024'
+  source: Conference paper
+  group_type: Conference
+  url: https://doi.org/10.1145/3638530.3654432
+- title: Towards Sound Innovation Engines Using Pattern-Producing Networks and Audio
+    Graphs
+  year: '2024'
   source: Book chapter
   group_type: Book chapter
-  url: https://doi.org/10.1145/3771594.3771620
-  contributors:
-  - name: Pedro Pablo Lucas Bravo
-    role: Creator
-    slug: pedro-lucas
-    url: /people/pedro-lucas/
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Alexander Szorkovszky
-    role: Creator
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
+  url: https://doi.org/10.1007/978-3-031-56992-0_14
+- title: Direct brain recordings reveal continuous encoding of structure in random
+    stimuli
+  year: '2021'
+  source: Preprint
+  group_type: Preprint
+  url: https://doi.org/10.1101/2021.10.01.462295
+- title: Non-flipping DNA glycosylase AlkD scans DNA without formation of a stable
+    interrogation complex
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1038/s42003-021-02400-x
+- title: Real-world embodied AI through a morphologically adaptive quadruped robot
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1038/s42256-021-00320-3
+- title: A Transferable Adaptive Domain Adversarial Neural Network for Virtual Reality
+    Augmented EMG-Based Gesture Recognition
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/TNSRE.2021.3059741
+- title: Unsupervised Domain Adversarial Self-Calibration for Electromyography-Based
+    Gesture Recognition
+  year: '2020'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/ACCESS.2020.3027497
+- title: Additive manufacturing of laminar flow cells for single-molecule experiments
+  year: '2019'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1038/s41598-019-53151-z
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''
