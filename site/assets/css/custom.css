@@ -927,6 +927,23 @@ a:focus-visible .icon {
   box-shadow: 0 0 0 3px rgba(167,161,244,0.25);
 }
 
+.search-submit {
+  padding: 0.55rem 0.9rem;
+  border: 2px solid #5b54a6;
+  border-radius: 6px;
+  background: #5b54a6;
+  color: #fff;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.search-submit:hover,
+.search-submit:focus-visible {
+  background: #453f86;
+  border-color: #453f86;
+}
+
 .search-filters {
   margin-bottom: 1rem;
 }
@@ -1150,8 +1167,8 @@ a:focus-visible .icon {
 }
 
 .filter-chip.active {
-  background: #A7A1F4;
-  border-color: #A7A1F4;
+  background: #5b54a6;
+  border-color: #5b54a6;
   color: #fff;
 }
 

@@ -19,6 +19,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       aria-controls="search-results"
       aria-autocomplete="list"
     >
+    <button type="submit" class="search-submit">Search</button>
   </div>
 
   <div id="filter-panel" class="search-filters" aria-label="Filters" hidden>
@@ -1062,6 +1063,13 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     });
 
   let debounceTimer;
+  document.getElementById('search-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    clearTimeout(debounceTimer);
+    updateUrl();
+    runSearch();
+  });
+
   input.addEventListener('input', function () {
     clearTimeout(debounceTimer);
     debounceTimer = setTimeout(function () {
