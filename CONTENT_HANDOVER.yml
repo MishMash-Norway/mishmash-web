@@ -1,0 +1,337 @@
+schema_version: 1
+purpose: >-
+  Machine-readable handover for adding or updating MishMash website content.
+  Use this file to choose the correct source file, fields, automation, and checks
+  before editing. The repository wiki remains the detailed human guide.
+
+writing_style:
+  purpose: >-
+    House style for AI-assisted copy about MishMash, its partners, research,
+    people, news, and events in Norway.
+  hard_rules:
+    spelling: British English
+    forbidden:
+      - em_dash (Unicode U+2014)
+      - inline_bold_markdown (double asterisks used for emphasis)
+    sentence_length:
+      preferred_max_words: 25
+      exception: A longer sentence is acceptable when splitting it would reduce clarity.
+  language:
+    voice: active
+    tone: clear, informed, specific, and welcoming
+    audiences:
+      - Researchers from all disciplines
+      - Artists and creative practitioners
+      - Public sector partners
+      - Private sector partners
+      - Students and educators
+      - The general public
+    default_audience: An interested reader who may not know the field or its terminology.
+    explanation_strategy:
+      principle: Start general, then add technical or discipline-specific detail.
+      sequence:
+        - State what the work, event, or news is about in everyday language.
+        - Explain why it matters to people, practice, research, or society.
+        - Identify the disciplines, methods, partners, or technologies involved.
+        - Add advanced detail, terminology, limitations, or references where useful.
+      placement:
+        title_and_description: General and understandable without specialist knowledge.
+        opening_paragraph: General context plus the main specific point.
+        later_sections: Technical, disciplinary, methodological, or policy detail for interested readers.
+      rule: Do not simplify away important ideas; introduce them in an accessible order.
+    use:
+      - Prefer concrete subjects and verbs: "The project examines..." not "An examination is made...".
+      - Name the person, institution, place, or project doing the action.
+      - Explain specialist terms briefly on first use.
+      - Connect different disciplines without assuming that one field is the default.
+      - Make relevance clear for artists, researchers, public and private partners, and the public.
+      - Use Norwegian place names and institution names accurately.
+      - Use dates, times, and locations that make sense to a Norwegian reader.
+    avoid:
+      - Passive voice when an active subject is known.
+      - Hype, promotional claims, and vague AI-generated filler.
+      - Repeating the same point in the title, summary, and opening paragraph.
+      - Unexplained acronyms, generic introductions, and inflated adjectives.
+  vocabulary:
+    british_examples:
+      - organisation
+      - programme
+      - centre
+      - analyse
+      - behaviour
+      - travelling
+    preferred_punctuation:
+      - Use commas, colons, full stops, or parentheses instead of em dashes.
+      - Use Markdown headings for structure, not bold text used as a heading.
+  norwegian_focus:
+    priority:
+      - State the connection to Norway, a Norwegian institution, or the local context early.
+      - Keep Norwegian names, diacritics, and official institution names intact.
+      - Include Oslo or another relevant place when location matters.
+      - Describe why the work matters to MishMash partners, researchers, artists, or audiences in Norway.
+    do_not_assume:
+      - Do not treat Norway as interchangeable with the wider Nordic region.
+      - Do not translate official names unless an established English name exists.
+  templates:
+    active: "Researchers at the University of Oslo study how artists use AI in music."
+    passive_to_active: "The workshop is organised by UiO." -> "UiO organises the workshop."
+    concise: "The Oslo workshop brings artists and researchers together to test new creative tools."
+  review_checks:
+    - Confirm British spelling, including organisation, programme, centre, and analyse where applicable.
+    - Search for Unicode U+2014 and replace it with suitable punctuation.
+    - Search for inline bold Markdown and replace it with plain text or a heading.
+    - Check that most sentences are 25 words or fewer.
+    - Check that the main actor appears early and uses an active verb.
+    - Check that the first description is understandable to a non-specialist reader.
+    - Check that specialist detail follows general context rather than replacing it.
+    - Check that the Norwegian connection is clear without overstating it.
+
+repository:
+  site_source: site/
+  build_output: _site/
+  timezone: Europe/Oslo
+  generated_output_is_ignored: true
+  never_edit_generated_output: true
+  wiki_root: https://github.com/MishMash-Norway/mishmash-web/wiki
+  human_guides:
+    adding_news: https://github.com/MishMash-Norway/mishmash-web/wiki/Adding-News
+    adding_events: https://github.com/MishMash-Norway/mishmash-web/wiki/Adding-Events
+    directory: https://github.com/MishMash-Norway/mishmash-web/wiki/Directory
+    scripts_and_automation: https://github.com/MishMash-Norway/mishmash-web/wiki/Scripts-and-Automation
+    site_architecture: https://github.com/MishMash-Norway/mishmash-web/wiki/Site-Architecture
+    local_build: https://github.com/MishMash-Norway/mishmash-web/wiki/Running-the-Site-Locally
+
+routing:
+  - request_type: authored_news
+    source: site/_news/YYYY-MM-DD-short-slug.md
+    public_area: /news/{filename}/
+  - request_type: authored_event
+    source: site/_events/YYYY-MM-DD-short-slug.md
+    public_area: /events/{slug}/
+  - request_type: meshup_activity
+    source: site/_events/YYYY-MM-DD-meshupNN.md
+    public_area: /events/{slug}/
+    special_rule: Add MeshUp to categories; add WP1 through WP7 when applicable.
+  - request_type: partner_news
+    source: site/_data/partner_news.yml
+    public_area: /news/partner-news/
+    special_rule: Add an external link record; do not create a local news page.
+  - request_type: partner_event
+    source: site/_data/partner_events.yml
+    public_area: /events/partner-events/
+    special_rule: Add an external link record; do not create a local event page.
+  - request_type: directory_person
+    source: site/_directory/people/{slug}/index.md
+    public_area: /people/{slug}/
+    special_rule: Start from site/_directory/people/_template/index.md.
+
+content_types:
+  authored_news:
+    source_directory: site/_news/
+    filename: YYYY-MM-DD-short-slug.md
+    required_front_matter:
+      title: double-quoted sentence-case headline
+      date: YYYY-MM-DD
+      layout: default
+      description: one-sentence listing and link-preview summary
+    recommended_front_matter:
+      author: full name in double quotes
+      categories: existing category such as Announcement, Vacancy, Publication, or Press
+      image: /assets/images/bubbles/mishmash_bubbles_notext.svg or a relevant image
+    body_rules:
+      - Start with a self-contained opening paragraph.
+      - Use ## for body headings; the title is supplied by front matter.
+      - Use real alt text for Markdown images.
+      - Put the main substance early because the first 100 words enter search indexing.
+    appears_in:
+      - front page
+      - /news/
+      - site search as type news
+      - RSS and Atom feeds
+
+  authored_event:
+    source_directory: site/_events/
+    filename: YYYY-MM-DD-short-slug.md
+    required_front_matter:
+      title: double-quoted title, especially when it contains a colon
+      date: YYYY-MM-DD HH:MM:SS with Europe/Oslo timezone offset
+      end_date: YYYY-MM-DD HH:MM:SS with timezone offset
+      location: venue, Zoom, or both
+      layout: event
+      description: one-sentence listing and link-preview summary
+    recommended_front_matter:
+      categories: event type plus WP1 through WP7 when applicable
+      tags: existing research topic tags only
+      image: /assets/images/bubbles/mishmash_bubbles_notext.svg or a relevant image
+      slug: lowercase ASCII hyphenated short URL slug
+    rules:
+      - Use +01:00 for Oslo winter time and +02:00 for Oslo summer time.
+      - Put work packages in categories, never tags.
+      - Put research topics in tags, never categories.
+      - future_is_published_immediately: true
+    appears_in:
+      - front page
+      - /events/
+      - matching work package page when a WP category is present
+      - /events/calendar.ics
+      - event page Google Calendar link
+      - site search as type event
+
+  meshup_activity:
+    inherits: authored_event
+    source_directory: site/_events/
+    filename_pattern: YYYY-MM-DD-meshupNN.md
+    required_category: MeshUp
+    optional_categories: [WP1, WP2, WP3, WP4, WP5, WP6, WP7]
+    title_pattern: MeshUp #NN plus a descriptive title
+    practical_rule: Copy the nearest existing MeshUp entry and update both metadata and body.
+    consistency_checks:
+      - date and end_date match the requested activity date and time
+      - speaker names agree in title, description, and opening body text when repeated
+      - placeholder text is removed when a speaker is known
+      - relevant portrait or event image exists before referencing it
+
+  partner_news:
+    source_file: site/_data/partner_news.yml
+    record_shape:
+      date: YYYY-MM-DD
+      lang: en or nb
+      url: external canonical article URL
+      title: display headline
+      description: one-sentence summary
+      partner: partner organisation
+      og_image: optional absolute image URL
+    rules:
+      - Keep English and Norwegian versions as separate records when both exist.
+      - Use the partner article URL, not a new local page.
+      - Prefer existing partner naming and language conventions.
+      - Check for an existing record with the same URL before adding one.
+    automation: No dedicated partner-news fetcher was found; treat this file as hand-maintained data.
+
+  partner_event:
+    source_file: site/_data/partner_events.yml
+    record_shape:
+      start_date: YYYY-MM-DD
+      end_date: YYYY-MM-DD
+      url: external canonical event URL
+      partner: partner organisation
+      title: display title
+      description: concise event summary with time and place when available
+      og_title: optional scraped title
+      og_description: optional scraped description
+      og_image: optional absolute image URL
+    rules:
+      - Use date-only values unless the existing data format requires otherwise.
+      - Check for an existing record with the same URL before adding one.
+      - Keep the event external; do not create a duplicate file in site/_events/.
+      - Confirm the event is future or current before adding it to the upcoming list.
+    automation:
+      discovery: python3 scripts/fetch_partner_ai_events.py --dry-run
+      append: python3 scripts/fetch_partner_ai_events.py
+      metadata_refresh: python3 scripts/fetch_partner_og_data.py
+      caveat: Review crawler output manually; it can be incomplete or unsuitable.
+
+  directory_person:
+    source_directory: site/_directory/people/
+    template: site/_directory/people/_template/index.md
+    filename: '{slug}/index.md'
+    required_front_matter:
+      type: person
+      slug: lowercase ASCII letters, digits, and hyphens
+      permalink: /people/{slug}/
+      name: full name
+      title: display name or title
+      roles: curated role list
+      urls: nva or orcid URL recommended for synchronisation
+    recommended_front_matter:
+      position: role or position
+      institution: primary institution slug
+      institutions: institution slugs
+      projects: project slugs
+      wps: work package identifiers
+      tags: 2 to 6 existing human-readable research tags
+      summary: short profile summary
+      image: site asset path when manually curated
+    manual_fields_preserved_by_nightly_sync:
+      - name
+      - title
+      - slug
+      - roles
+      - projects
+      - source_mentions
+      - social URLs
+      - Markdown body
+    fields_overwritten_when_urls_nva_is_set:
+      - position
+      - department
+      - institution
+      - institutions
+      - nva_affiliations
+      - tags
+      - search_keywords
+      - summary
+      - selected_works
+      - other_projects
+      - urls.institutional_website
+      - urls.nva
+      - urls.orcid
+      - image
+    rules:
+      - Copy the template; set slug, name, and at least urls.nva or urls.orcid when available.
+      - Use slugs in people, institutions, and projects lists, not path-style URLs.
+      - Keep cross-links reciprocal.
+      - Do not commit NVA credentials.
+    automation:
+      enrich_one: python3 scripts/enrich_directory_from_nva.py --slug some-person --dry-run
+      enrich_all: python3 scripts/enrich_directory_from_nva.py --discover-nva --discover-nva-loose --max-works 10
+      fill_missing_ids: python3 scripts/fill_missing_nva_orcid.py --dry-run
+      validate: python3 scripts/validate_directory.py
+      fix_reciprocity: python3 scripts/sync_directory_reciprocity.py
+      nightly_workflow: .github/workflows/enrich-directory-people.yml
+
+automation:
+  event_importers:
+    uio_events: python3 scripts/fetch_uio_events.py URL
+    rss_events: python3 scripts/fetch_rss_to_events.py
+    rule: Treat imported files as drafts for editorial review; verify dates, timezone, title, image, and body.
+  directory_importers:
+    spreadsheet: python3 scripts/import_people_from_xlsx.py
+    governance: python3 scripts/generate_directory_governance.py
+  generated_or_machine_updated:
+    - _site/
+    - site/_data/mishmash_results.yml
+    - many synced fields in site/_directory/people/
+    - portraits downloaded by the NVA enrichment script
+  credentials:
+    location: config/
+    rule: Never commit credential files or secrets.
+
+validation:
+  always:
+    - git diff --check
+    - inspect git diff for unintended files and conflict markers
+  content_data:
+    - >-
+      ruby -e "require 'yaml'; YAML.safe_load(File.read('site/_data/partner_events.yml'), aliases: true); YAML.safe_load(File.read('site/_data/partner_news.yml'), aliases: true)"
+  directory_if_touched:
+    - python3 scripts/validate_directory.py
+  site_build:
+    - bundle exec jekyll build --trace
+    - bundle exec htmlproofer ./_site --disable-external --no-enforce-https
+  optional_accessibility:
+    - python3 -m http.server 4000 --directory _site
+    - npx --yes wait-on@7 http://127.0.0.1:4000/
+    - npx --yes pa11y-ci@3 --config .pa11yci.json
+  final_review:
+    - Confirm the entry appears in the intended upcoming or past listing.
+    - Confirm event dates, timezone, partner, speaker names, and external URLs.
+    - Confirm images load and have meaningful alt text where applicable.
+    - Confirm generated _site output was not added to the change.
+
+agent_workflow:
+  - Read this file first and classify the request using routing.
+  - Inspect one nearby existing entry before editing.
+  - Check for duplicate URL, slug, or person before creating a new record.
+  - Make the smallest source-only change.
+  - Run the narrowest relevant validation, then the site build when practical.
+  - Report source files changed, automation side effects, and checks run.
