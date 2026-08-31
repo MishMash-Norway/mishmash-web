@@ -61,6 +61,23 @@ selected_works:
     url: /people/georgios-marentakis/
   - name: Anders Nordahl-Hansen
     role: Creator
+- title: 'Mapping the landscape of tests employed in diagnosing developmental auditory
+    processing disorder in adults: A scoping review'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1016/j.actpsy.2026.107637
+  contributors:
+  - name: Cathrine Rismo Redi-Tränk
+    role: Creator
+  - name: Anders Dechsling
+    role: Creator
+  - name: Georgios Marentakis
+    role: Creator
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Anders Nordahl-Hansen
+    role: Creator
 - title: 'Hearing Protection Devices for Autistic Students Sensitive to Auditory Stimuli:
     Enhancing School Inclusivity?'
   year: '2026'
@@ -175,23 +192,6 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1007/s40489-025-00511-3
-  contributors:
-  - name: Marte Karoline Herrebrøden
-    role: Creator
-  - name: Anders Dechsling
-    role: Creator
-  - name: Georgios Marentakis
-    role: Creator
-    slug: georgios-marentakis
-    url: /people/georgios-marentakis/
-  - name: Anders  Nordahl-Hansen
-    role: Creator
-- title: "Autistic Persons with Auditory Sensory Differences:\r\nThe Use of Audio\
-    \ Technology - A Scoping Review"
-  year: '2025'
-  source: Conference poster
-  group_type: Conference
-  url: http://dx.doi.org/10.13140/RG.2.2.31799.23200
   contributors:
   - name: Marte Karoline Herrebrøden
     role: Creator

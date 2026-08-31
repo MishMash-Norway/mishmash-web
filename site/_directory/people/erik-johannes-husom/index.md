@@ -12,9 +12,6 @@ institutions:
 projects:
 - environmental-sustainability-mishmash
 other_projects:
-- title: 'ENFIELD: European Lighthouse to Manifest Trustworthy and Green AI'
-  url: https://nva.sikt.no/projects/2751996
-  nva_id: '2751996'
 - title: Intent-based data operation in the computing continuum
   url: https://nva.sikt.no/projects/2751489
   nva_id: '2751489'

@@ -14,9 +14,6 @@ other_projects:
 - title: 'DATAPACT: COMPLIANCE BY DESIGN OF DATA/AI OPERATIONS AND PIPELINES'
   url: https://nva.sikt.no/projects/2739280
   nva_id: '2739280'
-- title: 'ENFIELD: European Lighthouse to Manifest Trustworthy and Green AI'
-  url: https://nva.sikt.no/projects/2751996
-  nva_id: '2751996'
 - title: Intent-based data operation in the computing continuum
   url: https://nva.sikt.no/projects/2751489
   nva_id: '2751489'
