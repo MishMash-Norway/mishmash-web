@@ -26,10 +26,6 @@ other_projects:
     Dialogical Arts Education
   url: https://nva.sikt.no/projects/2653343
   nva_id: '2653343'
-- title: Teacher Education Academy for Music. Future-Making, Mobility and Networking
-    in Europe
-  url: https://nva.sikt.no/projects/2592942
-  nva_id: '2592942'
 roles:
 - Member
 urls:
