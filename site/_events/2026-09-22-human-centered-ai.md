@@ -15,7 +15,7 @@ The Gemini Centre for Trustworthy and Sustainable AI explores the challenges of 
 
 But which other aspects are important in our interaction with AIs? The MishMash Centre for AI and Creativity approaches AIs from the human perspective, understanding them as contributors to human creativity across all facets of everyday life and in fields including the arts, education, healthcare, and design. Does this uncover new aspects of the acceptability of AIs that go beyond trustworthiness? Are there scenarios where trusting AIs to “do the right thing” is not the central issue?
 
-**Draft program**
+**Draft program**  
 The full program will be announced soon, but the afternoon will feature:
 
 -   Six 20-minute talks, followed by time for questions and discussion
