@@ -18,7 +18,7 @@ urls:
   institutional_website: http://www.larsnyre.com
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0000-0002-7269-2267
   nva: https://nva.sikt.no/research-profile/49252
   youtube: ''
   facebook: ''

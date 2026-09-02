@@ -19,7 +19,7 @@ urls:
   institutional_website: ''
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0000-0001-5849-2851
   nva: https://nva.sikt.no/research-profile/15015
   youtube: ''
   facebook: ''

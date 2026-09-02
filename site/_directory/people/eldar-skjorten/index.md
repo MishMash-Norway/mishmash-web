@@ -22,7 +22,7 @@ urls:
   institutional_website: null
   github: null
   linkedin: null
-  orcid: null
+  orcid: https://orcid.org/0009-0003-6541-487X
   nva: null
   wikidata: null
   youtube: null
