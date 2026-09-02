@@ -7,8 +7,9 @@ name: Xiangming Zhang
 title: Xiangming Zhang
 position: null
 department: null
-institution: null
-institutions: []
+institution: norwegian-university-of-science-and-technology
+institutions:
+- norwegian-university-of-science-and-technology
 affiliation_units: []
 nva_affiliations: []
 projects: []

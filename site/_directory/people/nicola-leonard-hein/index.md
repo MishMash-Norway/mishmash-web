@@ -7,8 +7,9 @@ name: Nicola Leonard Hein
 title: Nicola Leonard Hein
 position: null
 department: null
-institution: null
-institutions: []
+institution: university-of-music-lubeck
+institutions:
+- university-of-music-lubeck
 affiliation_units: []
 nva_affiliations: []
 projects: []

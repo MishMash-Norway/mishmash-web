@@ -22,6 +22,7 @@ people:
 - jens-knigge
 - ole-christoffer-haga
 - oyvind-brandtsegg
+- xiangming-zhang
 projects:
 - bingo-ai-assisted-animation-documentary-film
 - evaluation-cultural-bias-workflow-ai-music-generation

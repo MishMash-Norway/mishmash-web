@@ -7,8 +7,9 @@ name: Bob L. T. Sturm
 title: Bob L. T. Sturm
 position: null
 department: null
-institution: null
-institutions: []
+institution: kth-royal-institute-of-technology
+institutions:
+- kth-royal-institute-of-technology
 affiliation_units: []
 nva_affiliations: []
 projects: []

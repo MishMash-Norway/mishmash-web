@@ -7,8 +7,9 @@ name: David Meredith
 title: David Meredith
 position: null
 department: null
-institution: null
-institutions: []
+institution: aalborg-university
+institutions:
+- aalborg-university
 affiliation_units: []
 nva_affiliations: []
 projects: []

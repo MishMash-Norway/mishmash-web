@@ -7,8 +7,9 @@ name: Ipek Linnea Polat-Snoen
 title: Ipek Linnea Polat-Snoen
 position: null
 department: null
-institution: null
-institutions: []
+institution: ghent-university
+institutions:
+- ghent-university
 affiliation_units: []
 nva_affiliations: []
 projects: []

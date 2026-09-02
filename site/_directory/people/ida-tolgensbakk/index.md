@@ -7,8 +7,9 @@ name: Ida Tolgensbakk
 title: Ida Tolgensbakk
 position: null
 department: null
-institution: null
-institutions: []
+institution: norwegian-museum-of-cultural-history
+institutions:
+- norwegian-museum-of-cultural-history
 affiliation_units: []
 nva_affiliations: []
 projects: []

@@ -26,7 +26,8 @@ urls:
   website: https://en.uit.no/
   wikipedia: https://en.wikipedia.org/wiki/UiT_The_Arctic_University_of_Norway
   wikidata: https://www.wikidata.org/wiki/Q279724
-aliases: []
+aliases:
+- UiT Norges arktiske universitet Universitetsbiblioteket
 tags: []
 search_keywords: []
 source_mentions:

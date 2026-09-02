@@ -7,8 +7,9 @@ name: Sabine Eckhardt
 title: Sabine Eckhardt
 position: null
 department: null
-institution: null
-institutions: []
+institution: norwegian-institute-for-air-research
+institutions:
+- norwegian-institute-for-air-research
 affiliation_units: []
 nva_affiliations: []
 projects: []
