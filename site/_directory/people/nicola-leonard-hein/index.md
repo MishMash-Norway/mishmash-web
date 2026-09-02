@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: nicola-leonard-hein
 permalink: /people/nicola-leonard-hein/

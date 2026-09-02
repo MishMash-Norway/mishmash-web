@@ -83,7 +83,7 @@ summary: Jane Sverdrupsen (b. 1979) is a visual artist and curator based in Berg
   Faculty of Fine Art, Music and Design (KMD), University of Bergen (2024–). Sverdrupsen
   has served as director of Kunstgarasjen (2023–2024) and director of Rogaland Kunstsenter
   (2020–2023). Her practice has resulted in national and international exhibitions.
-published: false
+published: true
 permalink: /people/jane-sverdrupsen/
 wps: []
 ---

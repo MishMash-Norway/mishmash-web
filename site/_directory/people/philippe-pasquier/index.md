@@ -92,7 +92,7 @@ selected_works:
   url: http://www.scopus.com/inward/record.url?eid=2-s2.0-85101834126&partnerID=MN8TOARS
 source_mentions: []
 summary: null
-published: false
+published: true
 permalink: /people/philippe-pasquier/
 wps: []
 ---

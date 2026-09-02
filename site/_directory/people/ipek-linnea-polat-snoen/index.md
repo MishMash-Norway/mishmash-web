@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: ipek-linnea-polat-snoen
 permalink: /people/ipek-linnea-polat-snoen/

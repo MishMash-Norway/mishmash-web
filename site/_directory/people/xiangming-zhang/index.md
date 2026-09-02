@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: xiangming-zhang
 permalink: /people/xiangming-zhang/

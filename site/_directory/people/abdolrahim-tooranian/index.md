@@ -29,7 +29,7 @@ search_keywords: []
 selected_works: []
 source_mentions: []
 summary: null
-published: false
+published: true
 permalink: /people/abdolrahim-tooranian/
 wps: []
 ---

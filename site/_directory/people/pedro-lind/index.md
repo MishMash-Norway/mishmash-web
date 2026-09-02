@@ -128,7 +128,7 @@ summary: 'Pedro Goncalves Lind works in artificial intelligence and data analysi
   and teaching, invited talks and other communications and seminars, can be found
   in his homepage: https://www.cs.oslomet.no/~pedrolin/.'
 permalink: /people/pedro-lind/
-published: false
+published: true
 wps: []
 ---
 

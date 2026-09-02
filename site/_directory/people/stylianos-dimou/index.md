@@ -162,7 +162,7 @@ summary: 'Stylianos Dimou is a distinguished Greek composer renowned for his exp
   Commissions at the Lucerne Festival Academy (2013), judged by Pierre Boulez. His
   academic achievements include the Charles S. Miller Prize (2029) from Columbia University
   and the Wayne Brewster Barlow Prize from the Eastman'
-published: false
+published: true
 permalink: /people/stylianos-dimou/
 wps: []
 ---

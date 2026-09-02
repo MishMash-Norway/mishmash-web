@@ -134,7 +134,7 @@ selected_works:
 source_mentions: []
 summary: ''
 permalink: /people/guro-von-germeten/
-published: false
+published: true
 wps: []
 ---
 

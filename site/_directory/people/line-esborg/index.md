@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: line-esborg
 permalink: /people/line-esborg/

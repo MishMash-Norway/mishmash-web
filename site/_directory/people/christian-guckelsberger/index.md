@@ -94,7 +94,7 @@ selected_works:
 source_mentions: []
 summary: ''
 permalink: /people/christian-guckelsberger/
-published: false
+published: true
 wps: []
 ---
 

@@ -161,7 +161,7 @@ selected_works:
     role: Creator
 source_mentions: []
 summary: null
-published: false
+published: true
 permalink: /people/karthik-shivashankar/
 wps: []
 ---

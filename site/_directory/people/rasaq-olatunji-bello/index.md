@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: rasaq-olatunji-bello
 permalink: /people/rasaq-olatunji-bello/

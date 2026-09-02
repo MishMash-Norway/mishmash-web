@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: elin-kanhov
 permalink: /people/elin-kanhov/

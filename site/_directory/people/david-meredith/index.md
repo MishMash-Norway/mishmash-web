@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: david-meredith
 permalink: /people/david-meredith/

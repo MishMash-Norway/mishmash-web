@@ -99,7 +99,7 @@ selected_works:
     role: AcademicCoordinator
 source_mentions: []
 summary: null
-published: false
+published: true
 permalink: /people/morten-h-forsberg/
 wps: []
 ---

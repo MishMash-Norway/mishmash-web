@@ -190,7 +190,7 @@ selected_works:
 source_mentions: []
 summary: ''
 permalink: /people/jonas-karlsen-astrom/
-published: false
+published: true
 wps: []
 ---
 

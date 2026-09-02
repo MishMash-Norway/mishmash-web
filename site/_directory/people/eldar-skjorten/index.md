@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: eldar-skjorten
 permalink: /people/eldar-skjorten/

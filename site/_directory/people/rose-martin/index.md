@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: rose-martin
 permalink: /people/rose-martin/

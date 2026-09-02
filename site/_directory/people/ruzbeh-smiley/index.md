@@ -139,7 +139,7 @@ summary: Ruzbeh Smiley (BSc, MA, MSc, PhD) is a Doctoral Research Fellow in Musi
   research focuses on the intersection of artificial intelligence and music production.
   Specifically, examining the evolving relationship between music producers and AI-assisted
   tools.
-published: false
+published: true
 permalink: /people/ruzbeh-smiley/
 wps: []
 ---

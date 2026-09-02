@@ -52,7 +52,7 @@ selected_works:
   url: https://zenodo.org/doi/10.5281/zenodo.11189141
 source_mentions: []
 summary: null
-published: false
+published: true
 permalink: /people/teresa-pelinski/
 wps: []
 ---

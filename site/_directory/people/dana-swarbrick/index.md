@@ -242,7 +242,7 @@ summary: "BSc McMaster University in Psychology, Neuroscience, and Behaviour wit
   \ a specialization in Music Cognition\r\nMSc University of Toronto in Rehabilitation\
   \ Sciences with Collaborative Program in Neuroscience"
 permalink: /people/dana-swarbrick/
-published: false
+published: true
 wps: []
 ---
 

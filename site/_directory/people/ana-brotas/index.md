@@ -45,7 +45,7 @@ summary: Ana Brotas has a background in public art, audiovisual communication, a
   for which she was awarded a bursary from the Calouste Gulbenkian Foundation (PT).
 layout: person
 permalink: /people/ana-brotas/
-published: false
+published: true
 wps: []
 ---
 

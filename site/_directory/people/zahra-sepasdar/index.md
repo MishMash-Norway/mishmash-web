@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: zahra-sepasdar
 permalink: /people/zahra-sepasdar/

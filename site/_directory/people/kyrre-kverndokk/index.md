@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: kyrre-kverndokk
 permalink: /people/kyrre-kverndokk/

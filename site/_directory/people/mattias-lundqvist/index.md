@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: mattias-lundqvist
 permalink: /people/mattias-lundqvist/

@@ -72,7 +72,7 @@ summary: 'Born in 1977 in Corinth, Greece, I am a visual artist based between Os
   I am a member of the Norwegian Visual Artists (NBK) and the Young Artists’ Society
   (UKS).'
 permalink: /people/kalliopi-nikolou/
-published: false
+published: true
 wps: []
 ---
 

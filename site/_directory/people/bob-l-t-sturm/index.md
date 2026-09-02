@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: bob-l-t-sturm
 permalink: /people/bob-l-t-sturm/

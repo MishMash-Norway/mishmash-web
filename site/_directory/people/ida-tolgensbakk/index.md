@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 type: person
 slug: ida-tolgensbakk
 permalink: /people/ida-tolgensbakk/

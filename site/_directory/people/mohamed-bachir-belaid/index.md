@@ -57,7 +57,7 @@ summary: 'My name is Mohamed-Bachir Belaid, a researcher in computer science, bo
   My main research interests are: symbolic AI, constraint reasoning and learning,
   optimization, explainable AI, concept learning, learning automata, AI applications
   on environmental problems,...etc.'
-published: false
+published: true
 permalink: /people/mohamed-bachir-belaid/
 wps: []
 ---
