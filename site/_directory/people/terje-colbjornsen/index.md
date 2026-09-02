@@ -174,5 +174,7 @@ description: Associate professor, Department of Communication and Culture, BI No
 permalink: /people/terje-colbjornsen/
 redirect_from:
 - /directory/people/terje-colbjornsen/
+wps:
+- WP5
 ---
 

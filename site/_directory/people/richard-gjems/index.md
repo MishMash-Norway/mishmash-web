@@ -152,6 +152,7 @@ selected_works:
 source_mentions: []
 summary: Master in Cultural History from the University of Oslo (2003).
 wps:
+- WP5
 - WP6
 permalink: /people/richard-gjems/
 redirect_from:

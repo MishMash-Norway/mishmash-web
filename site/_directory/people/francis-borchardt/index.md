@@ -139,6 +139,7 @@ selected_works:
     url: /people/francis-borchardt/
 source_mentions: []
 wps:
+- WP4
 - WP6
 permalink: /people/francis-borchardt/
 redirect_from:

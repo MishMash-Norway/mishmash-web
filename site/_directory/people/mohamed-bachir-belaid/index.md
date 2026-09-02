@@ -60,6 +60,7 @@ summary: 'My name is Mohamed-Bachir Belaid, a researcher in computer science, bo
 published: true
 permalink: /people/mohamed-bachir-belaid/
 wps:
+- WP4
 - WP7
 ---
 

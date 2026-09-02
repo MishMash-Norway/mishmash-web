@@ -144,6 +144,8 @@ summary: 'Henning Birkeland is a college teacher at Westerdals - Kristiania Univ
   advertising and animation film'
 wps:
 - WP2
+- WP5
+- WP6
 permalink: /people/henning-birkeland/
 redirect_from:
 - /directory/people/henning-birkeland/

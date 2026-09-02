@@ -246,5 +246,7 @@ layout: person
 permalink: /people/charles-martin/
 redirect_from:
 - /directory/people/charles-martin/
+wps:
+- WP1
 ---
 

@@ -116,6 +116,7 @@ redirect_from:
 - /directory/people/sigbjorn-galaen/
 wps:
 - WP2
+- WP3
 permalink: /people/sigbjorn-galaen/
 ---
 

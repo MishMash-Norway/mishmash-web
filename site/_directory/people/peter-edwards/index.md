@@ -138,6 +138,9 @@ description: Professor, Department of Musicology, University of Oslo
 permalink: /people/peter-edwards/
 redirect_from:
 - /directory/people/peter-edwards/
+wps:
+- WP2
+- WP5
 ---
 
 Bio coming soon.

@@ -179,6 +179,8 @@ description: Researcher, Visual media and conservation, National Library of Norw
 permalink: /people/eivind-rossaak/
 redirect_from:
 - /directory/people/eivind-rossaak/
+wps:
+- WP2
 ---
 
 Bio coming soon.

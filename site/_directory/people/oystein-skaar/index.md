@@ -198,6 +198,10 @@ description: Associate professor, Department of Education, University of Bergen
 permalink: /people/oystein-skaar/
 redirect_from:
 - /directory/people/oystein-skaar/
+wps:
+- WP3
+- WP4
+- WP7
 ---
 
 Bio coming soon.

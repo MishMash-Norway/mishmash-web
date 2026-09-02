@@ -99,6 +99,7 @@ source_mentions: []
 summary: ''
 wps:
 - WP1
+- WP3
 - WP7
 permalink: /people/myrthe-tilleman/
 redirect_from:

@@ -78,7 +78,11 @@ summary: Mette Nyseter holds a degree in documentary directing from the TV Schoo
 permalink: /people/mette-nyseter/
 published: true
 wps:
+- WP1
 - WP2
+- WP4
+- WP5
+- WP7
 ---
 
 Bio.

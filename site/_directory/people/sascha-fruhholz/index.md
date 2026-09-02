@@ -240,6 +240,7 @@ wps:
 - WP1
 - WP3
 - WP5
+- WP6
 permalink: /people/sascha-fruhholz/
 redirect_from:
 - /directory/people/sascha-fruhholz/

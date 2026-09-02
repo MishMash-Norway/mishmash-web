@@ -212,6 +212,7 @@ source_mentions:
 summary: ''
 layout: person
 wps:
+- WP2
 - WP4
 - WP7
 description: Associate professor, Faculty of Film, TV and Games, University of Inland

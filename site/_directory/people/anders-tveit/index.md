@@ -228,6 +228,8 @@ description: University lecturer, Fagseksjon for musikkteori, komposisjon og mus
 permalink: /people/anders-tveit/
 redirect_from:
 - /directory/people/anders-tveit/
+wps:
+- WP1
 ---
 
 Bio coming soon.

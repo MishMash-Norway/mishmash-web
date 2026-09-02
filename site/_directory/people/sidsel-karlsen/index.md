@@ -182,6 +182,7 @@ source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''
 wps:
+- WP2
 - WP4
 permalink: /people/sidsel-karlsen/
 redirect_from:

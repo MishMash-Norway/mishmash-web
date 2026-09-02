@@ -90,6 +90,8 @@ permalink: /people/luciano-azzigotti/
 published: true
 wps:
 - WP1
+- WP2
+- WP7
 ---
 
 Bio.

@@ -291,5 +291,11 @@ description: Researcher, Department of Musicology, University of Oslo
 permalink: /people/olivier-lartillot/
 redirect_from:
 - /directory/people/olivier-lartillot/
+wps:
+- WP2
+- WP3
+- WP4
+- WP5
+- WP6
 ---
 

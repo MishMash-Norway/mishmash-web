@@ -72,6 +72,10 @@ description: Student, Faculty of Social Sciences, Nord University
 permalink: /people/aedan-soellaart/
 redirect_from:
 - /directory/people/aedan-soellaart/
+wps:
+- WP2
+- WP4
+- WP5
 ---
 
 Bio coming soon.

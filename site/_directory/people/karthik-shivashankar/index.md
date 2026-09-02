@@ -165,6 +165,7 @@ published: true
 permalink: /people/karthik-shivashankar/
 wps:
 - WP2
+- WP6
 ---
 
 Bio.

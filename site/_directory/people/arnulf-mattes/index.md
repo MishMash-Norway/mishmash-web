@@ -153,5 +153,7 @@ description: Professor, Faculty of Fine Art, Music and Design, University of Ber
 permalink: /people/arnulf-mattes/
 redirect_from:
 - /directory/people/arnulf-mattes/
+wps:
+- WP6
 ---
 

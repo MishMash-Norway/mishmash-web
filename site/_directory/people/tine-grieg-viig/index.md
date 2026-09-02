@@ -162,5 +162,8 @@ description: Associate professor, Department of Arts Education, Western Norway U
 permalink: /people/tine-grieg-viig/
 redirect_from:
 - /directory/people/tine-grieg-viig/
+wps:
+- WP2
+- WP4
 ---
 

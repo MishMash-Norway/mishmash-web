@@ -47,6 +47,7 @@ summary: Hanne Maren Meldahl is an artist, teacher educator, and PhD Research Fe
   of art, education, and research, with a particular focus on creative practices,
   materiality, postdigital pedagogy, and artificial intelligence.
 wps:
+- WP2
 - WP4
 permalink: /people/hanne-maren-meldahl/
 ---

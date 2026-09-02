@@ -209,5 +209,10 @@ description: Associate professor, Institute of Design, Oslo School of Architectu
 permalink: /people/kjetil-nordby/
 redirect_from:
 - /directory/people/kjetil-nordby/
+wps:
+- WP2
+- WP4
+- WP5
+- WP7
 ---
 

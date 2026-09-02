@@ -131,6 +131,10 @@ description: Associate professor, Institute of Design, Oslo School of Architectu
 permalink: /people/enrique-encinas/
 redirect_from:
 - /directory/people/enrique-encinas/
+wps:
+- WP1
+- WP2
+- WP7
 ---
 
 Bio coming soon.

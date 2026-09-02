@@ -53,6 +53,7 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 wps:
+- WP5
 - WP6
 permalink: /people/ingrid-romarheim-haugen/
 redirect_from:

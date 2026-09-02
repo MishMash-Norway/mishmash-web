@@ -324,5 +324,9 @@ description: 'Researcher, NORSUS: Norwegian Institute for Sustainability Researc
 permalink: /people/lina-plataniti/
 redirect_from:
 - /directory/people/lina-plataniti/
+wps:
+- WP5
+- WP6
+- WP7
 ---
 

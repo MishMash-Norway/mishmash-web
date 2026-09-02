@@ -136,7 +136,10 @@ summary: null
 published: true
 permalink: /people/luz-maria-sanchez-cardona/
 wps:
+- WP1
 - WP2
+- WP5
+- WP6
 ---
 
 Bio coming soon.

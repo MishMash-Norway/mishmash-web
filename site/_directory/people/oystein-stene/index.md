@@ -138,6 +138,8 @@ description: Professor, The Academy of Theatre, Oslo National Academy of the Art
 permalink: /people/oystein-stene/
 redirect_from:
 - /directory/people/oystein-stene/
+wps:
+- WP4
 ---
 
 Bio coming soon.

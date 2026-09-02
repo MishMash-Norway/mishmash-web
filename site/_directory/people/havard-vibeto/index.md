@@ -178,7 +178,10 @@ summary: Håvard Vibeto is both a film scholar and a game researcher who is prim
   game experiences, gameplay, VR and storytelling.
 wps:
 - WP2
+- WP3
 - WP4
+- WP5
+- WP7
 permalink: /people/havard-vibeto/
 redirect_from:
 - /directory/people/havard-vibeto/

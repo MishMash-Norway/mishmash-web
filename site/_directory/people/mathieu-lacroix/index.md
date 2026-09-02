@@ -164,6 +164,7 @@ summary: Mathieu Lacroix is a Canadian composer, producer, musician and programm
 wps:
 - WP1
 - WP2
+- WP5
 permalink: /people/mathieu-lacroix/
 ---
 

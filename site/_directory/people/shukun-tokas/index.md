@@ -48,6 +48,7 @@ published: true
 permalink: /people/shukun-tokas/
 wps:
 - WP3
+- WP4
 - WP5
 - WP7
 ---

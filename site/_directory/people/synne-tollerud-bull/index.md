@@ -206,9 +206,13 @@ summary: Synne Tollerud Bull is Professor of Media Art and Pro Dean of Research 
   for AI and Creativity, serves as co-Director of the Kristiania AI Centre (KAI),
   and AI Ecologies.
 wps:
+- WP1
 - WP2
+- WP3
+- WP4
 - WP5
 - WP6
+- WP7
 permalink: /people/synne-tollerud-bull/
 redirect_from:
 - /directory/people/synne-tollerud-bull/

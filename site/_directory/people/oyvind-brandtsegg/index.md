@@ -225,6 +225,9 @@ redirect_from:
 - /directory/people/oyvind-brandtsegg/
 - /people/oyvind-brandsegg/
 - /directory/people/oyvind-brandsegg/
+wps:
+- WP1
+- WP2
 ---
 
 Bio coming soon.

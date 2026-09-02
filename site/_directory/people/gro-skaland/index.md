@@ -98,6 +98,9 @@ description: Associate professor, School of Health Sciences, Kristiania Universi
 permalink: /people/gro-skaland/
 redirect_from:
 - /directory/people/gro-skaland/
+wps:
+- WP4
+- WP7
 ---
 
 Bio coming soon.

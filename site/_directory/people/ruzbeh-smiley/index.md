@@ -142,7 +142,9 @@ summary: Ruzbeh Smiley (BSc, MA, MSc, PhD) is a Doctoral Research Fellow in Musi
 published: true
 permalink: /people/ruzbeh-smiley/
 wps:
+- WP1
 - WP2
+- WP4
 - WP5
 ---
 

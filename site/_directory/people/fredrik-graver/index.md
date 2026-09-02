@@ -64,5 +64,9 @@ description: Professor, Faculty of Film, TV and Games, University of Inland Norw
 permalink: /people/fredrik-graver/
 redirect_from:
 - /directory/people/fredrik-graver/
+wps:
+- WP2
+- WP4
+- WP5
 ---
 

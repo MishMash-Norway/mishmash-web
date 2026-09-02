@@ -156,5 +156,7 @@ redirect_from:
 - /people/irina-eidsvold-toien/
 - /directory/people/irina-eidsvold-toien/
 - /directory/people/irina-eidsvold/
+wps:
+- WP5
 ---
 

@@ -381,6 +381,9 @@ source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''
 wps:
+- WP1
+- WP3
+- WP6
 - WP7
 permalink: /people/baltasar-beferull-lozano/
 redirect_from:

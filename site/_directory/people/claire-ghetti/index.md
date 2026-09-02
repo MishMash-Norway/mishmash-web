@@ -285,5 +285,7 @@ description: Professor, Faculty of Fine Art, Music and Design, University of Ber
 permalink: /people/claire-ghetti/
 redirect_from:
 - /directory/people/claire-ghetti/
+wps:
+- WP3
 ---
 

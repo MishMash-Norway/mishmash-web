@@ -146,5 +146,13 @@ description: Associate professor, Department of English, University of Inland No
 permalink: /people/ida-jahr/
 redirect_from:
 - /directory/people/ida-jahr/
+wps:
+- WP1
+- WP2
+- WP3
+- WP4
+- WP5
+- WP6
+- WP7
 ---
 

@@ -196,6 +196,8 @@ summary: ''
 wps:
 - WP1
 - WP2
+- WP3
+- WP4
 permalink: /people/ivar-grydeland/
 redirect_from:
 - /directory/people/ivar-grydeland/

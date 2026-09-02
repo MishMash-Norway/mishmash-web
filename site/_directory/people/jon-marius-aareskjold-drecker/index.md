@@ -249,5 +249,9 @@ description: Senior lecturer, Department of Musicology, University of Oslo
 permalink: /people/jon-marius-aareskjold-drecker/
 redirect_from:
 - /directory/people/jon-marius-aareskjold-drecker/
+wps:
+- WP1
+- WP2
+- WP5
 ---
 

@@ -64,6 +64,9 @@ layout: person
 permalink: /people/zacharias-andreadakis/
 redirect_from:
 - /directory/people/zacharias-andreadakis/
+wps:
+- WP4
+- WP7
 ---
 
 Bio coming soon.

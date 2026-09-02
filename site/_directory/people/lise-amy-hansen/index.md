@@ -197,5 +197,11 @@ description: Professor, Institute of Design, Oslo School of Architecture and Des
 permalink: /people/lise-amy-hansen/
 redirect_from:
 - /directory/people/lise-amy-hansen/
+wps:
+- WP1
+- WP2
+- WP3
+- WP5
+- WP6
 ---
 

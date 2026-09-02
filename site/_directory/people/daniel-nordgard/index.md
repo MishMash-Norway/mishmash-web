@@ -168,5 +168,9 @@ description: Professor, Department of Popular Music, University of Agder
 permalink: /people/daniel-nordgard/
 redirect_from:
 - /directory/people/daniel-nordgard/
+wps:
+- WP2
+- WP5
+- WP7
 ---
 

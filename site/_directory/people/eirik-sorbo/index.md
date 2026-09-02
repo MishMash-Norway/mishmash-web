@@ -149,6 +149,7 @@ summary: Researcher, educator, and musician. PhD in music education from the Uni
 redirect_from:
 - /directory/people/eirik-sorbo/
 wps:
+- WP2
 - WP4
 permalink: /people/eirik-sorbo/
 layout: person

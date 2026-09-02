@@ -221,6 +221,9 @@ source_mentions: []
 summary: ''
 wps:
 - WP1
+- WP2
+- WP4
+- WP7
 permalink: /people/kai-olav-ellefsen/
 redirect_from:
 - /directory/people/kai-olav-ellefsen/

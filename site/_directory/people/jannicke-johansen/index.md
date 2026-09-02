@@ -181,6 +181,9 @@ summary: Jannicke Johansen is an associate professor at the Westerdals Departmen
   art, and design can contribute to building a society based on trust, security, and
   belonging.
 wps:
+- WP2
+- WP4
+- WP5
 - WP6
 permalink: /people/jannicke-johansen/
 ---

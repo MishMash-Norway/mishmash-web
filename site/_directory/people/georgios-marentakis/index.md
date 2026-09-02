@@ -212,6 +212,10 @@ summary: Georgios Marentakis has a background in HCI and Sound and Music Computi
   and has worked in research-intensive environments in North America and Europe.
 wps:
 - WP1
+- WP3
+- WP5
+- WP6
+- WP7
 permalink: /people/georgios-marentakis/
 redirect_from:
 - /directory/people/georgios-marentakis/

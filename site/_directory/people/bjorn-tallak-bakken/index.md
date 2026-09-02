@@ -214,6 +214,7 @@ redirect_from:
 - /directory/people/bjorn-tallak-bakken/
 wps:
 - WP2
+- WP3
 - WP4
 - WP7
 permalink: /people/bjorn-tallak-bakken/

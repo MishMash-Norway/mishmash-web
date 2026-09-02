@@ -194,8 +194,13 @@ summary: 'Ole Goethe (born December 26, 1975), a Norwegian researcher and produc
 
   longevity and meaningfulness in user engagement and engagement at scale'
 wps:
+- WP1
+- WP2
+- WP3
 - WP4
+- WP5
 - WP6
+- WP7
 permalink: /people/ole-goethe/
 redirect_from:
 - /directory/people/ole-goethe/

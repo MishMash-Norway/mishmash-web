@@ -154,6 +154,7 @@ source_mentions: []
 summary: ''
 wps:
 - WP2
+- WP4
 - WP5
 permalink: /people/ole-fredrik-norbye/
 redirect_from:

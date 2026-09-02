@@ -245,5 +245,9 @@ layout: person
 permalink: /people/carsten-griwodz/
 redirect_from:
 - /directory/people/carsten-griwodz/
+wps:
+- WP1
+- WP4
+- WP7
 ---
 

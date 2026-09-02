@@ -165,6 +165,7 @@ summary: 'Stylianos Dimou is a distinguished Greek composer renowned for his exp
 published: true
 permalink: /people/stylianos-dimou/
 wps:
+- WP1
 - WP2
 ---
 

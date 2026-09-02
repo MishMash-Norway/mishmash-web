@@ -177,6 +177,9 @@ description: Associate professor, Department of Music, Kristiania University Col
 permalink: /people/terje-gaustad/
 redirect_from:
 - /directory/people/terje-gaustad/
+wps:
+- WP2
+- WP5
 ---
 
 Bio coming soon.

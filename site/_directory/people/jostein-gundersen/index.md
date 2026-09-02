@@ -82,5 +82,8 @@ description: Professor, Faculty of Fine Art, Music and Design, University of Ber
 permalink: /people/jostein-gundersen/
 redirect_from:
 - /directory/people/jostein-gundersen/
+wps:
+- WP1
+- WP2
 ---
 

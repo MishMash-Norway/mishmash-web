@@ -138,6 +138,9 @@ description: University lecturer, Department of Media and Social Sciences, Unive
 permalink: /people/sigmund-trageton/
 redirect_from:
 - /directory/people/sigmund-trageton/
+wps:
+- WP2
+- WP4
 ---
 
 Bio coming soon.

@@ -159,6 +159,8 @@ description: Professor, Department of Private Law, University of Oslo
 permalink: /people/ole-andreas-rognstad/
 redirect_from:
 - /directory/people/ole-andreas-rognstad/
+wps:
+- WP5
 ---
 
 Bio coming soon.

@@ -264,7 +264,11 @@ redirect_from:
 - /directory/people/kyrre-glette/
 wps:
 - WP1
+- WP2
 - WP3
+- WP4
+- WP5
+- WP6
 - WP7
 ---
 

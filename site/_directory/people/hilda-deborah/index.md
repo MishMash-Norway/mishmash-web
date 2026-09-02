@@ -204,6 +204,7 @@ source_mentions: []
 summary: ''
 wps:
 - WP6
+- WP7
 permalink: /people/hilda-deborah/
 redirect_from:
 - /directory/people/hilda-deborah/

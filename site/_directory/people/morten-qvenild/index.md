@@ -198,5 +198,7 @@ description: Pro-rector, Fagseksjon for improvisert musikk, jazz og folkemusikk,
 permalink: /people/morten-qvenild/
 redirect_from:
 - /directory/people/morten-qvenild/
+wps:
+- WP1
 ---
 

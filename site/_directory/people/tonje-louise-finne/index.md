@@ -62,6 +62,9 @@ description: Associate professor, Faculty of Film, TV and Games, University of I
 permalink: /people/tonje-louise-finne/
 redirect_from:
 - /directory/people/tonje-louise-finne/
+wps:
+- WP2
+- WP4
 ---
 
 Bio coming soon.

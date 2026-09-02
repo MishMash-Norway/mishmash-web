@@ -179,6 +179,10 @@ description: Professor, Faculty of Fine Art, Music and Design, University of Ber
 permalink: /people/daniel-peter-biro/
 redirect_from:
 - /directory/people/daniel-peter-biro/
+wps:
+- WP1
+- WP2
+- WP6
 ---
 
 Bio coming soon.

@@ -142,5 +142,7 @@ description: Post-doctoral research fellow, Faculty of Fine Art, Music and Desig
 permalink: /people/budhaditya-chattopadhyay/
 redirect_from:
 - /directory/people/budhaditya-chattopadhyay/
+wps:
+- WP2
 ---
 

@@ -219,8 +219,10 @@ selected_works:
 source_mentions: []
 summary: ''
 wps:
+- WP1
 - WP2
 - WP3
+- WP4
 - WP5
 permalink: /people/andrew-perkis/
 redirect_from:

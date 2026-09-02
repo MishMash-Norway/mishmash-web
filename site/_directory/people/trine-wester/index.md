@@ -162,6 +162,8 @@ description: Associate professor, Art and Craft, Oslo National Academy of the Ar
 permalink: /people/trine-wester/
 redirect_from:
 - /directory/people/trine-wester/
+wps:
+- WP4
 ---
 
 Bio coming soon.

@@ -13,6 +13,7 @@ affiliation_units: []
 nva_affiliations: []
 projects: []
 wps:
+- WP2
 - WP4
 roles:
 - Member

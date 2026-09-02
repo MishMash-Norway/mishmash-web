@@ -29,5 +29,8 @@ redirect_from:
 - /directory/people/christian-blom/
 department: ''
 summary: ''
+wps:
+- WP1
+- WP2
 ---
 

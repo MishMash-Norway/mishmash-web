@@ -240,6 +240,8 @@ selected_works:
     url: /people/alexander-refsum-jensenius/
 source_mentions: []
 wps:
+- WP1
+- WP3
 - WP6
 permalink: /people/anna-maria-christodoulou/
 redirect_from:

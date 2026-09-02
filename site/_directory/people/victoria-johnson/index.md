@@ -232,6 +232,8 @@ description: Research fellow, Fagseksjon for strykere, Norwegian Academy of Musi
 permalink: /people/victoria-johnson/
 redirect_from:
 - /directory/people/victoria-johnson/
+wps:
+- WP1
 ---
 
 Bio coming soon.

@@ -146,6 +146,10 @@ description: Researcher, Software Engineering, Safety and Security, SINTEF Digit
 permalink: /people/viggo-tellefsen-wivestad/
 redirect_from:
 - /directory/people/viggo-tellefsen-wivestad/
+wps:
+- WP2
+- WP5
+- WP7
 ---
 
 Bio coming soon.

@@ -223,6 +223,7 @@ wps:
 - WP1
 - WP5
 - WP6
+- WP7
 permalink: /people/tejaswinee-kelkar/
 redirect_from:
 - /directory/people/tejaswinee-kelkar/

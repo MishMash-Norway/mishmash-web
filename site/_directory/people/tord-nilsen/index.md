@@ -31,6 +31,7 @@ summary: null
 published: true
 permalink: /people/tord-nilsen/
 wps:
+- WP5
 - WP6
 ---
 

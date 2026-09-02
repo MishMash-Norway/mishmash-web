@@ -101,7 +101,10 @@ summary: Ingerine Dahl is a Norwegian violinist who has served as second concert
   light, movement, and audience participation. She is the founder, CEO, and inventor
   of Muzziball, an interactive sensory ball used in healthcare and educational settings.
 wps:
+- WP1
+- WP2
 - WP3
+- WP4
 permalink: /people/ingerine-dahl/
 ---
 

@@ -223,6 +223,8 @@ summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learnin
   Music Technology.
 wps:
 - WP1
+- WP2
+- WP7
 permalink: /people/stefano-fasciani/
 redirect_from:
 - /directory/people/stefano-fasciani/

@@ -231,6 +231,8 @@ source_mentions: []
 summary: ''
 wps:
 - WP1
+- WP2
+- WP3
 - WP4
 - WP7
 permalink: /people/cagri-erdem/

@@ -140,6 +140,9 @@ description: Professor, Department of Teacher Education, NLA University College
 permalink: /people/clemens-cavallin/
 redirect_from:
 - /directory/people/clemens-cavallin/
+wps:
+- WP4
+- WP5
 ---
 
 Bio coming soon.

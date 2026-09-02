@@ -42,6 +42,7 @@ permalink: /people/troels-linde/
 redirect_from:
 - /directory/people/troels-linde/
 wps:
+- WP1
 - WP2
 - WP5
 - WP7
