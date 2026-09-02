@@ -22,7 +22,7 @@ wps:
 roles:
 - Member
 urls:
-  personal_website: https:/www.titanmusic.com
+  personal_website: https://www.titanmusic.com
   institutional_website: https://vbn.aau.dk/en/persons/dave/
   github: https://chromamorph
   linkedin: null

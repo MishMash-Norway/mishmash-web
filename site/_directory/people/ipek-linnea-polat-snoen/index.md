@@ -22,7 +22,7 @@ urls:
   institutional_website: null
   github: null
   linkedin: https://www.linkedin.com/in/ipek-polat
-  orcid: 0009000119291819
+  orcid: https://orcid.org/0009-0001-1929-1819
   nva: null
   wikidata: null
   youtube: null
