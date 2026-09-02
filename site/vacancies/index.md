@@ -21,7 +21,9 @@ Many of the MishMash partners offer internships. These are typically not announc
 
 ## Master Fellowships
 
-We are planning the announcement of master fellowships. These are unpaid but with the opportunity to apply for travel funding to attend MishMash events.
+Master's students at affiliated institutions can [apply to become a MishMash Master Fellow](https://nettskjema.no/a/mishmash-master-fellows). These are unpaid fellowships, but with some benefits. Selected master fellows will be part of the MishMash community and be integrated fully into work package activities. They will also be eligible for funding to participate in MishMash events and apply for seed funding. Apply [here].
+
+
 
 ## Doctoral Fellowships
 
@@ -56,7 +58,7 @@ These positions generally require that the PhD dissertation has been submitted b
 
 | Institution | Type | Title | Deadline |
 | --- | --- | --- | --- |
-| University of Agder | Scientific | [Post-doctoral Research Fellow in AI and Cultural Heritage](https://www.jobbnorge.no/en/available-jobs/job/302288/post-doctoral-research-fellow-in-ai-and-cultural-heritage) | 9 August 2026 |
+| University of Agder | Scientific | [Post-doctoral Research Fellow in AI and Cultural Heritage](https://www.jobbnorge.no/en/available-jobs/job/302288/post-doctoral-research-fellow-in-ai-and-cultural-heritage) | ~~9 August 2026~~ |
 | NTNU | Scientific | [Postdoctoral Fellow on European AI in Creative and Cultural Industries](https://www.jobbnorge.no/en/available-jobs/job/300209/postdoctoral-fellow-on-european-ai-in-creative-and-cultural-industries) | ~~14 May 2026~~ |
 | SimulaMet | Scientific | [Machine Learning for CoCreativity in Remote Operations](https://www.simulamet.no/careers/job-openings/postdoctoral-research-fellowship-in-machine-learning-for-cocreativity-in-remote-operations) | ~~1 Apr 2026~~ |
 | University of Oslo | Scientific | Music and AI in the creative and cultural industries | ~~1 Mar 2026~~ |
