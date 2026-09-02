@@ -30,7 +30,10 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/jing-lin/
-wps: []
+wps:
+- WP4
+- WP5
+- WP7
 ---
 
 Bio.

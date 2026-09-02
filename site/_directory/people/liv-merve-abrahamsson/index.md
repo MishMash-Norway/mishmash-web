@@ -206,7 +206,10 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/liv-merve-abrahamsson/
-wps: []
+wps:
+- WP3
+- WP4
+- WP7
 ---
 
 Bio coming soon.

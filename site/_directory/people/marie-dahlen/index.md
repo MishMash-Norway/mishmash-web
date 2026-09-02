@@ -123,7 +123,10 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/marie-dahlen/
-wps: []
+wps:
+- WP1
+- WP2
+- WP6
 ---
 
 Bio coming soon.

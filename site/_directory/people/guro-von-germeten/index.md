@@ -135,7 +135,8 @@ source_mentions: []
 summary: ''
 permalink: /people/guro-von-germeten/
 published: true
-wps: []
+wps:
+- WP4
 ---
 
 Bio.

@@ -95,7 +95,9 @@ source_mentions: []
 summary: ''
 permalink: /people/christian-guckelsberger/
 published: true
-wps: []
+wps:
+- WP2
+- WP7
 ---
 
 Bio.

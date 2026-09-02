@@ -243,7 +243,9 @@ summary: "BSc McMaster University in Psychology, Neuroscience, and Behaviour wit
   \ Sciences with Collaborative Program in Neuroscience"
 permalink: /people/dana-swarbrick/
 published: true
-wps: []
+wps:
+- WP1
+- WP3
 ---
 
 Bio.

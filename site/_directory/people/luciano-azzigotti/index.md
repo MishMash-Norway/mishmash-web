@@ -88,7 +88,8 @@ summary: "Luciano Azzigotti is a composer and media artist whose work focuses on
   \ he curates and researches about fictional objects and hypermusic at foMi.Lab"
 permalink: /people/luciano-azzigotti/
 published: true
-wps: []
+wps:
+- WP1
 ---
 
 Bio.

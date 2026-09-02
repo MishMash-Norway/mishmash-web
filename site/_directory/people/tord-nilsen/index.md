@@ -30,7 +30,8 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/tord-nilsen/
-wps: []
+wps:
+- WP6
 ---
 
 Bio.

@@ -55,7 +55,12 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/karolina-finc/
-wps: []
+wps:
+- WP1
+- WP2
+- WP3
+- WP4
+- WP7
 ---
 
 Bio coming soon.

@@ -31,7 +31,8 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/abdolrahim-tooranian/
-wps: []
+wps:
+- WP1
 ---
 
 Bio.

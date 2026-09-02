@@ -41,6 +41,10 @@ description: Professor, Faculty of Social Sciences, Nord University
 permalink: /people/troels-linde/
 redirect_from:
 - /directory/people/troels-linde/
+wps:
+- WP2
+- WP5
+- WP7
 ---
 
 Bio coming soon.

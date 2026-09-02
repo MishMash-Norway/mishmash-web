@@ -47,7 +47,11 @@ summary: Adam Lewartowski is a PhD candidate at the Interdisciplinary Doctoral S
   dynamics.
 published: true
 permalink: /people/adam-lewartowski/
-wps: []
+wps:
+- WP1
+- WP2
+- WP3
+- WP7
 ---
 
 Adam Lewartowski is a PhD candidate at the Interdisciplinary Doctoral School of Social Sciences, Nicolaus Copernicus University in Toruń, Poland. His research explores polyrhythmic entrainment, embodied rhythm learning, and adaptive brain–body dynamics.

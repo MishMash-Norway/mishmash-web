@@ -46,7 +46,8 @@ summary: Ana Brotas has a background in public art, audiovisual communication, a
 layout: person
 permalink: /people/ana-brotas/
 published: true
-wps: []
+wps:
+- WP5
 ---
 
 Bio.

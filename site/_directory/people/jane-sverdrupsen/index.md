@@ -85,7 +85,8 @@ summary: Jane Sverdrupsen (b. 1979) is a visual artist and curator based in Berg
   (2020–2023). Her practice has resulted in national and international exhibitions.
 published: true
 permalink: /people/jane-sverdrupsen/
-wps: []
+wps:
+- WP2
 ---
 
 Bio.

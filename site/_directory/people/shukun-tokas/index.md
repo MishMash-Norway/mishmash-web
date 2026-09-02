@@ -46,7 +46,10 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/shukun-tokas/
-wps: []
+wps:
+- WP3
+- WP5
+- WP7
 ---
 
 Bio coming soon.

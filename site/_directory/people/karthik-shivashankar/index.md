@@ -163,7 +163,8 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/karthik-shivashankar/
-wps: []
+wps:
+- WP2
 ---
 
 Bio.

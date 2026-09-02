@@ -54,7 +54,9 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/teresa-pelinski/
-wps: []
+wps:
+- WP2
+- WP5
 ---
 
 Bio.

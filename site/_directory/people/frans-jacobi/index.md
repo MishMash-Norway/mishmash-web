@@ -12,7 +12,8 @@ institutions: []
 affiliation_units: []
 nva_affiliations: []
 projects: []
-wps: []
+wps:
+- WP2
 roles:
 - Member
 urls:

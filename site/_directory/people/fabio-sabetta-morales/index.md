@@ -30,7 +30,8 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/fabio-sabetta-morales/
-wps: []
+wps:
+- WP5
 ---
 
 Bio.

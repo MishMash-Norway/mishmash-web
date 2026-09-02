@@ -59,7 +59,8 @@ summary: 'My name is Mohamed-Bachir Belaid, a researcher in computer science, bo
   on environmental problems,...etc.'
 published: true
 permalink: /people/mohamed-bachir-belaid/
-wps: []
+wps:
+- WP7
 ---
 
 Bio.

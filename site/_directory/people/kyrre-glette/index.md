@@ -262,5 +262,9 @@ layout: person
 permalink: /people/kyrre-glette/
 redirect_from:
 - /directory/people/kyrre-glette/
+wps:
+- WP1
+- WP3
+- WP7
 ---
 

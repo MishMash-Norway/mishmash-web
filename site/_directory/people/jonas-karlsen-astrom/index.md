@@ -191,7 +191,8 @@ source_mentions: []
 summary: ''
 permalink: /people/jonas-karlsen-astrom/
 published: true
-wps: []
+wps:
+- WP2
 ---
 
 Bio.

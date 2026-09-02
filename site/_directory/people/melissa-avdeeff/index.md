@@ -99,7 +99,9 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/melissa-avdeeff/
-wps: []
+wps:
+- WP2
+- WP5
 ---
 
 Bio coming soon.

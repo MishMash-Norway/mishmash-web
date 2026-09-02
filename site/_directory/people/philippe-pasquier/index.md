@@ -94,7 +94,12 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/philippe-pasquier/
-wps: []
+wps:
+- WP1
+- WP2
+- WP3
+- WP4
+- WP5
 ---
 
 Bio.

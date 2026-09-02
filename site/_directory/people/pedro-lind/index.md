@@ -129,7 +129,10 @@ summary: 'Pedro Goncalves Lind works in artificial intelligence and data analysi
   in his homepage: https://www.cs.oslomet.no/~pedrolin/.'
 permalink: /people/pedro-lind/
 published: true
-wps: []
+wps:
+- WP2
+- WP3
+- WP7
 ---
 
 Bio.

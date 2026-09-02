@@ -58,7 +58,8 @@ summary: null
 layout: person
 published: true
 permalink: /people/frank-ekeberg/
-wps: []
+wps:
+- WP2
 ---
 
 Bio coming soon.

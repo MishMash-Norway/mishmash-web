@@ -414,7 +414,8 @@ source_mentions: []
 summary: ''
 permalink: /people/changkyu-choi/
 published: true
-wps: []
+wps:
+- WP7
 ---
 
 Bio.

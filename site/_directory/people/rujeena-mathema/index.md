@@ -47,7 +47,9 @@ selected_works:
 source_mentions: []
 summary: ''
 published: true
-wps: []
+wps:
+- WP2
+- WP3
 ---
 
 Bio.

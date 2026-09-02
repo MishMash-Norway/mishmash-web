@@ -94,7 +94,9 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/ole-aamot/
-wps: []
+wps:
+- WP1
+- WP2
 ---
 
 Bio.

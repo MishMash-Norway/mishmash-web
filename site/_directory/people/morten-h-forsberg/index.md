@@ -101,7 +101,8 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/morten-h-forsberg/
-wps: []
+wps:
+- WP2
 ---
 
 Bio.

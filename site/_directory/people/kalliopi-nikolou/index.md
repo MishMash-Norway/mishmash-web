@@ -73,7 +73,8 @@ summary: 'Born in 1977 in Corinth, Greece, I am a visual artist based between Os
   (UKS).'
 permalink: /people/kalliopi-nikolou/
 published: true
-wps: []
+wps:
+- WP2
 ---
 
 Bio.

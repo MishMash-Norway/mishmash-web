@@ -36,7 +36,8 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/lars-monstad/
-wps: []
+wps:
+- WP6
 ---
 
 Bio coming soon.

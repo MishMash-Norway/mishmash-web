@@ -13,7 +13,8 @@ institutions:
 affiliation_units: []
 nva_affiliations: []
 projects: []
-wps: []
+wps:
+- WP7
 roles:
 - Member
 urls:

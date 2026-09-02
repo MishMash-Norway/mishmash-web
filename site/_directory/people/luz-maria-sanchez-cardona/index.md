@@ -135,7 +135,8 @@ source_mentions: []
 summary: null
 published: true
 permalink: /people/luz-maria-sanchez-cardona/
-wps: []
+wps:
+- WP2
 ---
 
 Bio coming soon.

@@ -164,7 +164,8 @@ summary: 'Stylianos Dimou is a distinguished Greek composer renowned for his exp
   and the Wayne Brewster Barlow Prize from the Eastman'
 published: true
 permalink: /people/stylianos-dimou/
-wps: []
+wps:
+- WP2
 ---
 
 Bio.
