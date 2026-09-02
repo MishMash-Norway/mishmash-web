@@ -285,6 +285,8 @@ content_types:
       enrich_one: python3 scripts/enrich_directory_from_nva.py --slug some-person --dry-run
       enrich_all: python3 scripts/enrich_directory_from_nva.py --discover-nva --discover-nva-loose --max-works 10
       fill_missing_ids: python3 scripts/fill_missing_nva_orcid.py --dry-run
+      discover_orcid_public: python3 scripts/discover_orcid_public_search.py --dry-run
+      assign_wps_from_mailing_lists: python3 scripts/assign_wps_from_mailing_lists.py --dumps-dir temp --dry-run
       validate: python3 scripts/validate_directory.py
       fix_reciprocity: python3 scripts/sync_directory_reciprocity.py
       nightly_workflow: .github/workflows/enrich-directory-people.yml

@@ -161,6 +161,50 @@ Useful flags:
 - `--discover-nva-loose` allow looser name matching
 - `--dry-run` report changes without writing files
 
+Discover ORCID via public ORCID search
+---------------------------------------
+
+`scripts/fill_missing_nva_orcid.py` only finds an ORCID iD when it is already
+linked from an NVA profile. This complementary script queries the public
+ORCID registry directly (no credentials required) for people still missing
+`urls.orcid`, and only fills it in when a candidate's ORCID employment
+history overlaps with the person's known institution or department. Run
+`fill_missing_nva_orcid.py` first, then use this script for the remainder.
+
+```bash
+python3 scripts/discover_orcid_public_search.py --dry-run
+python3 scripts/discover_orcid_public_search.py
+```
+
+Ambiguous candidates (multiple institution-matched hits) and unverified
+candidates (a single hit with no institution data to confirm) are printed for
+manual review rather than applied automatically.
+
+Useful flags:
+
+- `--slug <slug>` process one person (repeatable)
+- `--dry-run` report changes without writing files
+
+Assign Work Packages from sympa mailing list dumps
+---------------------------------------------------
+
+MishMash's WP1-WP7 mailing lists are the closest thing to a source of truth
+for who is affiliated with which work package. Export each list from sympa
+as `wp{N}@mishmash.no.txt` (one `email<TAB>Name` per line) into a folder
+(`temp/` is gitignored and the default), then run:
+
+```bash
+python3 scripts/assign_wps_from_mailing_lists.py --dumps-dir temp --dry-run
+python3 scripts/assign_wps_from_mailing_lists.py --dumps-dir temp
+```
+
+This adds the matching `WPN` tag to each matched person's `wps` front matter
+list (merged, no duplicates). Entries that cannot be matched by name, slug,
+or email local-part are printed as unmatched so they can be followed up
+manually (e.g. contacted to fill in the directory survey) or checked by hand
+against the directory (misspellings, non-ASCII names, or nickname/legal-name
+mismatches are common causes of missed matches).
+
 Import people from XLSX
 -----------------------
 
