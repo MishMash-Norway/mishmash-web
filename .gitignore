@@ -5,6 +5,7 @@ vendor/
 _site/
 chat/docs/
 TEMP/ 
+temp/
 
 # VS Code settings
 .vscode/
@@ -29,7 +30,6 @@ config/nva-credentials.json
 
 # Others
 
-temp/
 _site_test/
 _site_clean/
 .claude
