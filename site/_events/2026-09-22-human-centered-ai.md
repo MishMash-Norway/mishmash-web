@@ -4,12 +4,11 @@ date: 2026-09-22 13:00:00 +02:00
 end_date: 2026-09-22 17:00:00 +02:00
 location: "Forum, Forskningsparken, University of Oslo"
 layout: event
-draft: true
 categories: [AI, Gemini Center for Trustworthy and Sustainable AI, MishMash]
 tags: [Human-Centered AI, Trustworthy AI, Responsible AI]
 description: "Human-Centered AI"
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg
-slug: ""human-centered-ai"
+slug: "human-centered-ai"
 ---
 
 The Gemini Centre for Trustworthy and Sustainable AI explores the challenges of AI adoption in all runs of life, particularly in the area of human–computer interaction. Whether an AI system is facing a human in an interaction provided by a business or the government, whether it is used by a human to accomplish a task, or it is built by a human to support them in their everyday work, it is essential that the human can trust the AI. The current understanding, triggered by EU directives, is that an AI is trustworthy when experts can verify that its static design and its behaviour on known datasets adhere to expectations.  
