@@ -40,7 +40,7 @@ writing_style:
         later_sections: Technical, disciplinary, methodological, or policy detail for interested readers.
       rule: Do not simplify away important ideas; introduce them in an accessible order.
     use:
-      - Prefer concrete subjects and verbs: "The project examines..." not "An examination is made...".
+      - 'Prefer concrete subjects and verbs: "The project examines..." not "An examination is made...".'
       - Name the person, institution, place, or project doing the action.
       - Explain specialist terms briefly on first use.
       - Connect different disciplines without assuming that one field is the default.
@@ -74,7 +74,7 @@ writing_style:
       - Do not translate official names unless an established English name exists.
   templates:
     active: "Researchers at the University of Oslo study how artists use AI in music."
-    passive_to_active: "The workshop is organised by UiO." -> "UiO organises the workshop."
+    passive_to_active: '"The workshop is organised by UiO." -> "UiO organises the workshop."'
     concise: "The Oslo workshop brings artists and researchers together to test new creative tools."
   review_checks:
     - Confirm British spelling, including organisation, programme, centre, and analyse where applicable.
@@ -184,7 +184,14 @@ content_types:
     required_category: MeshUp
     optional_categories: [WP1, WP2, WP3, WP4, WP5, WP6, WP7]
     title_pattern: MeshUp #NN plus a descriptive title
-    practical_rule: Copy the nearest existing MeshUp entry and update both metadata and body.
+    source_spreadsheet: temp/MishMash Meetups.xlsx
+    practical_rule: Import schedule updates from the spreadsheet, then review the generated metadata and body.
+    automation:
+      preview: python3 scripts/import_meshups_from_xlsx.py --xlsx "temp/MishMash Meetups.xlsx"
+      write: python3 scripts/import_meshups_from_xlsx.py --xlsx "temp/MishMash Meetups.xlsx" --write
+      portrait: python3 scripts/import_meshups_from_xlsx.py --write --portrait NN=temp/Speaker_Name.jpeg
+      archived_events: Add --include-past only when intentionally refreshing past MeshUps.
+      default_scope: The importer updates events dated today or later only.
     consistency_checks:
       - date and end_date match the requested activity date and time
       - speaker names agree in title, description, and opening body text when repeated
@@ -295,6 +302,7 @@ automation:
   event_importers:
     uio_events: python3 scripts/fetch_uio_events.py URL
     rss_events: python3 scripts/fetch_rss_to_events.py
+    meshups: python3 scripts/import_meshups_from_xlsx.py --xlsx "temp/MishMash Meetups.xlsx"
     rule: Treat imported files as drafts for editorial review; verify dates, timezone, title, image, and body.
   directory_importers:
     spreadsheet: python3 scripts/import_people_from_xlsx.py

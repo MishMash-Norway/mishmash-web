@@ -231,6 +231,31 @@ Useful flags on the canonical importer:
 - `--template path/to/index.md` uses a different directory template.
 - `--out-base path/to/output` writes entries to another people directory.
 
+Import MeshUps from XLSX
+------------------------
+
+Preview MeshUp event changes from the schedule spreadsheet:
+
+```bash
+python3 scripts/import_meshups_from_xlsx.py --xlsx "temp/MishMash Meetups.xlsx"
+```
+
+Write the event updates only after reviewing the preview:
+
+```bash
+python3 scripts/import_meshups_from_xlsx.py --xlsx "temp/MishMash Meetups.xlsx" --write
+```
+
+By default, the importer only updates events dated today or later. Use
+`--include-past` only when intentionally refreshing archived MeshUps.
+
+To add a speaker portrait and assign it to an event, add a repeatable
+`--portrait NUMBER=PATH` option:
+
+```bash
+python3 scripts/import_meshups_from_xlsx.py --write --portrait 23=temp/Vinoo_Alluri.jpeg
+```
+
 Combine image slices
 --------------------
 
