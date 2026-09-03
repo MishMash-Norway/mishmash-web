@@ -46,6 +46,8 @@ selected_works:
   contributors:
   - name: Guro von Germeten
     role: Creator
+    slug: guro-von-germeten
+    url: /people/guro-von-germeten/
   - name: David Raphael Fielder
     role: Creator
 - title: 'Original Cast Recordings: Musical theatre and/as sonic heritage – an AHRC
@@ -63,6 +65,8 @@ selected_works:
     role: Creator
   - name: Guro von Germeten
     role: Creator
+    slug: guro-von-germeten
+    url: /people/guro-von-germeten/
   - name: Annie Jamieson
     role: Creator
   - name: Ben Macpherson
@@ -80,6 +84,8 @@ selected_works:
   contributors:
   - name: Guro von Germeten
     role: Creator
+    slug: guro-von-germeten
+    url: /people/guro-von-germeten/
 - title: 'We Are Also Music Lovers: Testing Vocal Tastes in Higher Musical Theatre
     Education'
   year: '2022'
@@ -89,6 +95,8 @@ selected_works:
   contributors:
   - name: Guro von Germeten
     role: Creator
+    slug: guro-von-germeten
+    url: /people/guro-von-germeten/
 - title: 'Voicing Omnivorousness, Assembling the Omnivorous Voice: The American Musical
     Explored'
   year: '2022'
@@ -98,6 +106,8 @@ selected_works:
   contributors:
   - name: Guro von Germeten
     role: Creator
+    slug: guro-von-germeten
+    url: /people/guro-von-germeten/
   - name: Sidsel Karlsen
     role: Creator
     slug: sidsel-karlsen
@@ -111,6 +121,8 @@ selected_works:
   contributors:
   - name: Guro von Germeten
     role: Creator
+    slug: guro-von-germeten
+    url: /people/guro-von-germeten/
 - title: Jeg fant en bit av deg - Album by Guro Von Germeten | Spotify
   year: '2015'
   source: Music performance
@@ -121,6 +133,8 @@ selected_works:
     role: RoleOther
   - name: Guro von Germeten
     role: Composer
+    slug: guro-von-germeten
+    url: /people/guro-von-germeten/
 - title: Come Stand Before Me - Album by Guro Von Germeten | Spotify
   year: '2013'
   source: Music performance
@@ -129,6 +143,8 @@ selected_works:
   contributors:
   - name: Guro von Germeten
     role: Composer
+    slug: guro-von-germeten
+    url: /people/guro-von-germeten/
   - name: Jørund Fluge Samuelsen
     role: RoleOther
 source_mentions: []

@@ -46,6 +46,8 @@ selected_works:
     role: Creator
   - name: Ole Aamot
     role: Creator
+    slug: ole-aamot
+    url: /people/ole-aamot/
 - title: Developing a Multimedia Distribution
   year: '2002'
   source: Research report
@@ -58,6 +60,8 @@ selected_works:
     role: Creator
   - name: Ole Kristian Aamot
     role: Creator
+    slug: ole-aamot
+    url: /people/ole-aamot/
   - name: Bjørn Kristian Nordlund
     role: Creator
   - name: Joachim Lous
@@ -74,6 +78,8 @@ selected_works:
     role: Creator
   - name: Ole Aamot
     role: Creator
+    slug: ole-aamot
+    url: /people/ole-aamot/
   - name: Peter Holmes
     role: Creator
 - title: Developing a validation authority service for apache
@@ -86,6 +92,8 @@ selected_works:
     role: Creator
   - name: Ole Aamot
     role: Creator
+    slug: ole-aamot
+    url: /people/ole-aamot/
   - name: Eirik Maus
     role: Creator
   - name: Anund Lie

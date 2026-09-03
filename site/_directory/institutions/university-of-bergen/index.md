@@ -18,10 +18,12 @@ people:
 - david-rych
 - gabriele-de-seta
 - hans-skaug
+- ida-tolgensbakk
 - jane-sverdrupsen
 - jason-nelson
 - jostein-gundersen
 - juan-vassallo
+- kyrre-kverndokk
 - lars-nyre
 - luz-maria-sanchez-cardona
 - oystein-skaar

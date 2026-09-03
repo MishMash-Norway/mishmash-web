@@ -45,29 +45,31 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Computational Neuroscience
+- Multi-Agent Systems
+- Genetic Algorithms
 - Artificial Life
 - Computer Science
 - Field Programmable Gate Array
 - Bio Inspired Algorithms
 - Robotics
 - Embedded Systems
-- Evolutionary Computation
 - Informatics
 - Artificial Intelligence
 - Music Technology
+- Swarm Intelligence
 search_keywords:
-- Computational Neuroscience
+- Multi-Agent Systems
+- Genetic Algorithms
 - Artificial Life
 - Computer Science
 - Field Programmable Gate Array
 - Bio Inspired Algorithms
 - Robotics
 - Embedded Systems
-- Evolutionary Computation
 - Informatics
 - Artificial Intelligence
 - Music Technology
+- Swarm Intelligence
 selected_works:
 - title: Sensor movement drives emergent attention and scalability in active neural
     cellular automata
@@ -256,7 +258,12 @@ selected_works:
     url: /people/kyrre-glette/
 source_mentions:
 - about/organisation/wp-leaders/index.md
-summary: ''
+summary: Kyrre Glette is Professor of artificial intelligence and robotics at the
+  Department of Informatics, University of Oslo. His current research centers on embodied
+  AI, especially the co-design of robotic morphology and control, and on AI and creativity,
+  with a particular focus on music technology systems. He is currently active in the
+  RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion, The Norwegian
+  Centre for Embodied AI (NCEI), and the MishMash Centre for AI and Creativity.
 description: Professor, Department for Informatics, University of Oslo
 layout: person
 permalink: /people/kyrre-glette/

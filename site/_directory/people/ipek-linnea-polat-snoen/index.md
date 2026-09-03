@@ -1,8 +1,6 @@
 ---
-published: true
 type: person
 slug: ipek-linnea-polat-snoen
-permalink: /people/ipek-linnea-polat-snoen/
 name: Ipek Linnea Polat-Snoen
 title: Ipek Linnea Polat-Snoen
 position: null
@@ -10,31 +8,41 @@ department: null
 institution: ghent-university
 institutions:
 - ghent-university
-affiliation_units: []
-nva_affiliations: []
 projects: []
-wps:
-- WP6
 roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: null
-  github: null
+  institutional_website: ''
+  github: ''
   linkedin: https://www.linkedin.com/in/ipek-polat
   orcid: https://orcid.org/0009-0001-1929-1819
-  nva: null
-  wikidata: null
-  youtube: null
-  facebook: null
-  mastodon: null
-  instagram: null
+  nva: ''
+  youtube: ''
+  facebook: ''
+  mastodon: ''
+  instagram: ''
+  wikidata: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Building Acoustics
+- Noise Control
+- Environmental Noise
+- Sound Propagation Outdoors
+- Psychoacoustics
+search_keywords:
+- Building Acoustics
+- Noise Control
+- Environmental Noise
+- Sound Propagation Outdoors
+- Psychoacoustics
 selected_works: []
 source_mentions: []
 summary: null
+published: true
+permalink: /people/ipek-linnea-polat-snoen/
+wps:
+- WP6
 ---
 
 Bio.

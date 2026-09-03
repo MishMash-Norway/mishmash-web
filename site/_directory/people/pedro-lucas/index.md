@@ -132,6 +132,8 @@ selected_works:
     role: Creator
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Solveig Sørbø
     role: Creator
   - name: Finn Upham

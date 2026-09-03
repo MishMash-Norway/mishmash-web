@@ -69,23 +69,25 @@ selected_works:
   source: Journal article
   group_type: Journal article
 source_mentions: []
-summary: "Luciano Azzigotti is a composer and media artist whose work focuses on the\
-  \ invention of systems, where the relationships between instruments, beings and\
-  \ environments converge in an estrangement.  \n\nStarting from instrumental music\
-  \ writing, his experiments with amplification, installation objects, dynamic notation,\
-  \ gamified environments and expanded reality have been described as having a veiled\
-  \ lyrical complexity, of a highly ambiguous and compelling nature.(Monjeau, 2010).\
-  \ \n\nThe winner of the Juan Carlos Paz Award, Condor de Plata, and supports from\
-  \ Ernst Von Siemens Stiftung, Fondo Nacional de las Artes among others, his work\
-  \ has been presented internationally in venues such as IMDarmstadt, Teatro General\
-  \ San Martín, Harvard University and Impuls Academy. \n\n His concert work has been\
-  \ commissioned by ensembles and soloists around the world, ranging from reConvert,\
-  \ HKBern, Bruno Mesz, Anna D Errico, and Ensemble Neo. Azzigotti is also faculty\
-  \ of the Department of New Media Composition at the Haute Ecole de Musique de Genève\
-  \ and UNTREF Argentina. \n\nAs a curator he was the founder of conDiT Buenos Aires,\
-  \ and directed the Experimental Center Tacec (2018) at the Teatro Argentino de La\
-  \ Plata. \n\nCurrently a doctoral student of the binational programme HKB-HM Freiburg,\
-  \ he curates and researches about fictional objects and hypermusic at foMi.Lab"
+summary: Luciano Azzigotti is a composer and media artist whose work focuses on the
+  invention of systems, where the relationships between instruments, beings and environments
+  converge in an estrangement. Starting from instrumental music writing, his experiments
+  with amplification, installation objects, dynamic notation, gamified environments
+  and expanded reality have been described as having a veiled lyrical complexity,
+  of a highly ambiguous and compelling nature (Monjeau, 2010). Winner of the Juan
+  Carlos Paz Award and the Cóndor de Plata, and supported by the Ernst von Siemens
+  Musikstiftung and the Fondo Nacional de las Artes among others, his work has been
+  presented at Darmstädter Ferienkurse, Teatro General San Martín, Harvard University,
+  Teatro Municipal de São Paulo and Impuls Academy. His concert work has been commissioned
+  by ensembles and soloists including reConvert, HKB Bern, Ensemble Neo, Bruno Mesz
+  and Anna D'Errico. He is a PhD researcher in Artistic Research at the Norwegian
+  Academy of Music in Oslo, affiliated with the NordART research centre and MishMash
+  — Centre for AI and Creativity, where his project *Speculative Organology* inverts
+  organology from the classification of existing instruments to the generation of
+  new ones. He teaches in the Department of New Media Composition at the Haute école
+  de musique de Genève and at UNTREF Argentina. As a curator he founded conDiT Buenos
+  Aires and container, and directed the TACEC Experimental Center (2018) at Teatro
+  Argentino de La Plata. He works between Oslo, Bern and Buenos Aires.
 permalink: /people/luciano-azzigotti/
 published: true
 wps:

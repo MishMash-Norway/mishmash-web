@@ -64,6 +64,8 @@ selected_works:
   contributors:
   - name: Jane Sverdrupsen
     role: ProjectLeader
+    slug: jane-sverdrupsen
+    url: /people/jane-sverdrupsen/
   - name: Apropos Teater
     role: CollaborationPartner
 - title: Loam Margaret
@@ -74,6 +76,8 @@ selected_works:
   contributors:
   - name: Jane Sverdrupsen
     role: ProjectLeader
+    slug: jane-sverdrupsen
+    url: /people/jane-sverdrupsen/
   - name: Restauration venneforening
     role: CollaborationPartner
 source_mentions: []

@@ -1,17 +1,14 @@
 ---
-layout: person
 type: person
 slug: heloisa-amaral
 name: Heloisa Amaral
 title: Heloisa Amaral
-description: Ultima Festival
-position: ''
+position: Lecturer in curatorial practices "With and beyond music" / Part of docARTES
+  curriculum
 department: ''
 institution: ''
 institutions:
 - ultima-festival
-affiliation_units: []
-nva_affiliations: []
 projects:
 - musical-doppelgangers
 roles:
@@ -33,6 +30,8 @@ search_keywords: []
 selected_works: []
 source_mentions: []
 summary: ''
+layout: person
+description: Ultima Festival
 permalink: /people/heloisa-amaral/
 redirect_from:
 - /directory/people/heloisa-amaral/

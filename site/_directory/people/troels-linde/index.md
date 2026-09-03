@@ -3,9 +3,9 @@ type: person
 slug: troels-linde
 name: Troels Linde
 title: Troels Linde
-position: Professor
+position: Professor / Head of Externally Funded Projects
 department: Faculty of Social Sciences
-institution: nord-university
+institution: university-of-inland-norway
 institutions:
 - nord-university
 - university-of-inland-norway
@@ -36,7 +36,17 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: ''
+summary: "Troels Linde graduated as VFX / sequence director from The National Film\
+  \ School of Denmark.\n\nUpon examination, he co-founded the Omen interactive media\
+  \ company, producing for Buena Vista, Philips, Bang & Olufsen, National Broadcaster,\
+  \ DR, et al. \n\nHe has worked as CEO at a Design company, doing combined strategy-\
+  \ / design- work for large international brands and organisations.\n\nHe has worked\
+  \ as CEO at a Tech. company, overseeing Motion Capture based productions and worked\
+  \ as IP conceptualiser. \n\nIn parallel, he has held positions as; Senior Lecturer\
+  \ at Uppsala University, where he also was exec. producer of games and policy-maker\
+  \ conference \"the Debates\"; he was Head of School at the European Cross Media\
+  \ Academy and is currently Professor in Producing at the Norwegian Film School,\
+  \ Inland Norway University of applied Sciences."
 description: Professor, Faculty of Social Sciences, Nord University
 permalink: /people/troels-linde/
 redirect_from:

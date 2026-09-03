@@ -27,6 +27,30 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Introduction: Absence and Music Thinking'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://edinburghuniversitypress.com/media/resources/9781399555807_Introduction_Music_of_Absence.pdf
+  contributors:
+  - name: Christine Dysers
+    role: Creator
+  - name: Peter Edwards
+    role: Creator
+    slug: peter-edwards
+    url: /people/peter-edwards/
+  - name: Judith Lochhead
+    role: Creator
+- title: The Lament, Loss and the Power of Speaking in Music
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://edinburghuniversitypress.com/book-music-of-absence.html
+  contributors:
+  - name: Peter Edwards
+    role: Creator
+    slug: peter-edwards
+    url: /people/peter-edwards/
 - title: 'Music of Absence: An Aesthetics of Loss in the New Millennium'
   year: '2026'
   source: Book anthology
@@ -107,26 +131,6 @@ selected_works:
   source: Book chapter
   group_type: Book chapter
   url: https://www.brepols.net/products/IS-9782503602400-1
-  contributors:
-  - name: Peter Edwards
-    role: Creator
-    slug: peter-edwards
-    url: /people/peter-edwards/
-- title: Musikkfaglig sakkyndig vitne rapport. Oslo tingrett og Borgarting lagmannsrett.
-  year: '2022'
-  source: Research report
-  group_type: Research report
-  url: https://lovdata.no/dokument/LBSIV/avgjorelse/lb-2022-26097?q=22-026097ASK-BORG/04
-  contributors:
-  - name: Peter Edwards
-    role: Creator
-    slug: peter-edwards
-    url: /people/peter-edwards/
-- title: Frode Olsen – om å synge Fin de partie
-  year: '2022'
-  source: Popular science article
-  group_type: Popular science article
-  url: https://scenekunst.no/artikler/frode-olsen-om-a-synge-fin-de-partie
   contributors:
   - name: Peter Edwards
     role: Creator

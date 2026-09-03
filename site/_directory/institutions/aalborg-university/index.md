@@ -17,6 +17,7 @@ city: Aalborg
 urls:
   website: https://www.aau.dk/
   wikipedia: https://en.wikipedia.org/wiki/Aalborg_University
+  wikidata: https://www.wikidata.org/wiki/Q601956
 aliases: []
 tags: []
 search_keywords: []

@@ -42,6 +42,8 @@ selected_works:
     url: /people/olivier-lartillot/
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Finn Upham
     role: Creator
   - name: Carlos Eduardo Cancino-Chacón
@@ -98,6 +100,8 @@ selected_works:
     role: Creator
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Solveig Sørbø
     role: Creator
   - name: Finn Upham
@@ -126,6 +130,8 @@ selected_works:
   contributors:
   - name: Dana Swarbrick
     role: Artist
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Kjell Andreas Oddekalv
     role: Artist
 - title: Predictive Modelling of Muscle Fatigue in Climbing
@@ -138,6 +144,8 @@ selected_works:
     role: Creator
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Ulysse Côté-Allard
     role: Creator
   - name: Michael Riegler
@@ -155,6 +163,8 @@ selected_works:
   contributors:
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Remy Richard Martin
     role: Creator
   - name: Simon Høffding
@@ -175,6 +185,8 @@ selected_works:
   contributors:
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
 - title: The Effects of “Feeling Moved” and “Groove” On Standstill
   year: '2023'
   source: Conference poster
@@ -182,6 +194,8 @@ selected_works:
   contributors:
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Anne Danielsen
     role: Creator
   - name: Alexander Refsum Jensenius
@@ -201,6 +215,8 @@ selected_works:
   contributors:
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Jonna Katariina Vuoskoski
     role: Creator
     slug: jonna-vuoskoski
@@ -212,6 +228,8 @@ selected_works:
   contributors:
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Finn Upham
     role: Creator
   - name: Cagri Erdem
@@ -233,6 +251,8 @@ selected_works:
   contributors:
   - name: Dana Swarbrick
     role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
   - name: Jonna Katariina Vuoskoski
     role: Creator
     slug: jonna-vuoskoski

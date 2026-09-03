@@ -1,4 +1,4 @@
-synced_at: '2026-09-01T09:56:38Z'
+synced_at: '2026-09-03T09:43:07Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -1225,6 +1225,34 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: Kentauren
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Ida Jahr
+    role: Creator
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  institutions:
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  citation:
+    authors:
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    title: Kentauren
+    container: LUP KI-seminar.
+    details: Hamar.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5564308
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0636a1dc4-d83cd31a-abfb-4fcc-92e1-51d796b2cccf
+  nva_url: https://nva.sikt.no/publication/01a0636a1dc4-d83cd31a-abfb-4fcc-92e1-51d796b2cccf
 - title: Presentation of ROBOWELL research project during MishMash launch
   year: '2026'
   type: OtherPresentation

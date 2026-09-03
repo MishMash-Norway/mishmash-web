@@ -88,12 +88,25 @@ selected_works:
   group_type: Conference
   url: https://zenodo.org/doi/10.5281/zenodo.11189176
 source_mentions: []
+summary: 'Alexandros Drymonitis is a sound and new media artist. He has a PhD from
+  the Royal Birmingham Conservatoire, Birmingham City University, on the creation
+  of musical works with the Python programming language, while his previous studies
+  were on the classical guitar. His artistic practice focuses on new techniques utilizing
+  new media such as computer programming, live coding, AI, or even older practices,
+  like modular synthesis.
+
+
+  He is currently a Postdoc Research at the Østfold University of Applied Sciences,
+  doing research on the creative human-AI interaction in music performance. His previous
+  Postdoc research at the Cyprus University of Technology was on instant synthesis
+  for computer-controlled acoustic instruments through live coding and AI. He has
+  taught Music Technology at the Music Department of the Ionian University in Corfu,
+  Greece.'
 wps:
 - WP1
 permalink: /people/alexandros-drymonitis/
 redirect_from:
 - /directory/people/alexandros-drymonitis/
-summary: ''
 ---
 
 Bio coming soon.

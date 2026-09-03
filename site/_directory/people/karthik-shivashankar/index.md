@@ -46,6 +46,8 @@ selected_works:
   contributors:
   - name: Karthik Shivashankar
     role: Creator
+    slug: karthik-shivashankar
+    url: /people/karthik-shivashankar/
   - name: Rafael Capilla
     role: Creator
   - name: Maren Maritsdatter Kruke
@@ -62,6 +64,8 @@ selected_works:
   contributors:
   - name: Karthik Shivashankar
     role: Creator
+    slug: karthik-shivashankar
+    url: /people/karthik-shivashankar/
   - name: Antonio Martini
     role: Creator
 - title: Enhancing Python Code Maintainability Through Large Language Model-Based
@@ -73,6 +77,8 @@ selected_works:
   contributors:
   - name: Karthik Shivashankar
     role: Creator
+    slug: karthik-shivashankar
+    url: /people/karthik-shivashankar/
   - name: Antonio Martini
     role: Creator
 - title: Enhancing Task Prioritization in Software Development Issues Tracking System
@@ -83,6 +89,8 @@ selected_works:
   contributors:
   - name: Karthik Shivashankar
     role: Creator
+    slug: karthik-shivashankar
+    url: /people/karthik-shivashankar/
   - name: Kristian Haugerud
     role: Creator
   - name: Antonio Martini
@@ -95,6 +103,8 @@ selected_works:
   contributors:
   - name: Karthik Shivashankar
     role: Creator
+    slug: karthik-shivashankar
+    url: /people/karthik-shivashankar/
   - name: Antonio Martini
     role: Creator
 - title: The Dual Role of Machine Learning in Technical Debt Management. Applying
@@ -105,6 +115,8 @@ selected_works:
   contributors:
   - name: Karthik Shivashankar
     role: Creator
+    slug: karthik-shivashankar
+    url: /people/karthik-shivashankar/
   - name: Antonio Martini
     role: Supervisor
   - name: Geir Kjetil Ferkingstad Sandve
@@ -117,6 +129,8 @@ selected_works:
   contributors:
   - name: Karthik Shivashankar
     role: Creator
+    slug: karthik-shivashankar
+    url: /people/karthik-shivashankar/
   - name: Antonio Martini
     role: Creator
 - title: 'Maintainability and Scalability in Machine Learning: Challenges and Solutions'
@@ -127,6 +141,8 @@ selected_works:
   contributors:
   - name: Karthik Shivashankar
     role: Creator
+    slug: karthik-shivashankar
+    url: /people/karthik-shivashankar/
   - name: Ghadi al Hajj
     role: Creator
   - name: Antonio Martini
@@ -140,6 +156,8 @@ selected_works:
   contributors:
   - name: Karthik Shivashankar
     role: Creator
+    slug: karthik-shivashankar
+    url: /people/karthik-shivashankar/
   - name: Mili Orucevic
     role: Creator
   - name: Maren Maritsdatter Kruke
@@ -157,6 +175,8 @@ selected_works:
     role: Creator
   - name: Karthik Shivashankar
     role: Creator
+    slug: karthik-shivashankar
+    url: /people/karthik-shivashankar/
   - name: Antonio Martini
     role: Creator
 source_mentions: []

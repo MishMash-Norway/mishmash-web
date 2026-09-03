@@ -18,6 +18,7 @@ city: Oslo
 urls:
   website: https://norskfolkemuseum.no/en
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_Museum_of_Cultural_History
+  wikidata: https://www.wikidata.org/wiki/Q937521
 aliases:
 - Norsk Folkemuseum
 tags: []

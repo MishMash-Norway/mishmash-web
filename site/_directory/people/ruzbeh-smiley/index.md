@@ -67,6 +67,8 @@ selected_works:
   contributors:
   - name: Ruzbeh Smiley
     role: Organizer
+    slug: ruzbeh-smiley
+    url: /people/ruzbeh-smiley/
 - title: Drum Recording, Mixing, and Mastering a single track "Akharinha" by Makhoola
     (2024)
   year: '2024'
@@ -75,6 +77,8 @@ selected_works:
   contributors:
   - name: Ruzbeh Smiley
     role: Organizer
+    slug: ruzbeh-smiley
+    url: /people/ruzbeh-smiley/
 - title: Drum Recording, Mixing, and Mastering a single track "Darvag" by Makhoola
     (2024)
   year: '2024'
@@ -83,6 +87,8 @@ selected_works:
   contributors:
   - name: Ruzbeh Smiley
     role: Composer
+    slug: ruzbeh-smiley
+    url: /people/ruzbeh-smiley/
 - title: Drum Recording, Mixing, and Mastering a single track "Raaz" by Makhoola (2024)
   year: '2024'
   source: Music performance
@@ -90,6 +96,8 @@ selected_works:
   contributors:
   - name: Ruzbeh Smiley
     role: Organizer
+    slug: ruzbeh-smiley
+    url: /people/ruzbeh-smiley/
 - title: Drum Recording, Mixing, and Mastering a single track "Canada" by Makhoola
     (2024)
   year: '2024'
@@ -98,6 +106,8 @@ selected_works:
   contributors:
   - name: Ruzbeh Smiley
     role: Organizer
+    slug: ruzbeh-smiley
+    url: /people/ruzbeh-smiley/
 - title: Producer, Drummer, Sound Engineer
   year: '2019'
   source: Music performance
@@ -105,6 +115,8 @@ selected_works:
   contributors:
   - name: Ruzbeh Smiley
     role: Composer
+    slug: ruzbeh-smiley
+    url: /people/ruzbeh-smiley/
 - title: Live in Rasht, Iran "Azman"(2019).
   year: '2019'
   source: Music performance
@@ -112,6 +124,8 @@ selected_works:
   contributors:
   - name: Ruzbeh Smiley
     role: Composer
+    slug: ruzbeh-smiley
+    url: /people/ruzbeh-smiley/
 - title: Live at International Congress Center Khavaran, Tabriz, Iran "Cold Cover"(2018/19).
   year: '2018'
   source: Music performance
@@ -119,6 +133,8 @@ selected_works:
   contributors:
   - name: Ruzbeh Smiley
     role: Artist
+    slug: ruzbeh-smiley
+    url: /people/ruzbeh-smiley/
 - title: Live At Niavaran Palace, Tehran, Iran "3 noghte band"(2017).
   year: '2017'
   source: Music performance
@@ -126,6 +142,8 @@ selected_works:
   contributors:
   - name: Ruzbeh Smiley
     role: Artist
+    slug: ruzbeh-smiley
+    url: /people/ruzbeh-smiley/
 - title: Live At Niavaran Palace, Tehran,Iran 3 noghte band
   year: '2016'
   source: Music performance
@@ -133,6 +151,8 @@ selected_works:
   contributors:
   - name: Ruzbeh Smiley
     role: Artist
+    slug: ruzbeh-smiley
+    url: /people/ruzbeh-smiley/
 source_mentions: []
 summary: Ruzbeh Smiley (BSc, MA, MSc, PhD) is a Doctoral Research Fellow in Music
   Performance specialising with AI in music production and audio engineering. His

@@ -19,6 +19,7 @@ city: Kjeller
 urls:
   website: https://nilu.no/
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_Institute_for_Air_Research
+  wikidata: https://www.wikidata.org/wiki/Q876791
 aliases:
 - NILU
 tags: []

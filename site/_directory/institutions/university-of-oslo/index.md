@@ -35,6 +35,7 @@ people:
 - jonna-vuoskoski
 - kai-olav-ellefsen
 - kyrre-glette
+- line-esborg
 - liv-merve-abrahamsson
 - maham-riaz
 - myrthe-tilleman

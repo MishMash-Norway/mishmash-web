@@ -17,6 +17,7 @@ city: Ghent
 urls:
   website: https://www.ugent.be/en
   wikipedia: https://en.wikipedia.org/wiki/Ghent_University
+  wikidata: https://www.wikidata.org/wiki/Q1137665
 aliases: []
 tags: []
 search_keywords: []

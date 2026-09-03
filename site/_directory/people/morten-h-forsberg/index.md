@@ -34,6 +34,8 @@ selected_works:
   contributors:
   - name: Morten Halfstad Forsberg
     role: AcademicCoordinator
+    slug: morten-h-forsberg
+    url: /people/morten-h-forsberg/
 - title: Filmfoto på musikkvideo "Alan Walker - Barcelona"
   year: '2024'
   source: Film or video
@@ -41,6 +43,8 @@ selected_works:
   contributors:
   - name: Morten Halfstad Forsberg
     role: AcademicCoordinator
+    slug: morten-h-forsberg
+    url: /people/morten-h-forsberg/
 - title: Filmfoto på musikkvideo "Alan Walker - Thick of it all"
   year: '2024'
   source: Film or video
@@ -48,6 +52,8 @@ selected_works:
   contributors:
   - name: Morten Halfstad Forsberg
     role: AcademicCoordinator
+    slug: morten-h-forsberg
+    url: /people/morten-h-forsberg/
 - title: Filmfoto på "Moyka - Rear View" musikkvideo
   year: '2023'
   source: Film or video
@@ -55,6 +61,8 @@ selected_works:
   contributors:
   - name: Morten Halfstad Forsberg
     role: AcademicCoordinator
+    slug: morten-h-forsberg
+    url: /people/morten-h-forsberg/
 - title: Filmfoto på 3 episoder av youtube-dramaet "Kystarbeiderne" [Norsk]
   year: '2023'
   source: Film or video
@@ -62,6 +70,8 @@ selected_works:
   contributors:
   - name: Morten Halfstad Forsberg
     role: AcademicCoordinator
+    slug: morten-h-forsberg
+    url: /people/morten-h-forsberg/
 - title: Filmfoto på 7 episoder av "Ragnarok - Promo"
   year: '2023'
   source: Film or video
@@ -69,6 +79,8 @@ selected_works:
   contributors:
   - name: Morten Halfstad Forsberg
     role: AcademicCoordinator
+    slug: morten-h-forsberg
+    url: /people/morten-h-forsberg/
 - title: Filmfoto på musikkvideo "Alan Walker & Sasha Sloan - Hero"
   year: '2023'
   source: Film or video
@@ -76,6 +88,8 @@ selected_works:
   contributors:
   - name: Morten Halfstad Forsberg
     role: AcademicCoordinator
+    slug: morten-h-forsberg
+    url: /people/morten-h-forsberg/
 - title: Filmfoto på kortfilmen "Unborn Biru"
   year: '2023'
   source: Film or video
@@ -83,6 +97,8 @@ selected_works:
   contributors:
   - name: Morten Halfstad Forsberg
     role: AcademicCoordinator
+    slug: morten-h-forsberg
+    url: /people/morten-h-forsberg/
 - title: Filmfoto på en episode av Tv-serien "Farfar"
   year: '2022'
   source: Film or video
@@ -90,6 +106,8 @@ selected_works:
   contributors:
   - name: Morten Halfstad Forsberg
     role: AcademicCoordinator
+    slug: morten-h-forsberg
+    url: /people/morten-h-forsberg/
 - title: Filmfoto på 8 episoder av Tv-dramaet "Aldri Voksen"
   year: '2022'
   source: Film or video
@@ -97,6 +115,8 @@ selected_works:
   contributors:
   - name: Morten Halfstad Forsberg
     role: AcademicCoordinator
+    slug: morten-h-forsberg
+    url: /people/morten-h-forsberg/
 source_mentions: []
 summary: null
 published: true
