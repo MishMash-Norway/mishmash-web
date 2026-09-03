@@ -18,7 +18,6 @@ This page is for WP1 members only.
 
 ### Autumn 2026
 1-hour online meetings, Fridays 1000-1100, tentative dates:
-- 21.08
 - 25.09
 - 13.11
 - (16.10)
