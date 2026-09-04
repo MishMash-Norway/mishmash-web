@@ -4,13 +4,11 @@ title: "MishMash Board Meeting #3"
 meeting_title: "MishMash Board Meeting #3"
 meeting_date: "14 September 2026"
 meeting_start: "08:00"
-meeting_end: "09:45"
+meeting_end: "09:30"
 meeting_location: "Cultiva board room, Kristiansand"
 translation_url: /no/about/organisation/board/meetings/2026-09-14/
 translation:
-  automatic: true
-  source_url: /no/about/organisation/board/meetings/2026-09-14/
-  original_label: "Norwegian original"
+  automatic: false
 ---
 
 
@@ -55,13 +53,35 @@ The minutes from the previous board meeting are approved.
 
 #### Background
 
-The Centre Director gives a brief "since last time" orientation on the activity in the centre.
+The Centre Director gives a brief orientation on the activity in the centre.
 
 #### Proposed decision
 
 The matter is noted.
 
-### 4. Status from the work packages
+### 4. Financial report
+
+#### Background
+
+The Administrative Coordinator provides an orientation on the financial activity in the centre.
+
+#### Proposed decision
+
+The matter is noted.
+
+
+### 5. Reporting to the Research Council
+
+#### Background
+
+The first report to the Research Council shall be completed by 1 October 2026. The Administrative Coordinator provides an orientation on how the report is prepared.
+
+#### Proposed decision
+
+The matter is noted.
+
+
+### 6. Status from the work packages
 
 #### Background
 
@@ -71,14 +91,5 @@ The work package leaders have been invited to give short status presentations of
 
 The matter is noted.
 
-### 5. Communication strategy
 
-#### Background
-
-The management has prepared a [communication strategy](https://mishmash.no/internal/communication-strategy/) that complements the [channel strategy](https://mishmash.no/internal/kanalstrategi/). The strategy describes how MishMash communicates with different readers: three reading levels on the website (simple, standard, advanced), secondary audiences, the mapping between audiences and channels, and transparent, experimental use of AI in developing the website.
-
-#### Proposed decision
-
-The board approves the communication strategy.
-
-### 6. Any other business
+### 7. Any other business
