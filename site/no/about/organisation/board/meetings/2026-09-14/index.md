@@ -5,7 +5,7 @@ title: "MishMash styremøte #3"
 meeting_title: "MishMash styremøte #3"
 meeting_date: "14. september 2026"
 meeting_start: "08:00"
-meeting_end: "09:45"
+meeting_end: "09:30"
 meeting_location: "Cultivas styrerom, Kristiansand"
 translation_url: /about/organisation/board/meetings/2026-09-14/
 translation:
@@ -54,13 +54,35 @@ Protokollen fra forrige styremøte godkjennes.
 
 #### Bakgrunn
 
-Senterleder gir en kort «siden sist»-orientering om aktiviteten i senteret.
+Senterleder gir en kort orientering om aktiviteten i senteret.
 
 #### Forslag til vedtak
 
 Saken tas til orientering.
 
-### 4. Status fra arbeidspakkene
+### 4. Økonomirapport
+
+#### Bakgrunn
+
+Administrativ koordinator gir en orientering om den økonomiske aktiviteten i senteret.
+
+#### Forslag til vedtak
+
+Saken tas til orientering.
+
+
+### 5. Rapportering til Forskningsrådet
+
+#### Bakgrunn
+
+Den første rapporteringen til Forskningsrådet skal gjennomføres innen 1. oktober 2026. Administrativ koordinator orienterer om hvordan rapporten utarbeides. 
+
+#### Forslag til vedtak
+
+Saken tas til orientering.
+
+
+### 6. Status fra arbeidspakkene
 
 #### Bakgrunn
 
@@ -70,14 +92,5 @@ Arbeidspakkelederne er invitert til å gi korte statusinnlegg på om lag fem min
 
 Saken tas til orientering.
 
-### 5. Kommunikasjonsstrategi
 
-#### Bakgrunn
-
-Ledelsen har utarbeidet en [kommunikasjonsstrategi](https://mishmash.no/no/internal/kommunikasjonsstrategi/) som utfyller [kanalstrategien](https://mishmash.no/no/internal/kanalstrategi/). Strategien beskriver hvordan MishMash kommuniserer med ulike lesere: tre lesenivåer på nettsidene (enkel, standard, avansert), sekundære målgrupper, kobling mellom målgrupper og kanaler, og åpen, eksperimentell bruk av KI i utviklingen av nettstedet.
-
-#### Forslag til vedtak
-
-Styret godkjenner kommunikasjonsstrategien.
-
-### 6. Eventuelt
+### 7. Eventuelt
