@@ -153,6 +153,8 @@ selected_works:
     role: Creator
   - name: Line Esborg
     role: Creator
+    slug: line-esborg
+    url: /people/line-esborg/
   - name: Terry Gunnell
     role: Creator
   - name: Kati Kallio

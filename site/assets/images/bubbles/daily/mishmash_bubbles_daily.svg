@@ -1,35 +1,35 @@
 <svg width="420" height="320" viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg">
-  <title>MishMash bubbles, 2026-09-03 edition</title>
-  <desc>Generated automatically on 2026-09-03 from site activity: 112 research results registered and 15 events in the next 90 days (one small bubble each). See mishmash.no/about/ai-colophon/ for how this site uses generative tools.</desc>
+  <title>MishMash bubbles, 2026-09-04 edition</title>
+  <desc>Generated automatically on 2026-09-04 from site activity: 112 research results registered and 15 events in the next 90 days (one small bubble each). See mishmash.no/about/ai-colophon/ for how this site uses generative tools.</desc>
 
-  <circle cx="100.3" cy="71.2" r="6.7" fill="#A9A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
-  <circle cx="36.9" cy="170.5" r="7.3" fill="#A9A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
-  <circle cx="54.6" cy="80.8" r="7.0" fill="#A9A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
-  <circle cx="80.4" cy="80.8" r="4.9" fill="#A9A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
-  <circle cx="393.6" cy="164.3" r="6.4" fill="#C0F7AE" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
-  <circle cx="35.0" cy="195.4" r="5.7" fill="#A9A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
-  <circle cx="354.2" cy="236.7" r="8.0" fill="#C0F7AE" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
-  <circle cx="50.9" cy="224.0" r="5.7" fill="#A9A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
-  <circle cx="399.1" cy="191.2" r="4.2" fill="#A9A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
-  <circle cx="19.2" cy="180.2" r="4.9" fill="#C0F7AE" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
-  <circle cx="304.2" cy="60.0" r="6.8" fill="#A9A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
-  <circle cx="371.5" cy="214.9" r="9.0" fill="#A9A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
+  <circle cx="125.3" cy="260.0" r="7.8" fill="#B8A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
+  <circle cx="397.4" cy="138.1" r="9.3" fill="#B8A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
+  <circle cx="98.2" cy="65.6" r="10.4" fill="#B8A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
+  <circle cx="33.2" cy="164.4" r="4.3" fill="#B2F7AE" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
+  <circle cx="377.9" cy="176.7" r="4.6" fill="#B8A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
+  <circle cx="109.3" cy="255.2" r="10.3" fill="#B2F7AE" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
+  <circle cx="359.0" cy="220.5" r="5.4" fill="#B2F7AE" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
+  <circle cx="289.6" cy="60.0" r="10.5" fill="#B8A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
+  <circle cx="338.3" cy="243.1" r="8.0" fill="#B2F7AE" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
+  <circle cx="387.4" cy="143.3" r="9.7" fill="#B8A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
+  <circle cx="383.2" cy="115.9" r="9.8" fill="#B8A1F4" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
+  <circle cx="80.0" cy="68.7" r="10.2" fill="#B2F7AE" fill-opacity="0.55" stroke="#777" stroke-width="0.5"/>
 
   <!-- Left circle: Humans -->
-  <circle cx="156.5" cy="159.4" r="106.5" fill="#A9A1F4" stroke="#777" stroke-width="1"/>
+  <circle cx="143.4" cy="153.0" r="106.0" fill="#B8A1F4" stroke="#777" stroke-width="1"/>
   <!-- Right circle: Machines -->
-  <circle cx="261.4" cy="154.9" r="114.1" fill="#C0F7AE" stroke="#777" stroke-width="1"/>
+  <circle cx="269.9" cy="156.9" r="108.5" fill="#B2F7AE" stroke="#777" stroke-width="1"/>
   <!-- Overlap -->
   <defs>
     <clipPath id="clip-left" clipPathUnits="userSpaceOnUse">
-      <circle cx="156.5" cy="159.4" r="106.5"/>
+      <circle cx="143.4" cy="153.0" r="106.0"/>
     </clipPath>
   </defs>
-  <circle cx="261.4" cy="154.9" r="114.1" fill="#363644" clip-path="url(#clip-left)"/>
+  <circle cx="269.9" cy="156.9" r="108.5" fill="#373644" clip-path="url(#clip-left)"/>
 
   <text x="210" y="35" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#333">Science</text>
   <text x="210" y="305" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#333">Art</text>
-  <text x="119" y="166" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#333">Humans</text>
-  <text x="301" y="162" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#333">Machines</text>
-  <text x="209" y="164" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#fff">MishMash</text>
+  <text x="106" y="160" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#333">Humans</text>
+  <text x="308" y="164" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#333">Machines</text>
+  <text x="207" y="162" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#fff">MishMash</text>
 </svg>

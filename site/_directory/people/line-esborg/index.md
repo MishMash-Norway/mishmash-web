@@ -41,6 +41,8 @@ selected_works:
   contributors:
   - name: Line Esborg
     role: Creator
+    slug: line-esborg
+    url: /people/line-esborg/
   - name: Ane Ohrvik
     role: Creator
 - title: 'From Folklore Collections to Digital Research Infrastructures: Expanding
@@ -53,6 +55,8 @@ selected_works:
     role: Creator
   - name: Line Esborg
     role: Creator
+    slug: line-esborg
+    url: /people/line-esborg/
   - name: Terry Gunnell
     role: Creator
   - name: Kati Kallio
@@ -88,6 +92,8 @@ selected_works:
   contributors:
   - name: Line Esborg
     role: AcademicCoordinator
+    slug: line-esborg
+    url: /people/line-esborg/
   - name: Helge Jordheim
     role: AcademicCoordinator
 - title: 'Designing to Disrupt While Encountering Disruption: Engaging With the Unexpected
@@ -119,6 +125,8 @@ selected_works:
     role: Creator
   - name: Line Esborg
     role: Creator
+    slug: line-esborg
+    url: /people/line-esborg/
   - name: Palmyre Pierroux
     role: Creator
   - name: Robbin Riedy
@@ -136,6 +144,8 @@ selected_works:
     role: Creator
   - name: Line Esborg
     role: Creator
+    slug: line-esborg
+    url: /people/line-esborg/
 - title: 'Memes in memory institutions: Youth interests and literacies as encountered
     disruption in design-based cultural heritage work'
   year: '2023'
@@ -146,6 +156,8 @@ selected_works:
     role: Creator
   - name: Line Esborg
     role: Creator
+    slug: line-esborg
+    url: /people/line-esborg/
   - name: Palmyre Pierroux
     role: Creator
 - title: “[E]ndnu lever en stor medicinsk erfaringskundskap”. Early Twentieth-Century
@@ -158,6 +170,8 @@ selected_works:
     role: Creator
   - name: Line Esborg
     role: Creator
+    slug: line-esborg
+    url: /people/line-esborg/
 - title: Memes, youth and memory institutions
   year: '2022'
   source: Journal article
@@ -168,6 +182,8 @@ selected_works:
     role: Creator
   - name: Line Esborg
     role: Creator
+    slug: line-esborg
+    url: /people/line-esborg/
   - name: Palmyre Pierroux
     role: Creator
 - title: 'Treue und Wahrheit: Asbjørnsen and Moe and the Scientification of Folklore
@@ -178,6 +194,8 @@ selected_works:
   contributors:
   - name: Line Esborg
     role: Creator
+    slug: line-esborg
+    url: /people/line-esborg/
 - title: Engaging disenfranchised publics through citizen humanities projects
   year: '2020'
   source: Book chapter
@@ -185,6 +203,8 @@ selected_works:
   contributors:
   - name: Line Esborg
     role: Creator
+    slug: line-esborg
+    url: /people/line-esborg/
 source_mentions: []
 summary: Master i Folkloristikk og PhD i kulturhistorie. Professor i kulturhistorie
   og museologi fra 2025. Fagansvarlig for tradisjonsarkivet Norsk Folkeminnesamling

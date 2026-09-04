@@ -28,6 +28,40 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Det har aldri vært helt stille
+  year: '2026'
+  source: Exhibition
+  group_type: Exhibition
+  url: https://www.uib.no/universitetsmuseet/182658/det-er-aldri-helt-stille-–-abortus-provocatus
+  contributors:
+  - name: Åshild Sunde Feyling Thorsen
+    role: Curator
+  - name: Eli Kristine Økland Hausken
+    role: Curator
+  - name: Marianne Lid Iversen
+    role: Curator
+  - name: Kari Tove Elvbakken
+    role: CollaborationPartner
+  - name: Marte Emilie Sandvik Haaland
+    role: Writer
+  - name: Elham Baghestan
+    role: AudioVisualContributor
+  - name: Astri Andresen
+    role: Writer
+  - name: Karl Harald Søvig
+    role: AudioVisualContributor
+  - name: Kyrre Kverndokk
+    role: Writer
+    slug: kyrre-kverndokk
+    url: /people/kyrre-kverndokk/
+  - name: Hilde Haaverstad Olsø
+    role: AudioVisualContributor
+  - name: Marie-Louise Lorentzen
+    role: Conservator
+  - name: Henrik von Achen
+    role: Writer
+  - name: Alf Tore Hommedal
+    role: Writer
 - title: 'The Child Greta: The Exemplar as Embodied Future'
   year: '2025'
   source: Book chapter
@@ -48,6 +82,8 @@ selected_works:
     role: Creator
   - name: Line Esborg
     role: Creator
+    slug: line-esborg
+    url: /people/line-esborg/
   - name: Terry Gunnell
     role: Creator
   - name: Kati Kallio
@@ -154,17 +190,6 @@ selected_works:
     role: Editor
   - name: Anne Eriksen
     role: Editor
-- title: 'Our World is dew: Tor Åge Bringsværd''s fable Prose as a Chthulucenic Experience'
-  year: '2021'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Marit Ruge Bjærke
-    role: Creator
-  - name: Kyrre Kverndokk
-    role: Creator
-    slug: kyrre-kverndokk
-    url: /people/kyrre-kverndokk/
 source_mentions: []
 summary: null
 published: true
