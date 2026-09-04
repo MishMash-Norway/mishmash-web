@@ -45,7 +45,7 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 | 16:10 | The importance of knowledge in the use of AI in creations: reflections from makers in music, film and museums | Kilden |
 | 16:40 | Plenary closing session: <br>&bull; setting the agenda for the near future (discussion)<br>&bull; residency programme (Atelier Nord)<br>&bull; practical information about evening programme <br>&bull; closing statements | Kilden |
 | 17:45 | End of the daytime programme | Kilden |
-| 19:00 | **MishMash LIVE:** A mini festival of exploration around AI & Creativity: food, drinks and inspiration<br>&bull; Showcases of arts installations<br>&bull; Brief talks and Q&As<br>&bull; The best local food and drinks from Sørlandet | Kraftverk/BARE |
+| 19:00 | **MishMash LIVE:** A mini festival of exploration around AI & Creativity: food, drinks and inspiration<br>&bull; Showcases of arts installations<br>&bull; Brief talks and Q&As<br>&bull; The best local food and drinks from Sørlandet <br>_Full dinner buffet is included in your conference registration_ | Kraftverk/BARE |
 | 23:00 | End of the Monday programme | Kraftverk/BARE |
 
 ### Tuesday, September 15th
@@ -71,7 +71,7 @@ Locations: <br>
 | 15:30 | Networking session | Kilden |
 | 16:15 | Take-aways and closing statements | Kilden |
 | 16:30 | End of the daytime programme | Kilden |
-| 18:30 | _MishMash invites to_ the **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element - followed by a special afterparty. **Doors open: 18:30h, Opening 18:45h** | Kunstsilo |
+| 18:30 | _MishMash invites to_ the **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element - followed by a special afterparty. **Doors open: 18:45h, Opening 19:00h** <br>_Full dinner buffet is included in your conference registration_| Kunstsilo |
 | 22:30 | End of the conference | Kunstsilo |
 
 ## Inspiring environment
