@@ -71,7 +71,7 @@ Locations: <br>
 | 15:30 | Networking session | Kilden |
 | 16:15 | Take-aways and closing statements | Kilden |
 | 16:30 | End of the daytime programme | Kilden |
-| 18:30 | _MishMash invites to_ the **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element - followed by a special afterparty. <br>**Doors open: 18:45h, Opening 19:00h** <br>_Full dinner buffet is included in your conference registration_| Kunstsilo |
+| 18:45 | _MishMash invites to_ the **Farewell Party @ Kunstsilo** // Closing reception with food, drinks and the world premiere performance of an impressive concert installation that provides live music with AI and a strong visual element - followed by a special afterparty. <br>**Doors open: 18:45h, Opening 19:00h** <br>_Full dinner buffet is included in your conference registration_| Kunstsilo |
 | 22:30 | End of the conference | Kunstsilo |
 
 ## Inspiring environment
