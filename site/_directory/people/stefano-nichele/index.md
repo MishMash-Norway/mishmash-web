@@ -28,10 +28,10 @@ tags: []
 search_keywords: []
 selected_works:
 - title: Benchmarking the State of Networks with a Low-Cost Method Based on Reservoir
-    Computing | Springer Nature Link
+    Computing
   year: '2026'
-  source: Monograph
-  group_type: Monograph
+  source: Book chapter
+  group_type: Book chapter
   url: https://link.springer.com/chapter/10.1007/978-3-032-27698-8_87
   contributors:
   - name: Stefano Nichele
