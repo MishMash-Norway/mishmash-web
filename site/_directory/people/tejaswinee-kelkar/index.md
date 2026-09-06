@@ -40,6 +40,29 @@ tags:
 search_keywords:
 - Music Technology
 selected_works:
+- title: Modeling Relations Between Musical Events in Continuous Time with Transformer
+    Models for Live Co-Improvisational Interactions | Zenodo
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://zenodo.org/records/22276042
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
 - title: Autonomous Listening-Based Synthesizer Control with Reinforcement Learning
     for Live Sound Matching
   year: '2026'
@@ -177,18 +200,6 @@ selected_works:
   contributors:
   - name: Tejaswinee Kelkar
     role: Artist
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-- title: 'IEMI: An Immersive, Evolving Motion-Controlled Installation'
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://smcnetwork.org/smc2024/papers/SMC2024_paper_id158.pdf
-  contributors:
-  - name: Ahmet Emin Memis
-    role: Creator
-  - name: Tejaswinee Kelkar
-    role: Creator
     slug: tejaswinee-kelkar
     url: /people/tejaswinee-kelkar/
 source_mentions: []

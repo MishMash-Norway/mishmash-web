@@ -39,6 +39,29 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Modeling Relations Between Musical Events in Continuous Time with Transformer
+    Models for Live Co-Improvisational Interactions | Zenodo
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://zenodo.org/records/22276042
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
 - title: A Visualization and Control Interface for Rhythmic Relations
   year: '2026'
   source: Book chapter
@@ -207,26 +230,6 @@ selected_works:
     role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
-- title: 'A Sensor is not a Sensor: Diffracting the Preservation of Sonic Microinteraction
-    with the SiFiBand'
-  year: '2025'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Hugh Alexander von Arnim
-    role: Creator
-    slug: hugh-alexander-von-arnim
-    url: /people/hugh-alexander-von-arnim/
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Ulysse Teller Masao Côté-Allard
-    role: Creator
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
 source_mentions: []
 summary: ''
 wps:

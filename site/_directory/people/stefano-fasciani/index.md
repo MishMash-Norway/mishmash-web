@@ -49,6 +49,29 @@ search_keywords:
 - Embedded Systems
 - Music Technology
 selected_works:
+- title: Modeling Relations Between Musical Events in Continuous Time with Transformer
+    Models for Live Co-Improvisational Interactions | Zenodo
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://zenodo.org/records/22276042
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
 - title: Personalising behaviours of the multi-agent autonomous looper with a corpus
     of annotated co-performances
   year: '2026'
@@ -204,16 +227,6 @@ selected_works:
   contributors:
   - name: Riccardo Simionato
     role: Creator
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-- title: A Universal Tool for Generating Datasets from Sound Synthesizers
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/zenodo.15838159
-  contributors:
   - name: Stefano Fasciani
     role: Creator
     slug: stefano-fasciani

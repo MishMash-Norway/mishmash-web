@@ -27,6 +27,29 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Modeling Relations Between Musical Events in Continuous Time with Transformer
+    Models for Live Co-Improvisational Interactions | Zenodo
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://zenodo.org/records/22276042
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
 - title: Personalising behaviours of the multi-agent autonomous looper with a corpus
     of annotated co-performances
   year: '2026'
@@ -169,19 +192,6 @@ selected_works:
     url: /people/vincenzo-madaghiele/
   - name: Arife Dila Demir
     role: Dancer
-- title: 'Pain Creature: interdisciplinary collaboration in the design of an embodied
-    textile instrument for interactive dance'
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.5281/zenodo.13904917
-  contributors:
-  - name: Vincenzo Madaghiele
-    role: Creator
-    slug: vincenzo-madaghiele
-    url: /people/vincenzo-madaghiele/
-  - name: Arife Dila Demir
-    role: Creator
 source_mentions: []
 summary: Vincenzo Madaghiele is a musician and researcher working on improvisation
   with algorithmic techniques. He is a doctoral researcher in musicology at the University
