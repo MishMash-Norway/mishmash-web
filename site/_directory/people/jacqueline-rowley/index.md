@@ -23,8 +23,20 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Artist
+- Filmmaker
+- Documentary
+- Artistic Research
+- World Models
+- Infrastructures
+search_keywords:
+- Artist
+- Filmmaker
+- Documentary
+- Artistic Research
+- World Models
+- Infrastructures
 selected_works: []
 source_mentions: []
 wps:

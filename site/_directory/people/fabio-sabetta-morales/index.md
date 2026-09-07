@@ -3,10 +3,11 @@ type: person
 slug: fabio-sabetta-morales
 name: Fábio Sabetta Morales
 title: Fábio Sabetta Morales
-position: null
-department: null
-institution: null
-institutions: []
+position: Research Fellow
+department: Faculty of Fine Arts/Department of Popular Music
+institution: university-of-agder
+institutions:
+- university-of-agder
 projects: []
 roles:
 - Member
@@ -23,8 +24,20 @@ urls:
   instagram: ''
   wikidata: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Music Business
+- Cultural and Creative Industries
+- Management and Entrepreneurship
+- Business Model Innovation
+- Organizational Behavior and Strategic Innovation
+- Digital Transformation
+search_keywords:
+- Music Business
+- Cultural and Creative Industries
+- Management and Entrepreneurship
+- Business Model Innovation
+- Organizational Behavior and Strategic Innovation
+- Digital Transformation
 selected_works: []
 source_mentions: []
 summary: null

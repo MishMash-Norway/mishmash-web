@@ -4,7 +4,7 @@ slug: bob-l-t-sturm
 name: Bob L. T. Sturm
 title: Bob L. T. Sturm
 position: Lektor
-department: null
+department: Speech, Music and Hearing
 institution: kth-royal-institute-of-technology
 institutions:
 - kth-royal-institute-of-technology
@@ -12,8 +12,8 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://www.kth.se/profile/bobs
-  institutional_website: ''
+  personal_website: https://musaiclab.wordpress.com/
+  institutional_website: https://www.kth.se/profile/bobs
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-2549-6367
@@ -24,8 +24,20 @@ urls:
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q30331295
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Music Informatics
+- Music Information Retrieval
+- Music and AI
+- Music and Machine Learning
+- Irish Traditional Music
+- Accordion
+search_keywords:
+- Music Informatics
+- Music Information Retrieval
+- Music and AI
+- Music and Machine Learning
+- Irish Traditional Music
+- Accordion
 selected_works:
 - title: Reflecting on an Interactive Performance System for Irish Traditional Dance
     Music

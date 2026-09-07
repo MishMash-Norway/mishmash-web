@@ -25,8 +25,20 @@ urls:
   wikidata: ''
 aliases:
 - Adam Bartłomiej Lewartowski
-tags: []
-search_keywords: []
+tags:
+- Bimanual Coordination
+- Motor Learning
+- Polyrhythm
+- Flow States
+- Interoception
+- VR Neurorehabilitation
+search_keywords:
+- Bimanual Coordination
+- Motor Learning
+- Polyrhythm
+- Flow States
+- Interoception
+- VR Neurorehabilitation
 selected_works:
 - title: Exploring the potential of polyrhythmic entrainment in cognitive enhancement
     and adaptive brain–body dynamics

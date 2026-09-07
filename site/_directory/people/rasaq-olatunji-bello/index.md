@@ -5,8 +5,8 @@ slug: rasaq-olatunji-bello
 permalink: /people/rasaq-olatunji-bello/
 name: Rasaq Olatunji Bello
 title: Rasaq Olatunji Bello
-position: ''
-department: ''
+position: CHIEF INSTRUCTOR
+department: PAINTING AND DECORATION
 institution: ''
 institutions: []
 affiliation_units: []
@@ -32,8 +32,20 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Indigenous Knowledge Systems
+- Knowledge Co-Creation
+- Heritage Documentation
+- Practice-Based Research
+- Arts-Based Research
+- Digital History and Cultural Heritage
+search_keywords:
+- Indigenous Knowledge Systems
+- Knowledge Co-Creation
+- Heritage Documentation
+- Practice-Based Research
+- Arts-Based Research
+- Digital History and Cultural Heritage
 selected_works: []
 source_mentions: []
 summary: ''

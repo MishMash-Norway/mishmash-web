@@ -4,9 +4,10 @@ slug: philippe-pasquier
 name: Philippe Pasquier
 title: Philippe Pasquier
 position: Full Professor
-department: null
-institution: null
-institutions: []
+department: Metacreation Lab
+institution: simon-fraser-university
+institutions:
+- simon-fraser-university
 projects: []
 roles:
 - Member

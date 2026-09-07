@@ -4,9 +4,10 @@ slug: luciano-azzigotti
 name: Luciano Azzigotti
 title: Luciano Azzigotti
 position: Lecturer
-department: ''
-institution: ''
-institutions: []
+department: Doctoral research fellowship in Music and Artificial Intelligence
+institution: norwegian-academy-of-music
+institutions:
+- norwegian-academy-of-music
 projects: []
 roles:
 - Member

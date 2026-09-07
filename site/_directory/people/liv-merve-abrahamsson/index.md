@@ -34,8 +34,20 @@ urls:
   instagram: ''
   wikidata: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Cognitive Psychology
+- Music Cognition
+- Music Perception
+- Voice Perception
+- Voice Cognition
+- AI-Voice
+search_keywords:
+- Cognitive Psychology
+- Music Cognition
+- Music Perception
+- Voice Perception
+- Voice Cognition
+- AI-Voice
 selected_works:
 - title: Passive and active screen time relate differently to attention in preschool
     children

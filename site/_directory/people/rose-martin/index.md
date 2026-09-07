@@ -5,10 +5,11 @@ slug: rose-martin
 permalink: /people/rose-martin/
 name: Rose Martin
 title: Rose Martin
-position: null
-department: null
-institution: null
-institutions: []
+position: Dean / Professor
+department: Faculty of Education, Arts and Culture
+institution: nord-university
+institutions:
+- nord-university
 affiliation_units: []
 nva_affiliations: []
 projects: []
@@ -29,8 +30,20 @@ urls:
   mastodon: null
   instagram: null
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Dance
+- Education
+- Inclusion
+- Diversity
+- Social Justice
+- Ethnography
+search_keywords:
+- Dance
+- Education
+- Inclusion
+- Diversity
+- Social Justice
+- Ethnography
 selected_works: []
 source_mentions: []
 summary: null

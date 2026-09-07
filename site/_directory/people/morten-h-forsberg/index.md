@@ -24,8 +24,16 @@ urls:
   instagram: https://www.instagram.com/mr_morten
   wikidata: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Film
+- Cinematography
+- Photography
+- Production
+search_keywords:
+- Film
+- Cinematography
+- Photography
+- Production
 selected_works:
 - title: Filmfoto på kortfilmen "Skjønnheten skal frelse verden"
   year: '2024'

@@ -13,10 +13,10 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://www.linkedin.com/in/karthiksankarprofile/
+  personal_website: ''
   institutional_website: https://karthikshivasankar.github.io/page/
   github: ''
-  linkedin: ''
+  linkedin: https://www.linkedin.com/in/karthiksankarprofile/
   orcid: https://orcid.org/0009-0001-8508-2978
   nva: https://nva.sikt.no/research-profile/1331548
   youtube: ''

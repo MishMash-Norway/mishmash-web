@@ -5,13 +5,14 @@ name: Teresa Pelinski
 title: Teresa Pelinski
 position: PhD student
 department: null
-institution: null
-institutions: []
+institution: university-of-the-arts-london
+institutions:
+- university-of-the-arts-london
 projects: []
 roles:
 - Member
 urls:
-  personal_website: http://teresapelinski.com
+  personal_website: https://teresapelinski.com/
   institutional_website: https://musicairesearch.wordpress.com/teresa-pelinski/
   github: https://github.com/pelinski
   linkedin: https://www.linkedin.com/in/teresapelinski/
@@ -24,8 +25,20 @@ urls:
   wikidata: ''
   bluesky: https://bsky.app/profile/tpelinski.bsky.social
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Science and Technology Studies
+- Practice Research
+- Practice
+- Music Technology
+- Critical Music Technology Studies
+- Digital Musical Instruments
+search_keywords:
+- Science and Technology Studies
+- Practice Research
+- Practice
+- Music Technology
+- Critical Music Technology Studies
+- Digital Musical Instruments
 selected_works:
 - title: 'When AI doesn’t sound like AI: Negotiating aesthetic expectations in technology-mediated
     musical practice'

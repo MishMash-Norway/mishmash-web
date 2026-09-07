@@ -5,10 +5,11 @@ slug: mattias-lundqvist
 permalink: /people/mattias-lundqvist/
 name: Mattias Lundqvist
 title: Mattias Lundqvist
-position: null
+position: Development Coordinator
 department: null
-institution: null
-institutions: []
+institution: barratt-due-institute-of-music
+institutions:
+- barratt-due-institute-of-music
 affiliation_units: []
 nva_affiliations: []
 projects: []
@@ -29,8 +30,20 @@ urls:
   mastodon: null
   instagram: null
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Digital Transformation
+- AI Adoption
+- Strategic Development
+- Innovation Management
+- Human-Centered AI
+- Music Education
+search_keywords:
+- Digital Transformation
+- AI Adoption
+- Strategic Development
+- Innovation Management
+- Human-Centered AI
+- Music Education
 selected_works: []
 source_mentions: []
 summary: null

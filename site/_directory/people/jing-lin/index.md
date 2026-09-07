@@ -3,15 +3,16 @@ type: person
 slug: jing-lin
 name: Jing Lin
 title: Jing Lin
-position: null
+position: Chair
 department: null
-institution: null
-institutions: []
+institution: ai-mission-hub-association
+institutions:
+- ai-mission-hub-association
 projects: []
 roles:
 - Member
 urls:
-  personal_website: https://www.linkedin.com/in/linjing198/
+  personal_website: ''
   institutional_website: https://aimissionhub.org/
   github: ''
   linkedin: https://www.linkedin.com/in/linjing198/
@@ -23,8 +24,20 @@ urls:
   instagram: ''
   wikidata: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- AI Adoption
+- Responsible AI
+- Inclusive AI
+- Human-Centred AI
+- AI Innovation
+- Business Transformation
+search_keywords:
+- AI Adoption
+- Responsible AI
+- Inclusive AI
+- Human-Centred AI
+- AI Innovation
+- Business Transformation
 selected_works: []
 source_mentions: []
 summary: null

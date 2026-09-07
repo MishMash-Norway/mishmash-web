@@ -5,10 +5,11 @@ slug: bjornar-bruket
 permalink: /people/bjornar-bruket/
 name: Bjørnar Bruket
 title: Bjørnar Bruket
-position: null
-department: null
-institution: null
-institutions: []
+position: Music librarian
+department: Norges Musikkmuseum - Ringve & Rockheim
+institution: norges-musikkmuseum
+institutions:
+- norges-musikkmuseum
 affiliation_units: []
 nva_affiliations: []
 projects: []
@@ -29,8 +30,20 @@ urls:
   mastodon: null
   instagram: null
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Archive
+- Museum
+- Metadata
+- Cultural Heritage
+- Collection Management
+- Collection Management Systems
+search_keywords:
+- Archive
+- Museum
+- Metadata
+- Cultural Heritage
+- Collection Management
+- Collection Management Systems
 selected_works: []
 source_mentions: []
 summary: null

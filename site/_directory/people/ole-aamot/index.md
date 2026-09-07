@@ -3,10 +3,11 @@ type: person
 slug: ole-aamot
 name: Ole Aamot
 title: Ole Aamot
-position: null
-department: null
-institution: null
-institutions: []
+position: Product Engineer
+department: R&D
+institution: aamot-innovation
+institutions:
+- aamot-innovation
 projects: []
 roles:
 - Member

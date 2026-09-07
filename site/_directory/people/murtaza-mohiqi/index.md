@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: https://www.uia.no/english/about-uia/employees/murtazam/
+  institutional_website: https://www.uia.no/english/about-uia/employees/murtazam/index.html
   github: ''
   linkedin: https://www.linkedin.com/in/murtaza-mohiqi-phd-bbb7561a4/?skipRedirect=true
   orcid: https://orcid.org/0000-0002-7198-4348
@@ -24,8 +24,20 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Human Rights
+- AI Governance
+- Digital Regulation
+- AI Ethics
+- Intellectual Property
+- Digital Rights
+search_keywords:
+- Human Rights
+- AI Governance
+- Digital Regulation
+- AI Ethics
+- Intellectual Property
+- Digital Rights
 selected_works:
 - title: 'Innovation Versus Regulation: Intellectual Property Rights Implications
     for ChatGPT Technology in India'

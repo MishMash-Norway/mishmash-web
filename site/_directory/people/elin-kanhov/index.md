@@ -3,7 +3,7 @@ type: person
 slug: elin-kanhov
 name: Elin Kanhov
 title: Elin Kanhov
-position: null
+position: Researcher
 department: null
 institution: kth-royal-institute-of-technology
 institutions:
@@ -12,7 +12,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: http://www.linkedin.com/in/elin-kanhov
+  personal_website: https://www.elinkanhov.com
   institutional_website: https://www.kth.se/profile/ekanhov?l=en
   github: ''
   linkedin: https://www.linkedin.com/in/elin-kanhov/
@@ -24,8 +24,20 @@ urls:
   instagram: ''
   wikidata: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Musicology
+- AI Music Studies
+- Posthumanist Theory
+- Critical Theory
+- Ethnography
+- Environmental Humanities
+search_keywords:
+- Musicology
+- AI Music Studies
+- Posthumanist Theory
+- Critical Theory
+- Ethnography
+- Environmental Humanities
 selected_works:
 - title: Sexualised synthetic personas encode and amplify gendered power asymmetries
     through voice

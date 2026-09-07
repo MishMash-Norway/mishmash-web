@@ -3,8 +3,8 @@ type: person
 slug: ipek-linnea-polat-snoen
 name: Ipek Linnea Polat-Snoen
 title: Ipek Linnea Polat-Snoen
-position: null
-department: null
+position: Doctoral fellow
+department: Department of Information Technology, Research group WAVES
 institution: ghent-university
 institutions:
 - ghent-university

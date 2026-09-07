@@ -3,8 +3,8 @@ type: person
 slug: david-meredith
 name: David Meredith
 title: David Meredith
-position: null
-department: null
+position: Associate Professor
+department: Department of Architecture, Design and Media Technology
 institution: aalborg-university
 institutions:
 - aalborg-university
@@ -12,7 +12,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://vbn.aau.dk/en/persons/a3485daf-44ea-4955-989a-4a921696f40a
+  personal_website: https://www.titanmusic.com
   institutional_website: https://vbn.aau.dk/en/persons/dave/
   github: https://chromamorph
   linkedin: ''
@@ -24,8 +24,20 @@ urls:
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q112481504
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Music
+- Algorithms
+- Pattern Matching
+- Music Analysis
+- Music Information Retrieval
+- Mathematical Music Theory
+search_keywords:
+- Music
+- Algorithms
+- Pattern Matching
+- Music Analysis
+- Music Information Retrieval
+- Mathematical Music Theory
 selected_works:
 - title: 'Methods for pitch analysis in contemporary popular music: phenomenological
     analysis of Primaal''s commercial works'

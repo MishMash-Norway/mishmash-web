@@ -24,8 +24,20 @@ urls:
   instagram: ''
   wikidata: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Music Education
+- Music Teacher Education
+- AI in Music Education
+- Care-Centred Pedagogy
+- Music-Based Care
+- Technology Acceptance and Adoption
+search_keywords:
+- Music Education
+- Music Teacher Education
+- AI in Music Education
+- Care-Centred Pedagogy
+- Music-Based Care
+- Technology Acceptance and Adoption
 selected_works:
 - title: 'Music educators reimagining care: a phenomenological study of transformative
     learning through music-based care in Norway'

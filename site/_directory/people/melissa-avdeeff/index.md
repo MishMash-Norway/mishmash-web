@@ -5,8 +5,9 @@ name: Melissa Avdeeff
 title: Melissa Avdeeff
 position: Lecturer
 department: null
-institution: null
-institutions: []
+institution: university-of-stirling
+institutions:
+- university-of-stirling
 projects: []
 roles:
 - Member

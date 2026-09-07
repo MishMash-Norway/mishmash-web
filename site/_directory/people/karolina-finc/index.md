@@ -4,7 +4,7 @@ slug: karolina-finc
 name: Karolina Finc
 title: Karolina Finc
 position: Research Assistant, PhD candidate
-department: null
+department: Institute of Advanced Studies
 institution: nicolaus-copernicus-university
 institutions:
 - nicolaus-copernicus-university

@@ -5,8 +5,9 @@ name: Carmen Gloria Pérez
 title: Carmen Gloria Pérez
 position: Founder & Creative Director
 department: ''
-institution: MOONFRAME
-institutions: []
+institution: moonframe
+institutions:
+- moonframe
 projects: []
 roles:
 - Member
