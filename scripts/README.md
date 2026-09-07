@@ -77,6 +77,12 @@ Updated fields:
 - Portrait (`image`, downloaded from NVA when available)
 - Recent publications (`selected_works`, up to 10 — newest eligible works after filtering lectures, media, and supervisor-only entries)
 
+Two safety rules, both covered by `test_nva_enrich_person.py`: a failed NVA
+fetch **skips the person** rather than falling back to ORCID (which would
+overwrite NVA fields and flip back the next day), and an expired access
+token (they live 15 minutes; a full run takes longer) is refreshed and the
+request retried instead of failing.
+
 A GitHub Actions workflow runs this once per day (`.github/workflows/enrich-directory-people.yml`), including a sync of MishMash project results to `site/_data/mishmash_results.yml` for `/results/`.
 
 ### NVA API access (UiO / MishMash)

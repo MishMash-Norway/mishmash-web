@@ -1,4 +1,21 @@
 #!/usr/bin/env python3
+"""Refresh directory people from NVA and ORCID.
+
+For every entry in site/_directory/people with `urls.nva` or `urls.orcid`:
+
+- NVA is authoritative. When `urls.nva` is set, position, department,
+  institution(s), tags, summary, selected works, other projects, the
+  institutional website and the portrait come from NVA. A failed NVA fetch
+  skips the person; it never falls back to ORCID.
+- ORCID is used only for people without an NVA profile, plus the personal
+  website for them. `--discover-nva` looks up missing NVA profiles by name
+  and institution and only accepts a match whose ORCID agrees.
+- `name`, `title`, `roles`, `wps`, `aliases`, `projects` and the bio body
+  are never changed. Empty values from the source never blank a stored one.
+
+Runs nightly from .github/workflows/enrich-directory-people.yml. Use
+`--slug <slug> --dry-run` to inspect one person. Credentials: config/README.md.
+"""
 import argparse
 import base64
 import json
@@ -495,6 +512,11 @@ def configure_nva_auth() -> str:
 
 def get_json(url: str):
     r = requests.get(url, headers=_nva_request_headers, timeout=30)
+    if r.status_code == 401 and _nva_request_headers.get("Authorization"):
+        # NVA access tokens live 15 minutes; a full directory run takes longer.
+        # Fetch a fresh token once and retry instead of failing the person.
+        if configure_nva_auth():
+            r = requests.get(url, headers=_nva_request_headers, timeout=30)
     r.raise_for_status()
     return r.json()
 
@@ -1488,8 +1510,10 @@ def enrich_person(
             if nva_bundle.get("orcid"):
                 orcid_url = nva_bundle["orcid"]
         except Exception as exc:
-            if not orcid_url:
-                return False, f"error: nva fetch failed: {exc}"
+            # NVA is authoritative for this person. Never fall back to ORCID
+            # on a failed fetch: that would overwrite NVA-derived fields with
+            # ORCID data, and the next successful run would flip them back.
+            return False, f"error: nva fetch failed: {exc}"
 
     orcid_bundle = {}
     orcid_id = extract_orcid_id(orcid_url)
