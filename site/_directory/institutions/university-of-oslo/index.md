@@ -17,6 +17,7 @@ people:
 - andre-alexandersen-hauge
 - andreas-love
 - anna-maria-christodoulou
+- arthur-jinyue-guo
 - balint-laczko
 - benedikte-wallace
 - cagri-erdem
@@ -26,6 +27,7 @@ people:
 - dana-swarbrick
 - diego-marin-bucio
 - eskil-muan-saether
+- hans-kristian-strandstuen-rustad
 - hege-stensrud-hosoien
 - hugh-alexander-von-arnim
 - ida-jahr
@@ -76,7 +78,8 @@ urls:
   website: https://www.uio.no/english/index.html
   wikipedia: https://en.wikipedia.org/wiki/University_of_Oslo
   wikidata: https://www.wikidata.org/wiki/Q486156
-aliases: []
+aliases:
+- Universitetet i Oslo
 tags: []
 search_keywords: []
 source_mentions:

@@ -15,9 +15,11 @@ people:
 - guro-von-germeten
 - ivar-grydeland
 - jens-knigge
+- luciano-azzigotti
 - morten-qvenild
 - sidsel-karlsen
 - victoria-johnson
+- zoi-efstathiou
 projects:
 - agency-and-control-in-musical-ensemble
 - human-machine-consciousness
@@ -33,7 +35,8 @@ urls:
   website: https://nmh.no/en/
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_Academy_of_Music
   wikidata: https://www.wikidata.org/wiki/Q2001488
-aliases: []
+aliases:
+- Norges musikkhøgskole
 tags: []
 search_keywords: []
 source_mentions:

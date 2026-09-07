@@ -14,6 +14,7 @@ people:
 - enrique-encinas
 - kjetil-nordby
 - lise-amy-hansen
+- ricardo-simian
 projects:
 - making-movement-matter
 - tao-transductive-acoustic-organism
@@ -24,7 +25,8 @@ urls:
   website: https://www.aho.no/english/
   wikipedia: https://en.wikipedia.org/wiki/Oslo_School_of_Architecture_and_Design
   wikidata: https://www.wikidata.org/wiki/Q4579140
-aliases: []
+aliases:
+- Arkitektur- og designhøgskolen i Oslo
 tags: []
 search_keywords: []
 source_mentions:

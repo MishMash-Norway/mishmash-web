@@ -10,6 +10,7 @@ description: The Barratt Due Institute of Music in Oslo, Norway, is a music educ
   institute founded in 1927 by pianist Mary Barratt Due and violinist Henrik Adam...
 short_name: Barratt Due
 people:
+- mattias-lundqvist
 - victoria-johnson
 projects:
 - human-machine-consciousness
@@ -20,7 +21,8 @@ urls:
   website: https://www.barrattdue.no/en
   wikipedia: https://en.wikipedia.org/wiki/Barratt_Due_Institute_of_Music
   wikidata: https://www.wikidata.org/wiki/Q4863263
-aliases: []
+aliases:
+- Barratt Due musikkinstitutt
 tags: []
 search_keywords: []
 source_mentions: []

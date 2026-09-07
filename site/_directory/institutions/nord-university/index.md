@@ -15,6 +15,7 @@ people:
 - bjorn-tallak-bakken
 - jens-knigge
 - ole-goethe
+- rose-martin
 - troels-linde
 projects:
 - picturemarks

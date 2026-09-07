@@ -42,6 +42,7 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q5028646
 aliases:
 - Kristiania University of Applied Sciences
+- Høyskolen Kristiania
 tags: []
 search_keywords: []
 source_mentions:

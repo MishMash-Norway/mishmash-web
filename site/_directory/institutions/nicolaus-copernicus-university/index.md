@@ -23,6 +23,7 @@ urls:
 aliases:
 - Nicolaus Copernicus University in Toruń
 - Uniwersytet Mikołaja Kopernika w Toruniu
+- Nicolaus Copernicus University in Torun, Poland
 tags: []
 search_keywords: []
 source_mentions: []

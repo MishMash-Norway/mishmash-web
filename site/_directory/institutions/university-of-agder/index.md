@@ -16,6 +16,7 @@ people:
 - baltasar-beferull-lozano
 - daniel-nordgard
 - eirik-sorbo
+- fabio-sabetta-morales
 - ivar-grydeland
 - jon-marius-aareskjold-drecker
 - marit-wergeland
@@ -38,7 +39,9 @@ urls:
   website: https://www.uia.no/english/index.html
   wikipedia: https://en.wikipedia.org/wiki/University_of_Agder
   wikidata: https://www.wikidata.org/wiki/Q1470769
-aliases: []
+aliases:
+- Universitetet i Agder
+- University of Agder (UiA), Norway
 tags: []
 search_keywords: []
 source_mentions:
