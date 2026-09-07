@@ -46,8 +46,9 @@ PEOPLE.forEach(person => {
 const instName = Object.fromEntries(INSTITUTIONS.map(i => [i.id, i.name]));
 
 /* ── State ──────────────────────────────────────────────────────────── */
-let connectionMode = "institutions";
-let roleFilter = "all";
+// Defaults match the buttons marked `active` in people/network/index.html.
+let connectionMode = "wp";
+let roleFilter = "Member";
 let activeTagClusters = new Set();
 let activeRawTags = new Set();
 let tagMatchMode = "or";
