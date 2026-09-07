@@ -1,68 +1,17 @@
-Fetch UIO / Ritmo event pages
-=================================
+MishMash scripts
+================
 
-This script fetches event pages (e.g. from the UIO / Ritmo site) and extracts basic metadata.
-
-Quick start:
-
-1. Install deps (recommended in a venv):
+Python helpers for the site under `site/`. Install dependencies in a venv:
 
 ```bash
+python3 -m venv venv && source venv/bin/activate
 pip install -r scripts/requirements.txt
 ```
 
-1. Run against a single page:
-
-```bash
-python3 scripts/fetch_uio_events.py "https://www.uio.no/.../deichman/index.html"
-```
-
-Paths default to `site/` (see `scripts/repo_paths.py`). To write elsewhere:
-
-```bash
-python3 scripts/fetch_uio_events.py "https://www.uio.no/.../deichman/index.html" --out-dir site/_events
-```
-
-1. Or provide a file with one URL per line:
-
-```bash
-python3 scripts/fetch_uio_events.py urls.txt --from-file --out-dir scripts/output
-```
-
-The script emits either JSON to stdout (`--json`) or writes Jekyll-style markdown files with front-matter into `--out-dir`.
-
-Fetch AI-focused partner events
--------------------------------
-
-This script scans partner links listed in `site/index.md`, discovers likely event pages,
-extracts event candidates, filters for AI-focused events, and appends new items to
-`site/_data/partner_events.yml`.
-
-Quick start:
-
-1. Install deps (same as above):
-
-```bash
-pip install -r scripts/requirements.txt
-```
-
-1. Preview what would be added:
-
-```bash
-python3 scripts/fetch_partner_ai_events.py --dry-run
-```
-
-1. Append new events to partner listing:
-
-```bash
-python3 scripts/fetch_partner_ai_events.py
-```
-
-Useful flags:
-
-- `--max-pages-per-partner 4` limits crawl depth per partner site.
-- `--max-partners 40` limits total partners scanned.
-- `--output site/_data/partner_events.yml` writes to a custom destination file.
+Paths default to `site/` (see `scripts/repo_paths.py`). The wiki page
+[Scripts and Automation](https://github.com/MishMash-Norway/mishmash-web/wiki/Scripts-and-Automation)
+lists every script in one line each; this file holds the detail. Tests live
+next to the scripts as `test_*.py` and run in the Web Quality Checks workflow.
 
 Update directory people from NVA and ORCID
 ------------------------------------------

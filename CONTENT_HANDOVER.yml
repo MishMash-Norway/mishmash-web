@@ -233,10 +233,8 @@ content_types:
       - Keep the event external; do not create a duplicate file in site/_events/.
       - Confirm the event is future or current before adding it to the upcoming list.
     automation:
-      discovery: python3 scripts/fetch_partner_ai_events.py --dry-run
-      append: python3 scripts/fetch_partner_ai_events.py
       metadata_refresh: python3 scripts/fetch_partner_og_data.py
-      caveat: Review crawler output manually; it can be incomplete or unsuitable.
+      caveat: Partner events are entered by hand; the OG refresh only fills title, description and image.
 
   directory_person:
     source_directory: site/_directory/people/
@@ -299,8 +297,6 @@ content_types:
 
 automation:
   event_importers:
-    uio_events: python3 scripts/fetch_uio_events.py URL
-    rss_events: python3 scripts/fetch_rss_to_events.py
     meshups: python3 scripts/import_meshups_from_xlsx.py --xlsx "temp/MishMash Meetups.xlsx"
     rule: Treat imported files as drafts for editorial review; verify dates, timezone, title, image, and body.
   directory_importers:

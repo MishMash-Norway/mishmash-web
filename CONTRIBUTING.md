@@ -55,6 +55,7 @@ NVA credentials: see [config/README.md](config/README.md). **Never commit creden
 | `site/_data/mishmash_results.yml` | `scripts/sync_results_from_nva.py` (daily CI + manual) |
 | Person portraits in `site/assets/images/portraits/` | NVA enrich script (daily CI) |
 | Many person front-matter fields | `scripts/enrich_directory_from_nva.py` (daily CI) |
+| `site/chat/knowledge.json` | `scripts/build_knowledge_base.py` (rebuilt at every deploy) |
 
 ### Person profiles: what you can edit
 

@@ -40,6 +40,9 @@ jobs:
       - name: Generate AI colophon statistics
         run: pip install PyYAML && python3 scripts/generate_ai_colophon_stats.py
 
+      - name: Build chat knowledge base
+        run: python3 scripts/build_knowledge_base.py
+
       - name: Build site
         run: bundle exec jekyll build --trace
 
