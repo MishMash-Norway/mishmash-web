@@ -190,6 +190,7 @@ def main():
                 "path": index_md,
                 "name": str(fm.get("name", "")).strip(),
                 "published": fm.get("published") is not False,
+                "institution": str(fm.get("institution") or "").strip(),
                 "institutions": as_slug_list(fm.get("institutions", [])),
                 "projects": as_slug_list(fm.get("projects", [])),
                 "people": as_slug_list(fm.get("people", [])),
@@ -243,6 +244,11 @@ def main():
                         "whose page is missing or unpublished (drop the url; "
                         "the nightly sync will re-add it when published)"
                     )
+        if p["institution"] and p["institution"] not in institutions:
+            errors.append(
+                f"{ppath}: institution '{p['institution']}' is not an institution slug "
+                "(create the institution entry or use its slug)"
+            )
         for islug in p["institutions"]:
             if islug not in institutions:
                 errors.append(f"{ppath}: unknown institution reference '{islug}'")

@@ -205,31 +205,98 @@ manually (e.g. contacted to fill in the directory survey) or checked by hand
 against the directory (misspellings, non-ASCII names, or nickname/legal-name
 mismatches are common causes of missed matches).
 
+Adding people: how the scripts fit together
+--------------------------------------------
+
+Several scripts write to `site/_directory/people/*/index.md`, and the nightly
+workflow (`.github/workflows/enrich-directory-people.yml`) pushes to `main`
+every morning. Before adding people, know who owns which field:
+
+| Field(s) | Written by | Rule |
+| --- | --- | --- |
+| `name`, `title`, `slug`, `permalink` | you / the XLSX importer | Never changed by any sync. |
+| `urls.*` | XLSX importer, `fill_missing_nva_orcid.py`, `discover_orcid_public_search.py` | `orcid`/`nva` on an existing entry are never replaced by a different value. |
+| `wps` | XLSX importer, `assign_wps_from_mailing_lists.py` | Always merged (union), never removed. |
+| `roles` | you | Never touched by the importers or the sync. |
+| `position`, `department`, `institution`, `institutions`, `tags`, `search_keywords`, `summary`, `selected_works`, `image` | `enrich_directory_from_nva.py` when `urls.nva` is set | **NVA wins nightly.** Hand edits to these fields survive only for people without `urls.nva`, or when NVA has no value for the field. The XLSX importer only fills them when empty. |
+| `institutions` ↔ institution `people` | `sync_directory_reciprocity.py` | Set the link on one side; the sync mirrors it (nightly, or run it yourself). |
+| tag spelling | `merge_tags.py` | Title-cases tags and folds variants from `config/tag_merge_map.yml` nightly. |
+
+Practical consequences:
+
+- **Commit and push promptly, and pull before you push.** The nightly bot
+  commits to `main` at 05:00 UTC; a stale local branch conflicts on the very
+  files you edited.
+- **`institution` must be a slug** from `site/_directory/institutions/`
+  (`validate_directory.py` fails otherwise). Create the institution entry
+  first — copy `institutions/_template/` — and list the spellings people use
+  for it in its `aliases`, so the importer can resolve them.
+- **Do not fight NVA.** If a person has `urls.nva` and NVA reports a
+  different affiliation or tag list, fix it in NVA (or ask the person to),
+  not in the file.
+- **Run `python3 scripts/validate_directory.py`** before committing;
+  the Web Quality Checks workflow runs the same script.
+
 Import people from XLSX
 -----------------------
 
-The XLSX importer now auto-detects the sheet type:
+`import_people_from_xlsx.py` (shared logic in `import_people_xlsx_common.py`,
+tests in `test_import_people_xlsx.py`) reads the exports of the two
+MishMash forms and auto-detects which one it has:
 
-- intake sheets with an include column only import rows that are marked for inclusion
-- existing-member sheets update matching people entries with URL data
+- **Participation form** (columns `Do you want to be added to the MishMash
+  directory?`, `Institution/Organisation`, `Unit`, `Current position`, the
+  `Work Package(s) you are interested in joining.WP…` columns and two keyword
+  columns). Only rows answering **Yes** to the directory question are
+  imported; rows without an answer (the question was added in June 2026) or
+  answering No are skipped. The `Which WP(s) does it connect to?` columns
+  describe project ideas and are ignored.
+- **Directory update form** (columns `Work package(s).WP1`…`WP7`, `Tags`,
+  URL columns). Every row is applied.
 
-Use the canonical XLSX importer for MishMash directory entries:
+What it writes:
+
+- New people are created from `people/_template/index.md` with
+  `published: false`, name, URLs, work packages, position, department, tags
+  (max 12, from the keyword columns) and — when the institution name resolves
+  — `institution`/`institutions`. Review the entry, then set
+  `published: true`.
+- Existing people (matched by slug, or by `aliases` on the entry) get URLs
+  filled in, `wps` merged, and empty `position`/`department`/`institution`/
+  `tags` filled. Curated values, `roles`, the body text and fields the
+  importer does not know about are left alone.
+- Institution names are matched exactly (case- and accent-insensitive)
+  against the `name`, `short_name`, `slug` and `aliases` of the institution
+  entries. Unresolved names are printed as warnings and the field is left
+  empty: create the institution or add an alias, then re-run — re-running is
+  safe.
+- A duplicated ORCID/NVA value submitted by two different people is applied
+  to neither (copy-paste mistakes are common in cumulative exports).
 
 ```bash
-python3 scripts/import_people_from_xlsx.py
+python3 scripts/import_people_from_xlsx.py --xlsx temp/data-…xlsx --dry-run
+python3 scripts/import_people_from_xlsx.py --xlsx temp/data-…xlsx
+python3 scripts/sync_directory_reciprocity.py   # mirror people ↔ institutions
+python3 scripts/validate_directory.py
 ```
 
-If you still have the older entrypoint name, it is kept as a compatibility wrapper:
+Flags: `--xlsx` (defaults to the newest `.xlsx` in `temp/`), `--dry-run`,
+`--template`, `--out-base`. `import_people_from_xlsx_all.py` is a
+compatibility wrapper with the same behaviour.
 
-```bash
-python3 scripts/import_people_from_xlsx_all.py
-```
+The people roles from the participation form (Full / Associate / Affiliate
+member) are *not* imported; every new entry gets `roles: [Member]`, which is
+the label the people network filters on. Adjust by hand if needed.
 
-Useful flags on the canonical importer:
+### `import_directory_survey_csv.py` (legacy — do not use for imports)
 
-- `--xlsx path/to/file.xlsx` selects a different spreadsheet.
-- `--template path/to/index.md` uses a different directory template.
-- `--out-base path/to/output` writes entries to another people directory.
+An older importer for the same participation form. It is kept only because
+`assign_wps_from_mailing_lists.py` imports two helpers from it. Do not run
+it against the live directory: it ignores the directory-consent column,
+rewrites `roles` from the survey answer (dropping `Work Package Leader`,
+`Council Member`, …), copies free-text survey comments into the public bio,
+drops front-matter fields it does not know about, and creates institutions
+from a hard-coded list. Use `import_people_from_xlsx.py` instead.
 
 Import MeshUps from XLSX
 ------------------------

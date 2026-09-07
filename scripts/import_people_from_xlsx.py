@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
-"""Import MishMash people data from XLSX files.
+"""Import MishMash people data from XLSX form exports.
 
 The importer auto-detects two sheet layouts:
 
-- intake sheets with an include column only import rows marked for inclusion
-- existing-member sheets update matching directory entries with URL fields
+- intake sheets (the participation form) have a consent column; only rows
+  answering "Yes" are imported
+- existing-member sheets (the directory update form) update matching entries
 
-Place an XLSX in temp/ or pass --xlsx explicitly.
+Imported fields: name (new entries only), URL fields, work packages (merged),
+and — filling empty fields only on existing entries — position, department,
+institution (resolved against the institution directory) and tags. New
+entries are created from the people template, i.e. with ``published: false``,
+so they can be reviewed before going live. Unresolved institution names are
+printed as warnings; create the institution or add an alias and re-run.
+
+Place an XLSX in temp/ or pass --xlsx explicitly. Use --dry-run first.
 """
 from __future__ import annotations
 
@@ -25,6 +33,7 @@ def parse_args(argv=None):
     parser.add_argument("--xlsx", type=Path, default=DEFAULT_XLSX, help="XLSX file to import. Defaults to the newest XLSX in temp/.")
     parser.add_argument("--template", type=Path, default=None, help="Directory template to copy for each imported person")
     parser.add_argument("--out-base", type=Path, default=None, help="Output directory for people entries")
+    parser.add_argument("--dry-run", action="store_true", help="Report what would be created or updated without writing")
     return parser.parse_args(argv)
 
 
@@ -60,9 +69,10 @@ def main(argv=None):
         return 3
 
     out_base = args.out_base or (repo_root / "site" / "_directory" / "people")
-    created, updated, skipped_missing = import_people(people, template, out_base)
+    created, updated, warnings = import_people(people, template, out_base, dry_run=args.dry_run)
 
-    print(f"Done. Created: {created}, updated: {updated}, missing existing entries skipped: {skipped_missing}")
+    verb = "Would create" if args.dry_run else "Created"
+    print(f"{verb}: {created}, updated: {updated}, warnings: {len(warnings)} ({sheet_kind} sheet: {xlsx})")
     return 0
 
 
