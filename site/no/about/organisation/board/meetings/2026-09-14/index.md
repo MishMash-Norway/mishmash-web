@@ -26,7 +26,7 @@ Sekretariat:
 - [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) (Senterleder)
 - [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO) (Administrativ koordinator)
 
-Dette er det første fysiske styremøtet, og holdes i forkant av MishMashs åpningskonferanse i Kristiansand. Arbeidspakkelederne er invitert til å delta.
+Dette er det første fysiske styremøtet, og holdes i forkant av MishMashs [åpningskonferanse](/events/kristiansand2026/) i Kristiansand. Arbeidspakkelederne er invitert til å delta.
 
 ## Saksliste
 

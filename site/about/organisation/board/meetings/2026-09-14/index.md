@@ -25,7 +25,7 @@ Secretariat:
 - [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) (Centre Director)
 - [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO) (Administrative Coordinator)
 
-This is the first physical board meeting, and is held ahead of MishMash's opening conference in Kristiansand. The work package leaders have been invited to attend.
+This is the first physical board meeting, and is held ahead of MishMash's [opening conference](/events/kristiansand2026/) in Kristiansand. The work package leaders have been invited to attend.
 
 ## Agenda
 
