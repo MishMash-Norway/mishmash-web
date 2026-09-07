@@ -12,7 +12,6 @@ import urllib.request
 from pathlib import Path
 
 from directory_io import load_entry, save_entry
-from institution_short_names import DEFAULT_INSTITUTION_WIKIPEDIA
 from repo_paths import SITE_ROOT
 
 USER_AGENT = "mishmash-web/1.0 (directory sync; contact: mishmash.no)"
@@ -48,7 +47,13 @@ def main() -> None:
     args = parser.parse_args()
 
     institutions_dir = Path(args.root).resolve() / "_directory" / "institutions"
-    slugs = sorted(args.slug) if args.slug else sorted(DEFAULT_INSTITUTION_WIKIPEDIA.keys())
+    if args.slug:
+        slugs = sorted(args.slug)
+    else:
+        slugs = sorted(
+            child.name for child in institutions_dir.iterdir()
+            if child.is_dir() and not child.name.startswith("_") and (child / "index.md").exists()
+        )
     updated = 0
     skipped = 0
 
@@ -60,7 +65,7 @@ def main() -> None:
 
         data, body = load_entry(index_md)
         urls = data.get("urls") or {}
-        wikipedia = (urls.get("wikipedia") or DEFAULT_INSTITUTION_WIKIPEDIA.get(slug) or "").strip()
+        wikipedia = (urls.get("wikipedia") or "").strip()
         if not wikipedia:
             print(f"skip {slug}: no wikipedia url")
             skipped += 1

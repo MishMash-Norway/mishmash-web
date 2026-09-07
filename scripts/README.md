@@ -148,34 +148,15 @@ Useful flags:
 - `--dry-run` report changes without writing files
 - `--no-download-images` skip portrait downloads
 
-Fill Missing NVA and ORCID Links Only
--------------------------------------
-
-This script only updates missing `urls.nva` and `urls.orcid` in
-`site/_directory/people/*/index.md`, without changing other profile fields.
-
-Quick start:
-
-```bash
-python3 scripts/fill_missing_nva_orcid.py --dry-run
-python3 scripts/fill_missing_nva_orcid.py --discover-nva-loose
-```
-
-Useful flags:
-
-- `--slug <slug>` process one person (repeatable)
-- `--discover-nva-loose` allow looser name matching
-- `--dry-run` report changes without writing files
-
 Discover ORCID via public ORCID search
 ---------------------------------------
 
-`scripts/fill_missing_nva_orcid.py` only finds an ORCID iD when it is already
-linked from an NVA profile. This complementary script queries the public
-ORCID registry directly (no credentials required) for people still missing
+The nightly enrich run only finds an ORCID iD when it is already linked
+from an NVA profile. This complementary script queries the public ORCID
+registry directly (no credentials required) for people still missing
 `urls.orcid`, and only fills it in when a candidate's ORCID employment
-history overlaps with the person's known institution or department. Run
-`fill_missing_nva_orcid.py` first, then use this script for the remainder.
+history overlaps with the person's known institution or department. Run it
+by hand after a batch of new people has been imported.
 
 ```bash
 python3 scripts/discover_orcid_public_search.py --dry-run
@@ -221,7 +202,7 @@ every morning. Before adding people, know who owns which field:
 | Field(s) | Written by | Rule |
 | --- | --- | --- |
 | `name`, `title`, `slug`, `permalink` | you / the XLSX importer | Never changed by any sync. |
-| `urls.*` | XLSX importer, `fill_missing_nva_orcid.py`, `discover_orcid_public_search.py` | `orcid`/`nva` on an existing entry are never replaced by a different value. |
+| `urls.*` | XLSX importer, nightly `--discover-nva`, `discover_orcid_public_search.py` | `orcid`/`nva` on an existing entry are never replaced by a different value. |
 | `wps` | XLSX importer, `assign_wps_from_mailing_lists.py` | Always merged (union), never removed. |
 | `roles` | you | Never touched by the importers or the sync. |
 | `position`, `department`, `institution`, `institutions`, `tags`, `search_keywords`, `summary`, `selected_works`, `image` | `enrich_directory_from_nva.py` when `urls.nva` is set | **NVA wins nightly.** Hand edits to these fields survive only for people without `urls.nva`, or when NVA has no value for the field. The XLSX importer only fills them when empty. |
@@ -287,22 +268,11 @@ python3 scripts/validate_directory.py
 ```
 
 Flags: `--xlsx` (defaults to the newest `.xlsx` in `temp/`), `--dry-run`,
-`--template`, `--out-base`. `import_people_from_xlsx_all.py` is a
-compatibility wrapper with the same behaviour.
+`--template`, `--out-base`.
 
 The people roles from the participation form (Full / Associate / Affiliate
 member) are *not* imported; every new entry gets `roles: [Member]`, which is
 the label the people network filters on. Adjust by hand if needed.
-
-### `import_directory_survey_csv.py` (legacy — do not use for imports)
-
-An older importer for the same participation form. It is kept only because
-`assign_wps_from_mailing_lists.py` imports two helpers from it. Do not run
-it against the live directory: it ignores the directory-consent column,
-rewrites `roles` from the survey answer (dropping `Work Package Leader`,
-`Council Member`, …), copies free-text survey comments into the public bio,
-drops front-matter fields it does not know about, and creates institutions
-from a hard-coded list. Use `import_people_from_xlsx.py` instead.
 
 Import MeshUps from XLSX
 ------------------------

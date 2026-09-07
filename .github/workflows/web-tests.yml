@@ -29,6 +29,14 @@ jobs:
       - name: Validate directory
         run: python3 scripts/validate_directory.py
 
+      - name: Run script unit tests
+        run: |
+          for t in scripts/test_*.py; do
+            [ "$t" = scripts/test_nva_api_auth.py ] && continue   # needs NVA credentials
+            echo "== $t"
+            python3 "$t" || exit 1
+          done
+
       - name: Readability of adaptive pages (non-blocking)
         continue-on-error: true
         run: python3 scripts/check_readability.py --strict

@@ -335,6 +335,11 @@ def parse_wps(row, headers, indexes) -> list[str]:
     return sort_wps(wps)
 
 
+def merge_wps(existing, new_items) -> list[str]:
+    """Union of two work-package lists, normalised and sorted (WP1..WP7)."""
+    return sort_wps(list(existing or []) + list(new_items or []))
+
+
 def sort_wps(values) -> list[str]:
     cleaned = {str(v).strip().upper() for v in values or [] if str(v).strip()}
     cleaned = {v for v in cleaned if re.fullmatch(r"WP[1-7]", v)}

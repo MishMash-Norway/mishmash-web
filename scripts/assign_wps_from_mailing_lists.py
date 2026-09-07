@@ -22,7 +22,7 @@ import unicodedata
 from pathlib import Path
 
 from directory_io import load_entry, save_entry
-from import_directory_survey_csv import merge_wps, slugify
+from import_people_xlsx_common import merge_wps, slugify
 from repo_paths import SITE_ROOT
 
 PEOPLE_ROOT = SITE_ROOT / "_directory" / "people"

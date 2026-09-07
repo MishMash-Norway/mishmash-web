@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Discover ORCID iDs for directory people via the public ORCID search API.
 
-Complements scripts/fill_missing_nva_orcid.py: that script only finds ORCID
-already linked from an NVA profile, which misses people without an NVA
-profile or whose NVA profile lacks an ORCID identifier. This script queries
+Complements the nightly enrich_directory_from_nva.py run, which only picks
+up an ORCID already linked from an NVA profile and so misses people without
+an NVA profile or whose NVA profile lacks an ORCID. This script queries
 the public ORCID registry (https://pub.orcid.org, no auth required) by
 given/family name and only fills `urls.orcid` when a candidate's ORCID
 employment history overlaps with the person's known institution/department,
