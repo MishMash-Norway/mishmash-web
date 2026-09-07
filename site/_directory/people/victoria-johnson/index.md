@@ -234,6 +234,7 @@ redirect_from:
 - /directory/people/victoria-johnson/
 wps:
 - WP1
+- WP4
 ---
 
 Bio coming soon.
