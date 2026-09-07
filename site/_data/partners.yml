@@ -121,6 +121,8 @@
   - name: DHKO Norwegian network for digital humanities and cultural organization
     url: https://dhko.no/en
     url_nb: https://dhko.no
+  - name: ForzaSys
+    url: https://forzasys.com/
 # - name: Fynd Reality AS
   # url: https://www.fyndreality.com/
 # - name: GramArt (In Norwegian)
