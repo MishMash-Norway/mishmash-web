@@ -54,7 +54,7 @@ Protokollen fra forrige styremøte godkjennes.
 
 #### Bakgrunn
 
-Senterleder gir en kort orientering om aktiviteten i senteret.
+Senterleder vil orientere om aktiviteten i senteret.
 
 #### Forslag til vedtak
 
@@ -64,18 +64,17 @@ Saken tas til orientering.
 
 #### Bakgrunn
 
-Administrativ koordinator gir en orientering om den økonomiske aktiviteten i senteret.
+Administrativ koordinator vil orientere om den økonomiske situasjonen i senteret.
 
 #### Forslag til vedtak
 
 Saken tas til orientering.
 
-
 ### 5. Rapportering til Forskningsrådet
 
 #### Bakgrunn
 
-Den første rapporteringen til Forskningsrådet skal gjennomføres innen 1. oktober 2026. Administrativ koordinator orienterer om hvordan rapporten utarbeides. 
+Den første rapporteringen til Forskningsrådet skal gjennomføres innen 1. oktober 2026. Administrativ koordinator orienterer om hvordan rapporten utarbeides.
 
 #### Forslag til vedtak
 
@@ -86,7 +85,16 @@ Saken tas til orientering.
 
 #### Bakgrunn
 
-Arbeidspakkelederne er invitert til å gi korte statusinnlegg på om lag fem minutter hver, med vekt på prosjektoppstart og eventuelle problemstillinger styret kan bistå med.
+Arbeidspakkelederne er invitert til å gi korte statusinnlegg på fire minutter hver, med vekt på prosjektoppstart og eventuelle problemstillinger styret kan bistå med. Styret bes lese mer om hver av arbeidspakkene før møtet:
+
+- [WP1: AI for artistic performances](/wp1/)
+- [WP2: AI in artistic processes](/wp2/)
+- [WP3: Creative use of AI for health and well-being](/wp3/)
+- [WP4: Creative use of AI in education](/wp4/)
+- [WP5: AI in the Creative and Cultural Industries](/wp5/)
+- [WP6: AI for cultural heritage](/wp6/)
+- [WP7: Human-centric AI for Creative Problem-Solving](/wp7/)
+
 
 #### Forslag til vedtak
 

@@ -53,7 +53,7 @@ The minutes from the previous board meeting are approved.
 
 #### Background
 
-The Centre Director gives a brief orientation on the activity in the centre.
+The Centre Director will give an orientation on the activity in the centre.
 
 #### Proposed decision
 
@@ -63,12 +63,11 @@ The matter is noted.
 
 #### Background
 
-The Administrative Coordinator provides an orientation on the financial activity in the centre.
+The Administrative Coordinator will give an orientation on the financial situation in the centre.
 
 #### Proposed decision
 
 The matter is noted.
-
 
 ### 5. Reporting to the Research Council
 
@@ -85,7 +84,15 @@ The matter is noted.
 
 #### Background
 
-The work package leaders have been invited to give short status presentations of about five minutes each, with emphasis on the project start-up and any issues the board can assist with.
+The work package leaders have been invited to give short status presentations of four minutes each, with emphasis on the project start-up and any issues the board can assist with. The board is asked to read about each of the work packages before the meeting:
+
+- [WP1: AI for artistic performances](/wp1/)
+- [WP2: AI in artistic processes](/wp2/)
+- [WP3: Creative use of AI for health and well-being](/wp3/)
+- [WP4: Creative use of AI in education](/wp4/)
+- [WP5: AI in the Creative and Cultural Industries](/wp5/)
+- [WP6: AI for cultural heritage](/wp6/)
+- [WP7: Human-centric AI for Creative Problem-Solving](/wp7/)
 
 #### Proposed decision
 
