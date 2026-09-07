@@ -2,6 +2,11 @@
   List seed-funding projects or members for a work package page.
   include.wp — work package label, e.g. "WP1"
   include.section — "members" or "projects"
+
+  A person counts as a member of the work package when their own `wps`
+  list contains the label, or when they take part in a seed-funding
+  project tagged with it. Work package leaders (site.data.work_packages)
+  are listed separately on the page and skipped here.
 {% endcomment %}
 {% assign wp_label = include.wp %}
 {% assign wp_data = site.data.work_packages | where: "label", wp_label | first %}
@@ -40,7 +45,7 @@
           {% break %}
         {% endif %}
       {% endfor %}
-      {% if on_wp_project %}
+      {% if on_wp_project or person.wps contains wp_label %}
         <li><a href="{{ person.url | relative_url }}">{{ person.name | default: person.title | default: person.slug }}</a></li>
         {% assign seen_people = seen_people | append: person.slug | append: "|" %}
         {% assign member_count = member_count | plus: 1 %}
