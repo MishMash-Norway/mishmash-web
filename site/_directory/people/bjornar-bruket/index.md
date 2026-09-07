@@ -31,14 +31,14 @@ urls:
   instagram: null
 aliases: []
 tags:
-- Archive
+- Archives
 - Museum
 - Metadata
 - Cultural Heritage
 - Collection Management
 - Collection Management Systems
 search_keywords:
-- Archive
+- Archives
 - Museum
 - Metadata
 - Cultural Heritage

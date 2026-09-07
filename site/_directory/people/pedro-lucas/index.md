@@ -3,7 +3,7 @@ type: person
 slug: pedro-lucas
 name: Pedro Lucas
 title: Pedro Lucas
-position: Lead Programmer
+position: Researcher
 department: Department for Informatics
 institution: university-of-oslo
 institutions:
@@ -30,48 +30,227 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Human-Swarm Interactive Music Systems: Exploring Collaborative Sonic Creation
+    Between Humans and Autonomous Agents'
+  year: '2026'
+  source: PhD thesis
+  group_type: PhD thesis
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+- title: 'HS-ims: A Platform for Human-Swarm Interactive Music Systems'
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/ACSOS-C66519.2025.00067
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+  - name: Alexander Szorkovszky
+    role: Creator
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
 - title: An Interactive Self-Assembly Swarm Music System in Extended Reality
   year: '2025'
-  source: Conference paper
-  group_type: Conference
+  source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3771594.3771620
-- title: Towards the implementation of a countrywide K-12 learning analytics initiative
-    in Uruguay
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Alexander Szorkovszky
+    role: Creator
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+- title: Introducing the MusicLab Copenhagen Dataset
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/20592043241303288
+  contributors:
+  - name: Simon Høffding
+    role: Creator
+  - name: Rebecca Josefine Five Bergstrøm
+    role: Creator
+  - name: Laura Bishop
+    role: Creator
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+  - name: Kayla Burnim
+    role: Creator
+  - name: Carlos Eduardo Cancino-Chacón
+    role: Creator
+  - name: Maria-Alena Clim
+    role: Creator
+  - name: Matthew Good
+    role: Creator
+  - name: Niels Chr. Hansen
+    role: Creator
+  - name: Eirik Slinning Karlsen
+    role: Creator
+  - name: Live Håndlykken Kvale
+    role: Creator
+  - name: Bruno Laeng
+    role: Creator
+  - name: Olivier Serge Gabriel Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Eigil Lippert
+    role: Creator
+  - name: Remy Richard Martin
+    role: Creator
+  - name: Nanette Nielsen
+    role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
+  - name: Rahul Omprakash Agrawal
+    role: Creator
+  - name: Thea Sørli Paulsrud
+    role: Creator
+  - name: Fernando E. Rosas
+    role: Creator
+  - name: Dana Swarbrick
+    role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
+  - name: Solveig Sørbø
+    role: Creator
+  - name: Finn Upham
+    role: Creator
+  - name: Atilla Juliana Vrasdonk
+    role: Creator
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Sebastian Wallot
+    role: Creator
+  - name: Wenbo Yi
+    role: Creator
+  - name: Anne Danielsen
+    role: Creator
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: 'Self-Assembly and Synchronization: Crafting Music with Multi-Agent Embodied
+    Oscillators'
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/ACSOS61780.2024.00034
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+  - name: Alexander Szorkovszky
+    role: Creator
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+- title: 'Csound vs. ChucK: Sound Generation for XR Multi-Agent Audio Systems in the
+    Meta Quest 3 Using the Unity Game Engine'
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.14339046
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+- title: Interactive Sonification of 3D Swarmalators
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.13904846
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Alexander Szorkovszky
+    role: Creator
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+- title: A Human-Agents Music Performance System in an Extended Reality Environment
+  year: '2023'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.11189090
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+- title: 'Human-Swarm Interactive Music Systems: Design, Algorithms, Technologies,
+    and Evaluation'
+  year: '2023'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+- title: A Granular Synthesis Strategy Based on Musical Harmony Theory Through a Fuzzy
+    Logic Approach
   year: '2019'
   source: Journal article
   group_type: Journal article
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-85068677488&partnerID=MN8TOARS
-- title: A centralized control of movements using a collision avoidance algorithm
-    for a swarm of autonomous agents
-  year: '2018'
-  source: Conference paper
-  group_type: Conference
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-85045731086&partnerID=MN8TOARS
-- title: A distributed control of movements and fuzzy logic-based task allocation
-    for a swarm of autonomous agents
-  year: '2018'
-  source: Conference paper
-  group_type: Conference
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-85060484274&partnerID=MN8TOARS
-- title: 'Virtual circuits: An augmented reality circuit simulator for engineering
-    students'
-  year: '2018'
-  source: Conference paper
-  group_type: Conference
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-85052492974&partnerID=MN8TOARS
-- title: Human-machine musical composition in real-time based on emotions through
-    a fuzzy logic approach
-  year: '2017'
-  source: Book
-  group_type: Book
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84989936741&partnerID=MN8TOARS
-- title: Acquisition of knowledge in the process of musical composition based on artificial
-    intelligence techniques,Adquisición del conocimiento en el proceso de composición
-    musical en base a técnicas de inteligencia artificial
-  year: '2015'
-  source: Conference paper
-  group_type: Conference
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-84935116097&partnerID=MN8TOARS
+  url: https://doi.org/10.1109/LA-CCI47412.2019.9036760
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+  - name: Enrique Peláez
+    role: Creator
 source_mentions: []
 summary: His doctoral work is supervised by Professor Kyrre Glette and Professor Stefano
   Fasciani.

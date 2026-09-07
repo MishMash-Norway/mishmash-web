@@ -3,9 +3,9 @@ type: person
 slug: stephanie-von-spreter
 name: Stephanie von Spreter
 title: Stephanie von Spreter
-position: Guest Researcher
+position: Researcher
 department: Department of Language and Culture
-institution: kristiania-university-college
+institution: arctic-university-of-norway
 institutions:
 - arctic-university-of-norway
 - kristiania-university-college
@@ -50,57 +50,87 @@ search_keywords:
 - Scandinavian Art History
 - Artificial Intelligence
 selected_works:
-- title: Broken Legacies. Potential Futures. Artistic Practices in the Circumpolar
-    North
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1515/9783111332253
-- title: New Nordic. We are what we eat
-  year: '2025'
-  source: Review
-  group_type: Review
-- title: Photography & Care
-  year: '2025'
-  source: Journal Issue
-  group_type: Journal Issue
-  url: https://www.tandfonline.com/toc/rpho20/18/1
 - title: 'Introduction: on photography and care'
   year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: http://dx.doi.org/10.1080/17540763.2024.2435678
-- title: Hanna Resvoll-Holmsen and Flowers from Svalbard – an experimental collaborative
-    project between an artist and an art historian
-  year: '2024'
-  source: Conference paper
-  group_type: Conference
-- title: Destructed Environments, Gendered Spaces and Colonial Legacies. Contemporary
-    Art Practices Sensing the Arctic and the Circumpolar North
-  year: '2024'
-  source: Conference paper
-  group_type: Conference
-- title: Arctic Images in Art, Visual Culture and the Museum, c. 1600-2020
-  year: '2024'
-  source: Other
-  group_type: Other
-  url: https://uit.no/utdanning/emner/emne/859811/hif-3211?ar=2025&semester=V
+  source: Literature review
+  group_type: Literature review
+  url: https://doi.org/10.1080/17540763.2024.2435678
+  contributors:
+  - name: Marthe Tolnes Fjellestad
+    role: Creator
+  - name: Elin Kristine Haugdal
+    role: Creator
+  - name: Stephanie Spreter von Kreudenstein
+    role: Creator
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
+  - name: Hanne Hammer Stien
+    role: Creator
 - title: Sensing Polar Ice Bodies
   year: '2024'
   source: Book chapter
   group_type: Book chapter
-  url: http://dx.doi.org/10.1007/978-3-031-39787-5
-- title: 'From Campus to Capitol: art historical case studies'
-  year: '2023'
-  source: Other
-  group_type: Other
-  url: https://uit.no/utdanning/emner/emne/874682/kvi-1113?ar=2025&semester=H
-- title: Ghost of the Past? The (In)visible Hans Egede Monument at Trinity Church,
-    Oslo
-  year: '2023'
-  source: Conference paper
-  group_type: Conference
-  url: https://vigeland.museum.no/arrangement/the-vigeland-seminar-2023
+  url: https://doi.org/10.1007/978-3-031-39787-5_7
+  contributors:
+  - name: Stephanie von Spreter
+    role: Creator
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
+- title: 'Pia Arke and ‘Arctic Hysteria’: Visual Repatriation and the Problematics
+    of a ‘Lost’ Artwork'
+  year: '2022'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.18261/kk.105.2.3
+  contributors:
+  - name: Stephanie von Spreter
+    role: Creator
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
+- title: 'Feminist strategies for changing the story: re-imagining Arctic exploration
+    narratives through (the staging of) photographs, travel writing and found objects'
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1080/20004214.2021.1997462
+  contributors:
+  - name: Stephanie von Spreter
+    role: Creator
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
+- title: Urban Ecologies After A.I.
+  year: '2021'
+  source: Exhibition
+  group_type: Exhibition
+  url: https://r-o-m.no/
+  contributors:
+  - name: Synne Tollerud Bull
+    role: Artist
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Dragan Miletic
+    role: Artist
+  - name: Petrine Vinje
+    role: Artist
+  - name: Christine Pettersen
+    role: Artist
+  - name: Ingrid Halland
+    role: Artist
+  - name: Stephanie von Spreter
+    role: Artist
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
+- title: A story for you to continue
+  year: '2018'
+  source: Exhibition
+  group_type: Exhibition
+  contributors:
+  - name: Felix Gmelin
+    role: Artist
+  - name: Stephanie von Spreter
+    role: AcademicCoordinator
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
 source_mentions: []
 summary: "Summary: Over twenty years of experience as professional in the field of\
   \ contemporary visual art and art history in Norway and internationally, including\

@@ -3,7 +3,7 @@ type: person
 slug: stefano-fasciani
 name: Stefano Fasciani
 title: Stefano Fasciani
-position: Assistant Professor
+position: Professor
 department: Department of Musicology
 image: /assets/images/portraits/Stefano_Fasciani_UiO.jpg
 institution: university-of-oslo
@@ -49,23 +49,188 @@ search_keywords:
 - Embedded Systems
 - Music Technology
 selected_works:
-- title: An Interactive Self-Assembly Swarm Music System in Extended Reality
-  year: '2025'
-  source: Conference paper
-  group_type: Conference
-  url: https://doi.org/10.1145/3771594.3771620
-- title: Towards Sound Innovation Engines Using Pattern-Producing Networks and Audio
-    Graphs
-  year: '2024'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1007/978-3-031-56992-0_14
-- title: A Study of Features and Deep Neural Network Architectures and Hyper-Parameters
-    for Domestic Audio Classification
-  year: '2021'
+- title: Modeling Relations Between Musical Events in Continuous Time with Transformer
+    Models for Live Co-Improvisational Interactions | Zenodo
+  year: '2026'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.3390/app11114880
+  url: https://zenodo.org/records/22276042
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+- title: Personalising behaviours of the multi-agent autonomous looper with a corpus
+    of annotated co-performances
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1017/s1355771826101484
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+- title: Low-latency six-channel Bi-LSTM for near-real-time epileptic seizure detection
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1007/s44163-026-01340-x
+  contributors:
+  - name: Kiyan Afsari
+    role: Creator
+  - name: May El Barachi
+    role: Creator
+  - name: Christian Ritz
+    role: Creator
+  - name: Abigail Copiaco
+    role: Creator
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+- title: 'Teaching Interactive Music Systems: a Research-Oriented, Project-Based Graduate
+    Course in a Multidisciplinary Master’s Program'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5281/zenodo.20784254
+  contributors:
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+- title: Autonomous Listening-Based Synthesizer Control with Reinforcement Learning
+    for Live Sound Matching
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5281/zenodo.20784273
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+- title: 'HS-ims: A Platform for Human-Swarm Interactive Music Systems'
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/ACSOS-C66519.2025.00067
+  contributors:
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+  - name: Alexander Szorkovszky
+    role: Creator
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+- title: Live Coding the Lineage
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.17642435
+  contributors:
+  - name: Björn Thór Jónsson
+    role: Creator
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+- title: Characterisation of Teensy 4.1 Ecosystem for Low-Latency Audio Network Transmission
+    in Networked Music Performances
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/is264627.2025.11284626
+  contributors:
+  - name: Leigh Daniel Murray
+    role: Creator
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+- title: 'MAAL: a multi-agent autonomous live looper for improvised co-creation of
+    musical structures'
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/ZENODO.16946080
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+- title: Sines, transient, noise neural modeling of piano notes
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.3389/frsip.2024.1494864
+  contributors:
+  - name: Riccardo Simionato
+    role: Creator
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
 source_mentions: []
 summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learning,
   Music Technology.

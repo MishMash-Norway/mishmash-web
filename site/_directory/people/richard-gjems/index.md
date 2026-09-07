@@ -3,7 +3,7 @@ type: person
 slug: richard-gjems
 name: Richard Gjems
 title: Richard Gjems
-position: Senior Advisor
+position: Head of Section
 department: Musikk
 image: /assets/images/portraits/Richard_Gjems_NB.jpg
 institution: national-library-of-norway

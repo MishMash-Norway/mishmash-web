@@ -3,7 +3,7 @@ type: person
 slug: pierre-beauguitte
 name: Pierre Beauguitte
 title: Pierre Beauguitte
-position: Senior software developer
+position: Senior engineer
 department: The National Library of Norway
 institution: national-library-of-norway
 institutions:
@@ -29,14 +29,20 @@ search_keywords: []
 selected_works:
 - title: A Large Norwegian Dataset for Weak Supervision ASR
   year: '2023'
-  source: Conference paper
-  group_type: Conference
-  url: https://aclanthology.org/2023.resourceful-1.7
-- title: Music Information Retrieval for Irish Traditional Music
-  year: '2019'
-  source: Thesis
-  group_type: Thesis
-  url: https://arrow.tudublin.ie/sciendoc/234
+  source: Book chapter
+  group_type: Book chapter
+  url: https://aclanthology.org/2023.resourceful-1.7/
+  contributors:
+  - name: Per Erik Solberg
+    role: Creator
+  - name: Pierre Beauguitte
+    role: Creator
+    slug: pierre-beauguitte
+    url: /people/pierre-beauguitte/
+  - name: Per Egil Kummervold
+    role: Creator
+  - name: Freddy Wetjen
+    role: Creator
 source_mentions: []
 summary: ''
 wps:

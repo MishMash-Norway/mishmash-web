@@ -35,60 +35,115 @@ search_keywords:
 - Music Analysis
 - Listening
 selected_works:
-- title: 8 The Lament, Loss and the Power of Speaking in Music
-  year: '2026'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.3366/9781399555821-011
 - title: 'Introduction: Absence and Music Thinking'
   year: '2026'
   source: Book chapter
   group_type: Book chapter
-  url: https://doi.org/10.3366/9781399555821-003
-- title: Music of Absence
+  url: https://edinburghuniversitypress.com/media/resources/9781399555807_Introduction_Music_of_Absence.pdf
+  contributors:
+  - name: Christine Dysers
+    role: Creator
+  - name: Peter Edwards
+    role: Creator
+    slug: peter-edwards
+    url: /people/peter-edwards/
+  - name: Judith Lochhead
+    role: Creator
+- title: The Lament, Loss and the Power of Speaking in Music
   year: '2026'
-  source: Edited Book
-  group_type: Edited Book
-  url: https://doi.org/10.3366/9781399555821
-- title: En oppdiktet musikk
+  source: Book chapter
+  group_type: Book chapter
+  url: https://edinburghuniversitypress.com/book-music-of-absence.html
+  contributors:
+  - name: Peter Edwards
+    role: Creator
+    slug: peter-edwards
+    url: /people/peter-edwards/
+- title: 'Music of Absence: An Aesthetics of Loss in the New Millennium'
   year: '2026'
+  source: Book anthology
+  group_type: Book anthology
+  contributors:
+  - name: Christine Dysers
+    role: Creator
+  - name: Peter Edwards
+    role: Creator
+    slug: peter-edwards
+    url: /people/peter-edwards/
+  - name: Judith Lochhead
+    role: Creator
+- title: The Ringing Grooves of Change
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://youtu.be/e-H1VLsSltY?si=R2gF85b-qKIJgk1S
+  contributors:
+  - name: Peter Edwards
+    role: Soloist
+    slug: peter-edwards
+    url: /people/peter-edwards/
+- title: En oppdiktet musikk. Irrasjonell logikk og ekspressiv tilblivelse i Adrian
+    Leverkühns Dr. Fausti Veklage
+  year: '2025'
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.18261/agora.43.3-4.5
-- title: Critical Composition, Creativity and Style in Le Grand Macabre
+  contributors:
+  - name: Peter Edwards
+    role: Creator
+    slug: peter-edwards
+    url: /people/peter-edwards/
+- title: Critical Composition, Creativity and Style in "Le Grand Macabre"
   year: '2024'
   source: Book chapter
   group_type: Book chapter
-  url: https://doi.org/10.5771/9783967078473-85
-- title: '8. Death in Music and Music in Death: Reflections on Mortality and Listening
+  url: https://www.etk-muenchen.de/search/Details.aspx?sid=nmw22&sort=2&sname=neue+musik+wissenschaft&ISBN=9783967078466
+  contributors:
+  - name: Peter Edwards
+    role: Creator
+    slug: peter-edwards
+    url: /people/peter-edwards/
+- title: 'Death in Music and Music in Death: Reflections on Mortality and Listening
     in the Performances of Marino Formenti'
   year: '2023'
   source: Book chapter
   group_type: Book chapter
-  url: https://doi.org/10.1515/9781805430209-012
+  contributors:
+  - name: Peter Edwards
+    role: Creator
+    slug: peter-edwards
+    url: /people/peter-edwards/
+  - name: Uta Sailer
+    role: Creator
+- title: Tilleggskommentarer og oppsummering av sakkyndig rapport for høyesterett
+  year: '2023'
+  source: Research report
+  group_type: Research report
+  contributors:
+  - name: Peter Edwards
+    role: Creator
+    slug: peter-edwards
+    url: /people/peter-edwards/
+- title: Pønkebadet
+  year: '2022'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Peter Edwards
+    role: Artist
+    slug: peter-edwards
+    url: /people/peter-edwards/
 - title: 'Analysing the Concerto for Violin and Orchestra: Apparitions of the Past
     and Future'
   year: '2022'
   source: Book chapter
   group_type: Book chapter
   url: https://www.brepols.net/products/IS-9782503602400-1
-- title: Ideology, Performance, and Ironic Distance in Musical Slapstick
-  year: '2021'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1515/9783110571981-004
-- title: 'Benjamin R.Levy, Metamorphosis in Music: the Compositions of György Ligeti
-    in the 1950s and 1960s (Oxford and New York: Oxford University Press, 2017). x
-    + 304 pp. £59.00 (hb). ISBN 9780199381999.'
-  year: '2021'
-  source: Journal article
-  group_type: Journal article
-  url: http://dx.doi.org/10.1111/musa.12170
-- title: Bartók, Ligeti and the innovative middle road
-  year: '2017'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.4324/9781315592411-10
+  contributors:
+  - name: Peter Edwards
+    role: Creator
+    slug: peter-edwards
+    url: /people/peter-edwards/
 source_mentions: []
 summary: ''
 description: Professor, Department of Musicology, University of Oslo

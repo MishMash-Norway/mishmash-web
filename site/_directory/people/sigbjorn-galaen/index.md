@@ -25,17 +25,17 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Computer-automated design
+- Computer-Automated Design
 - Technology, Innovation and Culture
-- Digital media
-- Visual education
-- Visualising in akademia
+- Digital Media
+- Visual Education
+- Visualising in Akademia
 search_keywords:
-- Computer-automated design
+- Computer-Automated Design
 - Technology, Innovation and Culture
-- Digital media
-- Visual education
-- Visualising in akademia
+- Digital Media
+- Visual Education
+- Visualising in Akademia
 selected_works:
 - title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard
     Media Production Workflows

@@ -27,39 +27,119 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: 'Attitudes Towards LLM Use Among Software Engineering Researchers: Results
-    From A Two-Phase Survey Study'
+- title: Safe and Sustainable Development of AI tools for German Primary Care
+  year: '2026'
+  source: Research report
+  group_type: Research report
+  contributors:
+  - name: Mari Gunnes
+    role: Creator
+  - name: Viggo Tellefsen Wivestad
+    role: Creator
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
+  - name: Kristin Thaulow
+    role: Creator
+- title: 'Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods
+    Case Study'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://hdl.handle.net/10125/112286
+  contributors:
+  - name: Viktoria Stray
+    role: Creator
+  - name: Elias Goldmann Brandtzæg
+    role: Creator
+  - name: Viggo Tellefsen Wivestad
+    role: Creator
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
+  - name: Astri Moksnes Barbala
+    role: Creator
+  - name: Nils Brede Moe
+    role: Creator
+- title: The Great Human Filter - The Age of Evaluation (album)
   year: '2025'
-  source: Conference paper
-  group_type: Conference
-  url: https://doi.org/10.1145/3696630.3731671
-- title: 'Human-AI Collaboration in Software Development: A Mixed-Methods Study of
-    Developers’ Use of GitHub Copilot and ChatGPT'
-  year: '2025'
-  source: Conference paper
-  group_type: Conference
-  url: https://doi.org/10.1145/3696630.3730566
-- title: A Journey Through SPACE
+  source: Music performance
+  group_type: Music performance
+  url: https://thegreathumanfilter.com/
+  contributors:
+  - name: Viggo Tellefsen Wivestad
+    role: Organizer
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
+- title: 'Generative AI in the Workplace: Affective Affordances and Employee Flourishing'
   year: '2025'
   source: Book chapter
   group_type: Book chapter
-  url: https://doi.org/10.1007/978-3-031-72781-8_5
+  url: https://doi.org/10.24251/hicss.2025.720
+  contributors:
+  - name: Astri Moksnes Barbala
+    role: Creator
+  - name: Rasmus Ulfsnes
+    role: Creator
+  - name: Viktoria Stray
+    role: Creator
+  - name: Viggo Tellefsen Wivestad
+    role: Creator
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
 - title: Copilot’s Island of Joy
   year: '2025'
   source: Book chapter
   group_type: Book chapter
   url: https://doi.org/10.1007/978-3-031-72781-8_13
-- title: 'Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods
-    Case Study'
+  contributors:
+  - name: Viggo Tellefsen Wivestad
+    role: Creator
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
+  - name: Astri Moksnes Barbala
+    role: Creator
+  - name: Viktoria Stray
+    role: Creator
+- title: 'Human-AI Collaboration in Software Development: A Mixed-Methods Study of
+    Developers’ Use of GitHub Copilot and ChatGPT'
   year: '2025'
-  source: Other
-  group_type: Other
-  url: https://www.scopus.com/inward/record.url?eid=2-s2.0-105018125007&partnerID=MN8TOARS
-- title: 'Generative AI in the Workplace: Affective Affordances and Employee Flourishing'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3696630.3730566
+  contributors:
+  - name: Viktoria Stray
+    role: Creator
+  - name: Astri Moksnes Barbala
+    role: Creator
+  - name: Viggo Tellefsen Wivestad
+    role: Creator
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
+- title: 'Attitudes Towards LLM Use Among Software Engineering Researchers: Results
+    From A Two-Phase Survey Study'
   year: '2025'
-  source: Conference paper
-  group_type: Conference
-  url: https://www.scopus.com/inward/record.url?eid=2-s2.0-105005140479&partnerID=MN8TOARS
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3696630.3731671
+  contributors:
+  - name: Viggo Tellefsen Wivestad
+    role: Creator
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
+  - name: Astri Moksnes Barbala
+    role: Creator
+- title: 'A Journey Through SPACE: Unpacking the Perceived Productivity of GitHub
+    Copilot'
+  year: '2024'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-031-72781-8_5
+  contributors:
+  - name: Viggo Tellefsen Wivestad
+    role: Creator
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
+  - name: Rasmus Ulfsnes
+    role: Creator
 source_mentions: []
 summary: ''
 description: Researcher, Software Engineering, Safety and Security, SINTEF Digital
