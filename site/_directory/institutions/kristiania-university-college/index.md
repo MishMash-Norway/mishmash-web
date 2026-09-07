@@ -21,6 +21,7 @@ people:
 - ole-christian-solbakken
 - ole-goethe
 - sigbjorn-galaen
+- stephanie-von-spreter
 - synne-tollerud-bull
 - terje-gaustad
 projects:

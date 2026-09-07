@@ -3,7 +3,7 @@ type: person
 slug: ruzbeh-smiley
 name: Ruzbeh Smiley
 title: Ruzbeh Smiley
-position: Research fellow
+position: Research Fellow
 department: Department of Popular Music
 image: /assets/images/portraits/Ruzbeh_Smiley_UiA.jpg
 institution: university-of-agder
@@ -154,11 +154,15 @@ selected_works:
     slug: ruzbeh-smiley
     url: /people/ruzbeh-smiley/
 source_mentions: []
-summary: Ruzbeh Smiley (BSc, MA, MSc, PhD) is a Doctoral Research Fellow in Music
-  Performance specialising with AI in music production and audio engineering. His
-  research focuses on the intersection of artificial intelligence and music production.
-  Specifically, examining the evolving relationship between music producers and AI-assisted
-  tools.
+summary: Ruzbeh is a Doctoral Research Fellow in Music Performance specialising with
+  AI in music production and audio engineering. He holds a Master's Degree in Music
+  Business and Management from the University of Agder, and a Degree in Music Production
+  and Sound Recording from the University of Stavanger. With a foundational background
+  in computer science and a Master's Degree in Artificial Intelligence, Ruzbeh has
+  pursued a multifaceted academic and professional journey. His extensive musical
+  portfolio encompasses contributions to numerous studio and live albums as a drummer
+  and producer, as well as substantial involvement in the production of commercial
+  albums and singles as a recording engineer.
 published: true
 permalink: /people/ruzbeh-smiley/
 wps:

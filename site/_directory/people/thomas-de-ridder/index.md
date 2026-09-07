@@ -3,7 +3,7 @@ type: person
 slug: thomas-de-ridder
 name: Thomas de Ridder
 title: Thomas de Ridder
-position: Senior adviser
+position: Senior Research Adviser
 department: Faculty of Fine Art, Music and Design
 image: /assets/images/portraits/Thomas_de_Ridder_UiB.jpg
 institution: university-of-bergen

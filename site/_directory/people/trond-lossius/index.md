@@ -1,13 +1,12 @@
 ---
-layout: person
 type: person
 slug: trond-lossius
 name: Trond Lossius
 title: Trond Lossius
-position: Professor
+position: Professor II
 department: Faculty of Film, TV and Games
 image: /assets/images/portraits/Trond_Lossius_UiB.jpg
-institution: university-of-inland-norway
+institution: university-of-bergen
 institutions:
 - university-of-bergen
 - university-of-inland-norway
@@ -39,172 +38,21 @@ urls:
   instagram: https://www.instagram.com/trondlossius
 aliases: []
 tags:
-- Electronic Music
-- Sound/Music in New Media
-- Sound/Music Installations
-- Experimental Music
-- Audio-Visual Production
-- Installation
 - Artistic Research
-- Music Technology
-- Place
-- Installations
-- Listening
-- Contemporary Art
+- Audio-Visual
+- Sound Art
+- Spatial Audio
 search_keywords:
-- Electronic Music
-- Sound/Music in New Media
-- Sound/Music Installations
-- Experimental Music
-- Audio-Visual Production
-- Installation
 - Artistic Research
-- Music Technology
-- Place
-- Installations
-- Listening
-- Contemporary Art
+- Audio-Visual
+- Sound Art
+- Spatial Audio
 selected_works:
-- title: Longue Durée
-  year: '2026'
-  source: Visual arts
-  group_type: Visual arts
-  url: https://www.kunstforeninger.no/nyheter/en-audiovisuell-opplevelse-skapt-gjennom-dialog-og-improvisasjon
-  contributors:
-  - name: Ingeborg Annie Lindahl
-    role: Artist
-  - name: Trond Lossius
-    role: Artist
-    slug: trond-lossius
-    url: /people/trond-lossius/
-- title: Whales Surround Us (Concert Version)
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Bjarne Kvinnsland
-    role: Composer
-  - name: Trond Lossius
-    role: Composer
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: David Rothenberg
-    role: Composer
-- title: Persistent Disequilibrium
-  year: '2025'
-  source: Other artistic output
-  group_type: Other artistic output
-  url: https://wrap.hdu.no/kjelbju-laven-iii-pc.html
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: RoleOther
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Tijs Ham
-    role: RoleOther
-  - name: Trond Lossius
-    role: RoleOther
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: Jeremy Welsh
-    role: RoleOther
-- title: En konsert i omsluttende lyd
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  url: https://notam.no/nyheter/en-konsert-i-omsluttende-lyd-notam-cinemateket/
-  contributors:
-  - name: Mariam Gviniashvili
-    role: Composer
-  - name: Michael Francis Duch
-    role: Musician
-  - name: Vilbjørg Broch
-    role: Composer
-  - name: Bjarne Kvinnsland
-    role: Composer
-  - name: Trond Lossius
-    role: Composer
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: David Rothenberg
-    role: Composer
-- title: 'Whalesound 2: Who Knows Why Whales Sing?'
-  year: '2025'
-  source: Other artistic output
-  group_type: Other artistic output
-  url: https://luma.com/7qowriw9
-  contributors:
-  - name: David Rothenberg
-    role: RoleOther
-  - name: Bjarne Kvinnsland
-    role: RoleOther
-  - name: Trond Lossius
-    role: RoleOther
-    slug: trond-lossius
-    url: /people/trond-lossius/
-- title: 'Whalesound 1: Humpback Whale Meditation Session'
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  url: https://luma.com/dp73kjej
-  contributors:
-  - name: David Rothenberg
-    role: Composer
-  - name: Bjarne Kvinnsland
-    role: Composer
-  - name: Trond Lossius
-    role: Composer
-    slug: trond-lossius
-    url: /people/trond-lossius/
-- title: 'Whalesound 3: Whales Surround Us (Concert Version)'
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  url: https://luma.com/2w777u1o
-  contributors:
-  - name: Bjarne Kvinnsland
-    role: Composer
-  - name: Trond Lossius
-    role: Composer
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: David Rothenberg
-    role: Composer
-- title: Open seminar for INN’s Research Programme in AI & VR/AR
-  year: '2025'
-  source: Exhibition
-  group_type: Exhibition
-  contributors:
-  - name: Trond Lossius
-    role: Curator
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: Therese Næss Diesen
-    role: AudioVisualContributor
-  - name: Gunn Tove Grønsberg
-    role: AudioVisualContributor
-  - name: James Welburn
-    role: AudioVisualContributor
-  - name: Stein Tore Sønsteli
-    role: CollaborationPartner
-- title: Lento o Tempo Muda em Poço do Canto / Slow Time Change in Poço do Canto
-  year: '2024'
-  source: Non-fiction chapter
-  group_type: Non-fiction chapter
-  contributors:
-  - name: Trond Lossius
-    role: Creator
-    slug: trond-lossius
-    url: /people/trond-lossius/
-- title: Drift studies (Clouds)
-  year: '2024'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Trond Lossius
-    role: Composer
-    slug: trond-lossius
-    url: /people/trond-lossius/
+- title: sonozones
+  year: '2014'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.22501/jar.48986
 source_mentions: []
 summary: "Trond Lossius is a sound and installation artist based in Bergen, Norway.\
   \ His projects investigate sound, place and space, using sound spatialisation and\
@@ -230,6 +78,7 @@ summary: "Trond Lossius is a sound and installation artist based in Bergen, Norw
   \ software framework Jamoma, and he has ported Ambisonic Toolkit to a set of plugins\
   \ for the Reaper DAW. He supervises PhD candidates at several institutions in Norway\
   \ and Sweden."
+layout: person
 wps:
 - WP1
 - WP2

@@ -38,202 +38,61 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
-- title: Domain-specific perception of emotional intensity in brief musical and vocal
-    expressions
+- title: 'Pain as muse: How creative acts flourish in the shadow of struggle'
   year: '2026'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.1121/10.0042460
-  contributors:
-  - name: Liv Merve Akca Abrahamsson
-    role: Creator
-    slug: liv-merve-abrahamsson
-    url: /people/liv-merve-abrahamsson/
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-- title: Brain Responses to Musical Emotions in Autism
+  url: https://doi.org/10.1016/j.neubiorev.2026.106650
+- title: Evolutionary continuities and discontinuities in affective voice signaling.
   year: '2025'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Liv Merve Akca Abrahamsson
-    role: Creator
-    slug: liv-merve-abrahamsson
-    url: /people/liv-merve-abrahamsson/
-  - name: Katharina Egger
-    role: Creator
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-- title: Social traits influence behavioral and neural responses to emotional AI and
-    human voices
-  year: '2025'
-  source: Conference poster
-  group_type: Conference
-  url: https://www.abstractsonline.com/pp8/#!/21171/presentation/23566
-  contributors:
-  - name: Christine Leilani Skjegstad
-    role: Creator
-  - name: Liv Merve Akca Abrahamsson
-    role: Creator
-    slug: liv-merve-abrahamsson
-    url: /people/liv-merve-abrahamsson/
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1037/emo0001484
 - title: Differential neural decoding of alarm and avoidance information from vocal
     alarm calls in humans
   year: '2025'
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1038/s42003-025-08248-9
-  contributors:
-  - name: Gard Kvammen Beinnes
-    role: Creator
-  - name: Christine Leilani Skjegstad
-    role: Creator
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-- title: 'Emotion in Nonverbal Communication: Comparing Animal and Human Vocalizations
-    and Human Text Messages'
+- title: Understanding voice naturalness
   year: '2025'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.1177/17540739241303505
-  contributors:
-  - name: T. Gruber
-    role: Creator
-  - name: E.F. Briefer
-    role: Creator
-  - name: A. Grütter
-    role: Creator
-  - name: A. Xanthos
-    role: Creator
-  - name: D. Grandjean
-    role: Creator
-  - name: M.B. Manser
-    role: Creator
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-- title: Understanding voice naturalness
-  year: '2025'
-  source: Literature review
-  group_type: Literature review
   url: https://doi.org/10.1016/j.tics.2025.01.010
-  contributors:
-  - name: Christine Nussbaum
-    role: Creator
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-  - name: Stefan R. Schweinberger
-    role: Creator
 - title: Emotion Induction Modulates Neural Dynamics Related to the Originality of
     Ideational Creativity
   year: '2025'
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1002/hbm.70182
-  contributors:
-  - name: Radwa Khalil
-    role: Creator
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-  - name: Ben Godde
-    role: Creator
-- title: Evolutionary Continuities and Discontinuities in Affective Voice Signaling
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1037/emo0001484
-  contributors:
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-  - name: Joris Dietziker
-    role: Creator
-  - name: Matthias Staib
-    role: Creator
-  - name: Marine Bobin
-    role: Creator
-  - name: Florence Steiner
-    role: Creator
-- title: Enhanced attention-related alertness following right anterior insular cortex
-    neurofeedback training
+- title: Psychoacoustic and Archeoacoustic nature of ancient Aztec skull whistles
   year: '2024'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.1016/j.isci.2024.108915
-  contributors:
-  - name: Jeanette Popovova
-    role: Creator
-  - name: Reza Mazloum
-    role: Creator
-  - name: Gianluca Macauda
-    role: Creator
-  - name: Philipp Stämpfli
-    role: Creator
-  - name: Patrik Vuilleumier
-    role: Creator
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
-  - name: Frank Scharnowski
-    role: Creator
-  - name: Vinod Menon
-    role: Creator
-  - name: Lars Michels
-    role: Creator
+  url: https://doi.org/10.1038/s44271-024-00157-7
+- title: Emotion induction modulates neural dynamics during ideational originality
+  year: '2024'
+  source: Preprint
+  group_type: Preprint
+  url: https://doi.org/10.1101/2024.03.02.583080
+- title: Live music stimulates the affective brain and emotionally entrains listeners
+    in real time
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1073/pnas.2316306121
 - title: Direct subthalamic nucleus stimulation influences speech and voice quality
     in Parkinson's disease patients
   year: '2024'
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1016/j.brs.2024.01.006
-  contributors:
-  - name: Marine Bobin
-    role: Creator
-  - name: Neil Sulzer
-    role: Creator
-  - name: Gina Bründler
-    role: Creator
-  - name: Matthias Staib
-    role: Creator
-  - name: Lukas L. Imbach
-    role: Creator
-  - name: Lennart H. Stieglitz
-    role: Creator
-  - name: Philipp Krauss
-    role: Creator
-  - name: Oliver Bichsel
-    role: Creator
-  - name: Christian R. Baumann
-    role: Creator
-  - name: Sascha Frühholz
-    role: Creator
-    slug: sascha-fruhholz
-    url: /people/sascha-fruhholz/
+- title: Auditory cortical micro-networks show differential connectivity during voice
+    and speech processing in humans
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1038/s42003-021-02328-2
 source_mentions: []
 summary: ''
 wps:

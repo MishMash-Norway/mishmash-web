@@ -3,9 +3,9 @@ type: person
 slug: troels-linde
 name: Troels Linde
 title: Troels Linde
-position: Professor
+position: Professor / Head of Externally Funded Projects
 department: Faculty of Social Sciences
-institution: nord-university
+institution: university-of-inland-norway
 institutions:
 - nord-university
 - university-of-inland-norway

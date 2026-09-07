@@ -3,7 +3,7 @@ type: person
 slug: tejaswinee-kelkar
 name: Tejaswinee Kelkar
 title: Tejaswinee Kelkar
-position: Associate professor
+position: Associate Professor
 department: Department of Musicology
 image: /assets/images/portraits/Tejaswinee_Kelkar_UiO.jpg
 institution: university-of-oslo
@@ -24,7 +24,7 @@ other_projects:
 roles:
 - Member
 urls:
-  personal_website: https://tejaswinee.com
+  personal_website: http://tejaswinee.com
   institutional_website: https://www.hf.uio.no/imv/personer/vit/fast/tejaswik/
   github: https://github.com/shockmonger
   linkedin: https://www.linkedin.com/in/tejaswineekelkar/
@@ -40,168 +40,57 @@ tags:
 search_keywords:
 - Music Technology
 selected_works:
-- title: Modeling Relations Between Musical Events in Continuous Time with Transformer
-    Models for Live Co-Improvisational Interactions | Zenodo
+- title: 'Expanding the machine: Notating generative synthesis with a state-based
+    representation and a navigable timbre space'
   year: '2026'
   source: Journal article
   group_type: Journal article
-  url: https://zenodo.org/records/22276042
-  contributors:
-  - name: Vincenzo Madaghiele
-    role: Creator
-    slug: vincenzo-madaghiele
-    url: /people/vincenzo-madaghiele/
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Tejaswinee Kelkar
-    role: Creator
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-- title: Autonomous Listening-Based Synthesizer Control with Reinforcement Learning
-    for Live Sound Matching
-  year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.5281/zenodo.20784273
-  contributors:
-  - name: Vincenzo Madaghiele
-    role: Creator
-    slug: vincenzo-madaghiele
-    url: /people/vincenzo-madaghiele/
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Tejaswinee Kelkar
-    role: Creator
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-- title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
+  url: https://doi.org/10.1017/S1355771825100915
+- title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
     Arts
   year: '2026'
   source: Book chapter
   group_type: Book chapter
   url: https://doi.org/10.1007/978-3-032-26999-7_18
-  contributors:
-  - name: Hugh Alexander von Arnim
-    role: Creator
-    slug: hugh-alexander-von-arnim
-    url: /people/hugh-alexander-von-arnim/
-  - name: Anna-Maria Christodoulou
-    role: Creator
-    slug: anna-maria-christodoulou
-    url: /people/anna-maria-christodoulou/
-  - name: Kayla Burnim
-    role: Creator
-  - name: Finn Upham
-    role: Creator
-  - name: Tejaswinee Kelkar
-    role: Creator
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: 'MAAL: a multi-agent autonomous live looper for improvised co-creation of
-    musical structures'
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/ZENODO.16946080
-  contributors:
-  - name: Vincenzo Madaghiele
-    role: Creator
-    slug: vincenzo-madaghiele
-    url: /people/vincenzo-madaghiele/
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Tejaswinee Kelkar
-    role: Creator
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
 - title: 'Motion Pointillism: The (Re/De)Construction of the Normative Body through
     Motion Capture'
   year: '2025'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.21825/documenta.93271
-  contributors:
-  - name: Hugh Alexander von Arnim
-    role: Creator
-    slug: hugh-alexander-von-arnim
-    url: /people/hugh-alexander-von-arnim/
-  - name: Tejaswinee Kelkar
-    role: Creator
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-  - name: Live Noven
-    role: Creator
-- title: Household Objects
-  year: '2024'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Tejaswinee Kelkar
-    role: Composer
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-- title: Nyege Nyege Remix Oslo
-  year: '2024'
-  source: Music performance
-  group_type: Music performance
-  url: https://www.mela.no/arrangement/nyege-nyege-remix-oslo/
-  contributors:
-  - name: Tejaswinee Kelkar
-    role: Composer
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-- title: Raga Bad
-  year: '2024'
-  source: Music performance
-  group_type: Music performance
-  url: https://deichman.no/event/raga-bad-3%23%3A-med-sanskriti-shreshtha_8efbae8b-71c6-4916-bebc-cff9990406a9
-  contributors:
-  - name: Tejaswinee Kelkar
-    role: Artist
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-- title: Mira Thiruchelvam & VJNE - Nattjazz
-  year: '2024'
-  source: Music performance
-  group_type: Music performance
-  url: https://www.nattjazz.no/mirathuchelvam-vnje
-  contributors:
-  - name: Tejaswinee Kelkar
-    role: Artist
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-- title: Marianna Sangitas Gjestehus
-  year: '2024'
-  source: Music performance
-  group_type: Music performance
-  url: https://www.riksscenen.no/marianna-sangitas-gjestehus.6635987-515567.html
-  contributors:
-  - name: Tejaswinee Kelkar
-    role: Artist
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
+  url: http://dx.doi.org/10.21825/documenta.93271
+- title: Steps towards a Semantics of Dance
+  year: '2022'
+  source: Journal article
+  group_type: Journal article
+  url: https://www.webofscience.com/wos/woscc/full-record/WOS:000882016800001
+- title: Substituting facial movements in singers changes the sounds of musical intervals
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: http://dx.doi.org/10.1038/s41598-021-01797-z
+- title: Body Data for Music Information Retrieval Tasks
+  year: '2021'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-030-66450-3_10
+- title: Computational Analysis of Melodic Contour and Body Movement
+  year: '2019'
+  source: Journal article
+  group_type: Journal article
+- title: 'Resonance Improviser: A system for transmitting the embodied sensations
+    of vocalization between two people during improvisation'
+  year: '2019'
+  source: Journal article
+  group_type: Journal article
+- title: Analyzing Free-Hand Sound-Tracings of Melodic Phrases
+  year: '2018'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.3390/APP8010135
+- title: Coreference and disjoint reference in the semantics of narrative dance
+  year: '2018'
+  source: Conference paper
+  group_type: Conference
 source_mentions: []
 summary: 'Tejaswinee Kelkar is a music technologist, teacher and vocalist. She is
   an associate professor in music technology at the University of Oslo. She teaches

@@ -3,7 +3,7 @@ type: person
 slug: sidsel-karlsen
 name: Sidsel Karlsen
 title: Sidsel Karlsen
-position: Professor
+position: Professor of music education
 department: Norwegian Academy of Music
 image: /assets/images/portraits/Sidsel_Karlsen_NMH.jpg
 institution: norwegian-academy-of-music
@@ -22,7 +22,7 @@ roles:
 - Member
 - Work Package Leader
 urls:
-  personal_website: ''
+  personal_website: https://scholar.google.com/citations?user=9KDUxsIAAAAJ&hl=en&oi=ao
   institutional_website: https://nmh.no/kontakt-oss/ansatte/sidsel-karlsen
   github: ''
   linkedin: ''
@@ -42,142 +42,57 @@ selected_works:
   year: '2026'
   source: Book chapter
   group_type: Book chapter
-  contributors:
-  - name: Petter Dyndahl
-    role: Creator
-  - name: Live Weider Ellefsen
-    role: Creator
-  - name: Anne Jordhus-Lier
-    role: Creator
-  - name: Sidsel Karlsen
-    role: Creator
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
-  - name: Siw Graabræk Nielsen
-    role: Creator
 - title: Social class and musical gentrification
   year: '2025'
   source: Book chapter
   group_type: Book chapter
-  contributors:
-  - name: Petter Dyndahl
-    role: Creator
-  - name: Sidsel Karlsen
-    role: Creator
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
-  - name: Siw Graabræk Nielsen
-    role: Creator
-- title: 'Boundary work as feminist work: Deliberations on the growth and expansion
-    of the Nordic field of music education research.'
+  url: http://dx.doi.org/10.7765/9781526187253.00009
+- title: Boundary Work as Feminist Work
   year: '2025'
   source: Book chapter
   group_type: Book chapter
-  url: https://academic.oup.com/edited-volume/60553/chapter-abstract/523957448?redirectedFrom=fulltext
-  contributors:
-  - name: Sidsel Karlsen
-    role: Creator
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
-- title: 'Normkritisk musikkpedagogikk: Mangfold og ansvar'
+  url: http://dx.doi.org/10.1093/oxfordhb/9780197612507.013.0010
+- title: «Musikk som utfordrer, men også minner om dager med frihet» - En eksplorativ
+    musikkterapi-studie om musikkering og deltakelse i Musikkverksted for Unge Asylsøkere
+    (MUA) ledet av profesjonelle musikere og musikkterapeuter.
   year: '2025'
-  source: Textbook
-  group_type: Textbook
-  contributors:
-  - name: Sidsel Karlsen
-    role: Creator
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.69625/318192.XBCP1106
+- title: 'Classed approaches to musical parenting in Norwegian schools of music and
+    arts: findings from interviews with parents of music students'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1080/00313831.2023.2275803
+- title: Normkritisk musikkpedagogikk
+  year: '2025'
+  source: Book
+  group_type: Book
 - title: 'Centre for Excellence in Music Performance Education (CEMPE): an inquiry
     into institutional change processes in higher music education'
   year: '2024'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.1080/14613808.2024.2350469
-  contributors:
-  - name: Veronica Ski-Berg
-    role: Creator
-  - name: Ellen Mikalsen Stabell
-    role: Creator
-  - name: Sidsel Karlsen
-    role: Creator
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
-- title: 'Meaningful approaches to content selection and ways of working: Norwegian
-    instrumental music teachers’ experiences'
-  year: '2023'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.3389/fpsyg.2023.1105572
-  contributors:
-  - name: Anne Jordhus-Lier
-    role: Creator
-  - name: Sidsel Karlsen
-    role: Creator
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
-  - name: Siw Graabræk Nielsen
-    role: Creator
-- title: 'Classed approaches to musical parenting in Norwegian schools of music and
-    arts: findings from interviews with parents of music students'
-  year: '2023'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1080/00313831.2023.2275803
-  contributors:
-  - name: Siw Graabræk Nielsen
-    role: Creator
-  - name: Anne Jordhus-Lier
-    role: Creator
-  - name: Sidsel Karlsen
-    role: Creator
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
+  url: http://dx.doi.org/10.1080/14613808.2024.2350469
 - title: 'Norwegian schools of music and arts: Local significance and strategies of
     inclusion'
-  year: '2023'
+  year: '2024'
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1177/02557614231157737
-  contributors:
-  - name: Sidsel Karlsen
-    role: Creator
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
-  - name: Anne Jordhus-Lier
-    role: Creator
-  - name: Siw Graabræk Nielsen
-    role: Creator
-- title: What happens in school music in Norway? Findings from a national survey of
-    music teachers
+- title: 'Voicing Omnivorousness, Assembling the Omnivorous Voice: The American Musical
+    Explored'
   year: '2023'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.1080/14613808.2023.2183494
-  contributors:
-  - name: Live Weider Ellefsen
-    role: Creator
-  - name: Sidsel Karlsen
-    role: Creator
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
-  - name: Siw Graabræk Nielsen
-    role: Creator
+  url: http://dx.doi.org/10.1177/17499755221096186
 - title: 'Selecting repertoire for music teaching: Findings from Norwegian schools
     of music and arts'
-  year: '2022'
+  year: '2023'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.1177/1321103X221099436
-  contributors:
-  - name: Siw Graabræk Nielsen
-    role: Creator
-  - name: Anne Jordhus-Lier
-    role: Creator
-  - name: Sidsel Karlsen
-    role: Creator
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
+  url: http://dx.doi.org/10.1177/1321103x221099436
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''
