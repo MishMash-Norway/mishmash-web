@@ -12,8 +12,8 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://musaiclab.wordpress.com/
-  institutional_website: https://www.kth.se/profile/bobs
+  personal_website: https://www.kth.se/profile/bobs
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-2549-6367

@@ -5,6 +5,7 @@ name: Alexandros Drymonitis
 title: Alexandros Drymonitis
 position: Postdoctoral Researcher
 department: Computer Science
+image: /assets/images/portraits/Alexandros_Drymonitis_HiØF.jpg
 institution: ostfold-university-college
 institutions:
 - ostfold-university-college
@@ -13,24 +14,34 @@ roles:
 - Member
 urls:
   personal_website: https://drymonitis.me/
-  institutional_website: https://www.hiof.no/
+  institutional_website: ''
   github: https://github.com/alexdrymonitis
   linkedin: https://www.linkedin.com/in/alexandrosdrymonitis/
   orcid: https://orcid.org/0000-0002-7401-6422
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/1894229
   youtube: ''
   facebook: https://www.facebook.com/drymonitis/
   mastodon: https://mastodon.social/@AlexandrosDrymonitis
   instagram: ''
 aliases: []
 tags:
-- Human-AI Interaction
-- Algorithmic Music
-- Computer Music
+- Human Computer Interaction
+- New Interfaces for Musical Expression
+- Experimental Music
+- Interactive Music
+- Computer-Assisted Composition
+- Music
+- Artificial Intelligence
+- Music Technology
 search_keywords:
-- Human-AI Interaction
-- Algorithmic Music
-- Computer Music
+- Human Computer Interaction
+- New Interfaces for Musical Expression
+- Experimental Music
+- Interactive Music
+- Computer-Assisted Composition
+- Music
+- Artificial Intelligence
+- Music Technology
 selected_works:
 - title: 'Nodes, glitches and embedded algorithms: COMACROB and posthuman organology'
   year: '2026'
@@ -88,20 +99,7 @@ selected_works:
   group_type: Conference
   url: https://zenodo.org/doi/10.5281/zenodo.11189176
 source_mentions: []
-summary: 'Alexandros Drymonitis is a sound and new media artist. He has a PhD from
-  the Royal Birmingham Conservatoire, Birmingham City University, on the creation
-  of musical works with the Python programming language, while his previous studies
-  were on the classical guitar. His artistic practice focuses on new techniques utilizing
-  new media such as computer programming, live coding, AI, or even older practices,
-  like modular synthesis.
-
-
-  He is currently a Postdoc Research at the Østfold University of Applied Sciences,
-  doing research on the creative human-AI interaction in music performance. His previous
-  Postdoc research at the Cyprus University of Technology was on instant synthesis
-  for computer-controlled acoustic instruments through live coding and AI. He has
-  taught Music Technology at the Music Department of the Ionian University in Corfu,
-  Greece.'
+summary: C2 level
 wps:
 - WP1
 permalink: /people/alexandros-drymonitis/

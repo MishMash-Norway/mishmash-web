@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: https://www.uia.no/english/about-uia/employees/murtazam/index.html
+  institutional_website: https://www.uia.no/english/about-uia/employees/murtazam/
   github: ''
   linkedin: https://www.linkedin.com/in/murtaza-mohiqi-phd-bbb7561a4/?skipRedirect=true
   orcid: https://orcid.org/0000-0002-7198-4348

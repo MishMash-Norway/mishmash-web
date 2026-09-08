@@ -12,7 +12,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://www.titanmusic.com
+  personal_website: https://vbn.aau.dk/en/persons/a3485daf-44ea-4955-989a-4a921696f40a
   institutional_website: https://vbn.aau.dk/en/persons/dave/
   github: https://chromamorph
   linkedin: ''

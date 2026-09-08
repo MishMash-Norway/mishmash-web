@@ -12,7 +12,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: ''
+  personal_website: https://www.linkedin.com/in/linjing198/
   institutional_website: https://aimissionhub.org/
   github: ''
   linkedin: https://www.linkedin.com/in/linjing198/

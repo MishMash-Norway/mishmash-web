@@ -20,6 +20,8 @@ people:
 - morten-h-forsberg
 - ole-christian-solbakken
 - ole-goethe
+- pedro-lind
+- rujeena-mathema
 - sigbjorn-galaen
 - stephanie-von-spreter
 - synne-tollerud-bull

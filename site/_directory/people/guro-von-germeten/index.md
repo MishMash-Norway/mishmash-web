@@ -3,7 +3,7 @@ type: person
 slug: guro-von-germeten
 name: Guro von Germeten
 title: Guro von Germeten
-position: Research fellow
+position: Post-doctoral research fellow
 department: Fagseksjon for musikkpedagogikk og musikkterapi
 image: /assets/images/portraits/Guro_von_Germeten_NMH.jpg
 institution: norwegian-academy-of-music
@@ -28,15 +28,39 @@ tags:
 - Music and Traditions
 - Musical Theater
 - Song
+- Gender
 - Music
 - Higher Music Education
+- Artificial Intelligence
 search_keywords:
 - Music and Traditions
 - Musical Theater
 - Song
+- Gender
 - Music
 - Higher Music Education
+- Artificial Intelligence
 selected_works:
+- title: 'Opening the “Black Box” of Voice Therapy: Investigating CVT-Voice Therapy
+    in pMTD Using Thematic Analysis and the Rehabilitation Treatment Specification
+    System'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1016/j.jvoice.2026.01.031
+  contributors:
+  - name: Mathias Aaen
+    role: Creator
+  - name: Anna White
+    role: Creator
+  - name: Guro von Germeten
+    role: Creator
+    slug: guro-von-germeten
+    url: /people/guro-von-germeten/
+  - name: Cathrine Sadolin
+    role: Creator
+  - name: Julian McGlashan
+    role: Creator
 - title: 'Voice and Gender in Contemporary Musical Theater Education: An Exploratory
     Practice Study'
   year: '2025'

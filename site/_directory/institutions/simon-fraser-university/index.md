@@ -18,6 +18,7 @@ city: Burnaby
 urls:
   website: https://www.sfu.ca/
   wikipedia: https://en.wikipedia.org/wiki/Simon_Fraser_University
+  wikidata: https://www.wikidata.org/wiki/Q201603
 aliases:
 - SFU
 tags: []

@@ -27,6 +27,44 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Influence of neural network bursts on functional development
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1101/2025.01.21.633559
+  contributors:
+  - name: Ola Huse Ramstad
+    role: Creator
+  - name: Axel Sandvig
+    role: Creator
+  - name: Stefano Nichele
+    role: Creator
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
+  - name: Ioanna Sandvig
+    role: Creator
+- title: 'ALIFE 2026: Proceedings of the 2026 Artificial Life Conference'
+  year: '2026'
+  source: Book anthology
+  group_type: Book anthology
+  url: https://direct.mit.edu/isal/isal2026/volume/38
+  contributors:
+  - name: Chrystopher L. Nehaniv
+    role: Editor
+  - name: Peter R. Lewis
+    role: Editor
+  - name: Stefano Nichele
+    role: Editor
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
+  - name: Jitka Čejková
+    role: Editor
+  - name: Christoph Salge
+    role: Editor
+  - name: Imran Qayym Khan
+    role: Editor
+  - name: Hanna Derets
+    role: Editor
 - title: Benchmarking the State of Networks with a Low-Cost Method Based on Reservoir
     Computing
   year: '2026'
@@ -329,43 +367,6 @@ selected_works:
   - name: Ioanna Sandvig
     role: Creator
   - name: Axel Sandvig
-    role: Creator
-- title: The Role of the Substrate in CA-based Evolutionary Algorithms
-  year: '2024'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/3638529.3654112
-  contributors:
-  - name: Gloria Pietropolli
-    role: Creator
-  - name: Stefano Nichele
-    role: Creator
-    slug: stefano-nichele
-    url: /people/stefano-nichele/
-  - name: Eric Medvet
-    role: Creator
-- title: Micro-and mesoscale aspects of neurodegeneration in engineered human neural
-    networks carrying the LRRK2 G2019S mutation
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2024.1366098/full
-  contributors:
-  - name: Vibeke Devold Valderhaug
-    role: Creator
-  - name: Ola Huse Ramstad
-    role: Creator
-  - name: Rosanne Francisca van de Wijdeven
-    role: Creator
-  - name: Kristine Heiney
-    role: Creator
-  - name: Stefano Nichele
-    role: Creator
-    slug: stefano-nichele
-    url: /people/stefano-nichele/
-  - name: Axel Sandvig
-    role: Creator
-  - name: Ioanna Sandvig
     role: Creator
 source_mentions: []
 summary: ''

@@ -17,6 +17,7 @@ city: Espoo
 urls:
   website: https://www.aalto.fi/en
   wikipedia: https://en.wikipedia.org/wiki/Aalto_University
+  wikidata: https://www.wikidata.org/wiki/Q300980
 aliases: []
 tags: []
 search_keywords: []

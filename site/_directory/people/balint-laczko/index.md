@@ -36,6 +36,22 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Instrumental Image Sonification: Towards an Accessible and Reliable Method
+    for Life Science and Sonic Design'
+  year: '2026'
+  source: PhD thesis
+  group_type: PhD thesis
+  contributors:
+  - name: Balint Laczko
+    role: Creator
+    slug: balint-laczko
+    url: /people/balint-laczko/
+  - name: Alexander Refsum Jensenius
+    role: Supervisor
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Marie Elisabeth Rognes
+    role: Supervisor
 - title: Poster for "Image Sonification as Unsupervised Domain Transfer"
   year: '2025'
   source: Conference poster
@@ -157,12 +173,12 @@ selected_works:
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 source_mentions: []
+summary: His doctoral work is supervised by Professor Alexander Refsum Jensenius.
 wps:
 - WP1
 permalink: /people/balint-laczko/
 redirect_from:
 - /directory/people/balint-laczko/
-summary: His doctoral work is supervised by Professor Alexander Refsum Jensenius.
 ---
 
 Bio coming soon.

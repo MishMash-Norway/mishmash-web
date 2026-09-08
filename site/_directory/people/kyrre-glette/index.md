@@ -43,6 +43,7 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q90647678
 aliases: []
 tags:
 - Multi-Agent Systems
@@ -71,6 +72,41 @@ search_keywords:
 - Music Technology
 - Swarm Intelligence
 selected_works:
+- title: 'Lamarckian Inheritance in Dynamic Environments: How Key Variables Affect
+    Evolutionary Dynamics'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://direct.mit.edu/isal/proceedings/isal2026/38/35/138242
+  contributors:
+  - name: Ege de Bruin
+    role: Creator
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: Kai Olav Ellefsen
+    role: Creator
+    slug: kai-olav-ellefsen
+    url: /people/kai-olav-ellefsen/
+- title: Social Learning Strategies for Evolved Virtual Soft Robots
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3795095.3805149
+  contributors:
+  - name: Ege de Bruin
+    role: Creator
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: Kai Ellefsen
+    role: Creator
+  - name: Giorgia Nadizar
+    role: Creator
+  - name: Eric Medvet
+    role: Creator
 - title: Sensor movement drives emergent attention and scalability in active neural
     cellular automata
   year: '2026'
@@ -218,44 +254,6 @@ selected_works:
     url: /people/kyrre-glette/
   - name: Alexander Szorkovszky
     role: Creator
-- title: Behaviour Diversity in a Walking and Climbing Centipede-Like Virtual Creature
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1162/artl_a_00476
-  contributors:
-  - name: Emma Stensby Norstein
-    role: Creator
-  - name: Kotaro Yasui
-    role: Creator
-  - name: Takeshi Kano
-    role: Creator
-  - name: Akio Ishiguro
-    role: Creator
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-- title: An Interactive Self-Assembly Swarm Music System in Extended Reality
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/3771594.3771620
-  contributors:
-  - name: Pedro Pablo Lucas Bravo
-    role: Creator
-    slug: pedro-lucas
-    url: /people/pedro-lucas/
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Alexander Szorkovszky
-    role: Creator
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: Kyrre Glette is Professor of artificial intelligence and robotics at the

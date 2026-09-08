@@ -25,15 +25,17 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Computer-Automated Design
+- 3D Modelling
+- Computer Games
 - Technology, Innovation and Culture
-- Digital Media
+- Generative Art
 - Visual Education
 - Visualising in Akademia
 search_keywords:
-- Computer-Automated Design
+- 3D Modelling
+- Computer Games
 - Technology, Innovation and Culture
-- Digital Media
+- Generative Art
 - Visual Education
 - Visualising in Akademia
 selected_works:
@@ -108,10 +110,11 @@ selected_works:
     url: /people/sigbjorn-galaen/
 source_mentions: []
 summary: Sigbjørn Galåen is associate professor of 3D-graphics at Kristiania University
-  College, Westerdals institute of film and media. Sigbjørn has over 20 years experience
-  from the gaming industry as 3D artist, concept artist, animator and producer, and
-  has worked both in Norwegian and international companies. Sigbjørn is autodidact
-  within fine art, has had three solo exhibitions, and has made many cover illustrations.
+  of Applied Sciences, Department of Performing Arts, Film and Media. Sigbjørn has
+  over 20 years experience from the gaming industry as 3D artist, concept artist,
+  animator and producer, and has worked both in Norwegian and international companies.
+  Sigbjørn is autodidact within fine art, has had three solo exhibitions, and has
+  made many cover illustrations.
 redirect_from:
 - /directory/people/sigbjorn-galaen/
 wps:

@@ -5,8 +5,9 @@ name: Pedro Lind
 title: Pedro Lind
 position: Professor
 department: ''
-institution: ''
-institutions: []
+institution: kristiania-university-college
+institutions:
+- kristiania-university-college
 projects: []
 roles:
 - Member

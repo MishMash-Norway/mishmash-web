@@ -1,4 +1,4 @@
-synced_at: '2026-09-07T10:13:02Z'
+synced_at: '2026-09-08T18:09:24Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -7,6 +7,48 @@ project:
     en: MishMash Centre for AI and Creativity
     nb: MishMash Senter for KI og kreativitet
 results:
+- title: A Visualization and Control Interface for Rhythmic Relations
+  year: '2026'
+  type: AcademicChapter
+  type_label: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Davide Rocchesso
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Erdem, Cagri
+      name: Cagri Erdem
+      slug: cagri-erdem
+      url: /people/cagri-erdem/
+    - display: Rocchesso, Davide
+      name: Davide Rocchesso
+    title: A Visualization and Control Interface for Rhythmic Relations
+    container: 'In Angeli, Antonella De, Schmidt, Albrecht (Eds.), AVI ''26: Proceedings
+      of the 2026 International Conference on Advanced Visual Interfaces.'
+    details: 'Association for Computing Machinery (ACM). ISBN 9798400723421. p. 1–3.
+      doi: 10.1145/3811427.3811503.'
+    abstract: RhyGlyph is a radial visualization system that represents rhythmic interaction
+      as three pairwise spacetime trajectories within a compact three-wedge glyph,
+      supporting both overview and detailed reading. Building on this representation,
+      RhyDiff is a generative framework that learns aligned latent spaces for symbolic
+      drum patterns and the encoded trajectory features through paired VQ-VAEs and
+      FiLM-conditioned diffusion. Users edit relational trajectories and metadata
+      to generate new drum patterns by treating visualization itself as a control
+      surface.
+    full_text_url: https://hdl.handle.net/11250/5560061
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a034f97f79-8d47f64f-f6af-4717-a047-763e4a535f57
+  url: https://doi.org/10.1145/3811427.3811503
+  nva_url: https://nva.sikt.no/publication/01a034f97f79-8d47f64f-f6af-4717-a047-763e4a535f57
 - title: Mixed Method Audio-Video Analyses of Felt Togetherness in a Networked Music-Dance
     Performance
   year: '2026'
@@ -316,6 +358,61 @@ results:
     nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
+- title: '"Can Art Arise without Search or Exploration?'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Ole Fredrik Norbye
+    role: Creator
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
+  - name: Njål Ølnes
+    role: Creator
+  institutions:
+  - name: NLA University College
+    slug: nla-university-college
+    url: /institutions/nla-university-college/
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  citation:
+    authors:
+    - display: Norbye, Ole Fredrik
+      name: Ole Fredrik Norbye
+      slug: ole-fredrik-norbye
+      url: /people/ole-fredrik-norbye/
+    - display: Ølnes, Njål
+      name: Njål Ølnes
+    title: '"Can Art Arise without Search or Exploration?'
+    container: Twenty-First International Conference on the Arts in Society.
+    details: Athen.
+    abstract: "These days' almost manic attention to AI should also trigger a response\
+      \ in the field of art. Not necessarily a denial of AI, but an \"celebration\"\
+      \ of what it means to be human. Can reflecting AI through art lead us to 'rediscover'\
+      \ our human potential? Rediscover our unique abilities, what we take for granted:\
+      \ like being able to create community through music and dance, like dealing\
+      \ with complicated ethical and moral questions through theater and film, like\
+      \ understanding through the visual arts what we do not see in our daily reality?\
+      \ \n\nThese abilities are something we have cultivated over thousands of years,\
+      \ a process of formation that is both biology AND culture: Music is a human\
+      \ surplus phenomenon, most likely sprung from our language ability (Patel, A.\
+      \ 2010). Therefore, music learning has many common features with language learning\
+      \ (Solli, M., Aksdal, E. and Inderberg, J. P. 2021). Just as we learn a native\
+      \ language through being surrounded by it, and through participating in social\
+      \ communities where it is used, music has traditionally been learned through\
+      \ imitation and through participation in (musical) communities. \n\nHow will\
+      \ AI affect these uniquely human forms of forming community/common consciousness?\
+      \ Time as a prerequisite for process, process as a prerequisite for exploration,\
+      \ exploration as a prerequisite for reflexive judgment/creativity. We will share\
+      \ our artistic research from a studio recording session where we focused on\
+      \ the idea of 'Try and Fail' or 'Not knowing'\n\nSpecial Focus: Modeling Life\
+      \ Systems: Art, Algorithms, Ecologies"
+    full_text_url: https://hdl.handle.net/11250/5557100
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0003e1f3e-5d35e7e9-a0d1-458f-a4cd-aaa70a76713b
+  nva_url: https://nva.sikt.no/publication/01a0003e1f3e-5d35e7e9-a0d1-458f-a4cd-aaa70a76713b
 - title: Artificial Intelligence as Art
   year: '2026'
   type: ConferenceLecture
@@ -1043,6 +1140,112 @@ results:
     nva_url: https://nva.sikt.no/publication/019e632327e5-68401a73-5041-4dcf-85c0-b05033eba169
   url: https://doi.org/10.1080/14794713.2026.2657654
   nva_url: https://nva.sikt.no/publication/019e632327e5-68401a73-5041-4dcf-85c0-b05033eba169
+- title: 'The Gentler Researcher: Examining Research Bias and Gender Stereotypes in
+    Sikt AI Chat'
+  year: '2026'
+  type: AcademicArticle
+  type_label: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Øystein Olav Skaar
+    role: Creator
+    slug: oystein-skaar
+    url: /people/oystein-skaar/
+  - name: Caroline Miriam Skaar
+    role: Creator
+  institutions:
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  citation:
+    authors:
+    - display: Skaar, Øystein Olav
+      name: Øystein Olav Skaar
+      slug: oystein-skaar
+      url: /people/oystein-skaar/
+    - display: Skaar, Caroline Miriam
+      name: Caroline Miriam Skaar
+    title: 'The Gentler Researcher: Examining Research Bias and Gender Stereotypes
+      in Sikt AI Chat'
+    container: Nordic Journal of Digital Literacy.
+    details: 'ISSN 1891-943X. 21. p. 32–50. doi: 10.18261/njdl.21.1.3.'
+    abstract: Studies on large language models (LLMs) have shown that these technologies
+      can reproduce stereotype-based biases present in their training data. In this
+      paper, we hypothesized that an OpenAI-based model would more frequently attribute
+      first authorship to women in masculine-typed research fields than to men in
+      feminine-typed fields, an asymmetry consistent with gender-role beliefs. Across
+      three studies, we analyzed how the model’s generative outputs reflect gendered
+      associations. Study 1 replicated Fulgu and Capraro’s phrase-association paradigm,
+      replicating the study’s findings that feminine-stereotyped phrases were more
+      consistently linked to female characters, whereas masculine-stereotyped phrases
+      were less reliably linked to male characters. The results suggest that the training
+      data contains a stronger and more stable association between femininity and
+      communal traits than between masculinity and agency. Study 2 examined 4,585
+      randomly generated hypothetical studies and identified a substantial skew toward
+      female first authors (>82%), with male authors overrepresented primarily in
+      engineering, technology, and theoretical contexts. Study 3 extended these findings
+      across nine specified research fields, where the results of the first stage
+      were consistent with Study 2. When prompted to classify rather than generate
+      the gender of the first author, the model produced a lower overall proportion
+      of women, but retained the same relative distribution across fields observed
+      at the first stage. Taken together, the results indicate that the model’s outputs
+      correspond more to feminine than masculine gender-role beliefs. While this tendency
+      may appear to increase women’s representation in masculine-typed domains, it
+      does not afford men equivalent visibility in feminine-typed domains. These results
+      underscore how LLMs, as statistical systems shaped by training corpora and reinforcement
+      learning, can reflect and reproduce cultural and historical asymmetries in gender
+      representation, challenging assumptions of epistemic neutrality.
+    full_text_url: https://hdl.handle.net/11250/5515881
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019e1af14eae-0db97e08-057f-446f-b096-06d3cb51ca01
+  url: https://doi.org/10.18261/njdl.21.1.3
+  nva_url: https://nva.sikt.no/publication/019e1af14eae-0db97e08-057f-446f-b096-06d3cb51ca01
+- title: 'Enacting Musical Creativity: The Value of Human Agency in the Face of AI'
+  year: '2026'
+  type: AcademicArticle
+  type_label: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Nanette Nielsen
+    role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Nielsen, Nanette
+      name: Nanette Nielsen
+      slug: nanette-nielsen
+      url: /people/nanette-nielsen/
+    title: 'Enacting Musical Creativity: The Value of Human Agency in the Face of
+      AI'
+    container: Journal of Consciousness Studies.
+    details: 'ISSN 1355-8250. 33. p. 123–144. doi: 10.53765/20512201.33.3.123.'
+    abstract: In his recent critique of well-established simplified comparisons between
+      the human mind and AI, Alva Noë encourages us to 'rage against the machine'
+      (Noë, 2024). In this article, I build on Noë's timely encouragement, and sketch
+      perspectives from both music studies and enactivist philosophy in order to interrogate
+      what musicking might add to the debate. As a case study, I explore the recent
+      public discourse surrounding the AI-band The Velvet Sundown and consider the
+      implications — mental health related and ethical — of engaging with AI-generated
+      music. I draw on current scholarship on musical creativity and AI to discuss
+      the possibilities and limitations of creative agency in AI, laying the foundation
+      for why human creative agency should be regarded more valuable than the artificial
+      creativity that AI offers. I also discuss some ethical implications of sharing
+      agency with AI, suggesting that we should continue to foster attunement to our
+      creative agency and capabilities, as empowered but also vulnerable musicking
+      human agents. I argue that musicking offers an enactive entanglement through
+      which we are granted an opportunity to embrace risk, resist rules, and learn
+      new modes of orientation and reorientation that serve as empowering tools for
+      navigating our way through the resistant path to being human.
+    full_text_url: https://hdl.handle.net/11250/5508299
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019da7148ce0-9a24e86b-cf0a-4ff7-b949-57f9c61f4e8a
+  url: https://doi.org/10.53765/20512201.33.3.123
+  nva_url: https://nva.sikt.no/publication/019da7148ce0-9a24e86b-cf0a-4ff7-b949-57f9c61f4e8a
 - title: 'Arab music improvisation corpus for research (AMICOR): development and machine
     translation experiments | Language Resources and Evaluation'
   year: '2026'
@@ -1225,6 +1428,108 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: 'The implications of A(I)gency in music: An fMRI investigation of AI-generated
+    vs. human-composed music'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Vuoskoski, Jonna Katariina
+      name: Jonna Katariina Vuoskoski
+      slug: jonna-vuoskoski
+      url: /people/jonna-vuoskoski/
+    title: 'The implications of A(I)gency in music: An fMRI investigation of AI-generated
+      vs. human-composed music'
+    container: Oppstartsseminar for forskningsprogrammet Kunst og kunstig intelligens
+      (2026–2028).
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5566355
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a08056e88c-3673f657-ba40-4f49-90b5-87b56d7b7a5b
+  nva_url: https://nva.sikt.no/publication/01a08056e88c-3673f657-ba40-4f49-90b5-87b56d7b7a5b
+- title: Fagdag om musikk og KI
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Ole Fredrik Norbye
+    role: RoleOther
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
+  - name: Njål Ølnes
+    role: RoleOther
+  - name: Mathieu Lacroix
+    role: RoleOther
+    slug: mathieu-lacroix
+    url: /people/mathieu-lacroix/
+  institutions:
+  - name: NLA University College
+    slug: nla-university-college
+    url: /institutions/nla-university-college/
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  citation:
+    authors: []
+    title: Fagdag om musikk og KI
+    container: Musikk og KI - seminardag.
+    details: NLA Høgskolen, Oslo.
+    abstract: Fagdagen «KI og musikk» ved NLA Høgskolen i Oslo satte søkelys på hvordan
+      kunstig intelligens påvirker musikkfeltet, med særlig vekt på kreativitet, kunstneriske
+      prosesser, opphavsrett og musikkbransjens utvikling. Gjennom faglige innlegg,
+      samtaler og musikalske eksempler ble blant annet bruk av generativ KI, eierskap
+      og rettigheter, algoritmiske komposisjonsprosesser og forholdet mellom menneskelig
+      og maskinell kreativitet diskutert. Fagdagen var primært rettet mot studenter
+      på masterprogrammet i utøvende musikk, men var åpen for alle ansatte og studenter
+      ved NLA i Oslo. Medvirkende var Ole Fredrik Norbye, Njål Ølnes, Torstein Slåen
+      og Mathieu Lacroix.
+    full_text_url: https://hdl.handle.net/11250/5566221
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a07fdebf2b-a5529a3e-0dea-44ec-bad4-3bbd9b06fb3d
+  url: https://www.nla.no/nyheter/2026/august/ki-og-musikk-pa-dagsordenen-ved-nla-i-oslo
+  nva_url: https://nva.sikt.no/publication/01a07fdebf2b-a5529a3e-0dea-44ec-bad4-3bbd9b06fb3d
+- title: How can we use ALICE concepts for creative purposes?
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Glette, Kyrre
+      name: Kyrre Glette
+      slug: kyrre-glette
+      url: /people/kyrre-glette/
+    title: How can we use ALICE concepts for creative purposes?
+    container: Artificial Life, Intelligence, Complexity & Evolution (ALICE) Workshop.
+    details: Copenhagen.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5566121
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a07d69c0f0-b5a65bc7-e873-47b7-995c-677353df4180
+  url: https://2026.aliceworkshop.org/speakers/
+  nva_url: https://nva.sikt.no/publication/01a07d69c0f0-b5a65bc7-e873-47b7-995c-677353df4180
 - title: Kentauren
   year: '2026'
   type: Lecture
@@ -1914,6 +2219,8 @@ results:
   contributors:
   - name: Matthew Landers
     role: Creator
+    slug: matthew-landers
+    url: /people/matthew-landers/
   institutions:
   - name: Western Norway University of Applied Sciences
     slug: western-norway-university-of-applied-sciences
@@ -1922,6 +2229,8 @@ results:
     authors:
     - display: Landers, Matthew
       name: Matthew Landers
+      slug: matthew-landers
+      url: /people/matthew-landers/
     title: 'Calliope: Leveraging Artificial Intelligence, Preserving Human Creativity'
     container: Temaveke KI.
     details: Bergen.

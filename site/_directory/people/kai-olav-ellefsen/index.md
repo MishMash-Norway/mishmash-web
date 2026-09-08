@@ -45,6 +45,23 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Lamarckian Inheritance in Dynamic Environments: How Key Variables Affect
+    Evolutionary Dynamics'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://direct.mit.edu/isal/proceedings/isal2026/38/35/138242
+  contributors:
+  - name: Ege de Bruin
+    role: Creator
+  - name: Kyrre Glette
+    role: Creator
+    slug: kyrre-glette
+    url: /people/kyrre-glette/
+  - name: Kai Olav Ellefsen
+    role: Creator
+    slug: kai-olav-ellefsen
+    url: /people/kai-olav-ellefsen/
 - title: "Fem grunner til at det ikke finnes virkelig intelligente roboter\n - Titan.uio.no"
   year: '2026'
   source: Popular science article
@@ -201,22 +218,6 @@ selected_works:
     role: Creator
     slug: kai-olav-ellefsen
     url: /people/kai-olav-ellefsen/
-- title: 'Fast or Slow: Adaptive Decision Maiking in Reinfocement Learning with Pre-Trained
-    LLMs'
-  year: '2025'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Katrine Linnea Nergård
-    role: Creator
-  - name: Kai Olav Ellefsen
-    role: Creator
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
 source_mentions: []
 summary: ''
 wps:

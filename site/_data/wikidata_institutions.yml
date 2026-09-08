@@ -9,6 +9,14 @@ aalborg-university:
   logo: http://commons.wikimedia.org/wiki/Special:FilePath/Universit%C3%A4t%20Aalborg%20Logo.svg
   qid: Q601956
   website: https://www.aau.dk
+aalto-university:
+  coordinates:
+    lat: 60.186111
+    lon: 24.828611
+  inception: '2010-01-01'
+  logo: http://commons.wikimedia.org/wiki/Special:FilePath/Aalto%20University%20logo%20tri-lingual%20version.png
+  qid: Q300980
+  website: https://www.aalto.fi/
 arctic-university-of-norway:
   coordinates:
     lat: 69.680511111
@@ -149,6 +157,14 @@ ostfold-university-college:
   logo: http://commons.wikimedia.org/wiki/Special:FilePath/Hochschule%20%C3%98stfold.svg
   qid: Q616752
   website: http://www.hiof.no/
+simon-fraser-university:
+  coordinates:
+    lat: 49.278175782
+    lon: -122.919393828
+  inception: '1965-01-01'
+  logo: http://commons.wikimedia.org/wiki/Special:FilePath/SFU-block-logo.svg
+  qid: Q201603
+  website: https://www.sfu.ca/
 simula-metropolitan-center-for-digital-engineering:
   coordinates:
     lat: 59.9173373
@@ -249,6 +265,20 @@ university-of-stavanger:
   logo: http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Stavanger%20logo.svg
   qid: Q498401
   website: https://www.uis.no/
+university-of-stirling:
+  coordinates:
+    lat: 56.1455
+    lon: -3.9195
+  inception: '1967-01-01'
+  qid: Q963530
+  website: http://www.stir.ac.uk
+university-of-the-arts-london:
+  coordinates:
+    lat: 51.5178
+    lon: -0.116389
+  inception: '1986-01-01'
+  qid: Q2065666
+  website: https://www.arts.ac.uk/
 western-norway-university-of-applied-sciences:
   coordinates:
     lat: 60.3691

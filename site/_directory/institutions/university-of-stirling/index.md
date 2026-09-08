@@ -18,6 +18,7 @@ city: Stirling
 urls:
   website: https://www.stir.ac.uk/
   wikipedia: https://en.wikipedia.org/wiki/University_of_Stirling
+  wikidata: https://www.wikidata.org/wiki/Q963530
 aliases: []
 tags: []
 search_keywords: []
