@@ -286,6 +286,14 @@ content_types:
       - Use slugs in people, institutions, and projects lists, not path-style URLs.
       - Keep cross-links reciprocal.
       - Do not commit NVA credentials.
+      - >-
+        To add a person to a project, edit three places: the person's projects list,
+        the project's people list, and the hand-written "## People" line in the project
+        body. The institution page's people list is filled by the reciprocity sync.
+      - >-
+        After creating a profile, run the enrich script with --slug and without --dry-run
+        so position, department, tags, works, and portrait are filled the same way the
+        nightly workflow would.
     automation:
       enrich_one: python3 scripts/enrich_directory_from_nva.py --slug some-person --dry-run
       enrich_all: python3 scripts/enrich_directory_from_nva.py --discover-nva --discover-nva-loose --max-works 10
@@ -322,6 +330,7 @@ validation:
   site_build:
     - bundle exec jekyll build --trace
     - bundle exec htmlproofer ./_site --disable-external --no-enforce-https
+    - html5validator --root _site --log WARNING
   optional_accessibility:
     - python3 -m http.server 4000 --directory _site
     - npx --yes wait-on@7 http://127.0.0.1:4000/
@@ -332,10 +341,89 @@ validation:
     - Confirm images load and have meaningful alt text where applicable.
     - Confirm generated _site output was not added to the change.
 
+build_and_ci:
+  purpose: >-
+    How to reproduce the GitHub checks locally and how to read a failed build,
+    so that a red workflow can be diagnosed in minutes rather than by guessing.
+    The wiki page When-Things-Go-Wrong explains the same failures for a human reader.
+  run_from_repository_root:
+    rule: Run every bundle, python3, and html5validator command from the repository root.
+    why: >-
+      The Jekyll config and Gemfile live at the root; _config.yml sets source: site and
+      destination: _site. Running from site/ fails with a Ruby stack trace and no useful
+      message, and html5validator --root site/_site reports "There are no files to check"
+      and exits 0, which looks like a pass but checked nothing.
+  reading_a_failed_build:
+    - Do not judge a build by its last three lines; the tail of a failure is the Ruby stack, not the cause.
+    - 'Find the first real message: bundle exec jekyll build --trace 2>&1 | grep -n -m3 -iE "error|exception|yaml|conflict"'
+    - A "Liquid Exception" or YAML message names the offending source file; open that file, not the layout.
+    - 'For a workflow run: gh run view <run-id> --log-failed | tail -80, then scroll up from the ##[error] line.'
+  local_ci_sequence:
+    note: Mirrors the blocking jobs in .github/workflows/web-tests.yml, in order.
+    steps:
+      - python3 scripts/validate_directory.py
+      - 'for t in scripts/test_*.py; do [ "$t" = scripts/test_nva_api_auth.py ] && continue; python3 "$t" || break; done'
+      - bundle exec jekyll build --trace
+      - bundle exec htmlproofer ./_site --disable-external --no-enforce-https
+      - html5validator --root _site --log WARNING
+    expected_success_signals:
+      - 'validate_directory prints "OK: all checks passed." (warnings about tag counts are informational)'
+      - 'jekyll prints "done in N seconds"'
+      - 'htmlproofer prints "HTML-Proofer finished successfully."'
+      - html5validator prints nothing and exits 0
+    spot_check: 'grep the built page in _site/ for the change, e.g. grep -o "sets goals" _site/projects/<slug>/index.html'
+  github_workflows:
+    pages: .github/workflows/pages.yml builds and deploys the site on every push to main.
+    web_tests: >-
+      .github/workflows/web-tests.yml runs directory validation, script unit tests,
+      the build, htmlproofer, the Nu HTML validator, and non-blocking audits.
+    enrich: >-
+      .github/workflows/enrich-directory-people.yml runs daily, syncs people and results
+      from NVA and ORCID, and pushes directly to main.
+    inspect:
+      list_runs: gh run list --workflow <workflow-file> --limit 5
+      failed_log: gh run view <run-id> --log-failed | tail -80
+      rerun_enrich: gh workflow run enrich-directory-people.yml
+      after_push: Watch both pages and web-tests for the new commit before reporting success.
+  known_failures:
+    enrich_push_guard:
+      symptom: 'Enrich job fails at "Commit and push updates" with "Refusing to push files outside the approved paths."'
+      cause: >-
+        The guard only allows changes under site/_directory, site/_data, site/_events,
+        site/assets/images/portraits, and site/assets/images/bubbles/daily. Anything
+        else the scripts touch, or a path git prints in quotes, is rejected.
+      history: >-
+        On 2026-09-08 a portrait named with the HiØF short name was rejected because git
+        quotes non-ASCII paths; fixed in commit 781f039f by disabling core.quotePath in
+        the guard. Paths containing spaces are still quoted and still rejected by design.
+      fix: Make the scripts write only under the approved paths, or extend the allowlist in the workflow deliberately.
+    nu_html_validator:
+      symptom: 'The "Validate HTML" job fails while the local build and htmlproofer pass.'
+      common_causes:
+        - an empty <details> element
+        - a <style> block inside page body content
+        - an <iframe> inside an <a>
+        - raw HTML in Markdown with an unclosed tag
+      fix: Run html5validator --root _site --log WARNING locally; it prints file and line.
+    yaml_front_matter:
+      symptom: Jekyll build fails mentioning YAML, Psych, or "did not find expected key".
+      common_causes:
+        - an unquoted title containing a colon
+        - tabs used for indentation
+        - a smart quote pasted from a word processor
+        - a missing closing --- line
+    directory_validation:
+      symptom: validate_directory reports an error naming a slug.
+      fix: >-
+        Check that every slug referenced in people, institutions, and projects lists
+        exists and that the link is reciprocal; python3 scripts/sync_directory_reciprocity.py
+        repairs most reciprocity gaps.
+
 agent_workflow:
   - Read this file first and classify the request using routing.
   - Inspect one nearby existing entry before editing.
   - Check for duplicate URL, slug, or person before creating a new record.
   - Make the smallest source-only change.
-  - Run the narrowest relevant validation, then the site build when practical.
+  - Run the narrowest relevant validation, then the site build when practical, from the repository root.
+  - If a check or workflow fails, follow build_and_ci before changing anything else.
   - Report source files changed, automation side effects, and checks run.
