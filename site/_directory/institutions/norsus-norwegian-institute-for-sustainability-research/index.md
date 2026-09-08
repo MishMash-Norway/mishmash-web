@@ -10,6 +10,8 @@ description: NORSUS - Norwegian Institute for Sustainability Research
 short_name: NORSUS
 image: /images/institutions/norsus-norwegian-institute-for-sustainability-research.png
 people:
+- bram-van-de-glind
+- kari-anne-lyng
 - lina-plataniti
 projects:
 - environmental-sustainability-mishmash

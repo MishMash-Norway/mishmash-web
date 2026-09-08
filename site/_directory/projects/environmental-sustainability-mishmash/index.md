@@ -14,7 +14,9 @@ tags:
 slug: environmental-sustainability-mishmash
 name: Environmental Sustainability in MishMash
 people:
+- bram-van-de-glind
 - erik-johannes-husom
+- kari-anne-lyng
 - lina-plataniti
 - sagar-sen
 institutions:
@@ -34,7 +36,7 @@ Primary WP: [WP5](/wp5/)
 
 ## People
 - Project leader: [Lina Plataniti](/people/lina-plataniti/)
-- Participants: [Erik Johannes Husom](/people/erik-johannes-husom/), [Sagar Sen](/people/sagar-sen/)
+- Participants: [Bram van de Glind](/people/bram-van-de-glind/), [Erik Johannes Husom](/people/erik-johannes-husom/), [Kari-Anne Lyng](/people/kari-anne-lyng/), [Sagar Sen](/people/sagar-sen/)
 
 ## Institutions
 - [NORSUS - Norwegian Institute for Sustainability Research](/institutions/norsus-norwegian-institute-for-sustainability-research/)
