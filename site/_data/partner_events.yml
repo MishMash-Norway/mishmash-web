@@ -1,6 +1,16 @@
 # Partner Events shown on the front page.
 # Keep dates in ISO format (YYYY-MM-DD or YYYY-MM-DD HH:MM).
 
+- start_date: 2026-09-24
+  end_date: 2026-09-24
+  url: https://dhnb.eu/about-dhnb/onwards-and-outwards-dhnb-celebrates-10-years/
+  og_title: "Onwards and outwards! DHNB celebrates 10 years"
+  og_description: "Online anniversary seminar with three short provocations on where humanities research is heading in the Nordic-Baltic region and beyond, including Alexander Refsum Jensenius on AI as a catalyst for more humanities research. Open to all, registration required. Time: Thursday 24 September 2026, 13:30-15:00 CEST. Place: Zoom."
+  og_image: "https://dhnb.eu/wp-content/uploads/2021/01/favicon.png"
+  partner: Digital Humanities in the Nordic and Baltic Countries (DHNB)
+  title: "Onwards and outwards! DHNB celebrates 10 years"
+  description: "Online anniversary seminar with three short provocations on where humanities research is heading in the Nordic-Baltic region and beyond, including Alexander Refsum Jensenius on AI as a catalyst for more humanities research. Open to all, registration required. Time: Thursday 24 September 2026, 13:30-15:00 CEST. Place: Zoom."
+
 - start_date: 2026-10-06
   end_date: 2026-10-06
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Other/2026/co-improvisation.html
