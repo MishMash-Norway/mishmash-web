@@ -46,6 +46,8 @@ selected_works:
     url: /people/lina-plataniti/
   - name: Bram van de Glind
     role: Creator
+    slug: bram-van-de-glind
+    url: /people/bram-van-de-glind/
 - title: Faktaark om matsvinn i dagligvarehandelen 2024
   year: '2025'
   source: Research report
@@ -68,6 +70,8 @@ selected_works:
     url: /people/lina-plataniti/
   - name: Bram van de Glind
     role: Creator
+    slug: bram-van-de-glind
+    url: /people/bram-van-de-glind/
 - title: Faktaark om matsvinn i Kiosk-,Bensin- og Servicehandel 2024
   year: '2025'
   source: Research report
@@ -182,6 +186,8 @@ selected_works:
     role: Creator
   - name: Kari-Anne Kallerud Lyng
     role: Creator
+    slug: kari-anne-lyng
+    url: /people/kari-anne-lyng/
   - name: Florenc Demrozi
     role: Creator
   - name: Kate Briggs
@@ -316,6 +322,8 @@ selected_works:
     role: Creator
   - name: Kari-Anne Kallerud Lyng
     role: Creator
+    slug: kari-anne-lyng
+    url: /people/kari-anne-lyng/
 source_mentions:
 - about/organisation/council/index.md
 summary: ''

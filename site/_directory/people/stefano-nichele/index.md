@@ -218,6 +218,8 @@ selected_works:
     role: Creator
   - name: Kari-Anne Kallerud Lyng
     role: Creator
+    slug: kari-anne-lyng
+    url: /people/kari-anne-lyng/
   - name: Florenc Demrozi
     role: Creator
   - name: Kate Briggs

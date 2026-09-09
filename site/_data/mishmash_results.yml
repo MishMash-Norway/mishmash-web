@@ -1,4 +1,4 @@
-synced_at: '2026-09-08T18:09:24Z'
+synced_at: '2026-09-09T09:40:37Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -358,6 +358,37 @@ results:
     nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
+- title: Recorded music at The National Library of Norway
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Richard Gjems
+    role: Creator
+    slug: richard-gjems
+    url: /people/richard-gjems/
+  institutions:
+  - name: National Library of Norway
+    slug: national-library-of-norway
+    url: /institutions/national-library-of-norway/
+  citation:
+    authors:
+    - display: Gjems, Richard
+      name: Richard Gjems
+      slug: richard-gjems
+      url: /people/richard-gjems/
+    title: Recorded music at The National Library of Norway
+    container: Symposium on Digital and AI Musicology.
+    details: The National Library of Norway (Oslo) and University of Oslo.
+    abstract: Presentation of the National Library of Norway's collection of audiovisual
+      materials, it's legal framework, provenance, availability, as well as it's possibilities
+      for dissemination and computational analysis (MIR).
+    full_text_url: https://hdl.handle.net/11250/5566954
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0854af6d8-f7f9569d-608b-4200-bc42-a777b6ac8248
+  url: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/presentation_08062026.pdf
+  nva_url: https://nva.sikt.no/publication/01a0854af6d8-f7f9569d-608b-4200-bc42-a777b6ac8248
 - title: '"Can Art Arise without Search or Exploration?'
   year: '2026'
   type: ConferenceLecture
@@ -998,6 +1029,75 @@ results:
     nva_url: https://nva.sikt.no/publication/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
   url: https://hearhere.be/en/expo/dhv%C4%81ni
   nva_url: https://nva.sikt.no/publication/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
+- title: Modeling Relations Between Musical Events in Continuous Time with Transformer
+    Models for Live Co-Improvisational Interactions | Zenodo
+  year: '2026'
+  type: AcademicArticle
+  type_label: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Madaghiele, Vincenzo
+      name: Vincenzo Madaghiele
+      slug: vincenzo-madaghiele
+      url: /people/vincenzo-madaghiele/
+    - display: Fasciani, Stefano
+      name: Stefano Fasciani
+      slug: stefano-fasciani
+      url: /people/stefano-fasciani/
+    - display: Kelkar, Tejaswinee
+      name: Tejaswinee Kelkar
+      slug: tejaswinee-kelkar
+      url: /people/tejaswinee-kelkar/
+    - display: Erdem, Cagri
+      name: Cagri Erdem
+      slug: cagri-erdem
+      url: /people/cagri-erdem/
+    title: Modeling Relations Between Musical Events in Continuous Time with Transformer
+      Models for Live Co-Improvisational Interactions | Zenodo
+    container: Proceedings of International Conference on AI and Musical Creativity.
+    details: 'doi: 10.5281/zenodo.22276042.'
+    abstract: This paper presents a live semi-autonomous system that co-improvises
+      with a live musician using a model learned from the relationship observed in
+      paired recordings of an improvising duo. This responsive system is based on
+      a deep learning approach that models the relations between sequences of events
+      produced by co-playing musicians in continuous time, using transformer models.
+      We present the architecture for simultaneous sequences of sonic events and provide
+      a quantitative evaluation on several representative tasks. Results are compared
+      against a canonical transformer and a multichannel Factor Oracle, the latter
+      being a widely used model for live sequence-based symbolic music generation. We
+      detail a live implementation employing concatenative synthesis and introduce
+      a customization procedure in which the generative model is iteratively retrained
+      on curated, satisfactory sections from sound recordings of actual human-system
+      co-improvisational interactions. This iterative fine-tuning enables the model’s
+      stylistic output to diverge from the original training corpus. Two musical use cases
+      demonstrate the application of this technique.
+    full_text_url: https://hdl.handle.net/11250/5565358
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a072f9420a-ba5baf02-966d-4960-a8fe-1a6a1893a40e
+  url: https://zenodo.org/records/22276042
+  nva_url: https://nva.sikt.no/publication/01a072f9420a-ba5baf02-966d-4960-a8fe-1a6a1893a40e
 - title: 'Digital parasitism: The use of pirated books in AI training datasets'
   year: '2026'
   type: AcademicArticle
@@ -1428,6 +1528,43 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: AI and Creativity and a little information about the new AI centre MishMash
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: AI and Creativity and a little information about the new AI centre MishMash
+    container: 'AI in Science: A Force Multiplier in Scientific Discovery.'
+    details: Oslo.
+    abstract: 'Can AI be creative? The talk starts from Boden''s definition, novel
+      and meaningful, and shows why the first half is cheap for machines and the second
+      is where the human work remains. It sorts AI into rules, learning, and evolution,
+      traces seventy years of artists working with all three, and argues that the
+      interesting questions concern co-creation rather than replacement: control,
+      intention, and ownership. It presents MishMash, Norway''s national centre for
+      AI and creativity, with its seven challenges across performance, health, education,
+      industry, and heritage, and closes with what creative practice teaches scientists:
+      small models, embodied agents, reproducible workflows, and provenance.'
+    full_text_url: https://hdl.handle.net/11250/5566743
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0823b10a7-0489cfb9-43a2-4721-9814-2d49c63aef84
+  url: https://www.uio.no/dscience/english/news-and-events/events/ai-in-science.html
+  nva_url: https://nva.sikt.no/publication/01a0823b10a7-0489cfb9-43a2-4721-9814-2d49c63aef84
 - title: 'The implications of A(I)gency in music: An fMRI investigation of AI-generated
     vs. human-composed music'
   year: '2026'

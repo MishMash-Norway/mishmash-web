@@ -45,6 +45,8 @@ selected_works:
   contributors:
   - name: Ricardo Simian
     role: Creator
+    slug: ricardo-simian
+    url: /people/ricardo-simian/
 - title: 'Tackling Complexity with Additive Manufacturing: Wind Musical Instruments
     as a Case Study'
   year: '2025'
@@ -54,6 +56,8 @@ selected_works:
   contributors:
   - name: Ricardo Simian
     role: Creator
+    slug: ricardo-simian
+    url: /people/ricardo-simian/
 - title: Distilling Design Theory and Methodologies for Additive Manufacturing from
     Case Studies
   year: '2025'
@@ -63,6 +67,8 @@ selected_works:
   contributors:
   - name: Ricardo Simian
     role: Creator
+    slug: ricardo-simian
+    url: /people/ricardo-simian/
 - title: 'Integrating randomness in parametric design: A tool for developing crafty
     additive manufactured designs'
   year: '2025'
@@ -72,6 +78,8 @@ selected_works:
   contributors:
   - name: Ricardo Simian
     role: Creator
+    slug: ricardo-simian
+    url: /people/ricardo-simian/
 - title: 'Evaluating the suitability of niches for additive manufacturing production:
     proposal for a numeric evaluation tool'
   year: '2024'
@@ -81,6 +89,8 @@ selected_works:
   contributors:
   - name: Ricardo Simian
     role: Creator
+    slug: ricardo-simian
+    url: /people/ricardo-simian/
 - title: '3D-Printed Musical Instruments: Lessons Learned from Five Case Studies'
   year: '2023'
   source: Journal article
@@ -89,6 +99,8 @@ selected_works:
   contributors:
   - name: Ricardo Simian
     role: Creator
+    slug: ricardo-simian
+    url: /people/ricardo-simian/
 - title: 'Flaws as Features: New Perspectives for Developing an Additive Manufacturing
     Design Language'
   year: '2023'
@@ -98,6 +110,8 @@ selected_works:
   contributors:
   - name: Ricardo Simian
     role: Creator
+    slug: ricardo-simian
+    url: /people/ricardo-simian/
 source_mentions: []
 summary: null
 published: true

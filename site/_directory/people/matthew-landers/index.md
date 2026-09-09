@@ -52,6 +52,8 @@ selected_works:
   contributors:
   - name: Matthew Landers
     role: Creator
+    slug: matthew-landers
+    url: /people/matthew-landers/
 - title: 'Modern Prometheus: tracing the ill-defined path to AGI'
   year: '2025'
   source: Literature review
@@ -60,6 +62,8 @@ selected_works:
   contributors:
   - name: Matthew Landers
     role: Creator
+    slug: matthew-landers
+    url: /people/matthew-landers/
 - title: Adapting to the Unsanctioned Use of AI-Supported Technologies in Student
     Assessments
   year: '2024'
@@ -69,6 +73,8 @@ selected_works:
   contributors:
   - name: Matthew Scott Landers
     role: Creator
+    slug: matthew-landers
+    url: /people/matthew-landers/
 - title: Semeiologia, Semiotic Bridges, and the “New Science” in Donne's Ignatius
     His Conclave and An Anatomy of the World
   year: '2019'
@@ -78,6 +84,8 @@ selected_works:
   contributors:
   - name: Matthew Scott Landers
     role: Creator
+    slug: matthew-landers
+    url: /people/matthew-landers/
 - title: Transhumanism, Optimism, and Enlightenment Optimalism
   year: '2018'
   source: Journal article
@@ -85,6 +93,8 @@ selected_works:
   contributors:
   - name: Matthew Landers
     role: Creator
+    slug: matthew-landers
+    url: /people/matthew-landers/
 - title: Free-Will, Ethics, and the Biology of Mind
   year: '2017'
   source: Journal article
@@ -92,6 +102,8 @@ selected_works:
   contributors:
   - name: Matthew Scott Landers
     role: Creator
+    slug: matthew-landers
+    url: /people/matthew-landers/
 - title: 'The Brain and Memory in Tristram Shandy: A Forensic Examination of Sterne''s
     Narrative Structure'
   year: '2017'
@@ -101,6 +113,8 @@ selected_works:
   contributors:
   - name: Matthew Scott Landers
     role: Creator
+    slug: matthew-landers
+    url: /people/matthew-landers/
 - title: Anatomy and the Organization of Knowledge, 1500-1850
   year: '2016'
   source: Monograph
@@ -108,6 +122,8 @@ selected_works:
   contributors:
   - name: Matthew Scott Landers
     role: Creator
+    slug: matthew-landers
+    url: /people/matthew-landers/
   - name: Brian Muñoz
     role: Creator
 - title: 'Increasing student engagement through the development of interdisciplinary
@@ -137,6 +153,8 @@ selected_works:
     role: Creator
   - name: Matthew Landers
     role: Creator
+    slug: matthew-landers
+    url: /people/matthew-landers/
 source_mentions: []
 summary: null
 published: true
