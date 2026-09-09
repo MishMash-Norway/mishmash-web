@@ -25,6 +25,8 @@ The MishMash Opening Conference offers opportunities for all involved in MishMas
 ## Draft programme
 *Subject to changes. The full programme is published in the week before the conference.*
 
+Abstracts for all parallel sessions and poster presentations are collected in the <a class="button" href="/assets/docs/mishmash-opening-conference-2026-abstracts.pdf" target="_blank">Book of abstracts (PDF)</a>
+
 ### Monday, September 14th
 *Locations:* <br>
 - *Kilden Performing Arts Centre:* <a href="https://maps.app.goo.gl/E42n5EpejXHhox9p7" target="_blank">*Sjølystveien 2, Kristiansand*</a> <br>
