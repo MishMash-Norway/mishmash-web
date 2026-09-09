@@ -1,6 +1,16 @@
 # Partner Events shown on the front page.
 # Keep dates in ISO format (YYYY-MM-DD or YYYY-MM-DD HH:MM).
 
+- start_date: 2026-10-06
+  end_date: 2026-10-06
+  url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Other/2026/co-improvisation.html
+  og_title: "Synthetic shadows and twisted mirrors: co-improvising with machines - Department of Musicology"
+  og_description: "A concert with human improvisers and autonomous computational systems."
+  og_image: "https://www.hf.uio.no/imv/english/research/news-and-events/events/Other/2026/poster5-process.png"
+  partner: University of Oslo (Department of Musicology)
+  title: "Synthetic shadows and twisted mirrors: co-improvising with machines"
+  description: "A concert with human improvisers and autonomous computational systems, presenting SCSCI, a new synthesizer control system for co-improvisation developed at the University of Oslo with support from MishMash. Free, but registration is required (limited to 50 participants). Time: Oct. 6, 2026, 18:30-21:00 (concert starts 19:00). Place: NOTAM, Myrens verksted 3A, Oslo."
+
 - start_date: 2026-09-18
   end_date: 2026-09-18
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/christodoulou.html
