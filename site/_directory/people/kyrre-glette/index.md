@@ -36,7 +36,7 @@ urls:
   personal_website: ''
   institutional_website: https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html
   github: ''
-  linkedin: ''
+  linkedin: 'https://www.linkedin.com/in/kyrre-glette/'
   orcid: https://orcid.org/0000-0003-3550-3225
   nva: https://nva.sikt.no/research-profile/16358
   youtube: ''
