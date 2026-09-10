@@ -8,7 +8,7 @@ description: "MishMash formally started on 1 December 2025. The work package lea
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg
 ---
 
-Today, 1 December 2025, MishMash formally starts as a centre. We are still waiting for the consortium agreement to be signed by all partners, but the work has been going on for a while already, and from today the centre is officially up and running.
+Today, MishMash formally starts as a centre. We are still waiting for the consortium agreement to be signed by all partners, but the work has been going on for a while already, and from today the centre is officially up and running.
 
 ## An autumn of preparations
 
@@ -18,6 +18,6 @@ A large part of the work has gone into preparing the announcements of the first 
 
 ## What comes next
 
-The plan for the first year is clear: recruit fellows during the spring, get the work packages going, and bring the whole network together for a formal opening in the spring of 2026. The centre will be up to full speed from the autumn of 2026.
+The plan for the first year to recruit fellows during the spring, get the work packages going, and bring the whole network together for a formal opening in the spring of 2026. The centre will be up to full speed from the autumn of 2026.
 
 Welcome to MishMash!
