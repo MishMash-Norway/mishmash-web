@@ -166,6 +166,8 @@
   # name_nb: Kulturtanken
   - name: Media Cluster Norway AS
     url: https://mediacitybergen.no/
+  - name: Moonframe
+    url: https://moonframe.net/
 # - name: Multikjetil AS
   - name: Musikk i skolen
     url: https://musikkiskolen.no
