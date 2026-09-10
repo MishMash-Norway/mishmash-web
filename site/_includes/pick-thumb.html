@@ -1,6 +1,8 @@
 {% comment %}
   Sets `thumb` for a news/event item: image → thumbnail → first of images.
   Pass meshup_fallback=true to fall back to the bubbles for MeshUp events.
+  Generic bubble images are swapped for one of the square bubble thumbnails,
+  cycling through the colour variants so neighbouring items look different.
 {% endcomment %}
 {% assign thumb = nil %}
 {% if include.item.image %}
@@ -11,4 +13,7 @@
   {% assign thumb = include.item.images[0] %}
 {% elsif include.meshup_fallback and include.item.categories contains 'MeshUp' %}
   {% assign thumb = '/assets/images/bubbles/mishmash_bubbles_notext.svg' %}
+{% endif %}
+{% if thumb contains '/assets/images/bubbles/' %}
+  {% capture thumb %}{% cycle 'bubble-thumbs': '/assets/images/bubbles/thumbs/bubbles-1.svg', '/assets/images/bubbles/thumbs/bubbles-2.svg', '/assets/images/bubbles/thumbs/bubbles-3.svg', '/assets/images/bubbles/thumbs/bubbles-4.svg', '/assets/images/bubbles/thumbs/bubbles-5.svg', '/assets/images/bubbles/thumbs/bubbles-6.svg' %}{% endcapture %}
 {% endif %}

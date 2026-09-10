@@ -1,0 +1,9 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MishMash bubbles">
+  <rect width="320" height="320" fill="#EEF7FD"/>
+  <defs>
+    <clipPath id="left-4" clipPathUnits="userSpaceOnUse"><circle cx="106" cy="160" r="96"/></clipPath>
+  </defs>
+  <circle cx="106" cy="160" r="96" fill="#A1D6F4" stroke="#777" stroke-width="1"/>
+  <circle cx="214" cy="160" r="96" fill="#C1F7AE" stroke="#777" stroke-width="1"/>
+  <circle cx="214" cy="160" r="96" fill="#363644" clip-path="url(#left-4)"/>
+</svg>
