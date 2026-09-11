@@ -4,8 +4,8 @@ type: person
 slug: charles-martin
 name: Charles Martin
 title: Charles Martin
-position: ''
-department: ''
+position: Lecturer
+department: Research School of Computer Science
 institution: australian-national-university
 institutions:
 - australian-national-university

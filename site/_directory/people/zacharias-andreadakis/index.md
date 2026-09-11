@@ -4,8 +4,8 @@ type: person
 slug: zacharias-andreadakis
 name: Zacharias Andreadakis
 title: Zacharias Andreadakis
-position: ''
-department: ''
+position: Associate professor
+department: BARNkunne/KINDknow
 institution: western-norway-university-of-applied-sciences
 institutions:
 - western-norway-university-of-applied-sciences

@@ -4,7 +4,7 @@ type: person
 slug: frank-ekeberg
 name: Frank Ekeberg
 title: Frank Ekeberg
-position: ''
+position: Artist / Composer
 department: ''
 institution: ''
 institutions: []

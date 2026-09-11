@@ -4,10 +4,11 @@ type: person
 slug: dana-swarbrick
 name: Dana Swarbrick
 title: Dana Swarbrick
-position: ''
-department: ''
-institution: ''
-institutions: []
+position: Postdoctoral researcher
+department: Music, Art and Culture Studies
+institution: university-of-jyvaskyla
+institutions:
+- university-of-jyvaskyla
 projects: []
 roles:
 - Member
