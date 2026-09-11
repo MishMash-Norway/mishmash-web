@@ -62,6 +62,9 @@ NVA credentials: see [config/README.md](config/README.md). **Never commit creden
 When a person has `urls.nva`, the **daily sync overwrites** these fields from NVA:
 
 - `position`, `department`, `institution`, `institutions`, `nva_affiliations`
+  (guest and visiting affiliations are ignored; a person whose only NVA
+  affiliation is a guest role ends up with no position or institution, so add
+  the real employer by hand if it is known)
 - `tags`, `search_keywords`, `summary`, `selected_works`
 - `urls.institutional_website`, `urls.nva`, `urls.orcid` (canonical URLs)
 - `image` (when a portrait is downloaded)

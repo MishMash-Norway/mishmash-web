@@ -287,6 +287,12 @@ content_types:
       - Keep cross-links reciprocal.
       - Do not commit NVA credentials.
       - >-
+        Guest and visiting affiliations in NVA are not real affiliations. The enrich
+        script ignores them and removes stale guest data (position, institution,
+        nva_affiliations entry, and the person from the institution's people list).
+        A guest-only person is left without institution and position; set the real
+        employer by hand if known.
+      - >-
         To add a person to a project, edit three places: the person's projects list,
         the project's people list, and the hand-written "## People" line in the project
         body. The institution page's people list is filled by the reciprocity sync.
