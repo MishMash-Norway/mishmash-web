@@ -15,12 +15,10 @@ people:
 - andrew-perkis
 - audun-kvitland-rostad
 - david-rych
-- frank-ekeberg
 - govert-valkenburg
 - hilda-deborah
 - jacqueline-rowley
 - jens-knigge
-- ole-christoffer-haga
 - oyvind-brandtsegg
 - xiangming-zhang
 projects:

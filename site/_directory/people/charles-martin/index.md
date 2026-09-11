@@ -1,14 +1,14 @@
 ---
+layout: person
 type: person
 slug: charles-martin
 name: Charles Martin
 title: Charles Martin
-position: Guest
-department: Department for Informatics
-institution: university-of-oslo
+position: ''
+department: ''
+institution: australian-national-university
 institutions:
 - australian-national-university
-- university-of-oslo
 projects: []
 roles:
 - Council Member
@@ -242,7 +242,6 @@ summary: Charles Martin is a specialist in percussion, computer music, and inter
   and Embodied Cognition (EPEC) project at the University of Oslo, where he is developing
   new ways to predict musical intentions and performances in smartphone apps.
 description: Guest, Department for Informatics, University of Oslo
-layout: person
 permalink: /people/charles-martin/
 redirect_from:
 - /directory/people/charles-martin/

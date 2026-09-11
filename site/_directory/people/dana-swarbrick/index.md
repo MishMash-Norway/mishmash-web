@@ -1,13 +1,13 @@
 ---
+layout: person
 type: person
 slug: dana-swarbrick
 name: Dana Swarbrick
 title: Dana Swarbrick
-position: Guest
-department: Department of Musicology
-institution: university-of-oslo
-institutions:
-- university-of-oslo
+position: ''
+department: ''
+institution: ''
+institutions: []
 projects: []
 roles:
 - Member

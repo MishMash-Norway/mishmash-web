@@ -23,14 +23,11 @@ people:
 - cagri-erdem
 - carsten-griwodz
 - changkyu-choi
-- charles-martin
-- dana-swarbrick
 - diego-marin-bucio
 - eskil-muan-saether
 - hans-kristian-strandstuen-rustad
 - hege-stensrud-hosoien
 - hugh-alexander-von-arnim
-- ida-jahr
 - ingrid-chieh-yu
 - jim-torresen
 - jon-marius-aareskjold-drecker
@@ -50,12 +47,10 @@ people:
 - sagar-dutta
 - sascha-fruhholz
 - stefano-fasciani
-- susanne-o-saether
 - synne-tollerud-bull
 - tejaswinee-kelkar
 - victoria-johnson
 - vincenzo-madaghiele
-- zacharias-andreadakis
 projects:
 - agency-and-control-in-musical-ensemble
 - ai-and-legal-protection-of-personal-characteristics

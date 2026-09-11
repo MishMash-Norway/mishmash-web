@@ -1,22 +1,16 @@
 ---
+layout: person
 type: person
 slug: ida-jahr
 name: Ida Jahr
 title: Ida Jahr
-position: Guest
-department: Department of Musicology
+position: Associate professor
+department: Department of English
 image: /assets/images/portraits/ida_jahr_INN.jpg
-institution: university-of-oslo
+institution: university-of-inland-norway
 institutions:
 - university-of-inland-norway
-- university-of-oslo
-nva_affiliations:
-- role: Guest
-  unit: Department of Musicology
-  institution: university-of-oslo
-- role: Associate professor
-  unit: Department of English
-  institution: university-of-inland-norway
+nva_affiliations: []
 projects:
 - scoping-review-creative-ai-teaching-learning
 - tao-transductive-acoustic-organism

@@ -1,13 +1,13 @@
 ---
+layout: person
 type: person
 slug: frank-ekeberg
 name: Frank Ekeberg
 title: Frank Ekeberg
-position: Guest
-department: Department of Music
-institution: norwegian-university-of-science-and-technology
-institutions:
-- norwegian-university-of-science-and-technology
+position: ''
+department: ''
+institution: ''
+institutions: []
 projects: []
 roles:
 - Member
@@ -55,7 +55,6 @@ selected_works:
     url: /people/frank-ekeberg/
 source_mentions: []
 summary: null
-layout: person
 published: true
 permalink: /people/frank-ekeberg/
 wps:

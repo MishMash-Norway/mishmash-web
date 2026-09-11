@@ -1,21 +1,15 @@
 ---
+layout: person
 type: person
 slug: ole-christoffer-haga
 name: Ole Christoffer Haga
 title: Ole Christoffer Haga
-position: Guest
-department: Department of Art and Media Studies
-institution: norwegian-university-of-science-and-technology
+position: Senior lecturer
+department: Faculty of Film, TV and Games
+institution: university-of-inland-norway
 institutions:
-- norwegian-university-of-science-and-technology
 - university-of-inland-norway
-nva_affiliations:
-- role: Guest
-  unit: Department of Art and Media Studies
-  institution: norwegian-university-of-science-and-technology
-- role: Senior lecturer
-  unit: Faculty of Film, TV and Games
-  institution: university-of-inland-norway
+nva_affiliations: []
 projects:
 - bingo-ai-assisted-animation-documentary-film
 roles:
