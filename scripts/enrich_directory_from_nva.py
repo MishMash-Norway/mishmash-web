@@ -6,7 +6,9 @@ For every entry in site/_directory/people with `urls.nva` or `urls.orcid`:
 - NVA is authoritative. When `urls.nva` is set, position, department,
   institution(s), tags, summary, selected works, other projects, the
   institutional website and the portrait come from NVA. A failed NVA fetch
-  skips the person; it never falls back to ORCID.
+  skips the person; it never falls back to ORCID. Guest/visiting affiliations
+  are not real affiliations: they are ignored, and stale guest positions and
+  institutions from earlier imports are removed.
 - ORCID is used only for people without an NVA profile, plus the personal
   website for them. `--discover-nva` looks up missing NVA profiles by name
   and institution and only accepts a match whose ORCID agrees.
@@ -849,8 +851,13 @@ def fetch_nva_bundle(
     project_cache: dict[str, bool | None] | None = None,
 ) -> dict:
     profile = get_json(nva_api_url(f"/cristin/person/{profile_id}"))
-    nva_affiliations = parse_nva_affiliations(profile, org_cache, institution_lookup)
+    nva_affiliations, guest_affiliations = split_guest_affiliations(
+        parse_nva_affiliations(profile, org_cache, institution_lookup)
+    )
     active = active_nva_affiliations(nva_affiliations)
+    guest_institutions = sorted(
+        {slug for aff in guest_affiliations for slug in (aff.get("institutions") or []) if slug}
+    )
     primary = pick_primary_nva_affiliation(active or nva_affiliations)
 
     institution_slugs = []
@@ -867,6 +874,7 @@ def fetch_nva_bundle(
         "department": primary.get("department") or primary.get("unit") or "",
         "institution": primary.get("institution") or "",
         "institutions": sorted(institution_slugs),
+        "guest_institutions": guest_institutions,
         "affiliation_units": [],
         "nva_affiliations": extra_active if len(extra_active) > 1 else [],
         "tags": keyword_labels(profile.get("keywords") or [], max_keywords=max_tags),
@@ -1158,6 +1166,21 @@ def active_nva_affiliations(affiliations: list[dict]) -> list[dict]:
     return [aff for aff in affiliations if aff.get("active")]
 
 
+GUEST_ROLE_RE = re.compile(r"\b(guest|gjest|visiting)", re.IGNORECASE)
+
+
+def is_guest_affiliation(aff: dict) -> bool:
+    """Guest/visiting positions are courtesy affiliations, not real ones."""
+    return bool(GUEST_ROLE_RE.search(str(aff.get("role") or "")))
+
+
+def split_guest_affiliations(affiliations: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Return (real affiliations, guest affiliations)."""
+    real = [aff for aff in affiliations if not is_guest_affiliation(aff)]
+    guests = [aff for aff in affiliations if is_guest_affiliation(aff)]
+    return real, guests
+
+
 def compact_nva_affiliation(aff: dict) -> dict:
     return {
         "role": aff.get("role") or "",
@@ -1424,6 +1447,74 @@ def ordered_person(data: dict) -> dict:
     return ordered
 
 
+def remove_person_from_institutions(root: Path, person_slug: str, institution_slugs: list[str]) -> list[str]:
+    """Drop `person_slug` from the `people` list of each institution entry.
+
+    sync_directory_reciprocity.py unions person.institutions with
+    institution.people, so a guest institution left on the institution side
+    would be copied straight back to the person.
+    """
+    removed = []
+    for inst_slug in institution_slugs:
+        index_md = root / "_directory" / "institutions" / inst_slug / "index.md"
+        if not index_md.is_file():
+            continue
+        front, body = split_frontmatter(index_md.read_text(encoding="utf-8"))
+        inst = yaml.safe_load(front) or {}
+        people = [p for p in (inst.get("people") or []) if p != person_slug]
+        if people == (inst.get("people") or []):
+            continue
+        inst["people"] = people
+        dumped = yaml.safe_dump(inst, allow_unicode=True, sort_keys=False).strip()
+        index_md.write_text(f"---\n{dumped}\n---\n\n{body.lstrip()}", encoding="utf-8")
+        removed.append(inst_slug)
+    return removed
+
+
+def drop_guest_affiliations(
+    data: dict,
+    nva_bundle: dict,
+    changed: bool = False,
+    *,
+    root: Path | None = None,
+    person_slug: str = "",
+    dry_run: bool = False,
+) -> bool:
+    """Remove guest/visiting affiliation data that earlier imports wrote to the entry.
+
+    Guest affiliations are filtered out of the NVA bundle, but apply_field never
+    overwrites with empty values, so a guest-only person would otherwise keep the
+    stale guest position and institution forever. The person is also removed
+    from the guest institutions' `people` lists (see remove_person_from_institutions).
+    """
+    affiliations = data.get("nva_affiliations") or []
+    kept, _ = split_guest_affiliations(affiliations)
+    if len(kept) < 2:
+        kept = []
+    if kept != affiliations:
+        data["nva_affiliations"] = kept
+        changed = True
+
+    real_slugs = set(nva_bundle.get("institutions") or [])
+    guest_slugs = [s for s in (nva_bundle.get("guest_institutions") or []) if s not in real_slugs]
+    if guest_slugs:
+        institutions = [s for s in (data.get("institutions") or []) if s not in guest_slugs]
+        if institutions != (data.get("institutions") or []):
+            data["institutions"] = institutions
+            changed = True
+        if data.get("institution") in guest_slugs:
+            data["institution"] = institutions[0] if institutions else ""
+            changed = True
+        if root is not None and person_slug and not dry_run:
+            remove_person_from_institutions(root, person_slug, guest_slugs)
+
+    if not nva_bundle.get("position") and is_guest_affiliation({"role": data.get("position") or ""}):
+        data["position"] = ""
+        data["department"] = ""
+        changed = True
+    return changed
+
+
 def apply_field(data: dict, key: str, value, changed: bool = False, *, allow_empty: bool = False) -> bool:
     if not allow_empty and value in (None, "", [], {}):
         return changed
@@ -1561,6 +1652,11 @@ def enrich_person(
             set((data.get("institutions") or []) + (orcid_bundle.get("institutions") or []))
         )
         changed = apply_field(data, "institutions", institutions, changed, allow_empty=allow_empty) or changed
+
+    if from_nva:
+        changed = drop_guest_affiliations(
+            data, nva_bundle, changed, root=root, person_slug=slug, dry_run=dry_run
+        ) or changed
 
     tags = synced_field_value(nva_bundle, orcid_bundle, "tags") or []
     changed = apply_field(data, "tags", tags, changed, allow_empty=allow_empty) or changed
