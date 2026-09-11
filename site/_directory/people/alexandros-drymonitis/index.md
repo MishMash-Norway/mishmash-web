@@ -3,8 +3,8 @@ type: person
 slug: alexandros-drymonitis
 name: Alexandros Drymonitis
 title: Alexandros Drymonitis
-position: Postdoctoral Researcher
-department: Computer Science
+position: Post-doctoral research fellow
+department: Department of Computer Science and Communication
 image: /assets/images/portraits/Alexandros_Drymonitis_HiØF.jpg
 institution: ostfold-university-college
 institutions:
@@ -99,7 +99,14 @@ selected_works:
   group_type: Conference
   url: https://zenodo.org/doi/10.5281/zenodo.11189176
 source_mentions: []
-summary: C2 level
+summary: 'Alexandros is a sound and new media artist. His PhD from the Royal Birmingham
+  Conservatoire, was on the creation of musical works with the Python programming
+  language. His previous studies were on the classical guitar.
+
+  He is currently doing postdoc research at the Østfold University of Applied Sciences
+  on the creative human-AI interaction in music performance. His previous research
+  was on instant synthesis for computer-controlled acoustic instruments through live
+  coding and AI.'
 wps:
 - WP1
 permalink: /people/alexandros-drymonitis/

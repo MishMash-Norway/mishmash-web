@@ -1,4 +1,4 @@
-synced_at: '2026-09-09T09:40:37Z'
+synced_at: '2026-09-11T09:42:45Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -358,6 +358,93 @@ results:
     nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
+- title: 'When Text Interprets Itself: Legal Hermeneutics in the Age of Generative
+    AI'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: 'When Text Interprets Itself: Legal Hermeneutics in the Age of Generative
+      AI'
+    container: How Does Artificial Intelligence Challenge Our Traditional Understanding
+      of Legal Reasoning?.
+    details: SQUARE at the University of St. Gallen (HSG), Switzerland.
+    abstract: 'Legal interpretation has traditionally presupposed an interpreter:
+      a situated subject
+
+      capable not only of giving meaning to legal texts but also of judgment, justification
+
+      and responsibility. Generative AI unsettles this assumption. Large language
+      models
+
+      can now produce persuasive legal interpretations without intention, lived experience
+
+      or normative commitment. This paper asks what that capacity reveals about legal
+
+      interpretation itself. Drawing on more than a decade of research and teaching
+      in
+
+      human rights and law and technology across the Global South and Global North,
+      the
+
+      paper argues that generative AI is best understood not as the end of legal
+
+      hermeneutics, but as a test of its underlying assumptions. The ability of LLMs
+      to
+
+      reproduce recognizable forms of legal argument does not establish that legal
+
+      reasoning is reducible to statistical prediction. It does, however, expose the
+      extent to
+
+      which legal interpretation relies on inherited linguistic patterns, doctrinal
+      conventions
+
+      and institutional practices. The argument becomes particularly consequential
+      in
+
+      human rights law, where interpretation claims sensitivity to dignity, vulnerability
+      and
+
+      lived experience. Because legal languages and traditions are unevenly represented
+
+      in computational systems, AI may also influence whose interpretations become
+
+      easier to reproduce and whose experiences remain difficult to render legally
+      visible.
+
+      The paper ultimately distinguishes interpretive capacity from interpretive authority
+
+      and responsibility. Its central claim is that the legitimacy of legal interpretation
+      lies not
+
+      simply in intelligence or persuasive reasoning, but in answerability: the possibility
+      of
+
+      being called upon to justify, defend and bear responsibility for meanings that
+      acquire
+
+      authority over human lives.'
+    full_text_url: https://hdl.handle.net/11250/5567257
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a087066316-d47a2153-4aee-4a69-a520-7c29b7b2a2fc
+  url: https://ile.unisg.ch/de/newsdetail/news/conference-artificial-intelligence/
+  nva_url: https://nva.sikt.no/publication/01a087066316-d47a2153-4aee-4a69-a520-7c29b7b2a2fc
 - title: Recorded music at The National Library of Norway
   year: '2026'
   type: ConferenceLecture
@@ -535,6 +622,47 @@ results:
     nva_url: https://nva.sikt.no/publication/019fc7651904-abec043d-5934-4669-a980-e6fae7fd554a
   url: https://secure.onlinecongress.it/Olc/Client/Programme/Public/Abstract/EUARE2026/1997208256990597002202207/en/AbstractList
   nva_url: https://nva.sikt.no/publication/019fc7651904-abec043d-5934-4669-a980-e6fae7fd554a
+- title: 'AI as Fifth Team Member: Differentiated Roles in Design Education'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Rafal Hanzl
+    role: Creator
+  - name: Jannicke Johansen
+    role: Creator
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
+  institutions:
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  citation:
+    authors:
+    - display: Hanzl, Rafal
+      name: Rafal Hanzl
+    - display: Johansen, Jannicke
+      name: Jannicke Johansen
+      slug: jannicke-johansen
+      url: /people/jannicke-johansen/
+    title: 'AI as Fifth Team Member: Differentiated Roles in Design Education'
+    container: EDEN 2026 Annual Conference.
+    details: Porto.
+    abstract: 'When individuals use generative AI, idea diversity decreases sharply;
+      when whole teams rely on the same tools, convergence compounds. No prior studies
+      have examined how distributing different AI tools across team roles affects
+      creative collaboration. This paper introduces the "AI as Fifth Team Member Model",
+      which defines four roles: Research Coordinator, Visual Design Specialist, Space
+      Planning Expert, and Presentation Coordinator. Each uses a different tool, through
+      text-based analysis, image generation, 3D modelling and layout design, forcing
+      heterogeneity into the team''s creative process. A pilot showed that daily synchronisation
+      protocols are essential for cross-role coordination. Future studies should test
+      larger groups and measure diversity formally.'
+    full_text_url: https://hdl.handle.net/11250/5530458
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ee51716fd-779dcd42-477e-49b3-b7a2-4580232470b9
+  nva_url: https://nva.sikt.no/publication/019ee51716fd-779dcd42-477e-49b3-b7a2-4580232470b9
 - title: Presentation of MishMash Centre for AI and Creativity
   year: '2026'
   type: ConferencePoster
@@ -620,6 +748,12 @@ results:
     role: Creator
     slug: synne-tollerud-bull
     url: /people/synne-tollerud-bull/
+  - name: Joanna Zylinska
+    role: Creator
+  - name: '!Mediengruppe Bitnik'
+    role: Creator
+  - name: Boris Debackere
+    role: Creator
   institutions:
   - name: Kristiania University College
     slug: kristiania-university-college
@@ -630,6 +764,12 @@ results:
       name: Synne Tollerud Bull
       slug: synne-tollerud-bull
       url: /people/synne-tollerud-bull/
+    - display: Zylinska, Joanna
+      name: Joanna Zylinska
+    - display: Bitnik, !Mediengruppe
+      name: '!Mediengruppe Bitnik'
+    - display: Debackere, Boris
+      name: Boris Debackere
     title: Manifestos for an Algorithmic World
     container: Meta.Morf Future Manifestos — Conference.
     details: DIGS, Krambugata 2, Trondheim.
@@ -1528,6 +1668,276 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: AI and the Material Footprint of Cultural Heritage
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Eivind Røssaak
+    role: Creator
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
+  institutions:
+  - name: National Library of Norway
+    slug: national-library-of-norway
+    url: /institutions/national-library-of-norway/
+  citation:
+    authors:
+    - display: Røssaak, Eivind
+      name: Eivind Røssaak
+      slug: eivind-rossaak
+      url: /people/eivind-rossaak/
+    title: AI and the Material Footprint of Cultural Heritage
+    container: Mesh Up.
+    details: Oslo.
+    abstract: 'Recent breakthroughs in AI—foundation models, ChatGPT, large language
+      models, and vision and audio systems—are often framed as software revolutions.
+      Yet they depend fundamentally on advances in nanofabrication: the extreme miniaturization
+      of logic and memory enabled by EUV lithography and foundries such as TSMC. Large
+      language models are economically and technically viable only because computation,
+      memory, and energy efficiency have been radically reconfigured at the level
+      of silicon. This lecture reframes recent advances in AI as an intensification
+      of mineral memory within the archive. The demand for comprehensive, real‑time,
+      AI‑mediated access to cultural heritage across all media and art forms increasingly
+      binds the archive to mineral and infrastructural regimes of computation. It
+      expands the archive’s material footprint—chips, energy, water, and carbon—posing
+      new ethical, operational, and sustainability challenges for cultural institutions,
+      researchers, and artists. New cross‑disciplinary research alliances—linking
+      archival and humanities research with semiconductor engineering and life‑cycle
+      sustainability modeling—are needed to understand the metallurgical and ecological
+      consequences of contemporary memory systems.'
+    full_text_url: https://hdl.handle.net/11250/5567476
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a08a8a964b-18ff0a6a-ec0a-4d64-811e-7ba2f10425c9
+  url: https://mishmash.no/events/meshup-16/
+  nva_url: https://nva.sikt.no/publication/01a08a8a964b-18ff0a6a-ec0a-4d64-811e-7ba2f10425c9
+- title: Shaping the Future of Artistic Research
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Jakob Margit Wirth
+    role: Creator
+  - name: Gwen Rakotovao
+    role: Creator
+  - name: Sarah Kordecki
+    role: Creator
+  - name: Merel Visse
+    role: Creator
+  - name: Ryan Woodring
+    role: Creator
+  - name: Janine Davidson
+    role: Creator
+  institutions:
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    - display: Wirth, Jakob Margit
+      name: Jakob Margit Wirth
+    - display: Rakotovao, Gwen
+      name: Gwen Rakotovao
+    - display: Kordecki, Sarah
+      name: Sarah Kordecki
+    - display: Visse, Merel
+      name: Merel Visse
+    - display: Woodring, Ryan
+      name: Ryan Woodring
+    - display: Davidson, Janine
+      name: Janine Davidson
+    title: Shaping the Future of Artistic Research
+    container: 'International Forum on Artistic Research 17th Conference: Endangered
+      Conceptual Worlds.'
+    details: University of Galway.
+    abstract: 'This session invites contributors to share their artistic research
+      approaches and strategies for navigating, resisting, or intervening in times
+      of societal transition. Against a backdrop of rapid policy shifts, the impacts
+      of AI and surveillance capitalism, the deprioritization of the climate crisis,
+      rising authoritarianism, and threats to democracy, the discussion will explore:
+      What can artistic research do in response to the challenges of our time?'
+    full_text_url: https://hdl.handle.net/11250/5567270
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0883a3e93-0894ed23-74d5-4100-a7a3-191dc7274315
+  url: https://sar2026.ie/shaping-future-artistic-research
+  nva_url: https://nva.sikt.no/publication/01a0883a3e93-0894ed23-74d5-4100-a7a3-191dc7274315
+- title: 'NE #00: New Embeddings of/for Artistic Intelligence'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Ida Jahr
+    role: Creator
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  - name: Oslo School of Architecture and Design
+    slug: oslo-school-of-architecture-and-design
+    url: /institutions/oslo-school-of-architecture-and-design/
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  citation:
+    authors:
+    - display: Encinas, Enrique
+      name: Enrique Encinas
+      slug: enrique-encinas
+      url: /people/enrique-encinas/
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    title: 'NE #00: New Embeddings of/for Artistic Intelligence'
+    container: 'Ars Electronica Festival 2026: Future Begins – Negotiating Humanity.'
+    details: Linz.
+    abstract: 'NE #00: New Embeddings of/for Artistic Intelligence was a participatory
+      workshop presented at Ars Electronica 2026 that explored how new forms of artistic
+      intelligence might emerge when artists, institutions, scholars, scientists,
+      and technologists organise around shared needs rather than disciplinary boundaries.
+      The workshop asked how AI might support, rather than determine, such collaborations,
+      and how alternative infrastructures for artistic and interdisciplinary practice
+      might be developed.
+
+
+      Structured as an exchange rather than a conventional presentation, participants
+      articulated what they need in relation to generative AI, what they can contribute,
+      and what they refuse. These contributions included conceptual approaches, technical
+      and institutional infrastructures, artistic methods, knowledge, and resources.
+      Participants clustered around points of convergence and translated these into
+      concrete offers, requests, and possible collaborations recorded in a shared
+      ledger.
+
+
+      The workshop initiated the New Embeddings series as an experimental format for
+      building interdisciplinary connections around artistic intelligence and generative
+      AI through collective exchange and the formation of new “neighborhoods” of practice.'
+    full_text_url: https://hdl.handle.net/11250/5567269
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0882efc17-b87fcedd-8f56-4b00-a52b-36673a7fcdd1
+  url: https://ars.electronica.art/negotiatinghumanity/en/view/ne-00-new-embeddings-of-for-artistic-intelligence-39f38ddb450c81b5a2e1e4b478396502/
+  nva_url: https://nva.sikt.no/publication/01a0882efc17-b87fcedd-8f56-4b00-a52b-36673a7fcdd1
+- title: Er framtidens KI for viktig til å overlates til teknologene?
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Nina Grünfeld
+    role: Creator
+    slug: nina-fredrikke-grunfeld
+    url: /people/nina-fredrikke-grunfeld/
+  - name: Daniel Nordgård
+    role: Creator
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
+  - name: Per Emil Grimstad
+    role: Creator
+  - name: Yngvar Jørg Ugland
+    role: Creator
+  - name: Tove Rømo Grande
+    role: Creator
+  institutions:
+  - name: Norwegian University of Science and Technology
+    slug: norwegian-university-of-science-and-technology
+    url: /institutions/norwegian-university-of-science-and-technology/
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    - display: Grünfeld, Nina
+      name: Nina Grünfeld
+      slug: nina-fredrikke-grunfeld
+      url: /people/nina-fredrikke-grunfeld/
+    - display: Nordgård, Daniel
+      name: Daniel Nordgård
+      slug: daniel-nordgard
+      url: /people/daniel-nordgard/
+    - display: Grimstad, Per Emil
+      name: Per Emil Grimstad
+    - display: Ugland, Yngvar Jørg
+      name: Yngvar Jørg Ugland
+    - display: Grande, Tove Rømo
+      name: Tove Rømo Grande
+    title: Er framtidens KI for viktig til å overlates til teknologene?
+    container: Arendalsuka 2026.
+    details: Arendaø.
+    abstract: 'Panelsamtale som undersøker hvilken rolle kunst og kunstnerisk forskning
+      kan spille i utviklingen av framtidens kunstige intelligens. Med utgangspunkt
+      i MishMash, nasjonalt forskningssenter for KI og kreativitet, diskuteres hvordan
+      KI ikke bare påvirker kunst og kultur, men hvordan kunstneriske og humanistiske
+      perspektiver kan bidra til å forme teknologien. Samtalen retter særlig oppmerksomhet
+      mot kreativitet, menneskelig erfaring, demokratiske verdier, kunstnerisk frihet,
+      opphavsrett og kulturelt mangfold. Kunstnere, forskere, teknologer og representanter
+      fra kultur og arbeidsliv diskuterer hvordan kunstnerisk og tverrfaglig kunnskap
+      kan bidra til mer ansvarlig, mangfoldig og menneskeorientert utvikling av KI.
+
+
+      Dette samsvarer godt med MishMash sitt uttalte mål om å undersøke KI for, gjennom
+      og i kreative praksiser, og å bruke kunstnerisk utforskning som inngang til
+      kritiske spørsmål om KI og samfunn.'
+    full_text_url: https://hdl.handle.net/11250/5567268
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a08816c641-dfa26d1d-5adf-403d-a907-aba5cb3a9377
+  url: https://www.arendalsuka.no/program/er-framtidens-ki-for-viktig-til-a-overlates-til-teknologene
+  nva_url: https://nva.sikt.no/publication/01a08816c641-dfa26d1d-5adf-403d-a907-aba5cb3a9377
 - title: AI and Creativity and a little information about the new AI centre MishMash
   year: '2026'
   type: Lecture

@@ -226,6 +226,13 @@ university-of-inland-norway:
   logo: http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Inland%20Norway%20logo.svg
   qid: Q27050380
   website: https://www.inn.no/
+university-of-jyvaskyla:
+  coordinates:
+    lat: 62.23625
+    lon: 25.732666666
+  inception: '1934-01-01'
+  qid: Q578326
+  website: https://www.jyu.fi/
 university-of-manchester:
   coordinates:
     lat: 53.466111111

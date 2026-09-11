@@ -342,7 +342,7 @@ selected_works:
   year: '2025'
   source: Journal article
   group_type: Journal article
-  url: https://openreview.net/forum?id=y8VWYf5cVI
+  url: https://doi.org/10.52202/085713-2930
   contributors:
   - name: Marius Aasan
     role: Creator

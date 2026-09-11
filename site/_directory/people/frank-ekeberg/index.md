@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: frank-ekeberg
 name: Frank Ekeberg
@@ -55,6 +54,7 @@ selected_works:
     url: /people/frank-ekeberg/
 source_mentions: []
 summary: null
+layout: person
 published: true
 permalink: /people/frank-ekeberg/
 wps:

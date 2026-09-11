@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: andre-alexandersen-hauge
 name: André Alexandersen Hauge
@@ -9,7 +8,6 @@ department: Faculty of Computer Science, Engineering and Economics
 institution: ostfold-university-college
 institutions:
 - ostfold-university-college
-- university-of-oslo
 affiliation_units:
 - Østfold University of Applied Sciences
 - Faculty of Computer Science, Engineering and Economics
@@ -182,6 +180,7 @@ selected_works:
 source_mentions:
 - about/organisation/council/index.md
 summary: ''
+layout: person
 description: Head of academic department, Department of Computer Science and Communication,
   Ostfold University College
 permalink: /people/andre-alexandersen-hauge/

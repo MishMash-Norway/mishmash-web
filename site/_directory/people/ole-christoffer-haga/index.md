@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: ole-christoffer-haga
 name: Ole Christoffer Haga
@@ -9,7 +8,6 @@ department: Faculty of Film, TV and Games
 institution: university-of-inland-norway
 institutions:
 - university-of-inland-norway
-nva_affiliations: []
 projects:
 - bingo-ai-assisted-animation-documentary-film
 roles:
@@ -130,6 +128,7 @@ selected_works:
     url: /people/ole-christoffer-haga/
 source_mentions: []
 summary: ''
+layout: person
 description: Guest, Department of Art and Media Studies, Norwegian University of Science
   and Technology
 permalink: /people/ole-christoffer-haga/

@@ -39,6 +39,12 @@ search_keywords:
 - Irish Traditional Music
 - Accordion
 selected_works:
+- title: 'Data‑Driven Analysis of Musical Form and Harmonic Structure in AI‑Generated
+    Popular Music: A Case Study with Suno and Udio'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5334/tismir.348
 - title: Reflecting on an Interactive Performance System for Irish Traditional Dance
     Music
   year: '2026'
@@ -87,11 +93,6 @@ selected_works:
   source: Conference paper
   group_type: Conference
   url: https://doi.org/10.1145/3706598.3713771
-- title: Negotiating Autonomy and Trust when Performing with an AI Musician
-  year: '2024'
-  source: Conference paper
-  group_type: Conference
-  url: https://doi.org/10.1145/3686038.3686040
 source_mentions: []
 summary: null
 published: true
