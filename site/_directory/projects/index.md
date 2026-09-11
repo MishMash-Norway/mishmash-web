@@ -6,7 +6,7 @@ permalink: /projects/
 
 Projects in the MishMash directory, with related people, institutions, tags, and work package (WP) mappings.
 
-{% assign all_projects = site.directory | where: "type", "project" | where_exp: "project", "project.slug" | sort: "title" %}
+{% assign all_projects = site.directory | where: "type", "project" | where_exp: "project", "project.name" | sort: "title" %}
 
 ## PhD Projects
 
@@ -19,7 +19,17 @@ Projects in the MishMash directory, with related people, institutions, tags, and
 ## Seed Funding Projects
 
 <ul>
-{% for project in all_projects %}{% unless project.tags contains "PhD Project" %}
+{% for project in all_projects %}{% if project.tags contains "Seed Funding" %}
+  <li><a href="{{ project.url | relative_url }}">{{ project.title | default: project.name }}</a>{% if project.wps and project.wps.size > 0 %} — {{ project.wps | join: ", " }}{% endif %}</li>
+{% endif %}{% endfor %}
+</ul>
+
+## Other Projects
+
+Projects run within the work packages without MishMash seed funding.
+
+<ul>
+{% for project in all_projects %}{% unless project.tags contains "PhD Project" or project.tags contains "Seed Funding" %}
   <li><a href="{{ project.url | relative_url }}">{{ project.title | default: project.name }}</a>{% if project.wps and project.wps.size > 0 %} — {{ project.wps | join: ", " }}{% endif %}</li>
 {% endunless %}{% endfor %}
 </ul>

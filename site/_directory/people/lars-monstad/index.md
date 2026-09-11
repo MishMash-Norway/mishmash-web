@@ -7,7 +7,8 @@ position: null
 department: null
 institution: null
 institutions: []
-projects: []
+projects:
+- ai-assisted-curation-and-transcription-of-norwegian-folk-music
 roles:
 - Member
 urls:

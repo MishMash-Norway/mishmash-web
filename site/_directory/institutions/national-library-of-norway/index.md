@@ -19,6 +19,7 @@ people:
 - yngvil-beyer
 projects:
 - ai-as-environment
+- ai-assisted-curation-and-transcription-of-norwegian-folk-music
 - music-archive-of-the-future
 - picturemarks
 country: null

@@ -54,6 +54,7 @@ projects:
 - agency-and-control-in-musical-ensemble
 - ai-and-legal-protection-of-personal-characteristics
 - ai-as-environment
+- ai-assisted-curation-and-transcription-of-norwegian-folk-music
 - copyright-and-personality-rights-ai-era
 - evaluation-cultural-bias-workflow-ai-music-generation
 - human-machine-consciousness

@@ -10,6 +10,7 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects:
+- ai-assisted-curation-and-transcription-of-norwegian-folk-music
 - music-archive-of-the-future
 other_projects:
 - title: DjembeDance - Multimodal rhythm in music and dance from West Africa
