@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: oystein-skaar
 name: Øystein Skaar
@@ -13,8 +12,8 @@ institutions:
 - university-of-inland-norway
 nva_affiliations:
 - role: Associate professor
-  unit: ''
-  institution: ''
+  unit: Department of Education
+  institution: university-of-bergen
 - role: Associate professor
   unit: Department of Educational Studies in Teacher Education
   institution: university-of-inland-norway
@@ -195,6 +194,7 @@ selected_works:
     role: Creator
 source_mentions: []
 summary: ''
+layout: person
 description: Associate professor, Department of Education, University of Bergen
 permalink: /people/oystein-skaar/
 redirect_from:

@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: bjorn-tallak-bakken
 name: Bjørn Tallak Bakken
@@ -12,8 +11,8 @@ institutions:
 - university-of-inland-norway
 nva_affiliations:
 - role: Associate professor
-  unit: ''
-  institution: ''
+  unit: Nord University Business School
+  institution: nord-university
 - role: Associate professor
   unit: Department of Organisation, Leadership and Management
   institution: university-of-inland-norway
@@ -211,6 +210,7 @@ selected_works:
     role: Creator
 source_mentions: []
 summary: ''
+layout: person
 redirect_from:
 - /directory/people/bjorn-tallak-bakken/
 wps:

@@ -1,4 +1,4 @@
-synced_at: '2026-09-11T09:42:45Z'
+synced_at: '2026-09-12T09:21:56Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -7,6 +7,76 @@ project:
     en: MishMash Centre for AI and Creativity
     nb: MishMash Senter for KI og kreativitet
 results:
+- title: Modeling Relations Between Musical Events in Continuous Time with Transformer
+    Models for Live Co-Improvisational Interactions | Zenodo
+  year: '2026'
+  type: AcademicChapter
+  type_label: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Vincenzo Madaghiele
+    role: Creator
+    slug: vincenzo-madaghiele
+    url: /people/vincenzo-madaghiele/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Madaghiele, Vincenzo
+      name: Vincenzo Madaghiele
+      slug: vincenzo-madaghiele
+      url: /people/vincenzo-madaghiele/
+    - display: Fasciani, Stefano
+      name: Stefano Fasciani
+      slug: stefano-fasciani
+      url: /people/stefano-fasciani/
+    - display: Kelkar, Tejaswinee
+      name: Tejaswinee Kelkar
+      slug: tejaswinee-kelkar
+      url: /people/tejaswinee-kelkar/
+    - display: Erdem, Cagri
+      name: Cagri Erdem
+      slug: cagri-erdem
+      url: /people/cagri-erdem/
+    title: Modeling Relations Between Musical Events in Continuous Time with Transformer
+      Models for Live Co-Improvisational Interactions | Zenodo
+    container: In Coelho, Guilherme (Eds.), Proceedings of International Conference
+      on AI and Musical Creativity.
+    details: 'AI Music Creativity (AIMC). doi: 10.5281/zenodo.22276042.'
+    abstract: This paper presents a live semi-autonomous system that co-improvises
+      with a live musician using a model learned from the relationship observed in
+      paired recordings of an improvising duo. This responsive system is based on
+      a deep learning approach that models the relations between sequences of events
+      produced by co-playing musicians in continuous time, using transformer models.
+      We present the architecture for simultaneous sequences of sonic events and provide
+      a quantitative evaluation on several representative tasks. Results are compared
+      against a canonical transformer and a multichannel Factor Oracle, the latter
+      being a widely used model for live sequence-based symbolic music generation. We
+      detail a live implementation employing concatenative synthesis and introduce
+      a customization procedure in which the generative model is iteratively retrained
+      on curated, satisfactory sections from sound recordings of actual human-system
+      co-improvisational interactions. This iterative fine-tuning enables the model’s
+      stylistic output to diverge from the original training corpus. Two musical use cases
+      demonstrate the application of this technique.
+    full_text_url: https://hdl.handle.net/11250/5565358
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a072f9420a-ba5baf02-966d-4960-a8fe-1a6a1893a40e
+  url: https://zenodo.org/records/22276042
+  nva_url: https://nva.sikt.no/publication/01a072f9420a-ba5baf02-966d-4960-a8fe-1a6a1893a40e
 - title: A Visualization and Control Interface for Rhythmic Relations
   year: '2026'
   type: AcademicChapter
@@ -886,6 +956,376 @@ results:
     nva_url: https://nva.sikt.no/publication/019c2dc46b3a-c5292e5c-890c-481b-9bf9-7c06e5bd8d50
   url: https://www.arkitektbedriftene.no/arrangementer/ki-dagen
   nva_url: https://nva.sikt.no/publication/019c2dc46b3a-c5292e5c-890c-481b-9bf9-7c06e5bd8d50
+- title: Governing the Datafied Migrant Body in South–South Migration
+  year: '2025'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: Governing the Datafied Migrant Body in South–South Migration
+    container: 'The Migrant Body: Embodied experiences and bodily strategies in South-South
+      migration.'
+    details: Manchester Museum, The University of Manchester, Oxford Rd, Manchester
+      M13 9PL.
+    abstract: 'Across the Global South, migration governance is increasingly shaped
+      by digital
+
+      infrastructures- from biometric identification and facial recognition to algorithmic
+      profiling.
+
+      In these systems, the migrant body is transformed into a datafied entity: tracked,
+      categorized,
+
+      and governed not only by law but by code. This paper examines the legal and
+      conceptual
+
+      implications of this shift, where digital infrastructures fragment the migrant
+      body into
+
+      dispersed data points subject to classification and control beyond traditional
+      legal oversight.
+
+      Drawing on research in legal technology and human rights, the paper argues that
+      datafication
+
+      produces a new mode of governance-embodied algorithmic control-that challenges
+
+      foundational legal notions of autonomy, privacy, and personhood. Existing rights
+
+      frameworks, premised on a coherent, rights-bearing subject, are ill-equipped
+      to address the
+
+      opacity and transnational reach of algorithmic systems. In response, the paper
+      proposes a
+
+      multidimensional approach: reframing the right to the body to include its digital
+      dimension;
+
+      extending accountability to private and transnational actors; fostering South–South
+      legal
+
+      collaboration; centering migrant voices in technological design; and rethinking
+      legal
+
+      personhood in data-driven contexts. By confronting the digital fragmentation
+      of the migrant
+
+      body, the paper calls for a rights-based and ethically grounded approach to
+      migration
+
+      governance- one that recognizes data as part of human dignity and seeks a more
+      just and
+
+      inclusive digital order.'
+    full_text_url: https://hdl.handle.net/11250/5568356
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a094c9af24-e5fe0b60-c0e8-4b25-9507-b03044e28be8
+  url: https://www.thebritishacademy.ac.uk/events/british-academy-conferences/migrant-embodied-experiences-south/
+  nva_url: https://nva.sikt.no/publication/01a094c9af24-e5fe0b60-c0e8-4b25-9507-b03044e28be8
+- title: AI Literacy and Legal Pedagogy in Comparative Perspective
+  year: '2025'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: AI Literacy and Legal Pedagogy in Comparative Perspective
+    container: From Binary to Bench-Empowering Equal Opportunities and AI Literacy
+      in Global Legal Education.
+    details: University of Reading.
+    abstract: AI literacy is becoming part of everyday legal education as students
+      and teachers increasingly encounter generative AI in research, writing, and
+      classroom work. This presentation looks at how law schools are responding to
+      these changes across different educational settings, with particular attention
+      to experiences from the Global South. Drawing on published work, institutional
+      materials, course information, and student-led initiatives, it considers how
+      local resources, languages, teaching cultures, and access to technology shape
+      the way AI is introduced into legal education. The presentation highlights practical
+      forms of engagement, including classroom experimentation, interdisciplinary
+      projects, and uses of AI connected to access to justice. Rather than proposing
+      a single model, it argues for approaches that are flexible enough to reflect
+      different educational realities. Experiences from the Global South are especially
+      valuable in this discussion, not as isolated examples, but as sources of ideas
+      that can enrich wider conversations about responsible, practical, and socially
+      aware AI literacy in legal education.
+    full_text_url: https://hdl.handle.net/11250/5568354
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0949d398d-1b0525aa-62aa-4e2d-b3bd-fe82db3d3f1e
+  url: https://www.legalscholars.ac.uk/event/sls-supported-event-symposium-from-binary-to-bench-empowering-equal-opportunities-and-ai-literacy-in-global-legal-education/
+  nva_url: https://nva.sikt.no/publication/01a0949d398d-1b0525aa-62aa-4e2d-b3bd-fe82db3d3f1e
+- title: Code-Switching for Survival within Linguistic, Legal, and AI-Informed Frameworks
+    of Press Freedom
+  year: '2025'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: Code-Switching for Survival within Linguistic, Legal, and AI-Informed Frameworks
+      of Press Freedom
+    container: 11th International Conference on the Safety of Journalists (hosted
+      by the Oslo MEKK Research Group).
+    details: Oslo Metropolitan University (OsloMet).
+    abstract: This paper develops the concept of “code-switching for survival” to
+      explain how journalists adapt to contemporary forms of repression. Moving beyond
+      its sociolinguistic meaning, the concept is used to capture linguistic, legal,
+      digital, and strategic practices that help journalists navigate legal harassment,
+      surveillance, censorship, and algorithmic suppression. Drawing on examples from
+      the Global South, the paper examines the use of metaphor, satire, coded language,
+      encryption, pseudonymous publishing, and legal strategies as forms of journalistic
+      resilience. It also introduces the idea of “algorithmic code-switching,” whereby
+      journalists adapt their content to opaque moderation and ranking systems. The
+      paper proposes an integrated legal-tech-ethical framework linking these practices
+      to international human rights standards and responsible AI governance. It argues
+      that journalists should be understood not only as targets of repression, but
+      also as active agents who design strategies of resilience in increasingly complex
+      media environments.
+    full_text_url: https://hdl.handle.net/11250/5568289
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a092e518b8-acbb9ba5-0b93-4c0b-89cb-72eb1ac4fbb5
+  url: https://uni.oslomet.no/mekk/conferences/
+  nva_url: https://nva.sikt.no/publication/01a092e518b8-acbb9ba5-0b93-4c0b-89cb-72eb1ac4fbb5
+- title: Multicultural AI in IP Legal Tech
+  year: '2025'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  - name: Gagandeep Kaur
+    role: Creator
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    - display: Kaur, Gagandeep
+      name: Gagandeep Kaur
+    title: Multicultural AI in IP Legal Tech
+    container: 'Mosaic IP Law and Policy Roundtable: IP and the Fabric of Nations.'
+    details: Boston, USA.
+    abstract: 'As Legal Tech tools increasingly mediate intellectual property (IP)
+      registration, enforcement,
+
+      and adjudication, the cultural biases embedded in these systems pose serious
+      risks. Most AI-
+
+      driven IP tools are built on Western legal logics, linguistic norms, and data
+      sources. This
+
+      limits their capacity to recognize, protect, or fairly evaluate culturally specific
+      forms of
+
+      expression and innovation—particularly from the Global South or marginalized
+      communities.
+
+      Drawing on my experience as a Legal Tech specialist and professor of human rights
+      who has
+
+      taught for over a decade across both the Global South and North, this paper
+      offers a grounded
+
+      critique of current AI applications in IP. I focus on how automated trademark
+      classifiers,
+
+      copyright enforcement bots, and patent search engines can unintentionally reproduce
+
+      epistemic injustice, cultural erasure, and exclusion from national and global
+      IP regimes. The
+
+      paper argues for the development of multicultural AI frameworks in IP Legal
+      Tech that
+
+      integrate three core principles: localized and multilingual data training sets
+      to ensure cultural
+
+      relevance; participatory co-design processes involving underrepresented creators
+      to
+
+      incorporate diverse perspectives; and the incorporation of diverse legal traditions,
+      including
+
+      indigenous and customary law, to broaden the epistemic foundations of AI tools
+      in
+
+      intellectual property. This approach recognizes AI not merely as a tool for
+      legal automation
+
+      but as a mechanism that shapes cultural legitimacy, national identity, and access
+      to economic
+
+      empowerment. By embedding cultural competence and ethical pluralism into Legal
+      Tech, we
+
+      can move toward IP systems that reflect the full fabric of global nations and
+      narratives. By
+
+      embedding cultural competence and ethical pluralism into Legal Tech, we can
+      move toward
+
+      IP systems that reflect the full fabric of global nations and narratives.'
+    full_text_url: https://hdl.handle.net/11250/5568288
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a092d7214e-780dd3b2-0b78-4ffd-9780-8650740ebceb
+  url: https://iipsj.org/programs/annual-mosaic-conference/
+  nva_url: https://nva.sikt.no/publication/01a092d7214e-780dd3b2-0b78-4ffd-9780-8650740ebceb
+- title: Legal Technology and the New Frontiers of Legal Anthropology
+  year: '2025'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: Legal Technology and the New Frontiers of Legal Anthropology
+    container: 'NAF Conference 2025 (Norsk Antropologisk Forening) - Panel: Writing
+      in the Age of AI.'
+    details: University of Oslo.
+    abstract: As a scholar of human rights and legal technologies with over a decade
+      of teaching and research experience across the Global South and North, I have
+      witnessed how digital tools both expand and constrain access to justice. Legal
+      technologies-ranging from algorithmic decision-making to online courts and predictive
+      analytics-promise efficiency, yet they often reproduce structural inequalities
+      and silence marginalized voices. This paper explores the frontiers where Legal
+      Tech intersects with legal anthropology. Focusing on the lived experiences of
+      individuals and communities subject to digital legal systems, I examine how
+      technology reshapes fundamental notions of fairness, authority, and accountability.
+      Drawing on human rights frameworks and ethnographic insights, I highlight the
+      tension between automation and dignity, standardization and contextual nuance.
+      I argue that anthropology’s interpretive and human-cantered approaches are indispensable
+      for understanding justice in the digital age. By tracing stories from diverse
+      contexts across the Global South and North, this contribution shows how ethnography
+      can illuminate what technical discourse obscures, ensuring that the future of
+      digital justice remains grounded in human rights and lived realities.
+    full_text_url: https://hdl.handle.net/11250/5568287
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a092b8a13c-7cfd489d-2b3c-4ade-a0b7-bc85ed685f9b
+  url: https://www.sv.uio.no/sai/forskning/aktuelt/arrangementer/konferanser/arbeidsgrupper-naf-2025.html
+  nva_url: https://nva.sikt.no/publication/01a092b8a13c-7cfd489d-2b3c-4ade-a0b7-bc85ed685f9b
+- title: Artificial Intelligence and the Emotional Foundations of Legal Education
+  year: '2025'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: Artificial Intelligence and the Emotional Foundations of Legal Education
+    container: The Role of AI in Legal Education – Preparing the Next Generation of
+      Lawyers.
+    details: Westminster Law School, University of Westminster, 4–12 Little Titchfield
+      Street, London W1W 7BY.
+    abstract: 'Generative AI is changing legal education in ways that are not confined
+      to research,
+
+      writing or analytical efficiency. It also affects how students encounter the
+      people and
+
+      experiences from which legal problems emerge. Drawing on work in law and
+
+      emotion, human rights pedagogy, clinical legal education and critical AI studies,
+      this
+
+      chapter considers what these changes mean for legal empathy. Generative systems
+
+      may help students rehearse perspectives, question assumptions and reflect on
+
+      difficult material. At the same time, a fluent representation of another person’s
+
+      experience is not equivalent to understanding that experience, still less to
+      assuming
+
+      responsibility for a professional judgment about it. The chapter uses the idea
+      of
+
+      emotional anaesthesia to identify a particular educational risk: that technological
+
+      mediation may make ambiguity, vulnerability, cultural difference and narrative
+
+      difficulty easier to process by making them less demanding to encounter. It
+      argues
+
+      for an approach in which AI remains supplementary to, rather than a substitute
+      for,
+
+      the human encounters through which legal judgment is formed.'
+    full_text_url: https://hdl.handle.net/11250/5568286
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a092aea75a-02466575-8c0d-4800-bd30-d0adf9f1491a
+  url: https://www.westminster.ac.uk/events/symposium-the-role-of-ai-in-legal-education-preparing-the-next-generation-of-lawyers
+  nva_url: https://nva.sikt.no/publication/01a092aea75a-02466575-8c0d-4800-bd30-d0adf9f1491a
 - title: 'AI Language/ Language on AI: Language as infrastructure'
   year: '2025'
   type: ConferenceLecture
@@ -1169,75 +1609,6 @@ results:
     nva_url: https://nva.sikt.no/publication/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
   url: https://hearhere.be/en/expo/dhv%C4%81ni
   nva_url: https://nva.sikt.no/publication/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
-- title: Modeling Relations Between Musical Events in Continuous Time with Transformer
-    Models for Live Co-Improvisational Interactions | Zenodo
-  year: '2026'
-  type: AcademicArticle
-  type_label: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Vincenzo Madaghiele
-    role: Creator
-    slug: vincenzo-madaghiele
-    url: /people/vincenzo-madaghiele/
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Tejaswinee Kelkar
-    role: Creator
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Madaghiele, Vincenzo
-      name: Vincenzo Madaghiele
-      slug: vincenzo-madaghiele
-      url: /people/vincenzo-madaghiele/
-    - display: Fasciani, Stefano
-      name: Stefano Fasciani
-      slug: stefano-fasciani
-      url: /people/stefano-fasciani/
-    - display: Kelkar, Tejaswinee
-      name: Tejaswinee Kelkar
-      slug: tejaswinee-kelkar
-      url: /people/tejaswinee-kelkar/
-    - display: Erdem, Cagri
-      name: Cagri Erdem
-      slug: cagri-erdem
-      url: /people/cagri-erdem/
-    title: Modeling Relations Between Musical Events in Continuous Time with Transformer
-      Models for Live Co-Improvisational Interactions | Zenodo
-    container: Proceedings of International Conference on AI and Musical Creativity.
-    details: 'doi: 10.5281/zenodo.22276042.'
-    abstract: This paper presents a live semi-autonomous system that co-improvises
-      with a live musician using a model learned from the relationship observed in
-      paired recordings of an improvising duo. This responsive system is based on
-      a deep learning approach that models the relations between sequences of events
-      produced by co-playing musicians in continuous time, using transformer models.
-      We present the architecture for simultaneous sequences of sonic events and provide
-      a quantitative evaluation on several representative tasks. Results are compared
-      against a canonical transformer and a multichannel Factor Oracle, the latter
-      being a widely used model for live sequence-based symbolic music generation. We
-      detail a live implementation employing concatenative synthesis and introduce
-      a customization procedure in which the generative model is iteratively retrained
-      on curated, satisfactory sections from sound recordings of actual human-system
-      co-improvisational interactions. This iterative fine-tuning enables the model’s
-      stylistic output to diverge from the original training corpus. Two musical use cases
-      demonstrate the application of this technique.
-    full_text_url: https://hdl.handle.net/11250/5565358
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/01a072f9420a-ba5baf02-966d-4960-a8fe-1a6a1893a40e
-  url: https://zenodo.org/records/22276042
-  nva_url: https://nva.sikt.no/publication/01a072f9420a-ba5baf02-966d-4960-a8fe-1a6a1893a40e
 - title: 'Digital parasitism: The use of pirated books in AI training datasets'
   year: '2026'
   type: AcademicArticle

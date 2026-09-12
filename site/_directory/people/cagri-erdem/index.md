@@ -42,8 +42,8 @@ selected_works:
 - title: Modeling Relations Between Musical Events in Continuous Time with Transformer
     Models for Live Co-Improvisational Interactions | Zenodo
   year: '2026'
-  source: Journal article
-  group_type: Journal article
+  source: Book chapter
+  group_type: Book chapter
   url: https://zenodo.org/records/22276042
   contributors:
   - name: Vincenzo Madaghiele
