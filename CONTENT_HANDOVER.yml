@@ -345,6 +345,7 @@ automation:
     rule: Treat imported files as drafts for editorial review; verify dates, timezone, title, image, and body.
   directory_importers:
     spreadsheet: python3 scripts/import_people_from_xlsx.py
+    nettskjema_fetch: python3 scripts/fetch_nettskjema_export.py --import [--write]  (downloads the form's Excel report through the Nettskjema API; needs config/nettskjema-credentials.json, see config/README.md)
   generated_or_machine_updated:
     - _site/
     - site/_data/mishmash_results.yml

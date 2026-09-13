@@ -212,6 +212,11 @@ What it writes:
 ```bash
 python3 scripts/import_people_from_xlsx.py --xlsx temp/data-…xlsx --dry-run
 python3 scripts/import_people_from_xlsx.py --xlsx temp/data-…xlsx
+
+# or fetch the export straight from Nettskjema (needs an API client, see config/README.md)
+python3 scripts/fetch_nettskjema_export.py --import            # participation form, dry run
+python3 scripts/fetch_nettskjema_export.py --import --write    # ... and write the profiles
+python3 scripts/fetch_nettskjema_export.py --form update       # directory update form
 python3 scripts/sync_directory_reciprocity.py   # mirror people ↔ institutions
 python3 scripts/validate_directory.py
 ```

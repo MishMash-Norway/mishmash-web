@@ -21,6 +21,23 @@ Scripts pick credentials in this order:
 
 GitHub Actions still uses repository secrets (`NVA_CLIENT_ID`, `NVA_CLIENT_SECRET`), not these files.
 
+## Nettskjema API (participation and directory forms)
+
+`scripts/fetch_nettskjema_export.py` downloads a form's Excel report through
+the Nettskjema API v3, so nobody has to export it by hand. It needs an API
+client:
+
+1. Log in at <https://authorization.nettskjema.no> (FEIDE) and click
+   **Register client**. Note the `clientId` and the `clientSecret` (shown once);
+   clients expire after 365 days.
+2. In each form, under **Settings → Permissions → Editing permissions**, add
+   the user `<clientId>@apiclient`. The forms are 625226 (participation) and
+   635360 (directory update).
+3. Save the values as `config/nettskjema-credentials.json`
+   (`{"clientId": "...", "clientSecret": "..."}`), gitignored, or set
+   `NETTSKJEMA_CLIENT_ID` and `NETTSKJEMA_CLIENT_SECRET`.
+   `NETTSKJEMA_CREDENTIALS_FILE` overrides the path.
+
 ## Tag merge map
 
 `tag_merge_map.yml` defines canonical values and variants to merge across the site
