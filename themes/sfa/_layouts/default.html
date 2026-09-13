@@ -50,6 +50,7 @@
     <link rel="stylesheet" href="{{ page.custom_css | relative_url }}">
     {% endif %}
     <script defer src="{{ '/assets/js/page-stats.js' | relative_url }}"></script>
+    <script defer src="{{ '/assets/js/wordmark.js' | relative_url }}"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.min.js"></script>
     <script defer src="{{ '/assets/js/sfa-gol.js' | relative_url }}"></script>
     <script>window.SFA_FREESOUND_TOKEN = "fFOguOktHzeHJPzsxsZ3JrUADx7Mthq4yrpCeaTc";</script>
@@ -64,8 +65,11 @@
     <a id="skip-to-content" href="#main-content">{{ t.skip_to_content }}</a>
 
     <header class="page-header" role="banner">
-      <p class="project-name"><a href="{{ t.home_url | relative_url }}">{{ t.project_name }}</a></p>
-      <p class="project-tagline">{{ t.project_tagline }}</p>
+      <div class="sfa-brand-row">
+        <a class="mm-wordmark sfa-wordmark" href="{{ t.home_url | relative_url }}" aria-label="{{ t.project_name }}">{% include mm-wordmark.svg %}</a>
+        <p class="sfa-identity-tagline">{{ t.identity_tagline }}</p>
+      </div>
+      <nav class="sfa-nav-row" aria-label="{{ t.nav_about }}">
 <details class="btn wp-dropdown">
   <summary id="about-summary" aria-haspopup="true" aria-expanded="false" aria-label="{{ t.nav_about }}" aria-controls="about-menu">{{ t.nav_about }} ▾</summary>
   <ul id="about-menu" class="wp-list" role="menu" aria-labelledby="about-summary">
@@ -102,6 +106,7 @@
 </details>
 <a class="btn" href="{{ '/search/' | relative_url }}">{{ t.nav_search }}</a>
 {% include lang-switcher.html %}
+      </nav>
 
     </header>
 

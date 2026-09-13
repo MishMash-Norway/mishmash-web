@@ -46,13 +46,28 @@ body::before {
    display: block;
 }
 
-#skip-to-content,
 .page-header,
 .main-content,
 .site-footer,
 .ui-theme-badge {
    position: relative;
    z-index: 2;
+}
+
+/* Off-screen until keyboard-focused, per standard skip-link pattern. */
+#skip-to-content {
+   position: absolute;
+   top: -40px;
+   left: 0;
+   z-index: 130;
+   padding: 0.5rem 0.9rem;
+   background: #1f4f45;
+   color: #f4fffb !important;
+   border-radius: 0 0 8px 0;
+}
+
+#skip-to-content:focus {
+   top: 0;
 }
 
 .page-header {
@@ -62,12 +77,54 @@ body::before {
    overflow: visible;
 }
 
-.project-name,
-.project-name a {
-   font-family: var(--sfa-serif) !important;
+.sfa-wordmark {
+   display: inline-block;
+   width: clamp(96px, 12vw, 148px);
+   line-height: 0;
    color: #f4fffb !important;
-   letter-spacing: 0.01em;
-   text-decoration: none;
+   text-decoration: none !important;
+   vertical-align: bottom;
+   margin-right: 0.75rem;
+}
+
+.sfa-wordmark .mm-wordmark-svg {
+   display: block;
+   width: 100%;
+   height: auto;
+   overflow: hidden;
+}
+
+.sfa-identity-tagline {
+   display: inline-block;
+   font-family: var(--sfa-serif);
+   font-weight: 700;
+   font-size: clamp(1.1rem, 2.4vw, 1.6rem);
+   line-height: 1.1;
+   color: #f4fffb !important;
+   vertical-align: bottom;
+   margin: 0 0.75rem 0 0 !important;
+}
+
+.sfa-brand-row {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 0.5rem 0.75rem;
+   max-width: 64rem;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.sfa-nav-row {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 0.5rem;
+   max-width: 64rem;
+   width: 100%;
+   margin: 0.85rem auto 0;
 }
 
 .project-tagline {
@@ -128,20 +185,20 @@ body::before {
 }
 
 .wp-dropdown .wp-list {
-   background: var(--sfa-paper-strong);
-   border: 1px solid rgba(46, 111, 99, 0.24);
+   background: linear-gradient(135deg, #1f4f45, #2e6f63);
+   border: 1px solid rgba(255, 255, 255, 0.28);
    border-radius: 14px;
    box-shadow: 0 12px 20px rgba(31, 47, 42, 0.15);
    z-index: 80;
 }
 
 .wp-dropdown .wp-list a {
-   color: var(--sfa-ink);
+   color: #f4fffb !important;
 }
 
 .wp-dropdown .wp-list a:hover {
-   background: #e0f0eb;
-   color: #183933;
+   background: rgba(255, 255, 255, 0.18);
+   color: #ffffff !important;
 }
 
 .ui-theme-badge {
