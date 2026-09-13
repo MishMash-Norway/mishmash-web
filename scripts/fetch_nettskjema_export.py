@@ -87,6 +87,9 @@ def get_token(client_id: str, client_secret: str) -> str:
     return token
 
 
+API_USER = ""   # <clientId>@apiclient, set once credentials are loaded, for permission hints
+
+
 def api_get(token: str, path: str, accept: str = "application/json") -> bytes:
     req = request.Request(f"{API_BASE}{path}", headers={"Authorization": f"Bearer {token}", "Accept": accept})
     try:
@@ -96,7 +99,7 @@ def api_get(token: str, path: str, accept: str = "application/json") -> bytes:
         body = exc.read().decode(errors="replace")[:300]
         hint = ""
         if exc.code in (401, 403):
-            hint = "\nGive <clientId>@apiclient editing permission on the form (Settings → Permissions)."
+            hint = f"\nGive {API_USER or '<clientId>@apiclient'} editing permission on the form (Settings → Permissions → Editing permissions)."
         sys.exit(f"GET {path} failed ({exc.code}): {body}{hint}")
 
 
@@ -120,6 +123,8 @@ def main() -> int:
     token = os.environ.get("NETTSKJEMA_ACCESS_TOKEN", "").strip()
     if not token:
         client_id, client_secret = load_credentials()
+        global API_USER
+        API_USER = f"{client_id}@apiclient"
         token = get_token(client_id, client_secret)
 
     info = json.loads(api_get(token, f"/form/{form_id}/info"))
