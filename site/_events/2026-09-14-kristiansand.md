@@ -81,9 +81,3 @@ We meet in Southern Norway, in the heart of Kristiansand’s modern cultural dis
 
 ## Back to back with Tech:Art on Tuesday
 The MishMash Opening Conference is organised back to back with Tech:Art at Kilden performing arts centre. Tech:Art, on Tuesday the 15th of September, focuses on the interaction between research and cultural and creative partners. It is aimed at inspiring organisations in the cultural field and facilitating dialogue between these organisations and researchers. Stay around for Tech:Art to discuss opportunities for (artistic) researchers, technology developers and creative organisations to co-create!
-
-## Registration
-
-<a class="button" href="https://event.checkin.no/224377/mishmash-opening-conference" target="_blank">Register here for the conference</a>
-
-- Deadline: 7 September 2026
