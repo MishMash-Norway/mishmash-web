@@ -3,7 +3,7 @@ type: person
 slug: irina-eidsvold
 name: Irina Eidsvold
 title: Irina Eidsvold
-position: Associate professor
+position: Professor
 department: Department of Law and Governance
 image: /assets/images/portraits/Irina_Eidsvold_Toien_BI.jpg
 institution: bi-norwegian-business-school
