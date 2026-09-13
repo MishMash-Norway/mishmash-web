@@ -73,6 +73,27 @@ search_keywords:
 - Music Technology
 - Sound Analysis /Synthesis
 selected_works:
+- title: Improvisation with the Muzziballs
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Bilge Serdar Göksülük
+    role: Conductor
+  - name: Alexander Refsum Jensenius
+    role: Musician
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Maham Riaz
+    role: Musician
+    slug: maham-riaz
+    url: /people/maham-riaz/
+  - name: Jinyue Guo
+    role: Musician
+  - name: Aikaterini Teleli
+    role: Musician
+  - name: Margarida Leal
+    role: Musician
 - title: 'Laughter in the making: social bonding and coordination in dance practices'
   year: '2026'
   source: Journal article
@@ -215,24 +236,6 @@ selected_works:
     url: /people/cagri-erdem/
   - name: Alexander Refsum Jensenius
     role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: Stillstanding at Deichman Bjørvika
-  year: '2025'
-  source: Performing arts
-  group_type: Performing arts
-  url: https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/deichman/index.html
-  contributors:
-  - name: Shabari Rao
-    role: Dancer
-  - name: Kari Anne Vadstensvik Bjerkestrand
-    role: Dancer
-  - name: Victoria Christine Årang Johnson
-    role: Dancer
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-  - name: Alexander Refsum Jensenius
-    role: Dancer
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 source_mentions:

@@ -1,4 +1,4 @@
-synced_at: '2026-09-12T09:21:56Z'
+synced_at: '2026-09-13T10:13:33Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -428,6 +428,89 @@ results:
     nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
+- title: MishMash, one of the new Norwegian National AI Centres
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: MishMash, one of the new Norwegian National AI Centres
+    container: SURE-AI Annual Conference 2026.
+    details: Oslo.
+    abstract: 'MishMash is one of the six national AI research centres funded by the
+      Research Council of Norway from 2025, and the only one that joins technology
+      with creativity. In this presentation, in the showcase of the national centres,
+      I introduce the centre: seven work packages spanning music, visual art, literature,
+      games, performance and human-centred AI; a consortium of more than 20 partners
+      across Norway; and the argument that creative practice is both a testbed for
+      AI systems and a driver of new AI research.'
+    full_text_url: https://hdl.handle.net/11250/5568410
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a096f3fa00-9876784f-9033-4041-be38-8f68720a81d9
+  url: https://www.sure-ai.no/events/sure-ai-annual-conference-2026/
+  nva_url: https://nva.sikt.no/publication/01a096f3fa00-9876784f-9033-4041-be38-8f68720a81d9
+- title: MishMash@NARMA
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Ida Jahr
+    role: Creator
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  - name: Eskil Muan Sæther
+    role: Creator
+    slug: eskil-muan-saether
+    url: /people/eskil-muan-saether/
+  institutions:
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    - display: Sæther, Eskil Muan
+      name: Eskil Muan Sæther
+      slug: eskil-muan-saether
+      url: /people/eskil-muan-saether/
+    title: MishMash@NARMA
+    container: NARMAs årskonferanse 2026.
+    details: Lillestrøm.
+    abstract: En presentasjon om hva KI egentlig er, hvordan det brukes og hva det
+      betyr i kunst, kultur og kreativitet.
+    full_text_url: https://hdl.handle.net/11250/5568409
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a096e70136-3b070449-9383-4a5c-b6d3-ee773402a178
+  nva_url: https://nva.sikt.no/publication/01a096e70136-3b070449-9383-4a5c-b6d3-ee773402a178
 - title: 'When Text Interprets Itself: Legal Hermeneutics in the Age of Generative
     AI'
   year: '2026'
@@ -2039,6 +2122,451 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: KI++
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: KI++
+    container: Sommerfest for NRKs kulturavdeling.
+    details: Oslo.
+    abstract: 'Kunstig intelligens er allerede i musikken, men hva gjør den med oss
+      som lytter, spiller og lager? I dette innlegget viser jeg eksempler fra forskningen
+      på RITMO og det nye MishMash-senteret: forskningskonsertene i MusicLab, små
+      musikkapper som Tap Bloom, Pinch Bass og Firefly, og hva som skjer når KI blir
+      noe mer enn et verktøy.'
+    full_text_url: https://hdl.handle.net/11250/5568437
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a097bc1b9b-a8488069-5ec4-4782-b529-3f49ce318faa
+  nva_url: https://nva.sikt.no/publication/01a097bc1b9b-a8488069-5ec4-4782-b529-3f49ce318faa
+- title: Some thoughts about artistic research
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Some thoughts about artistic research
+    container: Research forum.
+    details: Oslo.
+    abstract: Is artistic research research? And if so, of what kind? In this short
+      talk, I propose the Artistic Readiness Level (ARL), from an initial artistic
+      impulse to a consolidated and reproducible artistic work with demonstrated impact,
+      alongside the technology and societal readiness levels used in research funding,
+      and ask whether music in a given project is a subject, object or method.
+    full_text_url: https://hdl.handle.net/11250/5568434
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a097b26b80-8f81d465-997b-41ea-aa03-de93c54bd758
+  url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Research-Forum/research-forum-on-artistic-research-artificial-int.html
+  nva_url: https://nva.sikt.no/publication/01a097b26b80-8f81d465-997b-41ea-aa03-de93c54bd758
+- title: MusicLab Sinsenfist Panel Discussion
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Finn Upham
+    role: Creator
+  - name: Kjell Andreas Oddekalv
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Upham, Finn
+      name: Finn Upham
+    - display: Oddekalv, Kjell Andreas
+      name: Kjell Andreas Oddekalv
+    title: MusicLab Sinsenfist Panel Discussion
+    container: MusicLab Sinsenfist.
+    details: Oslo.
+    abstract: Panel discussion during the MusicLab research concert with the hip-hop
+      group Sinsenfist, in which musicians and audience members were recorded with
+      audio, video and motion sensors. Alexander Refsum Jensenius moderated the conversation
+      with researchers Finn Upham and Kjell Andreas Oddekalv about what happens in
+      the bodies of those who play and those who listen during a live performance,
+      and what the concert measurements can tell us.
+    full_text_url: https://hdl.handle.net/11250/5568436
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a097af1a32-6fa53307-d4e2-46cd-8857-aca191f832fe
+  url: https://www.uio.no/ritmo/english/projects/musiclab/2026/sinsenfist/index.html
+  nva_url: https://nva.sikt.no/publication/01a097af1a32-6fa53307-d4e2-46cd-8857-aca191f832fe
+- title: Who is actually doing the creating?
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Who is actually doing the creating?
+    container: 'AI Mission Hub launch: Build What Matters.'
+    details: Oslo.
+    abstract: When AI enters a creative process, authorship does not disappear, it
+      redistributes. Who is actually doing the creating? In this keynote I present
+      MishMash, the Norwegian Centre for AI and Creativity, show examples of AI in
+      creative work from our research, and argue that the risk is not that AI replaces
+      human creativity but that organisations stop noticing whose judgement a tool
+      encodes and whose is quietly displaced.
+    full_text_url: https://hdl.handle.net/11250/5568435
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a097abd477-c10e94ae-a312-4423-b6c3-496950acb879
+  nva_url: https://nva.sikt.no/publication/01a097abd477-c10e94ae-a312-4423-b6c3-496950acb879
+- title: Musikk, KI og klassisk musikk
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Musikk, KI og klassisk musikk
+    container: Fagseminar 2026.
+    details: Oslo.
+    abstract: 'Hva kan kunstig intelligens bety for en musikkinstitusjon som setter
+      klassisk musikk i sentrum? Med utgangspunkt i forskningen ved RITMO og MishMash-senteret
+      går jeg gjennom muligheter i klassisk musikundervisning, fra forberedelse og
+      samspill til vurdering: digitale akkompagnatører, analyse av øvingsvideo for
+      skadeforebygging, transkripsjon og notasjon, og KI-modeller trent på komponister
+      og utøvere. Mer maskin kan også bety mer menneske.'
+    full_text_url: https://hdl.handle.net/11250/5568429
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0979f0781-8527a22f-02ab-4d47-a25d-58c323c0527d
+  nva_url: https://nva.sikt.no/publication/01a0979f0781-8527a22f-02ab-4d47-a25d-58c323c0527d
+- title: 'RITMO and MishMash: AI and creativity research in Norway, and possibilities
+    for collaboration with South Korea'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: 'RITMO and MishMash: AI and creativity research in Norway, and possibilities
+      for collaboration with South Korea'
+    container: Meeting with the Norwegian Ministry of Education's special envoy at
+      the embassy in Seoul.
+    details: Oslo.
+    abstract: South Korea is one of Norway's priority partner countries outside Europe,
+      and few Norwegian research groups collaborate with Korean AI research. In this
+      presentation for the Ministry of Education's special envoy at the Norwegian
+      embassy in Seoul, HK-dir and the Research Council of Norway, I introduce RITMO,
+      the Centre for Interdisciplinary Studies in Rhythm, Time and Motion, and MishMash,
+      the national Centre for AI and Creativity, and outline the centre's plans for
+      international collaboration and the existing contacts among MishMash partners
+      with Korean institutions, research organisations and artists.
+    full_text_url: https://hdl.handle.net/11250/5568425
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a09761fe55-47222c0d-5082-4798-8ba9-6b5e05693f12
+  nva_url: https://nva.sikt.no/publication/01a09761fe55-47222c0d-5082-4798-8ba9-6b5e05693f12
+- title: Kreativ KI i utdanning
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Kreativ KI i utdanning
+    container: Idémøte om KI i utdanning.
+    details: Oslo.
+    abstract: 'Hvordan kan KI-agenter brukes i undervisning, og hva bør vi holde fast
+      ved? Med utgangspunkt i en åpen lærebok med web-apper, en wiki og et åpent verktøy
+      for videoanalyse i emnet MUS2640 forteller jeg om drømmen fra 2003 om et åpent
+      økosystem for læremidler, og hvordan agenter nå gjør den mulig. Prinsippet er
+      KI utenfor timen og mennesker i timen: agentene forbereder, studentene og underviserne
+      møtes.'
+    full_text_url: https://hdl.handle.net/11250/5568423
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0975aaf74-17447c0b-e3a1-45c3-8cc9-d4a8631da585
+  url: https://www.uio.no/for-ansatte/enhetssider/arrangement/2026/idemote/utdanning-1.html
+  nva_url: https://nva.sikt.no/publication/01a0975aaf74-17447c0b-e3a1-45c3-8cc9-d4a8631da585
+- title: Kreativ administrativ KI
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Kreativ administrativ KI
+    container: Idémøte om KI i administrativ databehandling.
+    details: Oslo.
+    abstract: 'Hva er forskjellen på en KI-assistent og en KI-agent, og hva betyr
+      den for administrativ databehandling ved et universitet? Med utgangspunkt i
+      egne erfaringer med agenter i forskning og administrasjon går jeg gjennom hva
+      agentene trenger for å virke, hva som er god praksis, og hvordan samskaping
+      med en agent ser ut i praksis, med eksempler fra reiseregninger, lederstøtte,
+      CV-er, personaldata, styrepapirer, nett og arkiv. Innlegget ender i tre ønsker:
+      tilgang til egne data gjennom API og nedlasting, systemer som kan føre dialog,
+      og rom for agenter.'
+    full_text_url: https://hdl.handle.net/11250/5568421
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a097330c86-424f0583-6140-42f6-b867-353ba28ddef2
+  url: https://www.uio.no/for-ansatte/enhetssider/arrangement/2026/idemote/adm-1.html
+  nva_url: https://nva.sikt.no/publication/01a097330c86-424f0583-6140-42f6-b867-353ba28ddef2
+- title: Exploring human micromotion (workshop)
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Exploring human micromotion (workshop)
+    container: 100 % Human 2026.
+    details: Oslo.
+    abstract: In this workshop, I will lead the participants into exploring their
+      own micromotion through standstill and slow-movement exercises. The focus will
+      be on both physical and mental stillness. In the end, we will explore how mobile
+      phone-based apps can be used for sonic microinteraction.
+    full_text_url: https://hdl.handle.net/11250/5568416
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a09728612f-c0b75377-d218-4029-8e92-dae16097fbea
+  nva_url: https://nva.sikt.no/publication/01a09728612f-c0b75377-d218-4029-8e92-dae16097fbea
+- title: How AI can help us be more human
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: How AI can help us be more human
+    container: 100 % Human 2026.
+    details: Oslo.
+    abstract: I will talk about how developing AI systems over the last 25 years has
+      helped me better understand how humans move, act, think, and feel. Now more
+      than ever, we need to incorporate human perspectives into new AI developments,
+      while also critically exploring new AI-based systems and reflecting on how they
+      change humanity in different ways.
+    full_text_url: https://hdl.handle.net/11250/5568411
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a097005772-d6a3c2da-470e-4fb7-b380-3586cde7ee5e
+  nva_url: https://nva.sikt.no/publication/01a097005772-d6a3c2da-470e-4fb7-b380-3586cde7ee5e
+- title: 'MishMash-søknaden og MishMash-konsortiet: muligheter for videreutvikling'
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: 'MishMash-søknaden og MishMash-konsortiet: muligheter for videreutvikling'
+    container: Nasjonalt seminar om kunstnerisk utviklingsarbeid.
+    details: Bergen.
+    abstract: Hvordan ble MishMash-søknaden til, og hva kan konsortiet bak senteret
+      bety for kunstnerisk utviklingsarbeid i Norge? I dette innlegget forteller jeg
+      om arbeidet med søknaden til Forskningsrådets utlysning av nasjonale KI-sentre,
+      om hvordan konsortiet med mer enn 20 partnere ble satt sammen, og om mulighetene
+      for at kunstneriske institusjoner kan bruke senteret til å utvikle egne prosjekter
+      og søknader videre.
+    full_text_url: https://hdl.handle.net/11250/5568413
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a096ef238a-dbf41738-a1ba-4569-9569-25b4a84b0450
+  nva_url: https://nva.sikt.no/publication/01a096ef238a-dbf41738-a1ba-4569-9569-25b4a84b0450
+- title: 'MishMash: Centre for AI and Creativity - Current status'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: 'MishMash: Centre for AI and Creativity - Current status'
+    container: Presentation to the Research Council of Norway's Portfolio Board for
+      Enabling Technologies.
+    details: Oslo.
+    abstract: An update on the development of MishMash. The centre aims to create,
+      explore, and reflect on AI for, through, and in creative practices. More than
+      200 researchers investigate AI’s impact on creative processes, develop innovative
+      co-creative AI systems and educational strategies, and address AI’s ethical,
+      cultural, legal, and societal implications in creative domains.
+    full_text_url: https://hdl.handle.net/11250/5568408
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a096d5a378-09dfa70d-913f-4c36-bfcc-0c6062fa003e
+  nva_url: https://nva.sikt.no/publication/01a096d5a378-09dfa70d-913f-4c36-bfcc-0c6062fa003e
+- title: Trenger vi musikere i fremtiden? Utfordringer og muligheter med musikk og
+    KI
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Trenger vi musikere i fremtiden? Utfordringer og muligheter med musikk
+      og KI
+    container: Åpen dag 2026 ved Universitetet i Oslo.
+    details: Oslo.
+    abstract: Kunstig intelligens påvirker det meste om dagen, også musikklivet og
+      musikkbransjen. Hva skjer når KI topper hitlistene og alle kan lage sin egen
+      musikk? Vil KI ta over alt, eller blir vi lei og vil ha mer menneskeskapt musikk?
+      Hva er mulighetene for at KI-generert musikk kan bidra positivt til å hjelpe
+      folk med f.eks. ADHD til å konsentrere seg og Parkinson-pasienter til å bevege
+      seg?
+    full_text_url: https://hdl.handle.net/11250/5568407
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a096d27046-a4a3ee97-78d8-4c17-9c43-702de435d771
+  nva_url: https://nva.sikt.no/publication/01a096d27046-a4a3ee97-78d8-4c17-9c43-702de435d771
 - title: AI and the Material Footprint of Cultural Heritage
   year: '2026'
   type: Lecture
@@ -5497,6 +6025,47 @@ results:
     nva_url: https://nva.sikt.no/publication/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
   url: https://play.tv2.no/nyheter/god-morgen-norge-y05mec7j?play=true
   nva_url: https://nva.sikt.no/publication/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
+- title: Improvisation with the Muzziballs
+  year: '2026'
+  type: MusicPerformance
+  type_label: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Bilge Serdar Göksülük
+    role: Conductor
+  - name: Alexander Refsum Jensenius
+    role: Musician
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Maham Riaz
+    role: Musician
+    slug: maham-riaz
+    url: /people/maham-riaz/
+  - name: Jinyue Guo
+    role: Musician
+  - name: Aikaterini Teleli
+    role: Musician
+  - name: Margarida Leal
+    role: Musician
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Improvisation with the Muzziballs
+    container: ''
+    details: ''
+    abstract: An improvisation with Muzziballs, ball-shaped musical instruments developed
+      in collaboration between Muzziball AS and RITMO, in which sound is shaped by
+      how each ball is moved and handled. Performed at the Department of Musicology's
+      department concert in the ZEB building on 13 April 2026 by Bilge Serdar, Maham
+      Riaz, Arthur Guo, Alexander Refsum Jensenius, Katerina Teleli and Margarida
+      Leal.
+    full_text_url: https://hdl.handle.net/11250/5568428
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0977848af-857fa756-7a7d-4e08-9a00-325836171516
+  nva_url: https://nva.sikt.no/publication/01a0977848af-857fa756-7a7d-4e08-9a00-325836171516
 - title: Atomspheres
   year: '2026'
   type: MusicPerformance

@@ -36,6 +36,27 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Improvisation with the Muzziballs
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Bilge Serdar Göksülük
+    role: Conductor
+  - name: Alexander Refsum Jensenius
+    role: Musician
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Maham Riaz
+    role: Musician
+    slug: maham-riaz
+    url: /people/maham-riaz/
+  - name: Jinyue Guo
+    role: Musician
+  - name: Aikaterini Teleli
+    role: Musician
+  - name: Margarida Leal
+    role: Musician
 - title: Inverse and indirect mappings in embodied AI systems in everyday environments
   year: '2026'
   source: Journal article
@@ -180,33 +201,13 @@ selected_works:
     role: Creator
     slug: anna-maria-christodoulou
     url: /people/anna-maria-christodoulou/
-- title: Comparing inertial motion sensors for capturing human micromotion
-  year: '2023'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/zenodo.8316051
-  contributors:
-  - name: Maham Riaz
-    role: Creator
-    slug: maham-riaz
-    url: /people/maham-riaz/
-  - name: Finn Upham
-    role: Creator
-  - name: Kayla Burnim
-    role: Creator
-  - name: Laura Bishop
-    role: Creator
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
 source_mentions: []
+summary: ''
 wps:
 - WP1
 permalink: /people/maham-riaz/
 redirect_from:
 - /directory/people/maham-riaz/
-summary: ''
 ---
 
 Bio coming soon.

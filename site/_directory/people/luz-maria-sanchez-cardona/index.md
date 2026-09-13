@@ -9,6 +9,11 @@ institution: university-of-bergen
 institutions:
 - university-of-bergen
 projects: []
+other_projects:
+- title: FERAL EPISTEMOLOGIES Artistic Processes, Concept Production, AI and Generative
+    Media
+  url: https://nva.sikt.no/projects/2775416
+  nva_id: '2775416'
 roles:
 - Member
 urls:
