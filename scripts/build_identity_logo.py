@@ -27,8 +27,8 @@ def col(cls, glyphs):
         f'<path transform="translate(0 {dy:.3f})" d="{d}"/>' for dy, d in glyphs) + "</g>"
 
 # Strips: enough repeats to cover two full steps upward plus one above.
-s_strip = [(k * P - P, S) for k in range(0, 6)]     # S sits at y=81.17 in its own coords
-h_strip = [(k * P - P, H) for k in range(0, 6)]
+s_strip = [(k * P - P, S) for k in range(-2, 6)]   # two glyphs above the frame so downward rolls slide in     # S sits at y=81.17 in its own coords
+h_strip = [(k * P - P, H) for k in range(-2, 6)]
 # Paths keep their absolute positions from the delivered file (I at y=0,
 # A at y=127.1), so the I/A strip repeats both glyphs at multiples of 2P.
 ia_strip = [(-2 * P, I), (-2 * P, A), (0, I), (0, A), (2 * P, I), (2 * P, A), (4 * P, I)]
