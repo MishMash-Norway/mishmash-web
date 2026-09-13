@@ -636,6 +636,9 @@ def import_people(
             template_data, person, warnings=warnings, institution_lookup=institution_lookup
         )
         created_data["permalink"] = f"/people/{slug}/"
+        # People who answered the form and consented go live at once; the
+        # template's ``published: false`` is only for hand-made drafts.
+        created_data["published"] = True
         if dry_run:
             print(f"create: {person['name']} -> {out_file}")
         else:

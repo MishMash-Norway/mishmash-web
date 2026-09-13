@@ -135,7 +135,7 @@ class ParticipationSheetTests(unittest.TestCase):
         self.assertFalse((self.people / "not-asked").exists())
         self.assertFalse((self.people / "said-no").exists())
 
-    def test_new_entry_gets_profile_fields_and_stays_unpublished(self):
+    def test_new_entry_gets_profile_fields_and_is_published(self):
         self._run([participation_row(
             "Ada Lovelace", institution="Universitetet i Oslo", unit="IMV", position="Professor",
             personal="ada.example.org", orcid="0000-0001-2345-6789",
@@ -143,7 +143,7 @@ class ParticipationSheetTests(unittest.TestCase):
             wp1="WP1: AI for artistic performances", dont_know="I don't know", project_wp6="WP6: AI for cultural heritage",
         )])
         data, body = load_entry(self.people / "ada-lovelace" / "index.md")
-        self.assertIs(data["published"], False)
+        self.assertIs(data["published"], True)
         self.assertEqual(data["name"], "Ada Lovelace")
         self.assertEqual(data["permalink"], "/people/ada-lovelace/")
         self.assertEqual(data["position"], "Professor")

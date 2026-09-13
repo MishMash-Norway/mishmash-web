@@ -192,11 +192,11 @@ MishMash forms and auto-detects which one it has:
 
 What it writes:
 
-- New people are created from `people/_template/index.md` with
-  `published: false`, name, URLs, work packages, position, department, tags
-  (max 12, from the keyword columns) and — when the institution name resolves
-  — `institution`/`institutions`. Review the entry, then set
-  `published: true`.
+- New people are created from `people/_template/index.md` and published
+  straight away (they consented on the form), with name, URLs, work packages,
+  position, department, tags (max 12, from the keyword columns) and — when the
+  institution name resolves — `institution`/`institutions`. Run the NVA/ORCID
+  enrichment for the new slugs afterwards.
 - Existing people (matched by slug, or by `aliases` on the entry) get URLs
   filled in, `wps` merged, and empty `position`/`department`/`institution`/
   `tags` filled. Curated values, `roles`, the body text and fields the

@@ -10,7 +10,7 @@ The importer auto-detects two sheet layouts:
 Imported fields: name (new entries only), URL fields, work packages (merged),
 and — filling empty fields only on existing entries — position, department,
 institution (resolved against the institution directory) and tags. New
-entries are created from the people template, i.e. with ``published: false``,
+entries are created from the people template and published straight away,
 so they can be reviewed before going live. Unresolved institution names are
 printed as warnings; create the institution or add an alias and re-run.
 
