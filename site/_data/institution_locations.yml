@@ -117,6 +117,11 @@ simula-metropolitan-center-for-digital-engineering:
   y: 84.9
   label: Oslo
   in_norway: true
+institute-for-energy-technology:
+  x: 23.5
+  y: 84.6
+  label: Kjeller
+  in_norway: true
 
 sintef-digital:
   x: 21.9
