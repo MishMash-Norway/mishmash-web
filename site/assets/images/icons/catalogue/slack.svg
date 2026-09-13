@@ -1,7 +1,1 @@
-<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="5" cy="12" r="3" fill="#A7A1F4"/>
-  <circle cx="12" cy="5" r="3" fill="#C1F7AE"/>
-  <circle cx="19" cy="12" r="3" fill="#A7A1F4"/>
-  <circle cx="12" cy="19" r="3" fill="#C1F7AE"/>
-  <path d="M12 2v4M12 18v4M2 12h4M18 12h4" stroke="#363644" stroke-width="2"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Slack"><rect x="1" y="1" width="22" height="22" fill="#b3e297" stroke="#231f20" stroke-width="1.25"/><g transform="translate(4.5 4.5) scale(0.625)" fill="none" stroke="#231f20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12v-6a2 2 0 0 1 4 0v6m0 -2a2 2 0 1 1 2 2h-6" /> <path d="M12 12h6a2 2 0 0 1 0 4h-6m2 0a2 2 0 1 1 -2 2v-6" /> <path d="M12 12v6a2 2 0 0 1 -4 0v-6m0 2a2 2 0 1 1 -2 -2h6" /> <path d="M12 12h-6a2 2 0 0 1 0 -4h6m-2 0a2 2 0 1 1 2 -2v6" /></g></svg>

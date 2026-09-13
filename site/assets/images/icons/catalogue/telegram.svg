@@ -1,4 +1,1 @@
-<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M2 12l20-8-5 9-5-2-8 9 4-8z" fill="#363644"/>
-  <path d="M12 12l4 2" stroke="#C1F7AE" stroke-width="2"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Telegram"><rect x="1" y="1" width="22" height="22" fill="#b3e297" stroke="#231f20" stroke-width="1.25"/><g transform="translate(4.5 4.5) scale(0.625)" fill="none" stroke="#231f20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" /></g></svg>

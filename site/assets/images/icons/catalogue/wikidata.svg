@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 590" role="img" aria-label="Wikidata">
-  <path fill="#990000" d="M120 545h30V45h-30zm60 0h90V45h-90zm150 0h30V45h-30z"/>
-  <path fill="#339966" d="M390 545h90V45h-90zm150 0h30V45h-30zm60 0h30V45h-30z"/>
-  <path fill="#006699" d="M660 545h90V45h-90zm150 0h30V45h-30zm60 0h90V45h-90z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Wikidata"><rect x="1" y="1" width="22" height="22" fill="#b3e297" stroke="#231f20" stroke-width="1.25"/><g transform="translate(4.5 4.5) scale(0.625)" fill="none" stroke="#231f20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 5v14"/><path d="M6.5 5v14"/><path d="M10.5 5v14" stroke-width="3"/><path d="M14.5 5v14"/><path d="M18 5v14" stroke-width="3"/><path d="M21 5v14"/></g></svg>
