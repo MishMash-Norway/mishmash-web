@@ -12,9 +12,10 @@ in the Nettskjema UI, so it drops straight into the existing importers:
 
 Credentials (OAuth 2.1 client credentials, see config/README.md):
 
-1. environment variables NETTSKJEMA_CLIENT_ID and NETTSKJEMA_CLIENT_SECRET, or
-2. config/nettskjema-credentials.json  ({"clientId": "...", "clientSecret": "..."}), or
-3. NETTSKJEMA_CREDENTIALS_FILE=/path/to/file.json.
+1. NETTSKJEMA_ACCESS_TOKEN, an access token you already have (valid 24 h), or
+2. environment variables NETTSKJEMA_CLIENT_ID and NETTSKJEMA_CLIENT_SECRET, or
+3. config/nettskjema-credentials.json  ({"clientId": "...", "clientSecret": "..."}), or
+4. NETTSKJEMA_CREDENTIALS_FILE=/path/to/file.json.
 
 The client's username, <clientId>@apiclient, must be given editing
 permission on each form (Settings → Permissions → Editing permissions).
@@ -54,7 +55,7 @@ def load_credentials() -> tuple[str, str]:
     path = Path(override) if override else CONFIG_DIR / "nettskjema-credentials.json"
     if not path.exists():
         sys.exit(
-            "No Nettskjema credentials. Set NETTSKJEMA_CLIENT_ID and NETTSKJEMA_CLIENT_SECRET, "
+            "No Nettskjema credentials. Set NETTSKJEMA_ACCESS_TOKEN, or NETTSKJEMA_CLIENT_ID and NETTSKJEMA_CLIENT_SECRET, "
             f"or create {path.relative_to(ROOT) if path.is_relative_to(ROOT) else path} "
             "(see config/README.md)."
         )
@@ -116,8 +117,10 @@ def main() -> int:
     args = parser.parse_args()
 
     form_id = resolve_form(args.form)
-    client_id, client_secret = load_credentials()
-    token = get_token(client_id, client_secret)
+    token = os.environ.get("NETTSKJEMA_ACCESS_TOKEN", "").strip()
+    if not token:
+        client_id, client_secret = load_credentials()
+        token = get_token(client_id, client_secret)
 
     info = json.loads(api_get(token, f"/form/{form_id}/info"))
     title = info.get("title") or info.get("formTitle") or str(form_id)

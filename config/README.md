@@ -36,7 +36,8 @@ client:
 3. Save the values as `config/nettskjema-credentials.json`
    (`{"clientId": "...", "clientSecret": "..."}`), gitignored, or set
    `NETTSKJEMA_CLIENT_ID` and `NETTSKJEMA_CLIENT_SECRET`.
-   `NETTSKJEMA_CREDENTIALS_FILE` overrides the path.
+   `NETTSKJEMA_CREDENTIALS_FILE` overrides the path. An access token you
+   already hold can be used directly as `NETTSKJEMA_ACCESS_TOKEN` (valid 24 h).
 
 ## Tag merge map
 
