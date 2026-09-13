@@ -38,6 +38,7 @@ people:
 - maham-riaz
 - myrthe-tilleman
 - nanette-nielsen
+- ola-lomo-ellingsen
 - ole-andreas-rognstad
 - olivier-lartillot
 - pedro-lucas
@@ -48,6 +49,7 @@ people:
 - stefano-fasciani
 - synne-tollerud-bull
 - tejaswinee-kelkar
+- ulysse-cote-allard
 - victoria-johnson
 - vincenzo-madaghiele
 projects:

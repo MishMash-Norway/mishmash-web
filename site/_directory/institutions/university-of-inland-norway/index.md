@@ -20,6 +20,7 @@ people:
 - hanne-lovise-skartveit
 - havard-vibeto
 - ida-jahr
+- lars-rasch
 - mathieu-lacroix
 - mette-nyseter
 - mina-brodshaug-sveen
@@ -28,6 +29,7 @@ people:
 - ole-christoffer-haga
 - ole-goethe
 - oystein-skaar
+- rafal-hanzl
 - sashi-komandur
 - tonje-louise-finne
 - troels-linde

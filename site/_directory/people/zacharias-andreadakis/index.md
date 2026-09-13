@@ -20,7 +20,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.hvl.no/en/employee/?user=Zacharias.Andreadakis
-  institutional_website: ''
+  institutional_website: https://www.hvl.no/en/employee/?user=zacharias.andreadakis
   github: ''
   linkedin: https://www.linkedin.com/in/zacharias-andreadakis-phd-21705250/
   orcid: https://orcid.org/0000-0003-4126-4371

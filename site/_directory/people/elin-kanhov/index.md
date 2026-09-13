@@ -12,7 +12,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: http://www.linkedin.com/in/elin-kanhov
+  personal_website: https://www.elinkanhov.com
   institutional_website: https://www.kth.se/profile/ekanhov?l=en
   github: ''
   linkedin: https://www.linkedin.com/in/elin-kanhov/

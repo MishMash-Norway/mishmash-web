@@ -14,6 +14,8 @@ people:
 - hanne-maren-meldahl
 - karan-choudhary
 - matthew-landers
+- natalia-maehle
+- odd-torleiv-furnes
 - sigurd-sandvold
 - tine-grieg-viig
 - zacharias-andreadakis
