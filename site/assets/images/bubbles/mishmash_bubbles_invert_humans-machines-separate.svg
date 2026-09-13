@@ -5,14 +5,14 @@
     <!-- Left circle: Humans -->
     <!-- purple -->
     <circle cx="100" cy="160" r="110"
-      fill="#A7A1F4"
+      fill="#9a90cf"
       stroke="#777"
       stroke-width="1"/>
 
     <!-- Right circle: Machines -->
     <!-- green -->
     <circle cx="320" cy="160" r="110"
-      fill="#C1F7AE"
+      fill="#b3e297"
       stroke="#777"
       stroke-width="1"/>
 

@@ -5,12 +5,12 @@
 
     <!-- purple -->
     <circle cx="150" cy="160" r="110"
-      fill="#C1F7AE"
+      fill="#b3e297"
       stroke="#777"
       stroke-width="1"/>
     <!-- green -->
     <circle cx="270" cy="160" r="110"
-      fill="#363644"
+      fill="#231f20"
       stroke="#777"
       stroke-width="1"/>
 
@@ -21,6 +21,6 @@
       <circle cx="150" cy="160" r="110" />
     </clipPath>
   </defs>
-  <circle cx="270" cy="160" r="110" fill="#A7A1F4" clip-path="url(#clip-left-gpt)" />
+  <circle cx="270" cy="160" r="110" fill="#9a90cf" clip-path="url(#clip-left-gpt)" />
 
 </svg>
