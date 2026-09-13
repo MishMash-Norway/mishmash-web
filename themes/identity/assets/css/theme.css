@@ -1,0 +1,456 @@
+/* Identity theme — applies the 2026 MishMash visual identity on top of the
+   regular site CSS. Tokens live in brand.css; this file only uses them.
+   custom.css sets several rules with !important, so the same properties are
+   repeated with !important here (this file loads later and therefore wins). */
+
+/* ---------- Base ---------- */
+
+body {
+  background: var(--mm-white);
+  color: var(--mm-ink);
+  font-family: var(--mm-font-body) !important;
+}
+
+/* ---------- Header: one flat surface per section, wordmark in its pair colour ---------- */
+
+.page-header {
+  background-color: var(--mm-green) !important;
+  background-image: none !important;
+  color: var(--mm-ink);
+  text-align: left !important;
+  padding: 1.75rem 1.5rem 1.5rem !important;
+}
+
+.mm-section-purple .page-header { background-color: var(--mm-purple) !important; }
+.mm-section-blue .page-header   { background-color: var(--mm-blue) !important; }
+.mm-section-pink .page-header   { background-color: var(--mm-pink) !important; }
+
+.mm-header-inner {
+  max-width: 64rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5rem 2.5rem;
+  flex-wrap: wrap;
+}
+
+.mm-wordmark {
+  display: block;
+  flex: 0 0 auto;
+  width: clamp(120px, 16vw, 176px);
+  line-height: 0;
+  color: var(--mm-on-green) !important;   /* custom.css sets a { color } with !important */
+  text-decoration: none !important;
+}
+
+.mm-section-purple .mm-wordmark { color: var(--mm-on-purple) !important; }
+.mm-section-blue .mm-wordmark   { color: var(--mm-on-blue) !important; }
+.mm-section-pink .mm-wordmark   { color: var(--mm-on-pink) !important; }
+
+.mm-home .mm-wordmark {
+  width: clamp(200px, 32vw, 340px);
+}
+
+.mm-wordmark-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.mm-header-text {
+  flex: 1 1 22rem;
+  min-width: 0;
+}
+
+.project-tagline {
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  font-size: clamp(1.7rem, 3.6vw, 2.75rem);
+  line-height: 0.95;
+  letter-spacing: var(--mm-display-tracking);
+  color: var(--mm-ink) !important;
+  opacity: 1 !important;
+  margin: 0 0 1.1rem !important;
+}
+
+.mm-home .project-tagline {
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+}
+
+/* ---------- Navigation: black outline buttons, no rounding ---------- */
+
+.mm-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.page-header .btn {
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0.4rem 0.85rem;
+  background-color: transparent !important;
+  border: 2px solid var(--mm-ink) !important;
+  border-radius: var(--mm-radius) !important;
+  color: var(--mm-ink) !important;
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  transition: none;
+}
+
+.page-header .btn:hover,
+.page-header .btn:focus-visible,
+.page-header details.btn[open] {
+  background-color: var(--mm-ink) !important;
+  color: var(--mm-green) !important;
+}
+
+.mm-section-purple .page-header .btn:hover,
+.mm-section-purple .page-header .btn:focus-visible,
+.mm-section-purple .page-header details.btn[open] { color: var(--mm-purple) !important; }
+.mm-section-blue .page-header .btn:hover,
+.mm-section-blue .page-header .btn:focus-visible,
+.mm-section-blue .page-header details.btn[open] { color: var(--mm-blue) !important; }
+.mm-section-pink .page-header .btn:hover,
+.mm-section-pink .page-header .btn:focus-visible,
+.mm-section-pink .page-header details.btn[open] { color: var(--mm-pink) !important; }
+
+.page-header .btn summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.page-header .btn summary::-webkit-details-marker {
+  display: none;
+}
+
+.wp-dropdown .wp-list {
+  background: var(--mm-white);
+  border: 2px solid var(--mm-ink);
+  border-radius: var(--mm-radius);
+  box-shadow: none;
+  min-width: 14rem;
+  padding: 0.35rem 0;
+}
+
+.wp-dropdown .wp-list a {
+  color: var(--mm-ink) !important;
+  font-family: var(--mm-font-body);
+  font-size: 0.95rem;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  text-decoration: none !important;
+  padding: 0.45rem 0.9rem;
+}
+
+.wp-dropdown .wp-list a:hover,
+.wp-dropdown .wp-list a:focus-visible {
+  background: var(--mm-green-tint);
+  color: var(--mm-ink) !important;
+}
+
+.mm-section-purple .wp-dropdown .wp-list a:hover { background: var(--mm-purple-tint); }
+.mm-section-blue .wp-dropdown .wp-list a:hover   { background: var(--mm-blue-tint); }
+.mm-section-pink .wp-dropdown .wp-list a:hover   { background: var(--mm-pink-tint); }
+
+.page-header .lang-switcher {
+  background: transparent;
+  border: 2px solid var(--mm-ink);
+  border-radius: var(--mm-radius);
+  padding: 0.4rem 0.6rem;
+  margin: 0;
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.page-header .lang-switcher .lang-active,
+.page-header .lang-switcher .lang-sep {
+  color: var(--mm-ink);
+}
+
+.page-header .lang-switcher .lang-option {
+  color: var(--mm-ink-70) !important;
+}
+
+.page-header .lang-switcher .lang-option:hover,
+.page-header .lang-switcher .lang-option:focus-visible {
+  color: var(--mm-ink) !important;
+}
+
+/* ---------- Content ---------- */
+
+.main-content {
+  color: var(--mm-ink);
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  line-height: var(--mm-display-leading);
+  letter-spacing: var(--mm-display-tracking);
+  color: var(--mm-ink) !important;
+}
+
+.main-content h1 { font-size: 2.6rem; }
+.main-content h2 { font-size: 2rem; margin-top: 2.25rem; }
+.main-content h3 { font-size: 1.5rem; }
+.main-content h4 { font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.03em; }
+
+.main-content a {
+  color: var(--mm-ink) !important;
+  text-decoration: underline !important;
+  text-decoration-color: var(--mm-purple);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.15em;
+}
+
+.main-content a:hover,
+.main-content a:focus-visible {
+  color: var(--mm-ink) !important;
+  text-decoration-color: var(--mm-ink);
+  background: var(--mm-purple);
+}
+
+.main-content a:has(img) {
+  text-decoration: none !important;
+}
+
+.main-content a:has(img):hover {
+  background: transparent;
+}
+
+.main-content h1 a,
+.main-content h2 a,
+.main-content h3 a {
+  text-decoration: none !important;
+}
+
+.main-content h1 a:hover,
+.main-content h2 a:hover,
+.main-content h3 a:hover {
+  background: transparent;
+  text-decoration: underline !important;
+  text-decoration-color: var(--mm-purple);
+}
+
+/* "More …" paragraphs (a paragraph whose whole text is one link) get the
+   arrow motif; the class is added by the small script in the layout. */
+.main-content p.mm-more {
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.main-content p.mm-more::before {
+  content: var(--mm-arrow) " ";
+}
+
+.main-content .btn,
+.main-content .button,
+.button {
+  border: 2px solid var(--mm-ink) !important;
+  border-radius: var(--mm-radius) !important;
+  background: transparent !important;
+  color: var(--mm-ink) !important;
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  text-transform: uppercase;
+  text-decoration: none !important;
+  box-shadow: none;
+}
+
+.main-content .btn:hover,
+.main-content .button:hover,
+.button:hover {
+  background: var(--mm-ink) !important;
+  color: var(--mm-green) !important;
+}
+
+.main-content blockquote {
+  border-left: 4px solid var(--mm-green);
+  color: var(--mm-ink-70);
+}
+
+.main-content table th {
+  background: var(--mm-green-tint);
+  color: var(--mm-ink);
+}
+
+.main-content table td,
+.main-content table th {
+  border-color: var(--mm-ink-15);
+}
+
+.main-content hr {
+  background: var(--mm-ink);
+  height: 2px;
+}
+
+.main-content code {
+  background: var(--mm-ink-5);
+  color: var(--mm-ink);
+}
+
+.meeting-meta {
+  border-left: 4px solid var(--mm-purple);
+  background: var(--mm-purple-tint);
+}
+
+.event-header {
+  border-bottom: var(--mm-rule);
+}
+
+.event-title,
+.institution-header h1 {
+  color: var(--mm-ink);
+}
+
+.event-meta,
+.site-footer-credits,
+.site-footer-credits a,
+.site-footer-toggle {
+  color: var(--mm-ink-70);
+}
+
+.site-footer {
+  border-top: var(--mm-rule);
+}
+
+.site-footer-credits a:hover,
+.site-footer-toggle:hover {
+  color: var(--mm-ink);
+}
+
+/* Front page: the wordmark in the header replaces the floating bubbles. */
+.mm-home .mishmash-bubbles {
+  display: none;
+}
+
+/* ---------- Theme badge ---------- */
+
+.ui-theme-badge {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  padding: 0.35rem 0.7rem;
+  background: var(--mm-ink);
+  color: var(--mm-green);
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ---------- Brand page (/about/brand/) ---------- */
+
+.mm-swatches {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.mm-swatch {
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0.75rem;
+  color: var(--mm-ink);
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  font-size: 1.1rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.mm-swatch small {
+  font-family: var(--mm-font-body);
+  font-weight: 400;
+  font-size: 0.8rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+.mm-swatch--ink { color: var(--mm-white); }
+
+.mm-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.mm-tiles img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mm-brand-hero {
+  background: var(--mm-green);
+  padding: clamp(1.5rem, 5vw, 3rem);
+  margin: 0 0 2rem;
+}
+
+.mm-brand-hero img {
+  display: block;
+  width: min(100%, 420px);
+  height: auto;
+  margin: 0 auto;
+}
+
+.mm-type-sample {
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  font-size: clamp(2rem, 6vw, 4rem);
+  line-height: 0.9;
+  letter-spacing: var(--mm-display-tracking);
+  margin: 0.5rem 0 1.5rem;
+}
+
+/* ---------- Small screens ---------- */
+
+@media screen and (max-width: 720px) {
+  .page-header {
+    padding: 1.25rem 1rem 1rem !important;
+  }
+
+  .mm-header-inner {
+    gap: 1rem;
+  }
+
+  .mm-wordmark,
+  .mm-home .mm-wordmark {
+    width: 132px;
+  }
+
+  .project-tagline,
+  .mm-home .project-tagline {
+    font-size: 1.6rem;
+  }
+
+  .page-header .btn {
+    font-size: 0.9rem;
+    padding: 0.35rem 0.6rem;
+  }
+}

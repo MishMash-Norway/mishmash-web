@@ -1,0 +1,58 @@
+/* MishMash visual identity — design tokens.
+ *
+ * Source of truth for the colours, type and pairings of the 2026 identity
+ * (delivered by the design agency in August 2026; see BRAND.md in the repository root).
+ * Use these custom properties instead of hard-coded values. Nothing in this
+ * file styles an element; it only declares tokens.
+ */
+
+:root {
+  /* Pastel surfaces — the four background colours of the identity. */
+  --mm-green: #b3e297;
+  --mm-purple: #9a90cf;
+  --mm-blue: #a5cbed;
+  --mm-pink: #efadb2;
+
+  /* Ink and accents. The wordmark is black on green, green on purple,
+     yellow on blue and red on pink — never any other combination. */
+  --mm-ink: #231f20;
+  --mm-yellow: #d1e422;
+  --mm-red: #ee5648;
+  --mm-white: #ffffff;
+
+  /* Wordmark colour that belongs to each surface. */
+  --mm-on-green: var(--mm-ink);
+  --mm-on-purple: var(--mm-green);
+  --mm-on-blue: var(--mm-yellow);
+  --mm-on-pink: var(--mm-red);
+
+  /* Light tints for large text areas, cards and callouts (≈15 % colour on white).
+     Body text on a tint is always --mm-ink. */
+  --mm-green-tint: #f0f8e9;
+  --mm-purple-tint: #f0eef9;
+  --mm-blue-tint: #edf4fb;
+  --mm-pink-tint: #fdf1f1;
+  --mm-yellow-tint: #fbfce6;
+
+  /* Greys derived from the ink for secondary text and rules. */
+  --mm-ink-70: #5c5859;
+  --mm-ink-40: #a7a4a5;
+  --mm-ink-15: #dedcdc;
+  --mm-ink-5: #f4f3f3;
+
+  /* Type. Display face in print is Acumin Variable Concept Condensed Bold
+     (Adobe, licensed). On the web we self-host Roboto Condensed 700 (open
+     licence) as the equivalent; body text stays Inter. */
+  --mm-font-display: 'Roboto Condensed', 'Acumin Pro Condensed', 'Arial Narrow', Arial, sans-serif;
+  --mm-font-body: 'Inter', 'Raleway', Arial, sans-serif;
+  --mm-display-weight: 700;
+  --mm-display-leading: 0.9;      /* 44 pt on 33 pt in the identity sheet ≈ 0.75; 0.9 keeps web headings readable */
+  --mm-display-tracking: -0.01em;
+
+  /* Shape. The identity is flat: no gradients, no rounded corners, no shadows. */
+  --mm-radius: 0;
+  --mm-rule: 2px solid var(--mm-ink);
+
+  /* Arrow motif (used before "more" links and as signage). */
+  --mm-arrow: "\2192";
+}
