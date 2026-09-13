@@ -100,6 +100,36 @@ repository:
     scripts_and_automation: https://github.com/MishMash-Norway/mishmash-web/wiki/Scripts-and-Automation
     site_architecture: https://github.com/MishMash-Norway/mishmash-web/wiki/Site-Architecture
     local_build: https://github.com/MishMash-Norway/mishmash-web/wiki/Running-the-Site-Locally
+    visual_identity: https://github.com/MishMash-Norway/mishmash-web/wiki/Visual-Identity-and-Theming
+
+visual_identity:
+  adopted: 2026-09-13
+  guide: BRAND.md
+  public_page: "/about/brand/ (Norwegian: /no/about/brand/)"
+  tokens: site/assets/css/brand.css
+  styling: site/assets/css/identity.css
+  logo_files: site/assets/images/logo/
+  tagline_keys: translations.yml identity_tagline (en/nb)
+  placeholder_image: >-
+    /assets/images/bubbles/mishmash_bubbles_notext.svg, the bubbles recoloured to the
+    2026 palette; still the default image for news and events without a photograph.
+  rules:
+    - Use the --mm-* custom properties; never hard-code the superseded #A7A1F4, #C1F7AE or #363644.
+    - Text on the pastel surfaces (green, purple, blue, pink) is always ink (#231f20).
+    - Wordmark pairings are fixed: black on green, green on purple, yellow on blue, red on pink.
+    - Fonts are self-hosted; never add Adobe Fonts, Google Fonts or another remote font service.
+    - No gradients, drop shadows or rounded corners.
+  theming:
+    themes_dir: themes/
+    guide: themes/README.md
+    preview_url: https://mishmash.no/ui/<name>/
+    gallery_registry: site/_data/ui_themes.yml
+    swap_main_look: ./scripts/ui promote <name> --keep-as <old-name>
+    swap_rule: >-
+      site/ is the single source of truth for the live look. Promoting a theme snapshots
+      the files it overrides into themes/<old-name>/, copies the theme into site/, and
+      removes the theme folder. Merge the theme's _config.yml keys by hand.
+    previous_look: "bubbles (themes/bubbles/, https://mishmash.no/ui/bubbles/)"
 
 routing:
   - request_type: authored_news

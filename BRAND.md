@@ -2,19 +2,21 @@
 
 This is the reference for anyone (person or agent) styling something for
 MishMash: the website, a slide deck, a poster, a generated image. It records
-the identity delivered by the design agency in August 2026. The website
-preview that applies it lives in `themes/identity/` and is published at
-<https://mishmash.no/ui/identity/>; the public version of this page is
-`/about/brand/` in that preview.
+the identity delivered by the design agency in August 2026 and adopted on
+mishmash.no in September 2026. The public version of this page is
+<https://mishmash.no/about/brand/>. The look the site had before is kept as
+the `bubbles` UI theme (`themes/bubbles/`, <https://mishmash.no/ui/bubbles/>).
 
-Machine-readable tokens: `themes/identity/assets/css/brand.css`. Use the
-custom properties from that file instead of hard-coding values.
+Machine-readable tokens: `site/assets/css/brand.css`. Use the custom
+properties from that file instead of hard-coding values. The styling built
+from them is `site/assets/css/identity.css`; site-wide components are in
+`site/assets/css/custom.css`.
 
 ## Wordmark
 
 The logo is a wordmark: MISH stacked over MASH in a condensed bold face, with
 the S and H columns cut off top and bottom as if rolling through a window.
-Files (all in `themes/identity/assets/images/logo/`):
+Files (all in `site/assets/images/logo/`):
 
 | File | Use |
 | --- | --- |
@@ -59,10 +61,10 @@ for placeholders, `--mm-ink-15` for hairlines, `--mm-ink-5` for code and
 input backgrounds.
 
 The old website palette (`#A7A1F4` purple, `#C1F7AE` green, `#363644` dark)
-is superseded. When you meet those values, replace them with the tokens
-above. The bubble illustrations continue to exist for news and event
-thumbnails and as placeholder portraits; recoloured versions are in
-`themes/identity/assets/images/bubbles/`.
+is superseded; if you meet those values in new material, replace them with
+the tokens above. The bubble illustrations continue to exist for news and
+event thumbnails and as placeholder portraits, recoloured to this palette
+(`site/assets/images/bubbles/`).
 
 ## Type
 
@@ -71,7 +73,7 @@ thumbnails and as placeholder portraits; recoloured versions are in
   line. Acumin is an Adobe font under licence and is used in print and in the
   agency's files.
 - **Display on the web**: Roboto Condensed 700, self-hosted from
-  `themes/identity/assets/fonts/`. The site serves all fonts itself and loads
+  `site/assets/fonts/`. The site serves all fonts itself and loads
   nothing from third parties; do not add Adobe Fonts, Google Fonts or any
   other remote font service. Token: `--mm-font-display`.
 - **Body**: Inter 400/700, already self-hosted by the site. Token:
@@ -92,6 +94,16 @@ purple becomes a highlight behind the text.
 The arrow (→) is the secondary motif: it precedes "more" links and is used
 large on signage. Token: `--mm-arrow`.
 
+## Icons
+
+Social and contact icons are square tiles in the identity style: green
+surface, ink outline, ink glyph, no rounding. The glyphs are Tabler Icons
+(MIT) at the same stroke weight as the tile border, so the set reads as one
+family; ORCID, Wikidata and NVA are drawn in the same weight. Files:
+`site/assets/images/icons/catalogue/` (person pages, front page), built by
+`scripts/build_icons.py`. Add an icon by adding a row to that script and
+running it; do not hand-draw one-offs.
+
 ## Website sections
 
 | Section | Surface | Wordmark colour |
@@ -101,7 +113,7 @@ large on signage. Token: `--mm-arrow`.
 | `/news/`, `/events/` | blue | yellow |
 | `/people/`, `/institutions/`, `/projects/`, `/results/` | pink | red |
 
-The section is chosen in `themes/identity/_layouts/default.html` and set as a
+The section is chosen in `site/_layouts/default.html` and set as a
 class on `<body>` (`mm-section-green` etc.), so a stylesheet can respond to it.
 
 ## Tagline

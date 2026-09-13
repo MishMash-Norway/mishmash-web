@@ -45,6 +45,8 @@ NVA credentials: see [config/README.md](config/README.md). **Never commit creden
 | Results page intro | `site/results/index.md`, `site/no/results/index.md` |
 | UI strings (EN/NO) | `site/_data/translations.yml` |
 | Layouts, includes, CSS | `site/_layouts/`, `site/_includes/`, `site/assets/css/` |
+| Visual identity: tokens, identity styling, logo files | `site/assets/css/brand.css`, `site/assets/css/identity.css`, `site/assets/images/logo/`; rules in [BRAND.md](BRAND.md) |
+| Alternative looks (UI themes) | `themes/<name>/`; swap the main look with `./scripts/ui promote <name>` ([guide](themes/README.md)) |
 | Institutions | `site/_directory/institutions/` |
 | New people (structure) | `site/_directory/people/<slug>/index.md` from `site/_directory/people/_template/` |
 
@@ -97,6 +99,8 @@ English pages live at the site root (`/about/`, `/results/`, …). Norwegian mir
 - Shared labels use `site/_data/translations.yml` via `t.*` in layouts.
 
 Prefer absolute asset paths (`/assets/...`) in shared includes so both languages work.
+
+Colours and fonts come from the `--mm-*` custom properties in `site/assets/css/brand.css`; do not hard-code hex values, and never reintroduce the superseded purple/green palette (`#A7A1F4`, `#C1F7AE`, `#363644`). Fonts are self-hosted; do not add a remote font service. See [BRAND.md](BRAND.md).
 
 ## Common tasks
 

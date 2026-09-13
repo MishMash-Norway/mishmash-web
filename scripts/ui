@@ -26,11 +26,17 @@ Commands:
                         Use "default" for the unmodified site.
                         Extra args go to `jekyll serve` (e.g. --port 4001).
   build <name> [args]   One-off build with <name> overlaid into .ui-work/_site/
+  promote <name> [--keep-as <old-name>]
+                        Make <name> the look of the main site: the files it
+                        overrides are first saved as a new theme <old-name>
+                        (default: previous-YYYY-MM-DD), then the theme's files
+                        are copied into site/ and themes/<name>/ is removed.
 
 Examples:
   scripts/ui new my-theme
   scripts/ui serve my-theme
   scripts/ui serve default --port 4001   # compare against the original
+  scripts/ui promote my-theme --keep-as look-2026   # swap the main site's look
 EOF
 }
 
@@ -127,11 +133,97 @@ EOF
   echo "    then run: ./scripts/ui serve $name"
 }
 
+# Swap the main site's look. Every file the theme overrides is copied from
+# site/ into a snapshot theme first, so the outgoing look stays switchable;
+# then the theme's files replace them in site/ and the theme folder goes away
+# (site/ is the single source of truth for the live look — a theme left in
+# place would drift from it). Files the theme adds that site/ lacks are copied
+# in as well; they are not part of the snapshot.
+cmd_promote() {
+  local name="$1"; shift
+  local old="previous-$(date +%Y-%m-%d)"
+  while [ $# -gt 0 ]; do
+    case "$1" in
+      --keep-as) old="$2"; shift 2 ;;
+      *) echo "Unknown option: $1" >&2; usage >&2; exit 1 ;;
+    esac
+  done
+  check_name "$name"; check_name "$old"
+  require_theme "$name"
+  local src="$THEMES_DIR/$name" dst="$THEMES_DIR/$old"
+  [ -e "$dst" ] && { echo "Snapshot theme already exists: $dst" >&2; exit 1; }
+  if [ -n "$(git status --porcelain -- site "$THEMES_DIR" 2>/dev/null)" ]; then
+    echo "Uncommitted changes under site/ or themes/. Commit or stash them first so the swap is one clean commit." >&2
+    exit 1
+  fi
+
+  echo "==> Saving the current look as themes/$old/"
+  mkdir -p "$dst/_layouts" "$dst/assets/css"
+  local rel n=0
+  while IFS= read -r rel; do
+    rel="${rel#./}"
+    if [ -f "site/$rel" ]; then
+      mkdir -p "$dst/$(dirname "$rel")"
+      cp -p "site/$rel" "$dst/$rel"
+      n=$((n+1))
+    fi
+  done < <(cd "$src" && find . -type f ! -name 'README.md' ! -name '_config.yml')
+  [ -f "$dst/_layouts/default.html" ] || cp -p site/_layouts/default.html "$dst/_layouts/default.html"
+  # Badge for the snapshot, and strip the promoted theme's badge on its way in.
+  sed -i '/ui-theme-badge">UI theme:/d' "$dst/_layouts/default.html"
+  sed -i "s|\(<a id=\"skip-to-content\"[^\n]*</a>\)|\1\n    <div class=\"ui-theme-badge\">UI theme: $old</div>|" "$dst/_layouts/default.html"
+  sed -i "s|</head>|  <link rel=\"stylesheet\" href=\"{{ '/assets/css/theme-badge.css' \| relative_url }}\">\n  </head>|" "$dst/_layouts/default.html"
+  cat > "$dst/assets/css/theme-badge.css" <<'EOF2'
+.ui-theme-badge { position: fixed; right: 0; bottom: 0; z-index: 50; padding: 0.35rem 0.7rem; background: #231f20; color: #fff; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; }
+EOF2
+  cat > "$dst/README.md" <<EOF2
+# UI theme: $old
+
+The look mishmash.no had until $(date +%Y-%m-%d), saved automatically by
+\`scripts/ui promote $name\` when the \`$name\` theme became the main site.
+It holds the previous versions of the $n files that \`$name\` replaced.
+
+Run it with:
+
+\`\`\`bash
+./scripts/ui serve $old
+\`\`\`
+
+Full guide: [themes/README.md](../README.md).
+EOF2
+
+  echo "==> Copying themes/$name/ into site/"
+  rsync -a --exclude='/README.md' --exclude='/_config.yml' "$src/" site/
+  sed -i '/ui-theme-badge">UI theme:/d' site/_layouts/default.html
+  if [ -f "$src/_config.yml" ]; then
+    echo "==> themes/$name/_config.yml is NOT merged automatically. Apply these keys to _config.yml by hand:"
+    sed 's/^/    /' "$src/_config.yml"
+  fi
+  [ -f "$src/README.md" ] && { mkdir -p "$WORK"; cp "$src/README.md" "$WORK/$name-README.md"; echo "==> The theme's README was copied to $WORK/$name-README.md; fold what still matters into the docs."; }
+  rm -rf "$src"
+
+  python3 - "$name" "$old" <<'EOF2'
+import re, sys
+name, old = sys.argv[1], sys.argv[2]
+p = "site/_data/ui_themes.yml"
+s = open(p).read()
+s = re.sub(r"- name: %s\n(?:  .*\n?)*" % re.escape(name), "", s)
+title = old.replace("-", " ").title()
+s = s.rstrip("\n") + "\n- name: %s\n  title: %s\n  description: >-\n    The look of mishmash.no before the %s theme became the main site.\n" % (old, title, name)
+open(p, "w").write(s)
+EOF2
+
+  echo "==> Done. themes/$name/ is now the main site; the previous look is themes/$old/."
+  echo "    Next: bundle exec jekyll build, check the result, edit the description of '$old'"
+  echo "    in site/_data/ui_themes.yml, then commit site/, themes/ and _config.yml together."
+}
+
 case "${1:-}" in
   list)  list_themes ;;
   new)   [ $# -ge 2 ] || { usage >&2; exit 1; }; cmd_new "$2" ;;
   serve) [ $# -ge 2 ] || { usage >&2; exit 1; }; shift; cmd_serve "$@" ;;
   build) [ $# -ge 2 ] || { usage >&2; exit 1; }; shift; cmd_build "$@" ;;
+  promote) [ $# -ge 2 ] || { usage >&2; exit 1; }; shift; cmd_promote "$@" ;;
   ""|-h|--help|help) usage ;;
   *) echo "Unknown command: $1" >&2; usage >&2; exit 1 ;;
 esac

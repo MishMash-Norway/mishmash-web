@@ -9,7 +9,9 @@ regular site, so a theme can be as small as one CSS file or as large as a full
 redesign of every layout.
 
 Nothing in this folder affects the regular website, whose production builds
-only use `site/`. Themes are built and viewed locally with the switcher
+only use `site/` — until a theme is *promoted* to become the main look (see
+[Swapping the main look](#swapping-the-main-look) below). The look the site
+had before the 2026 visual identity is kept here as the `bubbles` theme. Themes are built and viewed locally with the switcher
 script — and every theme is also published automatically as a **live preview**
 at `https://mishmash.no/ui/<name>/`, listed in the gallery at
 [mishmash.no/ui/](https://mishmash.no/ui/). To appear in the gallery with a
@@ -76,8 +78,8 @@ configuration, so you can override config values if you need to).
 Don't edit files in `site/` itself — keep all your work inside your theme
 folder so UIs stay switchable.
 
-**Gotcha:** `site/assets/css/custom.css` sets some rules (notably the header
-gradient and header link colours) with `!important`. If you layer an extra
+**Gotcha:** `site/assets/css/custom.css` and `site/assets/css/identity.css` set
+some rules (notably the header colours and link colours) with `!important`. If you layer an extra
 stylesheet on top instead of replacing `custom.css`, you need `!important` on
 those properties to win — see the bundled themes for examples.
 
@@ -100,3 +102,37 @@ gallery entry in `site/_data/ui_themes.yml`), and open a pull request. Check
 that `./scripts/ui build <your-theme>` completes without errors before
 submitting. Once merged, your theme goes live at
 `https://mishmash.no/ui/<your-theme>/` on the next deployment.
+
+## Swapping the main look
+
+The look of the main site is whatever is in `site/`; a theme is a candidate
+look. When the consortium decides to adopt one, promote it:
+
+```bash
+./scripts/ui promote my-theme --keep-as look-2025
+```
+
+This does five things, in order: it saves the current `site/` versions of every
+file the theme overrides as a new theme (`themes/look-2025/`, listed on `/ui/`
+so the outgoing look stays browsable); copies the theme's files into `site/`;
+removes `themes/my-theme/`, because `site/` is the single source of truth and a
+copy left behind would drift from it; strips the theme badge from the promoted
+layout and adds one to the snapshot; and swaps the two entries in
+`site/_data/ui_themes.yml`. Keys in the theme's `_config.yml` are printed for
+you to merge into the main `_config.yml` by hand, and the theme's README is
+copied to `.ui-work/` so you can fold anything still relevant into the docs.
+The command refuses to run with uncommitted changes under `site/` or `themes/`,
+so that the swap is one clean commit. Afterwards: `bundle exec jekyll build`,
+check the result, and commit `site/`, `themes/` and `_config.yml` together.
+
+Files a theme adds that `site/` never had are copied in but are not part of the
+snapshot, since there is nothing to save. Promotion copies files; it does not
+edit content or recolour images. The switch of 2026-09-13 from the bubbles look
+to the 2026 identity also recoloured the bubble, icon and cube images in
+`site/assets/images/` to the new palette, keeping the originals in
+`themes/bubbles/`; that was a one-off step outside the command.
+
+The identity itself (wordmark, colours, type) is documented in
+[BRAND.md](../BRAND.md), and its tokens live in `site/assets/css/brand.css`. A
+theme that wants to keep the identity but change the layout should use those
+tokens; a theme that proposes a different identity should ship its own.

@@ -41,6 +41,7 @@ Installing Ruby, and the checks to run before pushing: [Running the Site Locally
 | `themes/` | Student UI themes ([guide](themes/README.md)), published at `/ui/<name>/` |
 | `scripts/` | Python automation ([overview](scripts/README.md)) and the `ui` theme switcher |
 | `config/` | Local credentials (never committed) and the tag merge map ([readme](config/README.md)) |
+| `BRAND.md` | The visual identity: wordmark, colours, type, and the rules for using them |
 
 More detail: [Site Architecture][arch] and [Deployment][deploy].
 
@@ -51,6 +52,10 @@ Small text fixes can go straight to `main` and publish within a couple of minute
 [CONTRIBUTING.md](CONTRIBUTING.md) covers what is safe to edit and what is machine-generated. Much of the [directory][dir] is refreshed nightly from NVA and ORCID, so some fields are overwritten if you edit them by hand.
 
 Why the site is built this way, and what it is experimenting with: [Web Philosophy][why]. Student projects: [Student Development][students].
+
+## Look and feel
+
+The visual identity (wordmark, colours, type) is documented in [BRAND.md](BRAND.md) and shown at [mishmash.no/about/brand/](https://mishmash.no/about/brand/); stylesheets use the tokens in `site/assets/css/brand.css`. The look can be swapped: any theme in `themes/` can be promoted to become the main site with `./scripts/ui promote <name>`, and the outgoing look is kept as a theme. The pre-2026 look is the `bubbles` theme at [mishmash.no/ui/bubbles/](https://mishmash.no/ui/bubbles/). Details: [Visual Identity and Theming][brand] and [themes/README.md](themes/README.md).
 
 Questions to contact@mishmash.no.
 
@@ -69,3 +74,4 @@ Questions to contact@mishmash.no.
 [dir]: https://github.com/MishMash-Norway/mishmash-web/wiki/Directory
 [why]: https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy
 [students]: https://github.com/MishMash-Norway/mishmash-web/wiki/Student-Development
+[brand]: https://github.com/MishMash-Norway/mishmash-web/wiki/Visual-Identity-and-Theming
