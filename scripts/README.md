@@ -217,6 +217,9 @@ python3 scripts/import_people_from_xlsx.py --xlsx temp/data-…xlsx
 python3 scripts/fetch_nettskjema_export.py --import            # participation form, dry run
 python3 scripts/fetch_nettskjema_export.py --import --write    # ... and write the profiles
 python3 scripts/fetch_nettskjema_export.py --form update       # directory update form
+
+# who to add to the Sympa lists (all@ and wp1@…wp7@) after an import — paste-ready files in temp/
+python3 scripts/sympa_additions_from_form.py --since 2026-09-08
 python3 scripts/sync_directory_reciprocity.py   # mirror people ↔ institutions
 python3 scripts/validate_directory.py
 ```
