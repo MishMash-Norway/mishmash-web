@@ -3,212 +3,198 @@ layout: default
 title: Internal QR Code Generator
 ---
 
-<div class="main-content" role="region" aria-label="QR code generator">
-  <h2>MishMash-style QR code generator</h2>
+<h1>QR code generator</h1>
 
-  <div id="mm-qr-tool" style="max-width:760px;margin:1.2rem auto;padding:1rem 1rem 1.2rem;border:1px solid #d9d9df;border-radius:10px;background:#fafafe;">
-    <div style="display:grid;gap:0.8rem;">
-      <label for="qr-url" style="font-weight:700;">URL</label>
-      <input id="qr-url" type="text" value="https://mishmash.no/" style="padding:0.6rem 0.7rem;border:1px solid #bbb;border-radius:8px;width:100%;" />
+<p>Makes a QR code in the MishMash identity: ink modules on one of the four surface colours, with the wordmark in its paired colour and an optional caption. The PNG is exported at print resolution.</p>
 
-      <label for="qr-size" style="font-weight:700;">Size</label>
-      <select id="qr-size" style="padding:0.6rem 0.7rem;border:1px solid #bbb;border-radius:8px;width:max-content;min-width:180px;background:#fff;">
-        <option value="200">Small</option>
-        <option value="280" selected>Medium</option>
-        <option value="360">Large</option>
-      </select>
-
-      <div style="display:flex;gap:0.6rem;flex-wrap:wrap;align-items:center;">
-        <button id="qr-generate" type="button" class="btn">Generate</button>
-        <button id="qr-download" type="button" class="btn">Download PNG</button>
-      </div>
-
-      <label for="qr-swap" style="display:flex;gap:0.5rem;align-items:center;">
-        <input id="qr-swap" type="checkbox" />
-        Swap colours
-      </label>
-
-      <div id="qr-wrap" style="display:inline-block;padding:20px;background:#b3e297;border-radius:10px;max-width:max-content;">
-        <div id="qr-preview" style="padding:0;background:#9a90cf;line-height:0;"></div>
-      </div>
-
-      <div id="qr-hidden" style="display:none;"></div>
+<div class="qr-tool" role="region" aria-label="QR code generator">
+  <form class="qr-form" id="qr-form">
+    <div class="mm-field">
+      <label class="mm-label" for="qr-url">URL or text</label>
+      <input class="mm-text-input" id="qr-url" type="text" value="https://mishmash.no/" autocomplete="off">
     </div>
-  </div>
+
+    <div class="mm-field">
+      <label class="mm-label" for="qr-caption">Caption (optional)</label>
+      <input class="mm-text-input" id="qr-caption" type="text" value="mishmash.no" autocomplete="off">
+      <p class="mm-help">Shown under the code with an arrow, in the display face. Leave empty for none.</p>
+    </div>
+
+    <fieldset class="mm-field qr-surfaces">
+      <legend class="mm-label">Surface</legend>
+      <label class="qr-surface qr-surface--green"><input type="radio" name="qr-surface" value="green" checked> Green</label>
+      <label class="qr-surface qr-surface--purple"><input type="radio" name="qr-surface" value="purple"> Purple</label>
+      <label class="qr-surface qr-surface--blue"><input type="radio" name="qr-surface" value="blue"> Blue</label>
+      <label class="qr-surface qr-surface--pink"><input type="radio" name="qr-surface" value="pink"> Pink</label>
+    </fieldset>
+
+    <div class="mm-field qr-options">
+      <label class="qr-check"><input id="qr-wordmark" type="checkbox" checked> Include the wordmark</label>
+      <label class="mm-label" for="qr-size">Export size</label>
+      <select class="mm-text-input qr-select" id="qr-size">
+        <option value="600">600 px (screen)</option>
+        <option value="1200" selected>1200 px (print, small)</option>
+        <option value="2400">2400 px (print, large)</option>
+      </select>
+    </div>
+
+    <div class="qr-actions">
+      <button id="qr-generate" type="submit" class="btn">Generate</button>
+      <button id="qr-download" type="button" class="btn">Download PNG</button>
+    </div>
+  </form>
+
+  <div class="qr-preview" id="qr-preview" aria-live="polite"></div>
+  <div id="qr-hidden" hidden></div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="{{ '/assets/js/lib/qrcode.min.js' | relative_url }}"></script>
 <script>
 (function () {
-  const COLORS = {
-    bg: "#9a90cf",
-    border: "#b3e297",
-    qr: "#231f20"
+  'use strict';
+  // Identity tokens (see BRAND.md). The wordmark colour is fixed per surface.
+  var SURFACES = {
+    green:  { bg: '#b3e297', mark: '#231f20' },
+    purple: { bg: '#9a90cf', mark: '#b3e297' },
+    blue:   { bg: '#a5cbed', mark: '#d1e422' },
+    pink:   { bg: '#efadb2', mark: '#ee5648' }
   };
+  var INK = '#231f20';
+  var WORDMARK_URL = '{{ "/assets/images/logo/mishmash-wordmark-black.svg" | relative_url }}';
+  var WORDMARK_ASPECT = 243.91451 / 347.28785;
 
-  const borderPx = 20;
+  var form = document.getElementById('qr-form');
+  var urlInput = document.getElementById('qr-url');
+  var captionInput = document.getElementById('qr-caption');
+  var sizeInput = document.getElementById('qr-size');
+  var wordmarkInput = document.getElementById('qr-wordmark');
+  var preview = document.getElementById('qr-preview');
+  var hidden = document.getElementById('qr-hidden');
+  var downloadBtn = document.getElementById('qr-download');
 
-  const urlInput = document.getElementById("qr-url");
-  const sizeInput = document.getElementById("qr-size");
-  const preview = document.getElementById("qr-preview");
-  const hiddenTarget = document.getElementById("qr-hidden");
-  const swapInput = document.getElementById("qr-swap");
-  const generateBtn = document.getElementById("qr-generate");
-  const downloadBtn = document.getElementById("qr-download");
+  var wordmarkSvg = null;   // the delivered SVG as text, fetched once
+  var canvas = null;
 
-  let qrInstance = null;
-  let renderedCanvas = null;
-
-  function getFrameColors() {
-    if (swapInput && swapInput.checked) {
-      return {
-        frameOuter: COLORS.bg,
-        frameInner: COLORS.border
-      };
-    }
-    return {
-      frameOuter: COLORS.border,
-      frameInner: COLORS.bg
-    };
+  function surface() {
+    var checked = form.querySelector('input[name="qr-surface"]:checked');
+    return SURFACES[checked ? checked.value : 'green'];
   }
 
-  function getSelectedSize() {
-    const parsed = Number.parseInt(sizeInput.value, 10);
-    return Number.isFinite(parsed) && parsed > 0 ? parsed : 280;
+  function loadWordmark() {
+    if (wordmarkSvg) { return Promise.resolve(wordmarkSvg); }
+    return fetch(WORDMARK_URL).then(function (r) { return r.text(); }).then(function (t) {
+      wordmarkSvg = t; return t;
+    });
   }
 
-  function isFinderCell(row, col, count) {
-    const inTopLeft = row < 7 && col < 7;
-    const inTopRight = row < 7 && col >= count - 7;
-    const inBottomLeft = row >= count - 7 && col < 7;
-    return inTopLeft || inTopRight || inBottomLeft;
+  // The delivered SVG is black; recolour it for the chosen surface and load it as an image.
+  function wordmarkImage(color) {
+    return loadWordmark().then(function (svg) {
+      var recoloured = svg.replace(/#1d1d1b/gi, color);
+      var url = URL.createObjectURL(new Blob([recoloured], { type: 'image/svg+xml' }));
+      return new Promise(function (resolve, reject) {
+        var img = new Image();
+        img.onload = function () { URL.revokeObjectURL(url); resolve(img); };
+        img.onerror = function () { URL.revokeObjectURL(url); reject(new Error('wordmark')); };
+        img.src = url;
+      });
+    });
   }
 
-  function renderStyledQr(model, qrSize, frameColors) {
-    const count = model.getModuleCount();
-    const quietZone = 4;
-    const totalModules = count + quietZone * 2;
-    const moduleSize = qrSize / totalModules;
-    const origin = quietZone * moduleSize;
-
-    const canvas = document.createElement("canvas");
-    canvas.width = qrSize;
-    canvas.height = qrSize;
-
-    const ctx = canvas.getContext("2d");
-    ctx.fillStyle = frameColors.frameInner;
-    ctx.fillRect(0, 0, qrSize, qrSize);
-    ctx.fillStyle = COLORS.qr;
-
-    for (let row = 0; row < count; row += 1) {
-      for (let col = 0; col < count; col += 1) {
-        if (!model.isDark(row, col)) {
-          continue;
+  function drawModules(ctx, model, x0, y0, size) {
+    var count = model.getModuleCount();
+    var quiet = 4;
+    var m = size / (count + quiet * 2);
+    var origin = quiet * m;
+    ctx.fillStyle = INK;
+    for (var r = 0; r < count; r += 1) {
+      for (var c = 0; c < count; c += 1) {
+        if (model.isDark(r, c)) {
+          // Overlap by a hair so anti-aliasing leaves no seams between modules.
+          ctx.fillRect(x0 + origin + c * m, y0 + origin + r * m, m + 0.4, m + 0.4);
         }
-
-        const x = origin + col * moduleSize;
-        const y = origin + row * moduleSize;
-
-        if (isFinderCell(row, col, count)) {
-          ctx.fillRect(x, y, moduleSize, moduleSize);
-          continue;
-        }
-
-        const radius = moduleSize * 0.38;
-        ctx.beginPath();
-        ctx.arc(x + moduleSize / 2, y + moduleSize / 2, radius, 0, Math.PI * 2);
-        ctx.fill();
       }
     }
-
-    return canvas;
   }
 
-  function generateQr() {
-    const value = (urlInput.value || "").trim();
-    if (!value) {
-      alert("Please enter a URL or text.");
-      return;
-    }
+  function render() {
+    var text = (urlInput.value || '').trim();
+    if (!text) { return Promise.resolve(); }
+    var size = parseInt(sizeInput.value, 10) || 1200;
+    var caption = (captionInput.value || '').trim();
+    var withMark = wordmarkInput.checked;
+    var s = surface();
 
-    const qrSize = getSelectedSize();
-    preview.innerHTML = "";
-    hiddenTarget.innerHTML = "";
-    const frameColors = getFrameColors();
-    const wrap = document.getElementById("qr-wrap");
-    if (wrap) {
-      wrap.style.background = frameColors.frameOuter;
-    }
-    preview.style.background = frameColors.frameInner;
-    qrInstance = new QRCode(hiddenTarget, {
-      text: value,
-      width: qrSize,
-      height: qrSize,
-      colorDark: COLORS.qr,
-      colorLight: frameColors.frameInner,
-      correctLevel: QRCode.CorrectLevel.H
+    hidden.innerHTML = '';
+    var qr = new QRCode(hidden, { text: text, width: 64, height: 64, correctLevel: QRCode.CorrectLevel.H });
+    var model = qr._oQRCode;
+
+    var pad = Math.round(size * 0.06);
+    var qrSize = size - pad * 2;
+    var band = (withMark || caption) ? Math.round(size * 0.2) : 0;
+    var width = size;
+    var height = size + band;
+
+    canvas = document.createElement('canvas');
+    canvas.width = width;
+    canvas.height = height;
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle = s.bg;
+    ctx.fillRect(0, 0, width, height);
+    drawModules(ctx, model, pad, pad, qrSize);
+
+    var fontReady = document.fonts ? document.fonts.load('700 ' + Math.round(band * 0.42) + 'px "Roboto Condensed"') : Promise.resolve();
+    var markReady = withMark ? wordmarkImage(s.mark) : Promise.resolve(null);
+
+    return Promise.all([fontReady, markReady]).then(function (res) {
+      var img = res[1];
+      var y = size - pad + Math.round(band * 0.05);
+      var bandH = band - Math.round(band * 0.05);
+      if (img) {
+        var mh = Math.round(bandH * 0.8);
+        var mw = Math.round(mh / WORDMARK_ASPECT);
+        ctx.drawImage(img, pad, y + Math.round((bandH - mh) / 2), mw, mh);
+      }
+      if (caption) {
+        var fontPx = Math.round(band * 0.42);
+        ctx.fillStyle = INK;
+        ctx.font = '700 ' + fontPx + 'px "Roboto Condensed", "Arial Narrow", Arial, sans-serif';
+        ctx.textBaseline = 'middle';
+        ctx.textAlign = img ? 'right' : 'left';
+        var label = '→ ' + caption.toUpperCase();
+        var x = img ? width - pad : pad;
+        var maxW = img ? width - pad * 2 - Math.round(bandH * 0.8 / WORDMARK_ASPECT) - pad : width - pad * 2;
+        while (ctx.measureText(label).width > maxW && fontPx > 8) {
+          fontPx -= 2;
+          ctx.font = '700 ' + fontPx + 'px "Roboto Condensed", "Arial Narrow", Arial, sans-serif';
+        }
+        ctx.fillText(label, x, y + bandH / 2);
+      }
+      preview.innerHTML = '';
+      var shown = document.createElement('img');
+      shown.src = canvas.toDataURL('image/png');
+      shown.alt = 'QR code for ' + text;
+      shown.width = width;
+      shown.height = height;
+      preview.appendChild(shown);
     });
-
-    renderedCanvas = renderStyledQr(qrInstance._oQRCode, qrSize, frameColors);
-    preview.appendChild(renderedCanvas);
   }
 
-  function downloadQr() {
-    const value = (urlInput.value || "").trim();
-    if (!value) {
-      alert("Generate a QR code first.");
-      return;
-    }
-
-    if (!renderedCanvas) {
-      alert("Generate a QR code first.");
-      return;
-    }
-
-    const qrSize = getSelectedSize();
-    const out = document.createElement("canvas");
-    const outSize = qrSize + borderPx * 2;
-    out.width = outSize;
-    out.height = outSize;
-
-    const frameColors = getFrameColors();
-    const ctx = out.getContext("2d");
-    ctx.fillStyle = frameColors.frameOuter;
-    ctx.fillRect(0, 0, outSize, outSize);
-
-    function buildFileName() {
-      const now = new Date();
-      const y = String(now.getFullYear());
-      const m = String(now.getMonth() + 1).padStart(2, "0");
-      const d = String(now.getDate()).padStart(2, "0");
-      const hh = String(now.getHours()).padStart(2, "0");
-      const mm = String(now.getMinutes()).padStart(2, "0");
-      const ss = String(now.getSeconds()).padStart(2, "0");
-      return "qrcode_" + y + m + d + "_" + hh + mm + ss + ".png";
-    }
-
-    function saveCanvas() {
-      const a = document.createElement("a");
-      a.href = out.toDataURL("image/png");
-      a.download = buildFileName();
-      a.click();
-    }
-
-    ctx.drawImage(renderedCanvas, borderPx, borderPx, qrSize, qrSize);
-    saveCanvas();
+  function fileName() {
+    var host = (urlInput.value || '').replace(/^https?:\/\//, '').replace(/[^a-z0-9.-]+/gi, '_').replace(/^_+|_+$/g, '') || 'qr';
+    var checked = form.querySelector('input[name="qr-surface"]:checked');
+    return 'mishmash-qr_' + host + '_' + (checked ? checked.value : 'green') + '.png';
   }
 
-  generateBtn.addEventListener("click", generateQr);
-  downloadBtn.addEventListener("click", downloadQr);
-  sizeInput.addEventListener("change", generateQr);
-  swapInput.addEventListener("change", generateQr);
-  urlInput.addEventListener("keydown", function (e) {
-    if (e.key === "Enter") {
-      e.preventDefault();
-      generateQr();
-    }
+  form.addEventListener('submit', function (e) { e.preventDefault(); render(); });
+  form.addEventListener('change', function () { render(); });
+  downloadBtn.addEventListener('click', function () {
+    if (!canvas) { return; }
+    var a = document.createElement('a');
+    a.href = canvas.toDataURL('image/png');
+    a.download = fileName();
+    a.click();
   });
-
-  generateQr();
+  render();
 })();
 </script>

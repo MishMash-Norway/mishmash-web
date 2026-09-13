@@ -284,15 +284,31 @@ body {
   color: var(--mm-green) !important;
 }
 
+.mm-section-purple .main-content .btn:hover,
+.mm-section-purple .main-content .button:hover { color: var(--mm-purple) !important; }
+.mm-section-blue .main-content .btn:hover,
+.mm-section-blue .main-content .button:hover   { color: var(--mm-blue) !important; }
+.mm-section-pink .main-content .btn:hover,
+.mm-section-pink .main-content .button:hover   { color: var(--mm-pink) !important; }
+
 .main-content blockquote {
   border-left: 4px solid var(--mm-green);
   color: var(--mm-ink-70);
 }
 
+.mm-section-purple .main-content blockquote { border-left-color: var(--mm-purple); }
+.mm-section-blue .main-content blockquote   { border-left-color: var(--mm-blue); }
+.mm-section-pink .main-content blockquote   { border-left-color: var(--mm-pink); }
+
+/* Table headers take the tint of the section's surface colour. */
 .main-content table th {
   background: var(--mm-green-tint);
   color: var(--mm-ink);
 }
+
+.mm-section-purple .main-content table th { background: var(--mm-purple-tint); }
+.mm-section-blue .main-content table th   { background: var(--mm-blue-tint); }
+.mm-section-pink .main-content table th   { background: var(--mm-pink-tint); }
 
 .main-content table td,
 .main-content table th {

@@ -1510,17 +1510,17 @@ a:focus-visible .icon {
   max-width: 420px;
   margin: 3rem auto;
   padding: 2rem;
-  border: 1px solid #d9d9df;
-  border-radius: 10px;
-  background: #fafafe;
+  border: var(--mm-rule);
+  border-radius: 0;
+  background: var(--mm-white);
   text-align: center;
 }
 
 .mm-input {
   width: 100%;
   padding: 0.6rem 0.8rem;
-  border: 1px solid #bbb;
-  border-radius: 8px;
+  border: 2px solid var(--mm-ink);
+  border-radius: 0;
   font-size: 1rem;
   margin-bottom: 0.8rem;
   box-sizing: border-box;
@@ -1545,8 +1545,10 @@ a:focus-visible .icon {
 .mm-text-input {
   width: 100%;
   padding: .5rem .7rem;
-  border: 1px solid #bbb;
-  border-radius: 6px;
+  border: 2px solid var(--mm-ink);
+  border-radius: 0;
+  background: var(--mm-white);
+  color: var(--mm-ink);
   font-size: 1rem;
   box-sizing: border-box;
 }
@@ -1558,4 +1560,76 @@ a:focus-visible .icon {
 
 .mm-required {
   color: #c0392b;
+}
+
+/* Internal QR code generator (/internal/qr-code/) */
+.qr-tool {
+  display: grid;
+  grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 1.2fr);
+  gap: 1.5rem 2rem;
+  align-items: start;
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border: var(--mm-rule);
+}
+
+.qr-surfaces {
+  border: 0;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.qr-surfaces legend {
+  padding: 0;
+}
+
+.qr-surface {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.3rem 0.6rem 0 0;
+  padding: 0.35rem 0.7rem;
+  border: 2px solid var(--mm-ink);
+  font-family: var(--mm-font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.qr-surface--green  { background: var(--mm-green); }
+.qr-surface--purple { background: var(--mm-purple); }
+.qr-surface--blue   { background: var(--mm-blue); }
+.qr-surface--pink   { background: var(--mm-pink); }
+
+.qr-options .qr-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.qr-select {
+  width: max-content;
+  min-width: 14rem;
+}
+
+.qr-actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.qr-preview img {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  border: var(--mm-rule);
+}
+
+@media screen and (max-width: 720px) {
+  .qr-tool {
+    grid-template-columns: 1fr;
+  }
 }
