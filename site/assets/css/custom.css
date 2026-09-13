@@ -1,6 +1,6 @@
 .page-header {
-  background-image: linear-gradient(120deg, #A7A1F4, #C1F7AE) !important;
-  background-color: #A7A1F4 !important;
+  background-image: linear-gradient(120deg, var(--mm-purple), var(--mm-green)) !important;
+  background-color: var(--mm-purple) !important;
 }
 
 .site-footer {
@@ -31,7 +31,7 @@
 }
 
 .site-footer-credits a:hover {
-  color: #159957;
+  color: var(--mm-ink);
   text-decoration: underline;
 }
 
@@ -47,12 +47,12 @@
 }
 
 .site-footer-toggle:hover {
-  color: #159957;
+  color: var(--mm-ink);
 }
 
 .site-footer-toggle:hover .page-about-expand-icon {
-  border-color: #A7A1F4;
-  color: #4a4580;
+  border-color: var(--mm-purple);
+  color: var(--mm-ink);
 }
 
 .site-footer-toggle-label {
@@ -63,7 +63,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: #363644 !important;
+  color: var(--mm-ink) !important;
 }
 
 h1 a {
@@ -71,12 +71,12 @@ h1 a {
 }
 
 a {
-  color: #363644 !important;
+  color: var(--mm-ink) !important;
   text-decoration: underline !important;
 }
 a:hover,
 a:focus {
-  color: #A7A1F4 !important;
+  color: var(--mm-purple) !important;
 }
 
 .page-header a,
@@ -91,7 +91,7 @@ body {
 }
 
 .btn {
-  color: #363644 !important;
+  color: var(--mm-ink) !important;
 }
 
 /* Glossary (/about/glossary/) */
@@ -157,8 +157,8 @@ body {
 .meeting-meta {
   margin: 0 0 1.5rem;
   padding: 1rem 1.25rem;
-  border-left: 4px solid #A7A1F4;
-  background: #f7f6fe;
+  border-left: 4px solid var(--mm-purple);
+  background: var(--mm-purple-tint);
 }
 
 .meeting-meta p {
@@ -292,7 +292,7 @@ a:focus-visible .blink-eye-thumb,
 }
 .button {
   display: inline-block;
-  background: #A7A1F4;
+  background: var(--mm-purple);
   color: #fff;
   padding: .6rem 1.1rem;
   border-radius: 6px;
@@ -301,7 +301,7 @@ a:focus-visible .blink-eye-thumb,
   box-shadow: 0 2px 6px rgba(10,102,194,.15);
   transition: background .15s, transform .05s;
 }
-.button:hover { background: #C1F7AE; transform: translateY(-1px); }
+.button:hover { background: var(--mm-green); transform: translateY(-1px); }
 .button:active { transform: translateY(0); }
 .button:focus-visible { outline: 3px solid rgba(10,102,194,.18); outline-offset: 3px; }
 
@@ -321,9 +321,9 @@ a:focus-visible .icon {
   filter: brightness(1.1);
 }
 
-.icon--purple { fill: #A7A1F4; }
-.icon--green { fill: #C1F7AE; }
-.icon--dark { fill: #363644; }
+.icon--purple { fill: var(--mm-purple); }
+.icon--green { fill: var(--mm-green); }
+.icon--dark { fill: var(--mm-ink); }
 
 .social-icon-row .icon {
   --icon-scale: 1;
@@ -336,55 +336,15 @@ a:focus-visible .icon {
   transform: scale(var(--icon-scale));
 }
 
-.social-icon-row .icon-email {
-  --icon-scale: 0.98;
-  --icon-hover-scale: 1.1;
-}
 
-.social-icon-row .icon-newsletter {
-  --icon-scale: 0.98;
-  --icon-hover-scale: 1.1;
-}
 
-.social-icon-row .icon-linkedin {
-  --icon-scale: 0.94;
-  --icon-hover-scale: 1.06;
-}
 
-.social-icon-row .icon-orcid {
-  --icon-scale: 0.98;
-  --icon-hover-scale: 1.1;
-}
 
-.social-icon-row .icon-nva {
-  --icon-scale: 0.98;
-  --icon-hover-scale: 1.1;
-}
 
-.social-icon-row .icon-instagram {
-  --icon-scale: 0.94;
-  --icon-hover-scale: 1.06;
-}
 
-.social-icon-row .icon-github {
-  --icon-scale: 1.04;
-  --icon-hover-scale: 1.16;
-}
 
-.social-icon-row .icon-youtube {
-  --icon-scale: 0.98;
-  --icon-hover-scale: 1.1;
-}
 
-.social-icon-row .icon-rss {
-  --icon-scale: 1.14;
-  --icon-hover-scale: 1.22;
-}
 
-.social-icon-row .icon-calendar {
-  --icon-scale: 0.98;
-  --icon-hover-scale: 1.1;
-}
 
 .social-icon-row .social-icon-link {
   transition: transform .2s ease;
@@ -461,7 +421,7 @@ a:focus-visible .icon {
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
   background: #eef2e3;
-  color: #363644;
+  color: var(--mm-ink);
   font-size: 0.92rem;
   line-height: 1.2;
   text-decoration: none;
@@ -847,7 +807,7 @@ a:focus-visible .icon {
 
 .social-icon-row .social-icon-link:hover span,
 .social-icon-row .social-icon-link:focus-visible span {
-  color: #A7A1F4;
+  color: var(--mm-purple);
 }
 
 /* Language switcher */
@@ -923,15 +883,15 @@ a:focus-visible .icon {
 
 .search-input:focus {
   outline: none;
-  border-color: #A7A1F4;
-  box-shadow: 0 0 0 3px rgba(167,161,244,0.25);
+  border-color: var(--mm-purple);
+  box-shadow: 0 0 0 3px rgba(154,144,207,0.25);
 }
 
 .search-submit {
   padding: 0.55rem 0.9rem;
-  border: 2px solid #5b54a6;
+  border: 2px solid var(--mm-ink);
   border-radius: 6px;
-  background: #5b54a6;
+  background: var(--mm-ink);
   color: #fff;
   font-size: 1rem;
   font-family: inherit;
@@ -940,8 +900,8 @@ a:focus-visible .icon {
 
 .search-submit:hover,
 .search-submit:focus-visible {
-  background: #453f86;
-  border-color: #453f86;
+  background: var(--mm-ink);
+  border-color: var(--mm-ink);
 }
 
 .search-filters {
@@ -993,8 +953,8 @@ a:focus-visible .icon {
 
 .filter-group-collapsible summary:hover .filter-expand-icon,
 .filter-group-collapsible summary:focus-visible .filter-expand-icon {
-  border-color: #A7A1F4;
-  color: #4a4580;
+  border-color: var(--mm-purple);
+  color: var(--mm-ink);
 }
 
 .filter-group-collapsible[open] .filter-expand-icon {
@@ -1025,7 +985,7 @@ a:focus-visible .icon {
 
 .tag-logic-option:hover,
 .tag-logic-option:focus-visible {
-  color: #4a4580;
+  color: var(--mm-ink);
 }
 
 .tag-cluster-controls {
@@ -1058,7 +1018,7 @@ a:focus-visible .icon {
   height: 8px;
   border: 1px solid #c1c9d2;
   border-radius: 999px;
-  background: linear-gradient(to right, #A7A1F4 0%, #A7A1F4 var(--cluster-fill, 0%), #fff var(--cluster-fill, 0%), #fff 100%);
+  background: linear-gradient(to right, var(--mm-purple) 0%, var(--mm-purple) var(--cluster-fill, 0%), #fff var(--cluster-fill, 0%), #fff 100%);
 }
 
 .cluster-slider-thumb {
@@ -1070,7 +1030,7 @@ a:focus-visible .icon {
   transform: translate(-50%, -50%);
   border: 1px solid #c1c9d2;
   border-radius: 50%;
-  background: #A7A1F4;
+  background: var(--mm-purple);
   pointer-events: none;
   box-shadow: 0 1px 2px rgba(54, 54, 68, 0.12);
 }
@@ -1104,11 +1064,11 @@ a:focus-visible .icon {
 }
 
 .cluster-slider-wrap:focus-within .cluster-slider-track {
-  box-shadow: 0 0 0 3px rgba(167, 161, 244, 0.22);
+  box-shadow: 0 0 0 3px rgba(154, 144, 207, 0.22);
 }
 
 .tag-cluster-size-row.is-disabled .cluster-slider-track {
-  background: linear-gradient(to right, #f7f6fe 0%, #f7f6fe var(--cluster-fill, 0%), #fff var(--cluster-fill, 0%), #fff 100%);
+  background: linear-gradient(to right, var(--mm-purple-tint) 0%, var(--mm-purple-tint) var(--cluster-fill, 0%), #fff var(--cluster-fill, 0%), #fff 100%);
 }
 
 .tag-cluster-size-row.is-disabled .cluster-slider-thumb {
@@ -1162,13 +1122,13 @@ a:focus-visible .icon {
 }
 
 .filter-chip:hover {
-  border-color: #A7A1F4;
-  background: #f0effe;
+  border-color: var(--mm-purple);
+  background: var(--mm-purple-tint);
 }
 
 .filter-chip.active {
-  background: #5b54a6;
-  border-color: #5b54a6;
+  background: var(--mm-ink);
+  border-color: var(--mm-ink);
   color: #fff;
 }
 
@@ -1208,7 +1168,7 @@ a:focus-visible .icon {
   color: #fff;
 }
 
-.result-type-event       { background: #A7A1F4; }
+.result-type-event       { background: var(--mm-purple); }
 .result-type-news        { background: #5cb85c; }
 .result-type-page        { background: #55606a; }
 .result-type-person      { background: #d9806b; }
@@ -1228,8 +1188,8 @@ a:focus-visible .icon {
 
 .result-cat {
   font-size: 0.75rem;
-  background: #f0effe;
-  color: #363644;
+  background: var(--mm-purple-tint);
+  color: var(--mm-ink);
   border-radius: 4px;
   padding: 1px 6px;
 }
@@ -1244,7 +1204,7 @@ a:focus-visible .icon {
 .result-wp-tag {
   font-size: 0.75rem;
   background: #e8e7fb;
-  color: #4a4580;
+  color: var(--mm-ink);
   border-radius: 4px;
   padding: 1px 6px;
   font-weight: 600;
@@ -1323,7 +1283,7 @@ a:focus-visible .icon {
 
 .faq-item summary:hover,
 .faq-item summary:focus-visible {
-  color: #159957;
+  color: var(--mm-ink);
 }
 
 .faq-summary-text {
@@ -1349,8 +1309,8 @@ a:focus-visible .icon {
 
 .faq-permalink:hover,
 .faq-permalink:focus-visible {
-  border-color: #A7A1F4;
-  color: #4a4580;
+  border-color: var(--mm-purple);
+  color: var(--mm-ink);
   background: #fff;
   text-decoration: none;
 }
@@ -1372,8 +1332,8 @@ a:focus-visible .icon {
 
 .faq-item summary:hover .faq-expand-icon,
 .faq-item summary:focus-visible .faq-expand-icon {
-  border-color: #A7A1F4;
-  color: #4a4580;
+  border-color: var(--mm-purple);
+  color: var(--mm-ink);
 }
 
 .faq-item[open] .faq-expand-icon {
@@ -1525,7 +1485,7 @@ a:focus-visible .icon {
 
 .colophon-commit-how-ai_assisted {
   background: #efedfc;
-  color: #4a4580;
+  color: var(--mm-ink);
 }
 
 .colophon-commit-how-automated {

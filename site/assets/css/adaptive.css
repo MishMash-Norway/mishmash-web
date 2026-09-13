@@ -29,7 +29,7 @@ html:not([data-audience]) .adaptive:not([data-for~="{{ site.data.audiences.defau
   padding: 0.5rem 0.75rem;
   border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 8px;
-  background: rgba(167, 161, 244, 0.08);
+  background: rgba(154, 144, 207, 0.08);
   font-size: 0.85rem;
 }
 
@@ -47,18 +47,18 @@ html:not([data-audience]) .adaptive:not([data-for~="{{ site.data.audiences.defau
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 999px;
   background: #fff;
-  color: #363644;
+  color: var(--mm-ink);
   font: inherit;
   cursor: pointer;
 }
 
 .audience-switcher button:hover {
-  border-color: #363644;
+  border-color: var(--mm-ink);
 }
 
 .audience-switcher button[aria-pressed="true"] {
-  background: #363644;
-  border-color: #363644;
+  background: var(--mm-ink);
+  border-color: var(--mm-ink);
   color: #fff;
 }
 
@@ -72,7 +72,7 @@ html:not([data-audience]) .adaptive:not([data-for~="{{ site.data.audiences.defau
   font: inherit;
   color: inherit;
   cursor: pointer;
-  border-bottom: 2px dotted #a7a1f4;
+  border-bottom: 2px dotted var(--mm-purple);
 }
 
 .stretch-more {

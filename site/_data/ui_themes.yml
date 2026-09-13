@@ -23,10 +23,9 @@
     A light experimental interface with a live p5.js Game of Life background,
     mild reload-to-reload palette shifts, and a WebAudio granular engine that
     reshapes Freesound material into dense audio-reactive textures.
-- name: identity
-  title: Identity
+- name: bubbles
+  title: Bubbles
   description: >-
-    The 2026 visual identity as a preview: the stacked MISH/MASH wordmark
-    (rolling on load and on hover), one pastel surface per section with the
-    matched wordmark colour, condensed display type, and the bubbles recoloured
-    to the new palette for news and events.
+    The look of mishmash.no from launch until September 2026: gradient
+    header, the two overlapping bubbles as logo and front-page illustration,
+    and the original purple/green palette in thumbnails, icons and figures.

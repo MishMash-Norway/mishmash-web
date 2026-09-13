@@ -5,14 +5,14 @@ title: "MishMash Bubbles"
 
 <div id="bubble-container" style="width:100%;max-width:800px;margin:0 auto;cursor:pointer;">
 <svg id="bubble-svg" width="100%" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" style="display:block;">
-  <circle id="c-purple" cx="300" cy="250" r="50" fill="#A7A1F4" stroke="#777" stroke-width="1"/>
-  <circle id="c-green" cx="500" cy="250" r="50" fill="#C1F7AE" stroke="#777" stroke-width="1"/>
+  <circle id="c-purple" cx="300" cy="250" r="50" fill="#9a90cf" stroke="#777" stroke-width="1"/>
+  <circle id="c-green" cx="500" cy="250" r="50" fill="#b3e297" stroke="#777" stroke-width="1"/>
   <defs>
     <clipPath id="clip-left-interactive" clipPathUnits="userSpaceOnUse">
       <circle id="clip-circle" cx="300" cy="250" r="50"/>
     </clipPath>
   </defs>
-  <circle id="c-overlap" cx="500" cy="250" r="50" fill="#363644" clip-path="url(#clip-left-interactive)"/>
+  <circle id="c-overlap" cx="500" cy="250" r="50" fill="#231f20" clip-path="url(#clip-left-interactive)"/>
 </svg>
 </div>
 

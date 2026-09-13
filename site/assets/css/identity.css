@@ -1,7 +1,8 @@
-/* Identity theme — applies the 2026 MishMash visual identity on top of the
-   regular site CSS. Tokens live in brand.css; this file only uses them.
-   custom.css sets several rules with !important, so the same properties are
-   repeated with !important here (this file loads later and therefore wins). */
+/* identity.css — the 2026 MishMash visual identity: header, wordmark,
+   navigation, headings, links and the brand page. Tokens live in brand.css;
+   this file only uses them. custom.css sets several rules with !important,
+   so the same properties are repeated with !important here (this file loads
+   later and therefore wins). See BRAND.md in the repository root. */
 
 /* ---------- Base ---------- */
 
@@ -341,23 +342,6 @@ body {
 /* Front page: the wordmark in the header replaces the floating bubbles. */
 .mm-home .mishmash-bubbles {
   display: none;
-}
-
-/* ---------- Theme badge ---------- */
-
-.ui-theme-badge {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  z-index: 50;
-  padding: 0.35rem 0.7rem;
-  background: var(--mm-ink);
-  color: var(--mm-green);
-  font-family: var(--mm-font-display);
-  font-weight: var(--mm-display-weight);
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 /* ---------- Brand page (/about/brand/) ---------- */

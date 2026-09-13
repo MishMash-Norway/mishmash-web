@@ -1,5 +1,23 @@
 {% assign lang = page.lang | default: 'en' %}
 {% assign t = site.data.translations[lang] %}
+{% comment %}
+  The 2026 visual identity (stacked MISH/MASH wordmark, four pastel surfaces,
+  condensed display type; see BRAND.md). Each section of the site gets one
+  surface colour; the wordmark takes the colour that belongs to that surface.
+{% endcomment %}
+{% assign mm_path = page.url | remove_first: '/no' %}
+{% assign mm_section = 'green' %}
+{% if mm_path contains '/wp' %}
+  {% assign mm_section = 'purple' %}
+{% elsif mm_path contains '/news' or mm_path contains '/events' %}
+  {% assign mm_section = 'blue' %}
+{% elsif mm_path contains '/people' or mm_path contains '/institutions' or mm_path contains '/projects' or mm_path contains '/results' %}
+  {% assign mm_section = 'pink' %}
+{% endif %}
+{% assign mm_body_class = 'mm-section-' | append: mm_section %}
+{% if page.url == '/' or page.url == '/no/' %}
+  {% assign mm_body_class = mm_body_class | append: ' mm-home' %}
+{% endif %}
 <!DOCTYPE html>
 <html lang="{{ lang }}">
   <head>
@@ -7,7 +25,7 @@
     <meta name="google-site-verification" content="VYQPGEZaiYNH8BxvSZjP0xHFhbLYOfPz_Qs3e3f15tw">
 
 {% seo %}
-{% unless page.image %}<meta property="og:image" content="{{ '/assets/images/bubbles/mishmash_bubbles.png' | absolute_url }}" />{% endunless %}
+{% unless page.image %}<meta property="og:image" content="{{ '/assets/images/logo/mishmash-og.png' | absolute_url }}" />{% endunless %}
 {% if page.translation_url %}
   {% assign _hreflang_other = page.translation_url %}
   {% assign _hreflang_other_exists = true %}
@@ -30,13 +48,16 @@
     <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
 {% endif %}
     <link rel="preload" href="{{ '/assets/fonts/inter-400-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/roboto-condensed-700-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#b3e297">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/icons.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/brand.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/identity.css' | relative_url }}">
     {% if page.adaptive or page.stretchtext %}
     <script>try{document.documentElement.setAttribute('data-audience',localStorage.getItem('mishmash-audience')||'{{ site.data.audiences.default }}');}catch(e){}</script>
     <link rel="stylesheet" href="{{ '/assets/css/adaptive.css' | relative_url }}">
@@ -46,15 +67,21 @@
     <link rel="stylesheet" href="{{ page.custom_css | relative_url }}">
     {% endif %}
     <script defer src="{{ '/assets/js/page-stats.js' | relative_url }}"></script>
-    <link rel="icon" href="{{ '/assets/images/bubbles/mishmash_bubbles.ico' | relative_url }}">
+    <script defer src="{{ '/assets/js/wordmark.js' | relative_url }}"></script>
+    <link rel="icon" href="{{ '/assets/images/logo/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="icon" href="{{ '/assets/images/logo/favicon.ico' | relative_url }}" sizes="16x16 32x32 48x48">
+    <link rel="apple-touch-icon" href="{{ '/assets/images/logo/apple-touch-icon.png' | relative_url }}">
     {% include head-custom.html %}
   </head>
-  <body>
+  <body class="{{ mm_body_class }}">
     <a id="skip-to-content" href="#main-content">{{ t.skip_to_content }}</a>
 
-    <header class="page-header" role="banner">
-      <p class="project-name"><a href="{{ t.home_url | relative_url }}">{{ t.project_name }}</a></p>
-      <p class="project-tagline">{{ t.project_tagline }}</p>
+    <header class="page-header mm-header" role="banner">
+      <div class="mm-header-inner">
+        <a class="mm-wordmark" href="{{ t.home_url | relative_url }}" aria-label="{{ t.project_name }}">{% include mm-wordmark.svg %}</a>
+        <div class="mm-header-text">
+          <p class="project-tagline">{{ t.identity_tagline }}</p>
+          <nav class="mm-nav" aria-label="{{ t.nav_about }}">
 <details class="btn wp-dropdown">
   <summary id="about-summary" aria-haspopup="true" aria-expanded="false" aria-label="{{ t.nav_about }}" aria-controls="about-menu">{{ t.nav_about }} ▾</summary>
   <ul id="about-menu" class="wp-list" role="menu" aria-labelledby="about-summary">
@@ -66,6 +93,7 @@
     <li role="none"><a role="menuitem" href="{{ t.results_url | relative_url }}">{{ t.nav_directory_results }}</a></li>
     <li role="none"><a role="menuitem" href="{{ t.gallery_url | relative_url }}">{{ t.nav_gallery }}</a></li>
     <li role="none"><a role="menuitem" href="{{ '/faq/' | relative_url }}">{{ t.nav_faq }}</a></li>
+    <li role="none"><a role="menuitem" href="{{ t.about_url | append: 'brand/' | relative_url }}">{{ t.nav_about_brand }}</a></li>
   </ul>
 </details>
 <details class="btn wp-dropdown">
@@ -91,7 +119,9 @@
 </details>
 <a class="btn" href="{{ '/search/' | relative_url }}">{{ t.nav_search }}</a>
 {% include lang-switcher.html %}
-
+          </nav>
+        </div>
+      </div>
     </header>
 
     <main id="main-content" class="main-content" role="main">
@@ -100,5 +130,17 @@
 
       {% include page-about.html %}
     </main>
+    <script>
+      (function () {
+        // Paragraphs whose whole text is one link ("More events…") get the arrow motif.
+        document.querySelectorAll('.main-content p').forEach(function (p) {
+          var a = p.children.length === 1 ? p.children[0] : null;
+          if (a && a.tagName === 'A' && !a.querySelector('img') &&
+              p.textContent.trim() === a.textContent.trim()) {
+            p.classList.add('mm-more');
+          }
+        });
+      })();
+    </script>
   </body>
 </html>

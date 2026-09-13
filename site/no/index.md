@@ -5,17 +5,6 @@ title: "MishMash Senter for KI og kreativitet"
 translation_url: /
 description: "MishMash skaper, utforsker og reflekterer over KI for, gjennom og i kreative praksiser — et norsk forskningssenter med over 200 forskere."
 ---
-<div class="mishmash-bubbles" style="float:right;margin:0 0 1rem 1rem;">
-    <a href="/no/about/">
-        <img src="/assets/images/bubbles/mishmash_bubbles.svg"
-             alt="MishMash utforsker møtepunktet mellom mennesker og maskiner med kunst og vitenskap"
-             width="400"
-             height="305"
-             onmouseover="this.lastImage = this.lastImage ?? -1; let next; do { next = Math.floor(Math.random() * 5 + 2); } while (next === this.lastImage); this.lastImage = next; this.src='/assets/images/bubbles/mishmash_bubbles' + next + '.svg';"
-             onmouseout="this.src='/assets/images/bubbles/mishmash_bubbles.svg';">
-    </a>
-</div>
-
 MishMash **skaper, utforsker og reflekterer over KI for, gjennom og i kreative praksiser**. Mer enn 200 forskere undersøker KIs innvirkning på kreative prosesser, utvikler innovative samskapende KI-systemer og pedagogiske strategier, og tar opp de etiske, kulturelle, juridiske og samfunnsmessige implikasjonene av KI i kreative praksiser. [Mer om MishMash...](/no/about/)
 
 <h2><a href="https://mishmash.no/events/">MishMash-arrangementer</a></h2>

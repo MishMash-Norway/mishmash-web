@@ -46,8 +46,8 @@
 
 #load-btn,
 #send-btn {
-  background: #A7A1F4;
-  color: #363644;
+  background: var(--mm-purple);
+  color: var(--mm-ink);
   border: none;
   border-radius: 6px;
   padding: 0.5rem 1.3rem;
@@ -61,7 +61,7 @@
 
 #load-btn:hover:not(:disabled),
 #send-btn:hover:not(:disabled) {
-  background: #C1F7AE;
+  background: var(--mm-green);
 }
 
 #load-btn:disabled,
@@ -85,7 +85,7 @@
 
 #progress-fill {
   height: 100%;
-  background: #A7A1F4;
+  background: var(--mm-purple);
   width: 0%;
   transition: width 0.25s ease;
 }
@@ -127,14 +127,14 @@
 }
 
 .message.user .bubble {
-  background: #A7A1F4;
-  color: #363644;
+  background: var(--mm-purple);
+  color: var(--mm-ink);
   border-bottom-right-radius: 4px;
 }
 
 .message.assistant .bubble {
-  background: #C1F7AE;
-  color: #363644;
+  background: var(--mm-green);
+  color: var(--mm-ink);
   border-bottom-left-radius: 4px;
   white-space: normal; /* assistant bubbles hold rendered markdown */
 }
@@ -169,7 +169,7 @@
 .sources-list {
   margin-top: 0.2rem;
   padding: 0.3rem 0.6rem;
-  border-left: 2px solid #A7A1F4;
+  border-left: 2px solid var(--mm-purple);
   line-height: 1.6;
 }
 
@@ -196,6 +196,6 @@
 
 #user-input:focus {
   outline: none;
-  border-color: #A7A1F4;
-  box-shadow: 0 0 0 2px rgba(167,161,244,0.3);
+  border-color: var(--mm-purple);
+  box-shadow: 0 0 0 2px rgba(154,144,207,0.3);
 }

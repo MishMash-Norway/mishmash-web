@@ -19,7 +19,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-logo: /assets/images/bubbles/mishmash_bubbles_notext.png
+logo: /assets/images/logo/icon-512.png
 
 sass:
   style: compressed
