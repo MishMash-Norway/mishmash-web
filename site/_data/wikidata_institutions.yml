@@ -54,6 +54,10 @@ ghent-university:
   logo: http://commons.wikimedia.org/wiki/Special:FilePath/Universiteit%20Gent%20logo.svg
   qid: Q1137665
   website: https://www.ugent.be/
+institute-for-energy-technology:
+  inception: '1948-01-01'
+  qid: Q1777633
+  website: http://ife.no
 kristiania-university-college:
   coordinates:
     lat: 59.911163

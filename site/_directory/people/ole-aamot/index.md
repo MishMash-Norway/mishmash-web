@@ -5,6 +5,7 @@ name: Ole Aamot
 title: Ole Aamot
 position: Product Engineer
 department: R&D
+image: /assets/images/portraits/Ole_Aamot_Aamot.jpg
 institution: aamot-innovation
 institutions:
 - aamot-innovation

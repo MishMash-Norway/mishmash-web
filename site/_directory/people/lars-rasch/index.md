@@ -25,18 +25,18 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- student
-- digicom
-- digital communication
-- communication
-- culture
+- Student
+- Digicom
+- Digital Communication
+- Communication
+- Culture
 - PR
 search_keywords:
-- student
-- digicom
-- digital communication
-- communication
-- culture
+- Student
+- Digicom
+- Digital Communication
+- Communication
+- Culture
 - PR
 selected_works: []
 source_mentions: []

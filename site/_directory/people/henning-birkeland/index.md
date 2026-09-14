@@ -83,6 +83,8 @@ selected_works:
     url: /people/marie-dahlen/
   - name: Rafal Hanzl
     role: Artist
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
   - name: Henning Birkeland
     role: Artist
     slug: henning-birkeland

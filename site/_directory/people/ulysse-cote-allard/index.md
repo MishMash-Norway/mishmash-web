@@ -22,22 +22,22 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  wikidata: ''
+  wikidata: https://www.wikidata.org/wiki/Q91328437
 aliases: []
 tags:
-- adaptive machine learning
-- transfer learning
-- continual learning
-- multimodal wearable sensing
-- biosignal processing
-- human-computer interaction
+- Adaptive Machine Learning
+- Transfer Learning
+- Continual Learning
+- Multimodal Wearable Sensing
+- Biosignal Processing
+- Human-Computer Interaction
 search_keywords:
-- adaptive machine learning
-- transfer learning
-- continual learning
-- multimodal wearable sensing
-- biosignal processing
-- human-computer interaction
+- Adaptive Machine Learning
+- Transfer Learning
+- Continual Learning
+- Multimodal Wearable Sensing
+- Biosignal Processing
+- Human-Computer Interaction
 selected_works:
 - title: 'CardioLeads: An Eleven-Leads ECG Monitoring System with an Ultralow-Power
     CMOS SoC'

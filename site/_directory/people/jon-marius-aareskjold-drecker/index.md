@@ -52,6 +52,18 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: LLMs and Custom GPTs as a Tool for Academic Research | 2 | Innovation
+  year: '2026'
+  source: Book anthology
+  group_type: Book anthology
+  url: https://www.taylorfrancis.com/chapters/edit/10.4324/9781003475675-2/llms-custom-gpts-tool-academic-research-jon-marius-aareskjold-drecker-hans-zeiner-henriksen?context=ubx&refId=dbcfdb55-608a-4b08-bb98-bdfa7778218f
+  contributors:
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  - name: Hans T. Zeiner-Henriksen
+    role: Creator
 - title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
     Currently Used in Music Production
   year: '2026'
@@ -220,27 +232,6 @@ selected_works:
   - name: Karsten Brustad
     role: Artist
   - name: Solmund Nystabakk
-    role: Artist
-- title: NORTEM
-  year: '2020'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Geir Davidsen
-    role: Artist
-  - name: Jon Marius Aareskjold-Drecker
-    role: Artist
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
-  - name: Lars Lien
-    role: Artist
-  - name: Friederike Bischoff
-    role: Artist
-  - name: Solmund Nystabakk
-    role: Artist
-  - name: Jens Christian Kloster
-    role: Artist
-  - name: Ingrid Eliassen
     role: Artist
 source_mentions:
 - about/organisation/wp-leaders/index.md

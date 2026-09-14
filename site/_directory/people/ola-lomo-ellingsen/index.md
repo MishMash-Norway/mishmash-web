@@ -26,18 +26,18 @@ urls:
 aliases: []
 tags:
 - Musician
-- improvised music
-- jazz
-- trumpet
-- web development
-- software development
+- Improvised Music
+- Jazz
+- Trumpet
+- Web Development
+- Software Development
 search_keywords:
 - Musician
-- improvised music
-- jazz
-- trumpet
-- web development
-- software development
+- Improvised Music
+- Jazz
+- Trumpet
+- Web Development
+- Software Development
 selected_works: []
 source_mentions: []
 summary: null

@@ -25,14 +25,14 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Deep learning
+- Deep Learning
 - Music Cognition
-- Artistic research
+- Artistic Research
 - Composition
 search_keywords:
-- Deep learning
+- Deep Learning
 - Music Cognition
-- Artistic research
+- Artistic Research
 - Composition
 selected_works:
 - title: Technology and materiality/Shadow of War
@@ -46,8 +46,12 @@ selected_works:
     role: Director
   - name: Odd Torleiv Furnes
     role: SoundDesigner
+    slug: odd-torleiv-furnes
+    url: /people/odd-torleiv-furnes/
   - name: Rafal Hanzl
     role: VfxSupervisor
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
   - name: Petter Østergaard
     role: RoleOther
   - name: Mikkel Wettre
@@ -72,6 +76,8 @@ selected_works:
     role: RoleOther
   - name: Odd Torleiv Furnes
     role: RoleOther
+    slug: odd-torleiv-furnes
+    url: /people/odd-torleiv-furnes/
 - title: RESUPERES Manual Intervention proposal for the Resilience development in
     Higher Educaction. Overcoming Adversity.
   year: '2025'
@@ -83,6 +89,8 @@ selected_works:
     role: Editor
   - name: Odd Torleiv Furnes
     role: Creator
+    slug: odd-torleiv-furnes
+    url: /people/odd-torleiv-furnes/
   - name: Torbjørn Lundhaug
     role: Creator
   - name: Frøydis Hausmann
@@ -100,6 +108,8 @@ selected_works:
   contributors:
   - name: Odd Torleiv Furnes
     role: Creator
+    slug: odd-torleiv-furnes
+    url: /people/odd-torleiv-furnes/
 - title: Piano - musikkuttrykk
   year: '2024'
   source: Encyclopedia chapter
@@ -107,6 +117,8 @@ selected_works:
   contributors:
   - name: Odd Torleiv Furnes
     role: Creator
+    slug: odd-torleiv-furnes
+    url: /people/odd-torleiv-furnes/
 - title: The Musical Object in Deep Learning
   year: '2024'
   source: Book chapter
@@ -115,6 +127,8 @@ selected_works:
   contributors:
   - name: Odd Torleiv Furnes
     role: Creator
+    slug: odd-torleiv-furnes
+    url: /people/odd-torleiv-furnes/
 - title: På jakt etter mening i estetiske inntrykk/uttrykk.
   year: '2024'
   source: Book chapter
@@ -123,6 +137,8 @@ selected_works:
   contributors:
   - name: Odd Torleiv Furnes
     role: Creator
+    slug: odd-torleiv-furnes
+    url: /people/odd-torleiv-furnes/
 - title: Melisme
   year: '2023'
   source: Encyclopedia chapter
@@ -131,6 +147,8 @@ selected_works:
   contributors:
   - name: Odd Torleiv Furnes
     role: Creator
+    slug: odd-torleiv-furnes
+    url: /people/odd-torleiv-furnes/
 - title: Komplementærrytmikk
   year: '2023'
   source: Encyclopedia chapter
@@ -139,6 +157,8 @@ selected_works:
   contributors:
   - name: Odd Torleiv Furnes
     role: Creator
+    slug: odd-torleiv-furnes
+    url: /people/odd-torleiv-furnes/
   - name: Jan Sverre Knudsen
     role: Creator
 - title: Lennon and McAI – om kunstig intelligens, kreativitet og bærekraft.
@@ -149,6 +169,8 @@ selected_works:
   contributors:
   - name: Odd Torleiv Furnes
     role: Creator
+    slug: odd-torleiv-furnes
+    url: /people/odd-torleiv-furnes/
 source_mentions: []
 summary: null
 published: true

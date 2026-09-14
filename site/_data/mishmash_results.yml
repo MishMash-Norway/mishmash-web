@@ -1,4 +1,4 @@
-synced_at: '2026-09-13T10:13:33Z'
+synced_at: '2026-09-14T10:42:42Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -7,6 +7,54 @@ project:
     en: MishMash Centre for AI and Creativity
     nb: MishMash Senter for KI og kreativitet
 results:
+- title: LLMs and Custom GPTs as a Tool for Academic Research | 2 | Innovation
+  year: '2026'
+  type: BookAnthology
+  type_label: Book anthology
+  group_type: Book anthology
+  contributors:
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  - name: Hans T. Zeiner-Henriksen
+    role: Creator
+  institutions:
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    - display: Zeiner-Henriksen, Hans T.
+      name: Hans T. Zeiner-Henriksen
+    title: LLMs and Custom GPTs as a Tool for Academic Research | 2 | Innovation
+    container: ''
+    details: 'Taylor & Francis Group. doi: 10.4324/9781003475675-2.'
+    abstract: This study explores the accuracy and usefulness of OpenAI’s large language
+      models (LLMs), particularly focusing on a customized GPT model trained on a
+      specific dataset of musicology research. The research compares the performance
+      of the custom model against the general ChatGPT-4.o model in an academic setting.
+      The customized GPT, tailored to retrieve information from a controlled set of
+      scholarly articles, was tested by a group of musicology experts, including authors
+      whose works were part of the dataset. Results indicate that the custom GPT generally
+      provides more precise and research-based responses compared to the general model.
+      However, issues such as hallucinations, inconsistent performance, and ethical
+      concerns regarding copyright and the use of LLMs in academic work were observed.
+      The study concludes that while customized GPTs can enhance academic research,
+      their use should be approached with caution due to ongoing challenges in accuracy
+      and ethical implications.
+    full_text_url: https://hdl.handle.net/11250/5568511
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a09cbae1b4-207a8b32-7b59-4b45-a742-a4a918ab8bab
+  url: https://www.taylorfrancis.com/chapters/edit/10.4324/9781003475675-2/llms-custom-gpts-tool-academic-research-jon-marius-aareskjold-drecker-hans-zeiner-henriksen?context=ubx&refId=dbcfdb55-608a-4b08-bb98-bdfa7778218f
+  nva_url: https://nva.sikt.no/publication/01a09cbae1b4-207a8b32-7b59-4b45-a742-a4a918ab8bab
 - title: Modeling Relations Between Musical Events in Continuous Time with Transformer
     Models for Live Co-Improvisational Interactions | Zenodo
   year: '2026'
@@ -280,11 +328,18 @@ results:
       url: /people/ragnhild-brovig/
     title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
       Currently Used in Music Production
-    container: 'In Marrington, Mark, Hepworth-Sawyer, Russ, Toulson, Rob, Andersen,
-      Claus Sohn, Paterson, Justin, Gullö, Jan-Olof (Eds.), Innovation in Music: Current
+    container: 'In Gullö, Jan-Olof, Toulson, Rob, Hepworth-Sawyer, Russ, Marrington,
+      Mark, Paterson, Justin, Andersen, Claus Sohn (Eds.), Innovation in Music: Current
       Research Perspectives.'
     details: 'Routledge. ISBN 9781032757858. doi: 10.4324/9781003475675-9.'
-    abstract: ''
+    abstract: This article provides an overview of current AI-assisted tools used
+      in music composition and production and demonstrate their application through
+      research-based music production. By highlighting the diverse range of applications
+      and levels of automation offered by AI tools, we nuance the discourse focused
+      on AI-generated tracks and challenge the assumption that using AI necessarily
+      equates to cheating. We demonstrate how musicians can harness AI to support
+      their artistry without overshadowing human expression, ensuring that creativity
+      and integrity remain at the forefront
     full_text_url: https://hdl.handle.net/11250/5331540
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019b22052adc-18ac17fb-eda5-46c7-8d3b-e1176110c991
@@ -428,6 +483,112 @@ results:
     nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
+- title: 'Atmos vs Ambisonics: Creative Differences in Immersive Formats.'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  citation:
+    authors:
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    title: 'Atmos vs Ambisonics: Creative Differences in Immersive Formats.'
+    container: Innovation In Music 2026.
+    details: Aalborg.
+    abstract: 'Mixing in immersive formats, designed to place the listener inside
+      a three-dimensional sound environment rather than in front of a left–right stereo
+      image, allows for many creative opportunities beyond traditional stereo mixing.
+      However, there are different immersive formats, each with its own strength and
+      challenges.
+
+      This paper/performance/workshop explores the creative differences between mixing
+      in Atmos, created by Dolby Laboratories and used in movie theatres and commercial
+      3D audio distribution, and ambisonics, a format that is used extensively in
+      electro-acoustic music and VR.
+
+      The music used in the paper/performance/workshop is a sonification of Aurora
+      Borealis/Northern Lights. With the use of positional signals from an antenna
+      array positioned in Kilpisjärvi in Northern Finland, soundscapes and composed
+      music are projected into an 3D audio dome and create a real-time sonic experience
+      of the movement of the Aurora on the sky over the arctic parts of Norway, Sweden
+      and Finland.
+
+      These compositions exist in both ambisonics and Atmos, and in the paper/performance/workshop
+      the workflow and creative opportunities inherent in the formats are explored,
+      along with a discussion of the challenges encountered when working in the different
+      3D arrays.
+
+      Participants are invited to explore the immersive mixes and remix the performances
+      in real-time.'
+    full_text_url: https://hdl.handle.net/11250/5568513
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a09cc84458-498c5b59-6f34-45b2-844d-825b393e415b
+  nva_url: https://nva.sikt.no/publication/01a09cc84458-498c5b59-6f34-45b2-844d-825b393e415b
+- title: Impact of AI Tools on Music Production.
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  citation:
+    authors:
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    title: Impact of AI Tools on Music Production.
+    container: Innovation In Music 2026.
+    details: Aalborg.
+    abstract: 'Music production and songwriting tools based on machine learning and
+      artificial intelligence are part of every producer’s toolkit. Whether it is
+      the use of stem splitters to clean up tracks, algorithms for mastering, or generative
+      systems for sound creation and lyric manipulation, these tools have found a
+      place in the modern music studio.
+
+      However, the rapid introduction of such tools raises many questions. Do they
+      improve the creative process? Are algorithms trained with sufficient awareness
+      of juridical and ethical challenges? Is the use of training data in accordance
+      with existing laws and practices regarding copyright and patents? Do these tools
+      affect artistic output, making music better—or less diverse? Is AI making music
+      creation more accessible by lowering technical and artistic thresholds and enabling
+      non-experts to perform tasks that previously required specialist skills?
+
+      Based on interviews, experimental work, and a literature review, this paper
+      explores which AI-based tools are used in contemporary music production, how
+      they are employed, and how they influence the creative process. Technical, juridical,
+      and ethical aspects of different types of AI-driven tools are discussed.
+
+      The paper concludes with an analysis of how new workflows may affect revenue
+      streams for music producers, songwriters, and artists.'
+    full_text_url: https://hdl.handle.net/11250/5568512
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a09cc1f026-19a5b2d2-d899-4237-a234-3a239f35e5d0
+  nva_url: https://nva.sikt.no/publication/01a09cc1f026-19a5b2d2-d899-4237-a234-3a239f35e5d0
 - title: MishMash, one of the new Norwegian National AI Centres
   year: '2026'
   type: ConferenceLecture
@@ -783,6 +944,8 @@ results:
   contributors:
   - name: Rafal Hanzl
     role: Creator
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
   - name: Jannicke Johansen
     role: Creator
     slug: jannicke-johansen
@@ -795,6 +958,8 @@ results:
     authors:
     - display: Hanzl, Rafal
       name: Rafal Hanzl
+      slug: rafal-hanzl
+      url: /people/rafal-hanzl/
     - display: Johansen, Jannicke
       name: Jannicke Johansen
       slug: jannicke-johansen
@@ -2122,6 +2287,62 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: KI-dag for videregående skoler
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  institutions:
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    title: KI-dag for videregående skoler
+    container: KI-dagen.
+    details: Tromsø.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5568518
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a09cd3a2c5-75fbddc7-946b-436e-8d1f-637bb45fde47
+  nva_url: https://nva.sikt.no/publication/01a09cd3a2c5-75fbddc7-946b-436e-8d1f-637bb45fde47
+- title: 'Generative AI: Making Music with Non-Humans'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Joe Kearns
+    role: RoleOther
+  - name: Chris Milnes
+    role: RoleOther
+  - name: Austin Moore
+    role: RoleOther
+  institutions: []
+  citation:
+    authors: []
+    title: 'Generative AI: Making Music with Non-Humans'
+    container: 3rd Annual Conference of the Society for Music Production Research.
+    details: Huddersfield.
+    abstract: Panel debate at the Conference for the Society of Music Production Research,
+      Huddersfield University, 2026
+    full_text_url: https://hdl.handle.net/11250/5568510
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a09c7b2374-9ffffb0c-b37f-46cb-b4dc-b59f1879f732
+  url: https://musicproductionresearch.org/2026-conference
+  nva_url: https://nva.sikt.no/publication/01a09c7b2374-9ffffb0c-b37f-46cb-b4dc-b59f1879f732
 - title: KI++
   year: '2026'
   type: Lecture
@@ -4178,6 +4399,43 @@ results:
     nva_url: https://nva.sikt.no/publication/019c2dccfd55-8187fc7d-7bd2-400e-9148-c54952de43a0
   url: https://trondelag.pameldingssystem.no/nasjonalt-fagkonferanse-for-kulturell-og-kreativ-naering-28-januar?#/default-12928
   nva_url: https://nva.sikt.no/publication/019c2dccfd55-8187fc7d-7bd2-400e-9148-c54952de43a0
+- title: AI, Arts & Humanities
+  year: '2025'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  - name: Lilli Mittner
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  citation:
+    authors:
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    - display: Mittner, Lilli
+      name: Lilli Mittner
+    title: AI, Arts & Humanities
+    container: AI, Arts & Humanities.
+    details: Tromsø.
+    abstract: What are the possible roles of the arts & humanities in research initiatives
+      on artificial intelligence?
+    full_text_url: https://hdl.handle.net/11250/5568514
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a09cccba65-3703b8d3-e873-4b5f-acbf-c3308352f535
+  url: https://uit.no/tavla/artikkel/916203/ai_arts_humanities?p_document_id=916203
+  nva_url: https://nva.sikt.no/publication/01a09cccba65-3703b8d3-e873-4b5f-acbf-c3308352f535
 - title: Permeating Art & Science Collaboration
   year: '2025'
   type: OtherPresentation
@@ -5403,6 +5661,66 @@ results:
     nva_url: https://nva.sikt.no/publication/0198cc705f83-4264b8ca-ef34-41f0-940b-928c02780af7
   url: https://www.arendalsuka.no/programsoek/details/31679
   nva_url: https://nva.sikt.no/publication/0198cc705f83-4264b8ca-ef34-41f0-940b-928c02780af7
+- title: Mennesker og maskiner
+  year: '2026'
+  type: JournalLetter
+  type_label: Letter to the editor
+  group_type: Letter to the editor
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Mennesker og maskiner
+    container: ''
+    details: ''
+    abstract: Det er en del KI-optimister rundt omkring. Men jeg møter flere skeptikere.
+      Da forsøker jeg å minne om at det også finnes mange muligheter.
+    full_text_url: https://hdl.handle.net/11250/5529337
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ed4c83ce5-3e0642d3-76b5-4aa2-89ad-eceeda464110
+  url: https://www.forskerforum.no/forskerlivet/vi-ma-se-oss-selv-i-speilet-hver-gang-vi-bruker-et-ki-verktoy-er-vi-med-pa-a-legitimere-det/
+  nva_url: https://nva.sikt.no/publication/019ed4c83ce5-3e0642d3-76b5-4aa2-89ad-eceeda464110
+- title: Velkommen til festival!
+  year: '2026'
+  type: JournalLetter
+  type_label: Letter to the editor
+  group_type: Letter to the editor
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Velkommen til festival!
+    container: ''
+    details: ''
+    abstract: Det hjelper ikke med «sånn gjør vi det her»-argumentasjon hvis vi skal
+      få til reelt samarbeid på tvers av institusjoner.
+    full_text_url: https://hdl.handle.net/11250/5504614
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
+  url: https://www.forskerforum.no/forskerlivet/nar-folk-spor-hva-slags-senter-mishmash-skal-bli-er-mitt-beste-svar-et-festivalteltsenter/
+  nva_url: https://nva.sikt.no/publication/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
 - title: Tverrfaglighet gjør litt vondt
   year: '2026'
   type: JournalLetter
@@ -5530,36 +5848,100 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019fb812f3c4-da54c6b0-39a3-4359-9a7c-6af13991ed68
   nva_url: https://nva.sikt.no/publication/019fb812f3c4-da54c6b0-39a3-4359-9a7c-6af13991ed68
-- title: Mennesker og maskiner
+- title: 330 ungdommer samlet til KI-dag på UiT
   year: '2026'
-  type: MediaReaderOpinion
-  type_label: Reader opinion
+  type: MediaBlogPost
+  type_label: Blog post
   group_type: Media
   contributors:
-  - name: Alexander Refsum Jensenius
+  - name: Jon Marius Aareskjold-Drecker
     role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
   institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  citation:
+    authors:
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    title: 330 ungdommer samlet til KI-dag på UiT
+    container: Uit.no.
+    details: ''
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5568517
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a09ce1a6c7-029c1cdc-6519-43ba-8ead-0b380fe2c406
+  url: https://uit.no/nyheter/artikkel/kortnytt?p_document_id=929920
+  nva_url: https://nva.sikt.no/publication/01a09ce1a6c7-029c1cdc-6519-43ba-8ead-0b380fe2c406
+- title: 'KI-dag på UiT: Slik kan elevene bruke det godt – og kritisk – NRK Troms
+    og Finnmark'
+  year: '2026'
+  type: MediaFeatureArticle
+  type_label: Feature article
+  group_type: Media
+  contributors:
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  institutions:
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
   citation:
     authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: Mennesker og maskiner
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    title: 'KI-dag på UiT: Slik kan elevene bruke det godt – og kritisk – NRK Troms
+      og Finnmark'
     container: ''
     details: ''
-    abstract: Det er en del KI-optimister rundt omkring. Men jeg møter flere skeptikere.
-      Da forsøker jeg å minne om at det også finnes mange muligheter.
-    full_text_url: https://hdl.handle.net/11250/5529337
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5568516
     full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019ed4c83ce5-3e0642d3-76b5-4aa2-89ad-eceeda464110
-  url: https://www.forskerforum.no/forskerlivet/vi-ma-se-oss-selv-i-speilet-hver-gang-vi-bruker-et-ki-verktoy-er-vi-med-pa-a-legitimere-det/
-  nva_url: https://nva.sikt.no/publication/019ed4c83ce5-3e0642d3-76b5-4aa2-89ad-eceeda464110
+    nva_url: https://nva.sikt.no/publication/01a09cde5d4e-e6fe8075-1b3a-4f1e-b5f8-5dd7a97bbe93
+  url: https://www.nrk.no/tromsogfinnmark/ki-dag-pa-uit_-slik-kan-elevene-bruke-det-godt-_-og-kritisk-1.17904403
+  nva_url: https://nva.sikt.no/publication/01a09cde5d4e-e6fe8075-1b3a-4f1e-b5f8-5dd7a97bbe93
+- title: News story about KI-dagen on Distriktsnyheter Nordnytt - NRK TV
+  year: '2026'
+  type: MediaParticipationInRadioOrTv
+  type_label: Radio or TV
+  group_type: Media
+  contributors:
+  - name: Jon Marius Aareskjold-Drecker
+    role: ProgrammeLeader
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  citation:
+    authors: []
+    title: News story about KI-dagen on Distriktsnyheter Nordnytt - NRK TV
+    container: Nordnytt.
+    details: ''
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5568515
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a09cdb57e2-ae164f69-4d19-4924-9868-b51a9e134b3b
+  url: https://tv.nrk.no/serie/distriktsnyheter-nordnytt/sesong/202606/episode/DKTR98060126
+  nva_url: https://nva.sikt.no/publication/01a09cdb57e2-ae164f69-4d19-4924-9868-b51a9e134b3b
 - title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
   year: '2026'
   type: MediaParticipationInRadioOrTv
@@ -5803,36 +6185,6 @@ results:
     nva_url: https://nva.sikt.no/publication/019d7142230d-2db844aa-a0c3-4c57-a477-9094de115b10
   url: https://www.uniforum.uio.no/nyheter/2026/04/eneste-ki-senter-som-kobler-teknologi-og-kreativit.html
   nva_url: https://nva.sikt.no/publication/019d7142230d-2db844aa-a0c3-4c57-a477-9094de115b10
-- title: Velkommen til festival!
-  year: '2026'
-  type: MediaReaderOpinion
-  type_label: Reader opinion
-  group_type: Media
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Jensenius, Alexander Refsum
-      name: Alexander Refsum Jensenius
-      slug: alexander-refsum-jensenius
-      url: /people/alexander-refsum-jensenius/
-    title: Velkommen til festival!
-    container: ''
-    details: ''
-    abstract: Det hjelper ikke med «sånn gjør vi det her»-argumentasjon hvis vi skal
-      få til reelt samarbeid på tvers av institusjoner.
-    full_text_url: https://hdl.handle.net/11250/5504614
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
-  url: https://www.forskerforum.no/forskerlivet/nar-folk-spor-hva-slags-senter-mishmash-skal-bli-er-mitt-beste-svar-et-festivalteltsenter/
-  nva_url: https://nva.sikt.no/publication/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
 - title: Hva er "flytsonen"?
   year: '2026'
   type: MediaParticipationInRadioOrTv

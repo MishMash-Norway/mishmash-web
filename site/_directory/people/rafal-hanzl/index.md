@@ -27,28 +27,28 @@ urls:
 aliases: []
 tags:
 - Projections
-- Multimedia programs
-- Computer animation
-- Interaction design
-- Artificial intelligence
-- Design, art, applied art, entrepreurship
-- 3d modelling
-- Digital photography
-- Digital twins
-- Game concept
+- Multimedia Programs
+- Computer Animation
+- Interaction Design
+- Artificial Intelligence
+- Design, Art, Applied Art, Entrepreurship
+- 3D Modelling
+- Digital Photography
+- Digital Twins
+- Game Concept
 - Game Design
 - Compositing
 search_keywords:
 - Projections
-- Multimedia programs
-- Computer animation
-- Interaction design
-- Artificial intelligence
-- Design, art, applied art, entrepreurship
-- 3d modelling
-- Digital photography
-- Digital twins
-- Game concept
+- Multimedia Programs
+- Computer Animation
+- Interaction Design
+- Artificial Intelligence
+- Design, Art, Applied Art, Entrepreurship
+- 3D Modelling
+- Digital Photography
+- Digital Twins
+- Game Concept
 - Game Design
 - Compositing
 selected_works:
@@ -63,6 +63,8 @@ selected_works:
     url: /people/marie-dahlen/
   - name: Rafal Hanzl
     role: Artist
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
   - name: Henning Birkeland
     role: Artist
     slug: henning-birkeland
@@ -78,6 +80,8 @@ selected_works:
   contributors:
   - name: Rafal Hanzl
     role: Artist
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
   - name: Jannicke Johansen
     role: Artist
     slug: jannicke-johansen
@@ -93,8 +97,12 @@ selected_works:
     role: Director
   - name: Odd Torleiv Furnes
     role: SoundDesigner
+    slug: odd-torleiv-furnes
+    url: /people/odd-torleiv-furnes/
   - name: Rafal Hanzl
     role: VfxSupervisor
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
   - name: Petter Østergaard
     role: RoleOther
   - name: Mikkel Wettre
@@ -111,6 +119,8 @@ selected_works:
   contributors:
   - name: Rafal Hanzl
     role: ProjectLeader
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
   - name: Maureen Thomas
     role: Writer
 - title: Akershus 1624-1648 Interactive Exhibit
@@ -121,6 +131,8 @@ selected_works:
   contributors:
   - name: Rafal Hanzl
     role: ProjectLeader
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
   - name: Maureen Thomas
     role: Writer
 - title: Medieval Akersborg - Interactive Museum Exhibit
@@ -131,6 +143,8 @@ selected_works:
   contributors:
   - name: Rafal Hanzl
     role: ProjectLeader
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
   - name: Maureen Thomas
     role: Writer
 - title: QueensGame
@@ -143,6 +157,8 @@ selected_works:
     role: Artist
   - name: Rafal Hanzl
     role: Artist
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
 - title: Medieval Akershus Castle - Interactive Museum Exhibit
   year: '2022'
   source: Exhibition
@@ -151,6 +167,8 @@ selected_works:
   contributors:
   - name: Rafal Hanzl
     role: ProjectLeader
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
   - name: Maureen Thomas
     role: Writer
 - title: Medieval Akershus Castle Model Installation
@@ -161,6 +179,8 @@ selected_works:
   contributors:
   - name: Rafal Hanzl
     role: Artist
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
   - name: Maureen Thomas
     role: Consultant
 - title: Songs from Akersborg Christmas 1363
@@ -173,6 +193,8 @@ selected_works:
     role: ArtisticDirector
   - name: Rafal Hanzl
     role: Scenographer
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
   - name: Kariina Gretere
     role: Actor
   - name: Idunn Snædis Agustsdottir

@@ -31,18 +31,18 @@ urls:
   facebook: ''
   mastodon: ''
   instagram: ''
-  wikidata: ''
+  wikidata: https://www.wikidata.org/wiki/Q138231133
 aliases: []
 tags:
-- Digital innovation
-- digital cultural funding
-- platformisation
-- creative and cultural industries
+- Digital Innovation
+- Digital Cultural Funding
+- Platformisation
+- Creative and Cultural Industries
 search_keywords:
-- Digital innovation
-- digital cultural funding
-- platformisation
-- creative and cultural industries
+- Digital Innovation
+- Digital Cultural Funding
+- Platformisation
+- Creative and Cultural Industries
 selected_works:
 - title: 'Crowdfunding of climate measures in agriculture: investigation of success
     factors in a real-life setting'
@@ -55,6 +55,8 @@ selected_works:
     role: Creator
   - name: Natalia Mæhle
     role: Creator
+    slug: natalia-maehle
+    url: /people/natalia-maehle/
   - name: Rita Moseng Sivertsvik
     role: Creator
 - title: 'Determinants of Green Product Consumption: Insights From Norway'
@@ -69,6 +71,8 @@ selected_works:
     role: Creator
   - name: Natalia Mæhle
     role: Creator
+    slug: natalia-maehle
+    url: /people/natalia-maehle/
   - name: Mosharrof Hosen
     role: Creator
   - name: Gordon Mwintome
@@ -82,6 +86,8 @@ selected_works:
   contributors:
   - name: Natalia Mæhle
     role: Creator
+    slug: natalia-maehle
+    url: /people/natalia-maehle/
   - name: Emily Moschowits
     role: Creator
   - name: Svein Gunnar Sjøtun
@@ -93,6 +99,8 @@ selected_works:
   contributors:
   - name: Natalia Mæhle
     role: Creator
+    slug: natalia-maehle
+    url: /people/natalia-maehle/
 - title: 'Crowdfunding in the Culture Sector: Adoption, Effects, and Implications
     (CROWDCUL project). Summary of the Main Results.'
   year: '2025'
@@ -102,6 +110,8 @@ selected_works:
   contributors:
   - name: Natalia Mæhle
     role: Creator
+    slug: natalia-maehle
+    url: /people/natalia-maehle/
   - name: Alice Demattos Guimaraes
     role: Creator
 - title: 'Co-creating value for business and society: A B2B sharing economy ecosystem
@@ -115,6 +125,8 @@ selected_works:
     role: Creator
   - name: Natalia Mæhle
     role: Creator
+    slug: natalia-maehle
+    url: /people/natalia-maehle/
 - title: Driving Corporate Engagement in Sustainability Actions Through a Domestic
     Carbon Credit Initiative
   year: '2025'
@@ -123,6 +135,8 @@ selected_works:
   contributors:
   - name: Natalia Mæhle
     role: Creator
+    slug: natalia-maehle
+    url: /people/natalia-maehle/
   - name: Pia Otte
     role: Creator
 - title: 'Building corporate brand through sustainability actions: A case of domestic
@@ -133,6 +147,8 @@ selected_works:
   contributors:
   - name: Natalia Mæhle
     role: Creator
+    slug: natalia-maehle
+    url: /people/natalia-maehle/
   - name: Pia Otte
     role: Creator
 - title: Consumer Perceptions of Foods Fortified with Omega-3 from Fish Processing
@@ -146,6 +162,8 @@ selected_works:
     role: Creator
   - name: Natalia Mæhle
     role: Creator
+    slug: natalia-maehle
+    url: /people/natalia-maehle/
   - name: Marie U. Rugland
     role: Creator
   - name: Eva Holmquist Falch
@@ -161,6 +179,8 @@ selected_works:
     role: Creator
   - name: Natalia Mæhle
     role: Creator
+    slug: natalia-maehle
+    url: /people/natalia-maehle/
 source_mentions: []
 summary: null
 published: true
