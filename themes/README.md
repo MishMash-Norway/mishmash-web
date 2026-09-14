@@ -38,7 +38,7 @@ browser reloads on save.
 
 ```bash
 ./scripts/ui list                       # what themes exist
-./scripts/ui serve artsy                # try another theme
+./scripts/ui serve bubbles              # try another theme
 ./scripts/ui serve default --port 4001  # the unmodified site, e.g. side by side
 ./scripts/ui build my-theme             # one-off build into .ui-work/_site/
 ```

@@ -1,11 +1,6 @@
 # UI themes listed on the /ui/ preview gallery. Each name must match a
 # folder under themes/ — the deploy workflow builds every theme it finds
 # into /ui/<name>/, and this file controls what the gallery says about them.
-- name: artsy
-  title: Artsy
-  description: >-
-    A warm exhibition-catalogue UI: paper grain, serif display, drop caps,
-    hand-painted ochre strokes, and photos hung like tilted canvases.
 - name: example
   title: Example
   description: >-
