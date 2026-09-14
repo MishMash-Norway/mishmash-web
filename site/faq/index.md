@@ -3,12 +3,12 @@ layout: default
 title: FAQ
 page_about:
   ai_support:
-    agent: Cursor
+    agent: Claude Code
     model_name: Claude
-    model_version: "4.6 Sonnet"
+    model_version: "Opus 5"
   data_sources:
     - manual
-description: "Frequently asked questions about MishMash: the name, the emblem, funding, partners, and how to get involved."
+description: "Frequently asked questions about MishMash: the name, the emblem, funding, partners, access to computing power and AI tools, and how to get involved."
 ---
 
 # Frequently Asked Questions
@@ -134,6 +134,143 @@ Many activities rely on shared effort across institutions, rather than central c
 <summary><span class="faq-summary-text">What are seed funding projects?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
 MishMash supports smaller research initiatives through seed funding announced internally in the centre regularly. See the [project pages](/projects/) for examples of ongoing projects. Keep in mind that MishMash primarily supports research activities in Norway. International partners can apply, but there should be a solid Norwegian collaboration involved.
+
+</details>
+
+<h2 class="faq-section">Computing power and AI tools</h2>
+
+<details class="faq-item" id="where-do-i-start-with-computing" markdown="1">
+<summary><span class="faq-summary-text">Where do I start if I need more computing power?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Start by working out which of three jobs you have, because they need very different machines:
+
+* **Running a model** (inference): using a model someone else trained. A good laptop or a single consumer GPU often does this.
+* **Adapting a model** (fine-tuning): a workstation GPU or a few hours on a cluster.
+* **Training from scratch**: this is the one that needs a national or European supercomputer.
+
+Then climb one step at a time: your own machine, your department's machine, your institution's cluster, the national systems, and Europe. Most creative work never needs to go past the second step, and work that has to respond in real time on stage belongs on a machine in the room rather than in a data centre. Ask your local IT service first; they answer faster than any application round.
+
+</details>
+
+<details class="faq-item" id="what-are-sigma2-nris-olivia" markdown="1">
+<summary><span class="faq-summary-text">What are Sigma2, NRIS, Olivia and KI-fabrikken?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+These names are often used interchangeably, and they are not the same thing:
+
+* **Sigma2** is the state-owned company that runs Norway's national computing and storage services.
+* **NRIS** (Norwegian Research Infrastructure Services) is the partnership that delivers them: Sigma2 together with the IT groups at UiO, UiB, UiT and NTNU. It is an organisation, not a machine.
+* **Olivia** is the machine: Norway's most powerful supercomputer, built for AI as well as classical simulation.
+* **KI-fabrikken** (the Norwegian AI Factory) is Sigma2's service for public sector bodies and businesses, and Norway's node in the European LUMI AI Factory.
+* **NREC** (Norwegian Research and Education Cloud) is a separate cloud service run by UiO and UiB, suited to hosting services and demonstrations rather than training models.
+
+See [Sigma2](https://www.sigma2.no/) and the [NRIS documentation](https://documentation.sigma2.no/).
+
+</details>
+
+<details class="faq-item" id="university-researcher-compute" markdown="1">
+<summary><span class="faq-summary-text">I am a researcher or student at a Norwegian university. What can I use?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Your own institution first. UiO has [Fox and Educloud Research](https://www.uio.no/english/services/it/research/hpc/fox/), NTNU has the Idun cluster, and most other institutions run something local. Many departments also have their own machine-learning servers that are easier to get onto than anything national.
+
+When you outgrow that, apply for the national systems through NRIS. Students cannot apply directly and go through a supervisor.
+
+The national systems have a reputation for being difficult that they no longer deserve. The documentation is step by step, example scripts are provided, courses run regularly, and the staff answer email. Researchers in MishMash who have climbed the whole ladder report that the hardest part was deciding to start.
+
+</details>
+
+<details class="faq-item" id="how-to-apply-national-hpc" markdown="1">
+<summary><span class="faq-summary-text">How do I apply for national computing resources?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Through [Sigma2's application pages](https://www.sigma2.no/apply-e-infrastructure-resources). Three things are worth knowing before you start:
+
+* **Who may apply.** Norwegian universities and university colleges, governmental research centres, bodies financed by the Ministry of Education and Research or the Research Council, Norwegian hospitals, and industrial parties. Organisations outside these categories are invited to contact Sigma2 and ask.
+* **Who signs.** The project leader must hold a permanent, postdoctoral or temporary position at an eligible organisation. Master's and PhD students and guest researchers apply through a supervisor or colleague.
+* **When.** There are two calls a year, with deadlines usually in February and August, and allocations starting 1 April and 1 October. Requests outside the calls are also accepted and are normally answered within a couple of working days, subject to available capacity, so a small trial allocation does not mean waiting for the next round.
+
+</details>
+
+<details class="faq-item" id="small-institution-compute" markdown="1">
+<summary><span class="faq-summary-text">My institution has no cluster. What then?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+You can still apply for the national systems. Eligibility follows the type of institution, not whether it owns hardware, so an art school, a university college or a research institute can hold a national allocation without any local cluster at all. Ask your IT service whether anyone at your institution already has an allocation you can join, since joining an existing project is faster than starting one.
+
+For a lot of creative work, one well-specified GPU workstation in the building is a better answer than a share of a supercomputer, and it costs less than people expect.
+
+</details>
+
+<details class="faq-item" id="company-compute" markdown="1">
+<summary><span class="faq-summary-text">I work in a company or a startup. What can I use?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Two routes, and the European one is faster than most people realise.
+
+* [KI-fabrikken](https://www.sigma2.no/nb/ki-fabrikken) is Sigma2's service for Norwegian businesses and public sector bodies, with computing capacity, advice and support. Get in touch with Sigma2 to discuss what you need.
+* [EuroHPC AI Factory access](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en) is free of charge to AI SMEs and startups. *Playground* access is permanently open and normally decided within two working days; *Fast Lane* gives up to 50 000 GPU hours and is normally decided within four. Applications go through the [EuroHPC access portal](https://access.eurohpc-ju.europa.eu/). Norway takes part through the LUMI AI Factory, so Norwegian companies are eligible.
+
+Industrial parties may also apply for the national systems on the terms above, with payment for use.
+
+</details>
+
+<details class="faq-item" id="artist-freelancer-compute" markdown="1">
+<summary><span class="faq-summary-text">I am an artist or freelancer, or I work at a cultural institution. What can I use?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Honestly, this is the biggest gap in the Norwegian landscape, and MishMash is working on it.
+
+A cultural institution that is a public body may be able to use KI-fabrikken, and any organisation outside the listed categories is invited to ask Sigma2 whether a national allocation is possible. Nobody has yet tested that route for a Norwegian cultural institution, so an early enquiry is useful for everyone.
+
+An individual artist with no employer has no national route today. This is a question of identity rather than policy: the application systems assume an institutional account, so a freelancer cannot get in even where the rules would otherwise allow it. For now the practical answers are hardware you own, and commercial services you pay for per use.
+
+If you are working with a MishMash partner, ask whether you can be added to their project. Access through a colleague is the one door that is open now.
+
+</details>
+
+<details class="faq-item" id="realtime-compute" markdown="1">
+<summary><span class="faq-summary-text">I need something that runs in real time, on stage or in the studio.</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Then the national systems are the wrong tool, however powerful they are. They are batch-scheduled, which means you submit a job and wait, and they sit in a data centre far from the room you are playing in. Latency is the whole point of a system that plays along.
+
+A single consumer GPU in the studio, or a laptop with a lot of unified memory, runs most real-time audio and small models well. Unified-memory desktops are strong for inference and weaker for training, so many people train on a cluster and perform on a local machine.
+
+</details>
+
+<details class="faq-item" id="rent-or-buy-compute" markdown="1">
+<summary><span class="faq-summary-text">Should I rent computing power or buy a machine?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+A rule of thumb from practitioners in the centre: with continuous use, about six months of rented cloud capacity pays for the equivalent machine. Rent for bursts, buy for daily use.
+
+There is a second argument for owning that has nothing to do with money. Research exploration cannot be scheduled in advance, and a metered budget introduces a fear of running out that quietly changes what you are willing to try.
+
+</details>
+
+<details class="faq-item" id="commercial-ai-tools" markdown="1">
+<summary><span class="faq-summary-text">What about ChatGPT, Claude and other commercial tools? Does MishMash pay?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+MishMash does not buy subscriptions for its members. Check what your own institution offers before paying for anything yourself.
+
+Several Norwegian institutions run gateways that put a chat interface and an API in front of commercial and open-weight models, with a quota per user and per data classification, so the institution pays for what is actually used. UiO and NTNU both run one. [Sikt KI](https://sikt.no/tjenester/sikt-ki) serves universities, colleges, research institutions and upper secondary schools through Feide login.
+
+Paying per use through a gateway is usually far cheaper than buying a seat for every person, because a seat costs the same for the heavy user and for the person who tried it twice.
+
+</details>
+
+<details class="faq-item" id="norwegian-open-models" markdown="1">
+<summary><span class="faq-summary-text">Where do I find open Norwegian AI models?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Three groups publish them openly:
+
+* [The Language Technology Group at UiO](https://www.mn.uio.no/ifi/english/research/groups/ltg/llms-for-norwegian/), which makes the NorMistral family.
+* [NorwAI at NTNU](https://www.ntnu.edu/norwai), which makes the NorLLM family.
+* [The National Library's AI-lab](https://ai.nb.no/), which makes NB-Whisper for Norwegian speech and the Borealis language models, trained on the library's collection.
+
+These cover text and speech. Open Norwegian models for music, image, video and motion barely exist, which is one of the things MishMash exists to change.
+
+</details>
+
+<details class="faq-item" id="mishmash-compute-allocation" markdown="1">
+<summary><span class="faq-summary-text">Does MishMash have computing resources of its own?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Not yet. The centre is setting up a national project allocation so that members can be given access through MishMash rather than only through their own institution, and this page will say how to get on it once it exists.
+
+Beyond that, the centre is working on the structural problem behind these questions: that access in Norway depends on which institution you happen to sit in, and that artists, freelancers and cultural institutions have the least access to the tools they most need. If you have hit a wall we should know about, write to [contact@mishmash.no](mailto:contact@mishmash.no) and tell us what you could not get.
 
 </details>
 
