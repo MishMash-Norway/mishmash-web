@@ -140,6 +140,17 @@
             p.classList.add('mm-more');
           }
         });
+
+        // Only one nav dropdown open at a time: opening one closes the others.
+        var dropdowns = document.querySelectorAll('.mm-nav details');
+        dropdowns.forEach(function (details) {
+          details.addEventListener('toggle', function () {
+            if (!details.open) return;
+            dropdowns.forEach(function (other) {
+              if (other !== details) other.open = false;
+            });
+          });
+        });
       })();
     </script>
   </body>
