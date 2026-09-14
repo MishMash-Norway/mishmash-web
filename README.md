@@ -7,7 +7,7 @@ Source for [mishmash.no](https://mishmash.no), the website of the MishMash Centr
 
 ## Want to change something on the website?
 
-The site is a [Jekyll](https://jekyllrb.com/) static site published on GitHub Pages. There is no content management system: every page is a text file in this repository. Committing a change kicks off the build process automatically, and publishes a new version of the page in a few minutes. 
+The site is a [Jekyll](https://jekyllrb.com/) static site published on GitHub Pages. There is no content management system: every page is a text file in this repository. Committing a change kicks off the build process automatically and publishes a new version of the page in a few minutes. 
 
 Check the [wiki](https://github.com/MishMash-Norway/mishmash-web/wiki) for documentation about how the page works. Start with [Start Here][start], then [Your First Edit][first]. Then you can explore [Adding News][news], [Adding Events][events], [Markdown Basics][md], [When Things Go Wrong][wrong].
 
@@ -55,7 +55,7 @@ The visual identity (wordmark, colours, type) is documented in [BRAND.md](BRAND.
 
 ## Questions and comments
 
-If you have questions or comments about the code, please use the [issues tracker][issues]. For general things, write to contact@mishmash.no.
+If you have questions or comments about the code, please use the [issues tracker](https://github.com/MishMash-Norway/mishmash-web/issues). For general things, write to contact@mishmash.no.
 
 [start]: https://github.com/MishMash-Norway/mishmash-web/wiki/Start-Here
 [first]: https://github.com/MishMash-Norway/mishmash-web/wiki/Your-First-Edit
