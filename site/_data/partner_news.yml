@@ -2,6 +2,22 @@
 # Keep dates in ISO format (YYYY-MM-DD).
 # Use lang: en or lang: nb to control which language version of the site shows each entry.
 
+- date: 2026-09-10
+  lang: en
+  url: https://www.uio.no/english/research/research-news/articles/2026/new-ways-of-searching-video-and-music-archives.html
+  og_image: https://www.uio.no/english/research/research-news/articles/2026/photos/hf/ritmo/ultima-performance1000x562.jpg
+  title: "Research unlocks new ways of searching video and music archives"
+  description: "Anna-Maria Christodoulou at RITMO trains AI models that combine audio, video and context, so music and film archives answer far more complex questions. The work continues in MishMash together with the National Library of Norway."
+  partner: University of Oslo
+
+- date: 2026-09-10
+  lang: nb
+  url: https://www.uio.no/forskning/forskningsnytt/artikler/2026/nye-sok-i-video--og-musikkdatabaser.html
+  og_image: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/ritmo/ultima-performance1000x562.jpg
+  title: "Forskning åpner for helt nye søk i video- og musikkdatabaser"
+  description: "Anna-Maria Christodoulou ved RITMO trener KI-modeller som kombinerer lyd, video og kontekst, slik at musikk- og filmarkiver kan svare på langt mer komplekse spørsmål. Arbeidet fortsetter i MishMash sammen med Nasjonalbiblioteket."
+  partner: Universitetet i Oslo
+
 - date: 2026-08-21
   lang: en
   url: https://ateliernord.no/project/atelier-nord-residency/?lang=en
