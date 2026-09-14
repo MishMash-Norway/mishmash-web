@@ -152,6 +152,21 @@ Then climb one step at a time: your own machine, your department's machine, your
 
 </details>
 
+<details class="faq-item" id="training-vs-inference" markdown="1">
+<summary><span class="faq-summary-text">What is the difference between training and inference, and why does it matter?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+This is the distinction that resolves most confused conversations about computing power.
+
+* **Inference** is running a model that already exists: you send it something and it answers. It takes seconds, and what it needs is enough fast memory to hold the model. Every chat window, every transcription, every generated image is inference. It is well over ninety per cent of what most people ever do.
+* **Fine-tuning** is taking an existing model and continuing to train it on your own material, so that it learns your voice, your sound or your footage. Hours to days, on one to eight good GPUs. This is where most creative research actually lives.
+* **Training from scratch** is building a model from nothing. Weeks on hundreds of GPUs, and a much larger data problem than compute problem. Very few projects should do this.
+
+Why it matters: the national supercomputers are built for training, and they are poor at the thing most people actually want, which is an answer in a second. Chat services are built for inference, and none of them will fine-tune anything for you. Asking for a supercomputer allocation when what you needed was a transcription service is the most common mistake in these conversations.
+
+The two also cost differently, which is why they get different arrangements. Inference cost rises smoothly with use, so it suits a quota. Training is a block of hours booked in advance, so it suits an allocation.
+
+</details>
+
 <details class="faq-item" id="what-are-sigma2-nris-olivia" markdown="1">
 <summary><span class="faq-summary-text">What are Sigma2, NRIS, Olivia and KI-fabrikken?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
@@ -164,6 +179,23 @@ These names are often used interchangeably, and they are not the same thing:
 * **NREC** (Norwegian Research and Education Cloud) is a separate cloud service run by UiO and UiB, suited to hosting services and demonstrations rather than training models.
 
 See [Sigma2](https://www.sigma2.no/) and the [NRIS documentation](https://documentation.sigma2.no/).
+
+</details>
+
+<details class="faq-item" id="institution-vs-national" markdown="1">
+<summary><span class="faq-summary-text">How do my institution's AI services relate to the national ones?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Five different things get called "AI services", and most confusion comes from mixing them up. Your institution may run several of them, and they are not substitutes for one another.
+
+* **A chat gateway**: a chat window, usually with an API, in front of a set of models, behind your institutional login, with each model marked for the kind of data it may carry. UiO has GPT UiO, NTNU has GPT NTNU, UiB has UiBchat, and Sikt KI is available across the sector. This is an inference service.
+* **An applied service**: one job done well, with no model to choose. UiO's Autotekst transcribes speech to text and subtitles video, and is used by a number of other institutions too.
+* **A batch cluster**: you write a job script, queue it, and collect the result later. Fox at UiO, Idun at NTNU, local clusters elsewhere. This is where fine-tuning happens.
+* **A secure environment**: an approved room for confidential or health data with computing inside it. TSD at UiO, SAFE at UiB, HUNT Cloud at NTNU.
+* **An infrastructure cloud**: virtual machines you administer yourself, for hosting a service or a demonstration. NREC, run jointly by UiO and UiB.
+
+The national systems sit above the third of these, not the first. Sigma2's machines are for training and fine-tuning; they will not give you a chat window. If your institution has no cluster, that changes what you should ask the national systems for, but it does not change your access to a gateway, which your institution decides.
+
+One thing worth knowing: the institutional gateways are not simply wrappers around commercial services. GPT UiO serves a number of open-weight models on Norwegian hardware at UiO and NTNU, alongside the commercial ones, with separate access for different data classifications.
 
 </details>
 
@@ -220,6 +252,32 @@ A cultural institution that is a public body may be able to use KI-fabrikken, an
 An individual artist with no employer has no national route today. This is a question of identity rather than policy: the application systems assume an institutional account, so a freelancer cannot get in even where the rules would otherwise allow it. For now the practical answers are hardware you own, and commercial services you pay for per use.
 
 If you are working with a MishMash partner, ask whether you can be added to their project. Access through a colleague is the one door that is open now.
+
+</details>
+
+<details class="faq-item" id="image-audio-video-models" markdown="1">
+<summary><span class="faq-summary-text">I work with images, sound, music or video. What can I use?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Your own machine, in almost every case, and this is worth stating plainly: every Norwegian institutional AI service is language and speech only. GPT UiO, GPT NTNU, UiBchat, Sikt KI and Autotekst do text and transcription. None of them serves an image, audio, music or video model. A professor at a large university and a freelance artist have the same access to a music model through Norwegian infrastructure, which is none.
+
+So the route is open-weight models run locally, through an interface such as ComfyUI. For video, the models in common use are Wan, HunyuanVideo, LTX-Video, CogVideoX and Mochi; for music, ACE-Step and Stable Audio Open; for real-time audio, RAVE from IRCAM, which plugs into Max and Pure Data. Most of these run on a single consumer GPU with 16 to 32 GB of memory, which is a purchase rather than an application.
+
+Read the licence before you rely on anything. "Open weights" is not one thing: some of these are Apache 2.0 and free to use commercially, some carry revenue thresholds, and some are non-commercial, which means their output cannot be used in commercial work however you host the model.
+
+Closing this gap for Norwegian creative material is one of the reasons MishMash exists.
+
+</details>
+
+<details class="faq-item" id="museum-archive-compute" markdown="1">
+<summary><span class="faq-summary-text">I work at a museum, library, archive or theatre. What applies to us?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+It depends a great deal on which institution, and it is a mistake to treat the cultural sector as one case.
+
+The National Library is at one end. It runs its own AI-lab, has published hundreds of models and datasets openly, has a dedicated state funding line for Norwegian and Sámi language models with matching money to Sigma2 for the computing underneath, and sits alongside UiO and NTNU in Språkmodellklynge Norge. For most purposes it is a producer of national infrastructure rather than a user looking for access.
+
+Most other cultural institutions are at the other end, with no cluster, no allocation and no AI-lab. Two routes are worth trying. KI-fabrikken serves public sector bodies, and a publicly owned or publicly funded institution may qualify. Separately, Sigma2 invites organisations outside its listed eligibility categories to get in touch and ask. As far as we can establish, neither route has yet been tested by a Norwegian museum or theatre, so an early enquiry helps the whole sector by establishing what the answer is.
+
+If you try either, we would like to hear what happened: [contact@mishmash.no](mailto:contact@mishmash.no).
 
 </details>
 
