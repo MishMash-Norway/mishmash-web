@@ -1,6 +1,6 @@
 ---
 title: "MishMash Opening Conference"
-date: 2026-09-14 10:00:00 +02:00   # Event start date/time
+date: 2026-09-15 10:00:00 +02:00   # Event start date/time
 end_date: 2026-09-15 23:00:00 +02:00 # Optional: Event end time
 location: Kristiansand
 layout: event
