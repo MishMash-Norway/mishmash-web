@@ -283,14 +283,38 @@ institutions:
             Secure environment for sensitive personal data, open to UiB staff,
             students and external collaborators, with computing inside it.
           url: https://hjelpekort.app.uib.no/KI-0308.html
-  arctic-university-of-norway:
-    category: no-university-full
-  university-of-agder:
-    category: no-university-full
-  university-of-stavanger:
-    category: no-university-full
 
   # Norwegian universities and colleges without their own cluster
+  arctic-university-of-norway:
+    category: no-university-no-cluster
+    local:
+      note: >-
+        UiT's HPC group operates the national NRIS systems rather than a
+        UiT-only cluster, which means the people who run Norway's national
+        machines are on your campus. Local support for a national allocation
+        is unusually close at hand.
+      services:
+        - name: UiT HPC group
+          note: >-
+            Email, weekly office hours and monthly question sessions, for
+            researchers who need more than a personal computer.
+          url: https://hpc.uit.no/
+  university-of-agder:
+    category: no-university-no-cluster
+    local:
+      note: >-
+        UiA runs no gateway or general cluster of its own. CAIR, the Centre
+        for Artificial Intelligence Research, has its own machines, but their
+        terms are a question for CAIR rather than an institutional service.
+      services:
+        - name: GPT UiO
+          note: Staff and students, Feide login at gpt.uio.no, yellow data.
+          url: https://www.uia.no/uia-hjelp/it/ai.html
+        - name: Copilot
+          note: Staff and students, UiA Microsoft account, yellow data.
+          url: https://www.uia.no/uia-hjelp/it/ai.html
+  university-of-stavanger:
+    category: no-university-no-cluster
   university-of-inland-norway:
     category: no-university-no-cluster
     local:
