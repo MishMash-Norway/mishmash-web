@@ -7,7 +7,10 @@ Scans site pages with `adaptive: true` front matter, extracts the
 1. warns when a heading section covers some reading levels but not all
    (a level with no block sees nothing for that section), and
 2. computes a LIX readability score per level per page and warns when
-   the levels are not ordered simple <= standard <= advanced.
+   the levels are not ordered simple <= standard <= advanced, and
+3. checks that every glossary entry (_data/glossary.yml) has a text for
+   every reading level in every glossary language, since the entries
+   render per level both inline (stretchtext) and on the glossary pages.
 
 LIX = words/sentences + 100 * longwords(>6 chars)/words works for both
 Norwegian and English. Guidance: <30 easy, 40-50 difficult, >60 very
@@ -28,6 +31,7 @@ BLOCK_RE = re.compile(
     r'<div class="adaptive" data-for="([^"]+)"[^>]*>(.*?)</div>', re.S
 )
 HEADING_RE = re.compile(r"^##\s+(.+)$", re.M)
+GLOSSARY_LANGS = ("en", "nb")
 
 
 def load_levels(root: Path) -> list[str]:
@@ -105,6 +109,22 @@ def check_page(path: Path, body: str, levels: list[str], warnings: list[str]) ->
     return {lv: lix(strip_markup(t)) for lv, t in per_level.items()}
 
 
+def check_glossary(entries: list, levels: list[str], warnings: list[str]) -> int:
+    """Warn for every glossary entry missing a level or a language.
+    Returns the number of entries checked."""
+    for entry in entries:
+        key = entry.get("key", "?") if isinstance(entry, dict) else "?"
+        for level in levels:
+            block = entry.get(level) if isinstance(entry, dict) else None
+            if not isinstance(block, dict):
+                warnings.append(f"glossary '{key}': no '{level}' text")
+                continue
+            for lang in GLOSSARY_LANGS:
+                if not str(block.get(lang) or "").strip():
+                    warnings.append(f"glossary '{key}': '{level}' has no '{lang}' text")
+    return len(entries)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--strict", action="store_true", help="exit 1 on warnings")
@@ -132,6 +152,12 @@ def main() -> int:
 
     if not found:
         print("No adaptive pages found.")
+
+    glossary_path = root / "_data" / "glossary.yml"
+    if glossary_path.exists():
+        entries = yaml.safe_load(glossary_path.read_text(encoding="utf-8")) or []
+        n = check_glossary(entries, levels, warnings)
+        print(f"{glossary_path.relative_to(root.parent)}: {n} entries checked")
     if warnings:
         print(f"\n{len(warnings)} warning(s):")
         for w in warnings:

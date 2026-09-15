@@ -72,5 +72,32 @@ class CheckPageTests(unittest.TestCase):
         self.assertEqual(warnings, [])
 
 
+class CheckGlossaryTests(unittest.TestCase):
+    LEVELS = ["simple", "standard", "advanced"]
+
+    def entry(self, **levels):
+        return {"key": "ai", "term": {"en": "AI", "nb": "KI"}, **levels}
+
+    def test_complete_entry_passes(self):
+        full = {"en": "x", "nb": "y"}
+        warnings = []
+        n = cr.check_glossary(
+            [self.entry(simple=full, standard=full, advanced=full)], self.LEVELS, warnings
+        )
+        self.assertEqual(n, 1)
+        self.assertEqual(warnings, [])
+
+    def test_missing_level_and_language_are_reported(self):
+        warnings = []
+        cr.check_glossary(
+            [self.entry(simple={"en": "x", "nb": ""}, standard={"en": "x", "nb": "y"})],
+            self.LEVELS,
+            warnings,
+        )
+        self.assertEqual(len(warnings), 2)
+        self.assertIn("'simple' has no 'nb' text", warnings[0])
+        self.assertIn("no 'advanced' text", warnings[1])
+
+
 if __name__ == "__main__":
     unittest.main()
