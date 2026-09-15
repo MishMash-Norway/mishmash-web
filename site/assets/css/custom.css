@@ -99,6 +99,29 @@ body {
   text-transform: capitalize;
 }
 
+/* The definition from the literature, under the plain one that powers the
+   inline stretchtext. */
+.glossary-canonical {
+  display: block;
+  margin-top: 0.4rem;
+  padding-left: 0.8rem;
+  border-left: 3px solid var(--mm-purple);
+  color: var(--mm-ink-70);
+}
+
+.glossary-canonical-label {
+  font-family: var(--mm-font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.8em;
+  color: var(--mm-ink-40);
+}
+
+.glossary-canonical cite {
+  font-style: normal;
+  white-space: nowrap;
+}
+
 /* Header nav dropdowns (markup in _layouts/default.html) */
 .wp-dropdown {
   position: relative;
