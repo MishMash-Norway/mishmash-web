@@ -46,6 +46,35 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'musicalgestures: A Python toolbox for visualising and analysing music-related
+    video recordings'
+  year: '2026'
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/22287338
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Researcher
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Bálint Laczkó
+    role: Researcher
+  - name: Poutaraud, Joachim
+    role: Researcher
+  - name: Widmer, Marcus
+    role: Researcher
+  - name: Furmyr, Frida
+    role: Researcher
+  - name: Jinyue Guo
+    role: Researcher
+  - name: Maria-Alena Clim
+    role: Researcher
+  - name: Finn Upham
+    role: Researcher
+  - name: Hugh Alexander von Arnim
+    role: Researcher
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
 - title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
     Arts
   year: '2026'
@@ -208,29 +237,15 @@ selected_works:
     role: Creator
     slug: hugh-alexander-von-arnim
     url: /people/hugh-alexander-von-arnim/
-- title: Multimodal learning analytics to explore key moments of interdisciplinary
-    knowledge-construction
-  year: '2024'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Rachelle Esterhazy
-    role: Creator
-  - name: Hugh Alexander von Arnim
-    role: Creator
-    slug: hugh-alexander-von-arnim
-    url: /people/hugh-alexander-von-arnim/
-  - name: Crina I. Damsa
-    role: Creator
 source_mentions: []
+summary: His doctoral work is supervised by Professor Alexander Refsum Jensenius and
+  Associate Professor Tejaswinee Kelkar.
 wps:
 - WP1
 - WP6
 permalink: /people/hugh-alexander-von-arnim/
 redirect_from:
 - /directory/people/hugh-alexander-von-arnim/
-summary: His doctoral work is supervised by Professor Alexander Refsum Jensenius and
-  Associate Professor Tejaswinee Kelkar.
 ---
 
 Bio coming soon.

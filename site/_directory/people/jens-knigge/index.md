@@ -48,6 +48,22 @@ search_keywords:
 - Music Education
 - Music Didaktik
 selected_works:
+- title: 'Redesigning Mobility in European Music Teacher Education: From Barriers
+    to Opportunities'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Jens Knigge
+    role: Creator
+    slug: jens-knigge
+    url: /people/jens-knigge/
+  - name: Bjørg Solveig Fretheim
+    role: Creator
+  - name: Runa Hestad Jenssen
+    role: Creator
+  - name: Kirsti Nørstebø
+    role: Creator
 - title: 'OutMus: Outcomes of Instrumental Tuition and Playing in an Ensemble - Teaching
     Music in Cooperation Between Primary and Music Schools (Version 1) [Data set]'
   year: '2026'
@@ -174,20 +190,6 @@ selected_works:
     url: /people/jens-knigge/
   - name: Anne Haugland Balsnes
     role: Creator
-- title: Singing practices in Norwegian schools – a synthesis of three survey studies
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.23865/nrme.v6.6901
-  contributors:
-  - name: Anne Haugland Balsnes
-    role: Creator
-  - name: Live Weider Ellefsen
-    role: Creator
-  - name: Jens Knigge
-    role: Creator
-    slug: jens-knigge
-    url: /people/jens-knigge/
 source_mentions: []
 summary: ''
 wps:

@@ -1,4 +1,4 @@
-synced_at: '2026-09-14T10:42:42Z'
+synced_at: '2026-09-15T09:59:16Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -483,6 +483,56 @@ results:
     nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
+- title: Can art arise without search or exploration?
+  year: '2026'
+  type: ConferencePoster
+  type_label: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Ole Fredrik Norbye
+    role: Creator
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
+  institutions:
+  - name: NLA University College
+    slug: nla-university-college
+    url: /institutions/nla-university-college/
+  citation:
+    authors:
+    - display: Norbye, Ole Fredrik
+      name: Ole Fredrik Norbye
+      slug: ole-fredrik-norbye
+      url: /people/ole-fredrik-norbye/
+    title: Can art arise without search or exploration?
+    container: MishMash Opening Conference.
+    details: Kristiansand.
+    abstract: "Aim / key questions: As generative AI becomes embedded in creative\
+      \ practice, the\nspeed of creation has never been higher and the temptation\
+      \ to skip the slow parts of\nthe work never greater. We ask: what does creativity\
+      \ actually require, and what is at\nrisk when AI is allowed to bypass those\
+      \ requirements? We approach this as an\nempirical question about creative process\
+      \ — and as a starting point for a comparison\nbetween human and machine modes\
+      \ of musical thinking.\nMethods: This artistic research project documents a\
+      \ two-day recording session at\nGrieghallen in Bergen, where we deliberately\
+      \ worked from a position of \"try and fail\" \nand \"not knowing\" — refusing\
+      \ pre-planned outcomes, making sketches on the spot,\nand staying with uncertainty\
+      \ long enough for something unexpected to emerge. We\ntreat the recording process\
+      \ as a case through which the preconditions of creative work\ncan be examined.\n\
+      \nResults: The work surfaced a chain of preconditions: time enables process,\
+      \ process\nenables exploration, exploration enables reflexive judgment — what\
+      \ we identify as\ncreativity itself. Each link depends on the one before. Generative\
+      \ AI tends to compress\nthis chain — offering averaged ideas, weakening ownership,\
+      \ and removing the\nproductive resistance the not-knowing depends on.\n\nImplications:\
+      \ In a next phase, we will examine our findings in dialogue with the Robotic\n\
+      Musicianship group at Georgia Tech (Weinberg et al.), whose improvising robots\
+      \ such\nas Shimon raise the question from the opposite direction: what does\
+      \ machine\nimprovisation share with — and lack from — human musical thinking?\n\
+      Value / originality: A practice-grounded contribution to MishMash, opening a\n\
+      comparison between embodied, communal music-making and AI-driven musical\ngeneration."
+    full_text_url: https://hdl.handle.net/11250/5569114
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0a3aa812a-4ca545d7-486b-4b59-b0e1-b7fa139ea301
+  nva_url: https://nva.sikt.no/publication/01a0a3aa812a-4ca545d7-486b-4b59-b0e1-b7fa139ea301
 - title: 'Atmos vs Ambisonics: Creative Differences in Immersive Formats.'
   year: '2026'
   type: ConferenceLecture
@@ -1795,6 +1845,51 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019a5a87be28-17f5f937-cf7c-4030-b2a9-6a02159cf5b7
   nva_url: https://nva.sikt.no/publication/019a5a87be28-17f5f937-cf7c-4030-b2a9-6a02159cf5b7
+- title: 'micromotion: A Python toolbox for analysing human micromotion in motion
+    time series'
+  year: '2026'
+  type: DataSet
+  type_label: Dataset
+  group_type: Dataset
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Researcher
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Finn Upham
+    role: Researcher
+  - name: Agata Zelechowska
+    role: Researcher
+  - name: Victor Evaristo Gonzalez Sanchez
+    role: Researcher
+  - name: Dana Swarbrick
+    role: Researcher
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
+  - name: Maham Riaz
+    role: Researcher
+    slug: maham-riaz
+    url: /people/maham-riaz/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: 'micromotion: A Python toolbox for analysing human micromotion in motion
+      time series'
+    container: ''
+    details: 'doi: 10.5281/zenodo.22080495.'
+    abstract: Software. One implementation of quantity of motion — the average speed
+      of a body part, band-limited to 0.2-5 Hz, in millimetres per second — for optical
+      marker data, body-worn accelerometers and force-plate centre of pressure, together
+      with the readers, resampling rules, scaling measures and alignment methods that
+      surround it.
+    full_text_url: https://hdl.handle.net/11250/5569099
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a097cb6ab8-132ddb10-06e3-401d-8a80-d8a2401a647c
+  url: https://zenodo.org/records/22080495
+  nva_url: https://nva.sikt.no/publication/01a097cb6ab8-132ddb10-06e3-401d-8a80-d8a2401a647c
 - title: Archival Intelligence (2026)
   year: '2026'
   type: ExhibitionProduction

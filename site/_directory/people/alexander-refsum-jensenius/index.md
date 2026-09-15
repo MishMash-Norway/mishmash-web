@@ -73,6 +73,60 @@ search_keywords:
 - Music Technology
 - Sound Analysis /Synthesis
 selected_works:
+- title: 'musicalgestures: A Python toolbox for visualising and analysing music-related
+    video recordings'
+  year: '2026'
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/22287338
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Researcher
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Bálint Laczkó
+    role: Researcher
+  - name: Poutaraud, Joachim
+    role: Researcher
+  - name: Widmer, Marcus
+    role: Researcher
+  - name: Furmyr, Frida
+    role: Researcher
+  - name: Jinyue Guo
+    role: Researcher
+  - name: Maria-Alena Clim
+    role: Researcher
+  - name: Finn Upham
+    role: Researcher
+  - name: Hugh Alexander von Arnim
+    role: Researcher
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
+- title: 'micromotion: A Python toolbox for analysing human micromotion in motion
+    time series'
+  year: '2026'
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/22080495
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Researcher
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Finn Upham
+    role: Researcher
+  - name: Agata Zelechowska
+    role: Researcher
+  - name: Victor Evaristo Gonzalez Sanchez
+    role: Researcher
+  - name: Dana Swarbrick
+    role: Researcher
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
+  - name: Maham Riaz
+    role: Researcher
+    slug: maham-riaz
+    url: /people/maham-riaz/
 - title: Improvisation with the Muzziballs
   year: '2026'
   source: Music performance
@@ -203,41 +257,6 @@ selected_works:
     url: /people/alexander-refsum-jensenius/
   - name: Kamel Smaili
     role: Creator
-- title: Investigating Auditory–Visual Perception Using Multi-Modal Neural Networks
-    with the SoundActions Dataset
-  year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.5334/tismir.223
-  contributors:
-  - name: Jinyue Guo
-    role: Creator
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: Inverse and indirect mappings in embodied AI systems in everyday environments
-  year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.3389/fcomp.2025.1603769
-  contributors:
-  - name: Maham Riaz
-    role: Creator
-    slug: maham-riaz
-    url: /people/maham-riaz/
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
 source_mentions:
 - about/organisation/board/index.md
 summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music technology

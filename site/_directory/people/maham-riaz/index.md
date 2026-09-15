@@ -36,6 +36,31 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'micromotion: A Python toolbox for analysing human micromotion in motion
+    time series'
+  year: '2026'
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/22080495
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Researcher
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Finn Upham
+    role: Researcher
+  - name: Agata Zelechowska
+    role: Researcher
+  - name: Victor Evaristo Gonzalez Sanchez
+    role: Researcher
+  - name: Dana Swarbrick
+    role: Researcher
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
+  - name: Maham Riaz
+    role: Researcher
+    slug: maham-riaz
+    url: /people/maham-riaz/
 - title: Improvisation with the Muzziballs
   year: '2026'
   source: Music performance
@@ -187,20 +212,6 @@ selected_works:
     role: Creator
     slug: maham-riaz
     url: /people/maham-riaz/
-- title: Using SuperCollider with OSC Commands for Spatial Audio Control in a Multi-Speaker
-    Setup
-  year: '2023'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Maham Riaz
-    role: Creator
-    slug: maham-riaz
-    url: /people/maham-riaz/
-  - name: Anna-Maria Christodoulou
-    role: Creator
-    slug: anna-maria-christodoulou
-    url: /people/anna-maria-christodoulou/
 source_mentions: []
 summary: ''
 wps:

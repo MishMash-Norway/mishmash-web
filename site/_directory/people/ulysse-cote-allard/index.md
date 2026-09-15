@@ -30,14 +30,14 @@ tags:
 - Continual Learning
 - Multimodal Wearable Sensing
 - Biosignal Processing
-- Human-Computer Interaction
+- Human Computer Interaction
 search_keywords:
 - Adaptive Machine Learning
 - Transfer Learning
 - Continual Learning
 - Multimodal Wearable Sensing
 - Biosignal Processing
-- Human-Computer Interaction
+- Human Computer Interaction
 selected_works:
 - title: 'CardioLeads: An Eleven-Leads ECG Monitoring System with an Ultralow-Power
     CMOS SoC'

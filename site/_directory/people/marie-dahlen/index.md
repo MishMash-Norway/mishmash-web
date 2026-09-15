@@ -13,6 +13,9 @@ other_projects:
 - title: FactArt – Samfunnet ser
   url: https://nva.sikt.no/projects/2595371
   nva_id: '2595371'
+- title: Slow Dance XR
+  url: https://nva.sikt.no/projects/2771502
+  nva_id: '2771502'
 roles:
 - Member
 urls:
@@ -31,6 +34,17 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: '"Claimed Space Slow Dance" – poster presentation Mish Mash opening conference'
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Marie Dahlén
+    role: Creator
+    slug: marie-dahlen
+    url: /people/marie-dahlen/
+  - name: Signe Alexandra  Domogalla
+    role: Creator
 - title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard
     Media Production Workflows
   year: '2026'

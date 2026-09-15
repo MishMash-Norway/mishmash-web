@@ -38,6 +38,15 @@ search_keywords:
 - Popular Music
 - Music
 selected_works:
+- title: Can art arise without search or exploration?
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Ole Fredrik Norbye
+    role: Creator
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
 - title: Bestillingsverk til ordinasjonsgudstjeneste LKN
   year: '2026'
   source: Music performance
@@ -133,15 +142,6 @@ selected_works:
   - name: Bernt Rune Stray
     role: Creator
 - title: Solokonsert - Manglerud Kirke
-  year: '2023'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Ole Fredrik Norbye
-    role: Composer
-    slug: ole-fredrik-norbye
-    url: /people/ole-fredrik-norbye/
-- title: Artistic research presentation - NLAs ansattsamling 2023
   year: '2023'
   source: Music performance
   group_type: Music performance

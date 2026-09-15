@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: dana-swarbrick
 name: Dana Swarbrick
@@ -10,6 +9,16 @@ institution: university-of-jyvaskyla
 institutions:
 - university-of-jyvaskyla
 projects: []
+other_projects:
+- title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
+  url: https://nva.sikt.no/projects/2743421
+  nva_id: '2743421'
+- title: fourMs Lab Upgrade
+  url: https://nva.sikt.no/projects/2748527
+  nva_id: '2748527'
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:
@@ -30,6 +39,31 @@ tags:
 search_keywords:
 - Music Cognition
 selected_works:
+- title: 'micromotion: A Python toolbox for analysing human micromotion in motion
+    time series'
+  year: '2026'
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/22080495
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Researcher
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Finn Upham
+    role: Researcher
+  - name: Agata Zelechowska
+    role: Researcher
+  - name: Victor Evaristo Gonzalez Sanchez
+    role: Researcher
+  - name: Dana Swarbrick
+    role: Researcher
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
+  - name: Maham Riaz
+    role: Researcher
+    slug: maham-riaz
+    url: /people/maham-riaz/
 - title: 'Video Visualization of a String Quartet Performance of a Bach Fugue: Design
     and Subjective Evaluation'
   year: '2025'
@@ -245,23 +279,11 @@ selected_works:
     role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/
-- title: 'Collectively Classical: Social Connectedness at a Classical Concert'
-  year: '2022'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Dana Swarbrick
-    role: Creator
-    slug: dana-swarbrick
-    url: /people/dana-swarbrick/
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
 source_mentions: []
 summary: "BSc McMaster University in Psychology, Neuroscience, and Behaviour with\
   \ a specialization in Music Cognition\r\nMSc University of Toronto in Rehabilitation\
   \ Sciences with Collaborative Program in Neuroscience"
+layout: person
 permalink: /people/dana-swarbrick/
 published: true
 wps:
