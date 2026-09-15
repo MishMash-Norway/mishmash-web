@@ -1,0 +1,27 @@
+/* Page styles for /internal/compute/ (loaded via custom_css). */
+.ca-select { max-width: 32rem; }
+.ca-empty { color: #5c5859; font-style: italic; }
+.ca-result { margin-top: 2rem; }
+.ca-heading { margin-bottom: 0.2rem; }
+.ca-kind { margin-top: 0; color: #5c5859; }
+.ca-local {
+  border-left: 4px solid var(--mm-green, #b3e297);
+  padding: 0.2rem 0 0.2rem 1rem;
+  margin: 1.5rem 0;
+}
+.ca-local h3 { margin-top: 0.6rem; }
+.ca-start { margin: 1.5rem 0; }
+.ca-rows, .ca-services { margin: 1rem 0; }
+.ca-rows dt, .ca-services dt {
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.ca-rows dd, .ca-services dd {
+  margin: 0.25rem 0 0;
+}
+.ca-universal {
+  border-top: 2px solid var(--mm-ink, #231f20);
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+[hidden] { display: none !important; }
