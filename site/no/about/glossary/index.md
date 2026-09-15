@@ -38,7 +38,8 @@ egen; uten dem er det en nær omskrivning.
 {% assign top_level = site.data.audiences.groups | last %}
 <dl class="glossary">
 {% for g in entries %}
-  <dt id="{{ g.key }}"><strong>{{ g.term.nb | default: g.term.en }}</strong></dt>
+  {%- assign term_nb = g.term.nb | default: g.term.en -%}
+  <dt id="{{ g.key }}"><strong>{{ term_nb }}</strong>{% include glossary-copy-link.html key=g.key term=term_nb %}</dt>
   <dd>
   {%- for lv in site.data.audiences.groups -%}
   {%- assign variant = g[lv.key] -%}
@@ -50,5 +51,6 @@ egen; uten dem er det en nær omskrivning.
   </dd>
 {% endfor %}
 </dl>
+<script defer src="/assets/js/glossary.js"></script>
 
 Savner du et begrep? Foreslå det via [nettsideprosjektet](/projects/the-mishmash-website/).

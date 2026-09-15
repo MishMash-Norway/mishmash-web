@@ -36,7 +36,7 @@ is the source's own; without them it is a close paraphrase.
 {% assign top_level = site.data.audiences.groups | last %}
 <dl class="glossary">
 {% for g in entries %}
-  <dt id="{{ g.key }}"><strong>{{ g.term.en }}</strong></dt>
+  <dt id="{{ g.key }}"><strong>{{ g.term.en }}</strong>{% include glossary-copy-link.html key=g.key term=g.term.en %}</dt>
   <dd>
   {%- for lv in site.data.audiences.groups -%}
   {%- assign variant = g[lv.key] -%}
@@ -48,5 +48,6 @@ is the source's own; without them it is a close paraphrase.
   </dd>
 {% endfor %}
 </dl>
+<script defer src="/assets/js/glossary.js"></script>
 
 Missing a term? Suggest one via [the website project](/projects/the-mishmash-website/).

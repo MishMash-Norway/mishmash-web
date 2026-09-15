@@ -99,6 +99,41 @@ body {
   text-transform: capitalize;
 }
 
+/* Copy-link control after each term (markup in
+   _includes/glossary-copy-link.html, behaviour in assets/js/glossary.js). */
+.glossary-copy {
+  display: inline-block;
+  position: relative;
+  margin-left: 0.35rem;
+  color: var(--mm-ink-40);
+  line-height: 1;
+  vertical-align: -0.1em;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.glossary-copy:hover,
+.glossary-copy:focus-visible {
+  color: var(--mm-ink);
+}
+
+.glossary-copy[data-copied]::after {
+  content: attr(data-copied);
+  position: absolute;
+  left: 1.4em;
+  top: -0.15em;
+  padding: 0.1em 0.45em;
+  border-radius: 4px;
+  background: var(--mm-ink);
+  color: #fff;
+  font-family: var(--mm-font-display);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
 /* One definition per reading level; adaptive.css shows the chosen one. */
 .glossary dd > .adaptive {
   display: inline;
