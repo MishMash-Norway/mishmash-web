@@ -11,8 +11,8 @@ description: "En ordliste over KI- og kreativitetsbegreper brukt på mishmash.no
 
 Sentrale begreper brukt på mishmash.no, hvert forklart på tre nivåer. Bruk
 velgeren øverst: *Enkel* er én setning i klartekst, *Standard* er
-hverdagsforklaringen, og *Avansert* legger til presisjon, definisjonen fra
-forskningslitteraturen og den norske definisjonen der en slik er fastsatt.
+hverdagsforklaringen, og *Avansert* legger til presisjon og de etablerte
+definisjonene fra standarder, regelverk, forskningslitteraturen og norske kilder.
 
 De samme tekstene driver
 {% include stretch.html term="stretchtext" %}-forklaringene i tekstene — ord
@@ -21,17 +21,21 @@ og forklaringene i tekstene alltid stemmer overens, uansett hvilket nivå du
 leser på.
 
 <div class="adaptive" data-for="simple standard" markdown="1">
-På nivået *Avansert* viser hvert begrep også definisjonen fra
-forskningslitteraturen og den norske definisjonen, med kilder.
+Bytt til *Avansert* for å se hvor hver definisjon kommer fra. Hvert begrep
+viser da også hvordan standarder, lover, forskning og norske kilder definerer det.
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-Der et begrep har en etablert definisjon i forskningslitteraturen, står den
-under, med kilde, på originalspråket. Norske definisjoner er sitert fra
+Der et begrep har en etablert definisjon andre steder, står den under, med
+kilde og på originalspråket, i denne rekkefølgen: internasjonale standarder
+(ISO/IEC 22989 og beslektede standarder, NIST), regelverk og politikk (EUs
+KI-forordning, OECD, UNESCO, nasjonale strategier), forskningslitteraturen og
+den norske definisjonen. Norske definisjoner er sitert fra
 [Teknologirådets ordliste for kunstig intelligens](https://teknologiradet.no/ordliste-for-kunstig-intelligens/),
-som Språkrådet har gjennomgått, og fra den nasjonale KI-strategien; de norske
-termene i ordlisten følger samme liste. Sitattegn betyr at ordlyden er kildens
-egen; uten dem er det en nær omskrivning.
+som Språkrådet har gjennomgått, og fra norske forskrifter og strategier; de
+norske termene i ordlisten følger Teknologirådets liste. Sitattegn betyr at
+ordlyden er kildens egen; uten dem er det en nær omskrivning. Utkast til
+standarder er merket som utkast.
 </div>
 
 {% assign entries = site.data.glossary | sort: "key" %}

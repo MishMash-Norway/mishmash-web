@@ -25,8 +25,9 @@
 #   source   short citation shown as the link text, e.g. "Boden 2004",
 #            "ISO/IEC 22989:2022, 3.1.4", "EU AI Act, Art. 3(1)"
 #   url      optional link (DOI preferred)
-# Norwegian terms follow Teknologirådet's list (e.g. "instruks" for
-# prompt).
+# List references in the order standard, policy, literature, norsk; that
+# is the order the pages show them in. Norwegian terms follow
+# Teknologirådet's list (e.g. "instruks" for prompt).
 #
 # scripts/check_readability.py verifies that every entry has every
 # level in both languages.
@@ -45,6 +46,18 @@
     en: "an umbrella term for computational systems that perform tasks associated with intelligence, from hand-written rule-based systems to today's learning-based models. The Norwegian national AI strategy defines AI systems by what they do: act, physically or digitally, on interpreted data in order to reach a goal, with some systems adapting to how earlier actions affected their surroundings"
     nb: "samlebetegnelse for datasystemer som utfører oppgaver vi forbinder med intelligens, fra håndskrevne regelbaserte systemer til dagens læringsbaserte modeller. Språkrådet anbefaler den norske forkortelsen KI framfor AI. Den nasjonale KI-strategien definerer KI-systemer ut fra hva de gjør: handle, fysisk eller digitalt, ut fra tolkede data for å nå et mål"
   references:
+    - kind: standard
+      quote: "“Engineered system that generates outputs such as content, forecasts, recommendations or decisions for a given set of human-defined objectives.”"
+      source: "ISO/IEC 22989:2022, 3.1.4 (AI system)"
+      url: "https://www.iso.org/obp/ui/#iso:std:iso-iec:22989:ed-1:v1:en"
+    - kind: policy
+      quote: "“A machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments.”"
+      source: "EU AI Act 2024, Art. 3(1) (AI system)"
+      url: "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    - kind: policy
+      quote: "“An AI system is a machine-based system that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments. Different AI systems vary in their levels of autonomy and adaptiveness after deployment.”"
+      source: "OECD AI Principles, as revised 2023"
+      url: "https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449"
     - kind: literature
       quote: "\"The science and engineering of making intelligent machines.\""
       source: "McCarthy 2007"
@@ -53,6 +66,14 @@
       quote: "«Kunstig intelligente systemer utfører handlinger, fysisk eller digitalt, basert på tolkning og behandling av strukturerte eller ustrukturerte data, i den hensikt å oppnå et gitt mål.»"
       source: "Nasjonal strategi for kunstig intelligens 2020"
       url: "https://www.regjeringen.no/contentassets/1febbbb2c4fd4b7d92c67ddd353b6ae8/no/pdfs/ki-strategi.pdf"
+    - kind: norsk
+      quote: "«Et maskinbasert system som er konstruert for å operere med varierende grad av autonomi, som kan vise tilpasningsdyktighet etter idriftsetting, og som, for eksplisitte eller implisitte mål, ut fra inndataene det mottar, utleder hvordan man genererer utdata som prediksjoner, innhold og anbefalinger, eller beslutninger som kan påvirke fysiske eller virtuelle miljøer.»"
+      source: "KI-forordningen art. 3 nr. 1, uoffisiell oversettelse (DFD 2025)"
+      url: "https://www.regjeringen.no/contentassets/e823dc21809c43f2b4ba9ff1e389e245/ki-forordningen-eu-2024.1689-uoffisiell-norsk-131037.pdf"
+    - kind: norsk
+      quote: "«Kunstig intelligens er informasjonsteknologi som justerer sin egen aktivitet og derfor tilsynelatende framstår som intelligent.»"
+      source: "Store norske leksikon"
+      url: "https://snl.no/kunstig_intelligens"
 
 - key: creativity
   term:
@@ -124,6 +145,11 @@
   advanced:
     en: "joint creative production in which initiative, agency and authorship are distributed among the participants. Used across MishMash for human–human, human–machine and mixed settings; CoCreative AI names the systems built for it"
     nb: "felles kreativ produksjon der initiativ, handlekraft og opphav er fordelt mellom deltakerne. Brukes i MishMash om samarbeid menneske–menneske, menneske–maskin og blandede former; samskapende KI er navnet på systemene som lages for det"
+  references:
+    - kind: literature
+      quote: "Any act of collective creativity: creativity that is shared by two or more people."
+      source: "after Sanders and Stappers 2008"
+      url: "https://doi.org/10.1080/15710880701875068"
 
 - key: work-package
   term:
@@ -138,6 +164,11 @@
   advanced:
     en: "the unit of organisation in a research project: a defined set of tasks, people and results with its own leadership. MishMash has seven, WP1 to WP7, each built around one of the centre's themes; the abbreviation WP is used throughout the site"
     nb: "organisasjonsenheten i et forskningsprosjekt: et avgrenset sett oppgaver, folk og resultater med egen ledelse. MishMash har sju, WP1 til WP7, hver bygd rundt ett av senterets temaer; forkortelsen WP brukes over hele nettstedet"
+  references:
+    - kind: literature
+      quote: "The work at the lowest level of a work breakdown structure, for which cost and duration are estimated and managed."
+      source: "after PMBOK Guide, 6th ed."
+      url: "https://www.pmi.org/standards/pmbok"
 
 - key: work-package-leader
   term:
@@ -185,10 +216,26 @@
     en: "machine-learning models, today mostly large neural networks trained on very large datasets, that produce new samples resembling their training data in response to a prompt. Commercial examples are Dall-E for images, ChatGPT for text and Suno for music; MishMash studies such systems as material, instrument and object of critique"
     nb: "maskinlæringsmodeller, i dag for det meste store nevrale nettverk trent på svært store datasett, som lager nye eksempler som ligner treningsdataene som svar på en instruks. Kommersielle eksempler er Dall-E for bilder, ChatGPT for tekst og Suno for musikk; MishMash studerer slike systemer som materiale, instrument og gjenstand for kritikk"
   references:
+    - kind: standard
+      quote: "AI system based on techniques and models that aim to generate new content, such as text, audio, code, video or images."
+      source: "ISO/IEC 22989:2022/DAmd 1 (draft, 2025), 3.1.38"
+      url: "https://www.iso.org/standard/88145.html"
+    - kind: policy
+      quote: "“The class of AI models that emulate the structure and characteristics of input data in order to generate derived synthetic content. This can include images, videos, audio, text, and other digital content.”"
+      source: "US Executive Order 14110 (2023), as cited in NIST AI 600-1"
+      url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+    - kind: literature
+      quote: "“The term generative AI refers to computational techniques that are capable of generating seemingly new, meaningful content such as text, images, or audio from training data.”"
+      source: "Feuerriegel et al. 2024"
+      url: "https://doi.org/10.1007/s12599-023-00834-7"
     - kind: norsk
       quote: "«KI som kan generere nytt innhold som tekst, bilder, lyd, video og programkode.»"
       source: "Teknologirådet 2026"
       url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
+    - kind: norsk
+      quote: "«Generativ kunstig intelligens er teknikker innen maskinlæring der målet ikke bare er å analysere data, men også å lage nye data, for eksempel i form av tekst, bilder, lyd, video eller programmeringskode.»"
+      source: "Store norske leksikon"
+      url: "https://snl.no/generativ_kunstig_intelligens"
 
 - key: large-language-model
   term:
@@ -204,10 +251,26 @@
     en: "a neural network, typically a transformer with billions of parameters, trained to predict the next token in text and then tuned with human feedback. It learns statistical patterns in its training data, which lets it answer, summarise, translate and generate, and which also explains its characteristic failures, such as inventing facts"
     nb: "et nevralt nettverk, som regel en transformer med milliarder av parametre, trent til å forutsi neste token i en tekst og deretter justert med menneskelig tilbakemelding. Den lærer statistiske mønstre i treningsdataene, som lar den svare, oppsummere, oversette og generere, og som også forklarer de typiske feilene, som å dikte opp fakta"
   references:
+    - kind: standard
+      quote: "Machine learning model that encodes natural language with many parameters to perform natural-language-processing tasks."
+      source: "ISO/IEC 22989:2022/DAmd 1 (draft, 2025), 3.3.20"
+      url: "https://www.iso.org/standard/88145.html"
+    - kind: policy
+      quote: "“An AI model, including where such an AI model is trained with a large amount of data using self-supervision at scale, that displays significant generality and is capable of competently performing a wide range of distinct tasks regardless of the way the model is placed on the market and that can be integrated into a variety of downstream systems or applications.”"
+      source: "EU AI Act 2024, Art. 3(63) (general-purpose AI model)"
+      url: "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    - kind: literature
+      quote: "“Large language models (LLMs) refer to Transformer language models that contain hundreds of billions (or more) of parameters, which are trained on massive text data.”"
+      source: "Zhao et al. 2023, § 2.1"
+      url: "https://arxiv.org/abs/2303.18223"
     - kind: norsk
       quote: "«KI-modeller som er trent på svært store mengder tekst for å behandle og generere naturlig språk.»"
       source: "Teknologirådet 2026"
       url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
+    - kind: norsk
+      quote: "«En språkmodell er en statistisk modell av et språk som brukes innen språkteknologi. Modellen gir en sannsynlighetsfordeling over sekvenser av ord og kan derfor brukes til å analysere og generere tekst basert på naturlige språk, slik som norsk.»"
+      source: "Store norske leksikon (språkmodell)"
+      url: "https://snl.no/språkmodell"
 
 - key: machine-learning
   term:
@@ -223,9 +286,17 @@
     en: "the subfield of AI in which a model's parameters are fitted to data so that performance on a task improves with experience (Mitchell 1997). It spans supervised, unsupervised and reinforcement learning and underlies nearly all current creative AI, in contrast to the rule-based systems of early computer art and music"
     nb: "delfeltet av KI der en modells parametre tilpasses data slik at ytelsen på en oppgave bedres med erfaring (Mitchell 1997). Det omfatter veiledet, ikke-veiledet og forsterkende læring og ligger under nesten all dagens kreative KI, i motsetning til de regelbaserte systemene i tidlig datakunst og datamusikk"
   references:
+    - kind: standard
+      quote: "“Process of optimizing model parameters through computational techniques, such that the model's behaviour reflects the data or experience.”"
+      source: "ISO/IEC 22989:2022, 3.3.5"
+      url: "https://www.iso.org/obp/ui/#iso:std:iso-iec:22989:ed-1:v1:en"
     - kind: literature
       quote: "\"A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks T, as measured by P, improves with experience E.\""
       source: "Mitchell 1997"
+    - kind: norsk
+      quote: "«Maskinlæring er en spesialisering innen kunstig intelligens hvor man bruker statistiske metoder for å la datamaskiner finne mønstre i store datamengder. Man sier at maskinen «lærer» i stedet for å bli programmert.»"
+      source: "Store norske leksikon"
+      url: "https://snl.no/maskinlæring"
 
 - key: neural-network
   term:
@@ -240,6 +311,19 @@
   advanced:
     en: "a function composed of layers of weighted sums and non-linearities, whose weights are fitted by gradient descent on training data. Deep networks with many layers are behind today's image, sound and language models; their strengths are scale and flexibility, their weaknesses opacity and a hunger for data and computing power"
     nb: "en funksjon satt sammen av lag med vektede summer og ikke-lineære ledd, der vektene tilpasses med gradientmetoden på treningsdata. Dype nettverk med mange lag ligger bak dagens bilde-, lyd- og språkmodeller; styrken er skala og fleksibilitet, svakheten er ugjennomsiktighet og et stort behov for data og regnekraft"
+  references:
+    - kind: standard
+      quote: "“Network of one or more layers of neurons connected by weighted links with adjustable weights, which takes input data and produces an output.” Deep learning is the “approach to creating rich hierarchical representations through the training of neural networks with many hidden layers.”"
+      source: "ISO/IEC 22989:2022, 3.4.8 and 3.4.4"
+      url: "https://www.iso.org/obp/ui/#iso:std:iso-iec:22989:ed-1:v1:en"
+    - kind: literature
+      quote: "“Deep learning allows computational models that are composed of multiple processing layers to learn representations of data with multiple levels of abstraction.”"
+      source: "LeCun, Bengio and Hinton 2015"
+      url: "https://doi.org/10.1038/nature14539"
+    - kind: norsk
+      quote: "«Nevrale nettverk er en teknikk som brukes som byggesteiner innen maskinlæring og kunstig intelligens. De kan ses på som en veldig grov forenkling av hvordan nervecellene i hjernen fungerer.»"
+      source: "Store norske leksikon"
+      url: "https://snl.no/nevralt_nettverk"
 
 - key: rule-based-system
   term:
@@ -254,6 +338,11 @@
   advanced:
     en: "symbolic or knowledge-based AI, in which behaviour follows from explicitly encoded rules and representations rather than from learned parameters. It powered the first computer composition systems and Harold Cohen's painting program AARON, and it is still combined with learning-based methods in hybrid systems where transparency and control matter"
     nb: "symbolsk eller kunnskapsbasert KI, der oppførselen følger av eksplisitt kodede regler og representasjoner i stedet for lærte parametre. Den drev de første datakomposisjonssystemene og Harold Cohens maleprogram AARON, og kombineres fortsatt med læringsbaserte metoder i hybride systemer der åpenhet og kontroll er viktig"
+  references:
+    - kind: literature
+      quote: "“A physical symbol system has the necessary and sufficient means for general intelligent action.”"
+      source: "Newell and Simon 1976"
+      url: "https://doi.org/10.1145/360018.360022"
 
 - key: algorithm
   term:
@@ -268,6 +357,19 @@
   advanced:
     en: "a finite, well-defined procedure for computing a result from an input. Machine-learning algorithms are the procedures that fit models to data, distinct from the resulting models; the looser public sense, algorithms as curating and ranking systems, is what much of the social critique of AI addresses"
     nb: "en endelig, veldefinert prosedyre for å beregne et resultat fra en inndata. Maskinlæringsalgoritmer er prosedyrene som tilpasser modeller til data, til forskjell fra selve modellene; den løsere folkelige betydningen, algoritmer som kuraterings- og rangeringssystemer, er det mye av samfunnskritikken av KI handler om"
+  references:
+    - kind: standard
+      quote: "“Set of rules for transforming the logical representation of data.”"
+      source: "ISO/IEC TR 24028:2020, 3.3"
+      url: "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:24028:ed-1:v1:en"
+    - kind: literature
+      quote: "“Informally, an algorithm is any well-defined computational procedure that takes some value, or set of values, as input and produces some value, or set of values, as output.”"
+      source: "Cormen et al. 2009, § 1.1"
+      url: "https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/"
+    - kind: norsk
+      quote: "«Algoritme er i matematikk og databehandling en fullstendig og nøyaktig beskrivelse av fremgangsmåten for løsning av en beregningsoppgave eller annen oppgave.»"
+      source: "Store norske leksikon"
+      url: "https://snl.no/algoritme"
 
 - key: training-data
   term:
@@ -282,6 +384,23 @@
   advanced:
     en: "the dataset a model's parameters are fitted to. Its size, provenance, licensing and representativeness determine the model's capabilities, its biases and its legal standing, which is why the data behind generative models is central to the copyright and rights questions MishMash studies"
     nb: "datasettet en modells parametre tilpasses til. Størrelse, opphav, lisensiering og representativitet avgjør modellens evner, skjevheter og rettslige stilling, og derfor står dataene bak generative modeller sentralt i spørsmålene om opphavsrett og rettigheter som MishMash studerer"
+  references:
+    - kind: standard
+      quote: "“Data used to train a machine learning model.”"
+      source: "ISO/IEC 22989:2022, 3.3.16"
+      url: "https://www.iso.org/obp/ui/#iso:std:iso-iec:22989:ed-1:v1:en"
+    - kind: policy
+      quote: "“Data used for training an AI system through fitting its learnable parameters.”"
+      source: "EU AI Act 2024, Art. 3(29)"
+      url: "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    - kind: literature
+      quote: "The set of examples on which a model's error is measured and reduced during training, as distinct from the separately collected test set used to estimate how well it generalises."
+      source: "after Goodfellow, Bengio and Courville 2016, ch. 5"
+      url: "https://www.deeplearningbook.org/contents/ml.html"
+    - kind: norsk
+      quote: "«Data som brukes til å trene et KI-system ved å tilpasse dets lærbare parametere.»"
+      source: "KI-forordningen art. 3 nr. 29, uoffisiell oversettelse (DFD 2025)"
+      url: "https://www.regjeringen.no/contentassets/e823dc21809c43f2b4ba9ff1e389e245/ki-forordningen-eu-2024.1689-uoffisiell-norsk-131037.pdf"
 
 - key: bias
   term:
@@ -297,6 +416,14 @@
     en: "systematic error in a model's outputs that disadvantages particular groups or perspectives. It can enter through data collection, model design, training objectives or use; in creative AI it shows up as, for example, an over-representation of Anglo-American styles. Distinct from the statistical bias of the bias–variance trade-off"
     nb: "systematisk feil i en modells resultater som stiller bestemte grupper eller perspektiver dårligere. Den kan komme inn gjennom datainnsamling, modellutforming, treningsmål eller bruk; i kreativ KI viser den seg for eksempel som en overrepresentasjon av angloamerikanske stiler. Ikke det samme som den statistiske skjevheten i bias–varians-avveiningen"
   references:
+    - kind: standard
+      quote: "“Systematic difference in treatment of certain objects, people or groups in comparison to others.”"
+      source: "ISO/IEC 22989:2022, 3.5.4"
+      url: "https://www.iso.org/obp/ui/#iso:std:iso-iec:22989:ed-1:v1:en"
+    - kind: literature
+      quote: "“We use the term bias to refer to computer systems that systematically and unfairly discriminate against certain individuals or groups of individuals in favor of others.”"
+      source: "Friedman and Nissenbaum 1996"
+      url: "https://doi.org/10.1145/230538.230561"
     - kind: norsk
       quote: "«Systematiske skjevheter i et KI-system som kan påvirke resultatene modellen produserer.»"
       source: "Teknologirådet 2026"
@@ -315,6 +442,19 @@
   advanced:
     en: "the degree to which a model's behaviour can be accounted for in human terms, either by design (interpretable models) or after the fact (explainable AI, XAI). For creative practice it matters as much for control as for accountability: an artist needs to know which knobs do what"
     nb: "i hvilken grad en modells oppførsel kan gjøres rede for i menneskelige termer, enten ved utformingen (tolkbare modeller) eller i etterkant (forklarbar KI, XAI). For kunstnerisk praksis betyr det like mye for kontroll som for ansvarlighet: en kunstner må vite hvilke knapper som gjør hva"
+  references:
+    - kind: standard
+      quote: "“Property of an AI system to express important factors influencing the AI system results in a way that humans can understand.”"
+      source: "ISO/IEC 22989:2022, 3.5.7"
+      url: "https://www.iso.org/obp/ui/#iso:std:iso-iec:22989:ed-1:v1:en"
+    - kind: standard
+      quote: "“Explainability refers to a representation of the mechanisms underlying AI systems’ operation, whereas interpretability refers to the meaning of AI systems’ output in the context of their designed functional purposes.”"
+      source: "NIST AI 100-1 (AI RMF 1.0), 3.5"
+      url: "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf"
+    - kind: literature
+      quote: "“Given an audience, an explainable Artificial Intelligence is one that produces details or reasons to make its functioning clear or easy to understand.”"
+      source: "Arrieta et al. 2020"
+      url: "https://doi.org/10.1016/j.inffus.2019.12.012"
 
 - key: multimodal
   term:
@@ -330,6 +470,14 @@
     en: "models trained on more than one modality, so that representations are shared across, for example, text and images or audio and movement. Multimodality matters for the arts, where meaning is rarely carried by one channel alone; a model that handles only one type of data is *unimodal*"
     nb: "modeller trent på mer enn én modalitet, slik at representasjonene deles på tvers av for eksempel tekst og bilder eller lyd og bevegelse. Multimodalitet er viktig for kunsten, der mening sjelden bæres av én kanal alene; en modell som bare behandler én type data, er *unimodal*"
   references:
+    - kind: standard
+      quote: "“A model that processes and relates information from multiple sensory modalities that each represent primary human channels of communication and sensation, such as vision and touch.”"
+      source: "NIST AI 100-2e2025, glossary (multimodal models)"
+      url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf"
+    - kind: literature
+      quote: "“Multimodal machine learning aims to build models that can process and relate information from multiple modalities.”"
+      source: "Baltrušaitis, Ahuja and Morency 2019"
+      url: "https://doi.org/10.1109/TPAMI.2018.2798607"
     - kind: norsk
       quote: "«En KI-modell som kan behandle flere typer data, som tekst, bilder, lyd og video.»"
       source: "Teknologirådet 2026"
@@ -349,6 +497,14 @@
     en: "the input that conditions a generative model's output: a question, a task, background, examples, or a combination. Designing prompts for better results is called *prompt engineering*. Teknologirådet's Norwegian glossary, reviewed by Språkrådet, recommends *instruks* as the Norwegian term"
     nb: "inndataene som styrer hva en generativ modell lager: et spørsmål, en oppgave, bakgrunn, eksempler eller en kombinasjon. Å utforme instrukser for bedre resultater kalles *effektiv instruksjonsutforming* (prompt engineering). Teknologirådets ordliste, gjennomgått av Språkrådet, anbefaler *instruks* som norsk term"
   references:
+    - kind: standard
+      quote: "Input to a generative AI system that provides instructions on how to process the input."
+      source: "ISO/IEC 22989:2022/DAmd 1 (draft, 2025), 3.6.19"
+      url: "https://www.iso.org/standard/88145.html"
+    - kind: literature
+      quote: "In prompt-based learning the input is rewritten, using a template, into a textual prompt with unfilled slots, which the language model fills probabilistically; the answer is derived from the filled-in text."
+      source: "after Liu et al. 2023"
+      url: "https://doi.org/10.1145/3560815"
     - kind: norsk
       quote: "«Tekst, kommando eller annen informasjon som gis til en KI-modell for å styre hva den skal gjøre eller generere.»"
       source: "Teknologirådet 2026"
@@ -368,6 +524,22 @@
     en: "a system that perceives its environment, chooses actions towards a goal and acts with some autonomy, possibly over many steps and with tools. In interactive music research a *musical agent* is such a system that listens and plays in real time; in current industry usage the word covers language-model systems that plan and carry out tasks"
     nb: "et system som sanser omgivelsene, velger handlinger mot et mål og handler med en viss selvstendighet, gjerne over mange steg og med verktøy. I interaktiv musikkforskning er en *musikalsk agent* et slikt system som lytter og spiller i sanntid; i dagens bransjespråk dekker ordet språkmodellsystemer som planlegger og utfører oppgaver"
   references:
+    - kind: standard
+      quote: "“Automated entity that senses and responds to its environment and takes actions to achieve its goals.”"
+      source: "ISO/IEC 22989:2022, 3.1.1"
+      url: "https://www.iso.org/obp/ui/#iso:std:iso-iec:22989:ed-1:v1:en"
+    - kind: standard
+      quote: "“Software programs that can interact with their environment, receive information, and undertake self-directed actions in service of a larger, externally-specified goal.”"
+      source: "NIST AI 100-2e2025, glossary (agent)"
+      url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf"
+    - kind: literature
+      quote: "“An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through effectors.”"
+      source: "Russell and Norvig 1995, § 2.1"
+      url: "https://people.eecs.berkeley.edu/~russell/aima1e/chapter02.pdf"
+    - kind: literature
+      quote: "“Musical agents are artificial agents that tackle musical creative tasks, partially or completely.”"
+      source: "Tatar and Pasquier 2019"
+      url: "https://doi.org/10.1080/09298215.2018.1511736"
     - kind: norsk
       quote: "«KI-system utformet for å utføre en bestemt oppgave eller et bestemt sett av oppgaver på egen hånd.»"
       source: "Teknologirådet 2026"
@@ -425,10 +597,18 @@
     en: "a set of competencies for evaluating, communicating with and using AI critically (Long and Magerko 2020). It is a theme in MishMash's education work (WP4) and includes understanding what AI-generated content is, how it is made, and what it costs"
     nb: "et sett av ferdigheter for å vurdere, kommunisere med og bruke KI kritisk (Long og Magerko 2020). Det er et tema i MishMashs utdanningsarbeid (WP4) og omfatter å forstå hva KI-generert innhold er, hvordan det lages, og hva det koster"
   references:
+    - kind: policy
+      quote: "“Skills, knowledge and understanding that allow providers, deployers and affected persons, taking into account their respective rights and obligations in the context of this Regulation, to make an informed deployment of AI systems, as well as to gain awareness about the opportunities and risks of AI and possible harm it can cause.”"
+      source: "EU AI Act 2024, Art. 3(56)"
+      url: "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
     - kind: literature
       quote: "\"A set of competencies that enables individuals to critically evaluate AI technologies; communicate and collaborate effectively with AI; and use AI as a tool online, at home, and in the workplace.\""
       source: "Long and Magerko 2020"
       url: "https://doi.org/10.1145/3313831.3376727"
+    - kind: norsk
+      quote: "«Ferdigheter, kunnskaper og forståelse som gjør det mulig for leverandører, idriftsettere og berørte personer, idet det tas hensyn til deres respektive rettigheter og forpliktelser i forbindelse med denne forordningen, å treffe en informert beslutning om idriftsetting av KI-systemer samt å få bevissthet om mulighetene og risikoene ved KI og hvilken mulig skade det kan forårsake.»"
+      source: "KI-forordningen art. 3 nr. 56, uoffisiell oversettelse (DFD 2025)"
+      url: "https://www.regjeringen.no/contentassets/e823dc21809c43f2b4ba9ff1e389e245/ki-forordningen-eu-2024.1689-uoffisiell-norsk-131037.pdf"
 
 - key: responsible-ai
   term:
@@ -443,6 +623,11 @@
   advanced:
     en: "an umbrella term for the practices and principles that keep AI development and use accountable: ethics guidelines, impact assessment, transparency, bias mitigation, environmental accounting and legal compliance such as the EU AI Act. MishMash's REFLECT approach and WP5 take it as a central concern"
     nb: "samlebetegnelse for praksisene og prinsippene som holder utvikling og bruk av KI ansvarlig: etiske retningslinjer, konsekvensvurdering, åpenhet, tiltak mot skjevheter, miljøregnskap og etterlevelse av regelverk som EUs KI-forordning. MishMashs REFLECT-tilnærming og WP5 har det som et sentralt anliggende"
+  references:
+    - kind: literature
+      quote: "Human responsibility for the development of intelligent systems along fundamental human principles and values, to ensure human flourishing and well-being in a sustainable world."
+      source: "after Dignum 2019"
+      url: "https://doi.org/10.1007/978-3-030-30371-6"
 
 - key: artistic-research
   term:
@@ -457,6 +642,15 @@
   advanced:
     en: "research in which artistic practice is both method and result: knowledge is produced through making, performing and reflecting, and documented in works as well as text. In Norway it is a recognised research track alongside scientific research, and MishMash uses it as an entry point for critical work on AI"
     nb: "forskning der kunstnerisk praksis er både metode og resultat: kunnskap skapes gjennom å lage, framføre og reflektere, og dokumenteres i verk så vel som tekst. I Norge er det et anerkjent forskningsløp ved siden av vitenskapelig forskning, og MishMash bruker det som inngang til kritisk arbeid med KI"
+  references:
+    - kind: policy
+      quote: "“Research through means of high level artistic practice and reflection; it is an epistemic inquiry, directed towards increasing knowledge, insight, understanding and skills.”"
+      source: "Vienna Declaration on Artistic Research 2020"
+      url: "https://cultureactioneurope.org/wp-content/uploads/2020/06/Vienna-Declaration-on-AR_corrected-version_24-June-20-1.pdf"
+    - kind: literature
+      quote: "“Art practice qualifies as research if its purpose is to expand our knowledge and understanding by conducting an original investigation in and through art objects and creative processes.”"
+      source: "Borgdorff 2006"
+      url: "https://www.ahk.nl/fileadmin/download/ahk/Lectoraten/Borgdorff_publicaties/The_debate_on_research_in_the_arts.pdf"
 
 - key: cultural-heritage
   term:
@@ -471,6 +665,15 @@
   advanced:
     en: "tangible and intangible heritage, from artefacts and archives to living traditions such as folk music and Sámi joik. WP6 studies how AI can help transcribe, organise, access and represent it, with particular attention to minority cultural expressions and to the ethical and legal limits that apply"
     nb: "materiell og immateriell kulturarv, fra gjenstander og arkiv til levende tradisjoner som folkemusikk og samisk joik. WP6 studerer hvordan KI kan hjelpe med å transkribere, ordne, gi tilgang til og representere den, med særlig vekt på minoritetskulturelle uttrykk og på de etiske og rettslige grensene som gjelder"
+  references:
+    - kind: policy
+      quote: "“The practices, representations, expressions, knowledge, skills – as well as the instruments, objects, artefacts and cultural spaces associated therewith – that communities, groups and, in some cases, individuals recognize as part of their cultural heritage.”"
+      source: "UNESCO 2003, Art. 2(1) (intangible cultural heritage)"
+      url: "https://ich.unesco.org/en/convention"
+    - kind: policy
+      quote: "Monuments, groups of buildings and sites of outstanding universal value from the point of view of history, art or science."
+      source: "after UNESCO 1972, Art. 1"
+      url: "https://whc.unesco.org/en/conventiontext/"
 
 - key: consortium
   term:
@@ -485,6 +688,11 @@
   advanced:
     en: "the formal grouping of institutions bound by the consortium agreement behind the centre: universities, research institutes, and cultural and industry partners. Institutions join as partners, by signing the consortium or an associate-partner agreement; individuals join as members"
     nb: "den formelle sammenslutningen av institusjoner som er bundet av konsortieavtalen bak senteret: universiteter, forskningsinstitutter og kultur- og næringslivspartnere. Institusjoner blir med som partnere, ved å signere konsortieavtalen eller en avtale om assosiert partnerskap; enkeltpersoner blir med som medlemmer"
+  references:
+    - kind: policy
+      quote: "“In EU grants, the consortium is normally composed of the key project participants, i.e. typically the coordinator and the other beneficiaries, affiliated entities and associated partners.”"
+      source: "EU Annotated Grant Agreement 2025"
+      url: "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf"
 
 - key: partner
   term:
@@ -639,6 +847,11 @@
   advanced:
     en: "a fixed-term research position leading to a PhD, requiring a completed master's degree. Fellows are employed by a partner institution, not by MishMash, and follow either the scientific track or the artistic-research track; the directory lists them by work package"
     nb: "en midlertidig forskerstilling som leder til doktorgrad, med fullført mastergrad som krav. Stipendiatene er ansatt ved en partnerinstitusjon, ikke i MishMash, og følger enten det vitenskapelige løpet eller løpet for kunstnerisk forskning; katalogen viser dem per arbeidspakke"
+  references:
+    - kind: norsk
+      quote: "«En stipendiatstilling skal føre til oppnådd doktorgrad og bidra til at den ansatte kvalifiserer seg for relevante karrierer ved høyere utdannings- og forskningsinstitusjoner og andre sektorer i arbeidslivet der forskningskompetanse kreves.»"
+      source: "Universitets- og høyskoleforskriften § 3-19"
+      url: "https://lovdata.no/forskrift/2024-06-28-1392/§3-19"
 
 - key: postdoc
   term:
@@ -653,6 +866,11 @@
   advanced:
     en: "a fixed-term qualifying position, typically two to four years, that requires the PhD to be submitted before applying and defended before appointment. MishMash's postdocs are employed by the partner institutions and usually anchored in one work package"
     nb: "en midlertidig kvalifiseringsstilling, vanligvis to til fire år, som krever at doktoravhandlingen er levert før søknad og forsvart før tiltredelse. MishMashs postdoktorer er ansatt ved partnerinstitusjonene og som regel forankret i én arbeidspakke"
+  references:
+    - kind: norsk
+      quote: "«En postdoktorstilling har som formål at den ansatte skal opparbeide seg en forskerprofil og kompetanse som gjør vedkommende kvalifisert for å søke stilling som førsteamanuensis.»"
+      source: "Universitets- og høyskoleforskriften § 3-18"
+      url: "https://lovdata.no/forskrift/2024-06-28-1392/§3-18"
 
 - key: nva
   term:
@@ -696,6 +914,7 @@
     en: "life-cycle assessment: a standardised method (ISO 14040) for compiling the inputs, outputs and environmental impacts of a product system from raw materials to disposal. MishMash applies it to the environmental cost of training and running AI models"
     nb: "livsløpsanalyse: en standardisert metode (ISO 14040) for å sammenstille innsatsfaktorer, utslipp og miljøpåvirkninger fra et produktsystem fra råvarer til avhending. MishMash bruker den på miljøkostnaden ved å trene og kjøre KI-modeller"
   references:
-    - kind: literature
-      quote: "\"Compilation and evaluation of the inputs, outputs and the potential environmental impacts of a product system throughout its life cycle.\""
-      source: "ISO 14040:2006"
+    - kind: standard
+      quote: "“Compilation and evaluation of the inputs, outputs and the potential environmental impacts of a product system throughout its life cycle.”"
+      source: "ISO 14040:2006, 3.2"
+      url: "https://www.iso.org/obp/ui/#iso:std:iso:14040:ed-2:en"

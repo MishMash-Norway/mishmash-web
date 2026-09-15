@@ -10,8 +10,8 @@ description: "A glossary of AI and creativity terms used across the MishMash cen
 
 Key terms used across mishmash.no, each explained at three levels. Use the
 switcher above to choose: *Simple* is one plain sentence, *Standard* is the
-everyday explanation, and *Advanced* adds precision, the definition from the
-research literature, and the Norwegian definition where one has been settled.
+everyday explanation, and *Advanced* adds precision and the settled definitions
+from standards, policy, the research literature and Norwegian sources.
 
 The same texts power the inline
 {% include stretch.html term="stretchtext" %} explanations — dotted-underlined
@@ -19,17 +19,21 @@ terms like that one, which you can click to unfold — so this list and the
 in-text explanations always match, at whichever level you read.
 
 <div class="adaptive" data-for="simple standard" markdown="1">
-At the *Advanced* level, each term also shows its definition from the research
-literature and the Norwegian definition, with sources.
+Switch to *Advanced* to see where each definition comes from. Each term then
+also shows how standards, laws, research and Norwegian sources define it.
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-Where a term has a settled definition in the research literature, that is given
-underneath, with its source. Norwegian definitions are quoted from
+Where a term has a settled definition elsewhere, it is given underneath, with
+its source, in this order: international standards (ISO/IEC 22989 and related
+standards, NIST), policy and law (the EU AI Act, OECD, UNESCO, national
+strategies), the research literature, and the Norwegian definition. Norwegian
+definitions are quoted from
 [Teknologirådet's glossary of artificial intelligence](https://teknologiradet.no/ordliste-for-kunstig-intelligens/),
-which Språkrådet has reviewed, and from the national AI strategy; the Norwegian
-terms in this glossary follow the same list. Quotation marks mean the wording
-is the source's own; without them it is a close paraphrase.
+which Språkrådet has reviewed, and from Norwegian regulations and strategies;
+the Norwegian terms in this glossary follow Teknologirådet's list. Quotation
+marks mean the wording is the source's own; without them it is a close
+paraphrase. Draft standards are marked as drafts.
 </div>
 
 {% assign entries = site.data.glossary | sort: "key" %}
