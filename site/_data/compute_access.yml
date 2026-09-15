@@ -1,0 +1,425 @@
+# Where MishMash partners can get computing power for AI work.
+#
+# Two parts. `categories` carries the guidance, and is what almost every
+# institution gets. `institutions` maps each directory slug to a category,
+# with an optional `local` block for the few institutions whose own services
+# have been checked against a public page.
+#
+# Rule for editing: do not add a `local` block unless you have checked it
+# against the institution's own pages, and put the date in `last_checked`.
+# A wrong local answer is worse than the category answer.
+
+last_checked: 2026-09-15
+
+# Shown on every panel, because it is true everywhere.
+universal_note: >-
+  No Norwegian institutional service runs models for image, sound, music or
+  video. Every gateway listed here does text and speech only. For creative
+  modalities the answer is open-weight models on hardware you control, whoever
+  you work for, and closing that gap is one of the reasons MishMash exists.
+
+categories:
+
+  no-university-full:
+    label: Norwegian university with its own cluster and gateway
+    covers: >-
+      Large Norwegian universities that run their own chat gateway, their own
+      computing cluster and a secure environment for confidential data.
+    start_here: >-
+      Almost everything you need already exists inside your own institution.
+      Ask your local IT service before you apply for anything national.
+    chat: >-
+      Your institution runs its own gateway with both a chat interface and an
+      API. These serve open-weight models on Norwegian hardware as well as
+      commercial ones, with each model marked for the data classification it
+      may carry. Ask your IT service which classification your material falls
+      under before you paste anything into it.
+    transcription: >-
+      Autotekst from UiO transcribes speech and subtitles video, runs on
+      Norwegian servers and is used well beyond UiO. For confidential or health
+      material there is a version inside the secure environment, so recordings
+      never have to leave it.
+    fine_tuning: >-
+      Your own cluster first. It is easier to get onto than the national
+      systems and the queues are shorter.
+    national: >-
+      You are eligible. A project leader in a permanent, postdoctoral or
+      temporary position applies; students apply through a supervisor. Two
+      calls a year, with deadlines usually in February and August, but requests
+      outside the calls are normally answered within a couple of working days.
+    european: >-
+      Free for publicly funded research through the EuroHPC AI for Science
+      route, and through the LUMI AI Factory, which Norway belongs to.
+    ask: Your institution's IT service or research support office.
+
+  no-university-no-cluster:
+    label: Norwegian university or university college without its own cluster
+    covers: >-
+      Norwegian higher education institutions that offer staff and students a
+      chat service but run no computing cluster of their own.
+    start_here: >-
+      You have more access than you think. Eligibility for the national systems
+      follows the type of institution, not whether it owns hardware, so you can
+      hold a national allocation with no local cluster at all.
+    chat: >-
+      Your institution offers at least one of Sikt KI, GPT UiO or Microsoft
+      Copilot, all behind Feide or your ordinary account. Check which, and
+      which data classifications it is approved for, with your IT service.
+    transcription: >-
+      Autotekst from UiO is available to a number of institutions beyond UiO.
+      If yours is not one of them, it is worth asking your IT service to buy
+      access, since it is the single most useful service for most research.
+    fine_tuning: >-
+      You have no local cluster, so this is where the national systems earn
+      their place. A workstation with one good GPU in the department covers a
+      surprising amount and needs no application.
+    national: >-
+      You are eligible, and this is the most under-used route in the whole
+      partnership. Norwegian universities and university colleges qualify
+      regardless of local hardware. Ask whether a colleague already holds an
+      allocation you can join, which is faster than starting one.
+    european: >-
+      Free for publicly funded research through the EuroHPC AI for Science
+      route, and through the LUMI AI Factory, which Norway belongs to.
+    ask: Your IT service first, then Sigma2 directly at contact@sigma2.no.
+
+  no-arts-education:
+    label: Norwegian art academy or conservatoire
+    covers: >-
+      Norwegian higher education institutions in music, art, design and
+      architecture.
+    start_here: >-
+      You are a Norwegian higher education institution, which means the
+      national systems are open to you on the same terms as any university.
+      Very few arts institutions have used this, and the first few who do will
+      make it easier for the rest.
+    chat: >-
+      Whatever your institution has bought, usually Sikt KI or GPT UiO through
+      Feide. These are language services and will not help with sound or image.
+    transcription: >-
+      Autotekst if your institution has it; ask if not.
+    fine_tuning: >-
+      For creative work this is usually the point. Training a model on your own
+      recordings, footage or drawings needs a GPU for hours or days, not a
+      chat window. One workstation in the building is often the right answer,
+      and a national allocation is the right answer when it is not.
+    national: >-
+      You are eligible as a Norwegian university college. The project leader
+      must hold a position; students go through a supervisor. Nobody at a
+      Norwegian arts institution appears to have used this for a creative
+      modality yet, which makes it a good first case and one MishMash would
+      like to help with.
+    european: >-
+      Free for publicly funded research through EuroHPC. If your institution
+      works with an artist-run company, the free SME routes may also apply.
+    ask: >-
+      Your IT service, and contact@mishmash.no if you want help framing a first
+      application.
+
+  no-cultural-institution:
+    label: Norwegian cultural institution, museum, festival or centre
+    covers: >-
+      Museums, libraries, archives, festivals, concert houses, production
+      centres and arts organisations in Norway.
+    start_here: >-
+      This is the least settled part of the Norwegian landscape, and the
+      honest answer is that your route has probably not been tested. Two doors
+      are worth knocking on, and what happens when you do is useful to
+      everyone.
+    chat: >-
+      Commercial services, unless your institution has bought something. There
+      is no national AI service for the cultural sector.
+    transcription: >-
+      Commercial services, or Whisper run locally, which is free, private and
+      runs on an ordinary laptop.
+    fine_tuning: >-
+      Your own hardware, in practice. A single workstation with a good GPU
+      covers most of what a cultural institution needs.
+    national: >-
+      Two untested routes. KI-fabrikken at Sigma2 serves public sector bodies,
+      and a publicly owned or publicly funded institution may qualify.
+      Separately, Sigma2 invites organisations outside its listed eligibility
+      categories to get in touch and ask. As far as we can establish, neither
+      has been tried by a Norwegian museum, theatre or festival.
+    european: >-
+      Generally not open to you unless you have a company that qualifies as a
+      small or medium enterprise.
+    ask: >-
+      Sigma2 at contact@sigma2.no, and please tell us what they said at
+      contact@mishmash.no. Establishing the answer once helps the whole sector.
+
+  no-research-institute:
+    label: Norwegian research institute
+    covers: >-
+      Independent Norwegian research institutes and their subsidiaries.
+    start_here: >-
+      You are eligible for the national systems, and many institutes already
+      hold allocations. Check internally before applying.
+    chat: >-
+      Whatever your institute has procured. Several use the university
+      gateways under agreement.
+    transcription: >-
+      Autotekst where your institute has access, otherwise Whisper run locally
+      or a commercial service.
+    fine_tuning: >-
+      Institute hardware first, then the national systems.
+    national: >-
+      Governmental research centres and bodies financed by the Ministry of
+      Education and Research or the Research Council are explicitly eligible.
+      The project leader must hold a position at the institute.
+    european: >-
+      Free for publicly funded research through the EuroHPC AI for Science
+      route. Collaborative projects funded by Horizon Europe or the Digital
+      Europe Programme also qualify.
+    ask: Your institute's research support, then contact@sigma2.no.
+
+  no-company:
+    label: Norwegian company or small enterprise
+    covers: >-
+      Norwegian companies, studios and startups in the partnership, including
+      artist-run companies.
+    start_here: >-
+      The European route is faster and cheaper than most people expect, and it
+      is free. Start there rather than with the Norwegian systems.
+    chat: >-
+      Commercial services, which is what most companies use and is usually the
+      right call for everyday work.
+    transcription: >-
+      Commercial services, or Whisper run locally when the material cannot
+      leave the building.
+    fine_tuning: >-
+      Your own hardware for anything continuous. A rule of thumb from the
+      centre's practitioners is that about six months of rented cloud capacity
+      pays for the equivalent machine.
+    national: >-
+      Industrial parties are explicitly eligible for the national systems, with
+      payment for use, and KI-fabrikken at Sigma2 exists to serve Norwegian
+      businesses.
+    european: >-
+      This is the good one. EuroHPC AI Factory access is free of charge to AI
+      small and medium enterprises including startups. Playground access is
+      permanently open and normally decided within two working days, and Fast
+      Lane gives up to 50 000 GPU hours and is normally decided within four.
+      Norway takes part through the LUMI AI Factory, so Norwegian companies
+      qualify. Apply at access.eurohpc-ju.europa.eu.
+    ask: >-
+      Sigma2 at contact@sigma2.no for the national route, and the EuroHPC
+      access portal directly for the European one.
+
+  international:
+    label: International partner
+    covers: >-
+      Partner institutions and companies outside Norway.
+    start_here: >-
+      Use your own country's national infrastructure, which will be faster and
+      better supported for you than anything Norwegian. The Norwegian systems
+      are open to Norwegian institutions, so a joint project normally runs on
+      the Norwegian partner's allocation.
+    chat: >-
+      Whatever your own institution provides.
+    transcription: >-
+      Whatever your own institution provides, or Whisper run locally.
+    fine_tuning: >-
+      Your own institution's cluster, or your national provider.
+    national: >-
+      Not directly. A Norwegian project leader can add external collaborators
+      to a Norwegian allocation, so the route is through your MishMash
+      colleague rather than through an application of your own.
+    european: >-
+      If you are in an EU member state or an associated country, the EuroHPC
+      AI Factory routes are open to you on the same terms as everyone else, and
+      your country may host its own AI Factory or Antenna.
+    ask: >-
+      Your own institution first, then your MishMash collaborator about joining
+      their project.
+
+institutions:
+
+  # Norwegian universities with their own cluster and gateway
+  university-of-oslo:
+    category: no-university-full
+    local:
+      services:
+        - name: GPT UiO
+          note: >-
+            Chat and API, open-weight models served on UiO and NTNU hardware
+            alongside commercial ones, quotas per model per month, separate API
+            keys for yellow and red data. Approved for red (confidential) data
+            on some models since 2026.
+          url: https://www.uio.no/tjenester/it/ki/gpt-uio/
+        - name: Autotekst
+          note: Speech to text and video subtitling, on UiO servers.
+          url: https://www.uio.no/english/services/it/video-sound/autotekst/
+        - name: Fox and Educloud Research
+          note: Cluster with GPU nodes, plus a browser desktop and notebooks.
+          url: https://www.uio.no/english/services/it/research/hpc/fox/
+        - name: TSD
+          note: Secure environment for confidential and health data, with Autotekst inside it.
+          url: https://www.uio.no/tjenester/it/forskning/sensitiv/
+  norwegian-university-of-science-and-technology:
+    category: no-university-full
+    local:
+      services:
+        - name: GPT NTNU
+          note: >-
+            Chat over models served locally, developed with UiO and running on
+            infrastructure at both institutions.
+          url: https://gpt.ntnu.no/en
+        - name: Idun
+          note: NTNU's GPU cluster, which also hosts models for the gateway.
+          url: https://www.hpc.ntnu.no/idun/
+        - name: HUNT Cloud
+          note: Secure environment for sensitive data.
+          url: https://www.ntnu.edu/mh/huntcloud
+  university-of-bergen:
+    category: no-university-full
+    local:
+      services:
+        - name: UiBchat
+          note: Chat service for UiB students and staff.
+          url: https://ntk.app.uib.no/TJ0838/
+        - name: SAFE
+          note: >-
+            Secure environment for sensitive personal data, open to UiB staff,
+            students and external collaborators, with computing inside it.
+          url: https://hjelpekort.app.uib.no/KI-0308.html
+  arctic-university-of-norway:
+    category: no-university-full
+  university-of-agder:
+    category: no-university-full
+  university-of-stavanger:
+    category: no-university-full
+
+  # Norwegian universities and colleges without their own cluster
+  university-of-inland-norway:
+    category: no-university-no-cluster
+    local:
+      services:
+        - name: Sikt KI, GPT UiO and Copilot
+          note: All three are available to INN staff and students.
+          url: https://www.inn.no/om-universitetet/kunstig-intelligens/
+        - name: Autotekst
+          note: Transcription and subtitling, through UiO.
+          url: https://www.inn.no/it-brukerstotte/
+  oslo-metropolitan-university:
+    category: no-university-no-cluster
+  nord-university:
+    category: no-university-no-cluster
+  western-norway-university-of-applied-sciences:
+    category: no-university-no-cluster
+  ostfold-university-college:
+    category: no-university-no-cluster
+  kristiania-university-college:
+    category: no-university-no-cluster
+  nla-university-college:
+    category: no-university-no-cluster
+  bi-norwegian-business-school:
+    category: no-university-no-cluster
+
+  # Norwegian arts education
+  norwegian-academy-of-music:
+    category: no-arts-education
+  oslo-national-academy-of-the-arts:
+    category: no-arts-education
+  oslo-school-of-architecture-and-design:
+    category: no-arts-education
+  barratt-due-institute-of-music:
+    category: no-arts-education
+
+  # Norwegian cultural institutions
+  national-library-of-norway:
+    category: no-cultural-institution
+    local:
+      note: >-
+        The National Library is the exception in this category. It runs its own
+        AI-lab, publishes models and datasets openly, has a dedicated state
+        funding line for Norwegian and Sami language models with matching
+        computing money to Sigma2, and sits with UiO and NTNU in
+        Spraakmodellklynge Norge. For most purposes it is a producer of national
+        infrastructure rather than an institution looking for access.
+      services:
+        - name: AI-lab at the National Library
+          note: Open models and datasets, including NB-Whisper and the Borealis models.
+          url: https://ai.nb.no/
+  norwegian-museum-of-cultural-history:
+    category: no-cultural-institution
+  norges-musikkmuseum:
+    category: no-cultural-institution
+  notam-norwegian-centre-for-technology-art-and-music:
+    category: no-cultural-institution
+  bergen-center-for-electronic-arts:
+    category: no-cultural-institution
+  ultima-festival:
+    category: no-cultural-institution
+  kulturtanken:
+    category: no-cultural-institution
+  kulturskoleradet:
+    category: no-cultural-institution
+  ai-mission-hub-association:
+    category: no-cultural-institution
+
+  # Norwegian research institutes
+  sintef-digital:
+    category: no-research-institute
+  simula-metropolitan-center-for-digital-engineering:
+    category: no-research-institute
+  institute-for-energy-technology:
+    category: no-research-institute
+  norwegian-institute-for-air-research:
+    category: no-research-institute
+  norsus-norwegian-institute-for-sustainability-research:
+    category: no-research-institute
+
+  # Norwegian companies
+  forzasys:
+    category: no-company
+  screenstory:
+    category: no-company
+  moonframe:
+    category: no-company
+  aamot-innovation:
+    category: no-company
+  super-ponni:
+    category: no-company
+  muzziball:
+    category: no-company
+  reimagine:
+    category: no-company
+
+  # International partners
+  aalborg-university:
+    category: international
+  aalto-university:
+    category: international
+  australian-national-university:
+    category: international
+  ghent-university:
+    category: international
+  kth-royal-institute-of-technology:
+    category: international
+  labasad:
+    category: international
+  motioncomposer-gmbh:
+    category: international
+  nicolaus-copernicus-university:
+    category: international
+  simon-fraser-university:
+    category: international
+  uniarts-helsinki:
+    category: international
+  university-of-cambridge:
+    category: international
+  university-of-iceland:
+    category: international
+  university-of-jyvaskyla:
+    category: international
+  university-of-manchester:
+    category: international
+  university-of-melbourne:
+    category: international
+  university-of-music-lubeck:
+    category: international
+  university-of-stirling:
+    category: international
+  university-of-the-arts-london:
+    category: international

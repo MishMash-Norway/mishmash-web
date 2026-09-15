@@ -1,0 +1,187 @@
+---
+layout: default
+title: Where to get computing power
+---
+
+{% assign access = site.data.compute_access %}
+{% assign institutions = site.directory | where: "type", "institution" | sort: "name" %}
+
+<h1>Where to get computing power</h1>
+
+<p>Pick your institution and this page tells you what you can use today, what you are eligible to apply for, and who to ask. MishMash has partners in seven quite different situations, and the answer is genuinely different for a large university, an art academy, a museum and a company.</p>
+
+<p class="mm-help">Checked {{ access.last_checked }}. Facts about institutional services change; if something here is wrong or out of date, tell us at <a href="mailto:contact@mishmash.no">contact@mishmash.no</a> and we will fix it.</p>
+
+<div class="mm-field">
+  <label class="mm-label" for="ca-institution">Your institution</label>
+  <select class="mm-text-input ca-select" id="ca-institution">
+    <option value="">Choose an institution…</option>
+    {% for inst in institutions %}
+      {% assign entry = access.institutions[inst.slug] %}
+      {% if entry %}
+        <option value="{{ inst.slug }}" data-category="{{ entry.category }}">{{ inst.name }}{% if inst.short_name %} ({{ inst.short_name }}){% endif %}</option>
+      {% endif %}
+    {% endfor %}
+  </select>
+  <p class="mm-help">Not listed? The categories below still apply. Use the one that fits and write to us so we can add you.</p>
+</div>
+
+<p class="ca-empty" id="ca-empty">Nothing selected yet.</p>
+
+<div class="ca-result" id="ca-result" hidden>
+
+  <h2 class="ca-heading" id="ca-heading"></h2>
+  <p class="ca-kind" id="ca-kind"></p>
+
+  {% for inst in institutions %}
+    {% assign entry = access.institutions[inst.slug] %}
+    {% if entry.local %}
+      <section class="ca-local" id="ca-local-{{ inst.slug }}" data-local="{{ inst.slug }}" hidden>
+        <h3>At {{ inst.short_name | default: inst.name }}</h3>
+        {% if entry.local.note %}<p>{{ entry.local.note }}</p>{% endif %}
+        {% if entry.local.services %}
+          <dl class="ca-services">
+            {% for service in entry.local.services %}
+              <dt>{% if service.url %}<a href="{{ service.url }}">{{ service.name }}</a>{% else %}{{ service.name }}{% endif %}</dt>
+              <dd>{{ service.note }}</dd>
+            {% endfor %}
+          </dl>
+        {% endif %}
+      </section>
+    {% endif %}
+  {% endfor %}
+
+  <p class="ca-nolocal" id="ca-nolocal" hidden>We have not checked what this institution runs in-house. The guidance below applies to institutions of this kind. If you know what your own IT service offers, tell us and we will add it.</p>
+
+  {% for pair in access.categories %}
+    {% assign key = pair[0] %}
+    {% assign cat = pair[1] %}
+    <section class="ca-panel" id="ca-panel-{{ key }}" data-category="{{ key }}" data-label="{{ cat.label }}" hidden>
+
+      <p class="ca-start"><strong>Start here.</strong> {{ cat.start_here }}</p>
+
+      <dl class="ca-rows">
+        <dt>Everyday chat and text</dt>
+        <dd>{{ cat.chat }}</dd>
+
+        <dt>Transcription</dt>
+        <dd>{{ cat.transcription }}</dd>
+
+        <dt>Training on your own material</dt>
+        <dd>{{ cat.fine_tuning }}</dd>
+
+        <dt>The national systems</dt>
+        <dd>{{ cat.national }}</dd>
+
+        <dt>The European route</dt>
+        <dd>{{ cat.european }}</dd>
+
+        <dt>Who to ask</dt>
+        <dd>{{ cat.ask }}</dd>
+      </dl>
+
+    </section>
+  {% endfor %}
+
+  <p class="ca-universal">{{ access.universal_note }}</p>
+
+  <p class="mm-help">Background: <a href="/faq/#training-vs-inference">what inference and training mean</a>, <a href="/faq/#institution-vs-national">how institutional services relate to national ones</a>, and <a href="/faq/#image-audio-video-models">what exists for image, sound, music and video</a>.</p>
+
+</div>
+
+<h2>The seven situations</h2>
+
+<div class="faq-list">
+{% for pair in access.categories %}
+  {% assign cat = pair[1] %}
+  <details class="faq-item">
+    <summary><span class="faq-summary-text">{{ cat.label }}</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+    <p>{{ cat.covers }}</p>
+    <p><strong>Start here.</strong> {{ cat.start_here }}</p>
+  </details>
+{% endfor %}
+</div>
+
+<style>
+  .ca-select { max-width: 32rem; }
+  .ca-empty { color: #5c5859; font-style: italic; }
+  .ca-result { margin-top: 2rem; }
+  .ca-heading { margin-bottom: 0.2rem; }
+  .ca-kind { margin-top: 0; color: #5c5859; }
+  .ca-local {
+    border-left: 4px solid var(--mm-green, #b3e297);
+    padding: 0.2rem 0 0.2rem 1rem;
+    margin: 1.5rem 0;
+  }
+  .ca-local h3 { margin-top: 0.6rem; }
+  .ca-start { margin: 1.5rem 0; }
+  .ca-rows, .ca-services { margin: 1rem 0; }
+  .ca-rows dt, .ca-services dt {
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+  .ca-rows dd, .ca-services dd {
+    margin: 0.25rem 0 0;
+  }
+  .ca-universal {
+    border-top: 2px solid var(--mm-ink, #231f20);
+    padding-top: 1rem;
+    margin-top: 2rem;
+  }
+  [hidden] { display: none !important; }
+</style>
+
+<script>
+(function () {
+  'use strict';
+
+  var select = document.getElementById('ca-institution');
+  var result = document.getElementById('ca-result');
+  var empty = document.getElementById('ca-empty');
+  var heading = document.getElementById('ca-heading');
+  var kind = document.getElementById('ca-kind');
+  var nolocal = document.getElementById('ca-nolocal');
+  if (!select || !result) return;
+
+  var panels = document.querySelectorAll('.ca-panel');
+  var locals = document.querySelectorAll('.ca-local');
+
+  function show(slug, updateHistory) {
+    var option = slug ? select.querySelector('option[value="' + slug + '"]') : null;
+
+    if (!option) {
+      result.hidden = true;
+      empty.hidden = false;
+      return;
+    }
+
+    var category = option.dataset.category;
+    heading.textContent = option.textContent;
+
+    var panel = document.getElementById('ca-panel-' + category);
+    panels.forEach(function (p) { p.hidden = p !== panel; });
+    kind.textContent = panel ? panel.dataset.label || '' : '';
+
+    var local = document.getElementById('ca-local-' + slug);
+    locals.forEach(function (l) { l.hidden = l !== local; });
+    nolocal.hidden = !!local;
+
+    empty.hidden = true;
+    result.hidden = false;
+
+    if (updateHistory) {
+      history.replaceState(null, '', '?institution=' + encodeURIComponent(slug));
+    }
+  }
+
+  select.addEventListener('change', function () {
+    show(select.value, true);
+  });
+
+  var fromUrl = new URLSearchParams(window.location.search).get('institution');
+  if (fromUrl) {
+    select.value = fromUrl;
+    show(select.value, false);
+  }
+})();
+</script>

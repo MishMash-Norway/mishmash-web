@@ -9,6 +9,7 @@ This page collects internal MishMash resources.
 
 ## General resources
 
+- [Where to get computing power](/internal/compute/) — look up your institution
 - [Funding opportunities](/internal/funding/)
 - [Paper acknowledgments](/internal/acknowledgment/)
 - [MeshUp run-of-show](/internal/meshups/)
