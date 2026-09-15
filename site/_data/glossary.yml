@@ -12,15 +12,21 @@
 #   standard  plain language (klarspråk); this is what most readers see
 #   advanced  precise, with the literature and the field's own terms
 #
-# Optional reference fields, shown at the advanced level:
-#   canonical / source / source_url   the settled definition in the
-#       research literature. Quotation marks mean the source's own
-#       wording; without them it is a close paraphrase.
-#   norsk / norsk_source / norsk_source_url   the Norwegian definition,
-#       quoted verbatim from Teknologirådet's "Ordliste for kunstig
-#       intelligens" (reviewed by Språkrådet; consolidated August 2026)
-#       or from the national AI strategy. Norwegian terms follow the
-#       same list (e.g. "instruks" for prompt).
+# Optional `references`, shown at the advanced level under the
+# definition, each with:
+#   kind     literature | standard | policy | norsk
+#            (research literature; ISO/IEC and other standards; EU,
+#            OECD, UNESCO and government definitions; the Norwegian
+#            definition, quoted from Teknologirådet's "Ordliste for
+#            kunstig intelligens" (reviewed by Språkrådet; consolidated
+#            August 2026) or the national AI strategy)
+#   quote    the definition. Quotation marks mean the source's own
+#            wording; without them it is a close paraphrase.
+#   source   short citation shown as the link text, e.g. "Boden 2004",
+#            "ISO/IEC 22989:2022, 3.1.4", "EU AI Act, Art. 3(1)"
+#   url      optional link (DOI preferred)
+# Norwegian terms follow Teknologirådet's list (e.g. "instruks" for
+# prompt).
 #
 # scripts/check_readability.py verifies that every entry has every
 # level in both languages.
@@ -38,12 +44,15 @@
   advanced:
     en: "an umbrella term for computational systems that perform tasks associated with intelligence, from hand-written rule-based systems to today's learning-based models. The Norwegian national AI strategy defines AI systems by what they do: act, physically or digitally, on interpreted data in order to reach a goal, with some systems adapting to how earlier actions affected their surroundings"
     nb: "samlebetegnelse for datasystemer som utfører oppgaver vi forbinder med intelligens, fra håndskrevne regelbaserte systemer til dagens læringsbaserte modeller. Språkrådet anbefaler den norske forkortelsen KI framfor AI. Den nasjonale KI-strategien definerer KI-systemer ut fra hva de gjør: handle, fysisk eller digitalt, ut fra tolkede data for å nå et mål"
-  canonical: "\"The science and engineering of making intelligent machines.\""
-  source: "McCarthy 2007"
-  source_url: "http://jmc.stanford.edu/articles/whatisai.html"
-  norsk: "«Kunstig intelligente systemer utfører handlinger, fysisk eller digitalt, basert på tolkning og behandling av strukturerte eller ustrukturerte data, i den hensikt å oppnå et gitt mål.»"
-  norsk_source: "Nasjonal strategi for kunstig intelligens 2020"
-  norsk_source_url: "https://www.regjeringen.no/contentassets/1febbbb2c4fd4b7d92c67ddd353b6ae8/no/pdfs/ki-strategi.pdf"
+  references:
+    - kind: literature
+      quote: "\"The science and engineering of making intelligent machines.\""
+      source: "McCarthy 2007"
+      url: "http://jmc.stanford.edu/articles/whatisai.html"
+    - kind: norsk
+      quote: "«Kunstig intelligente systemer utfører handlinger, fysisk eller digitalt, basert på tolkning og behandling av strukturerte eller ustrukturerte data, i den hensikt å oppnå et gitt mål.»"
+      source: "Nasjonal strategi for kunstig intelligens 2020"
+      url: "https://www.regjeringen.no/contentassets/1febbbb2c4fd4b7d92c67ddd353b6ae8/no/pdfs/ki-strategi.pdf"
 
 - key: creativity
   term:
@@ -58,9 +67,11 @@
   advanced:
     en: "MishMash follows Boden in treating creativity as the production of ideas or artefacts that are new, surprising and valuable, and distinguishes what is new to the person from what is new to everyone. The centre studies AI through this trait rather than through intelligence in general"
     nb: "MishMash følger Boden og forstår kreativitet som frambringelse av ideer eller verk som er nye, overraskende og verdifulle, og skiller mellom det som er nytt for personen og det som er nytt for alle. Senteret studerer KI gjennom dette trekket, ikke gjennom intelligens generelt"
-  canonical: "“The ability to come up with ideas or artefacts that are new, surprising and valuable.”"
-  source: "Boden 2004"
-  source_url: "https://doi.org/10.4324/9780203508527"
+  references:
+    - kind: literature
+      quote: "“The ability to come up with ideas or artefacts that are new, surprising and valuable.”"
+      source: "Boden 2004"
+      url: "https://doi.org/10.4324/9780203508527"
 
 - key: creative-ai
   term:
@@ -75,9 +86,11 @@
   advanced:
     en: "machine systems whose output is novel and meaningful and can stand on its own without a human finishing it (de Vries 2020). The term describes what the systems produce, not a claim that they are creative in Boden's sense; whether they are, and how their output differs from human creativity, is one of MishMash's research questions"
     nb: "maskinsystemer der resultatet er nyskapende og meningsfullt og kan stå på egne bein uten at et menneske fullfører det (de Vries 2020). Begrepet beskriver hva systemene lager, ikke en påstand om at de er kreative i Bodens forstand; om de er det, og hvordan resultatene skiller seg fra menneskelig kreativitet, er ett av MishMashs forskningsspørsmål"
-  canonical: "Machine systems able to produce novel and meaningful results that stand independently."
-  source: "after de Vries 2020"
-  source_url: "https://doi.org/10.1080/1369118X.2020.1754877"
+  references:
+    - kind: literature
+      quote: "Machine systems able to produce novel and meaningful results that stand independently."
+      source: "after de Vries 2020"
+      url: "https://doi.org/10.1080/1369118X.2020.1754877"
 
 - key: cocreative-ai
   term:
@@ -92,9 +105,11 @@
   advanced:
     en: "AI systems designed as partners in a creative process, where initiative, control and contribution are shared between human and machine (Anscomb 2024). Pioneering such systems is MishMash's stated objective, with human agency, environmental sustainability and democratic access to the technology as design requirements"
     nb: "KI-systemer utformet som partnere i en kreativ prosess, der initiativ, kontroll og bidrag deles mellom menneske og maskin (Anscomb 2024). Å utvikle slike systemer er MishMashs uttalte mål, med menneskelig handlekraft, miljømessig bærekraft og demokratisk tilgang til teknologien som krav"
-  canonical: "AI treated as a collaborator rather than a tool: a partnership in which both the human and the system contribute to the creative outcome."
-  source: "after Anscomb 2024"
-  source_url: "https://doi.org/10.1007/s00146-024-02083-y"
+  references:
+    - kind: literature
+      quote: "AI treated as a collaborator rather than a tool: a partnership in which both the human and the system contribute to the creative outcome."
+      source: "after Anscomb 2024"
+      url: "https://doi.org/10.1007/s00146-024-02083-y"
 
 - key: co-creation
   term:
@@ -151,8 +166,10 @@
   advanced:
     en: "a hypertext form proposed by Ted Nelson in 1967 in which the text expands and contracts in place instead of jumping to another page. On mishmash.no it is combined with three reading levels, so a page can carry its own glossary at the depth the reader has chosen"
     nb: "en hypertekstform foreslått av Ted Nelson i 1967 der teksten foldes ut og inn på stedet i stedet for å hoppe til en annen side. På mishmash.no er den kombinert med tre lesenivåer, slik at en side kan bære sin egen ordliste på den dybden leseren har valgt"
-  canonical: "Text that the reader expands and contracts in place, so detail arrives without leaving the page."
-  source: "after Nelson 1967"
+  references:
+    - kind: literature
+      quote: "Text that the reader expands and contracts in place, so detail arrives without leaving the page."
+      source: "after Nelson 1967"
 
 - key: generative-ai
   term:
@@ -167,9 +184,11 @@
   advanced:
     en: "machine-learning models, today mostly large neural networks trained on very large datasets, that produce new samples resembling their training data in response to a prompt. Commercial examples are Dall-E for images, ChatGPT for text and Suno for music; MishMash studies such systems as material, instrument and object of critique"
     nb: "maskinlæringsmodeller, i dag for det meste store nevrale nettverk trent på svært store datasett, som lager nye eksempler som ligner treningsdataene som svar på en instruks. Kommersielle eksempler er Dall-E for bilder, ChatGPT for tekst og Suno for musikk; MishMash studerer slike systemer som materiale, instrument og gjenstand for kritikk"
-  norsk: "«KI som kan generere nytt innhold som tekst, bilder, lyd, video og programkode.»"
-  norsk_source: "Teknologirådet 2026"
-  norsk_source_url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
+  references:
+    - kind: norsk
+      quote: "«KI som kan generere nytt innhold som tekst, bilder, lyd, video og programkode.»"
+      source: "Teknologirådet 2026"
+      url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
 
 - key: large-language-model
   term:
@@ -184,9 +203,11 @@
   advanced:
     en: "a neural network, typically a transformer with billions of parameters, trained to predict the next token in text and then tuned with human feedback. It learns statistical patterns in its training data, which lets it answer, summarise, translate and generate, and which also explains its characteristic failures, such as inventing facts"
     nb: "et nevralt nettverk, som regel en transformer med milliarder av parametre, trent til å forutsi neste token i en tekst og deretter justert med menneskelig tilbakemelding. Den lærer statistiske mønstre i treningsdataene, som lar den svare, oppsummere, oversette og generere, og som også forklarer de typiske feilene, som å dikte opp fakta"
-  norsk: "«KI-modeller som er trent på svært store mengder tekst for å behandle og generere naturlig språk.»"
-  norsk_source: "Teknologirådet 2026"
-  norsk_source_url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
+  references:
+    - kind: norsk
+      quote: "«KI-modeller som er trent på svært store mengder tekst for å behandle og generere naturlig språk.»"
+      source: "Teknologirådet 2026"
+      url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
 
 - key: machine-learning
   term:
@@ -201,8 +222,10 @@
   advanced:
     en: "the subfield of AI in which a model's parameters are fitted to data so that performance on a task improves with experience (Mitchell 1997). It spans supervised, unsupervised and reinforcement learning and underlies nearly all current creative AI, in contrast to the rule-based systems of early computer art and music"
     nb: "delfeltet av KI der en modells parametre tilpasses data slik at ytelsen på en oppgave bedres med erfaring (Mitchell 1997). Det omfatter veiledet, ikke-veiledet og forsterkende læring og ligger under nesten all dagens kreative KI, i motsetning til de regelbaserte systemene i tidlig datakunst og datamusikk"
-  canonical: "\"A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks T, as measured by P, improves with experience E.\""
-  source: "Mitchell 1997"
+  references:
+    - kind: literature
+      quote: "\"A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks T, as measured by P, improves with experience E.\""
+      source: "Mitchell 1997"
 
 - key: neural-network
   term:
@@ -273,9 +296,11 @@
   advanced:
     en: "systematic error in a model's outputs that disadvantages particular groups or perspectives. It can enter through data collection, model design, training objectives or use; in creative AI it shows up as, for example, an over-representation of Anglo-American styles. Distinct from the statistical bias of the bias–variance trade-off"
     nb: "systematisk feil i en modells resultater som stiller bestemte grupper eller perspektiver dårligere. Den kan komme inn gjennom datainnsamling, modellutforming, treningsmål eller bruk; i kreativ KI viser den seg for eksempel som en overrepresentasjon av angloamerikanske stiler. Ikke det samme som den statistiske skjevheten i bias–varians-avveiningen"
-  norsk: "«Systematiske skjevheter i et KI-system som kan påvirke resultatene modellen produserer.»"
-  norsk_source: "Teknologirådet 2026"
-  norsk_source_url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
+  references:
+    - kind: norsk
+      quote: "«Systematiske skjevheter i et KI-system som kan påvirke resultatene modellen produserer.»"
+      source: "Teknologirådet 2026"
+      url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
 
 - key: explainability
   term:
@@ -304,9 +329,11 @@
   advanced:
     en: "models trained on more than one modality, so that representations are shared across, for example, text and images or audio and movement. Multimodality matters for the arts, where meaning is rarely carried by one channel alone; a model that handles only one type of data is *unimodal*"
     nb: "modeller trent på mer enn én modalitet, slik at representasjonene deles på tvers av for eksempel tekst og bilder eller lyd og bevegelse. Multimodalitet er viktig for kunsten, der mening sjelden bæres av én kanal alene; en modell som bare behandler én type data, er *unimodal*"
-  norsk: "«En KI-modell som kan behandle flere typer data, som tekst, bilder, lyd og video.»"
-  norsk_source: "Teknologirådet 2026"
-  norsk_source_url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
+  references:
+    - kind: norsk
+      quote: "«En KI-modell som kan behandle flere typer data, som tekst, bilder, lyd og video.»"
+      source: "Teknologirådet 2026"
+      url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
 
 - key: prompt
   term:
@@ -321,9 +348,11 @@
   advanced:
     en: "the input that conditions a generative model's output: a question, a task, background, examples, or a combination. Designing prompts for better results is called *prompt engineering*. Teknologirådet's Norwegian glossary, reviewed by Språkrådet, recommends *instruks* as the Norwegian term"
     nb: "inndataene som styrer hva en generativ modell lager: et spørsmål, en oppgave, bakgrunn, eksempler eller en kombinasjon. Å utforme instrukser for bedre resultater kalles *effektiv instruksjonsutforming* (prompt engineering). Teknologirådets ordliste, gjennomgått av Språkrådet, anbefaler *instruks* som norsk term"
-  norsk: "«Tekst, kommando eller annen informasjon som gis til en KI-modell for å styre hva den skal gjøre eller generere.»"
-  norsk_source: "Teknologirådet 2026"
-  norsk_source_url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
+  references:
+    - kind: norsk
+      quote: "«Tekst, kommando eller annen informasjon som gis til en KI-modell for å styre hva den skal gjøre eller generere.»"
+      source: "Teknologirådet 2026"
+      url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
 
 - key: ai-agent
   term:
@@ -338,9 +367,11 @@
   advanced:
     en: "a system that perceives its environment, chooses actions towards a goal and acts with some autonomy, possibly over many steps and with tools. In interactive music research a *musical agent* is such a system that listens and plays in real time; in current industry usage the word covers language-model systems that plan and carry out tasks"
     nb: "et system som sanser omgivelsene, velger handlinger mot et mål og handler med en viss selvstendighet, gjerne over mange steg og med verktøy. I interaktiv musikkforskning er en *musikalsk agent* et slikt system som lytter og spiller i sanntid; i dagens bransjespråk dekker ordet språkmodellsystemer som planlegger og utfører oppgaver"
-  norsk: "«KI-system utformet for å utføre en bestemt oppgave eller et bestemt sett av oppgaver på egen hånd.»"
-  norsk_source: "Teknologirådet 2026"
-  norsk_source_url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
+  references:
+    - kind: norsk
+      quote: "«KI-system utformet for å utføre en bestemt oppgave eller et bestemt sett av oppgaver på egen hånd.»"
+      source: "Teknologirådet 2026"
+      url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
 
 - key: embodied-ai
   term:
@@ -355,9 +386,11 @@
   advanced:
     en: "AI that learns and acts through a body situated in an environment, so that perception, action and learning are coupled (Duan et al. 2022). In MishMash it ranges from robots and musical machines on stage to interfaces that respond to a performer's movement"
     nb: "KI som lærer og handler gjennom en kropp plassert i et miljø, slik at sansing, handling og læring henger sammen (Duan mfl. 2022). I MishMash spenner det fra roboter og musikkmaskiner på scenen til grensesnitt som reagerer på utøverens bevegelser"
-  canonical: "AI that learns through interaction with an environment from its own point of view, rather than from static datasets."
-  source: "after Duan et al. 2022"
-  source_url: "https://doi.org/10.1109/TETCI.2022.3141105"
+  references:
+    - kind: literature
+      quote: "AI that learns through interaction with an environment from its own point of view, rather than from static datasets."
+      source: "after Duan et al. 2022"
+      url: "https://doi.org/10.1109/TETCI.2022.3141105"
 
 - key: computational-creativity
   term:
@@ -372,9 +405,11 @@
   advanced:
     en: "a research field at the meeting point of AI, cognitive science and the arts that builds and evaluates systems taking on creative responsibilities (Colton and Wiggins 2012). It asks not only whether the output is good but whether the process would count as creative to an unbiased observer"
     nb: "et forskningsfelt i skjæringspunktet mellom KI, kognitiv vitenskap og kunst som bygger og vurderer systemer som tar på seg kreative oppgaver (Colton og Wiggins 2012). Det spør ikke bare om resultatet er godt, men om prosessen ville telle som kreativ for en upartisk observatør"
-  canonical: "\"The philosophy, science and engineering of computational systems which, by taking on particular responsibilities, exhibit behaviours that unbiased observers would deem to be creative.\""
-  source: "Colton and Wiggins 2012"
-  source_url: "https://doi.org/10.3233/978-1-61499-098-7-21"
+  references:
+    - kind: literature
+      quote: "\"The philosophy, science and engineering of computational systems which, by taking on particular responsibilities, exhibit behaviours that unbiased observers would deem to be creative.\""
+      source: "Colton and Wiggins 2012"
+      url: "https://doi.org/10.3233/978-1-61499-098-7-21"
 
 - key: ai-literacy
   term:
@@ -389,9 +424,11 @@
   advanced:
     en: "a set of competencies for evaluating, communicating with and using AI critically (Long and Magerko 2020). It is a theme in MishMash's education work (WP4) and includes understanding what AI-generated content is, how it is made, and what it costs"
     nb: "et sett av ferdigheter for å vurdere, kommunisere med og bruke KI kritisk (Long og Magerko 2020). Det er et tema i MishMashs utdanningsarbeid (WP4) og omfatter å forstå hva KI-generert innhold er, hvordan det lages, og hva det koster"
-  canonical: "\"A set of competencies that enables individuals to critically evaluate AI technologies; communicate and collaborate effectively with AI; and use AI as a tool online, at home, and in the workplace.\""
-  source: "Long and Magerko 2020"
-  source_url: "https://doi.org/10.1145/3313831.3376727"
+  references:
+    - kind: literature
+      quote: "\"A set of competencies that enables individuals to critically evaluate AI technologies; communicate and collaborate effectively with AI; and use AI as a tool online, at home, and in the workplace.\""
+      source: "Long and Magerko 2020"
+      url: "https://doi.org/10.1145/3313831.3376727"
 
 - key: responsible-ai
   term:
@@ -658,5 +695,7 @@
   advanced:
     en: "life-cycle assessment: a standardised method (ISO 14040) for compiling the inputs, outputs and environmental impacts of a product system from raw materials to disposal. MishMash applies it to the environmental cost of training and running AI models"
     nb: "livsløpsanalyse: en standardisert metode (ISO 14040) for å sammenstille innsatsfaktorer, utslipp og miljøpåvirkninger fra et produktsystem fra råvarer til avhending. MishMash bruker den på miljøkostnaden ved å trene og kjøre KI-modeller"
-  canonical: "\"Compilation and evaluation of the inputs, outputs and the potential environmental impacts of a product system throughout its life cycle.\""
-  source: "ISO 14040:2006"
+  references:
+    - kind: literature
+      quote: "\"Compilation and evaluation of the inputs, outputs and the potential environmental impacts of a product system throughout its life cycle.\""
+      source: "ISO 14040:2006"

@@ -46,8 +46,15 @@ egen; uten dem er det en nær omskrivning.
   {%- assign text = variant.nb | default: variant.en | default: g.standard.nb | default: g.standard.en -%}
   <span class="adaptive" data-for="{{ lv.key }}">{{ text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
   {%- endfor -%}
-  {% if g.canonical %}<span class="adaptive glossary-ref" data-for="{{ top_level.key }}"><span class="glossary-ref-label">I litteraturen:</span> {{ g.canonical | markdownify | remove: '<p>' | remove: '</p>' | strip }} <cite>{% if g.source_url %}<a href="{{ g.source_url }}">{{ g.source }}</a>{% else %}{{ g.source }}{% endif %}</cite></span>{% endif %}
-  {% if g.norsk %}<span class="adaptive glossary-ref" data-for="{{ top_level.key }}"><span class="glossary-ref-label">Norsk definisjon:</span> {{ g.norsk | markdownify | remove: '<p>' | remove: '</p>' | strip }} <cite>{% if g.norsk_source_url %}<a href="{{ g.norsk_source_url }}">{{ g.norsk_source }}</a>{% else %}{{ g.norsk_source }}{% endif %}</cite></span>{% endif %}
+  {%- for r in g.references -%}
+  {%- case r.kind -%}
+  {%- when 'literature' -%}{%- assign ref_label = 'I litteraturen' -%}
+  {%- when 'standard' -%}{%- assign ref_label = 'I standarder' -%}
+  {%- when 'policy' -%}{%- assign ref_label = 'I regelverk' -%}
+  {%- else -%}{%- assign ref_label = 'Norsk definisjon' -%}
+  {%- endcase %}
+  <span class="adaptive glossary-ref" data-for="{{ top_level.key }}"><span class="glossary-ref-label">{{ ref_label }}:</span> {{ r.quote | markdownify | remove: '<p>' | remove: '</p>' | strip }} <cite>{% if r.url %}<a href="{{ r.url }}">{{ r.source }}</a>{% else %}{{ r.source }}{% endif %}</cite></span>
+  {%- endfor %}
   </dd>
 {% endfor %}
 </dl>
