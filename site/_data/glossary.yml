@@ -1,166 +1,662 @@
 # Site-wide glossary. Each entry powers both the inline stretchtext
 # explanations ({% include stretch.html term="<key>" %}) and the
 # glossary pages (/about/glossary/ and /no/about/glossary/), so a
-# definition is written exactly once. Definitions support inline
-# markdown and should stay at a phrase or a sentence.
+# definition is written exactly once.
+#
+# Every entry has one text per reading level (the keys in
+# _data/audiences.yml: simple, standard, advanced), each in English (en)
+# and Norwegian (nb). The reader's chosen level picks the variant, both
+# inline and on the glossary pages. Texts support inline markdown and
+# should stay at a phrase or a sentence or two:
+#   simple    short, concrete, no jargon
+#   standard  plain language (klarspråk); this is what most readers see
+#   advanced  precise, with the literature and the field's own terms
+#
+# Optional reference fields, shown at the advanced level:
+#   canonical / source / source_url   the settled definition in the
+#       research literature. Quotation marks mean the source's own
+#       wording; without them it is a close paraphrase.
+#   norsk / norsk_source / norsk_source_url   the Norwegian definition,
+#       quoted verbatim from Teknologirådet's "Ordliste for kunstig
+#       intelligens" (reviewed by Språkrådet; consolidated August 2026)
+#       or from the national AI strategy. Norwegian terms follow the
+#       same list (e.g. "instruks" for prompt).
+#
+# scripts/check_readability.py verifies that every entry has every
+# level in both languages.
+
 - key: ai
   term:
     en: "AI"
     nb: "KI"
-  definition:
-    en: "AI is short for *artificial intelligence* — computer programs that learn from lots of examples, a bit like how you learn from practice"
-    nb: "KI står for *kunstig intelligens* — dataprogrammer som lærer av mange eksempler, litt som du lærer av å øve"
+  simple:
+    en: "computer programs that can learn and solve problems, a bit like how you learn from practice"
+    nb: "dataprogrammer som kan lære og løse oppgaver, litt som du lærer av å øve"
+  standard:
+    en: "AI is short for *artificial intelligence*: computer systems that do things we usually think need human thinking, such as recognising pictures, writing text or composing music, mostly by learning from large numbers of examples"
+    nb: "KI står for *kunstig intelligens*: datasystemer som gjør ting vi vanligvis tenker krever menneskelig tenkning, som å kjenne igjen bilder, skrive tekst eller komponere musikk, som regel ved å lære av mange eksempler"
+  advanced:
+    en: "an umbrella term for computational systems that perform tasks associated with intelligence, from hand-written rule-based systems to today's learning-based models. The Norwegian national AI strategy defines AI systems by what they do: act, physically or digitally, on interpreted data in order to reach a goal, with some systems adapting to how earlier actions affected their surroundings"
+    nb: "samlebetegnelse for datasystemer som utfører oppgaver vi forbinder med intelligens, fra håndskrevne regelbaserte systemer til dagens læringsbaserte modeller. Språkrådet anbefaler den norske forkortelsen KI framfor AI. Den nasjonale KI-strategien definerer KI-systemer ut fra hva de gjør: handle, fysisk eller digitalt, ut fra tolkede data for å nå et mål"
   canonical: "\"The science and engineering of making intelligent machines.\""
   source: "McCarthy 2007"
   source_url: "http://jmc.stanford.edu/articles/whatisai.html"
+  norsk: "«Kunstig intelligente systemer utfører handlinger, fysisk eller digitalt, basert på tolkning og behandling av strukturerte eller ustrukturerte data, i den hensikt å oppnå et gitt mål.»"
+  norsk_source: "Nasjonal strategi for kunstig intelligens 2020"
+  norsk_source_url: "https://www.regjeringen.no/contentassets/1febbbb2c4fd4b7d92c67ddd353b6ae8/no/pdfs/ki-strategi.pdf"
+
 - key: creativity
   term:
     en: "creativity"
     nb: "kreativitet"
-  definition:
+  simple:
+    en: "coming up with something new that is also good, like a song no one has heard before"
+    nb: "å finne på noe nytt som også er bra, som en sang ingen har hørt før"
+  standard:
     en: "the ability to form ideas or works that are both *new* and *worth having* — the human trait MishMash studies AI through"
     nb: "evnen til å skape ideer eller verk som er både *nye* og *verdt å ha* — det menneskelige trekket MishMash studerer KI gjennom"
-  canonical: "\u201cThe ability to come up with ideas or artefacts that are new, surprising and valuable.\u201d"
+  advanced:
+    en: "MishMash follows Boden in treating creativity as the production of ideas or artefacts that are new, surprising and valuable, and distinguishes what is new to the person from what is new to everyone. The centre studies AI through this trait rather than through intelligence in general"
+    nb: "MishMash følger Boden og forstår kreativitet som frambringelse av ideer eller verk som er nye, overraskende og verdifulle, og skiller mellom det som er nytt for personen og det som er nytt for alle. Senteret studerer KI gjennom dette trekket, ikke gjennom intelligens generelt"
+  canonical: "“The ability to come up with ideas or artefacts that are new, surprising and valuable.”"
   source: "Boden 2004"
   source_url: "https://doi.org/10.4324/9780203508527"
+
 - key: creative-ai
   term:
     en: "Creative AI"
     nb: "Kreativ KI"
-  definition:
+  simple:
+    en: "computer programs that can make new pictures, music or stories on their own"
+    nb: "dataprogrammer som kan lage nye bilder, musikk eller historier på egen hånd"
+  standard:
     en: "machine systems that can produce results that are both *novel* and *meaningful* — not just random, and not just copies"
     nb: "maskinsystemer som kan produsere resultater som er både *nyskapende* og *meningsfulle* — ikke bare tilfeldige, og ikke bare kopier"
+  advanced:
+    en: "machine systems whose output is novel and meaningful and can stand on its own without a human finishing it (de Vries 2020). The term describes what the systems produce, not a claim that they are creative in Boden's sense; whether they are, and how their output differs from human creativity, is one of MishMash's research questions"
+    nb: "maskinsystemer der resultatet er nyskapende og meningsfullt og kan stå på egne bein uten at et menneske fullfører det (de Vries 2020). Begrepet beskriver hva systemene lager, ikke en påstand om at de er kreative i Bodens forstand; om de er det, og hvordan resultatene skiller seg fra menneskelig kreativitet, er ett av MishMashs forskningsspørsmål"
   canonical: "Machine systems able to produce novel and meaningful results that stand independently."
   source: "after de Vries 2020"
   source_url: "https://doi.org/10.1080/1369118X.2020.1754877"
+
 - key: cocreative-ai
   term:
     en: "CoCreative AI"
     nb: "Samskapende KI"
-  definition:
+  simple:
+    en: "AI that makes things together with people, more like a bandmate than a tool"
+    nb: "KI som lager ting sammen med mennesker, mer som en bandkamerat enn et verktøy"
+  standard:
     en: "AI systems designed for genuine partnership between humans and machines, where both contribute to the creative result"
     nb: "KI-systemer laget for ekte partnerskap mellom mennesker og maskiner, der begge bidrar til det kreative resultatet"
+  advanced:
+    en: "AI systems designed as partners in a creative process, where initiative, control and contribution are shared between human and machine (Anscomb 2024). Pioneering such systems is MishMash's stated objective, with human agency, environmental sustainability and democratic access to the technology as design requirements"
+    nb: "KI-systemer utformet som partnere i en kreativ prosess, der initiativ, kontroll og bidrag deles mellom menneske og maskin (Anscomb 2024). Å utvikle slike systemer er MishMashs uttalte mål, med menneskelig handlekraft, miljømessig bærekraft og demokratisk tilgang til teknologien som krav"
   canonical: "AI treated as a collaborator rather than a tool: a partnership in which both the human and the system contribute to the creative outcome."
   source: "after Anscomb 2024"
   source_url: "https://doi.org/10.1007/s00146-024-02083-y"
+
+- key: co-creation
+  term:
+    en: "co-creation"
+    nb: "samskaping"
+  simple:
+    en: "making something together"
+    nb: "å lage noe sammen"
+  standard:
+    en: "creating together, between people or between people and machines; in MishMash the word describes creative processes where the contributions are genuinely shared"
+    nb: "å skape sammen, mellom mennesker eller mellom mennesker og maskiner; i MishMash beskriver ordet kreative prosesser der bidragene virkelig er delt"
+  advanced:
+    en: "joint creative production in which initiative, agency and authorship are distributed among the participants. Used across MishMash for human–human, human–machine and mixed settings; CoCreative AI names the systems built for it"
+    nb: "felles kreativ produksjon der initiativ, handlekraft og opphav er fordelt mellom deltakerne. Brukes i MishMash om samarbeid menneske–menneske, menneske–maskin og blandede former; samskapende KI er navnet på systemene som lages for det"
+
 - key: work-package
   term:
     en: "work package"
     nb: "arbeidspakke"
-  definition:
+  simple:
+    en: "a team working on one part of a big project"
+    nb: "et lag som jobber med én del av et stort prosjekt"
+  standard:
     en: "a *work package* is research-speak for a team of people working on one part of a big project"
     nb: "en *arbeidspakke* er forskerspråk for et lag med folk som jobber med én del av et stort prosjekt"
+  advanced:
+    en: "the unit of organisation in a research project: a defined set of tasks, people and results with its own leadership. MishMash has seven, WP1 to WP7, each built around one of the centre's themes; the abbreviation WP is used throughout the site"
+    nb: "organisasjonsenheten i et forskningsprosjekt: et avgrenset sett oppgaver, folk og resultater med egen ledelse. MishMash har sju, WP1 til WP7, hver bygd rundt ett av senterets temaer; forkortelsen WP brukes over hele nettstedet"
+
+- key: work-package-leader
+  term:
+    en: "work package leader"
+    nb: "arbeidspakkeleder"
+  simple:
+    en: "the person in charge of one of the seven teams"
+    nb: "personen som leder ett av de sju lagene"
+  standard:
+    en: "the researcher responsible for one work package: its plan, its people and its results; abbreviated WPL, and helped by one or two \"sidekicks\""
+    nb: "forskeren som har ansvar for én arbeidspakke: planen, folkene og resultatene; forkortet WPL, med én eller to «sidekicks» til hjelp"
+  advanced:
+    en: "each of the seven work packages has a leader and one or two sidekicks who coordinate its scientific and artistic research, quality and dissemination. Together they form the Work Package Leader Group, which also assesses seed-funding applications with the management team"
+    nb: "hver av de sju arbeidspakkene har en leder og én eller to sidekicks som koordinerer den vitenskapelige og kunstneriske forskningen, kvaliteten og formidlingen. Sammen utgjør de arbeidspakkeledergruppen, som også vurderer søknader om såkornmidler sammen med ledelsen"
 
 - key: stretchtext
   term:
     en: "stretchtext"
     nb: "stretchtext"
-  definition:
+  simple:
+    en: "text you can click to see more, right where you are"
+    nb: "tekst du kan klikke på for å se mer, akkurat der du er"
+  standard:
     en: "text the reader can *stretch* — unfolding more detail in place, an idea proposed by Ted Nelson in 1967 and used on this website"
     nb: "tekst leseren kan *strekke* — mer detalj foldes ut der du er, en idé foreslått av Ted Nelson i 1967 og brukt på dette nettstedet"
+  advanced:
+    en: "a hypertext form proposed by Ted Nelson in 1967 in which the text expands and contracts in place instead of jumping to another page. On mishmash.no it is combined with three reading levels, so a page can carry its own glossary at the depth the reader has chosen"
+    nb: "en hypertekstform foreslått av Ted Nelson i 1967 der teksten foldes ut og inn på stedet i stedet for å hoppe til en annen side. På mishmash.no er den kombinert med tre lesenivåer, slik at en side kan bære sin egen ordliste på den dybden leseren har valgt"
   canonical: "Text that the reader expands and contracts in place, so detail arrives without leaving the page."
   source: "after Nelson 1967"
+
 - key: generative-ai
   term:
     en: "generative AI"
     nb: "generativ KI"
-  definition:
-    en: "AI systems that produce new content — text, images, sound, or video — from patterns learned in large collections of examples"
-    nb: "KI-systemer som lager nytt innhold — tekst, bilder, lyd eller video — ut fra mønstre lært fra store samlinger av eksempler"
+  simple:
+    en: "AI that makes new things, like a picture from a description"
+    nb: "KI som lager nye ting, som et bilde ut fra en beskrivelse"
+  standard:
+    en: "AI that can generate new content such as text, images, sound, video or program code, from patterns learned in large collections of examples"
+    nb: "KI som kan generere nytt innhold som tekst, bilder, lyd, video og programkode, ut fra mønstre lært fra store mengder treningsdata"
+  advanced:
+    en: "machine-learning models, today mostly large neural networks trained on very large datasets, that produce new samples resembling their training data in response to a prompt. Commercial examples are Dall-E for images, ChatGPT for text and Suno for music; MishMash studies such systems as material, instrument and object of critique"
+    nb: "maskinlæringsmodeller, i dag for det meste store nevrale nettverk trent på svært store datasett, som lager nye eksempler som ligner treningsdataene som svar på en instruks. Kommersielle eksempler er Dall-E for bilder, ChatGPT for tekst og Suno for musikk; MishMash studerer slike systemer som materiale, instrument og gjenstand for kritikk"
+  norsk: "«KI som kan generere nytt innhold som tekst, bilder, lyd, video og programkode.»"
+  norsk_source: "Teknologirådet 2026"
+  norsk_source_url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
+
+- key: large-language-model
+  term:
+    en: "large language model"
+    nb: "stor språkmodell"
+  simple:
+    en: "AI that has read huge amounts of text and can write text back"
+    nb: "KI som har lest enorme mengder tekst og kan skrive tekst tilbake"
+  standard:
+    en: "an AI model trained on very large amounts of text so that it can process and produce natural language; ChatGPT is built on one"
+    nb: "en KI-modell som er trent på svært store mengder tekst for å behandle og generere naturlig språk; ChatGPT bygger på en slik"
+  advanced:
+    en: "a neural network, typically a transformer with billions of parameters, trained to predict the next token in text and then tuned with human feedback. It learns statistical patterns in its training data, which lets it answer, summarise, translate and generate, and which also explains its characteristic failures, such as inventing facts"
+    nb: "et nevralt nettverk, som regel en transformer med milliarder av parametre, trent til å forutsi neste token i en tekst og deretter justert med menneskelig tilbakemelding. Den lærer statistiske mønstre i treningsdataene, som lar den svare, oppsummere, oversette og generere, og som også forklarer de typiske feilene, som å dikte opp fakta"
+  norsk: "«KI-modeller som er trent på svært store mengder tekst for å behandle og generere naturlig språk.»"
+  norsk_source: "Teknologirådet 2026"
+  norsk_source_url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
 
 - key: machine-learning
   term:
     en: "machine learning"
     nb: "maskinlæring"
-  definition:
+  simple:
+    en: "when a computer gets better at something by practising on lots of examples"
+    nb: "når en datamaskin blir bedre til noe ved å øve på mange eksempler"
+  standard:
     en: "computer methods that get better at a task by learning from examples, instead of following rules written by hand"
     nb: "datametoder som blir bedre til en oppgave ved å lære av eksempler, i stedet for å følge regler skrevet for hånd"
+  advanced:
+    en: "the subfield of AI in which a model's parameters are fitted to data so that performance on a task improves with experience (Mitchell 1997). It spans supervised, unsupervised and reinforcement learning and underlies nearly all current creative AI, in contrast to the rule-based systems of early computer art and music"
+    nb: "delfeltet av KI der en modells parametre tilpasses data slik at ytelsen på en oppgave bedres med erfaring (Mitchell 1997). Det omfatter veiledet, ikke-veiledet og forsterkende læring og ligger under nesten all dagens kreative KI, i motsetning til de regelbaserte systemene i tidlig datakunst og datamusikk"
   canonical: "\"A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks T, as measured by P, improves with experience E.\""
   source: "Mitchell 1997"
+
+- key: neural-network
+  term:
+    en: "neural network"
+    nb: "nevralt nettverk"
+  simple:
+    en: "a computer program built from many tiny connected parts that learn together, loosely inspired by the brain"
+    nb: "et dataprogram bygd av mange små sammenkoblede deler som lærer sammen, løst inspirert av hjernen"
+  standard:
+    en: "a machine-learning model made of layers of simple units whose connections are adjusted during training; *deep learning* means networks with many layers"
+    nb: "en maskinlæringsmodell bygd av lag med enkle enheter der koblingene justeres under trening; *dyp læring* betyr nettverk med mange lag"
+  advanced:
+    en: "a function composed of layers of weighted sums and non-linearities, whose weights are fitted by gradient descent on training data. Deep networks with many layers are behind today's image, sound and language models; their strengths are scale and flexibility, their weaknesses opacity and a hunger for data and computing power"
+    nb: "en funksjon satt sammen av lag med vektede summer og ikke-lineære ledd, der vektene tilpasses med gradientmetoden på treningsdata. Dype nettverk med mange lag ligger bak dagens bilde-, lyd- og språkmodeller; styrken er skala og fleksibilitet, svakheten er ugjennomsiktighet og et stort behov for data og regnekraft"
+
 - key: rule-based-system
   term:
     en: "rule-based system"
     nb: "regelbasert system"
-  definition:
-    en: "early AI built from hand-crafted rules — like the first computer systems for music composition and painting"
-    nb: "tidlig KI bygget av håndlagde regler — som de første datasystemene for musikkomposisjon og maleri"
+  simple:
+    en: "old-style AI that follows rules written by people, like a recipe"
+    nb: "gammeldags KI som følger regler skrevet av mennesker, som en oppskrift"
+  standard:
+    en: "early AI built from hand-crafted rules — like the first computer systems for music composition and painting; also called *symbolic AI*"
+    nb: "tidlig KI bygget av håndlagde regler — som de første datasystemene for musikkomposisjon og maleri; kalles også *symbolsk KI*"
+  advanced:
+    en: "symbolic or knowledge-based AI, in which behaviour follows from explicitly encoded rules and representations rather than from learned parameters. It powered the first computer composition systems and Harold Cohen's painting program AARON, and it is still combined with learning-based methods in hybrid systems where transparency and control matter"
+    nb: "symbolsk eller kunnskapsbasert KI, der oppførselen følger av eksplisitt kodede regler og representasjoner i stedet for lærte parametre. Den drev de første datakomposisjonssystemene og Harold Cohens maleprogram AARON, og kombineres fortsatt med læringsbaserte metoder i hybride systemer der åpenhet og kontroll er viktig"
+
+- key: algorithm
+  term:
+    en: "algorithm"
+    nb: "algoritme"
+  simple:
+    en: "a list of steps a computer follows to do something"
+    nb: "en liste med steg en datamaskin følger for å gjøre noe"
+  standard:
+    en: "a precise sequence of steps for solving a problem; in everyday speech also the recommendation and ranking systems that decide what we see online"
+    nb: "en presis rekkefølge av steg for å løse et problem; i dagligtale også anbefalings- og rangeringssystemene som avgjør hva vi ser på nett"
+  advanced:
+    en: "a finite, well-defined procedure for computing a result from an input. Machine-learning algorithms are the procedures that fit models to data, distinct from the resulting models; the looser public sense, algorithms as curating and ranking systems, is what much of the social critique of AI addresses"
+    nb: "en endelig, veldefinert prosedyre for å beregne et resultat fra en inndata. Maskinlæringsalgoritmer er prosedyrene som tilpasser modeller til data, til forskjell fra selve modellene; den løsere folkelige betydningen, algoritmer som kuraterings- og rangeringssystemer, er det mye av samfunnskritikken av KI handler om"
+
+- key: training-data
+  term:
+    en: "training data"
+    nb: "treningsdata"
+  simple:
+    en: "the examples an AI learns from"
+    nb: "eksemplene en KI lærer av"
+  standard:
+    en: "the collection of examples, such as texts, images or recordings, that a machine-learning model learns its patterns from; what is in it shapes what the model can do"
+    nb: "samlingen av eksempler, som tekster, bilder eller opptak, som en maskinlæringsmodell lærer mønstrene sine fra; det som er i den, former hva modellen kan"
+  advanced:
+    en: "the dataset a model's parameters are fitted to. Its size, provenance, licensing and representativeness determine the model's capabilities, its biases and its legal standing, which is why the data behind generative models is central to the copyright and rights questions MishMash studies"
+    nb: "datasettet en modells parametre tilpasses til. Størrelse, opphav, lisensiering og representativitet avgjør modellens evner, skjevheter og rettslige stilling, og derfor står dataene bak generative modeller sentralt i spørsmålene om opphavsrett og rettigheter som MishMash studerer"
+
+- key: bias
+  term:
+    en: "bias"
+    nb: "bias (skjevhet)"
+  simple:
+    en: "when an AI treats some people or things unfairly because of what it learned from"
+    nb: "når en KI behandler noen mennesker eller ting urettferdig på grunn av det den har lært av"
+  standard:
+    en: "systematic skew in what an AI system produces, often inherited from its training data, so that some groups, styles or perspectives are favoured over others"
+    nb: "systematiske skjevheter i det et KI-system produserer, ofte arvet fra treningsdataene, slik at noen grupper, stiler eller perspektiver favoriseres framfor andre"
+  advanced:
+    en: "systematic error in a model's outputs that disadvantages particular groups or perspectives. It can enter through data collection, model design, training objectives or use; in creative AI it shows up as, for example, an over-representation of Anglo-American styles. Distinct from the statistical bias of the bias–variance trade-off"
+    nb: "systematisk feil i en modells resultater som stiller bestemte grupper eller perspektiver dårligere. Den kan komme inn gjennom datainnsamling, modellutforming, treningsmål eller bruk; i kreativ KI viser den seg for eksempel som en overrepresentasjon av angloamerikanske stiler. Ikke det samme som den statistiske skjevheten i bias–varians-avveiningen"
+  norsk: "«Systematiske skjevheter i et KI-system som kan påvirke resultatene modellen produserer.»"
+  norsk_source: "Teknologirådet 2026"
+  norsk_source_url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
+
+- key: explainability
+  term:
+    en: "explainability"
+    nb: "forklarbarhet"
+  simple:
+    en: "being able to explain why an AI did what it did"
+    nb: "å kunne forklare hvorfor en KI gjorde det den gjorde"
+  standard:
+    en: "how far people can understand why an AI system produced a given result; deep-learning models are often hard to explain"
+    nb: "hvor godt mennesker kan forstå hvorfor et KI-system ga et bestemt resultat; dyplæringsmodeller er ofte vanskelige å forklare"
+  advanced:
+    en: "the degree to which a model's behaviour can be accounted for in human terms, either by design (interpretable models) or after the fact (explainable AI, XAI). For creative practice it matters as much for control as for accountability: an artist needs to know which knobs do what"
+    nb: "i hvilken grad en modells oppførsel kan gjøres rede for i menneskelige termer, enten ved utformingen (tolkbare modeller) eller i etterkant (forklarbar KI, XAI). For kunstnerisk praksis betyr det like mye for kontroll som for ansvarlighet: en kunstner må vite hvilke knapper som gjør hva"
+
+- key: multimodal
+  term:
+    en: "multimodal"
+    nb: "multimodal"
+  simple:
+    en: "AI that can handle more than one kind of thing, like both pictures and words"
+    nb: "KI som kan håndtere mer enn én type ting, som både bilder og ord"
+  standard:
+    en: "an AI model that can process several types of data, such as text, images, sound and video, and combine them"
+    nb: "en KI-modell som kan behandle flere typer data, som tekst, bilder, lyd og video, og kombinere dem"
+  advanced:
+    en: "models trained on more than one modality, so that representations are shared across, for example, text and images or audio and movement. Multimodality matters for the arts, where meaning is rarely carried by one channel alone; a model that handles only one type of data is *unimodal*"
+    nb: "modeller trent på mer enn én modalitet, slik at representasjonene deles på tvers av for eksempel tekst og bilder eller lyd og bevegelse. Multimodalitet er viktig for kunsten, der mening sjelden bæres av én kanal alene; en modell som bare behandler én type data, er *unimodal*"
+  norsk: "«En KI-modell som kan behandle flere typer data, som tekst, bilder, lyd og video.»"
+  norsk_source: "Teknologirådet 2026"
+  norsk_source_url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
 
 - key: prompt
   term:
     en: "prompt"
-    nb: "prompt"
-  definition:
-    en: "the instruction — usually text — you give a generative AI system to tell it what to make"
-    nb: "instruksjonen — som regel tekst — du gir et generativt KI-system for å fortelle hva det skal lage"
+    nb: "instruks (prompt)"
+  simple:
+    en: "what you tell an AI to do, usually by typing"
+    nb: "det du ber en KI om å gjøre, som regel ved å skrive"
+  standard:
+    en: "the text, command or other input you give a generative AI system to steer what it does or makes"
+    nb: "teksten, kommandoen eller annen informasjon du gir et generativt KI-system for å styre hva det skal gjøre eller lage"
+  advanced:
+    en: "the input that conditions a generative model's output: a question, a task, background, examples, or a combination. Designing prompts for better results is called *prompt engineering*. Teknologirådet's Norwegian glossary, reviewed by Språkrådet, recommends *instruks* as the Norwegian term"
+    nb: "inndataene som styrer hva en generativ modell lager: et spørsmål, en oppgave, bakgrunn, eksempler eller en kombinasjon. Å utforme instrukser for bedre resultater kalles *effektiv instruksjonsutforming* (prompt engineering). Teknologirådets ordliste, gjennomgått av Språkrådet, anbefaler *instruks* som norsk term"
+  norsk: "«Tekst, kommando eller annen informasjon som gis til en KI-modell for å styre hva den skal gjøre eller generere.»"
+  norsk_source: "Teknologirådet 2026"
+  norsk_source_url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
+
+- key: ai-agent
+  term:
+    en: "AI agent"
+    nb: "KI-agent"
+  simple:
+    en: "an AI that can do a job on its own, step by step"
+    nb: "en KI som kan gjøre en jobb på egen hånd, steg for steg"
+  standard:
+    en: "an AI system designed to carry out a task, or a set of tasks, on its own, including deciding what to do next; MishMash builds *musical agents* that improvise with performers"
+    nb: "et KI-system laget for å utføre en oppgave, eller et sett av oppgaver, på egen hånd, inkludert å avgjøre hva det skal gjøre videre; MishMash lager *musikalske agenter* som improviserer med utøvere"
+  advanced:
+    en: "a system that perceives its environment, chooses actions towards a goal and acts with some autonomy, possibly over many steps and with tools. In interactive music research a *musical agent* is such a system that listens and plays in real time; in current industry usage the word covers language-model systems that plan and carry out tasks"
+    nb: "et system som sanser omgivelsene, velger handlinger mot et mål og handler med en viss selvstendighet, gjerne over mange steg og med verktøy. I interaktiv musikkforskning er en *musikalsk agent* et slikt system som lytter og spiller i sanntid; i dagens bransjespråk dekker ordet språkmodellsystemer som planlegger og utfører oppgaver"
+  norsk: "«KI-system utformet for å utføre en bestemt oppgave eller et bestemt sett av oppgaver på egen hånd.»"
+  norsk_source: "Teknologirådet 2026"
+  norsk_source_url: "https://teknologiradet.no/ordliste-for-kunstig-intelligens/"
 
 - key: embodied-ai
   term:
     en: "embodied AI"
     nb: "kroppsliggjort KI"
-  definition:
+  simple:
+    en: "AI with a body, like a robot that can move and sense"
+    nb: "KI med kropp, som en robot som kan bevege seg og sanse"
+  standard:
     en: "AI with a body — systems that sense and act in the physical world, like robots or musical machines on a stage"
     nb: "KI med kropp — systemer som sanser og handler i den fysiske verden, som roboter eller musikkmaskiner på en scene"
+  advanced:
+    en: "AI that learns and acts through a body situated in an environment, so that perception, action and learning are coupled (Duan et al. 2022). In MishMash it ranges from robots and musical machines on stage to interfaces that respond to a performer's movement"
+    nb: "KI som lærer og handler gjennom en kropp plassert i et miljø, slik at sansing, handling og læring henger sammen (Duan mfl. 2022). I MishMash spenner det fra roboter og musikkmaskiner på scenen til grensesnitt som reagerer på utøverens bevegelser"
   canonical: "AI that learns through interaction with an environment from its own point of view, rather than from static datasets."
   source: "after Duan et al. 2022"
   source_url: "https://doi.org/10.1109/TETCI.2022.3141105"
+
 - key: computational-creativity
   term:
     en: "computational creativity"
     nb: "beregningsmessig kreativitet"
-  definition:
+  simple:
+    en: "research on whether computers can be creative"
+    nb: "forskning på om datamaskiner kan være kreative"
+  standard:
     en: "the research field studying whether and how computer systems can behave in ways we would call creative"
     nb: "forskningsfeltet som studerer om og hvordan datasystemer kan oppføre seg på måter vi ville kalt kreative"
+  advanced:
+    en: "a research field at the meeting point of AI, cognitive science and the arts that builds and evaluates systems taking on creative responsibilities (Colton and Wiggins 2012). It asks not only whether the output is good but whether the process would count as creative to an unbiased observer"
+    nb: "et forskningsfelt i skjæringspunktet mellom KI, kognitiv vitenskap og kunst som bygger og vurderer systemer som tar på seg kreative oppgaver (Colton og Wiggins 2012). Det spør ikke bare om resultatet er godt, men om prosessen ville telle som kreativ for en upartisk observatør"
   canonical: "\"The philosophy, science and engineering of computational systems which, by taking on particular responsibilities, exhibit behaviours that unbiased observers would deem to be creative.\""
   source: "Colton and Wiggins 2012"
   source_url: "https://doi.org/10.3233/978-1-61499-098-7-21"
+
 - key: ai-literacy
   term:
     en: "AI literacy"
     nb: "KI-kompetanse"
-  definition:
+  simple:
+    en: "knowing enough about AI to use it wisely and ask good questions about it"
+    nb: "å vite nok om KI til å bruke den klokt og stille gode spørsmål om den"
+  standard:
     en: "knowing enough about AI to use it, question it, and understand what it does — for everyone, not just programmers"
     nb: "å kunne nok om KI til å bruke den, stille spørsmål ved den og forstå hva den gjør — for alle, ikke bare programmerere"
+  advanced:
+    en: "a set of competencies for evaluating, communicating with and using AI critically (Long and Magerko 2020). It is a theme in MishMash's education work (WP4) and includes understanding what AI-generated content is, how it is made, and what it costs"
+    nb: "et sett av ferdigheter for å vurdere, kommunisere med og bruke KI kritisk (Long og Magerko 2020). Det er et tema i MishMashs utdanningsarbeid (WP4) og omfatter å forstå hva KI-generert innhold er, hvordan det lages, og hva det koster"
   canonical: "\"A set of competencies that enables individuals to critically evaluate AI technologies; communicate and collaborate effectively with AI; and use AI as a tool online, at home, and in the workplace.\""
   source: "Long and Magerko 2020"
   source_url: "https://doi.org/10.1145/3313831.3376727"
+
+- key: responsible-ai
+  term:
+    en: "responsible AI"
+    nb: "ansvarlig KI"
+  simple:
+    en: "making and using AI in ways that are fair, safe and good for people"
+    nb: "å lage og bruke KI på måter som er rettferdige, trygge og bra for folk"
+  standard:
+    en: "developing and using AI with attention to fairness, transparency, privacy, sustainability and accountability, not just capability"
+    nb: "å utvikle og bruke KI med omtanke for rettferdighet, åpenhet, personvern, bærekraft og ansvarlighet, ikke bare ytelse"
+  advanced:
+    en: "an umbrella term for the practices and principles that keep AI development and use accountable: ethics guidelines, impact assessment, transparency, bias mitigation, environmental accounting and legal compliance such as the EU AI Act. MishMash's REFLECT approach and WP5 take it as a central concern"
+    nb: "samlebetegnelse for praksisene og prinsippene som holder utvikling og bruk av KI ansvarlig: etiske retningslinjer, konsekvensvurdering, åpenhet, tiltak mot skjevheter, miljøregnskap og etterlevelse av regelverk som EUs KI-forordning. MishMashs REFLECT-tilnærming og WP5 har det som et sentralt anliggende"
+
 - key: artistic-research
   term:
     en: "artistic research"
     nb: "kunstnerisk forskning"
-  definition:
+  simple:
+    en: "doing research by making art"
+    nb: "å forske ved å lage kunst"
+  standard:
     en: "research carried out *through* making and performing art, where the artistic process itself produces new knowledge"
     nb: "forskning som skjer *gjennom* å skape og fremføre kunst, der den kunstneriske prosessen selv gir ny kunnskap"
+  advanced:
+    en: "research in which artistic practice is both method and result: knowledge is produced through making, performing and reflecting, and documented in works as well as text. In Norway it is a recognised research track alongside scientific research, and MishMash uses it as an entry point for critical work on AI"
+    nb: "forskning der kunstnerisk praksis er både metode og resultat: kunnskap skapes gjennom å lage, framføre og reflektere, og dokumenteres i verk så vel som tekst. I Norge er det et anerkjent forskningsløp ved siden av vitenskapelig forskning, og MishMash bruker det som inngang til kritisk arbeid med KI"
+
+- key: cultural-heritage
+  term:
+    en: "cultural heritage"
+    nb: "kulturarv"
+  simple:
+    en: "old things worth keeping, like songs, pictures, buildings and stories"
+    nb: "gamle ting som er verdt å ta vare på, som sanger, bilder, bygninger og fortellinger"
+  standard:
+    en: "the objects, recordings, documents, places and practices a society inherits and chooses to preserve; in MishMash the theme of WP6, on archives, libraries and museums"
+    nb: "gjenstandene, opptakene, dokumentene, stedene og praksisene et samfunn arver og velger å ta vare på; i MishMash temaet for WP6, om arkiv, bibliotek og museum"
+  advanced:
+    en: "tangible and intangible heritage, from artefacts and archives to living traditions such as folk music and Sámi joik. WP6 studies how AI can help transcribe, organise, access and represent it, with particular attention to minority cultural expressions and to the ethical and legal limits that apply"
+    nb: "materiell og immateriell kulturarv, fra gjenstander og arkiv til levende tradisjoner som folkemusikk og samisk joik. WP6 studerer hvordan KI kan hjelpe med å transkribere, ordne, gi tilgang til og representere den, med særlig vekt på minoritetskulturelle uttrykk og på de etiske og rettslige grensene som gjelder"
 
 - key: consortium
   term:
     en: "consortium"
     nb: "konsortium"
-  definition:
+  simple:
+    en: "a group of organisations that team up"
+    nb: "en gruppe organisasjoner som går sammen"
+  standard:
     en: "a group of organisations teaming up on a shared goal — MishMash gathers universities, research institutes, and cultural and industry partners from all over Norway"
     nb: "en gruppe organisasjoner som går sammen om et felles mål — MishMash samler universiteter, forskningsinstitutter og kultur- og næringslivspartnere fra hele Norge"
+  advanced:
+    en: "the formal grouping of institutions bound by the consortium agreement behind the centre: universities, research institutes, and cultural and industry partners. Institutions join as partners, by signing the consortium or an associate-partner agreement; individuals join as members"
+    nb: "den formelle sammenslutningen av institusjoner som er bundet av konsortieavtalen bak senteret: universiteter, forskningsinstitutter og kultur- og næringslivspartnere. Institusjoner blir med som partnere, ved å signere konsortieavtalen eller en avtale om assosiert partnerskap; enkeltpersoner blir med som medlemmer"
+
+- key: partner
+  term:
+    en: "partner"
+    nb: "partner"
+  simple:
+    en: "an organisation that has joined MishMash"
+    nb: "en organisasjon som er med i MishMash"
+  standard:
+    en: "an institution that has signed the consortium agreement or an associate-partner agreement with MishMash; people, by contrast, join as *members*"
+    nb: "en institusjon som har signert konsortieavtalen eller en avtale om assosiert partnerskap med MishMash; personer blir derimot med som *medlemmer*"
+  advanced:
+    en: "an institution, research-performing or not, bound to the centre by the original consortium agreement or a later associate-partner agreement. Partnership gives access to the network and its events and is meant as a door opener for the institution's people, not as an end in itself"
+    nb: "en institusjon, forskningsutførende eller ikke, som er knyttet til senteret gjennom den opprinnelige konsortieavtalen eller en senere avtale om assosiert partnerskap. Partnerskapet gir tilgang til nettverket og arrangementene og er ment som en døråpner for institusjonens folk, ikke som et mål i seg selv"
+
+- key: member
+  term:
+    en: "member"
+    nb: "medlem"
+  simple:
+    en: "a person who has joined MishMash"
+    nb: "en person som er med i MishMash"
+  standard:
+    en: "an individual who has signed up for one or more work packages; most are connected to a partner institution, but MishMash is open to researchers without one"
+    nb: "en person som har meldt seg inn i én eller flere arbeidspakker; de fleste er knyttet til en partnerinstitusjon, men MishMash er åpent for forskere uten en"
+  advanced:
+    en: "the individual level of affiliation. Members take part in work package activities and MeshUps, are listed in the directory, and can apply for seed funding together with other members; membership carries no funding in itself"
+    nb: "tilknytningen på personnivå. Medlemmer deltar i arbeidspakkeaktiviteter og MeshUps, står i katalogen og kan søke såkornmidler sammen med andre medlemmer; medlemskapet gir ingen finansiering i seg selv"
+
+- key: meshup
+  term:
+    en: "MeshUp"
+    nb: "MeshUp"
+  simple:
+    en: "MishMash's weekly online meeting, every Thursday"
+    nb: "MishMashs ukentlige nettmøte, hver torsdag"
+  standard:
+    en: "the centre's weekly half-hour online meetup on Thursdays at noon, with a short presentation and discussion; open to all members and numbered from #01"
+    nb: "senterets ukentlige nettmøte på en halvtime, torsdager klokka tolv, med en kort presentasjon og diskusjon; åpent for alle medlemmer og nummerert fra #01"
+  advanced:
+    en: "the centre's main meeting format, which keeps a distributed consortium of more than 200 people in contact: a weekly Zoom session with a few announcements, a fifteen-minute presentation and moderated questions. Each MeshUp is listed as an event on the site"
+    nb: "senterets viktigste møteform, som holder et spredt konsortium på over 200 personer i kontakt: en ukentlig Zoom-økt med noen beskjeder, et kvarters presentasjon og modererte spørsmål. Hver MeshUp er oppført som et arrangement på nettstedet"
+
+- key: cube
+  term:
+    en: "MishMash cube"
+    nb: "MishMash-kuben"
+  simple:
+    en: "a picture of a box that shows how MishMash is put together"
+    nb: "et bilde av en boks som viser hvordan MishMash er satt sammen"
+  standard:
+    en: "the diagram used to explain the centre's structure: the seven work packages on one face, the three approaches (create, explore, reflect) on another, and the perspectives of machines, humans and society on the third"
+    nb: "figuren som brukes til å forklare senterets struktur: de sju arbeidspakkene på én side, de tre tilnærmingene (skape, utforske, reflektere) på en annen, og perspektivene maskin, menneske og samfunn på den tredje"
+  advanced:
+    en: "a visual device proposed during the application workshops to show that the centre's *themes*, *approaches* and *perspectives* are independent dimensions that cross in every project. The centre's \"mishmash\" of theories and methods is organised into this structured \"mesh\", which is also where the name MeshUp comes from"
+    nb: "et visuelt grep foreslått under søknadsverkstedene for å vise at senterets *temaer*, *tilnærminger* og *perspektiver* er uavhengige dimensjoner som krysser hverandre i hvert prosjekt. Senterets «mishmash» av teorier og metoder er ordnet i dette strukturerte nettet («mesh»), som også er der navnet MeshUp kommer fra"
+
+- key: board
+  term:
+    en: "Board"
+    nb: "Styret"
+  simple:
+    en: "the group that decides the big things about MishMash"
+    nb: "gruppa som bestemmer de store tingene i MishMash"
+  standard:
+    en: "the centre's governing body, with representatives of the partner institutions; it makes the strategic decisions about the centre's direction"
+    nb: "senterets styrende organ, med representanter for partnerinstitusjonene; det tar de strategiske beslutningene om senterets retning"
+  advanced:
+    en: "the formal governance body of the centre, responsible for oversight, strategic decisions and the quality and impact of the research. Not to be confused with the Council, which advises, or the Scientific Advisory Board, which evaluates"
+    nb: "senterets formelle styringsorgan, med ansvar for tilsyn, strategiske beslutninger og forskningens kvalitet og virkning. Ikke å forveksle med Rådet, som gir råd, eller Det vitenskapelige rådgivende rådet, som evaluerer"
+
+- key: council
+  term:
+    en: "Council"
+    nb: "Rådet"
+  simple:
+    en: "a group with one person from each partner that gives MishMash advice"
+    nb: "en gruppe med én person fra hver partner som gir MishMash råd"
+  standard:
+    en: "the body where the partner institutions are represented; it gives strategic guidance and keeps the centre and its partners coordinated"
+    nb: "organet der partnerinstitusjonene er representert; det gir strategisk veiledning og holder senteret og partnerne samordnet"
+  advanced:
+    en: "an advisory body with one representative per partner institution, responsible for strategic direction, policy guidance and alignment with the consortium's objectives. Its meeting notes are published on the organisation pages"
+    nb: "et rådgivende organ med én representant per partnerinstitusjon, med ansvar for strategisk retning, policyråd og samsvar med konsortiets mål. Møtenotatene publiseres på organisasjonssidene"
+
+- key: scientific-advisory-board
+  term:
+    en: "Scientific Advisory Board"
+    nb: "Vitenskapelig rådgivende råd"
+  simple:
+    en: "experts from other countries who check that MishMash's research is good"
+    nb: "eksperter fra andre land som sjekker at forskningen i MishMash er god"
+  standard:
+    en: "a group of international experts who evaluate the centre's research and advise on its direction; abbreviated SAB"
+    nb: "en gruppe internasjonale eksperter som evaluerer senterets forskning og gir råd om retningen; forkortet SAB"
+  advanced:
+    en: "twelve international researchers and practitioners, from creative computing and music technology to law and communication, who bring an outside scientific perspective, evaluate quality and progress, and support dissemination to international audiences"
+    nb: "tolv internasjonale forskere og praktikere, fra kreativ databehandling og musikkteknologi til jus og kommunikasjon, som gir et vitenskapelig blikk utenfra, evaluerer kvalitet og framdrift og støtter formidling til internasjonale miljøer"
+
+- key: stakeholder-board
+  term:
+    en: "Stakeholder Board"
+    nb: "Interessentråd"
+  simple:
+    en: "people from outside research who tell MishMash what is useful"
+    nb: "folk utenfor forskningen som forteller MishMash hva som er nyttig"
+  standard:
+    en: "a group of representatives from partner organisations, industry and cultural institutions that keeps the research relevant to practice"
+    nb: "en gruppe representanter fra partnerorganisasjoner, næringsliv og kulturinstitusjoner som holder forskningen relevant for praksis"
+  advanced:
+    en: "the centre's link to users of its research: it advises on relevance and applicability, connects research with practice, and guides the centre towards practical innovation and uptake of results"
+    nb: "senterets kobling til brukerne av forskningen: det gir råd om relevans og anvendelighet, knytter forskning til praksis og leder senteret mot praktisk innovasjon og bruk av resultatene"
+
+- key: research-council
+  term:
+    en: "Research Council of Norway"
+    nb: "Forskningsrådet"
+  simple:
+    en: "the Norwegian government agency that pays for research, including MishMash"
+    nb: "statens organ som betaler for forskning i Norge, også MishMash"
+  standard:
+    en: "Norges forskningsråd, the national agency that funds research and innovation; it funds MishMash as a research centre, and is often abbreviated RCN"
+    nb: "det nasjonale organet som finansierer forskning og innovasjon; det finansierer MishMash som forskningssenter"
+  advanced:
+    en: "the government agency under the Ministry of Education and Research that allocates public research funding through competitive calls. MishMash is its project number 357438; publications should acknowledge it with the wording on the acknowledgment page, and be registered under the centre's project in NVA"
+    nb: "det statlige organet under Kunnskapsdepartementet som fordeler offentlige forskningsmidler gjennom konkurranseutsatte utlysninger. MishMash er prosjektnummer 357438; publikasjoner skal takke Forskningsrådet med ordlyden på siden om kreditering og registreres under senterets prosjekt i NVA"
+
+- key: seed-funding
+  term:
+    en: "seed funding"
+    nb: "såkornmidler"
+  simple:
+    en: "small pots of money to try out a new idea"
+    nb: "små pengesummer for å prøve ut en ny idé"
+  standard:
+    en: "small grants the centre gives its members to start joint activities, test ideas or bring people together, announced in calls several times a year"
+    nb: "små tilskudd senteret gir medlemmene sine for å starte felles aktiviteter, teste ideer eller samle folk, utlyst flere ganger i året"
+  advanced:
+    en: "internal grants for collaborative activities among partners, awarded in numbered rounds. Applications are read by the work package leaders together with the management team, with a soft partiality check so that no one assesses a proposal they have a direct interest in"
+    nb: "interne tilskudd til samarbeidsaktiviteter mellom partnere, tildelt i nummererte runder. Søknadene leses av arbeidspakkelederne sammen med ledelsen, med en myk habilitetssjekk slik at ingen vurderer en søknad de har direkte interesse i"
+
+- key: phd-fellow
+  term:
+    en: "PhD fellow"
+    nb: "stipendiat"
+  simple:
+    en: "someone who is paid to do research for a few years to earn the highest university degree"
+    nb: "en som får lønn for å forske i noen år for å ta den høyeste universitetsgraden"
+  standard:
+    en: "a researcher employed, usually for three or four years, to complete a doctoral degree; MishMash's partners have announced a large number of these positions, both scientific and artistic"
+    nb: "en forsker ansatt, som regel i tre eller fire år, for å fullføre en doktorgrad; MishMashs partnere har lyst ut mange slike stillinger, både vitenskapelige og kunstneriske"
+  advanced:
+    en: "a fixed-term research position leading to a PhD, requiring a completed master's degree. Fellows are employed by a partner institution, not by MishMash, and follow either the scientific track or the artistic-research track; the directory lists them by work package"
+    nb: "en midlertidig forskerstilling som leder til doktorgrad, med fullført mastergrad som krav. Stipendiatene er ansatt ved en partnerinstitusjon, ikke i MishMash, og følger enten det vitenskapelige løpet eller løpet for kunstnerisk forskning; katalogen viser dem per arbeidspakke"
+
+- key: postdoc
+  term:
+    en: "postdoc"
+    nb: "postdoktor"
+  simple:
+    en: "a researcher who has finished a PhD and is doing more research for a few years"
+    nb: "en forsker som er ferdig med doktorgraden og forsker videre i noen år"
+  standard:
+    en: "short for *postdoctoral fellow*: a researcher with a completed PhD employed for a few years to carry out a research project, often on the way to a permanent position"
+    nb: "kort for *postdoktor*: en forsker med fullført doktorgrad ansatt i noen år for å gjennomføre et forskningsprosjekt, ofte på vei mot en fast stilling"
+  advanced:
+    en: "a fixed-term qualifying position, typically two to four years, that requires the PhD to be submitted before applying and defended before appointment. MishMash's postdocs are employed by the partner institutions and usually anchored in one work package"
+    nb: "en midlertidig kvalifiseringsstilling, vanligvis to til fire år, som krever at doktoravhandlingen er levert før søknad og forsvart før tiltredelse. MishMashs postdoktorer er ansatt ved partnerinstitusjonene og som regel forankret i én arbeidspakke"
 
 - key: nva
   term:
     en: "NVA"
     nb: "NVA"
-  definition:
+  simple:
+    en: "the Norwegian archive where research is registered"
+    nb: "det norske arkivet der forskning registreres"
+  standard:
     en: "the Norwegian National Research Archive (Nasjonalt vitenarkiv), where Norwegian research is registered — mishmash.no pulls publications, people, and project data from it every night"
     nb: "Nasjonalt vitenarkiv, der norsk forskning registreres — mishmash.no henter publikasjoner, personer og prosjektdata derfra hver natt"
+  advanced:
+    en: "Nasjonalt vitenarkiv, the national research archive run by Sikt, which replaced Cristin as the register of Norwegian research output and the basis for reporting to funders. mishmash.no syncs publications, people and project data from its open API nightly, and MishMash results should be registered under the centre's NVA project"
+    nb: "Nasjonalt vitenarkiv, det nasjonale forskningsarkivet drevet av Sikt, som erstattet Cristin som register over norske forskningsresultater og grunnlag for rapportering til finansiører. mishmash.no synkroniserer publikasjoner, personer og prosjektdata fra det åpne API-et hver natt, og MishMash-resultater skal registreres under senterets NVA-prosjekt"
 
 - key: orcid
   term:
     en: "ORCID"
     nb: "ORCID"
-  definition:
+  simple:
+    en: "a number that shows which researcher wrote what"
+    nb: "et nummer som viser hvilken forsker som har skrevet hva"
+  standard:
     en: "a free, unique ID for researchers that connects them to their publications across systems and employers"
     nb: "en gratis, unik ID for forskere som knytter dem til publikasjonene sine på tvers av systemer og arbeidsgivere"
+  advanced:
+    en: "Open Researcher and Contributor ID, a persistent identifier maintained by a non-profit organisation that tells researchers with similar names apart across publishers, funders and institutions. The directory on mishmash.no uses ORCID records to keep people's publication lists current"
+    nb: "Open Researcher and Contributor ID, en varig identifikator forvaltet av en ideell organisasjon, som skiller forskere med like navn fra hverandre på tvers av forlag, finansiører og institusjoner. Katalogen på mishmash.no bruker ORCID-poster til å holde folks publikasjonslister oppdatert"
 
 - key: lca
   term:
     en: "LCA"
     nb: "LCA"
-  definition:
+  simple:
+    en: "a way to measure how much something harms the environment over its whole life"
+    nb: "en måte å måle hvor mye noe skader miljøet gjennom hele levetiden"
+  standard:
     en: "life-cycle assessment — a method for measuring the total environmental footprint of a product or system, from creation to disposal"
     nb: "livsløpsanalyse — en metode for å måle det samlede miljøavtrykket til et produkt eller system, fra det lages til det kasseres"
+  advanced:
+    en: "life-cycle assessment: a standardised method (ISO 14040) for compiling the inputs, outputs and environmental impacts of a product system from raw materials to disposal. MishMash applies it to the environmental cost of training and running AI models"
+    nb: "livsløpsanalyse: en standardisert metode (ISO 14040) for å sammenstille innsatsfaktorer, utslipp og miljøpåvirkninger fra et produktsystem fra råvarer til avhending. MishMash bruker den på miljøkostnaden ved å trene og kjøre KI-modeller"
   canonical: "\"Compilation and evaluation of the inputs, outputs and the potential environmental impacts of a product system throughout its life cycle.\""
   source: "ISO 14040:2006"

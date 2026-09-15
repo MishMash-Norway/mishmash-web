@@ -6,19 +6,30 @@ shared with the glossary page (/about/glossary/):
   {% include stretch.html term="creative-ai" %}
   {% include stretch.html term="work-package" text="work packages" %}
 `term` is the glossary key; `text` optionally overrides the visible text
-(e.g. plural or case). The definition follows the page language.
+(e.g. plural or case). The definition follows the page language and the
+reader's chosen reading level: one variant per level in
+_data/audiences.yml is emitted, and adaptive.css shows the current one.
+A level missing from the entry falls back to the standard text.
 
 Ad-hoc usage for one-off explanations that don't belong in the glossary:
   {% include stretch.html text="LCA" more="life-cycle assessment of environmental impact" %}
 
-Requires `adaptive: true` on the page (which loads adaptive.css/js).
+Requires `adaptive: true` or `stretchtext: true` on the page (which
+loads adaptive.css/js).
 {%- endcomment -%}
 {%- assign _lang = page.lang | default: 'en' -%}
 {%- assign _text = include.text -%}
-{%- assign _more = include.more -%}
 {%- if include.term -%}
 {%- assign _entry = site.data.glossary | where: "key", include.term | first -%}
 {%- if _text == nil -%}{%- assign _text = _entry.term[_lang] | default: _entry.term.en -%}{%- endif -%}
-{%- assign _more = _entry.definition[_lang] | default: _entry.definition.en -%}
+{%- assign _fallback = _entry.standard[_lang] | default: _entry.standard.en -%}
+<span class="stretch"><button type="button" class="stretch-toggle" aria-expanded="false">{{ _text }}</button><span class="stretch-more" hidden>
+{%- for _lv in site.data.audiences.groups -%}
+{%- assign _variant = _entry[_lv.key] -%}
+{%- assign _more = _variant[_lang] | default: _variant.en | default: _fallback -%}
+<span class="adaptive" data-for="{{ _lv.key }}">{{ _more | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+{%- endfor -%}
+</span></span>
+{%- else -%}
+<span class="stretch"><button type="button" class="stretch-toggle" aria-expanded="false">{{ _text }}</button><span class="stretch-more" hidden>{{ include.more | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></span>
 {%- endif -%}
-<span class="stretch"><button type="button" class="stretch-toggle" aria-expanded="false">{{ _text }}</button> <span class="stretch-more" hidden>{{ _more | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></span>

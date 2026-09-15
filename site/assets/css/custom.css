@@ -99,9 +99,14 @@ body {
   text-transform: capitalize;
 }
 
-/* The definition from the literature, under the plain one that powers the
-   inline stretchtext. */
-.glossary-canonical {
+/* One definition per reading level; adaptive.css shows the chosen one. */
+.glossary dd > .adaptive {
+  display: inline;
+}
+
+/* Reference blocks under the definition at the advanced level: the
+   definition from the literature and the Norwegian definition. */
+.glossary dd > .glossary-ref {
   display: block;
   margin-top: 0.4rem;
   padding-left: 0.8rem;
@@ -109,7 +114,7 @@ body {
   color: var(--mm-ink-70);
 }
 
-.glossary-canonical-label {
+.glossary-ref-label {
   font-family: var(--mm-font-display);
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -117,7 +122,7 @@ body {
   color: var(--mm-ink-40);
 }
 
-.glossary-canonical cite {
+.glossary-ref cite {
   font-style: normal;
   white-space: nowrap;
 }

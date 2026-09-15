@@ -76,6 +76,7 @@ html:not([data-audience]) .adaptive:not([data-for~="{{ site.data.audiences.defau
 }
 
 .stretch-more {
+  margin-left: 0.25em;
   background: rgba(193, 247, 174, 0.35);
   border-radius: 4px;
   padding: 0 0.2em;
