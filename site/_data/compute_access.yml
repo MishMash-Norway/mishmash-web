@@ -206,32 +206,28 @@ categories:
       Sigma2 at contact@sigma2.no for the national route, and the EuroHPC
       access portal directly for the European one.
 
-  international:
-    label: International partner
-    covers: >-
-      Partner institutions and companies outside Norway.
-    start_here: >-
-      Use your own country's national infrastructure, which will be faster and
-      better supported for you than anything Norwegian. The Norwegian systems
-      are open to Norwegian institutions, so a joint project normally runs on
-      the Norwegian partner's allocation.
-    chat: >-
-      Whatever your own institution provides.
-    transcription: >-
-      Whatever your own institution provides, or Whisper run locally.
-    fine_tuning: >-
-      Your own institution's cluster, or your national provider.
-    national: >-
-      Not directly. A Norwegian project leader can add external collaborators
-      to a Norwegian allocation, so the route is through your MishMash
-      colleague rather than through an application of your own.
-    european: >-
-      If you are in an EU member state or an associated country, the EuroHPC
-      AI Factory routes are open to you on the same terms as everyone else, and
-      your country may host its own AI Factory or Antenna.
-    ask: >-
-      Your own institution first, then your MishMash collaborator about joining
-      their project.
+# Institutions the page deliberately does not answer for. Listed so that the
+# check in scripts/test_compute_access.py still covers every partner, and a new
+# partner added to the directory trips it rather than vanishing from the page.
+excluded:
+  aalborg-university: Partner outside Norway; use your own country's national provider.
+  aalto-university: Partner outside Norway; use your own country's national provider.
+  australian-national-university: Partner outside Norway; use your own country's national provider.
+  ghent-university: Partner outside Norway; use your own country's national provider.
+  kth-royal-institute-of-technology: Partner outside Norway; use your own country's national provider.
+  labasad: Partner outside Norway; use your own country's national provider.
+  motioncomposer-gmbh: Partner outside Norway; use your own country's national provider.
+  nicolaus-copernicus-university: Partner outside Norway; use your own country's national provider.
+  simon-fraser-university: Partner outside Norway; use your own country's national provider.
+  uniarts-helsinki: Partner outside Norway; use your own country's national provider.
+  university-of-cambridge: Partner outside Norway; use your own country's national provider.
+  university-of-iceland: Partner outside Norway; use your own country's national provider.
+  university-of-jyvaskyla: Partner outside Norway; use your own country's national provider.
+  university-of-manchester: Partner outside Norway; use your own country's national provider.
+  university-of-melbourne: Partner outside Norway; use your own country's national provider.
+  university-of-music-lubeck: Partner outside Norway; use your own country's national provider.
+  university-of-stirling: Partner outside Norway; use your own country's national provider.
+  university-of-the-arts-london: Partner outside Norway; use your own country's national provider.
 
 institutions:
 
@@ -409,41 +405,3 @@ institutions:
     category: no-company
   reimagine:
     category: no-company
-
-  # International partners
-  aalborg-university:
-    category: international
-  aalto-university:
-    category: international
-  australian-national-university:
-    category: international
-  ghent-university:
-    category: international
-  kth-royal-institute-of-technology:
-    category: international
-  labasad:
-    category: international
-  motioncomposer-gmbh:
-    category: international
-  nicolaus-copernicus-university:
-    category: international
-  simon-fraser-university:
-    category: international
-  uniarts-helsinki:
-    category: international
-  university-of-cambridge:
-    category: international
-  university-of-iceland:
-    category: international
-  university-of-jyvaskyla:
-    category: international
-  university-of-manchester:
-    category: international
-  university-of-melbourne:
-    category: international
-  university-of-music-lubeck:
-    category: international
-  university-of-stirling:
-    category: international
-  university-of-the-arts-london:
-    category: international

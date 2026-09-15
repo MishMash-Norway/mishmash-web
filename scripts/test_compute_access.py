@@ -2,8 +2,9 @@
 """Check that the compute access lookup covers every partner institution.
 
 The lookup at /internal/compute/ works from `site/_data/compute_access.yml`.
-Every institution in the directory must map to a category that exists, or the
-page silently shows a visitor nothing. This test fails the build instead.
+Every institution in the directory must either map to a category that exists or
+be listed as deliberately excluded, or the page silently shows a visitor
+nothing. This test fails the build instead.
 """
 
 import sys
@@ -53,11 +54,19 @@ def main() -> int:
     if not data.get("universal_note"):
         errors.append("compute_access.yml has no universal_note")
 
+    excluded = data.get("excluded") or {}
     slugs = directory_slugs()
-    for slug in sorted(slugs - set(mapped)):
-        errors.append(f"institution '{slug}' has no entry in compute_access.yml")
-    for slug in sorted(set(mapped) - slugs):
+    accounted = set(mapped) | set(excluded)
+
+    for slug in sorted(slugs - accounted):
+        errors.append(f"institution '{slug}' is neither categorised nor excluded in compute_access.yml")
+    for slug in sorted(accounted - slugs):
         errors.append(f"compute_access.yml lists '{slug}', which is not in the directory")
+    for slug in sorted(set(mapped) & set(excluded)):
+        errors.append(f"institution '{slug}' is both categorised and excluded")
+    for slug, reason in sorted(excluded.items()):
+        if not reason:
+            errors.append(f"excluded institution '{slug}' has no reason given")
 
     for slug, entry in sorted(mapped.items()):
         category = (entry or {}).get("category")
@@ -75,7 +84,11 @@ def main() -> int:
             print(f"  - {error}")
         return 1
 
-    print(f"compute access lookup: {len(slugs)} institutions, {len(categories)} categories, all mapped")
+    print(
+        f"compute access lookup: {len(slugs)} partner institutions, "
+        f"{len(mapped)} answered across {len(categories)} categories, "
+        f"{len(excluded)} deliberately excluded"
+    )
     return 0
 
 
