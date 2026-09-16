@@ -1,0 +1,31 @@
+{% comment %}
+  A rotating photo gallery. Usage in a page with a `galleries` map in its
+  front matter:
+
+    {% include photo-carousel.html name="bare" %}
+
+  where page.galleries.bare is a list of {src, alt} items and an optional
+  `caption`. The gallery advances by itself every few seconds, stops on
+  hover, focus, or the pause button, and does not move at all for readers
+  who ask for reduced motion (WCAG 2.2.2). Without JavaScript every photo
+  is shown in sequence.
+{% endcomment %}
+{% assign gallery = page.galleries[include.name] %}
+{% assign gallery_id = 'carousel-' | append: include.name %}
+<div class="mm-carousel" id="{{ gallery_id }}" data-carousel role="group" aria-roledescription="carousel" aria-label="{{ gallery.caption | default: include.name }}">
+  <div class="mm-carousel-track">
+    {% for item in gallery.images %}
+    <figure class="mm-carousel-slide" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ forloop.length }}">
+      <img src="{{ item.src | relative_url }}" alt="{{ item.alt }}" width="1600" height="1067"{% if forloop.first %}{% else %} loading="lazy"{% endif %}>
+    </figure>
+    {% endfor %}
+  </div>
+  <div class="mm-carousel-controls">
+    <button type="button" class="mm-carousel-prev" data-carousel-prev aria-label="Previous photo">&larr;</button>
+    <button type="button" class="mm-carousel-toggle" data-carousel-toggle aria-pressed="false" aria-label="Pause the slideshow">Pause</button>
+    <span class="mm-carousel-status" data-carousel-status aria-live="off">1 / {{ gallery.images.size }}</span>
+    <button type="button" class="mm-carousel-next" data-carousel-next aria-label="Next photo">&rarr;</button>
+  </div>
+  {% if gallery.caption %}<p class="mm-carousel-caption">{{ gallery.caption }}</p>{% endif %}
+</div>
+<script defer src="{{ '/assets/js/carousel.js' | relative_url }}"></script>

@@ -1720,3 +1720,71 @@ a:focus-visible .icon {
     grid-template-columns: 1fr;
   }
 }
+
+/* Rotating photo gallery (_includes/photo-carousel.html) */
+.mm-carousel {
+  margin: 1.5rem 0 2rem;
+}
+
+.mm-carousel-slide {
+  margin: 0;
+}
+
+.mm-carousel-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.mm-carousel:not(.is-ready) .mm-carousel-controls {
+  display: none;
+}
+
+.mm-carousel:not(.is-ready) .mm-carousel-slide + .mm-carousel-slide {
+  margin-top: 0.75rem;
+}
+
+.mm-carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.6rem;
+}
+
+.mm-carousel-controls button {
+  border: 2px solid var(--mm-ink);
+  background: transparent;
+  color: var(--mm-ink);
+  font: inherit;
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  min-width: 2.75rem;
+}
+
+.mm-carousel-controls button:hover,
+.mm-carousel-controls button:focus-visible {
+  background: var(--mm-ink);
+  color: var(--mm-green);
+  outline: none;
+}
+
+.mm-carousel-status {
+  font-variant-numeric: tabular-nums;
+  color: var(--mm-ink-70);
+  min-width: 4rem;
+  text-align: center;
+}
+
+.mm-carousel-caption {
+  margin: 0.5rem 0 0;
+  font-size: 0.92rem;
+  color: var(--mm-ink-70);
+  text-align: center;
+}
