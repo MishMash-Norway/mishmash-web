@@ -1,0 +1,45 @@
+name: Submit an event
+description: Add a MishMash event or a partner event to the calendar.
+title: "Event: "
+labels: [event]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of event
+      options:
+        - MishMash event
+        - Partner event
+    validations:
+      required: true
+  - type: input
+    id: event-title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: Date and time
+      description: Start and end, for example 2026-10-14 17:00 to 19:30 CEST
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Place
+      description: Venue and city, or Zoom.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to the event page or registration
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A few sentences that say what happens and who it is for.
+    validations:
+      required: true

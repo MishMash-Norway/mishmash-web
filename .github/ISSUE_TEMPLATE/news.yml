@@ -1,0 +1,37 @@
+name: Submit a news post
+description: Send text for a news post. A maintainer publishes it on mishmash.no/news/.
+title: "News: "
+labels: [news]
+body:
+  - type: input
+    id: headline
+    attributes:
+      label: Headline
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: Text
+      description: The post itself, in plain text or Markdown. Start with a paragraph that stands on its own.
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: Full name, as it should appear on the post.
+    validations:
+      required: true
+  - type: textarea
+    id: images
+    attributes:
+      label: Images
+      description: Attach images by dragging them here. State the photographer and confirm that the people in them agree to publication.
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights
+      options:
+        - label: The text and images may be published under the site's CC BY 4.0 licence, or I have stated other terms above.
+          required: true

@@ -1,0 +1,42 @@
+name: Propose a MeshUp talk
+description: Offer a talk for the weekly MeshUp, or send the title and abstract for one you have been given.
+title: "MeshUp: "
+labels: [meshup]
+body:
+  - type: input
+    id: speaker
+    attributes:
+      label: Speaker
+      description: Full name and institution.
+    validations:
+      required: true
+  - type: input
+    id: profile
+    attributes:
+      label: Link to your profile page
+      description: Institutional page, ORCID or personal website, so we can link to it.
+  - type: input
+    id: talk-title
+    attributes:
+      label: Title of the talk
+    validations:
+      required: true
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Abstract
+      description: About 100 to 150 words.
+    validations:
+      required: true
+  - type: textarea
+    id: bio
+    attributes:
+      label: Short bio
+      description: Two or three sentences.
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Preferred date
+      description: MeshUps are on Thursdays at 12:00. Leave blank if the date is already agreed.

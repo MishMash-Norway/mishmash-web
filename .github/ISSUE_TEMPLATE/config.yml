@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ask a question by e-mail
+    url: mailto:contact@mishmash.no
+    about: For anything that is not about the website itself.
+  - name: How the website works
+    url: https://github.com/MishMash-Norway/mishmash-web/wiki
+    about: The wiki explains how to edit pages, add news and events, and run the site locally.

@@ -1,0 +1,25 @@
+name: Suggest a change to a page
+description: Report a mistake or suggest better text on any page of mishmash.no. No GitHub knowledge needed.
+title: "Change to: "
+labels: [correction]
+body:
+  - type: input
+    id: page-url
+    attributes:
+      label: Page address
+      description: The address of the page, for example https://mishmash.no/about/
+      placeholder: https://mishmash.no/...
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change?
+      description: Quote the text as it is now and write how it should read, or describe what is wrong.
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Your name (optional)
+      description: So a maintainer can ask you if something is unclear.

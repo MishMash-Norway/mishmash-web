@@ -132,6 +132,7 @@
         <dt>{{ t.page_about_source_code }}</dt>
         <dd>
           <a href="{{ github_source_url }}" target="_blank" rel="noopener noreferrer">{{ t.page_about_view_on_github }}</a>
+          · <a href="https://github.com/MishMash-Norway/mishmash-web/issues/new?template=correction.yml&amp;page-url={{ site.url | append: page.url | url_encode }}" target="_blank" rel="noopener noreferrer">{{ t.page_about_suggest_change }}</a>
         </dd>
       </div>
       {% endif %}
