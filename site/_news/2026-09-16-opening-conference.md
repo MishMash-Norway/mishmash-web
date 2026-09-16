@@ -1,5 +1,5 @@
 ---
-title: "From copyright law to concrete silos: MishMash met in Kristiansand"
+title: "From copyright law to concrete silos: MishMash Opening Conference in Kristiansand"
 date: 2026-09-16
 author: "Alexander Refsum Jensenius"
 layout: page
