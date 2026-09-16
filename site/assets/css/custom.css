@@ -1904,3 +1904,18 @@ a:focus-visible .icon {
   display: block;
   color: var(--mm-ink-70);
 }
+
+/* Syntax highlighting: the theme's teal and grey fall below 4.5:1 on the code background. */
+.highlight .na,
+.highlight .nv,
+.highlight .nb,
+.highlight .bp {
+  color: #006060;
+}
+
+.highlight .c,
+.highlight .c1,
+.highlight .cm,
+.highlight .cp {
+  color: var(--mm-ink-70);
+}
