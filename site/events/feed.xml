@@ -7,7 +7,8 @@ layout: none
     <title>{{ site.title }} - Events</title>
     <link>{{ site.url }}/events/</link>
     <description>Latest events from {{ site.title }}</description>
-    {% for item in site.events %}
+    {% assign feed_events = site.events | where_exp: "item", "item.subpage != true" %}
+    {% for item in feed_events %}
     <item>
       <title>{{ item.title }}</title>
       <link>{{ site.url }}{{ item.url }}</link>

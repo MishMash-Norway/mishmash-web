@@ -21,7 +21,7 @@ if (window.location.hash === '#partner-events') {
   <small>If the webcal link doesn't open in your calendar (e.g. Outlook), use "Download calendar (ICS)" and open the file in your calendar app.</small>
   {% endif %}
 </p>
-{% assign all_events = site.events | where_exp: "item", "item.draft != true" %}
+{% assign all_events = site.events | where_exp: "item", "item.draft != true" | where_exp: "item", "item.subpage != true" %}
 {% assign future_events = all_events | where_exp: "item", "item.date >= site.time" | sort: 'date' %}
 {% assign past_events = all_events | where_exp: "item", "item.date < site.time" | sort: 'date' | reverse %}
 

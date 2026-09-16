@@ -27,7 +27,7 @@ DTSTART:19701025T030000
 RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
-{% assign all_events = site.events | where_exp: "item", "item.draft != true" | sort: 'date' %}
+{% assign all_events = site.events | where_exp: "item", "item.draft != true" | where_exp: "item", "item.subpage != true" | sort: 'date' %}
 {% for item in all_events %}
 {% assign event_title = item.title | default: 'MishMash event' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}
 {% assign event_location = item.location | default: '' | replace: '\\', '\\\\' | replace: ';', '\\;' | replace: ',', '\\,' | replace: '\n', ' ' %}

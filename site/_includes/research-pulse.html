@@ -48,7 +48,8 @@ const PULSE_RESULTS = [
 {% endfor %}
 ];
 const PULSE_EVENTS = [
-{% for e in site.events %}
+{% assign pulse_events = site.events | where_exp: "e", "e.subpage != true" %}
+{% for e in pulse_events %}
   { m: {{ e.date | date: "%Y-%m" | jsonify }} },
 {% endfor %}
 ];
