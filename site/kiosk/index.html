@@ -1,0 +1,103 @@
+---
+title: MishMash kiosk
+description: "A full-screen, self-rotating view of upcoming MishMash events and the latest news, for screens in partner lobbies."
+permalink: /kiosk/
+sitemap: false
+---
+{% assign all_events = site.events | where_exp: "item", "item.draft != true" | where_exp: "item", "item.subpage != true" %}
+{% assign future_dated = all_events | where_exp: "item", "item.end_date >= site.time" %}
+{% assign future_undated = all_events | where_exp: "item", "item.end_date == nil" | where_exp: "item", "item.date >= site.time" %}
+{% assign future_events = future_dated | concat: future_undated | sort: 'date' %}
+{% assign latest_news = site.news | sort: 'date' | reverse %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/brand.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/images/logo/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/kiosk.css' | relative_url }}">
+</head>
+<body>
+  <header class="kiosk-header">
+    {% include mm-wordmark.svg %}
+    <p class="tagline">{{ site.data.translations.en.identity_tagline }}</p>
+  </header>
+
+  <main class="kiosk-cards" id="kiosk" aria-live="off">
+    {% for item in future_events limit:5 %}
+    {% include pick-thumb.html item=item meshup_fallback=true %}
+    <section class="kiosk-card" data-end="{{ item.end_date | default: item.date | date_to_xmlschema }}">
+      <div>
+        <p class="kiosk-kind">{% if item.categories contains 'MeshUp' %}MeshUp{% else %}Event{% endif %}</p>
+        <h2>{{ item.title }}</h2>
+        <p class="kiosk-when">{{ item.date | date: "%A %-d %B %Y, %H:%M" }}{% if item.location %} · {{ item.location }}{% endif %}</p>
+        {% assign desc = item.description | default: item.excerpt | strip_html | truncatewords: 40 %}
+        <p class="kiosk-text">{{ desc }}</p>
+      </div>
+      {% if thumb %}<img src="{{ thumb | relative_url }}" alt="">{% endif %}
+    </section>
+    {% endfor %}
+    {% for item in latest_news limit:3 %}
+    {% include pick-thumb.html item=item %}
+    <section class="kiosk-card">
+      <div>
+        <p class="kiosk-kind">News · {{ item.date | date: "%-d %B %Y" }}</p>
+        <h2>{{ item.title }}</h2>
+        {% assign desc = item.description | default: item.excerpt | strip_html | truncatewords: 40 %}
+        <p class="kiosk-text">{{ desc }}</p>
+      </div>
+      {% if thumb %}<img src="{{ thumb | relative_url }}" alt="">{% endif %}
+    </section>
+    {% endfor %}
+    <section class="kiosk-card kiosk-site">
+      <div>
+        <p class="kiosk-kind">MishMash Centre for AI and Creativity</p>
+        <p class="kiosk-url">mishmash.no</p>
+        <p class="kiosk-text">A Norwegian research centre that creates, explores and reflects on AI in creative practices. People, projects, results and events on the website.</p>
+      </div>
+      <img src="{{ '/assets/images/qrcodes/qrcode_mishmash_web.png' | relative_url }}" alt="QR code for mishmash.no">
+    </section>
+  </main>
+
+  <footer class="kiosk-footer">
+    <span>mishmash.no</span>
+    <span class="kiosk-dots" id="kiosk-dots" aria-hidden="true"></span>
+  </footer>
+
+  <script>
+    (function () {
+      var INTERVAL = 12000;
+      var root = document.getElementById('kiosk');
+      var cards = Array.prototype.slice.call(root.querySelectorAll('.kiosk-card'));
+      var now = Date.now();
+      // Drop events whose end has passed since the site was built.
+      cards = cards.filter(function (c) {
+        var end = c.getAttribute('data-end');
+        if (end && Date.parse(end) < now) { c.remove(); return false; }
+        return true;
+      });
+      if (cards.length < 2) { cards.forEach(function (c) { c.classList.add('is-static'); }); return; }
+      var dots = document.getElementById('kiosk-dots');
+      cards.forEach(function () { dots.appendChild(document.createElement('span')); });
+      var i = 0;
+      function show(n) {
+        i = (n + cards.length) % cards.length;
+        cards.forEach(function (c, k) { c.classList.toggle('is-active', k === i); });
+        Array.prototype.forEach.call(dots.children, function (d, k) { d.classList.toggle('is-active', k === i); });
+      }
+      show(0);
+      setInterval(function () { show(i + 1); }, INTERVAL);
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowRight') show(i + 1);
+        if (e.key === 'ArrowLeft') show(i - 1);
+      });
+      // Reload once a day so a screen left on picks up new content.
+      setTimeout(function () { location.reload(); }, 24 * 3600 * 1000);
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* Kiosk view (/kiosk/): a lobby screen with large type and self-rotating cards. */
+/* A screen in a lobby: large type, high contrast, nothing to click. Cards rotate
+   every 12 seconds; the last card points to the website with a QR code. */
+html, body { margin: 0; height: 100%; background: var(--mm-green); color: var(--mm-ink); font-family: var(--mm-font-body); }
+body { display: grid; grid-template-rows: auto 1fr auto; overflow: hidden; }
+.kiosk-header { display: flex; align-items: center; gap: 2vw; padding: 2vh 3vw 0; }
+.kiosk-header svg { width: 12vw; height: auto; }
+.kiosk-header .tagline { font-family: var(--mm-font-display); font-weight: var(--mm-display-weight); font-size: 3.2vw; line-height: 1; letter-spacing: var(--mm-display-tracking); margin: 0; }
+.kiosk-cards { position: relative; margin: 2vh 3vw; }
+.kiosk-card { position: absolute; inset: 0; display: grid; grid-template-columns: minmax(0, 1fr) 34vw; gap: 3vw; align-items: center; background: var(--mm-white); padding: 4vh 4vw; box-sizing: border-box; opacity: 0; transition: opacity 0.8s; }
+.kiosk-card.is-active { opacity: 1; }
+.kiosk-card.is-static { position: static; opacity: 1; margin-bottom: 2vh; }
+.kiosk-kind { font-family: var(--mm-font-display); font-weight: var(--mm-display-weight); text-transform: uppercase; letter-spacing: 0.04em; font-size: 1.8vw; color: var(--mm-ink-70); margin: 0 0 1vh; }
+.kiosk-card h2 { font-family: var(--mm-font-display); font-weight: var(--mm-display-weight); line-height: 0.95; letter-spacing: var(--mm-display-tracking); font-size: 4.6vw; margin: 0 0 2vh; }
+.kiosk-when { font-size: 2.2vw; font-weight: 600; margin: 0 0 1.5vh; }
+.kiosk-text { font-size: 2vw; line-height: 1.35; margin: 0; }
+.kiosk-card img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
+.kiosk-card.kiosk-site { grid-template-columns: minmax(0, 1fr) 24vw; }
+.kiosk-card.kiosk-site img { aspect-ratio: 1; }
+.kiosk-url { font-family: var(--mm-font-display); font-weight: var(--mm-display-weight); font-size: 6vw; line-height: 1; margin: 0 0 2vh; }
+.kiosk-footer { display: flex; justify-content: space-between; align-items: center; padding: 0 3vw 2vh; font-size: 1.6vw; }
+.kiosk-dots { display: flex; gap: 0.6vw; }
+.kiosk-dots span { width: 1vw; height: 1vw; background: var(--mm-ink); opacity: 0.25; }
+.kiosk-dots span.is-active { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .kiosk-card { transition: none; } }
