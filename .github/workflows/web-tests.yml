@@ -150,3 +150,44 @@ jobs:
           python3 -m http.server 4000 --directory _site &
           npx --yes wait-on@7 http://127.0.0.1:4000/
           npx --yes pa11y-ci@4 --config .pa11yci.json
+
+  lighthouse:
+    name: Lighthouse (non-blocking)
+    runs-on: ubuntu-latest
+    needs: build_site
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build site
+        run: bundle exec jekyll build --trace
+
+      - name: Serve generated site and run Lighthouse
+        continue-on-error: true
+        run: |
+          python3 -m http.server 4000 --directory _site &
+          npx --yes wait-on@7 http://127.0.0.1:4000/
+          npx --yes @lhci/cli@0.14 collect --numberOfRuns=1 \
+            --url=http://127.0.0.1:4000/ \
+            --url=http://127.0.0.1:4000/results/ \
+            --url=http://127.0.0.1:4000/events/ \
+            --url=http://127.0.0.1:4000/no/
+          npx --yes @lhci/cli@0.14 assert \
+            --assertions.categories:performance=warn:0.8 \
+            --assertions.categories:accessibility=error:0.95 \
+            --assertions.categories:best-practices=warn:0.9 \
+            --assertions.categories:seo=warn:0.9
+
+      - name: Keep the reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: .lighthouseci
+          if-no-files-found: ignore
