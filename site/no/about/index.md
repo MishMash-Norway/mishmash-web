@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 lang: nb
 title: "Om MishMash"
 translation_url: /about/
@@ -11,7 +11,7 @@ translation_url: /about/
 - [KI-kolofon](/no/about/ai-colophon/) — Hvordan nettstedet bruker KI, helt åpent
 - [FAQ](/faq/) — Ofte stilte spørsmål (engelsk)
 
-### Katalog
+## Katalog
 
 - [Mennesker](/search/?type=person)
 - [Institusjoner](/search/?type=institution)

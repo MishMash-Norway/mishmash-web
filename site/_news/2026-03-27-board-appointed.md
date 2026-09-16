@@ -2,7 +2,7 @@
 title: "MishMash's Board has been appointed"
 date: 2026-03-27
 author: "Alexander Refsum Jensenius"
-layout: default
+layout: page
 categories: [Administration]
 description: "MishMash's Board has been appointed, with members from University of Agder, Notam, Reimagine, National Library of Norway, and Western Norway University of Applied Sciences."
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg

@@ -2,7 +2,7 @@
 title: "Sustainable use of AI in MishMash: workshop highlights and call for collaboration"
 date: 2026-09-10
 author: "Lina Plataniti"
-layout: default
+layout: page
 categories: [Seed Funding, WP5]
 description: "Findings from the seed funding project on environmental sustainability in MishMash: what sustainable use of AI could mean for art, creativity and culture, and how members can get involved."
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg

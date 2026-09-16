@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About MishMash
 translation_url: /no/about/
 ---
@@ -10,7 +10,7 @@ translation_url: /no/about/
 - [AI colophon](/about/ai-colophon/) — How this website uses AI, openly
 - [FAQ](/faq/) — Frequently asked questions
 
-### Directory
+## Directory
 
 - [People](/search/?type=person)
 - [Institutions](/search/?type=institution)

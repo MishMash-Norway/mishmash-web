@@ -2,7 +2,7 @@
 title: "Become a MishMash Master Fellow"
 date: 2026-08-17
 author: "Alexander Refsum Jensenius"
-layout: default
+layout: page
 categories: [Administration]
 description: "MishMash launches a Master Fellowship programme: master's students at partner institutions can join the network, take part in work package activities, and apply for funding to attend MishMash events."
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg

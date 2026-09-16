@@ -2,7 +2,7 @@
 title: "MishMash has formally started"
 date: 2025-12-01
 author: "Alexander Refsum Jensenius"
-layout: default
+layout: page
 categories: [Administration]
 description: "MishMash formally started on 1 December 2025. The work package leaders have spent the autumn setting up the internal structures and preparing the announcements of the first positions."
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg

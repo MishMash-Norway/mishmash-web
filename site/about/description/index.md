@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Description
 translation_url: /no/about/description/
 adaptive: true

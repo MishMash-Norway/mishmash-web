@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: page
 title: Glossary
 translation_url: /no/about/glossary/
 adaptive: true
 description: "A glossary of AI and creativity terms used across the MishMash centre, at three reading levels."
 ---
 
-## Glossary
 
 Key terms used across mishmash.no, each explained at three levels. Use the
 switcher above to choose: *Simple* is one plain sentence, *Standard* is the

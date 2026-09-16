@@ -1,14 +1,13 @@
 ---
-layout: default
+layout: page
 title: AI colophon
 translation_url: /no/about/ai-colophon/
 ---
 
-## AI colophon
 
 MishMash studies creative uses of AI — and uses AI, openly, in making this website. This page declares how, so that readers and partners never have to guess whether AI was involved.
 
-### Where AI contributes
+## Where AI contributes
 
 - **Content.** AI assistance is used for drafting and adapting texts, including the reading-level variants on [adaptive pages](/about/description/) and entries in the [glossary](/about/glossary/). Editors review and revise before anything is published.
 - **Code and automation.** Much of the site's tooling — the sync scripts that pull data from NVA, ORCID, and Wikipedia, the theme switcher, the adaptive-content machinery, quality checks — is developed with AI assistance, visible in the repository's [commit history](https://github.com/MishMash-Norway/mishmash-web/commits/main) through `Co-Authored-By` trailers.
@@ -23,7 +22,7 @@ MishMash studies creative uses of AI — and uses AI, openly, in making this web
 </div>
 
 
-### Our commitments
+## Our commitments
 
 1. **Humans are responsible.** AI output is generally reviewed before it goes live. The exception is the nightly builds, retrieving new data from NVA and ORCID. In any case, errors are ours, not the machine's.
 2. **Nothing is hidden.** AI involvement is declared here, marked on translated pages, and traceable in the open [commit history](https://github.com/MishMash-Norway/mishmash-web/commits/main).

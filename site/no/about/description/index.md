@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 lang: nb
 title: "Beskrivelse"
 translation_url: /about/description/

@@ -1,15 +1,14 @@
 ---
-layout: default
+layout: page
 lang: nb
 title: KI-kolofon
 translation_url: /about/ai-colophon/
 ---
 
-## KI-kolofon
 
 MishMash forsker på kreativ bruk av KI — og bruker KI, helt åpent, i arbeidet med dette nettstedet. Denne siden forklarer hvordan, slik at lesere og partnere aldri skal måtte gjette på om KI var involvert.
 
-### Hvor KI bidrar
+## Hvor KI bidrar
 
 - **Innhold.** KI-assistanse brukes til å skrive utkast og tilpasse tekster, blant annet lesenivåvariantene på [adaptive sider](/no/about/description/) og oppslag i [ordlisten](/no/about/glossary/). Redaktører gjennomgår og bearbeider alt før det publiseres.
 - **Kode og automatisering.** Mye av nettstedets verktøy — synkroniseringsskriptene som henter data fra NVA, ORCID og Wikipedia, temavelgeren, maskineriet for adaptivt innhold, kvalitetssjekkene — utvikles med KI-assistanse, synlig i [commit-historikken](https://github.com/MishMash-Norway/mishmash-web/commits/main) gjennom `Co-Authored-By`-merking.
@@ -23,7 +22,7 @@ MishMash forsker på kreativ bruk av KI — og bruker KI, helt åpent, i arbeide
   <p>Dagens bobler — generert hver natt fra aktiviteten på nettstedet</p>
 </div>
 
-### Våre forpliktelser
+## Våre forpliktelser
 
 1. **Mennesker er ansvarlige.** KI-produsert innhold gjennomgås som regel før det publiseres. Unntaket er de nattlige byggene, som henter nye data fra NVA og ORCID. Uansett er feil våre, ikke maskinens.
 2. **Ingenting skjules.** KI-bruk erklæres her, merkes på oversatte sider og kan spores i den åpne [commit-historikken](https://github.com/MishMash-Norway/mishmash-web/commits/main).

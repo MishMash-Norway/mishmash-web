@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 lang: nb
 title: Ordliste
 translation_url: /about/glossary/
@@ -7,7 +7,6 @@ adaptive: true
 description: "En ordliste over KI- og kreativitetsbegreper brukt på mishmash.no, på tre lesenivåer."
 ---
 
-## Ordliste
 
 Sentrale begreper brukt på mishmash.no, hvert forklart på tre nivåer. Bruk
 velgeren øverst: *Enkel* er én setning i klartekst, *Standard* er

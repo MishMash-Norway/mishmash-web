@@ -2,7 +2,7 @@
 title: "MishMash's Council has been appointed"
 date: 2026-03-16
 author: "Alexander Refsum Jensenius"
-layout: default
+layout: page
 categories: [Administration]
 description: "The MishMash consortium partners have appointed 18 council members from partner institutions to guide the centre's strategic direction and inform partners about ongoing activities."
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg
