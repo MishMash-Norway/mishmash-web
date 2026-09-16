@@ -1795,3 +1795,9 @@ a:focus-visible .icon {
   max-width: 100%;
   margin: 1rem 0;
 }
+
+/* Long lists render lazily: the browser lays out result cards as they scroll into view. */
+.nva-result-item {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 140px;
+}
