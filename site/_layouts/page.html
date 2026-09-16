@@ -15,6 +15,22 @@ layout: default
     {% endif %}
     {% if page_heading %}
     {% if page.type == 'institution' %}
+    {% assign inst_same_as = "" | split: "" %}
+    {% assign inst_same_as_keys = "wikidata,wikipedia,website,ror" | split: "," %}
+    {% for key in inst_same_as_keys %}
+      {% assign val = page.urls[key] %}
+      {% if val and val != "" %}{% assign inst_same_as = inst_same_as | push: val %}{% endif %}
+    {% endfor %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": {{ page_heading | jsonify }},
+      "url": {{ site.url | append: page.url | jsonify }}{% if inst_same_as.size > 0 %},
+      "sameAs": {{ inst_same_as | jsonify }}{% endif %}{% if page.summary and page.summary != '' %},
+      "description": {{ page.summary | jsonify }}{% endif %}
+    }
+    </script>
     <div class="institution-page">
       {% include institution-map.html slug=page.slug %}
       <div class="institution-body">

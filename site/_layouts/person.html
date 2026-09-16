@@ -26,12 +26,20 @@ layout: default
 {% assign fallback_person_image = '/assets/images/bubbles/mishmash_bubbles_notext.png' %}
 {% assign person_image = page.image | default: fallback_person_image %}
 
+{% comment %} sameAs: the person's identifiers on the web of knowledge (#45, #53). {% endcomment %}
+{% assign same_as = "" | split: "" %}
+{% assign same_as_keys = "wikidata,orcid,nva,personal_website,institutional_website,github,linkedin,mastodon,youtube,twitter" | split: "," %}
+{% for key in same_as_keys %}
+  {% assign val = page.urls[key] %}
+  {% if val and val != "" %}{% assign same_as = same_as | push: val %}{% endif %}
+{% endfor %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": {{ page.name | jsonify }},
-  "url": {{ site.url | append: page.url | jsonify }}{% if page.image %},
+  "url": {{ site.url | append: page.url | jsonify }}{% if same_as.size > 0 %},
+  "sameAs": {{ same_as | jsonify }}{% endif %}{% if page.image %},
   "image": {{ site.url | append: page.image | jsonify }}{% elsif page.image == nil and primary_institution_doc %}{% endif %}{% if page.position %},
   "jobTitle": {{ page.position | jsonify }}{% endif %}{% if primary_institution_doc %},
   "affiliation": {
