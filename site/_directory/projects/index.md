@@ -8,7 +8,7 @@ Projects in the MishMash directory, with related people, institutions, tags, and
 
 {% assign all_projects = site.directory | where: "type", "project" | where_exp: "project", "project.name" | sort: "title" %}
 
-## PhD Projects
+## PhD/Postdoc Projects
 
 <ul>
 {% for project in all_projects %}{% if project.tags contains "PhD Project" %}
@@ -16,7 +16,7 @@ Projects in the MishMash directory, with related people, institutions, tags, and
 {% endif %}{% endfor %}
 </ul>
 
-## Seed Funding Projects
+## Seed Funded Projects
 
 <ul>
 {% for project in all_projects %}{% if project.tags contains "Seed Funding" %}
@@ -25,8 +25,6 @@ Projects in the MishMash directory, with related people, institutions, tags, and
 </ul>
 
 ## Other Projects
-
-Projects run within the work packages without MishMash seed funding.
 
 <ul>
 {% for project in all_projects %}{% unless project.tags contains "PhD Project" or project.tags contains "Seed Funding" %}
