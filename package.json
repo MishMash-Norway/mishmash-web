@@ -1,0 +1,12 @@
+{
+  "name": "mishmash-web-checks",
+  "private": true,
+  "description": "Node tooling for the site's quality checks (visual regression). The site itself is Jekyll.",
+  "scripts": {
+    "visual": "playwright test -c tests/visual/playwright.config.js",
+    "visual:update": "playwright test -c tests/visual/playwright.config.js --update-snapshots"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0"
+  }
+}

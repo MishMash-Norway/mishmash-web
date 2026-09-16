@@ -38,3 +38,7 @@ _site_clean/
 # Staging area for alternative UI themes (scripts/ui)
 .ui-work/
 *.log
+
+# Visual regression output (tests/visual)
+playwright-report/
+test-results/

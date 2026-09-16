@@ -183,3 +183,48 @@ jobs:
           name: lighthouse-reports
           path: .lighthouseci
           if-no-files-found: ignore
+
+  visual_regression:
+    name: Visual regression (non-blocking)
+    runs-on: ubuntu-latest
+    needs: build_site
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build site
+        run: bundle exec jekyll build --trace
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install Playwright
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Compare pages with the baselines
+        continue-on-error: true
+        run: |
+          python3 -m http.server 4000 --directory _site &
+          npx --yes wait-on@7 http://127.0.0.1:4000/
+          npm run visual
+
+      - name: Keep the report and the diffs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-regression
+          path: |
+            playwright-report
+            test-results
+          if-no-files-found: ignore
