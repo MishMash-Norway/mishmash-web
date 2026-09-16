@@ -64,7 +64,7 @@ Through [seed funding #2](/internal/funding/seed-funding/seed02/) (2026), the pr
 
 ## What comes next
 
-The open work is tracked in the [issue tracker](https://github.com/MishMash-Norway/mishmash-web/issues). The main lines are:
+The open work is tracked in the [issue tracker](https://github.com/MishMash-Norway/mishmash-web/issues), where ideas are labelled by direction: [web of knowledge](https://github.com/MishMash-Norway/mishmash-web/issues?q=is%3Aopen+label%3Aweb-of-knowledge), [responsible AI](https://github.com/MishMash-Norway/mishmash-web/issues?q=is%3Aopen+label%3Aresponsible-ai), [community](https://github.com/MishMash-Norway/mishmash-web/issues?q=is%3Aopen+label%3Acommunity), [creative lab](https://github.com/MishMash-Norway/mishmash-web/issues?q=is%3Aopen+label%3Acreative-lab), [privacy and copyright](https://github.com/MishMash-Norway/mishmash-web/issues?q=is%3Aopen+label%3Aprivacy-copyright) and [infrastructure](https://github.com/MishMash-Norway/mishmash-web/issues?q=is%3Aopen+label%3Ainfrastructure). The main lines are:
 
 - Graduate the chat prototype into a grounded "Ask MishMash" assistant that cites the pages it draws on.
 - Pull institution facts and images from Wikidata and Wikimedia Commons instead of maintaining them here, and contribute corrections back.
