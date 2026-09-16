@@ -173,16 +173,8 @@ jobs:
         run: |
           python3 -m http.server 4000 --directory _site &
           npx --yes wait-on@7 http://127.0.0.1:4000/
-          npx --yes @lhci/cli@0.14 collect --numberOfRuns=1 \
-            --url=http://127.0.0.1:4000/ \
-            --url=http://127.0.0.1:4000/results/ \
-            --url=http://127.0.0.1:4000/events/ \
-            --url=http://127.0.0.1:4000/no/
-          npx --yes @lhci/cli@0.14 assert \
-            --assertions.categories:performance=warn:0.8 \
-            --assertions.categories:accessibility=error:0.95 \
-            --assertions.categories:best-practices=warn:0.9 \
-            --assertions.categories:seo=warn:0.9
+          npx --yes @lhci/cli@0.14 collect
+          npx --yes @lhci/cli@0.14 assert
 
       - name: Keep the reports
         if: always()
