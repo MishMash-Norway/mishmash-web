@@ -21,6 +21,7 @@ people:
 - jon-marius-aareskjold-drecker
 - marit-wergeland
 - murtaza-mohiqi
+- roderick-udo
 - ruzbeh-smiley
 - sunniva-whittaker
 projects:
