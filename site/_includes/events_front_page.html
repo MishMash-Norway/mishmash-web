@@ -1,6 +1,11 @@
 {% assign all_events = site.events | where_exp: "item", "item.draft != true" | where_exp: "item", "item.subpage != true" %}
-{% assign future_events = all_events | where_exp: "item", "item.date >= site.time" | sort: 'date' %}
-{% assign past_events = all_events | where_exp: "item", "item.date < site.time" | sort: 'date' | reverse %}
+{% comment %}An event stays upcoming until its end_date has passed (falls back to date).{% endcomment %}
+{% assign future_dated = all_events | where_exp: "item", "item.end_date >= site.time" %}
+{% assign future_undated = all_events | where_exp: "item", "item.end_date == nil" | where_exp: "item", "item.date >= site.time" %}
+{% assign future_events = future_dated | concat: future_undated | sort: 'date' %}
+{% assign past_dated = all_events | where_exp: "item", "item.end_date < site.time" %}
+{% assign past_undated = all_events | where_exp: "item", "item.end_date == nil" | where_exp: "item", "item.date < site.time" %}
+{% assign past_events = past_dated | concat: past_undated | sort: 'date' | reverse %}
 
 {% if future_events.size > 0 %}
 {% for item in future_events limit:3 %}
