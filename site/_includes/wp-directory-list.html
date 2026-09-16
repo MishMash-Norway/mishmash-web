@@ -15,7 +15,7 @@
 {% assign wp_projects = all_wp_projects | where_exp: "project", "project.wps contains wp_label" | sort: "title" %}
 
 {% if include.section == "projects" %}
-<div class="wp-directory-list wp-directory-projects" aria-label="{{ wp_label }} projects">
+<div class="wp-directory-list wp-directory-projects" role="group" aria-label="{{ wp_label }} projects">
   {% if wp_projects.size > 0 %}
   <ul>
     {% for project in wp_projects %}
@@ -31,7 +31,7 @@
 {% elsif include.section == "members" %}
 {% assign seen_people = "|" %}
 {% assign member_count = 0 %}
-<div class="wp-directory-list wp-directory-members" aria-label="{{ wp_label }} members">
+<div class="wp-directory-list wp-directory-members" role="group" aria-label="{{ wp_label }} members">
   <ul>
     {% for person in all_people %}
       {% if person.slug == "person-slug" %}{% continue %}{% endif %}

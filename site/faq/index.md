@@ -464,12 +464,9 @@ Get in touch at [contact@mishmash.no](mailto:contact@mishmash.no), or explore [p
       history.pushState(null, '', '#' + item.id);
     });
 
-    var expandIcon = summary.querySelector('.faq-expand-icon');
-    if (expandIcon) {
-      summary.insertBefore(link, expandIcon);
-    } else {
-      summary.appendChild(link);
-    }
+    // Placed after the summary, not inside it: a link inside a summary
+    // nests two controls, which fails WCAG 4.1.2.
+    summary.insertAdjacentElement('afterend', link);
   });
 
   openFaqFromHash();

@@ -10,10 +10,13 @@
 }
 
 .site-footer-bar {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  column-gap: 0.35rem;
+  row-gap: 0.25rem;
   text-align: center;
-  list-style: none;
-  cursor: default;
 }
 
 .site-footer-bar::-webkit-details-marker {
@@ -44,6 +47,11 @@
   cursor: pointer;
   user-select: none;
   white-space: nowrap;
+  list-style: none;
+}
+
+.site-footer-toggle::-webkit-details-marker {
+  display: none;
 }
 
 .site-footer-toggle:hover {
@@ -53,10 +61,6 @@
 .site-footer-toggle:hover .page-about-expand-icon {
   border-color: var(--mm-purple);
   color: var(--mm-ink);
-}
-
-.site-footer-toggle-label {
-  opacity: 0.75;
 }
 
 h1,
@@ -441,6 +445,11 @@ a:focus-visible .icon {
   display: block;
 }
 
+.person-profile-meta {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
 .person-profile-meta h1 {
   margin: 0 0 0.25rem 0;
 }
@@ -640,7 +649,7 @@ a:focus-visible .icon {
 }
 
 .institution-links-sep {
-  color: #999;
+  color: var(--mm-ink-70);
 }
 
 .directory-related {
@@ -929,6 +938,7 @@ a:focus-visible .icon {
 
 .search-input-row {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   align-items: center;
   margin-bottom: 0.8rem;
@@ -1353,6 +1363,14 @@ a:focus-visible .icon {
   flex: 1 1 auto;
 }
 
+/* The permalink sits in the answer, not in the summary, so the
+   summary stays a single control (no nested interactive elements). */
+.faq-item > .faq-permalink {
+  float: right;
+  margin: 0 0 0.5rem 0.75rem;
+  padding-bottom: 0;
+}
+
 .faq-permalink {
   flex-shrink: 0;
   display: inline-flex;
@@ -1417,7 +1435,13 @@ a:focus-visible .icon {
   color: #55606a;
 }
 
-.page-about[open] .site-footer-bar {
+.page-about[open] {
+  flex-basis: 100%;
+}
+
+.page-about[open] > .site-footer-toggle {
+  display: flex;
+  justify-content: center;
   margin-bottom: 0.75rem;
 }
 

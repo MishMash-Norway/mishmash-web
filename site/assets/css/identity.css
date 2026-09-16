@@ -181,7 +181,9 @@ body {
 }
 
 .page-header .lang-switcher .lang-option {
-  color: var(--mm-ink-70) !important;
+  color: var(--mm-ink) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 0.15em;
 }
 
 .page-header .lang-switcher .lang-option:hover,

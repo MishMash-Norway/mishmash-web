@@ -137,6 +137,19 @@ function barPathV(x, y, w, h, r) {
 
 /* ── Horizontal bar chart ─────────────────────────────────────────────── */
 
+/* Name a chart after the heading of its card, so assistive technology
+   announces the chart as a group with a title rather than a nameless image. */
+function labelChart(svg, wrap, id) {
+  var card = wrap.closest(".pulse-card");
+  var heading = card ? card.querySelector("h2") : null;
+  if (heading) {
+    if (!heading.id) heading.id = id + "-title";
+    svg.attr("aria-labelledby", heading.id);
+  } else {
+    svg.attr("aria-label", id);
+  }
+}
+
 function renderBars(id, data, color, unitWord) {
   var wrap = document.getElementById(id);
   wrap.textContent = "";
@@ -150,7 +163,8 @@ function renderBars(id, data, color, unitWord) {
   var svg = d3.select(wrap).append("svg")
     .attr("viewBox", "0 0 " + width + " " + height)
     .attr("width", width).attr("height", height)
-    .attr("role", "img");
+    .attr("role", "group");
+  labelChart(svg, wrap, id);
 
   var x = d3.scaleLinear()
     .domain([0, d3.max(data, function (d) { return d.value; })])
@@ -177,6 +191,7 @@ function renderBars(id, data, color, unitWord) {
       .attr("class", "pulse-bar-hit")
       .attr("x", 0).attr("y", y(d.label))
       .attr("width", width).attr("height", y.bandwidth())
+      .attr("role", "img")
       .attr("tabindex", 0)
       .attr("aria-label", (d.full || d.label) + ": " + d.value + " " + unitWord);
 
@@ -216,7 +231,8 @@ function renderColumns(id, data) {
   var svg = d3.select(wrap).append("svg")
     .attr("viewBox", "0 0 " + width + " " + height)
     .attr("width", width).attr("height", height)
-    .attr("role", "img");
+    .attr("role", "group");
+  labelChart(svg, wrap, id);
 
   var x = d3.scaleBand()
     .domain(data.map(function (d) { return d.m; }))
@@ -271,6 +287,7 @@ function renderColumns(id, data) {
       .attr("class", "pulse-bar-hit")
       .attr("x", x(d.m)).attr("y", margin.top)
       .attr("width", x.bandwidth()).attr("height", height - margin.top - margin.bottom)
+      .attr("role", "img")
       .attr("tabindex", 0)
       .attr("aria-label", label);
 
