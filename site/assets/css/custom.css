@@ -1869,3 +1869,38 @@ a:focus-visible .icon {
 .mm-lab-list p {
   margin: 0.25rem 0 0;
 }
+
+/* Heritage objects (_includes/heritage.html) */
+.mm-heritage {
+  margin: 1.5rem 0 2rem;
+  background: var(--mm-ink-5);
+  padding: 0.75rem;
+}
+
+.mm-heritage-media img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.mm-heritage-zoom {
+  width: 100%;
+  height: 480px;
+  background: var(--mm-ink);
+}
+
+.mm-heritage-caption {
+  margin-top: 0.5rem;
+  font-size: 0.92rem;
+}
+
+.mm-heritage-title {
+  display: block;
+  font-weight: 600;
+}
+
+.mm-heritage-rights {
+  display: block;
+  color: var(--mm-ink-70);
+}
