@@ -1,0 +1,15 @@
+{
+  "name": "MishMash Centre for AI and Creativity",
+  "short_name": "MishMash",
+  "description": "A Norwegian research centre on AI and creativity: people, projects, results and events.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#b3e297",
+  "lang": "en",
+  "icons": [
+    { "src": "/assets/images/logo/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/images/logo/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
