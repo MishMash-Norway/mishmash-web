@@ -17,7 +17,6 @@ tags:
 - Infrastructure
 - Directory
 - Cross-WP
-- Seed Funding
 slug: the-mishmash-website
 name: The MishMash Website
 people:
