@@ -32,8 +32,8 @@
   external: false
 - title: Research Soundscape
   title_nb: Forskningslydlandskap
-  url: /gallery/soundscape/
-  url_nb: /no/gallery/soundscape/
+  url: /lab/soundscape/
+  url_nb: /no/lab/soundscape/
   kind: Sound
   kind_nb: Lyd
   byline: mishmash.no

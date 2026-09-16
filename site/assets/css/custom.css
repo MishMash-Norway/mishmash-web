@@ -1801,3 +1801,71 @@ a:focus-visible .icon {
   content-visibility: auto;
   contain-intrinsic-size: auto 140px;
 }
+
+/* Lab pages (_layouts/lab.html, site/lab/) */
+.mm-lab-meta {
+  margin: 0 0 1.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--mm-purple-tint);
+  font-size: 0.92rem;
+}
+
+.mm-lab-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  align-items: center;
+  margin: 0;
+}
+
+.mm-lab-badge {
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border: 2px solid var(--mm-ink);
+  padding: 0.1rem 0.5rem;
+  text-decoration: none !important;
+}
+
+.mm-lab-notes {
+  margin: 0.5rem 0 0;
+}
+
+.mm-lab-notes div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.mm-lab-notes dt {
+  flex: 0 0 3rem;
+  font-weight: 600;
+}
+
+.mm-lab-notes dd {
+  margin: 0;
+}
+
+.mm-lab-list {
+  list-style: none;
+  padding: 0;
+}
+
+.mm-lab-list li {
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--mm-ink-15);
+}
+
+.mm-lab-list li > a {
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  font-size: 1.4rem;
+}
+
+.mm-lab-byline {
+  color: var(--mm-ink-70);
+}
+
+.mm-lab-list p {
+  margin: 0.25rem 0 0;
+}

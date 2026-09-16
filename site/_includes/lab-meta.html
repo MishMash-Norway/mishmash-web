@@ -1,0 +1,22 @@
+{% comment %}
+  Header line for a lab page (site/lab/): who made it, since when, what data
+  it draws on and how AI was involved. All fields come from the page's `lab`
+  front matter; see site/lab/_template/index.md.
+{% endcomment %}
+{% assign lang = page.lang | default: 'en' %}
+{% assign t = site.data.translations[lang] %}
+{% assign lab = page.lab %}
+<aside class="mm-lab-meta" aria-label="{{ t.lab_label }}">
+  <p class="mm-lab-line">
+    <a class="mm-lab-badge" href="{{ t.lab_url | relative_url }}">{{ t.lab_label }}</a>
+    {% if lab.authors %}<span>{{ t.lab_by }} {{ lab.authors | join: ", " }}</span>{% endif %}
+    {% if lab.date %}<span>{{ t.lab_since }} {{ lab.date | date: "%B %Y" }}</span>{% endif %}
+    {% if lab.status %}<span>{{ lab.status }}</span>{% endif %}
+  </p>
+  {% if lab.data or lab.ai %}
+  <dl class="mm-lab-notes">
+    {% if lab.data %}<div><dt>{{ t.lab_data }}</dt><dd>{{ lab.data }}</dd></div>{% endif %}
+    {% if lab.ai %}<div><dt>{{ t.lab_ai }}</dt><dd>{{ lab.ai }}</dd></div>{% endif %}
+  </dl>
+  {% endif %}
+</aside>

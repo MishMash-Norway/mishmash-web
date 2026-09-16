@@ -44,14 +44,14 @@ This project develops and maintains [mishmash.no](https://mishmash.no) and treat
 
 - 2025: the repository was created in June with a minimal Jekyll site for news and events, and the first alternative interface themes followed the same month.
 - Early 2026: internal pages for the organisation, board and council, and partner news and events pulled from partner websites.
-- Spring 2026: the directory of people, institutions and projects, refreshed nightly from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/); site-wide [search](/search/); the [people network](/people/network/); a Norwegian mirror of the main pages; and a first [chat](/chat/) prototype running in the browser.
-- Summer 2026: adaptive reading levels and stretchtext on the [about page](/about/description/) with a shared [glossary](/about/glossary/); Wikidata identifiers for people and institutions; the [research pulse](/results/pulse/), the [soundscape](/gallery/soundscape/) and the [AI colophon](/about/ai-colophon/); and a provenance footer on every page.
+- Spring 2026: the directory of people, institutions and projects, refreshed nightly from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/); site-wide [search](/search/); the [people network](/lab/people-network/); a Norwegian mirror of the main pages; and a first [chat](/chat/) prototype running in the browser.
+- Summer 2026: adaptive reading levels and stretchtext on the [about page](/about/description/) with a shared [glossary](/about/glossary/); Wikidata identifiers for people and institutions; the [research pulse](/results/pulse/), the [soundscape](/lab/soundscape/) and the [AI colophon](/about/ai-colophon/); and a provenance footer on every page.
 - September 2026: the new [visual identity](/about/brand/) replaced the launch look, which lives on as the Bubbles theme, and an accessibility audit brought the site to the machine-checkable criteria of WCAG 2.1 level AA, with the scan in the build pipeline now enforcing them.
 
 ## What runs today
 
 - A [directory](/search/?type=person) of people, institutions and projects, and a [results list](/results/), both kept in step with NVA, ORCID and Wikipedia by nightly automation.
-- [Search](/search/), the [people network](/people/network/), the [research pulse](/results/pulse/), the [gallery](/gallery/) and the [soundscape](/gallery/soundscape/).
+- [Search](/search/), the [research pulse](/results/pulse/), the [gallery](/gallery/), and the [lab](/lab/) with the people network and the soundscape.
 - An [about page](/about/description/) that offers the same text at three reading levels, in English and Norwegian.
 - A [chat](/chat/) prototype that answers questions from the site's own content.
 - [Partner news](/news/partner-news/) and [partner events](/events/partner-events/) alongside the centre's own.
