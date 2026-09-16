@@ -149,4 +149,4 @@ jobs:
         run: |
           python3 -m http.server 4000 --directory _site &
           npx --yes wait-on@7 http://127.0.0.1:4000/
-          npx --yes pa11y-ci@3 --config .pa11yci.json
+          npx --yes pa11y-ci@4 --config .pa11yci.json

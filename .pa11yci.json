@@ -1,25 +1,58 @@
 {
   "defaults": {
     "standard": "WCAG2AA",
-    "threshold": 15,
-    "timeout": 30000,
-    "wait": 500,
+    "runners": [
+      "axe",
+      "htmlcs"
+    ],
+    "threshold": 0,
+    "timeout": 60000,
+    "wait": 800,
     "chromeLaunchConfig": {
       "args": [
         "--no-sandbox",
         "--disable-setuid-sandbox"
       ]
-    }
+    },
+    "levelCapWhenNeedsReview": "warning",
+    "concurrency": 1
   },
   "urls": [
     "http://127.0.0.1:4000/",
     "http://127.0.0.1:4000/about/",
+    "http://127.0.0.1:4000/about/description/",
     "http://127.0.0.1:4000/about/organisation/",
     "http://127.0.0.1:4000/about/organisation/board/",
     "http://127.0.0.1:4000/about/organisation/council/",
-    "http://127.0.0.1:4000/about/organisation/council/meetings/2026-04/",
     "http://127.0.0.1:4000/events/",
+    "http://127.0.0.1:4000/events/partner-events.html",
+    "http://127.0.0.1:4000/events/meshup-23/",
     "http://127.0.0.1:4000/news/",
-    "http://127.0.0.1:4000/search/"
+    "http://127.0.0.1:4000/news/partner-news/",
+    "http://127.0.0.1:4000/news/administrative-coordinator/",
+    "http://127.0.0.1:4000/people/abdolrahim-tooranian/",
+    "http://127.0.0.1:4000/people/network/",
+    "http://127.0.0.1:4000/institutions/aalborg-university/",
+    "http://127.0.0.1:4000/projects/",
+    "http://127.0.0.1:4000/projects/agency-and-control-in-musical-ensemble/",
+    "http://127.0.0.1:4000/results/",
+    "http://127.0.0.1:4000/results/pulse/",
+    "http://127.0.0.1:4000/wp1/",
+    "http://127.0.0.1:4000/faq/",
+    "http://127.0.0.1:4000/search/",
+    "http://127.0.0.1:4000/chat/",
+    "http://127.0.0.1:4000/gallery/",
+    "http://127.0.0.1:4000/accessibility/",
+    "http://127.0.0.1:4000/privacy/",
+    "http://127.0.0.1:4000/vacancies/",
+    "http://127.0.0.1:4000/no/",
+    "http://127.0.0.1:4000/no/about/",
+    "http://127.0.0.1:4000/no/about/description/",
+    "http://127.0.0.1:4000/no/about/organisation/",
+    "http://127.0.0.1:4000/no/results/",
+    "http://127.0.0.1:4000/no/results/pulse/",
+    "http://127.0.0.1:4000/no/accessibility/",
+    "http://127.0.0.1:4000/no/privacy/",
+    "http://127.0.0.1:4000/no/gallery/"
   ]
 }
