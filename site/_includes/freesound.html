@@ -1,0 +1,7 @@
+{% comment %}
+  Embed a sound from Freesound by its numeric ID (issue #47):
+    {% include freesound.html id="123456" title="Rain on a tin roof" %}
+  The player is Freesound's own, so the licence and the author are shown
+  on the sound's page one click away; give the title so the frame has a name.
+{% endcomment %}
+<iframe class="mm-freesound" frameborder="0" scrolling="no" src="https://freesound.org/embed/sound/iframe/{{ include.id }}/simple/medium/" width="481" height="86" title="{{ include.title | default: 'Sound on Freesound' }}" loading="lazy"></iframe>

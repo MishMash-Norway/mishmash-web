@@ -1788,3 +1788,10 @@ a:focus-visible .icon {
   color: var(--mm-ink-70);
   text-align: center;
 }
+
+/* Freesound player (_includes/freesound.html) */
+.mm-freesound {
+  display: block;
+  max-width: 100%;
+  margin: 1rem 0;
+}
