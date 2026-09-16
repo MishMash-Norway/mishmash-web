@@ -5,22 +5,34 @@ permalink: /accessibility/
 translation_url: /no/accessibility/
 ---
 
-We want mishmash.no to be usable for as many people as possible and work to follow recognised web standards for structure, semantics, and accessibility.
+mishmash.no should be usable by as many people as possible. The site is built to meet the Norwegian regulation on universal design of ICT, which requires public websites to satisfy the 48 success criteria of the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) at levels A and AA listed by the [Norwegian Authority for Universal Design of ICT](https://www.uutilsynet.no/wcag-standarden/wcag-standarden/86).
 
-## Standards followed
+## What the site does
 
-- [WCAG 2](https://www.w3.org/WAI/standards-guidelines/wcag/) Level AA — contrast, keyboard use, labels, and other requirements checked automatically in our build pipeline.
-- Valid, semantic HTML — pages are validated as HTML5 during continuous integration.
-- Practical accessibility features — including a skip link to main content, text alternatives for images where needed, and meaningful link and heading structure.
+- A skip link at the top of every page leads straight to the content.
+- Menus, the language switch, search and the expandable sections work with a keyboard, and the element in focus is always visible.
+- The page language is declared, and the language switch marks the other language so screen readers pronounce it correctly.
+- Text and its background have a contrast of at least 4.5:1, and text can be enlarged to 200% without loss of content.
+- Pages reflow to a width of 320 pixels without horizontal scrolling.
+- Images have text alternatives, links describe their target, and headings follow a logical order.
+- Charts on the results pulse page have a table alternative.
 
-We know that automated testing cannot catch every barrier. If you have trouble using any part of this site, please tell us at [contact@mishmash.no](mailto:contact@mishmash.no) so we can improve it.
+## How the site is checked
 
-## Automated checks on GitHub
+Every change is checked in GitHub Actions before it is published. The [Web Quality Checks](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml) workflow includes:
 
-Every change to the site is checked in GitHub Actions before it is published. The [Web Quality Checks](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml) workflow includes:
+- Accessibility scan: [Pa11y CI](https://github.com/pa11y/pa11y-ci) runs both the axe-core and HTML CodeSniffer engines against WCAG 2.1 level AA on a set of representative pages in both languages, listed in [`.pa11yci.json`](https://github.com/MishMash-Norway/mishmash-web/blob/main/.pa11yci.json). A single error fails the check.
+- HTML validation: the Nu HTML Checker validates every generated page as HTML5.
+- Link checking: htmlproofer verifies internal links in the built site.
 
-- Accessibility scan (Pa11y) — tests key pages against WCAG 2 Level AA using [Pa11y CI](https://github.com/pa11y/pa11y-ci) and our [`.pa11yci.json`](https://github.com/MishMash-Norway/mishmash-web/blob/main/.pa11yci.json) configuration.
-- HTML validation (Nu HTML Checker) — checks generated pages for valid HTML5 markup.
-- Link checking (htmlproofer) — verifies internal links in the built site.
+Automated tools find only part of the barriers a person can meet. The rest depends on how content is written, so contributors are asked to give images text alternatives, keep headings in order, write link text that makes sense on its own, and provide captions for video. The latest results are on the [workflow runs page](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml).
 
-You can see the latest results on the [workflow runs page](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml).
+## Known limitations
+
+- Embedded videos from YouTube do not always have captions, and none has audio description.
+- The chat page depends on JavaScript and on an external language model service.
+- The experimental interface themes under `/ui/` are student work and are outside the automated checks.
+
+## Tell us about a barrier
+
+If you have trouble using any part of this site, write to [contact@mishmash.no](mailto:contact@mishmash.no) and say which page you were on and what happened. We aim to answer within a week and to fix what we can.
