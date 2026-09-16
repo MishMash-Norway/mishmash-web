@@ -14,6 +14,14 @@
 {% elsif include.meshup_fallback and include.item.categories contains 'MeshUp' %}
   {% assign thumb = '/assets/images/bubbles/mishmash_bubbles_notext.svg' %}
 {% endif %}
+{% comment %} Prefer the square WebP thumbnail built by scripts/build_thumbnails.py when it exists. {% endcomment %}
+{% if thumb and thumb contains '/assets/images/' %}
+  {% unless thumb contains '.svg' or thumb contains '/thumbs/' %}
+    {% assign thumb_file = thumb | remove_first: '/assets/images/' | replace: '/', '__' | append: '.webp' | prepend: '/assets/images/thumbs/' %}
+    {% assign thumb_exists = site.static_files | where: 'path', thumb_file | first %}
+    {% if thumb_exists %}{% assign thumb = thumb_file %}{% endif %}
+  {% endunless %}
+{% endif %}
 {% if thumb contains '/assets/images/bubbles/' %}
   {% capture thumb %}{% cycle 'bubble-thumbs': '/assets/images/bubbles/thumbs/bubbles-1.svg', '/assets/images/bubbles/thumbs/bubbles-2.svg', '/assets/images/bubbles/thumbs/bubbles-3.svg', '/assets/images/bubbles/thumbs/bubbles-4.svg', '/assets/images/bubbles/thumbs/bubbles-5.svg', '/assets/images/bubbles/thumbs/bubbles-6.svg' %}{% endcapture %}
 {% endif %}

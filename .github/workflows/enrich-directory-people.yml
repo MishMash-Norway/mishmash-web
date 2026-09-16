@@ -54,6 +54,9 @@ jobs:
       - name: Generate daily bubble artwork
         run: python3 scripts/generate_daily_bubbles.py
 
+      - name: Build listing thumbnails
+        run: python3 scripts/build_thumbnails.py
+
       - name: Validate directory
         run: python3 scripts/validate_directory.py
 
