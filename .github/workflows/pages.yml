@@ -55,6 +55,23 @@ jobs:
       - name: Measure page weight and carbon on the built site
         run: python3 scripts/measure_page_weight.py
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Cache the embedding model
+        uses: actions/cache@v4
+        with:
+          path: node_modules/@xenova/transformers/.cache
+          key: transformers-cache-${{ hashFiles('scripts/build_embeddings.mjs') }}
+
+      - name: Build the embeddings for the on-device semantic search
+        run: |
+          npm ci
+          node scripts/build_embeddings.mjs
+
       # Publish every student UI theme as a browsable preview under
       # /ui/<name>/, listed on the /ui/ gallery page. Previews exclude
       # internal pages and must not carry their own CNAME.

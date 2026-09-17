@@ -1918,3 +1918,9 @@ a:focus-visible .icon {
   padding: 0.4rem 0;
   border-top: 1px solid var(--mm-ink-15);
 }
+
+/* Semantic search experiment (/lab/semantic-search/) */
+.semantic-results li {
+  padding: 0.35rem 0;
+  border-top: 1px solid var(--mm-ink-15);
+}
