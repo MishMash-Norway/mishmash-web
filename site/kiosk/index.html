@@ -3,6 +3,7 @@ title: MishMash kiosk
 description: "A full-screen, self-rotating view of upcoming MishMash events and the latest news, for screens in partner lobbies."
 permalink: /kiosk/
 sitemap: false
+search: false
 ---
 {% assign all_events = site.events | where_exp: "item", "item.draft != true" | where_exp: "item", "item.subpage != true" %}
 {% assign future_dated = all_events | where_exp: "item", "item.end_date >= site.time" %}
