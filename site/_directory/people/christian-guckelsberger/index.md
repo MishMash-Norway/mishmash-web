@@ -19,7 +19,6 @@ urls:
   orcid: https://orcid.org/0000-0003-1977-1887
   nva: ''
   youtube: ''
-  facebook: ''
   mastodon: https://sigmoid.social/@creativeEndvs
   instagram: ''
   bluesky: https://creativeendvs.bsky.social‬

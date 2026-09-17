@@ -34,7 +34,6 @@ urls:
   orcid: https://orcid.org/0000-0003-1162-5551
   nva: https://nva.sikt.no/research-profile/1081
   youtube: ''
-  facebook: https://www.facebook.com/trond.lossius/
   mastodon: ''
   instagram: https://www.instagram.com/trondlossius
 aliases: []

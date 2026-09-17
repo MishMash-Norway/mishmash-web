@@ -20,7 +20,6 @@ urls:
   orcid: ''
   nva: ''
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
 aliases: []
@@ -31,14 +30,14 @@ tags:
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: "Hanne-Lovise Skartveit holds a PhD in media studies from the University
-  of Bergen, focusing on hybrid documentary forms, and a master's degree in screenwriting.
+summary: Hanne-Lovise Skartveit holds a PhD in media studies from the University of
+  Bergen, focusing on hybrid documentary forms, and a master's degree in screenwriting.
   She has produced three feature films in Ecuador screened at venues including the
   Berlinale and Toronto IFF, and has taught film, media production and screenwriting
   at the University of Bergen and Universidad San Francisco de Quito. She works with
   communications and coordinates postgraduate and continuing education at the Faculty
   of Film, TV and Games, University of Inland Norway, and is a member of the faculty's
-  Art and AI research group."
+  Art and AI research group.
 wps:
 - WP5
 permalink: /people/hanne-lovise-skartveit/

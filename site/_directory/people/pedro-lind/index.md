@@ -19,7 +19,6 @@ urls:
   orcid: https://orcid.org/0000-0002-8176-666X
   nva: https://nva.sikt.no/filter?contributor=23835
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q47974426

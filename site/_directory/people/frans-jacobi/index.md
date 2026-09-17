@@ -18,7 +18,6 @@ urls:
   orcid: https://orcid.org/0000-0002-6842-9773
   nva: ''
   youtube: https://www.youtube.com/@areyouready3988
-  facebook: https://www.facebook.com/frans.jacobi/
   mastodon: ''
   instagram: https://www.instagram.com/fransjacobi
   wikidata: ''

@@ -20,7 +20,6 @@ urls:
   orcid: https://orcid.org/0000-0002-7401-6422
   nva: https://nva.sikt.no/research-profile/1894229
   youtube: ''
-  facebook: https://www.facebook.com/drymonitis/
   mastodon: https://mastodon.social/@AlexandrosDrymonitis
   instagram: ''
 aliases: []

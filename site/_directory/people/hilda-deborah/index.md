@@ -20,7 +20,6 @@ urls:
   orcid: https://orcid.org/0000-0003-3779-2569
   nva: https://nva.sikt.no/research-profile/1305503
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
   bluesky: https://bsky.app/profile/tobinghd.bsky.social

@@ -26,7 +26,6 @@ urls:
   nva: null
   wikidata: null
   youtube: null
-  facebook: null
   mastodon: null
   instagram: null
 aliases: []

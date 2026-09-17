@@ -19,7 +19,6 @@ urls:
   orcid: https://orcid.org/0009-0005-6552-4539
   nva: ''
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/olalellingsen
   wikidata: ''

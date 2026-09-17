@@ -29,7 +29,6 @@ urls:
   orcid: https://orcid.org/0009-0001-8337-2509
   nva: https://nva.sikt.no/research-profile/1514417
   youtube: https://www.youtube.com/@BalintLaczko
-  facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/balint.laczko.1
 aliases: []

@@ -20,7 +20,6 @@ urls:
   orcid: https://orcid.org/0009-0000-0394-6502
   nva: ''
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
 aliases:

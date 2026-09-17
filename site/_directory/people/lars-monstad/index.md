@@ -19,7 +19,6 @@ urls:
   orcid: https://orcid.org/0009-0003-5675-2033
   nva: ''
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/larsvegas1
   wikidata: ''

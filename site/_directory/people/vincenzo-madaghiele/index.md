@@ -20,7 +20,6 @@ urls:
   orcid: https://orcid.org/0009-0007-7801-7055
   nva: https://nva.sikt.no/research-profile/1726129
   youtube: https://www.youtube.com/@vincenzomadaghiele
-  facebook: ''
   mastodon: https://sigmoid.social/@vmad
   instagram: ''
 aliases: []

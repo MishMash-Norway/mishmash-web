@@ -28,7 +28,6 @@ urls:
   orcid: https://orcid.org/0009-0007-7337-2146
   nva: https://nva.sikt.no/research-profile/811552
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
 aliases: []

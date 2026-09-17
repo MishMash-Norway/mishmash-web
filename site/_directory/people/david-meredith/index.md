@@ -19,7 +19,6 @@ urls:
   orcid: https://orcid.org/0000-0002-9601-5017
   nva: ''
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q112481504

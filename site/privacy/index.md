@@ -7,6 +7,18 @@ translation_url: /no/privacy/
 
 This website does not use cookies. As simple as that. We do not set cookies in your browser, and we do not use third-party analytics or advertising tools that track visitors.
 
+## The directory
+
+The [directory](/search/?type=person) shows professional facts about members of the network: name, position and department, institution and work package, identifiers (ORCID, NVA, Wikidata), the results registered in the national research archive, a short bio, and the links the person chose to show, such as a personal website or a professional profile. A portrait is shown where the person has agreed to it. No private contact details are stored; e-mail addresses live on the institutional pages the entry links to.
+
+Where it comes from: the person, through the membership form or an e-mail; [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/) for affiliations, results and identifiers; Wikipedia for institution summaries. The nightly sync may refresh results, affiliations, identifiers and a portrait that comes from NVA. It never overwrites the name, position, bio, roles or the links the person entered.
+
+Consent: the membership form counts as consent to appear with name, role, affiliation, identifiers and the links given. A portrait needs a separate yes.
+
+Changes and removal: write to [contact@mishmash.no](mailto:contact@mishmash.no) or use "Suggest a change" in the footer of the page. An entry is corrected or unpublished within a week. The site is built from a public source repository whose history cannot be rewritten without breaking every copy of it, so unpublishing removes the entry from the site and from the search index, not from the repository's history.
+
+What may be reused, and on what terms, is on the [terms of use](/about/terms/) page.
+
 ## Data classification
 
 Each page on this site carries a data classification, shown in the "About the page" section of the footer. We follow the University of Oslo's four-level scheme: **green** (open), **yellow** (restricted), **red** (confidential), and **black** (strictly confidential).

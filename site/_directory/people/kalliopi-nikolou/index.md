@@ -18,7 +18,6 @@ urls:
   orcid: https://orcid.org/0009-0006-9490-8424
   nva: ''
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/kali_nikolou
 aliases: []

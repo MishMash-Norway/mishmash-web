@@ -19,7 +19,6 @@ urls:
   orcid: ''
   nva: ''
   youtube: https://www.youtube.com/@boriseldagsen
-  facebook: https://www.facebook.com/boriseldagsen/
   mastodon: ''
   instagram: https://www.instagram.com/boriseldagsen
 aliases: []

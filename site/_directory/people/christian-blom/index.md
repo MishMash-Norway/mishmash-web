@@ -21,7 +21,6 @@ urls:
   orcid: ''
   nva: ''
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
 permalink: /people/christian-blom/

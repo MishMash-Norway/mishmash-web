@@ -29,7 +29,6 @@ urls:
   orcid: https://orcid.org/0000-0003-3122-9302
   nva: https://nva.sikt.no/research-profile/328229
   youtube: ''
-  facebook: https://www.facebook.com/sidsel.karlsen.3
   mastodon: ''
   instagram: ''
 aliases: []

@@ -24,7 +24,6 @@ urls:
   orcid: https://orcid.org/0009-0003-0364-2332
   nva: https://nva.sikt.no/research-profile/783755
   youtube: ''
-  facebook: https://www.facebook.com/jane.sverdrupsen/
   mastodon: ''
   instagram: ''
   wikidata: ''

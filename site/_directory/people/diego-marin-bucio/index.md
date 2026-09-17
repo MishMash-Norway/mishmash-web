@@ -27,7 +27,6 @@ urls:
   orcid: https://orcid.org/0000-0001-8334-5124
   nva: https://nva.sikt.no/research-profile/1635214
   youtube: https://www.youtube.com/@diegomarinmx
-  facebook: https://www.facebook.com/diegomarinart/
   mastodon: ''
   instagram: https://www.instagram.com/diegomarinmx
 aliases: []

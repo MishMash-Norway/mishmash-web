@@ -20,7 +20,6 @@ urls:
   orcid: https://orcid.org/0009-0007-2687-6376
   nva: https://nva.sikt.no/research-profile/13842
   youtube: https://www.youtube.com/c/RichardGjems
-  facebook: https://www.facebook.com/richard.gjems/
   mastodon: ''
   instagram: https://www.instagram.com/richardgjems
 aliases: []

@@ -19,7 +19,6 @@ urls:
   orcid: https://orcid.org/0000-0002-6812-2050
   nva: ''
   youtube: https://www.youtube.com/@LucianoAzzigotti
-  facebook: https://www.facebook.com/azzigotti
   mastodon: https://mastodon.social/@zzigo
   instagram: https://www.instagram.com/azzigotti
 aliases: []

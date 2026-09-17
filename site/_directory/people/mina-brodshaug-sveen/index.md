@@ -19,7 +19,6 @@ urls:
   github: ''
   linkedin: ''
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
   orcid: https://orcid.org/0009-0006-5431-113X

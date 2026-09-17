@@ -34,7 +34,6 @@ urls:
   orcid: https://orcid.org/0000-0002-4248-5363
   nva: https://nva.sikt.no/research-profile/325669
   youtube: https://vimeo.com/bullmiletic
-  facebook: https://www.facebook.com/synne.t.bull
   mastodon: ''
   instagram: https://www.instagram.com/synnetollerudbull
   bluesky: https://bsky.app/profile/synnebull.bsky.social

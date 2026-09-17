@@ -19,7 +19,6 @@ urls:
   orcid: ''
   nva: https://nva.sikt.no/research-profile/1165075
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/mr_morten
   wikidata: ''

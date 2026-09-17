@@ -36,7 +36,6 @@ urls:
   orcid: https://orcid.org/0000-0002-3910-7716
   nva: https://nva.sikt.no/research-profile/959009
   youtube: ''
-  facebook: https://www.facebook.com/knigge.jens/
   mastodon: ''
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q132804769

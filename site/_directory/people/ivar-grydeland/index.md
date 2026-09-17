@@ -38,7 +38,6 @@ urls:
   orcid: https://orcid.org/0009-0007-3445-7294
   nva: https://nva.sikt.no/research-profile/326537
   youtube: ''
-  facebook: https://www.facebook.com/ivar.grydeland.5
   mastodon: ''
   instagram: https://www.instagram.com/ivargrydeland
 aliases: []

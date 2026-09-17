@@ -19,7 +19,6 @@ urls:
   orcid: https://orcid.org/0000-0001-6448-0507
   nva: https://nva.sikt.no/research-profile/328873
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
   bluesky: https://bsky.app/profile/arsteinjustnes.bsky.social

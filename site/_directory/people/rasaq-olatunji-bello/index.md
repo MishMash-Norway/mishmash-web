@@ -28,7 +28,6 @@ urls:
   orcid: ''
   nva: ''
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
 aliases: []

@@ -20,7 +20,6 @@ urls:
   orcid: https://orcid.org/0009-0007-4037-8154
   nva: https://nva.sikt.no/research-profile/504296
   youtube: https://www.youtube.com/channel/UCGSJ1jqPddbjiJEuH5uJiGQ
-  facebook: https://www.facebook.com/oleaamot
   mastodon: ''
   instagram: ''
   wikidata: ''

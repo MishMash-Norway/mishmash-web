@@ -19,7 +19,6 @@ urls:
   orcid: https://orcid.org/0009-0008-4412-3682
   nva: https://nva.sikt.no/research-profile/546955
   youtube: https://www.youtube.com/@Biblemonger
-  facebook: ''
   mastodon: ''
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q113739293

@@ -1431,7 +1431,6 @@ def ordered_person(data: dict) -> dict:
             "orcid",
             "nva",
             "youtube",
-            "facebook",
             "mastodon",
             "instagram",
         ]

@@ -31,7 +31,6 @@ urls:
   orcid: https://orcid.org/0000-0002-2324-6850
   nva: https://nva.sikt.no/research-profile/781725
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/tejaswineekelkar
 aliases: []

@@ -19,7 +19,6 @@ urls:
   orcid: https://orcid.org/0000-0001-8675-3561
   nva: ''
   youtube: https://www.youtube.com/@MamasLab
-  facebook: ''
   mastodon: ''
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q102340490

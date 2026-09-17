@@ -41,7 +41,6 @@ urls:
   orcid: https://orcid.org/0000-0001-6171-8743
   nva: https://nva.sikt.no/research-profile/1328
   youtube: https://www.youtube.com/alexarje
-  facebook: ''
   mastodon: https://mastodon.online/@arjensenius
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q47281555

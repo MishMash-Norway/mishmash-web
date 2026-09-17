@@ -24,10 +24,15 @@ urls:
   nva:
   wikidata:
   youtube:
-  facebook:
   mastodon:
   instagram:
 aliases: []
+# Consent to appear in the directory. The membership form counts as consent for
+# name, role, affiliation, identifiers and the links the person gave (scope:
+# directory); a separate yes is needed for the portrait (scope: directory+portrait).
+consent:
+  date:
+  scope: directory
 tags: []
 search_keywords: []
 selected_works: []

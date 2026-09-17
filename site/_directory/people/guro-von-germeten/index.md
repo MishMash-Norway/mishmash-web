@@ -20,7 +20,6 @@ urls:
   orcid: https://orcid.org/0000-0002-9999-0715
   nva: https://nva.sikt.no/research-profile/1334256
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/gurovongermeten
 aliases: []

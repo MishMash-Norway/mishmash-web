@@ -30,7 +30,6 @@ urls:
   orcid: https://orcid.org/0000-0002-7818-9224
   nva: https://nva.sikt.no/research-profile/992159
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/benediktewallace
 aliases: []

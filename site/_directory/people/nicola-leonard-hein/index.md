@@ -19,7 +19,6 @@ urls:
   orcid: https://orcid.org/0009-0005-8753-560X
   nva: ''
   youtube: https://www.youtube.com/@NicolaLHein
-  facebook: https://www.facebook.com/nicola.hein.2
   mastodon: ''
   instagram: https://www.instagram.com/nicolal.hein
   wikidata: ''

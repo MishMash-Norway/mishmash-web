@@ -40,7 +40,6 @@ urls:
   orcid: https://orcid.org/0000-0003-3550-3225
   nva: https://nva.sikt.no/research-profile/16358
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q90647678

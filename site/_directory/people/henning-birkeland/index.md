@@ -22,7 +22,6 @@ urls:
   orcid: https://orcid.org/0009-0006-4668-4585
   nva: https://nva.sikt.no/research-profile/1355592
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/henningbirkeland
 aliases: []

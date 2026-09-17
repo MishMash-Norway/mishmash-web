@@ -146,7 +146,6 @@ layout: default
     {% if social_urls.twitter.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if social_urls.youtube.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if social_urls.mastodon.size > 0 %}{% assign has_social_icons = true %}{% endif %}
-    {% if social_urls.facebook.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if social_urls.instagram.size > 0 %}{% assign has_social_icons = true %}{% endif %}
     {% if has_social_icons %}
     <section class="person-social-links" aria-label="Profiles and websites">
@@ -180,9 +179,6 @@ layout: default
         {% endif %}
         {% if social_urls.youtube.size > 0 %}
         <a class="social-icon-link" href="{{ social_urls.youtube }}" target="_blank" rel="noopener noreferrer" title="YouTube"><img class="icon icon-youtube" src="{{ '/assets/images/icons/catalogue/youtube.svg' | relative_url }}" alt="YouTube" width="64"></a>
-        {% endif %}
-        {% if social_urls.facebook.size > 0 %}
-        <a class="social-icon-link" href="{{ social_urls.facebook }}" target="_blank" rel="noopener noreferrer" title="Facebook"><img class="icon icon-facebook" src="{{ '/assets/images/icons/catalogue/facebook.svg' | relative_url }}" alt="Facebook" width="64"></a>
         {% endif %}
         {% if social_urls.instagram.size > 0 %}
         <a class="social-icon-link" href="{{ social_urls.instagram }}" target="_blank" rel="noopener noreferrer" title="Instagram"><img class="icon icon-instagram" src="{{ '/assets/images/icons/catalogue/instagram.svg' | relative_url }}" alt="Instagram" width="64"></a>

@@ -27,7 +27,6 @@ urls:
   orcid: https://orcid.org/0009-0008-4450-4661
   nva: https://nva.sikt.no/research-profile/1770825
   youtube: https://www.youtube.com/@Ruzbeh.Smiley
-  facebook: https://www.facebook.com/Ruzbeh.Smiley
   mastodon: ''
   instagram: https://www.instagram.com/Ruzbeh.Smiley
   wikidata: ''

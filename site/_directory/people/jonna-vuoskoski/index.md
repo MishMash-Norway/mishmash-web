@@ -35,7 +35,6 @@ urls:
   orcid: https://orcid.org/0000-0003-0049-4373
   nva: https://nva.sikt.no/research-profile/891152
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
   bluesky: https://bsky.app/profile/jokavuos.bsky.social

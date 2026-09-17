@@ -26,7 +26,6 @@ urls:
   orcid: https://orcid.org/0000-0001-5555-3225
   nva: https://nva.sikt.no/research-profile/1093312
   youtube: https://www.youtube.com/@stefanofasciani
-  facebook: ''
   mastodon: ''
   instagram: ''
 aliases: []

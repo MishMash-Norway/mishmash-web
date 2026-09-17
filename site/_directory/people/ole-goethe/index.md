@@ -33,7 +33,6 @@ urls:
   orcid: https://orcid.org/0000-0001-9565-2914
   nva: https://nva.sikt.no/research-profile/451223
   youtube: https://www.youtube.com/@olegoethe
-  facebook: https://www.facebook.com/olegoethe
   mastodon: https://mastodon.social/@olegoethe
   instagram: https://www.instagram.com/ole_goethe
   bluesky: https://bsky.app/profile/olegoethe.bsky.social

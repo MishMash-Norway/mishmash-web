@@ -19,7 +19,6 @@ urls:
   orcid: ''
   nva: ''
   youtube: https://youtube.com/@moonframestudios
-  facebook: https://facebook.com/TheCarmenGloria
   mastodon: ''
   instagram: https://instagram.com/TheCarmenGloria
 aliases: []

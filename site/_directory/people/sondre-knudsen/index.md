@@ -20,7 +20,6 @@ urls:
   orcid: ''
   nva: ''
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: ''
 aliases: []
@@ -31,12 +30,12 @@ tags:
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: "Sondre Knudsen earned his Master of Laws from the University of Bergen,
-  with part of his studies completed at Shanghai Jiao Tong University in China. He
-  has since worked as an associate lawyer at Haver Advokatfirma in Stavanger. Knudsen
+summary: Sondre Knudsen earned his Master of Laws from the University of Bergen, with
+  part of his studies completed at Shanghai Jiao Tong University in China. He has
+  since worked as an associate lawyer at Haver Advokatfirma in Stavanger. Knudsen
   works on a PhD project under the umbrella of MishMash, investigating artificial
   intelligence and the legal protection of personal characteristics. His doctoral
-  work is supervised by Professor Irina Eidsvold and Professor Ole-Andreas Rognstad."
+  work is supervised by Professor Irina Eidsvold and Professor Ole-Andreas Rognstad.
 wps:
 - WP5
 permalink: /people/sondre-knudsen/

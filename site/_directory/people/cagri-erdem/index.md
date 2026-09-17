@@ -32,7 +32,6 @@ urls:
   orcid: https://orcid.org/0000-0003-2632-6829
   nva: https://nva.sikt.no/research-profile/1008031
   youtube: ''
-  facebook: ''
   mastodon: ''
   instagram: https://www.instagram.com/cagrierdem_
 aliases: []
