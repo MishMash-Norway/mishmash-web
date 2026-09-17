@@ -18,7 +18,7 @@ The code that builds the site, in the [repository on GitHub](https://github.com/
 
 ## Data
 
-The data files the site makes itself, such as the events, the projects, the tags and the results list as it is compiled here, are released under [CC0](https://creativecommons.org/publicdomain/zero/1.0/): no rights reserved. Facts pulled from [NVA](https://nva.sikt.no/), [ORCID](https://orcid.org/) and [Wikipedia](https://www.wikipedia.org/) keep the terms of their source, which is named at the bottom of each page.
+The data files the site makes itself, such as the events, the projects, the tags and the results list as it is compiled here, are released under [CC0](https://creativecommons.org/publicdomain/zero/1.0/): no rights reserved. Facts pulled from [NVA](https://nva.sikt.no/), [ORCID](https://orcid.org/) and [Wikipedia](https://www.wikipedia.org/) keep the terms of their source, which is named at the bottom of each page. The data files are on the [open data](/data/) page.
 
 ## Images
 

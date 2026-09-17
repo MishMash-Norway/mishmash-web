@@ -14,6 +14,7 @@ Terms: the text is CC BY 4.0 (attribution required, training allowed); the site'
 
 ## Data
 
+- [Open data](https://mishmash.no/data/): people, institutions, projects, results and events as JSON and CSV, with licences inside each file
 - [Search index (JSON)](https://mishmash.no/search.json): every page, person, institution, project and event with a title and description
 - [Sitemap](https://mishmash.no/sitemap.xml)
 - [News feed](https://mishmash.no/feed.xml) and [event calendar (ICS)](https://mishmash.no/events/calendar.ics)

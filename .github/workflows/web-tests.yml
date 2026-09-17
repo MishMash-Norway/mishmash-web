@@ -58,8 +58,8 @@ jobs:
       - name: Install Apertium (Bokmål to Nynorsk)
         run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
 
-      - name: Generate the Nynorsk mirror and measure the languages
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py
+      - name: Generate the Nynorsk mirror, measure the languages, build the open data
+        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py
 
       - name: Build site
         run: bundle exec jekyll build --trace
@@ -81,8 +81,8 @@ jobs:
       - name: Install Apertium (Bokmål to Nynorsk)
         run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
 
-      - name: Generate the Nynorsk mirror and measure the languages
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py
+      - name: Generate the Nynorsk mirror, measure the languages, build the open data
+        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py
 
       - name: Build site
         run: bundle exec jekyll build --trace
@@ -110,8 +110,8 @@ jobs:
       - name: Install Apertium (Bokmål to Nynorsk)
         run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
 
-      - name: Generate the Nynorsk mirror and measure the languages
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py
+      - name: Generate the Nynorsk mirror, measure the languages, build the open data
+        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py
 
       - name: Build site
         run: bundle exec jekyll build --trace
@@ -141,8 +141,8 @@ jobs:
       - name: Install Apertium (Bokmål to Nynorsk)
         run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
 
-      - name: Generate the Nynorsk mirror and measure the languages
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py
+      - name: Generate the Nynorsk mirror, measure the languages, build the open data
+        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py
 
       - name: Build site
         run: bundle exec jekyll build --trace
@@ -169,8 +169,8 @@ jobs:
       - name: Install Apertium (Bokmål to Nynorsk)
         run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
 
-      - name: Generate the Nynorsk mirror and measure the languages
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py
+      - name: Generate the Nynorsk mirror, measure the languages, build the open data
+        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py
 
       - name: Build site
         run: bundle exec jekyll build --trace
@@ -198,8 +198,8 @@ jobs:
       - name: Install Apertium (Bokmål to Nynorsk)
         run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
 
-      - name: Generate the Nynorsk mirror and measure the languages
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py
+      - name: Generate the Nynorsk mirror, measure the languages, build the open data
+        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py
 
       - name: Build site
         run: bundle exec jekyll build --trace
@@ -237,8 +237,8 @@ jobs:
       - name: Install Apertium (Bokmål to Nynorsk)
         run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
 
-      - name: Generate the Nynorsk mirror and measure the languages
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py
+      - name: Generate the Nynorsk mirror, measure the languages, build the open data
+        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py
 
       - name: Build site
         run: bundle exec jekyll build --trace

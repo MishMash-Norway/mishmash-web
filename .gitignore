@@ -53,3 +53,7 @@ site/_data/nynorsk_status.yml
 # Internal plans, kept local (see plans/README.md)
 plans/
 site/_data/language_share.yml
+
+# Open data files built at deploy (scripts/build_open_data.py)
+site/data/*.json
+site/data/*.csv

@@ -19,7 +19,7 @@ Koden som bygger nettstedet, i [kodelageret på GitHub](https://github.com/MishM
 
 ## Data
 
-Datafilene nettstedet lager selv, som arrangementene, prosjektene, emneordene og resultatlisten slik den er satt sammen her, frigis under [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.no): ingen rettigheter forbeholdt. Fakta hentet fra [NVA](https://nva.sikt.no/), [ORCID](https://orcid.org/) og [Wikipedia](https://www.wikipedia.org/) beholder kildens vilkår, og kilden oppgis nederst på hver side.
+Datafilene nettstedet lager selv, som arrangementene, prosjektene, emneordene og resultatlisten slik den er satt sammen her, frigis under [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.no): ingen rettigheter forbeholdt. Fakta hentet fra [NVA](https://nva.sikt.no/), [ORCID](https://orcid.org/) og [Wikipedia](https://www.wikipedia.org/) beholder kildens vilkår, og kilden oppgis nederst på hver side. Datafilene ligger på siden med [åpne data](/no/data/).
 
 ## Bilder
 
