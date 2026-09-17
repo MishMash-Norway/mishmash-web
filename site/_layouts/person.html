@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign lang = page.lang | default: 'en' %}
-{% assign t = site.data.translations[lang] %}
+{% assign t = site.data.translations[lang] | default: site.data.translations_nn %}
 {% assign primary_institution_slug = page.institution %}
 {% unless primary_institution_slug %}{% assign primary_institution_slug = page.institutions | first %}{% endunless %}
 {% assign primary_institution_slug = primary_institution_slug | replace: '/institutions/', '' | replace: '/', '' %}

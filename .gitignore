@@ -42,3 +42,9 @@ _site_clean/
 # Visual regression output (tests/visual)
 playwright-report/
 test-results/
+
+# Generated Nynorsk mirror and translation cache (scripts/build_nynorsk.py)
+site/nn-auto/
+site/_data/translations_nn.yml
+site/_data/nynorsk_status.yml
+.nynorsk-cache/

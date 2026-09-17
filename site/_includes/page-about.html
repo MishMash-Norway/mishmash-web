@@ -1,5 +1,5 @@
 {% assign lang = page.lang | default: 'en' %}
-{% assign t = site.data.translations[lang] %}
+{% assign t = site.data.translations[lang] | default: site.data.translations_nn %}
 
 {% if page.page_about == false or page.hide_page_about %}
 

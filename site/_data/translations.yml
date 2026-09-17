@@ -1,6 +1,10 @@
 en:
   lang_name: "English"
   lang_code: "en"
+  lang_switch_label: "Language"
+  lang_switch_en: "English"
+  lang_switch_nb: "Norwegian, Bokmål"
+  lang_switch_nn: "Norwegian, Nynorsk"
   skip_to_content: "Skip to the content."
   project_name: "MishMash Centre for AI and Creativity"
   project_tagline: "A Norwegian Research Consortium"
@@ -110,6 +114,10 @@ en:
 nb:
   lang_name: "Norsk"
   lang_code: "nb"
+  lang_switch_label: "Språk"
+  lang_switch_en: "Engelsk"
+  lang_switch_nb: "Norsk, bokmål"
+  lang_switch_nn: "Norsk, nynorsk"
   skip_to_content: "Hopp til innholdet."
   project_name: "MishMash senter for KI og kreativitet"
   project_tagline: "Et norsk forskningskonsortium"

@@ -55,6 +55,12 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
+      - name: Install Apertium (Bokmål to Nynorsk)
+        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
+
+      - name: Generate the Nynorsk mirror
+        run: pip install -q PyYAML requests && python3 scripts/build_nynorsk.py
+
       - name: Build site
         run: bundle exec jekyll build --trace
 
@@ -71,6 +77,12 @@ jobs:
         with:
           ruby-version: '3.2'
           bundler-cache: true
+
+      - name: Install Apertium (Bokmål to Nynorsk)
+        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
+
+      - name: Generate the Nynorsk mirror
+        run: pip install -q PyYAML requests && python3 scripts/build_nynorsk.py
 
       - name: Build site
         run: bundle exec jekyll build --trace
@@ -94,6 +106,12 @@ jobs:
         with:
           ruby-version: '3.2'
           bundler-cache: true
+
+      - name: Install Apertium (Bokmål to Nynorsk)
+        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
+
+      - name: Generate the Nynorsk mirror
+        run: pip install -q PyYAML requests && python3 scripts/build_nynorsk.py
 
       - name: Build site
         run: bundle exec jekyll build --trace
@@ -120,6 +138,12 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
+      - name: Install Apertium (Bokmål to Nynorsk)
+        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
+
+      - name: Generate the Nynorsk mirror
+        run: pip install -q PyYAML requests && python3 scripts/build_nynorsk.py
+
       - name: Build site
         run: bundle exec jekyll build --trace
 
@@ -141,6 +165,12 @@ jobs:
         with:
           ruby-version: '3.2'
           bundler-cache: true
+
+      - name: Install Apertium (Bokmål to Nynorsk)
+        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
+
+      - name: Generate the Nynorsk mirror
+        run: pip install -q PyYAML requests && python3 scripts/build_nynorsk.py
 
       - name: Build site
         run: bundle exec jekyll build --trace
@@ -164,6 +194,12 @@ jobs:
         with:
           ruby-version: '3.2'
           bundler-cache: true
+
+      - name: Install Apertium (Bokmål to Nynorsk)
+        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
+
+      - name: Generate the Nynorsk mirror
+        run: pip install -q PyYAML requests && python3 scripts/build_nynorsk.py
 
       - name: Build site
         run: bundle exec jekyll build --trace
@@ -197,6 +233,12 @@ jobs:
         with:
           ruby-version: '3.2'
           bundler-cache: true
+
+      - name: Install Apertium (Bokmål to Nynorsk)
+        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
+
+      - name: Generate the Nynorsk mirror
+        run: pip install -q PyYAML requests && python3 scripts/build_nynorsk.py
 
       - name: Build site
         run: bundle exec jekyll build --trace

@@ -1,0 +1,26 @@
+# Glossary for the automatic Bokmål to Nynorsk translation (scripts/build_nynorsk.py).
+# keep: words and names the translator must pass through untouched.
+# replace: substitutions applied to the Nynorsk output, for terms the centre wants
+#          in one fixed form. Left side is what the translator produces, right side
+#          is what the site should say.
+keep:
+  - MishMash
+  - MeshUp
+  - MeshUps
+  - Kilden
+  - Kunstsilo
+  - Kraftverk
+  - Freesound
+  - Wikidata
+  - Wikipedia
+  - GitHub
+  - JavaScript
+  - Pa11y
+  - Lighthouse
+  - NVA
+  - ORCID
+  - WCAG
+  - Zoom
+replace:
+  "Senter for KI og kreativitet": "Senter for KI og kreativitet"
+  "Forskningsrådet": "Forskingsrådet"

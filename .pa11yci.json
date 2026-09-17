@@ -56,6 +56,9 @@
     "http://127.0.0.1:4000/no/results/pulse/",
     "http://127.0.0.1:4000/no/accessibility/",
     "http://127.0.0.1:4000/no/privacy/",
-    "http://127.0.0.1:4000/no/gallery/"
+    "http://127.0.0.1:4000/no/gallery/",
+    "http://127.0.0.1:4000/nn/",
+    "http://127.0.0.1:4000/nn/accessibility/",
+    "http://127.0.0.1:4000/nn/about/description/"
   ]
 }

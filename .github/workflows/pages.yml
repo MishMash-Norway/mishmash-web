@@ -43,6 +43,12 @@ jobs:
       - name: Build chat knowledge base
         run: python3 scripts/build_knowledge_base.py
 
+      - name: Install Apertium (Bokmål to Nynorsk)
+        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
+
+      - name: Generate the Nynorsk mirror
+        run: pip install -q PyYAML requests && python3 scripts/build_nynorsk.py
+
       - name: Build site
         run: bundle exec jekyll build --trace
 
