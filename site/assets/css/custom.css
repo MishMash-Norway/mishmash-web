@@ -1817,29 +1817,6 @@ a:focus-visible .icon {
   margin: 0;
 }
 
-.mm-lab-list {
-  list-style: none;
-  padding: 0;
-}
-
-.mm-lab-list li {
-  padding: 0.75rem 0;
-  border-top: 1px solid var(--mm-ink-15);
-}
-
-.mm-lab-list li > a {
-  font-family: var(--mm-font-display);
-  font-weight: var(--mm-display-weight);
-  font-size: 1.4rem;
-}
-
-.mm-lab-byline {
-  color: var(--mm-ink-70);
-}
-
-.mm-lab-list p {
-  margin: 0.25rem 0 0;
-}
 
 /* Heritage objects (_includes/heritage.html) */
 .mm-heritage {
