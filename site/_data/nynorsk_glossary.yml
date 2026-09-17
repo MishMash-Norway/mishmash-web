@@ -24,5 +24,9 @@ keep:
   - rosa
   - Rosa
 replace:
-  "Senter for KI og kreativitet": "Senter for KI og kreativitet"
+  # "KI" is protected as an acronym, so the translator sees "Senter for" as a
+  # chunk on its own and the e-infinitive pass misreads the dangling "for" as
+  # the verb "fór".
+  "Senter fór KI": "Senter for KI"
+  "senter fór KI": "senter for KI"
   "Forskningsrådet": "Forskingsrådet"
