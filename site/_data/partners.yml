@@ -131,8 +131,8 @@
 # - name: GRAMO
   # url: https://en.gramo.no/
   # url_nb: https://no.gramo.no/
-# - name: Halogen AS
-  # url: https://halogen.no/en/
+  - name: Halogen
+    url: https://halogen.no/en/
   # url_nb: https://halogen.no/
 # - name: Hamarregionen utvikling
   # url: https://hamarregionen.no/move-to-the-hamar-region/
