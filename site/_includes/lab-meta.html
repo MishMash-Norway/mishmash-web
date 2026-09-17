@@ -4,7 +4,7 @@
   front matter; see site/lab/_template/index.md.
 {% endcomment %}
 {% assign lang = page.lang | default: 'en' %}
-{% assign t = site.data.translations[lang] | default: site.data.translations_nn %}
+{% assign tkey = 'translations_' | append: lang %}{% assign t = site.data.translations[lang] | default: site.data[tkey] %}
 {% assign lab = page.lab %}
 <aside class="mm-lab-meta" aria-label="{{ t.lab_label }}">
   <p class="mm-lab-line">

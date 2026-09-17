@@ -1,5 +1,5 @@
 {% assign lang = page.lang | default: 'en' %}
-{% assign t = site.data.translations[lang] | default: site.data.translations_nn %}
+{% assign tkey = 'translations_' | append: lang %}{% assign t = site.data.translations[lang] | default: site.data[tkey] %}
 {% assign data = site.data.mishmash_results %}
 
 {% if data and data.results and data.results.size > 0 %}

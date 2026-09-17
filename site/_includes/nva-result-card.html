@@ -1,5 +1,5 @@
 {% assign lang = page.lang | default: 'en' %}
-{% assign t = site.data.translations[lang] | default: site.data.translations_nn %}
+{% assign tkey = 'translations_' | append: lang %}{% assign t = site.data.translations[lang] | default: site.data[tkey] %}
 {% if include.result %}
   {% assign cite = include.result.citation %}
   {% assign result_url = include.result.url | default: cite.nva_url | default: include.result.nva_url %}

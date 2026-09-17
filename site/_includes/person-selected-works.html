@@ -1,5 +1,5 @@
 {% assign lang = page.lang | default: 'en' %}
-{% assign t = site.data.translations[lang] | default: site.data.translations_nn %}
+{% assign tkey = 'translations_' | append: lang %}{% assign t = site.data.translations[lang] | default: site.data[tkey] %}
 {% assign mishmash_results = site.data.mishmash_results.results %}
 {% assign works_limit = include.limit | default: 20 %}
 {% assign ordered_type_slugs = "" %}
