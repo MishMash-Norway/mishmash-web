@@ -36,6 +36,34 @@
     OpenSeadragon({ id: id, prefixUrl: OSD_PREFIX, tileSources: infoUrl, showNavigationControl: true, gestureSettingsMouse: { scrollToZoom: false }, crossOriginPolicy: 'Anonymous' });
   }
 
+  /* DigitaltMuseum names its museums by code (BOB, NMK-B). The list of 285
+     codes is fetched once per session and kept, so an object says which
+     museum holds it rather than showing a code. */
+  var ownersPromise = null;
+  function ownerName(code) {
+    if (!code) return Promise.resolve('');
+    if (!ownersPromise) {
+      var cached = null;
+      try { cached = sessionStorage.getItem('mm-dimu-owners'); } catch (e) {}
+      ownersPromise = cached
+        ? Promise.resolve(JSON.parse(cached))
+        : fetch('https://api.dimu.org/api/owners?api.key=' + DIMU_KEY)
+            .then(function (r) { return r.text(); })
+            .then(function (xml) {
+              var map = {};
+              var doc = new DOMParser().parseFromString(xml, 'application/xml');
+              Array.prototype.forEach.call(doc.getElementsByTagName('owner'), function (o) {
+                var id = o.getElementsByTagName('identifier')[0], nm = o.getElementsByTagName('name')[0];
+                if (id && nm) map[id.textContent] = nm.textContent;
+              });
+              try { sessionStorage.setItem('mm-dimu-owners', JSON.stringify(map)); } catch (e) {}
+              return map;
+            })
+            .catch(function () { return {}; });
+    }
+    return ownersPromise.then(function (map) { return map[code] || code; });
+  }
+
   function link(href, label) { var a = document.createElement('a'); a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = label; return a; }
 
   function loadNb(fig, id) {
@@ -74,12 +102,15 @@
         else showImage(media, 'https://dms-cf-01.dimu.org/image/' + pic.identifier + '?dimension=1200x1200', t);
       }
       var lic = (pic && pic.licenses && pic.licenses[0]) || (a.licenses && a.licenses[0]) || null;
-      var parts = [];
-      if (pic && pic.photographer) parts.push('Photo: ' + pic.photographer);
-      if (lic) parts.push(lic.code || lic.description || '');
-      parts.push((a.identifier && a.identifier.owner) || '');
-      rights.textContent = parts.filter(Boolean).join(' · ') + ' · ';
-      rights.appendChild(link('https://digitaltmuseum.org/' + (a.dimuCode || a.uniqueId), 'DigitaltMuseum'));
+      var code = (a.identifier && a.identifier.owner) || '';
+      return ownerName(code).then(function (owner) {
+        var parts = [];
+        if (pic && pic.photographer) parts.push('Photo: ' + pic.photographer);
+        if (lic) parts.push(lic.code || lic.description || '');
+        if (owner) parts.push(owner);
+        rights.textContent = parts.filter(Boolean).join(' · ') + ' · ';
+        rights.appendChild(link('https://digitaltmuseum.org/' + (a.dimuCode || a.uniqueId), 'DigitaltMuseum'));
+      });
     });
   }
 
