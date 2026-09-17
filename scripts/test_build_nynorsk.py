@@ -5,7 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from build_nynorsk import MARK_RE, apply_replacements, nn_permalink, segment, split_front_matter, transform_page, translate_text
+from build_nynorsk import strip_marks, apply_replacements, nn_permalink, segment, split_front_matter, transform_page, translate_text
 
 
 class FakeTranslator:
@@ -37,7 +37,7 @@ class SegmentTests(unittest.TestCase):
         self.assertEqual(out, "SE **FET** TEKST OM MishMash I [LENKE](/x/).\n\n- PUNKT")
 
     def test_marks_are_removed_but_headings_kept(self):
-        self.assertEqual(MARK_RE.sub("", "## Overskrift og #liste her"), "## Overskrift og liste her")
+        self.assertEqual(strip_marks("## Overskrift og #liste her\ngå# tapt, 2.1 # og vere#"), "## Overskrift og liste her\ngå tapt, 2.1  og vere")
 
     def test_replacements(self):
         self.assertEqual(apply_replacements("FORSKNINGSRÅDET gir", GLOSSARY["replace"]), "Forskingsrådet gir")

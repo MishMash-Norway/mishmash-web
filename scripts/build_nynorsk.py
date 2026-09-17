@@ -65,7 +65,20 @@ PROTECT = [
 ]
 SEP = "XQSEPX"
 SEP_RE = re.compile(r"\s*XQSEPX\s*")
-MARK_RE = re.compile(r"(?<![\w#])#(?=[^\s#])")   # the translator's generation-failure mark, never a Markdown heading
+HEADING_RE = re.compile(r"^#{1,6}\s")
+
+
+def strip_marks(text: str) -> str:
+    """Remove the translator's generation-failure marks (#) from translated text.
+    A Markdown heading marker at the start of a line is kept."""
+    out = []
+    for line in text.split("\n"):
+        m = HEADING_RE.match(line)
+        if m:
+            out.append(m.group(0) + line[m.end():].replace("#", ""))
+        else:
+            out.append(line.replace("#", ""))
+    return "\n".join(out)
 
 
 def load_glossary() -> dict:
@@ -163,7 +176,7 @@ def translate_text(text: str, tr: Translator, glossary: dict) -> str:
     for (i, original), piece in zip(todo, pieces):
         lead = original[: len(original) - len(original.lstrip())]
         trail = original[len(original.rstrip()):]
-        result[i] = lead + MARK_RE.sub("", piece.strip()) + trail
+        result[i] = lead + strip_marks(piece.strip()) + trail
     return apply_replacements("".join(result), glossary["replace"])
 
 
