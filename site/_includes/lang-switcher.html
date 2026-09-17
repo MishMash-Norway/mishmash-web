@@ -7,10 +7,11 @@
 {% assign sw_en = lang_en_url | default: '/' %}
 {% assign sw_nb = lang_nb_url | default: '/no/' %}
 {% assign sw_nn = lang_nn_url | default: '/nn/' %}
-<div class="lang-switcher" role="group" aria-label="{{ t.lang_switch_label }}">
-  {% if current_lang == 'en' %}<span class="lang-active" aria-current="true" lang="en">EN</span>{% else %}<a class="lang-option" href="{{ sw_en | relative_url }}" hreflang="en" lang="en" aria-label="{{ t.lang_switch_en }}">EN</a>{% endif %}
-  <span class="lang-sep">|</span>
-  {% if current_lang == 'nb' %}<span class="lang-active" aria-current="true" lang="nb">NB</span>{% else %}<a class="lang-option" href="{{ sw_nb | relative_url }}" hreflang="nb" lang="nb" aria-label="{{ t.lang_switch_nb }}">NB</a>{% endif %}
-  <span class="lang-sep">|</span>
-  {% if current_lang == 'nn' %}<span class="lang-active" aria-current="true" lang="nn">NN</span>{% else %}<a class="lang-option" href="{{ sw_nn | relative_url }}" hreflang="nn" lang="nn" aria-label="{{ t.lang_switch_nn }}">NN</a>{% endif %}
-</div>
+<details class="btn wp-dropdown lang-switcher">
+  <summary id="language-summary" aria-haspopup="true" aria-expanded="false" aria-label="{{ t.lang_switch_label }}" aria-controls="language-menu">{{ t.lang_switch_label }} ▾</summary>
+  <ul id="language-menu" class="wp-list" role="menu" aria-labelledby="language-summary">
+    <li role="none">{% if current_lang == 'en' %}<span class="lang-active" aria-current="true" lang="en">{{ t.lang_switch_en }}</span>{% else %}<a role="menuitem" href="{{ sw_en | relative_url }}" hreflang="en" lang="en">{{ t.lang_switch_en }}</a>{% endif %}</li>
+    <li role="none">{% if current_lang == 'nb' %}<span class="lang-active" aria-current="true" lang="nb">{{ t.lang_switch_nb }}</span>{% else %}<a role="menuitem" href="{{ sw_nb | relative_url }}" hreflang="nb" lang="nb">{{ t.lang_switch_nb }}</a>{% endif %}</li>
+    <li role="none">{% if current_lang == 'nn' %}<span class="lang-active" aria-current="true" lang="nn">{{ t.lang_switch_nn }}</span>{% else %}<a role="menuitem" href="{{ sw_nn | relative_url }}" hreflang="nn" lang="nn">{{ t.lang_switch_nn }}</a>{% endif %}</li>
+  </ul>
+</details>

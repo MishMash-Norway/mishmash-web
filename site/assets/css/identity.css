@@ -161,36 +161,6 @@ body {
 .mm-section-blue .wp-dropdown .wp-list a:hover   { background: var(--mm-blue-tint); }
 .mm-section-pink .wp-dropdown .wp-list a:hover   { background: var(--mm-pink-tint); }
 
-.page-header .lang-switcher {
-  background: transparent;
-  border: 2px solid var(--mm-ink);
-  border-radius: var(--mm-radius);
-  padding: 0.4rem 0.6rem;
-  margin: 0;
-  font-family: var(--mm-font-display);
-  font-weight: var(--mm-display-weight);
-  font-size: 1rem;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-
-.page-header .lang-switcher .lang-active,
-.page-header .lang-switcher .lang-sep {
-  color: var(--mm-ink);
-}
-
-.page-header .lang-switcher .lang-option {
-  color: var(--mm-ink) !important;
-  text-decoration: underline !important;
-  text-underline-offset: 0.15em;
-}
-
-.page-header .lang-switcher .lang-option:hover,
-.page-header .lang-switcher .lang-option:focus-visible {
-  color: var(--mm-ink) !important;
-}
-
 /* ---------- Content ---------- */
 
 .main-content {
