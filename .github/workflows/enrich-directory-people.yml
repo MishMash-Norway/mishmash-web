@@ -44,6 +44,9 @@ jobs:
       - name: Sync deposits from Zenodo
         run: python3 scripts/sync_results_from_zenodo.py
 
+      - name: Collect posts from member feeds
+        run: python3 scripts/fetch_member_feeds.py
+
       - name: Resolve Wikidata identifiers and facts
         continue-on-error: true
         run: python3 scripts/sync_wikidata.py
