@@ -53,6 +53,10 @@ If you want to change something, create a branch and open a pull request so the 
 
 The visual identity (wordmark, colours, type) is documented in [BRAND.md](BRAND.md) and shown at [mishmash.no/about/brand/](https://mishmash.no/about/brand/); stylesheets use the tokens in `site/assets/css/brand.css`. The look can be swapped: any theme in `themes/` can be promoted to become the main site with `./scripts/ui promote <name>`, and the outgoing look is kept as a theme. The pre-2026 look is the `bubbles` theme at [mishmash.no/ui/bubbles/](https://mishmash.no/ui/bubbles/). Details: [Visual Identity and Theming][brand] and [themes/README.md](themes/README.md).
 
+## Licences
+
+The code in this repository (scripts, layouts, includes, stylesheets, JavaScript and themes) is under the [MIT licence](LICENSE). The text of the website is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), the site's own data files are [CC0](https://creativecommons.org/publicdomain/zero/1.0/), and images carry their own terms. Personal data in the directory is published under the site's privacy notice, not a licence. The full terms are in the communication strategy on the site.
+
 ## Questions and comments
 
 If you have questions or comments about the code, please use the [issues tracker](https://github.com/MishMash-Norway/mishmash-web/issues). For general things, write to contact@mishmash.no.
