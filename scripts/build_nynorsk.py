@@ -6,7 +6,9 @@ variant (moderate Nynorsk, "vi"), unless a reviewed Nynorsk page exists at the
 same path under site/nn/, in which case the reviewed page wins and the
 generated one is skipped. Generated pages go to site/nn-auto/ (ignored by git)
 with permalinks under /nn/, carry the site's automatic-translation mark in the
-footer, and link to the Bokmål page they come from. The UI strings for Nynorsk
+footer and the experiment notice at the top (_includes/nynorsk-note.html,
+rendered by the default layout for pages with translation.automatic), and link
+to the Bokmål page they come from. The UI strings for Nynorsk
 are generated the same way into site/_data/translations_nn.yml.
 
 Liquid tags, code, link targets, HTML tags, Markdown emphasis markers, acronyms

@@ -232,6 +232,17 @@ body {
   margin: 0.25rem 0;
 }
 
+/* Notice on automatically translated Nynorsk pages (nynorsk-note.html) */
+.nynorsk-note {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--mm-yellow);
+  background: var(--mm-yellow-tint);
+}
+.nynorsk-note p {
+  margin: 0;
+}
+
 /* Event list styles (thumbnails and layout) */
 .event-item {
   display: flex;

@@ -28,6 +28,12 @@ MishMash forsker på kreativ bruk av KI — og bruker KI, helt åpent, i arbeide
 2. **Ingenting skjules.** KI-bruk erklæres her, merkes på oversatte sider og kan spores i den åpne [commit-historikken](https://github.com/MishMash-Norway/mishmash-web/commits/main).
 3. **Det er et eksperiment.** Å bygge vår egen kommunikasjonskanal med KI-basert assistanse er en del av MishMash sin forskningspraksis. Det er en måte å *skape, utforske og reflektere* over verktøyene vi forsker på. Det vi lærer føres tilbake til senterets forskning og undervisning.
 
+## Nynorsk-eksperimentet
+
+Nynorskutgaven av nettstedet (sidene under `/nn/`) lages automatisk: hver bokmålsside oversettes ved bygging med det regelbaserte, åpne oversettelsesverktøyet [Apertium](https://github.com/apertium/apertium-nno-nob) (nob–nno, moderat norm), samme motor som NPK og NRK bruker for nynorsk. Hver generert side merkes med en boks øverst og lenker til bokmålsoriginalen. En håndkorrigert side under `site/nn/` i kildekoden vinner alltid over den genererte.
+
+Vi publiserer utgaven vel vitende om at den inneholder feil. Det er hele poenget: MishMash vil teste ting i det åpne, avdekke problemer og rette dem — både i våre egne og i underliggende systemer. Det er en del av MishMash-DNA-et. Finner du en feil, bruk «Foreslå en endring» i bunnteksten, så retter vi verktøyene eller siden.
+
 {% include ai-colophon-commits.html lang="nb" %}
 
 Mer om tankene bak nettstedet: [nettfilosofien](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) i prosjektwikien og senterets [kommunikasjonsstrategi](/no/internal/kommunikasjonsstrategi/). Spørsmål eller innspill: [contact@mishmash.no](mailto:contact@mishmash.no).

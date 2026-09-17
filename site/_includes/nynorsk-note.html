@@ -1,0 +1,16 @@
+{% comment %}
+  Notice at the top of every automatically generated Nynorsk page (see
+  scripts/build_nynorsk.py). Hand-written Nynorsk on purpose: the UI strings in
+  translations_nn.yml are themselves machine translated, and this note is the
+  one place that must read correctly. Reviewed pages under site/nn/ do not
+  carry translation.automatic and never show it.
+{% endcomment %}
+<div class="nynorsk-note" role="note">
+  <p>
+    <strong>Eit eksperiment:</strong> Denne sida er omsett automatisk frå
+    <a href="{{ page.translation.source_url | relative_url }}">bokmålsutgåva</a> og kan innehalde feil.
+    MishMash vil prøve ut ny teknologi i det opne — teste, avdekkje problem og rette dei,
+    både i våre eigne og i underliggjande system. Det er ein del av MishMash-DNA-et.
+    <a href="{{ '/nn/about/ai-colophon/' | relative_url }}">Slik blir nynorsksidene laga.</a>
+  </p>
+</div>

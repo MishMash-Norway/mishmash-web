@@ -28,6 +28,12 @@ MishMash studies creative uses of AI — and uses AI, openly, in making this web
 2. **Nothing is hidden.** AI involvement is declared here, marked on translated pages, and traceable in the open [commit history](https://github.com/MishMash-Norway/mishmash-web/commits/main).
 3. **It is an experiment.** Building our own communication channel with AI-based assistance is part of MishMash's research practice. It is a way to *create, explore, and reflect* on the tools we study. What we learn feeds back into the centre's research and teaching.
 
+## The Nynorsk experiment
+
+The Nynorsk edition of the site (the pages under `/nn/`) is generated automatically: every Bokmål page is translated at build time with the rule-based, open-source [Apertium](https://github.com/apertium/apertium-nno-nob) engine (nob–nno, moderate norm) — the same engine the Norwegian press agency NPK and NRK use for Nynorsk. Every generated page is marked with a notice at the top and links back to its Bokmål original. A hand-corrected page under `site/nn/` in the source always wins over the generated one.
+
+We publish the edition knowing it contains errors. That is the point: MishMash wants to test things in the open, expose problems, and fix them — in our own systems and in the underlying ones. It is part of the MishMash DNA. If you spot a mistake, use "Suggest a change" in the footer and we fix the tooling or the page.
+
 {% include ai-colophon-commits.html lang="en" %}
 
 More about the thinking behind the site: the [web philosophy](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) in the project wiki and the centre's [communication strategy](/internal/communication-strategy/). Questions or concerns: [contact@mishmash.no](mailto:contact@mishmash.no).

@@ -142,6 +142,7 @@
     </header>
 
     <main id="main-content" class="main-content" role="main">
+      {% if lang == 'nn' and page.translation.automatic %}{% include nynorsk-note.html %}{% endif %}
       {% if page.adaptive %}{% include audience-switcher.html %}{% endif %}
       {{ content }}
 
