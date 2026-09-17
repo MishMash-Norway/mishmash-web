@@ -20,6 +20,7 @@ urls:
   website: https://www.umk.pl/en/
   wikipedia: https://en.wikipedia.org/wiki/Nicolaus_Copernicus_University_in_Toru%C5%84
   wikidata: https://www.wikidata.org/wiki/Q1752712
+  ror: https://ror.org/0102mm775
 aliases:
 - Nicolaus Copernicus University in Toruń
 - Uniwersytet Mikołaja Kopernika w Toruniu

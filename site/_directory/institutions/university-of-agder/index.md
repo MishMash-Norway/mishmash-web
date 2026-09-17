@@ -40,6 +40,7 @@ urls:
   website: https://www.uia.no/english/index.html
   wikipedia: https://en.wikipedia.org/wiki/University_of_Agder
   wikidata: https://www.wikidata.org/wiki/Q1470769
+  ror: https://ror.org/03x297z98
 aliases:
 - Universitetet i Agder
 - University of Agder (UiA), Norway

@@ -16,6 +16,7 @@ urls:
   website: https://www.unimelb.edu.au/
   wikipedia: https://en.wikipedia.org/wiki/University_of_Melbourne
   wikidata: https://www.wikidata.org/wiki/Q319078
+  ror: https://ror.org/01ej9dk98
 aliases: []
 tags: []
 search_keywords: []

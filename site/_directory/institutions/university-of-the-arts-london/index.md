@@ -19,6 +19,7 @@ urls:
   website: https://www.arts.ac.uk/
   wikipedia: https://en.wikipedia.org/wiki/University_of_the_Arts_London
   wikidata: https://www.wikidata.org/wiki/Q2065666
+  ror: https://ror.org/04cnfrn26
 aliases:
 - UAL
 tags: []

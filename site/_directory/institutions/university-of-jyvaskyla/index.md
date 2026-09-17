@@ -16,6 +16,7 @@ urls:
   website: https://www.jyu.fi/en
   wikipedia: https://en.wikipedia.org/wiki/University_of_Jyv%C3%A4skyl%C3%A4
   wikidata: https://www.wikidata.org/wiki/Q578326
+  ror: https://ror.org/05n3dz165
 aliases:
 - Jyväskylän yliopisto
 - JYU

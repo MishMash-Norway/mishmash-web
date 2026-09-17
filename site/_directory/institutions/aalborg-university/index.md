@@ -18,6 +18,7 @@ urls:
   website: https://www.aau.dk/
   wikipedia: https://en.wikipedia.org/wiki/Aalborg_University
   wikidata: https://www.wikidata.org/wiki/Q601956
+  ror: https://ror.org/04m5j1k67
 aliases: []
 tags: []
 search_keywords: []

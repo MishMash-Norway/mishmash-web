@@ -21,6 +21,7 @@ urls:
   website: https://www.hi.is/en
   wikipedia: https://en.wikipedia.org/wiki/University_of_Iceland
   wikidata: https://www.wikidata.org/wiki/Q196559
+  ror: https://ror.org/01db6h964
 aliases: []
 tags: []
 search_keywords: []

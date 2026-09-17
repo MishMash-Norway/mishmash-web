@@ -24,6 +24,7 @@ urls:
   website: https://www.hiof.no/english/
   wikipedia: https://en.wikipedia.org/wiki/%C3%98stfold_University_College
   wikidata: https://www.wikidata.org/wiki/Q616752
+  ror: https://ror.org/04gf7fp41
 aliases:
 - Østfold University of Applied Sciences
 tags: []

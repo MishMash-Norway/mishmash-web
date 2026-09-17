@@ -28,6 +28,7 @@ urls:
   website: https://www.hvl.no/en/
   wikipedia: https://en.wikipedia.org/wiki/Western_Norway_University_of_Applied_Sciences
   wikidata: https://www.wikidata.org/wiki/Q25434874
+  ror: https://ror.org/05phns765
 aliases:
 - Høgskulen på Vestlandet
 tags: []

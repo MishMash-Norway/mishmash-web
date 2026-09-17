@@ -18,6 +18,7 @@ urls:
   website: https://www.mh-luebeck.de/en/
   wikipedia: https://en.wikipedia.org/wiki/L%C3%BCbeck_Academy_of_Music
   wikidata: https://www.wikidata.org/wiki/Q513622
+  ror: https://ror.org/021f61w41
 aliases:
 - Musikhochschule Lubeck
 - Musikhochschule Lübeck

@@ -30,6 +30,7 @@ urls:
   website: https://www.nord.no/en
   wikipedia: https://en.wikipedia.org/wiki/Nord_University
   wikidata: https://www.wikidata.org/wiki/Q21079372
+  ror: https://ror.org/030mwrt98
 aliases: []
 tags: []
 search_keywords: []

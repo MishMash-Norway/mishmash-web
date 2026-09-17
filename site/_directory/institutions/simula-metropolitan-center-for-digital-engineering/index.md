@@ -19,6 +19,7 @@ urls:
   website: https://www.simulamet.no/
   wikipedia: https://en.wikipedia.org/wiki/Simula_Research_Laboratory
   wikidata: https://www.wikidata.org/wiki/Q7521282
+  ror: https://ror.org/00vn06n10
 aliases: []
 tags: []
 search_keywords: []

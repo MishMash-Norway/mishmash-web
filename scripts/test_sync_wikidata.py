@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import unittest
+from sync_wikidata import fill_entry_from_facts
 
 import sync_wikidata as sw
 
@@ -43,6 +44,20 @@ class HelperTests(unittest.TestCase):
     def test_qid_to_url_rejects_garbage(self):
         with self.assertRaises(AssertionError):
             sw.qid_to_url("not-a-qid")
+
+
+class FillFromFactsTests(unittest.TestCase):
+    def test_adds_missing_ror_and_website_only(self):
+        data = {"urls": {"website": "https://www.uio.no/", "ror": ""}}
+        changed = fill_entry_from_facts(data, {"ror": "01xtthb56", "website": "https://uio.no"})
+        self.assertTrue(changed)
+        self.assertEqual(data["urls"]["ror"], "https://ror.org/01xtthb56")
+        self.assertEqual(data["urls"]["website"], "https://www.uio.no/")   # curated value kept
+
+    def test_no_change_when_nothing_to_add(self):
+        data = {"urls": {"ror": "https://ror.org/x", "website": "https://a"}}
+        self.assertFalse(fill_entry_from_facts(data, {"ror": "y", "website": "https://b"}))
+        self.assertEqual(data["urls"]["ror"], "https://ror.org/x")
 
 
 if __name__ == "__main__":

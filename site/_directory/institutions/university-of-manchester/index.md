@@ -18,6 +18,7 @@ urls:
   website: https://www.manchester.ac.uk/
   wikipedia: https://en.wikipedia.org/wiki/University_of_Manchester
   wikidata: https://www.wikidata.org/wiki/Q230899
+  ror: https://ror.org/027m9bs27
 summary: The University of Manchester is a public research university in Manchester,
   England, with its main campus south of the city centre on Oxford Road. It is a red
   brick university, a product of the civic university movement of the late 19th century.

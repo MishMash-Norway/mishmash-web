@@ -34,6 +34,7 @@ urls:
   website: https://www.ntnu.edu/
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_University_of_Science_and_Technology
   wikidata: https://www.wikidata.org/wiki/Q314536
+  ror: https://ror.org/05xg72x27
 aliases:
 - Norges teknisk-naturvitenskapelige universitet
 tags: []

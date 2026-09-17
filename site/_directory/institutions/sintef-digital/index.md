@@ -22,6 +22,7 @@ urls:
   website: https://www.sintef.no/en/
   wikipedia: https://en.wikipedia.org/wiki/SINTEF
   wikidata: https://www.wikidata.org/wiki/Q3041255
+  ror: https://ror.org/01f677e56
 summary: SINTEF, headquartered in Trondheim, Norway, is an independent research organization
   founded in 1950 that conducts contract research and development projects. SINTEF
   has 2000 employees from 75 countries and annual revenues of three billion Norwegian

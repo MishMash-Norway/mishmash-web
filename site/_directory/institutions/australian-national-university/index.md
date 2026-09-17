@@ -18,6 +18,7 @@ urls:
   website: https://www.anu.edu.au/
   wikipedia: https://en.wikipedia.org/wiki/Australian_National_University
   wikidata: https://www.wikidata.org/wiki/Q127990
+  ror: https://ror.org/019wvm592
 aliases: []
 tags: []
 search_keywords: []

@@ -45,6 +45,7 @@ urls:
   website: https://www.uib.no/en
   wikipedia: https://en.wikipedia.org/wiki/University_of_Bergen
   wikidata: https://www.wikidata.org/wiki/Q204457
+  ror: https://ror.org/03zga2b32
 aliases:
 - Universitetet i Bergen
 tags: []

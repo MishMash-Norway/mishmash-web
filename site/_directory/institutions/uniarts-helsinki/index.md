@@ -21,6 +21,7 @@ urls:
   website: https://www.uniarts.fi/en
   wikipedia: https://en.wikipedia.org/wiki/Uniarts_Helsinki
   wikidata: https://www.wikidata.org/wiki/Q4352418
+  ror: https://ror.org/05anqtc62
 aliases: []
 tags: []
 search_keywords: []

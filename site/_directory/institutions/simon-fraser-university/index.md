@@ -19,6 +19,7 @@ urls:
   website: https://www.sfu.ca/
   wikipedia: https://en.wikipedia.org/wiki/Simon_Fraser_University
   wikidata: https://www.wikidata.org/wiki/Q201603
+  ror: https://ror.org/0213rcc28
 aliases:
 - SFU
 tags: []

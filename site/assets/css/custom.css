@@ -1895,3 +1895,13 @@ a:focus-visible .icon {
   color: var(--mm-ink-70);
   font-style: italic;
 }
+
+/* Institution logo pulled from Wikimedia Commons when the entry has no image of its own */
+.institution-logo {
+  display: block;
+  max-width: 160px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  margin: 0.5rem 0 0;
+}

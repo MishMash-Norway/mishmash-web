@@ -26,6 +26,7 @@ urls:
   website: https://www.bi.edu/
   wikipedia: https://en.wikipedia.org/wiki/BI_Norwegian_Business_School
   wikidata: https://www.wikidata.org/wiki/Q604629
+  ror: https://ror.org/03ez40v33
 aliases: []
 tags: []
 search_keywords: []

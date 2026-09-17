@@ -18,6 +18,7 @@ urls:
   website: https://www.cam.ac.uk/
   wikipedia: https://en.wikipedia.org/wiki/University_of_Cambridge
   wikidata: https://www.wikidata.org/wiki/Q35794
+  ror: https://ror.org/013meh722
 summary: The University of Cambridge is a collegiate public research university in
   Cambridge, England. Founded in 1209, the University of Cambridge is the second-oldest
   university in the English-speaking world and the world's third-oldest university

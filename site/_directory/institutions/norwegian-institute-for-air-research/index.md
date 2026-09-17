@@ -20,6 +20,7 @@ urls:
   website: https://nilu.no/
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_Institute_for_Air_Research
   wikidata: https://www.wikidata.org/wiki/Q876791
+  ror: https://ror.org/00q7d9z06
 aliases:
 - NILU
 tags: []

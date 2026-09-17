@@ -20,6 +20,7 @@ urls:
   website: https://www.kth.se/en
   wikipedia: https://en.wikipedia.org/wiki/KTH_Royal_Institute_of_Technology
   wikidata: https://www.wikidata.org/wiki/Q854280
+  ror: https://ror.org/026vcq606
 aliases:
 - Department of Speech, Music and Hearing, KTH Royal Institute of Technology
 - Royal Institute of Technology

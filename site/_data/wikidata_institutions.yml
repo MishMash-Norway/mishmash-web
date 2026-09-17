@@ -6,16 +6,18 @@ aalborg-university:
     lat: 57.015
     lon: 9.985
   inception: '1974-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/Universit%C3%A4t%20Aalborg%20Logo.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Universit%C3%A4t%20Aalborg%20Logo.svg
   qid: Q601956
-  website: https://www.aau.dk
+  ror: 04m5j1k67
+  website: https://www.en.aau.dk
 aalto-university:
   coordinates:
     lat: 60.186111
     lon: 24.828611
   inception: '2010-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/Aalto%20University%20logo%20tri-lingual%20version.png
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Aalto%20University%20logo%20tri-lingual%20version.png
   qid: Q300980
+  ror: 020hwjq30
   website: https://www.aalto.fi/
 arctic-university-of-norway:
   coordinates:
@@ -23,57 +25,66 @@ arctic-university-of-norway:
     lon: 18.973133333
   inception: '1968-01-01'
   qid: Q279724
-  website: https://en.uit.no/startsida
+  ror: 00wge5k78
+  website: https://uit.no
 australian-national-university:
   coordinates:
     lat: -35.2778
     lon: 149.1205
   inception: '1947-02-07'
   qid: Q127990
+  ror: 019wvm592
+  short_name: ANU
   website: https://www.anu.edu.au/
 barratt-due-institute-of-music:
   coordinates:
-    lat: 59.92863056
-    lon: 10.72739722
+    lat: 59.928589
+    lon: 10.728307
   inception: '1927-01-01'
   qid: Q4863263
-  website: http://www.barrattdue.no
+  ror: 05dqc2261
+  website: http://www.barrattdue.no/eng/
 bi-norwegian-business-school:
   coordinates:
     lat: 59.948611111
     lon: 10.768055555
   inception: '1943-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/BI%20Norwegian%20Business%20School%20logo.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/BI%20Norwegian%20Business%20School%20logo.svg
   qid: Q604629
+  ror: 03ez40v33
   website: http://www.bi.no/
 ghent-university:
   coordinates:
-    lat: 51.043888888
-    lon: 3.726111111
+    lat: 51.04702
+    lon: 3.72785
   inception: '1817-10-09'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/Universiteit%20Gent%20logo.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Universiteit%20Gent%20logo.svg
   qid: Q1137665
+  ror: 00cv9y106
   website: https://www.ugent.be/
 institute-for-energy-technology:
   inception: '1948-01-01'
   qid: Q1777633
+  ror: 02jqtg033
   website: http://ife.no
 kristiania-university-college:
   coordinates:
     lat: 59.911163
     lon: 10.745064
   inception: '1914-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B8yskolen%20Kristiania%20logo.png
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B8yskolen%20Kristiania%20logo.png
   qid: Q5028646
-  website: http://kristiania.no/
+  ror: 03gss5916
+  website: https://kristiania.no/kristiania-university-college
 kth-royal-institute-of-technology:
   coordinates:
     lat: 59.347222222
     lon: 18.072777777
   inception: '1827-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/KTH%20logotype.jpg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/KTH%20logotype.jpg
   qid: Q854280
-  website: https://www.kth.se
+  ror: 026vcq606
+  website: https://www.kth.se/en
 kulturskoleradet:
   inception: '1973-01-01'
   qid: Q19383926
@@ -83,16 +94,19 @@ national-library-of-norway:
     lat: 59.914044
     lon: 10.717557
   inception: '1988-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/Nasjonalbiblioteket.jpg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Nasjonalbiblioteket.jpg
   qid: Q924551
+  ror: 032saz229
   website: https://nb.no
 nicolaus-copernicus-university:
   coordinates:
     lat: 53.0153
     lon: 18.5722
   inception: '1945-08-24'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/UMK%20logo%202015.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/UMK%20logo%202015.svg
   qid: Q1752712
+  ror: 0102mm775
+  short_name: UNC
   website: http://www.umk.pl/
 nla-university-college:
   coordinates:
@@ -100,13 +114,15 @@ nla-university-college:
     lon: 5.325526
   inception: '1968-01-01'
   qid: Q11990541
-  website: https://nla.no
+  ror: 05fdt2q64
+  website: https://nla.no/en
 nord-university:
   coordinates:
     lat: 67.288889
     lon: 14.560278
   inception: '2016-01-01'
   qid: Q21079372
+  ror: 030mwrt98
   website: https://www.nord.no/
 norwegian-academy-of-music:
   coordinates:
@@ -114,6 +130,7 @@ norwegian-academy-of-music:
     lon: 10.713611
   inception: '1973-01-01'
   qid: Q2001488
+  ror: 052dy9793
   website: http://www.nmh.no
 norwegian-institute-for-air-research:
   coordinates:
@@ -121,53 +138,60 @@ norwegian-institute-for-air-research:
     lon: 11.05281944
   inception: '1969-01-01'
   qid: Q876791
-  website: https://www.nilu.com/
+  ror: 00q7d9z06
+  website: https://www.nilu.no/
 norwegian-museum-of-cultural-history:
   coordinates:
     lat: 59.906911
     lon: 10.685958
   inception: '1894-01-01'
   qid: Q937521
+  ror: 02t6kpd72
   website: http://www.norskfolkemuseum.no/
 norwegian-university-of-science-and-technology:
   coordinates:
     lat: 63.419444444
     lon: 10.4025
   inception: '1996-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/NTNU-logo.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/NTNU-logo.svg
   qid: Q314536
+  ror: 05xg72x27
   website: https://ntnu.no
 oslo-national-academy-of-the-arts:
   coordinates:
     lat: 59.9255
     lon: 10.75438889
   inception: '1996-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/KHIO-logo%20%28cropped%29.png
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/KHIO-logo%20%28cropped%29.png
   qid: Q1291884
+  ror: 0543h9a62
   website: http://www.khio.no/
 oslo-school-of-architecture-and-design:
   coordinates:
     lat: 59.924386
     lon: 10.751425
   inception: '1945-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/Logo-AHO%20Oslo.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Logo-AHO%20Oslo.svg
   qid: Q4579140
+  ror: 04a7x2s11
   website: https://aho.no/
 ostfold-university-college:
   coordinates:
     lat: 59.129444444
     lon: 11.353055555
   inception: '1994-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/Hochschule%20%C3%98stfold.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Hochschule%20%C3%98stfold.svg
   qid: Q616752
+  ror: 04gf7fp41
   website: http://www.hiof.no/
 simon-fraser-university:
   coordinates:
     lat: 49.278175782
     lon: -122.919393828
   inception: '1965-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/SFU-block-logo.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/SFU-block-logo.svg
   qid: Q201603
+  ror: 0213rcc28
   website: https://www.sfu.ca/
 simula-metropolitan-center-for-digital-engineering:
   coordinates:
@@ -175,11 +199,13 @@ simula-metropolitan-center-for-digital-engineering:
     lon: 10.7358681
   inception: '2002-06-11'
   qid: Q7521282
+  ror: 00vn06n10
   website: https://www.simula.no/
 sintef-digital:
   inception: '1950-01-26'
   qid: Q3041255
-  website: https://sintef.no
+  ror: 01f677e56
+  website: https://sintef.no/en
 ultima-festival:
   inception: '1991-01-01'
   qid: Q7880100
@@ -190,14 +216,17 @@ uniarts-helsinki:
     lon: 24.9346
   inception: '2013-01-01'
   qid: Q4352418
+  ror: 05anqtc62
   website: http://www.uniarts.fi
 university-of-agder:
   coordinates:
     lat: 58.163005555
     lon: 8.003222222
   inception: '1994-08-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Agder%20logo.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Agder%20logo.svg
   qid: Q1470769
+  ror: 03x297z98
+  short_name: UiA
   website: http://www.uia.no
 university-of-bergen:
   coordinates:
@@ -205,30 +234,34 @@ university-of-bergen:
     lon: 5.322872222
   inception: '1946-01-01'
   qid: Q204457
+  ror: 03zga2b32
   website: https://uib.no
 university-of-cambridge:
   coordinates:
     lat: 52.205355979
     lon: 0.113157269
   inception: '1209-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Cambridge%20logo.png
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Cambridge%20logo.png
   qid: Q35794
+  ror: 013meh722
   website: https://www.cam.ac.uk/
 university-of-iceland:
   coordinates:
     lat: 64.140555555
     lon: -21.949444444
   inception: '1911-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Iceland%20Text.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Iceland%20Text.svg
   qid: Q196559
-  website: https://english.hi.is/
+  ror: 01db6h964
+  website: https://www.hi.is/
 university-of-inland-norway:
   coordinates:
     lat: 61.13668
     lon: 11.368446
   inception: '2024-11-08'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Inland%20Norway%20logo.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Inland%20Norway%20logo.svg
   qid: Q27050380
+  ror: 02dx4dc92
   website: https://www.inn.no/
 university-of-jyvaskyla:
   coordinates:
@@ -236,14 +269,16 @@ university-of-jyvaskyla:
     lon: 25.732666666
   inception: '1934-01-01'
   qid: Q578326
+  ror: 05n3dz165
   website: https://www.jyu.fi/
 university-of-manchester:
   coordinates:
     lat: 53.466111111
     lon: -2.231944444
   inception: '1824-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/Manchester%20University%20Logo%20%282%29.png
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Manchester%20University%20Logo%20%282%29.png
   qid: Q230899
+  ror: 027m9bs27
   website: https://manchester.ac.uk
 university-of-melbourne:
   coordinates:
@@ -251,30 +286,37 @@ university-of-melbourne:
     lon: 144.9614
   inception: '1853-01-01'
   qid: Q319078
+  ror: 01ej9dk98
+  short_name: UniMelb
   website: https://www.unimelb.edu.au/
 university-of-music-lubeck:
   coordinates:
     lat: 53.8647
     lon: 10.6814
   inception: '1973-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Musikhochschule%20L%C3%BCbeck%202024-07-25.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Musikhochschule%20L%C3%BCbeck%202024-07-25.svg
   qid: Q513622
+  ror: 021f61w41
   website: http://www.mh-luebeck.de/
 university-of-oslo:
   coordinates:
     lat: 59.939936111
     lon: 10.722063888
   inception: '1811-09-02'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/UiO%20logo.png
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/UiO%20logo.png
   qid: Q486156
+  ror: 01xtthb56
+  short_name: UiO
   website: https://www.uio.no
 university-of-stavanger:
   coordinates:
     lat: 58.937505555
     lon: 5.697416666
   inception: '2005-01-01'
-  logo: http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Stavanger%20logo.svg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Stavanger%20logo.svg
   qid: Q498401
+  ror: 02qte9q33
+  short_name: UiS
   website: https://www.uis.no/
 university-of-stirling:
   coordinates:
@@ -282,6 +324,7 @@ university-of-stirling:
     lon: -3.9195
   inception: '1967-01-01'
   qid: Q963530
+  ror: 045wgfr59
   website: http://www.stir.ac.uk
 university-of-the-arts-london:
   coordinates:
@@ -289,6 +332,7 @@ university-of-the-arts-london:
     lon: -0.116389
   inception: '1986-01-01'
   qid: Q2065666
+  ror: 04cnfrn26
   website: https://www.arts.ac.uk/
 western-norway-university-of-applied-sciences:
   coordinates:
@@ -296,4 +340,5 @@ western-norway-university-of-applied-sciences:
     lon: 5.3495
   inception: '2017-01-01'
   qid: Q25434874
+  ror: 05phns765
   website: https://www.hvl.no/

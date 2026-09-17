@@ -42,6 +42,7 @@ urls:
   website: https://www.kristiania.no/en/
   wikipedia: https://en.wikipedia.org/wiki/Kristiania_University_College
   wikidata: https://www.wikidata.org/wiki/Q5028646
+  ror: https://ror.org/03gss5916
 aliases:
 - Kristiania University of Applied Sciences
 - Høyskolen Kristiania

@@ -36,6 +36,10 @@ layout: default
       <div class="institution-body">
         <header class="institution-header">
           <h1>{{ page_heading }}</h1>
+          {% assign wd_facts = site.data.wikidata_institutions[page.slug] %}
+          {% if page.image == nil and wd_facts.logo %}
+          <img class="institution-logo" src="{{ wd_facts.logo }}" alt="" width="160" loading="lazy">
+          {% endif %}
           {% assign institution_website = page.urls.website %}
           {% assign institution_wikipedia = page.urls.wikipedia %}
           {% assign institution_wikidata = page.urls.wikidata %}

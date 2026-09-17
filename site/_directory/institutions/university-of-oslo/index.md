@@ -75,6 +75,7 @@ urls:
   website: https://www.uio.no/english/index.html
   wikipedia: https://en.wikipedia.org/wiki/University_of_Oslo
   wikidata: https://www.wikidata.org/wiki/Q486156
+  ror: https://ror.org/01xtthb56
 aliases:
 - Universitetet i Oslo
 tags: []

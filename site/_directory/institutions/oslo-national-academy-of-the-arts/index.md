@@ -25,6 +25,7 @@ urls:
   website: https://khio.no/en
   wikipedia: https://en.wikipedia.org/wiki/Oslo_National_Academy_of_the_Arts
   wikidata: https://www.wikidata.org/wiki/Q1291884
+  ror: https://ror.org/0543h9a62
 aliases:
 - Kunsthøgskolen i Oslo
 - KHiO / Oslo National Academy of the Arts

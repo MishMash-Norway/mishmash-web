@@ -169,6 +169,22 @@ def resolve_institutions(root: Path, dry_run: bool) -> int:
     return updated
 
 
+def fill_entry_from_facts(data: dict, facts: dict) -> bool:
+    """Add urls.ror and urls.website from Wikidata when the entry has none.
+    Returns True when something was added. Existing values are left alone."""
+    urls = data.setdefault("urls", {}) if isinstance(data.get("urls"), dict) or data.get("urls") is None else None
+    if urls is None:
+        return False
+    changed = False
+    if facts.get("ror") and not urls.get("ror"):
+        urls["ror"] = "https://ror.org/" + facts["ror"]
+        changed = True
+    if facts.get("website") and not urls.get("website"):
+        urls["website"] = facts["website"]
+        changed = True
+    return changed
+
+
 def sync_institution_facts(root: Path, dry_run: bool) -> None:
     qids = {}
     for slug, _index_md, data, _body in entries(root, "institutions"):
@@ -183,12 +199,14 @@ def sync_institution_facts(root: Path, dry_run: bool) -> None:
 
     rows = sparql(
         """
-        SELECT ?item ?coord ?logo ?website ?inception WHERE {
+        SELECT ?item ?coord ?logo ?website ?inception ?ror ?short WHERE {
           VALUES ?item { %s }
           OPTIONAL { ?item wdt:P625 ?coord . }
           OPTIONAL { ?item wdt:P154 ?logo . }
           OPTIONAL { ?item wdt:P856 ?website . }
           OPTIONAL { ?item wdt:P571 ?inception . }
+          OPTIONAL { ?item wdt:P6782 ?ror . }
+          OPTIONAL { ?item wdt:P1813 ?short . FILTER(LANG(?short) IN ("en", "nb", "no", "nn")) }
         }
         """
         % " ".join(f"wd:{q}" for q in qids)
@@ -205,11 +223,24 @@ def sync_institution_facts(root: Path, dry_run: bool) -> None:
             if m:
                 entry["coordinates"] = {"lon": float(m.group(1)), "lat": float(m.group(2))}
         if "logo" in row and "logo" not in entry:
-            entry["logo"] = row["logo"]["value"]
+            entry["logo"] = row["logo"]["value"].replace("http://", "https://", 1)  # Commons serves https; avoid mixed content
         if "website" in row and "website" not in entry:
             entry["website"] = row["website"]["value"]
         if "inception" in row and "inception" not in entry:
             entry["inception"] = row["inception"]["value"][:10]
+        if "ror" in row and "ror" not in entry:
+            entry["ror"] = row["ror"]["value"]
+        if "short" in row and "short_name" not in entry:
+            entry["short_name"] = row["short"]["value"]
+
+    # Fill identifiers the entries lack; curated values are never overwritten.
+    filled = 0
+    for slug, index_md, data, body in entries(root, "institutions"):
+        if slug in facts and fill_entry_from_facts(data, facts[slug]):
+            filled += 1
+            if not dry_run:
+                save_entry(index_md, data, body)
+    print(f"facts: {'would fill' if dry_run else 'filled'} ROR or website on {filled} entries")
 
     out = root / "_data" / "wikidata_institutions.yml"
     header = (
