@@ -17,3 +17,4 @@ translation_url: /about/
 - [Institusjoner](/search/?type=institution)
 - [Prosjekter](/projects/)
 - [Resultater](/no/results/)
+- [Språk](/no/about/languages/) — engelsk, bokmål og nynorsk, og hvor mye tekst som er på hvert

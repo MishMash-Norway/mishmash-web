@@ -16,3 +16,4 @@ translation_url: /no/about/
 - [Institutions](/search/?type=institution)
 - [Projects](/projects/)
 - [Results](/results/)
+- [Languages](/about/languages/) — English, Bokmål and Nynorsk, and how much text is in each

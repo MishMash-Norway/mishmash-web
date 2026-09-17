@@ -51,3 +51,4 @@ site/_data/nynorsk_status.yml
 
 # Internal plans, kept local (see plans/README.md)
 plans/
+site/_data/language_share.yml
