@@ -19,7 +19,7 @@ Denne kommunikasjonsstrategien utfyller [kanalstrategien](/no/internal/kanalstra
 5. **Åpent som standard.** Det vi publiserer kan brukes videre: tekst under CC BY 4.0, våre egne data under CC0, kode under MIT, med kildene til hvert faktum oppgitt nederst på siden og vilkårene uttrykt for både mennesker og maskiner. Se [vilkår for bruk](/no/about/terms/) og avsnittet om lisenser nedenfor.
 6. **Brukbart for alle.** Nettstedet oppfyller kravene i forskriften om universell utforming av IKT (WCAG 2.1 nivå AA) og sier det på [tilgjengelighetssiden](/no/accessibility/); hver endring sjekkes før den publiseres, og bidrag som krever lyd, pekeredskap eller JavaScript sier fra om det.
 7. **Vis begrensningene.** Vi sier hva et system ikke kan, og hvordan et resultat er målt, og vi publiserer målingene av vår egen kanal i stedet for å love dem.
-8. **Å lage er å kommunisere.** Kunstnerisk arbeid, demonstrasjoner og praktiske bidrag i [laben](/lab/) er kanaler i seg selv, med de samme erklæringene om kilder og KI som teksten.
+8. **Kunst er emne, objekt, uttrykk og metode.** I MishMash er kunstnerisk arbeid ikke en måte å formidle forskning gjort andre steder på; det er det senteret studerer, det senteret lager, måten det uttrykker det det finner på, og måten det undersøker på. Konserter, installasjoner, forestillinger og bidragene i [laben](/lab/) er derfor kommunikasjon i seg selv, med de samme erklæringene om kilder og KI som teksten, og de vurderes som forskning så vel som formidling.
 
 ## Lesenivåer
 
@@ -57,6 +57,17 @@ Kanaler retter seg, i motsetning til lesenivåer, mot målgrupper:
 | Instagram | ✓ | ✓ | | | |
 | YouTube | ✓ | ✓ | ✓ | ✓ | |
 
+## Åpen forskning, åpen utdanning, åpen kunnskap
+
+Prinsipp fem er del av en større forpliktelse. MishMash ser forskning, utdanning og kommunikasjon som ett økosystem: forskningsbasert og forskningsledet utdanning bygger på de samme åpne resultatene som allmennheten leser, og kommunikasjon er laget som knytter dem sammen. Fire praksiser følger av det.
+
+- **Åpen forskning.** Resultater registreres i det nasjonale forskningsarkivet og vises på nettstedet med sine identifikatorer; data og kode legges i åpne arkiver med lisens og DOI; sammendrag, kilder og, der det er mulig, materialet bak en påstand er ett klikk unna påstanden. Åpen tilgang er standard for det senteret publiserer.
+- **Åpen utdanning.** Undervisningsmateriale laget i senteret, fra MeshUp-foredrag til emnemoduler og wikien som lærer studenter å bygge nettstedet, publiseres under åpne lisenser slik at partnere og andre kan undervise med det. Studenter bygger nettstedet og eksperimentene som del av utdanningen sin, i det åpne.
+- **Åpen kunnskap.** Fakta om personer, institusjoner og verk hentes fra den åpne kunnskapsgrafen og gis tilbake til den: identifikatorer og rettelser går til Wikidata, åpent lisensierte bilder til Wikimedia Commons, lyder til Freesound, og nettstedets egne data frigis under CC0 slik at de kan brukes videre uten å spørre.
+- **Folkeforskning og deltakelse.** Skjemaene, laben og rettelseslenken i hver bunntekst er inngangsporter for folk utenfor senteret; prosjekter som inviterer allmennheten til å bidra med opptak, observasjoner eller vurderinger sier hva som skjer med bidraget, under hvilken lisens, og hvordan bidragsytere krediteres.
+
+Ingen av partnernes kommunikasjonsstrategier nevner åpen forskning, åpen utdanning eller åpen kunnskap som kommunikasjonsprinsipp; UiOs ene linje om åpen tilgang og Simulas om åpen kildekode og data er det nærmeste. For MishMash er dette rammen de andre prinsippene står i.
+
 ## Nettstedet slik det er nå
 
 mishmash.no har lesenivåene og stretchteksten beskrevet ovenfor, og et sett funksjoner som følger av prinsippene: en [lab](/lab/) der enhver arbeidspakke kan publisere et nettlesereksperiment med data og KI-bruk oppgitt; en [kioskvisning](/kiosk/) for skjermer i partnernes vestibyler; skjemaer for nyheter, arrangementer, MeshUp-foredrag og rettelser, slik at medlemmer bidrar uten git; objekter fra norske kulturarvsamlinger vist på stedet med samlingens egen rettighetserklæring; en katalog, resultatliste og kalender som holdes i takt med det nasjonale forskningsarkivet; og sider om vilkår, personvern og tilgjengelighet som sier hva nettstedet gjør, ikke hva det håper. Det som finnes, står på siden om [nettsideprosjektet](/projects/the-mishmash-website/); det som er planlagt, står i saksoversikten på GitHub.
@@ -93,7 +104,7 @@ Norsk betyr begge målformer. Språklova ber statsorgan bruke minst en fjerdedel
 
 En [kartlegging av de 22 norske forskningspartnerne](/internal/partner-communication-strategies/) viser hva MishMash deler med dem og hvor senteret går lenger. Åtte partnere publiserer en kommunikasjonsstrategi, -plattform eller -policy for hele institusjonen; resten har en språkpolitikk, en generell strategi med synlighetsmål, eller ingenting offentlig. Det felles grunnlaget er statens kommunikasjonspolitikk, med prinsippene åpenhet, å nå alle berørte, helhet, aktivitet og medvirkning; kommunikasjon er alles ansvar, forskere skal formidle sitt eget arbeid, og klarspråk kreves gjennom språkloven. MishMash står på samme grunn: medlemmene er fortsatt bundet av institusjonenes strategier, og dette dokumentet erstatter dem ikke.
 
-Det ingen av partnernes dokumenter gjør, og som denne strategien derfor legger til, er prinsippene fem til åtte ovenfor: vilkår for gjenbruk og kilder på hvert bidrag, en regel om å opplyse om KI i vår egen kommunikasjon, en forpliktelse til å vise begrensninger og publisere våre egne målinger, og kunstnerisk praksis behandlet som en kanal med egne prinsipper. Der en partners strategi er strengere, for eksempel om nynorsk eller om hvem som kan uttale seg på vegne av institusjonen, gjelder partnerens regel for dens egne ansatte.
+Det ingen av partnernes dokumenter gjør, og som denne strategien derfor legger til, er prinsippene fem til åtte ovenfor: åpen forskning, åpen utdanning og åpen kunnskap som ramme, med vilkår for gjenbruk og kilder på hvert bidrag; en regel om å opplyse om KI i vår egen kommunikasjon; en forpliktelse til å vise begrensninger og publisere våre egne målinger; og kunst som emne, objekt, uttrykk og metode. Kunstinstitusjonene blant partnerne behandler konserter og utstillinger som aktiviteter som skal annonseres, og andre institusjoner bruker dem iblant til å formidle vitenskap; MishMash skiller seg ut ved at kunst er det senteret studerer og måten det arbeider på, så kunstnerisk kommunikasjon veier like tungt som en artikkel. Der en partners strategi er strengere, for eksempel om nynorsk eller om hvem som kan uttale seg på vegne av institusjonen, gjelder partnerens regel for dens egne ansatte.
 
 ## Evaluering
 

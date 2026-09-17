@@ -315,3 +315,7 @@ Write chosen pages in Nynorsk by hand (about, organisation, news and events post
 - Forskrift til språklova text (only the consultation page was fetched).
 - Nynodata price pages (404) and UiO's Nyno product page (404).
 - UiB's full guidelines PDF, NorT5 model card, NPK translation memory corpora, Kristiania's second PDF, UHR's language policy page: not fetched within the budget.
+
+## How this page was made
+
+The list was compiled with AI assistance. An AI agent (Claude, run through Claude Code) searched the web for each institution, fetched the pages and documents it found, and wrote the summaries from what it had fetched; where a page could not be fetched, it says so rather than guessing. Alexander Refsum Jensenius commissioned the survey, set its scope and reviewed the result. The text has not been checked against the documents line by line by a person, so treat it as a starting point: if you find an error or know of a document that is missing, use "Suggest a change" in the footer. The practice follows the [communication strategy](/internal/communication-strategy/)'s rule that AI use is declared where it happens.

@@ -16,7 +16,7 @@ This communication strategy complements the [channel strategy](/internal/kanalst
 5. **Open by default.** What we publish may be reused: text under CC BY 4.0, our own data under CC0, code under MIT, with the sources of every fact named at the bottom of the page and the terms stated for people and machines alike. See the [terms of use](/about/terms/) and the section on licences below.
 6. **Usable by everyone.** The site meets the requirements of the regulation on universal design of ICT (WCAG 2.1 level AA) and says so on the [accessibility page](/accessibility/); every change is checked before it is published, and pieces that need sound, a pointer or JavaScript say so.
 7. **Show the limits.** We say what a system cannot do and how a result was measured, and we publish the measurements of our own channel rather than promising them.
-8. **Making is communicating.** Artistic work, demonstrations and hands-on pieces in the [lab](/lab/) are channels in their own right, with the same declarations of sources and AI as the text.
+8. **Art is subject, object, expression and method.** In MishMash, artistic work is not a way of disseminating research done elsewhere; it is what the centre studies, what it makes, how it expresses what it finds and how it inquires. Concerts, installations, performances and the pieces in the [lab](/lab/) are therefore communication in their own right, with the same declarations of sources and AI as the text, and they are judged as research as well as as outreach.
 
 ## Reading levels
 
@@ -54,6 +54,17 @@ Channels, unlike reading levels, do target audiences:
 | Instagram | ✓ | ✓ | | | |
 | YouTube | ✓ | ✓ | ✓ | ✓ | |
 
+## Open science, open education, open knowledge
+
+Principle five is part of a larger commitment. MishMash sees research, education and communication as one ecosystem: research-based and research-led education draws on the same open results the public reads, and communication is the layer that connects them. Four practices follow.
+
+- **Open science.** Results are registered in the national research archive and shown on the site with their identifiers; data and code go to open repositories with a licence and a DOI; abstracts, sources and, where possible, the material behind a claim are one click from the claim. Open access is the default for what the centre publishes.
+- **Open education.** Teaching material made in the centre, from MeshUp talks to course modules and the wiki that teaches students to build the site, is published under open licences so that partners and others can teach with it. Students build the site and its experiments as part of their education, in public.
+- **Open knowledge.** Facts about people, institutions and works are pulled from the open knowledge graph and given back to it: identifiers and corrections go to Wikidata, openly licensed images to Wikimedia Commons, sounds to Freesound, and the site's own data is released under CC0 so that it can be reused without asking.
+- **Citizen science and participation.** The forms, the lab and the correction link in every footer are entry points for people outside the centre; projects that invite the public to contribute recordings, observations or judgements state what happens with the contribution, under which licence, and how contributors are credited.
+
+None of the partners' communication strategies names open science, open education or open knowledge as a communication principle; UiO's one line on open access and Simula's on open source and data are the nearest. For MishMash it is the frame the other principles sit in.
+
 ## The website as it now stands
 
 mishmash.no carries the reading levels and stretchtext described above, and a set of features that follow from the principles: a [lab](/lab/) where any work package can publish a browser experiment with its data and AI declared; a [kiosk view](/kiosk/) for screens in partner lobbies; forms for news, events, MeshUp talks and corrections so that members contribute without git; objects from Norwegian heritage collections shown in place with the collection's own rights statement; a directory, results list and calendar kept in step with the national research archive; and terms, privacy and accessibility pages that say what the site does rather than what it hopes. What exists is listed on the [website project](/projects/the-mishmash-website/) page; what is planned is in the issue tracker.
@@ -90,7 +101,7 @@ Norwegian means both written forms. The Language Act asks state bodies to use at
 
 A [survey of the 22 Norwegian research partners](/internal/partner-communication-strategies/) shows what MishMash shares with them and where it goes further. Eight partners publish an institution-wide communication strategy, platform or policy; the rest have a language policy, a general strategy with visibility goals, or nothing public. The shared foundation is the state communication policy, with its principles of openness, reaching everyone affected, coherence, being active and participation; communication is everyone's job, researchers are expected to disseminate their own work, and plain language is required through the Language Act. MishMash stands on the same ground: its members remain bound by their institutions' strategies, and this document does not replace them.
 
-What none of the partners' documents do, and this strategy therefore adds, is the set of principles five to eight above: reuse terms and sources on every piece, a disclosure rule for AI in our own communication, a commitment to show limits and to publish our own measurements, and creative practice treated as a channel with its own principles. Where a partner's strategy is stricter, for example on Nynorsk or on who may speak for an institution, the partner's rule applies to its own staff.
+What none of the partners' documents do, and this strategy therefore adds, is the set of principles five to eight above: open science, open education and open knowledge as the frame, with reuse terms and sources on every piece; a disclosure rule for AI in our own communication; a commitment to show limits and to publish our own measurements; and art as subject, object, expression and method. The arts institutions among the partners treat concerts and exhibitions as activities to be advertised, and other institutions sometimes use them to disseminate science; MishMash differs in that art is what it studies and how it works, so artistic communication carries the same weight as a paper. Where a partner's strategy is stricter, for example on Nynorsk or on who may speak for an institution, the partner's rule applies to its own staff.
 
 ## Evaluation
 
