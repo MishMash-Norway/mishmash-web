@@ -11,7 +11,7 @@ page_about:
     model_version: "Fable 5.1"
 ---
 
-This survey supports the [communication strategy](/internal/communication-strategy/) and the plan in [issue #71](https://github.com/MishMash-Norway/mishmash-web/issues/71). It was made on 17 September 2026 by web search and page fetching; every claim comes from a fetched page, linked after the claim. The [Nynorsk survey](/internal/nynorsk/) covers the two Norwegian written forms.
+This survey supports the [communication strategy](/internal/communication-strategy/) and the tracking issue [#71](https://github.com/MishMash-Norway/mishmash-web/issues/71). It was made on 17 September 2026 by web search and page fetching; every claim comes from a fetched page, linked after the claim. The [Nynorsk survey](/internal/nynorsk/) covers the two Norwegian written forms.
 
 Survey written 2026-09-17. Every claim below comes from a page fetched during the survey; the link follows the claim. Two documents that would have been useful could not be read: the Sami Parliament's guidelines on artificial intelligence (the page body is loaded by script and was empty when fetched) and a 2016 Oslo Economics report on automatic translation in the state sector (it turned out to concern the EU's MT@EC service and contains no mention of Sami or Kven).
 
@@ -164,4 +164,4 @@ Commission human translation of selected pages, but give the translator TartuNLP
 
 ## How this page was made
 
-The survey was compiled with AI assistance. An AI agent (Claude, run through Claude Code) searched the web, fetched the pages and documents linked above, and wrote the summaries from what it had fetched; where a page could not be read, it says so. Alexander Refsum Jensenius commissioned the survey, set its scope and reviewed the result, and the plan in the linked issue is his decision. Nothing here has been checked by a speaker of a Sami language or of Kven; that reading is the first step of the plan. If you find an error, use "Suggest a change" in the footer.
+The survey was compiled with AI assistance. An AI agent (Claude, run through Claude Code) searched the web, fetched the pages and documents linked above, and wrote the summaries from what it had fetched; where a page could not be read, it says so. The centre commissioned the survey and set its scope; the site maintainer reviewed the result. Nothing here has been checked by a speaker of a Sami language or of Kven; that reading is the first step of the plan. If you find an error, use "Suggest a change" in the footer.

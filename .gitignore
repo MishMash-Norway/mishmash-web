@@ -48,3 +48,6 @@ site/nn-auto/
 site/_data/translations_nn.yml
 site/_data/nynorsk_status.yml
 .nynorsk-cache/
+
+# Internal plans, kept local (see plans/README.md)
+plans/
