@@ -28,6 +28,13 @@ MishMash studies creative uses of AI — and uses AI, openly, in making this web
 2. **Nothing is hidden.** AI involvement is declared here, marked on translated pages, and traceable in the open [commit history](https://github.com/MishMash-Norway/mishmash-web/commits/main).
 3. **It is an experiment.** Building our own communication channel with AI-based assistance is part of MishMash's research practice. It is a way to *create, explore, and reflect* on the tools we study. What we learn feeds back into the centre's research and teaching.
 
+## The weight of the site
+
+A light site costs readers less time and the planet less energy. At every deployment the build weighs a set of pages: the bytes a first visit transfers, counted as the server sends them, and an estimate of the carbon per visit using the Sustainable Web Design model as implemented in CO2.js. The figures are an estimate for comparing builds, not a measurement of anyone's device or network. The full report is at [/data/page-weight.json](/data/page-weight.json){: data-proofer-ignore="true"}.
+
+<div id="page-weight" class="page-weight" data-src="/data/page-weight.json" data-lang="en"><noscript>The table needs JavaScript; the figures are in the JSON file linked above.</noscript></div>
+<script defer src="/assets/js/page-weight.js"></script>
+
 ## The Nynorsk experiment
 
 The Nynorsk edition of the site (the pages under `/nn/`) is generated automatically: every Bokmål page is translated at build time with the rule-based, open-source [Apertium](https://github.com/apertium/apertium-nno-nob) engine (nob–nno, moderate norm) — the same engine the Norwegian press agency NPK and NRK use for Nynorsk. Every generated page is marked with a notice at the top and links back to its Bokmål original. A hand-corrected page under `site/nn/` in the source always wins over the generated one.

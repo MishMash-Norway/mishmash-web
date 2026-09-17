@@ -46,11 +46,14 @@ jobs:
       - name: Install Apertium (Bokmål to Nynorsk)
         run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
 
-      - name: Generate the Nynorsk mirror, measure the languages, build the open data
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py
+      - name: Generate the Nynorsk mirror, measure the languages, build the open data and the AVIF variants
+        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py && pip install -q Pillow && python3 scripts/build_avif.py
 
       - name: Build site
         run: bundle exec jekyll build --trace
+
+      - name: Measure page weight and carbon on the built site
+        run: python3 scripts/measure_page_weight.py
 
       # Publish every student UI theme as a browsable preview under
       # /ui/<name>/, listed on the /ui/ gallery page. Previews exclude

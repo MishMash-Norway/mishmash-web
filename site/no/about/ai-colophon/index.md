@@ -28,6 +28,13 @@ MishMash forsker på kreativ bruk av KI — og bruker KI, helt åpent, i arbeide
 2. **Ingenting skjules.** KI-bruk erklæres her, merkes på oversatte sider og kan spores i den åpne [commit-historikken](https://github.com/MishMash-Norway/mishmash-web/commits/main).
 3. **Det er et eksperiment.** Å bygge vår egen kommunikasjonskanal med KI-basert assistanse er en del av MishMash sin forskningspraksis. Det er en måte å *skape, utforske og reflektere* over verktøyene vi forsker på. Det vi lærer føres tilbake til senterets forskning og undervisning.
 
+## Nettstedets vekt
+
+Et lett nettsted koster leserne mindre tid og kloden mindre energi. Ved hver utrulling veier byggingen et utvalg sider: bytene et første besøk overfører, telt slik tjeneren sender dem, og et anslag over karbonutslippet per besøk etter Sustainable Web Design-modellen slik den er implementert i CO2.js. Tallene er et anslag for å sammenligne bygg, ikke en måling av noens enhet eller nett. Hele rapporten ligger på [/data/page-weight.json](/data/page-weight.json){: data-proofer-ignore="true"}.
+
+<div id="page-weight" class="page-weight" data-src="/data/page-weight.json" data-lang="nb"><noscript>Tabellen trenger JavaScript; tallene finnes i JSON-filen over.</noscript></div>
+<script defer src="/assets/js/page-weight.js"></script>
+
 ## Nynorsk-eksperimentet
 
 Nynorskutgaven av nettstedet (sidene under `/nn/`) lages automatisk: hver bokmålsside oversettes ved bygging med det regelbaserte, åpne oversettelsesverktøyet [Apertium](https://github.com/apertium/apertium-nno-nob) (nob–nno, moderat norm), samme motor som NPK og NRK bruker for nynorsk. Hver generert side merkes med en boks øverst og lenker til bokmålsoriginalen. En håndkorrigert side under `site/nn/` i kildekoden vinner alltid over den genererte.

@@ -57,3 +57,8 @@ site/_data/language_share.yml
 # Open data files built at deploy (scripts/build_open_data.py)
 site/data/*.json
 site/data/*.csv
+
+# AVIF variants built at deploy (scripts/build_avif.py)
+site/assets/images/news/**/*.avif
+site/assets/images/events/**/*.avif
+site/assets/images/illustrations/**/*.avif

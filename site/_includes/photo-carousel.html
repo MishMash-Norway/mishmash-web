@@ -16,7 +16,8 @@
   <div class="mm-carousel-track">
     {% for item in gallery.images %}
     <figure class="mm-carousel-slide" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ forloop.length }}">
-      <img src="{{ item.src | relative_url }}" alt="{{ item.alt }}" width="1600" height="1067"{% if forloop.first %}{% else %} loading="lazy"{% endif %}>
+      {% assign avif_path = item.src | append: '.avif' %}{% assign avif_file = site.static_files | where: 'path', avif_path | first %}
+      {% if avif_file %}<picture><source type="image/avif" srcset="{{ avif_path | relative_url }}">{% endif %}<img src="{{ item.src | relative_url }}" alt="{{ item.alt }}" width="1600" height="1067"{% if forloop.first %}{% else %} loading="lazy"{% endif %}>{% if avif_file %}</picture>{% endif %}
     </figure>
     {% endfor %}
   </div>
