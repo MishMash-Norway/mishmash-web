@@ -67,6 +67,9 @@
     {% endif %}
     <script defer src="{{ '/assets/js/page-stats.js' | relative_url }}"></script>
     <script defer src="{{ '/assets/js/wordmark.js' | relative_url }}"></script>
+    {% comment %} Text-and-data-mining terms (see /about/terms/): pages that show a portrait carry a reservation. {% endcomment %}
+    <meta name="tdm-reservation" content="{% if page.type == 'person' %}1{% else %}0{% endif %}">
+    <meta name="tdm-policy" content="{{ '/about/terms/' | absolute_url }}">
     <link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}">
     <link rel="icon" href="{{ '/assets/images/logo/favicon.svg' | relative_url }}" type="image/svg+xml">
     <link rel="icon" href="{{ '/assets/images/logo/favicon.ico' | relative_url }}" sizes="16x16 32x32 48x48">
@@ -95,6 +98,7 @@
     <li><a href="{{ t.lab_url | relative_url }}">{{ t.nav_lab }}</a></li>
     <li><a href="{{ '/faq/' | relative_url }}">{{ t.nav_faq }}</a></li>
     <li><a href="{{ t.about_url | append: 'brand/' | relative_url }}">{{ t.nav_about_brand }}</a></li>
+    <li><a href="{{ t.terms_url | relative_url }}">{{ t.nav_about_terms }}</a></li>
   </ul>
 </details>
 <details class="btn wp-dropdown">

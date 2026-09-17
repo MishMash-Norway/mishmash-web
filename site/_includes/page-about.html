@@ -6,7 +6,7 @@
 <footer class="site-footer">
   <div class="site-footer-bar">
     <span class="site-footer-credits">
-      <a href="https://mishmash.no/">MishMash</a> &mdash; <a href="https://creativecommons.org/licenses/by/4.0/deed.en" rel="license noopener" target="_blank">CC-BY</a> &mdash; <a href="mailto:contact@mishmash.no">contact@mishmash.no</a> &mdash; <a href="{{ t.privacy_url | relative_url }}">{{ t.footer_privacy }}</a> &mdash; <a href="{{ t.accessibility_url | relative_url }}">{{ t.footer_accessibility }}</a>
+      <a href="https://mishmash.no/">MishMash</a> &mdash; <a href="https://creativecommons.org/licenses/by/4.0/deed.en" rel="license noopener" target="_blank">CC-BY</a> &mdash; <a href="mailto:contact@mishmash.no">contact@mishmash.no</a> &mdash; <a href="{{ t.privacy_url | relative_url }}">{{ t.footer_privacy }}</a> &mdash; <a href="{{ t.accessibility_url | relative_url }}">{{ t.footer_accessibility }}</a> &mdash; <a href="{{ t.terms_url | relative_url }}">{{ t.footer_terms }}</a>
     </span>
   </div>
 </footer>
@@ -99,7 +99,7 @@
   {% endcomment %}
   <div class="site-footer-bar">
     <span class="site-footer-credits">
-      <a href="https://mishmash.no/">MishMash</a> &mdash; <a href="https://creativecommons.org/licenses/by/4.0/deed.en" rel="license noopener" target="_blank">CC-BY</a> &mdash; <a href="mailto:contact@mishmash.no">contact@mishmash.no</a> &mdash; <a href="{{ t.privacy_url | relative_url }}">{{ t.footer_privacy }}</a> &mdash; <a href="{{ t.accessibility_url | relative_url }}">{{ t.footer_accessibility }}</a> &mdash;
+      <a href="https://mishmash.no/">MishMash</a> &mdash; <a href="https://creativecommons.org/licenses/by/4.0/deed.en" rel="license noopener" target="_blank">CC-BY</a> &mdash; <a href="mailto:contact@mishmash.no">contact@mishmash.no</a> &mdash; <a href="{{ t.privacy_url | relative_url }}">{{ t.footer_privacy }}</a> &mdash; <a href="{{ t.accessibility_url | relative_url }}">{{ t.footer_accessibility }}</a> &mdash; <a href="{{ t.terms_url | relative_url }}">{{ t.footer_terms }}</a> &mdash;
     </span>
     <details class="page-about" id="page-about">
       <summary class="site-footer-toggle"><span class="site-footer-toggle-label">{{ t.page_about_heading }}</span> <span class="page-about-expand-icon" aria-hidden="true">▸</span></summary>
@@ -145,6 +145,7 @@
           {% else %}
           {{ copyright_label }}
           {% endif %}
+          · <a href="{{ t.terms_url | relative_url }}">{{ t.page_about_terms }}</a>
         </dd>
       </div>
 

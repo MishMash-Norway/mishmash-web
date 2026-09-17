@@ -1,0 +1,8 @@
+[
+  { "location": "/assets/images/portraits/", "tdm-reservation": 1, "tdm-policy": "https://mishmash.no/about/terms/" },
+  { "location": "/assets/images/thumbs/portraits__", "tdm-reservation": 1, "tdm-policy": "https://mishmash.no/about/terms/" },
+  { "location": "/assets/images/logos/", "tdm-reservation": 1, "tdm-policy": "https://mishmash.no/about/terms/" },
+  { "location": "/images/institutions/", "tdm-reservation": 1, "tdm-policy": "https://mishmash.no/about/terms/" },
+  { "location": "/people/", "tdm-reservation": 1, "tdm-policy": "https://mishmash.no/about/terms/" },
+  { "location": "/", "tdm-reservation": 0, "tdm-policy": "https://mishmash.no/about/terms/" }
+]

@@ -1,0 +1,20 @@
+# MishMash Centre for AI and Creativity
+
+> mishmash.no is the website of MishMash, a Norwegian research centre on AI and creativity funded by the Research Council of Norway. It holds the centre's people, institutions, projects, results, events and news, in English with Norwegian mirrors under /no/.
+
+Terms: the text is CC BY 4.0 (attribution required, training allowed); the site's own data files are CC0; the code is MIT; portraits and logos are reserved and may not be used for training. Full terms: https://mishmash.no/about/terms/
+
+## Key pages
+
+- [About](https://mishmash.no/about/description/): what the centre does, at three reading levels
+- [Results](https://mishmash.no/results/): research results synced nightly from the national research archive (NVA)
+- [Events](https://mishmash.no/events/) and [News](https://mishmash.no/news/)
+- [Search](https://mishmash.no/search/): people, institutions, projects and pages
+- [FAQ](https://mishmash.no/faq/)
+
+## Data
+
+- [Search index (JSON)](https://mishmash.no/search.json): every page, person, institution, project and event with a title and description
+- [Sitemap](https://mishmash.no/sitemap.xml)
+- [News feed](https://mishmash.no/feed.xml) and [event calendar (ICS)](https://mishmash.no/events/calendar.ics)
+- [Source repository](https://github.com/MishMash-Norway/mishmash-web): the whole site as Markdown and YAML
