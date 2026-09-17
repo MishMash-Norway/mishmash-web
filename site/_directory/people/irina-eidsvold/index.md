@@ -16,6 +16,10 @@ projects:
 - ai-and-legal-protection-of-personal-characteristics
 - copyright-and-personality-rights-ai-era
 - tool-for-tools
+other_projects:
+- title: EURNOR - Research Centre on the European Dimension of Norwegian Law
+  url: https://nva.sikt.no/projects/2748291
+  nva_id: '2748291'
 roles:
 - Work Package Leader
 urls:
