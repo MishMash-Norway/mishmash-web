@@ -6,8 +6,18 @@
 
 {% if sorted_news and sorted_news.size > 0 %}
 {% for item in sorted_news %}
+{% comment %}
+  English pages show only English items; Norwegian pages (nb and nn) show
+  items in both languages.
+{% endcomment %}
 {% assign item_lang = item.lang | default: 'en' %}
-{% if item_lang == current_lang %}
+{% assign show_item = false %}
+{% if current_lang == 'nb' or current_lang == 'nn' %}
+  {% assign show_item = true %}
+{% elsif item_lang == current_lang %}
+  {% assign show_item = true %}
+{% endif %}
+{% if show_item %}
 <div class="event-item partner-event-item">
   {% if item.url %}
   <a href="{{ item.url }}">
