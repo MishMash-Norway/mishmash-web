@@ -11,7 +11,7 @@
 {% assign current_label = current_lang %}
 {% for L in site.data.languages %}{% if L.code == current_lang %}{% assign current_label = L.label %}{% endif %}{% endfor %}
 <details class="btn wp-dropdown lang-switcher">
-  <summary id="language-summary" aria-expanded="false" aria-label="{{ t.lang_switch_label }}" aria-controls="language-menu">{{ current_label }} ▾</summary>
+  <summary id="language-summary" aria-expanded="false" aria-label="{{ t.lang_switch_label | default: site.data.translations.en.lang_switch_label }}" aria-controls="language-menu">{{ current_label }} ▾</summary>
   <ul id="language-menu" class="wp-list" aria-labelledby="language-summary">
     {% for L in site.data.languages %}
     <li>{% if L.code == current_lang %}<span class="lang-active" aria-current="true" lang="{{ L.code }}">{{ L.own_name }}</span>{% else %}{% assign sw_url = L.home %}{% for _pair in sw_pairs %}{% assign _kv = _pair | split: "=" %}{% if _kv[0] == L.code and _kv[1] %}{% assign sw_url = _kv[1] %}{% endif %}{% endfor %}<a href="{{ sw_url | relative_url }}" hreflang="{{ L.code }}" lang="{{ L.code }}">{{ L.own_name }}</a>{% endif %}</li>
