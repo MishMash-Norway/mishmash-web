@@ -8,7 +8,7 @@ page_about:
     model_version: "Opus 5"
   data_sources:
     - manual
-description: "Frequently asked questions about MishMash: the name, the emblem, funding, partners, access to computing power and AI tools, and how to get involved."
+description: "Frequently asked questions about MishMash: what the centre is and does, how to join and take part, partners and businesses, events, computing power and AI tools, and the website."
 ---
 
 # Frequently Asked Questions
@@ -55,6 +55,34 @@ MishMash operates as a distributed, collaborative network rather than a single c
 * A [central management team](/about/organisation/management/) and [board](/about/organisation/board/) provide coordination and strategic oversight
 
 This structure enables broad participation across institutions while maintaining a shared direction. See [Organisation](/about/organisation/) for the full governance structure, including the [Council](/about/organisation/council/) and [Scientific Advisory Board](/about/organisation/scientific-advisory-board/).
+
+</details>
+
+<details class="faq-item" id="what-makes-mishmash-different" markdown="1">
+<summary><span class="faq-summary-text">What makes MishMash different from other AI initiatives?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+MishMash puts creativity at the centre. Art is not a way of communicating research done elsewhere; it is what the centre studies, what it makes, how it expresses what it finds and how it inquires. The centre works from three perspectives at once, humans, machines and society, and pays as much attention to the cultural, ethical, legal and societal sides of AI as to the technology. It is also deliberately a network: more than 200 people at [partner institutions](/search/?type=institution) across Norway and abroad, rather than one building.
+
+</details>
+
+<details class="faq-item" id="does-mishmash-focus-only-on-technology" markdown="1">
+<summary><span class="faq-summary-text">Does MishMash focus only on technology?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+No. Building AI systems, tools and artworks is one of the centre's three approaches. The other two are exploring how AI changes creativity and learning, and reflecting on what AI does to culture, work and society. The [description](/about/description/) explains the three approaches and the [work packages](#what-are-work-packages) show how they meet in practice.
+
+</details>
+
+<details class="faq-item" id="what-topics-does-mishmash-cover" markdown="1">
+<summary><span class="faq-summary-text">What topics does MishMash cover?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+AI in artistic performance and artistic processes; creative uses of AI for health and well-being and in education; the creative and cultural industries, including law, economics and ethics; cultural heritage, archives and collections; and human-centred AI for creative problem-solving, from control rooms to design. Music, film, games, visual art, literature and design all appear. The [results list](/results/) shows what has been published, and the [projects](/projects/) what is under way.
+
+</details>
+
+<details class="faq-item" id="data-rights-consent-heritage" markdown="1">
+<summary><span class="faq-summary-text">Does MishMash work with data rights, consent and cultural heritage?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Yes, both as research topics and in how the centre itself works. [WP5](/wp5/) studies law, economics and ethics in the creative industries, and [WP6](/wp6/) works with archives, libraries and museums on responsible AI for cultural heritage. On its own website the centre states its [terms of use](/about/terms/), says in the [privacy notice](/privacy/) what it publishes about members and on what basis, and declares where AI was used on the [AI colophon](/about/ai-colophon/).
 
 </details>
 
@@ -116,6 +144,34 @@ Members are usually connected to a MishMash partner institution, although we are
 You will not receive any funding by joining as a member, but you will be able to apply for seed funding together with other MishMash partners. 
 </details>
 
+
+<details class="faq-item" id="can-i-join-more-than-one-work-package" markdown="1">
+<summary><span class="faq-summary-text">Can I join more than one work package?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Yes. Members choose one home work package and may take part in as many others as their work spans. The directory lists every work package a person belongs to, and work package events are open to their members.
+
+</details>
+
+<details class="faq-item" id="which-work-package-should-i-join" markdown="1">
+<summary><span class="faq-summary-text">How do I decide which work package to join?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Read the [seven work package pages](#what-are-work-packages) and pick the one closest to your own work as your home. If your interests span several, join those too; the [MeshUps](#what-are-meshups) are a good way to see what each work package is doing before you choose. If in doubt, write to [contact@mishmash.no](mailto:contact@mishmash.no) and say what you work on.
+
+</details>
+
+<details class="faq-item" id="why-am-i-not-in-the-directory" markdown="1">
+<summary><span class="faq-summary-text">Why am I not listed in the directory, and how are the profiles made?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+The [directory](/search/?type=person) shows members who have registered through the membership form and agreed to be listed; registering counts as consent for name, role, affiliation, identifiers and the links you gave, while a portrait needs a separate yes. If you are missing, the usual reason is that the registration has not reached us yet, or that an entry is waiting on that consent. Profiles are built from what you submitted, and results, affiliations and identifiers are refreshed nightly from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/); the hand-entered fields are never overwritten. To be added, changed or removed, write to [contact@mishmash.no](mailto:contact@mishmash.no) or use "Suggest a change" in the footer of your page; the [privacy notice](/privacy/) has the details.
+
+</details>
+
+<details class="faq-item" id="how-can-businesses-engage" markdown="1">
+<summary><span class="faq-summary-text">How can businesses and public organisations engage with MishMash?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Through concrete collaboration rather than membership alone: joint projects and applications with a work package, workshops and hackathons, industry or public-sector PhDs hosted with a partner university, and the [seed funding](#what-are-seed-funding-projects) rounds, which favour collaboration between partners. Organisations start by [becoming an associate partner](#how-do-i-become-a-partner), which gives access to the mailing lists and events; what happens next depends on finding the researchers whose work meets your need, and the work package leaders help with that.
+
+</details>
 
 <details class="faq-item" id="what-is-expected-from-partners" markdown="1">
 <summary><span class="faq-summary-text">What is expected from partners?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
@@ -354,6 +410,20 @@ Many MishMash activities are open, including the weekly MeshUps and conferences.
 
 </details>
 
+<details class="faq-item" id="how-often-are-there-conferences" markdown="1">
+<summary><span class="faq-summary-text">How often does MishMash organise conferences?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Twice a year, hosted in turn by the partner institutions: after the opening conference in Kristiansand in September 2026 come Kristiania University College (spring 2027), the University of Inland Norway (autumn 2027), NTNU (spring 2028), the University of Bergen (autumn 2028) and Østfold University College (spring 2029). Between the conferences there are weekly [MeshUps](#what-are-meshups), work package workshops and hackathons, and partner events.
+
+</details>
+
+<details class="faq-item" id="how-do-i-find-upcoming-events" markdown="1">
+<summary><span class="faq-summary-text">How do I find upcoming events?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+The [events page](/events/) lists MishMash events and [partner events](/events/partner-events/), with a calendar you can subscribe to. Announcements also go to the [announcements mailing list](https://sympa.uio.no/mishmash.no/subscribe/announcements), which anyone can join, and to the work package lists for members.
+
+</details>
+
 <h2 class="faq-section">Communication and content</h2>
 
 <details class="faq-item" id="who-is-responsible-for-content" markdown="1">
@@ -412,6 +482,13 @@ Dotted-underlined words are [stretchtext](https://github.com/MishMash-Norway/mis
 Partly, and openly — fitting for a centre that studies creative uses of AI. AI assistance is used for drafting content, developing code and automation, and translation. Human editors review everything before it is published and remain responsible for it, machine-translated pages are marked, and every AI-assisted change is traceable in the public commit history.
 
 The [AI colophon](/about/ai-colophon/) declares the practice in full, with live numbers.
+
+</details>
+
+<details class="faq-item" id="is-the-website-accessible" markdown="1">
+<summary><span class="faq-summary-text">Is the website accessible?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+The site is built to meet WCAG 2.1 level AA, as the Norwegian regulation on universal design of ICT requires, and every change is checked with two accessibility engines before it is published. The [accessibility page](/accessibility/) says what the site does, how it is checked, and what its known limitations are, and how to report a barrier.
 
 </details>
 
