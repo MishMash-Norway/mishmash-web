@@ -3,8 +3,10 @@
   "private": true,
   "description": "Node tooling for the site's quality checks (visual regression). The site itself is Jekyll.",
   "scripts": {
-    "visual": "playwright test -c tests/visual/playwright.config.js",
-    "visual:update": "playwright test -c tests/visual/playwright.config.js --update-snapshots"
+    "visual": "playwright test -c tests/visual/playwright.config.js tests/visual/visual.spec.js",
+    "visual:update": "playwright test -c tests/visual/playwright.config.js tests/visual/visual.spec.js --update-snapshots",
+    "visual:themes": "playwright test -c tests/visual/playwright.config.js tests/visual/themes.spec.js",
+    "visual:themes:update": "playwright test -c tests/visual/playwright.config.js tests/visual/themes.spec.js --update-snapshots"
   },
   "devDependencies": {
     "@playwright/test": "^1.50.0"

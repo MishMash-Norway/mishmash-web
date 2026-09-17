@@ -273,3 +273,61 @@ jobs:
             playwright-report
             test-results
           if-no-files-found: ignore
+
+  themes:
+    name: Student themes (non-blocking)
+    runs-on: ubuntu-latest
+    needs: build_site
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build site and theme previews
+        run: |
+          bundle exec jekyll build --trace
+          for theme in $(./scripts/ui list); do
+            ./scripts/ui build "$theme" --baseurl "/ui/$theme" --trace
+            mkdir -p "_site/ui/$theme"
+            rsync -a --delete .ui-work/_site/ "_site/ui/$theme/"
+            rm -rf "_site/ui/$theme/internal" "_site/ui/$theme/CNAME"
+          done
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install Playwright
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Serve the previews
+        run: |
+          python3 -m http.server 4000 --directory _site &
+          npx --yes wait-on@7 http://127.0.0.1:4000/
+
+      - name: Accessibility scan of the theme front pages
+        continue-on-error: true
+        run: npx --yes pa11y-ci@4 --config .pa11yci.themes.json
+
+      - name: Compare the theme front pages with the baselines
+        continue-on-error: true
+        run: npx playwright test -c tests/visual/playwright.config.js tests/visual/themes.spec.js
+
+      - name: Keep the report and the diffs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: theme-checks
+          path: |
+            playwright-report
+            test-results
+          if-no-files-found: ignore

@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "runners": [
+      "axe",
+      "htmlcs"
+    ],
+    "threshold": 0,
+    "timeout": 60000,
+    "wait": 800,
+    "concurrency": 1,
+    "levelCapWhenNeedsReview": "warning",
+    "chromeLaunchConfig": {
+      "args": [
+        "--no-sandbox",
+        "--disable-setuid-sandbox"
+      ]
+    }
+  },
+  "urls": [
+    "http://127.0.0.1:4000/ui/bubbles/",
+    "http://127.0.0.1:4000/ui/example/",
+    "http://127.0.0.1:4000/ui/sfa/",
+    "http://127.0.0.1:4000/ui/techy/",
+    "http://127.0.0.1:4000/ui/bubbles/about/",
+    "http://127.0.0.1:4000/ui/example/about/",
+    "http://127.0.0.1:4000/ui/sfa/about/",
+    "http://127.0.0.1:4000/ui/techy/about/"
+  ]
+}
