@@ -3,7 +3,7 @@
 [![Web Quality Checks](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml/badge.svg)](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml)
 [![Deploy Jekyll site to Pages](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/pages.yml/badge.svg)](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/pages.yml)
 
-Source for [mishmash.no](https://mishmash.no), the website of the MishMash Centre for AI and Creativity, a Norwegian research consortium funded by the Research Council of Norway.
+Source for [mishmash.no](https://mishmash.no), the website of the MishMash Centre for AI and Creativity, a Norwegian research consortium funded by the Research Council of Norway. The site is published in English, Bokmål and Nynorsk; the Nynorsk pages are generated from the Bokmål ones at every build.
 
 ## Want to change something on the website?
 
@@ -37,7 +37,8 @@ Install Ruby and run the checks before pushing: [Running the Site Locally][local
 | --- | --- |
 | `site/` | All published content: pages, collections (`_directory`, `_news`, `_events`), layouts, CSS and JS |
 | `themes/` | Student UI themes ([guide](themes/README.md)), published at `/ui/<name>/` |
-| `scripts/` | Python automation ([overview](scripts/README.md)) and the `ui` theme switcher |
+| `scripts/` | Python and Node automation ([overview](scripts/README.md)) and the `ui` theme switcher |
+| `tests/visual/` | Playwright screenshots of the main look and the themes, with their baselines |
 | `config/` | Local credentials (never committed) and the tag merge map ([readme](config/README.md)) |
 | `BRAND.md` | The visual identity: wordmark, colours, type, and the rules for using them |
 
