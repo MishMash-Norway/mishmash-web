@@ -1,24 +1,24 @@
 # The site's languages, in the order the switch shows them. Adding a language
 # means adding a row here and a folder of pages under its prefix.
 #   code:     the lang attribute and the key of its UI strings (translations.yml or translations_<code>.yml)
-#   label:    what the switch shows
+#   label:    what the switch shows (on the closed button, in lower case)
 #   own_name: the language's name in itself, used for the switch's accessible name
 #   prefix:   the first path segment of its pages ("" for the default language)
 #   home:     where the switch goes when a page has no version in this language
 #   generated_from: for a mirror made at build time, the language it is made from
 - code: en
-  label: EN
+  label: "en"
   own_name: English
   prefix: ""
   home: /
   default: true
 - code: nb
-  label: NB
+  label: "no"
   own_name: Norsk bokmål
   prefix: /no
   home: /no/
 - code: nn
-  label: NN
+  label: "nn"
   own_name: Norsk nynorsk
   prefix: /nn
   home: /nn/

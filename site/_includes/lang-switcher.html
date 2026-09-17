@@ -1,13 +1,20 @@
 {% comment %}
-  Language switch driven by site/_data/languages.yml. The page's versions are
-  computed in _layouts/default.html into lang_url_map ("code=url;..."); a
-  missing version points at that language's front page.
+  Language selector: a drop-down like the other menus in the header, driven by
+  site/_data/languages.yml. The closed button shows only the current language
+  code so the nav keeps to one line; the accessible name is the full
+  "Language"/"Språk" label. The page's versions are computed in
+  _layouts/default.html into lang_url_map ("code=url;..."); a missing version
+  points at that language's front page.
 {% endcomment %}
 {% assign current_lang = page.lang | default: 'en' %}
 {% assign sw_pairs = lang_url_map | split: ";" %}
-<div class="lang-switcher" role="group" aria-label="{{ t.lang_switch_label }}">
-  {% for L in site.data.languages %}
-    {% unless forloop.first %}<span class="lang-sep">|</span>{% endunless %}
-    {% if L.code == current_lang %}<span class="lang-active" aria-current="true" lang="{{ L.code }}">{{ L.label }}</span>{% else %}{% assign sw_url = L.home %}{% for _pair in sw_pairs %}{% assign _kv = _pair | split: "=" %}{% if _kv[0] == L.code and _kv[1] %}{% assign sw_url = _kv[1] %}{% endif %}{% endfor %}<a class="lang-option" href="{{ sw_url | relative_url }}" hreflang="{{ L.code }}" lang="{{ L.code }}" aria-label="{{ L.own_name }}">{{ L.label }}</a>{% endif %}
-  {% endfor %}
-</div>
+{% assign current_label = current_lang %}
+{% for L in site.data.languages %}{% if L.code == current_lang %}{% assign current_label = L.label %}{% endif %}{% endfor %}
+<details class="btn wp-dropdown lang-switcher">
+  <summary id="language-summary" aria-expanded="false" aria-label="{{ t.lang_switch_label }}" aria-controls="language-menu">{{ current_label }} ▾</summary>
+  <ul id="language-menu" class="wp-list" aria-labelledby="language-summary">
+    {% for L in site.data.languages %}
+    <li>{% if L.code == current_lang %}<span class="lang-active" aria-current="true" lang="{{ L.code }}">{{ L.own_name }}</span>{% else %}{% assign sw_url = L.home %}{% for _pair in sw_pairs %}{% assign _kv = _pair | split: "=" %}{% if _kv[0] == L.code and _kv[1] %}{% assign sw_url = _kv[1] %}{% endif %}{% endfor %}<a href="{{ sw_url | relative_url }}" hreflang="{{ L.code }}" lang="{{ L.code }}">{{ L.own_name }}</a>{% endif %}</li>
+    {% endfor %}
+  </ul>
+</details>
