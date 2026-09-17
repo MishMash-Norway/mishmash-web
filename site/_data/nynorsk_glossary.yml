@@ -21,6 +21,8 @@ keep:
   - ORCID
   - WCAG
   - Zoom
+  - rosa
+  - Rosa
 replace:
   "Senter for KI og kreativitet": "Senter for KI og kreativitet"
   "Forskningsrådet": "Forskingsrådet"

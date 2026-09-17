@@ -61,6 +61,7 @@ PROTECT = [
     re.compile(r"https?://\S+"),                      # bare URLs
     re.compile(r"\*\*|__"),                           # emphasis markers
     re.compile(r"\{:[^}]*\}"),                        # kramdown attributes
+    re.compile(r"#[0-9a-fA-F]{3,8}(?![\w-])"),          # hex colour codes
     re.compile(r"(?<![\w-])[A-ZÆØÅ][A-ZÆØÅ0-9]{1,}(?![\w-])"),  # acronyms such as NVA, WCAG, RSS
 ]
 SEP = "XQSEPX"
