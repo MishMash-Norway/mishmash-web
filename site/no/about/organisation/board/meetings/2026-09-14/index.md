@@ -26,79 +26,114 @@ Sekretariat:
 - [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) (Senterleder)
 - [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO) (Administrativ koordinator)
 
-Dette er det første fysiske styremøtet, og holdes i forkant av MishMashs [åpningskonferanse](/events/kristiansand2026/) i Kristiansand. Arbeidspakkelederne er invitert til å delta.
+Møtet ble holdt fysisk, i forkant av MishMashs [åpningskonferanse](/events/kristiansand2026/) i Kristiansand. Arbeidspakkelederne deltok under sak 6.
 
 ## Saksliste
 
-### 1. Innkalling 
+### 1. Innkalling
 
 #### Bakgrunn
 
-Innkallingen er utarbeidet av styreleder i samarbeid med senterleder.
+Innkallingen ble utarbeidet av styreleder i samarbeid med senterleder.
 
-#### Forslag til vedtak
+#### Behandling
 
-Innkallingen godkjennes.
+Under eventuelt ble det lagt til et punkt om kommende styremøter.
+
+#### Vedtak
+
+Innkallingen ble godkjent.
 
 ### 2. Godkjenning av protokoll
 
 #### Bakgrunn
 
-- [MishMash styremøte #2](https://mishmash.no/no/about/organisation/board/meetings/2026-06-26/)
+- [MishMash styremøte #2](/no/about/organisation/board/meetings/2026-06-26/)
 
-#### Forslag til vedtak
+#### Vedtak
 
-Protokollen fra forrige styremøte godkjennes.
+Protokollen fra forrige styremøte ble godkjent uten merknader.
 
 ### 3. Orientering fra senterleder
 
-#### Bakgrunn
+#### Behandling
 
-Senterleder vil orientere om aktiviteten i senteret.
+Senterleder orienterte om aktiviteten i senteret. Hovedpunkter som ble nevnt: 
 
-#### Forslag til vedtak
+- Arbeidspakkelederne hadde en heldagssamling i Oslo i juni. De fleste møtene er korte og foregår på Zoom, mens samlingen gjorde det mulig å bruke lenger tid på flere store temaer: tverr- og flerfaglighet, kunstnerisk forskning og utviklingsarbeid og strategier for sampublisering.
 
-Saken tas til orientering.
+- Arrangementer: 
+    - Ledelsen har prioritert å stille opp på utallige paneldebatter og gjesteforelesninger for å nå ut til ulike målgrupper. 
+    - Ida Jahr deltok på kronprinsens reise til Tokyo. 
+    - MishMash organiserte et eget panel under Arendalsuka i NORA-teltet. 
+    - Flere av arbeidspakkelederne koordinerte et nettverksarrangement på Ars Electronica.
 
-### 4. Økonomirapport
+- Partneravtaler signeres fortløpende. Det er åpent for å koble seg på, men det understrekes at deltagelse ikke gir noen direkte økonomisk uttelling. 
 
-#### Bakgrunn
+- Rekruttering: over 20 personer er tilsatt, og de gjenstående er i prosess. En ordning med [masterstipendiater](/news/master-fellows/) er satt i gang.
 
-Administrativ koordinator vil orientere om den økonomiske situasjonen i senteret.
+- Nytt design ble utviklet til åpningskonferansen og er implementert på nettsidene.
 
-#### Forslag til vedtak
+- Konferanser: kommende vertskap er Høyskolen Kristiania (vår 2027), Høgskolen i Innlandet (høst 2027), NTNU (vår 2028), Universitetet i Bergen (høst 2028) og Høgskolen i Østfold (vår 2029).
 
-Saken tas til orientering.
+- Ledelsen jobber med å støtte opp under søknadsutvikling. En utfordring er at MishMash ikke er en juridisk enhet og derfor ikke kan søke på egen hånd. Det arbeides med mekanismer for hvordan MishMash kan synliggjøres i søknader fra de enkelte institusjonene.
+
+#### Vedtak
+
+Saken ble tatt til orientering.
+
+### 4. Økonomi
+
+#### Behandling
+
+Administrativ koordinator orienterte om den økonomiske situasjonen i senteret. Forbruket er noe lavere enn budsjettert grunnet forsinkete oppstarter av rekrutter. Det er imidlertid vanskelig å få full oversikt, ettersom de færresten av partnerne har fakturert noe ennå. 
+
+Såkornmidler runde 2 ble behandlet før sommeren. Det ble søkt om lag 1,5 millioner kroner og rundt 700 000 kroner ble tildelt. Styret ba om at prinsippene for tildeling av såkornmidler er transparente. Senterleder forklarte at behandlingen begynte med at arbeidspakkelederne rangerte søknadene som var merket til egen arbeidspakke, deretter ble alle søknadene behandlet i et felles møte. Runde 3 er under planlegging og det vil jobbes videre med å sikre transparens i behandlingen. 
+
+#### Vedtak
+
+Saken ble tatt til orientering. 
 
 ### 5. Rapportering til Forskningsrådet
 
 #### Bakgrunn
 
-Den første rapporteringen til Forskningsrådet skal gjennomføres innen 1. oktober 2026. Administrativ koordinator orienterer om hvordan rapporten utarbeides.
+Den første rapporten til Forskningsrådet skal leveres innen 1. oktober 2026.
 
-#### Forslag til vedtak
+#### Behandling
 
-Saken tas til orientering.
+Ledelsen jobber med å sikre at alle registrerer forskningsresultater i NVA, merket med MishMash, slik at rapportering kan gjøres så automatisk som mulig. Ellers vil rapporten være basert på oppdatering av tilsatte rekrutter, samt oppdatering av populærvitenskapelige fremstillinger av senteret. Arbeidet er under kontroll.
 
+#### Vedtak
+
+Saken ble tatt til orientering.
 
 ### 6. Status fra arbeidspakkene
 
 #### Bakgrunn
 
-Arbeidspakkelederne er invitert til å gi korte statusinnlegg på fire minutter hver, med vekt på prosjektoppstart og eventuelle problemstillinger styret kan bistå med. Styret bes lese mer om hver av arbeidspakkene før møtet:
+Arbeidspakkelederne var invitert til å gi korte statuspresentasjoner for hver sin arbeidspakke. Sesjonen ble holdt på engelsk.
 
-- [WP1: AI for artistic performances](/wp1/)
-- [WP2: AI in artistic processes](/wp2/)
-- [WP3: Creative use of AI for health and well-being](/wp3/)
-- [WP4: Creative use of AI in education](/wp4/)
-- [WP5: AI in the Creative and Cultural Industries](/wp5/)
-- [WP6: AI for cultural heritage](/wp6/)
-- [WP7: Human-centric AI for Creative Problem-Solving](/wp7/)
+#### Behandling
 
+Styret konstaterte at senteret er i god rute. Temaer som ble diskutert: samarbeid mellom arbeidspakkene, samarbeid med de andre KI-sentrene, aktivisering av de ikke-akademiske partnerne og potensialet til europeiske universitetsallianser. 
 
-#### Forslag til vedtak
+#### Vedtak
 
-Saken tas til orientering.
-
+Saken ble tatt til orientering. 
 
 ### 7. Eventuelt
+
+#### Behandling
+
+Styret diskuterte møtefrekvens og saker som bør behandles.
+
+#### Vedtak
+
+Styret kom frem til følgende skisse:
+
+| Når | Form | Innhold |
+| --- | --- | --- |
+| November 2026 | Nettmøte | Regneressurser, institusjonenes egenfinansiering, kommunikasjonsstrategi |
+| Februar 2027 | Nettmøte | Regnskap og budsjett |
+| April 2027 | Fysisk | Orientering fra arbeidspakkelederne |
