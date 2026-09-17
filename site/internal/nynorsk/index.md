@@ -32,7 +32,7 @@ Survey written 2026-09-17 for Alexander Refsum Jensenius. Every claim below come
 
 ### 1.1 The Language Act (språklova, LOV-2021-05-21-42)
 
-Source: https://lovdata.no/lov/2021-05-21-42
+Source: [lovdata.no](https://lovdata.no/lov/2021-05-21-42)
 
 - Purpose (§ 1): strengthen Norwegian as a society-bearing language and promote equality between Bokmål and Nynorsk.
 - § 4: Bokmål and Nynorsk are equal written languages in public bodies.
@@ -53,7 +53,7 @@ The regulation to the Act: the consultation page for the forskrift (deadline 202
 
 ### 1.2 How Språkrådet supervises and reports
 
-Source: https://sprakradet.no/spraklova/norsk-sprak/tilsyn-med-bruken-av-bokmal-og-nynorsk-i-staten/
+Source: [sprakradet.no](https://sprakradet.no/spraklova/norsk-sprak/tilsyn-med-bruken-av-bokmal-og-nynorsk-i-staten/)
 
 - Three categories are supervised: generally accessible documents (website text, social media posts, job adverts), forms (paper and digital) and digital self-service functions.
 - Reporting is yearly, in January, deadline 31 January. Two methods: the Målfrid crawler, run by Språkbanken at the National Library, harvests state websites and measures text volume in Bokmål, Nynorsk, English and Sami; a Questback survey collects what Målfrid cannot see (social media, forms, digital services).
@@ -95,7 +95,7 @@ Each subsection states what the fetched policy says on: main language, minimum s
 
 #### University of Oslo (UiO)
 
-Sources: https://www.uio.no/for-ansatte/arbeidsstotte/profil/sprak/malbruk/ and https://www.uio.no/for-ansatte/arbeidsstotte/kommunikasjon/nettarbeid/veiledninger/skrive-for-nett/sprak/nynorsk/
+Sources: [uio.no](https://www.uio.no/for-ansatte/arbeidsstotte/profil/sprak/malbruk/) and [uio.no](https://www.uio.no/for-ansatte/arbeidsstotte/kommunikasjon/nettarbeid/veiledninger/skrive-for-nett/sprak/nynorsk/)
 
 - UiO must follow the Act: at least 25 % of texts on the web and in print must be in Nynorsk; the rule covers letters, websites, forms, press releases and exam papers; internal texts for staff are exempt. Anyone who writes to UiO gets a reply in the same form.
 - All staff must be able to use both forms; UiO as employer offers Nynorsk courses.
@@ -105,77 +105,77 @@ Sources: https://www.uio.no/for-ansatte/arbeidsstotte/profil/sprak/malbruk/ and 
 
 #### University of Bergen (UiB)
 
-Source: https://www4.uib.no/om-uib/organisasjon/sprakpolitisk-utval
+Source: [www4.uib.no](https://www4.uib.no/om-uib/organisasjon/sprakpolitisk-utval)
 
 - Norwegian is the main language; Nynorsk is to have a central place, and UiB states a special responsibility for Nynorsk in Norwegian higher education. Guidelines adopted by the board 2019-10-31. The full PDF (https://ekstern.filer.uib.no/ledelse/universitetsstyret/2019/2019-10-31/S_99-19Språkpolitiske_retningslinjervedUiB.pdf) was not fetched, so nothing is stated here on share, tools, Sami or sign language.
 
 #### NTNU
 
-Source: https://www.ntnu.no/sprakpolitiske-retningslinjer
+Source: [ntnu.no](https://www.ntnu.no/sprakpolitiske-retningslinjer)
 
 - In force 2023-01-01. Main language is Norwegian, covering both Bokmål and Nynorsk, with measures to strengthen Nynorsk competence and use. Administrative staff must have sufficient competence in both forms and in English. No percentage is given in the guidelines themselves. Norwegian sign language is named as the national sign language, with interpreting and captioning at institutional events. No Sami provision on the page fetched.
 
 #### UiT The Arctic University of Norway
 
-Source: https://uit.no/utdanning/art?p_document_id=347818&dim=179017
+Source: [uit.no](https://uit.no/utdanning/art?p_document_id=347818&dim=179017)
 
 - Both forms are to be used to a significant extent in generally accessible circulars, announcements and information material, at minimum as the law requires; central documents in parallel versions; staff who prefer Nynorsk are supported and courses in Nynorsk are offered. UiT has national responsibility for North Sami: key documents and websites in North Sami where practical, and replies in North Sami where possible. Kven is named; generic profiling material should exist in Nynorsk, Bokmål, Sami, Kven and English. A language committee reports every 2 years to the rector. Approved by the rector under delegation (FS 42/23); page last edited 2024-02-08. No sign language provision on the page fetched.
 
 #### University of Agder (UiA)
 
-Source: https://www.uia.no/om-uia/regelverk-og-retningslinjer/sprakpolitiske-retningslinjer.html
+Source: [uia.no](https://www.uia.no/om-uia/regelverk-og-retningslinjer/sprakpolitiske-retningslinjer.html)
 
 - Adopted 2021-09-15 (board case 112/21). Norwegian, both Nynorsk and Bokmål, is the main language; staff follow the rules on both forms; staff and students with Nynorsk are encouraged to use it. A language service develops courses, does language review and translation for research and outreach. No Sami or sign language provisions.
 
 #### Western Norway University of Applied Sciences (HVL)
 
-Source: https://www.hvl.no/om/sentrale-dokument/reglar/sprakpolitiske-retningslinjer/
+Source: [hvl.no](https://www.hvl.no/om/sentrale-dokument/reglar/sprakpolitiske-retningslinjer/)
 
 - Nynorsk is the main language, with a stated duty to support, use and develop it; no written form under 25 %. Staff and students are expected to keep Nynorsk competence; international permanent academic staff must document B2 within 3 years. HVL will set language requirements on IT suppliers, prioritise Nynorsk in learning platforms and search, and contribute to strengthening Nynorsk in AI tool development. Writing support and courses are offered. Norwegian sign language is a priority language with interpreters on demand. No Sami provision. Revised October 2025.
 
 #### University of Inland Norway (INN, formerly HINN)
 
-Source: https://www.inn.no/om-universitetet/organisering/styringsdokumenter/Spraakpolitiske-retningslinjer-HINN (PDF)
+Source: [inn.no](https://www.inn.no/om-universitetet/organisering/styringsdokumenter/Spraakpolitiske-retningslinjer-HINN) (PDF)
 
 - Approved by the board 2019-03-12 (case 15/19). Norwegian, both Bokmål and Nynorsk with reference to the then Lov om målbruk i offentleg teneste, is the primary working and administrative language; the mållov's provisions apply in addition. Access to a language editing service is to be provided. No percentage, Sami or sign language provision.
 
 #### Nord University
 
-Source: https://www.nord.no/sites/default/files/inline-images/Spraakpolitiske-retningsliner-nynorsk.pdf
+Source: [nord.no](https://www.nord.no/sites/default/files/inline-images/Spraakpolitiske-retningsliner-nynorsk.pdf)
 
 - Adopted 2018-09-18. Motto: secure Norwegian, promote Sami, improve English. Norwegian is the primary language; Bokmål is the majority form in Nord's regions, and the aim is to meet the mållov's requirement of at least 25 % Nynorsk in generally accessible circulars, announcements and information. Staff and students are to have access to information, training and language services. National responsibility for Lule Sami and South Sami; Sami as a publishing language; main signage in Norwegian and Sami. No sign language provision.
 
 #### OsloMet
 
-Source attempted: https://ansatt.oslomet.no/en/language-policy-guidelines-oslomet and https://ansatt.oslomet.no/sprakpolitiske-retningslinjer-oslomet, both returned HTTP 403, so the policy text is not summarised here. What the fetched 2024 supervision report says: OsloMet has worked well with Nynorsk for several years and is the only university meeting the alternation requirement in new web text for 2024, with a caveat on harvesting (https://sprakradet.no/wp-content/uploads/Rapport-fra-tilsynet-med-bruken-av-nynorsk-og-bokmal-i-staten-for-2024_retta-versjon-141125.pdf, p. 48).
+Source attempted: [ansatt.oslomet.no](https://ansatt.oslomet.no/en/language-policy-guidelines-oslomet) and [ansatt.oslomet.no](https://ansatt.oslomet.no/sprakpolitiske-retningslinjer-oslomet), both returned HTTP 403, so the policy text is not summarised here. What the fetched 2024 supervision report says: OsloMet has worked well with Nynorsk for several years and is the only university meeting the alternation requirement in new web text for 2024, with a caveat on harvesting (https://sprakradet.no/wp-content/uploads/Rapport-fra-tilsynet-med-bruken-av-nynorsk-og-bokmal-i-staten-for-2024_retta-versjon-141125.pdf, p. 48).
 
 #### Kristiania University College (private)
 
-Source: https://www.kristiania.no/globalassets/strategi-og-rapporter/sprakpolitiske-retningslinjer-ved-hoyskolen-kristiania2.pdf
+Source: [kristiania.no](https://www.kristiania.no/globalassets/strategi-og-rapporter/sprakpolitiske-retningslinjer-ved-hoyskolen-kristiania2.pdf)
 
 - Adopted 2020-12-17. Norwegian covers both Bokmål and Nynorsk; use of written language is to comply with current law; staff and students with Nynorsk may use it; parallel language use with English as the primary foreign language. No percentage, Sami or sign language provision.
 
 #### Norwegian Academy of Music (NMH)
 
-Source: https://ansatt.nmh.no/organisasjon/strategier/sprakpolitiske-retningslinjer-for-norges-musikkhogskole
+Source: [ansatt.nmh.no](https://ansatt.nmh.no/organisasjon/strategier/sprakpolitiske-retningslinjer-for-norges-musikkhogskole)
 
 - At least 25 % of each form in NMH's combined external communication; all official forms in both forms; based on Språkrådet's 2018 guide for the sector. No adoption date given; no Sami or sign language provision. The 2024 supervision report notes NMH nearly meets the requirement when social media and web are seen together.
 
 #### Oslo National Academy of the Arts (KHiO)
 
-Source: https://khio.no/intranett/nyheter/sprakpolitikk-for-khio
+Source: [khio.no](https://khio.no/intranett/nyheter/sprakpolitikk-for-khio)
 
 - Adopted 2014-09-30. Both forms are to be clearly visible in written texts across channels in line with the Act. Sami and Norwegian are equal official languages and Sami is to be treated equally where natural. No percentage, tools or sign language provision.
 
 #### Østfold University College (HiØ)
 
-Source: https://www.hiof.no/om/styringsdokumenter-rapporter/styringsdokumenter/sprakpolitisk-plattform.html
+Source: [hiof.no](https://www.hiof.no/om/styringsdokumenter-rapporter/styringsdokumenter/sprakpolitisk-plattform.html)
 
 - Published 2020-06-04, revised 2022-02-15 to align with the Act. Norwegian means both forms; administrative staff follow the Act's rules on the two forms; no percentage, Sami or sign language provision. HiØ was under 5 % in new web text in 2024 and at 4 % in 2025 (Khrono, above), while it had all forms and self-service in both forms in 2024.
 
 #### NLA University College (private)
 
-Source: https://www.nla.no/om-nla/vedtekter-og-planer/_/attachment/inline/33f3aebb-a541-48b7-86fb-e51b9aa3f53b:3998fdc87cd19deadeeb617570630d29dfab363c/sprakpolitiske-retningslinjer-nla.pdf
+Source: [nla.no](https://www.nla.no/om-nla/vedtekter-og-planer/_/attachment/inline/33f3aebb-a541-48b7-86fb-e51b9aa3f53b:3998fdc87cd19deadeeb617570630d29dfab363c/sprakpolitiske-retningslinjer-nla.pdf)
 
 - Norwegian (Bokmål and Nynorsk) is the main language for teaching, outreach and administration. Both forms are to be used actively on paper and web, through parallel versions or by having some documents in one form and others in the other, or chapters in each; roughly equal distribution is to be sought in forms, governing documents and web information, and at least 25 % of such texts should be in the form used least. Formal enquiries are answered in the same form. No adoption date on the document; no Sami or sign language provision.
 
@@ -183,30 +183,30 @@ Source: https://www.nla.no/om-nla/vedtekter-og-planer/_/attachment/inline/33f3ae
 
 ### 2.1 Apertium nob-nno (rule-based)
 
-Sources: https://github.com/apertium/apertium-nno-nob, https://wiki.apertium.org/wiki/Norwegian_Nynorsk_and_Norwegian_Bokm%C3%A5l, https://wiki.apertium.org/wiki/Apertium-apy
+Sources: [github.com](https://github.com/apertium/apertium-nno-nob), [wiki.apertium.org](https://wiki.apertium.org/wiki/Norwegian_Nynorsk_and_Norwegian_Bokm%C3%A5l), [wiki.apertium.org](https://wiki.apertium.org/wiki/Apertium-apy)
 
 - Licence GPL-2.0. Requires lttoolbox, apertium, vislcg3 and apertium-lex-tools; built with autogen, configure, make. Command line: `echo "..." | apertium -d . nob-nno`. Variants: nno (a-mål, default, "me"), nno_e (e-mål, "vi"), nno_e_me, nno_a_vi. Latest release 1.6.0; test at beta.apertium.org.
 - Quality: median word error rate under 5 % on NTB news articles (1,221 articles, median WER 3.95 to 4.37 %); a 2009 test gave 10.71 % on a linguistics article. A 2024 comparison against large language models on the wiki page reports BLEU 0.817 to 0.898, METEOR 0.932 to 0.964, BERTScore 0.984 to 0.987 for the pair.
 - Users and funding: Nynorsk Wikipedia uses it for translation suggestions; NPK and the Ministry of Culture have sponsored development 2018 to 2026.
-- API: apertium-apy is a Python 3 API server with /translate, /listPairs, /analyze, /generate and /translateDoc; it preserves markup through deformatter and reformatter parameters (HTML, plain text, RTF and others); a public instance runs at https://apertium.org/apy for released pairs; MediaWiki Content Translation uses it. It can be self-hosted in a build pipeline.
+- API: apertium-apy is a Python 3 API server with /translate, /listPairs, /analyze, /generate and /translateDoc; it preserves markup through deformatter and reformatter parameters (HTML, plain text, RTF and others); a public instance runs at [apertium.org](https://apertium.org/apy) for released pairs; MediaWiki Content Translation uses it. It can be self-hosted in a build pipeline.
 
 ### 2.2 Nynorskroboten (NPK, NTB, NTB Arkitekst)
 
-Sources: https://kommunikasjon.ntb.no/pressemelding/nasjonalbiblioteket-samarbeider-med-nynorsk-pressekontor-npk-og-ntb-om-vidareutvikling-av-nynorskroboten?publisherId=17847232&releaseId=17877823 (2020-01-14), https://kommunikasjon.ntb.no/pressemelding/ntb-arkitekst-tar-over-nynorskroboten?publisherId=17847221&releaseId=17926255 (2022-02-11)
+Sources: [kommunikasjon.ntb.no](https://kommunikasjon.ntb.no/pressemelding/nasjonalbiblioteket-samarbeider-med-nynorsk-pressekontor-npk-og-ntb-om-vidareutvikling-av-nynorskroboten?publisherId=17847232&releaseId=17877823) (2020-01-14), [kommunikasjon.ntb.no](https://kommunikasjon.ntb.no/pressemelding/ntb-arkitekst-tar-over-nynorskroboten?publisherId=17847221&releaseId=17926255) (2022-02-11)
 
 - Built by NPK from 2018 on open source code and 37,000 parallel NTB/NPK texts (74,000 articles) handed to the National Library in 2019; the Library gave NOK 500,000 in 2020 for further development and hosts the parallel texts in Språkbanken.
 - Since 2022 NTB Arkitekst offers it commercially; it is built on Apertium, which NPK continued developing through 2022. NTB Arkitekst's director claims the error margin is lower than for manual translation; no figures, prices or API details are given.
 
 ### 2.3 NRK and the newspapers
 
-Source: https://framtida.no/2026/03/19/mindre-nynorsk-i-nrk-i-2025-kjipt-a-sja
+Source: [framtida.no](https://framtida.no/2026/03/19/mindre-nynorsk-i-nrk-i-2025-kjipt-a-sja)
 
 - NRK's 2025 Nynorsk shares: TV 28 %, radio 23.3 %, web 23.4 %, overall 26.6 %, against a requirement of 25 % on each platform.
 - NRK's language chief says NRK uses the rule-based Nynorskroboten from NTB to translate from Bokmål to Nynorsk and explicitly does not use AI for that; NRK strengthened quality control of articles in 2025 and runs a Nynorskhjelparen service for journalists before publication.
 
 ### 2.4 Nyno and Nynorobot (Nynodata AS, commercial)
 
-Sources: https://www.nynodata.no/nyno, https://nynodata.site/info/omnynorobot/, https://nynodata.no/kjop/
+Sources: [nynodata.no](https://www.nynodata.no/nyno), [nynodata.site](https://nynodata.site/info/omnynorobot/), [nynodata.no](https://nynodata.no/kjop/)
 
 - Nyno converts Bokmål to Nynorsk sentence by sentence with suggestions; style templates for radical, moderate or conservative Nynorsk and regional tailoring; editions for Chrome, Office (Nyno 4) and CMS. Nynorobot is the automatic converter, described as built on years of development and open source components, with conservative, moderate and radical output, a web demo, Office 365 integration and CMS connections; it is marketed to public bodies for the 25 % rule.
 - Licence: subscriptions of 1 to 2 years; institutional licences on quotation. No prices on the pages fetched; the single-user price page returned 404. UiO's staff page says staff can download Nyno (see 1.3).
@@ -240,7 +240,7 @@ Note that this test measured text generation, not Bokmål to Nynorsk translation
 
 ### 3.1 Build-time translation in CI
 
-- Apertium: the pair builds from source (GPL-2.0) and apertium-apy exposes HTTP endpoints; both can be installed in a GitHub Actions job or the public https://apertium.org/apy instance can be called for released pairs. APy's HTML deformatter and reformatter keep markup intact, which matters for Jekyll output or Liquid-free Markdown (https://wiki.apertium.org/wiki/Apertium-apy, https://github.com/apertium/apertium-nno-nob).
+- Apertium: the pair builds from source (GPL-2.0) and apertium-apy exposes HTTP endpoints; both can be installed in a GitHub Actions job or the public [apertium.org](https://apertium.org/apy) instance can be called for released pairs. APy's HTML deformatter and reformatter keep markup intact, which matters for Jekyll output or Liquid-free Markdown (https://wiki.apertium.org/wiki/Apertium-apy, [github.com](https://github.com/apertium/apertium-nno-nob)).
 - i18n-ai-translate: GPL-3.0 CLI, library and GitHub Action (`taahamahdi/i18n-ai-translate@master`) with OpenAI, Gemini, Claude or local Ollama backends; a JSON cache acts as translation memory so unchanged strings are not resent; a JSON glossary keeps terms verbatim or forces exact per-language translations. Supported formats are i18next JSON, Gettext .po, Java .properties, iOS .strings, Rails YAML and JS/TS modules; Markdown and HTML are not listed (https://github.com/taahamahdi/i18n-ai-translate). For a Jekyll site this fits UI strings in `_data`, not page bodies.
 - Weblate (self-hosted or hosted): built-in translation memory with fuzzy matching, glossaries, and machine translation backends including Apertium APy, OpenAI, Anthropic Claude (from 5.16), Mistral and Ollama; 100 % translation memory matches take priority over machine translation; LLM backends receive glossary entries and failed checks as context; code-hosting and version control integration is documented separately (https://docs.weblate.org/en/latest/admin/machine.html). Weblate works on translation files (gettext and others), so page bodies would need to be split into units first.
 - Measuring the share: Målfrid, Språkrådet's crawler, is open source on GitHub and as a Python package, so the Nynorsk share of mishmash.no can be measured the same way Språkrådet measures UiO (2024 report, p. 17).

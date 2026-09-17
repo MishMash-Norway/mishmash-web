@@ -17,28 +17,28 @@ This survey supports the [communication strategy](/internal/communication-strate
 
 | Institution | Document | Year | URL | Found |
 |---|---|---|---|---|
-| AHO | Språkpolitiske retningslinjer; Retningslinjer og anbefalinger for bruk av kunstig intelligens ved AHO | 2026; 2025 (updated 2026) | https://www.aho.no/om/strategi-plan-og-styringsdokumenter/plan-og-styringsdokumenter/sprakpolitiske-retningslinjer.html ; https://www.aho.no/bibliotek/retningslinjer-for-ki.html | partial |
-| BI | Strategy 2030: Knowledge that makes a difference | to 2030 | https://www.bi.no/en/about-bi/strategy2030/ | partial |
-| HiØ | Institusjonell kommunikasjonsstrategi 2024 (measure under the strategic theme Strategisk omdømmebygging; the document itself is not published) | 2024 | https://www.hiof.no/om/styringsdokumenter-rapporter/strategiske-temaer/strategisk-omdommebygging/institusjonell-kommunikasjonsstrategi-2024/ | partial |
-| HVL | Språkpolitiske retningslinjer for Høgskulen på Vestlandet | 2025 (revised) | https://www.hvl.no/om/sentrale-dokument/reglar/sprakpolitiske-retningslinjer/ | partial |
-| IFE | IFE Corporate Strategy 2025-2029, section Role in society and communication | 2025-2029 | https://ife.no/wp-content/uploads/2025/02/ife-corporate-strategy-2025-2029-external.pdf | partial |
-| INN | Språkpolitiske retningslinjer for HINN | 2019 | https://www.inn.no/om-universitetet/organisering/styringsdokumenter/Spraakpolitiske-retningslinjer-HINN | partial |
-| KHiO | Kommunikasjonsstrategi for Kunsthøgskolen i Oslo (draft for leadership meeting, period to 2016) | 2013 | https://khio.no/system/resources/W1siZiIsIjIwMTYvMDcvMjcvMTNfMzFfMTFfNDI4X0tvbW11bmlrYXNqb25zc3RyYXRlZ2lfdXRrYXN0X2xlZGVybXRlXzIwanVuaS5wZGYiXV0/Kommunikasjonsstrategi_utkast_ledermte_20juni.pdf | yes (dated draft) |
-| Kristiania | Strategi 2026-2030; Språkpolitiske retningslinjer ved Høyskolen Kristiania | 2026; 2020 (updated 2025) | https://www.kristiania.no/contentassets/ab297570b439490f8f69eea879890ef4/kristiania-strategi-2026-2030.pdf ; https://www.kristiania.no/contentassets/8401d4c23c9c4f77a367353c41ed4223/sprakpolitiske-retningslinjer-ved-hoyskolen-kristiania-ernst-g-mortensens-stiftelse-04.04.25.pdf | partial |
-| National Library | Strategi for Nasjonalbiblioteket 2024-2029 | 2024-2029 | https://www.nb.no/om-nb/mandat-og-strategi/ | partial |
-| NILU | NILU's strategy 2025-2029 (abridged) | 2025-2029 | https://nilu.com/wp-content/uploads/2025/10/nilu-strategy-2025-2029-ppt-10p-final-english.pdf | partial |
-| NLA | NLA Høgskolen brand identity and guideline (Brandpad) | undated | https://brandpad.io/nla-hgskolen/ | partial |
-| NMH | Språkpolitiske retningslinjer for Norges musikkhøgskole; staff page Kommunikasjon | undated | https://ansatt.nmh.no/organisasjon/strategier/sprakpolitiske-retningslinjer-for-norges-musikkhogskole ; https://ansatt.nmh.no/en/staff-support/communication | partial |
-| Nord | Communication Strategy for Nord University 2024-2030 | 2024-2030 | https://www.nord.no/sites/default/files/2024-12/Kommunikasjonsstrategi%20Nord_eng.pdf | yes |
-| NORSUS | NORSUS strategi 2024-2027 (page shows a cover image only) | 2024-2027 | https://norsus.no/en/norsus-strategi-2024-2027/ | no |
-| NTNU | Kommunikasjonspolitikk for NTNU; Retningslinjer for sosiale medier ved NTNU | 2012; undated | https://www.ntnu.no/kommunikasjonspolitikk ; https://i.ntnu.no/wiki/-/wiki/Norsk/Retningslinjer+for+sosiale+medier+ved+NTNU | yes |
-| OsloMet | Kommunikasjonspolicy | 2016 (page updated 2025) | https://ansatt.oslomet.no/kommunikasjonspolicy | yes |
-| Simula / SimulaMet | Simula Strategy | 2025 | https://cms.simula.no/sites/default/files/2025-08/Simula_Strategy_2025_0.pdf | partial |
-| SINTEF | Års- og bærekraftsrapport 2025 (one paragraph on external communication) | 2025 | https://www.sintef.no/globalassets/sintef-konsernstab/arsrapporter/sintef-arsrapport-2025-300426-2.pdf | no |
-| UiA | Handlingsplan for kommunikasjon 2025-2028 | 2025-2028 | https://www.uia.no/om-uia/sentrale-dokumenter/handlingsplan-for-kommunikasjon/ | yes |
-| UiB | Kommunikasjonsplattform Universitetet i Bergen | 2017 | https://ekstern.filer.uib.no/formidling/Kommunikasjonsplattform_070717.pdf | yes (dated) |
-| UiO | Kommunikasjonsstrategi for Universitetet i Oslo (board case V-sak 6, 23 June 2015) | 2015 | https://www.uio.no/om/organisasjon/styret/moter/2015/4/v-sak-6-kommunikasjonsstrategi.pdf | yes (dated) |
-| UiT | Kommunikasjonsplattform for UiT 2024-2030 | 2024-2030 | https://uit.no/om/kommunikasjonsplattform | yes |
+| AHO | Språkpolitiske retningslinjer; Retningslinjer og anbefalinger for bruk av kunstig intelligens ved AHO | 2026; 2025 (updated 2026) | [aho.no](https://www.aho.no/om/strategi-plan-og-styringsdokumenter/plan-og-styringsdokumenter/sprakpolitiske-retningslinjer.html) ; [aho.no](https://www.aho.no/bibliotek/retningslinjer-for-ki.html) | partial |
+| BI | Strategy 2030: Knowledge that makes a difference | to 2030 | [bi.no](https://www.bi.no/en/about-bi/strategy2030/) | partial |
+| HiØ | Institusjonell kommunikasjonsstrategi 2024 (measure under the strategic theme Strategisk omdømmebygging; the document itself is not published) | 2024 | [hiof.no](https://www.hiof.no/om/styringsdokumenter-rapporter/strategiske-temaer/strategisk-omdommebygging/institusjonell-kommunikasjonsstrategi-2024/) | partial |
+| HVL | Språkpolitiske retningslinjer for Høgskulen på Vestlandet | 2025 (revised) | [hvl.no](https://www.hvl.no/om/sentrale-dokument/reglar/sprakpolitiske-retningslinjer/) | partial |
+| IFE | IFE Corporate Strategy 2025-2029, section Role in society and communication | 2025-2029 | [ife.no](https://ife.no/wp-content/uploads/2025/02/ife-corporate-strategy-2025-2029-external.pdf) | partial |
+| INN | Språkpolitiske retningslinjer for HINN | 2019 | [inn.no](https://www.inn.no/om-universitetet/organisering/styringsdokumenter/Spraakpolitiske-retningslinjer-HINN) | partial |
+| KHiO | Kommunikasjonsstrategi for Kunsthøgskolen i Oslo (draft for leadership meeting, period to 2016) | 2013 | [khio.no](https://khio.no/system/resources/W1siZiIsIjIwMTYvMDcvMjcvMTNfMzFfMTFfNDI4X0tvbW11bmlrYXNqb25zc3RyYXRlZ2lfdXRrYXN0X2xlZGVybXRlXzIwanVuaS5wZGYiXV0/Kommunikasjonsstrategi_utkast_ledermte_20juni.pdf) | yes (dated draft) |
+| Kristiania | Strategi 2026-2030; Språkpolitiske retningslinjer ved Høyskolen Kristiania | 2026; 2020 (updated 2025) | [kristiania.no](https://www.kristiania.no/contentassets/ab297570b439490f8f69eea879890ef4/kristiania-strategi-2026-2030.pdf) ; [kristiania.no](https://www.kristiania.no/contentassets/8401d4c23c9c4f77a367353c41ed4223/sprakpolitiske-retningslinjer-ved-hoyskolen-kristiania-ernst-g-mortensens-stiftelse-04.04.25.pdf) | partial |
+| National Library | Strategi for Nasjonalbiblioteket 2024-2029 | 2024-2029 | [nb.no](https://www.nb.no/om-nb/mandat-og-strategi/) | partial |
+| NILU | NILU's strategy 2025-2029 (abridged) | 2025-2029 | [nilu.com](https://nilu.com/wp-content/uploads/2025/10/nilu-strategy-2025-2029-ppt-10p-final-english.pdf) | partial |
+| NLA | NLA Høgskolen brand identity and guideline (Brandpad) | undated | [brandpad.io](https://brandpad.io/nla-hgskolen/) | partial |
+| NMH | Språkpolitiske retningslinjer for Norges musikkhøgskole; staff page Kommunikasjon | undated | [ansatt.nmh.no](https://ansatt.nmh.no/organisasjon/strategier/sprakpolitiske-retningslinjer-for-norges-musikkhogskole) ; [ansatt.nmh.no](https://ansatt.nmh.no/en/staff-support/communication) | partial |
+| Nord | Communication Strategy for Nord University 2024-2030 | 2024-2030 | [nord.no](https://www.nord.no/sites/default/files/2024-12/Kommunikasjonsstrategi%20Nord_eng.pdf) | yes |
+| NORSUS | NORSUS strategi 2024-2027 (page shows a cover image only) | 2024-2027 | [norsus.no](https://norsus.no/en/norsus-strategi-2024-2027/) | no |
+| NTNU | Kommunikasjonspolitikk for NTNU; Retningslinjer for sosiale medier ved NTNU | 2012; undated | [ntnu.no](https://www.ntnu.no/kommunikasjonspolitikk) ; [i.ntnu.no](https://i.ntnu.no/wiki/-/wiki/Norsk/Retningslinjer+for+sosiale+medier+ved+NTNU) | yes |
+| OsloMet | Kommunikasjonspolicy | 2016 (page updated 2025) | [ansatt.oslomet.no](https://ansatt.oslomet.no/kommunikasjonspolicy) | yes |
+| Simula / SimulaMet | Simula Strategy | 2025 | [cms.simula.no](https://cms.simula.no/sites/default/files/2025-08/Simula_Strategy_2025_0.pdf) | partial |
+| SINTEF | Års- og bærekraftsrapport 2025 (one paragraph on external communication) | 2025 | [sintef.no](https://www.sintef.no/globalassets/sintef-konsernstab/arsrapporter/sintef-arsrapport-2025-300426-2.pdf) | no |
+| UiA | Handlingsplan for kommunikasjon 2025-2028 | 2025-2028 | [uia.no](https://www.uia.no/om-uia/sentrale-dokumenter/handlingsplan-for-kommunikasjon/) | yes |
+| UiB | Kommunikasjonsplattform Universitetet i Bergen | 2017 | [ekstern.filer.uib.no](https://ekstern.filer.uib.no/formidling/Kommunikasjonsplattform_070717.pdf) | yes (dated) |
+| UiO | Kommunikasjonsstrategi for Universitetet i Oslo (board case V-sak 6, 23 June 2015) | 2015 | [uio.no](https://www.uio.no/om/organisasjon/styret/moter/2015/4/v-sak-6-kommunikasjonsstrategi.pdf) | yes (dated) |
+| UiT | Kommunikasjonsplattform for UiT 2024-2030 | 2024-2030 | [uit.no](https://uit.no/om/kommunikasjonsplattform) | yes |
 
 ## AHO
 
