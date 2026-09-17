@@ -1,0 +1,21 @@
+{% comment %}
+  Datasets, software and other deposits from Zenodo (site/_data/zenodo_records.yml,
+  synced nightly by scripts/sync_results_from_zenodo.py). include.lang = "nb" for Norwegian.
+{% endcomment %}
+{% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
+{% assign z = site.data.zenodo_records %}
+{% if z and z.records.size > 0 %}
+<ul class="zenodo-list">
+{% for r in z.records %}
+  <li class="zenodo-item">
+    <a href="{{ r.url }}">{{ r.title }}</a>
+    <span class="zenodo-meta">
+      {% if r.type %}{{ r.type | capitalize }}{% if r.subtype %} ({{ r.subtype }}){% endif %} · {% endif %}{% if r.date %}{{ r.date | slice: 0, 4 }} · {% endif %}{% for c in r.creators limit: 3 %}{{ c.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if r.creators.size > 3 %} {% if nb %}m.fl.{% else %}and others{% endif %}{% endif %}{% if r.licence %} · {{ r.licence | upcase }}{% endif %}{% if r.doi %} · <a href="https://doi.org/{{ r.doi }}">doi:{{ r.doi }}</a>{% endif %}
+    </span>
+  </li>
+{% endfor %}
+</ul>
+<p class="zenodo-note">{% if nb %}Fra Zenodo-fellesskapet <a href="{{ z.community }}">MishMash</a> og innleveringer som oppgir Forskningsrådets prosjektnummer {{ z.grant }}; oppdatert {{ z.synced_at | date: "%-d. %B %Y" }}.{% else %}From the Zenodo community <a href="{{ z.community }}">MishMash</a> and deposits that name the Research Council grant {{ z.grant }}; refreshed {{ z.synced_at | date: "%-d %B %Y" }}.{% endif %}</p>
+{% else %}
+<p>{% if nb %}Ingen innleveringer funnet ennå.{% else %}No deposits found yet.{% endif %}</p>
+{% endif %}
