@@ -1,0 +1,8 @@
+# Images the site generates, with how they were made (IPTC digital source type).
+# scripts/image_provenance.py writes the marker into each file and CI checks it.
+#   algorithmicMedia: drawn by a script without a trained model
+#   trainedAlgorithmicMedia: made by an AI model
+images:
+  - path: /assets/images/bubbles/daily/mishmash_bubbles_daily.svg
+    source_type: algorithmicMedia
+    description: "Daily variation of the MishMash bubble emblem, drawn by scripts/generate_daily_bubbles.py from the date and the day's site activity. No AI model is involved."

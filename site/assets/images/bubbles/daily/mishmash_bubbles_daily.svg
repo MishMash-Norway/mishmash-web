@@ -1,4 +1,15 @@
 <svg width="420" height="320" viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg">
+<metadata>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/">
+    <rdf:Description rdf:about="">
+      <dc:creator><rdf:Seq><rdf:li>MishMash Centre for AI and Creativity</rdf:li></rdf:Seq></dc:creator>
+      <dc:description><rdf:Alt><rdf:li xml:lang="x-default">Daily variation of the MishMash bubble emblem, drawn by scripts/generate_daily_bubbles.py from the date and the day's site activity. No AI model is involved.</rdf:li></rdf:Alt></dc:description>
+      <dc:rights><rdf:Alt><rdf:li xml:lang="x-default">CC BY 4.0</rdf:li></rdf:Alt></dc:rights>
+      <xmpRights:WebStatement>https://mishmash.no/about/terms/</xmpRights:WebStatement>
+      <Iptc4xmpExt:DigitalSourceType>http://cv.iptc.org/newscodes/digitalsourcetype/algorithmicMedia</Iptc4xmpExt:DigitalSourceType>
+    </rdf:Description>
+  </rdf:RDF>
+</metadata>
   <title>MishMash bubbles, 2026-09-17 edition</title>
   <desc>Generated automatically on 2026-09-17 from site activity: 161 research results registered and 14 events in the next 90 days (one small bubble each). See mishmash.no/about/ai-colophon/ for how this site uses generative tools.</desc>
 

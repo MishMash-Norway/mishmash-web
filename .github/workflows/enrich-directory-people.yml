@@ -57,6 +57,9 @@ jobs:
       - name: Generate daily bubble artwork
         run: python3 scripts/generate_daily_bubbles.py
 
+      - name: Mark generated images with their provenance
+        run: python3 scripts/image_provenance.py --mark
+
       - name: Build listing thumbnails
         run: python3 scripts/build_thumbnails.py
 

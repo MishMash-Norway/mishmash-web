@@ -22,6 +22,8 @@ from datetime import date, timedelta
 from pathlib import Path
 
 import yaml
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 ROOT = Path(__file__).resolve().parent.parent
 RESULTS_FILE = ROOT / "site" / "_data" / "mishmash_results.yml"
@@ -133,6 +135,9 @@ def main():
 """
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
+    # Provenance: say in the file how it was made (see scripts/image_provenance.py).
+    from image_provenance import add_svg_metadata, xmp_block
+    svg = add_svg_metadata(svg, xmp_block("algorithmicMedia", "Daily variation of the MishMash bubble emblem, drawn by scripts/generate_daily_bubbles.py from the date and the day's site activity. No AI model is involved."))
     args.out.write_text(svg)
     try:
         shown = args.out.relative_to(ROOT)

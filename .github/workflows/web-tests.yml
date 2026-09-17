@@ -29,6 +29,9 @@ jobs:
       - name: Validate directory
         run: python3 scripts/validate_directory.py
 
+      - name: Check provenance markers on generated images
+        run: python3 scripts/image_provenance.py --check
+
       - name: Run script unit tests
         run: |
           for t in scripts/test_*.py; do
