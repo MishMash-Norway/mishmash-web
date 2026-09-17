@@ -1904,3 +1904,17 @@ a:focus-visible .icon {
   font-size: 0.92rem;
   color: var(--mm-ink-70);
 }
+
+.mm-heritage-text {
+  margin: 0.25rem 0 0;
+}
+
+.media-list {
+  list-style: none;
+  padding: 0;
+}
+
+.media-list li {
+  padding: 0.4rem 0;
+  border-top: 1px solid var(--mm-ink-15);
+}

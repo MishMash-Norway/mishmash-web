@@ -7,9 +7,11 @@
     {% include heritage.html source="nb" id="3ab035574c80dd3baa18330fc9b3bc66" %}
     {% include heritage.html source="dimu" id="51001787-efc8-4205-9c2d-bf7481864cb0" caption="A Hardanger fiddle in Bergen." %}
 
-  source: nb (Nasjonalbiblioteket, id is the item id from api.nb.no) or
+  source: nb (Nasjonalbiblioteket, id is the item id from api.nb.no),
           dimu (DigitaltMuseum, id is the artifact uuid; the National Museum,
-          Norsk Folkemuseum and most Norwegian museums publish through it).
+          Norsk Folkemuseum and most Norwegian museums publish through it),
+          europeana (id is the record id, such as /502/_011023280005), or
+          kulturnav (an authority for a person, place or concept; id is the uuid).
 {% endcomment %}
 <figure class="mm-heritage" data-heritage data-source="{{ include.source }}" data-id="{{ include.id }}">
   <div class="mm-heritage-media" aria-busy="true"></div>
@@ -17,7 +19,7 @@
     <span class="mm-heritage-title">{{ include.caption | default: 'Loading from the collection…' }}</span>
     <span class="mm-heritage-rights"></span>
     <noscript>
-      {% if include.source == 'nb' %}<a href="https://www.nb.no/items/{{ include.id }}">Open this item at the National Library of Norway</a>{% else %}<a href="https://digitaltmuseum.org/search/?q={{ include.id }}">Open this object at DigitaltMuseum</a>{% endif %}
+      {% if include.source == 'nb' %}<a href="https://www.nb.no/items/{{ include.id }}">Open this item at the National Library of Norway</a>{% elsif include.source == 'europeana' %}<a href="https://www.europeana.eu/item{{ include.id }}">Open this item at Europeana</a>{% elsif include.source == 'kulturnav' %}<a href="https://kulturnav.org/{{ include.id }}">Open this authority at KulturNav</a>{% else %}<a href="https://digitaltmuseum.org/search/?q={{ include.id }}">Open this object at DigitaltMuseum</a>{% endif %}
     </noscript>
   </figcaption>
 </figure>

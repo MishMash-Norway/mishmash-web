@@ -2,7 +2,7 @@
 layout: lab
 title: Heritage objects in place
 permalink: /lab/heritage/
-description: "Three objects from Norwegian collections shown on this page through their open APIs and IIIF, with the rights each collection states."
+description: "Objects from Norwegian and European collections, and a KulturNav authority, shown on this page through their open APIs and IIIF, with the rights each collection states."
 lab:
   authors: [mishmash.no]
   date: 2026-09-17
@@ -27,6 +27,12 @@ The same fiddle, three ways.
 
 {% include heritage.html source="dimu" id="3df10c96-b33b-45c1-92bf-d9211ce574c8" %}
 
+## The same fiddle at Europeana, and the term at KulturNav
+
+{% include heritage.html source="europeana" id="/502/_011023280005" %}
+
+{% include heritage.html source="kulturnav" id="a269db7f-1082-443b-8df6-b24049d88e43" %}
+
 ## How it works
 
 A page says which object it wants, by source and identifier:
@@ -38,4 +44,4 @@ A page says which object it wants, by source and identifier:
 
 The reader's browser asks the collection for the object and shows what comes back. The rights line is the collection's own statement, and the link leads to the object's page at the source. Without JavaScript the link alone is shown. The deep-zoom viewer is [OpenSeadragon](https://openseadragon.github.io/), served from this site.
 
-What a wider version would add: Europeana for collections outside Norway, KulturNav authorities for the people and places an object names, and a Wikidata link where the object has one. That is the subject of [issue #50](https://github.com/MishMash-Norway/mishmash-web/issues/50).
+Europeana and KulturNav are now in too: Europeana for collections across Europe, through its public demo key, and KulturNav for the authorities, people, places and terms, that objects refer to. What remains is a Wikidata link where the object or authority has one. That is the subject of [issue #50](https://github.com/MishMash-Norway/mishmash-web/issues/50).
