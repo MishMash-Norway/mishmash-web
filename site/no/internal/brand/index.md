@@ -2,8 +2,11 @@
 layout: default
 lang: nb
 title: Visuell identitet
-translation_url: /about/brand/
+translation_url: /internal/brand/
 description: "MishMash sin visuelle identitet: ordmerke, farger, skrift og logofiler til nedlasting."
+permalink: /no/internal/brand/
+redirect_from:
+  - /no/about/brand/
 ---
 
 <h1>Visuell identitet</h1>

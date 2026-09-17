@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Visual identity
-translation_url: /no/about/brand/
+translation_url: /no/internal/brand/
 description: "The MishMash visual identity: wordmark, colours, type and downloadable logo files."
+permalink: /internal/brand/
+redirect_from:
+  - /about/brand/
 ---
 
 <h1>Visual identity</h1>

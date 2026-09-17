@@ -4,7 +4,7 @@ const { test, expect } = require('@playwright/test');
 
 const PAGES = [
   ['home-header', '/', 'header.page-header'],
-  ['about-brand', '/about/brand/', null],
+  ['internal-brand', '/internal/brand/', null],
   ['accessibility', '/accessibility/', null],
   ['faq', '/faq/', null],
   ['privacy-nb', '/no/privacy/', null],

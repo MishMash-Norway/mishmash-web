@@ -4,7 +4,7 @@ This is the reference for anyone (person or agent) styling something for
 MishMash: the website, a slide deck, a poster, a generated image. It records
 the identity delivered by the design agency in August 2026 and adopted on
 mishmash.no in September 2026. The public version of this page is
-<https://mishmash.no/about/brand/>. The look the site had before is kept as
+<https://mishmash.no/internal/brand/>. The look the site had before is kept as
 the `bubbles` UI theme (`themes/bubbles/`, <https://mishmash.no/ui/bubbles/>).
 
 Machine-readable tokens: `site/assets/css/brand.css`. Use the custom

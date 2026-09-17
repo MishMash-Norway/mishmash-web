@@ -18,6 +18,7 @@ This page collects internal MishMash resources.
 
 ## Policies and strategies
 
+- [Visual identity](/internal/brand/) — wordmark, colours, type and how to use them
 - [Channel strategy](/internal/kanalstrategi/)
 - [Communication strategy](/internal/communication-strategy/)
 - Surveys behind the communication strategy: [partner communication strategies](/internal/partner-communication-strategies/), [Nynorsk](/internal/nynorsk/), [Sami and Kven](/internal/sami-kven/)

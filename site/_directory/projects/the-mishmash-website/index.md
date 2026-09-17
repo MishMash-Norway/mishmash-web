@@ -46,7 +46,7 @@ This project develops and maintains [mishmash.no](https://mishmash.no) and treat
 - Early 2026: internal pages for the organisation, board and council, and partner news and events pulled from partner websites.
 - Spring 2026: the directory of people, institutions and projects, refreshed nightly from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/); site-wide [search](/search/); the [people network](/lab/people-network/); a Norwegian mirror of the main pages; and a first [chat](/chat/) prototype running in the browser.
 - Summer 2026: adaptive reading levels and stretchtext on the [about page](/about/description/) with a shared [glossary](/about/glossary/); Wikidata identifiers for people and institutions; the [research pulse](/results/pulse/), the [soundscape](/lab/soundscape/) and the [AI colophon](/about/ai-colophon/); and a provenance footer on every page.
-- September 2026: the new [visual identity](/about/brand/) replaced the launch look, which lives on as the Bubbles theme, and an accessibility audit brought the site to the machine-checkable criteria of WCAG 2.1 level AA, with the scan in the build pipeline now enforcing them.
+- September 2026: the new [visual identity](/internal/brand/) replaced the launch look, which lives on as the Bubbles theme, and an accessibility audit brought the site to the machine-checkable criteria of WCAG 2.1 level AA, with the scan in the build pipeline now enforcing them.
 
 ## What runs today
 

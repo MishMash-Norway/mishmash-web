@@ -51,7 +51,7 @@ If you want to change something, create a branch and open a pull request so the 
 
 ## Look and feel
 
-The visual identity (wordmark, colours, type) is documented in [BRAND.md](BRAND.md) and shown at [mishmash.no/about/brand/](https://mishmash.no/about/brand/); stylesheets use the tokens in `site/assets/css/brand.css`. The look can be swapped: any theme in `themes/` can be promoted to become the main site with `./scripts/ui promote <name>`, and the outgoing look is kept as a theme. The pre-2026 look is the `bubbles` theme at [mishmash.no/ui/bubbles/](https://mishmash.no/ui/bubbles/). Details: [Visual Identity and Theming][brand] and [themes/README.md](themes/README.md).
+The visual identity (wordmark, colours, type) is documented in [BRAND.md](BRAND.md) and shown at [mishmash.no/internal/brand/](https://mishmash.no/internal/brand/); stylesheets use the tokens in `site/assets/css/brand.css`. The look can be swapped: any theme in `themes/` can be promoted to become the main site with `./scripts/ui promote <name>`, and the outgoing look is kept as a theme. The pre-2026 look is the `bubbles` theme at [mishmash.no/ui/bubbles/](https://mishmash.no/ui/bubbles/). Details: [Visual Identity and Theming][brand] and [themes/README.md](themes/README.md).
 
 ## Licences
 

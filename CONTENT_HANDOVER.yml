@@ -105,7 +105,7 @@ repository:
 visual_identity:
   adopted: 2026-09-13
   guide: BRAND.md
-  public_page: "/about/brand/ (Norwegian: /no/about/brand/)"
+  public_page: "/internal/brand/ (Norwegian: /no/internal/brand/)"
   tokens: site/assets/css/brand.css
   styling: site/assets/css/identity.css
   logo_files: site/assets/images/logo/
