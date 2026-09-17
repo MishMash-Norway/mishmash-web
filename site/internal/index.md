@@ -7,17 +7,20 @@ permalink: /internal/
 
 This page collects internal MishMash resources.
 
-## General resources
+## Tools
 
+- [Kiosk view](/kiosk/) — a full-screen, self-rotating page of upcoming events and news for a screen in a lobby
+- [QR code generator](/internal/qr-code/)
+- [MeshUp run-of-show](/internal/meshups/)
 - [Where to get computing power](/internal/compute/) — look up your institution
 - [Funding opportunities](/internal/funding/)
 - [Paper acknowledgments](/internal/acknowledgment/)
-- [MeshUp run-of-show](/internal/meshups/)
-- [QR code generator](/internal/qr-code/)
-- [Kiosk view](/kiosk/) — a full-screen, self-rotating page of upcoming events and news for a screen in a lobby
-- [Partner communication strategies](/internal/partner-communication-strategies/), [Nynorsk](/internal/nynorsk/) and [Sami and Kven](/internal/sami-kven/) — surveys behind the communication strategy
+
+## Policies and strategies
+
 - [Channel strategy](/internal/kanalstrategi/)
 - [Communication strategy](/internal/communication-strategy/)
+- Surveys behind the communication strategy: [partner communication strategies](/internal/partner-communication-strategies/), [Nynorsk](/internal/nynorsk/), [Sami and Kven](/internal/sami-kven/)
 
 ## Work packages
 
