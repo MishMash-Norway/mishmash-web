@@ -15,7 +15,7 @@
   {% assign mm_section = 'pink' %}
 {% endif %}
 {% assign mm_body_class = 'mm-section-' | append: mm_section %}
-{% if page.url == '/' or page.url == '/no/' %}
+{% if page.url == '/' or page.url == '/no/' or page.url == '/nn/' %}
   {% assign mm_body_class = mm_body_class | append: ' mm-home' %}
 {% endif %}
 <!DOCTYPE html>
