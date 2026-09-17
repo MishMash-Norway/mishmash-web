@@ -41,9 +41,12 @@ NVA credentials: see [config/README.md](config/README.md). **Never commit creden
 | News | `site/_news/` |
 | Events | `site/_events/` |
 | Partner events listing | `site/_data/partner_events.yml` |
-| Legal / info pages | `site/privacy/`, `site/accessibility/`, `site/no/privacy/`, `site/no/accessibility/` |
+| Legal / info pages | `site/privacy/`, `site/accessibility/`, `site/about/terms/`, and their Norwegian mirrors under `site/no/` |
 | Results page intro | `site/results/index.md`, `site/no/results/index.md` |
-| UI strings (EN/NO) | `site/_data/translations.yml` |
+| UI strings (EN/NB) | `site/_data/translations.yml`; the Nynorsk strings are generated |
+| Languages | `site/_data/languages.yml` (the switch order); see the wiki page Nynorsk |
+| Lab experiments | `site/lab/<slug>/` from `site/lab/_template/`; see the wiki page Lab |
+| Reviewed Nynorsk pages | `site/nn/<path>` overrides the generated page at the same path |
 | Layouts, includes, CSS | `site/_layouts/`, `site/_includes/`, `site/assets/css/` |
 | Visual identity: tokens, identity styling, logo files | `site/assets/css/brand.css`, `site/assets/css/identity.css`, `site/assets/images/logo/`; rules in [BRAND.md](BRAND.md) |
 | Alternative looks (UI themes) | `themes/<name>/`; swap the main look with `./scripts/ui promote <name>` ([guide](themes/README.md)) |
@@ -58,6 +61,12 @@ NVA credentials: see [config/README.md](config/README.md). **Never commit creden
 | Person portraits in `site/assets/images/portraits/` | NVA enrich script (daily CI) |
 | Many person front-matter fields | `scripts/enrich_directory_from_nva.py` (daily CI) |
 | `site/chat/knowledge.json` | `scripts/build_knowledge_base.py` (rebuilt at every deploy) |
+| `site/_data/zenodo_records.yml` | `scripts/sync_results_from_zenodo.py` (daily CI) |
+| `site/_data/wikidata_institutions.yml`, `urls.ror` | `scripts/sync_wikidata.py` (daily CI) |
+| `site/nn-auto/`, `site/_data/translations_nn.yml` | `scripts/build_nynorsk.py` (every build; ignored by git) |
+| `site/data/*.json`, `*.csv` | `scripts/build_open_data.py` (every deploy; ignored by git) |
+| `site/assets/images/thumbs/`, `*.avif` | `scripts/build_thumbnails.py`, `scripts/build_avif.py` (ignored by git) |
+| `site/_data/language_share.yml`, `nynorsk_status.yml` | `scripts/measure_languages.py`, `build_nynorsk.py` (ignored by git) |
 
 ### Person profiles: what you can edit
 
