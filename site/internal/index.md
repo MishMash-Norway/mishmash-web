@@ -14,6 +14,8 @@ This page collects internal MishMash resources.
 - [Paper acknowledgments](/internal/acknowledgment/)
 - [MeshUp run-of-show](/internal/meshups/)
 - [QR code generator](/internal/qr-code/)
+- [Kiosk view](/kiosk/) — a full-screen, self-rotating page of upcoming events and news for a screen in a lobby
+- [Partner communication strategies](/internal/partner-communication-strategies/), [Nynorsk](/internal/nynorsk/) and [Sami and Kven](/internal/sami-kven/) — surveys behind the communication strategy
 - [Channel strategy](/internal/kanalstrategi/)
 - [Communication strategy](/internal/communication-strategy/)
 
