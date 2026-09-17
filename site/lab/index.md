@@ -10,7 +10,7 @@ The lab is where MishMash tries things in the browser: sound from the publicatio
 
 Anyone in the network can add one. Copy the template in [`site/lab/_template/`](https://github.com/MishMash-Norway/mishmash-web/tree/main/site/lab/_template) and follow the [lab guide](https://github.com/MishMash-Norway/mishmash-web/wiki/Lab) on the wiki.
 
-{% assign lab_pages = site.pages | where_exp: "p", "p.lab" | where_exp: "p", "p.lang == nil or p.lang == 'en'" %}
+{% assign lab_pages = site.pages | where_exp: "p", "p.lab" | where_exp: "p", "p.lang != 'nb'" | where_exp: "p", "p.lang != 'nn'" %}
 {% comment %} Newest first: sort on the date inside the lab map. {% endcomment %}
 {% assign lab_pages = lab_pages | sort: "lab.date" | reverse %}
 <div class="gallery-grid">
