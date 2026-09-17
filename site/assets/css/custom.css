@@ -1919,3 +1919,8 @@ a:focus-visible .icon {
 .highlight .cp {
   color: var(--mm-ink-70);
 }
+
+.mm-lab-experimental {
+  color: var(--mm-ink-70);
+  font-style: italic;
+}

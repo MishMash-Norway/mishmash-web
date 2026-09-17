@@ -5,7 +5,7 @@ permalink: /lab/
 description: "Browser experiments from the MishMash work packages: sound, networks, generative art and other pieces built on the site's own data."
 ---
 
-The lab is where MishMash tries things in the browser: sound from the publication stream, a map of who works with whom, and whatever a work package wants to show next. Each piece says who made it, what data it draws on and how AI was involved. Pieces are experiments, and may change or disappear.
+The lab is where MishMash tries things in the browser: sound from the publication stream, a map of who works with whom, and whatever a work package wants to show next. Each piece says who made it, what data it draws on and how AI was involved. Every piece is experimental: it may change or disappear, and it is outside the promises the rest of the site makes, apart from the accessibility scan.
 
 Anyone in the network can add one. Copy the template in [`site/lab/_template/`](https://github.com/MishMash-Norway/mishmash-web/tree/main/site/lab/_template) and follow the [lab guide](https://github.com/MishMash-Norway/mishmash-web/wiki/Lab) on the wiki.
 

@@ -12,6 +12,7 @@
     {% if lab.authors %}<span>{{ t.lab_by }} {{ lab.authors | join: ", " }}</span>{% endif %}
     {% if lab.date %}<span>{{ t.lab_since }} {{ lab.date | date: "%B %Y" }}</span>{% endif %}
     {% if lab.status %}<span>{{ lab.status }}</span>{% endif %}
+    <span class="mm-lab-experimental">{{ t.lab_experimental }}</span>
   </p>
   {% if lab.data or lab.ai %}
   <dl class="mm-lab-notes">

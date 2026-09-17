@@ -32,6 +32,7 @@ Automated tools find only part of the barriers a person can meet. The rest depen
 - Embedded videos from YouTube do not always have captions, and none has audio description.
 - The chat page depends on JavaScript and on an external language model service.
 - The experimental interface themes under `/ui/` are student work and are outside the automated checks.
+- The pieces in the [lab](/lab/) are experiments; each is scanned like any page but may need JavaScript, sound or a pointer, and says so.
 
 ## Tell us about a barrier
 
