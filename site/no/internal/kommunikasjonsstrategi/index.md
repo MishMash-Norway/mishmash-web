@@ -62,6 +62,19 @@ MishMash bruker aktivt KI i utviklingen og vedlikeholdet av mishmash.no — pass
 
 Praksisen erklæres offentlig på [KI-kolofonen](/no/about/ai-colophon/), er dokumentert nærmere i [nettfilosofien](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) og evalueres sammen med de andre nettstedseksperimentene.
 
+## Lisenser og gjenbruk
+
+Det MishMash publiserer skal kunne brukes videre, og vilkårene står på ett sted, slik at lesere, partnere og maskiner ikke trenger å gjette.
+
+- **Tekst** på mishmash.no er lisensiert [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.no): alle kan kopiere, tilpasse og dele den videre, til ethvert formål, med kreditering av MishMash. Det gjelder også bruk som treningsmateriale for KI-systemer; kreditering er vilkåret, ikke et forbehold.
+- **Kode** i nettstedets kodelager tilbys under [MIT-lisensen](https://opensource.org/license/mit), slik at skript, maler og grensesnittemaer kan brukes videre i prosjekter som ikke kan ta en copyleft-lisens. [LICENSE-filen i kodelageret sier fortsatt GPL versjon 3; den endres til MIT når alle som har bidratt med kode har samtykket.]
+- **Data** som nettstedet selv lager (arrangementer, prosjekter, emneord, resultatlisten slik den er satt sammen her) frigis under [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.no), siden fakta ikke er åndsverk og CC0 lar dem flyte inn i Wikidata og andre åpne databaser uten friksjon. Data hentet fra NVA, ORCID og Wikipedia beholder kildens vilkår, og kilden oppgis på siden.
+- **Bilder** har egne vilkår, fil for fil: fotograf, lisens og samtykke registreres sammen med bildet, og arrangementsbilder er CC BY der det ble avtalt med fotografen på forhånd. Portretter, partnerlogoer og finansiørens logo omfattes ikke av nettstedets lisens og er unntatt fra enhver tillatelse til å trene KI-systemer.
+- **Personopplysninger** i katalogen lisensieres ikke; de publiseres på vilkårene i [personvernerklæringen](/no/privacy/), som sier hva som vises, hvor det kommer fra og hvordan en person får det endret eller fjernet.
+- **Tredjeparts materiale** som vises på nettstedet, som innebygde videoer, lyder fra Freesound og objekter fra kulturarvsamlinger, beholder kildens vilkår, oppgitt der det vises.
+
+Vilkårene står i klartekst på nettstedet, i lisensoppføringen i bunnteksten, og i maskinlesbar form for søkeroboter: teksten er åpen, og forbeholdet for bilder, portretter og logoer uttrykkes i den formen EU-direktivet om opphavsrett i det digitale indre marked legger opp til.
+
 ## Språk
 
 Engelsk er hovedspråket; sentrale seksjoner speiles på norsk under `/no/…`. Adaptive lesenivåer og norsk oversettelse er uavhengige dimensjoner: målet er at begge språkversjonene etter hvert tilbyr de samme lesenivåene. Maskinoversettelse merkes på de aktuelle sidene.

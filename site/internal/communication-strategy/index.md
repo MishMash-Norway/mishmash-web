@@ -59,6 +59,19 @@ MishMash actively uses AI in developing and maintaining mishmash.no — fitting 
 
 The practice is declared publicly on the [AI colophon](/about/ai-colophon/) page, documented in more depth in the [web philosophy](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy), and evaluated alongside the other website experiments.
 
+## Licences and reuse
+
+What MishMash publishes is meant to be reused, and the terms say so in one place so that readers, partners and machines do not have to guess.
+
+- **Text** on mishmash.no is licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): anyone may copy, adapt and redistribute it, for any purpose, with attribution to MishMash. This includes use as training material for AI systems; attribution is the condition, not a reservation.
+- **Code** in the website repository is offered under the [MIT licence](https://opensource.org/license/mit), so that scripts, includes and interface themes can be reused in projects that cannot take a copyleft licence. [The LICENSE file in the repository still says GPL version 3; it changes to MIT when every code contributor has agreed.]
+- **Data** that the site produces itself (events, projects, tags, the results list as compiled here) is released under [CC0](https://creativecommons.org/publicdomain/zero/1.0/), since facts are not creative works and CC0 lets them flow into Wikidata and other open databases without friction. Data pulled from NVA, ORCID and Wikipedia keeps the terms of its source, which is named on the page.
+- **Images** carry their own terms, file by file: photographer, licence and consent are recorded with the image, and event photographs are CC BY where that was agreed with the photographer beforehand. Portraits, partner logos and the funder's logo are not covered by the site licence and are excluded from any permission to train AI systems.
+- **Personal data** in the directory is not licensed at all; it is published on the terms in the [privacy notice](/privacy/), which say what is shown, where it comes from and how a person has it changed or removed.
+- **Third-party material** shown on the site, such as embedded videos, sounds from Freesound and objects from heritage collections, keeps the terms of its source, stated where it appears.
+
+The terms are stated in plain language on the site, in the footer's licence entry, and in machine-readable form for crawlers: the text is open, and the reservation for images, portraits and logos is expressed in the form the EU directive on copyright in the digital single market provides for.
+
 ## Language
 
 English is the main language; key sections are mirrored in Norwegian under `/no/…`. Adaptive reading levels and Norwegian translation are independent dimensions: the goal is that both language versions eventually offer the same reading levels. Machine translation is marked as such on the pages concerned.
