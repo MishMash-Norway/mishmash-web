@@ -29,7 +29,7 @@ PAGES = ["/", "/about/description/", "/results/", "/events/", "/news/opening-con
 TEXT = {".html", ".css", ".js", ".json", ".svg", ".txt", ".xml"}
 KWH_PER_GB = 0.81
 G_CO2_PER_KWH = 442
-ASSET_RE = re.compile(r'(?:src|href)="(/[^"#?]+\.(?:css|js|woff2?|png|jpe?g|webp|avif|svg|ico|gif|json))(?:\?[^"]*)?"', re.I)
+ASSET_RE = re.compile(r'(?:src|href|srcset)="(/[^"#?]+\.(?:css|js|woff2?|png|jpe?g|webp|avif|svg|ico|gif|json))(?:\?[^"]*)?"', re.I)
 
 
 def transfer_bytes(path: Path) -> int:
