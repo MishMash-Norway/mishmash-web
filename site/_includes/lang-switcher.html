@@ -7,8 +7,14 @@
 {% assign sw_en = lang_en_url | default: '/' %}
 {% assign sw_nb = lang_nb_url | default: '/no/' %}
 {% assign sw_nn = lang_nn_url | default: '/nn/' %}
+{% comment %}
+  The closed button shows only the current language code so the nav keeps to
+  one line; the accessible name stays the full "Language"/"Språk" label.
+{% endcomment %}
+{% assign current_code = 'en' %}
+{% if current_lang == 'nb' %}{% assign current_code = 'no' %}{% elsif current_lang == 'nn' %}{% assign current_code = 'nn' %}{% endif %}
 <details class="btn wp-dropdown lang-switcher">
-  <summary id="language-summary" aria-haspopup="true" aria-expanded="false" aria-label="{{ t.lang_switch_label }}" aria-controls="language-menu">{{ t.lang_switch_label }} ▾</summary>
+  <summary id="language-summary" aria-haspopup="true" aria-expanded="false" aria-label="{{ t.lang_switch_label }}" aria-controls="language-menu">{{ current_code }} ▾</summary>
   <ul id="language-menu" class="wp-list" role="menu" aria-labelledby="language-summary">
     <li role="none">{% if current_lang == 'en' %}<span class="lang-active" aria-current="true" lang="en">{{ t.lang_switch_en }}</span>{% else %}<a role="menuitem" href="{{ sw_en | relative_url }}" hreflang="en" lang="en">{{ t.lang_switch_en }}</a>{% endif %}</li>
     <li role="none">{% if current_lang == 'nb' %}<span class="lang-active" aria-current="true" lang="nb">{{ t.lang_switch_nb }}</span>{% else %}<a role="menuitem" href="{{ sw_nb | relative_url }}" hreflang="nb" lang="nb">{{ t.lang_switch_nb }}</a>{% endif %}</li>
