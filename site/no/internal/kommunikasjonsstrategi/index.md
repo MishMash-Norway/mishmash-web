@@ -8,7 +8,7 @@ translation:
   automatic: false
 ---
 
-Denne kommunikasjonsstrategien utfyller [kanalstrategien](/no/internal/kanalstrategi/). Kanalstrategien beskriver *hvilke* kanaler MishMash bruker og hvordan de virker sammen; dette dokumentet beskriver *hvordan vi kommuniserer* i kanalene: hvem leserne våre er, hva de trenger, og hvilken tone og kompleksitet som passer for hver av dem.
+Denne kommunikasjonsstrategien utfyller [kanalstrategien](/no/internal/kanalstrategi/). Kanalstrategien beskriver *hvilke* kanaler MishMash bruker og hvordan de virker sammen; dette dokumentet beskriver *hvordan vi kommuniserer* i kanalene: hvem leserne våre er, hva de trenger, og hvilken tone og kompleksitet som passer for hver av dem. Den sier også hva MishMash forplikter seg til utover det [partnernes strategier](/internal/partner-communication-strategies/) allerede krever av sine ansatte.
 
 ## Prinsipper
 
@@ -16,6 +16,10 @@ Denne kommunikasjonsstrategien utfyller [kanalstrategien](/no/internal/kanalstra
 2. **Leseren velger.** Vi gjetter ikke på og sporer ikke hvem leseren er. Leserne velger nivå selv, og kan alltid bytte. Klarspråkversjonen er standard.
 3. **Hent, ikke skriv av.** Fakta om personer, prosjekter, institusjoner og resultater hentes fra autoritative kilder (NVA, ORCID, Wikipedia) i stedet for å vedlikeholdes for hånd, slik at lesere på alle nivåer får den samme oppdaterte informasjonen.
 4. **Klarspråk først.** I tråd med klarspråkprinsippene og [språklova](https://lovdata.no/dokument/NL/lov/2021-05-21-42) er klarspråk standardregisteret; fagspråk er noe leseren velger *til*, ikke bort.
+5. **Åpent som standard.** Det vi publiserer kan brukes videre: tekst under CC BY 4.0, våre egne data under CC0, kode under MIT, med kildene til hvert faktum oppgitt nederst på siden og vilkårene uttrykt for både mennesker og maskiner. Se [vilkår for bruk](/no/about/terms/) og avsnittet om lisenser nedenfor.
+6. **Brukbart for alle.** Nettstedet oppfyller kravene i forskriften om universell utforming av IKT (WCAG 2.1 nivå AA) og sier det på [tilgjengelighetssiden](/no/accessibility/); hver endring sjekkes før den publiseres, og bidrag som krever lyd, pekeredskap eller JavaScript sier fra om det.
+7. **Vis begrensningene.** Vi sier hva et system ikke kan, og hvordan et resultat er målt, og vi publiserer målingene av vår egen kanal i stedet for å love dem.
+8. **Å lage er å kommunisere.** Kunstnerisk arbeid, demonstrasjoner og praktiske bidrag i [laben](/lab/) er kanaler i seg selv, med de samme erklæringene om kilder og KI som teksten.
 
 ## Lesenivåer
 
@@ -53,6 +57,10 @@ Kanaler retter seg, i motsetning til lesenivåer, mot målgrupper:
 | Instagram | ✓ | ✓ | | | |
 | YouTube | ✓ | ✓ | ✓ | ✓ | |
 
+## Nettstedet slik det er nå
+
+mishmash.no har lesenivåene og stretchteksten beskrevet ovenfor, og et sett funksjoner som følger av prinsippene: en [lab](/lab/) der enhver arbeidspakke kan publisere et nettlesereksperiment med data og KI-bruk oppgitt; en [kioskvisning](/kiosk/) for skjermer i partnernes vestibyler; skjemaer for nyheter, arrangementer, MeshUp-foredrag og rettelser, slik at medlemmer bidrar uten git; objekter fra norske kulturarvsamlinger vist på stedet med samlingens egen rettighetserklæring; en katalog, resultatliste og kalender som holdes i takt med det nasjonale forskningsarkivet; og sider om vilkår, personvern og tilgjengelighet som sier hva nettstedet gjør, ikke hva det håper. Det som finnes, står på siden om [nettsideprosjektet](/projects/the-mishmash-website/); det som er planlagt, står i saksoversikten på GitHub.
+
 ## KI i utviklingen av nettstedet
 
 MishMash bruker aktivt KI i utviklingen og vedlikeholdet av mishmash.no — passende for et senter som forsker på kreativ bruk av KI. KI-assistanse brukes til å skrive og tilpasse innhold (blant annet utkast til lesenivåvariantene på adaptive sider), til å utvikle nettstedets kode og automatisering, og til maskinoversettelse mellom engelsk og norsk. To forpliktelser rammer inn denne bruken:
@@ -60,7 +68,7 @@ MishMash bruker aktivt KI i utviklingen og vedlikeholdet av mishmash.no — pass
 1. **Åpenhet.** Vi er åpne om hvor og hvordan KI bidrar: maskinoversatte sider merkes, KI-assistert utvikling er synlig i den offentlige commit-historikken, og denne seksjonen erklærer selv praksisen. Lesere og partnere skal aldri måtte gjette på om KI var involvert.
 2. **Det er et eksperiment.** Å bruke KI til å bygge senterets egen kommunikasjonskanal er en del av MishMash sin forskningspraksis — en måte å *skape, utforske og reflektere* over egne verktøy. Menneskelige redaktører er ansvarlige for alt som publiseres: KI-produsert innhold gjennomgås før det går ut, og feil er våre, ikke maskinens. Det vi lærer føres tilbake til senterets forskning og undervisning.
 
-Praksisen erklæres offentlig på [KI-kolofonen](/no/about/ai-colophon/), er dokumentert nærmere i [nettfilosofien](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) og evalueres sammen med de andre nettstedseksperimentene.
+Praksisen erklæres offentlig på [KI-kolofonen](/no/about/ai-colophon/), er dokumentert nærmere i [nettfilosofien](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) og evalueres sammen med de andre nettstedseksperimentene. Tre regler følger av forpliktelsene: hver side som har brukt KI sier det i bunnteksten; hvert bidrag i laben oppgir i én setning hvordan KI var involvert; og genererte bilder får bransjens opphavsmerking så snart byggeløpet kan skrive den. Ingen av partnernes strategier har en regel om å opplyse om KI i institusjonens egen kommunikasjon; denne har det.
 
 ## Lisenser og gjenbruk
 
@@ -79,6 +87,12 @@ Vilkårene står i klartekst på nettstedet, i lisensoppføringen i bunnteksten,
 
 Engelsk er hovedspråket; sentrale seksjoner speiles på norsk under `/no/…`. Adaptive lesenivåer og norsk oversettelse er uavhengige dimensjoner: målet er at begge språkversjonene etter hvert tilbyr de samme lesenivåene. Maskinoversettelse merkes på de aktuelle sidene.
 
+## Ved siden av partnernes strategier
+
+En [kartlegging av de 22 norske forskningspartnerne](/internal/partner-communication-strategies/) viser hva MishMash deler med dem og hvor senteret går lenger. Åtte partnere publiserer en kommunikasjonsstrategi, -plattform eller -policy for hele institusjonen; resten har en språkpolitikk, en generell strategi med synlighetsmål, eller ingenting offentlig. Det felles grunnlaget er statens kommunikasjonspolitikk, med prinsippene åpenhet, å nå alle berørte, helhet, aktivitet og medvirkning; kommunikasjon er alles ansvar, forskere skal formidle sitt eget arbeid, og klarspråk kreves gjennom språkloven. MishMash står på samme grunn: medlemmene er fortsatt bundet av institusjonenes strategier, og dette dokumentet erstatter dem ikke.
+
+Det ingen av partnernes dokumenter gjør, og som denne strategien derfor legger til, er prinsippene fem til åtte ovenfor: vilkår for gjenbruk og kilder på hvert bidrag, en regel om å opplyse om KI i vår egen kommunikasjon, en forpliktelse til å vise begrensninger og publisere våre egne målinger, og kunstnerisk praksis behandlet som en kanal med egne prinsipper. Der en partners strategi er strengere, for eksempel om nynorsk eller om hvem som kan uttale seg på vegne av institusjonen, gjelder partnerens regel for dens egne ansatte.
+
 ## Evaluering
 
-Tilnærmingen med adaptivt innhold er et eksperiment i regi av [nettsideprosjektet](/projects/the-mishmash-website/). Det evalueres på: om variantene holdes synkronisert (en redaksjonell kostnad), om leserne bruker velgeren, og om de forenklede nivåene faktisk er enklere (lesbarhetsmål). Strategien revideres sammen med kanalstrategien.
+Tilnærmingen med adaptivt innhold er et eksperiment i regi av [nettsideprosjektet](/projects/the-mishmash-website/). Det evalueres på: om variantene holdes synkronisert (en redaksjonell kostnad), om leserne bruker velgeren, og om de forenklede nivåene faktisk er enklere (lesbarhetsmål). Målingene nettstedet gjør av seg selv, lages ved hver endring og er offentlige: tilgjengelighetsskanningen, HTML- og lenkesjekkene, lesbarhetssjekken av adaptive sider og Lighthouse-poengene, alle på siden for [kvalitetssjekker](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml). Nettstedet måler ikke leserne sine; [personvernerklæringen](/no/privacy/) sier hvorfor, og valget vurderes på nytt når det dukker opp et spørsmål som bare tall kan svare på. Strategien revideres sammen med kanalstrategien, minst én gang i året.

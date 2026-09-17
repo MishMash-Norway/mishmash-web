@@ -5,7 +5,7 @@ permalink: /internal/communication-strategy/
 translation_url: /no/internal/kommunikasjonsstrategi/
 ---
 
-This communication strategy complements the [channel strategy](/internal/kanalstrategi/). The channel strategy describes *which* channels MishMash uses and how they work together; this document describes *how we communicate* in those channels: who our readers are, what they need, and what tone and complexity fits each of them.
+This communication strategy complements the [channel strategy](/internal/kanalstrategi/). The channel strategy describes *which* channels MishMash uses and how they work together; this document describes *how we communicate* in those channels: who our readers are, what they need, and what tone and complexity fits each of them. It also says what MishMash commits to beyond what its [partners' strategies](/internal/partner-communication-strategies/) already ask of their staff.
 
 ## Principles
 
@@ -13,6 +13,10 @@ This communication strategy complements the [channel strategy](/internal/kanalst
 2. **The reader chooses.** We do not guess or track who a reader is. Readers self-select their level, and can always switch. The plain-language version is the default.
 3. **Pull, don't retype.** Facts about people, projects, institutions, and results are pulled from authoritative sources (NVA, ORCID, Wikipedia) rather than maintained by hand, so readers at every level get the same up-to-date information.
 4. **Plain language first.** Following klarspråk principles and the [Language Act](https://lovdata.no/dokument/NL/lov/2021-05-21-42), the default register is plain language; jargon is something readers opt *into*, not out of.
+5. **Open by default.** What we publish may be reused: text under CC BY 4.0, our own data under CC0, code under MIT, with the sources of every fact named at the bottom of the page and the terms stated for people and machines alike. See the [terms of use](/about/terms/) and the section on licences below.
+6. **Usable by everyone.** The site meets the requirements of the regulation on universal design of ICT (WCAG 2.1 level AA) and says so on the [accessibility page](/accessibility/); every change is checked before it is published, and pieces that need sound, a pointer or JavaScript say so.
+7. **Show the limits.** We say what a system cannot do and how a result was measured, and we publish the measurements of our own channel rather than promising them.
+8. **Making is communicating.** Artistic work, demonstrations and hands-on pieces in the [lab](/lab/) are channels in their own right, with the same declarations of sources and AI as the text.
 
 ## Reading levels
 
@@ -50,6 +54,10 @@ Channels, unlike reading levels, do target audiences:
 | Instagram | ✓ | ✓ | | | |
 | YouTube | ✓ | ✓ | ✓ | ✓ | |
 
+## The website as it now stands
+
+mishmash.no carries the reading levels and stretchtext described above, and a set of features that follow from the principles: a [lab](/lab/) where any work package can publish a browser experiment with its data and AI declared; a [kiosk view](/kiosk/) for screens in partner lobbies; forms for news, events, MeshUp talks and corrections so that members contribute without git; objects from Norwegian heritage collections shown in place with the collection's own rights statement; a directory, results list and calendar kept in step with the national research archive; and terms, privacy and accessibility pages that say what the site does rather than what it hopes. What exists is listed on the [website project](/projects/the-mishmash-website/) page; what is planned is in the issue tracker.
+
 ## AI in the making of the website
 
 MishMash actively uses AI in developing and maintaining mishmash.no — fitting for a centre that studies creative uses of AI. AI assistance is used for writing and adapting content (including drafting the reading-level variants on adaptive pages), for developing the site's code and automation, and for machine translation between English and Norwegian. Two commitments frame this use:
@@ -57,7 +65,7 @@ MishMash actively uses AI in developing and maintaining mishmash.no — fitting 
 1. **Transparency.** We are open about where and how AI contributes: machine-translated pages are marked as such, AI-assisted development is visible in the public commit history, and this section itself declares the practice. Readers and partners should never have to guess whether AI was involved.
 2. **It is an experiment.** Using AI to build the centre's own communication channel is part of MishMash's research practice — a way to *create, explore, and reflect* on our own tools. Human editors remain responsible for everything published: AI output is reviewed before it goes live, and errors are ours, not the machine's. What we learn feeds back into the centre's research and teaching.
 
-The practice is declared publicly on the [AI colophon](/about/ai-colophon/) page, documented in more depth in the [web philosophy](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy), and evaluated alongside the other website experiments.
+The practice is declared publicly on the [AI colophon](/about/ai-colophon/) page, documented in more depth in the [web philosophy](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy), and evaluated alongside the other website experiments. Three rules follow from the commitments: every page that used AI says so in its footer; every lab piece states how AI was involved in one sentence; and generated images will carry the industry's provenance markers as soon as the build pipeline can write them. None of the partners' strategies states a disclosure rule for AI in the institution's own communication; this one does.
 
 ## Licences and reuse
 
@@ -76,6 +84,12 @@ The terms are stated in plain language on the site, in the footer's licence entr
 
 English is the main language; key sections are mirrored in Norwegian under `/no/…`. Adaptive reading levels and Norwegian translation are independent dimensions: the goal is that both language versions eventually offer the same reading levels. Machine translation is marked as such on the pages concerned.
 
+## Alongside the partners' strategies
+
+A [survey of the 22 Norwegian research partners](/internal/partner-communication-strategies/) shows what MishMash shares with them and where it goes further. Eight partners publish an institution-wide communication strategy, platform or policy; the rest have a language policy, a general strategy with visibility goals, or nothing public. The shared foundation is the state communication policy, with its principles of openness, reaching everyone affected, coherence, being active and participation; communication is everyone's job, researchers are expected to disseminate their own work, and plain language is required through the Language Act. MishMash stands on the same ground: its members remain bound by their institutions' strategies, and this document does not replace them.
+
+What none of the partners' documents do, and this strategy therefore adds, is the set of principles five to eight above: reuse terms and sources on every piece, a disclosure rule for AI in our own communication, a commitment to show limits and to publish our own measurements, and creative practice treated as a channel with its own principles. Where a partner's strategy is stricter, for example on Nynorsk or on who may speak for an institution, the partner's rule applies to its own staff.
+
 ## Evaluation
 
-The adaptive-content approach is an experiment run by the [website project](/projects/the-mishmash-website/). It is evaluated on: whether variants stay in sync (an editorial cost), whether readers use the switcher, and whether the simplified levels are actually simpler (readability metrics). The strategy is revised alongside the channel strategy.
+The adaptive-content approach is an experiment run by the [website project](/projects/the-mishmash-website/). It is evaluated on: whether variants stay in sync (an editorial cost), whether readers use the switcher, and whether the simplified levels are actually simpler (readability metrics). The measurements the site makes of itself are generated on every change and are public: the accessibility scan, the HTML and link checks, the readability check of adaptive pages and the Lighthouse scores, all on the [quality checks](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml) page. The site does not measure its readers; the [privacy notice](/privacy/) says why, and the choice is revisited when a question arises that only numbers can answer. The strategy is revised alongside the channel strategy, at least once a year.
