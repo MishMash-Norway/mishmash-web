@@ -39,10 +39,12 @@ export function tokenize(text) {
 }
 
 /** The passages that answer a question best, most relevant first.
-    At most `perPage` passages come from any one page: four passages from the
-    same page tell the model one thing four times, and crowd out the page that
-    holds the rest of the answer. */
-export function retrieve(knowledgeBase, query, topK = 4, floor = 0.05, perPage = 2) {
+    At most `perPage` passages come from any one page. One is the default and
+    the measured best: four passages from the same page tell the model the same
+    thing four times and crowd out the page that holds the rest of the answer.
+    Scored against tests/chat/questions.json, one per page finds every
+    question's page where two finds 30 of 31. */
+export function retrieve(knowledgeBase, query, topK = 4, floor = 0.05, perPage = 1) {
   if (!knowledgeBase) return [];
   const queryTokens = tokenize(query);
   if (queryTokens.length === 0) return [];

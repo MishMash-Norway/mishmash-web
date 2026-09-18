@@ -6,7 +6,7 @@ permalink: /no/accessibility/
 translation_url: /accessibility/
 ---
 
-mishmash.no skal kunne brukes av så mange som mulig. Nettstedet er bygget for å oppfylle forskriften om universell utforming av IKT, som krever at offentlige nettsteder oppfyller de 48 suksesskriteriene i [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) på nivå A og AA som [Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/wcag-standarden/wcag-standarden/86) lister opp.
+mishmash.no skal kunne brukes av så mange som mulig, uansett hva de leser det med. Nettstedet er bygget for å være tilgjengelig etter den standarden norsk lov setter: forskriften om universell utforming av IKT, som krever at offentlige nettsteder oppfyller de 48 suksesskriteriene i [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) på nivå A og AA som [Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/wcag-standarden/wcag-standarden/86) lister opp.
 
 ## Hva nettstedet gjør
 

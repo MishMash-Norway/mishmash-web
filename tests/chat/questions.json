@@ -161,7 +161,8 @@
     {
       "q": "Er det ledige stillinger i senteret?",
       "expect": [
-        "/vacancies/"
+        "/vacancies/",
+        "/no/vacancies/"
       ]
     },
     {

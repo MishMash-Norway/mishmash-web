@@ -5,7 +5,7 @@ permalink: /accessibility/
 translation_url: /no/accessibility/
 ---
 
-mishmash.no should be usable by as many people as possible. The site is built to meet the Norwegian regulation on universal design of ICT, which requires public websites to satisfy the 48 success criteria of the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) at levels A and AA listed by the [Norwegian Authority for Universal Design of ICT](https://www.uutilsynet.no/wcag-standarden/wcag-standarden/86).
+This website should be usable by as many people as possible, whatever they browse with. The site is built to be accessible to the standard Norwegian law sets: the regulation on universal design of ICT, which requires public websites to satisfy the 48 success criteria of the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) at levels A and AA listed by the [Norwegian Authority for Universal Design of ICT](https://www.uutilsynet.no/wcag-standarden/wcag-standarden/86).
 
 ## What the site does
 
