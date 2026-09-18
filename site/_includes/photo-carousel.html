@@ -29,4 +29,14 @@
   </div>
   {% if gallery.caption %}<p class="mm-carousel-caption">{{ gallery.caption }}</p>{% endif %}
 </div>
+<script>
+  /* Hide every slide but the first at once, before the browser starts
+     fetching their photos. Without this the images of a whole gallery are on
+     their way by the time carousel.js runs, so a first visit pays for photos
+     nobody has asked to see. A reader without JavaScript still gets them all. */
+  (function () {
+    var slides = document.getElementById('{{ gallery_id }}').querySelectorAll('.mm-carousel-slide');
+    for (var i = 1; i < slides.length; i++) slides[i].hidden = true;
+  })();
+</script>
 <script defer src="{{ '/assets/js/carousel.js' | relative_url }}"></script>

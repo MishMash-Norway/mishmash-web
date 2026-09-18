@@ -30,7 +30,7 @@ MishMash forsker på kreativ bruk av KI — og bruker KI, helt åpent, i arbeide
 
 ## Nettstedets vekt
 
-Et lett nettsted koster leserne mindre tid og kloden mindre energi. Ved hver utrulling veier byggingen et utvalg sider: bytene et første besøk overfører for HTML-en og filene siden lenker til, telt slik tjeneren sender dem, og et anslag over karbonutslippet per besøk etter Sustainable Web Design-modellen slik den er implementert i CO2.js. Tallene er et anslag for å sammenligne bygg, ikke en måling av noens enhet eller nett. Hele rapporten ligger på [/data/page-weight.json](/data/page-weight.json){: data-proofer-ignore="true"}.
+Et lett nettsted koster leserne mindre tid og kloden mindre energi. Ved hver utrulling veier byggingen et utvalg sider i en nettleser uten hurtiglager: bytene et første besøk overfører, telt slik tjeneren sender dem, og et anslag over karbonutslippet per besøk etter Sustainable Web Design-modellen slik den er implementert i CO2.js. Tellingen dekker alt en leser av hele siden får tilsendt, og utelater bildene et galleri holder skjult til noen ber om dem, og bilder som hentes fra andre nettsteder. Tallene er et anslag for å sammenligne bygg, ikke en måling av noens enhet eller nett. Hele rapporten ligger på [/data/page-weight.json](/data/page-weight.json){: data-proofer-ignore="true"}.
 
 Byggingen skjærer også skriftfilene ned til tegnene nettstedet faktisk bruker. Hele nettstedet er skrevet med omtrent 300 ulike tegn, mens en vanlig latinsk skriftfil bærer flere tusen tegnformer, så filene blir omtrent halvparten så store, og et første besøk på forsiden laster 85 kB skrift i stedet for 198 kB. Et tegn som ingen side bruker, faller tilbake til en skrift leseren allerede har på maskinen.
 

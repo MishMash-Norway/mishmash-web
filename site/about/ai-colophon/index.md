@@ -30,7 +30,7 @@ MishMash studies creative uses of AI — and uses AI, openly, in making this web
 
 ## The weight of the site
 
-A light site costs readers less time and the planet less energy. At every deployment the build weighs a set of pages: the bytes a first visit transfers for the HTML and the assets it links, counted as the server sends them, and an estimate of the carbon per visit using the Sustainable Web Design model as implemented in CO2.js. The figures are an estimate for comparing builds, not a measurement of anyone's device or network. The full report is at [/data/page-weight.json](/data/page-weight.json){: data-proofer-ignore="true"}.
+A light site costs readers less time and the planet less energy. At every deployment the build weighs a set of pages in a headless browser with an empty cache: the bytes a first visit transfers, counted as the server sends them, and an estimate of the carbon per visit using the Sustainable Web Design model as implemented in CO2.js. The count covers everything a reader of the whole page is sent, and leaves out the slides a gallery keeps hidden until asked for and pictures hotlinked from other sites. The figures are an estimate for comparing builds, not a measurement of anyone's device or network. The full report is at [/data/page-weight.json](/data/page-weight.json){: data-proofer-ignore="true"}.
 
 The build also cuts the web fonts down to the characters the site actually uses. The whole site is written with about 300 different characters, while a general Latin font file carries thousands of glyphs, so the font files shrink by roughly half and a first visit to the front page loads 85 kB of fonts instead of 198 kB. A character that no page uses falls back to a font already on the reader's device.
 

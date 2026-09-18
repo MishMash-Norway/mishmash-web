@@ -1,5 +1,5 @@
 /* Fill the page-weight table on the AI colophon from /data/page-weight.json,
-   which scripts/measure_page_weight.py writes after every build. */
+   which scripts/measure_page_weight.mjs writes after every build. */
 (function () {
   var box = document.getElementById('page-weight');
   if (!box) return;
