@@ -350,7 +350,7 @@ jobs:
           node-version: '22'
 
       - name: Rebuild the knowledge base from the current content
-        run: python3 scripts/build_knowledge_base.py
+        run: pip install -q PyYAML && python3 scripts/build_knowledge_base.py
 
       - name: Score the retrieval against the question set
         run: node scripts/eval_chat_retrieval.mjs --min 0.85 --verbose
