@@ -30,11 +30,13 @@ import re
 # ── Site walking configuration ───────────────────────────────────────────────
 # All published English markdown pages are included. These directories are
 # skipped when walking the site root (collections with dedicated handling,
-# build output, assets, and the two Norwegian mirrors, which duplicate content;
-# the assistant answers in the language of the question from the English text).
+# build output, assets, and the generated Nynorsk mirror). The hand-written
+# Bokmål pages under no/ are indexed: a question asked in Norwegian has to
+# meet Norwegian text, and the answer should cite the page the reader can
+# read. The Nynorsk pages are generated from those and would only repeat them.
 SKIP_DIRS = {
     "_site", "_layouts", "_includes", "_data", "assets", "images",
-    "chat", "no", "nn", "nn-auto", "ui", "_directory", "_news", "_events",
+    "chat", "nn", "nn-auto", "ui", "_directory", "_news", "_events",
 }
 
 # Extra documents directory (relative to repo root)
@@ -182,6 +184,8 @@ def split_into_chunks(text, source_label, max_words=350):
 # ── TF-IDF ───────────────────────────────────────────────────────────────────
 
 WP_RE = re.compile(r'\b(?:work[\s-]*package|arbeidspakke|wp)[\s.-]*([1-7])\b', re.I)
+AI_RE = re.compile(r'\bkunstig[\s-]*intelligens\w*\b|\bki\b', re.I)
+AI_EN_RE = re.compile(r'\bartificial[\s-]*intelligence\b|\bai\b', re.I)
 
 
 def normalise(text):
@@ -189,9 +193,14 @@ def normalise(text):
 
     A reader asks about "work package 3" and the page is called WP3; without
     this the number is lost and every work package looks alike to the
-    retrieval.
+    retrieval. The same holds for a spelled-out "kunstig intelligens" against
+    the KI the Norwegian pages use, and for "artificial intelligence" against
+    AI. Both are written as a token of their own, since two-letter words are
+    dropped.
     """
-    return WP_RE.sub(lambda m: f"wp{m.group(1)}", text.lower())
+    text = WP_RE.sub(lambda m: f"wp{m.group(1)}", text.lower())
+    text = AI_RE.sub("kix", text)          # KI and kunstig intelligens, as one token
+    return AI_EN_RE.sub("aix", text)
 
 
 def tokenize(text):

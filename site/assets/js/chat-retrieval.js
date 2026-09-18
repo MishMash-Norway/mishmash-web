@@ -16,12 +16,18 @@ export const STOP_WORDS = new Set([
 ]);
 
 const WP_RE = /\b(?:work[\s-]*package|arbeidspakke|wp)[\s.-]*([1-7])\b/gi;
+const AI_RE = /\bkunstig[\s-]*intelligens\w*\b|\bki\b/gi;
+const AI_EN_RE = /\bartificial[\s-]*intelligence\b|\bai\b/gi;
 
 /** Write the centre's own shorthand the same way everywhere: work package 3 is WP3.
     Kept identical to normalise() in scripts/build_knowledge_base.py; the two are
     compared by tests/chat/tokenizer-cases.json. */
 export function normalise(text) {
-  return text.toLowerCase().replace(WP_RE, (_, n) => `wp${n}`);
+  return text
+    .toLowerCase()
+    .replace(WP_RE, (_, n) => `wp${n}`)
+    .replace(AI_RE, 'kix')
+    .replace(AI_EN_RE, 'aix');
 }
 
 export function tokenize(text) {
@@ -32,8 +38,11 @@ export function tokenize(text) {
     .filter((t) => !STOP_WORDS.has(t) && t.length > 2);
 }
 
-/** The passages that answer a question best, most relevant first. */
-export function retrieve(knowledgeBase, query, topK = 4, floor = 0.05) {
+/** The passages that answer a question best, most relevant first.
+    At most `perPage` passages come from any one page: four passages from the
+    same page tell the model one thing four times, and crowd out the page that
+    holds the rest of the answer. */
+export function retrieve(knowledgeBase, query, topK = 4, floor = 0.05, perPage = 2) {
   if (!knowledgeBase) return [];
   const queryTokens = tokenize(query);
   if (queryTokens.length === 0) return [];
@@ -58,11 +67,21 @@ export function retrieve(knowledgeBase, query, topK = 4, floor = 0.05) {
     return { chunk, score: chunkNorm > 0 ? dot / (queryNorm * chunkNorm) : 0 };
   });
 
-  return scored
+  const ranked = scored
     .filter((s) => s.score > floor)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, topK)
-    .map((s) => s.chunk);
+    .sort((a, b) => b.score - a.score);
+
+  const taken = new Map();
+  const chosen = [];
+  for (const s of ranked) {
+    if (chosen.length >= topK) break;
+    const key = s.chunk.url || s.chunk.source;
+    const n = taken.get(key) || 0;
+    if (n >= perPage) continue;
+    taken.set(key, n + 1);
+    chosen.push(s.chunk);
+  }
+  return chosen;
 }
 
 /** The passages, laid out for the model, with the page each one comes from. */

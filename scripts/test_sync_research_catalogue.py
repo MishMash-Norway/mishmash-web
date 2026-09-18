@@ -26,5 +26,18 @@ class Tests(unittest.TestCase):
         self.assertEqual(rc.LICENCE_LABEL["all-rights-reserved"], "all rights reserved")
 
 
+class YearFloorTest(unittest.TestCase):
+    def test_only_the_centre_period_is_kept(self):
+        self.assertTrue(rc.recent_enough({"date": "2025-01-29"}))
+        self.assertTrue(rc.recent_enough({"date": "2026-12-13"}))
+        self.assertFalse(rc.recent_enough({"date": "2024-10-16"}))
+        self.assertFalse(rc.recent_enough({"date": "2014-09-21"}))
+
+    def test_an_exposition_without_a_usable_date_is_left_out(self):
+        self.assertFalse(rc.recent_enough({}))
+        self.assertFalse(rc.recent_enough({"date": ""}))
+        self.assertFalse(rc.recent_enough({"date": "n.d."}))
+
+
 if __name__ == "__main__":
     unittest.main()

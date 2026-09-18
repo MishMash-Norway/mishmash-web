@@ -8,10 +8,14 @@
 {% endcomment %}
 {% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
 {% assign rc = site.data.research_catalogue %}
+{% comment %} The gallery shows the centre's own period, from 2025 onward. {% endcomment %}
+{% assign from_year = rc.from_year | default: 2025 %}
 {% if rc and rc.expositions.size > 0 %}
 <h2>{% if nb %}Eksposisjoner i Research Catalogue{% else %}Expositions in the Research Catalogue{% endif %}</h2>
 <ul class="exposition-grid">
 {% for e in rc.expositions %}
+  {% assign e_year = e.date | slice: 0, 4 | plus: 0 %}
+  {% if e_year < from_year %}{% continue %}{% endif %}
   <li class="exposition-card">
     {% if e.image %}
     <a class="exposition-thumb" href="{{ e.url }}" aria-hidden="true" tabindex="-1"><img src="{{ e.image | relative_url }}" alt="" loading="lazy"></a>

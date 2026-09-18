@@ -1,5 +1,5 @@
 {
-  "comment": "Questions a reader might ask Ask MishMash, each with the page or pages whose passages should be retrieved. More than one page can genuinely answer a question, and any of them counts. Scored by scripts/eval_chat_retrieval.mjs against /chat/knowledge.json. Add a question when a real one comes in, and keep the expected pages the ones that actually answer it.",
+  "comment": "Questions a reader might ask Ask MishMash, each with the page or pages whose passages should be retrieved. More than one page can genuinely answer a question, and any of them counts. Scored by scripts/eval_chat_retrieval.mjs against /chat/knowledge.json. Add a question when a real one comes in, and keep the expected pages the ones that actually answer it. Questions are asked in both English and Norwegian, since members ask in both.",
   "top_k": 4,
   "questions": [
     {
@@ -105,6 +105,86 @@
       "q": "Can I get the site's data as JSON or CSV?",
       "expect": [
         "/data/"
+      ]
+    },
+    {
+      "q": "Hva er MishMash?",
+      "expect": [
+        "/about/description/",
+        "/about/",
+        "/no/about/description/",
+        "/no/about/"
+      ]
+    },
+    {
+      "q": "Hvilke arbeidspakker finnes i senteret?",
+      "expect": [
+        "/about/description/",
+        "/no/about/description/",
+        "/wp1/",
+        "/wp2/",
+        "/wp3/",
+        "/wp4/",
+        "/wp5/",
+        "/wp6/",
+        "/wp7/"
+      ]
+    },
+    {
+      "q": "Hva handler arbeidspakke 6 om?",
+      "expect": [
+        "/wp6/"
+      ]
+    },
+    {
+      "q": "Bruker nettstedet informasjonskapsler?",
+      "expect": [
+        "/privacy/",
+        "/no/privacy/"
+      ]
+    },
+    {
+      "q": "Kan jeg gjenbruke tekst og bilder fra nettstedet?",
+      "expect": [
+        "/about/terms/",
+        "/no/about/terms/"
+      ]
+    },
+    {
+      "q": "Hvordan brukes kunstig intelligens i arbeidet med nettsidene?",
+      "expect": [
+        "/about/ai-colophon/",
+        "/no/about/ai-colophon/",
+        "/projects/the-mishmash-website/"
+      ]
+    },
+    {
+      "q": "Er det ledige stillinger i senteret?",
+      "expect": [
+        "/vacancies/"
+      ]
+    },
+    {
+      "q": "Hva er en MeshUp?",
+      "expect": [
+        "/events/",
+        "/no/",
+        "/internal/meshups/"
+      ]
+    },
+    {
+      "q": "Hvilke språk finnes nettstedet på?",
+      "expect": [
+        "/about/languages/",
+        "/no/about/languages/"
+      ]
+    },
+    {
+      "q": "Hva skjedde på konferansen i Kristiansand?",
+      "expect": [
+        "/events/kristiansand2026/",
+        "/news/",
+        "/no/news/"
       ]
     }
   ]

@@ -20,6 +20,7 @@
       "out": [
         "mishmash",
         "centre",
+        "aix",
         "creativity"
       ]
     },
@@ -39,6 +40,30 @@
       "out": [
         "nynorsk",
         "bokmål"
+      ]
+    },
+    {
+      "in": "Hvordan brukes kunstig intelligens i skolen?",
+      "out": [
+        "hvordan",
+        "brukes",
+        "kix",
+        "skolen"
+      ]
+    },
+    {
+      "in": "What is artificial intelligence?",
+      "out": [
+        "aix"
+      ]
+    },
+    {
+      "in": "KI-verktøy og AI tools",
+      "out": [
+        "kix",
+        "verktøy",
+        "aix",
+        "tools"
       ]
     }
   ]

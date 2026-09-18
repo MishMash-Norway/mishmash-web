@@ -1,19 +1,20 @@
 {% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
 <div class="gallery-intro">
 {% if nb %}
-<p>Kunstnerisk arbeid fra MishMash-miljøet. Verkene lever der de hører hjemme, i gallerier, på scener, i tidsskrifter og i <a href="https://www.researchcatalogue.net/">Research Catalogue</a>, og denne siden viser dem og peker dit. Eksperimenter bygget på dette nettstedet ligger i <a href="/lab/">laben</a>, og alternative grensesnitt på <a href="/ui/">mishmash.no/ui/</a>.</p>
+<p>Kunstnerisk arbeid fra MishMash-miljøet, fra 2025 og fremover. Verkene lever der de hører hjemme, i gallerier, på scener, i tidsskrifter og i <a href="https://www.researchcatalogue.net/">Research Catalogue</a>, og denne siden viser dem og peker dit. Eksperimenter bygget på dette nettstedet ligger i <a href="/lab/">laben</a>, og alternative grensesnitt på <a href="/ui/">mishmash.no/ui/</a>.</p>
 {% else %}
-<p>Artistic work from the MishMash community. The works live where they belong, in galleries, on stages, in journals and in the <a href="https://www.researchcatalogue.net/">Research Catalogue</a>, and this page shows them and points there. Experiments built on this site are in the <a href="/lab/">lab</a>, and alternative interfaces at <a href="/ui/">mishmash.no/ui/</a>.</p>
+<p>Artistic work from the MishMash community, from 2025 onward. The works live where they belong, in galleries, on stages, in journals and in the <a href="https://www.researchcatalogue.net/">Research Catalogue</a>, and this page shows them and points there. Experiments built on this site are in the <a href="/lab/">lab</a>, and alternative interfaces at <a href="/ui/">mishmash.no/ui/</a>.</p>
 {% endif %}
 </div>
 
 {% include exposition-list.html lang=include.lang %}
 
-{% assign curated = site.data.gallery | default: empty %}
+{% comment %} Curated work from the centre's period only, as for the expositions. {% endcomment %}
+{% assign curated = site.data.gallery | default: empty | where_exp: "item", "item.year >= 2025" %}
 {% if curated.size > 0 %}
 <h2>{% if nb %}Utvalgte arbeider{% else %}Selected works{% endif %}</h2>
 <div class="gallery-grid">
-{% for item in site.data.gallery %}
+{% for item in curated %}
   <div class="gallery-card">
     <span class="gallery-kind">{% if nb and item.kind_nb %}{{ item.kind_nb }}{% else %}{{ item.kind }}{% endif %}</span>
     <h3>
