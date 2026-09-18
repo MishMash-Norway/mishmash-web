@@ -1,7 +1,7 @@
 ---
 description: "MishMash creates, explores, and reflects on AI for, through, and in creative practices — a Norwegian research centre with 200+ researchers across art, science, and society."
 ---
-MishMash is a Norwegian research consortium that works on **creating, exploring, and reflecting on AI for, through, and in creative practices**. More than 200 researchers investigate AI's impact on creative processes, develop innovative co-creative AI systems and educational strategies, and address AI’s ethical, cultural, legal, and societal implications in creative domains. [More about MishMash...](https://mishmash.no/about/)
+MishMash is a Norwegian research consortium that works on **creating, exploring, and reflecting on AI for, through, and in creative practices**. More than 200 researchers investigate AI's impact on creative processes, develop innovative co-creative AI systems and educational strategies, and address AI’s ethical, cultural, legal, and societal implications in creative domains. [More about MishMash...](/about/description/)
 
 <h2><a href="https://mishmash.no/events/">MishMash Events</a></h2>
 

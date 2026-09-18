@@ -5,7 +5,7 @@ title: "MishMash Senter for KI og kreativitet"
 translation_url: /
 description: "MishMash skaper, utforsker og reflekterer over KI for, gjennom og i kreative praksiser — et norsk forskningssenter med over 200 forskere."
 ---
-MishMash **skaper, utforsker og reflekterer over KI for, gjennom og i kreative praksiser**. Mer enn 200 forskere undersøker KIs innvirkning på kreative prosesser, utvikler innovative samskapende KI-systemer og pedagogiske strategier, og tar opp de etiske, kulturelle, juridiske og samfunnsmessige implikasjonene av KI i kreative praksiser. [Mer om MishMash...](/no/about/)
+MishMash **skaper, utforsker og reflekterer over KI for, gjennom og i kreative praksiser**. Mer enn 200 forskere undersøker KIs innvirkning på kreative prosesser, utvikler innovative samskapende KI-systemer og pedagogiske strategier, og tar opp de etiske, kulturelle, juridiske og samfunnsmessige implikasjonene av KI i kreative praksiser. [Mer om MishMash...](/no/about/description/)
 
 <h2><a href="https://mishmash.no/events/">MishMash-arrangementer</a></h2>
 
