@@ -7,9 +7,10 @@ A person or project entry may carry a `feeds` list in its front matter:
       - https://example.org/blog/feed.xml
 
 The feeds are fetched, and the newest posts from each are written to
-site/_data/member_posts.yml for the planet page at /news/member-blogs/.
-Only title, date, link and a short summary are stored; the reader goes to
-the source. A feed that fails is skipped and named, and the previous
+site/_data/member_posts.yml, which the person's or the project's own page
+reads: a member who has given a feed gets their latest posts on their
+directory page, and nowhere else. Only title, date, link and a short summary
+are stored; the reader goes to the source. A feed that fails is skipped and named, and the previous
 entries for it are kept, so one broken site does not empty the page.
 
 Two helpers for finding candidates, which change nothing:
@@ -136,7 +137,8 @@ def collect(root: Path) -> dict:
             posts += previous.get(feed, [])
             continue
         for it in items[:PER_FEED]:
-            posts.append({**it, "feed": feed, "author": name, "author_url": f"/{'people' if section == 'people' else 'projects'}/{slug}/"})
+            posts.append({**it, "feed": feed, "author": name, "author_slug": slug, "section": section,
+                          "author_url": f"/{'people' if section == 'people' else 'projects'}/{slug}/"})
     posts.sort(key=lambda p: (p.get("date") or "", p.get("title") or ""), reverse=True)
     return {
         "synced_at": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

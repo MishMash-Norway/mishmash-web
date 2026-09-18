@@ -1,0 +1,30 @@
+{% comment %}
+  The latest posts from a member's or a project's own site, for their
+  directory page. The feed is theirs, given by them (see
+  scripts/fetch_member_feeds.py); nothing is copied here beyond a title, a
+  date and a line, and the reading happens at the source.
+
+  include.slug     the directory slug
+  include.section  "people" or "projects"
+  include.limit    how many to show, 5 by default
+{% endcomment %}
+{% assign planet = site.data.member_posts %}
+{% assign limit = include.limit | default: 5 %}
+{% if planet and planet.posts.size > 0 %}
+  {% assign mine = planet.posts | where: "author_slug", include.slug | where: "section", include.section %}
+  {% if mine.size > 0 %}
+  <section class="person-posts" aria-label="Latest posts">
+    <h2>Latest posts</h2>
+    <ul class="planet-list">
+      {% for p in mine limit: limit %}
+      <li>
+        <a href="{{ p.url }}">{{ p.title }}</a>
+        {% if p.date %}<span class="planet-meta">{{ p.date }}</span>{% endif %}
+        {% if p.summary %}<p class="planet-summary">{{ p.summary }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="small muted">From <a href="{{ mine[0].feed }}">their own site</a>, collected {{ planet.synced_at | date: "%-d %B %Y" }}. Nothing is copied here; the reading happens there.</p>
+  </section>
+  {% endif %}
+{% endif %}

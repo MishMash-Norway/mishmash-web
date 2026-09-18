@@ -63,8 +63,6 @@
     "http://127.0.0.1:4000/data/",
     "http://127.0.0.1:4000/about/terms/",
     "http://127.0.0.1:4000/about/languages/",
-    "http://127.0.0.1:4000/news/in-the-media/",
-    "http://127.0.0.1:4000/news/member-blogs/",
     "http://127.0.0.1:4000/lab/heritage/",
     "http://127.0.0.1:4000/lab/semantic-search/",
     "http://127.0.0.1:4000/kiosk/",

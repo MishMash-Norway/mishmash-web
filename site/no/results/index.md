@@ -3,6 +3,8 @@ layout: page
 lang: nb
 title: Resultater
 permalink: /no/results/
+redirect_from:
+  - /no/news/in-the-media/
 translation_url: /results/
 description: "Forskningsresultater fra MishMash-senteret, synkronisert fra Nasjonalt vitenarkiv (NVA)."
 ---

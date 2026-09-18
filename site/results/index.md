@@ -3,6 +3,8 @@ layout: page
 title: Results
 permalink: /results/
 translation_url: /no/results/
+redirect_from:
+  - /news/in-the-media/
 description: "Research results from the MishMash centre, synced from the Norwegian research database NVA."
 ---
 
