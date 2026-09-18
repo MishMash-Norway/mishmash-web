@@ -1,60 +1,13 @@
 # Curated gallery entries shown at /gallery/ (and /no/gallery/), in order.
 # Artistic results registered in NVA (exhibitions, performances) are added
-# to the page automatically — this file is for work that lives elsewhere
-# or on this site and deserves a spot in the overview.
+# to the page automatically — this file is for artistic work that deserves a
+# spot in the overview and is not in NVA.
+#
+# The site's own experiments and pieces live in the lab (/lab/) rather than
+# here: the bubbles, the daily artwork, the soundscape, the people network,
+# the heritage viewer and the semantic search. Interface themes have their
+# own gallery at /ui/.
 #
 # Fields: title, url, kind/kind_nb (short type label), byline (who/where),
 # description/description_nb, year (optional), external (true opens in a
 # new tab).
-- title: MishMash Bubbles
-  url: /gallery/bubbles/
-  kind: Interactive
-  kind_nb: Interaktiv
-  byline: mishmash.no
-  description: >-
-    Play with the centre's emblem — two bubbles with springy physics.
-  description_nb: >-
-    Lek med senterets emblem — to bobler med fjærende fysikk.
-  external: false
-- title: Daily bubble artwork
-  title_nb: Dagens bobler
-  url: /about/ai-colophon/
-  url_nb: /no/about/ai-colophon/
-  kind: Generative
-  kind_nb: Generativ
-  byline: mishmash.no
-  description: >-
-    A variation of the bubble emblem is redrawn every night, seeded by the
-    day's site activity. Shown and explained in the AI colophon.
-  description_nb: >-
-    En variasjon av bobleemblemet tegnes på nytt hver natt, med dagens
-    aktivitet på nettstedet som frø. Vises og forklares i KI-kolofonen.
-  external: false
-- title: Research Soundscape
-  title_nb: Forskningslydlandskap
-  url: /lab/soundscape/
-  url_nb: /no/lab/soundscape/
-  kind: Sound
-  kind_nb: Lyd
-  byline: mishmash.no
-  description: >-
-    The publication stream as sound — one note per research result,
-    harmony from co-authorship, timbre from result type.
-  description_nb: >-
-    Publikasjonsstrømmen som lyd — én tone per forskningsresultat,
-    harmoni fra medforfatterskap, klang fra resultattype.
-  external: false
-- title: UI themes
-  title_nb: UI-temaer
-  url: /ui/
-  kind: Web design
-  kind_nb: Webdesign
-  byline: Community contributions
-  byline_nb: Bidrag fra fellesskapet
-  description: >-
-    Alternative frontends for this site, contributed by the community and
-    browsable as live previews. Anyone can make one.
-  description_nb: >-
-    Alternative grensesnitt for dette nettstedet, bidratt av fellesskapet
-    og tilgjengelige som forhåndsvisninger. Hvem som helst kan lage ett.
-  external: false

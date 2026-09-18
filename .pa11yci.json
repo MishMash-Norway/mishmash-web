@@ -69,6 +69,8 @@
     "http://127.0.0.1:4000/lab/semantic-search/",
     "http://127.0.0.1:4000/kiosk/",
     "http://127.0.0.1:4000/no/data/",
-    "http://127.0.0.1:4000/no/about/terms/"
+    "http://127.0.0.1:4000/no/about/terms/",
+    "http://127.0.0.1:4000/lab/bubbles/",
+    "http://127.0.0.1:4000/lab/daily-bubbles/"
   ]
 }

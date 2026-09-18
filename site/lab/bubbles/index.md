@@ -1,6 +1,16 @@
 ---
-layout: page
+layout: lab
 title: "MishMash Bubbles"
+permalink: /lab/bubbles/
+redirect_from:
+  - /gallery/bubbles/
+description: "The centre's emblem as a toy: two bubbles with springy physics that you can pull apart and push together."
+lab:
+  authors: [mishmash.no]
+  date: 2026-02-01
+  status: piece
+  data: "None: the piece is the emblem itself, drawn as vectors and moved by a small physics loop in your browser."
+  ai: "Coded with an AI assistant and reviewed by the site maintainers; see the AI colophon."
 ---
 
 <div id="bubble-container" style="width:100%;max-width:800px;margin:0 auto;cursor:pointer;">
