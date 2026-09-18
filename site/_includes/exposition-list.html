@@ -1,0 +1,49 @@
+{% comment %}
+  Expositions from the Research Catalogue by members of the network
+  (site/_data/research_catalogue.yml, synced nightly by
+  scripts/sync_research_catalogue.py). The cover image is shown where the
+  work's licence allows; every card names the authors, the licence and the
+  place of publication, and links to the work itself.
+  include.lang = "nb" for Norwegian.
+{% endcomment %}
+{% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
+{% assign rc = site.data.research_catalogue %}
+{% if rc and rc.expositions.size > 0 %}
+<h2>{% if nb %}Eksposisjoner i Research Catalogue{% else %}Expositions in the Research Catalogue{% endif %}</h2>
+<ul class="exposition-grid">
+{% for e in rc.expositions %}
+  <li class="exposition-card">
+    {% if e.image %}
+    <a class="exposition-thumb" href="{{ e.url }}" aria-hidden="true" tabindex="-1"><img src="{{ e.image | relative_url }}" alt="" loading="lazy"></a>
+    {% endif %}
+    <div class="exposition-body">
+      <h3><a href="{{ e.url }}">{{ e.title }}</a></h3>
+      <p class="exposition-authors">
+        {%- for c in e.creators -%}
+          {%- assign member = nil -%}
+          {%- for m in e.members -%}{%- if m.name == c -%}{%- assign member = m -%}{%- endif -%}{%- endfor -%}
+          {%- if member %}<a href="{{ member.url | relative_url }}">{{ c }}</a>{% else %}{{ c }}{% endif -%}
+          {%- unless forloop.last %}, {% endunless -%}
+        {%- endfor -%}
+      </p>
+      {% if e.abstract %}<p class="exposition-abstract">{{ e.abstract | strip_html | truncate: 220 }}</p>{% endif %}
+      <p class="exposition-meta">
+        {%- if e.date %}{{ e.date | slice: 0, 4 }} · {% endif -%}
+        {{ e.portal }}
+        {%- if e.licence_label %} · {{ e.licence_label }}{% endif -%}
+        {%- if e.doi %} · <a href="{{ e.doi }}">DOI</a>{% endif -%}
+      </p>
+    </div>
+  </li>
+{% endfor %}
+</ul>
+<p class="small muted">
+  {%- if nb -%}
+    {{ rc.count }} eksposisjoner av medlemmer i nettverket, hentet fra <a href="https://www.researchcatalogue.net/">Research Catalogue</a> {{ rc.synced_at | date: "%-d. %B %Y" }}. Forsidebildet vises der verkets lisens tillater det; alle verk lenkes til kilden.
+  {%- else -%}
+    {{ rc.count }} expositions by members of the network, collected from the <a href="https://www.researchcatalogue.net/">Research Catalogue</a> on {{ rc.synced_at | date: "%-d %B %Y" }}. A cover image is shown where the work's licence allows it; every work links to its source.
+  {%- endif -%}
+</p>
+{% else %}
+<p>{% if nb %}Ingen eksposisjoner funnet ennå.{% else %}No expositions found yet.{% endif %}</p>
+{% endif %}
