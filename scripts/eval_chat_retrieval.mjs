@@ -43,6 +43,17 @@ if (drift) {
 }
 
 const kb = JSON.parse(await readFile(join(repo, 'site', 'chat', 'knowledge.json'), 'utf8'));
+
+// Every passage has to come from a page a reader can open. A passage without
+// one means a document was put into site/chat/docs/ and is being served, and
+// quoted in answers, without anything linking to it.
+const unlinked = kb.chunks.filter((c) => !c.url);
+if (unlinked.length) {
+  const names = [...new Set(unlinked.map((c) => c.source))].slice(0, 10);
+  console.error(`eval_chat_retrieval: ${unlinked.length} passages have no page behind them: ${names.join(', ')}`);
+  console.error('Put such a document on a page of its own, or keep it out of site/chat/docs/.');
+  process.exit(1);
+}
 const set = JSON.parse(await readFile(join(repo, 'tests', 'chat', 'questions.json'), 'utf8'));
 const topK = set.top_k || 4;
 
