@@ -127,6 +127,30 @@ Senterets forskning er organisert i syv arbeidspakker:
 - [AP7: Menneskesentrisk KI for kreativ problemløsning](/wp7) — Skaper målrettede Kreativ KI-rammeverk og grensesnitt som styrker utøvere (designere, filmskapere, industrioperatører, nødetatspersonell) ved å støtte overraskelse, kontroll og evaluering innenfor praktiske begrensninger — fra iterativ prompt-basert utforskning (Lawton et al. 2023) til sanntidssamarbeid med kroppsliggjort KI (Paradise et al. 2023) — samtidig som fysiske, juridiske og etiske grenser kodes inn (Duan et al. 2022).
 </div>
 
+## Hva har senteret forpliktet seg til?
+
+<div class="adaptive" data-for="simple standard" markdown="1">
+Ved siden av selve forskningen har MishMash lovet Forskningsrådet fem ting:
+
+- **Et nasjonalt senter.** Ett sted der universiteter, høyskoler, forskningsinstitutter og kunstneriske forskningsmiljøer arbeider sammen med kulturelle, offentlige og private organisasjoner, i stedet for å konkurrere.
+- **Ny kunnskap og nye verktøy.** KI-metoder bygget for kreativt arbeid og prøvd ut i konserter, utstillinger, klasserom, terapirom, næringsliv og arkiver.
+- **Kompetanse i Norge.** Rundt 100 vitenskapelig ansatte som arbeider med kreativ KI, utdanner flere titalls doktorgradskandidater og hundrevis av studenter, med kurs som også er åpne for fagfolk utenfor akademia.
+- **Internasjonalt samarbeid.** Bistillinger fra ledende miljøer i utlandet, og forskere tidlig i karrieren som beveger seg begge veier.
+- **Måter å arbeide på tvers av fag.** Metoder for samarbeid mellom fagfelt som sjelden møtes, fra kunstfagene til ingeniørfagene, og mellom offentlig og privat sektor.
+</div>
+
+<div class="adaptive" data-for="advanced" markdown="1">
+Det primære målet hviler på fem delmål, som svarer på målene som er satt for KI-sentrene:
+
+- **Etablere et nasjonalt senter** som spenner over landets universiteter og høyskoler, forskningsinstitutter og kunstneriske forskningsmiljøer, sammen med biblioteker, museer, kringkastere, bedrifter og internasjonale partnere. Senteret er et levende, i hovedsak virtuelt forskningsmiljø, med ukentlige møter på nett, arbeidspakkemøter annenhver uke, månedlige temaseminarer, jevnlige åpne verksteder og arrangementer for livslang læring, og symposier to ganger i året med forelesninger, konserter og utstillinger.
+- **Skape ny grunnleggende kunnskap om KI** og utvikle KI-baserte algoritmer og verktøy som kan brukes i kreative praksiser. Verktøyene brukes i offentlige fremføringer og utstillinger, i undervisning og terapi, i de kreative næringene og for kulturarv. Kritisk refleksjon over mangfold, personvern, opphavsrett og bærekraft føres tilbake i en iterativ utviklingssyklus, og videre til publikasjoner og politikkanbefalinger.
+- **Bygge kompetanse i Norge** gjennom forskningsprosjekter som involverer rundt 100 vitenskapelig ansatte som arbeider med kreativ KI. De utdanner flere titalls doktorgradskandidater og hundrevis av studenter, og tilbyr livslang læring for frilansere og fagfolk i offentlig og privat sektor. Se [forskerutdanning](/no/about/training/).
+- **Samarbeide med ledende forskningsmiljøer internasjonalt** ved å knytte til seg professorer i bistilling og støtte toveis mobilitet for forskere tidlig i karrieren, slik at norsk forskning, utdanning og innovasjon på KI blir mer internasjonal.
+- **Utvikle metoder og strategier for tverrfaglig samarbeid** mellom fagfelt som vanligvis holdes atskilt. MishMash er det første senteret i denne størrelsen i Norge som spenner fra de "myke" til de "harde" fagene, mellom kunst og vitenskap, og som arbeider tett med både offentlig og privat sektor.
+
+Hvordan senteret publiserer og deler det det lager, står på siden om [åpen forskning](/no/about/open-research/), og hvordan medlemmene skal behandle hverandre, i [etiske retningslinjer](/no/about/code-of-conduct/).
+</div>
+
 ## Når?
 
 <div class="adaptive" data-for="simple standard" markdown="1">

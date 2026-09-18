@@ -30,6 +30,12 @@ This work package examines these transformations across four interconnected area
 
 - **Reflect** critically on the governance, economic, artistic and socio-environmental implications of AI, including power dynamics, shifts in creative agency, cultural biases, safety risks and long-term sustainability issues.
 
+## Sustainability
+
+This work package contributes to two of the UN Sustainable Development Goals. Work on artistic integrity, rights and revenue addresses decent work and economic growth in the creative sector ([SDG 8](https://sdgs.un.org/goals/goal8)), and the search for sustainable business and rights infrastructures fosters innovation ([SDG 9](https://sdgs.un.org/goals/goal9)).
+
+The centre's other commitments on sustainability, openness and reuse are on the [open research](/about/open-research/) page.
+
 ## Work Package Leaders
 
 <div class="wp-member-row">

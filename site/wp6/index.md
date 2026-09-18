@@ -29,6 +29,12 @@ The public sector must lead in these technologies, ensuring that powerful new ca
 - **EXPLORE:** the effectiveness of current and custom AI systems in preserving and nurturing Norwegian cultural expressions, focusing on minority cultures.
 - **REFLECT:** on the ethical and legal threats of AI usage in cultural heritage and develop policies and guidelines to ensure responsive, ethical and inclusive use of AI.
 
+## Sustainability
+
+This work package contributes to two of the UN Sustainable Development Goals. Multimodal retrieval that opens archives and collections makes cultural heritage more durable and more usable ([SDG 11](https://sdgs.un.org/goals/goal11)), and doing so within ethical and legal limits, including for minority expressions, is part of building trustworthy institutions ([SDG 16](https://sdgs.un.org/goals/goal16)).
+
+The centre's other commitments on sustainability, openness and reuse are on the [open research](/about/open-research/) page.
+
 ## Work Package Leaders
 
 <div class="wp-member-row">

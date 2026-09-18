@@ -25,6 +25,12 @@ Ethical considerations are central to this WP, especially how AI can be used res
 - **EXPLORE:** how AI-generated content and interactive AI systems affect human behaviour and emotions.
 - **REFLECT:** on the benefits and risks to human health and well-being of integrating AI into creative processes.
 
+## Sustainability
+
+This work package contributes to two of the UN Sustainable Development Goals. Knowledge about how people perceive AI in health settings, and guidelines for using it in therapy, serve health and well-being ([SDG 3](https://sdgs.un.org/goals/goal3)), and a disability-inclusive approach is what keeps that work from widening the gap it means to close ([SDG 10](https://sdgs.un.org/goals/goal10)).
+
+The centre's other commitments on sustainability, openness and reuse are on the [open research](/about/open-research/) page.
+
 ## Work Package Leaders
 
 <div class="wp-member-row">

@@ -120,6 +120,30 @@ The centre's research is organised in seven work packages:
 - [WP7: Human-centric AI for Creative Problem-Solving](/wp7) — Create goal-oriented Creative AI frameworks and interfaces that empower practitioners (designers, filmmakers, industrial operators, emergency responders) by supporting surprise, control and evaluation within practical constraints — from iterative prompt-based exploration (Lawton et al. 2023) to real-time collaboration with embodied AI (Paradise et al. 2023) — while encoding physical, legal and ethical bounds such as realism constraints (Duan et al. 2022), and ensuring agency, transparency and transferability.
 </div>
 
+## What has the centre undertaken?
+
+<div class="adaptive" data-for="simple standard" markdown="1">
+Besides the research itself, MishMash has promised the Research Council five things:
+
+- **A national centre.** One place where higher education institutions, research institutes and artistic research environments work together with cultural, public and private organisations, rather than competing.
+- **New knowledge and new tools.** AI methods that are built for creative work and tried out in performances, exhibitions, classrooms, therapy rooms, industry and archives.
+- **Expertise in Norway.** Around 100 faculty members working on creative AI, educating dozens of doctoral candidates and hundreds of students, with courses open to professionals outside academia.
+- **International collaboration.** Adjunct professors from leading environments abroad, and researchers early in their careers moving in both directions.
+- **Ways of working across disciplines.** Methods for collaboration between fields that rarely meet, from the arts to engineering, and between the public and private sectors.
+</div>
+
+<div class="adaptive" data-for="advanced" markdown="1">
+The primary objective rests on five secondary objectives, which answer the goals set for the AI centres:
+
+- **Establish a national centre** spanning the country's higher education institutions, research institutes and artistic research environments, together with libraries, museums, broadcasters, companies and international partners. The centre is a lively, largely virtual research environment, with weekly online meetings, biweekly work package check-ins, monthly thematic seminars, regular public workshops and lifelong learning events, and symposia twice a year with lectures, performances and exhibitions.
+- **Generate new fundamental knowledge about AI** and develop AI-based algorithms and tools that are applicable in creative practices. The tools are used in public performances and exhibitions, in educational and therapeutic settings, within the creative industries and for cultural heritage. Critical reflection on diversity, privacy, copyright and sustainability feeds back into an iterative development cycle, and into publications and policy guidelines.
+- **Build expertise in Norway** through research projects involving around 100 faculty members working on creative AI. They educate dozens of doctoral candidates and hundreds of students, and provide lifelong learning for freelancers and professionals in the public and private sectors. See [research training](/about/training/).
+- **Collaborate with leading research environments worldwide** by hiring adjunct professors and supporting two-way mobility for researchers early in their careers, so that Norwegian research, education and innovation on AI become more international.
+- **Develop methods and strategies for interdisciplinary collaboration** between fields that are usually kept apart. MishMash is the first centre at this scale in Norway to span disciplines from the "soft" to the "hard", between art and science, and to work closely with both the public and the private sector.
+
+How the centre publishes and shares what it produces is set out on the [open research](/about/open-research/) page, and how members are expected to treat each other in the [code of conduct](/about/code-of-conduct/).
+</div>
+
 ## When?
 
 <div class="adaptive" data-for="simple standard" markdown="1">

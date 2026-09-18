@@ -29,6 +29,12 @@ AIs developed in this WP will be limited by stricter boundaries than others—fr
 - **EXPLORE:** how Creative AI algorithms can empower humans while ensuring their sense of agency and ownership by observing, understanding, and adapting to human expression.
 - **REFLECT:** about the perception of creativity in problem-solving, ranging from the ability of an AI system to separate recreation from creativity, the creator's intent, to the perception of a user or an observer of the creation.
 
+## Sustainability
+
+This work package contributes to one of the UN Sustainable Development Goals directly. Task-specific tools for human-machine co-creation, built for practitioners working under real constraints, foster innovation in the sectors that adopt them ([SDG 8](https://sdgs.un.org/goals/goal8)).
+
+The centre's other commitments on sustainability, openness and reuse are on the [open research](/about/open-research/) page.
+
 ## Work Package Leaders
 
 <div class="wp-member-row">

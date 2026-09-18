@@ -25,6 +25,12 @@ The aim is to equip future practitioners and educators with the competence to na
 - **EXPLORE:** the artistic and pedagogical use of AI in formal, non-formal and informal learning contexts, including developing a shared understanding of AI literacy for creative and fine arts education.
 - **REFLECT:** on the implications of using AI in education to suggest frameworks and policy recommendations for using AI in education.
 
+## Sustainability
+
+This work package contributes to one of the UN Sustainable Development Goals directly. Teaching resources, continuing professional development for practising teachers, and the long reach of teacher education serve quality education ([SDG 4](https://sdgs.un.org/goals/goal4)).
+
+The centre's other commitments on sustainability, openness and reuse are on the [open research](/about/open-research/) page.
+
 ## Work Package Leaders
 
 <div class="wp-member-row">

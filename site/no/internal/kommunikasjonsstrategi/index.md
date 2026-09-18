@@ -68,6 +68,17 @@ Prinsipp fem er del av en større forpliktelse. MishMash ser forskning, utdannin
 
 Ingen av partnernes kommunikasjonsstrategier nevner åpen forskning, åpen utdanning eller åpen kunnskap som kommunikasjonsprinsipp; UiOs ene linje om åpen tilgang og Simulas om åpen kildekode og data er det nærmeste. For MishMash er dette rammen de andre prinsippene står i.
 
+## Kunst som metode, ikke formidling
+
+Prinsipp åtte har en praktisk følge som er lett å miste av syne når kommunikasjon skal planlegges. Offentlige fremføringer og utstillinger er en integrert del av arbeidet i senteret, ikke et utstillingsvindu for det. Å vise frem og prøve ut KI-baserte systemer i en konsertsal, et galleri eller et museum er en del av den iterative designsløyfen: formell og uformell evaluering i et virkelig rom går inn i neste versjon av systemet, og dokumentasjonen fra slike arrangementer er materiale for forskerne som studerer hva KI gjør med utøvere og publikum.
+
+To ting følger av dette for hvordan vi kommuniserer.
+
+- **Et kunstnerisk arrangement rapporteres som forskning.** En konsert eller en installasjon behandles som en publikasjon: hva som ble laget, med hvilke verktøy, hva som ble lært, hva kildene var og hva KI bidro med. Det hører hjemme i resultatlisten og i [galleriet](/no/gallery/), ikke bare i arrangementskalenderen.
+- **Utforskning i virkelige rom kan gi funn.** Å arbeide offentlig, med et virkelig publikum og deres samtykke, har gitt vitenskapelige resultater før, slik konsertserien MusicLab viste. Kommunikasjonsplaner bør derfor se på publikum som deltakere som kan bli spurt om noe, ikke bare som folk som blir fortalt noe.
+
+Det er her MishMash skiller seg fra de fleste av partnernes strategier, som behandler kunst som en måte å gjøre forskning synlig på. Her er kunsten emnet, objektet, uttrykket og metoden, og kommunikasjonen må kunne si det.
+
 ## Nettstedet slik det er nå
 
 mishmash.no har lesenivåene og stretchteksten beskrevet ovenfor, og et sett funksjoner som følger av prinsippene: en [lab](/lab/) der enhver arbeidspakke kan publisere et nettlesereksperiment med data og KI-bruk oppgitt; en [kioskvisning](/kiosk/) for skjermer i partnernes vestibyler; skjemaer for nyheter, arrangementer, MeshUp-foredrag og rettelser, slik at medlemmer bidrar uten git; objekter fra norske kulturarvsamlinger vist på stedet med samlingens egen rettighetserklæring; en katalog, resultatliste og kalender som holdes i takt med det nasjonale forskningsarkivet; og sider om vilkår, personvern og tilgjengelighet som sier hva nettstedet gjør, ikke hva det håper. Det som finnes, står på siden om [nettsideprosjektet](/projects/the-mishmash-website/); det som er planlagt, står i saksoversikten på GitHub.

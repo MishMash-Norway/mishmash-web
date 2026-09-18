@@ -71,6 +71,12 @@
     "http://127.0.0.1:4000/no/data/",
     "http://127.0.0.1:4000/no/about/terms/",
     "http://127.0.0.1:4000/lab/bubbles/",
-    "http://127.0.0.1:4000/lab/daily-bubbles/"
+    "http://127.0.0.1:4000/lab/daily-bubbles/",
+    "http://127.0.0.1:4000/about/open-research/",
+    "http://127.0.0.1:4000/about/training/",
+    "http://127.0.0.1:4000/about/code-of-conduct/",
+    "http://127.0.0.1:4000/no/about/open-research/",
+    "http://127.0.0.1:4000/no/about/training/",
+    "http://127.0.0.1:4000/no/about/code-of-conduct/"
   ]
 }

@@ -25,6 +25,12 @@ This raises critical questions about cultural agency: Who decides what stories a
 - **EXPLORE:** existing AI tools to identify their potentials, limitations, and challenges, focusing on ethical and legal implications and cultural biases.
 - **REFLECT:** on how the interplay between AI and human creativity exposes new insights into the act of creation, its impact on audiences, and the social impact of art on contemporary society.
 
+## Sustainability
+
+This work package contributes to two of the UN Sustainable Development Goals. Confronting the cultural biases in commercial generative tools, and developing artist-centred alternatives, works against inequality ([SDG 10](https://sdgs.un.org/goals/goal10)) and towards cultural expression that more people can recognise as their own ([SDG 16](https://sdgs.un.org/goals/goal16)).
+
+The centre's other commitments on sustainability, openness and reuse are on the [open research](/about/open-research/) page.
+
 ## Work Package Leaders
 
 <div class="wp-member-row">

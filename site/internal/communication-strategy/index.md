@@ -65,6 +65,17 @@ Principle five is part of a larger commitment. MishMash sees research, education
 
 None of the partners' communication strategies names open science, open education or open knowledge as a communication principle; UiO's one line on open access and Simula's on open source and data are the nearest. For MishMash it is the frame the other principles sit in.
 
+## Art as method, not dissemination
+
+Principle eight has a practical consequence that is easy to lose when planning communication. Public performances and exhibitions are integral to the centre's work, not a shop window for it. Demonstrating and testing AI-based systems in a concert hall, a gallery or a museum is part of the iterative design loop: formal and informal evaluation in a real venue feeds the next version of the system, and the documentation from those events is material for the researchers studying what AI does to performers and audiences.
+
+Two things follow for how we communicate.
+
+- **An artistic event is reported as research.** A concert or an installation gets the same treatment as a publication: what was made, with which tools, what was learned, what the sources were and what AI contributed. It belongs in the results list and the [gallery](/gallery/), not only in the events calendar.
+- **Real-world exploration can produce findings.** Working in public, with real audiences and their consent, has produced scientific results before, as the MusicLab concert series showed. Communication plans should therefore treat an audience as participants who may be asked something, not only as people who are told something.
+
+This is where MishMash differs from most of the partners' strategies, which treat art as a way of making research visible. Here art is the subject, the object, the expression and the method, and the communication has to be able to say so.
+
 ## The website as it now stands
 
 mishmash.no carries the reading levels and stretchtext described above, and a set of features that follow from the principles: a [lab](/lab/) where any work package can publish a browser experiment with its data and AI declared; a [kiosk view](/kiosk/) for screens in partner lobbies; forms for news, events, MeshUp talks and corrections so that members contribute without git; objects from Norwegian heritage collections shown in place with the collection's own rights statement; a directory, results list and calendar kept in step with the national research archive; and terms, privacy and accessibility pages that say what the site does rather than what it hopes. What exists is listed on the [website project](/projects/the-mishmash-website/) page; what is planned is in the issue tracker.

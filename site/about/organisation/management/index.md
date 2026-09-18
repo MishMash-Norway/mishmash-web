@@ -5,7 +5,9 @@ redirect_from:
   - /organisation/management/
 ---
 
-The Management group handles the day-to-day coordination and administration of MishMash activities.
+The Management group handles the day-to-day coordination and administration of MishMash activities. It meets weekly.
+
+The centre looks at its seven themes from three perspectives, and one member of the management carries each of them: the director follows machines, and the two deputy directors follow humans and society. The perspectives are what the monthly centre-wide meetings are built around, so that people who would not otherwise meet discuss the same question from their own field.
 
 ## Members
 

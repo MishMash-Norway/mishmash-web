@@ -27,6 +27,12 @@ We posit that embodied AI systems that can sense, act, and behave in a way that 
 - **EXPLORE:** existing and custom-built interactive AI-based software and hardware solutions in real-world settings, such as concerts, installations, and gaming.
 - **REFLECT:** on current challenges and barriers to artistic real-time applications of AI to inform the creation of new algorithms and systems.
 
+## Sustainability
+
+This work package contributes to two of the UN Sustainable Development Goals. Adaptive, low-latency AI methods for artistic creation and performance promote innovation ([SDG 9](https://sdgs.un.org/goals/goal9)), and building small, controllable models rather than very large ones encourages sustainable production practices ([SDG 12](https://sdgs.un.org/goals/goal12)).
+
+The centre's other commitments on sustainability, openness and reuse are on the [open research](/about/open-research/) page.
+
 ## Work Package Leaders
 
 <div class="wp-member-row">
