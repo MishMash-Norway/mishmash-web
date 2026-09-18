@@ -105,6 +105,26 @@ Det MishMash publiserer skal kunne brukes videre, og vilkårene står på ett st
 
 Vilkårene står i klartekst på nettstedet, i lisensoppføringen i bunnteksten, og i maskinlesbar form for søkeroboter: teksten er åpen, og forbeholdet for bilder, portretter og logoer uttrykkes i den formen EU-direktivet om opphavsrett i det digitale indre marked legger opp til.
 
+## Bilder fra partnerne: et punkt til samtalen med partnerne
+
+Hvert kort for en nyhet eller et arrangement hos en partner har et miniatyrbilde, og det bildet hentes fra partnerens egen tjener når en leser åpner siden vår. To ting følger av det. Partnerens tjener ser leserens nettverksadresse, og det er det ene stedet der løftet om at dette nettstedet ikke sporer noen, avhenger av hvordan en annen oppfører seg. Og bildet er ikke vårt å ta vare på, så kortet ryker hver gang partneren legger om nettstedet sitt.
+
+Overalt ellers henter nettstedet fra kilden og beholder en kopi: portretter fra det nasjonale forskningsarkivet ligger her, og et forsidebilde fra Research Catalogue kopieres bare når verket har en Creative Commons-lisens, med lisensen oppgitt på kortet. Miniatyrbildene fra partnerne er unntaket, og grunnen er at ingen har fortalt oss hva som kan gjøres med dem.
+
+Det ble målt og ikke antatt 18. september 2026, med `scripts/report_partner_image_terms.py`, over de 65 partnersidene som ligger bak et miniatyrbilde, fordelt på 27 verter.
+
+| Hva siden sier om bildene sine | Sider | Verter |
+| --- | --- | --- |
+| En lisens | 0 | 0 |
+| En fotokreditering, men ingen lisens | 22 | 11 |
+| En lenke til vilkår eller opphavsrett | 2 | 2 |
+
+Tre verter lenker til en vilkårsside fra forsiden, og alle tre handler om salg eller billetter, ikke om bilder. En kreditering navngir fotografen; den sier ikke hva en leser kan gjøre med bildet.
+
+Posisjonen inn i samtalen med partnerne er derfor denne. Vi vil gjerne beholde et lite miniatyrbilde av bildet som følger en partners nyhet eller arrangement, lagre det på vår egen tjener, vise det i den størrelsen listene bruker, og lenke det tilbake til partnerens side med partneren navngitt. Det fjerner en forespørsel til en tredjepart for hver leser, og det holder kortet i live. Vi kopierer ikke et bilde uten grunnlag, så inntil en partner sier noe annet, viser kortet senterets egen grafikk i stedet.
+
+Det vi ber om, er én linje i partneravtalen, eller en e-post, som gir tillatelse til å vise et miniatyrbilde som lenker tilbake. Det vi tilbyr til gjengjeld, er det samme for vårt eget materiale: alt senteret publiserer kan gjenbrukes på vilkårene over, og en partner er velkommen til bildene våre på samme grunnlag.
+
 ## Språk
 
 Engelsk er hovedspråket; sentrale seksjoner speiles på norsk under `/no/…`. Adaptive lesenivåer og norsk oversettelse er uavhengige dimensjoner: målet er at begge språkversjonene etter hvert tilbyr de samme lesenivåene. Maskinoversettelse merkes på de aktuelle sidene.

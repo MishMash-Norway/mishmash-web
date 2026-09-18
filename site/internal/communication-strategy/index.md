@@ -102,6 +102,26 @@ What MishMash publishes is meant to be reused, and the terms say so in one place
 
 The terms are stated in plain language on the site, in the footer's licence entry, and in machine-readable form for crawlers: the text is open, and the reservation for images, portraits and logos is expressed in the form the EU directive on copyright in the digital single market provides for.
 
+## Pictures from partners: a point to discuss with the partners
+
+Every card for a partner's news item or event carries a thumbnail, and that picture is fetched from the partner's own server when a reader opens our page. Two things follow. The partner's server sees the reader's address, which is the one place where this site's promise not to track anyone depends on someone else's conduct. And the picture is not ours to keep, so the card breaks whenever the partner reorganises their site.
+
+Everywhere else the site already collects from the source and keeps a copy: portraits from the national research archive are stored here, and a cover image from the Research Catalogue is copied only when the work carries a Creative Commons licence, with the licence named on the card. Partner thumbnails are the exception, and the reason is that nobody has told us what may be done with them.
+
+That was measured rather than assumed on 18 September 2026, with `scripts/report_partner_image_terms.py`, over the 65 partner pages behind a thumbnail across 27 hosts.
+
+| What the page states about its pictures | Pages | Hosts |
+| --- | --- | --- |
+| A licence | 0 | 0 |
+| A photo credit, but no licence | 22 | 11 |
+| A link to terms or copyright | 2 | 2 |
+
+Three hosts link a terms page from their front page, and all three are sales or ticket terms rather than anything about pictures. A credit line names the photographer; it does not say what a reader may do with the photograph.
+
+So the position to take into the partner conversation is this. We would like to keep a small thumbnail of the picture that accompanies a partner's news item or event, store it on our own server, show it at the size the listings use, and link it back to the partner's page with the partner named. That removes a third-party request for every reader and keeps the card working. We will not copy a picture without a basis for it, so until a partner says otherwise, their card shows the centre's own artwork instead.
+
+What we ask for is one line in the partner agreement, or an e-mail, granting permission to show a thumbnail that links back. What we offer in return is the same for our own material: anything the centre publishes may be reused on the terms above, and a partner is welcome to our pictures on the same footing.
+
 ## Language
 
 English is the main language; key sections are mirrored in Norwegian under `/no/…`. Adaptive reading levels and Norwegian translation are independent dimensions: the goal is that both language versions eventually offer the same reading levels. Machine translation is marked as such on the pages concerned.
