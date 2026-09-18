@@ -1,0 +1,107 @@
+synced_at: '2026-09-18T13:13:42Z'
+source: OpenAlex (CC0) for the open-access status and the free copy, Crossref for
+  the licence
+count: 16
+free: 10
+works:
+  10.1007/978-3-032-26999-7_18:
+    status: closed
+    label: subscription
+    free: false
+    licence_url: https://www.springernature.com/gp/researchers/text-and-data-mining
+  10.1007/s10579-026-09905-z:
+    status: hybrid
+    label: open access
+    free: true
+    url: https://link.springer.com/content/pdf/10.1007/s10579-026-09905-z.pdf
+    licence: cc-by-nc-nd
+    licence_label: CC BY-NC-ND
+    licence_url: https://creativecommons.org/licenses/by-nc-nd/4.0
+  10.1080/14794713.2026.2657654:
+    status: hybrid
+    label: open access
+    free: true
+    url: https://doi.org/10.1080/14794713.2026.2657654
+    licence: cc-by
+    licence_label: CC BY
+    licence_url: http://creativecommons.org/licenses/by/4.0/
+  10.1093/ml/gcag043:
+    status: closed
+    label: subscription
+    free: false
+    licence_url: https://academic.oup.com/pages/standard-publication-reuse-rights
+  10.1145/3802842.3802884:
+    status: gold
+    label: open access
+    free: true
+    url: https://doi.org/10.1145/3802842.3802884
+    licence: cc-by
+    licence_label: CC BY
+  10.1145/3811427.3811503:
+    status: gold
+    label: open access
+    free: true
+    url: https://doi.org/10.1145/3811427.3811503
+    licence: cc-by
+    licence_label: CC BY
+    licence_url: https://creativecommons.org/licenses/by/4.0/legalcode
+  10.1177/13548565261464938:
+    status: hybrid
+    label: open access
+    free: true
+    url: https://doi.org/10.1177/13548565261464938
+    licence: cc-by
+    licence_label: CC BY
+    licence_url: https://creativecommons.org/licenses/by/4.0/
+  10.18261/njdl.21.1.3:
+    status: diamond
+    label: open access
+    free: true
+    url: https://doi.org/10.18261/njdl.21.1.3
+    licence: cc-by
+    licence_label: CC BY
+  10.3389/fcomp.2025.1603769:
+    status: gold
+    label: open access
+    free: true
+    url: https://public-pages-files-2025.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1603769/pdf
+    licence: cc-by
+    licence_label: CC BY
+    licence_url: https://creativecommons.org/licenses/by/4.0/
+  10.4324/9781003430599-20:
+    status: closed
+    label: subscription
+    free: false
+  10.4324/9781003475675-2:
+    status: closed
+    label: subscription
+    free: false
+  10.4324/9781003475675-9:
+    status: closed
+    label: subscription
+    free: false
+  10.5281/zenodo.17652120:
+    status: green
+    label: open access (author copy)
+    free: true
+    url: https://doi.org/10.5281/zenodo.17652120
+    licence: cc-by
+    licence_label: CC BY
+  10.5281/zenodo.22276042:
+    status: green
+    label: open access (author copy)
+    free: true
+    url: https://doi.org/10.5281/zenodo.22276042
+    licence: cc-by
+    licence_label: CC BY
+  10.5334/tismir.223:
+    status: gold
+    label: open access
+    free: true
+    url: https://transactions.ismir.net/articles/223/files/69b13399e9a51.pdf
+    licence: cc-by
+    licence_label: CC BY
+  10.53765/20512201.33.3.123:
+    status: closed
+    label: subscription
+    free: false

@@ -35,6 +35,24 @@
       {% endif %}
     </h3>
 
+    {% comment %}
+      Whether a reader without a subscription can open the work, from
+      site/_data/results_openalex.yml (scripts/enrich_results_from_openalex.py).
+      The key is the DOI, which most results carry in their link.
+    {% endcomment %}
+    {% assign oa = nil %}
+    {% if result_url contains 'doi.org/' %}
+      {% assign oa_key = result_url | split: 'doi.org/' | last | downcase %}
+      {% assign oa = site.data.results_openalex.works[oa_key] %}
+    {% endif %}
+    {% if oa and oa.free %}
+    <p class="nva-result-oa">
+      <span class="nva-result-oa-badge">{% if oa.status == 'green' %}{{ t.results_open_access_author | default: 'Open access, author&#8217;s copy' }}{% else %}{{ t.results_open_access | default: 'Open access' }}{% endif %}</span>
+      {%- if oa.licence_label %} <span class="nva-result-oa-licence">{{ oa.licence_label }}</span>{% endif -%}
+      {%- if oa.url %} <a href="{{ oa.url }}" target="_blank" rel="noopener noreferrer">{{ t.results_read_free | default: 'Read it' }}</a>{% endif -%}
+    </p>
+    {% endif %}
+
     {% if contributors and contributors.size > 0 %}
     <p class="nva-result-authors">
       {% include nva-result-contributor-line.html contributors=contributors %}

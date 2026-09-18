@@ -2019,3 +2019,25 @@ a:focus-visible .icon {
 .mm-video-caption {
   margin-top: 6px;
 }
+
+/* Open-access mark on a result card (scripts/enrich_results_from_openalex.py). */
+.nva-result-oa {
+  margin: 0 0 6px;
+  font-size: 0.85rem;
+}
+
+.nva-result-oa-badge {
+  display: inline-block;
+  padding: 1px 7px;
+  border: 1px solid var(--mm-ink);
+  border-radius: 999px;
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-size: 0.72rem;
+}
+
+.nva-result-oa-licence {
+  color: #55606a;
+}
