@@ -50,6 +50,7 @@
           {% assign fallback_icon = fallback_thumb | relative_url %}
           {% assign img_src = ev.og_image | default: fallback_icon %}
           <img class="partner-event-thumb" src="{{ img_src }}" alt="{{ display_title | strip_html | escape_once }}" loading="lazy"
+               referrerpolicy="no-referrer"
                onerror="this.src='{{ fallback_icon }}';this.onerror=null">
         </span>
       </a>

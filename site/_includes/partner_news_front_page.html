@@ -22,7 +22,7 @@
   {% if item.url %}
   <a href="{{ item.url }}">
     <span class="event-thumb partner-event-icon">
-      <img class="partner-event-thumb" src="{{ item.og_image }}" alt="{{ item.title | strip_html | escape_once }}" loading="lazy">
+      <img class="partner-event-thumb" src="{{ item.og_image }}" alt="{{ item.title | strip_html | escape_once }}" loading="lazy" referrerpolicy="no-referrer">
     </span>
   </a>
   {% endif %}

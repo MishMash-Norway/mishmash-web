@@ -1,0 +1,27 @@
+{% comment %}
+  A video on YouTube, shown without asking YouTube anything until the reader
+  says so. The page carries a poster drawn from the site's own artwork and a
+  button; pressing it puts the player in place, on youtube-nocookie.com, and
+  starts it. Nothing reaches Google before that press, so a reader who does
+  not watch is not counted by anyone.
+
+  Usage:
+    {% include youtube.html id="rq8UnZlzYk4" title="The opening ceremony" %}
+    {% include youtube.html id="..." title="..." lang="nb" %}
+{% endcomment %}
+{% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
+<figure class="mm-video">
+  <button type="button" class="mm-video-poster" data-youtube="{{ include.id }}"
+          data-title="{{ include.title | escape_once }}">
+    <img src="{{ '/assets/images/bubbles/thumbs/bubbles-3.svg' | relative_url }}" alt="" width="560" height="315" loading="lazy">
+    <span class="mm-video-label">
+      <span class="mm-video-play" aria-hidden="true">&#9654;</span>
+      <span class="mm-video-text">{{ include.title }}</span>
+      <span class="mm-video-note">{% if nb %}Trykk for å spille av. Da laster YouTube, og YouTube ser at du er her.{% else %}Press to play. YouTube loads at that point, and YouTube sees that you are here.{% endif %}</span>
+    </span>
+  </button>
+  <figcaption class="mm-video-caption small muted">
+    {% if nb %}Videoen ligger på <a href="https://www.youtube.com/watch?v={{ include.id }}">YouTube</a>.{% else %}The video is on <a href="https://www.youtube.com/watch?v={{ include.id }}">YouTube</a>.{% endif %}
+  </figcaption>
+</figure>
+<script defer src="{{ '/assets/js/video.js' | relative_url }}"></script>

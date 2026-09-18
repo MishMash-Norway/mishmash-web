@@ -1958,3 +1958,64 @@ a:focus-visible .icon {
   font-size: 1.2rem;
   margin: 1rem 0 0.25rem;
 }
+
+/* Click-to-play video (see _includes/youtube.html). The poster is a button so
+   that it works from the keyboard and reads as one thing to a screen reader. */
+.mm-video {
+  margin: 1.5rem 0;
+  max-width: 560px;
+}
+
+.mm-video-poster {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 2px solid var(--mm-ink);
+  border-radius: var(--mm-radius);
+  background: var(--mm-paper, #ffffff);
+  cursor: pointer;
+  overflow: hidden;
+  text-align: left;
+}
+
+.mm-video-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.mm-video-label {
+  display: block;
+  padding: 10px 14px 12px;
+  border-top: 2px solid var(--mm-ink);
+}
+
+.mm-video-play {
+  font-size: 1.2rem;
+  margin-right: 0.4rem;
+}
+
+.mm-video-text {
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+}
+
+.mm-video-note {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: #55606a;
+}
+
+.mm-video-poster:hover,
+.mm-video-poster:focus-visible {
+  outline: 3px solid var(--mm-purple, #6c4bd9);
+  outline-offset: 2px;
+}
+
+.mm-video-caption {
+  margin-top: 6px;
+}
