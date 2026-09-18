@@ -64,6 +64,32 @@
     return ownersPromise.then(function (map) { return map[code] || code; });
   }
 
+  /* Wikidata knows some of these objects and authorities by their collection
+     identifier: P1248 for KulturNav, P7847 for DigitaltMuseum. One query
+     resolves the identifier to an item, and the link is added only when
+     exactly one item matches. A failed or empty query changes nothing. */
+  var WD_PROPERTY = { kulturnav: 'P1248', dimu: 'P7847' };
+  function wikidataFor(source, value) {
+    var prop = WD_PROPERTY[source];
+    if (!prop || !value) return Promise.resolve(null);
+    var q = 'SELECT ?item WHERE { ?item wdt:' + prop + ' "' + String(value).replace(/["\\]/g, '') + '" } LIMIT 2';
+    return fetch('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q), { headers: { Accept: 'application/sparql-results+json' } })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        var rows = d && d.results && d.results.bindings;
+        return rows && rows.length === 1 ? rows[0].item.value : null;
+      })
+      .catch(function () { return null; });
+  }
+
+  function addWikidata(rights, source, value) {
+    return wikidataFor(source, value).then(function (url) {
+      if (!url) return;
+      rights.appendChild(document.createTextNode(' · '));
+      rights.appendChild(link(url, 'Wikidata'));
+    });
+  }
+
   function link(href, label) { var a = document.createElement('a'); a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = label; return a; }
 
   function loadNb(fig, id) {
@@ -110,6 +136,7 @@
         if (owner) parts.push(owner);
         rights.textContent = parts.filter(Boolean).join(' · ') + ' · ';
         rights.appendChild(link('https://digitaltmuseum.org/' + (a.dimuCode || a.uniqueId), 'DigitaltMuseum'));
+        return addWikidata(rights, 'dimu', a.dimuCode || a.uniqueId);
       });
     });
   }
@@ -162,6 +189,7 @@
       media.appendChild(block);
       rights.textContent = (dataset ? dataset + ' · ' : '');
       rights.appendChild(link('https://kulturnav.org/' + uuid, 'KulturNav'));
+      return addWikidata(rights, 'kulturnav', uuid);
     });
   }
 
