@@ -11,6 +11,11 @@ To add your own documents:
     1. Place .md or .txt files in the chat/docs/ directory.
     2. Re-run this script.
 
+Only put a document there that the centre has already published. Everything
+under site/ is served, so a file in that folder is downloadable from
+mishmash.no whether or not a page links to it, and its text can turn up in an
+answer. Link it from a page too, so that an answer can point a reader at it.
+
 Supported file types:
     .md   Markdown (front matter stripped automatically)
     .txt  Plain text
