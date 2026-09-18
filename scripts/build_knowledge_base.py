@@ -25,10 +25,11 @@ import re
 # ── Site walking configuration ───────────────────────────────────────────────
 # All published English markdown pages are included. These directories are
 # skipped when walking the site root (collections with dedicated handling,
-# build output, assets, and the Norwegian mirror, which duplicates content).
+# build output, assets, and the two Norwegian mirrors, which duplicate content;
+# the assistant answers in the language of the question from the English text).
 SKIP_DIRS = {
     "_site", "_layouts", "_includes", "_data", "assets", "images",
-    "chat", "no", "ui", "_directory", "_news", "_events",
+    "chat", "no", "nn", "nn-auto", "ui", "_directory", "_news", "_events",
 }
 
 # Extra documents directory (relative to repo root)
@@ -175,8 +176,23 @@ def split_into_chunks(text, source_label, max_words=350):
 
 # ── TF-IDF ───────────────────────────────────────────────────────────────────
 
+WP_RE = re.compile(r'\b(?:work[\s-]*package|arbeidspakke|wp)[\s.-]*([1-7])\b', re.I)
+
+
+def normalise(text):
+    """Write the centre's own shorthand the same way everywhere.
+
+    A reader asks about "work package 3" and the page is called WP3; without
+    this the number is lost and every work package looks alike to the
+    retrieval.
+    """
+    return WP_RE.sub(lambda m: f"wp{m.group(1)}", text.lower())
+
+
 def tokenize(text):
-    tokens = re.findall(r'\b[a-z][a-z0-9]*\b', text.lower())
+    # A letter followed by letters or digits, in any alphabet, so that
+    # bokmål, Bærekraft and Kunstsilo are words rather than fragments.
+    tokens = re.findall(r'[^\W\d_][^\W_]*', normalise(text))
     return [t for t in tokens if t not in STOP_WORDS and len(t) > 2]
 
 
@@ -188,10 +204,17 @@ def compute_tf(tokens):
     return {t: count / total for t, count in tf.items()}
 
 
+# A passage is about what its page is called as much as what it says, and a
+# heading is a few words against several hundred. Counting the label this many
+# times puts the two on a comparable footing; measured against
+# tests/chat/questions.json, which is what this number is for.
+TITLE_WEIGHT = 8
+
+
 def build_tfidf(chunks):
-    # Compute TF per chunk
+    # Compute TF per chunk, counting the page's own name several times
     for chunk in chunks:
-        tokens = tokenize(chunk['text'])
+        tokens = tokenize(chunk['text']) + tokenize(chunk.get('source', '')) * TITLE_WEIGHT
         chunk['_tf'] = compute_tf(tokens)
 
     # Compute IDF
@@ -201,8 +224,10 @@ def build_tfidf(chunks):
         for term in chunk['_tf']:
             doc_freq[term] = doc_freq.get(term, 0) + 1
 
-    # Exclude terms in > 75% of documents (too generic)
-    threshold = 0.75 * N
+    # Exclude only terms that are in nearly every passage; IDF already pushes
+    # a common word down, and cutting at three quarters threw away the words
+    # that name the centre itself.
+    threshold = 0.95 * N
     idf = {
         t: math.log(N / count + 1)
         for t, count in doc_freq.items()
@@ -230,8 +255,30 @@ def page_label(fm, rel_path):
     return label.replace('/', ' / ').replace('-', ' ').title() or 'Home'
 
 
+def page_url(fm, rel_path):
+    """The address the page is published at, so that an answer can link to it.
+
+    A permalink in the front matter wins; otherwise the folder the file sits
+    in is the address, which is how the site is laid out.
+    """
+    permalink = str(fm.get('permalink') or '').strip()
+    if permalink:
+        return permalink if permalink.startswith('/') else '/' + permalink
+    folder = os.path.dirname(rel_path).replace(os.sep, '/')
+    return f"/{folder}/" if folder else "/"
+
+
+def collection_url(prefix, fm, fname):
+    """The address of a news post or an event."""
+    permalink = str(fm.get('permalink') or '').strip()
+    if permalink:
+        return permalink if permalink.startswith('/') else '/' + permalink
+    slug = str(fm.get('slug') or '').strip() or re.sub(r'^\d{4}-\d{2}-\d{2}-', '', fname[:-3])
+    return f"/{prefix}/{slug}/"
+
+
 def walk_site_pages(root_dir):
-    """Yield (rel_path, label, body) for every published English page."""
+    """Yield (rel_path, label, url, body) for every published English page."""
     for dirpath, dirnames, filenames in os.walk(root_dir):
         rel_dir = os.path.relpath(dirpath, root_dir)
         top = rel_dir.split(os.sep)[0]
@@ -247,7 +294,7 @@ def walk_site_pages(root_dir):
             fm, body = parse_front_matter(full)
             if fm.get('published') is False or fm.get('sitemap') is False:
                 continue
-            yield rel_path, page_label(fm, rel_path), clean_text(body)
+            yield rel_path, page_label(fm, rel_path), page_url(fm, rel_path), clean_text(body)
 
 
 def directory_entry_chunks(root_dir):
@@ -290,8 +337,12 @@ def directory_entry_chunks(root_dir):
             text = '\n\n'.join(dict.fromkeys(text_parts))
             if len(text.split()) < 10:
                 continue
+            url = str(fm.get('permalink') or '').strip() or f"/{section}/{slug}/"
+            if not url.startswith('/'):
+                url = '/' + url
             for chunk in split_into_chunks(text, f"{kind}: {name}"):
                 chunk['source'] = f"{kind}: {name}"
+                chunk['url'] = url
                 chunks.append(chunk)
             count += 1
         print(f"  _directory/{section}: {count} entries")
@@ -304,11 +355,12 @@ def build(root_dir='.'):
     # 1. Site pages (all published English markdown)
     print("Processing site pages…")
     page_count = 0
-    for rel_path, label, text in walk_site_pages(root_dir):
+    for rel_path, label, url, text in walk_site_pages(root_dir):
         chunks = split_into_chunks(text, label)
         for chunk in chunks:
             if chunk['source'] != label:
                 chunk['source'] = f"{label} — {chunk['source']}"
+            chunk['url'] = url
         if chunks:
             page_count += 1
             all_chunks.extend(chunks)
@@ -319,7 +371,7 @@ def build(root_dir='.'):
     all_chunks.extend(directory_entry_chunks(root_dir))
 
     # 3. News and events
-    for coll_dir, prefix in ((NEWS_DIR, 'News'), (EVENTS_DIR, 'Event')):
+    for coll_dir, prefix, url_prefix in ((NEWS_DIR, 'News', 'news'), (EVENTS_DIR, 'Event', 'events')):
         coll_path = os.path.join(root_dir, coll_dir)
         if not os.path.isdir(coll_path):
             continue
@@ -336,8 +388,10 @@ def build(root_dir='.'):
             date = re.match(r'^(\d{4}-\d{2}-\d{2})-', fname)
             label = f"{prefix}: {title}" + (f" ({date.group(1)})" if date else "")
             text = clean_text(body)
+            url = collection_url(url_prefix, fm, fname)
             for chunk in split_into_chunks(text, label):
                 chunk['source'] = label
+                chunk['url'] = url
                 coll_chunks.append(chunk)
         print(f"  {coll_dir}/: {len(coll_chunks)} chunks")
         all_chunks.extend(coll_chunks)

@@ -1,0 +1,111 @@
+{
+  "comment": "Questions a reader might ask Ask MishMash, each with the page or pages whose passages should be retrieved. More than one page can genuinely answer a question, and any of them counts. Scored by scripts/eval_chat_retrieval.mjs against /chat/knowledge.json. Add a question when a real one comes in, and keep the expected pages the ones that actually answer it.",
+  "top_k": 4,
+  "questions": [
+    {
+      "q": "What is MishMash?",
+      "expect": [
+        "/about/description/",
+        "/about/"
+      ]
+    },
+    {
+      "q": "Which institutions are partners in the centre?",
+      "expect": [
+        "/about/description/",
+        "/about/organisation/",
+        "/data/"
+      ]
+    },
+    {
+      "q": "What does work package 1 do?",
+      "expect": "/wp1/"
+    },
+    {
+      "q": "What is work package 5 about?",
+      "expect": "/wp5/"
+    },
+    {
+      "q": "Is the website accessible, and to which standard?",
+      "expect": "/accessibility/"
+    },
+    {
+      "q": "Do you use cookies or track visitors?",
+      "expect": "/privacy/"
+    },
+    {
+      "q": "May I reuse the text and images from this site?",
+      "expect": "/about/terms/"
+    },
+    {
+      "q": "How is AI used in making this website?",
+      "expect": [
+        "/about/ai-colophon/",
+        "/projects/the-mishmash-website/"
+      ]
+    },
+    {
+      "q": "Are there any open positions or vacancies?",
+      "expect": "/vacancies/"
+    },
+    {
+      "q": "Which languages is the site published in?",
+      "expect": "/about/languages/"
+    },
+    {
+      "q": "What happened at the opening of the centre?",
+      "expect": [
+        "/news/opening/",
+        "/events/aulaen2026/"
+      ]
+    },
+    {
+      "q": "Tell me about the seed project on sustainable AI",
+      "expect": "/news/sustainable-ai-seed-project/"
+    },
+    {
+      "q": "What was the conference in Kristiansand?",
+      "expect": "/events/kristiansand2026/"
+    },
+    {
+      "q": "Was there a hackathon?",
+      "expect": "/events/hackathon2026/"
+    },
+    {
+      "q": "What is a MeshUp?",
+      "expect": [
+        "/events/"
+      ]
+    },
+    {
+      "q": "Who is on the board of the centre?",
+      "expect": [
+        "/about/organisation/"
+      ]
+    },
+    {
+      "q": "How is the website itself built?",
+      "expect": "/projects/the-mishmash-website/"
+    },
+    {
+      "q": "What does the communication strategy say about openness?",
+      "expect": "/internal/communication-strategy/"
+    },
+    {
+      "q": "What are the master fellowships?",
+      "expect": "/news/master-fellows/"
+    },
+    {
+      "q": "What does the terms page say about AI training on this site?",
+      "expect": [
+        "/about/terms/"
+      ]
+    },
+    {
+      "q": "Can I get the site's data as JSON or CSV?",
+      "expect": [
+        "/data/"
+      ]
+    }
+  ]
+}

@@ -331,3 +331,26 @@ jobs:
             playwright-report
             test-results
           if-no-files-found: ignore
+
+  chat_retrieval:
+    name: Ask MishMash finds the right pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Rebuild the knowledge base from the current content
+        run: python3 scripts/build_knowledge_base.py
+
+      - name: Score the retrieval against the question set
+        run: node scripts/eval_chat_retrieval.mjs --min 0.85 --verbose

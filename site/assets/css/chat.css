@@ -167,10 +167,14 @@
 .sources summary::-webkit-details-marker { display: none; }
 
 .sources-list {
-  margin-top: 0.2rem;
-  padding: 0.3rem 0.6rem;
+  margin: 0.2rem 0 0;
+  padding: 0.3rem 0.6rem 0.3rem 1.4rem;
   border-left: 2px solid var(--mm-purple);
   line-height: 1.6;
+}
+
+.sources-list li {
+  margin: 0;
 }
 
 #input-area {

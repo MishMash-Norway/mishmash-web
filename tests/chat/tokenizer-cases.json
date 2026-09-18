@@ -1,0 +1,45 @@
+{
+  "comment": "The chat knowledge base is tokenized in Python (scripts/build_knowledge_base.py) and a question is tokenized in JavaScript (site/assets/js/chat-retrieval.js). If the two drift apart, a reader's words stop matching the index. Both sides check themselves against these cases.",
+  "cases": [
+    {
+      "in": "What does work package 3 do?",
+      "out": [
+        "wp3"
+      ]
+    },
+    {
+      "in": "WP-7 and Work Package 7 and arbeidspakke 7",
+      "out": [
+        "wp7",
+        "wp7",
+        "wp7"
+      ]
+    },
+    {
+      "in": "MishMash is a Centre for AI and Creativity",
+      "out": [
+        "mishmash",
+        "centre",
+        "creativity"
+      ]
+    },
+    {
+      "in": "Kristiansand 2026, Kunstsilo",
+      "out": [
+        "kristiansand",
+        "kunstsilo"
+      ]
+    },
+    {
+      "in": "on the by of at to",
+      "out": []
+    },
+    {
+      "in": "Nynorsk, bokmål and CC BY 4.0",
+      "out": [
+        "nynorsk",
+        "bokmål"
+      ]
+    }
+  ]
+}
