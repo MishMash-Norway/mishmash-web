@@ -13,6 +13,9 @@ projects:
 - agency-and-control-in-musical-ensemble
 - the-mishmash-website
 other_projects:
+- title: AI Centre for the Empowerment of Human Learning (AI LEARN)
+  url: https://nva.sikt.no/projects/2759925
+  nva_id: '2759925'
 - title: Bodies in Concert
   url: https://nva.sikt.no/projects/2744062
   nva_id: '2744062'

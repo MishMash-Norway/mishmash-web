@@ -1,4 +1,4 @@
-synced_at: '2026-09-17T10:02:35Z'
+synced_at: '2026-09-18T09:37:23Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -483,6 +483,101 @@ results:
     nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
+- title: 'Teaching for Futures We Must Prevent: Dark Scenario Pedagogy in Legal Education'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: 'Teaching for Futures We Must Prevent: Dark Scenario Pedagogy in Legal
+      Education'
+    container: Reimagining Legal Education for the Future of Law.
+    details: University of Exeter.
+    abstract: 'Legal education is increasingly oriented towards “futureproofing” graduates
+      for a rapidly
+
+      transforming legal profession. Much of this discourse, however, remains grounded
+      in
+
+      narratives of optimisation, innovation and adaptation, implicitly treating technological
+      futures
+
+      as inevitable and desirable. This paper challenges that assumption by asking
+      a different
+
+      pedagogical question: what if legal education should prepare students not only
+      for the futures
+
+      that are coming, but also for the futures that must be actively resisted?
+
+      Drawing on critical legal theory, human rights scholarship, and teaching experience
+      across
+
+      the Global North and Global South, the paper introduces dark scenario pedagogy
+      as an
+
+      experimental approach to teaching law. Dark scenarios depict deliberately dystopian,
+      yet
+
+      plausible legal futures shaped by unchecked legal technologies, algorithmic
+      governance,
+
+      climate breakdown, authoritarian data regimes, and the erosion of the rule of
+      law. Rather than
+
+      treating such futures as speculative fiction, students are invited to analyse
+      them as legally
+
+      actionable realities.
+
+      The paper demonstrates how dark scenario pedagogy enables students to: (1) identify
+      early
+
+      warning signs of legal and human rights collapse embedded within seemingly neutral
+
+      technologies; (2) interrogate the limits of professional ethics and legal responsibility
+      under
+
+      conditions of technological coercion; and (3) cultivate skills of resistance,
+      refusal and legal
+
+      imagination that are rarely foregrounded in mainstream legal curricula.
+
+      By shifting the focus from “innovation” to prevention, this approach reframes
+      future-oriented
+
+      legal education as a human-centred, rights-based and politically conscious practice.
+      The
+
+      paper argues that teaching for futures we must prevent is not pessimistic, but
+      pedagogically
+
+      necessary in a moment when law is increasingly mobilised to legitimise technological
+      harm.
+
+      Dark scenario pedagogy offers a concrete method for reimagining legal education
+      as a site of
+
+      critical foresight, ethical courage and collective responsibility.'
+    full_text_url: https://hdl.handle.net/11250/5571113
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0b197e777-2135b7b0-6855-4f67-8da8-c0fe3271b742
+  url: https://sites.exeter.ac.uk/alt2026/programme/
+  nva_url: https://nva.sikt.no/publication/01a0b197e777-2135b7b0-6855-4f67-8da8-c0fe3271b742
 - title: Can art arise without search or exploration?
   year: '2026'
   type: ConferencePoster
@@ -1254,6 +1349,112 @@ results:
     nva_url: https://nva.sikt.no/publication/019c2dc46b3a-c5292e5c-890c-481b-9bf9-7c06e5bd8d50
   url: https://www.arkitektbedriftene.no/arrangementer/ki-dagen
   nva_url: https://nva.sikt.no/publication/019c2dc46b3a-c5292e5c-890c-481b-9bf9-7c06e5bd8d50
+- title: 'Regulating Data and Models in Algorithmic Warfare: Arms Control Without
+    Arms'
+  year: '2025'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: 'Regulating Data and Models in Algorithmic Warfare: Arms Control Without
+      Arms'
+    container: 'Arms Control and Rearmament: Contradiction or Synergy?.'
+    details: Asser Institute.
+    abstract: 'The growing reliance on data and machine learning models as core components
+      of military
+
+      capability poses a fundamental challenge to the weapon-centric logic of arms
+      control law,
+
+      particularly in the context of accelerated rearmament and strategic autonomy
+      initiatives
+
+      within the European Union. Traditional disarmament and non-proliferation regimes
+      are
+
+      premised on the regulation of material weapons, identifiable platforms, and
+      observable
+
+      capabilities. By contrast, contemporary algorithmic warfare increasingly depends
+      on largely
+
+      intangible assets-training datasets, model architectures, parameters, and continuous
+      model
+
+      updates-that blur the boundaries between civilian and military domains and between
+      public
+
+      and private actors.
+
+      This article argues that the primary regulatory difficulty raised by military
+      artificial
+
+      intelligence lies not merely in normative gaps, but in a categorical mismatch
+      between existing
+
+      arms control frameworks and the data- and model-centric nature of emerging military
+      power.
+
+      As the EU invests heavily in artificial intelligence to enhance defence preparedness
+      and
+
+      technological sovereignty, data and models function as strategic force multipliers
+      without
+
+      qualifying as “arms” in a conventional legal sense. This undermines the capacity
+      of existing
+
+      regimes to identify regulable objects, define meaningful thresholds of control,
+      and develop
+
+      credible verification mechanisms consistent with both security and transparency
+
+      requirements.
+
+      Adopting an interdisciplinary legal and technological approach, the article
+      explores how data
+
+      and machine learning models could be reconceptualised as objects of regulation
+      within arms
+
+      control and export control regimes, with particular attention to the EU’s strategic
+      autonomy
+
+      agenda. It further examines how legal technology tools-such as data provenance
+      mechanisms,
+
+      model auditing, and compliance-by-design architectures-could support novel forms
+      of
+
+      verification and accountability without constraining legitimate defence innovation.
+      The
+
+      article concludes that sustaining arms control in an era of EU rearmament requires
+      a shift
+
+      from regulating weapons to governing the foundational digital resources that
+      increasingly
+
+      determine military capability.'
+    full_text_url: https://hdl.handle.net/11250/5571112
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0b188fc3e-6bb7a21c-fcc5-47ff-bc89-98df42d017b1
+  url: https://www.asser.nl/events/early-career-workshop-arms-control-and-rearmament-contradiction-or-synergy/
+  nva_url: https://nva.sikt.no/publication/01a0b188fc3e-6bb7a21c-fcc5-47ff-bc89-98df42d017b1
 - title: Governing the Datafied Migrant Body in South–South Migration
   year: '2025'
   type: ConferenceLecture

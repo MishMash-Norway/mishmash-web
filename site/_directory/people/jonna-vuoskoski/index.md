@@ -63,7 +63,7 @@ selected_works:
   group_type: Book chapter
   url: https://doi.org/10.1093/9780197755600.003.0009
   contributors:
-  - name: Jonna K Vuoskoski
+  - name: Jonna Katariina Vuoskoski
     role: Creator
     slug: jonna-vuoskoski
     url: /people/jonna-vuoskoski/

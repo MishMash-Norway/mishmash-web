@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: zacharias-andreadakis
 name: Zacharias Andreadakis
@@ -47,7 +46,7 @@ selected_works:
   year: '2026'
   source: Book anthology
   group_type: Book anthology
-  url: https://link.springer.com/book/9783032221667
+  url: https://doi.org/10.1007/978-3-032-22167-4
   contributors:
   - name: Czarecah Tuppil Oropilla
     role: Editor
@@ -57,6 +56,7 @@ selected_works:
     url: /people/zacharias-andreadakis/
 source_mentions: []
 summary: ''
+layout: person
 description: Guest, Department of Philosophy, Classics, History of Art and Ideas,
   University of Oslo
 permalink: /people/zacharias-andreadakis/

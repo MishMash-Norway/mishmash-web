@@ -44,6 +44,26 @@ search_keywords:
 - Surveillance and Privacy Studies
 - Energy
 selected_works:
+- title: Epistemic Work and Epistemic Justice in Just Green Transitions
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-031-95075-9_6
+  contributors:
+  - name: Govert Valkenburg
+    role: Creator
+    slug: govert-valkenburg
+    url: /people/govert-valkenburg/
+- title: An Enquiry Into Modes of Non-Existence
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/01622439241300744
+  contributors:
+  - name: Govert Valkenburg
+    role: Creator
+    slug: govert-valkenburg
+    url: /people/govert-valkenburg/
 - title: Participation in Urban Regeneration Programmes
   year: '2025'
   source: Book chapter
@@ -106,16 +126,6 @@ selected_works:
     role: Creator
   - name: Debasmita Misra
     role: Creator
-- title: Epistemic Work and Epistemic Justice in Just Green Transitions
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1007/978-3-031-95075-9_6
-  contributors:
-  - name: Govert Valkenburg
-    role: Creator
-    slug: govert-valkenburg
-    url: /people/govert-valkenburg/
 - title: Innovating at NTNU - An evaluative enquiry into NTNU’s innovation ecosystem
   year: '2025'
   source: Research report
@@ -144,16 +154,6 @@ selected_works:
     role: Creator
   - name: Guus Dix
     role: Creator
-- title: An Enquiry Into Modes of Non-Existence
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1177/01622439241300744
-  contributors:
-  - name: Govert Valkenburg
-    role: Creator
-    slug: govert-valkenburg
-    url: /people/govert-valkenburg/
 - title: How does science and technology studies contribute to climate mitigation
     research? Advanced review of infrastructure as a concept and method
   year: '2024'
