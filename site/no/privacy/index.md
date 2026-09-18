@@ -8,6 +8,14 @@ translation_url: /privacy/
 
 Denne nettsiden bruker ikke informasjonskapsler. Så enkelt er det. Vi setter ikke cookies i nettleseren din, og vi bruker ikke tredjeparts analyse- eller reklameverktøy som sporer besøkende.
 
+## Innhold fra andre nettsteder
+
+To slags innhold på disse sidene kommer fra andre, og begge fortjener en forklaring.
+
+Video lastes ikke før du ber om det. Der en side viser en video, ser du et stillbilde og en knapp. Ingenting når YouTube før du trykker, og spilleren som da dukker opp, lastes fra YouTubes no-cookie-domene.
+
+Miniatyrbildene ved siden av nyheter og arrangementer fra partnerinstitusjonene hentes fra institusjonenes egne tjenere. Det betyr at nettleseren din kontakter dem når siden åpnes, og at de kan se nettverksadressen din, slik ethvert nettsted du besøker kan. De får ikke vite hvilken av våre sider du leser. Vi vurderer å ta vare på kopier av bildene selv, slik at ingen forespørsel forlater dette nettstedet.
+
 ## Katalogen
 
 [Katalogen](/search/?type=person) viser faglige opplysninger om medlemmer av nettverket: navn, stilling og enhet, institusjon og arbeidspakke, identifikatorer (ORCID, NVA, Wikidata), resultatene som er registrert i det nasjonale forskningsarkivet, en kort biografi og lenkene personen selv har valgt å vise, som en personlig nettside eller en faglig profil. Et portrett vises der personen har samtykket til det. Ingen private kontaktopplysninger lagres; e-postadresser finnes på institusjonssidene oppføringen lenker til.

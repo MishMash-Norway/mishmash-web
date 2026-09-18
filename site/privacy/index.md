@@ -7,6 +7,14 @@ translation_url: /no/privacy/
 
 This website does not use cookies. As simple as that. We do not set cookies in your browser, and we do not use third-party analytics or advertising tools that track visitors.
 
+## Content from other websites
+
+Two kinds of material on these pages come from somewhere else, and both are worth naming.
+
+Videos are not loaded until you ask for them. Where a page shows a video, you see a still picture and a button. Nothing reaches YouTube until you press it, and the player that then appears loads from YouTube's no-cookie domain.
+
+Thumbnails beside news and events from our partner institutions are fetched from those institutions' own servers. That means your browser contacts them when the page opens, and they can see your network address, as any website you visit can. They are not told which page of ours you are reading. We are considering keeping copies of these pictures ourselves so that no request leaves this site.
+
 ## The directory
 
 The [directory](/search/?type=person) shows professional facts about members of the network: name, position and department, institution and work package, identifiers (ORCID, NVA, Wikidata), the results registered in the national research archive, a short bio, and the links the person chose to show, such as a personal website or a professional profile. A portrait is shown where the person has agreed to it. No private contact details are stored; e-mail addresses live on the institutional pages the entry links to.
