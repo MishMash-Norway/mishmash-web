@@ -2,8 +2,11 @@
 """Page weight and a carbon estimate for a set of pages, measured on the built site (issue #67).
 
 For each page the script sums the bytes a first visit transfers: the HTML and
-every local stylesheet, script, font and image the page references, text
-assets counted gzip-compressed as the server sends them. The carbon figure
+every local stylesheet, script, image and preloaded font the page links, text
+assets counted gzip-compressed as the server sends them. Fonts that a browser
+discovers inside a stylesheet are not counted, since which of them it fetches
+depends on the characters on the page; `scripts/subset_fonts.py` keeps them
+small. The carbon figure
 uses the Sustainable Web Design model as implemented in CO2.js (version 3):
 0.81 kWh per GB transferred, at 442 g CO2 per kWh, for a first visit. It is an
 estimate for comparison between builds, not a measurement of any reader's
@@ -68,7 +71,7 @@ def main() -> int:
     rows = [weigh(args.site, p) for p in PAGES if ((args.site / p.strip("/") / "index.html").exists() or p == "/")]
     out = {
         "generated_at": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "model": "Sustainable Web Design model v3 (CO2.js): 0.81 kWh/GB, 442 g CO2/kWh, first visit; text assets counted gzip-compressed",
+        "model": "Sustainable Web Design model v3 (CO2.js): 0.81 kWh/GB, 442 g CO2/kWh, first visit; text assets counted gzip-compressed; counts the HTML and the assets the page links, including preloaded fonts, not fonts a browser finds inside a stylesheet",
         "pages": rows,
         "median_bytes": sorted(r["bytes"] for r in rows)[len(rows) // 2] if rows else 0,
     }

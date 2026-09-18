@@ -4,3 +4,4 @@ PyYAML
 Pillow
 openpyxl
 qrcode
+fonttools[woff]

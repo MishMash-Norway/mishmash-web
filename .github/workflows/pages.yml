@@ -52,6 +52,9 @@ jobs:
       - name: Build site
         run: bundle exec jekyll build --trace
 
+      - name: Subset the web fonts to the characters the site uses
+        run: pip install -q "fonttools[woff]" && python3 scripts/subset_fonts.py
+
       - name: Measure page weight and carbon on the built site
         run: python3 scripts/measure_page_weight.py
 
