@@ -1946,3 +1946,15 @@ a:focus-visible .icon {
   margin: 0.25rem 0 0;
   font-size: 0.92rem;
 }
+
+/* Semantic search: the two columns */
+.semantic-compare {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.semantic-compare h2 {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.25rem;
+}
