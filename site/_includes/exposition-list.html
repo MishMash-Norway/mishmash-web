@@ -18,7 +18,7 @@
     {% endif %}
     <div class="exposition-body">
       <h3><a href="{{ e.url }}">{{ e.title }}</a></h3>
-      <p class="exposition-authors">
+      <p class="exposition-authors no-arrow">
         {%- for c in e.creators -%}
           {%- assign member = nil -%}
           {%- for m in e.members -%}{%- if m.name == c -%}{%- assign member = m -%}{%- endif -%}{%- endfor -%}

@@ -54,6 +54,7 @@
 /* Expositions from the Research Catalogue (/gallery/) */
 .exposition-grid {
   list-style: none;
+  align-items: start;
   padding: 0;
   margin: 1.5rem 0;
   display: grid;

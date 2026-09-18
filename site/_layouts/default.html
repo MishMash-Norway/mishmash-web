@@ -170,7 +170,7 @@
     <script>
       (function () {
         // Paragraphs whose whole text is one link ("More events…") get the arrow motif.
-        document.querySelectorAll('.main-content p').forEach(function (p) {
+        document.querySelectorAll('.main-content p:not(.no-arrow)').forEach(function (p) {
           var a = p.children.length === 1 ? p.children[0] : null;
           if (a && a.tagName === 'A' && !a.querySelector('img') &&
               p.textContent.trim() === a.textContent.trim()) {
