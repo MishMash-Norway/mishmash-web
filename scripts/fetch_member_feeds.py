@@ -86,6 +86,10 @@ def parse_feed(xml_text: str) -> list[dict]:
         summary = text_of(item.find("description")) or text_of(item.find("atom:summary", NS))
         summary = re.sub(r"<[^>]+>", " ", summary)
         summary = re.sub(r"\s+", " ", summary).strip()
+        # Several blogging tools open the description with the title again,
+        # which reads as a stutter once the title is already above it.
+        if title and summary.lower().startswith(title.lower()):
+            summary = summary[len(title):].lstrip(" .:-–—").strip() or summary
         if title and link:
             posts.append({"title": title, "url": link, "date": date, "summary": summary[:300] or None})
     return posts

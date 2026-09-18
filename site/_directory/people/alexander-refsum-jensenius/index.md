@@ -47,6 +47,8 @@ urls:
   mastodon: https://mastodon.online/@arjensenius
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q47281555
+feeds:
+- https://www.arj.no/index.xml
 aliases: []
 tags:
 - Creative Music Education
