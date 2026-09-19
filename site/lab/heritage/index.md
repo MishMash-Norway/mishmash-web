@@ -7,7 +7,7 @@ lab:
   authors: [mishmash.no]
   date: 2026-09-17
   status: prototype
-  data: "Metadata and images fetched in the browser from the National Library's catalogue API and from DigitaltMuseum's API, which also serves the National Museum. Nothing is copied to this site."
+  data: "Metadata, images, sound and film fetched in the browser from the National Library's catalogue API, from DigitaltMuseum's API, which also serves the National Museum, and from Europeana. Nothing is copied to this site, and a recording is only fetched when a reader presses play."
   ai: "The include, the script and this page were drafted with an AI assistant and reviewed by the site maintainers; see the AI colophon."
 ---
 
@@ -32,6 +32,18 @@ The same fiddle, three ways.
 {% include heritage.html source="europeana" id="/502/_011023280005" %}
 
 {% include heritage.html source="kulturnav" id="a269db7f-1082-443b-8df6-b24049d88e43" %}
+
+## A recording, played where it stands
+
+Collections hold sound and moving images as well as pictures, and the same include shows them. Europeana's record says what kind of object it is, and a recording gets a player instead of a picture.
+
+{% include heritage.html source="europeana" id="/937/Culturalia_8ed234bd_3790_46ca_b6be_cfefd1123520" %}
+
+## A film, from a European collection
+
+{% include heritage.html source="europeana" id="/2051906/data_euscreenXL_https___www_openbeelden_nl_media_97919" %}
+
+Neither of these costs a visit anything until someone presses play. The player is markup with `preload="none"`, so no audio or video is fetched, and the collection's server learns nothing about a reader who scrolls past. Both examples carry an open licence, which is why they can be played from here at all: the recording is CC BY-SA and the film is marked as public domain, and the line under each says so and links to the source.
 
 ## How it works
 

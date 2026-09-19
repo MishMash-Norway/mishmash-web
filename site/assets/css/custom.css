@@ -1832,6 +1832,18 @@ a:focus-visible .icon {
   margin: 0 auto;
 }
 
+/* A recording or a film from a collection, played where it stands. */
+.mm-heritage-player {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+video.mm-heritage-player {
+  max-height: 480px;
+  background: var(--mm-ink);
+}
+
 .mm-heritage-zoom {
   width: 100%;
   height: 480px;

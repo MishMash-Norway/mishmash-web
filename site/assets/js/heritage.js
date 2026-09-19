@@ -28,6 +28,25 @@
     media.appendChild(img);
   }
 
+  /* Sound and moving images play where they are, from the collection's own
+     server. Nothing is fetched until the reader presses play: preload="none"
+     means the element is markup and no more, so a page full of recordings
+     costs a visit nothing and tells the collection nothing about who opened
+     the page. */
+  function showMedia(media, kind, url, alt, poster) {
+    var el = document.createElement(kind === 'sound' ? 'audio' : 'video');
+    el.src = url;
+    el.controls = true;
+    el.preload = 'none';
+    el.setAttribute('aria-label', alt || (kind === 'sound' ? 'Recording' : 'Film'));
+    if (kind !== 'sound') {
+      el.playsInline = true;
+      if (poster) el.poster = poster;
+    }
+    el.className = 'mm-heritage-player';
+    media.appendChild(el);
+  }
+
   function showZoom(media, infoUrl, alt) {
     if (!window.OpenSeadragon) { showImage(media, infoUrl.replace(/\/info\.json$/, '') + '/full/1200,/0/default.jpg', alt); return; }
     var id = 'osd-' + Math.random().toString(36).slice(2);
@@ -158,14 +177,23 @@
       var t = rec;
       (o.proxies || []).forEach(function (px) { if (t === rec && px.dcTitle) t = firstLang(px.dcTitle) || rec; });
       if (!fig.dataset.caption) text(title, t);
-      var img = agg.edmIsShownBy || (o.europeanaAggregation || {}).edmPreview;
-      if (img) showImage(media, img, t);
+      var shown = agg.edmIsShownBy || (o.europeanaAggregation || {}).edmPreview;
+      var preview = (o.europeanaAggregation || {}).edmPreview;
+      var kind = (o.type || '').toUpperCase();
+      if (shown && kind === 'SOUND') showMedia(media, 'sound', shown, t);
+      else if (shown && kind === 'VIDEO') showMedia(media, 'video', shown, t, preview);
+      else if (shown) showImage(media, shown, t);
       var provider = (o.organizations || []).map(function (org) { return firstLang(org.prefLabel); }).filter(Boolean)[0] || '';
       var lic = firstLang(agg.edmRights);
       rights.textContent = [provider, lic ? '' : ''].filter(Boolean).join('') + (provider ? ' · ' : '');
       if (lic) {
-        var m = lic.match(/creativecommons\.org\/(licenses|publicdomain)\/([a-z-]+)\/([\d.]+)/);
-        var label = m ? (m[1] === 'publicdomain' ? 'CC0 ' + m[3] : 'CC ' + m[2].toUpperCase() + ' ' + m[3]) : lic.replace(/^https?:\/\//, '');
+        /* A public domain mark says a work is already out of copyright; CC0 is a
+           waiver by someone who held the rights. They are not the same claim. */
+        var m = lic.match(/creativecommons\.org\/(licenses|publicdomain)\/([a-z0-9-]+)\/([\d.]+)/);
+        var label;
+        if (!m) label = lic.replace(/^https?:\/\//, '');
+        else if (m[1] === 'publicdomain') label = m[2] === 'zero' ? 'CC0 ' + m[3] : 'Public domain mark ' + m[3];
+        else label = 'CC ' + m[2].toUpperCase() + ' ' + m[3];
         rights.appendChild(link(lic, label)); rights.appendChild(document.createTextNode(' · '));
       }
       rights.appendChild(link((o.europeanaAggregation || {}).edmLandingPage || 'https://www.europeana.eu/item' + rec, 'Europeana'));
