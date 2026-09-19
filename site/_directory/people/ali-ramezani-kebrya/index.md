@@ -97,6 +97,8 @@ selected_works:
     role: Creator
   - name: Nicole Delpeche‐Ellmann
     role: Creator
+  - name: Nicole Delpeche-Ellmann
+    role: Creator
 - title: Mitigating Embedding Leakage via Latent Disruption with Controlled Reconstruction
   year: '2026'
   source: Journal article

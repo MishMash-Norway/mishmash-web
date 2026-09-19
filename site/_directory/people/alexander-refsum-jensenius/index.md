@@ -47,8 +47,6 @@ urls:
   mastodon: https://mastodon.online/@arjensenius
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q47281555
-feeds:
-- https://www.arj.no/index.xml
 aliases: []
 tags:
 - Creative Music Education
@@ -266,6 +264,8 @@ source_mentions:
 summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music technology
   at the University of Oslo. He works on the intersection of humans and machines,
   combining artistic and scientific research methods in creative ways.
+feeds:
+- https://www.arj.no/index.xml
 description: Professor, Department of Musicology, University of Oslo
 layout: person
 wps:

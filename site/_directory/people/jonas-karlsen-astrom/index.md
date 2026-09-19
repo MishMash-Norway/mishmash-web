@@ -32,6 +32,20 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Veileder om kjønns- og seksualitetsmangfold i akademia
+  year: '2026'
+  source: Research report
+  group_type: Research report
+  url: https://indd.adobe.com/view/79772a22-ef78-411f-b286-6aeee0643dd2
+  contributors:
+  - name: Jon Martin Larsen
+    role: Creator
+  - name: Elisabeth Lund Engebretsen
+    role: Creator
+  - name: Jonas Karlsen Åstrøm
+    role: Creator
+    slug: jonas-karlsen-astrom
+    url: /people/jonas-karlsen-astrom/
 - title: International Case Studies in Visitor Attractions
   year: '2026'
   source: Book anthology
@@ -191,16 +205,6 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: http://ejtr.vumk.eu/index.php/volume20/599-v20rp5
-  contributors:
-  - name: Jonas Karlsen Åstrøm
-    role: Creator
-    slug: jonas-karlsen-astrom
-    url: /people/jonas-karlsen-astrom/
-- title: Theme factors that drive the tourist customer experience
-  year: '2017'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1108/IJCTHR-07-2015-0070
   contributors:
   - name: Jonas Karlsen Åstrøm
     role: Creator
