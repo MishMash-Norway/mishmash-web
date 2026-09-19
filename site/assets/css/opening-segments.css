@@ -1,0 +1,47 @@
+/* The opening ceremony, as avsegmenter heard it (/lab/opening-ceremony/). */
+.oc-player { margin: 0 0 1rem; max-width: 560px; }
+
+.oc-player iframe { border: 0; max-width: 100%; }
+
+.oc-play {
+  display: block;
+  width: 100%;
+  padding: 1.2rem 1rem;
+  border: 2px solid var(--mm-ink);
+  border-radius: var(--mm-radius, 8px);
+  background: var(--mm-ink-5, #f4f3f7);
+  cursor: pointer;
+  text-align: left;
+}
+
+.oc-play:hover, .oc-play:focus-visible { outline: 3px solid var(--mm-purple, #6c4bd9); outline-offset: 2px; }
+.oc-play-mark { font-size: 1.3rem; margin-right: 0.5rem; }
+.oc-play-text { font-family: var(--mm-font-display); font-weight: var(--mm-display-weight); }
+.oc-play-note { display: block; margin-top: 0.3rem; font-size: 0.85rem; color: #4b555e; }
+
+.oc-legend { display: flex; flex-wrap: wrap; gap: 0.9rem; margin: 0 0 0.4rem; }
+.oc-key { display: inline-flex; align-items: center; gap: 0.3rem; }
+.oc-swatch { display: inline-block; width: 0.8rem; height: 0.8rem; border-radius: 2px; }
+
+.oc-stack { position: relative; border: 1px solid var(--mm-ink-20, #ccc); border-radius: 4px; overflow: hidden; }
+.oc-row { position: relative; height: 22px; background: var(--mm-ink-5, #f4f3f7); }
+.oc-parts { height: 26px; }
+.oc-turns { height: 14px; }
+.oc-row > span { position: absolute; top: 0; bottom: 0; cursor: pointer; }
+.oc-band { background: var(--mm-ink-10, #e6e4ee); border-right: 1px solid var(--mm-ink); }
+.oc-band-label {
+  position: absolute; left: 3px; top: 3px;
+  font-family: var(--mm-font-display); font-size: 0.75rem;
+}
+.oc-seg { border-right: 1px solid rgba(255, 255, 255, 0.4); }
+.oc-turn { top: 2px; bottom: 2px; }
+.oc-wave { display: block; width: 100%; height: 60px; color: var(--mm-ink); background: var(--mm-ink-5, #f4f3f7); }
+
+.oc-list { margin: 1rem 0 0; padding-left: 1.4rem; }
+.oc-list li { margin-bottom: 0.4rem; }
+.oc-jump {
+  border: 1px solid var(--mm-ink); border-radius: 4px; background: transparent;
+  padding: 0 0.4rem; font-family: var(--mm-font-display); font-size: 0.85rem; cursor: pointer;
+}
+.oc-jump:hover, .oc-jump:focus-visible { background: var(--mm-ink-10, #e6e4ee); }
+.oc-list-meta { color: #4b555e; font-size: 0.9rem; }
