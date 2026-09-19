@@ -3,6 +3,7 @@ type: person
 slug: lyuba-boncheva
 name: Lyuba Boncheva
 title: Lyuba Boncheva
+image: /assets/images/portraits/Lyuba_Boncheva_BI.jpg
 position: PhD Fellow
 department: Department of Communication and Culture
 institution: bi-norwegian-business-school
@@ -13,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: https://www.bi.no/om-bi/ansatte/fagressurser/lyuba-boncheva/
+  institutional_website: https://www.bi.no/en/about-bi/employees/department-of-communication-and-culture/lyuba-boncheva/
   github: ''
   linkedin: https://www.linkedin.com/in/lyuba-boncheva-4844391aa/
   orcid: https://orcid.org/0009-0004-0753-6892

@@ -7,7 +7,6 @@ layout: event
 categories: [AI, Gemini Center for Trustworthy and Sustainable AI, MishMash]
 tags: [Human-Centered AI, Trustworthy AI, Responsible AI]
 description: "Half-day workshop on Human-Centered AI at the University of Oslo (UiO), organized by the Gemini Center for Trustworthy and Sustainable AI and the MishMash AI Center."
-image: /assets/images/bubbles/mishmash_bubbles_notext.svg
 slug: "human-centered-ai"
 ---
 

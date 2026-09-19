@@ -72,7 +72,17 @@ END:VCALENDAR
   </div>
 </section>
 
-{% assign event_image = page.image | default: '/assets/images/bubbles/mishmash_bubbles_notext.svg' %}
+{% comment %}
+  An event without its own picture gets one of the six round bubble thumbs.
+  The choice follows the date, so it is the same at every build and steps
+  through the six as the weekly events go by.
+{% endcomment %}
+{% assign event_image = page.image %}
+{% if event_image == nil or event_image == '' or event_image contains 'mishmash_bubbles_notext.svg' %}
+  {% assign day_of_year = page.date | date: "%j" | plus: 0 %}
+  {% assign bubble_number = day_of_year | modulo: 6 | plus: 1 %}
+  {% capture event_image %}/assets/images/bubbles/thumbs/bubbles-{{ bubble_number }}.svg{% endcapture %}
+{% endif %}
 {% assign event_image_alt = page.location | default: page.title %}
 {% capture event_image_markdown %}
 ![{{ event_image_alt }}]({{ event_image | relative_url }}){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
