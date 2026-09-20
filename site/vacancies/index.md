@@ -66,5 +66,4 @@ These positions generally require that the PhD dissertation has been submitted b
 | University of Oslo | Scientific | AI Methods for Creative Applications | ~~1 Mar 2026~~ |
 | Østfold University College | Scientific | Creative Human-AI Interaction | ~~1 Mar 2026~~ |
 | Norwegian Academy of Music | Artistic | Music and AI | ~~1 Feb 2026~~ |
-
 | University of Bergen | Artistic | AI in Artistic Processes | ~~30 Jan 2026~~ |

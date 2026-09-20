@@ -11,8 +11,14 @@
   {% assign thumb = include.item.thumbnail %}
 {% elsif include.item.images and include.item.images.size > 0 %}
   {% assign thumb = include.item.images[0] %}
-{% elsif include.meshup_fallback and include.item.categories contains 'MeshUp' %}
-  {% assign thumb = '/assets/images/bubbles/mishmash_bubbles_notext.svg' %}
+{% elsif include.meshup_fallback %}
+  {% comment %}
+    No picture of its own: one of the six round bubble thumbs, chosen from the item's date so that
+    the listing and the event's own page agree and neighbouring items differ.
+  {% endcomment %}
+  {% assign day_of_year = include.item.date | date: "%j" | plus: 0 %}
+  {% assign bubble_number = day_of_year | modulo: 6 | plus: 1 %}
+  {% capture thumb %}/assets/images/bubbles/thumbs/bubbles-{{ bubble_number }}.svg{% endcapture %}
 {% endif %}
 {% comment %} Prefer the square WebP thumbnail built by scripts/build_thumbnails.py when it exists. {% endcomment %}
 {% if thumb and thumb contains '/assets/images/' %}
