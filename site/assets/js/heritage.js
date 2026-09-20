@@ -111,11 +111,22 @@
 
   function link(href, label) { var a = document.createElement('a'); a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = label; return a; }
 
+  /* A licence address is not a licence line. "CC BY-NC-ND 4.0" is. */
+  function ccLabel(url) {
+    var m = String(url || '').match(/creativecommons\.org\/(licenses|publicdomain)\/([a-z0-9-]+)\/([\d.]+)/);
+    if (!m) return null;
+    if (m[1] === 'publicdomain') return m[2] === 'zero' ? 'CC0 ' + m[3] : 'Public domain mark ' + m[3];
+    return 'CC ' + m[2].toUpperCase() + ' ' + m[3];
+  }
+
   function loadNb(fig, id) {
     var media = fig.querySelector('.mm-heritage-media');
     var title = fig.querySelector('.mm-heritage-title');
     var rights = fig.querySelector('.mm-heritage-rights');
-    return fetch('https://api.nb.no/catalog/v1/iiif/' + id + '/manifest').then(function (r) { return r.json(); }).then(function (m) {
+    /* Version 3 of the manifest, because version 2 gives the terms as the
+       library's own licence page and version 3 gives the Creative Commons
+       address the label is built from. The image service is the same. */
+    return fetch('https://api.nb.no/catalog/v3/iiif/' + id + '/manifest').then(function (r) { return r.json(); }).then(function (m) {
       var label = stripHtml(firstValue(m.label));
       if (!fig.dataset.caption) text(title, label);
       var service = null;
@@ -124,11 +135,15 @@
         else if (m.items) { var s = m.items[0].items[0].items[0].body.service; service = (s[0].id || s[0]['@id']); }
       } catch (e) {}
       if (service) showZoom(media, service + '/info.json', label);
+      /* The manifest states the terms as a paragraph of Norwegian and as an
+         address. The address is the licence; the paragraph is what it means,
+         and it belongs behind the link rather than in the line. */
       var lic = m.license || (m.rights || '');
       rights.textContent = '';
-      rights.appendChild(document.createTextNode(stripHtml(firstValue(m.attribution) || firstValue((m.requiredStatement || {}).value) || '') + ' '));
-      if (lic) rights.appendChild(link(lic, 'Rights'));
-      rights.appendChild(document.createTextNode(' · '));
+      if (lic) {
+        rights.appendChild(link(lic, ccLabel(lic) || 'Rights'));
+        rights.appendChild(document.createTextNode(' · '));
+      }
       rights.appendChild(link('https://www.nb.no/items/' + id, 'Nasjonalbiblioteket'));
     });
   }
@@ -233,11 +248,7 @@
       if (lic) {
         /* A public domain mark says a work is already out of copyright; CC0 is a
            waiver by someone who held the rights. They are not the same claim. */
-        var m = lic.match(/creativecommons\.org\/(licenses|publicdomain)\/([a-z0-9-]+)\/([\d.]+)/);
-        var label;
-        if (!m) label = lic.replace(/^https?:\/\//, '');
-        else if (m[1] === 'publicdomain') label = m[2] === 'zero' ? 'CC0 ' + m[3] : 'Public domain mark ' + m[3];
-        else label = 'CC ' + m[2].toUpperCase() + ' ' + m[3];
+        var label = ccLabel(lic) || lic.replace(/^https?:\/\//, '');
         rights.appendChild(link(lic, label)); rights.appendChild(document.createTextNode(' · '));
       }
       rights.appendChild(link((o.europeanaAggregation || {}).edmLandingPage || 'https://www.europeana.eu/item' + rec, 'Europeana'));

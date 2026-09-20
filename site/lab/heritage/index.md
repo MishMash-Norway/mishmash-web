@@ -31,6 +31,14 @@ Several Norwegian collections publish their objects through open interfaces: the
 
 {% include heritage.html source="kulturnav" id="a269db7f-1082-443b-8df6-b24049d88e43" %}
 
+## The tunes written down, at the National Library
+
+The National Library's music manuscripts are the one part of its collection that this page can show without asking anyone. 7,678 of the 11,150 are freely viewable, and every one sampled carries CC BY-NC-ND 4.0 and a IIIF image service, which is the same arrangement as the photograph at the top of this page. Among them are the folk music collections gathered from the 1840s on, 2,624 manuscripts from the six collectors the library lists: Lindeman, Crøger, Sande, Elling, Sandvik and Groven.
+
+This one is a set of tunes for the same instrument the objects above stand for.
+
+{% include heritage.html source="nb" id="6c50cd90ef70546139b5b0d9101faaa8" %}
+
 ## An audio file, from a Norwegian museum
 
 Norwegian museums publish sound through DigitaltMuseum, and 1,577 records carry a recording. Of those, 592 have a Creative Commons licence. The file is served as an ordinary address, so the same include that shows a picture can show a recording. Here is a telling of how the fiddle tune Refshaugen got its name, from a record that names its reader and its licence.
