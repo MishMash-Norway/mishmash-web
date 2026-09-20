@@ -86,6 +86,16 @@
       }));
     });
 
+    /* The title cards read off the projection */
+    var cardRow = el('div', { class: 'oc-row oc-cards', 'aria-hidden': 'true' });
+    (data.cards || []).forEach(function (c) {
+      cardRow.appendChild(el('span', {
+        class: 'oc-card', title: 'Slide at ' + hms(c.t) + ': ' + c.text,
+        style: 'left:' + pct(c.t / dur) + ';width:4px',
+        onclick: function () { goto(c.t); },
+      }));
+    });
+
     /* Loudness, one point per ten seconds */
     var wave = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     wave.setAttribute('class', 'oc-wave'); wave.setAttribute('viewBox', '0 0 1000 60');
@@ -110,22 +120,30 @@
 
     /* The same information as a list, which is what a screen reader and a
        reader without JavaScript actually need. */
+    var CUE_WORDS = { 'applause': 'applause', 'applause:split': 'applause', 'start': 'the start',
+                      'slide': 'a title card', 'break': 'a break', 'break-end': 'a break' };
     var list = el('ol', { class: 'oc-list' });
     data.parts.forEach(function (p) {
-      var act = data.programme.acts[p.index - 1] || {};
+      var cue = (p.cues || []).map(function (c) {
+        return CUE_WORDS[c] || (c.indexOf('speaker:') === 0 ? 'a voice taking over' : c);
+      })[0] || '';
+      var meta = ' · ' + hms(p.end - p.start) + ' · ' + Math.round(p.speech_share * 100) + '% talk'
+        + (cue ? ' · cut at ' + cue : '')
+        + (p.performers ? ' · ' + p.performers : '');
       list.appendChild(el('li', {}, [
         el('button', { type: 'button', class: 'oc-jump', text: hms(p.start), onclick: function () { goto(p.start); },
                        'aria-label': 'Play from ' + hms(p.start) + ', ' + (p.title || 'part ' + p.index) }),
         el('span', { class: 'oc-list-title', text: ' ' + (p.title || 'Part ' + p.index) }),
-        el('span', { class: 'oc-list-meta', text: ' · ' + hms(p.end - p.start) + ' · ' + Math.round(p.speech_share * 100) + '% talk' + (act.performers ? ' · ' + act.performers : '') }),
+        el('span', { class: 'oc-list-meta', text: meta }),
+        p.named ? null : el('span', { class: 'oc-list-meta', text: ' · nobody was named here, so no act is claimed' }),
       ]));
     });
 
     root.textContent = '';
     root.appendChild(player);
     root.appendChild(legend);
-    root.appendChild(el('div', { class: 'oc-stack' }, [partRow, kindRow, turnRow, wave]));
-    root.appendChild(el('p', { class: 'small muted', text: 'Bands: the seven parts the pipeline found. Strip: what it heard, second by second. Row below: turns by voice, coloured by cluster, not named. Line: loudness, one point per ten seconds. Click anywhere to set where the recording starts.' }));
+    root.appendChild(el('div', { class: 'oc-stack' }, [partRow, cardRow, kindRow, turnRow, wave]));
+    root.appendChild(el('p', { class: 'small muted', text: 'Bands: the parts the pipeline found. Marks below them: the title cards it read off the projection. Strip: what it heard, second by second. Row below: turns by voice, coloured by cluster, not named. Line: loudness, one point per ten seconds. Click anywhere to set where the recording starts.' }));
     root.appendChild(list);
   }
 

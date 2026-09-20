@@ -37,7 +37,7 @@
 .oc-turn { top: 2px; bottom: 2px; }
 .oc-wave { display: block; width: 100%; height: 60px; color: var(--mm-ink); background: var(--mm-ink-5, #f4f3f7); }
 
-.oc-list { margin: 1rem 0 0; padding-left: 1.4rem; }
+.oc-list { margin: 1rem 0 0; padding-left: 2.2rem; }
 .oc-list li { margin-bottom: 0.4rem; }
 .oc-jump {
   border: 1px solid var(--mm-ink); border-radius: 4px; background: transparent;
@@ -45,3 +45,6 @@
 }
 .oc-jump:hover, .oc-jump:focus-visible { background: var(--mm-ink-10, #e6e4ee); }
 .oc-list-meta { color: #4b555e; font-size: 0.9rem; }
+
+.oc-cards { height: 10px; background: var(--mm-ink-10, #e6e4ee); }
+.oc-card { background: var(--mm-ink); width: 4px; }

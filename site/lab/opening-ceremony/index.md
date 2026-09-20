@@ -25,20 +25,30 @@ What can a machine tell about an event from its recording alone? The centre's op
 
 ## What it found
 
-The pipeline listens rather than reads. It tags sound events, separates music from speech, finds where the room applauds, clusters the voices, and cuts the recording into parts at the cues between them. It knew the programme from the event page, and matched what it found against it.
+The pipeline listens rather than reads, and now it also looks. It tags sound events, separates music from speech, finds where the room applauds, clusters the voices, transcribes what is said, and reads the slides on the projection with optical character recognition. It knew the programme from the event page, and matched what it found against it.
 
-It found seven parts and matched them, in order, to the first seven acts. It marked 36 stretches of sound: 14 of talk, 15 of applause, five of music and two of something else. It heard 14 distinct voices across 132 turns, which is close to the number of people who took the floor.
+It found ten parts for ten acts, and nine of the ten begin within a second or two of the title card the hall put up for that act. It marked 36 stretches of sound and heard 14 distinct voices across 132 turns.
 
-## What it missed
+## What the slides changed
 
-Three acts are listed as not detected: the last artistic contribution and both panel discussions. The pipeline says so itself rather than stretching the programme to fit, which is the useful behaviour.
+The first version of this page reported seven parts against ten acts, with three acts not found. The applause rule was to blame: it cuts where talk follows the applause, which is right at a concert, where the audience applauds between pieces, and wrong here, where a contribution is applauded and a performance follows. Knowing the programme had ten acts, the detector can now go back and split its longest parts at the applause inside them, which found the three missing boundaries.
 
-Two of the seven parts are suspiciously long. Part 4 runs 28 minutes and part 7 runs 28 minutes, where no single act on the programme should. Almost certainly each holds several contributions that were never separated, and the acts that follow them are the ones reported missing. Applause is the obvious cue between short contributions, and there is plenty of it here, so the boundary rule has room to improve.
+Then came the better signal. This hall projects a card when an act begins, with the work and the people in it. That card is written rather than spoken, so it survives a bilingual event and a host who says nothing, and it changes exactly when the act changes. Reading the projection took three minutes, and the boundaries moved from "somewhere near the applause" to the second the card came up. While a card is up the act is still running, so a panellist who held the floor for ten minutes no longer looks like a new act.
+
+The marks under the part bands above are those cards.
+
+## What the programme got wrong
+
+The programme on the event page is not the order the evening ran in. It lists both panels at the end, while the first panel came fourth, straight after the opening contributions, and a percussion piece closed the evening. The pipeline now takes the act that was named at each boundary, by the card and by what was said, rather than by the printed order. That gets six of the ten right and three wrong, and one part says plainly that it does not know, where the printed order got four right and six wrong.
+
+## What is still wrong
+
+One act, the percussion piece that closed the evening, has no card in the reading: the projection was dark at that moment, and the last part therefore holds both the closing panel and the piece. Two names are swapped, the rector and the first performance, because the cards for them come up while the previous act is still finishing.
 
 The voices are clusters, not people. The colours in the speaker row mean "this sounds like the same person", not "this is the rector". Naming them is a human act, and on this page nobody has done it.
 
 ## Why this is on the website
 
-Three reasons. The centre works on AI and creativity, and an honest example of what machine listening does to a real recording is worth more than a claim about it. The analysis is small, open data, while the recording stays where it was published. And the failure is as instructive as the success: a tool that says which acts it did not find is one you can work with.
+Three reasons. The centre works on AI and creativity, and an honest example of what machine listening and machine reading do to a real recording is worth more than a claim about it. The analysis is small, open data, while the recording stays where it was published. And the failures are as instructive as the successes: this recording is the reason [avsegmenter](https://github.com/fourMs/avsegmenter) now uses the running order to decide how many parts to look for, and reads the projection to decide where they begin.
 
 The recording is the centre's own. Nothing about it is copied here, and nothing reaches YouTube until you press play.
