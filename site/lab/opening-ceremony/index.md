@@ -25,30 +25,40 @@ What can a machine tell about an event from its recording alone? The centre's op
 
 ## What it found
 
-The pipeline listens rather than reads, and now it also looks. It tags sound events, separates music from speech, finds where the room applauds, clusters the voices, transcribes what is said, and reads the slides on the projection with optical character recognition. It knew the programme from the event page, and matched what it found against it.
+The pipeline listens, reads and looks. It tags sound events, separates music from speech, finds where the room applauds, clusters the voices, transcribes what is said, and reads the slides on the projection. It knew the programme from the event page, and matched what it found against it.
 
-It found ten parts for ten acts, and nine of the ten begin within a second or two of the title card the hall put up for that act. It marked 36 stretches of sound and heard 14 distinct voices across 132 turns.
+It found eleven parts for the ten acts on the programme, and named every one of them. The eleventh is the centre's own short presentation of an Artistic Readiness Level, which was never on the printed programme and which the page therefore leaves without an act.
 
-## What the slides changed
+## Three ways of knowing the same evening
 
-The first version of this page reported seven parts against ten acts, with three acts not found. The applause rule was to blame: it cuts where talk follows the applause, which is right at a concert, where the audience applauds between pieces, and wrong here, where a contribution is applauded and a performance follows. Knowing the programme had ten acts, the detector can now go back and split its longest parts at the applause inside them, which found the three missing boundaries.
+The interesting part is not that the analysis worked. It is that each way of sensing the room failed somewhere the others did not.
 
-Then came the better signal. This hall projects a card when an act begins, with the work and the people in it. That card is written rather than spoken, so it survives a bilingual event and a host who says nothing, and it changes exactly when the act changes. Reading the projection took three minutes, and the boundaries moved from "somewhere near the applause" to the second the card came up. While a card is up the act is still running, so a panellist who held the floor for ten minutes no longer looks like a new act.
+**Sound** marks the shape of an event: applause ends something, a silence is a break, a new voice may be a new speaker. It found seven of the ten acts. Its weakness is that applause tells you that something ended, not when the next thing began, and not what it was. The hall was also bilingual, which caught the transcriber out: asked to pick a language from the opening half minute, it scored 0.50 for Norwegian against 0.48 for English, and a whole-file pass in one language would have turned an English talk into Norwegian words. The transcript here is made with the language decided per passage instead.
 
-The marks under the part bands above are those cards.
+**Sight** turned out to be the better witness to structure. This hall projects a card when an act begins, with the work and the people in it. A card is written rather than spoken, so a bilingual evening does not trouble it, and it changes at the moment the act changes rather than a little after. Reading the projection every ten seconds took three minutes and moved nine of the ten boundaries from "somewhere near the applause" to the second the card came up. It also names the act, which sound can only do if somebody says the name out loud.
+
+**Words** then rescued what sight lost. The hall dims the screen for a performance, and the percussion piece that closed the evening therefore has no card at all. It has an announcement: "vi skal nå høre og se Koka Nikoladse spille". Where the running order has an act that no part carries, the pipeline now looks for that sentence and cuts the recording where it falls. That recovered the last act, and nothing on the programme is left unaccounted for.
+
+None of the three is the reliable one. Sound is there always but says least about what; sight says most but only while the screen is lit; words say who but only when somebody bothers to announce it. Reading them together is not a trick for getting a better number. It is the same thing a person in the room does without noticing.
+
+| What was read | Parts found | Act names right |
+| --- | --- | --- |
+| sound alone | 7 of 10 | 4 |
+| sound and the running order | 10 | 6 |
+| sound, projection and transcript | 11, all named | 8 |
+
+One caveat is worth keeping. This worked because the hall labels its acts on screen. A room without that habit gives the reading nothing, and the applause, the running order and whatever the host says are all that remain.
 
 ## What the programme got wrong
 
-The programme on the event page is not the order the evening ran in. It lists both panels at the end, while the first panel came fourth, straight after the opening contributions, and a percussion piece closed the evening. The pipeline now takes the act that was named at each boundary, by the card and by what was said, rather than by the printed order. That gets six of the ten right and three wrong, and one part says plainly that it does not know, where the printed order got four right and six wrong.
+The programme on the event page was not the order the evening ran in. It listed both panels at the end, while the first panel came fourth, straight after the opening contributions, and a percussion piece closed. The pipeline takes the act named at each boundary, on the card and in the transcript, rather than the printed order. The [event page](/events/aulaen2026/) now gives the order as it happened.
 
 ## What is still wrong
 
-One act, the percussion piece that closed the evening, has no card in the reading: the projection was dark at that moment, and the last part therefore holds both the closing panel and the piece. Two names are swapped, the rector and the first performance, because the cards for them come up while the previous act is still finishing.
-
-The voices are clusters, not people. The colours in the speaker row mean "this sounds like the same person", not "this is the rector". Naming them is a human act, and on this page nobody has done it.
+Two names are swapped, the rector and the first performance, because their cards come up while the previous act is still finishing. The voices are clusters, not people: the colours in the speaker row mean "this sounds like the same person", not "this is the rector". Naming them is a human act, and on this page nobody has done it.
 
 ## Why this is on the website
 
-Three reasons. The centre works on AI and creativity, and an honest example of what machine listening and machine reading do to a real recording is worth more than a claim about it. The analysis is small, open data, while the recording stays where it was published. And the failures are as instructive as the successes: this recording is the reason [avsegmenter](https://github.com/fourMs/avsegmenter) now uses the running order to decide how many parts to look for, and reads the projection to decide where they begin.
+Three reasons. The centre works on AI and creativity, and an honest example of what machine listening, reading and looking do to a real recording is worth more than a claim about it. The analysis is small, open data, while the recording stays where it was published. And the failures are as instructive as the successes: this recording is the reason [avsegmenter](https://github.com/fourMs/avsegmenter) now uses the running order to decide how many parts to look for, reads the projection to decide where they begin, and asks the transcript for the act that the projection missed.
 
 The recording is the centre's own. Nothing about it is copied here, and nothing reaches YouTube until you press play.

@@ -121,7 +121,8 @@
     /* The same information as a list, which is what a screen reader and a
        reader without JavaScript actually need. */
     var CUE_WORDS = { 'applause': 'applause', 'applause:split': 'applause', 'start': 'the start',
-                      'slide': 'a title card', 'break': 'a break', 'break-end': 'a break' };
+                      'slide': 'a title card', 'spoken': 'the host announcing it',
+                      'break': 'a break', 'break-end': 'a break' };
     var list = el('ol', { class: 'oc-list' });
     data.parts.forEach(function (p) {
       var cue = (p.cues || []).map(function (c) {
