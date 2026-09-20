@@ -1,0 +1,48 @@
+/* The emblem as a toy (/lab/bubbles/). */
+#bubbles { max-width: 800px; margin: 0 auto; }
+
+.bb-stage {
+  display: block;
+  width: 100%;
+  height: auto;
+  touch-action: none;
+  cursor: crosshair;
+}
+
+.bb-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.8rem 0 0.6rem; }
+
+.bb-btn {
+  border: 2px solid var(--mm-ink);
+  border-radius: var(--mm-radius, 8px);
+  background: transparent;
+  padding: 0.35rem 0.8rem;
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.bb-btn:hover, .bb-btn:focus-visible { background: var(--mm-ink-5, #f4f3f3); }
+
+.bb-sliders {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.6rem 1.2rem;
+}
+
+.bb-control label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.bb-name { font-family: var(--mm-font-display); font-weight: var(--mm-display-weight); }
+.bb-value { font-variant-numeric: tabular-nums; }
+.bb-range { width: 100%; }
+.bb-note { display: block; }
+.bb-count { margin: 0.6rem 0 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .bb-stage { cursor: default; }
+}

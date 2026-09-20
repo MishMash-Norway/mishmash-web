@@ -2,165 +2,67 @@
 layout: lab
 title: "MishMash Bubbles"
 permalink: /lab/bubbles/
+custom_css: /assets/css/bubbles.css
 redirect_from:
   - /gallery/bubbles/
-description: "The centre's emblem as a toy: two bubbles with springy physics that you can pull apart and push together."
+description: "The centre's emblem as a toy: solid balls with springy physics you can push around, add to, and retune."
 lab:
   authors: [mishmash.no]
   date: 2026-02-01
   status: piece
-  data: "None: the piece is the emblem itself, drawn as vectors and moved by a small physics loop in your browser."
+  data: "None: the piece is the emblem's two circles, drawn as vectors and moved by a small physics loop in your browser."
   ai: "Coded with an AI assistant and reviewed by the site maintainers; see the AI colophon."
 ---
 
-<div id="bubble-container" style="width:100%;max-width:800px;margin:0 auto;cursor:pointer;">
-<svg id="bubble-svg" width="100%" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" style="display:block;">
-  <circle id="c-purple" cx="300" cy="250" r="50" fill="#9a90cf" stroke="#777" stroke-width="1"/>
-  <circle id="c-green" cx="500" cy="250" r="50" fill="#b3e297" stroke="#777" stroke-width="1"/>
-  <defs>
-    <clipPath id="clip-left-interactive" clipPathUnits="userSpaceOnUse">
-      <circle id="clip-circle" cx="300" cy="250" r="50"/>
-    </clipPath>
-  </defs>
-  <circle id="c-overlap" cx="500" cy="250" r="50" fill="#231f20" clip-path="url(#clip-left-interactive)"/>
-</svg>
+Move the pointer across the balls and they scatter, then pull themselves back. The controls below add more of them and change the seven numbers the motion is made of.
+
+<div id="bubbles">
+  <p>Loading the bubbles…</p>
 </div>
+<noscript><p>This piece needs JavaScript. The emblem it plays with is on every page of this site.</p></noscript>
 
-<script>
-(function() {
-  var W = 800, H = 500, R = 50;
-  var balls = [
-    { x: 300, y: 250, vx: 0, vy: 0, rest_x: 300, rest_y: 250 },
-    { x: 500, y: 250, vx: 0, vy: 0, rest_x: 500, rest_y: 250 }
-  ];
-  var purple = document.getElementById('c-purple');
-  var green = document.getElementById('c-green');
-  var overlap = document.getElementById('c-overlap');
-  var clipCircle = document.getElementById('clip-circle');
-  var svg = document.getElementById('bubble-svg');
-  var container = document.getElementById('bubble-container');
+<script defer src="{{ '/assets/js/bubbles.js' | relative_url }}"></script>
 
-  var hovering = false;
-  var damping = 0.985;
-  var springK = 0.003;
-  var repelForce = 8;
-  var gravity = 0.02;
-  var running = false;
+## What the controls do
 
-  function dist(a, b) {
-    var dx = a.x - b.x, dy = a.y - b.y;
-    return Math.sqrt(dx * dx + dy * dy);
-  }
+Each slider is one number in the loop, and the loop is short enough to describe in full.
 
-  function getSVGPoint(e) {
-    var rect = svg.getBoundingClientRect();
-    return {
-      x: (e.clientX - rect.left) / rect.width * W,
-      y: (e.clientY - rect.top) / rect.height * H
-    };
-  }
+**Spring** pulls a ball back towards the place it started. Every frame, the distance from that resting place is multiplied by this number and added to the ball's speed. At zero the balls never come home and drift until something else stops them. Turned up, they snap back and overshoot, because the pull does not stop at the middle.
 
-  container.addEventListener('mouseenter', function() { hovering = true; startLoop(); });
-  container.addEventListener('mouseleave', function() { hovering = false; });
-  container.addEventListener('mousemove', function(e) {
-    if (!hovering) return;
-    var p = getSVGPoint(e);
-    for (var i = 0; i < balls.length; i++) {
-      var b = balls[i];
-      var dx = b.x - p.x, dy = b.y - p.y;
-      var d = Math.sqrt(dx * dx + dy * dy);
-      if (d < R * 1.2 && d > 0) {
-        var strength = repelForce * (1 - d / (R * 1.2));
-        b.vx += (dx / d) * strength;
-        b.vy += (dy / d) * strength;
-      }
-    }
-  });
+**Damping** is the fraction of speed a ball keeps from one frame to the next. At 1 nothing is ever lost and the balls ring forever. At 0.9 a shove dies within a second. This is the number that decides whether the piece feels like glass or like syrup.
 
-  function update() {
-    for (var i = 0; i < balls.length; i++) {
-      var b = balls[i];
-      // spring back to rest position
-      b.vx += (b.rest_x - b.x) * springK;
-      b.vy += (b.rest_y - b.y) * springK;
-      // slight gravity
-      b.vy += gravity;
-      // damping
-      b.vx *= damping;
-      b.vy *= damping;
-      // integrate
-      b.x += b.vx;
-      b.y += b.vy;
-      // wall bounce
-      if (b.x - R < 0) { b.x = R; b.vx = Math.abs(b.vx) * 0.7; }
-      if (b.x + R > W) { b.x = W - R; b.vx = -Math.abs(b.vx) * 0.7; }
-      if (b.y - R < 0) { b.y = R; b.vy = Math.abs(b.vy) * 0.7; }
-      if (b.y + R > H) { b.y = H - R; b.vy = -Math.abs(b.vy) * 0.7; }
-    }
-    // ball-ball collision
-    var a = balls[0], b2 = balls[1];
-    var dx = b2.x - a.x, dy = b2.y - a.y;
-    var d = Math.sqrt(dx * dx + dy * dy);
-    var minDist = R * 2;
-    if (d < minDist && d > 0) {
-      var nx = dx / d, ny = dy / d;
-      var overlap_amt = minDist - d;
-      a.x -= nx * overlap_amt * 0.5;
-      a.y -= ny * overlap_amt * 0.5;
-      b2.x += nx * overlap_amt * 0.5;
-      b2.y += ny * overlap_amt * 0.5;
-      // elastic collision
-      var dvx = a.vx - b2.vx, dvy = a.vy - b2.vy;
-      var dot = dvx * nx + dvy * ny;
-      if (dot > 0) {
-        a.vx -= dot * nx * 0.9;
-        a.vy -= dot * ny * 0.9;
-        b2.vx += dot * nx * 0.9;
-        b2.vy += dot * ny * 0.9;
-      }
-    }
-    render();
-  }
+**Gravity** adds a constant downward push. Set it negative and the balls float up and rest against the ceiling instead.
 
-  function render() {
-    purple.setAttribute('cx', balls[0].x);
-    purple.setAttribute('cy', balls[0].y);
-    clipCircle.setAttribute('cx', balls[0].x);
-    clipCircle.setAttribute('cy', balls[0].y);
-    green.setAttribute('cx', balls[1].x);
-    green.setAttribute('cy', balls[1].y);
-    overlap.setAttribute('cx', balls[1].x);
-    overlap.setAttribute('cy', balls[1].y);
-  }
+**Pointer push** is how hard the pointer shoves a ball it passes through. The shove is strongest at the centre of the ball and fades to nothing at the edge of its reach, so a slow pass nudges and a fast one scatters.
 
-  function isSettled() {
-    for (var i = 0; i < balls.length; i++) {
-      var b = balls[i];
-      if (Math.abs(b.vx) > 0.05 || Math.abs(b.vy) > 0.05) return false;
-      if (Math.abs(b.x - b.rest_x) > 0.5 || Math.abs(b.y - b.rest_y) > 0.5) return false;
-    }
-    return true;
-  }
+**Wall bounce** is how much speed survives an edge. At 1 a ball leaves the wall as fast as it arrived; at 0 it stops dead against it.
 
-  function loop() {
-    update();
-    if (hovering || !isSettled()) {
-      requestAnimationFrame(loop);
-    } else {
-      // snap to rest
-      for (var i = 0; i < balls.length; i++) {
-        balls[i].x = balls[i].rest_x;
-        balls[i].y = balls[i].rest_y;
-        balls[i].vx = 0;
-        balls[i].vy = 0;
-      }
-      render();
-      running = false;
-    }
-  }
+**Ball bounce** is the same idea for a hit between two balls. At 1 they exchange their speeds almost completely, like billiard balls; at 0 they simply stop pushing at each other and slide apart.
 
-  function startLoop() {
-    if (!running) { running = true; requestAnimationFrame(loop); }
-  }
-})();
-</script>
+**Size** is the radius of every ball. It changes the piece more than it looks: bigger balls run out of room sooner, and with several of them on the stage the whole row starts behaving like a crowd.
+
+## How the motion is made
+
+There is no physics library here. Every frame, for every ball, four lines run in this order: add the spring pull to the speed, add gravity to the speed, multiply the speed by the damping, then add the speed to the position. That is Euler integration, the simplest way to turn a rule about how fast something moves into a position on screen. It is accurate enough for a toy and wrong enough that a very stiff spring will make the balls fly apart, which you can see for yourself by pushing the spring slider to its end.
+
+## How two balls are kept apart
+
+The balls are solid. Two of them never share a space, and keeping that true is most of the work.
+
+Every pair is measured. If the distance between two centres is less than two radii, they are overlapping, and each ball is moved back along the line between the centres by half the overlap. That separates them. Then the part of their speed that lies along that same line is exchanged, which is an elastic collision written out by hand, and it is why a ball knocked into another passes its motion on instead of stopping.
+
+Separating one pair can push a ball into a third, so the whole check runs twice per frame. Walls are handled after the balls, in the same two passes: a ball that has gone past an edge is put back on the edge and its speed in that direction is reversed and scaled by the wall bounce. The order matters. Balls first and walls last means a ball squeezed against the edge by another ends the frame inside the stage rather than outside it.
+
+Two passes is a choice, not a solution. With a dozen large balls crowded into a corner you can still catch them overlapping for a frame before the next pass sorts them out. A physics engine would iterate until the whole arrangement is consistent; this one does a fixed amount of work per frame and accepts the occasional error, which is the trade every real-time simulation makes somewhere.
+
+## What it costs
+
+The number under the controls says how many pairs are being checked. It grows as the square of the ball count: two balls are one pair, twelve balls are sixty-six, and each pair is measured twice every frame. That is why the piece stops at twelve.
+
+The loop stops when nothing is moving. Once every ball is within half a unit of its resting place and slower than a twentieth of a unit per frame, the piece waits half a second and then stops asking for frames, so an idle page in a background tab costs nothing until you touch it again.
+
+A reader whose system asks for reduced motion gets the balls at rest, and they stay there until a control is used.
+
+## Why this is here
+
+The centre's emblem is two overlapping circles, and a logo is usually a fixed thing. Making it move was a way of asking what the mark is for, and leaving the numbers exposed is the rest of the answer: the piece is small enough to understand completely, which is not true of most of what a browser does.
