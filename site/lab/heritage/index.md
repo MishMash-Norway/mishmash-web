@@ -11,9 +11,7 @@ lab:
   ai: "The include, the script and this page were drafted with an AI assistant and reviewed by the site maintainers; see the AI colophon."
 ---
 
-Norwegian collections publish their objects through open interfaces: the National Library through its catalogue and IIIF manifests, and most museums, the National Museum among them, through DigitaltMuseum. This page tries one include that shows such an object where a project page mentions it, with the title, the rights statement and a link back to the collection. Images that come with a IIIF image service open in a deep-zoom viewer; the others are shown at a fixed size.
-
-The same fiddle, three ways.
+Several Norwegian collections publish their objects through open interfaces: the National Library through its catalogue and IIIF manifests, and most museums, the National Museum among them, through DigitaltMuseum. This page explores how it is possible to integrate such data and media on an external website. 
 
 ## A photograph at the National Library
 
@@ -33,17 +31,25 @@ The same fiddle, three ways.
 
 {% include heritage.html source="kulturnav" id="a269db7f-1082-443b-8df6-b24049d88e43" %}
 
-## A recording, played where it stands
+## An audio file, from a European collection
 
-Collections hold sound and moving images as well as pictures, and the same include shows them. Europeana's record says what kind of object it is, and a recording gets a player instead of a picture.
+Currently, no Norwegian collection allows for embedding audio similar to images. However, some European collections do. Here is an example from an Europeana record, which says what kind of object it is, and offers a player to be embedded. 
 
 {% include heritage.html source="europeana" id="/937/Culturalia_8ed234bd_3790_46ca_b6be_cfefd1123520" %}
 
-## A film, from a European collection
+## A video file, from a European collection
+
+Norwegian institutions do not currently offer video files either. But here is an example of how it could work.
 
 {% include heritage.html source="europeana" id="/2051906/data_euscreenXL_https___www_openbeelden_nl_media_97919" %}
 
-Neither of these costs a visit anything until someone presses play. The player is markup with `preload="none"`, so no audio or video is fetched, and the collection's server learns nothing about a reader who scrolls past. Both examples carry an open licence, which is why they can be played from here at all: the recording is CC BY-SA and the film is marked as public domain, and the line under each says so and links to the source.
+## Privacy
+
+The audio and video players above are marked up with `preload="none"`, so no audio or video is fetched before a user presses play. This also means that the collection's server learns nothing about a reader who scrolls past, which preserves privacy for the user. 
+
+## Licensing
+
+Both audio and video examples carry an open licence, which is why they can be played from here. The audio recording is CC BY-SA and the video file is marked as public domain.
 
 ## How it works
 
@@ -54,6 +60,24 @@ A page says which object it wants, by source and identifier:
 {% include heritage.html source="dimu" id="3df10c96-b33b-45c1-92bf-d9211ce574c8" %}{% endraw %}
 ```
 
-The reader's browser asks the collection for the object and shows what comes back. The rights line is the collection's own statement, and the link leads to the object's page at the source. Without JavaScript the link alone is shown. The deep-zoom viewer is [OpenSeadragon](https://openseadragon.github.io/), served from this site.
+The reader's browser asks the collection for the object and shows what comes back. The rights line is the collection's own statement, and the link leads to the object's page at the source. Without JavaScript the link alone is shown.
 
-Europeana and KulturNav are now in too: Europeana for collections across Europe, through its public demo key, and KulturNav for the authorities, people, places and terms, that objects refer to. Where Wikidata knows an object or an authority by its collection identifier, a link to the Wikidata item is added as well; the painting above has one, the fiddle in Bø does not. That is the point of identifiers: the same thing, recognised across collections. That is the subject of [issue #50](https://github.com/MishMash-Norway/mishmash-web/issues/50).
+What appears depends on what the record says the object is.
+
+A picture comes as an address the browser loads directly. Where the collection also runs a IIIF image service, the include asks that service for the picture instead, and the reader gets a deep-zoom viewer, [OpenSeadragon](https://openseadragon.github.io/), served from this site. Nothing is copied here: the tiles come from the collection as the reader zooms.
+
+An audio file or a video file comes the same way, as an address, and the include puts it in an HTML `audio` or `video` element with the browser's own controls. There is no player library and no third-party embed code. The address is the one the record gives as its main file, so the bytes come from the collection's own server when the reader presses play, and the collection can count that play in its own statistics. A video record also carries a still picture, which becomes the poster.
+
+The same rule decides all three: the record says what kind of object this is, the include shows it accordingly, and the rights line under it is whatever the collection states.
+
+Europeana and KulturNav are now in too: Europeana for collections across Europe, through its public demo key, and KulturNav for the authorities, people, places and terms, that objects refer to. 
+
+## Linking data
+
+The same object is often held in more than one place. The painting above is in the National Museum's catalogue, in DigitaltMuseum, and in Wikidata; the fiddle in Bø is in its museum's catalogue and in Europeana. Each of them gives it a different number.
+
+Wikidata keeps those numbers next to each other. An item there can carry a DigitaltMuseum identifier or a KulturNav identifier as a property, so asking Wikidata "who has this identifier" gives back the item that stands for the same thing, if anyone has made the connection.
+
+That is what the include does after it has shown an object. It asks Wikidata whether any item carries this collection's identifier for it, and adds a link where exactly one item answers. The painting has such an item; the fiddle in Bø does not, and the line stays as the collection wrote it.
+
+The value is not the extra link. It is that a page which mentions an object can reach everything else known about it, in any collection that has joined the same identifier, without anyone writing those connections by hand. Making more of them, and giving some back, is the subject of [issue #50](https://github.com/MishMash-Norway/mishmash-web/issues/50).
