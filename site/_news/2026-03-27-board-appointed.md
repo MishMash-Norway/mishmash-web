@@ -11,7 +11,7 @@ image: /assets/images/bubbles/mishmash_bubbles_notext.svg
 The formal establishment is continuing. After the MishMash Council was appointed last week, they have now appointed the following members for the MishMash Board:
 
 - [Sunniva Whittaker](https://www.uia.no/english/about-uia/employees/sunnivaw/) (University of Agder) (leader)
-- [Christian Blom](https://notam.no/en/about-us/employees/) (Notam – Norwegian Centre for Technology, Art and Music)
+- [Christian Blom](https://notam.no/en/about-us/employees/) (Notam, the Norwegian Centre for Technology, Art and Music)
 - [Christian Schüssler](https://reimagine.no/contact) (Reimagine)
 - [Hege Stensrud Høsøien](https://www.nb.no/ansatte/hege-stensrud-hosoien/) (National Library of Norway)
 - [Tine Grieg Viig](https://www.hvl.no/person/?user=tine.viig) (Western Norway University of Applied Sciences)

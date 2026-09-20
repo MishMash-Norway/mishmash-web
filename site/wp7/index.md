@@ -14,7 +14,7 @@ To achieve this in a goal-driven context, new frameworks must be developed that 
 
 The process should support creators in addressing their professions' requirements and other practical challenges, finding pragmatic solutions instead of circumventing them. A key challenge here is potential conflicts between artistic freedom and the practical requirements that the creator must fulfil.
 
-AIs developed in this WP will be limited by stricter boundaries than others—from the laws of physics to legal frameworks, such as realism constraints. We will go beyond informed AI approaches in our focus on encoding these limitations into the development principles for Creative AIs. WP7 will generate new knowledge of algorithmic, personal and societal challenges when applying Creative AI in creative practices in collaboration with other WPs facilitated by MishMash's cross-cutting perspectives.
+AIs developed in this WP will be limited by stricter boundaries than others, from the laws of physics to legal frameworks, such as realism constraints. We will go beyond informed AI approaches in our focus on encoding these limitations into the development principles for Creative AIs. WP7 will generate new knowledge of algorithmic, personal and societal challenges when applying Creative AI in creative practices in collaboration with other WPs facilitated by MishMash's cross-cutting perspectives.
 
 ## Research Questions
 

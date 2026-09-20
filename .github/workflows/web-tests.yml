@@ -32,6 +32,9 @@ jobs:
       - name: Check provenance markers on generated images
         run: python3 scripts/image_provenance.py --check
 
+      - name: Check dashes in the site's own prose
+        run: python3 scripts/check_dashes.py
+
       - name: Run script unit tests
         run: |
           for t in scripts/test_*.py; do

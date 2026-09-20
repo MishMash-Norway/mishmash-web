@@ -17,7 +17,7 @@ If you have received an email notifying you that your application for seed fundi
 
 - You must carry out the project in accordance with the project description and budget submitted with the application. If there are changes to the project, notify us by email as they occur. Minor changes that do not affect the core objectives of the project are normally approved. Major changes that significantly alter the project's direction must be approved by the leadership group.
 - Grants are paid retrospectively. This means you/your institution must cover project expenses up front and then request reimbursement from MishMash afterwards.
-- As soon as the project is complete, you must submit a report confirming that the project was carried out in accordance with the project description and budget. The report must include a link to the project output — for example a published report, blog post, article, code, dataset, artwork, or other research outputs. [The report form can be found here](https://nettskjema.no/a/638628).
+- As soon as the project is complete, you must submit a report confirming that the project was carried out in accordance with the project description and budget. The report must include a link to the project output, for example a published report, blog post, article, code, dataset, artwork, or other research outputs. [The report form can be found here](https://nettskjema.no/a/638628).
 - If you wish to decline the grant, notify us by email. The funds will then be made available for other projects.
 
 Seed funding from MishMash is normally disbursed retrospectively after the project is completed. The grant reimburses actual expenses and is not a lump-sum payment.

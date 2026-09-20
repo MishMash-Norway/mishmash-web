@@ -66,9 +66,9 @@ END:VCALENDAR
       {% endif %}
     {% endif %}
     {% if page.location %}
-      <span class="event-location"> — {{ page.location }}</span>
+      <span class="event-location"> · {{ page.location }}</span>
     {% endif %}
-    <span> — <a href="{{ google_calendar_url | strip }}" rel="noopener" target="_blank">Add to calendar</a></span>
+    <span> · <a href="{{ google_calendar_url | strip }}" rel="noopener" target="_blank">Add to calendar</a></span>
   </div>
 </section>
 

@@ -7,7 +7,7 @@ translation:
   automatic: false
 ---
 
-## MishMash -- organisasjon og mål
+## MishMash: organisasjon og mål
 
 MishMash er et norsk forskningskonsortium med fokus på KI i kreative praksiser. Det er et senter med mer enn 200 forskere fra høyere utdanningsinstitusjoner og forskningsinstitutter i Norge, i samarbeid med en rekke offentlige og private partnere.
 
@@ -84,7 +84,7 @@ Følgende innhold hentes fra Nasjonalt vitenarkiv (NVA) og ORCID til MishMash.no
 - MishMash-events: Publiseres på mishMash.no.
 - Partner events: Opprettes hos partner, og feedes til mishMash.no
 
-Eksempler -- Internt: Arbeidspakkemøter annenhver uke, tematiske seminarer m.m. / Eksternt: Ukentlige nettmøter (Meshup), offentlige workshops, livslang læring-arrangementer, halvårlige symposier, fremføringer og utstillinger m.m.
+Eksempler. Internt: Arbeidspakkemøter annenhver uke, tematiske seminarer m.m. / Eksternt: Ukentlige nettmøter (Meshup), offentlige workshops, livslang læring-arrangementer, halvårlige symposier, fremføringer og utstillinger m.m.
 
 ### 2. E-postlister
 

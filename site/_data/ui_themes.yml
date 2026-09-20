@@ -1,5 +1,5 @@
 # UI themes listed on the /ui/ preview gallery. Each name must match a
-# folder under themes/ — the deploy workflow builds every theme it finds
+# folder under themes/. The deploy workflow builds every theme it finds
 # into /ui/<name>/, and this file controls what the gallery says about them.
 - name: example
   title: Example

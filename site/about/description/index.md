@@ -48,7 +48,7 @@ MishMash's primary objective is to *create, explore, and reflect on AI for, thro
 More than 200 researchers and artists from all over Norway work together in MishMash. They meet online every week and do three things:
 
 - **CREATE:** build new AI tools and artworks
-- **EXPLORE:** try AI out — in concerts, classrooms, hospitals, and museums
+- **EXPLORE:** try AI out in concerts, classrooms, hospitals, and museums
 - **REFLECT:** think carefully about what AI does to people and society
 
 The work is split into seven teams, called {% include stretch.html term="work-package" text="work packages" %}, each looking at AI from a different angle.
@@ -60,7 +60,7 @@ MishMash gathers more than 200 researchers and practitioners from the arts, huma
 The work follows three interconnected approaches:
 
 - **CREATE:** making AI-based systems, tools, and artworks
-- **EXPLORE:** using AI in creative practice — and creative methods in other fields
+- **EXPLORE:** using AI in creative practice, and creative methods in other fields
 - **REFLECT:** critically studying the impact of AI on people, culture, and society
 </div>
 
@@ -83,41 +83,41 @@ The centre will be a lively, virtual research environment, with weekly online me
 <div class="adaptive" data-for="simple" markdown="1">
 The seven teams:
 
-- [WP1](/wp1) — concerts and art shows where humans and machines perform *together*
-- [WP2](/wp2) — how artists can use AI in film, games, music, and pictures
-- [WP3](/wp3) — using creative AI to help people feel better
-- [WP4](/wp4) — AI in school: learning with it and about it
-- [WP5](/wp5) — fair rules and fair pay when AI is used in music, film, and media
-- [WP6](/wp6) — using AI to explore old songs, pictures, and archives
-- [WP7](/wp7) — AI that helps people solve tricky problems, from design to emergencies
+- [WP1](/wp1): concerts and art shows where humans and machines perform *together*
+- [WP2](/wp2): how artists can use AI in film, games, music, and pictures
+- [WP3](/wp3): using creative AI to help people feel better
+- [WP4](/wp4): AI in school, learning with it and about it
+- [WP5](/wp5): fair rules and fair pay when AI is used in music, film, and media
+- [WP6](/wp6): using AI to explore old songs, pictures, and archives
+- [WP7](/wp7): AI that helps people solve tricky problems, from design to emergencies
 </div>
 
 <div class="adaptive" data-for="standard" markdown="1">
 The centre's research is organised in seven work packages:
 
-- [WP1: AI for artistic performances](/wp1) — live music and art where humans and machines improvise together
-- [WP2: AI in artistic processes](/wp2) — how AI changes the way visual art, film, music, and games are made
-- [WP3: Creative use of AI for health and well-being](/wp3) — AI-supported arts therapies and well-being
-- [WP4: Creative use of AI in education](/wp4) — teaching materials and AI literacy for schools and lifelong learning
-- [WP5: AI in the Creative and Cultural Industries](/wp5) — copyright, business models, and sustainability
-- [WP6: AI for cultural heritage](/wp6) — opening up archives, libraries, and museums with AI
-- [WP7: Human-centric AI for Creative Problem-Solving](/wp7) — AI that supports people solving practical problems
+- [WP1: AI for artistic performances](/wp1): live music and art where humans and machines improvise together
+- [WP2: AI in artistic processes](/wp2): how AI changes the way visual art, film, music, and games are made
+- [WP3: Creative use of AI for health and well-being](/wp3): AI-supported arts therapies and well-being
+- [WP4: Creative use of AI in education](/wp4): teaching materials and AI literacy for schools and lifelong learning
+- [WP5: AI in the Creative and Cultural Industries](/wp5): copyright, business models, and sustainability
+- [WP6: AI for cultural heritage](/wp6): opening up archives, libraries, and museums with AI
+- [WP7: Human-centric AI for Creative Problem-Solving](/wp7): AI that supports people solving practical problems
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-- [WP1: AI for artistic performances](/wp1) — Focus on real-time, multi-agent and embodied AI (Martin et al. 2020) for live music, art and interactive installations, emphasising continuous interaction between humans and machine agents (Dahlstedt 2021) in live co-creative improvisation (Erdem et al. 2022; McCormack et al. 2020). Counters the trend of very large, hard-to-control models by balancing data-based approaches with artists' knowledge and search-based methods (Jónsson, Erdem, and Glette 2024), and asks what must be "explainable" when interacting with AI during performance (Bryan-Kinns et al. 2024).
+- [WP1: AI for artistic performances](/wp1): Focus on real-time, multi-agent and embodied AI (Martin et al. 2020) for live music, art and interactive installations, emphasising continuous interaction between humans and machine agents (Dahlstedt 2021) in live co-creative improvisation (Erdem et al. 2022; McCormack et al. 2020). Counters the trend of very large, hard-to-control models by balancing data-based approaches with artists' knowledge and search-based methods (Jónsson, Erdem, and Glette 2024), and asks what must be "explainable" when interacting with AI during performance (Bryan-Kinns et al. 2024).
 
-- [WP2: AI in artistic processes](/wp2) — Study how generative and prompt-based AI integrate into production workflows across visual arts, film, VR/XR, music and games, including the effects of "outsourcing" creative decision-making and the hegemonic cultural biases in many commercial tools (Vinchon et al. 2023). When AI systems reinforce dominant cultural patterns they risk narrowing public discourse and diminishing cultural diversity (Vallor 2024); the WP develops artist-centred tools and practices that defend autonomy and address ethical and legal concerns.
+- [WP2: AI in artistic processes](/wp2): Study how generative and prompt-based AI integrate into production workflows across visual arts, film, VR/XR, music and games, including the effects of "outsourcing" creative decision-making and the hegemonic cultural biases in many commercial tools (Vinchon et al. 2023). When AI systems reinforce dominant cultural patterns they risk narrowing public discourse and diminishing cultural diversity (Vallor 2024); the WP develops artist-centred tools and practices that defend autonomy and address ethical and legal concerns.
 
-- [WP3: Creative use of AI for health and well-being](/wp3) — Examine effects of AI-generated creative content and AI-supported arts therapies on mental and physical well-being, building on the evidence that engaging in creative processes promotes health (Fancourt and Finn 2019) while addressing concerns that AI use may devalue human qualities like empathy and autonomy (Abadi et al. 2023). Co-designs inclusive, disability-aware interventions and prioritises consent, equity and responsible therapeutic use.
+- [WP3: Creative use of AI for health and well-being](/wp3): Examine effects of AI-generated creative content and AI-supported arts therapies on mental and physical well-being, building on the evidence that engaging in creative processes promotes health (Fancourt and Finn 2019) while addressing concerns that AI use may devalue human qualities like empathy and autonomy (Abadi et al. 2023). Co-designs inclusive, disability-aware interventions and prioritises consent, equity and responsible therapeutic use.
 
-- [WP4: Creative use of AI in education](/wp4) — Develop pedagogical materials, curricula and AI literacy resources (Long and Magerko 2020), with emphasis on Norwegian availability, to integrate Creative AI across formal and lifelong learning. Navigates the transformative opportunities and the pedagogical, ethical and practical issues that generative AI brings to education (Bozkurt et al. 2024), foregrounding ethics, inclusion, privacy and accessibility.
+- [WP4: Creative use of AI in education](/wp4): Develop pedagogical materials, curricula and AI literacy resources (Long and Magerko 2020), with emphasis on Norwegian availability, to integrate Creative AI across formal and lifelong learning. Navigates the transformative opportunities and the pedagogical, ethical and practical issues that generative AI brings to education (Bozkurt et al. 2024), foregrounding ethics, inclusion, privacy and accessibility.
 
-- [WP5: AI in the Creative and Cultural Industries](/wp5) — Investigate legal, ethical and environmental implications of training and deploying Creative AI, from copyright and moral rights to the ethics of training AI on artists' work and voices without agreements (Blitz 2018), in a landscape where platforms, streaming and AI intensify disruption of business models and legal frameworks (Geiger and Iaia 2024). Proposes sustainable business and regulatory frameworks including rights infrastructures, with commercialization pathways and life-cycle (LCA) analysis of environmental impact.
+- [WP5: AI in the Creative and Cultural Industries](/wp5): Investigate legal, ethical and environmental implications of training and deploying Creative AI, from copyright and moral rights to the ethics of training AI on artists' work and voices without agreements (Blitz 2018), in a landscape where platforms, streaming and AI intensify disruption of business models and legal frameworks (Geiger and Iaia 2024). Proposes sustainable business and regulatory frameworks including rights infrastructures, with commercialization pathways and life-cycle (LCA) analysis of environmental impact.
 
-- [WP6: AI for cultural heritage](/wp6) — Build hybrid AI models blending machine learning with musicology and cognition-based symbolic AI (Lartillot et al. 2022) for automated transcription, classification, interlinking and presentation of archives and collections, emphasising minority cultural expressions such as Norwegian folk music and Sámi joik. The public sector must lead so these capabilities are used ethically and inclusively (Huang et al. 2023), with policies that prevent exploitative uses while enhancing discoverability and rights tracking.
+- [WP6: AI for cultural heritage](/wp6): Build hybrid AI models blending machine learning with musicology and cognition-based symbolic AI (Lartillot et al. 2022) for automated transcription, classification, interlinking and presentation of archives and collections, emphasising minority cultural expressions such as Norwegian folk music and Sámi joik. The public sector must lead so these capabilities are used ethically and inclusively (Huang et al. 2023), with policies that prevent exploitative uses while enhancing discoverability and rights tracking.
 
-- [WP7: Human-centric AI for Creative Problem-Solving](/wp7) — Create goal-oriented Creative AI frameworks and interfaces that empower practitioners (designers, filmmakers, industrial operators, emergency responders) by supporting surprise, control and evaluation within practical constraints — from iterative prompt-based exploration (Lawton et al. 2023) to real-time collaboration with embodied AI (Paradise et al. 2023) — while encoding physical, legal and ethical bounds such as realism constraints (Duan et al. 2022), and ensuring agency, transparency and transferability.
+- [WP7: Human-centric AI for Creative Problem-Solving](/wp7): Create goal-oriented Creative AI frameworks and interfaces that empower practitioners (designers, filmmakers, industrial operators, emergency responders) by supporting surprise, control and evaluation within practical constraints, from iterative prompt-based exploration (Lawton et al. 2023) to real-time collaboration with embodied AI (Paradise et al. 2023), while encoding physical, legal and ethical bounds such as realism constraints (Duan et al. 2022), and ensuring agency, transparency and transferability.
 </div>
 
 ## What has the centre undertaken?
@@ -160,12 +160,12 @@ The plan is to formally start the centre in December 2025, recruit doctoral and 
 
 MishMash is governed and managed by several organizational bodies, each with specific responsibilities and roles:
 
-- [Management](/about/organisation/management/) — Day-to-day management and coordination of MishMash activities
-- [Work Package Leader Group](/about/organisation/wp-leaders/) — Leads of the seven scientific work packages
-- [Board](/about/organisation/board/) — Governance and decision-making body
-- [Council](/about/organisation/council/) — Strategic oversight and partner compliance
-- [Scientific Advisory Board](/about/organisation/scientific-advisory-board/) — International scientific guidance and evaluation
-- [Stakeholder Board](/about/organisation/stakeholder-board/) — Representatives from partner organisations and stakeholders
+- [Management](/about/organisation/management/): Day-to-day management and coordination of MishMash activities
+- [Work Package Leader Group](/about/organisation/wp-leaders/): Leads of the seven scientific work packages
+- [Board](/about/organisation/board/): Governance and decision-making body
+- [Council](/about/organisation/council/): Strategic oversight and partner compliance
+- [Scientific Advisory Board](/about/organisation/scientific-advisory-board/): International scientific guidance and evaluation
+- [Stakeholder Board](/about/organisation/stakeholder-board/): Representatives from partner organisations and stakeholders
 
 <div class="adaptive" data-for="advanced" markdown="1">
 ## References

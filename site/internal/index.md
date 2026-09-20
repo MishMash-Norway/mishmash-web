@@ -9,16 +9,16 @@ This page collects internal MishMash resources.
 
 ## Tools
 
-- [Kiosk view](/kiosk/) — a full-screen, self-rotating page of upcoming events and news for a screen in a lobby
+- [Kiosk view](/kiosk/): a full-screen, self-rotating page of upcoming events and news for a screen in a lobby
 - [QR code generator](/internal/qr-code/)
 - [MeshUp run-of-show](/internal/meshups/)
-- [Where to get computing power](/internal/compute/) — look up your institution
+- [Where to get computing power](/internal/compute/): look up your institution
 - [Funding opportunities](/internal/funding/)
 - [Paper acknowledgments](/internal/acknowledgment/)
 
 ## Policies and strategies
 
-- [Visual identity](/internal/brand/) — wordmark, colours, type and how to use them
+- [Visual identity](/internal/brand/): wordmark, colours, type and how to use them
 - [Channel strategy](/internal/kanalstrategi/)
 - [Communication strategy](/internal/communication-strategy/)
 - Surveys behind the communication strategy: [partner communication strategies](/internal/partner-communication-strategies/), [Nynorsk](/internal/nynorsk/), [Sami and Kven](/internal/sami-kven/)

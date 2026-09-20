@@ -1,9 +1,9 @@
 {% comment %}
   Lists seed-funding projects linked to a person or institution.
-  include.entity_path  — e.g. /people/foo/ or /institutions/bar/
-  include.project_slugs — optional explicit slugs from front matter (page.projects)
-  include.section_class — optional section class (default: directory-related)
-  include.heading — optional section heading (default: Projects)
+  include.entity_path:  e.g. /people/foo/ or /institutions/bar/
+  include.project_slugs: optional explicit slugs from front matter (page.projects)
+  include.section_class: optional section class, default directory-related
+  include.heading: optional section heading, default Projects
 {% endcomment %}
 {% assign entity_path = include.entity_path %}
 {% assign all_projects = site.directory | where: "type", "project" | where_exp: "project", "project.url != '/projects/'" %}

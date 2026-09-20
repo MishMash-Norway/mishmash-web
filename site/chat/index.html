@@ -24,12 +24,12 @@ custom_css: /assets/css/chat.css
     <div id="model-row">
       <label for="model-select"><strong>Model:</strong></label>
       <select id="model-select">
-        <option value="gemma3-1b-it-q4f16_1-MLC">Gemma 3 1B (~0.7 GB) — fastest</option>
-        <option value="Llama-3.2-1B-Instruct-q4f16_1-MLC">Llama 3.2 1B (~0.9 GB) — fast</option>
-        <option value="Qwen3.5-2B-q4f16_1-MLC" selected>Qwen3.5 2B (~2.2 GB) — good balance</option>
+        <option value="gemma3-1b-it-q4f16_1-MLC">Gemma 3 1B (~0.7 GB), fastest</option>
+        <option value="Llama-3.2-1B-Instruct-q4f16_1-MLC">Llama 3.2 1B (~0.9 GB), fast</option>
+        <option value="Qwen3.5-2B-q4f16_1-MLC" selected>Qwen3.5 2B (~2.2 GB), good balance</option>
         <option value="Llama-3.2-3B-Instruct-q4f16_1-MLC">Llama 3.2 3B (~2.3 GB)</option>
-        <option value="Phi-4-mini-instruct-q4f16_1-MLC">Phi-4 Mini (~3.4 GB) — higher quality</option>
-        <option value="Qwen3.5-4B-q4f16_1-MLC">Qwen3.5 4B (~3.9 GB) — highest quality</option>
+        <option value="Phi-4-mini-instruct-q4f16_1-MLC">Phi-4 Mini (~3.4 GB), higher quality</option>
+        <option value="Qwen3.5-4B-q4f16_1-MLC">Qwen3.5 4B (~3.9 GB), highest quality</option>
       </select>
       <button id="load-btn">Load model</button>
     </div>
@@ -57,7 +57,7 @@ custom_css: /assets/css/chat.css
             <li>Verify Vulkan works: <code>vulkaninfo | head -5</code></li>
             <li>In Chrome or Edge, enable <strong>Vulkan</strong> and <strong>WebGPU Developer Features</strong> at <code>chrome://flags</code> (in Edge: <code>edge://flags</code>).</li>
             <li>Enable hardware acceleration: <em>Settings → System → Use hardware acceleration when available</em>.</li>
-            <li>Check <code>chrome://gpu</code> (in Edge: <code>edge://gpu</code>) — look for <em>Vulkan: Enabled</em> under Graphics Feature Status.</li>
+            <li>Check <code>chrome://gpu</code> (in Edge: <code>edge://gpu</code>) and look for <em>Vulkan: Enabled</em> under Graphics Feature Status.</li>
             <li>As a last resort, launch the browser with <code>google-chrome --enable-features=Vulkan,UseSkiaRenderer</code></li>
           </ol>
         </li>
@@ -230,7 +230,7 @@ async function checkWebGPU() {
     return;
   }
   webgpuStatus.innerHTML = '<span id="webgpu-ok">✓ WebGPU is available.</span>' +
-    (supportsShaderF16 ? '' : ' <small>(no shader-f16 — 32-bit model variants will be used)</small>');
+    (supportsShaderF16 ? '' : ' <small>(no shader-f16, so 32-bit model variants will be used)</small>');
 }
 
 function showWebGPUError(type) {

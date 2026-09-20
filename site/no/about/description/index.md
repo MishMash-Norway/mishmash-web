@@ -28,7 +28,7 @@ MishMash samler forskere og kunstnere fra hele Norge for å forstå disse system
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-MishMash studerer KI fra perspektivet til den grunnleggende menneskelige egenskapen kreativitet, forstått her som evnen til å forme nyskapende og meningsfulle ideer eller verk (Boden 2004). Menneskelig kreativitet har både formet og blitt formet av teknologisk utvikling. I dag møter menneskelig kreativitet enestående utfordringer og muligheter brakt av **Kreativ KI** – forstått her som maskinsystemer som kan produsere nyskapende og meningsfulle resultater som står på egne ben (de Vries 2020). Dette reiser en rekke viktige spørsmål: I hvilken grad er kreative KI-systemer genuint kreative, hvordan skiller de seg fra menneskelig kreativitet, og hvordan kan mennesker og maskiner samskape? Videre: hva er de samfunnsmessige implikasjonene av Kreativ KI, hvordan vil produsenters og forbrukeres holdninger til KI-generert kreativt innhold utvikle seg, og hvordan kan kreative tilnærminger til KI ha innvirkning utover de kulturelle og kreative sektorene?
+MishMash studerer KI fra perspektivet til den grunnleggende menneskelige egenskapen kreativitet, forstått her som evnen til å forme nyskapende og meningsfulle ideer eller verk (Boden 2004). Menneskelig kreativitet har både formet og blitt formet av teknologisk utvikling. I dag møter menneskelig kreativitet enestående utfordringer og muligheter brakt av **Kreativ KI**, forstått her som maskinsystemer som kan produsere nyskapende og meningsfulle resultater som står på egne ben (de Vries 2020). Dette reiser en rekke viktige spørsmål: I hvilken grad er kreative KI-systemer genuint kreative, hvordan skiller de seg fra menneskelig kreativitet, og hvordan kan mennesker og maskiner samskape? Videre: hva er de samfunnsmessige implikasjonene av Kreativ KI, hvordan vil produsenters og forbrukeres holdninger til KI-generert kreativt innhold utvikle seg, og hvordan kan kreative tilnærminger til KI ha innvirkning utover de kulturelle og kreative sektorene?
 
 Vi ser på **kunstnerisk utforskning** som et utmerket utgangspunkt for å engasjere seg i kritiske diskusjoner om KI og dens implikasjoner for menneske-maskin-interaksjon og samfunn. Kunstnerisk forskning har vært en integrert del av datamaskinbasert KI-utvikling siden informatikkens tidlige dager (Colton og Wiggins 2012), eksemplifisert ved tidlige *regelbaserte systemer* for musikkkomposisjon (Miranda 2021) og maleri (Cohen 1995). I dag kan *læringsbaserte systemer* produsere alle slags kunstneriske produkter, og flere har blitt populære kommersielle produkter, som Dall-E (bilder), ChatGPT (tekst) og Suno.ai (musikk).
 
@@ -53,7 +53,7 @@ MishMash sitt primære mål er å *skape, utforske og reflektere over KI for, gj
 Mer enn 200 forskere og kunstnere fra hele Norge jobber sammen i MishMash. De møtes på nett hver uke og gjør tre ting:
 
 - **SKAPE:** bygge nye KI-verktøy og kunstverk
-- **UTFORSKE:** prøve ut KI — på konserter, i klasserom, på sykehus og museer
+- **UTFORSKE:** prøve ut KI på konserter, i klasserom, på sykehus og museer
 - **REFLEKTERE:** tenke nøye over hva KI gjør med mennesker og samfunn
 
 Arbeidet er delt inn i syv lag, som kalles {% include stretch.html term="work-package" text="arbeidspakker" %}, som hver ser på KI fra sin egen vinkel.
@@ -65,7 +65,7 @@ MishMash samler mer enn 200 forskere og utøvere fra kunst, humaniora, samfunns-
 Arbeidet følger tre sammenkoblede tilnærminger:
 
 - **SKAPE:** utvikle KI-baserte systemer, verktøy og kunstverk
-- **UTFORSKE:** bruke KI i kreativ praksis — og kreative metoder på andre felt
+- **UTFORSKE:** bruke KI i kreativ praksis, og kreative metoder på andre felt
 - **REFLEKTERE:** kritisk studere KIs innvirkning på mennesker, kultur og samfunn
 </div>
 
@@ -76,7 +76,7 @@ MishMash vil samle en stor tverrfaglig og tversektoriell gruppe av forskere og p
     <img src="/assets/images/cube/mishmash_cube.svg" alt="MishMash-kuben" width="500">
 </div>
 
-Arbeidspakkene er utformet rundt syv kjerne-*temaer* som adresserer utfordringene skissert i forrige avsnitt. Mens noen arbeidspakker fokuserer på å utnytte KI i kreative – primært kunstneriske – anvendelser, utforsker andre den innovative bruken av KI i tilgrensende domener, og fremmer et dynamisk samspill mellom kunst, vitenskap og samfunn. Arbeidet vil gjennomføres ved å kombinere et mangfold av vitenskapelige og kunstbaserte teorier og metoder, som kan oppsummeres i tre sammenkoblede *forskningstilnærminger*:
+Arbeidspakkene er utformet rundt syv kjerne-*temaer* som adresserer utfordringene skissert i forrige avsnitt. Mens noen arbeidspakker fokuserer på å utnytte KI i kreative, primært kunstneriske, anvendelser, utforsker andre den innovative bruken av KI i tilgrensende domener, og fremmer et dynamisk samspill mellom kunst, vitenskap og samfunn. Arbeidet vil gjennomføres ved å kombinere et mangfold av vitenskapelige og kunstbaserte teorier og metoder, som kan oppsummeres i tre sammenkoblede *forskningstilnærminger*:
 
 - **SKAPE:** utvikle KI-baserte systemer, verktøy, kunstverk og relaterte rammeverk og retningslinjer. Dette inkluderer teorier og metoder fra informatikk, ingeniørfag og ulike typer kunst og design, med vekt på å skape Samskapende KI-systemer som prioriterer menneskelig handlingsrom, miljømessig bærekraft og demokratisering av KI-teknologier.
 - **UTFORSKE:** bruke KI-baserte systemer i kreativ praksis og se hvordan kreative metoder kan anvendes i andre domener. Dette inkluderer å undersøke hvordan KI kan styrke kreativitet, fremme innovasjon og støtte læring og velvære ved hjelp av teorier og metoder fra psykologi, terapi, utdanningsvitenskap og kulturarv.
@@ -90,41 +90,41 @@ Senteret vil være et livlig, virtuelt forskningsmiljø med ukentlige nettmøter
 <div class="adaptive" data-for="simple" markdown="1">
 De syv lagene:
 
-- [AP1](/wp1) — konserter og kunstutstillinger der mennesker og maskiner opptrer *sammen*
-- [AP2](/wp2) — hvordan kunstnere kan bruke KI i film, spill, musikk og bilder
-- [AP3](/wp3) — kreativ KI som hjelper folk å ha det bedre
-- [AP4](/wp4) — KI i skolen: å lære med den og om den
-- [AP5](/wp5) — rettferdige regler og rettferdig betaling når KI brukes i musikk, film og medier
-- [AP6](/wp6) — KI som utforsker gamle sanger, bilder og arkiver
-- [AP7](/wp7) — KI som hjelper folk å løse vanskelige problemer, fra design til nødsituasjoner
+- [AP1](/wp1): konserter og kunstutstillinger der mennesker og maskiner opptrer *sammen*
+- [AP2](/wp2): hvordan kunstnere kan bruke KI i film, spill, musikk og bilder
+- [AP3](/wp3): kreativ KI som hjelper folk å ha det bedre
+- [AP4](/wp4): KI i skolen, å lære med den og om den
+- [AP5](/wp5): rettferdige regler og rettferdig betaling når KI brukes i musikk, film og medier
+- [AP6](/wp6): KI som utforsker gamle sanger, bilder og arkiver
+- [AP7](/wp7): KI som hjelper folk å løse vanskelige problemer, fra design til nødsituasjoner
 </div>
 
 <div class="adaptive" data-for="standard" markdown="1">
 Senterets forskning er organisert i syv arbeidspakker:
 
-- [AP1: KI for kunstneriske fremføringer](/wp1) — levende musikk og kunst der mennesker og maskiner improviserer sammen
-- [AP2: KI i kunstneriske prosesser](/wp2) — hvordan KI endrer måten billedkunst, film, musikk og spill lages på
-- [AP3: Kreativ bruk av KI for helse og velvære](/wp3) — KI-støttede kunstterapier og velvære
-- [AP4: Kreativ bruk av KI i utdanning](/wp4) — undervisningsmateriell og KI-kompetanse for skole og livslang læring
-- [AP5: KI i de kreative og kulturelle næringene](/wp5) — opphavsrett, forretningsmodeller og bærekraft
-- [AP6: KI for kulturarv](/wp6) — å åpne opp arkiver, biblioteker og museer med KI
-- [AP7: Menneskesentrisk KI for kreativ problemløsning](/wp7) — KI som støtter folk i å løse praktiske problemer
+- [AP1: KI for kunstneriske fremføringer](/wp1): levende musikk og kunst der mennesker og maskiner improviserer sammen
+- [AP2: KI i kunstneriske prosesser](/wp2): hvordan KI endrer måten billedkunst, film, musikk og spill lages på
+- [AP3: Kreativ bruk av KI for helse og velvære](/wp3): KI-støttede kunstterapier og velvære
+- [AP4: Kreativ bruk av KI i utdanning](/wp4): undervisningsmateriell og KI-kompetanse for skole og livslang læring
+- [AP5: KI i de kreative og kulturelle næringene](/wp5): opphavsrett, forretningsmodeller og bærekraft
+- [AP6: KI for kulturarv](/wp6): å åpne opp arkiver, biblioteker og museer med KI
+- [AP7: Menneskesentrisk KI for kreativ problemløsning](/wp7): KI som støtter folk i å løse praktiske problemer
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-- [AP1: KI for kunstneriske fremføringer](/wp1) — Fokus på sanntids, multi-agent og kroppsliggjort KI (Martin et al. 2020) for live-musikk, kunst og interaktive installasjoner, med vekt på kontinuerlig samspill mellom mennesker og maskinagenter (Dahlstedt 2021) i improvisatorisk samskaping (Erdem et al. 2022; McCormack et al. 2020). Motvirker trenden med svært store, vanskelig kontrollerbare modeller ved å balansere databaserte tilnærminger med kunstnerkunnskap og søkebaserte metoder (Jónsson, Erdem og Glette 2024), og spør hva som må være «forklarbart» i samspill med KI under fremføring (Bryan-Kinns et al. 2024).
+- [AP1: KI for kunstneriske fremføringer](/wp1): Fokus på sanntids, multi-agent og kroppsliggjort KI (Martin et al. 2020) for live-musikk, kunst og interaktive installasjoner, med vekt på kontinuerlig samspill mellom mennesker og maskinagenter (Dahlstedt 2021) i improvisatorisk samskaping (Erdem et al. 2022; McCormack et al. 2020). Motvirker trenden med svært store, vanskelig kontrollerbare modeller ved å balansere databaserte tilnærminger med kunstnerkunnskap og søkebaserte metoder (Jónsson, Erdem og Glette 2024), og spør hva som må være «forklarbart» i samspill med KI under fremføring (Bryan-Kinns et al. 2024).
 
-- [AP2: KI i kunstneriske prosesser](/wp2) — Studerer hvordan generativ og prompt-basert KI integreres i produksjonsarbeidsflyter på tvers av billedkunst, film, VR/XR, musikk og spill, inkludert effektene av å «utkontraktere» kreative beslutninger og de hegemoniske kulturelle skjevhetene i mange kommersielle verktøy (Vinchon et al. 2023). Når KI-systemer forsterker dominerende kulturelle mønstre, risikerer de å innsnevre offentlig diskurs og svekke kulturelt mangfold (Vallor 2024); arbeidspakken utvikler kunstnersentrerte verktøy som ivaretar autonomi og adresserer etiske og juridiske spørsmål.
+- [AP2: KI i kunstneriske prosesser](/wp2): Studerer hvordan generativ og prompt-basert KI integreres i produksjonsarbeidsflyter på tvers av billedkunst, film, VR/XR, musikk og spill, inkludert effektene av å «utkontraktere» kreative beslutninger og de hegemoniske kulturelle skjevhetene i mange kommersielle verktøy (Vinchon et al. 2023). Når KI-systemer forsterker dominerende kulturelle mønstre, risikerer de å innsnevre offentlig diskurs og svekke kulturelt mangfold (Vallor 2024); arbeidspakken utvikler kunstnersentrerte verktøy som ivaretar autonomi og adresserer etiske og juridiske spørsmål.
 
-- [AP3: Kreativ bruk av KI for helse og velvære](/wp3) — Undersøker effekter av KI-generert kreativt innhold og KI-støttede kunstterapier på psykisk og fysisk velvære, med utgangspunkt i kunnskapen om at kreative prosesser fremmer helse (Fancourt og Finn 2019), samtidig som bekymringer for at KI-bruk kan devaluere menneskelige kvaliteter som empati og autonomi tas på alvor (Abadi et al. 2023). Samdesigner inkluderende, funksjonshemmingsbevisste intervensjoner med vekt på samtykke, rettferdighet og ansvarlig terapeutisk bruk.
+- [AP3: Kreativ bruk av KI for helse og velvære](/wp3): Undersøker effekter av KI-generert kreativt innhold og KI-støttede kunstterapier på psykisk og fysisk velvære, med utgangspunkt i kunnskapen om at kreative prosesser fremmer helse (Fancourt og Finn 2019), samtidig som bekymringer for at KI-bruk kan devaluere menneskelige kvaliteter som empati og autonomi tas på alvor (Abadi et al. 2023). Samdesigner inkluderende, funksjonshemmingsbevisste intervensjoner med vekt på samtykke, rettferdighet og ansvarlig terapeutisk bruk.
 
-- [AP4: Kreativ bruk av KI i utdanning](/wp4) — Utvikler pedagogisk materiell, læreplaner og KI-kompetanseressurser (Long og Magerko 2020), med vekt på norsk tilgjengelighet, for å integrere Kreativ KI på tvers av formell og livslang læring, og navigerer de pedagogiske, etiske og praktiske utfordringene generativ KI bringer inn i utdanningen (Bozkurt et al. 2024).
+- [AP4: Kreativ bruk av KI i utdanning](/wp4): Utvikler pedagogisk materiell, læreplaner og KI-kompetanseressurser (Long og Magerko 2020), med vekt på norsk tilgjengelighet, for å integrere Kreativ KI på tvers av formell og livslang læring, og navigerer de pedagogiske, etiske og praktiske utfordringene generativ KI bringer inn i utdanningen (Bozkurt et al. 2024).
 
-- [AP5: KI i de kreative og kulturelle næringene](/wp5) — Undersøker juridiske, etiske og miljømessige implikasjoner av trening og bruk av Kreativ KI, fra opphavsrett og ideelle rettigheter til etikken i å trene KI på kunstneres verk og stemmer uten avtaler (Blitz 2018), i et landskap der plattformer, strømming og KI intensiverer disrupsjonen av forretningsmodeller og juridiske rammeverk (Geiger og Iaia 2024). Foreslår bærekraftige forretnings- og reguleringsrammeverk, med livsløpsanalyse (LCA) av miljøpåvirkning.
+- [AP5: KI i de kreative og kulturelle næringene](/wp5): Undersøker juridiske, etiske og miljømessige implikasjoner av trening og bruk av Kreativ KI, fra opphavsrett og ideelle rettigheter til etikken i å trene KI på kunstneres verk og stemmer uten avtaler (Blitz 2018), i et landskap der plattformer, strømming og KI intensiverer disrupsjonen av forretningsmodeller og juridiske rammeverk (Geiger og Iaia 2024). Foreslår bærekraftige forretnings- og reguleringsrammeverk, med livsløpsanalyse (LCA) av miljøpåvirkning.
 
-- [AP6: KI for kulturarv](/wp6) — Bygger hybride KI-modeller som blander maskinlæring med musikkvitenskap og kognisjonsbasert symbolsk KI (Lartillot et al. 2022) for automatisk transkripsjon, klassifisering, sammenkobling og presentasjon av arkiver og samlinger, med vekt på minoritetskulturelle uttrykk som norsk folkemusikk og samisk joik. Offentlig sektor må lede an slik at disse mulighetene brukes etisk og inkluderende (Huang et al. 2023).
+- [AP6: KI for kulturarv](/wp6): Bygger hybride KI-modeller som blander maskinlæring med musikkvitenskap og kognisjonsbasert symbolsk KI (Lartillot et al. 2022) for automatisk transkripsjon, klassifisering, sammenkobling og presentasjon av arkiver og samlinger, med vekt på minoritetskulturelle uttrykk som norsk folkemusikk og samisk joik. Offentlig sektor må lede an slik at disse mulighetene brukes etisk og inkluderende (Huang et al. 2023).
 
-- [AP7: Menneskesentrisk KI for kreativ problemløsning](/wp7) — Skaper målrettede Kreativ KI-rammeverk og grensesnitt som styrker utøvere (designere, filmskapere, industrioperatører, nødetatspersonell) ved å støtte overraskelse, kontroll og evaluering innenfor praktiske begrensninger — fra iterativ prompt-basert utforskning (Lawton et al. 2023) til sanntidssamarbeid med kroppsliggjort KI (Paradise et al. 2023) — samtidig som fysiske, juridiske og etiske grenser kodes inn (Duan et al. 2022).
+- [AP7: Menneskesentrisk KI for kreativ problemløsning](/wp7): Skaper målrettede Kreativ KI-rammeverk og grensesnitt som styrker utøvere (designere, filmskapere, industrioperatører, nødetatspersonell) ved å støtte overraskelse, kontroll og evaluering innenfor praktiske begrensninger, fra iterativ prompt-basert utforskning (Lawton et al. 2023) til sanntidssamarbeid med kroppsliggjort KI (Paradise et al. 2023), samtidig som fysiske, juridiske og etiske grenser kodes inn (Duan et al. 2022).
 </div>
 
 ## Hva har senteret forpliktet seg til?

@@ -49,12 +49,12 @@ No decisions.
 
 MishMash has the following councils and committees: 
 
-- [Management](https://mishmash.no/about/organisation/management/) — Day-to-day management and coordination of MishMash
-- [Work package leader group](https://mishmash.no/about/organisation/wp-leaders/) — Leaders of the seven scientific work packages
-- [The Council](https://mishmash.no/no/about/organisation/council/) — Strategic guidance and overall coordination
-- [The Board](https://mishmash.no/no/about/organisation/board/) — Governance and overall oversight of the centre
-- [The Stakeholder Board](https://mishmash.no/about/organisation/stakeholder-board/) — Representatives of partners and other stakeholders
-- [The Scientific Advisory Board](https://mishmash.no/about/organisation/scientific-advisory-board/) — International scientific advice and evaluation
+- [Management](https://mishmash.no/about/organisation/management/): Day-to-day management and coordination of MishMash
+- [Work package leader group](https://mishmash.no/about/organisation/wp-leaders/): Leaders of the seven scientific work packages
+- [The Council](https://mishmash.no/no/about/organisation/council/): Strategic guidance and overall coordination
+- [The Board](https://mishmash.no/no/about/organisation/board/): Governance and overall oversight of the centre
+- [The Stakeholder Board](https://mishmash.no/about/organisation/stakeholder-board/): Representatives of partners and other stakeholders
+- [The Scientific Advisory Board](https://mishmash.no/about/organisation/scientific-advisory-board/): International scientific advice and evaluation
   
 #### Discussion
 

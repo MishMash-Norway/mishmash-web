@@ -6,20 +6,20 @@ translation_url: /about/ai-colophon/
 ---
 
 
-MishMash forsker på kreativ bruk av KI — og bruker KI, helt åpent, i arbeidet med dette nettstedet. Denne siden forklarer hvordan, slik at lesere og partnere aldri skal måtte gjette på om KI var involvert.
+MishMash forsker på kreativ bruk av KI, og bruker KI helt åpent i arbeidet med dette nettstedet. Denne siden forklarer hvordan, slik at lesere og partnere aldri skal måtte gjette på om KI var involvert.
 
 ## Hvor KI bidrar
 
 - **Innhold.** KI-assistanse brukes til å skrive utkast og tilpasse tekster, blant annet lesenivåvariantene på [adaptive sider](/no/about/description/) og oppslag i [ordlisten](/no/about/glossary/). Redaktører gjennomgår og bearbeider alt før det publiseres.
-- **Kode og automatisering.** Mye av nettstedets verktøy — synkroniseringsskriptene som henter data fra NVA, ORCID og Wikipedia, temavelgeren, maskineriet for adaptivt innhold, kvalitetssjekkene — utvikles med KI-assistanse, synlig i [commit-historikken](https://github.com/MishMash-Norway/mishmash-web/commits/main) gjennom `Co-Authored-By`-merking.
+- **Kode og automatisering.** Mye av nettstedets verktøy utvikles med KI-assistanse: synkroniseringsskriptene som henter data fra NVA, ORCID og Wikipedia, temavelgeren, maskineriet for adaptivt innhold og kvalitetssjekkene. Dette er synlig i [commit-historikken](https://github.com/MishMash-Norway/mishmash-web/commits/main) gjennom `Co-Authored-By`-merking.
 - **Oversettelse.** Maskinoversettelse brukes mellom engelsk og norsk, og merkes på de aktuelle sidene.
-- **Kunstverk.** Boblevariasjonen nedenfor tegnes på nytt hver natt av et [lite skript](https://github.com/MishMash-Norway/mishmash-web/blob/main/scripts/generate_daily_bubbles.py): en deterministisk skisse med dato og dagens aktivitet på nettstedet som frø (hver liten boble er et kommende arrangement). Det er generativt i algoritmisk forstand — ingen KI-modell er involvert. Filen sier det selv: genererte bilder på dette nettstedet bærer IPTCs digitale kildetype i metadataene (algorithmicMedia for bilder tegnet av et skript, trainedAlgorithmicMedia for alt en KI-modell lager), sammen med opphavsperson, lisens og lenke til vilkårene, og byggingen sjekker at merket er der.
+- **Kunstverk.** Boblevariasjonen nedenfor tegnes på nytt hver natt av et [lite skript](https://github.com/MishMash-Norway/mishmash-web/blob/main/scripts/generate_daily_bubbles.py): en deterministisk skisse med dato og dagens aktivitet på nettstedet som frø (hver liten boble er et kommende arrangement). Det er generativt i algoritmisk forstand, og ingen KI-modell er involvert. Filen sier det selv: genererte bilder på dette nettstedet bærer IPTCs digitale kildetype i metadataene (algorithmicMedia for bilder tegnet av et skript, trainedAlgorithmicMedia for alt en KI-modell lager), sammen med opphavsperson, lisens og lenke til vilkårene, og byggingen sjekker at merket er der.
 
 <div class="colophon-bubbles">
   <img src="/assets/images/bubbles/daily/mishmash_bubbles_daily.svg"
        alt="Dagens genererte variasjon av MishMash-bobleemblemet"
        width="340">
-  <p>Dagens bobler — generert hver natt fra aktiviteten på nettstedet</p>
+  <p>Dagens bobler, generert hver natt fra aktiviteten på nettstedet</p>
 </div>
 
 ## Våre forpliktelser
@@ -41,7 +41,7 @@ Byggingen skjærer også skriftfilene ned til tegnene nettstedet faktisk bruker.
 
 Nynorskutgaven av nettstedet (sidene under `/nn/`) lages automatisk: hver bokmålsside oversettes ved bygging med det regelbaserte, åpne oversettelsesverktøyet [Apertium](https://github.com/apertium/apertium-nno-nob) (nob–nno, moderat norm), samme motor som NPK og NRK bruker for nynorsk. Hver generert side merkes med en boks øverst og lenker til bokmålsoriginalen. En håndkorrigert side under `site/nn/` i kildekoden vinner alltid over den genererte.
 
-Vi publiserer utgaven vel vitende om at den inneholder feil. Det er hele poenget: MishMash vil teste ting i det åpne, avdekke problemer og rette dem — både i våre egne og i underliggende systemer. Det er en del av MishMash-DNA-et. Finner du en feil, bruk «Foreslå en endring» i bunnteksten, så retter vi verktøyene eller siden.
+Vi publiserer utgaven vel vitende om at den inneholder feil. Det er hele poenget: MishMash vil teste ting i det åpne, avdekke problemer og rette dem, både i våre egne og i underliggende systemer. Det er en del av MishMash-DNA-et. Finner du en feil, bruk «Foreslå en endring» i bunnteksten, så retter vi verktøyene eller siden.
 
 {% include ai-colophon-commits.html lang="nb" %}
 

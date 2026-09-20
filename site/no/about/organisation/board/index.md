@@ -33,7 +33,7 @@ Styret har ansvar for:
     <a href="https://notam.no/en/about-us/employees/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/Christian_Blom_NOTAM.jpg" alt="Christian Blom"></a>
     <div>
     <a href="https://notam.no/en/about-us/employees/">Christian Blom</a><br>
-        Notam – Norsk senter for teknologi, kunst og musikk<br>
+        Notam, Norsk senter for teknologi, kunst og musikk<br>
     Medlem
     </div>
 </div>

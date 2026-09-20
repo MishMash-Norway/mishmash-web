@@ -1,7 +1,7 @@
 {% comment %}
   Semicolon-separated contributor list.
-  include.contributors — list of contributor hashes
-  include.roles — optional comma-separated NVA role types to include
+  include.contributors: list of contributor hashes
+  include.roles: optional comma-separated NVA role types to include
 {% endcomment %}
 {% assign role_filter = include.roles | default: "" | strip %}
 {% if role_filter != "" %}

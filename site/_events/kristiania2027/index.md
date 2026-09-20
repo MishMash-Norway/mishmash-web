@@ -14,7 +14,7 @@ redirect_from:
 
 Save the date.
 
-AR@K27 — the 9th Annual Artistic Research Conference — takes place on 13–14 April 2027 at [Kristiania University of Applied Sciences](https://www.kristiania.no/en/), Oslo.
+AR@K27, the 9th Annual Artistic Research Conference, takes place on 13–14 April 2027 at [Kristiania University of Applied Sciences](https://www.kristiania.no/en/), Oslo.
 
 The conference is organised in collaboration with MishMash (as its 2nd national semester conference), [Atelier Nord](https://ateliernord.no/?lang=en), and [KAI — Kristiania AI Centre](https://www.kristiania.no/en/research/research-groups/kai-centre/).
 

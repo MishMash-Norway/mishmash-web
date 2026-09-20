@@ -30,14 +30,14 @@ Adaptive pages offer the same content at three **complexity levels** (defined in
 
 ## Secondary audiences
 
-Not every audience should be a reading level — most are better served by dedicated pages and channels:
+Not every audience should be a reading level: most are better served by dedicated pages and channels:
 
-- **Press and media** — need quotable facts, figures, images, and contacts quickly. Served by clear about pages and direct contact with management, not a separate reading level.
-- **Policymakers and funders** — need societal relevance and impact. Served by the Standard level plus results and news.
-- **Prospective academic partners** — researchers and institutions considering joining or collaborating with the network. Served by the about pages (Advanced level), work-package pages, [results](/results/), and direct contact with WP leaders and management.
-- **Prospective public/private sector partners** — companies, cultural institutions, and public bodies. Served by [project pages](/projects/), news showing existing collaborations, and contact with management.
-- **Prospective employees and students** — served by [vacancies](/vacancies/) and work-package pages; students who want to help build the website itself are pointed to the [website project](/projects/the-mishmash-website/) and the [developer wiki](https://github.com/MishMash-Norway/mishmash-web/wiki).
-- **The MishMash network (internal)** — served by the [internal pages](/internal/), mailing lists, and work-package channels as described in the [channel strategy](/internal/kanalstrategi/).
+- **Press and media**: need quotable facts, figures, images, and contacts quickly. Served by clear about pages and direct contact with management, not a separate reading level.
+- **Policymakers and funders**: need societal relevance and impact. Served by the Standard level plus results and news.
+- **Prospective academic partners**: researchers and institutions considering joining or collaborating with the network. Served by the about pages (Advanced level), work-package pages, [results](/results/), and direct contact with WP leaders and management.
+- **Prospective public/private sector partners**: companies, cultural institutions, and public bodies. Served by [project pages](/projects/), news showing existing collaborations, and contact with management.
+- **Prospective employees and students**: served by [vacancies](/vacancies/) and work-package pages; students who want to help build the website itself are pointed to the [website project](/projects/the-mishmash-website/) and the [developer wiki](https://github.com/MishMash-Norway/mishmash-web/wiki).
+- **The MishMash network (internal)**: served by the [internal pages](/internal/), mailing lists, and work-package channels as described in the [channel strategy](/internal/kanalstrategi/).
 
 ## Mapping audiences to channels
 
@@ -82,7 +82,7 @@ mishmash.no carries the reading levels and stretchtext described above, and a se
 
 ## AI in the making of the website
 
-MishMash actively uses AI in developing and maintaining mishmash.no — fitting for a centre that studies creative uses of AI. AI assistance is used for writing and adapting content (including drafting the reading-level variants on adaptive pages), for developing the site's code and automation, and for machine translation between English and Norwegian. Two commitments frame this use:
+MishMash actively uses AI in developing and maintaining mishmash.no, which is fitting for a centre that studies creative uses of AI. AI assistance is used for writing and adapting content (including drafting the reading-level variants on adaptive pages), for developing the site's code and automation, and for machine translation between English and Norwegian. Two commitments frame this use:
 
 1. **Transparency.** We are open about where and how AI contributes: machine-translated pages are marked as such, AI-assisted development is visible in the public commit history, and this section itself declares the practice. Readers and partners should never have to guess whether AI was involved.
 2. **It is an experiment.** Using AI to build the centre's own communication channel is part of MishMash's research practice — a way to *create, explore, and reflect* on our own tools. Human editors remain responsible for everything published: AI output is reviewed before it goes live, and errors are ours, not the machine's. What we learn feeds back into the centre's research and teaching.

@@ -8,7 +8,7 @@ translation:
   original_label: "Norwegian original"
 ---
 
-## MishMash — organisation and goals
+## MishMash: organisation and goals
 
 MishMash is a Norwegian research consortium focused on AI in creative practices. It is a centre with more than 200 researchers from higher education institutions and research institutes in Norway, in collaboration with a number of public and private partners.
 
@@ -85,7 +85,7 @@ The following content is retrieved from the National Research Archive (NVA) and 
 - MishMash events: Published on mishmash.no.
 - Partner events: Created at the partner's, and fed to mishmash.no
 
-Examples — Internal: Work package meetings every other week, thematic seminars, etc. / External: Weekly online meetings (MeshUp), public workshops, lifelong-learning events, semi-annual symposia, performances and exhibitions, etc.
+Examples. Internal: Work package meetings every other week, thematic seminars, etc. / External: Weekly online meetings (MeshUp), public workshops, lifelong-learning events, semi-annual symposia, performances and exhibitions, etc.
 
 ### 2. Mailing lists
 

@@ -14,8 +14,8 @@ hverdagsforklaringen, og *Avansert* legger til presisjon og de etablerte
 definisjonene fra standarder, regelverk, forskningslitteraturen og norske kilder.
 
 De samme tekstene driver
-{% include stretch.html term="stretchtext" %}-forklaringene i tekstene — ord
-med stiplet understrek, som det der, som kan foldes ut — slik at denne listen
+{% include stretch.html term="stretchtext" %}-forklaringene i tekstene: ord
+med stiplet understrek, som det der, som kan foldes ut, slik at denne listen
 og forklaringene i tekstene alltid stemmer overens, uansett hvilket nivå du
 leser på.
 
