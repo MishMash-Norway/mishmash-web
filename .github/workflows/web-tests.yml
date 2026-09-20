@@ -35,6 +35,9 @@ jobs:
       - name: Check dashes in the site's own prose
         run: python3 scripts/check_dashes.py
 
+      - name: Check Liquid conditions that mix and with or
+        run: python3 scripts/check_liquid_conditions.py
+
       - name: Run script unit tests
         run: |
           for t in scripts/test_*.py; do
