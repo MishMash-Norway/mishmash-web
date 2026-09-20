@@ -26,5 +26,6 @@ summary: The University of Cambridge is a collegiate public research university 
   who left the University of Oxford for Cambridge after a dispute with local townspeople.
   The two ancient English universities, although sometimes described as rivals, share
   many common features and are often jointly referred to as Oxbridge.
+country: United Kingdom
 ---
 

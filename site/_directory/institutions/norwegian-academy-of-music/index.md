@@ -29,13 +29,14 @@ projects:
 - scoping-review-creative-ai-teaching-learning
 - scsci-workshops-and-concert
 - teacher-resources-critical-ai-literacy
-country: null
+country: Norway
 city: null
 urls:
   website: https://nmh.no/en/
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_Academy_of_Music
   wikidata: https://www.wikidata.org/wiki/Q2001488
   ror: https://ror.org/052dy9793
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/974761106
 aliases:
 - Norges musikkhøgskole
 tags: []

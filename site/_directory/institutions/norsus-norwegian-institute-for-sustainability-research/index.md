@@ -15,12 +15,14 @@ people:
 - lina-plataniti
 projects:
 - environmental-sustainability-mishmash
-country: null
+country: Norway
 city: null
 urls:
   website: https://norsus.no/en/
   wikipedia: null
   wikidata: https://www.wikidata.org/wiki/Q30259809
+  ror: https://ror.org/01vmqaq17
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/989861751
 aliases: []
 tags: []
 search_keywords: []

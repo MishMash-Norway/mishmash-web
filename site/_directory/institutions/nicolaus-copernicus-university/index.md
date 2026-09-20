@@ -14,7 +14,7 @@ people:
 - adam-lewartowski
 - karolina-finc
 projects: []
-country: null
+country: Poland
 city: null
 urls:
   website: https://www.umk.pl/en/

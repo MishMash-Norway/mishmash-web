@@ -49,13 +49,14 @@ projects:
 - the-mishmash-website
 - tool-for-tools
 - when-creativity-meets-criticality
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.inn.no/english/
   wikipedia: https://en.wikipedia.org/wiki/University_of_Inland_Norway
   wikidata: https://www.wikidata.org/wiki/Q27050380
   ror: https://ror.org/02dx4dc92
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/918108467
 aliases:
 - Inland Norway University of Applied Sciences
 - Høgskolen i Innlandet

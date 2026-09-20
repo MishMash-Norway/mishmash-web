@@ -34,13 +34,14 @@ projects:
 - sound-heritage-research-stay
 - teacher-resources-critical-ai-literacy
 - the-mishmash-website
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.uia.no/english/index.html
   wikipedia: https://en.wikipedia.org/wiki/University_of_Agder
   wikidata: https://www.wikidata.org/wiki/Q1470769
   ror: https://ror.org/03x297z98
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/970546200
 aliases:
 - Universitetet i Agder
 - University of Agder (UiA), Norway

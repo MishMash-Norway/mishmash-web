@@ -22,13 +22,14 @@ projects:
 - ai-assisted-curation-and-transcription-of-norwegian-folk-music
 - music-archive-of-the-future
 - picturemarks
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.nb.no/en/
   wikipedia: https://en.wikipedia.org/wiki/National_Library_of_Norway
   wikidata: https://www.wikidata.org/wiki/Q924551
   ror: https://ror.org/032saz229
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/976029100
 aliases:
 - The National Library of Norway
 tags: []

@@ -15,7 +15,7 @@ people:
 - thor-magnusson
 projects:
 - rhyglyph-rhydiff-rhyseq
-country: null
+country: Iceland
 city: null
 urls:
   website: https://www.hi.is/en

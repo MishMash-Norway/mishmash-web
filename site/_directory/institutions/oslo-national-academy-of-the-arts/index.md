@@ -19,13 +19,14 @@ people:
 projects:
 - ki-i-kunstnerisk-utdanning-og-praksis
 - making-movement-matter
-country: null
+country: Norway
 city: null
 urls:
   website: https://khio.no/en
   wikipedia: https://en.wikipedia.org/wiki/Oslo_National_Academy_of_the_Arts
   wikidata: https://www.wikidata.org/wiki/Q1291884
   ror: https://ror.org/0543h9a62
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/977027233
 aliases:
 - Kunsthøgskolen i Oslo
 - KHiO / Oslo National Academy of the Arts

@@ -28,13 +28,14 @@ projects:
 - movement-to-music-hackathon
 - scoping-review-creative-ai-teaching-learning
 - trondheim-kreativ-ai
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.ntnu.edu/
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_University_of_Science_and_Technology
   wikidata: https://www.wikidata.org/wiki/Q314536
   ror: https://ror.org/05xg72x27
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/974767880
 aliases:
 - Norges teknisk-naturvitenskapelige universitet
 tags: []

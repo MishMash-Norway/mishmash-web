@@ -12,7 +12,7 @@ image: /images/institutions/australian-national-university.svg
 people:
 - charles-martin
 projects: []
-country: null
+country: Australia
 city: null
 urls:
   website: https://www.anu.edu.au/

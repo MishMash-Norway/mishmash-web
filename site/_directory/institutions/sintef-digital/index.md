@@ -30,5 +30,6 @@ summary: SINTEF, headquartered in Trondheim, Norway, is an independent research 
   Technology (NTNU), started in 1950 when SINTEF was founded. SINTEF has expertise
   in technology, medicine and the social sciences. Alexandra Bech Gjørv is the CEO
   of SINTEF, preceded by Unni Steinsmo, Morten Loktu and Roar Arntzen.
+country: Norway
 ---
 

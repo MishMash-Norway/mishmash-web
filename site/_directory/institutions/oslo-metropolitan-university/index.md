@@ -14,12 +14,14 @@ people:
 - maria-lokna
 projects:
 - digital-twins-of-textile-heritage
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.oslomet.no/en
   wikipedia: https://en.wikipedia.org/wiki/Oslo_Metropolitan_University
   wikidata: https://www.wikidata.org/wiki/Q47249304
+  ror: https://ror.org/04q12yn84
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/997058925
 aliases: []
 tags: []
 search_keywords: []

@@ -19,6 +19,7 @@ urls:
   website: https://forzasys.com/
   wikipedia: null
   wikidata: https://www.wikidata.org/wiki/Q30259251
+  ror: https://ror.org/02zhfb961
 aliases:
 - ForzaSys
 - Forzasys AS

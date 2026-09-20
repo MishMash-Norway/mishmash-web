@@ -15,13 +15,14 @@ people:
 projects:
 - human-machine-consciousness
 - madelaines
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.barrattdue.no/en
   wikipedia: https://en.wikipedia.org/wiki/Barratt_Due_Institute_of_Music
   wikidata: https://www.wikidata.org/wiki/Q4863263
   ror: https://ror.org/05dqc2261
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/960472675
 aliases:
 - Barratt Due musikkinstitutt
 tags: []

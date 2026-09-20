@@ -44,26 +44,50 @@ layout: default
           {% assign institution_wikipedia = page.urls.wikipedia %}
           {% assign institution_wikidata = page.urls.wikidata %}
         </header>
-        {% if page.summary and page.summary != '' or institution_website and institution_website != '' or institution_wikipedia and institution_wikipedia != '' %}
+        {% comment %}
+          Liquid reads a chain of and/or from the right, with no way to bracket it,
+          so "summary or website or wikipedia" actually asked for a summary and
+          then the rest. An institution with no description lost its links as well
+          as its prose. Each test gets its own assign instead.
+        {% endcomment %}
+        {% assign has_summary = false %}{% if page.summary and page.summary != '' %}{% assign has_summary = true %}{% endif %}
+        {% assign has_website = false %}{% if institution_website and institution_website != '' %}{% assign has_website = true %}{% endif %}
+        {% assign has_wikipedia = false %}{% if institution_wikipedia and institution_wikipedia != '' %}{% assign has_wikipedia = true %}{% endif %}
+        {% assign has_wikidata = false %}{% if institution_wikidata and institution_wikidata != '' %}{% assign has_wikidata = true %}{% endif %}
+        {% assign has_ror = false %}{% if page.urls.ror and page.urls.ror != '' %}{% assign has_ror = true %}{% endif %}
+        {% assign has_brreg = false %}{% if page.urls.brreg and page.urls.brreg != '' %}{% assign has_brreg = true %}{% endif %}
+        {% assign has_links = false %}
+        {% if has_website or has_wikipedia %}{% assign has_links = true %}{% endif %}
+        {% if has_wikidata or has_ror %}{% assign has_links = true %}{% endif %}
+        {% if has_brreg %}{% assign has_links = true %}{% endif %}
+        {% if has_summary or has_links %}
         <div class="institution-intro">
-          {% if page.summary and page.summary != '' %}
+          {% if has_summary %}
           <p class="institution-summary">{{ page.summary }}</p>
           {% endif %}
-          {% if institution_website and institution_website != '' or institution_wikipedia and institution_wikipedia != '' %}
+          {% if has_links %}
           <p class="institution-links">
-            {% if institution_website and institution_website != '' %}
+            {% if has_website %}
             {% assign institution_website_label = institution_website | replace: 'https://', '' | replace: 'http://', '' | replace: 'www.', '' | split: '/' | first %}
             <a class="institution-link institution-link-website" href="{{ institution_website }}" target="_blank" rel="noopener noreferrer">{{ institution_website_label }}</a>
             {% endif %}
-            {% if institution_website and institution_website != '' and institution_wikipedia and institution_wikipedia != '' %}
+            {% if has_website and has_wikipedia %}
             <span class="institution-links-sep" aria-hidden="true"> · </span>
             {% endif %}
-            {% if institution_wikipedia and institution_wikipedia != '' %}
+            {% if has_wikipedia %}
             <a class="institution-link institution-link-wikipedia" href="{{ institution_wikipedia }}" target="_blank" rel="noopener noreferrer">More on Wikipedia...</a>
             {% endif %}
-            {% if institution_wikidata and institution_wikidata != '' %}
+            {% if has_wikidata %}
             <span class="institution-links-sep" aria-hidden="true"> · </span>
             <a class="institution-link institution-link-wikidata" href="{{ institution_wikidata }}" target="_blank" rel="noopener noreferrer">Wikidata</a>
+            {% endif %}
+            {% if has_ror %}
+            <span class="institution-links-sep" aria-hidden="true"> · </span>
+            <a class="institution-link institution-link-ror" href="{{ page.urls.ror }}" target="_blank" rel="noopener noreferrer">ROR</a>
+            {% endif %}
+            {% if has_brreg %}
+            <span class="institution-links-sep" aria-hidden="true"> · </span>
+            <a class="institution-link institution-link-brreg" href="{{ page.urls.brreg }}" target="_blank" rel="noopener noreferrer">Enhetsregisteret</a>
             {% endif %}
           </p>
           {% endif %}

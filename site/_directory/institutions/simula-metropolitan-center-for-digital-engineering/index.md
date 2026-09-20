@@ -13,7 +13,7 @@ people:
 - baltasar-beferull-lozano
 - sven-arne-reinemo
 projects: []
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.simulamet.no/

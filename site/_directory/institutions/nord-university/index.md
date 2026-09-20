@@ -24,13 +24,14 @@ projects:
 - the-mishmash-website
 - tool-for-tools
 - when-creativity-meets-criticality
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.nord.no/en
   wikipedia: https://en.wikipedia.org/wiki/Nord_University
   wikidata: https://www.wikidata.org/wiki/Q21079372
   ror: https://ror.org/030mwrt98
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/970940243
 aliases: []
 tags: []
 search_keywords: []

@@ -14,7 +14,7 @@ people:
 - heloisa-amaral
 projects:
 - musical-doppelgangers
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.ultima.no/en/

@@ -39,13 +39,14 @@ projects:
 - music-archive-of-the-future
 - musical-doppelgangers
 - scoping-review-creative-ai-teaching-learning
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.uib.no/en
   wikipedia: https://en.wikipedia.org/wiki/University_of_Bergen
   wikidata: https://www.wikidata.org/wiki/Q204457
   ror: https://ror.org/03zga2b32
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/874789542
 aliases:
 - Universitetet i Bergen
 tags: []

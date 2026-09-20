@@ -69,13 +69,14 @@ projects:
 - the-mishmash-website
 - tool-for-tools
 - when-creativity-meets-criticality
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.uio.no/english/index.html
   wikipedia: https://en.wikipedia.org/wiki/University_of_Oslo
   wikidata: https://www.wikidata.org/wiki/Q486156
   ror: https://ror.org/01xtthb56
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/971035854
 aliases:
 - Universitetet i Oslo
 tags: []

@@ -19,13 +19,14 @@ projects:
 - making-movement-matter
 - tao-transductive-acoustic-organism
 - tool-for-tools
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.aho.no/english/
   wikipedia: https://en.wikipedia.org/wiki/Oslo_School_of_Architecture_and_Design
   wikidata: https://www.wikidata.org/wiki/Q4579140
   ror: https://ror.org/04a7x2s11
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/971526378
 aliases:
 - Arkitektur- og designhøgskolen i Oslo
 tags: []

@@ -18,6 +18,7 @@ urls:
   wikipedia: https://en.wikipedia.org/wiki/Institute_for_Energy_Technology
   wikidata: https://www.wikidata.org/wiki/Q1777633
   ror: https://ror.org/02jqtg033
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/959432538
 aliases:
 - Institute for Energy Technology (IFE)
 - Institutt for energiteknikk

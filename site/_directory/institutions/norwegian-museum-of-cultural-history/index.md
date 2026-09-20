@@ -20,6 +20,7 @@ urls:
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_Museum_of_Cultural_History
   wikidata: https://www.wikidata.org/wiki/Q937521
   ror: https://ror.org/02t6kpd72
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/970010815
 aliases:
 - Norsk Folkemuseum
 tags: []

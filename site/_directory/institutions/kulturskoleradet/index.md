@@ -15,12 +15,13 @@ people:
 - jens-nyland
 projects:
 - creative-ai-at-voldslokka
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.kulturskoleradet.no/
   wikipedia: https://no.wikipedia.org/wiki/Kulturskoler%C3%A5det
   wikidata: https://www.wikidata.org/wiki/Q19383926
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/875627422
 aliases:
 - Norsk kulturskoleråd
 - Norwegian Council for Schools of Music and Performing Arts
@@ -32,3 +33,4 @@ summary: Kulturskolerådet (formerly Norsk kulturskoleråd) is a member and inte
   of music and performing arts (kulturskoler), working to promote the quality of these
   schools. It was founded in 1973 and is headquartered in Trondheim.
 ---
+

@@ -10,7 +10,7 @@ description: The University of Melbourne is a public research university located
 short_name: UniMelb
 people: []
 projects: []
-country: null
+country: Australia
 city: null
 urls:
   website: https://www.unimelb.edu.au/

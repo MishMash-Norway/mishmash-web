@@ -36,13 +36,14 @@ projects:
 - picturemarks
 - strategic-storyteller
 - tao-transductive-acoustic-organism
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.kristiania.no/en/
   wikipedia: https://en.wikipedia.org/wiki/Kristiania_University_College
   wikidata: https://www.wikidata.org/wiki/Q5028646
   ror: https://ror.org/03gss5916
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/954831604
 aliases:
 - Kristiania University of Applied Sciences
 - Høyskolen Kristiania

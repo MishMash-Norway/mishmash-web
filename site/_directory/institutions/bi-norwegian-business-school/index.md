@@ -20,13 +20,14 @@ projects:
 - ai-and-legal-protection-of-personal-characteristics
 - copyright-and-personality-rights-ai-era
 - tool-for-tools
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.bi.edu/
   wikipedia: https://en.wikipedia.org/wiki/BI_Norwegian_Business_School
   wikidata: https://www.wikidata.org/wiki/Q604629
   ror: https://ror.org/03ez40v33
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/971228865
 aliases: []
 tags: []
 search_keywords: []

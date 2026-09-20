@@ -21,6 +21,7 @@ urls:
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_Institute_for_Air_Research
   wikidata: https://www.wikidata.org/wiki/Q876791
   ror: https://ror.org/00q7d9z06
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/941705561
 aliases:
 - NILU
 tags: []

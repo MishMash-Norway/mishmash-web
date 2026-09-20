@@ -15,7 +15,7 @@ people:
 - heidi-partti
 projects:
 - teacher-resources-critical-ai-literacy
-country: null
+country: Finland
 city: null
 urls:
   website: https://www.uniarts.fi/en

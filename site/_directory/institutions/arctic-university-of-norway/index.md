@@ -20,13 +20,14 @@ projects:
 - ai-as-environment
 - ai-transcription-of-music
 - evaluation-cultural-bias-workflow-ai-music-generation
-country: null
+country: Norway
 city: null
 urls:
   website: https://en.uit.no/
   wikipedia: https://en.wikipedia.org/wiki/UiT_The_Arctic_University_of_Norway
   wikidata: https://www.wikidata.org/wiki/Q279724
   ror: https://ror.org/00wge5k78
+  brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/970422528
 aliases:
 - UiT Norges arktiske universitet Universitetsbiblioteket
 tags: []
