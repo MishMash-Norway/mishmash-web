@@ -26,7 +26,11 @@ aliases:
 tags: []
 search_keywords: []
 source_mentions: []
-summary: The University of Music Lubeck is a conservatory in Lubeck, Germany.
+summary: The Lübeck Academy of Music in Lübeck, Germany, is the only higher level
+  music school in the northernmost state of Schleswig-Holstein. The school is located
+  in the World Heritage city of Lübeck, a historic hanseatic city. The school was
+  founded in 1973 but its tradition goes back to 1911. The enrollment is approximately
+  500 students. The teaching staff includes Shmuel Ashkenasi, Sabine Meyer, James
+  Tocco and others; current president is Rico Gubler.
 ---
 
-Description coming soon.

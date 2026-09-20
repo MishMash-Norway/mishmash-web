@@ -46,7 +46,7 @@ if (window.location.hash === '#partner-events') {
         {% assign end_tz = item.enddate | default: item.end_date | date: "%z" %}
         {% if end_tz == "+0200" %}{% assign end_tz_abbr = "CEST" %}{% else %}{% assign end_tz_abbr = "CET" %}{% endif %}
         –<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }} {{ end_tz_abbr }}</time>{% endif -%}
-        {% if item.location %} &mdash; {{ item.location }}{% endif %}
+        {% if item.location %} &middot; {{ item.location }}{% endif %}
         <br />
         {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
         {%- assign desc = item.description | default: item.excerpt -%}
@@ -79,7 +79,7 @@ if (window.location.hash === '#partner-events') {
         {% assign end_tz = item.enddate | default: item.end_date | date: "%z" %}
         {% if end_tz == "+0200" %}{% assign end_tz_abbr = "CEST" %}{% else %}{% assign end_tz_abbr = "CET" %}{% endif %}
         –<time datetime="{{ item.enddate | default: item.end_date | date_to_xmlschema }}">{{ item.enddate | default: item.end_date | date: "%H:%M" }} {{ end_tz_abbr }}</time>{% endif -%}
-        {% if item.location %} &mdash; {{ item.location }}{% endif %}
+        {% if item.location %} &middot; {{ item.location }}{% endif %}
         <br />
         {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
         {%- assign desc = item.description | default: item.excerpt -%}

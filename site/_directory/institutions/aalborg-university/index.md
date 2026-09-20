@@ -23,7 +23,10 @@ aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary: Aalborg University is a public university in Aalborg, Denmark.
+summary: Aalborg University (AAU) is an international public university with campuses
+  in Aalborg, Esbjerg, and Copenhagen, Denmark. Founded in 1974, the university awards
+  bachelor's degrees, master's degrees, and PhD degrees in a wide variety of subjects
+  within humanities, social sciences, information technology, design, engineering,
+  exact sciences, and medicine.
 ---
 
-Description coming soon.

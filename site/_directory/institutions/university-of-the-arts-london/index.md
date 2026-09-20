@@ -25,8 +25,10 @@ aliases:
 tags: []
 search_keywords: []
 source_mentions: []
-summary: University of the Arts London is a public university specialising in art,
-  design, fashion and the performing arts in London, United Kingdom.
+summary: 'The University of the Arts London (UAL) is a public collegiate university
+  in London, England, United Kingdom. It specialises in arts, design, fashion, and
+  the performing arts. The university is a federation of six arts colleges: Camberwell
+  College of Arts, Central Saint Martins, Chelsea College of Arts, the London College
+  of Communication, the London College of Fashion and the Wimbledon College of Arts.'
 ---
 
-Description coming soon.

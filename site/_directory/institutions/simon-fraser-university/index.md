@@ -25,8 +25,13 @@ aliases:
 tags: []
 search_keywords: []
 source_mentions: []
-summary: Simon Fraser University is a public research university in Burnaby, British
-  Columbia, Canada.
+summary: Simon Fraser University (SFU) is a public research university in British
+  Columbia, Canada. It maintains three campuses in Greater Vancouver, respectively
+  located in Burnaby, Surrey, and Vancouver. The 170-hectare (420-acre) main Burnaby
+  campus on Burnaby Mountain, located 15 kilometres (9.3 mi) from downtown Vancouver,
+  was established in 1965 and comprises more than 37,000 students and 200,000 alumni.
+  The university was created in an effort to expand higher education across Canada.
+  In 2025, it became the first university in Canada to adopt university-wide open
+  scholarship principles.
 ---
 
-Description coming soon.

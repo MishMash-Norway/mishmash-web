@@ -82,6 +82,21 @@ CODE_FENCE = re.compile(r"^\s*(```|~~~)")
 QUOTED = re.compile(r"\*[^*\n]+\*|\"[^\"\n]+\"|\u201c[^\u201d\n]+\u201d|«[^»\n]+»|`[^`\n]+`")
 
 
+ENTITIES = {"&mdash;": "\u2014", "&ndash;": "\u2013", "&#8212;": "\u2014", "&#8211;": "\u2013",
+            "&#x2014;": "\u2014", "&#x2013;": "\u2013"}
+
+
+def decoded(line: str) -> str:
+    """A dash written as an HTML entity is still a dash on the page.
+
+    The site footer carried six of them for months, invisible to a check that
+    only looked for the character itself.
+    """
+    for entity, character in ENTITIES.items():
+        line = line.replace(entity, character)
+    return line
+
+
 def without_quotations(line: str) -> str:
     """Blank out italics, quotation marks and code, which quote someone else."""
     return QUOTED.sub(lambda m: " " * len(m.group(0)), line)
@@ -109,7 +124,7 @@ def offences(path: Path) -> list[tuple[int, str, str]]:
             continue
         if allowed(str(path), line):
             continue
-        own = without_quotations(line)
+        own = without_quotations(decoded(line))
         if SPACED.search(own):
             found.append((number, "spaced dash", line.strip()))
         elif EM.findall(own) and len(EM.findall(own)) % 2 == 1:

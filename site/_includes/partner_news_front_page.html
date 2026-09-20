@@ -28,7 +28,7 @@
   {% endif %}
   <div class="event-content">
     <time datetime="{{ item.date }}">{{ item.date | date: "%b %d, %Y" }}</time>
-    {% if item.partner %} &mdash; {{ item.partner | strip_html | escape_once }}{% endif %}
+    {% if item.partner %} &middot; {{ item.partner | strip_html | escape_once }}{% endif %}
     <br />
     <a href="{{ item.url }}">{{ item.title | strip_html | escape_once }}</a>
     {% if item.description %}

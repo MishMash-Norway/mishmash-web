@@ -23,7 +23,10 @@ aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary: Aalto University is a public research university in Espoo, Finland.
+summary: 'Aalto University is a public research university located in Espoo, Finland.
+  It was established in 2010 as a merger of three major Finnish universities: the
+  Helsinki University of Technology, the Helsinki School of Economics and the University
+  of Art and Design Helsinki. The close collaboration between the scientific, business
+  and arts communities is intended to foster multi-disciplinary education and research.'
 ---
 
-Description coming soon.

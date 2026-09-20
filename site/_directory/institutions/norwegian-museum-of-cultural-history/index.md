@@ -25,7 +25,9 @@ aliases:
 tags: []
 search_keywords: []
 source_mentions: []
-summary: The Norwegian Museum of Cultural History is an open-air museum in Oslo, Norway.
+summary: Norsk Folkemuseum, at Bygdøy, Oslo, Norway, is a museum of cultural history
+  with extensive collections of artifacts from all social groups and all regions of
+  the country. It also incorporates a large open-air museum with more than 150 buildings,
+  relocated from towns and rural districts.
 ---
 
-Description coming soon.

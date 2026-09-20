@@ -24,7 +24,8 @@ tags: []
 search_keywords: []
 source_mentions: []
 summary: The University of Jyväskylä is a public research university in Jyväskylä,
-  Finland.
+  Finland. It has its origins in the first Finnish-speaking Teacher Training College,
+  founded in 1863. Around 15,200 students are currently enrolled in the degree programs
+  of the university.
 ---
 
-Description coming soon.

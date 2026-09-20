@@ -27,8 +27,9 @@ aliases:
 tags: []
 search_keywords: []
 source_mentions: []
-summary: KTH Royal Institute of Technology is a public research university in Stockholm,
-  Sweden.
+summary: KTH Royal Institute of Technology, abbreviated KTH, is a public research
+  university in Stockholm, Sweden. KTH conducts research and education in engineering
+  and technology and is Sweden's largest technical university. Since 2018, KTH consists
+  of five schools with four campuses in and around Stockholm.
 ---
 
-Description coming soon.

@@ -18,6 +18,7 @@ city: Oslo
 urls:
   website: https://forzasys.com/
   wikipedia: null
+  wikidata: https://www.wikidata.org/wiki/Q30259251
 aliases:
 - ForzaSys
 - Forzasys AS

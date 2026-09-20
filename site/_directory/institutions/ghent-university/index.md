@@ -23,7 +23,8 @@ aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
-summary: Ghent University is a public research university in Ghent, Belgium.
+summary: Ghent University is a public research university located in Ghent, in the
+  East Flanders province of Belgium.
 ---
 
 Description coming soon.

@@ -18,11 +18,15 @@ country: null
 city: null
 urls:
   website: https://www.oslomet.no/en
-  wikipedia: ''
+  wikipedia: https://en.wikipedia.org/wiki/Oslo_Metropolitan_University
+  wikidata: https://www.wikidata.org/wiki/Q47249304
 aliases: []
 tags: []
 search_keywords: []
 source_mentions: []
+summary: Oslo Metropolitan University is a state university in Oslo and Kjeller in
+  Norway. It is the result of the merger of many former vocational colleges in the
+  Greater Oslo Region. It has around 1,400 academic employees, around 20,000 students
+  and around 800 administrative support staff.
 ---
 
-Description coming soon.

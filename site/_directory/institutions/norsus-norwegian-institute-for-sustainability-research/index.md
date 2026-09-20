@@ -20,6 +20,7 @@ city: null
 urls:
   website: https://norsus.no/en/
   wikipedia: null
+  wikidata: https://www.wikidata.org/wiki/Q30259809
 aliases: []
 tags: []
 search_keywords: []

@@ -25,7 +25,7 @@ tags: []
 search_keywords: []
 source_mentions: []
 summary: The University of Stirling is a public university in Stirling, Scotland,
-  United Kingdom.
+  founded by a royal charter in 1967. It is located in the Central Belt of Scotland,
+  built within the walled Airthrey Castle estate.
 ---
 
-Description coming soon.
