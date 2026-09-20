@@ -140,12 +140,78 @@
       ]));
     });
 
+    /* Two panels, as in the player the toolbox writes: what the analysis holds
+       beyond this page, and the technical, rights and quality facts. */
+    function row(term, value) {
+      if (value == null || value === '') return null;
+      return el('div', { class: 'oc-fact' }, [
+        el('dt', { text: term }), el('dd', { text: String(value) }),
+      ]);
+    }
+    function mb(n) { return n ? (n / 1048576).toFixed(0) + ' MB' : null; }
+
+    var t = data.tech || {}, lo = data.loudness || {}, rights = data.rights || {}, tools = data.tools || {};
+    var facts = el('dl', { class: 'oc-facts' }, [
+      row('Duration', hms(dur)),
+      row('Picture', t.width ? t.width + ' × ' + t.height + ', ' + t.fps + ' frames per second, ' + (t.video_codec || '') : null),
+      row('Sound', t.audio_codec ? t.audio_codec + ', ' + (t.sample_rate_hz / 1000) + ' kHz, ' + t.channels + ' channels' : null),
+      row('File', t.container ? t.container + ', ' + mb(t.size_bytes) + ', ' + t.bitrate_kbps + ' kbit/s' : null),
+      row('Loudness', lo.integrated_lufs != null ? lo.integrated_lufs + ' LUFS integrated, range ' + lo.loudness_range_lu + ' LU, true peak ' + lo.true_peak_dbtp + ' dBTP (' + (lo.standard || '') + ')' : null),
+      row('Analysed with', 'avsegmenter, on musicalgestures ' + (tools.musicalgestures || '') + ', ambiscape ' + (tools.ambiscape || '') + ', musiscape ' + (tools.musiscape || '')),
+      row('Rights holder', rights.rights_holder),
+      row('Licence of the recording', rights.license),
+      row('Privacy', rights.privacy ? rights.privacy + ': ' + (rights.privacy_note || '') : null),
+    ].filter(Boolean));
+
+    var checks = el('ul', { class: 'oc-checks' }, (data.qc || []).map(function (c) {
+      return el('li', { text: (c.label || c.id) + ': ' + c.outcome + (c.count != null ? ' (' + c.count + ')' : '') });
+    }));
+
+    var metaBox = el('details', { class: 'oc-box' }, [
+      el('summary', { text: 'Technical facts, rights and quality checks' }),
+      facts,
+      el('h3', { text: 'Quality checks', class: 'oc-box-h' }),
+      el('p', { class: 'small muted', text: 'A subset of the EBU Tech 3363 checks, measured with ffmpeg filters. The one silence is eight seconds at 18:23, as the stage was set for the second performance. The black frames are at 1:08:56 and at the very end.' }),
+      checks,
+    ]);
+
+    var tracks = el('ul', { class: 'oc-tracks' }, (data.research.tracks || []).map(function (tr) {
+      return el('li', { text: tr.label + (tr.unit ? ' (' + tr.unit + ')' : '') + ' · ' + tr.kind + (tr.source ? ' · ' + tr.source : '') });
+    }));
+    var tiers = el('ul', { class: 'oc-tracks' }, (data.research.tiers || []).map(function (ti) {
+      return el('li', { text: ti.label + ' · ' + ti.items + ' items' + (ti.source ? ' · ' + ti.source : '') });
+    }));
+    var pics = el('div', { class: 'oc-pics' }, (data.pictures || []).map(function (pic) {
+      return el('figure', {}, [
+        el('img', { src: pic.src, alt: pic.label, loading: 'lazy' }),
+        el('figcaption', { class: 'small muted', text: pic.label }),
+      ]);
+    }));
+
+    var advancedBox = el('details', { class: 'oc-box' }, [
+      el('summary', { text: 'Advanced view: what the analysis holds' }),
+      el('p', { class: 'small', text: 'The timeline above is a selection. The analysis carries ' + (data.research.tracks || []).length + ' measured tracks and ' + (data.research.tiers || []).length + ' layers of marks, each from a named tool, and the whole of it is in the JSON file this page reads.' }),
+      el('h3', { text: 'The recording as pictures', class: 'oc-box-h' }),
+      pics,
+      el('h3', { text: 'Measured through the recording', class: 'oc-box-h' }),
+      tracks,
+      el('h3', { text: 'Marked on the recording', class: 'oc-box-h' }),
+      tiers,
+      el('p', { class: 'small muted' }, [
+        document.createTextNode('The full analysis is in '),
+        el('a', { href: '/assets/data/opening-ceremony-segments.json', text: 'the file behind this page' }),
+        document.createTextNode('. The player that the toolbox writes shows the same layers against the video itself.'),
+      ]),
+    ]);
+
     root.textContent = '';
     root.appendChild(player);
     root.appendChild(legend);
     root.appendChild(el('div', { class: 'oc-stack' }, [partRow, cardRow, kindRow, turnRow, wave]));
     root.appendChild(el('p', { class: 'small muted', text: 'Bands: the parts the pipeline found. Marks below them: the title cards it read off the projection. Strip: what it heard, second by second. Row below: turns by voice, coloured by cluster, not named. Line: loudness, one point per ten seconds. Click anywhere to set where the recording starts.' }));
     root.appendChild(list);
+    root.appendChild(advancedBox);
+    root.appendChild(metaBox);
   }
 
   var root = document.getElementById('opening-segments');

@@ -48,3 +48,35 @@
 
 .oc-cards { height: 10px; background: var(--mm-ink-10, #e6e4ee); }
 .oc-card { background: var(--mm-ink); width: 4px; }
+
+/* The two panels, as in the player the toolbox writes. */
+.oc-box {
+  margin: 1.2rem 0 0;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--mm-ink-20, #ccc);
+  border-radius: var(--mm-radius, 8px);
+}
+
+.oc-box > summary {
+  cursor: pointer;
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+}
+
+.oc-box-h { font-size: 1rem; margin: 1rem 0 0.3rem; }
+
+.oc-facts { margin: 0.8rem 0 0; }
+.oc-fact { display: flex; gap: 0.6rem; padding: 0.15rem 0; font-size: 0.9rem; }
+.oc-fact dt { flex: 0 0 11rem; font-weight: 600; margin: 0; }
+.oc-fact dd { margin: 0; }
+
+.oc-checks, .oc-tracks { margin: 0.3rem 0 0; padding-left: 1.2rem; font-size: 0.9rem; }
+.oc-checks li, .oc-tracks li { margin: 0.1rem 0; }
+
+.oc-pics figure { margin: 0 0 0.8rem; }
+.oc-pics img { display: block; width: 100%; height: auto; border: 1px solid var(--mm-ink-20, #ccc); }
+
+@media (max-width: 640px) {
+  .oc-fact { display: block; }
+  .oc-fact dt { margin-bottom: 0.1rem; }
+}
