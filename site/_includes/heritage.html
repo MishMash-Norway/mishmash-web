@@ -7,9 +7,15 @@
     {% include heritage.html source="nb" id="3ab035574c80dd3baa18330fc9b3bc66" %}
     {% include heritage.html source="dimu" id="51001787-efc8-4205-9c2d-bf7481864cb0" caption="A Hardanger fiddle in Bergen." %}
 
-  source: nb (Nasjonalbiblioteket, id is the item id from api.nb.no),
+  A record that holds a recording gets a player rather than a picture, and a
+  picture in the same record becomes the poster frame. Nothing is fetched
+  until the reader presses play.
+
+  source: nb (Nasjonalbiblioteket, id is the item id from api.nb.no; pictures
+          only, since the media server serves nb.no alone, see issue #74),
           dimu (DigitaltMuseum, id is the artifact uuid; the National Museum,
-          Norsk Folkemuseum and most Norwegian museums publish through it),
+          Norsk Folkemuseum and most Norwegian museums publish through it,
+          and it is the one Norwegian source that serves sound and film),
           europeana (id is the record id, such as /502/_011023280005), or
           kulturnav (an authority for a person, place or concept; id is the uuid).
 {% endcomment %}

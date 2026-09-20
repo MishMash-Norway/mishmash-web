@@ -133,6 +133,36 @@
     });
   }
 
+  /* The platform gives a media file an identifier rather than an address, and
+     serves it from one place under a name built from that identifier. */
+  function dimuMediaFile(a) {
+    var files = (a.media && a.media.mediaFiles) || [];
+    for (var i = 0; i < files.length; i++) {
+      var f = files[i];
+      if (f.fileType !== 'audio' && f.fileType !== 'video') continue;
+      var sound = f.fileType === 'audio';
+      return {
+        kind: sound ? 'sound' : 'video',
+        url: f.url || 'https://ems.dimu.org/multimedia/' + f.identifier + (sound ? '.mp3' : '.mp4') + '?mmid=' + f.identifier
+      };
+    }
+    return null;
+  }
+
+  /* {code: 'by-sa', system: 'CC'} is a licence, but only once it is spelled
+     out and points at the terms it stands for. */
+  function ccDeed(lic) {
+    if (!lic) return null;
+    /* The platform writes the same licence two ways: {system: 'CC', code: 'by'}
+       on a record, and {system: null, code: 'CC BY'} on a picture. */
+    var code = String(lic.code || '').toLowerCase().replace(/^cc[\s-]+/, '').replace(/\s+/g, '-');
+    if (String(lic.system).toUpperCase() !== 'CC' && !/^cc[\s-]/i.test(String(lic.code || ''))) return null;
+    if (code === 'pdm') return { label: 'Public domain mark 1.0', url: 'https://creativecommons.org/publicdomain/mark/1.0/' };
+    if (code === 'zero' || code === '0') return { label: 'CC0 1.0', url: 'https://creativecommons.org/publicdomain/zero/1.0/' };
+    if (!/^by(-(nc|nd|sa)){0,2}$/.test(code)) return null;
+    return { label: 'CC ' + code.toUpperCase() + ' 4.0', url: 'https://creativecommons.org/licenses/' + code + '/4.0/' };
+  }
+
   function loadDimu(fig, uuid) {
     var media = fig.querySelector('.mm-heritage-media');
     var title = fig.querySelector('.mm-heritage-title');
@@ -141,19 +171,27 @@
       var t = (a.titles && a.titles[0] && a.titles[0].title) || (a.names && a.names[0] && a.names[0].name) || a.uniqueId;
       if (!fig.dataset.caption) text(title, t);
       var pic = a.media && a.media.pictures && a.media.pictures[0];
-      if (pic) {
+      var poster = pic ? 'https://dms-cf-01.dimu.org/image/' + pic.identifier + '?dimension=1200x1200' : null;
+      /* A record can hold a recording as well as pictures. The recording is
+         the object here, so it wins, and a picture becomes the poster. */
+      var file = dimuMediaFile(a);
+      if (file) {
+        showMedia(media, file.kind, file.url, t, poster);
+      } else if (pic) {
         var iiif = pic.sourceUrl && /\/iiif\//.test(pic.sourceUrl) ? pic.sourceUrl.replace(/\/full\/.*$/, '/info.json') : null;
         if (iiif) showZoom(media, iiif, t);
-        else showImage(media, 'https://dms-cf-01.dimu.org/image/' + pic.identifier + '?dimension=1200x1200', t);
+        else showImage(media, poster, t);
       }
-      var lic = (pic && pic.licenses && pic.licenses[0]) || (a.licenses && a.licenses[0]) || null;
+      var lic = (pic && !file && pic.licenses && pic.licenses[0]) || (a.licenses && a.licenses[0]) || null;
       var code = (a.identifier && a.identifier.owner) || '';
       return ownerName(code).then(function (owner) {
         var parts = [];
-        if (pic && pic.photographer) parts.push('Photo: ' + pic.photographer);
-        if (lic) parts.push(lic.code || lic.description || '');
+        if (pic && !file && pic.photographer) parts.push('Photo: ' + pic.photographer);
         if (owner) parts.push(owner);
-        rights.textContent = parts.filter(Boolean).join(' · ') + ' · ';
+        rights.textContent = parts.filter(Boolean).join(' · ') + (parts.length ? ' · ' : '');
+        var deed = ccDeed(lic);
+        if (deed) { rights.appendChild(link(deed.url, deed.label)); rights.appendChild(document.createTextNode(' · ')); }
+        else if (lic) { rights.appendChild(document.createTextNode((lic.description || lic.code) + ' · ')); }
         rights.appendChild(link('https://digitaltmuseum.org/' + (a.dimuCode || a.uniqueId), 'DigitaltMuseum'));
         return addWikidata(rights, 'dimu', a.dimuCode || a.uniqueId);
       });

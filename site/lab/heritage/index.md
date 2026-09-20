@@ -31,15 +31,27 @@ Several Norwegian collections publish their objects through open interfaces: the
 
 {% include heritage.html source="kulturnav" id="a269db7f-1082-443b-8df6-b24049d88e43" %}
 
+## An audio file, from a Norwegian museum
+
+Norwegian museums publish sound through DigitaltMuseum, and 1,577 records carry a recording. Of those, 592 have a Creative Commons licence. The file is served as an ordinary address, so the same include that shows a picture can show a recording. Here is a telling of how the fiddle tune Refshaugen got its name, from a record that names its reader and its licence.
+
+{% include heritage.html source="dimu" id="7a849ad9-7194-1014-b55f-47e143b72dbd" %}
+
 ## An audio file, from a European collection
 
-Currently, no Norwegian collection allows for embedding audio similar to images. However, some European collections do. Here is an example from an Europeana record, which says what kind of object it is, and offers a player to be embedded. 
+The national collections are harder. The National Library has 100,640 radio programmes anyone may listen to, and each one already carries a IIIF manifest that names the recording and the rights. But the media server answers requests from nb.no only, so the file cannot be played from here. European collections often serve the file openly instead. Here is an example from a Europeana record, which says what kind of object it is, and offers a player to be embedded. 
 
 {% include heritage.html source="europeana" id="/937/Culturalia_8ed234bd_3790_46ca_b6be_cfefd1123520" %}
 
+## A video file, from a Norwegian museum
+
+Film works the same way. DigitaltMuseum holds 2,298 records with a film, 1,166 of them under a Creative Commons licence. The picture in the record becomes the poster frame, so the reader sees what the film is before deciding to fetch it.
+
+{% include heritage.html source="dimu" id="74f48aee-c0bc-11e4-9b5b-a291a32f8a16" %}
+
 ## A video file, from a European collection
 
-Norwegian institutions do not currently offer video files either. But here is an example of how it could work.
+Here is the same thing from a European collection, for comparison.
 
 {% include heritage.html source="europeana" id="/2051906/data_euscreenXL_https___www_openbeelden_nl_media_97919" %}
 
@@ -49,7 +61,7 @@ The audio and video players above are marked up with `preload="none"`, so no aud
 
 ## Licensing
 
-Both audio and video examples carry an open licence, which is why they can be played from here. The audio recording is CC BY-SA and the video file is marked as public domain.
+All four recordings carry an open licence, which is why they can be played from here. The two Norwegian ones are CC BY and CC BY-SA, the European audio is CC BY-SA, and the European video is marked as public domain. The licence is read from the record each time the page loads, so it is the collection's statement and not a copy of it.
 
 ## How it works
 
