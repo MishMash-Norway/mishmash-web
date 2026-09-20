@@ -44,7 +44,7 @@
           width: 560, height: 315, title: 'The opening ceremony',
           src: 'https://www.youtube-nocookie.com/embed/' + VIDEO_ID + '?start=' + Math.floor(startAt) + '&autoplay=1&rel=0',
           allow: 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share',
-          referrerpolicy: 'no-referrer', allowfullscreen: '',
+          referrerpolicy: 'strict-origin', allowfullscreen: '',
         });
         player.textContent = '';
         player.appendChild(frame);

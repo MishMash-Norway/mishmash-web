@@ -12,7 +12,7 @@ Denne nettsiden bruker ikke informasjonskapsler. Så enkelt er det. Vi setter ik
 
 To slags innhold på disse sidene kommer fra andre, og begge fortjener en forklaring.
 
-Video lastes ikke før du ber om det. Der en side viser en video, ser du et stillbilde og en knapp. Ingenting når YouTube før du trykker, og spilleren som da dukker opp, lastes fra YouTubes no-cookie-domene.
+Video lastes ikke før du ber om det. Der en side viser en video, ser du et stillbilde og en knapp. Ingenting når YouTube før du trykker, og spilleren som da dukker opp, lastes fra YouTubes no-cookie-domene. Den får vite hvilket nettsted den spiller på, fordi den ellers nekter å spille, men ikke hvilken side.
 
 Miniatyrbildene ved siden av nyheter og arrangementer fra partnerinstitusjonene hentes fra institusjonenes egne tjenere. Det betyr at nettleseren din kontakter dem når siden åpnes, og at de kan se nettverksadressen din, slik ethvert nettsted du besøker kan. De får ikke vite hvilken av våre sider du leser. Vi vurderer å ta vare på kopier av bildene selv, slik at ingen forespørsel forlater dette nettstedet.
 
