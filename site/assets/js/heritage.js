@@ -200,7 +200,13 @@
 
   function firstLang(obj) {                    // {"no": [..], "def": [..]} or {"no": "..", "*": ".."}
     if (!obj) return '';
-    var keys = ['no', 'nb', 'nn', 'en', 'def', '*'];
+    /* A collection often holds the same label in several languages. Take the page's
+       own first, so an English page says "Extended Outline (Norway)" where the
+       Norwegian mirror says "Utvidet Outline". */
+    var page = (document.documentElement.lang || 'en').slice(0, 2).toLowerCase();
+    var keys = page === 'no' || page === 'nb' || page === 'nn'
+      ? ['no', 'nb', 'nn', 'en', 'def', '*']
+      : ['en', 'no', 'nb', 'nn', 'def', '*'];
     for (var i = 0; i < keys.length; i++) if (obj[keys[i]]) return Array.isArray(obj[keys[i]]) ? obj[keys[i]][0] : obj[keys[i]];
     var k = Object.keys(obj)[0]; return k ? (Array.isArray(obj[k]) ? obj[k][0] : obj[k]) : '';
   }
@@ -248,10 +254,24 @@
       var name = firstLang(e.caption) || uuid;
       if (!fig.dataset.caption) text(title, name);
       var desc = p['entity.description'] && p['entity.description'][0] ? firstLang(p['entity.description'][0].value) : '';
-      var kind = e.entityType || '';
+      var kind = firstLang(e.entityTypeName) || e.entityType || '';
       var dataset = p['entity.dataset'] && p['entity.dataset'][0] ? firstLang(p['entity.dataset'][0].displayValue) : '';
       var block = document.createElement('p'); block.className = 'mm-heritage-text';
-      block.textContent = (kind ? kind + '. ' : '') + (desc || '');
+      /* Most authority records carry no prose. What they do carry is a place in a
+         classification, which is the thing worth showing: the code, and the term
+         one step up. A bare entity type on its own says nothing. */
+      var code = p['entity.code'] && p['entity.code'][0] ? p['entity.code'][0].value : '';
+      var broader = p['concept.broader'] && p['concept.broader'][0] ? p['concept.broader'][0] : null;
+      if (desc) {
+        block.textContent = (kind ? kind + '. ' : '') + desc;
+      } else {
+        block.appendChild(document.createTextNode(kind + (code ? ' ' + code : '')));
+        if (broader) {
+          block.appendChild(document.createTextNode(', under '));
+          block.appendChild(link('https://kulturnav.org/' + broader.value, firstLang(broader.displayValue)));
+        }
+        block.appendChild(document.createTextNode('.'));
+      }
       media.appendChild(block);
       rights.textContent = (dataset ? dataset + ' · ' : '');
       rights.appendChild(link('https://kulturnav.org/' + uuid, 'KulturNav'));
