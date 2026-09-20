@@ -22,6 +22,17 @@
 
   function stripHtml(s) { var d = document.createElement('div'); d.innerHTML = s || ''; return d.textContent || ''; }
 
+  function node(tag, attrs, kids) {
+    var e = document.createElement(tag);
+    Object.keys(attrs || {}).forEach(function (k) {
+      if (k === 'class') e.className = attrs[k];
+      else if (k === 'text') e.textContent = attrs[k];
+      else if (attrs[k] != null) e.setAttribute(k, attrs[k]);
+    });
+    (kids || []).forEach(function (k) { if (k) e.appendChild(k); });
+    return e;
+  }
+
   function showImage(media, url, alt) {
     var img = document.createElement('img');
     img.src = url; img.alt = alt || ''; img.loading = 'lazy';
@@ -47,12 +58,67 @@
     media.appendChild(el);
   }
 
-  function showZoom(media, infoUrl, alt) {
-    if (!window.OpenSeadragon) { showImage(media, infoUrl.replace(/\/info\.json$/, '') + '/full/1200,/0/default.jpg', alt); return; }
+  /* A manuscript is not one picture. Mus.ms. 4213 is 1,373 of them, and a viewer
+     that shows only the first page is a viewer that hides the work. `pages` is
+     every image service in the manifest, in order; with one of them nothing
+     changes, and with more the reader gets a way through them. */
+  function showZoom(media, pages, alt) {
+    var urls = [].concat(pages);
+    var at = 0;
+    if (!window.OpenSeadragon) {
+      showImage(media, urls[0].replace(/\/info\.json$/, '') + '/full/1200,/0/default.jpg', alt);
+      if (urls.length > 1) media.appendChild(node('p', { class: 'mm-heritage-pages small muted',
+        text: 'Page 1 of ' + urls.length + '. Turning the pages needs JavaScript.' }));
+      return;
+    }
     var id = 'osd-' + Math.random().toString(36).slice(2);
-    var box = document.createElement('div'); box.id = id; box.className = 'mm-heritage-zoom'; box.setAttribute('role', 'img'); box.setAttribute('aria-label', alt || 'Zoomable image');
+    var box = document.createElement('div');
+    box.id = id; box.className = 'mm-heritage-zoom';
+    box.setAttribute('role', 'img');
+    box.setAttribute('aria-label', alt || 'Zoomable image');
     media.appendChild(box);
-    OpenSeadragon({ id: id, prefixUrl: OSD_PREFIX, tileSources: infoUrl, showNavigationControl: true, gestureSettingsMouse: { scrollToZoom: false }, crossOriginPolicy: 'Anonymous' });
+    var viewer = OpenSeadragon({ id: id, prefixUrl: OSD_PREFIX, tileSources: urls[0],
+                                 showNavigationControl: true, gestureSettingsMouse: { scrollToZoom: false },
+                                 crossOriginPolicy: 'Anonymous' });
+    if (urls.length < 2) return;
+
+    var field = node('input', { type: 'number', min: 1, max: urls.length, value: 1,
+                              class: 'mm-heritage-page-field', 'aria-label': 'Page number' });
+    var status = node('span', { class: 'mm-heritage-page-of', text: 'of ' + urls.length });
+    var back = node('button', { type: 'button', class: 'mm-heritage-page-btn', text: 'Previous page' });
+    var on = node('button', { type: 'button', class: 'mm-heritage-page-btn', text: 'Next page' });
+    var live = node('span', { class: 'sr-only', 'aria-live': 'polite' });
+
+    /* The collection's image server sends no caching headers, so the browser
+       re-fetches info.json every time a page is opened, including a page the
+       reader has just come back from. The tiles it does reuse. Holding the
+       parsed description here removes that one request per page turn. */
+    var described = {};
+    function describe(url) {
+      if (described[url]) return Promise.resolve(described[url]);
+      return fetch(url).then(function (r) { return r.json(); }).then(function (info) {
+        described[url] = info;
+        return info;
+      }).catch(function () { return url; });   // fall back to letting the viewer fetch it
+    }
+
+    function go(n) {
+      at = Math.max(0, Math.min(urls.length - 1, n));
+      describe(urls[at]).then(function (source) {
+        if (at === Math.max(0, Math.min(urls.length - 1, n))) viewer.open(source);
+      });
+      field.value = at + 1;
+      back.disabled = at === 0;
+      on.disabled = at === urls.length - 1;
+      box.setAttribute('aria-label', (alt || 'Page') + ', page ' + (at + 1) + ' of ' + urls.length);
+      live.textContent = 'Page ' + (at + 1) + ' of ' + urls.length;
+    }
+    back.addEventListener('click', function () { go(at - 1); });
+    on.addEventListener('click', function () { go(at + 1); });
+    field.addEventListener('change', function () { go((parseInt(field.value, 10) || 1) - 1); });
+
+    media.appendChild(node('p', { class: 'mm-heritage-pages' }, [back, field, status, on, live]));
+    go(0);
   }
 
   /* DigitaltMuseum names its museums by code (BOB, NMK-B). The list of 285
@@ -129,12 +195,21 @@
     return fetch('https://api.nb.no/catalog/v3/iiif/' + id + '/manifest').then(function (r) { return r.json(); }).then(function (m) {
       var label = stripHtml(firstValue(m.label));
       if (!fig.dataset.caption) text(title, label);
-      var service = null;
+      var services = [];
       try {
-        if (m.sequences) service = m.sequences[0].canvases[0].images[0].resource.service['@id'];
-        else if (m.items) { var s = m.items[0].items[0].items[0].body.service; service = (s[0].id || s[0]['@id']); }
+        if (m.sequences) {
+          m.sequences[0].canvases.forEach(function (c) {
+            var svc = c.images[0].resource.service;
+            if (svc) services.push((svc['@id'] || svc.id) + '/info.json');
+          });
+        } else if (m.items) {
+          m.items.forEach(function (c) {
+            var svc = c.items[0].items[0].body.service;
+            if (svc && svc[0]) services.push((svc[0].id || svc[0]['@id']) + '/info.json');
+          });
+        }
       } catch (e) {}
-      if (service) showZoom(media, service + '/info.json', label);
+      if (services.length) showZoom(media, services, label);
       /* The manifest states the terms as a paragraph of Norwegian and as an
          address. The address is the licence; the paragraph is what it means,
          and it belongs behind the link rather than in the line. */
@@ -299,7 +374,11 @@
       var media = fig.querySelector('.mm-heritage-media');
       var src = fig.dataset.source;
       var p = src === 'nb' ? loadNb(fig, fig.dataset.id) : src === 'europeana' ? loadEuropeana(fig, fig.dataset.id) : src === 'kulturnav' ? loadKulturnav(fig, fig.dataset.id) : loadDimu(fig, fig.dataset.id);
-      p.catch(function () {
+      p.catch(function (err) {
+        /* Say so in the console as well. A swallowed error here once left a
+           manuscript showing its first page and nothing else, and the page
+           looked fine. */
+        if (window.console) console.warn('heritage: ' + src + ' ' + fig.dataset.id + ' failed', err);
         text(fig.querySelector('.mm-heritage-title'), 'This object could not be loaded from the collection.');
       }).then(function () { media.removeAttribute('aria-busy'); });
     });

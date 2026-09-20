@@ -35,7 +35,9 @@ Several Norwegian collections publish their objects through open interfaces: the
 
 The National Library's music manuscripts are the one part of its collection that this page can show without asking anyone. 7,678 of the 11,150 are freely viewable, and every one sampled carries CC BY-NC-ND 4.0 and a IIIF image service, which is the same arrangement as the photograph at the top of this page. Among them are the folk music collections gathered from the 1840s on, 2,624 manuscripts from the six collectors the library lists: Lindeman, Crøger, Sande, Elling, Sandvik and Groven.
 
-This one is a set of tunes for the same instrument the objects above stand for.
+This one is a set of tunes for the same instrument the objects above stand for. It runs to 1,373 pages, so the viewer below turns them, and only the page you ask for is fetched, which is what makes a manuscript of this size cheap to put on a page at all.
+
+Turning a page costs one request for the page's description and then its tiles. The collection's image server sends no caching instructions at all, no `cache-control`, no `etag` and no `last-modified`, so a browser has nothing to decide freshness from and asks again every time. This page therefore keeps each description once it has it: going back to a page you have already seen now costs no description request, where before it cost one. The tiles are the collection's to control, and a `cache-control` header on their side would save them the traffic as much as it would save the reader the wait.
 
 {% include heritage.html source="nb" id="6c50cd90ef70546139b5b0d9101faaa8" %}
 

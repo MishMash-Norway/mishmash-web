@@ -1850,6 +1850,39 @@ video.mm-heritage-player {
   background: var(--mm-ink);
 }
 
+/* Turning the pages of a manuscript that runs to more than one. */
+.mm-heritage-pages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.4rem 0 0;
+  font-size: 0.92rem;
+}
+
+.mm-heritage-page-btn {
+  border: 1px solid var(--mm-ink);
+  border-radius: var(--mm-radius, 4px);
+  background: transparent;
+  padding: 0.2rem 0.6rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.mm-heritage-page-btn:hover:not(:disabled),
+.mm-heritage-page-btn:focus-visible { background: var(--mm-ink-5, #f4f3f3); }
+.mm-heritage-page-btn:disabled { opacity: 0.45; cursor: default; }
+
+.mm-heritage-page-field {
+  width: 5.5em;
+  padding: 0.2rem 0.3rem;
+  border: 1px solid var(--mm-ink);
+  border-radius: var(--mm-radius, 4px);
+  font: inherit;
+}
+
+.mm-heritage-page-of { color: var(--mm-ink-70); }
+
 .mm-heritage-caption {
   margin-top: 0.5rem;
   font-size: 0.92rem;
