@@ -1,0 +1,55 @@
+/* Two sounds from Freesound, convolved (/lab/sound-actions/). */
+.fs-pick { margin: 0 0 0.5rem; }
+.fs-pick label { font-family: var(--mm-font-display); font-weight: var(--mm-display-weight); }
+
+.fs-select {
+  max-width: 100%;
+  padding: 0.3rem 0.4rem;
+  border: 1px solid var(--mm-ink);
+  border-radius: 4px;
+  background: #ffffff;
+  font: inherit;
+}
+
+.fs-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.8rem 0 0.4rem; }
+
+.fs-btn {
+  border: 2px solid var(--mm-ink);
+  border-radius: var(--mm-radius, 8px);
+  background: transparent;
+  padding: 0.35rem 0.8rem;
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.fs-btn:hover, .fs-btn:focus-visible { background: var(--mm-ink-10, #e6e4ee); }
+
+.fs-status { margin: 0.2rem 0 0.6rem; min-height: 1.3em; }
+.fs-credits { margin: 0; padding-left: 1.2rem; }
+.fs-credits li { margin: 0.1rem 0; }
+
+.fs-list { margin: 0.6rem 0 0; padding-left: 1.2rem; }
+.fs-list li { margin: 0.2rem 0; }
+
+.mm-freesound { max-width: 100%; }
+
+.mm-freesound-embed { margin: 1rem 0; }
+
+.mm-embed-button {
+  display: block;
+  width: 100%;
+  max-width: 481px;
+  padding: 0.6rem 0.8rem;
+  border: 2px solid var(--mm-ink);
+  border-radius: var(--mm-radius, 8px);
+  background: var(--mm-ink-5, #f4f3f7);
+  font-family: var(--mm-font-display);
+  font-weight: var(--mm-display-weight);
+  text-align: left;
+  cursor: pointer;
+}
+
+.mm-embed-button:hover, .mm-embed-button:focus-visible { outline: 3px solid var(--mm-purple, #6c4bd9); outline-offset: 2px; }
+.mm-freesound-embed .small { display: block; margin-top: 0.3rem; }
