@@ -32,6 +32,8 @@ browser. Run tests/nb-media-access.mjs for that.
 
 Usage:
   python3 scripts/report_nb_media_access.py [--out report.json] [--sample 60]
+  python3 scripts/report_nb_media_access.py --rights
+  python3 scripts/report_nb_media_access.py --list-old-music early-music.csv
 """
 from __future__ import annotations
 
@@ -182,13 +184,69 @@ def rights_report(bands: int = 24) -> dict:
     return report
 
 
+def _row(item: dict) -> dict:
+    meta = item.get("metadata", {})
+    access = item.get("accessInfo", {})
+    origin = meta.get("originInfo") or {}
+    return {
+        "id": item.get("id"),
+        "year": str(origin.get("created") or origin.get("issued") or "")[:4],
+        "title": meta.get("title"),
+        "urn": (meta.get("identifiers") or {}).get("urn"),
+        "digital": access.get("isDigital"),
+        "license": access.get("license"),
+        "isPublicDomain": access.get("isPublicDomain"),
+        "contentClasses": ";".join(meta.get("contentClasses") or []),
+        "item_page": f"https://www.nb.no/items/{item.get('id')}",
+    }
+
+
+def list_old_music(out_path: str, upper: int = 1930) -> int:
+    """Write every music record dated before `upper`, as a CSV somebody can act on.
+
+    The offer to the collection is that they do not have to find these themselves.
+    Columns are what the catalogue holds: the identifier, the year, the title, the
+    URN, and what the rights fields currently say.
+    """
+    import csv
+
+    # One year at a time. The catalogue stops paging a few thousand results in, so a
+    # single query for four decades returns less than half of what it counts.
+    rows = []
+    for year in range(1890, upper):
+        band = quote(f"year:[{year} TO {year}]", safe=":[]")
+        page = 0
+        while True:
+            data = get(f"{API}?filter=mediatype:musikk&filter={band}&size=50&page={page}")
+            if not data:
+                break
+            batch = data.get("_embedded", {}).get("items", [])
+            if not batch:
+                break
+            rows += [_row(item) for item in batch]
+            page += 1
+        print(f"  {year}: {len(rows)} records so far")
+    with open(out_path, "w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()) if rows else ["id"])
+        writer.writeheader()
+        writer.writerows(rows)
+    digital = sum(1 for r in rows if r["digital"])
+    print(f"{len(rows)} music records before {upper}, {digital} of them digitised -> {out_path}")
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--out", help="write the report as JSON to this path")
     parser.add_argument("--sample", type=int, default=60, help="public items to sample")
     parser.add_argument("--rights", action="store_true",
                         help="ask whether any recording is ever marked out of copyright")
+    parser.add_argument("--list-old-music", metavar="CSV",
+                        help="write every music record dated before 1930 to this CSV")
     args = parser.parse_args()
+
+    if args.list_old_music:
+        return list_old_music(args.list_old_music)
 
     if args.rights:
         result = rights_report()
