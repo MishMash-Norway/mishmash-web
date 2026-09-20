@@ -17,7 +17,7 @@
   {% if lab.data or lab.ai %}
   <dl class="mm-lab-notes">
     {% if lab.data %}<div><dt>{{ t.lab_data }}</dt><dd>{{ lab.data }}</dd></div>{% endif %}
-    {% if lab.ai %}<div><dt>{{ t.lab_ai }}</dt><dd>{{ lab.ai }}</dd></div>{% endif %}
+    {% if lab.ai %}<div><dt>{{ t.lab_ai }}</dt><dd>{{ lab.ai }} <a href="{{ t.lab_colophon_url | relative_url }}">{{ t.lab_colophon }}</a>.</dd></div>{% endif %}
   </dl>
   {% endif %}
 </aside>

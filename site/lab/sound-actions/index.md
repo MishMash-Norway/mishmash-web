@@ -24,6 +24,14 @@ The recordings are from the SoundActions dataset, made by Alexander Refsum Jense
 <script type="application/json" id="freesound-data">{{ site.data.freesound | jsonify }}</script>
 <script defer src="{{ '/assets/js/freesound-morph.js' | relative_url }}"></script>
 
+## What the waveforms show
+
+Each sound is drawn as a waveform before it is fetched. The drawing comes from 128 peak values measured once when the list was built, not from the sound file, so the page can show what a recording looks like without asking Freesound for it. A peak rather than an average, because these are transients: the interesting part of a cork leaving a bottle lasts about 20 milliseconds, and an average would flatten it away.
+
+Press play and the waveform inks in from the left as the sound passes. Once a sound has been fetched the drawing is redone from the audio itself, which is the same calculation on the real thing rather than on the stored summary.
+
+The third waveform is the convolution. It has no stored shape, because it does not exist until the browser makes it.
+
 ## What convolution does
 
 Convolution takes every moment of one sound and sets the other sound ringing at that moment. It is how reverberation is simulated: record a handclap in a hall, convolve dry music with that recording, and the music sounds as if it were played in the hall.
@@ -42,7 +50,7 @@ The piece above takes the other route entirely: the page holds only the address 
 
 ## Privacy
 
-Nothing reaches Freesound from this page until you press a button, and that includes the embedded player. Freesound then sees the request for the sound file, as any site serving a file does. Loading their player also loads Google Fonts, which is their choice rather than ours and another reason for the press.
+Nothing reaches Freesound from this page until you press a button, and that includes the embedded player and the waveforms, which are drawn from numbers held here. Freesound then sees the request for the sound file, as any site serving a file does. Loading their player also loads Google Fonts, which is their choice rather than ours and another reason for the press.
 
 ## Licensing
 
@@ -50,6 +58,6 @@ All fifteen recordings are published under [CC BY 4.0](https://creativecommons.o
 
 ## How it works
 
-`scripts/sync_freesound.py` collects the title, author, licence, tags and preview address of each sound from Freesound's public pages, with no API key, into `site/_data/freesound.yml`. The page renders that list into the markup, and the script fetches a sound only when asked, decodes it with the Web Audio API, and renders the convolution offline before playing it, so the result can be levelled first. There is no audio library.
+`scripts/sync_freesound.py` collects the title, author, licence, tags and preview address of each sound from Freesound's public pages, with no API key, into `site/_data/freesound.yml`. It also decodes each preview once with ffmpeg and stores 128 peaks and a duration, which is what the waveforms are drawn from. The 15 shapes add 5.3 kB to the page, 2.1 kB of it over the wire once compressed, and save the page from fetching 15 sound files to show the same thing. The page renders that list into the markup, and the script fetches a sound only when asked, decodes it with the Web Audio API, and renders the convolution offline before playing it, so the result can be levelled first. There is no audio library.
 
 A Freesound API key would give this more: the sounds of a MishMash pack rather than one account, the licence straight from the source, and the analysis Freesound already holds for every sound. That is the rest of [issue #47](https://github.com/MishMash-Norway/mishmash-web/issues/47).

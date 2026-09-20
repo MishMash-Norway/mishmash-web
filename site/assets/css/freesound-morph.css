@@ -53,3 +53,21 @@
 
 .mm-embed-button:hover, .mm-embed-button:focus-visible { outline: 3px solid var(--mm-purple, #6c4bd9); outline-offset: 2px; }
 .mm-freesound-embed .small { display: block; margin-top: 0.3rem; }
+
+/* The waveform of a sound. The height is fixed so the drawing does not jump when a
+   sound is replaced by one of a different length; the width follows the column. */
+.fs-wave {
+  display: block;
+  width: 100%;
+  height: 64px;
+  margin: 0 0 0.8rem;
+  background: var(--mm-purple-tint, #f0eef9);
+  border: 1px solid var(--mm-ink-15, #dedcdc);
+}
+
+.fs-wave-label { margin: 0.6rem 0 0.2rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  /* The moving edge is the only motion here, and it is the point of it. */
+  .fs-wave { transition: none; }
+}
