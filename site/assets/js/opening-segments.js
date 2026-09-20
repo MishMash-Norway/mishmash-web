@@ -26,6 +26,41 @@
   }
   var pct = function (v) { return (v * 100).toFixed(3) + '%'; };
 
+
+  /* One measured track, drawn on the same 0 to 1000 axis as every other row, so a
+     bump in the motion curve sits directly under the part it happened in. Gaps in
+     the measurement break the line rather than being drawn through. */
+  function curveLane(curve, hop, dur) {
+    var lo = curve.range[0], hi = curve.range[1], span = (hi - lo) || 1;
+    var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('class', 'oc-curve');
+    svg.setAttribute('viewBox', '0 0 1000 44');
+    svg.setAttribute('preserveAspectRatio', 'none');
+    svg.setAttribute('aria-hidden', 'true');
+    var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    var last = (curve.values.length - 1) || 1;
+    var d = '', open = false;
+    curve.values.forEach(function (v, i) {
+      if (v === null) { open = false; return; }
+      var x = (i / last) * 1000;
+      var y = 42 - ((v - lo) / span) * 40;
+      d += (open ? 'L' : 'M') + x.toFixed(1) + ' ' + y.toFixed(1) + ' ';
+      open = true;
+    });
+    path.setAttribute('d', d.trim());
+    path.setAttribute('fill', 'none');
+    path.setAttribute('stroke', 'currentColor');
+    path.setAttribute('stroke-width', '1');
+    svg.appendChild(path);
+    return el('div', { class: 'oc-lane' }, [
+      el('p', { class: 'oc-lane-head small' }, [
+        el('span', { class: 'oc-lane-name', text: curve.label + (curve.unit ? ' (' + curve.unit + ')' : '') }),
+        el('span', { class: 'muted', text: lo + ' to ' + hi + ', ' + curve.reduced_by + ' of each ' + hop + ' s' }),
+      ]),
+      svg,
+    ]);
+  }
+
   function build(root, data) {
     var dur = data.video.duration;
     var player = el('div', { class: 'oc-player' });
@@ -175,6 +210,17 @@
       checks,
     ]);
 
+    var hop = data.curve_hop_s || 10;
+    var curveBox = el('div', { class: 'oc-lanes' }, (data.curves || []).map(function (c) {
+      return curveLane(c, hop, dur);
+    }));
+    if (data.curves && data.curves.length) {
+      curveBox.appendChild(el('p', { class: 'small muted', text: 'Every curve runs the whole ' + hms(dur) + ' on the same axis as the bands above, one point per ' + hop + ' seconds. A curve is a shape, not a reading: the numbers beside each name are the range it covers, and the analysis file holds the values.' }));
+    }
+    if (data.curves_empty && data.curves_empty.labels.length) {
+      curveBox.appendChild(el('p', { class: 'small muted', text: data.curves_empty.labels.join(' and ') + ' are not drawn. ' + data.curves_empty.why }));
+    }
+
     var tracks = el('ul', { class: 'oc-tracks' }, (data.research.tracks || []).map(function (tr) {
       return el('li', { text: tr.label + (tr.unit ? ' (' + tr.unit + ')' : '') + ' · ' + tr.kind + (tr.source ? ' · ' + tr.source : '') });
     }));
@@ -194,6 +240,7 @@
       el('h3', { text: 'The recording as pictures', class: 'oc-box-h' }),
       pics,
       el('h3', { text: 'Measured through the recording', class: 'oc-box-h' }),
+      curveBox,
       tracks,
       el('h3', { text: 'Marked on the recording', class: 'oc-box-h' }),
       tiers,

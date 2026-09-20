@@ -53,6 +53,18 @@ One caveat is worth keeping. This worked because the hall labels its acts on scr
 
 The programme on the event page was not the order the evening ran in. It listed both panels at the end, while the first panel came fourth, straight after the opening contributions, and a percussion piece closed. The pipeline takes the act named at each boundary, on the card and in the transcript, rather than the printed order. The [event page](/events/aulaen2026/) now gives the order as it happened.
 
+## What else was measured
+
+The timeline above is a selection. The advanced view under it holds the rest: three strips that squeeze the whole evening into a picture, and ten curves running the same axis, one point per ten seconds. They are the pipeline's raw material, and they are there to be looked at rather than read off, since none of them carries a scale.
+
+The curves say things the bands do not. Spectral flatness separates the kinds of sound cleanly: 0.043 through the applause, 0.024 through the talk, 0.011 through the music, which is the measure doing exactly what it is for. Quantity of motion is near zero through both panels, 0.028 and 0.040, and highest in the fiddle piece at 0.459 and the closing percussion at 0.332. Most of the other parts sit near the panels, between 0.020 and 0.060, so the curve separates two acts from the rest of the evening rather than performance from talk.
+
+Reading a curve back to a named act is where this gets delicate, since the two swapped names above belong to parts these numbers are attached to. The numbers are the parts; the names are a claim about the parts.
+
+Those figures come from `scripts/build_opening_analysis.py --report`, which prints them per part and per kind of sound.
+
+Two of them are not drawn. The codec motion vectors came back empty for this recording: the reader takes them from P-frames, and the file is AV1, which it cannot read. The frame-based quantity of motion measures the same thing a different way and is plotted instead.
+
 ## What is still wrong
 
 Two names are swapped, the rector and the first performance, because their cards come up while the previous act is still finishing. The voices are clusters, not people: the colours in the speaker row mean "this sounds like the same person", not "this is the rector". Naming them is a human act, and on this page nobody has done it.

@@ -80,3 +80,27 @@
   .oc-fact { display: block; }
   .oc-fact dt { margin-bottom: 0.1rem; }
 }
+
+/* A measured track, drawn on the same axis as the rows above it. */
+.oc-lanes { margin: 0.4rem 0 0.8rem; }
+
+.oc-lane { margin: 0 0 0.7rem; }
+
+.oc-lane-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.4rem;
+  margin: 0 0 0.15rem;
+}
+
+.oc-lane-name { font-weight: 600; }
+
+.oc-curve {
+  display: block;
+  width: 100%;
+  height: 44px;
+  color: var(--mm-ink, #231f20);
+  background: var(--mm-ink-5, #f4f3f3);
+  border: 1px solid var(--mm-ink-15, #dedcdc);
+}
