@@ -363,6 +363,8 @@ institutions:
           url: https://ai.nb.no/
   norwegian-museum-of-cultural-history:
     category: no-cultural-institution
+  national-museum-of-norway:
+    category: no-cultural-institution
   norges-musikkmuseum:
     category: no-cultural-institution
   notam-norwegian-centre-for-technology-art-and-music:
@@ -379,7 +381,7 @@ institutions:
     category: no-cultural-institution
 
   # Norwegian research institutes
-  sintef-digital:
+  sintef:
     category: no-research-institute
   simula-metropolitan-center-for-digital-engineering:
     category: no-research-institute
@@ -405,3 +407,7 @@ institutions:
     category: no-company
   reimagine:
     category: no-company
+
+  # Norwegian foundations
+  skapia:
+    category: no-cultural-institution

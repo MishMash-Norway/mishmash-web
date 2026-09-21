@@ -3902,8 +3902,8 @@ results:
     slug: barratt-due-institute-of-music
     url: /institutions/barratt-due-institute-of-music/
   - name: SINTEF Digital
-    slug: sintef-digital
-    url: /institutions/sintef-digital/
+    slug: sintef
+    url: /institutions/sintef/
   citation:
     authors:
     - display: Malthe-Sørenssen, Anders
@@ -6776,8 +6776,8 @@ results:
     url: /people/viggo-tellefsen-wivestad/
   institutions:
   - name: SINTEF Digital
-    slug: sintef-digital
-    url: /institutions/sintef-digital/
+    slug: sintef
+    url: /institutions/sintef/
   citation:
     authors: []
     title: The Great Human Filter - The Age of Evaluation (album)

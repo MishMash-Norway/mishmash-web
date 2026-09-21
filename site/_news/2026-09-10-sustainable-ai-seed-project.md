@@ -8,7 +8,7 @@ description: "Findings from the seed funding project on environmental sustainabi
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg
 ---
 
-*This post presents the main findings of the seed funding project [Environmental Sustainability in MishMash](/projects/environmental-sustainability-mishmash/), led by Lina Plataniti ([NORSUS](/institutions/norsus-norwegian-institute-for-sustainability-research/)) in collaboration with [SINTEF Digital](/institutions/sintef-digital/). Lina will present the work at poster 38 during the [MishMash opening conference](/events/kristiansand2026/) in Kristiansand on 14–15 September.*
+*This post presents the main findings of the seed funding project [Environmental Sustainability in MishMash](/projects/environmental-sustainability-mishmash/), led by Lina Plataniti ([NORSUS](/institutions/norsus-norwegian-institute-for-sustainability-research/)) in collaboration with [SINTEF Digital](/institutions/sintef/). Lina will present the work at poster 38 during the [MishMash opening conference](/events/kristiansand2026/) in Kristiansand on 14–15 September.*
 
 ## Sustainable use of AI in MishMash: the beginning
 

@@ -38,6 +38,8 @@ urls:
   brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/974767880
 aliases:
 - Norges teknisk-naturvitenskapelige universitet
+- NTNU
+- NTNU ARTEC
 tags: []
 search_keywords: []
 source_mentions:

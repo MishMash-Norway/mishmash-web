@@ -28,6 +28,7 @@ urls:
   brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/971567376
 aliases:
 - Østfold University of Applied Sciences
+- Høgskolen i Østfold
 tags: []
 search_keywords: []
 source_mentions:

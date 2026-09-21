@@ -20,7 +20,7 @@ people:
 - viggo-tellefsen-wivestad
 institutions:
 - norwegian-university-of-science-and-technology
-- sintef-digital
+- sintef
 - super-ponni
 projects: []
 ---
@@ -39,4 +39,4 @@ Primary WP: [WP5](/wp5/)
 - Participants: [Audun Kvitland Røstad](/people/audun-kvitland-rostad/), [Tor Martin Norvik](/people/tor-martin-norvik/), [Øystein Eugene Hermstad](/people/oystein-eugene-hermstad/)
 
 ## Institutions
-- [SINTEF Digital](/institutions/sintef-digital/)
+- [SINTEF Digital](/institutions/sintef/)

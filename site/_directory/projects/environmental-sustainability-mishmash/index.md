@@ -21,7 +21,7 @@ people:
 - sagar-sen
 institutions:
 - norsus-norwegian-institute-for-sustainability-research
-- sintef-digital
+- sintef
 projects: []
 ---
 
@@ -40,7 +40,7 @@ Primary WP: [WP5](/wp5/)
 
 ## Institutions
 - [NORSUS - Norwegian Institute for Sustainability Research](/institutions/norsus-norwegian-institute-for-sustainability-research/)
-- [SINTEF Digital](/institutions/sintef-digital/)
+- [SINTEF Digital](/institutions/sintef/)
 
 ## Output
 - News post: [Sustainable use of AI in MishMash: workshop highlights and call for collaboration](/news/sustainable-ai-seed-project/) (10 September 2026)

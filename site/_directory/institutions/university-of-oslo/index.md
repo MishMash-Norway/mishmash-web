@@ -41,6 +41,7 @@ people:
 - ola-lomo-ellingsen
 - ole-andreas-rognstad
 - olivier-lartillot
+- pal-halvorsen
 - pedro-lucas
 - peter-edwards
 - ragnhild-brovig

@@ -20,7 +20,8 @@ urls:
   website: https://www.ultima.no/en/
   wikipedia: https://en.wikipedia.org/wiki/Ultima_Oslo_Contemporary_Music_Festival
   wikidata: https://www.wikidata.org/wiki/Q7880100
-aliases: []
+aliases:
+- Ultima Oslo Contemporary Music Festival
 tags: []
 search_keywords: []
 source_mentions: []

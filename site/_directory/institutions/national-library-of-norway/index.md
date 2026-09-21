@@ -32,6 +32,7 @@ urls:
   brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/976029100
 aliases:
 - The National Library of Norway
+- Nasjonalbiblioteket
 tags: []
 search_keywords: []
 source_mentions:
