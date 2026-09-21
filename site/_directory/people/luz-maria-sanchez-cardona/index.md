@@ -31,28 +31,28 @@ aliases: []
 tags:
 - Sound Art
 - Digital Poetry
-- Artificial Inteligence
-- Art Education
+- Artificial inteligence
+- art education
 - Participatory Art
-- Digital Divide
-- Electronic Literature
+- Digital divide
+- Electronic literature
 - Art and Ecology
-- Ny Mediekunst
-- Digital Ethnography
-- Art in Public Space
+- Ny mediekunst
+- Digital ethnography
+- Art in public space
 - Visual Art
 search_keywords:
 - Sound Art
 - Digital Poetry
-- Artificial Inteligence
-- Art Education
+- Artificial inteligence
+- art education
 - Participatory Art
-- Digital Divide
-- Electronic Literature
+- Digital divide
+- Electronic literature
 - Art and Ecology
-- Ny Mediekunst
-- Digital Ethnography
-- Art in Public Space
+- Ny mediekunst
+- Digital ethnography
+- Art in public space
 - Visual Art
 selected_works:
 - title: Uten Filter

@@ -10,6 +10,13 @@ institutions:
 - university-of-oslo
 projects: []
 other_projects:
+- title: '(ROBOWELL) ROBOts as Welfare Technologies and Actors for ELderLy Care: A
+    Nordic Model for Integration of Advanced Assistive Technologies'
+  url: https://nva.sikt.no/projects/2752696
+  nva_id: '2752696'
+- title: Predictive and Intuitive Robot Companion (PIRC)
+  url: https://nva.sikt.no/projects/2747768
+  nva_id: '2747768'
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
@@ -29,6 +36,27 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: A Cross-Cultural Video-Based Study between Norway and Japan on Informed Consent
+    and Disclosure Mechanisms on the Use of Social Robots in Public and Private Spaces
+    - Users' Perspectives
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Diana Saplacan Lindblom
+    role: Creator
+  - name: Yueh-Hsuan Weng
+    role: Creator
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+  - name: Adel Baselizadeh
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: 'Human-Swarm Interactive Music Systems: Exploring Collaborative Sonic Creation
     Between Humans and Autonomous Agents'
   year: '2026'
@@ -237,19 +265,6 @@ selected_works:
     role: Creator
     slug: pedro-lucas
     url: /people/pedro-lucas/
-- title: A Granular Synthesis Strategy Based on Musical Harmony Theory Through a Fuzzy
-    Logic Approach
-  year: '2019'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1109/LA-CCI47412.2019.9036760
-  contributors:
-  - name: Pedro Pablo Lucas Bravo
-    role: Creator
-    slug: pedro-lucas
-    url: /people/pedro-lucas/
-  - name: Enrique Peláez
-    role: Creator
 source_mentions: []
 summary: His doctoral work is supervised by Professor Kyrre Glette and Professor Stefano
   Fasciani.

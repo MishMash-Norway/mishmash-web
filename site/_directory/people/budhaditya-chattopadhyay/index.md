@@ -27,26 +27,26 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Sound Analysis /Synthesis
+- Sound analysis /synthesis
 - Sound Art
 - Multimedia
 - Aesthetics
-- Sound/Music Installations
+- Sound/music installations
 - Media Studies
 - Film Sound
-- Artistic Research
-- Artificial Intelligence
+- Artistic research
+- Artificial intelligence
 - Film Studies
 search_keywords:
-- Sound Analysis /Synthesis
+- Sound analysis /synthesis
 - Sound Art
 - Multimedia
 - Aesthetics
-- Sound/Music Installations
+- Sound/music installations
 - Media Studies
 - Film Sound
-- Artistic Research
-- Artificial Intelligence
+- Artistic research
+- Artificial intelligence
 - Film Studies
 selected_works:
 - title: Land without Food

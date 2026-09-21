@@ -49,31 +49,31 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q47281555
 aliases: []
 tags:
-- Creative Music Education
-- Construction of Musical Instruments
+- Creative music education
+- Construction of musical instruments
 - Sound Art
-- Sound/Music in New Media
-- Music and Health
-- Sound Sculpture
+- Sound/music in new media
+- Music and health
+- Sound sculpture
 - Human Interface Devices
 - Musicology
-- Systematic Musicology
-- Artificial Intelligence
+- Systematic musicology
+- Artificial intelligence
 - Music Technology
-- Sound Analysis /Synthesis
+- Sound analysis /synthesis
 search_keywords:
-- Creative Music Education
-- Construction of Musical Instruments
+- Creative music education
+- Construction of musical instruments
 - Sound Art
-- Sound/Music in New Media
-- Music and Health
-- Sound Sculpture
+- Sound/music in new media
+- Music and health
+- Sound sculpture
 - Human Interface Devices
 - Musicology
-- Systematic Musicology
-- Artificial Intelligence
+- Systematic musicology
+- Artificial intelligence
 - Music Technology
-- Sound Analysis /Synthesis
+- Sound analysis /synthesis
 selected_works:
 - title: 'musicalgestures: A Python toolbox for visualising and analysing music-related
     video recordings'

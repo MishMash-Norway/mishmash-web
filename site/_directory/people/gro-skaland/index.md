@@ -4,7 +4,7 @@ slug: gro-skaland
 name: Gro Skåland
 title: Gro Skåland
 position: Associate professor
-department: School of Health Sciences
+department: Department of Psychology, Pedagogy and Law
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college

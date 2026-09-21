@@ -4,7 +4,7 @@ slug: morten-h-forsberg
 name: Morten H. Forsberg
 title: Morten H. Forsberg
 position: University college instructor/student teacher
-department: School of Arts, Design, and Media
+department: Department of Performing Arts, Film and Media
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college

@@ -33,27 +33,27 @@ urls:
 aliases: []
 tags:
 - Popular Music Studies
-- Audio Engineering
-- Popular Musicology
+- Audio engineering
+- Popular musicology
 - Musicology
-- Artificial Intelligence
+- Artificial intelligence
 - Music Technology
-- Musical Instruments
+- Musical instruments
 - Drums
-- Music Production
+- Music production
 - Music Analysis
 - Sound
 - Music
 search_keywords:
 - Popular Music Studies
-- Audio Engineering
-- Popular Musicology
+- Audio engineering
+- Popular musicology
 - Musicology
-- Artificial Intelligence
+- Artificial intelligence
 - Music Technology
-- Musical Instruments
+- Musical instruments
 - Drums
-- Music Production
+- Music production
 - Music Analysis
 - Sound
 - Music

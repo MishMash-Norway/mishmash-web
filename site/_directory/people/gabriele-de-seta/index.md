@@ -42,10 +42,10 @@ tags:
 - Creativity
 - Sociology
 - Generative Adversarial Networks
-- Everyday Life
-- Qualitative Research
-- Digital Ethnography
-- Artificial Intelligence
+- Everyday life
+- Qualitative research
+- Digital ethnography
+- Artificial intelligence
 search_keywords:
 - Anthropology
 - Ethnography
@@ -54,10 +54,10 @@ search_keywords:
 - Creativity
 - Sociology
 - Generative Adversarial Networks
-- Everyday Life
-- Qualitative Research
-- Digital Ethnography
-- Artificial Intelligence
+- Everyday life
+- Qualitative research
+- Digital ethnography
+- Artificial intelligence
 selected_works:
 - title: Four theses on algorithmic folklore
   year: '2026'

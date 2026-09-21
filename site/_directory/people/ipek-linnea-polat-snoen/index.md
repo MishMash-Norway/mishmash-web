@@ -5,9 +5,10 @@ name: Ipek Linnea Polat-Snoen
 title: Ipek Linnea Polat-Snoen
 position: Doctoral fellow
 department: Department of Information Technology, Research group WAVES
-institution: ghent-university
+institution: sintef
 institutions:
 - ghent-university
+- sintef
 projects: []
 roles:
 - Member

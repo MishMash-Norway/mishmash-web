@@ -13,7 +13,7 @@ projects:
 roles:
 - Member
 urls:
-  personal_website: ''
+  personal_website: https://research.manchester.ac.uk/en/persons/f9b854f5-21cf-47bd-b9c8-fbb4fd1671e8
   institutional_website: ''
   github: ''
   linkedin: ''
@@ -25,22 +25,33 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q58174134
 aliases: []
 tags:
-- Behavioural Science
-- Social Science
+- Behavioural science
+- Social science
 - Economics
 - Psychology
 search_keywords:
-- Behavioural Science
-- Social Science
+- Behavioural science
+- Social science
 - Economics
 - Psychology
 selected_works:
+- title: 'Emotion regulation in episodic strategy interventions: The case of organizational
+    foresight'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1016/j.futures.2026.103920
 - title: 'The practitioner–researcher divide in Industrial, Work, and Organizational
     (IWO) psychology: Reflections on progress and the challenges ahead'
   year: '2026'
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1111/joop.70117
+- title: 'Minimum Viable Policies: Where, When, and How to Use Them'
+  year: '2026'
+  source: Preprint
+  group_type: Preprint
+  url: https://doi.org/10.2139/ssrn.7026238
 - title: Behavioral strategy
   year: '2025'
   source: Book chapter
@@ -78,17 +89,6 @@ selected_works:
   source: Book chapter
   group_type: Book chapter
   url: https://research.manchester.ac.uk/en/publications/397428dc-056b-4576-b31a-3562c82b2235
-- title: Publishing at the interfaces of psychology and strategic management
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://research.manchester.ac.uk/en/publications/2c1336cc-e125-4e6c-8ad8-fdc2951b1003
-- title: 'ADDRESSING THE CRISES OF MODERN-DAY CAPITALISM THROUGH RESPONSIBLE MANAGEMENT:
-    A CALL FOR MULTIDOMAIN MICROFOUNDATIONS RESEARCH'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://publons.com/wos-op/publon/74616141/
 source_mentions: []
 summary: ''
 layout: person

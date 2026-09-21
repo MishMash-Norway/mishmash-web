@@ -15,7 +15,7 @@ roles:
 - Member
 urls:
   personal_website: https://uit.no/research/wona
-  institutional_website: ''
+  institutional_website: https://www.kristiania.no/en/research/research-groups/AIEcologies/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-4877-0181

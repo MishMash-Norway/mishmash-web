@@ -24,14 +24,14 @@ urls:
   instagram: https://www.instagram.com/richardgjems
 aliases: []
 tags:
-- Digital Library
+- Digital libary
 - Cultural History
-- Archives
+- Archive
 - Library Science
 search_keywords:
-- Digital Library
+- Digital libary
 - Cultural History
-- Archives
+- Archive
 - Library Science
 selected_works:
 - title: Bekken, Gjems & Berg - De Små Scener, Kongsvinger

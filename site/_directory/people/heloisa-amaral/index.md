@@ -6,7 +6,7 @@ title: Heloisa Amaral
 position: Lecturer in curatorial practices "With and beyond music" / Part of docARTES
   curriculum
 department: ''
-institution: ''
+institution: ultima-festival
 institutions:
 - ultima-festival
 projects:

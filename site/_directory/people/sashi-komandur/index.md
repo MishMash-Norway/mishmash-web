@@ -30,31 +30,31 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Human Computer Interaction
-- Simulator Training
-- Applied Statistics
-- Eye-Tracking
+- Human computer interaction
+- Simulator training
+- Applied statistics
+- Eye-tracking
 - Cognitive Ergonomics
 - Ergonomics
 - Human Factors
 - Training Assessment
 - Physical Ergonomics
 - Maritime Human Factors
-- Interaction Design
-- Artificial Intelligence
+- Interaction design
+- Artificial intelligence
 search_keywords:
-- Human Computer Interaction
-- Simulator Training
-- Applied Statistics
-- Eye-Tracking
+- Human computer interaction
+- Simulator training
+- Applied statistics
+- Eye-tracking
 - Cognitive Ergonomics
 - Ergonomics
 - Human Factors
 - Training Assessment
 - Physical Ergonomics
 - Maritime Human Factors
-- Interaction Design
-- Artificial Intelligence
+- Interaction design
+- Artificial intelligence
 selected_works:
 - title: Efficacy of Using Large Language Model (LLM) Based Tools for Synthesizing
     Findings from Human Factors Research Studies.

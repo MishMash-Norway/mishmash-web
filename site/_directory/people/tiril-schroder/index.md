@@ -141,7 +141,11 @@ selected_works:
     slug: tiril-schroder
     url: /people/tiril-schroder/
 source_mentions: []
-summary: ''
+summary: "Education:\n1996-98: Royal Danish Academy of Fine Arts, Department of Theory,\
+  \ (can.phil in art theory) Copenhagen,  Denmark\n1992-96: Oslo National Academy\
+  \ of Fine Arts, Oslo, Norway\n1991-92: Hochschüle für Bildende Künste, Hamburg,\
+  \ Germany\n\nTeaching: \n2011-currently: Professor of Drawing (Printmaking, Art\
+  \ and Craft dep), Oslo National Academy of the Arts (KHIO)"
 description: Professor, Art and Craft, Oslo National Academy of the Arts
 wps:
 - WP2

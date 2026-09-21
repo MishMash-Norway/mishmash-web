@@ -15,7 +15,7 @@ urls:
   personal_website: https://scholar.google.com/citations?user=hZ6VUu8AAAAJ&hl=en&oi=ao
   institutional_website: ''
   github: ''
-  linkedin: ''
+  linkedin: https://no.linkedin.com/in/mohamed-bachir-belaid-02ab17aa
   orcid: https://orcid.org/0000-0002-8686-8489
   nva: ''
   youtube: ''

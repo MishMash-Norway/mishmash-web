@@ -19,7 +19,7 @@ nva_affiliations:
   unit: Faculty of Film, TV and Games
   institution: university-of-inland-norway
 - role: Senior lecturer
-  unit: School of Arts, Design, and Media
+  unit: Department of Performing Arts, Film and Media
   institution: kristiania-university-college
 projects:
 - picturemarks
@@ -39,11 +39,13 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q136987663
 aliases: []
 tags:
-- Human Computer Interaction
+- Human-Computer Interaction
+- Human computer interaction
 - User Experience
 - Human Engaged Computing
 search_keywords:
-- Human Computer Interaction
+- Human-Computer Interaction
+- Human computer interaction
 - User Experience
 - Human Engaged Computing
 selected_works:

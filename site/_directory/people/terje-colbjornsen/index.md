@@ -18,7 +18,7 @@ urls:
   personal_website: https://www.bi.no/om-bi/ansatte/institutt-for-kommunikasjon-og-kultur/terje-colbjornsen/
   institutional_website: ''
   github: ''
-  linkedin: ''
+  linkedin: https://www.linkedin.com/in/terje-colbj%C3%B8rnsen-a7a47116/
   orcid: https://orcid.org/0000-0001-5849-2851
   nva: https://nva.sikt.no/research-profile/15015
   youtube: ''

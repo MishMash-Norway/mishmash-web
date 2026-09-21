@@ -5,8 +5,9 @@ name: Tord Nilsen
 title: Tord Nilsen
 position: Senior advisor
 department: null
-institution: null
-institutions: []
+institution: national-museum-of-norway
+institutions:
+- national-museum-of-norway
 projects: []
 roles:
 - Member

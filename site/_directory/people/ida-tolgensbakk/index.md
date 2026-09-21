@@ -35,14 +35,14 @@ aliases: []
 tags:
 - Migration
 - Digital Culture
-- Food Culture
-- Digital Humanities
+- Food culture
+- Digital humanities
 - Tradition
 search_keywords:
 - Migration
 - Digital Culture
-- Food Culture
-- Digital Humanities
+- Food culture
+- Digital humanities
 - Tradition
 selected_works:
 - title: 'Liv Emma Thorsen I alle vinduer: Potteplantenes kulturhistorie i Norge'

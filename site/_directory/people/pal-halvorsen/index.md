@@ -5,9 +5,10 @@ name: Pål Halvorsen
 title: Pål Halvorsen
 position: Chief research scientist
 department: null
-institution: forzasys
+institution: university-of-oslo
 institutions:
 - forzasys
+- university-of-oslo
 projects: []
 roles:
 - Member

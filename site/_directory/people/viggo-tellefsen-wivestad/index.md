@@ -5,9 +5,9 @@ name: Viggo Tellefsen Wivestad
 title: Viggo Tellefsen Wivestad
 position: Researcher
 department: Software Engineering, Safety and Security
-institution: sintef-digital
+institution: sintef
 institutions:
-- sintef-digital
+- sintef
 projects:
 - trondheim-kreativ-ai
 roles:

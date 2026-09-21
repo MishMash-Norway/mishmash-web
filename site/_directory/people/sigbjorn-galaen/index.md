@@ -4,7 +4,7 @@ slug: sigbjorn-galaen
 name: Sigbjørn Galåen
 title: Sigbjørn Galåen
 position: Associate professor
-department: School of Arts, Design, and Media
+department: Department of Performing Arts, Film and Media
 image: /assets/images/portraits/Sigbjørn_Galåen_Kristiania.jpg
 institution: kristiania-university-college
 institutions:
@@ -24,19 +24,19 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- 3D Modelling
-- Computer Games
+- 3d modelling
+- Computer games
 - Technology, Innovation and Culture
-- Generative Art
-- Visual Education
-- Visualising in Akademia
+- Generative art
+- Visual education
+- Visualising in akademia
 search_keywords:
-- 3D Modelling
-- Computer Games
+- 3d modelling
+- Computer games
 - Technology, Innovation and Culture
-- Generative Art
-- Visual Education
-- Visualising in Akademia
+- Generative art
+- Visual education
+- Visualising in akademia
 selected_works:
 - title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard
     Media Production Workflows

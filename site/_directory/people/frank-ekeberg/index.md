@@ -19,16 +19,16 @@ urls:
   nva: https://nva.sikt.no/research-profile/30358
   youtube: ''
   mastodon: ''
-  instagram: ''
+  instagram: https://www.instagram.com/fekeberg/
   wikidata: ''
 aliases: []
 tags:
-- Sound/Music Installations
-- Computer-Assisted Composition
+- Sound/music installations
+- Computer assisted composition -music
 - Art
 search_keywords:
-- Sound/Music Installations
-- Computer-Assisted Composition
+- Sound/music installations
+- Computer assisted composition -music
 - Art
 selected_works:
 - title: Meta.Morf 2016 Biennale For Kunst and Teknologi

@@ -30,30 +30,30 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Film and Television Production
-- Creative Leadership
-- Film Production
+- Film and Television production
+- Creative leadership
+- Film production
 - Ethics and Corporate Social Responsibility
-- Artificial Intelligence
+- Artificial intelligence
 - Filmbransje
-- Role-Playing Methods in Education
-- Television Studies
-- Team-Work
-- Embodied Cognition
-- Pedagogisk Utviklingsarbeid
+- Role-playing methods in education
+- Television studies
+- Team-work
+- Embodied cognition
+- Pedagogisk utviklingsarbeid
 - Digital Storytelling
 search_keywords:
-- Film and Television Production
-- Creative Leadership
-- Film Production
+- Film and Television production
+- Creative leadership
+- Film production
 - Ethics and Corporate Social Responsibility
-- Artificial Intelligence
+- Artificial intelligence
 - Filmbransje
-- Role-Playing Methods in Education
-- Television Studies
-- Team-Work
-- Embodied Cognition
-- Pedagogisk Utviklingsarbeid
+- Role-playing methods in education
+- Television studies
+- Team-work
+- Embodied cognition
+- Pedagogisk utviklingsarbeid
 - Digital Storytelling
 selected_works:
 - title: Si meg når

@@ -6,9 +6,9 @@ title: Erik Johannes Husom
 position: Researcher
 department: Sustainable Communication Technologies
 image: /assets/images/portraits/Erik_Johannes_Husom_SinDig.png
-institution: sintef-digital
+institution: sintef
 institutions:
-- sintef-digital
+- sintef
 projects:
 - environmental-sustainability-mishmash
 other_projects:
@@ -33,13 +33,13 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q130993731
 aliases: []
 tags:
-- Deep Learning
-- Machine Learning
-- Artificial Intelligence
+- Deep learning
+- Machine learning
+- Artificial intelligence
 search_keywords:
-- Deep Learning
-- Machine Learning
-- Artificial Intelligence
+- Deep learning
+- Machine learning
+- Artificial intelligence
 selected_works:
 - title: Overview over the first decade of LIMITS
   year: '2026'

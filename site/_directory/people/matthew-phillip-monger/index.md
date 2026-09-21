@@ -24,18 +24,18 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q113739293
 aliases: []
 tags:
-- Reception History
+- Reception history
 - Judaism
 - Texts
-- Biblical Studies Old Testament
+- Biblical studies Old Testament
 - The Hebrew Languages
 - Islam
 - Pseudepigraphs
 search_keywords:
-- Reception History
+- Reception history
 - Judaism
 - Texts
-- Biblical Studies Old Testament
+- Biblical studies Old Testament
 - The Hebrew Languages
 - Islam
 - Pseudepigraphs

@@ -5,7 +5,7 @@ slug: synne-tollerud-bull
 name: Synne Tollerud Bull
 title: Synne Tollerud Bull
 position: Professor
-department: School of Arts, Design, and Media
+department: Department of Performing Arts, Film and Media
 image: /assets/images/portraits/Synne_Tollerud_Bull_Kristiania.jpg
 institution: kristiania-university-college
 institutions:
@@ -39,18 +39,18 @@ urls:
   bluesky: https://bsky.app/profile/synnebull.bsky.social
 aliases: []
 tags:
-- Media-Art
+- Media-art
 - Art History
 - Cultural and Creative Industries
 - Media Theory
-- Visual Culture
+- Visual culture
 - New Media
 search_keywords:
-- Media-Art
+- Media-art
 - Art History
 - Cultural and Creative Industries
 - Media Theory
-- Visual Culture
+- Visual culture
 - New Media
 selected_works:
 - title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard

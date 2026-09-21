@@ -30,22 +30,22 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Digital Electronics
-- Sound Analysis /Synthesis
-- Machine Learning
-- Real-Time Systems
-- Digital Signal Processing
-- Musical Interaction
-- Embedded Systems
+- Digital electronics
+- Sound analysis /synthesis
+- Machine learning
+- Real-time systems
+- Digital signal processing
+- Musical interaction
+- Embedded system
 - Music Technology
 search_keywords:
-- Digital Electronics
-- Sound Analysis /Synthesis
-- Machine Learning
-- Real-Time Systems
-- Digital Signal Processing
-- Musical Interaction
-- Embedded Systems
+- Digital electronics
+- Sound analysis /synthesis
+- Machine learning
+- Real-time systems
+- Digital signal processing
+- Musical interaction
+- Embedded system
 - Music Technology
 selected_works:
 - title: Modeling Relations Between Musical Events in Continuous Time with Transformer

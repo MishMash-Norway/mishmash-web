@@ -28,17 +28,17 @@ tags:
 - Artificial Intelligent Algorithms
 - Quantum Computing
 - Intelligent Health
-- Renewable Energies
+- Renewable energies
 - Trustworthy AI
-- Quantitative Epidemiology
+- Quantitative epidemiology
 search_keywords:
 - Data Science
 - Artificial Intelligent Algorithms
 - Quantum Computing
 - Intelligent Health
-- Renewable Energies
+- Renewable energies
 - Trustworthy AI
-- Quantitative Epidemiology
+- Quantitative epidemiology
 selected_works:
 - title: 'Validation of webcam-based eye-tracking for clinically relevant paradigms:
     Saccade, attention bias, and free-viewing tasks'

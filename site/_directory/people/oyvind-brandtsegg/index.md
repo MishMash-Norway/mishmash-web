@@ -34,8 +34,8 @@ tags:
 - Improvisation
 - Digital Signal Processing
 - Feedback
-- Granular Audio Synthesis
-- Artificial Intelligence
+- Granular audio synthesis
+- Artificial intelligence
 - Music Technology
 search_keywords:
 - Convolution
@@ -43,8 +43,8 @@ search_keywords:
 - Improvisation
 - Digital Signal Processing
 - Feedback
-- Granular Audio Synthesis
-- Artificial Intelligence
+- Granular audio synthesis
+- Artificial intelligence
 - Music Technology
 selected_works:
 - title: Kunstig Intelligens i Katedralen

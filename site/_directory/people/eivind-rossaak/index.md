@@ -26,30 +26,30 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q122577833
 aliases: []
 tags:
-- Critical Theory
-- Library History
+- Critical theory
+- Library history
 - Digitalization
 - Film Studies
-- Media and Communication
-- Records Management
-- Film History
-- Digital Library
+- Media and communication
+- Records management
+- Film history
+- Digital libary
 - Media Aesthetics
 - Literature
-- Digital Media
+- Digital media
 - New Media
 search_keywords:
-- Critical Theory
-- Library History
+- Critical theory
+- Library history
 - Digitalization
 - Film Studies
-- Media and Communication
-- Records Management
-- Film History
-- Digital Library
+- Media and communication
+- Records management
+- Film history
+- Digital libary
 - Media Aesthetics
 - Literature
-- Digital Media
+- Digital media
 - New Media
 selected_works:
 - title: Kunst i automatiseringens tidsalder

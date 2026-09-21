@@ -49,11 +49,84 @@ tags:
 search_keywords:
 - Informatics
 selected_works:
+- title: Reducing Robot Vulnerabilities Through Joint Regulatory Assessment and User-Centered
+    Development and Testing
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Diana Saplacan Lindblom
+    role: Creator
+  - name: Adel Baselizadeh
+    role: Creator
+  - name: Tobias Mahler
+    role: Creator
+  - name: Lee Andrew Bygrave
+    role: Creator
+- title: Robots as Welfare Technologies and Actors within Future Homeand Healthcare
+    Services
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Diana Saplacan Lindblom
+    role: Creator
+  - name: Sanna Kuoppamäki
+    role: Creator
+  - name: Leon Bodenhagen
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+- title: A Cross-Cultural Video-Based Study between Norway and Japan on Informed Consent
+    and Disclosure Mechanisms on the Use of Social Robots in Public and Private Spaces
+    - Users' Perspectives
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Diana Saplacan Lindblom
+    role: Creator
+  - name: Yueh-Hsuan Weng
+    role: Creator
+  - name: Pedro Pablo Lucas Bravo
+    role: Creator
+    slug: pedro-lucas
+    url: /people/pedro-lucas/
+  - name: Adel Baselizadeh
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+- title: '"There’s something human about it!” - Exploring users’ perception of nonverbal
+    communication of robotic furniture'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Claudia Magdalena Sikora
+    role: Creator
+  - name: Marieke van Otterdijk
+    role: Creator
+  - name: Rebekka Soma-Jestilä
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Diana Saplacan Lindblom
+    role: Creator
 - title: The Privacy-Preserving Capabilities of a Service Robot in a Scenario-Based
     Healthcare Setting
   year: '2026'
-  source: Conference poster
-  group_type: Conference
+  source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3776734.3794481
   contributors:
   - name: Burhan Mohammad Sarfraz
@@ -150,78 +223,6 @@ selected_works:
   - name: Weria Khaksar
     role: Creator
   - name: Diana Saplacan Lindblom
-    role: Creator
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-- title: An Autonomous Floor Clearing Strategy to Tidy up Unknown Home Environments
-    with a Mobile Manipulator Robot
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/icar65334.2025.11338715
-  contributors:
-  - name: Letícia dos Santos
-    role: Creator
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-  - name: Mariana Kolberg
-    role: Creator
-  - name: Renan Maffei
-    role: Creator
-- title: 'Robot Ethics: Ethical, Legal, and User Perspectives in the Development and
-    Application of Robotics and Automation [From the Guest Editors]'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1109/mra.2025.3619589
-  contributors:
-  - name: Jim Torresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-  - name: Cecilia Laschi
-    role: Creator
-  - name: Edson Prestes
-    role: Creator
-  - name: Lydia E. Kavraki
-    role: Creator
-  - name: Praminda Caleb-Solly
-    role: Creator
-  - name: Yueh-Hsuan Weng
-    role: Creator
-- title: Heart Rate Forecasting Using Ultra-Wideband Radar with Sequence-to-Sequence
-    Model
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/ispa66905.2025.11259452
-  contributors:
-  - name: Hoang Minh Pham
-    role: Creator
-  - name: Farzan Majeed Noori
-    role: Creator
-  - name: Md Zia Uddin
-    role: Creator
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-- title: Situation-Based Navigation Strategy Switching for Mobile Robots in Dynamic
-    Pedestrian Environments
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/gcce65946.2025.11275115
-  contributors:
-  - name: Shunsuke Goka
-    role: Creator
-  - name: Ørjan Strand
-    role: Creator
-  - name: Jun Miura
     role: Creator
   - name: Jim Tørresen
     role: Creator

@@ -22,6 +22,9 @@ other_projects:
 - title: Maskinlæring i den Virkelige Verden (MLReal)
   url: https://nva.sikt.no/projects/2769425
   nva_id: '2769425'
+- title: Norwegian Centre for Knowledge-driven Machine Learning
+  url: https://nva.sikt.no/projects/2637937
+  nva_id: '2637937'
 - title: Visual Intelligence
   url: https://nva.sikt.no/projects/2522411
   nva_id: '2522411'
@@ -45,14 +48,14 @@ tags:
 - Multimodality
 - Computer Vision
 - Artificial Intelligence
-- Class Imbalance Problem for Machine Learning
-- Unsupervised Machine Learning Algorithms
+- Class imbalance problem for Machine Learning
+- Unsupervised Machine Learning algorithms
 search_keywords:
 - Multimodality
 - Computer Vision
 - Artificial Intelligence
-- Class Imbalance Problem for Machine Learning
-- Unsupervised Machine Learning Algorithms
+- Class imbalance problem for Machine Learning
+- Unsupervised Machine Learning algorithms
 selected_works:
 - title: Towards Self-Explainable Document Visual Question Answering with Chain-of-Explanation
     Predictions

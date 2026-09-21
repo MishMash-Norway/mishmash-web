@@ -1,13 +1,15 @@
 ---
+layout: person
 type: person
 slug: bente-aasheim
 name: Bente Aasheim
 title: Bente Aasheim
 position: Student
 department: Department of Nursing and Health Promotion
-institution: ''
+institution: oslo-metropolitan-university
 institutions:
 - kulturtanken
+- oslo-metropolitan-university
 projects: []
 roles:
 - Member
@@ -47,7 +49,6 @@ selected_works:
 source_mentions: []
 summary: ''
 description: Student, Department of Nursing and Health Promotion, Kulturtanken
-layout: person
 permalink: /people/bente-aasheim/
 redirect_from:
 - /directory/people/bente-aasheim/

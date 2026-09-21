@@ -41,11 +41,11 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q132804769
 aliases: []
 tags:
-- Music Education
-- Music Didaktik
+- Music education
+- Music didaktik
 search_keywords:
-- Music Education
-- Music Didaktik
+- Music education
+- Music didaktik
 selected_works:
 - title: 'Redesigning Mobility in European Music Teacher Education: From Barriers
     to Opportunities'

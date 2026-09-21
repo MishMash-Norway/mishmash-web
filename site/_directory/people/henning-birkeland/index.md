@@ -4,7 +4,7 @@ slug: henning-birkeland
 name: Henning Birkeland
 title: Henning Birkeland
 position: University college lecturer
-department: School of Arts, Design, and Media
+department: Department of Performing Arts, Film and Media
 image: /assets/images/portraits/Henning_Birkeland_KriUni.png
 institution: kristiania-university-college
 institutions:
@@ -27,7 +27,7 @@ urls:
 aliases: []
 tags:
 - Astrophysics
-- 3D Modelling
+- 3d modelling
 - Animation
 - Visual Effects
 - Motion Capture
@@ -36,7 +36,7 @@ tags:
 - Design
 search_keywords:
 - Astrophysics
-- 3D Modelling
+- 3d modelling
 - Animation
 - Visual Effects
 - Motion Capture

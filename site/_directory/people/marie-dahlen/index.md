@@ -4,7 +4,7 @@ slug: marie-dahlen
 name: Marie Dahlén
 title: Marie Dahlén
 position: University college lecturer
-department: School of Arts, Design, and Media
+department: Department of Performing Arts, Film and Media
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college

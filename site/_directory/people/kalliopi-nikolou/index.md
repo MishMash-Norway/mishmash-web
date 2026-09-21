@@ -3,7 +3,7 @@ type: person
 slug: kalliopi-nikolou
 name: Kalliopi Nikolou
 title: Kalliopi Nikolou
-position: Facial Recognition
+position: null
 department: ''
 institution: ''
 institutions: []

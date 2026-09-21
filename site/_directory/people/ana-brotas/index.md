@@ -4,7 +4,7 @@ slug: ana-brotas
 name: Ana Brotas
 title: Ana Brotas
 position: Admin.sekretær/prosjektkoordinator
-department: School of Arts, Design, and Media
+department: Department of Leadership and Innovation
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college
@@ -26,12 +26,12 @@ tags:
 - Pedagogy
 - Communication
 - Art
-- Artistic Research
+- Artistic research
 search_keywords:
 - Pedagogy
 - Communication
 - Art
-- Artistic Research
+- Artistic research
 selected_works: []
 source_mentions: []
 summary: Ana Brotas has a background in public art, audiovisual communication, and

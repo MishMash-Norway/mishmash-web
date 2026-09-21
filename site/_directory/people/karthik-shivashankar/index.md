@@ -6,9 +6,9 @@ title: Karthik Shivashankar
 position: Researcher
 department: Sustainable Communication Technologies
 image: /assets/images/portraits/Karthik_Shivashankar_SINTEF.jpg
-institution: sintef-digital
+institution: sintef
 institutions:
-- sintef-digital
+- sintef
 projects: []
 roles:
 - Member
@@ -25,16 +25,16 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Deep Learning
+- Deep learning
 - Empirical Software Engineering
-- Machine Learning
-- Artificial Intelligence
+- Machine learning
+- Artificial intelligence
 - Natural Language Generation
 search_keywords:
-- Deep Learning
+- Deep learning
 - Empirical Software Engineering
-- Machine Learning
-- Artificial Intelligence
+- Machine learning
+- Artificial intelligence
 - Natural Language Generation
 selected_works:
 - title: 'QualiTagger: automating software quality categorization in issue trackers'

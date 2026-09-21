@@ -24,19 +24,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Music
-- Popular Culture
-- Social Media
-- Artificial Intelligence
-- Futurism
-- Technology
+- music
+- popular culture
+- social media
+- artificial intelligence
+- futurism
+- technology
 search_keywords:
-- Music
-- Popular Culture
-- Social Media
-- Artificial Intelligence
-- Futurism
-- Technology
+- music
+- popular culture
+- social media
+- artificial intelligence
+- futurism
+- technology
 selected_works:
 - title: '“I’m in the House Bored”: TikTok’s Sonic Mediation of Boredom and Class
     in the Pandemic Home'

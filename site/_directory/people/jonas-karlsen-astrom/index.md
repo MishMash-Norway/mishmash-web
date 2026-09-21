@@ -13,7 +13,7 @@ nva_affiliations:
   unit: Department of Business, Strategy and Political Sciences
   institution: ''
 - role: Associate professor
-  unit: Department of Marketing
+  unit: Department of Marketing and Economics
   institution: kristiania-university-college
 projects: []
 roles:

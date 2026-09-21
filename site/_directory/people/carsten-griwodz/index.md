@@ -26,26 +26,26 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Computer Networking
-- Communication Systems
-- Distributed Systems
-- Data Communication
-- Communication Protocols
+- Computer networking
+- Communication systems
+- Distributed systems
+- Data communication
+- Communication protocols
 - Internet
-- Networks and Distributed Systems
-- Distributed Multimedia
-- Operating Systems
+- Networks and distributed systems
+- Distributed multimedia
+- Operating systems
 - Informatics
 search_keywords:
-- Computer Networking
-- Communication Systems
-- Distributed Systems
-- Data Communication
-- Communication Protocols
+- Computer networking
+- Communication systems
+- Distributed systems
+- Data communication
+- Communication protocols
 - Internet
-- Networks and Distributed Systems
-- Distributed Multimedia
-- Operating Systems
+- Networks and distributed systems
+- Distributed multimedia
+- Operating systems
 - Informatics
 selected_works:
 - title: Studying Embodied Expression in Drumming for Virtual Systems

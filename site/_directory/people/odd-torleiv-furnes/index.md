@@ -24,14 +24,14 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Deep Learning
+- Deep learning
 - Music Cognition
-- Artistic Research
+- Artistic research
 - Composition
 search_keywords:
-- Deep Learning
+- Deep learning
 - Music Cognition
-- Artistic Research
+- Artistic research
 - Composition
 selected_works:
 - title: Technology and materiality/Shadow of War

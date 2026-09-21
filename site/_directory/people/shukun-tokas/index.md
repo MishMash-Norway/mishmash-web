@@ -5,8 +5,9 @@ name: Shukun Tokas
 title: Shukun Tokas
 position: Research Scientist
 department: null
-institution: null
-institutions: []
+institution: sintef
+institutions:
+- sintef
 projects: []
 roles:
 - Member

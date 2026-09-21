@@ -26,28 +26,28 @@ urls:
 aliases: []
 tags:
 - Projections
-- Multimedia Programs
-- Computer Animation
-- Interaction Design
-- Artificial Intelligence
-- Design, Art, Applied Art, Entrepreurship
-- 3D Modelling
-- Digital Photography
-- Digital Twins
-- Game Concept
+- Multimedia programs
+- Computer animation
+- Interaction design
+- Artificial intelligence
+- Design, art, applied art, entrepreurship
+- 3d modelling
+- Digital photography
+- Digital twins
+- Game concept
 - Game Design
 - Compositing
 search_keywords:
 - Projections
-- Multimedia Programs
-- Computer Animation
-- Interaction Design
-- Artificial Intelligence
-- Design, Art, Applied Art, Entrepreurship
-- 3D Modelling
-- Digital Photography
-- Digital Twins
-- Game Concept
+- Multimedia programs
+- Computer animation
+- Interaction design
+- Artificial intelligence
+- Design, art, applied art, entrepreurship
+- 3d modelling
+- Digital photography
+- Digital twins
+- Game concept
 - Game Design
 - Compositing
 selected_works:

@@ -27,24 +27,24 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q138000982
 aliases: []
 tags:
-- Educational Management
+- Educational management
 - Film and TV
-- Philosophy of Education
-- Arts Didactics
+- Philosophy of education
+- Arts didactics
 - Technology, Innovation and Culture
-- Theory of Education
-- Arts Education
-- Artistic Research
+- Theory of education
+- Arts education
+- Art research
 - Arts
 search_keywords:
-- Educational Management
+- Educational management
 - Film and TV
-- Philosophy of Education
-- Arts Didactics
+- Philosophy of education
+- Arts didactics
 - Technology, Innovation and Culture
-- Theory of Education
-- Arts Education
-- Artistic Research
+- Theory of education
+- Arts education
+- Art research
 - Arts
 selected_works:
 - title: KI kan gjøre oss rikere – og fattigere.

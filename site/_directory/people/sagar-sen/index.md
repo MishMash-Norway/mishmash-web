@@ -5,9 +5,9 @@ name: Sagar Sen
 title: Sagar Sen
 position: Researcher
 department: Sustainable Communication Technologies
-institution: sintef-digital
+institution: sintef
 institutions:
-- sintef-digital
+- sintef
 projects:
 - environmental-sustainability-mishmash
 other_projects:
@@ -33,6 +33,29 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'EVLM: Intent-Driven Edge Vision Language Model for UAV-Based Power Line
+    Inspection'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/EDGE72783.2026.00014
+  contributors:
+  - name: Reza Farahani
+    role: Creator
+  - name: Zoha Azimi
+    role: Creator
+  - name: Ilir Murturi
+    role: Creator
+  - name: Arda Goknil
+    role: Creator
+  - name: Sagar Sen
+    role: Creator
+    slug: sagar-sen
+    url: /people/sagar-sen/
+  - name: Christian Timmerer
+    role: Creator
+  - name: Schahram Dustdar
+    role: Creator
 - title: Unsupervised Learning and Process Analysis for Sensor Data Validation in
     the IIoT
   year: '2026'
@@ -241,22 +264,6 @@ selected_works:
     role: Creator
   - name: Valentina Golendukhina
     role: Creator
-- title: 'Editorial: Special Issue on Software Engineering and AI for Data Quality'
-  year: '2024'
-  source: Editorial
-  group_type: Editorial
-  url: https://doi.org/10.1145/3708503
-  contributors:
-  - name: Foutse Khomh
-    role: Creator
-  - name: Andreas Metzger
-    role: Creator
-  - name: Phu Hong Nguyen
-    role: Creator
-  - name: Sagar Sen
-    role: Creator
-    slug: sagar-sen
-    url: /people/sagar-sen/
 source_mentions: []
 summary: ''
 description: Researcher, Sustainable Communication Technologies, SINTEF Digital

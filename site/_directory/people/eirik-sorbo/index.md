@@ -33,14 +33,14 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q138232847
 aliases: []
 tags:
-- Music Education
-- Higher Music Education
-- Artificial Intelligence
+- Music education
+- Higher music education
+- Artificial intelligence
 - Music Technology
 search_keywords:
-- Music Education
-- Higher Music Education
-- Artificial Intelligence
+- Music education
+- Higher music education
+- Artificial intelligence
 - Music Technology
 selected_works:
 - title: 'Don''t do this at home: Re-amping the Norwegian Broadcasting Orchestra (KORK)

@@ -4,7 +4,7 @@ slug: jannicke-johansen
 name: Jannicke Johansen
 title: Jannicke Johansen
 position: Associate professor
-department: Kristiania University of Applied Sciences
+department: Department of Creativity and Design
 image: /assets/images/portraits/Jannicke_Johansen_Kristiania.jpg
 institution: kristiania-university-college
 institutions:
@@ -25,28 +25,28 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Emerging Technologies
+- Emerging technologies
 - Ecommerce
 - Scenography
-- Product Design
-- Art and Culture Innovation
-- Pedagogical Entrepreneurship
-- Sustainable Design
-- User Centred Design
-- Furniture Design
+- Product design
+- Art and culture innovation
+- Pedagogical entrepreneurship
+- Sustainable design
+- User centred design
+- Furniture design
 - Merkevarebygging
 - Entrepreneurship
 - Research
 search_keywords:
-- Emerging Technologies
+- Emerging technologies
 - Ecommerce
 - Scenography
-- Product Design
-- Art and Culture Innovation
-- Pedagogical Entrepreneurship
-- Sustainable Design
-- User Centred Design
-- Furniture Design
+- Product design
+- Art and culture innovation
+- Pedagogical entrepreneurship
+- Sustainable design
+- User centred design
+- Furniture design
 - Merkevarebygging
 - Entrepreneurship
 - Research
