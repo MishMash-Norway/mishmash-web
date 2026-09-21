@@ -84,6 +84,10 @@
     url: https://www.uio.no/english/index.html
     name_nb: Universitetet i Oslo (UiO)
     url_nb: https://www.uio.no/
+  - name: University of Stavanger
+    url: https://www.uis.no/en
+    name_nb: Universitetet i Stavanger
+    url_nb: https://www.uis.no/nb
   - name: University of Tromsø (UiT)
     url: https://en.uit.no/
     name_nb: Universitetet i Tromsø (UiT)
