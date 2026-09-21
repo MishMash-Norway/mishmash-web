@@ -3,9 +3,9 @@ type: person
 slug: lyuba-boncheva
 name: Lyuba Boncheva
 title: Lyuba Boncheva
-image: /assets/images/portraits/Lyuba_Boncheva_BI.jpg
 position: PhD Fellow
 department: Department of Communication and Culture
+image: /assets/images/portraits/Lyuba_Boncheva_BI.jpg
 institution: bi-norwegian-business-school
 institutions:
 - bi-norwegian-business-school
@@ -23,11 +23,18 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Visitor studies in museums
+- Technology, Innovation and Culture
+search_keywords:
+- Visitor studies in museums
+- Technology, Innovation and Culture
 selected_works: []
 source_mentions: []
-summary: ''
+summary: Lyuba Boncheva is a doctoral fellow on the creAIte project at the Centre
+  for Creative Industries, BI Norwegian Business School, where she studies how transformative
+  technologies such as AI affect value creation for cultural institutions and their
+  audiences, and in particular how technology mediates a cultural experience.
 wps:
 - WP5
 - WP6
