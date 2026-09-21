@@ -888,6 +888,34 @@ def fetch_nva_bundle(
     }
 
 
+def orcid_date(value: dict | None) -> date | None:
+    """An ORCID date, which may give only a year, or a year and a month."""
+    if not value:
+        return None
+    year = ((value.get("year") or {}).get("value"))
+    if not year:
+        return None
+    month = ((value.get("month") or {}).get("value")) or "12"
+    day = ((value.get("day") or {}).get("value")) or "28"
+    try:
+        return date(int(year), int(month), int(day))
+    except (TypeError, ValueError):
+        return None
+
+
+def employment_is_current(employment: dict) -> bool:
+    """A job with no end date, or one that ends today or later.
+
+    ORCID keeps every employment a person has ever recorded, and ranks them by
+    display-index rather than by date. Without this, a directory of current
+    members can show a title somebody left years ago: one member's page said
+    "Facial Recognition" from a post that ended in June 2021.
+    """
+    end = orcid_date(employment.get("end-date"))
+    return end is None or end >= date.today()
+
+
+
 def orcid_primary_employment(orcid_id: str, institution_lookup: dict[str, str]) -> tuple[str, str, str]:
     data = get_orcid_json(f"https://pub.orcid.org/v3.0/{orcid_id}/employments")
     candidates = []
@@ -895,6 +923,8 @@ def orcid_primary_employment(orcid_id: str, institution_lookup: dict[str, str]) 
         for summary in group.get("summaries") or []:
             employment = summary.get("employment-summary") or {}
             if not employment:
+                continue
+            if not employment_is_current(employment):
                 continue
             organization = employment.get("organization") or {}
             org_name = orcid_text_value(organization.get("name"))
@@ -910,14 +940,35 @@ def orcid_primary_employment(orcid_id: str, institution_lookup: dict[str, str]) 
     if not candidates:
         return "", "", ""
 
+    # An employment whose organisation is not in the directory is dropped, because
+    # the entry can only point at an institution that exists. Say so, or the page
+    # simply shows no affiliation and nobody knows why.
+    unmatched = sorted({name for _rank, _pos, slug, name in candidates if name and not slug})
+    if unmatched and not any(slug for _rank, _pos, slug, _name in candidates):
+        print(f"    ORCID employment not in the directory, affiliation left empty: "
+              f"{', '.join(unmatched)}")
+
     candidates.sort(key=lambda item: item[0], reverse=True)
-    _, position, org_slug, _ = candidates[0]
-    return position, org_slug, org_slug
+    orcid_primary_employment.org_names = [name for *_rest, name in candidates if name]
+
+    # The position comes from whichever employment ORCID ranks first, but the
+    # affiliation has to come from one the directory knows. One member lists a
+    # freelance role above a festival that is in the directory, and taking the
+    # top entry for both left the page with no affiliation at all.
+    _, position, top_slug, _ = candidates[0]
+    if top_slug:
+        return position, top_slug, top_slug
+    for _rank, _pos, slug, _name in candidates:
+        if slug:
+            return position, slug, slug
+    return position, "", ""
 
 
 def fetch_orcid_bundle(orcid_id: str, institution_lookup: dict[str, str], max_tags: int, max_works: int) -> dict:
     person = get_orcid_json(f"https://pub.orcid.org/v3.0/{orcid_id}/person")
+    orcid_primary_employment.org_names = []
     position, institution, _ = orcid_primary_employment(orcid_id, institution_lookup)
+    routed = route_researcher_urls(person, getattr(orcid_primary_employment, "org_names", []))
     institutions = [institution] if institution else []
     tags = orcid_keyword_labels(person, max_keywords=max_tags)
     works = orcid_selected_works(orcid_id, max_works=max_works)
@@ -931,7 +982,10 @@ def fetch_orcid_bundle(orcid_id: str, institution_lookup: dict[str, str], max_ta
         "summary": orcid_biography(person),
         "image_url": "",
         "orcid": f"https://orcid.org/{orcid_id}",
-        "personal_website": (orcid_researcher_urls(person) or [""])[0],
+        "personal_website": routed.get("personal_website", ""),
+        "institutional_website": routed.get("institutional_website", ""),
+        "networks": {k: v for k, v in routed.items()
+                     if k not in ("personal_website", "institutional_website")},
         "selected_works": works,
         "profile_id": "",
     }
@@ -1270,6 +1324,24 @@ def orcid_keyword_labels(person: dict, max_keywords: int) -> list[str]:
     return merge_unique_strings(labels, max_items=max_keywords)
 
 
+NETWORK_HOSTS = {
+    "linkedin": ("linkedin.com",),
+    "github": ("github.com",),
+    "instagram": ("instagram.com",),
+    "youtube": ("youtube.com", "youtu.be"),
+    "mastodon": ("mastodon.", "mas.to", "fosstodon.org", "scholar.social"),
+}
+
+
+def url_host(url: str) -> str:
+    text = (url or "").strip().lower()
+    if not text:
+        return ""
+    if "//" in text:
+        text = text.split("//", 1)[1]
+    return re.sub(r"^www\.", "", text.split("/")[0])
+
+
 def orcid_researcher_urls(person: dict) -> list[str]:
     researcher_urls = ((person.get("researcher-urls") or {}).get("researcher-url") or [])
     urls = []
@@ -1278,6 +1350,52 @@ def orcid_researcher_urls(person: dict) -> list[str]:
         if url:
             urls.append(url)
     return urls
+
+
+def host_is_employer(host: str, employer_names: list[str]) -> bool:
+    """Does this address belong to a place the person works?
+
+    Compared on letters only, so that skapia.no matches "Stiftelsen Skapia"
+    without needing the organisation to be in the directory first.
+    """
+    label = re.sub(r"[^a-z]", "", host.rsplit(".", 1)[0].replace(".", ""))
+    if len(label) < 4:
+        return False
+    for name in employer_names:
+        flat = re.sub(r"[^a-z]", "", (name or "").lower())
+        if flat and (label in flat or flat in label):
+            return True
+    return False
+
+
+def route_researcher_urls(person: dict, employer_names: list[str]) -> dict[str, str]:
+    """Sort the links a person lists on ORCID into the fields they belong in.
+
+    ORCID keeps one flat list, and the first entry is not necessarily a personal
+    site. One member lists their employer first and their LinkedIn second, which
+    put a foundation's address in `personal_website` and left `linkedin` empty.
+    A link is routed by its host, and a link pointing at the person's own
+    employer is not a personal website at all.
+    """
+    routed: dict[str, str] = {}
+    leftovers: list[str] = []
+    for item in ((person.get("researcher-urls") or {}).get("researcher-url") or []):
+        url = orcid_text_value(item.get("url"))
+        if not url:
+            continue
+        host = url_host(url)
+        for field, hosts in NETWORK_HOSTS.items():
+            if any(h in host for h in hosts):
+                routed.setdefault(field, url)
+                break
+        else:
+            if host and host_is_employer(host, employer_names):
+                routed.setdefault("institutional_website", url)
+            else:
+                leftovers.append(url)
+    if leftovers:
+        routed["personal_website"] = leftovers[0]
+    return routed
 
 
 def choose_orcid_work_url(summary: dict, group: dict) -> str:
@@ -1355,6 +1473,35 @@ def lookup_institution_slug(name: str, institution_lookup: dict[str, str]) -> st
         slug = institution_lookup.get(slugify(alt), "")
         if slug:
             return slug
+
+    # A company suffix is not part of the name people write.
+    trimmed = re.sub(r"\b(AS|ASA|AB|A/S|Ltd|Limited|Inc|GmbH|Oy)\.?$", "", name.strip()).strip(" ,.")
+    if trimmed and trimmed != name:
+        slug = institution_lookup.get(slugify(trimmed), "")
+        if slug:
+            return slug
+
+    # ORCID often holds both the short and the long form in one string, joined by
+    # a dash, a colon or a comma: "OsloMet - Oslo Metropolitan University".
+    for part in re.split(r"\s*[\u2013\u2014:,\-]\s*", name):
+        part = part.strip()
+        if len(part) < 2:
+            continue
+        slug = institution_lookup.get(slugify(part), "")
+        if slug:
+            return slug
+
+    # Last, a known name appearing inside a longer one, such as a centre named
+    # after its university. The longest match wins, and a short key cannot match
+    # this way, or "NB" would match half the directory.
+    flat = re.sub(r"[^a-z0-9]", "", name.lower())
+    best_key = ""
+    for key, slug in institution_lookup.items():
+        flat_key = re.sub(r"[^a-z0-9]", "", key)
+        if len(flat_key) >= 8 and flat_key in flat and len(flat_key) > len(best_key):
+            best_key, best_slug = flat_key, slug
+    if best_key:
+        return best_slug
     return ""
 
 
@@ -1382,6 +1529,9 @@ def build_institution_lookup(root: Path) -> tuple[dict[str, str], dict[str, str]
                     alias_name = (alias or "").strip()
                     if alias_name:
                         lookup[slugify(alias_name)] = slug
+                short = (data.get("short_name") or "").strip()
+                if len(short) >= 2:
+                    lookup.setdefault(slugify(short), slug)
         except Exception:
             continue
     return lookup, slug_to_name
@@ -1684,6 +1834,18 @@ def enrich_person(
     if not from_nva and personal_website and urls.get("personal_website") != personal_website:
         urls["personal_website"] = personal_website
         changed = True
+
+    # A link ORCID lists under the person's employer is not their own site, and a
+    # profile on a network belongs in that network's field rather than the first
+    # free one. Neither overwrites something already recorded by hand.
+    orcid_institutional = (orcid_bundle.get("institutional_website") or "").strip()
+    if orcid_institutional and not (urls.get("institutional_website") or "").strip():
+        urls["institutional_website"] = orcid_institutional
+        changed = True
+    for field, value in (orcid_bundle.get("networks") or {}).items():
+        if value and not (urls.get(field) or "").strip():
+            urls[field] = value
+            changed = True
 
     if profile_id:
         canonical_nva = f"https://nva.sikt.no/research-profile/{profile_id}"
