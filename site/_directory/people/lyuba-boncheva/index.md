@@ -24,10 +24,10 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Visitor studies in museums
+- Visitor Studies in Museums
 - Technology, Innovation and Culture
 search_keywords:
-- Visitor studies in museums
+- Visitor Studies in Museums
 - Technology, Innovation and Culture
 selected_works: []
 source_mentions: []

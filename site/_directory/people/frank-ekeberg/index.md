@@ -23,12 +23,12 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Sound/music installations
-- Computer assisted composition -music
+- Sound/Music Installations
+- Computer-Assisted Composition
 - Art
 search_keywords:
-- Sound/music installations
-- Computer assisted composition -music
+- Sound/Music Installations
+- Computer-Assisted Composition
 - Art
 selected_works:
 - title: Meta.Morf 2016 Biennale For Kunst and Teknologi

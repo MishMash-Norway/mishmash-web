@@ -25,16 +25,16 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Deep learning
+- Deep Learning
 - Empirical Software Engineering
-- Machine learning
-- Artificial intelligence
+- Machine Learning
+- Artificial Intelligence
 - Natural Language Generation
 search_keywords:
-- Deep learning
+- Deep Learning
 - Empirical Software Engineering
-- Machine learning
-- Artificial intelligence
+- Machine Learning
+- Artificial Intelligence
 - Natural Language Generation
 selected_works:
 - title: 'QualiTagger: automating software quality categorization in issue trackers'

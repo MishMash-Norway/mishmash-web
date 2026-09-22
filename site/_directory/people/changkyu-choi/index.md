@@ -48,14 +48,14 @@ tags:
 - Multimodality
 - Computer Vision
 - Artificial Intelligence
-- Class imbalance problem for Machine Learning
-- Unsupervised Machine Learning algorithms
+- Class Imbalance Problem for Machine Learning
+- Unsupervised Machine Learning Algorithms
 search_keywords:
 - Multimodality
 - Computer Vision
 - Artificial Intelligence
-- Class imbalance problem for Machine Learning
-- Unsupervised Machine Learning algorithms
+- Class Imbalance Problem for Machine Learning
+- Unsupervised Machine Learning Algorithms
 selected_works:
 - title: Towards Self-Explainable Document Visual Question Answering with Chain-of-Explanation
     Predictions

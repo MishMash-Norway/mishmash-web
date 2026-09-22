@@ -26,16 +26,16 @@ urls:
 aliases: []
 tags:
 - Digital Humanities
-- Remote sensing
-- Hyperspectral imaging
-- Image quality
-- Image processing
+- Remote Sensing
+- Hyperspectral Imaging
+- Image Quality
+- Image Processing
 search_keywords:
 - Digital Humanities
-- Remote sensing
-- Hyperspectral imaging
-- Image quality
-- Image processing
+- Remote Sensing
+- Hyperspectral Imaging
+- Image Quality
+- Image Processing
 selected_works:
 - title: Surveying Imaging Workflows and Software in Cultural Heritage
   year: '2025'

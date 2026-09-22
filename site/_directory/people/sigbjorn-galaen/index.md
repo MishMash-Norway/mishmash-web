@@ -24,19 +24,19 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- 3d modelling
-- Computer games
+- 3D Modelling
+- Computer Games
 - Technology, Innovation and Culture
-- Generative art
-- Visual education
-- Visualising in akademia
+- Generative Art
+- Visual Education
+- Visualising in Akademia
 search_keywords:
-- 3d modelling
-- Computer games
+- 3D Modelling
+- Computer Games
 - Technology, Innovation and Culture
-- Generative art
-- Visual education
-- Visualising in akademia
+- Generative Art
+- Visual Education
+- Visualising in Akademia
 selected_works:
 - title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard
     Media Production Workflows

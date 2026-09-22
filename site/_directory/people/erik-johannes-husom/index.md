@@ -33,13 +33,13 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q130993731
 aliases: []
 tags:
-- Deep learning
-- Machine learning
-- Artificial intelligence
+- Deep Learning
+- Machine Learning
+- Artificial Intelligence
 search_keywords:
-- Deep learning
-- Machine learning
-- Artificial intelligence
+- Deep Learning
+- Machine Learning
+- Artificial Intelligence
 selected_works:
 - title: Overview over the first decade of LIMITS
   year: '2026'

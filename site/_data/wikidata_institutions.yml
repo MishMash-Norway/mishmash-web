@@ -53,6 +53,11 @@ bi-norwegian-business-school:
   qid: Q604629
   ror: 03ez40v33
   website: http://www.bi.no/
+forzasys:
+  inception: '2014-01-01'
+  qid: Q30259251
+  ror: 02zhfb961
+  website: http://forzasys.com/
 ghent-university:
   coordinates:
     lat: 51.04702
@@ -98,6 +103,15 @@ national-library-of-norway:
   qid: Q924551
   ror: 032saz229
   website: https://nb.no
+national-museum-of-norway:
+  coordinates:
+    lat: 59.911666666
+    lon: 10.729166666
+  inception: '2003-04-28'
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Nasjonalmuseet%20logo.svg
+  qid: Q1132918
+  ror: 02ghdr016
+  website: https://www.nasjonalmuseet.no/en/
 nicolaus-copernicus-university:
   coordinates:
     lat: 53.0153
@@ -124,6 +138,11 @@ nord-university:
   qid: Q21079372
   ror: 030mwrt98
   website: https://www.nord.no/
+norsus-norwegian-institute-for-sustainability-research:
+  inception: '2006-01-01'
+  qid: Q30259809
+  ror: 01vmqaq17
+  website: https://norsus.no/
 norwegian-academy-of-music:
   coordinates:
     lat: 59.932222
@@ -157,6 +176,15 @@ norwegian-university-of-science-and-technology:
   qid: Q314536
   ror: 05xg72x27
   website: https://ntnu.no
+oslo-metropolitan-university:
+  coordinates:
+    lat: 59.92186944
+    lon: 10.73340556
+  inception: '2018-01-12'
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20of%20Oslo%20Metropolitan%20University.svg
+  qid: Q47249304
+  ror: 04q12yn84
+  website: http://www.oslomet.no
 oslo-national-academy-of-the-arts:
   coordinates:
     lat: 59.9255

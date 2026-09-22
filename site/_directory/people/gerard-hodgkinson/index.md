@@ -25,13 +25,13 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q58174134
 aliases: []
 tags:
-- Behavioural science
-- Social science
+- Behavioural Science
+- Social Science
 - Economics
 - Psychology
 search_keywords:
-- Behavioural science
-- Social science
+- Behavioural Science
+- Social Science
 - Economics
 - Psychology
 selected_works:

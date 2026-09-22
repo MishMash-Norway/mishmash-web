@@ -24,21 +24,21 @@ urls:
   instagram: https://www.instagram.com/gurovongermeten
 aliases: []
 tags:
-- Music and traditions
+- Music and Traditions
 - Musical Theater
 - Song
 - Gender
 - Music
-- Higher music education
-- Artificial intelligence
+- Higher Music Education
+- Artificial Intelligence
 search_keywords:
-- Music and traditions
+- Music and Traditions
 - Musical Theater
 - Song
 - Gender
 - Music
-- Higher music education
-- Artificial intelligence
+- Higher Music Education
+- Artificial Intelligence
 selected_works:
 - title: 'Opening the “Black Box” of Voice Therapy: Investigating CVT-Voice Therapy
     in pMTD Using Thematic Analysis and the Rehabilitation Treatment Specification

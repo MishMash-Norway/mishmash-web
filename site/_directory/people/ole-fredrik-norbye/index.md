@@ -24,17 +24,17 @@ urls:
 aliases: []
 tags:
 - Creativity
-- Music performance
+- Music Performance
 - Contemporary Church Music
 - Innovation
-- Popularmusic
+- Popular Music
 - Music
 search_keywords:
 - Creativity
-- Music performance
+- Music Performance
 - Contemporary Church Music
 - Innovation
-- Popularmusic
+- Popular Music
 - Music
 selected_works:
 - title: Can art arise without search or exploration?

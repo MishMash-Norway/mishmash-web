@@ -27,7 +27,7 @@ urls:
 aliases: []
 tags:
 - Astrophysics
-- 3d modelling
+- 3D Modelling
 - Animation
 - Visual Effects
 - Motion Capture
@@ -36,7 +36,7 @@ tags:
 - Design
 search_keywords:
 - Astrophysics
-- 3d modelling
+- 3D Modelling
 - Animation
 - Visual Effects
 - Motion Capture

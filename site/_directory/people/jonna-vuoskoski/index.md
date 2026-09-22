@@ -42,19 +42,19 @@ urls:
 aliases: []
 tags:
 - Empathy
-- Social cognition
+- Social Cognition
 - Emotions
-- Music psychology
-- Cognitive psychology
-- Cognitive neuroscience
+- Music Psychology
+- Cognitive Psychology
+- Cognitive Neuroscience
 - Music Cognition
 search_keywords:
 - Empathy
-- Social cognition
+- Social Cognition
 - Emotions
-- Music psychology
-- Cognitive psychology
-- Cognitive neuroscience
+- Music Psychology
+- Cognitive Psychology
+- Cognitive Neuroscience
 - Music Cognition
 selected_works:
 - title: Empathy, Absorption, and the Feeling of Being Moved by Music

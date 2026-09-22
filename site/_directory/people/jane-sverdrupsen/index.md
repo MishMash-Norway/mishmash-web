@@ -30,27 +30,27 @@ urls:
 aliases: []
 tags:
 - Sound Art
-- Video-art
+- Video-Art
 - Place and Culture
 - Art
 - Drawing
-- Artificial intelligence
+- Artificial Intelligence
 - Painting
 - Exhibitions
-- artistic research
+- Artistic Research
 - Curatorial Practice
 - Contextualization
 - Photography
 search_keywords:
 - Sound Art
-- Video-art
+- Video-Art
 - Place and Culture
 - Art
 - Drawing
-- Artificial intelligence
+- Artificial Intelligence
 - Painting
 - Exhibitions
-- artistic research
+- Artistic Research
 - Curatorial Practice
 - Contextualization
 - Photography

@@ -26,23 +26,23 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q130970724
 aliases: []
 tags:
-- Sound analysis /synthesis
-- Human computer interaction
+- Sound Analysis /Synthesis
+- Human Computer Interaction
 - Psychoacoustics
-- Audio engineering
-- Acoustic communication
+- Audio Engineering
+- Acoustic Communication
 - Sound
-- Spatial audio
-- Interaction design
+- Spatial Audio
+- Interaction Design
 search_keywords:
-- Sound analysis /synthesis
-- Human computer interaction
+- Sound Analysis /Synthesis
+- Human Computer Interaction
 - Psychoacoustics
-- Audio engineering
-- Acoustic communication
+- Audio Engineering
+- Acoustic Communication
 - Sound
-- Spatial audio
-- Interaction design
+- Spatial Audio
+- Interaction Design
 selected_works:
 - title: Unlocking the Potential of Hearing Protection Devices in Supporting Inclusive
     School Environments for Autistic Students

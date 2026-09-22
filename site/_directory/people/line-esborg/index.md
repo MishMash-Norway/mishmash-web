@@ -10,6 +10,10 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects: []
+other_projects:
+- title: The Afterlives of Natural History
+  url: https://nva.sikt.no/projects/2551099
+  nva_id: '2551099'
 roles:
 - Member
 urls:

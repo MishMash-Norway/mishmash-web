@@ -39,31 +39,40 @@ urls:
 aliases: []
 tags:
 - Electronic Music
-- Sound/music in new media
-- Sound/music installations
+- Sound/Music in New Media
+- Sound/Music Installations
 - Experimental Music
-- Audio-visual production
+- Audio-Visual Production
 - Installation
 - Artistic Research
 - Music Technology
 - Place
 - Installations
 - Listening
-- Contemporary art
+- Contemporary Art
 search_keywords:
 - Electronic Music
-- Sound/music in new media
-- Sound/music installations
+- Sound/Music in New Media
+- Sound/Music Installations
 - Experimental Music
-- Audio-visual production
+- Audio-Visual Production
 - Installation
 - Artistic Research
 - Music Technology
 - Place
 - Installations
 - Listening
-- Contemporary art
+- Contemporary Art
 selected_works:
+- title: Reimagining Immersive Art for Living Rooms
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Trond Lossius
+    role: Creator
+    slug: trond-lossius
+    url: /people/trond-lossius/
 - title: Longue Durée
   year: '2026'
   source: Visual arts
@@ -193,15 +202,6 @@ selected_works:
   contributors:
   - name: Trond Lossius
     role: Creator
-    slug: trond-lossius
-    url: /people/trond-lossius/
-- title: Drift studies (Clouds)
-  year: '2024'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Trond Lossius
-    role: Composer
     slug: trond-lossius
     url: /people/trond-lossius/
 source_mentions: []

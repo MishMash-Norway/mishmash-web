@@ -135,6 +135,22 @@ selected_works:
     role: Musician
   - name: Ingrid Eliassen
     role: Musician
+- title: 'The Organic Grid: Sound and Timing in Electronic Dance Music'
+  year: '2021'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1093/mts/mtab013
+  contributors:
+  - name: Ragnhild Brøvig-Hanssen
+    role: Creator
+  - name: Bjørnar Sandvik
+    role: Creator
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  - name: Anne Danielsen
+    role: Creator
 - title: Nearly Invisible Stitches - Nils Petter Molvær
   year: '2021'
   source: Music performance
@@ -209,29 +225,6 @@ selected_works:
     role: Composer
   - name: Karsten Brustad
     role: Composer
-- title: Gæ
-  year: '2020'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Geir Davidsen
-    role: Artist
-  - name: Jon Marius Aareskjold-Drecker
-    role: Artist
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
-  - name: Lars Lien
-    role: Artist
-  - name: Friederike Bischoff
-    role: Artist
-  - name: Ingrid Eliassen
-    role: Artist
-  - name: Jens Christian Kloster
-    role: Artist
-  - name: Karsten Brustad
-    role: Artist
-  - name: Solmund Nystabakk
-    role: Artist
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''

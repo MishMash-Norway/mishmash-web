@@ -24,24 +24,24 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q97415429
 aliases: []
 tags:
-- Political theory
-- Politics of knowledge
-- Innovation studies
-- Human biotechnologies
-- Personvern økende teknologi
-- Battery technology
+- Political Theory
+- Politics of Knowledge
+- Innovation Studies
+- Human Biotechnologies
+- Personvern Økende Teknologi
+- Battery Technology
 - Responsible Research and Innovation
-- Surveillance and privacy studies
+- Surveillance and Privacy Studies
 - Energy
 search_keywords:
-- Political theory
-- Politics of knowledge
-- Innovation studies
-- Human biotechnologies
-- Personvern økende teknologi
-- Battery technology
+- Political Theory
+- Politics of Knowledge
+- Innovation Studies
+- Human Biotechnologies
+- Personvern Økende Teknologi
+- Battery Technology
 - Responsible Research and Innovation
-- Surveillance and privacy studies
+- Surveillance and Privacy Studies
 - Energy
 selected_works:
 - title: Epistemic Work and Epistemic Justice in Just Green Transitions

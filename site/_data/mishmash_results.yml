@@ -1,4 +1,4 @@
-synced_at: '2026-09-20T09:52:22Z'
+synced_at: '2026-09-22T09:52:43Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -55,6 +55,80 @@ results:
     nva_url: https://nva.sikt.no/publication/01a09cbae1b4-207a8b32-7b59-4b45-a742-a4a918ab8bab
   url: https://www.taylorfrancis.com/chapters/edit/10.4324/9781003475675-2/llms-custom-gpts-tool-academic-research-jon-marius-aareskjold-drecker-hans-zeiner-henriksen?context=ubx&refId=dbcfdb55-608a-4b08-bb98-bdfa7778218f
   nva_url: https://nva.sikt.no/publication/01a09cbae1b4-207a8b32-7b59-4b45-a742-a4a918ab8bab
+- title: '"There’s something human about it!” - Exploring users’ perception of nonverbal
+    communication of robotic furniture'
+  year: '2026'
+  type: AcademicChapter
+  type_label: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Claudia Magdalena Sikora
+    role: Creator
+  - name: Marieke van Otterdijk
+    role: Creator
+  - name: Rebekka Soma-Jestilä
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Diana Saplacan Lindblom
+    role: Creator
+  institutions:
+  - name: Oslo Metropolitan University
+    slug: oslo-metropolitan-university
+    url: /institutions/oslo-metropolitan-university/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Sikora, Claudia Magdalena
+      name: Claudia Magdalena Sikora
+    - display: Otterdijk, Marieke van
+      name: Marieke van Otterdijk
+    - display: Soma-Jestilä, Rebekka
+      name: Rebekka Soma-Jestilä
+    - display: Tørresen, Jim
+      name: Jim Tørresen
+      slug: jim-torresen
+      url: /people/jim-torresen/
+    - display: Lindblom, Diana Saplacan
+      name: Diana Saplacan Lindblom
+    title: '"There’s something human about it!” - Exploring users’ perception of nonverbal
+      communication of robotic furniture'
+    container: In Samani, Hooman, Akhond, Saina (Eds.), Proceedings of the International
+      Confernece on Social Robotics (ICSR) + ART 2026.
+    details: Springer International Publishing. ISSN 0302-9743.
+    abstract: 'Non-anthropomorphic robots are integrating into our homes. People
+
+      attribute human-like characteristics to these robots, although they do not
+
+      resemble humans. This raises the question of whether similar processes would
+
+      occur when people interact with robot furniture. Thus, the presented exploratory
+
+      pilot study investigates how users intuitively interpret and perceive the non
+
+      verbal communication of such robots. In an instrumental case study, we had
+
+      eleven participants interacting with the T-ABLE robot through expressive
+
+      behavior. Participants were interviewed about their experience. Our findings
+
+      indicate that the participants use their associations between behavior and prior
+      to
+
+      similar experiences to attribute personality to the robot table. These findings
+
+      provide insights for theorizing the intuitive comprehension of the behavior
+      of
+
+      non-anthropomorphic robots.'
+    full_text_url: https://hdl.handle.net/11250/5572358
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0c3276afb-84808a02-16f6-41fc-9eea-dc7d405e6459
+  nva_url: https://nva.sikt.no/publication/01a0c3276afb-84808a02-16f6-41fc-9eea-dc7d405e6459
 - title: Modeling Relations Between Musical Events in Continuous Time with Transformer
     Models for Live Co-Improvisational Interactions | Zenodo
   year: '2026'
@@ -403,6 +477,9 @@ results:
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  - name: Oslo Metropolitan University
+    slug: oslo-metropolitan-university
+    url: /institutions/oslo-metropolitan-university/
   - name: Norwegian University of Science and Technology
     slug: norwegian-university-of-science-and-technology
     url: /institutions/norwegian-university-of-science-and-technology/
@@ -483,6 +560,180 @@ results:
     nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
+- title: 'Press Start to Generate: AI in Game Development Education'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Håvard Andreas Vibeto
+    role: Creator
+    slug: havard-vibeto
+    url: /people/havard-vibeto/
+  institutions:
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  citation:
+    authors:
+    - display: Vibeto, Håvard Andreas
+      name: Håvard Andreas Vibeto
+      slug: havard-vibeto
+      url: /people/havard-vibeto/
+    title: 'Press Start to Generate: AI in Game Development Education'
+    container: MishMash Opening Conference.
+    details: Kristisand.
+    abstract: AI has been part of games since ghosts started chasing Pac-Man. This
+      talk traces the shift from traditional game AI to generative AI, explores how
+      it is reshaping different areas of game development, and considers its impact
+      on teaching and learning. How should game development education respond to a
+      technology that remains contested among developers, students and educators?
+    full_text_url: https://hdl.handle.net/11250/5573346
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0c8401a85-e872ea8b-d9b2-4d4a-9123-0f2e5e0da263
+  url: https://mishmash.no/events/kristiansand2026/
+  nva_url: https://nva.sikt.no/publication/01a0c8401a85-e872ea8b-d9b2-4d4a-9123-0f2e5e0da263
+- title: 'MishMash and New Embeddings: Art, technology and research'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Ida Jahr
+    role: Creator
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  institutions:
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  - name: Oslo School of Architecture and Design
+    slug: oslo-school-of-architecture-and-design
+    url: /institutions/oslo-school-of-architecture-and-design/
+  citation:
+    authors:
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    - display: Encinas, Enrique
+      name: Enrique Encinas
+      slug: enrique-encinas
+      url: /people/enrique-encinas/
+    title: 'MishMash and New Embeddings: Art, technology and research'
+    container: Japan-Norway Research Alliance – Next Generation Research with AI.
+    details: Oslo.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5573300
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0c8247982-a130e35d-03eb-4c6b-909b-58d126e243fe
+  url: https://www.mn.uio.no/hylleraas/english/news-and-events/events/events-in-oslo/2026/jp-no-research-alliance-2026.html
+  nva_url: https://nva.sikt.no/publication/01a0c8247982-a130e35d-03eb-4c6b-909b-58d126e243fe
+- title: Migration from MAVIS to Axiell Collections
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Thomas Bårdsen
+    role: Creator
+  institutions:
+  - name: National Library of Norway
+    slug: national-library-of-norway
+    url: /institutions/national-library-of-norway/
+  citation:
+    authors:
+    - display: Bårdsen, Thomas
+      name: Thomas Bårdsen
+    title: Migration from MAVIS to Axiell Collections
+    container: Symposium on Digital and AI Musicology.
+    details: Oslo.
+    abstract: 'This presentation discusses the National Library of Norway''s migration
+      from MAVIS, a legacy audiovisual collection management system, to Axiell Collections.
+      While initially driven by the announced end of support for MAVIS, the project
+      evolved into a broader exercise in metadata modelling and collection management
+      for audiovisual heritage.
+
+
+      Particular attention is given to the challenges of representing recorded music
+      within frameworks based on RDA and the Library Reference Model (LRM). The presentation
+      examines different understandings of musical works in library, archival, and
+      music industry contexts, and discusses how compositions, recordings, albums,
+      and production materials can be modelled and linked within a shared system.
+
+
+      The talk outlines the implementation adopted by the National Library, including
+      parallel work structures for compositions, recordings, albums, and music production
+      archives. Rather than enforcing a single hierarchy, these entities are connected
+      through relationships that better reflect the complexity of music creation,
+      publication, and preservation.
+
+
+      Finally, the presentation reflects on the broader implications of metadata standardization,
+      interoperability, and shared infrastructure for music heritage collections,
+      and considers how these issues relate to future developments in digital musicology
+      and AI-driven research.'
+    full_text_url: https://hdl.handle.net/11250/5573296
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0c817ddfa-6d7d9da4-ba35-4c6a-bdd5-0715b21fe1d5
+  nva_url: https://nva.sikt.no/publication/01a0c817ddfa-6d7d9da4-ba35-4c6a-bdd5-0715b21fe1d5
+- title: Reimagining Immersive Art for Living Rooms
+  year: '2026'
+  type: ConferencePoster
+  type_label: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Trond Lossius
+    role: Creator
+    slug: trond-lossius
+    url: /people/trond-lossius/
+  institutions:
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  citation:
+    authors:
+    - display: Lossius, Trond
+      name: Trond Lossius
+      slug: trond-lossius
+      url: /people/trond-lossius/
+    title: Reimagining Immersive Art for Living Rooms
+    container: MishMash Opening Conference.
+    details: Kristiansand.
+    abstract: 'Throughout my artistic career, I have created collaborative site-specific
+      installations combining immersive audio with video, painting, drawings, and
+      objects. These works are experienced only in specific locations for limited
+      durations; afterwards, they exist only as documentation, typically a stereo
+      video that struggles to capture their temporal, spatial, and immersive qualities.
+
+
+      Recent technological advances offer new possibilities. Dolby Atmos support from
+      Apple and other providers now enables the distribution of spatial audio media
+      for home consumption. Additionally, Swift and SwiftUI allow developers to build
+      feature-rich media applications across Apple''s ecosystem (such as iOS, macOS
+      and tvOS). For artists with limited coding skills, agentic coding tools in Xcode
+      open unprecedented opportunities to develop artworks as applications.
+
+
+      I have applied these technologies to recreate the site-specific installation
+      "Lento o Tempo Muda em Poço do Canto" (first shown in Portugal in 2022) as a
+      "home edition." Using Apple TV, the application presents four videos on a split
+      screen with an immersive spatial audio track, with all media files playing and
+      looping asynchronously.
+
+
+      This project demonstrates how recent technologies open possibilities for developing
+      artistic works to be experienced in domestic surroundings that, from a programming
+      standpoint, might appear simple but, depending on the quality and composition
+      of the media content, can still offer rich experiences.'
+    full_text_url: https://hdl.handle.net/11250/5573083
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0c7cc5129-de728513-07db-4666-b5cd-67179cf99115
+  nva_url: https://nva.sikt.no/publication/01a0c7cc5129-de728513-07db-4666-b5cd-67179cf99115
 - title: 'Teaching for Futures We Must Prevent: Dark Scenario Pedagogy in Legal Education'
   year: '2026'
   type: ConferenceLecture
@@ -2072,6 +2323,9 @@ results:
     slug: maham-riaz
     url: /people/maham-riaz/
   institutions:
+  - name: Oslo Metropolitan University
+    slug: oslo-metropolitan-university
+    url: /institutions/oslo-metropolitan-university/
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
@@ -2171,6 +2425,9 @@ results:
   - name: BI Norwegian Business School
     slug: bi-norwegian-business-school
     url: /institutions/bi-norwegian-business-school/
+  - name: Oslo Metropolitan University
+    slug: oslo-metropolitan-university
+    url: /institutions/oslo-metropolitan-university/
   citation:
     authors:
     - display: Colbjørnsen, Terje
@@ -2583,6 +2840,47 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: Musikkproduksjonsarkiv som praksisfelt og kunnskapskilde
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Thomas Bårdsen
+    role: Creator
+  institutions:
+  - name: National Library of Norway
+    slug: national-library-of-norway
+    url: /institutions/national-library-of-norway/
+  citation:
+    authors:
+    - display: Bårdsen, Thomas
+      name: Thomas Bårdsen
+    title: Musikkproduksjonsarkiv som praksisfelt og kunnskapskilde
+    container: Högre seminariet i musikvetenskap.
+    details: Stockholm.
+    abstract: 'Foredraget tar utgangspunkt i musikkproduksjonsarkivet som både praksisfelt
+      i musikkindustrien og som kunnskapskilde for forskning. De siste årene har inntektene
+      fra og interessen for eldre musikk, den såkalte katalogmusikken, økt betydelig.
+      I første del av foredraget diskuteres hvordan musikkproduksjonsarkiv inngår
+      aktivt i prosesser knyttet til denne delen av musikkindustrien, gjennom blant
+      annet arbeid med reutgivelser, remastering og forvaltning av kataloger.
+
+      I andre del rettes oppmerksomheten mot selve materialet i musikkproduksjonsarkivet
+      i Norge. Gjennom eksempler fra ulike teknologiske perioder vises det hvordan
+      spor av praksis, som merking, formater og arbeidsprosesser, kan gi innsikt i
+      hvordan innspilt musikk har blitt forstått og organisert over tid, og også hvordan
+      materialet kan bidra til å klargjøre den teknologiske utviklingen i landet.
+      Kunnskap hentet direkte fra materialet kan gjennom dette også bidra til å belyse
+      sentrale problemstillinger i praksisfeltet rundt katalogmusikk.
+
+      Avslutningsvis inviteres det til diskusjon om hvordan slike perspektiver kan
+      kaste nytt lys over forholdet mellom arkiv, musikkproduksjon og fremveksten
+      av AI-basert musikk.'
+    full_text_url: https://hdl.handle.net/11250/5573261
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0c80bacf8-9f14ff6d-c887-486a-925c-1d2bab08e1be
+  nva_url: https://nva.sikt.no/publication/01a0c80bacf8-9f14ff6d-c887-486a-925c-1d2bab08e1be
 - title: KI-dag for videregående skoler
   year: '2026'
   type: Lecture
@@ -3898,12 +4196,15 @@ results:
   - name: BI Norwegian Business School
     slug: bi-norwegian-business-school
     url: /institutions/bi-norwegian-business-school/
+  - name: Simula Metropolitan Center for Digital Engineering
+    slug: simula-metropolitan-center-for-digital-engineering
+    url: /institutions/simula-metropolitan-center-for-digital-engineering/
+  - name: SINTEF
+    slug: sintef
+    url: /institutions/sintef/
   - name: Barratt Due Institute of Music
     slug: barratt-due-institute-of-music
     url: /institutions/barratt-due-institute-of-music/
-  - name: SINTEF Digital
-    slug: sintef
-    url: /institutions/sintef/
   citation:
     authors:
     - display: Malthe-Sørenssen, Anders
@@ -6775,7 +7076,7 @@ results:
     slug: viggo-tellefsen-wivestad
     url: /people/viggo-tellefsen-wivestad/
   institutions:
-  - name: SINTEF Digital
+  - name: SINTEF
     slug: sintef
     url: /institutions/sintef/
   citation:
@@ -6792,3 +7093,28 @@ results:
     nva_url: https://nva.sikt.no/publication/019e3f4d620d-fbdddd20-0178-42a0-b9c4-6280151fefa8
   url: https://thegreathumanfilter.com/
   nva_url: https://nva.sikt.no/publication/019e3f4d620d-fbdddd20-0178-42a0-b9c4-6280151fefa8
+- title: Neon Gallery/Galeria Neon ASP Wrocław, Poland
+  year: '2025'
+  type: VisualArts
+  type_label: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Tiril Schrøder
+    role: Artist
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
+  institutions:
+  - name: Oslo National Academy of the Arts
+    slug: oslo-national-academy-of-the-arts
+    url: /institutions/oslo-national-academy-of-the-arts/
+  citation:
+    authors: []
+    title: Neon Gallery/Galeria Neon ASP Wrocław, Poland
+    container: ''
+    details: ''
+    abstract: Exhibition of printworks fra students and staff at the Printmakingdepartment
+      at Khio
+    full_text_url: https://hdl.handle.net/11250/5360414
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019c1dc537b5-83452e44-0325-43f6-81e6-611dc598771c
+  nva_url: https://nva.sikt.no/publication/019c1dc537b5-83452e44-0325-43f6-81e6-611dc598771c

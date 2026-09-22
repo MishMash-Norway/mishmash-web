@@ -24,11 +24,11 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Creative industry
-- Strategic leadership
+- Creative Industries
+- Strategic Leadership
 search_keywords:
-- Creative industry
-- Strategic leadership
+- Creative Industries
+- Strategic Leadership
 selected_works:
 - title: 'Pengestrømmer og verdikjeder i musikkfeltet: Aktører, tjenester, betalinger
     og utviklingstrekk'

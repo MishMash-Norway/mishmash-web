@@ -46,30 +46,30 @@ urls:
 aliases: []
 tags:
 - Multi-Agent Systems
-- Genetic algorithms
+- Genetic Algorithms
 - Artificial Life
 - Computer Science
 - Field Programmable Gate Array
 - Bio Inspired Algorithms
 - Robotics
-- Embedded system
+- Embedded Systems
 - Informatics
-- Artificial intelligence
+- Artificial Intelligence
 - Music Technology
-- Swarm intelligence
+- Swarm Intelligence
 search_keywords:
 - Multi-Agent Systems
-- Genetic algorithms
+- Genetic Algorithms
 - Artificial Life
 - Computer Science
 - Field Programmable Gate Array
 - Bio Inspired Algorithms
 - Robotics
-- Embedded system
+- Embedded Systems
 - Informatics
-- Artificial intelligence
+- Artificial Intelligence
 - Music Technology
-- Swarm intelligence
+- Swarm Intelligence
 selected_works:
 - title: 'Lamarckian Inheritance in Dynamic Environments: How Key Variables Affect
     Evolutionary Dynamics'

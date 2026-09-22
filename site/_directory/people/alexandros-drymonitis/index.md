@@ -24,22 +24,22 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Human-Computer Interaction
-- New interfaces for musical expression
+- Human Computer Interaction
+- New Interfaces for Musical Expression
 - Experimental Music
-- Interactive music
-- Computer assisted composition -music
+- Interactive Music
+- Computer-Assisted Composition
 - Music
-- Artificial intelligence
+- Artificial Intelligence
 - Music Technology
 search_keywords:
-- Human-Computer Interaction
-- New interfaces for musical expression
+- Human Computer Interaction
+- New Interfaces for Musical Expression
 - Experimental Music
-- Interactive music
-- Computer assisted composition -music
+- Interactive Music
+- Computer-Assisted Composition
 - Music
-- Artificial intelligence
+- Artificial Intelligence
 - Music Technology
 selected_works:
 - title: 'Nodes, glitches and embedded algorithms: COMACROB and posthuman organology'

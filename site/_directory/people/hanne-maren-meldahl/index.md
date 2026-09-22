@@ -24,21 +24,21 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Action research
-- Fine arts education
+- Action Research
+- Fine Arts Education
 - Pedagogy
-- Future workshop
+- Future Workshop
 - Artistic Research
 - Art
-- Artificial intelligence
+- Artificial Intelligence
 search_keywords:
-- Action research
-- Fine arts education
+- Action Research
+- Fine Arts Education
 - Pedagogy
-- Future workshop
+- Future Workshop
 - Artistic Research
 - Art
-- Artificial intelligence
+- Artificial Intelligence
 selected_works: []
 source_mentions: []
 summary: Hanne Maren Meldahl is an artist, teacher educator, and PhD Research Fellow

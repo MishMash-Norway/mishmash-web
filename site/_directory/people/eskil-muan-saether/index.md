@@ -25,11 +25,11 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Performing artist
+- Performing Artist
 - Public Administration
 - Musicology
 search_keywords:
-- Performing artist
+- Performing Artist
 - Public Administration
 - Musicology
 selected_works: []

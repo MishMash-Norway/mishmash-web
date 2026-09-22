@@ -24,25 +24,25 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- creativity
+- Creativity
 - K-12
-- music education
-- composition
-- songwriting
-- technology
-- children
-- youth
-- education
+- Music Education
+- Composition
+- Songwriting
+- Technology
+- Children
+- Youth
+- Education
 search_keywords:
-- creativity
+- Creativity
 - K-12
-- music education
-- composition
-- songwriting
-- technology
-- children
-- youth
-- education
+- Music Education
+- Composition
+- Songwriting
+- Technology
+- Children
+- Youth
+- Education
 selected_works: []
 source_mentions: []
 summary: null

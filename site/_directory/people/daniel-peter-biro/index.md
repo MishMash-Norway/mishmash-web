@@ -26,23 +26,23 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q109822335
 aliases: []
 tags:
-- Etnomusicology
-- Musical memory
-- Musical modernism
+- Ethnomusicology
+- Musical Memory
+- Musical Modernism
 - Experimental Music
-- Musical composition
-- Musical electronics
-- Computer assisted composition -music
-- Musical analysis
+- Musical Composition
+- Musical Electronics
+- Computer-Assisted Composition
+- Musical Analysis
 search_keywords:
-- Etnomusicology
-- Musical memory
-- Musical modernism
+- Ethnomusicology
+- Musical Memory
+- Musical Modernism
 - Experimental Music
-- Musical composition
-- Musical electronics
-- Computer assisted composition -music
-- Musical analysis
+- Musical Composition
+- Musical Electronics
+- Computer-Assisted Composition
+- Musical Analysis
 selected_works:
 - title: “Philosophical Translation as Compositional Research in the Ethica Composition
     Cycle after Baruch Spinoza”
