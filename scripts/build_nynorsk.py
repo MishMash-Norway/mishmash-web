@@ -99,7 +99,11 @@ def load_glossary() -> dict:
     if not GLOSSARY.exists():
         return {"keep": [], "replace": {}}
     data = yaml.safe_load(GLOSSARY.read_text(encoding="utf-8")) or {}
-    return {"keep": data.get("keep") or [], "replace": data.get("replace") or {}}
+    return {
+        "keep": data.get("keep") or [],
+        "replace": data.get("replace") or {},
+        "expected_unused": data.get("expected_unused") or [],
+    }
 
 
 def segment(text: str, keep: list[str]) -> list[tuple[bool, str]]:
@@ -128,9 +132,15 @@ def segment(text: str, keep: list[str]) -> list[tuple[bool, str]]:
     return out
 
 
+REPLACEMENTS_USED: dict[str, int] = {}
+
+
 def apply_replacements(text: str, replace: dict[str, str]) -> str:
     for a, b in replace.items():
-        text = text.replace(a, b)
+        n = text.count(a)
+        if n:
+            REPLACEMENTS_USED[a] = REPLACEMENTS_USED.get(a, 0) + n
+            text = text.replace(a, b)
     return text
 
 
@@ -278,13 +288,41 @@ def iter_sources():
         yield f, rel
 
 
+def report_glossary_use(glossary: dict, expected_unused: set[str], engine: str, fail: bool) -> int:
+    """Say which replacement rules did no work, so a dead one can be deleted.
+
+    A rule listed under `expected_unused` in the glossary may legitimately match
+    nothing: it repairs what only the other back end gets wrong, or it is a
+    safety net for a term the translator currently handles by itself. Those are
+    reported but never fail the run. Every other rule is expected to fire."""
+    unused = [k for k in glossary["replace"] if k not in REPLACEMENTS_USED]
+    dead = [k for k in unused if k not in expected_unused]
+    allowed = [k for k in unused if k in expected_unused]
+    fired = len(glossary["replace"]) - len(unused)
+    print(f"glossary: {fired} of {len(glossary['replace'])} replacement rules fired via {engine}")
+    for k in allowed:
+        print(f"  unused here, kept on purpose: {k!r}")
+    for k in dead:
+        print(f"  MATCHED NOTHING: {k!r}")
+    if dead and fail:
+        print("A rule that matches nothing is either fixed upstream, aimed at the other back end,\n"
+              "or written for a sentence that has since been rewritten. Delete it, or list it under\n"
+              "expected_unused in site/_data/nynorsk_glossary.yml with a comment saying why.",
+              file=sys.stderr)
+        return 1
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--status", action="store_true", help="report only; generate nothing")
     ap.add_argument("--apy", action="store_true", help="use the public APy service even if apertium is installed")
+    ap.add_argument("--check-glossary", action="store_true",
+                    help="fail if a replacement rule matched nothing in this run")
     args = ap.parse_args()
 
     glossary = load_glossary()
+    expected_unused = set(glossary["expected_unused"])
     reviewed, automatic = [], []
     for f, rel in iter_sources():
         (reviewed if (REVIEWED / rel).exists() else automatic).append(rel.as_posix())
@@ -319,8 +357,9 @@ def main() -> int:
         + yaml.safe_dump({"reviewed": reviewed, "automatic": automatic}, allow_unicode=True),
         encoding="utf-8",
     )
-    print(f"nynorsk: {n} pages generated, {len(reviewed)} reviewed, via {'apertium' if tr.local else 'apy'}")
-    return 0
+    engine = "apertium" if tr.local else "apy"
+    print(f"nynorsk: {n} pages generated, {len(reviewed)} reviewed, via {engine}")
+    return report_glossary_use(glossary, expected_unused, engine, fail=args.check_glossary)
 
 
 if __name__ == "__main__":

@@ -34,7 +34,6 @@ replace:
   # leaves "Overordnede" and a bare "Ukentlig" half-translated.
   "Rå frå": "Råd frå"
   "Rå om": "Råd om"
-  "Rå til": "Råd til"
   "Overordn avgjerder": "Overordna avgjerder"
   "ad hoc-møter": "ad hoc-møte"
   "| Ukentlig |": "| Kvar veke |"
@@ -45,16 +44,11 @@ replace:
   # The e-infinitive pass turns some present-tense verbs into infinitives, drops
   # the definite form after "Kvar", and gets the gender of "eit møte" wrong.
   "og gå ut frå at": "og går ut frå at"
-  "som peike ut folk": "som peikar ut folk"
-  "Kvar grense går": "Kvar grensa går"
-  "blir teken opp": "blir teke opp"
   # More of the same: a lost plural in "like vilkår", "best" read as "god", the
   # Vi/Me split, and two words left in Bokmål.
   "på lik vilkår": "på like vilkår"
-  "passar god til": "passar best til"
   "Me vel ": "Vi vel "
   "komme til orda": "komme til orde"
-  "eller love.": "eller lova."
   # A genitive turned into a place, and one more present tense read as an
   # infinitive.
   "ambisjonane på senteret": "ambisjonane til senteret"
@@ -92,3 +86,24 @@ replace:
   "har gå gjennom": "har gått gjennom"
   "respekterer kvarandres arbeidstid, pausar og feriar": "respekterer arbeidstida, pausane og feriane til kvarandre"
   "som ta i bruk": "som tek i bruk"
+
+# Replacement rules that may match nothing in a given run, with the reason.
+# The build reports every rule that did no work, and fails on any rule not
+# listed here when run with --check-glossary. Two causes are legitimate: CI
+# translates with a local Apertium while a laptop goes through the public
+# service, and the two fail differently on the same sentence; and a rule kept
+# as a safety net for a term the translator currently gets right on its own.
+expected_unused:
+  # The public service gets this one right by itself; kept because the name matters.
+  - "Forskningsrådet"
+  # The local Apertium's versions of sentences the public service breaks differently.
+  - "er forventa å følgje"
+  - "Me vel "
+  - "KI-modell er involverte"
+  - "i metadataene"
+  - "skapa, utforska og reflektere"
+  - "blir førte tilbake"
+  - "korleis det blir teikna opp og blir servert"
+  - "nettstaden er skrive med"
+  - "har bli til"
+  - "arbeidstida kvarandres, pausar og feriar"

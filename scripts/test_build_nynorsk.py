@@ -5,7 +5,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from build_nynorsk import strip_marks, fix_list_markers, apply_replacements, nn_permalink, segment, split_front_matter, transform_page, translate_text
+import build_nynorsk
+from build_nynorsk import strip_marks, fix_list_markers, apply_replacements, load_glossary, nn_permalink, report_glossary_use, segment, split_front_matter, transform_page, translate_text
 
 
 class FakeTranslator:
@@ -58,6 +59,40 @@ class SegmentTests(unittest.TestCase):
 
     def test_replacements(self):
         self.assertEqual(apply_replacements("FORSKNINGSRÅDET gir", GLOSSARY["replace"]), "Forskingsrådet gir")
+
+
+class GlossaryUseTests(unittest.TestCase):
+    """The glossary can fail: a rule that repairs nothing is reported, and
+    --check-glossary turns that into a non-zero exit."""
+
+    def setUp(self):
+        build_nynorsk.REPLACEMENTS_USED.clear()
+        self.addCleanup(build_nynorsk.REPLACEMENTS_USED.clear)
+
+    def test_counts_what_each_rule_repaired(self):
+        apply_replacements("Rå frå A og Rå frå B", {"Rå frå": "Råd frå", "Me vel ": "Vi vel "})
+        self.assertEqual(build_nynorsk.REPLACEMENTS_USED, {"Rå frå": 2})
+
+    def test_unused_rule_fails_the_check(self):
+        glossary = {"replace": {"Rå frå": "Råd frå"}, "expected_unused": []}
+        self.assertEqual(report_glossary_use(glossary, set(), "apy", fail=True), 1)
+        self.assertEqual(report_glossary_use(glossary, set(), "apy", fail=False), 0)
+
+    def test_rule_that_fired_passes(self):
+        build_nynorsk.REPLACEMENTS_USED["Rå frå"] = 1
+        glossary = {"replace": {"Rå frå": "Råd frå"}, "expected_unused": []}
+        self.assertEqual(report_glossary_use(glossary, set(), "apy", fail=True), 0)
+
+    def test_expected_unused_rule_passes(self):
+        glossary = {"replace": {"Rå frå": "Råd frå"}, "expected_unused": ["Rå frå"]}
+        self.assertEqual(report_glossary_use(glossary, {"Rå frå"}, "apy", fail=True), 0)
+
+    def test_every_exempt_key_is_a_real_rule(self):
+        if not build_nynorsk.GLOSSARY.exists():
+            self.skipTest("glossary not present")
+        g = load_glossary()
+        for key in g["expected_unused"]:
+            self.assertIn(key, g["replace"], f"expected_unused lists {key!r}, which is not a rule")
 
 
 class PageTests(unittest.TestCase):

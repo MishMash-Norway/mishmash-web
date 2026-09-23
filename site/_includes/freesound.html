@@ -3,8 +3,11 @@
 
     {% include freesound.html id="123456" title="Rain on a tin roof" %}
 
-  Freesound's player is an iframe that carries its own fonts and scripts, so the page shows a
-  button instead and puts the player in place on a press. The link to the sound works either way.
+  Freesound's player is an iframe that carries its own scripts, so the page shows a button
+  instead and puts the player in place on a press. The link to the sound works either way.
+  The player used to pull a Google font as well; Freesound replaced it with the default
+  monospace font on 23 September 2026, so everything the iframe loads now comes from
+  freesound.org. The button stays, because the iframe is still a third-party request.
 {% endcomment %}
 <p class="mm-freesound-embed">
   <button type="button" class="mm-embed-button mm-freesound"
