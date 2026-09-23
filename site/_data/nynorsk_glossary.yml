@@ -63,7 +63,7 @@ replace:
   # as an infinitive, "data" read as the English "date", a genitive turned
   # around, and the gender of "eit skript" and "nettstaden".
   "og tilpassa tekstar": "og tilpasse tekstar"
-  "redaktørar gå gjennom og behandlar": "redaktørar går gjennom og bearbeider"
+  "redaktørar gå gjennom": "redaktørar går gjennom"
   "hentar date frå": "hentar data frå"
   "blir teikne på nytt": "blir teikna på nytt"
   "[liten skript]": "[lite skript]"
@@ -77,3 +77,18 @@ replace:
   "blir merke med ein boks": "blir merka med ein boks"
   "problem og retta dei": "problem og rette dei"
   "verktøya eller sidan.": "verktøya eller sida."
+  # CI translates with a local Apertium and a laptop through the public service,
+  # and the two fail differently on the same sentence. These are the local
+  # engine's versions, seen on the published pages.
+  "KI-modell er involverte": "KI-modell er involvert"
+  "i metadataene": "i metadataa"
+  "skapa, utforska og reflektere": "skape, utforske og reflektere"
+  "blir førte tilbake": "blir ført tilbake"
+  "korleis det blir teikna opp og blir servert": "korleis han blir teikna opp og servert"
+  "nettstaden er skrive med": "nettstaden er skriven med"
+  "har bli til": "har vorte til"
+  "arbeidstida kvarandres, pausar og feriar": "arbeidstida, pausane og feriane til kvarandre"
+  # Found by reading the other generated pages after the same rules were added.
+  "har gå gjennom": "har gått gjennom"
+  "respekterer kvarandres arbeidstid, pausar og feriar": "respekterer arbeidstida, pausane og feriane til kvarandre"
+  "som ta i bruk": "som tek i bruk"
