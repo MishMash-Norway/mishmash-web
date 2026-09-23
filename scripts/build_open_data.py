@@ -188,7 +188,34 @@ DATASETS = {
     "projects": ("MishMash projects with people, institutions and work packages", "CC0", ["the centre"]),
     "results": ("Research results registered for the centre in the national research archive, and deposits on Zenodo", "Metadata as recorded in NVA (Sikt) and Zenodo; the compilation is CC0", ["NVA", "Zenodo"]),
     "events": ("MishMash events, past and upcoming", "CC0", ["the centre"]),
+    "terminology": ("MishMash terminology in English, Bokmål and Nynorsk", "CC0", ["the centre"]),
 }
+
+
+def terminology_rows(root: Path) -> list[dict]:
+    """The centre's vocabulary in the three languages of the site.
+
+    One row per glossary entry: the term as each language writes it, the plain
+    explanation, and the address of the entry on the site. The Nynorsk column
+    is the reviewed form, which is what the automatic Nynorsk pages are checked
+    against, so the list is also the record of terminology decisions."""
+    path = root / "_data" / "glossary.yml"
+    if not path.exists():
+        return []
+    rows = []
+    for e in sorted(yaml.safe_load(path.read_text(encoding="utf-8")) or [], key=lambda x: x["key"]):
+        term = e.get("term") or {}
+        standard = e.get("standard") or {}
+        rows.append({
+            "key": e["key"],
+            "en": term.get("en", ""),
+            "nb": term.get("nb", ""),
+            "nn": term.get("nn", ""),
+            "definition_en": standard.get("en", ""),
+            "definition_nb": standard.get("nb", ""),
+            "url": f"{SITE_URL}/about/glossary/#{e['key']}",
+        })
+    return rows
 
 
 def write(name: str, rows: list[dict]) -> None:
@@ -217,6 +244,7 @@ def main() -> int:
         "projects": project_rows(root),
         "results": result_rows(root),
         "events": event_rows(root),
+        "terminology": terminology_rows(root),
     }
     for name, rows in sets.items():
         write(name, rows)

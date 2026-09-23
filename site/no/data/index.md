@@ -4,7 +4,7 @@ lang: nb
 title: Åpne data
 permalink: /no/data/
 translation_url: /data/
-description: "Nettstedets personer, institusjoner, prosjekter, resultater og arrangementer som JSON- og CSV-filer, med lisenser, oppdatert ved hver bygging."
+description: "Nettstedets personer, institusjoner, prosjekter, resultater, arrangementer og terminologi som JSON- og CSV-filer, med lisenser, oppdatert ved hver bygging."
 ---
 
 Alt på dette nettstedet ligger som rene filer, og kan derfor publiseres som data. Filene nedenfor bygges på nytt ved hver utrulling, bærer lisensen og kildene sine i seg, og er ment for gjenbruk av partnere, forskere og programvare, KI-agenter medregnet. [Vilkårene for bruk](/no/about/terms/) gjelder: nettstedets egne data er CC0, og det som kommer fra det nasjonale forskningsarkivet, ORCID og Wikidata beholder kildens vilkår.
@@ -16,6 +16,7 @@ Alt på dette nettstedet ligger som rene filer, og kan derfor publiseres som dat
 | Prosjekter | Prosjekter med personer, institusjoner, arbeidspakker og emneord. | [projects.json](/data/projects.json) | [projects.csv](/data/projects.csv) |
 | Resultater | Forskningsresultater registrert for senteret i NVA: tittel, år, type, DOI, bidragsytere, institusjoner. | [results.json](/data/results.json) | [results.csv](/data/results.csv) |
 | Arrangementer | MishMash-arrangementer, tidligere og kommende, med tid og sted. | [events.json](/data/events.json) | [events.csv](/data/events.csv) |
+| Terminologi | Senterets begreper på engelsk, bokmål og nynorsk, med en enkel forklaring av hvert begrep og lenke til oppslaget i [ordlisten](/no/about/glossary/). Nynorskformen er den gjennomgåtte, og den er fasiten de automatisk oversatte nynorsksidene måles mot. | [terminology.json](/data/terminology.json) | [terminology.csv](/data/terminology.csv) |
 
 Hver JSON-fil har samme form: `title`, `licence`, `sources`, `terms`, `generated_at`, `count` og `items`. CSV-filene slår sammen lister med semikolon og nøstede felt med understrek. Personer og institusjoner har også identifikatorene sine som `sameAs` i de strukturerte dataene på sine egne sider, og arrangementene finnes som [kalenderstrøm](/events/calendar.ics). En kort beskrivelse for språkmodeller ligger på [/llms.txt](/llms.txt).
 

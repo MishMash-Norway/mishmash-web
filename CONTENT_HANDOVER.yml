@@ -86,6 +86,59 @@ writing_style:
     - Check that specialist detail follows general context rather than replacing it.
     - Check that the Norwegian connection is clear without overstating it.
 
+languages_and_terminology:
+  purpose: >-
+    The site is written twice and generated a third time. English under site/ is
+    the source, Bokmaal under site/no/ is written by hand beside it, and Nynorsk
+    under /nn/ is produced from the Bokmaal pages at build time. An agent that
+    edits one language and stops has introduced drift, which is treated as a
+    failure here.
+  rules:
+    - Editing a page under site/ means editing its mirror under site/no/ in the
+      same change, and the other way round. The two pages carry the same
+      headings in the same order.
+    - Never edit anything under site/nn-auto/. It is generated and git ignores
+      it. Correct the Bokmaal page, or add a rule to the translation glossary.
+    - A term the centre uses belongs in site/_data/glossary.yml, with its English,
+      Bokmaal and Nynorsk form, so that the glossary pages, the inline
+      stretchtext explanations and /data/terminology.json all say the same thing.
+  terminology_record:
+    file: site/_data/glossary.yml
+    holds: >-
+      One entry per term: term.en, term.nb and term.nn, a text at each reading
+      level in English and Bokmaal, and optional references. The Nynorsk form is
+      the reviewed one, and it is what the generated Nynorsk pages show instead
+      of the Bokmaal term.
+    published_as:
+      - /about/glossary/ and /no/about/glossary/ and /nn/about/glossary/
+      - /data/terminology.json and /data/terminology.csv, CC0, for reuse by others
+    check: python3 scripts/check_terminology.py
+  nynorsk_generation:
+    script: python3 scripts/build_nynorsk.py
+    engine: >-
+      Apertium nob-nno followed by its e-infinitive variant. CI has Apertium
+      installed and translates locally; a laptop without it goes through the
+      public service at apertium.org with a cache in .nynorsk-cache/. The two
+      fail differently on the same sentence, so a page can read correctly in a
+      local build and wrongly as published. Read the published page.
+    translation_glossary:
+      file: site/_data/nynorsk_glossary.yml
+      keep: Names and terms the translator must not touch.
+      replace: >-
+        Literal repairs applied to the translated text, for a fixed form the
+        centre wants and for what the translator gets wrong by itself. Give a
+        rule enough context to be safe ("Raa fraa", not "Raa").
+      expected_unused: >-
+        Rules that may legitimately match nothing: those aimed at the other back
+        end, and safety nets for a term the translator currently gets right.
+        Each one carries a comment saying why.
+    check: python3 scripts/build_nynorsk.py --check-glossary
+    reading_a_generated_page: >-
+      After changing a Bokmaal page, regenerate and read site/nn-auto/<path>.
+      Look for a present tense turned into an infinitive, a lost definite form,
+      a wrong gender, and Markdown the translator has broken. Add a rule for
+      what you find, rebuild, and grep for the new form to see what it touched.
+
 repository:
   site_source: site/
   build_output: _site/
@@ -364,6 +417,12 @@ validation:
       ruby -e "require 'yaml'; YAML.safe_load(File.read('site/_data/partner_events.yml'), aliases: true); YAML.safe_load(File.read('site/_data/partner_news.yml'), aliases: true)"
   directory_if_touched:
     - python3 scripts/validate_directory.py
+  terminology_if_touched:
+    - python3 scripts/check_terminology.py
+    - python3 scripts/build_nynorsk.py --check-glossary
+  language_mirrors_if_touched:
+    - Confirm the English page and its site/no/ mirror carry the same headings.
+    - Read the regenerated page under site/nn-auto/ before pushing.
   site_build:
     - bundle exec jekyll build --trace
     - bundle exec htmlproofer ./_site --disable-external --no-enforce-https
@@ -463,4 +522,5 @@ agent_workflow:
   - Make the smallest source-only change.
   - Run the narrowest relevant validation, then the site build when practical, from the repository root.
   - If a check or workflow fails, follow build_and_ci before changing anything else.
+  - Mirror every content edit into the other language, and read the generated Nynorsk page.
   - Report source files changed, automation side effects, and checks run.

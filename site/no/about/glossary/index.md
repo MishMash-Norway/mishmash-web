@@ -41,7 +41,7 @@ standarder er merket som utkast.
 {% assign top_level = site.data.audiences.groups | last %}
 <dl class="glossary">
 {% for g in entries %}
-  {%- assign term_nb = g.term.nb | default: g.term.en -%}
+  {%- if page.lang == 'nn' -%}{%- assign term_nb = g.term.nn | default: g.term.nb | default: g.term.en -%}{%- else -%}{%- assign term_nb = g.term.nb | default: g.term.en -%}{%- endif -%}
   <dt id="{{ g.key }}"><strong>{{ term_nb }}</strong>{% include glossary-copy-link.html key=g.key term=term_nb %}</dt>
   <dd>
   {%- for lv in site.data.audiences.groups -%}

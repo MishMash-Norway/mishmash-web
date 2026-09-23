@@ -36,6 +36,7 @@
   term:
     en: "AI"
     nb: "KI"
+    nn: "KI"
   simple:
     en: "computer programs that can learn and solve problems, a bit like how you learn from practice"
     nb: "dataprogrammer som kan lære og løse oppgaver, litt som du lærer av å øve"
@@ -79,6 +80,7 @@
   term:
     en: "creativity"
     nb: "kreativitet"
+    nn: "kreativitet"
   simple:
     en: "coming up with something new that is also good, like a song no one has heard before"
     nb: "å finne på noe nytt som også er bra, som en sang ingen har hørt før"
@@ -98,6 +100,7 @@
   term:
     en: "Creative AI"
     nb: "Kreativ KI"
+    nn: "Kreativ KI"
   simple:
     en: "computer programs that can make new pictures, music or stories on their own"
     nb: "dataprogrammer som kan lage nye bilder, musikk eller historier på egen hånd"
@@ -117,6 +120,7 @@
   term:
     en: "CoCreative AI"
     nb: "Samskapende KI"
+    nn: "Samskapande KI"
   simple:
     en: "AI that makes things together with people, more like a bandmate than a tool"
     nb: "KI som lager ting sammen med mennesker, mer som en bandkamerat enn et verktøy"
@@ -136,6 +140,7 @@
   term:
     en: "co-creation"
     nb: "samskaping"
+    nn: "samskaping"
   simple:
     en: "making something together"
     nb: "å lage noe sammen"
@@ -155,6 +160,7 @@
   term:
     en: "work package"
     nb: "arbeidspakke"
+    nn: "arbeidspakke"
   simple:
     en: "a team working on one part of a big project"
     nb: "et lag som jobber med én del av et stort prosjekt"
@@ -174,6 +180,7 @@
   term:
     en: "work package leader"
     nb: "arbeidspakkeleder"
+    nn: "arbeidspakkeleiar"
   simple:
     en: "the person in charge of one of the seven teams"
     nb: "personen som leder ett av de sju lagene"
@@ -188,6 +195,7 @@
   term:
     en: "stretchtext"
     nb: "stretchtext"
+    nn: "stretchtext"
   simple:
     en: "text you can click to see more, right where you are"
     nb: "tekst du kan klikke på for å se mer, akkurat der du er"
@@ -206,6 +214,7 @@
   term:
     en: "generative AI"
     nb: "generativ KI"
+    nn: "generativ KI"
   simple:
     en: "AI that makes new things, like a picture from a description"
     nb: "KI som lager nye ting, som et bilde ut fra en beskrivelse"
@@ -241,6 +250,7 @@
   term:
     en: "large language model"
     nb: "stor språkmodell"
+    nn: "stor språkmodell"
   simple:
     en: "AI that has read huge amounts of text and can write text back"
     nb: "KI som har lest enorme mengder tekst og kan skrive tekst tilbake"
@@ -276,6 +286,7 @@
   term:
     en: "machine learning"
     nb: "maskinlæring"
+    nn: "maskinlæring"
   simple:
     en: "when a computer gets better at something by practising on lots of examples"
     nb: "når en datamaskin blir bedre til noe ved å øve på mange eksempler"
@@ -302,6 +313,7 @@
   term:
     en: "neural network"
     nb: "nevralt nettverk"
+    nn: "nevralt nettverk"
   simple:
     en: "a computer program built from many tiny connected parts that learn together, loosely inspired by the brain"
     nb: "et dataprogram bygd av mange små sammenkoblede deler som lærer sammen, løst inspirert av hjernen"
@@ -329,6 +341,7 @@
   term:
     en: "rule-based system"
     nb: "regelbasert system"
+    nn: "regelbasert system"
   simple:
     en: "old-style AI that follows rules written by people, like a recipe"
     nb: "gammeldags KI som følger regler skrevet av mennesker, som en oppskrift"
@@ -348,6 +361,7 @@
   term:
     en: "algorithm"
     nb: "algoritme"
+    nn: "algoritme"
   simple:
     en: "a list of steps a computer follows to do something"
     nb: "en liste med steg en datamaskin følger for å gjøre noe"
@@ -375,6 +389,7 @@
   term:
     en: "training data"
     nb: "treningsdata"
+    nn: "treningsdata"
   simple:
     en: "the examples an AI learns from"
     nb: "eksemplene en KI lærer av"
@@ -406,6 +421,7 @@
   term:
     en: "bias"
     nb: "bias (skjevhet)"
+    nn: "bias (skeivskap)"
   simple:
     en: "when an AI treats some people or things unfairly because of what it learned from"
     nb: "når en KI behandler noen mennesker eller ting urettferdig på grunn av det den har lært av"
@@ -433,6 +449,7 @@
   term:
     en: "explainability"
     nb: "forklarbarhet"
+    nn: "forklarbarheit"
   simple:
     en: "being able to explain why an AI did what it did"
     nb: "å kunne forklare hvorfor en KI gjorde det den gjorde"
@@ -460,6 +477,7 @@
   term:
     en: "multimodal"
     nb: "multimodal"
+    nn: "multimodal"
   simple:
     en: "AI that can handle more than one kind of thing, like both pictures and words"
     nb: "KI som kan håndtere mer enn én type ting, som både bilder og ord"
@@ -487,6 +505,7 @@
   term:
     en: "prompt"
     nb: "instruks (prompt)"
+    nn: "instruks (prompt)"
   simple:
     en: "what you tell an AI to do, usually by typing"
     nb: "det du ber en KI om å gjøre, som regel ved å skrive"
@@ -514,6 +533,7 @@
   term:
     en: "AI agent"
     nb: "KI-agent"
+    nn: "KI-agent"
   simple:
     en: "an AI that can do a job on its own, step by step"
     nb: "en KI som kan gjøre en jobb på egen hånd, steg for steg"
@@ -549,6 +569,7 @@
   term:
     en: "embodied AI"
     nb: "kroppsliggjort KI"
+    nn: "kroppsleggjort KI"
   simple:
     en: "AI with a body, like a robot that can move and sense"
     nb: "KI med kropp, som en robot som kan bevege seg og sanse"
@@ -568,6 +589,7 @@
   term:
     en: "computational creativity"
     nb: "beregningsmessig kreativitet"
+    nn: "berekningsmessig kreativitet"
   simple:
     en: "research on whether computers can be creative"
     nb: "forskning på om datamaskiner kan være kreative"
@@ -587,6 +609,7 @@
   term:
     en: "AI literacy"
     nb: "KI-kompetanse"
+    nn: "KI-kompetanse"
   simple:
     en: "knowing enough about AI to use it wisely and ask good questions about it"
     nb: "å vite nok om KI til å bruke den klokt og stille gode spørsmål om den"
@@ -614,6 +637,7 @@
   term:
     en: "responsible AI"
     nb: "ansvarlig KI"
+    nn: "ansvarleg KI"
   simple:
     en: "making and using AI in ways that are fair, safe and good for people"
     nb: "å lage og bruke KI på måter som er rettferdige, trygge og bra for folk"
@@ -633,6 +657,7 @@
   term:
     en: "artistic research"
     nb: "kunstnerisk forskning"
+    nn: "kunstnarleg forsking"
   simple:
     en: "doing research by making art"
     nb: "å forske ved å lage kunst"
@@ -656,6 +681,7 @@
   term:
     en: "cultural heritage"
     nb: "kulturarv"
+    nn: "kulturarv"
   simple:
     en: "old things worth keeping, like songs, pictures, buildings and stories"
     nb: "gamle ting som er verdt å ta vare på, som sanger, bilder, bygninger og fortellinger"
@@ -679,6 +705,7 @@
   term:
     en: "consortium"
     nb: "konsortium"
+    nn: "konsortium"
   simple:
     en: "a group of organisations that team up"
     nb: "en gruppe organisasjoner som går sammen"
@@ -698,6 +725,7 @@
   term:
     en: "partner"
     nb: "partner"
+    nn: "partnar"
   simple:
     en: "an organisation that has joined MishMash"
     nb: "en organisasjon som er med i MishMash"
@@ -712,6 +740,7 @@
   term:
     en: "member"
     nb: "medlem"
+    nn: "medlem"
   simple:
     en: "a person who has joined MishMash"
     nb: "en person som er med i MishMash"
@@ -726,6 +755,7 @@
   term:
     en: "MeshUp"
     nb: "MeshUp"
+    nn: "MeshUp"
   simple:
     en: "MishMash's weekly online meeting, every Thursday"
     nb: "MishMashs ukentlige nettmøte, hver torsdag"
@@ -740,6 +770,7 @@
   term:
     en: "MishMash cube"
     nb: "MishMash-kuben"
+    nn: "MishMash-kuben"
   simple:
     en: "a picture of a box that shows how MishMash is put together"
     nb: "et bilde av en boks som viser hvordan MishMash er satt sammen"
@@ -750,10 +781,56 @@
     en: "a visual device proposed during the application workshops to show that the centre's *themes*, *approaches* and *perspectives* are independent dimensions that cross in every project. The centre's \"mishmash\" of theories and methods is organised into this structured \"mesh\", which is also where the name MeshUp comes from"
     nb: "et visuelt grep foreslått under søknadsverkstedene for å vise at senterets *temaer*, *tilnærminger* og *perspektiver* er uavhengige dimensjoner som krysser hverandre i hvert prosjekt. Senterets «mishmash» av teorier og metoder er ordnet i dette strukturerte nettet («mesh»), som også er der navnet MeshUp kommer fra"
 
+- key: budget-partner
+  term:
+    en: "budget partner"
+    nb: "budsjettpartner"
+    nn: "budsjettpartnar"
+  simple:
+    en: "a partner that gets money from MishMash and helps run it"
+    nb: "en partner som får penger fra MishMash og er med på å drive senteret"
+  standard:
+    en: "an institution that has signed the consortium agreement and receives funds directly from MishMash. Each budget partner has a seat on the Council"
+    nb: "en institusjon som har signert konsortieavtalen og mottar midler direkte fra MishMash. Hver budsjettpartner har en plass i Rådet"
+  advanced:
+    en: "a partner institution bound by the consortium agreement, with its own share of the budget, its own recruitment of fellows and postdocs, and a representative on the Council. Other partners take part in the centre's work without receiving funds directly"
+    nb: "en partnerinstitusjon som er bundet av konsortieavtalen, med sin egen andel av budsjettet, egen rekruttering av stipendiater og postdoktorer og en representant i Rådet. Andre partnere deltar i senterets arbeid uten å motta midler direkte"
+
+- key: code-of-conduct
+  term:
+    en: "code of conduct"
+    nb: "etiske retningslinjer"
+    nn: "etiske retningslinjer"
+  simple:
+    en: "the rules for how people in MishMash treat each other"
+    nb: "reglene for hvordan folk i MishMash behandler hverandre"
+  standard:
+    en: "the centre's guidelines for how everyone taking part treats one another, and where to turn if something is not right. They apply in every MishMash setting, in person and online"
+    nb: "senterets retningslinjer for hvordan alle som deltar, behandler hverandre, og hvor man henvender seg hvis noe ikke er som det skal. De gjelder i alle MishMash-sammenhenger, både ansikt til ansikt og på nett"
+  advanced:
+    en: "a written statement of the values the centre works by and the behaviour expected of everyone taking part, with the route for raising a concern. MishMash is not a legal entity and carries no employer responsibility, so anything that calls for a formal process follows the rules of the institution where it happened"
+    nb: "en skriftlig framstilling av verdiene senteret arbeider etter og oppførselen som ventes av alle som deltar, med veien videre for den som vil si fra. MishMash er ikke en juridisk enhet og har ikke arbeidsgiveransvar, så alt som krever en formell prosess, følger reglene ved institusjonen der det skjedde"
+
+- key: management-group
+  term:
+    en: "Management Group"
+    nb: "Ledergruppen"
+    nn: "Leiargruppa"
+  simple:
+    en: "the small group that runs MishMash from day to day"
+    nb: "den lille gruppen som driver MishMash fra dag til dag"
+  standard:
+    en: "the group that handles the day-to-day coordination and administration of the centre. It meets weekly"
+    nb: "gruppen som står for den daglige koordineringen og administrasjonen av senteret. Den møtes ukentlig"
+  advanced:
+    en: "the centre's executive group: the director and the two deputy directors, who carry one of the centre's three perspectives each, machines, humans and society, together with the administrative coordinator and the research advisor. It meets weekly, and prepares what the Board decides"
+    nb: "senterets utøvende gruppe: senterlederen og de to nestlederne, som har hvert sitt av senterets tre perspektiver, maskiner, mennesker og samfunn, sammen med den administrative koordinatoren og forskningsrådgiveren. Den møtes ukentlig og forbereder det Styret avgjør"
+
 - key: board
   term:
     en: "Board"
     nb: "Styret"
+    nn: "Styret"
   simple:
     en: "the group that decides the big things about MishMash"
     nb: "gruppa som bestemmer de store tingene i MishMash"
@@ -768,6 +845,7 @@
   term:
     en: "Council"
     nb: "Rådet"
+    nn: "Rådet"
   simple:
     en: "a group with one person from each partner that gives MishMash advice"
     nb: "en gruppe med én person fra hver partner som gir MishMash råd"
@@ -781,7 +859,8 @@
 - key: scientific-advisory-board
   term:
     en: "Scientific Advisory Board"
-    nb: "Vitenskapelig rådgivende råd"
+    nb: "Vitenskapelig råd"
+    nn: "Vitskapleg råd"
   simple:
     en: "experts from other countries who check that MishMash's research is good"
     nb: "eksperter fra andre land som sjekker at forskningen i MishMash er god"
@@ -796,6 +875,7 @@
   term:
     en: "Stakeholder Board"
     nb: "Interessentråd"
+    nn: "Interessentråd"
   simple:
     en: "people from outside research who tell MishMash what is useful"
     nb: "folk utenfor forskningen som forteller MishMash hva som er nyttig"
@@ -810,6 +890,7 @@
   term:
     en: "Research Council of Norway"
     nb: "Forskningsrådet"
+    nn: "Forskingsrådet"
   simple:
     en: "the Norwegian government agency that pays for research, including MishMash"
     nb: "statens organ som betaler for forskning i Norge, også MishMash"
@@ -824,6 +905,7 @@
   term:
     en: "seed funding"
     nb: "såkornmidler"
+    nn: "såkornmidlar"
   simple:
     en: "small pots of money to try out a new idea"
     nb: "små pengesummer for å prøve ut en ny idé"
@@ -838,6 +920,7 @@
   term:
     en: "PhD fellow"
     nb: "stipendiat"
+    nn: "stipendiat"
   simple:
     en: "someone who is paid to do research for a few years to earn the highest university degree"
     nb: "en som får lønn for å forske i noen år for å ta den høyeste universitetsgraden"
@@ -857,6 +940,7 @@
   term:
     en: "postdoc"
     nb: "postdoktor"
+    nn: "postdoktor"
   simple:
     en: "a researcher who has finished a PhD and is doing more research for a few years"
     nb: "en forsker som er ferdig med doktorgraden og forsker videre i noen år"
@@ -876,6 +960,7 @@
   term:
     en: "NVA"
     nb: "NVA"
+    nn: "NVA"
   simple:
     en: "the Norwegian archive where research is registered"
     nb: "det norske arkivet der forskning registreres"
@@ -890,6 +975,7 @@
   term:
     en: "ORCID"
     nb: "ORCID"
+    nn: "ORCID"
   simple:
     en: "a number that shows which researcher wrote what"
     nb: "et nummer som viser hvilken forsker som har skrevet hva"
@@ -904,6 +990,7 @@
   term:
     en: "LCA"
     nb: "LCA"
+    nn: "LCA"
   simple:
     en: "a way to measure how much something harms the environment over its whole life"
     nb: "en måte å måle hvor mye noe skader miljøet gjennom hele levetiden"

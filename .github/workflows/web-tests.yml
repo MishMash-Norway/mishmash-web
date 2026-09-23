@@ -38,6 +38,9 @@ jobs:
       - name: Check Liquid conditions that mix and with or
         run: python3 scripts/check_liquid_conditions.py
 
+      - name: Check the terminology record has all three languages
+        run: python3 scripts/check_terminology.py
+
       - name: Run script unit tests
         run: |
           for t in scripts/test_*.py; do
