@@ -6,32 +6,32 @@ translation_url: /no/about/code-of-conduct/
 description: "The values MishMash works by, how members treat one another, and where to turn if something is not right."
 ---
 
-MishMash brings together a large group of people from numerous artistic and scientific backgrounds, working at many different types of institutions. That mixture is what the centre is for, and it works when everyone feels safe and can take part on equal terms.
+MishMash brings together researchers from a range of artistic and scientific disciplines, along with many other participants from private and public institutions. That mixture of people and perspectives matters for reaching the centre's ambitions, and it also asks us to take care that everyone feels able to take part on equal terms.
 
-Our goal is a centre that invites participation from people of all ethnicities, countries of origin, gender identities and expressions, sexual orientations, appearances, ages, abilities, economic and professional backgrounds, employment status, and beliefs. This code of conduct applies to everyone taking part, in every MishMash setting.
+Our goal is a centre that invites participation from people of all academic backgrounds, employment situations, ethnicities, countries of origin, gender identities and expressions, sexual orientations, appearances, ages, abilities, beliefs, and economic backgrounds.
+
+We have therefore drawn up the guidelines in this document, which apply to all MishMash activities.
 
 ## What we value
 
-- **Curiosity.** We are here because we believe others know things we do not and that we can learn from.
-- **Generosity.** We share methods, data, code and contacts early, and we help newcomers find their way into the network.
-- **Integrity.** We hold to high ethical standards in our research and in our daily work, and we are open about how results and works came about.
-- **Care.** We look after one another, and we remember that people take part from different institutions, career stages, and life situations.
+- **Curiosity.** We are here because we can learn from one another.
+- **Generosity.** We share knowledge, methods, data, and code, and we help new members find their way into the network.
+- **Care.** We look after one another and remember that people take part from different institutions, career stages, and life situations.
+- **Integrity.** We follow high ethical standards in our research and are open about how results and works came about.
 
 ## How we work together
 
-- **Friendliness.** We treat one another as colleagues, disagree with an argument rather than a person, and assume that someone disagreeing with us has good reasons we have not heard yet.
-- **Diversity.** We acknowledge and respect that colleagues bring different characteristics, backgrounds and traditions, and we treat that range as a strength.
+- **Friendliness.** We meet one another as colleagues, and assume that someone who disagrees with us has good reasons we have not heard yet.
+- **Diversity.** We acknowledge and respect that we have different characteristics, backgrounds and traditions, and we treat that range as a strength.
 - **Time.** We respect each other's working hours, breaks and holidays, and we agree deadlines that can be met.
-- **Space and access.** We choose venues (physical or virtual) and formats (synchronous or asynchronous) that best fit the purpose of the activities to be done.
-- **Meetings.** We give meetings a clear purpose and chair them so that everyone's voice can be heard.
-- **Credit and consent.** We name the people whose work we build on, agree authorship early, and say what a tool contributed, following the [AI colophon](/about/ai-colophon/).
-
-## Where the line goes
-
-Harassment has no place in MishMash. That includes unwanted attention, intimidation, slurs, and comments that single people out by gender, ethnicity, religion, disability, age, sexuality or background, in person and online.
+- **Space and access.** We choose meeting rooms (physical or digital) and meeting formats (synchronous or asynchronous) that fit what is to be done.
+- **Meetings.** We make sure that meetings have a clear purpose, and we chair them so that everyone can have their say.
+- **Credit and consent.** We name those who have contributed to our research, agree authorship roles early, and explain what AI tools contributed, as the [AI colophon](/about/ai-colophon/) describes.
 
 ## If something is not right
 
+Harassment has no place in MishMash. That covers every form of unwanted attention, intimidation, slurs and demeaning comments.
+
 Speak to the organiser of the activity, to a member of the [management team](/about/organisation/management/), or write to [contact@mishmash.no](mailto:contact@mishmash.no).
 
-Anything that calls for a formal process follows the rules of the institution where it happened, and the centre helps the person find the right channel there. Nothing on this page replaces an employer's or a university's own procedures, or the law.
+MishMash is not a legal entity and carries no employer responsibility. A breach that calls for a formal process follows the rules of the institution concerned. The centre management can help find the right channel where needed.

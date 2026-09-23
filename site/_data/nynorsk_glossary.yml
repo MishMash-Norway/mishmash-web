@@ -55,3 +55,7 @@ replace:
   "Me vel ": "Vi vel "
   "komme til orda": "komme til orde"
   "eller love.": "eller lova."
+  # A genitive turned into a place, and one more present tense read as an
+  # infinitive.
+  "ambisjonane på senteret": "ambisjonane til senteret"
+  "som passe til": "som passar til"
