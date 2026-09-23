@@ -61,7 +61,9 @@ PROTECT = [
     re.compile(r"`[^`\n]+`"),                         # inline code
     re.compile(r"\]\([^)\s]+\)"),                     # link targets
     re.compile(r"https?://\S+"),                      # bare URLs
-    re.compile(r"\*\*|__"),                           # emphasis markers
+    re.compile(r"\*\*|__"),                           # strong emphasis markers
+    # single-asterisk italics: shield the delimiters, translate what is between
+    re.compile(r"(?<![\*\w])\*(?=[^\s*])|(?<=[^\s*])\*(?![\*\w])"),
     re.compile(r"\{:[^}]*\}"),                        # kramdown attributes
     re.compile(r"#[0-9a-fA-F]{3,8}(?![\w-])"),          # hex colour codes
     re.compile(r"(?<![\w-])[A-ZÆØÅ][A-ZÆØÅ0-9]{1,}(?![\w-])"),  # acronyms such as NVA, WCAG, RSS
@@ -82,6 +84,15 @@ def strip_marks(text: str) -> str:
         else:
             out.append(line.replace("#", ""))
     return "\n".join(out)
+
+
+LIST_MARKER_RE = re.compile(r"^(\s*)(\d+) \.(\s)", re.M)
+
+
+def fix_list_markers(text: str) -> str:
+    """Put back the space the translator inserts before the dot of an ordered
+    list marker, which otherwise stops Markdown seeing a list at all."""
+    return LIST_MARKER_RE.sub(r"\1\2.\3", text)
 
 
 def load_glossary() -> dict:
@@ -200,7 +211,7 @@ def translate_text(text: str, tr: Translator, glossary: dict) -> str:
         lead = original[: len(original) - len(original.lstrip())]
         trail = original[len(original.rstrip()):]
         result[i] = lead + strip_marks(piece.strip()) + trail
-    return apply_replacements("".join(result), glossary["replace"])
+    return apply_replacements(fix_list_markers("".join(result)), glossary["replace"])
 
 
 def split_front_matter(text: str) -> tuple[dict, str, str]:

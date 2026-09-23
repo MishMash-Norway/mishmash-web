@@ -5,7 +5,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from build_nynorsk import strip_marks, apply_replacements, nn_permalink, segment, split_front_matter, transform_page, translate_text
+from build_nynorsk import strip_marks, fix_list_markers, apply_replacements, nn_permalink, segment, split_front_matter, transform_page, translate_text
 
 
 class FakeTranslator:
@@ -28,6 +28,18 @@ class SegmentTests(unittest.TestCase):
             self.assertIn(span, protected)
         self.assertEqual("".join(c for _, c in parts), text)
 
+    def test_protects_single_asterisk_italics(self):
+        text = "norsk (både *bokmål* og *nynorsk*), og **fet** tekst"
+        parts = segment(text, GLOSSARY["keep"])
+        protected = [c for p, c in parts if p]
+        self.assertEqual(protected.count("*"), 4)
+        self.assertIn("**", protected)
+        self.assertEqual("".join(c for _, c in parts), text)
+        self.assertEqual(
+            translate_text(text, FakeTranslator(), GLOSSARY),
+            "NORSK (BÅDE *BOKMÅL* OG *NYNORSK*), OG **FET** TEKST",
+        )
+
     def test_nested_protection_is_merged(self):
         parts = segment('<a href="{{ url }}">tekst</a>', [])
         self.assertEqual([c for p, c in parts if p], ['<a href="{{ url }}">', "</a>"])
@@ -38,6 +50,11 @@ class SegmentTests(unittest.TestCase):
 
     def test_marks_are_removed_but_headings_kept(self):
         self.assertEqual(strip_marks("## Overskrift og #liste her\ngå# tapt, 2.1 # og vere#"), "## Overskrift og liste her\ngå tapt, 2.1  og vere")
+
+    def test_ordered_list_markers_are_repaired(self):
+        self.assertEqual(fix_list_markers("1 . Fyrst\n2 . Deretter"), "1. Fyrst\n2. Deretter")
+        self.assertEqual(fix_list_markers("  3 . Innrykk"), "  3. Innrykk")
+        self.assertEqual(fix_list_markers("Vi vann 3 . plass"), "Vi vann 3 . plass")
 
     def test_replacements(self):
         self.assertEqual(apply_replacements("FORSKNINGSRÅDET gir", GLOSSARY["replace"]), "Forskingsrådet gir")
