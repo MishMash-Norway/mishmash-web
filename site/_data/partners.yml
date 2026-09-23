@@ -155,6 +155,10 @@
   - name: Kilden Performing Arts Centre
     url: https://kilden.com/en/
     url_nb: https://kilden.com/
+  - name: Kristiansand International Children´s Film Festival
+    url: https://barnefilmfestivalen.no/en/
+    name_nb: Kristiansand Internasjonale Barnefilmfestival
+    url_nb: https://barnefilmfestivalen.no/
 # - name: KODE Bergen Art Museum
   # url: https://www.kodebergen.no/en
   # name_nb: KODE Kunstmuseer og komponisthjem
