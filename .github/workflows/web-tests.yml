@@ -71,7 +71,7 @@ jobs:
         run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
 
       - name: Generate the Nynorsk mirror, measure the languages, build the open data and the AVIF variants
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py && pip install -q Pillow && python3 scripts/build_avif.py
+        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py --check-glossary && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py && pip install -q Pillow && python3 scripts/build_avif.py
 
       - name: Build site
         run: bundle exec jekyll build --trace

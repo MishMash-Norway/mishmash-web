@@ -20,9 +20,16 @@ Translation runs locally when the apertium command is installed (the CI
 runners install it), and otherwise through the public APy service at
 apertium.org with a local cache, so a laptop without Apertium can still build.
 
+Every replacement rule counts what it repaired, and the run reports the rules
+that did no work. A rule that repairs nothing is either fixed upstream, aimed at
+the other back end, or written for a sentence that has since been rewritten;
+--check-glossary turns that into a failure, except for the rules listed under
+expected_unused in the glossary.
+
 Usage:
-  python3 scripts/build_nynorsk.py            # generate
-  python3 scripts/build_nynorsk.py --status   # only report what is reviewed and what is automatic
+  python3 scripts/build_nynorsk.py                   # generate
+  python3 scripts/build_nynorsk.py --status          # only report what is reviewed and what is automatic
+  python3 scripts/build_nynorsk.py --check-glossary  # fail on a rule that repaired nothing
 """
 from __future__ import annotations
 

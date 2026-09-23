@@ -36,6 +36,7 @@ replace:
   "Rå om": "Råd om"
   "Overordn avgjerder": "Overordna avgjerder"
   "ad hoc-møter": "ad hoc-møte"
+  "ad hoc-møtene": "ad hoc-møta"
   "| Ukentlig |": "| Kvar veke |"
   # "forventes å følge" comes back as "er vente" or "er forventa"; the centre
   # says it plainly.
@@ -94,11 +95,14 @@ replace:
 # service, and the two fail differently on the same sentence; and a rule kept
 # as a safety net for a term the translator currently gets right on its own.
 expected_unused:
-  # The public service gets this one right by itself; kept because the name matters.
+  # Both engines get this one right by themselves; kept because the name matters.
   - "Forskningsrådet"
-  # The local Apertium's versions of sentences the public service breaks differently.
-  - "er forventa å følgje"
+  # Seen once from the public service and not since; the service is not
+  # deterministic, so the repair stays.
   - "Me vel "
+  # What the local Apertium in CI produces. The public service breaks the same
+  # sentences differently, so these match nothing in a laptop build.
+  - "er forventa å følgje"
   - "KI-modell er involverte"
   - "i metadataene"
   - "skapa, utforska og reflektere"
@@ -107,3 +111,15 @@ expected_unused:
   - "nettstaden er skrive med"
   - "har bli til"
   - "arbeidstida kvarandres, pausar og feriar"
+  # What the public service produces. These match nothing in CI, where Apertium
+  # is installed and translates locally.
+  - "er vente å følgje"
+  - "Rå frå"
+  - "på lik vilkår"
+  - "hentar date frå"
+  - "blir teikne på nytt"
+  - "blir merke med ein boks"
+  - "ned til teikne nettstaden"
+  - "korleis det blir teikne opp og blir servert"
+  - "skap, utforska og reflektere"
+  - "respekterer kvarandres arbeidstid, pausar og feriar"

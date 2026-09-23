@@ -7,7 +7,7 @@ translation_url: /about/organisation/management/
 
 Ledelsen håndterer den daglige koordineringen og administrasjonen av MishMash-aktivitetene. Den møtes ukentlig.
 
-Senteret ser på de syv temaene sine fra tre perspektiver, og ett medlem av ledelsen har ansvaret for hvert av dem: direktøren følger maskiner, og de to nestlederne følger mennesker og samfunn. Perspektivene er det de månedlige møtene for hele senteret bygger på, slik at folk som ellers ikke ville møttes, diskuterer det samme spørsmålet fra sitt eget fag.
+Senteret ser på de syv temaene sine fra tre perspektiver, og ett medlem av ledelsen har ansvaret for hvert av dem: direktøren følger maskiner, og de to nestlederne følger mennesker og samfunn. Perspektivene er det ad hoc-møtene for hele senteret bygger på, slik at folk som ellers ikke ville møttes, diskuterer det samme spørsmålet fra sitt eget fag.
 
 ## Medlemmer
 
