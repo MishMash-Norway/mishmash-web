@@ -48,3 +48,10 @@ replace:
   "som peike ut folk": "som peikar ut folk"
   "Kvar grense går": "Kvar grensa går"
   "blir teken opp": "blir teke opp"
+  # More of the same: a lost plural in "like vilkår", "best" read as "god", the
+  # Vi/Me split, and two words left in Bokmål.
+  "på lik vilkår": "på like vilkår"
+  "passar god til": "passar best til"
+  "Me vel ": "Vi vel "
+  "komme til orda": "komme til orde"
+  "eller love.": "eller lova."
