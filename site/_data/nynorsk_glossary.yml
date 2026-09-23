@@ -42,3 +42,9 @@ replace:
   # says it plainly.
   "er vente å følgje": "skal følgje"
   "er forventa å følgje": "skal følgje"
+  # The e-infinitive pass turns some present-tense verbs into infinitives, drops
+  # the definite form after "Kvar", and gets the gender of "eit møte" wrong.
+  "og gå ut frå at": "og går ut frå at"
+  "som peike ut folk": "som peikar ut folk"
+  "Kvar grense går": "Kvar grensa går"
+  "blir teken opp": "blir teke opp"
