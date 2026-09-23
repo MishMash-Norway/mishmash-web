@@ -30,3 +30,15 @@ replace:
   "Senter fór KI": "Senter for KI"
   "senter fór KI": "senter for KI"
   "Forskningsrådet": "Forskingsrådet"
+  # The translator drops the "d" of "Råd" when the word opens a table cell, and
+  # leaves "Overordnede" and a bare "Ukentlig" half-translated.
+  "Rå frå": "Råd frå"
+  "Rå om": "Råd om"
+  "Rå til": "Råd til"
+  "Overordn avgjerder": "Overordna avgjerder"
+  "ad hoc-møter": "ad hoc-møte"
+  "| Ukentlig |": "| Kvar veke |"
+  # "forventes å følge" comes back as "er vente" or "er forventa"; the centre
+  # says it plainly.
+  "er vente å følgje": "skal følgje"
+  "er forventa å følgje": "skal følgje"
