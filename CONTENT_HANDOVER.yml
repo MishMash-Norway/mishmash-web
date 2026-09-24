@@ -438,6 +438,22 @@ validation:
         the title link carries tabindex="-1", aria-hidden="true" and an empty alt.
       - Anything that opens on pointer or focus closes on Escape, and gives the
         focus back to what opened it.
+      - A page that introduces an abbreviation adds it to site/_data/abbreviations.yml
+        with its expansion in English, Bokmaal and Nynorsk. The "about this page"
+        panel lists the ones found on each page, at build time, with no script.
+      - Every page but the front pages carries a breadcrumb trail drawn from its
+        address (_includes/breadcrumbs.html). A page switches it off by setting
+        breadcrumbs to false in its front matter.
+      - A page with reading levels wraps each prose section in
+        div.adaptive blocks with data-for naming the level (simple, standard or
+        advanced) and sets adaptive to true. check_readability.py --strict fails
+        when a section covers some levels but not all. WP1 is the model.
+    wcag_aaa: >-
+      The main site is measured against AAA as a report only:
+      node scripts/measure_aaa.mjs. A theme that declares wcag_target: AAA in
+      its _config.yml is measured with --fail in the theme job and has to reach
+      it. The purple surface stays as it is on the main site by decision; test
+      it in a theme. Figures and open items are on issue #76.
 
   terminology_if_touched:
     - python3 scripts/check_terminology.py
