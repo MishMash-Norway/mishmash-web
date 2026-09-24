@@ -15,7 +15,10 @@
 // transparent takes the first painted background above it, which is what the
 // browser composites against.
 //
-// Usage: node scripts/check_contrast.mjs [--site _site] [--list]
+// Usage: node scripts/check_contrast.mjs [--site _site] [--base https://mishmash.no] [--list]
+//
+// --base measures a site that is already served, such as production after a
+// deploy, instead of the local build.
 
 import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
@@ -157,9 +160,11 @@ async function main() {
   const root = resolve(args.includes('--site') ? args[args.indexOf('--site') + 1] : '_site');
   const listOnly = args.includes('--list');
 
-  const app = server(root);
-  await new Promise((r) => app.listen(0, '127.0.0.1', r));
-  const base = `http://127.0.0.1:${app.address().port}`;
+  const remote = args.includes('--base') ? args[args.indexOf('--base') + 1].replace(/\/$/, '') : null;
+  const app = remote ? null : server(root);
+  if (app) await new Promise((r) => app.listen(0, '127.0.0.1', r));
+  const base = remote || `http://127.0.0.1:${app.address().port}`;
+  console.log(`measuring ${base}`);
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
 
@@ -206,7 +211,7 @@ async function main() {
   }
 
   await browser.close();
-  app.close();
+  if (app) app.close();
 
   console.log(`\ncontrast: ${measured} pieces of text measured, ${failures.length} distinct combination(s) below the threshold`);
   if (failures.length && !listOnly) {
