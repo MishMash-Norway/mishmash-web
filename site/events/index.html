@@ -36,8 +36,8 @@ if (window.location.hash === '#partner-events') {
     <div class="event-item">
       {% include pick-thumb.html item=item meshup_fallback=true %}
       {% if thumb %}
-        <a href="{{ item.url | relative_url }}">
-          <img class="event-thumb" src="{{ thumb | relative_url }}" alt="{{ item.title }}">
+        <a href="{{ item.url | relative_url }}" tabindex="-1" aria-hidden="true">
+          <img class="event-thumb" src="{{ thumb | relative_url }}" alt="">
         </a>
       {% endif %}
       <div class="event-content">
@@ -69,8 +69,8 @@ if (window.location.hash === '#partner-events') {
     <div class="event-item">
       {% include pick-thumb.html item=item meshup_fallback=true %}
       {% if thumb %}
-        <a href="{{ item.url | relative_url }}">
-          <img class="event-thumb" src="{{ thumb | relative_url }}" alt="{{ item.title }}">
+        <a href="{{ item.url | relative_url }}" tabindex="-1" aria-hidden="true">
+          <img class="event-thumb" src="{{ thumb | relative_url }}" alt="">
         </a>
       {% endif %}
       <div class="event-content">

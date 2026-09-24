@@ -20,9 +20,9 @@
 {% if show_item %}
 <div class="event-item partner-event-item">
   {% if item.url %}
-  <a href="{{ item.url }}">
+  <a href="{{ item.url }}" tabindex="-1" aria-hidden="true">
     <span class="event-thumb partner-event-icon">
-      <img class="partner-event-thumb" src="{{ item.og_image }}" alt="{{ item.title | strip_html | escape_once }}" loading="lazy" referrerpolicy="no-referrer">
+      <img class="partner-event-thumb" src="{{ item.og_image }}" alt="" loading="lazy" referrerpolicy="no-referrer">
     </span>
   </a>
   {% endif %}

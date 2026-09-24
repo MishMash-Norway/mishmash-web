@@ -78,12 +78,26 @@ END:VCALENDAR
   through the six as the weekly events go by.
 {% endcomment %}
 {% assign event_image = page.image %}
+{% assign event_image_is_decoration = false %}
 {% if event_image == nil or event_image == '' or event_image contains 'mishmash_bubbles_notext.svg' %}
   {% assign day_of_year = page.date | date: "%j" | plus: 0 %}
   {% assign bubble_number = day_of_year | modulo: 6 | plus: 1 %}
   {% capture event_image %}/assets/images/bubbles/thumbs/bubbles-{{ bubble_number }}.svg{% endcapture %}
+  {% assign event_image_is_decoration = true %}
 {% endif %}
-{% assign event_image_alt = page.location | default: page.title %}
+{% comment %}
+  The picture is nearly always the speaker, and until 24 September 2026 its
+  alternative text was the event's location, so a screen reader announced
+  "Zoom" where a name belonged (1.1.1, found by the UiO web team). An event
+  with a picture of a person carries image_alt in its front matter, checked by
+  scripts/check_event_alt.py. The bubble drawn when an event has no picture of
+  its own is decoration and takes an empty alt.
+{% endcomment %}
+{% if event_image_is_decoration %}
+  {% assign event_image_alt = '' %}
+{% else %}
+  {% assign event_image_alt = page.image_alt | default: page.title %}
+{% endif %}
 {% capture event_image_markdown %}
 ![{{ event_image_alt }}]({{ event_image | relative_url }}){: style="border-radius:50%; float:right; margin:0 0 1em 1em; width:140px; height:140px; object-fit:cover;" }
 {% endcapture %}

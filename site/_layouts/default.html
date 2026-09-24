@@ -199,6 +199,33 @@
             });
           });
         });
+
+        // A menu opened with a pointer or a key has to be dismissable without
+        // moving either (WCAG 1.4.13; the UiO web team found it on 24 September
+        // 2026). Escape closes the open menu and puts the focus back on the
+        // button that opened it, so a keyboard reader is not left inside; a
+        // press anywhere else closes it as well.
+        function closeMenus(except) {
+          dropdowns.forEach(function (details) {
+            if (details.open && details !== except) details.open = false;
+          });
+        }
+        document.addEventListener('keydown', function (e) {
+          if (e.key !== 'Escape' && e.key !== 'Esc') return;
+          var open = null;
+          dropdowns.forEach(function (details) { if (details.open) open = details; });
+          if (!open) return;
+          open.open = false;
+          var summary = open.querySelector('summary');
+          if (summary) summary.focus();
+        });
+        document.addEventListener('click', function (e) {
+          var inside = null;
+          dropdowns.forEach(function (details) {
+            if (details.contains(e.target)) inside = details;
+          });
+          closeMenus(inside);
+        });
       })();
     </script>
   </body>

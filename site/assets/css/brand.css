@@ -34,6 +34,11 @@
   --mm-pink-tint: #fdf1f1;
   --mm-yellow-tint: #fbfce6;
 
+  /* The identity purple is a surface colour. As text on white it reaches only
+     2.89:1, so links that turn purple on hover or focus use this darker step of
+     the same hue: 6.62:1 on white and 5.97:1 on the lightest tint. */
+  --mm-purple-text: #5d4db2;
+
   /* Greys derived from the ink for secondary text and rules. */
   --mm-ink-70: #5c5859;
   --mm-ink-40: #a7a4a5;

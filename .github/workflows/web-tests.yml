@@ -41,6 +41,9 @@ jobs:
       - name: Check the terminology record has all three languages
         run: python3 scripts/check_terminology.py
 
+      - name: Check every picture of a person on an event page names them
+        run: python3 scripts/check_event_alt.py
+
       - name: Run script unit tests
         run: |
           for t in scripts/test_*.py; do
@@ -326,6 +329,12 @@ jobs:
       - name: Accessibility scan of the theme front pages
         continue-on-error: true
         run: npx --yes pa11y-ci@4 --config .pa11yci.themes.json
+
+      - name: Menus can be dismissed with a key and with a press elsewhere
+        run: npx playwright test -c tests/visual/playwright.config.js tests/visual/menus.spec.js
+
+      - name: Text contrast in the states a page scan cannot reach
+        run: node scripts/check_contrast.mjs
 
       - name: Compare the theme front pages with the baselines
         continue-on-error: true

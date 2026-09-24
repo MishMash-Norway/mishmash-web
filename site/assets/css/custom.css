@@ -80,7 +80,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: var(--mm-purple) !important;
+  color: var(--mm-purple-text) !important;
 }
 
 .page-header a,
@@ -192,6 +192,21 @@ body {
 .wp-dropdown .wp-list a {
   display: block;
   padding: 6px 12px;
+}
+
+/* An open drop-down is ink with green text (identity.css). The panel below it
+   is white, so the panel states its own colour rather than inheriting the
+   button's: the current language was green on white, 1.47:1, until 24
+   September 2026. */
+.wp-dropdown .wp-list,
+.wp-dropdown .wp-list .lang-active {
+  color: var(--mm-ink);
+}
+
+.wp-dropdown .wp-list .lang-active {
+  display: block;
+  padding: 6px 12px;
+  font-weight: 700;
 }
 
 /* Event page header styles */
@@ -1202,6 +1217,10 @@ a:focus-visible .icon {
   margin-bottom: 0.2rem;
 }
 
+/* The badge colours are mid-tones, and white on a mid-tone fails 1.4.3: the
+   audit on 24 September 2026 measured 2.9:1 on the person badge. Ink passes on
+   all of them (4.64:1 on the lightest), so ink is the default and white is kept
+   for the one dark background. scripts/check_contrast.mjs measures this. */
 .result-type-badge {
   font-size: 0.75rem;
   font-weight: 700;
@@ -1209,12 +1228,12 @@ a:focus-visible .icon {
   letter-spacing: 0.05em;
   padding: 2px 7px;
   border-radius: 4px;
-  color: #fff;
+  color: var(--mm-ink);
 }
 
 .result-type-event       { background: var(--mm-purple); }
 .result-type-news        { background: #5cb85c; }
-.result-type-page        { background: #55606a; }
+.result-type-page        { background: #55606a; color: var(--mm-white); }
 .result-type-person      { background: #d9806b; }
 .result-type-institution { background: #4a90b8; }
 .result-type-project     { background: #e0a030; }
@@ -2085,4 +2104,19 @@ video.mm-heritage-player {
 
 .nva-result-oa-licence {
   color: #55606a;
+}
+
+/* Skip link (markup in _layouts/default.html, hidden until focused).
+   The theme gave it the link colour on an inverted-link background, which came
+   out at 1.17:1. It is now ink on the identity's yellow, 11.5:1, with an ink
+   rule around it so it reads as a control. */
+#skip-to-content:focus {
+  background: var(--mm-yellow);
+  color: var(--mm-ink) !important;
+  outline: 3px solid var(--mm-ink);
+  outline-offset: 0;
+  padding: 8px 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  z-index: 2000;
 }
