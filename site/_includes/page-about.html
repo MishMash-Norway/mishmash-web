@@ -166,6 +166,9 @@
         <dt>{{ t.page_about_accessibility }}</dt>
         <dd>
           <a href="{{ t.accessibility_url | relative_url }}">{{ t.page_about_accessibility_level }}</a>
+          {%- if t.accessibility_statement_url %}
+          · <a href="{{ t.accessibility_statement_url }}" rel="noopener" target="_blank">{{ t.page_about_accessibility_statement }}</a>
+          {%- endif %}
         </dd>
       </div>
 

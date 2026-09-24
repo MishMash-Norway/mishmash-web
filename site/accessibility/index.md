@@ -7,6 +7,8 @@ translation_url: /no/accessibility/
 
 This website should be usable by as many people as possible, whatever they browse with. The site is built to be accessible to the standard Norwegian law sets: the regulation on universal design of ICT, which requires public websites to satisfy the 48 success criteria of the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) at levels A and AA listed by the [Norwegian Authority for Universal Design of ICT](https://www.uutilsynet.no/wcag-standarden/wcag-standarden/86).
 
+The centre's accessibility statement, [published at uustatus.no](https://uustatus.no/nb/erklaringer/publisert/2858c960-8d5e-41ab-9fab-cf0ed3944ed3), sits in the register the Norwegian Authority for Universal Design of ICT keeps. It is the formal declaration of how far this site meets the requirements, and it is maintained by the University of Oslo as the responsible body. This page says the same thing in ordinary words, and adds how the site is checked.
+
 ## What the site does
 
 - A skip link at the top of every page leads straight to the content.
