@@ -2120,3 +2120,36 @@ video.mm-heritage-player {
   text-decoration: underline;
   z-index: 2000;
 }
+
+/* Breadcrumb trail (markup in _includes/breadcrumbs.html, on every page but
+   the front pages). A location cue for WCAG 2.4.8. Inline, small, with the
+   separator drawn by CSS so a screen reader hears only the list. */
+.mm-breadcrumbs {
+  font-size: 0.9rem;
+  margin: 0 0 1.25rem;
+}
+
+.mm-breadcrumbs ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.35rem;
+}
+
+.mm-breadcrumbs li + li::before {
+  content: "\203A";
+  margin-right: 0.35rem;
+  color: var(--mm-ink-70);
+}
+
+.mm-breadcrumbs li[aria-current="page"] {
+  color: var(--mm-ink-70);
+}
+
+/* Abbreviations row in the "about this page" panel. */
+.page-about-abbreviations abbr {
+  text-decoration: none;
+  font-weight: 700;
+}

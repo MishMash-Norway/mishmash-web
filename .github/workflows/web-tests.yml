@@ -330,6 +330,21 @@ jobs:
         continue-on-error: true
         run: npx --yes pa11y-ci@4 --config .pa11yci.themes.json
 
+      - name: How far the main site is from WCAG AAA (report only)
+        continue-on-error: true
+        run: node scripts/measure_aaa.mjs --base http://127.0.0.1:4000 | tee aaa-main-site.txt
+
+      - name: A theme that declares WCAG AAA as its target reaches it
+        run: |
+          status=0
+          for theme in $(./scripts/ui list); do
+            if grep -qE '^wcag_target:\s*AAA' "themes/$theme/_config.yml" 2>/dev/null; then
+              echo "== $theme declares wcag_target: AAA"
+              node scripts/measure_aaa.mjs --base http://127.0.0.1:4000 --prefix "/ui/$theme" --fail | tee "aaa-$theme.txt" || status=1
+            fi
+          done
+          exit $status
+
       - name: Menus can be dismissed with a key and with a press elsewhere
         run: npx playwright test -c tests/visual/playwright.config.js tests/visual/menus.spec.js
 
@@ -348,6 +363,7 @@ jobs:
           path: |
             playwright-report
             test-results
+            aaa-*.txt
           if-no-files-found: ignore
 
   chat_retrieval:

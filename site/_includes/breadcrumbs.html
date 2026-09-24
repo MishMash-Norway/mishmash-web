@@ -1,0 +1,45 @@
+{%- comment -%}
+  Where the page sits in the site, as a trail from the language's front page
+  (WCAG 2.4.8 Location, AAA). Built from the address: each ancestor path is
+  looked up among the pages and the collections for its title. A path with
+  no page of its own is shown as plain text, without a link, under its last
+  segment. The front page of each
+  language shows nothing, since it is the start of every trail.
+{%- endcomment -%}
+{%- assign bc_lang = page.lang | default: 'en' -%}
+{%- assign bc_root = '/' -%}
+{%- if bc_lang == 'nb' -%}{%- assign bc_root = '/no/' -%}{%- elsif bc_lang == 'nn' -%}{%- assign bc_root = '/nn/' -%}{%- endif -%}
+{%- assign bc_url = page.url | replace: '/index.html', '/' -%}
+{%- if bc_url != bc_root and bc_url != '/' and page.breadcrumbs != false -%}
+{%- assign bc_rel = bc_url | remove_first: bc_root -%}
+{%- assign bc_parts = bc_rel | split: '/' -%}
+{%- assign bc_last = bc_parts.size | minus: 1 -%}
+{%- if bc_last >= 0 -%}
+<nav class="mm-breadcrumbs" aria-label="{{ t.breadcrumb_label | default: ten.breadcrumb_label }}">
+  <ol>
+    <li><a href="{{ bc_root | relative_url }}">{{ t.breadcrumb_home | default: ten.breadcrumb_home }}</a></li>
+    {%- assign bc_path = bc_root -%}
+    {%- for bc_part in bc_parts -%}
+      {%- if bc_part == '' -%}{%- continue -%}{%- endif -%}
+      {%- assign bc_path = bc_path | append: bc_part | append: '/' -%}
+      {%- assign bc_page = site.pages | where: 'url', bc_path | first -%}
+      {%- unless bc_page -%}{%- assign bc_page = site.events | where: 'url', bc_path | first -%}{%- endunless -%}
+      {%- unless bc_page -%}{%- assign bc_page = site.news | where: 'url', bc_path | first -%}{%- endunless -%}
+      {%- unless bc_page -%}{%- assign bc_page = site.directory | where: 'url', bc_path | first -%}{%- endunless -%}
+      {%- assign bc_title = bc_page.title -%}
+      {%- if bc_page.type == 'institution' and bc_page.name -%}{%- assign bc_title = bc_page.name -%}{%- endif -%}
+      {%- if bc_title == nil or bc_title == '' or bc_title == 'Index' -%}
+        {%- assign bc_title = bc_part | replace: '-', ' ' | replace: '_', ' ' | capitalize -%}
+      {%- endif -%}
+      {%- if forloop.index0 == bc_last or bc_path == bc_url %}
+    <li aria-current="page">{{ bc_title }}</li>
+      {%- elsif bc_page %}
+    <li><a href="{{ bc_path | relative_url }}">{{ bc_title }}</a></li>
+      {%- else %}
+    <li>{{ bc_title }}</li>
+      {%- endif -%}
+    {%- endfor %}
+  </ol>
+</nav>
+{%- endif -%}
+{%- endif -%}

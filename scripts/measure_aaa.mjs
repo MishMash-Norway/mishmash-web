@@ -15,6 +15,12 @@
 // at the same threshold.
 //
 // Usage: node scripts/measure_aaa.mjs [--site _site] [--base https://mishmash.no]
+//                                    [--prefix /ui/<theme>] [--fail]
+//
+// --prefix measures a theme preview built under that path. --fail exits 1 when
+// anything is below the AAA thresholds, which is how a theme that declares
+// wcag_target: AAA in its _config.yml is held to it in CI; without it the
+// script only reports, which is what the main site gets.
 
 import { resolve } from 'node:path';
 import { chromium } from '@playwright/test';
@@ -87,10 +93,12 @@ async function main() {
   const args = process.argv.slice(2);
   const root = resolve(args.includes('--site') ? args[args.indexOf('--site') + 1] : '_site');
   const remote = args.includes('--base') ? args[args.indexOf('--base') + 1].replace(/\/$/, '') : null;
+  const prefix = args.includes('--prefix') ? args[args.indexOf('--prefix') + 1].replace(/\/$/, '') : '';
+  const fail = args.includes('--fail');
   const app = remote ? null : server(root);
   if (app) await new Promise((r) => app.listen(0, '127.0.0.1', r));
   const base = remote || `http://127.0.0.1:${app.address().port}`;
-  console.log(`measuring ${base} against WCAG AAA\n`);
+  console.log(`measuring ${base}${prefix} against WCAG AAA\n`);
 
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
@@ -102,7 +110,7 @@ async function main() {
   let textCount = 0, targetCount = 0, lineCount = 0;
 
   for (const path of PAGES) {
-    await page.goto(base + path, { waitUntil: 'networkidle' });
+    await page.goto(base + prefix + path, { waitUntil: 'networkidle' });
     const rows = await page.evaluate(measure, [TEXT, level]);
     textCount += rows.length;
     for (const row of rows) if (row.ratio < row.required) contrast.push({ ...row, page: path });
@@ -116,7 +124,7 @@ async function main() {
 
   // The states a page scan cannot reach, at the AAA threshold.
   for (const target of TARGETS) {
-    await page.goto(base + target.page, { waitUntil: 'networkidle' });
+    await page.goto(base + prefix + target.page, { waitUntil: 'networkidle' });
     const p = target.prepare;
     if (p?.kind === 'focus') await page.locator(p.selector).first().focus();
     if (p?.kind === 'open-details') await page.locator(p.selector).first().evaluate((el) => { el.open = true; });
@@ -148,6 +156,14 @@ async function main() {
   console.log(`  ${lineCount} paragraphs measured, ${lines.length} wider than ${LINE_MAX_CH} characters`);
   for (const r of longest.slice(0, 8)) console.log(`    ${String(r.chars).padStart(4)} ch  ${r.page}  ${r.text}`);
 
+  const short = [contrast.length && `${c.length} contrast combinations under 7:1`,
+    small.length && `${s.length} target sizes under 44px`,
+    lines.length && `${lines.length} lines over ${LINE_MAX_CH} characters`].filter(Boolean);
+  console.log(`\nAAA: ${short.length ? short.join(', ') : 'nothing below the thresholds'}`);
+  if (fail && short.length) {
+    console.error('This build declares WCAG AAA as its target and does not reach it.');
+    return 1;
+  }
   return 0;
 }
 

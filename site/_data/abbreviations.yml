@@ -1,0 +1,168 @@
+# Abbreviations used on the site, with their expanded form in each language.
+#
+# The "about this page" panel (_includes/page-about.html) lists the ones that
+# occur on the page being read, so a reader can find the expansion without
+# leaving the page. That is the mechanism WCAG 3.1.4 Abbreviations (AAA) asks
+# for, and it needs no JavaScript: the include tests page.content for each
+# abbreviation at build time. Keep this list to abbreviations that cannot be
+# mistaken for part of another word in capitals; "WP" on its own and "OF" are
+# left out for that reason.
+#
+# nn is written by hand here, because this file is not run through the
+# Nynorsk generator. Proper names keep their form in every language.
+#
+#   term  the abbreviation exactly as it appears in the text
+#   en/nb/nn  the expansion. A proper name may repeat across languages.
+
+- term: AI
+  en: artificial intelligence
+  nb: kunstig intelligens
+  nn: kunstig intelligens
+- term: KI
+  en: kunstig intelligens (artificial intelligence)
+  nb: kunstig intelligens
+  nn: kunstig intelligens
+- term: CC BY
+  en: Creative Commons Attribution licence
+  nb: Creative Commons-lisens med navngivelse
+  nn: Creative Commons-lisens med namngjeving
+- term: WCAG
+  en: Web Content Accessibility Guidelines
+  nb: Web Content Accessibility Guidelines, retningslinjene for tilgjengelig nettinnhold
+  nn: Web Content Accessibility Guidelines, retningslinjene for tilgjengeleg nettinnhald
+- term: NVA
+  en: Nasjonalt vitenarkiv, the Norwegian national research archive
+  nb: Nasjonalt vitenarkiv
+  nn: Nasjonalt vitenarkiv
+- term: ORCID
+  en: Open Researcher and Contributor ID, a persistent identifier for researchers
+  nb: Open Researcher and Contributor ID, en varig identifikator for forskere
+  nn: Open Researcher and Contributor ID, ein varig identifikator for forskarar
+- term: ROR
+  en: Research Organization Registry, an identifier for research institutions
+  nb: Research Organization Registry, en identifikator for forskningsinstitusjoner
+  nn: Research Organization Registry, ein identifikator for forskingsinstitusjonar
+- term: WP1
+  en: work package 1, AI for artistic performances
+  nb: arbeidspakke 1, KI for kunstneriske framføringer
+  nn: arbeidspakke 1, KI for kunstnarlege framføringar
+- term: WP2
+  en: work package 2, AI in creative processes
+  nb: arbeidspakke 2, KI i kreative prosesser
+  nn: arbeidspakke 2, KI i kreative prosessar
+- term: WP3
+  en: work package 3, AI for health and well-being
+  nb: arbeidspakke 3, KI for helse og velvære
+  nn: arbeidspakke 3, KI for helse og velvære
+- term: WP4
+  en: work package 4, AI in education
+  nb: arbeidspakke 4, KI i utdanning
+  nn: arbeidspakke 4, KI i utdanning
+- term: WP5
+  en: work package 5, AI in the creative industries
+  nb: arbeidspakke 5, KI i kreative næringer
+  nn: arbeidspakke 5, KI i kreative næringar
+- term: WP6
+  en: work package 6, AI for cultural heritage
+  nb: arbeidspakke 6, KI for kulturarv
+  nn: arbeidspakke 6, KI for kulturarv
+- term: WP7
+  en: work package 7, AI for creative problem-solving
+  nb: arbeidspakke 7, KI for kreativ problemløsning
+  nn: arbeidspakke 7, KI for kreativ problemløysing
+- term: RQ
+  en: research question
+  nb: forskningsspørsmål
+  nn: forskingsspørsmål
+- term: SDG
+  en: Sustainable Development Goal, one of the United Nations' seventeen goals
+  nb: bærekraftsmål, ett av FNs sytten mål
+  nn: berekraftsmål, eitt av FN sine sytten mål
+- term: LLM
+  en: large language model
+  nb: stor språkmodell
+  nn: stor språkmodell
+- term: LCA
+  en: life-cycle assessment
+  nb: livsløpsanalyse
+  nn: livsløpsanalyse
+- term: XR
+  en: extended reality, covering virtual and augmented reality
+  nb: utvidet virkelighet, som dekker virtuell og forsterket virkelighet
+  nn: utvida røyndom, som dekkjer virtuell og forsterka røyndom
+- term: VR
+  en: virtual reality
+  nb: virtuell virkelighet
+  nn: virtuell røyndom
+- term: AR
+  en: augmented reality
+  nb: forsterket virkelighet
+  nn: forsterka røyndom
+- term: EU
+  en: the European Union
+  nb: Den europeiske union
+  nn: Den europeiske unionen
+- term: CEST
+  en: Central European Summer Time
+  nb: sentraleuropeisk sommertid
+  nn: sentraleuropeisk sommartid
+- term: CET
+  en: Central European Time
+  nb: sentraleuropeisk tid
+  nn: sentraleuropeisk tid
+- term: RITMO
+  en: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion at the University of Oslo
+  nb: RITMO Senter for tverrfaglig forskning på rytme, tid og bevegelse ved Universitetet i Oslo
+  nn: RITMO Senter for tverrfagleg forsking på rytme, tid og rørsle ved Universitetet i Oslo
+- term: UiO
+  en: University of Oslo
+  nb: Universitetet i Oslo
+  nn: Universitetet i Oslo
+- term: UiB
+  en: University of Bergen
+  nb: Universitetet i Bergen
+  nn: Universitetet i Bergen
+- term: UiA
+  en: University of Agder
+  nb: Universitetet i Agder
+  nn: Universitetet i Agder
+- term: UiT
+  en: UiT The Arctic University of Norway
+  nb: UiT Norges arktiske universitet
+  nn: UiT Noregs arktiske universitet
+- term: NTNU
+  en: Norwegian University of Science and Technology
+  nb: Norges teknisk-naturvitenskapelige universitet
+  nn: Noregs teknisk-naturvitskaplege universitet
+- term: NMH
+  en: Norwegian Academy of Music
+  nb: Norges musikkhøgskole
+  nn: Noregs musikkhøgskole
+- term: HVL
+  en: Western Norway University of Applied Sciences
+  nb: Høgskulen på Vestlandet
+  nn: Høgskulen på Vestlandet
+- term: INN
+  en: University of Inland Norway
+  nb: Høgskolen i Innlandet
+  nn: Høgskolen i Innlandet
+- term: NLA
+  en: NLA University College
+  nb: NLA Høgskolen
+  nn: NLA Høgskolen
+- term: KMD
+  en: Faculty of Fine Art, Music and Design at the University of Bergen
+  nb: Fakultet for kunst, musikk og design ved Universitetet i Bergen
+  nn: Fakultet for kunst, musikk og design ved Universitetet i Bergen
+- term: SINTEF
+  en: SINTEF, an independent Norwegian research institute
+  nb: SINTEF, et uavhengig norsk forskningsinstitutt
+  nn: SINTEF, eit uavhengig norsk forskingsinstitutt
+- term: NORSUS
+  en: Norwegian Institute for Sustainability Research
+  nb: Norsk institutt for bærekraftsforskning
+  nn: Norsk institutt for berekraftsforsking
+- term: BI
+  en: BI Norwegian Business School
+  nb: Handelshøyskolen BI
+  nn: Handelshøgskolen BI
