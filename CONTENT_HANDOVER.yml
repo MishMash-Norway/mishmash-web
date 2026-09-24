@@ -417,6 +417,28 @@ validation:
       ruby -e "require 'yaml'; YAML.safe_load(File.read('site/_data/partner_events.yml'), aliases: true); YAML.safe_load(File.read('site/_data/partner_news.yml'), aliases: true)"
   directory_if_touched:
     - python3 scripts/validate_directory.py
+  accessibility_if_touched:
+    note: >-
+      An audit by the UiO web team on 24 September 2026 found six failures that
+      the page scan could not see, because each needs a state a reader has to
+      bring about. Run these when changing colours, a listing card, an event
+      picture or the header menus.
+    commands:
+      - node scripts/check_contrast.mjs
+      - python3 scripts/check_event_alt.py
+      - npx playwright test -c tests/visual/playwright.config.js tests/visual/menus.spec.js
+    rules:
+      - Text needs 4.5:1 against what is painted behind it, 3:1 when it is large.
+        The identity purple is a surface colour; text uses --mm-purple-text.
+      - An event whose picture shows a person carries image_alt in its front
+        matter, naming them as the directory or the page itself does. Never
+        invent a name, and never let the alternative text fall back to the
+        event's location.
+      - A listing card links to its destination once. A thumbnail that repeats
+        the title link carries tabindex="-1", aria-hidden="true" and an empty alt.
+      - Anything that opens on pointer or focus closes on Escape, and gives the
+        focus back to what opened it.
+
   terminology_if_touched:
     - python3 scripts/check_terminology.py
     - python3 scripts/build_nynorsk.py --check-glossary
