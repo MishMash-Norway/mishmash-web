@@ -15,7 +15,7 @@
 // transparent takes the first painted background above it, which is what the
 // browser composites against.
 //
-// Usage: node scripts/check_contrast.mjs [--site _site] [--base https://mishmash.no] [--list]
+// Usage: node scripts/check_contrast.mjs [--site _site] [--base https://mishmash.no] [--level AA|AAA] [--list]
 //
 // --base measures a site that is already served, such as production after a
 // deploy, instead of the local build.
@@ -34,9 +34,13 @@ const TYPES = {
   '.webmanifest': 'application/manifest+json',
 };
 
+// WCAG 1.4.3 (AA) asks 4.5:1 for text and 3:1 for large text; 1.4.6 (AAA)
+// asks 7:1 and 4.5:1. The level is chosen on the command line.
+export const LEVELS = { AA: { text: 4.5, large: 3 }, AAA: { text: 7, large: 4.5 } };
+
 // Each target names a page, what to do to bring the text into view, and the
 // elements to measure once it is there.
-const TARGETS = [
+export const TARGETS = [
   {
     page: '/',
     label: 'skip link, focused',
@@ -75,7 +79,7 @@ const TARGETS = [
   },
 ];
 
-const server = (root) => createServer(async (req, res) => {
+export const server = (root) => createServer(async (req, res) => {
   const path = decodeURIComponent(req.url.split('?')[0]);
   let file = join(root, path);
   try {
@@ -92,7 +96,7 @@ const server = (root) => createServer(async (req, res) => {
 });
 
 // Runs in the page. Reads the painted colours and returns one row per element.
-function measure(selector) {
+export function measure([selector, level]) {
   const parse = (value) => {
     const m = String(value).match(/rgba?\(([^)]+)\)/);
     if (!m) return null;
@@ -149,7 +153,7 @@ function measure(selector) {
       text: text.slice(0, 40).replace(/\s+/g, ' '),
       selector: el.tagName.toLowerCase() + (el.className ? '.' + String(el.className).split(/\s+/)[0] : ''),
       fg: hex(front), bg: hex(bg), ratio: Math.round(ratio * 100) / 100, large,
-      required: large ? 3 : 4.5,
+      required: large ? level.large : level.text,
     });
   }
   return rows;
@@ -159,6 +163,9 @@ async function main() {
   const args = process.argv.slice(2);
   const root = resolve(args.includes('--site') ? args[args.indexOf('--site') + 1] : '_site');
   const listOnly = args.includes('--list');
+  const levelName = args.includes('--level') ? args[args.indexOf('--level') + 1].toUpperCase() : 'AA';
+  const level = LEVELS[levelName];
+  if (!level) { console.error(`--level takes AA or AAA, not ${levelName}`); return 2; }
 
   const remote = args.includes('--base') ? args[args.indexOf('--base') + 1].replace(/\/$/, '') : null;
   const app = remote ? null : server(root);
@@ -185,7 +192,7 @@ async function main() {
       }
     }
     await page.waitForTimeout(150);
-    const rows = await page.evaluate(measure, target.selector);
+    const rows = await page.evaluate(measure, [target.selector, level]);
     measured += rows.length;
     if (!rows.length) {
       console.log(`  ${target.label}: nothing matched ${target.selector}`);
@@ -213,13 +220,16 @@ async function main() {
   await browser.close();
   if (app) app.close();
 
-  console.log(`\ncontrast: ${measured} pieces of text measured, ${failures.length} distinct combination(s) below the threshold`);
+  console.log(`\ncontrast at ${levelName}: ${measured} pieces of text measured, ${failures.length} distinct combination(s) below the threshold`);
   if (failures.length && !listOnly) {
-    console.error('\nWCAG 2.1 AA 1.4.3 asks for 4.5:1, or 3:1 for large text. Raise the contrast in\n'
-      + 'assets/css/, using the tokens in brand.css, and run this again.');
+    console.error(`\nWCAG 2.1 ${levelName} asks for ${level.text}:1, or ${level.large}:1 for large text. Raise the\n`
+      + 'contrast in assets/css/, using the tokens in brand.css, and run this again.');
     return 1;
   }
   return 0;
 }
 
-process.exit(await main());
+import { pathToFileURL } from 'node:url';
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  process.exit(await main());
+}
