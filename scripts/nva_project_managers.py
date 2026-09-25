@@ -13,6 +13,14 @@ who are not yet local managers, and sends the union. Nothing is removed. The
 API allows the update only for the project's creator or manager, so the token
 must belong to one of them; a 403 means it does not.
 
+Tried on 25 September 2026 with the site's own NVA client: the token it gets
+carries only the third-party publication-read scope, the update answers 401,
+and asking Cognito for the backend scope is refused as invalid_scope. So the
+client the site holds can read but not write, and this change is made in the
+NVA interface by the project manager, or with a token issued to a user who is
+one. The dry run and the payload in temp/ remain useful for checking the
+result afterwards.
+
 Usage:
   python3 scripts/nva_project_managers.py            # show what would change
   python3 scripts/nva_project_managers.py --write    # send the update
