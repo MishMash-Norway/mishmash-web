@@ -24,12 +24,12 @@
 }
 
 .site-footer-credits {
-  color: #55606a;
+  color: var(--mm-ink-70);
   font-size: 0.85rem;
 }
 
 .site-footer-credits a {
-  color: #55606a;
+  color: var(--mm-ink-70);
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  color: #55606a;
+  color: var(--mm-ink-70);
   font-size: 0.85rem;
   cursor: pointer;
   user-select: none;
@@ -224,7 +224,7 @@ body {
 }
 
 .event-meta {
-  color: #55606a;
+  color: var(--mm-ink-70);
   font-size: 0.95rem;
 }
 
@@ -308,7 +308,7 @@ body {
 
 .event-desc {
   margin: 0.4rem 0 0 0;
-  color: #55606a;
+  color: var(--mm-ink-70);
   font-size: 0.95rem;
   line-height: 1.4;
 }
@@ -716,7 +716,7 @@ a:focus-visible .icon {
 
 .nva-results-filter-status {
   margin: 0.35rem 0 0;
-  color: #666;
+  color: var(--mm-ink-70);
   font-size: 0.85rem;
   min-height: 1.2em;
 }
@@ -762,7 +762,7 @@ a:focus-visible .icon {
 }
 
 .nva-result-kind {
-  color: #666;
+  color: var(--mm-ink-70);
   font-size: 0.9rem;
 }
 
@@ -983,7 +983,7 @@ a:focus-visible .icon {
   cursor: pointer;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #55606a;
+  color: var(--mm-ink-70);
   list-style: none;
   display: inline-flex;
   align-items: center;
@@ -1003,7 +1003,7 @@ a:focus-visible .icon {
   height: 1.1em;
   font-size: 0.8rem;
   line-height: 1;
-  color: #55606a;
+  color: var(--mm-ink-70);
   border: 1px solid #c1c9d2;
   border-radius: 3px;
   background: #f8f9fb;
@@ -1139,13 +1139,13 @@ a:focus-visible .icon {
   min-width: 2ch;
   font-size: 0.82rem;
   font-weight: 600;
-  color: #55606a;
+  color: var(--mm-ink-70);
 }
 
 .cluster-help-text {
   margin: 4px 0 8px;
   font-size: 0.82rem;
-  color: #55606a;
+  color: var(--mm-ink-70);
 }
 
 .cluster-section-label {
@@ -1153,13 +1153,13 @@ a:focus-visible .icon {
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.04em;
-  color: #55606a;
+  color: var(--mm-ink-70);
 }
 
 .filter-label {
   font-size: 0.85rem;
   font-weight: 600;
-  color: #55606a;
+  color: var(--mm-ink-70);
   min-width: 70px;
 }
 
@@ -1193,7 +1193,7 @@ a:focus-visible .icon {
 
 .search-status {
   font-size: 0.9rem;
-  color: #55606a;
+  color: var(--mm-ink-70);
   margin-bottom: 0.6rem;
   min-height: 1.2em;
 }
@@ -1232,15 +1232,19 @@ a:focus-visible .icon {
 }
 
 .result-type-event       { background: var(--mm-purple-tint); border: 1px solid var(--mm-purple); }
-.result-type-news        { background: #5cb85c; }
-.result-type-page        { background: #55606a; color: var(--mm-white); }
-.result-type-person      { background: #d9806b; }
-.result-type-institution { background: #4a90b8; }
-.result-type-project     { background: #e0a030; }
+/* The badge surfaces are the identity's own, with ink: green 11.05:1, pink
+   8.76:1, blue 9.60:1, yellow 11.51:1, all past the 7:1 that AAA asks. The
+   page badge is the ink grey under white, 7.01:1. Before 25 September 2026
+   these were ad hoc mid-tones between 4.64:1 and 7.17:1. */
+.result-type-news        { background: var(--mm-green); }
+.result-type-page        { background: var(--mm-ink-70); color: var(--mm-white); }
+.result-type-person      { background: var(--mm-pink); }
+.result-type-institution { background: var(--mm-blue); }
+.result-type-project     { background: var(--mm-yellow); }
 
 .result-date {
   font-size: 0.82rem;
-  color: #55606a;
+  color: var(--mm-ink-70);
 }
 
 .result-cats {
@@ -1283,7 +1287,7 @@ a:focus-visible .icon {
 
 .result-snippet {
   font-size: 0.9rem;
-  color: #55606a;
+  color: var(--mm-ink-70);
   margin: 0;
   line-height: 1.45;
 }
@@ -1369,7 +1373,7 @@ a:focus-visible .icon {
   width: 1.25em;
   height: 1.25em;
   font-size: 0.85rem;
-  color: #55606a;
+  color: var(--mm-ink-70);
   border: 1px solid #c1c9d2;
   border-radius: 3px;
   background: #f8f9fb;
@@ -1394,7 +1398,7 @@ a:focus-visible .icon {
   width: 1.25em;
   height: 1.25em;
   font-size: 0.85rem;
-  color: #55606a;
+  color: var(--mm-ink-70);
   border: 1px solid #c1c9d2;
   border-radius: 3px;
   background: #f8f9fb;
@@ -1422,7 +1426,7 @@ a:focus-visible .icon {
 /* Page metadata ("About the page") */
 .page-about {
   font-size: 0.92rem;
-  color: #55606a;
+  color: var(--mm-ink-70);
 }
 
 .page-about[open] {
@@ -1447,7 +1451,7 @@ a:focus-visible .icon {
   width: 1.1em;
   height: 1.1em;
   font-size: 0.8rem;
-  color: #55606a;
+  color: var(--mm-ink-70);
   border: 1px solid #c1c9d2;
   border-radius: 3px;
   background: #f8f9fb;
@@ -1556,7 +1560,7 @@ a:focus-visible .icon {
   border-radius: 10px;
   font-size: 0.75em;
   background: #f0f0f0;
-  color: #55606a;
+  color: var(--mm-ink-70);
   white-space: nowrap;
 }
 
@@ -2049,7 +2053,7 @@ video.mm-heritage-player {
   display: block;
   margin-top: 4px;
   font-size: 0.85rem;
-  color: #55606a;
+  color: var(--mm-ink-70);
 }
 
 .mm-video-poster:hover,

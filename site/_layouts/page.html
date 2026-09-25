@@ -60,10 +60,18 @@ layout: default
         {% if has_website or has_wikipedia %}{% assign has_links = true %}{% endif %}
         {% if has_wikidata or has_ror %}{% assign has_links = true %}{% endif %}
         {% if has_brreg %}{% assign has_links = true %}{% endif %}
-        {% if has_summary or has_links %}
         <div class="institution-intro">
           {% if has_summary %}
           <p class="institution-summary">{{ page.summary }}</p>
+          {% else %}
+          {%- comment -%}
+            No Wikipedia article means no prose from the summary sync (issue #75).
+            The page still says what the site knows: where the organisation is and
+            how it takes part in the centre, from its own fields.
+          {%- endcomment -%}
+          {%- assign inst_people_count = page.people | size -%}
+          {%- assign inst_project_count = page.projects | size -%}
+          <p class="institution-summary institution-summary-fallback">{{ page_heading }}{% if page.city or page.country %}, in {{ page.city }}{% if page.city and page.country %}, {% endif %}{{ page.country }},{% endif %} takes part in MishMash{% if inst_people_count > 0 %} with {{ inst_people_count }} {% if inst_people_count == 1 %}person{% else %}people{% endif %} in the directory{% endif %}{% if inst_project_count > 0 %}{% if inst_people_count > 0 %} and{% else %} with{% endif %} {{ inst_project_count }} {% if inst_project_count == 1 %}project{% else %}projects{% endif %}{% endif %}.</p>
           {% endif %}
           {% if has_links %}
           <p class="institution-links">
@@ -92,7 +100,6 @@ layout: default
           </p>
           {% endif %}
         </div>
-        {% endif %}
     {% else %}
     <h1>{{ page_heading }}</h1>
     {% endif %}

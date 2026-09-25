@@ -23,6 +23,7 @@ search: false
   <link rel="stylesheet" href="{{ '/assets/css/kiosk.css' | relative_url }}">
 </head>
 <body>
+<h1 class="sr-only">{{ page.title }}</h1>
   <header class="kiosk-header">
     {% include mm-wordmark.svg %}
     <p class="tagline">{{ site.data.translations.en.identity_tagline }}</p>
