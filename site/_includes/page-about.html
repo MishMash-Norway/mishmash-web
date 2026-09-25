@@ -196,7 +196,7 @@
         {{ a.term | jsonify }}: {{ a[abbr_lang] | default: a.en | jsonify }}{% unless forloop.last %},{% endunless %}
         {%- endfor -%}
       }</script>
-      <script defer src="{{ '/assets/js/abbreviations.js' | relative_url }}"></script>
+      <script defer src="{{ '/assets/js/abbreviations.js?v=' | append: site.github.build_revision | relative_url }}"></script>
       {%- endif %}
 
       <div class="page-about-item">

@@ -85,13 +85,13 @@
     <meta name="theme-color" content="#b3e297">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/brand.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/identity.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/brand.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/identity.css?v=' | append: site.github.build_revision | relative_url }}">
     {% if page.adaptive or page.stretchtext %}
     <script>try{document.documentElement.setAttribute('data-audience',localStorage.getItem('mishmash-audience')||'{{ site.data.audiences.default }}');}catch(e){}</script>
-    <link rel="stylesheet" href="{{ '/assets/css/adaptive.css' | relative_url }}">
-    <script defer src="{{ '/assets/js/adaptive.js' | relative_url }}"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/adaptive.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script defer src="{{ '/assets/js/adaptive.js?v=' | append: site.github.build_revision | relative_url }}"></script>
     {% endif %}
     {% if page.custom_css %}
     <link rel="stylesheet" href="{{ page.custom_css | relative_url }}">
