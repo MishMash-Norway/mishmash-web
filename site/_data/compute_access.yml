@@ -214,13 +214,16 @@ excluded:
   aalto-university: Partner outside Norway; use your own country's national provider.
   australian-national-university: Partner outside Norway; use your own country's national provider.
   ghent-university: Partner outside Norway; use your own country's national provider.
+  jam-music-lab-private-university: Partner outside Norway; use your own country's national provider.
   kth-royal-institute-of-technology: Partner outside Norway; use your own country's national provider.
   labasad: Partner outside Norway; use your own country's national provider.
+  linkoping-university: Partner outside Norway; use your own country's national provider.
   motioncomposer-gmbh: Partner outside Norway; use your own country's national provider.
   nicolaus-copernicus-university: Partner outside Norway; use your own country's national provider.
   simon-fraser-university: Partner outside Norway; use your own country's national provider.
   uniarts-helsinki: Partner outside Norway; use your own country's national provider.
   university-of-cambridge: Partner outside Norway; use your own country's national provider.
+  university-of-edinburgh: Partner outside Norway; use your own country's national provider.
   university-of-iceland: Partner outside Norway; use your own country's national provider.
   university-of-jyvaskyla: Partner outside Norway; use your own country's national provider.
   university-of-manchester: Partner outside Norway; use your own country's national provider.
@@ -410,4 +413,6 @@ institutions:
 
   # Norwegian foundations
   skapia:
+    category: no-cultural-institution
+  kristiansand-international-childrens-film-festival:
     category: no-cultural-institution
