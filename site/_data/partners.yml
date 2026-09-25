@@ -245,7 +245,7 @@
   # url_nb: https://www.ultima.no/
  - name: Vest‐Agder Museum
    url: https://www.vestagdermuseet.no/welcome-to-vest-agder-museum/
-   name_nb: Vest-Agder-museet
+ - name_nb: Vest-Agder-museet
    url_nb: https://www.vestagdermuseet.no/
 # - name: VRINN
   # url: https://vrinn.no/
