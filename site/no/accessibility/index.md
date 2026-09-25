@@ -34,8 +34,8 @@ Automatiske verktøy finner bare en del av barrierene en person kan møte. Reste
 
 - Innebygde videoer fra YouTube har ikke alltid teksting, og ingen av dem har synstolking.
 - Chat-siden er avhengig av JavaScript og av en ekstern språkmodelltjeneste.
-- De eksperimentelle grensesnittene under `/ui/` er studentarbeid og ligger utenfor de automatiske sjekkene.
-- Bidragene i [laben](/lab/) er eksperimenter; hvert av dem sjekkes som alle andre sider, men kan kreve JavaScript, lyd eller pekeredskap, og sier fra om det.
+- De eksperimentelle grensesnittene under `/ui/` er nettopp det, eksperimentelle (!), og ligger derfor utenfor de automatiske sjekkene.
+- Bidragene i [laben](/lab/) er også eksperimenter; hvert av dem sjekkes som alle andre sider, men kan kreve JavaScript, lyd eller pekeredskap, og sier fra om det.
 
 ## Fortell oss om en barriere
 
