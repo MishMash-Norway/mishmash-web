@@ -448,6 +448,14 @@ validation:
         div.adaptive blocks with data-for naming the level (simple, standard or
         advanced) and sets adaptive to true. check_readability.py --strict fails
         when a section covers some levels but not all. WP1 is the model.
+    opening_ceremony_transcript: >-
+      The text alternative to the opening ceremony recording (1.2.8) is built by
+      scripts/build_opening_transcript.py from the caption files in the archive
+      folder of the recording, one part per programme item, in the language
+      each part was spoken in. It writes site/events/aulaen2026-transcript/ and
+      the site/no/ mirror with published set to false. Publishing is a decision
+      for a person who has read the text against the recording; when taken,
+      remove that line and link the pages from the event page and the lab page.
     wcag_aaa: >-
       The main site is measured against AAA as a report only:
       node scripts/measure_aaa.mjs. A theme that declares wcag_target: AAA in
