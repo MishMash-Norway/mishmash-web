@@ -185,6 +185,18 @@
           {%- endfor %}
         </dd>
       </div>
+      {%- comment -%}
+        The same list, handed to assets/js/abbreviations.js, which turns the
+        first occurrence of each abbreviation in the main text into a
+        stretchtext toggle. The panel above stays the complete list and the
+        one a reader without scripts gets.
+      {%- endcomment %}
+      <script type="application/json" id="mm-abbreviations">{
+        {%- for a in abbr_found -%}
+        {{ a.term | jsonify }}: {{ a[abbr_lang] | default: a.en | jsonify }}{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+      }</script>
+      <script defer src="{{ '/assets/js/abbreviations.js' | relative_url }}"></script>
       {%- endif %}
 
       <div class="page-about-item">

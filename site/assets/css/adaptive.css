@@ -63,26 +63,6 @@ html:not([data-audience]) .adaptive:not([data-for~="{{ site.data.audiences.defau
 }
 
 /* ---- Stretchtext ----
-   Inline expandable text: a dotted-underlined term that unfolds extra
-   detail in place. Authored with {% raw %}{% include stretch.html %}{% endraw %}. */
-.stretch-toggle {
-  padding: 0;
-  border: none;
-  background: none;
-  font: inherit;
-  color: inherit;
-  cursor: pointer;
-  border-bottom: 2px dotted var(--mm-purple);
-}
-
-.stretch-more {
-  margin-left: 0.25em;
-  background: rgba(193, 247, 174, 0.35);
-  border-radius: 4px;
-  padding: 0 0.2em;
-}
-
-/* Without JavaScript the toggles are inert, so show everything. */
-html:not([data-audience]) .stretch-more[hidden] {
-  display: inline;
-}
+   The rules for the dotted-underlined toggles live in custom.css, because
+   every page can carry them since the inline abbreviations arrived, not only
+   the adaptive pages that load this file. */

@@ -348,6 +348,9 @@ jobs:
       - name: Menus can be dismissed with a key and with a press elsewhere
         run: npx playwright test -c tests/visual/playwright.config.js tests/visual/menus.spec.js
 
+      - name: Abbreviations unfold once, in the page's language
+        run: npx playwright test -c tests/visual/playwright.config.js tests/visual/abbreviations.spec.js
+
       - name: Text contrast in the states a page scan cannot reach
         run: node scripts/check_contrast.mjs
 

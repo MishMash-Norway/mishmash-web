@@ -2153,3 +2153,32 @@ video.mm-heritage-player {
   text-decoration: none;
   font-weight: 700;
 }
+
+/* Stretchtext: a dotted-underlined term that unfolds extra detail in place.
+   Authored with the stretch include on adaptive pages, and made at load time
+   by assets/js/abbreviations.js for the first occurrence of each abbreviation
+   on any page. Moved here from adaptive.css on 25 September 2026 so that
+   every page has the rules. */
+.stretch-toggle {
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-bottom: 2px dotted var(--mm-purple);
+}
+
+.stretch-more {
+  margin-left: 0.25em;
+  background: rgba(193, 247, 174, 0.35);
+  border-radius: 4px;
+  padding: 0 0.2em;
+}
+
+/* Without JavaScript the authored toggles are inert, so show everything.
+   The abbreviation toggles only exist when a script made them, so they keep
+   their hidden state. */
+html:not([data-audience]) .stretch-more[hidden]:not(.stretch-abbr-more) {
+  display: inline;
+}

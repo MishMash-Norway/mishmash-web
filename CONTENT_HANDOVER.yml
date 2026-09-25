@@ -495,7 +495,9 @@ validation:
         focus back to what opened it.
       - A page that introduces an abbreviation adds it to site/_data/abbreviations.yml
         with its expansion in English, Bokmaal and Nynorsk. The "about this page"
-        panel lists the ones found on each page, at build time, with no script.
+        panel lists the ones found on each page, at build time, with no script,
+        and assets/js/abbreviations.js turns the first occurrence of each in the
+        running text into a stretchtext toggle. Never wrap abbreviations by hand.
       - Every page but the front pages carries a breadcrumb trail drawn from its
         address (_includes/breadcrumbs.html). A page switches it off by setting
         breadcrumbs to false in its front matter.
