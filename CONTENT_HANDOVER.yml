@@ -469,7 +469,7 @@ validation:
     - inspect git diff for unintended files and conflict markers
   content_data:
     - >-
-      ruby -e "require 'yaml'; YAML.safe_load(File.read('site/_data/partner_events.yml'), aliases: true); YAML.safe_load(File.read('site/_data/partner_news.yml'), aliases: true)"
+      ruby -e "require 'yaml'; require 'date'; YAML.safe_load(File.read('site/_data/partner_events.yml'), aliases: true, permitted_classes: [Date]); YAML.safe_load(File.read('site/_data/partner_news.yml'), aliases: true, permitted_classes: [Date])"
   directory_if_touched:
     - python3 scripts/validate_directory.py
   accessibility_if_touched:

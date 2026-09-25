@@ -630,3 +630,29 @@
   start_date: 2027-12-01
   title: AIMS 2027
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Conferences/2027/ai-music-studies-(aims)-2027.html
+- description: 'Kreativ AI Meetup in Trondheim (Digs, Mesh Community, Krambugata 2, 23 September
+    2026, 17:30 to 19:30). A masterclass on working with Claude Cowork, by Kristoffer Krogh
+    Wetterhus of Astar Consulting: setting up, common pitfalls, and where it saves time.'
+  end_date: 2026-09-23
+  partner: Trondheim Kreativ AI
+  start_date: 2026-09-23
+  title: 'TKAI Meetup #6 - Masterclass i Claude Cowork'
+  url: https://www.meetup.com/trondheim-kreativ-ai/events/316483717/
+  og_title: 'TKAI Meetup #6 - Masterclass i Claude Cowork'
+  og_description: "Du bruker Claude. Kanskje Cowork også? Lyst til å finne ut hvordan det kan snu opp ned på arbeidshverdagen din?
+
+**Dette er en masterclass**, ikke en introduksjon. 50 minut"
+  og_image: "https://secure.meetupstatic.com/photos/event/9/c/2/0/600_536139968.jpeg"
+- description: 'Kreativ AI Meetup in Trondheim (Digs, Mesh Community, Krambugata 2, 14 October
+    2026, 17:30 to 19:30). Art and AI: a curator on how quality and originality are judged in
+    works made with AI, and an artist-researcher on what AI does to creative practice.'
+  end_date: 2026-10-14
+  partner: Trondheim Kreativ AI
+  start_date: 2026-10-14
+  title: 'TKAI Meetup #7 - Kunst og AI'
+  url: https://www.meetup.com/trondheim-kreativ-ai/events/316708834/
+  og_title: 'TKAI Meetup #7 - Kunst og AI'
+  og_description: "I dag kan hvem som helst lage et bilde med AI på noen sekunder. Men hva gjør et AI-verk godt? Og hvem er egentlig kunstneren når maskinen gjør mer enn å holde penselen?
+
+På"
+  og_image: "https://secure.meetupstatic.com/photos/event/5/a/a/9/600_536303209.jpeg"
