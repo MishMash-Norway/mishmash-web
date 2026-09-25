@@ -26,6 +26,18 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Global continental and oceanic emissions of atmospheric microplastics inferred
+    from pattern-restricted Bayesian inversion
+  year: '2026'
+  source: Preprint
+  group_type: Preprint
+  url: https://doi.org/10.5194/egusphere-2026-5158
+- title: Supplementary material to "Global continental and oceanic emissions of atmospheric
+    microplastics inferred from pattern-restricted Bayesian inversion"
+  year: '2026'
+  source: Preprint
+  group_type: Preprint
+  url: https://doi.org/10.5194/egusphere-2026-5158-supplement
 - title: 'Measurement report: Sources of carbonaceous aerosol in a South-East European
     metropolis'
   year: '2026'
@@ -73,18 +85,6 @@ selected_works:
   source: Preprint
   group_type: Preprint
   url: https://doi.org/10.5194/essd-2026-211-supplement
-- title: Characterizing aerosol sources based on aerosol optical properties and dispersion
-    modelling in a Scandinavian Coastal Area (Aarhus, Denmark)
-  year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.5194/ar-4-169-2026
-- title: 'City-produced and transported black carbon: Synergy of in-situ optical measurements
-    and modeling'
-  year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1016/j.atmosres.2025.108731
 source_mentions: []
 summary: null
 published: true

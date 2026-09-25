@@ -1,10 +1,15 @@
-synced_at: '2026-09-22T09:52:49Z'
+synced_at: '2026-09-25T10:15:06Z'
 source: OpenAlex (CC0) for the open-access status and the free copy, Crossref for
   the licence
-count: 16
-free: 10
+count: 18
+free: 11
 works:
   10.1007/978-3-032-26999-7_18:
+    status: closed
+    label: subscription
+    free: false
+    licence_url: https://www.springernature.com/gp/researchers/text-and-data-mining
+  10.1007/978-3-032-30846-7_4:
     status: closed
     label: subscription
     free: false
@@ -30,6 +35,12 @@ works:
     label: subscription
     free: false
     licence_url: https://academic.oup.com/pages/standard-publication-reuse-rights
+  10.1093/mts/mtab013:
+    status: bronze
+    label: free to read
+    free: true
+    url: https://academic.oup.com/mts/article-pdf/44/1/1/43294659/mtab013.pdf
+    licence_url: https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model
   10.1145/3802842.3802884:
     status: gold
     label: open access

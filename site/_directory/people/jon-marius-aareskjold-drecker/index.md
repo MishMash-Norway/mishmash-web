@@ -53,8 +53,8 @@ search_keywords: []
 selected_works:
 - title: LLMs and Custom GPTs as a Tool for Academic Research | 2 | Innovation
   year: '2026'
-  source: Book anthology
-  group_type: Book anthology
+  source: Book chapter
+  group_type: Book chapter
   url: https://www.taylorfrancis.com/chapters/edit/10.4324/9781003475675-2/llms-custom-gpts-tool-academic-research-jon-marius-aareskjold-drecker-hans-zeiner-henriksen?context=ubx&refId=dbcfdb55-608a-4b08-bb98-bdfa7778218f
   contributors:
   - name: Jon Marius Aareskjold-Drecker

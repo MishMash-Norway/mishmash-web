@@ -24,19 +24,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Computational social science
+- Computational Social Science
 - Python
 - R
-- quantitative research methods
-- data analysis
-- social network analysis
+- Quantitative Research Methods
+- Data Analysis
+- Social Network Analysis
 search_keywords:
-- Computational social science
+- Computational Social Science
 - Python
 - R
-- quantitative research methods
-- data analysis
-- social network analysis
+- Quantitative Research Methods
+- Data Analysis
+- Social Network Analysis
 selected_works: []
 source_mentions: []
 summary: null

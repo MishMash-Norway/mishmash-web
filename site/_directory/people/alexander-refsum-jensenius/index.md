@@ -75,6 +75,21 @@ search_keywords:
 - Music Technology
 - Sound Analysis /Synthesis
 selected_works:
+- title: Exploring Methods for Measuring Audience Body Motion in Concert Halls
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Hugh Alexander von Arnim
+    role: Creator
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
+  - name: Finn Upham
+    role: Creator
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 - title: 'musicalgestures: A Python toolbox for visualising and analysing music-related
     video recordings'
   year: '2026'
@@ -244,21 +259,6 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: 'Arab music improvisation corpus for research (AMICOR): development and machine
-    translation experiments | Language Resources and Evaluation'
-  year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: https://link.springer.com/article/10.1007/s10579-026-09905-z
-  contributors:
-  - name: Fadi Al-Ghawanmeh
-    role: Creator
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kamel Smaili
-    role: Creator
 source_mentions:
 - about/organisation/board/index.md
 summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music technology

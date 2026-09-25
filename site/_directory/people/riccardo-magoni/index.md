@@ -24,17 +24,17 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Music business
-- Music streaming platforms
-- Music production
-- Sound engineering
+- Music Business
+- Music Streaming Platforms
+- Music Production
+- Sound Engineering
 - Copyright
 - Digitalisation
 search_keywords:
-- Music business
-- Music streaming platforms
-- Music production
-- Sound engineering
+- Music Business
+- Music Streaming Platforms
+- Music Production
+- Sound Engineering
 - Copyright
 - Digitalisation
 selected_works: []

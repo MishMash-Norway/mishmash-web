@@ -21,23 +21,23 @@ urls:
   youtube: ''
   mastodon: ''
   instagram: ''
-  wikidata: ''
+  wikidata: https://www.wikidata.org/wiki/Q65131911
   facebook: https://www.facebook.com/michael.kahr.39
 aliases: []
 tags:
-- artistic practice
-- jazz studies
-- popular music studies
-- artistic research
-- improvisation
-- composition
+- Artistic Practice
+- Jazz Studies
+- Popular Music Studies
+- Artistic Research
+- Improvisation
+- Composition
 search_keywords:
-- artistic practice
-- jazz studies
-- popular music studies
-- artistic research
-- improvisation
-- composition
+- Artistic Practice
+- Jazz Studies
+- Popular Music Studies
+- Artistic Research
+- Improvisation
+- Composition
 selected_works:
 - title: Constructing a Diverse and Inclusive Jazz Tradition
   year: '2022'

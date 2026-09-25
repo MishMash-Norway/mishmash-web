@@ -26,18 +26,18 @@ urls:
 aliases: []
 tags:
 - Music
-- media industries
-- streaming services
-- platformization
-- cultural policy
-- background music
+- Media Industries
+- Streaming Services
+- Platformization
+- Cultural Policy
+- Background Music
 search_keywords:
 - Music
-- media industries
-- streaming services
-- platformization
-- cultural policy
-- background music
+- Media Industries
+- Streaming Services
+- Platformization
+- Cultural Policy
+- Background Music
 selected_works:
 - title: Lyd laga. Tolv essay om musikkskaping
   year: '2026'

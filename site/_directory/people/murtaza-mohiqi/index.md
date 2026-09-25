@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: https://www.uia.no/english/about-uia/employees/murtazam/index.html
+  institutional_website: https://www.uia.no/english/about-uia/employees/murtazam/
   github: ''
   linkedin: https://www.linkedin.com/in/murtaza-mohiqi-phd-bbb7561a4/?skipRedirect=true
   orcid: https://orcid.org/0000-0002-7198-4348
@@ -38,6 +38,16 @@ search_keywords:
 - Intellectual Property
 - Digital Rights
 selected_works:
+- title: When Curiosity Becomes Optional for Knowledge Creation
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://mishmash.no/assets/events/kristiansand2026/mishmash-opening-conference-2026-abstracts.pdf
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
 - title: 'Innovation Versus Regulation: Intellectual Property Rights Implications
     for ChatGPT Technology in India'
   year: '2025'

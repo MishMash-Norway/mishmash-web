@@ -11,6 +11,10 @@ institutions:
 - kristiania-university-college
 projects:
 - ai-as-environment
+other_projects:
+- title: 'Kunstens co-pilot: Kunst og KI i et prosessøkologisk perspektiv'
+  url: https://nva.sikt.no/projects/2755448
+  nva_id: '2755448'
 roles:
 - Member
 urls:
@@ -49,6 +53,28 @@ search_keywords:
 - Scandinavian Art History
 - Artificial Intelligence
 selected_works:
+- title: AI as Environment poster at MishMash
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://mishmash.no/events/kristiansand2026/
+  contributors:
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Eivind Røssaak
+    role: Creator
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
+  - name: Stephanie  von Spreter
+    role: Creator
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
+  - name: Susanne Østby Sæther
+    role: Creator
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
 - title: 'Introduction: on photography and care'
   year: '2025'
   source: Literature review

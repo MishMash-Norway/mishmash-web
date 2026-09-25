@@ -1,11 +1,11 @@
 ---
-layout: person
 type: person
 slug: aedan-soellaart
 name: Aedan Soellaart
 title: Aedan Soellaart
 position: Student
 department: Faculty of Social Sciences
+image: /assets/images/portraits/Aedan_Soellaart_NORD.jpg
 institution: nord-university
 institutions:
 - nord-university
@@ -17,7 +17,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://aedan.games/
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0001-9829-6377
@@ -27,8 +27,18 @@ urls:
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q138232510
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Game Design
+- Technology, Innovation and Culture
+- Serious Games
+- Accessibility
+- Artificial Intelligence
+search_keywords:
+- Game Design
+- Technology, Innovation and Culture
+- Serious Games
+- Accessibility
+- Artificial Intelligence
 selected_works:
 - title: 'Agile Game Production Instruction: Integrating Agile Methodologies with
     Project-Based Learning in Game Development Education'
@@ -67,7 +77,16 @@ selected_works:
     slug: aedan-soellaart
     url: /people/aedan-soellaart/
 source_mentions: []
-summary: ''
+summary: 'I''m a programmer and technical designer with a Bachelors degree in Games
+  and Entertainment Technology from Nord University and a postgraduate degree in in
+  VR & AR game development from the University of Inland Norway (INN).
+
+
+  I currently work at INN on various projects such as a web-based teacher education
+  training simulator (InnTELT) and a VR digital twin of a real street upgrade made
+  with environmental psychologists (GoGreenNext), as well as research into generative
+  AI for accessibility.'
+layout: person
 description: Student, Faculty of Social Sciences, Nord University
 permalink: /people/aedan-soellaart/
 redirect_from:

@@ -12,7 +12,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://scholar.google.com/citations?hl=en&user=RF5bU6sAAAAJ&inst=4058163445224007304
+  personal_website: https://sifilabs.com/
   institutional_website: https://www.mn.uio.no/its/english/people/aca/ulysse/
   github: https://github.com/ulysseTM
   linkedin: https://www.linkedin.com/in/ulysse-cote-allard

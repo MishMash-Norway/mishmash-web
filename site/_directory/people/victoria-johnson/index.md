@@ -47,6 +47,20 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Concert: Quantum Loops, Broken Symmetries'
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  url: https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/quantum-music/index.html
+  contributors:
+  - name: Victoria Christine Årang Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
 - title: Stillstanding at Deichman Bjørvika
   year: '2025'
   source: Performing arts
@@ -194,24 +208,6 @@ selected_works:
   source: Film or video
   group_type: Film or video
   url: https://vimeo.com/52656574
-  contributors:
-  - name: Lavasir Nordrum
-    role: AcademicCoordinator
-  - name: Alexander Refsum Jensenius
-    role: AcademicCoordinator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kari Anne Vadstensvik Bjerkestrand
-    role: AcademicCoordinator
-  - name: Victoria Johnson
-    role: AcademicCoordinator
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-- title: Micromovements
-  year: '2012'
-  source: Film or video
-  group_type: Film or video
-  url: https://vimeo.com/50569862
   contributors:
   - name: Lavasir Nordrum
     role: AcademicCoordinator

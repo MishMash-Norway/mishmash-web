@@ -136,6 +136,8 @@ selected_works:
   contributors:
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
   - name: Ragnhild Brøvig
     role: Creator
     slug: ragnhild-brovig

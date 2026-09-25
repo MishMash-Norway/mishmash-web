@@ -1,4 +1,4 @@
-synced_at: '2026-09-22T09:52:43Z'
+synced_at: '2026-09-25T10:14:59Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -7,54 +7,6 @@ project:
     en: MishMash Centre for AI and Creativity
     nb: MishMash Senter for KI og kreativitet
 results:
-- title: LLMs and Custom GPTs as a Tool for Academic Research | 2 | Innovation
-  year: '2026'
-  type: BookAnthology
-  type_label: Book anthology
-  group_type: Book anthology
-  contributors:
-  - name: Jon Marius Aareskjold-Drecker
-    role: Creator
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
-  - name: Hans T. Zeiner-Henriksen
-    role: Creator
-  institutions:
-  - name: Arctic University of Norway
-    slug: arctic-university-of-norway
-    url: /institutions/arctic-university-of-norway/
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  citation:
-    authors:
-    - display: Aareskjold-Drecker, Jon Marius
-      name: Jon Marius Aareskjold-Drecker
-      slug: jon-marius-aareskjold-drecker
-      url: /people/jon-marius-aareskjold-drecker/
-    - display: Zeiner-Henriksen, Hans T.
-      name: Hans T. Zeiner-Henriksen
-    title: LLMs and Custom GPTs as a Tool for Academic Research | 2 | Innovation
-    container: ''
-    details: 'Taylor & Francis Group. doi: 10.4324/9781003475675-2.'
-    abstract: This study explores the accuracy and usefulness of OpenAI’s large language
-      models (LLMs), particularly focusing on a customized GPT model trained on a
-      specific dataset of musicology research. The research compares the performance
-      of the custom model against the general ChatGPT-4.o model in an academic setting.
-      The customized GPT, tailored to retrieve information from a controlled set of
-      scholarly articles, was tested by a group of musicology experts, including authors
-      whose works were part of the dataset. Results indicate that the custom GPT generally
-      provides more precise and research-based responses compared to the general model.
-      However, issues such as hallucinations, inconsistent performance, and ethical
-      concerns regarding copyright and the use of LLMs in academic work were observed.
-      The study concludes that while customized GPTs can enhance academic research,
-      their use should be approached with caution due to ongoing challenges in accuracy
-      and ethical implications.
-    full_text_url: https://hdl.handle.net/11250/5568511
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/publication/01a09cbae1b4-207a8b32-7b59-4b45-a742-a4a918ab8bab
-  url: https://www.taylorfrancis.com/chapters/edit/10.4324/9781003475675-2/llms-custom-gpts-tool-academic-research-jon-marius-aareskjold-drecker-hans-zeiner-henriksen?context=ubx&refId=dbcfdb55-608a-4b08-bb98-bdfa7778218f
-  nva_url: https://nva.sikt.no/publication/01a09cbae1b4-207a8b32-7b59-4b45-a742-a4a918ab8bab
 - title: '"There’s something human about it!” - Exploring users’ perception of nonverbal
     communication of robotic furniture'
   year: '2026'
@@ -129,6 +81,56 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/01a0c3276afb-84808a02-16f6-41fc-9eea-dc7d405e6459
   nva_url: https://nva.sikt.no/publication/01a0c3276afb-84808a02-16f6-41fc-9eea-dc7d405e6459
+- title: LLMs and Custom GPTs as a Tool for Academic Research | 2 | Innovation
+  year: '2026'
+  type: AcademicChapter
+  type_label: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  - name: Hans T. Zeiner-Henriksen
+    role: Creator
+  institutions:
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    - display: Zeiner-Henriksen, Hans T.
+      name: Hans T. Zeiner-Henriksen
+    title: LLMs and Custom GPTs as a Tool for Academic Research | 2 | Innovation
+    container: 'In Hepworth-Sawyer, Russ, Marrington, Mark, Gullö, Jan-Olof, Paterson,
+      Justin, Andersen, Claus Sohn, Toulson, Rob (Eds.), Innovation in Music: Current
+      Research Perspectives.'
+    details: 'Routledge. ISBN 9781032757858. p. 3–11. doi: 10.4324/9781003475675-2.'
+    abstract: This study explores the accuracy and usefulness of OpenAI’s large language
+      models (LLMs), particularly focusing on a customized GPT model trained on a
+      specific dataset of musicology research. The research compares the performance
+      of the custom model against the general ChatGPT-4.o model in an academic setting.
+      The customized GPT, tailored to retrieve information from a controlled set of
+      scholarly articles, was tested by a group of musicology experts, including authors
+      whose works were part of the dataset. Results indicate that the custom GPT generally
+      provides more precise and research-based responses compared to the general model.
+      However, issues such as hallucinations, inconsistent performance, and ethical
+      concerns regarding copyright and the use of LLMs in academic work were observed.
+      The study concludes that while customized GPTs can enhance academic research,
+      their use should be approached with caution due to ongoing challenges in accuracy
+      and ethical implications.
+    full_text_url: https://hdl.handle.net/11250/5568511
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a09cbae1b4-207a8b32-7b59-4b45-a742-a4a918ab8bab
+  url: https://www.taylorfrancis.com/chapters/edit/10.4324/9781003475675-2/llms-custom-gpts-tool-academic-research-jon-marius-aareskjold-drecker-hans-zeiner-henriksen?context=ubx&refId=dbcfdb55-608a-4b08-bb98-bdfa7778218f
+  nva_url: https://nva.sikt.no/publication/01a09cbae1b4-207a8b32-7b59-4b45-a742-a4a918ab8bab
 - title: Modeling Relations Between Musical Events in Continuous Time with Transformer
     Models for Live Co-Improvisational Interactions | Zenodo
   year: '2026'
@@ -199,6 +201,81 @@ results:
     nva_url: https://nva.sikt.no/publication/01a072f9420a-ba5baf02-966d-4960-a8fe-1a6a1893a40e
   url: https://zenodo.org/records/22276042
   nva_url: https://nva.sikt.no/publication/01a072f9420a-ba5baf02-966d-4960-a8fe-1a6a1893a40e
+- title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard
+    Media Production Workflows
+  year: '2026'
+  type: AcademicChapter
+  type_label: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Marie Dahlén
+    role: Creator
+    slug: marie-dahlen
+    url: /people/marie-dahlen/
+  - name: Henning Birkeland
+    role: Creator
+    slug: henning-birkeland
+    url: /people/henning-birkeland/
+  - name: Ivar Kjellmo
+    role: Creator
+  - name: Morten Moen
+    role: Creator
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Sigbjørn Galåen
+    role: Creator
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
+  institutions:
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  citation:
+    authors:
+    - display: Dahlén, Marie
+      name: Marie Dahlén
+      slug: marie-dahlen
+      url: /people/marie-dahlen/
+    - display: Birkeland, Henning
+      name: Henning Birkeland
+      slug: henning-birkeland
+      url: /people/henning-birkeland/
+    - display: Kjellmo, Ivar
+      name: Ivar Kjellmo
+    - display: Moen, Morten
+      name: Morten Moen
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    - display: Galåen, Sigbjørn
+      name: Sigbjørn Galåen
+      slug: sigbjorn-galaen
+      url: /people/sigbjorn-galaen/
+    title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry
+      Standard Media Production Workflows
+    container: In Degen, Helmut, Ntoa, Stavroula (Eds.), Artificial Intelligence in
+      HCI.
+    details: 'Springer Nature. ISBN 9783031934124. p. 45–64. doi: 10.1007/978-3-032-30846-7_4.'
+    abstract: 'The study presents key findings to evaluate and ensure the readiness
+      of GenAI tools for use in the professional VFX, film and media industry. Building
+      on previous insights, we present themes which will support rather than hinder
+      artistic practices as well as considerations on ethical guidelines to ensure
+      sustainable and fair use. The study suggest skills to develop in order to incorporate
+      GenAI tools efficiently such as: adaptability of tools and workflow, knowledge
+      in sufficient input quality, prompting, and to be able to apply human ideation
+      and filtering as well as discipline specific competence to the GenAI tool assisted
+      process throughout the whole production workflow. The study suggests that HAIC
+      tools, while being highly cost- and time-effective, are less valuable to incorporate
+      in post-production and final production as they lack sufficient control, high
+      resolution output, nor an option for personalization.'
+    full_text_url: https://hdl.handle.net/11250/5560225
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a038225620-27ffdc77-2d7f-47f9-ba7c-a3c218c0fec9
+  url: https://doi.org/10.1007/978-3-032-30846-7_4
+  nva_url: https://nva.sikt.no/publication/01a038225620-27ffdc77-2d7f-47f9-ba7c-a3c218c0fec9
 - title: A Visualization and Control Interface for Rhythmic Relations
   year: '2026'
   type: AcademicChapter
@@ -560,6 +637,397 @@ results:
     nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/publication/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
+- title: Influence du traitement de plage dynamique sur le rythme perçu dans l’EDM
+  year: '2022'
+  type: AcademicChapter
+  type_label: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Ragnhild Brøvig
+    role: Creator
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
+  - name: Bjørnar Ersland Sandvik
+    role: Creator
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  citation:
+    authors:
+    - display: Brøvig, Ragnhild
+      name: Ragnhild Brøvig
+      slug: ragnhild-brovig
+      url: /people/ragnhild-brovig/
+    - display: Sandvik, Bjørnar Ersland
+      name: Bjørnar Ersland Sandvik
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    title: Influence du traitement de plage dynamique sur le rythme perçu dans l’EDM
+    container: 'In Pierre, Couprie, Gohon, Kévin, Parent, Emmanuel (Eds.), La musique
+      et la machine: Penser l''interaction dans les musiques électroniques.'
+    details: Presses Universitaires de Rennes. ISBN 9782753586857. p. 187–206.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/4308300
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/0198cc644905-3769d252-bea1-4ded-afe6-47aaba635af9
+  nva_url: https://nva.sikt.no/publication/0198cc644905-3769d252-bea1-4ded-afe6-47aaba635af9
+- title: Grassroots Esports and the Transformation of Education and Cultural Participation
+    in the Digital Society
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: Grassroots Esports and the Transformation of Education and Cultural Participation
+      in the Digital Society
+    container: Academic Esports Seminar 2026.
+    details: University of Agder's Campus Grimstad.
+    abstract: 'The growing institutionalization of grassroots esports within schools
+      and universities raises a fundamental normative question: should competitive
+      digital play be treated merely as extracurricular activity, or as an emergent
+      site for the realization of human rights in the digital society? This study
+      advances the latter claim. Drawing on international human rights law-particularly
+      the right to education and the right to participate in cultural life under the
+      International Covenant on Economic, Social and Cultural Rights- it argues that
+      grassroots esports constitute a contemporary arena in which these rights are
+      enacted, contested, and reshaped.
+
+      First, the study reconceptualizes the right to education as extending beyond
+      formal curricula to include digital literacy, collaborative competence, and
+      algorithmic awareness. Structured esports environments cultivate strategic reasoning,
+      collective problem-solving, and socio-digital skills essential for meaningful
+      participation in technologically mediated societies. When embedded in academic
+      institutions, esports can function as pedagogical infrastructure aligned with
+      states’ obligations to ensure accessible, adaptable, and relevant education.
+
+      Second, the study develops a doctrinal account of esports as cultural participation.
+      Competitive digital play represents contemporary cultural production and community
+      formation. Exclusion from these spaces- through gender-based harassment, disability
+      inaccessibility, algorithmic bias, or digital divides- should be understood
+      not merely as social disadvantage but as differential access to cultural rights,
+      engaging principles of equality and non-discrimination.
+
+      Third, the study identifies governance risks, including opaque platform rulemaking,
+      data extraction, and infrastructural inequality. It proposes a “human rights
+      by design” framework for academic esports, positioning universities as duty-bearers
+      responsible for safeguarding dignity, equality, and procedural fairness in digitally
+      mediated competition.
+
+      By reframing grassroots esports as a laboratory for digital human rights realization,
+      the paper offers a normative foundation for human-centered governance in emerging
+      competitive digital ecosystems.'
+    full_text_url: https://hdl.handle.net/11250/5576578
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d7e169d4-0041169a-84d7-48f2-a29c-13f2160dce00
+  url: https://www.uia.no/om-uia/fakultet/teknologi-og-realfag/arrangementer/kurs-konferanse-seminar/academic-esports-seminar-2026.html
+  nva_url: https://nva.sikt.no/publication/01a0d7e169d4-0041169a-84d7-48f2-a29c-13f2160dce00
+- title: Algorithmic Safe Havens or Digital Traps? Reimagining Journalist Protection
+    in AI-Mediated Information Ecosystems
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: Algorithmic Safe Havens or Digital Traps? Reimagining Journalist Protection
+      in AI-Mediated Information Ecosystems
+    container: Academic Conference on Safety of Journalists.
+    details: Lusaka.
+    abstract: Artificial intelligence is changing not only how journalism is produced
+      and distributed, but also how journalists experience risk. Traditional approaches
+      to journalist safety have focused mainly on visible threats such as violence,
+      legal pressure, surveillance, and censorship. Yet digital platforms introduce
+      a quieter form of vulnerability. Algorithms can reduce the visibility of reporting,
+      misclassify sensitive content, expose journalists to coordinated harassment,
+      or influence professional choices without journalists knowing how or why these
+      decisions were made. This study develops the idea of “algorithmic safe havens”
+      and “digital traps” to examine this tension. AI can provide protection by detecting
+      threats, supporting secure communication, and helping journalists reach audiences.
+      At the same time, opaque ranking and moderation systems can create new forms
+      of control and encourage journalists to adapt or censor themselves in anticipation
+      of algorithmic decisions. The paper focuses particularly on invisible censorship,
+      algorithmic self-censorship, and unequal protection across languages and contexts.
+      It argues that journalist safety can no longer be treated only as protection
+      from external threats. It must also include the digital environments in which
+      journalism now takes place, with greater transparency, meaningful appeal mechanisms,
+      and accountability built into their governance.
+    full_text_url: https://hdl.handle.net/11250/5576523
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d7a9d070-f10d4459-7f9b-496d-abbc-919f07706be0
+  url: https://www.unesco.org/en/articles/wpdf-side-event-academic-conference-safety-journalists
+  nva_url: https://nva.sikt.no/publication/01a0d7a9d070-f10d4459-7f9b-496d-abbc-919f07706be0
+- title: Exploring Authentic Anonymity in Documentary Film through AI
+  year: '2026'
+  type: ConferencePoster
+  type_label: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Mette Nyseter
+    role: Creator
+    slug: mette-nyseter
+    url: /people/mette-nyseter/
+  - name: Andrew Michael Davidson
+    role: Creator
+  - name: Christian Schüssler
+    role: Creator
+  institutions:
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  - name: Reimagine
+    slug: reimagine
+    url: /institutions/reimagine/
+  citation:
+    authors:
+    - display: Nyseter, Mette
+      name: Mette Nyseter
+      slug: mette-nyseter
+      url: /people/mette-nyseter/
+    - display: Davidson, Andrew Michael
+      name: Andrew Michael Davidson
+    - display: Schüssler, Christian
+      name: Christian Schüssler
+    title: Exploring Authentic Anonymity in Documentary Film through AI
+    container: MishMash Opening Conference.
+    details: Kristiansand.
+    abstract: 'This artistic research project explores whether AI-based audiovisual
+      transformation can offer a viable and ethically responsible way to anonymise
+      real people in documentary film, protecting participants’ identity while preserving
+      perceived authenticity in their human presence on screen.
+
+
+      Conventional anonymisation methods such as heavy blurring, pixelation and strong
+      voice distortion often strip away facial expressions, body language, emotional
+      intensity and relational dynamics that give the material its meaning, and can
+      introduce stigma or associations with crime, danger or shame. The project investigates
+      whether AI can protect identity without erasing the embodied expressions, emotional
+      nuances and relational dynamics that make documentary material meaningful.
+
+
+      Through a pilot study, we test selected AI tools and approaches, examine how
+      well they retain expression, gesture, interaction, voice and environmental context,
+      and identify key technical, ethical and legal challenges. The outcomes include
+      proof-of-concept examples, a preliminary anonymisation workflow, and a framework
+      for a larger multidisciplinary research project on ethical, cinematic and technological
+      approaches to anonymisation in documentary practice.
+
+
+      The project draws on extensive video recordings from an ongoing artistic research
+      project on role-play and embodied methods in documentary practice and education
+      at the TV School in Lillehammer, providing a concrete use case through which
+      the possibilities and limitations of AI-mediated anonymisation can be explored.
+      You can read more about this project here: https://www.inn.no/english/research/research-projects/Role-playing-for-documentarists/
+
+
+      RESEARCH TEAM
+
+      Mette Nyseter – Project leader, University of Inland Norway, the TV School
+
+      Andrew Michael Davidson – Research advisor, University of Inland Norway
+
+      Christian Schüssler – Industry collaborator, Reimagine AS'
+    full_text_url: https://hdl.handle.net/11250/5575470
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d2dfcd82-bee63347-9a7b-447c-bbde-20ab39dec766
+  url: https://mishmash.no/events/kristiansand2026/
+  nva_url: https://nva.sikt.no/publication/01a0d2dfcd82-bee63347-9a7b-447c-bbde-20ab39dec766
+- title: AI as Environment poster at MishMash
+  year: '2026'
+  type: ConferencePoster
+  type_label: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Eivind Røssaak
+    role: Creator
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
+  - name: Stephanie  von Spreter
+    role: Creator
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
+  - name: Susanne Østby Sæther
+    role: Creator
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
+  institutions:
+  - name: National Library of Norway
+    slug: national-library-of-norway
+    url: /institutions/national-library-of-norway/
+  - name: National Museum of Norway
+    slug: national-museum-of-norway
+    url: /institutions/national-museum-of-norway/
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    - display: Røssaak, Eivind
+      name: Eivind Røssaak
+      slug: eivind-rossaak
+      url: /people/eivind-rossaak/
+    - display: Spreter, Stephanie von
+      name: Stephanie  von Spreter
+      slug: stephanie-von-spreter
+      url: /people/stephanie-von-spreter/
+    - display: Sæther, Susanne Østby
+      name: Susanne Østby Sæther
+      slug: susanne-o-saether
+      url: /people/susanne-o-saether/
+    title: AI as Environment poster at MishMash
+    container: MishMash Opening Conference.
+    details: Kristiansand.
+    abstract: 'Posteren presenterer AI as Environment, et teoretisk rammeverk som
+      undersøker kunstig intelligens som et komplekst miljø av sammenvevde materielle,
+      energetiske og algoritmiske systemer, snarere enn som et avgrenset verktøy eller
+      medium. Med utgangspunkt i økologisk og prosessorientert medieteori utforskes
+      tre gjensidig forbundne økologier: den infrastrukturelle, den epistemiske og
+      den operasjonelle. Rammeverket undersøker hvordan KI former betingelsene for
+      persepsjon, kunnskapsproduksjon og kulturell praksis, og hvordan kunstnerisk
+      forskning kan bidra til kritisk undersøkelse og intervensjon i disse systemene.
+      Posteren ble presentert på MishMash sin åpningskonferanse i Kristiansand i september
+      2026.'
+    full_text_url: https://hdl.handle.net/11250/5575054
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0cff027ff-43f3041e-d971-41af-8a1e-b25e645a780a
+  url: https://mishmash.no/events/kristiansand2026/
+  nva_url: https://nva.sikt.no/publication/01a0cff027ff-43f3041e-d971-41af-8a1e-b25e645a780a
+- title: Street Art and the Gap between Human Rights Law and Lived Truth
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: Street Art and the Gap between Human Rights Law and Lived Truth
+    container: Street Art and Democracy.
+    details: The theater, Kristiansand.
+    abstract: This chapter explores the persistent gap between human rights law as
+      a formal normative order and lived truth as it is experienced, expressed, and
+      contested in public space, taking street art as a critical point of entry. While
+      human rights frameworks promise protection for expression, participation, and
+      access to truth, they often remain ill-equipped to account for the ways in which
+      truth becomes publicly present-or fails to do so-in everyday life. Street art
+      emerges within this gap as a spatial and visual practice through which lived
+      experiences are rendered visible when institutional channels prove insufficient
+      or unresponsive. Rather than treating such practices as marginal or exceptional,
+      the chapter argues that they illuminate a structural tension at the heart of
+      contemporary democratic systems. By situating street art within debates on lived
+      truth, expressive inequality, and democratic legitimacy, the chapter calls for
+      a rethinking of how human rights law engages with forms of truth that unfold
+      beyond authorised institutional frameworks.
+    full_text_url: https://hdl.handle.net/11250/5574062
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0cb7531f9-77208fda-719a-4d75-a949-69121994f965
+  url: https://www.demokratiuka.no/arrangementer/gatekunst-og-demokrati
+  nva_url: https://nva.sikt.no/publication/01a0cb7531f9-77208fda-719a-4d75-a949-69121994f965
+- title: When Curiosity Becomes Optional for Knowledge Creation
+  year: '2026'
+  type: ConferencePoster
+  type_label: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: When Curiosity Becomes Optional for Knowledge Creation
+    container: MishMash Opening Conference.
+    details: Kristiansand.
+    abstract: 'For centuries, knowledge has typically begun with curiosity. Questions
+      came before answers, and discovery depended on uncertainty, exploration, and
+      dialogue. That sequence is now beginning to change. As generative AI becomes
+      an increasingly common starting point for learning, research, and creative work,
+      answers often arrive before curiosity has the opportunity to develop. This raises
+      a broader question than whether AI can generate knowledge: what happens when
+      curiosity is no longer needed to begin creating it? This study explores how
+      the widespread use of generative AI may reshape the human processes through
+      which knowledge is produced. Rather than focusing on the capabilities or limitations
+      of AI systems themselves, it examines how immediate access to AI-generated responses
+      may influence questioning, exploration, collaboration, and intellectual risk-taking.
+      Drawing on perspectives from education, law, philosophy, and human-centred technology,
+      the project develops an interdisciplinary framework for understanding curiosity
+      not simply as a personal characteristic but as an essential condition for creativity
+      and knowledge creation. The central argument is that the most significant transformation
+      brought about by AI may not be the automation of knowledge production, but the
+      gradual reconfiguration of how knowledge begins. If curiosity becomes less necessary,
+      the practices that sustain original thinking, collaborative inquiry, and meaningful
+      discovery may also begin to change in subtle but important ways. By shifting
+      attention from what AI produces to how it reshapes the conditions under which
+      humans create knowledge, the project offers a new perspective on the future
+      of learning, innovation, and humancentred technological development.'
+    full_text_url: https://hdl.handle.net/11250/5574061
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0cb1cdd12-2edb8df5-83a7-49a0-ad8f-346606af59df
+  url: https://mishmash.no/assets/events/kristiansand2026/mishmash-opening-conference-2026-abstracts.pdf
+  nva_url: https://nva.sikt.no/publication/01a0cb1cdd12-2edb8df5-83a7-49a0-ad8f-346606af59df
 - title: 'Press Start to Generate: AI in Game Development Education'
   year: '2026'
   type: ConferenceLecture
@@ -729,10 +1197,13 @@ results:
       This project demonstrates how recent technologies open possibilities for developing
       artistic works to be experienced in domestic surroundings that, from a programming
       standpoint, might appear simple but, depending on the quality and composition
-      of the media content, can still offer rich experiences.'
+      of the media content, can still offer rich experiences.
+
+      Poster publisched in https://mishmash.no/assets/events/kristiansand2026/mishmash-opening-conference-2026-abstracts.pdf'
     full_text_url: https://hdl.handle.net/11250/5573083
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/01a0c7cc5129-de728513-07db-4666-b5cd-67179cf99115
+  url: https://mishmash.no/events/kristiansand2026/
   nva_url: https://nva.sikt.no/publication/01a0c7cc5129-de728513-07db-4666-b5cd-67179cf99115
 - title: 'Teaching for Futures We Must Prevent: Dark Scenario Pedagogy in Legal Education'
   year: '2026'
@@ -1332,6 +1803,40 @@ results:
     nva_url: https://nva.sikt.no/publication/019fc7651904-abec043d-5934-4669-a980-e6fae7fd554a
   url: https://secure.onlinecongress.it/Olc/Client/Programme/Public/Abstract/EUARE2026/1997208256990597002202207/en/AbstractList
   nva_url: https://nva.sikt.no/publication/019fc7651904-abec043d-5934-4669-a980-e6fae7fd554a
+- title: Forgotten Voices - Digital Work Catalogues for Norwegian Classical Music
+    Heritage
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Arnulf Christian Mattes
+    role: Creator
+    slug: arnulf-mattes
+    url: /people/arnulf-mattes/
+  - name: Daniel Henry Øvrebø
+    role: Creator
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  citation:
+    authors:
+    - display: Mattes, Arnulf Christian
+      name: Arnulf Christian Mattes
+      slug: arnulf-mattes
+      url: /people/arnulf-mattes/
+    - display: Øvrebø, Daniel Henry
+      name: Daniel Henry Øvrebø
+    title: Forgotten Voices - Digital Work Catalogues for Norwegian Classical Music
+      Heritage
+    container: IAML International Association of Music Libraries Congress, Thessaloniki.
+    details: Thessaloniki Concert Hall.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5533525
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019f183aba3a-f315ee48-51aa-49b4-9f8f-3278f75b6050
+  nva_url: https://nva.sikt.no/publication/019f183aba3a-f315ee48-51aa-49b4-9f8f-3278f75b6050
 - title: 'AI as Fifth Team Member: Differentiated Roles in Design Education'
   year: '2026'
   type: ConferenceLecture
@@ -1377,6 +1882,37 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019ee51716fd-779dcd42-477e-49b3-b7a2-4580232470b9
   nva_url: https://nva.sikt.no/publication/019ee51716fd-779dcd42-477e-49b3-b7a2-4580232470b9
+- title: From project to national infrastructure — Building a digital work catalogue
+    for Norwegian musical heritage
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Arnulf Christian Mattes
+    role: Creator
+    slug: arnulf-mattes
+    url: /people/arnulf-mattes/
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  citation:
+    authors:
+    - display: Mattes, Arnulf Christian
+      name: Arnulf Christian Mattes
+      slug: arnulf-mattes
+      url: /people/arnulf-mattes/
+    title: From project to national infrastructure — Building a digital work catalogue
+      for Norwegian musical heritage
+    container: Symposium on Digital and AI Musicology  Current research on the use
+      of computational methods and AI in music libraries and musicology.
+    details: National Library of Norway.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5526313
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ea6fde809-2df749a5-f07c-4fe0-9d02-5aaad94b271b
+  nva_url: https://nva.sikt.no/publication/019ea6fde809-2df749a5-f07c-4fe0-9d02-5aaad94b271b
 - title: Presentation of MishMash Centre for AI and Creativity
   year: '2026'
   type: ConferencePoster
@@ -2038,39 +2574,20 @@ results:
     details: Westminster Law School, University of Westminster, 4–12 Little Titchfield
       Street, London W1W 7BY.
     abstract: 'Generative AI is changing legal education in ways that are not confined
-      to research,
-
-      writing or analytical efficiency. It also affects how students encounter the
-      people and
-
-      experiences from which legal problems emerge. Drawing on work in law and
-
-      emotion, human rights pedagogy, clinical legal education and critical AI studies,
-      this
-
-      chapter considers what these changes mean for legal empathy. Generative systems
-
-      may help students rehearse perspectives, question assumptions and reflect on
-
-      difficult material. At the same time, a fluent representation of another person’s
-
-      experience is not equivalent to understanding that experience, still less to
-      assuming
-
-      responsibility for a professional judgment about it. The chapter uses the idea
-      of
-
-      emotional anaesthesia to identify a particular educational risk: that technological
-
-      mediation may make ambiguity, vulnerability, cultural difference and narrative
-
-      difficulty easier to process by making them less demanding to encounter. It
-      argues
-
-      for an approach in which AI remains supplementary to, rather than a substitute
-      for,
-
-      the human encounters through which legal judgment is formed.'
+      to research, writing or analytical efficiency. It also affects how students
+      encounter the people and experiences from which legal problems emerge. Drawing
+      on work in law and emotion, human rights pedagogy, clinical legal education
+      and critical AI studies, this chapter considers what these changes mean for
+      legal empathy. Generative systems may help students rehearse perspectives, question
+      assumptions and reflect on difficult material. At the same time, a fluent representation
+      of another person’s experience is not equivalent to understanding that experience,
+      still less to assuming responsibility for a professional judgment about it.
+      The chapter uses the idea of emotional anaesthesia to identify a particular
+      educational risk: that technological mediation may make ambiguity, vulnerability,
+      cultural difference and narrative difficulty easier to process by making them
+      less demanding to encounter. It argues for an approach in which AI remains supplementary
+      to, rather than a substitute for, the human encounters through which legal judgment
+      is formed.'
     full_text_url: https://hdl.handle.net/11250/5568286
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/01a092aea75a-02466575-8c0d-4800-bd30-d0adf9f1491a
@@ -2297,6 +2814,50 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/019a5a87be28-17f5f937-cf7c-4030-b2a9-6a02159cf5b7
   nva_url: https://nva.sikt.no/publication/019a5a87be28-17f5f937-cf7c-4030-b2a9-6a02159cf5b7
+- title: 'From Creative Trust to Creative Templates: How AI Transforms Musical Creativity
+    into a Commodity'
+  year: '2025'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Ruzbeh Smiley
+    role: Creator
+    slug: ruzbeh-smiley
+    url: /people/ruzbeh-smiley/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Smiley, Ruzbeh
+      name: Ruzbeh Smiley
+      slug: ruzbeh-smiley
+      url: /people/ruzbeh-smiley/
+    title: 'From Creative Trust to Creative Templates: How AI Transforms Musical Creativity
+      into a Commodity'
+    container: Innovation In Music 2025.
+    details: Bath Spa.
+    abstract: This article investigates how Artificial Intelligence (AI) assistive
+      music tools influence the creative processes in the production of contemporary
+      popular music. By employing a qualitative research method with semi-structured
+      interviews and auto-ethnography, the paper investigates the role of the music
+      producer in a progressively AI-integrated studio setting. The findings suggest
+      that while AI tools might enhance efficiency and reshape the technical practices
+      of music producers, they often fail to foster genuine creative trust as a collaborator.
+      Through the empirical findings, the research demonstrates that these tools can
+      only operate within their pre-determined parameters, which causes limited capability
+      to engage with sound, context, or artistic expression. Additionally, these tools
+      pose a risk of homogenization and dismantling the artistic identity and decision-making.
+      Ultimately, although AI can efficiently automate tasks, it provides commodities
+      rather than being a creative partner, since making authentic music is tightly
+      linked with human agency, emotional investments, and domain expertise, the dimension
+      that current AI systems cannot replicate.
+    full_text_url: https://hdl.handle.net/11250/4727061
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01995b9e0f08-16b2975f-97a5-4fd7-95d1-1d8068d63394
+  nva_url: https://nva.sikt.no/publication/01995b9e0f08-16b2975f-97a5-4fd7-95d1-1d8068d63394
 - title: 'micromotion: A Python toolbox for analysing human micromotion in motion
     time series'
   year: '2026'
@@ -2840,6 +3401,70 @@ results:
     nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/publication/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
+- title: 'A Grid in Flux: Sound and Timing in Electronic Dance Music'
+  year: '2021'
+  type: AcademicArticle
+  type_label: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Ragnhild Brøvig-Hanssen
+    role: Creator
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
+  - name: Bjørnar Sandvik
+    role: Creator
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  - name: Anne Danielsen
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  citation:
+    authors:
+    - display: Brøvig-Hanssen, Ragnhild
+      name: Ragnhild Brøvig-Hanssen
+      slug: ragnhild-brovig
+      url: /people/ragnhild-brovig/
+    - display: Sandvik, Bjørnar
+      name: Bjørnar Sandvik
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    - display: Danielsen, Anne
+      name: Anne Danielsen
+    title: 'A Grid in Flux: Sound and Timing in Electronic Dance Music'
+    container: Music Theory Spectrum.
+    details: 'ISSN 0195-6167. 44. doi: 10.1093/mts/mtab013.'
+    abstract: Researchers have argued that temporal microdeviations from the metric
+      grid, such as those producedby musicians in performance, are crucial to making
+      a musical rhythm groovy and danceable. It is curious, then, that the music currently
+      dominating the dance floor, “electronic dance music” or EDM, is typically characterized
+      by grid-based rhythms. But is such a “mechanistic,” grid-based aesthetic necessarily
+      devoid of microrhythmic nuance? In this article, we aim to show that the microrhythmic
+      component of an engaging groove involves the manipulation of more than simply
+      the onset locations of rhythmic events—the sonic features fundamentally contribute
+      to shaping the groove as well. In particular, we seek to demonstrate that EDM
+      producers, with their preference for a grid-based microtiming aesthetic, are
+      very sensitive to and adept at manipulating such sonic features for expressive
+      effect. Drawing on interviews with EDM producers, we show that producers are
+      often concerned with both sonic and temporal features, as well as their interactions.
+      We argue that sonic features are crucial to shaping groove and feel at the micro
+      level of rhythm. Moreover, such features also tend to introduce an indirect
+      microtiming aspect to the grid-based aesthetic of EDM through the ways in which
+      they shape timing at the perceptual level.
+    full_text_url: https://hdl.handle.net/11250/5107280
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+  url: https://doi.org/10.1093/mts/mtab013
+  nva_url: https://nva.sikt.no/publication/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
 - title: Musikkproduksjonsarkiv som praksisfelt og kunnskapskilde
   year: '2026'
   type: Lecture
@@ -3507,6 +4132,10 @@ results:
     role: Creator
     slug: jon-marius-aareskjold-drecker
     url: /people/jon-marius-aareskjold-drecker/
+  - name: Budhaditya Chattopadhyay
+    role: Creator
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
   institutions:
   - name: University of Oslo
     slug: university-of-oslo
@@ -3517,6 +4146,9 @@ results:
   - name: University of Inland Norway
     slug: university-of-inland-norway
     url: /institutions/university-of-inland-norway/
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
   - name: Oslo School of Architecture and Design
     slug: oslo-school-of-architecture-and-design
     url: /institutions/oslo-school-of-architecture-and-design/
@@ -3544,6 +4176,10 @@ results:
       name: Jon Marius Aareskjold-Drecker
       slug: jon-marius-aareskjold-drecker
       url: /people/jon-marius-aareskjold-drecker/
+    - display: Chattopadhyay, Budhaditya
+      name: Budhaditya Chattopadhyay
+      slug: budhaditya-chattopadhyay
+      url: /people/budhaditya-chattopadhyay/
     title: 'NE #00: New Embeddings of/for Artistic Intelligence'
     container: 'Ars Electronica Festival 2026: Future Begins – Negotiating Humanity.'
     details: Linz.
@@ -4920,6 +5556,64 @@ results:
     nva_url: https://nva.sikt.no/publication/019d5ddae0df-a80c62e6-17b0-456c-a033-9a219326ef4d
   url: https://www.uc.pt/ceis20/conferencias/alexander-jensenius-eixos-do-conhecimento-interdisciplinar/
   nva_url: https://nva.sikt.no/publication/019d5ddae0df-a80c62e6-17b0-456c-a033-9a219326ef4d
+- title: 'Art(ificial) Inteligence: Reframing Creativity and Efficiency'
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Ruzbeh Smiley
+    role: Creator
+    slug: ruzbeh-smiley
+    url: /people/ruzbeh-smiley/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Smiley, Ruzbeh
+      name: Ruzbeh Smiley
+      slug: ruzbeh-smiley
+      url: /people/ruzbeh-smiley/
+    title: 'Art(ificial) Inteligence: Reframing Creativity and Efficiency'
+    container: Music Production and Sound Recording.
+    details: University of Stavanger.
+    abstract: 'This lecture presents how Artificial Intelligence (AI) assistive tools
+      are fundamentally altering the creative workflows within contemporary popular
+      music. By utilizing qualitative data from semi-structured interviews and first-hand
+      auto-ethnographic research, we will explore the evolving role of the music producer
+      in an increasingly automated studio environment.
+
+
+      Core Areas of Investigation:
+
+      Efficiency vs. Creative Partnership: The research indicates that while AI significantly
+      enhances technical speed and reshapes production practices, it consistently
+      fails to earn the "creative trust" required for a true partnership. We will
+      discuss why these tools are often viewed as utilities rather than collaborators.
+
+
+      The Limitations of Parameters: A central theme of this lecture is the boundary
+      of AI capability. We will analyse how these systems are constrained by predetermin
+      mathematical parameters, leaving them unable to truly "hear" sound, understand
+      cultural context, or engage in genuine artistic expression.
+
+
+      The Threat of Homogenization: We will address the risk of AI-driven tools dismantling
+      individual artistic identity. Relying on predictive algorithms can lead to a
+      "sameness" in music, where the human element of decision-making is sidelined
+      by automated suggestions.
+
+
+      Human Agency and Authenticity: Finally, we will argue that making authentic
+      music is deeply rooted in human agency, emotional investment, and domain expertise.
+      While AI can efficiently produce musical commodities, it remains unable to replicate
+      the soulful dimension that defines human-led art.d'
+    full_text_url: https://hdl.handle.net/11250/5485143
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/019ce42e2a15-ad30db2e-c09f-45d6-9511-03578c7622f2
+  nva_url: https://nva.sikt.no/publication/019ce42e2a15-ad30db2e-c09f-45d6-9511-03578c7622f2
 - title: KI i kreative prosesser
   year: '2026'
   type: Lecture
@@ -5093,7 +5787,7 @@ results:
   - name: Jessica Pedersen Belisle Hansen
     role: RoleOther
   institutions:
-  - name: Ostfold University College
+  - name: Østfold University College
     slug: ostfold-university-college
     url: /institutions/ostfold-university-college/
   - name: University of Inland Norway
@@ -7065,6 +7759,41 @@ results:
     nva_url: https://nva.sikt.no/publication/019dcbf4d15b-642a468a-8e7f-4fb1-8e21-c0c8b5598702
   url: https://dornsife.usc.edu/cema/events/
   nva_url: https://nva.sikt.no/publication/019dcbf4d15b-642a468a-8e7f-4fb1-8e21-c0c8b5598702
+- title: 'Concert: Quantum Loops, Broken Symmetries'
+  year: '2025'
+  type: MusicPerformance
+  type_label: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Victoria Christine Årang Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  institutions:
+  - name: Barratt Due Institute of Music
+    slug: barratt-due-institute-of-music
+    url: /institutions/barratt-due-institute-of-music/
+  - name: Norwegian Academy of Music
+    slug: norwegian-academy-of-music
+    url: /institutions/norwegian-academy-of-music/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: 'Concert: Quantum Loops, Broken Symmetries'
+    container: ''
+    details: ''
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5576040
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d3b866ca-8ee463b0-6236-43f8-aaf6-0d26326a2951
+  url: https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/quantum-music/index.html
+  nva_url: https://nva.sikt.no/publication/01a0d3b866ca-8ee463b0-6236-43f8-aaf6-0d26326a2951
 - title: The Great Human Filter - The Age of Evaluation (album)
   year: '2025'
   type: MusicPerformance

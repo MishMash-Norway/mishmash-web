@@ -29,30 +29,30 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Community music therapy
+- Community Music Therapy
 - Migration
-- Family therapy
+- Family Therapy
 - Refugees
-- Premature children
-- Perinatal mental health
+- Premature Children
+- Perinatal Mental Health
 - Data Science
-- Machine learning
-- Video analysis
+- Machine Learning
+- Video Analysis
 - Human Rights
-- Music and adolescents
+- Music and Adolescents
 - Intersectionality
 search_keywords:
-- Community music therapy
+- Community Music Therapy
 - Migration
-- Family therapy
+- Family Therapy
 - Refugees
-- Premature children
-- Perinatal mental health
+- Premature Children
+- Perinatal Mental Health
 - Data Science
-- Machine learning
-- Video analysis
+- Machine Learning
+- Video Analysis
 - Human Rights
-- Music and adolescents
+- Music and Adolescents
 - Intersectionality
 selected_works:
 - title: Parental perception of receiving resource-oriented music therapy principles

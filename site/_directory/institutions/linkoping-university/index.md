@@ -18,6 +18,7 @@ urls:
   website: https://liu.se/en
   wikipedia: https://en.wikipedia.org/wiki/Link%C3%B6ping_University
   ror: https://ror.org/05ynxx418
+  wikidata: https://www.wikidata.org/wiki/Q782600
 aliases:
 - Linkoping University
 - Linköpings universitet

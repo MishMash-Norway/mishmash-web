@@ -56,6 +56,20 @@ search_keywords:
 - Pedagogisk Utviklingsarbeid
 - Digital Storytelling
 selected_works:
+- title: Exploring Authentic Anonymity in Documentary Film through AI
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://mishmash.no/events/kristiansand2026/
+  contributors:
+  - name: Mette Nyseter
+    role: Creator
+    slug: mette-nyseter
+    url: /people/mette-nyseter/
+  - name: Andrew Michael Davidson
+    role: Creator
+  - name: Christian Schüssler
+    role: Creator
 - title: Si meg når
   year: '2020'
   source: Music performance

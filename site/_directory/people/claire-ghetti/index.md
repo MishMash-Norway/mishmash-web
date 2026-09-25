@@ -35,6 +35,23 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Parental perception of receiving resource-oriented music therapy principles
+    during NICU admission is positively associated with infant social emotional measures
+    at six months corrected age
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Eva Marija Vukich
+    role: Creator
+    slug: eva-marija-vukich
+    url: /people/eva-marija-vukich/
+  - name: Andreas Stordal
+    role: Creator
+  - name: Claire Ghetti
+    role: Creator
+    slug: claire-ghetti
+    url: /people/claire-ghetti/
 - title: 'Music Therapy in Infancy and Neurodevelopmental Outcomes in Preterm Children:
     A Secondary Analysis of the LongSTEP Randomized Clinical Trial'
   year: '2024'
@@ -257,21 +274,6 @@ selected_works:
   - name: Cochavit Elefant
     role: Creator
   - name: Shmuel Arnon
-    role: Creator
-  - name: Claire Ghetti
-    role: Creator
-    slug: claire-ghetti
-    url: /people/claire-ghetti/
-- title: Israeli Parents’ Lived Experiences of Music Therapy With Their Preterm Infants
-    Post-Hospitalization
-  year: '2022'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1093/jmt/thac006
-  contributors:
-  - name: Shulamit Epstein
-    role: Creator
-  - name: Cochavit Elefant
     role: Creator
   - name: Claire Ghetti
     role: Creator

@@ -94,6 +94,15 @@ kulturskoleradet:
   inception: '1973-01-01'
   qid: Q19383926
   website: http://www.kulturskoleradet.no/
+linkoping-university:
+  coordinates:
+    lat: 58.399166666
+    lon: 15.576944444
+  inception: '1975-01-01'
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Linkoping%20University%20Logo.svg
+  qid: Q782600
+  ror: 05ynxx418
+  website: https://liu.se
 national-library-of-norway:
   coordinates:
     lat: 59.914044
@@ -273,6 +282,14 @@ university-of-cambridge:
   qid: Q35794
   ror: 013meh722
   website: https://www.cam.ac.uk/
+university-of-edinburgh:
+  coordinates:
+    lat: 55.947388888
+    lon: -3.187194444
+  inception: '1583-01-01'
+  qid: Q160302
+  ror: 01nrxwf90
+  website: https://www.ed.ac.uk
 university-of-iceland:
   coordinates:
     lat: 64.140555555

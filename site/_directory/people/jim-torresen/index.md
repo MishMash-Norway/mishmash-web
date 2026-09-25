@@ -30,6 +30,9 @@ other_projects:
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
+- title: Robust additive manufacturing of polymer composites for optimal part production
+  url: https://nva.sikt.no/projects/2770893
+  nva_id: '2770893'
 roles:
 - Member
 urls:

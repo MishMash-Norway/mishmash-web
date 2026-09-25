@@ -45,6 +45,21 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Exploring Methods for Measuring Audience Body Motion in Concert Halls
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Hugh Alexander von Arnim
+    role: Creator
+    slug: hugh-alexander-von-arnim
+    url: /people/hugh-alexander-von-arnim/
+  - name: Finn Upham
+    role: Creator
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 - title: 'musicalgestures: A Python toolbox for visualising and analysing music-related
     video recordings'
   year: '2026'
@@ -220,22 +235,6 @@ selected_works:
     url: /people/tejaswinee-kelkar/
   - name: Live Noven
     role: Creator
-- title: Sense-making and Use of Multimodal Feedback in Team-based Simulations in
-    Nursing Education
-  year: '2024'
-  source: Conference abstract
-  group_type: Conference
-  contributors:
-  - name: Daniel Sanchez
-    role: Creator
-  - name: Crina I. Damsa
-    role: Creator
-  - name: Rachelle Esterhazy
-    role: Creator
-  - name: Hugh Alexander von Arnim
-    role: Creator
-    slug: hugh-alexander-von-arnim
-    url: /people/hugh-alexander-von-arnim/
 source_mentions: []
 summary: His doctoral work is supervised by Professor Alexander Refsum Jensenius and
   Associate Professor Tejaswinee Kelkar.

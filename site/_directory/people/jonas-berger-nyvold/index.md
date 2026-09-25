@@ -25,14 +25,14 @@ urls:
 aliases: []
 tags:
 - ML
-- AI
-- music generation
-- music production
+- Artificial Intelligence
+- Music Generation
+- Music Production
 search_keywords:
 - ML
-- AI
-- music generation
-- music production
+- Artificial Intelligence
+- Music Generation
+- Music Production
 selected_works: []
 source_mentions: []
 summary: null

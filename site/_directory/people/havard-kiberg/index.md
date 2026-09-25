@@ -27,28 +27,28 @@ aliases: []
 tags:
 - Popular Culture
 - Journalism
-- Platform economy
+- Platform Economy
 - Media Culture
 - Streaming
-- Media and communication
-- Media policy and media regulation
+- Media and Communication
+- Media Policy and Media Regulation
 - Digital Culture
-- Media technology
-- Social media
-- Media science
+- Media Technology
+- Social Media
+- Media Science
 - Music
 search_keywords:
 - Popular Culture
 - Journalism
-- Platform economy
+- Platform Economy
 - Media Culture
 - Streaming
-- Media and communication
-- Media policy and media regulation
+- Media and Communication
+- Media Policy and Media Regulation
 - Digital Culture
-- Media technology
-- Social media
-- Media science
+- Media Technology
+- Social Media
+- Media Science
 - Music
 selected_works:
 - title: News Diversity Across Platforms. A Large-Scale Analysis of the Norwegian
@@ -64,6 +64,8 @@ selected_works:
     role: Creator
   - name: Håvard Kiberg
     role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
   - name: Gunhild Ring Olsen
     role: Creator
   - name: Lasha Kavtaradze
@@ -79,6 +81,8 @@ selected_works:
     role: Creator
   - name: Håvard Kiberg
     role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
   - name: Bente Kalsnes
     role: Creator
   - name: Gunhild Ring Olsen
@@ -94,6 +98,8 @@ selected_works:
   contributors:
   - name: Håvard Kiberg
     role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
   - name: Gunhild Ring Olsen
     role: Creator
   - name: Arne H. Krumsvik
@@ -118,6 +124,8 @@ selected_works:
     role: Creator
   - name: Håvard Kiberg
     role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
   - name: Lasha Kavtaradze
     role: Creator
 - title: 'Platform Ambivalence : Exploring the Dynamic Relationship Between Platformization
@@ -128,6 +136,8 @@ selected_works:
   contributors:
   - name: Håvard Kiberg
     role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
   - name: Ole Johan Mjøs
     role: Supervisor
   - name: Lene Pettersen
@@ -141,6 +151,8 @@ selected_works:
   contributors:
   - name: Håvard Kiberg
     role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
   - name: Hendrik Storstein Spilker
     role: Creator
 - title: '(Plat)formatted Creativity: Creating Music in the Age of Streaming'
@@ -151,6 +163,8 @@ selected_works:
   contributors:
   - name: Håvard Kiberg
     role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
 - title: 'Liveness online in deadly times: How artists explored the expressive potential
     of live-streamed concerts at the face of COVID-19 in Norway'
   year: '2022'
@@ -160,10 +174,14 @@ selected_works:
   contributors:
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
   - name: Hendrik Storstein Spilker
     role: Creator
   - name: Håvard Kiberg
     role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
 - title: Strømmekonserter - mer enn nødløsninger?
   year: '2022'
   source: Book chapter
@@ -174,8 +192,12 @@ selected_works:
     role: Creator
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
   - name: Håvard Kiberg
     role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
 - title: "Personaliserte anbefalinger og musikalsk\r\nmangfold – en umulig kombinasjon?"
   year: '2020'
   source: Journal article
@@ -184,6 +206,8 @@ selected_works:
   contributors:
   - name: Håvard Kiberg
     role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
 source_mentions: []
 summary: 'Håvard Kiberg is a researcher III at the Department of Communication and
   a part-time teacher at the School of Arts, Design and Media (Kristiania University

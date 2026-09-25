@@ -23,19 +23,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- composer
-- improviser
-- vocalist
-- opera singer
-- researcher
-- performer-controlled interactive audio processing
+- Composer
+- Improviser
+- Vocalist
+- Opera Singer
+- Researcher
+- Performer-Controlled Interactive Audio Processing
 search_keywords:
-- composer
-- improviser
-- vocalist
-- opera singer
-- researcher
-- performer-controlled interactive audio processing
+- Composer
+- Improviser
+- Vocalist
+- Opera Singer
+- Researcher
+- Performer-Controlled Interactive Audio Processing
 selected_works:
 - title: 'What We Owe to Cathy: Reflections from Meredith Monk, Joan La Barbara, Rinde
     Eckert, Susan Botti, Theo Bleckmann and Pamela Z'

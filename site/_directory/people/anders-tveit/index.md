@@ -47,6 +47,20 @@ search_keywords:
 - Music
 - Music Technology
 selected_works:
+- title: 'Concert: Quantum Loops, Broken Symmetries'
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  url: https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/quantum-music/index.html
+  contributors:
+  - name: Victoria Christine Årang Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
 - title: 11. The composition of acousmatic electroacoustic music in a Norwegian context
     part II
   year: '2025'
@@ -192,33 +206,6 @@ selected_works:
   - name: Tone Åse
     role: Artist
   - name: Eskil Muan Sæther
-    role: Artist
-- title: 'Semesteråpningskonsert: Oslo mobilorkester'
-  year: '2013'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Artist
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Mons Thyness
-    role: Artist
-  - name: Ellen K Sjøstrand Wingerei
-    role: Artist
-  - name: Turid Kristensen
-    role: Artist
-  - name: Hans T. Zeiner-Henriksen
-    role: Artist
-  - name: Åshild Watne
-    role: Artist
-  - name: Eirik Askerøi
-    role: Artist
-  - name: Anders Tveit
-    role: Artist
-    slug: anders-tveit
-    url: /people/anders-tveit/
-  - name: Anne Eline Riisnæs
     role: Artist
 source_mentions: []
 summary: ''

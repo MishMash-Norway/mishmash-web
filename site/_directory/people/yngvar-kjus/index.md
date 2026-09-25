@@ -32,19 +32,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- popular music
-- music production
-- music media
-- music industry
-- mediated experience
-- technology
+- Popular Music
+- Music Production
+- Music Media
+- Music Industry
+- Mediated Experience
+- Technology
 search_keywords:
-- popular music
-- music production
-- music media
-- music industry
-- mediated experience
-- technology
+- Popular Music
+- Music Production
+- Music Media
+- Music Industry
+- Mediated Experience
+- Technology
 selected_works:
 - title: 'How AI-tools feed on cross-industry collaboration: The case of music and
     computer games'
@@ -54,6 +54,8 @@ selected_works:
   contributors:
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
 - title: 'Skaperundersøkelsen: Rapport fra en spørreundersøkelse om musikk, teknologi
     og mangfold'
   year: '2026'
@@ -64,6 +66,8 @@ selected_works:
     role: Creator
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
   - name: Fabian Stordalen
     role: Creator
 - title: Tutoring, Selling, Gearfluencing, or What? An Exploration of the Motives
@@ -75,6 +79,8 @@ selected_works:
   contributors:
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
   - name: Emil Kraugerud
     role: Creator
   - name: Øyvind Skjerdal
@@ -87,6 +93,8 @@ selected_works:
   contributors:
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
 - title: 'Kvinners første møte med DAW: en fornemmelse av å være i gutteklubbens skygger'
   year: '2024'
   source: Book chapter
@@ -95,6 +103,8 @@ selected_works:
   contributors:
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
   - name: Ragnhild Brøvig
     role: Creator
     slug: ragnhild-brovig
@@ -110,6 +120,8 @@ selected_works:
   contributors:
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
 - title: 'Liveness online in deadly times: How artists explored the expressive potential
     of live-streamed concerts at the face of COVID-19 in Norway'
   year: '2022'
@@ -119,10 +131,14 @@ selected_works:
   contributors:
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
   - name: Hendrik Storstein Spilker
     role: Creator
   - name: Håvard Kiberg
     role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
 - title: Will the EU’s directive on copyright in the digital market change the power
     balance of the music industry? Views from Norway.
   year: '2022'
@@ -132,6 +148,8 @@ selected_works:
   contributors:
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
   - name: Roy Aulie Jacobsen
     role: Creator
 - title: Strømmekonserter - mer enn nødløsninger?
@@ -144,8 +162,12 @@ selected_works:
     role: Creator
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
   - name: Håvard Kiberg
     role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
 - title: License to stream? A study of how rights-holders have responded to music
     streaming services in Norway
   year: '2021'
@@ -155,6 +177,8 @@ selected_works:
   contributors:
   - name: Yngvar Kjus
     role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
 source_mentions: []
 summary: null
 published: true

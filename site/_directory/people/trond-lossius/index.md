@@ -68,6 +68,7 @@ selected_works:
   year: '2026'
   source: Conference poster
   group_type: Conference
+  url: https://mishmash.no/events/kristiansand2026/
   contributors:
   - name: Trond Lossius
     role: Creator

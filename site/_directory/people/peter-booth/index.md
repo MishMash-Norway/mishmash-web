@@ -24,19 +24,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- cultural economics
-- economics of the arts
-- quantitative analysis
-- survey design
-- ecosystems analysis
-- economics of AI
+- Cultural Economics
+- Economics of the Arts
+- Quantitative Analysis
+- Survey Design
+- Ecosystems Analysis
+- Economics of AI
 search_keywords:
-- cultural economics
-- economics of the arts
-- quantitative analysis
-- survey design
-- ecosystems analysis
-- economics of AI
+- Cultural Economics
+- Economics of the Arts
+- Quantitative Analysis
+- Survey Design
+- Ecosystems Analysis
+- Economics of AI
 selected_works:
 - title: Newspaper executives’ positioning toward the evolving use of social media
   year: '2024'

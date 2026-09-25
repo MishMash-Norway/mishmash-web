@@ -25,19 +25,19 @@ urls:
   facebook: https://www.facebook.com/barnefilmfestivalen
 aliases: []
 tags:
-- Festival network
-- industry network
-- film industry
-- education
-- industry forums
-- pitching forums
+- Festival Network
+- Industry Network
+- Film Industry
+- Education
+- Industry Forums
+- Pitching Forums
 search_keywords:
-- Festival network
-- industry network
-- film industry
-- education
-- industry forums
-- pitching forums
+- Festival Network
+- Industry Network
+- Film Industry
+- Education
+- Industry Forums
+- Pitching Forums
 selected_works: []
 source_mentions: []
 summary: null

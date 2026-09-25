@@ -24,19 +24,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Art education
-- technology
-- professorhips
-- how to build competence
-- magazine
-- publishing platforms
+- Art Education
+- Technology
+- Professorhips
+- How to Build Competence
+- Magazine
+- Publishing Platforms
 search_keywords:
-- Art education
-- technology
-- professorhips
-- how to build competence
-- magazine
-- publishing platforms
+- Art Education
+- Technology
+- Professorhips
+- How to Build Competence
+- Magazine
+- Publishing Platforms
 selected_works: []
 source_mentions: []
 summary: null

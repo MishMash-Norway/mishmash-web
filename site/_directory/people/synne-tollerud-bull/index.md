@@ -53,6 +53,28 @@ search_keywords:
 - Visual Culture
 - New Media
 selected_works:
+- title: AI as Environment poster at MishMash
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://mishmash.no/events/kristiansand2026/
+  contributors:
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Eivind Røssaak
+    role: Creator
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
+  - name: Stephanie  von Spreter
+    role: Creator
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
+  - name: Susanne Østby Sæther
+    role: Creator
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
 - title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard
     Media Production Workflows
   year: '2026'
@@ -183,17 +205,6 @@ selected_works:
     url: /people/synne-tollerud-bull/
   - name: Leo Rygnestad
     role: Creator
-- title: THE FUTURES OF THE PASTS (2023)
-  year: '2023'
-  source: Visual arts
-  group_type: Visual arts
-  contributors:
-  - name: Synne Tollerud Bull
-    role: Artist
-    slug: synne-tollerud-bull
-    url: /people/synne-tollerud-bull/
-  - name: Dragan Miletic
-    role: Artist
 source_mentions:
 - about/organisation/council/index.md
 - about/organisation/wp-leaders/index.md

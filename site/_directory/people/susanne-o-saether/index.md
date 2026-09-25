@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: susanne-o-saether
 name: Susanne Østby Sæther
@@ -10,6 +9,10 @@ institution: ''
 institutions: []
 projects:
 - ai-as-environment
+other_projects:
+- title: 'Kunstens co-pilot: Kunst og KI i et prosessøkologisk perspektiv'
+  url: https://nva.sikt.no/projects/2755448
+  nva_id: '2755448'
 roles:
 - Member
 urls:
@@ -26,6 +29,28 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: AI as Environment poster at MishMash
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://mishmash.no/events/kristiansand2026/
+  contributors:
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Eivind Røssaak
+    role: Creator
+    slug: eivind-rossaak
+    url: /people/eivind-rossaak/
+  - name: Stephanie  von Spreter
+    role: Creator
+    slug: stephanie-von-spreter
+    url: /people/stephanie-von-spreter/
+  - name: Susanne Østby Sæther
+    role: Creator
+    slug: susanne-o-saether
+    url: /people/susanne-o-saether/
 - title: 'Introduction: Media Seas of the High North Atlantic'
   year: '2026'
   source: Book chapter
@@ -137,17 +162,9 @@ selected_works:
     role: Creator
     slug: susanne-o-saether
     url: /people/susanne-o-saether/
-- title: Ghost in the Machine
-  year: '2008'
-  source: Exhibition
-  group_type: Exhibition
-  contributors:
-  - name: Susanne Østby Sæther
-    role: Curator
-    slug: susanne-o-saether
-    url: /people/susanne-o-saether/
 source_mentions: []
 summary: ''
+layout: person
 description: Guest, Department of Media and Communication, University of Oslo
 permalink: /people/susanne-o-saether/
 redirect_from:
