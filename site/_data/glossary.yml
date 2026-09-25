@@ -1005,3 +1005,23 @@
       quote: "“Compilation and evaluation of the inputs, outputs and the potential environmental impacts of a product system throughout its life cycle.”"
       source: "ISO 14040:2006, 3.2"
       url: "https://www.iso.org/obp/ui/#iso:std:iso:14040:ed-2:en"
+
+- key: fair
+  term:
+    en: "FAIR principles"
+    nb: "FAIR-prinsippene"
+    nn: "FAIR-prinsippa"
+  simple:
+    en: "four rules that make research data easy to find and reuse"
+    nb: "fire regler som gjør forskningsdata lette å finne og bruke om igjen"
+  standard:
+    en: "four principles for research data: findable, accessible, interoperable and reusable. Data that follow them have a persistent identifier, are described so that people and machines can find them, can be fetched by standard means, work together with other data, and carry a licence that says how they may be used"
+    nb: "fire prinsipper for forskningsdata: de skal kunne finnes, hentes, brukes sammen med andre data og gjenbrukes. Data som følger dem har en varig identifikator, er beskrevet slik at både mennesker og maskiner finner dem, kan hentes med vanlige verktøy, passer sammen med andre data og har en lisens som sier hvordan de kan brukes"
+  advanced:
+    en: "a set of guiding principles for the management and stewardship of research data, published in 2016 by a group of researchers, publishers and funders. Findable: a globally unique persistent identifier, rich metadata that include the identifier, and registration in a searchable resource. Accessible: retrievable by the identifier over a standard, open protocol, with metadata that remain available even when the data no longer are. Interoperable: formal, shared languages for knowledge representation, FAIR vocabularies, and qualified references to other data. Reusable: rich attributes, a clear usage licence, provenance, and community standards. The principles say nothing about openness in itself; closed data can be FAIR when the conditions for access are stated"
+    nb: "et sett veiledende prinsipper for forvaltning av forskningsdata, publisert i 2016 av en gruppe forskere, forlag og finansiører. Finnbare: en globalt unik og varig identifikator, rike metadata som inneholder identifikatoren, og registrering i en søkbar ressurs. Tilgjengelige: kan hentes via identifikatoren over en åpen standardprotokoll, med metadata som er tilgjengelige selv når dataene ikke lenger er det. Sammenkoblbare: formelle, delte språk for kunnskapsrepresentasjon, FAIR-vokabularer og kvalifiserte referanser til andre data. Gjenbrukbare: rike attributter, en tydelig brukslisens, proveniens og standarder fra fagmiljøet. Prinsippene sier ingenting om åpenhet i seg selv; lukkede data kan være FAIR når vilkårene for tilgang er oppgitt"
+  references:
+    - kind: literature
+      quote: "The FAIR Guiding Principles for scientific data management and stewardship: data and metadata should be Findable, Accessible, Interoperable and Reusable, for machines as well as for people."
+      source: "Wilkinson et al. 2016"
+      url: https://doi.org/10.1038/sdata.2016.18
