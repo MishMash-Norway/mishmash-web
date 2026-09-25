@@ -35,6 +35,7 @@ Automated tools find only part of the barriers a person can meet. The rest depen
 - The chat page depends on JavaScript and on an external language model service.
 - The experimental interface themes under `/ui/` are, indeed, experimental (!), and hence outside the automated checks.
 - The pieces in the [lab](/lab/) are also experiments; each is scanned like any page but may need JavaScript, sound or a pointer, and says so.
+- The [kiosk](/kiosk/), a self-rotating view of events and news for screens in partner lobbies, is an experiment for information screens and is outside the automated checks.
 
 ## Tell us about a barrier
 

@@ -36,6 +36,7 @@ Automatiske verktøy finner bare en del av barrierene en person kan møte. Reste
 - Chat-siden er avhengig av JavaScript og av en ekstern språkmodelltjeneste.
 - De eksperimentelle grensesnittene under `/ui/` er nettopp det, eksperimentelle (!), og ligger derfor utenfor de automatiske sjekkene.
 - Bidragene i [laben](/lab/) er også eksperimenter; hvert av dem sjekkes som alle andre sider, men kan kreve JavaScript, lyd eller pekeredskap, og sier fra om det.
+- [Kiosken](/kiosk/), en visning av arrangementer og nyheter som ruller av seg selv på skjermer hos partnerne, er et eksperiment for informasjonsskjermer og ligger utenfor de automatiske sjekkene.
 
 ## Fortell oss om en barriere
 
