@@ -22,21 +22,11 @@ body {
   padding: 1.75rem 1.5rem 1.5rem !important;
 }
 
+/* No section uses the purple band: ink on it falls short of AAA, and text on
+   it in ink chips did not look right. The rules for a purple section stay,
+   so that a page can still ask for it, but the layout gives the work
+   packages the blue band. */
 .mm-section-purple .page-header { background-color: var(--mm-purple) !important; }
-
-/* On the purple band, text sits on ink rather than on the pastel: the nav
-   buttons as ink chips with the tint, the tagline as ink on the tint. The
-   band itself keeps the identity purple. */
-.mm-section-purple .page-header .btn {
-  background-color: var(--mm-ink) !important;
-  color: var(--mm-purple-tint) !important;
-}
-.mm-section-purple .page-header .project-tagline {
-  display: inline-block;
-  background: var(--mm-purple-tint);
-  color: var(--mm-ink);
-  padding: 0.1em 0.4em;
-}
 .mm-section-blue .page-header   { background-color: var(--mm-blue) !important; }
 .mm-section-pink .page-header   { background-color: var(--mm-pink) !important; }
 

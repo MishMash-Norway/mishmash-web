@@ -15,9 +15,13 @@
   {% if page.url == L.home %}{% assign mm_is_home = true %}{% endif %}
 {% endfor %}
 {% assign mm_section = 'green' %}
-{% if mm_path contains '/wp' %}
-  {% assign mm_section = 'purple' %}
-{% elsif mm_path contains '/news' or mm_path contains '/events' %}
+{% comment %}
+  The work packages share the blue band with news and events: ink on the
+  identity purple reaches 5.64:1, short of AAA, and text on the purple band
+  in ink chips did not look right, so the purple surface carries no page
+  header at all (25 September 2026). Ink on blue reaches 9.60:1.
+{% endcomment %}
+{% if mm_path contains '/wp' or mm_path contains '/news' or mm_path contains '/events' %}
   {% assign mm_section = 'blue' %}
 {% elsif mm_path contains '/people' or mm_path contains '/institutions' or mm_path contains '/projects' or mm_path contains '/results' %}
   {% assign mm_section = 'pink' %}
