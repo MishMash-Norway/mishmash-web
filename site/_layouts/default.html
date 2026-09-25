@@ -168,6 +168,7 @@
         share one row: the trail on the left, the box on the right, wrapping
         onto two lines when the width does not allow both.
       {%- endcomment %}
+      {% if lang == 'nn' and page.translation.automatic %}{% include nynorsk-note.html %}{% endif %}
       <div class="mm-page-top">
       {% include breadcrumbs.html %}
       {% if page.adaptive %}{% include audience-switcher.html %}{% endif %}

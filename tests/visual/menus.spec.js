@@ -74,3 +74,12 @@ test('the thumbnail link in a listing is not a second stop for the keyboard', as
     }
   }
 });
+
+test('a generated nynorsk page carries the notice, and a bokmål page does not', async ({ page }) => {
+  // The notice is the one place that tells a reader the page is a machine
+  // translation. It disappeared once when the layout around it was edited.
+  await page.goto('/nn/about/organisation/');
+  await expect(page.locator('main .nynorsk-note')).toHaveCount(1);
+  await page.goto('/no/about/organisation/');
+  await expect(page.locator('main .nynorsk-note')).toHaveCount(0);
+});
