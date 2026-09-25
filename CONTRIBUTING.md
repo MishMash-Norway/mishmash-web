@@ -61,7 +61,6 @@ NVA credentials: see [config/README.md](config/README.md). **Never commit creden
 | Person portraits in `site/assets/images/portraits/` | NVA enrich script (daily CI) |
 | Many person front-matter fields | `scripts/enrich_directory_from_nva.py` (daily CI) |
 | `site/chat/knowledge.json` | `scripts/build_knowledge_base.py` (rebuilt at every deploy) |
-| `site/_data/zenodo_records.yml` | `scripts/sync_results_from_zenodo.py` (daily CI) |
 | `site/_data/wikidata_institutions.yml`, `urls.ror` | `scripts/sync_wikidata.py` (daily CI) |
 | `site/nn-auto/`, `site/_data/translations_nn.yml` | `scripts/build_nynorsk.py` (every build; ignored by git) |
 | `site/data/*.json`, `*.csv` | `scripts/build_open_data.py` (every deploy; ignored by git) |

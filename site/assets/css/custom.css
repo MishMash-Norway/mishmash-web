@@ -1947,28 +1947,6 @@ video.mm-heritage-player {
   margin: 0.5rem 0 0;
 }
 
-/* Zenodo deposits on the results page */
-.zenodo-list {
-  list-style: none;
-  padding: 0;
-}
-
-.zenodo-item {
-  padding: 0.5rem 0;
-  border-top: 1px solid var(--mm-ink-15);
-}
-
-.zenodo-meta {
-  display: block;
-  font-size: 0.92rem;
-  color: var(--mm-ink-70);
-}
-
-.zenodo-note {
-  font-size: 0.92rem;
-  color: var(--mm-ink-70);
-}
-
 .mm-heritage-text {
   margin: 0.25rem 0 0;
 }

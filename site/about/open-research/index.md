@@ -20,7 +20,7 @@ Co-authorship across disciplines and institutions is encouraged, even though it 
 
 ## Data
 
-Research data follow the FAIR principles: findable, accessible, interoperable and reusable. Datasets are deposited in trusted repositories with a persistent identifier, most often [DataverseNO](https://dataverse.no/) or [Zenodo](https://zenodo.org/communities/mishmash/). Artistic material belongs where creative practitioners already look for it, such as [Freesound](https://freesound.org/) and the [Research Catalogue](https://www.researchcatalogue.net/). Material from libraries and museums connects to the European cultural heritage infrastructure.
+Research data follow the FAIR principles: findable, accessible, interoperable and reusable. Datasets are deposited in trusted repositories with a persistent identifier, most often [DataverseNO](https://dataverse.no/) or [Zenodo](https://zenodo.org/communities/mishmash/), and registered in NVA, which is where the [results page](/results/) reads them. Artistic material belongs where creative practitioners already look for it, such as [Freesound](https://freesound.org/) and the [Research Catalogue](https://www.researchcatalogue.net/). Material from libraries and museums connects to the European cultural heritage infrastructure.
 
 Data are released in standard, open file formats, with the documentation and software needed to read them, and with a data management plan. The rule is as open as possible and as closed as necessary: privacy and copyright set the limits, and where they do, the centre says so rather than leaving a dataset unexplained.
 

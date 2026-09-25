@@ -45,9 +45,6 @@ jobs:
         continue-on-error: true
         run: python3 scripts/enrich_results_from_openalex.py
 
-      - name: Sync deposits from Zenodo
-        run: python3 scripts/sync_results_from_zenodo.py
-
       - name: Sync expositions from the Research Catalogue
         run: python3 scripts/sync_research_catalogue.py
 

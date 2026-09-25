@@ -130,18 +130,6 @@ def result_rows(root: Path) -> list[dict]:
             "institutions": [i.get("slug") for i in r.get("institutions") or [] if i.get("slug")],
             "source": "NVA",
         })
-    zpath = root / "_data" / "zenodo_records.yml"
-    if zpath.exists():
-        seen = {r["doi"] for r in rows if r.get("doi")}
-        for z in (yaml.safe_load(zpath.read_text(encoding="utf-8")) or {}).get("records") or []:
-            if z.get("doi") in seen:
-                continue
-            rows.append({
-                "title": z.get("title"), "year": (z.get("date") or "")[:4] or None,
-                "type": z.get("type"), "doi": z.get("doi"), "nva_url": None, "url": z.get("url"),
-                "contributors": [{"name": c.get("name"), "slug": None} for c in z.get("creators") or []],
-                "institutions": [], "source": "Zenodo", "licence": z.get("licence"),
-            })
     return rows
 
 
@@ -186,7 +174,7 @@ DATASETS = {
     "people": ("People in the MishMash directory: professional facts only", "CC0 for the site's own fields; identifiers from NVA and ORCID keep their sources' terms", ["NVA", "ORCID", "the person"]),
     "institutions": ("Partner institutions with identifiers and coordinates", "CC0; coordinates and identifiers from Wikidata (CC0)", ["Wikidata", "Wikipedia"]),
     "projects": ("MishMash projects with people, institutions and work packages", "CC0", ["the centre"]),
-    "results": ("Research results registered for the centre in the national research archive, and deposits on Zenodo", "Metadata as recorded in NVA (Sikt) and Zenodo; the compilation is CC0", ["NVA", "Zenodo"]),
+    "results": ("Research results registered for the centre in the national research archive", "Metadata as recorded in NVA (Sikt); the compilation is CC0", ["NVA"]),
     "events": ("MishMash events, past and upcoming", "CC0", ["the centre"]),
     "terminology": ("MishMash terminology in English, Bokmål and Nynorsk", "CC0", ["the centre"]),
 }

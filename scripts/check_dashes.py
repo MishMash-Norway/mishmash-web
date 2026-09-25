@@ -43,7 +43,6 @@ IMPORTED = (
     "site/_data/partner_news.yml",
     "site/_data/partner_events.yml",
     "site/_data/wikidata_institutions.yml",
-    "site/_data/zenodo_records.yml",
     "site/_data/results_openalex.yml",
     "site/_data/member_posts.yml",
     "site/_data/research_catalogue.yml",

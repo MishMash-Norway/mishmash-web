@@ -21,7 +21,7 @@ Samforfatterskap på tvers av fag og institusjoner oppmuntres, selv om det er va
 
 ## Data
 
-Forskningsdata følger FAIR-prinsippene: de skal kunne finnes, hentes, brukes sammen med andre data og gjenbrukes. Datasett deponeres i anerkjente arkiver med en varig identifikator, oftest [DataverseNO](https://dataverse.no/) eller [Zenodo](https://zenodo.org/communities/mishmash/). Kunstnerisk materiale hører hjemme der utøvere allerede leter, som [Freesound](https://freesound.org/) og [Research Catalogue](https://www.researchcatalogue.net/). Materiale fra biblioteker og museer knyttes til den europeiske infrastrukturen for kulturarv.
+Forskningsdata følger FAIR-prinsippene: de skal kunne finnes, hentes, brukes sammen med andre data og gjenbrukes. Datasett deponeres i anerkjente arkiver med en varig identifikator, oftest [DataverseNO](https://dataverse.no/) eller [Zenodo](https://zenodo.org/communities/mishmash/), og registreres i NVA, som er der [resultatsiden](/no/results/) henter dem fra. Kunstnerisk materiale hører hjemme der utøvere allerede leter, som [Freesound](https://freesound.org/) og [Research Catalogue](https://www.researchcatalogue.net/). Materiale fra biblioteker og museer knyttes til den europeiske infrastrukturen for kulturarv.
 
 Data slippes i åpne standardformater, med dokumentasjonen og programvaren som trengs for å lese dem, og med en datahåndteringsplan. Regelen er så åpent som mulig og så lukket som nødvendig: personvern og opphavsrett setter grensene, og der de gjør det, sier senteret fra i stedet for å la et datasett stå uforklart.
 
