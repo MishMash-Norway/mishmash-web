@@ -34,10 +34,14 @@
   --mm-pink-tint: #fdf1f1;
   --mm-yellow-tint: #fbfce6;
 
-  /* The identity purple is a surface colour. As text on white it reaches only
-     2.89:1, so links that turn purple on hover or focus use this darker step of
-     the same hue: 6.62:1 on white and 5.97:1 on the lightest tint. */
-  --mm-purple-text: #5d4db2;
+  /* The identity purple is a surface for decoration only: the wordmark, the
+     section band, artwork. As text on white it reaches 2.89:1, and ink on it
+     reaches 5.64:1, short of the 7:1 that AAA asks. Text therefore never sits
+     on it. This darker step of the same hue does the text work: 7.02:1 as
+     text on white, and 7.02:1 as a surface under white text. Decided on
+     25 September 2026; the pastel purple is unchanged. */
+  --mm-purple-text: #594aab;
+  --mm-purple-dark: #594aab;
 
   /* Greys derived from the ink for secondary text and rules. */
   --mm-ink-70: #5c5859;

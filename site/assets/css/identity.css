@@ -23,6 +23,20 @@ body {
 }
 
 .mm-section-purple .page-header { background-color: var(--mm-purple) !important; }
+
+/* On the purple band, text sits on ink rather than on the pastel: the nav
+   buttons as ink chips with the tint, the tagline as ink on the tint. The
+   band itself keeps the identity purple. */
+.mm-section-purple .page-header .btn {
+  background-color: var(--mm-ink) !important;
+  color: var(--mm-purple-tint) !important;
+}
+.mm-section-purple .page-header .project-tagline {
+  display: inline-block;
+  background: var(--mm-purple-tint);
+  color: var(--mm-ink);
+  padding: 0.1em 0.4em;
+}
 .mm-section-blue .page-header   { background-color: var(--mm-blue) !important; }
 .mm-section-pink .page-header   { background-color: var(--mm-pink) !important; }
 
@@ -114,7 +128,7 @@ body {
 
 .mm-section-purple .page-header .btn:hover,
 .mm-section-purple .page-header .btn:focus-visible,
-.mm-section-purple .page-header details.btn[open] { color: var(--mm-purple) !important; }
+.mm-section-purple .page-header details.btn[open] { color: var(--mm-purple-tint) !important; }
 .mm-section-blue .page-header .btn:hover,
 .mm-section-blue .page-header .btn:focus-visible,
 .mm-section-blue .page-header details.btn[open] { color: var(--mm-blue) !important; }
@@ -197,7 +211,8 @@ body {
 .main-content a:focus-visible {
   color: var(--mm-ink) !important;
   text-decoration-color: var(--mm-ink);
-  background: var(--mm-purple);
+  text-decoration-thickness: 3px;
+  background: var(--mm-purple-tint);
 }
 
 .main-content a:has(img) {
@@ -222,8 +237,9 @@ body {
   text-decoration-color: var(--mm-purple);
 }
 
-/* "More …" paragraphs (a paragraph whose whole text is one link) get the
-   arrow motif; the class is added by the small script in the layout. */
+/* "More …" paragraphs (a paragraph whose whole text is one link ending in
+   an ellipsis) get the arrow motif; the class is added by the small script
+   in the layout. */
 .main-content p.mm-more {
   font-family: var(--mm-font-display);
   font-weight: var(--mm-display-weight);
@@ -257,7 +273,7 @@ body {
 }
 
 .mm-section-purple .main-content .btn:hover,
-.mm-section-purple .main-content .button:hover { color: var(--mm-purple) !important; }
+.mm-section-purple .main-content .button:hover { color: var(--mm-purple-tint) !important; }
 .mm-section-blue .main-content .btn:hover,
 .mm-section-blue .main-content .button:hover   { color: var(--mm-blue) !important; }
 .mm-section-pink .main-content .btn:hover,

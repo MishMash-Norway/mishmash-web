@@ -26,7 +26,7 @@ import { resolve } from 'node:path';
 import { chromium } from '@playwright/test';
 import { server, measure, TARGETS, LEVELS } from './check_contrast.mjs';
 
-const PAGES = ['/', '/about/', '/about/description/', '/events/', '/news/', '/search/',
+const PAGES = ['/', '/about/', '/about/description/', '/wp1/', '/events/', '/news/', '/search/',
   '/people/alexander-refsum-jensenius/', '/about/glossary/', '/no/', '/results/'];
 const TEXT = '.main-content p, .main-content li, .main-content h1, .main-content h2, .main-content h3, '
   + '.main-content a, .main-content td, .main-content th, footer a, footer p, .page-header a, .page-header p, '
