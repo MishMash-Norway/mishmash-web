@@ -172,6 +172,13 @@ Practical consequences:
   not in the file.
 - **Run `python3 scripts/validate_directory.py`** before committing;
   the Web Quality Checks workflow runs the same script.
+- **Every institution needs a place in `site/_data/compute_access.yml`**, a
+  Norwegian one under `institutions` with a category and a foreign one under
+  `excluded`; `test_compute_access.py` fails the workflow otherwise.
+- **The whole import, start to finish**, from the API download to the
+  mailing-list files, is written out as `automation.people_import_from_the_form`
+  in `CONTENT_HANDOVER.yml` and on the wiki's Directory page. It needs no new
+  script; if a step fails, fix the data it names and run the step again.
 
 Import people from XLSX
 -----------------------

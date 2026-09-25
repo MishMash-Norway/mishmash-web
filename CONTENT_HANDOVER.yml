@@ -207,6 +207,10 @@ routing:
     source: site/_directory/people/{slug}/index.md
     public_area: /people/{slug}/
     special_rule: Start from site/_directory/people/_template/index.md.
+  - request_type: people_import_from_form
+    source: the Nettskjema export in temp/, written by the fetcher
+    public_area: /people/{slug}/ for each new person
+    special_rule: Follow automation.people_import_from_the_form step by step; the scripts exist, do not write new ones.
 
 content_types:
   authored_news:
@@ -399,6 +403,57 @@ automation:
   directory_importers:
     spreadsheet: python3 scripts/import_people_from_xlsx.py
     nettskjema_fetch: python3 scripts/fetch_nettskjema_export.py --import [--write]  (downloads the form's Excel report through the Nettskjema API; needs config/nettskjema-credentials.json, see config/README.md)
+  people_import_from_the_form:
+    rule: >-
+      The scripts for this exist and are tested. Do not write a new importer,
+      a new fetcher or a new matcher, and do not edit profiles by hand to do
+      what a script does. If a step below fails, fix the data it names (an
+      institution, an alias, a category) and run the step again; every step
+      is safe to repeat. The whole procedure was last run on 25 September 2026
+      and took about twenty minutes.
+    steps:
+      - "1. Dry run, which also downloads the newest export into temp/:
+         python3 scripts/fetch_nettskjema_export.py --import
+         Read the create/update lines and every WARNING."
+      - "2. For each 'unresolved institution' warning, either add the wording
+         the person used to an existing institution's aliases, or create the
+         institution from site/_directory/institutions/_template/ with name,
+         short_name, country, city and urls.website. Two are left unresolved
+         by decision: 'G T C. IBADAN', and any freelance person, who has no
+         institution to name."
+      - "3. A row submitted with a first name only: find the full name on the
+         institution's staff page (the form has the email and the
+         institutional web page) before writing, and rename the created
+         folder, slug, permalink, name and title to it. Never publish a
+         first-name-only entry."
+      - "4. Write: python3 scripts/import_people_from_xlsx.py --xlsx temp/<newest>.xlsx
+         Then read git diff on site/_directory/people: names and identifiers
+         on existing entries must not change; only URLs, wps and empty fields
+         may."
+      - "5. python3 scripts/sync_directory_reciprocity.py  (institution.people
+         lists), then python3 scripts/validate_directory.py must end in
+         'OK: all checks passed'."
+      - "6. Enrich the new entries from NVA and ORCID, one --slug per new
+         person:
+         python3 scripts/enrich_directory_from_nva.py --discover-nva --slug a --slug b
+         Then python3 scripts/build_thumbnails.py for any portrait it fetched."
+      - "7. Every new institution needs a place in site/_data/compute_access.yml:
+         a Norwegian one under institutions with a category, a foreign one
+         under excluded. scripts/test_compute_access.py fails CI otherwise."
+      - "8. bundle exec jekyll build, htmlproofer, and commit site/_directory
+         and site/_data/compute_access.yml in one commit that says how many
+         people came in and what was created."
+      - "9. Mailing lists: python3 scripts/sympa_additions_from_form.py --since <date of the previous import>
+         writes temp/sympa-add-*.txt. Adding members to Sympa needs a list
+         owner's login, so hand those files to Alexander; nothing is sent."
+    never:
+      - Never import a row that did not answer Yes to the directory question;
+        the importer already skips them, and the rows from before the question
+        existed need a consent request, not an import.
+      - Never overwrite a name, an NVA id or an ORCID on an existing entry
+        from the form; the importer keeps them and says so in a warning.
+      - Never add a compute_access local block without checking the
+        institution's own pages.
   generated_or_machine_updated:
     - _site/
     - site/_data/mishmash_results.yml
