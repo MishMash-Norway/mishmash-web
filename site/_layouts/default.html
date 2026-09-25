@@ -159,9 +159,15 @@
     </header>
 
     <main id="main-content" class="main-content" role="main">
+      {%- comment -%}
+        The breadcrumb trail and, on adaptive pages, the reading-level box
+        share one row: the trail on the left, the box on the right, wrapping
+        onto two lines when the width does not allow both.
+      {%- endcomment %}
+      <div class="mm-page-top">
       {% include breadcrumbs.html %}
-      {% if lang == 'nn' and page.translation.automatic %}{% include nynorsk-note.html %}{% endif %}
       {% if page.adaptive %}{% include audience-switcher.html %}{% endif %}
+      </div>
       {{ content }}
 
       {% include page-about.html %}

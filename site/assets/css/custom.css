@@ -2166,3 +2166,22 @@ a.nva-result-oa-badge:focus-visible {
 html:not([data-audience]) .stretch-more[hidden]:not(.stretch-abbr-more) {
   display: inline;
 }
+
+/* The row above the content: breadcrumb trail on the left, the reading-level
+   box on the right when the page has one. */
+.mm-page-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin: 0 0 1.25rem;
+}
+
+.mm-page-top .mm-breadcrumbs {
+  margin: 0;
+}
+
+.mm-page-top .audience-switcher {
+  margin: 0 0 0 auto;
+}
