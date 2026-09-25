@@ -46,10 +46,14 @@
       {% assign oa = site.data.results_openalex.works[oa_key] %}
     {% endif %}
     {% if oa and oa.free %}
+    {%- comment -%}
+      One badge, which is the link to the free copy when there is one. The
+      licence and a separate "Read it" link used to stand beside it; the
+      badge carries the address now (25 September 2026).
+    {%- endcomment %}
     <p class="nva-result-oa">
-      <span class="nva-result-oa-badge">{% if oa.status == 'green' %}{{ t.results_open_access_author | default: 'Open access, author&#8217;s copy' }}{% else %}{{ t.results_open_access | default: 'Open access' }}{% endif %}</span>
-      {%- if oa.licence_label %} <span class="nva-result-oa-licence">{{ oa.licence_label }}</span>{% endif -%}
-      {%- if oa.url %} <a href="{{ oa.url }}" target="_blank" rel="noopener noreferrer">{{ t.results_read_free | default: 'Read it' }}</a>{% endif -%}
+      {%- capture oa_label %}{% if oa.status == 'green' %}{{ t.results_open_access_author | default: 'Open access, author&#8217;s copy' }}{% else %}{{ t.results_open_access | default: 'Open access' }}{% endif %}{% endcapture -%}
+      {%- if oa.url %}<a class="nva-result-oa-badge" href="{{ oa.url }}" target="_blank" rel="noopener noreferrer">{{ oa_label }}</a>{% else %}<span class="nva-result-oa-badge">{{ oa_label }}</span>{% endif %}
     </p>
     {% endif %}
 

@@ -168,11 +168,15 @@
     </main>
     <script>
       (function () {
-        // Paragraphs whose whole text is one link ("More events…") get the arrow motif.
+        // Paragraphs whose whole text is one link ending in an ellipsis
+        // ("More events…") get the arrow motif. The ellipsis is the test: a
+        // paragraph that is one link for another reason, such as a result
+        // with a single linked author, is not a "more" link.
         document.querySelectorAll('.main-content p:not(.no-arrow)').forEach(function (p) {
           var a = p.children.length === 1 ? p.children[0] : null;
+          var text = a ? a.textContent.trim() : '';
           if (a && a.tagName === 'A' && !a.querySelector('img') &&
-              p.textContent.trim() === a.textContent.trim()) {
+              p.textContent.trim() === text && /(\u2026|\.\.\.)$/.test(text)) {
             p.classList.add('mm-more');
           }
         });
