@@ -31,10 +31,19 @@
       {%- if bc_title == nil or bc_title == '' or bc_title == 'Index' -%}
         {%- assign bc_title = bc_part | replace: '-', ' ' | replace: '_', ' ' | capitalize -%}
       {%- endif -%}
+      {%- comment -%}
+        The people folder has no listing page of its own; the search page
+        filtered to people is where a reader browses them, so the crumb goes
+        there.
+      {%- endcomment -%}
+      {%- assign bc_href = bc_path -%}
+      {%- if bc_part == 'people' and bc_path == '/people/' -%}
+        {%- assign bc_href = '/search/?type=person' -%}{%- assign bc_page = true -%}
+      {%- endif -%}
       {%- if forloop.index0 == bc_last or bc_path == bc_url %}
     <li aria-current="page">{{ bc_title }}</li>
       {%- elsif bc_page %}
-    <li><a href="{{ bc_path | relative_url }}">{{ bc_title }}</a></li>
+    <li><a href="{{ bc_href | relative_url }}">{{ bc_title }}</a></li>
       {%- else %}
     <li>{{ bc_title }}</li>
       {%- endif -%}

@@ -181,7 +181,7 @@ source_mentions:
 summary: ''
 layout: person
 description: Head of academic department, Department of Computer Science and Communication,
-  Ostfold University College
+  Østfold University College
 permalink: /people/andre-alexandersen-hauge/
 redirect_from:
 - /directory/people/andre-alexandersen-hauge/
