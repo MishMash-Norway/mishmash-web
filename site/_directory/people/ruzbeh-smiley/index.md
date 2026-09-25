@@ -30,6 +30,7 @@ urls:
   mastodon: ''
   instagram: https://www.instagram.com/Ruzbeh.Smiley
   wikidata: ''
+  facebook: https://www.facebook.com/Ruzbeh.Smiley
 aliases: []
 tags:
 - Popular Music Studies

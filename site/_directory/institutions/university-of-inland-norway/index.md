@@ -34,6 +34,7 @@ people:
 - tonje-louise-finne
 - troels-linde
 - trond-lossius
+- yngvar-kjus
 projects:
 - ai-assisted-film-production-vita-vigeland
 - authentic-anonymity-in-documentary-film

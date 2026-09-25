@@ -12,6 +12,7 @@ description: The Oslo National Academy of the Arts is a tertiary institution in 
 short_name: KHiO
 image: /images/institutions/oslo-national-academy-of-the-arts.png
 people:
+- antonio-cataldo
 - lise-amy-hansen
 - oystein-stene
 - tiril-schroder

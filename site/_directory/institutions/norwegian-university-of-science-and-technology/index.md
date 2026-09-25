@@ -19,6 +19,7 @@ people:
 - hilda-deborah
 - jacqueline-rowley
 - jens-knigge
+- katherine-butcher
 - oyvind-brandtsegg
 - xiangming-zhang
 projects:

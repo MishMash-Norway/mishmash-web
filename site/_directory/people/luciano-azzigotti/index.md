@@ -21,6 +21,7 @@ urls:
   youtube: https://www.youtube.com/@LucianoAzzigotti
   mastodon: https://mastodon.social/@zzigo
   instagram: https://www.instagram.com/azzigotti
+  facebook: https://www.facebook.com/azzigotti
 aliases: []
 tags:
 - Composition

@@ -14,6 +14,7 @@ people:
 - baltasar-beferull-lozano
 - irina-eidsvold
 - lyuba-boncheva
+- peter-booth
 - sondre-knudsen
 - terje-colbjornsen
 projects:

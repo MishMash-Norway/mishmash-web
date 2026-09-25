@@ -15,6 +15,7 @@ people:
 - ali-ramezani-kebrya
 - anders-tveit
 - andreas-love
+- anja-nylund-hagen
 - anna-maria-christodoulou
 - arthur-jinyue-guo
 - balint-laczko
@@ -25,11 +26,13 @@ people:
 - diego-marin-bucio
 - eskil-muan-saether
 - hans-kristian-strandstuen-rustad
+- havard-kiberg
 - hege-stensrud-hosoien
 - hugh-alexander-von-arnim
 - ingrid-chieh-yu
 - jim-torresen
 - jon-marius-aareskjold-drecker
+- jonas-berger-nyvold
 - jonna-vuoskoski
 - kai-olav-ellefsen
 - kyrre-glette
@@ -53,6 +56,7 @@ people:
 - ulysse-cote-allard
 - victoria-johnson
 - vincenzo-madaghiele
+- yngvar-kjus
 projects:
 - agency-and-control-in-musical-ensemble
 - ai-and-legal-protection-of-personal-characteristics
@@ -80,6 +84,7 @@ urls:
   brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/971035854
 aliases:
 - Universitetet i Oslo
+- Department of Musicology, University of Oslo
 tags: []
 search_keywords: []
 source_mentions:

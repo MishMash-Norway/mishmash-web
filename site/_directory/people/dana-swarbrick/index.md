@@ -32,6 +32,7 @@ urls:
   mastodon: ''
   instagram: https://www.instagram.com/dana.and.monsters
   bluesky: https://bsky.app/profile/dana-and-monsters.bsky.social
+  facebook: https://www.facebook.com/dana.and.monsters
 aliases: []
 tags:
 - Music Cognition

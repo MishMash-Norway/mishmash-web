@@ -21,6 +21,7 @@ urls:
   youtube: https://youtube.com/@moonframestudios
   mastodon: ''
   instagram: https://instagram.com/TheCarmenGloria
+  facebook: https://facebook.com/TheCarmenGloria
 aliases: []
 tags:
 - AI Filmmaking

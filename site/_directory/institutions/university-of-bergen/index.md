@@ -16,6 +16,7 @@ people:
 - claire-ghetti
 - daniel-peter-biro
 - david-rych
+- eva-marija-vukich
 - gabriele-de-seta
 - hans-skaug
 - ida-tolgensbakk

@@ -21,6 +21,7 @@ urls:
   youtube: https://www.youtube.com/@boriseldagsen
   mastodon: ''
   instagram: https://www.instagram.com/boriseldagsen
+  facebook: https://www.facebook.com/boriseldagsen/
 aliases: []
 tags:
 - AI Images

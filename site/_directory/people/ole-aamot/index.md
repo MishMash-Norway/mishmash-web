@@ -23,6 +23,7 @@ urls:
   mastodon: ''
   instagram: ''
   wikidata: ''
+  facebook: https://www.facebook.com/oleaamot
 aliases: []
 tags:
 - Multimedia

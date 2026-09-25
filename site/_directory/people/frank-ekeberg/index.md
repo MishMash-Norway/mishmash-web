@@ -19,7 +19,7 @@ urls:
   nva: https://nva.sikt.no/research-profile/30358
   youtube: ''
   mastodon: ''
-  instagram: https://www.instagram.com/fekeberg/
+  instagram: https://www.instagram.com/fekeberg
   wikidata: ''
 aliases: []
 tags:
