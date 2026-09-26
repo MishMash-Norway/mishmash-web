@@ -121,7 +121,9 @@ def event_content(event, image):
         f"end_date: {event['date'].isoformat()} 12:30:00 +02:00",
         "location: Zoom",
         "layout: event",
-        f"categories: [MeshUp, WP{event['WP']} ]".replace(" ]", "]"),
+        # The sheet stores the work package as a number, which openpyxl reads
+        # as a float; "WP1.0" would never match the WP pages' exact "WP1".
+        f"categories: [MeshUp, WP{int(float(event['WP']))}]",
         "tags: []",
         f"description: {json.dumps(description, ensure_ascii=False)}",
         f"image: {image}",
