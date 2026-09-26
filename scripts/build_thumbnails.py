@@ -22,7 +22,7 @@ from PIL import Image, ImageOps
 from repo_paths import SITE_ROOT
 
 IMAGES = SITE_ROOT / "assets" / "images"
-SOURCES = ["news", "events", "portraits"]
+SOURCES = ["news", "events", "portraits", "illustrations"]
 OUT = IMAGES / "thumbs"
 SIZE = 240
 EXTS = {".jpg", ".jpeg", ".png", ".webp"}
