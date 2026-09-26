@@ -13,7 +13,7 @@ Two kinds of material on these pages come from somewhere else, and both are wort
 
 Videos are not loaded until you ask for them. Where a page shows a video, you see a still picture and a button. Nothing reaches YouTube until you press it, and the player that then appears loads from YouTube's no-cookie domain. It is told which site it is playing on, because it refuses to play otherwise, but not which page.
 
-Thumbnails beside news and events from our partner institutions are fetched from those institutions' own servers. That means your browser contacts them when the page opens, and they can see your network address, as any website you visit can. They are not told which page of ours you are reading. We are considering keeping copies of these pictures ourselves so that no request leaves this site.
+Thumbnails beside news and events from our partner institutions are small copies of the pictures on the partners' own pages, made once and served from this site, so that no request leaves it when the page opens. Each copy records where it came from, and the card names the partner. Only when a copy could not be made does your browser fetch the picture from the partner's server, which then sees your network address, as any website you visit can, but not which page of ours you are reading.
 
 ## The directory
 

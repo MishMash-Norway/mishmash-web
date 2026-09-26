@@ -1,147 +1,177 @@
-- description: 'Workshop on AI and creativity bringing together interested institutions to
-    plan research applications. Topics: AI development and creative use, policy and rights,
-    knowledge and ethics.'
+- description: 'Workshop on AI and creativity bringing together interested institutions to plan research
+    applications. Topics: AI development and creative use, policy and rights, knowledge and ethics.'
   end_date: 2024-09-25
-  og_description: A workshop for establishing a national network on AI and creativity, hosted
-    by RITMO (UiO) and CreaTeME (UiA).
+  og_description: A workshop for establishing a national network on AI and creativity, hosted by RITMO
+    (UiO) and CreaTeME (UiA).
   og_image: https://www.uio.no/ritmo/english/news-and-events/events/workshops/2024/mishmash/mishmash-overview2.png
   og_title: National Workshop on AI and Creativity
   partner: RITMO (UiO) / CreaTeME (UiA)
   start_date: 2024-09-25
+  thumb: /assets/images/partner-thumbs/ec41bace12683fbd.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/ritmo/english/news-and-events/events/workshops/2024/mishmash/mishmash-overview2.png
   title: National Workshop on AI and Creativity
   url: https://www.uio.no/ritmo/english/news-and-events/events/workshops/2024/mishmash/index.html
-- description: 'Meetup at Digs - Mesh Community, Trondheim. Time: 5:30 PM-7:30 PM (28 January
-    2026). Talks on AI, creativity, critical thinking, and practical creative workflows.'
+- description: 'Meetup at Digs - Mesh Community, Trondheim. Time: 5:30 PM-7:30 PM (28 January 2026). Talks
+    on AI, creativity, critical thinking, and practical creative workflows.'
   end_date: 2026-01-28
-  og_description: Kreativ AI Meetup om hvordan AI påvirker kreativitet, kritisk tenkning og
-    arbeidsliv, med innlegg fra Jonas Rennemo Vaag og Magnus Lian.
+  og_description: Kreativ AI Meetup om hvordan AI påvirker kreativitet, kritisk tenkning og arbeidsliv,
+    med innlegg fra Jonas Rennemo Vaag og Magnus Lian.
   og_image: https://secure.meetupstatic.com/photos/event/5/c/d/1/highres_532163761.jpeg
   og_title: 'TKAI Meetup #3 - Gjør KI oss mer passive – eller mer kreative?'
   partner: Trondheim Kreativ AI
   start_date: 2026-01-28
+  thumb: /assets/images/partner-thumbs/2c1da9c6cfe355a6.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://secure.meetupstatic.com/photos/event/5/c/d/1/highres_532163761.jpeg
   title: 'TKAI Meetup #3 - Gjør KI oss mer passive – eller mer kreative?'
   url: https://www.meetup.com/trondheim-kreativ-ai/events/312208578/
-- description: Apent mote i Kavlisalen, DNVA (Drammensveien 78, Oslo). Opptak er tilgjengelig
-    hos DNVA.
+- description: Apent mote i Kavlisalen, DNVA (Drammensveien 78, Oslo). Opptak er tilgjengelig hos DNVA.
   end_date: 2026-03-11
-  og_description: Forste mote i DNVAs serie om KI og forskning, om forskningssuverenitet,
-    tilgang pa data, regneressurser og KI-modeller.
+  og_description: Forste mote i DNVAs serie om KI og forskning, om forskningssuverenitet, tilgang pa data,
+    regneressurser og KI-modeller.
   og_image: https://www.dnva.no/sites/default/files/styles/full_content_width/public/2026-01/revidert%202.jpg?itok=OriwI3wc
   og_title: Forskningssuverenitet og KI
   partner: Det Norske Videnskaps-Akademi (DNVA)
   start_date: 2026-03-11
+  thumb: /assets/images/partner-thumbs/5cef609355001443.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.dnva.no/sites/default/files/styles/full_content_width/public/2026-01/revidert%202.jpg?itok=OriwI3wc
   title: Forskningssuverenitet og KI
   url: https://www.dnva.no/detskjer/2025/11/forskningssuverenitet-og-ki
-- description: 'Meetup at Digs - Mesh Community, Trondheim. Time: 5:30 PM-7:30 PM (25 March
-    2026). Deepfakes from both research and production perspectives.'
+- description: 'Meetup at Digs - Mesh Community, Trondheim. Time: 5:30 PM-7:30 PM (25 March 2026). Deepfakes
+    from both research and production perspectives.'
   end_date: 2026-03-25
-  og_description: Kreativ AI Meetup om deepfakes, med forskningsperspektiv fra Viggo Tellefsen
-    Wivestad og en praktisk gjennomgang fra John-Ivar Eidsmo.
+  og_description: Kreativ AI Meetup om deepfakes, med forskningsperspektiv fra Viggo Tellefsen Wivestad
+    og en praktisk gjennomgang fra John-Ivar Eidsmo.
   og_image: https://secure.meetupstatic.com/photos/event/9/b/4/b/highres_532659755.webp?w=640
   og_title: 'TKAI Meetup #4 - Deepfakes'
   partner: Trondheim Kreativ AI
   start_date: 2026-03-25
+  thumb: /assets/images/partner-thumbs/c3b94bb94b80bdf5.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://secure.meetupstatic.com/photos/event/9/b/4/b/highres_532659755.webp?w=640
   title: 'TKAI Meetup #4 - Deepfakes'
   url: https://www.meetup.com/trondheim-kreativ-ai/events/313109375/
 - end_date: 2026-03-26
-  og_description: SuperCollider is an open source tool for sound synthesis and algorithmic
-    composition. It is used for composition, generative music, installations, live coding,
+  og_description: SuperCollider is an open source tool for sound synthesis and algorithmic composition.
+    It is used for composition, generative music, installations, live coding,
   og_image: https://notam.b-cdn.net/wp-content/uploads/2024/11/SC-nett-1024x724.jpg
   og_title: Notam's online SuperCollider Meetup - Notam
   partner: Notam
   start_date: 2026-03-26
+  thumb: /assets/images/partner-thumbs/356762b625121aaf.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://notam.b-cdn.net/wp-content/uploads/2024/11/SC-nett-1024x724.jpg
   title: Online SuperCollider Meetup
   url: https://notam.no/en/event/notams-online-supercollider-meetup/
-- description: 'Master Maham Riaz will defend her PhD dissertation. Time and place: Apr. 7,
-    2026 1:15 PM to 4:00 PM, Harald Schjeldrups hus, Forsamlingssalen.'
+- description: 'Master Maham Riaz will defend her PhD dissertation. Time and place: Apr. 7, 2026 1:15
+    PM to 4:00 PM, Harald Schjeldrups hus, Forsamlingssalen.'
   end_date: 2026-04-07
-  og_description: 'Master Maham Riaz will defend her dissertation Embodied Spaces: Explorations
-    in Spatial Audio–Video Recording and Ambient Interventions for the degree of Philosophiae
-    Doctor (PhD).'
+  og_description: 'Master Maham Riaz will defend her dissertation Embodied Spaces: Explorations in Spatial
+    Audio–Video Recording and Ambient Interventions for the degree of Philosophiae Doctor (PhD).'
   og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/riaz-vegg_140326.png
   og_title: 'Public defence: Designing Spaces That Live With Us - Department of Musicology'
   partner: University of Oslo (Department of Musicology)
   start_date: 2026-04-07
+  thumb: /assets/images/partner-thumbs/7f29261476935446.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/riaz-vegg_140326.png
   title: 'Public defence: Designing Spaces That Live With Us'
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/riaz.html
 - end_date: 2026-04-12
-  og_description: Learn how artificial intelligence is shaping the future of art and technology.
-    Discover the fusion of creativity and innovation.
+  og_description: Learn how artificial intelligence is shaping the future of art and technology. Discover
+    the fusion of creativity and innovation.
   og_image: https://metamorf.art/wp-content/uploads/2026/03/Meta.Morf-Future-Manifestos-2.jpg
   og_title: Meta.Morf 2026 – Future Manifestos - META.MORF 2026
   partner: TEKS
   start_date: 2026-04-09
+  thumb: /assets/images/partner-thumbs/a420ceeb54675a9b.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://metamorf.art/wp-content/uploads/2026/03/Meta.Morf-Future-Manifestos-2.jpg
   title: 'META.MORF 2026: Future Manifestos'
   url: https://metamorf.art/
-- description: 'Installation by Stanza translating real-time pollution data from 120 cities
-    into aesthetic experience using machine learning. Opening: 9 April at 18:00. Place: TEKS.studio,
-    Trondheim. On view until 31 May 2026.'
+- description: 'Installation by Stanza translating real-time pollution data from 120 cities into aesthetic
+    experience using machine learning. Opening: 9 April at 18:00. Place: TEKS.studio, Trondheim. On view
+    until 31 May 2026.'
   end_date: 2026-05-31
-  og_description: Toxicity. Driven BreathlessTEKS.studio10.04. – 26.07.26Opening 10.04. @
-    18:00!
+  og_description: Toxicity. Driven BreathlessTEKS.studio10.04. – 26.07.26Opening 10.04. @ 18:00!
   og_image: https://i0.wp.com/metamorf.art/wp-content/uploads/2026/01/1-Toxicitystanza2.jpg
   og_title: Stanza - META.MORF 2026
   partner: TEKS
   start_date: 2026-04-09
+  thumb: /assets/images/partner-thumbs/095028d4a362c0b5.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://i0.wp.com/metamorf.art/wp-content/uploads/2026/01/1-Toxicitystanza2.jpg
   title: Toxicity. Driven Breathless
   url: https://metamorf.art/2026/01/15/stanza/
-- description: 'Performance by Andy Gracie blending sacred minimalism with distorted high-tempo
-    noise. Part of Meta.Morf 2026: Future Manifestos.'
+- description: 'Performance by Andy Gracie blending sacred minimalism with distorted high-tempo noise.
+    Part of Meta.Morf 2026: Future Manifestos.'
   end_date: 2026-04-10
-  og_description: Andy GracieA performative science-fiction narrativeKjøpmannsgata Ung KunstSaturday
-    11.04.26 @ 16:00 – 17:30
+  og_description: Andy GracieA performative science-fiction narrativeKjøpmannsgata Ung KunstSaturday 11.04.26
+    @ 16:00 – 17:30
   og_image: https://i0.wp.com/metamorf.art/wp-content/uploads/2026/03/LORRR_MM_banner-2.jpg
   og_title: LORRR presents Monumental Transmission - META.MORF 2026
   partner: TEKS
   start_date: 2026-04-10
+  thumb: /assets/images/partner-thumbs/7cf53217d4b13a28.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://i0.wp.com/metamorf.art/wp-content/uploads/2026/03/LORRR_MM_banner-2.jpg
   title: LORRR presents Monumental Transmission
   url: https://metamorf.art/2026/03/12/lorrr/
-- description: 'Electroacoustic performance with an interactive instrument built from a mannequin
-    as avatar of composer Arne Nordheim. By Arnfinn Killingtveit and Steinar Stensen. Time:
-    16:00–17:30. Place: Kjøpmannsgata Ung Kunst (K-U-K). Free admission.'
+- description: 'Electroacoustic performance with an interactive instrument built from a mannequin as avatar
+    of composer Arne Nordheim. By Arnfinn Killingtveit and Steinar Stensen. Time: 16:00–17:30. Place:
+    Kjøpmannsgata Ung Kunst (K-U-K). Free admission.'
   end_date: 2026-04-11
-  og_description: Steinar StensenArnfinn KillingtveitMini-ConcertKjøpmannsgata Ung KunstSaturday
-    11.04.26 @ 16:00 – 17:30
+  og_description: Steinar StensenArnfinn KillingtveitMini-ConcertKjøpmannsgata Ung KunstSaturday 11.04.26
+    @ 16:00 – 17:30
   og_image: https://i0.wp.com/metamorf.art/wp-content/uploads/2026/01/nordheimcollager-fargerfacked.webp
   og_title: Nordheimgruppen - META.MORF 2026
   partner: TEKS
   start_date: 2026-04-11
+  thumb: /assets/images/partner-thumbs/defc3c0ca541832f.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://i0.wp.com/metamorf.art/wp-content/uploads/2026/01/nordheimcollager-fargerfacked.webp
   title: Nordheimgruppen
   url: https://metamorf.art/2026/01/11/nordheimgruppen/
 - end_date: 2026-04-15
-  og_description: The 8th annual AR@K symposium will span two days with international participants
-    exploring this year’s topic of Reclaiming art! Creative expression as a building block
-    in our social foundations.
+  og_description: The 8th annual AR@K symposium will span two days with international participants exploring
+    this year’s topic of Reclaiming art! Creative expression as a building block in our social foundations.
   og_title: AR@K symposium
   partner: Kristiania
   start_date: 2026-04-14
   title: AR@K26 symposium
   url: https://www.kristiania.no/forskning/forskningsgrupper/arak/
-- description: 'Final concert in the PhD programme for artistic research. Featuring four works
-    exploring field recording across electronic music composition. Time: 18:00. Place: The
-    Levin Hall, NMH. Price: 150 NOK (free for students).'
+- description: 'Final concert in the PhD programme for artistic research. Featuring four works exploring
+    field recording across electronic music composition. Time: 18:00. Place: The Levin Hall, NMH. Price:
+    150 NOK (free for students).'
   end_date: 2026-04-29
-  og_description: Giuseppe Pisano-Riise invites audiences to his final concert as a research
-    fellow at the PhD programme for artistic research.
+  og_description: Giuseppe Pisano-Riise invites audiences to his final concert as a research fellow at
+    the PhD programme for artistic research.
   og_image: https://nmh.imgix.net/images/Konserter/giuseppe-pisano-foto-shawn-arvind.jpg
   og_title: Giuseppe Pisano-Riise – Extended Field Recording
   partner: Norwegian Academy of Music (NMH)
   start_date: 2026-04-29
+  thumb: /assets/images/partner-thumbs/3c90f8c2735d4500.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://nmh.imgix.net/images/Konserter/giuseppe-pisano-foto-shawn-arvind.jpg
   title: Giuseppe Pisano-Riise – Extended Field Recording
   url: https://nmh.no/en/concerts/giuseppe-pisano
 - end_date: 2026-04-30
-  og_description: Presenting OTIAC, a work for feedback-augmented guitar and co-improvising
-    musical agent. Artist@IMV is a series of artist talks hosted at the Department of Musicology,
-    University of Oslo.
+  og_description: Presenting OTIAC, a work for feedback-augmented guitar and co-improvising musical agent.
+    Artist@IMV is a series of artist talks hosted at the Department of Musicology, University of Oslo.
   og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/claudio.jpg
   og_title: 'Artist@IMV: Feedback and Flying Squids with Claudio Panariello'
   partner: University of Oslo
   start_date: 2026-04-30
+  thumb: /assets/images/partner-thumbs/d85d6b50be7e5ced.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/claudio.jpg
   title: 'Artist@IMV: Feedback and Flying Squids with Claudio Panariello'
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/feedback-and-flying-squids
-- description: 'Concert by SiTron, SWR Experimental Studio, and NTNU Music Technology students
-    featuring works by Natasha Barrett, Heather Frasch, and Ann Cleare. Time: 19:00. Place:
-    Dokkhuset Scene, Trondheim. Tickets via Dokkhuset.no.'
+- description: 'Concert by SiTron, SWR Experimental Studio, and NTNU Music Technology students featuring
+    works by Natasha Barrett, Heather Frasch, and Ann Cleare. Time: 19:00. Place: Dokkhuset Scene, Trondheim.
+    Tickets via Dokkhuset.no.'
   end_date: 2026-05-03
   og_description: SiTron / SWR Experimental studio / Creative Music Technology, NTNU KonsertDokkhuset,
     Søndag 03.05.26
@@ -149,84 +179,101 @@
   og_title: Music for instruments, objects and electronics - META.MORF 2026
   partner: TEKS
   start_date: 2026-05-03
+  thumb: /assets/images/partner-thumbs/75a854641f244052.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://i0.wp.com/metamorf.art/wp-content/uploads/2026/01/sitron-upscale-dec-2025-web.jpg
   title: Music for instruments, objects and electronics
   url: https://metamorf.art/2026/01/02/sitron/
-- description: 'RITMO Seminar Series talk by Bob L. T. Sturm. Time: 1:15 PM-3:00 PM. Place:
-    RITMO, Forsamlingssalen/YouTube.'
+- description: 'RITMO Seminar Series talk by Bob L. T. Sturm. Time: 1:15 PM-3:00 PM. Place: RITMO, Forsamlingssalen/YouTube.'
   end_date: 2026-05-05
-  og_description: Associate Professor of Computer Science at KTH Royal Institute of Technology,
-    Bob L. T. Sturm, will speak at RITMO's Seminar Series.
+  og_description: Associate Professor of Computer Science at KTH Royal Institute of Technology, Bob L.
+    T. Sturm, will speak at RITMO's Seminar Series.
   og_image: https://www.uio.no/ritmo/english/news-and-events/events/ritmo-seminar-series/2026/sturm/image.png
-  og_title: Perspectives after the MUSAiC Project - RITMO Centre for Interdisciplinary Studies
-    in Rhythm, Time and Motion
+  og_title: Perspectives after the MUSAiC Project - RITMO Centre for Interdisciplinary Studies in Rhythm,
+    Time and Motion
   partner: University of Oslo (RITMO)
   start_date: 2026-05-05
+  thumb: /assets/images/partner-thumbs/eef2b32f48bf9189.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/ritmo/english/news-and-events/events/ritmo-seminar-series/2026/sturm/image.png
   title: Perspectives after the MUSAiC Project
   url: https://www.uio.no/ritmo/english/news-and-events/events/ritmo-seminar-series/2026/sturm/index.html
 - end_date: 2026-05-06
-  og_description: Welcome to the official launch of the Kristiania AI Center (KAI). An inspiring
-    evening featuring a keynote by Camila Lombana-Diaz on responsible and trustworthy AI,
-    followed by networking, drinks, and snacks.
+  og_description: Welcome to the official launch of the Kristiania AI Center (KAI). An inspiring evening
+    featuring a keynote by Camila Lombana-Diaz on responsible and trustworthy AI, followed by networking,
+    drinks, and snacks.
   og_image: https://www.kristiania.no/contentassets/e9afff7cb85649b5b366e9d1cb8d1bad/eventkalender-1250x730_1250_730-7.jpg?width=1200&height=630&rmode=Crop
   og_title: 'Official Kick-Off: KAI Center Launch Event'
   partner: Kristiania
   start_date: 2026-05-06
+  thumb: /assets/images/partner-thumbs/5c55f1fc64fb8afb.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.kristiania.no/contentassets/e9afff7cb85649b5b366e9d1cb8d1bad/eventkalender-1250x730_1250_730-7.jpg?width=1200&height=630&rmode=Crop
   title: Official kick-off of the KAI Center
   url: https://www.kristiania.no/om-kristiania/kalender/official-kick-off-of-the-kai-center
-- description: 'Fagdag i Kristiansand med innlegg og ideworkshop om KI, samlingsdata, rettigheter
-    og nye former for tilgang. Tid: 09:00-15:30.'
+- description: 'Fagdag i Kristiansand med innlegg og ideworkshop om KI, samlingsdata, rettigheter og nye
+    former for tilgang. Tid: 09:00-15:30.'
   end_date: 2026-05-08
-  og_description: Seminar og workshop om hvordan kunstsamlinger kan bli mer søkbare, sammenkoblede
-    og tilgjengelige gjennom kunstig intelligens.
+  og_description: Seminar og workshop om hvordan kunstsamlinger kan bli mer søkbare, sammenkoblede og
+    tilgjengelige gjennom kunstig intelligens.
   og_image: https://web.datanova.com/KunstsiloWebERP//images/bookingimages/459.jpg
   og_title: Fra kunstverk til algoritme
   partner: Kunstsilo
   start_date: 2026-05-08
+  thumb: /assets/images/partner-thumbs/e3072c304947e833.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://web.datanova.com/KunstsiloWebERP//images/bookingimages/459.jpg
   title: Fra kunstverk til algoritme
   url: https://ticket.kunstsilo.no/Detaljer/EVENT/459
-- description: 'Food and Paper talk by Ken Déguernel. Time: 12:15 PM-1:00 PM (13 May 2026).
-    Place: RITMO common area / Zoom.'
+- description: 'Food and Paper talk by Ken Déguernel. Time: 12:15 PM-1:00 PM (13 May 2026). Place: RITMO
+    common area / Zoom.'
   end_date: 2026-05-13
-  og_description: Food and Paper presentation by Ken Déguernel on long-term human-AI musical
-    partnership and co-creative system design.
+  og_description: Food and Paper presentation by Ken Déguernel on long-term human-AI musical partnership
+    and co-creative system design.
   og_image: https://www.uio.no/ritmo/english/news-and-events/events/food-and-paper/2026/20260513_Ken-D%C3%A9guernel%20/kd.png
-  og_title: 'Food and Paper: MICCDroP: Mixed Initiative Co-Creative Design for Long-Term Human-AI
-    Musical Partnership'
+  og_title: 'Food and Paper: MICCDroP: Mixed Initiative Co-Creative Design for Long-Term Human-AI Musical
+    Partnership'
   partner: University of Oslo (RITMO)
   start_date: 2026-05-13
+  thumb: /assets/images/partner-thumbs/f07ac0aabd5f6968.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/ritmo/english/news-and-events/events/food-and-paper/2026/20260513_Ken-D%C3%A9guernel%20/kd.png
   title: 'Food and Paper: MICCDroP'
   url: https://www.uio.no/ritmo/english/news-and-events/events/food-and-paper/2026/20260513_Ken-D%C3%A9guernel%20/index.html
-- description: 'Seminar of Aesthetics lecture. Time: 3:00 PM-5:00 PM. Place: Aud 2, Eilert
-    Sundt''s Hus.'
+- description: 'Seminar of Aesthetics lecture. Time: 3:00 PM-5:00 PM. Place: Aud 2, Eilert Sundt''s Hus.'
   end_date: 2026-05-15
-  og_description: In this lecture, Antonio Somaini (Sorbonne) discusses how artificial intelligence
-    transforms our relation to history and memory through visual culture and contemporary
-    artworks.
+  og_description: In this lecture, Antonio Somaini (Sorbonne) discusses how artificial intelligence transforms
+    our relation to history and memory through visual culture and contemporary artworks.
   og_image: https://www.hf.uio.no/ifikk/english/research/news-and-events/events/guest-lectures-seminars/aesthetics-seminar/2026/somaini-3.jpg
   og_title: 'Antonio Somaini on Latent Spaces: AI, Art and the Meta-Archive'
   partner: University of Oslo (IFIKK)
   start_date: 2026-05-15
+  thumb: /assets/images/partner-thumbs/14922f3e026b6766.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/ifikk/english/research/news-and-events/events/guest-lectures-seminars/aesthetics-seminar/2026/somaini-3.jpg
   title: 'Antonio Somaini on Latent Spaces: AI, Art and the Meta-Archive'
   url: https://www.hf.uio.no/ifikk/english/research/news-and-events/events/guest-lectures-seminars/aesthetics-seminar/2026/antonio-somaini.html
-- description: 'Panelsamtale. Time: Saturday 16 May 2026, 14:00. Place: Fotografiens Hus,
-    Oslo. Free entry.'
+- description: 'Panelsamtale. Time: Saturday 16 May 2026, 14:00. Place: Fotografiens Hus, Oslo. Free entry.'
   end_date: 2026-05-16
-  og_description: Panelsamtale om kreativt potensial og kritiske perspektiver pa kunstig intelligens
-    i kunstfeltet.
+  og_description: Panelsamtale om kreativt potensial og kritiske perspektiver pa kunstig intelligens i
+    kunstfeltet.
   og_title: Mellom menneske og maskin
   partner: Fotografiens Hus
   start_date: 2026-05-16
   title: Mellom menneske og maskin
   url: https://fotografiens-hus.no/samtale-mellom-menneske-og-maskin/
-- description: 'Immersive chillout concert at Sentralen, Oslo. Time: 19:00-20:30 (20 May 2026).
-    Public event hosted by Electric Audio Unit.'
+- description: 'Immersive chillout concert at Sentralen, Oslo. Time: 19:00-20:30 (20 May 2026). Public
+    event hosted by Electric Audio Unit.'
   end_date: 2026-05-20
-  og_description: EAU opens its 2026 concert season with an immersive chillout concert. Ambient
-    spatial audio in a calm, enveloping sound zone created by 24 speakers.
+  og_description: EAU opens its 2026 concert season with an immersive chillout concert. Ambient spatial
+    audio in a calm, enveloping sound zone created by 24 speakers.
   og_image: https://www.electricaudiounit.no/wp-content/uploads/2026/04/EAU-20thMay2026-full-1.jpg
   og_title: 'Awash With Sound: An immersive chillout concert'
   partner: Electric Audio Unit
   start_date: 2026-05-20
+  thumb: /assets/images/partner-thumbs/88739f49a55c7cd0.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.electricaudiounit.no/wp-content/uploads/2026/04/EAU-20thMay2026-full-1.jpg
   title: 'Awash With Sound: An immersive chillout concert'
   url: https://www.electricaudiounit.no/awash-with-sound-an-immersive-chillout-concert/
 - description: Apent mote i Kavlisalen, DNVA (Drammensveien 78, Oslo). Krever pamelding.
@@ -237,477 +284,559 @@
   og_title: Hvordan endrer KI-agenter forskningsprosessen?
   partner: Det Norske Videnskaps-Akademi (DNVA)
   start_date: 2026-05-20
+  thumb: /assets/images/partner-thumbs/f1b2c9d4892961b4.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.dnva.no/sites/default/files/styles/full_content_width/public/2026-04/Montasje%20KI-m%C3%B8te%202.jpg?itok=s2dRrkFn
   title: Hvordan endrer KI-agenter forskningsprosessen?
   url: https://www.dnva.no/detskjer/2026/03/hvordan-endrer-ki-agenter-forskningsprosessen
 - end_date: 2026-05-24
   og_description: Fakultet for kunst, musikk og design, UiB, en kunnskapsbygger, en kulturinstitusjon,
     en opplyst fremtid
   og_image: https://kmd.uib.no/en/Calendar/seminar/archival-intelligence-epistemic-shifts-from-sound-to-listening/_/image/df58c012-bc6c-423e-8710-dbc735e647f6:30c10e0ef345783366d26bfb0cba899ab99fca74/width-1200/Charles-Myers-recording-t-001%20copy.jpg
-  og_title: 'Kunst, Musikk, Design - Archival Intelligence: Epistemic Shifts from Sound to
-    Listening'
+  og_title: 'Kunst, Musikk, Design - Archival Intelligence: Epistemic Shifts from Sound to Listening'
   partner: University of Bergen
   start_date: 2026-05-23
   title: 'Archival Intelligence: Epistemic Shifts from Sound to Listening'
   url: https://kmd.uib.no/en/Calendar/seminar/archival-intelligence-epistemic-shifts-from-sound-to-listening
-- description: 'KAI Center evening talk by Luís Cruz-Filipe. Time: 5:30 PM–7:00 PM (doors
-    5:00 PM). Place: Kirkegata 24, room CU-101, Oslo. Free, registration required.'
+- description: 'KAI Center evening talk by Luís Cruz-Filipe. Time: 5:30 PM–7:00 PM (doors 5:00 PM). Place:
+    Kirkegata 24, room CU-101, Oslo. Free, registration required.'
   end_date: 2026-05-26
-  og_description: 'Public debate around AI is often polarized: some claim it will solve all
-    of the world''s problems, while others warn it could lead to humanity''s downfall. In
-    this talk, we will take a step back and lift the veil on AI with clear insights into what''s
-    really happening beneath the surface.'
+  og_description: 'Public debate around AI is often polarized: some claim it will solve all of the world''s
+    problems, while others warn it could lead to humanity''s downfall. In this talk, we will take a step
+    back and lift the veil on AI with clear insights into what''s really happening beneath the surface.'
   og_image: https://www.kristiania.no/contentassets/d87471940d034aaeacdc22a1eb2cdb92/eventkalender-1250x730_1250_730-1.jpg?width=1136&rxy=0.5,0.5
   og_title: 'KAI 26. mai 2026: Artificial Intelligence: what is everyone talking about?'
   partner: Kristiania
   start_date: 2026-05-26
+  thumb: /assets/images/partner-thumbs/83cd2750f2ad956a.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.kristiania.no/contentassets/d87471940d034aaeacdc22a1eb2cdb92/eventkalender-1250x730_1250_730-1.jpg?width=1136&rxy=0.5,0.5
   title: 'Artificial Intelligence: what is everyone talking about?'
   url: https://www.kristiania.no/om-kristiania/kalender/kai-26.mai-2026-Artificial-Intelligence-what-is-everyone-talking-about
-- description: 'Meetup at Digs - Mesh Community, Trondheim. Time: 5:30 PM-7:30 PM (27 May
-    2026). Talks on building with AI, end-user development, and AI-supported game and service
-    creation.'
+- description: 'Meetup at Digs - Mesh Community, Trondheim. Time: 5:30 PM-7:30 PM (27 May 2026). Talks
+    on building with AI, end-user development, and AI-supported game and service creation.'
   end_date: 2026-05-27
-  og_description: Kreativ AI Meetup om people building their own tools with AI, featuring
-    Tor Thorsrud Sporsem, Tor Martin Norvik, and Audun Kvitland Røstad.
+  og_description: Kreativ AI Meetup om people building their own tools with AI, featuring Tor Thorsrud
+    Sporsem, Tor Martin Norvik, and Audun Kvitland Røstad.
   og_image: https://secure.meetupstatic.com/photos/event/3/e/f/2/highres_534076114.jpeg
   og_title: 'TKAI Meetup #5 - Bygg det selv!'
   partner: Trondheim Kreativ AI
   start_date: 2026-05-27
+  thumb: /assets/images/partner-thumbs/ba9333421f441a8f.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://secure.meetupstatic.com/photos/event/3/e/f/2/highres_534076114.jpeg
   title: 'TKAI Meetup #5 - Bygg det selv!'
   url: https://www.meetup.com/trondheim-kreativ-ai/events/314623889/
-- description: 'Tema week on AI for students and staff at HVL. Time and place: 1-5 June 2026,
-    workshops and presentations across all five campuses and online streaming.'
+- description: 'Tema week on AI for students and staff at HVL. Time and place: 1-5 June 2026, workshops
+    and presentations across all five campuses and online streaming.'
   end_date: 2026-06-05
-  og_description: Læringslab, KI koordineringsgruppa og Biblioteket ved HVL arrangerer temaveke
-    om kunstig intelligens med workshopar og presentasjonar på alle fem campus, også strøyma
-    på nett.
+  og_description: Læringslab, KI koordineringsgruppa og Biblioteket ved HVL arrangerer temaveke om kunstig
+    intelligens med workshopar og presentasjonar på alle fem campus, også strøyma på nett.
   og_image: https://www.hvl.no/contentassets/ac5c010d198247ca96cc9ac0ffc0a6fb/temavekeki-2560x1440-utenqr.jpeg
   og_title: Temaveke KI – 1.-5. juni 2026
   partner: Høgskulen på Vestlandet (HVL)
   start_date: 2026-06-01
+  thumb: /assets/images/partner-thumbs/d548051e85ddfa9f.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hvl.no/contentassets/ac5c010d198247ca96cc9ac0ffc0a6fb/temavekeki-2560x1440-utenqr.jpeg
   title: Temaveke KI 2026
   url: https://www.hvl.no/alu/temaveke-ki-2026/
-- description: Current research on the use of computational methods and AI in music libraries
-    and musicology.
+- description: Current research on the use of computational methods and AI in music libraries and musicology.
   end_date: 2026-06-09
-  og_description: Current research on the use of computational methods and AI in music libraries
-    and musicology.
+  og_description: Current research on the use of computational methods and AI in music libraries and musicology.
   og_image: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/logo.png
-  og_title: Symposium on Digital and AI Musicology - RITMO Centre for Interdisciplinary Studies
-    in Rhythm, Time and Motion
+  og_title: Symposium on Digital and AI Musicology - RITMO Centre for Interdisciplinary Studies in Rhythm,
+    Time and Motion
   partner: University of Oslo (RITMO)
   start_date: 2026-06-08
+  thumb: /assets/images/partner-thumbs/3877406efd25f761.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/logo.png
   title: Symposium on Digital and AI Musicology
   url: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/index.html
-- description: 'Structure and Cognition Cluster meeting with Tobias Feldmann-Wüstefeld (TU
-    Berlin) on EEG-based measures of trust in AI. Time: 10:45 AM-11:45 AM. Place: RITMO Meeting
-    room v217/Zoom.'
+- description: 'Structure and Cognition Cluster meeting with Tobias Feldmann-Wüstefeld (TU Berlin) on
+    EEG-based measures of trust in AI. Time: 10:45 AM-11:45 AM. Place: RITMO Meeting room v217/Zoom.'
   end_date: 2026-06-10
-  og_description: Dr. Tobias Feldmann-Wüstefeld from the BRAINS, MINDS and BOTS Lab at the
-    Technische Universität Berlin will speak at the Structure and Cognition Cluster meeting.
+  og_description: Dr. Tobias Feldmann-Wüstefeld from the BRAINS, MINDS and BOTS Lab at the Technische
+    Universität Berlin will speak at the Structure and Cognition Cluster meeting.
   og_image: https://www.uio.no/ritmo/english/news-and-events/events/lectures/2026/implicit-neural-measures-of-trust-in-artificial-in/img-20260528-wa0000-1000x562.jpg
-  og_title: Implicit neural measures of trust in artificial intelligence - RITMO Centre for
-    Interdisciplinary Studies in Rhythm, Time and Motion
+  og_title: Implicit neural measures of trust in artificial intelligence - RITMO Centre for Interdisciplinary
+    Studies in Rhythm, Time and Motion
   partner: University of Oslo (RITMO)
   start_date: 2026-06-10
+  thumb: /assets/images/partner-thumbs/b9d3a7d9f030a374.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/ritmo/english/news-and-events/events/lectures/2026/implicit-neural-measures-of-trust-in-artificial-in/img-20260528-wa0000-1000x562.jpg
   title: Implicit neural measures of trust in artificial intelligence
   url: https://www.uio.no/ritmo/english/news-and-events/events/lectures/2026/implicit-neural-measures-of-trust-in-ai/index.html
-- description: 'PhD defence on human-swarm interactive music systems in XR. Trial lecture
-    11:15, public defence 13:15. Place: Forsamlingssalen, Harald Schjelderups hus / YouTube.'
+- description: 'PhD defence on human-swarm interactive music systems in XR. Trial lecture 11:15, public
+    defence 13:15. Place: Forsamlingssalen, Harald Schjelderups hus / YouTube.'
   end_date: 2026-06-22
-  og_description: Master Pedro Pablo Lucas Bravo at the Department of Informatics, Faculty
-    of Mathematics and Natural Sciences, is defending the thesis Human-Swarm Interactive Music
-    Systems, Exploring Collaborative Sonic Creation Between Humans and Autonomous Agents for
-    the degree of Philosophiae Doctor.
+  og_description: Master Pedro Pablo Lucas Bravo at the Department of Informatics, Faculty of Mathematics
+    and Natural Sciences, is defending the thesis Human-Swarm Interactive Music Systems, Exploring Collaborative
+    Sonic Creation Between Humans and Autonomous Agents for the degree of Philosophiae Doctor.
   og_image: https://www.uio.no/ritmo/english/news-and-events/events/disputations/2026/lucas/pedro1000x562.png
-  og_title: 'Public defence: Pedro Pablo Lucas Bravo - RITMO Centre for Interdisciplinary
-    Studies in Rhythm, Time and Motion'
+  og_title: 'Public defence: Pedro Pablo Lucas Bravo - RITMO Centre for Interdisciplinary Studies in Rhythm,
+    Time and Motion'
   partner: University of Oslo (RITMO)
   start_date: 2026-06-22
+  thumb: /assets/images/partner-thumbs/7fe39a38180b2dea.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/ritmo/english/news-and-events/events/disputations/2026/lucas/pedro1000x562.png
   title: 'Public defence: Pedro Pablo Lucas Bravo'
   url: https://www.uio.no/ritmo/english/news-and-events/events/disputations/2026/lucas/index.html
-- description: 'Interdisciplinary performance at Nidarosdomen exploring AI, music, dance,
-    and spirituality. Directed by Øyvind Brandtsegg, curated by Zane Cerpina and Espen Gangvik.
-    Time: 19:00. Tickets via Olavsfest.no.'
+- description: 'Interdisciplinary performance at Nidarosdomen exploring AI, music, dance, and spirituality.
+    Directed by Øyvind Brandtsegg, curated by Zane Cerpina and Espen Gangvik. Time: 19:00. Tickets via
+    Olavsfest.no.'
   end_date: 2026-07-28
-  og_description: Brandtsegg, Bjørkhaug, Schmidt, Formo, Bergsland, Aakre, StokkeKonsert,
-    NidarosdomenTirsdag 28.07.26 @ 19:00
+  og_description: Brandtsegg, Bjørkhaug, Schmidt, Formo, Bergsland, Aakre, StokkeKonsert, NidarosdomenTirsdag
+    28.07.26 @ 19:00
   og_image: https://i0.wp.com/metamorf.art/wp-content/uploads/2026/02/ki_foto1-1.png
   og_title: AI in the Cathedral - META.MORF 2026
   partner: TEKS
   start_date: 2026-07-28
+  thumb: /assets/images/partner-thumbs/6baa7c0bceb68e9d.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://i0.wp.com/metamorf.art/wp-content/uploads/2026/02/ki_foto1-1.png
   title: KI i Katedralen (AI in the Cathedral)
   url: https://metamorf.art/2026/01/01/ai-in-the-cathedral/
-- description: Bálint Laczkó defends his dissertation Listening to Instrumental Image Sonification
-    at the Department of Musicology, University of Oslo. The thesis explores image sonification
-    — converting images into sound — as a scientific tool for biological research, including
-    Pixasonics, an interactive sonification platform. Trial lecture at 11:15, defence at 13:15,
-    Forsamlingssalen, Harald Schjelderups hus.
+- description: Bálint Laczkó defends his dissertation Listening to Instrumental Image Sonification at
+    the Department of Musicology, University of Oslo. The thesis explores image sonification — converting
+    images into sound — as a scientific tool for biological research, including Pixasonics, an interactive
+    sonification platform. Trial lecture at 11:15, defence at 13:15, Forsamlingssalen, Harald Schjelderups
+    hus.
   end_date: 2026-08-19
   og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/laczko.jpg
-  og_title: 'Public defence: Listening to cells under the microscope – how turning images
-    into sound can reveal what is hidden in plain sight'
+  og_title: 'Public defence: Listening to cells under the microscope – how turning images into sound can
+    reveal what is hidden in plain sight'
   partner: University of Oslo
   start_date: 2026-08-19
+  thumb: /assets/images/partner-thumbs/1e3ce3b23189a403.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/laczko.jpg
   title: 'PhD defence: Bálint Laczkó – Listening to Instrumental Image Sonification'
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/laczko.html
-- description: 'AI Mission Hub and BI Startup Village co-host an event on AI, business, technology,
-    creativity, and society. Time: 13:00-19:00. Place: BI Norwegian Business School - Oslo
-    campus, Nydalsveien 37, Oslo.'
+- description: 'AI Mission Hub and BI Startup Village co-host an event on AI, business, technology, creativity,
+    and society. Time: 13:00-19:00. Place: BI Norwegian Business School - Oslo campus, Nydalsveien 37,
+    Oslo.'
   end_date: 2026-08-26
   og_description: AI Mission Hub and BI Startup Village bring together AI professionals, researchers,
-    founders, students, and technology experts for talks, panels, case studies, networking,
-    and the presentation of AI Mission Hub's founding cohort.
+    founders, students, and technology experts for talks, panels, case studies, networking, and the presentation
+    of AI Mission Hub's founding cohort.
   og_image: https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=280,height=280/uploads/fq/618f9ad9-0882-48e8-9a34-d29ccda2e3e8.png
   og_title: AI Mission Hub and BI Business School cohosting on Build What Matters
   partner: AI Mission Hub / BI Startup Village
   start_date: 2026-08-26
+  thumb: /assets/images/partner-thumbs/bda0ad1064430136.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,background=white,quality=75,width=280,height=280/uploads/fq/618f9ad9-0882-48e8-9a34-d29ccda2e3e8.png
   title: Build What Matters
   url: https://luma.com/cqszfq09
-- description: Seminar on August 27, 2026, 14:00-19:00 at Kunstnernes Hus, Oslo, followed
-    by four workshops at Oslo Museum on August 28-29. Exploring artistic strategies and human
-    creativity in encounter with artificial intelligence.
+- description: Seminar on August 27, 2026, 14:00-19:00 at Kunstnernes Hus, Oslo, followed by four workshops
+    at Oslo Museum on August 28-29. Exploring artistic strategies and human creativity in encounter with
+    artificial intelligence.
   end_date: 2026-08-29
-  og_description: A seminar on artistic strategies in encounter with artificial intelligence,
-    held in English. Featuring four workshops at Oslo Museum on August 28-29 with international
-    speakers exploring human creativity and AI.
+  og_description: A seminar on artistic strategies in encounter with artificial intelligence, held in
+    English. Featuring four workshops at Oslo Museum on August 28-29 with international speakers exploring
+    human creativity and AI.
   og_image: https://kunstnernesh-site.transforms.svdcdn.com/production/Skjermbilde-2026-08-19-kl.-10.14.54.png
-  og_title: 'First Supper Symposium: 100% Human – Artistic Strategies in Encounter with Artificial
-    Intelligence'
+  og_title: 'First Supper Symposium: 100% Human – Artistic Strategies in Encounter with Artificial Intelligence'
   partner: Kunstnernes Hus
   start_date: 2026-08-27
   title: First Supper Symposium
   url: https://kunstnerneshus.no/program/arrangementer/first-supper-symposium
-- description: 'The forum is organized in connection with the launch of MishMash – Centre
-    for AI and Creativity. Time and place: Aug. 31, 2026, 12:30 PM–2:00 PM, Salen, IMV.'
+- description: 'The forum is organized in connection with the launch of MishMash – Centre for AI and Creativity.
+    Time and place: Aug. 31, 2026, 12:30 PM–2:00 PM, Salen, IMV.'
   end_date: 2026-08-31
-  og_description: This seminar explores the relationship between art and science, focusing
-    on how artistic research can contribute to knowledge production.
+  og_description: This seminar explores the relationship between art and science, focusing on how artistic
+    research can contribute to knowledge production.
   og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/Research-Forum/research-forum-on-artistic-research.png
-  og_title: Research forum on artistic research, artificial intelligence, and the voice -
-    Department of Musicology
+  og_title: Research forum on artistic research, artificial intelligence, and the voice - Department of
+    Musicology
   partner: University of Oslo (Department of Musicology)
   start_date: 2026-08-31
+  thumb: /assets/images/partner-thumbs/2a99290b4cca1e2f.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/Research-Forum/research-forum-on-artistic-research.png
   title: Research forum on artistic research, artificial intelligence, and the voice
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Research-Forum/research-forum-on-artistic-research-artificial-int.html
-- description: 'RITMO and NTT Communication Science Laboratories, Japan, are jointly organizing
-    a workshop exploring embodied intelligence in human performance. Time and place: Aug.
-    31, 2026, 9:00 AM–3:30 PM, Forsamlingssalen / Zoom.'
+- description: 'RITMO and NTT Communication Science Laboratories, Japan, are jointly organizing a workshop
+    exploring embodied intelligence in human performance. Time and place: Aug. 31, 2026, 9:00 AM–3:30
+    PM, Forsamlingssalen / Zoom.'
   end_date: 2026-08-31
-  og_description: RITMO and NTT Communication Science Laboratories, Japan, are jointly organizing
-    a workshop exploring embodied intelligence in human performance.
+  og_description: RITMO and NTT Communication Science Laboratories, Japan, are jointly organizing a workshop
+    exploring embodied intelligence in human performance.
   og_image: https://www.uio.no/vrtx/dist/resources/uio2/css/images/social/uio-share-en-1200x630.jpg?x-h=1786622036582
-  og_title: Embodied Intelligence in Human Performance - RITMO Centre for Interdisciplinary
-    Studies in Rhythm, Time and Motion
+  og_title: Embodied Intelligence in Human Performance - RITMO Centre for Interdisciplinary Studies in
+    Rhythm, Time and Motion
   partner: University of Oslo (RITMO)
   start_date: 2026-08-31
+  thumb: /assets/images/partner-thumbs/e8af4dd518dc9752.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/vrtx/dist/resources/uio2/css/images/social/uio-share-en-1200x630.jpg?x-h=1786622036582
   title: Embodied Intelligence in Human Performance
   url: https://www.uio.no/ritmo/english/news-and-events/events/workshops/2026/embodied-intelligence-in-human-performance/index.html
-- description: 'Semester kick-off of the Kristiania AI Center (KAI), featuring The Importance
-    of Explainability in AI for Industry. Time: 17:00-19:30. Place: Kirkegata 24, KAU-B1-02,
-    Oslo.'
+- description: 'Semester kick-off of the Kristiania AI Center (KAI), featuring The Importance of Explainability
+    in AI for Industry. Time: 17:00-19:30. Place: Kirkegata 24, KAU-B1-02, Oslo.'
   end_date: 2026-09-02
-  og_description: Join us for the semester kick-off of the Kristiania AI Center (KAI), with
-    insights on responsible AI followed by networking, drinks, and snacks.
+  og_description: Join us for the semester kick-off of the Kristiania AI Center (KAI), with insights on
+    responsible AI followed by networking, drinks, and snacks.
   og_image: https://www.kristiania.no/contentassets/17b2f99c52f241899f430c19ca8e14cd/eventkalender-1250x730-mal-2_1250_730-1.jpg?width=1136&rxy=0.5,0.5
   og_title: Semester Kick-off of Kristiania AI center activities
   partner: Kristiania
   start_date: 2026-09-02
+  thumb: /assets/images/partner-thumbs/f7291be62b8a9b02.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.kristiania.no/contentassets/17b2f99c52f241899f430c19ca8e14cd/eventkalender-1250x730-mal-2_1250_730-1.jpg?width=1136&rxy=0.5,0.5
   title: Semester Kick-off of Kristiania AI Center activities
   url: https://www.kristiania.no/en/about-kristiania/calendar/semester-kick-off-of-kristiania-ai-center-activities/
-- description: 'A workshop to form new neighborhoods of/for artistic intelligence. The event
-    explores how artists, institutions, scientists, and technologists can organize around
-    shared needs rather than disciplinary boundaries, and how AI can support—not determine—new
-    collaborations. Time and place: Wed 9 Sep 2026, 12:30–14:30.'
+- description: 'A workshop to form new neighborhoods of/for artistic intelligence. The event explores
+    how artists, institutions, scientists, and technologists can organize around shared needs rather than
+    disciplinary boundaries, and how AI can support—not determine—new collaborations. Time and place:
+    Wed 9 Sep 2026, 12:30–14:30.'
   end_date: 2026-09-09
-  og_description: 'Leave the room alongside a collaborator you could not have named on arrival.
-    NE #00 embeds a room of artists, scientists, researchers and institutions by what they
-    need, have built and refuse with AI—forming new neighbourhoods of Artistic Intelligence.'
+  og_description: 'Leave the room alongside a collaborator you could not have named on arrival. NE #00
+    embeds a room of artists, scientists, researchers and institutions by what they need, have built and
+    refuse with AI—forming new neighbourhoods of Artistic Intelligence.'
   og_image: https://ars.electronica.art/negotiatinghumanity/files/2026/08/m_new-embeddings-ne-00-still-from-film-1-a-mishmash.jpg
-  og_title: 'NE #00: New Embeddings of/for Artistic Intelligence | Ars Electronica Festival
-    2026: Negotiating Humanity'
+  og_title: 'NE #00: New Embeddings of/for Artistic Intelligence | Ars Electronica Festival 2026: Negotiating
+    Humanity'
   partner: Ars Electronica
   start_date: 2026-09-09
+  thumb: /assets/images/partner-thumbs/524c16af1bb43b07.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://ars.electronica.art/negotiatinghumanity/files/2026/08/m_new-embeddings-ne-00-still-from-film-1-a-mishmash.jpg
   title: 'NE #00: New Embeddings of/for Artistic Intelligence'
   url: https://ars.electronica.art/negotiatinghumanity/en/view/ne-00-new-embeddings-of-for-artistic-intelligence-39f38ddb450c81b5a2e1e4b478396502/
-- description: Kjell Samkopf markerer nyutgivelsen av soloalbumet Music for Solo Percussion
-    and Electronics (1981) med utdrag fra platen og verdenspremieren på The Cloud of Unknowing,
-    et nytt verk for vibrafon og åttekanals lyd der en mystisk 1300-tallstekst brukes som
-    generativt system. Nasjonalbiblioteket, kl. 15:00, under Ultima-festivalen.
+- description: Kjell Samkopf markerer nyutgivelsen av soloalbumet Music for Solo Percussion and Electronics
+    (1981) med utdrag fra platen og verdenspremieren på The Cloud of Unknowing, et nytt verk for vibrafon
+    og åttekanals lyd der en mystisk 1300-tallstekst brukes som generativt system. Nasjonalbiblioteket,
+    kl. 15:00, under Ultima-festivalen.
   end_date: 2026-09-12
   og_image: https://cdn.sanity.io/images/rstxq2k0/production/48704b0589522753e30d814f0acc83b9fd904335-1840x1232.jpg?w=1200
   og_title: Smalltown Supersound presenterer Kjell Samkopf
   partner: Ultima
   start_date: 2026-09-12
+  thumb: /assets/images/partner-thumbs/b007195219b422c1.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://cdn.sanity.io/images/rstxq2k0/production/48704b0589522753e30d814f0acc83b9fd904335-1840x1232.jpg?w=1200
   title: 'Ultima: Kjell Samkopf – Music for Solo Percussion and Electronics'
   url: https://www.ultima.no/nb/2026-smalltown-supersound-presenterer-kjell-samkopf
-- description: 'AIMC 2026 explores the generative turn in music, including mediated musicianship,
-    creative agency, performance systems, computational creativity, machine listening, robotics,
-    and sonification. Time and place: Sep. 16-18, 2026, Berlin, Germany.'
+- description: 'AIMC 2026 explores the generative turn in music, including mediated musicianship, creative
+    agency, performance systems, computational creativity, machine listening, robotics, and sonification.
+    Time and place: Sep. 16-18, 2026, Berlin, Germany.'
   end_date: 2026-09-18
-  og_description: The annual Conference on AI Music Creativity brings together an interdisciplinary
-    community of researchers and practitioners working at the intersection of AI and music.
+  og_description: The annual Conference on AI Music Creativity brings together an interdisciplinary community
+    of researchers and practitioners working at the intersection of AI and music.
   og_image: https://aimc2026.org/fileadmin/_processed_/a/a/csm_TU-Berlin_51562d6ee7.png
   og_title: The 7th Conference on AI Music Creativity
   partner: Technische Universitat Berlin / State Institute for Music Research
   start_date: 2026-09-16
+  thumb: /assets/images/partner-thumbs/12f5b0b89532cef5.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://aimc2026.org/fileadmin/_processed_/a/a/csm_TU-Berlin_51562d6ee7.png
   title: 'AIMC 2026: The 7th Conference on AI Music Creativity'
   url: https://aimc2026.org/home
-- description: 'Anna-Maria Christodoulou defends her PhD dissertation on computational music
-    performance analysis. Time: Sep. 18, 2026, 1:15 PM. Place: Forsamlingssalen, Harald Schjelderups
-    hus.'
+- description: 'Anna-Maria Christodoulou defends her PhD dissertation on computational music performance
+    analysis. Time: Sep. 18, 2026, 1:15 PM. Place: Forsamlingssalen, Harald Schjelderups hus.'
   end_date: 2026-09-18
   og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/christodoulou-vegg.jpg
   og_title: 'Public defence: Computational Music Performance Analysis: A multimodal, context-informed
     approach'
   partner: University of Oslo (Department of Musicology)
   start_date: 2026-09-18
-  title: 'Public defence: Computational Music Performance Analysis: A multimodal, context-informed
-    approach'
+  thumb: /assets/images/partner-thumbs/4568988c1386bffc.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/christodoulou-vegg.jpg
+  title: 'Public defence: Computational Music Performance Analysis: A multimodal, context-informed approach'
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/christodoulou.html
-- description: This seminar serie is part of a collaboration between the Japanese research
-    institutions, the Japanese embassy, the Japanese Society for the Promotion of Science,
-    Research Council of Norway, Norwegian Directorate for Higher Education and Skills, Innovation
-    Norway, Norwegian Embassy in Tokyo, UiO and the Hylleraas Centre.
+- description: This seminar serie is part of a collaboration between the Japanese research institutions,
+    the Japanese embassy, the Japanese Society for the Promotion of Science, Research Council of Norway,
+    Norwegian Directorate for Higher Education and Skills, Innovation Norway, Norwegian Embassy in Tokyo,
+    UiO and the Hylleraas Centre.
   end_date: 2026-09-18
-  og_description: This seminar serie is part of a collaboration between the Japanese research
-    institutions, the Japanese embassy, the Japanese Society for the Promotion of Science,
-    Research Council of Norway, Norwegian Directorate for Higher Education and Skills, Innovation
-    Norway, Norwegian Embassy in Tokyo, UiO and the Hylleraas Centre.
+  og_description: This seminar serie is part of a collaboration between the Japanese research institutions,
+    the Japanese embassy, the Japanese Society for the Promotion of Science, Research Council of Norway,
+    Norwegian Directorate for Higher Education and Skills, Innovation Norway, Norwegian Embassy in Tokyo,
+    UiO and the Hylleraas Centre.
   og_image: https://www.mn.uio.no/hylleraas/english/news-and-events/events/events-in-oslo/2026/japan-norway-research-alliance---front-page-v2-1000x562.jpg
-  og_title: 'Seminar serie: Japan-Norway Research Alliance –  Next Generation Research with
-    AI - Hylleraas Centre for Quantum Molecular Sciences'
+  og_title: 'Seminar serie: Japan-Norway Research Alliance –  Next Generation Research with AI - Hylleraas
+    Centre for Quantum Molecular Sciences'
   partner: University of Oslo
   start_date: 2026-09-18
+  thumb: /assets/images/partner-thumbs/a9c18595efeee157.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.mn.uio.no/hylleraas/english/news-and-events/events/events-in-oslo/2026/japan-norway-research-alliance---front-page-v2-1000x562.jpg
   title: JP/NO Research Alliance 2026
   url: https://www.mn.uio.no/hylleraas/english/news-and-events/events/events-in-oslo/2026/jp-no-research-alliance-2026.html
-- description: 'A public meeting about how AI changes culture, our understanding of humanity,
-    and knowledge. Time and place: Sep. 21, 2026, 18:00-21:00, Kavlisalen, Det Norske Videnskaps-Akademi,
-    Oslo.'
+- description: 'A public meeting about how AI changes culture, our understanding of humanity, and knowledge.
+    Time and place: Sep. 21, 2026, 18:00-21:00, Kavlisalen, Det Norske Videnskaps-Akademi, Oslo.'
   end_date: 2026-09-21
-  og_description: På dette tredje møtet i serien om forskning og KI spør vi hvordan kunstig
-    intelligens endrer vår kultur og selvforståelse.
+  og_description: På dette tredje møtet i serien om forskning og KI spør vi hvordan kunstig intelligens
+    endrer vår kultur og selvforståelse.
   og_image: https://www.dnva.no/sites/default/files/styles/full_content_width/public/2026-08/Montasje%20KI-m%C3%B8te%203.jpg?itok=gS8P-jeK
   og_title: Hvordan endrer KI oss? Om kultur, menneskesyn og kunnskap
   partner: Det Norske Videnskaps-Akademi
   start_date: 2026-09-21
+  thumb: /assets/images/partner-thumbs/a09f97eccf01cb85.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.dnva.no/sites/default/files/styles/full_content_width/public/2026-08/Montasje%20KI-m%C3%B8te%203.jpg?itok=gS8P-jeK
   title: Hvordan endrer KI oss? Om kultur, menneskesyn og kunnskap
   url: https://www.dnva.no/detskjer/2026/08/hvordan-endrer-ki-oss-om-kultur-menneskesyn-og-kunnskap
-- description: 'Master Jinyue Guo defends his PhD dissertation on audio-video information
-    retrieval using machine learning and music technology. Time: Sep. 22, 2026, 11:15 AM.
-    Place: Forsamlingssalen, Harald Schjelderups hus.'
+- description: 'Master Jinyue Guo defends his PhD dissertation on audio-video information retrieval using
+    machine learning and music technology. Time: Sep. 22, 2026, 11:15 AM. Place: Forsamlingssalen, Harald
+    Schjelderups hus.'
   end_date: 2026-09-22
   og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/guo-vegg2.jpg
-  og_title: 'Public defence: Machine Synchresis: Immersive and Embodied Audio–Video Information
-    Retrieval for Indoor Environments'
+  og_title: 'Public defence: Machine Synchresis: Immersive and Embodied Audio–Video Information Retrieval
+    for Indoor Environments'
   partner: University of Oslo (Department of Musicology)
   start_date: 2026-09-22
-  title: 'Public defence: Machine Synchresis: Immersive and Embodied Audio–Video Information
-    Retrieval for Indoor Environments'
+  thumb: /assets/images/partner-thumbs/4616cd1bbdcb285d.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/guo-vegg2.jpg
+  title: 'Public defence: Machine Synchresis: Immersive and Embodied Audio–Video Information Retrieval
+    for Indoor Environments'
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/disputations/2026/guo.html
-- description: 'Seminar organised by the Faculty of Fine Art, Music and Design (KMD) on the
-    hidden politics, power structures, and human costs behind AI''s rapid rise, with Raul
-    Ferrer Conill, Benjamin Harbakk, Haruna Inagaki, Albert Cheng-Syun Tang, and Daniel Felstead.
-    In person and streamed; free, registration required by 22 September. Time: Thursday 24
-    September 2026, 09:00-12:30. Place: Storsalen, Nygårdsgaten 5, Bergen.'
+- description: 'Seminar organised by the Faculty of Fine Art, Music and Design (KMD) on the hidden politics,
+    power structures, and human costs behind AI''s rapid rise, with Raul Ferrer Conill, Benjamin Harbakk,
+    Haruna Inagaki, Albert Cheng-Syun Tang, and Daniel Felstead. In person and streamed; free, registration
+    required by 22 September. Time: Thursday 24 September 2026, 09:00-12:30. Place: Storsalen, Nygårdsgaten
+    5, Bergen.'
   end_date: 2026-09-24
-  og_description: 'Seminar organised by the Faculty of Fine Art, Music and Design (KMD) on
-    the hidden politics, power structures, and human costs behind AI''s rapid rise, with Raul
-    Ferrer Conill, Benjamin Harbakk, Haruna Inagaki, Albert Cheng-Syun Tang, and Daniel Felstead.
-    In person and streamed; free, registration required by 22 September. Time: Thursday 24
-    September 2026, 09:00-12:30. Place: Storsalen, Nygårdsgaten 5, Bergen.'
+  og_description: 'Seminar organised by the Faculty of Fine Art, Music and Design (KMD) on the hidden
+    politics, power structures, and human costs behind AI''s rapid rise, with Raul Ferrer Conill, Benjamin
+    Harbakk, Haruna Inagaki, Albert Cheng-Syun Tang, and Daniel Felstead. In person and streamed; free,
+    registration required by 22 September. Time: Thursday 24 September 2026, 09:00-12:30. Place: Storsalen,
+    Nygårdsgaten 5, Bergen.'
   og_image: https://www4.uib.no/sites/default/files/styles/large/public/2026-08/Eventbilde%204Ps_0.gif.avif?itok=ovN3lj82
   og_title: 'UiB AI #22 The 4Ps of AI'
   partner: University of Bergen
   start_date: 2026-09-24
   title: 'UiB AI #22: The 4Ps of AI: Power, Politics, People, Profits'
   url: https://www4.uib.no/en/events/uib-ai-22-the-4ps-of-ai-power-politics-people-profits
-- description: 'Online anniversary seminar with three short provocations on where humanities
-    research is heading in the Nordic-Baltic region and beyond, including Alexander Refsum
-    Jensenius on AI as a catalyst for more humanities research. Open to all, registration
-    required. Time: Thursday 24 September 2026, 13:30-15:00 CEST. Place: Zoom.'
+- description: 'Online anniversary seminar with three short provocations on where humanities research
+    is heading in the Nordic-Baltic region and beyond, including Alexander Refsum Jensenius on AI as a
+    catalyst for more humanities research. Open to all, registration required. Time: Thursday 24 September
+    2026, 13:30-15:00 CEST. Place: Zoom.'
   end_date: 2026-09-24
-  og_description: 'Online anniversary seminar with three short provocations on where humanities
-    research is heading in the Nordic-Baltic region and beyond, including Alexander Refsum
-    Jensenius on AI as a catalyst for more humanities research. Open to all, registration
-    required. Time: Thursday 24 September 2026, 13:30-15:00 CEST. Place: Zoom.'
+  og_description: 'Online anniversary seminar with three short provocations on where humanities research
+    is heading in the Nordic-Baltic region and beyond, including Alexander Refsum Jensenius on AI as a
+    catalyst for more humanities research. Open to all, registration required. Time: Thursday 24 September
+    2026, 13:30-15:00 CEST. Place: Zoom.'
   og_image: https://dhnb.eu/wp-content/uploads/2021/01/favicon.png
   og_title: Onwards and outwards! DHNB celebrates 10 years
   partner: Digital Humanities in the Nordic and Baltic Countries (DHNB)
   start_date: 2026-09-24
+  thumb: /assets/images/partner-thumbs/491a39bb557e3801.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://dhnb.eu/wp-content/uploads/2021/01/favicon.png
   title: Onwards and outwards! DHNB celebrates 10 years
   url: https://dhnb.eu/about-dhnb/onwards-and-outwards-dhnb-celebrates-10-years/
-- description: 'A concert with human improvisers and autonomous computational systems, presenting
-    SCSCI, a new synthesizer control system for co-improvisation developed at the University
-    of Oslo with support from MishMash. Free, but registration is required (limited to 50
-    participants). Time: Oct. 6, 2026, 18:30-21:00 (concert starts 19:00). Place: NOTAM, Myrens
-    verksted 3A, Oslo.'
+- description: 'A concert with human improvisers and autonomous computational systems, presenting SCSCI,
+    a new synthesizer control system for co-improvisation developed at the University of Oslo with support
+    from MishMash. Free, but registration is required (limited to 50 participants). Time: Oct. 6, 2026,
+    18:30-21:00 (concert starts 19:00). Place: NOTAM, Myrens verksted 3A, Oslo.'
   end_date: 2026-10-06
   og_description: A concert with human improvisers and autonomous computational systems.
   og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/Other/2026/poster5-process.png
-  og_title: 'Synthetic shadows and twisted mirrors: co-improvising with machines - Department
-    of Musicology'
+  og_title: 'Synthetic shadows and twisted mirrors: co-improvising with machines - Department of Musicology'
   partner: University of Oslo (Department of Musicology)
   start_date: 2026-10-06
+  thumb: /assets/images/partner-thumbs/419693ab86e24034.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/Other/2026/poster5-process.png
   title: 'Synthetic shadows and twisted mirrors: co-improvising with machines'
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Other/2026/co-improvisation.html
-- description: 'Lecture by Wolfgang Ernst, Professor Emeritus of Media Theory at Humboldt
-    University Berlin, introduced by Eivind Røssaak (National Library of Norway). Using media
-    archaeology and philosophy, Ernst asks what the relationship between thought and matter
-    is, how information becomes knowledge, and what it means to be intelligent. Free, in English,
-    registration required. Time: Wednesday 14 October 2026, doors 17:00, lecture 17:30-18:30,
-    networking until 19:30. Place: Kristiania, Kirkegata 24 (KAU-B1-02), Oslo.'
+- description: 'Lecture by Wolfgang Ernst, Professor Emeritus of Media Theory at Humboldt University Berlin,
+    introduced by Eivind Røssaak (National Library of Norway). Using media archaeology and philosophy,
+    Ernst asks what the relationship between thought and matter is, how information becomes knowledge,
+    and what it means to be intelligent. Free, in English, registration required. Time: Wednesday 14 October
+    2026, doors 17:00, lecture 17:30-18:30, networking until 19:30. Place: Kristiania, Kirkegata 24 (KAU-B1-02),
+    Oslo.'
   end_date: 2026-10-14
-  og_description: 'Lecture by Wolfgang Ernst, Professor Emeritus of Media Theory at Humboldt
-    University Berlin, introduced by Eivind Røssaak (National Library of Norway). Using media
-    archaeology and philosophy, Ernst asks what the relationship between thought and matter
-    is, how information becomes knowledge, and what it means to be intelligent. Free, in English,
-    registration required. Time: Wednesday 14 October 2026, doors 17:00, lecture 17:30-18:30,
-    networking until 19:30. Place: Kristiania, Kirkegata 24 (KAU-B1-02), Oslo.'
+  og_description: 'Lecture by Wolfgang Ernst, Professor Emeritus of Media Theory at Humboldt University
+    Berlin, introduced by Eivind Røssaak (National Library of Norway). Using media archaeology and philosophy,
+    Ernst asks what the relationship between thought and matter is, how information becomes knowledge,
+    and what it means to be intelligent. Free, in English, registration required. Time: Wednesday 14 October
+    2026, doors 17:00, lecture 17:30-18:30, networking until 19:30. Place: Kristiania, Kirkegata 24 (KAU-B1-02),
+    Oslo.'
   og_image: https://www.kristiania.no/contentassets/27608d06d66e479e84b19595b7cfaeea/eventkalender-1250x730-mal-2_1250_730-3.jpg?width=1200&height=630&rmode=Crop
   og_title: 'kAI-evening: Artificial Intelligence as an Epistemic Toy'
   partner: Kristiania
   start_date: 2026-10-14
+  thumb: /assets/images/partner-thumbs/e54b2e9bae59bb9b.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.kristiania.no/contentassets/27608d06d66e479e84b19595b7cfaeea/eventkalender-1250x730-mal-2_1250_730-3.jpg?width=1200&height=630&rmode=Crop
   title: 'kAI-evening: Artificial Intelligence as an Epistemic Toy'
   url: https://www.kristiania.no/en/about-kristiania/calendar/kai-evening-artificial-intelligence-as-an-epistemic-toy/
-- description: 'Annual conference for the Norwegian network for digital humanities and cultural
-    organisations (DHKO). Time and place: 14-15 October 2026, Campus Remmen.'
+- description: 'Annual conference for the Norwegian network for digital humanities and cultural organisations
+    (DHKO). Time and place: 14-15 October 2026, Campus Remmen.'
   end_date: 2026-10-15
-  og_description: Den årlige DHKO-konferansen med fokus på digital humaniora, samfunn og demokrati,
-    inkludert tema knyttet til KI, digital suverenitet, open source/open access og kritisk
-    teknologibruk.
+  og_description: Den årlige DHKO-konferansen med fokus på digital humaniora, samfunn og demokrati, inkludert
+    tema knyttet til KI, digital suverenitet, open source/open access og kritisk teknologibruk.
   og_image: https://www.hiof.no/forskning/satsingsomrader/sprak-i-oppleringen/ella/arrangementer/dhko-2026-conf-banner.png
   og_title: 'Konferanse: Norsk nettverk for digital humaniora og kulturorganisasjon (DHKO)'
   partner: Høgskolen i Østfold (HiØf)
   start_date: 2026-10-14
+  thumb: /assets/images/partner-thumbs/20138f81e87695ba.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hiof.no/forskning/satsingsomrader/sprak-i-oppleringen/ella/arrangementer/dhko-2026-conf-banner.png
   title: DHKO Conference 2026
   url: https://www.hiof.no/forskning/satsingsomrader/sprak-i-oppleringen/ella/arrangementer/konferanse-norsk-nettverk-for-digital-humaniora-og.html
-- description: 'Talk on who controls the cultural data that AI systems are trained on, and
-    on what terms, with Oonagh Murphy, Birgitte Vézina (Creative Commons), Yngvil Beyer (National
-    Library of Norway), and Birgitte Aga and Nikita Mathias (MUNCH). Part of Oslo Innovation
-    Week, in collaboration with Creative Commons, and shown alongside the interactive exhibition
-    "Connect the Lines", where visitors draw on tablets and an AI system links their drawings
-    to works in the museum''s archive, raising questions about consent, copyright and institutional
-    responsibility. In English, free, limited capacity. Time: Thursday 22 October 2026, 17:30,
-    doors at 17:00. Place: MUNCH, floor 10, Oslo.'
+- description: 'Talk on who controls the cultural data that AI systems are trained on, and on what terms,
+    with Oonagh Murphy, Birgitte Vézina (Creative Commons), Yngvil Beyer (National Library of Norway),
+    and Birgitte Aga and Nikita Mathias (MUNCH). Part of Oslo Innovation Week, in collaboration with Creative
+    Commons, and shown alongside the interactive exhibition "Connect the Lines", where visitors draw on
+    tablets and an AI system links their drawings to works in the museum''s archive, raising questions
+    about consent, copyright and institutional responsibility. In English, free, limited capacity. Time:
+    Thursday 22 October 2026, 17:30, doors at 17:00. Place: MUNCH, floor 10, Oslo.'
   end_date: 2026-10-22
-  og_description: 'Talk on who controls the cultural data that AI systems are trained on,
-    and on what terms, with Oonagh Murphy, Birgitte Vézina (Creative Commons), Yngvil Beyer
-    (National Library of Norway), and Birgitte Aga and Nikita Mathias (MUNCH). Part of Oslo
-    Innovation Week, in collaboration with Creative Commons, and shown alongside the interactive
-    exhibition "Connect the Lines", where visitors draw on tablets and an AI system links
-    their drawings to works in the museum''s archive, raising questions about consent, copyright
-    and institutional responsibility. In English, free, limited capacity. Time: Thursday 22
-    October 2026, 17:30, doors at 17:00. Place: MUNCH, floor 10, Oslo.'
+  og_description: 'Talk on who controls the cultural data that AI systems are trained on, and on what
+    terms, with Oonagh Murphy, Birgitte Vézina (Creative Commons), Yngvil Beyer (National Library of Norway),
+    and Birgitte Aga and Nikita Mathias (MUNCH). Part of Oslo Innovation Week, in collaboration with Creative
+    Commons, and shown alongside the interactive exhibition "Connect the Lines", where visitors draw on
+    tablets and an AI system links their drawings to works in the museum''s archive, raising questions
+    about consent, copyright and institutional responsibility. In English, free, limited capacity. Time:
+    Thursday 22 October 2026, 17:30, doors at 17:00. Place: MUNCH, floor 10, Oslo.'
   og_title: When Culture Becomes Data for AI
   partner: MUNCH
   start_date: 2026-10-22
   title: When Culture Becomes Data for AI
   url: https://www.munch.no/en/whats-on/when-culture-becomes-data-for-ai/
-- description: 'The three-year BærUt! project on sustainable digital scholarly editions at
-    the University of Oslo presents its findings and discusses what lies ahead, under the
-    themes care, community, and continuity. Organised by Annika Rockenberger, Othelia Engelstad,
-    and Federico Aurora. Free and open to all; registration opens on Pindena. Time: Nov. 23,
-    2026, 09:00 to Nov. 24, 2026, 16:00. Place: DSC-Oasen, Georg Sverdrups hus, University
-    of Oslo.'
+- description: 'The three-year BærUt! project on sustainable digital scholarly editions at the University
+    of Oslo presents its findings and discusses what lies ahead, under the themes care, community, and
+    continuity. Organised by Annika Rockenberger, Othelia Engelstad, and Federico Aurora. Free and open
+    to all; registration opens on Pindena. Time: Nov. 23, 2026, 09:00 to Nov. 24, 2026, 16:00. Place:
+    DSC-Oasen, Georg Sverdrups hus, University of Oslo.'
   end_date: 2026-11-24
-  og_description: The BærUt! Project is going towards its end, and during the closing conference
-    we will present our finds, and discuss what lies ahead of us.
+  og_description: The BærUt! Project is going towards its end, and during the closing conference we will
+    present our finds, and discuss what lies ahead of us.
   og_image: https://www.ub.uio.no/english/libraries/dsc/berut/events/seminars/vortex-img-red-logo.png
   og_title: BærUt! Closing Conference
   partner: University of Oslo (University Library)
   start_date: 2026-11-23
+  thumb: /assets/images/partner-thumbs/bca4879cd99dcf4d.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.ub.uio.no/english/libraries/dsc/berut/events/seminars/vortex-img-red-logo.png
   title: BærUt! Closing Conference
   url: https://www.ub.uio.no/english/libraries/dsc/berut/events/conferences/closing-conference-2026-11-24-23.html
 - description: The Third International Conference in AI Music Studies explores human-AI collaboration,
-    human agency and intentionality in music. The three-day conference features presentations,
-    panels, workshops, a keynote by Dr Caterina Moruzzi, and a concert.
+    human agency and intentionality in music. The three-day conference features presentations, panels,
+    workshops, a keynote by Dr Caterina Moruzzi, and a concert.
   end_date: 2027-12-03
-  og_description: The Third International Conference in AI Music Studies explores the prospects,
-    challenges and methodologies of studying AI music within the Humanities and Social Sciences.
+  og_description: The Third International Conference in AI Music Studies explores the prospects, challenges
+    and methodologies of studying AI music within the Humanities and Social Sciences.
   og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/Conferences/2027/cmoruzzi.jpg
   og_title: AIMS 2027
   partner: University of Oslo (Department of Musicology)
   start_date: 2027-12-01
+  thumb: /assets/images/partner-thumbs/3619a41e4ee1f0f4.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/Conferences/2027/cmoruzzi.jpg
   title: AIMS 2027
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Conferences/2027/ai-music-studies-(aims)-2027.html
-- description: 'Kreativ AI Meetup in Trondheim (Digs, Mesh Community, Krambugata 2, 23 September
-    2026, 17:30 to 19:30). A masterclass on working with Claude Cowork, by Kristoffer Krogh
-    Wetterhus of Astar Consulting: setting up, common pitfalls, and where it saves time.'
+- description: 'Kreativ AI Meetup in Trondheim (Digs, Mesh Community, Krambugata 2, 23 September 2026,
+    17:30 to 19:30). A masterclass on working with Claude Cowork, by Kristoffer Krogh Wetterhus of Astar
+    Consulting: setting up, common pitfalls, and where it saves time.'
   end_date: 2026-09-23
+  og_description: 'Du bruker Claude. Kanskje Cowork også? Lyst til å finne ut hvordan det kan snu opp
+    ned på arbeidshverdagen din?
+
+    **Dette er en masterclass**, ikke en introduksjon. 50 minut'
+  og_image: https://secure.meetupstatic.com/photos/event/9/c/2/0/600_536139968.jpeg
+  og_title: 'TKAI Meetup #6 - Masterclass i Claude Cowork'
   partner: Trondheim Kreativ AI
   start_date: 2026-09-23
+  thumb: /assets/images/partner-thumbs/5530677ff7902c86.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://secure.meetupstatic.com/photos/event/9/c/2/0/600_536139968.jpeg
   title: 'TKAI Meetup #6 - Masterclass i Claude Cowork'
   url: https://www.meetup.com/trondheim-kreativ-ai/events/316483717/
-  og_title: 'TKAI Meetup #6 - Masterclass i Claude Cowork'
-  og_description: "Du bruker Claude. Kanskje Cowork også? Lyst til å finne ut hvordan det kan snu opp ned på arbeidshverdagen din?
-
-**Dette er en masterclass**, ikke en introduksjon. 50 minut"
-  og_image: "https://secure.meetupstatic.com/photos/event/9/c/2/0/600_536139968.jpeg"
-- description: 'Kreativ AI Meetup in Trondheim (Digs, Mesh Community, Krambugata 2, 14 October
-    2026, 17:30 to 19:30). Art and AI: a curator on how quality and originality are judged in
-    works made with AI, and an artist-researcher on what AI does to creative practice.'
+- description: 'Kreativ AI Meetup in Trondheim (Digs, Mesh Community, Krambugata 2, 14 October 2026, 17:30
+    to 19:30). Art and AI: a curator on how quality and originality are judged in works made with AI,
+    and an artist-researcher on what AI does to creative practice.'
   end_date: 2026-10-14
+  og_description: 'I dag kan hvem som helst lage et bilde med AI på noen sekunder. Men hva gjør et AI-verk
+    godt? Og hvem er egentlig kunstneren når maskinen gjør mer enn å holde penselen?
+
+    På'
+  og_image: https://secure.meetupstatic.com/photos/event/5/a/a/9/600_536303209.jpeg
+  og_title: 'TKAI Meetup #7 - Kunst og AI'
   partner: Trondheim Kreativ AI
   start_date: 2026-10-14
+  thumb: /assets/images/partner-thumbs/cf22c78ca2228ae9.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://secure.meetupstatic.com/photos/event/5/a/a/9/600_536303209.jpeg
   title: 'TKAI Meetup #7 - Kunst og AI'
   url: https://www.meetup.com/trondheim-kreativ-ai/events/316708834/
-  og_title: 'TKAI Meetup #7 - Kunst og AI'
-  og_description: "I dag kan hvem som helst lage et bilde med AI på noen sekunder. Men hva gjør et AI-verk godt? Og hvem er egentlig kunstneren når maskinen gjør mer enn å holde penselen?
-
-På"
-  og_image: "https://secure.meetupstatic.com/photos/event/5/a/a/9/600_536303209.jpeg"
-- description: 'Artist talk in the Artist@IMV series at the Department of Musicology, University
-    of Oslo (Salen, IMV, 10 April 2026, 12:30 to 13:30).'
+- description: Artist talk in the Artist@IMV series at the Department of Musicology, University of Oslo
+    (Salen, IMV, 10 April 2026, 12:30 to 13:30).
   end_date: 2026-04-10
+  og_description: María Gabriela Rubio Hernández composes multimedia artworks questioning the role of
+    erotic sound materials.
+  og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/maria-gabriela-rubio-hernandez.jpg
+  og_title: 'Artist@IMV: Sound and post-porn art with María Gabriela Rubio Hernández - Department of Musicology'
   partner: University of Oslo
   start_date: 2026-04-10
+  thumb: /assets/images/partner-thumbs/0f1927653ff46b29.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/maria-gabriela-rubio-hernandez.jpg
   title: 'Artist@IMV: Sound and post-porn art with María Gabriela Rubio Hernández'
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/sound-and-post-porn-art
-  og_title: "Artist@IMV: Sound and post-porn art with María Gabriela Rubio Hernández
-       - Department of Musicology"
-  og_description: "María Gabriela Rubio Hernández composes multimedia artworks questioning the role of erotic sound materials."
-  og_image: "https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/maria-gabriela-rubio-hernandez.jpg"
-- description: 'Artist talk in the Artist@IMV series at the Department of Musicology, University
-    of Oslo (Salen, IMV, 24 April 2026, 12:30 to 13:30).'
+- description: Artist talk in the Artist@IMV series at the Department of Musicology, University of Oslo
+    (Salen, IMV, 24 April 2026, 12:30 to 13:30).
   end_date: 2026-04-24
+  og_description: Jenny Berger Myhre discusses making a portable pipe organ with found materials.
+  og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/jennybergermyhre_fotogerdakrutaja_300ppi.png
+  og_title: 'Artist@IMV: Instrument-building as meditation with Jenny Berger Myhre - Department of Musicology'
   partner: University of Oslo
   start_date: 2026-04-24
+  thumb: /assets/images/partner-thumbs/11fcb470036c87ab.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/jennybergermyhre_fotogerdakrutaja_300ppi.png
   title: 'Artist@IMV: Instrument-building as meditation with Jenny Berger Myhre'
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/Instrument-building-as-meditation
-  og_title: "Artist@IMV: Instrument-building as meditation with Jenny Berger Myhre
-       - Department of Musicology"
-  og_description: "Jenny Berger Myhre discusses making a portable pipe organ with found materials."
-  og_image: "https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/jennybergermyhre_fotogerdakrutaja_300ppi.png"
-- description: 'Artist talk in the Artist@IMV series at the Department of Musicology, University
-    of Oslo (Salen, IMV, 09 October 2026, 12:30 to 13:30).'
+- description: Artist talk in the Artist@IMV series at the Department of Musicology, University of Oslo
+    (Salen, IMV, 09 October 2026, 12:30 to 13:30).
   end_date: 2026-10-09
+  og_description: The Optical Scores instrument listens to electromagnetic fields hidden in electronic
+    waste
+  og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/stefanos.jpg
+  og_title: 'Artist@IMV - Listening to dead electronics: optical scores with Stefanos Skialivas - Department
+    of Musicology'
   partner: University of Oslo
   start_date: 2026-10-09
+  thumb: /assets/images/partner-thumbs/8cb6879d3d64cc3d.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/stefanos.jpg
   title: 'Artist@IMV: Listening to dead electronics, optical scores with Stefanos Skialivas'
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/listening-to-dead
-  og_title: "Artist@IMV - Listening to dead electronics: optical scores with Stefanos Skialivas
-       - Department of Musicology"
-  og_description: "The Optical Scores instrument listens to electromagnetic fields hidden in electronic waste"
-  og_image: "https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/stefanos.jpg"
-- description: 'Artist talk in the Artist@IMV series at the Department of Musicology, University
-    of Oslo (Salen, IMV, 16 October 2026, 12:30 to 13:30).'
+- description: Artist talk in the Artist@IMV series at the Department of Musicology, University of Oslo
+    (Salen, IMV, 16 October 2026, 12:30 to 13:30).
   end_date: 2026-10-16
+  og_description: «'Nuther SuperCollider Frame Work» (NSFW) is a modular software system for algorithmic
+    performance
+  og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/auguste_tomkute.jpg
+  og_title: 'Artist@IMV: open-ended alogrithmic music performance with Mike McCormick - Department of
+    Musicology'
   partner: University of Oslo
   start_date: 2026-10-16
+  thumb: /assets/images/partner-thumbs/6ea5250e131bd4f6.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/auguste_tomkute.jpg
   title: 'Artist@IMV: Open-ended algorithmic music performance with Mike McCormick'
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/open-eneded-algo-music
-  og_title: "Artist@IMV: open-ended alogrithmic music performance with Mike McCormick
-       - Department of Musicology"
-  og_description: "«'Nuther SuperCollider Frame Work» (NSFW) is a modular software system for algorithmic performance"
-  og_image: "https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/auguste_tomkute.jpg"
-- description: 'Artist talk in the Artist@IMV series at the Department of Musicology, University
-    of Oslo (Salen, IMV, 30 October 2026, 12:30 to 13:30).'
+- description: Artist talk in the Artist@IMV series at the Department of Musicology, University of Oslo
+    (Salen, IMV, 30 October 2026, 12:30 to 13:30).
   end_date: 2026-10-30
+  og_description: Tara Abdullah talks about two sonic artworks investigating voices of women in Kurdistan.
+  og_image: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/tara-abdullah.jpg
+  og_title: 'Artist@IMV: Voices and Wailing in Kurdistan with Tara Abdullah - Department of Musicology'
   partner: University of Oslo
   start_date: 2026-10-30
+  thumb: /assets/images/partner-thumbs/75c5ba245a02f59d.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/tara-abdullah.jpg
   title: 'Artist@IMV: Voices and Wailing in Kurdistan with Tara Abdullah'
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/voices-and-wailing
-  og_title: "Artist@IMV: Voices and Wailing in Kurdistan with Tara Abdullah
-       - Department of Musicology"
-  og_description: "Tara Abdullah talks about two sonic artworks investigating voices of women in Kurdistan."
-  og_image: "https://www.hf.uio.no/imv/english/research/news-and-events/events/artist-at-imv/2026/tara-abdullah.jpg"

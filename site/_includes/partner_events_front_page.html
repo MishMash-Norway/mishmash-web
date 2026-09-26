@@ -50,8 +50,13 @@
         <span class="event-thumb partner-event-icon">
           {% capture fallback_thumb %}{% cycle 'bubble-thumbs': '/assets/images/bubbles/thumbs/bubbles-1.svg', '/assets/images/bubbles/thumbs/bubbles-2.svg', '/assets/images/bubbles/thumbs/bubbles-3.svg', '/assets/images/bubbles/thumbs/bubbles-4.svg', '/assets/images/bubbles/thumbs/bubbles-5.svg', '/assets/images/bubbles/thumbs/bubbles-6.svg' %}{% endcapture %}
           {% assign fallback_icon = fallback_thumb | relative_url %}
-          {% assign img_src = ev.og_image | default: fallback_icon %}
-          <img class="partner-event-thumb" src="{{ img_src }}" alt="" loading="lazy"
+          {%- comment -%}
+            The small copy served from this site when the harvest made one
+            (scripts/build_partner_thumbnails.py); the partner's own picture
+            only when it could not, and the site's artwork when there is none.
+          {%- endcomment -%}
+          {% assign img_src = ev.thumb | default: ev.og_image | default: fallback_icon %}
+          <img class="partner-event-thumb" src="{{ img_src | relative_url }}" alt="" loading="lazy" width="120" height="120"
                referrerpolicy="no-referrer"
                onerror="this.src='{{ fallback_icon }}';this.onerror=null">
         </span>

@@ -1,155 +1,217 @@
-# Partner and affiliated institution news stories.
-# Keep dates in ISO format (YYYY-MM-DD).
-# Use lang: en or lang: nb to control which language version of the site shows each entry.
-
 - date: 2026-09-18
+  description: A music professor with absolute pitch lost his bearings when he moved to Norway. The explanation
+    may lie in the hum of the buildings around him, which runs at a different frequency on each side of
+    the Atlantic.
   lang: en
-  url: https://www.uio.no/english/research/research-news/articles/2026/find-a-without-any-problem.html
   og_image: https://www.uio.no/english/research/research-news/articles/2026/photos/hf/ritmo/indoor_space_and_energy1000x562.png
-  title: "Back home in the U.S., he could find A without any problem"
-  description: "A music professor with absolute pitch lost his bearings when he moved to Norway. The explanation may lie in the hum of the buildings around him, which runs at a different frequency on each side of the Atlantic."
   partner: University of Oslo
-
+  thumb: /assets/images/partner-thumbs/504416cc2499e1f9.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/english/research/research-news/articles/2026/photos/hf/ritmo/indoor_space_and_energy1000x562.png
+  title: Back home in the U.S., he could find A without any problem
+  url: https://www.uio.no/english/research/research-news/articles/2026/find-a-without-any-problem.html
 - date: 2026-09-18
+  description: Då den amerikanske musikkprofessoren flytta til Noreg, svikta gehøret hans. Forklaringa
+    kan ligge i ein lyd dei fleste av oss knapt tenker over.
   lang: nb
-  url: https://www.uio.no/forskning/forskningsnytt/artikler/2026/finne-tonen-a-utan-problem.html
   og_image: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/ritmo/indoor_space_and_energy1000x562.png
-  title: "I USA kunne han finne tonen «A» utan problem"
-  description: "Då den amerikanske musikkprofessoren flytta til Noreg, svikta gehøret hans. Forklaringa kan ligge i ein lyd dei fleste av oss knapt tenker over."
   partner: Universitetet i Oslo
-
+  thumb: /assets/images/partner-thumbs/e247446dcfc7592d.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/ritmo/indoor_space_and_energy1000x562.png
+  title: I USA kunne han finne tonen «A» utan problem
+  url: https://www.uio.no/forskning/forskningsnytt/artikler/2026/finne-tonen-a-utan-problem.html
 - date: 2026-09-10
+  description: Anna-Maria Christodoulou at RITMO trains AI models that combine audio, video and context,
+    so music and film archives answer far more complex questions. The work continues in MishMash together
+    with the National Library of Norway.
   lang: en
-  url: https://www.uio.no/english/research/research-news/articles/2026/new-ways-of-searching-video-and-music-archives.html
   og_image: https://www.uio.no/english/research/research-news/articles/2026/photos/hf/ritmo/ultima-performance1000x562.jpg
-  title: "Research unlocks new ways of searching video and music archives"
-  description: "Anna-Maria Christodoulou at RITMO trains AI models that combine audio, video and context, so music and film archives answer far more complex questions. The work continues in MishMash together with the National Library of Norway."
   partner: University of Oslo
-
+  thumb: /assets/images/partner-thumbs/0fa482ce5cfb7cae.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/english/research/research-news/articles/2026/photos/hf/ritmo/ultima-performance1000x562.jpg
+  title: Research unlocks new ways of searching video and music archives
+  url: https://www.uio.no/english/research/research-news/articles/2026/new-ways-of-searching-video-and-music-archives.html
 - date: 2026-09-10
+  description: Anna-Maria Christodoulou ved RITMO trener KI-modeller som kombinerer lyd, video og kontekst,
+    slik at musikk- og filmarkiver kan svare på langt mer komplekse spørsmål. Arbeidet fortsetter i MishMash
+    sammen med Nasjonalbiblioteket.
   lang: nb
-  url: https://www.uio.no/forskning/forskningsnytt/artikler/2026/nye-sok-i-video--og-musikkdatabaser.html
   og_image: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/ritmo/ultima-performance1000x562.jpg
-  title: "Forskning åpner for helt nye søk i video- og musikkdatabaser"
-  description: "Anna-Maria Christodoulou ved RITMO trener KI-modeller som kombinerer lyd, video og kontekst, slik at musikk- og filmarkiver kan svare på langt mer komplekse spørsmål. Arbeidet fortsetter i MishMash sammen med Nasjonalbiblioteket."
   partner: Universitetet i Oslo
-
+  thumb: /assets/images/partner-thumbs/6fd202040ba8e89b.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/ritmo/ultima-performance1000x562.jpg
+  title: Forskning åpner for helt nye søk i video- og musikkdatabaser
+  url: https://www.uio.no/forskning/forskningsnytt/artikler/2026/nye-sok-i-video--og-musikkdatabaser.html
 - date: 2026-08-21
+  description: Atelier Nord establishes Norway's first research residency for artistic exploration of
+    artificial intelligence as an environment. Applications open for three six-month artist residencies
+    from January 2027 to June 2028.
   lang: en
+  og_image: https://newateliernord.imgix.net/Instagram_Bilde-2-scaled.png?fm=jpg&q=60&w=1800
+  partner: Atelier Nord
+  thumb: /assets/images/partner-thumbs/13381c0e033d3286.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://newateliernord.imgix.net/Instagram_Bilde-2-scaled.png?fm=jpg&q=60&w=1800
+  title: 'Atelier Nord Residency: Norway''s First Research Residency for AI and Artistic Exploration'
   url: https://ateliernord.no/project/atelier-nord-residency/?lang=en
-  og_image: https://newateliernord.imgix.net/Instagram_Bilde-2-scaled.png?fm=jpg&q=60&w=1800
-  title: "Atelier Nord Residency: Norway's First Research Residency for AI and Artistic Exploration"
-  description: "Atelier Nord establishes Norway's first research residency for artistic exploration of artificial intelligence as an environment. Applications open for three six-month artist residencies from January 2027 to June 2028."
-  partner: Atelier Nord
-
 - date: 2026-08-21
+  description: Atelier Nord etablerer Norges første forskningsopphold for kunstnerisk utforskning av kunstig
+    intelligens som miljø. Søknad åpent for tre kunstneropphold på seks måneder hver fra januar 2027 til
+    juni 2028.
   lang: nb
-  url: https://ateliernord.no/project/atelier-nord-residency/
   og_image: https://newateliernord.imgix.net/Instagram_Bilde-2-scaled.png?fm=jpg&q=60&w=1800
-  title: "Atelier Nord Residency: Norges første kunstneroppholdsprogram for kunstnerisk utforskning av KI"
-  description: "Atelier Nord etablerer Norges første forskningsopphold for kunstnerisk utforskning av kunstig intelligens som miljø. Søknad åpent for tre kunstneropphold på seks måneder hver fra januar 2027 til juni 2028."
   partner: Atelier Nord
-
+  thumb: /assets/images/partner-thumbs/13381c0e033d3286.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://newateliernord.imgix.net/Instagram_Bilde-2-scaled.png?fm=jpg&q=60&w=1800
+  title: 'Atelier Nord Residency: Norges første kunstneroppholdsprogram for kunstnerisk utforskning av
+    KI'
+  url: https://ateliernord.no/project/atelier-nord-residency/
 - date: 2025-06-27
+  description: Researchers at the Faculty of Fine Art, Music and Design (KMD) at the University of Bergen
+    have been given a central role in the new national research center MishMash – Center for AI and Creativity.
   lang: en
-  url: https://www4.uib.no/en/about-uib/featured/kmd-takes-on-a-key-role-in-national-centre-for-ai-and-creativity
   og_image: https://www4.uib.no/sites/default/files/styles/wide/public/media/_dsc1511.jpg.avif?itok=d2_ci_2f
-  title: "KMD takes on a key role in national centre for AI and creativity"
-  description: "Researchers at the Faculty of Fine Art, Music and Design (KMD) at the University of Bergen have been given a central role in the new national research center MishMash – Center for AI and Creativity."
   partner: University of Bergen (UiB)
-
+  title: KMD takes on a key role in national centre for AI and creativity
+  url: https://www4.uib.no/en/about-uib/featured/kmd-takes-on-a-key-role-in-national-centre-for-ai-and-creativity
 - date: 2025-06-11
+  description: The University of Inland Norway joins MishMash, one of six new AI research centres, to
+    investigate how AI can promote creativity and ethical awareness in creative education.
   lang: en
-  url: https://www.inn.no/english/about-inn/faculty-of-film-tv-games/news/strengthening-ai-in-creative-education/
   og_image: https://www.inn.no/om-universitetet/fakultet-for-film-tv-spill/aktuelt-fra-ftvs/vi-skal-styrke-ki-kompetansen-i-kreative-utdanninger/fredrik-graver-(002).jpg
-  title: "We are going to strengthen AI expertise in creative education"
-  description: "The University of Inland Norway joins MishMash, one of six new AI research centres, to investigate how AI can promote creativity and ethical awareness in creative education."
   partner: University of Inland Norway (INN)
-
+  thumb: /assets/images/partner-thumbs/14f16417a4f8446b.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.inn.no/om-universitetet/fakultet-for-film-tv-spill/aktuelt-fra-ftvs/vi-skal-styrke-ki-kompetansen-i-kreative-utdanninger/fredrik-graver-(002).jpg
+  title: We are going to strengthen AI expertise in creative education
+  url: https://www.inn.no/english/about-inn/faculty-of-film-tv-games/news/strengthening-ai-in-creative-education/
 - date: 2026-03-12
+  description: A PhD candidate at Østfold University College is building interactive 3D reconstruction
+    tools for ancient Viking ships, making interpretive uncertainty visible alongside the digital model
+    itself.
   lang: en
-  url: https://www.hiof.no/iio/english/research/news-events/news/2026/bringing-viking-ships-back-to-life---one-algorithm.html
   og_image: https://www.hiof.no/iio/english/research/news-events/news/2026/milan-illustration-2.jpg
-  title: "Bringing Viking ships back to life – one algorithm at a time"
-  description: "A PhD candidate at Østfold University College is building interactive 3D reconstruction tools for ancient Viking ships, making interpretive uncertainty visible alongside the digital model itself."
   partner: Østfold University College (HiØ)
-
+  thumb: /assets/images/partner-thumbs/ac2219ee127306c9.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.hiof.no/iio/english/research/news-events/news/2026/milan-illustration-2.jpg
+  title: Bringing Viking ships back to life – one algorithm at a time
+  url: https://www.hiof.no/iio/english/research/news-events/news/2026/bringing-viking-ships-back-to-life---one-algorithm.html
 - date: 2025-11-18
+  description: NLA joins MishMash, contributing expertise in language, communication, and aesthetic subjects
+    to explore how generative AI impacts creativity, education, and cultural heritage.
   lang: en
-  url: https://www.nla.no/en/news/2025/november/nla-university-college-participates-in-national-research-center
   og_image: https://www.nla.no/en/news/2025/november/nla-university-college-participates-in-national-research-center/_/image/0a8d0ba5-8aba-4a39-b20b-c6e64cd2c590:e679bb3ee26f161d221172d00677d30dd6479365/block-1200-630/KI-prosjekt.JPG
-  title: "NLA University College participates in national research center"
-  description: "NLA joins MishMash, contributing expertise in language, communication, and aesthetic subjects to explore how generative AI impacts creativity, education, and cultural heritage."
   partner: NLA University College
-
+  thumb: /assets/images/partner-thumbs/9f1fff7b388739fd.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.nla.no/en/news/2025/november/nla-university-college-participates-in-national-research-center/_/image/0a8d0ba5-8aba-4a39-b20b-c6e64cd2c590:e679bb3ee26f161d221172d00677d30dd6479365/block-1200-630/KI-prosjekt.JPG
+  title: NLA University College participates in national research center
+  url: https://www.nla.no/en/news/2025/november/nla-university-college-participates-in-national-research-center
 - date: 2026-06-08
+  description: Researchers at the University of Oslo explore how swarm intelligence—inspired by flocking
+    birds and coordinating ants—can enable musical collaboration between humans and AI agents.
   lang: en
-  url: https://www.uio.no/english/research/research-news/articles/2026/human-ai-jamming.html
   og_image: https://www.uio.no/english/research/research-news/articles/2026/photos/hf/ritmo/5r0a7152-1000x562.jpg
-  title: "Human–AI Jamming: How Swarm Intelligence Can Shape Music"
-  description: "Researchers at the University of Oslo explore how swarm intelligence—inspired by flocking birds and coordinating ants—can enable musical collaboration between humans and AI agents."
   partner: University of Oslo
-
+  thumb: /assets/images/partner-thumbs/010971ca2c777e7e.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/english/research/research-news/articles/2026/photos/hf/ritmo/5r0a7152-1000x562.jpg
+  title: 'Human–AI Jamming: How Swarm Intelligence Can Shape Music'
+  url: https://www.uio.no/english/research/research-news/articles/2026/human-ai-jamming.html
 - date: 2026-06-02
+  description: A University of Oslo research project reveals how digital audio workstations are transforming
+    music production while perpetuating gender inequality in the industry.
   lang: en
+  og_image: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/imv/teknologi-musikkbransjen-1000x563px.jpg
+  partner: University of Oslo
+  thumb: /assets/images/partner-thumbs/1b94ec69b0d2d509.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/imv/teknologi-musikkbransjen-1000x563px.jpg
+  title: Technology is making the music industry more individualistic and less gender-equal
   url: https://www.uio.no/english/research/research-news/articles/2026/technology-is-making-the-music-industry-more-individualistic.html
-  og_image: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/imv/teknologi-musikkbransjen-1000x563px.jpg
-  title: "Technology is making the music industry more individualistic and less gender-equal"
-  description: "A University of Oslo research project reveals how digital audio workstations are transforming music production while perpetuating gender inequality in the industry."
-  partner: University of Oslo
-
 - date: 2026-02-09
+  description: Researchers at the University of Oslo discovered that humans excel at navigating unfamiliar
+    situations by actively exploring with their bodies, revealing that embodied cognition remains a foundational
+    human capacity.
   lang: en
-  url: https://www.uio.no/english/research/research-news/articles/2026/where-humans-outshine-ai.html
   og_image: https://www.uio.no/english/research/research-news/articles/2026/photos/hf/ritmo/martin-illustration-1000x562.jpg
-  title: "Where Humans Outshine AI: \"There is something quietly hopeful in these findings\""
-  description: "Researchers at the University of Oslo discovered that humans excel at navigating unfamiliar situations by actively exploring with their bodies, revealing that embodied cognition remains a foundational human capacity."
   partner: University of Oslo
-
+  thumb: /assets/images/partner-thumbs/1b83d75b013d06aa.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/english/research/research-news/articles/2026/photos/hf/ritmo/martin-illustration-1000x562.jpg
+  title: 'Where Humans Outshine AI: "There is something quietly hopeful in these findings"'
+  url: https://www.uio.no/english/research/research-news/articles/2026/where-humans-outshine-ai.html
 - date: 2026-04-24
+  description: Norske forskere vil finne ut hvordan kreative utøvere kan være med på å utvikle kunstig
+    intelligens – og motsatt.
   lang: nb
-  url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
   og_image: https://image.forskning.no/2649159.jpg?imageId=2649159&x=12.09&y=34.11&cropw=80&croph=57.33&panox=12.09&panoy=34.11&panow=80&panoh=57.33&width=1200&height=683
-  title: "Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere og filmprodusenter nå?"
-  description: "Norske forskere vil finne ut hvordan kreative utøvere kan være med på å utvikle kunstig intelligens – og motsatt."
   partner: forskning.no
-
+  thumb: /assets/images/partner-thumbs/dc68e39ea201d79e.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://image.forskning.no/2649159.jpg?imageId=2649159&x=12.09&y=34.11&cropw=80&croph=57.33&panox=12.09&panoy=34.11&panow=80&panoh=57.33&width=1200&height=683
+  title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere og filmprodusenter
+    nå?'
+  url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
 - date: 2026-04-08
+  description: Mye optimisme og litt bekymring preget åpningen av MishMash – senter for kunstig intelligens
+    og kreativitet.
   lang: nb
-  url: https://www.uniforum.uio.no/nyheter/2026/04/eneste-ki-senter-som-kobler-teknologi-og-kreativit.html
   og_image: https://www.uniforum.uio.no/nyheter/2026/04/bilder/mishmash-jensenius.jpg
-  title: "Eneste KI-senter som kobler teknologi og kreativitet offisielt åpnet"
-  description: "Mye optimisme og litt bekymring preget åpningen av MishMash – senter for kunstig intelligens og kreativitet."
   partner: Uniforum (UiO)
-
+  thumb: /assets/images/partner-thumbs/ebf1a83e28a8e50d.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uniforum.uio.no/nyheter/2026/04/bilder/mishmash-jensenius.jpg
+  title: Eneste KI-senter som kobler teknologi og kreativitet offisielt åpnet
+  url: https://www.uniforum.uio.no/nyheter/2026/04/eneste-ki-senter-som-kobler-teknologi-og-kreativit.html
 - date: 2026-06-08
+  description: Pedro Pablo Lucas Bravo ved RITMO utvikler KI-systemer inspirert av dyreadferd for å muliggjøre
+    musikalsk samarbeid mellom mennesker og svarm av intelligente agenter.
   lang: nb
-  url: https://www.uio.no/forskning/forskningsnytt/artikler/2026/et-ensemble-av-ki-agenter.html
   og_image: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/ritmo/5r0a7152-1000x562.jpg
-  title: "Han samarbeider med et ensemble av KI-agenter: – Tror det kan gi spennende musikkopplevelser"
-  description: "Pedro Pablo Lucas Bravo ved RITMO utvikler KI-systemer inspirert av dyreadferd for å muliggjøre musikalsk samarbeid mellom mennesker og svarm av intelligente agenter."
   partner: Universitetet i Oslo
-
+  thumb: /assets/images/partner-thumbs/5d419f66916fe9d4.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/ritmo/5r0a7152-1000x562.jpg
+  title: 'Han samarbeider med et ensemble av KI-agenter: – Tror det kan gi spennende musikkopplevelser'
+  url: https://www.uio.no/forskning/forskningsnytt/artikler/2026/et-ensemble-av-ki-agenter.html
 - date: 2026-06-02
+  description: Forskere ved Universitetet i Oslo finner at digital musikkproduksjonsteknologi driver bransjen
+    mot større individualisering, og avdekker betydelige kjønnsforskjeller i hvem som anerkjennes som
+    profesjonelle produsenter.
   lang: nb
-  url: https://www.uio.no/forskning/forskningsnytt/artikler/2026/teknologi-gjor-musikkbransjen-mer-individualistisk.html
   og_image: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/imv/teknologi-musikkbransjen-1000x563px.jpg
-  title: "Teknologi gjør musikkbransjen mer individualistisk og mindre likestilt"
-  description: "Forskere ved Universitetet i Oslo finner at digital musikkproduksjonsteknologi driver bransjen mot større individualisering, og avdekker betydelige kjønnsforskjeller i hvem som anerkjennes som profesjonelle produsenter."
   partner: Universitetet i Oslo
-
+  thumb: /assets/images/partner-thumbs/1b94ec69b0d2d509.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/imv/teknologi-musikkbransjen-1000x563px.jpg
+  title: Teknologi gjør musikkbransjen mer individualistisk og mindre likestilt
+  url: https://www.uio.no/forskning/forskningsnytt/artikler/2026/teknologi-gjor-musikkbransjen-mer-individualistisk.html
 - date: 2026-06-01
+  description: Nanna Tao Karlstrøm skriver masteroppgave om KI i musikk og utforsker «kontroll-serendipitets-paradokset»
+    – spenningen musikere opplever når de jobber med KI-systemer som tar selvstendige musikalske valg.
   lang: nb
-  url: https://www.uio.no/studier/program/informatikk-ledelse-master/studiemiljo/nanna-min-master.html
   og_image: https://www.uio.no/studier/program/informatikk-ledelse-master/studiemiljo/bilder/portrett_nanna.jpg
-  title: "Kombinerer musikk og informatikk i masteroppgaven"
-  description: "Nanna Tao Karlstrøm skriver masteroppgave om KI i musikk og utforsker «kontroll-serendipitets-paradokset» – spenningen musikere opplever når de jobber med KI-systemer som tar selvstendige musikalske valg."
   partner: Universitetet i Oslo
-
+  thumb: /assets/images/partner-thumbs/b1f791ead7d8cda2.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/studier/program/informatikk-ledelse-master/studiemiljo/bilder/portrett_nanna.jpg
+  title: Kombinerer musikk og informatikk i masteroppgaven
+  url: https://www.uio.no/studier/program/informatikk-ledelse-master/studiemiljo/nanna-min-master.html
 - date: 2026-02-09
+  description: Forskning ved Universitetet i Oslo viser at mennesker utmerker seg i ukjente situasjoner
+    gjennom kroppslighet – ved å bruke kropp og sanser til å utforske fremfor å basere seg utelukkende
+    på logisk tenkning.
   lang: nb
-  url: https://www.uio.no/forskning/forskningsnytt/artikler/2026/her-trumfer-mennesket-ki.html
   og_image: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/ritmo/martin-illustration-1000x562.jpg
-  title: "Her trumfer mennesket KI: – Det er noe håpefullt i disse funnene"
-  description: "Forskning ved Universitetet i Oslo viser at mennesker utmerker seg i ukjente situasjoner gjennom kroppslighet – ved å bruke kropp og sanser til å utforske fremfor å basere seg utelukkende på logisk tenkning."
   partner: Universitetet i Oslo
+  thumb: /assets/images/partner-thumbs/1c6b53393ebdebd0.webp
+  thumb_fetched: '2026-09-26'
+  thumb_source: https://www.uio.no/forskning/forskningsnytt/artikler/2026/bilder/hf/ritmo/martin-illustration-1000x562.jpg
+  title: 'Her trumfer mennesket KI: – Det er noe håpefullt i disse funnene'
+  url: https://www.uio.no/forskning/forskningsnytt/artikler/2026/her-trumfer-mennesket-ki.html

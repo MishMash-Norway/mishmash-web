@@ -70,6 +70,9 @@ jobs:
       - name: Build listing thumbnails
         run: python3 scripts/build_thumbnails.py
 
+      - name: Keep small copies of the partner pictures (issue #73)
+        run: python3 scripts/build_partner_thumbnails.py
+
       - name: Validate directory
         run: python3 scripts/validate_directory.py
 
@@ -82,7 +85,7 @@ jobs:
             echo "No directory changes to commit."
             exit 0
           fi
-          unexpected_files="$(printf '%s\n' "$changed_files" | grep -Ev '^(site/_directory|site/_data|site/_events|site/assets/images/portraits|site/assets/images/thumbs|site/assets/images/bubbles/daily|site/assets/images/expositions)/' || true)"
+          unexpected_files="$(printf '%s\n' "$changed_files" | grep -Ev '^(site/_directory|site/_data|site/_events|site/assets/images/portraits|site/assets/images/thumbs|site/assets/images/partner-thumbs|site/assets/images/bubbles/daily|site/assets/images/expositions)/' || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error title=Unexpected workflow diff::Refusing to push files outside the approved paths."
             echo "Refusing to push unexpected changed files:"
