@@ -17,14 +17,16 @@
   {% assign start_date_iso = start_date_text | slice: 0, 10 %}
   {% assign end_date = ev.end_date | default: ev.enddate %}
   {% assign domain = ev.url | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first %}
-  {% assign display_title = ev.title %}
-  {% if ev.og_title %}
-    {% assign og_title_clean = ev.og_title | replace: '
+  {% comment %}
+    The title written in the data file is the one shown. The open-graph title
+    is the fallback for a record without one; it used to win, cut at the
+    first " - " to drop a site name, which also cut "Artist@IMV - Listening
+    to dead electronics" down to "Artist@IMV" (26 September 2026).
+  {% endcomment %}
+  {% assign display_title = ev.title | default: '' | strip %}
+  {% if display_title == '' and ev.og_title %}
+    {% assign display_title = ev.og_title | replace: '
 ', ' ' | strip %}
-    {% assign display_title = og_title_clean | split: ' - ' | first | strip %}
-    {% if display_title == '' %}
-      {% assign display_title = ev.title %}
-    {% endif %}
   {% endif %}
   {% assign display_desc = ev.og_description | default: ev.description %}
 
