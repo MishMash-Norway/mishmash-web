@@ -459,6 +459,18 @@ automation:
     - site/_data/mishmash_results.yml
     - many synced fields in site/_directory/people/
     - portraits downloaded by the NVA enrichment script
+    - site/assets/images/partner-thumbs/ and the thumb, thumb_source and
+      thumb_fetched fields on partner news and events (build_partner_thumbnails.py)
+  partner_records:
+    rule: >-
+      After adding a partner event or news record by hand, run
+      python3 scripts/fetch_partner_og_data.py (open-graph title, description
+      and picture address), then python3 scripts/build_partner_thumbnails.py,
+      which copies the picture once as a small WebP served from this site and
+      records its source on the entry. The listings show that copy; a picture
+      that could not be copied falls back to the partner's address. Never
+      hotlink a full-size partner picture on purpose, and never write the
+      thumb fields by hand.
   credentials:
     location: config/
     rule: Never commit credential files or secrets.
