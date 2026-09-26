@@ -5,3 +5,4 @@ Pillow
 openpyxl
 qrcode
 fonttools[woff]
+pillow-avif-plugin

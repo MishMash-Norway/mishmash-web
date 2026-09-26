@@ -40,6 +40,14 @@ import requests
 import yaml
 from PIL import Image, ImageOps
 
+# Partners increasingly serve AVIF, which Pillow reads only through this
+# plugin (in scripts/requirements.txt). Without it those pictures are skipped
+# and the listing falls back to the partner's address for them.
+try:
+    import pillow_avif  # noqa: F401
+except ImportError:
+    print("pillow-avif-plugin is not installed; AVIF pictures will be skipped", file=sys.stderr)
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from repo_paths import SITE_ROOT
 

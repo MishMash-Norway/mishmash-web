@@ -470,7 +470,12 @@ automation:
       records its source on the entry. The listings show that copy; a picture
       that could not be copied falls back to the partner's address. Never
       hotlink a full-size partner picture on purpose, and never write the
-      thumb fields by hand.
+      thumb fields by hand. Pictures served as AVIF need pillow-avif-plugin,
+      which is in scripts/requirements.txt; on a laptop the system Python
+      refuses new packages, so make a virtual environment once
+      (python3 -m venv --system-site-packages .venv, then
+      .venv/bin/pip install -r scripts/requirements.txt) and run the script
+      with .venv/bin/python.
   credentials:
     location: config/
     rule: Never commit credential files or secrets.
