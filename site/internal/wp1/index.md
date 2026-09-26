@@ -17,16 +17,21 @@ This page is for WP1 members only.
 ## Events
 
 ### Autumn 2026
-1-hour online meetings, Fridays 1000-1100, tentative dates:
-- 25.09
-- 13.11
-- (16.10)
-- 11.12
+
+#### Morning coffee: every second Thursday 0830-0900 (zoom), starting from 24.09 (odd-numbered weeks)
+These short meetings are intended as an informal space for updates and for staying connected as a group. We encourage everyone to prioritize joining when possible.
+
+#### Webinar / Labinar: 1-hour online meetings, Fridays 1000-1100 (zoom)
+- 25.09 [Labinar #01: MishMash Playground with NMH and ANU](/events/wp1-labinar01/)
+- 13.11: TBA
+- 11.12: TBA
+
+#### Activities with physical presence
+- 14.09-15.09: MishMash opening conference and WP1 internal meeting 
+- 09.10-11.10: Hackathon at NTNU
+- 29.10-30.10: (un)trackable seminar at AHO with WP1 morning coffee physical edition
 
 
-## Action items
-
-*Track action items and deadlines here.*
 
 
 ## Contacts
