@@ -44,13 +44,13 @@ Freesound offers its own player as an iframe, which the site can include on any 
 
 {% include freesound.html id="863344" title="Opening Champagne bottle (SoundAction 365)" %}
 
-That player is Freesound's own. It used to load with the page, until a measurement showed what it brings with it: the player's page loads Google Fonts, so opening this page quietly contacted Google as well. It now waits for a press, like the video players elsewhere on the site.
+That player is Freesound's own. It waits for a press, like the video players elsewhere on the site, so that opening this page contacts nobody but this site.
 
 The piece above takes the other route entirely: the page holds only the address of the sound file, and the browser fetches that one file when a reader presses a button.
 
 ## Privacy
 
-Nothing reaches Freesound from this page until you press a button, and that includes the embedded player and the waveforms, which are drawn from numbers held here. Freesound then sees the request for the sound file, as any site serving a file does. Loading their player also loads Google Fonts, which is their choice rather than ours and another reason for the press.
+Nothing reaches Freesound from this page until you press a button, and that includes the embedded player and the waveforms, which are drawn from numbers held here. Freesound then sees the request for the sound file, as any site serving a file does; the player loads only from Freesound's own addresses.
 
 ## Licensing
 

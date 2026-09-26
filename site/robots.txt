@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /internal/
+Disallow: /no/internal/
 Disallow: /ui/
 Sitemap: https://mishmash.no/sitemap.xml

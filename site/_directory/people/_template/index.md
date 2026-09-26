@@ -27,7 +27,7 @@ urls:
   mastodon:
   instagram:
 aliases: []
-# Opt in to the member blogs page: the address of your blog's feed.
+# The address of your blog's feed. Its posts show on your profile page.
 feeds: []
 # Consent to appear in the directory. The membership form counts as consent for
 # name, role, affiliation, identifiers and the links the person gave (scope:
