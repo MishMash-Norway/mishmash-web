@@ -8,8 +8,10 @@
 # content in <div class="adaptive" data-for="<key>" markdown="1"> blocks.
 # See the wiki page "Adaptive Content" for the authoring guide.
 #
-# `default` is shown to first-time visitors and when JavaScript is off.
-default: standard
+# `default` is shown to first-time visitors and when JavaScript is off. It is
+# the advanced level, because that is the source text every page was
+# written as; the simpler levels are made from it (changed 26 September 2026).
+default: advanced
 
 groups:
   - key: simple
