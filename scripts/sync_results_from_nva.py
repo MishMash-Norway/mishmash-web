@@ -50,7 +50,7 @@ PAGE_SIZE = 100
 def nva_publication_page_url(hit: dict) -> str:
     identifier = (hit.get("identifier") or "").strip()
     if identifier:
-        return f"https://nva.sikt.no/publication/{identifier}"
+        return f"https://nva.sikt.no/registration/{identifier}"
 
     resource_id = (hit.get("id") or "").strip()
     if "/publication/" in resource_id:
