@@ -2,7 +2,7 @@
 
 This repository is the [MishMash](https://mishmash.no) website: a Jekyll site published on GitHub Pages, with Python scripts for syncing directory and research data from NVA and ORCID.
 
-**Layout:** the published site is built from [`site/`](site/). Tooling, config, and docs live at the repo root. Public URLs are unchanged.
+Layout: the published site is built from [`site/`](site/). Tooling, config, and docs live at the repo root. The brief for agents and automated tools is [`CONTENT_HANDOVER.yml`](CONTENT_HANDOVER.yml).
 
 For day-to-day editing, see also the [README](README.md) and [scripts/README.md](scripts/README.md). Maintenance notes live in the [GitHub Wiki](https://github.com/MishMash-Norway/mishmash-web/wiki).
 
@@ -64,7 +64,11 @@ NVA credentials: see [config/README.md](config/README.md). **Never commit creden
 | `site/_data/wikidata_institutions.yml`, `urls.ror` | `scripts/sync_wikidata.py` (daily CI) |
 | `site/nn-auto/`, `site/_data/translations_nn.yml` | `scripts/build_nynorsk.py` (every build; ignored by git) |
 | `site/data/*.json`, `*.csv` | `scripts/build_open_data.py` (every deploy; ignored by git) |
-| `site/assets/images/thumbs/`, `*.avif` | `scripts/build_thumbnails.py`, `scripts/build_avif.py` (ignored by git) |
+| `site/assets/images/thumbs/`, `site/assets/images/partner-thumbs/` | `scripts/build_thumbnails.py`, `scripts/build_partner_thumbnails.py` (daily CI, committed) |
+| `*.avif` under `news`, `events` and `illustrations` | `scripts/build_avif.py` (every deploy; ignored by git) |
+| `site/_data/results_openalex.yml`, `research_catalogue.yml`, `member_posts.yml` | `scripts/enrich_results_from_openalex.py`, `sync_research_catalogue.py`, `fetch_member_feeds.py` (daily CI) |
+| `site/_data/page_git_meta.yml`, `ai_colophon.yml` | `scripts/generate_page_git_meta.py`, `generate_ai_colophon_stats.py` (every deploy) |
+| `site/assets/images/bubbles/daily/` | `scripts/generate_daily_bubbles.py` (daily CI) |
 | `site/_data/language_share.yml`, `nynorsk_status.yml` | `scripts/measure_languages.py`, `build_nynorsk.py` (ignored by git) |
 
 ### Person profiles: what you can edit
@@ -90,9 +94,9 @@ To add a person: copy `site/_directory/people/_template/`, set `slug`, `name`, a
 
 ### Tags
 
-Tags appear on person pages, events, and the [people network](https://mishmash.no/people/network/). The conventions (decided in [#13](https://github.com/MishMash-Norway/mishmash-web/issues/13)):
+Tags appear on person pages, events, and the [people network](https://mishmash.no/lab/people-network/). The conventions:
 
-- **Form:** short, human-readable phrases in sentence case — `Music technology`, not `music-technology` or `MUSIC TECH`. Capitals only for proper nouns and established acronyms (`AI`, `3D`). No abbreviations otherwise.
+- **Form:** short, human-readable phrases in title case, `Music Technology`, not `music-technology` or `MUSIC TECH`; connector words such as `and`, `of` and `to` stay lower case inside a tag. Acronyms keep their casing (`AI`, `3D`). No abbreviations otherwise. The nightly merge applies this casing, so a tag written otherwise is rewritten.
 - **Count:** 2–6 tags per entry. `validate_directory.py` warns above 6.
 - **Reuse before inventing:** check whether an existing tag fits before adding a new spelling; the network view only connects people whose tags match.
 - **Source of truth for people:** profiles with `urls.nva` get tags from NVA on the nightly sync — lasting fixes belong in NVA or in the merge map, not in the profile file.
@@ -103,12 +107,17 @@ Tags appear on person pages, events, and the [people network](https://mishmash.n
 English pages live at the site root (`/about/`, `/results/`, …). Norwegian mirrors use `/no/…`.
 
 - Set `lang: nb` in Norwegian page front matter.
-- Link EN ↔ NO with `translation_url` (see `site/about/description/index.md`).
+- Link the English and Bokmål pages with `translation_url` (see `site/about/description/index.md`).
+- Nynorsk is generated from the Bokmål pages by `scripts/build_nynorsk.py` into `site/nn-auto/` at build time; a reviewed page at `site/nn/<path>` takes precedence. Terms live in `site/_data/glossary.yml` (en, nb, nn; exported as `/data/terminology.json`), abbreviations in `site/_data/abbreviations.yml`, and the generator's word list in `site/_data/nynorsk_glossary.yml`.
 - Shared labels use `site/_data/translations.yml` via `t.*` in layouts.
 
 Prefer absolute asset paths (`/assets/...`) in shared includes so both languages work.
 
-Colours and fonts come from the `--mm-*` custom properties in `site/assets/css/brand.css`; do not hard-code hex values, and never reintroduce the superseded purple/green palette (`#A7A1F4`, `#C1F7AE`, `#363644`). Fonts are self-hosted; do not add a remote font service. See [BRAND.md](BRAND.md).
+Colours and fonts come from the `--mm-*` custom properties in `site/assets/css/brand.css`; do not hard-code hex values, and do not use `#A7A1F4`, `#C1F7AE` or `#363644`; they are not part of the identity. Fonts are self-hosted; do not add a remote font service. See [BRAND.md](BRAND.md).
+
+## Reading levels and breadcrumbs
+
+A page with `adaptive: true` carries its text at three reading levels in `div.adaptive` blocks (`data-for="simple|standard|advanced"`); the default level is `advanced`, set in `site/_data/audiences.yml`, and `python3 scripts/check_readability.py --strict` checks the levels. Every page opens with a breadcrumb trail from `site/_includes/breadcrumbs.html`; `breadcrumbs: false` in the front matter switches it off.
 
 ## Common tasks
 
@@ -160,10 +169,24 @@ npx --yes wait-on@7 http://127.0.0.1:4000/
 npx --yes pa11y-ci@4 --config .pa11yci.json
 ```
 
-Directory sanity check:
+Directory sanity check and the prose checks CI blocks on:
 
 ```bash
 python3 scripts/validate_directory.py
+python3 scripts/check_dashes.py
+python3 scripts/check_liquid_conditions.py
+python3 scripts/check_terminology.py
+python3 scripts/check_event_alt.py
+python3 scripts/image_provenance.py --check
+python3 scripts/build_nynorsk.py --check-glossary
+```
+
+The states a page scan cannot reach, after serving `_site` as above:
+
+```bash
+npx playwright test -c tests/visual/playwright.config.js tests/visual/menus.spec.js
+npx playwright test -c tests/visual/playwright.config.js tests/visual/abbreviations.spec.js
+node scripts/check_contrast.mjs
 ```
 
 ## Pull request and deploy flow
@@ -171,15 +194,15 @@ python3 scripts/validate_directory.py
 1. Branch from `main`.
 2. Commit changes (only commit generated NVA data if you ran sync intentionally).
 3. Open a pull request.
-4. Wait for [**Web Quality Checks**](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml) (build, links, HTML validation, Pa11y).
+4. Wait for [Web Quality Checks](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml): directory validation with the prose and script checks, the build, links, HTML validation, Pa11y, the menu and contrast tests and the Ask MishMash retrieval score block; external links, Lighthouse, visual regression and the student themes report without blocking.
 5. Merge to `main`.
 6. [**Deploy Jekyll site to Pages**](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/pages.yml) publishes to mishmash.no.
 
-A separate scheduled workflow updates people and `site/_data/mishmash_results.yml` from NVA and may push directly to `main` (`.github/workflows/enrich-directory-people.yml`).
+A separate scheduled workflow (`.github/workflows/enrich-directory-people.yml`) refreshes people and results from NVA and ORCID, adds open-access status, expositions and members' posts, resolves Wikidata, repairs cross-links, merges tags, regenerates the daily bubbles, marks provenance, builds the thumbnails, validates, and may push directly to `main`.
 
 ## Secrets and files to never commit
 
-- `config/nva-credentials*.json` (except `*.example.json`)
+- `config/nva-credentials*.json` (except `*.example.json`) and `config/nettskjema-credentials.json`
 - `venv/`, `vendor/`, `_site/`
 - Passwords or API keys in source files
 
@@ -190,3 +213,9 @@ GitHub Actions uses repository secrets `NVA_CLIENT_ID` and `NVA_CLIENT_SECRET` f
 - Site content questions: [contact@mishmash.no](mailto:contact@mishmash.no)
 - Repo maintenance: open an issue or ask in the MishMash web channel
 - NVA API access: [Sikt NVA documentation](https://sikt.no/tjenester/nasjonalt-vitenarkiv-nva/hjelpeside-nva/teknisk-dokumentasjon-nva)
+
+## How this document has developed
+
+- The site source moved into `site/`; public URLs did not change.
+- The tag conventions were decided in issue #13.
+- September 2026: the purple/green palette (`#A7A1F4`, `#C1F7AE`, `#363644`) was replaced by the 2026 identity.

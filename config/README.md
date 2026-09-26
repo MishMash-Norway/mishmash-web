@@ -16,10 +16,13 @@ Use `nva-credentials.example.json` as a template. The SMS password from Sikt is 
 Scripts pick credentials in this order:
 
 1. Environment variables `NVA_CLIENT_ID` and `NVA_CLIENT_SECRET`
-2. `config/nva-credentials.{prod|test}.json` (based on `NVA_API_ENV`, default `prod`)
-3. Override path with `NVA_CREDENTIALS_FILE=/path/to/file.json`
+2. The file named by `NVA_CREDENTIALS_FILE`
+3. `config/nva-credentials.{prod|test}.json` (based on `NVA_API_ENV`, default `prod`)
+4. `config/nva-credentials.json`, a fallback without an environment suffix
 
-GitHub Actions still uses repository secrets (`NVA_CLIENT_ID`, `NVA_CLIENT_SECRET`), not these files.
+The client these files describe holds the publication-read scope only: the scripts can read NVA but not write to it, so `scripts/nva_project_managers.py` can only show what it would change.
+
+GitHub Actions uses repository secrets (`NVA_CLIENT_ID`, `NVA_CLIENT_SECRET`), not these files.
 
 ## Nettskjema API (participation and directory forms)
 

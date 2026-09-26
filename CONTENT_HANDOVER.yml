@@ -156,7 +156,6 @@ repository:
     visual_identity: https://github.com/MishMash-Norway/mishmash-web/wiki/Visual-Identity-and-Theming
 
 visual_identity:
-  adopted: 2026-09-13
   guide: BRAND.md
   public_page: "/internal/brand/ (Norwegian: /no/internal/brand/)"
   tokens: site/assets/css/brand.css
@@ -164,12 +163,12 @@ visual_identity:
   logo_files: site/assets/images/logo/
   tagline_keys: translations.yml identity_tagline (en/nb)
   placeholder_image: >-
-    /assets/images/bubbles/mishmash_bubbles_notext.svg, the bubbles recoloured to the
-    2026 palette; still the default image for news and events without a photograph.
+    /assets/images/bubbles/mishmash_bubbles_notext.svg, the bubbles in the identity
+    palette; the default image for news and events without a photograph.
   rules:
-    - Use the --mm-* custom properties; never hard-code the superseded #A7A1F4, #C1F7AE or #363644.
-    - Text on the pastel surfaces (green, purple, blue, pink) is always ink (#231f20).
-    - Wordmark pairings are fixed: black on green, green on purple, yellow on blue, red on pink.
+    - Use the --mm-* custom properties; never hard-code #A7A1F4, #C1F7AE or #363644, which are not part of the identity.
+    - Text on the green, blue and pink surfaces is ink (#231f20). No text sits on the purple surface; purple text uses --mm-purple-text.
+    - Wordmark pairings are fixed: black on green, green on purple, yellow on blue, red on pink. Work packages use the blue band with news and events.
     - Fonts are self-hosted; never add Adobe Fonts, Google Fonts or another remote font service.
     - No gradients, drop shadows or rounded corners.
   theming:
@@ -300,7 +299,9 @@ content_types:
       - Use the partner article URL, not a new local page.
       - Prefer existing partner naming and language conventions.
       - Check for an existing record with the same URL before adding one.
-    automation: No dedicated partner-news fetcher was found; treat this file as hand-maintained data.
+    automation: >-
+      There is no partner-news fetcher; the file is hand-maintained.
+      build_partner_thumbnails.py copies the picture each record names.
 
   partner_event:
     source_file: site/_data/partner_events.yml
@@ -409,8 +410,7 @@ automation:
       a new fetcher or a new matcher, and do not edit profiles by hand to do
       what a script does. If a step below fails, fix the data it names (an
       institution, an alias, a category) and run the step again; every step
-      is safe to repeat. The whole procedure was last run on 25 September 2026
-      and took about twenty minutes.
+      is safe to repeat. The whole procedure takes about twenty minutes.
     steps:
       - "1. Dry run, which also downloads the newest export into temp/:
          python3 scripts/fetch_nettskjema_export.py --import
@@ -418,9 +418,9 @@ automation:
       - "2. For each 'unresolved institution' warning, either add the wording
          the person used to an existing institution's aliases, or create the
          institution from site/_directory/institutions/_template/ with name,
-         short_name, country, city and urls.website. Two are left unresolved
-         by decision: 'G T C. IBADAN', and any freelance person, who has no
-         institution to name."
+         short_name, country, city and urls.website. Two stay unresolved:
+         'G T C. IBADAN', and any freelance person, who has no institution
+         to name."
       - "3. A row submitted with a first name only: find the full name on the
          institution's staff page (the form has the email and the
          institutional web page) before writing, and rename the created
@@ -448,8 +448,8 @@ automation:
          owner's login, so hand those files to Alexander; nothing is sent."
     never:
       - Never import a row that did not answer Yes to the directory question;
-        the importer already skips them, and the rows from before the question
-        existed need a consent request, not an import.
+        the importer already skips them, and a row with no answer needs a
+        consent request, not an import.
       - Never overwrite a name, an NVA id or an ORCID on an existing entry
         from the form; the importer keeps them and says so in a warning.
       - Never add a compute_access local block without checking the
@@ -491,10 +491,11 @@ validation:
     - python3 scripts/validate_directory.py
   accessibility_if_touched:
     note: >-
-      An audit by the UiO web team on 24 September 2026 found six failures that
-      the page scan could not see, because each needs a state a reader has to
-      bring about. Run these when changing colours, a listing card, an event
-      picture or the header menus.
+      The page scan cannot see a failure that needs a state a reader brings
+      about: a focused link, an open menu, a drawn search result. Run these when
+      changing colours, a listing card, an event picture or the header menus.
+      The kiosk page is outside the scan on purpose; it is an experiment for
+      information screens.
     commands:
       - node scripts/check_contrast.mjs
       - python3 scripts/check_event_alt.py
@@ -520,8 +521,9 @@ validation:
         breadcrumbs to false in its front matter.
       - A page with reading levels wraps each prose section in
         div.adaptive blocks with data-for naming the level (simple, standard or
-        advanced) and sets adaptive to true. check_readability.py --strict fails
-        when a section covers some levels but not all. WP1 is the model.
+        advanced) and sets adaptive to true. The default level is advanced, set
+        in site/_data/audiences.yml. check_readability.py --strict fails when a
+        section covers some levels but not all. WP1 is the model.
     opening_ceremony_transcript: >-
       The text alternative to the opening ceremony recording (1.2.8) is built by
       scripts/build_opening_transcript.py from the caption files in the archive
@@ -534,8 +536,8 @@ validation:
       The main site is measured against AAA as a report only:
       node scripts/measure_aaa.mjs. A theme that declares wcag_target: AAA in
       its _config.yml is measured with --fail in the theme job and has to reach
-      it. The purple surface stays as it is on the main site by decision; test
-      it in a theme. Figures and open items are on issue #76.
+      it. The main site keeps the identity purple unchanged and puts no text on
+      it; try alternatives in a theme. Figures and open items are on issue #76.
 
   terminology_if_touched:
     - python3 scripts/check_terminology.py
@@ -550,7 +552,7 @@ validation:
   optional_accessibility:
     - python3 -m http.server 4000 --directory _site
     - npx --yes wait-on@7 http://127.0.0.1:4000/
-    - npx --yes pa11y-ci@3 --config .pa11yci.json
+    - npx --yes pa11y-ci@4 --config .pa11yci.json
   final_review:
     - Confirm the entry appears in the intended upcoming or past listing.
     - Confirm event dates, timezone, partner, speaker names, and external URLs.
@@ -578,10 +580,21 @@ build_and_ci:
     note: Mirrors the blocking jobs in .github/workflows/web-tests.yml, in order.
     steps:
       - python3 scripts/validate_directory.py
+      - python3 scripts/image_provenance.py --check
+      - python3 scripts/check_dashes.py
+      - python3 scripts/check_liquid_conditions.py
+      - python3 scripts/check_terminology.py
+      - python3 scripts/check_event_alt.py
       - 'for t in scripts/test_*.py; do [ "$t" = scripts/test_nva_api_auth.py ] && continue; python3 "$t" || break; done'
+      - python3 scripts/build_nynorsk.py --check-glossary
+      - python3 scripts/measure_languages.py && python3 scripts/build_open_data.py && python3 scripts/build_avif.py
       - bundle exec jekyll build --trace
       - bundle exec htmlproofer ./_site --disable-external --no-enforce-https
       - html5validator --root _site --log WARNING
+      - 'python3 -m http.server 4000 --directory _site & npx --yes wait-on@7 http://127.0.0.1:4000/ && npx --yes pa11y-ci@4 --config .pa11yci.json'
+      - npx playwright test -c tests/visual/playwright.config.js tests/visual/menus.spec.js tests/visual/abbreviations.spec.js
+      - node scripts/check_contrast.mjs
+      - python3 scripts/build_knowledge_base.py && node scripts/eval_chat_retrieval.mjs --min 0.9
     expected_success_signals:
       - 'validate_directory prints "OK: all checks passed." (warnings about tag counts are informational)'
       - 'jekyll prints "done in N seconds"'
@@ -591,11 +604,17 @@ build_and_ci:
   github_workflows:
     pages: .github/workflows/pages.yml builds and deploys the site on every push to main.
     web_tests: >-
-      .github/workflows/web-tests.yml runs directory validation, script unit tests,
-      the build, htmlproofer, the Nu HTML validator, and non-blocking audits.
+      .github/workflows/web-tests.yml runs, blocking: directory validation with the
+      provenance, dash, Liquid, terminology and event-picture checks and the script
+      unit tests; the build with the Nynorsk glossary check; htmlproofer; the Nu HTML
+      validator; Pa11y; the menu, abbreviation and contrast tests; and the Ask MishMash
+      retrieval score. Non-blocking: external links, Lighthouse, visual regression and
+      the student themes. main has no required checks, so a red cross is the signal.
     enrich: >-
-      .github/workflows/enrich-directory-people.yml runs daily, syncs people and results
-      from NVA and ORCID, and pushes directly to main.
+      .github/workflows/enrich-directory-people.yml runs daily: people and results from
+      NVA and ORCID, open-access status, Research Catalogue expositions, member feeds,
+      Wikidata, reciprocity, tag merging, the daily bubbles, provenance markers, the
+      listing and partner thumbnails, validation, and a push directly to main.
     inspect:
       list_runs: gh run list --workflow <workflow-file> --limit 5
       failed_log: gh run view <run-id> --log-failed | tail -80
@@ -605,13 +624,11 @@ build_and_ci:
     enrich_push_guard:
       symptom: 'Enrich job fails at "Commit and push updates" with "Refusing to push files outside the approved paths."'
       cause: >-
-        The guard only allows changes under site/_directory, site/_data, site/_events,
-        site/assets/images/portraits, and site/assets/images/bubbles/daily. Anything
-        else the scripts touch, or a path git prints in quotes, is rejected.
-      history: >-
-        On 2026-09-08 a portrait named with the HiØF short name was rejected because git
-        quotes non-ASCII paths; fixed in commit 781f039f by disabling core.quotePath in
-        the guard. Paths containing spaces are still quoted and still rejected by design.
+        The guard only allows changes under site/_directory, site/_data, site/_events
+        and the portraits, thumbs, partner-thumbs, bubbles/daily and expositions image
+        folders, and the commit stages the same paths. Anything else the scripts touch
+        is rejected. The guard reads paths with core.quotePath disabled, so non-ASCII
+        names pass; a path containing spaces is quoted and rejected by design.
       fix: Make the scripts write only under the approved paths, or extend the allowlist in the workflow deliberately.
     nu_html_validator:
       symptom: 'The "Validate HTML" job fails while the local build and htmlproofer pass.'
@@ -644,3 +661,10 @@ agent_workflow:
   - If a check or workflow fails, follow build_and_ci before changing anything else.
   - Mirror every content edit into the other language, and read the generated Nynorsk page.
   - Report source files changed, automation side effects, and checks run.
+
+history:
+  - 2026-09-08: a portrait with a non-ASCII name was rejected by the push guard; fixed in commit 781f039f by disabling core.quotePath in the guard.
+  - 2026-09-13: the 2026 visual identity was adopted on the site; the bubble placeholder was recoloured to its palette.
+  - 2026-09-24: an audit by the UiO web team found six failures the page scan could not see; the commands under validation.accessibility_if_touched were added.
+  - 2026-09-25: the people import from the form was run end to end, in about twenty minutes; the work packages moved from the purple band to the blue band; the Zenodo sync was removed and the results page reads NVA only.
+  - 2026-09-26: the default reading level became advanced; partner pictures are copied to this site; the menu, abbreviation and contrast tests became a blocking job of their own.

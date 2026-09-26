@@ -10,7 +10,7 @@ pip install -r scripts/requirements.txt
 
 Paths default to `site/` (see `scripts/repo_paths.py`). The wiki page
 [Scripts and Automation](https://github.com/MishMash-Norway/mishmash-web/wiki/Scripts-and-Automation)
-lists every script in one line each; this file holds the detail. Tests live
+lists every script in one line each; this file holds the detail of the ones that need it. Tests live
 next to the scripts as `test_*.py` and run in the Web Quality Checks workflow.
 
 Update directory people from NVA and ORCID
@@ -32,7 +32,7 @@ overwrite NVA fields and flip back the next day), and an expired access
 token (they live 15 minutes; a full run takes longer) is refreshed and the
 request retried instead of failing.
 
-A GitHub Actions workflow runs this once per day (`.github/workflows/enrich-directory-people.yml`), including a sync of MishMash project results to `site/_data/mishmash_results.yml` for `/results/`.
+A GitHub Actions workflow runs this once per day (`.github/workflows/enrich-directory-people.yml`), followed by the results sync to `site/_data/mishmash_results.yml` for `/results/` (`sync_results_from_nva.py`; the results page reads NVA only, project 2744839), the open-access lookup, the Research Catalogue and member-feed fetches, Wikidata, reciprocity, tag merging, the daily bubbles, provenance markers and the thumbnails, in that order.
 
 ### NVA API access (UiO / MishMash)
 
@@ -191,8 +191,7 @@ MishMash forms and auto-detects which one it has:
   directory?`, `Institution/Organisation`, `Unit`, `Current position`, the
   `Work Package(s) you are interested in joining.WP…` columns and two keyword
   columns). Only rows answering **Yes** to the directory question are
-  imported; rows without an answer (the question was added in June 2026) or
-  answering No are skipped. The `Which WP(s) does it connect to?` columns
+  imported; rows without an answer or answering No are skipped. The `Which WP(s) does it connect to?` columns
   describe project ideas and are ignored.
 - **Directory update form** (columns `Work package(s).WP1`…`WP7`, `Tags`,
   URL columns). Every row is applied.
@@ -201,8 +200,8 @@ What it writes:
 
 - New people are created from `people/_template/index.md` and published
   straight away (they consented on the form), with name, URLs, work packages,
-  position, department, tags (max 12, from the keyword columns) and — when the
-  institution name resolves — `institution`/`institutions`. Run the NVA/ORCID
+  position, department, tags (at most 6, from the keyword columns) and, when the
+  institution name resolves, `institution`/`institutions`. Run the NVA/ORCID
   enrichment for the new slugs afterwards.
 - Existing people (matched by slug, or by `aliases` on the entry) get URLs
   filled in, `wps` merged, and empty `position`/`department`/`institution`/
@@ -318,7 +317,7 @@ Useful flags:
 Tag clustering
 --------------
 
-The `/search/` and `/people/network/` pages support two cluster sources:
+The `/search/` and `/lab/people-network/` pages support two cluster sources:
 
 - `source: runtime` in [site/_data/tag_clustering.yml](site/_data/tag_clustering.yml) uses the current in-browser clustering.
 - `source: offline` loads precomputed groups from [site/assets/data/tag-clusters.json](site/assets/data/tag-clusters.json).
@@ -358,3 +357,81 @@ python3 scripts/sync_wikidata.py --skip-facts   # only resolve QIDs
 ```
 
 The directory validator warns about malformed `urls.wikidata` values.
+
+Nynorsk, terminology and abbreviations
+--------------------------------------
+
+`build_nynorsk.py` generates the Nynorsk mirror of every Bokmål page into
+`site/nn-auto/` (git-ignored) with Apertium, a local install if present and
+otherwise the public service, with a cache. `site/_data/nynorsk_glossary.yml`
+carries the word-level corrections; a rule that no page uses any more goes on
+its `expected_unused` list, and `--check-glossary` fails on an idle rule that is
+not listed there, as the build job in CI runs it. A reviewed page at
+`site/nn/<path>` takes precedence over the generated one. `--status` writes
+`site/_data/nynorsk_status.yml`.
+
+`check_terminology.py` holds `site/_data/glossary.yml` to a term in English,
+Bokmål and Nynorsk and a standard text in English and Bokmål; `build_open_data.py`
+exports the record as `/data/terminology.json` and `.csv`. Abbreviations and
+their expansions in the three languages are in `site/_data/abbreviations.yml`,
+which the page-about panel and `site/assets/js/abbreviations.js` read.
+
+Accessibility measurements
+--------------------------
+
+`check_event_alt.py` requires `image_alt` on every event whose picture shows a
+person, and checks the name against the directory and the page text.
+`check_contrast.mjs` (Node, Playwright) opens the states a page scan cannot
+reach, the focused skip link, an open menu, a search result, and measures the
+colours painted (`--level AA` or `AAA`, `--base <url>`). `measure_aaa.mjs`
+reports contrast at 7:1, targets under 44 pixels and lines over 80 characters
+(`--prefix /ui/<theme>`, `--fail`); CI runs it as a report for the main site and
+with `--fail` for a theme whose `_config.yml` declares `wcag_target: AAA`. All
+of these run against a served `_site` at `http://127.0.0.1:4000`.
+
+Partner pictures
+----------------
+
+`build_partner_thumbnails.py` copies the picture named in `og_image` of every
+record in `partner_events.yml` and `partner_news.yml` once, as a 240 px square
+WebP in `site/assets/images/partner-thumbs/`, and records `thumb`,
+`thumb_source` and `thumb_fetched` on the entry; `--force` fetches everything
+again. Partners increasingly serve AVIF, which Pillow reads only with
+`pillow-avif-plugin` from `requirements.txt`. The nightly workflow runs it after
+`build_thumbnails.py` and commits the copies.
+
+The opening ceremony transcript
+-------------------------------
+
+`build_opening_transcript.py` builds the text alternative to the opening
+ceremony recording from the caption files in the archive folder of the
+recording, one part per programme item in the language it was spoken in, into
+`site/events/aulaen2026-transcript/` and the `site/no/` mirror, both with
+`published: false`. Publishing is a decision for a person who has read the text
+against the recording.
+
+The NVA project record
+----------------------
+
+`nva_project_managers.py` compares the work package leaders with the
+contributors of the MishMash project in NVA and writes the payload that would
+make them local managers to `temp/`; `--write` sends it. The site's NVA client
+holds only the publication-read scope, so the update is refused, and the change
+is made in the NVA interface by the project manager. The dry run remains useful
+to check the result.
+
+Other scripts that run in CI
+----------------------------
+
+`build_open_data.py` (the JSON and CSV at `/data/`), `measure_languages.py` (the
+language share), `build_knowledge_base.py` (the Ask MishMash passages),
+`enrich_results_from_openalex.py`, `sync_research_catalogue.py`,
+`fetch_member_feeds.py`, `generate_daily_bubbles.py`, `image_provenance.py`,
+`build_thumbnails.py`, `build_avif.py` and `subset_fonts.py` each carry a
+docstring that says what they write; the wiki page Scripts and Automation lists
+them with the workflow step that runs each.
+
+## How this document has developed
+
+- June 2026: the directory consent question was added to the participation form; earlier rows have no answer.
+- 26 September 2026: the sections below were added for the scripts of September 2026, and the nightly list caught up with the workflow.

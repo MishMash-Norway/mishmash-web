@@ -1,11 +1,11 @@
-# MishMash visual identity — guide for developers and automated tools
+# MishMash visual identity: guide for developers and automated tools
 
 This is the reference for anyone (person or agent) styling something for
 MishMash: the website, a slide deck, a poster, a generated image. It records
-the identity delivered by the design agency in August 2026 and adopted on
-mishmash.no in September 2026. The public version of this page is
-<https://mishmash.no/internal/brand/>. The look the site had before is kept as
-the `bubbles` UI theme (`themes/bubbles/`, <https://mishmash.no/ui/bubbles/>).
+the identity designed by the design agency and used on mishmash.no. The
+public version of this page is <https://mishmash.no/internal/brand/>. The
+`bubbles` UI theme (`themes/bubbles/`, <https://mishmash.no/ui/bubbles/>) is
+an alternative look.
 
 Machine-readable tokens: `site/assets/css/brand.css`. Use the custom
 properties from that file instead of hard-coding values. The styling built
@@ -38,21 +38,31 @@ needed to display the mark.
 | Token | Hex | Role |
 | --- | --- | --- |
 | `--mm-green` | `#b3e297` | Surface. Default for the front page and general pages |
-| `--mm-purple` | `#9a90cf` | Surface. Work packages |
-| `--mm-blue` | `#a5cbed` | Surface. News and events |
+| `--mm-purple` | `#9a90cf` | Surface for decoration only: the wordmark, artwork, the event badge's rule. No section and no text |
+| `--mm-blue` | `#a5cbed` | Surface. News, events and work packages |
 | `--mm-pink` | `#efadb2` | Surface. Directory: people, institutions, projects, results |
 | `--mm-ink` | `#231f20` | Text, the wordmark on green, rules, outlines |
 | `--mm-yellow` | `#d1e422` | Accent. The wordmark on blue; small highlights |
 | `--mm-red` | `#ee5648` | Accent. The wordmark on pink; small highlights |
 | `--mm-white` | `#ffffff` | Page background; the wordmark on dark photos |
+| `--mm-purple-text`, `--mm-purple-dark` | `#594aab` | The purple for text on white, and the purple surface that carries white text; 7.02:1 either way |
+| `--mm-on-green`, `--mm-on-purple`, `--mm-on-blue`, `--mm-on-pink` | | The wordmark colour paired with each surface |
+| `--mm-rule` | | Hairlines |
+| `--mm-display-weight`, `--mm-display-leading`, `--mm-display-tracking` | | The display face's settings |
 
-Pairings are fixed. The wordmark is **black on green, green on purple, yellow
-on blue, red on pink**, and black or white on anything else. Never green on
+Pairings are fixed. The wordmark is black on green, green on purple, yellow
+on blue, red on pink, and black or white on anything else. Never green on
 blue, purple on pink, and so on.
 
-Text on any surface colour is ink. The pastels do not have enough contrast to
-carry text on white, so never use them as a text colour; use them as
-backgrounds, underlines or highlights behind ink text. Light tints for cards
+Text on any surface colour is ink. Ink reaches 11.05:1 on green, 9.60:1 on
+blue and 8.76:1 on pink; on the purple it reaches 5.64:1 and white 2.89:1,
+so no text sits on the purple. The pastels do not have enough contrast to
+carry text on white, so never use them as a text colour; text that has to be
+purple uses `--mm-purple-text`. Use the pastels as backgrounds, underlines or
+highlights behind ink text. Text is held to 4.5:1 against whatever is painted
+behind it (3:1 when large), measured in the states a page scan cannot reach by
+`scripts/check_contrast.mjs`; `scripts/measure_aaa.mjs` reports the distance
+to 7:1. Light tints for cards
 and callouts (about 15 % colour on white) are in `brand.css` as
 `--mm-*-tint`.
 
@@ -60,11 +70,10 @@ Greys are derived from ink: `--mm-ink-70` for secondary text, `--mm-ink-40`
 for placeholders, `--mm-ink-15` for hairlines, `--mm-ink-5` for code and
 input backgrounds.
 
-The old website palette (`#A7A1F4` purple, `#C1F7AE` green, `#363644` dark)
-is superseded; if you meet those values in new material, replace them with
-the tokens above. The bubble illustrations continue to exist for news and
-event thumbnails and as placeholder portraits, recoloured to this palette
-(`site/assets/images/bubbles/`).
+`#A7A1F4`, `#C1F7AE` and `#363644` are not part of the identity; replace
+them with the tokens above wherever they turn up. The bubble illustrations in
+`site/assets/images/bubbles/` use this palette and serve as news and event
+thumbnails and as placeholder portraits.
 
 ## Type
 
@@ -109,8 +118,7 @@ running it; do not hand-draw one-offs.
 | Section | Surface | Wordmark colour |
 | --- | --- | --- |
 | Front page, about, FAQ, search, everything else | green | ink |
-| `/wp1/` … `/wp7/` | purple | green |
-| `/news/`, `/events/` | blue | yellow |
+| `/news/`, `/events/`, `/wp1/` … `/wp7/` | blue | yellow |
 | `/people/`, `/institutions/`, `/projects/`, `/results/` | pink | red |
 
 The section is chosen in `site/_layouts/default.html` and set as a
@@ -128,4 +136,10 @@ and Creativity" / "MishMash senter for KI og kreativitet".
 2. Wordmark in the paired colour, unaltered, with clear space.
 3. Headings in the display face, body in Inter; fonts self-hosted.
 4. No gradients, shadows or rounded corners.
-5. Both languages, if it is a web page.
+5. All three languages, if it is a web page; a new abbreviation or glossary entry carries its English, Bokmål and Nynorsk form.
+
+## How this document has developed
+
+- August 2026: the agency delivered the identity.
+- 13 September 2026: mishmash.no adopted it; the earlier bubbles look became the `bubbles` theme, and the bubble illustrations were recoloured from the old palette (`#A7A1F4`, `#C1F7AE`, `#363644`).
+- 25 September 2026: the work packages moved from the purple surface to the blue one, since ink on the purple falls short of 7:1; the purple carries no text since.

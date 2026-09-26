@@ -38,7 +38,9 @@ Install Ruby and run the checks before pushing: [Running the Site Locally][local
 | `site/` | All published content: pages, collections (`_directory`, `_news`, `_events`), layouts, CSS and JS |
 | `themes/` | Student UI themes ([guide](themes/README.md)), published at `/ui/<name>/` |
 | `scripts/` | Python and Node automation ([overview](scripts/README.md)) and the `ui` theme switcher |
-| `tests/visual/` | Playwright screenshots of the main look and the themes, with their baselines |
+| `tests/visual/` | Playwright specs: screenshots of the main look and the themes with their baselines, and the behaviour of the header menus and the abbreviation toggles (`npm run visual`, `visual:themes`, `visual:update`) |
+| `tests/chat/` | The question set the Ask MishMash retrieval is scored against |
+| `CONTENT_HANDOVER.yml` | The brief for agents and automated tools: what may be edited, the rules, the runbooks |
 | `config/` | Local credentials (never committed) and the tag merge map ([readme](config/README.md)) |
 | `BRAND.md` | The visual identity: wordmark, colours, type, and the rules for using them |
 
@@ -52,7 +54,7 @@ If you want to change something, create a branch and open a pull request so the 
 
 ## Look and feel
 
-The visual identity (wordmark, colours, type) is documented in [BRAND.md](BRAND.md) and shown at [mishmash.no/internal/brand/](https://mishmash.no/internal/brand/); stylesheets use the tokens in `site/assets/css/brand.css`. The look can be swapped: any theme in `themes/` can be promoted to become the main site with `./scripts/ui promote <name>`, and the outgoing look is kept as a theme. The pre-2026 look is the `bubbles` theme at [mishmash.no/ui/bubbles/](https://mishmash.no/ui/bubbles/). Details: [Visual Identity and Theming][brand] and [themes/README.md](themes/README.md).
+The visual identity (wordmark, colours, type) is documented in [BRAND.md](BRAND.md) and shown at [mishmash.no/internal/brand/](https://mishmash.no/internal/brand/); stylesheets use the tokens in `site/assets/css/brand.css`. The look can be swapped: any theme in `themes/` can be promoted to become the main site with `./scripts/ui promote <name>`, and the outgoing look is kept as a theme. The `bubbles` theme at [mishmash.no/ui/bubbles/](https://mishmash.no/ui/bubbles/) keeps the earlier bubbles look as an alternative. Details: [Visual Identity and Theming][brand] and [themes/README.md](themes/README.md).
 
 ## Licences
 
@@ -78,3 +80,7 @@ If you have questions or comments about the code, please use the [issues tracker
 [why]: https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy
 [students]: https://github.com/MishMash-Norway/mishmash-web/wiki/Student-Development
 [brand]: https://github.com/MishMash-Norway/mishmash-web/wiki/Visual-Identity-and-Theming
+
+## How this document has developed
+
+- Until 13 September 2026 the main site used the bubbles look, kept since as the `bubbles` theme.

@@ -10,8 +10,8 @@ redesign of every layout.
 
 Nothing in this folder affects the regular website, whose production builds
 only use `site/` — until a theme is *promoted* to become the main look (see
-[Swapping the main look](#swapping-the-main-look) below). The look the site
-had before the 2026 visual identity is kept here as the `bubbles` theme. Themes are built and viewed locally with the switcher
+[Swapping the main look](#swapping-the-main-look) below). The `bubbles` theme
+holds the earlier bubbles look. Themes are built and viewed locally with the switcher
 script — and every theme is also published automatically as a **live preview**
 at `https://mishmash.no/ui/<name>/`, listed in the gallery at
 [mishmash.no/ui/](https://mishmash.no/ui/). To appear in the gallery with a
@@ -69,7 +69,7 @@ configuration, so you can override config values if you need to).
 | Path in your theme | What it controls |
 | --- | --- |
 | `_layouts/default.html` | The outer frame of every page: `<head>`, header, navigation, footer. **Start here.** |
-| `_layouts/page.html`, `person.html`, `event.html`, `meeting.html`, `internal.html` | Page-type specific templates (all wrap into `default`). |
+| `_layouts/page.html`, `person.html`, `event.html`, `meeting.html`, `internal.html`, `lab.html` | Page-type specific templates (all wrap into `default`). |
 | `_includes/*.html` | Reusable fragments (news/event lists, result cards, language switcher, …). |
 | `assets/css/custom.css` | The site's main custom stylesheet — override it to replace the current styling. |
 | `assets/css/style.scss` | The base Cayman theme CSS. Create this file with empty front matter (`---`/`---`) to take over completely, or `@import "jekyll-theme-cayman";` and add overrides. |
@@ -83,11 +83,20 @@ some rules (notably the header colours and link colours) with `!important`. If y
 stylesheet on top instead of replacing `custom.css`, you need `!important` on
 those properties to win — see the bundled themes for examples.
 
+## What CI does with a theme
+
+The job named Student themes (non-blocking) in `.github/workflows/web-tests.yml`
+builds every theme, scans each front and about page with pa11y-ci against
+`.pa11yci.themes.json`, compares the front pages with the baselines
+(`npm run visual:themes`, refreshed with `npm run visual:themes:update`), and
+measures a theme whose `_config.yml` declares `wcag_target: AAA` with
+`scripts/measure_aaa.mjs --fail`, so a theme that claims AAA has to reach it.
+
 ## The content you can build on
 
 All content is available to your Liquid templates exactly as on the real site:
 
-- `site.directory` — people, institutions and projects (117 people profiles)
+- `site.directory` — people, institutions and projects (count them with `ls -p site/_directory/people | grep / | grep -vc _template`)
 - `site.news`, `site.events` — news posts and events
 - `site.data.mishmash_results` — publications synced from NVA
 - `site.data.translations` — English/Norwegian UI strings (pages set `page.lang`)
@@ -127,12 +136,14 @@ check the result, and commit `site/`, `themes/` and `_config.yml` together.
 
 Files a theme adds that `site/` never had are copied in but are not part of the
 snapshot, since there is nothing to save. Promotion copies files; it does not
-edit content or recolour images. The switch of 2026-09-13 from the bubbles look
-to the 2026 identity also recoloured the bubble, icon and cube images in
-`site/assets/images/` to the new palette, keeping the originals in
-`themes/bubbles/`; that was a one-off step outside the command.
+edit content or recolour images. Recolouring images for a new palette is a
+separate step; the `bubbles` theme carries its own original-palette images.
 
 The identity itself (wordmark, colours, type) is documented in
 [BRAND.md](../BRAND.md), and its tokens live in `site/assets/css/brand.css`. A
 theme that wants to keep the identity but change the layout should use those
 tokens; a theme that proposes a different identity should ship its own.
+
+## How this document has developed
+
+- 13 September 2026: the bubbles look, until then the main site, was swapped for the 2026 identity; the bubble, icon and cube images were recoloured by hand, with the originals kept in `themes/bubbles/`.
