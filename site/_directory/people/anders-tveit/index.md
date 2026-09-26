@@ -47,6 +47,38 @@ search_keywords:
 - Music
 - Music Technology
 selected_works:
+- title: Klangen av framtida?
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  url: https://nmh.no/arrangementer/klangen-av-framtida
+  contributors:
+  - name: Victoria Christine Årang Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  - name: Eir Inderhaug
+    role: Soloist
+  - name: Torben Snekkestad
+    role: Soloist
+- title: Computer Music Concert
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Other/2025/computer-music-concert-h25.html
+  contributors:
+  - name: Victoria Christine Årang Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
 - title: 'Concert: Quantum Loops, Broken Symmetries'
   year: '2025'
   source: Music performance
@@ -165,48 +197,6 @@ selected_works:
     role: Artist
     slug: anders-tveit
     url: /people/anders-tveit/
-- title: OMO på Komdagen
-  year: '2015'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Artist
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kristian Nymoen
-    role: Artist
-  - name: Anders Tveit
-    role: Artist
-    slug: anders-tveit
-    url: /people/anders-tveit/
-  - name: Mari Romarheim Haugen
-    role: Artist
-  - name: Ragnhild Torvanger Solberg
-    role: Artist
-  - name: Håkon Bachken Eikeland
-    role: Artist
-  - name: Thomas Dahl Andersen
-    role: Artist
-- title: Reunion2012
-  year: '2014'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Anders Tveit
-    role: Composer
-    slug: anders-tveit
-    url: /people/anders-tveit/
-  - name: Eskil Muan Sæther
-    role: Composer
-  - name: Øyvind Brandtsegg
-    role: Artist
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Tone Åse
-    role: Artist
-  - name: Eskil Muan Sæther
-    role: Artist
 source_mentions: []
 summary: ''
 description: University lecturer, Fagseksjon for musikkteori, komposisjon og musikkteknologi,

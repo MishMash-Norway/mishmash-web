@@ -12,6 +12,10 @@ institutions:
 projects:
 - music-archive-of-the-future
 - picturemarks
+other_projects:
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 - Work Package Leader
@@ -51,12 +55,12 @@ selected_works:
     role: EditorialBoardMember
 source_mentions:
 - about/organisation/wp-leaders/index.md
+summary: ''
 wps:
 - WP5
 - WP6
 permalink: /people/ingrid-romarheim-haugen/
 redirect_from:
 - /directory/people/ingrid-romarheim-haugen/
-summary: ''
 ---
 

@@ -17,6 +17,10 @@ nva_affiliations:
   unit: Faculty of Film, TV and Games
   institution: university-of-inland-norway
 projects: []
+other_projects:
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:

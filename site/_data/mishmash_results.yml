@@ -1,4 +1,4 @@
-synced_at: '2026-09-25T10:14:59Z'
+synced_at: '2026-09-26T10:05:41Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -681,6 +681,591 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/publication/0198cc644905-3769d252-bea1-4ded-afe6-47aaba635af9
   nva_url: https://nva.sikt.no/publication/0198cc644905-3769d252-bea1-4ded-afe6-47aaba635af9
+- title: 'DAIM 2026: Symposium on Digital and AI Musicology'
+  year: '2026'
+  type: ReportBookOfAbstract
+  type_label: Book of abstracts
+  group_type: Book of abstracts
+  contributors:
+  - name: Olivier Lartillot
+    role: Editor
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Alexander Refsum Jensenius
+    role: RoleOther
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: 'DAIM 2026: Symposium on Digital and AI Musicology'
+    container: ''
+    details: 'doi: 10.5281/ZENODO.22643770.'
+    abstract: 'This report presents extended summaries of the presentations and discussions
+      at the DAIM 2026 Symposium on Digital and AI Musicology, held on 8–9 June 2026
+      at the National Library of Norway and the University of Oslo. Organized by RITMO,
+      the MishMash Centre for AI and Creativity, and the National Library of Norway,
+      the symposium brought together the COST Action EarlyMuse and MishMash Work Package
+      6 on AI for Cultural Heritage.
+
+
+      The contributions examine how computational methods and artificial intelligence
+      can support the preservation, transcription, analysis, discovery, and interconnection
+      of musical heritage. Topics include digital music collections, Optical Music
+      Recognition, audio transcription, chant and Sámi yoik, musical similarity and
+      pattern discovery, Linked Open Data, metadata standards, and sustainable research
+      infrastructures. Discussions address scholarly validation, provenance, cultural
+      context, and the rights of creators and communities.
+
+
+      Compiled and edited by Olivier Lartillot, the report synthesizes presentation
+      abstracts, slides, and recorded talks. It includes introductions to both days,
+      presentation and panel summaries, links to related resources, contributor biographies,
+      and the symposium programme, alongside a tribute to Eleanor Selfridge-Field.'
+    full_text_url: https://hdl.handle.net/11250/5577061
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+  url: https://doi.org/10.5281/ZENODO.22643770
+  nva_url: https://nva.sikt.no/publication/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+- title: MishMash WP6 and the MusikkData infrastructure project
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Lartillot, Olivier
+      name: Olivier Lartillot
+      slug: olivier-lartillot
+      url: /people/olivier-lartillot/
+    title: MishMash WP6 and the MusikkData infrastructure project
+    container: International Musicology Workshop between NFDI4Culture, musica*, RISM
+      and the MishMash Centre for AI and Creativity.
+    details: Academy of Sciences and Literature | Mainz (ADWL).
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5577201
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0dd060d95-e256763e-d81b-4d2b-ab33-390e6e2daf22
+  url: https://nfdi4culture.de/news/details/international-musicology-workshop.html
+  nva_url: https://nva.sikt.no/publication/01a0dd060d95-e256763e-d81b-4d2b-ab33-390e6e2daf22
+- title: 'Building Connected Collections of Norwegian Music: From Segmentation and
+    Transcription to Interoperable Data and AI-Enabled Discovery'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Lartillot, Olivier
+      name: Olivier Lartillot
+      slug: olivier-lartillot
+      url: /people/olivier-lartillot/
+    title: 'Building Connected Collections of Norwegian Music: From Segmentation and
+      Transcription to Interoperable Data and AI-Enabled Discovery'
+    container: DARIAH AIM Working Group seminar.
+    details: University of Liverpool.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5577188
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0dcf28974-ad1441e5-24f2-4b30-bd84-db967d4cdd20
+  url: https://www.dariah.eu/activities/working-groups/artificial-intelligence-and-music-aim/
+  nva_url: https://nva.sikt.no/publication/01a0dcf28974-ad1441e5-24f2-4b30-bd84-db967d4cdd20
+- title: Towards automated transcription of Hardanger fiddle performances
+  year: '2026'
+  type: ConferencePoster
+  type_label: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Lars Løberg Monstad
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Lartillot, Olivier
+      name: Olivier Lartillot
+      slug: olivier-lartillot
+      url: /people/olivier-lartillot/
+    - display: Monstad, Lars Løberg
+      name: Lars Løberg Monstad
+    title: Towards automated transcription of Hardanger fiddle performances
+    container: 13th International Conference on Digital Libraries for Musicology (DLfM).
+    details: Thessaloniki Concert Hall, Thessaloniki.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5577184
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0dce3c1c4-00dbd7b2-0500-4d9f-8db3-6ad94aec4083
+  url: https://dlfm.web.ox.ac.uk/sites/default/files/dlfm/documents/media/lartillot_poster_dlfm26.pdf
+  nva_url: https://nva.sikt.no/publication/01a0dce3c1c4-00dbd7b2-0500-4d9f-8db3-6ad94aec4083
+- title: 'Enacting Musical Creativity: the value of human agency in the face of AI'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Nanette Nielsen
+    role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Nielsen, Nanette
+      name: Nanette Nielsen
+      slug: nanette-nielsen
+      url: /people/nanette-nielsen/
+    title: 'Enacting Musical Creativity: the value of human agency in the face of
+      AI'
+    container: Nord Open Week 2026.
+    details: Levanger.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5577159
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0dc93d390-852425d0-2c7e-4c25-92a9-683f5cd4eff0
+  nva_url: https://nva.sikt.no/publication/01a0dc93d390-852425d0-2c7e-4c25-92a9-683f5cd4eff0
+- title: Anticipatory Aesthetics and the Listening Body
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Nanette Nielsen
+    role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Nielsen, Nanette
+      name: Nanette Nielsen
+      slug: nanette-nielsen
+      url: /people/nanette-nielsen/
+    title: Anticipatory Aesthetics and the Listening Body
+    container: Anticipation and Aesthetics.
+    details: University of Aarhus.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5577108
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0da0b3651-8e95163a-978b-417d-835d-d90a5a62cc22
+  nva_url: https://nva.sikt.no/publication/01a0da0b3651-8e95163a-978b-417d-835d-d90a5a62cc22
+- title: Musicking and the value of human agency in the face of AI
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Nanette Nielsen
+    role: Creator
+    slug: nanette-nielsen
+    url: /people/nanette-nielsen/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Nielsen, Nanette
+      name: Nanette Nielsen
+      slug: nanette-nielsen
+      url: /people/nanette-nielsen/
+    title: Musicking and the value of human agency in the face of AI
+    container: The Second International Conference in AI Music Studies (AIMS).
+    details: University of Nottingham.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5577107
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0da00b8eb-6a56440f-6c78-4517-997b-6606e616b2ab
+  nva_url: https://nva.sikt.no/publication/01a0da00b8eb-6a56440f-6c78-4517-997b-6606e616b2ab
+- title: Hybrid AI for Expert-Assisted Transcription of Norwegian Hardanger Fiddle
+    Music
+  year: '2026'
+  type: ConferencePoster
+  type_label: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Lars Løberg Monstad
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Lartillot, Olivier
+      name: Olivier Lartillot
+      slug: olivier-lartillot
+      url: /people/olivier-lartillot/
+    - display: Monstad, Lars Løberg
+      name: Lars Løberg Monstad
+    title: Hybrid AI for Expert-Assisted Transcription of Norwegian Hardanger Fiddle
+      Music
+    container: MishMash Opening Conference.
+    details: Kilden, Kristiansand.
+    abstract: 'The traditional Norwegian Hardanger fiddle repertoire is a rich oral
+      heritage. Existing
+
+      score transcriptions are scarce and rarely capture essential performance features,
+
+      particularly ornamentation, microtonal intonation, two-string textures, and
+      systematic
+
+      beat unevenness. We develop an innovative AI-assisted transcription framework
+
+      producing detailed, performance-aligned MIDI representations that preserve fine-
+
+      grained timing and pitch.
+
+      The neural front-end adapts a state-of-the-art deep-learning model for polyphonic
+
+      music transcription to our small but growing dataset of expert annotations.
+      It
+
+      progressively learns from expert corrections, providing increasingly robust
+      results, as
+
+      reflected by a rising F1 score. The model is complemented by signal processing,
+
+      musicological knowledge, and cognitive principles addressing repertoire-specific
+
+      challenges such as non-standard tuning, sympathetic-string resonances, sustained
+
+      drones, and symbolic note offsets. Acoustic analysis refines pitch beyond the
+
+      conventional twelve-tone MIDI grid, while tune-specific pitch distributions
+      organise the
+
+      performed notes into musically meaningful categories.
+
+      These results are transformed into a new score representation proportionally
+      aligned
+
+      with the recording. Colours make stable “micromodal” pitch categories visible
+      and
+
+      highlight ambiguous notes or pitches lying outside those categories. This makes
+      the
+
+      score useful not only for reading and performance, but also for checking AI
+      output,
+
+      exploring intonation and texture, and identifying recurring patterns.
+
+      This expert-in-the-loop workflow drastically reduces transcription correction
+      time, with
+
+      the aim of progressing towards full automation. The resulting transcriptions
+      and scores
+
+      will support performance, education, archive exploration, corpus research, and
+      future
+
+      AI methods for musical heritage. This original hybrid AI approach also demonstrates
+
+      the limitations of purely machine-learning approaches to music transcription.'
+    full_text_url: https://hdl.handle.net/11250/5577096
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d980549b-3a19cdbb-e5bf-4003-87cd-06c7f8575eca
+  url: https://mishmash.no/assets/events/kristiansand2026/mishmash-opening-conference-2026-abstracts.pdf
+  nva_url: https://nva.sikt.no/publication/01a0d980549b-3a19cdbb-e5bf-4003-87cd-06c7f8575eca
+- title: 'AI-powered curation and enrichment of music collections: (Norwegian) (folk)
+    music collection(s)'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Lartillot, Olivier
+      name: Olivier Lartillot
+      slug: olivier-lartillot
+      url: /people/olivier-lartillot/
+    title: 'AI-powered curation and enrichment of music collections: (Norwegian) (folk)
+      music collection(s)'
+    container: MishMash Opening Conference.
+    details: Kunstsilo, Kristiansand.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5577094
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d976e954-e4246021-b5b4-4f7f-b7bb-e12e9b582ec3
+  url: https://mishmash.no/events/kristiansand2026/
+  nva_url: https://nva.sikt.no/publication/01a0d976e954-e4246021-b5b4-4f7f-b7bb-e12e9b582ec3
+- title: 'The Right to Have a Digital Future: Migration, Technology, and the Politics
+    of Hope'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: 'The Right to Have a Digital Future: Migration, Technology, and the Politics
+      of Hope'
+    container: 1st Swiss Conference of Migration and Mobility Studies (SCMMS).
+    details: University of Neuchâtel.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5576906
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d894bad5-857f1d18-b0c7-4c11-b7e1-ef03756ffd85
+  url: https://nccr-onthemove.ch/wp-content/uploads/2026/07/2026_SCMMS_Program.pdf
+  nva_url: https://nva.sikt.no/publication/01a0d894bad5-857f1d18-b0c7-4c11-b7e1-ef03756ffd85
+- title: Can Algorithms Measure Suffering? Digital Vulnerability and the Transformation
+    of Asylum Law
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: Can Algorithms Measure Suffering? Digital Vulnerability and the Transformation
+      of Asylum Law
+    container: First ACMRL Conference on Migration Law.
+    details: Vrije Universiteit Amsterdam.
+    abstract: 'Vulnerability has become a structuring principle of contemporary EU
+      asylum law, shaping access to procedural guarantees, reception standards, exemptions
+      from border procedures, and administrative prioritisation. At the same time,
+      asylum systems are increasingly digitalised through standardised screening,
+      interoperable databases, and decision-support tools. This paper examines how
+      these infrastructures reshape the legal meaning of vulnerability and asks: what
+      happens when suffering becomes administratively legible through data? he study
+      conceptualises vulnerability as a governance interface between human rights
+      law and migration management. In digitalised systems, experiences of harm, trauma,
+      dependency, and risk must be translated into structured indicators. This translation
+      changes how vulnerability is recognised: from narrative and contextual interpretation
+      toward standardisation, comparability, and calibrated categorisation. The study
+      then considers the consequences for individualised assessment, transparency,
+      evidentiary standards, and meaningful human oversight. Drawing on doctrinal
+      analysis of EU asylum instruments and emerging Pact mechanisms, alongside comparative
+      insights from digital governance practices, it introduces the concept of the
+      “datafied vulnerability paradigm” to capture the shift from experiential recognition
+      to structured classification. It argues that the central challenge is not digitalisation
+      itself, but ensuring that technological mediation does not narrow the normative
+      horizon of asylum protection.'
+    full_text_url: https://hdl.handle.net/11250/5576874
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d88850f4-41cdb60e-2a04-4a3f-b34f-cf03061c4626
+  url: https://vu.nl/en/events/2026/acmrl-conference-on-migration-law-2026
+  nva_url: https://nva.sikt.no/publication/01a0d88850f4-41cdb60e-2a04-4a3f-b34f-cf03061c4626
+- title: 'Trust from Below: Lived Experience and Human Rights in Designing Trustworthy
+    AI for Migration'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: 'Trust from Below: Lived Experience and Human Rights in Designing Trustworthy
+      AI for Migration'
+    container: 'Trust to Impact: Trustworthy and Responsible Al for Citizenship, Migration,
+      and Social Good (TIAI).'
+    details: Ted Rogers School of Management, 55 Dundas Street West, Toronto, ON.
+    abstract: "As artificial intelligence (AI) systems become increasingly embedded\
+      \ in migration governance, asylum procedures, visa processing, and public service\
+      \ delivery, questions surrounding trust, legitimacy, and accountability have\
+      \ become central to contemporary debates on responsible AI. Existing frameworks\
+      \ for trustworthy AI, however, remain predominantly shaped by top down technical\
+      \ and regulatory approaches that prioritize abstract principles such as fairness,\
+      \ transparency, and explain ability, often without adequately engaging with\
+      \ the lived realities of migrants and other vulnerable communities. This paper\
+      \ argues that such models risk producing institutional forms of trust that fail\
+      \ to resonate with those most directly affected by automated decision-making\
+      \ systems. \nThe study develops the concept of “trust from below” as a human\
+      \ rights-oriented framework for understanding and evaluating trustworthy AI\
+      \ in migration contexts. Rather than treating trust as a purely technical outcome\
+      \ or regulatory benchmark, the paper conceptualizes trust as a socially situated\
+      \ and relational process shaped by procedural justice, historical marginalization,\
+      \ linguistic accessibility, and the ability of affected individuals to challenge\
+      \ or contest automated decisions. In this respect, distrust toward AI systems\
+      \ is understood not merely as a matter of perception, but as a reflection of\
+      \ deeper structural inequalities embedded within digital governance infrastructures.\n\
+      To ground this argument in contemporary practice, the paper examines emerging\
+      \ uses of AI assisted risk assessment systems, biometric border technologies,\
+      \ and automated asylum processing tools within European and transnational migration\
+      \ governance contexts. These developments illustrate how algorithmic systems\
+      \ are increasingly shaping administrative decision-making processes and raise\
+      \ important questions regarding procedural fairness, transparency, accessibility,\
+      \ and the ability of affected individuals to meaningfully understand and challenge\
+      \ automated outcomes in legally and technologically complex environments. Building\
+      \ on interdisciplinary scholarship in human rights law, migration governance,\
+      \ critical AI studies, participatory design, and digital constitutionalism,\
+      \ the paper argues that existing universalized models of trustworthy AI frequently\
+      \ overlook context-specific vulnerabilities across different socio-legal settings.\n\
+      In response, the paper proposes a human rights-based framework grounded in three\
+      \ interrelated principles: participatory inclusion of affected communities throughout\
+      \ the AI lifecycle; context-sensitive fairness and accountability mechanisms;\
+      \ and accessible avenues for contestation, explanation, and redress. Particular\
+      \ attention is given to the importance of culturally and linguistically responsive\
+      \ design practices, especially in migration settings characterized by legal\
+      \ precarity, informational asymmetries, and unequal access to digital literacy.\n\
+      By shifting the focus from formal compliance toward socially embedded trust-building,\
+      \ the paper contributes to ongoing debates on trustworthy and responsible AI\
+      \ by advancing a\nnormative and practice-oriented reorientation: from designing\
+      \ systems presumed to be trustworthy in principle toward fostering trust as\
+      \ a lived, participatory, and institutionally\naccountable outcome. Ultimately,\
+      \ the paper argues that trustworthy AI in migration governance requires not\
+      \ only technical safeguards and regulatory oversight, but also sustained engagement\
+      \ with human dignity, social legitimacy, and justice in high-stakes decision-making\
+      \ environments."
+    full_text_url: https://hdl.handle.net/11250/5576846
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d880371a-65a6cb4e-d321-46d0-a586-3e2f7abb2c90
+  url: https://www.torontomu.ca/bridging-divides/news-and-events/events/2026/05/trust-to-impact-workshop/
+  nva_url: https://nva.sikt.no/publication/01a0d880371a-65a6cb4e-d321-46d0-a586-3e2f7abb2c90
+- title: Datafying Childhood in the EU Migration Pact
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  - name: Gagandeep Kaur
+    role: Creator
+  - name: Mohammad Kazem Mohaqei
+    role: Creator
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    - display: Kaur, Gagandeep
+      name: Gagandeep Kaur
+    - display: Mohaqei, Mohammad Kazem
+      name: Mohammad Kazem Mohaqei
+    title: Datafying Childhood in the EU Migration Pact
+    container: The Promise of the Pact? What the EU promised but the Pact on Migration
+      and Asylum does not deliver.
+    details: Radboud University, Nijmegen.
+    abstract: 'The EU Pact on Migration and Asylum introduces interlinked legal and
+      technological reforms aimed at enhancing efficiency, harmonisation, and control
+      in European migration governance, with biometric identification, data retention,
+      and system interoperability at their core. While the Pact has been widely analysed
+      in relation to border management and asylum procedures, its implications for
+      children-particularly as subjects of biometric data processing-remain under-theorised.
+      Focusing on the reformed Eurodac Regulation and the Screening Regulation, this
+      study offers a doctrinal and analytical examination of how the Pact reconfigures
+      childhood within EU migration law through the mandatory collection, long-term
+      retention, and cross-system exchange of children’s biometric data from the age
+      of six. Situating these measures within international and European children’s
+      rights law, data protection law, and EU administrative law, the paper assesses
+      whether the Pact’s regulatory design adequately reflects core principles such
+      as the best interests of the child, necessity and proportionality, purpose limitation,
+      and individualised assessment in migration-related decision-making. The study
+      adopts a comparative and socio-legal perspective on the governance effects of
+      digital infrastructures. This perspective underscores how technological systems
+      introduced to address specific regulatory objectives tend to acquire a degree
+      of institutional permanence and functional expansion, thereby reshaping legal
+      subjectivities over time. In the context of the Pact, this raises the question
+      of whether migrant children are increasingly constructed not primarily as rights-holders
+      requiring enhanced protection, but as data subjects integrated into a security-
+      oriented information architecture.
+
+      Methodologically, the paper combines close doctrinal analysis of the Pact’s
+      legislative instruments with insights from legal technology scholarship on datafication
+      and automation
+
+      in public administration. It argues that, while the Pact acknowledges children
+      as a category of vulnerability, it provides limited guidance on how heightened
+      safeguards should operate in practice within biometric and digital systems.
+      The paper concludes that without a more explicit and operational integration
+      of children’s rights norms into the design and implementation of biometric infrastructures,
+      the Pact risks normalising a technocratic approach to childhood in migration
+      law that is difficult to recalibrate once entrenched.'
+    full_text_url: https://hdl.handle.net/11250/5576827
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d87486e5-29deb344-7997-4a8c-9c06-5a60cb297f6b
+  url: https://www.ru.nl/en/research/research-projects/eu-pact-on-migration-and-asylum
+  nva_url: https://nva.sikt.no/publication/01a0d87486e5-29deb344-7997-4a8c-9c06-5a60cb297f6b
 - title: Grassroots Esports and the Transformation of Education and Cultural Participation
     in the Digital Society
   year: '2026'
@@ -1852,6 +2437,9 @@ results:
     slug: jannicke-johansen
     url: /people/jannicke-johansen/
   institutions:
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
   - name: Kristiania University College
     slug: kristiania-university-college
     url: /institutions/kristiania-university-college/
@@ -3465,6 +4053,117 @@ results:
     nva_url: https://nva.sikt.no/publication/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
   url: https://doi.org/10.1093/mts/mtab013
   nva_url: https://nva.sikt.no/publication/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+- title: AI as a catalyst for more humanities research
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: AI as a catalyst for more humanities research
+    container: Onwards and Outwards!.
+    details: Online (Zoom).
+    abstract: I presented my research on embodied music cognition at the first DHN
+      conference in Oslo in 2016. Ten years later, I direct MishMash Centre for AI
+      and Creativity, where the arts and humanities sit inside a national AI programme
+      for the first time. This short provocation asks whether there is still a need
+      for "digital humanities". My claim is that AI is a catalyst for more humanities
+      research, and that the analogue humanities matter more than ever.
+    full_text_url: https://hdl.handle.net/11250/5577092
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d967fe39-7da50bf0-2bf7-43d8-8805-bf2382742bec
+  url: https://dhnb.eu/onwards-and-outwards-dhnb-celebrates-10-years/
+  nva_url: https://nva.sikt.no/publication/01a0d967fe39-7da50bf0-2bf7-43d8-8805-bf2382742bec
+- title: Symposium on Digital and AI Musicology
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Pierre Beauguitte
+    role: Creator
+    slug: pierre-beauguitte
+    url: /people/pierre-beauguitte/
+  - name: Ingrid Romarheim Haugen
+    role: Creator
+    slug: ingrid-romarheim-haugen
+    url: /people/ingrid-romarheim-haugen/
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Yngvar Kjus
+    role: Creator
+    slug: yngvar-kjus
+    url: /people/yngvar-kjus/
+  institutions:
+  - name: National Library of Norway
+    slug: national-library-of-norway
+    url: /institutions/national-library-of-norway/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Lartillot, Olivier
+      name: Olivier Lartillot
+      slug: olivier-lartillot
+      url: /people/olivier-lartillot/
+    - display: Beauguitte, Pierre
+      name: Pierre Beauguitte
+      slug: pierre-beauguitte
+      url: /people/pierre-beauguitte/
+    - display: Haugen, Ingrid Romarheim
+      name: Ingrid Romarheim Haugen
+      slug: ingrid-romarheim-haugen
+      url: /people/ingrid-romarheim-haugen/
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Kjus, Yngvar
+      name: Yngvar Kjus
+      slug: yngvar-kjus
+      url: /people/yngvar-kjus/
+    title: Symposium on Digital and AI Musicology
+    container: Symposium on Digital and AI Musicology.
+    details: Oslo.
+    abstract: 'Current research on the use of computational methods and AI in music
+      libraries and musicology.
+
+
+      This event brings together key members of the European consortium EarlyMuse,
+      in coordination with MishMash – Centre for AI & Creativity, particularly its
+      thematic area on cultural heritage. It presents recent work on digital archives,
+      music information retrieval, and AI-based approaches to musicological and heritage
+      research. Participants will also have the opportunity to engage with new and
+      insightful reviews in computational musicology. The programme introduces and
+      discusses a range of core technologies—including music transcription (from both
+      score images and audio), music analysis, and the transformative potential of
+      rich metadata—while highlighting strategies for interconnecting disparate music
+      collections so that their metadata can meaningfully interact.'
+    full_text_url: https://hdl.handle.net/11250/5577067
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d929a1e2-b2733460-e6f8-4a5f-a526-ab3be943101c
+  url: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/index.html
+  nva_url: https://nva.sikt.no/publication/01a0d929a1e2-b2733460-e6f8-4a5f-a526-ab3be943101c
 - title: Musikkproduksjonsarkiv som praksisfelt og kunnskapskilde
   year: '2026'
   type: Lecture
@@ -7759,6 +8458,48 @@ results:
     nva_url: https://nva.sikt.no/publication/019dcbf4d15b-642a468a-8e7f-4fb1-8e21-c0c8b5598702
   url: https://dornsife.usc.edu/cema/events/
   nva_url: https://nva.sikt.no/publication/019dcbf4d15b-642a468a-8e7f-4fb1-8e21-c0c8b5598702
+- title: Computer Music Concert
+  year: '2025'
+  type: MusicPerformance
+  type_label: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Victoria Christine Årang Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Barratt Due Institute of Music
+    slug: barratt-due-institute-of-music
+    url: /institutions/barratt-due-institute-of-music/
+  - name: Norwegian Academy of Music
+    slug: norwegian-academy-of-music
+    url: /institutions/norwegian-academy-of-music/
+  citation:
+    authors: []
+    title: Computer Music Concert
+    container: ''
+    details: ''
+    abstract: 'Over the past few months, students in IMV''s Computer Music course
+      (MUS2850) have learned how to create their own instruments using the audio programming
+      language Pure Data.
+
+
+      At this event, the students will perform together in groups using their newly
+      programmed instruments. The concert will also feature performances by guest
+      artists Victoria Johnson and Vincenzo Madaghiele.'
+    full_text_url: https://hdl.handle.net/11250/5576937
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/publication/01a0d8ad1c3a-2207fcb3-f9d5-4505-a2c0-57121a2bc0eb
+  url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Other/2025/computer-music-concert-h25.html
+  nva_url: https://nva.sikt.no/publication/01a0d8ad1c3a-2207fcb3-f9d5-4505-a2c0-57121a2bc0eb
 - title: 'Concert: Quantum Loops, Broken Symmetries'
   year: '2025'
   type: MusicPerformance

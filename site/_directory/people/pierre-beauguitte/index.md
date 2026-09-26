@@ -10,6 +10,10 @@ institutions:
 - national-library-of-norway
 projects:
 - music-archive-of-the-future
+other_projects:
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:

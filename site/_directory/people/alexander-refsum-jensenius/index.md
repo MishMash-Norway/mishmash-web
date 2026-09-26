@@ -75,6 +75,20 @@ search_keywords:
 - Music Technology
 - Sound Analysis /Synthesis
 selected_works:
+- title: 'DAIM 2026: Symposium on Digital and AI Musicology'
+  year: '2026'
+  source: Book of abstracts
+  group_type: Book of abstracts
+  url: https://doi.org/10.5281/ZENODO.22643770
+  contributors:
+  - name: Olivier Lartillot
+    role: Editor
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Alexander Refsum Jensenius
+    role: RoleOther
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 - title: Exploring Methods for Measuring Audience Body Motion in Concert Halls
   year: '2026'
   source: Book chapter
@@ -228,33 +242,6 @@ selected_works:
     role: Creator
   - name: Aleksander Tidemann
     role: Creator
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
-    Arts
-  year: '2026'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1007/978-3-032-26999-7_18
-  contributors:
-  - name: Hugh Alexander von Arnim
-    role: Creator
-    slug: hugh-alexander-von-arnim
-    url: /people/hugh-alexander-von-arnim/
-  - name: Anna-Maria Christodoulou
-    role: Creator
-    slug: anna-maria-christodoulou
-    url: /people/anna-maria-christodoulou/
-  - name: Kayla Burnim
-    role: Creator
-  - name: Finn Upham
-    role: Creator
-  - name: Tejaswinee Kelkar
-    role: Creator
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
   - name: Alexander Refsum Jensenius
     role: Creator
     slug: alexander-refsum-jensenius

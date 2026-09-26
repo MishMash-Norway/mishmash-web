@@ -47,6 +47,38 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Klangen av framtida?
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  url: https://nmh.no/arrangementer/klangen-av-framtida
+  contributors:
+  - name: Victoria Christine Årang Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  - name: Eir Inderhaug
+    role: Soloist
+  - name: Torben Snekkestad
+    role: Soloist
+- title: Computer Music Concert
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Other/2025/computer-music-concert-h25.html
+  contributors:
+  - name: Victoria Christine Årang Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
 - title: 'Concert: Quantum Loops, Broken Symmetries'
   year: '2025'
   source: Music performance
@@ -189,38 +221,6 @@ selected_works:
     role: Artist
   - name: Maja Roel
     role: Artist
-- title: Performing the Electric Violin in a Sonic Space
-  year: '2012'
-  source: Journal article
-  group_type: Journal article
-  url: http://www.mitpressjournals.org/doi/abs/10.1162/COMJ_a_00148?prevSearch=authorsfield%253A%2528Refsum%2BJensenius%252C%2BAlexander%2529&searchHistoryKey=
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Victoria Johnson
-    role: Creator
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-- title: Microsounds
-  year: '2012'
-  source: Film or video
-  group_type: Film or video
-  url: https://vimeo.com/52656574
-  contributors:
-  - name: Lavasir Nordrum
-    role: AcademicCoordinator
-  - name: Alexander Refsum Jensenius
-    role: AcademicCoordinator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kari Anne Vadstensvik Bjerkestrand
-    role: AcademicCoordinator
-  - name: Victoria Johnson
-    role: AcademicCoordinator
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
 source_mentions: []
 summary: ''
 description: Research fellow, Fagseksjon for strykere, Norwegian Academy of Music
