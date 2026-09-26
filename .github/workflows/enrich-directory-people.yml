@@ -92,7 +92,7 @@ jobs:
             printf '%s\n' "$unexpected_files"
             exit 1
           fi
-          git add site/_directory site/_data site/_events site/assets/images/portraits site/assets/images/bubbles/daily site/assets/images/expositions
+          git add site/_directory site/_data site/_events site/assets/images/portraits site/assets/images/thumbs site/assets/images/partner-thumbs site/assets/images/bubbles/daily site/assets/images/expositions
           git commit -m "Update directory and results from NVA." \
             -m "Scheduled sync of people profiles, MishMash project results, and the daily bubble artwork."
           git push

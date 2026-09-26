@@ -351,15 +351,6 @@ jobs:
           done
           exit $status
 
-      - name: Menus can be dismissed with a key and with a press elsewhere
-        run: npx playwright test -c tests/visual/playwright.config.js tests/visual/menus.spec.js
-
-      - name: Abbreviations unfold once, in the page's language
-        run: npx playwright test -c tests/visual/playwright.config.js tests/visual/abbreviations.spec.js
-
-      - name: Text contrast in the states a page scan cannot reach
-        run: node scripts/check_contrast.mjs
-
       - name: Compare the theme front pages with the baselines
         continue-on-error: true
         run: npx playwright test -c tests/visual/playwright.config.js tests/visual/themes.spec.js
@@ -373,6 +364,66 @@ jobs:
             playwright-report
             test-results
             aaa-*.txt
+          if-no-files-found: ignore
+
+  behaviour_checks:
+    name: Menus, abbreviations and contrast
+    runs-on: ubuntu-latest
+    needs: build_site
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Install Apertium (Bokmål to Nynorsk)
+        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
+
+      - name: Generate the Nynorsk mirror
+        run: pip install -q PyYAML requests && python3 scripts/build_nynorsk.py
+
+      - name: Build site
+        run: bundle exec jekyll build --trace
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install Playwright
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Serve the site
+        run: |
+          python3 -m http.server 4000 --directory _site &
+          npx --yes wait-on@7 http://127.0.0.1:4000/
+
+      # These three are the states a page scan cannot reach: an open menu, an
+      # unfolded abbreviation, a focused link. They block, as the page scan does.
+      - name: Menus can be dismissed with a key and with a press elsewhere
+        run: npx playwright test -c tests/visual/playwright.config.js tests/visual/menus.spec.js
+
+      - name: Abbreviations unfold once, in the page's language
+        run: npx playwright test -c tests/visual/playwright.config.js tests/visual/abbreviations.spec.js
+
+      - name: Text contrast in the states a page scan cannot reach
+        run: node scripts/check_contrast.mjs
+
+      - name: Keep the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: behaviour-checks
+          path: |
+            playwright-report
+            test-results
           if-no-files-found: ignore
 
   chat_retrieval:
