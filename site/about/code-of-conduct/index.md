@@ -23,7 +23,7 @@ We have therefore drawn up the guidelines in this document, which apply to all M
 
 - **Friendliness.** We meet one another as colleagues, and assume that someone who disagrees with us has good reasons we have not heard yet.
 - **Diversity.** We acknowledge and respect that we have different characteristics, backgrounds and traditions, and we treat that range as a strength.
-- **Equity.** We treat all our colleagues as equals, whatever their position in life and career.
+- **Equality.** We treat all our colleagues as equals, whatever their position in life and career.
 - **Time.** We respect each other's working hours, breaks and holidays, and we agree deadlines that can be met.
 - **Space and access.** We choose meeting rooms (physical or digital) and meeting formats (synchronous or asynchronous) that fit what is to be done.
 - **Meetings.** We make sure that meetings have a clear purpose, and we chair them so that everyone can have their say.
