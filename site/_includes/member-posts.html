@@ -1,5 +1,5 @@
 {% comment %}
-  The latest posts from a member's or a project's own site, for their
+  The latest blog posts from a member's or a project's own site, for their
   directory page. The feed is theirs, given by them (see
   scripts/fetch_member_feeds.py); nothing is copied here beyond a title, a
   date and a line, and the reading happens at the source.
@@ -13,8 +13,8 @@
 {% if planet and planet.posts.size > 0 %}
   {% assign mine = planet.posts | where: "author_slug", include.slug | where: "section", include.section %}
   {% if mine.size > 0 %}
-  <section class="person-posts" aria-label="Latest posts">
-    <h2>Latest posts</h2>
+  <section class="person-posts" aria-label="Latest blog posts">
+    <h2>Latest blog posts</h2>
     <ul class="planet-list">
       {% for p in mine limit: limit %}
       <li>
