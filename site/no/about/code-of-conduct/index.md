@@ -23,12 +23,10 @@ Vi har derfor utarbeidet retningslinjene i dette dokumentet, som gjelder for all
 ## Hvordan vi arbeider sammen
 
 - **Vennlighet.** Vi møter hverandre som kolleger, og går ut fra at en som er uenig med oss, har gode grunner vi ennå ikke har hørt.
-- **Mangfold.** Vi anerkjenner og respekterer at vi har ulike egenskaper, bakgrunner og tradisjoner, og vi regner den bredden som en styrke.
-- **Likeverd.** Vi behandler alle kolleger som likeverdige, uansett hvor de står i livet og i karrieren.
+- **Likeverd og mangfold.** Vi behandler alle kolleger som likeverdige, uansett hvor de står i livet og i karrieren, og vi regner ulike egenskaper, bakgrunner og tradisjoner som en styrke.
+- **Lydhørhet.** Vi gir alle rom til å si hva de mener og tenker, i møter og ellers, og vi lytter og svarer oppriktig.
 - **Tid.** Vi respekterer hverandres arbeidstid, pauser og ferier, og vi avtaler frister som lar seg holde.
-- **Rom og tilgjengelighet.** Vi velger møterom (fysiske eller digitale) og møteformer (samtidige eller asynkrone) som passer til det som skal gjøres.
-- **Møter.** Vi passer på at møter har et tydelig formål og leder dem slik at alle kan komme til orde.
-- **Lydhørhet.** Vi gir alle rom til å si hva de mener og tenker, og vi lytter og svarer oppriktig.
+- **Rom og tilgjengelighet.** Vi velger møterom (fysiske eller digitale) og møteformer (samtidige eller asynkrone) som passer til det som skal gjøres, og vi gir hvert møte et tydelig formål.
 - **Kreditering og samtykke.** Vi navngir dem som har bidratt til forskningen vår, avtaler forfatterskapsroller tidlig og forklarer hva KI-verktøy har bidratt med, slik [KI-kolofonen](/no/about/ai-colophon/) beskriver.
 
 ## Hvis noe ikke er som det skal
