@@ -27,6 +27,12 @@ nva_affiliations:
   institution: simula-metropolitan-center-for-digital-engineering
 projects: []
 other_projects:
+- title: CIEM - Centre for Integrated Emergency Management
+  url: https://nva.sikt.no/projects/464989
+  nva_id: '464989'
+- title: Senter for kvantekommunikasjonsnettverk og anvendelser
+  url: https://nva.sikt.no/projects/2772305
+  nva_id: '2772305'
 - title: SURE-AI Centre for Sustainable, Risk-averse and Ethical AI
   url: https://nva.sikt.no/projects/2769809
   nva_id: '2769809'

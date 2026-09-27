@@ -10,6 +10,11 @@ institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
 projects: []
+other_projects:
+- title: 'UNCHANGE - UNderstanding change in Cultural Heritage: the Next Generation
+    of Experts'
+  url: https://nva.sikt.no/projects/2775057
+  nva_id: '2775057'
 roles:
 - Member
 urls:

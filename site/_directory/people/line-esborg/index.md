@@ -11,6 +11,9 @@ institutions:
 - university-of-oslo
 projects: []
 other_projects:
+- title: 'SAMLA: Digitalisering av norske tradisjonsarkiv'
+  url: https://nva.sikt.no/projects/2726398
+  nva_id: '2726398'
 - title: The Afterlives of Natural History
   url: https://nva.sikt.no/projects/2551099
   nva_id: '2551099'

@@ -19,6 +19,14 @@ nva_affiliations:
   institution: university-of-inland-norway
 projects:
 - scoping-review-creative-ai-teaching-learning
+other_projects:
+- title: InnTELT - Innovating Teacher Education with new Learning Technologies for
+    professional identity, 21st Century skill development and educational relevance
+  url: https://nva.sikt.no/projects/2695119
+  nva_id: '2695119'
+- title: Keep them Caring (KEEPCARING)
+  url: https://nva.sikt.no/projects/2741296
+  nva_id: '2741296'
 roles:
 - Member
 urls:

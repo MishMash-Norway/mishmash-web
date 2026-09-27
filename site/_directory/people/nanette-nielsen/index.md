@@ -10,9 +10,6 @@ institutions:
 - university-of-oslo
 projects: []
 other_projects:
-- title: Bodies in Concert
-  url: https://nva.sikt.no/projects/2744062
-  nva_id: '2744062'
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'

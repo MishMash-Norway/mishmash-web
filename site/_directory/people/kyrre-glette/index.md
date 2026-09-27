@@ -18,15 +18,6 @@ affiliation_units:
 projects:
 - the-mishmash-website
 other_projects:
-- title: DjembeDance - Multimodal rhythm in music and dance from West Africa
-  url: https://nva.sikt.no/projects/2747770
-  nva_id: '2747770'
-- title: fourMs Lab Upgrade
-  url: https://nva.sikt.no/projects/2748527
-  nva_id: '2748527'
-- title: Norwegian Centre for Embodied AI (NCEI)
-  url: https://nva.sikt.no/projects/2762680
-  nva_id: '2762680'
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'

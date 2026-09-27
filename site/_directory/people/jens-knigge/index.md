@@ -26,6 +26,16 @@ other_projects:
     Dialogical Arts Education
   url: https://nva.sikt.no/projects/2653343
   nva_id: '2653343'
+- title: Levende Kulturarv
+  url: https://nva.sikt.no/projects/2633534
+  nva_id: '2633534'
+- title: Levende kulturarv. Bevaring og fornyelse av immateriell kulturarv i møter
+    mellom studenter, barn, barnehageansatte og sangappen TRALL
+  url: https://nva.sikt.no/projects/2756630
+  nva_id: '2756630'
+- title: 'mustXchange: music teacher education exchange'
+  url: https://nva.sikt.no/projects/2667411
+  nva_id: '2667411'
 roles:
 - Member
 urls:

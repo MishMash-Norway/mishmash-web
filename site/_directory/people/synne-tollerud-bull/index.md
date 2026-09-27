@@ -23,6 +23,9 @@ other_projects:
 - title: 'Kunstens co-pilot: Kunst og KI i et prosessøkologisk perspektiv'
   url: https://nva.sikt.no/projects/2755448
   nva_id: '2755448'
+- title: Moving Image Moving Earth (MIME)
+  url: https://nva.sikt.no/projects/2605572
+  nva_id: '2605572'
 roles:
 - Member
 - Work Package Leader

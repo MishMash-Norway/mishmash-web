@@ -15,24 +15,12 @@ other_projects:
     Nordic Model for Integration of Advanced Assistive Technologies'
   url: https://nva.sikt.no/projects/2752696
   nva_id: '2752696'
-- title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
-  url: https://nva.sikt.no/projects/2743421
-  nva_id: '2743421'
-- title: fourMs Lab Upgrade
-  url: https://nva.sikt.no/projects/2748527
-  nva_id: '2748527'
-- title: Norwegian Centre for Embodied AI (NCEI)
-  url: https://nva.sikt.no/projects/2762680
-  nva_id: '2762680'
 - title: Predictive and Intuitive Robot Companion (PIRC)
   url: https://nva.sikt.no/projects/2747768
   nva_id: '2747768'
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
-- title: Robust additive manufacturing of polymer composites for optimal part production
-  url: https://nva.sikt.no/projects/2770893
-  nva_id: '2770893'
 roles:
 - Member
 urls:

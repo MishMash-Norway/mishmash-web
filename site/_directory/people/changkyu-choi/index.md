@@ -12,25 +12,14 @@ institutions:
 - university-of-oslo
 projects: []
 other_projects:
+- title: 'AURoRA: Advancing Universal Resource-Scarce Large Vision-Language Models
+    Towards Robust and Reliable AI'
+  url: https://nva.sikt.no/projects/2760500
+  nva_id: '2760500'
 - title: 'AURoRA: South-Korea and Norway collaboration on Advancing Universal Resource-Scarce
     Large Vision-Language Models Towards Robust and Reliable AI'
   url: https://nva.sikt.no/projects/2770236
   nva_id: '2770236'
-- title: Integreat - Norsk senter for kunnskapsdrevet maskinlæring
-  url: https://nva.sikt.no/projects/2769426
-  nva_id: '2769426'
-- title: Maskinlæring i den Virkelige Verden (MLReal)
-  url: https://nva.sikt.no/projects/2769425
-  nva_id: '2769425'
-- title: Norwegian Centre for Knowledge-driven Machine Learning
-  url: https://nva.sikt.no/projects/2637937
-  nva_id: '2637937'
-- title: Visual Intelligence
-  url: https://nva.sikt.no/projects/2522411
-  nva_id: '2522411'
-- title: Visuell Intelligens
-  url: https://nva.sikt.no/projects/2769427
-  nva_id: '2769427'
 roles:
 - Member
 urls:

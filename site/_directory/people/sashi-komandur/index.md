@@ -16,6 +16,11 @@ projects:
 - curating-ai-driven-artistic-processes
 - strategic-storyteller
 - the-mishmash-website
+other_projects:
+- title: InnTELT - Innovating Teacher Education with new Learning Technologies for
+    professional identity, 21st Century skill development and educational relevance
+  url: https://nva.sikt.no/projects/2695119
+  nva_id: '2695119'
 roles:
 - Work Package Leader
 urls:

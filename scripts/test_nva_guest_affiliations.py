@@ -11,7 +11,7 @@ from enrich_directory_from_nva import enrich_person, is_guest_affiliation, split
 def _run(index_md: Path, tmp: str):
     return enrich_person(
         index_md=index_md, root=Path(tmp), institution_lookup={}, slug_to_institution_name={},
-        org_cache={}, project_cache={}, person_lookup={}, max_tags=10, max_works=10,
+        org_cache={}, person_lookup={}, max_tags=10, max_works=10,
         dry_run=False, discover_nva=False, discover_nva_loose=False, download_images=False,
     )
 

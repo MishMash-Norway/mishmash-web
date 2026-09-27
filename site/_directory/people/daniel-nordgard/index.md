@@ -11,9 +11,15 @@ institutions:
 - university-of-agder
 projects: []
 other_projects:
+- title: CeDiT - Centre for Digital Transformation
+  url: https://nva.sikt.no/projects/2506896
+  nva_id: '2506896'
 - title: CreateMe
   url: https://nva.sikt.no/projects/2591724
   nva_id: '2591724'
+- title: 'Future Learning Lab: Education, Communication, Globalization (Forskningsgruppe)'
+  url: https://nva.sikt.no/projects/2528730
+  nva_id: '2528730'
 roles:
 - Deputy Director
 urls:

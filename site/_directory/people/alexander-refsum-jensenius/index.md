@@ -13,18 +13,12 @@ projects:
 - agency-and-control-in-musical-ensemble
 - the-mishmash-website
 other_projects:
-- title: AI Centre for the Empowerment of Human Learning (AI LEARN)
-  url: https://nva.sikt.no/projects/2759925
-  nva_id: '2759925'
+- title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
+  url: https://nva.sikt.no/projects/2743421
+  nva_id: '2743421'
 - title: Bodies in Concert
   url: https://nva.sikt.no/projects/2744062
   nva_id: '2744062'
-- title: Bodily Entrainment to Audiovisual Rhythms
-  url: https://nva.sikt.no/projects/2743421
-  nva_id: '2743421'
-- title: DjembeDance - Multimodal rhythm in music and dance from West Africa
-  url: https://nva.sikt.no/projects/2747770
-  nva_id: '2747770'
 - title: fourMs Lab Upgrade
   url: https://nva.sikt.no/projects/2748527
   nva_id: '2748527'

@@ -60,7 +60,6 @@ class NvaNightlySafetyTests(unittest.TestCase):
                 institution_lookup={},
                 slug_to_institution_name={},
                 org_cache={},
-                project_cache={},
                 person_lookup={},
                 max_tags=10,
                 max_works=10,
@@ -98,7 +97,7 @@ class NvaNightlySafetyTests(unittest.TestCase):
             index_md.write_text(original, encoding="utf-8")
             changed, reason = enrich_person(
                 index_md=index_md, root=Path(tmp), institution_lookup={}, slug_to_institution_name={},
-                org_cache={}, project_cache={}, person_lookup={}, max_tags=10, max_works=10,
+                org_cache={}, person_lookup={}, max_tags=10, max_works=10,
                 dry_run=False, discover_nva=False, discover_nva_loose=False, download_images=False,
             )
             self.assertFalse(changed)

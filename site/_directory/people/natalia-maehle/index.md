@@ -10,14 +10,18 @@ institutions:
 - western-norway-university-of-applied-sciences
 projects: []
 other_projects:
+- title: 'AQUABALANCE: Balancing economic, environmental, and social sustainability
+    in the European aquaculture industry'
+  url: https://nva.sikt.no/projects/2712442
+  nva_id: '2712442'
 - title: FOODMISSION Engaging citizens as agents of change for sustainable food system
     transition with a novel gamified educational citizen science platform
   url: https://nva.sikt.no/projects/2757453
   nva_id: '2757453'
-- title: 'KARBONMAT: Designing sustainable business model (SBM) concepts for carbon
-    sequestration in soils to transform the Norwegian food system'
-  url: https://nva.sikt.no/projects/2684179
-  nva_id: '2684179'
+- title: 'REBALANCE: Towards economic, environmental, and social sustainability in
+    the Norwegian salmon farming industry'
+  url: https://nva.sikt.no/projects/2713736
+  nva_id: '2713736'
 roles:
 - Member
 urls:

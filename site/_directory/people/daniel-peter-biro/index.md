@@ -11,6 +11,10 @@ institutions:
 - university-of-bergen
 projects:
 - musical-doppelgangers
+other_projects:
+- title: 'Web of the Mind: Electroacoustic Composition with Brain Scanning'
+  url: https://nva.sikt.no/projects/2759152
+  nva_id: '2759152'
 roles:
 - Member
 urls:

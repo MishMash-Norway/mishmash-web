@@ -15,6 +15,10 @@ affiliation_units:
 - The Grieg Academy &#8211; Department of Music
 projects: []
 other_projects:
+- title: Pediatriske pasienters opplevelse av å lytte til hjerteslag som en del av
+    musikkterapi under invasive prosedyrer
+  url: https://nva.sikt.no/projects/2665239
+  nva_id: '2665239'
 - title: 'Sounding Relation: Foreldres bidrag til premature spedbarns regulering gjennom
     musikalsk samspill'
   url: https://nva.sikt.no/projects/2581000

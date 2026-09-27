@@ -23,6 +23,10 @@ nva_affiliations:
   institution: kristiania-university-college
 projects:
 - picturemarks
+other_projects:
+- title: Excited, SFU
+  url: https://nva.sikt.no/projects/528526
+  nva_id: '528526'
 roles:
 - Member
 urls:

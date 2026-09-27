@@ -10,9 +10,9 @@ institutions:
 - kristiania-university-college
 projects: []
 other_projects:
-- title: FactArt – Samfunnet ser
-  url: https://nva.sikt.no/projects/2595371
-  nva_id: '2595371'
+- title: One Breath - One Sea
+  url: https://nva.sikt.no/projects/2735625
+  nva_id: '2735625'
 - title: Slow Dance XR
   url: https://nva.sikt.no/projects/2771502
   nva_id: '2771502'

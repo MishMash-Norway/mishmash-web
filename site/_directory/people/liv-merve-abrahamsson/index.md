@@ -16,9 +16,6 @@ other_projects:
 - title: Neural dynamics of processing natural and digital emotions
   url: https://nva.sikt.no/projects/2750014
   nva_id: '2750014'
-- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
-  url: https://nva.sikt.no/projects/568602
-  nva_id: '568602'
 roles:
 - Member
 urls:

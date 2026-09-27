@@ -17,6 +17,10 @@ nva_affiliations:
   unit: Norsk folkemuseum
   institution: norwegian-museum-of-cultural-history
 projects: []
+other_projects:
+- title: 'SAMLA: Digitalisering av norske tradisjonsarkiv'
+  url: https://nva.sikt.no/projects/2726398
+  nva_id: '2726398'
 roles:
 - Member
 urls:

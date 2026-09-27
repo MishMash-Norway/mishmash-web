@@ -9,6 +9,10 @@ institution: western-norway-university-of-applied-sciences
 institutions:
 - western-norway-university-of-applied-sciences
 projects: []
+other_projects:
+- title: Passion for music in higher education
+  url: https://nva.sikt.no/projects/2725447
+  nva_id: '2725447'
 roles:
 - Member
 urls:

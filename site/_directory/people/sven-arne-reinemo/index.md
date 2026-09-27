@@ -13,6 +13,10 @@ affiliation_units:
 - Simula
 - Simula Metropolitan Center for Digital Engineering
 projects: []
+other_projects:
+- title: Fabric management for the software defined data centre
+  url: https://nva.sikt.no/projects/2770214
+  nva_id: '2770214'
 roles:
 - Council Member
 urls:

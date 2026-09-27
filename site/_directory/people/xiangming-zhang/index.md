@@ -10,6 +10,10 @@ institution: norwegian-university-of-science-and-technology
 institutions:
 - norwegian-university-of-science-and-technology
 projects: []
+other_projects:
+- title: 'MusTed: Music, Technology and Education'
+  url: https://nva.sikt.no/projects/2749628
+  nva_id: '2749628'
 roles:
 - Member
 urls:

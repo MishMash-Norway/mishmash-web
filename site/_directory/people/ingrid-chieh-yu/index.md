@@ -9,6 +9,10 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects: []
+other_projects:
+- title: Norwegian Centre for Knowledge-driven Machine Learning
+  url: https://nva.sikt.no/projects/2637937
+  nva_id: '2637937'
 roles:
 - Council Member
 urls:

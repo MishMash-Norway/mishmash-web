@@ -26,27 +26,25 @@ class NvaOtherProjectsTests(unittest.TestCase):
     def test_collect_other_projects_from_hits(self):
         hits = [
             {
-                "projects": [
-                    {
-                        "name": "Norwegian Centre for Embodied AI (NCEI)",
-                        "id": "https://api.nva.unit.no/cristin/project/2762680",
-                    },
-                    {
-                        "name": "MishMash",
-                        "id": "https://api.nva.unit.no/cristin/project/2744839",
-                    },
-                ]
+                "title": "Norwegian Centre for Embodied AI (NCEI)",
+                "id": "https://api.nva.unit.no/cristin/project/2762680",
+                "endDate": "2030-01-01T00:00:00Z",
             },
             {
-                "projects": [
-                    {
-                        "name": "RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion",
-                        "id": "https://api.nva.unit.no/cristin/project/568602",
-                    }
-                ]
+                "title": "MishMash",
+                "id": "https://api.nva.unit.no/cristin/project/2744839",
+            },
+            {
+                "title": "Musical Gestures",
+                "id": "https://api.nva.unit.no/cristin/project/277450",
+                "endDate": "2007-07-01T00:00:00Z",
+            },
+            {
+                "title": "RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion",
+                "id": "https://api.nva.unit.no/cristin/project/568602",
             },
         ]
-        projects = collect_other_projects_from_hits(hits)
+        projects = collect_other_projects_from_hits(hits, today=date(2026, 9, 27))
         self.assertEqual(
             projects,
             {
@@ -68,47 +66,45 @@ class NvaOtherProjectsTests(unittest.TestCase):
             nva_project_is_active({"endDate": "2008-12-31T00:00:00Z"}, today=today)
         )
         self.assertTrue(nva_project_is_active({}, today=today))
+        self.assertFalse(
+            nva_project_is_active({"startDate": "2027-01-01T00:00:00Z"}, today=today)
+        )
 
-    @patch("enrich_directory_from_nva.get_json")
+    def test_nva_project_status_wins_over_dates(self):
+        today = date(2026, 6, 17)
+        self.assertTrue(nva_project_is_active({"status": "ACTIVE"}, today=today))
+        self.assertFalse(
+            nva_project_is_active(
+                {"status": "CONCLUDED", "endDate": "2027-06-20T00:00:00Z"}, today=today
+            )
+        )
+        self.assertFalse(nva_project_is_active({"status": "NOTSTARTED"}, today=today))
+
     @patch("enrich_directory_from_nva.requests.get")
-    def test_nva_other_projects_filters_inactive(self, mock_get, mock_get_json):
-        mock_get.return_value.json.return_value = {
-            "hits": [
-                {
-                    "projects": [
-                        {
-                            "name": "Active Project",
-                            "id": "https://api.nva.unit.no/cristin/project/1001",
-                        },
-                        {
-                            "name": "Ended Project",
-                            "id": "https://api.nva.unit.no/cristin/project/1002",
-                        },
-                    ]
-                }
-            ],
-            "totalHits": 1,
-        }
+    def test_nva_other_projects_queries_participant_and_follows_pages(self, mock_get):
+        pages = [
+            {
+                "hits": [{"title": "Beta", "id": "https://api.nva.unit.no/cristin/project/1002"}],
+                "nextResults": "https://api.nva.unit.no/cristin/project?page=2&participant=1328",
+            },
+            {
+                "hits": [{"title": "Alpha", "id": "https://api.nva.unit.no/cristin/project/1001"}],
+            },
+        ]
         mock_get.return_value.raise_for_status = lambda: None
+        mock_get.return_value.json.side_effect = pages
 
-        def project_payload(_url):
-            if _url.endswith("/1001"):
-                return {"endDate": "2027-01-01T00:00:00Z"}
-            if _url.endswith("/1002"):
-                return {"endDate": "2020-01-01T00:00:00Z"}
-            raise AssertionError(_url)
+        projects = nva_other_projects("1328")
 
-        mock_get_json.side_effect = project_payload
-
-        projects = nva_other_projects("1328", project_cache={})
+        first_call, second_call = mock_get.call_args_list
+        self.assertTrue(first_call.args[0].endswith("/cristin/project"))
+        self.assertEqual(first_call.kwargs["params"]["participant"], "1328")
+        self.assertEqual(second_call.args[0], pages[0]["nextResults"])
         self.assertEqual(
             projects,
             [
-                {
-                    "title": "Active Project",
-                    "url": "https://nva.sikt.no/projects/1001",
-                    "nva_id": "1001",
-                }
+                {"title": "Alpha", "url": "https://nva.sikt.no/projects/1001", "nva_id": "1001"},
+                {"title": "Beta", "url": "https://nva.sikt.no/projects/1002", "nva_id": "1002"},
             ],
         )
 

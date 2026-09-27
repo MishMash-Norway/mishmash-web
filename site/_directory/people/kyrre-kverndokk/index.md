@@ -10,6 +10,13 @@ institution: university-of-bergen
 institutions:
 - university-of-bergen
 projects: []
+other_projects:
+- title: CeSAM  - Centre for Sustainable Area Management
+  url: https://nva.sikt.no/projects/2473591
+  nva_id: '2473591'
+- title: 'SAMLA: Digitalisering av norske tradisjonsarkiv'
+  url: https://nva.sikt.no/projects/2726398
+  nva_id: '2726398'
 roles:
 - Member
 urls:

@@ -12,6 +12,10 @@ institutions:
 projects:
 - the-mishmash-website
 - when-creativity-meets-criticality
+other_projects:
+- title: Gemini Centre for Trustworthy and Sustainable AI
+  url: https://nva.sikt.no/projects/2754193
+  nva_id: '2754193'
 roles:
 - Work Package Leader
 urls:

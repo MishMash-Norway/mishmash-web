@@ -751,25 +751,16 @@ def parse_nva_date(value: str) -> date | None:
 
 
 def nva_project_is_active(project: dict, *, today: date | None = None) -> bool:
+    """Ongoing: NVA status ACTIVE, or, without a status, started and not yet ended."""
+    status = str(project.get("status") or "").strip().upper()
+    if status:
+        return status == "ACTIVE"
     today = today or datetime.now(UTC).date()
+    start = parse_nva_date(str(project.get("startDate") or ""))
     end = parse_nva_date(str(project.get("endDate") or ""))
-    if end is None:
-        return True
-    return end >= today
-
-
-def nva_project_active(project_id: str, project_cache: dict[str, bool | None]) -> bool:
-    if project_id in project_cache:
-        cached = project_cache[project_id]
-        return True if cached is None else bool(cached)
-    try:
-        project = get_json(nva_api_url(f"/cristin/project/{project_id}"))
-        active = nva_project_is_active(project)
-        project_cache[project_id] = active
-        return active
-    except Exception:
-        project_cache[project_id] = None
-        return True
+    if start is not None and start > today:
+        return False
+    return end is None or end >= today
 
 
 def project_name_from_nva_hit(project: dict) -> str:
@@ -779,47 +770,38 @@ def project_name_from_nva_hit(project: dict) -> str:
     return str(name).strip()
 
 
-def collect_other_projects_from_hits(hits: list[dict]) -> dict[str, str]:
+def collect_other_projects_from_hits(hits: list[dict], *, today: date | None = None) -> dict[str, str]:
     projects: dict[str, str] = {}
-    for hit in hits or []:
-        for project in hit.get("projects") or []:
-            project_id = nva_project_id_from_url(project.get("id") or "")
-            name = project_name_from_nva_hit(project)
-            if not project_id or not name or project_id == MISHMASH_NVA_PROJECT_ID:
-                continue
-            projects[project_id] = name
+    for project in hits or []:
+        project_id = nva_project_id_from_url(project.get("id") or "")
+        name = project_name_from_nva_hit(project)
+        if not project_id or not name or project_id == MISHMASH_NVA_PROJECT_ID:
+            continue
+        if not nva_project_is_active(project, today=today):
+            continue
+        projects[project_id] = name
     return projects
 
 
-def nva_other_projects(profile_id: str, project_cache: dict[str, bool | None] | None = None) -> list[dict[str, str]]:
-    contributor = nva_api_url(f"/cristin/person/{profile_id}")
-    projects: dict[str, str] = {}
-    from_offset = 0
-    cache = project_cache if project_cache is not None else {}
+def nva_other_projects(profile_id: str) -> list[dict[str, str]]:
+    """Active projects the person takes part in, as listed on their NVA research profile.
 
-    while True:
-        response = requests.get(
-            nva_api_url("/search/resources"),
-            params={"contributor": contributor, "size": NVA_SEARCH_PAGE_SIZE, "from": from_offset},
-            headers=_nva_request_headers,
-            timeout=30,
-        )
+    Projects linked only through a co-authored result are left out.
+    """
+    projects: dict[str, str] = {}
+    url = nva_api_url("/cristin/project")
+    params: dict | None = {"participant": profile_id, "results": NVA_SEARCH_PAGE_SIZE}
+
+    while url:
+        response = requests.get(url, params=params, headers=_nva_request_headers, timeout=30)
         response.raise_for_status()
         payload = response.json()
         hits = payload.get("hits") or []
         if not hits:
             break
         projects.update(collect_other_projects_from_hits(hits))
-        from_offset += len(hits)
-        total_hits = payload.get("totalHits") or 0
-        if from_offset >= total_hits:
-            break
-
-    active_projects = {
-        project_id: name
-        for project_id, name in projects.items()
-        if nva_project_active(project_id, cache)
-    }
+        url = payload.get("nextResults") or ""
+        params = None
 
     return [
         {
@@ -827,16 +809,13 @@ def nva_other_projects(profile_id: str, project_cache: dict[str, bool | None] | 
             "url": nva_public_project_url(project_id),
             "nva_id": project_id,
         }
-        for project_id, name in sorted(active_projects.items(), key=lambda item: item[1].lower())
+        for project_id, name in sorted(projects.items(), key=lambda item: item[1].lower())
     ]
 
 
-def _safe_nva_other_projects(
-    profile_id: str,
-    project_cache: dict[str, bool | None] | None = None,
-) -> list[dict[str, str]]:
+def _safe_nva_other_projects(profile_id: str) -> list[dict[str, str]]:
     try:
-        return nva_other_projects(profile_id, project_cache=project_cache)
+        return nva_other_projects(profile_id)
     except Exception:
         return []
 
@@ -848,7 +827,6 @@ def fetch_nva_bundle(
     max_tags: int,
     max_works: int,
     person_lookup: dict[str, dict[str, str]] | None = None,
-    project_cache: dict[str, bool | None] | None = None,
 ) -> dict:
     profile = get_json(nva_api_url(f"/cristin/person/{profile_id}"))
     nva_affiliations, guest_affiliations = split_guest_affiliations(
@@ -883,7 +861,7 @@ def fetch_nva_bundle(
         "orcid": find_orcid(profile.get("identifiers") or []),
         "institutional_website": ((profile.get("contactDetails") or {}).get("webPage") or "").strip(),
         "selected_works": nva_selected_works(profile_id, max_works=max_works, person_lookup=person_lookup),
-        "other_projects": _safe_nva_other_projects(profile_id, project_cache=project_cache),
+        "other_projects": _safe_nva_other_projects(profile_id),
         "profile_id": profile_id,
     }
 
@@ -1686,7 +1664,6 @@ def enrich_person(
     institution_lookup: dict[str, str],
     slug_to_institution_name: dict[str, str],
     org_cache: dict,
-    project_cache: dict[str, bool | None],
     person_lookup: dict[str, dict[str, str]],
     max_tags: int,
     max_works: int,
@@ -1745,7 +1722,6 @@ def enrich_person(
                 max_tags=max_tags,
                 max_works=max_works,
                 person_lookup=person_lookup,
-                project_cache=project_cache,
             )
             if nva_bundle.get("orcid"):
                 orcid_url = nva_bundle["orcid"]
@@ -1945,7 +1921,6 @@ def main():
     institution_lookup, slug_to_institution_name = build_institution_lookup(root)
     person_lookup = build_person_lookup(root)
     org_cache = {}
-    project_cache: dict[str, bool | None] = {}
 
     updated = 0
     skipped = 0
@@ -1966,7 +1941,6 @@ def main():
                 institution_lookup=institution_lookup,
                 slug_to_institution_name=slug_to_institution_name,
                 org_cache=org_cache,
-                project_cache=project_cache,
                 person_lookup=person_lookup,
                 max_tags=args.max_tags,
                 max_works=args.max_works,

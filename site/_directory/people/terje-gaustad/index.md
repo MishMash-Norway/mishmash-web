@@ -10,6 +10,11 @@ institutions:
 - kristiania-university-college
 projects:
 - strategic-storyteller
+other_projects:
+- title: creAIte - Transformative Technologies, Creativity, and Value Creation in
+    the Cutural Sector (creAIte)
+  url: https://nva.sikt.no/projects/2742607
+  nva_id: '2742607'
 roles:
 - Member
 urls:

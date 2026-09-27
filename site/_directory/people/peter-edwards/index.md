@@ -10,6 +10,10 @@ institutions:
 - university-of-oslo
 projects:
 - musical-doppelgangers
+other_projects:
+- title: Democracy of Silence
+  url: https://nva.sikt.no/projects/2757347
+  nva_id: '2757347'
 roles:
 - Member
 urls:

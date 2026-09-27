@@ -11,9 +11,12 @@ institutions:
 projects:
 - trondheim-kreativ-ai
 other_projects:
-- title: Kairos - A holistic solution for AI integration in Norwegian organizations
-  url: https://nva.sikt.no/projects/2774998
-  nva_id: '2774998'
+- title: Plattform for autonome KI-agenter i maritim næring
+  url: https://nva.sikt.no/projects/2776960
+  nva_id: '2776960'
+- title: Vertical sustainable platform organizations (VertiGO)
+  url: https://nva.sikt.no/projects/2752508
+  nva_id: '2752508'
 roles:
 - Member
 urls:

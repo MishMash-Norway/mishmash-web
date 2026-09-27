@@ -14,6 +14,11 @@ affiliation_units:
 - Faculty of Education, Arts and Sports
 - Department of Arts Education
 projects: []
+other_projects:
+- title: European Academy for Teachers’ skills and competences development for an
+    effective AI Integration in education
+  url: https://nva.sikt.no/projects/2771030
+  nva_id: '2771030'
 roles:
 - Board Member
 urls:

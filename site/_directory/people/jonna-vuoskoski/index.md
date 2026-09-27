@@ -15,12 +15,6 @@ other_projects:
 - title: Auditory Emotion Processing in Autism
   url: https://nva.sikt.no/projects/2763404
   nva_id: '2763404'
-- title: Musikalitet, personlighet, helse og livskvalitet. En tvillingstudie.
-  url: https://nva.sikt.no/projects/2520576
-  nva_id: '2520576'
-- title: PROMENTA Research Center
-  url: https://nva.sikt.no/projects/2492068
-  nva_id: '2492068'
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'

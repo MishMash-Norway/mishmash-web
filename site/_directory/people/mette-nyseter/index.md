@@ -12,6 +12,12 @@ institutions:
 projects:
 - authentic-anonymity-in-documentary-film
 other_projects:
+- title: Effekten av mindre lab-øvelser i undervisningen i TV- og dokumentarfilmproduksjon
+  url: https://nva.sikt.no/projects/2531393
+  nva_id: '2531393'
+- title: Exploring Authentic Anonymity in Documentary Film through AI
+  url: https://nva.sikt.no/projects/2775048
+  nva_id: '2775048'
 - title: Rollespill som metode i kunstnerisk og pedagogisk utviklingsarbeid innen
     TV - og dokumentarfilmproduksjon
   url: https://nva.sikt.no/projects/2736134

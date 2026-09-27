@@ -12,6 +12,10 @@ institutions:
 - national-library-of-norway
 - university-of-oslo
 projects: []
+other_projects:
+- title: 'FoodStories: Heritagisering for bærekraftig verdiskapning'
+  url: https://nva.sikt.no/projects/2739584
+  nva_id: '2739584'
 roles:
 - Board Member
 urls:

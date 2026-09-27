@@ -11,12 +11,20 @@ institutions:
 projects:
 - environmental-sustainability-mishmash
 other_projects:
-- title: 'DATAPACT: COMPLIANCE BY DESIGN OF DATA/AI OPERATIONS AND PIPELINES'
-  url: https://nva.sikt.no/projects/2739280
-  nva_id: '2739280'
-- title: Intent-based data operation in the computing continuum
-  url: https://nva.sikt.no/projects/2751489
-  nva_id: '2751489'
+- title: 'Forebyggende tiltak mot livmorhalskreft: forbedring av masseundersøkelsen
+    og innvirkning av HPV vaksine'
+  url: https://nva.sikt.no/projects/541643
+  nva_id: '541643'
+- title: 'Forebyggende tiltak mot livmorhalskreft: forbedring av masseundersøkelsen
+    og innvirkning av HPV vaksine. Kvinners livsstil og helse (II)'
+  url: https://nva.sikt.no/projects/2061004
+  nva_id: '2061004'
+- title: Gemini Centre for Trustworthy and Sustainable AI
+  url: https://nva.sikt.no/projects/2754193
+  nva_id: '2754193'
+- title: 'Privacy@Edge: Privacy-aware Edge and Data Subjects'
+  url: https://nva.sikt.no/projects/2715312
+  nva_id: '2715312'
 roles:
 - Member
 urls:

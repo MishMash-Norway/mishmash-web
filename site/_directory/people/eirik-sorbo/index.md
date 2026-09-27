@@ -17,6 +17,10 @@ other_projects:
 - title: CreateMe
   url: https://nva.sikt.no/projects/2591724
   nva_id: '2591724'
+- title: Kunsten å skape kompetanse og kunnskap for fremtiden – Kunstfagenes verdi
+    og potensiale i videregående skole
+  url: https://nva.sikt.no/projects/2727694
+  nva_id: '2727694'
 roles:
 - Member
 - Work Package Leader

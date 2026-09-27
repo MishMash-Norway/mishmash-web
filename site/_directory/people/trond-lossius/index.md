@@ -24,6 +24,10 @@ other_projects:
     reality (XR)'
   url: https://nva.sikt.no/projects/2731892
   nva_id: '2731892'
+- title: 'An Architecture of Chronic Illness: A Critical Exploration of Norwegian
+    Buildings and Bodies from Post-War to Post-Pandemic'
+  url: https://nva.sikt.no/projects/2732225
+  nva_id: '2732225'
 roles:
 - Member
 urls:
