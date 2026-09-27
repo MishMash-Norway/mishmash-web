@@ -28,6 +28,9 @@ other_projects:
 - title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms
   url: https://nva.sikt.no/projects/2743421
   nva_id: '2743421'
+- title: fourMs Lab Upgrade
+  url: https://nva.sikt.no/projects/2748527
+  nva_id: '2748527'
 - title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
   url: https://nva.sikt.no/projects/568602
   nva_id: '568602'
@@ -44,9 +47,72 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Music Improvisation
+- Composition
+- Music
+- Artificial Intelligence
+- Music Technology
+search_keywords:
+- Music Improvisation
+- Composition
+- Music
+- Artificial Intelligence
+- Music Technology
 selected_works:
+- title: 'Stillness 2025 (Deichman): a group standstill performance with wearable
+    physiology (Equivital)'
+  year: '2026'
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/21964815
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Supervisor
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Bilge Serdar Göksülük
+    role: DataCollector
+  - name: Jinyue Guo
+    role: DataCollector
+  - name: Kari Anne Vadstensvik Bjerkestrand
+    role: Researcher
+  - name: Victoria Johnson
+    role: Researcher
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Rao, Shabari
+    role: Researcher
+- title: 'Sverm: Motion capture of human micromotion during standstill'
+  year: '2026'
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/22045791
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: DataCollector
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Kari Anne Vadstensvik Bjerkestrand
+    role: Researcher
+  - name: Victoria Johnson
+    role: Researcher
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+- title: Kunstig kreativitet? Mishmash åpningssermoni i Univerisitetets aula 8.4 2026
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  url: https://www.youtube.com/watch?v=rq8UnZlzYk4
+  contributors:
+  - name: Victoria Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
 - title: Klangen av framtida?
   year: '2025'
   source: Music performance
@@ -160,67 +226,6 @@ selected_works:
     role: Creator
     slug: victoria-johnson
     url: /people/victoria-johnson/
-- title: Sverm - mikrobevegelser og mikrolyd
-  year: '2012'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Artist
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kari Anne Vadstensvik Bjerkestrand
-    role: Artist
-  - name: Victoria Johnson
-    role: Artist
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-  - name: Lisa Dillan
-    role: Artist
-  - name: Maja Roel
-    role: Artist
-  - name: Elisabeth Kjeldahl Nilsson
-    role: Artist
-- title: 'Sverm: Visning og felles utprøving av mikrolyd/mikrobevegelser'
-  year: '2012'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Artist
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kari Anne Vadstensvik Bjerkestrand
-    role: Artist
-  - name: Lisa Dillan
-    role: Artist
-  - name: Victoria Johnson
-    role: Artist
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-  - name: Maja Roel
-    role: Artist
-- title: 'Sverm: et mikrounivers av dans og musikk'
-  year: '2012'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Artist
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kari Anne Vadstensvik Bjerkestrand
-    role: Artist
-  - name: Lisa Dillan
-    role: Artist
-  - name: Victoria Johnson
-    role: Artist
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-  - name: Elisabeth Kjeldahl Nilsson
-    role: Artist
-  - name: Maja Roel
-    role: Artist
 source_mentions: []
 summary: ''
 description: Research fellow, Fagseksjon for strykere, Norwegian Academy of Music

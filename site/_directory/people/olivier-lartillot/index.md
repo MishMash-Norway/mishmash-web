@@ -38,6 +38,20 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Hardingfele and AI
+  year: '2026'
+  source: Performing arts
+  group_type: Performing arts
+  url: https://mishmash.no/lab/opening-ceremony/#:~:text=act%20is%20claimed-,1:03:30,-Hardingfele%20and%20AI
+  contributors:
+  - name: Joan Gatti
+    role: RoleOther
+  - name: Olivier Lartillot
+    role: RoleOther
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Lars Løberg Monstad
+    role: RoleOther
 - title: Towards automated transcription of Hardanger fiddle performances
   year: '2026'
   source: Conference poster
@@ -169,25 +183,6 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: 'Video Visualization of a String Quartet Performance of a Bach Fugue: Design
-    and Subjective Evaluation'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1177/20592043251352299
-  contributors:
-  - name: Olivier Lartillot
-    role: Creator
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
-  - name: Dana Swarbrick
-    role: Creator
-    slug: dana-swarbrick
-    url: /people/dana-swarbrick/
-  - name: Finn Upham
-    role: Creator
-  - name: Carlos Eduardo Cancino-Chacón
-    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''

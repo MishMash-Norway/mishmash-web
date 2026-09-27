@@ -1,8 +1,8 @@
-synced_at: '2026-09-26T10:05:49Z'
+synced_at: '2026-09-27T10:37:06Z'
 source: OpenAlex (CC0) for the open-access status and the free copy, Crossref for
   the licence
-count: 19
-free: 12
+count: 20
+free: 13
 works:
   10.1007/978-3-032-26999-7_18:
     status: closed
@@ -96,6 +96,13 @@ works:
     label: open access (author copy)
     free: true
     url: https://doi.org/10.5281/zenodo.17652120
+    licence: cc-by
+    licence_label: CC BY
+  10.5281/zenodo.20784433:
+    status: green
+    label: open access (author copy)
+    free: true
+    url: https://doi.org/10.5281/zenodo.20784433
     licence: cc-by
     licence_label: CC BY
   10.5281/zenodo.22276042:

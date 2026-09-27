@@ -10,6 +10,10 @@ institutions:
 - sintef
 projects:
 - trondheim-kreativ-ai
+other_projects:
+- title: Kairos - A holistic solution for AI integration in Norwegian organizations
+  url: https://nva.sikt.no/projects/2774998
+  nva_id: '2774998'
 roles:
 - Member
 urls:

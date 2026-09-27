@@ -75,6 +75,21 @@ search_keywords:
 - Music Technology
 - Sound Analysis /Synthesis
 selected_works:
+- title: 'The Perfect Wrong Note: Vyping and the Keyboard as Musical Interface for
+    Human-LLM Interaction'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.20784433
+  contributors:
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 - title: 'DAIM 2026: Symposium on Digital and AI Musicology'
   year: '2026'
   source: Book of abstracts
@@ -158,92 +173,73 @@ selected_works:
     role: Researcher
     slug: maham-riaz
     url: /people/maham-riaz/
-- title: Improvisation with the Muzziballs
+- title: 'Cymbal percussion: multimodal motion capture, audio and video'
   year: '2026'
-  source: Music performance
-  group_type: Music performance
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/21710617
   contributors:
-  - name: Bilge Serdar Göksülük
-    role: Conductor
   - name: Alexander Refsum Jensenius
-    role: Musician
+    role: DataCollector
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-  - name: Maham Riaz
-    role: Musician
-    slug: maham-riaz
-    url: /people/maham-riaz/
-  - name: Jinyue Guo
-    role: Musician
-  - name: Aikaterini Teleli
-    role: Musician
-  - name: Margarida Leal
-    role: Musician
-- title: 'Laughter in the making: social bonding and coordination in dance practices'
+  - name: Arve Voldsund
+    role: DataCurator
+  - name: Bjørn Arne Løken
+    role: Researcher
+  - name: Rolf Inge Godøy
+    role: Supervisor
+- title: 'Sverm: Motion capture of human micromotion during standstill'
   year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.3389/fpsyg.2026.1754425
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/22045791
   contributors:
-  - name: Finn Upham
-    role: Creator
-  - name: Bilge Serdar Göksülük
-    role: Creator
   - name: Alexander Refsum Jensenius
-    role: Creator
+    role: DataCollector
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: The Listening Body – for mennesker med og uten Parkinson
+  - name: Kari Anne Vadstensvik Bjerkestrand
+    role: Researcher
+  - name: Victoria Johnson
+    role: Researcher
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+- title: 'Pilot study: jazz guitar motion capture (Stein Helge Solstad, 2012)'
   year: '2026'
-  source: Music performance
-  group_type: Music performance
-  url: https://thelisteningbody.me/event/oslo-musiclab-the-listening-body-for-mennesker-med-og-uten-parkinson/
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/21360544
   contributors:
-  - name: Annabel Balean Guaita
-    role: Musician
-  - name: Finn Upham
-    role: RoleOther
+  - name: Voldsund, Arve
+    role: DataCollector
+  - name: Stein Helge Solstad
+    role: Researcher
   - name: Alexander Refsum Jensenius
-    role: RoleOther
+    role: Researcher
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: 'Sounding Human: Music and Machines, 1740/2020. By Deirdre Loughridge'
+  - name: Rolf Inge Godøy
+    role: Supervisor
+- title: William Westney at the fourMs Lab (2010)
   year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1093/ml/gcag043
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/22134130
   contributors:
   - name: Alexander Refsum Jensenius
-    role: Creator
+    role: DataCollector
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: Performative Togetherness in networked music–dance performance
+- title: 'The Oslo Standstill Database: motion capture and multimodal recordings of
+    human standstill and micromotion'
   year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1080/14794713.2026.2657654
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/21964888
   contributors:
-  - name: Bilge Serdar
-    role: Creator
-  - name: Aleksander Tidemann
-    role: Creator
   - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: Mixed Method Audio-Video Analyses of Felt Togetherness in a Networked Music-Dance
-    Performance
-  year: '2026'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/3802842.3802884
-  contributors:
-  - name: Bilge Serdar
-    role: Creator
-  - name: Aleksander Tidemann
-    role: Creator
-  - name: Alexander Refsum Jensenius
-    role: Creator
+    role: DataCollector
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 source_mentions:

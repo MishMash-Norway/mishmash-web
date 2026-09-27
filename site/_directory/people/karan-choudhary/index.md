@@ -80,7 +80,8 @@ summary: 'Karan Choudhary is PhD in Law from National Law University, Delhi and 
   Legal Research Methodology, Criminal law, Human rights, Indigenous issues, Cultural
   law and policy. He has received the prestigious Erasmus Scholarship from the European
   Union. Qualified ''All India Examination for Assistant Professor in Law'' i.e. UGC
-  -NET. He has gained extensive experience in law both as a teacher and as a judge.'
+  -NET. He has gained extensive experience in law both as a teacher and as a judge.
+  Can be reached at E-mail: kch.mac007@gmail.com ; Karan.choudhary@aij.gov.in'
 published: true
 permalink: /people/karan-choudhary/
 wps:

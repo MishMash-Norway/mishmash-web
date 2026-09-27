@@ -47,6 +47,20 @@ search_keywords:
 - Music
 - Music Technology
 selected_works:
+- title: Kunstig kreativitet? Mishmash åpningssermoni i Univerisitetets aula 8.4 2026
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  url: https://www.youtube.com/watch?v=rq8UnZlzYk4
+  contributors:
+  - name: Victoria Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
 - title: Klangen av framtida?
   year: '2025'
   source: Music performance
@@ -184,19 +198,6 @@ selected_works:
     role: Composer
     slug: trond-lossius
     url: /people/trond-lossius/
-- title: Fritt fall - Live coding
-  year: '2015'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Artist
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Anders Tveit
-    role: Artist
-    slug: anders-tveit
-    url: /people/anders-tveit/
 source_mentions: []
 summary: ''
 description: University lecturer, Fagseksjon for musikkteori, komposisjon og musikkteknologi,

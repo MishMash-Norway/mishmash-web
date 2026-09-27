@@ -97,6 +97,20 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
+- title: 'Workshop notebook: Video Visualization'
+  year: '2024'
+  source: Dataset
+  group_type: Dataset
+  url: https://zenodo.org/records/10480526
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Researcher
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Balint Laczko
+    role: Researcher
+    slug: balint-laczko
+    url: /people/balint-laczko/
 - title: 'LVNS-RAVE: Diversified audio generation with RAVE and Latent Vector Novelty
     Search'
   year: '2024'

@@ -33,6 +33,11 @@ search_keywords:
 - Learning
 - Agency and Control
 selected_works:
+- title: Causal Strength Under Structure Uncertainty
+  year: '2026'
+  source: Preprint
+  group_type: Preprint
+  url: https://doi.org/10.31234/osf.io/vuf57_v1
 - title: 'Tactical Debt in Repeated Negotiations: How Lowball Tactics Trigger Asymmetric
     Behavioural Responses'
   year: '2026'
@@ -85,12 +90,6 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1080/1047840X.2025.2482355
-- title: Impact of personalizing experiences of manipulation outside of awareness
-    on autonomy.
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1037/cns0000343
 source_mentions: []
 summary: ''
 layout: person

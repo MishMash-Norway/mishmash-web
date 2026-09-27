@@ -10,6 +10,10 @@ institutions:
 - oslo-school-of-architecture-and-design
 projects:
 - tao-transductive-acoustic-organism
+other_projects:
+- title: RITMO Centre for Interdisciplinary Studies in Rhythm, Time and Motion
+  url: https://nva.sikt.no/projects/568602
+  nva_id: '568602'
 roles:
 - Member
 urls:
@@ -27,6 +31,21 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'The Perfect Wrong Note: Vyping and the Keyboard as Musical Interface for
+    Human-LLM Interaction'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.20784433
+  contributors:
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 - title: 'Playing with Failure: A Queer Framework for Making Service Systems Otherwise'
   year: '2025'
   source: Journal article
