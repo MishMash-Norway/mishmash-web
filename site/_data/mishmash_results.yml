@@ -1,4 +1,4 @@
-synced_at: '2026-09-27T10:36:57Z'
+synced_at: '2026-09-28T11:49:25Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -7,6 +7,31 @@ project:
     en: MishMash Centre for AI and Creativity
     nb: MishMash Senter for KI og kreativitet
 results:
+- title: MishMash Opening Conference – Book of Abstracts
+  year: '2026'
+  type: BookAnthology
+  type_label: Book anthology
+  group_type: Book anthology
+  contributors:
+  - name: Roderick Sander Cornelis Udo
+    role: Editor
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors: []
+    title: MishMash Opening Conference – Book of Abstracts
+    container: ''
+    details: 'Universitetet i Agder. doi: 10.5281/zenodo.23009315.'
+    abstract: This booklet contains the program and abstracts for the Opening Conference
+      of MishMash Centre for AI and Creativity held on 14–15 September 2026 at Kilden
+      Performing Arts Centre, Kristiansand, Norway.
+    full_text_url: https://hdl.handle.net/11250/5577733
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0e6fc4da1-9979f093-4cb3-4039-af2f-8255dddf82ae
+  url: https://doi.org/10.5281/zenodo.23009315
+  nva_url: https://nva.sikt.no/registration/01a0e6fc4da1-9979f093-4cb3-4039-af2f-8255dddf82ae
 - title: 'The Perfect Wrong Note: Vyping and the Keyboard as Musical Interface for
     Human-LLM Interaction'
   year: '2026'
@@ -789,6 +814,91 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
   url: https://doi.org/10.5281/ZENODO.22643770
   nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+- title: Mirrors of Intelligence
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Adín Ramírez Rivera
+    role: Creator
+  - name: Changkyu Choi
+    role: ContactPerson
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
+  institutions:
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Rivera, Adín Ramírez
+      name: Adín Ramírez Rivera
+    title: Mirrors of Intelligence
+    container: Public seminar  - AI in Our Daily Lives.
+    details: Litteraturhuset, Oslo.
+    abstract: The lecture focuses on how AI systems are built, what they reflect from
+      human data, and why their outputs require critical judgment. In addition, it
+      explains the development of LLMs and VLMs through large-scale data collection,
+      pre-training, fine-tuning, and human-feedback-based alignment. It highlights
+      both the strengths of AI, such as summarizing well-established knowledge and
+      generating standard code, and its limitations, including biases, hallucinations,
+      and sycophancy. The main takeaway is to use AI as an augmentative tool rather
+      than a replacement for human judgment, while remaining aware of bias, questioning
+      plausible but false information, and developing AI literacy as an essential
+      skill.
+    full_text_url: https://hdl.handle.net/11250/5578112
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0e7c15ebd-017530ee-b0ba-4749-8b8d-0cca6a99c1ff
+  url: https://nor.mofa.go.kr/no-en/brd/m_21236/view.do?seq=761799&page=2
+  nva_url: https://nva.sikt.no/registration/01a0e7c15ebd-017530ee-b0ba-4749-8b8d-0cca6a99c1ff
+- title: 'Know-Thy-Not: Training-Free Targeted Negation in Dual-Encoder Vision-Language
+    Models'
+  year: '2026'
+  type: ConferencePoster
+  type_label: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Changkyu Choi
+    role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
+  institutions:
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Choi, Changkyu
+      name: Changkyu Choi
+      slug: changkyu-choi
+      url: /people/changkyu-choi/
+    title: 'Know-Thy-Not: Training-Free Targeted Negation in Dual-Encoder Vision-Language
+      Models'
+    container: 'Know-Thy-Not: Training-Free Targeted Negation in Dual-Encoder Vision-Language
+      Models.'
+    details: Kristiansand.
+    abstract: Dual-encoder vision-language models systematically fail at negation,
+      scoring "a cat without a dog"' nearly identically to "a cat with a dog.'' We
+      show that this failure is inherent to the single-embedding framework. Under
+      contrastive training, single-embedding methods can at best ignore the negated
+      concept (dilution) but never penalize its presence (rejection). We propose Know-Thy-Not
+      (KTN), a training-free method that introduces an image-side rejection dimension
+      to penalize the negated concept directly in the visual representation. We also
+      introduce COCO-Confusion, the first benchmark requiring genuine rejection to
+      succeed. Across 9 backbones, KTN improves COCO-Confusion mAP by up to +25.6
+      over vanilla VLMs and +9.6 over the strongest existing method.
+    full_text_url: https://hdl.handle.net/11250/5577848
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0e73c27e5-21c22b7c-53c2-4dbe-96e7-03bdaa2f38ea
+  url: https://mishmash.no/assets/events/kristiansand2026/mishmash-opening-conference-2026-abstracts.pdf
+  nva_url: https://nva.sikt.no/registration/01a0e73c27e5-21c22b7c-53c2-4dbe-96e7-03bdaa2f38ea
 - title: 'The Perfect Wrong Note: Vyping and the Keyboard as Musical Interface for
     Human-LLM Interaction'
   year: '2026'
@@ -4512,6 +4622,264 @@ results:
     nva_url: https://nva.sikt.no/registration/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
   url: https://hearhere.be/en/expo/dhv%C4%81ni
   nva_url: https://nva.sikt.no/registration/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
+- title: Suppressing Non-Semantic Noise in Masked Image Modeling Representations
+  year: '2026'
+  type: AcademicArticle
+  type_label: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Martine Hjelkrem Tan
+    role: Creator
+  - name: Marius Aasan
+    role: Creator
+  - name: Rwiddhi Chakraborty
+    role: Creator
+  - name: Gabriel Yanci Arteaga
+    role: Creator
+  - name: Changkyu Choi
+    role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
+  - name: Adín Ramírez Rivera
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  citation:
+    authors:
+    - display: Tan, Martine Hjelkrem
+      name: Martine Hjelkrem Tan
+    - display: Aasan, Marius
+      name: Marius Aasan
+    - display: Chakraborty, Rwiddhi
+      name: Rwiddhi Chakraborty
+    - display: Arteaga, Gabriel Yanci
+      name: Gabriel Yanci Arteaga
+    - display: Choi, Changkyu
+      name: Changkyu Choi
+      slug: changkyu-choi
+      url: /people/changkyu-choi/
+    - display: Rivera, Adín Ramírez
+      name: Adín Ramírez Rivera
+    title: Suppressing Non-Semantic Noise in Masked Image Modeling Representations
+    container: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).
+    details: p. 19319–19329.
+    abstract: Masked Image Modeling (MIM) has become a ubiquitous self-supervised
+      vision paradigm. In this work, we show that MIM objectives cause the learned
+      representations to retain non-semantic information, which ultimately hurts performance
+      during inference. We introduce a model-agnostic score for semantic invariance
+      using Principal Component Analysis (PCA) on real and synthetic non-semantic
+      images. Based on this score, we propose a simple method, Semantically Orthogonal
+      Artifact Projection (SOAP), to directly suppress non-semantic information in
+      patch representations, leading to consistent improvements in zero-shot performance
+      across various MIM-based models. SOAP is a post-hoc suppression method, requires
+      zero training, and can be attached to any model as a single linear head.
+    full_text_url: https://hdl.handle.net/11250/5578036
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0e79e20f7-e6da56d9-6da0-4394-84ae-9fc005627d93
+  url: https://openaccess.thecvf.com/content/CVPR2026/html/Hjelkrem-Tan_Suppressing_Non-Semantic_Noise_in_Masked_Image_Modeling_Representations_CVPR_2026_paper.html
+  nva_url: https://nva.sikt.no/registration/01a0e79e20f7-e6da56d9-6da0-4394-84ae-9fc005627d93
+- title: 'Remember Your Trace: Memory-Guided Long-Horizon Agentic Framework for Consistent
+    and Hierarchical Repository-Level Code Documentation'
+  year: '2026'
+  type: AcademicArticle
+  type_label: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Bae, Suyoung
+    role: Creator
+  - name: Lee, Jaehoon
+    role: Creator
+  - name: Changkyu Choi
+    role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
+  - name: Choi, YunSeok
+    role: Creator
+  - name: Lee, Jee-Hyong
+    role: Creator
+  institutions:
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Suyoung, Bae,
+      name: Bae, Suyoung
+    - display: Jaehoon, Lee,
+      name: Lee, Jaehoon
+    - display: Choi, Changkyu
+      name: Changkyu Choi
+      slug: changkyu-choi
+      url: /people/changkyu-choi/
+    - display: YunSeok, Choi,
+      name: Choi, YunSeok
+    - display: Jee-Hyong, Lee,
+      name: Lee, Jee-Hyong
+    title: 'Remember Your Trace: Memory-Guided Long-Horizon Agentic Framework for
+      Consistent and Hierarchical Repository-Level Code Documentation'
+    container: Advances in Neural Information Processing Systems.
+    details: ISSN 1049-5258.
+    abstract: 'Automated code documentation is essential for modern software development,
+      providing the contextual grounding that both human developers and coding agents
+      rely on to navigate large codebases. Existing repository-level approaches process
+      components independently, causing redundant retrieval and conflicting descriptions
+      across documents while producing outputs that lack hierarchical structure. Therefore,
+      we propose MemDocAgent, a long-horizon agentic framework that generates documentation
+      within a single, integrated context spanning the entire repository. It combines
+      two components: (i) Dependency-Aware Traversal Guiding that predetermines a
+      traversal order respecting dependency and granularity hierarchies; (ii) Memory-Guided
+      Agentic Interaction, in which the agent interacts with RepoMemory, a shared
+      memory accumulating prior work traces through read, write, and verify operations.
+      Through an in-depth multi-criteria evaluation, MemDocAgent achieves the best
+      performance over both open and closed-source baselines and demonstrates practical
+      applicability in real software development workflows.'
+    full_text_url: https://hdl.handle.net/11250/5536607
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/019f627caf49-605ce832-34e7-407c-891a-f3b73083f2b8
+  url: https://arxiv.org/abs/2605.14563
+  nva_url: https://nva.sikt.no/registration/019f627caf49-605ce832-34e7-407c-891a-f3b73083f2b8
+- title: 'PubTables-QA: A Benchmark Toward Cross-Page Table Reasoning in Table Visual
+    Question Answering'
+  year: '2026'
+  type: AcademicArticle
+  type_label: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Jiin Han
+    role: Creator
+  - name: Suyoung Bae
+    role: Creator
+  - name: Yerim Choi
+    role: Creator
+  - name: Sangyun Lee
+    role: Creator
+  - name: Kyutae Kim
+    role: Creator
+  - name: Ryunho Kim
+    role: Creator
+  - name: Jee-Hyong Lee
+    role: Creator
+  - name: Changkyu Choi
+    role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
+  - name: Yunseok Choi
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Han, Jiin
+      name: Jiin Han
+    - display: Bae, Suyoung
+      name: Suyoung Bae
+    - display: Choi, Yerim
+      name: Yerim Choi
+    - display: Lee, Sangyun
+      name: Sangyun Lee
+    - display: Kim, Kyutae
+      name: Kyutae Kim
+    - display: Kim, Ryunho
+      name: Ryunho Kim
+    - display: Lee, Jee-Hyong
+      name: Jee-Hyong Lee
+    - display: Choi, Changkyu
+      name: Changkyu Choi
+      slug: changkyu-choi
+      url: /people/changkyu-choi/
+    - display: Choi, Yunseok
+      name: Yunseok Choi
+    title: 'PubTables-QA: A Benchmark Toward Cross-Page Table Reasoning in Table Visual
+      Question Answering'
+    container: ACM Transactions on Knowledge Discovery from Data.
+    details: ISSN 1556-4681.
+    abstract: Tables are central to scientific communication, yet their interpretation
+      depends critically on layout, continuity, and surrounding context. While existing
+      multi-page and multi-table benchmarks formally require document-level reasoning,
+      models can often succeed through stochastic shortcut search—locating local answer-bearing
+      regions without navigating table structure. To address this gap, we introduce
+      PubTables-QA, a multi-page TableVQA benchmark designed to audit responsible
+      cross-page visual reasoning in academic documents. Built on PubTables-v2’s structural
+      annotations, PubTables-QA provides 2,106 QA pairs that are unanswerable from
+      any single page, compelling models to reconstruct table continuity across pages
+      or integrate evidence across multiple tables. We further introduce a three-level
+      QA taxonomy spanning Document, Table, and Cell/column levels. Experiments on
+      recent MLLMs, including GPT-4o, Gemini-2.5-Pro, and Gemma-4, show that even
+      the strongest model reaches only 32.6% accuracy. Oracle-setting analysis further
+      shows that performance depends strongly on access to the correct page, table
+      region, and cell-level evidence, highlighting persistent failures in faithful
+      cross-page evidence integration.
+    full_text_url: https://hdl.handle.net/11250/5534467
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/019f272a3ee0-0163ee5a-4460-41bc-b898-ae81aabac89f
+  url: https://respmultimodal2026.github.io
+  nva_url: https://nva.sikt.no/registration/019f272a3ee0-0163ee5a-4460-41bc-b898-ae81aabac89f
+- title: 'Selective Disclosure: Controlling Information Leakage in DocVQA Explanations'
+  year: '2026'
+  type: AcademicArticle
+  type_label: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Kangsoo Jung
+    role: Creator
+  - name: Mohamed Ali Souibgui
+    role: Creator
+  - name: Changkyu Choi
+    role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
+  - name: Catuscia Palamidessi
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  citation:
+    authors:
+    - display: Jung, Kangsoo
+      name: Kangsoo Jung
+    - display: Souibgui, Mohamed Ali
+      name: Mohamed Ali Souibgui
+    - display: Choi, Changkyu
+      name: Changkyu Choi
+      slug: changkyu-choi
+      url: /people/changkyu-choi/
+    - display: Palamidessi, Catuscia
+      name: Catuscia Palamidessi
+    title: 'Selective Disclosure: Controlling Information Leakage in DocVQA Explanations'
+    container: International Conference on Learning Representations (ICLR).
+    details: ISSN 0277-5778.
+    abstract: Explainable document visual question answering systems improve transparency
+      by visualizing document regions relevant to a query, but they can unintentionally
+      expose sensitive information through explanation outputs, even when textual
+      answers are restricted. We analyze privacy risks arising from coarse explanations
+      and adversarial jailbreaking queries. To mitigate this, we propose a policy-aware
+      visual explanation sanitization framework based on a Role-centric Attribute-Based
+      Access Control (RABAC) model, combining document structure analysis and line-level
+      localization to mask restricted regions. Our method is model-agnostic, supports
+      dynamic policies, and significantly reduces sensitive information leakage while
+      preserving interpretability.
+    full_text_url: https://hdl.handle.net/11250/5534426
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/019f270e6535-d8235761-09f9-4ca1-bea0-7815019fb548
+  url: https://iclr.cc/virtual/2026/10019246
+  nva_url: https://nva.sikt.no/registration/019f270e6535-d8235761-09f9-4ca1-bea0-7815019fb548
 - title: 'Digital parasitism: The use of pirated books in AI training datasets'
   year: '2026'
   type: AcademicArticle
@@ -5009,6 +5377,138 @@ results:
     nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
   url: https://doi.org/10.1093/mts/mtab013
   nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+- title: 'Trondheim Kreativ AI (TKAI) #4 - Deepfakes'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Viggo Tellefsen Wivestad
+    role: Creator
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
+  institutions:
+  - name: SINTEF
+    slug: sintef
+    url: /institutions/sintef/
+  citation:
+    authors:
+    - display: Wivestad, Viggo Tellefsen
+      name: Viggo Tellefsen Wivestad
+      slug: viggo-tellefsen-wivestad
+      url: /people/viggo-tellefsen-wivestad/
+    title: 'Trondheim Kreativ AI (TKAI) #4 - Deepfakes'
+    container: Deepfakes.
+    details: Trondheim.
+    abstract: 'TKAI Meetup #4 - Deepfakes
+
+      Wed, Mar 25 · 5:30 PM CET
+
+      Digs - Mesh Community, Krambugata 2, Trondheim, NO
+
+      Deepfakes. Ordet alene vekker både fascinasjon og uro.
+
+
+      Vi har alle sett dem – videoer der Jonas Gahr Støre plutselig holder nyttårstale
+      hjemme hos familien, eller der ansikter og stemmer manipuleres så overbevisende
+      at det blir vanskelig å skille falsk fra ekte.
+
+
+      Men hva er egentlig deepfakes? Hvordan lages de? Og hvor utsatt er vi i Norge
+      for konsekvensene av at hvem som helst kan lage slike videoer?
+
+
+      På vår fjerde Kreativ AI Meetup går vi tett på fenomenet deepfakes – både fra
+      et forskningsperspektiv og fra innsiden av hvordan de faktisk lages.
+
+
+      🍔 Sulten etter jobb? DIGS Café er åpen og selger nydelige sliders både før og
+      under arrangementet!
+
+
+      Viggo Tellefsen Wivestad
+
+      Forsker og data scientist, SINTEF Digital
+
+
+      Viggo jobber i skjæringspunktet mellom mennesker og kunstig intelligens, og
+      forsker blant annet på hvordan deepfakes påvirker samfunnet vårt. Han kombinerer
+      teknisk innsikt med en dyp forståelse for de samfunnsmessige konsekvensene av
+      AI-teknologi.
+
+
+      Foredrag: "Hva er deepfake, hvordan påvirker det samfunnet vårt, og hvor utsatt
+      er vi i Norge?"
+
+
+      Viggo tar oss med inn i forskningsverdenen og gir oss et grundig blikk på:
+
+
+      Hva deepfakes egentlig er, teknologisk sett
+
+      Hvordan deepfakes påvirker samfunnet – fra politikk til personvern
+
+      Norges sårbarhet: Hvor godt er vi rustet til å håndtere dette?
+
+      Et foredrag for deg som vil forstå både teknologien, truslene og mulighetene
+      ved deepfakes.
+
+
+      John-Ivar Eidsmo
+
+      Innholdsskaper og AI-rådgiver, Smidesang & Lyng
+
+
+      John-Ivar har jobbet med en lang rekke kunnskapsbedrifter i både offentlig og
+      privat sektor, og har blant annet arbeidet mye med internasjonale forskningsprosjekter.
+      Han fungerer som både rådgiver og innholdsprodusent for nasjonale og internasjonale
+      kunder og leder Smidesang & Lyng''s satsing på AI-støttet innhold.
+
+
+      Foredrag: "Fra idé til viral deepfake – erfaringer fra nyttårsvors hos Jonas"
+
+
+      John-Ivar tar oss med bak kulissene på hvordan han laget den virale "nyttårsvors
+      hos Jonas"-videoen. Du får se:
+
+
+      Hvordan han faktisk gjorde det – fra prompt til ferdig video
+
+      Hvilke verktøy han bruker og hvorfor
+
+      Triksene for å komme forbi sensurering og få til det du vil
+
+      Utfordringer med flere kjente ansikter i samme bilde
+
+      Reaksjonene på videoen – og hva dette betyr for veien fremover
+
+      Dette er en praktisk gjennomgang for alle som lurer på hvordan man egentlig
+      lager slike videoer – og hva mulighetene (og farene) er når verktøyene blir
+      tilgjengelige for alle.
+
+
+      Program
+
+      Onsdag 25. mars – DIGS, Trondheim
+
+      17:30–17:55 — Dørene åpner, barsalg
+
+      18:00–18:05 — Velkommen
+
+      18:05–18:30 — Viggo Tellefsen Wivestad
+
+      18:30–18:40 — Pause
+
+      18:40–19:05 — John-Ivar Eidsmo
+
+      19:05–19:15 — Q&A
+
+      19:15 → — Barsalg & mingling'
+    full_text_url: https://hdl.handle.net/11250/5577756
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0e7056837-9f723a04-5c97-411f-8054-d07dd966a3ff
+  url: https://www.meetup.com/trondheim-kreativ-ai/events/313109375/?eventOrigin=group_events_list
+  nva_url: https://nva.sikt.no/registration/01a0e7056837-9f723a04-5c97-411f-8054-d07dd966a3ff
 - title: A summer of Still Standing
   year: '2026'
   type: Lecture
@@ -7577,6 +8077,121 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/registration/0199949b48b1-a5946c53-896a-44f4-95c5-80327ad31de1
   nva_url: https://nva.sikt.no/registration/0199949b48b1-a5946c53-896a-44f4-95c5-80327ad31de1
+- title: 'Trondheim Kreativ AI (TKAI) #2 - Vibecoding & fremtidens kreative AI-arbeidsflyt'
+  year: '2025'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Viggo Tellefsen Wivestad
+    role: Creator
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
+  institutions:
+  - name: SINTEF
+    slug: sintef
+    url: /institutions/sintef/
+  citation:
+    authors:
+    - display: Wivestad, Viggo Tellefsen
+      name: Viggo Tellefsen Wivestad
+      slug: viggo-tellefsen-wivestad
+      url: /people/viggo-tellefsen-wivestad/
+    title: 'Trondheim Kreativ AI (TKAI) #2 - Vibecoding & fremtidens kreative AI-arbeidsflyt'
+    container: Vibecoding & fremtidens kreative AI-arbeidsflyt.
+    details: Trondheim.
+    abstract: 'Kreativ AI Meetup #2 - Vibecoding & fremtidens kreative AI-arbeidsflyt
+
+      Wed, Nov 26, 2025 · 5:30 PM CET
+
+      Digs - Mesh Community, Krambugata 2, Trondheim, NO
+
+      🔥 Oppdatert program for Vibecoding-meetupen – Onsdag 26. november, DIGS Trondheim
+
+
+      Hva er egentlig Vibecoding?
+
+      Tenk deg å programmere, designe og bygge prototyper – ikke ved å skrive nøyaktig
+      syntaks linje for linje, men ved å ha en flytende, intuitiv dialog med en AI.
+      Vibecoding handler om å bruke AI som en kreativ partner – du guider den med
+      naturlig språk og raske tilbakemeldinger for å iterere frem løsninger i et tempo
+      som var utenkelig for kort tid siden.
+
+
+      Dette er en game-changer som senker terskelen mellom en god idé og en fungerende
+      applikasjon. Det er en ny arbeidsflyt som endrer måten både utviklere, designere
+      og kreative tenkere jobber på.
+
+
+      🧠 Viggo Tellefsen Wivestad – Forsker, data scientist, SINTEF Digital
+
+
+      15 min: “Hva er vibecoding?”
+
+
+      Viggo jobber i skjæringspunktet mellom mennesker og kunstig intelligens, og
+      forsker blant annet på hvordan KI påvirker utviklingen av programvare.
+
+
+      I dette lynforedraget får du:
+
+
+      En komprimert, engasjerende reise gjennom hvordan “programmering” har utviklet
+      seg
+
+      Hvorfor dagens verktøy gjør at vi står midt i et paradigmeskifte
+
+      Hvor vibecoding passer inn akkurat nå – og hva det egentlig betyr i praksis
+
+      Perfekt for deg som vil forstå vibecoding fra bunnen av.
+
+
+      💡 Kristian Fagerlie – AI-pioner og skaperen av YouTube-kanalen All About AI
+
+
+      Kristian har drevet med Vibecoding helt siden det teknisk ble mulig, og er en
+      sann pioner på feltet.
+
+      Han er hjernen bak den populære YouTube-kanalen “All About AI”, hvor han jevnlig
+      deler sylskarpe tips, triks og innsikter om generativ AI – ofte med et ekstra
+      fokus på nettopp Vibecoding.
+
+
+      På meetupen vil Kristian gi oss:
+
+
+      En innføring i hva Vibecoding egentlig er (perfekt for deg som er ny på temaet).
+
+      Et eksklusivt innblikk i hans personlige arbeidsflyt og hvordan han bruker verktøyene
+      i praksis.
+
+      Eksempler på spennende og kreative prosjekter han selv har bygget med denne
+      metoden.
+
+      Dette er en unik sjanse til å lære av en av de fremste på feltet!
+
+
+      📅 Program Onsdag 26. november – Digs, Trondheim
+
+
+      17:30–17:55 Dørene åpner, barsalg
+
+      18:00–18:05 Velkommen
+
+      18:05–18:20 Viggo Tellefsen Wivestad
+
+      18:20–18:30 Pause
+
+      18:30–19:20 Kristian Fagerlie
+
+      19:20–19:30 Q&A
+
+      19:30 → Barsalg & mingling'
+    full_text_url: https://hdl.handle.net/11250/5577753
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0e6fab775-9269f0c6-88c1-4f06-a064-924bdc0e3c8a
+  url: https://www.meetup.com/trondheim-kreativ-ai/events/311793032/?eventOrigin=group_events_list
+  nva_url: https://nva.sikt.no/registration/01a0e6fab775-9269f0c6-88c1-4f06-a064-924bdc0e3c8a
 - title: AI, Arts & Humanities
   year: '2025'
   type: Lecture

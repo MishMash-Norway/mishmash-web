@@ -17,7 +17,7 @@ urls:
   github: https://github.com/zzigo
   linkedin: https://www.linkedin.com/in/lucianoazzigotti
   orcid: https://orcid.org/0000-0002-6812-2050
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/1896209
   youtube: https://www.youtube.com/@LucianoAzzigotti
   mastodon: https://mastodon.social/@zzigo
   instagram: https://www.instagram.com/azzigotti

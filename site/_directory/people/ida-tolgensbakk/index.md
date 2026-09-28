@@ -49,6 +49,19 @@ search_keywords:
 - Digital Humanities
 - Tradition
 selected_works:
+- title: Elves on the Shelf in a Nordic Context Homemaking and Crisis in a New Christmas
+    Tradition
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://gustavadolfsakademien.bokorder.se/en-us/article/5656/ethnologia-scandinavica-2026
+  contributors:
+  - name: Blanka Henriksson
+    role: Creator
+  - name: Ida Tolgensbakk
+    role: Creator
+    slug: ida-tolgensbakk
+    url: /people/ida-tolgensbakk/
 - title: 'Liv Emma Thorsen I alle vinduer: Potteplantenes kulturhistorie i Norge'
   year: '2026'
   source: Book review
@@ -186,18 +199,6 @@ selected_works:
     role: Creator
   - name: Viesturs Vēveris
     role: Creator
-- title: Rot og faktafeil i juleformidlinga
-  year: '2025'
-  source: Professional article
-  group_type: Professional article
-  url: https://www.forskersonen.no/debattinnlegg-forskningsformidling-historie/rot-og-faktafeil-i-juleformidlinga/2453099
-  contributors:
-  - name: Bjørn Sverre Hol Haugen
-    role: Creator
-  - name: Ida Tolgensbakk
-    role: Creator
-    slug: ida-tolgensbakk
-    url: /people/ida-tolgensbakk/
 source_mentions: []
 summary: null
 published: true

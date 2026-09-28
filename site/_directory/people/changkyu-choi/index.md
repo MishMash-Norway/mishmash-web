@@ -46,6 +46,37 @@ search_keywords:
 - Class Imbalance Problem for Machine Learning
 - Unsupervised Machine Learning Algorithms
 selected_works:
+- title: Suppressing Non-Semantic Noise in Masked Image Modeling Representations
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://openaccess.thecvf.com/content/CVPR2026/html/Hjelkrem-Tan_Suppressing_Non-Semantic_Noise_in_Masked_Image_Modeling_Representations_CVPR_2026_paper.html
+  contributors:
+  - name: Martine Hjelkrem Tan
+    role: Creator
+  - name: Marius Aasan
+    role: Creator
+  - name: Rwiddhi Chakraborty
+    role: Creator
+  - name: Gabriel Yanci Arteaga
+    role: Creator
+  - name: Changkyu Choi
+    role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
+  - name: Adín Ramírez Rivera
+    role: Creator
+- title: 'Know-Thy-Not: Training-Free Targeted Negation in Dual-Encoder Vision-Language
+    Models'
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://mishmash.no/assets/events/kristiansand2026/mishmash-opening-conference-2026-abstracts.pdf
+  contributors:
+  - name: Changkyu Choi
+    role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
 - title: Towards Self-Explainable Document Visual Question Answering with Chain-of-Explanation
     Predictions
   year: '2026'
@@ -74,13 +105,13 @@ selected_works:
   contributors:
   - name: Bae, Suyoung
     role: Creator
+  - name: Lee, Jaehoon
+    role: Creator
   - name: Changkyu Choi
     role: Creator
     slug: changkyu-choi
     url: /people/changkyu-choi/
   - name: Choi, YunSeok
-    role: Creator
-  - name: Lee, Jaehoon
     role: Creator
   - name: Lee, Jee-Hyong
     role: Creator
@@ -368,41 +399,6 @@ selected_works:
     url: /people/ali-ramezani-kebrya/
   - name: Robert Jenssen
     role: Creator
-- title: Information-Theoretic Approach to Learn Causal Relationship Between Question
-    and Answering in DocVQA
-  year: '2025'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Kjetil Indrehus
-    role: Creator
-  - name: Changkyu Choi
-    role: Creator
-    slug: changkyu-choi
-    url: /people/changkyu-choi/
-  - name: Ali Ramezani-Kebrya
-    role: Creator
-    slug: ali-ramezani-kebrya
-    url: /people/ali-ramezani-kebrya/
-- title: 'Marine Intelligence: Innovations to Enhance Underwater Exploration'
-  year: '2025'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Arangan Subramaniam
-    role: Creator
-  - name: Changkyu Choi
-    role: Creator
-    slug: changkyu-choi
-    url: /people/changkyu-choi/
-  - name: Nils Olav Handegard
-    role: Creator
-  - name: Robert Jenssen
-    role: Creator
-  - name: Ali Ramezani-Kebrya
-    role: Creator
-    slug: ali-ramezani-kebrya
-    url: /people/ali-ramezani-kebrya/
 source_mentions: []
 summary: ''
 permalink: /people/changkyu-choi/

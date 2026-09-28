@@ -36,6 +36,9 @@ other_projects:
 - title: 'mustXchange: music teacher education exchange'
   url: https://nva.sikt.no/projects/2667411
   nva_id: '2667411'
+- title: Sang som undervisningsform og danningsarena i lærerutdanning og skole
+  url: https://nva.sikt.no/projects/2777065
+  nva_id: '2777065'
 roles:
 - Member
 urls:
