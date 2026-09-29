@@ -30,6 +30,15 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: The need for new models of authorship and provenience in metadata
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Pierre Beauguitte
+    role: Creator
+    slug: pierre-beauguitte
+    url: /people/pierre-beauguitte/
 - title: A Large Norwegian Dataset for Weak Supervision ASR
   year: '2023'
   source: Book chapter

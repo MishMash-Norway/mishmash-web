@@ -46,6 +46,19 @@ search_keywords:
 - Class Imbalance Problem for Machine Learning
 - Unsupervised Machine Learning Algorithms
 selected_works:
+- title: 'PubTables-QA: a Multi-Page Table Visual Question Answering for Cross-Page
+    Table Reasoning'
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://www.ekc2026.org/page/programme/stdivision/15
+  contributors:
+  - name: Ji-In Han
+    role: Creator
+  - name: Changkyu Choi
+    role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
 - title: Suppressing Non-Semantic Noise in Masked Image Modeling Representations
   year: '2026'
   source: Journal article
@@ -377,27 +390,6 @@ selected_works:
     slug: changkyu-choi
     url: /people/changkyu-choi/
   - name: Adín Ramírez Rivera
-    role: Creator
-- title: Leveraging Foundation Model Adapters to Enable Robust and Semantic Underwater
-    Exploration
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://ceur-ws.org/Vol-3975/
-  contributors:
-  - name: Changkyu Choi
-    role: Creator
-    slug: changkyu-choi
-    url: /people/changkyu-choi/
-  - name: Arangan Subramaniam
-    role: Creator
-  - name: Nils Olav Handegard
-    role: Creator
-  - name: Ali Ramezani-Kebrya
-    role: Creator
-    slug: ali-ramezani-kebrya
-    url: /people/ali-ramezani-kebrya/
-  - name: Robert Jenssen
     role: Creator
 source_mentions: []
 summary: ''

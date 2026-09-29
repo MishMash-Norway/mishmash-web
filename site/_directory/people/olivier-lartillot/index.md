@@ -38,6 +38,36 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Formation of a Special Interest Group on Linked Metadata and Interoperability
+    in Musicology: Report and Results from the International Musicology Workshop Held
+    Between NFDI4Culture, musica*, RISM and the MishMash Centre for AI and Creativity'
+  year: '2026'
+  source: Report
+  group_type: Report
+  url: https://doi.org/10.5281/ZENODO.22868638
+  contributors:
+  - name: Augustin Braud
+    role: Creator
+  - name: Alexandra Büttner
+    role: Creator
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Anna Katharina Laux
+    role: Creator
+  - name: Laurent Pugin
+    role: Creator
+  - name: Kristina Richts-Matthaei
+    role: Creator
+  - name: Torsten Schrade
+    role: Creator
+  - name: Martha Stellmacher
+    role: Creator
+  - name: Linnaea Charlotte Söhn
+    role: Creator
+  - name: Barbara Wiermann
+    role: Creator
 - title: Hardingfele and AI
   year: '2026'
   source: Performing arts
@@ -161,28 +191,6 @@ selected_works:
     role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
-- title: 'MusiQAl: A Dataset for Music Question–Answering through Audio–Video Fusion'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.5334/tismir.222
-  contributors:
-  - name: Anna-Maria Christodoulou
-    role: Creator
-    slug: anna-maria-christodoulou
-    url: /people/anna-maria-christodoulou/
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
-  - name: Olivier Lartillot
-    role: Creator
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''

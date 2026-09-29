@@ -146,18 +146,6 @@ selected_works:
     url: /people/rafal-hanzl/
   - name: Maureen Thomas
     role: Writer
-- title: QueensGame
-  year: '2022'
-  source: Visual arts
-  group_type: Visual arts
-  url: https://runecast.net/queens-game/
-  contributors:
-  - name: Maureen Thomas
-    role: Artist
-  - name: Rafal Hanzl
-    role: Artist
-    slug: rafal-hanzl
-    url: /people/rafal-hanzl/
 - title: Medieval Akershus Castle - Interactive Museum Exhibit
   year: '2022'
   source: Exhibition
@@ -204,6 +192,16 @@ selected_works:
     role: RoleOther
   - name: Johannes Skjeltorp-Borgaas
     role: RoleOther
+- title: Creative technology design for "Lone Wolves Stick Together"by Nadja Lipsyc
+  year: '2019'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://filmskolen.no/en/research/stipendiatprogrammet/lone-wolves-stick-together-project/lone-wolves-stick-together
+  contributors:
+  - name: Rafal Hanzl
+    role: Artist
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
 source_mentions: []
 summary: Researcher and digital artist specialising in immersive technologies, projection
   mapping, and cultural heritage digitisation. Honorary Professor at Kristiania University

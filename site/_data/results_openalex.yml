@@ -1,8 +1,8 @@
-synced_at: '2026-09-28T11:49:34Z'
+synced_at: '2026-09-29T11:21:08Z'
 source: OpenAlex (CC0) for the open-access status and the free copy, Crossref for
   the licence
-count: 20
-free: 13
+count: 22
+free: 15
 works:
   10.1007/978-3-032-26999-7_18:
     status: closed
@@ -98,6 +98,13 @@ works:
     url: https://doi.org/10.5281/zenodo.17652120
     licence: cc-by
     licence_label: CC BY
+  10.5281/zenodo.20639784:
+    status: green
+    label: open access (author copy)
+    free: true
+    url: https://iris.unipa.it/bitstream/10447/714444/2/Early-Muse_4-2-Vendrix-Ahrendt_Partnerships-260814-1%20%281%29.pdf
+    licence: cc-by
+    licence_label: CC BY
   10.5281/zenodo.20784433:
     status: green
     label: open access (author copy)
@@ -117,6 +124,13 @@ works:
     label: open access (author copy)
     free: true
     url: https://doi.org/10.5281/zenodo.22643770
+    licence: cc-by
+    licence_label: CC BY
+  10.5281/zenodo.22868638:
+    status: green
+    label: open access (author copy)
+    free: true
+    url: https://doi.org/10.5281/zenodo.22868638
     licence: cc-by
     licence_label: CC BY
   10.5334/tismir.223:

@@ -60,6 +60,35 @@ search_keywords:
 - Artificial Intelligence
 - Music Technology
 selected_works:
+- title: Concert European Platform for Artistic Research in Music (EPARM) 2027 at
+    Norwegian Academy og Music 9.4 2026
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://aec-music.eu/event/european-platform-for-artistic-research-in-music-eparm-2026/programme
+  contributors:
+  - name: Victoria Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
+- title: Kunstig kreativitet? Mishmash åpningssermoni i Univerisitetets aula 8.4 2026
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://www.youtube.com/watch?v=rq8UnZlzYk4
+  contributors:
+  - name: Victoria Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
 - title: 'Stillness 2025 (Deichman): a group standstill performance with wearable
     physiology (Equivital)'
   year: '2026'
@@ -99,20 +128,6 @@ selected_works:
     role: Researcher
     slug: victoria-johnson
     url: /people/victoria-johnson/
-- title: Kunstig kreativitet? Mishmash åpningssermoni i Univerisitetets aula 8.4 2026
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  url: https://www.youtube.com/watch?v=rq8UnZlzYk4
-  contributors:
-  - name: Victoria Johnson
-    role: Soloist
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-  - name: Anders Tveit
-    role: Composer
-    slug: anders-tveit
-    url: /people/anders-tveit/
 - title: Klangen av framtida?
   year: '2025'
   source: Music performance
@@ -210,22 +225,6 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: How still is still? Exploring human standstill for artistic applications
-  year: '2014'
-  source: Journal article
-  group_type: Journal article
-  url: http://www.inderscience.com/info/ingeneral/forthcoming.php?jcode=ijart
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-  - name: Kari Bjerkestrand
-    role: Creator
-  - name: Victoria Kristine Å Johnson
-    role: Creator
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
 source_mentions: []
 summary: ''
 description: Research fellow, Fagseksjon for strykere, Norwegian Academy of Music

@@ -47,8 +47,23 @@ search_keywords:
 - Music
 - Music Technology
 selected_works:
+- title: Concert European Platform for Artistic Research in Music (EPARM) 2027 at
+    Norwegian Academy og Music 9.4 2026
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://aec-music.eu/event/european-platform-for-artistic-research-in-music-eparm-2026/programme
+  contributors:
+  - name: Victoria Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
 - title: Kunstig kreativitet? Mishmash åpningssermoni i Univerisitetets aula 8.4 2026
-  year: '2025'
+  year: '2026'
   source: Music performance
   group_type: Music performance
   url: https://www.youtube.com/watch?v=rq8UnZlzYk4
@@ -181,23 +196,6 @@ selected_works:
     role: Organizer
   - name: Ernst van der Loo
     role: Organizer
-- title: In a Now
-  year: '2019'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Ingvo Clauder
-    role: Composer
-  - name: Anders Tveit
-    role: Composer
-    slug: anders-tveit
-    url: /people/anders-tveit/
-  - name: Terje Evensen
-    role: Composer
-  - name: Trond Lossius
-    role: Composer
-    slug: trond-lossius
-    url: /people/trond-lossius/
 source_mentions: []
 summary: ''
 description: University lecturer, Fagseksjon for musikkteori, komposisjon og musikkteknologi,

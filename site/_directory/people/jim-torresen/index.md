@@ -40,6 +40,22 @@ tags:
 search_keywords:
 - Informatics
 selected_works:
+- title: FLexible Multi-Robot Social Navigation Using Diffusion-Based Deep Reinforcement
+    Learning
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Markus Yuki Nishimura
+    role: Creator
+  - name: Kohei Matsumoto
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Ryo Kurazume
+    role: Creator
 - title: Reducing Robot Vulnerabilities Through Joint Regulatory Assessment and User-Centered
     Development and Testing
   year: '2026'
@@ -195,25 +211,6 @@ selected_works:
   - name: Håkon Haustreis Tønnessen
     role: Creator
   - name: Md Zia Uddin
-    role: Creator
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-- title: Privacy-Preserving 3D Lidar-Based Multi-Modal Activity Recognition in Human-Robot
-    Interaction
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1109/iccma67641.2025.11369549
-  contributors:
-  - name: Adel Baselizadeh
-    role: Creator
-  - name: Md Zia Uddin
-    role: Creator
-  - name: Weria Khaksar
-    role: Creator
-  - name: Diana Saplacan Lindblom
     role: Creator
   - name: Jim Tørresen
     role: Creator

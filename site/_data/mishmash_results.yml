@@ -1,4 +1,4 @@
-synced_at: '2026-09-28T11:49:25Z'
+synced_at: '2026-09-29T11:21:01Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -814,6 +814,264 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
   url: https://doi.org/10.5281/ZENODO.22643770
   nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+- title: From the Legal Refugee to the Computational Refugee in an Age of Algorithmic
+    Prediction
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Murtaza Mohiqi
+    role: Creator
+    slug: murtaza-mohiqi
+    url: /people/murtaza-mohiqi/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Mohiqi, Murtaza
+      name: Murtaza Mohiqi
+      slug: murtaza-mohiqi
+      url: /people/murtaza-mohiqi/
+    title: From the Legal Refugee to the Computational Refugee in an Age of Algorithmic
+      Prediction
+    container: 'The Refugee Convention at 75: Perspectives Within and Beyond.'
+    details: University of Oslo.
+    abstract: The 1951 Refugee Convention is grounded in a legal imagination that
+      conceives refugee status determination as individualized, interpretive, and
+      rooted in human judgment, centred on narrative-based credibility assessment
+      and the ex post legal recognition of risk following flight and arrival. This
+      study argues that these assumptions are increasingly unsettled by the growing
+      use of digital and algorithmic systems in contemporary asylum governance. Informed
+      by scholarship in legal technology and critical data studies, it uses the notion
+      of the computational refugee as a heuristic to examine how algorithmic practices
+      are reshaping refugee protection. It contends that refugeehood is increasingly
+      constituted through anticipatory calculations of future risk, credibility, and
+      governability, as asylum seekers are rendered legible through data extraction,
+      profiling, and probabilistic modelling, often prior to formal legal recognition.
+    full_text_url: https://hdl.handle.net/11250/5578944
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0ec941cc4-a879e248-0ab4-4365-9162-bf4370b14cfb
+  url: https://www.jus.uio.no/ikrs/english/research/projects/beyond/events/refugee-convention-at-75/conference-program-short.html
+  nva_url: https://nva.sikt.no/registration/01a0ec941cc4-a879e248-0ab4-4365-9162-bf4370b14cfb
+- title: The need for new models of authorship and provenience in metadata
+  year: '2026'
+  type: ConferencePoster
+  type_label: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Pierre Beauguitte
+    role: Creator
+    slug: pierre-beauguitte
+    url: /people/pierre-beauguitte/
+  institutions:
+  - name: National Library of Norway
+    slug: national-library-of-norway
+    url: /institutions/national-library-of-norway/
+  citation:
+    authors:
+    - display: Beauguitte, Pierre
+      name: Pierre Beauguitte
+      slug: pierre-beauguitte
+      url: /people/pierre-beauguitte/
+    title: The need for new models of authorship and provenience in metadata
+    container: MishMash Opening Conference.
+    details: Kilden, Kristiansand.
+    abstract: 'Through a few real-life and imagined scenarios, we want to focus on
+      the questions of authorship and provenience in metadata for musical works. AI-assisted
+      and mixed music, where the role of the machine can be hard to document, challenges
+      classical model of authorship. Indigenous and traditional music, where oral
+      tradition is often the norm and composers and authors can be unknown, also forces
+      us to reconsider how works are catalogued.
+
+      AI and algorithmic musicological analysis promises to enrich our metadata descriptions
+      and make it possible to interlink objects in our collections. For the sake of
+      accountability, it becomes important to document the provenience of these new
+      automated analyses.
+
+      These questions are of particular interest for The National Library of Norway,
+      which aims at building a new infrastructure for its music collections, in order
+      to unite the different types of material (printed and manuscript scores, archive
+      recordings, and objects obtained via legal deposit) and make it available for
+      research, as much as legally permitted.
+
+      Designing a single ontology that will allow for rich and precise metadata across
+      a wide range of musical genres and traditions is a challenging task. Document-based
+      cataloguing practices can fail to fully capture relationships between objects,
+      actors, and more abstract entities. FRBR entities of work/expression/manifestation
+      are heavily influenced by the book-cataloguing practice and are not well suited
+      for music outside of the western classical music canon. We hope to find a solution
+      flexible enough to cover all scenarios, while remaining in line with international
+      standards for interoperability.'
+    full_text_url: https://hdl.handle.net/11250/5578700
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0ec0c2aa7-30d7841c-33fe-4d33-9ac3-709f946b3239
+  nva_url: https://nva.sikt.no/registration/01a0ec0c2aa7-30d7841c-33fe-4d33-9ac3-709f946b3239
+- title: An Exploratory Study on How AI Song Generation Affects Emotions, Agency,
+    Authenticity, Creativity, and Connectedness in Musicians and Nonmusicians
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Dana Swarbrick
+    role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
+  - name: Suvi Saarikallio
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: University of Jyväskylä
+    slug: university-of-jyvaskyla
+    url: /institutions/university-of-jyvaskyla/
+  citation:
+    authors:
+    - display: Swarbrick, Dana
+      name: Dana Swarbrick
+      slug: dana-swarbrick
+      url: /people/dana-swarbrick/
+    - display: Saarikallio, Suvi
+      name: Suvi Saarikallio
+    title: An Exploratory Study on How AI Song Generation Affects Emotions, Agency,
+      Authenticity, Creativity, and Connectedness in Musicians and Nonmusicians
+    container: SEMPRE Early Career Researcher Conference.
+    details: Cambridge.
+    abstract: Songwriting supports creative and emotional expression and social and
+      emotional development through emotion regulation and wellbeing, self-esteem,
+      and a stronger sense of identity. Recent advances in AI technology have provided
+      access to music creation even for people without musical expertise, through
+      AI song generation. We conducted an exploratory, single session study to examine
+      these outcomes in participants attending public outreach events. 45 participants
+      with varying musical proficiency were instructed to express themselves creatively
+      and emotionally by `composing' a song with an AI music generator. They listened
+      to their generated songs and completed a questionnaire measuring song evaluation,
+      task engagement, emotional expression, agency, authenticity, creativity, and
+      connectedness. These exploratory results suggest that more positive attitudes
+      towards AI are related to greater connectedness, while more musical proficiency
+      is related to lower authenticity and evaluation. Agency partially mediated the
+      effects of emotional expression and engagement on authenticity, creativity,
+      and connectedness. These exploratory results can be leveraged for future confirmatory
+      research.
+    full_text_url: https://hdl.handle.net/11250/5578343
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0e8384ce1-9b25f6a5-42f5-4fc9-a240-0cbb4ef960ce
+  url: https://osf.io/pucj2
+  nva_url: https://nva.sikt.no/registration/01a0e8384ce1-9b25f6a5-42f5-4fc9-a240-0cbb4ef960ce
+- title: Human, AI, or Both? How Composer Identity Shapes the Way We Connect with
+    Music
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Petrus Sillanpää
+    role: Creator
+  - name: Dana Swarbrick
+    role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: University of Jyväskylä
+    slug: university-of-jyvaskyla
+    url: /institutions/university-of-jyvaskyla/
+  citation:
+    authors:
+    - display: Sillanpää, Petrus
+      name: Petrus Sillanpää
+    - display: Swarbrick, Dana
+      name: Dana Swarbrick
+      slug: dana-swarbrick
+      url: /people/dana-swarbrick/
+    title: Human, AI, or Both? How Composer Identity Shapes the Way We Connect with
+      Music
+    container: MUSICONNEX Conference.
+    details: University of Jyväskylä.
+    abstract: "Recent advances in artificial intelligence (AI) have enabled the creation\
+      \ of music that closely resembles human-composed works, raising questions about\
+      \ how listeners perceive and evaluate music. \n\nWhile prior research suggests\
+      \ listeners often exhibit a bias against AI-generated music, most studies have\
+      \ focused on aesthetic judgments such as liking or quality, leaving the social-emotional\
+      \ dimensions largely unexplored. This is a notable gap, given that music listening\
+      \ is fundamentally a social experience, deeply tied to feelings of connection\
+      \ with both the music and its creator. \n\nThe present study investigated how\
+      \ purported composer identity influences listeners' appreciation, social-emotional\
+      \ responses, and behavioral intentions. Using a within-subjects experimental\
+      \ design, 75 adult participants listened to identical human-composed classical\
+      \ music excerpts labeled as either human-composed, AI-composed, or human–AI\
+      \ co-composed. By holding the musical material constant while manipulating composer\
+      \ identity, the study isolated the effects of cognitive and social biases related\
+      \ to AI involvement. Participants evaluated each excerpt on measures assessing\
+      \ appreciation, social connectedness to the composer and the music, emotional\
+      \ responses, and behavioral intentions. Data were analyzed using linear mixed-effects\
+      \ models. \n\nResults showed that perceived composer identity significantly\
+      \ affected most measures, with ratings decreasing as AI involvement increased.\
+      \ Crucially, feelings of connectedness—both to the composer and to the music—were\
+      \ affected, with AI-composed and human–AI co-composed music eliciting significantly\
+      \ lower connectedness to the composer and music than human-composed music. These\
+      \ findings highlight the deeply social nature of music and suggest that AI involvement\
+      \ disrupts not only aesthetic appreciation but also the human connection that\
+      \ makes music meaningful."
+    full_text_url: https://hdl.handle.net/11250/5578326
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0e80bef4c-fc9478a0-fb83-46bf-bc8b-324a6dd25354
+  url: https://www.jyu.fi/en/file-download/download/public/67529
+  nva_url: https://nva.sikt.no/registration/01a0e80bef4c-fc9478a0-fb83-46bf-bc8b-324a6dd25354
+- title: AI in Our Daily Lives - Panel Discussion
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Changkyu Choi
+    role: Creator
+    slug: changkyu-choi
+    url: /people/changkyu-choi/
+  - name: Martine Hjelkrem Tan
+    role: Creator
+  - name: Marius Aasan
+    role: Creator
+  - name: Adín Ramírez Rivera
+    role: Creator
+  institutions:
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Choi, Changkyu
+      name: Changkyu Choi
+      slug: changkyu-choi
+      url: /people/changkyu-choi/
+    - display: Tan, Martine Hjelkrem
+      name: Martine Hjelkrem Tan
+    - display: Aasan, Marius
+      name: Marius Aasan
+    - display: Rivera, Adín Ramírez
+      name: Adín Ramírez Rivera
+    title: AI in Our Daily Lives - Panel Discussion
+    container: AI in Our Everyday Lives.
+    details: Litteraturhuset, Oslo.
+    abstract: AURoRA researchers co-hosted a public seminar and panel discussion with
+      the Embassy of the Republic of Korea to Norway, held at Litteraturhuset in Oslo
+      as part of the K-Initiative campaign. The evening opened with the talk "Mirrors
+      of Intelligence" by Adín Ramírez Rivera (University of Oslo). The panel then
+      discussed trust, fairness and the societal impact of AI with the audience.
+    full_text_url: https://hdl.handle.net/11250/5578136
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0e7d3477e-470b0b28-f46f-4c4c-a4a6-540333bfc0f1
+  url: https://nor.mofa.go.kr/no-en/brd/m_21236/view.do?seq=761799&page=2
+  nva_url: https://nva.sikt.no/registration/01a0e7d3477e-470b0b28-f46f-4c4c-a4a6-540333bfc0f1
 - title: Mirrors of Intelligence
   year: '2026'
   type: ConferenceLecture
@@ -10205,6 +10463,90 @@ results:
     nva_url: https://nva.sikt.no/registration/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
   url: https://play.tv2.no/nyheter/god-morgen-norge-y05mec7j?play=true
   nva_url: https://nva.sikt.no/registration/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
+- title: Concert European Platform for Artistic Research in Music (EPARM) 2027 at
+    Norwegian Academy og Music 9.4 2026
+  year: '2026'
+  type: MusicPerformance
+  type_label: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Victoria Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  institutions:
+  - name: Barratt Due Institute of Music
+    slug: barratt-due-institute-of-music
+    url: /institutions/barratt-due-institute-of-music/
+  - name: Norwegian Academy of Music
+    slug: norwegian-academy-of-music
+    url: /institutions/norwegian-academy-of-music/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Concert European Platform for Artistic Research in Music (EPARM) 2027 at
+      Norwegian Academy og Music 9.4 2026
+    container: ''
+    details: ''
+    abstract: 'EPARM 2026: Alone Together: Exploring Dimensions of Interdependence
+      and Cooperation. The EPARM Working Group is in charge of organising the AEC
+      Annual EPARM meeting. The Working Group is formed by active individuals in the
+      relevant field of specialization within AEC member institutions.'
+    full_text_url: https://hdl.handle.net/11250/5578223
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0e7f8db7f-68c23311-9cf8-488f-a09e-2e783183461f
+  url: https://aec-music.eu/event/european-platform-for-artistic-research-in-music-eparm-2026/programme
+  nva_url: https://nva.sikt.no/registration/01a0e7f8db7f-68c23311-9cf8-488f-a09e-2e783183461f
+- title: Kunstig kreativitet? Mishmash åpningssermoni i Univerisitetets aula 8.4 2026
+  year: '2026'
+  type: MusicPerformance
+  type_label: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Victoria Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  - name: Anders Tveit
+    role: Composer
+    slug: anders-tveit
+    url: /people/anders-tveit/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Norwegian Academy of Music
+    slug: norwegian-academy-of-music
+    url: /institutions/norwegian-academy-of-music/
+  - name: Barratt Due Institute of Music
+    slug: barratt-due-institute-of-music
+    url: /institutions/barratt-due-institute-of-music/
+  citation:
+    authors: []
+    title: Kunstig kreativitet? Mishmash åpningssermoni i Univerisitetets aula 8.4
+      2026
+    container: ''
+    details: ''
+    abstract: "Trenger vi egentlig musikere, forfattere og filmprodusenter nå som\
+      \ KI kan gjøre jobben? Vi tar diskusjonen om hvordan KI påvirker kreativ næring\
+      \ og kunstneriske prosesser. Debatten raser rundt bruken av kunstig intelligens\
+      \ i Kultur-Norge. \n\nForlaget Bonnier brukte nylig et KI-generert bilde som\
+      \ forside på en bok, og \"KI-bandet\" Vestavind er booket til flere norske musikkfestivaler.\
+      \ \n\nFlere kjente kunstnere og artister tar til orde for tydeligere regulering\
+      \ eller forbud av KI for å beskytte kunstnernes virke og opphavsrettigheter.\
+      \ \n\nHva er egentlig kreativ KI? Hvordan påvirker kunsten KI? Hvordan kan vi\
+      \ beskytte kunst og kunstnere, samtidig som vi tar i bruk ny teknologi?"
+    full_text_url: https://hdl.handle.net/11250/5577375
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0de8bcf47-0fc54852-84ca-4c02-bd94-b72a1ab7a148
+  url: https://www.youtube.com/watch?v=rq8UnZlzYk4
+  nva_url: https://nva.sikt.no/registration/01a0de8bcf47-0fc54852-84ca-4c02-bd94-b72a1ab7a148
 - title: Improvisation with the Muzziballs
   year: '2026'
   type: MusicPerformance
@@ -10296,50 +10638,6 @@ results:
     nva_url: https://nva.sikt.no/registration/019dcbf4d15b-642a468a-8e7f-4fb1-8e21-c0c8b5598702
   url: https://dornsife.usc.edu/cema/events/
   nva_url: https://nva.sikt.no/registration/019dcbf4d15b-642a468a-8e7f-4fb1-8e21-c0c8b5598702
-- title: Kunstig kreativitet? Mishmash åpningssermoni i Univerisitetets aula 8.4 2026
-  year: '2025'
-  type: MusicPerformance
-  type_label: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Victoria Johnson
-    role: Soloist
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-  - name: Anders Tveit
-    role: Composer
-    slug: anders-tveit
-    url: /people/anders-tveit/
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  - name: Norwegian Academy of Music
-    slug: norwegian-academy-of-music
-    url: /institutions/norwegian-academy-of-music/
-  - name: Barratt Due Institute of Music
-    slug: barratt-due-institute-of-music
-    url: /institutions/barratt-due-institute-of-music/
-  citation:
-    authors: []
-    title: Kunstig kreativitet? Mishmash åpningssermoni i Univerisitetets aula 8.4
-      2026
-    container: ''
-    details: ''
-    abstract: "Trenger vi egentlig musikere, forfattere og filmprodusenter nå som\
-      \ KI kan gjøre jobben? Vi tar diskusjonen om hvordan KI påvirker kreativ næring\
-      \ og kunstneriske prosesser. Debatten raser rundt bruken av kunstig intelligens\
-      \ i Kultur-Norge. \n\nForlaget Bonnier brukte nylig et KI-generert bilde som\
-      \ forside på en bok, og \"KI-bandet\" Vestavind er booket til flere norske musikkfestivaler.\
-      \ \n\nFlere kjente kunstnere og artister tar til orde for tydeligere regulering\
-      \ eller forbud av KI for å beskytte kunstnernes virke og opphavsrettigheter.\
-      \ \n\nHva er egentlig kreativ KI? Hvordan påvirker kunsten KI? Hvordan kan vi\
-      \ beskytte kunst og kunstnere, samtidig som vi tar i bruk ny teknologi?"
-    full_text_url: https://hdl.handle.net/11250/5577375
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/registration/01a0de8bcf47-0fc54852-84ca-4c02-bd94-b72a1ab7a148
-  url: https://www.youtube.com/watch?v=rq8UnZlzYk4
-  nva_url: https://nva.sikt.no/registration/01a0de8bcf47-0fc54852-84ca-4c02-bd94-b72a1ab7a148
 - title: Computer Music Concert
   year: '2025'
   type: MusicPerformance
@@ -10475,6 +10773,154 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0de30c731-f9fffdd6-f4fb-4ab6-9b91-5f9608067fce
   url: https://mishmash.no/lab/opening-ceremony/#:~:text=act%20is%20claimed-,1:03:30,-Hardingfele%20and%20AI
   nva_url: https://nva.sikt.no/registration/01a0de30c731-f9fffdd6-f4fb-4ab6-9b91-5f9608067fce
+- title: Musicology and Artificial Intelligence
+  year: '2026'
+  type: ReportPolicy
+  type_label: Policy report
+  group_type: Policy report
+  contributors:
+  - name: Vendrix, Philippe
+    role: Editor
+  - name: Ahrendt, Rebekah
+    role: Editor
+  - name: Judith Irmela Haug
+    role: Creator
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Haug, Judith Irmela
+      name: Judith Irmela Haug
+    - display: Lartillot, Olivier
+      name: Olivier Lartillot
+      slug: olivier-lartillot
+      url: /people/olivier-lartillot/
+    title: Musicology and Artificial Intelligence
+    container: ''
+    details: 'doi: 10.5281/zenodo.20639784.'
+    abstract: 'This report provides an overview of Artificial Intelligence in European
+      musicological research, addressed to musicologists, librarians, archivists,
+      curators, educators, research-policy officers, infrastructure coordinators,
+      and tool developers. Moving from conceptual foundations to institutional implications,
+      it maps the affordances and limitations of AI-based models and tools for the
+      discipline, while situating them within the European normative landscape defined
+      by the ALLEA European Code of Conduct for Research Integrity, the EU Artificial
+      Intelligence Act, and the UNESCO Recommendation on the Ethics of Artificial
+      Intelligence. The six complementary sections successively address: (1) methodological
+      foundations, clarifying notions of model, tool, and critical posture, and surveying
+      audio-, image-, encoding-, and language-model-based applications such as automatic
+      music transcription, optical music recognition, score-audio alignment, automated
+      analysis, reconstruction, and LLM prompt­ing; (2) data infrastructure, covering
+      FAIR/CARE governance, ontologies and persistent identifiers, European federated
+      infra­structures, auditory digital twins, and risks of fragmentation, representational
+      bias, quality variability, and copyright; (3) a continuation of the disciplinary
+      stakes involved in source and corpus processing; (4) musicological education
+      in the age of AI, including curricular redesign, AI literacy, and design models
+      such as the Two-Lane Approach; (5) professional practices and responsibilities,
+      examining scholarly credibility, intellectual property, academic integrity frameworks,
+      cultural and creative industry collaborations, institutional and legal risks,
+      gender equality, and lessons from organised labour; and (6) best practic­es,
+      articulating methodological pluralism against technological determinism and
+      formalising principles of ethical reflexivity, human oversight, explainability,
+      reproducibility, and accountability.'
+    full_text_url: https://hdl.handle.net/11250/5577084
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0d9424b28-74985eb6-908a-46ba-ad03-4739181ffe34
+  url: https://zenodo.org/records/20639784
+  nva_url: https://nva.sikt.no/registration/01a0d9424b28-74985eb6-908a-46ba-ad03-4739181ffe34
+- title: 'Formation of a Special Interest Group on Linked Metadata and Interoperability
+    in Musicology: Report and Results from the International Musicology Workshop Held
+    Between NFDI4Culture, musica*, RISM and the MishMash Centre for AI and Creativity'
+  year: '2026'
+  type: ReportBasic
+  type_label: Report
+  group_type: Report
+  contributors:
+  - name: Augustin Braud
+    role: Creator
+  - name: Alexandra Büttner
+    role: Creator
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Anna Katharina Laux
+    role: Creator
+  - name: Laurent Pugin
+    role: Creator
+  - name: Kristina Richts-Matthaei
+    role: Creator
+  - name: Torsten Schrade
+    role: Creator
+  - name: Martha Stellmacher
+    role: Creator
+  - name: Linnaea Charlotte Söhn
+    role: Creator
+  - name: Barbara Wiermann
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Braud, Augustin
+      name: Augustin Braud
+    - display: Büttner, Alexandra
+      name: Alexandra Büttner
+    - display: Lartillot, Olivier
+      name: Olivier Lartillot
+      slug: olivier-lartillot
+      url: /people/olivier-lartillot/
+    - display: Laux, Anna Katharina
+      name: Anna Katharina Laux
+    - display: Pugin, Laurent
+      name: Laurent Pugin
+    - display: Richts-Matthaei, Kristina
+      name: Kristina Richts-Matthaei
+    - display: Schrade, Torsten
+      name: Torsten Schrade
+    - display: Stellmacher, Martha
+      name: Martha Stellmacher
+    - display: Söhn, Linnaea Charlotte
+      name: Linnaea Charlotte Söhn
+    - display: Wiermann, Barbara
+      name: Barbara Wiermann
+    title: 'Formation of a Special Interest Group on Linked Metadata and Interoperability
+      in Musicology: Report and Results from the International Musicology Workshop
+      Held Between NFDI4Culture, musica*, RISM and the MishMash Centre for AI and
+      Creativity'
+    container: ''
+    details: 'Zenodo. doi: 10.5281/ZENODO.22868638.'
+    abstract: "The report presents the results and the outcome of an international\
+      \ musicology workshop held at the Academy of Sciences and Literature | Mainz\
+      \ on 7th- 8th May 2026. The workshop brought together for the first time members\
+      \ of musica* – Consortium en musicologie numérique from the French digital humanities\
+      \ infrastructure project Huma-Num and musicologists from NFDI4Culture, the German\
+      \ Consortium for Research Data on Material and Immaterial Cultural Heritage,\
+      \ as well as experts from the RISM Digital Centre of the Répertoire International\
+      \ des Sources Musicales (RISM), based at the Swiss National Library in Basel,\
+      \ and from the MishMash Centre for AI and Creativity, a consortium of Norwegian\
+      \ research institutions focusing on the application of artificial intelligence\
+      \ in the cultural sector. Furthermore, musicologists and developers from the\
+      \ Specialized Information Service (FID) for Musicology (musiconn) and the Centre\
+      \ for Digital Music Documentation (CDMD) were present. \n\nAt the workshop,\
+      \ the group established a new Special Interest Group on Linked Metadata and\
+      \ Interoperability in Musicology. This group will lay the groundwork for future\
+      \ collaborative efforts with a focus on improving the interoperability and alignment\
+      \ of metadata between the aforementioned projects and consortia. The first steps\
+      \ in this process are documented in this report."
+    full_text_url: https://hdl.handle.net/11250/5578850
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0ec699c85-48b6c3d9-e1fc-4e1a-b240-c00594e9d4ca
+  url: https://doi.org/10.5281/ZENODO.22868638
+  nva_url: https://nva.sikt.no/registration/01a0ec699c85-48b6c3d9-e1fc-4e1a-b240-c00594e9d4ca
 - title: Neon Gallery/Galeria Neon ASP Wrocław, Poland
   year: '2025'
   type: VisualArts

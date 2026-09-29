@@ -142,8 +142,8 @@ selected_works:
     role: Creator
 - title: Decomposing Reasoning Efficiency in Large Language Models
   year: '2025'
-  source: Conference poster
-  group_type: Conference
+  source: Journal article
+  group_type: Journal article
   url: https://openreview.net/forum?id=mym1D6mIZR
   contributors:
   - name: Daniel Kaiser
