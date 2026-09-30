@@ -38,6 +38,22 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: COST Action EarlyMuse 2022-2026. Six Reports on Musicology in Europe
+  year: '2026'
+  source: Report
+  group_type: Report
+  url: https://doi.org/10.5281/ZENODO.22337344
+  contributors:
+  - name: Philippe Vendrix
+    role: Editor
+  - name: Rebekah Ahrendt
+    role: Editor
+  - name: Judith Irmela Haug
+    role: Creator
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
 - title: 'Formation of a Special Interest Group on Linked Metadata and Interoperability
     in Musicology: Report and Results from the International Musicology Workshop Held
     Between NFDI4Culture, musica*, RISM and the MishMash Centre for AI and Creativity'
@@ -177,20 +193,6 @@ selected_works:
     url: /people/olivier-lartillot/
   - name: Marina Sudo
     role: Creator
-- title: A Multimodal Dataset of Greek Folk Music
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://dl.acm.org/doi/10.1145/3748336.3748339
-  contributors:
-  - name: Anna-Maria Christodoulou
-    role: Creator
-    slug: anna-maria-christodoulou
-    url: /people/anna-maria-christodoulou/
-  - name: Olivier Lartillot
-    role: Creator
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''

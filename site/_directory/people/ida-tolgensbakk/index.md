@@ -14,7 +14,7 @@ nva_affiliations:
   unit: Department of Archaeology, History, Cultural studies and Religion
   institution: university-of-bergen
 - role: Førstekonservator
-  unit: Norsk folkemuseum
+  unit: The Norsk Folkemuseum foundation
   institution: norwegian-museum-of-cultural-history
 projects: []
 other_projects:

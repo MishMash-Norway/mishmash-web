@@ -47,6 +47,15 @@ search_keywords:
 - Platformisation
 - Creative and Cultural Industries
 selected_works:
+- title: AQUABALANCE
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Natalia Mæhle
+    role: Creator
+    slug: natalia-maehle
+    url: /people/natalia-maehle/
 - title: 'Towards Enhanced On-Farm Soil Carbon Sequestration: A First Assessment of
     the Potential Role of the Emerging EU Legal Framework'
   year: '2026'
@@ -168,23 +177,6 @@ selected_works:
     slug: natalia-maehle
     url: /people/natalia-maehle/
   - name: Pia Otte
-    role: Creator
-- title: Consumer Perceptions of Foods Fortified with Omega-3 from Fish Processing
-    Side Streams
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1080/10498850.2025.2527862
-  contributors:
-  - name: Sewuese Okubanjo
-    role: Creator
-  - name: Natalia Mæhle
-    role: Creator
-    slug: natalia-maehle
-    url: /people/natalia-maehle/
-  - name: Marie U. Rugland
-    role: Creator
-  - name: Eva Holmquist Falch
     role: Creator
 source_mentions: []
 summary: null

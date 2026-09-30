@@ -1,4 +1,4 @@
-synced_at: '2026-09-29T11:21:01Z'
+synced_at: '2026-09-30T11:06:18Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -814,6 +814,34 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
   url: https://doi.org/10.5281/ZENODO.22643770
   nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+- title: 'Music, AI, and wellbeing: The role of perception'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Vuoskoski, Jonna Katariina
+      name: Jonna Katariina Vuoskoski
+      slug: jonna-vuoskoski
+      url: /people/jonna-vuoskoski/
+    title: 'Music, AI, and wellbeing: The role of perception'
+    container: MishMash Opening Conference.
+    details: Kristiansand.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5579098
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0ece44164-ec2a69fa-0f35-43d7-90ea-064a32622c2f
+  nva_url: https://nva.sikt.no/registration/01a0ece44164-ec2a69fa-0f35-43d7-90ea-064a32622c2f
 - title: From the Legal Refugee to the Computational Refugee in an Age of Algorithmic
     Prediction
   year: '2026'
@@ -9899,6 +9927,36 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/registration/019fb812f3c4-da54c6b0-39a3-4359-9a7c-6af13991ed68
   nva_url: https://nva.sikt.no/registration/019fb812f3c4-da54c6b0-39a3-4359-9a7c-6af13991ed68
+- title: Jeg har aldri opplevd studenter som er mer KI-kritiske enn nå
+  year: '2026'
+  type: MediaReaderOpinion
+  type_label: Reader opinion
+  group_type: Media
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Jeg har aldri opplevd studenter som er mer KI-kritiske enn nå
+    container: ''
+    details: ''
+    abstract: Det er ikke dagens studenter som har et problem. Det er 50-åringene
+      midt i arbeidslivet, uten KI-ballast, som må omstille seg.
+    full_text_url: https://hdl.handle.net/11250/5579731
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0f12af694-e68f1727-41bb-4600-aa65-dfa27d22225e
+  url: https://www.forskerforum.no/forskerlivet/jeg-har-aldri-opplevd-studenter-som-er-mer-ki-kritiske-enn-na/
+  nva_url: https://nva.sikt.no/registration/01a0f12af694-e68f1727-41bb-4600-aa65-dfa27d22225e
 - title: Brukte AI til å transkribere noter for hardingfele – det ga gründerne idéen
     til ny musikk-app de mener kan bli en «pengemaskin»
   year: '2026'
@@ -10463,6 +10521,80 @@ results:
     nva_url: https://nva.sikt.no/registration/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
   url: https://play.tv2.no/nyheter/god-morgen-norge-y05mec7j?play=true
   nva_url: https://nva.sikt.no/registration/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
+- title: Concert at First supper symposium at Kunstnernes hus, Oslo
+  year: '2026'
+  type: MusicPerformance
+  type_label: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Victoria Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  institutions:
+  - name: Barratt Due Institute of Music
+    slug: barratt-due-institute-of-music
+    url: /institutions/barratt-due-institute-of-music/
+  - name: Norwegian Academy of Music
+    slug: norwegian-academy-of-music
+    url: /institutions/norwegian-academy-of-music/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Concert at First supper symposium at Kunstnernes hus, Oslo
+    container: ''
+    details: ''
+    abstract: 100 % Human – Kunstneriske strategier i møte med kunstig intelligens
+    full_text_url: https://hdl.handle.net/11250/5579141
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0ecf89bba-79d6abc8-fee2-4c3f-887e-212e4403d705
+  url: https://kunstnerneshus.no/program/arrangementer/first-supper-symposium
+  nva_url: https://nva.sikt.no/registration/01a0ecf89bba-79d6abc8-fee2-4c3f-887e-212e4403d705
+- title: Concert at AI Mission Hub and BI Business School cohosting on Build What
+    Matters
+  year: '2026'
+  type: MusicPerformance
+  type_label: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Victoria Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+  institutions:
+  - name: Barratt Due Institute of Music
+    slug: barratt-due-institute-of-music
+    url: /institutions/barratt-due-institute-of-music/
+  - name: Norwegian Academy of Music
+    slug: norwegian-academy-of-music
+    url: /institutions/norwegian-academy-of-music/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: Concert at AI Mission Hub and BI Business School cohosting on Build What
+      Matters
+    container: ''
+    details: ''
+    abstract: 'AI Mission Hub and BI Startup Village co-host the Build what matters
+      event
+
+      ​AI Mission Hub and BI Startup Village bring together organisations, AI professionals,
+      researchers, founders, students and technology experts to transform real-world
+      challenges into practical AI solutions.
+
+
+      ​The event will feature expert talks, panel discussions, real-world AI case
+      studies, networking opportunities and the official presentation of AI Mission
+      Hub’s founding cohort.'
+    full_text_url: https://hdl.handle.net/11250/5579119
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0ecf15d51-90a39b64-9b8c-4670-9773-242e921258ec
+  url: https://luma.com/cqszfq09
+  nva_url: https://nva.sikt.no/registration/01a0ecf15d51-90a39b64-9b8c-4670-9773-242e921258ec
 - title: Concert European Platform for Artistic Research in Music (EPARM) 2027 at
     Norwegian Academy og Music 9.4 2026
   year: '2026'
@@ -10834,6 +10966,80 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9424b28-74985eb6-908a-46ba-ad03-4739181ffe34
   url: https://zenodo.org/records/20639784
   nva_url: https://nva.sikt.no/registration/01a0d9424b28-74985eb6-908a-46ba-ad03-4739181ffe34
+- title: COST Action EarlyMuse 2022-2026. Six Reports on Musicology in Europe
+  year: '2026'
+  type: ReportBasic
+  type_label: Report
+  group_type: Report
+  contributors:
+  - name: Philippe Vendrix
+    role: Editor
+  - name: Rebekah Ahrendt
+    role: Editor
+  - name: Judith Irmela Haug
+    role: Creator
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Haug, Judith Irmela
+      name: Judith Irmela Haug
+    - display: Lartillot, Olivier
+      name: Olivier Lartillot
+      slug: olivier-lartillot
+      url: /people/olivier-lartillot/
+    title: COST Action EarlyMuse 2022-2026. Six Reports on Musicology in Europe
+    container: ''
+    details: 'Zenodo. doi: 10.5281/ZENODO.22337344.'
+    abstract: 'This volume gathers the six reports produced between 2025 and 2026
+      within COST Action CA21161, A New Ecosystem of Early Music Studies (EarlyMuse),
+      the first COST Action ever devoted to historical musicology. Running from September
+      2022 to October 2026, the Action brought together close to three hundred researchers
+      from some forty countries in five working groups: Education, Sources, Publications,
+      Performances and Policies.
+
+
+      Each report was drafted, discussed and published separately, with its own editorial
+      team, corpus, method and primary audience. Assembled here, they describe a single
+      object from six angles: not "early music" as a repertory, but the ecosystem
+      in which musical scholarship is now produced: the departments and conservatoires
+      that train and employ musicologists, the doctoral frameworks that certify their
+      work, the libraries and archives that hold the sources, the digital infrastructures
+      and computational tools that mediate access to them, the European funding architectures
+      that decide which questions become fundable, and the professional and public
+      worlds in which musical knowledge circulates.
+
+
+      The six reports cover: musicology as data science and heritage science; the
+      mapping of musicology in European higher education and research institutions;
+      musicology and artificial intelligence; historical musicology and European research
+      infrastructures and initiatives (EOSC, ECCCH/ECHOES, the Data Space for Cultural
+      Heritage, DARIAH, E-RIHS); doctoral-level artistic research in music; and musicology
+      within Horizon Europe co-funded partnerships, notably Resilient Cultural Heritage
+      and the emerging Virtual Worlds partnership.
+
+
+      Taken together, they document a growing mismatch between the intellectual vitality
+      of the field and the fragility of the structures through which it is taught,
+      documented, funded and made visible. Recurrent findings include the statistical
+      invisibility of musicology in OECD, Eurostat and UNESCO classifications; the
+      institutional cost of methodological pluralism; and the claim that the field
+      is under-positioned rather than under-qualified for the European agendas now
+      being written. The volume is neither a state of the art nor a synthesis nor
+      a manifesto, but a handover document, a description of the terrain, closing
+      with recommendations addressed to institutions, national funders, European bodies,
+      learned societies and individual researchers.'
+    full_text_url: https://hdl.handle.net/11250/5579894
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0f1844e25-0ceacb60-3b90-4ced-97ab-12a7627dc328
+  url: https://doi.org/10.5281/ZENODO.22337344
+  nva_url: https://nva.sikt.no/registration/01a0f1844e25-0ceacb60-3b90-4ced-97ab-12a7627dc328
 - title: 'Formation of a Special Interest Group on Linked Metadata and Interoperability
     in Musicology: Report and Results from the International Musicology Workshop Held
     Between NFDI4Culture, musica*, RISM and the MishMash Centre for AI and Creativity'

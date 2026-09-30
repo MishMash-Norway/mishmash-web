@@ -65,16 +65,25 @@ selected_works:
   year: '2026'
   source: Book chapter
   group_type: Book chapter
+  url: https://teacher-academy-music.eu/wp-content/uploads/2026/09/HE0082_EAS17_Gesamtversion_20260911.pdf
   contributors:
   - name: Jens Knigge
     role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
+  - name: Thomas de Baets
+    role: Creator
+  - name: Natassa Economidou Stavrou
+    role: Creator
   - name: Bjørg Solveig Fretheim
+    role: Creator
+  - name: Rūta Girdzijauskienė
     role: Creator
   - name: Runa Hestad Jenssen
     role: Creator
   - name: Kirsti Nørstebø
+    role: Creator
+  - name: Lorraine O’Connell
     role: Creator
 - title: 'OutMus: Outcomes of Instrumental Tuition and Playing in an Ensemble - Teaching
     Music in Cooperation Between Primary and Music Schools (Version 1) [Data set]'

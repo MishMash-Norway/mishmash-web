@@ -60,6 +60,27 @@ search_keywords:
 - Artificial Intelligence
 - Music Technology
 selected_works:
+- title: Concert at First supper symposium at Kunstnernes hus, Oslo
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://kunstnerneshus.no/program/arrangementer/first-supper-symposium
+  contributors:
+  - name: Victoria Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
+- title: Concert at AI Mission Hub and BI Business School cohosting on Build What
+    Matters
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://luma.com/cqszfq09
+  contributors:
+  - name: Victoria Johnson
+    role: Soloist
+    slug: victoria-johnson
+    url: /people/victoria-johnson/
 - title: Concert European Platform for Artistic Research in Music (EPARM) 2027 at
     Norwegian Academy og Music 9.4 2026
   year: '2026'
@@ -190,39 +211,6 @@ selected_works:
     url: /people/victoria-johnson/
   - name: Alexander Refsum Jensenius
     role: Dancer
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
-- title: Musikalsk framførelse på Earfest i Duisburg, Tyskland
-  year: '2022'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Victoria Christine Årang Johnson
-    role: Artist
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-- title: Bela-based augmented acoustic guitars for sonic microinteraction
-  year: '2018'
-  source: Book chapter
-  group_type: Book chapter
-  url: http://www.nime.org/proceedings/2018/nime2018_paper0068.pdf
-  contributors:
-  - name: Victor Evaristo Gonzalez Sanchez
-    role: Creator
-  - name: Charles Patrick Martin
-    role: Creator
-    slug: charles-martin
-    url: /people/charles-martin/
-  - name: Agata Zelechowska
-    role: Creator
-  - name: Kari Anne Vadstensvik Bjerkestrand
-    role: Creator
-  - name: Victoria Kristine Å Johnson
-    role: Creator
-    slug: victoria-johnson
-    url: /people/victoria-johnson/
-  - name: Alexander Refsum Jensenius
-    role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 source_mentions: []
