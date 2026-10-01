@@ -29,6 +29,74 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: The Collision Choir
+  year: '2026'
+  source: Literary arts
+  group_type: Literary arts
+  url: https://www.dpoetry.com/choir/
+  contributors:
+  - name: Jason Nelson
+    role: Creator
+    slug: jason-nelson
+    url: /people/jason-nelson/
+- title: 'Entirely Every Forever: Augmented Reality Experience'
+  year: '2025'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://www.youtube.com/watch?v=VvPUEPSZ_Tc&t=59s
+  contributors:
+  - name: Jason Nelson
+    role: Artist
+    slug: jason-nelson
+    url: /people/jason-nelson/
+  - name: Alinta Kiri Krauth
+    role: Artist
+- title: Resonant Systems
+  year: '2025'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://www.dpoetry.com/aicodeart/
+  contributors:
+  - name: Jason Nelson
+    role: Artist
+    slug: jason-nelson
+    url: /people/jason-nelson/
+  - name: Alinta Kiri Krauth
+    role: Artist
+- title: Katabatic
+  year: '2025'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://www4.uib.no/en/research/research-centres/center-for-digital-narrative/events/intimate-atmospheres
+  contributors:
+  - name: Jason Nelson
+    role: Artist
+    slug: jason-nelson
+    url: /people/jason-nelson/
+- title: Intimate Atmospheres
+  year: '2025'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://www4.uib.no/en/research/research-centres/center-for-digital-narrative/events/intimate-atmospheres
+  contributors:
+  - name: Jason Nelson
+    role: Artist
+    slug: jason-nelson
+    url: /people/jason-nelson/
+  - name: Alinta Kiri Krauth
+    role: Artist
+- title: What we "don't" keep below
+  year: '2025'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://www.youtube.com/watch?v=uALb7J6IpO8
+  contributors:
+  - name: Jason Nelson
+    role: Artist
+    slug: jason-nelson
+    url: /people/jason-nelson/
+  - name: Alinta Kiri Krauth
+    role: Artist
 - title: Drift Vector Field
   year: '2025'
   source: Visual arts
@@ -75,74 +143,6 @@ selected_works:
     role: Artist
     slug: jason-nelson
     url: /people/jason-nelson/
-- title: Katabatic
-  year: '2025'
-  source: Visual arts
-  group_type: Visual arts
-  url: https://www4.uib.no/forskning/forskningssentre/senter-for-digitale-fortellinger/arrangementer/intimate-atmospheres
-  contributors:
-  - name: Jason Nelson
-    role: Artist
-    slug: jason-nelson
-    url: /people/jason-nelson/
-  - name: Alinta Krauth
-    role: Artist
-- title: Co-creative multimodal authorship as procedural performance with DALL-E
-  year: '2024'
-  source: Non-fiction chapter
-  group_type: Non-fiction chapter
-  contributors:
-  - name: Walter Jason Nelson
-    role: Creator
-    slug: jason-nelson
-    url: /people/jason-nelson/
-  - name: Astrid Ensslin
-    role: Creator
-- title: 'Mutacosm: A Digital Poem about AI’s Monstrous Mutation Powers'
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://www.euppublishing.com/doi/full/10.3366/count.2024.0362
-  contributors:
-  - name: Jason Nelson
-    role: Creator
-    slug: jason-nelson
-    url: /people/jason-nelson/
-- title: "‘Entirely Every Forever’. Queen’s Wharf Brisbane public\r\nAugmented Reality\
-    \ media artwork and digital narrative"
-  year: '2024'
-  source: Visual arts
-  group_type: Visual arts
-  contributors:
-  - name: Jason Nelson
-    role: Artist
-    slug: jason-nelson
-    url: /people/jason-nelson/
-  - name: Alinta Kiri Krauth
-    role: Artist
-- title: '‘Versos Codificados: La poesia creada con Inteligencia Artificial’'
-  year: '2024'
-  source: Visual arts
-  group_type: Visual arts
-  contributors:
-  - name: Walter Jason Nelson
-    role: Artist
-    slug: jason-nelson
-    url: /people/jason-nelson/
-  - name: Alinta Kiri Krauth
-    role: Artist
-- title: 'A(I)nimal-centred AI Jam: Design Fictions for Positive Multispecies Futures'
-  year: '2024'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/3637882.3637903
-  contributors:
-  - name: Walter Jason Nelson
-    role: Creator
-    slug: jason-nelson
-    url: /people/jason-nelson/
-  - name: Alinta Kiri Krauth
-    role: Creator
 source_mentions: []
 summary: ''
 description: Professor, Department of Linguistic, Literary and Aesthetic studies,

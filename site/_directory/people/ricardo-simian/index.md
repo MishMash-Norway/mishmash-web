@@ -36,6 +36,27 @@ search_keywords:
 - 3D-Printed Musical Instruments
 - Digital Fabrication
 selected_works:
+- title: 'Designing Interfaces for the Integration of AI Agents in Maritime Navigation
+    and Control: Potentials, Guidelines, Risks, and Emerging Requirements'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/ichcai70183.2026.11607647
+  contributors:
+  - name: Ricardo Simian
+    role: Creator
+    slug: ricardo-simian
+    url: /people/ricardo-simian/
+  - name: Jon Erling Fauske
+    role: Creator
+  - name: Emilie Berg Eilertsen
+    role: Creator
+  - name: Kjetil Nordby
+    role: Creator
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+  - name: Etienne Gernez
+    role: Creator
 - title: 'The additive manufacturing design landscape : finding and developing productive
     niches'
   year: '2026'

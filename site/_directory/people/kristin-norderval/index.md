@@ -37,6 +37,11 @@ search_keywords:
 - Researcher
 - Performer-Controlled Interactive Audio Processing
 selected_works:
+- title: 'The Performer-Composer: Dual Identities in New Music, Volume 1'
+  year: '2026'
+  source: Book
+  group_type: Book
+  url: https://doi.org/10.47041/SONUS.2026.3
 - title: 'What We Owe to Cathy: Reflections from Meredith Monk, Joan La Barbara, Rinde
     Eckert, Susan Botti, Theo Bleckmann and Pamela Z'
   year: '2016'

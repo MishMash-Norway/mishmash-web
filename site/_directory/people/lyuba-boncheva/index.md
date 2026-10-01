@@ -29,7 +29,17 @@ tags:
 search_keywords:
 - Visitor Studies in Museums
 - Technology, Innovation and Culture
-selected_works: []
+selected_works:
+- title: 'This is not an AI experience; it’s a drawing experience. Value Creation
+    and AI as Calm Technology in MUNCH’s Exhibition Edvard Munch: Connect the Lines'
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Lyuba Boncheva
+    role: ContactPerson
+    slug: lyuba-boncheva
+    url: /people/lyuba-boncheva/
 source_mentions: []
 summary: Lyuba Boncheva is a doctoral fellow on the creAIte project at the Centre
   for Creative Industries, BI Norwegian Business School, where she studies how transformative

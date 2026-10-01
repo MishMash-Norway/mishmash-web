@@ -40,6 +40,41 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Designing Interfaces for the Integration of AI Agents in Maritime Navigation
+    and Control: Potentials, Guidelines, Risks, and Emerging Requirements'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/ichcai70183.2026.11607647
+  contributors:
+  - name: Ricardo Simian
+    role: Creator
+    slug: ricardo-simian
+    url: /people/ricardo-simian/
+  - name: Jon Erling Fauske
+    role: Creator
+  - name: Emilie Berg Eilertsen
+    role: Creator
+  - name: Kjetil Nordby
+    role: Creator
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+  - name: Etienne Gernez
+    role: Creator
+- title: An eco-feedback framework for user interface design to support maritime decarbonization
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/0020868x261436219
+  contributors:
+  - name: Filipe Landu Nzongo
+    role: Creator
+  - name: Etienne Gernez
+    role: Creator
+  - name: Kjetil Nordby
+    role: Creator
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
 - title: 'Assessing Haptic Eco-Feedback in Ship Bridges: A Technology Acceptance Model
     Study'
   year: '2026'
@@ -176,30 +211,6 @@ selected_works:
     url: /people/kjetil-nordby/
   - name: Jon Erling Fauske
     role: Designer
-- title: OpenBridge 6.0 Maritime Instruments
-  year: '2025'
-  source: Design
-  group_type: Design
-  url: https://www.figma.com/community/file/1553397820114536880/openbridge-6-0-maritime-instruments
-  contributors:
-  - name: Jon Erling Fauske
-    role: Designer
-  - name: Kjetil Nordby
-    role: CuratorOrganizer
-    slug: kjetil-nordby
-    url: /people/kjetil-nordby/
-- title: OpenBridge 6.0 AR framework
-  year: '2025'
-  source: Design
-  group_type: Design
-  url: https://www.figma.com/community/file/1539167811791910040/openbridge-6-0-ar-framework
-  contributors:
-  - name: Jon Erling Fauske
-    role: Designer
-  - name: Kjetil Nordby
-    role: CuratorOrganizer
-    slug: kjetil-nordby
-    url: /people/kjetil-nordby/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''

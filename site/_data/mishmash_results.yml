@@ -1,4 +1,4 @@
-synced_at: '2026-09-30T11:06:18Z'
+synced_at: '2026-10-01T11:42:56Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -32,6 +32,72 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0e6fc4da1-9979f093-4cb3-4039-af2f-8255dddf82ae
   url: https://doi.org/10.5281/zenodo.23009315
   nva_url: https://nva.sikt.no/registration/01a0e6fc4da1-9979f093-4cb3-4039-af2f-8255dddf82ae
+- title: 'Designing Interfaces for the Integration of AI Agents in Maritime Navigation
+    and Control: Potentials, Guidelines, Risks, and Emerging Requirements'
+  year: '2026'
+  type: AcademicChapter
+  type_label: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Ricardo Simian
+    role: Creator
+    slug: ricardo-simian
+    url: /people/ricardo-simian/
+  - name: Jon Erling Fauske
+    role: Creator
+  - name: Emilie Berg Eilertsen
+    role: Creator
+  - name: Kjetil Nordby
+    role: Creator
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+  - name: Etienne Gernez
+    role: Creator
+  institutions:
+  - name: Oslo School of Architecture and Design
+    slug: oslo-school-of-architecture-and-design
+    url: /institutions/oslo-school-of-architecture-and-design/
+  citation:
+    authors:
+    - display: Simian, Ricardo
+      name: Ricardo Simian
+      slug: ricardo-simian
+      url: /people/ricardo-simian/
+    - display: Fauske, Jon Erling
+      name: Jon Erling Fauske
+    - display: Eilertsen, Emilie Berg
+      name: Emilie Berg Eilertsen
+    - display: Nordby, Kjetil
+      name: Kjetil Nordby
+      slug: kjetil-nordby
+      url: /people/kjetil-nordby/
+    - display: Gernez, Etienne
+      name: Etienne Gernez
+    title: 'Designing Interfaces for the Integration of AI Agents in Maritime Navigation
+      and Control: Potentials, Guidelines, Risks, and Emerging Requirements'
+    container: 'In Braarud, Per Øivind, Kjølerbakken, Kai Morgan, Misra, Sanjay (Eds.),
+      International Conference on Human Centric Artificial Intelligence (ICHCAI):
+      First International Conference, ICHCAI 2026.'
+    details: 'IEEE (Institute of Electrical and Electronics Engineers). ISBN 9798331551186.
+      p. 1–10. doi: 10.1109/ichcai70183.2026.11607647.'
+    abstract: The maritime sector is both vast and crucial for society on a global
+      scale. At the same time, it is extremely complex, relies on multiple information
+      flows, operates in constantly changing conditions, integrates hazardous environments,
+      and depends on critical human decision-making informed by all the previous elements.
+      Such an environment arguably constitutes fertile ground for AI-powered optimisation,
+      ranging from warning systems to co-pilot functions to autonomous vessels. These
+      AI integrations would benefit from standard user interface design practices
+      to ensure they are well integrated into mariners’ work. There are potential
+      benefits, as well as risks and challenges, inherent in attempting such an integration.
+      Reviewing these elements informs the requirements for designing the user interfaces
+      for this purpose. This paper discusses the emerging picture of the qualities,
+      conditions, and requirements, as well as the implications of the implemented
+      design decisions.
+    full_text_url: https://hdl.handle.net/11250/5580953
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0f6547698-0d484038-48b8-4072-b823-50ae8ecae9a8
+  url: https://doi.org/10.1109/ichcai70183.2026.11607647
+  nva_url: https://nva.sikt.no/registration/01a0f6547698-0d484038-48b8-4072-b823-50ae8ecae9a8
 - title: 'The Perfect Wrong Note: Vyping and the Keyboard as Musical Interface for
     Human-LLM Interaction'
   year: '2026'

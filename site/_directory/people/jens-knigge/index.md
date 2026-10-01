@@ -60,6 +60,30 @@ search_keywords:
 - Music Education
 - Music Didaktik
 selected_works:
+- title: Music Education in Norwegian Schools
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://teacher-academy-music.eu/wp-content/uploads/2026/09/HE0080_EAS15_Gesamtversion_20260910.pdf
+  contributors:
+  - name: Jens Knigge
+    role: Creator
+    slug: jens-knigge
+    url: /people/jens-knigge/
+  - name: Kirsti Nørstebø
+    role: Creator
+- title: Mobility for MusIc EducatIon Students – Section Introduction
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://teacher-academy-music.eu/wp-content/uploads/2026/09/HE0082_EAS17_Gesamtversion_20260911.pdf
+  contributors:
+  - name: Angeliki Triantafyllaki
+    role: Creator
+  - name: Jens Knigge
+    role: Creator
+    slug: jens-knigge
+    url: /people/jens-knigge/
 - title: 'Redesigning Mobility in European Music Teacher Education: From Barriers
     to Opportunities'
   year: '2026'
@@ -178,38 +202,6 @@ selected_works:
     slug: jens-knigge
     url: /people/jens-knigge/
   - name: Friedrich Platz
-    role: Creator
-- title: 'Handbuch Musikpädagogik: Grundlagen – Forschung – Diskurse ( 2. vollständig
-    aktualisierte und erweiterte Auflage)'
-  year: '2026'
-  source: Book anthology
-  group_type: Book anthology
-  url: https://doi.org/10.36198/9783838563565
-  contributors:
-  - name: Michael Dartsch
-    role: Editor
-  - name: Jens Knigge
-    role: Editor
-    slug: jens-knigge
-    url: /people/jens-knigge/
-  - name: Anne Niessen
-    role: Editor
-  - name: Friedrich Platz
-    role: Editor
-  - name: Christine Stöger
-    role: Editor
-- title: 'Contextual and dispositional predictors of student teachers’ intended use
-    of singing in the classroom: A national survey in Norway'
-  year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1177/1321103x261418441
-  contributors:
-  - name: Jens Knigge
-    role: Creator
-    slug: jens-knigge
-    url: /people/jens-knigge/
-  - name: Anne Haugland Balsnes
     role: Creator
 source_mentions: []
 summary: ''

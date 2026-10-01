@@ -53,6 +53,20 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: '[2609.16472] Online Gradient Computation for Warping Gaussian Process Transformations'
+  year: '2026'
+  source: Working paper
+  group_type: Working paper
+  url: https://arxiv.org/abs/2609.16472
+  contributors:
+  - name: Emilio Ruiz Moreno
+    role: Creator
+  - name: Slavakis, Konstantinos
+    role: Creator
+  - name: Baltasar Beferull-Lozano
+    role: Creator
+    slug: baltasar-beferull-lozano
+    url: /people/baltasar-beferull-lozano/
 - title: Topological Kalman Filtering on Cell Complexes
   year: '2026'
   source: Journal article
@@ -368,22 +382,6 @@ selected_works:
     role: Creator
   - name: Amber Leeson
     role: Creator
-- title: A Data-driven Transfer Learning Method for Indoor Radio Map Estimation
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1109/tvt.2025.3609207
-  contributors:
-  - name: Rahul Kumar Jaiswal
-    role: Creator
-  - name: Mohamed Elnourani
-    role: Creator
-  - name: Siddharth Deshmukh
-    role: Creator
-  - name: Baltasar Beferull-Lozano
-    role: Creator
-    slug: baltasar-beferull-lozano
-    url: /people/baltasar-beferull-lozano/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''
