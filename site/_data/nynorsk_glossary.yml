@@ -58,6 +58,8 @@ replace:
   "Vi ta omsyn": "Vi tek omsyn"
   "handla med ein gong": "handle med ein gong"
   "eller endra korleis": "eller endre korleis"
+  # A Bokmål s-genitive left as it is.
+  "bruker andres materiale": "bruker materialet til andre"
   # The AI colophon: present tenses read as infinitives, a past participle left
   # as an infinitive, "data" read as the English "date", a genitive turned
   # around, and the gender of "eit skript" and "nettstaden".
