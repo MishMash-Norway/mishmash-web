@@ -2147,14 +2147,27 @@ a.nva-result-oa-badge:focus-visible {
    by assets/js/abbreviations.js for the first occurrence of each abbreviation
    on any page. Moved here from adaptive.css on 25 September 2026 so that
    every page has the rules. */
+/* A button is laid out as an inline block, and Safari and Chrome on Apple
+   devices draw it with the system's button look unless appearance is off.
+   The underline is a text decoration, not a border, so the toggle is exactly
+   one line tall and the lines around it keep their spacing. */
 .stretch-toggle {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
   padding: 0;
   border: none;
+  border-radius: 0;
   background: none;
   font: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  vertical-align: baseline;
   color: inherit;
   cursor: pointer;
-  border-bottom: 2px dotted var(--mm-purple);
+  text-decoration: underline dotted var(--mm-purple) 2px;
+  text-underline-offset: 0.2em;
 }
 
 .stretch-more {
