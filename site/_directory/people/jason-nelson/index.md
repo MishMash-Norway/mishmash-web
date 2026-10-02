@@ -39,6 +39,23 @@ selected_works:
     role: Creator
     slug: jason-nelson
     url: /people/jason-nelson/
+- title: 'Versos codificados. La poesía creada con IA (Coded Verses: The Poetry Created
+    with AI), &lt;/i&gt;de Yolanda de Gregorio Robledo y María Isabel Morales Sánchez'
+  year: '2025'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.24197/bdm28y22
+  contributors:
+  - name: Lucia Madrid Cagigal
+    role: Creator
+  - name: Jason Nelson
+    role: Creator
+    slug: jason-nelson
+    url: /people/jason-nelson/
+  - name: Yolanda de Gregorio Robledo
+    role: Creator
+  - name: Alinta Kiri Krauth
+    role: Creator
 - title: 'Entirely Every Forever: Augmented Reality Experience'
   year: '2025'
   source: Visual arts
@@ -133,16 +150,6 @@ selected_works:
     url: /people/jason-nelson/
   - name: Alinta Krauth
     role: Artist
-- title: TimeStamp Overlay
-  year: '2025'
-  source: Visual arts
-  group_type: Visual arts
-  url: https://www4.uib.no/forskning/forskningssentre/senter-for-digitale-fortellinger/arrangementer/intimate-atmospheres
-  contributors:
-  - name: Jason Nelson
-    role: Artist
-    slug: jason-nelson
-    url: /people/jason-nelson/
 source_mentions: []
 summary: ''
 description: Professor, Department of Linguistic, Literary and Aesthetic studies,

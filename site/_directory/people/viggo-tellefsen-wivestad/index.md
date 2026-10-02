@@ -49,8 +49,8 @@ selected_works:
 - title: 'Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods
     Case Study'
   year: '2026'
-  source: Journal article
-  group_type: Journal article
+  source: Book chapter
+  group_type: Book chapter
   url: https://hdl.handle.net/10125/112286
   contributors:
   - name: Viktoria Stray

@@ -40,6 +40,56 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: OpenBridge 6.0 Integration System
+  year: '2026'
+  source: Design
+  group_type: Design
+  url: https://www.figma.com/community/file/1618235021628462305/openbridge-6-0-integration-system
+  contributors:
+  - name: hanne lockertsen
+    role: Designer
+  - name: Jon Erling Fauske
+    role: Designer
+  - name: Sunniva Wildhagen Lislevand
+    role: Designer
+  - name: Kjetil Nordby
+    role: Designer
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+- title: OpenBridge Advice System
+  year: '2026'
+  source: Design
+  group_type: Design
+  url: https://www.figma.com/community/file/1615843287426735899/openbridge-advice-system
+  contributors:
+  - name: Jon Erling Fauske
+    role: Designer
+  - name: hanne lockertsen
+    role: Designer
+  - name: Sunniva Wildhagen Lislevand
+    role: Designer
+  - name: Kjetil Nordby
+    role: Designer
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
+- title: openbridge-webcomponents Public
+  year: '2026'
+  source: Software source code
+  group_type: Software source code
+  url: https://github.com/Ocean-Industries-Concept-Lab/openbridge-webcomponents
+  contributors:
+  - name: Torstein Aarseth Bø
+    role: Creator
+  - name: Ulrik Jørgensen
+    role: Creator
+  - name: Jon Dæhlen
+    role: Creator
+  - name: Jon Erling Fauske
+    role: Creator
+  - name: Kjetil Nordby
+    role: Creator
+    slug: kjetil-nordby
+    url: /people/kjetil-nordby/
 - title: 'Designing Interfaces for the Integration of AI Agents in Maritime Navigation
     and Control: Potentials, Guidelines, Risks, and Emerging Requirements'
   year: '2026'
@@ -161,54 +211,6 @@ selected_works:
     url: /people/kjetil-nordby/
   - name: hanne lockertsen
     role: Designer
-  - name: Jon Erling Fauske
-    role: Designer
-- title: OpenBridge 6.0 Application patterns
-  year: '2025'
-  source: Design
-  group_type: Design
-  url: https://www.figma.com/community/file/1486350615717873940/openbridge-6-0-application-patterns
-  contributors:
-  - name: Sunniva Wildhagen Lislevand
-    role: Designer
-  - name: hanne lockertsen
-    role: Designer
-  - name: Jon Erling Fauske
-    role: Designer
-  - name: Kjetil Nordby
-    role: Designer
-    slug: kjetil-nordby
-    url: /people/kjetil-nordby/
-- title: OpenBridge 6.0 Small Screen Case
-  year: '2025'
-  source: Design
-  group_type: Design
-  url: https://www.figma.com/community/file/1484493772517407893/openbridge-6-0-small-screen-case
-  contributors:
-  - name: Sunniva Wildhagen Lislevand
-    role: Designer
-  - name: hanne lockertsen
-    role: Designer
-  - name: Kjetil Nordby
-    role: CuratorOrganizer
-    slug: kjetil-nordby
-    url: /people/kjetil-nordby/
-  - name: Jon Erling Fauske
-    role: Designer
-- title: OpenBridge 6.0 Alert Case
-  year: '2025'
-  source: Design
-  group_type: Design
-  url: https://www.figma.com/community/file/1486019135013729331/openbridge-6-0-alert-case
-  contributors:
-  - name: hanne lockertsen
-    role: Designer
-  - name: Sunniva Wildhagen Lislevand
-    role: Designer
-  - name: Kjetil Nordby
-    role: Designer
-    slug: kjetil-nordby
-    url: /people/kjetil-nordby/
   - name: Jon Erling Fauske
     role: Designer
 source_mentions:
