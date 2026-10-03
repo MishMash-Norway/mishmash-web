@@ -3,8 +3,8 @@ type: person
 slug: abdolrahim-tooranian
 name: Abdolrahim Tooranian
 title: Abdolrahim Tooranian
-position: PhD candidate
-department: null
+position: Research fellow
+department: Faculty of Computer Science, Engineering and Economics
 institution: ostfold-university-college
 institutions:
 - ostfold-university-college
@@ -17,7 +17,7 @@ urls:
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0004-8697-876X
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/1896432
   youtube: ''
   mastodon: ''
   instagram: ''
