@@ -69,4 +69,4 @@ The conference ended in the concrete silos of Kunstsilo, where Alessandra Bossa 
 
 {% include photo-carousel.html name="kunstsilo" %}
 
-The abstracts of all sessions and posters are collected in the [book of abstracts (PDF)](/assets/events/kristiansand2026/mishmash-opening-conference-2026-abstracts.pdf). The [next MishMash conference](/events/kristiania2027/) takes place in Oslo in April 2027, hosted  by Kristiania University College.
+The abstracts of all sessions and posters are collected in the [book of abstracts](https://doi.org/10.5281/zenodo.23009316), published on Zenodo. The [next MishMash conference](/events/kristiania2027/) takes place in Oslo in April 2027, hosted  by Kristiania University College.
