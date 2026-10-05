@@ -36,7 +36,7 @@ Artificial intelligence is often treated as a single technology. AI as Environme
 
 The proposition draws on ecological and process-oriented approaches to media and technology, developed and applied in the AI Ecologies research group's project Kunstens co-pilot: Kunst og KI i et prosessøkologisk perspektiv, funded by Kulturrådet (2026–2028). Félix Guattari’s ‘three ecologies’ (1989/2000), the interrelation of environmental, mental and social ecologies, provides a point of departure for thinking across domains that are too often treated separately. Feminist posthumanism and Indigenous and decolonial scholarship (Braidotti 2022; Tuhiwai Smith 2021) further foreground situated knowledge, extraction and differential inclusion, asking whose knowledge and cultural practices are represented, transformed or excluded by AI systems. In the context of contemporary machine-learning systems, we reformulate these relations through three interconnected ecological registers: infrastructural, epistemic and operational ecologies.
 
-[Read the full call for contributions (PDF)](./AR@K27%20MishMash-CFP.pdf)
+[Read the full call for contributions (PDF)](/assets/events/kristiania2027/ar-k27-mishmash-cfp.pdf)
 
 **Submission**
 * Abstract: 300 words maximum, engaging explicitly with one or more of the three ecological registers
