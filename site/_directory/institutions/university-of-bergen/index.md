@@ -27,6 +27,7 @@ people:
 - kyrre-kverndokk
 - lars-nyre
 - luz-maria-sanchez-cardona
+- morten-sondergaard
 - oystein-skaar
 - stylianos-dimou
 - thomas-de-ridder

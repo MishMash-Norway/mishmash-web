@@ -19,6 +19,7 @@ people:
 - fabio-sabetta-morales
 - ivar-grydeland
 - jon-marius-aareskjold-drecker
+- maria-hareide
 - marit-wergeland
 - murtaza-mohiqi
 - riccardo-magoni

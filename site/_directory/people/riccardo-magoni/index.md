@@ -22,7 +22,8 @@ urls:
   mastodon: ''
   instagram: https://www.instagram.com/rossotranquillo
   wikidata: ''
-aliases: []
+aliases:
+- Riccardo
 tags:
 - Music Business
 - Music Streaming Platforms

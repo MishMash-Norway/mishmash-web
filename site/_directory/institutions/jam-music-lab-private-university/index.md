@@ -11,13 +11,16 @@ description: JAM MUSIC LAB Private University for Jazz and Popular Music is a pr
 short_name: JAM MUSIC LAB
 image: /images/institutions/jam-music-lab-private-university.png
 people:
+- mark-holub
 - michael-kahr
+- monika-herzig
 projects: []
 country: Austria
 city: Vienna
 urls:
   website: https://www.jammusiclab.com/
 aliases:
+- JAM Music Lab University
 - JAM MUSIC LAB Private University for Jazz and Popular Music
 - JAM Music Lab
 tags: []

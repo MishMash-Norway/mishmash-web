@@ -11,6 +11,7 @@ short_name: AAU
 image: /images/institutions/aalborg-university.png
 people:
 - david-meredith
+- morten-sondergaard
 projects: []
 country: Denmark
 city: Aalborg
@@ -19,7 +20,8 @@ urls:
   wikipedia: https://en.wikipedia.org/wiki/Aalborg_University
   wikidata: https://www.wikidata.org/wiki/Q601956
   ror: https://ror.org/04m5j1k67
-aliases: []
+aliases:
+- Aalborg University, Denmark
 tags: []
 search_keywords: []
 source_mentions: []
