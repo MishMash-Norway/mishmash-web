@@ -836,7 +836,10 @@ def fetch_nva_bundle(
     guest_institutions = sorted(
         {slug for aff in guest_affiliations for slug in (aff.get("institutions") or []) if slug}
     )
-    primary = pick_primary_nva_affiliation(active or nva_affiliations)
+    # Only a current affiliation sets position, department and institution. With
+    # none, the entry keeps what it has, since an ended post would replace the
+    # one the person gave on the form.
+    primary = pick_primary_nva_affiliation(active) if active else {}
 
     institution_slugs = []
     for aff in active:

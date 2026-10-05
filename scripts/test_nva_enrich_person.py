@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from enrich_directory_from_nva import apply_field, enrich_person
+from enrich_directory_from_nva import apply_field, enrich_person, fetch_nva_bundle
 
 
 class NvaNightlySafetyTests(unittest.TestCase):
@@ -75,6 +75,21 @@ class NvaNightlySafetyTests(unittest.TestCase):
             self.assertIn("institution: existing-institution", saved)
             self.assertIn("institutional_website: https://example.org/institution", saved)
             self.assertNotIn("institutional_website: ''", saved)
+
+    @patch("enrich_directory_from_nva._safe_nva_other_projects", return_value=[])
+    @patch("enrich_directory_from_nva.nva_selected_works", return_value=[])
+    @patch("enrich_directory_from_nva.parse_nva_affiliations")
+    @patch("enrich_directory_from_nva.get_json", return_value={"names": []})
+    def test_ended_affiliation_does_not_set_position_or_institution(self, _json, mock_parse, _works, _projects):
+        mock_parse.return_value = [
+            {"active": False, "role": "Post-doctoral research fellow", "department": "Old faculty",
+             "institution": "old-institution", "institutions": ["old-institution"]},
+        ]
+        bundle = fetch_nva_bundle("1", institution_lookup={}, org_cache={}, max_tags=10, max_works=10)
+        self.assertEqual(bundle["position"], "")
+        self.assertEqual(bundle["department"], "")
+        self.assertEqual(bundle["institution"], "")
+        self.assertEqual(bundle["institutions"], [])
 
     @patch("enrich_directory_from_nva.fetch_orcid_bundle")
     @patch("enrich_directory_from_nva.fetch_nva_bundle", side_effect=RuntimeError("401 Client Error"))
