@@ -15,6 +15,7 @@ from import_people_xlsx_common import (
     build_institution_lookup,
     canonical_orcid_url,
     import_people,
+    normalize_field_value,
     normalize_http_url,
     normalize_institution_key,
     parse_tags,
@@ -267,6 +268,22 @@ class HelperTests(unittest.TestCase):
         self.assertEqual(normalize_http_url("https:/www.titanmusic.com"), "https://www.titanmusic.com")
         self.assertEqual(normalize_http_url("http:/example.org"), "https://example.org")
         self.assertEqual(normalize_http_url("example.org/x"), "https://example.org/x")
+
+    def test_link_fields_turn_handles_into_addresses_and_drop_the_rest(self):
+        cases = [
+            ("github", "chromamorph", "https://github.com/chromamorph"),
+            ("bluesky", "@abgran", "https://bsky.app/profile/abgran.bsky.social"),
+            ("bluesky", "https://creativeendvs.bsky.social\u202c", "https://bsky.app/profile/creativeendvs.bsky.social"),
+            ("instagram", "#sondergart", "https://www.instagram.com/sondergart/"),
+            ("personal_website", "Https://www.luzmariasanchez.com", "https://www.luzmariasanchez.com"),
+            ("linkedin", "@Gran, Anne-Britt", ""),
+            ("linkedin", "Sondergart", ""),
+            ("facebook", "Maria Hareide", ""),
+            ("linkedin", "https://no.linkedin.com/in/rossotranquillo", "https://no.linkedin.com/in/rossotranquillo"),
+        ]
+        for field, typed, expected in cases:
+            with self.subTest(field=field, typed=typed):
+                self.assertEqual(normalize_field_value(field, typed), expected)
 
     def test_parse_tags_dedupes_and_caps(self):
         tags = parse_tags("a, b; c · A", "d\ne", max_tags=4)

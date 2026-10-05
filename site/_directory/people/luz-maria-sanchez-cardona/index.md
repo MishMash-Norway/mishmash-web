@@ -17,7 +17,7 @@ other_projects:
 roles:
 - Member
 urls:
-  personal_website: Https://www.luzmariasanchez.com
+  personal_website: https://www.luzmariasanchez.com
   institutional_website: https://www.luzmariasanchez.com
   github: ''
   linkedin: ''

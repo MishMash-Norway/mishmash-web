@@ -142,6 +142,7 @@ def normalize_http_url(value: str) -> str:
         return ""
     # Repair a scheme typed with a single slash ("https:/example.org").
     value = re.sub(r"^(https?):/(?!/)", r"\1://", value, flags=re.IGNORECASE)
+    value = re.sub(r"^(https?)://", lambda m: m.group(1).lower() + "://", value, flags=re.IGNORECASE)
     if value.startswith("http://"):
         return "https://" + value.removeprefix("http://")
     if value.startswith("https://"):
@@ -164,10 +165,37 @@ def first_url(value: str) -> str:
     return normalize_http_url(value)
 
 
+# Zero-width and direction marks that a paste from a social profile can carry.
+INVISIBLE_CHARS = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060\ufeff]")
+
+
+def is_web_address(value: str) -> bool:
+    """True for an https address whose host has a dot and no @, such as a profile page."""
+    match = re.match(r"^https://([^/\s]+)", value)
+    return bool(match) and "." in match.group(1) and "@" not in match.group(1)
+
+
 def normalize_field_value(field_name: str, value: str) -> str:
-    value = (value or "").strip()
+    """The address for a link field, or '' when the answer cannot be made into one.
+
+    People often type a username or their name instead of a link. A bare GitHub
+    username and a bare Bluesky handle can be turned into an address; anything
+    else that is not an address is dropped rather than stored as https://<text>.
+    """
+    value = INVISIBLE_CHARS.sub("", value or "").strip()
     if not value:
         return ""
+    if field_name == "github" and re.fullmatch(r"@?[A-Za-z0-9-]+", value):
+        return f"https://github.com/{value.removeprefix('@')}"
+    if field_name == "bluesky" and re.fullmatch(r"@?[A-Za-z0-9-]+", value):
+        return f"https://bsky.app/profile/{value.removeprefix('@')}.bsky.social"
+    url = _normalize_field_value(field_name, value)
+    if field_name in {"orcid", "nva"}:
+        return url
+    return url if is_web_address(url) else ""
+
+
+def _normalize_field_value(field_name: str, value: str) -> str:
     if field_name == "orcid":
         return canonical_orcid_url(value)
     if field_name == "nva":
@@ -175,7 +203,7 @@ def normalize_field_value(field_name: str, value: str) -> str:
     if field_name in {"personal_website", "institutional_website", "github", "linkedin", "youtube", "facebook"}:
         return first_url(value)
     if field_name == "instagram":
-        cleaned = value.removeprefix("@").strip().strip("/")
+        cleaned = value.removeprefix("@").removeprefix("#").strip().strip("/")
         if "instagram.com" in cleaned:
             return first_url(cleaned)
         return f"https://www.instagram.com/{cleaned}/" if cleaned else ""
@@ -187,7 +215,7 @@ def normalize_field_value(field_name: str, value: str) -> str:
                 return f"https://{instance}/@{handle}"
         return first_url(cleaned)
     if field_name == "bluesky":
-        cleaned = value.removeprefix("@").strip().strip("/")
+        cleaned = re.sub(r"^https?://", "", value.removeprefix("@").strip(), flags=re.IGNORECASE).strip("/")
         if "bsky.app/profile/" in cleaned:
             return first_url(cleaned)
         if cleaned.endswith(".bsky.social") or ".bsky.social/" in cleaned:

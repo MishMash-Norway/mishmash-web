@@ -22,7 +22,7 @@ urls:
   mastodon: ''
   instagram: https://www.instagram.com/MHartsncrafts
   wikidata: ''
-  facebook: https://Maria
+  facebook: ''
 aliases: []
 tags:
 - Teacher

@@ -21,7 +21,7 @@ urls:
   youtube: ''
   mastodon: https://sigmoid.social/@creativeEndvs
   instagram: ''
-  bluesky: https://creativeendvs.bsky.social‬
+  bluesky: https://bsky.app/profile/creativeendvs.bsky.social
   wikidata: https://www.wikidata.org/wiki/Q130803759
 aliases: []
 tags:

@@ -17,12 +17,12 @@ urls:
   personal_website: https://www.sondergart.dk
   institutional_website: https://vbn.aau.dk/da/persons/mortenson/
   github: ''
-  linkedin: https://Sondergart
+  linkedin: ''
   orcid: https://orcid.org/0000-0002-9730-6182
   nva: https://nva.sikt.no/research-profile/1890210
   youtube: ''
   mastodon: ''
-  instagram: https://www.instagram.com/#sondergart
+  instagram: https://www.instagram.com/sondergart/
   wikidata: ''
 aliases: []
 tags:
