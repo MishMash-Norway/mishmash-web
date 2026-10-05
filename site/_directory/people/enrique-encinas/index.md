@@ -31,6 +31,26 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Rhythm and Residue: Vyping as Prompting Inside the Post-Discursive Interface'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3821402.3830167
+  contributors:
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Andrew Morrison
+    role: Creator
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Markéta Dolejšová
+    role: Creator
+  - name: John Hill
+    role: Creator
 - title: 'The Perfect Wrong Note: Vyping and the Keyboard as Musical Interface for
     Human-LLM Interaction'
   year: '2026'

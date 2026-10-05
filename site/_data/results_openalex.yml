@@ -1,8 +1,8 @@
-synced_at: '2026-10-04T11:08:06Z'
+synced_at: '2026-10-05T12:15:12Z'
 source: OpenAlex (CC0) for the open-access status and the free copy, Crossref for
   the licence
-count: 25
-free: 17
+count: 27
+free: 19
 works:
   10.1007/978-3-032-26999-7_18:
     status: closed
@@ -47,20 +47,28 @@ works:
     free: false
     licence_url: https://doi.org/10.15223/policy-029
   10.1145/3802842.3802884:
-    status: gold
+    status: hybrid
     label: open access
     free: true
     url: https://doi.org/10.1145/3802842.3802884
     licence: cc-by
     licence_label: CC BY
   10.1145/3811427.3811503:
-    status: gold
+    status: hybrid
     label: open access
     free: true
     url: https://doi.org/10.1145/3811427.3811503
     licence: cc-by
     licence_label: CC BY
     licence_url: https://creativecommons.org/licenses/by/4.0/legalcode
+  10.1145/3821402.3830167:
+    status: hybrid
+    label: open access
+    free: true
+    url: https://doi.org/10.1145/3821402.3830167
+    licence: cc-by-nc-nd
+    licence_label: CC BY-NC-ND
+    licence_url: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
   10.1177/13548565261464938:
     status: hybrid
     label: open access
@@ -115,6 +123,13 @@ works:
     label: open access (author copy)
     free: true
     url: https://doi.org/10.5281/zenodo.20784433
+    licence: cc-by
+    licence_label: CC BY
+  10.5281/zenodo.22254724:
+    status: green
+    label: open access (author copy)
+    free: true
+    url: https://doi.org/10.5281/zenodo.22254724
     licence: cc-by
     licence_label: CC BY
   10.5281/zenodo.22276042:

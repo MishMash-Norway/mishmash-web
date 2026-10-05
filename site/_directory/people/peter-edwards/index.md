@@ -38,6 +38,20 @@ search_keywords:
 - Music Analysis
 - Listening
 selected_works:
+- title: Sonic Citizenship
+  year: '2026'
+  source: Exhibition
+  group_type: Exhibition
+  url: https://linktr.ee/soniccitizenship
+  contributors:
+  - name: Áine Ryan Mangaoang
+    role: Curator
+  - name: Peter Edwards
+    role: Curator
+    slug: peter-edwards
+    url: /people/peter-edwards/
+  - name: Lucy Cathcart Frödén
+    role: Curator
 - title: 'Introduction: Absence and Music Thinking'
   year: '2026'
   source: Book chapter
@@ -134,17 +148,6 @@ selected_works:
   contributors:
   - name: Peter Edwards
     role: Artist
-    slug: peter-edwards
-    url: /people/peter-edwards/
-- title: 'Analysing the Concerto for Violin and Orchestra: Apparitions of the Past
-    and Future'
-  year: '2022'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://www.brepols.net/products/IS-9782503602400-1
-  contributors:
-  - name: Peter Edwards
-    role: Creator
     slug: peter-edwards
     url: /people/peter-edwards/
 source_mentions: []

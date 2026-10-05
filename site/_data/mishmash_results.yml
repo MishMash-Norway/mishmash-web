@@ -1,4 +1,4 @@
-synced_at: '2026-10-04T11:07:57Z'
+synced_at: '2026-10-05T12:15:03Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -32,6 +32,117 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0e6fc4da1-9979f093-4cb3-4039-af2f-8255dddf82ae
   url: https://doi.org/10.5281/zenodo.23009315
   nva_url: https://nva.sikt.no/registration/01a0e6fc4da1-9979f093-4cb3-4039-af2f-8255dddf82ae
+- title: 'Audio-Side Reinforcement Learning for Symbolic Music Style Adaptation: Extending
+    SMART with Composite Rewards'
+  year: '2026'
+  type: AcademicChapter
+  type_label: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Abdolrahim Tooranian
+    role: Creator
+    slug: abdolrahim-tooranian
+    url: /people/abdolrahim-tooranian/
+  - name: Bob L. T. Sturm
+    role: Creator
+  institutions:
+  - name: Østfold University College
+    slug: ostfold-university-college
+    url: /institutions/ostfold-university-college/
+  citation:
+    authors:
+    - display: Tooranian, Abdolrahim
+      name: Abdolrahim Tooranian
+      slug: abdolrahim-tooranian
+      url: /people/abdolrahim-tooranian/
+    - display: Sturm, Bob L. T.
+      name: Bob L. T. Sturm
+    title: 'Audio-Side Reinforcement Learning for Symbolic Music Style Adaptation:
+      Extending SMART with Composite Rewards'
+    container: In Coelho, Guilherme (Eds.), Proceedings of International Conference
+      on AI and Musical Creativity.
+    details: 'AI Music Creativity (AIMC). doi: 10.5281/ZENODO.22254724.'
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5582612
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1080071a7-ba871648-42d8-4f51-9a3d-967734a5cd2f
+  url: https://doi.org/10.5281/ZENODO.22254724
+  nva_url: https://nva.sikt.no/registration/01a1080071a7-ba871648-42d8-4f51-9a3d-967734a5cd2f
+- title: 'Rhythm and Residue: Vyping as Prompting Inside the Post-Discursive Interface'
+  year: '2026'
+  type: AcademicChapter
+  type_label: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Andrew Morrison
+    role: Creator
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Markéta Dolejšová
+    role: Creator
+  - name: John Hill
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Oslo School of Architecture and Design
+    slug: oslo-school-of-architecture-and-design
+    url: /institutions/oslo-school-of-architecture-and-design/
+  citation:
+    authors:
+    - display: Encinas, Enrique
+      name: Enrique Encinas
+      slug: enrique-encinas
+      url: /people/enrique-encinas/
+    - display: Morrison, Andrew
+      name: Andrew Morrison
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Dolejšová, Markéta
+      name: Markéta Dolejšová
+    - display: Hill, John
+      name: John Hill
+    title: 'Rhythm and Residue: Vyping as Prompting Inside the Post-Discursive Interface'
+    container: In Havinen, Laura, Hägglund, Susanne (Eds.), Adjunct Proceedings of
+      the 14th Nordic Conference on Human-Computer Interaction.
+    details: 'Association for Computing Machinery (ACM). ISBN 9798400727986. p. 1–9.
+      doi: 10.1145/3821402.3830167.'
+    abstract: 'Prompt engineering strategies emphasise clarity, specificity, and well-structured
+      input, on the assumption that large language models (LLMs) require clean input
+      to interpret user intent. But LLMs are pattern interpolators: they “absorb”
+      noise through statistical reconstruction rather than strict symbol matching.
+      Text-centric HCI has studied this tolerance for two decades without integrating
+      it into prompt engineering as a resource. We introduce vyping as an intentional
+      mode of prompting in which one types into LLMs at the speed of thought, without
+      correction. We developed vyping through sustained first-person inquiry. It can
+      be seen as a micro-practice inside a broader post-discursive turn in which meanings
+      increasingly travel as rhythms and patterns through latent-space proximity rather
+      than as precisely-formed symbols. The mismatch between current LLM interfaces
+      and their (human) users has led to two common layers in implementation: (1)
+      an orthographic residue at the interface (autocorrect, spellcheck, tidy-prompt
+      guides), and (2) an impairment parse shadow at the training layer, a form of
+      overalignment in which the model reads orthographic deviation as a sign that
+      something is wrong with the user. Overall, we offer three attunements (ease,
+      reach, and pulse) as alternatives to efficiency-first prompt engineering, and
+      situate the practice within critical HCI traditions of seamful, frictional,
+      and embodied interaction. The critique is structured around a seed prompt that
+      suspends the impairment parse and makes vyping livable; its section headings
+      are taken from the prompt’s own rules. A copy of the seed prompt is provided
+      at the end.'
+    full_text_url: https://hdl.handle.net/11250/5582566
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a106b2b37a-e16aba44-a6be-4cbb-89ec-1953b61a7d66
+  url: https://doi.org/10.1145/3821402.3830167
+  nva_url: https://nva.sikt.no/registration/01a106b2b37a-e16aba44-a6be-4cbb-89ec-1953b61a7d66
 - title: 'Designing Interfaces for the Integration of AI Agents in Maritime Navigation
     and Control: Potentials, Guidelines, Risks, and Emerging Requirements'
   year: '2026'
@@ -880,6 +991,81 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
   url: https://doi.org/10.5281/ZENODO.22643770
   nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+- title: 'Rhythm and Residue: Vyping as Prompting Inside the Post-Discursive Interface'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Andrew Morrison
+    role: Creator
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Markéta Dolejšová
+    role: Creator
+  - name: John Hill
+    role: Creator
+  institutions:
+  - name: Oslo School of Architecture and Design
+    slug: oslo-school-of-architecture-and-design
+    url: /institutions/oslo-school-of-architecture-and-design/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Encinas, Enrique
+      name: Enrique Encinas
+      slug: enrique-encinas
+      url: /people/enrique-encinas/
+    - display: Morrison, Andrew
+      name: Andrew Morrison
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Dolejšová, Markéta
+      name: Markéta Dolejšová
+    - display: Hill, John
+      name: John Hill
+    title: 'Rhythm and Residue: Vyping as Prompting Inside the Post-Discursive Interface'
+    container: NordiCHI 2026, the 14th Nordic Conference on Human-Computer Interaction,
+      Vaasa, 3 to 7 October 2026; presented by Enrique Encinas in the session Critiques
+      1 on 6 October, 10.30 to 12.00.
+    details: 'Vaasa. doi: 10.1145/3821402.3830167.'
+    abstract: 'Prompt engineering strategies emphasise clarity, specificity, and well-structured
+      input, on the assumption that large language models (LLMs) require clean input
+      to interpret user intent. But LLMs are pattern interpolators: they “absorb”
+      noise through statistical reconstruction rather than strict symbol matching.
+      Text-centric HCI has studied this tolerance for two decades without integrating
+      it into prompt engineering as a resource. We introduce vyping as an intentional
+      mode of prompting in which one types into LLMs at the speed of thought, without
+      correction. We developed vyping through sustained first-person inquiry. It can
+      be seen as a micro-practice inside a broader post-discursive turn in which meanings
+      increasingly travel as rhythms and patterns through latent-space proximity rather
+      than as precisely-formed symbols. The mismatch between current LLM interfaces
+      and their (human) users has led to two common layers in implementation: (1)
+      an orthographic residue at the interface (autocorrect, spellcheck, tidy-prompt
+      guides), and (2) an impairment parse shadow at the training layer, a form of
+      overalignment in which the model reads orthographic deviation as a sign that
+      something is wrong with the user. Overall, we offer three attunements (ease,
+      reach, and pulse) as alternatives to efficiency-first prompt engineering, and
+      situate the practice within critical HCI traditions of seamful, frictional,
+      and embodied interaction. The critique is structured around a seed prompt that
+      suspends the impairment parse and makes vyping livable; its section headings
+      are taken from the prompt’s own rules. A copy of the seed prompt is provided
+      at the end.'
+    full_text_url: https://hdl.handle.net/11250/5582567
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a106b2aaa2-aff67ba4-c3ef-432e-9dfc-e76a6c1b7334
+  url: https://doi.org/10.1145/3821402.3830167
+  nva_url: https://nva.sikt.no/registration/01a106b2aaa2-aff67ba4-c3ef-432e-9dfc-e76a6c1b7334
 - title: 'Music, AI, and wellbeing: The role of perception'
   year: '2026'
   type: ConferenceLecture

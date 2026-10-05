@@ -25,7 +25,20 @@ urls:
 aliases: []
 tags: []
 search_keywords: []
-selected_works: []
+selected_works:
+- title: 'Audio-Side Reinforcement Learning for Symbolic Music Style Adaptation: Extending
+    SMART with Composite Rewards'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/ZENODO.22254724
+  contributors:
+  - name: Abdolrahim Tooranian
+    role: Creator
+    slug: abdolrahim-tooranian
+    url: /people/abdolrahim-tooranian/
+  - name: Bob L. T. Sturm
+    role: Creator
 source_mentions: []
 summary: null
 published: true

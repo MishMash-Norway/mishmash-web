@@ -59,6 +59,17 @@ search_keywords:
 - Digital Ethnography
 - Artificial Intelligence
 selected_works:
+- title: 'Celebrity face-swaps and bikini beauties: the circulation of synthetic pornography
+    in China'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.4337/9781035342204.00033
+  contributors:
+  - name: Gabriele de Seta
+    role: Creator
+    slug: gabriele-de-seta
+    url: /people/gabriele-de-seta/
 - title: Four theses on algorithmic folklore
   year: '2026'
   source: Journal article
@@ -174,17 +185,6 @@ selected_works:
     role: Creator
   - name: Adrian Rauchfleisch
     role: Creator
-  - name: Gabriele de Seta
-    role: Creator
-    slug: gabriele-de-seta
-    url: /people/gabriele-de-seta/
-- title: 'Technologies of clairvoyance: Chinese lineages and mythologies of machine
-    vision'
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://www.urbanomic.com/chapter/machine-decision-is-not-final-10-technologies-of-clairvoyance/
-  contributors:
   - name: Gabriele de Seta
     role: Creator
     slug: gabriele-de-seta

@@ -51,6 +51,19 @@ search_keywords:
 - Game Design
 - Compositing
 selected_works:
+- title: 'AI as Fifth Team Member: Differentiated Roles in Design Education'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Rafal Hanzl
+    role: Creator
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
+  - name: Jannicke Johansen
+    role: Creator
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: MishMash Opening Video Projection Installation
   year: '2026'
   source: Visual arts
@@ -192,16 +205,6 @@ selected_works:
     role: RoleOther
   - name: Johannes Skjeltorp-Borgaas
     role: RoleOther
-- title: Creative technology design for "Lone Wolves Stick Together"by Nadja Lipsyc
-  year: '2019'
-  source: Visual arts
-  group_type: Visual arts
-  url: https://filmskolen.no/en/research/stipendiatprogrammet/lone-wolves-stick-together-project/lone-wolves-stick-together
-  contributors:
-  - name: Rafal Hanzl
-    role: Artist
-    slug: rafal-hanzl
-    url: /people/rafal-hanzl/
 source_mentions: []
 summary: Researcher and digital artist specialising in immersive technologies, projection
   mapping, and cultural heritage digitisation. Honorary Professor at Kristiania University

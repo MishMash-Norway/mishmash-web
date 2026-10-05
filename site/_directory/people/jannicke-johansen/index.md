@@ -51,6 +51,19 @@ search_keywords:
 - Entrepreneurship
 - Research
 selected_works:
+- title: 'AI as Fifth Team Member: Differentiated Roles in Design Education'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Rafal Hanzl
+    role: Creator
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
+  - name: Jannicke Johansen
+    role: Creator
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: MishMash Opening Video Projection Installation
   year: '2026'
   source: Visual arts
@@ -162,18 +175,6 @@ selected_works:
     role: ExhibitionDesigner
     slug: jannicke-johansen
     url: /people/jannicke-johansen/
-- title: '"Kunst på Elgsletta" under Researchers Night, Forskningsdagene 2023'
-  year: '2023'
-  source: Other artistic output
-  group_type: Other artistic output
-  url: https://www.kristiania.no/om-kristiania/kalender/kunst-pa-elgsletta/
-  contributors:
-  - name: Jannicke Johansen
-    role: RoleOther
-    slug: jannicke-johansen
-    url: /people/jannicke-johansen/
-  - name: Silje Straume
-    role: RoleOther
 source_mentions: []
 summary: Jannicke Johansen is an associate professor at the Westerdals Department
   of Creativity, Storytelling and Design within the School of Arts, Design and Media
