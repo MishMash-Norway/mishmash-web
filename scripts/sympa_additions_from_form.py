@@ -2,12 +2,21 @@
 """List who should be added to the WP mailing lists, from a participation-form export.
 
 Reads the newest participation-form xlsx in temp/ (or --xlsx), keeps the rows
-that consented to the directory and were submitted on or after --since, and
-writes one file per list (all@ and wp1@ to wp7@), temp/sympa-add-<list>.txt, in the "email name" format
+submitted on or after --since, and writes one file per list (all@ and wp1@ to wp7@), temp/sympa-add-<list>.txt, in the "email name" format
 that Sympa's "Add subscribers" page accepts (Manage subscribers → Add
 subscribers, at https://sympa.uio.no/mishmash.no/add_request/wpN). People
 already on a list according to the newest temp/wpN@mishmash.no.txt export
 are left out.
+
+Everyone who submits the form goes on the lists. The question about the
+directory only decides whether the person is shown on the website.
+
+A person who submitted the form more than once is listed once on each list. A name written
+all in capitals or all in lower case is capitalised.
+
+A name submitted as a first name only is replaced by the full name of the
+directory entry that has it as an alias, so the lists carry the same name as
+the website.
 
     python3 scripts/sympa_additions_from_form.py --since 2026-09-08
 
@@ -20,6 +29,9 @@ import argparse
 import sys
 from datetime import datetime
 from pathlib import Path
+
+from directory_io import load_entry
+from repo_paths import SITE_ROOT
 
 try:
     from openpyxl import load_workbook
@@ -42,11 +54,20 @@ def existing_members(wp: str) -> set[str]:
     return {line.split("\t")[0].strip().lower() for line in path.read_text(encoding="utf-8").splitlines() if "@" in line}
 
 
+def full_names_by_alias() -> dict[str, str]:
+    names = {}
+    for index_md in (SITE_ROOT / "_directory" / "people").glob("*/index.md"):
+        data, _ = load_entry(index_md)
+        for alias in data.get("aliases") or []:
+            if data.get("name"):
+                names[str(alias).strip().lower()] = data["name"]
+    return names
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--xlsx", type=Path, help="Form export (default: newest temp/data-625226-*.xlsx)")
     ap.add_argument("--since", type=lambda s: datetime.fromisoformat(s), help="Only submissions on/after this date (YYYY-MM-DD)")
-    ap.add_argument("--all", action="store_true", help="Include people who did not answer Yes to the directory question")
     args = ap.parse_args()
 
     xlsx = args.xlsx or newest_participation_xlsx()
@@ -63,12 +84,13 @@ def main() -> int:
         sys.exit(f"Column starting with '{prefix}' not found in {xlsx}")
 
     c_created, c_name, c_email = col("$created"), col("Name"), col("Email")
-    c_consent = col("Do you want to be added")
     wp_cols = {}
     for i, h in enumerate(headers):
         if h.startswith("Work Package(s) you are interested in joining.WP"):
             wp_cols[h.split(".")[-1][:3]] = i
 
+    by_alias = full_names_by_alias()
+    seen: set[tuple[str, str]] = set()
     per_list: dict[str, list[tuple[str, str]]] = {"ALL": []}
     per_list.update({wp: [] for wp in sorted(wp_cols)})
     skipped_existing = 0
@@ -78,19 +100,24 @@ def main() -> int:
             created = datetime.fromisoformat(created[:19])
         if args.since and created and created < args.since:
             continue
-        if not args.all and str(row[c_consent] or "").strip().lower() != "yes":
-            continue
         name = str(row[c_name] or "").strip()
+        name = by_alias.get(name.lower(), name)
+        if name.isupper() or name.islower():
+            name = name.title()
         email = str(row[c_email] or "").strip().lower()
         if not email:
             continue
-        if email not in existing_members("all"):
+        if email not in existing_members("all") and (email, "ALL") not in seen:
+            seen.add((email, "ALL"))
             per_list["ALL"].append((email, name))
         for wp, idx in wp_cols.items():
             if row[idx]:
                 if email in existing_members(wp):
                     skipped_existing += 1
                     continue
+                if (email, wp) in seen:
+                    continue
+                seen.add((email, wp))
                 per_list[wp].append((email, name))
 
     TEMP.mkdir(exist_ok=True)
