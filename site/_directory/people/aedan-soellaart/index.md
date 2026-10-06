@@ -3,10 +3,10 @@ type: person
 slug: aedan-soellaart
 name: Aedan Soellaart
 title: Aedan Soellaart
-position: Student
-department: Faculty of Social Sciences
+position: Research Assistant
+department: Department of Educational Studies in Teacher Education
 image: /assets/images/portraits/Aedan_Soellaart_NORD.jpg
-institution: nord-university
+institution: university-of-inland-norway
 institutions:
 - nord-university
 - university-of-inland-norway
@@ -32,13 +32,13 @@ tags:
 - Technology, Innovation and Culture
 - Serious Games
 - Accessibility
-- Artificial Intelligence
+- Artificial intelligence
 search_keywords:
 - Game Design
 - Technology, Innovation and Culture
 - Serious Games
 - Accessibility
-- Artificial Intelligence
+- Artificial intelligence
 selected_works:
 - title: 'Agile Game Production Instruction: Integrating Agile Methodologies with
     Project-Based Learning in Game Development Education'
