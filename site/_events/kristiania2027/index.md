@@ -16,6 +16,7 @@ Save the date.
 
 ## AI as Environment
 The 9th Annual Artistic Research at Kristiania Symposium (AR@K27) & the 2nd MishMash Conference. 
+
 Co-organised with [AI Ecologies Research Group](https://www.kristiania.no/en/research/research-groups/AIEcologies/), [Kristiania AI Centre (KAI)](https://www.kristiania.no/en/research/research-groups/kai-centre/), and [Atelier Nord](https://ateliernord.no/). 
 
 13–14 April 2027 [Kristiania University of Applied Sciences](https://www.kristiania.no/en/), Oslo, Norway
