@@ -14,10 +14,11 @@ redirect_from:
 
 Save the date.
 
-AR@K27, the 9th Annual Artistic Research Conference, takes place on 13–14 April 2027 at [Kristiania University of Applied Sciences](https://www.kristiania.no/en/), Oslo.
+## AI as Environment
+The 9th Annual Artistic Research at Kristiania Symposium (AR@K27) & the 2nd MishMash Conference. 
+Co-organised with [AI Ecologies Research Group](https://www.kristiania.no/en/research/research-groups/AIEcologies/), [Kristiania AI Centre (KAI)](https://www.kristiania.no/en/research/research-groups/kai-centre/), and [Atelier Nord](https://ateliernord.no/). 
 
-## Theme: AI as Environment
-The conference is organised in collaboration with MishMash (as its 2nd national semester conference), [Atelier Nord](https://ateliernord.no/?lang=en), and [KAI — Kristiania AI Centre](https://www.kristiania.no/en/research/research-groups/kai-centre/).
+13–14 April 2027 | [Kristiania University of Applied Sciences](https://www.kristiania.no/en/), Oslo, Norway
 
 With the distinguished keynote speakers: 
 Tiziana Terranova · Kyle Stine · Orit Halpern · and the Spring 2027 Atelier Nord/MishMash Artist-in-Residence.
