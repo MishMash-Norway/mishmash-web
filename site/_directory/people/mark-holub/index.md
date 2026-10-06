@@ -25,15 +25,15 @@ urls:
 aliases:
 - Mark
 tags:
-- improvisation
-- group interaction
-- group dynamics
-- leadership
+- Improvisation
+- Group Interaction
+- Group Dynamics
+- Leadership
 search_keywords:
-- improvisation
-- group interaction
-- group dynamics
-- leadership
+- Improvisation
+- Group Interaction
+- Group Dynamics
+- Leadership
 selected_works:
 - title: 'Framing freedom: bandleading in jazz and improvised music'
   year: '2025'

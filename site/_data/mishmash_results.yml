@@ -1,4 +1,4 @@
-synced_at: '2026-10-05T12:15:03Z'
+synced_at: '2026-10-06T12:02:27Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -2430,7 +2430,7 @@ results:
     title: Hybrid AI for Expert-Assisted Transcription of Norwegian Hardanger Fiddle
       Music
     container: MishMash Opening Conference.
-    details: Kilden, Kristiansand.
+    details: 'Kilden, Kristiansand. doi: 10.5281/zenodo.23009316.'
     abstract: 'The traditional Norwegian Hardanger fiddle repertoire is a rich oral
       heritage. Existing
 
@@ -2495,7 +2495,7 @@ results:
     full_text_url: https://hdl.handle.net/11250/5577096
     full_text_kind: archive
     nva_url: https://nva.sikt.no/registration/01a0d980549b-3a19cdbb-e5bf-4003-87cd-06c7f8575eca
-  url: https://mishmash.no/assets/events/kristiansand2026/mishmash-opening-conference-2026-abstracts.pdf
+  url: https://doi.org/10.5281/zenodo.23009316
   nva_url: https://nva.sikt.no/registration/01a0d980549b-3a19cdbb-e5bf-4003-87cd-06c7f8575eca
 - title: 'AI-powered curation and enrichment of music collections: (Norwegian) (folk)
     music collection(s)'
@@ -2521,12 +2521,12 @@ results:
     title: 'AI-powered curation and enrichment of music collections: (Norwegian) (folk)
       music collection(s)'
     container: MishMash Opening Conference.
-    details: Kunstsilo, Kristiansand.
+    details: 'Kunstsilo, Kristiansand. doi: 10.5281/zenodo.23009316.'
     abstract: ''
     full_text_url: https://hdl.handle.net/11250/5577094
     full_text_kind: archive
     nva_url: https://nva.sikt.no/registration/01a0d976e954-e4246021-b5b4-4f7f-b7bb-e12e9b582ec3
-  url: https://mishmash.no/events/kristiansand2026/
+  url: https://doi.org/10.5281/zenodo.23009316
   nva_url: https://nva.sikt.no/registration/01a0d976e954-e4246021-b5b4-4f7f-b7bb-e12e9b582ec3
 - title: 'The Right to Have a Digital Future: Migration, Technology, and the Politics
     of Hope'

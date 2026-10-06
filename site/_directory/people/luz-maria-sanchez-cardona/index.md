@@ -18,7 +18,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.luzmariasanchez.com
-  institutional_website: https://www.luzmariasanchez.com
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0003-4279-9490

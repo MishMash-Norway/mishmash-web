@@ -26,18 +26,18 @@ urls:
 aliases: []
 tags:
 - Teacher
-- arts and crafts
-- fine arts
-- visual arts
-- AI in education
-- AI in arts
+- Arts and Crafts
+- Fine Arts
+- Visual Arts
+- AI in Education
+- AI in Arts
 search_keywords:
 - Teacher
-- arts and crafts
-- fine arts
-- visual arts
-- AI in education
-- AI in arts
+- Arts and Crafts
+- Fine Arts
+- Visual Arts
+- AI in Education
+- AI in Arts
 selected_works: []
 source_mentions: []
 summary: null

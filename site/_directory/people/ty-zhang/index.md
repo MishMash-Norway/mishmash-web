@@ -23,19 +23,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- AI performance
-- human-AI co-performance
-- live performance
-- theatre directing
-- performance writing
-- real-time interaction
+- AI Performance
+- Human-AI Co-Performance
+- Live Performance
+- Theatre Directing
+- Performance Writing
+- Real-Time Interaction
 search_keywords:
-- AI performance
-- human-AI co-performance
-- live performance
-- theatre directing
-- performance writing
-- real-time interaction
+- AI Performance
+- Human-AI Co-Performance
+- Live Performance
+- Theatre Directing
+- Performance Writing
+- Real-Time Interaction
 selected_works: []
 source_mentions: []
 summary: null

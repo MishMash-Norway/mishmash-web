@@ -23,22 +23,22 @@ urls:
   youtube: ''
   mastodon: ''
   instagram: https://www.instagram.com/sondergart/
-  wikidata: ''
+  wikidata: https://www.wikidata.org/wiki/Q139272393
 aliases: []
 tags:
-- Sound art
-- media art
-- art and technology
-- artistic research
-- curatorial research
-- curatorial practice
+- Sound Art
+- Media Art
+- Art and Technology
+- Artistic Research
+- Curatorial Research
+- Curatorial Practice
 search_keywords:
-- Sound art
-- media art
-- art and technology
-- artistic research
-- curatorial research
-- curatorial practice
+- Sound Art
+- Media Art
+- Art and Technology
+- Artistic Research
+- Curatorial Research
+- Curatorial Practice
 selected_works: []
 source_mentions: []
 summary: null

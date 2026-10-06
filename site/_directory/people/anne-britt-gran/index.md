@@ -30,19 +30,19 @@ urls:
   bluesky: https://bsky.app/profile/abgran.bsky.social
 aliases: []
 tags:
-- Digitalization of the cultural sector
-- AI and creative industries
-- cultural policy
-- cultural consumption
-- performing arts
-- algorithm awareness studies
+- Digitalization of the Cultural Sector
+- AI and Creative Industries
+- Cultural Policy
+- Cultural Consumption
+- Performing Arts
+- Algorithm Awareness Studies
 search_keywords:
-- Digitalization of the cultural sector
-- AI and creative industries
-- cultural policy
-- cultural consumption
-- performing arts
-- algorithm awareness studies
+- Digitalization of the Cultural Sector
+- AI and Creative Industries
+- Cultural Policy
+- Cultural Consumption
+- Performing Arts
+- Algorithm Awareness Studies
 selected_works:
 - title: 'Performing Not-Not-Me in SoMe: A New Theatrical Typology of Self-Presentation
     Online'

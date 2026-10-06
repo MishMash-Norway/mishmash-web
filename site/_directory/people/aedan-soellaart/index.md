@@ -32,13 +32,13 @@ tags:
 - Technology, Innovation and Culture
 - Serious Games
 - Accessibility
-- Artificial intelligence
+- Artificial Intelligence
 search_keywords:
 - Game Design
 - Technology, Innovation and Culture
 - Serious Games
 - Accessibility
-- Artificial intelligence
+- Artificial Intelligence
 selected_works:
 - title: 'Agile Game Production Instruction: Integrating Agile Methodologies with
     Project-Based Learning in Game Development Education'

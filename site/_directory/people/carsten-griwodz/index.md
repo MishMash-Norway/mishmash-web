@@ -52,6 +52,27 @@ search_keywords:
 - Operating Systems
 - Informatics
 selected_works:
+- title: 'Research Proposal: Non-intrusive Stress Recognition using Multimodality
+    Deep Learning'
+  year: '2026'
+  source: Conference report
+  group_type: Conference
+  url: https://doi.org/10.1145/3793853.3798410
+  contributors:
+  - name: Thi Thuy Chau Tran
+    role: Creator
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Anis Yazidi
+    role: Creator
+  - name: Kai Morgan Kjølerbakken
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
 - title: Studying Embodied Expression in Drumming for Virtual Systems
   year: '2026'
   source: Book chapter
@@ -226,20 +247,6 @@ selected_works:
     role: Creator
   - name: Ozgu Alay
     role: Creator
-- title: 'dB: A Web-based Drummer Bot for Finger-Tapping'
-  year: '2024'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/zenodo.13904788
-  contributors:
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''

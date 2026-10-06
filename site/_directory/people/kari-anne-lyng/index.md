@@ -32,6 +32,19 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: How does the choice of food waste collection strategy affect the environmental
+    performance of the food waste system?
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1177/0734242x261436164
+  contributors:
+  - name: Kari-Anne Lyng
+    role: Creator
+    slug: kari-anne-lyng
+    url: /people/kari-anne-lyng/
+  - name: Fabiana Frota de Albuquerque Landi
+    role: Creator
 - title: Untangling the Life Cycle Impacts of Artificial Intelligence
   year: '2025'
   source: Journal article
@@ -336,27 +349,6 @@ selected_works:
     role: Creator
     slug: kari-anne-lyng
     url: /people/kari-anne-lyng/
-- title: 'Transforming the food system with a biomass value hierarchy: Sustainability
-    and policy insights'
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1016/j.spc.2024.11.026
-  contributors:
-  - name: Kari-Anne Kallerud Lyng
-    role: Creator
-    slug: kari-anne-lyng
-    url: /people/kari-anne-lyng/
-  - name: Hanne Møller
-    role: Creator
-  - name: Klaus Mittenzwei
-    role: Creator
-  - name: Ivar Pettersen
-    role: Creator
-  - name: Jakob Vesterlund Olsen
-    role: Creator
-  - name: Hanne Fjerdingby Olsen
-    role: Creator
 source_mentions: []
 summary: null
 published: true

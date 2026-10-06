@@ -53,6 +53,15 @@ bi-norwegian-business-school:
   qid: Q604629
   ror: 03ez40v33
   website: http://www.bi.no/
+copenhagen-business-school:
+  coordinates:
+    lat: 55.681625
+    lon: 12.529733333
+  inception: '1917-01-01'
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20CopenhagenBusinessSchool.svg
+  qid: Q703620
+  ror: 04sppb023
+  website: https://www.cbs.dk/
 forzasys:
   inception: '2014-01-01'
   qid: Q30259251

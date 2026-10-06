@@ -21,25 +21,25 @@ urls:
   youtube: https://www.youtube.com/@mherzig2
   mastodon: ''
   instagram: https://www.instagram.com/monikaherzig
-  wikidata: ''
+  wikidata: https://www.wikidata.org/wiki/Q6900188
   facebook: https://www.facebook.com/monika.herzig
 aliases: []
 tags:
-- jazz
-- entreprenership
-- jazz research
-- jazz history
-- arts administration
-- jazz piano
-- piano
+- Jazz
+- Entreprenership
+- Jazz Research
+- Jazz History
+- Arts Administration
+- Jazz Piano
+- Piano
 search_keywords:
-- jazz
-- entreprenership
-- jazz research
-- jazz history
-- arts administration
-- jazz piano
-- piano
+- Jazz
+- Entreprenership
+- Jazz Research
+- Jazz History
+- Arts Administration
+- Jazz Piano
+- Piano
 selected_works:
 - title: But can she play?
   year: '2026'

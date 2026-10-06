@@ -38,6 +38,27 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Research Proposal: Non-intrusive Stress Recognition using Multimodality
+    Deep Learning'
+  year: '2026'
+  source: Conference report
+  group_type: Conference
+  url: https://doi.org/10.1145/3793853.3798410
+  contributors:
+  - name: Thi Thuy Chau Tran
+    role: Creator
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Anis Yazidi
+    role: Creator
+  - name: Kai Morgan Kjølerbakken
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
 - title: Modeling Relations Between Musical Events in Continuous Time with Transformer
     Models for Live Co-Improvisational Interactions | Zenodo
   year: '2026'
@@ -206,29 +227,6 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
-- title: 'MAAL: a multi-agent autonomous live looper for improvised co-creation of
-    musical structures'
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/ZENODO.16946080
-  contributors:
-  - name: Vincenzo Madaghiele
-    role: Creator
-    slug: vincenzo-madaghiele
-    url: /people/vincenzo-madaghiele/
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
-  - name: Tejaswinee Kelkar
-    role: Creator
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
 source_mentions: []
 summary: ''
 wps:

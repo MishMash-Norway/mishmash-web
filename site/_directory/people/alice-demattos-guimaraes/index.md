@@ -24,19 +24,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Cultural economics
-- Creative cultural industries (CCIs)
-- cultural sector
-- Digital transformation
-- Cultural policy
-- Alternative finance
+- Cultural Economics
+- Creative Cultural Industries (CCIs)
+- Cultural Sector
+- Digital Transformation
+- Cultural Policy
+- Alternative Finance
 search_keywords:
-- Cultural economics
-- Creative cultural industries (CCIs)
-- cultural sector
-- Digital transformation
-- Cultural policy
-- Alternative finance
+- Cultural Economics
+- Creative Cultural Industries (CCIs)
+- Cultural Sector
+- Digital Transformation
+- Cultural Policy
+- Alternative Finance
 selected_works:
 - title: 'More than raising money: the role of crowdfunding in the development of
     cultural projects'

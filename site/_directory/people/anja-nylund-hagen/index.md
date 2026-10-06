@@ -139,6 +139,8 @@ selected_works:
   contributors:
   - name: Anne-Britt Gran
     role: Creator
+    slug: anne-britt-gran
+    url: /people/anne-britt-gran/
   - name: Kampen Kristensen Linn-Birgit
     role: Creator
   - name: Audun Molde

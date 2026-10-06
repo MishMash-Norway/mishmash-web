@@ -55,6 +55,7 @@ selected_works:
   year: '2026'
   source: Journal article
   group_type: Journal article
+  url: https://doi.org/10.5334/uproc.245
   contributors:
   - name: Rafal Hanzl
     role: Creator
@@ -147,7 +148,7 @@ selected_works:
     url: /people/rafal-hanzl/
   - name: Maureen Thomas
     role: Writer
-- title: Medieval Akersborg - Interactive Museum Exhibit
+- title: Medieval Akersborg - Interactive Explorable Story Museum Exhibit
   year: '2023'
   source: Exhibition
   group_type: Exhibition
