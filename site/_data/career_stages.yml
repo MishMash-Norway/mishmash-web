@@ -1,0 +1,46 @@
+# Career stages for the Role filter on the search page, read from a person's
+# free-text `position`. The stages are tried in order and the first pattern
+# that matches wins, so the order matters: "Post-doctoral research fellow"
+# must meet the postdoc rule before "research fellow" sends it to PhD fellows,
+# and "PhD student" must meet the PhD rule before the student rule.
+# Patterns are case-insensitive regular expressions, read by the search page
+# (JavaScript) and by scripts/test_career_stages.py (Python), so keep to syntax
+# both understand. A person whose position matches nothing is in "Others".
+#
+# "Research fellow" is the usual English title for a Norwegian stipendiat,
+# which is why it counts as a PhD fellow.
+stages:
+  - label: Postdocs/Researchers
+    patterns:
+      - 'post-?doc'
+      - 'researcher'
+      - 'research scientist'
+      - 'research professor'
+  - label: PhD fellows
+    patterns:
+      - 'ph\.? ?d'
+      - 'doctoral'
+      - 'research fellow'
+      - 'stipendiat'
+  - label: Students
+    patterns:
+      - '\bstudent\b(?! teacher)'
+      - '\bmaster'
+  - label: Faculty
+    patterns:
+      - 'professor'
+      - 'lecturer'
+      - '\blektor\b'
+      - '\bdean\b'
+      - '\bdekan\b'
+      - '\b(pro-?)?rector\b'
+      - 'head of academic department'
+      - 'instructor'
+other: Others
+# The order of the buttons on the page, which is not the order the rules are tried in.
+display_order:
+  - Students
+  - PhD fellows
+  - Postdocs/Researchers
+  - Faculty
+  - Others

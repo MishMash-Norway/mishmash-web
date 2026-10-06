@@ -305,7 +305,27 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     return (str || '').toLowerCase().trim();
   }
 
-  function roleMatchesChip(itemRoles, chipLabel) {
+  // Career stages from the free-text position; the rules and their order live
+  // in _data/career_stages.yml, shared with scripts/test_career_stages.py.
+  const CAREER_STAGE_RULES = {{ site.data.career_stages | jsonify }};
+  const CAREER_STAGES = CAREER_STAGE_RULES.stages.map(function (stage) {
+    return { label: stage.label, patterns: stage.patterns.map(function (p) { return new RegExp(p, 'i'); }) };
+  });
+  const CAREER_STAGE_LABELS = CAREER_STAGE_RULES.display_order;
+
+  function careerStage(position) {
+    const text = position || '';
+    for (const stage of CAREER_STAGES) {
+      if (stage.patterns.some(function (re) { return re.test(text); })) return stage.label;
+    }
+    return CAREER_STAGE_RULES.other;
+  }
+
+  function roleMatchesChip(item, chipLabel) {
+    if (CAREER_STAGE_LABELS.includes(chipLabel)) {
+      return item.type === 'person' && careerStage(item.position) === chipLabel;
+    }
+    const itemRoles = item.roles || [];
     const targetValues = ROLE_GROUPS[chipLabel] || [chipLabel];
     return targetValues.some(function (tv) {
       return itemRoles.some(function (ir) { return norm(ir) === norm(tv); });
@@ -779,6 +799,12 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       makeChip(v, activeRoles, roleChips, runSearch);
     });
 
+    const stagesPresent = new Set(items.filter(function (item) { return item.type === 'person'; })
+      .map(function (item) { return careerStage(item.position); }));
+    CAREER_STAGE_LABELS.filter(function (label) { return stagesPresent.has(label); }).forEach(function (label) {
+      makeChip(label, activeRoles, roleChips, runSearch);
+    });
+
     [...wpCats].sort(function (a, b) {
       return parseInt(a.replace(/\D/g, ''), 10) - parseInt(b.replace(/\D/g, ''), 10);
     }).forEach(function (v) {
@@ -865,7 +891,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
 
       if (activeRoles.size) {
         const matches = [...activeRoles].some(function (label) {
-          return roleMatchesChip(item.roles || [], label);
+          return roleMatchesChip(item, label);
         });
         if (!matches) return false;
       }

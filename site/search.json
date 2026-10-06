@@ -90,6 +90,7 @@ layout: null
         "categories": {{ search_categories | default: empty | jsonify }},
         "tags": {{ item.tags | default: empty | jsonify }},
         "roles": {{ item.roles | default: empty | jsonify }},
+        "position": {% if item.type == "person" %}{{ item.position | default: "" | jsonify }}{% else %}""{% endif %},
         "description": {{ search_description | jsonify }},
         "content": {{ search_content | jsonify }},
         "type": {% if item.collection == "events" %}"event"{% elsif item.collection == "news" %}"news"{% elsif item.type == "person" %}"person"{% elsif item.type == "institution" %}"institution"{% elsif item.type == "project" %}"project"{% else %}"page"{% endif %}
