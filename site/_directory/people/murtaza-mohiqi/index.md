@@ -42,7 +42,7 @@ selected_works:
   year: '2026'
   source: Conference poster
   group_type: Conference
-  url: https://mishmash.no/assets/events/kristiansand2026/mishmash-opening-conference-2026-abstracts.pdf
+  url: https://zenodo.org/records/23009316
   contributors:
   - name: Murtaza Mohiqi
     role: Creator

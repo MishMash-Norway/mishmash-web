@@ -1,4 +1,4 @@
-synced_at: '2026-10-06T12:02:27Z'
+synced_at: '2026-10-07T11:54:22Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -3104,7 +3104,7 @@ results:
     full_text_url: https://hdl.handle.net/11250/5574061
     full_text_kind: archive
     nva_url: https://nva.sikt.no/registration/01a0cb1cdd12-2edb8df5-83a7-49a0-ad8f-346606af59df
-  url: https://mishmash.no/assets/events/kristiansand2026/mishmash-opening-conference-2026-abstracts.pdf
+  url: https://zenodo.org/records/23009316
   nva_url: https://nva.sikt.no/registration/01a0cb1cdd12-2edb8df5-83a7-49a0-ad8f-346606af59df
 - title: 'Press Start to Generate: AI in Game Development Education'
   year: '2026'
