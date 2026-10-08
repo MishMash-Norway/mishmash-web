@@ -80,6 +80,7 @@ selected_works:
   year: '2026'
   source: Book anthology
   group_type: Book anthology
+  url: https://www.jstor.org/stable/10.3366/jj.33169508
   contributors:
   - name: Christine Dysers
     role: Creator

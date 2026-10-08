@@ -47,6 +47,22 @@ search_keywords:
 - Music
 - Music Technology
 selected_works:
+- title: Jo Berger Myhre - PENTA
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://jobergermyhre.bandcamp.com/album/penta
+  contributors:
+  - name: Jo Berger Myhre
+    role: Conductor
+  - name: Morten Qvenild
+    role: Musician
+    slug: morten-qvenild
+    url: /people/morten-qvenild/
+  - name: Kaveh Mahoudiyan
+    role: Musician
+  - name: Jo David Meyer Lysne
+    role: Musician
 - title: Konsert Lokalt Piano Skoklefall Kirke
   year: '2026'
   source: Music performance
@@ -175,20 +191,6 @@ selected_works:
     role: Organizer
     slug: morten-qvenild
     url: /people/morten-qvenild/
-- title: Stillhetens Implosjoner by Morten Qvenild
-  year: '2022'
-  source: Music performance
-  group_type: Music performance
-  url: https://www.researchcatalogue.net/view/1479582/1479583
-  contributors:
-  - name: Morten Qvenild
-    role: Composer
-    slug: morten-qvenild
-    url: /people/morten-qvenild/
-  - name: Thomas Strønen
-    role: Composer
-  - name: Torben Snekkestad
-    role: Composer
 source_mentions:
 - about/organisation/council/index.md
 summary: ''

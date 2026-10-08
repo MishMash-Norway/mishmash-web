@@ -31,6 +31,78 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'TAO — Transductive Acoustic Organism: A Persistent, Self-Hosted AI Instrument
+    for Artistic Research'
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+- title: 'dissonance.craitr.no: Live Performance with Generative AI at NordiCHI 2026'
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://dissonance.craitr.no
+  contributors:
+  - name: Danny Snow
+    role: Creator
+  - name: Alexander Cohen
+    role: Creator
+  - name: Johanna Schütt
+    role: Creator
+  - name: Joseph Lindley
+    role: Creator
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+- title: The Sofienberg Naturalization Bureau
+  year: '2026'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://www.oslotriennale.no/program/naturalization-bureau
+  contributors:
+  - name: Ilse Svortevik Hviding
+    role: Creator
+  - name: Markéta Dolejšová
+    role: Creator
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Ulrik Antoniussen Halmøy
+    role: Creator
+- title: 'Mossferaitu: A Performance in Five Movements with Generative AI Sound'
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://mossferaitu.craitr.no/v12/site
+  contributors:
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Henrik Mojo Hansen
+    role: Creator
+- title: 'Undisciplining service design: Towards a grammar of possibility'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1080/14606925.2026.2724081
+  contributors:
+  - name: Josina Vink
+    role: Creator
+  - name: Daphne Chan
+    role: Creator
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Shreya Bhattacharya
+    role: Creator
 - title: 'Rhythm and Residue: Vyping as Prompting Inside the Post-Discursive Interface'
   year: '2026'
   source: Book chapter
@@ -128,39 +200,6 @@ selected_works:
   - name: Jesse Joshua Benjamin
     role: Creator
   - name: Spyros Bofylatos
-    role: Creator
-- title: 'Speculative designs in educational settings: Tension-patterns from a (mostly)
-    European perspective'
-  year: '2023'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.21606/nordes.2023.98
-  contributors:
-  - name: Enrique Encinas Pollos
-    role: Creator
-    slug: enrique-encinas
-    url: /people/enrique-encinas/
-  - name: Ingi Helgason
-    role: Creator
-  - name: James Auger
-    role: Creator
-  - name: Ivica Mitrović
-    role: Creator
-  - name: julian hanna
-    role: Creator
-- title: 'Speculative and Critical Design: Approaches and influences in education'
-  year: '2022'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.55612/s-5002-051-001psi
-  contributors:
-  - name: Ingi Helgason
-    role: Creator
-  - name: Enrique Encinas Pollos
-    role: Creator
-    slug: enrique-encinas
-    url: /people/enrique-encinas/
-  - name: Michael Smyth
     role: Creator
 source_mentions: []
 summary: ''

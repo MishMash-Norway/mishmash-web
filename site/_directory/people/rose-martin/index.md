@@ -25,18 +25,18 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Dance studies
+- Dance Studies
 - Dance
-- Educational guidance
-- art education
+- Educational Guidance
+- Art Education
 - Education, Learning, Development, Multiculturalisme
 - Culture
 - Education
 search_keywords:
-- Dance studies
+- Dance Studies
 - Dance
-- Educational guidance
-- art education
+- Educational Guidance
+- Art Education
 - Education, Learning, Development, Multiculturalisme
 - Culture
 - Education

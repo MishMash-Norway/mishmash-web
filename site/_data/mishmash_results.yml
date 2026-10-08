@@ -1,4 +1,4 @@
-synced_at: '2026-10-07T11:54:22Z'
+synced_at: '2026-10-08T12:45:32Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -991,6 +991,42 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
   url: https://doi.org/10.5281/ZENODO.22643770
   nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+- title: 'TAO — Transductive Acoustic Organism: A Persistent, Self-Hosted AI Instrument
+    for Artistic Research'
+  year: '2026'
+  type: ConferencePoster
+  type_label: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  institutions:
+  - name: Oslo School of Architecture and Design
+    slug: oslo-school-of-architecture-and-design
+    url: /institutions/oslo-school-of-architecture-and-design/
+  citation:
+    authors:
+    - display: Encinas, Enrique
+      name: Enrique Encinas
+      slug: enrique-encinas
+      url: /people/enrique-encinas/
+    title: 'TAO — Transductive Acoustic Organism: A Persistent, Self-Hosted AI Instrument
+      for Artistic Research'
+    container: MishMash Opening Conference 2026.
+    details: Kilden, Kristiansand.
+    abstract: Poster presented at the opening conference of MishMash Centre for AI
+      and Creativity. The poster presents TAO, a persistent artistic-research instrument
+      assembled from open-weight models for multimodal language, music generation
+      and sound generation, running on a single self-hosted machine. Developed with
+      MishMash seed funding as research infrastructure, TAO addresses what AI infrastructure
+      artists and cultural institutions need in order to work critically, experimentally
+      and sustainably.
+    full_text_url: https://hdl.handle.net/11250/5584714
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a117df6710-e36d4e1e-d65e-45b0-882e-cdac1fa2b22f
+  nva_url: https://nva.sikt.no/registration/01a117df6710-e36d4e1e-d65e-45b0-882e-cdac1fa2b22f
 - title: 'Rhythm and Residue: Vyping as Prompting Inside the Post-Discursive Interface'
   year: '2026'
   type: ConferenceLecture
@@ -1038,7 +1074,7 @@ results:
     container: NordiCHI 2026, the 14th Nordic Conference on Human-Computer Interaction,
       Vaasa, 3 to 7 October 2026; presented by Enrique Encinas in the session Critiques
       1 on 6 October, 10.30 to 12.00.
-    details: 'Vaasa. doi: 10.1145/3821402.3830167.'
+    details: Vaasa.
     abstract: 'Prompt engineering strategies emphasise clarity, specificity, and well-structured
       input, on the assumption that large language models (LLMs) require clean input
       to interpret user intent. But LLMs are pattern interpolators: they “absorb”
@@ -1064,7 +1100,7 @@ results:
     full_text_url: https://hdl.handle.net/11250/5582567
     full_text_kind: archive
     nva_url: https://nva.sikt.no/registration/01a106b2aaa2-aff67ba4-c3ef-432e-9dfc-e76a6c1b7334
-  url: https://doi.org/10.1145/3821402.3830167
+  url: https://rhyres.craitr.no
   nva_url: https://nva.sikt.no/registration/01a106b2aaa2-aff67ba4-c3ef-432e-9dfc-e76a6c1b7334
 - title: 'Music, AI, and wellbeing: The role of perception'
   year: '2026'
@@ -5915,6 +5951,165 @@ results:
     nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
   url: https://doi.org/10.1093/mts/mtab013
   nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+- title: 'Artistic Presentation: Relativism 2.0 - Local Piano Hijacked by the IMPSY
+    AI model - Machine agency, shared autonomy, and expressive generative models:
+    perspectives on creative performance with AI'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Ivar Grydeland
+    role: RoleOther
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
+  - name: Charles Martin
+    role: RightsHolder
+    slug: charles-martin
+    url: /people/charles-martin/
+  - name: Morten Qvenild
+    role: Creator
+    slug: morten-qvenild
+    url: /people/morten-qvenild/
+  institutions:
+  - name: Norwegian Academy of Music
+    slug: norwegian-academy-of-music
+    url: /institutions/norwegian-academy-of-music/
+  citation:
+    authors:
+    - display: Qvenild, Morten
+      name: Morten Qvenild
+      slug: morten-qvenild
+      url: /people/morten-qvenild/
+    title: 'Artistic Presentation: Relativism 2.0 - Local Piano Hijacked by the IMPSY
+      AI model - Machine agency, shared autonomy, and expressive generative models:
+      perspectives on creative performance with AI'
+    container: 'MishMash Conference 2026: Machine agency, shared autonomy, and expressive
+      generative models: perspectives on creative performance with AI.'
+    details: Kristiansand.
+    abstract: "Presentation of reflections and thoughts around the use of Impsy AI\
+      \ model as an interplay partner in song-performance and improvisation. Part\
+      \ of the session machine agency, shared autonomy, and expressive generative\
+      \ models: perspectives on creative performance with AI \n\nMorten Qvenild: Performer\n\
+      Charles Martin: Programmer \nIvar Grydeland: Moderator"
+    full_text_url: https://hdl.handle.net/11250/5585009
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a11aa47877-df9cbed2-c9db-42f8-8ce9-b75aca5c4329
+  url: https://charlesmartin.au/impsy/
+  nva_url: https://nva.sikt.no/registration/01a11aa47877-df9cbed2-c9db-42f8-8ce9-b75aca5c4329
+- title: 'Usage and Needs of AI Infrastructure for Creative Practice: Contribution
+    to the MACHINES Panel'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  institutions:
+  - name: Oslo School of Architecture and Design
+    slug: oslo-school-of-architecture-and-design
+    url: /institutions/oslo-school-of-architecture-and-design/
+  citation:
+    authors:
+    - display: Encinas, Enrique
+      name: Enrique Encinas
+      slug: enrique-encinas
+      url: /people/enrique-encinas/
+    title: 'Usage and Needs of AI Infrastructure for Creative Practice: Contribution
+      to the MACHINES Panel'
+    container: 'MishMash Opening Conference 2026: MACHINES panel.'
+    details: Kilden, Kristiansand.
+    abstract: Invited contribution to the MACHINES panel at the opening conference
+      of MishMash Centre for AI and Creativity, addressing the current use of AI infrastructure
+      in art and design education and research, and the infrastructural needs of creative
+      practitioners in Norwegian institutions.
+    full_text_url: https://hdl.handle.net/11250/5584709
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a117d2f7b9-e336a87d-e781-46c5-88dd-20d2cf76f2e6
+  nva_url: https://nva.sikt.no/registration/01a117d2f7b9-e336a87d-e781-46c5-88dd-20d2cf76f2e6
+- title: 'New Embeddings #01 (Nå telte han deg også): Participatory Grouping through
+    Machine-Learning Embeddings'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Enrique Encinas
+    role: Creator
+    slug: enrique-encinas
+    url: /people/enrique-encinas/
+  - name: Ida Jahr
+    role: Creator
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  - name: Budhaditya Chattopadhyay
+    role: Creator
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: Oslo School of Architecture and Design
+    slug: oslo-school-of-architecture-and-design
+    url: /institutions/oslo-school-of-architecture-and-design/
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  citation:
+    authors:
+    - display: Encinas, Enrique
+      name: Enrique Encinas
+      slug: enrique-encinas
+      url: /people/enrique-encinas/
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    - display: Chattopadhyay, Budhaditya
+      name: Budhaditya Chattopadhyay
+      slug: budhaditya-chattopadhyay
+      url: /people/budhaditya-chattopadhyay/
+    title: 'New Embeddings #01 (Nå telte han deg også): Participatory Grouping through
+      Machine-Learning Embeddings'
+    container: MishMash Opening Conference 2026.
+    details: Kilden, Kristiansand.
+    abstract: Participatory workshop and installation at the opening conference of
+      MishMash Centre for AI and Creativity. Thirty-eight participants were grouped
+      by a machine-learning model on the basis of voice notes recorded in four languages;
+      the installation displayed the model's representation of the audience and documented
+      participants' refusals, making the limits of algorithmic grouping a subject
+      of collective discussion.
+    full_text_url: https://hdl.handle.net/11250/5584708
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a117d2f317-8d711ee6-6f43-4bcd-82d7-bba99809076c
+  url: https://ne01.craitr.no/
+  nva_url: https://nva.sikt.no/registration/01a117d2f317-8d711ee6-6f43-4bcd-82d7-bba99809076c
 - title: 'Trondheim Kreativ AI (TKAI) #4 - Deepfakes'
   year: '2026'
   type: OtherPresentation

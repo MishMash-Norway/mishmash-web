@@ -81,6 +81,12 @@ institute-for-energy-technology:
   qid: Q1777633
   ror: 02jqtg033
   website: http://ife.no
+ism-university-of-management-and-economics:
+  inception: '1999-01-01'
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/ISM%20logo.svg
+  qid: Q1626754
+  ror: 05rky1t53
+  website: http://www.ism.lt/
 kristiania-university-college:
   coordinates:
     lat: 59.911163

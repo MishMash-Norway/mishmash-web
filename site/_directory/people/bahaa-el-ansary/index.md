@@ -25,13 +25,13 @@ urls:
   facebook: https://www.facebook.com/bahaa.composer
 aliases: []
 tags:
-- opera
-- AI
-- experimental music
+- Opera
+- Artificial Intelligence
+- Experimental Music
 search_keywords:
-- opera
-- AI
-- experimental music
+- Opera
+- Artificial Intelligence
+- Experimental Music
 selected_works: []
 source_mentions: []
 summary: null

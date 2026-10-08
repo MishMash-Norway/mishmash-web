@@ -181,6 +181,32 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
+- title: Enhancing the Quality of 3D Lunar Maps Using JAXA’s Kaguya Imagery
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/SMC58881.2025.11343204
+  contributors:
+  - name: Yumi Iwashita
+    role: Creator
+  - name: Haakon Moe
+    role: Creator
+  - name: Yang Cheng
+    role: Creator
+  - name: Adnan Ansar
+    role: Creator
+  - name: Georgios Georgakis
+    role: Creator
+  - name: Adrian Stoica
+    role: Creator
+  - name: Kazuto Nakashima
+    role: Creator
+  - name: Ryo Kurazume
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: AI-Based User Gesture Recognition for Human-Robot Interaction Using Wrist
     Sensors
   year: '2025'
@@ -195,20 +221,6 @@ selected_works:
   - name: Rosa Nicoline Pham Alsgaard
     role: Creator
   - name: Adel Baselizadeh
-    role: Creator
-  - name: Md Zia Uddin
-    role: Creator
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-- title: 'PINE: Planning and Identifying Neural Network for Thinking Fast and Slow'
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/icrai68431.2025.11396706
-  contributors:
-  - name: Håkon Haustreis Tønnessen
     role: Creator
   - name: Md Zia Uddin
     role: Creator

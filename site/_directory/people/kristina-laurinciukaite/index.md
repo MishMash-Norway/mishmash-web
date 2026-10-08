@@ -37,19 +37,19 @@ consent:
   date: null
   scope: directory
 tags:
-- Workshop facilitation
-- design thinking
-- service design
-- international project coordination
-- stakeholder engagement
-- intercultural collaboration
+- Workshop Facilitation
+- Design Thinking
+- Service Design
+- International Project Coordination
+- Stakeholder Engagement
+- Intercultural Collaboration
 search_keywords:
-- Workshop facilitation
-- design thinking
-- service design
-- international project coordination
-- stakeholder engagement
-- intercultural collaboration
+- Workshop Facilitation
+- Design Thinking
+- Service Design
+- International Project Coordination
+- Stakeholder Engagement
+- Intercultural Collaboration
 selected_works: []
 source_mentions: []
 summary: null
