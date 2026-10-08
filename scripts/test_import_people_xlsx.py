@@ -255,6 +255,8 @@ class HelperTests(unittest.TestCase):
     def test_orcid_without_hyphens(self):
         self.assertEqual(canonical_orcid_url("0009000119291819"), "https://orcid.org/0009-0001-1929-1819")
         self.assertEqual(canonical_orcid_url("https://orcid.org/0000-0002-1825-009X"), "https://orcid.org/0000-0002-1825-009X")
+        for typed in ("no", "n/a", "Maria Hareide"):
+            self.assertEqual(canonical_orcid_url(typed), "")
 
     def test_linkedin_in_website_field_moves_to_linkedin(self):
         urls = {"personal_website": "https://www.linkedin.com/in/ada/", "institutional_website": "https://uio.no/ada"}

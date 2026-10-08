@@ -116,7 +116,8 @@ def canonical_orcid_url(value: str) -> str:
     match = re.fullmatch(r"(\d{4})(\d{4})(\d{4})(\d{3}[\dX])", value, flags=re.IGNORECASE)
     if match:
         return "https://orcid.org/" + "-".join(match.groups()).upper()
-    return value
+    # Anything else ("no", "n/a", a name) is not an iD and is not stored.
+    return ""
 
 
 def canonical_nva_url(value: str) -> str:
