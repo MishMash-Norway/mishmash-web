@@ -76,6 +76,34 @@ class NvaNightlySafetyTests(unittest.TestCase):
             self.assertIn("institutional_website: https://example.org/institution", saved)
             self.assertNotIn("institutional_website: ''", saved)
 
+    @patch("enrich_directory_from_nva.fetch_nva_bundle")
+    @patch("enrich_directory_from_nva.discover_profile_id_by_name", return_value=("1376077", "loose match"))
+    def test_rejected_nva_profile_is_not_linked(self, _discover, mock_bundle):
+        with tempfile.TemporaryDirectory() as tmp:
+            index_md = Path(tmp) / "index.md"
+            index_md.write_text(
+                "---\n"
+                "type: person\n"
+                "slug: test-person\n"
+                "name: Test Person\n"
+                "position: Senior Adviser\n"
+                "institution: kulturtanken\n"
+                "nva_rejected:\n"
+                "- '1376077'\n"
+                "urls:\n"
+                "  nva: ''\n"
+                "---\n",
+                encoding="utf-8",
+            )
+            changed, _ = enrich_person(
+                index_md=index_md, root=Path(tmp), institution_lookup={}, slug_to_institution_name={},
+                org_cache={}, person_lookup={}, max_tags=10, max_works=10, dry_run=False,
+                discover_nva=True, discover_nva_loose=True, download_images=False,
+            )
+            self.assertFalse(changed)
+            mock_bundle.assert_not_called()
+            self.assertIn("position: Senior Adviser", index_md.read_text(encoding="utf-8"))
+
     @patch("enrich_directory_from_nva._safe_nva_other_projects", return_value=[])
     @patch("enrich_directory_from_nva.nva_selected_works", return_value=[])
     @patch("enrich_directory_from_nva.parse_nva_affiliations")

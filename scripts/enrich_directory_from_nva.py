@@ -1697,6 +1697,11 @@ def enrich_person(
             org_cache=org_cache,
             allow_loose=discover_nva_loose,
         )
+        # A profile someone has confirmed is a different person with the same name.
+        rejected = {str(v).strip() for v in (data.get("nva_rejected") or [])}
+        if discovered_id and str(discovered_id) in rejected:
+            discovered_id = None
+            reason = "skip: discovered NVA profile is listed under nva_rejected"
         if discovered_id:
             if orcid_url:
                 try:
