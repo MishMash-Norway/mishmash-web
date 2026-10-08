@@ -4,17 +4,11 @@ date: 2026-10-13 12:00:00 +02:00
 end_date: 2026-10-13 13:30:00 +02:00
 location: Zoom
 layout: event
-categories: [MeshUp]
+categories: [webinar, WP4]
 tags: []
 description: "An attempt at experiencing text through aesthetic reading in a world that invites efferent reading transactions and a comment on automating reading events using AI."
-image: /assets/images/portraits/Jessica_PB_Hansen.jpg
-image_alt: "Jessica P. B. Hansen"
 slug: "experiencing-text"
 ---
-
-Join us for an insightful discussion with [Jessica P. B. Hansen](/people/jessica-pb-hansen/) as we explore the experience of text through aesthetic reading practices.
-
-## Abstract
 
 An attempt at experiencing text through aesthetic reading in a world that invites efferent reading transactions and a comment on automating reading events using AI.
 
@@ -30,4 +24,3 @@ This event is hosted by Ida Jahr. Join via Zoom using the link below.
 
 **Password:** 123456
 
-MishMash MeetUps are short, informal meetings in the consortium where both early career and established researchers present ongoing projects. The events are open for everyone, but for security reasons, the Zoom link is not public.
