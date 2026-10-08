@@ -13,6 +13,7 @@ short_name: KHiO
 image: /images/institutions/oslo-national-academy-of-the-arts.png
 people:
 - antonio-cataldo
+- bahaa-el-ansary
 - lise-amy-hansen
 - oystein-stene
 - tiril-schroder
