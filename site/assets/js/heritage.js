@@ -150,10 +150,11 @@
   }
 
   /* Wikidata knows some of these objects and authorities by their collection
-     identifier: P1248 for KulturNav, P7847 for DigitaltMuseum. One query
+     identifier: P1248 for KulturNav, P7847 for DigitaltMuseum, P1015 for the
+     shared authority register. One query
      resolves the identifier to an item, and the link is added only when
      exactly one item matches. A failed or empty query changes nothing. */
-  var WD_PROPERTY = { kulturnav: 'P1248', dimu: 'P7847' };
+  var WD_PROPERTY = { kulturnav: 'P1248', dimu: 'P7847', noraf: 'P1015' };
   function wikidataFor(source, value) {
     var prop = WD_PROPERTY[source];
     if (!prop || !value) return Promise.resolve(null);
@@ -192,7 +193,20 @@
     /* Version 3 of the manifest, because version 2 gives the terms as the
        library's own licence page and version 3 gives the Creative Commons
        address the label is built from. The image service is the same. */
-    return fetch('https://api.nb.no/catalog/v3/iiif/' + id + '/manifest').then(function (r) { return r.json(); }).then(function (m) {
+    /* The persistent identifier is the URN:NBN, which the library promises
+       to resolve for as long as the object exists; the item id is the
+       catalogue's own key. A URN is looked up to the item id, and the link
+       goes to the URN resolver. */
+    var isUrn = /^URN:NBN:/i.test(id);
+    var itemId = isUrn
+      ? fetch('https://api.nb.no/catalog/v1/items?q=' + encodeURIComponent('urn:"' + id + '"'))
+          .then(function (r) { return r.json(); })
+          .then(function (d) { return d._embedded.items[0].id; })
+      : Promise.resolve(id);
+    var home = isUrn ? 'https://urn.nb.no/' + id : 'https://www.nb.no/items/' + id;
+    return itemId.then(function (item) {
+      return fetch('https://api.nb.no/catalog/v3/iiif/' + item + '/manifest');
+    }).then(function (r) { return r.json(); }).then(function (m) {
       var label = stripHtml(firstValue(m.label));
       if (!fig.dataset.caption) text(title, label);
       var services = [];
@@ -219,7 +233,7 @@
         rights.appendChild(link(lic, ccLabel(lic) || 'Rights'));
         rights.appendChild(document.createTextNode(' · '));
       }
-      rights.appendChild(link('https://www.nb.no/items/' + id, 'Nasjonalbiblioteket'));
+      rights.appendChild(link(home, 'Nasjonalbiblioteket'));
     });
   }
 
@@ -365,6 +379,79 @@
     });
   }
 
+  /* The shared authority register for persons and corporate bodies (Felles
+     autoritetsregister), run by the National Library and Sikt. A record is a
+     MARC authority: field 100 is the established name and dates, 400 the
+     other forms of the name, 667 a short note on who the person is. It holds
+     no biography and no pictures; it says who someone is and which other
+     identifiers belong to them. */
+  function marcField(rec, tag) {
+    return (rec.marcdata || []).filter(function (f) { return f.tag === tag; }).map(function (f) {
+      var o = {}; (f.subfields || []).forEach(function (sf) { o[sf.subcode] = sf.value; }); return o;
+    });
+  }
+
+  function loadNoraf(fig, id) {
+    var media = fig.querySelector('.mm-heritage-media');
+    var title = fig.querySelector('.mm-heritage-title');
+    var rights = fig.querySelector('.mm-heritage-rights');
+    return fetch('https://authority.bibsys.no/authority/rest/authorities/v2/' + encodeURIComponent(id) + '?format=json')
+      .then(function (r) { return r.json(); }).then(function (rec) {
+        var main = marcField(rec, '100')[0] || marcField(rec, '110')[0] || {};
+        var name = main.a || id;
+        var dates = main.d || '';
+        if (!fig.dataset.caption) text(title, name + (dates ? ' (' + dates + ')' : ''));
+        var note = (marcField(rec, '667')[0] || {}).a || '';
+        var others = marcField(rec, '400').map(function (o) { return o.a; }).filter(function (a) { return a && a !== name; });
+        var block = document.createElement('p'); block.className = 'mm-heritage-text';
+        block.textContent = [note ? note + '.' : '', others.length ? 'Also written as ' + others.join('; ') + '.' : ''].join(' ').trim();
+        if (block.textContent) media.appendChild(block);
+
+        /* The National Library's catalogue does not carry the register's
+           identifier, so items are matched on the established name and the
+           dates together. The search lists only the name; the dates are in
+           each item's full record, so the first ten with the exact name are
+           fetched and kept when their dates agree. */
+        var works = document.createElement('ul'); works.className = 'mm-heritage-works';
+        var q = 'namecreators:"' + name.replace(/"/g, '') + '"';
+        var found = fetch('https://api.nb.no/catalog/v1/items?size=50&q=' + encodeURIComponent(q))
+          .then(function (r) { return r.json(); }).then(function (d) {
+            var named = ((d._embedded || {}).items || []).filter(function (it) {
+              return ((it.metadata || {}).creators || []).indexOf(name) >= 0;
+            }).slice(0, 10);
+            return Promise.all(named.map(function (it) {
+              return fetch('https://api.nb.no/catalog/v1/items/' + it.id).then(function (r) { return r.json(); })
+                .then(function (full) {
+                  var same = ((full.metadata || {}).people || []).some(function (pp) {
+                    return pp.name === name && (!dates || pp.date === dates);
+                  });
+                  return same ? full : null;
+                }).catch(function () { return null; });
+            }));
+          }).then(function (items) {
+            items = items.filter(Boolean).slice(0, 5);
+            items.forEach(function (it) {
+              var m = it.metadata || {}; var urn = (m.identifiers || {}).urn;
+              var li = document.createElement('li');
+              li.appendChild(link(urn ? 'https://urn.nb.no/' + urn : 'https://www.nb.no/items/' + it.id, m.title || it.id));
+              works.appendChild(li);
+            });
+            if (items.length) {
+              var lead = document.createElement('p'); lead.className = 'mm-heritage-text';
+              lead.textContent = 'In the National Library, under the same name and dates:';
+              media.appendChild(lead); media.appendChild(works);
+            }
+          }).catch(function () {});
+
+        var ids = rec.identifiersMap || {};
+        rights.textContent = '';
+        rights.appendChild(link((ids.handle || [])[0] || 'https://authority.bibsys.no/authority/rest/authorities/v2/' + id + '?format=json', 'Felles autoritetsregister'));
+        if ((ids.isni || [])[0]) { rights.appendChild(document.createTextNode(' · ')); rights.appendChild(link(ids.isni[0], 'ISNI')); }
+        if ((ids.viaf || [])[0]) { rights.appendChild(document.createTextNode(' · ')); rights.appendChild(link(ids.viaf[0], 'VIAF')); }
+        return Promise.all([found, addWikidata(rights, 'noraf', id)]);
+      });
+  }
+
   function init() {
     document.querySelectorAll('[data-heritage]').forEach(function (fig) {
       if (fig.dataset.ready) return;
@@ -373,7 +460,7 @@
       if (caption && caption.textContent.indexOf('Loading from') !== 0) fig.dataset.caption = 'true';
       var media = fig.querySelector('.mm-heritage-media');
       var src = fig.dataset.source;
-      var p = src === 'nb' ? loadNb(fig, fig.dataset.id) : src === 'europeana' ? loadEuropeana(fig, fig.dataset.id) : src === 'kulturnav' ? loadKulturnav(fig, fig.dataset.id) : loadDimu(fig, fig.dataset.id);
+      var p = src === 'nb' ? loadNb(fig, fig.dataset.id) : src === 'europeana' ? loadEuropeana(fig, fig.dataset.id) : src === 'kulturnav' ? loadKulturnav(fig, fig.dataset.id) : src === 'noraf' ? loadNoraf(fig, fig.dataset.id) : loadDimu(fig, fig.dataset.id);
       p.catch(function (err) {
         /* Say so in the console as well. A swallowed error here once left a
            manuscript showing its first page and nothing else, and the page

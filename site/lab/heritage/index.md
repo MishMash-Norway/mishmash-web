@@ -15,7 +15,7 @@ Several Norwegian collections publish their objects through open interfaces: the
 
 ## A photograph at the National Library
 
-{% include heritage.html source="nb" id="3ab035574c80dd3baa18330fc9b3bc66" %}
+{% include heritage.html source="nb" id="URN:NBN:no-nb_digifoto_20180307_00007_NB_NS_NM_05512" %}
 
 ## An object at a city museum, through DigitaltMuseum
 
@@ -33,13 +33,25 @@ Several Norwegian collections publish their objects through open interfaces: the
 
 ## The tunes written down, at the National Library
 
-The National Library's music manuscripts are the one part of its collection that this page can show without asking anyone. 7,678 of the 11,150 are freely viewable, and every one sampled carries CC BY-NC-ND 4.0 and a IIIF image service, which is the same arrangement as the photograph at the top of this page. Among them are the folk music collections gathered from the 1840s on, 2,624 manuscripts from the six collectors the library lists: Lindeman, Crøger, Sande, Elling, Sandvik and Groven.
+The National Library's music manuscripts are the one part of its collection that this page can show without asking anyone. 7,678 of the 11,150 are freely viewable, and every one sampled carries CC BY-NC-ND 4.0 and a IIIF image service, the same kind of service as the photograph at the top of this page. Among them are the folk music collections gathered from the 1840s on, 2,624 manuscripts from the six collectors the library lists: Lindeman, Crøger, Sande, Elling, Sandvik and Groven.
 
 This one is a set of tunes for the same instrument the objects above stand for. It runs to 1,373 pages, so the viewer below turns them, and only the page you ask for is fetched, which is what makes a manuscript of this size cheap to put on a page at all.
 
 Turning a page costs one request for the page's description and then its tiles. The collection's image server sends no caching instructions at all, no `cache-control`, no `etag` and no `last-modified`, so a browser has nothing to decide freshness from and asks again every time. This page therefore keeps each description once it has it: going back to a page you have already seen now costs no description request, where before it cost one. The tiles are the collection's to control, and a `cache-control` header on their side would save them the traffic as much as it would save the reader the wait.
 
-{% include heritage.html source="nb" id="6c50cd90ef70546139b5b0d9101faaa8" %}
+{% include heritage.html source="nb" id="URN:NBN:no-nb_digimanus_322945" %}
+
+## A composer and performer, in the shared authority register
+
+The National Library and Sikt keep a shared register of people and organisations, [Felles autoritetsregister](https://bibliotekutvikling.no/kunnskapsorganisering/vokabularer/felles-autoritetsregister-for-personer-og-korporasjoner/), which libraries use to say which person a book or a manuscript is by. Its open interface gives, for a person, the established form of the name and the dates, the other forms the name is written in, a short note on who the person is, and identifiers for the same person elsewhere: a persistent handle, ISNI, VIAF, and others such as Discogs. It holds no biography and no pictures.
+
+The National Library's catalogue does not yet carry the register's identifier on each item. The include therefore finds the person's works by the established name and dates together, which is how the catalogue records a person, and links each one by its URN where it has one. Wikidata stores the register's identifier as P1015, so the person's Wikidata item is found the same way as for the objects above.
+
+Here is the violinist and composer Ole Bull, with one of his manuscripts below.
+
+{% include heritage.html source="noraf" id="90092217" %}
+
+{% include heritage.html source="nb" id="URN:NBN:no-nb_digimanus_189231" %}
 
 ## An audio file, from a Norwegian museum
 
@@ -78,9 +90,11 @@ All four recordings carry an open licence, which is why they can be played from 
 A page says which object it wants, by source and identifier:
 
 ```liquid
-{% raw %}{% include heritage.html source="nb" id="3ab035574c80dd3baa18330fc9b3bc66" %}
+{% raw %}{% include heritage.html source="nb" id="URN:NBN:no-nb_digifoto_20180307_00007_NB_NS_NM_05512" %}
 {% include heritage.html source="dimu" id="3df10c96-b33b-45c1-92bf-d9211ce574c8" %}{% endraw %}
 ```
+
+The identifier is the persistent one wherever the collection has one. For the National Library that is the URN:NBN, which the library undertakes to resolve for as long as the object exists, through `urn.nb.no`; the page looks it up to the catalogue's item when it loads, and links to the URN. DigitaltMuseum's object identifiers, Europeana's record identifiers and KulturNav's are already the stable ones those services cite.
 
 The reader's browser asks the collection for the object and shows what comes back. The rights line is the collection's own statement, and the link leads to the object's page at the source. Without JavaScript the link alone is shown.
 

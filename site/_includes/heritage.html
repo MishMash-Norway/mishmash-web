@@ -4,20 +4,23 @@
   the browser from the collection's open API; images that come with a IIIF
   image service open in a deep-zoom viewer.
 
-    {% include heritage.html source="nb" id="3ab035574c80dd3baa18330fc9b3bc66" %}
+    {% include heritage.html source="nb" id="URN:NBN:no-nb_digifoto_20180307_00007_NB_NS_NM_05512" %}
     {% include heritage.html source="dimu" id="51001787-efc8-4205-9c2d-bf7481864cb0" caption="A Hardanger fiddle in Bergen." %}
 
   A record that holds a recording gets a player rather than a picture, and a
   picture in the same record becomes the poster frame. Nothing is fetched
   until the reader presses play.
 
-  source: nb (Nasjonalbiblioteket, id is the item id from api.nb.no; pictures
+  source: nb (Nasjonalbiblioteket, id is the object's URN:NBN, its persistent
+          identifier, or the item id from api.nb.no; pictures
           only, since the media server serves nb.no alone, see issue #74),
           dimu (DigitaltMuseum, id is the artifact uuid; the National Museum,
           Norsk Folkemuseum and most Norwegian museums publish through it,
           and it is the one Norwegian source that serves sound and film),
           europeana (id is the record id, such as /502/_011023280005), or
-          kulturnav (an authority for a person, place or concept; id is the uuid).
+          kulturnav (an authority for a person, place or concept; id is the uuid),
+          or noraf (a person or body in the shared authority register, Felles
+          autoritetsregister; id is the record number, Wikidata's P1015).
 {% endcomment %}
 <figure class="mm-heritage" data-heritage data-source="{{ include.source }}" data-id="{{ include.id }}">
   <div class="mm-heritage-media" aria-busy="true"></div>
@@ -25,7 +28,7 @@
     <span class="mm-heritage-title">{{ include.caption | default: 'Loading from the collection…' }}</span>
     <span class="mm-heritage-rights"></span>
     <noscript>
-      {% if include.source == 'nb' %}<a href="https://www.nb.no/items/{{ include.id }}">Open this item at the National Library of Norway</a>{% elsif include.source == 'europeana' %}<a href="https://www.europeana.eu/item{{ include.id }}">Open this item at Europeana</a>{% elsif include.source == 'kulturnav' %}<a href="https://kulturnav.org/{{ include.id }}">Open this authority at KulturNav</a>{% else %}<a href="https://digitaltmuseum.org/search/?q={{ include.id }}">Open this object at DigitaltMuseum</a>{% endif %}
+      {% if include.source == 'nb' %}<a href="{% if include.id contains 'URN:NBN' %}https://urn.nb.no/{{ include.id }}{% else %}https://www.nb.no/items/{{ include.id }}{% endif %}">Open this item at the National Library of Norway</a>{% elsif include.source == 'europeana' %}<a href="https://www.europeana.eu/item{{ include.id }}">Open this item at Europeana</a>{% elsif include.source == 'kulturnav' %}<a href="https://kulturnav.org/{{ include.id }}">Open this authority at KulturNav</a>{% elsif include.source == 'noraf' %}<a href="https://authority.bibsys.no/authority/rest/authorities/v2/{{ include.id }}?format=json">Open this record in the shared authority register</a>{% else %}<a href="https://digitaltmuseum.org/search/?q={{ include.id }}">Open this object at DigitaltMuseum</a>{% endif %}
     </noscript>
   </figcaption>
 </figure>

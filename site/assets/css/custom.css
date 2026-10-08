@@ -1955,6 +1955,11 @@ video.mm-heritage-player {
   margin: 0.25rem 0 0;
 }
 
+.mm-heritage-works {
+  margin: 0.25rem 0 0;
+  padding-left: 1.25rem;
+}
+
 .media-list {
   list-style: none;
   padding: 0;
