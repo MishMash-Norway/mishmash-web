@@ -10,15 +10,14 @@ description: "James Kaufman explores how generative AI influences creativity, it
 slug: "gai-creative-process"
 ---
 
-Join us for a keynote presentation with [James C. Kaufman](https://www.uconn.edu/) as we explore the impact of generative artificial intelligence on creativity and the creative process.
-
-## Abstract
+## Description
 
 In just a few years, GAI has made a huge impact on all aspects of our lives, from education to business to everyday life. Creativity permeates all of these areas and is no exception; GAI has been used to be creative itself, to be a creative collaborator, to boost creativity, and to help score creative work. Creativity offers numerous reward and advantages – personal, organizational, and global. Some come from the act of being creative, and others arise from the advances and innovations that come with creative work. How does GAI influence and interact with these benefits, both short-term and (potentially) in the long-term? This talk will explore these issues.
 
 ## Bio
 
-James C. Kaufman is a Professor of Educational Psychology at the University of Connecticut. He has written or edited more than 50 books, including the forthcoming Creativity through the Movies (Oxford), The Creativity Advantage (2023, Cambridge), and Lessons in Creativity from Musical Theatre Characters (with Dana P. Rowe; 2023, Routledge), plus books on animal creativity and pseudoscience with his wife, Allison, and a book about terrible baseball pitchers with his father, Alan. His awards include Mensa's research award, NAGC's Torrance Award, and APA's Berlyne, Arnheim, and Farnsworth awards. He is the incoming editor of Journal of Creative Behavior. James has tested Dr. Sanjay Gupta's creativity on CNN; written the book and lyrics to the musical Discovering Magenta (which played NYC and has a cast album); and appeared onscreen, complete with white lab coat, in the comic book documentary Independents.
+James C. Kaufman is a Professor of Educational Psychology at the University of Connecticut. He has written or edited more than 50 books, including the forthcoming Creativity through the Movies (Oxford), The Creativity Advantage (2023, Cambridge), and Lessons in Creativity from Musical Theatre Characters (with Dana P. Rowe; 2023, Routledge), plus books on animal creativity and pseudoscience with his wife, Allison, and a book about terrible baseball pitchers with his father, Alan. His awards include Mensa’s research award, NAGC’s Torrance Award, and APA’s Berlyne, Arnheim, and Farnsworth awards. He is the incoming editor of Journal of Creative Behavior. James has tested Dr. Sanjay Gupta’s creativity on CNN; written the book and lyrics to the musical Discovering Magenta (which played NYC and has a cast album); and appeared onscreen, complete with white lab coat, in the comic book documentary Independents.
+
 
 ## Access
 
