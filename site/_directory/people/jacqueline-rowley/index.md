@@ -16,11 +16,11 @@ urls:
   institutional_website: ''
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0009-0000-5916-0058
   nva: https://nva.sikt.no/research-profile/1872053
   youtube: ''
   mastodon: ''
-  instagram: ''
+  instagram: https://www.instagram.com/jsoohen?stkn=dmFyM2o5bzg1aHlo&utm_source=qr
 aliases: []
 tags:
 - Artist
@@ -38,6 +38,7 @@ search_keywords:
 - Infrastructures
 selected_works: []
 source_mentions: []
+summary: ''
 wps:
 - WP2
 - WP5
@@ -45,7 +46,6 @@ wps:
 permalink: /people/jacqueline-rowley/
 redirect_from:
 - /directory/people/jacqueline-rowley/
-summary: ''
 ---
 
 Bio coming soon.

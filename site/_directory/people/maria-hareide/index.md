@@ -16,7 +16,7 @@ urls:
   institutional_website: ''
   github: ''
   linkedin: https://www.linkedin.com/in/maria-hareide-915500206/
-  orcid: ''
+  orcid: https://orcid.org/0009-0000-2589-3878
   nva: https://nva.sikt.no/research-profile/1890197
   youtube: ''
   mastodon: ''

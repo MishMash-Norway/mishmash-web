@@ -1,27 +1,23 @@
 ---
-layout: person
 type: person
 slug: halldor-ulfarsson
 name: Halldor Ulfarsson
 title: Halldor Ulfarsson
-description: University of Iceland
-position: ''
+position: Researcher
 department: ''
-institution: ''
+institution: university-of-iceland
 institutions:
 - university-of-iceland
-affiliation_units: []
-nva_affiliations: []
 projects:
 - rhyglyph-rhydiff-rhyseq
 roles:
 - Member
 urls:
-  personal_website: ''
+  personal_website: http://www.halldorophone.info
   institutional_website: ''
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0009-0001-9682-8595
   nva: ''
   youtube: ''
   mastodon: ''
@@ -32,6 +28,8 @@ search_keywords: []
 selected_works: []
 source_mentions: []
 summary: ''
+layout: person
+description: University of Iceland
 permalink: /people/halldor-ulfarsson/
 redirect_from:
 - /directory/people/halldor-ulfarsson/
