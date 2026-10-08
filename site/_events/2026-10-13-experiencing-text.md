@@ -22,5 +22,5 @@ This event is hosted by Ida Jahr. Join via Zoom using the link below.
 
 **Zoom Link:** https://uiano.zoom.us/j/9173998233?pwd=ibt2l25SD7BfBwRCMfGjr5Qjdmj8cc.1&omn=65753068969
 
-**Password:** 123456
+
 
