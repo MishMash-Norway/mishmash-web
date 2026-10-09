@@ -20,7 +20,7 @@ urls:
   youtube: ''
   mastodon: ''
   instagram: ''
-  wikidata: ''
+  wikidata: https://www.wikidata.org/wiki/Q136349486
 aliases: []
 tags:
 - Machine Learning

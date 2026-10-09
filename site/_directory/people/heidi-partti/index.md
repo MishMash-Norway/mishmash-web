@@ -22,25 +22,26 @@ urls:
   youtube: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q113811334
 aliases: []
 tags:
-- music education
-- music teacher education
-- composition pedagogy
-- learning communities
-- social justice
-- research ethics
-- identity development
-- narrative research
+- Music Education
+- Music Teacher Education
+- Composition Pedagogy
+- Learning Communities
+- Social Justice
+- Research Ethics
+- Identity Development
+- Narrative Research
 search_keywords:
-- music education
-- music teacher education
-- composition pedagogy
-- learning communities
-- social justice
-- research ethics
-- identity development
-- narrative research
+- Music Education
+- Music Teacher Education
+- Composition Pedagogy
+- Learning Communities
+- Social Justice
+- Research Ethics
+- Identity Development
+- Narrative Research
 selected_works:
 - title: Ethical aspects of research in music education
   year: '2026'

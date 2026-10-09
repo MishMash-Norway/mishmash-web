@@ -22,6 +22,7 @@ urls:
   youtube: ''
   mastodon: ''
   instagram: ''
+  wikidata: https://www.wikidata.org/wiki/Q130841219
 aliases: []
 tags: []
 search_keywords: []

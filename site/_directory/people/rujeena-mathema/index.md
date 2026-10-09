@@ -17,14 +17,20 @@ urls:
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0000-3779-6813
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/1793567
   youtube: ''
   mastodon: ''
   instagram: ''
   wikidata: https://www.wikidata.org/wiki/Q130876398
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Eye Tracking
+- Cognitive Science
+- Artificial Intelligence
+search_keywords:
+- Eye Tracking
+- Cognitive Science
+- Artificial Intelligence
 selected_works:
 - title: 'Validation of webcam-based eye-tracking for clinically relevant paradigms:
     Saccade, attention bias, and free-viewing tasks'
@@ -32,45 +38,103 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1016/j.ibmed.2026.100384
-- title: Identification of fixations and saccades in eye-tracking data using adaptive
-    threshold-based methods
-  year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: http://dx.doi.org/10.1140/epjs/s11734-026-02324-9
+  contributors:
+  - name: Rujeena Mathema
+    role: Creator
+  - name: Bineeth Kuriakose
+    role: Creator
+  - name: Pedro G. Lind
+    role: Creator
+  - name: Shamimeh Mohajeri Nav
+    role: Creator
+  - name: Pedro Rego Lencastre e Silva
+    role: Creator
 - title: Comprehensive dataset of features describing eye-gaze dynamics across multiple
     tasks
   year: '2026'
   source: Journal article
   group_type: Journal article
-  url: http://dx.doi.org/10.1038/s41597-026-06754-x
-- title: Processed Data for Comparing Eyelink portable duo and obsbot tiny 2
-  year: '2025'
-  source: Data Set
-  group_type: Data Set
-  url: https://figshare.com/articles/dataset/Processed_Data_for_Comparing_Eyelink_portable_duo_and_obsbot_tiny_2/30477926
+  url: https://doi.org/10.1038/s41597-026-06754-x
+  contributors:
+  - name: Rujeena Mathema
+    role: Creator
+  - name: Shamimeh Mohajeri Nav
+    role: Creator
+  - name: Shailendra Bhandari
+    role: Creator
+  - name: Manoj Regmi
+    role: Creator
+  - name: Pedro Lind
+    role: Creator
+  - name: Anis Yazidi
+    role: Creator
+  - name: Pedro Rego Lencastre e Silva
+    role: Creator
+- title: Identification of fixations and saccades in eye-tracking data using adaptive
+    threshold-based method
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1140/epjs/s11734-026-02324-9
+  contributors:
+  - name: Charles  Orioma
+    role: Creator
+  - name: Josef Jan Krivan
+    role: Creator
+  - name: Rujeena Mathema
+    role: Creator
+  - name: Pedro Rego Lencastre e Silva
+    role: Creator
+  - name: Pedro Lind
+    role: Creator
+  - name: Alexander Szorkovszky
+    role: Creator
+  - name: Shailendra Bhandari
+    role: Creator
 - title: From eyes’ microtremors to critical flicker fusion
   year: '2025'
   source: Journal article
   group_type: Journal article
-  url: http://dx.doi.org/10.1371/journal.pone.0325391
+  url: https://doi.org/10.1371/journal.pone.0325391
+  contributors:
+  - name: Pedro Rego Lencastre e Silva
+    role: Creator
+  - name: Rujeena Mathema
+    role: Creator
+  - name: Pedro Lind
+    role: Creator
 - title: Modeling eye gaze velocity trajectories using GANs with spectral loss for
     enhanced fidelity
   year: '2025'
   source: Journal article
   group_type: Journal article
-  url: http://dx.doi.org/10.1038/s41598-025-05286-5
-- title: Saccade crossing avoidance as a visual search strategy
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://arxiv.org/abs/2508.18404
+  url: https://doi.org/10.1038/s41598-025-05286-5
+  contributors:
+  - name: Shailendra Bhandari
+    role: Creator
+  - name: Pedro Rego Lencastre e Silva
+    role: Creator
+  - name: Rujeena Mathema
+    role: Creator
+  - name: Alexander Szorkovszky
+    role: Creator
+  - name: Anis Yazidi
+    role: Creator
+  - name: Pedro Lind
+    role: Creator
 - title: 'Exploring Human Cognition From Eye-Movements: Is There Unconscious Visual
     Information?'
   year: '2024'
-  source: Conference paper
-  group_type: Conference
+  source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1145/3643488.3660307
+  contributors:
+  - name: Rujeena Mathema
+    role: Creator
+  - name: Pedro Lind
+    role: Creator
+  - name: Pedro Rego Lencastre e Silva
+    role: Creator
 source_mentions: []
 summary: ''
 permalink: /people/rujeena-mathema/

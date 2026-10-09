@@ -38,6 +38,21 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Exploring Real-Time Visualizations as Support for Concert experiences for
+    Hearing-Impaired
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1145/3794786.3830797
+  contributors:
+  - name: Jesper Andersen
+    role: Creator
+  - name: Olivier Lartillot
+    role: Creator
+    slug: olivier-lartillot
+    url: /people/olivier-lartillot/
+  - name: Stefania Serafin
+    role: Creator
 - title: COST Action EarlyMuse 2022-2026. Six Reports on Musicology in Europe
   year: '2026'
   source: Report
@@ -181,18 +196,6 @@ selected_works:
     role: Creator
     slug: olivier-lartillot
     url: /people/olivier-lartillot/
-- title: 'AcousMuScope: Users'' Guide'
-  year: '2025'
-  source: Research report
-  group_type: Research report
-  url: https://www.uio.no/ritmo/english/projects/mirage/software/AcousMuScope/index.html
-  contributors:
-  - name: Olivier Lartillot
-    role: Creator
-    slug: olivier-lartillot
-    url: /people/olivier-lartillot/
-  - name: Marina Sudo
-    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''

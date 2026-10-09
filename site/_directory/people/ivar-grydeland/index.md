@@ -55,6 +55,21 @@ selected_works:
     role: Creator
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
+- title: Dans les arbres, Siena 2025
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Christian Wallumrød
+    role: Musician
+  - name: Ingar Zach
+    role: Musician
+  - name: Xavier Charles
+    role: Musician
+  - name: Ivar Grydeland
+    role: Musician
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
 - title: Ivar Grydeland - Bøyning, brytning
   year: '2025'
   source: Music performance
@@ -175,15 +190,6 @@ selected_works:
   contributors:
   - name: Ivar Grydeland
     role: Composer
-    slug: ivar-grydeland
-    url: /people/ivar-grydeland/
-- title: Ensemble & Ensemble of Me – What I Think About When I Think About Improvisation
-  year: '2015'
-  source: PhD thesis
-  group_type: PhD thesis
-  contributors:
-  - name: Ivar Grydeland
-    role: Creator
     slug: ivar-grydeland
     url: /people/ivar-grydeland/
 source_mentions:
