@@ -760,8 +760,8 @@
     to 19:30). Art and AI: a curator on how quality and originality are judged in works made with AI,
     and an artist-researcher on what AI does to creative practice.'
   end_date: 2026-10-14
-  og_description: 'I dag kan hvem som helst lage et bilde med AI på noen sekunder. Men hva gjør et AI-verk
-    godt? Og hvem er egentlig kunstneren når maskinen gjør mer enn å holde penselen?'
+  og_description: I dag kan hvem som helst lage et bilde med AI på noen sekunder. Men hva gjør et AI-verk
+    godt? Og hvem er egentlig kunstneren når maskinen gjør mer enn å holde penselen?
   og_image: https://secure.meetupstatic.com/photos/event/5/a/a/9/600_536303209.jpeg
   og_title: 'TKAI Meetup #7 - Kunst og AI'
   partner: Trondheim Kreativ AI
@@ -845,9 +845,23 @@
     on research and AI. Time and place: Nov. 12, 2026, 18:00-20:00, Kavlisalen, Det Norske Videnskaps-Akademi,
     Oslo. Registration required; the meeting is recorded.'
   end_date: 2026-11-12
+  og_description: Forskningsetikk og KI blir tema på dette fjerde og siste møtet i KI-serien.
+  og_title: 'Forskningsetikk og KI: Hvor går grensen?'
   partner: Det Norske Videnskaps-Akademi
   start_date: 2026-11-12
   title: 'Forskningsetikk og KI: Hvor går grensen?'
   url: https://www.dnva.no/detskjer/2026/10/forskningsetikk-og-ki-hvor-gar-grensen
-  og_title: "Forskningsetikk og KI: Hvor går grensen?"
-  og_description: "Forskningsetikk og KI blir tema på dette fjerde og siste møtet i KI-serien."
+- description: Exhibition at MUNCH, Oslo, floor 10, open until 29 November 2026. Visitors make their own
+    digital drawings, and AI finds similar works among Munch's drawings in the collection.
+  end_date: 2026-11-29
+  og_description: Connect in playful new ways with Munch’s drawings – a strange and surprising world to
+    explore. Create your own digital drawings and discover how AI finds similar works from the collection.
+  og_image: https://www.munch.no/globalassets/kunstverk/2026-utstillinger/munchs-tegninger/karikaturer_16_9.jpg
+  og_title: Edvard Munch - Connect the Lines
+  partner: MUNCH
+  start_date: 2026-06-26
+  thumb: /assets/images/partner-thumbs/4ba6aa0a4f980f22.webp
+  thumb_fetched: '2026-10-10'
+  thumb_source: https://www.munch.no/globalassets/kunstverk/2026-utstillinger/munchs-tegninger/karikaturer_16_9.jpg
+  title: Connect the Lines
+  url: https://www.munch.no/en/exhibitions/connect-the-lines/
