@@ -2207,3 +2207,13 @@ html:not([data-audience]) .stretch-more[hidden]:not(.stretch-abbr-more) {
 .mm-page-top .audience-switcher {
   margin: 0 0 0 auto;
 }
+
+/* Long lines in code examples wrap instead of scrolling sideways. A box that
+   scrolls must be reachable by keyboard, and a wrapped one never scrolls. */
+pre.highlight,
+pre.highlight code,
+div.highlight pre,
+div.highlight pre code {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
