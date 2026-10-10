@@ -58,6 +58,8 @@ replace:
   "Vi ta omsyn": "Vi tek omsyn"
   "handla med ein gong": "handle med ein gong"
   "eller endra korleis": "eller endre korleis"
+  # "verket" read as a past tense of "verke".
+  "dei verkte handlar om": "dei verket handlar om"
   # A Bokmål s-genitive left as it is.
   "bruker andres materiale": "bruker materialet til andre"
   # The AI colophon: present tenses read as infinitives, a past participle left
@@ -131,3 +133,6 @@ expected_unused:
   - "respekterer kvarandres arbeidstid, pausar og feriar"
   - "oppfyller krave"
   - "bruker andres materiale"
+  # Seen from the public service on the code of conduct; CI's Apertium may
+  # translate the phrase correctly by itself.
+  - "dei verkte handlar om"

@@ -19,7 +19,7 @@ We have therefore drawn up the guidelines in this document, which apply to all M
 - **Care.** We look after one another and remember that people take part from different institutions, career stages, and life situations.
 - **Integrity.** We follow high ethical standards in our research and are open about how results came about.
 - **Accountability.** We consider the biases and the environmental and social costs of the AI-based systems we use and study, and work to reduce them.
-- **Cultural heritage.** We respect the communities that cultural heritage belongs to, include traditions beyond the dominant ones, and agree with living communities from the start on how their heritage is used in AI-based systems.
+- **Cultural heritage.** We respect the communities that cultural heritage belongs to, include traditions beyond the dominant ones, and agree with living communities from the start on how their heritage is used in AI-based systems. A work is used only as its makers or performers, or their families, have agreed, and with respect for anyone the work is about or dedicated to.
 
 ## How we work together
 

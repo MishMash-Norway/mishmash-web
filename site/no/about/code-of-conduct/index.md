@@ -20,7 +20,7 @@ Vi har derfor utarbeidet retningslinjene i dette dokumentet, som gjelder for all
 - **Omtanke.** Vi tar vare på hverandre og husker på at folk deltar fra ulike institusjoner, karrieretrinn og livssituasjoner.
 - **Redelighet.** Vi følger høye etiske standarder i forskningen vår og er åpne om hvordan resultater har blitt til.
 - **Ansvarlighet.** Vi tar hensyn til skjevheter og til de miljømessige og sosiale kostnadene ved de KI-baserte systemene vi bruker og forsker på, og arbeider for å redusere dem.
-- **Kulturarv.** Vi respekterer fellesskapene kulturarven tilhører, tar med tradisjoner utover de dominerende, og blir enige med levende fellesskap fra starten av om hvordan kulturarven deres brukes i KI-baserte systemer.
+- **Kulturarv.** Vi respekterer fellesskapene kulturarven tilhører, tar med tradisjoner utover de dominerende, og blir enige med levende fellesskap fra starten av om hvordan kulturarven deres brukes i KI-baserte systemer. Et verk brukes bare slik skaperne eller utøverne, eller deres etterkommere, har sagt ja til, og med respekt for dem verket handler om eller er tilegnet.
 
 ## Hvordan vi arbeider sammen
 
