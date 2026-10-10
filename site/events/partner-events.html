@@ -18,6 +18,12 @@ description: "AI and creativity events from MishMash partner institutions across
 
 <p><a class="button" href="{{ partner_feed_webcal }}">Subscribe to all partner events</a></p>
 
+{% capture partner_current %}{% include partner_events_front_page.html scope="current" limit=100 %}{% endcapture %}
+{% if partner_current contains 'partner-event-item' %}
+<h2>On now</h2>
+{{ partner_current }}
+{% endif %}
+
 <h2>Upcoming Partner Events</h2>
 {% include partner_events_front_page.html scope="upcoming" limit=100 %}
 

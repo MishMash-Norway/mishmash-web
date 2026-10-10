@@ -1,4 +1,9 @@
 {% assign partner_events = site.data.partner_events | default: empty %}
+{% comment %}
+  scope: upcoming (has not started), current (has started and not yet ended,
+  such as an exhibition), or past (has ended). An event without an end date
+  ends on the day it starts.
+{% endcomment %}
 {% assign scope = include.scope | default: "upcoming" %}
 {% if scope == "past" %}
   {% assign sorted_partner_events = partner_events | sort: "start_date" | reverse %}
@@ -30,11 +35,17 @@
   {% endif %}
   {% assign display_desc = ev.og_description | default: ev.description %}
 
+  {% assign end_date_text = end_date | default: start_date | append: '' %}
+  {% assign end_date_iso = end_date_text | slice: 0, 10 %}
   {% assign start_parts = start_date_iso | split: '-' %}
   {% assign show_event = false %}
   {% if start_date and start_date_text != '' and start_date_iso != '' and start_parts.size == 3 %}
     {% if scope == "past" %}
-      {% if start_date_iso < now_date %}
+      {% if end_date_iso < now_date %}
+        {% assign show_event = true %}
+      {% endif %}
+    {% elsif scope == "current" %}
+      {% if start_date_iso < now_date and end_date_iso >= now_date %}
         {% assign show_event = true %}
       {% endif %}
     {% else %}
