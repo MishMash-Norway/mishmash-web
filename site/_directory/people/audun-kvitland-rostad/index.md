@@ -16,10 +16,10 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: http://www.kvitland.no
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0009-0004-9865-9985
   nva: https://nva.sikt.no/research-profile/1192192
   youtube: ''
   mastodon: ''
