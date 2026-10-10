@@ -44,6 +44,20 @@ search_keywords:
 - Spatial Audio
 - Interaction Design
 selected_works:
+- title: Educational professionals' perspectives on hearing protection devices for
+    autistic students
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Marte Karoline Herrebrøden
+    role: Creator
+  - name: Georgios Marentakis
+    role: Creator
+    slug: georgios-marentakis
+    url: /people/georgios-marentakis/
+  - name: Anders Nordahl-Hansen
+    role: Creator
 - title: Unlocking the Potential of Hearing Protection Devices in Supporting Inclusive
     School Environments for Autistic Students
   year: '2026'
@@ -176,23 +190,6 @@ selected_works:
   url: https://www.researchgate.net/publication/392123286_DIAGNOSING_AUDITORY_PROCESSING_DISORDER_IN_ADULTS_-_A_SCOPING_REVIEW_OF_DIAGNOSTIC_GAPS
   contributors:
   - name: Cathrine Rismo Redi
-    role: Creator
-  - name: Anders Dechsling
-    role: Creator
-  - name: Georgios Marentakis
-    role: Creator
-    slug: georgios-marentakis
-    url: /people/georgios-marentakis/
-  - name: Anders  Nordahl-Hansen
-    role: Creator
-- title: Audio Technology for Autistic Persons with Auditory Sensory Differences—A
-    Scoping Review
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1007/s40489-025-00511-3
-  contributors:
-  - name: Marte Karoline Herrebrøden
     role: Creator
   - name: Anders Dechsling
     role: Creator

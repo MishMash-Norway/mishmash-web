@@ -41,6 +41,8 @@ selected_works:
   contributors:
   - name: Rujeena Mathema
     role: Creator
+    slug: rujeena-mathema
+    url: /people/rujeena-mathema/
   - name: Bineeth Kuriakose
     role: Creator
   - name: Pedro G. Lind
@@ -58,6 +60,8 @@ selected_works:
   contributors:
   - name: Rujeena Mathema
     role: Creator
+    slug: rujeena-mathema
+    url: /people/rujeena-mathema/
   - name: Shamimeh Mohajeri Nav
     role: Creator
   - name: Shailendra Bhandari
@@ -83,6 +87,8 @@ selected_works:
     role: Creator
   - name: Rujeena Mathema
     role: Creator
+    slug: rujeena-mathema
+    url: /people/rujeena-mathema/
   - name: Pedro Rego Lencastre e Silva
     role: Creator
   - name: Pedro Lind
@@ -101,6 +107,8 @@ selected_works:
     role: Creator
   - name: Rujeena Mathema
     role: Creator
+    slug: rujeena-mathema
+    url: /people/rujeena-mathema/
   - name: Pedro Lind
     role: Creator
 - title: Modeling eye gaze velocity trajectories using GANs with spectral loss for
@@ -116,6 +124,8 @@ selected_works:
     role: Creator
   - name: Rujeena Mathema
     role: Creator
+    slug: rujeena-mathema
+    url: /people/rujeena-mathema/
   - name: Alexander Szorkovszky
     role: Creator
   - name: Anis Yazidi
@@ -131,6 +141,8 @@ selected_works:
   contributors:
   - name: Rujeena Mathema
     role: Creator
+    slug: rujeena-mathema
+    url: /people/rujeena-mathema/
   - name: Pedro Lind
     role: Creator
   - name: Pedro Rego Lencastre e Silva
