@@ -123,9 +123,9 @@ selected_works:
     url: /people/georgios-marentakis/
   - name: Anders Dechsling
     role: Creator
-  - name: G. Esposito
+  - name: Gianluca Esposito
     role: Creator
-  - name: D. Dimitriou
+  - name: Dagmara Dimitriou
     role: Creator
   - name: Anders Nordahl-Hansen
     role: Creator

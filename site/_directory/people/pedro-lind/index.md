@@ -40,6 +40,11 @@ search_keywords:
 - Trustworthy AI
 - Quantitative Epidemiology
 selected_works:
+- title: EEG Pathology Detection via Clinical Concept Bottleneck Models
+  year: '2026'
+  source: Preprint
+  group_type: Preprint
+  url: https://doi.org/10.64898/2026.10.04.756607
 - title: 'Validation of webcam-based eye-tracking for clinically relevant paradigms:
     Saccade, attention bias, and free-viewing tasks'
   year: '2026'
@@ -89,11 +94,6 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1103/2bzm-t9k1
-- title: 'IntLevPy: A Python library to classify and model intermittent and Lévy processes'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1016/j.softx.2025.102334
 source_mentions: []
 summary: 'Pedro Goncalves Lind works in artificial intelligence and data analysis
   applied to several of the nowadays'' challenges in society, environment, economy
