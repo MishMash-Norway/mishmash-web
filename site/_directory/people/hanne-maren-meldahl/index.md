@@ -11,8 +11,8 @@ institutions:
 projects:
 - ki-i-kunstnerisk-utdanning-og-praksis
 other_projects:
-- title: Samskaping mellom høyere utdanning og kunst- og kultursektoren i utviklingen
-    av praksis- og utdanningsfeltet
+- title: Nettverk for samskaping mellom høyere utdanning og kunst- og kultursektoren
+    i utviklingen av praksis- og utdanningsfeltet
   url: https://nva.sikt.no/projects/2777209
   nva_id: '2777209'
 roles:

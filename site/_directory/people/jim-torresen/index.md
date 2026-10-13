@@ -45,6 +45,7 @@ selected_works:
   year: '2026'
   source: Book chapter
   group_type: Book chapter
+  url: https://doi.org/10.1109/RO-MAN72286.2026.11714669
   contributors:
   - name: Markus Yuki Nishimura
     role: Creator
