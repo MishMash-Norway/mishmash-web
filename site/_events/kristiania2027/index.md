@@ -47,9 +47,9 @@ The proposition draws on ecological and process-oriented approaches to media and
 The conference takes place in person in Oslo. **Only in-person presentations will be accepted**.
 Kristiania University of Applied Sciences is not able to cover travel or accommodation costs for presenters.
 * Eligibility: researchers at all career stages, including PhD candidates, are welcome to submit
-* Deadline: 1 November, 2026
+* Deadline: **1 December, 2026**
 * Submit to: [https://nettskjema.no/a/651115](https://nettskjema.no/a/651115)
-* Notification: 15 December, 2026  
+* Notification: 18 December, 2026  
 
 *The Programme Committee will select approximately 20–25 presentations for inclusion in a curated programme. Selection criteria include conceptual and artistic rigour, engagement with the conference framework, the contribution of artistic practice to research and knowledge production, and the potential to contribute to the conference's wider discussion.
 Registration fees and other details will follow closer to the conference.*
