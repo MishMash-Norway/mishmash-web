@@ -23,5 +23,5 @@ This event is hosted by Ida Jahr. Join via Zoom using the link below.
 **Zoom Link:** https://uiano.zoom.us/j/9173998233?pwd=ibt2l25SD7BfBwRCMfGjr5Qjdmj8cc.1&omn=65753068969
 
 **Password**
-If a password is requested, see the outlook-invitation, and if you didn't receive one, please contact adrian.f.andersson@uia.no who will provide the password to you. 
+If a password is requested, please find it in your Outlook-invitation. If you have not received an Outlook invitation, please contact adrian.f.andersson@uia.no who will provide you the password. 
 
