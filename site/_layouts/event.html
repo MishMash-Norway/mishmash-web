@@ -77,6 +77,35 @@ END:VCALENDAR
   The choice follows the date, so it is the same at every build and steps
   through the six as the weekly events go by.
 {% endcomment %}
+{% assign event_online = false %}
+{% if page.location contains 'Zoom' %}{% assign event_online = true %}{% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": {{ page.title | jsonify }},
+  "url": {{ event_url | jsonify }},
+  "startDate": {{ page.date | date_to_xmlschema | jsonify }}{% if page.end_date %},
+  "endDate": {{ page.end_date | date_to_xmlschema | jsonify }}{% endif %},
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": {% if event_online %}"https://schema.org/OnlineEventAttendanceMode"{% else %}"https://schema.org/OfflineEventAttendanceMode"{% endif %},
+  "location": {% if event_online %}{
+    "@type": "VirtualLocation",
+    "url": {{ event_url | jsonify }}
+  }{% else %}{
+    "@type": "Place",
+    "name": {{ page.location | default: 'Norway' | jsonify }},
+    "address": {{ page.location | default: 'Norway' | jsonify }}
+  }{% endif %}{% if page.description %},
+  "description": {{ page.description | strip_html | jsonify }}{% endif %}{% if page.image %},
+  "image": {{ page.image | absolute_url | jsonify }}{% endif %},
+  "organizer": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "url": {{ site.url | jsonify }}
+  }
+}
+</script>
 {% assign event_image = page.image %}
 {% assign event_image_is_decoration = false %}
 {% if event_image == nil or event_image == '' or event_image contains 'mishmash_bubbles_notext.svg' %}

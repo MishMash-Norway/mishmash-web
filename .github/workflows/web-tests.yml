@@ -79,6 +79,9 @@ jobs:
       - name: Build site
         run: bundle exec jekyll build --trace
 
+      - name: Check every event page describes itself as a schema.org Event
+        run: python3 scripts/check_event_jsonld.py
+
   link_check:
     name: Check links in generated HTML
     runs-on: ubuntu-latest

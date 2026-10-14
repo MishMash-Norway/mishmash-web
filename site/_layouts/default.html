@@ -36,7 +36,10 @@
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="VYQPGEZaiYNH8BxvSZjP0xHFhbLYOfPz_Qs3e3f15tw">
 
-{% seo %}
+{% comment %}An event page describes itself as a schema.org Event in event.html, so the
+BlogPosting that jekyll-seo-tag writes for a dated page is left out there.{% endcomment %}
+{% if page.layout == 'event' %}{% capture mm_seo %}{% seo %}{% endcapture %}{% assign mm_seo_parts = mm_seo | split: '<script type="application/ld+json">' %}{{ mm_seo_parts | first }}<!-- End Jekyll SEO tag -->
+{% else %}{% seo %}{% endif %}
 {% unless page.image %}<meta property="og:image" content="{{ '/assets/images/logo/mishmash-og.png' | absolute_url }}" />{% endunless %}
 {% comment %}
   The language versions of this page, from site/_data/languages.yml. The
