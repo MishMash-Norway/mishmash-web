@@ -11,7 +11,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://www.lens.org/lens/orcid/0009-0006-7449-9002
+  personal_website: https://kristinnorderval.com/
   institutional_website: ''
   github: ''
   linkedin: https://www.linkedin.com/in/kristinnorderval/

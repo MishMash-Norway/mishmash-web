@@ -22,7 +22,7 @@ urls:
   nva: https://nva.sikt.no/research-profile/1890210
   youtube: ''
   mastodon: ''
-  instagram: https://www.instagram.com/sondergart/
+  instagram: https://www.instagram.com/sondergart
   wikidata: https://www.wikidata.org/wiki/Q139272393
 aliases: []
 tags:

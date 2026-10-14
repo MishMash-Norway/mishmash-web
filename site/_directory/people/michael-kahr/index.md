@@ -12,7 +12,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://kug.academia.edu/MichaelKahr
+  personal_website: https://www.michaelkahr.com
   institutional_website: https://www.jammusiclab.com/faculty/michael-kahr
   github: ''
   linkedin: https://www.linkedin.com/in/michael-kahr-663aa663/
