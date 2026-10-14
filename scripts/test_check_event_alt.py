@@ -38,6 +38,15 @@ class EventAltTests(unittest.TestCase):
         found = problems(event(image_alt="Someone Else"), NAMES)
         self.assertIn("neither in the directory nor written on the page", found[0])
 
+    def test_a_collage_of_known_names_passes(self):
+        found = problems(event(image_alt="Anders Tveit (left) and Etienne Guichard (right)",
+                               description="Etienne Guichard presents."), NAMES)
+        self.assertEqual(found, [])
+
+    def test_a_collage_with_an_unknown_name_is_reported(self):
+        found = problems(event(image_alt="Anders Tveit (left) and Someone Else (right)"), NAMES)
+        self.assertIn("neither in the directory nor written on the page", found[0])
+
     def test_a_name_the_page_writes_is_accepted(self):
         events = [("wp1.md", {"title": "Webinar", "location": "Zoom", "image": PORTRAIT,
                               "image_alt": "Etienne Guichard",
@@ -58,6 +67,10 @@ class EventAltTests(unittest.TestCase):
                               "[Eamon O'Kane](https://example.org) presents.")
         self.assertIn(key("Fride H. Klykken"), found)
         self.assertIn(key("Eamon O'Kane"), found)
+
+    def test_written_names_keep_a_name_particle(self):
+        found = written_names({}, "Roos van Berkel will discuss her research.")
+        self.assertIn(key("Roos van Berkel"), found)
 
     def test_the_site_events_all_name_their_portraits(self):
         if not check_event_alt.EVENTS.exists():

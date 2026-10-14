@@ -380,7 +380,8 @@ Accessibility measurements
 --------------------------
 
 `check_event_alt.py` requires `image_alt` on every event whose picture shows a
-person, and checks the name against the directory and the page text.
+person, and checks the name against the directory and the page text; a
+collage names each person, as in `A (left) and B (right)`, and each must pass.
 `check_contrast.mjs` (Node, Playwright) opens the states a page scan cannot
 reach, the focused skip link, an open menu, a search result, and measures the
 colours painted (`--level AA` or `AAA`, `--base <url>`). `measure_aaa.mjs`
