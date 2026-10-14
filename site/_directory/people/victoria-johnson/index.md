@@ -41,7 +41,7 @@ urls:
   institutional_website: https://victoriajohnson.no/
   github: ''
   linkedin: ''
-  orcid: ''
+  orcid: https://orcid.org/0009-0009-0748-0602
   nva: https://nva.sikt.no/research-profile/326521
   youtube: ''
   mastodon: ''
