@@ -382,6 +382,10 @@ Accessibility measurements
 `check_event_alt.py` requires `image_alt` on every event whose picture shows a
 person, and checks the name against the directory and the page text; a
 collage names each person, as in `A (left) and B (right)`, and each must pass.
+`check_event_offsets.py` requires each event's `date` and `end_date` to carry
+Oslo's UTC offset for that day, +01:00 outside summer time; Jekyll shows a
+November time written with +02:00 an hour early. `import_meshups_from_xlsx.py`
+writes the offset for each date.
 `check_event_jsonld.py` reads the built `_site/events` and requires each event
 page to describe itself as a schema.org Event with a name, start date and
 location, in place of the BlogPosting jekyll-seo-tag writes for a dated page.

@@ -17,6 +17,9 @@ import re
 import shutil
 import sys
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from issue_to_pr import tz_offset   # CET or CEST for the day
+
 try:
     from openpyxl import load_workbook
 except ImportError as error:
@@ -117,8 +120,8 @@ def event_content(event, image):
     lines = [
         "---",
         f"title: {json.dumps(heading, ensure_ascii=False)}",
-        f"date: {event['date'].isoformat()} 12:00:00 +02:00",
-        f"end_date: {event['date'].isoformat()} 12:30:00 +02:00",
+        f"date: {event['date'].isoformat()} 12:00:00 {tz_offset(event['date'].isoformat())}",
+        f"end_date: {event['date'].isoformat()} 12:30:00 {tz_offset(event['date'].isoformat())}",
         "location: Zoom",
         "layout: event",
         # The sheet stores the work package as a number, which openpyxl reads
