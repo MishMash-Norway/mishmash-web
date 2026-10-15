@@ -5,7 +5,7 @@ title: "MishMash Senter for KI og kreativitet"
 translation_url: /
 description: "MishMash skaper, utforsker og reflekterer over KI for, gjennom og i kreative praksiser — et norsk forskningssenter med over 200 forskere."
 ---
-MishMash **skaper, utforsker og reflekterer over KI for, gjennom og i kreative praksiser**. Mer enn 200 forskere undersøker KIs innvirkning på kreative prosesser, utvikler innovative samskapende KI-systemer og pedagogiske strategier, og tar opp de etiske, kulturelle, juridiske og samfunnsmessige implikasjonene av KI i kreative praksiser. [Mer om MishMash...](/no/about/description/)
+MishMash skaper, utforsker og reflekterer over KI for, gjennom og i kreative praksiser. Mer enn 200 forskere undersøker hvordan KI påvirker kreative prosesser, utvikler innovative samskapende KI-systemer og pedagogiske strategier, og tar opp de etiske, kulturelle, juridiske og samfunnsmessige implikasjonene av KI i kreative praksiser. [Mer om MishMash...](/no/about/description/)
 
 <h2><a href="https://mishmash.no/events/">MishMash-arrangementer</a></h2>
 
@@ -33,7 +33,7 @@ MishMash **skaper, utforsker og reflekterer over KI for, gjennom og i kreative p
 
 ## Ledige stillinger
 
-Se oversikten over [ledige stillinger](https://mishmash.no/news/positions/). Ta [kontakt](https://mishmash.no/no/about/organisation/wp-leaders/) hvis du er interessert i å søke til et eksternt stipendprogram gjennom en av våre partnere (for eksempel Marie Skłodowska-Curie Actions-stipend eller Fulbright). Partnere er også åpne for å ta imot egenfinansierte praktikanter (for eksempel gjennom ERASMUS-programmet).
+Masterstudenter ved tilknyttede institusjoner kan [søke om å bli MishMash Master Fellow](https://nettskjema.no/a/mishmash-master-fellows). Det er for tiden ingen [ledige stipendiat- eller postdoktorstillinger](https://mishmash.no/news/positions/). Ta [kontakt](https://mishmash.no/no/about/organisation/wp-leaders/) hvis du er interessert i å søke ekstern finansiering gjennom en av våre partnere (for eksempel Marie Skłodowska-Curie Actions- eller Fulbright-stipend). Partnere er også åpne for å ta imot egenfinansierte praktikanter (for eksempel gjennom ERASMUS-programmet).
 
 ## Partnere
 

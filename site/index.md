@@ -1,7 +1,7 @@
 ---
 description: "MishMash creates, explores, and reflects on AI for, through, and in creative practices — a Norwegian research centre with 200+ researchers across art, science, and society."
 ---
-MishMash is a Norwegian research consortium that works on **creating, exploring, and reflecting on AI for, through, and in creative practices**. More than 200 researchers investigate AI's impact on creative processes, develop innovative co-creative AI systems and educational strategies, and address AI’s ethical, cultural, legal, and societal implications in creative domains. [More about MishMash...](/about/description/)
+MishMash is a Norwegian research consortium that works on creating, exploring, and reflecting on AI for, through, and in creative practices. More than 200 researchers investigate AI's impact on creative processes, develop innovative co-creative AI systems and educational strategies, and address AI’s ethical, cultural, legal, and societal implications in creative domains. [More about MishMash...](/about/description/)
 
 <h2><a href="https://mishmash.no/events/">MishMash Events</a></h2>
 
@@ -29,7 +29,7 @@ MishMash is a Norwegian research consortium that works on **creating, exploring,
 
 ## Vacancies
 
-Master's students at affiliated institutions can [apply to become a MishMash Master Fellow](https://nettskjema.no/a/mishmash-master-fellows). There are currently no [open (post)doctoral positions](https://mishmash.no/news/positions/). For prospective (post)doctoral fellows, get in [touch](https://mishmash.no/about/organisation/wp-leaders/) if you are interested in applying to an external program through one of our partners (for example, Marie Skłodowska-Curie Actions fellowships or Fulbright). Partners are also open for hosting self-funded internships (for example through the ERASMUS programme).
+Master's students at affiliated institutions can [apply to become a MishMash Master Fellow](https://nettskjema.no/a/mishmash-master-fellows). There are currently no [open (post)doctoral positions](https://mishmash.no/news/positions/). Get in [touch](https://mishmash.no/about/organisation/wp-leaders/) if you are interested in applying for external funding through one of our partners (for example, Marie Skłodowska-Curie Actions or Fulbright fellowships). Partners are also open for hosting self-funded internships (for example through the ERASMUS programme).
 
 ## Partners
 
