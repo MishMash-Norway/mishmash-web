@@ -4,8 +4,8 @@ slug: christian-guckelsberger
 name: Christian Guckelsberger
 title: Christian Guckelsberger
 position: Visiting Research Fellow
-image: /assets/images/portraits/Christian_Guckelsberger_Aalto.jpg
 department: Department for Computer Science
+image: /assets/images/portraits/Christian_Guckelsberger_Aalto.jpg
 institution: aalto-university
 institutions:
 - aalto-university
@@ -13,7 +13,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://ccg.doc.gold.ac.uk/christianguckelsberger
+  personal_website: http://ccg.doc.gold.ac.uk/christianguckelsberger
   institutional_website: https://www.aalto.fi/en/department-of-computer-science/autotelic-interaction-research
   github: ''
   linkedin: https://www.linkedin.com/in/christianguckelsberger/

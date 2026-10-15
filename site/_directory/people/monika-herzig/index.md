@@ -12,7 +12,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://www.monikaherzig.com
+  personal_website: http://www.monikaherzig.com
   institutional_website: https://www.jammusiclab.com/
   github: ''
   linkedin: https://www.linkedin.com/in/monika-herzig-4b4a74268/

@@ -18,7 +18,7 @@ roles:
 - Member
 urls:
   personal_website: ''
-  institutional_website: https://www4.uib.no/finn-ansatte/eva-marija.vukich
+  institutional_website: https://www.linkedin.com/in/evavukich/
   github: ''
   linkedin: https://www.linkedin.com/in/evavukich/
   orcid: https://orcid.org/0009-0005-4196-4898

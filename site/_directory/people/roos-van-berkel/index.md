@@ -25,15 +25,15 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- dance
-- choreography
-- interaction design
-- AI and movement data in a more-than-human context
+- Dance
+- Choreography
+- Interaction Design
+- AI and Movement Data in a More-Than-Human Context
 search_keywords:
-- dance
-- choreography
-- interaction design
-- AI and movement data in a more-than-human context
+- Dance
+- Choreography
+- Interaction Design
+- AI and Movement Data in a More-Than-Human Context
 selected_works:
 - title: 'Drifting Bodies through Algorithms: Participatory Choreographies for Embodied
     Experiences of Coexistence'

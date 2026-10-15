@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: https://creativetechnologist.eu
-  institutional_website: https://phygitalspaces.org
+  institutional_website: ''
   github: https://github.com/rvrooom
   linkedin: https://www.linkedin.com/in/rafał-hanzl-992b0733/
   orcid: https://orcid.org/0000-0001-6316-2320

@@ -12,7 +12,7 @@ projects: []
 roles:
 - Member
 urls:
-  personal_website: https://www.markholub.com
+  personal_website: http://www.markholub.com
   institutional_website: https://www.jammusiclab.com/
   github: ''
   linkedin: ''
