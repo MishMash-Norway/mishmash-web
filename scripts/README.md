@@ -410,6 +410,14 @@ years from the Research Council's project database into
 structured data and `data/centre.json` from `build_open_data.py` are built from
 these two files.
 
+`wikidata_centre_statements.py` writes the QuickStatements batch that creates
+the centre's Wikidata item from the same files: labels in English, Bokmål and
+Nynorsk, research centre in Oslo, Norway, parent the University of Oslo, funder
+the Research Council with the funding period, inception, the director when the
+directory has his Wikidata item, and the NVA and Research Council pages. Each
+statement cites its source. A person pastes it into QuickStatements; when the
+item exists, its address goes in `identifiers.wikidata` in `centre.yml`.
+
 Partner pictures
 ----------------
 
