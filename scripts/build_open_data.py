@@ -214,7 +214,8 @@ def centre_record(root: Path) -> dict:
     people = [data for section, _, _, data, _ in iter_directory_entries(root) if section == "people"]
     roles = {}
     for r in centre.get("roles") or []:
-        roles[r["role"]] = [{"name": p.get("name"), "url": SITE_URL + "/people/" + p.get("slug", "") + "/"}
+        roles[r["role"]] = [{"name": p.get("name"), "url": SITE_URL + "/people/" + p.get("slug", "") + "/",
+                             "since": str(r["since"]) if r.get("since") else None}
                             for p in sorted(people, key=lambda p: p.get("name") or "")
                             if r["role"] in (p.get("roles") or [])]
     return {

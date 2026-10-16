@@ -43,9 +43,6 @@ dates:
       en: End of the current funding period
       nb: Slutten av den nåværende finansieringsperioden
     source: https://nva.sikt.no/projects/2744839
-    # [ARJ: NVA gives 31 December 2030 as the end date. Is that the end date
-    # in the contract with the Research Council? Recommendation: keep it, as
-    # the date the contract states.]
 
 host:
   name:
@@ -65,18 +62,18 @@ identifiers:
   nva_project: https://nva.sikt.no/projects/2744839
   rcn_project: https://prosjektbanken.forskningsradet.no/project/FORISS/357438
   wikidata: ""   # filled in when the item is created
-  # [ARJ: MishMash has no ROR identifier. Recommendation: leave it, since ROR
-  # registers institutions rather than centres hosted by one.]
+  # No ROR identifier: ROR registers institutions, not centres hosted by one.
 
 roles:
   - role: Director
+    since: 2025-12-01
     label: {en: Director, nb: Direktør}
   - role: Deputy Director
+    since: 2025-12-01
     label: {en: Deputy directors, nb: Nestledere}
   - role: Board Leader
+    since: 2025-12-01
     label: {en: Chair of the board, nb: Styreleder}
   - role: Administrative Coordinator
+    since: 2025-12-01
     label: {en: Administrative coordinator, nb: Administrativ koordinator}
-  # [ARJ: since when has each person held the role? Recommendation: the
-  # director from 1 December 2025, the others from the dates of the news
-  # items that announced them; give the dates and I add a `since` field.]

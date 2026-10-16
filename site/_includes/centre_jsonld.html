@@ -46,7 +46,7 @@
       {%- for p in people -%}
         {%- if p.roles contains r.role -%}
           {%- unless first %},{% endunless %}
-    {"@type": "OrganizationRole", "roleName": {{ r.label.en | jsonify }}, "member": {"@type": "Person", "name": {{ p.name | jsonify }}, "url": {{ p.url | absolute_url | jsonify }}}}
+    {"@type": "OrganizationRole", "roleName": {{ r.label.en | jsonify }}{% if r.since %}, "startDate": {{ r.since | date: "%Y-%m-%d" | jsonify }}{% endif %}, "member": {"@type": "Person", "name": {{ p.name | jsonify }}, "url": {{ p.url | absolute_url | jsonify }}}}
           {%- assign first = false -%}
         {%- endif -%}
       {%- endfor -%}
