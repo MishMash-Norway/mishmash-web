@@ -397,6 +397,19 @@ reports contrast at 7:1, targets under 44 pixels and lines over 80 characters
 with `--fail` for a theme whose `_config.yml` declares `wcag_target: AAA`. All
 of these run against a served `_site` at `http://127.0.0.1:4000`.
 
+The centre's own facts
+----------------------
+
+`site/_data/centre.yml` holds the canonical facts about MishMash, each with its
+source: the dates, the funder and project number, the host and the
+identifiers. Who holds a role is read from the directory, not repeated there.
+`fetch_centre_funding.py` fetches the amount granted, the programme and the
+years from the Research Council's project database into
+`site/_data/centre_funding.yml`; the nightly workflow runs it. The facts page
+(`/about/facts/`, `/no/about/facts/`), the ResearchProject in the front pages'
+structured data and `data/centre.json` from `build_open_data.py` are built from
+these two files.
+
 Partner pictures
 ----------------
 

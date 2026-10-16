@@ -1,0 +1,55 @@
+{% comment %}
+  The canonical facts about MishMash, from site/_data/centre.yml, the amount
+  fetched into centre_funding.yml, and the roles held in the directory.
+  include.lang is "en" or "nb".
+{% endcomment %}
+{%- assign lang = include.lang | default: "en" -%}
+{%- assign c = site.data.centre -%}
+{%- assign f = site.data.centre_funding -%}
+{%- assign months_nb = "januar,februar,mars,april,mai,juni,juli,august,september,oktober,november,desember" | split: "," -%}
+{%- assign people = site.directory | where: "type", "person" | sort: "name" -%}
+
+<h2>{% if lang == "nb" %}Datoer{% else %}Dates{% endif %}</h2>
+<dl class="centre-facts">
+{%- for d in c.dates %}
+  {%- if lang == "nb" -%}
+    {%- assign m = d.date | date: "%-m" | minus: 1 -%}
+    {%- capture shown %}{{ d.date | date: "%-d" }}. {{ months_nb[m] }} {{ d.date | date: "%Y" }}{% endcapture -%}
+  {%- else -%}
+    {%- capture shown %}{{ d.date | date: "%-d %B %Y" }}{% endcapture -%}
+  {%- endif %}
+  <dt><time datetime="{{ d.date | date: '%Y-%m-%d' }}">{{ shown }}</time></dt>
+  <dd>{{ d.label[lang] }} (<a href="{{ d.source }}">{% if lang == "nb" %}kilde{% else %}source{% endif %}</a>{% if d.news %}, <a href="{{ d.news }}">{% if lang == "nb" %}nyhet{% else %}news{% endif %}</a>{% endif %})</dd>
+{%- endfor %}
+</dl>
+
+<h2>{% if lang == "nb" %}Finansiering og vertskap{% else %}Funding and host{% endif %}</h2>
+<dl class="centre-facts">
+  <dt>{% if lang == "nb" %}Finansiert av{% else %}Funded by{% endif %}</dt>
+  <dd>{{ c.funder.name[lang] }}, {% if lang == "nb" %}prosjektnummer{% else %}project number{% endif %} <a href="{{ c.funder.url }}">{{ c.funder.project_number }}</a></dd>
+  {%- if f.amount_million_nok %}
+  <dt>{% if lang == "nb" %}Tildelt{% else %}Granted{% endif %}</dt>
+  <dd>{% if lang == "nb" %}{{ f.amount_million_nok | replace: ".", "," }} millioner kroner{% else %}NOK {{ f.amount_million_nok }} million{% endif %}, {{ f.start_year }}–{{ f.end_year }} (<a href="{{ f.source }}">{% if lang == "nb" %}Prosjektbanken, hentet{% else %}Prosjektbanken, fetched{% endif %} {{ f.fetched }}</a>)</dd>
+  {%- endif %}
+  <dt>{% if lang == "nb" %}Vertsinstitusjon{% else %}Host institution{% endif %}</dt>
+  {%- assign host = site.directory | where: "slug", c.host.slug | first %}
+  <dd>{% if host %}<a href="{{ host.url }}">{{ c.host.name[lang] }}</a>{% else %}{{ c.host.name[lang] }}{% endif %}</dd>
+  <dt>{% if lang == "nb" %}Prosjekt i NVA{% else %}Project in NVA{% endif %}</dt>
+  <dd><a href="{{ c.identifiers.nva_project }}">{{ c.identifiers.nva_project | split: "/" | last }}</a></dd>
+  {%- if c.identifiers.wikidata != "" %}
+  <dt>Wikidata</dt>
+  <dd><a href="{{ c.identifiers.wikidata }}">{{ c.identifiers.wikidata | split: "/" | last }}</a></dd>
+  {%- endif %}
+</dl>
+
+<h2>{% if lang == "nb" %}Ledelse{% else %}Leadership{% endif %}</h2>
+<dl class="centre-facts">
+{%- for r in c.roles %}
+  {%- assign holders = "" | split: "" -%}
+  {%- for p in people -%}{%- if p.roles contains r.role -%}{%- assign holders = holders | push: p -%}{%- endif -%}{%- endfor -%}
+  {%- if holders.size > 0 %}
+  <dt>{{ r.label[lang] }}</dt>
+  <dd>{% for p in holders %}<a href="{{ p.url }}">{{ p.name }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</dd>
+  {%- endif %}
+{%- endfor %}
+</dl>

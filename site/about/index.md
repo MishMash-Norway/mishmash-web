@@ -5,6 +5,7 @@ translation_url: /no/about/
 ---
 
 - [Description](/about/description/): Why, how, what, when?
+- [Key facts](/about/facts/): Dates, funding, host and leadership, with sources
 - [Organisation](/about/organisation/): Governance, management, and advisory bodies
 - [Open research](/about/open-research/): How the centre publishes, shares data and releases code
 - [Research training](/about/training/): Doctoral fellows, micro courses and lifelong learning

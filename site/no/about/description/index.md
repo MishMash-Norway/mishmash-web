@@ -158,7 +158,7 @@ Senteret startet i desember 2025 og skal vare i mange år. I løpet av 2026 anse
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-Planen er å formelt starte senteret i desember 2025, rekruttere doktorgradsstipendiater og postdoktorer i løpet av våren 2026 og komme opp på full hastighet fra høsten 2026.
+Finansieringen ble kunngjort 11. juni 2025, og senteret startet formelt 1. desember 2025. Doktorgradsstipendiater og postdoktorer rekrutteres i løpet av 2026, og senteret er i full gang fra høsten 2026. Datoene og kildene deres står under [nøkkelfakta](/no/about/facts/).
 
 ![MishMash Gantt-diagram](https://www.arj.no/images/2025/06/MishMash-gantt.png)
 </div>

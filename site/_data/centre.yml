@@ -1,0 +1,82 @@
+# Canonical facts about MishMash as an organisation.
+#
+# Each fact is written here once, with the source that settles it. The facts
+# page (/about/facts/, /no/about/facts/), the structured data on the front page
+# and data/centre.json are built from this file. Who holds a role is not
+# repeated here: it is read from `roles` in the directory (Director, Deputy
+# Director, Board Leader, Administrative Coordinator). The amount granted is
+# fetched from the Research Council's project database into
+# centre_funding.yml by scripts/fetch_centre_funding.py, never typed.
+
+name:
+  en: MishMash Centre for AI and Creativity
+  nb: MishMash Senter for KI og kreativitet
+short_name: MishMash
+url: https://mishmash.no/
+description:
+  en: A Norwegian research centre that creates, explores and reflects on AI for, through and in creative practices.
+  nb: Et norsk forskningssenter som skaper, utforsker og reflekterer over KI for, gjennom og i kreative praksiser.
+
+dates:
+  - key: announced
+    date: 2025-06-11
+    label:
+      en: Funding announced by the Prime Minister, as one of six national research centres for AI
+      nb: Finansiering kunngjort av statsministeren, som ett av seks nasjonale forskningssentre for KI
+    source: https://www.regjeringen.no/no/aktuelt/regjeringens-milliardsatsing-dette-er-norges-seks-nye-forskningssentre-for-kunstig-intelligens/id3108609/
+    news: /news/new-centre-announced/
+  - key: started
+    date: 2025-12-01
+    label:
+      en: Centre formally started
+      nb: Senteret startet formelt
+    source: /news/mishmash-starts/
+  - key: opened
+    date: 2026-04-08
+    label:
+      en: Opening ceremony in the University Aula, Oslo
+      nb: Åpningsseremoni i Universitetets aula, Oslo
+    source: /events/aulaen2026/
+  - key: ends
+    date: 2030-12-31
+    label:
+      en: End of the current funding period
+      nb: Slutten av den nåværende finansieringsperioden
+    source: https://nva.sikt.no/projects/2744839
+    # [ARJ: NVA gives 31 December 2030 as the end date. Is that the end date
+    # in the contract with the Research Council? Recommendation: keep it, as
+    # the date the contract states.]
+
+host:
+  name:
+    en: University of Oslo
+    nb: Universitetet i Oslo
+  slug: university-of-oslo
+
+funder:
+  name:
+    en: Research Council of Norway
+    nb: Norges forskningsråd
+  project_number: "357438"
+  url: https://prosjektbanken.forskningsradet.no/project/FORISS/357438
+  wikidata: https://www.wikidata.org/wiki/Q4356293
+
+identifiers:
+  nva_project: https://nva.sikt.no/projects/2744839
+  rcn_project: https://prosjektbanken.forskningsradet.no/project/FORISS/357438
+  wikidata: ""   # filled in when the item is created
+  # [ARJ: MishMash has no ROR identifier. Recommendation: leave it, since ROR
+  # registers institutions rather than centres hosted by one.]
+
+roles:
+  - role: Director
+    label: {en: Director, nb: Direktør}
+  - role: Deputy Director
+    label: {en: Deputy directors, nb: Nestledere}
+  - role: Board Leader
+    label: {en: Chair of the board, nb: Styreleder}
+  - role: Administrative Coordinator
+    label: {en: Administrative coordinator, nb: Administrativ koordinator}
+  # [ARJ: since when has each person held the role? Recommendation: the
+  # director from 1 December 2025, the others from the dates of the news
+  # items that announced them; give the dates and I add a `since` field.]

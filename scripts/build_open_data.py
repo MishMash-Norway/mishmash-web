@@ -206,6 +206,39 @@ def terminology_rows(root: Path) -> list[dict]:
     return rows
 
 
+def centre_record(root: Path) -> dict:
+    """The facts about the centre itself, from centre.yml, the fetched funding and the directory roles."""
+    centre = yaml.safe_load((root / "_data" / "centre.yml").read_text(encoding="utf-8"))
+    funding_path = root / "_data" / "centre_funding.yml"
+    funding = yaml.safe_load(funding_path.read_text(encoding="utf-8")) if funding_path.exists() else {}
+    people = [data for section, _, _, data, _ in iter_directory_entries(root) if section == "people"]
+    roles = {}
+    for r in centre.get("roles") or []:
+        roles[r["role"]] = [{"name": p.get("name"), "url": SITE_URL + "/people/" + p.get("slug", "") + "/"}
+                            for p in sorted(people, key=lambda p: p.get("name") or "")
+                            if r["role"] in (p.get("roles") or [])]
+    return {
+        "name": centre["name"], "short_name": centre["short_name"], "url": centre["url"],
+        "description": centre["description"],
+        "dates": [{"event": d["key"], "date": str(d["date"]), "label": d["label"],
+                   "source": d["source"] if d["source"].startswith("http") else SITE_URL + d["source"]}
+                  for d in centre["dates"]],
+        "host": centre["host"]["name"], "funder": centre["funder"],
+        "funding": {k: funding.get(k) for k in ("amount_nok", "programme", "start_year", "end_year", "source", "fetched")} if funding else None,
+        "identifiers": {k: v for k, v in centre["identifiers"].items() if v},
+        "roles": roles,
+    }
+
+
+def write_centre(root: Path) -> None:
+    OUT.mkdir(parents=True, exist_ok=True)
+    (OUT / "centre.json").write_text(json.dumps({
+        "title": "MishMash Centre for AI and Creativity: canonical facts", "licence": "CC0",
+        "sources": ["the centre", "Research Council of Norway (Prosjektbanken)", "NVA"], "terms": TERMS,
+        "generated_at": now(), "item": centre_record(root),
+    }, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 def write(name: str, rows: list[dict]) -> None:
     title, licence, sources = DATASETS[name]
     OUT.mkdir(parents=True, exist_ok=True)
@@ -236,6 +269,7 @@ def main() -> int:
     }
     for name, rows in sets.items():
         write(name, rows)
+    write_centre(root)
     print("open data: " + ", ".join(f"{k} {len(v)}" for k, v in sets.items()))
     return 0
 
