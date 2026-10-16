@@ -21,10 +21,10 @@ people:
 - havard-vibeto
 - ida-jahr
 - lars-rasch
+- leif-holst-jensen
 - mathieu-lacroix
 - mette-nyseter
 - mina-brodshaug-sveen
-- nina-fredrikke-grunfeld
 - ole-christian-solbakken
 - ole-christoffer-haga
 - ole-goethe
