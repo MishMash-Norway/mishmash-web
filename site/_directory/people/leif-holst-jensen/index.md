@@ -26,15 +26,15 @@ urls:
   instagram: ''
 aliases: []
 tags:
-- Media policy and media regulation
-- Working methods in Television og documentary production
+- Media Policy and Media Regulation
+- Working Methods in Television Og Documentary Production
 - Media Management
-- Film production
+- Film Production
 search_keywords:
-- Media policy and media regulation
-- Working methods in Television og documentary production
+- Media Policy and Media Regulation
+- Working Methods in Television Og Documentary Production
 - Media Management
-- Film production
+- Film Production
 selected_works: []
 source_mentions:
 - about/organisation/council/index.md

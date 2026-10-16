@@ -31,7 +31,7 @@ search_keywords:
 selected_works:
 - title: 'Map2VidSeg Revisited: A controlled-upgrade study of classifier-derived prompts
     for medical video segmentation'
-  year: '2026'
+  year: '2027'
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1016/j.artmed.2026.103558

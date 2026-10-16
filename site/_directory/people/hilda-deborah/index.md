@@ -42,6 +42,20 @@ search_keywords:
 - Image Quality
 - Image Processing
 selected_works:
+- title: 'Reimagining the Dead Sea Scrolls: A Position Paper'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5617/dhnbpub.13100
+  contributors:
+  - name: Årstein Justnes
+    role: Creator
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
+  - name: Hilda Deborah
+    role: Creator
+    slug: hilda-deborah
+    url: /people/hilda-deborah/
 - title: Surveying Imaging Workflows and Software in Cultural Heritage
   year: '2025'
   source: Journal article
@@ -193,17 +207,6 @@ selected_works:
     url: /people/hilda-deborah/
   - name: Clotilde Boust
     role: Creator
-- title: Hyperspectral pigment mapping of Edvard Munch’s Self Portrait (1905)
-  year: '2023'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Nina Eckertz
-    role: Creator
-  - name: Hilda Deborah
-    role: Creator
-    slug: hilda-deborah
-    url: /people/hilda-deborah/
 source_mentions: []
 summary: ''
 wps:

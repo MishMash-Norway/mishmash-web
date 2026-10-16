@@ -27,6 +27,20 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Reimagining the Dead Sea Scrolls: A Position Paper'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5617/dhnbpub.13100
+  contributors:
+  - name: Årstein Justnes
+    role: Creator
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
+  - name: Hilda Deborah
+    role: Creator
+    slug: hilda-deborah
+    url: /people/hilda-deborah/
 - title: Smuglergodset som ble buddhismens dødehavsruller
   year: '2026'
   source: Monograph
@@ -129,24 +143,13 @@ selected_works:
     role: Creator
     slug: arstein-justnes
     url: /people/arstein-justnes/
-- title: 'Missing: Have You Seen These Scrolls?'
-  year: '2022'
-  source: Popular science article
-  group_type: Popular science article
-  contributors:
-  - name: Årstein Justnes
-    role: Creator
-    slug: arstein-justnes
-    url: /people/arstein-justnes/
-  - name: Signe Marie Hægeland
-    role: Creator
 source_mentions: []
+summary: ''
 wps:
 - WP6
 permalink: /people/arstein-justnes/
 redirect_from:
 - /directory/people/arstein-justnes/
-summary: ''
 ---
 
 Bio coming soon.
