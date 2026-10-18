@@ -182,6 +182,23 @@ selected_works:
     role: Creator
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
+- title: Privacy-Preserving Machine Learning-Based In-Bed Sleep Posture Monitoring
+    Using Wi-Fi Signals
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1109/iccma67641.2025.11369717
+  contributors:
+  - name: David Pich
+    role: Creator
+  - name: Adel Baselizadeh
+    role: Creator
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  - name: Jun Miura
+    role: Creator
 - title: Enhancing the Quality of 3D Lunar Maps Using JAXA’s Kaguya Imagery
   year: '2025'
   source: Book chapter
@@ -203,27 +220,6 @@ selected_works:
   - name: Kazuto Nakashima
     role: Creator
   - name: Ryo Kurazume
-    role: Creator
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
-- title: AI-Based User Gesture Recognition for Human-Robot Interaction Using Wrist
-    Sensors
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/icrai68431.2025.11396715
-  contributors:
-  - name: Geir Paulsen
-    role: Creator
-  - name: Juan Sebastian Cardenas
-    role: Creator
-  - name: Rosa Nicoline Pham Alsgaard
-    role: Creator
-  - name: Adel Baselizadeh
-    role: Creator
-  - name: Md Zia Uddin
     role: Creator
   - name: Jim Tørresen
     role: Creator

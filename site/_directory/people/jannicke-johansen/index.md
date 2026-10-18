@@ -51,6 +51,19 @@ search_keywords:
 - Entrepreneurship
 - Research
 selected_works:
+- title: Digitale tvillinger - Fortidens materialitet i fremtidens form
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Rafal Hanzl
+    role: Creator
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
+  - name: Jannicke Johansen
+    role: Creator
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: 'AI as Fifth Team Member: Differentiated Roles in Design Education'
   year: '2026'
   source: Journal article
@@ -163,17 +176,6 @@ selected_works:
   contributors:
   - name: Jannicke Johansen
     role: Creator
-    slug: jannicke-johansen
-    url: /people/jannicke-johansen/
-- title: Instagram meets homo ludens - For play or existential void? The homo Ludens
-    museum project at AR@K24 – The Artist, The Ghost, and The Machine (Artistic Research
-    symposium)
-  year: '2024'
-  source: Exhibition
-  group_type: Exhibition
-  contributors:
-  - name: Jannicke Johansen
-    role: ExhibitionDesigner
     slug: jannicke-johansen
     url: /people/jannicke-johansen/
 source_mentions: []

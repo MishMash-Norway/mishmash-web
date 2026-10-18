@@ -51,6 +51,19 @@ search_keywords:
 - Game Design
 - Compositing
 selected_works:
+- title: Digitale tvillinger - Fortidens materialitet i fremtidens form
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Rafal Hanzl
+    role: Creator
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
+  - name: Jannicke Johansen
+    role: Creator
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: 'AI as Fifth Team Member: Differentiated Roles in Design Education'
   year: '2026'
   source: Journal article
@@ -184,28 +197,6 @@ selected_works:
     url: /people/rafal-hanzl/
   - name: Maureen Thomas
     role: Consultant
-- title: Songs from Akersborg Christmas 1363
-  year: '2022'
-  source: Performing arts
-  group_type: Performing arts
-  url: https://filmskolen.no/en/research/artistic-research/queens-game
-  contributors:
-  - name: Maureen Thomas
-    role: ArtisticDirector
-  - name: Rafal Hanzl
-    role: Scenographer
-    slug: rafal-hanzl
-    url: /people/rafal-hanzl/
-  - name: Kariina Gretere
-    role: Actor
-  - name: Idunn Snædis Agustsdottir
-    role: SoundDesigner
-  - name: Wenche Hellekås
-    role: CostumeDesigner
-  - name: Sindre Lie
-    role: RoleOther
-  - name: Johannes Skjeltorp-Borgaas
-    role: RoleOther
 source_mentions: []
 summary: Researcher and digital artist specialising in immersive technologies, projection
   mapping, and cultural heritage digitisation. Honorary Professor at Kristiania University
