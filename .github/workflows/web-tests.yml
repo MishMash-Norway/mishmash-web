@@ -44,6 +44,9 @@ jobs:
       - name: Check every picture of a person on an event page names them
         run: python3 scripts/check_event_alt.py
 
+      - name: Check every event time carries Oslo's UTC offset for its date
+        run: python3 scripts/check_event_offsets.py
+
       - name: Run script unit tests
         run: |
           for t in scripts/test_*.py; do
@@ -78,6 +81,9 @@ jobs:
 
       - name: Build site
         run: bundle exec jekyll build --trace
+
+      - name: Check every event page describes itself as a schema.org Event
+        run: python3 scripts/check_event_jsonld.py
 
   link_check:
     name: Check links in generated HTML

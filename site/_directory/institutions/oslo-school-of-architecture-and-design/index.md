@@ -15,6 +15,7 @@ people:
 - kjetil-nordby
 - lise-amy-hansen
 - ricardo-simian
+- roos-van-berkel
 projects:
 - making-movement-matter
 - tao-transductive-acoustic-organism
@@ -29,6 +30,7 @@ urls:
   brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/971526378
 aliases:
 - Arkitektur- og designhøgskolen i Oslo
+- Oslo School for Architecture and Design
 tags: []
 search_keywords: []
 source_mentions:

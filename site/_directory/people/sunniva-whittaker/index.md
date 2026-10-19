@@ -27,6 +27,46 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Mellom tradisjon og fornyelse
+  year: '2026'
+  source: Book anthology
+  group_type: Book anthology
+  url: https://doi.org/10.55669/oa8103
+  contributors:
+  - name: Gert Biesta
+    role: Creator
+  - name: Anders Johan W. Andersen
+    role: Editor
+  - name: Tore Dag Bøe
+    role: Creator
+  - name: Randi Eikeland
+    role: Creator
+  - name: Eivind Engebretsen
+    role: Creator
+  - name: Marit Haldar
+    role: Creator
+  - name: Siri Håvås Haugland
+    role: Creator
+  - name: Kristin Heggen
+    role: Creator
+  - name: Gina Fraas Henrichsen
+    role: Creator
+  - name: Mads Carsten Hermansen
+    role: Creator
+  - name: Elisabet Rudjord Hillesund
+    role: Creator
+  - name: Bjørn Tore Johansen
+    role: Creator
+  - name: Gudrun E. Rohde
+    role: Creator
+  - name: Sunniva Whittaker
+    role: Creator
+    slug: sunniva-whittaker
+    url: /people/sunniva-whittaker/
+  - name: Nina Cecilie Øverby
+    role: Creator
+  - name: Anders Johan W. Andersen
+    role: Creator
 - title: 'Transnational identities in the European labour market: a multilingual perspective'
   year: '2026'
   source: Journal article
@@ -138,18 +178,6 @@ selected_works:
     role: Creator
     slug: sunniva-whittaker
     url: /people/sunniva-whittaker/
-- title: 'Les normes discursives dans le langage juridique: défis terminologiques
-    et traductologiques'
-  year: '2013'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Sunniva Whittaker
-    role: Creator
-    slug: sunniva-whittaker
-    url: /people/sunniva-whittaker/
-  - name: Jan Roald
-    role: Creator
 source_mentions:
 - about/organisation/board/index.md
 summary: ''

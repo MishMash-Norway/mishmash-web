@@ -151,7 +151,7 @@ The centre started in December 2025 and will run for many years. During 2026, ne
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-The plan is to formally start the centre in December 2025, recruit doctoral and postdoctoral fellows during the spring of 2026 and get up to full speed from the autumn of 2026.
+Funding was announced on 11 June 2025, and the centre formally started on 1 December 2025. Doctoral and postdoctoral fellows are recruited during 2026, and the centre is up to full speed from the autumn of 2026. The dates and their sources are listed under [key facts](/about/facts/).
 
 ![MishMash Gantt chart](https://www.arj.no/images/2025/06/MishMash-gantt.png)
 </div>

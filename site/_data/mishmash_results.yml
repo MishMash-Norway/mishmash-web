@@ -1,4 +1,4 @@
-synced_at: '2026-10-12T13:01:31Z'
+synced_at: '2026-10-19T10:43:34Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -7312,8 +7312,6 @@ results:
     url: /people/synne-tollerud-bull/
   - name: Nina Grünfeld
     role: Creator
-    slug: nina-fredrikke-grunfeld
-    url: /people/nina-fredrikke-grunfeld/
   - name: Daniel Nordgård
     role: Creator
     slug: daniel-nordgard
@@ -7345,8 +7343,6 @@ results:
       url: /people/synne-tollerud-bull/
     - display: Grünfeld, Nina
       name: Nina Grünfeld
-      slug: nina-fredrikke-grunfeld
-      url: /people/nina-fredrikke-grunfeld/
     - display: Nordgård, Daniel
       name: Daniel Nordgård
       slug: daniel-nordgard

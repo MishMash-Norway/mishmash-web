@@ -6,6 +6,7 @@ translation_url: /about/
 ---
 
 - [Beskrivelse](/no/about/description/): Hvorfor, hvordan, hva, når?
+- [Nøkkelfakta](/no/about/facts/): Datoer, finansiering, vertskap og ledelse, med kilder
 - [Organisasjon](/no/about/organisation/): Styring, ledelse og rådgivende organer
 - [Åpen forskning](/no/about/open-research/): Hvordan senteret publiserer, deler data og slipper kode
 - [Forskerutdanning](/no/about/training/): Stipendiater, mikrokurs og livslang læring

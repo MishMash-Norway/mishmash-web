@@ -380,7 +380,15 @@ Accessibility measurements
 --------------------------
 
 `check_event_alt.py` requires `image_alt` on every event whose picture shows a
-person, and checks the name against the directory and the page text.
+person, and checks the name against the directory and the page text; a
+collage names each person, as in `A (left) and B (right)`, and each must pass.
+`check_event_offsets.py` requires each event's `date` and `end_date` to carry
+Oslo's UTC offset for that day, +01:00 outside summer time; Jekyll shows a
+November time written with +02:00 an hour early. `import_meshups_from_xlsx.py`
+writes the offset for each date.
+`check_event_jsonld.py` reads the built `_site/events` and requires each event
+page to describe itself as a schema.org Event with a name, start date and
+location, in place of the BlogPosting jekyll-seo-tag writes for a dated page.
 `check_contrast.mjs` (Node, Playwright) opens the states a page scan cannot
 reach, the focused skip link, an open menu, a search result, and measures the
 colours painted (`--level AA` or `AAA`, `--base <url>`). `measure_aaa.mjs`
@@ -388,6 +396,27 @@ reports contrast at 7:1, targets under 44 pixels and lines over 80 characters
 (`--prefix /ui/<theme>`, `--fail`); CI runs it as a report for the main site and
 with `--fail` for a theme whose `_config.yml` declares `wcag_target: AAA`. All
 of these run against a served `_site` at `http://127.0.0.1:4000`.
+
+The centre's own facts
+----------------------
+
+`site/_data/centre.yml` holds the canonical facts about MishMash, each with its
+source: the dates, the funder and project number, the host and the
+identifiers. Who holds a role is read from the directory, not repeated there.
+`fetch_centre_funding.py` fetches the amount granted, the programme and the
+years from the Research Council's project database into
+`site/_data/centre_funding.yml`; the nightly workflow runs it. The facts page
+(`/about/facts/`, `/no/about/facts/`), the ResearchProject in the front pages'
+structured data and `data/centre.json` from `build_open_data.py` are built from
+these two files.
+
+`wikidata_centre_statements.py` writes the QuickStatements batch that creates
+the centre's Wikidata item from the same files: labels in English, Bokmål and
+Nynorsk, research centre in Oslo, Norway, parent the University of Oslo, funder
+the Research Council with the funding period, inception, the director when the
+directory has his Wikidata item, and the NVA and Research Council pages. Each
+statement cites its source. A person pastes it into QuickStatements; when the
+item exists, its address goes in `identifiers.wikidata` in `centre.yml`.
 
 Partner pictures
 ----------------

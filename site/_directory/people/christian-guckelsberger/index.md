@@ -4,8 +4,8 @@ slug: christian-guckelsberger
 name: Christian Guckelsberger
 title: Christian Guckelsberger
 position: Visiting Research Fellow
-image: /assets/images/portraits/Christian_Guckelsberger_Aalto.jpg
 department: Department for Computer Science
+image: /assets/images/portraits/Christian_Guckelsberger_Aalto.jpg
 institution: aalto-university
 institutions:
 - aalto-university

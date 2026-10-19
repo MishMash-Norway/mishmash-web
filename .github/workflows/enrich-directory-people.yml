@@ -55,6 +55,10 @@ jobs:
         continue-on-error: true
         run: python3 scripts/sync_wikidata.py
 
+      - name: Fetch the centre's grant from the Research Council's project database
+        continue-on-error: true
+        run: python3 scripts/fetch_centre_funding.py
+
       - name: Sync reciprocal directory links
         run: python3 scripts/sync_directory_reciprocity.py
 

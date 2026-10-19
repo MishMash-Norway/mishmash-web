@@ -40,6 +40,20 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Etterpåklok på forhånd: beredskapsplanlegging i teori og praksis'
+  year: '2026'
+  source: Textbook
+  group_type: Textbook
+  url: https://fagbokforlaget.no/produkt/9788245048087-etterpaklok-pa-forhand
+  contributors:
+  - name: Kjell Brataas
+    role: Creator
+  - name: Kristian Fuglseth
+    role: Creator
+  - name: Bjørn Tallak Bakken
+    role: Creator
+    slug: bjorn-tallak-bakken
+    url: /people/bjorn-tallak-bakken/
 - title: Navigating Obstacles to Cross-Border Crisis Preparedness– Preliminary Findings
     from an Interview Study
   year: '2026'
@@ -195,17 +209,6 @@ selected_works:
   - name: Dusuya Vera
     role: Creator
   - name: David W. Williams
-    role: Creator
-- title: LEDERSKAP I LANGVARIGE KRISER
-  year: '2023'
-  source: Professional article
-  group_type: Professional article
-  contributors:
-  - name: Bjørn Tallak Bakken
-    role: Creator
-    slug: bjorn-tallak-bakken
-    url: /people/bjorn-tallak-bakken/
-  - name: Gerry Larsson
     role: Creator
 source_mentions: []
 summary: ''

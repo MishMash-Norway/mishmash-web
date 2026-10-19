@@ -62,8 +62,16 @@ def directory_names() -> set[str]:
 def written_names(front: dict, body: str) -> set[str]:
     text = (front.get("description") or "") + " " + body
     found = set(re.findall(r"\[([A-ZÅÆØ][^\]]{2,50})\]\(", body))
-    found |= set(re.findall(r"\b([A-ZÅÆØ][\wåæøéèü'.-]+(?: [A-ZÅÆØ][\wåæøéèü'.-]+){1,3})\b", text))
+    word = r"[A-ZÅÆØ][\wåæøéèü'.-]+"
+    particle = r"(?:van|von|de|der|den|da|di|du|la|le) "   # Roos van Berkel, Ludwig van Beethoven
+    found |= set(re.findall(rf"\b({word}(?: (?:{particle})?{word}){{1,3}})\b", text))
     return {key(n) for n in found}
+
+
+def people_in(alt: str) -> list[str]:
+    """The names in an alt text for a collage, "A (left) and B (right)" or "A, B and C"."""
+    alt = re.sub(r"\s*\([^)]*\)", "", alt)
+    return [part for part in re.split(r",\s*|\s+and\s+", alt) if part.strip()]
 
 
 def problems(events: list[tuple[str, dict, str]], names: set[str]) -> list[str]:
@@ -82,7 +90,8 @@ def problems(events: list[tuple[str, dict, str]], names: set[str]) -> list[str]:
         if key(alt) == key(front.get("title") or "\0"):
             found.append(f"{name}: image_alt repeats the title, {alt!r}")
             continue
-        if key(alt) not in names and key(alt) not in written_names(front, body):
+        known = names | written_names(front, body)
+        if key(alt) not in known and not all(key(p) in known for p in people_in(alt)):
             found.append(f"{name}: {alt!r} is neither in the directory nor written on the page")
     return found
 

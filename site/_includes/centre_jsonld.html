@@ -1,0 +1,56 @@
+{% comment %}
+  The centre as a schema.org ResearchProject, from site/_data/centre.yml, the
+  fetched funding and the directory roles. Written on the front pages.
+{% endcomment %}
+{%- assign c = site.data.centre -%}
+{%- assign f = site.data.centre_funding -%}
+{%- assign host = site.directory | where: "slug", c.host.slug | first -%}
+{%- assign people = site.directory | where: "type", "person" -%}
+{%- assign started = c.dates | where: "key", "started" | first -%}
+{%- assign ends = c.dates | where: "key", "ends" | first -%}
+{%- assign same_as = "" | split: "" | push: c.identifiers.nva_project | push: c.identifiers.rcn_project -%}
+{%- if c.identifiers.wikidata != "" %}{% assign same_as = same_as | push: c.identifiers.wikidata %}{% endif -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchProject",
+  "@id": {{ c.url | append: "#centre" | jsonify }},
+  "name": {{ c.name.en | jsonify }},
+  "alternateName": [{{ c.name.nb | jsonify }}, {{ c.short_name | jsonify }}],
+  "url": {{ c.url | jsonify }},
+  "description": {{ c.description.en | jsonify }},
+  "logo": {{ "/assets/images/logo/icon-512.png" | absolute_url | jsonify }},
+  "foundingDate": {{ started.date | date: "%Y-%m-%d" | jsonify }},
+  "dissolutionDate": {{ ends.date | date: "%Y-%m-%d" | jsonify }},
+  "sameAs": {{ same_as | jsonify }},
+  "funder": {
+    "@type": "Organization",
+    "name": {{ c.funder.name.en | jsonify }},
+    "sameAs": {{ c.funder.wikidata | jsonify }}
+  },
+  "funding": {
+    "@type": "Grant",
+    "identifier": {{ c.funder.project_number | jsonify }},
+    "url": {{ c.funder.url | jsonify }}{% if f.amount_nok %},
+    "amount": {"@type": "MonetaryAmount", "currency": "NOK", "value": {{ f.amount_nok }}}{% endif %}
+  },
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": {{ c.host.name.en | jsonify }}{% if host %},
+    "url": {{ host.url | absolute_url | jsonify }}{% if host.urls.wikidata %},
+    "sameAs": {{ host.urls.wikidata | jsonify }}{% endif %}{% endif %}
+  },
+  "member": [
+    {%- assign first = true -%}
+    {%- for r in c.roles -%}
+      {%- for p in people -%}
+        {%- if p.roles contains r.role -%}
+          {%- unless first %},{% endunless %}
+    {"@type": "OrganizationRole", "roleName": {{ r.label.en | jsonify }}{% if r.since %}, "startDate": {{ r.since | date: "%Y-%m-%d" | jsonify }}{% endif %}, "member": {"@type": "Person", "name": {{ p.name | jsonify }}, "url": {{ p.url | absolute_url | jsonify }}}}
+          {%- assign first = false -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor %}
+  ]
+}
+</script>

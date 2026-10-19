@@ -29,6 +29,12 @@ tags:
 search_keywords:
 - AI for Video Processing
 selected_works:
+- title: 'Map2VidSeg Revisited: A controlled-upgrade study of classifier-derived prompts
+    for medical video segmentation'
+  year: '2027'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1016/j.artmed.2026.103558
 - title: Probabilistic Runtime Verification, Evaluation, and Risk Assessment of Visual
     Deep Learning Systems
   year: '2026'
@@ -80,11 +86,6 @@ selected_works:
   source: Conference paper
   group_type: Conference
   url: https://doi.org/10.1145/3712676.3718342
-- title: 'HockeyRink: A Dataset for Precise Ice Hockey Rink Keypoint Mapping and Analytics'
-  year: '2025'
-  source: Conference paper
-  group_type: Conference
-  url: https://doi.org/10.1145/3712676.3718338
 source_mentions: []
 summary: null
 published: true

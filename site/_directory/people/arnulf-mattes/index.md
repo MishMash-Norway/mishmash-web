@@ -38,6 +38,19 @@ tags:
 search_keywords:
 - Musicology
 selected_works:
+- title: '‘Forgotten Voices’ in Norwegian Musical Heritage: A case study of composer
+    and pianist Anne Marie Ørbeck’s archive'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5617/dhnbpub.13102
+  contributors:
+  - name: Daniel Henry Øvrebø
+    role: Creator
+  - name: Arnulf Christian Mattes
+    role: Creator
+    slug: arnulf-mattes
+    url: /people/arnulf-mattes/
 - title: 'Tracing ‘Neoclassicism’ in Norway: A Tentative Conceptual Survey'
   year: '2025'
   source: Journal article
@@ -133,17 +146,6 @@ selected_works:
   year: '2021'
   source: Book chapter
   group_type: Book chapter
-  contributors:
-  - name: Arnulf Christian Mattes
-    role: Creator
-    slug: arnulf-mattes
-    url: /people/arnulf-mattes/
-- title: 'The Eclipse Effects of Stardom: Edvard Grieg as a Challenge to National
-    Musicology'
-  year: '2020'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1086/707695
   contributors:
   - name: Arnulf Christian Mattes
     role: Creator
