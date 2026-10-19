@@ -173,6 +173,32 @@ selected_works:
     url: /people/rafal-hanzl/
   - name: Maureen Thomas
     role: Writer
+- title: QueensGame
+  year: '2022'
+  source: Film or video
+  group_type: Film or video
+  url: https://runecast.net/queens-game/
+  contributors:
+  - name: Maureen Thomas
+    role: Screenwriter
+  - name: Kariina Gretere Composer SInger
+    role: RoleOther
+  - name: Wenche Hellekås Concept Art 3D Character Animation
+    role: RoleOther
+  - name: Sindre Lie 3D Art Environment Design
+    role: RoleOther
+  - name: Idunn Agústsdóttir Sound Design
+    role: SoundDesigner
+  - name: Rafal Hanzl
+    role: RoleOther
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
+  - name: Johannes Skjeltorp-Borgaas Programmer
+    role: RoleOther
+  - name: Maureen Thomas
+    role: Director
+  - name: Maureen Thomas
+    role: Producer
 - title: Medieval Akershus Castle - Interactive Museum Exhibit
   year: '2022'
   source: Exhibition
@@ -185,18 +211,6 @@ selected_works:
     url: /people/rafal-hanzl/
   - name: Maureen Thomas
     role: Writer
-- title: Medieval Akershus Castle Model Installation
-  year: '2022'
-  source: Visual arts
-  group_type: Visual arts
-  url: https://extendedmedia.no/project/akershus-fortress-castle/
-  contributors:
-  - name: Rafal Hanzl
-    role: Artist
-    slug: rafal-hanzl
-    url: /people/rafal-hanzl/
-  - name: Maureen Thomas
-    role: Consultant
 source_mentions: []
 summary: Researcher and digital artist specialising in immersive technologies, projection
   mapping, and cultural heritage digitisation. Honorary Professor at Kristiania University

@@ -33,14 +33,14 @@ selected_works:
   group_type: Journal article
   url: https://doi.org/10.5617/dhnbpub.13100
   contributors:
-  - name: Årstein Justnes
-    role: Creator
-    slug: arstein-justnes
-    url: /people/arstein-justnes/
   - name: Hilda Deborah
     role: Creator
     slug: hilda-deborah
     url: /people/hilda-deborah/
+  - name: Årstein Justnes
+    role: Creator
+    slug: arstein-justnes
+    url: /people/arstein-justnes/
 - title: Smuglergodset som ble buddhismens dødehavsruller
   year: '2026'
   source: Monograph
