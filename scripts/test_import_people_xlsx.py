@@ -210,6 +210,16 @@ class ParticipationSheetTests(unittest.TestCase):
         self.assertEqual(data["urls"]["personal_website"], "https://ada.example.org/")
         self.assertEqual(data["urls"]["institutional_website"], "https://www.uio.no/ada")
 
+    def test_participation_form_does_not_replace_a_stored_link(self):
+        existing = self.people / "ada-lovelace" / "index.md"
+        existing.parent.mkdir()
+        save_entry(existing, {"type": "person", "slug": "ada-lovelace", "name": "Ada Lovelace",
+                              "urls": {"personal_website": "https://from-nva.example.org/",
+                                       "github": ""}}, "Bio.\n")
+        self._run([participation_row("Ada Lovelace", personal="old-form.example.org")])
+        data, _ = load_entry(existing)
+        self.assertEqual(data["urls"]["personal_website"], "https://from-nva.example.org/")
+
     def test_dry_run_writes_nothing(self):
         created, _, _ = self._run([participation_row("Ada Lovelace")], dry_run=True)
         self.assertEqual(created, 1)

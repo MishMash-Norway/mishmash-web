@@ -17,8 +17,13 @@ Merge rules, so that re-running an import (the forms are cumulative exports)
 never destroys curated data:
 
 - ``name``/``title`` are set only on new entries.
-- URL fields are filled or replaced, except ``orcid``/``nva`` on an existing
-  entry, which are never replaced by a different value.
+- URL fields on an existing entry are only filled when empty, from the
+  participation form, whose cumulative export carries what a person wrote
+  when they joined; the nightly NVA and ORCID sync keeps them current after
+  that, and replacing them here would undo it on every import. The directory
+  update form (``replace_urls``), which people use to change their links,
+  fills or replaces them, except ``orcid``/``nva``, which are never replaced
+  by a different value.
 - ``wps`` is the union of the stored and submitted work packages.
 - ``position``, ``department``, ``institution``, ``tags`` are set on new
   entries and only fill *empty* fields on existing ones. Profiles with
@@ -487,6 +492,7 @@ def apply_person_to_entry(
     is_new: bool = True,
     warnings: list | None = None,
     institution_lookup: dict[str, str] | None = None,
+    replace_urls: bool = False,
 ) -> dict:
     updated = deepcopy(data)
     updated["slug"] = person["slug"]
@@ -512,6 +518,8 @@ def apply_person_to_entry(
                     f"{person['slug']}: kept {field_name} {existing} (form submitted {normalized})"
                 )
             continue
+        if not is_new and not replace_urls and existing:
+            continue
         if field_name in WEBSITE_PAIR:
             # The same address submitted as both personal and institutional
             # site: keep whatever the entry already has in the other slot
@@ -520,10 +528,13 @@ def apply_person_to_entry(
             if other and canonical_website_url(other) == canonical_website_url(normalized):
                 continue
         urls[field_name] = normalized
-    for field_name, value in list(urls.items()):
-        normalized = normalize_field_value(field_name, value)
-        if normalized:
-            urls[field_name] = normalized
+    # Stored links are tidied only where the form may set them: on a new entry
+    # or from the update form. Rewriting them otherwise fights the nightly sync.
+    if is_new or replace_urls:
+        for field_name, value in list(urls.items()):
+            normalized = normalize_field_value(field_name, value)
+            if normalized:
+                urls[field_name] = normalized
     dedupe_website_pair(urls)
 
     profile = person.get("profile") or {}
@@ -616,6 +627,7 @@ def import_people(
     out_base: Path,
     institutions_root: Path | None = None,
     dry_run: bool = False,
+    replace_urls: bool = False,
 ):
     """Create or update people entries. Returns (created, updated, warnings).
 
@@ -652,7 +664,8 @@ def import_people(
         if out_file.exists():
             data, body = load_entry(out_file)
             updated_data = apply_person_to_entry(
-                data, person, is_new=False, warnings=warnings, institution_lookup=institution_lookup
+                data, person, is_new=False, warnings=warnings, institution_lookup=institution_lookup,
+                replace_urls=replace_urls,
             )
             if dry_run:
                 print(f"update: {person['name']} -> {out_file}")

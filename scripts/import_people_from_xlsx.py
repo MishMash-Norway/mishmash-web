@@ -69,7 +69,9 @@ def main(argv=None):
         return 3
 
     out_base = args.out_base or (repo_root / "site" / "_directory" / "people")
-    created, updated, warnings = import_people(people, template, out_base, dry_run=args.dry_run)
+    # The update form is where people change their links; the participation form only fills gaps.
+    created, updated, warnings = import_people(people, template, out_base, dry_run=args.dry_run,
+                                               replace_urls=(sheet_kind == "existing"))
 
     verb = "Would create" if args.dry_run else "Created"
     print(f"{verb}: {created}, updated: {updated}, warnings: {len(warnings)} ({sheet_kind} sheet: {xlsx})")

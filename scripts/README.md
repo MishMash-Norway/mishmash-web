@@ -203,9 +203,12 @@ What it writes:
   position, department, tags (at most 6, from the keyword columns) and, when the
   institution name resolves, `institution`/`institutions`. Run the NVA/ORCID
   enrichment for the new slugs afterwards.
-- Existing people (matched by slug, or by `aliases` on the entry) get URLs
-  filled in, `wps` merged, and empty `position`/`department`/`institution`/
-  `tags` filled. Curated values, `roles`, the body text and fields the
+- Existing people (matched by slug, or by `aliases` on the entry) get empty
+  URLs filled in, `wps` merged, and empty `position`/`department`/`institution`/
+  `tags` filled. The participation form never replaces a stored link, since
+  its cumulative export holds what a person wrote when they joined and the
+  nightly NVA and ORCID sync keeps links current after that; only the
+  directory update form replaces links. Curated values, `roles`, the body text and fields the
   importer does not know about are left alone.
 - Institution names are matched exactly (case- and accent-insensitive)
   against the `name`, `short_name`, `slug` and `aliases` of the institution
