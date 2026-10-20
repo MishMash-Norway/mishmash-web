@@ -14,12 +14,14 @@ people:
 - andreas-bergsland
 - andrew-perkis
 - audun-kvitland-rostad
+- ayodele-arigbabu
 - david-rych
 - govert-valkenburg
 - hilda-deborah
 - jacqueline-rowley
 - jens-knigge
 - katherine-butcher
+- njal-olnes
 - oyvind-brandtsegg
 - xiangming-zhang
 projects:

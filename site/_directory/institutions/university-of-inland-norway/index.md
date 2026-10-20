@@ -25,6 +25,7 @@ people:
 - mathieu-lacroix
 - mette-nyseter
 - mina-brodshaug-sveen
+- njal-olnes
 - ole-christian-solbakken
 - ole-christoffer-haga
 - ole-goethe

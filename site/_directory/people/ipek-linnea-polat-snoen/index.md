@@ -42,6 +42,7 @@ summary: null
 published: true
 permalink: /people/ipek-linnea-polat-snoen/
 wps:
+- WP1
 - WP6
 ---
 

@@ -41,6 +41,7 @@ people:
 - maham-riaz
 - myrthe-tilleman
 - nanette-nielsen
+- nina-marie-evensen
 - ola-lomo-ellingsen
 - ole-andreas-rognstad
 - olivier-lartillot
@@ -85,6 +86,7 @@ urls:
 aliases:
 - Universitetet i Oslo
 - Department of Musicology, University of Oslo
+- Center for Ibsen Studies, UiO
 tags: []
 search_keywords: []
 source_mentions:
