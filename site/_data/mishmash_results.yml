@@ -1,4 +1,4 @@
-synced_at: '2026-10-20T10:14:46Z'
+synced_at: '2026-10-21T10:04:47Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -3783,6 +3783,8 @@ results:
     url: /people/ole-fredrik-norbye/
   - name: Njål Ølnes
     role: Creator
+    slug: njal-olnes
+    url: /people/njal-olnes/
   institutions:
   - name: NLA University College
     slug: nla-university-college
@@ -3798,6 +3800,8 @@ results:
       url: /people/ole-fredrik-norbye/
     - display: Ølnes, Njål
       name: Njål Ølnes
+      slug: njal-olnes
+      url: /people/njal-olnes/
     title: '"Can Art Arise without Search or Exploration?'
     container: Twenty-First International Conference on the Arts in Society.
     details: Athen.
@@ -7455,6 +7459,8 @@ results:
     url: /people/ole-fredrik-norbye/
   - name: Njål Ølnes
     role: RoleOther
+    slug: njal-olnes
+    url: /people/njal-olnes/
   - name: Mathieu Lacroix
     role: RoleOther
     slug: mathieu-lacroix

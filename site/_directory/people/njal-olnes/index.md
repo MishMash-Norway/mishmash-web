@@ -22,7 +22,7 @@ roles:
 - Member
 urls:
   personal_website: https://njal.olnes.no
-  institutional_website: https://www.inn.no/finn-en-ansatt/njal-olnes.html
+  institutional_website: ''
   github: ''
   linkedin: https://www.linkedin.com/in/njål-ølnes-57761333/?isSelfProfile=true
   orcid: https://orcid.org/0000-0001-6735-6173
@@ -33,17 +33,17 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Performing artist
-- Jazz research
-- Ensemble-based methods
-- artistic research
+- Performing Artist
+- Jazz Research
+- Ensemble-Based Methods
+- Artistic Research
 - Improvisation
 - Method
 search_keywords:
-- Performing artist
-- Jazz research
-- Ensemble-based methods
-- artistic research
+- Performing Artist
+- Jazz Research
+- Ensemble-Based Methods
+- Artistic Research
 - Improvisation
 - Method
 selected_works:
@@ -58,6 +58,8 @@ selected_works:
     role: Creator
   - name: Njål Ølnes
     role: Creator
+    slug: njal-olnes
+    url: /people/njal-olnes/
 - title: Performance med dans og saksofon INNKU-festivalen 2025
   year: '2025'
   source: Performing arts
@@ -65,6 +67,8 @@ selected_works:
   contributors:
   - name: Njål Ølnes
     role: RoleOther
+    slug: njal-olnes
+    url: /people/njal-olnes/
   - name: Guro Erika Trøseid Gjerstadberget
     role: Dancer
 - title: Kublai Trio
@@ -78,6 +82,8 @@ selected_works:
     url: /people/ole-fredrik-norbye/
   - name: Njål Ølnes
     role: Musician
+    slug: njal-olnes
+    url: /people/njal-olnes/
   - name: Per Oddvar Johansen
     role: Musician
 - title: 'Musikalske utgravingar: Om kunstnarleg metode i ensembleundervisninga med
@@ -89,6 +95,8 @@ selected_works:
   contributors:
   - name: Njål Ølnes
     role: Creator
+    slug: njal-olnes
+    url: /people/njal-olnes/
 - title: Bird Food
   year: '2025'
   source: Music performance
@@ -97,6 +105,8 @@ selected_works:
   contributors:
   - name: Njål Ølnes
     role: Composer
+    slug: njal-olnes
+    url: /people/njal-olnes/
   - name: Ole Fredrik Norbye
     role: Composer
     slug: ole-fredrik-norbye
@@ -111,6 +121,8 @@ selected_works:
     role: AcademicCoordinator
   - name: Njål Ølnes
     role: AcademicCoordinator
+    slug: njal-olnes
+    url: /people/njal-olnes/
 - title: Performance med Trua Art
   year: '2024'
   source: Music performance
@@ -118,6 +130,8 @@ selected_works:
   contributors:
   - name: Njål Ølnes
     role: Artist
+    slug: njal-olnes
+    url: /people/njal-olnes/
   - name: Marius Kolbenstvedt
     role: Artist
   - name: Martin Steinum
@@ -132,6 +146,8 @@ selected_works:
     role: AcademicCoordinator
   - name: Njål Ølnes
     role: AcademicCoordinator
+    slug: njal-olnes
+    url: /people/njal-olnes/
 - title: Heartlands
   year: '2023'
   source: Music performance
@@ -139,6 +155,8 @@ selected_works:
   contributors:
   - name: Njål Ølnes
     role: Composer
+    slug: njal-olnes
+    url: /people/njal-olnes/
 - title: Truet Art
   year: '2022'
   source: Music performance
@@ -146,6 +164,8 @@ selected_works:
   contributors:
   - name: Njål Ølnes
     role: Artist
+    slug: njal-olnes
+    url: /people/njal-olnes/
   - name: Frode Haltli
     role: Artist
   - name: Trygve Seim

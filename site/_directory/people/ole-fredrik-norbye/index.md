@@ -66,6 +66,8 @@ selected_works:
     url: /people/ole-fredrik-norbye/
   - name: Njål Ølnes
     role: Musician
+    slug: njal-olnes
+    url: /people/njal-olnes/
   - name: Per Oddvar Johansen
     role: Musician
 - title: 'Utøvende under 8.mai-markering: Rådhuset, Oslo (Norbye/Borøy duo)'
@@ -87,6 +89,8 @@ selected_works:
   contributors:
   - name: Njål Ølnes
     role: Composer
+    slug: njal-olnes
+    url: /people/njal-olnes/
   - name: Ole Fredrik Norbye
     role: Composer
     slug: ole-fredrik-norbye

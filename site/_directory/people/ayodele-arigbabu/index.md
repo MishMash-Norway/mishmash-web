@@ -24,19 +24,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- generative AI
-- artistic research
-- creative technology
-- generative design
-- procedural and rule-based generation
-- shape grammars
+- Generative AI
+- Artistic Research
+- Creative Technology
+- Generative Design
+- Procedural and Rule-Based Generation
+- Shape Grammars
 search_keywords:
-- generative AI
-- artistic research
-- creative technology
-- generative design
-- procedural and rule-based generation
-- shape grammars
+- Generative AI
+- Artistic Research
+- Creative Technology
+- Generative Design
+- Procedural and Rule-Based Generation
+- Shape Grammars
 selected_works:
 - title: 'Protopian African Futures: Demas Nwoko’s Tropical Architecture, Natural
     Synthesis—and Solarpunk'

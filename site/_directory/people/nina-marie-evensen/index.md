@@ -21,22 +21,22 @@ urls:
   youtube: ''
   mastodon: ''
   instagram: ''
-  wikidata: ''
+  wikidata: https://www.wikidata.org/wiki/Q133961140
 aliases: []
 tags:
-- Scholarly editor
-- data manager
-- xml
-- cultural datasets
-- cultural heritage
-- research infrastructure
+- Scholarly Editor
+- Data Manager
+- Xml
+- Cultural Datasets
+- Cultural Heritage
+- Research Infrastructure
 search_keywords:
-- Scholarly editor
-- data manager
-- xml
-- cultural datasets
-- cultural heritage
-- research infrastructure
+- Scholarly Editor
+- Data Manager
+- Xml
+- Cultural Datasets
+- Cultural Heritage
+- Research Infrastructure
 selected_works:
 - title: Inheriting Digital Projects
   year: '2020'
