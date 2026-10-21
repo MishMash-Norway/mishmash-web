@@ -55,6 +55,10 @@ Sekretariat:
 *   **Nettsider**
 *   **Sosiale medier**
 
-### 5. Strategi for samarbeid mellom UH, offentlig og privat sektor
+### 5. Søknadsutvikling
 
-### 6. Eventuelt
+### 6. Datalagring og regnekraft
+
+### 7. Strategi for samarbeid mellom UH, offentlig og privat sektor
+
+### 8. Eventuelt
