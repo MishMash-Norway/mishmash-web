@@ -16,7 +16,7 @@ urls:
   institutional_website: https://www.labasad.com/en/master/online-master-in-generative-artificial-intelligence-for-creatives/
   github: ''
   linkedin: https://www.linkedin.com/in/boriseldagsen/
-  orcid: ''
+  orcid: https://orcid.org/0009-0008-5395-9369
   nva: ''
   youtube: https://www.youtube.com/@boriseldagsen
   mastodon: ''
