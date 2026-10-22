@@ -27,7 +27,7 @@ The Council is responsible for:
 - [Jostein Gundersen](https://www4.uib.no/en/find-employees/jostein.gundersen) (University of Bergen)
 - [Leif Holst Jensen](https://www.inn.no/finn-en-ansatt/leif-holst-jensen.html) (University of Inland Norway)
 - [Lina Plataniti](https://norsus.no/en/ansatt/lina-plataniti/) (NORSUS, the Norwegian Institute for Sustainability Research)
-- [Lise Amy Hansen](https://www.aho.no/english/about/employees/lisehans/) (Oslo National Academy of the Arts)
+- [Lise Amy Hansen](https://www.aho.no/english/about/employees/lisehans/) (Oslo School of Architecture and Design)
 - [Marit Wergeland](https://www.uia.no/english/about-uia/employees/maritwe/) (University of Agder)
 - [Morten Qvenild](https://nmh.no/en/contact-us/employees/morten-qvenild) (Norwegian Academy of Music)
 - [Sigurd Sandvold](https://www.hvl.no/person/?user=Sigurd.Sandvold) (Western Norway University of Applied Sciences)
