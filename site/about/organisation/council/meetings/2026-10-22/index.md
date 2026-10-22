@@ -79,5 +79,5 @@ Senteret har så langt prioritert å få til samarbeid mellom UH-institusjonene.
 
 ### 8. Eventuelt
 
-*   **Høring om generativ KI i forskning:** MishMash er høringsinstans og vil sende et eget innspill. Arbeidet ledes av arbeidspakke 5, og et utkast sirkuleres i arbeidspakkeledergruppen i begynnelsen av november og sendes også til rådet. Institusjonene står fritt til å bruke poengene i egne innspill.
+*   **[Høring om generativ KI i forskning](https://www.forskningsetikk.no/om-oss/komiteer-og-utvalg/nesh/hum-sam/horing-ansvarlig-bruk-av-generativ-ki/):** MishMash er høringsinstans og vil sende et eget innspill. Arbeidet ledes av arbeidspakke 5, og et utkast sirkuleres i arbeidspakkeledergruppen i begynnelsen av november og sendes også til rådet. Institusjonene står fritt til å bruke poengene i egne innspill.
 *   **Møtefrekvens:** Rådet sluttet seg til å møtes én gang per semester. Neste møte blir våren 2027.
