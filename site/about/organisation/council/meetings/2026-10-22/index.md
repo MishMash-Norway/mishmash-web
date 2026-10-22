@@ -22,7 +22,7 @@ Medlemmer:
 - [Jostein Gundersen](https://www4.uib.no/en/find-employees/jostein.gundersen) (UiB)
 - ~~[Leif Holst Jensen](https://www.inn.no/finn-en-ansatt/leif-holst-jensen.html)~~, [Nina Fredrikke Grünfeld](https://www.inn.no/finn-en-ansatt/nina-grunfeld.html) (INN)
 - ~~[Lina Plataniti](https://norsus.no/en/ansatt/lina-plataniti/) (NORSUS)~~
-- ~~[Lise Amy Hansen](https://www.aho.no/english/about/employees/lisehans/)~~Einar Sneve Martinussen (AHO)
+- ~~[Lise Amy Hansen](https://www.aho.no/english/about/employees/lisehans/)~~, Einar Sneve Martinussen (AHO)
 - [Marit Wergeland](https://www.uia.no/english/about-uia/employees/maritwe/) (UiA)
 - ~~[Morten Qvenild](https://nmh.no/en/contact-us/employees/morten-qvenild) (NMH)~~
 - [Sigurd Sandvold](https://www.hvl.no/person/?user=Sigurd.Sandvold) (HVL)
@@ -72,7 +72,7 @@ Administrativ koordinator orienterte. Det er nå tilsatt 26 personer, hvorav en 
 MishMash har en forskningsrådgiver i 20% stilling ved UiB, som gir informasjon og holder kurs for hele senteret. MishMash er ikke en egen juridisk enhet og kan ikke stå som partner; det må institusjonene gjøre. Det arbeides med mekanismer for hvordan flere MishMash-partnere kan gå sammen, for eksempel i EU-søknader. Institusjonene oppfordres til å bruke MishMash som en plattform som styrker egne søknader.
 
 ### 6. Datalagring og regnekraft
-Spørsmålet ble tatt opp på en egen sesjon i Kristiansand, fulgt av en spørreundersøkelse som fikk 69 svar (14. september–2. oktober), de fleste fra forskere og stipendiater. Undersøkelsen viser stor spredning i både behov og tilgang: de store institusjonene har stort sett det de trenger, mens flere små har lite eller ingenting. Det jobbes med både kortsiktige løsninger for enkeltforskere og en mer systemisk endring av tilgjengelighet i Norge. Søknader om såkornsmidler til regnekraft og lisenser vil antagelig bli avslått fremover. Senterledelsen opplever at det er mer formålstjenlig å jobbe mot felles, nasjonale løsninger. Regnekraften finnes, det er tilgang og kompetanse som mangler.
+Spørsmålet ble tatt opp på en egen sesjon i Kristiansand, etterfulgt av en spørreundersøkelse som fikk 69 svar. Undersøkelsen viser stor spredning i både behov og tilgang: de store institusjonene har stort sett det de trenger, mens flere små har lite eller ingenting. Det jobbes med både kortsiktige løsninger for enkeltforskere og en mer systemisk endring av tilgjengelighet i Norge. Søknader om såkornsmidler til regnekraft og lisenser vil antagelig bli avslått fremover. Senterledelsen opplever at det er mer formålstjenlig å jobbe mot felles, nasjonale løsninger. Regnekraften finnes, det er tilgang og kompetanse som mangler.
 
 ### 7. Strategi for samarbeid mellom UH, offentlig og privat sektor
 Senteret har så langt prioritert å få til samarbeid mellom UH-institusjonene. I tiden fremover vil det arbeides mer systematisk med partnere fra offentlig og privat sektor. Et råd med relevante aktører (Stakeholder Board) settes i gang til våren. Mange fra næringslivet deltok på åpningskonferansen i Kristiansand, og interessen fra offentlig sektor er stor. Det er viktig å kommunisere at MishMash er et forskningssenter som utforsker og utvikler, men vil ikke kunne levere ferdige KI-tjenester til partnerne. Samarbeidet må bygges mellom enkeltpersoner og -aktører, og senteret vil legge til rette med møteplasser og konferanser. Rådsmedlemmene bes hjelpe til med å knytte kontakter.
