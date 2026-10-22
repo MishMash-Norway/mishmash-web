@@ -8,8 +8,8 @@ description: "A glossary of AI and creativity terms used across the MishMash cen
 
 
 Key terms used across mishmash.no, each explained at three levels. Use the
-switcher above to choose: *Simple* is one plain sentence, *Standard* is the
-everyday explanation, and *Advanced* adds precision and the settled definitions
+switcher above to choose: *Brief* is one plain sentence, *Plain* is the
+everyday explanation, and *Full* adds precision and the settled definitions
 from standards, policy, the research literature and Norwegian sources.
 
 The same texts power the inline
@@ -18,7 +18,7 @@ terms like that one, which you can click to unfold, so this list and the
 in-text explanations always match, at whichever level you read.
 
 <div class="adaptive" data-for="simple standard" markdown="1">
-Switch to *Advanced* to see where each definition comes from. Each term then
+Switch to *Full* to see where each definition comes from. Each term then
 also shows how standards, laws, research and Norwegian sources define it.
 </div>
 

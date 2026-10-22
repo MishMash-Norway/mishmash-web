@@ -20,13 +20,13 @@ This communication strategy complements the [channel strategy](/internal/kanalst
 
 ## Reading levels
 
-Adaptive pages offer the same content at three **complexity levels** (defined in `site/_data/audiences.yml`). The levels describe the *text*, not the reader — a professor reading outside her field may prefer Standard, and a curious teenager may pick Advanced. Reader roles are deliberately kept out of the ladder; who *typically* reads at each level is guidance for writers, nothing more:
+Adaptive pages offer the same content at three **complexity levels** (defined in `site/_data/audiences.yml`). The levels describe the *text*, not the reader — a professor reading outside her field may prefer Plain, and a curious teenager may pick Full. The labels name the text for the same reason. Reader roles are deliberately kept out of the ladder; who *typically* reads at each level is guidance for writers, nothing more:
 
 | Level | Complexity | Typical readers | Tone and style |
 | --- | --- | --- | --- |
-| **Simple** | Short and simple, no jargon | Kids and teenagers, school classes | Short sentences, concrete examples, questions; unavoidable terms explained inline with stretchtext |
-| **Standard** (default) | Plain language (klarspråk) | The general public, curious visitors, policymakers | Everyday examples; why it matters to society; key terms introduced with stretchtext |
-| **Advanced** | Full detail, nothing simplified away | Researchers, students, artists, and field experts | Full precision: methods, challenges, work-package detail, academic references |
+| **Brief** | Short and simple, no jargon | Kids and teenagers, school classes | Short sentences, concrete examples, questions; unavoidable terms explained inline with stretchtext |
+| **Plain** | Plain language (klarspråk) | The general public, curious visitors, policymakers | Everyday examples; why it matters to society; key terms introduced with stretchtext |
+| **Full** (default) | Full detail, nothing simplified away | Researchers, students, artists, and field experts | Full precision: methods, challenges, work-package detail, academic references |
 
 ## Secondary audiences
 

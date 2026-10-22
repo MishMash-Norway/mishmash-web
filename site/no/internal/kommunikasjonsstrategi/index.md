@@ -23,13 +23,13 @@ Denne kommunikasjonsstrategien utfyller [kanalstrategien](/no/internal/kanalstra
 
 ## Lesenivåer
 
-Adaptive sider tilbyr det samme innholdet på tre **kompleksitetsnivåer** (definert i `site/_data/audiences.yml`). Nivåene beskriver *teksten*, ikke leseren — en professor som leser utenfor sitt felt kan foretrekke Standard, og en nysgjerrig tenåring kan velge Avansert. Leserroller holdes bevisst utenfor stigen; hvem som *typisk* leser på hvert nivå er veiledning for skribenter, ikke noe mer:
+Adaptive sider tilbyr det samme innholdet på tre **kompleksitetsnivåer** (definert i `site/_data/audiences.yml`). Nivåene beskriver *teksten*, ikke leseren — en professor som leser utenfor sitt felt kan foretrekke Klarspråk, og en nysgjerrig tenåring kan velge Utfyllende. Derfor navngir betegnelsene teksten. Leserroller holdes bevisst utenfor stigen; hvem som *typisk* leser på hvert nivå er veiledning for skribenter, ikke noe mer:
 
 | Nivå | Kompleksitet | Typiske lesere | Tone og stil |
 | --- | --- | --- | --- |
-| **Enkel** | Kort og enkelt, uten fagspråk | Barn og ungdom, skoleklasser | Korte setninger, konkrete eksempler, spørsmål; uunngåelige begreper forklares med stretchtext |
-| **Standard** (standardvalg) | Klarspråk | Allmennheten, nysgjerrige besøkende, beslutningstakere | Hverdagslige eksempler; hvorfor det angår samfunnet; sentrale begreper introduseres med stretchtext |
-| **Avansert** | Alle detaljer, ingenting forenklet | Forskere, studenter, kunstnere og fageksperter | Full presisjon: metoder, utfordringer, arbeidspakkedetaljer, akademiske referanser |
+| **Kort** | Kort og enkelt, uten fagspråk | Barn og ungdom, skoleklasser | Korte setninger, konkrete eksempler, spørsmål; uunngåelige begreper forklares med stretchtext |
+| **Klarspråk** | Klarspråk | Allmennheten, nysgjerrige besøkende, beslutningstakere | Hverdagslige eksempler; hvorfor det angår samfunnet; sentrale begreper introduseres med stretchtext |
+| **Utfyllende** (standardvalg) | Alle detaljer, ingenting forenklet | Forskere, studenter, kunstnere og fageksperter | Full presisjon: metoder, utfordringer, arbeidspakkedetaljer, akademiske referanser |
 
 ## Sekundære målgrupper
 

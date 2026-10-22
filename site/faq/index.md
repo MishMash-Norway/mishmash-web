@@ -468,9 +468,9 @@ Each page shows metadata at the bottom (last edit, licence, data sources, and a 
 </details>
 
 <details class="faq-item" id="why-reading-levels" markdown="1">
-<summary><span class="faq-summary-text">Why does the about page have reading levels?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+<summary><span class="faq-summary-text">Why does the about page have several text versions?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Some pages on mishmash.no are *adaptive*: the same content is written at three complexity levels, Simple, Standard and Advanced, and you choose which one to read with the "Reading level" switcher at the top of the page. Your choice is remembered as you browse. The idea is that a school class, a curious visitor, and a fellow researcher should all be able to read the *same page* without one being bored or the other lost.
+Some pages on mishmash.no are *adaptive*: the same content is written at three complexity levels, Brief, Plain and Full, and you choose which one to read with the "Text version" switcher at the top of the page. Your choice is remembered as you browse. The idea is that a school class, a curious visitor, and a fellow researcher should all be able to read the *same page* without one being bored or the other lost.
 
 Dotted-underlined words are [stretchtext](https://github.com/MishMash-Norway/mishmash-web/wiki/Adaptive-Content): click them to unfold a short explanation in place. All the explanations are collected in the [glossary](/about/glossary/). Try it on the [centre description](/about/description/).
 

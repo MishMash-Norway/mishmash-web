@@ -2,7 +2,8 @@
 # The levels describe TEXT COMPLEXITY only: who typically reads at which
 # level (kids, general public, academics, experts) is described in the
 # communication strategy, not encoded here, to avoid mixing roles into
-# the ladder.
+# the ladder. The labels name the text, not the reader: "Simple" and
+# "Advanced" read as a ranking of the person choosing them.
 #
 # Pages opt in with `adaptive: true` in front matter and wrap variant
 # content in <div class="adaptive" data-for="<key>" markdown="1"> blocks.
@@ -16,24 +17,24 @@ default: advanced
 groups:
   - key: simple
     label:
-      en: "Simple"
-      nb: "Enkel"
+      en: "Brief"
+      nb: "Kort"
     description:
       en: "Short and simple, no jargon"
       nb: "Kort og enkelt, uten fagspråk"
 
   - key: standard
     label:
-      en: "Standard"
-      nb: "Standard"
+      en: "Plain"
+      nb: "Klarspråk"
     description:
       en: "Plain language for everyone"
       nb: "Klarspråk for alle"
 
   - key: advanced
     label:
-      en: "Advanced"
-      nb: "Avansert"
+      en: "Full"
+      nb: "Utfyllende"
     description:
       en: "Full detail, nothing simplified away"
       nb: "Alle detaljer, ingenting forenklet"

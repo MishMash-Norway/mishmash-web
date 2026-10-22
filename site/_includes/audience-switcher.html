@@ -1,5 +1,5 @@
 {%- assign _lang = page.lang | default: 'en' -%}
-{%- if _lang == 'nb' -%}{%- assign _switcher_label = 'Lesenivå:' -%}{%- else -%}{%- assign _switcher_label = 'Reading level:' -%}{%- endif -%}
+{%- if _lang == 'nb' -%}{%- assign _switcher_label = 'Tekstversjon:' -%}{%- else -%}{%- assign _switcher_label = 'Text version:' -%}{%- endif -%}
 <div class="audience-switcher" role="group" aria-label="{{ _switcher_label }}" data-default="{{ site.data.audiences.default }}" hidden>
   <span class="audience-switcher-label">{{ _switcher_label }}</span>
   {%- for g in site.data.audiences.groups %}

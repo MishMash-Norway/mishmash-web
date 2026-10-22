@@ -9,8 +9,8 @@ description: "En ordliste over KI- og kreativitetsbegreper brukt på mishmash.no
 
 
 Sentrale begreper brukt på mishmash.no, hvert forklart på tre nivåer. Bruk
-velgeren øverst: *Enkel* er én setning i klartekst, *Standard* er
-hverdagsforklaringen, og *Avansert* legger til presisjon og de etablerte
+velgeren øverst: *Kort* er én setning i klartekst, *Klarspråk* er
+hverdagsforklaringen, og *Utfyllende* legger til presisjon og de etablerte
 definisjonene fra standarder, regelverk, forskningslitteraturen og norske kilder.
 
 De samme tekstene driver
@@ -20,7 +20,7 @@ og forklaringene i tekstene alltid stemmer overens, uansett hvilket nivå du
 leser på.
 
 <div class="adaptive" data-for="simple standard" markdown="1">
-Bytt til *Avansert* for å se hvor hver definisjon kommer fra. Hvert begrep
+Bytt til *Utfyllende* for å se hvor hver definisjon kommer fra. Hvert begrep
 viser da også hvordan standarder, lover, forskning og norske kilder definerer det.
 </div>
 
