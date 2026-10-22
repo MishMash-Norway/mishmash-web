@@ -20,14 +20,14 @@ Medlemmer:
 - [Govert Valkenburg](https://www.ntnu.edu/employees/govert.valkenburg) (NTNU)
 - [Ingrid Chieh Yu](https://www.mn.uio.no/ifi/english/people/aca/ingridcy/) (UiO)
 - [Jostein Gundersen](https://www4.uib.no/en/find-employees/jostein.gundersen) (UiB)
-- ~~[Leif Holst Jensen](https://www.inn.no/finn-en-ansatt/leif-holst-jensen.html) (INN)~~, representert ved [Nina Fredrikke Grünfeld](https://www.inn.no/finn-en-ansatt/nina-grunfeld.html) (INN)
+- ~~[Leif Holst Jensen](https://www.inn.no/finn-en-ansatt/leif-holst-jensen.html)~~, [Nina Fredrikke Grünfeld](https://www.inn.no/finn-en-ansatt/nina-grunfeld.html) (INN)
 - ~~[Lina Plataniti](https://norsus.no/en/ansatt/lina-plataniti/) (NORSUS)~~
 - ~~[Lise Amy Hansen](https://www.aho.no/english/about/employees/lisehans/)~~Einar Sneve Martinussen (AHO)
 - [Marit Wergeland](https://www.uia.no/english/about-uia/employees/maritwe/) (UiA)
 - ~~[Morten Qvenild](https://nmh.no/en/contact-us/employees/morten-qvenild) (NMH)~~
 - [Sigurd Sandvold](https://www.hvl.no/person/?user=Sigurd.Sandvold) (HVL)
 - ~~[Stig Mathisen](https://en.uit.no/ansatte/stig-roar.mathisen) (UiT)~~
-- ~~[Sven-Arne Reinemo](https://www.simula.no/people/svenar) (Simula)~~, Jennifer Hazen
+- ~~[Sven-Arne Reinemo](https://www.simula.no/people/svenar)~~, Jennifer Hazen (Simula)
 - [Synne Tollerud Bull](https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/school-of-arts-design-and-media/synne-tollerud-bull/) (Kristiania)
 - [Terje Colbjørnsen](https://www.bi.no/en/about-bi/employees/department-of-communication-and-culture/terje-colbjornsen/) (BI)
 - [Yngvil Beyer](https://www.nb.no/ansatte/yngvil-beyer/) (NB)
