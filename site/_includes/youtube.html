@@ -17,11 +17,11 @@
     <span class="mm-video-label">
       <span class="mm-video-play" aria-hidden="true">&#9654;</span>
       <span class="mm-video-text">{{ include.title }}</span>
-      <span class="mm-video-note">{% if nb %}Trykk for å spille av. Da laster YouTube, og YouTube ser at du er her.{% else %}Press to play. YouTube loads at that point, and YouTube sees that you are here.{% endif %}</span>
+      <span class="mm-video-note">{% if nb %}Trykk for å spille av. Vi laster ikke YouTube før du gjør det, så YouTube får bare vite om besøket ditt hvis du velger å se videoen.{% else %}Press to play. We do not load YouTube until you do, so YouTube learns about your visit only if you choose to watch.{% endif %}</span>
     </span>
   </button>
   <figcaption class="mm-video-caption small muted">
-    {% if nb %}Videoen ligger på <a href="https://www.youtube.com/watch?v={{ include.id }}">YouTube</a>. Vi laster den ikke automatisk: YouTube får bare vite om besøket ditt hvis du velger å spille av. Les mer i <a href="{{ '/no/privacy/#innhold-fra-andre-nettsteder' | relative_url }}">personvernerklæringen</a>.{% else %}The video is on <a href="https://www.youtube.com/watch?v={{ include.id }}">YouTube</a>. We do not load it automatically, so YouTube learns about your visit only if you choose to play it. Read more in our <a href="{{ '/privacy/#content-from-other-websites' | relative_url }}">privacy statement</a>.{% endif %}
+    {% if nb %}Videoen ligger på <a href="https://www.youtube.com/watch?v={{ include.id }}">YouTube</a>. Les mer i <a href="{{ '/no/privacy/#innhold-fra-andre-nettsteder' | relative_url }}">personvernerklæringen</a>.{% else %}The video is on <a href="https://www.youtube.com/watch?v={{ include.id }}">YouTube</a>. Read more in our <a href="{{ '/privacy/#content-from-other-websites' | relative_url }}">privacy statement</a>.{% endif %}
   </figcaption>
 </figure>
 <script defer src="{{ '/assets/js/video.js' | relative_url }}"></script>
