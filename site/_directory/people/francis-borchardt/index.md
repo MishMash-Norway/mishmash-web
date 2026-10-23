@@ -27,6 +27,15 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 2 Maccabees
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Francis Borchardt
+    role: Creator
+    slug: francis-borchardt
+    url: /people/francis-borchardt/
 - title: The Sibylline Library from Myth to History
   year: '2026'
   source: Book chapter
@@ -126,24 +135,14 @@ selected_works:
     role: Creator
     slug: francis-borchardt
     url: /people/francis-borchardt/
-- title: 'Disassembling Provenance: Origin Stories and Why They Matter for Scripture'
-  year: '2023'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1515/9783110768411-006
-  contributors:
-  - name: Francis Borchardt
-    role: Creator
-    slug: francis-borchardt
-    url: /people/francis-borchardt/
 source_mentions: []
+summary: ''
 wps:
 - WP4
 - WP6
 permalink: /people/francis-borchardt/
 redirect_from:
 - /directory/people/francis-borchardt/
-summary: ''
 ---
 
 Bio coming soon.

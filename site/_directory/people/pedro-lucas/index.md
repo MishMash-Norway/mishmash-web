@@ -42,6 +42,7 @@ selected_works:
   year: '2026'
   source: Book chapter
   group_type: Book chapter
+  url: https://ieeexplore.ieee.org/document/11714840/
   contributors:
   - name: Diana Saplacan Lindblom
     role: Creator

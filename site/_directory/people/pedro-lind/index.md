@@ -40,6 +40,12 @@ search_keywords:
 - Trustworthy AI
 - Quantitative Epidemiology
 selected_works:
+- title: Frequency-Resolved Connectivity Graphs for EEG-Based Classification of Alzheimer
+    and Frontotemporal Dementia
+  year: '2026'
+  source: Preprint
+  group_type: Preprint
+  url: https://doi.org/10.64898/2026.10.16.759776
 - title: EEG Pathology Detection via Clinical Concept Bottleneck Models
   year: '2026'
   source: Preprint
@@ -88,12 +94,6 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1145/3742795
-- title: 'Dynamical law behind eye movements: Distinguishing between Lévy and intermittent
-    strategies'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1103/2bzm-t9k1
 source_mentions: []
 summary: 'Pedro Goncalves Lind works in artificial intelligence and data analysis
   applied to several of the nowadays'' challenges in society, environment, economy

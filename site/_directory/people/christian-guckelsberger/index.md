@@ -38,6 +38,12 @@ search_keywords:
 - Enactivism
 - Video Games
 selected_works:
+- title: 'Envisioning and Co-Creating Generative AI for Future Creative Workers in
+    Gaming: A CHI PLAY 2026 Workshop'
+  year: '2026'
+  source: Conference paper
+  group_type: Conference
+  url: https://doi.org/10.1145/3800965.3834572
 - title: How Prompting and Editing Shape Psychological Ownership in AI-Assisted Creative
     Writing
   year: '2026'
@@ -88,10 +94,6 @@ selected_works:
   year: '2025'
   source: Conference paper
   group_type: Conference
-- title: Diversity Progress for Goal Selection in Discriminability-Motivated RL
-  year: '2024'
-  source: Conference Presentation
-  group_type: Conference Presentation
 source_mentions: []
 summary: ''
 permalink: /people/christian-guckelsberger/

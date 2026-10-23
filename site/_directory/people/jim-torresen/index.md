@@ -75,11 +75,12 @@ selected_works:
     role: Creator
   - name: Lee Andrew Bygrave
     role: Creator
-- title: Robots as Welfare Technologies and Actors within Future Homeand Healthcare
+- title: Robots as Welfare Technologies and Actors within Future Home and Healthcare
     Services
   year: '2026'
   source: Book chapter
   group_type: Book chapter
+  url: https://doi.org/10.1145/3821402.3830201
   contributors:
   - name: Diana Saplacan Lindblom
     role: Creator
@@ -97,6 +98,7 @@ selected_works:
   year: '2026'
   source: Book chapter
   group_type: Book chapter
+  url: https://ieeexplore.ieee.org/document/11714840/
   contributors:
   - name: Diana Saplacan Lindblom
     role: Creator

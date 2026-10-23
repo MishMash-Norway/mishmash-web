@@ -29,6 +29,46 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Sleep Brothers
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Jostein Gundersen
+    role: Musician
+    slug: jostein-gundersen
+    url: /people/jostein-gundersen/
+  - name: Hans Knut Sveen
+    role: Musician
+  - name: Janne-Camilla Lyster
+    role: Writer
+  - name: Ane Thon Knutsen
+    role: RoleOther
+- title: Mass for Christmas Day
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Jostein Gundersen
+    role: Musician
+    slug: jostein-gundersen
+    url: /people/jostein-gundersen/
+  - name: Anna Danilevskaïa
+    role: Musician
+  - name: Johannes Lub
+    role: Musician
+  - name: Ingvill Holter
+    role: Musician
+  - name: Sunniva Eliassen
+    role: Musician
+  - name: Tyler Ray
+    role: Musician
+  - name: Tord Kalvenes
+    role: Musician
+  - name: Vegard Landaas
+    role: RoleOther
+  - name: Thomas Wolden
+    role: RoleOther
 - title: Samspill mellom høyere musikkutdanning og kunstnerisk utviklingsarbeid
   year: '2021'
   source: Non-fiction chapter

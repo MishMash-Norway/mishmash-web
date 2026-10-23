@@ -10,6 +10,9 @@ institutions:
 - western-norway-university-of-applied-sciences
 projects: []
 other_projects:
+- title: MusikkPedLab
+  url: https://nva.sikt.no/projects/2721724
+  nva_id: '2721724'
 - title: Passion for music in higher education
   url: https://nva.sikt.no/projects/2725447
   nva_id: '2725447'
@@ -38,6 +41,24 @@ search_keywords:
 - Artistic Research
 - Composition
 selected_works:
+- title: RESUPERES - Subjects
+  year: '2025'
+  source: Textbook
+  group_type: Textbook
+  url: http://resuperes.eu/Subjects.html
+  contributors:
+  - name: Coral Falco
+    role: Creator
+  - name: Tone Nybakken
+    role: Creator
+  - name: Torbjørn Lundhaug
+    role: Creator
+  - name: Odd Torleiv Furnes
+    role: Creator
+    slug: odd-torleiv-furnes
+    url: /people/odd-torleiv-furnes/
+  - name: Frøydis Hausmann
+    role: Creator
 - title: Technology and materiality/Shadow of War
   year: '2025'
   source: Film or video
@@ -164,16 +185,6 @@ selected_works:
     url: /people/odd-torleiv-furnes/
   - name: Jan Sverre Knudsen
     role: Creator
-- title: Lennon and McAI – om kunstig intelligens, kreativitet og bærekraft.
-  year: '2023'
-  source: Professional article
-  group_type: Professional article
-  url: https://www.ballade.no/politikk-debatt/lennon-and-mcai-om-kunstig-intelligens-kreativitet-og-baerekraft/
-  contributors:
-  - name: Odd Torleiv Furnes
-    role: Creator
-    slug: odd-torleiv-furnes
-    url: /people/odd-torleiv-furnes/
 source_mentions: []
 summary: null
 published: true

@@ -1,4 +1,4 @@
-synced_at: '2026-10-22T10:06:38Z'
+synced_at: '2026-10-23T10:08:01Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -991,6 +991,46 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
   url: https://doi.org/10.5281/ZENODO.22643770
   nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+- title: 'AI and Christian Imagination: Reflections on the Consequences of Generative
+    AI for Christian Film Production'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Clemens Cavallin
+    role: Creator
+    slug: clemens-cavallin
+    url: /people/clemens-cavallin/
+  institutions:
+  - name: NLA University College
+    slug: nla-university-college
+    url: /institutions/nla-university-college/
+  citation:
+    authors:
+    - display: Cavallin, Clemens
+      name: Clemens Cavallin
+      slug: clemens-cavallin
+      url: /people/clemens-cavallin/
+    title: 'AI and Christian Imagination: Reflections on the Consequences of Generative
+      AI for Christian Film Production'
+    container: Wisdom in the Age of AI Conference 2026.
+    details: Calvin University, Grand Rapids, Michigan.
+    abstract: As with any major technological paradigm shift, the AI revolution catalyzes
+      anxieties and brings about "creative destruction," while simultaneously offering
+      novel and exciting opportunities. This paper offers some reflections on the
+      transformations currently unfolding within video and film production, with particular
+      attention to Christian media. However, even with this delimitation, the field
+      remains vast. The focus will therefore be on two significant subthemes. The
+      first is the democratization of film and video production. The second is the
+      rise of agentic world models. The main question of this paper is what opportunities
+      and difficulties these two developments indicate for Christian film and video
+      production.
+    full_text_url: https://hdl.handle.net/11250/5590491
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a167e7f570-7e330c63-1144-4987-8892-da9dc7015280
+  url: https://calvin.edu/faith-and-technology/faith-and-ai-conference
+  nva_url: https://nva.sikt.no/registration/01a167e7f570-7e330c63-1144-4987-8892-da9dc7015280
 - title: 'TAO — Transductive Acoustic Organism: A Persistent, Self-Hosted AI Instrument
     for Artistic Research'
   year: '2026'
@@ -5955,6 +5995,146 @@ results:
     nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
   url: https://doi.org/10.1093/mts/mtab013
   nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+- title: 'Lage selv, ikke bare bruke: erfaringer fra MishMash senter for KI og kreativitet'
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: 'Lage selv, ikke bare bruke: erfaringer fra MishMash senter for KI og kreativitet'
+    container: KI-webinar for bibliotekene, Fylkesbibliotekenes KI-nettverk, Teams,
+      blokken KI i praksis.
+    details: Digitalt (Teams).
+    abstract: MishMash er ett av Forskningsrådets seks nasjonale sentre for kunstig
+      intelligens (KI), og det eneste som handler om kreativitet. Senteret samler
+      universiteter, høgskoler, kunsthøgskoler, kulturinstitusjoner og bedrifter fra
+      hele landet, og spør hva maskiner som lager bilder, musikk og tekst gjør med
+      kunst og kultur, og hvordan vi kan lage noe sammen med dem. I dette innlegget
+      deler jeg det vi har lært det første året, og tenker høyt om bibliotekenes rolle.
+    full_text_url: https://hdl.handle.net/11250/5590368
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1675e3f04-7768fac2-ea4a-41a9-805c-6da0ad130e52
+  url: https://www.bibliotekenes.no/arrangementer/ki-webinar
+  nva_url: https://nva.sikt.no/registration/01a1675e3f04-7768fac2-ea4a-41a9-805c-6da0ad130e52
+- title: MishMash og kunstens rolle i utviklingen av KI
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  institutions:
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    title: MishMash og kunstens rolle i utviklingen av KI
+    container: Foredrag om MishMash og AI as Environment for Kulturetaten.
+    details: Oslo.
+    abstract: Foredrag for ansatte i Kulturetaten med presentasjon av MishMash og
+      forskningsprogrammet AI as Environment, utviklet av forskergruppen AI Ecologies.
+    full_text_url: https://hdl.handle.net/11250/5590296
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1642a67e8-c4a01d0b-8d53-4cd4-8611-07d91ffdffcf
+  nva_url: https://nva.sikt.no/registration/01a1642a67e8-c4a01d0b-8d53-4cd4-8611-07d91ffdffcf
+- title: MishMash – what is it?
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Sidsel Karlsen
+    role: Creator
+    slug: sidsel-karlsen
+    url: /people/sidsel-karlsen/
+  - name: Ivar Grydeland
+    role: Creator
+    slug: ivar-grydeland
+    url: /people/ivar-grydeland/
+  - name: Zoi Efstathiou
+    role: Creator
+  - name: Olav Renolen Aasbø
+    role: Creator
+  - name: Luciano Azzigotti
+    role: Creator
+    slug: luciano-azzigotti
+    url: /people/luciano-azzigotti/
+  - name: Guro von Germeten
+    role: Creator
+    slug: guro-von-germeten
+    url: /people/guro-von-germeten/
+  - name: Koka Nikoladze
+    role: Creator
+  - name: Karette Stensæth
+    role: Creator
+  - name: Morten Qvenild
+    role: Creator
+    slug: morten-qvenild
+    url: /people/morten-qvenild/
+  institutions:
+  - name: Norwegian Academy of Music
+    slug: norwegian-academy-of-music
+    url: /institutions/norwegian-academy-of-music/
+  citation:
+    authors:
+    - display: Karlsen, Sidsel
+      name: Sidsel Karlsen
+      slug: sidsel-karlsen
+      url: /people/sidsel-karlsen/
+    - display: Grydeland, Ivar
+      name: Ivar Grydeland
+      slug: ivar-grydeland
+      url: /people/ivar-grydeland/
+    - display: Efstathiou, Zoi
+      name: Zoi Efstathiou
+    - display: Aasbø, Olav Renolen
+      name: Olav Renolen Aasbø
+    - display: Azzigotti, Luciano
+      name: Luciano Azzigotti
+      slug: luciano-azzigotti
+      url: /people/luciano-azzigotti/
+    - display: Germeten, Guro von
+      name: Guro von Germeten
+      slug: guro-von-germeten
+      url: /people/guro-von-germeten/
+    - display: Nikoladze, Koka
+      name: Koka Nikoladze
+    - display: Stensæth, Karette
+      name: Karette Stensæth
+    - display: Qvenild, Morten
+      name: Morten Qvenild
+      slug: morten-qvenild
+      url: /people/morten-qvenild/
+    title: MishMash – what is it?
+    container: FagFuzz.
+    details: ''
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5590165
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a163751f9f-3e8821cc-676b-45ce-bc76-b7d09cf0ae4a
+  nva_url: https://nva.sikt.no/registration/01a163751f9f-3e8821cc-676b-45ce-bc76-b7d09cf0ae4a
 - title: 'Artistic Presentation: Relativism 2.0 - Local Piano Hijacked by the IMPSY
     AI model - Machine agency, shared autonomy, and expressive generative models:
     perspectives on creative performance with AI'
@@ -6560,6 +6740,38 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d929a1e2-b2733460-e6f8-4a5f-a526-ab3be943101c
   url: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/index.html
   nva_url: https://nva.sikt.no/registration/01a0d929a1e2-b2733460-e6f8-4a5f-a526-ab3be943101c
+- title: '“Health": a conceptual and philosophical reflection'
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Karette Stensæth
+    role: Creator
+  institutions:
+  - name: Norwegian Academy of Music
+    slug: norwegian-academy-of-music
+    url: /institutions/norwegian-academy-of-music/
+  citation:
+    authors:
+    - display: Stensæth, Karette
+      name: Karette Stensæth
+    title: '“Health": a conceptual and philosophical reflection'
+    container: MishMash Center for AI and Creativity - Opening conference.
+    details: Kristiansand.
+    abstract: "But what is “health” and what do creative uses of AI have to do with\
+      \ it? \n\nIn this spotlight on creative uses of AI for health and well-being,\
+      \ we begin by taking a step back and examining the various assumptions that\
+      \ underlie our conceptualizations of health and well-being. We then explore\
+      \ various manifestations of these understandings through diverse research examples.\
+      \ We consider how well-being and health are shaped in response to AI-generated\
+      \ creative media and within human-AI interaction. My contribution was to reflect\
+      \ upon health as a concept - and describe various ways to approach it when relating\
+      \ to AI and creativity."
+    full_text_url: https://hdl.handle.net/11250/5590191
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a0cdaceacf-be545108-3d99-4e52-a4f4-f2da1f6836f5
+  nva_url: https://nva.sikt.no/registration/01a0cdaceacf-be545108-3d99-4e52-a4f4-f2da1f6836f5
 - title: Musikkproduksjonsarkiv som praksisfelt og kunnskapskilde
   year: '2026'
   type: Lecture
