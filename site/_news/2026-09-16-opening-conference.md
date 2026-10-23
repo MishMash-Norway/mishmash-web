@@ -59,6 +59,8 @@ The evening continued at Kraftverk/BARE with MishMash LIVE, a mini festival with
 
 {% include photo-carousel.html name="bare" %}
 
+{% include youtube.html id="WhBJcQ0pxpk" title="MishMash Opening Conference 2026, day 1" %}
+
 ## Tuesday: together with Tech:Art
 
 The second day was organised together with Tech:Art at Kilden and turned towards the cultural and creative sector. Gerfried Stocker of Ars Electronica gave the opening keynote, followed by NRK on the use of new technologies in cultural practice and a dialogue on research in practice from MishMash. Jane Ginsburg returned with an expert statement on rights and ownership in artistic work. 
@@ -68,5 +70,7 @@ After lunch, Kilden, Det Norske Teatret, Piksel and other Norwegian cultural org
 The conference ended in the concrete silos of Kunstsilo, where Alessandra Bossa performed .*skin*, an installation-performance for three musicians, steel membranes, flexible mirrors, transducers and machine listening, followed by a party on the roof.
 
 {% include photo-carousel.html name="kunstsilo" %}
+
+{% include youtube.html id="nhuAguKAFPM" title="MishMash Opening Conference 2026, day 2" %}
 
 The abstracts of all sessions and posters are collected in the [book of abstracts](https://doi.org/10.5281/zenodo.23009316), published on Zenodo. The [next MishMash conference](/events/kristiania2027/) takes place in Oslo in April 2027, hosted  by Kristiania University College.
