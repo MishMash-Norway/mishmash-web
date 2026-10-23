@@ -27,8 +27,14 @@ galleries:
   kilden-tuesday:
     caption: "The second day at Kilden, organised together with Tech:Art. Photos: Hadle Kloster, University of Agder."
     images:
+      - src: /assets/images/news/opening-conference-2026-09-14/kilden-03072.jpg
+        alt: "A speaker reading from her notes at the lectern on the Kilden stage on the second day"
+      - src: /assets/images/news/opening-conference-2026-09-14/kilden-03103.jpg
+        alt: "A speaker at the lectern on the Kilden stage on the second day"
       - src: /assets/images/news/opening-conference-2026-09-14/kilden-03138.jpg
         alt: "A speaker at the lectern on the Kilden stage on the second day"
+      - src: /assets/images/news/opening-conference-2026-09-14/kilden-03175.jpg
+        alt: "Panel members in conversation on the Kilden stage"
       - src: /assets/images/news/opening-conference-2026-09-14/kilden-03211.jpg
         alt: "A panel discussion on the gap between vision and reality on the Kilden stage"
   bare:
