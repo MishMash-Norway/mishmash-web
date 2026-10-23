@@ -94,6 +94,8 @@ The evening continued at Kraftverk/BARE with MishMash LIVE, a mini festival with
 
 {% include photo-carousel.html name="bare" %}
 
+The University of Agder made a short film from each day. In the first, deputy director Daniel Nordgård describes MishMash as a mashup of many approaches to the challenge and potential of AI, and a network of academic and non-academic partners working on fair, responsible and artistic uses of it.
+
 {% include youtube.html id="WhBJcQ0pxpk" title="MishMash Opening Conference 2026, day 1" %}
 
 ## Tuesday: together with Tech:Art
@@ -107,6 +109,8 @@ After lunch, Kilden, Det Norske Teatret, Piksel and other Norwegian cultural org
 The conference ended in the concrete silos of Kunstsilo, where Alessandra Bossa performed .*skin*, an installation-performance for three musicians, steel membranes, flexible mirrors, transducers and machine listening, followed by a party on the roof.
 
 {% include photo-carousel.html name="kunstsilo" %}
+
+In the film from the second day, centre director Alexander Refsum Jensenius points out that AI is not new to the arts: artistic exploration has been part of its development from the beginning. Conference chair Roderick Udo explains why shared experiences, such as the evening at Kunstsilo, are where connections are made.
 
 {% include youtube.html id="nhuAguKAFPM" title="MishMash Opening Conference 2026, day 2" %}
 
