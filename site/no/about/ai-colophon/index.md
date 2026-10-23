@@ -29,7 +29,7 @@ MishMash forsker på kreativ bruk av KI, og bruker KI helt åpent i arbeidet med
 
 ## Nettstedets vekt
 
-Bærekraft er en viktig sak for MishMash. Ved å bygge nettstedet selv har vi full kontroll over hvordan det tegnes opp og serveres. Ved hver utrulling veier byggingen et utvalg sider i en nettleser uten hurtiglager og anslår karbonutslippet per besøk etter Sustainable Web Design-modellen slik den er implementert i CO2.js. Hele rapporten ligger på [/data/page-weight.json](/data/page-weight.json){: data-proofer-ignore="true"}.
+Bærekraft er en viktig sak for MishMash. Ved å bygge nettstedet selv har vi full kontroll over hvordan det tegnes opp og serveres. Ved hver utrulling veier byggingen et utvalg sider i en nettleser uten hurtiglager og anslår karbonutslippet per besøk etter Sustainable Web Design-modellen slik den er implementert i CO2.js. Hele rapporten ligger på [/data/page-weight.json](/data/page-weight.json){: data-proofer-ignore="true"}, og labsiden [Fotavtrykket til dette nettstedet](/no/lab/footprint/) tegner og spiller den ved siden av den samme siden bygget på vanlig måte.
 
 En måte å spare båndbredde på er å komprimere bilder og sende dem progressivt ved behov. En annen er å skjære skriftfilene ned til tegnene nettstedet faktisk bruker. Hele nettstedet er skrevet med omtrent 300 ulike tegn, mens en vanlig latinsk skriftfil bærer flere tusen tegnformer, så filene blir omtrent halvparten så store, og et første besøk på forsiden laster 85 kB skrift i stedet for 198 kB.
 

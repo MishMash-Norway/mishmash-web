@@ -85,7 +85,7 @@ galleries:
 
 On 14 and 15 September, MishMash held its [opening conference](/events/kristiansand2026/) in Kristiansand. The two days moved between Kilden Performing Arts Centre, the Kunstsilo museum and the Kraftverk venue, and gathered researchers from the partner institutions with artists, students and people from the cultural and creative sector.
 
-![The conference participants waving on the steps of Kilden Performing Arts Centre](/assets/images/news/opening-conference-2026-09-14/group-dsc02173.jpg)
+{% assign group_avif = site.static_files | where: "path", "/assets/images/news/opening-conference-2026-09-14/group-dsc02173.jpg.avif" | first %}<picture>{% if group_avif %}<source type="image/avif" srcset="/assets/images/news/opening-conference-2026-09-14/group-dsc02173.jpg.avif">{% endif %}<img src="/assets/images/news/opening-conference-2026-09-14/group-dsc02173.jpg" alt="The conference participants waving on the steps of Kilden Performing Arts Centre" width="2000" height="1333" style="height: auto"></picture>
 *The participants of the opening conference at Kilden. Photo: Hadle Kloster, University of Agder.*
 
 ## Monday: keynote, tracks and posters

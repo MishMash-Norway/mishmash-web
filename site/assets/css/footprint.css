@@ -1,0 +1,29 @@
+/* The footprint lab page (/lab/footprint/). Colours from brand.css. */
+.fp-chart { max-width: 100%; height: auto; display: block; margin: 0.5rem 0; }
+.fp-label, .fp-value { font: 13px var(--mm-font-body, sans-serif); fill: var(--mm-ink, #231f20); }
+.fp-value { fill: var(--mm-ink-70, #555); }
+.fp-chart g.fp-active .fp-label { font-weight: 700; }
+.fp-chart g.fp-active rect { stroke: var(--mm-ink, #231f20); stroke-width: 1.5; }
+
+.fp-html { fill: var(--mm-ink, #231f20); background: var(--mm-ink, #231f20); }
+.fp-styles { fill: var(--mm-blue, #a5cbed); background: var(--mm-blue, #a5cbed); }
+.fp-scripts { fill: var(--mm-purple, #9a90cf); background: var(--mm-purple, #9a90cf); }
+.fp-fonts { fill: var(--mm-yellow, #d1e422); background: var(--mm-yellow, #d1e422); }
+.fp-data, .fp-other { fill: var(--mm-pink, #efadb2); background: var(--mm-pink, #efadb2); }
+.fp-images { fill: var(--mm-green, #b3e297); background: var(--mm-green, #b3e297); }
+.fp-video { fill: var(--mm-red, #ee5648); background: var(--mm-red, #ee5648); }
+.fp-web { fill: #bdbdbd; background: #bdbdbd; }
+
+.fp-legend { list-style: none; padding: 0; margin: 0 0 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.9rem; }
+.fp-swatch { display: inline-block; width: 0.9em; height: 0.9em; margin-right: 0.35em; vertical-align: -0.1em; border: 1px solid var(--mm-ink-20, #ccc); }
+
+.fp-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.fp-table th, .fp-table td { padding: 0.35rem 0.5rem; border-bottom: 1px solid var(--mm-ink-20, #ddd); text-align: left; }
+.fp-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.fp-play { padding: 0.15rem 0.7rem; }
+.fp-now { min-height: 1.5em; }
+
+@media (max-width: 640px) {
+  .fp-table { font-size: 0.85rem; }
+  .fp-table th:nth-child(4), .fp-table td:nth-child(4) { display: none; }
+}

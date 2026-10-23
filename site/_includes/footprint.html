@@ -1,0 +1,74 @@
+{% comment %}
+  The footprint of mishmash.no, drawn and played. The figures come from
+  /data/page-weight.json, written by scripts/measure_page_weight.mjs at every
+  deployment; site/assets/js/footprint.js fills the spans and draws the charts.
+  Usage: {% include footprint.html lang="en" %} or lang="nb".
+{% endcomment %}
+{% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
+<div id="footprint" data-src="/data/page-weight.json" data-lang="{% if nb %}nb{% else %}en{% endif %}">
+{% if nb %}
+<p>Denne siden viser hvor mye data mishmash.no sender til en leser, og hva den samme siden ville veid hvis den var bygget på vanlig måte. Tallene måles ved hver publisering, så siden endrer seg når nettstedet gjør det.</p>
+
+<h2>Hva som måles</h2>
+<p>Tallene er bytene en leser får tilsendt ved et første besøk, med tom hurtigbuffer. De måler ikke energien en lesers enhet eller nettverk bruker, som avhenger av mye mer enn bytene. CO₂-tallet er et anslag etter Sustainable Web Design-modellen slik den er implementert i CO2.js: <span id="fp-kwh"></span> kWh per GB og <span id="fp-g"></span> g CO₂ per kWh, som er et globalt gjennomsnitt. Norsk strøm er langt renere, så for en leser i Norge er det virkelige tallet lavere. Siste måling: <span id="fp-when"></span>.</p>
+<p id="fp-error" class="muted"></p>
+
+<h2>Én side, bygget på seks måter</h2>
+<p>Referansesiden er <a href="/news/opening-conference/">nyheten fra åpningskonferansen</a>, med bilder og <span id="fp-players"></span> videoer. Slik den sendes, veier den <span id="fp-served"></span> kB. Med de fire valgene under, som er vanlige på nettsider, ville den veid <span id="fp-all"></span> kB. Mediansiden på nettet veide <span id="fp-web"></span> kB på datamaskin i HTTP Archives måling for <span id="fp-web-date"></span>.</p>
+<ul>
+  <li><strong>Bilder som JPEG.</strong> Nettlesere som forstår AVIF, får bildene i det formatet, som er mindre for samme bilde.</li>
+  <li><strong>Skrifter i full størrelse.</strong> Skriftfilene kuttes ned til tegnene nettstedet faktisk bruker.</li>
+  <li><strong>Alle karusellbilder med en gang.</strong> En karusell sender bare bildet som vises; resten kommer når leseren blar.</li>
+  <li><strong>Videospillere lastet med siden.</strong> Spilleren vår laster ingenting fra YouTube før leseren trykker. En vanlig innbygging laster YouTube-spilleren for hver video med en gang, og forteller YouTube om besøket. Dette tallet måles mot YouTubes servere og varierer fra gang til gang.</li>
+</ul>
+<div id="fp-reference"></div>
+
+<h2>Lytt til vekten</h2>
+<p>Hver tone er 25 kB, ti toner i sekundet, så lengden på stykket er vekten av siden. Hver filtype har sin egen stemme: tekstfilene er lyse og korte, skriftene litt lavere, bildene myke og dype, og videospillerne en summende bass. Lyden starter bare når du trykker på en knapp.</p>
+<div id="fp-table"></div>
+<p id="fp-now" class="fp-now" aria-live="polite"></p>
+
+<h2>Alle sidene vi veier</h2>
+<p>Ved hver publisering veies de samme <span id="fp-npages"></span> sidene. <span id="fp-tenth"></span> av dem veier mindre enn en tidel av mediansiden på nettet; de tyngste er sidene med mange bilder.</p>
+<div id="fp-pages"></div>
+
+<h2>Denne siden</h2>
+<p id="fp-self">Nettleseren din måler hva denne siden har sendt deg, men målingen er ikke tilgjengelig her.</p>
+
+<h2>Slik er det laget</h2>
+<p>Målingen gjøres av <a href="https://github.com/MishMash-Norway/mishmash-web/blob/main/scripts/measure_page_weight.mjs"><code>scripts/measure_page_weight.mjs</code></a> i en hodeløs nettleser ved hver publisering, og resultatet ligger i <a href="/data/page-weight.json" data-proofer-ignore="true"><code>/data/page-weight.json</code></a>. Diagrammene og lyden lages av <a href="https://github.com/MishMash-Norway/mishmash-web/blob/main/site/assets/js/footprint.js"><code>footprint.js</code></a> med SVG og Web Audio, uten biblioteker, slik at siden selv holder seg lett. Mer om hvordan nettstedet holdes lett, står i <a href="/no/about/ai-colophon/">kolofonen</a>.</p>
+{% else %}
+<p>This page shows how much data mishmash.no sends to a reader, and what the same page would weigh if it had been built the usual way. The figures are measured at every deployment, so the page changes when the site does.</p>
+
+<h2>What is measured</h2>
+<p>The figures are the bytes a reader is sent on a first visit, with an empty cache. They do not measure the energy used by a reader's device or network, which depends on far more than the bytes. The carbon figure is an estimate from the Sustainable Web Design model as implemented in CO2.js: <span id="fp-kwh"></span> kWh per GB and <span id="fp-g"></span> g CO₂ per kWh, a global average. Norwegian electricity is far cleaner, so for a reader in Norway the real figure is lower. Last measured: <span id="fp-when"></span>.</p>
+<p id="fp-error" class="muted"></p>
+
+<h2>One page, built six ways</h2>
+<p>The reference page is the <a href="/news/opening-conference/">news post from the opening conference</a>, with photos and <span id="fp-players"></span> videos. As served, it weighs <span id="fp-served"></span> kB. With the four choices below, which are common on websites, it would weigh <span id="fp-all"></span> kB. The median desktop page on the web weighed <span id="fp-web"></span> kB in the HTTP Archive crawl for <span id="fp-web-date"></span>.</p>
+<ul>
+  <li><strong>Photos as JPEG.</strong> Browsers that understand AVIF get the photos in that format, which is smaller for the same picture.</li>
+  <li><strong>Fonts at full size.</strong> The font files are cut down to the characters the site actually uses.</li>
+  <li><strong>Every carousel photo on arrival.</strong> A carousel sends only the photo on show; the rest come when the reader turns to them.</li>
+  <li><strong>Video players loaded with the page.</strong> Our player loads nothing from YouTube until the reader presses play. An ordinary embed loads the YouTube player for every video at once, and tells YouTube about the visit. This figure is measured against YouTube's servers and varies from one build to the next.</li>
+</ul>
+<div id="fp-reference"></div>
+
+<h2>Listen to the weight</h2>
+<p>Each note is 25 kB, ten notes a second, so the length of the piece is the weight of the page. Each kind of file has its own voice: the text files are high and short, the fonts a little lower, the photos soft and low, and the video players a buzzing bass. Sound starts only when you press a button.</p>
+<div id="fp-table"></div>
+<p id="fp-now" class="fp-now" aria-live="polite"></p>
+
+<h2>Every page we weigh</h2>
+<p>The same <span id="fp-npages"></span> pages are weighed at every deployment. <span id="fp-tenth"></span> of them weigh less than a tenth of the median web page; the heaviest are the pages with many photos.</p>
+<div id="fp-pages"></div>
+
+<h2>This page</h2>
+<p id="fp-self">Your browser measures what this page has sent you, but the measurement is not available here.</p>
+
+<h2>How it is made</h2>
+<p>The measurement is made by <a href="https://github.com/MishMash-Norway/mishmash-web/blob/main/scripts/measure_page_weight.mjs"><code>scripts/measure_page_weight.mjs</code></a> in a headless browser at every deployment, and the result is in <a href="/data/page-weight.json" data-proofer-ignore="true"><code>/data/page-weight.json</code></a>. The charts and the sound are made by <a href="https://github.com/MishMash-Norway/mishmash-web/blob/main/site/assets/js/footprint.js"><code>footprint.js</code></a> with SVG and Web Audio, without libraries, so the page itself stays light. More on how the site is kept light is in the <a href="/about/ai-colophon/">colophon</a>.</p>
+{% endif %}
+<noscript><p><em>{% if nb %}Diagrammene og lyden krever JavaScript. Tallene ligger i <a href="/data/page-weight.json" data-proofer-ignore="true">/data/page-weight.json</a>.{% else %}The charts and the sound need JavaScript. The figures are in <a href="/data/page-weight.json" data-proofer-ignore="true">/data/page-weight.json</a>.{% endif %}</em></p></noscript>
+</div>
+<script defer src="{{ '/assets/js/footprint.js' | relative_url }}"></script>
