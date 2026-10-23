@@ -8,6 +8,7 @@
   Usage:
     {% include youtube.html id="rq8UnZlzYk4" title="The opening ceremony" %}
     {% include youtube.html id="..." title="..." lang="nb" %}
+    {% include youtube.html id="..." title="..." caption=false %}   (no caption under the player)
 {% endcomment %}
 {% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
 <figure class="mm-video">
@@ -20,8 +21,10 @@
       <span class="mm-video-note">{% if nb %}Trykk for å spille av. Av personvernhensyn laster vi ikke YouTube før du klikker.{% else %}Press to play. To respect your privacy, we do not load YouTube until you click the button.{% endif %}</span>
     </span>
   </button>
+  {% unless include.caption == false %}
   <figcaption class="mm-video-caption small muted">
     {% if nb %}Videoen ligger på <a href="https://www.youtube.com/watch?v={{ include.id }}">YouTube</a>. Les mer i <a href="{{ '/no/privacy/#innhold-fra-andre-nettsteder' | relative_url }}">personvernerklæringen</a>.{% else %}The video is on <a href="https://www.youtube.com/watch?v={{ include.id }}">YouTube</a>. Read more in our <a href="{{ '/privacy/#content-from-other-websites' | relative_url }}">privacy statement</a>.{% endif %}
   </figcaption>
+  {% endunless %}
 </figure>
 <script defer src="{{ '/assets/js/video.js' | relative_url }}"></script>
