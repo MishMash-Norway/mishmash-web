@@ -2067,10 +2067,6 @@ video.mm-heritage-player {
   outline-offset: 2px;
 }
 
-.mm-video-caption {
-  margin-top: 6px;
-}
-
 /* Open-access mark on a result card (scripts/enrich_results_from_openalex.py). */
 .nva-result-oa {
   margin: 0 0 6px;
