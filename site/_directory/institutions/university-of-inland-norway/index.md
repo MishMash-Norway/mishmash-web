@@ -31,7 +31,9 @@ people:
 - ole-goethe
 - oystein-skaar
 - rafal-hanzl
+- rebekka-solbakk
 - sashi-komandur
+- soraya-lorentsson
 - tonje-louise-finne
 - troels-linde
 - trond-lossius

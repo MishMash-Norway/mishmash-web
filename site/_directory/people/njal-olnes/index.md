@@ -22,7 +22,7 @@ roles:
 - Member
 urls:
   personal_website: https://njal.olnes.no
-  institutional_website: ''
+  institutional_website: https://www.inn.no/finn-en-ansatt/njal-olnes.html
   github: ''
   linkedin: https://www.linkedin.com/in/njål-ølnes-57761333/?isSelfProfile=true
   orcid: https://orcid.org/0000-0001-6735-6173
