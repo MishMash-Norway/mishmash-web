@@ -67,7 +67,9 @@ BlogPosting that jekyll-seo-tag writes for a dated page is left out there.{% end
   {% if L.code == lang %}
     {% assign _found = page.url %}
   {% elsif L.default %}
-    {% assign _found = lang_en_url %}
+    {% comment %}The English version is assumed at the same address without the prefix; check that it exists, as for the other languages, so a Norwegian page without an English one (a draft notice, say) points at the English front page instead of a missing page.{% endcomment %}
+    {% for _p in site.pages %}{% if _p.url == lang_en_url %}{% assign _found = lang_en_url %}{% break %}{% endif %}{% endfor %}
+    {% unless _found %}{% for _d in site.documents %}{% if _d.url == lang_en_url %}{% assign _found = lang_en_url %}{% break %}{% endif %}{% endfor %}{% endunless %}
   {% else %}
     {% assign _cand = L.prefix | append: lang_en_url %}
     {% if lang == 'en' and page.translation_url and L.generated_from == nil %}{% assign _cand = page.translation_url %}{% endif %}
@@ -82,8 +84,9 @@ BlogPosting that jekyll-seo-tag writes for a dated page is left out there.{% end
   {% endif %}
   {% if _found %}{% assign lang_url_map = lang_url_map | append: L.code | append: "=" | append: _found | append: ";" %}{% endif %}
 {% endfor %}
-    {% if lang_en_url %}<link rel="alternate" hreflang="en" href="{{ site.url }}{{ lang_en_url }}">
-    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ lang_en_url }}">{% endif %}
+    {% assign _en_found = nil %}{% assign _pairs = lang_url_map | split: ";" %}{% for _pair in _pairs %}{% assign _kv = _pair | split: "=" %}{% if _kv[0] == "en" %}{% assign _en_found = _kv[1] %}{% endif %}{% endfor %}
+    {% if _en_found %}<link rel="alternate" hreflang="en" href="{{ site.url }}{{ _en_found }}">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ _en_found }}">{% endif %}
     {% assign _pairs = lang_url_map | split: ";" %}{% for _pair in _pairs %}{% assign _kv = _pair | split: "=" %}{% if _kv[0] != "en" and _kv[1] %}<link rel="alternate" hreflang="{{ _kv[0] }}" href="{{ site.url }}{{ _kv[1] }}">
     {% endif %}{% endfor %}
     <link rel="preload" href="{{ '/assets/fonts/inter-400-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
