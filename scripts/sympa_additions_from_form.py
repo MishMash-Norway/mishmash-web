@@ -24,8 +24,9 @@ the website.
 With --open the script goes through the lists one at a time: it puts the
 list's block on the clipboard, opens the list's "Add subscribers" page in the
 browser, and waits for Enter before the next list. Paste into the box, press
-Add, and come back to the terminal. The clipboard is held by Tk, so it works
-on X11 without xclip; the script must stay running until the last paste.
+Add, and come back to the terminal. xclip is used when it is installed;
+without it the clipboard is held by Tk, and the script must stay running
+until the last paste.
 
 Nothing is sent to Sympa; adding members needs a list owner's login.
 """
@@ -152,27 +153,40 @@ def main() -> int:
 
 
 def open_pages(per_list: dict) -> None:
-    """One list at a time: block on the clipboard, add page in the browser, wait for Enter."""
+    """One list at a time: block on the clipboard, add page in the browser, wait for Enter.
+
+    xclip holds the clipboard by itself when it is installed. Without it the
+    text is held by Tk, which only works while this script keeps answering
+    the browser's requests, so the wait for Enter pumps Tk's events.
+    """
     import select
+    import shutil
     import subprocess
-    import tkinter
-    clip = tkinter.Tk()
-    clip.withdraw()
+    xclip = shutil.which("xclip")
+    clip = None
+    if not xclip:
+        import tkinter
+        clip = tkinter.Tk()
+        clip.withdraw()
     todo = [(wp, m) for wp, m in per_list.items() if m]
     for i, (wp, members) in enumerate(todo, 1):
         url = f"https://sympa.uio.no/mishmash.no/add_request/{wp.lower()}"
-        clip.clipboard_clear()
-        clip.clipboard_append("".join(f"{email} {name}\n" for email, name in members))
-        clip.update()
+        block = "".join(f"{email} {name}\n" for email, name in members)
+        if xclip:
+            subprocess.run([xclip, "-selection", "clipboard"], input=block.encode("utf-8"), check=True)
+        else:
+            clip.clipboard_clear()
+            clip.clipboard_append(block)
+            clip.update()
         subprocess.Popen(["xdg-open", url], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         print(f"\n[{i}/{len(todo)}] {wp.lower()}@mishmash.no: {len(members)} on the clipboard, page opened. Paste into the box and press Add.")
         print("Press Enter for the next list... " if i < len(todo) else "Press Enter when the last one is added... ", end="", flush=True)
-        # Keep answering the browser's clipboard requests while waiting: on
-        # X11 the text lives in this program until it is pasted.
         while not select.select([sys.stdin], [], [], 0.05)[0]:
-            clip.update()
+            if clip:
+                clip.update()
         sys.stdin.readline()
-    clip.destroy()
+    if clip:
+        clip.destroy()
 
 
 if __name__ == "__main__":
