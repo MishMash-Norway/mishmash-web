@@ -445,7 +445,9 @@ automation:
          people came in and what was created."
       - "9. Mailing lists: python3 scripts/sympa_additions_from_form.py --since <date of the previous import>
          writes temp/sympa-add-*.txt. Adding members to Sympa needs a list
-         owner's login, so hand those files to Alexander; nothing is sent."
+         owner's login, so hand those files to Alexander; nothing is sent. With
+         --open he runs it himself: each list's block goes on the clipboard and
+         its add page opens, one list at a time."
     never:
       - Never import a row that did not answer Yes to the directory question;
         the importer already skips them, and a row with no answer needs a

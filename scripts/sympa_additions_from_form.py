@@ -19,6 +19,13 @@ directory entry that has it as an alias, so the lists carry the same name as
 the website.
 
     python3 scripts/sympa_additions_from_form.py --since 2026-09-08
+    python3 scripts/sympa_additions_from_form.py --since 2026-09-08 --open
+
+With --open the script goes through the lists one at a time: it puts the
+list's block on the clipboard, opens the list's "Add subscribers" page in the
+browser, and waits for Enter before the next list. Paste into the box, press
+Add, and come back to the terminal. The clipboard is held by Tk, so it works
+on X11 without xclip; the script must stay running until the last paste.
 
 Nothing is sent to Sympa; adding members needs a list owner's login.
 """
@@ -68,6 +75,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--xlsx", type=Path, help="Form export (default: newest temp/data-625226-*.xlsx)")
     ap.add_argument("--since", type=lambda s: datetime.fromisoformat(s), help="Only submissions on/after this date (YYYY-MM-DD)")
+    ap.add_argument("--open", action="store_true", help="Open each list's Add subscribers page with its block on the clipboard, one list at a time")
     args = ap.parse_args()
 
     xlsx = args.xlsx or newest_participation_xlsx()
@@ -132,7 +140,33 @@ def main() -> int:
             print(f"  {email} {name}")
         total += len(members)
     print(f"\n{total} additions written to temp/sympa-add-wpN.txt; {skipped_existing} already subscribed (per the list exports in temp/).")
+    if args.open and total:
+        open_pages(per_list)
     return 0
+
+
+def open_pages(per_list: dict) -> None:
+    """One list at a time: block on the clipboard, add page in the browser, wait for Enter."""
+    import select
+    import subprocess
+    import tkinter
+    clip = tkinter.Tk()
+    clip.withdraw()
+    todo = [(wp, m) for wp, m in per_list.items() if m]
+    for i, (wp, members) in enumerate(todo, 1):
+        url = f"https://sympa.uio.no/mishmash.no/add_request/{wp.lower()}"
+        clip.clipboard_clear()
+        clip.clipboard_append("".join(f"{email} {name}\n" for email, name in members))
+        clip.update()
+        subprocess.Popen(["xdg-open", url], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        print(f"\n[{i}/{len(todo)}] {wp.lower()}@mishmash.no: {len(members)} on the clipboard, page opened. Paste into the box and press Add.")
+        print("Press Enter for the next list... " if i < len(todo) else "Press Enter when the last one is added... ", end="", flush=True)
+        # Keep answering the browser's clipboard requests while waiting: on
+        # X11 the text lives in this program until it is pasted.
+        while not select.select([sys.stdin], [], [], 0.05)[0]:
+            clip.update()
+        sys.stdin.readline()
+    clip.destroy()
 
 
 if __name__ == "__main__":
