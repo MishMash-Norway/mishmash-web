@@ -1,4 +1,4 @@
-synced_at: '2026-10-23T10:08:01Z'
+synced_at: '2026-10-24T09:33:02Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -991,6 +991,36 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
   url: https://doi.org/10.5281/ZENODO.22643770
   nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+- title: 'What is MishMash: Centre for AI and Creativity? On WP6 AI for cultural heritage'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Arnulf Christian Mattes
+    role: Creator
+    slug: arnulf-mattes
+    url: /people/arnulf-mattes/
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  citation:
+    authors:
+    - display: Mattes, Arnulf Christian
+      name: Arnulf Christian Mattes
+      slug: arnulf-mattes
+      url: /people/arnulf-mattes/
+    title: 'What is MishMash: Centre for AI and Creativity? On WP6 AI for cultural
+      heritage'
+    container: Folklore and Creative Industries - Network Meeting in Forum for Digital
+      Folklore Archives and Creative Industries.
+    details: Bergen, Department of Archaeology, History, Cultural Studies and Religion.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5590661
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a16886e9c2-bd3140d1-e513-4c92-9fd6-bf1c7c71f085
+  nva_url: https://nva.sikt.no/registration/01a16886e9c2-bd3140d1-e513-4c92-9fd6-bf1c7c71f085
 - title: 'AI and Christian Imagination: Reflections on the Consequences of Generative
     AI for Christian Film Production'
   year: '2026'
