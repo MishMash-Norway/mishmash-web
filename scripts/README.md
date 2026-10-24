@@ -227,7 +227,7 @@ python3 scripts/fetch_nettskjema_export.py --import            # participation f
 python3 scripts/fetch_nettskjema_export.py --import --write    # ... and write the profiles
 python3 scripts/fetch_nettskjema_export.py --form update       # directory update form
 
-# who to add to the Sympa lists (all@ and wp1@…wp7@) after an import — paste-ready files in temp/
+# who to add to the Sympa lists (wp1@…wp7@; all@ is built from them) after an import — paste-ready files in temp/
 python3 scripts/sympa_additions_from_form.py --since 2026-09-08
 # ... --open goes through the lists one at a time: block on the clipboard, add page in the browser, Enter for the next
 python3 scripts/sync_directory_reciprocity.py   # mirror people ↔ institutions

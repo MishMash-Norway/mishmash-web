@@ -2,7 +2,7 @@
 """List who should be added to the WP mailing lists, from a participation-form export.
 
 Reads the newest participation-form xlsx in temp/ (or --xlsx), keeps the rows
-submitted on or after --since, and writes one file per list (all@ and wp1@ to wp7@), temp/sympa-add-<list>.txt, in the "email name" format
+submitted on or after --since, and writes one file per work package list (wp1@ to wp7@), temp/sympa-add-<list>.txt, in the "email name" format
 that Sympa's "Add subscribers" page accepts (Manage subscribers → Add
 subscribers, at https://sympa.uio.no/mishmash.no/add_request/wpN). People
 already on a list according to the newest temp/wpN@mishmash.no.txt export
@@ -99,8 +99,11 @@ def main() -> int:
 
     by_alias = full_names_by_alias()
     seen: set[tuple[str, str]] = set()
-    per_list: dict[str, list[tuple[str, str]]] = {"ALL": []}
-    per_list.update({wp: [] for wp in sorted(wp_cols)})
+    # all@ is built in Sympa from the work package lists, so it is never added
+    # to directly. Someone who ticked no work package reaches no list at all,
+    # and is named at the end instead.
+    per_list: dict[str, list[tuple[str, str]]] = {wp: [] for wp in sorted(wp_cols)}
+    no_wp: list[tuple[str, str]] = []
     skipped_existing = 0
     for row in rows:
         created = row[c_created]
@@ -115,9 +118,8 @@ def main() -> int:
         email = str(row[c_email] or "").strip().lower()
         if not email:
             continue
-        if email not in existing_members("all") and (email, "ALL") not in seen:
-            seen.add((email, "ALL"))
-            per_list["ALL"].append((email, name))
+        if not any(row[idx] for idx in wp_cols.values()) and (email, name) not in no_wp:
+            no_wp.append((email, name))
         for wp, idx in wp_cols.items():
             if row[idx]:
                 if email in existing_members(wp):
@@ -140,6 +142,10 @@ def main() -> int:
             print(f"  {email} {name}")
         total += len(members)
     print(f"\n{total} additions written to temp/sympa-add-wpN.txt; {skipped_existing} already subscribed (per the list exports in temp/).")
+    if no_wp:
+        print(f"\n{len(no_wp)} ticked no work package, so they reach no list (all@ is built from the WP lists):")
+        for email, name in no_wp:
+            print(f"  {email} {name}")
     if args.open and total:
         open_pages(per_list)
     return 0
