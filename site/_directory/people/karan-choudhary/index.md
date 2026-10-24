@@ -3,7 +3,7 @@ type: person
 slug: karan-choudhary
 name: Karan Choudhary
 title: Karan Choudhary
-position: Judge
+position: Researcher
 department: null
 institution: western-norway-university-of-applied-sciences
 institutions:
@@ -75,19 +75,23 @@ selected_works:
   group_type: Conference
   url: https://culturalheritage.w.uib.no/group-4/
 source_mentions: []
-summary: 'Karan Choudhary is PhD in Law from National Law University, Delhi and Université
-  Paris Nanterre, France. His research interest includes Music Law, Comparative Law,
-  Legal Research Methodology, Criminal law, Human rights, Indigenous issues, Cultural
-  law and policy. He has received the prestigious Erasmus Scholarship from the European
-  Union. Qualified ''All India Examination for Assistant Professor in Law'' i.e. UGC
-  -NET. He has gained extensive experience in law both as a teacher and as a judge.
-  Can be reached at E-mail: kch.mac007@gmail.com ; Karan.choudhary@aij.gov.in'
+summary: Karan Choudhary is a MSCA postdoctoral fellow at Western Norway University
+  of Applied Sciences, Norway and a visiting fellow at Faculty of Law, University
+  of Oxford, United Kingdom. He is core member of Mishmash and Culture-criticism and
+  community research group. He is PhD in Law from Université Paris Nanterre, France
+  and National Law University Delhi, India. He has extensive experience in Law as
+  a teacher, researcher and judge. His research interests include Music Law, Music
+  Education, Comparative Law, Legal Research Methodology, Criminal Law, Human Rights,
+  Indigenous Rights, Law and Culture, Law and Literature.
 published: true
 permalink: /people/karan-choudhary/
 wps:
 - WP4
 - WP5
 - WP7
+locked_fields:
+- position
+- summary
 ---
 
-Bio.
+Karan Choudhary is a MSCA postdoctoral fellow at Western Norway University of Applied Sciences, Norway and a visiting fellow at Faculty of Law, University of Oxford, United Kingdom. He is core member of Mishmash and Culture-criticism and community research group. He is PhD in Law from Université Paris Nanterre, France and National Law University Delhi, India. He has extensive experience in Law as a teacher, researcher and judge. His research interests include Music Law, Music Education, Comparative Law, Legal Research Methodology, Criminal Law, Human Rights, Indigenous Rights, Law and Culture, Law and Literature.

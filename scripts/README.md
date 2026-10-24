@@ -154,6 +154,7 @@ every morning. Before adding people, know who owns which field:
 | `urls.*` | XLSX importer, nightly `--discover-nva`, `discover_orcid_public_search.py` | `orcid`/`nva` on an existing entry are never replaced by a different value. |
 | `wps` | XLSX importer, `assign_wps_from_mailing_lists.py` | Always merged (union), never removed. |
 | `roles` | you | Never touched by the importers or the sync. |
+| `locked_fields` | you | A list of field names, such as `position` and `summary`, that the nightly sync leaves alone. For a person who asks for a change their NVA or ORCID record does not yet carry; ask them to update the record too, and remove the lock once it does. |
 | `position`, `department`, `institution`, `institutions`, `tags`, `search_keywords`, `summary`, `selected_works`, `image` | `enrich_directory_from_nva.py` when `urls.nva` is set | **NVA wins nightly.** Hand edits to these fields survive only for people without `urls.nva`, or when NVA has no value for the field. The XLSX importer only fills them when empty. |
 | `institutions` ↔ institution `people` | `sync_directory_reciprocity.py` | Set the link on one side; the sync mirrors it (nightly, or run it yourself). |
 | tag spelling | `merge_tags.py` | Title-cases tags and folds variants from `config/tag_merge_map.yml` nightly. |

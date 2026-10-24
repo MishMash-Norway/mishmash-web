@@ -20,6 +20,7 @@ Runs nightly from .github/workflows/enrich-directory-people.yml. Use
 """
 import argparse
 import base64
+import copy
 import json
 import os
 import re
@@ -1678,6 +1679,11 @@ def enrich_person(
     text = index_md.read_text(encoding="utf-8")
     front, body = split_frontmatter(text)
     data = yaml.safe_load(front) or {}
+    # Fields a person asked to have set by hand and that the sync must leave
+    # alone, such as a position or biography their ORCID record does not yet
+    # carry. Listed in the entry as locked_fields.
+    locked = {str(k) for k in (data.get("locked_fields") or [])}
+    original = copy.deepcopy(data) if locked else None
 
     if data.get("type") != "person":
         return False, "skip: not person"
@@ -1867,6 +1873,14 @@ def enrich_person(
         if key in data and not data.get(key):
             data.pop(key, None)
             changed = True
+
+    if locked:
+        for key in locked:
+            if key in original:
+                data[key] = original[key]
+            else:
+                data.pop(key, None)
+        changed = changed and data != original
 
     if not changed:
         return False, "unchanged"
