@@ -26,18 +26,18 @@ urls:
 aliases: []
 tags:
 - Master Fellow
-- Master student
+- Master Student
 - Social Media
 - Actor
 - Performer Singer
-- Project manager
+- Project Manager
 search_keywords:
 - Master Fellow
-- Master student
+- Master Student
 - Social Media
 - Actor
 - Performer Singer
-- Project manager
+- Project Manager
 selected_works: []
 source_mentions: []
 summary: null

@@ -24,19 +24,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Communication studies
-- digital media
-- human-AI interaction
-- AI companionship
-- mediated communication
-- digital culture
+- Communication Studies
+- Digital Media
+- Human-AI Interaction
+- AI Companionship
+- Mediated Communication
+- Digital Culture
 search_keywords:
-- Communication studies
-- digital media
-- human-AI interaction
-- AI companionship
-- mediated communication
-- digital culture
+- Communication Studies
+- Digital Media
+- Human-AI Interaction
+- AI Companionship
+- Mediated Communication
+- Digital Culture
 selected_works: []
 source_mentions: []
 summary: null

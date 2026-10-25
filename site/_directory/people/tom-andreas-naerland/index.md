@@ -24,18 +24,18 @@ urls:
 aliases: []
 tags:
 - Ultrasound
-- programming
-- reprojection
-- ai
-- multi-agent workflow
-- wasteful workflows
+- Programming
+- Reprojection
+- Ai
+- Multi-Agent Workflow
+- Wasteful Workflows
 search_keywords:
 - Ultrasound
-- programming
-- reprojection
-- ai
-- multi-agent workflow
-- wasteful workflows
+- Programming
+- Reprojection
+- Ai
+- Multi-Agent Workflow
+- Wasteful Workflows
 selected_works: []
 source_mentions: []
 summary: null

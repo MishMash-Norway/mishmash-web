@@ -51,6 +51,25 @@ search_keywords:
 - Cognitive Neuroscience
 - Music Cognition
 selected_works:
+- title: 'Moral echoes: Do morality and humanness affect emotional and aesthetic responses
+    to music?'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1098/rsos.252167
+  contributors:
+  - name: Abbigail Marie Fleckenstein
+    role: Creator
+  - name: Mariola Paruzel-Czachura
+    role: Creator
+  - name: Katarzyna Pypno-Blajda
+    role: Creator
+  - name: Henna-Riikka Peltola
+    role: Creator
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
 - title: Empathy, Absorption, and the Feeling of Being Moved by Music
   year: '2026'
   source: Book chapter
@@ -200,22 +219,6 @@ selected_works:
   - name: Anne Danielsen
     role: Creator
   - name: Bruno Laeng
-    role: Creator
-- title: "Empathy and Music Preferences: Exploring Music Listening Behaviours in\r\
-    \nNaturalistic Settings"
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Jatin Agarwala
-    role: Creator
-  - name: Sriharsha M.S.S.
-    role: Creator
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-  - name: Vinoo Alluri
     role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md

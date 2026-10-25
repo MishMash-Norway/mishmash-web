@@ -25,23 +25,23 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Music education
-- Research methodology
-- Law and techology
+- Music Education
+- Research Methodology
+- Law and Techology
 - Law and Literature
-- Indigenous human rights
-- Legal history, legal culture, comparative law
+- Indigenous Human Rights
+- Legal History, Legal Culture, Comparative Law
 - Criminal Law
-- Law and human rights
+- Law and Human Rights
 search_keywords:
-- Music education
-- Research methodology
-- Law and techology
+- Music Education
+- Research Methodology
+- Law and Techology
 - Law and Literature
-- Indigenous human rights
-- Legal history, legal culture, comparative law
+- Indigenous Human Rights
+- Legal History, Legal Culture, Comparative Law
 - Criminal Law
-- Law and human rights
+- Law and Human Rights
 selected_works:
 - title: 'VOICES FROM THE PERIPHERY: A CRITICAL ANALYSIS OF INDIGENOUS PEOPLES’ EDUCATION
     AND DEMOCRATIC PARTICIPATION IN INDIA'
@@ -102,3 +102,4 @@ wps:
 - WP5
 - WP7
 ---
+
