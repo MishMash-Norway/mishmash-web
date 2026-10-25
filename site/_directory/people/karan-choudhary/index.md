@@ -4,7 +4,8 @@ slug: karan-choudhary
 name: Karan Choudhary
 title: Karan Choudhary
 position: Researcher
-department: null
+department: Department of Arts Education
+image: /assets/images/portraits/Karan_Choudhary_HVL.jpg
 institution: western-norway-university-of-applied-sciences
 institutions:
 - western-norway-university-of-applied-sciences
@@ -17,18 +18,30 @@ urls:
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-6621-0962
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/1869243
   youtube: ''
   mastodon: ''
   instagram: ''
   wikidata: ''
 aliases: []
 tags:
-- Music Law
-- Research Methods
+- Music education
+- Research methodology
+- Law and techology
+- Law and Literature
+- Indigenous human rights
+- Legal history, legal culture, comparative law
+- Criminal Law
+- Law and human rights
 search_keywords:
-- Music Law
-- Research Methods
+- Music education
+- Research methodology
+- Law and techology
+- Law and Literature
+- Indigenous human rights
+- Legal history, legal culture, comparative law
+- Criminal Law
+- Law and human rights
 selected_works:
 - title: 'VOICES FROM THE PERIPHERY: A CRITICAL ANALYSIS OF INDIGENOUS PEOPLES’ EDUCATION
     AND DEMOCRATIC PARTICIPATION IN INDIA'
@@ -80,18 +93,12 @@ summary: Karan Choudhary is a MSCA postdoctoral fellow at Western Norway Univers
   of Oxford, United Kingdom. He is core member of Mishmash and Culture-criticism and
   community research group. He is PhD in Law from Université Paris Nanterre, France
   and National Law University Delhi, India. He has extensive experience in Law as
-  a teacher, researcher and judge. His research interests include Music Law, Music
-  Education, Comparative Law, Legal Research Methodology, Criminal Law, Human Rights,
-  Indigenous Rights, Law and Culture, Law and Literature.
+  a teacher, researcher and judge. His research interests include Music Law, Public
+  Law and others.
 published: true
 permalink: /people/karan-choudhary/
 wps:
 - WP4
 - WP5
 - WP7
-locked_fields:
-- position
-- summary
 ---
-
-Karan Choudhary is a MSCA postdoctoral fellow at Western Norway University of Applied Sciences, Norway and a visiting fellow at Faculty of Law, University of Oxford, United Kingdom. He is core member of Mishmash and Culture-criticism and community research group. He is PhD in Law from Université Paris Nanterre, France and National Law University Delhi, India. He has extensive experience in Law as a teacher, researcher and judge. His research interests include Music Law, Music Education, Comparative Law, Legal Research Methodology, Criminal Law, Human Rights, Indigenous Rights, Law and Culture, Law and Literature.
