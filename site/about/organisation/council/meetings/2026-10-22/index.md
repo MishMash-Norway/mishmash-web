@@ -16,7 +16,7 @@ Medlemmer:
 - [André Alexandersen Hauge](https://www.hiof.no/iio/itk/english/people/adm/andreh/index.html) (HIØF)
 - ~~[Charles Martin](https://comp.anu.edu.au/people/charles-martin/) (ANU)~~
 - ~~[Christian Blom](https://notam.no/en/about-us/employees/) (Notam)~~
-- ~~[Christian Schüssler](https://reimagine.no/contact) (Reimagine)~~
+- [Christian Schüssler](https://reimagine.no/contact) (Reimagine)
 - [Govert Valkenburg](https://www.ntnu.edu/employees/govert.valkenburg) (NTNU)
 - [Ingrid Chieh Yu](https://www.mn.uio.no/ifi/english/people/aca/ingridcy/) (UiO)
 - [Jostein Gundersen](https://www4.uib.no/en/find-employees/jostein.gundersen) (UiB)
