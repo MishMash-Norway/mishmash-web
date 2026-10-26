@@ -44,6 +44,42 @@ search_keywords:
 - Composition
 - Music Technology
 selected_works:
+- title: Electric Audio Unit med Dr. Karlheinz Essl
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Mathieu Lacroix
+    role: Musician
+    slug: mathieu-lacroix
+    url: /people/mathieu-lacroix/
+  - name: Ernst van der Loo
+    role: Musician
+  - name: Natasha Barrett
+    role: Musician
+  - name: Karlheinz Essl
+    role: Musician
+- title: Corium II på Audiorama - The End
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://www.audiorama.se/events/2026/the-end
+  contributors:
+  - name: Audiorama
+    role: Organizer
+  - name: Mathieu Lacroix
+    role: Composer
+    slug: mathieu-lacroix
+    url: /people/mathieu-lacroix/
+- title: Burn the Sky
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Mathieu Lacroix
+    role: Composer
+    slug: mathieu-lacroix
+    url: /people/mathieu-lacroix/
 - title: Awash with Sound
   year: '2026'
   source: Music performance
@@ -125,33 +161,6 @@ selected_works:
     url: /people/mathieu-lacroix/
   - name: Oscar Debs
     role: RoleOther
-- title: Înarborat
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Mathieu Lacroix
-    role: Composer
-    slug: mathieu-lacroix
-    url: /people/mathieu-lacroix/
-- title: EAU in Tallinn
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Mathieu Lacroix
-    role: Artist
-    slug: mathieu-lacroix
-    url: /people/mathieu-lacroix/
-- title: De Nye Komponistene!
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Mathieu Lacroix
-    role: Artist
-    slug: mathieu-lacroix
-    url: /people/mathieu-lacroix/
 source_mentions: []
 summary: Mathieu Lacroix is a Canadian composer, producer, musician and programmer
   based in Norway, and an associate professor at the Department of Arts and Cultural

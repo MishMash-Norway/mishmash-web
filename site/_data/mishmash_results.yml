@@ -1,4 +1,4 @@
-synced_at: '2026-10-25T09:49:26Z'
+synced_at: '2026-10-26T11:01:08Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -6025,6 +6025,34 @@ results:
     nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
   url: https://doi.org/10.1093/mts/mtab013
   nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+- title: 'AI in music education research: What do we know, and what can we expect?'
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Sidsel Karlsen
+    role: Creator
+    slug: sidsel-karlsen
+    url: /people/sidsel-karlsen/
+  institutions:
+  - name: Norwegian Academy of Music
+    slug: norwegian-academy-of-music
+    url: /institutions/norwegian-academy-of-music/
+  citation:
+    authors:
+    - display: Karlsen, Sidsel
+      name: Sidsel Karlsen
+      slug: sidsel-karlsen
+      url: /people/sidsel-karlsen/
+    title: 'AI in music education research: What do we know, and what can we expect?'
+    container: Doctoral seminar.
+    details: Järvenpää.
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5591115
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a17790964c-94db53cc-0591-4523-a86c-f90642d890c7
+  nva_url: https://nva.sikt.no/registration/01a17790964c-94db53cc-0591-4523-a86c-f90642d890c7
 - title: 'Lage selv, ikke bare bruke: erfaringer fra MishMash senter for KI og kreativitet'
   year: '2026'
   type: Lecture
