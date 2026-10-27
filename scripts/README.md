@@ -469,3 +469,24 @@ them with the workflow step that runs each.
 
 - June 2026: the directory consent question was added to the participation form; earlier rows have no answer.
 - 26 September 2026: the sections below were added for the scripts of September 2026, and the nightly list caught up with the workflow.
+
+Course candidates from DBH
+--------------------------
+
+`sync_courses_from_dbh.py` is phase 1 of the course directory (issue #77). It
+fetches DBH table 208 (*Emner*, every course at Norwegian universities and
+colleges, open API without a key) for one year, keeps the partner institutions
+in `site/_data/partners.yml`, and writes the courses whose names match its
+keywords to `temp/course-candidates-<year>.csv` for review. It changes nothing
+on the site. A partner whose Norwegian name differs from DBH's goes in
+`DBH_NAME` at the top of the script; partners that are not Norwegian
+universities or colleges are listed as not in DBH, which is expected.
+
+```bash
+python3 scripts/sync_courses_from_dbh.py               # last complete year
+python3 scripts/sync_courses_from_dbh.py --year 2025
+```
+
+The keywords only propose: many relevant courses do not name AI or the
+creative field in their title, and many AI courses are about finance or
+security. The education work package decides what goes in.
