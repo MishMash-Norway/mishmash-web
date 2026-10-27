@@ -44,6 +44,18 @@ selected_works:
     role: Writer
   - name: Ane Thon Knutsen
     role: RoleOther
+- title: Moves
+  year: '2025'
+  source: Music performance
+  group_type: Music performance
+  url: https://aptr.bandcamp.com/album/moves
+  contributors:
+  - name: Jostein Gundersen
+    role: Musician
+    slug: jostein-gundersen
+    url: /people/jostein-gundersen/
+  - name: Hans Knut Sveen
+    role: Musician
 - title: Mass for Christmas Day
   year: '2025'
   source: Music performance
@@ -94,6 +106,27 @@ selected_works:
     role: Creator
   - name: Ruben Sverre Gjertsen
     role: Creator
+- title: Spinato Intorno al Cor. Antonio Zacara da Teramo
+  year: '2011'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Jostein Gundersen
+    role: Musician
+    slug: jostein-gundersen
+    url: /people/jostein-gundersen/
+  - name: Kristin Mulders
+    role: Musician
+  - name: Kjetil Almenning
+    role: Musician
+  - name: Johannes Lub
+    role: Musician
+  - name: David Catalunya
+    role: Musician
+  - name: Thomas Wolden
+    role: RoleOther
+  - name: Vegard Landaas
+    role: RoleOther
 - title: Improvisasjon. Diminusjonspraksis fra 1350 til 1700
   year: '2010'
   source: PhD thesis

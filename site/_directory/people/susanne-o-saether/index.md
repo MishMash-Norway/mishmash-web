@@ -53,8 +53,8 @@ selected_works:
     url: /people/susanne-o-saether/
 - title: 'Introduction: Media Seas of the High North Atlantic'
   year: '2026'
-  source: Book chapter
-  group_type: Book chapter
+  source: Introduction
+  group_type: Introduction
   url: https://doi.org/10.4324/9781003478805
   contributors:
   - name: Synne Tollerud Bull

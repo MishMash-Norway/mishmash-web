@@ -42,8 +42,8 @@ search_keywords: []
 selected_works:
 - title: 'Etterpåklok på forhånd: beredskapsplanlegging i teori og praksis'
   year: '2026'
-  source: Textbook
-  group_type: Textbook
+  source: Non-fiction book
+  group_type: Non-fiction book
   url: https://fagbokforlaget.no/produkt/9788245048087-etterpaklok-pa-forhand
   contributors:
   - name: Kjell Brataas

@@ -1,4 +1,4 @@
-synced_at: '2026-10-26T11:01:08Z'
+synced_at: '2026-10-27T10:27:58Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -288,12 +288,12 @@ results:
   - name: Diana Saplacan Lindblom
     role: Creator
   institutions:
-  - name: Oslo Metropolitan University
-    slug: oslo-metropolitan-university
-    url: /institutions/oslo-metropolitan-university/
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
+  - name: Oslo Metropolitan University
+    slug: oslo-metropolitan-university
+    url: /institutions/oslo-metropolitan-university/
   citation:
     authors:
     - display: Sikora, Claudia Magdalena
@@ -312,7 +312,7 @@ results:
       communication of robotic furniture'
     container: In Samani, Hooman, Akhond, Saina (Eds.), Proceedings of the International
       Confernece on Social Robotics (ICSR) + ART 2026.
-    details: Springer International Publishing. ISSN 0302-9743.
+    details: Springer International Publishing. ISBN 9789819267972.
     abstract: 'Non-anthropomorphic robots are integrating into our homes. People
 
       attribute human-like characteristics to these robots, although they do not
@@ -5354,9 +5354,6 @@ results:
   - name: Lee, Jee-Hyong
     role: Creator
   institutions:
-  - name: University of Inland Norway
-    slug: university-of-inland-norway
-    url: /institutions/university-of-inland-norway/
   - name: University of Oslo
     slug: university-of-oslo
     url: /institutions/university-of-oslo/
