@@ -3,7 +3,7 @@ type: person
 slug: ana-brotas
 name: Ana Brotas
 title: Ana Brotas
-position: Admin.sekretær/prosjektkoordinator
+position: PhD Candidate
 department: Department of Leadership and Innovation
 institution: kristiania-university-college
 institutions:
