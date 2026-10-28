@@ -53,15 +53,15 @@ search_keywords:
 selected_works:
 - title: Digitale tvillinger - Fortidens materialitet i fremtidens form
   year: '2026'
-  source: Conference poster
-  group_type: Conference
+  source: Exhibition
+  group_type: Exhibition
   contributors:
   - name: Rafal Hanzl
-    role: Creator
+    role: RoleOther
     slug: rafal-hanzl
     url: /people/rafal-hanzl/
   - name: Jannicke Johansen
-    role: Creator
+    role: RoleOther
     slug: jannicke-johansen
     url: /people/jannicke-johansen/
 - title: 'AI as Fifth Team Member: Differentiated Roles in Design Education'
