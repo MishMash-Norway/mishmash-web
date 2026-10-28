@@ -9,6 +9,7 @@ position: Director
 institution: notam-norwegian-centre-for-technology-art-and-music
 institutions:
 - notam-norwegian-centre-for-technology-art-and-music
+projects: []
 roles:
 - Council Member
 urls:

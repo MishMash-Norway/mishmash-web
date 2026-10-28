@@ -12,6 +12,7 @@ short_name: NMH
 image: /images/institutions/norwegian-academy-of-music.svg
 people:
 - anders-tveit
+- christian-blom
 - guro-von-germeten
 - ivar-grydeland
 - jens-knigge
