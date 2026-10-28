@@ -28,10 +28,10 @@ The Board is responsible for:
 </div>
 
 <div class="board-member-row">
-    <a href="https://notam.no/en/about-us/employees/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/Christian_Blom_NOTAM.jpg" alt="Christian Blom"></a>
+    <a href="/people/christian-blom/"><img class="person-thumb board-member-photo" src="/assets/images/portraits/Christian_Blom_NOTAM.jpg" alt="Christian Blom"></a>
     <div>
-    <a href="https://notam.no/en/about-us/employees/">Christian Blom</a><br>
-    Notam - Norwegian Centre for Technology, Art and Music<br>
+    <a href="/people/christian-blom/">Christian Blom</a><br>
+    Norwegian Academy of Music<br>
     Member
     </div>
 </div>

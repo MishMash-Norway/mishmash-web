@@ -20,11 +20,11 @@ Rådet har ansvar for:
 
 - [André Alexandersen Hauge](https://www.hiof.no/iio/itk/english/people/adm/andreh/index.html) (Høgskolen i Østfold)
 - [Charles Martin](https://comp.anu.edu.au/people/charles-martin/) (Australian National University)
-- [Christian Blom](https://notam.no/en/about-us/employees/) (Notam, Norsk senter for teknologi, kunst og musikk)
 - [Christian Schüssler](https://reimagine.no/contact) (Reimagine)
 - [Govert Valkenburg](https://www.ntnu.edu/employees/govert.valkenburg) (Norges teknisk-naturvitenskapelige universitet)
 - [Ingrid Chieh Yu](https://www.mn.uio.no/ifi/english/people/aca/ingridcy/) (Universitetet i Oslo)
 - [Jostein Gundersen](https://www4.uib.no/en/find-employees/jostein.gundersen) (Universitetet i Bergen)
+- [Knut Olaf Sunde](https://notam.no/om-oss/ansatte/) (Notam, Norsk senter for teknologi, kunst og musikk)
 - [Leif Holst Jensen](https://www.inn.no/finn-en-ansatt/leif-holst-jensen.html) (Universitetet i Innlandet)
 - [Lina Plataniti](https://norsus.no/en/ansatt/lina-plataniti/) (NORSUS, Norsk institutt for bærekraftsforskning)
 - [Lise Amy Hansen](https://www.aho.no/english/about/employees/lisehans/) (Arkitektur- og designhøgskolen i Oslo)

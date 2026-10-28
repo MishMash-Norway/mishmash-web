@@ -14,7 +14,7 @@ translation:
 Medlemmer: 
 
 - [Sunniva Whittaker](https://www.uia.no/english/about-uia/employees/sunnivaw/) (UiA) (Styreleder)
-- [Christian Blom](https://notam.no/en/about-us/employees/) (Notam)
+- [Christian Blom](/people/christian-blom/) (NMH)
 - [Christian Schüssler](https://reimagine.no/contact) (Reimagine)
 - [Hege Stensrud Høsøien](https://www.nb.no/ansatte/hege-stensrud-hosoien/) (NB)
 - [Tine Grieg Viig](https://www.hvl.no/person/?user=tine.viig) (HVL)

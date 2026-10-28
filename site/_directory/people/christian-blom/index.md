@@ -4,10 +4,11 @@ type: person
 slug: christian-blom
 name: Christian Blom
 title: Christian Blom
-description: Director, Notam - Norwegian Centre for Technology, Art and Music
-position: Director
-institution: notam-norwegian-centre-for-technology-art-and-music
+description: Postdoctoral fellow, Norwegian Academy of Music
+position: Postdoctoral fellow
+institution: norwegian-academy-of-music
 institutions:
+- norwegian-academy-of-music
 - notam-norwegian-centre-for-technology-art-and-music
 projects:
 - musical-doppelgangers

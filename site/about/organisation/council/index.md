@@ -20,11 +20,11 @@ The Council is responsible for:
 
 - [André Alexandersen Hauge](https://www.hiof.no/iio/itk/english/people/adm/andreh/index.html) (Østfold University College)
 - [Charles Martin](https://comp.anu.edu.au/people/charles-martin/) (Australian National University)
-- [Christian Blom](https://notam.no/en/about-us/employees/) (Notam, the Norwegian Centre for Technology, Art and Music)
 - [Christian Schüssler](https://reimagine.no/contact) (Reimagine)
 - [Govert Valkenburg](https://www.ntnu.edu/employees/govert.valkenburg) (Norwegian University of Science and Technology)
 - [Ingrid Chieh Yu](https://www.mn.uio.no/ifi/english/people/aca/ingridcy/) (University of Oslo)
 - [Jostein Gundersen](https://www4.uib.no/en/find-employees/jostein.gundersen) (University of Bergen)
+- [Knut Olaf Sunde](https://notam.no/en/about-us/employees/) (Notam, the Norwegian Centre for Technology, Art and Music)
 - [Leif Holst Jensen](https://www.inn.no/finn-en-ansatt/leif-holst-jensen.html) (University of Inland Norway)
 - [Lina Plataniti](https://norsus.no/en/ansatt/lina-plataniti/) (NORSUS, the Norwegian Institute for Sustainability Research)
 - [Lise Amy Hansen](https://www.aho.no/english/about/employees/lisehans/) (Oslo School of Architecture and Design)

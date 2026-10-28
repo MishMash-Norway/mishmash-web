@@ -12,6 +12,7 @@ image: /images/institutions/notam-norwegian-centre-for-technology-art-and-music.
 people:
 - anders-tveit
 - christian-blom
+- knut-olaf-sunde
 projects:
 - musical-doppelgangers
 country: null
