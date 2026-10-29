@@ -23,6 +23,7 @@ people:
 - pedro-lind
 - rujeena-mathema
 - sigbjorn-galaen
+- signe-alexandra-domogalla
 - stephanie-von-spreter
 - synne-tollerud-bull
 - terje-gaustad

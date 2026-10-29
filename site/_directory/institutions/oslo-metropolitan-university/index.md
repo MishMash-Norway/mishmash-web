@@ -11,6 +11,7 @@ redirect_from:
 image: /images/institutions/oslo-metropolitan-university.png
 people:
 - bente-aasheim
+- ingrid-m-tolstad
 - jana-verena-gerhart
 - maria-lokna
 projects:

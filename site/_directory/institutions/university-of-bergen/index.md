@@ -13,6 +13,7 @@ image: /images/institutions/university-of-bergen.png
 people:
 - arnulf-mattes
 - budhaditya-chattopadhyay
+- chloe-lewis
 - claire-ghetti
 - daniel-peter-biro
 - david-rych
@@ -51,6 +52,7 @@ urls:
   brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/874789542
 aliases:
 - Universitetet i Bergen
+- KMD, University of Bergen
 tags: []
 search_keywords: []
 source_mentions:
