@@ -23,7 +23,7 @@ These short meetings are intended as an informal space for updates and for stayi
 
 #### Webinar / Labinar: 1-hour online meetings, Fridays 1000-1100 (zoom)
 - 25.09 [Labinar #01: MishMash Playground with NMH and ANU](/events/wp1-labinar01/)
-- 13.11: TBA
+- 13.11: Flytpunkt with Victoria Johnson and Anders Tveit
 - 11.12: TBA
 
 #### Activities with physical presence
@@ -32,6 +32,17 @@ These short meetings are intended as an informal space for updates and for stayi
 - 29.10-30.10: (un)trackable seminar at AHO with WP1 morning coffee physical edition
 
 
+### Spring 2027
+
+#### Morning coffee
+
+#### Webinar / Labinar:
+- 22.01
+- 19.02
+- 19.03
+- 23.04 
+- 21.05
+- 18.06
 
 
 ## Contacts
