@@ -38,31 +38,31 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Critical and decolonial perspectives
+- Critical and Decolonial Perspectives
 - Narrative Exposure Therapy
 - Choreography
 - Posthumanism
-- Dance and improvisation
-- Decolonizing methodologies
-- Film, dance and media
+- Dance and Improvisation
+- Decolonizing Methodologies
+- Film, Dance and Media
 - Dramaturgy Applied
-- Dance performance
-- Dance philosophy
+- Dance Performance
+- Dance Philosophy
 - Entrepreneurship
-- Philosophy of art
+- Philosophy of Art
 search_keywords:
-- Critical and decolonial perspectives
+- Critical and Decolonial Perspectives
 - Narrative Exposure Therapy
 - Choreography
 - Posthumanism
-- Dance and improvisation
-- Decolonizing methodologies
-- Film, dance and media
+- Dance and Improvisation
+- Decolonizing Methodologies
+- Film, Dance and Media
 - Dramaturgy Applied
-- Dance performance
-- Dance philosophy
+- Dance Performance
+- Dance Philosophy
 - Entrepreneurship
-- Philosophy of art
+- Philosophy of Art
 selected_works:
 - title: '"Claimed Space Slow Dance" – poster presentation Mish Mash opening conference'
   year: '2026'

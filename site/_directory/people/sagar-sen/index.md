@@ -44,8 +44,8 @@ selected_works:
 - title: 'EVLM: Intent-Driven Edge Vision Language Model for UAV-Based Power Line
     Inspection'
   year: '2026'
-  source: Journal article
-  group_type: Journal article
+  source: Book chapter
+  group_type: Book chapter
   url: https://doi.org/10.1109/EDGE72783.2026.00014
   contributors:
   - name: Reza Farahani

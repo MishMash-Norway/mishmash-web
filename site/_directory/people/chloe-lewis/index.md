@@ -24,17 +24,17 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- educational research
-- pedagogy
-- critical thinking
-- democracy
-- judgment
+- Educational Research
+- Pedagogy
+- Critical Thinking
+- Democracy
+- Judgment
 search_keywords:
-- educational research
-- pedagogy
-- critical thinking
-- democracy
-- judgment
+- Educational Research
+- Pedagogy
+- Critical Thinking
+- Democracy
+- Judgment
 selected_works: []
 source_mentions: []
 summary: null

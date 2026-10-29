@@ -28,23 +28,23 @@ aliases: []
 tags:
 - Ethnography
 - Popular Culture
-- Creative industries
+- Creative Industries
 - Creativity
 - Songwriting
-- Talent development
-- Music production
-- Art and craft
-- Popularmusic
+- Talent Development
+- Music Production
+- Art and Craft
+- Popular Music
 search_keywords:
 - Ethnography
 - Popular Culture
-- Creative industries
+- Creative Industries
 - Creativity
 - Songwriting
-- Talent development
-- Music production
-- Art and craft
-- Popularmusic
+- Talent Development
+- Music Production
+- Art and Craft
+- Popular Music
 selected_works:
 - title: 'Introduction to Special Issue: Home, Work, and Music - Toward a Domestic
     Turn in Popular Music Studies'

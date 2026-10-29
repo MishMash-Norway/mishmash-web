@@ -44,6 +44,8 @@ selected_works:
     url: /people/marie-dahlen/
   - name: Signe Alexandra  Domogalla
     role: Creator
+    slug: signe-alexandra-domogalla
+    url: /people/signe-alexandra-domogalla/
 - title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard
     Media Production Workflows
   year: '2026'
@@ -107,6 +109,8 @@ selected_works:
     role: SoundDesigner
   - name: Signe Alexandra  Domogalla
     role: Dancer
+    slug: signe-alexandra-domogalla
+    url: /people/signe-alexandra-domogalla/
 - title: Fra traumer til teater
   year: '2025'
   source: Popular science article
@@ -115,6 +119,8 @@ selected_works:
   contributors:
   - name: Signe Alexandra  Domogalla
     role: Creator
+    slug: signe-alexandra-domogalla
+    url: /people/signe-alexandra-domogalla/
   - name: Ashley Rebecca Bell
     role: Creator
   - name: Miroslava Tokovska

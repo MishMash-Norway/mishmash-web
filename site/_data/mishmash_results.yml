@@ -1,4 +1,4 @@
-synced_at: '2026-10-28T11:13:46Z'
+synced_at: '2026-10-29T11:40:53Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -991,6 +991,47 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
   url: https://doi.org/10.5281/ZENODO.22643770
   nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+- title: Toward Locally Responsive Approaches to Diversity in Music Education
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Eirik Sørbø
+    role: Creator
+    slug: eirik-sorbo
+    url: /people/eirik-sorbo/
+  - name: Adam Patrick Bell
+    role: Creator
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Sørbø, Eirik
+      name: Eirik Sørbø
+      slug: eirik-sorbo
+      url: /people/eirik-sorbo/
+    - display: Bell, Adam Patrick
+      name: Adam Patrick Bell
+    title: Toward Locally Responsive Approaches to Diversity in Music Education
+    container: Creative Synergies.
+    details: Kristiansand.
+    abstract: Drawing on our experiences working in university music programs in Norway
+      and Canada, this primer examines how academic institutions in both countries
+      conceptualize “diversity” and how related policies and practices are implemented
+      to realize diversity withing music programs. Focusing on popular music programs
+      and initiatives within higher education, we stress that national approaches
+      appear to be failing to realize their intended aims related to diversity and
+      therefore as an alternative, music programs might consider a move toward more
+      bottom-up, locally-responsive approaches to better support and represent the
+      diversity of people (and their associated musical practices) within their respective
+      communities.
+    full_text_url: https://hdl.handle.net/11250/5592554
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a186b6c503-16c2158d-5b84-4f3a-8c16-630cca247ea9
+  nva_url: https://nva.sikt.no/registration/01a186b6c503-16c2158d-5b84-4f3a-8c16-630cca247ea9
 - title: 'What is MishMash: Centre for AI and Creativity? On WP6 AI for cultural heritage'
   year: '2026'
   type: ConferenceLecture

@@ -49,6 +49,17 @@ search_keywords:
 - Artificial Intelligence
 - Film Studies
 selected_works:
+- title: 'Sonic Perspectives from the Global Souths: Unheard Reciprocity, Resonant
+    Relationality, and Aural Confluence'
+  year: '2027'
+  source: Monograph
+  group_type: Monograph
+  url: https://www.bloomsbury.com/uk/sonic-perspectives-from-the-global-souths-9781501365850/
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    role: Creator
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
 - title: Land without Food
   year: '2026'
   source: Exhibition
@@ -77,17 +88,6 @@ selected_works:
   contributors:
   - name: Budhaditya Chattopadhyay
     role: Composer
-    slug: budhaditya-chattopadhyay
-    url: /people/budhaditya-chattopadhyay/
-- title: 'Sonic Perspectives from the Global Souths: Unheard Reciprocity, Resonant
-    Relationality, and Aural Confluence'
-  year: '2026'
-  source: Monograph
-  group_type: Monograph
-  url: https://www.bloomsbury.com/uk/sonic-perspectives-from-the-global-souths-9781501365850/
-  contributors:
-  - name: Budhaditya Chattopadhyay
-    role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
 - title: Technologies of Capture and the Global Souths

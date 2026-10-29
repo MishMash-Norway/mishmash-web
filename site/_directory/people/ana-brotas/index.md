@@ -3,8 +3,8 @@ type: person
 slug: ana-brotas
 name: Ana Brotas
 title: Ana Brotas
-position: PhD Candidate
-department: Department of Leadership and Innovation
+position: PhD Fellow
+department: Department of Performing Arts, Film and Media
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college
