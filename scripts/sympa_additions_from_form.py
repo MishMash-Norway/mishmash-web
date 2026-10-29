@@ -28,7 +28,18 @@ Add, and come back to the terminal. xclip is used when it is installed;
 without it the clipboard is held by Tk, and the script must stay running
 until the last paste.
 
-Nothing is sent to Sympa; adding members needs a list owner's login.
+The same additions are also written as sympaadmin commands to
+temp/sympa-commands.txt, one "add" line per person and list. sympaadmin is
+UiO's command-line client for Sympa and is installed on login.uio.no; it adds
+members through Sympa's SOAP interface as the list owner, with no browser:
+
+    ssh -t login.uio.no sympaadmin < temp/sympa-commands.txt
+
+It reads ~/.sympaadmin.ini on login.uio.no (soapuser = the owner address,
+soapserver = https://sympa.uio.no/mishmash.no-sympasoap for the mishmash.no
+lists) and asks for the UiO password. "list admin" shows which lists it sees.
+
+The script itself sends nothing to Sympa.
 """
 
 from __future__ import annotations
@@ -133,6 +144,8 @@ def main() -> int:
 
     TEMP.mkdir(exist_ok=True)
     total = 0
+    commands = [f"add {email} {wp.lower()}@mishmash.no\n" for wp, members in per_list.items() for email, _ in members]
+    (TEMP / "sympa-commands.txt").write_text("".join(commands), encoding="utf-8")
     for wp, members in per_list.items():
         if not members:
             continue
@@ -143,6 +156,8 @@ def main() -> int:
             print(f"  {email} {name}")
         total += len(members)
     print(f"\n{total} additions written to temp/sympa-add-wpN.txt; {skipped_existing} already subscribed (per the list exports in temp/).")
+    if total:
+        print("sympaadmin commands: temp/sympa-commands.txt  →  ssh -t login.uio.no sympaadmin < temp/sympa-commands.txt")
     if no_wp:
         print(f"\n{len(no_wp)} ticked no work package, so they reach no list (all@ is built from the WP lists):")
         for email, name in no_wp:
