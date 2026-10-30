@@ -1,11 +1,12 @@
 ---
+layout: person
 type: person
 slug: ida-tolgensbakk
 name: Ida Tolgensbakk
 title: Ida Tolgensbakk
-position: Senior lecturer
-department: Department of Archaeology, History, Cultural studies and Religion
-institution: university-of-bergen
+position: Førstekonservator
+department: The Norsk Folkemuseum foundation
+institution: norwegian-museum-of-cultural-history
 institutions:
 - norwegian-museum-of-cultural-history
 - university-of-bergen

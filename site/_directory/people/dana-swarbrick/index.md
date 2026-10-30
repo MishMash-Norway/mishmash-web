@@ -39,6 +39,27 @@ tags:
 search_keywords:
 - Music Cognition
 selected_works:
+- title: The Climber's Grip -- Personalized Deep Learning Models for Fear and Muscle
+    Activity in Climbing
+  year: '2026'
+  source: Report
+  group_type: Report
+  url: https://arxiv.org/abs/2603.26575
+  contributors:
+  - name: Matthias Boeker
+    role: Creator
+  - name: Dana Swarbrick
+    role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
+  - name: Ulysse Teller Masao Côté-Allard
+    role: Creator
+  - name: Adam, Marc T. P.
+    role: Creator
+  - name: Hugo Lewi Hammer
+    role: Creator
+  - name: Pål Halvorsen
+    role: Creator
 - title: 'micromotion: A Python toolbox for analysing human micromotion in motion
     time series'
   year: '2026'
@@ -252,29 +273,6 @@ selected_works:
     role: Creator
     slug: dana-swarbrick
     url: /people/dana-swarbrick/
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-- title: 'Measuring Virtual Audiences with The MusicLab App: Proof of Concept'
-  year: '2022'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Dana Swarbrick
-    role: Creator
-    slug: dana-swarbrick
-    url: /people/dana-swarbrick/
-  - name: Finn Upham
-    role: Creator
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
   - name: Jonna Katariina Vuoskoski
     role: Creator
     slug: jonna-vuoskoski

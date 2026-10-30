@@ -1,4 +1,4 @@
-synced_at: '2026-10-29T11:40:53Z'
+synced_at: '2026-10-30T11:27:04Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -991,6 +991,41 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
   url: https://doi.org/10.5281/ZENODO.22643770
   nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+- title: 'AI Ecologies: Thoughts on Photography in an AI Universe'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  institutions:
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    title: 'AI Ecologies: Thoughts on Photography in an AI Universe'
+    container: 'Landskonferanse foto 2026: Bevaring og formidling av fotografi: Fortid,
+      nåtid og fremtid.'
+    details: Nasjonalmuseet for kunst, arkitektur og design.
+    abstract: The presentation examines how artificial intelligence is transforming
+      the conditions under which photographs and other images are made, stored, interpreted
+      and circulated. It proposes understanding AI not simply as a tool, but as an
+      environment shaped by interconnected infrastructural, operational and epistemic
+      systems. Through examples from contemporary artistic practice, the presentation
+      considers the implications of AI for photographic archives, image production,
+      classification, training data, and questions of ethics and sustainability.
+    full_text_url: https://hdl.handle.net/11250/5593022
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a189237fc0-888aa700-0cdf-4ea9-b2d9-55c64fb7cff7
+  nva_url: https://nva.sikt.no/registration/01a189237fc0-888aa700-0cdf-4ea9-b2d9-55c64fb7cff7
 - title: Toward Locally Responsive Approaches to Diversity in Music Education
   year: '2026'
   type: ConferenceLecture
@@ -6063,6 +6098,40 @@ results:
     nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
   url: https://doi.org/10.1093/mts/mtab013
   nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+- title: 'MeshUp #18: Copyright, Street Art and AI | MishMash Centre for AI and Creativity'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Siri-Helen Egeland
+    role: Creator
+  - name: Irina  Eidsvold-Tøien
+    role: RoleOther
+    slug: irina-eidsvold
+    url: /people/irina-eidsvold/
+  institutions:
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  - name: BI Norwegian Business School
+    slug: bi-norwegian-business-school
+    url: /institutions/bi-norwegian-business-school/
+  citation:
+    authors:
+    - display: Egeland, Siri-Helen
+      name: Siri-Helen Egeland
+    title: 'MeshUp #18: Copyright, Street Art and AI | MishMash Centre for AI and
+      Creativity'
+    container: 'MeshUp #18: Copyright, Street Art and AI.'
+    details: Digitalt.
+    abstract: Siri-Helen Egeland discusses copyright, street art, and AI, including
+      legal challenges around web scraping and text-to-image systems.
+    full_text_url: https://hdl.handle.net/11250/5592819
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a187a9ba56-cc757e55-27c7-4283-a257-946acc1b01d0
+  url: https://mishmash.no/events/meshup-18/
+  nva_url: https://nva.sikt.no/registration/01a187a9ba56-cc757e55-27c7-4283-a257-946acc1b01d0
 - title: 'AI in music education research: What do we know, and what can we expect?'
   year: '2026'
   type: Lecture

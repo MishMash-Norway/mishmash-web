@@ -72,7 +72,7 @@ selected_works:
     url: /people/jens-knigge/
   - name: Kirsti Nørstebø
     role: Creator
-- title: Mobility for MusIc EducatIon Students – Section Introduction
+- title: Mobility for Music Education Students – Section Introduction
   year: '2026'
   source: Book chapter
   group_type: Book chapter

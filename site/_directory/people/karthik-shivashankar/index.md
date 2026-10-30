@@ -124,7 +124,7 @@ selected_works:
   year: '2025'
   source: Book chapter
   group_type: Book chapter
-  url: https://ieeexplore.ieee.org/document/11030059
+  url: https://doi.org/10.1109/CAIN66642.2025.00026
   contributors:
   - name: Karthik Shivashankar
     role: Creator
