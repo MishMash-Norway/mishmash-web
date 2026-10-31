@@ -44,6 +44,17 @@ search_keywords:
 - Composition
 - Music Technology
 selected_works:
+- title: Inarborat på Tofukuji-Tempel
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Mathieu Lacroix
+    role: Composer
+    slug: mathieu-lacroix
+    url: /people/mathieu-lacroix/
+  - name: Fukuhara Sawako
+    role: Musician
 - title: Electric Audio Unit med Dr. Karlheinz Essl
   year: '2026'
   source: Music performance
@@ -150,17 +161,6 @@ selected_works:
     role: Organizer
     slug: anders-tveit
     url: /people/anders-tveit/
-- title: Territories of the Mind & Modernism
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Mathieu Lacroix
-    role: Composer
-    slug: mathieu-lacroix
-    url: /people/mathieu-lacroix/
-  - name: Oscar Debs
-    role: RoleOther
 source_mentions: []
 summary: Mathieu Lacroix is a Canadian composer, producer, musician and programmer
   based in Norway, and an associate professor at the Department of Arts and Cultural

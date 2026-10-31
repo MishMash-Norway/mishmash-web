@@ -1,7 +1,7 @@
 ---
+layout: person
 type: person
 slug: david-rych
-permalink: /people/david-rych/
 name: David Rych
 title: David Rych
 position: Professor
@@ -54,6 +54,7 @@ selected_works:
     url: /people/david-rych/
 source_mentions: []
 summary: ''
+permalink: /people/david-rych/
 published: true
 wps:
 - WP2
