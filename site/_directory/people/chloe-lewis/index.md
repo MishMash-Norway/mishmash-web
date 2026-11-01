@@ -30,6 +30,30 @@ search_keywords:
 - Fine Arts Education
 - Contemporary Art
 selected_works:
+- title: Vestlandsutstillingen
+  year: '2027'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://www.instagram.com/vestlandsutstillingen/
+  contributors:
+  - name: Chloe Suzanne Lewis
+    role: Artist
+    slug: chloe-lewis
+    url: /people/chloe-lewis/
+  - name: Andrew Bruce Taggart
+    role: Artist
+- title: The Bergen Art Book Fair
+  year: '2026'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://babf.no/program/2026/frame-a-book
+  contributors:
+  - name: Chloe Suzanne Lewis
+    role: Artist
+    slug: chloe-lewis
+    url: /people/chloe-lewis/
+  - name: Andrew Bruce Taggart
+    role: Artist
 - title: KMD + KNUST Partnership
   year: '2026'
   source: Other artistic output
@@ -37,6 +61,8 @@ selected_works:
   contributors:
   - name: Chloe Suzanne Lewis
     role: RoleOther
+    slug: chloe-lewis
+    url: /people/chloe-lewis/
 - title: Invisible Courses
   year: '2026'
   source: Visual arts
@@ -45,6 +71,8 @@ selected_works:
   contributors:
   - name: Chloe Suzanne Lewis
     role: Artist
+    slug: chloe-lewis
+    url: /people/chloe-lewis/
   - name: Nicola Meredith Gunn
     role: Consultant
 - title: Kunstnerne på Verftet i 40 år minst
@@ -55,6 +83,8 @@ selected_works:
   contributors:
   - name: Chloe Suzanne Lewis
     role: Artist
+    slug: chloe-lewis
+    url: /people/chloe-lewis/
   - name: Andrew Bruce Taggart
     role: Artist
 - title: Off the Grid
@@ -65,6 +95,8 @@ selected_works:
   contributors:
   - name: Chloe Suzanne Lewis
     role: Artist
+    slug: chloe-lewis
+    url: /people/chloe-lewis/
   - name: Andrew Bruce Taggart
     role: Artist
 - title: Books and Doors
@@ -75,6 +107,8 @@ selected_works:
   contributors:
   - name: Chloe Suzanne Lewis
     role: Artist
+    slug: chloe-lewis
+    url: /people/chloe-lewis/
   - name: Andrew Bruce Taggart
     role: Artist
 - title: 'Postkartenkilometer: Artist postcards in Europe from 1960 to today'
@@ -85,6 +119,8 @@ selected_works:
   contributors:
   - name: Chloe Suzanne Lewis
     role: Artist
+    slug: chloe-lewis
+    url: /people/chloe-lewis/
   - name: Andrew Bruce Taggart
     role: Artist
 - title: Pages and Doors
@@ -95,36 +131,20 @@ selected_works:
   contributors:
   - name: Chloe Suzanne Lewis
     role: Artist
+    slug: chloe-lewis
+    url: /people/chloe-lewis/
   - name: Andrew Bruce Taggart
     role: Artist
-- title: WOODOOW
+- title: Poor Dictionary
   year: '2022'
   source: Visual arts
   group_type: Visual arts
-  url: https://iof.uap.edu.pl/events/woodoow-1stm-55/
+  url: https://artviewer.org/andrea-spreafico-at-entree/
   contributors:
   - name: Chloe Suzanne Lewis
     role: Artist
-  - name: Andrew Bruce Taggart
-    role: Artist
-- title: 1a – 9i
-  year: '2022'
-  source: Visual arts
-  group_type: Visual arts
-  url: https://gyldenpriskunsthall.no/lewisandtaggart-1
-  contributors:
-  - name: Chloe Suzanne Lewis
-    role: Artist
-  - name: Andrew Bruce Taggart
-    role: Artist
-- title: MOLAF Circumflexions
-  year: '2021'
-  source: Visual arts
-  group_type: Visual arts
-  url: https://www.pamflett.no/publications/molaf-circumflexions
-  contributors:
-  - name: Chloe Suzanne Lewis
-    role: Artist
+    slug: chloe-lewis
+    url: /people/chloe-lewis/
   - name: Andrew Bruce Taggart
     role: Artist
 source_mentions: []
