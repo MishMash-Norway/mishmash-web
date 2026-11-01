@@ -23,10 +23,10 @@ title: "WP4 Leaders"
 </div>
 
 <div class="wp-member-row">
-    <a href="https://www.inn.no/english/find-an-employee/fredrik-graver.html"><img src="/assets/images/portraits/Fredrik_Graver_INN.jpg" alt="Fredrik Graver" class="wp-member-photo"></a>
+    <a href="https://www.nord.no/en/about/employees/jens-knigge"><img src="/assets/images/portraits/Jens_Knigge_NTNU.jpg" alt="Jens Knigge" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.inn.no/english/find-an-employee/fredrik-graver.html">Fredrik Graver</a><br>
-    University of Inland Norway<br>
+    <a href="https://www.nord.no/en/about/employees/jens-knigge">Jens Knigge</a><br>
+    Nord University<br>
     Co-lead in WP4. Info to come. 
     </div>
 </div>

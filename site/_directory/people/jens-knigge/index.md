@@ -40,10 +40,10 @@ other_projects:
   url: https://nva.sikt.no/projects/2777065
   nva_id: '2777065'
 roles:
-- Member
+- Work Package Leader
 urls:
   personal_website: https://jensknigge.info/
-  institutional_website: http://jensknigge.info
+  institutional_website: https://www.nord.no/en/about/employees/jens-knigge
   github: ''
   linkedin: https://www.linkedin.com/in/jens-knigge-558490117/
   orcid: https://orcid.org/0000-0002-3910-7716

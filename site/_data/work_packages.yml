@@ -13,7 +13,6 @@
   url: /wp2/
   members:
     - budhaditya-chattopadhyay
-    - sashi-komandur
     - synne-tollerud-bull
 - id: wp3
   label: WP3
@@ -30,7 +29,7 @@
   members:
     - eirik-sorbo
     - sidsel-karlsen
-    - fredrik-graver
+    - jens-knigge
 - id: wp5
   label: WP5
   name: AI in the Creative and Cultural Industries
@@ -54,4 +53,4 @@
   members:
     - carsten-griwodz
     - baltasar-beferull-lozano
-    - kjetil-nordby
+    - sashi-komandur

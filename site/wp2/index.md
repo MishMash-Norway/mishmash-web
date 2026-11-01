@@ -106,15 +106,6 @@ The centre's other commitments on sustainability, openness and reuse are on the 
 </div>
 
 <div class="wp-member-row">
-    <a href="https://www.inn.no/english/find-an-employee/sashi-komandur.html"><img src="/assets/images/portraits/Sashidharan_Komandur_INN.jpg" alt="Sashi Komandur" class="wp-member-photo"></a>
-    <div>
-    <a href="https://www.inn.no/english/find-an-employee/sashi-komandur.html">Sashi Komandur</a><br>
-    University of Inland Norway<br>
-    Co-lead
-    </div>
-</div>
-
-<div class="wp-member-row">
     <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/"><img src="/assets/images/portraits/Synne_Tollerud_Bull_Kristiania.jpg" alt="Synne Tollerud Bull" class="wp-member-photo"></a>
     <div>
     <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/">Synne Tollerud Bull</a><br>

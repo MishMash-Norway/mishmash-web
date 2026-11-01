@@ -16,4 +16,4 @@ This page is for MishMash members only, and WP4 members in particular. It is a n
 ## Contact
 - [Eirik Sørbø](mailto:eirik.sorbo@uia.no) (lead)  
 - [Sidsel Karlsen](mailto:sidsel.karlsen@nmh.no) (co-lead) 
-- [Fredrik Graver](mailto:fredrik.graver@inn.no) (co-lead) 
+- [Jens Knigge](https://www.nord.no/en/about/employees/jens-knigge) (co-lead) 

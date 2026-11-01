@@ -125,10 +125,10 @@ The centre's other commitments on sustainability, openness and reuse are on the 
 </div>
 
 <div class="wp-member-row">
-    <a href="https://www.aho.no/english/about/employees/kjetiln/"><img src="/assets/images/portraits/Kjetil_Nordby_AHO.jpg" alt="Kjetil Nordby" class="wp-member-photo"></a>
+    <a href="https://www.inn.no/english/find-an-employee/sashi-komandur.html"><img src="/assets/images/portraits/Sashidharan_Komandur_INN.jpg" alt="Sashi Komandur" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.aho.no/english/about/employees/kjetiln/">Kjetil Nordby</a><br>
-    Oslo School of Architecture and Design<br>
+    <a href="https://www.inn.no/english/find-an-employee/sashi-komandur.html">Sashi Komandur</a><br>
+    University of Inland Norway<br>
     Co-lead
     </div>
 </div>
