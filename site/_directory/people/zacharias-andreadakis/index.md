@@ -48,12 +48,12 @@ selected_works:
   group_type: Book anthology
   url: https://doi.org/10.1007/978-3-032-22167-4
   contributors:
-  - name: Czarecah Tuppil Oropilla
-    role: Editor
   - name: Zacharias Andreadakis
     role: Editor
     slug: zacharias-andreadakis
     url: /people/zacharias-andreadakis/
+  - name: Czarecah Tuppil Oropilla
+    role: Editor
 source_mentions: []
 summary: ''
 layout: person

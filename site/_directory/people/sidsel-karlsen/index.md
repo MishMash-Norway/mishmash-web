@@ -15,6 +15,9 @@ projects:
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
 other_projects:
+- title: MishMash - Senter for KI og kreativitet
+  url: https://nva.sikt.no/projects/2780273
+  nva_id: '2780273'
 - title: SAMUS - Samisk musikk i musikkundervisningen
   url: https://nva.sikt.no/projects/2757025
   nva_id: '2757025'

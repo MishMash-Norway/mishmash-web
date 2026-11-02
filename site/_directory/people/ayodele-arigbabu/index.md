@@ -3,7 +3,7 @@ type: person
 slug: ayodele-arigbabu
 name: Ayodele Arigbabu
 title: Ayodele Arigbabu
-position: PhD Candidate
+position: Researcher / PhD Candidate
 department: Kunstakademiet i Trondheim
 institution: norwegian-university-of-science-and-technology
 institutions:
