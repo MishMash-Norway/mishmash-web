@@ -1,0 +1,57 @@
+{% comment %}
+  The term atlas: Termportalen's terms for artificial intelligence and higher
+  education, drawn as a web of definitions and as the distance between Bokmål
+  and Nynorsk. Data: /lab/term-atlas/terms.json, written by
+  scripts/build_term_atlas.py; drawing: /assets/js/term-atlas.js.
+  Usage: {% include term-atlas.html lang="en" %} or lang="nb".
+{% endcomment %}
+{% assign nb = false %}{% if include.lang == 'nb' %}{% assign nb = true %}{% endif %}
+<div id="term-atlas" data-src="{{ '/lab/term-atlas/terms.json' | relative_url }}" data-lang="{% if nb %}nb{% else %}en{% endif %}">
+{% if nb %}
+<p>Ord for kunstig intelligens og for høyere utdanning, slik <a href="https://www.termportalen.no/">Termportalen</a> ved Universitetet i Bergen gir dem på bokmål, nynorsk og engelsk. Siden henter termene fra to termbaser: termbasen for <a href="https://www.termportalen.no/tb/KI">kunstig intelligens</a> (CC0) og <a href="https://www.termportalen.no/tb/UHR">Universitets- og høgskolerådets termbase</a> (CC BY 4.0), som også er grunnlaget for <a href="/no/about/languages/">termlisten nettstedet bruker</a> når nynorsksidene lages. <span id="ta-summary"></span></p>
+
+<h2>Definisjonsnettet</h2>
+<p>En definisjon forklarer et ord med andre ord. Her er hver term et punkt, og en strek betyr at den ene termens definisjon bruker den andre. Store punkter brukes på mange sider på mishmash.no. Termene i midten er dem fagområdet hviler på; termer uten streker er definert med vanlige ord. Trykk på et punkt for å se termen på tre språk, definisjonen og sidene som bruker den.</p>
+<div id="ta-graph" class="ta-graph" role="img" aria-label="Nettverk av termer der en strek betyr at en definisjon bruker en annen term"></div>
+<ul class="ta-legend">
+  <li><span class="ta-swatch ta-src-termportalen-ki"></span>Kunstig intelligens (Termportalen)</li>
+  <li><span class="ta-swatch ta-src-uhr-termbase"></span>Høyere utdanning (UHR)</li>
+  <li><span class="ta-swatch ta-src-centre"></span>Senterets eget valg</li>
+</ul>
+<div id="ta-detail" class="ta-detail" aria-live="polite"><p class="muted">Velg en term i nettet eller i listen under.</p></div>
+
+<h2>Der bokmål og nynorsk skilles</h2>
+<p>De fleste termene skrives likt i begge målformene. Noen skiller seg med en bokstav eller en endelse, og noen er helt andre ord. Den siste kolonnen er der en maskin lett tar feil: et merke viser hvor <a href="/no/about/ai-colophon/">Apertium</a>, som lager nynorsksidene våre, gir en annen form enn Termportalen. Der retter nettstedet etter termlisten.</p>
+<div id="ta-split" class="ta-split"></div>
+
+<h2>Alle termene</h2>
+<div id="ta-list"></div>
+
+<h2>Slik er det laget</h2>
+<p>Termportalen har ikke et åpent API, så <a href="https://github.com/MishMash-Norway/mishmash-web/blob/main/scripts/build_term_atlas.py"><code>build_term_atlas.py</code></a> leser hver begrepsside, én i sekundet, og skriver <a href="/lab/term-atlas/terms.json" data-proofer-ignore="true"><code>terms.json</code></a>. En definisjon regnes som å bruke en term når termen står i den som et helt ord, bøyd eller ikke. Nettet og kolonnene tegnes av <a href="https://github.com/MishMash-Norway/mishmash-web/blob/main/site/assets/js/term-atlas.js"><code>term-atlas.js</code></a> uten biblioteker. Termene og definisjonene tilhører kildene og har deres lisenser.</p>
+{% else %}
+<p>Words for artificial intelligence and for higher education, as <a href="https://www.termportalen.no/">Termportalen</a> at the University of Bergen gives them in Bokmål, Nynorsk and English. The page draws on two termbases: the termbase for <a href="https://www.termportalen.no/tb/KI">artificial intelligence</a> (CC0) and the <a href="https://www.termportalen.no/tb/UHR">termbase of Universities Norway</a> (CC BY 4.0), which is also the basis of <a href="/about/languages/">the term list the site uses</a> when it makes the Nynorsk pages. <span id="ta-summary"></span></p>
+
+<h2>The web of definitions</h2>
+<p>A definition explains a word with other words. Here each term is a dot, and a line means that one term's definition uses the other. Large dots are used on many pages of mishmash.no. The terms in the middle are the ones the field rests on; terms without lines are defined in ordinary words. Press a dot to see the term in three languages, its definition and the pages that use it.</p>
+<div id="ta-graph" class="ta-graph" role="img" aria-label="Network of terms, where a line means a definition uses another term"></div>
+<ul class="ta-legend">
+  <li><span class="ta-swatch ta-src-termportalen-ki"></span>Artificial intelligence (Termportalen)</li>
+  <li><span class="ta-swatch ta-src-uhr-termbase"></span>Higher education (Universities Norway)</li>
+  <li><span class="ta-swatch ta-src-centre"></span>The centre's own choice</li>
+</ul>
+<div id="ta-detail" class="ta-detail" aria-live="polite"><p class="muted">Choose a term in the web or in the list below.</p></div>
+
+<h2>Where Bokmål and Nynorsk part ways</h2>
+<p>Most terms are written the same way in both written forms of Norwegian. Some differ by a letter or an ending, and some are different words altogether. The last column is where a machine easily goes wrong: a mark shows where <a href="/about/ai-colophon/">Apertium</a>, which makes our Nynorsk pages, gives a different form from Termportalen. There the site corrects it from the term list.</p>
+<div id="ta-split" class="ta-split"></div>
+
+<h2>All the terms</h2>
+<div id="ta-list"></div>
+
+<h2>How it is made</h2>
+<p>Termportalen has no open API, so <a href="https://github.com/MishMash-Norway/mishmash-web/blob/main/scripts/build_term_atlas.py"><code>build_term_atlas.py</code></a> reads each concept page, one a second, and writes <a href="/lab/term-atlas/terms.json" data-proofer-ignore="true"><code>terms.json</code></a>. A definition counts as using a term when the term appears in it as a whole word, inflected or not. The web and the columns are drawn by <a href="https://github.com/MishMash-Norway/mishmash-web/blob/main/site/assets/js/term-atlas.js"><code>term-atlas.js</code></a> without libraries. The terms and definitions belong to their sources and keep their licences.</p>
+{% endif %}
+<noscript><p><em>{% if nb %}Nettet og kolonnene krever JavaScript. Termene ligger i <a href="/lab/term-atlas/terms.json" data-proofer-ignore="true">terms.json</a>.{% else %}The web and the columns need JavaScript. The terms are in <a href="/lab/term-atlas/terms.json" data-proofer-ignore="true">terms.json</a>.{% endif %}</em></p></noscript>
+</div>
+<script defer src="{{ '/assets/js/term-atlas.js' | relative_url }}"></script>

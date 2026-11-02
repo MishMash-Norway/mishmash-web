@@ -1,0 +1,1145 @@
+{
+ "generated": "2026-11-02",
+ "sources": {
+  "termportalen-ki": {
+   "name": "Termportalen: Kunstig intelligens",
+   "url": "https://www.termportalen.no/tb/KI",
+   "licence": "CC0"
+  },
+  "uhr-termbase": {
+   "name": "Termportalen: Universitets- og høgskolerådets termbase",
+   "url": "https://www.termportalen.no/tb/UHR",
+   "licence": "CC BY 4.0"
+  },
+  "centre": {
+   "name": "MishMash",
+   "url": "https://mishmash.no/",
+   "licence": "CC0"
+  }
+ },
+ "concepts": [
+  {
+   "id": "ki-autonom",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Autonom",
+   "nb": "autonom",
+   "nn": "autonom",
+   "en": "autonomous",
+   "definition": {
+    "nb": "som er autonom ved hjelp av KI",
+    "nn": "som er autonom ved hjelp av KI"
+   },
+   "uses": [],
+   "kind": "same",
+   "apertium": "autonom",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/description/",
+     "title": "Beskrivelse"
+    }
+   ]
+  },
+  {
+   "id": "ki-bias2",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Bias2",
+   "nb": "skjevhet",
+   "nn": "skeivskap",
+   "en": "bias",
+   "definition": {
+    "nb": "ikke-representativ datafordeling i et datasett",
+    "nn": "ikkje-representativ datafordeling i eit datasett"
+   },
+   "uses": [],
+   "kind": "different",
+   "apertium": "skeivskap",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/code-of-conduct/",
+     "title": "Etiske retningslinjer"
+    },
+    {
+     "url": "/no/about/description/",
+     "title": "Beskrivelse"
+    },
+    {
+     "url": "/no/about/organisation/board/meetings/2026-06-26/",
+     "title": "MishMash styremøte #2"
+    }
+   ]
+  },
+  {
+   "id": "ki-chatbot",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Chatbot",
+   "nb": "praterobot",
+   "nn": "praterobot",
+   "en": "chatbot",
+   "definition": {
+    "nb": "dataprogram som er laget for å simulere en samtale med et menneske, gjerne ved hjelp av en språkmodell",
+    "nn": "dataprogram som er laga for å simulere ein samtale med eit menneske, gjerne ved hjelp av ein språkmodell"
+   },
+   "uses": [
+    "ki-språkmodell"
+   ],
+   "kind": "same",
+   "apertium": "praterobot",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-datasyn",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Datasyn",
+   "nb": "datasyn",
+   "nn": "datasyn",
+   "en": "computer vision",
+   "definition": {
+    "nn": "felt som handlar om maskinell behandling av bilete",
+    "nb": "felt som handler om maskinell behandling av bilder"
+   },
+   "uses": [],
+   "kind": "same",
+   "apertium": "datasyn",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-djupfeik",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Djupfeik",
+   "nb": "dypfeik",
+   "nn": "djupfeik",
+   "en": "deep fake",
+   "definition": {
+    "nn": "bruk av maskinlæringsmodellar til å skape realistiske forvridingar av av opphavleg ekte bilete eller lyd",
+    "nb": "bruk av maskinlæringsmodeller til å skape realistiske forvridninger av opprinnelig ekte bilder eller lyd"
+   },
+   "uses": [],
+   "kind": "close",
+   "apertium": "djupfeik",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-dyp_læring",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Dyp_læring",
+   "nb": "dyp læring",
+   "nn": "djup læring",
+   "en": "deep learning",
+   "definition": {
+    "nn": "læring med djupe nevrale nettverk",
+    "nb": "læring med dype nevrale nettverk"
+   },
+   "uses": [],
+   "kind": "close",
+   "apertium": "djup læring",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-dypt_nevralt_nettverk",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Dypt_nevralt_nettverk",
+   "nb": "dypt nevralt nettverk",
+   "nn": "djupt nevralt nettverk",
+   "en": "deep neural network",
+   "definition": {
+    "nn": "modell med minst eitt ekstra lag i tillegg til innputt- og utputtlaget",
+    "nb": "modell med minst ett ekstra lag i tillegg til innputt- og utputtlaget"
+   },
+   "uses": [
+    "ki-modell"
+   ],
+   "kind": "close",
+   "apertium": "djupt nevralt nettverk",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-fintrening",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Fintrening",
+   "nb": "fintrening",
+   "nn": "fintrening",
+   "en": "finetuning",
+   "definition": {
+    "nb": "videre trening på en modell som allerede er trent",
+    "nn": "vidare trening på ein modell som allereie er trent"
+   },
+   "uses": [
+    "ki-modell"
+   ],
+   "kind": "same",
+   "apertium": "fintrening",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-generativ_ki",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Generativ_KI",
+   "nb": "generativ kunstig intelligens",
+   "nn": "generativ kunstig intelligens",
+   "en": "generative artificial intelligence",
+   "definition": {
+    "nb": "kunstig intelligens som genererer innhold fra inndata",
+    "nn": "kunstig intelligens som genererer innhald frå inndata"
+   },
+   "uses": [
+    "ki-generere",
+    "ki-inndata",
+    "ki-kunstig_intelligens"
+   ],
+   "kind": "same",
+   "apertium": "generativ kunstig intelligens",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-generativ_språkmodell",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Generativ_språkmodell",
+   "nb": "generativ språkmodell",
+   "nn": "generativ språkmodell",
+   "en": "generative language model",
+   "definition": {
+    "nn": "språkmodell som er trent for å generere tekst med utgangspunkt i ein instruks",
+    "nb": "språkmodell som er trent for å generere tekst med utgangspunkt i en instruks"
+   },
+   "uses": [
+    "ki-generere",
+    "ki-prompt",
+    "ki-språkmodell"
+   ],
+   "kind": "same",
+   "apertium": "generativ språkmodell",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-generere",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Generere",
+   "nb": "generere",
+   "nn": "generere",
+   "en": "generate",
+   "definition": {
+    "nn": "produsere medieinnhald ved hjelp av kunstig intelligens",
+    "nb": "produsere medieinnhold ved hjelp av kunstig intelligens"
+   },
+   "uses": [
+    "ki-kunstig_intelligens"
+   ],
+   "kind": "same",
+   "apertium": "generere",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/events/aulaen2026/transcript/",
+     "title": "Åpningsseremonien: utskrift"
+    }
+   ]
+  },
+  {
+   "id": "ki-inndata",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Inndata",
+   "nb": "inndata",
+   "nn": "inndata",
+   "en": "input",
+   "definition": {
+    "nb": "data som sendes inn til en funksjon, inkludert maskinlæringsmodeller",
+    "nn": "data som blir sende inn til ein funksjon, inkludert maskinlæringsmodellar"
+   },
+   "uses": [],
+   "kind": "same",
+   "apertium": "inndata",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-innholdsskjevhet",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Innholdsskjevhet",
+   "nb": "innholdsskjevhet",
+   "nn": "innhaldsskeivskap",
+   "en": "content bias",
+   "definition": {
+    "nb": "feilaktig, partisk eller diskriminerende KI-generert innhold",
+    "nn": "feilaktig, partisk eller diskriminerande KI-generert innhald"
+   },
+   "uses": [],
+   "kind": "different",
+   "apertium": "innhaldsskeivskap",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-instruks_med_ett_eksempel",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Instruks_med_ett_eksempel",
+   "nb": "instruks med ett eksempel",
+   "nn": "instruks med eitt døme",
+   "en": "one-shot prompt",
+   "definition": {
+    "nb": "instruks der det blir brukt ett eksempel",
+    "nn": "instruks der det blir brukt eitt døme"
+   },
+   "uses": [
+    "ki-prompt"
+   ],
+   "kind": "close",
+   "apertium": "instruks med eit døme",
+   "apertium_ok": false,
+   "pages": []
+  },
+  {
+   "id": "ki-instruks_uten_eksempler",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Instruks_uten_eksempler",
+   "nb": "instruks uten eksempler",
+   "nn": "instruks utan døme",
+   "en": "zero-shot prompt",
+   "definition": {
+    "nb": "instruks der det ikke blir brukt eksempler",
+    "nn": "instruks der det ikkje blir brukt døme"
+   },
+   "uses": [
+    "ki-prompt"
+   ],
+   "kind": "different",
+   "apertium": "instruks utan døme",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-kunstig_intelligens",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Kunstig_intelligens",
+   "nb": "kunstig intelligens",
+   "nn": "kunstig intelligens",
+   "en": "artificial intelligence",
+   "definition": {
+    "nb": "teknologi som etterligner menneskelig intelligens",
+    "nn": "teknologi som etterliknar menneskeleg intelligens"
+   },
+   "uses": [],
+   "kind": "same",
+   "apertium": "kunstig intelligens",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/glossary/",
+     "title": "Ordliste"
+    },
+    {
+     "url": "/no/about/languages/",
+     "title": "Språk"
+    },
+    {
+     "url": "/no/events/aulaen2026/transcript/",
+     "title": "Åpningsseremonien: utskrift"
+    },
+    {
+     "url": "/no/lab/term-atlas/",
+     "title": "Termatlas"
+    }
+   ]
+  },
+  {
+   "id": "ki-maskinlæring",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Maskinlæring",
+   "nb": "maskinlæring",
+   "nn": "maskinlæring",
+   "en": "machine learning",
+   "definition": {
+    "nn": "prosess der algoritmar lærer maskiner å finne mønster i store datamengder",
+    "nb": "prosess der algoritmer lærer maskiner å finne mønstre i store datamengder"
+   },
+   "uses": [],
+   "kind": "same",
+   "apertium": "maskinlæring",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/description/",
+     "title": "Beskrivelse"
+    }
+   ]
+  },
+  {
+   "id": "ki-maskinoversettelse",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Maskinoversettelse",
+   "nb": "maskinoversettelse",
+   "nn": "maskinomsetjing",
+   "en": "machine translation",
+   "definition": {
+    "nn": "automatisk omsetjing frå eitt språk til eit anna ved hjelp av teknologi",
+    "nb": "automatisk oversettelse fra ett språk til et annet ved hjelp av teknologi"
+   },
+   "uses": [],
+   "kind": "different",
+   "apertium": "maskinomsetjing",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/ai-colophon/",
+     "title": "KI-kolofon"
+    },
+    {
+     "url": "/no/about/languages/",
+     "title": "Språk"
+    }
+   ]
+  },
+  {
+   "id": "ki-modell",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Modell",
+   "nb": "modell",
+   "nn": "modell",
+   "en": "model",
+   "definition": {
+    "nn": "implementasjon av ein algoritme som er trent til eit bestemt formål",
+    "nb": "implementasjon av en algoritme som er trent til et bestemt formål"
+   },
+   "uses": [],
+   "kind": "same",
+   "apertium": "modell",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/ai-colophon/",
+     "title": "KI-kolofon"
+    },
+    {
+     "url": "/no/about/description/",
+     "title": "Beskrivelse"
+    },
+    {
+     "url": "/no/about/organisation/board/meetings/2026-06-26/",
+     "title": "MishMash styremøte #2"
+    },
+    {
+     "url": "/no/about/organisation/board/meetings/2026-11-03/",
+     "title": "MishMash styremøte #4"
+    },
+    {
+     "url": "/no/events/aulaen2026/transcript/",
+     "title": "Åpningsseremonien: utskrift"
+    }
+   ]
+  },
+  {
+   "id": "ki-optimalisering",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Optimalisering",
+   "nb": "optimalisering",
+   "nn": "optimalisering",
+   "en": "optimalization",
+   "definition": {
+    "nn": "prosess for å forbetre noko, spesielt med tanke på å produsere betre resultat, men òg med tanke på bruk av straum og tid",
+    "nb": "prosess for å forbedre noe, spesielt med tanke på å produsere bedre resultater, men også med tanke på bruk av strøm og tid"
+   },
+   "uses": [],
+   "kind": "same",
+   "apertium": "optimalisering",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-prompt",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Prompt",
+   "nb": "instruks",
+   "nn": "instruks",
+   "en": "prompt",
+   "definition": {
+    "nn": "det å gi ein instruks for å generere KI-innhald",
+    "nb": "det å gi en instruks for å generere KI-innhold"
+   },
+   "uses": [
+    "ki-generere"
+   ],
+   "kind": "same",
+   "apertium": "instruks",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-prompt2",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Prompt2",
+   "nb": "gi instruks",
+   "nn": "gje instruks",
+   "en": "prompt",
+   "definition": {
+    "nb": "det å gi en instruks for å generere KI-innhold",
+    "nn": "det å gi ein instruks for å generere KI-innhald"
+   },
+   "uses": [
+    "ki-generere",
+    "ki-prompt"
+   ],
+   "kind": "close",
+   "apertium": "gi instruks",
+   "apertium_ok": false,
+   "pages": []
+  },
+  {
+   "id": "ki-regelbasert_teknologi",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Regelbasert_teknologi",
+   "nb": "regelbasert teknologi",
+   "nn": "regelbasert teknologi",
+   "en": "rule-based technology",
+   "definition": {
+    "nn": "teknologi basert på eit sett reglar, ikkje på mønster i språkmodellar",
+    "nb": "teknologi basert på et sett regler, ikke på mønstre i språkmodeller"
+   },
+   "uses": [
+    "ki-språkmodell"
+   ],
+   "kind": "same",
+   "apertium": "regelbasert teknologi",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-selvkjørende",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Selvkjørende",
+   "nb": "selvkjørende",
+   "nn": "sjølvkøyrande",
+   "en": "self-driving",
+   "definition": {
+    "nn": "som er sjølvkøyrande ved hjelp av KI",
+    "nb": "som er selvkjørende ved hjelp av KI"
+   },
+   "uses": [],
+   "kind": "close",
+   "apertium": "sjølvkøyrande",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-språkmodell",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Språkmodell",
+   "nb": "språkmodell",
+   "nn": "språkmodell",
+   "en": "language model",
+   "definition": {
+    "nn": "statistisk modell av eit språk som gir ei sannsynsfordeling over sekvensar av ord, og som derfor kan generere det mest sannsynlege neste ordet",
+    "nb": "statistisk modell av et språk som gir en sannsynlighetsfordeling over sekvenser av ord, og som derfor kan generere det mest sannsynlige neste ord"
+   },
+   "uses": [
+    "ki-generere",
+    "ki-modell"
+   ],
+   "kind": "same",
+   "apertium": "språkmodell",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/ai-colophon/",
+     "title": "KI-kolofon"
+    },
+    {
+     "url": "/no/about/languages/",
+     "title": "Språk"
+    },
+    {
+     "url": "/no/about/organisation/board/meetings/2026-06-26/",
+     "title": "MishMash styremøte #2"
+    },
+    {
+     "url": "/no/about/terms/",
+     "title": "Vilkår for bruk"
+    },
+    {
+     "url": "/no/data/",
+     "title": "Åpne data"
+    },
+    {
+     "url": "/no/events/aulaen2026/transcript/",
+     "title": "Åpningsseremonien: utskrift"
+    }
+   ]
+  },
+  {
+   "id": "ki-stemmestyrt_skriving",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Stemmestyrt_skriving",
+   "nb": "stemmestyrt skriving",
+   "nn": "stemmestyrt skriving",
+   "en": "voice typing",
+   "definition": {
+    "nb": "skriving ved hjelp av tale-til-tekst-teknologi",
+    "nn": "skriving ved hjelp av tale-til-tekst-teknologi"
+   },
+   "uses": [
+    "ki-tale-2dtil-2dtekst"
+   ],
+   "kind": "same",
+   "apertium": "stemmestyrt skriving",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-stor_språkmodell",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Stor_språkmodell",
+   "nb": "stor språkmodell",
+   "nn": "stor språkmodell",
+   "en": "large language model",
+   "definition": {
+    "nb": "språkmodell med et så stort antall parametre at den gir en god semantisk representasjon av tekst",
+    "nn": "språkmodell med eit så stort antal parametrar at han gir ein god semantisk representasjon av tekst"
+   },
+   "uses": [
+    "ki-språkmodell"
+   ],
+   "kind": "same",
+   "apertium": "stor språkmodell",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-store_datasett",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Store_datasett",
+   "nb": "store datasett",
+   "nn": "store datasett",
+   "en": "big datasets",
+   "definition": {
+    "nn": "samansetjing av fleire datasett til trening av KI",
+    "nb": "sammensetning av flere datasett til trening av KI"
+   },
+   "uses": [],
+   "kind": "same",
+   "apertium": "store datasett",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-subtoken",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Subtoken",
+   "nb": "subtoken",
+   "nn": "subtoken",
+   "en": "subword token",
+   "definition": {
+    "nb": "token som er resultat av en statistisk basert tokenisering, der et ord gjerne representeres av flere token",
+    "nn": "token som er resultat av ei statistisk basert tokenisering, der eit ord gjerne blir representert av fleire token"
+   },
+   "uses": [
+    "ki-token"
+   ],
+   "kind": "same",
+   "apertium": "subtoken",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-tale-2dtil-2dtekst",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Tale-2Dtil-2Dtekst",
+   "nb": "tale-til-tekst",
+   "nn": "tale-til-tekst",
+   "en": "speech-to-text",
+   "definition": {
+    "nb": "teknologi som omformer tale til skrift",
+    "nn": "teknologi som omformar tale til skrift"
+   },
+   "uses": [],
+   "kind": "same",
+   "apertium": "tale-til-tekst",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-token",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Token",
+   "nb": "token",
+   "nn": "token",
+   "en": "token",
+   "definition": {
+    "nb": "det å omarbeide tekst til en sekvens av token",
+    "nn": "det å omarbeide tekst til ein sekvens av token"
+   },
+   "uses": [],
+   "kind": "same",
+   "apertium": "token",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "ki-tokenisere",
+   "source": "termportalen-ki",
+   "licence": "CC0",
+   "url": "https://www.termportalen.no/tb/KI/Tokenisere",
+   "nb": "tokenisere",
+   "nn": "tokenisere",
+   "en": "tokenise",
+   "definition": {
+    "nb": "det å omarbeide tekst til en sekvens av token",
+    "nn": "det å omarbeide tekst til ein sekvens av token"
+   },
+   "uses": [
+    "ki-token"
+   ],
+   "kind": "same",
+   "apertium": "tokenisere",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "term-førsteamanuensis",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Førsteamanuensis",
+   "nb": "førsteamanuensis",
+   "nn": "førsteamanuensis",
+   "en": "associate professor",
+   "definition": {
+    "nb": "vitenskapelig forskningsstilling som krever doktorgrad eller tilsvarende kompetanse"
+   },
+   "uses": [
+    "term-doktorgrad"
+   ],
+   "kind": "same",
+   "apertium": "førsteamanuensis",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "term-postdoktor",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Postdoktor",
+   "nb": "postdoktor",
+   "nn": "postdoktor",
+   "en": "postdoctoral fellow",
+   "definition": {},
+   "uses": [],
+   "kind": "same",
+   "apertium": "postdoktor",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/description/",
+     "title": "Beskrivelse"
+    },
+    {
+     "url": "/no/about/training/",
+     "title": "Forskerutdanning"
+    },
+    {
+     "url": "/no/events/aulaen2026/transcript/",
+     "title": "Åpningsseremonien: utskrift"
+    }
+   ]
+  },
+  {
+   "id": "term-professor",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Professor",
+   "nb": "professor",
+   "nn": "professor",
+   "en": "professor",
+   "definition": {
+    "nb": "vitenskapelig forskningsstilling på høyeste nivå ved universitet eller høyskole"
+   },
+   "uses": [],
+   "kind": "same",
+   "apertium": "professor",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/description/",
+     "title": "Beskrivelse"
+    },
+    {
+     "url": "/no/events/aulaen2026/transcript/",
+     "title": "Åpningsseremonien: utskrift"
+    }
+   ]
+  },
+  {
+   "id": "term-universitetslektor",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Universitetslektor",
+   "nb": "universitetslektor",
+   "nn": "universitetslektor",
+   "en": "assistant professor",
+   "definition": {},
+   "uses": [],
+   "kind": "same",
+   "apertium": "universitetslektor",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/events/aulaen2026/transcript/",
+     "title": "Åpningsseremonien: utskrift"
+    }
+   ]
+  },
+  {
+   "id": "term-instituttleder",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Instituttleder",
+   "nb": "instituttleder",
+   "nn": "instituttleiar",
+   "en": "head of department",
+   "definition": {},
+   "uses": [],
+   "kind": "close",
+   "apertium": "instituttleiar",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "term-rektor",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Rektor",
+   "nb": "rektor",
+   "nn": "rektor",
+   "en": "rector",
+   "definition": {},
+   "uses": [],
+   "kind": "same",
+   "apertium": "rektor",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/events/aulaen2026/transcript/",
+     "title": "Åpningsseremonien: utskrift"
+    }
+   ]
+  },
+  {
+   "id": "term-emne",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Emne",
+   "nb": "emne",
+   "nn": "emne",
+   "en": "course",
+   "definition": {
+    "nb": "minste studiepoenggivende enhet som kan inngå i et studieprogram"
+   },
+   "uses": [
+    "term-studieprogram"
+   ],
+   "kind": "same",
+   "apertium": "emne",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/training/",
+     "title": "Forskerutdanning"
+    },
+    {
+     "url": "/no/data/",
+     "title": "Åpne data"
+    }
+   ]
+  },
+  {
+   "id": "term-studieprogram",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Studieprogram",
+   "nb": "studieprogram",
+   "nn": "studieprogram",
+   "en": "programme of study",
+   "definition": {
+    "nb": "Universitets- og høyskoleutdanning som gir et definert læringsutbytte og har eget opptak. Kan bestå av ett eller flere emner."
+   },
+   "uses": [
+    "term-emne"
+   ],
+   "kind": "same",
+   "apertium": "studieprogram",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "term-doktorgrad",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Doktorgrad",
+   "nb": "doktorgrad",
+   "nn": "doktorgrad",
+   "en": "doctoral degree",
+   "definition": {},
+   "uses": [],
+   "kind": "same",
+   "apertium": "doktorgrad",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/training/",
+     "title": "Forskerutdanning"
+    },
+    {
+     "url": "/no/events/aulaen2026/transcript/",
+     "title": "Åpningsseremonien: utskrift"
+    },
+    {
+     "url": "/no/vacancies/",
+     "title": "Ledige stillinger"
+    }
+   ]
+  },
+  {
+   "id": "term-etter-og-videreutdanning",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Etter-2D_og_videreutdanning",
+   "nb": "etter- og videreutdanning",
+   "nn": "etter- og vidareutdanning",
+   "en": "continuing professional development",
+   "definition": {},
+   "uses": [],
+   "kind": "close",
+   "apertium": "etter- og vidareutdanning",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "term-veileder",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Veileder",
+   "nb": "veileder",
+   "nn": "rettleiar",
+   "en": "supervisor",
+   "definition": {},
+   "uses": [],
+   "kind": "different",
+   "apertium": "rettleier",
+   "apertium_ok": false,
+   "pages": [
+    {
+     "url": "/no/about/organisation/board/meetings/2026-11-03/",
+     "title": "MishMash styremøte #4"
+    }
+   ]
+  },
+  {
+   "id": "term-senter-for-fremragende-forskning",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Senter_for_fremragende_forskning",
+   "nb": "senter for fremragende forskning",
+   "nn": "Senter for framifrå forsking",
+   "en": "Norwegian Centre of Excellence",
+   "definition": {},
+   "uses": [],
+   "kind": "close",
+   "apertium": "senter for framifrå forsking",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "term-høgskole",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Høgskole",
+   "nb": "høgskole",
+   "nn": "høgskole",
+   "en": "university college",
+   "definition": {},
+   "uses": [],
+   "kind": "same",
+   "apertium": "høgskule",
+   "apertium_ok": false,
+   "pages": [
+    {
+     "url": "/no/about/organisation/board/meetings/2026-09-14/",
+     "title": "MishMash styremøte #3"
+    },
+    {
+     "url": "/no/about/organisation/council/",
+     "title": "Råd"
+    }
+   ]
+  },
+  {
+   "id": "term-institutt",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Institutt",
+   "nb": "institutt",
+   "nn": "institutt",
+   "en": "department",
+   "definition": {},
+   "uses": [],
+   "kind": "same",
+   "apertium": "institutt",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/organisation/council/",
+     "title": "Råd"
+    }
+   ]
+  },
+  {
+   "id": "term-fakultet",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Fakultet",
+   "nb": "fakultet",
+   "nn": "fakultet",
+   "en": "faculty",
+   "definition": {},
+   "uses": [],
+   "kind": "same",
+   "apertium": "fakultet",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/organisation/board/meetings/2026-06-26/",
+     "title": "MishMash styremøte #2"
+    },
+    {
+     "url": "/no/events/aulaen2026/transcript/",
+     "title": "Åpningsseremonien: utskrift"
+    }
+   ]
+  },
+  {
+   "id": "term-arbeidsgiver",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Arbeidsgiver",
+   "nb": "arbeidsgiver",
+   "nn": "arbeidsgjevar",
+   "en": "employer",
+   "definition": {},
+   "uses": [],
+   "kind": "close",
+   "apertium": "arbeidsgivar",
+   "apertium_ok": false,
+   "pages": []
+  },
+  {
+   "id": "term-ansatt",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Ansatt",
+   "nb": "ansatt",
+   "nn": "tilsett",
+   "en": "employee",
+   "definition": {},
+   "uses": [],
+   "kind": "different",
+   "apertium": "tilsett",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/description/",
+     "title": "Beskrivelse"
+    },
+    {
+     "url": "/no/about/organisation/board/meetings/2026-11-03/",
+     "title": "MishMash styremøte #4"
+    }
+   ]
+  },
+  {
+   "id": "term-åpen-tilgang",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Åpen_tilgang",
+   "nb": "åpen tilgang",
+   "nn": "open tilgang",
+   "en": "open access",
+   "definition": {
+    "nb": "Brukes vanligvis om åpen tilgang til forskningspublikasjoner."
+   },
+   "uses": [],
+   "kind": "close",
+   "apertium": "open tilgang",
+   "apertium_ok": true,
+   "pages": []
+  },
+  {
+   "id": "term-personvern",
+   "source": "uhr-termbase",
+   "licence": "CC BY 4.0",
+   "url": "https://www.termportalen.no/tb/UHR/Personvern_-281-29",
+   "nb": "personvern",
+   "nn": "personvern",
+   "en": "protection of personal information",
+   "definition": {},
+   "uses": [],
+   "kind": "same",
+   "apertium": "personvern",
+   "apertium_ok": true,
+   "pages": [
+    {
+     "url": "/no/about/description/",
+     "title": "Beskrivelse"
+    },
+    {
+     "url": "/no/about/open-research/",
+     "title": "Åpen forskning"
+    },
+    {
+     "url": "/no/about/organisation/board/meetings/2026-06-26/",
+     "title": "MishMash styremøte #2"
+    },
+    {
+     "url": "/no/privacy/",
+     "title": "Personvern og informasjonskapsler"
+    }
+   ]
+  }
+ ]
+}

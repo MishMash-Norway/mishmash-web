@@ -378,7 +378,13 @@ termbase, CC0), reading one concept page a second; `source: centre` marks a
 term decided by hand, which the script leaves alone. The build puts the listed
 Nynorsk term in wherever Apertium renders the Bokmål term differently, and
 `--check-terms` fails when a page that uses a listed term in Bokmål lacks it in
-Nynorsk (whole words, link targets ignored). `compare_nynorsk_reviews.py` compares agent reviews of a frozen set of
+Nynorsk (whole words, link targets ignored). `build_term_atlas.py` writes `site/lab/term-atlas/terms.json` for the term atlas
+lab page: every concept of Termportalen's AI termbase and the entries of
+`terms.yml`, with the links between definitions, the Bokmål to Nynorsk
+distance, what Apertium makes of each term and the Bokmål pages that use it.
+Run it by hand when the termbase or the term list changes; the file is
+committed.
+`compare_nynorsk_reviews.py` compares agent reviews of a frozen set of
 generated pages (`temp/nynorsk-review/`, issue #78) with each other and, once a
 person has saved corrected copies as `nn-reviewed.md`, reports recall and
 precision per agreement threshold, per agent and per category.

@@ -1,0 +1,42 @@
+/* The term atlas lab page (/lab/term-atlas/). Colours from brand.css. */
+.ta-graph { width: 100%; }
+.ta-svg { width: 100%; height: auto; display: block; overflow: visible; }
+.ta-edge { stroke: var(--mm-ink-20, #ccc); stroke-width: 1; }
+.ta-edge.ta-on { stroke: var(--mm-ink, #231f20); stroke-width: 2; }
+.ta-node { cursor: pointer; }
+.ta-node circle { stroke: var(--mm-ink, #231f20); stroke-width: 0.75; }
+.ta-node text { font: 11px var(--mm-font-body, sans-serif); fill: var(--mm-ink, #231f20); pointer-events: none; }
+.ta-node.ta-on circle, .ta-node:focus circle { stroke-width: 3; }
+.ta-node:focus { outline: none; }
+.ta-src-termportalen-ki circle, .ta-swatch.ta-src-termportalen-ki { fill: var(--mm-blue, #a5cbed); background: var(--mm-blue, #a5cbed); }
+.ta-src-uhr-termbase circle, .ta-swatch.ta-src-uhr-termbase { fill: var(--mm-green, #b3e297); background: var(--mm-green, #b3e297); }
+.ta-src-centre circle, .ta-swatch.ta-src-centre { fill: var(--mm-yellow, #d1e422); background: var(--mm-yellow, #d1e422); }
+
+.ta-legend { list-style: none; padding: 0; margin: 0.25rem 0 1rem; display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.9rem; }
+.ta-swatch { display: inline-block; width: 0.9em; height: 0.9em; border-radius: 50%; margin-right: 0.35em; vertical-align: -0.1em; border: 1px solid var(--mm-ink, #231f20); }
+
+.ta-detail { border-left: 4px solid var(--mm-blue, #a5cbed); padding: 0.25rem 0 0.25rem 1rem; margin: 1rem 0 2rem; min-height: 4rem; }
+.ta-detail h3 { margin-top: 0.25rem; }
+.ta-terms { display: grid; grid-template-columns: max-content 1fr; gap: 0.15rem 1rem; margin: 0.5rem 0; }
+.ta-terms dt, .ta-terms dd { margin: 0; padding: 0; line-height: 1.5; }
+.ta-terms dt { font-weight: 600; }
+.ta-link { background: none; border: 0; padding: 0; font: inherit; color: var(--mm-link, inherit); text-decoration: underline; cursor: pointer; }
+
+.ta-split { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1rem 0 2rem; }
+.ta-col h3 { font-size: 1rem; margin: 0 0 0.5rem; }
+.ta-col ul { list-style: none; padding: 0; margin: 0; }
+.ta-col li { padding: 0.2rem 0; border-bottom: 1px solid var(--mm-ink-20, #ddd); cursor: pointer; }
+.ta-col-same { border-top: 4px solid var(--mm-green, #b3e297); }
+.ta-col-close { border-top: 4px solid var(--mm-yellow, #d1e422); }
+.ta-col-different { border-top: 4px solid var(--mm-red, #ee5648); }
+.ta-nn { font-weight: 600; }
+.ta-machine { display: block; font-size: 0.85rem; color: var(--mm-ink-70, #555); }
+.ta-machine::before { content: "⚙ "; }
+
+.ta-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.ta-table th, .ta-table td { padding: 0.3rem 0.5rem; border-bottom: 1px solid var(--mm-ink-20, #ddd); text-align: left; }
+
+@media (max-width: 640px) {
+  .ta-split { grid-template-columns: 1fr; }
+  .ta-table th:nth-child(4), .ta-table td:nth-child(4) { display: none; }
+}
