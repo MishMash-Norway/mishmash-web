@@ -109,8 +109,14 @@ BlogPosting that jekyll-seo-tag writes for a dated page is left out there.{% end
     {% endif %}
     <script defer src="{{ '/assets/js/page-stats.js' | relative_url }}"></script>
     <script defer src="{{ '/assets/js/wordmark.js' | relative_url }}"></script>
-    {% comment %} Text-and-data-mining terms (see /about/terms/): pages that show a portrait carry a reservation. {% endcomment %}
-    <meta name="tdm-reservation" content="{% if page.type == 'person' %}1{% else %}0{% endif %}">
+    {% comment %} Text-and-data-mining terms (see /about/terms/): pages that show a portrait carry a
+      reservation, and so do the machine-translated Nynorsk pages, which should not train language
+      models. Those also say in machine-readable form that they are Nynorsk machine translated from
+      Bokmål (BCP 47 transformed content, RFC 6497), with the translator and the original. {% endcomment %}
+    {% assign mm_mt = false %}{% if lang == 'nn' and page.translation.automatic %}{% assign mm_mt = true %}{% endif %}
+    <meta name="tdm-reservation" content="{% if page.type == 'person' or mm_mt %}1{% else %}0{% endif %}">
+    {% if mm_mt %}<meta name="dcterms.language" content="nn-t-nb-t0-und">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "@id": {{ page.url | absolute_url | jsonify }}, "inLanguage": "nn", "isBasedOn": {{ page.translation.source_url | absolute_url | jsonify }}, "translator": {"@type": "SoftwareApplication", "name": {{ page.translation.model | jsonify }}, "url": "https://github.com/apertium/apertium-nno-nob"}, "description": "Machine translated from Bokmål without review; not for training language models."}</script>{% endif %}
     <meta name="tdm-policy" content="{{ '/about/terms/' | absolute_url }}">
     <link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}">
     <link rel="icon" href="{{ '/assets/images/logo/favicon.svg' | relative_url }}" type="image/svg+xml">

@@ -11,7 +11,7 @@ MishMash er offentlig finansiert, og det som publiseres skal kunne brukes videre
 
 ## Tekst
 
-Teksten på dette nettstedet er lisensiert [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.no). Du kan kopiere den, endre den, oversette den og dele den, til ethvert formål, så lenge du oppgir at den kommer fra MishMash og lenker tilbake. Det gjelder også bruk av teksten til å trene KI-systemer, på samme vilkår: kreditering.
+Teksten på dette nettstedet er lisensiert [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.no). Du kan kopiere den, endre den, oversette den og dele den, til ethvert formål, så lenge du oppgir at den kommer fra MishMash og lenker tilbake. Det gjelder også bruk av teksten til å trene KI-systemer, på samme vilkår: kreditering. Unntaket er nynorsksidene under `/nn/` som er maskinoversatt og ikke gjennomgått: de er reservert mot tekst- og datautvinning, slik at uredigert maskinoversatt nynorsk ikke havner i materialet fremtidige språkmodeller lærer av. En nynorskside som er gjennomgått av en person, er ikke reservert.
 
 ## Kode
 
@@ -35,6 +35,6 @@ Videoer fra YouTube, lyder fra Freesound, objekter fra kulturarvsamlinger og ann
 
 ## For maskiner
 
-De samme vilkårene oppgis for søkeroboter: teksten er åpen, og forbeholdet for portretter og logoer er erklært i den formen EU-direktivet om opphavsrett i det digitale indre marked legger opp til, i `/.well-known/tdmrep.json` og på de aktuelle sidene. En kort beskrivelse for språkmodeller finnes på [/llms.txt](/llms.txt).
+De samme vilkårene oppgis for søkeroboter: teksten er åpen, og forbeholdet for portretter, logoer og de maskinoversatte nynorsksidene er erklært i den formen EU-direktivet om opphavsrett i det digitale indre marked legger opp til, i `/.well-known/tdmrep.json` og på de aktuelle sidene. En kort beskrivelse for språkmodeller finnes på [/llms.txt](/llms.txt).
 
 Spørsmål om gjenbruk sendes til [contact@mishmash.no](mailto:contact@mishmash.no).

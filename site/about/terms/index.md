@@ -10,7 +10,7 @@ MishMash is publicly funded, and what it publishes is meant to be used again. Th
 
 ## Text
 
-The text on this site is licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may copy it, change it, translate it and share it, for any purpose, as long as you say that it comes from MishMash and link back. This includes using the text to train AI systems, on the same condition: attribution.
+The text on this site is licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may copy it, change it, translate it and share it, for any purpose, as long as you say that it comes from MishMash and link back. This includes using the text to train AI systems, on the same condition: attribution. The exception is the Nynorsk pages under `/nn/` that are machine translated and not reviewed: they are reserved against text and data mining, so that unreviewed machine Nynorsk does not end up in the material future language models learn from. A Nynorsk page reviewed by a person is not reserved.
 
 ## Code
 
@@ -34,6 +34,6 @@ Videos from YouTube, sounds from Freesound, objects from heritage collections an
 
 ## For machines
 
-The same terms are stated for crawlers: the text is open, and the reservation for portraits and logos is declared in the form the EU directive on copyright in the digital single market provides for, at `/.well-known/tdmrep.json` and in the pages concerned. A short description for language models is at [/llms.txt](/llms.txt).
+The same terms are stated for crawlers: the text is open, and the reservation for portraits, logos and the machine-translated Nynorsk pages is declared in the form the EU directive on copyright in the digital single market provides for, at `/.well-known/tdmrep.json` and in the pages concerned. A short description for language models is at [/llms.txt](/llms.txt).
 
 Questions about reuse go to [contact@mishmash.no](mailto:contact@mishmash.no).

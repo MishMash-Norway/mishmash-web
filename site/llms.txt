@@ -4,6 +4,8 @@
 
 Terms: the text is CC BY 4.0 (attribution required, training allowed); the site's own data files are CC0; the code is MIT; portraits and logos are reserved and may not be used for training. Full terms: https://mishmash.no/about/terms/
 
+The Nynorsk pages under /nn/ are machine translated from Bokmål with Apertium and not reviewed. They are reserved against text and data mining and should not be used to train language models; a page a person has reviewed says so and is not reserved.
+
 ## Key pages
 
 - [About](https://mishmash.no/about/description/): what the centre does, at three reading levels

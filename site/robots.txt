@@ -1,5 +1,27 @@
+---
+layout: null
+permalink: /robots.txt
+---
 User-agent: *
 Disallow: /internal/
 Disallow: /no/internal/
 Disallow: /ui/
+# The Nynorsk pages are machine translated from Bokmål without review and
+# should not train language models; crawlers that collect training data are
+# kept out of them. Search engines are not affected. A page reviewed by a
+# person is let in again.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: CCBot
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
+Disallow: /internal/
+Disallow: /no/internal/
+Disallow: /ui/
+{%- for r in site.data.nynorsk_status.reviewed %}{% assign d = r | replace: 'index.md', '' | replace: 'index.html', '' %}
+Allow: /nn/{{ d }}$
+{%- endfor %}
+Disallow: /nn/
+
 Sitemap: https://mishmash.no/sitemap.xml
