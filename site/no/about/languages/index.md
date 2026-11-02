@@ -11,7 +11,7 @@ mishmash.no skrives på engelsk, og hovedsidene speiles på norsk. Norsk betyr b
 
 ## Hvordan nynorsksidene lages
 
-Hver bokmålsside oversettes når nettstedet bygges, med et regelbasert oversettelsesverktøy med åpen kildekode (Apertiums bokmål-til-nynorsk-par, i moderat nynorsk med «vi»). Navn, kode og lenker går uendret gjennom, og senterets egne begreper holdes i en felles ordliste. En side laget slik sier det nederst, med lenke til bokmålssiden den kommer fra, til et medlem som skriver nynorsk har lest og rettet den; en rettet side beholder merknaden om hvem som har lest den og skrives ikke over. Funnet en feil på en nynorskside? Bruk «Foreslå en endring» nederst på siden.
+Hver bokmålsside oversettes når nettstedet bygges, med et regelbasert oversettelsesverktøy med åpen kildekode (Apertiums bokmål-til-nynorsk-par, i moderat nynorsk med «vi»). Navn, kode og lenker går uendret gjennom, og senterets egne begreper holdes i en felles ordliste. En side laget slik sier det nederst, med lenke til bokmålssiden den kommer fra, til et medlem som skriver nynorsk har lest og rettet den; en rettet side beholder merknaden om hvem som har lest den og skrives ikke over. Sidene korrekturleses ikke før de publiseres, og de inneholder derfor feil: Språkrådets [evaluering av maskinoversettelse til nynorsk](https://sprakradet.no/wp-content/uploads/Fra-bokmal-til-nynorsk-evaluering-av-maskinomsetjingsverktoy-hausten-2025.pdf) fant feil i omtrent fire av ti setninger fra alle verktøyene som ble testet, også Apertium. [KI-kolofonen](/no/about/ai-colophon/) forteller mer om eksperimentet. Funnet en feil på en nynorskside? Bruk «Foreslå en endring» nederst på siden.
 
 ## Hvor mye tekst som er på hvert språk
 

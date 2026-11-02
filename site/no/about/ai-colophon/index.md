@@ -38,7 +38,9 @@ En måte å spare båndbredde på er å komprimere bilder og sende dem progressi
 
 ## Nynorsk-eksperimentet
 
-Nynorskutgaven av nettstedet (sidene under `/nn/`) lages automatisk: hver bokmålsside oversettes ved bygging med det regelbaserte, åpne oversettelsesverktøyet [Apertium](https://github.com/apertium/apertium-nno-nob) (nob–nno, moderat norm), samme motor som NPK og NRK bruker for nynorsk. Hver generert side merkes med en boks øverst og lenker til bokmålsoriginalen. En håndkorrigert side under `site/nn/` i kildekoden vinner alltid over den genererte.
+Nynorskutgaven av nettstedet (sidene under `/nn/`) lages automatisk: hver bokmålsside oversettes ved bygging med det regelbaserte, åpne oversettelsesverktøyet [Apertium](https://github.com/apertium/apertium-nno-nob) (nob–nno, moderat norm). Apertium er også motoren i Nynorskroboten, som NTB og NRK bruker for nynorsk, og der blir teksten korrekturlest før den publiseres. Hver generert side merkes med en boks øverst og lenker til bokmålsoriginalen. En håndkorrigert side under `site/nn/` i kildekoden vinner alltid over den genererte.
+
+Språkrådets evaluering av seks verktøy for oversettelse fra bokmål til nynorsk, [*Frå bokmål til nynorsk*](https://sprakradet.no/wp-content/uploads/Fra-bokmal-til-nynorsk-evaluering-av-maskinomsetjingsverktoy-hausten-2025.pdf) (høsten 2025), fant feil i omtrent fire av ti maskinoversatte setninger, med liten forskjell mellom regelbaserte verktøy og KI-baserte samtaleroboter. Rapporten råder statsorganer til å lage utkast med et Apertium-basert verktøy og la noen som skriver god nynorsk, gå gjennom hele teksten. Nynorskutgaven av mishmash.no følger det første rådet, men ikke det andre: den er et eksperiment med hva verktøyene får til på egen hånd, ikke senterets offisielle nynorsk.
 
 Vi publiserer utgaven vel vitende om at den inneholder feil, men også som en måte å gjøre oppmerksom på begrensningene i dagens modeller og bidra til å forbedre dem. MishMash vil teste ting i det åpne, avdekke problemer og rette dem, både i våre egne og i underliggende systemer. Finner du en feil, bruk «Foreslå en endring» i bunnteksten, så retter vi verktøyene eller siden.
 

@@ -10,7 +10,7 @@ mishmash.no is written in English, with the main pages mirrored in Norwegian. No
 
 ## How the Nynorsk pages are made
 
-Every Bokmål page is translated when the site is built, with an open-source rule-based translator (Apertium's Bokmål to Nynorsk pair, in moderate Nynorsk with "vi"). Names, code and links pass through untouched, and the centre's own terms are kept in a shared glossary. A page made this way says so at the bottom, with a link to the Bokmål page it comes from, until a member who writes Nynorsk has read and corrected it; a corrected page keeps its note about who read it and is not overwritten. Found a mistake in a Nynorsk page? Use "Suggest a change" at the bottom of the page.
+Every Bokmål page is translated when the site is built, with an open-source rule-based translator (Apertium's Bokmål to Nynorsk pair, in moderate Nynorsk with "vi"). Names, code and links pass through untouched, and the centre's own terms are kept in a shared glossary. A page made this way says so at the bottom, with a link to the Bokmål page it comes from, until a member who writes Nynorsk has read and corrected it; a corrected page keeps its note about who read it and is not overwritten. The pages are not proofread before they are published, so they contain errors: Språkrådet's [evaluation of machine translation to Nynorsk](https://sprakradet.no/wp-content/uploads/Fra-bokmal-til-nynorsk-evaluering-av-maskinomsetjingsverktoy-hausten-2025.pdf) found errors in about four in ten sentences from every tool it tested, Apertium included. The [AI colophon](/about/ai-colophon/) says more about the experiment. Found a mistake in a Nynorsk page? Use "Suggest a change" at the bottom of the page.
 
 ## How much text is in each language
 

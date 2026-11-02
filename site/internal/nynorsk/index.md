@@ -227,7 +227,14 @@ Språkrådet's 2025 test of chatbots (https://sprakradet.no/wp-content/uploads/R
 - The earlier October 2024 test of ChatGPT alone gave 2 to 3 errors per page of 320 words in Bokmål and about 8 per page in Nynorsk.
 - Advice for public bodies: set aside enough resources for post-editing including language, fact and source checks, and extra resources for checking Nynorsk texts (section 6, citing the plain language provision in § 9).
 
-Note that this test measured text generation, not Bokmål to Nynorsk translation; no Språkrådet or university evaluation of LLM translation between the two forms was found among the pages fetched.
+Note that this test measured text generation, not Bokmål to Nynorsk translation.
+
+Språkrådet's evaluation of Bokmål to Nynorsk translation tools, autumn 2025 (https://sprakradet.no/wp-content/uploads/Fra-bokmal-til-nynorsk-evaluering-av-maskinomsetjingsverktoy-hausten-2025.pdf), read on 2 November 2026:
+
+- Tools: Apertium, Totaltekst's Nynorskoversetteren and NTB's Nynorskroboten (both built on Apertium), Nynorskroboten with KI support, Copilot (GPT-5.0) and ChatGPT (5.1 auto), all set to a fairly traditional Nynorsk. Texts: excerpts from laws, NOUs and guidance documents, split into about 730 sentences per tool. Three language consultants scored each sentence from 1 to 5 for spelling, transfer of meaning and flow.
+- Sentences with an error in at least one dimension: Apertium 40.8 %, Nynorskoversetteren 39.5 %, Nynorskroboten 39.6 %, Nynorskroboten with KI 39.0 %, Copilot 42.8 %, ChatGPT 42.2 %; no difference is significant. Agreement between the consultants was low (Krippendorff's alpha 0.16 to 0.51).
+- Conclusions: every tool translates word for word; more than a third of the sentences have errors of every kind; rule-based and KI-based tools come out about equal; a machine translation is a draft, and a checklist cannot replace full competence in Nynorsk.
+- Advice for state bodies: use an Apertium-based tool as the main tool, since it fails more predictably than a chatbot and keeps a consistent norm; use KI only on the side for rewording; have a person with solid Nynorsk translate with the tool and rework the draft, and an equally competent person check the result.
 
 ### 2.6 Hybrid workflows with human post-editing
 
