@@ -47,6 +47,8 @@ NVA credentials: see [config/README.md](config/README.md). **Never commit creden
 | Languages | `site/_data/languages.yml` (the switch order); see the wiki page Nynorsk |
 | Lab experiments | `site/lab/<slug>/` from `site/lab/_template/`; see the wiki page Lab |
 | Reviewed Nynorsk pages | `site/nn/<path>` overrides the generated page at the same path |
+| Term list (en, nb, nn) | `site/_data/terms.yml`: add the Bokmål term, then run `scripts/fetch_terms_termportalen.py` |
+| Crawler and text-and-data-mining terms | `site/robots.txt`, `site/.well-known/tdmrep.json` (both Liquid: reviewed Nynorsk pages are let in) |
 | Layouts, includes, CSS | `site/_layouts/`, `site/_includes/`, `site/assets/css/` |
 | Visual identity: tokens, identity styling, logo files | `site/assets/css/brand.css`, `site/assets/css/identity.css`, `site/assets/images/logo/`; rules in [BRAND.md](BRAND.md) |
 | Alternative looks (UI themes) | `themes/<name>/`; swap the main look with `./scripts/ui promote <name>` ([guide](themes/README.md)) |
@@ -108,7 +110,8 @@ English pages live at the site root (`/about/`, `/results/`, …). Norwegian mir
 
 - Set `lang: nb` in Norwegian page front matter.
 - Link the English and Bokmål pages with `translation_url` (see `site/about/description/index.md`).
-- Nynorsk is generated from the Bokmål pages by `scripts/build_nynorsk.py` into `site/nn-auto/` at build time; a reviewed page at `site/nn/<path>` takes precedence. Terms live in `site/_data/glossary.yml` (en, nb, nn; exported as `/data/terminology.json`), abbreviations in `site/_data/abbreviations.yml`, and the generator's word list in `site/_data/nynorsk_glossary.yml`.
+- Nynorsk is generated from the Bokmål pages by `scripts/build_nynorsk.py` into `site/nn-auto/` at build time; a reviewed page at `site/nn/<path>` takes precedence. Terms live in `site/_data/glossary.yml` (en, nb, nn; exported as `/data/terminology.json`), abbreviations in `site/_data/abbreviations.yml`, the everyday vocabulary from Termportalen in `site/_data/terms.yml` (exported as `/data/terms.json`), and the generator's word list in `site/_data/nynorsk_glossary.yml`.
+- The generated Nynorsk pages are reserved against text and data mining, closed to AI training crawlers in `robots.txt`, and marked as machine translated (`nn-t-nb-t0-und`); a reviewed page under `site/nn/` loses those marks.
 - Shared labels use `site/_data/translations.yml` via `t.*` in layouts.
 
 Prefer absolute asset paths (`/assets/...`) in shared includes so both languages work.
@@ -178,7 +181,7 @@ python3 scripts/check_liquid_conditions.py
 python3 scripts/check_terminology.py
 python3 scripts/check_event_alt.py
 python3 scripts/image_provenance.py --check
-python3 scripts/build_nynorsk.py --check-glossary
+python3 scripts/build_nynorsk.py --check-glossary --check-terms
 ```
 
 The states a page scan cannot reach, after serving `_site` as above:
