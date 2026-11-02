@@ -378,7 +378,11 @@ termbase, CC0), reading one concept page a second; `source: centre` marks a
 term decided by hand, which the script leaves alone. The build puts the listed
 Nynorsk term in wherever Apertium renders the Bokmål term differently, and
 `--check-terms` fails when a page that uses a listed term in Bokmål lacks it in
-Nynorsk (whole words, link targets ignored). `site/_data/nynorsk_glossary.yml`
+Nynorsk (whole words, link targets ignored). `compare_nynorsk_reviews.py` compares agent reviews of a frozen set of
+generated pages (`temp/nynorsk-review/`, issue #78) with each other and, once a
+person has saved corrected copies as `nn-reviewed.md`, reports recall and
+precision per agreement threshold, per agent and per category.
+`site/_data/nynorsk_glossary.yml`
 carries the word-level corrections; a rule that no page uses any more goes on
 its `expected_unused` list, and `--check-glossary` fails on an idle rule that is
 not listed there, as the build job in CI runs it. A reviewed page at
