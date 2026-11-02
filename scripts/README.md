@@ -370,7 +370,15 @@ Nynorsk, terminology and abbreviations
 
 `build_nynorsk.py` generates the Nynorsk mirror of every Bokmål page into
 `site/nn-auto/` (git-ignored) with Apertium, a local install if present and
-otherwise the public service, with a cache. `site/_data/nynorsk_glossary.yml`
+otherwise the public service, with a cache. `site/_data/terms.yml` is the term
+list in English, Bokmål and Nynorsk: a person adds the Bokmål term, and
+`fetch_terms_termportalen.py` fills in the other two, the definition, source,
+licence and link from Termportalen (UHR's termbase, CC BY 4.0, then the AI
+termbase, CC0), reading one concept page a second; `source: centre` marks a
+term decided by hand, which the script leaves alone. The build puts the listed
+Nynorsk term in wherever Apertium renders the Bokmål term differently, and
+`--check-terms` fails when a page that uses a listed term in Bokmål lacks it in
+Nynorsk (whole words, link targets ignored). `site/_data/nynorsk_glossary.yml`
 carries the word-level corrections; a rule that no page uses any more goes on
 its `expected_unused` list, and `--check-glossary` fails on an idle rule that is
 not listed there, as the build job in CI runs it. A reviewed page at

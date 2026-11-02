@@ -126,5 +126,22 @@ Første avsnitt om MishMash.
         self.assertEqual(nn_permalink("/no/results/pulse/"), "/nn/results/pulse/")
 
 
+
+class TermTest(unittest.TestCase):
+    def test_rule_only_where_the_translator_differs(self):
+        class Tr:
+            def translate(self, text):
+                return {"veileder": "veileiar", "fakultet": "fakultet"}[text]
+        rules = build_nynorsk.term_rules([{"nb": "veileder", "nn": "rettleiar"}, {"nb": "fakultet", "nn": "fakultet"}], Tr())
+        self.assertEqual(rules, {"veileiar": "rettleiar", "Veileiar": "Rettleiar"})
+
+    def test_whole_words_only(self):
+        rules = {"veileiar": "rettleiar", "Veileiar": "Rettleiar"}
+        self.assertEqual(build_nynorsk.apply_terms("Veileiar og hovudveileiar", rules), "Rettleiar og hovudveileiar")
+
+    def test_link_targets_are_not_checked(self):
+        self.assertNotIn("ansatt", build_nynorsk.strip_links("[Lina](https://norsus.no/en/ansatt/lina/) og {{ x.ansatt }}"))
+
+
 if __name__ == "__main__":
     unittest.main()

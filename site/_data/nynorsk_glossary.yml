@@ -24,6 +24,10 @@ keep:
   - rosa
   - Rosa
 replace:
+  # The translator gives a faculty in a proper name the definite form;
+  # caught by the term check (terms.yml lists "fakultet").
+  "Det humanistiske fakultetet": "Det humanistiske fakultet"
+  "fakultetet for film": "fakultet for film"
   # "KI" is protected as an acronym, so the translator sees "Senter for" as a
   # chunk on its own and the e-infinitive pass misreads the dangling "for" as
   # the verb "fór".

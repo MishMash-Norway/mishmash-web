@@ -177,6 +177,7 @@ DATASETS = {
     "results": ("Research results registered for the centre in the national research archive", "Metadata as recorded in NVA (Sikt); the compilation is CC0", ["NVA"]),
     "events": ("MishMash events, past and upcoming", "CC0", ["the centre"]),
     "terminology": ("MishMash terminology in English, Bokmål and Nynorsk", "CC0", ["the centre"]),
+    "terms": ("Everyday vocabulary of the centre in English, Bokmål and Nynorsk, from Termportalen", "Each row keeps its source's licence: UHR's termbase CC BY 4.0, the AI termbase CC0, the centre's own choices CC0", ["UHR", "Termportalen", "the centre"]),
 }
 
 
@@ -202,6 +203,25 @@ def terminology_rows(root: Path) -> list[dict]:
             "definition_en": standard.get("en", ""),
             "definition_nb": standard.get("nb", ""),
             "url": f"{SITE_URL}/about/glossary/#{e['key']}",
+        })
+    return rows
+
+
+def term_rows(root: Path) -> list[dict]:
+    """The term list (terms.yml), one row per term with its source and link."""
+    path = root / "_data" / "terms.yml"
+    if not path.exists():
+        return []
+    rows = []
+    for e in yaml.safe_load(path.read_text(encoding="utf-8")) or []:
+        rows.append({
+            "nb": e.get("nb", ""),
+            "nn": e.get("nn", ""),
+            "en": e.get("en", ""),
+            "source": e.get("source", ""),
+            "licence": e.get("licence", "CC0" if e.get("source") == "centre" else ""),
+            "url": e.get("url", ""),
+            "checked": str(e.get("checked", "")),
         })
     return rows
 
@@ -267,6 +287,7 @@ def main() -> int:
         "results": result_rows(root),
         "events": event_rows(root),
         "terminology": terminology_rows(root),
+        "terms": term_rows(root),
     }
     for name, rows in sets.items():
         write(name, rows)

@@ -1,0 +1,289 @@
+# The centre's everyday vocabulary in English, Bokmål and Nynorsk (issue #78).
+#
+# Add an entry with `nb` (and `en` if you know it); scripts/fetch_terms_termportalen.py
+# fills `en`, `nn`, `definition`, `source`, `url` and `checked` from Termportalen:
+# UHR's termbase for higher education (CC BY 4.0) first, then the AI termbase
+# (CC0). `source: centre` marks a term decided by hand, with the reason in `note`;
+# the script never changes those. `nn_alternatives` are accepted Nynorsk forms
+# the site does not use. scripts/build_nynorsk.py reads `nb` and `nn` so the
+# Nynorsk pages use the listed term.
+
+- nb: førsteamanuensis
+  en: associate professor
+  nn: førsteamanuensis
+  definition:
+    nb: vitenskapelig forskningsstilling som krever doktorgrad eller tilsvarende kompetanse
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Førsteamanuensis
+  checked: '2026-11-02'
+- nb: postdoktor
+  en: postdoctoral fellow
+  nn: postdoktor
+  nn_alternatives:
+  - postdok
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Postdoktor
+  checked: '2026-11-02'
+- nb: professor
+  en: professor
+  nn: professor
+  nn_alternatives:
+  - professor II
+  definition:
+    nb: vitenskapelig forskningsstilling på høyeste nivå ved universitet eller høyskole
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Professor
+  checked: '2026-11-02'
+- nb: stipendiat
+- nb: universitetslektor
+  en: assistant professor
+  nn: universitetslektor
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Universitetslektor
+  checked: '2026-11-02'
+- nb: instituttleder
+  en: head of department
+  nn: instituttleiar
+  nn_alternatives:
+  - instituttstyrar
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Instituttleder
+  checked: '2026-11-02'
+- nb: dekan
+- nb: rektor
+  en: rector
+  nn: rektor
+  nn_alternatives:
+  - rektorat
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Rektor
+  checked: '2026-11-02'
+- nb: styre
+- nb: studiepoeng
+- nb: emne
+  en: course
+  nn: emne
+  definition:
+    nb: minste studiepoenggivende enhet som kan inngå i et studieprogram
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Emne
+  checked: '2026-11-02'
+- nb: studieprogram
+  en: programme of study
+  nn: studieprogram
+  nn_alternatives:
+  - studium
+  definition:
+    nb: Universitets- og høyskoleutdanning som gir et definert læringsutbytte og har eget opptak. Kan bestå av ett eller flere emner.
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Studieprogram
+  checked: '2026-11-02'
+- nb: doktorgrad
+  en: doctoral degree
+  nn: doktorgrad
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Doktorgrad
+  checked: '2026-11-02'
+- nb: ph.d.-program
+- nb: etter- og videreutdanning
+  en: continuing professional development
+  nn: etter- og vidareutdanning
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Etter-2D_og_videreutdanning
+  checked: '2026-11-02'
+- nb: masteroppgave
+- nb: veileder
+  en: supervisor
+  nn: rettleiar
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Veileder
+  checked: '2026-11-02'
+- nb: forskningsråd
+- nb: forskergruppe
+- nb: senter for fremragende forskning
+  en: Norwegian Centre of Excellence
+  nn: Senter for framifrå forsking
+  nn_alternatives:
+  - SFF
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Senter_for_fremragende_forskning
+  checked: '2026-11-02'
+- nb: høgskole
+  en: university college
+  nn: høgskole
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Høgskole
+  checked: '2026-11-02'
+- nb: institutt
+  en: department
+  nn: institutt
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Institutt
+  checked: '2026-11-02'
+- nb: fakultet
+  en: faculty
+  nn: fakultet
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Fakultet
+  checked: '2026-11-02'
+- nb: arbeidsgiver
+  en: employer
+  nn: arbeidsgjevar
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Arbeidsgiver
+  checked: '2026-11-02'
+- nb: ansatt
+  en: employee
+  nn: tilsett
+  nn_alternatives:
+  - arbeidstakar
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Ansatt
+  checked: '2026-11-02'
+- nb: åpen tilgang
+  en: open access
+  nn: open tilgang
+  definition:
+    nb: Brukes vanligvis om åpen tilgang til forskningspublikasjoner.
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Åpen_tilgang
+  checked: '2026-11-02'
+- nb: forskningsdata
+- nb: personvern
+  en: protection of personal information
+  nn: personvern
+  source: uhr-termbase
+  licence: CC BY 4.0
+  url: https://www.termportalen.no/tb/UHR/Personvern_-281-29
+  checked: '2026-11-02'
+- nb: kunstig intelligens
+  en: artificial intelligence
+  nn: kunstig intelligens
+  nn_alternatives:
+  - KI
+  definition:
+    nb: teknologi som etterligner menneskelig intelligens
+    nn: teknologi som etterliknar menneskeleg intelligens
+  source: termportalen-ki
+  licence: CC0
+  url: https://www.termportalen.no/tb/KI/Kunstig_intelligens
+  checked: '2026-11-02'
+- nb: maskinlæring
+  en: machine learning
+  nn: maskinlæring
+  definition:
+    nn: prosess der algoritmar lærer maskiner å finne mønster i store datamengder
+    nb: prosess der algoritmer lærer maskiner å finne mønstre i store datamengder
+  source: termportalen-ki
+  licence: CC0
+  url: https://www.termportalen.no/tb/KI/Maskinlæring
+  checked: '2026-11-02'
+- nb: generativ KI
+  en: generative artificial intelligence
+  nn: generativ KI
+  nn_alternatives:
+  - generativ KI
+  definition:
+    nb: kunstig intelligens som genererer innhold fra inndata
+    nn: kunstig intelligens som genererer innhald frå inndata
+  source: centre
+  url: https://www.termportalen.no/tb/KI/Generativ_KI
+  checked: '2026-11-02'
+  note: Termportalen's AI termbase gives "generativ kunstig intelligens"; the site writes KI after the first mention, as in Bokmål.
+- nb: språkmodell
+  en: language model
+  nn: språkmodell
+  definition:
+    nn: statistisk modell av eit språk som gir ei sannsynsfordeling over sekvensar av ord, og som derfor kan generere det mest sannsynlege neste ordet
+    nb: statistisk modell av et språk som gir en sannsynlighetsfordeling over sekvenser av ord, og som derfor kan generere det mest sannsynlige neste ord
+  source: termportalen-ki
+  licence: CC0
+  url: https://www.termportalen.no/tb/KI/Språkmodell
+  checked: '2026-11-02'
+- nb: chatbot
+  en: chatbot
+  nn: praterobot
+  nn_alternatives:
+  - chatbot
+  - samtalerobot
+  definition:
+    nb: dataprogram som er laget for å simulere en samtale med et menneske, gjerne ved hjelp av en språkmodell
+    nn: dataprogram som er laga for å simulere ein samtale med eit menneske, gjerne ved hjelp av ein språkmodell
+  source: termportalen-ki
+  licence: CC0
+  url: https://www.termportalen.no/tb/KI/Chatbot
+  checked: '2026-11-02'
+- nb: instruks
+- nb: maskinoversettelse
+  en: machine translation
+  nn: maskinomsetjing
+  definition:
+    nn: automatisk omsetjing frå eitt språk til eit anna ved hjelp av teknologi
+    nb: automatisk oversettelse fra ett språk til et annet ved hjelp av teknologi
+  source: termportalen-ki
+  licence: CC0
+  url: https://www.termportalen.no/tb/KI/Maskinoversettelse
+  checked: '2026-11-02'
+- nb: dyp læring
+  en: deep learning
+  nn: djup læring
+  definition:
+    nn: læring med djupe nevrale nettverk
+    nb: læring med dype nevrale nettverk
+  source: termportalen-ki
+  licence: CC0
+  url: https://www.termportalen.no/tb/KI/Dyp_læring
+  checked: '2026-11-02'
+- nb: modell
+  en: model
+  nn: modell
+  definition:
+    nn: implementasjon av ein algoritme som er trent til eit bestemt formål
+    nb: implementasjon av en algoritme som er trent til et bestemt formål
+  source: termportalen-ki
+  licence: CC0
+  url: https://www.termportalen.no/tb/KI/Modell
+  checked: '2026-11-02'
+- nb: inndata
+  en: input
+  nn: inndata
+  nn_alternatives:
+  - innputt
+  definition:
+    nb: data som sendes inn til en funksjon, inkludert maskinlæringsmodeller
+    nn: data som blir sende inn til ein funksjon, inkludert maskinlæringsmodellar
+  source: termportalen-ki
+  licence: CC0
+  url: https://www.termportalen.no/tb/KI/Inndata
+  checked: '2026-11-02'
+- nb: bias
+- nb: fintrening
+  en: finetuning
+  nn: fintrening
+  nn_alternatives:
+  - finjustering
+  definition:
+    nb: videre trening på en modell som allerede er trent
+    nn: vidare trening på ein modell som allereie er trent
+  source: termportalen-ki
+  licence: CC0
+  url: https://www.termportalen.no/tb/KI/Fintrening
+  checked: '2026-11-02'

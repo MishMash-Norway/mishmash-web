@@ -14,7 +14,10 @@ are generated the same way into site/_data/translations_nn.yml.
 Liquid tags, code, link targets, HTML tags, Markdown emphasis markers, acronyms
 and the glossary's protected names are cut out before translation and put back
 afterwards, so the translator never sees them; the glossary's replacements are
-applied to the output.
+applied to the output, and then the term list (site/_data/terms.yml): where the
+translator renders a listed Bokmål term differently from its listed Nynorsk term,
+the listed term is put in. --check-terms fails when a page that uses a listed
+term in Bokmål lacks the listed Nynorsk term.
 
 Translation runs locally when the apertium command is installed (the CI
 runners install it), and otherwise through the public APy service at
@@ -52,6 +55,7 @@ REVIEWED = SITE_ROOT / "nn"
 OUT = SITE_ROOT / "nn-auto"
 CACHE = SITE_ROOT.parent / ".nynorsk-cache"
 GLOSSARY = SITE_ROOT / "_data" / "nynorsk_glossary.yml"
+TERMS = SITE_ROOT / "_data" / "terms.yml"
 TRANSLATIONS = SITE_ROOT / "_data" / "translations.yml"
 TRANSLATIONS_NN = SITE_ROOT / "_data" / "translations_nn.yml"
 STATUS = SITE_ROOT / "_data" / "nynorsk_status.yml"
@@ -140,6 +144,37 @@ def segment(text: str, keep: list[str]) -> list[tuple[bool, str]]:
 
 
 REPLACEMENTS_USED: dict[str, int] = {}
+TERMS_USED: dict[str, int] = {}
+
+
+def load_terms() -> list[dict]:
+    """Entries of the term list that have both a Bokmål and a Nynorsk term."""
+    if not TERMS.exists():
+        return []
+    return [e for e in (yaml.safe_load(TERMS.read_text(encoding="utf-8")) or []) if e.get("nb") and e.get("nn")]
+
+
+def term_rules(terms: list[dict], tr: "Translator") -> dict[str, str]:
+    """What the translator makes of each listed Bokmål term, where that differs
+    from the listed Nynorsk term, mapped to the listed term. Lower-case and
+    capitalised forms both, so a term at the start of a sentence is caught."""
+    rules: dict[str, str] = {}
+    for e in terms:
+        got = strip_marks(tr.translate(e["nb"]).strip())
+        if got.lower() == e["nn"].lower():
+            continue
+        rules[got] = e["nn"]
+        rules[got[:1].upper() + got[1:]] = e["nn"][:1].upper() + e["nn"][1:]
+    return rules
+
+
+def apply_terms(text: str, rules: dict[str, str]) -> str:
+    """Replace whole words only, so a term inside a longer word is left alone."""
+    for a, b in rules.items():
+        text, n = re.subn(r"(?<!\w)" + re.escape(a) + r"(?!\w)", b, text)
+        if n:
+            TERMS_USED[a] = TERMS_USED.get(a, 0) + n
+    return text
 
 
 def apply_replacements(text: str, replace: dict[str, str]) -> str:
@@ -228,7 +263,7 @@ def translate_text(text: str, tr: Translator, glossary: dict) -> str:
         lead = original[: len(original) - len(original.lstrip())]
         trail = original[len(original.rstrip()):]
         result[i] = lead + strip_marks(piece.strip()) + trail
-    return apply_replacements(fix_list_markers("".join(result)), glossary["replace"])
+    return apply_terms(apply_replacements(fix_list_markers("".join(result)), glossary["replace"]), glossary.get("term_rules", {}))
 
 
 def split_front_matter(text: str) -> tuple[dict, str, str]:
@@ -320,12 +355,42 @@ def report_glossary_use(glossary: dict, expected_unused: set[str], engine: str, 
     return 0
 
 
+def strip_links(text: str) -> str:
+    """Text without link targets, bare addresses and Liquid, which carry words
+    that are never translated."""
+    text = re.sub(r"\]\([^)]*\)", "]", text)
+    text = re.sub(r"https?://\S+", " ", text)
+    return re.sub(r"\{[{%].*?[%}]\}", " ", text, flags=re.S)
+
+
+def check_terms(terms: list[dict], fail: bool) -> int:
+    """For every listed term on a Bokmål page, the listed Nynorsk term must be on
+    the generated page. Whole words, either case; inflected forms are not
+    matched, so a term used only in an inflected form is not checked."""
+    misses = []
+    for f, rel in iter_sources():
+        out = OUT / rel
+        if not out.exists():
+            continue
+        src, gen = (strip_links(x.read_text(encoding="utf-8")).lower() for x in (f, out))
+        for e in terms:
+            if re.search(r"(?<!\w)" + re.escape(e["nb"].lower()) + r"(?!\w)", src) and \
+                    not re.search(r"(?<!\w)" + re.escape(e["nn"].lower()) + r"(?!\w)", gen):
+                misses.append((rel.as_posix(), e["nb"], e["nn"]))
+    print(f"terms: {len(terms)} listed, {sum(TERMS_USED.values())} replacements made, {len(misses)} pages missing a listed term")
+    for page, nb, nn in misses:
+        print(f"  {page}: {nb!r} should come out as {nn!r}")
+    return 1 if misses and fail else 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--status", action="store_true", help="report only; generate nothing")
     ap.add_argument("--apy", action="store_true", help="use the public APy service even if apertium is installed")
     ap.add_argument("--check-glossary", action="store_true",
                     help="fail if a replacement rule matched nothing in this run")
+    ap.add_argument("--check-terms", action="store_true",
+                    help="fail if a listed term on a Bokmål page does not come out as its listed Nynorsk term")
     args = ap.parse_args()
 
     glossary = load_glossary()
@@ -340,6 +405,8 @@ def main() -> int:
         return 0
 
     tr = Translator(use_local=False if args.apy else None)
+    terms = load_terms()
+    glossary["term_rules"] = term_rules(terms, tr)
     work = OUT.with_name(OUT.name + ".tmp")
     if work.exists():
         shutil.rmtree(work)
@@ -366,7 +433,8 @@ def main() -> int:
     )
     engine = "apertium" if tr.local else "apy"
     print(f"nynorsk: {n} pages generated, {len(reviewed)} reviewed, via {engine}")
-    return report_glossary_use(glossary, expected_unused, engine, fail=args.check_glossary)
+    status = report_glossary_use(glossary, expected_unused, engine, fail=args.check_glossary)
+    return status or check_terms(terms, fail=args.check_terms)
 
 
 if __name__ == "__main__":
