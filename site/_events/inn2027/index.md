@@ -14,8 +14,4 @@ Save the date.
 
 The 3rd MishMash conference takes place at the [University of Inland Norway](/institutions/university-of-inland-norway/) on 30 September and 1 October 2027.
 
-[The request said 31 September, which does not exist. Recommend 30 September to 1 October 2027, Thursday and Friday; or give the right dates.]
-
-[Which campus? Recommend naming it here and in `location` once it is known, for instance Lillehammer or Hamar.]
-
 The theme, the speakers, a call for contributions and registration will follow.
