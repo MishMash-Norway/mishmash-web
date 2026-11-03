@@ -93,6 +93,7 @@ BlogPosting that jekyll-seo-tag writes for a dated page is left out there.{% end
     <link rel="preload" href="{{ '/assets/fonts/roboto-condensed-700-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/fonts.css' | relative_url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
     <meta name="theme-color" content="#b3e297">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
