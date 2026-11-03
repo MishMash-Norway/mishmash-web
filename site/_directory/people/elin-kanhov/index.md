@@ -38,18 +38,44 @@ search_keywords:
 - Ethnography
 - Environmental Humanities
 selected_works:
-- title: Sexualised synthetic personas encode and amplify gendered power asymmetries
-    through voice
+- title: 'Individualization, Platformization, and Claims of Democratization: Motivations,
+    Processes, and Experiences of People and Their Practices of AI Music'
   year: '2026'
   source: Journal article
   group_type: Journal article
-  url: https://www.webofscience.com/wos/pprn/full-record/PPRN:171391116
+  url: https://doi.org/10.1525/mad.2026.1.1.59
+- title: Introducing AI Music Studies
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1525/mad.2026.1.1.4
+- title: Sexualised synthetic personas encode and amplify gendered power asymmetries
+    through voice
+  year: '2026'
+  source: Conference paper
+  group_type: Conference
+- title: 'oljud—1[-1]bruit(n): A Sonic Manifesto of Resistance to Generative AI in
+    Music'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+- title: 'Going forward by moving backwards: A perpetual dialectic movement'
+  year: '2025'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1108/978-1-83708-380-020251006
 - title: Methodological Considerations of Digital Ethnographic Studies in the AI Music
     Field
   year: '2025'
   source: Conference paper
   group_type: Conference
   url: https://zenodo.org/records/16946368
+- title: 'Stochastic Pirate Radio (KSPR): Generative AI applied to simulate commercial
+    radio'
+  year: '2024'
+  source: Journal article
+  group_type: Journal article
+  url: https://aimc2024.pubpub.org/pub/rppff8mc/release/2
 - title: Data Ethics and Practices of Human-Nonhuman Sound Technologies and Ecologies
   year: '2024'
   source: Conference paper
@@ -65,17 +91,6 @@ selected_works:
   source: Conference paper
   group_type: Conference
   url: https://aimc2024.pubpub.org/pub/ej9b5mv1/release/2
-- title: 'Innovation, data colonialism and ethics: critical reflections on the impacts
-    of AI on Irish traditional music'
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://www.webofscience.com/wos/woscc/full-record/WOS:001408665500001
-- title: Encounters Between Music and Nature
-  year: '2023'
-  source: Thesis
-  group_type: Thesis
-  url: https://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-216328
 source_mentions: []
 summary: null
 published: true

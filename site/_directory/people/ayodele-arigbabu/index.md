@@ -38,6 +38,11 @@ search_keywords:
 - Procedural and Rule-Based Generation
 - Shape Grammars
 selected_works:
+- title: Synesyn
+  year: '2026'
+  source: Software
+  group_type: Software
+  url: https://github.com/Metapunkt/Synesyn
 - title: 'Protopian African Futures: Demas Nwoko’s Tropical Architecture, Natural
     Synthesis—and Solarpunk'
   year: '2025'

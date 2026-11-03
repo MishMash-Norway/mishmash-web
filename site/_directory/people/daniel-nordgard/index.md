@@ -36,6 +36,24 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: NUD - "Rough Around The Edge" (Studioinnspilling, 2026)
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://music.apple.com/no/album/rough-around-the-edges-single/1868408407?l=nb
+  contributors:
+  - name: Karl Oluf Wennerberg
+    role: Musician
+  - name: Ian Kolstad
+    role: Composer
+  - name: Daniel Nordgård
+    role: Composer
+    slug: daniel-nordgard
+    url: /people/daniel-nordgard/
+  - name: Frode Hammersland
+    role: Musician
+  - name: Annelie Johansson
+    role: Musician
 - title: 'Crowdfunding visual artists: Alternative or complementary financing mode?'
   year: '2025'
   source: Book chapter
@@ -139,19 +157,6 @@ selected_works:
     url: /people/daniel-nordgard/
   - name: Guy Morrow
     role: Creator
-- title: 'Rethinking the Music Business: Music Contexts, Rights, Data, and COVID-19'
-  year: '2022'
-  source: Book anthology
-  group_type: Book anthology
-  contributors:
-  - name: Daniel Nordgård
-    role: Editor
-    slug: daniel-nordgard
-    url: /people/daniel-nordgard/
-  - name: Guy Morrow
-    role: Editor
-  - name: Peter Tschmuck
-    role: Editor
 source_mentions:
 - about/organisation/management/index.md
 - no/about/organisation/management/index.md

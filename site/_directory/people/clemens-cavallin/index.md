@@ -11,6 +11,10 @@ institutions:
 - nla-university-college
 projects:
 - ai-integration-film-tv-education
+other_projects:
+- title: Danning og samfunnsansvar. Utdanning og journalistikk i en digital tid
+  url: https://nva.sikt.no/projects/2780382
+  nva_id: '2780382'
 roles:
 - Member
 urls:
