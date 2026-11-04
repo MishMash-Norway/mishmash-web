@@ -37,12 +37,15 @@ Consider the following principles when preparing internal seed funding proposals
 - Events should normally be organised in a **hybrid format** to ensure broad and inclusive participation. Moderation in travel expenses is recommended, and environmentally friendly travel options are encouraged.
 - Budgets should include and clearly describe **in-kind contributions** from the applicant and partners.
 - Costs covering general **conference participation** is normally not eligible unless explicitly justified as core to project goals. In such cases, applicants are encouraged to consider MishMash's visibility and representation at the event.
+- Applicants who have **unreported seed projects** are normally not prioritised.
+- **Institutions outside Norway** are not eligible to apply independently, but may participate in applications submitted by Norwegian institutions.
+- **Granted funds may generally not be reallocated**. The grant is earmarked for the project as described in the project description and budget, including any conditions stated in the decision letter.
 
 All requested costs must be justified, proportionate, and directly linked to the proposed seed funding activities.
 
 ### About the application
 
-The application must be submitted via the designated [online form](https://nettskjema.no/a/seed03). It should contain a concise description (max 2 pages) of the initiative and a presentation of the applicant and any partners, including links to relevant websites or previous work. A simple budget and financial plan are required, with any combined amounts broken down to show the calculations, requested costs justified, and any in-kind contributions clearly described. The application must also specify a timeline and end date for the project (1 December 2027, at the latest, for this call).
+The application must be written in English and submitted via the designated [online form](https://nettskjema.no/a/seed03). It should contain a concise description (max 2 pages) of the initiative and a presentation of the applicant and any partners, including links to relevant websites or previous work. A simple budget and financial plan are required, with any combined amounts broken down to show the calculations, requested costs justified, and any in-kind contributions clearly described. The application must also specify a timeline and end date for the project (1 December 2027, at the latest, for this call).
 
 ### Evaluation process and criteria
 
