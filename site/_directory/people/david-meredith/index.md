@@ -38,6 +38,17 @@ search_keywords:
 - Music Information Retrieval
 - Mathematical Music Theory
 selected_works:
+- title: A General Theoretical Framework for Transformed Geometric Pattern Matching
+    in Music
+  year: '2026'
+  source: Working paper
+  group_type: Working paper
+  url: https://vbn.aau.dk/en/publications/00e9ad36-b300-4cce-a47c-403dfbd4388b
+- title: Geometric Representations for Transformed Pattern Matching in Music
+  year: '2026'
+  source: Working paper
+  group_type: Working paper
+  url: https://vbn.aau.dk/en/publications/88f36d3a-0cc9-49b3-a853-d06188302af8
 - title: 'Methods for pitch analysis in contemporary popular music: phenomenological
     analysis of Primaal''s commercial works'
   year: '2026'
@@ -82,16 +93,6 @@ selected_works:
   source: Other
   group_type: Other
   url: https://vbn.aau.dk/en/publications/e267d725-83f5-4601-b233-d01c4c35beed
-- title: Research into new music? Or new research into music?
-  year: '2023'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1080/09298215.2025.2479363
-- title: The evolution of inharmonicity and noisiness in contemporary popular music
-  year: '2023'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1080/09298215.2024.2434461
 source_mentions: []
 summary: null
 published: true

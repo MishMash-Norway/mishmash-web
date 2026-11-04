@@ -32,6 +32,30 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 1. Mellom adaptiv støtte og generativ forstyrrelse
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.55669/oa771201
+  contributors:
+  - name: Dag Øivind Østereng
+    role: Creator
+  - name: Clemens Cavallin
+    role: Creator
+    slug: clemens-cavallin
+    url: /people/clemens-cavallin/
+  - name: Lone Wanderås Fossum
+    role: Creator
+- title: Kunstig intelligens og tillit
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.55669/oa771202
+  contributors:
+  - name: Clemens Cavallin
+    role: Creator
+    slug: clemens-cavallin
+    url: /people/clemens-cavallin/
 - title: Education, Love, and the Fear of God
   year: '2026'
   source: Book chapter
@@ -112,28 +136,6 @@ selected_works:
   group_type: Book chapter
   contributors:
   - name: Clemens Cavallin
-    role: Creator
-    slug: clemens-cavallin
-    url: /people/clemens-cavallin/
-- title: Thomas av Aquino – En introduktion till hans teologi och filosofi
-  year: '2025'
-  source: Book anthology
-  group_type: Book anthology
-  contributors:
-  - name: Paul Clemens Cavallin
-    role: Editor
-    slug: clemens-cavallin
-    url: /people/clemens-cavallin/
-  - name: Wahlberg Mats
-    role: Editor
-  - name: Stefan Lindholm
-    role: Editor
-- title: Religion
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Paul Clemens Cavallin
     role: Creator
     slug: clemens-cavallin
     url: /people/clemens-cavallin/

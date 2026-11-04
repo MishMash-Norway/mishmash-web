@@ -106,6 +106,39 @@ selected_works:
     role: Creator
   - name: Ruben Sverre Gjertsen
     role: Creator
+- title: Altera Luce
+  year: '2017'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Jostein Gundersen
+    role: Musician
+    slug: jostein-gundersen
+    url: /people/jostein-gundersen/
+  - name: Ingvill Holter
+    role: Musician
+  - name: Kristin Mulders
+    role: Musician
+  - name: Kjetil Almenning
+    role: Musician
+  - name: Anna Danilevskaïa
+    role: Musician
+  - name: David Catalunya
+    role: Musician
+  - name: Vegard Landaas
+    role: RoleOther
+  - name: Thomas Wolden
+    role: RoleOther
+  - name: Margareth Hagen
+    role: RoleOther
+  - name: Camilla Erichsen Skalle
+    role: RoleOther
+  - name: Andrea Rinaldi
+    role: RoleOther
+  - name: Erik Tonning
+    role: RoleOther
+  - name: Eivind Buene
+    role: Composer
 - title: Spinato Intorno al Cor. Antonio Zacara da Teramo
   year: '2011'
   source: Music performance
