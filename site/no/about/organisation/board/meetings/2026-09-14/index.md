@@ -7,7 +7,9 @@ meeting_date: "14. september 2026"
 meeting_start: "08:00"
 meeting_end: "09:30"
 meeting_location: "Cultivas styrerom, Kristiansand"
-translation_url: /about/organisation/board/meetings/2026-09-14/
+redirect_from:
+  - /about/organisation/board/meetings/2026-09-14/
+  - /nn/about/organisation/board/meetings/2026-09-14/
 translation:
   automatic: false
 ---

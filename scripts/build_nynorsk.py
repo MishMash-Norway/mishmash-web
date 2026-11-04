@@ -62,6 +62,8 @@ STATUS = SITE_ROOT / "_data" / "nynorsk_status.yml"
 APY = "https://apertium.org/apy/translate"
 MODEL = "Apertium nob-nno (e-infinitiv)"
 SKIP_DIRS = {"internal"}
+# Board meeting documents are kept in Bokmål only.
+SKIP_PATHS = ("about/organisation/board/meetings/",)
 
 # Things that must not be translated, in the order they are shielded.
 PROTECT = [
@@ -324,6 +326,8 @@ def iter_sources():
             continue
         rel = f.relative_to(SRC)
         if rel.parts and rel.parts[0] in SKIP_DIRS:
+            continue
+        if rel.as_posix().startswith(SKIP_PATHS):
             continue
         if not f.read_text(encoding="utf-8").startswith("---"):
             continue

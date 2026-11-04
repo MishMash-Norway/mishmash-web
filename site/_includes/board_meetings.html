@@ -1,16 +1,18 @@
-{% comment %}Render board meeting pages, newest first, for the current language.
-EN pages live under about/organisation/board/meetings/, NO originals under no/about/organisation/board/meetings/, the generated Nynorsk under nn-auto/.{% endcomment %}
+{% comment %}Render board meeting pages, newest first. The documents are kept in Bokmål only, under no/about/organisation/board/meetings/, and every language lists those; the English and Nynorsk board pages say so in the link text.{% endcomment %}
 {% assign current_lang = page.lang | default: 'en' %}
 {% if current_lang == 'nb' %}
   {% assign row_label = 'Innkalling og protokoll' %}
   {% assign date_label = 'Dato' %}
+{% elsif current_lang == 'nn' %}
+  {% assign row_label = 'Innkalling og protokoll (på bokmål)' %}
+  {% assign date_label = 'Dato' %}
 {% else %}
-  {% assign row_label = 'Agenda and Protocol' %}
+  {% assign row_label = 'Agenda and minutes (in Norwegian)' %}
   {% assign date_label = 'Date' %}
 {% endif %}
 {% assign all_meetings = site.pages | where_exp: 'item', "item.path contains 'about/organisation/board/meetings/'" | where: 'name', 'index.md' | sort: 'url' | reverse %}
-{% comment %}Match the start of the path, not any part of it: the generated Nynorsk mirror lives under nn-auto/about/…, which also contains about/organisation/board/meetings/.{% endcomment %}
-{% if current_lang == 'nb' %}{% assign prefixes = 'no/about/' | split: ',' %}{% elsif current_lang == 'nn' %}{% assign prefixes = 'nn/about/,nn-auto/about/' | split: ',' %}{% else %}{% assign prefixes = 'about/' | split: ',' %}{% endif %}
+{% comment %}Match the start of the path, not any part of it.{% endcomment %}
+{% assign prefixes = 'no/about/' | split: ',' %}
 {% capture rows %}{% for meeting in all_meetings %}{% assign show = false %}{% for prefix in prefixes %}{% assign head = meeting.path | slice: 0, prefix.size %}{% if head == prefix %}{% assign show = true %}{% endif %}{% endfor %}{% if show %}<tr><td>{{ meeting.meeting_date | default: meeting.meeting_title }}</td><td><a href="{{ meeting.url | relative_url }}">{{ row_label }}</a></td></tr>{% endif %}{% endfor %}{% endcapture %}
 {% if rows | strip != '' %}
 <table>
@@ -25,5 +27,5 @@ EN pages live under about/organisation/board/meetings/, NO originals under no/ab
   </tbody>
 </table>
 {% else %}
-{% if current_lang == 'nb' %}*Ingen styremøtedokumenter er publisert ennå.*{% else %}*No board meeting documents have been published yet.*{% endif %}
+{% if current_lang == 'nb' or current_lang == 'nn' %}*Ingen styremøtedokumenter er publisert ennå.*{% else %}*No board meeting documents have been published yet.*{% endif %}
 {% endif %}

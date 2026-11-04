@@ -7,6 +7,8 @@ meeting_date: "3. november 2026"
 meeting_start: "15:00"
 meeting_end: "16:30"
 meeting_location: "Zoom"
+redirect_from:
+  - /nn/about/organisation/board/meetings/2026-11-03/
 translation:
   automatic: false
 ---

@@ -7,7 +7,9 @@ meeting_date: "10. april 2026"
 meeting_start: "13:00"
 meeting_end: "14:00"
 meeting_location: "Zoom"
-translation_url: /about/organisation/board/meetings/2026-04-10/
+redirect_from:
+  - /about/organisation/board/meetings/2026-04-10/
+  - /nn/about/organisation/board/meetings/2026-04-10/
 translation:
   automatic: false
 ---
