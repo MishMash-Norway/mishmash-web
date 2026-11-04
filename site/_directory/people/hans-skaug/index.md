@@ -32,18 +32,13 @@ tags:
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: Hans Skaug is a professor of statistics at the Department of Mathematics,
-  University of Bergen. His research centres on applications of statistics and probability
-  to biology, especially marine ecology, and on computational statistics, combining
-  automatic differentiation with the Laplace approximation for latent-variable models.
-  He has developed the TMB software and contributed to ADMB, served as Co-Editor-in-Chief
-  of the Scandinavian Journal of Statistics, and his recent interests extend to AI.
+summary: Hans J. Skaug is a professor of statistics at the Department of Mathematics, University of Bergen. His research focuses on applications of statistics and machine learning to biology and music information retrieval. He has experience from open source software projects, and is also a hobby musician.
 wps:
 - WP1
 - WP7
 permalink: /people/hans-skaug/
 ---
 
-Hans Skaug is a professor of statistics at the Department of Mathematics, University of Bergen. His research centres on applications of statistics and probability to biology, especially marine ecology, and on computational statistics, combining automatic differentiation with the Laplace approximation for latent-variable models. He has developed the TMB software and contributed to ADMB, served as Co-Editor-in-Chief of the Scandinavian Journal of Statistics, and his recent interests extend to AI.
+Hans J. Skaug is a professor of statistics at the Department of Mathematics, University of Bergen. His research focuses on applications of statistics and machine learning to biology and music information retrieval. He has experience from open source software projects, and is also a hobby musician.
 
 He leads the MishMash seed-funded project [AI Transcription of Music](/projects/ai-transcription-of-music/), an independent assessment of the state of the art in audio-to-symbolic music transcription.
