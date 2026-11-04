@@ -40,6 +40,7 @@ Consider the following principles when preparing internal seed funding proposals
 - Applicants who have **unreported seed projects** are normally not prioritised.
 - **Institutions outside Norway** are not eligible to apply independently, but may participate in applications submitted by Norwegian institutions.
 - **Granted funds may generally not be reallocated**. The grant is earmarked for the project as described in the project description and budget, including any conditions stated in the decision letter.
+- Associated partners awarded funding will be required to sign a **sub-project funding agreement**.
 
 All requested costs must be justified, proportionate, and directly linked to the proposed seed funding activities.
 
