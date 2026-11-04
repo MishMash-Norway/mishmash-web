@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   enrich:
@@ -81,6 +82,8 @@ jobs:
         run: python3 scripts/validate_directory.py
 
       - name: Commit and push updates
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -104,6 +107,9 @@ jobs:
           # real conflict stops the rebase and fails the run instead.
           for attempt in 1 2 3; do
             if git pull --rebase origin main && git push; then
+              # A push with the workflow's own token starts no other workflow,
+              # so the deploy is started by hand; a dispatch is allowed.
+              gh workflow run pages.yml --ref main
               exit 0
             fi
             echo "Push attempt $attempt failed; retrying."
