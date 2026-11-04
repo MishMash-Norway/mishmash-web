@@ -24,8 +24,6 @@ Sekretariat:
 - [Alexander Refsum Jensenius](https://www.uio.no/ritmo/english/people/management/alexanje/) (UiO) (Senterleder)
 - [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html) (UiO) (Administrativ koordinator)
 
-Møtet ble holdt på Zoom, kl. 15.00 til 16.00. Alle styremedlemmene deltok.
-
 ## Saksliste
 
 ### 1. Innkalling
@@ -52,25 +50,22 @@ Protokollen fra forrige styremøte ble godkjent uten merknader.
 
 #### Bakgrunn
 
-Senterleder orienterer om aktiviteten siden forrige møte:
+Senterleder orienterte om aktiviteten siden forrige møte:
 
 - Åpningskonferansen samlet rundt 300 deltakere i Kristiansand og er oppsummert i en [nyhetssak](/news/opening-conference/) med bilder og to filmer.
-- Fremdriftsrapporten til Forskningsrådet ble levert i oktober, med [nesten 200 resultater](https://mishmash.no/results/) registrert i NVA. Neste rapport er en særskilt rapportering 1. desember.
+- Fremdriftsrapporten til Forskningsrådet ble levert i oktober, med [nesten 200 resultater](https://mishmash.no/results/) registrert i NVA. Rapporten har blitt godkjent. Neste rapport er en særskilt rapportering 1. desember.
 - Av de planlagte rekrutteringsstillingene er 26 tilsatt, syv stillinger er i prosess og fem er planlagt. Ordningen med master fellows har så langt omkring 10 deltagere.
 - MishMashs [etiske retningslinjer](/no/about/code-of-conduct/) er publisert.
 - [Rådsmøte #2](/about/organisation/council/meetings/2026-10-22/) ble holdt 22. oktober.
-- [Neste konferanse](https://mishmash.no/events/kristiania2027/) er på Kristiania 13.–14. april 2027, med fristen for bidrag forlenget til 1. desember.
+- [Neste konferanse](https://mishmash.no/events/kristiania2027/) er på Kristiania 13.–14. april 2027, med fristen for bidrag forlenget til 1. desember. Det blir en intern MishMash-dag 15. april. 
 
 #### Behandling
 
-Senterleder og administrativ koordinator utdypet orienteringen:
+Under diskusjonen ble følgende punkter utdypet: 
 
-- Erfaringene fra Kristiansand er samlet i et dokument til kommende konferansearrangører. Kristiania-konferansen får en intern dag 15. april i tillegg til det offentlige programmet.
-- Fremdriftsrapporten er godkjent av Forskningsrådet. Den særskilte rapporteringen 1. desember bygger videre på den, og økonomirapporten leveres 20. januar.
-- De fleste rekruttene skal være på plass ved årsskiftet.
-- Master fellows tas opp sentralt. Kravet er et relevant tema og en veileder som er aktiv i MishMash, og studentene kan knyttes på allerede fra første semester av mastergraden. Det lages møteplasser for dem fra nyåret. Styret pekte på at institusjonene har ulike ordninger for studenter i forskning, og at det er viktig å unngå ubalanse mellom dem.
+- Det er gjennomført en evaluering av åpningskonferansen og svarene og et erfaringsdokument er samlet og deles med kommende konferansearrangører.
+- Master fellows tas opp sentralt. Kravet er et relevant tema og en veileder som er aktiv i MishMash. Studenter kan tas opp allerede fra første semester av mastergraden. Det lages møteplasser for dem fra nyåret. Styret pekte på at institusjonene har ulike ordninger for å involvere studenter i forskning som bør utnyttes.
 - Det arbeides med en oversikt over emner stipendiater og masterstudenter kan ta ved andre partnerinstitusjoner.
-- De etiske retningslinjene er allerede tatt i bruk. Styret meldte tilbake at deltakerne opplever samarbeidet i konsortiet som uvanlig godt.
 - Rådet møtes én gang i semesteret. Et interessentråd for de ikke-akademiske partnerne planlegges til våren.
 
 #### Vedtak
@@ -85,7 +80,7 @@ Lønnsforbruket er lavere enn budsjettert fordi mange tilsettinger er forsinket,
 
 #### Behandling
 
-Administrativ koordinator orienterte. Kontrakten med partnerne åpner for fakturering fire ganger i året, og flere av de andre KI-sentrene ber om rapporter per tertial. Rapportene partnerne allerede har, kan sendes inn som de er. Ubrukte midler kan overføres til 2027. Styret ønsket å få tall gjennom året og ikke bare i februar.
+Administrativ koordinator orienterte. Kontrakten med partnerne åpner for fakturering fire ganger i året, og flere av de andre KI-sentrene ber om rapporter per tertial. Rapportene partnerne allerede har, kan sendes inn som de er. Ubrukte midler kan overføres til 2027. Styret ønsker å få tall gjennom året og ikke bare i februar. Det blir enklere med tertialrapportering fra partnerne.
 
 #### Vedtak
 
@@ -99,9 +94,9 @@ Søknadene om såkornsmidler og en spørreundersøkelse i nettverket (69 svar) v
 
 #### Behandling
 
-Senterleder orienterte om to kortsiktige tiltak. En HPC-rådgiver ved USIT, som kjenner Sigma2 godt, frikjøpes i 20 prosent stilling for hele MishMash ved å omdisponere UiOs midler i senteret. MishMash har fått en egen konto på Sigma2, foreløpig på UiOs kvote, slik at forskere ved partnere uten egne ressurser kan komme i gang. Den langsiktige løsningen må finnes nasjonalt, sammen med departementene, Sikt og UHR.
+Senterleder orienterte om to kortsiktige tiltak. Det er planlagt å frikjøpe en IT-ansatt med god kjennskap til ulike løsninger som kan bistå hele konsortiet. Det er satt opp et eget MishMash-prosjekt hos Sigma2 for å hjelpe noen forskere i gang på kort sikt. Den langsiktige løsningen må finnes nasjonalt og vil måtte basere seg på en dialog med institusjonene og Sikt.
 
-Styret pekte på at også eksterne partnere trenger tilgang, for eksempel gjennom et fond de kan søke på, at personvernvurderinger ved den enkelte institusjon kan stå i veien for forskning med åpne modeller, og at tilgangen må insentiveres slik såkornsmidlene gjør. Styret oppfordret senteret til å ta en ledende rolle.
+Styret pekte på at også ikke-UH partnere trenger tilgang og at MishMash kan bidra til å finne løsninger.
 
 #### Vedtak
 
@@ -115,9 +110,7 @@ Det er interesse for å bygge en stor norsk multimodal modell (lyd, bilde, tekst
 
 #### Behandling
 
-Senterleder orienterte om rundebordet med forskningsministeren og digitaliseringsministeren 4. november, der MishMash deltar sammen med Nasjonalbiblioteket. En norsk multimodal modell er en langsiktig visjon som samler spørsmål om opphavsrett, teknologi, juss, økonomi og etikk. Regnekraften finnes, men samarbeidet mellom sektorene og departementene mangler.
-
-Styret ba om at budskapet til ministrene har en tydelig bestilling, og pekte på at forskningen trenger tilgang både til modellene og til samlingene for å kunne gi forskningsbasert kunnskap om disse spørsmålene. Et første konkret steg kan være en pilot på materiale som har falt i det fri.
+Senterleder orienterte om de pågående diskusjonene om mulighetene for å trene en norsk multimodal modell. Dette er en langsiktig visjon som samler mange relevante spørsmål om opphavsrett, teknologi, juss, økonomi og etikk. Data og regnekraften finnes, men samarbeidet mellom sektorene mangler. I påvente av ulike avklaringer, kan et første konkret steg kan være en pilot på materiale som har falt i det fri.
 
 #### Vedtak
 
@@ -131,7 +124,7 @@ Den nasjonale forskningsetiske komité for samfunnsvitenskap og humaniora (NESH)
 
 #### Behandling
 
-En arbeidsgruppe ledet fra arbeidspakke 5 sirkulerer et utkast i november. Senterleder pekte på at høringsutkastet ikke omtaler agentisk KI, og at MishMash bør konsentrere seg om opphavsrett og kultur. Styremedlemmene vil ta med innspill i sine egne institusjoners høringssvar.
+Senterleder pekte på at høringsutkastet ikke omtaler agentisk KI, og at MishMash bør konsentrere seg om å kommentere på spørsmål knyttet til opphavsrett og kultur.
 
 #### Vedtak
 
@@ -145,9 +138,9 @@ MishMash er det eneste forskningssentret der kunstnerisk utviklingsarbeid (og an
 
 #### Behandling
 
-Om lag ti av rekruttene er stipendiater i kunstnerisk utviklingsarbeid. Kunstneriske resultater kan registreres i NVA og vises på MishMashs resultatside på linje med andre resultater, men institusjonene teller dem ulikt. MishMash har ingen egen forskerskole, men bidrar med emner til de eksisterende, også den nasjonale forskerskolen for kunstnerisk utviklingsarbeid, og med mobilitet mellom dem.
+Kunstneriske resultater kan registreres i NVA og vises på MishMashs resultatside på linje med andre resultater. MishMash har ingen egen forskerskole, men vil bidra med emner til eksisterende forskerskoler, også den nasjonale forskerskolen for kunstnerisk utviklingsarbeid. Det er et ønske om å tilby emner på tvers av forskerskolene til MishMash-stipendiater.
 
-Styret pekte på at synliggjøringen er en oppgave for arbeidspakke 1 og 2, og at kunstnerisk utviklingsarbeid kan bygge bro til andre fag gjennom felles prosjekter, for eksempel med fysikere og programmerere.
+Styret pekte på at synliggjøringen er en oppgave for arbeidspakke 1 og 2, og at kunstnerisk utviklingsarbeid kan bygge bro til andre fag gjennom felles prosjekter.
 
 #### Vedtak
 
@@ -161,14 +154,11 @@ Styret ble i september enige om å avholde møter i februar og april 2027. Sente
 
 #### Behandling
 
-Styret ønsket god tid til økonomien i februar, og et møte med arbeidspakkelederne i april. Styrets handlingsrom ligger i de frie midlene i budsjettet, som også dekker såkornsmidlene.
+Styret ønsket god tid til økonomien i februar, og et møte med arbeidspakkelederne i april.
 
 #### Vedtak
 
-| Når | Form | Innhold |
-| --- | --- | --- |
-| Mandag 15. februar 2027 kl. 15.00 | Nettmøte | Regnskap og budsjett, egenfinansiering |
-| Mandag 19. april 2027 kl. 15.00 | Avklares | Orientering fra arbeidspakkelederne, etter konferansen på Kristiania |
+Neste styremøte blir mandag 15. februar 2027 kl. 15.00 med hovedfokus på økonomi. Deretter blir det et møte med rapportering fra arbeidspakkelederne mandag 19. april 2027 kl. 15.00.
 
 ### 10. Eventuelt
 
