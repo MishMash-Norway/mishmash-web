@@ -66,7 +66,7 @@ Senterleder orienterte om aktiviteten siden forrige møte:
 Under diskusjonen ble følgende punkter utdypet: 
 
 - Det er gjennomført en evaluering av åpningskonferansen og svarene og et erfaringsdokument er samlet og deles med kommende konferansearrangører.
-- Master fellows tas opp sentralt. Kravet er et relevant tema og en veileder som er aktiv i MishMash. Studenter kan tas opp allerede fra første semester av mastergraden. Det lages møteplasser for dem fra nyåret. Styret pekte på at institusjonene har ulike ordninger for å involvere studenter i forskning som bør utnyttes.
+- Master fellows tas opp sentralt. Kravet er et relevant tema og en veileder som er aktiv i MishMash. Studenter kan tas opp allerede fra første semester av mastergraden. Det lages møteplasser for dem fra nyåret. Styret pekte på at noen institusjoner har egne midler til "studenter i forskning", mens andre ikke har slike ordninger, og at dette kan skape ulikheter mellom studentene. Ordningene ved partnerinstitusjonene kan kartlegges relativt enkelt.
 - Det arbeides med en oversikt over emner stipendiater og masterstudenter kan ta ved andre partnerinstitusjoner.
 - Rådet møtes én gang i semesteret. Et interessentråd for de ikke-akademiske partnerne planlegges til våren.
 
