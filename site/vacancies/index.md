@@ -21,7 +21,7 @@ Many of the MishMash partners offer internships. These are typically not announc
 
 ## Master Fellowships
 
-Master's students at affiliated institutions can [apply to become a MishMash Master Fellow](https://nettskjema.no/a/mishmash-master-fellows). These are unpaid fellowships, but with some benefits. Selected master fellows will be part of the MishMash community and be integrated fully into work package activities. They will also be eligible for funding to participate in MishMash events and apply for seed funding. Apply [here].
+Master's students at affiliated institutions can [apply to become a MishMash Master Fellow](https://nettskjema.no/a/mishmash-master-fellows). These are unpaid fellowships, but with some benefits. Selected master fellows will be part of the MishMash community and be integrated fully into work package activities. They will also be eligible for funding to participate in MishMash events and apply for seed funding.
 
 
 

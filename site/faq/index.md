@@ -48,7 +48,7 @@ The cube was proposed during one of the early application workshops to explain t
 <details class="faq-item" id="how-is-mishmash-organised" markdown="1">
 <summary><span class="faq-summary-text">How is MishMash organised?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash operates as a distributed, collaborative network rather than a single centralized organisation.
+MishMash operates as a distributed, collaborative network rather than a single centralised organisation.
 
 * Research activities are organised into [work packages](#what-are-work-packages), which form the core of the centre’s work
 * Each work package has its own [leadership and research agenda](/about/organisation/wp-leaders/)
@@ -112,7 +112,7 @@ The seven work packages are:
 <details class="faq-item" id="who-can-join-mishmash" markdown="1">
 <summary><span class="faq-summary-text">Who can join MishMash?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Everyone! However, keep in mind that MishMash's primary mission is to connect researchers (and their institutions) in Norway. That said, we are also eager to connect to non-academic Norwegian partners and both academic and non-academic international partners (institutions) and members (people). The centre is continuously developing its network and welcomes new collaborations (see below). 
+Anyone whose work concerns AI and creativity: researchers, artists, educators, students and people in the cultural sector, the public sector and business. MishMash's primary mission is to connect researchers and their institutions in Norway, but members based abroad are welcome, as are international and non-academic partners. Master's students can take part as [master fellows](#master-students). The centre keeps developing its network and welcomes new collaborations (see below).
 
 </details>
 
@@ -130,18 +130,32 @@ Everyone! However, keep in mind that MishMash's primary mission is to connect re
 
 Institutions can express interest in becoming an associate partner by sending an e-mail to [contact@mishmash.no](mailto:contact@mishmash.no) for more information. You will then receive details about roles, expectations, and next steps. Participation gives institutions access to the MishMash network and invitation to events. Being a partner is not an end-goal, it should be seen as a door opener for connecting people in the partner institution with people in the MishMash network.
 
-You will not receive any funding by joining as a partner but you do not have to pay anything either. However, we see that many partners apply for (and get!) external funding together with other MishMash partners.
+You will not receive any funding by joining as a partner, but you do not have to pay anything either. Many partners apply for, and get, external funding together with other MishMash partners.
 
 </details>
 
 <details class="faq-item" id="how-do-i-become-a-member" markdown="1">
 <summary><span class="faq-summary-text">How do I become a member and what do I get?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-People can express interest in becoming a MishMash member by sending an e-mail to [contact@mishmash.no](mailto:contact@mishmash.no) for more information. You will then receive details about roles, expectations, and next steps. 
+Register through the [participation form](https://nettskjema.no/a/625226). It asks for your affiliation, your identifiers and links, the work packages you want to join, and how involved you want to be:
 
-Members are usually connected to a MishMash partner institution, although we are open for members without institutional backing or without a current affiliation. 
+* *Full member*: most of your research aligns with MishMash and you would like to take part in all activities.
+* *Associate member*: some of your research fits, and you take part from time to time.
+* *Affiliate member*: you follow what is going on and take part occasionally.
 
-You will not receive any funding by joining as a member, but you will be able to apply for seed funding together with other MishMash partners. 
+Every member needs an [ORCID](https://orcid.org/), since the directory and the results lists are built from ORCID and NVA. Registering again with the same form updates your work packages and details.
+
+Members are usually connected to a MishMash partner institution, although the centre is open to members without institutional backing or a current affiliation, and to members based outside Norway.
+
+You will not receive any funding by joining as a member, but you will be able to apply for [seed funding](#what-are-seed-funding-projects) together with other MishMash partners. Questions can go to [contact@mishmash.no](mailto:contact@mishmash.no).
+
+</details>
+
+<details class="faq-item" id="master-students" markdown="1">
+<summary><span class="faq-summary-text">I am a master's student. Can I take part?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
+
+Yes, as a [MishMash master fellow](/vacancies/#master-fellowships). The fellowships are unpaid, and are open to master's students at affiliated institutions from the first semester of the degree. What is required is a topic relevant to MishMash and a supervisor who is active in the centre. Master fellows take part in work package activities, can get funding to attend MishMash events and can apply for seed funding. Apply through the [master fellow form](https://nettskjema.no/a/mishmash-master-fellows).
+
 </details>
 
 
@@ -178,7 +192,7 @@ Through concrete collaboration rather than membership alone: joint projects and 
 
 Partners play an active role in shaping MishMash. Typical expectations include:
 
-* Participating with members (people) in work package actvities
+* Participating with members (people) in work package activities
 * Contributing to communication and visibility by sending information about relevant events that can be added to the [events page](/events/).
 * Supporting collaboration across the network and developing applications for MishMash-related projects.
 
@@ -189,7 +203,9 @@ Many activities rely on shared effort across institutions, rather than central c
 <details class="faq-item" id="what-are-seed-funding-projects" markdown="1">
 <summary><span class="faq-summary-text">What are seed funding projects?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash supports smaller research initiatives through seed funding announced internally in the centre regularly. See the [project pages](/projects/) for examples of ongoing projects. Keep in mind that MishMash primarily supports research activities in Norway. International partners can apply, but there should be a solid Norwegian collaboration involved.
+MishMash supports smaller initiatives through seed funding, with calls announced to members on the work package mailing lists several times a year. A project can receive up to NOK 50,000, for instance for a seminar or workshop, a master's scholarship or research assistant, or travel for partners and guest lecturers. Applications that build collaboration between partners are favoured, and every project must lead to something that can be published: a report, an article, code, a dataset, an artwork or a blog post. The projects funded so far are on the [project pages](/projects/).
+
+MishMash primarily supports research activities in Norway. International partners can apply, but there should be a solid Norwegian collaboration involved.
 
 </details>
 
@@ -382,7 +398,7 @@ These cover text and speech. Open Norwegian models for music, image, video and m
 <details class="faq-item" id="mishmash-compute-allocation" markdown="1">
 <summary><span class="faq-summary-text">Does MishMash have computing resources of its own?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Not yet. The centre is setting up a national project allocation so that members can be given access through MishMash rather than only through their own institution, and this page will say how to get on it once it exists.
+Only on a small scale so far. MishMash has a project of its own at Sigma2, used to help researchers who need to get started quickly, and the centre is arranging for an IT specialist to help researchers across the consortium find the right resources. Write to [contact@mishmash.no](mailto:contact@mishmash.no) if you need this.
 
 Beyond that, the centre is working on the structural problem behind these questions: that access in Norway depends on which institution you happen to sit in, and that artists, freelancers and cultural institutions have the least access to the tools they most need. If you have hit a wall we should know about, write to [contact@mishmash.no](mailto:contact@mishmash.no) and tell us what you could not get.
 
@@ -393,7 +409,7 @@ Beyond that, the centre is working on the structural problem behind these questi
 <details class="faq-item" id="what-are-meshups" markdown="1">
 <summary><span class="faq-summary-text">What are MeshUps?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MeshUps are short, weekly online events designed for sharing ongoing work and ideas. During the semesters, they run on Thursdays 12:00–12:30. They begin with a couple of minutes of information from the management team. This is followed by a 15-minute presentation and 10 minutes of Q&A. 
+MeshUps are short, weekly online events designed for sharing ongoing work and ideas. During the semesters, they run on Zoom on Thursdays 12:00–12:30. They begin with a couple of minutes of information from the management team. This is followed by a 15-minute presentation and 10 minutes of Q&A. The Zoom link goes to members of a work package; others can [ask for access](mailto:contact@mishmash.no). MeshUps are not recorded.
 
 MeshUps provide a lightweight format for connecting across disciplines and institutions. Upcoming and past MeshUps are listed on the [events page](/events/).
 
@@ -406,14 +422,14 @@ For Norwegian: For å motta møte-lenker og påminnelser, abonner på MeshUps' a
 <details class="faq-item" id="are-events-open-to-the-public" markdown="1">
 <summary><span class="faq-summary-text">Are MishMash events open to the public?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Many MishMash activities are open, including the weekly MeshUps and conferences. See the [event page](/events/) for details. Work package events are typically reserved for members. 
+Many MishMash activities are open, including the conferences and the weekly MeshUps, where non-members ask for the Zoom link. See the [events page](/events/) for details. Work package events are typically reserved for members.
 
 </details>
 
 <details class="faq-item" id="how-often-are-there-conferences" markdown="1">
 <summary><span class="faq-summary-text">How often does MishMash organise conferences?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Twice a year, hosted in turn by the partner institutions: after the opening conference in Kristiansand in September 2026 come Kristiania University College (spring 2027), the University of Inland Norway (autumn 2027), NTNU (spring 2028), the University of Bergen (autumn 2028) and Østfold University College (spring 2029). Between the conferences there are weekly [MeshUps](#what-are-meshups), work package workshops and hackathons, and partner events.
+Twice a year, hosted in turn by the partner institutions: after the opening conference in Kristiansand in September 2026 come [Kristiania University of Applied Sciences](/events/kristiania2027/) (13–14 April 2027), the University of Inland Norway (autumn 2027), NTNU (spring 2028), the University of Bergen (autumn 2028) and Østfold University College (spring 2029). Between the conferences there are weekly [MeshUps](#what-are-meshups), work package workshops and hackathons, and partner events.
 
 </details>
 
@@ -444,10 +460,11 @@ In practice, MishMash operates as a collaborative effort where contributions fro
 
 MishMash relies on active contributions from its community. You can contribute by:
 
-* Submitting [news](/news/) or [events](/events/) to be automatically linked
-* Adding content to NVA and Orcid that will be automatically synced daily
+* Sending [news](/news/) and [events](/events/), your own or your institution's, to [contact@mishmash.no](mailto:contact@mishmash.no)
+* Registering your results in NVA and ORCID, which the site picks up every night
 * Requesting access to contribute to the [GitHub repository](https://github.com/MishMash-Norway/mishmash-web) that the site is built from
 
+Many members also offer to help with public events, exhibitions, workshops and outreach. Tell your work package leader, or write to [contact@mishmash.no](mailto:contact@mishmash.no) with what you can do.
 
 </details>
 
@@ -459,7 +476,7 @@ MishMash relies on active contributions from its community. You can contribute b
 The site is a [Jekyll](https://jekyllrb.com/) static website. Source code, content, and tooling live in the open [mishmash-web](https://github.com/MishMash-Norway/mishmash-web) repository on GitHub.
 
 * **Build and publish:** Changes merged to the `main` branch are built automatically by [GitHub Actions](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/pages.yml) and published to [mishmash.no](https://mishmash.no/) via GitHub Pages
-* **Quality checks:** Pull requests are checked for broken links, directory consistency, and accessibility before merge
+* **Quality checks:** Every change is checked for broken links, directory consistency, valid HTML and accessibility
 * **Data sync:** Person profiles and research results can be updated nightly from [NVA](https://nva.sikt.no/) and [ORCID](https://orcid.org/) where linked
 * **Contributing:** Partners with repo access can propose edits via pull requests; see [CONTRIBUTING.md](https://github.com/MishMash-Norway/mishmash-web/blob/main/CONTRIBUTING.md) for what to edit locally
 
@@ -495,7 +512,7 @@ The site is built to meet WCAG 2.1 level AA, as the Norwegian regulation on univ
 <details class="faq-item" id="can-students-develop-the-website" markdown="1">
 <summary><span class="faq-summary-text">Can students help develop the website?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Yes. The website doubles as a development playground. Student groups can build **alternative frontends** (switchable UI themes that cannot break the production site) or **backend automation** (data sync, validation, visualization). See the [student development guide](https://github.com/MishMash-Norway/mishmash-web/wiki/Student-Development) in the wiki, the open [issues](https://github.com/MishMash-Norway/mishmash-web/issues) for project ideas, and [the website project](/projects/the-mishmash-website/) for who to talk to.
+Yes. The website doubles as a development playground. Student groups can build alternative front ends (switchable themes that cannot break the production site) or back-end automation (data sync, validation, visualisation). See the [student development guide](https://github.com/MishMash-Norway/mishmash-web/wiki/Student-Development) in the wiki, the open [issues](https://github.com/MishMash-Norway/mishmash-web/issues) for project ideas, and [the website project](/projects/the-mishmash-website/) for who to talk to.
 
 </details>
 
