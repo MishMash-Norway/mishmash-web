@@ -145,7 +145,7 @@ BlogPosting that jekyll-seo-tag writes for a dated page is left out there.{% end
     <li><a href="{{ t.results_url | relative_url }}">{{ t.nav_directory_results | default: ten.nav_directory_results }}</a></li>
     <li><a href="{{ t.gallery_url | relative_url }}">{{ t.nav_gallery | default: ten.nav_gallery }}</a></li>
     <li><a href="{{ t.lab_url | relative_url }}">{{ t.nav_lab | default: ten.nav_lab }}</a></li>
-    <li><a href="{{ '/faq/' | relative_url }}">{{ t.nav_faq | default: ten.nav_faq }}</a></li>
+    <li><a href="{{ t.faq_url | default: ten.faq_url | default: '/faq/' | relative_url }}">{{ t.nav_faq | default: ten.nav_faq }}</a></li>
   </ul>
 </details>
 <details class="btn wp-dropdown">

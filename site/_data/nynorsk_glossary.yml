@@ -5,6 +5,8 @@
 #          is what the site should say.
 keep:
   - MishMash
+  - master fellows
+  - master fellow
   - MeshUp
   - MeshUps
   - Kilden
@@ -24,6 +26,8 @@ keep:
   - rosa
   - Rosa
 replace:
+  # The e-infinitive variant turns a Bokmål imperative into an infinitive.
+  "Søke gjennom [skjemaet": "Søk gjennom [skjemaet"
   # The translator gives a faculty in a proper name the definite form;
   # caught by the term check (terms.yml lists "fakultet").
   "fakultetet for film": "fakultet for film"
@@ -106,6 +110,8 @@ replace:
 # service, and the two fail differently on the same sentence; and a rule kept
 # as a safety net for a term the translator currently gets right on its own.
 expected_unused:
+  # Seen from the public service on the FAQ; not yet confirmed from the local Apertium in CI.
+  - "Søke gjennom [skjemaet"
   # Both engines get this one right by themselves; kept because the name matters.
   - "Forskningsrådet"
   # Seen once from the public service and not since; the service is not
