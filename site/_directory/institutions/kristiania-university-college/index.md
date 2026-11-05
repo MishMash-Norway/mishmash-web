@@ -12,6 +12,7 @@ short_name: Kristiania
 image: /images/institutions/kristiania-university-college.svg
 people:
 - ana-brotas
+- anne-regine-klovholt
 - gro-skaland
 - henning-birkeland
 - jannicke-johansen

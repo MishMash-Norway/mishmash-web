@@ -20,6 +20,7 @@ people:
 - arthur-jinyue-guo
 - balint-laczko
 - benedikte-wallace
+- bernard-geoghegan
 - cagri-erdem
 - carsten-griwodz
 - changkyu-choi

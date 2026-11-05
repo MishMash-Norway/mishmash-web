@@ -16,6 +16,7 @@ people:
 - alexandros-drymonitis
 - andre-alexandersen-hauge
 - georgios-marentakis
+- harald-holone
 - stefano-nichele
 projects: []
 country: Norway
