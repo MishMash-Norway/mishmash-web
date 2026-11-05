@@ -97,6 +97,10 @@ languages_and_terminology:
     - Editing a page under site/ means editing its mirror under site/no/ in the
       same change, and the other way round. The two pages carry the same
       headings in the same order.
+    - Two exceptions. Internal pages under site/internal/ are in English only.
+      Board meeting documents are in Bokmaal only, under
+      site/no/about/organisation/board/meetings/; build_nynorsk.py skips them
+      (SKIP_PATHS) and the board page lists them in every language.
     - Never edit anything under site/nn-auto/. It is generated and git ignores
       it. Correct the Bokmaal page, or add a rule to the translation glossary.
     - A term the centre uses belongs in site/_data/glossary.yml, with its English,
@@ -202,6 +206,14 @@ routing:
     source: site/_data/partner_events.yml
     public_area: /events/partner-events/
     special_rule: Add an external link record; do not create a local event page.
+  - request_type: board_meeting
+    source: site/no/about/organisation/board/meetings/YYYY-MM-DD/index.md
+    public_area: /no/about/organisation/board/meetings/YYYY-MM-DD/
+    special_rule: Bokmaal only, layout meeting; copy the members and secretariat from the previous meeting. No English page and no Nynorsk page.
+  - request_type: unannounced_draft_page
+    source: the page's usual place, for example site/internal/funding/seed-funding/seedNN/index.md
+    public_area: built at its address but linked from nowhere
+    special_rule: Set sitemap false and noindex true, open with a bracketed note saying what is missing, and list it nowhere until it is published.
   - request_type: directory_person
     source: site/_directory/people/{slug}/index.md
     public_area: /people/{slug}/
@@ -588,7 +600,7 @@ build_and_ci:
       - python3 scripts/check_terminology.py
       - python3 scripts/check_event_alt.py
       - 'for t in scripts/test_*.py; do [ "$t" = scripts/test_nva_api_auth.py ] && continue; python3 "$t" || break; done'
-      - python3 scripts/build_nynorsk.py --check-glossary
+      - python3 scripts/build_nynorsk.py --check-glossary --check-terms
       - python3 scripts/measure_languages.py && python3 scripts/build_open_data.py && python3 scripts/build_avif.py
       - bundle exec jekyll build --trace
       - bundle exec htmlproofer ./_site --disable-external --no-enforce-https
@@ -655,7 +667,7 @@ build_and_ci:
         repairs most reciprocity gaps.
 
 agent_workflow:
-  - Read this file first and classify the request using routing.
+  - Read AGENTS.md at the repository root first, then this file, and classify the request using routing.
   - Inspect one nearby existing entry before editing.
   - Check for duplicate URL, slug, or person before creating a new record.
   - Make the smallest source-only change.

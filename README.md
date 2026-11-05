@@ -40,6 +40,7 @@ Install Ruby and run the checks before pushing: [Running the Site Locally][local
 | `scripts/` | Python and Node automation ([overview](scripts/README.md)) and the `ui` theme switcher |
 | `tests/visual/` | Playwright specs: screenshots of the main look and the themes with their baselines, and the behaviour of the header menus and the abbreviation toggles (`npm run visual`, `visual:themes`, `visual:update`) |
 | `tests/chat/` | The question set the Ask MishMash retrieval is scored against |
+| `AGENTS.md` | Start here for any coding agent (Copilot, Codex, Claude): how to work, the rules, the checks; `.github/copilot-instructions.md` and `CLAUDE.md` point to it |
 | `CONTENT_HANDOVER.yml` | The brief for agents and automated tools: what may be edited, the rules, the runbooks |
 | `config/` | Local credentials (never committed) and the tag merge map ([readme](config/README.md)) |
 | `BRAND.md` | The visual identity: wordmark, colours, type, and the rules for using them |

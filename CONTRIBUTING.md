@@ -2,7 +2,7 @@
 
 This repository is the [MishMash](https://mishmash.no) website: a Jekyll site published on GitHub Pages, with Python scripts for syncing directory and research data from NVA and ORCID.
 
-Layout: the published site is built from [`site/`](site/). Tooling, config, and docs live at the repo root. The brief for agents and automated tools is [`CONTENT_HANDOVER.yml`](CONTENT_HANDOVER.yml).
+Layout: the published site is built from [`site/`](site/). Tooling, config, and docs live at the repo root. An agent starts from [`AGENTS.md`](AGENTS.md), and the full brief for agents and automated tools is [`CONTENT_HANDOVER.yml`](CONTENT_HANDOVER.yml).
 
 For day-to-day editing, see also the [README](README.md) and [scripts/README.md](scripts/README.md). Maintenance notes live in the [GitHub Wiki](https://github.com/MishMash-Norway/mishmash-web/wiki).
 
