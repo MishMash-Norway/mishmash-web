@@ -56,6 +56,7 @@ When processing each application, emphasis will be placed on the initiative's qu
 
 - Relevance to the MishMash research questions
 - Collaboration between partners within the MishMash network
+- Collaboration between academic partners and partners from the public, private and cultural sectors
 - Initiatives that can result in data or code that may benefit others
 - Projects with the potential for developing applications for other types of funding
 
