@@ -22,7 +22,7 @@ Researchers and staff from the partner institutions listed on the MishMash web p
 
 - Institutions outside Norway cannot apply on their own, but may take part in an application submitted by a Norwegian institution.
 - Applicants with unreported ongoing seed projects are normally not prioritised.
-- Associated partners awarded funding sign a sub-project funding agreement.
+- Associated partners awarded funding are required to sign a sub-project funding agreement.
 
 ## Costs
 
