@@ -1,0 +1,32 @@
+# Members without an ORCID on 2026-11-06, when a missing ORCID became an error
+# in scripts/validate_directory.py. Every member needs an ORCID; board and
+# council members are exempt. Each person listed here is reported as a warning
+# rather than an error until the ORCID arrives. Remove the line when it does;
+# the validator fails on a listed person who already has one, so the list only
+# shrinks. Never add a new person here.
+- bente-aasheim
+- bjornar-bruket
+- carmen-gloria-perez
+- hanne-lovise-skartveit
+- hanne-maren-meldahl
+- jason-nelson
+- jens-nyland
+- kristina-laurinciukaite
+- lukas-erni
+- mattias-lundqvist
+- morten-h-forsberg
+- ole-andreas-rognstad
+- oystein-eugene-hermstad
+- oystein-stene
+- rasaq-olatunji-bello
+- robert-wechsler
+- rose-martin
+- sagar-sen
+- sashi-komandur
+- sigmund-trageton
+- sondre-knudsen
+- terje-gaustad
+- tommy-aase
+- tonje-louise-finne
+- tor-martin-norvik
+- trine-wester

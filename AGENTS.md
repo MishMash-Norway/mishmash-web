@@ -4,7 +4,7 @@ This file is for any agent working on mishmash.no: GitHub Copilot (chat, agent m
 
 ## What the repository is
 
-mishmash.no is a Jekyll 3 site on GitHub Pages, built from `site/` with the config at the repository root. It is published in three languages: English under `site/` is the source, Bokmål under `site/no/` is written by hand, and Nynorsk under `/nn/` is generated from the Bokmål pages at every build by `scripts/build_nynorsk.py`. People, institutions and projects live in `site/_directory/`; most listings are driven by YAML in `site/_data/`. A nightly workflow refreshes people and results from NVA and ORCID and pushes to `main` by itself.
+mishmash.no is a Jekyll 3 site on GitHub Pages, built from `site/` with the config at the repository root. It is published in three languages: English under `site/` is the source, Bokmål under `site/no/` is a mix of machine translations of the English and pages written or reviewed by a person, and Nynorsk under `/nn/` is generated from the Bokmål pages at every build by `scripts/build_nynorsk.py`. People, institutions and projects live in `site/_directory/`; most listings are driven by YAML in `site/_data/`. A nightly workflow refreshes people and results from NVA and ORCID and pushes to `main` by itself.
 
 ## How to work
 
@@ -24,6 +24,7 @@ Ask the person you work for before anything that cannot be undone or that reache
 - Never edit `site/nn-auto/`; it is generated and ignored by git. Fix the Bokmål page, or add a rule to `site/_data/nynorsk_glossary.yml`. A page reviewed by a person lives under `site/nn/` and is no longer generated.
 - The Nynorsk build holds the output to the term list `site/_data/terms.yml`; `--check-terms` fails when a listed term does not come out as listed.
 - Two exceptions to the mirror rule: internal pages (`site/internal/`) are in English only, and board meeting documents (`site/no/about/organisation/board/meetings/`) are in Bokmål only; the board page lists them in every language.
+- A Bokmål page counts as an automatic translation (`translation.automatic: true`, the default in `_config.yml`) until a person has written or reviewed it; that page sets `translation:` `automatic: false` in its front matter. Never set it to false on a page you drafted yourself.
 - In Norwegian, write KI for artificial intelligence, never AI, and use conservative Bokmål.
 
 ## Writing rules
@@ -46,7 +47,7 @@ Ask the person you work for before anything that cannot be undone or that reache
 - A centre event or MeshUp is a file in `site/_events/`; a MeshUp has `MeshUp` and its work package in `categories`, and a speaker portrait goes in `site/assets/images/portraits/` at 600 by 600 pixels.
 - A page that should be built but not announced (a draft call, a placeholder) sets `sitemap: false` and `noindex: true`, is linked from nowhere, and opens with a bracketed note saying what is missing.
 - Open questions for the person go in square brackets inside the document, with a recommendation first.
-- New people from the participation form follow the runbook `automation.people_import_from_the_form`; the scripts exist, do not write new ones.
+- New people from the participation form follow the runbook `automation.people_import_from_the_form`; the scripts exist, do not write new ones. Every member needs an ORCID (board and council members are exempt), and `validate_directory.py` fails on a new member without one: ask for the ORCID, or keep the entry `published: false` until it comes. Never add a name to `site/_data/orcid_pending.yml`; that list only shrinks.
 
 ## Checks
 

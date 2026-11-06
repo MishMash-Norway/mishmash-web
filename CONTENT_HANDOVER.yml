@@ -89,7 +89,9 @@ writing_style:
 languages_and_terminology:
   purpose: >-
     The site is written twice and generated a third time. English under site/ is
-    the source, Bokmaal under site/no/ is written by hand beside it, and Nynorsk
+    the source, Bokmaal under site/no/ sits beside it as a mix of machine
+    translations (translation.automatic true, the default) and pages a person
+    has written or reviewed (translation.automatic false), and Nynorsk
     under /nn/ is produced from the Bokmaal pages at build time. An agent that
     edits one language and stops has introduced drift, which is treated as a
     failure here.
@@ -468,6 +470,11 @@ automation:
         from the form; the importer keeps them and says so in a warning.
       - Never add a compute_access local block without checking the
         institution's own pages.
+      - Never publish a member without an ORCID. validate_directory.py fails
+        on one; board and council members are exempt. Ask for the ORCID or set
+        published false until it comes, and never add the slug to
+        site/_data/orcid_pending.yml, which lists the members who lacked one
+        on 2026-11-06 and only shrinks.
   generated_or_machine_updated:
     - _site/
     - site/_data/mishmash_results.yml

@@ -57,6 +57,17 @@ CANONICAL_ROLES = {
 }
 
 
+# Every member needs an ORCID; board and council members are exempt.
+ORCID_EXEMPT_ROLES = {"Board Member", "Board Leader", "Council Member"}
+
+
+def load_orcid_pending(root: Path) -> set[str]:
+    path = root / "_data" / "orcid_pending.yml"
+    if not path.exists():
+        return set()
+    return set(yaml.safe_load(path.read_text(encoding="utf-8")) or [])
+
+
 def load_wp_leader_slugs(root: Path) -> set[str]:
     wp_file = root / "_data" / "work_packages.yml"
     if not wp_file.exists():
@@ -87,6 +98,7 @@ def main():
     root = Path(args.root).resolve()
     directory_root = root / "_directory"
     wp_leader_slugs = load_wp_leader_slugs(root)
+    orcid_pending = load_orcid_pending(root)
 
     errors = []
     warnings = []
@@ -211,8 +223,18 @@ def main():
                         f"{rel}: listed in work_packages.yml but missing 'Work Package Leader' role"
                     )
                 urls = fm.get("urls") or {}
-                if not (urls.get("nva") or urls.get("orcid")):
-                    warnings.append(f"{rel}: missing urls.nva and urls.orcid (will not auto-sync from NVA)")
+                exempt = bool(set(fm.get("roles") or []) & ORCID_EXEMPT_ROLES)
+                published = fm.get("published") is not False
+                if urls.get("orcid"):
+                    if slug in orcid_pending:
+                        errors.append(f"{rel}: has an ORCID; remove '{slug}' from _data/orcid_pending.yml")
+                elif not published or exempt:
+                    if not urls.get("nva"):
+                        warnings.append(f"{rel}: missing urls.nva and urls.orcid (will not auto-sync from NVA)")
+                elif slug in orcid_pending:
+                    warnings.append(f"{rel}: missing urls.orcid (listed in _data/orcid_pending.yml)")
+                else:
+                    errors.append(f"{rel}: missing urls.orcid (every member needs an ORCID; board and council are exempt)")
 
             if expected_type == "institution":
                 warn_path_style_slug_lists(rel, "people", fm.get("people"), warnings)
