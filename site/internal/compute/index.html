@@ -9,11 +9,11 @@ custom_css: /assets/css/compute.css
 
 <h1>Where to get computing power</h1>
 
-<p>Pick your institution and this page tells you what you can use today, what you are eligible to apply for, and who to ask. The centre's Norwegian partners are in six quite different situations, and the answer really is different for a large university, an art academy, a museum and a company.</p>
+<p>This page shows where MishMash members can get computing power for AI work. Start with the centre's own projects, then choose your institution to see what you can use, what you can apply for, and whom to ask.</p>
 
-<p>The page covers Norwegian partners only. If you are at one of the centre's institutions outside Norway, use your own country's national provider, which will be faster and better supported for you than anything Norwegian; where a joint project needs Norwegian resources, it normally runs on the Norwegian partner's allocation, so ask your MishMash collaborator to add you to theirs, or ask to join the centre's own projects below.</p>
+<p>The national systems are run by <a href="https://www.sigma2.no/">Sigma2</a>, which provides computing and storage for research, and the <a href="https://www.naic.no/">Norwegian AI Cloud</a>, which adds AI capacity and training. Creative Computing Hub Oslo, at the University of Oslo, is a low-threshold platform for machine learning in creative practice, also open to freelancers. Several partners run their own clusters and GPU workstations, which suit real-time and interactive work best.</p>
 
-<p>Three resources sit behind most of the answers below. <a href="https://www.sigma2.no/">Sigma2</a> runs the national computing and storage services that the academic partners apply to. The <a href="https://www.naic.no/">Norwegian AI Cloud</a> adds capacity aimed at AI work and at training people to use it. Creative Computing Hub Oslo, built at the University of Oslo, is a low-entry platform for machine learning in creative practice, meant for freelancers and others without institutional computing resources. Alongside these, several partners run their own clusters and GPU workstations, which is where most real-time and interactive work belongs.</p>
+<p>Partners outside Norway should use their own country's national provider. For a joint project, ask your Norwegian collaborator, or the centre, to add you to an existing project.</p>
 
 <h2>MishMash's own projects</h2>
 
@@ -31,7 +31,7 @@ custom_css: /assets/css/compute.css
 
 <h2>What your institution offers</h2>
 
-<p class="mm-help">Checked {{ access.last_checked }}. Facts about institutional services change; if something here is wrong or out of date, tell us at <a href="mailto:contact@mishmash.no">contact@mishmash.no</a> and we will fix it.</p>
+<p class="mm-help">Checked {{ access.last_checked }}. If something is wrong or out of date, write to <a href="mailto:contact@mishmash.no">contact@mishmash.no</a>.</p>
 
 <div class="mm-field">
   <label class="mm-label" for="ca-institution">Your institution</label>
@@ -44,7 +44,7 @@ custom_css: /assets/css/compute.css
       {% endif %}
     {% endfor %}
   </select>
-  <p class="mm-help">Norwegian partner and not listed? The categories below still apply, so use the one that fits and write to us so we can add you.</p>
+  <p class="mm-help">Not listed? Use the category below that fits, and write to us so we can add you.</p>
 </div>
 
 <p class="ca-empty" id="ca-empty">Nothing selected yet.</p>
@@ -72,7 +72,7 @@ custom_css: /assets/css/compute.css
     {% endif %}
   {% endfor %}
 
-  <p class="ca-nolocal" id="ca-nolocal" hidden>We have not checked what this institution runs in-house. The guidance below applies to institutions of this kind. If you know what your own IT service offers, tell us and we will add it.</p>
+  <p class="ca-nolocal" id="ca-nolocal" hidden>We have not checked what this institution runs itself, so the guidance below is for institutions of this kind. If you know what your IT service offers, tell us.</p>
 
   {% for pair in access.categories %}
     {% assign key = pair[0] %}
@@ -110,7 +110,7 @@ custom_css: /assets/css/compute.css
 
 </div>
 
-<h2>The six situations</h2>
+<h2>The six categories</h2>
 
 <div class="faq-list">
 {% for pair in access.categories %}
