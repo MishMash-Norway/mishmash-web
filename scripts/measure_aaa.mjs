@@ -85,6 +85,14 @@ function lineLengths() {
   return rows;
 }
 
+// A page counts as ready once it has loaded and its own requests have settled.
+// A request to another site that never settles (a stalled embed, a slow
+// font) is given ten seconds and then ignored, so it cannot fail the check.
+async function open(page, url) {
+  await page.goto(url, { waitUntil: 'load', timeout: 60000 });
+  await page.waitForLoadState('networkidle', { timeout: 10000 }).catch(() => {});
+}
+
 function distinct(rows, keyOf) {
   const map = new Map();
   for (const row of rows) {
@@ -117,7 +125,7 @@ async function main() {
   let textCount = 0, targetCount = 0, lineCount = 0;
 
   for (const path of PAGES) {
-    await page.goto(base + prefix + path, { waitUntil: 'networkidle' });
+    await open(page, base + prefix + path);
     const rows = await page.evaluate(measure, [TEXT, level]);
     textCount += rows.length;
     for (const row of rows) if (row.ratio < row.required) contrast.push({ ...row, page: path });
@@ -131,7 +139,7 @@ async function main() {
 
   // The states a page scan cannot reach, at the AAA threshold.
   for (const target of TARGETS) {
-    await page.goto(base + prefix + target.page, { waitUntil: 'networkidle' });
+    await open(page, base + prefix + target.page);
     const p = target.prepare;
     if (p?.kind === 'focus') await page.locator(p.selector).first().focus();
     if (p?.kind === 'open-details') await page.locator(p.selector).first().evaluate((el) => { el.open = true; });
