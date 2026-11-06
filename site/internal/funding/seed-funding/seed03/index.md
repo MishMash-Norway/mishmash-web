@@ -7,7 +7,7 @@ We are announcing the third call for MishMash seed funding. The funding is inten
 
 Application deadline: 15 January 2027, 13:00. The submission form opens soon and will be linked here.
 
-Any funding must result in a publicly publishable report, blog post, article, code, dataset, artwork, or other research product, which can be featured and linked to through MishMash's communication channels. 
+Any funding must result in a publicly publishable report, blog post, article, code, dataset, artwork, teaching material or open educational resource, or other research product, which can be featured and linked to through MishMash's communication channels.
 
 The funding can also be used to develop new projects and collaborations to present at the [MishMash conference](/events/kristiania2027/) at Kristiania University of Applied Sciences, 13–14 April 2027, for instance as a talk, demonstration, performance, or installation. The costs of producing such a contribution are eligible.
 
@@ -15,13 +15,14 @@ Please keep in mind that new opportunities will come up at regular intervals, so
 
 ### Funding and eligibility
 
-Each project can be supported with up to NOK 50,000. The project must be completed by 1 December 2027. Researchers from partner institutions listed on the MishMash web page are eligible to apply. You may apply for funding to cover, for instance:
+Each project can be supported with up to NOK 50,000. The project must be completed by 1 December 2027. Researchers and staff from partner institutions listed on the MishMash web page, including associated partners, are eligible to apply. You may apply for funding to cover, for instance:
 
 - Organisation of seminars or workshops
 - Master's scholarships, internships, and research assistant resources
 - Travel costs for partners and guest lectures
 - Production costs, materials, technical assistance, and documentation
 - Fees for external artists and other professional collaborators
+- Staff time at non-research partners in the public and cultural sectors, such as cover for teachers
 - Other relevant expenses
 
 ### Funding principles
@@ -30,10 +31,12 @@ Consider the following principles when preparing internal seed funding proposals
 
 - **Subsistence costs** are generally not eligible; however, modest expenses (e.g., canteen-style lunches) directly linked to activities such as seminars or workshops may be accepted.
 - **Participant fees** for research contributors (e.g., subjects in experiments, artists in recordings, etc.) who are not MishMash members may be covered when they are necessary for project delivery, particularly when they come from outside academia.
+- **Equipment** is generally not eligible, unless it is clearly justified as necessary for the project.
 - **Licenses/tokens** should preferably be network/site-based so that they can benefit many or all MishMash partners.
 - **Fees for international collaborators** to participate in project events may be eligible, but need to be clearly justified.
 - **Fees for external artists and other professional collaborators** who are not employed by a MishMash partner may be covered for work they do in the project, at normal rates for the field.
-- Events should normally be organised in a **hybrid format** to ensure broad and inclusive participation. 
+- **Staff time at non-research partners** in the public and cultural sectors, such as schools and kulturskoler, may be covered where it is necessary for delivery, for instance to pay for a substitute teacher (vikarutgifter).
+- Events should normally be organised in a **hybrid format** to ensure broad and inclusive participation.
 - Moderation in **travel expenses** is recommended, and environmentally friendly travel options are encouraged.
 - Budgets should include and clearly describe **in-kind contributions** from the applicant and partners.
 - Costs covering general participation in **external conferences** are normally not eligible unless explicitly justified as core to project goals. In such cases, applicants are encouraged to consider MishMash's visibility and representation at the event.
@@ -45,6 +48,8 @@ Consider the following principles when preparing internal seed funding proposals
 All requested costs must be justified, proportionate, and directly linked to the proposed seed funding activities.
 
 ### About the application
+
+Applicants are encouraged to contact the most relevant [Work Package Leader](/about/organisation/wp-leaders/) before submitting, to discuss the idea and how it fits the work package.
 
 The application must be written in English and submitted via the online form linked at the top of this page. It should contain a concise description (max 2 pages) of the initiative and a presentation of the applicant and any partners, including links to relevant websites or previous work. A simple budget and financial plan are required, with any combined amounts broken down to show the calculations, requested costs justified, and any in-kind contributions clearly described. The application must also specify a timeline and end date for the project (1 December 2027, at the latest, for this call).
 
