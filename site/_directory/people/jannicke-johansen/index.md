@@ -51,6 +51,21 @@ search_keywords:
 - Entrepreneurship
 - Research
 selected_works:
+- title: 'Chromatic Concealment: Multi-Layer Textile Projection for Depth in Bright
+    Museum Environments'
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://eg-gch2026.github.io/program
+  contributors:
+  - name: Rafal Hanzl
+    role: Creator
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
+  - name: Jannicke Johansen
+    role: Creator
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: Digitale tvillinger - Fortidens materialitet i fremtidens form
   year: '2026'
   source: Exhibition
@@ -159,17 +174,6 @@ selected_works:
 - title: "\"Den gode nabo\"- Kommunikasjon som endrer samfunnet, Strategisk kommunikasjon,\
     \ Kunnskapsmagasinet\r\nhttps://indd.adobe.com/view/8769cea7-bc0c-4831-91cb-bfdcb9fac998\
     \ , side 43"
-  year: '2024'
-  source: Popular science article
-  group_type: Popular science article
-  contributors:
-  - name: Jannicke Johansen
-    role: Creator
-    slug: jannicke-johansen
-    url: /people/jannicke-johansen/
-- title: "\"Fortell meg hva du ser på, og jeg skal si deg hva du kjøper\", Kunsten\
-    \ å påvirke, Strategisk kommunikasjon, Kunnskapsmagasinet\r\nhttps://indd.adobe.com/view/8769cea7-bc0c-4831-91cb-bfdcb9fac998\
-    \ , side 80"
   year: '2024'
   source: Popular science article
   group_type: Popular science article

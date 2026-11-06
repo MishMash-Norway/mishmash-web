@@ -40,6 +40,25 @@ tags:
 search_keywords:
 - Music Education
 selected_works:
+- title: 'AI in the teaching and learning of the arts: Protocol for a scoping review
+    (MishMash WP4)'
+  year: '2026'
+  source: Report
+  group_type: Report
+  url: https://doi.org/10.17605/OSF.IO/C5B3Q
+  contributors:
+  - name: Jens Knigge
+    role: Creator
+    slug: jens-knigge
+    url: /people/jens-knigge/
+  - name: Sidsel Karlsen
+    role: Creator
+    slug: sidsel-karlsen
+    url: /people/sidsel-karlsen/
+  - name: Eirik Sørbø
+    role: Creator
+    slug: eirik-sorbo
+    url: /people/eirik-sorbo/
 - title: Soziologie der Musikpädagogik
   year: '2026'
   source: Book chapter
@@ -165,21 +184,6 @@ selected_works:
     url: /people/sidsel-karlsen/
   - name: Siw Graabræk Nielsen
     role: Creator
-- title: 'Selecting repertoire for music teaching: Findings from Norwegian schools
-    of music and arts'
-  year: '2022'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1177/1321103X221099436
-  contributors:
-  - name: Siw Graabræk Nielsen
-    role: Creator
-  - name: Anne Jordhus-Lier
-    role: Creator
-  - name: Sidsel Karlsen
-    role: Creator
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''

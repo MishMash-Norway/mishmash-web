@@ -47,6 +47,25 @@ search_keywords:
 - Artificial Intelligence
 - Music Technology
 selected_works:
+- title: 'AI in the teaching and learning of the arts: Protocol for a scoping review
+    (MishMash WP4)'
+  year: '2026'
+  source: Report
+  group_type: Report
+  url: https://doi.org/10.17605/OSF.IO/C5B3Q
+  contributors:
+  - name: Jens Knigge
+    role: Creator
+    slug: jens-knigge
+    url: /people/jens-knigge/
+  - name: Sidsel Karlsen
+    role: Creator
+    slug: sidsel-karlsen
+    url: /people/sidsel-karlsen/
+  - name: Eirik Sørbø
+    role: Creator
+    slug: eirik-sorbo
+    url: /people/eirik-sorbo/
 - title: 'Don''t do this at home: Re-amping the Norwegian Broadcasting Orchestra (KORK)
     for Nils Petter Molvær''s Certainty of Tides'
   year: '2026'

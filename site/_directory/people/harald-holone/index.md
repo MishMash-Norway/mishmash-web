@@ -24,19 +24,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Human-Computer Interaction
+- Human Computer Interaction
 - Participatory Design
-- Sound design
-- Live performance
-- electronic music
-- gesture based interaction
+- Sound Design
+- Live Performance
+- Electronic Music
+- Gesture Based Interaction
 search_keywords:
-- Human-Computer Interaction
+- Human Computer Interaction
 - Participatory Design
-- Sound design
-- Live performance
-- electronic music
-- gesture based interaction
+- Sound Design
+- Live Performance
+- Electronic Music
+- Gesture Based Interaction
 selected_works:
 - title: 'Closing Time: A Theatre of Augmentation'
   year: '2026'

@@ -24,19 +24,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- video and audio production
-- writing
-- podcasting
-- critical AI studies
-- media theory
-- media history
+- Video and Audio Production
+- Writing
+- Podcasting
+- Critical AI Studies
+- Media Theory
+- Media History
 search_keywords:
-- video and audio production
-- writing
-- podcasting
-- critical AI studies
-- media theory
-- media history
+- Video and Audio Production
+- Writing
+- Podcasting
+- Critical AI Studies
+- Media Theory
+- Media History
 selected_works:
 - title: 'GIFT-AI: The Cringe Test: Student Evaluations of Intelligence with LLMs
     in a Turing Test Adapted for Classroom Use'

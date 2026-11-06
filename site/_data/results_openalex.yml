@@ -1,8 +1,8 @@
-synced_at: '2026-11-05T13:19:11Z'
+synced_at: '2026-11-06T13:01:38Z'
 source: OpenAlex (CC0) for the open-access status and the free copy, Crossref for
   the licence
-count: 23
-free: 16
+count: 24
+free: 17
 works:
   10.1007/978-3-032-26999-7_18:
     status: closed
@@ -80,6 +80,13 @@ works:
     licence: cc-by
     licence_label: CC BY
     licence_url: https://creativecommons.org/licenses/by/4.0/
+  10.17605/osf.io/c5b3q:
+    status: green
+    label: open access (author copy)
+    free: true
+    url: https://doi.org/10.17605/osf.io/c5b3q
+    licence: cc-by
+    licence_label: CC BY
   10.18261/njdl.21.1.3:
     status: diamond
     label: open access

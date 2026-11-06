@@ -60,6 +60,42 @@ search_keywords:
 - Music Education
 - Music Didaktik
 selected_works:
+- title: 'AI in the teaching and learning of the arts: Protocol for a scoping review
+    (MishMash WP4)'
+  year: '2026'
+  source: Report
+  group_type: Report
+  url: https://doi.org/10.17605/OSF.IO/C5B3Q
+  contributors:
+  - name: Jens Knigge
+    role: Creator
+    slug: jens-knigge
+    url: /people/jens-knigge/
+  - name: Sidsel Karlsen
+    role: Creator
+    slug: sidsel-karlsen
+    url: /people/sidsel-karlsen/
+  - name: Eirik Sørbø
+    role: Creator
+    slug: eirik-sorbo
+    url: /people/eirik-sorbo/
+- title: 'Prototypical exchange study models for music teacher education: A practical
+    guide for programme coordinators, international offices and academic advisors'
+  year: '2026'
+  source: Report
+  group_type: Report
+  url: https://teacher-academy-music.eu/student-mobility/study-abroad/resources
+  contributors:
+  - name: Kirsti Nørstebø
+    role: Creator
+  - name: Bjørg Solveig Fretheim
+    role: Creator
+  - name: Runa Hestad Jenssen
+    role: Creator
+  - name: Jens Knigge
+    role: Creator
+    slug: jens-knigge
+    url: /people/jens-knigge/
 - title: Music Education in Norwegian Schools
   year: '2026'
   source: Book chapter
@@ -179,30 +215,6 @@ selected_works:
     role: Creator
     slug: jens-knigge
     url: /people/jens-knigge/
-- title: Quantitativ-deskriptive Forschungszugänge
-  year: '2026'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Jens Knigge
-    role: Creator
-    slug: jens-knigge
-    url: /people/jens-knigge/
-  - name: Friedrich Platz
-    role: Creator
-- title: Transfer
-  year: '2026'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Michael Dartsch
-    role: Creator
-  - name: Jens Knigge
-    role: Creator
-    slug: jens-knigge
-    url: /people/jens-knigge/
-  - name: Friedrich Platz
-    role: Creator
 source_mentions: []
 summary: ''
 wps:

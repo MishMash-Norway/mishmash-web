@@ -45,6 +45,7 @@ selected_works:
   year: '2026'
   source: Monograph
   group_type: Monograph
+  url: https://www.cappelendamm.no/boker/smuglergodset-som-ble-buddhismens-dodehavsruller-arstein-justnes-9788202775131
   contributors:
   - name: Årstein Justnes
     role: Creator

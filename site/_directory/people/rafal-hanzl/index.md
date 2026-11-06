@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: https://creativetechnologist.eu
-  institutional_website: https://phygitalspaces.org
+  institutional_website: ''
   github: https://github.com/rvrooom
   linkedin: https://www.linkedin.com/in/rafał-hanzl-992b0733/
   orcid: https://orcid.org/0000-0001-6316-2320
@@ -51,6 +51,21 @@ search_keywords:
 - Game Design
 - Compositing
 selected_works:
+- title: 'Chromatic Concealment: Multi-Layer Textile Projection for Depth in Bright
+    Museum Environments'
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://eg-gch2026.github.io/program
+  contributors:
+  - name: Rafal Hanzl
+    role: Creator
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
+  - name: Jannicke Johansen
+    role: Creator
+    slug: jannicke-johansen
+    url: /people/jannicke-johansen/
 - title: Digitale tvillinger - Fortidens materialitet i fremtidens form
   year: '2026'
   source: Exhibition
@@ -199,18 +214,6 @@ selected_works:
     role: Director
   - name: Maureen Thomas
     role: Producer
-- title: Medieval Akershus Castle - Interactive Museum Exhibit
-  year: '2022'
-  source: Exhibition
-  group_type: Exhibition
-  url: https://medievalcastle.extendedmedia.no
-  contributors:
-  - name: Rafal Hanzl
-    role: ProjectLeader
-    slug: rafal-hanzl
-    url: /people/rafal-hanzl/
-  - name: Maureen Thomas
-    role: Writer
 source_mentions: []
 summary: Researcher and digital artist specialising in immersive technologies, projection
   mapping, and cultural heritage digitisation. Honorary Professor at Kristiania University

@@ -1,4 +1,4 @@
-synced_at: '2026-11-05T13:19:02Z'
+synced_at: '2026-11-06T13:01:29Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -11791,6 +11791,59 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9424b28-74985eb6-908a-46ba-ad03-4739181ffe34
   url: https://zenodo.org/records/20639784
   nva_url: https://nva.sikt.no/registration/01a0d9424b28-74985eb6-908a-46ba-ad03-4739181ffe34
+- title: 'AI in the teaching and learning of the arts: Protocol for a scoping review
+    (MishMash WP4)'
+  year: '2026'
+  type: ReportBasic
+  type_label: Report
+  group_type: Report
+  contributors:
+  - name: Jens Knigge
+    role: Creator
+    slug: jens-knigge
+    url: /people/jens-knigge/
+  - name: Sidsel Karlsen
+    role: Creator
+    slug: sidsel-karlsen
+    url: /people/sidsel-karlsen/
+  - name: Eirik Sørbø
+    role: Creator
+    slug: eirik-sorbo
+    url: /people/eirik-sorbo/
+  institutions:
+  - name: Norwegian Academy of Music
+    slug: norwegian-academy-of-music
+    url: /institutions/norwegian-academy-of-music/
+  - name: Nord University
+    slug: nord-university
+    url: /institutions/nord-university/
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  citation:
+    authors:
+    - display: Knigge, Jens
+      name: Jens Knigge
+      slug: jens-knigge
+      url: /people/jens-knigge/
+    - display: Karlsen, Sidsel
+      name: Sidsel Karlsen
+      slug: sidsel-karlsen
+      url: /people/sidsel-karlsen/
+    - display: Sørbø, Eirik
+      name: Eirik Sørbø
+      slug: eirik-sorbo
+      url: /people/eirik-sorbo/
+    title: 'AI in the teaching and learning of the arts: Protocol for a scoping review
+      (MishMash WP4)'
+    container: ''
+    details: 'Open Science Framework. doi: 10.17605/OSF.IO/C5B3Q.'
+    abstract: ''
+    full_text_url: https://hdl.handle.net/11250/5595623
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1accd148a-e34df6e1-099d-426c-a850-7335c27a8287
+  url: https://doi.org/10.17605/OSF.IO/C5B3Q
+  nva_url: https://nva.sikt.no/registration/01a1accd148a-e34df6e1-099d-426c-a850-7335c27a8287
 - title: COST Action EarlyMuse 2022-2026. Six Reports on Musicology in Europe
   year: '2026'
   type: ReportBasic

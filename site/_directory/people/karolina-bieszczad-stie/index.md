@@ -23,19 +23,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Artistic research
-- choreography
-- contemporary dance
+- Artistic Research
+- Choreography
+- Contemporary Dance
 - Japanese Butoh
-- embodied research
-- practice-based research
+- Embodied Research
+- Practice-Based Research
 search_keywords:
-- Artistic research
-- choreography
-- contemporary dance
+- Artistic Research
+- Choreography
+- Contemporary Dance
 - Japanese Butoh
-- embodied research
-- practice-based research
+- Embodied Research
+- Practice-Based Research
 selected_works:
 - title: Call of the Void
   year: '2026'

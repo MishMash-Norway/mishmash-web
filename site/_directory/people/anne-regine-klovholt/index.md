@@ -48,6 +48,8 @@ selected_works:
     role: Creator
   - name: Anne Regine Klovholt
     role: Creator
+    slug: anne-regine-klovholt
+    url: /people/anne-regine-klovholt/
   - name: Jan Nåls
     role: Creator
 source_mentions: []
