@@ -342,14 +342,6 @@ jobs:
         continue-on-error: true
         run: npx --yes pa11y-ci@4 --config .pa11yci.themes.json
 
-      # The main site is held to AAA contrast (7:1) and line length (80
-      # characters), and to the 24-pixel targets of WCAG 2.2; targets under the
-      # 44 pixels of AAA are reported but do not block.
-      - name: The main site reaches WCAG AAA contrast and line length, and 24-pixel targets
-        run: |
-          set -o pipefail
-          node scripts/measure_aaa.mjs --base http://127.0.0.1:4000 --fail --target-min 24 | tee aaa-main-site.txt
-
       - name: A theme that declares WCAG AAA as its target reaches it
         run: |
           set -o pipefail
@@ -427,6 +419,14 @@ jobs:
       - name: Text contrast in the states a page scan cannot reach
         run: node scripts/check_contrast.mjs
 
+      # The main site is held to AAA contrast (7:1) and line length (80
+      # characters), and to the 24-pixel targets of WCAG 2.2; targets under the
+      # 44 pixels of AAA are reported but do not block.
+      - name: The main site reaches WCAG AAA contrast and line length, and 24-pixel targets
+        run: |
+          set -o pipefail
+          node scripts/measure_aaa.mjs --base http://127.0.0.1:4000 --fail --target-min 24 | tee aaa-main-site.txt
+
       - name: Keep the report
         if: always()
         uses: actions/upload-artifact@v4
@@ -435,6 +435,7 @@ jobs:
           path: |
             playwright-report
             test-results
+            aaa-main-site.txt
           if-no-files-found: ignore
 
   chat_retrieval:
