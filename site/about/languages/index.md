@@ -16,7 +16,7 @@ Every Bokmål page is translated when the site is built, with an open-source rul
 
 {% assign ls = site.data.language_share %}
 {% if ls %}
-Measured on the page sources on {{ ls.generated_at | date: "%-d %B %Y" }}, counting the words of every paragraph of five words or more and classifying each paragraph with a language detector that tells Bokmål and Nynorsk apart. Internal pages and the interface themes are left out, as search engines leave them out.
+The count is made on the page sources on {{ ls.generated_at | date: "%-d %B %Y" }}, counting the words of every paragraph of five words or more and classifying each paragraph with a language detector that tells Bokmål and Nynorsk apart. Internal pages and the interface themes are left out, as search engines leave them out.
 
 | Language | Words | Share of all text | Share of the Norwegian text |
 | --- | ---: | ---: | ---: |

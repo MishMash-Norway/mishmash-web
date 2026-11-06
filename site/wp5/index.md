@@ -14,7 +14,7 @@ This work package aims to produce new knowledge, inform policy and governance, a
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-This WP aims to generate new knowledge, inform policy and governance and promote responsible, equitable and future-oriented uses of AI in cultural contexts. It will do so by integrating perspectives from interdisciplinary research—including law, social sciences, the humanities and the arts, economics, informatics and technology studies, and sustainability research—together with insights from cultural institutions, rights organisations and other sector partners.
+This WP aims to generate new knowledge, inform policy and governance and promote responsible, equitable and future-oriented uses of AI in cultural contexts. It does so by integrating perspectives from interdisciplinary research—including law, social sciences, the humanities and the arts, economics, informatics and technology studies, and sustainability research—together with insights from cultural institutions, rights organisations and other sector partners.
 </div>
 
 ## Description
@@ -26,13 +26,13 @@ We look at four things: the law and who is in charge; money, industry and work; 
 </div>
 
 <div class="adaptive" data-for="standard" markdown="1">
-AI is changing the creative and cultural industries at a structural level. It reshapes how cultural content is produced, distributed, governed and experienced. That raises questions in law, economics, the arts and society. AI tests established rights frameworks and brings new risks of identity misuse. It shifts business models, working conditions and the balance of power. It affects artistic agency and cultural diversity. And it raises safety concerns, from misuse of datasets and harmful output to cultural bias and environmental cost. At the same time it opens the way to more transparent and efficient governance and rights management, better attribution, new ways of engaging audiences, new creative possibilities and more sustainable innovation.
+AI is changing the creative and cultural industries at a structural level. It reshapes how cultural content is produced, distributed, governed and experienced. That raises questions in law, economics, the arts and society. AI tests established rights frameworks and brings new risks of identity misuse. It shifts business models, working conditions and the balance of power. It affects artistic agency and cultural diversity. And it raises safety concerns, from misuse of datasets and harmful output to cultural bias and environmental cost. At the same time it can support more transparent and efficient governance and rights management, better attribution, new ways of engaging audiences, new creative possibilities and more sustainable innovation.
 
 The work package examines these changes across four connected areas: law, rights and governance; economy, industry and labour; artistic practice and audience experience; and ethics, diversity and sustainability.
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-AI is transforming the creative and cultural industries at a structural level in terms of reshaping how cultural content is produced, distributed, governed and experienced. These developments raise complex questions across legal, economic, artistic and socio-environmental domains: AI challenges established rights frameworks and introduces new risks related to identity misuse; shifts business models, labour practices and power balances; influences artistic agency and cultural diversity; and raises concerns related to safety such as dataset misuse and harmful output, cultural bias and environmental impact. At the same time, AI enables more transparent and efficient governance and rights management, improved attribution, new forms of audience engagements, new creative possibilities and more sustainable forms of innovation.
+AI is transforming the creative and cultural industries at a structural level by reshaping how cultural content is produced, distributed, governed and experienced. These developments raise complex questions across legal, economic, artistic and socio-environmental domains: AI challenges established rights frameworks and introduces new risks related to identity misuse; shifts business models, labour practices and power balances; influences artistic agency and cultural diversity; and raises concerns related to safety such as dataset misuse and harmful output, cultural bias and environmental impact. At the same time, AI enables more transparent and efficient governance and rights management, improved attribution, new forms of audience engagements, new creative possibilities and more sustainable forms of innovation.
 
 This work package examines these transformations across four interconnected areas: (1) law, rights and governance; (2) economy, industry and labour; (3) artistic practices and audience experiences; and (4) ethics, diversity and sustainability.
 </div>
@@ -74,7 +74,7 @@ This work package examines these transformations across four interconnected area
 <div class="adaptive" data-for="standard" markdown="1">
 - **Create** new knowledge, practical guidelines, sustainability assessments and supporting frameworks. Together they make open, sustainable, fair and inclusive uses of AI possible in the creative and cultural sectors.
 - **Explore** how AI changes legal, economic, creative, societal and environmental conditions, through empirical, experimental and practice-based research.
-- **Reflect** critically on what AI means for governance, the economy, the arts and society: shifts in power and in creative agency, cultural bias, safety risks and what can last.
+- **Reflect** critically on what AI means for governance, the economy, the arts and society: shifts in power and in creative agency, cultural bias, safety risks and long-term sustainability.
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
@@ -88,7 +88,7 @@ This work package examines these transformations across four interconnected area
 ## Sustainability
 
 <div class="adaptive" data-for="simple" markdown="1">
-This work helps with two of the United Nations' goals for a better world. Fair pay and clear rights for people who make culture support good jobs ([SDG 8](https://sdgs.un.org/goals/goal8)), and finding business models that last supports innovation ([SDG 9](https://sdgs.un.org/goals/goal9)).
+This work supports two of the United Nations' goals for sustainable development. Fair pay and clear rights for people who make culture support good jobs ([SDG 8](https://sdgs.un.org/goals/goal8)), and finding business models that last supports innovation ([SDG 9](https://sdgs.un.org/goals/goal9)).
 
 The centre's other commitments on sustainability, openness and reuse are on the [open research](/about/open-research/) page.
 </div>

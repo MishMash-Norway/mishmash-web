@@ -11,25 +11,25 @@ description: "What MishMash is: a Norwegian research centre on AI and creativity
 ## Why?
 
 <div class="adaptive" data-for="simple" markdown="1">
-Machines can now make pictures, music, and stories. But are they really *creative*? Or are they just copying us?
+Machines can make pictures, music, and stories. But are they *creative*, or do they only copy us?
 
-MishMash is a big Norwegian research centre where scientists and artists team up to find out. We build new {% include stretch.html term="ai" %} systems that people can make things *with*, we try them out in music, art, school, and games, and we ask the hard questions: Who owns a song made by a machine? Is it fair? Is it fun?
+MishMash is a big Norwegian research centre where scientists and artists team up to find out. We build new {% include stretch.html term="ai" %} systems that people can make things *with*, we try them out in music, art, school, and games, and we ask questions such as: Who owns a song made by a machine? Is it fair? Is it fun?
 </div>
 
 <div class="adaptive" data-for="standard" markdown="1">
-Computers can now produce images, music, and text that look and sound as if people made them. Systems like these are often called {% include stretch.html term="creative-ai" %}, and they are changing how we create and experience culture.
+Computers can produce images, music, and text that look and sound as if people made them. Systems like these are often called {% include stretch.html term="creative-ai" %}, and they change how we create and experience culture.
 
 MishMash brings together researchers and artists from all over Norway to understand these systems: what they can and cannot do, how people can create *together with* machines rather than being replaced by them, and what this means for jobs, schools, health, and culture. We believe artists and creative researchers are especially well placed to explore AI critically and responsibly.
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-MishMash studies AI from the perspective of the fundamental human trait of creativity, understood here as the ability to form novel and meaningful ideas or works (Boden 2004). Human creativity has both shaped and been shaped by technological developments. Today, human creativity faces unprecedented challenges and opportunities brought by **Creative AI**, understood here as machine systems that can produce novel and meaningful results that stand independently (de Vries 2020). This raises several important questions: to what extent are Creative AI systems genuinely creative, how do they differ from human creativity, and how can humans and machines be co-creative? Furthermore, what are the societal implications of Creative AI, how will producers' and consumers' attitudes towards AI-generated creative content develop, and how can creative approaches to AI have an impact beyond the cultural and creative sectors?
+MishMash studies AI from the perspective of the fundamental human trait of creativity, understood here as the ability to form novel and meaningful ideas or works (Boden 2004). Human creativity has both shaped and been shaped by technological developments. Today, human creativity faces unprecedented challenges and opportunities brought by **Creative AI**, understood here as machine systems that can produce novel and meaningful results that stand independently (de Vries 2020). This raises questions: to what extent are Creative AI systems genuinely creative, how do they differ from human creativity, and how can humans and machines be co-creative? It also raises questions about the societal implications of Creative AI: how will producers' and consumers' attitudes towards AI-generated creative content develop, and how can creative approaches to AI have an impact beyond the cultural and creative sectors?
 
-We view **artistic exploration** as a pivotal entry point for engaging in critical discussions about AI and its implications for human-machine interaction and society. Artistic research has been integral to computer-based AI development since the early days of computer science (Colton and Wiggins 2012), exemplified by early *rule-based systems* for music composition (Miranda 2021) and painting (Cohen 1995). Today, *learning-based systems* can produce all sorts of artistic products, and several have become popular commercial products, such as Dall-E (images), ChatGPT (text), and Suno.ai (music).
+We view **artistic exploration** as an entry point for critical discussions about AI and its implications for human-machine interaction and society. Artistic research has been integral to computer-based AI development since the early days of computer science (Colton and Wiggins 2012), exemplified by early *rule-based systems* for music composition (Miranda 2021) and painting (Cohen 1995). Today, *learning-based systems* can produce many kinds of artistic products, and several have become popular commercial products, such as Dall-E (images), ChatGPT (text), and Suno.ai (music).
 
-MishMash aims to expand current knowledge and pioneer new **CoCreative AI** systems that allow partnerships between humans and machines (Anscomb 2024). We believe researchers and practitioners from creative disciplines are uniquely positioned to develop AI-based technologies and to do so responsibly, reflecting on their ethical challenges and potential drawbacks.
+MishMash aims to expand current knowledge and develop new **CoCreative AI** systems that allow partnerships between humans and machines (Anscomb 2024). We believe researchers and practitioners from creative disciplines are well positioned to develop AI-based technologies responsibly, reflecting on their ethical challenges and potential drawbacks.
 
-There are many possibilities with Creative and CoCreative AI systems, but also numerous challenges and knowledge needs:
+There are many possibilities with Creative and CoCreative AI systems, but also many challenges and knowledge needs:
 
 - **Challenge 1:** How can we design and implement real-time AI systems for immersive, dynamic, and ethical human-machine collaborations in artistic performances?
 - **Challenge 2:** How can artists integrate AI into their creative processes while maintaining control and addressing biases, cultural implications, and environmental impact?
@@ -49,13 +49,13 @@ More than 200 researchers and artists from all over Norway work together in Mish
 
 - **CREATE:** build new AI tools and artworks
 - **EXPLORE:** try AI out in concerts, classrooms, hospitals, and museums
-- **REFLECT:** think carefully about what AI does to people and society
+- **REFLECT:** think about what AI does to people and society
 
 The work is split into seven teams, called {% include stretch.html term="work-package" text="work packages" %}, each looking at AI from a different angle.
 </div>
 
 <div class="adaptive" data-for="standard" markdown="1">
-MishMash gathers more than 200 researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. The centre is a lively, mostly virtual research environment with weekly online meetings, public workshops, and regular symposia with lectures, performances, and exhibitions.
+MishMash gathers more than 200 researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. The centre is a mostly virtual research environment with weekly online meetings, public workshops, and regular symposia with lectures, performances, and exhibitions.
 
 The work follows three interconnected approaches:
 
@@ -65,17 +65,15 @@ The work follows three interconnected approaches:
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-MishMash will bring together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives*.
+MishMash brings together a large multidisciplinary and cross-sectoral group of researchers and practitioners from the arts, humanities, social and natural sciences, design, and engineering. MishMash organises its theoretical and methodological "mishmash" into a structured "mesh," where projects and activities intersect across *themes*, *approaches*, and *perspectives*.
 
 ![MishMash cube](/assets/images/cube/mishmash_cube.svg){: style="display:block;margin:0 auto;" width="500" }
 
-The WPs are designed around seven core *themes*, addressing the challenges outlined in the previous section. While some WPs focus on leveraging AI in creative—primarily artistic—applications, others explore the innovative use of AI in adjacent domains, fostering a dynamic interplay between art, science, and society. The work will be conducted by combining a multitude of scientific and arts-based theories and methods, which can be summarised in three interconnected *research approaches*:
+The WPs are designed around seven core *themes*, addressing the challenges outlined in the previous section. Some WPs focus on using AI in creative, primarily artistic, applications, while others explore new uses of AI in adjacent domains, connecting art, science, and society. The work combines many scientific and arts-based theories and methods, summarised in three interconnected *research approaches*:
 
 - **CREATE:** making AI-based systems, tools, artworks, and related frameworks and policies. This includes theories and methods from computer science, engineering, and various types of art and design, emphasising creating CoCreative AI systems that prioritise human agency, environmental sustainability, and democratisation of AI technologies.
 - **EXPLORE:** using AI-based systems in creative practice and seeing how creative methods can be applied in other domains. This includes investigating how AI can enhance creativity, foster innovation, and support learning and well-being using theories and methods from psychology, therapy, educational sciences, and cultural heritage.
 - **REFLECT:** critically studying and discussing the impacts of AI on humans, human creativity, various cultures, and society at large. This includes theories and methods from the humanities and social sciences to ensure responsible AI development and use.
-
-The centre will be a lively, virtual research environment, with weekly online meetings, biweekly work package check-ins, monthly thematic seminars, regular public workshops, life-long learning events, and bi-annual symposia with lectures, performances, and exhibitions.
 </div>
 
 ## What?
@@ -135,7 +133,7 @@ Besides the research itself, MishMash has promised the Research Council five thi
 <div class="adaptive" data-for="advanced" markdown="1">
 The primary objective rests on five secondary objectives, which answer the goals set for the AI centres:
 
-- **Establish a national centre** spanning the country's higher education institutions, research institutes and artistic research environments, together with libraries, museums, broadcasters, companies and international partners. The centre is a lively, largely virtual research environment, with weekly online meetings, biweekly work package check-ins, monthly thematic seminars, regular public workshops and lifelong learning events, and symposia twice a year with lectures, performances and exhibitions.
+- **Establish a national centre** spanning the country's higher education institutions, research institutes and artistic research environments, together with libraries, museums, broadcasters, companies and international partners. The centre is a largely virtual research environment, with weekly online meetings, biweekly work package check-ins, monthly thematic seminars, regular public workshops and lifelong learning events, and symposia twice a year with lectures, performances and exhibitions.
 - **Generate new fundamental knowledge about AI** and develop AI-based algorithms and tools that are applicable in creative practices. The tools are used in public performances and exhibitions, in educational and therapeutic settings, within the creative industries and for cultural heritage. Critical reflection on diversity, privacy, copyright and sustainability feeds back into an iterative development cycle, and into publications and policy guidelines.
 - **Build expertise in Norway** through research projects involving around 100 faculty members working on creative AI. They educate dozens of doctoral candidates and hundreds of students, and provide lifelong learning for freelancers and professionals in the public and private sectors. See [research training](/about/training/).
 - **Collaborate with leading research environments worldwide** by hiring adjunct professors and supporting two-way mobility for researchers early in their careers, so that Norwegian research, education and innovation on AI become more international.
@@ -147,7 +145,7 @@ How the centre publishes and shares what it produces is set out on the [open res
 ## When?
 
 <div class="adaptive" data-for="simple standard" markdown="1">
-The centre started in December 2025 and will run for many years. During 2026, new researchers are being hired across Norway, and the centre gets up to full speed from the autumn of 2026.
+The centre started in December 2025 and will run for many years. New researchers are hired across Norway during 2026, and the centre is up to full speed from the autumn of 2026.
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
@@ -158,7 +156,7 @@ Funding was announced on 11 June 2025, and the centre formally started on 1 Dece
 
 ## Who?
 
-MishMash is governed and managed by several organizational bodies, each with specific responsibilities and roles:
+MishMash is governed and managed by six bodies:
 
 - [Management](/about/organisation/management/): Day-to-day management and coordination of MishMash activities
 - [Work Package Leader Group](/about/organisation/wp-leaders/): Leads of the seven scientific work packages
@@ -201,4 +199,4 @@ The text on this page draws on the MishMash project description (2025). Works ci
 
 ---
 
-*This page adapts its content to different readers — an experiment in [stretchtext and adaptive content](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) run by [the MishMash website project](/projects/the-mishmash-website/). Use the switcher at the top to change reading level, and see the [glossary](/about/glossary/) for key terms.*
+*This page adapts its content to different readers. It is an experiment in [stretchtext and adaptive content](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) run by [the MishMash website project](/projects/the-mishmash-website/). Use the switcher at the top to change reading level, and see the [glossary](/about/glossary/) for key terms.*

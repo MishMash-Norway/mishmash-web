@@ -7,7 +7,7 @@ translation_url: /no/accessibility/
 
 This website should be usable by as many people as possible, whatever they browse with. The site is built to be accessible to the standard Norwegian law sets: the regulation on universal design of ICT, which requires public websites to satisfy the 48 success criteria of the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) at levels A and AA listed by the [Norwegian Authority for Universal Design of ICT](https://www.uutilsynet.no/wcag-standarden/wcag-standarden/86).
 
-The centre's accessibility statement, [published at uustatus.no](https://uustatus.no/nb/erklaringer/publisert/2858c960-8d5e-41ab-9fab-cf0ed3944ed3), sits in the register the Norwegian Authority for Universal Design of ICT keeps. It is the formal declaration of how far this site meets the requirements, and it is maintained by the University of Oslo as the responsible body. This page says the same thing in ordinary words, and adds how the site is checked.
+The centre's accessibility statement, [published at uustatus.no](https://uustatus.no/nb/erklaringer/publisert/2858c960-8d5e-41ab-9fab-cf0ed3944ed3), sits in the register the Norwegian Authority for Universal Design of ICT keeps. It is the formal declaration of how far this site meets the requirements, and it is maintained by the University of Oslo as the responsible body. This page says the same in ordinary words and describes how the site is checked.
 
 ## What the site does
 
@@ -34,7 +34,7 @@ Automated tools find only part of the barriers a person can meet. The rest depen
 
 - Embedded videos from YouTube do not always have captions, and none has audio description.
 - The chat page depends on JavaScript and on an external language model service.
-- The experimental interface themes under `/ui/` are, indeed, experimental (!), and hence outside the automated checks.
+- The interface themes under `/ui/` are experimental and outside the automated checks.
 - The pieces in the [lab](/lab/) are also experiments; each is scanned like any page but may need JavaScript, sound or a pointer, and says so.
 - The [kiosk](/kiosk/), a self-rotating view of events and news for screens in partner lobbies, is an experiment for information screens and is outside the automated checks.
 

@@ -19,7 +19,7 @@ This page is for WP1 members only.
 ### Autumn 2026
 
 #### Morning coffee: every second Thursday 0830-0900 (zoom), starting from 24.09 (odd-numbered weeks)
-These short meetings are intended as an informal space for updates and for staying connected as a group. We encourage everyone to prioritize joining when possible.
+These short meetings are intended as an informal space for updates and for staying connected as a group. We encourage everyone to prioritise joining when possible.
 
 #### Webinar / Labinar: 1-hour online meetings, Fridays 1000-1100 (zoom)
 - 25.09 [Labinar #01: MishMash Playground with NMH and ANU](/events/wp1-labinar01/)

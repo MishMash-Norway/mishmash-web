@@ -17,7 +17,7 @@ Hver bokmålsside oversettes når nettstedet bygges, med et regelbasert oversett
 
 {% assign ls = site.data.language_share %}
 {% if ls %}
-Målt på kildene til sidene {{ ls.generated_at | date: "%-d. %B %Y" }}, ved å telle ordene i hvert avsnitt på fem ord eller mer og klassifisere hvert avsnitt med en språkgjenkjenner som skiller bokmål fra nynorsk. Interne sider og grensesnittemaene er holdt utenfor, slik søkemotorene holder dem utenfor.
+Tellingen er gjort på kildene til sidene {{ ls.generated_at | date: "%-d. %B %Y" }}, ved å telle ordene i hvert avsnitt på fem ord eller mer og klassifisere hvert avsnitt med en språkgjenkjenner som skiller bokmål fra nynorsk. Interne sider og grensesnittemaene er holdt utenfor, slik søkemotorene holder dem utenfor.
 
 | Språk | Ord | Andel av all tekst | Andel av den norske teksten |
 | --- | ---: | ---: | ---: |

@@ -12,9 +12,9 @@ lab:
   ai: "The page and the script were drafted with an AI assistant and reviewed by the site maintainers. The sound processing is plain Web Audio, with no machine learning involved."
 ---
 
-Freesound is where a great deal of research sound already lives, openly licensed and addressable. This page takes fifteen recordings from it and asks what a browser can do with them beyond playing them back.
+Freesound holds much research sound, openly licensed and each file with its own address. This page takes fifteen recordings from it and tests what a browser can do with them beyond playing them back.
 
-The recordings are from the SoundActions dataset, made by Alexander Refsum Jensenius: one sound-producing action recorded every day for a year, published on Freesound under his account there. Uncorking a wine bottle, a necklace dropped on a table, a drum machine, a box opened.
+The recordings are from the SoundActions dataset, made by Alexander Refsum Jensenius: one sound-producing action recorded every day for a year, published on Freesound under his account there. Among them are uncorking a wine bottle, a necklace dropped on a table, a drum machine and a box being opened.
 
 <div id="freesound-morph">
   <p>Loading the list of sounds…</p>
@@ -26,17 +26,17 @@ The recordings are from the SoundActions dataset, made by Alexander Refsum Jense
 
 ## What the waveforms show
 
-Each sound is drawn as a waveform before it is fetched. The drawing comes from 128 peak values measured once when the list was built, not from the sound file, so the page can show what a recording looks like without asking Freesound for it. A peak rather than an average, because these are transients: the interesting part of a cork leaving a bottle lasts about 20 milliseconds, and an average would flatten it away.
+Each sound is drawn as a waveform before it is fetched. The drawing comes from 128 peak values measured once when the list was built, not from the sound file, so the page can show what a recording looks like without asking Freesound for it. It uses peaks rather than averages because these are transients: the sound of a cork leaving a bottle lasts about 20 milliseconds, and an average would flatten it away.
 
-Press play and the waveform inks in from the left as the sound passes. Once a sound has been fetched the drawing is redone from the audio itself, which is the same calculation on the real thing rather than on the stored summary.
+During playback the waveform fills in from the left as the sound passes. Once a sound has been fetched, the drawing is redone from the audio itself with the same calculation.
 
-The third waveform is the convolution. It has no stored shape, because it does not exist until the browser makes it.
+The third waveform is the convolution, which has no stored shape because the browser makes it on request.
 
 ## What convolution does
 
 Convolution takes every moment of one sound and sets the other sound ringing at that moment. It is how reverberation is simulated: record a handclap in a hall, convolve dry music with that recording, and the music sounds as if it were played in the hall.
 
-Here neither sound is a handclap and neither is a hall. Convolving the cork with the drum machine gives a drum machine that sounds struck rather than triggered. Convolving two long sounds smears them into each other. The order matters less than it seems, since convolution is commutative, but the result is levelled differently each way and the ear notices.
+On this page neither sound is a handclap or a hall. Convolving the cork with the drum machine gives a drum machine that sounds struck rather than triggered, and convolving two long sounds smears them into each other. Convolution is commutative, so the order matters little, but the result is levelled differently each way and the difference is audible.
 
 ## Embedding a sound from Freesound
 
@@ -44,9 +44,9 @@ Freesound offers its own player as an iframe, which the site can include on any 
 
 {% include freesound.html id="863344" title="Opening Champagne bottle (SoundAction 365)" %}
 
-That player is Freesound's own. It waits for a press, like the video players elsewhere on the site, so that opening this page contacts nobody but this site.
+The player waits for a press, like the video players elsewhere on the site, so that opening this page contacts nobody but this site.
 
-The piece above takes the other route entirely: the page holds only the address of the sound file, and the browser fetches that one file when a reader presses a button.
+The piece above works differently: the page holds only the address of the sound file, and the browser fetches that one file when a reader presses a button.
 
 ## Privacy
 

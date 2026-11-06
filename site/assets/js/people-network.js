@@ -533,7 +533,7 @@ function renderTagControls() {
         <output id="net-cluster-count-value" class="net-cluster-count-value">${clusterCount}</output>
       </div>
 
-      <p class="net-tag-help">Group similar tags into themes instead of a long list. Selecting a group matches any tag in that theme. Hover a selected group to see its tags. Fewer groups mean more specific topics; more groups mean broader themes.</p>
+      <p class="net-tag-help">Group similar tags into themes instead of a long list. Selecting a group matches any tag in that theme. Hover a selected group to see its tags. Fewer groups mean broader themes; more groups mean more specific topics.</p>
 
       <div class="net-clustered-tags-section${clusteringEnabled ? "" : " is-hidden"}">
         <div class="net-tag-chip-list">

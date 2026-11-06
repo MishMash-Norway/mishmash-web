@@ -8,7 +8,7 @@ redirect_from:
   - /news/positions/
 ---
 
-Below is a list of MishMash vacancies. Please keep in mind that there are variations in profile and application procedures for the different institutions, so please read the announcement texts carefully. It is possible to apply for multiple positions, they will all have different hiring committees. Please use the contact point(s) indicated in the calls for questions for the positions. For general questions about the announcements, you can contact the [management group](mailto:contact@mishmash.no).
+This page lists MishMash vacancies. Profiles and application procedures differ between the institutions, so read each announcement carefully. You can apply for several positions, and each has its own hiring committee. Questions about a position go to the contact person named in its call, and general questions about the announcements to the [management group](mailto:contact@mishmash.no).
 
 - [Internships](#internships)
 - [Master Fellowships](#master-fellowships)
@@ -17,13 +17,11 @@ Below is a list of MishMash vacancies. Please keep in mind that there are variat
 
 ## Internships
 
-Many of the MishMash partners offer internships. These are typically not announced but agreed upon case by case. Please reach out to one of the Work Package Leaders or other people in the consortium for discussing opportunities.
+Many MishMash partners offer internships. They are usually not announced but agreed case by case, so contact one of the work package leaders or someone else in the consortium to discuss opportunities.
 
 ## Master Fellowships
 
-Master's students at affiliated institutions can [apply to become a MishMash Master Fellow](https://nettskjema.no/a/mishmash-master-fellows). These are unpaid fellowships, but with some benefits. Selected master fellows will be part of the MishMash community and be integrated fully into work package activities. They will also be eligible for funding to participate in MishMash events and apply for seed funding.
-
-
+Master's students at affiliated institutions can [apply to become a MishMash Master Fellow](https://nettskjema.no/a/mishmash-master-fellows). The fellowships are unpaid. Selected fellows join the MishMash community, take full part in work package activities, and can receive funding to attend MishMash events and apply for seed funding.
 
 ## Doctoral Fellowships
 

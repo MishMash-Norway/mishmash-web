@@ -22,7 +22,7 @@ This WP investigates how AI-generated creative content (images, music, literatur
 <div class="adaptive" data-for="simple" markdown="1">
 Making things is good for people. AI tools can help people be creative, but they can also get in the way of what makes us human, like caring for each other and deciding for ourselves. We want to find out when AI helps and when it harms.
 
-We take ethics seriously. AI must not make life harder for people who already have a hard time. We work with users, with patients and with people with disabilities, so that what we build is fair, useful and open to everyone.
+Ethics is central: AI must not make life harder for people who already have a hard time. We work with users, with patients and with people with disabilities, so that what we build is fair, useful and open to everyone.
 </div>
 
 <div class="adaptive" data-for="standard" markdown="1">
@@ -32,9 +32,9 @@ Ethics is at the centre, and in particular how AI can be used responsibly withou
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-Engaging in creative processes can promote health and well-being. AI tools offer opportunities for augmenting human creativity, yet their use also raises concerns about the potential devaluation of human qualities like empathy and autonomy. We will explore how AI can both support and create challenges for well-being, creativity, and emotional expression.
+Engaging in creative processes can promote health and well-being. AI tools offer opportunities for augmenting human creativity, yet their use also raises concerns about the potential devaluation of human qualities like empathy and autonomy. The WP explores how AI can both support and create challenges for well-being, creativity, and emotional expression.
 
-Ethical considerations are central to this WP, especially how AI can be used responsibly to avoid reinforcing inequalities or biases. Our approach emphasises anti-oppressive practices and seeks to support historically marginalised groups through inclusive AI applications in the arts. Collaboration with users and stakeholders is key to creating innovative solutions while ensuring health-promoting AI interventions are relevant and ethically sound. Critical disability perspectives are incorporated to ensure that AI systems in arts for health are inclusive and accessible for all.
+Ethical considerations are central to this WP, especially how AI can be used responsibly to avoid reinforcing inequalities or biases. Our approach emphasises anti-oppressive practices and seeks to support historically marginalised groups through inclusive AI applications in the arts. Users and stakeholders take part in the work, so that health-promoting AI interventions are innovative, relevant and ethically sound. Critical disability perspectives are incorporated to ensure that AI systems in arts for health are inclusive and accessible for all.
 </div>
 
 ## Research Questions
@@ -89,7 +89,7 @@ The centre's other commitments on sustainability, openness and reuse are on the 
 </div>
 
 <div class="adaptive" data-for="standard advanced" markdown="1">
-This work package contributes to two of the UN Sustainable Development Goals. Knowledge about how people perceive AI in health settings, and guidelines for using it in therapy, serve health and well-being ([SDG 3](https://sdgs.un.org/goals/goal3)), and a disability-inclusive approach is what keeps that work from widening the gap it means to close ([SDG 10](https://sdgs.un.org/goals/goal10)).
+This work package contributes to two of the UN Sustainable Development Goals. Knowledge about how people perceive AI in health settings, and guidelines for using it in therapy, serve health and well-being ([SDG 3](https://sdgs.un.org/goals/goal3)), and a disability-inclusive approach keeps that work from increasing inequality ([SDG 10](https://sdgs.un.org/goals/goal10)).
 
 The centre's other commitments on sustainability, openness and reuse are on the [open research](/about/open-research/) page.
 </div>

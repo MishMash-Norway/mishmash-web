@@ -6,7 +6,7 @@ translation_url: /no/about/terms/
 description: "What you may do with the text, code, data and images on mishmash.no, and what is not covered."
 ---
 
-MishMash is publicly funded, and what it publishes is meant to be used again. These are the terms, in plain language. The [communication strategy](/internal/communication-strategy/) sets them out for members.
+MishMash is publicly funded, and what it publishes is meant to be reused. These are the terms in plain language. The [communication strategy](/internal/communication-strategy/) sets them out for members.
 
 ## Text
 

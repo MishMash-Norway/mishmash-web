@@ -20,21 +20,21 @@ This WP focuses on AI systems used in producing works associated with the arts a
 ## Description
 
 <div class="adaptive" data-for="simple" markdown="1">
-When an artist hands part of the work to a machine, something changes. Many AI tools were trained on the same big pile of images and texts, so they tend to give everyone the same kind of answer. That can make art more alike and push unusual voices aside.
+Handing part of the work to a machine changes the work. Many AI tools were trained on the same large collections of images and texts, so they tend to give everyone the same kind of answer. That can make art more alike and push unusual voices aside.
 
-So we ask: who decides which stories get told and which pictures get seen? We look closely at the tools, find the biases built into them, and try to keep the artist in charge. The aim is tools that make culture more varied and more open, not less.
+We ask: who decides which stories get told and which pictures get seen? We look closely at the tools, find the biases built into them, and try to keep the artist in charge. The aim is tools that make culture more varied and more open, not less.
 </div>
 
 <div class="adaptive" data-for="standard" markdown="1">
-Two concerns run through the work package. One is what happens when creative work and creative decisions are handed over to an AI system. The other is the cultural bias built into many commercial tools. Creativity shapes how communities see themselves and imagine what is possible; when AI systems repeat dominant cultural patterns and push alternatives to the margins, they narrow public conversation, reduce cultural diversity and strengthen existing norms at the expense of exploration.
+The work package addresses two concerns: what happens when creative work and creative decisions are handed over to an AI system, and the cultural bias built into many commercial tools. Creativity shapes how communities see themselves and imagine what is possible; when AI systems repeat dominant cultural patterns and push alternatives to the margins, they narrow public conversation, reduce cultural diversity and strengthen existing norms at the expense of exploration.
 
 That raises questions about cultural agency: who decides which stories are told, which images are seen, and which ideas shape our shared reality? The work package examines these challenges in the creative process, questions the idea that an AI system can be neutral, and looks at the biases embedded in the tools. The goal is creative tools that lead to more inclusive, diverse and democratic cultural futures, with the artist rather than the machine in control.
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-Concerns include the effects of "outsourcing" creative work and decision-making to AI systems and the hegemonic cultural biases present in many commercial tools. Creativity shapes how communities see themselves and imagine new possibilities. When AI systems reinforce dominant cultural patterns and marginalised alternative perspectives, they risk narrowing public discourse, diminishing cultural diversity, and strengthening existing norms at the expense of exploration and innovation.
+Concerns include the effects of "outsourcing" creative work and decision-making to AI systems and the hegemonic cultural biases present in many commercial tools. Creativity shapes how communities see themselves and imagine new possibilities. When AI systems reinforce dominant cultural patterns and marginalise alternative perspectives, they risk narrowing public discourse, diminishing cultural diversity, and strengthening existing norms at the expense of exploration and innovation.
 
-This raises critical questions about cultural agency: Who decides what stories are told, what images are seen, and what ideas shape our shared reality? This WP will explore new challenges in the creative process, challenging the concept of "neutrality" in AI systems and examining embedded biases. The goal is to ensure that creative tools contribute to more inclusive, diverse, and democratic cultural futures, balancing artistic control with machine dominance to preserve human aesthetic and artistic integrity.
+This raises questions about cultural agency: Who decides what stories are told, what images are seen, and what ideas shape our shared reality? This WP examines new challenges in the creative process, questioning the concept of "neutrality" in AI systems and examining embedded biases. The goal is to ensure that creative tools contribute to more inclusive, diverse, and democratic cultural futures, balancing artistic control with machine dominance to preserve human aesthetic and artistic integrity.
 </div>
 
 ## Research Questions

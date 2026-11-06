@@ -12,14 +12,14 @@ switcher above to choose: *Brief* is one plain sentence, *Plain* is the
 everyday explanation, and *Full* adds precision and the settled definitions
 from standards, policy, the research literature and Norwegian sources.
 
-The same texts power the inline
+The same texts are used for the inline
 {% include stretch.html term="stretchtext" %} explanations: dotted-underlined
 terms like that one, which you can click to unfold, so this list and the
-in-text explanations always match, at whichever level you read.
+in-text explanations match at every level.
 
 <div class="adaptive" data-for="simple standard" markdown="1">
-Switch to *Full* to see where each definition comes from. Each term then
-also shows how standards, laws, research and Norwegian sources define it.
+Switch to *Full* to see how standards, laws, research and Norwegian sources
+define each term.
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">

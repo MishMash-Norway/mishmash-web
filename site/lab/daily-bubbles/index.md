@@ -11,7 +11,7 @@ lab:
   ai: "None. The drawing is a deterministic script, generative in the algorithmic sense; the script itself was written with an AI assistant."
 ---
 
-Every night a script redraws the centre's emblem from that day's numbers: how many results are registered, how many events are coming, and the date as the seed. The same day always gives the same picture, and no two days give the same one. No model is involved, and the file says so itself: it carries the IPTC marker for an image drawn by an algorithm.
+Every night a script redraws the centre's emblem from that day's numbers: how many results are registered, how many events are coming, and the date as the seed. The same day always gives the same picture, and no two days give the same one. No model is involved, and the file carries the IPTC marker for an image drawn by an algorithm.
 
 <div class="colophon-bubbles">
   <img src="/assets/images/bubbles/daily/mishmash_bubbles_daily.svg"
@@ -19,4 +19,4 @@ Every night a script redraws the centre's emblem from that day's numbers: how ma
        width="420">
 </div>
 
-The [AI colophon](/about/ai-colophon/) explains where this sits among the site's other uses of automation, and the [script](https://github.com/MishMash-Norway/mishmash-web/blob/main/scripts/generate_daily_bubbles.py) is a page of Python. If you want the emblem to play with rather than to look at, the [bubbles](/lab/bubbles/) are next door.
+The [AI colophon](/about/ai-colophon/) explains where this sits among the site's other uses of automation, and the [script](https://github.com/MishMash-Norway/mishmash-web/blob/main/scripts/generate_daily_bubbles.py) is a short Python file. An interactive version of the emblem is in the [bubbles](/lab/bubbles/) lab page.

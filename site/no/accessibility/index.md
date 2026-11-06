@@ -8,7 +8,7 @@ translation_url: /accessibility/
 
 mishmash.no skal kunne brukes av så mange som mulig, uansett hva de leser det med. Nettstedet er bygget for å være tilgjengelig etter den standarden norsk lov setter: forskriften om universell utforming av IKT, som krever at offentlige nettsteder oppfyller de 48 suksesskriteriene i [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) på nivå A og AA som [Tilsynet for universell utforming av IKT](https://www.uutilsynet.no/wcag-standarden/wcag-standarden/86) lister opp.
 
-Tilgjengelighetserklæringen for senteret, [publisert på uustatus.no](https://uustatus.no/nb/erklaringer/publisert/2858c960-8d5e-41ab-9fab-cf0ed3944ed3), ligger i registeret Tilsynet for universell utforming av IKT fører. Den er den formelle erklæringen om hvor langt nettstedet oppfyller kravene, og Universitetet i Oslo står ansvarlig for den. Denne siden sier det samme med vanlige ord, og forteller i tillegg hvordan nettstedet blir kontrollert.
+Tilgjengelighetserklæringen for senteret, [publisert på uustatus.no](https://uustatus.no/nb/erklaringer/publisert/2858c960-8d5e-41ab-9fab-cf0ed3944ed3), ligger i registeret Tilsynet for universell utforming av IKT fører. Den er den formelle erklæringen om hvor langt nettstedet oppfyller kravene, og Universitetet i Oslo står ansvarlig for den. Denne siden sier det samme med vanlige ord og beskriver hvordan nettstedet blir kontrollert.
 
 ## Hva nettstedet gjør
 
@@ -35,7 +35,7 @@ Automatiske verktøy finner bare en del av barrierene en person kan møte. Reste
 
 - Innebygde videoer fra YouTube har ikke alltid teksting, og ingen av dem har synstolking.
 - Chat-siden er avhengig av JavaScript og av en ekstern språkmodelltjeneste.
-- De eksperimentelle grensesnittene under `/ui/` er nettopp det, eksperimentelle (!), og ligger derfor utenfor de automatiske sjekkene.
+- Grensesnittene under `/ui/` er eksperimentelle og ligger utenfor de automatiske sjekkene.
 - Bidragene i [laben](/lab/) er også eksperimenter; hvert av dem sjekkes som alle andre sider, men kan kreve JavaScript, lyd eller pekeredskap, og sier fra om det.
 - [Kiosken](/kiosk/), en visning av arrangementer og nyheter som ruller av seg selv på skjermer hos partnerne, er et eksperiment for informasjonsskjermer og ligger utenfor de automatiske sjekkene.
 

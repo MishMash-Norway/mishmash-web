@@ -14,13 +14,13 @@ This work package explores how education can use AI to open new ways of learning
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-This WP explores how education can harness AI to enhance learning opportunities, foster creativity, and support critical thinking and AI literacy. The rapid inclusion of AI into education presents transformative opportunities and challenges for teaching and learning alongside significant pedagogical, ethical and practical issues.
+This WP explores how education can harness AI to enhance learning opportunities, foster creativity, and support critical thinking and AI literacy. The rapid inclusion of AI into education presents opportunities and challenges for teaching and learning, alongside significant pedagogical, ethical and practical issues.
 </div>
 
 ## Description
 
 <div class="adaptive" data-for="simple" markdown="1">
-Right now, many schools try out AI tools on their own, and most of them are commercial products. Good, free teaching materials about creative AI are rare, and almost none exist in Norwegian. Norway needs a joint effort to teach AI skills in schools, in higher education and to adults who keep learning.
+Many schools try out AI tools on their own, and most of them are commercial products. Good, free teaching materials about creative AI are rare, and almost none exist in Norwegian. Norway needs a joint effort to teach AI skills in schools, in higher education and to adults who keep learning.
 
 We want future teachers and today's teachers to understand AI well enough to use it wisely. We work with the other work packages so that new research reaches classrooms, and so that teachers have a say in how the technology develops.
 </div>
@@ -32,9 +32,9 @@ The aim is to give future practitioners and teachers the competence to handle AI
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-The educational sector is currently characterised by numerous local initiatives to adopt commercial AI tools. However, high-quality, open education resources—especially on Creative AI—are scarce, with hardly any available in Norwegian. There is a clear need for a unified effort to advance AI literacy in Norwegian schools and enhance the understanding and application of Creative AI in higher education and lifelong learning.
+The educational sector is characterised by numerous local initiatives to adopt commercial AI tools. However, high-quality, open education resources, especially on Creative AI, are scarce, with hardly any available in Norwegian. A unified effort is needed to advance AI literacy in Norwegian schools and enhance the understanding and application of Creative AI in higher education and lifelong learning.
 
-The aim is to equip future practitioners and educators with the competence to navigate AI's complexities while providing current educators with resources to minimise a generational gap in AI literacy. WP4 will collaborate closely with researchers from other WPs to incorporate insights from ongoing research into educational programs and curricula and to influence technological developments from an educational point of view.
+The aim is to equip future practitioners and educators with the competence to navigate AI's complexities while providing current educators with resources to minimise a generational gap in AI literacy. WP4 collaborates closely with researchers from other WPs to incorporate insights from ongoing research into educational programs and curricula and to influence technological developments from an educational point of view.
 </div>
 
 ## Research Questions
@@ -77,7 +77,7 @@ The aim is to equip future practitioners and educators with the competence to na
 <div class="adaptive" data-for="advanced" markdown="1">
 - **CREATE:** educational material, models and methods for broad applications through artistic and pedagogical practices with AI, emphasising ethical issues related to diversity, justice, fairness, inclusion, privacy, trust and accessibility.
 - **EXPLORE:** the artistic and pedagogical use of AI in formal, non-formal and informal learning contexts, including developing a shared understanding of AI literacy for creative and fine arts education.
-- **REFLECT:** on the implications of using AI in education to suggest frameworks and policy recommendations for using AI in education.
+- **REFLECT:** on the implications of using AI in education, to suggest frameworks and policy recommendations for it.
 </div>
 
 ## Sustainability

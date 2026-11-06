@@ -16,27 +16,27 @@ adaptive: true
 ## Hvorfor?
 
 <div class="adaptive" data-for="simple" markdown="1">
-Maskiner kan nå lage bilder, musikk og historier. Men er de egentlig *kreative*? Eller kopierer de bare oss?
+Maskiner kan lage bilder, musikk og historier. Men er de *kreative*, eller kopierer de bare oss?
 
-MishMash er et stort norsk forskningssenter der forskere og kunstnere jobber sammen for å finne det ut. Vi bygger nye {% include stretch.html term="ai" %}-systemer som folk kan lage ting *sammen med*, vi prøver dem ut i musikk, kunst, skole og spill, og vi stiller de vanskelige spørsmålene: Hvem eier en sang laget av en maskin? Er det rettferdig? Er det gøy?
+MishMash er et stort norsk forskningssenter der forskere og kunstnere jobber sammen for å finne det ut. Vi bygger nye {% include stretch.html term="ai" %}-systemer som folk kan lage ting *sammen med*, vi prøver dem ut i musikk, kunst, skole og spill, og vi stiller spørsmål som: Hvem eier en sang laget av en maskin? Er det rettferdig? Er det gøy?
 </div>
 
 <div class="adaptive" data-for="standard" markdown="1">
-Datamaskiner kan nå lage bilder, musikk og tekst som ser ut og høres ut som om mennesker har laget dem. Slike systemer kalles ofte {% include stretch.html term="creative-ai" %}, og de er i ferd med å endre hvordan vi skaper og opplever kultur.
+Datamaskiner kan lage bilder, musikk og tekst som ser ut og høres ut som om mennesker har laget dem. Slike systemer kalles ofte {% include stretch.html term="creative-ai" %}, og de endrer hvordan vi skaper og opplever kultur.
 
 MishMash samler forskere og kunstnere fra hele Norge for å forstå disse systemene: hva de kan og ikke kan, hvordan mennesker kan skape *sammen med* maskiner i stedet for å bli erstattet av dem, og hva dette betyr for arbeidsliv, skole, helse og kultur. Vi mener at kunstnere og kreative forskere er spesielt godt rustet til å utforske KI kritisk og ansvarlig.
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-MishMash studerer KI fra perspektivet til den grunnleggende menneskelige egenskapen kreativitet, forstått her som evnen til å forme nyskapende og meningsfulle ideer eller verk (Boden 2004). Menneskelig kreativitet har både formet og blitt formet av teknologisk utvikling. I dag møter menneskelig kreativitet enestående utfordringer og muligheter brakt av **Kreativ KI**, forstått her som maskinsystemer som kan produsere nyskapende og meningsfulle resultater som står på egne ben (de Vries 2020). Dette reiser en rekke viktige spørsmål: I hvilken grad er kreative KI-systemer genuint kreative, hvordan skiller de seg fra menneskelig kreativitet, og hvordan kan mennesker og maskiner samskape? Videre: hva er de samfunnsmessige implikasjonene av Kreativ KI, hvordan vil produsenters og forbrukeres holdninger til KI-generert kreativt innhold utvikle seg, og hvordan kan kreative tilnærminger til KI ha innvirkning utover de kulturelle og kreative sektorene?
+MishMash studerer KI fra perspektivet til den grunnleggende menneskelige egenskapen kreativitet, forstått her som evnen til å forme nyskapende og meningsfulle ideer eller verk (Boden 2004). Menneskelig kreativitet har både formet og blitt formet av teknologisk utvikling. I dag møter menneskelig kreativitet enestående utfordringer og muligheter brakt av **Kreativ KI**, forstått her som maskinsystemer som kan produsere nyskapende og meningsfulle resultater som står på egne ben (de Vries 2020). Dette reiser spørsmål: I hvilken grad er kreative KI-systemer genuint kreative, hvordan skiller de seg fra menneskelig kreativitet, og hvordan kan mennesker og maskiner samskape? Det reiser også spørsmål om de samfunnsmessige implikasjonene av Kreativ KI: hvordan vil produsenters og forbrukeres holdninger til KI-generert kreativt innhold utvikle seg, og hvordan kan kreative tilnærminger til KI ha innvirkning utover de kulturelle og kreative sektorene?
 
-Vi ser på **kunstnerisk utforskning** som et utmerket utgangspunkt for å engasjere seg i kritiske diskusjoner om KI og dens implikasjoner for menneske-maskin-interaksjon og samfunn. Kunstnerisk forskning har vært en integrert del av datamaskinbasert KI-utvikling siden informatikkens tidlige dager (Colton og Wiggins 2012), eksemplifisert ved tidlige *regelbaserte systemer* for musikkkomposisjon (Miranda 2021) og maleri (Cohen 1995). I dag kan *læringsbaserte systemer* produsere alle slags kunstneriske produkter, og flere har blitt populære kommersielle produkter, som Dall-E (bilder), ChatGPT (tekst) og Suno.ai (musikk).
+Vi ser på **kunstnerisk utforskning** som et utgangspunkt for kritiske diskusjoner om KI og dens implikasjoner for menneske-maskin-interaksjon og samfunn. Kunstnerisk forskning har vært en integrert del av datamaskinbasert KI-utvikling siden informatikkens tidlige dager (Colton og Wiggins 2012), eksemplifisert ved tidlige *regelbaserte systemer* for musikkkomposisjon (Miranda 2021) og maleri (Cohen 1995). I dag kan *læringsbaserte systemer* produsere mange slags kunstneriske produkter, og flere har blitt populære kommersielle produkter, som Dall-E (bilder), ChatGPT (tekst) og Suno.ai (musikk).
 
-MishMash tar sikte på å utvide eksisterende kunnskap og bane vei for nye **Samskapende KI**-systemer som muliggjør partnerskap mellom mennesker og maskiner (Anscomb 2024). Vi mener at forskere og utøvere fra kreative fagdisipliner er unikt posisjonert til å utvikle KI-baserte teknologier og gjøre dette på en ansvarlig måte, ved å reflektere over de etiske utfordringene og potensielle ulempene.
+MishMash tar sikte på å utvide eksisterende kunnskap og utvikle nye **Samskapende KI**-systemer som muliggjør partnerskap mellom mennesker og maskiner (Anscomb 2024). Vi mener at forskere og utøvere fra kreative fagdisipliner er godt posisjonert til å utvikle KI-baserte teknologier på en ansvarlig måte, ved å reflektere over de etiske utfordringene og potensielle ulempene.
 
-Det er mange muligheter med Kreative og Samskapende KI-systemer, men også en rekke utfordringer og kunnskapsbehov:
+Det er mange muligheter med Kreative og Samskapende KI-systemer, men også mange utfordringer og kunnskapsbehov:
 
-- **Utfordring 1:** Hvordan kan vi designe og implementere sanntids KI-systemer for imersive, dynamiske og etiske menneske-maskin-samarbeid i kunstneriske fremføringer?
+- **Utfordring 1:** Hvordan kan vi designe og implementere sanntids KI-systemer for immersive, dynamiske og etiske menneske-maskin-samarbeid i kunstneriske fremføringer?
 - **Utfordring 2:** Hvordan kan kunstnere integrere KI i sine kreative prosesser og samtidig opprettholde kontroll og håndtere skjevheter, kulturelle implikasjoner og miljøpåvirkning?
 - **Utfordring 3:** Hvordan kan KI-generert innhold og Kreative KI-systemer påvirke helse og velvære, og integreres i terapeutiske praksiser med hensyn til empati, samtykke og rettferdighet?
 - **Utfordring 4:** Hvordan kan Kreativ KI integreres i utdanning for å styrke læring og fremme KI-kompetanse, med hensyn til mangfold, rettferdighet, inkludering og velvære?
@@ -54,13 +54,13 @@ Mer enn 200 forskere og kunstnere fra hele Norge jobber sammen i MishMash. De m�
 
 - **SKAPE:** bygge nye KI-verktøy og kunstverk
 - **UTFORSKE:** prøve ut KI på konserter, i klasserom, på sykehus og museer
-- **REFLEKTERE:** tenke nøye over hva KI gjør med mennesker og samfunn
+- **REFLEKTERE:** tenke over hva KI gjør med mennesker og samfunn
 
 Arbeidet er delt inn i syv lag, som kalles {% include stretch.html term="work-package" text="arbeidspakker" %}, som hver ser på KI fra sin egen vinkel.
 </div>
 
 <div class="adaptive" data-for="standard" markdown="1">
-MishMash samler mer enn 200 forskere og utøvere fra kunst, humaniora, samfunns- og naturvitenskap, design og ingeniørfag. Senteret er et livlig, hovedsakelig virtuelt forskningsmiljø med ukentlige nettmøter, offentlige workshops og jevnlige symposier med forelesninger, fremføringer og utstillinger.
+MishMash samler mer enn 200 forskere og utøvere fra kunst, humaniora, samfunns- og naturvitenskap, design og ingeniørfag. Senteret er et hovedsakelig virtuelt forskningsmiljø med ukentlige nettmøter, offentlige workshops og jevnlige symposier med forelesninger, fremføringer og utstillinger.
 
 Arbeidet følger tre sammenkoblede tilnærminger:
 
@@ -70,19 +70,17 @@ Arbeidet følger tre sammenkoblede tilnærminger:
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-MishMash vil samle en stor tverrfaglig og tversektoriell gruppe av forskere og praktikere fra kunst, humaniora, samfunns- og naturvitenskap, design og ingeniørfag. MishMash organiserer sin teoretiske og metodologiske «mishmash» til et strukturert «mesh», der prosjekter og aktiviteter krysser hverandre på tvers av *temaer*, *tilnærminger* og *perspektiver*.
+MishMash samler en stor tverrfaglig og tversektoriell gruppe av forskere og praktikere fra kunst, humaniora, samfunns- og naturvitenskap, design og ingeniørfag. MishMash organiserer sin teoretiske og metodologiske «mishmash» til et strukturert «mesh», der prosjekter og aktiviteter krysser hverandre på tvers av *temaer*, *tilnærminger* og *perspektiver*.
 
 <div style="text-align: center;">
     <img src="/assets/images/cube/mishmash_cube.svg" alt="MishMash-kuben" width="500">
 </div>
 
-Arbeidspakkene er utformet rundt syv kjerne-*temaer* som adresserer utfordringene skissert i forrige avsnitt. Mens noen arbeidspakker fokuserer på å utnytte KI i kreative, primært kunstneriske, anvendelser, utforsker andre den innovative bruken av KI i tilgrensende domener, og fremmer et dynamisk samspill mellom kunst, vitenskap og samfunn. Arbeidet vil gjennomføres ved å kombinere et mangfold av vitenskapelige og kunstbaserte teorier og metoder, som kan oppsummeres i tre sammenkoblede *forskningstilnærminger*:
+Arbeidspakkene er utformet rundt syv kjerne-*temaer* som adresserer utfordringene skissert i forrige avsnitt. Noen arbeidspakker fokuserer på å bruke KI i kreative, primært kunstneriske, anvendelser, mens andre utforsker ny bruk av KI i tilgrensende domener og knytter sammen kunst, vitenskap og samfunn. Arbeidet kombinerer mange vitenskapelige og kunstbaserte teorier og metoder, oppsummert i tre sammenkoblede *forskningstilnærminger*:
 
 - **SKAPE:** utvikle KI-baserte systemer, verktøy, kunstverk og relaterte rammeverk og retningslinjer. Dette inkluderer teorier og metoder fra informatikk, ingeniørfag og ulike typer kunst og design, med vekt på å skape Samskapende KI-systemer som prioriterer menneskelig handlingsrom, miljømessig bærekraft og demokratisering av KI-teknologier.
 - **UTFORSKE:** bruke KI-baserte systemer i kreativ praksis og se hvordan kreative metoder kan anvendes i andre domener. Dette inkluderer å undersøke hvordan KI kan styrke kreativitet, fremme innovasjon og støtte læring og velvære ved hjelp av teorier og metoder fra psykologi, terapi, utdanningsvitenskap og kulturarv.
 - **REFLEKTERE:** kritisk studere og diskutere KIs innvirkning på mennesker, menneskelig kreativitet, ulike kulturer og samfunn for øvrig. Dette inkluderer teorier og metoder fra humaniora og samfunnsvitenskap for å sikre ansvarlig KI-utvikling og -bruk.
-
-Senteret vil være et livlig, virtuelt forskningsmiljø med ukentlige nettmøter, annenhver-ukes arbeidspakkemøter, månedlige tematiske seminarer, jevnlige offentlige workshops, livslange læringsarrangementer og halvårlige symposier med forelesninger, fremføringer og utstillinger.
 </div>
 
 ## Hva?
@@ -142,7 +140,7 @@ Ved siden av selve forskningen har MishMash lovet Forskningsrådet fem ting:
 <div class="adaptive" data-for="advanced" markdown="1">
 Det primære målet hviler på fem delmål, som svarer på målene som er satt for KI-sentrene:
 
-- **Etablere et nasjonalt senter** som spenner over landets universiteter og høyskoler, forskningsinstitutter og kunstneriske forskningsmiljøer, sammen med biblioteker, museer, kringkastere, bedrifter og internasjonale partnere. Senteret er et levende, i hovedsak virtuelt forskningsmiljø, med ukentlige møter på nett, arbeidspakkemøter annenhver uke, månedlige temaseminarer, jevnlige åpne verksteder og arrangementer for livslang læring, og symposier to ganger i året med forelesninger, konserter og utstillinger.
+- **Etablere et nasjonalt senter** som spenner over landets universiteter og høyskoler, forskningsinstitutter og kunstneriske forskningsmiljøer, sammen med biblioteker, museer, kringkastere, bedrifter og internasjonale partnere. Senteret er et i hovedsak virtuelt forskningsmiljø, med ukentlige møter på nett, arbeidspakkemøter annenhver uke, månedlige temaseminarer, jevnlige åpne verksteder og arrangementer for livslang læring, og symposier to ganger i året med forelesninger, konserter og utstillinger.
 - **Skape ny grunnleggende kunnskap om KI** og utvikle KI-baserte algoritmer og verktøy som kan brukes i kreative praksiser. Verktøyene brukes i offentlige fremføringer og utstillinger, i undervisning og terapi, i de kreative næringene og for kulturarv. Kritisk refleksjon over mangfold, personvern, opphavsrett og bærekraft føres tilbake i en iterativ utviklingssyklus, og videre til publikasjoner og politikkanbefalinger.
 - **Bygge kompetanse i Norge** gjennom forskningsprosjekter som involverer rundt 100 vitenskapelig ansatte som arbeider med kreativ KI. De utdanner flere titalls doktorgradskandidater og hundrevis av studenter, og tilbyr livslang læring for frilansere og fagfolk i offentlig og privat sektor. Se [forskerutdanning](/no/about/training/).
 - **Samarbeide med ledende forskningsmiljøer internasjonalt** ved å knytte til seg professorer i bistilling og støtte toveis mobilitet for forskere tidlig i karrieren, slik at norsk forskning, utdanning og innovasjon på KI blir mer internasjonal.
@@ -154,7 +152,7 @@ Hvordan senteret publiserer og deler det det lager, står på siden om [åpen fo
 ## Når?
 
 <div class="adaptive" data-for="simple standard" markdown="1">
-Senteret startet i desember 2025 og skal vare i mange år. I løpet av 2026 ansettes nye forskere over hele Norge, og senteret er i full gang fra høsten 2026.
+Senteret startet i desember 2025 og skal vare i mange år. Nye forskere ansettes over hele Norge i løpet av 2026, og senteret er i full gang fra høsten 2026.
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
@@ -162,6 +160,17 @@ Finansieringen ble kunngjort 11. juni 2025, og senteret startet formelt 1. desem
 
 ![MishMash Gantt-diagram](https://www.arj.no/images/2025/06/MishMash-gantt.png)
 </div>
+
+## Hvem?
+
+MishMash styres og ledes av seks organer:
+
+- [Ledelse](/no/about/organisation/management/): daglig ledelse og koordinering av aktivitetene i MishMash
+- [Arbeidspakkeledergruppen](/no/about/organisation/wp-leaders/): lederne for de syv vitenskapelige arbeidspakkene
+- [Styret](/no/about/organisation/board/): styrende og besluttende organ
+- [Råd](/no/about/organisation/council/): strategisk tilsyn og partnernes etterlevelse
+- [Vitenskapelig rådgivende råd](/no/about/organisation/scientific-advisory-board/): internasjonal vitenskapelig veiledning og evaluering
+- [Interessentråd](/no/about/organisation/stakeholder-board/): representanter for partnerorganisasjoner og interessenter
 
 <div class="adaptive" data-for="advanced" markdown="1">
 ## Referanser
@@ -197,4 +206,4 @@ Teksten på denne siden bygger på MishMash-prosjektbeskrivelsen (2025). Siterte
 
 ---
 
-*Denne siden tilpasser innholdet til ulike lesere — et eksperiment med [stretchtext og adaptivt innhold](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) i regi av [nettsideprosjektet](/projects/the-mishmash-website/). Bruk velgeren øverst for å endre lesenivå, og se [ordlisten](/no/about/glossary/) for sentrale begreper.*
+*Denne siden tilpasser innholdet til ulike lesere. Den er et eksperiment med [stretchtext og adaptivt innhold](https://github.com/MishMash-Norway/mishmash-web/wiki/Web-Philosophy) i regi av [nettsideprosjektet](/projects/the-mishmash-website/). Bruk velgeren øverst for å endre lesenivå, og se [ordlisten](/no/about/glossary/) for sentrale begreper.*

@@ -74,7 +74,7 @@ title: "Researchers"
   </form>
 
   <div id="form-success" hidden style="margin-top:1rem;padding:1rem;background:#e8f8e8;border:1px solid #7bc87b;border-radius:6px;color:#1a5c1a;">
-    ✅ <strong>Profile submitted!</strong> It is now awaiting review. Once approved by the WP4 team it will appear on this page automatically.
+    ✅ <strong>Profile submitted.</strong> It is now awaiting review. Once approved by the WP4 team it will appear on this page automatically.
   </div>
   <div id="form-error" hidden style="margin-top:1rem;padding:1rem;background:#fdecea;border:1px solid #e88;border-radius:6px;color:#7a1a1a;">
     ❌ <strong>Something went wrong.</strong> <span id="error-detail"></span> Please try again or contact the WP4 team.
@@ -144,7 +144,7 @@ title: "Researchers"
 {% endif %}
 
 {% if all_researchers.size == 0 %}
-<p style="color:#888;font-style:italic;">No profiles registered yet. Be the first!</p>
+<p style="color:#888;font-style:italic;">No profiles are registered yet.</p>
 {% endif %}
 
 [← Back to WP4 page](/internal/wp4/)

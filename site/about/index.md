@@ -11,7 +11,7 @@ translation_url: /no/about/
 - [Research training](/about/training/): Doctoral fellows, micro courses and lifelong learning
 - [Code of conduct](/about/code-of-conduct/): What we expect of each other, and how to raise a concern
 - [Glossary](/about/glossary/): Key terms explained
-- [AI colophon](/about/ai-colophon/): How this website uses AI, openly
+- [AI colophon](/about/ai-colophon/): How this website uses AI
 - [FAQ](/faq/): Frequently asked questions
 
 ## Directory

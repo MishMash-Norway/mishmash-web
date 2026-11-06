@@ -43,7 +43,6 @@ replace:
   "Rå om": "Råd om"
   "Overordn avgjerder": "Overordna avgjerder"
   "ad hoc-møter": "ad hoc-møte"
-  "ad hoc-møtene": "ad hoc-møta"
   "oppfyller krave": "oppfyller krava"
   "| Ukentlig |": "| Kvar veke |"
   # "forventes å følge" comes back as "er vente" or "er forventa"; the centre
@@ -79,13 +78,11 @@ replace:
   "[liten skript]": "[lite skript]"
   "bilete teikne av ein skript": "bilete teikna av eit skript"
   "ikkje maskinenes": "ikkje maskinane sine"
-  "ein del av MishMash forskingspraksisen sin": "ein del av forskingspraksisen til MishMash"
   "skap, utforska og reflektere": "skape, utforske og reflektere"
   "korleis det blir teikne opp og blir servert": "korleis han blir teikna opp og servert"
   "Vekt til nettstaden": "Vekta til nettstaden"
   "ned til teikne nettstaden": "ned til teikna nettstaden"
   "blir merke med ein boks": "blir merka med ein boks"
-  "problem og retta dei": "problem og rette dei"
   "verktøya eller sidan.": "verktøya eller sida."
   # CI translates with a local Apertium and a laptop through the public service,
   # and the two fail differently on the same sentence. These are the local

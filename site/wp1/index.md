@@ -14,7 +14,7 @@ This work package looks at what happens to the creative process when people and 
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-This WP focuses on how real-time interaction with AI systems transforms the creative process in applications such as music and art performance, interactive installations, and gaming. We will emphasise AI systems that facilitate continuous interactions between humans and machine agents, especially multiple and embodied AI agents.
+This WP focuses on how real-time interaction with AI systems transforms the creative process in applications such as music and art performance, interactive installations, and gaming. It emphasises AI systems that support continuous interaction between humans and machine agents, especially multiple and embodied AI agents.
 </div>
 
 ## Description
@@ -26,19 +26,19 @@ When you play with a computer, it has to answer at once, and it must not get in 
 </div>
 
 <div class="adaptive" data-for="standard" markdown="1">
-Very large AI models produce results that are hard to control. This work package goes the other way: it combines learning from data with the knowledge artists already have and with methods that search for good solutions, so that the output is both personal and new. Where the next work package (WP2) works towards a finished creative product, this one supports live, changing, interactive performance.
+Very large AI models produce results that are hard to control. This work package instead combines learning from data with the knowledge artists already have and with methods that search for good solutions, so that the output is both personal and new. Where the next work package (WP2) works towards a finished creative product, this one supports live, changing, interactive performance.
 
 Performing with an AI system means getting rich feedback the whole time, without the feedback disturbing the performance. To design systems that can give and read such feedback, we first need to understand what has to be "explainable" when a person interacts with AI on stage.
 
-Our starting point is that AI systems with a body, systems that can sense, act and behave in ways people understand without thinking about it, offer possibilities for spontaneous joint creation that go well beyond what exists today.
+The work package assumes that AI systems with a body, which sense, act and behave in ways people understand without thinking about it, offer possibilities for spontaneous joint creation beyond what exists today.
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">
-Countering the current trends of very large models with hard-to-control outputs, we will focus on balancing data-based approaches with artists' knowledge and search-based methods to achieve personalised and novel outputs. In contrast to WP2, the emphasis is on supporting live, dynamic, and interactive performance rather than creating a fixed final creative product.
+In contrast to very large models with hard-to-control outputs, the WP balances data-based approaches with artists' knowledge and search-based methods to achieve personalised and novel outputs. In contrast to WP2, the emphasis is on supporting live, dynamic, and interactive performance rather than creating a fixed final creative product.
 
 Our use cases require synchronous, rich, continuous feedback that unfolds naturally and does not obstruct performance during real-time co-creative improvisation and collaboration. Designing AI systems that can provide and interpret such feedback requires a broader understanding of what must be "explainable" when interacting with AI during creative performance.
 
-We posit that embodied AI systems that can sense, act, and behave in a way that is intuitively understood by humans offer unexplored opportunities for spontaneous co-creation in artistic performance and exploration that reach far beyond the current state of the art.
+We posit that embodied AI systems that can sense, act, and behave in a way that is intuitively understood by humans offer unexplored opportunities for spontaneous co-creation in artistic performance and exploration beyond the current state of the art.
 </div>
 
 ## Research Questions

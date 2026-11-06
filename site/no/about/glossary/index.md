@@ -13,15 +13,14 @@ velgeren øverst: *Kort* er én setning i klartekst, *Klarspråk* er
 hverdagsforklaringen, og *Utfyllende* legger til presisjon og de etablerte
 definisjonene fra standarder, regelverk, forskningslitteraturen og norske kilder.
 
-De samme tekstene driver
+De samme tekstene brukes i
 {% include stretch.html term="stretchtext" %}-forklaringene i tekstene: ord
 med stiplet understrek, som det der, som kan foldes ut, slik at denne listen
-og forklaringene i tekstene alltid stemmer overens, uansett hvilket nivå du
-leser på.
+og forklaringene i tekstene stemmer overens på alle nivåer.
 
 <div class="adaptive" data-for="simple standard" markdown="1">
-Bytt til *Utfyllende* for å se hvor hver definisjon kommer fra. Hvert begrep
-viser da også hvordan standarder, lover, forskning og norske kilder definerer det.
+Bytt til *Utfyllende* for å se hvordan standarder, lover, forskning og norske
+kilder definerer hvert begrep.
 </div>
 
 <div class="adaptive" data-for="advanced" markdown="1">

@@ -5,7 +5,7 @@ title: Seed funding
 
 
 
-MishMash provides seed funding to support collaborative activities among partners. The plan is to announce seed funding calls several times per year, so no rush, there will be new opportunities. 
+MishMash provides seed funding to support collaborative activities among partners. The plan is to announce seed funding calls several times per year, so there will be new opportunities.
 
 ## Calls
 

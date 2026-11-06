@@ -6,7 +6,7 @@ adaptive: true
 ---
 
 <div class="adaptive" data-for="simple" markdown="1">
-This work package is about using creative AI to solve real problems. That can mean designing a product, where art is part of the job, or a rescue operation, where people must find a clever way out with what they have at hand.
+This work package is about using creative AI to solve real problems. That can mean designing a product, where art is part of the job, or a rescue operation, where people must solve a problem creatively with what they have at hand.
 </div>
 
 <div class="adaptive" data-for="standard" markdown="1">
@@ -28,7 +28,7 @@ The AI has to respect real limits: the laws of physics, the law itself, safety r
 </div>
 
 <div class="adaptive" data-for="standard" markdown="1">
-The work package addresses creative practitioners who work towards a goal, as different as designers, film makers, operators in industrial settings and emergency personnel, and it adopts the principles of creative AI that the centre develops through its three perspectives.
+The work package addresses creative practitioners who work towards a goal, such as designers, film makers, operators in industrial settings and emergency personnel, and it adopts the principles of creative AI that the centre develops through its three perspectives.
 
 In a goal-driven setting, new frameworks are needed that give creators freedom, surprise, control and inspiration, and let them evaluate, select, discard and apply what the AI contributes. The process has to be interactive, from step-by-step exploration through prompts to real-time collaboration with an AI that has a body.
 
@@ -44,7 +44,7 @@ To achieve this in a goal-driven context, new frameworks must be developed that 
 
 The process should support creators in addressing their professions' requirements and other practical challenges, finding pragmatic solutions instead of circumventing them. A key challenge here is potential conflicts between artistic freedom and the practical requirements that the creator must fulfil.
 
-AIs developed in this WP will be limited by stricter boundaries than others, from the laws of physics to legal frameworks, such as realism constraints. We will go beyond informed AI approaches in our focus on encoding these limitations into the development principles for Creative AIs. WP7 will generate new knowledge of algorithmic, personal and societal challenges when applying Creative AI in creative practices in collaboration with other WPs facilitated by MishMash's cross-cutting perspectives.
+AIs developed in this WP are limited by stricter boundaries than others, from the laws of physics to legal frameworks, such as realism constraints. The WP goes beyond informed AI approaches in our focus on encoding these limitations into the development principles for Creative AIs. WP7 generates new knowledge of algorithmic, personal and societal challenges when applying Creative AI in creative practices in collaboration with other WPs facilitated by MishMash's cross-cutting perspectives.
 </div>
 
 ## Research Questions
@@ -93,7 +93,7 @@ AIs developed in this WP will be limited by stricter boundaries than others, fro
 ## Sustainability
 
 <div class="adaptive" data-for="simple" markdown="1">
-This work helps with one of the United Nations' goals for a better world. Tools for people and machines to create together, built for real jobs with real limits, support innovation in the sectors that take them up ([SDG 8](https://sdgs.un.org/goals/goal8)).
+This work supports one of the United Nations' goals for sustainable development. Tools for people and machines to create together, built for real jobs with real limits, support innovation in the sectors that take them up ([SDG 8](https://sdgs.un.org/goals/goal8)).
 
 The centre's other commitments on sustainability, openness and reuse are on the [open research](/about/open-research/) page.
 </div>

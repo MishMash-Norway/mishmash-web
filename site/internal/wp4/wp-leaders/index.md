@@ -9,7 +9,7 @@ title: "WP4 Leaders"
     <a href="https://www.uia.no/english/about-uia/employees/eiriks05/"><img src="/assets/images/portraits/eirik_sorbo_UiA.jpg" alt="Eirik Sørbø" class="wp-member-photo"></a>
     <div>
     <a href="https://www.uia.no/english/about-uia/employees/eiriks05/">Eirik Sørbø</a> (UiA) <br>
-    Work Package Leader in WP4. Associate Proffesor at Department of Performing Popular Music Faculty of Fine Arts, University of Agder. Holds a PhD in electronic popular music pedagogy, and has interests evolving around music, tehcnology and education.
+    Work Package Leader in WP4. Associate Professor at the Department of Performing Popular Music, Faculty of Fine Arts, University of Agder. Holds a PhD in electronic popular music pedagogy, with interests in music, technology and education.
     </div>
 </div>
 

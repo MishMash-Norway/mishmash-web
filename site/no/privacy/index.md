@@ -6,11 +6,11 @@ permalink: /no/privacy/
 translation_url: /privacy/
 ---
 
-Denne nettsiden bruker ikke informasjonskapsler. Så enkelt er det. Vi setter ikke cookies i nettleseren din, og vi bruker ikke tredjeparts analyse- eller reklameverktøy som sporer besøkende.
+Denne nettsiden setter ikke informasjonskapsler (cookies) i nettleseren din, og den bruker ikke tredjeparts analyse- eller reklameverktøy som sporer besøkende.
 
 ## Innhold fra andre nettsteder
 
-To slags innhold på disse sidene kommer fra andre, og begge fortjener en forklaring.
+To slags innhold på disse sidene kommer fra andre nettsteder.
 
 Video lastes ikke før du ber om det. Der en side viser en video, ser du et stillbilde og en knapp. Ingenting når YouTube før du trykker, og spilleren som da dukker opp, lastes fra YouTubes no-cookie-domene. Den får vite hvilket nettsted den spiller på, fordi den ellers nekter å spille, men ikke hvilken side.
 
@@ -30,9 +30,9 @@ Hva som kan brukes videre, og på hvilke vilkår, står på siden om [vilkår fo
 
 ## Dataklassifisering
 
-Hver side på dette nettstedet har en dataklassifisering, som vises i «Om siden»-delen i bunnteksten. Vi følger Universitetet i Oslos firenivåsystem: **grønn** (åpen), **gul** (begrenset), **rød** (fortrolig) og **svart** (strengt fortrolig).
+Hver side på dette nettstedet har en dataklassifisering, som vises i «Om siden»-delen i bunnteksten. Vi følger Universitetet i Oslos firenivåsystem: grønn (åpen), gul (begrenset), rød (fortrolig) og svart (strengt fortrolig).
 
-Sidene våre er klassifisert som **grønn (åpen)**. Grønn omfatter informasjon som kan eller bør være tilgjengelig for allmennheten, uten særskilte tilgangsbegrensninger – for eksempel offentlige nettsider og åpent publisert materiale. Klassifiseringen gjelder når universitetet eller samarbeidspartnerne ikke tar skade av at informasjonen blir kjent for tredjeparter. Merk at en åpen klassifisering likevel betyr at bare personer med riktige tilganger kan *endre* informasjonen, og at det å være åpen ikke i seg selv gir fri rett til å gjenbruke innholdet.
+Sidene våre er klassifisert som grønn (åpen). Grønn omfatter informasjon som kan eller bør være tilgjengelig for allmennheten, uten særskilte tilgangsbegrensninger, for eksempel offentlige nettsider og åpent publisert materiale. Klassifiseringen gjelder når universitetet eller samarbeidspartnerne ikke tar skade av at informasjonen blir kjent for tredjeparter. Merk at en åpen klassifisering allikevel betyr at bare personer med riktige tilganger kan *endre* informasjonen, og at det å være åpen ikke i seg selv gir fri rett til å gjenbruke innholdet.
 
 Se Universitetet i Oslos [veiledning om dataklassifisering](https://www.uio.no/english/services/it/security/lsis/data-classes.html) for fullstendige definisjoner.
 

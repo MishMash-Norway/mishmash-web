@@ -7,7 +7,7 @@ translation_url: /about/terms/
 description: "Hva du kan gjøre med tekst, kode, data og bilder på mishmash.no, og hva som ikke omfattes."
 ---
 
-MishMash er offentlig finansiert, og det som publiseres skal kunne brukes videre. Dette er vilkårene, i klartekst. [Kommunikasjonsstrategien](/no/internal/kommunikasjonsstrategi/) beskriver dem for medlemmene.
+MishMash er offentlig finansiert, og det som publiseres skal kunne brukes videre. Dette er vilkårene i klartekst. [Kommunikasjonsstrategien](/no/internal/kommunikasjonsstrategi/) beskriver dem for medlemmene.
 
 ## Tekst
 

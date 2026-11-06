@@ -8,7 +8,7 @@ description: "Stipendiat- og postdoktorstillinger, masterstipend og praksisplass
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg
 ---
 
-MishMash lyser ut stillinger gjennom partnerinstitusjonene, ikke sentralt. Hver institusjon har sin egen utlysningstekst, sin egen søknadsfrist og sitt eget bedømmelseskomité, og du kan søke på flere stillinger samtidig.
+MishMash lyser ut stillinger gjennom partnerinstitusjonene, ikke sentralt. Hver institusjon har sin egen utlysningstekst, sin egen søknadsfrist og sin egen bedømmelseskomité, og du kan søke på flere stillinger samtidig.
 
 Den samlede listen, med lenke til hver utlysning og fristene, står på [siden om ledige stillinger](/vacancies/). Den er på engelsk, fordi utlysningene selv er det.
 

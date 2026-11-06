@@ -23,41 +23,41 @@ description: "Ofte stilte spørsmål om MishMash: hva senteret er og gjør, hvor
 <details class="faq-item" id="what-is-mishmash" markdown="1">
 <summary><span class="faq-summary-text">Hva er MishMash?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash er et norsk forskningssenter som utforsker kunstig intelligens (KI) *i* og *gjennom* kreativ praksis. Senteret samler forskere på tvers av fag og institusjoner for å utvikle ny kunnskap, nye metoder og nye anvendelser der KI, kreativitet og samfunn møtes. Les mer i [beskrivelsen av senteret](/no/about/description/).
+MishMash er et norsk forskningssenter som utforsker kunstig intelligens (KI) *i* og *gjennom* kreativ praksis. Senteret samler forskere på tvers av fag og institusjoner for å utvikle kunnskap, metoder og anvendelser der KI, kreativitet og samfunn møtes. Les mer i [beskrivelsen av senteret](/no/about/description/).
 
 </details>
 
 <details class="faq-item" id="what-does-the-name-mean" markdown="1">
 <summary><span class="faq-summary-text">Hva betyr navnet MishMash?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash er ikke en forkortelse. Navnet beskriver hvordan initiativtakerne så på gruppen av mennesker og institusjoner som ble samlet da søknadsarbeidet startet. Først var det bare en arbeidstittel for søknaden, men det var så lett å huske at det ble hengende. Blant mer enn 150 senterforslag som ble presentert for Forskningsrådet i 2024, var det et av få navn folk husket. Det sier også noe om oppdraget: å blande kunstneriske og vitenskapelige fag med vilje, til noe nytt. Les [hele historien om navnet](https://www.arj.no/2025/06/14/mishmash-name/) (på engelsk).
+MishMash er ikke en forkortelse. Navnet beskriver hvordan initiativtakerne så på gruppen av mennesker og institusjoner som ble samlet da søknadsarbeidet startet. Det begynte som arbeidstittel for søknaden, men det var lett å huske og ble hengende. Blant mer enn 150 senterforslag som ble presentert for Forskningsrådet i 2024, var det et av få navn folk husket. Det beskriver også oppdraget: å kombinere en bevisst blanding av kunstneriske og vitenskapelige fag til noe nytt. Les [hele historien om navnet](https://www.arj.no/2025/06/14/mishmash-name/) (på engelsk).
 
 </details>
 
 <details class="faq-item" id="what-is-the-emblem-story" markdown="1">
 <summary><span class="faq-summary-text">Hva er historien bak MishMash-emblemet?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-De overlappende sirklene i emblemet står for to ting på en gang: KI som et *møtested mellom mennesker og maskiner*, og MishMash som et senter som driver både kunstnerisk og vitenskapelig forskning, og ulike kombinasjoner av de to. Senterlederen skisserte emblemet på en av de første søknadssamlingene, og designerne i Appex videreutviklet det. Passende nok for et senter som forsker på KI, er emblemet laget helt uten KI. Les [hele historien om emblemet](https://www.arj.no/2025/06/29/the-mishmash-emblem/) (på engelsk).
+De overlappende sirklene i emblemet står for to ting: KI som et *møtested mellom mennesker og maskiner*, og MishMash som et senter som driver både kunstnerisk og vitenskapelig forskning, og ulike kombinasjoner av de to. Senterlederen skisserte emblemet på en av de første søknadssamlingene, og designerne i Appex videreutviklet det. Det er laget helt av mennesker, uten KI. Les [hele historien om emblemet](https://www.arj.no/2025/06/29/the-mishmash-emblem/) (på engelsk).
 
 </details>
 
 <details class="faq-item" id="what-is-the-cube-story" markdown="1">
 <summary><span class="faq-summary-text">Hva er historien bak MishMash-kuben?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Kuben ble foreslått på en av de tidlige søknadssamlingene for å forklare at senterets temaer, tilnærminger og perspektiver har flere dimensjoner. Forsiden viser de syv arbeidspakkene, som er senterets organisatoriske struktur. En av de andre sidene viser hvordan vi vil kombinere det å skape, utforske og reflektere over KI i alle arbeidspakkene. Like viktig er det å tenke på hvordan KI påvirker både maskiner, mennesker og samfunnet. Designerne i Appex videreutviklet det visuelle uttrykket. Les [hele historien om kuben](https://www.arj.no/2025/06/29/the-mishmash-emblem/) (på engelsk).
+Kuben ble foreslått på en av de tidlige søknadssamlingene for å forklare at senterets temaer, tilnærminger og perspektiver har flere dimensjoner. Forsiden viser de syv arbeidspakkene, som er senterets organisatoriske struktur. En annen side viser hvordan vi kombinerer det å skape, utforske og reflektere over KI i alle arbeidspakkene. Senteret ser også på hvordan KI påvirker maskiner, mennesker og samfunn. Designerne i Appex videreutviklet det visuelle uttrykket. Les [hele historien om kuben](https://www.arj.no/2025/06/29/the-mishmash-emblem/) (på engelsk).
 
 </details>
 
 <details class="faq-item" id="how-is-mishmash-organised" markdown="1">
 <summary><span class="faq-summary-text">Hvordan er MishMash organisert?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash er et spredt nettverk som arbeider sammen, ikke én sentral organisasjon.
+MishMash er et spredt nettverk, ikke én sentral organisasjon.
 
 * Forskningen er organisert i [arbeidspakker](#what-are-work-packages), som er kjernen i senterets arbeid
 * Hver arbeidspakke har sin egen [ledelse og sin egen forskningsagenda](/no/about/organisation/wp-leaders/)
 * En [sentral ledergruppe](/no/about/organisation/management/) og et [styre](/no/about/organisation/board/) står for koordinering og strategisk retning
 
-Denne strukturen gjør det mulig for mange institusjoner å delta, samtidig som senteret har en felles retning. Se [Organisasjon](/no/about/organisation/) for hele styringsstrukturen, også [rådet](/no/about/organisation/council/) og [det vitenskapelige rådet](/no/about/organisation/scientific-advisory-board/).
+Slik kan mange institusjoner delta, samtidig som senteret har en felles retning. Se [Organisasjon](/no/about/organisation/) for hele styringsstrukturen, også [rådet](/no/about/organisation/council/) og [det vitenskapelige rådet](/no/about/organisation/scientific-advisory-board/).
 
 </details>
 
@@ -117,7 +117,7 @@ Sidene for arbeidspakkene er på engelsk.
 <details class="faq-item" id="who-can-join-mishmash" markdown="1">
 <summary><span class="faq-summary-text">Hvem kan bli med i MishMash?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Alle som arbeider med KI og kreativitet: forskere, kunstnere, lærere, studenter og folk i kultursektoren, offentlig sektor og næringslivet. MishMash skal først og fremst knytte sammen forskere og institusjonene deres i Norge, men medlemmer i utlandet er velkomne, og det samme er internasjonale partnere og partnere utenfor akademia. Masterstudenter kan delta som [master fellows](#master-students). Senteret bygger stadig ut nettverket og ønsker nye samarbeid velkommen (se under).
+Alle som arbeider med KI og kreativitet: forskere, kunstnere, lærere, studenter og folk i kultursektoren, offentlig sektor og næringslivet. MishMash skal først og fremst knytte sammen forskere og institusjonene deres i Norge, men medlemmer i utlandet er velkomne, og det samme er internasjonale partnere og partnere utenfor akademia. Masterstudenter kan delta som [master fellows](#master-students). Senteret ønsker nye samarbeid velkommen (se under).
 
 </details>
 
@@ -133,7 +133,7 @@ Alle som arbeider med KI og kreativitet: forskere, kunstnere, lærere, studenter
 <details class="faq-item" id="how-do-i-become-a-partner" markdown="1">
 <summary><span class="faq-summary-text">Hvordan blir man partner, og hva får man?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Institusjoner som vil bli tilknyttet partner, kan sende en e-post til [contact@mishmash.no](mailto:contact@mishmash.no). De får da vite mer om roller, forventninger og neste steg. Partnerskapet gir institusjonen tilgang til MishMash-nettverket og invitasjoner til arrangementer. Å bli partner er ikke et mål i seg selv, men en døråpner som knytter folk ved partnerinstitusjonen til folk i MishMash-nettverket.
+Institusjoner som vil bli tilknyttet partner, kan skrive til [contact@mishmash.no](mailto:contact@mishmash.no) og får da vite mer om roller, forventninger og neste steg. Partnerskapet gir tilgang til MishMash-nettverket og invitasjoner til arrangementer. Formålet er å knytte folk ved partnerinstitusjonen til folk i MishMash-nettverket.
 
 Man får ingen midler ved å bli partner, men det koster heller ingenting. Mange partnere søker, og får, ekstern finansiering sammen med andre MishMash-partnere.
 
@@ -159,7 +159,7 @@ Man får ingen midler ved å bli medlem, men man kan søke [såkornsmidler](#wha
 <details class="faq-item" id="master-students" markdown="1">
 <summary><span class="faq-summary-text">Jeg er masterstudent. Kan jeg delta?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Ja, som [MishMash master fellow](/no/vacancies/). Ordningen er ubetalt og åpen for masterstudenter ved tilknyttede institusjoner, allerede fra første semester av mastergraden. Det som kreves, er et tema som er relevant for MishMash og en veileder som er aktiv i senteret. Master fellows deltar i aktivitetene i arbeidspakkene, kan få støtte til å delta på MishMash-arrangementer og kan søke såkornsmidler. Søk gjennom [skjemaet for master fellows](https://nettskjema.no/a/mishmash-master-fellows).
+Ja, som [MishMash master fellow](/no/vacancies/). Ordningen er ubetalt og åpen for masterstudenter ved tilknyttede institusjoner, allerede fra første semester av mastergraden. Ordningen krever et tema som er relevant for MishMash og en veileder som er aktiv i senteret. Master fellows deltar i aktivitetene i arbeidspakkene, kan få støtte til å delta på MishMash-arrangementer og kan søke såkornsmidler. Søk gjennom [skjemaet for master fellows](https://nettskjema.no/a/mishmash-master-fellows).
 
 </details>
 
@@ -218,11 +218,11 @@ MishMash støtter først og fremst forskning i Norge. Internasjonale partnere ka
 <details class="faq-item" id="where-do-i-start-with-computing" markdown="1">
 <summary><span class="faq-summary-text">Hvor begynner jeg hvis jeg trenger mer regnekraft?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Begynn med å finne ut hvilken av tre oppgaver du har, fordi de trenger svært ulike maskiner:
+Finn først ut hvilken av tre oppgaver du har, fordi de trenger ulike maskiner:
 
 * **Å kjøre en modell** (inferens): å bruke en modell noen andre har trent. En god bærbar PC eller ett vanlig skjermkort klarer ofte dette.
 * **Å tilpasse en modell** (finjustering): et kraftig skjermkort i en arbeidsstasjon eller noen timer på en klynge.
-* **Å trene fra grunnen av**: det er denne som trenger en nasjonal eller europeisk superdatamaskin.
+* **Å trene fra grunnen av**: dette krever en nasjonal eller europeisk superdatamaskin.
 
 Gå deretter ett trinn om gangen: din egen maskin, instituttets maskin, institusjonens klynge, de nasjonale systemene og Europa. Det meste av kreativt arbeid kommer aldri lenger enn andre trinn, og arbeid som må svare i sanntid på en scene, hører hjemme på en maskin i rommet og ikke i et datasenter. Spør den lokale IT-tjenesten først; den svarer raskere enn noen søknadsrunde.
 
@@ -231,22 +231,20 @@ Gå deretter ett trinn om gangen: din egen maskin, instituttets maskin, institus
 <details class="faq-item" id="training-vs-inference" markdown="1">
 <summary><span class="faq-summary-text">Hva er forskjellen på trening og inferens, og hvorfor betyr den noe?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Dette er skillet som rydder opp i de fleste forvirrede samtaler om regnekraft.
+* **Inferens** er å kjøre en modell som allerede finnes: du sender den noe, og den svarer. Det tar sekunder, og det som trengs, er nok raskt minne til å holde modellen. Hvert chattevindu, hver transkripsjon og hvert generert bilde er inferens. Det er langt over nitti prosent av det de fleste gjør.
+* **Finjustering** er å ta en eksisterende modell og trene den videre på ditt eget materiale, slik at den lærer stemmen, lyden eller opptakene dine. Timer til dager, på ett til åtte gode skjermkort. Det meste av kreativ forskning foregår her.
+* **Trening fra grunnen av** er å bygge en modell fra ingenting. Uker på hundrevis av skjermkort, og et mye større dataproblem enn regnekraftproblem. Få prosjekter bør gjøre dette.
 
-* **Inferens** er å kjøre en modell som allerede finnes: du sender den noe, og den svarer. Det tar sekunder, og det som trengs, er nok raskt minne til å holde modellen. Hvert chattevindu, hver transkripsjon og hvert generert bilde er inferens. Det er langt over nitti prosent av det de fleste noen gang gjør.
-* **Finjustering** er å ta en eksisterende modell og trene den videre på ditt eget materiale, slik at den lærer stemmen, lyden eller opptakene dine. Timer til dager, på ett til åtte gode skjermkort. Det er her det meste av kreativ forskning faktisk foregår.
-* **Trening fra grunnen av** er å bygge en modell fra ingenting. Uker på hundrevis av skjermkort, og et mye større dataproblem enn regnekraftproblem. Svært få prosjekter bør gjøre dette.
+Dette betyr noe fordi de nasjonale superdatamaskinene er bygget for trening og er dårlige på det de fleste vil ha, et svar i løpet av et sekund. Chattetjenestene er bygget for inferens, og ingen av dem finjusterer noe for deg. Den vanligste feilen er å søke om tid på en superdatamaskin når det man trenger, er en transkripsjonstjeneste.
 
-Hvorfor det betyr noe: de nasjonale superdatamaskinene er bygget for trening, og de er dårlige på det de fleste faktisk vil ha, som er et svar på et sekund. Chattetjenestene er bygget for inferens, og ingen av dem finjusterer noe for deg. Å søke om tid på en superdatamaskin når det man trengte var en transkripsjonstjeneste, er den vanligste feilen i disse samtalene.
-
-De to koster også ulikt, og derfor får de ulike ordninger. Kostnaden ved inferens stiger jevnt med bruken, og passer derfor for en kvote. Trening er en blokk med timer som bestilles på forhånd, og passer derfor for en tildeling.
+De to betales også på ulike måter. Kostnaden ved inferens stiger jevnt med bruken, og passer derfor for en kvote. Trening er en blokk med timer som bestilles på forhånd, og passer derfor for en tildeling.
 
 </details>
 
 <details class="faq-item" id="what-are-sigma2-nris-olivia" markdown="1">
 <summary><span class="faq-summary-text">Hva er Sigma2, NRIS, Olivia og KI-fabrikken?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Navnene brukes ofte om hverandre, men de er ikke det samme:
+Navnene brukes ofte om hverandre, men de betegner ulike ting:
 
 * **Sigma2** er det statseide selskapet som driver de nasjonale tjenestene for regnekraft og lagring.
 * **NRIS** (Norwegian Research Infrastructure Services) er samarbeidet som leverer dem: Sigma2 sammen med IT-miljøene ved UiO, UiB, UiT og NTNU. Det er en organisasjon, ikke en maskin.
@@ -261,35 +259,35 @@ Se [Sigma2](https://www.sigma2.no/) og [dokumentasjonen fra NRIS](https://docume
 <details class="faq-item" id="institution-vs-national" markdown="1">
 <summary><span class="faq-summary-text">Hvordan henger KI-tjenestene ved min institusjon sammen med de nasjonale?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Fem ulike ting kalles "KI-tjenester", og det meste av forvirringen kommer av at de blandes sammen. Institusjonen din kan drive flere av dem, og de kan ikke erstatte hverandre.
+Fem ulike ting kalles "KI-tjenester". Institusjonen din kan drive flere av dem, og de kan ikke erstatte hverandre.
 
 * **En chatteportal**: et chattevindu, som regel med et API, foran et utvalg modeller, bak institusjonens innlogging, der hver modell er merket med hvilke data den kan brukes til. UiO har GPT UiO, NTNU har GPT NTNU, UiB har UiBchat, og Sikt KI er tilgjengelig for hele sektoren. Dette er en inferenstjeneste.
-* **En brukstjeneste**: én oppgave gjort godt, uten modell å velge. UiOs Autotekst gjør tale om til tekst og tekster video, og brukes også av en rekke andre institusjoner.
+* **En brukstjeneste**: én bestemt oppgave, uten modell å velge. UiOs Autotekst gjør tale om til tekst og tekster video, og brukes også av en rekke andre institusjoner.
 * **En batchklynge**: du skriver et jobbskript, setter det i kø og henter resultatet senere. Fox ved UiO, Idun ved NTNU og lokale klynger andre steder. Det er her finjustering skjer.
 * **Et sikkert miljø**: et godkjent rom for fortrolige data eller helsedata, med regnekraft inni. TSD ved UiO, SAFE ved UiB og HUNT Cloud ved NTNU.
 * **En infrastrukturtjeneste i skyen**: virtuelle maskiner du drifter selv, for en tjeneste eller en demonstrasjon. NREC, som UiO og UiB driver sammen.
 
 De nasjonale systemene ligger over den tredje av disse, ikke den første. Sigma2s maskiner er for trening og finjustering; de gir deg ikke et chattevindu. Har institusjonen din ingen klynge, endrer det hva du bør be de nasjonale systemene om, men ikke tilgangen din til en chatteportal, som institusjonen selv bestemmer.
 
-Én ting er verdt å vite: portalene ved institusjonene er ikke bare et skall rundt kommersielle tjenester. GPT UiO tilbyr en rekke modeller med åpne vekter på norsk maskinvare ved UiO og NTNU, ved siden av de kommersielle, med egen tilgang for ulike dataklassifiseringer.
+Portalene ved institusjonene er ikke bare et skall rundt kommersielle tjenester. GPT UiO tilbyr en rekke modeller med åpne vekter på norsk maskinvare ved UiO og NTNU, ved siden av de kommersielle, med egen tilgang for ulike dataklassifiseringer.
 
 </details>
 
 <details class="faq-item" id="university-researcher-compute" markdown="1">
 <summary><span class="faq-summary-text">Jeg er forsker eller student ved et norsk universitet. Hva kan jeg bruke?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Først din egen institusjon. UiO har [Fox og Educloud Research](https://www.uio.no/tjenester/it/forskning/hpc/fox/), NTNU har Idun-klyngen, og de fleste andre institusjoner har noe lokalt. Mange institutter har også egne servere for maskinlæring som er lettere å få tilgang til enn noe nasjonalt.
+Begynn med din egen institusjon. UiO har [Fox og Educloud Research](https://www.uio.no/tjenester/it/forskning/hpc/fox/), NTNU har Idun-klyngen, og de fleste andre institusjoner har noe lokalt. Mange institutter har også egne servere for maskinlæring som er lettere å få tilgang til enn noe nasjonalt.
 
 Når du vokser ut av det, kan du søke om de nasjonale systemene gjennom NRIS. Studenter kan ikke søke selv, men går gjennom en veileder.
 
-De nasjonale systemene har et rykte for å være vanskelige som de ikke lenger fortjener. Dokumentasjonen går steg for steg, det finnes eksempelskript, det holdes kurs jevnlig, og de ansatte svarer på e-post. Forskere i MishMash som har gått hele veien, forteller at det vanskeligste var å bestemme seg for å begynne.
+De nasjonale systemene har rykte på seg for å være vanskelige, men dokumentasjonen går steg for steg, det finnes eksempelskript, det holdes kurs jevnlig, og de ansatte svarer på e-post. Forskere i MishMash som har brukt alle nivåene, forteller at det vanskeligste var å bestemme seg for å begynne.
 
 </details>
 
 <details class="faq-item" id="how-to-apply-national-hpc" markdown="1">
 <summary><span class="faq-summary-text">Hvordan søker jeg om nasjonal regnekraft?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Gjennom [søknadssidene til Sigma2](https://www.sigma2.no/apply-e-infrastructure-resources). Tre ting er verdt å vite før du begynner:
+Gjennom [søknadssidene til Sigma2](https://www.sigma2.no/apply-e-infrastructure-resources). Merk deg tre ting før du begynner:
 
 * **Hvem som kan søke.** Norske universiteter og høyskoler, statlige forskningsinstitutter, virksomheter finansiert av Kunnskapsdepartementet eller Forskningsrådet, norske sykehus og næringslivet. Virksomheter utenfor disse kategoriene oppfordres til å ta kontakt med Sigma2 og spørre.
 * **Hvem som signerer.** Prosjektlederen må ha en fast stilling, en postdoktorstilling eller en midlertidig stilling ved en virksomhet som kan søke. Master- og ph.d.-studenter og gjesteforskere søker gjennom en veileder eller kollega.
@@ -300,9 +298,9 @@ Gjennom [søknadssidene til Sigma2](https://www.sigma2.no/apply-e-infrastructure
 <details class="faq-item" id="small-institution-compute" markdown="1">
 <summary><span class="faq-summary-text">Institusjonen min har ingen klynge. Hva da?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Du kan allikevel søke om de nasjonale systemene. Hvem som kan søke, følger av typen institusjon, ikke av om den eier maskinvare, så en kunsthøyskole, en høyskole eller et forskningsinstitutt kan ha en nasjonal tildeling uten noen lokal klynge. Spør IT-tjenesten om noen ved institusjonen allerede har en tildeling du kan bli med i, fordi det går raskere å bli med i et eksisterende prosjekt enn å starte et nytt.
+Du kan allikevel søke om de nasjonale systemene. Hvem som kan søke, følger av typen institusjon, ikke av om den eier maskinvare, så en kunsthøyskole, en høyskole eller et forskningsinstitutt kan ha en nasjonal tildeling uten lokal klynge. Spør IT-tjenesten om noen ved institusjonen allerede har en tildeling du kan bli med i, fordi det går raskere å bli med i et eksisterende prosjekt enn å starte et nytt.
 
-For mye kreativt arbeid er én godt utstyrt arbeidsstasjon med skjermkort i bygget et bedre svar enn en andel av en superdatamaskin, og den koster mindre enn folk tror.
+For mye kreativt arbeid passer en godt utstyrt arbeidsstasjon med skjermkort i bygget bedre enn en andel av en superdatamaskin, og den koster mindre enn folk tror.
 
 </details>
 
@@ -321,37 +319,37 @@ Næringslivet kan også søke om de nasjonale systemene på vilkårene over, mot
 <details class="faq-item" id="artist-freelancer-compute" markdown="1">
 <summary><span class="faq-summary-text">Jeg er kunstner eller frilanser, eller jeg arbeider ved en kulturinstitusjon. Hva kan jeg bruke?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Ærlig talt er dette det største hullet i det norske landskapet, og MishMash arbeider med det.
+Dette er det største hullet i den norske tilgangen til regnekraft, og MishMash arbeider med det.
 
 En kulturinstitusjon som er en offentlig virksomhet, kan kanskje bruke KI-fabrikken, og alle virksomheter utenfor kategoriene som kan søke, oppfordres til å spørre Sigma2 om en nasjonal tildeling er mulig. Ingen har ennå prøvd den veien for en norsk kulturinstitusjon, så en tidlig henvendelse er nyttig for alle.
 
-En kunstner uten arbeidsgiver har i dag ingen nasjonal vei. Det handler om identitet mer enn regelverk: søknadssystemene forutsetter en konto ved en institusjon, så en frilanser kommer ikke inn selv der reglene ellers ville tillatt det. Inntil videre er de praktiske svarene maskinvare du eier selv, og kommersielle tjenester du betaler for etter bruk.
+En kunstner uten arbeidsgiver har i dag ingen nasjonal vei. Hindringen er innlogging mer enn regelverk: søknadssystemene forutsetter en konto ved en institusjon, så en frilanser kommer ikke inn selv der reglene ville tillatt det. De praktiske alternativene er maskinvare du eier selv og kommersielle tjenester du betaler for etter bruk.
 
-Arbeider du sammen med en MishMash-partner, kan du spørre om å bli lagt til i prosjektet deres. Tilgang gjennom en kollega er den eneste døren som er åpen nå.
+Arbeider du sammen med en MishMash-partner, kan du spørre om å bli lagt til i prosjektet deres. Tilgang gjennom en kollega er den eneste veien som er åpen for deg.
 
 </details>
 
 <details class="faq-item" id="image-audio-video-models" markdown="1">
 <summary><span class="faq-summary-text">Jeg arbeider med bilde, lyd, musikk eller video. Hva kan jeg bruke?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Din egen maskin, i nesten alle tilfeller, og det er verdt å si det rett ut: alle norske KI-tjenester ved institusjonene handler bare om språk og tale. GPT UiO, GPT NTNU, UiBchat, Sikt KI og Autotekst gjør tekst og transkripsjon. Ingen av dem tilbyr en modell for bilde, lyd, musikk eller video. En professor ved et stort universitet og en frilanskunstner har like stor tilgang til en musikkmodell gjennom norsk infrastruktur, og det er ingen.
+I nesten alle tilfeller trenger du din egen maskin, fordi alle norske KI-tjenester ved institusjonene bare håndterer språk og tale. GPT UiO, GPT NTNU, UiBchat, Sikt KI og Autotekst gjør tekst og transkripsjon. Ingen av dem tilbyr en modell for bilde, lyd, musikk eller video, så verken en professor ved et stort universitet eller en frilanskunstner får tilgang til en musikkmodell gjennom norsk infrastruktur.
 
 Veien går derfor gjennom modeller med åpne vekter som kjøres lokalt, med et grensesnitt som ComfyUI. For video er modellene som brukes mest, Wan, HunyuanVideo, LTX-Video, CogVideoX og Mochi; for musikk ACE-Step og Stable Audio Open; for lyd i sanntid RAVE fra IRCAM, som kobles til Max og Pure Data. De fleste av disse kjører på ett vanlig skjermkort med 16 til 32 GB minne, som er et innkjøp og ikke en søknad.
 
 Les lisensen før du bygger på noe. "Åpne vekter" er ikke én ting: noen er Apache 2.0 og fri til kommersiell bruk, noen har grenser for omsetning, og noen er ikke-kommersielle, som betyr at det de lager ikke kan brukes i kommersielt arbeid, uansett hvor modellen kjøres.
 
-Å tette dette hullet for norsk kreativt materiale er en av grunnene til at MishMash finnes.
+Å skaffe slike modeller for norsk kreativt materiale er et av senterets mål.
 
 </details>
 
 <details class="faq-item" id="museum-archive-compute" markdown="1">
 <summary><span class="faq-summary-text">Jeg arbeider ved et museum, bibliotek, arkiv eller teater. Hva gjelder for oss?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Det avhenger mye av institusjonen, og det er en feil å behandle kultursektoren som ett tilfelle.
+Svaret avhenger av institusjonen, fordi kultursektoren ikke er ett tilfelle.
 
 Nasjonalbiblioteket er i den ene enden. Det har sitt eget KI-laboratorium, har publisert hundrevis av modeller og datasett åpent, har en egen statlig bevilgning til norske og samiske språkmodeller med tilsvarende midler til Sigma2 for regnekraften under, og er med i Språkmodellklynge Norge sammen med UiO og NTNU. For de fleste formål er det en produsent av nasjonal infrastruktur, ikke en bruker som leter etter tilgang.
 
-De fleste andre kulturinstitusjoner er i den andre enden, uten klynge, uten tildeling og uten eget KI-laboratorium. To veier er verdt å prøve. KI-fabrikken er for offentlig sektor, og en institusjon som er offentlig eid eller offentlig finansiert, kan kvalifisere. I tillegg oppfordrer Sigma2 virksomheter utenfor kategoriene som kan søke, til å ta kontakt og spørre. Så langt vi vet, har ingen norske museer eller teatre prøvd noen av veiene ennå, så en tidlig henvendelse hjelper hele sektoren med å finne ut hva svaret er.
+De fleste andre kulturinstitusjoner er i den andre enden, uten klynge, uten tildeling og uten eget KI-laboratorium. To veier er verdt å prøve. KI-fabrikken er for offentlig sektor, og en institusjon som er offentlig eid eller offentlig finansiert, kan kvalifisere. I tillegg oppfordrer Sigma2 virksomheter utenfor kategoriene som kan søke, til å ta kontakt og spørre. Så langt vi vet, har ingen norske museer eller teatre prøvd noen av veiene, så en tidlig henvendelse hjelper hele sektoren med å finne svaret.
 
 Prøver du en av dem, vil vi gjerne høre hvordan det gikk: [contact@mishmash.no](mailto:contact@mishmash.no).
 
@@ -360,7 +358,7 @@ Prøver du en av dem, vil vi gjerne høre hvordan det gikk: [contact@mishmash.no
 <details class="faq-item" id="realtime-compute" markdown="1">
 <summary><span class="faq-summary-text">Jeg trenger noe som virker i sanntid, på scenen eller i studio.</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Da er de nasjonale systemene feil verktøy, uansett hvor kraftige de er. De kjører jobber i kø, som betyr at du sender inn en jobb og venter, og de står i et datasenter langt fra rommet du spiller i. Forsinkelsen er hele poenget for et system som skal spille med.
+De nasjonale systemene er feil verktøy for dette. De kjører jobber i kø, som betyr at du sender inn en jobb og venter, og de står i et datasenter langt fra rommet du spiller i. Et system som skal spille med, er avhengig av kort forsinkelse.
 
 Ett vanlig skjermkort i studio, eller en bærbar PC med mye delt minne, kjører det meste av lyd i sanntid og små modeller godt. Maskiner med delt minne er sterke på inferens og svakere på trening, så mange trener på en klynge og spiller på en lokal maskin.
 
@@ -371,7 +369,7 @@ Ett vanlig skjermkort i studio, eller en bærbar PC med mye delt minne, kjører 
 
 En tommelfingerregel fra folk i senteret: ved kontinuerlig bruk betaler omtrent seks måneder med leid kapasitet i skyen for en tilsvarende maskin. Lei for topper, kjøp for daglig bruk.
 
-Det finnes et annet argument for å eie som ikke har noe med penger å gjøre. Forskning som utforsker, kan ikke planlegges på forhånd, og et budsjett som telles, skaper en frykt for å gå tom som i det stille endrer hva man tør å prøve.
+Et annet argument for å eie handler ikke om penger. Forskning som utforsker, kan ikke planlegges på forhånd, og et budsjett som telles, skaper en frykt for å gå tom som endrer hva man tør å prøve.
 
 </details>
 
@@ -380,7 +378,7 @@ Det finnes et annet argument for å eie som ikke har noe med penger å gjøre. F
 
 MishMash kjøper ikke abonnementer til medlemmene. Sjekk hva institusjonen din tilbyr før du betaler for noe selv.
 
-Flere norske institusjoner driver portaler som setter et chattevindu og et API foran kommersielle modeller og modeller med åpne vekter, med en kvote per bruker og per dataklassifisering, slik at institusjonen betaler for det som faktisk brukes. UiO og NTNU har begge en. [Sikt KI](https://sikt.no/tjenester/sikt-ki) er for universiteter, høyskoler, forskningsinstitusjoner og videregående skoler, med Feide-innlogging.
+Flere norske institusjoner driver portaler som setter et chattevindu og et API foran kommersielle modeller og modeller med åpne vekter, med en kvote per bruker og per dataklassifisering, slik at institusjonen betaler for det som brukes. UiO og NTNU har begge en. [Sikt KI](https://sikt.no/tjenester/sikt-ki) er for universiteter, høyskoler, forskningsinstitusjoner og videregående skoler, med Feide-innlogging.
 
 Å betale etter bruk gjennom en portal er som regel langt billigere enn å kjøpe en lisens til hver person, fordi en lisens koster det samme for den som bruker mye og for den som har prøvd to ganger.
 
@@ -395,7 +393,7 @@ Tre miljøer publiserer dem åpent:
 * [NorwAI ved NTNU](https://www.ntnu.edu/norwai), som lager NorLLM-familien.
 * [Nasjonalbibliotekets AI-lab](https://ai.nb.no/), som lager NB-Whisper for norsk tale og Borealis-språkmodellene, trent på bibliotekets samling.
 
-Disse dekker tekst og tale. Åpne norske modeller for musikk, bilde, video og bevegelse finnes knapt, og det er noe av det MishMash skal endre.
+Disse dekker tekst og tale. Åpne norske modeller for musikk, bilde, video og bevegelse finnes knapt, og MishMash vil endre det.
 
 </details>
 
@@ -404,7 +402,7 @@ Disse dekker tekst og tale. Åpne norske modeller for musikk, bilde, video og be
 
 Ja, i liten skala. MishMash har egne prosjekter i Educloud Research ved Universitetet i Oslo og på de nasjonale systemene til Sigma2, og medlemmer kan legges til i dem, også medlemmer ved partnere utenfor Norge som kan logge inn gjennom ID-porten med elektronisk ID fra sitt eget land (eIDAS). [Siden om regnekraft](/internal/compute/) forteller hva hvert av dem gir. Senteret arbeider med å få en IT-spesialist som kan hjelpe forskere i hele konsortiet med å finne de riktige ressursene. Skriv til [contact@mishmash.no](mailto:contact@mishmash.no) hvis du trenger dette.
 
-I tillegg arbeider senteret med det strukturelle problemet bak disse spørsmålene: at tilgangen i Norge avhenger av hvilken institusjon man tilfeldigvis sitter ved, og at kunstnere, frilansere og kulturinstitusjoner har minst tilgang til verktøyene de trenger mest. Har du støtt på en vegg vi bør vite om, skriv til [contact@mishmash.no](mailto:contact@mishmash.no) og fortell hva du ikke fikk.
+Senteret arbeider også med det strukturelle problemet bak disse spørsmålene: tilgangen i Norge avhenger av hvilken institusjon man tilhører, og kunstnere, frilansere og kulturinstitusjoner har minst tilgang til verktøyene de trenger mest. Fikk du ikke tilgang til noe, skriv til [contact@mishmash.no](mailto:contact@mishmash.no) og fortell hva det var.
 
 </details>
 
@@ -415,7 +413,7 @@ I tillegg arbeider senteret med det strukturelle problemet bak disse spørsmåle
 
 MeshUps er korte, ukentlige nettmøter der man deler pågående arbeid og ideer. I semestrene går de på Zoom torsdager kl. 12.00–12.30. De begynner med et par minutter informasjon fra ledergruppen, og deretter følger et innlegg på 15 minutter og 10 minutter med spørsmål. Zoom-lenken sendes til medlemmene i arbeidspakkene; andre kan [be om tilgang](mailto:contact@mishmash.no). MeshUpene tas ikke opp.
 
-MeshUpene er en enkel måte å knytte kontakter på tvers av fag og institusjoner. Kommende og tidligere MeshUps står på [arrangementssiden](/events/).
+De knytter folk sammen på tvers av fag og institusjoner. Kommende og tidligere MeshUps står på [arrangementssiden](/events/).
 
 For å få møtelenker og påminnelser kan du abonnere på annonseringslisten for MeshUps eller legge MeshUpene til i kalenderen fra arrangementssiden. Bruk "Subscribe (webcal)" for å legge kalenderen til direkte, eller "Download calendar (ICS)" hvis e-postprogrammet ditt (for eksempel Outlook) ikke åpner webcal-lenker.
 
@@ -453,14 +451,14 @@ Kommunikasjonen i MishMash er et felles ansvar i nettverket.
 * Partnerne bidrar med innhold som [nyheter](/news/), [arrangementer](/events/) og oppdateringer om [prosjekter](/projects/)
 * En sentral gruppe koordinerer kommunikasjonen og utviklingen av nettstedet
 
-I praksis er MishMash et felles arbeid der bidragene fra partnerne er avgjørende.
+Bidragene fra partnerne er avgjørende.
 
 </details>
 
 <details class="faq-item" id="how-can-i-contribute" markdown="1">
 <summary><span class="faq-summary-text">Hvordan kan jeg bidra med innhold til nettstedet?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash er avhengig av bidrag fra miljøet. Du kan bidra ved å:
+Du kan bidra ved å:
 
 * Sende [nyheter](/news/) og [arrangementer](/events/), dine egne eller institusjonens, til [contact@mishmash.no](mailto:contact@mishmash.no)
 * Registrere resultatene dine i NVA og ORCID, som nettstedet henter hver natt
@@ -489,7 +487,7 @@ Hver side viser metadata nederst: siste endring, lisens, datakilder og en lenke 
 <details class="faq-item" id="why-reading-levels" markdown="1">
 <summary><span class="faq-summary-text">Hvorfor har om-siden flere tekstversjoner?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Noen sider på mishmash.no er *adaptive*: det samme innholdet er skrevet på tre nivåer, Kort, Klarspråk og Utfyllende, og du velger hvilken du vil lese med velgeren "Tekstversjon" øverst på siden. Valget huskes mens du blar. Tanken er at en skoleklasse, en nysgjerrig besøkende og en annen forsker skal kunne lese *den samme siden* uten at noen kjeder seg eller går seg vill.
+Noen sider på mishmash.no er *adaptive*: det samme innholdet er skrevet på tre nivåer, Kort, Klarspråk og Utfyllende, og du velger hvilken du vil lese med velgeren "Tekstversjon" øverst på siden. Valget huskes mens du blar. Slik kan en skoleklasse, en nysgjerrig besøkende og en annen forsker lese den samme siden, hver på et passende nivå.
 
 Ord med prikket understreking er [stretchtekst](https://github.com/MishMash-Norway/mishmash-web/wiki/Adaptive-Content): klikk på dem for å folde ut en kort forklaring på stedet. Alle forklaringene er samlet i [ordlisten](/no/about/glossary/). Prøv det på [beskrivelsen av senteret](/no/about/description/).
 
@@ -498,9 +496,9 @@ Ord med prikket understreking er [stretchtekst](https://github.com/MishMash-Norw
 <details class="faq-item" id="does-the-website-use-ai" markdown="1">
 <summary><span class="faq-summary-text">Er nettstedet laget med KI?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Delvis, og åpent, noe som passer for et senter som forsker på kreativ bruk av KI. KI-støtte brukes til å skrive utkast til innhold, utvikle kode og automatisering, og til oversettelse. Redaktører går gjennom alt før det publiseres og har ansvaret for det, maskinoversatte sider er merket, og hver endring gjort med KI-støtte kan spores i den åpne endringshistorikken.
+Delvis. KI-støtte brukes åpent til å skrive utkast til innhold, utvikle kode og automatisering, og til oversettelse. Redaktører går gjennom alt før det publiseres og har ansvaret for det, maskinoversatte sider er merket, og hver endring gjort med KI-støtte kan spores i den åpne endringshistorikken.
 
-[KI-kolofonen](/no/about/ai-colophon/) beskriver praksisen i sin helhet, med tall som oppdateres løpende.
+[KI-kolofonen](/no/about/ai-colophon/) beskriver praksisen i sin helhet, med tall som oppdateres automatisk.
 
 </details>
 
@@ -514,7 +512,7 @@ Nettstedet er bygget for å oppfylle WCAG 2.1 nivå AA, slik forskriften om univ
 <details class="faq-item" id="can-students-develop-the-website" markdown="1">
 <summary><span class="faq-summary-text">Kan studenter være med og utvikle nettstedet?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Ja. Nettstedet er også en lekeplass for utvikling. Studentgrupper kan lage alternative brukergrensesnitt (temaer man kan bytte mellom, og som ikke kan ødelegge det publiserte nettstedet) eller automatisering i bakkant (datasynkronisering, validering, visualisering). Se [veiledningen for studentutvikling](https://github.com/MishMash-Norway/mishmash-web/wiki/Student-Development) i wikien (på engelsk), de åpne [sakene](https://github.com/MishMash-Norway/mishmash-web/issues) for prosjektideer, og [prosjektet om nettstedet](/projects/the-mishmash-website/) for hvem du kan snakke med.
+Ja. Studentgrupper kan lage alternative brukergrensesnitt (temaer man kan bytte mellom, og som ikke kan ødelegge det publiserte nettstedet) eller automatisering i bakkant (datasynkronisering, validering, visualisering). Se [veiledningen for studentutvikling](https://github.com/MishMash-Norway/mishmash-web/wiki/Student-Development) i wikien (på engelsk), de åpne [sakene](https://github.com/MishMash-Norway/mishmash-web/issues) for prosjektideer, og [prosjektet om nettstedet](/projects/the-mishmash-website/) for hvem du kan snakke med.
 
 </details>
 
@@ -523,7 +521,7 @@ Ja. Nettstedet er også en lekeplass for utvikling. Studentgrupper kan lage alte
 <details class="faq-item" id="still-have-questions" markdown="1">
 <summary><span class="faq-summary-text">Har du flere spørsmål?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Ta kontakt på [contact@mishmash.no](mailto:contact@mishmash.no), eller utforsk [prosjekter](/projects/), [personer](/search/?type=person), [institusjoner](/search/?type=institution), [arrangementer](/events/) og [resultater](/no/results/) for å lære mer.
+Ta kontakt på [contact@mishmash.no](mailto:contact@mishmash.no), eller utforsk [prosjekter](/projects/), [personer](/search/?type=person), [institusjoner](/search/?type=institution), [arrangementer](/events/) og [resultater](/no/results/).
 
 </details>
 

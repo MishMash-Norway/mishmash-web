@@ -11,9 +11,7 @@ page_about:
     model_version: "Fable 5.1"
 ---
 
-This survey supports the [communication strategy](/internal/communication-strategy/) and the Nynorsk mirror of mishmash.no beside the Bokmål one. It was made on 17 September 2026 by web search and page fetching; every claim comes from a fetched page, named after the claim, and pages that could not be fetched are listed at the end. Figures are copied from the sources.
-
-Survey written 2026-09-17. Every claim below comes from a page fetched during the survey; the URL follows the claim. Pages that could not be fetched are named as such. Figures are copied from the sources, not computed.
+This survey supports the [communication strategy](/internal/communication-strategy/) and the Nynorsk mirror of mishmash.no beside the Bokmål one. It was made on 17 September 2026 by web search and page fetching. Every claim comes from a page fetched during the survey, and the URL follows the claim; pages that could not be fetched are named as such and listed at the end. Figures are copied from the sources, not computed.
 
 ## Summary
 
@@ -227,7 +225,7 @@ Språkrådet's 2025 test of chatbots (https://sprakradet.no/wp-content/uploads/R
 - The earlier October 2024 test of ChatGPT alone gave 2 to 3 errors per page of 320 words in Bokmål and about 8 per page in Nynorsk.
 - Advice for public bodies: set aside enough resources for post-editing including language, fact and source checks, and extra resources for checking Nynorsk texts (section 6, citing the plain language provision in § 9).
 
-Note that this test measured text generation, not Bokmål to Nynorsk translation.
+This test measured text generation, not Bokmål to Nynorsk translation.
 
 Språkrådet's evaluation of Bokmål to Nynorsk translation tools, autumn 2025 (https://sprakradet.no/wp-content/uploads/Fra-bokmal-til-nynorsk-evaluering-av-maskinomsetjingsverktoy-hausten-2025.pdf), read on 2 November 2026:
 
@@ -275,7 +273,7 @@ Apertium (pair, lttoolbox, vislcg3, apy), Weblate (self-hosted), i18n-ai-transla
 
 ## Test on mishmash.no text
 
-To ground the options, four Bokmål pages of this site (accessibility, privacy, terms, communication strategy; 2,310 words in all) were sent through the public Apertium service on 17 September 2026. The engine marked 43 tokens as unknown, 18.6 per 1,000 words; almost all were names and English product terms (Pa11y, JavaScript, Freesound, Wikidata, MishMash), which it passes through unchanged with an asterisk. The whole accessibility page (373 words) was then read as Nynorsk: one real error was found, a wrongly formed adjective, and everything else read as correct, natural Nynorsk. Chaining the pair with its e-infinitive variant (nno_e) turned "me" into "vi" and a-infinitives into e-infinitives, which is the moderate norm most institutions use, and the second pass marked the faulty adjective as unknown, so the two steps together also act as a check. The Ubuntu 24.04 image that GitHub's runners use packages both Apertium and the Nynorsk pair, so the same translation can run inside the site's build without an external service.
+Four Bokmål pages of this site (accessibility, privacy, terms, communication strategy; 2,310 words in all) were sent through the public Apertium service on 17 September 2026. The engine marked 43 tokens as unknown, 18.6 per 1,000 words; almost all were names and English product terms (Pa11y, JavaScript, Freesound, Wikidata, MishMash), which it passes through unchanged with an asterisk. The whole accessibility page (373 words) was then read as Nynorsk: one real error was found, a wrongly formed adjective, and everything else read as correct, natural Nynorsk. Chaining the pair with its e-infinitive variant (nno_e) turned "me" into "vi" and a-infinitives into e-infinitives, which is the moderate norm most institutions use, and the second pass marked the faulty adjective as unknown, so the two steps together also act as a check. The Ubuntu 24.04 image that GitHub's runners use packages both Apertium and the Nynorsk pair, so the same translation can run inside the site's build without an external service.
 
 ## 4. Options for MishMash
 
@@ -306,7 +304,7 @@ Use a local NorMistral or a commercial model through i18n-ai-translate for `_dat
 
 Buy a subscription and connect it through its CMS or Office integration or, if offered, an API, then post-edit.
 
-- For: vendor support, style templates, used by public bodies for exactly this rule.
+- For: vendor support, style templates, used by public bodies for this rule.
 - Against: prices and API documentation are not public on the pages fetched; underlying engines are Apertium or undocumented, so the quality gain over option A is not established by any fetched source; a proprietary dependency in an otherwise open pipeline.
 
 ### Option E. Selective human Nynorsk without a full mirror

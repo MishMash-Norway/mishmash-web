@@ -5,7 +5,7 @@ redirect_from:
   - /organisation/stakeholder-board/
 ---
 
-The Stakeholder Board brings together representatives from partner organizations, industry, and cultural institutions to ensure MishMash research remains relevant and impactful.
+The Stakeholder Board brings together representatives from partner organisations, industry, and cultural institutions to ensure MishMash research remains relevant and impactful.
 
 ## Role
 
