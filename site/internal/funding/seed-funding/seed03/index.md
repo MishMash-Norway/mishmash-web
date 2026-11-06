@@ -36,7 +36,7 @@ The funding can cover, for instance:
 - Production costs, materials, technical assistance and documentation.
 - Fees for external artists and other professional collaborators who are not employed by a MishMash partner, at normal rates for the field.
 - Fees for contributors who are not MishMash members, such as participants in experiments or artists in recordings, when they are necessary for the project, particularly when they come from outside academia.
-- Staff time at non-research partners in the public and cultural sectors, such as schools and kulturskoler, where it is necessary for the project, for instance to pay for a substitute teacher.
+- Staff time at non-research partners in the public and cultural sectors, such as schools and municipal schools of music and performing arts, where it is necessary for the project, for instance to pay for a substitute teacher.
 
 These are covered only when clearly justified:
 
