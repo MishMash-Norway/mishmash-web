@@ -20,8 +20,6 @@ Each project can be supported with up to NOK 50,000. The project must be complet
 - Travel costs for partners and guest lectures
 - Other relevant expenses
 
-
-
 ### Funding principles
 
 Consider the following principles when preparing internal seed funding proposals:
@@ -30,10 +28,11 @@ Consider the following principles when preparing internal seed funding proposals
 - **Participant fees** for research contributors (e.g., subjects in experiments, artists in recordings, etc.) who are not MishMash members may be covered when they are necessary for project delivery, particularly when they come from outside academia.
 - **Licenses/tokens** should preferably be network/site-based so that they can benefit many or all MishMash partners.
 - **Fees for international collaborators** to participate in project events may be eligible, but need to be clearly justified.
-- Events should normally be organised in a **hybrid format** to ensure broad and inclusive participation. Moderation in travel expenses is recommended, and environmentally friendly travel options are encouraged.
+- Events should normally be organised in a **hybrid format** to ensure broad and inclusive participation. 
+- Moderation in **travel expenses** is recommended, and environmentally friendly travel options are encouraged.
 - Budgets should include and clearly describe **in-kind contributions** from the applicant and partners.
 - Costs covering general **conference participation** is normally not eligible unless explicitly justified as core to project goals. In such cases, applicants are encouraged to consider MishMash's visibility and representation at the event.
-- Applicants who have **unreported seed projects** are normally not prioritised.
+- Applicants who have **unreported ongoing seed projects** are normally not prioritised.
 - **Institutions outside Norway** are not eligible to apply independently, but may participate in applications submitted by Norwegian institutions.
 - **Granted funds may generally not be reallocated**. The grant is earmarked for the project as described in the project description and budget, including any conditions stated in the decision letter.
 - Associated partners awarded funding will be required to sign a **sub-project funding agreement**.
@@ -61,4 +60,3 @@ We do not have capacity to give written feedback on all proposals. However, it i
 ## Contact
 
 - Administrative coordinator [Eskil Muan Sæther](https://www.hf.uio.no/imv/english/people/adm/eskilms/index.html)
-
