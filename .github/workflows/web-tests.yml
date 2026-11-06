@@ -342,12 +342,17 @@ jobs:
         continue-on-error: true
         run: npx --yes pa11y-ci@4 --config .pa11yci.themes.json
 
-      - name: How far the main site is from WCAG AAA (report only)
-        continue-on-error: true
-        run: node scripts/measure_aaa.mjs --base http://127.0.0.1:4000 | tee aaa-main-site.txt
+      # The main site is held to AAA contrast (7:1) and line length (80
+      # characters), and to the 24-pixel targets of WCAG 2.2; targets under the
+      # 44 pixels of AAA are reported but do not block.
+      - name: The main site reaches WCAG AAA contrast and line length, and 24-pixel targets
+        run: |
+          set -o pipefail
+          node scripts/measure_aaa.mjs --base http://127.0.0.1:4000 --fail --target-min 24 | tee aaa-main-site.txt
 
       - name: A theme that declares WCAG AAA as its target reaches it
         run: |
+          set -o pipefail
           status=0
           for theme in $(./scripts/ui list); do
             if grep -qE '^wcag_target:\s*AAA' "themes/$theme/_config.yml" 2>/dev/null; then

@@ -15,12 +15,14 @@
 // at the same threshold.
 //
 // Usage: node scripts/measure_aaa.mjs [--site _site] [--base https://mishmash.no]
-//                                    [--prefix /ui/<theme>] [--fail]
+//                                    [--prefix /ui/<theme>] [--fail] [--target-min 24]
 //
 // --prefix measures a theme preview built under that path. --fail exits 1 when
 // anything is below the AAA thresholds, which is how a theme that declares
 // wcag_target: AAA in its _config.yml is held to it in CI; without it the
-// script only reports, which is what the main site gets.
+// script only reports. --target-min 24 makes --fail hold targets to the
+// 24 by 24 of WCAG 2.2 (2.5.8) in place of the 44 by 44 of AAA, while the
+// report still lists everything under 44; that is how CI holds the main site.
 
 import { resolve } from 'node:path';
 import { chromium } from '@playwright/test';
@@ -46,8 +48,12 @@ function targets() {
     if (el.getAttribute('tabindex') === '-1' || el.getAttribute('aria-hidden') === 'true') continue;
     const box = el.getBoundingClientRect();
     if (box.width < 2 || box.height < 2) continue;   // clipped away until focused, like the skip link
-    const inline = style.display === 'inline' && el.parentElement
-      && (el.parentElement.textContent || '').trim().length > (el.textContent || '').trim().length + 2;
+    // The sentence a link sits in is the nearest box that is not inline, so a
+    // link inside a <cite> or an <em> is measured against the whole sentence.
+    let block = el.parentElement;
+    while (block && getComputedStyle(block).display === 'inline') block = block.parentElement;
+    const inline = style.display === 'inline' && block
+      && (block.textContent || '').trim().length > (el.textContent || '').trim().length + 2;
     if (inline) continue;
     rows.push({
       selector: el.tagName.toLowerCase() + (el.className ? '.' + String(el.className).split(/\s+/)[0] : ''),
@@ -95,6 +101,7 @@ async function main() {
   const remote = args.includes('--base') ? args[args.indexOf('--base') + 1].replace(/\/$/, '') : null;
   const prefix = args.includes('--prefix') ? args[args.indexOf('--prefix') + 1].replace(/\/$/, '') : '';
   const fail = args.includes('--fail');
+  const targetMin = args.includes('--target-min') ? Number(args[args.indexOf('--target-min') + 1]) : TARGET_MIN.AAA;
   const app = remote ? null : server(root);
   if (app) await new Promise((r) => app.listen(0, '127.0.0.1', r));
   const base = remote || `http://127.0.0.1:${app.address().port}`;
@@ -157,9 +164,11 @@ async function main() {
   for (const r of longest.slice(0, 8)) console.log(`    ${String(r.chars).padStart(4)} ch  ${r.page}  ${r.text}`);
 
   const short = [contrast.length && `${c.length} contrast combinations under 7:1`,
-    small.length && `${s.length} target sizes under 44px`,
+    targetMin >= TARGET_MIN.AAA && small.length && `${s.length} target sizes under 44px`,
+    targetMin < TARGET_MIN.AAA && under24.length && `${under24.length} target sizes under ${targetMin}px`,
     lines.length && `${lines.length} lines over ${LINE_MAX_CH} characters`].filter(Boolean);
   console.log(`\nAAA: ${short.length ? short.join(', ') : 'nothing below the thresholds'}`);
+  if (targetMin < TARGET_MIN.AAA && small.length) console.log(`(${s.length} target sizes under 44px are reported, not held)`);
   if (fail && short.length) {
     console.error('This build declares WCAG AAA as its target and does not reach it.');
     return 1;

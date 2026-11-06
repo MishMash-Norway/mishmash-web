@@ -22,8 +22,8 @@ Site: `http://127.0.0.1:4000`
 Needed for NVA/ORCID sync and some content helpers:
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r scripts/requirements.txt
 ```
 
@@ -206,7 +206,7 @@ A separate scheduled workflow (`.github/workflows/enrich-directory-people.yml`) 
 ## Secrets and files to never commit
 
 - `config/nva-credentials*.json` (except `*.example.json`) and `config/nettskjema-credentials.json`
-- `venv/`, `vendor/`, `_site/`
+- `.venv/`, `vendor/`, `_site/`
 - Passwords or API keys in source files
 
 GitHub Actions uses repository secrets `NVA_CLIENT_ID` and `NVA_CLIENT_SECRET` for automated sync.

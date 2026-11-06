@@ -16,7 +16,8 @@ Tilgjengelighetserklæringen for senteret, [publisert på uustatus.no](https://u
 - Menyer, språkvalg, søk og utvidbare avsnitt kan brukes med tastatur, og elementet som har fokus er alltid synlig.
 - Sidens språk er oppgitt, og språkvalget merker det andre språket slik at skjermlesere uttaler det riktig.
 - Tekst og bakgrunn har en kontrast på minst 7:1, og stor tekst minst 4,5:1, som er nivå AAA i WCAG 2.1. Teksten kan forstørres til 200 % uten at innhold går tapt.
-- Sidene tilpasser seg en bredde på 320 piksler uten vannrett rulling.
+- Sidene tilpasser seg en bredde på 320 piksler uten vannrett rulling, og en linje med løpende tekst er ikke bredere enn 80 tegn.
+- Lenker, knapper og kontroller utenfor løpende tekst er minst 24 ganger 24 piksler, slik WCAG 2.2 krever; mange er mindre enn de 44 ganger 44 som nivå AAA ber om.
 - Bilder har tekstalternativer, lenker beskriver målet sitt, og overskriftene følger en logisk rekkefølge.
 - Diagrammene på resultatsiden har et tabellalternativ.
 
@@ -24,7 +25,7 @@ Tilgjengelighetserklæringen for senteret, [publisert på uustatus.no](https://u
 
 Hver endring sjekkes i GitHub Actions før den publiseres. Arbeidsflyten [Web Quality Checks](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml) omfatter:
 
-- Tilgjengelighetsskanning: [Pa11y CI](https://github.com/pa11y/pa11y-ci) kjører både axe-core og HTML CodeSniffer mot WCAG 2.1 nivå AAA på et utvalg representative sider på begge språk, listet i [`.pa11yci.json`](https://github.com/MishMash-Norway/mishmash-web/blob/main/.pa11yci.json). En enkelt feil stopper sjekken.
+- Tilgjengelighetsskanning: [Pa11y CI](https://github.com/pa11y/pa11y-ci) kjører både axe-core og HTML CodeSniffer mot WCAG 2.1 nivå AAA på et utvalg representative sider på engelsk, bokmål og nynorsk, listet i [`.pa11yci.json`](https://github.com/MishMash-Norway/mishmash-web/blob/main/.pa11yci.json). En enkelt feil stopper sjekken.
 - HTML-validering: Nu HTML Checker validerer hver genererte side som HTML5.
 - Lenkesjekk: htmlproofer kontrollerer interne lenker i det bygde nettstedet.
 

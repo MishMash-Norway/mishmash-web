@@ -15,7 +15,8 @@ The centre's accessibility statement, [published at uustatus.no](https://uustatu
 - Menus, the language switch, search and the expandable sections work with a keyboard, and the element in focus is always visible.
 - The page language is declared, and the language switch marks the other language so screen readers pronounce it correctly.
 - Text and its background have a contrast of at least 7:1, and large text at least 4.5:1, which is level AAA of WCAG 2.1. Text can be enlarged to 200% without loss of content.
-- Pages reflow to a width of 320 pixels without horizontal scrolling.
+- Pages reflow to a width of 320 pixels without horizontal scrolling, and a line of running text is no wider than 80 characters.
+- Links, buttons and controls outside running text are at least 24 by 24 pixels, as WCAG 2.2 asks; many are smaller than the 44 by 44 of level AAA.
 - Images have text alternatives, links describe their target, and headings follow a logical order.
 - Charts on the results pulse page have a table alternative.
 
@@ -23,7 +24,7 @@ The centre's accessibility statement, [published at uustatus.no](https://uustatu
 
 Every change is checked in GitHub Actions before it is published. The [Web Quality Checks](https://github.com/MishMash-Norway/mishmash-web/actions/workflows/web-tests.yml) workflow includes:
 
-- Accessibility scan: [Pa11y CI](https://github.com/pa11y/pa11y-ci) runs both the axe-core and HTML CodeSniffer engines against WCAG 2.1 level AAA on a set of representative pages in both languages, listed in [`.pa11yci.json`](https://github.com/MishMash-Norway/mishmash-web/blob/main/.pa11yci.json). A single error fails the check.
+- Accessibility scan: [Pa11y CI](https://github.com/pa11y/pa11y-ci) runs both the axe-core and HTML CodeSniffer engines against WCAG 2.1 level AAA on a set of representative pages in English, Bokmål and Nynorsk, listed in [`.pa11yci.json`](https://github.com/MishMash-Norway/mishmash-web/blob/main/.pa11yci.json). A single error fails the check.
 - HTML validation: the Nu HTML Checker validates every generated page as HTML5.
 - Link checking: htmlproofer verifies internal links in the built site.
 
