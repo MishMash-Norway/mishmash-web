@@ -205,7 +205,7 @@
     var metaBox = el('details', { class: 'oc-box' }, [
       el('summary', { text: 'Technical facts, rights and quality checks' }),
       facts,
-      el('h3', { text: 'Quality checks', class: 'oc-box-h' }),
+      el('h2', { text: 'Quality checks', class: 'oc-box-h' }),
       el('p', { class: 'small muted', text: 'A subset of the EBU Tech 3363 checks, measured with ffmpeg filters. The one silence is eight seconds at 18:23, as the stage was set for the second performance. The black frames are at 1:08:56 and at the very end.' }),
       checks,
     ]);
@@ -237,12 +237,12 @@
     var advancedBox = el('details', { class: 'oc-box' }, [
       el('summary', { text: 'Advanced view: what the analysis holds' }),
       el('p', { class: 'small', text: 'The timeline above is a selection. The analysis carries ' + (data.research.tracks || []).length + ' measured tracks and ' + (data.research.tiers || []).length + ' layers of marks, each from a named tool, and the whole of it is in the JSON file this page reads.' }),
-      el('h3', { text: 'The recording as pictures', class: 'oc-box-h' }),
+      el('h2', { text: 'The recording as pictures', class: 'oc-box-h' }),
       pics,
-      el('h3', { text: 'Measured through the recording', class: 'oc-box-h' }),
+      el('h2', { text: 'Measured through the recording', class: 'oc-box-h' }),
       curveBox,
       tracks,
-      el('h3', { text: 'Marked on the recording', class: 'oc-box-h' }),
+      el('h2', { text: 'Marked on the recording', class: 'oc-box-h' }),
       tiers,
       el('p', { class: 'small muted' }, [
         document.createTextNode('The full analysis is in '),

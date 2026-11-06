@@ -1,6 +1,6 @@
 {
   "defaults": {
-    "standard": "WCAG2AA",
+    "standard": "WCAG2AAA",
     "runners": [
       "axe",
       "htmlcs"

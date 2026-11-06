@@ -17,7 +17,7 @@
 .oc-play:hover, .oc-play:focus-visible { outline: 3px solid var(--mm-purple, #6c4bd9); outline-offset: 2px; }
 .oc-play-mark { font-size: 1.3rem; margin-right: 0.5rem; }
 .oc-play-text { font-family: var(--mm-font-display); font-weight: var(--mm-display-weight); }
-.oc-play-note { display: block; margin-top: 0.3rem; font-size: 0.85rem; color: #4b555e; }
+.oc-play-note { display: block; margin-top: 0.3rem; font-size: 0.85rem; color: var(--mm-ink-70, #4d494a); }
 
 .oc-legend { display: flex; flex-wrap: wrap; gap: 0.9rem; margin: 0 0 0.4rem; }
 .oc-key { display: inline-flex; align-items: center; gap: 0.3rem; }
@@ -44,7 +44,7 @@
   padding: 0 0.4rem; font-family: var(--mm-font-display); font-size: 0.85rem; cursor: pointer;
 }
 .oc-jump:hover, .oc-jump:focus-visible { background: var(--mm-ink-10, #e6e4ee); }
-.oc-list-meta { color: #4b555e; font-size: 0.9rem; }
+.oc-list-meta { color: var(--mm-ink-70, #4d494a); font-size: 0.9rem; }
 
 .oc-cards { height: 10px; background: var(--mm-ink-10, #e6e4ee); }
 .oc-card { background: var(--mm-ink); width: 4px; }

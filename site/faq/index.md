@@ -505,7 +505,7 @@ The [AI colophon](/about/ai-colophon/) declares the practice in full, with live 
 <details class="faq-item" id="is-the-website-accessible" markdown="1">
 <summary><span class="faq-summary-text">Is the website accessible?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-The site is built to meet WCAG 2.1 level AA, as the Norwegian regulation on universal design of ICT requires, and every change is checked with two accessibility engines before it is published. The [accessibility page](/accessibility/) says what the site does, how it is checked, and what its known limitations are, and how to report a barrier.
+The site is built to meet WCAG 2.1 level AA, as the Norwegian regulation on universal design of ICT requires, and the automated checks hold it to level AAA where a machine can test it, such as a text contrast of 7:1. Every change is checked with two accessibility engines before it is published. The [accessibility page](/accessibility/) says what the site does, how it is checked, and what its known limitations are, and how to report a barrier.
 
 </details>
 

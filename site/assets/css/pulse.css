@@ -5,7 +5,7 @@
 }
 
 .pulse-meta {
-  color: #767676;
+  color: var(--mm-ink-70, #4d494a);
   font-size: 0.85rem;
   margin-bottom: 1.5rem;
 }
@@ -27,7 +27,7 @@
 
 .pulse-tile-label {
   font-size: 0.8rem;
-  color: #55606a;
+  color: var(--mm-ink-70, #4d494a);
   margin-bottom: 4px;
 }
 
@@ -70,7 +70,7 @@
 
 .pulse-card-sub {
   font-size: 0.8rem;
-  color: #767676;
+  color: var(--mm-ink-70, #4d494a);
   margin: 0 0 10px;
 }
 
@@ -109,7 +109,7 @@
   gap: 16px;
   align-items: center;
   font-size: 0.8rem;
-  color: #55606a;
+  color: var(--mm-ink-70, #4d494a);
   margin: 6px 0 2px;
 }
 
@@ -150,7 +150,7 @@
 
 .pulse-table summary {
   cursor: pointer;
-  color: #55606a;
+  color: var(--mm-ink-70, #4d494a);
   font-size: 0.8rem;
 }
 

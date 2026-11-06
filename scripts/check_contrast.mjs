@@ -10,7 +10,7 @@
 // browser actually paints, and works out the ratio. A target may carry a
 // `prepare` step: focus an element, open a <details>, or type a search.
 //
-// The threshold is the WCAG 2.1 AA one: 4.5:1 for text, and 3:1 for large text,
+// The threshold is the WCAG 2.1 AAA one by default: 7:1 for text, and 4.5:1 for large text,
 // which means 24px, or 18.66px when bold. An element whose background is
 // transparent takes the first painted background above it, which is what the
 // browser composites against.
@@ -163,7 +163,7 @@ async function main() {
   const args = process.argv.slice(2);
   const root = resolve(args.includes('--site') ? args[args.indexOf('--site') + 1] : '_site');
   const listOnly = args.includes('--list');
-  const levelName = args.includes('--level') ? args[args.indexOf('--level') + 1].toUpperCase() : 'AA';
+  const levelName = args.includes('--level') ? args[args.indexOf('--level') + 1].toUpperCase() : 'AAA';
   const level = LEVELS[levelName];
   if (!level) { console.error(`--level takes AA or AAA, not ${levelName}`); return 2; }
 

@@ -33,7 +33,7 @@ custom_css: /assets/css/chat.css
       </select>
       <button id="load-btn">Load model</button>
     </div>
-    <p style="font-size:0.85rem;color:#666;margin:0.3rem 0 0;">Sizes are approximate GPU memory requirements. The first load downloads the model (several minutes on a slow connection); later loads use the local cache. If your GPU lacks 16-bit shader support, a compatible variant is selected automatically.</p>
+    <p style="font-size:0.85rem;color:var(--mm-ink-70, #4d494a);margin:0.3rem 0 0;">Sizes are approximate GPU memory requirements. The first load downloads the model (several minutes on a slow connection); later loads use the local cache. If your GPU lacks 16-bit shader support, a compatible variant is selected automatically.</p>
     <div id="progress-container" style="display:none">
       <div id="progress-track"><div id="progress-fill"></div></div>
       <p id="progress-text"></p>
@@ -66,7 +66,7 @@ custom_css: /assets/css/chat.css
 
     <details id="debug-details" style="margin-top:0.5rem;">
       <summary style="cursor:pointer;font-weight:600;">Debug info</summary>
-      <pre id="debug-info" style="font-size:0.8rem;overflow-x:auto;background:rgba(127,127,127,0.08);padding:0.6rem;border-radius:6px;">Collecting diagnostics…</pre>
+      <pre id="debug-info" style="font-size:0.8rem;overflow-x:auto;background:#f5f5f5;padding:0.6rem;border-radius:6px;">Collecting diagnostics…</pre>
     </details>
   </div>
 

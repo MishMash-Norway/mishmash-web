@@ -507,7 +507,7 @@ Delvis, og åpent, noe som passer for et senter som forsker på kreativ bruk av 
 <details class="faq-item" id="is-the-website-accessible" markdown="1">
 <summary><span class="faq-summary-text">Er nettstedet universelt utformet?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Nettstedet er bygget for å oppfylle WCAG 2.1 nivå AA, slik forskriften om universell utforming av IKT krever, og hver endring sjekkes med to verktøy for tilgjengelighet før den publiseres. [Tilgjengelighetssiden](/no/accessibility/) forteller hva nettstedet gjør, hvordan det sjekkes, hvilke kjente begrensninger det har, og hvordan du melder fra om en barriere.
+Nettstedet er bygget for å oppfylle WCAG 2.1 nivå AA, slik forskriften om universell utforming av IKT krever, og de automatiske sjekkene holder det til nivå AAA der en maskin kan teste det, for eksempel en tekstkontrast på 7:1. Hver endring sjekkes med to verktøy for tilgjengelighet før den publiseres. [Tilgjengelighetssiden](/no/accessibility/) forteller hva nettstedet gjør, hvordan det sjekkes, hvilke kjente begrensninger det har, og hvordan du melder fra om en barriere.
 
 </details>
 

@@ -27,7 +27,7 @@
 }
 
 .n-link.hi {
-  stroke: #157878;
+  stroke: #0e5c5c;
   stroke-width: 2.5;
   stroke-opacity: 1;
 }
@@ -113,13 +113,13 @@
 }
 
 #net-tip .tt-inst {
-  color: #157878;
+  color: #0e5c5c;
   font-size: 11px;
   margin-top: 3px;
 }
 
 #net-tip .tt-wp {
-  color: #157878;
+  color: #0e5c5c;
   font-size: 11px;
   margin-top: 3px;
 }
@@ -202,7 +202,7 @@
 
 .net-cluster-count {
   width: 160px;
-  accent-color: #157878;
+  accent-color: #0e5c5c;
   border: 1px solid #ccc;
   border-radius: 999px;
   background: #fff;
@@ -265,14 +265,14 @@
 }
 
 .fbtn.active {
-  background: #157878;
+  background: #0e5c5c;
   color: #fff;
-  border-color: #157878;
+  border-color: #0e5c5c;
 }
 
 .fbtn:hover:not(.active) {
-  border-color: #157878;
-  color: #157878;
+  border-color: #0e5c5c;
+  color: #0e5c5c;
 }
 
 #net-legend {
@@ -314,7 +314,7 @@
   width: 28px;
   height: 28px;
   border: 1px solid #ccc;
-  background: rgba(255, 255, 255, 0.9);
+  background: #fff;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
@@ -360,7 +360,7 @@
 }
 
 #zoom-fullscreen.active {
-  background: #157878;
+  background: #0e5c5c;
   color: #fff;
-  border-color: #157878;
+  border-color: #0e5c5c;
 }

@@ -24,7 +24,7 @@
 }
 
 #webgpu-ok  { color: #2a7a2a; }
-#webgpu-err { color: #c00; }
+#webgpu-err { color: #a00000; }
 
 #model-row {
   display: flex;

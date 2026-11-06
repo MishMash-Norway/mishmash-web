@@ -1,6 +1,6 @@
 {
   "defaults": {
-    "standard": "WCAG2AA",
+    "standard": "WCAG2AAA",
     "runners": [
       "axe",
       "htmlcs"
@@ -31,7 +31,6 @@
     "http://127.0.0.1:4000/news/partner-news/",
     "http://127.0.0.1:4000/news/administrative-coordinator/",
     "http://127.0.0.1:4000/people/abdolrahim-tooranian/",
-    "http://127.0.0.1:4000/people/network/",
     "http://127.0.0.1:4000/institutions/aalborg-university/",
     "http://127.0.0.1:4000/projects/",
     "http://127.0.0.1:4000/projects/agency-and-control-in-musical-ensemble/",

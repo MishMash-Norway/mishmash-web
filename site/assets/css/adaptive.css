@@ -29,7 +29,7 @@ html:not([data-audience]) .adaptive:not([data-for~="{{ site.data.audiences.defau
   padding: 0.5rem 0.75rem;
   border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 8px;
-  background: rgba(154, 144, 207, 0.08);
+  background: #f7f6fb;
   font-size: 0.85rem;
 }
 

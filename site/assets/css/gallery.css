@@ -36,18 +36,18 @@
 
 .gallery-byline {
   font-size: 0.85rem;
-  color: #55606a;
+  color: var(--mm-ink-70, #4d494a);
   margin: 0 0 6px;
 }
 
 .gallery-desc {
   font-size: 0.85rem;
-  color: #55606a;
+  color: var(--mm-ink-70, #4d494a);
   margin: 0;
 }
 
 .gallery-note {
-  color: #767676;
+  color: var(--mm-ink-70, #4d494a);
   font-size: 0.85rem;
 }
 
@@ -100,12 +100,12 @@
 
 .exposition-abstract {
   font-size: 0.85rem;
-  color: #55606a;
+  color: var(--mm-ink-70, #4d494a);
   margin: 0 0 8px;
 }
 
 .exposition-meta {
   font-size: 0.78rem;
-  color: #767676;
+  color: var(--mm-ink-70, #4d494a);
   margin: 0;
 }

@@ -1514,7 +1514,7 @@ a:focus-visible .icon {
 }
 
 .page-about-privacy--green {
-  color: #1a7f37;
+  color: #0b5223;
 }
 
 .page-about-privacy--yellow {
@@ -1926,13 +1926,43 @@ video.mm-heritage-player {
 .highlight .nv,
 .highlight .nb,
 .highlight .bp {
-  color: #006060;
+  color: #005050;
 }
 
 .highlight .c,
 .highlight .c1,
 .highlight .cm,
 .highlight .cp {
+  color: var(--mm-ink-70);
+}
+
+/* The theme's code text, strings and numbers fall below the 7:1 of WCAG AAA
+   on the code background (#f3f6fa); these reach it. */
+pre,
+pre > code,
+.main-content pre,
+.main-content pre > code,
+.main-content code {
+  color: var(--mm-ink);
+}
+
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc,
+.highlight .sd, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx {
+  color: #9b1030;
+}
+
+.highlight .sr { color: #0b5d1e; }
+
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi,
+.highlight .mo, .highlight .mx, .highlight .il,
+.highlight .no, .highlight .vc, .highlight .vg, .highlight .vi {
+  color: #005050;
+}
+
+.highlight .kt, .highlight .nc { color: #2e3a63; }
+
+.highlight .nd, .highlight .nn, .highlight .gp, .highlight .go,
+.highlight .gh, .highlight .gu, .highlight .cs, .highlight .w {
   color: var(--mm-ink-70);
 }
 

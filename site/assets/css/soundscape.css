@@ -12,7 +12,7 @@
   align-items: center;
   gap: 8px;
   font-size: 0.9rem;
-  color: #55606a;
+  color: var(--mm-ink-70, #4d494a);
 }
 
 .scape-progress {
@@ -24,6 +24,6 @@
 .scape-now {
   min-height: 1.5em;
   font-size: 0.9rem;
-  color: #55606a;
+  color: var(--mm-ink-70, #4d494a);
   font-style: italic;
 }
