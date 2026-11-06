@@ -1,15 +1,11 @@
 ---
 layout: page
 title: "Seed Funding #3"
-sitemap: false
-noindex: true
 ---
-
-[Draft, not announced: this page is built but not linked from the seed funding page or listed in the sitemap. To publish, add it to the list of calls on /internal/funding/seed-funding/ and remove this notice, `sitemap: false` and `noindex: true`.]
 
 We are announcing the third call for MishMash seed funding. The funding is intended for projects linked to one or more of MishMash's seven work packages, with a particular focus on encouraging and enabling collaboration within the network.
 
-Application deadline: 15 January 2027, 13:00. [Submission form](https://nettskjema.no/a/seed03). [The form address is a guess following the pattern of #2; recommend creating the form in Nettskjema with the short name seed03, or give me the address.]
+Application deadline: 15 January 2027, 13:00. The submission form opens soon and will be linked here.
 
 Any funding must result in a publicly publishable report, blog post, article, code, dataset, artwork, or other research product, which can be featured and linked to through MishMash's communication channels. 
 
@@ -17,7 +13,7 @@ Please keep in mind that new opportunities will come up at regular intervals, so
 
 ### Funding and eligibility
 
-Each project can be supported with up to NOK 50,000. The project must be completed by 1 December 2027. [Recommend 1 December 2027, which keeps the end of the year as for #2 and gives about ten months after the allocation; or give another date.] Researchers from partner institutions listed on the MishMash web page are eligible to apply. You may apply for funding to cover, for instance:
+Each project can be supported with up to NOK 50,000. The project must be completed by 1 December 2027. Researchers from partner institutions listed on the MishMash web page are eligible to apply. You may apply for funding to cover, for instance:
 
 - Organisation of seminars or workshops
 - Master's scholarships, internships, and research assistant resources
@@ -46,7 +42,7 @@ All requested costs must be justified, proportionate, and directly linked to the
 
 ### About the application
 
-The application must be written in English and submitted via the designated [online form](https://nettskjema.no/a/seed03). It should contain a concise description (max 2 pages) of the initiative and a presentation of the applicant and any partners, including links to relevant websites or previous work. A simple budget and financial plan are required, with any combined amounts broken down to show the calculations, requested costs justified, and any in-kind contributions clearly described. The application must also specify a timeline and end date for the project (1 December 2027, at the latest, for this call).
+The application must be written in English and submitted via the online form linked at the top of this page. It should contain a concise description (max 2 pages) of the initiative and a presentation of the applicant and any partners, including links to relevant websites or previous work. A simple budget and financial plan are required, with any combined amounts broken down to show the calculations, requested costs justified, and any in-kind contributions clearly described. The application must also specify a timeline and end date for the project (1 December 2027, at the latest, for this call).
 
 ### Evaluation process and criteria
 
