@@ -9,7 +9,33 @@
 # against the institution's own pages, and put the date in `last_checked`.
 # A wrong local answer is worse than the category answer.
 
-last_checked: 2026-09-15
+last_checked: 2026-11-06
+
+# The centre's own projects, open to members whatever their institution.
+# Project numbers and allocation sizes stay off the page.
+centre_projects:
+  intro: >-
+    MishMash has projects of its own on Educloud Research at the University of
+    Oslo and on the national systems run by Sigma2. Members can be added to
+    them, which is often the quickest way to get started, and for members
+    whose own institution has nothing to offer it may be the only one. Write to
+    contact@mishmash.no and say which you need and what for.
+  outside_norway: >-
+    Members at partners outside Norway can be added too, if they can log in
+    through ID-porten with their own country's electronic ID (eIDAS).
+  services:
+    - name: Educloud Research
+      note: >-
+        A project workspace at the University of Oslo, with Windows and Linux
+        desktops, shared storage, and the Fox cluster with GPU nodes, including
+        notebooks and graphical applications in the browser through Educloud
+        on Demand. The platform is approved for data up to red (confidential).
+      url: https://www.uio.no/english/services/it/research/platforms/edu-research/
+    - name: Sigma2
+      note: >-
+        A project on the national computing and storage systems, for training
+        and other work too large for a workstation or a local cluster.
+      url: https://www.sigma2.no/
 
 # Shown on every panel, because it is true everywhere.
 universal_note: >-

@@ -398,7 +398,7 @@ These cover text and speech. Open Norwegian models for music, image, video and m
 <details class="faq-item" id="mishmash-compute-allocation" markdown="1">
 <summary><span class="faq-summary-text">Does MishMash have computing resources of its own?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Only on a small scale so far. MishMash has a project of its own at Sigma2, used to help researchers who need to get started quickly, and the centre is arranging for an IT specialist to help researchers across the consortium find the right resources. Write to [contact@mishmash.no](mailto:contact@mishmash.no) if you need this.
+Yes, on a small scale. MishMash has projects of its own on Educloud Research at the University of Oslo and on the national systems run by Sigma2, and members can be added to them, including members at partners outside Norway who can log in through ID-porten with their own country's electronic ID (eIDAS). The [computing page](/internal/compute/) says what each offers. The centre is arranging for an IT specialist to help researchers across the consortium find the right resources. Write to [contact@mishmash.no](mailto:contact@mishmash.no) if you need this.
 
 Beyond that, the centre is working on the structural problem behind these questions: that access in Norway depends on which institution you happen to sit in, and that artists, freelancers and cultural institutions have the least access to the tools they most need. If you have hit a wall we should know about, write to [contact@mishmash.no](mailto:contact@mishmash.no) and tell us what you could not get.
 

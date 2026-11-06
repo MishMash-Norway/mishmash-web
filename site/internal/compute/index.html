@@ -11,9 +11,25 @@ custom_css: /assets/css/compute.css
 
 <p>Pick your institution and this page tells you what you can use today, what you are eligible to apply for, and who to ask. The centre's Norwegian partners are in six quite different situations, and the answer really is different for a large university, an art academy, a museum and a company.</p>
 
-<p>The page covers Norwegian partners only. If you are at one of the centre's institutions outside Norway, use your own country's national provider, which will be faster and better supported for you than anything Norwegian; where a joint project needs Norwegian resources, it normally runs on the Norwegian partner's allocation, so ask your MishMash collaborator to add you to theirs.</p>
+<p>The page covers Norwegian partners only. If you are at one of the centre's institutions outside Norway, use your own country's national provider, which will be faster and better supported for you than anything Norwegian; where a joint project needs Norwegian resources, it normally runs on the Norwegian partner's allocation, so ask your MishMash collaborator to add you to theirs, or ask to join the centre's own projects below.</p>
 
 <p>Three resources sit behind most of the answers below. <a href="https://www.sigma2.no/">Sigma2</a> runs the national computing and storage services that the academic partners apply to. The <a href="https://www.naic.no/">Norwegian AI Cloud</a> adds capacity aimed at AI work and at training people to use it. Creative Computing Hub Oslo, built at the University of Oslo, is a low-entry platform for machine learning in creative practice, meant for freelancers and others without institutional computing resources. Alongside these, several partners run their own clusters and GPU workstations, which is where most real-time and interactive work belongs.</p>
+
+<h2>MishMash's own projects</h2>
+
+{% assign centre = access.centre_projects %}
+<p>{{ centre.intro | replace: "contact@mishmash.no", '<a href="mailto:contact@mishmash.no">contact@mishmash.no</a>' }}</p>
+
+<dl class="ca-services">
+  {% for service in centre.services %}
+    <dt><a href="{{ service.url }}">{{ service.name }}</a></dt>
+    <dd>{{ service.note }}</dd>
+  {% endfor %}
+</dl>
+
+<p>{{ centre.outside_norway }}</p>
+
+<h2>What your institution offers</h2>
 
 <p class="mm-help">Checked {{ access.last_checked }}. Facts about institutional services change; if something here is wrong or out of date, tell us at <a href="mailto:contact@mishmash.no">contact@mishmash.no</a> and we will fix it.</p>
 

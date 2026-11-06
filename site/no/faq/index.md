@@ -402,7 +402,7 @@ Disse dekker tekst og tale. Åpne norske modeller for musikk, bilde, video og be
 <details class="faq-item" id="mishmash-compute-allocation" markdown="1">
 <summary><span class="faq-summary-text">Har MishMash egen regnekraft?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Bare i liten skala så langt. MishMash har et eget prosjekt hos Sigma2, som brukes til å hjelpe forskere som trenger å komme raskt i gang, og senteret arbeider med å få en IT-spesialist som kan hjelpe forskere i hele konsortiet med å finne de riktige ressursene. Skriv til [contact@mishmash.no](mailto:contact@mishmash.no) hvis du trenger dette.
+Ja, i liten skala. MishMash har egne prosjekter i Educloud Research ved Universitetet i Oslo og på de nasjonale systemene til Sigma2, og medlemmer kan legges til i dem, også medlemmer ved partnere utenfor Norge som kan logge inn gjennom ID-porten med elektronisk ID fra sitt eget land (eIDAS). [Siden om regnekraft](/internal/compute/) forteller hva hvert av dem gir. Senteret arbeider med å få en IT-spesialist som kan hjelpe forskere i hele konsortiet med å finne de riktige ressursene. Skriv til [contact@mishmash.no](mailto:contact@mishmash.no) hvis du trenger dette.
 
 I tillegg arbeider senteret med det strukturelle problemet bak disse spørsmålene: at tilgangen i Norge avhenger av hvilken institusjon man tilfeldigvis sitter ved, og at kunstnere, frilansere og kulturinstitusjoner har minst tilgang til verktøyene de trenger mest. Har du støtt på en vegg vi bør vite om, skriv til [contact@mishmash.no](mailto:contact@mishmash.no) og fortell hva du ikke fikk.
 
