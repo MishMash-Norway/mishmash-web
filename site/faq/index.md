@@ -158,7 +158,6 @@ Yes, as a [MishMash master fellow](/vacancies/#master-fellowships). The fellowsh
 
 </details>
 
-
 <details class="faq-item" id="can-i-join-more-than-one-work-package" markdown="1">
 <summary><span class="faq-summary-text">Can I join more than one work package?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
@@ -412,7 +411,6 @@ MeshUps are short, weekly online events for sharing ongoing work and ideas. Duri
 They connect people across disciplines and institutions. Upcoming and past MeshUps are listed on the [events page](/events/).
 
 To receive meeting links and reminders, subscribe to the MeshUps announcement list or add MeshUps to your calendar from the events page. Use the "Subscribe (webcal)" link to add the calendar directly, or use "Download calendar (ICS)" if your mail client (for example Outlook) does not open webcal links.
-
 
 </details>
 
