@@ -30,7 +30,3 @@ Det vitenskapelige rådgivende rådet har ansvar for:
 - [Sebastian Risi](https://sebastianrisi.com/) (Prof. creative AI, IT University of Copenhagen, Denmark)
 - [Xavier Serra](https://www.upf.edu/web/xavier-serra) (Prof. music technology, Universitat Pompeu Fabra, Spain)
 - [Zhang Qian](https://mra.cuc.edu.cn/yy/2023/0428/c9672a206535/page.htm) (Prof. music and recording art, Communication University of China, China)
-
-## Dokumenter
-
-Relevante dokumenter og rapporter fra det vitenskapelige rådgivende rådet finnes her.

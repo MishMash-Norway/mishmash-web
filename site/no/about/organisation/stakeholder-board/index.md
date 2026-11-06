@@ -19,7 +19,3 @@ Interessentrådet har ansvar for:
 ## Medlemmer
 
 Medlemmer kommer.
-
-## Dokumenter
-
-Relevante dokumenter og møtenotater fra interessentrådet finnes her.

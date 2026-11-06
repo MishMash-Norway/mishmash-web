@@ -19,7 +19,3 @@ The Stakeholder Board is responsible for:
 ## Members
 
 Members to be confirmed.
-
-## Documents
-
-Relevant stakeholder board documents and meeting notes can be found here.

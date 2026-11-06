@@ -30,7 +30,3 @@ The Scientific Advisory Board is responsible for:
 - [Sebastian Risi](https://sebastianrisi.com/) (Prof. creative AI, IT University of Copenhagen, Denmark)
 - [Xavier Serra](https://www.upf.edu/web/xavier-serra) (Prof. music technology, Universitat Pompeu Fabra, Spain)
 - [Zhang Qian](https://mra.cuc.edu.cn/yy/2023/0428/c9672a206535/page.htm) (Prof. music and recording art, Communication University of China, China)
-
-## Documents
-
-Relevant scientific advisory board documents and reports can be found here.
