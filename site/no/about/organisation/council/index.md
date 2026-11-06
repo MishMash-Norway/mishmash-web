@@ -42,5 +42,3 @@ Rådet har ansvar for:
 ### Rådsmøter
 
 {% include council_meetings.html %}
-
-Relevante rådsdokumenter og møtenotater finnes her.

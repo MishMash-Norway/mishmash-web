@@ -1,11 +1,25 @@
-{% comment %}Render council meeting pages from about/organisation/council/meetings/, newest first{% endcomment %}
+{% comment %}Render council meeting pages from about/organisation/council/meetings/, newest first. The minutes are written in Bokmål, and every language lists them; the English and Nynorsk council pages say so in the link text.{% endcomment %}
+{% assign current_lang = page.lang | default: 'en' %}
+{% if current_lang == 'nb' %}
+  {% assign row_label = 'Innkalling og protokoll' %}
+  {% assign date_label = 'Dato' %}
+  {% assign none_label = 'Ingen rådsmøtedokumenter er publisert ennå.' %}
+{% elsif current_lang == 'nn' %}
+  {% assign row_label = 'Innkalling og protokoll (på bokmål)' %}
+  {% assign date_label = 'Dato' %}
+  {% assign none_label = 'Ingen rådsmøtedokument er publiserte enno.' %}
+{% else %}
+  {% assign row_label = 'Agenda and minutes (in Norwegian)' %}
+  {% assign date_label = 'Date' %}
+  {% assign none_label = 'No council meeting documents have been published yet.' %}
+{% endif %}
 {% assign meetings = site.pages | where_exp: 'item', "item.path contains 'about/organisation/council/meetings/'" | where: 'name', 'index.md' | sort: 'url' | reverse %}
 {% if meetings and meetings.size > 0 %}
 <table>
   <thead>
     <tr>
-      <th>Date</th>
-      <th>Agenda and Protocol</th>
+      <th>{{ date_label }}</th>
+      <th>{{ row_label }}</th>
     </tr>
   </thead>
   <tbody>
@@ -15,12 +29,12 @@
     {% assign meeting_folder = meeting_path_parts[5] %}
     <tr>
       <td>{{ meeting.meeting_date | default: meeting_folder }}</td>
-      <td><a href="{{ meeting.url | relative_url }}">Agenda and Protocol</a></td>
+      <td><a href="{{ meeting.url | relative_url }}" hreflang="nb">{{ row_label }}</a></td>
     </tr>
     {% endunless %}
     {% endfor %}
   </tbody>
 </table>
 {% else %}
-*No council meeting documents have been published yet.*
+*{{ none_label }}*
 {% endif %}

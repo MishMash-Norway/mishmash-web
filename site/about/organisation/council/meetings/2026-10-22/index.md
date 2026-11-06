@@ -1,5 +1,6 @@
 ---
 layout: meeting
+lang: nb
 title: "MishMash rådsmøte #2"
 meeting_title: "MishMash rådsmøte #2"
 meeting_date: "22 October 2026"
