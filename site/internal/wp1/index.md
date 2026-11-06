@@ -23,7 +23,7 @@ These short meetings are intended as an informal space for updates and for stayi
 
 #### Webinar / Labinar: 1-hour online meetings, Fridays 1000-1100 (zoom)
 - 25.09 [Labinar #01: MishMash Playground with NMH and ANU](/events/wp1-labinar01/)
-- 13.11: [Labinar #02: Flytpunkt with Victoria Johnson and Anders Tveit](/events/wp1-labinar02/)
+- 13.11: [Labinar #02: Flytpunkt with Victoria Johnson and Anders Tveit](/events/wp1-labinar02/)  ([zoom](https://uio.zoom.us/j/66027366515?pwd=kHWceR2Tsjmeeuy1tCWUSdqDB5yqp3.1))
 - 11.12: TBA
 
 #### Activities with physical presence
