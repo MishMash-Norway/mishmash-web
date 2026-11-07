@@ -68,6 +68,24 @@ search_keywords:
 - Listening
 - Contemporary Art
 selected_works:
+- title: SOUND/IMAGE 2026 Festival – Concert 1
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  url: https://blogs.gre.ac.uk/sound-image/festivals/soundimagefestival/sound-image-2026-festival/sound-image-2026-festival-concert-1/
+  contributors:
+  - name: Trond Lossius
+    role: Composer
+    slug: trond-lossius
+    url: /people/trond-lossius/
+  - name: Bjarne Kvinnsland
+    role: Composer
+  - name: David Rothenberg
+    role: Composer
+  - name: Aaron Einbond
+    role: Composer
+  - name: Emanuele Costantini
+    role: Composer
 - title: Reimagining Immersive Art for Living Rooms
   year: '2026'
   source: Conference poster
@@ -200,15 +218,6 @@ selected_works:
     role: AudioVisualContributor
   - name: Stein Tore Sønsteli
     role: CollaborationPartner
-- title: Lento o Tempo Muda em Poço do Canto / Slow Time Change in Poço do Canto
-  year: '2024'
-  source: Non-fiction chapter
-  group_type: Non-fiction chapter
-  contributors:
-  - name: Trond Lossius
-    role: Creator
-    slug: trond-lossius
-    url: /people/trond-lossius/
 source_mentions: []
 summary: "Trond Lossius is a sound and installation artist based in Bergen, Norway.\
   \ His projects investigate sound, place and space, using sound spatialisation and\
