@@ -50,7 +50,7 @@ site/_data/translations_nn.yml
 site/_data/nynorsk_status.yml
 .nynorsk-cache/
 
-# Internal plans, kept local (see plans/README.md)
+# Internal plans live outside the repository; ignored here as a safeguard
 plans/
 site/_data/language_share.yml
 
