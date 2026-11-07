@@ -5,7 +5,7 @@ title: "Seed Funding #3"
 
 We are announcing the third call for MishMash seed funding. The funding is intended for projects linked to one or more of MishMash's seven work packages, with a particular focus on encouraging and enabling collaboration within the network. New calls come at regular intervals, so there is no need to rush to apply this time around.
 
-- Deadline: 15 January 2027, 13:00. The submission form opens soon and will be linked here.
+- Deadline: 15 January 2027, 13:00. [Submission form](https://nettskjema.no/a/635737).
 - Amount: up to NOK 50,000 per project.
 - Project end: 1 December 2027 at the latest.
 - Decision: applicants are notified by 15 February 2027, leaving time to prepare contributions for the conference in April.
@@ -52,7 +52,7 @@ The budget must describe the in-kind contributions from the applicant and partne
 
 Contact the most relevant [Work Package Leader](/about/organisation/wp-leaders/) before submitting, to discuss the idea and how it fits the work package.
 
-The application is written in English and submitted through the online form linked at the top of this page. It contains:
+The application is written in English and submitted through the [online form](https://nettskjema.no/a/635737). It contains:
 
 - A concise description of the initiative, at most two pages.
 - A presentation of the applicant and any partners, with links to relevant websites or previous work.
