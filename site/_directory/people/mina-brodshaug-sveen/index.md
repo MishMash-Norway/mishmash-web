@@ -10,7 +10,8 @@ institutions:
 - university-of-inland-norway
 wps:
 - WP4
-projects: []
+projects:
+- scoping-review-creative-ai-teaching-learning
 roles:
 - Member
 urls:
