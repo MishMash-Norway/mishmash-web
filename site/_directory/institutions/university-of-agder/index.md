@@ -13,12 +13,10 @@ image: /images/institutions/university-of-agder.svg
 people:
 - arstein-justnes
 - ase-ava-fredheim
-- baltasar-beferull-lozano
 - daniel-nordgard
 - eirik-sorbo
 - fabio-sabetta-morales
 - ivar-grydeland
-- jon-marius-aareskjold-drecker
 - maria-hareide
 - marit-wergeland
 - murtaza-mohiqi

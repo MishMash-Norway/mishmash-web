@@ -12,7 +12,6 @@ short_name: BI
 image: /images/institutions/bi-norwegian-business-school.svg
 people:
 - anne-britt-gran
-- baltasar-beferull-lozano
 - irina-eidsvold
 - lyuba-boncheva
 - peter-booth

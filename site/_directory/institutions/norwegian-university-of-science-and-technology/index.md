@@ -19,7 +19,6 @@ people:
 - govert-valkenburg
 - hilda-deborah
 - jacqueline-rowley
-- jens-knigge
 - katherine-butcher
 - njal-olnes
 - oyvind-brandtsegg
