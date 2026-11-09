@@ -10,7 +10,6 @@ institution: arctic-university-of-norway
 institutions:
 - arctic-university-of-norway
 - university-of-oslo
-- university-of-agder
 locked_fields:
 - institution
 - institutions
@@ -27,9 +26,6 @@ nva_affiliations:
 - role: Senior lecturer
   unit: Department of Musicology
   institution: university-of-oslo
-- role: Associate professor
-  unit: Department of Popular Music
-  institution: university-of-agder
 projects:
 - evaluation-cultural-bias-workflow-ai-music-generation
 other_projects:
