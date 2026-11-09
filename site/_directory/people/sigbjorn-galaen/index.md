@@ -38,6 +38,16 @@ search_keywords:
 - Visual Education
 - Visualising in Akademia
 selected_works:
+- title: '"The Penalty" - MishMash Opening Conference video contribution'
+  year: '2026'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://mishmash.no/events/kristiansand2026/
+  contributors:
+  - name: Sigbjørn Galåen
+    role: Artist
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
 - title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard
     Media Production Workflows
   year: '2026'

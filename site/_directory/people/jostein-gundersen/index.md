@@ -81,6 +81,40 @@ selected_works:
     role: RoleOther
   - name: Thomas Wolden
     role: RoleOther
+- title: Temporal Gardening
+  year: '2023'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Stephan Meidell
+    role: Composer
+  - name: Hans Knut Sveen
+    role: Musician
+  - name: Jostein Gundersen
+    role: Musician
+    slug: jostein-gundersen
+    url: /people/jostein-gundersen/
+  - name: Siri Hilmen
+    role: Musician
+- title: Map ethics! A Method for identifying and addressing ethical dimensions of
+    artistic research projects
+  year: '2021'
+  source: Non-fiction chapter
+  group_type: Non-fiction chapter
+  url: https://advancingsupervision.eu/3d-flip-book/undoing-supervision-a-compendium-of-key-issues-in-supervising-artistic-research-doctorates/
+  contributors:
+  - name: Jostein Gundersen
+    role: Creator
+    slug: jostein-gundersen
+    url: /people/jostein-gundersen/
+  - name: Aslaug Nyrnes
+    role: Creator
+  - name: Nina Malterud
+    role: Creator
+  - name: Anne-Helen Mydland
+    role: Creator
+  - name: Hans Knut Sveen
+    role: Creator
 - title: Samspill mellom høyere musikkutdanning og kunstnerisk utviklingsarbeid
   year: '2021'
   source: Non-fiction chapter
@@ -165,16 +199,6 @@ selected_works:
   source: PhD thesis
   group_type: PhD thesis
   url: http://www.uib.no/info/dr_grad/2010/Gundersen_Jostein.html
-  contributors:
-  - name: Jostein Gundersen
-    role: Creator
-    slug: jostein-gundersen
-    url: /people/jostein-gundersen/
-- title: Improvisasjon over flerstemt musikk fra 1350-1700
-  year: '2009'
-  source: PhD thesis
-  group_type: PhD thesis
-  url: http://www.uib.no/info/dr_grad/2009/Gundersen_Jostein.html
   contributors:
   - name: Jostein Gundersen
     role: Creator
