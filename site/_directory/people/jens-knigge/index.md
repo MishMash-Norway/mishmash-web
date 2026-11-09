@@ -7,11 +7,14 @@ title: Jens Knigge
 position: Professor ii
 department: Fagseksjon for musikkpedagogikk og musikkterapi
 image: /assets/images/portraits/Jens_Knigge_NTNU.jpg
-institution: norwegian-academy-of-music
+institution: nord-university
 institutions:
 - nord-university
 - norwegian-academy-of-music
 - norwegian-university-of-science-and-technology
+locked_fields:
+- institution
+- institutions
 nva_affiliations:
 - role: Professor ii
   unit: Fagseksjon for musikkpedagogikk og musikkterapi

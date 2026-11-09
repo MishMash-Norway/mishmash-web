@@ -6,11 +6,13 @@ title: Baltasar Beferull-Lozano
 position: Professor ii
 department: Department of Data Science and Analytics
 image: /assets/images/portraits/Baltasar_Beferull_Simula.jpg
-institution: bi-norwegian-business-school
+institution: simula-metropolitan-center-for-digital-engineering
 institutions:
-- bi-norwegian-business-school
 - simula-metropolitan-center-for-digital-engineering
 - university-of-agder
+locked_fields:
+- institution
+- institutions
 affiliation_units:
 - University of Agder
 - Faculty of Engineering and Science

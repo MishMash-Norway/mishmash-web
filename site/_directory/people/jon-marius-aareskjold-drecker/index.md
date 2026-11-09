@@ -6,11 +6,14 @@ title: Jon Marius Aareskjold-Drecker
 position: Senior lecturer
 department: Department of Musicology
 image: /assets/images/portraits/Jon_Marius_Aareskjold-Drecker_UiT.jpg
-institution: university-of-oslo
+institution: arctic-university-of-norway
 institutions:
 - arctic-university-of-norway
-- university-of-agder
 - university-of-oslo
+- university-of-agder
+locked_fields:
+- institution
+- institutions
 affiliation_units:
 - University of Oslo
 - Faculty of Humanities
