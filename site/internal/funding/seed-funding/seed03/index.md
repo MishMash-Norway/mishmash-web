@@ -5,16 +5,16 @@ title: "Seed Funding #3"
 
 We are announcing the third call for MishMash seed funding. The funding is intended for projects linked to one or more of MishMash's seven work packages, with a particular focus on encouraging and enabling collaboration within the network. New calls come at regular intervals, so there is no need to rush to apply this time around.
 
-- Deadline: 15 January 2027, 13:00. [Submission form](https://nettskjema.no/a/635737).
-- Amount: up to NOK 50,000 per project.
-- Project end: 1 December 2027 at the latest.
-- Decision: applicants are notified by 15 February 2027, leaving time to prepare contributions for the conference in April.
+- Deadline: 15 January 2027, 13:00. [Submission form](https://nettskjema.no/a/635737)
+- Amount: up to NOK 50,000 per project
+- Project end: 1 December 2027 at the latest
+- Decision: applicants are notified by 15 February 2027
 
 ## What the funding is for
 
-The funding supports new projects and collaborations in the MishMash network. It can also be used to develop a contribution to the [MishMash conference](/events/kristiania2027/) at Kristiania University of Applied Sciences, 13–14 April 2027, for instance a talk, demonstration, performance or installation, and the costs of producing it are eligible.
+The funding supports new projects and collaborations in the MishMash network. Every project must result in something that can be published and featured through MishMash's communication channels: a report, blog post, article, code, dataset, artwork, teaching material or open educational resource, or another research product.
 
-Every project must result in something that can be published and featured through MishMash's communication channels: a report, blog post, article, code, dataset, artwork, teaching material or open educational resource, or another research product.
+Funding can be used to support contributions to the [MishMash conference](/events/kristiania2027/), for instance a talk, demonstration, performance or installation, and the costs of producing it.
 
 ## Who can apply
 
@@ -30,20 +30,20 @@ All requested costs must be justified, proportionate and directly linked to the 
 
 The funding can cover, for instance:
 
-- Organisation of seminars or workshops, normally in a hybrid format to ensure broad and inclusive participation.
+- Organisation of seminars or workshops, preferably in a hybrid format to ensure broad and inclusive participation.
 - Master's scholarships, internships and research assistants.
-- Travel for partners and guest lecturers. Keep travel moderate, and choose environmentally friendly options.
+- Travel for partners and guest lecturers. Keep travel moderate, and choose environmentally friendly options when possible.
 - Production costs, materials, technical assistance and documentation.
 - Fees for external artists and other professional collaborators who are not employed by a MishMash partner, at normal rates for the field.
 - Fees for contributors who are not MishMash members, such as participants in experiments or artists in recordings, when they are necessary for the project, particularly when they come from outside academia.
-- Staff time at non-research partners in the public and cultural sectors, such as schools and municipal schools of music and performing arts, where it is necessary for the project, for instance to pay for a substitute teacher.
+- Staff time at non-research partners in the public and cultural sectors, such as schools, where it is necessary for the project, for instance to pay for a substitute teacher.
 
 These are covered only when clearly justified:
 
 - Licences and tokens, and then preferably network or site licences that can benefit many or all MishMash partners.
 - Equipment.
 - Fees for international collaborators to take part in project events.
-- Participation in external conferences, when it is core to the project's goals. Applicants are then encouraged to consider MishMash's visibility and representation at the event.
+- Participation in external conferences. Applicants are then encouraged to consider MishMash's visibility and representation at the event.
 - Subsistence, which is generally not eligible; modest expenses directly linked to a seminar or workshop, such as canteen-style lunches, may be accepted.
 
 The budget must describe the in-kind contributions from the applicant and partners. Granted funds may generally not be reallocated: the grant is earmarked for the project as described in the application and budget, including any conditions in the decision letter.
@@ -52,7 +52,7 @@ The budget must describe the in-kind contributions from the applicant and partne
 
 Contact the most relevant [Work Package Leader](/about/organisation/wp-leaders/) before submitting, to discuss the idea and how it fits the work package.
 
-The application is written in English and submitted through the [online form](https://nettskjema.no/a/635737). It contains:
+The application should be written in English and submitted through the [online form](https://nettskjema.no/a/635737). It should contain:
 
 - A concise description of the initiative, at most two pages.
 - A presentation of the applicant and any partners, with links to relevant websites or previous work.
