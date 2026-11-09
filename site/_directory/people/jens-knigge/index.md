@@ -11,17 +11,17 @@ institution: nord-university
 institutions:
 - nord-university
 - norwegian-academy-of-music
-- norwegian-university-of-science-and-technology
 locked_fields:
 - institution
 - institutions
+- nva_affiliations
 nva_affiliations:
-- role: Professor ii
-  unit: Fagseksjon for musikkpedagogikk og musikkterapi
-  institution: norwegian-academy-of-music
 - role: Professor
   unit: Faculty of Education and Arts
   institution: nord-university
+- role: Professor ii
+  unit: Fagseksjon for musikkpedagogikk og musikkterapi
+  institution: norwegian-academy-of-music
 projects:
 - scoping-review-creative-ai-teaching-learning
 other_projects:

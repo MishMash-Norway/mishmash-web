@@ -3,27 +3,21 @@ type: person
 slug: baltasar-beferull-lozano
 name: Baltasar Beferull-Lozano
 title: Baltasar Beferull-Lozano
-position: Professor ii
-department: Department of Data Science and Analytics
+position: Chief Research Scientist
 image: /assets/images/portraits/Baltasar_Beferull_Simula.jpg
 institution: simula-metropolitan-center-for-digital-engineering
 institutions:
 - simula-metropolitan-center-for-digital-engineering
-- university-of-agder
 locked_fields:
 - institution
 - institutions
+- position
+- department
+- affiliation_units
+- nva_affiliations
 affiliation_units:
-- University of Agder
-- Faculty of Engineering and Science
-- Department of Information and Communication Technology (ICT)
+- Simula Metropolitan Center for Digital Engineering
 nva_affiliations:
-- role: Professor ii
-  unit: Department of Data Science and Analytics
-  institution: bi-norwegian-business-school
-- role: Professor
-  unit: Department of Information and Communication Technology (ICT)
-  institution: university-of-agder
 - role: Chief Research Scientist
   unit: Simula Metropolitan Center for Digital Engineering
   institution: simula-metropolitan-center-for-digital-engineering

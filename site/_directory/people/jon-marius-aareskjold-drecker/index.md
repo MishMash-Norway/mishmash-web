@@ -14,18 +14,19 @@ institutions:
 locked_fields:
 - institution
 - institutions
+- nva_affiliations
 affiliation_units:
 - University of Oslo
 - Faculty of Humanities
 - Department of Musicology
 - IMV stab
 nva_affiliations:
-- role: Senior lecturer
-  unit: Department of Musicology
-  institution: university-of-oslo
 - role: Associate professor
   unit: Academy of Music
   institution: arctic-university-of-norway
+- role: Senior lecturer
+  unit: Department of Musicology
+  institution: university-of-oslo
 - role: Associate professor
   unit: Department of Popular Music
   institution: university-of-agder
