@@ -40,14 +40,11 @@ The funding can cover, for instance:
 
 These are covered only when clearly justified:
 
+- Licences and tokens, and then preferably network or site licences that can benefit many or all MishMash partners.
 - Equipment.
 - Fees for international collaborators to take part in project events.
 - Participation in external conferences, when it is core to the project's goals. Applicants are then encouraged to consider MishMash's visibility and representation at the event.
 - Subsistence, which is generally not eligible; modest expenses directly linked to a seminar or workshop, such as canteen-style lunches, may be accepted.
-
-Not covered:
-
-- Computing and software licences, including GPU or cloud hours, AI subscriptions and tokens. Following the discussions in the Council on 22 October 2026 and the Board on 3 November 2026, the centre works instead for shared, national access to computing: the resources exist in Norway, but access and know-how are missing. Members who need computing for a project can use the MishMash project on Sigma2 and get help to start; see [computing](/internal/compute/) or write to [contact@mishmash.no](mailto:contact@mishmash.no).
 
 The budget must describe the in-kind contributions from the applicant and partners. Granted funds may generally not be reallocated: the grant is earmarked for the project as described in the application and budget, including any conditions in the decision letter.
 
