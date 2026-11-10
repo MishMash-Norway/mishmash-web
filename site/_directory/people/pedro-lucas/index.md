@@ -7,7 +7,15 @@ position: Researcher
 department: Department for Informatics
 institution: university-of-oslo
 institutions:
+- oslo-metropolitan-university
 - university-of-oslo
+nva_affiliations:
+- role: Researcher
+  unit: Department for Informatics
+  institution: university-of-oslo
+- role: Professor
+  unit: Faculty of Technology, Art and Design
+  institution: oslo-metropolitan-university
 projects: []
 other_projects:
 - title: '(ROBOWELL) ROBOts as Welfare Technologies and Actors for ELderLy Care: A

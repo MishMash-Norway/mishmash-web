@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: jens-knigge
 name: Jens Knigge
@@ -11,10 +10,6 @@ institution: nord-university
 institutions:
 - nord-university
 - norwegian-academy-of-music
-locked_fields:
-- institution
-- institutions
-- nva_affiliations
 nva_affiliations:
 - role: Professor
   unit: Faculty of Education and Arts
@@ -220,6 +215,11 @@ selected_works:
     url: /people/jens-knigge/
 source_mentions: []
 summary: ''
+layout: person
+locked_fields:
+- institution
+- institutions
+- nva_affiliations
 wps:
 - WP4
 permalink: /people/jens-knigge/

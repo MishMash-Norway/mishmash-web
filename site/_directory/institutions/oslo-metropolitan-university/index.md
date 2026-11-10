@@ -14,6 +14,7 @@ people:
 - ingrid-m-tolstad
 - jana-verena-gerhart
 - maria-lokna
+- pedro-lucas
 projects:
 - digital-twins-of-textile-heritage
 country: Norway

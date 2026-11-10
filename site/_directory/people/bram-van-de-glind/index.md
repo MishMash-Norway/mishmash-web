@@ -32,6 +32,21 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Handling waste in the cloud versus handling waste on the ground: a life
+    cycle assessment of smart waste collection systems'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1016/j.cesys.2026.100438
+  contributors:
+  - name: Irmeline de Sadeleer
+    role: Creator
+  - name: Bram van de Glind
+    role: Creator
+    slug: bram-van-de-glind
+    url: /people/bram-van-de-glind/
+  - name: John Baxter
+    role: Creator
 - title: Faktaark om matsvinn i mat- og serveringsbransjen 2024
   year: '2025'
   source: Research report

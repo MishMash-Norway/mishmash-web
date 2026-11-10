@@ -3,10 +3,11 @@ type: person
 slug: susanne-o-saether
 name: Susanne Østby Sæther
 title: Susanne Østby Sæther
-position: ''
-department: ''
-institution: ''
-institutions: []
+position: Head of Section
+department: Avdeling Samling
+institution: national-museum-of-norway
+institutions:
+- national-museum-of-norway
 projects:
 - ai-as-environment
 other_projects:

@@ -10,6 +10,7 @@ description: The National Museum holds the Norwegian state's public collection o
   art, architecture and design.
 short_name: Nasjonalmuseet
 people:
+- susanne-o-saether
 - tord-nilsen
 projects: []
 country: Norway

@@ -1,4 +1,4 @@
-synced_at: '2026-11-09T13:59:57Z'
+synced_at: '2026-11-10T13:32:05Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -991,6 +991,46 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
   url: https://doi.org/10.5281/ZENODO.22643770
   nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+- title: 'Verden i dag og verden i morgen: menneskets kreative potensiale i lys av
+    KI'
+  year: '2026'
+  type: ConferenceLecture
+  type_label: Conference lecture
+  group_type: Conference
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: 'Verden i dag og verden i morgen: menneskets kreative potensiale i lys
+      av KI'
+    container: Kultur- og skolekonferansen 2026.
+    details: Oslo.
+    abstract: 'Kunstig intelligens (KI) er ikke én ting, og den er ikke ny. Musikk
+      har vært med i utviklingen av KI siden de første datamaskinene, og dagens modeller
+      er først og fremst blitt gode til å lage produkter: en låt, et bilde, en tekst.
+      Det nye er skalaen og de kommersielle kreftene bak, og det gir grunn til å være
+      kritisk, men ikke til å være imot. I dette innlegget argumenterer jeg for at
+      det er nettopp derfor de praktiske og estetiske fagene blir viktigere, ikke
+      mindre viktige, i fremtidens skole. Musikk er først og fremst en prosess, ikke
+      et produkt: å skape, å utøve, å oppleve og å forstå. Med eksempler fra egen
+      undervisning viser jeg hvordan KI kan brukes til det som kan gjøres utenfor
+      timen, slik at timen kan brukes til det bare mennesker kan gjøre sammen: å lytte,
+      synge, bygge og diskutere.'
+    full_text_url: https://hdl.handle.net/11250/5596674
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1c25a3bd2-e90c1981-0bee-43ed-8709-ea6e354200f7
+  nva_url: https://nva.sikt.no/registration/01a1c25a3bd2-e90c1981-0bee-43ed-8709-ea6e354200f7
 - title: 'AI Ecologies: Thoughts on Photography in an AI Universe'
   year: '2026'
   type: ConferenceLecture
@@ -6097,6 +6137,178 @@ results:
     nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
   url: https://doi.org/10.1093/mts/mtab013
   nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+- title: Hva er inni maskinen? KI-teknologi, musikk og opphavsrett
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Hva er inni maskinen? KI-teknologi, musikk og opphavsrett
+    container: Gjesteforelesning i emnet ELE3804, Handelshøyskolen BI, Nydalen, rom
+      B2-070.
+    details: Oslo.
+    abstract: Hva skjer egentlig når en maskin lærer av musikk? I denne forelesningen
+      introduserer jeg MishMash Senter for KI og kreativitet. Deretter vil jeg forklare
+      hvordan generativ kunstig intelligens (KI) virker og gir eksempler på ulike
+      interaktive musikksystemer som utfordrer gjeldende ideer om åndsverk og opphavsrett.
+    full_text_url: https://hdl.handle.net/11250/5596670
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1c25a4018-79425883-33c2-4ba9-80a1-b51845d57dae
+  nva_url: https://nva.sikt.no/registration/01a1c25a4018-79425883-33c2-4ba9-80a1-b51845d57dae
+- title: KI og opphavsrett
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: KI og opphavsrett
+    container: Rundebord mellom norske KI-sentre og statsrådene.
+    details: Oslo.
+    abstract: 'Innledning fra MishMash senter for KI og kreativitet ved rundebordet
+      mellom de nasjonale KI-sentrene og statsrådene. Hovedbudskapet var at opphavsretten
+      ikke er ivaretatt i dagens KI-modeller, og at det trengs løsninger i tillegg
+      til regulering. Norge har det som skal til for en kulturell månelanding: en
+      norsk multimodal modell trent på Nasjonalbibliotekets samlinger, med sporbarhet
+      fra første dag og betaling til dem som har laget det modellen lærer av.'
+    full_text_url: https://hdl.handle.net/11250/5596671
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1c25a3f35-f86beada-bfa3-48d0-ac7c-74f812a59a95
+  nva_url: https://nva.sikt.no/registration/01a1c25a3f35-f86beada-bfa3-48d0-ac7c-74f812a59a95
+- title: Utfordringer ved å jobbe på tvers
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Utfordringer ved å jobbe på tvers
+    container: Forskningspolitisk seminar 2026.
+    details: Oslo.
+    abstract: Takketale ved utdelingen av Forskerforbundets hjernekraftpris 2026.
+      Jeg fokuserte på utfordringene ved å jobbe på tvers av fag, fakulteter og institusjoner,
+      men også mulighetene dette leder til.
+    full_text_url: https://hdl.handle.net/11250/5596672
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1c25a3e33-eb3348ec-d2ca-4a0a-bf05-cda9ea8a44c6
+  nva_url: https://nva.sikt.no/registration/01a1c25a3e33-eb3348ec-d2ca-4a0a-bf05-cda9ea8a44c6
+- title: Musicking Technology
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Musicking Technology
+    container: Oslo World 2026.
+    details: Oslo.
+    abstract: 'We are used to thinking about music as a product: a record, a file,
+      a track in a playlist, something that can be bought, sold and owned. The word
+      musicking, coined by Christopher Small, frees us from that and turns music into
+      something we do. In this short talk, I use the musicking quadrant from my book
+      Sound Actions to sort the ways we take part in music: creating, performing,
+      experiencing and understanding, linked in a cycle where each feeds the others.
+      Seen as a process, musicking brings other things into focus: we make music with
+      the whole body, we make sense of music by acting, we do it together, in time
+      with each other, and it binds us together. Technology, including artificial
+      intelligence, can close corners of the quadrant or open them. The task is to
+      build technologies for both body and mind that open them, so that more people
+      can take part in all four.'
+    full_text_url: https://hdl.handle.net/11250/5596673
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1c25a3cc8-56c5e2c2-f086-4578-9915-5c24b2d7c5a1
+  nva_url: https://nva.sikt.no/registration/01a1c25a3cc8-56c5e2c2-f086-4578-9915-5c24b2d7c5a1
+- title: The effects of EDM on people trying to move and not to move to music
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: The effects of EDM on people trying to move and not to move to music
+    container: 'Science of the Dancefloor: Workshop on Electronic Dance Music Research.'
+    details: Online.
+    abstract: How much does electronic dance music (EDM) move a body that is trying
+      not to move, and how much does it move one that is free to? For fifteen years
+      we have measured the head motion of people standing still to music, mostly EDM,
+      in seven Norwegian Championships of Standstill and in laboratory studies, and
+      of people dancing to a DJ mix in the same laboratory with the same measure.
+      Dancing heads move about seventy times faster than still ones. Under the instruction
+      to stand still, music adds only a per cent or two at sway frequencies, mostly
+      in the vertical direction, and no feature of the music, tempo included, predicts
+      it. The talk argues that the task decides the order of magnitude, that every
+      study of music and motion needs a reference that cannot hear, and asks why the
+      one trace EDM leaves on a still body is vertical.
+    full_text_url: https://hdl.handle.net/11250/5596675
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1c25a32c7-58edbff8-0542-4d03-937c-6f6e266a8fa7
+  nva_url: https://nva.sikt.no/registration/01a1c25a32c7-58edbff8-0542-4d03-937c-6f6e266a8fa7
 - title: 'MeshUp #18: Copyright, Street Art and AI | MishMash Centre for AI and Creativity'
   year: '2026'
   type: OtherPresentation
