@@ -1,4 +1,5 @@
 ---
+layout: page
 type: institution
 slug: simula-metropolitan-center-for-digital-engineering
 permalink: /institutions/simula-metropolitan-center-for-digital-engineering/
@@ -11,6 +12,7 @@ short_name: Simula
 image: /images/institutions/simula-metropolitan-center-for-digital-engineering.png
 people:
 - baltasar-beferull-lozano
+- christos-chatzis
 - sven-arne-reinemo
 projects: []
 country: Norway
@@ -20,7 +22,8 @@ urls:
   wikipedia: https://en.wikipedia.org/wiki/Simula_Research_Laboratory
   wikidata: https://www.wikidata.org/wiki/Q7521282
   ror: https://ror.org/00vn06n10
-aliases: []
+aliases:
+- SimulaMet
 tags: []
 search_keywords: []
 source_mentions:

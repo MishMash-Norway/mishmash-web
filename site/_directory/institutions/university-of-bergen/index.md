@@ -21,6 +21,7 @@ people:
 - gabriele-de-seta
 - hans-skaug
 - ida-tolgensbakk
+- ingrid-ormevik
 - jane-sverdrupsen
 - jason-nelson
 - jostein-gundersen
