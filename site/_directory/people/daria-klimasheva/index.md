@@ -23,19 +23,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Curatorial practice
-- Contemporary art
-- Exhibition development
-- Exhibition interpretation
-- Museum mediation
-- Site-responsive curation
+- Curatorial Practice
+- Contemporary Art
+- Exhibition Development
+- Exhibition Interpretation
+- Museum Mediation
+- Site-Responsive Curation
 search_keywords:
-- Curatorial practice
-- Contemporary art
-- Exhibition development
-- Exhibition interpretation
-- Museum mediation
-- Site-responsive curation
+- Curatorial Practice
+- Contemporary Art
+- Exhibition Development
+- Exhibition Interpretation
+- Museum Mediation
+- Site-Responsive Curation
 selected_works: []
 source_mentions: []
 summary: null

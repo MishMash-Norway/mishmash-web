@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: ida-tolgensbakk
 name: Ida Tolgensbakk
@@ -9,7 +8,6 @@ department: The Norsk Folkemuseum foundation
 institution: norwegian-museum-of-cultural-history
 institutions:
 - norwegian-museum-of-cultural-history
-- university-of-bergen
 nva_affiliations:
 - role: Senior lecturer
   unit: Department of Archaeology, History, Cultural studies and Religion
@@ -202,6 +200,7 @@ selected_works:
     role: Creator
 source_mentions: []
 summary: null
+layout: person
 published: true
 permalink: /people/ida-tolgensbakk/
 wps:

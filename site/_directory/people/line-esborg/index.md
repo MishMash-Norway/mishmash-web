@@ -212,9 +212,7 @@ selected_works:
     slug: line-esborg
     url: /people/line-esborg/
 source_mentions: []
-summary: Master i Folkloristikk og PhD i kulturhistorie. Professor i kulturhistorie
-  og museologi fra 2025. Fagansvarlig for tradisjonsarkivet Norsk Folkeminnesamling
-  fra 2014.
+summary: Professor, Cultural history at the University of Oslo.
 published: true
 permalink: /people/line-esborg/
 wps:

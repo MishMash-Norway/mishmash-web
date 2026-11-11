@@ -5,9 +5,10 @@ name: Pål Halvorsen
 title: Pål Halvorsen
 position: Chief research scientist
 department: null
-institution: university-of-oslo
+institution: simula-metropolitan-center-for-digital-engineering
 institutions:
 - forzasys
+- simula-metropolitan-center-for-digital-engineering
 - university-of-oslo
 projects: []
 roles:

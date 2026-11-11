@@ -47,6 +47,34 @@ search_keywords:
 - Artificial Intelligence
 - Music Technology
 selected_works:
+- title: Waves Sonoscopia ShortReel
+  year: '2026'
+  source: Film or video
+  group_type: Film or video
+  url: https://vimeo.com/1235369242
+  contributors:
+  - name: Øyvind Brandtsegg
+    role: Director
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Øyvind Brandtsegg
+    role: Producer
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Anna Thu Schmidt
+    role: RoleOther
+- title: KI i Katedralen Trailer - 2026
+  year: '2026'
+  source: Film or video
+  group_type: Film or video
+  url: https://vimeo.com/1234975856
+  contributors:
+  - name: Øyvind Brandtsegg
+    role: Producer
+    slug: oyvind-brandtsegg
+    url: /people/oyvind-brandtsegg/
+  - name: Martin Mikael Kristoffersen
+    role: Photographer
 - title: Kunstig Intelligens i Katedralen
   year: '2026'
   source: Music performance
@@ -185,37 +213,6 @@ selected_works:
     role: RoleOther
   - name: Tomas Vikeland
     role: Dancer
-- title: Beethoven (re)Created - 32 Variations in C minor WoO 80
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  url: https://transvariations.web.ua.pt/assets/audios/Beethoven32VariationsCminor.mp3
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: Soloist
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Trond Engum
-    role: Soloist
-  - name: Alfonso Benetti
-    role: Soloist
-  - name: Francisco Moreira
-    role: Soloist
-- title: TransVariations – Music beyond the limits of time and technology
-  year: '2024'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Øyvind Brandtsegg
-    role: Composer
-    slug: oyvind-brandtsegg
-    url: /people/oyvind-brandtsegg/
-  - name: Trond Engum
-    role: Composer
-  - name: Alfonso Benetti
-    role: Composer
-  - name: Francisco Monteiro
-    role: Composer
 source_mentions: []
 summary: ''
 description: Professor, Department of Music, Norwegian University of Science and Technology

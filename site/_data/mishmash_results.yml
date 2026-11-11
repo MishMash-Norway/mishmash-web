@@ -1,4 +1,4 @@
-synced_at: '2026-11-10T13:32:05Z'
+synced_at: '2026-11-11T12:41:11Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -6137,6 +6137,45 @@ results:
     nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
   url: https://doi.org/10.1093/mts/mtab013
   nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+- title: 'AI as Environment: Artistic Strategies'
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Synne Tollerud Bull
+    role: Creator
+    slug: synne-tollerud-bull
+    url: /people/synne-tollerud-bull/
+  institutions:
+  - name: Kristiania University College
+    slug: kristiania-university-college
+    url: /institutions/kristiania-university-college/
+  citation:
+    authors:
+    - display: Bull, Synne Tollerud
+      name: Synne Tollerud Bull
+      slug: synne-tollerud-bull
+      url: /people/synne-tollerud-bull/
+    title: 'AI as Environment: Artistic Strategies'
+    container: NORA HS Autumn School 2026.
+    details: Sola Strand Hotel, Sola.
+    abstract: 'This lecture presents ongoing research from the AI Ecologies research
+      group at Kristiania University of Applied Sciences. It introduces AI as Environment,
+      a theoretical framework that approaches artificial intelligence not simply as
+      a tool, but as an environment shaping the conditions of artistic production,
+      perception and knowledge.
+
+
+      Drawing on ecological thinking and contemporary media theory, the lecture examines
+      the relationships between the infrastructural, epistemic and operational ecologies
+      of AI. Through selected examples from contemporary art, it explores how artistic
+      practices critically engage with and negotiate the technological systems shaping
+      cultural production.'
+    full_text_url: https://hdl.handle.net/11250/5597018
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1c600be1b-384c50cf-bb5e-4713-b925-4dc669b20e14
+  nva_url: https://nva.sikt.no/registration/01a1c600be1b-384c50cf-bb5e-4713-b925-4dc669b20e14
 - title: Hva er inni maskinen? KI-teknologi, musikk og opphavsrett
   year: '2026'
   type: Lecture

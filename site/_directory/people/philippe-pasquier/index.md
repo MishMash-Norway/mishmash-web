@@ -34,6 +34,11 @@ search_keywords:
 - Computational Creativity
 - Generative Art
 selected_works:
+- title: VR Interactive sculpture "Respire 2.0"
+  year: '2026'
+  source: Conference paper
+  group_type: Conference
+  url: https://doi.org/10.1145/3829214.3839385
 - title: Survey and Typology of Computer-Assisted Composition Systems
   year: '2026'
   source: Journal article
@@ -84,12 +89,6 @@ selected_works:
   source: Conference paper
   group_type: Conference
   url: https://doi.org/10.1145/3555858.3555947
-- title: 'EUCA: A practical prototyping framework towards end-user-centered explainable
-    artificial intelligence'
-  year: '2021'
-  source: Other
-  group_type: Other
-  url: http://www.scopus.com/inward/record.url?eid=2-s2.0-85101834126&partnerID=MN8TOARS
 source_mentions: []
 summary: null
 published: true

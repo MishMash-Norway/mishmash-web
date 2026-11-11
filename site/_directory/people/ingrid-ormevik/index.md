@@ -24,19 +24,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- generative AI in artistic practice
-- AI-assisted music (Suno)
-- electronic literature
-- creative coding (HTML5/JavaScript)
-- autoethnography
-- science communication
+- Generative AI in Artistic Practice
+- AI-Assisted Music (Suno)
+- Electronic Literature
+- Creative Coding (HTML5/JavaScript)
+- Autoethnography
+- Science Communication
 search_keywords:
-- generative AI in artistic practice
-- AI-assisted music (Suno)
-- electronic literature
-- creative coding (HTML5/JavaScript)
-- autoethnography
-- science communication
+- Generative AI in Artistic Practice
+- AI-Assisted Music (Suno)
+- Electronic Literature
+- Creative Coding (HTML5/JavaScript)
+- Autoethnography
+- Science Communication
 selected_works: []
 source_mentions: []
 summary: Ingrid Ormevik is a BA student in Digital Culture at the University of Bergen

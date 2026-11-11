@@ -20,7 +20,6 @@ people:
 - eva-marija-vukich
 - gabriele-de-seta
 - hans-skaug
-- ida-tolgensbakk
 - ingrid-ormevik
 - jane-sverdrupsen
 - jason-nelson

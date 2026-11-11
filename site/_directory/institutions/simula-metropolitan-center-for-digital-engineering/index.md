@@ -13,6 +13,7 @@ image: /images/institutions/simula-metropolitan-center-for-digital-engineering.p
 people:
 - baltasar-beferull-lozano
 - christos-chatzis
+- pal-halvorsen
 - sven-arne-reinemo
 projects: []
 country: Norway

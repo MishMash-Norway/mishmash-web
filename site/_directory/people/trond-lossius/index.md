@@ -68,6 +68,20 @@ search_keywords:
 - Listening
 - Contemporary Art
 selected_works:
+- title: Lengsel etter den andre. Ingeborg Annie Lindahl med Marte Huke og Trond Lossius
+  year: '2026'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://www.gallerinn.no/utstilling/lengsel-etter-den-andre/
+  contributors:
+  - name: Ingeborg Annie Lindahl
+    role: Artist
+  - name: Marte Huke
+    role: Artist
+  - name: Trond Lossius
+    role: Artist
+    slug: trond-lossius
+    url: /people/trond-lossius/
 - title: SOUND/IMAGE 2026 Festival – Concert 1
   year: '2026'
   source: Music performance
@@ -201,23 +215,6 @@ selected_works:
     url: /people/trond-lossius/
   - name: David Rothenberg
     role: Composer
-- title: Open seminar for INN’s Research Programme in AI & VR/AR
-  year: '2025'
-  source: Exhibition
-  group_type: Exhibition
-  contributors:
-  - name: Trond Lossius
-    role: Curator
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: Therese Næss Diesen
-    role: AudioVisualContributor
-  - name: Gunn Tove Grønsberg
-    role: AudioVisualContributor
-  - name: James Welburn
-    role: AudioVisualContributor
-  - name: Stein Tore Sønsteli
-    role: CollaborationPartner
 source_mentions: []
 summary: "Trond Lossius is a sound and installation artist based in Bergen, Norway.\
   \ His projects investigate sound, place and space, using sound spatialisation and\
