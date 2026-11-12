@@ -51,6 +51,24 @@ search_keywords:
 - Media Science
 - Music
 selected_works:
+- title: 'KI i norsk journalistikk: Jakten på utvikling, frykten for å miste kontroll
+    og dilemmaene rundt «avsendermoral»'
+  year: '2026'
+  source: Research report
+  group_type: Research report
+  contributors:
+  - name: Gunhild Ring Olsen
+    role: Creator
+  - name: Håvard Kiberg
+    role: Creator
+    slug: havard-kiberg
+    url: /people/havard-kiberg/
+  - name: Anders Olof Larsson
+    role: Creator
+  - name: Kjersti Thorbjørnsrud
+    role: Creator
+  - name: Bente Kalsnes
+    role: Creator
 - title: News Diversity Across Platforms. A Large-Scale Analysis of the Norwegian
     News Media Market
   year: '2026'
@@ -194,16 +212,6 @@ selected_works:
     role: Creator
     slug: yngvar-kjus
     url: /people/yngvar-kjus/
-  - name: Håvard Kiberg
-    role: Creator
-    slug: havard-kiberg
-    url: /people/havard-kiberg/
-- title: "Personaliserte anbefalinger og musikalsk\r\nmangfold – en umulig kombinasjon?"
-  year: '2020'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.18261/issn.0805-9535-2020-03-03
-  contributors:
   - name: Håvard Kiberg
     role: Creator
     slug: havard-kiberg

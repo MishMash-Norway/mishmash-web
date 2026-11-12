@@ -68,6 +68,28 @@ search_keywords:
 - Listening
 - Contemporary Art
 selected_works:
+- title: An Architecture of Chronic Illness
+  year: '2026'
+  source: Exhibition
+  group_type: Exhibition
+  url: https://rom.no/aktuelt/arrangementer/finissage-an-architecture-of-chronic-illness-archro
+  contributors:
+  - name: Anna Ulrikke Andersen
+    role: AudioVisualContributor
+  - name: Trond Lossius
+    role: AudioVisualContributor
+    slug: trond-lossius
+    url: /people/trond-lossius/
+  - name: Elizabeth Jane Walling
+    role: AudioVisualContributor
+  - name: Therese Næss Diesen
+    role: AudioVisualContributor
+  - name: Jos Boys
+    role: AudioVisualContributor
+  - name: Rachel Tyler
+    role: AudioVisualContributor
+  - name: Gjertrud Steinsvåg
+    role: Curator
 - title: Lengsel etter den andre. Ingeborg Annie Lindahl med Marte Huke og Trond Lossius
   year: '2026'
   source: Visual arts
@@ -201,20 +223,6 @@ selected_works:
     role: Composer
     slug: trond-lossius
     url: /people/trond-lossius/
-- title: 'Whalesound 3: Whales Surround Us (Concert Version)'
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  url: https://luma.com/2w777u1o
-  contributors:
-  - name: Bjarne Kvinnsland
-    role: Composer
-  - name: Trond Lossius
-    role: Composer
-    slug: trond-lossius
-    url: /people/trond-lossius/
-  - name: David Rothenberg
-    role: Composer
 source_mentions: []
 summary: "Trond Lossius is a sound and installation artist based in Bergen, Norway.\
   \ His projects investigate sound, place and space, using sound spatialisation and\

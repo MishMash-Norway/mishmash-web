@@ -44,7 +44,67 @@ search_keywords:
 - Artistic Research
 - Art
 - Artificial Intelligence
-selected_works: []
+selected_works:
+- title: Undringsrommet
+  year: '2026'
+  source: Visual arts
+  group_type: Visual arts
+  url: https://www.hvl.no/contentassets/b9784cba0f934770b0b336bd86a3c2ee/kunstnerisk-program---undringsrommet.pdf
+  contributors:
+  - name: Janne Iren Robberstad
+    role: Curator
+  - name: Ingrid Skarprud
+    role: Consultant
+  - name: Gro Merete Eide
+    role: Artist
+  - name: Ingvard Bråten
+    role: Artist
+  - name: Bente Helen Skjelbred
+    role: Artist
+  - name: Jon Hoem
+    role: Artist
+  - name: Marie Skreden
+    role: Artist
+  - name: Arnhild Liene Stenersen
+    role: Artist
+  - name: Åse Kvalbein
+    role: Artist
+  - name: Kjetil Sømoe
+    role: Artist
+  - name: Siv Lier
+    role: Artist
+  - name: Anne Guro Schmidt Antun
+    role: Artist
+  - name: Irene Fanebust Eknes
+    role: Artist
+  - name: Anne Skaansar
+    role: Artist
+  - name: Marte Aadland Simonsen
+    role: Artist
+  - name: Katrine Borgenvik
+    role: Artist
+  - name: Kirsti Aksnes
+    role: Artist
+  - name: Oded Ben-Horin
+    role: Artist
+  - name: Tollef Thorsnes
+    role: Artist
+  - name: Sylvia Linda Hansen Rios
+    role: Artist
+  - name: Elin Thoresen
+    role: Artist
+  - name: Lena Skjerdal
+    role: Artist
+  - name: Hannah Belsvik Hansen
+    role: Artist
+  - name: Arild Skarsfjord Berg
+    role: Artist
+  - name: Ann Hege Lorvik Waterhouse
+    role: Artist
+  - name: Hanne Maren Meldahl
+    role: Artist
+    slug: hanne-maren-meldahl
+    url: /people/hanne-maren-meldahl/
 source_mentions: []
 summary: Hanne Maren Meldahl is an artist, teacher educator, and PhD Research Fellow
   at Western Norway University of Applied Sciences (HVL). Her work explores the intersections
