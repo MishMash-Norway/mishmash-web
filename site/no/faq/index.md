@@ -411,7 +411,7 @@ Senteret arbeider også med det strukturelle problemet bak disse spørsmålene: 
 <details class="faq-item" id="what-are-meshups" markdown="1">
 <summary><span class="faq-summary-text">Hva er MeshUps?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MeshUps er korte, ukentlige nettmøter der man deler pågående arbeid og ideer. I semestrene går de på Zoom torsdager kl. 12.00–12.30. De begynner med et par minutter informasjon fra ledergruppen, og deretter følger et innlegg på 15 minutter og 10 minutter med spørsmål. Zoom-lenken sendes til medlemmene i arbeidspakkene; andre kan [be om tilgang](mailto:contact@mishmash.no). MeshUpene tas ikke opp.
+MeshUps er korte, ukentlige nettmøter der man deler pågående arbeid og ideer. I semestrene går de på Zoom torsdager kl. 12.00–12.30. De begynner med et par minutter informasjon fra ledergruppen, og deretter følger et innlegg på 15 minutter og 10 minutter med spørsmål. Zoom-lenken sendes til medlemmene i arbeidspakkene; andre kan [be om tilgang](mailto:contact@mishmash.no). MeshUpene tas ikke opp, og lysbildene deles ikke etterpå. Det er et bevisst valg: vi vil at MeshUpene skal være synkrone, levende og direkte, og noen ting i livet skal få lov til å passere. De er også ment som et sosialt møtested i senteret, så den beste måten å være med på er å være der.
 
 De knytter folk sammen på tvers av fag og institusjoner. Kommende og tidligere MeshUps står på [arrangementssiden](/events/).
 

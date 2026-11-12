@@ -406,7 +406,7 @@ The centre also works on the structural problem behind these questions: access i
 <details class="faq-item" id="what-are-meshups" markdown="1">
 <summary><span class="faq-summary-text">What are MeshUps?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MeshUps are short, weekly online events for sharing ongoing work and ideas. During the semesters, they run on Zoom on Thursdays 12:00–12:30. They begin with a couple of minutes of information from the management team. This is followed by a 15-minute presentation and 10 minutes of Q&A. The Zoom link goes to members of a work package; others can [ask for access](mailto:contact@mishmash.no). MeshUps are not recorded.
+MeshUps are short, weekly online events for sharing ongoing work and ideas. During the semesters, they run on Zoom on Thursdays 12:00–12:30. They begin with a couple of minutes of information from the management team. This is followed by a 15-minute presentation and 10 minutes of Q&A. The Zoom link goes to members of a work package; others can [ask for access](mailto:contact@mishmash.no). MeshUps are not recorded, and the slides are not shared afterwards. This is a choice: we want the MeshUps to be synchronous, alive and live, and some things in life should be allowed to pass. They are also meant as a social meeting point in the centre, so the best way to take part is to be there.
 
 They connect people across disciplines and institutions. Upcoming and past MeshUps are listed on the [events page](/events/).
 
