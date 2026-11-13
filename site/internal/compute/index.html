@@ -45,7 +45,7 @@ custom_css: /assets/css/compute.css
       {% endif %}
     {% endfor %}
   </select>
-  <p class="mm-help">Not listed? Use the category below that fits, and write to us so we can add you.</p>
+  <p class="mm-help">Not listed? Write to <a href="mailto:contact@mishmash.no">contact@mishmash.no</a> and we add your institution.</p>
 </div>
 
 <p class="ca-empty" id="ca-empty">Nothing selected yet.</p>
@@ -109,19 +109,6 @@ custom_css: /assets/css/compute.css
 
   <p class="mm-help">Background: <a href="/faq/#training-vs-inference">what inference and training mean</a>, <a href="/faq/#institution-vs-national">how institutional services relate to national ones</a>, and <a href="/faq/#image-audio-video-models">what exists for image, sound, music and video</a>.</p>
 
-</div>
-
-<h2>The six categories</h2>
-
-<div class="faq-list">
-{% for pair in access.categories %}
-  {% assign cat = pair[1] %}
-  <details class="faq-item">
-    <summary><span class="faq-summary-text">{{ cat.label }}</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
-    <p>{{ cat.covers }}</p>
-    <p><strong>Start here.</strong> {{ cat.start_here }}</p>
-  </details>
-{% endfor %}
 </div>
 
 <script>
