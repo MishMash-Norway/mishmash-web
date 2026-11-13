@@ -8,6 +8,7 @@ wps:
 - WP2
 - WP7
 tags:
+- PhD Project
 - Organology
 - AI in artistic processes
 - Instrument design
@@ -28,12 +29,12 @@ Organology traditionally describes existing instruments. This project asks what 
 
 Composing music can also mean composing instruments. Their materials, acoustic principles, interfaces, behaviours and relations with performers and environments become compositional material. An instrument is thus an evolving process through which musical possibilities are constructed and transformed.
 
-The project develops Speculative Organology as a framework for this expanded field of composition. Five interconnected dimensions, material, object, agent, interaction and environment, allow physical, digital and fictional instruments to be investigated within a shared model. The research proceeds through artistic practice, treating instrument invention as a mode of inquiry.
+This PhD project develops Speculative Organology as a framework for this expanded field of composition. Five interconnected dimensions, material, object, agent, interaction and environment, allow physical, digital and fictional instruments to be investigated within a shared model. The research proceeds through artistic practice, treating instrument invention as a mode of inquiry.
 
 ## People
 
-- Project owner: [Luciano Azzigotti](/people/luciano-azzigotti/)
-- Project supervisor: Henrik Frisk
+- PhD fellow: [Luciano Azzigotti](/people/luciano-azzigotti/)
+- Supervisor: Henrik Frisk
 
 ## Institutions
 
