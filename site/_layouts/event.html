@@ -62,7 +62,10 @@ END:VCALENDAR
       {%- if page.end_date %}
       {% assign end_tz = page.end_date | date: "%z" %}
       {% if end_tz == "+0200" %}{% assign end_tz_abbr = "CEST" %}{% else %}{% assign end_tz_abbr = "CET" %}{% endif %}
-      –<time datetime="{{ page.end_date | date_to_xmlschema }}">{{ page.end_date | date: "%H:%M" }} {{ end_tz_abbr }}</time>
+      {% assign start_day = page.date | date: "%Y-%m-%d" %}
+      {% assign end_day = page.end_date | date: "%Y-%m-%d" %}
+      {% if start_day == end_day %}{% assign end_format = "%H:%M" %}{% else %}{% assign end_format = "%-d %B %Y, %H:%M" %}{% endif %}
+      –<time datetime="{{ page.end_date | date_to_xmlschema }}">{{ page.end_date | date: end_format }} {{ end_tz_abbr }}</time>
       {% endif %}
     {% endif %}
     {% if page.location %}

@@ -1,7 +1,7 @@
 ---
 title: "2nd MishMash Conference / 9th Annual Artistic Research Conference – AR@K27"
 date: 2027-04-13 09:00:00 +02:00   # Event start date/time
-end_date: 2027-04-14 17:00:00 +02:00 # Optional: Event end time
+end_date: 2027-04-15 17:00:00 +02:00 # Optional: Event end time
 location: Kristiania University of Applied Sciences, Oslo
 layout: event
 categories: [Conference]
@@ -19,7 +19,7 @@ The 9th Annual Artistic Research at Kristiania Symposium (AR@K27) & the 2nd Mish
 
 Co-organised with [AI Ecologies Research Group](https://www.kristiania.no/en/research/research-groups/AIEcologies/), [Kristiania AI Centre (KAI)](https://www.kristiania.no/en/research/research-groups/AIcentre/), [Atelier Nord](https://ateliernord.no/), and [Talent Norway](https://www.talentnorway.no/).
 
-13–14 April 2027 [Kristiania University of Applied Sciences](https://www.kristiania.no/en/), Oslo, Norway
+13–14 April 2027 [Kristiania University of Applied Sciences](https://www.kristiania.no/en/), Oslo, Norway, followed by an internal MishMash day on 15 April.
 
 With the distinguished keynote speakers: 
 Tiziana Terranova · Kyle Stine · Orit Halpern · and the Spring 2027 Atelier Nord/MishMash Artist-in-Residence.
