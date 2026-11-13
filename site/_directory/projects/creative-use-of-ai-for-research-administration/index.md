@@ -1,8 +1,8 @@
 ---
 layout: page
 type: project
-title: Agents in Centre Administration
-permalink: /projects/agents-in-centre-administration/
+title: Creative Use of AI for Research Administration
+permalink: /projects/creative-use-of-ai-for-research-administration/
 wps:
 - WP7
 tags:
@@ -10,8 +10,8 @@ tags:
 - Infrastructure
 - Cross-WP
 - Ethics
-slug: agents-in-centre-administration
-name: Agents in Centre Administration
+slug: creative-use-of-ai-for-research-administration
+name: Creative Use of AI for Research Administration
 people:
 - alexander-refsum-jensenius
 - eskil-muan-saether

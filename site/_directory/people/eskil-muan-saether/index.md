@@ -10,7 +10,7 @@ institution: university-of-oslo
 institutions:
 - university-of-oslo
 projects:
-- agents-in-centre-administration
+- creative-use-of-ai-for-research-administration
 - the-mishmash-website
 roles:
 - Administrative Coordinator
