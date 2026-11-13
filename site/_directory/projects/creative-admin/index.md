@@ -23,23 +23,30 @@ projects:
 
 ## Summary
 
-This project tests how much of the administration of a research centre can be done with AI agents, and what it takes to make that work. The people in the MishMash administration use agents for their shared work: agendas, minutes, follow-up, role descriptions, routines and the website. They use more than one agent and more than one model, so the work cannot depend on a single tool. The core challenge is therefore not the agents but the context they work in: written rules, skills and routines that any agent can read, kept in one place and kept current.
+Research centres run on administration: meetings, minutes, follow-up, agreements, reports, events, communication and the website. This project explores how AI can be used creatively in that work, with the ambition of letting AI agents take on as much of it as is responsible, so that people spend their time on what needs human judgement. MishMash uses its own administration as the test case.
+
+The core challenge is not any particular agent, but the context agents work in: shared rules, routines and knowledge about how the centre works, written so that different agents and different ways of working can use them, and kept current as the centre changes.
+
+## Critical reflection
+
+Using AI in administration is not only a question of efficiency. The project reflects critically on what it does, as it goes:
+
+- Privacy: which information may be given to which systems, and how personal data about members, partners and staff is protected.
+- Ethics and accountability: people decide, sign and send; it must always be clear who is responsible for what the centre does, and what may not be delegated to a machine at all.
+- Models: which models are used, where they run, who controls them, and what that means for openness, dependency and sustainability.
+- Quality and trust: how mistakes are found, how much checking the work needs, and whether it actually saves time.
+- Work and roles: what changes for the people doing the administration, and which skills they need.
 
 ## Questions
 
-- What context, rules and skills does an agent need to do useful administrative work, and how are they kept up to date as the centre changes?
-- Can the same context serve different agents and models, from the university's own models to commercial coding assistants?
-- Which tasks save time, which need so much checking that they do not, and which should not be given to an agent at all?
-- What do data classes, privacy and accountability require when agents draft what people later send, sign and decide?
+- What does an agent need to know to do useful administrative work, and how is that knowledge kept up to date?
+- Can the same shared context serve different agents, models and people?
+- Which tasks benefit from AI, which do not, and which should be left to people?
+- What do privacy, ethics and accountability require when AI drafts what people later decide, sign and send?
 
 ## How it works
 
-- A private repository at the University of Oslo holds the working documents as plain text, with one file of rules for agents, routines written as step-by-step recipes, and a log of what was done and what was learnt.
-- General administrative work uses the open-source agent [OpenCode](https://opencode.ai/) with the university's models through [GPT UiO](https://www.uio.no/tjenester/it/ki/gpt-uio/), approved for yellow data.
-- Work on the website uses [GitHub Copilot](https://github.com/features/copilot) through GitHub Education in [Visual Studio Code](https://code.visualstudio.com/), on the public [website repository](https://github.com/MishMash-Norway/mishmash-web), which has [its own rules for agents](https://github.com/MishMash-Norway/mishmash-web/blob/main/AGENTS.md).
-- People decide, send, sign and pay. Agents draft, tidy and check, and a person reads every change in the log.
-
-The first phase runs to the end of January 2027. The centre then decides how to continue, and what has been learnt is written up here and in the [website project](/projects/the-mishmash-website/).
+The people in the MishMash administration try out agents in their daily work, write down what works and what does not, and revise the shared rules and routines after each round. What is learnt is shared with the centre, and with other research administrations that face the same questions.
 
 ## Work Package
 
