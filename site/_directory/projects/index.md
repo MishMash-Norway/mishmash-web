@@ -12,7 +12,7 @@ Projects in the MishMash directory, with related people, institutions, tags, and
 
 <ul>
 {% for project in all_projects %}{% if project.tags contains "PhD Project" %}
-  <li><a href="{{ project.url | relative_url }}">{{ project.title | default: project.name }}</a>{% if project.wps and project.wps.size > 0 %} — {{ project.wps | join: ", " }}{% endif %}</li>
+  <li><a href="{{ project.url | relative_url }}">{{ project.title | default: project.name }}</a>{% if project.wps and project.wps.size > 0 %}<span> — {{ project.wps | join: ", " }}</span>{% endif %}</li>
 {% endif %}{% endfor %}
 </ul>
 
@@ -20,7 +20,7 @@ Projects in the MishMash directory, with related people, institutions, tags, and
 
 <ul>
 {% for project in all_projects %}{% if project.tags contains "Seed Funding" %}
-  <li><a href="{{ project.url | relative_url }}">{{ project.title | default: project.name }}</a>{% if project.wps and project.wps.size > 0 %} — {{ project.wps | join: ", " }}{% endif %}</li>
+  <li><a href="{{ project.url | relative_url }}">{{ project.title | default: project.name }}</a>{% if project.wps and project.wps.size > 0 %}<span> — {{ project.wps | join: ", " }}</span>{% endif %}</li>
 {% endif %}{% endfor %}
 </ul>
 
@@ -28,6 +28,6 @@ Projects in the MishMash directory, with related people, institutions, tags, and
 
 <ul>
 {% for project in all_projects %}{% unless project.tags contains "PhD Project" or project.tags contains "Seed Funding" %}
-  <li><a href="{{ project.url | relative_url }}">{{ project.title | default: project.name }}</a>{% if project.wps and project.wps.size > 0 %} — {{ project.wps | join: ", " }}{% endif %}</li>
+  <li><a href="{{ project.url | relative_url }}">{{ project.title | default: project.name }}</a>{% if project.wps and project.wps.size > 0 %}<span> — {{ project.wps | join: ", " }}</span>{% endif %}</li>
 {% endunless %}{% endfor %}
 </ul>
