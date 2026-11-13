@@ -14,6 +14,7 @@ slug: creative-admin
 name: Creative Use of AI for Research Administration
 people:
 - alexander-refsum-jensenius
+- eirik-slinning-karlsen
 - eskil-muan-saether
 institutions:
 - university-of-oslo
@@ -60,7 +61,7 @@ Cross-work-package initiative, closest to [WP7](/wp7/)
 ## People
 
 - Project leader: [Alexander Refsum Jensenius](/people/alexander-refsum-jensenius/)
-- Participants: [Eskil Muan Sæther](/people/eskil-muan-saether/), Eirik Slinning Karlsen
+- Participants: [Eskil Muan Sæther](/people/eskil-muan-saether/), [Eirik Slinning Karlsen](/people/eirik-slinning-karlsen/)
 
 ## Institutions
 

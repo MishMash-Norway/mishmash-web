@@ -29,6 +29,7 @@ projects:
 - rhyglyph-rhydiff-rhyseq
 - scoping-review-creative-ai-teaching-learning
 - scsci-workshops-and-concert
+- speculative-organology
 - teacher-resources-critical-ai-literacy
 country: Norway
 city: null

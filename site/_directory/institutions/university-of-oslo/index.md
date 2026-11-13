@@ -25,6 +25,7 @@ people:
 - carsten-griwodz
 - changkyu-choi
 - diego-marin-bucio
+- eirik-slinning-karlsen
 - eskil-muan-saether
 - hans-kristian-strandstuen-rustad
 - havard-kiberg

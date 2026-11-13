@@ -1,4 +1,5 @@
 ---
+layout: person
 type: person
 slug: luciano-azzigotti
 name: Luciano Azzigotti
@@ -8,7 +9,8 @@ department: Fagseksjon for musikkteori, komposisjon og musikkteknologi
 institution: norwegian-academy-of-music
 institutions:
 - norwegian-academy-of-music
-projects: []
+projects:
+- speculative-organology
 roles:
 - Member
 urls:

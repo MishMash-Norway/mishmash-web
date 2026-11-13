@@ -51,6 +51,7 @@ CANONICAL_ROLES = {
     "Deputy Director",
     "Research Advisor",
     "Administrative Coordinator",
+    "Communication and Coordination",
     "Director",
     "Associate Member",
     "Affiliate Member",
