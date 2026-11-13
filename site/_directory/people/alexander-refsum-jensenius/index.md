@@ -11,7 +11,7 @@ institutions:
 - university-of-oslo
 projects:
 - agency-and-control-in-musical-ensemble
-- creative-use-of-ai-for-research-administration
+- creative-admin
 - the-mishmash-website
 other_projects:
 - title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms

@@ -2,7 +2,7 @@
 layout: page
 type: project
 title: Creative Use of AI for Research Administration
-permalink: /projects/creative-use-of-ai-for-research-administration/
+permalink: /projects/creative-admin/
 wps:
 - WP7
 tags:
@@ -10,7 +10,7 @@ tags:
 - Infrastructure
 - Cross-WP
 - Ethics
-slug: creative-use-of-ai-for-research-administration
+slug: creative-admin
 name: Creative Use of AI for Research Administration
 people:
 - alexander-refsum-jensenius
