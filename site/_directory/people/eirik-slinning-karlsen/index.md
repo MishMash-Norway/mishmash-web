@@ -28,7 +28,7 @@ tags: []
 search_keywords: []
 selected_works: []
 source_mentions: []
-summary: Communication and coordination at MishMash from 1 January 2027.
+summary: Communication and coordination at MishMash.
 permalink: /people/eirik-slinning-karlsen/
 wps: []
 feeds: []

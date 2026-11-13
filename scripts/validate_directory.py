@@ -52,6 +52,7 @@ CANONICAL_ROLES = {
     "Research Advisor",
     "Administrative Coordinator",
     "Communication and Coordination",
+    "HPC and ML Adviser",
     "Director",
     "Associate Member",
     "Affiliate Member",

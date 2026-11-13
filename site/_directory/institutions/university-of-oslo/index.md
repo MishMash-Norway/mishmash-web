@@ -51,6 +51,7 @@ people:
 - pedro-lucas
 - peter-edwards
 - ragnhild-brovig
+- sabry-razick
 - sagar-dutta
 - sascha-fruhholz
 - stefano-fasciani
