@@ -33,6 +33,7 @@ Using AI in administration is not only a question of efficiency. The project ref
 
 - Privacy: which information may be given to which systems, and how personal data about members, partners and staff is protected.
 - Ethics and accountability: people decide, sign and send; it must always be clear who is responsible for what the centre does, and what may not be delegated to a machine at all.
+- Agents and systems: the project compares different AI agents and model services, from the university's own to commercial ones, on the same tasks and with the same shared context, to learn what each does well, where each fails, and how to avoid depending on any one of them.
 - Models: which models are used, where they run, who controls them, and what that means for openness, dependency and sustainability.
 - Quality and trust: how mistakes are found, how much checking the work needs, and whether it actually saves time.
 - Work and roles: what changes for the people doing the administration, and which skills they need.
