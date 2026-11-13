@@ -39,8 +39,7 @@ centre_projects:
 universal_note: >-
   No Norwegian institutional service runs models for image, sound, music or
   video; the gateways listed here handle text and speech only. For these media,
-  use open-weight models on hardware you control. Closing this gap is one of
-  the reasons MishMash exists.
+  use open-weight models on hardware you control.
 
 categories:
 
@@ -50,8 +49,8 @@ categories:
       Large Norwegian universities with their own chat gateway, computing
       cluster and secure environment for confidential data.
     start_here: >-
-      Most of what you need exists at your own institution. Ask your IT
-      service before applying for anything national.
+      Ask your IT service before applying for anything national, since much of
+      what you need is likely to exist at your own institution.
     chat: >-
       Your institution runs a gateway with a chat interface and an API, serving
       open-weight models on Norwegian hardware alongside commercial ones. Each
@@ -95,8 +94,7 @@ categories:
       The national systems, since there is no local cluster. A department
       workstation with one good GPU also covers a lot and needs no application.
     national: >-
-      You are eligible, and few at institutions like yours use this. Ask
-      whether a colleague already has an allocation you can join, which is
+      You are eligible. Ask whether a colleague already has an allocation you can join, which is
       faster than starting a new one.
     european: >-
       Free for publicly funded research through EuroHPC AI for Science and the
@@ -110,17 +108,16 @@ categories:
       architecture.
     start_here: >-
       The national systems are open to you on the same terms as to any
-      university. Very few arts institutions have used them so far.
+      university.
     chat: >-
       Whatever your institution has bought, usually Sikt KI or GPT UiO through
       Feide. These handle text and speech, not sound or image.
     transcription: >-
       Autotekst, if your institution has it. If not, ask for it.
     fine_tuning: >-
-      This is usually what creative work needs: training a model on your own
-      recordings, video or drawings takes a GPU for hours or days. One
-      workstation in the building is often enough, and a national allocation
-      covers the rest.
+      Training a model on your own recordings, video or drawings takes a GPU
+      for hours or days. One workstation in the building is often enough, and
+      a national allocation covers the rest.
     national: >-
       You are eligible as a Norwegian university college. The project leader
       must hold a position; students apply through a supervisor. As far as we
@@ -141,8 +138,8 @@ categories:
       Museums, libraries, archives, festivals, concert houses, production
       centres and arts organisations in Norway.
     start_here: >-
-      Your route has probably not been tested yet. There are two possible ones,
-      and we would like to hear how it goes if you try.
+      There are two possible routes, described below. If you try one, tell us
+      how it went.
     chat: >-
       Commercial services, unless your institution has bought something. There
       is no national AI service for the cultural sector.
@@ -161,8 +158,8 @@ categories:
       Generally not open, unless you have a company that counts as a small or
       medium enterprise.
     ask: >-
-      Sigma2 at contact@sigma2.no. Please tell us what they answer at
-      contact@mishmash.no, so that others can benefit.
+      Sigma2 at contact@sigma2.no, and tell us what they answer at
+      contact@mishmash.no.
 
   no-research-institute:
     label: Norwegian research institute
@@ -195,11 +192,9 @@ categories:
       Norwegian companies, studios and startups in the partnership, including
       artist-run companies.
     start_here: >-
-      Start with the European route, which is free and faster than most people
-      expect.
+      Start with the European route, which is free.
     chat: >-
-      Commercial services, which is usually the right choice for everyday
-      work.
+      Commercial services.
     transcription: >-
       Commercial services, or Whisper run locally when the material cannot
       leave the building.
@@ -305,7 +300,7 @@ institutions:
     local:
       note: >-
         UiT has no cluster of its own, but its HPC group runs the national
-        systems, so help with a national allocation is close at hand.
+        systems and can help with a national allocation.
       services:
         - name: UiT HPC group
           note: >-
@@ -371,8 +366,7 @@ institutions:
         The National Library is the exception in this category. It runs its
         own AI lab, publishes models and datasets openly, and has state funding
         for Norwegian and Sami language models, with matching computing money
-        at Sigma2. It is part of Spraakmodellklynge Norge with UiO and NTNU,
-        and is a producer of national infrastructure rather than a user.
+        at Sigma2. It is part of Spraakmodellklynge Norge with UiO and NTNU.
       services:
         - name: AI-lab at the National Library
           note: Open models and datasets, including NB-Whisper and the Borealis models.

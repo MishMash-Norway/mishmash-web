@@ -27,7 +27,7 @@ MishMash is a Norwegian research centre that explores AI *in* and *through* crea
 <details class="faq-item" id="what-does-the-name-mean" markdown="1">
 <summary><span class="faq-summary-text">What does the name MishMash mean?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash is not an acronym; it describes how the founders saw the group of people and institutions assembled when the application process started. It began as the working title for the proposal. However, it was easy to remember and it stuck. Among more than 150 competing centre proposals pitched to the Research Council of Norway in 2024, the name was one of a few people remembered. It also describes the centre's mission: to combine a deliberate mix of artistic and scientific disciplines into something new. Read [the full story of the name](https://www.arj.no/2025/06/14/mishmash-name/).
+MishMash is not an acronym; it describes how the founders saw the group of people and institutions assembled when the application process started. It began as the working title for the proposal and was kept. It also describes the centre's mission: to combine a deliberate mix of artistic and scientific disciplines into something new. Read [the full story of the name](https://www.arj.no/2025/06/14/mishmash-name/).
 
 </details>
 
@@ -61,7 +61,7 @@ This lets many institutions take part while keeping a shared direction. See [Org
 <details class="faq-item" id="what-makes-mishmash-different" markdown="1">
 <summary><span class="faq-summary-text">What makes MishMash different from other AI initiatives?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MishMash puts creativity at the centre. Art is not a way of communicating research done elsewhere; it is what the centre studies, what it makes, how it expresses what it finds and how it inquires. The centre works from three perspectives at once, humans, machines and society, and pays as much attention to the cultural, ethical, legal and societal sides of AI as to the technology. It is also deliberately a network: more than 200 people at [partner institutions](/search/?type=institution) across Norway and abroad, rather than one building.
+MishMash puts creativity at the centre: art is both what the centre studies and a way of doing research. The centre works from three perspectives at once, humans, machines and society, and pays as much attention to the cultural, ethical, legal and societal sides of AI as to the technology. It is also a network of people at [partner institutions](/search/?type=institution) in Norway and abroad, without a building of its own.
 
 </details>
 
@@ -112,7 +112,7 @@ The seven work packages are:
 <details class="faq-item" id="who-can-join-mishmash" markdown="1">
 <summary><span class="faq-summary-text">Who can join MishMash?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Anyone whose work concerns AI and creativity: researchers, artists, educators, students and people in the cultural sector, the public sector and business. MishMash's primary mission is to connect researchers and their institutions in Norway, but members based abroad are welcome, as are international and non-academic partners. Master's students can take part as [master fellows](#master-students). The centre welcomes new collaborations (see below).
+Anyone whose work concerns AI and creativity: researchers, artists, educators, students and people in the cultural sector, the public sector and business. MishMash's primary mission is to connect researchers and their institutions in Norway, but members based abroad are welcome, as are international and non-academic partners. Master's students can take part as [master fellows](#master-students).
 
 </details>
 
@@ -189,13 +189,12 @@ Through concrete collaboration rather than membership alone: joint projects and 
 <details class="faq-item" id="what-is-expected-from-partners" markdown="1">
 <summary><span class="faq-summary-text">What is expected from partners?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-Partners help shape MishMash. Typical expectations are:
+Typical expectations of partners are:
 
 * Participating with members (people) in work package activities
 * Contributing to communication and visibility by sending information about relevant events that can be added to the [events page](/events/).
 * Supporting collaboration across the network and developing applications for MishMash-related projects.
 
-Many activities rely on shared effort across institutions, rather than central coordination alone.
 
 </details>
 
@@ -219,18 +218,18 @@ First work out which of three jobs you have, since they need different machines:
 * **Adapting a model** (fine-tuning): a workstation GPU or a few hours on a cluster.
 * **Training from scratch**: this needs a national or European supercomputer.
 
-Then move up one step at a time: your own machine, your department's machine, your institution's cluster, the national systems, and Europe. Most creative work never needs to go past the second step, and work that has to respond in real time on stage belongs on a machine in the room rather than in a data centre. Ask your local IT service first; they answer faster than any application round.
+Then move up one step at a time: your own machine, your department's machine, your institution's cluster, the national systems, and Europe. Much creative work does not need to go past the second step, and work that has to respond in real time on stage belongs on a machine in the room rather than in a data centre. Ask your local IT service first.
 
 </details>
 
 <details class="faq-item" id="training-vs-inference" markdown="1">
 <summary><span class="faq-summary-text">What is the difference between training and inference, and why does it matter?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-* **Inference** is running a model that already exists: you send it something and it answers. It takes seconds, and what it needs is enough fast memory to hold the model. Every chat window, every transcription, every generated image is inference. It is well over ninety per cent of what most people do.
-* **Fine-tuning** is taking an existing model and continuing to train it on your own material, so that it learns your voice, your sound or your footage. Hours to days, on one to eight good GPUs. Most creative research happens here.
+* **Inference** is running a model that already exists: you send it something and it answers. It takes seconds, and what it needs is enough fast memory to hold the model. Chat, transcription and image generation are all inference.
+* **Fine-tuning** is taking an existing model and continuing to train it on your own material, so that it learns your voice, your sound or your footage. Hours to days, on one to eight good GPUs.
 * **Training from scratch** is building a model from nothing. Weeks on hundreds of GPUs, and a much larger data problem than compute problem. Few projects should do this.
 
-This matters because the national supercomputers are built for training and are poor at what most people want, an answer within a second. Chat services are built for inference, and none of them will fine-tune anything for you. The most common mistake is to ask for a supercomputer allocation when what is needed is a transcription service.
+This matters because the national supercomputers are built for training and are poor at what most people want, an answer within a second. Chat services are built for inference, and none of them will fine-tune anything for you. A common mistake is to ask for a supercomputer allocation when what is needed is a transcription service.
 
 The two are also paid for differently. Inference cost rises smoothly with use, so it suits a quota. Training is a block of hours booked in advance, so it suits an allocation.
 
@@ -275,7 +274,7 @@ Start with your own institution. UiO has [Fox and Educloud Research](https://www
 
 When you outgrow that, apply for the national systems through NRIS. Students cannot apply directly and go through a supervisor.
 
-The national systems have a reputation for being difficult, but the documentation is step by step, example scripts are provided, courses run regularly and the staff answer email. Researchers in MishMash who have used every level report that the hardest part was deciding to start.
+The documentation for the national systems is step by step, with example scripts, regular courses and staff who answer email.
 
 </details>
 
@@ -295,14 +294,14 @@ Through [Sigma2's application pages](https://www.sigma2.no/apply-e-infrastructur
 
 You can still apply for the national systems. Eligibility follows the type of institution, not whether it owns hardware, so an art school, a university college or a research institute can hold a national allocation without a local cluster. Ask your IT service whether anyone at your institution already has an allocation you can join, since joining an existing project is faster than starting one.
 
-For much creative work, a well-specified GPU workstation in the building serves better than a share of a supercomputer, and it costs less than people expect.
+For much creative work, a GPU workstation in the building serves better than a share of a supercomputer.
 
 </details>
 
 <details class="faq-item" id="company-compute" markdown="1">
 <summary><span class="faq-summary-text">I work in a company or a startup. What can I use?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-There are two routes, and the European one is faster than many expect.
+There are two routes.
 
 * [KI-fabrikken](https://www.sigma2.no/nb/ki-fabrikken) is Sigma2's service for Norwegian businesses and public sector bodies, with computing capacity, advice and support. Get in touch with Sigma2 to discuss what you need.
 * [EuroHPC AI Factory access](https://www.eurohpc-ju.europa.eu/ai-factories/ai-factories-access-modes_en) is free of charge to AI SMEs and startups. *Playground* access is permanently open and normally decided within two working days; *Fast Lane* gives up to 50 000 GPU hours and is normally decided within four. Applications go through the [EuroHPC access portal](https://access.eurohpc-ju.europa.eu/). Norway takes part through the LUMI AI Factory, so Norwegian companies are eligible.
@@ -314,9 +313,9 @@ Industrial parties may also apply for the national systems on the terms above, w
 <details class="faq-item" id="artist-freelancer-compute" markdown="1">
 <summary><span class="faq-summary-text">I am an artist or freelancer, or I work at a cultural institution. What can I use?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-This is the biggest gap in Norwegian access to computing, and MishMash is working on it.
+This group has the least access to computing in Norway.
 
-A cultural institution that is a public body may be able to use KI-fabrikken, and any organisation outside the listed categories is invited to ask Sigma2 whether a national allocation is possible. Nobody has yet tested that route for a Norwegian cultural institution, so an early enquiry is useful for everyone.
+A cultural institution that is a public body may be able to use KI-fabrikken, and any organisation outside the listed categories is invited to ask Sigma2 whether a national allocation is possible. As far as we know, no Norwegian cultural institution has tried that route.
 
 An individual artist with no employer has no national route today. The obstacle is login identity rather than policy: the application systems assume an institutional account, so a freelancer cannot get in even where the rules would allow it. The practical options are hardware you own and commercial services you pay for per use.
 
@@ -327,7 +326,7 @@ If you are working with a MishMash partner, ask whether you can be added to thei
 <details class="faq-item" id="image-audio-video-models" markdown="1">
 <summary><span class="faq-summary-text">I work with images, sound, music or video. What can I use?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-In almost every case you need your own machine, because every Norwegian institutional AI service handles only language and speech. GPT UiO, GPT NTNU, UiBchat, Sikt KI and Autotekst do text and transcription. None of them serves an image, audio, music or video model, so neither a professor at a large university nor a freelance artist can reach a music model through Norwegian infrastructure.
+In almost every case you need your own machine, because every Norwegian institutional AI service handles only language and speech. GPT UiO, GPT NTNU, UiBchat, Sikt KI and Autotekst do text and transcription. None of them serves an image, audio, music or video model.
 
 The route is therefore open-weight models run locally, through an interface such as ComfyUI. For video, the models in common use are Wan, HunyuanVideo, LTX-Video, CogVideoX and Mochi; for music, ACE-Step and Stable Audio Open; for real-time audio, RAVE from IRCAM, which plugs into Max and Pure Data. Most of these run on a single consumer GPU with 16 to 32 GB of memory, which is a purchase rather than an application.
 
@@ -342,9 +341,9 @@ Providing such models for Norwegian creative material is one of the centre's aim
 
 The answer depends on the institution, since the cultural sector is not one case.
 
-The National Library is at one end. It runs its own AI-lab, has published hundreds of models and datasets openly, has a dedicated state funding line for Norwegian and Sámi language models with matching money to Sigma2 for the computing underneath, and sits alongside UiO and NTNU in Språkmodellklynge Norge. For most purposes it is a producer of national infrastructure rather than a user looking for access.
+The National Library is at one end. It runs its own AI-lab, has published models and datasets openly, has a dedicated state funding line for Norwegian and Sámi language models with matching money to Sigma2 for the computing underneath, and sits alongside UiO and NTNU in Språkmodellklynge Norge.
 
-Most other cultural institutions are at the other end, with no cluster, no allocation and no AI-lab. Two routes are worth trying. KI-fabrikken serves public sector bodies, and a publicly owned or publicly funded institution may qualify. Separately, Sigma2 invites organisations outside its listed eligibility categories to get in touch and ask. As far as we know, no Norwegian museum or theatre has tested either route, so an early enquiry helps the whole sector find out the answer.
+Most other cultural institutions are at the other end, with no cluster, no allocation and no AI-lab. Two routes are worth trying. KI-fabrikken serves public sector bodies, and a publicly owned or publicly funded institution may qualify. Separately, Sigma2 invites organisations outside its listed eligibility categories to get in touch and ask. As far as we know, no Norwegian museum or theatre has tried either route.
 
 If you try either, we would like to hear what happened: [contact@mishmash.no](mailto:contact@mishmash.no).
 
@@ -364,7 +363,7 @@ A single consumer GPU in the studio, or a laptop with a lot of unified memory, r
 
 A rule of thumb from practitioners in the centre: with continuous use, about six months of rented cloud capacity pays for the equivalent machine. Rent for bursts, buy for daily use.
 
-A second argument for owning is not about money. Research exploration cannot be scheduled in advance, and a metered budget introduces a fear of running out that changes what you are willing to try.
+Owning a machine also removes the metered budget, which can limit what you are willing to try.
 
 </details>
 
@@ -375,7 +374,7 @@ MishMash does not buy subscriptions for its members. Check what your own institu
 
 Several Norwegian institutions run gateways that put a chat interface and an API in front of commercial and open-weight models, with a quota per user and per data classification, so the institution pays for what is used. UiO and NTNU both run one. [Sikt KI](https://sikt.no/tjenester/sikt-ki) serves universities, colleges, research institutions and upper secondary schools through Feide login.
 
-Paying per use through a gateway is usually far cheaper than buying a seat for every person, because a seat costs the same for the heavy user and for the person who tried it twice.
+Paying per use through a gateway is usually cheaper than a licence for every person, since a licence costs the same however little it is used.
 
 </details>
 
@@ -388,7 +387,7 @@ Three groups publish them openly:
 * [NorwAI at NTNU](https://www.ntnu.edu/norwai), which makes the NorLLM family.
 * [The National Library's AI-lab](https://ai.nb.no/), which makes NB-Whisper for Norwegian speech and the Borealis language models, trained on the library's collection.
 
-These cover text and speech. Open Norwegian models for music, image, video and motion barely exist, and MishMash aims to change that.
+These cover text and speech. Few open Norwegian models exist for music, image, video and motion.
 
 </details>
 
@@ -406,9 +405,9 @@ The centre also works on the structural problem behind these questions: access i
 <details class="faq-item" id="what-are-meshups" markdown="1">
 <summary><span class="faq-summary-text">What are MeshUps?</span><span class="faq-expand-icon" aria-hidden="true">▸</span></summary>
 
-MeshUps are short, weekly online events for sharing ongoing work and ideas. During the semesters, they run on Zoom on Thursdays 12:00–12:30. They begin with a couple of minutes of information from the management team. This is followed by a 15-minute presentation and 10 minutes of Q&A. The Zoom link goes to members of a work package; others can [ask for access](mailto:contact@mishmash.no). MeshUps are not recorded, and the slides are not shared afterwards. This is a choice: we want the MeshUps to be synchronous, alive and live, and some things in life should be allowed to pass. They are also meant as a social meeting point in the centre, so the best way to take part is to be there.
+MeshUps are short, weekly online events for sharing ongoing work and ideas. During the semesters, they run on Zoom on Thursdays 12:00–12:30. They begin with a couple of minutes of information from the management team. This is followed by a 15-minute presentation and 10 minutes of Q&A. The Zoom link goes to members of a work package; others can [ask for access](mailto:contact@mishmash.no). MeshUps are not recorded, and the slides are not shared afterwards. This is deliberate, since the MeshUps are meant as a live, social meeting point in the centre.
 
-They connect people across disciplines and institutions. Upcoming and past MeshUps are listed on the [events page](/events/).
+Upcoming and past MeshUps are listed on the [events page](/events/).
 
 To receive meeting links and reminders, subscribe to the MeshUps announcement list or add MeshUps to your calendar from the events page. Use the "Subscribe (webcal)" link to add the calendar directly, or use "Download calendar (ICS)" if your mail client (for example Outlook) does not open webcal links.
 
@@ -446,7 +445,6 @@ Communication in MishMash is a shared responsibility across the network.
 * Partners contribute content such as [news](/news/), [events](/events/), and [project](/projects/) updates
 * A central team coordinates overall communication and website development
 
-Contributions from partners are essential.
 
 </details>
 
