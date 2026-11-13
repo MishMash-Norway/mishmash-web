@@ -13,6 +13,7 @@ image: /images/institutions/western-norway-university-of-applied-sciences.svg
 people:
 - hanne-maren-meldahl
 - karan-choudhary
+- lydia-schulze-heuling
 - matthew-landers
 - natalia-maehle
 - odd-torleiv-furnes

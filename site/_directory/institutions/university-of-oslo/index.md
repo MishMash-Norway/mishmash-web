@@ -61,11 +61,11 @@ people:
 - yngvar-kjus
 projects:
 - agency-and-control-in-musical-ensemble
-- creative-admin
 - ai-and-legal-protection-of-personal-characteristics
 - ai-as-environment
 - ai-assisted-curation-and-transcription-of-norwegian-folk-music
 - copyright-and-personality-rights-ai-era
+- creative-admin
 - evaluation-cultural-bias-workflow-ai-music-generation
 - human-machine-consciousness
 - intensifying-brain-pleasure-responses-music
