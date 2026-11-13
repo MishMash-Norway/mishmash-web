@@ -8,13 +8,6 @@ image: /assets/images/portraits/Baltasar_Beferull_Simula.jpg
 institution: simula-metropolitan-center-for-digital-engineering
 institutions:
 - simula-metropolitan-center-for-digital-engineering
-locked_fields:
-- institution
-- institutions
-- position
-- department
-- affiliation_units
-- nva_affiliations
 affiliation_units:
 - Simula Metropolitan Center for Digital Engineering
 nva_affiliations:
@@ -348,6 +341,8 @@ selected_works:
     url: /people/ali-ramezani-kebrya/
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
   - name: David S. Leslie
     role: Creator
   - name: Matteo Iervasi
@@ -381,6 +376,13 @@ selected_works:
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''
+locked_fields:
+- institution
+- institutions
+- position
+- department
+- affiliation_units
+- nva_affiliations
 wps:
 - WP1
 - WP3

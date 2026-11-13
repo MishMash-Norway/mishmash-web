@@ -60,6 +60,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
 - title: 'micromotion: A Python toolbox for analysing human micromotion in motion
     time series'
   year: '2026'
@@ -208,6 +210,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
   - name: Hugo Lewi Hammer
     role: Creator
 - title: 'Audience Musical Absorption: Exploring Attention and Affect in the Live

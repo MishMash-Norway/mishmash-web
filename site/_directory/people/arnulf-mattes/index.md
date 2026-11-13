@@ -23,7 +23,7 @@ roles:
 - Work Package Leader
 urls:
   personal_website: https://www4.uib.no/en/find-employees/Arnulf.Christian.Mattes
-  institutional_website: ''
+  institutional_website: https://www4.uib.no/finn-ansatte/arnulf-christian.mattes
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0000-0002-3538-7765
@@ -34,8 +34,12 @@ urls:
   wikidata: https://www.wikidata.org/wiki/Q138300907
 aliases: []
 tags:
+- Cultural Heritage and Memory
+- Digital Humanities
 - Musicology
 search_keywords:
+- Cultural Heritage and Memory
+- Digital Humanities
 - Musicology
 selected_works:
 - title: '‘Forgotten Voices’ in Norwegian Musical Heritage: A case study of composer
@@ -51,6 +55,18 @@ selected_works:
     role: Creator
     slug: arnulf-mattes
     url: /people/arnulf-mattes/
+- title: Edvard Grieg and Norwegian Musical Heritage Digital Work Catalogues
+  year: '2025'
+  source: Dataset
+  group_type: Dataset
+  url: https://katalog.musikkarven.no/cat-site/navigation.xq
+  contributors:
+  - name: Arnulf Christian Mattes
+    role: Editor
+    slug: arnulf-mattes
+    url: /people/arnulf-mattes/
+  - name: Daniel Henry Øvrebø
+    role: Editor
 - title: 'Tracing ‘Neoclassicism’ in Norway: A Tentative Conceptual Survey'
   year: '2025'
   source: Journal article
@@ -58,6 +74,20 @@ selected_works:
   contributors:
   - name: Arnulf Christian Mattes
     role: Creator
+    slug: arnulf-mattes
+    url: /people/arnulf-mattes/
+- title: Tveitt songs
+  year: '2024'
+  source: Music performance
+  group_type: Music performance
+  url: https://www.lawo.no/releases/lwc1344-tveitt-songs/
+  contributors:
+  - name: Signe Bakke
+    role: Musician
+  - name: Liv Elise Nordskog
+    role: Musician
+  - name: Arnulf Christian Mattes
+    role: RoleOther
     slug: arnulf-mattes
     url: /people/arnulf-mattes/
 - title: 'Editorial: “Sharpening Difference”—Academic Writing and AI'
@@ -125,25 +155,6 @@ selected_works:
 - title: Tempo und Charakter in Beethovens Musik (Rudolf Kolisch; hrsg. von R. Busch
     und D. Satz, München 1992)
   year: '2022'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Arnulf Christian Mattes
-    role: Creator
-    slug: arnulf-mattes
-    url: /people/arnulf-mattes/
-- title: Zur Theorie der Aufführung (Rudolf Kolisch; hrsg. von H.-K. Metzger und R.
-    Riehn, München 1983)
-  year: '2022'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Arnulf Christian Mattes
-    role: Creator
-    slug: arnulf-mattes
-    url: /people/arnulf-mattes/
-- title: Fartein Valen’s atonal breakthrough
-  year: '2021'
   source: Book chapter
   group_type: Book chapter
   contributors:

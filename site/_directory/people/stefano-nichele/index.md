@@ -285,6 +285,8 @@ selected_works:
     url: /people/ali-ramezani-kebrya/
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
   - name: David S. Leslie
     role: Creator
   - name: Matteo Iervasi

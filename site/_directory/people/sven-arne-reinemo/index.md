@@ -106,6 +106,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
 - title: Nationwide rollout reveals efficacy of epidemic control through digital contact
     tracing
   year: '2021'

@@ -77,6 +77,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
   - name: Michael Riegler
     role: Creator
   - name: Binh T. Nguyen
@@ -100,6 +102,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
   - name: Michael Riegler
     role: Creator
   - name: Binh T. Nguyen
@@ -126,6 +130,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
 - title: The Climber's Grip -- Personalized Deep Learning Models for Fear and Muscle
     Activity in Climbing
   year: '2026'
@@ -147,6 +153,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
 - title: 'ECG-IMN: Interpretable Mesomorphic Neural Networks for 12-Lead Electrocardiogram
     Interpretation'
   year: '2026'
@@ -164,6 +172,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
 - title: 'Sampling Matters: the Effect of Ecg Frequency on Deep Learning-Based Atrial
     Fibrillation Detection'
   year: '2026'
@@ -185,6 +195,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
   - name: Vajira L B Thambawita
     role: Creator
 - title: Improved Predictive Performance and Interpretability for Mesomorphic Neural
@@ -201,6 +213,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
 - title: 'Map2VidSeg Revisited: A controlled-upgrade study of classifier-derived prompts
     for medical video segmentation'
   year: '2026'
@@ -216,6 +230,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
 - title: 'Knowledge-Guided Retrieval-Augmented Generation for Zero-Shot Psychiatric
     Data: Privacy Preserving Synthetic Data Generation'
   year: '2026'
@@ -235,6 +251,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
   - name: Vajira L B Thambawita
     role: Creator
 - title: 'Calliope: A TTS-based Narrated E-book Creator Ensuring Exact Synchronization,
@@ -250,6 +268,8 @@ selected_works:
     role: Creator
   - name: Pål Halvorsen
     role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
 source_mentions: []
 summary: null
 published: true

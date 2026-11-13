@@ -3,7 +3,7 @@ type: person
 slug: sondre-knudsen
 name: Sondre Knudsen
 title: Sondre Knudsen
-position: PhD fellow
+position: PhD student
 department: Department of Law and Governance
 institution: bi-norwegian-business-school
 institutions:
@@ -18,7 +18,7 @@ urls:
   github: ''
   linkedin: ''
   orcid: ''
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/1897109
   youtube: ''
   mastodon: ''
   instagram: ''
