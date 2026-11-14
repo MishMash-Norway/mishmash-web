@@ -8,9 +8,9 @@ wps:
 tags:
 - PhD Project
 - Education
-- AI in education
-- Music education
-- Creative technology
+- AI in Education
+- Music Education
+- Creative Technology
 slug: ai-mediated-fine-arts-education
 name: AI Mediated Fine Arts Education
 people: []

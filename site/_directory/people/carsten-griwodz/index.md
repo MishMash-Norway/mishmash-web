@@ -52,6 +52,28 @@ search_keywords:
 - Operating Systems
 - Informatics
 selected_works:
+- title: Towards Server-Grade Device Pooling Over Routable PCIe with Improved and
+    Scalable Systems Software
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Magnus Kalland
+    role: Creator
+  - name: Jonas Markussen
+    role: Creator
+  - name: Lars Bjørlykke Kristiansen
+    role: Creator
+  - name: Tore Heide Larsen
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+  - name: Håkon Kvale Stensland
+    role: Creator
+  - name: Tor Skeie
+    role: Creator
 - title: 'Research Proposal: Non-intrusive Stress Recognition using Multimodality
     Deep Learning'
   year: '2026'
@@ -226,26 +248,6 @@ selected_works:
     slug: carsten-griwodz
     url: /people/carsten-griwodz/
   - name: Davide Rocchesso
-    role: Creator
-- title: Acceptable Latency in Predictable First-Person VR Cloud Games
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/3712677.3720467
-  contributors:
-  - name: Håkon Medhus Fornes
-    role: Creator
-  - name: Elias Hoel Birketvedt
-    role: Creator
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
-  - name: Magnus Skjegstad
-    role: Creator
-  - name: Michael Welzl
-    role: Creator
-  - name: Ozgu Alay
     role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md

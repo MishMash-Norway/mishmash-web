@@ -21,16 +21,16 @@ urls:
   youtube: ''
   mastodon: ''
   instagram: ''
-  wikidata: ''
+  wikidata: https://www.wikidata.org/wiki/Q133420566
 aliases: []
 tags:
-- performing arts
-- epistemological pluralism
-- physicist
+- Performing Arts
+- Epistemological Pluralism
+- Physicist
 search_keywords:
-- performing arts
-- epistemological pluralism
-- physicist
+- Performing Arts
+- Epistemological Pluralism
+- Physicist
 selected_works:
 - title: Taking over Authorship
   year: '2025'

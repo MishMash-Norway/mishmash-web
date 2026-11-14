@@ -8,9 +8,9 @@ wps:
 tags:
 - PhD Project
 - Health
-- Music therapy
+- Music Therapy
 - Accessibility
-- AI in health and well-being
+- AI in Health and Well-Being
 slug: co-designing-accessible-ai-tools-with-music-therapists
 name: Co-designing accessible AI tools with music therapists
 people: []

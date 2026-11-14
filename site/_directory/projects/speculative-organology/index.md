@@ -10,10 +10,10 @@ wps:
 tags:
 - PhD Project
 - Organology
-- AI in artistic processes
-- Instrument design
-- Musical systems
-- Artistic research
+- AI in Artistic Processes
+- Instrument Design
+- Musical Systems
+- Artistic Research
 slug: speculative-organology
 name: Speculative Organology
 people:

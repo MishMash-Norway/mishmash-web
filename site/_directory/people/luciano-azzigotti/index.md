@@ -1,5 +1,4 @@
 ---
-layout: person
 type: person
 slug: luciano-azzigotti
 name: Luciano Azzigotti
@@ -91,6 +90,7 @@ summary: Luciano Azzigotti is a composer and media artist whose work focuses on 
   de musique de Genève and at UNTREF Argentina. As a curator he founded conDiT Buenos
   Aires and container, and directed the TACEC Experimental Center (2018) at Teatro
   Argentino de La Plata. He works between Oslo, Bern and Buenos Aires.
+layout: person
 permalink: /people/luciano-azzigotti/
 published: true
 wps:
