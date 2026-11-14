@@ -76,6 +76,7 @@ projects:
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq
 - scsci-workshops-and-concert
+- tao-transductive-acoustic-organism
 - the-mishmash-website
 - tool-for-tools
 - when-creativity-meets-criticality

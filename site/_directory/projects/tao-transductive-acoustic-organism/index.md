@@ -22,6 +22,7 @@ institutions:
 - kristiania-university-college
 - oslo-school-of-architecture-and-design
 - university-of-inland-norway
+- university-of-oslo
 projects: []
 ---
 
@@ -42,3 +43,4 @@ Primary WP: [WP1](/wp1/)
 - [Oslo School of Architecture and Design](/institutions/oslo-school-of-architecture-and-design/)
 - [Kristiania University College](/institutions/kristiania-university-college/)
 - [University of Inland Norway](/institutions/university-of-inland-norway/)
+- [University of Oslo](/institutions/university-of-oslo/)
