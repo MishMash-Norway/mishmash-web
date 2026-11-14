@@ -23,6 +23,7 @@ people:
 - aedan-soellaart
 - alexander-refsum-jensenius
 - carsten-griwodz
+- eirik-slinning-karlsen
 - eirik-sorbo
 - eskil-muan-saether
 - kyrre-glette
@@ -92,7 +93,7 @@ Cross-work-package initiative (WP1–WP7)
 ## People
 
 - Project leader: [Alexander Refsum Jensenius](/people/alexander-refsum-jensenius/)
-- Participants: [Aedan Soellaart](/people/aedan-soellaart/), [Carsten Griwodz](/people/carsten-griwodz/), [Stefano Fasciani](/people/stefano-fasciani/), [Eirik Sørbø](/people/eirik-sorbo/), [Kyrre Glette](/people/kyrre-glette/), [Eskil Muan Sæther](/people/eskil-muan-saether/), [Sashidharan Komandur](/people/sashi-komandur/)
+- Participants: [Aedan Soellaart](/people/aedan-soellaart/), [Carsten Griwodz](/people/carsten-griwodz/), [Stefano Fasciani](/people/stefano-fasciani/), [Eirik Sørbø](/people/eirik-sorbo/), [Eirik Slinning Karlsen](/people/eirik-slinning-karlsen/), [Kyrre Glette](/people/kyrre-glette/), [Eskil Muan Sæther](/people/eskil-muan-saether/), [Sashidharan Komandur](/people/sashi-komandur/)
 
 ## Institutions
 

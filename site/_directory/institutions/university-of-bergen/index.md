@@ -38,6 +38,7 @@ projects:
 - ai-integration-film-tv-education
 - ai-transcription-of-music
 - archival-intelligence
+- co-designing-accessible-ai-tools-with-music-therapists
 - curating-ai-driven-artistic-processes
 - music-archive-of-the-future
 - musical-doppelgangers

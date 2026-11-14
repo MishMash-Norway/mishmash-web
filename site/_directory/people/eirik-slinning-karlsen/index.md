@@ -10,6 +10,7 @@ institutions:
 - university-of-oslo
 projects:
 - creative-admin
+- the-mishmash-website
 roles:
 - Communication and Coordination
 urls:

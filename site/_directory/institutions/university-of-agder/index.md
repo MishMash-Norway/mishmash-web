@@ -26,6 +26,7 @@ people:
 - sunniva-whittaker
 projects:
 - agency-and-control-in-musical-ensemble
+- ai-mediated-fine-arts-education
 - evaluation-cultural-bias-workflow-ai-music-generation
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq
