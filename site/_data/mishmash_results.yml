@@ -1,4 +1,4 @@
-synced_at: '2026-11-14T12:14:07Z'
+synced_at: '2026-11-15T12:53:30Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -6137,6 +6137,218 @@ results:
     nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
   url: https://doi.org/10.1093/mts/mtab013
   nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+- title: 'Forskningsetikk og KI: Hvor går grensen?'
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Geir Kjetil Ferkingstad Sandve
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Sandve, Geir Kjetil Ferkingstad
+      name: Geir Kjetil Ferkingstad Sandve
+    title: 'Forskningsetikk og KI: Hvor går grensen?'
+    container: Forskning og KI.
+    details: Oslo.
+    abstract: 'Møteledelse, sammen med Geir Kjetil Sandve, av det fjerde og siste
+      møtet i Det Norske Videnskaps-Akademis møteserie Forskning og KI. Vi innledet
+      om hvor grensen går for bruk av kunstig intelligens i forskning, og ledet samtalen
+      med Helene Ingierd (De nasjonale forskningsetiske komiteene), Ole-Andreas Rognstad
+      (UiO), Joey Pollock (UiO) og Christoph Trattner (MediaFutures) om høringsutkastet
+      til veileder for etisk bruk av KI i forskning, om plagiat, opphavsrett og forholdet
+      mellom etikk og jus, om KI sett fra filosofien og om bruk i praksis, før spørsmål
+      fra salen. Møtet var åpent og ble strømmet. Opptak: https://www.youtube.com/watch?v=mP0Qcl67wn4'
+    full_text_url: https://hdl.handle.net/11250/5598408
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1da0e4701-d6c8310b-213c-45b1-9042-784eb8fb6567
+  url: https://www.dnva.no/detskjer/2026/10/forskningsetikk-og-ki-hvor-gar-grensen
+  nva_url: https://nva.sikt.no/registration/01a1da0e4701-d6c8310b-213c-45b1-9042-784eb8fb6567
+- title: Transparens er ikke så vanskelig, vi har alt vi trenger for fornuftig bruk
+    av KI
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: Transparens er ikke så vanskelig, vi har alt vi trenger for fornuftig bruk
+      av KI
+    container: 'Forum for forskningsetikk: KI i forskerutdanningen, venn, verktøy
+      eller villspor?.'
+    details: Oslo.
+    abstract: 'Presentasjonen tar utgangspunkt i egen bruk av en rekke KI-verktøy
+      i forskning, skriving, programmering og administrasjon, og argumenterer for
+      at det viktigste etiske grepet er større åpenhet. Vi trenger ikke finne opp
+      hjulet: versjonskontroll, tidsstempler, unike identifikatorer og arbeidslogger
+      gjør det allerede mulig å dokumentere med stor nøyaktighet hva som er gjort
+      av mennesker og hva som er gjort av maskiner. Det som mangler, er en kultur
+      for å bruke verktøyene i forskerutdanningen, en infrastruktur uten hull, og
+      mennesker som kan hjelpe. Det vi derimot ikke har kontroll på, er innholdet
+      i svartboksmodellene, særlig de kommersielle. Derfor bør vi satse mer på egne
+      modeller vi har innsyn i, som er et hovedfokus i MishMash Senter for KI og kreativitet.'
+    full_text_url: https://hdl.handle.net/11250/5598409
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1da0e460d-29018727-644d-494d-a6fe-7754067ea3ab
+  url: https://www.uio.no/forskning/arrangementer/andre/forskningsetikk/forum-for-forskningsetikk-ki-forskerutdanning.html
+  nva_url: https://nva.sikt.no/registration/01a1da0e460d-29018727-644d-494d-a6fe-7754067ea3ab
+- title: FAIR but not open? Copyright lessons from QualiFAIR and RITMO
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: FAIR but not open? Copyright lessons from QualiFAIR and RITMO
+    container: UiO Data Management Network.
+    details: Oslo.
+    abstract: 'Research data can be FAIR without being open, often because of privacy
+      or copyright. Privacy has had a lot of attention at the University of Oslo in
+      recent years; copyright has had much less. In this talk, I summarise the note
+      from the QualiFAIR copyright working group, published in 2024, which mapped
+      the copyright challenges researchers meet when archiving and sharing qualitative
+      data. We found little expertise and no obvious place to ask, and gave six recommendations
+      to the university: information pages, recommended licences per data type, systems
+      for licence management, training, awareness among leaders, and clear roles for
+      the first, second and third line of support. I then show how we handle recordings
+      of real music at RITMO and in the fourMs Lab, where one concert can involve
+      composers, performers, producers and film makers, and where we deposit derived
+      features rather than copyrighted audio. I argue that data should be born FAIR,
+      with a licence and a privacy level attached from the moment of collection. Finally,
+      I look briefly at what has happened since the report, as generative AI puts
+      new pressure on research and cultural data, and at how the MishMash Centre for
+      AI and Creativity handles rights.'
+    full_text_url: https://hdl.handle.net/11250/5598410
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1da0e44ae-7839f957-da15-4638-aa70-f8ec8a47336f
+  nva_url: https://nva.sikt.no/registration/01a1da0e44ae-7839f957-da15-4638-aa70-f8ec8a47336f
+- title: 'AI and the Future of Creativity: How Humans and Machines Can Create Together'
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: 'AI and the Future of Creativity: How Humans and Machines Can Create Together'
+    container: Guest lecture in the course Translational Artificial Intelligence II,
+      bachelor's programme in Artificial Intelligence.
+    details: Hamar.
+    abstract: 'Generative AI is often presented as either a threat to creative work
+      or a promise of endless new possibilities. In this lecture, I argue that both
+      are true at once, and that "for or against AI" is the wrong question. The useful
+      question is which system, used by whom, for what, and with what consequences.
+      I start from Margaret Boden''s definition of creativity as something both novel
+      and valuable. Machines can now produce novelty at scale, but deciding what has
+      value remains a human judgement that needs exploration. With examples from my
+      own research, including self-playing guitars that play more the less you move
+      and MusicLab research concerts, I discuss how people and machines can create
+      together. I then turn to the harder questions: how AI changes creative roles
+      and professional identities, what meaningful human control looks like, who owns
+      works made from training data collected without consent, and why outputs risk
+      becoming more uniform when everyone uses the same models. Small models trained
+      on one''s own material offer one alternative. The lecture draws on the work
+      of MishMash Centre for AI and Creativity, a national research centre with partners
+      across Norway, and ends with questions for discussion.'
+    full_text_url: https://hdl.handle.net/11250/5598411
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1da0e43cd-45cbc3fb-0a3a-4210-af43-922f357e77cb
+  nva_url: https://nva.sikt.no/registration/01a1da0e43cd-45cbc3fb-0a3a-4210-af43-922f357e77cb
+- title: MishMash og INN
+  year: '2026'
+  type: OtherPresentation
+  type_label: Presentation
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  - name: Ida Jahr
+    role: Creator
+    slug: ida-jahr
+    url: /people/ida-jahr/
+  - name: Nina Grünfeld
+    role: Creator
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  - name: University of Inland Norway
+    slug: university-of-inland-norway
+    url: /institutions/university-of-inland-norway/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    - display: Jahr, Ida
+      name: Ida Jahr
+      slug: ida-jahr
+      url: /people/ida-jahr/
+    - display: Grünfeld, Nina
+      name: Nina Grünfeld
+    title: MishMash og INN
+    container: Styremøte ved Universitetet i Innlandet.
+    details: Hamar.
+    abstract: Orientering for styret ved Universitetet i Innlandet om MishMash, Senter
+      for KI og kreativitet.
+    full_text_url: https://hdl.handle.net/11250/5598412
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1da0e3935-2da75f9d-3df0-46f1-adbf-cd4c13ae498f
+  nva_url: https://nva.sikt.no/registration/01a1da0e3935-2da75f9d-3df0-46f1-adbf-cd4c13ae498f
 - title: 'AI as Environment: Artistic Strategies'
   year: '2026'
   type: Lecture
