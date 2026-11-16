@@ -18,6 +18,7 @@ people:
 - changkyu-choi
 - fredrik-graver
 - hanne-lovise-skartveit
+- hans-kristian-strandstuen-rustad
 - havard-vibeto
 - ida-jahr
 - lars-rasch

@@ -26,6 +26,12 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Vertically stratified long-range transport of biomass-burning aerosol over
+    Reunion Island during September 2017
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.5194/acp-26-16151-2026
 - title: Global continental and oceanic emissions of atmospheric microplastics inferred
     from pattern-restricted Bayesian inversion
   year: '2026'
@@ -79,12 +85,6 @@ selected_works:
   source: Preprint
   group_type: Preprint
   url: https://doi.org/10.5194/essd-2026-211
-- title: Supplementary material to "Characterization and applications of multi-decadal
-    black carbon observations at a Mediterranean mountain site"
-  year: '2026'
-  source: Preprint
-  group_type: Preprint
-  url: https://doi.org/10.5194/essd-2026-211-supplement
 source_mentions: []
 summary: null
 published: true

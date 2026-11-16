@@ -1,4 +1,4 @@
-synced_at: '2026-11-15T12:53:30Z'
+synced_at: '2026-11-16T13:40:16Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -5604,12 +5604,12 @@ results:
   - name: Catuscia Palamidessi
     role: Creator
   institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
   - name: University of Inland Norway
     slug: university-of-inland-norway
     url: /institutions/university-of-inland-norway/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
   citation:
     authors:
     - display: Jung, Kangsoo
