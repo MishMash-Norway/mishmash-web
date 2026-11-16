@@ -219,6 +219,7 @@ categories:
 # check in scripts/test_compute_access.py still covers every partner, and a new
 # partner added to the directory trips it rather than vanishing from the page.
 excluded:
+  academy-of-fine-arts-naples: Partner outside Norway; use your own country's national provider.
   aalborg-university: Partner outside Norway; use your own country's national provider.
   aalto-university: Partner outside Norway; use your own country's national provider.
   australian-national-university: Partner outside Norway; use your own country's national provider.
@@ -416,6 +417,10 @@ institutions:
   muzziball:
     category: no-company
   reimagine:
+    category: no-company
+  be-possible:
+    category: no-company
+  artskill:
     category: no-company
 
   # Norwegian foundations
