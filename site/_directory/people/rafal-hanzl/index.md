@@ -14,7 +14,7 @@ roles:
 - Member
 urls:
   personal_website: https://creativetechnologist.eu
-  institutional_website: https://phygitalspaces.org
+  institutional_website: ''
   github: https://github.com/rvrooom
   linkedin: https://www.linkedin.com/in/rafał-hanzl-992b0733/
   orcid: https://orcid.org/0000-0001-6316-2320
@@ -54,9 +54,9 @@ selected_works:
 - title: 'Chromatic Concealment: Multi-Layer Textile Projection for Depth in Bright
     Museum Environments'
   year: '2026'
-  source: Conference poster
-  group_type: Conference
-  url: https://eg-gch2026.github.io/program
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.2312/gch.20261032
   contributors:
   - name: Rafal Hanzl
     role: Creator
@@ -66,6 +66,18 @@ selected_works:
     role: Creator
     slug: jannicke-johansen
     url: /people/jannicke-johansen/
+- title: Playing cultural heritage on site
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1080/14626268.2026.2760877
+  contributors:
+  - name: Maureen Thomas
+    role: Creator
+  - name: Rafal Hanzl
+    role: Creator
+    slug: rafal-hanzl
+    url: /people/rafal-hanzl/
 - title: Digitale tvillinger - Fortidens materialitet i fremtidens form
   year: '2026'
   source: Exhibition
@@ -188,32 +200,6 @@ selected_works:
     url: /people/rafal-hanzl/
   - name: Maureen Thomas
     role: Writer
-- title: QueensGame
-  year: '2022'
-  source: Film or video
-  group_type: Film or video
-  url: https://runecast.net/queens-game/
-  contributors:
-  - name: Maureen Thomas
-    role: Screenwriter
-  - name: Kariina Gretere Composer SInger
-    role: RoleOther
-  - name: Wenche Hellekås Concept Art 3D Character Animation
-    role: RoleOther
-  - name: Sindre Lie 3D Art Environment Design
-    role: RoleOther
-  - name: Idunn Agústsdóttir Sound Design
-    role: SoundDesigner
-  - name: Rafal Hanzl
-    role: RoleOther
-    slug: rafal-hanzl
-    url: /people/rafal-hanzl/
-  - name: Johannes Skjeltorp-Borgaas Programmer
-    role: RoleOther
-  - name: Maureen Thomas
-    role: Director
-  - name: Maureen Thomas
-    role: Producer
 source_mentions: []
 summary: Researcher and digital artist specialising in immersive technologies, projection
   mapping, and cultural heritage digitisation. Honorary Professor at Kristiania University

@@ -3,7 +3,8 @@ type: person
 slug: monika-herzig
 name: Monika Herzig
 title: Monika Herzig
-position: Dean of Music Education/ Professor of Artistic Research
+position: Vice Rector for Diversity and Internationalization and Professor of Artistic
+  Research
 department: Artistic Research
 institution: jam-music-lab-private-university
 institutions:

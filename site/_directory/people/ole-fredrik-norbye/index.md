@@ -37,6 +37,41 @@ search_keywords:
 - Popular Music
 - Music
 selected_works:
+- title: Minikonsert med Kublai trio
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Ole Fredrik Norbye
+    role: Musician
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
+  - name: Per Oddvar Johansen
+    role: Musician
+  - name: Njål Ølnes
+    role: Musician
+    slug: njal-olnes
+    url: /people/njal-olnes/
+- title: Musikersamtale med Kublai trio på INNKU 2026.
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://embed.acast.com/$/641af9ed07ba4a0011dbb1ae/6aeb3ea14e103f04dec30e36?
+  contributors:
+  - name: Njål Ølnes
+    role: RoleOther
+    slug: njal-olnes
+    url: /people/njal-olnes/
+  - name: Ole Fredrik Norbye
+    role: RoleOther
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
+  - name: Mathieu Lacroix
+    role: RoleOther
+    slug: mathieu-lacroix
+    url: /people/mathieu-lacroix/
+  - name: Per Oddvar Johansen
+    role: RoleOther
 - title: Can art arise without search or exploration?
   year: '2026'
   source: Conference poster
@@ -130,29 +165,6 @@ selected_works:
     role: Creator
   - name: Bernt Rune Stray
     role: Creator
-- title: "Posterpresentasjon:Improvisasjon som \r\nundervisningsmetode – en pedagogisk\
-    \ \r\nbalansekunst"
-  year: '2024'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Ole Fredrik Norbye
-    role: Creator
-    slug: ole-fredrik-norbye
-    url: /people/ole-fredrik-norbye/
-  - name: Linnéa K. Jermstad
-    role: Creator
-  - name: Bernt Rune Stray
-    role: Creator
-- title: Solokonsert - Manglerud Kirke
-  year: '2023'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Ole Fredrik Norbye
-    role: Composer
-    slug: ole-fredrik-norbye
-    url: /people/ole-fredrik-norbye/
 source_mentions: []
 summary: ''
 wps:

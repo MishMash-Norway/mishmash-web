@@ -170,6 +170,8 @@ selected_works:
     role: Supervisor
   - name: Hans Kristian Strandstuen Rustad
     role: Supervisor
+    slug: hans-kristian-strandstuen-rustad
+    url: /people/hans-kristian-strandstuen-rustad/
 source_mentions: []
 summary: Håvard Vibeto is both a film scholar and a game researcher who is primarily
   concerned with aesthetics and how this forms the experiential dimension of media

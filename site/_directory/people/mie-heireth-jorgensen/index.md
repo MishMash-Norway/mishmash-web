@@ -25,17 +25,17 @@ urls:
   facebook: ''
 aliases: []
 tags:
-- Strategic communications
+- Strategic Communications
 - Branding
-- Digital learning
+- Digital Learning
 - Entrepreneurship
-- Cultural heritage
+- Cultural Heritage
 search_keywords:
-- Strategic communications
+- Strategic Communications
 - Branding
-- Digital learning
+- Digital Learning
 - Entrepreneurship
-- Cultural heritage
+- Cultural Heritage
 selected_works: []
 source_mentions: []
 summary: null

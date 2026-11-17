@@ -24,19 +24,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- AI in music education
-- music literacy
-- sight-reading
-- solfège
-- ear training
-- music theory pedagogy
+- AI in Music Education
+- Music Literacy
+- Sight-Reading
+- Solfège
+- Ear Training
+- Music Theory Pedagogy
 search_keywords:
-- AI in music education
-- music literacy
-- sight-reading
-- solfège
-- ear training
-- music theory pedagogy
+- AI in Music Education
+- Music Literacy
+- Sight-Reading
+- Solfège
+- Ear Training
+- Music Theory Pedagogy
 selected_works: []
 source_mentions: []
 summary: Giordano Fiorini received a Bachelor’s degree in Performing Arts from the

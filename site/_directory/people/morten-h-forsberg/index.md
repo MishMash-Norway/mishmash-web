@@ -3,8 +3,8 @@ type: person
 slug: morten-h-forsberg
 name: Morten H. Forsberg
 title: Morten H. Forsberg
-position: University college instructor/student teacher
-department: Department of Performing Arts, Film and Media
+position: Associate professor
+department: Faculty of Society, Arts and Media
 institution: kristiania-university-college
 institutions:
 - kristiania-university-college
@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: https://www.mortenforsberg.com
-  institutional_website: ''
+  institutional_website: https://mortenforsberg.com/
   github: ''
   linkedin: ''
   orcid: ''

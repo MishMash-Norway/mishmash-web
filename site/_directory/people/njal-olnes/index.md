@@ -22,7 +22,7 @@ roles:
 - Member
 urls:
   personal_website: https://njal.olnes.no
-  institutional_website: https://www.inn.no/finn-en-ansatt/njal-olnes.html
+  institutional_website: ''
   github: ''
   linkedin: https://www.linkedin.com/in/njål-ølnes-57761333/?isSelfProfile=true
   orcid: https://orcid.org/0000-0001-6735-6173
@@ -47,6 +47,41 @@ search_keywords:
 - Improvisation
 - Method
 selected_works:
+- title: Minikonsert med Kublai trio
+  year: '2026'
+  source: Music performance
+  group_type: Music performance
+  contributors:
+  - name: Ole Fredrik Norbye
+    role: Musician
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
+  - name: Per Oddvar Johansen
+    role: Musician
+  - name: Njål Ølnes
+    role: Musician
+    slug: njal-olnes
+    url: /people/njal-olnes/
+- title: Musikersamtale med Kublai trio på INNKU 2026.
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://embed.acast.com/$/641af9ed07ba4a0011dbb1ae/6aeb3ea14e103f04dec30e36?
+  contributors:
+  - name: Njål Ølnes
+    role: RoleOther
+    slug: njal-olnes
+    url: /people/njal-olnes/
+  - name: Ole Fredrik Norbye
+    role: RoleOther
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
+  - name: Mathieu Lacroix
+    role: RoleOther
+    slug: mathieu-lacroix
+    url: /people/mathieu-lacroix/
+  - name: Per Oddvar Johansen
+    role: RoleOther
 - title: 'How to develop aural-improvisational powers in higher music education: Pedagogical
     and philosophical perspectives'
   year: '2026'
@@ -148,32 +183,6 @@ selected_works:
     role: AcademicCoordinator
     slug: njal-olnes
     url: /people/njal-olnes/
-- title: Heartlands
-  year: '2023'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Njål Ølnes
-    role: Composer
-    slug: njal-olnes
-    url: /people/njal-olnes/
-- title: Truet Art
-  year: '2022'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Njål Ølnes
-    role: Artist
-    slug: njal-olnes
-    url: /people/njal-olnes/
-  - name: Frode Haltli
-    role: Artist
-  - name: Trygve Seim
-    role: Artist
-  - name: Marthe Lea
-    role: Artist
-  - name: Marius Kolbenstvedt
-    role: Artist
 source_mentions: []
 summary: Njål Ølnes is a professor at the Department of Art and Cultural Studies,
   INN and visiting professor at NLA University College, Oslo. He holds a Ph.D. in

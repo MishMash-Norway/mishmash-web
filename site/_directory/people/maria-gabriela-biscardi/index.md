@@ -26,19 +26,17 @@ urls:
 aliases: []
 tags:
 - Leadership
-- women
-- AI
+- Women
 - Artificial Intelligence
 - Coaching
-- Business psychology
+- Business Psychology
 - Management
 search_keywords:
 - Leadership
-- women
-- AI
+- Women
 - Artificial Intelligence
 - Coaching
-- Business psychology
+- Business Psychology
 - Management
 selected_works: []
 source_mentions: []

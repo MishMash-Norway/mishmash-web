@@ -54,9 +54,9 @@ selected_works:
 - title: 'Chromatic Concealment: Multi-Layer Textile Projection for Depth in Bright
     Museum Environments'
   year: '2026'
-  source: Conference poster
-  group_type: Conference
-  url: https://eg-gch2026.github.io/program
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.2312/gch.20261032
   contributors:
   - name: Rafal Hanzl
     role: Creator

@@ -47,6 +47,8 @@ selected_works:
   contributors:
   - name: Hans Kristian Strandstuen Rustad
     role: Creator
+    slug: hans-kristian-strandstuen-rustad
+    url: /people/hans-kristian-strandstuen-rustad/
 - title: Naturen på den andre siden av tenkning. Om utsatthet og ritualer – og brødbaking
     – i Kristin Bergets Middelalderen (2024).
   year: '2025'
@@ -55,6 +57,8 @@ selected_works:
   contributors:
   - name: Hans Kristian Strandstuen Rustad
     role: Creator
+    slug: hans-kristian-strandstuen-rustad
+    url: /people/hans-kristian-strandstuen-rustad/
 - title: Jakob Lien, Maskintekstar. Sammankopplingar av människan och det digitala
     i svensk litteratur 1965-1980.
   year: '2025'
@@ -63,6 +67,8 @@ selected_works:
   contributors:
   - name: Hans Kristian Strandstuen Rustad
     role: Creator
+    slug: hans-kristian-strandstuen-rustad
+    url: /people/hans-kristian-strandstuen-rustad/
 - title: 583IV.12 Posthumanism and Poetry in the Anthropocene
   year: '2025'
   source: Book chapter
@@ -71,6 +77,8 @@ selected_works:
   contributors:
   - name: Hans Kristian Strandstuen Rustad
     role: Creator
+    slug: hans-kristian-strandstuen-rustad
+    url: /people/hans-kristian-strandstuen-rustad/
 - title: National Identity and Nomadic Subjectivity in Norwegian War Poetry
   year: '2025'
   source: Journal article
@@ -79,6 +87,8 @@ selected_works:
   contributors:
   - name: Hans Kristian Strandstuen Rustad
     role: Creator
+    slug: hans-kristian-strandstuen-rustad
+    url: /people/hans-kristian-strandstuen-rustad/
 - title: Gyrðir Elíassons spøkelser og lyrikkens hauntologi
   year: '2025'
   source: Journal article
@@ -87,6 +97,8 @@ selected_works:
   contributors:
   - name: Hans Kristian Strandstuen Rustad
     role: Creator
+    slug: hans-kristian-strandstuen-rustad
+    url: /people/hans-kristian-strandstuen-rustad/
 - title: Hødnebøs pendel. Stemme og mening i Pendel
   year: '2024'
   source: Book chapter
@@ -94,6 +106,8 @@ selected_works:
   contributors:
   - name: Hans Kristian Strandstuen Rustad
     role: Creator
+    slug: hans-kristian-strandstuen-rustad
+    url: /people/hans-kristian-strandstuen-rustad/
 - title: '"Det besværlige må knytes opp." Innledende bemerkninger'
   year: '2024'
   source: Introduction
@@ -105,6 +119,8 @@ selected_works:
     role: Creator
   - name: Hans Kristian Strandstuen Rustad
     role: Creator
+    slug: hans-kristian-strandstuen-rustad
+    url: /people/hans-kristian-strandstuen-rustad/
 - title: 'Nordisk samtidspoesi: Tone Hødnebøs forfatterskap'
   year: '2024'
   source: Book anthology
@@ -117,6 +133,8 @@ selected_works:
     role: Editor
   - name: Hans Kristian Strandstuen Rustad
     role: Editor
+    slug: hans-kristian-strandstuen-rustad
+    url: /people/hans-kristian-strandstuen-rustad/
 - title: What is Poetry Reading? Ten Theses
   year: '2024'
   source: Book chapter
@@ -125,6 +143,8 @@ selected_works:
   contributors:
   - name: Hans Kristian Strandstuen Rustad
     role: Creator
+    slug: hans-kristian-strandstuen-rustad
+    url: /people/hans-kristian-strandstuen-rustad/
   - name: Louise Mønster
     role: Creator
   - name: Michael Kallesøe Schmidt

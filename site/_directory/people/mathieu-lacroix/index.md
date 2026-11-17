@@ -44,6 +44,26 @@ search_keywords:
 - Composition
 - Music Technology
 selected_works:
+- title: Musikersamtale med Kublai trio på INNKU 2026.
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  url: https://embed.acast.com/$/641af9ed07ba4a0011dbb1ae/6aeb3ea14e103f04dec30e36?
+  contributors:
+  - name: Njål Ølnes
+    role: RoleOther
+    slug: njal-olnes
+    url: /people/njal-olnes/
+  - name: Ole Fredrik Norbye
+    role: RoleOther
+    slug: ole-fredrik-norbye
+    url: /people/ole-fredrik-norbye/
+  - name: Mathieu Lacroix
+    role: RoleOther
+    slug: mathieu-lacroix
+    url: /people/mathieu-lacroix/
+  - name: Per Oddvar Johansen
+    role: RoleOther
 - title: Inarborat på Tofukuji-Tempel
   year: '2026'
   source: Music performance
@@ -144,23 +164,6 @@ selected_works:
     role: Soloist
     slug: mathieu-lacroix
     url: /people/mathieu-lacroix/
-- title: Electric Audio Unit - Aparte Festival
-  year: '2025'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Mathieu Lacroix
-    role: Musician
-    slug: mathieu-lacroix
-    url: /people/mathieu-lacroix/
-  - name: Natasha Barrett
-    role: Musician
-  - name: Ernst van der Loo
-    role: Musician
-  - name: Anders Tveit
-    role: Organizer
-    slug: anders-tveit
-    url: /people/anders-tveit/
 source_mentions: []
 summary: Mathieu Lacroix is a Canadian composer, producer, musician and programmer
   based in Norway, and an associate professor at the Department of Arts and Cultural

@@ -26,6 +26,21 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Self-Replicating Neural Cellular Automata: Quantifying Emergent Phenotypic
+    and Genotypic Diversity in an Open-Ended Substrate'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.3390/jimaging12100496
+  contributors:
+  - name: Sanyam Jain
+    role: Creator
+  - name: Felix Simon Reimers
+    role: Creator
+  - name: Stefano Nichele
+    role: Creator
+    slug: stefano-nichele
+    url: /people/stefano-nichele/
 - title: Influence of neural network bursts on functional development
   year: '2026'
   source: Journal article
@@ -348,28 +363,6 @@ selected_works:
   - name: Sergiy Denysov
     role: Creator
   - name: Pedro Lind
-    role: Creator
-- title: MICRO- AND MESOSCALE ASPECTS OF NEURODEGENERATION IN MULT-NODAL HUMAN NEURAL
-    NETWORKS CARRYING THE LRRK2 G2019S MUTATION
-  year: '2024'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Vibeke Devold Valderhaug
-    role: Creator
-  - name: Ola Huse Ramstad
-    role: Creator
-  - name: Rosanne Francisca van de Wijdeven
-    role: Creator
-  - name: Kristine Heiney
-    role: Creator
-  - name: Stefano Nichele
-    role: Creator
-    slug: stefano-nichele
-    url: /people/stefano-nichele/
-  - name: Ioanna Sandvig
-    role: Creator
-  - name: Axel Sandvig
     role: Creator
 source_mentions: []
 summary: ''

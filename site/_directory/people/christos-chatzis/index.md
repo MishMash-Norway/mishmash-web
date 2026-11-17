@@ -3,8 +3,8 @@ type: person
 slug: christos-chatzis
 name: Christos Chatzis
 title: Christos Chatzis
-position: Postdoctoral fellow
-department: null
+position: PhD student
+department: Simula Metropolitan Center for Digital Engineering
 institution: simula-metropolitan-center-for-digital-engineering
 institutions:
 - simula-metropolitan-center-for-digital-engineering
@@ -17,7 +17,7 @@ urls:
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0008-2595-5934
-  nva: ''
+  nva: https://nva.sikt.no/research-profile/1873580
   youtube: ''
   mastodon: ''
   instagram: ''
@@ -25,35 +25,99 @@ urls:
 aliases: []
 tags:
 - Machine Learning
+- Informatics
 search_keywords:
 - Machine Learning
+- Informatics
 selected_works:
-- title: Revealing subject-specific temporal patterns from longitudinal data
+- title: Revealing Subject-Specific Temporal Patterns from Longitudinal Data
   year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: http://dx.doi.org/10.1093/bioinformatics/btag658
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Christos Chatzis
+    role: Creator
+  - name: David Horner
+    role: Creator
+  - name: Rasmus Bro
+    role: Creator
+  - name: Ann-Marie Malby Schoos
+    role: Creator
+  - name: Morten Arendt Rasmussen
+    role: Creator
+  - name: Evrim Acar
+    role: Creator
+- title: Time-aware methods for detecting and analyzing patterns in time-evolving
+    data
+  year: '2026'
+  source: PhD thesis
+  group_type: PhD thesis
+  contributors:
+  - name: Christos Chatzis
+    role: Creator
 - title: Extracting host-specific developmental signatures from longitudinal microbiome
     data
   year: '2026'
   source: Journal article
   group_type: Journal article
-  url: http://dx.doi.org/10.1371/journal.pcbi.1014486
+  url: https://doi.org/10.1371/journal.pcbi.1014486
+  contributors:
+  - name: Balázs Erdős
+    role: Creator
+  - name: Christos Chatzis
+    role: Creator
+  - name: Jonathan Thorsen
+    role: Creator
+  - name: Jakob Stokholm
+    role: Creator
+  - name: Age K. Smilde
+    role: Creator
+  - name: Morten A. Rasmussen
+    role: Creator
+  - name: Evrim Acar
+    role: Creator
 - title: 'tPARAFAC2: tracking evolving patterns in (incomplete) temporal data'
   year: '2025'
   source: Journal article
   group_type: Journal article
-  url: http://dx.doi.org/10.1007/s10618-025-01122-6
-- title: 'dCMF: Learning Interpretable Evolving Patterns from Temporal Multiway Data'
+  url: https://doi.org/10.1007/s10618-025-01122-6
+  contributors:
+  - name: Christos Chatzis
+    role: Creator
+  - name: Carla Schenker
+    role: Creator
+  - name: Max Pfeffer
+    role: Creator
+  - name: Evrim Acar Ataman
+    role: Creator
+- title: 'dCMF: Learning interpretable evolving patterns from temporal multiway data'
   year: '2025'
-  source: Conference paper
-  group_type: Conference
-  url: http://dx.doi.org/10.23919/eusipco63237.2025.11226087
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.23919/EUSIPCO63237.2025.11226087
+  contributors:
+  - name: Christos Chatzis
+    role: Creator
+  - name: Carla Schenker
+    role: Creator
+  - name: Jérémy E. Cohen
+    role: Creator
+  - name: Evrim Acar Ataman
+    role: Creator
 - title: A Time-Aware Tensor Decomposition for Tracking Evolving Patterns
   year: '2023'
-  source: Conference paper
-  group_type: Conference
-  url: http://dx.doi.org/10.1109/mlsp55844.2023.10285943
+  source: Journal article
+  group_type: Journal article
+  url: https://ieeexplore.ieee.org/document/10285943/
+  contributors:
+  - name: Christos Chatzis
+    role: Creator
+  - name: Max Pfeffer
+    role: Creator
+  - name: Pedro Lind
+    role: Creator
+  - name: Evrim Acar
+    role: Creator
 source_mentions: []
 summary: null
 published: true
