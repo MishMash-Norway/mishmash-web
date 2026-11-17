@@ -232,7 +232,7 @@ python3 scripts/fetch_nettskjema_export.py --form update       # directory updat
 python3 scripts/sympa_additions_from_form.py --since 2026-09-08
 # ... --open goes through the lists one at a time: block on the clipboard, add page in the browser, Enter for the next
 # ... or add them all at once with UiO's sympaadmin (setup in the script's docstring)
-ssh -t login.uio.no sympaadmin < temp/sympa-commands.txt
+scp temp/sympa-commands.txt login.uio.no: && ssh login.uio.no   # then: sympaadmin < sympa-commands.txt
 python3 scripts/sync_directory_reciprocity.py   # mirror people ↔ institutions
 python3 scripts/validate_directory.py
 ```

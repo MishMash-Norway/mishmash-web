@@ -31,13 +31,19 @@ until the last paste.
 The same additions are also written as sympaadmin commands to
 temp/sympa-commands.txt, one "add" line per person and list. sympaadmin is
 UiO's command-line client for Sympa and is installed on login.uio.no; it adds
-members through Sympa's SOAP interface as the list owner, with no browser:
+members through Sympa's SOAP interface as the list owner, with no browser.
+Copy the file over, log in, and feed it to sympaadmin from inside the login
+session, so that the password prompt has a terminal:
 
-    ssh -t login.uio.no sympaadmin < temp/sympa-commands.txt
+    scp temp/sympa-commands.txt login.uio.no:
+    ssh login.uio.no
+    sympaadmin < sympa-commands.txt
 
 It reads ~/.sympaadmin.ini on login.uio.no (soapuser = the owner address,
 soapserver = https://sympa.uio.no/mishmash.no-sympasoap for the mishmash.no
-lists) and asks for the UiO password. "list admin" shows which lists it sees.
+lists; several soapserver lines are allowed) and asks for the UiO password.
+"list admin" shows which lists it sees. A warning about a duplicate
+"version|v|V" option at start-up is harmless.
 
 The script itself sends nothing to Sympa.
 """
@@ -157,7 +163,7 @@ def main() -> int:
         total += len(members)
     print(f"\n{total} additions written to temp/sympa-add-wpN.txt; {skipped_existing} already subscribed (per the list exports in temp/).")
     if total:
-        print("sympaadmin commands: temp/sympa-commands.txt  →  ssh -t login.uio.no sympaadmin < temp/sympa-commands.txt")
+        print("sympaadmin commands: temp/sympa-commands.txt  →  scp it to login.uio.no, log in, then: sympaadmin < sympa-commands.txt")
     if no_wp:
         print(f"\n{len(no_wp)} ticked no work package, so they reach no list (all@ is built from the WP lists):")
         for email, name in no_wp:
