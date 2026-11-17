@@ -422,6 +422,8 @@ institutions:
     category: no-company
   artskill:
     category: no-company
+  new-value-institute:
+    category: no-company
 
   # Norwegian foundations
   skapia:

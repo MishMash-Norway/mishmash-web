@@ -19,6 +19,7 @@ people:
 - anna-maria-christodoulou
 - arthur-jinyue-guo
 - balint-laczko
+- baptiste-bacot
 - benedikte-wallace
 - bernard-geoghegan
 - cagri-erdem
@@ -90,6 +91,7 @@ urls:
   brreg: https://virksomhet.brreg.no/nb/oppslag/enheter/971035854
 aliases:
 - Universitetet i Oslo
+- Universtitetet i Oslo
 - Department of Musicology, University of Oslo
 - Center for Ibsen Studies, UiO
 tags: []

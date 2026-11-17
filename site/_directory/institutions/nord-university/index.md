@@ -14,6 +14,7 @@ people:
 - aedan-soellaart
 - bjorn-tallak-bakken
 - jens-knigge
+- laura-mauerer
 - ole-goethe
 - rose-martin
 - troels-linde
