@@ -2282,3 +2282,30 @@ input:not([type=hidden]):not([type=checkbox]):not([type=radio]) {
   min-width: 24px;
   min-height: 24px;
 }
+
+/* Upcoming conferences callout (conferences_upcoming.html): a tinted box above the event lists,
+   so that the few conferences stand out from the weekly MeshUps. Flat, like the identity. */
+.conference-callout {
+  background: var(--mm-purple-tint);
+  border-left: 6px solid var(--mm-purple-text);
+  padding: 1rem 1.25rem;
+  margin: 0 0 1.5rem 0;
+}
+.conference-callout h3 {
+  margin: 0 0 0.5rem 0;
+}
+.conference-callout-item + .conference-callout-item {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--mm-ink-15);
+}
+.conference-callout p {
+  margin: 0.15rem 0;
+}
+.conference-callout-title {
+  font-weight: 700;
+}
+.conference-callout-deadline {
+  color: var(--mm-ink);
+  font-weight: 700;
+}

@@ -1,0 +1,36 @@
+{% comment %}
+  Callout for the upcoming MishMash conferences, so that they do not drown among the weekly MeshUps.
+  Lists every future event in the Conference category, soonest first. An event may set `deadline`
+  (a date), `deadline_label` (what the deadline is for) and `deadline_label_nb` (the same in Bokmål) in its front matter, and the callout
+  shows them while the deadline has not passed. Pass lang="nb" for Norwegian labels.
+{% endcomment %}
+{% assign conf_lang = include.lang | default: "en" %}
+{% assign conf_all = site.events | where_exp: "item", "item.draft != true" | where_exp: "item", "item.subpage != true" %}
+{% assign conf_all = conf_all | where_exp: "item", "item.categories contains 'Conference'" %}
+{% assign conf_dated = conf_all | where_exp: "item", "item.end_date >= site.time" %}
+{% assign conf_undated = conf_all | where_exp: "item", "item.end_date == nil" | where_exp: "item", "item.date >= site.time" %}
+{% assign conf_future = conf_dated | concat: conf_undated | sort: 'date' %}
+{% if conf_future.size > 0 %}
+<aside class="conference-callout" aria-labelledby="conference-callout-heading">
+  <h3 id="conference-callout-heading">{% if conf_lang == "nb" %}Kommende konferanser{% else %}Upcoming conferences{% endif %}</h3>
+  {% for item in conf_future %}
+  {% assign start_month = item.date | date: "%m" %}
+  {% assign end_month = item.end_date | date: "%m" %}
+  <div class="conference-callout-item">
+    <p class="conference-callout-title"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></p>
+    <p class="conference-callout-when">
+      <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%-d" }}</time>{% if item.end_date %}{% if start_month == end_month %}–<time datetime="{{ item.end_date | date_to_xmlschema }}">{{ item.end_date | date: "%-d %B %Y" }}</time>{% else %} {{ item.date | date: "%B" }}–<time datetime="{{ item.end_date | date_to_xmlschema }}">{{ item.end_date | date: "%-d %B %Y" }}</time>{% endif %}{% else %} {{ item.date | date: "%B %Y" }}{% endif %}{% if item.location %} &middot; {{ item.location }}{% endif %}
+    </p>
+    {% if item.deadline %}
+    {% assign deadline_open = false %}
+    {% assign deadline_end = item.deadline | date: "%s" | plus: 86400 %}
+    {% assign now_s = site.time | date: "%s" | plus: 0 %}
+    {% if deadline_end > now_s %}{% assign deadline_open = true %}{% endif %}
+    {% if deadline_open %}
+    <p class="conference-callout-deadline">{% if conf_lang == "nb" and item.deadline_label_nb %}{{ item.deadline_label_nb }}{% elsif item.deadline_label %}{{ item.deadline_label }}{% elsif conf_lang == "nb" %}Frist{% else %}Deadline{% endif %}: <time datetime="{{ item.deadline | date: '%Y-%m-%d' }}">{{ item.deadline | date: "%-d %B %Y" }}</time></p>
+    {% endif %}
+    {% endif %}
+  </div>
+  {% endfor %}
+</aside>
+{% endif %}

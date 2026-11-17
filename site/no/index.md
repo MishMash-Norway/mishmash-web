@@ -9,6 +9,8 @@ MishMash skaper, utforsker og reflekterer over KI for, gjennom og i kreative pra
 
 <h2><a href="https://mishmash.no/events/">MishMash-arrangementer</a></h2>
 
+{% include conferences_upcoming.html lang="nb" %}
+
 {% include events_front_page.html wp="WP1" %}
 
 [Flere MishMash-arrangementer...](https://mishmash.no/events/)

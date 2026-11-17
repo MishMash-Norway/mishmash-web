@@ -8,6 +8,9 @@ categories: [Conference]
 tags: []
 description: "Save the date. The 2nd MishMash conference will be organised together with AR@K27, the 9th Annual Artistic Research Conference. The theme is AI as Environment."
 slug: "kristiania2027"
+deadline: 2026-12-01
+deadline_label: "Call for contributions closes"
+deadline_label_nb: "Frist for bidrag"
 redirect_from:
   - /events/ar-k27/
 ---

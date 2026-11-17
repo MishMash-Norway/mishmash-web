@@ -5,6 +5,8 @@ MishMash is a Norwegian research consortium that works on creating, exploring, a
 
 <h2><a href="https://mishmash.no/events/">MishMash Events</a></h2>
 
+{% include conferences_upcoming.html lang="en" %}
+
 {% include events_front_page.html wp="WP1" %}
 
 [More MishMash events...](https://mishmash.no/events/)
