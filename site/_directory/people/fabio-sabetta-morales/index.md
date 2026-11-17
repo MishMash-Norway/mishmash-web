@@ -15,7 +15,7 @@ urls:
   personal_website: ''
   institutional_website: ''
   github: ''
-  linkedin: https://www.linkedin.com/sabetta-morales
+  linkedin: https://www.linkedin.com/in/sabetta-morales
   orcid: https://orcid.org/0000-0002-9004-1097
   nva: ''
   youtube: ''
