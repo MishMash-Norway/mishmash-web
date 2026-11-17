@@ -21,29 +21,28 @@ the website.
     python3 scripts/sympa_additions_from_form.py --since 2026-09-08
     python3 scripts/sympa_additions_from_form.py --since 2026-09-08 --open
 
-With --open the script goes through the lists one at a time: it puts the
-list's block on the clipboard, opens the list's "Add subscribers" page in the
-browser, and waits for Enter before the next list. Paste into the box, press
-Add, and come back to the terminal. xclip is used when it is installed;
-without it the clipboard is held by Tk, and the script must stay running
-until the last paste.
+The browser route with --open is the one that works, confirmed on
+2026-11-17 with 142 additions across the seven lists. The script goes
+through the lists one at a time: it puts the list's block on the clipboard,
+opens the list's "Add subscribers" page in the browser, and waits for Enter
+before the next list. Log in through Feide, paste into the box, press Add,
+and come back to the terminal. xclip is used when it is installed; without
+it the clipboard is held by Tk, and the script must stay running until the
+last paste. Sympa refuses an address that is already subscribed and says so,
+which is harmless.
+
+After adding, export each list again from Sympa (Review, then export) as
+temp/wpN@mishmash.no.txt, so the next run leaves those people out. The
+exports are the only record the script has of who is on a list.
 
 The same additions are also written as sympaadmin commands to
 temp/sympa-commands.txt, one "add" line per person and list. sympaadmin is
-UiO's command-line client for Sympa and is installed on login.uio.no; it adds
-members through Sympa's SOAP interface as the list owner, with no browser.
-Copy the file over, log in, and feed it to sympaadmin from inside the login
-session, so that the password prompt has a terminal:
-
-    scp temp/sympa-commands.txt login.uio.no:
-    ssh login.uio.no
-    sympaadmin < sympa-commands.txt
-
-It reads ~/.sympaadmin.ini on login.uio.no (soapuser = the owner address,
-soapserver = https://sympa.uio.no/mishmash.no-sympasoap for the mishmash.no
-lists; several soapserver lines are allowed) and asks for the UiO password.
-"list admin" shows which lists it sees. A warning about a duplicate
-"version|v|V" option at start-up is harmless.
+UiO's command-line client for Sympa on login.uio.no, and it does not work
+for these lists as of 2026-11-17: the SOAP login accepts only the UiO login
+name (username@uio.no), which owns no lists, while the address that owns the
+lists cannot log in by password since Sympa moved to Feide. The file is kept
+for the day the login name is made an owner of the lists; until then use
+--open.
 
 The script itself sends nothing to Sympa.
 """
@@ -163,7 +162,7 @@ def main() -> int:
         total += len(members)
     print(f"\n{total} additions written to temp/sympa-add-wpN.txt; {skipped_existing} already subscribed (per the list exports in temp/).")
     if total:
-        print("sympaadmin commands: temp/sympa-commands.txt  →  scp it to login.uio.no, log in, then: sympaadmin < sympa-commands.txt")
+        print("sympaadmin commands also in temp/sympa-commands.txt (not usable under the Feide login, see the docstring); use --open.")
     if no_wp:
         print(f"\n{len(no_wp)} ticked no work package, so they reach no list (all@ is built from the WP lists):")
         for email, name in no_wp:
