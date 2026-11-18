@@ -1,14 +1,14 @@
 ---
-title: "Two weeks left to submit to AI as Environment, the 2nd MishMash Conference"
-date: 2026-11-18
+title: "Call for contributions to AI as Environment, the 2nd MishMash Conference"
+date: 2026-10-08
 author: "Alexander Refsum Jensenius"
 layout: page
 categories: [Announcement]
-description: "The call for contributions to AI as Environment, the 2nd MishMash Conference held with AR@K27 in Oslo on 13–14 April 2027, closes on 1 December 2026."
+description: "The call for contributions to AI as Environment, the 2nd MishMash Conference held with AR@K27 in Oslo on 13–14 April 2027, is open until. Deadline 1 December 2026."
 image: /assets/images/bubbles/mishmash_bubbles_notext.svg
 ---
 
-The call for contributions to [AI as Environment](/events/kristiania2027/), the 2nd MishMash Conference, closes on 1 December 2026. The conference is organised together with AR@K27, the 9th Annual Artistic Research at Kristiania Symposium, and takes place at [Kristiania University of Applied Sciences](https://www.kristiania.no/en/) in Oslo on 13–14 April 2027, followed by an internal MishMash day on 15 April.
+The call for contributions to [AI as Environment](/events/kristiania2027/), the 2nd MishMash Conference, has been published. The conference is organised together with AR@K27, the 9th Annual Artistic Research at Kristiania Symposium, and takes place at [Kristiania University of Applied Sciences](https://www.kristiania.no/en/) in Oslo on 13–14 April 2027, followed by an internal MishMash day on 15 April.
 
 ## The theme
 
