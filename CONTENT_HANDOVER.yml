@@ -268,6 +268,7 @@ content_types:
       - Use +01:00 for Oslo winter time and +02:00 for Oslo summer time.
       - Put work packages in categories, never tags.
       - Put research topics in tags, never categories.
+      - For a composite speaker image in the circular event layout, use a square crop and centre all faces within the visible circle.
       - future_is_published_immediately: true
     appears_in:
       - front page
