@@ -63,6 +63,42 @@ search_keywords:
 - Artificial Intelligence
 - EHealth
 selected_works:
+- title: 'Beyond the Leaderboard: Design Lessons for Trustworthy Multimodal Vqa'
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/CBMS69103.2026.00133
+  contributors:
+  - name: Sushant Gautam
+    role: Creator
+  - name: Vajira L B Thambawita
+    role: Creator
+  - name: Michael Alexander Riegler
+    role: Creator
+  - name: Pål Halvorsen
+    role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
+  - name: Steven Hicks
+    role: Creator
+- title: Overview of ImageCLEFmedical 2026 - Visual Question Answering with Explainable
+    and Safety-Aware Reasoning for the Gastrointestinal Tract
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Sushant Gautam
+    role: Creator
+  - name: Vajira L B Thambawita
+    role: Creator
+  - name: Michael Alexander Riegler
+    role: Creator
+  - name: Pål Halvorsen
+    role: Creator
+    slug: pal-halvorsen
+    url: /people/pal-halvorsen/
+  - name: Steven Hicks
+    role: Creator
 - title: 'DPERC: Direct Parameter Estimation for Mixed Data with Random Missingness'
   year: '2026'
   source: Book chapter
@@ -227,44 +263,6 @@ selected_works:
   - name: Michael Riegler
     role: Creator
   - name: Håkon Kvale Stensland
-    role: Creator
-  - name: Pål Halvorsen
-    role: Creator
-    slug: pal-halvorsen
-    url: /people/pal-halvorsen/
-- title: 'Knowledge-Guided Retrieval-Augmented Generation for Zero-Shot Psychiatric
-    Data: Privacy Preserving Synthetic Data Generation'
-  year: '2026'
-  source: Journal article
-  group_type: Journal article
-  url: https://ieeexplore.ieee.org/document/11718369
-  contributors:
-  - name: "Adam\t Jakobsen"
-    role: Creator
-  - name: Sushant Gautam
-    role: Creator
-  - name: Hugo Lewi Hammer
-    role: Creator
-  - name: Susanne Olofsdotter
-    role: Creator
-  - name: Miriam S. Johnson
-    role: Creator
-  - name: Pål Halvorsen
-    role: Creator
-    slug: pal-halvorsen
-    url: /people/pal-halvorsen/
-  - name: Vajira L B Thambawita
-    role: Creator
-- title: 'Calliope: A TTS-based Narrated E-book Creator Ensuring Exact Synchronization,
-    Privacy, and Layout Fidelity'
-  year: '2026'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/3793853.3799808
-  contributors:
-  - name: Hugo Lewi Hammer
-    role: Creator
-  - name: Vajira Thambawita
     role: Creator
   - name: Pål Halvorsen
     role: Creator

@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: https://cchatzis.github.io/
-  institutional_website: https://www.simula.no/people/christos
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0008-2595-5934
@@ -37,6 +37,8 @@ selected_works:
   contributors:
   - name: Christos Chatzis
     role: Creator
+    slug: christos-chatzis
+    url: /people/christos-chatzis/
   - name: David Horner
     role: Creator
   - name: Rasmus Bro
@@ -55,6 +57,8 @@ selected_works:
   contributors:
   - name: Christos Chatzis
     role: Creator
+    slug: christos-chatzis
+    url: /people/christos-chatzis/
 - title: Extracting host-specific developmental signatures from longitudinal microbiome
     data
   year: '2026'
@@ -66,6 +70,8 @@ selected_works:
     role: Creator
   - name: Christos Chatzis
     role: Creator
+    slug: christos-chatzis
+    url: /people/christos-chatzis/
   - name: Jonathan Thorsen
     role: Creator
   - name: Jakob Stokholm
@@ -84,6 +90,8 @@ selected_works:
   contributors:
   - name: Christos Chatzis
     role: Creator
+    slug: christos-chatzis
+    url: /people/christos-chatzis/
   - name: Carla Schenker
     role: Creator
   - name: Max Pfeffer
@@ -98,6 +106,8 @@ selected_works:
   contributors:
   - name: Christos Chatzis
     role: Creator
+    slug: christos-chatzis
+    url: /people/christos-chatzis/
   - name: Carla Schenker
     role: Creator
   - name: Jérémy E. Cohen
@@ -112,6 +122,8 @@ selected_works:
   contributors:
   - name: Christos Chatzis
     role: Creator
+    slug: christos-chatzis
+    url: /people/christos-chatzis/
   - name: Max Pfeffer
     role: Creator
   - name: Pedro Lind

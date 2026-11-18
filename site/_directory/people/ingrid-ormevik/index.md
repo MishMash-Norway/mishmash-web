@@ -39,10 +39,9 @@ search_keywords:
 - Science Communication
 selected_works: []
 source_mentions: []
-summary: Ingrid Ormevik is a BA student in Digital Culture at the University of Bergen
-  and an artist working as Mount Media. Her research examines how generative AI reconstructs
-  gender presentation and queer identity, using autoethnographic documentation of
-  her own AI-assisted music and image practice.
+summary: Artist and researcher working with generative AI, electronic literature and
+  creative coding. I make interactive works, music and audiovisual pieces under the
+  name Mount Media, and I work as a research assistant at the University of Bergen.
 published: true
 permalink: /people/ingrid-ormevik/
 wps:
