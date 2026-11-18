@@ -5,6 +5,7 @@ end_date: 2027-04-15 17:00:00 +02:00 # Optional: Event end time
 location: Kristiania University of Applied Sciences, Oslo
 layout: event
 categories: [Conference]
+highlight: true
 tags: []
 description: "Save the date. The 2nd MishMash conference will be organised together with AR@K27, the 9th Annual Artistic Research Conference. The theme is AI as Environment."
 slug: "kristiania2027"
