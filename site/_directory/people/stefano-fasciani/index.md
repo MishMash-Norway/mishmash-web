@@ -48,6 +48,22 @@ search_keywords:
 - Embedded Systems
 - Music Technology
 selected_works:
+- title: 'Curve2Melody: sketch-guided melody generation'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.24022229
+  contributors:
+  - name: Cristina Jorda i Custal
+    role: Creator
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
 - title: Modeling Relations Between Musical Events in Continuous Time with Transformer
     Models for Live Co-Improvisational Interactions | Zenodo
   year: '2026'
@@ -218,18 +234,6 @@ selected_works:
     role: Creator
     slug: cagri-erdem
     url: /people/cagri-erdem/
-- title: Sines, transient, noise neural modeling of piano notes
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.3389/frsip.2024.1494864
-  contributors:
-  - name: Riccardo Simionato
-    role: Creator
-  - name: Stefano Fasciani
-    role: Creator
-    slug: stefano-fasciani
-    url: /people/stefano-fasciani/
 source_mentions: []
 summary: Sound and Music Computing, Audio DSP, Embedded Systems, Machine Learning,
   Music Technology.

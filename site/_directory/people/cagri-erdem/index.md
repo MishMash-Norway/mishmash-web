@@ -38,6 +38,25 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Do Trait and State Empathy Facilitate Interpersonal Synchrony in Musical
+    Interactions?
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1525/mp.2026.2874319
+  contributors:
+  - name: Persefoni Tzanaki
+    role: Creator
+  - name: Lieke Dinie Maria Perik
+    role: Creator
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Jonna K. Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
 - title: 'Research Proposal: Non-intrusive Stress Recognition using Multimodality
     Deep Learning'
   year: '2026'
@@ -206,27 +225,6 @@ selected_works:
     role: Creator
     slug: kyrre-glette
     url: /people/kyrre-glette/
-- title: Where to Put That Microphone? A Study of Sound Localization in Ambisonics
-    Recordings
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.5281/ZENODO.17497086
-  contributors:
-  - name: Maham Riaz
-    role: Creator
-    slug: maham-riaz
-    url: /people/maham-riaz/
-  - name: Jinyue Guo
-    role: Creator
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Alexander Refsum Jensenius
-    role: Creator
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
 source_mentions: []
 summary: ''
 wps:

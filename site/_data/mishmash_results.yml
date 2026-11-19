@@ -1,4 +1,4 @@
-synced_at: '2026-11-18T14:00:43Z'
+synced_at: '2026-11-19T14:21:24Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -32,6 +32,62 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0e6fc4da1-9979f093-4cb3-4039-af2f-8255dddf82ae
   url: https://doi.org/10.5281/zenodo.23009315
   nva_url: https://nva.sikt.no/registration/01a0e6fc4da1-9979f093-4cb3-4039-af2f-8255dddf82ae
+- title: 'Curve2Melody: sketch-guided melody generation'
+  year: '2026'
+  type: AcademicChapter
+  type_label: Book chapter
+  group_type: Book chapter
+  contributors:
+  - name: Cristina Jorda i Custal
+    role: Creator
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Custal, Cristina Jorda i
+      name: Cristina Jorda i Custal
+    - display: Kelkar, Tejaswinee
+      name: Tejaswinee Kelkar
+      slug: tejaswinee-kelkar
+      url: /people/tejaswinee-kelkar/
+    - display: Fasciani, Stefano
+      name: Stefano Fasciani
+      slug: stefano-fasciani
+      url: /people/stefano-fasciani/
+    title: 'Curve2Melody: sketch-guided melody generation'
+    container: In Bukvic, Ivica Ico (Eds.), Proceedings of the Sound and Music Computing
+      Conference 2026.
+    details: 'SMC Network. ISSN 2518-3672. doi: 10.5281/zenodo.24022229.'
+    abstract: In this paper, we present Curve2Melody, a multimodal AI generative system
+      that enables the creation of new melodies based on a melodic context and a hand-drawn
+      sketch. Our work builds upon sketch-based melodic generative models, specifically
+      the inpainting system “Draw and Listen”, optimizing its architecture by utilizing
+      a simplified input data structure and conditioning the model on a single context
+      measure. We introduce a novel methodology for representing melodic contours
+      using spline curves, encoding them through their derivatives to extract relevant
+      features. The model employs a variational autoencoder with two encoders and
+      three decoders, predicting pitch range, rhythm, and key from the context measure,
+      while pitch is generated from the input sketch. To evaluate the performance,
+      we design three experiments using the same pitch, rhythm-, and context-matching
+      metrics as in the baseline. Results show that our approach improves contour
+      and rhythm matching while achieving tonal consistency, outperforming the baseline
+      model on the same dataset using a smaller model with more than thirty times
+      fewer trainable parameters.
+    full_text_url: https://hdl.handle.net/11250/5600418
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1f4232097-162dbda9-14ce-4dbd-adc9-1f4ab17e8079
+  url: https://doi.org/10.5281/zenodo.24022229
+  nva_url: https://nva.sikt.no/registration/01a1f4232097-162dbda9-14ce-4dbd-adc9-1f4ab17e8079
 - title: 'Audio-Side Reinforcement Learning for Symbolic Music Style Adaptation: Extending
     SMART with Composite Rewards'
   year: '2026'

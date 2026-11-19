@@ -26,17 +26,17 @@ urls:
 aliases: []
 tags:
 - Artistic Intelligence
-- AI governance
-- Institutional design
-- Value system
-- Incommensurable values
+- AI Governance
+- Institutional Design
+- Value System
+- Incommensurable Values
 - Blockchain and DAO
 search_keywords:
 - Artistic Intelligence
-- AI governance
-- Institutional design
-- Value system
-- Incommensurable values
+- AI Governance
+- Institutional Design
+- Value System
+- Incommensurable Values
 - Blockchain and DAO
 selected_works:
 - title: Voice to Voice

@@ -39,6 +39,22 @@ tags:
 search_keywords:
 - Music Technology
 selected_works:
+- title: 'Curve2Melody: sketch-guided melody generation'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.5281/zenodo.24022229
+  contributors:
+  - name: Cristina Jorda i Custal
+    role: Creator
+  - name: Tejaswinee Kelkar
+    role: Creator
+    slug: tejaswinee-kelkar
+    url: /people/tejaswinee-kelkar/
+  - name: Stefano Fasciani
+    role: Creator
+    slug: stefano-fasciani
+    url: /people/stefano-fasciani/
 - title: Modeling Relations Between Musical Events in Continuous Time with Transformer
     Models for Live Co-Improvisational Interactions | Zenodo
   year: '2026'
@@ -186,16 +202,6 @@ selected_works:
   source: Music performance
   group_type: Music performance
   url: https://www.nattjazz.no/mirathuchelvam-vnje
-  contributors:
-  - name: Tejaswinee Kelkar
-    role: Artist
-    slug: tejaswinee-kelkar
-    url: /people/tejaswinee-kelkar/
-- title: Marianna Sangitas Gjestehus
-  year: '2024'
-  source: Music performance
-  group_type: Music performance
-  url: https://www.riksscenen.no/marianna-sangitas-gjestehus.6635987-515567.html
   contributors:
   - name: Tejaswinee Kelkar
     role: Artist

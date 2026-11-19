@@ -41,7 +41,6 @@ people:
 - kyrre-glette
 - line-esborg
 - liv-merve-abrahamsson
-- maham-riaz
 - myrthe-tilleman
 - nanette-nielsen
 - nina-marie-evensen

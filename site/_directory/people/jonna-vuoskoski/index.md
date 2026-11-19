@@ -51,6 +51,45 @@ search_keywords:
 - Cognitive Neuroscience
 - Music Cognition
 selected_works:
+- title: Investigating the Effects of “Feeling Moved” and “Groove” on Standstill
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1525/mp.2026.2472342
+  contributors:
+  - name: Dana Swarbrick
+    role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
+  - name: Anne Danielsen
+    role: Creator
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+- title: Do Trait and State Empathy Facilitate Interpersonal Synchrony in Musical
+    Interactions?
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1525/mp.2026.2874319
+  contributors:
+  - name: Persefoni Tzanaki
+    role: Creator
+  - name: Lieke Dinie Maria Perik
+    role: Creator
+  - name: Cagri Erdem
+    role: Creator
+    slug: cagri-erdem
+    url: /people/cagri-erdem/
+  - name: Jonna K. Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
 - title: 'Moral echoes: Do morality and humanness affect emotional and aesthetic responses
     to music?'
   year: '2026'
@@ -179,47 +218,6 @@ selected_works:
     role: Creator
     slug: sascha-fruhholz
     url: /people/sascha-fruhholz/
-- title: Rhythmic complexity and trait empathy modulate internal motor simulation
-    in response to music
-  year: '2025'
-  source: Conference poster
-  group_type: Conference
-  contributors:
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-  - name: Lieke Perik
-    role: Creator
-  - name: Christian Dyhre Foldal
-    role: Creator
-  - name: Jan Stupacher
-    role: Creator
-- title: 'Dimensions of music use motivations: Genetic and environmental underpinnings,
-    and associations with Big Five and Empathy traits'
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1371/journal.pone.0329808
-  contributors:
-  - name: Heidi Marie Umbach Hansen
-    role: Creator
-  - name: Espen Røysamb
-    role: Creator
-  - name: Olav Mandt Vassend
-    role: Creator
-  - name: Nikolai Olavi Czajkowski
-    role: Creator
-  - name: Tor Endestad
-    role: Creator
-  - name: Jonna Katariina Vuoskoski
-    role: Creator
-    slug: jonna-vuoskoski
-    url: /people/jonna-vuoskoski/
-  - name: Anne Danielsen
-    role: Creator
-  - name: Bruno Laeng
-    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: I am Professor of Music Cognition at the Department of Musicology and the

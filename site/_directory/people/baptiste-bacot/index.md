@@ -25,18 +25,18 @@ urls:
 aliases: []
 tags:
 - Music
-- music production
-- music creativity
-- electronic music
-- AI music studies
-- Generative AI in music
+- Music Production
+- Music Creativity
+- Electronic Music
+- AI Music Studies
+- Generative AI in Music
 search_keywords:
 - Music
-- music production
-- music creativity
-- electronic music
-- AI music studies
-- Generative AI in music
+- Music Production
+- Music Creativity
+- Electronic Music
+- AI Music Studies
+- Generative AI in Music
 selected_works:
 - title: Interacting with Annotated and Synchronized Music Corpora on the Dezrann
     Web Platform
@@ -49,6 +49,8 @@ selected_works:
     role: Creator
   - name: Baptiste Bacot
     role: Creator
+    slug: baptiste-bacot
+    url: /people/baptiste-bacot/
   - name: Louis Bigo
     role: Creator
   - name: Vanessa Nina Borsan

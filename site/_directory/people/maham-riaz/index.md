@@ -5,9 +5,8 @@ name: Maham Riaz
 title: Maham Riaz
 position: Research fellow
 department: Department of Musicology
-institution: university-of-oslo
-institutions:
-- university-of-oslo
+institution: ''
+institutions: []
 projects: []
 other_projects:
 - title: AMBIENT – Bodily Entrainment to Audiovisual Rhythms

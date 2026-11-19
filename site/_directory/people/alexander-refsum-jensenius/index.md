@@ -73,6 +73,26 @@ search_keywords:
 - Music Technology
 - Sound Analysis /Synthesis
 selected_works:
+- title: Investigating the Effects of “Feeling Moved” and “Groove” on Standstill
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1525/mp.2026.2472342
+  contributors:
+  - name: Dana Swarbrick
+    role: Creator
+    slug: dana-swarbrick
+    url: /people/dana-swarbrick/
+  - name: Anne Danielsen
+    role: Creator
+  - name: Jonna Katariina Vuoskoski
+    role: Creator
+    slug: jonna-vuoskoski
+    url: /people/jonna-vuoskoski/
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
 - title: 'Rhythm and Residue: Vyping as Prompting Inside the Post-Discursive Interface'
   year: '2026'
   source: Book chapter
@@ -239,16 +259,6 @@ selected_works:
     url: /people/alexander-refsum-jensenius/
   - name: Rolf Inge Godøy
     role: Supervisor
-- title: William Westney at the fourMs Lab (2010)
-  year: '2026'
-  source: Dataset
-  group_type: Dataset
-  url: https://zenodo.org/records/22134130
-  contributors:
-  - name: Alexander Refsum Jensenius
-    role: DataCollector
-    slug: alexander-refsum-jensenius
-    url: /people/alexander-refsum-jensenius/
 source_mentions:
 - about/organisation/board/index.md
 summary: Alexander Refsum Jensenius (BA, MA, MSc, PhD) is Professor of music technology
