@@ -5,6 +5,7 @@
   shows them while the deadline has not passed. Pass lang="nb" for Norwegian labels.
 {% endcomment %}
 {% assign conf_lang = include.lang | default: "en" %}
+{% assign conf_heading_level = include.heading_level | default: 3 %}
 {% assign conf_all = site.events | where_exp: "item", "item.draft != true" | where_exp: "item", "item.subpage != true" %}
 {% assign conf_all = conf_all | where_exp: "item", "item.highlight == true" %}
 {% assign conf_all = conf_all | where_exp: "item", "item.categories contains 'Conference'" %}
@@ -13,7 +14,7 @@
 {% assign conf_future = conf_dated | concat: conf_undated | sort: 'date' %}
 {% if conf_future.size > 0 %}
 <aside class="conference-callout" aria-labelledby="conference-callout-heading">
-  <h3 id="conference-callout-heading">{% if conf_lang == "nb" %}Kommende konferanser{% else %}Upcoming conferences{% endif %}</h3>
+  <h{{ conf_heading_level }} id="conference-callout-heading">{% if conf_lang == "nb" %}Kommende konferanser{% else %}Upcoming conferences{% endif %}</h{{ conf_heading_level }}>
   {% for item in conf_future %}
   {% assign start_month = item.date | date: "%m" %}
   {% assign end_month = item.end_date | date: "%m" %}

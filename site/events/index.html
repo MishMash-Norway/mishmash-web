@@ -30,7 +30,7 @@ if (window.location.hash === '#partner-events') {
 {% assign past_undated = all_events | where_exp: "item", "item.end_date == nil" | where_exp: "item", "item.date < site.time" %}
 {% assign past_events = past_dated | concat: past_undated | sort: 'date' | reverse %}
 
-{% include conferences_upcoming.html lang="en" %}
+{% include conferences_upcoming.html lang="en" heading_level=2 %}
 
 <h2 id="mishmash-events">Upcoming MishMash Events</h2>
 {% if future_events.size > 0 %}
