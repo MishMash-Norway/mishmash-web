@@ -97,20 +97,28 @@ The centre's other commitments on sustainability, openness and reuse are on the 
 ## Work Package Leaders
 
 <div class="wp-member-row">
-    <a href="https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay"><img src="/assets/images/portraits/Budhaditya_Chattopadhyay_UiB.jpg" alt="Budhaditya Chattopadhyay" class="wp-member-photo"></a>
+    <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/"><img src="/assets/images/portraits/Synne_Tollerud_Bull_Kristiania.jpg" alt="Synne Tollerud Bull" class="wp-member-photo"></a>
     <div>
-    <a href="https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay">Budhaditya Chattopadhyay</a><br>
-    University of Bergen<br>
+    <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/">Synne Tollerud Bull</a><br>
+    Kristiania University College<br>
     Lead
     </div>
 </div>
 
 <div class="wp-member-row">
-    <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/"><img src="/assets/images/portraits/Synne_Tollerud_Bull_Kristiania.jpg" alt="Synne Tollerud Bull" class="wp-member-photo"></a>
+    <a href="https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay"><img src="/assets/images/portraits/Budhaditya_Chattopadhyay_UiB.jpg" alt="Budhaditya Chattopadhyay" class="wp-member-photo"></a>
     <div>
-    <a href="https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/">Synne Tollerud Bull</a><br>
-    Kristiania University College<br>
-    Co-lead
+    <a href="https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay">Budhaditya Chattopadhyay</a><br>
+    University of Bergen<br>
+    Sidekick 1
+    </div>
+</div>
+
+<div class="wp-member-row">
+    <div>
+    <a href="https://nva.sikt.no/research-profile/1827902">Anna Myking</a><br>
+    University of Inland Norway, The Norwegian Film School<br>
+    Sidekick 2
     </div>
 </div>
 

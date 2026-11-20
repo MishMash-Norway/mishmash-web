@@ -14,6 +14,7 @@ short_name: INN
 image: /images/institutions/university-of-inland-norway.png
 people:
 - aedan-soellaart
+- anna-myking
 - bjorn-tallak-bakken
 - changkyu-choi
 - fredrik-graver
