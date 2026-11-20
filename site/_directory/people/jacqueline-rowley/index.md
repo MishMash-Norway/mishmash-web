@@ -40,6 +40,7 @@ selected_works: []
 source_mentions: []
 summary: ''
 wps:
+- WP1
 - WP2
 - WP5
 - WP7
