@@ -5,6 +5,7 @@ name: Anna Myking
 title: Anna Myking
 position: Associate professor
 department: Faculty of Film, TV and Games
+image: /assets/images/portraits/Anna_Myking_INN.jpg
 institution: university-of-inland-norway
 institutions:
 - university-of-inland-norway
@@ -18,7 +19,7 @@ roles:
 - Work Package Leader
 urls:
   personal_website: https://www.annamyking.com/
-  institutional_website: https://www.inn.no/english/find-an-employee/anna-myking.html
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: ''
@@ -29,13 +30,13 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Film analysis
+- Film Analysis
 - Cinema
-- Film production
+- Film Production
 search_keywords:
-- Film analysis
+- Film Analysis
 - Cinema
-- Film production
+- Film Production
 selected_works: []
 source_mentions: []
 summary: Associate Professor at The Norwegian Film School, University of Inland Norway.

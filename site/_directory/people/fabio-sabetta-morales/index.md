@@ -24,19 +24,31 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Music Business
-- Cultural and Creative Industries
-- Management and Entrepreneurship
-- Business Model Innovation
-- Organizational Behavior and Strategic Innovation
-- Digital Transformation
+- Popular Music Studies
+- Music Industry
+- Artificial Intelligence
+- Creativity
+- Ecosystem Approach
+- Innovation Management and Strategy
+- Business Economics
+- Business Models
+- Digital Business Models
+- Artistic Entretepreneurship
+- Entrepreneurship Education
+- Latin American Music
 search_keywords:
-- Music Business
-- Cultural and Creative Industries
-- Management and Entrepreneurship
-- Business Model Innovation
-- Organizational Behavior and Strategic Innovation
-- Digital Transformation
+- Popular Music Studies
+- Music Industry
+- Artificial Intelligence
+- Creativity
+- Ecosystem Approach
+- Innovation Management and Strategy
+- Business Economics
+- Business Models
+- Digital Business Models
+- Artistic Entretepreneurship
+- Entrepreneurship Education
+- Latin American Music
 selected_works: []
 source_mentions: []
 summary: Fabio Sabetta Morales is a PhD candidate at the University of Agder (Kristiansand,

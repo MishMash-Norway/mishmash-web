@@ -1,4 +1,4 @@
-synced_at: '2026-11-19T14:21:24Z'
+synced_at: '2026-11-20T14:09:07Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -32,7 +32,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0e6fc4da1-9979f093-4cb3-4039-af2f-8255dddf82ae
   url: https://doi.org/10.5281/zenodo.23009315
   nva_url: https://nva.sikt.no/registration/01a0e6fc4da1-9979f093-4cb3-4039-af2f-8255dddf82ae
-- title: 'Curve2Melody: sketch-guided melody generation'
+- title: 'Curve2Melody: Sketch-Guided Melody Generation'
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -64,7 +64,7 @@ results:
       name: Stefano Fasciani
       slug: stefano-fasciani
       url: /people/stefano-fasciani/
-    title: 'Curve2Melody: sketch-guided melody generation'
+    title: 'Curve2Melody: Sketch-Guided Melody Generation'
     container: In Bukvic, Ivica Ico (Eds.), Proceedings of the Sound and Music Computing
       Conference 2026.
     details: 'SMC Network. ISSN 2518-3672. doi: 10.5281/zenodo.24022229.'
@@ -6193,6 +6193,45 @@ results:
     nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
   url: https://doi.org/10.1093/mts/mtab013
   nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+- title: 'Standing still, moving together: what micromotion reveals about music and
+    the body'
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Alexander Refsum Jensenius
+    role: Creator
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Jensenius, Alexander Refsum
+      name: Alexander Refsum Jensenius
+      slug: alexander-refsum-jensenius
+      url: /people/alexander-refsum-jensenius/
+    title: 'Standing still, moving together: what micromotion reveals about music
+      and the body'
+    container: PNB Colloquium.
+    details: Hamilton, Ontario.
+    abstract: How much does a person move when trying not to? For fifteen years, my
+      colleagues and I have measured the micromotion of people standing still in various
+      settings, inside and outside the lab. Over a decade of Norwegian Championships
+      of Standstill, capturing the head motion of more than 700 participants, we found
+      that people move, on average, about 5 mm/s. We have found that some types of
+      music make people move a little more, even when they try to stand still. However,
+      other studies that account for playback systems and individual and cultural
+      differences complicate the picture. In the talk, I will show data from the Oslo
+      Standstill Database and discuss how the findings shed light on the urge to move
+      to music.
+    full_text_url: https://hdl.handle.net/11250/5600509
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1f61a5d67-d975d5a0-8e5e-4fb3-90cd-65a6c2e8c69c
+  nva_url: https://nva.sikt.no/registration/01a1f61a5d67-d975d5a0-8e5e-4fb3-90cd-65a6c2e8c69c
 - title: 'Forskningsetikk og KI: Hvor går grensen?'
   year: '2026'
   type: OtherPresentation
@@ -11271,6 +11310,36 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/registration/019fb812f3c4-da54c6b0-39a3-4359-9a7c-6af13991ed68
   nva_url: https://nva.sikt.no/registration/019fb812f3c4-da54c6b0-39a3-4359-9a7c-6af13991ed68
+- title: 'UiO-professor: – Me skal laga kunstig intelligens for menneske'
+  year: '2026'
+  type: MediaInterview
+  type_label: Interview
+  group_type: Media
+  contributors:
+  - name: Martin Toft
+    role: Journalist
+  - name: Alexander Refsum Jensenius
+    role: InterviewSubject
+    slug: alexander-refsum-jensenius
+    url: /people/alexander-refsum-jensenius/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors: []
+    title: 'UiO-professor: – Me skal laga kunstig intelligens for menneske'
+    container: Uniforum.
+    details: ''
+    abstract: – Me skal laga KI for menneske, og då må det bli menneskevennleg og
+      me må ha eigarskapen til det som kjem ut av dette. Det seier professor Alexander
+      Jensenius, direktør for MishMash, Senter for KI og kreativitet. Før helga deltok
+      han på eit seminar på UiO om kunstig intelligens i forskarutdanninga.
+    full_text_url: https://hdl.handle.net/11250/5600507
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a1f61a6141-1ddc6997-ca14-46a6-a58d-a45185cd6acd
+  url: https://www.uniforum.uio.no/nyheter/2026/11/ki-ma-vera-til-for-menneska(1).html
+  nva_url: https://nva.sikt.no/registration/01a1f61a6141-1ddc6997-ca14-46a6-a58d-a45185cd6acd
 - title: Jeg har aldri opplevd studenter som er mer KI-kritiske enn nå
   year: '2026'
   type: MediaReaderOpinion

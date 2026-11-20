@@ -39,7 +39,7 @@ tags:
 search_keywords:
 - Music Technology
 selected_works:
-- title: 'Curve2Melody: sketch-guided melody generation'
+- title: 'Curve2Melody: Sketch-Guided Melody Generation'
   year: '2026'
   source: Book chapter
   group_type: Book chapter

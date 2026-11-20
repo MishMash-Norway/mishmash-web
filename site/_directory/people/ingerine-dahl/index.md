@@ -31,6 +31,17 @@ tags:
 - Innovation
 search_keywords: []
 selected_works:
+- title: Ultra Festival
+  year: '2025'
+  source: Performing arts
+  group_type: Performing arts
+  contributors:
+  - name: Haguith Vicky Yakira
+    role: Choreographer
+  - name: Ingerine Dahl
+    role: RoleOther
+    slug: ingerine-dahl
+    url: /people/ingerine-dahl/
 - title: 'Konsert med Stavanger Domkor og Stavanger Katerdralensemble. St. Petri Kirke,
     Rogaland. Fremføring av "Mass" av Steve Dobrogosz, og komposisjoner av Thomas
     Torstrup, Phillip Glass, Ola Gjeilo, m.m. dirigent: Oddgeir Kjetilstad.'
