@@ -13,7 +13,7 @@ nva_affiliations:
 - role: Researcher
   unit: Department for Informatics
   institution: university-of-oslo
-- role: Professor
+- role: Academic assistant
   unit: Faculty of Technology, Art and Design
   institution: oslo-metropolitan-university
 projects: []

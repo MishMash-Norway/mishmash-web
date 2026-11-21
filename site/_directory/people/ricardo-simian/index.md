@@ -5,6 +5,7 @@ name: Ricardo Simian
 title: Ricardo Simian
 position: PhD Fellow
 department: Institute of Design
+image: /assets/images/portraits/Ricardo_Simian_AHO.jpg
 institution: oslo-school-of-architecture-and-design
 institutions:
 - oslo-school-of-architecture-and-design
