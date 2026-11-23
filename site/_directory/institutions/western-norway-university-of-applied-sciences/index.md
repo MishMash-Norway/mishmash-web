@@ -12,6 +12,7 @@ short_name: HVL
 image: /images/institutions/western-norway-university-of-applied-sciences.svg
 people:
 - hanne-maren-meldahl
+- havard-andreassen-falch
 - karan-choudhary
 - lydia-schulze-heuling
 - matthew-landers

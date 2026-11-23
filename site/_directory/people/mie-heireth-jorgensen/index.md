@@ -22,7 +22,7 @@ urls:
   mastodon: ''
   instagram: ''
   wikidata: ''
-  facebook: ''
+  facebook: https://www.facebook.com/index.php/?lang=no
 aliases: []
 tags:
 - Strategic Communications

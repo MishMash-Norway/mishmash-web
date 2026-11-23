@@ -17,6 +17,7 @@ people:
 - anna-myking
 - bjorn-tallak-bakken
 - changkyu-choi
+- frank-veenstra
 - fredrik-graver
 - hanne-lovise-skartveit
 - hans-kristian-strandstuen-rustad
