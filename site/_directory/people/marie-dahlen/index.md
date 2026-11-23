@@ -94,6 +94,33 @@ selected_works:
     role: Artist
     slug: jannicke-johansen
     url: /people/jannicke-johansen/
+- title: Noisy NODES
+  year: '2025'
+  source: Performing arts
+  group_type: Performing arts
+  contributors:
+  - name: Nicole Cecilie Bitsch Pedersen
+    role: SoundDesigner
+  - name: Rune Mikkelsborg
+    role: RoleOther
+  - name: Elisabeth Brun
+    role: Producer
+  - name: Marie Dahlén
+    role: RoleOther
+    slug: marie-dahlen
+    url: /people/marie-dahlen/
+  - name: Katja Pratschke
+    role: RoleOther
+  - name: Gusztáv Hámos
+    role: RoleOther
+  - name: Géza Kulcsár
+    role: RoleOther
+  - name: Iryna Kliui
+    role: RoleOther
+  - name: Ivar Kjellmo
+    role: RoleOther
+  - name: Svenn Jakobsen
+    role: RoleOther
 - title: Siren's Call
   year: '2025'
   source: Performing arts

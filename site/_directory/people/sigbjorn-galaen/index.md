@@ -90,6 +90,16 @@ selected_works:
     url: /people/henning-birkeland/
   - name: Ivar Kjellmo
     role: Creator
+- title: The Thing Remastered (dataspill)
+  year: '2024'
+  source: Other artistic output
+  group_type: Other artistic output
+  url: https://store.steampowered.com/app/2958970/The_Thing_Remastered/
+  contributors:
+  - name: Sigbjørn Galåen
+    role: RoleOther
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
 - title: Hvordan lager 3D-grafikere scener til spill og film?
   year: '2024'
   source: Popular science article
@@ -115,6 +125,46 @@ selected_works:
     url: /people/henning-birkeland/
   - name: Sigbjørn Galåen
     role: Creator
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
+- title: Dreamfall Chapters (dataspill)
+  year: '2014'
+  source: Other artistic output
+  group_type: Other artistic output
+  url: https://en.wikipedia.org/wiki/Dreamfall_Chapters
+  contributors:
+  - name: Sigbjørn Galåen
+    role: RoleOther
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
+- title: Age of Conan (dataspill)
+  year: '2008'
+  source: Other artistic output
+  group_type: Other artistic output
+  url: https://en.wikipedia.org/wiki/Age_of_Conan
+  contributors:
+  - name: Sigbjørn Galåen
+    role: RoleOther
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
+- title: The Thing (dataspill)
+  year: '2002'
+  source: Other artistic output
+  group_type: Other artistic output
+  url: https://en.wikipedia.org/wiki/The_Thing_(video_game)
+  contributors:
+  - name: Sigbjørn Galåen
+    role: RoleOther
+    slug: sigbjorn-galaen
+    url: /people/sigbjorn-galaen/
+- title: Anarchy Online (dataspill)
+  year: '2001'
+  source: Other artistic output
+  group_type: Other artistic output
+  url: https://en.wikipedia.org/wiki/Anarchy_Online
+  contributors:
+  - name: Sigbjørn Galåen
+    role: RoleOther
     slug: sigbjorn-galaen
     url: /people/sigbjorn-galaen/
 source_mentions: []

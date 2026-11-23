@@ -3,7 +3,7 @@ type: person
 slug: ricardo-simian
 name: Ricardo Simian
 title: Ricardo Simian
-position: PhD Fellow
+position: Postdoktor
 department: Institute of Design
 image: /assets/images/portraits/Ricardo_Simian_AHO.jpg
 institution: oslo-school-of-architecture-and-design

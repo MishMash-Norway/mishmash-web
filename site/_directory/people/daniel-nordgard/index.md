@@ -108,6 +108,7 @@ selected_works:
   year: '2023'
   source: Journal article
   group_type: Journal article
+  url: https://diamondirelandpress.ie/index.php/ire/article/view/2956
   contributors:
   - name: Roderick Udo
     role: Creator

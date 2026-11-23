@@ -33,8 +33,12 @@ urls:
   mastodon: ''
   instagram: ''
 aliases: []
-tags: []
-search_keywords: []
+tags:
+- Intellectual Property
+- Copyright Law
+search_keywords:
+- Intellectual Property
+- Copyright Law
 selected_works:
 - title: Performer's Rights - A child of technology and a stepchild of copyright
   year: '2026'
