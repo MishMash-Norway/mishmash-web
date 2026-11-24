@@ -47,7 +47,7 @@ Ask the person you work for before anything that cannot be undone or that reache
 - A centre event or MeshUp is a file in `site/_events/`; a MeshUp has `MeshUp` and its work package in `categories`, and a speaker portrait goes in `site/assets/images/portraits/` at 600 by 600 pixels.
 - A page that should be built but not announced (a draft call, a placeholder) sets `sitemap: false` and `noindex: true`, is linked from nowhere, and opens with a bracketed note saying what is missing.
 - Open questions for the person go in square brackets inside the document, with a recommendation first.
-- New people from the participation form follow the runbook `automation.people_import_from_the_form`; the scripts exist, do not write new ones. Every member needs an ORCID (board and council members are exempt), and `validate_directory.py` fails on a new member without one: ask for the ORCID, or keep the entry `published: false` until it comes. Never add a name to `site/_data/orcid_pending.yml`; that list only shrinks.
+- New people from the participation form follow the runbook `automation.people_import_from_the_form`; the scripts exist, do not write new ones. Every member needs an ORCID (board and council members are exempt), and `validate_directory.py` fails on a new member without one: ask for the ORCID, or keep the entry `published: false` until it comes. Anna Myking has an approved individual exception; remove her from `ORCID_APPROVED_EXCEPTIONS` in `scripts/validate_directory.py` when her ORCID is added. Never add a name to `site/_data/orcid_pending.yml`; that list only shrinks.
 
 ## Checks
 

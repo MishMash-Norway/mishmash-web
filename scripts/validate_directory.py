@@ -59,8 +59,8 @@ CANONICAL_ROLES = {
 }
 
 
-# Every member needs an ORCID; board and council members are exempt.
 ORCID_EXEMPT_ROLES = {"Board Member", "Board Leader", "Council Member"}
+ORCID_APPROVED_EXCEPTIONS = {"anna-myking"}
 
 
 def load_orcid_pending(root: Path) -> set[str]:
@@ -230,11 +230,15 @@ def main():
                 if urls.get("orcid"):
                     if slug in orcid_pending:
                         errors.append(f"{rel}: has an ORCID; remove '{slug}' from _data/orcid_pending.yml")
+                    if slug in ORCID_APPROVED_EXCEPTIONS:
+                        errors.append(f"{rel}: has an ORCID; remove '{slug}' from ORCID_APPROVED_EXCEPTIONS")
                 elif not published or exempt:
                     if not urls.get("nva"):
                         warnings.append(f"{rel}: missing urls.nva and urls.orcid (will not auto-sync from NVA)")
                 elif slug in orcid_pending:
                     warnings.append(f"{rel}: missing urls.orcid (listed in _data/orcid_pending.yml)")
+                elif slug in ORCID_APPROVED_EXCEPTIONS:
+                    warnings.append(f"{rel}: missing urls.orcid (approved individual exception)")
                 else:
                     errors.append(f"{rel}: missing urls.orcid (every member needs an ORCID; board and council are exempt)")
 

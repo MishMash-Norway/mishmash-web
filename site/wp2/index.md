@@ -115,8 +115,9 @@ The centre's other commitments on sustainability, openness and reuse are on the 
 </div>
 
 <div class="wp-member-row">
+    <a href="/people/anna-myking/"><img src="/assets/images/portraits/Anna_Myking_INN.jpg" alt="Anna Myking" class="wp-member-photo"></a>
     <div>
-    <a href="https://nva.sikt.no/research-profile/1827902">Anna Myking</a><br>
+    <a href="/people/anna-myking/">Anna Myking</a><br>
     University of Inland Norway, The Norwegian Film School<br>
     Sidekick 2
     </div>

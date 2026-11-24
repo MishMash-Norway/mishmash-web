@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 import sys
+import subprocess
+import tempfile
 import unittest
 from pathlib import Path
+
+import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
@@ -12,6 +16,49 @@ from directory_io import (
     normalize_person_slug,
 )
 from sync_directory_reciprocity import migrate_project_fields
+
+
+class DirectoryOrcidExceptionTests(unittest.TestCase):
+    def validate_person(self, slug, orcid=""):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            site_root = Path(temporary_directory)
+            person_directory = site_root / "_directory" / "people" / slug
+            person_directory.mkdir(parents=True)
+            person = {
+                "type": "person",
+                "slug": slug,
+                "name": "Test Person",
+                "permalink": f"/people/{slug}/",
+                "institutions": [],
+                "projects": [],
+                "roles": ["Member"],
+                "published": True,
+                "urls": {"orcid": orcid},
+            }
+            (person_directory / "index.md").write_text(
+                "---\n" + yaml.safe_dump(person) + "---\n", encoding="utf-8"
+            )
+            return subprocess.run(
+                [sys.executable, str(Path(__file__).with_name("validate_directory.py")), "--root", str(site_root)],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+
+    def test_anna_without_orcid_is_warned(self):
+        result = self.validate_person("anna-myking")
+        self.assertEqual(result.returncode, 0, result.stdout)
+        self.assertIn("approved individual exception", result.stdout)
+
+    def test_other_member_without_orcid_fails(self):
+        result = self.validate_person("another-person")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("every member needs an ORCID", result.stdout)
+
+    def test_anna_with_orcid_requires_exception_removal(self):
+        result = self.validate_person("anna-myking", "https://orcid.org/0000-0002-1825-0097")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("remove 'anna-myking' from ORCID_APPROVED_EXCEPTIONS", result.stdout)
 
 
 class DirectoryIoTests(unittest.TestCase):

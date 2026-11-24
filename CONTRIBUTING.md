@@ -92,7 +92,7 @@ These are **preserved** and intended for manual curation:
 - Other social URLs (`personal_website`, `github`, `linkedin`, `youtube`, etc.)
 - Markdown body below the front matter (if present)
 
-To add a person: copy `site/_directory/people/_template/`, set `slug`, `name` and `urls.orcid` (every member needs an ORCID, board and council members excepted; `validate_directory.py` fails without one), and `urls.nva` if the person has a profile. Run enrich locally or wait for the nightly workflow.
+To add a person: copy `site/_directory/people/_template/`, set `slug`, `name` and `urls.orcid` (every member needs an ORCID, board and council members excepted; `validate_directory.py` fails without one), and `urls.nva` if the person has a profile. Anna Myking has an approved individual exception; remove her from `ORCID_APPROVED_EXCEPTIONS` in `scripts/validate_directory.py` when her ORCID is added. Run enrich locally or wait for the nightly workflow.
 
 ### Tags
 
