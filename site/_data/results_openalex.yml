@@ -1,4 +1,4 @@
-synced_at: '2026-11-23T15:54:59Z'
+synced_at: '2026-11-24T15:48:19Z'
 source: OpenAlex (CC0) for the open-access status and the free copy, Crossref for
   the licence
 count: 24
@@ -143,7 +143,7 @@ works:
     status: green
     label: open access (author copy)
     free: true
-    url: https://doi.org/10.5281/zenodo.23009315
+    url: https://hdl.handle.net/11250/5577733
     licence: cc-by
     licence_label: CC BY
   10.5334/tismir.223:

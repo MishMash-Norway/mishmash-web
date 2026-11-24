@@ -1,4 +1,4 @@
-synced_at: '2026-11-23T15:54:51Z'
+synced_at: '2026-11-24T15:48:10Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -5168,6 +5168,8 @@ results:
     role: Creator
   - name: Eamon O'Kane
     role: Creator
+    slug: eamon-okane
+    url: /people/eamon-okane/
   institutions:
   - name: University of Bergen
     slug: university-of-bergen
@@ -5191,6 +5193,8 @@ results:
       name: David Jhave Johnston
     - display: O'Kane, Eamon
       name: Eamon O'Kane
+      slug: eamon-okane
+      url: /people/eamon-okane/
     title: 'Artificial Consciouness: Regenerating AI Ethics and Aesthetics'
     container: International Conference Media Art History.
     details: Manizales.

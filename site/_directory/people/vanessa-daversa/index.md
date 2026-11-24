@@ -24,19 +24,19 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- chromatic harp
-- jazz improvisation
-- jazz composition
-- symbolic and graphic scores
-- artistic research
-- human-AI co-creation
+- Chromatic Harp
+- Jazz Improvisation
+- Jazz Composition
+- Symbolic and Graphic Scores
+- Artistic Research
+- Human-AI Co-Creation
 search_keywords:
-- chromatic harp
-- jazz improvisation
-- jazz composition
-- symbolic and graphic scores
-- artistic research
-- human-AI co-creation
+- Chromatic Harp
+- Jazz Improvisation
+- Jazz Composition
+- Symbolic and Graphic Scores
+- Artistic Research
+- Human-AI Co-Creation
 selected_works: []
 source_mentions: []
 summary: null

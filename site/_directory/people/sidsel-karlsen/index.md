@@ -40,6 +40,20 @@ tags:
 search_keywords:
 - Music Education
 selected_works:
+- title: ‘To change or not to change?’ Institutional politics surrounding a Centre
+    for Excellence in Education (CEE) in higher music education
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Veronica Ski-Berg
+    role: Creator
+  - name: Sidsel Karlsen
+    role: Creator
+    slug: sidsel-karlsen
+    url: /people/sidsel-karlsen/
+  - name: Ellen Mikalsen Stabell
+    role: Creator
 - title: 'AI in the teaching and learning of the arts: Protocol for a scoping review
     (MishMash WP4)'
   year: '2026'
@@ -167,21 +181,6 @@ selected_works:
     url: /people/sidsel-karlsen/
   - name: Anne Jordhus-Lier
     role: Creator
-  - name: Siw Graabræk Nielsen
-    role: Creator
-- title: What happens in school music in Norway? Findings from a national survey of
-    music teachers
-  year: '2023'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1080/14613808.2023.2183494
-  contributors:
-  - name: Live Weider Ellefsen
-    role: Creator
-  - name: Sidsel Karlsen
-    role: Creator
-    slug: sidsel-karlsen
-    url: /people/sidsel-karlsen/
   - name: Siw Graabræk Nielsen
     role: Creator
 source_mentions:

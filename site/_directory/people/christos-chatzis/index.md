@@ -3,7 +3,7 @@ type: person
 slug: christos-chatzis
 name: Christos Chatzis
 title: Christos Chatzis
-position: PhD student
+position: Postdoctoral Fellow
 department: Simula Metropolitan Center for Digital Engineering
 institution: simula-metropolitan-center-for-digital-engineering
 institutions:
@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: https://cchatzis.github.io/
-  institutional_website: https://www.simula.no/people/christos
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0008-2595-5934

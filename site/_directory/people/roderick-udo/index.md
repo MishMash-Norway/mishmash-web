@@ -35,6 +35,8 @@ selected_works:
   contributors:
   - name: Roderick Udo
     role: Creator
+    slug: roderick-udo
+    url: /people/roderick-udo/
 - title: Simply the best? Entrepreneurial orientation and success of music artists
   year: '2025'
   source: Journal article
@@ -43,6 +45,8 @@ selected_works:
   contributors:
   - name: Roderick Udo
     role: Creator
+    slug: roderick-udo
+    url: /people/roderick-udo/
   - name: Ellen Loots
     role: Creator
   - name: Roy Thurik
@@ -57,6 +61,8 @@ selected_works:
   contributors:
   - name: Roderick Udo
     role: Creator
+    slug: roderick-udo
+    url: /people/roderick-udo/
   - name: Daniel Nordgård
     role: Creator
     slug: daniel-nordgard
@@ -72,6 +78,8 @@ selected_works:
   contributors:
   - name: Roderick Udo
     role: Creator
+    slug: roderick-udo
+    url: /people/roderick-udo/
   - name: Daniel Nordgård
     role: Creator
     slug: daniel-nordgard

@@ -33,6 +33,28 @@ search_keywords:
 - Art
 - Drawing
 selected_works:
+- title: KI i kunstnerisk utdanning og praksis Haptic Hacking Lab // Critical AI 4-day
+    workshop
+  year: '2026'
+  source: Visual arts
+  group_type: Visual arts
+  contributors:
+  - name: Tiril Schrøder
+    role: Artist
+    slug: tiril-schroder
+    url: /people/tiril-schroder/
+  - name: Trine Wester
+    role: Artist
+    slug: trine-wester
+    url: /people/trine-wester/
+  - name: Hanne Maren Meldahl
+    role: Artist
+    slug: hanne-maren-meldahl
+    url: /people/hanne-maren-meldahl/
+  - name: Gro Skåland
+    role: RoleOther
+    slug: gro-skaland
+    url: /people/gro-skaland/
 - title: Neon Gallery/Galeria Neon ASP Wrocław, Poland
   year: '2025'
   source: Visual arts
@@ -127,17 +149,6 @@ selected_works:
   contributors:
   - name: Tiril Schrøder
     role: Artist
-    slug: tiril-schroder
-    url: /people/tiril-schroder/
-- title: 'Between the pen and the line: Digital drawing and the feeling of alienation
-    and distance'
-  year: '2023'
-  source: Professional article
-  group_type: Professional article
-  url: https://impact-journal-cfpr.uwe.ac.uk/index.php/impact/article/view/116/98
-  contributors:
-  - name: Tiril Schrøder
-    role: Creator
     slug: tiril-schroder
     url: /people/tiril-schroder/
 source_mentions: []

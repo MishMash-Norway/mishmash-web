@@ -25,12 +25,12 @@ urls:
 aliases: []
 tags:
 - Arts
-- music
-- Human - AI Co-creativity
+- Music
+- Human - AI Co-Creativity
 search_keywords:
 - Arts
-- music
-- Human - AI Co-creativity
+- Music
+- Human - AI Co-Creativity
 selected_works: []
 source_mentions: []
 summary: null

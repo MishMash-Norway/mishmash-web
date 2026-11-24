@@ -48,16 +48,16 @@ tags:
 - Art
 - Painting
 - Animation
-- Artist's book
+- Artist'S Book
 - Conceptual Art
-- Conceptual photography
+- Conceptual Photography
 search_keywords:
 - Art
 - Painting
 - Animation
-- Artist's book
+- Artist'S Book
 - Conceptual Art
-- Conceptual photography
+- Conceptual Photography
 selected_works:
 - title: More Than Meets AI | Lake Forest College
   year: '2026'

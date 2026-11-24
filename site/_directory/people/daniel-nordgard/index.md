@@ -97,6 +97,8 @@ selected_works:
   contributors:
   - name: Roderick Udo
     role: Creator
+    slug: roderick-udo
+    url: /people/roderick-udo/
   - name: Daniel Nordgård
     role: Creator
     slug: daniel-nordgard
@@ -112,6 +114,8 @@ selected_works:
   contributors:
   - name: Roderick Udo
     role: Creator
+    slug: roderick-udo
+    url: /people/roderick-udo/
   - name: Daniel Nordgård
     role: Creator
     slug: daniel-nordgard
