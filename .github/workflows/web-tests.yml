@@ -85,6 +85,13 @@ jobs:
       - name: Check every event page describes itself as a schema.org Event
         run: python3 scripts/check_event_jsonld.py
 
+      - name: Keep the generated site
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-site
+          path: ./_site
+          if-no-files-found: error
+
   link_check:
     name: Check links in generated HTML
     runs-on: ubuntu-latest
@@ -93,20 +100,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Download the generated site
+        uses: actions/download-artifact@v4
+        with:
+          name: generated-site
+          path: ./_site
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
           bundler-cache: true
-
-      - name: Install Apertium (Bokmål to Nynorsk)
-        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
-
-      - name: Generate the Nynorsk mirror, measure the languages, build the open data and the AVIF variants
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py && pip install -q Pillow && python3 scripts/build_avif.py
-
-      - name: Build site
-        run: bundle exec jekyll build --trace
 
       - name: Run htmlproofer
         run: |
@@ -122,20 +126,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Download the generated site
+        uses: actions/download-artifact@v4
+        with:
+          name: generated-site
+          path: ./_site
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
           bundler-cache: true
-
-      - name: Install Apertium (Bokmål to Nynorsk)
-        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
-
-      - name: Generate the Nynorsk mirror, measure the languages, build the open data and the AVIF variants
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py && pip install -q Pillow && python3 scripts/build_avif.py
-
-      - name: Build site
-        run: bundle exec jekyll build --trace
 
       - name: Run htmlproofer (external links)
         continue-on-error: true
@@ -143,7 +144,7 @@ jobs:
           bundle exec htmlproofer ./_site \
             --checks Links \
             --no-enforce-https \
-            --ignore-urls "/^\//,/^#/,/^mailto:/,/^tel:/,/fonts\.gstatic\.com/,/doi\.org/,/dx\.doi\.org/,/nilu\.com/,/no\.gramo\.no/,/linkedin\.com/,/upf\.edu/,/worldcat\.org/,/scopus\.com/,/dhko\.no/,/nettskjema\.no/,/calendar\.google\.com/,/aesthetics\.mpg\.de/,/notam\.b-cdn\.net/,/sfu\.ca/"
+            --ignore-urls "/^\\//,/^#/,/^mailto:/,/^tel:/,/fonts\\.gstatic\\.com/,/doi\\.org/,/dx\\.doi\\.org/,/nilu\\.com/,/no\\.gramo\\.no/,/linkedin\\.com/,/upf\\.edu/,/worldcat\\.org/,/scopus\\.com/,/dhko\\.no/,/nettskjema\\.no/,/calendar\\.google\\.com/,/aesthetics\\.mpg\\.de/,/notam\\.b-cdn\\.net/,/sfu\\.ca/"
 
   html_validation:
     name: Validate HTML (Nu)
@@ -153,20 +154,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Download the generated site
+        uses: actions/download-artifact@v4
         with:
-          ruby-version: '3.2'
-          bundler-cache: true
-
-      - name: Install Apertium (Bokmål to Nynorsk)
-        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
-
-      - name: Generate the Nynorsk mirror, measure the languages, build the open data and the AVIF variants
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py && pip install -q Pillow && python3 scripts/build_avif.py
-
-      - name: Build site
-        run: bundle exec jekyll build --trace
+          name: generated-site
+          path: ./_site
 
       - name: Run Nu HTML Checker
         uses: Cyb3r-Jak3/html5validator-action@v7.2.0
@@ -181,20 +173,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Download the generated site
+        uses: actions/download-artifact@v4
         with:
-          ruby-version: '3.2'
-          bundler-cache: true
-
-      - name: Install Apertium (Bokmål to Nynorsk)
-        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
-
-      - name: Generate the Nynorsk mirror, measure the languages, build the open data and the AVIF variants
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py && pip install -q Pillow && python3 scripts/build_avif.py
-
-      - name: Build site
-        run: bundle exec jekyll build --trace
+          name: generated-site
+          path: ./_site
 
       - name: Serve generated site and run Pa11y CI
         run: |
@@ -210,20 +193,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Download the generated site
+        uses: actions/download-artifact@v4
         with:
-          ruby-version: '3.2'
-          bundler-cache: true
-
-      - name: Install Apertium (Bokmål to Nynorsk)
-        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
-
-      - name: Generate the Nynorsk mirror, measure the languages, build the open data and the AVIF variants
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py && pip install -q Pillow && python3 scripts/build_avif.py
-
-      - name: Build site
-        run: bundle exec jekyll build --trace
+          name: generated-site
+          path: ./_site
 
       - name: Serve generated site and run Lighthouse
         continue-on-error: true
@@ -249,20 +223,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Download the generated site
+        uses: actions/download-artifact@v4
         with:
-          ruby-version: '3.2'
-          bundler-cache: true
-
-      - name: Install Apertium (Bokmål to Nynorsk)
-        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
-
-      - name: Generate the Nynorsk mirror, measure the languages, build the open data and the AVIF variants
-        run: pip install -q PyYAML requests lingua-language-detector && python3 scripts/build_nynorsk.py && python3 scripts/measure_languages.py && python3 scripts/build_open_data.py && pip install -q Pillow && python3 scripts/build_avif.py
-
-      - name: Build site
-        run: bundle exec jekyll build --trace
+          name: generated-site
+          path: ./_site
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -300,6 +265,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Download the generated site
+        uses: actions/download-artifact@v4
+        with:
+          name: generated-site
+          path: ./_site
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -312,9 +283,8 @@ jobs:
       - name: Generate the Nynorsk mirror
         run: pip install -q PyYAML requests && python3 scripts/build_nynorsk.py
 
-      - name: Build site and theme previews
+      - name: Build theme previews
         run: |
-          bundle exec jekyll build --trace
           for theme in $(./scripts/ui list); do
             ./scripts/ui build "$theme" --baseurl "/ui/$theme" --trace
             mkdir -p "_site/ui/$theme"
@@ -377,20 +347,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Download the generated site
+        uses: actions/download-artifact@v4
         with:
-          ruby-version: '3.2'
-          bundler-cache: true
-
-      - name: Install Apertium (Bokmål to Nynorsk)
-        run: sudo apt-get update -q && sudo apt-get install -y -q apertium apertium-nno-nob
-
-      - name: Generate the Nynorsk mirror
-        run: pip install -q PyYAML requests && python3 scripts/build_nynorsk.py
-
-      - name: Build site
-        run: bundle exec jekyll build --trace
+          name: generated-site
+          path: ./_site
 
       - name: Setup Node
         uses: actions/setup-node@v4
