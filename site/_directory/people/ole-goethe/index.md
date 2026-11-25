@@ -18,7 +18,7 @@ nva_affiliations:
 - role: Senior lecturer
   unit: Faculty of Film, TV and Games
   institution: university-of-inland-norway
-- role: Senior lecturer
+- role: Associate professor
   unit: Department of Performing Arts, Film and Media
   institution: kristiania-university-college
 projects:

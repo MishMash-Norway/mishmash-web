@@ -44,6 +44,11 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.1145/3812539
+- title: 'Revival: Metacreation, Co-Creation, and Digital Afterlife with Musical Agents'
+  year: '2026'
+  source: Conference paper
+  group_type: Conference
+  url: https://doi.org/10.1145/3840416.3840468
 - title: '"There is Beauty in the Small": A Study of Visual Artists’ Impressions of
     Small Data and Model Crafting Approaches to Creative AI Work'
   year: '2026'
@@ -84,11 +89,6 @@ selected_works:
   source: Journal article
   group_type: Journal article
   url: https://doi.org/10.5334/tismir.120
-- title: PreGLAM-MMM
-  year: '2022'
-  source: Conference paper
-  group_type: Conference
-  url: https://doi.org/10.1145/3555858.3555947
 source_mentions: []
 summary: null
 published: true

@@ -33,6 +33,21 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Styring av vedlikehold innen ISO-fagene – isolering, stillas og overflatebehandling
+  year: '2026'
+  source: Research report
+  group_type: Research report
+  contributors:
+  - name: Knut Øien
+    role: Creator
+  - name: Maria Vatshaug Ottermo
+    role: Creator
+  - name: Stine Skaufel Kilskar
+    role: Creator
+  - name: Viggo Tellefsen Wivestad
+    role: Creator
+    slug: viggo-tellefsen-wivestad
+    url: /people/viggo-tellefsen-wivestad/
 - title: Safe and Sustainable Development of AI tools for German Primary Care
   year: '2026'
   source: Research report

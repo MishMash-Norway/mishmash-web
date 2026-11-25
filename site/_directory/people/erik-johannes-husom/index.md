@@ -45,7 +45,7 @@ selected_works:
   year: '2026'
   source: Journal article
   group_type: Journal article
-  url: https://doi.org/10.48550/ARXIV.2605.30543
+  url: https://doi.org/10.48550/arXiv.2605.30543
   contributors:
   - name: Maria Emine Nylund
     role: Creator

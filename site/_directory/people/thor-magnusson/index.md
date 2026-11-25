@@ -43,6 +43,10 @@ search_keywords:
 - Notation
 - Philo
 selected_works:
+- title: 'The Extended Encounter: Kicking Against Methodology'
+  year: '2026'
+  source: Conference paper
+  group_type: Conference
 - title: 'The open work and AI: Co-creation and haunting in text scores and inherent
     scores'
   year: '2026'
@@ -84,10 +88,6 @@ selected_works:
   group_type: Conference
   url: https://doi.org/10.1145/3678299.3678319
 - title: 'About TIME: Textile Interfaces for Musical Expression'
-  year: '2024'
-  source: Conference paper
-  group_type: Conference
-- title: 'Querying the Ghost: AI Hauntography in NIME'
   year: '2024'
   source: Conference paper
   group_type: Conference

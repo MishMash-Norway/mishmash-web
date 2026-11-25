@@ -30,6 +30,21 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'CRRL: A Causality-Based Reinforcement Learning Framework for Autonomous
+    System Recovery'
+  year: '2026'
+  source: Report
+  group_type: Report
+  url: https://doi.org/10.48550/arXiv.2607.03177
+  contributors:
+  - name: "Safia\t Fatima"
+    role: Creator
+  - name: Kai Olav Ellefsen
+    role: Creator
+    slug: kai-olav-ellefsen
+    url: /people/kai-olav-ellefsen/
+  - name: Leon Moonen
+    role: Creator
 - title: 'Lamarckian Inheritance in Dynamic Environments: How Key Variables Affect
     Evolutionary Dynamics'
   year: '2026'
@@ -182,23 +197,6 @@ selected_works:
     role: Creator
   - name: Marius Dewar
     role: Creator
-  - name: Kai Olav Ellefsen
-    role: Creator
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
-- title: Generational Replacement and Learning for High-Performing and Diverse Populations
-    in Evolvable Robots
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/alife-cis64968.2025.10979828
-  contributors:
-  - name: Ege de Bruin
-    role: Creator
-  - name: Kyrre Glette
-    role: Creator
-    slug: kyrre-glette
-    url: /people/kyrre-glette/
   - name: Kai Olav Ellefsen
     role: Creator
     slug: kai-olav-ellefsen

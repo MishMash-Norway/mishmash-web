@@ -1,8 +1,8 @@
-synced_at: '2026-11-24T15:48:19Z'
+synced_at: '2026-11-25T15:35:43Z'
 source: OpenAlex (CC0) for the open-access status and the free copy, Crossref for
   the licence
 count: 24
-free: 16
+free: 17
 works:
   10.1007/978-3-032-26999-7_18:
     status: closed
@@ -36,10 +36,10 @@ works:
     free: false
     licence_url: https://academic.oup.com/pages/standard-publication-reuse-rights
   10.1093/mts/mtab013:
-    status: bronze
-    label: free to read
+    status: green
+    label: open access (author copy)
     free: true
-    url: https://academic.oup.com/mts/article-pdf/44/1/1/43294659/mtab013.pdf
+    url: https://hdl.handle.net/10037/23586
     licence_url: https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model
   10.1109/ichcai70183.2026.11607647:
     status: closed
@@ -108,9 +108,10 @@ works:
     label: subscription
     free: false
   10.4324/9781003475675-9:
-    status: closed
-    label: subscription
-    free: false
+    status: green
+    label: open access (author copy)
+    free: true
+    url: https://hdl.handle.net/11250/5331540
   10.5281/zenodo.22254724:
     status: green
     label: open access (author copy)
