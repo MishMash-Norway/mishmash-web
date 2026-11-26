@@ -3,7 +3,7 @@ type: person
 slug: maham-riaz
 name: Maham Riaz
 title: Maham Riaz
-position: Research fellow
+position: ''
 department: Department of Musicology
 institution: ''
 institutions: []
