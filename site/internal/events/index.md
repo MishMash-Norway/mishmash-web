@@ -8,7 +8,8 @@ Workshops and gatherings for people in MishMash: the work package leaders, the p
 
 ## Upcoming
 
-- [Workshops for WP leaders and recruits](2027-01-25-workshops/), 25 January 2027, University of Oslo
+- [WP leader workshop](2027-01-25-wpl-workshop/), 25 January 2027, University of Oslo
+- [Recruit workshop](2027-01-25-recruit-workshop/), 25 January 2027, University of Oslo
 
 ## Past
 
