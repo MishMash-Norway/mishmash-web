@@ -5,8 +5,9 @@ name: Karolina Bieszczad-Stie
 title: Karolina Bieszczad-Stie
 position: Choreographer, artistic researcher, producer
 department: null
-institution: null
-institutions: []
+institution: butoh-encounters
+institutions:
+- butoh-encounters
 projects: []
 roles:
 - Member

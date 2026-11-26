@@ -11,6 +11,7 @@ description: The University of Agder, formerly known as Agder College and Agder 
 short_name: UiA
 image: /images/institutions/university-of-agder.svg
 people:
+- adrian-forde-andersson
 - arstein-justnes
 - ase-ava-fredheim
 - daniel-nordgard
