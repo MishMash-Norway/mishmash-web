@@ -1,18 +1,18 @@
 ---
-title: "WP6 Workshop: AI in the Museum"
+title: "AI in the Museum"
 date: 2026-11-30 13:00:00 +01:00
 end_date: 2026-11-30 14:45:00 +01:00
 location: Domkirkeodden historiesenter, Strandvegen 100, 2315 Hamar
 layout: event
 categories: [Workshop, WP6]
 tags: [Cultural heritage, Museums, Archives]
-description: "The open part of the WP6 workshop in Hamar: AI for cultural heritage collections, a guided tour of the Baldishol exhibition and a panel on its AI co-created exhibition film."
+description: "An afternoon at Domkirkeodden in Hamar on AI for cultural heritage collections, with a guided tour of the Baldishol exhibition and a panel on its AI co-created exhibition film."
 slug: "wp6-ai-in-the-museum"
 ---
 
 ## Description
 
-The second half of the work package 6 workshop is open to the public. The programme is curated in collaboration with Anno museum and the University of Inland Norway (INN).
+How can artificial intelligence help museums and archives make their collections available, and what happens when an exhibition is made together with AI? This open afternoon at Domkirkeodden historiesenter in Hamar looks at AI for cultural heritage collections and at the Baldishol exhibition, whose exhibition film was co-created with AI. It is organised by MishMash's work package on AI for cultural heritage, in collaboration with Anno museum and the University of Inland Norway (INN). Everyone is welcome.
 
 ## Programme
 
