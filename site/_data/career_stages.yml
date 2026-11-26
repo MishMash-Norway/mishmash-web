@@ -15,7 +15,6 @@ stages:
       - 'post-?doc'
       - 'researcher'
       - 'research scientist'
-      - 'research professor'
   - label: PhD fellows
     patterns:
       - 'ph\.? ?d'

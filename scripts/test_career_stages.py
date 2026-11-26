@@ -32,7 +32,7 @@ class CareerStageTests(unittest.TestCase):
             "Post-doctoral research fellow": "Postdocs/Researchers",
             "Postdoctoral Researcher": "Postdocs/Researchers",
             "Researcher": "Postdocs/Researchers",
-            "Research Professor": "Postdocs/Researchers",
+            "Research Professor": "Faculty",
             "Research fellow": "PhD fellows",
             "Ph.D Research fellow": "PhD fellows",
             "PHD candidate": "PhD fellows",
