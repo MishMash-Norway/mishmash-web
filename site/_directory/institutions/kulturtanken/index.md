@@ -12,8 +12,8 @@ image: /images/institutions/kulturtanken.png
 people:
 - bente-aasheim
 projects: []
-country: null
-city: null
+country: Norway
+city: Oslo
 urls:
   website: https://www.kulturtanken.no/
   wikipedia: https://no.wikipedia.org/wiki/Kulturtanken

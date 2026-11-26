@@ -3,6 +3,8 @@ title: "2nd MishMash Conference / 9th Annual Artistic Research Conference – AR
 date: 2027-04-13 09:00:00 +02:00   # Event start date/time
 end_date: 2027-04-15 17:00:00 +02:00 # Optional: Event end time
 location: Kristiania University of Applied Sciences, Oslo
+city: Oslo
+country: Norway
 layout: event
 categories: [Conference]
 highlight: true

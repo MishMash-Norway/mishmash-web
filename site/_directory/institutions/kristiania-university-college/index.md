@@ -39,7 +39,7 @@ projects:
 - strategic-storyteller
 - tao-transductive-acoustic-organism
 country: Norway
-city: null
+city: Oslo
 urls:
   website: https://www.kristiania.no/en/
   wikipedia: https://en.wikipedia.org/wiki/Kristiania_University_College

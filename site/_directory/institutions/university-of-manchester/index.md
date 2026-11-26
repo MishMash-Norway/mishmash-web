@@ -27,5 +27,6 @@ summary: The University of Manchester is a public research university in Manches
   of Manchester. This merger followed a century of close collaboration between the
   two institutions.
 country: United Kingdom
+city: Manchester
 ---
 

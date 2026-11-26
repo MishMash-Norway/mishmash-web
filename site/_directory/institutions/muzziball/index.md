@@ -14,7 +14,7 @@ people:
 - ingerine-dahl
 projects:
 - creative-health-technologies
-country: null
+country: Norway
 city: null
 urls:
   website: https://muzziball.no/

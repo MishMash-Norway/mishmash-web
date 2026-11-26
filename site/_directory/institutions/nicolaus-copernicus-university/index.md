@@ -15,7 +15,7 @@ people:
 - karolina-finc
 projects: []
 country: Poland
-city: null
+city: Torun
 urls:
   website: https://www.umk.pl/en/
   wikipedia: https://en.wikipedia.org/wiki/Nicolaus_Copernicus_University_in_Toru%C5%84

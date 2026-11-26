@@ -26,7 +26,7 @@ projects:
 - tool-for-tools
 - when-creativity-meets-criticality
 country: Norway
-city: null
+city: Bodø
 urls:
   website: https://www.nord.no/en
   wikipedia: https://en.wikipedia.org/wiki/Nord_University

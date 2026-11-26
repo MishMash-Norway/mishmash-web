@@ -21,7 +21,7 @@ projects:
 - ai-transcription-of-music
 - evaluation-cultural-bias-workflow-ai-music-generation
 country: Norway
-city: null
+city: Tromsø
 urls:
   website: https://en.uit.no/
   wikipedia: https://en.wikipedia.org/wiki/UiT_The_Arctic_University_of_Norway

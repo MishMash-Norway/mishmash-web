@@ -20,7 +20,7 @@ people:
 - stefano-nichele
 projects: []
 country: Norway
-city: null
+city: Halden
 urls:
   website: https://www.hiof.no/english/
   wikipedia: https://en.wikipedia.org/wiki/%C3%98stfold_University_College

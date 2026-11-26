@@ -3,6 +3,8 @@ title: 'Concert: Quantum Loops, Broken Symmetries '
 date: 2025-12-03 18:00:00+01:00
 end_date: 2025-12-03 19:00:00+01:00
 location: Salen, Department of Musicology, University of Oslo
+city: Oslo
+country: Norway
 layout: event
 categories:
 - Concert

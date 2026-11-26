@@ -22,7 +22,7 @@ projects:
 - ki-i-kunstnerisk-utdanning-og-praksis
 - making-movement-matter
 country: Norway
-city: null
+city: Oslo
 urls:
   website: https://khio.no/en
   wikipedia: https://en.wikipedia.org/wiki/Oslo_National_Academy_of_the_Arts

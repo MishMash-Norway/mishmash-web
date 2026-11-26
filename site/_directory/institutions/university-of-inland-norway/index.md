@@ -57,7 +57,7 @@ projects:
 - tool-for-tools
 - when-creativity-meets-criticality
 country: Norway
-city: null
+city: Elverum
 urls:
   website: https://www.inn.no/english/
   wikipedia: https://en.wikipedia.org/wiki/University_of_Inland_Norway

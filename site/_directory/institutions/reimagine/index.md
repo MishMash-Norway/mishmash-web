@@ -13,7 +13,7 @@ people:
 projects:
 - authentic-anonymity-in-documentary-film
 - hybrid-ai-film-production-workshop
-country: null
+country: Norway
 city: null
 urls:
   website: https://reimagine.no/

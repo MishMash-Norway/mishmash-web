@@ -16,7 +16,7 @@ people:
 projects:
 - creative-ai-at-voldslokka
 country: Norway
-city: null
+city: Trondheim
 urls:
   website: https://www.kulturskoleradet.no/
   wikipedia: https://no.wikipedia.org/wiki/Kulturskoler%C3%A5det

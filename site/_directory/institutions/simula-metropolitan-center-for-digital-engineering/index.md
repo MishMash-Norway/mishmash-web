@@ -17,7 +17,7 @@ people:
 - sven-arne-reinemo
 projects: []
 country: Norway
-city: null
+city: Oslo
 urls:
   website: https://www.simulamet.no/
   wikipedia: https://en.wikipedia.org/wiki/Simula_Research_Laboratory

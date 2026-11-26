@@ -3,6 +3,8 @@ title: "AI in the Museum"
 date: 2026-11-30 13:00:00 +01:00
 end_date: 2026-11-30 14:45:00 +01:00
 location: Domkirkeodden historiesenter, Strandvegen 100, 2315 Hamar
+city: Hamar
+country: Norway
 layout: event
 categories: [Workshop, WP6]
 tags: [Cultural heritage, Museums, Archives]

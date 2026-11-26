@@ -36,7 +36,7 @@ projects:
 - teacher-resources-critical-ai-literacy
 - the-mishmash-website
 country: Norway
-city: null
+city: Kristiansand
 urls:
   website: https://www.uia.no/english/index.html
   wikipedia: https://en.wikipedia.org/wiki/University_of_Agder

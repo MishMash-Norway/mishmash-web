@@ -25,7 +25,7 @@ projects:
 - ki-i-kunstnerisk-utdanning-og-praksis
 - tool-for-tools
 country: Norway
-city: null
+city: Bergen
 urls:
   website: https://www.hvl.no/en/
   wikipedia: https://en.wikipedia.org/wiki/Western_Norway_University_of_Applied_Sciences

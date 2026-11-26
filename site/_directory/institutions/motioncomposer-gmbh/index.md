@@ -13,7 +13,7 @@ people:
 - robert-wechsler
 projects:
 - movement-to-music-hackathon
-country: null
+country: Germany
 city: null
 urls:
   website: https://motioncomposer.de/en/

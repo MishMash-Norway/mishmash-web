@@ -39,6 +39,14 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       <span class="filter-label">Category:</span>
       <div id="category-chips" class="chip-list" role="group" aria-label="Filter by category"></div>
     </div>
+    <div id="country-filter-group" class="filter-group" hidden>
+      <span class="filter-label">Country:</span>
+      <div id="country-chips" class="chip-list" role="group" aria-label="Filter by country"></div>
+    </div>
+    <div id="city-filter-group" class="filter-group" hidden>
+      <span class="filter-label">City:</span>
+      <div id="city-chips" class="chip-list" role="group" aria-label="Filter by city"></div>
+    </div>
     <details id="tag-filter-group" class="filter-group filter-group-collapsible" hidden>
       <summary class="filter-label">Tags<span class="filter-expand-icon" aria-hidden="true">▸</span></summary>
 
@@ -101,6 +109,8 @@ description: "Search MishMash people, institutions, projects, pages, and events.
   let activeTypes = new Set();
   let activeCategories = new Set();
   let activeRoles = new Set();
+  let activeCountries = new Set();
+  let activeCities = new Set();
   let activeTags = new Set();
   let activeTagClusters = new Set();
   let tagLogic = 'or';
@@ -176,6 +186,10 @@ description: "Search MishMash people, institutions, projects, pages, and events.
   const wpCategoryChips = document.getElementById('wp-category-chips');
   const categoryFilterGroup = document.getElementById('category-filter-group');
   const categoryChips = document.getElementById('category-chips');
+  const countryFilterGroup = document.getElementById('country-filter-group');
+  const countryChips = document.getElementById('country-chips');
+  const cityFilterGroup = document.getElementById('city-filter-group');
+  const cityChips = document.getElementById('city-chips');
 
   const tagFilterGroup = document.getElementById('tag-filter-group');
   const tagChips = document.getElementById('tag-chips');
@@ -731,7 +745,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     syncClusteringModeUI();
     syncClusterSliderState();
     updateUrl();
-    if (input.value || activeTypes.size || activeCategories.size || activeRoles.size || activeTags.size || activeTagClusters.size) {
+    if (input.value || activeTypes.size || activeCategories.size || activeRoles.size || activeTags.size || activeTagClusters.size || activeCountries.size || activeCities.size) {
       runSearch();
     }
   }
@@ -743,8 +757,12 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     const categories = new Set();
     const clusterableTags = new Set();
     const rawTags = new Set();
+    const countries = new Set();
+    const cities = new Set();
 
     items.forEach(function (item) {
+      (item.countries || []).forEach(function (c) { if (c) countries.add(c); });
+      (item.cities || []).forEach(function (c) { if (c) cities.add(c); });
       if (item.type) types.add(item.type);
       (item.roles || []).forEach(function (r) { roles.add(r); });
       (item.categories || []).forEach(function (c) {
@@ -816,13 +834,22 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       makeChip(v, activeCategories, categoryChips, runSearch);
     });
 
+    [...countries].sort().forEach(function (v) {
+      makeChip(v, activeCountries, countryChips, runSearch);
+    });
+    countryFilterGroup.hidden = countries.size === 0;
+    [...cities].sort().forEach(function (v) {
+      makeChip(v, activeCities, cityChips, runSearch);
+    });
+    cityFilterGroup.hidden = cities.size === 0;
+
     clusterModel = useOfflineClusters
       ? buildOfflineClusterModel(items, clusterCount)
       : buildTagClusterModel(items, clusterCount);
     renderTagClusterChips();
     renderRawTagChips([...rawTags].sort());
 
-    if (types.size > 0 || wpCats.size > 0 || categories.size > 0 || rawTags.size > 0) {
+    if (types.size > 0 || wpCats.size > 0 || categories.size > 0 || rawTags.size > 0 || countries.size > 0) {
       filterPanel.hidden = false;
     }
   }
@@ -833,7 +860,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     const rawQuery = input.value.trim();
     const query = normalize(rawQuery);
     const hasTagFilter = clusteringEnabled ? activeTagClusters.size : activeTags.size;
-    const hasFilter = activeTypes.size || activeCategories.size || activeRoles.size || hasTagFilter;
+    const hasFilter = activeTypes.size || activeCategories.size || activeRoles.size || activeCountries.size || activeCities.size || hasTagFilter;
 
     if (!query && !hasFilter) {
       resultsList.innerHTML = '';
@@ -888,6 +915,9 @@ description: "Search MishMash people, institutions, projects, pages, and events.
           : normTags.some(function (t) { return itemTags.includes(t); });
         if (!tagMatches) return false;
       }
+
+      if (activeCountries.size && !(item.countries || []).some(function (c) { return activeCountries.has(c); })) return false;
+      if (activeCities.size && !(item.cities || []).some(function (c) { return activeCities.has(c); })) return false;
 
       if (activeRoles.size) {
         const matches = [...activeRoles].some(function (label) {
@@ -994,7 +1024,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     tagLogic = mode;
     syncTagLogicUI();
     updateUrl();
-    if (input.value || activeTypes.size || activeCategories.size || activeRoles.size || activeTags.size || activeTagClusters.size) {
+    if (input.value || activeTypes.size || activeCategories.size || activeRoles.size || activeTags.size || activeTagClusters.size || activeCountries.size || activeCities.size) {
       runSearch();
     }
   }
@@ -1015,6 +1045,8 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     params.getAll('type').forEach(activateTypeChip);
     params.getAll('cat').forEach(activateCategoryChip);
     params.getAll('role').forEach(activateRoleChip);
+    params.getAll('country').forEach(function (v) { activeCountries.add(v); activateChipIn(countryChips, v); });
+    params.getAll('city').forEach(function (v) { activeCities.add(v); activateChipIn(cityChips, v); });
 
     tagLogic = params.get('tag_logic') === 'and' ? 'and' : 'or';
     syncTagLogicUI();
@@ -1033,6 +1065,8 @@ description: "Search MishMash people, institutions, projects, pages, and events.
     activeTypes.forEach(function (v) { params.append('type', v); });
     activeCategories.forEach(function (v) { params.append('cat', v); });
     activeRoles.forEach(function (v) { params.append('role', v); });
+    activeCountries.forEach(function (v) { params.append('country', v); });
+    activeCities.forEach(function (v) { params.append('city', v); });
 
     if (clusteringEnabled) {
       activeTagClusters.forEach(function (v) { params.append('tc', v); });
@@ -1080,7 +1114,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       hydrateFromUrl();
       syncTagLogicUI();
       syncClusteringModeUI();
-      if (input.value || activeTypes.size || activeCategories.size || activeRoles.size || activeTags.size || activeTagClusters.size) {
+      if (input.value || activeTypes.size || activeCategories.size || activeRoles.size || activeTags.size || activeTagClusters.size || activeCountries.size || activeCities.size) {
         runSearch();
       }
     })

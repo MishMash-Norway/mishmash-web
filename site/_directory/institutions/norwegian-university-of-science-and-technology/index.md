@@ -31,7 +31,7 @@ projects:
 - scoping-review-creative-ai-teaching-learning
 - trondheim-kreativ-ai
 country: Norway
-city: null
+city: Trondheim
 urls:
   website: https://www.ntnu.edu/
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_University_of_Science_and_Technology

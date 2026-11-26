@@ -16,7 +16,7 @@ projects:
 - human-machine-consciousness
 - madelaines
 country: Norway
-city: null
+city: Oslo
 urls:
   website: https://www.barrattdue.no/en
   wikipedia: https://en.wikipedia.org/wiki/Barratt_Due_Institute_of_Music

@@ -22,7 +22,7 @@ projects:
 - copyright-and-personality-rights-ai-era
 - tool-for-tools
 country: Norway
-city: null
+city: Oslo
 urls:
   website: https://www.bi.edu/
   wikipedia: https://en.wikipedia.org/wiki/BI_Norwegian_Business_School

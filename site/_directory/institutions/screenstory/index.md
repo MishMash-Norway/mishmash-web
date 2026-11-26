@@ -12,7 +12,7 @@ people:
 - tommy-aase
 projects:
 - ai-integration-film-tv-education
-country: null
+country: Norway
 city: null
 urls:
   website: https://screenstory.no/

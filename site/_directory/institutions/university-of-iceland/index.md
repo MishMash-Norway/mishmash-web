@@ -16,7 +16,7 @@ people:
 projects:
 - rhyglyph-rhydiff-rhyseq
 country: Iceland
-city: null
+city: Reykjavik
 urls:
   website: https://www.hi.is/en
   wikipedia: https://en.wikipedia.org/wiki/University_of_Iceland

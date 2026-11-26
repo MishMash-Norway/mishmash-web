@@ -16,7 +16,7 @@ people:
 projects:
 - environmental-sustainability-mishmash
 country: Norway
-city: null
+city: Kråkerøy
 urls:
   website: https://norsus.no/en/
   wikipedia: null

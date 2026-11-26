@@ -14,7 +14,7 @@ people:
 - tor-martin-norvik
 projects:
 - trondheim-kreativ-ai
-country: null
+country: Norway
 city: null
 urls:
   website: https://www.superponni.no/

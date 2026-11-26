@@ -18,7 +18,7 @@ projects:
 - ai-integration-film-tv-education
 - re-fragmenting-schoyen
 country: Norway
-city: null
+city: Bergen
 urls:
   website: https://www.nla.no/en/
   wikipedia: https://en.wikipedia.org/wiki/NLA_University_College

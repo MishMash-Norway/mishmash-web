@@ -11,7 +11,7 @@ short_name: UniMelb
 people: []
 projects: []
 country: Australia
-city: null
+city: Melbourne
 urls:
   website: https://www.unimelb.edu.au/
   wikipedia: https://en.wikipedia.org/wiki/University_of_Melbourne

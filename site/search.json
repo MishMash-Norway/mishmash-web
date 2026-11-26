@@ -83,6 +83,25 @@ layout: null
         {% endcapture %}
         {% assign search_content = institution_content | strip %}
       {% endif %}
+      {% assign loc_countries = "" | split: "" %}
+      {% assign loc_cities = "" | split: "" %}
+      {% assign loc_inst_slugs = "" | split: "" %}
+      {% if item.type == "institution" %}
+        {% if item.country %}{% assign loc_countries = loc_countries | push: item.country %}{% endif %}
+        {% if item.city %}{% assign loc_cities = loc_cities | push: item.city %}{% endif %}
+      {% elsif item.type == "person" %}
+        {% if person_inst_slug %}{% assign loc_inst_slugs = loc_inst_slugs | push: person_inst_slug %}{% endif %}
+      {% elsif item.type == "project" %}
+        {% assign loc_inst_slugs = item.institutions | default: loc_inst_slugs %}
+      {% elsif item.collection == "events" %}
+        {% if item.country %}{% assign loc_countries = loc_countries | push: item.country %}{% endif %}
+        {% if item.city %}{% assign loc_cities = loc_cities | push: item.city %}{% endif %}
+      {% endif %}
+      {% for s in loc_inst_slugs %}
+        {% assign loc_inst = site.directory | where: "type", "institution" | where: "slug", s | first %}
+        {% if loc_inst.country %}{% assign loc_countries = loc_countries | push: loc_inst.country %}{% endif %}
+        {% if loc_inst.city %}{% assign loc_cities = loc_cities | push: loc_inst.city %}{% endif %}
+      {% endfor %}
       {
         "title": {{ search_title | jsonify }},
         "url": {{ item.url | relative_url | jsonify }},
@@ -90,6 +109,8 @@ layout: null
         "categories": {{ search_categories | default: empty | jsonify }},
         "tags": {{ item.tags | default: empty | jsonify }},
         "roles": {{ item.roles | default: empty | jsonify }},
+        "countries": {{ loc_countries | uniq | jsonify }},
+        "cities": {{ loc_cities | uniq | jsonify }},
         "position": {% if item.type == "person" %}{{ item.position | default: "" | jsonify }}{% else %}""{% endif %},
         "description": {{ search_description | jsonify }},
         "content": {{ search_content | jsonify }},

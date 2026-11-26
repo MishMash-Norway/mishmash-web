@@ -13,7 +13,7 @@ people:
 - charles-martin
 projects: []
 country: Australia
-city: null
+city: Canberra
 urls:
   website: https://www.anu.edu.au/
   wikipedia: https://en.wikipedia.org/wiki/Australian_National_University

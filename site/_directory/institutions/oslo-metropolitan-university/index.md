@@ -19,7 +19,7 @@ people:
 projects:
 - digital-twins-of-textile-heritage
 country: Norway
-city: null
+city: Oslo
 urls:
   website: https://www.oslomet.no/en
   wikipedia: https://en.wikipedia.org/wiki/Oslo_Metropolitan_University

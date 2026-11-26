@@ -23,7 +23,7 @@ projects:
 - music-archive-of-the-future
 - picturemarks
 country: Norway
-city: null
+city: Oslo
 urls:
   website: https://www.nb.no/en/
   wikipedia: https://en.wikipedia.org/wiki/National_Library_of_Norway

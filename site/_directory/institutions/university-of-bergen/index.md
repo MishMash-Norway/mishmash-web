@@ -45,7 +45,7 @@ projects:
 - musical-doppelgangers
 - scoping-review-creative-ai-teaching-learning
 country: Norway
-city: null
+city: Bergen
 urls:
   website: https://www.uib.no/en
   wikipedia: https://en.wikipedia.org/wiki/University_of_Bergen

@@ -3,6 +3,8 @@ title: "Human-Centered AI"
 date: 2026-09-22 13:00:00 +02:00
 end_date: 2026-09-22 17:00:00 +02:00
 location: "Forum, Forskningsparken, University of Oslo"
+city: Oslo
+country: Norway
 layout: event
 categories: [AI, Gemini Center for Trustworthy and Sustainable AI, MishMash]
 tags: [Human-Centered AI, Trustworthy AI, Responsible AI]

@@ -15,8 +15,8 @@ people:
 - knut-olaf-sunde
 projects:
 - musical-doppelgangers
-country: null
-city: null
+country: Norway
+city: Oslo
 urls:
   website: https://notam.no/en/
   wikipedia: null

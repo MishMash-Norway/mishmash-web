@@ -21,7 +21,7 @@ projects:
 - tao-transductive-acoustic-organism
 - tool-for-tools
 country: Norway
-city: null
+city: Oslo
 urls:
   website: https://www.aho.no/english/
   wikipedia: https://en.wikipedia.org/wiki/Oslo_School_of_Architecture_and_Design

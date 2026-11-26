@@ -16,7 +16,7 @@ people:
 projects:
 - teacher-resources-critical-ai-literacy
 country: Finland
-city: null
+city: Helsinki
 urls:
   website: https://www.uniarts.fi/en
   wikipedia: https://en.wikipedia.org/wiki/Uniarts_Helsinki

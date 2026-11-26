@@ -82,7 +82,7 @@ projects:
 - tool-for-tools
 - when-creativity-meets-criticality
 country: Norway
-city: null
+city: Oslo
 urls:
   website: https://www.uio.no/english/index.html
   wikipedia: https://en.wikipedia.org/wiki/University_of_Oslo

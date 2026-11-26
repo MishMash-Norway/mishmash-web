@@ -3,6 +3,8 @@ title: "MishMash Opening Conference"
 date: 2026-09-14 10:00:00 +02:00   # Event start date/time
 end_date: 2026-09-15 23:00:00 +02:00 # Optional: Event end time
 location: Kristiansand
+city: Kristiansand
+country: Norway
 layout: event
 categories: [Conference]
 description: "The opening conference will feature parallel thematic sessions, keynote lectures, performances, and art installations, bringing together artists, researchers, and the public."

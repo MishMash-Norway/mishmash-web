@@ -27,5 +27,6 @@ summary: The University of Cambridge is a collegiate public research university 
   The two ancient English universities, although sometimes described as rivals, share
   many common features and are often jointly referred to as Oxbridge.
 country: United Kingdom
+city: Cambridge
 ---
 

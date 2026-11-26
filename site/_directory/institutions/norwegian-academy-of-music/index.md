@@ -32,7 +32,7 @@ projects:
 - speculative-organology
 - teacher-resources-critical-ai-literacy
 country: Norway
-city: null
+city: Oslo
 urls:
   website: https://nmh.no/en/
   wikipedia: https://en.wikipedia.org/wiki/Norwegian_Academy_of_Music

@@ -15,7 +15,7 @@ people:
 projects:
 - musical-doppelgangers
 country: Norway
-city: null
+city: Oslo
 urls:
   website: https://www.ultima.no/en/
   wikipedia: https://en.wikipedia.org/wiki/Ultima_Oslo_Contemporary_Music_Festival

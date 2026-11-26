@@ -12,8 +12,8 @@ image: /images/institutions/bergen-center-for-electronic-arts.png
 people: []
 projects:
 - archival-intelligence
-country: null
-city: null
+country: Norway
+city: Bergen
 urls:
   website: https://bek.no/en/
   wikipedia: https://no.wikipedia.org/wiki/Bergen_senter_for_elektronisk_kunst

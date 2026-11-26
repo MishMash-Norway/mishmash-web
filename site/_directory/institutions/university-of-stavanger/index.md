@@ -29,5 +29,6 @@ summary: The University of Stavanger is a public research university located in 
 aliases:
 - Universitetet i Stavanger
 country: Norway
+city: Stavanger
 ---
 

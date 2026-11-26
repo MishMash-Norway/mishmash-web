@@ -41,5 +41,6 @@ aliases:
 - SINTEF Oslo
 - Stiftelsen SINTEF
 - SINTEF AS
+city: Trondheim
 ---
 
