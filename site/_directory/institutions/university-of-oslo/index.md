@@ -38,6 +38,7 @@ people:
 - jonas-berger-nyvold
 - jonna-vuoskoski
 - kai-olav-ellefsen
+- kayla-burnim
 - kyrre-glette
 - line-esborg
 - liv-merve-abrahamsson

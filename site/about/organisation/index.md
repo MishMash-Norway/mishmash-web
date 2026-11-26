@@ -11,6 +11,7 @@ MishMash is organised through several bodies, each with its own responsibility a
 | Body | What | How often |
 | --- | --- | --- |
 | [Management Group](management/) | Day-to-day operation of the centre | Weekly |
+| [Administration](administration/) | Coordination, communication, research advice, computing and data | Daily |
 | [Work Package Leader Group](wp-leaders/) | Progress and planning across the seven work packages | Biweekly |
 | [Board](board/) | Overall decisions on operation, budget and strategic development | Twice a semester |
 | [Council](council/) | Advice from each budget partner institution on the running of the centre | Once a semester |

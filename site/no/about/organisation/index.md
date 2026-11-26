@@ -10,6 +10,7 @@ MishMash er organisert gjennom flere organer, som hvert har sitt ansvar og sin r
 | Organ | Hva | Hvor ofte |
 | --- | --- | --- |
 | [Ledergruppen](/no/about/organisation/management/) | Daglig drift av senteret | Ukentlig |
+| [Administrasjonen](/no/about/organisation/administration/) | Koordinering, kommunikasjon, forskningsrådgivning, regnekraft og data | Daglig |
 | [Arbeidspakkeledergruppen](/no/about/organisation/wp-leaders/) | Fremdrift og planlegging på tvers av de syv arbeidspakkene | Annenhver uke |
 | [Styret](/no/about/organisation/board/) | Overordnete beslutninger om drift, budsjett og strategisk utvikling | To ganger i semesteret |
 | [Rådet](/no/about/organisation/council/) | Råd fra hver budsjettpartnerinstitusjon om senterdriften | En gang i semesteret |
