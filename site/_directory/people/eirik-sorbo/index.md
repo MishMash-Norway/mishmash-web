@@ -10,6 +10,7 @@ institution: university-of-agder
 institutions:
 - university-of-agder
 projects:
+- ai-arts-and-crafts
 - scoping-review-creative-ai-teaching-learning
 - teacher-resources-critical-ai-literacy
 - the-mishmash-website

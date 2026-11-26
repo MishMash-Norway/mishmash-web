@@ -14,6 +14,7 @@ tags:
 slug: ai-arts-and-crafts
 name: A(I)rts and Crafts
 people:
+- eirik-sorbo
 - maria-hareide
 institutions:
 - university-of-agder
@@ -33,7 +34,7 @@ The project also explores how teachers use AI, the learning outcomes associated 
 ## People
 
 - PhD fellow: [Maria Hareide](/people/maria-hareide/)
-- Supervisor: Eirik Sørbø
+- Supervisor: [Eirik Sørbø](/people/eirik-sorbo/)
 - Co-supervisor: Monica Klungland
 
 ## Institutions
