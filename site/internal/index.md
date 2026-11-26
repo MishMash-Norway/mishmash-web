@@ -7,6 +7,10 @@ permalink: /internal/
 
 This page collects internal MishMash resources.
 
+## Events
+
+- [Internal events](/internal/events/): workshops for the WP leaders and the recruits, upcoming and past
+
 ## Tools
 
 - [Kiosk view](/kiosk/): a full-screen, self-rotating page of upcoming events and news for a screen in a lobby
