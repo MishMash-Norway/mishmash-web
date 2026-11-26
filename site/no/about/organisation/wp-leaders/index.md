@@ -5,7 +5,7 @@ title: Arbeidspakkeledergruppen
 translation_url: /about/organisation/wp-leaders/
 ---
 
-Arbeidspakkeledergruppen består av lederne og «sidekicks» for MishMash sine syv arbeidspakker.
+Arbeidspakkeledergruppen består av lederne og medlederne for MishMash sine syv arbeidspakker.
 
 ## Rolle
 
@@ -18,7 +18,7 @@ Arbeidspakkeledergruppen har ansvar for:
 
 ## Medlemmer
 
-| Arbeidspakke | Leder | Sidekick 1 | Sidekick 2 |
+| Arbeidspakke | Leder | Medleder | Medleder |
 | --- | --- | --- | --- |
 | **[WP1: AI for artistic performances](/wp1/)** | ![Kyrre Glette](/assets/images/portraits/Kyrre_Glette_UiO.jpg){: .person-thumb } [Kyrre Glette](https://www.mn.uio.no/ifi/english/people/aca/kyrrehg/index.html) (UiO) | ![Ivar Grydeland](/assets/images/portraits/Ivar_Grydeland_NMH.jpg){: .person-thumb } [Ivar Grydeland](https://nmh.no/kontakt-oss/ansatte/ivar-grydeland) (NMH) | ![Georgios Marentakis](/assets/images/portraits/Georgios_Marentakis_HiOF.jpg){: .person-thumb } [Georgios Marentakis](https://www.hiof.no/iio/itk/english/people/aca/georgiom/index.html) (HiØ) |
 | **[WP2: AI in artistic processes](/wp2/)** | ![Synne Tollerud Bull](/assets/images/portraits/Synne_Tollerud_Bull_Kristiania.jpg){: .person-thumb } [Synne Tollerud Bull](https://www.kristiania.no/en/about-kristiania/employees/school-of-arts-design-and-media/westerdals-department-of-film-and-media/synne-tollerud-bull/) (Kristiania) | ![Budhaditya Chattopadhyay](/assets/images/portraits/Budhaditya_Chattopadhyay_UiB.jpg){: .person-thumb } [Budhaditya Chattopadhyay](https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay) (UiB) | ![Anna Myking](/assets/images/portraits/Anna_Myking_INN.jpg){: .person-thumb } [Anna Myking](/people/anna-myking/) (INN) |

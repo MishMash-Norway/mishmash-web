@@ -185,11 +185,11 @@
     en: "the person in charge of one of the seven teams"
     nb: "personen som leder ett av de sju lagene"
   standard:
-    en: "the researcher responsible for one work package: its plan, its people and its results; abbreviated WPL, and helped by one or two \"sidekicks\""
-    nb: "forskeren som har ansvar for én arbeidspakke: planen, folkene og resultatene; forkortet WPL, med én eller to «sidekicks» til hjelp"
+    en: "the researcher responsible for one work package: its plan, its people and its results; abbreviated WPL, together with one or two co-leads"
+    nb: "forskeren som har ansvar for én arbeidspakke: planen, folkene og resultatene; forkortet WPL, sammen med én eller to medledere"
   advanced:
-    en: "each of the seven work packages has a leader and one or two sidekicks who coordinate its scientific and artistic research, quality and dissemination. Together they form the Work Package Leader Group, which also assesses seed-funding applications with the management team"
-    nb: "hver av de sju arbeidspakkene har en leder og én eller to sidekicks som koordinerer den vitenskapelige og kunstneriske forskningen, kvaliteten og formidlingen. Sammen utgjør de arbeidspakkeledergruppen, som også vurderer søknader om såkornmidler sammen med ledelsen"
+    en: "each of the seven work packages has a leader and one or two co-leads who coordinate its scientific and artistic research, quality and dissemination. Together they form the Work Package Leader Group, which also assesses seed-funding applications with the management team"
+    nb: "hver av de sju arbeidspakkene har en leder og én eller to medledere som koordinerer den vitenskapelige og kunstneriske forskningen, kvaliteten og formidlingen. Sammen utgjør de arbeidspakkeledergruppen, som også vurderer søknader om såkornmidler sammen med ledelsen"
 
 - key: stretchtext
   term:

@@ -110,7 +110,7 @@ The centre's other commitments on sustainability, openness and reuse are on the 
     <div>
     <a href="https://www4.uib.no/en/find-employees/budhaditya.chattopadhyay">Budhaditya Chattopadhyay</a><br>
     University of Bergen<br>
-    Sidekick 1
+    Co-lead
     </div>
 </div>
 
@@ -119,7 +119,7 @@ The centre's other commitments on sustainability, openness and reuse are on the 
     <div>
     <a href="/people/anna-myking/">Anna Myking</a><br>
     University of Inland Norway, The Norwegian Film School<br>
-    Sidekick 2
+    Co-lead
     </div>
 </div>
 
