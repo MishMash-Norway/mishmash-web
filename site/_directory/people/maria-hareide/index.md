@@ -8,7 +8,8 @@ department: Department of Popular Music
 institution: university-of-agder
 institutions:
 - university-of-agder
-projects: []
+projects:
+- ai-arts-and-crafts
 roles:
 - Member
 urls:
