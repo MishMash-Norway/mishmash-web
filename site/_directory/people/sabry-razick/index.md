@@ -5,6 +5,7 @@ name: Sabry Razick
 title: Sabry Razick
 position: Chief engineer
 department: Scientific Computing Services
+image: /assets/images/portraits/Sabry_Razick_UiO.jpg
 institution: university-of-oslo
 institutions:
 - university-of-oslo
@@ -17,7 +18,7 @@ roles:
 - HPC and ML Adviser
 urls:
   personal_website: ''
-  institutional_website: ''
+  institutional_website: https://www.usit.uio.no/english/about/organisation/rde/scs/staff/sabryr/index.html
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0007-2529-7209
