@@ -12,5 +12,5 @@ Workshops and gatherings for people in MishMash: the work package leaders, the r
 
 ## Past
 
-- [WP leader workshop](2026-06-03-wpl-workshop/), 3 June 2026
+- [WP leader workshop](2026-06-03-wpl-workshop/), 3 June 2026, University of Oslo
 - [WP leader workshop](2025-09-12-wpl-workshop/), 12 September 2025, University of Oslo

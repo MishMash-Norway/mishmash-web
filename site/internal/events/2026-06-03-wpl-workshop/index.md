@@ -3,7 +3,7 @@ layout: page
 title: WP leader workshop, 3 June 2026
 ---
 
-A one-day workshop for the work package leaders and co-leads.
+A one-day workshop for the work package leaders and co-leads, in Sem 4, ZEB, University of Oslo.
 
 ## Programme
 
