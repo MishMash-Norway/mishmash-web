@@ -144,6 +144,8 @@ selected_works:
     url: /people/pedro-lucas/
   - name: Kayla Burnim
     role: Creator
+    slug: kayla-burnim
+    url: /people/kayla-burnim/
   - name: Carlos Eduardo Cancino-Chacón
     role: Creator
   - name: Maria-Alena Clim

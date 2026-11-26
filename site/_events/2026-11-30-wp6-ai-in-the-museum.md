@@ -1,15 +1,22 @@
 ---
-title: "AI in the Museum"
-date: 2026-11-30 13:00:00 +01:00
-end_date: 2026-11-30 14:45:00 +01:00
+title: AI in the Museum
+date: 2026-11-30 13:00:00+01:00
+end_date: 2026-11-30 14:45:00+01:00
 location: Domkirkeodden historiesenter, Strandvegen 100, 2315 Hamar
 city: Hamar
 country: Norway
 layout: event
-categories: [Workshop, WP6]
-tags: [Cultural heritage, Museums, Archives]
-description: "An afternoon at Domkirkeodden in Hamar on AI for cultural heritage collections, with a guided tour of the Baldishol exhibition and a panel on its AI co-created exhibition film."
-slug: "wp6-ai-in-the-museum"
+categories:
+- Workshop
+- WP6
+tags:
+- Cultural Heritage
+- Museums
+- Archives
+description: An afternoon at Domkirkeodden in Hamar on AI for cultural heritage collections,
+  with a guided tour of the Baldishol exhibition and a panel on its AI co-created
+  exhibition film.
+slug: wp6-ai-in-the-museum
 ---
 
 ## Description

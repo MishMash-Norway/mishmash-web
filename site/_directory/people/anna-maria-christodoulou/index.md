@@ -59,6 +59,8 @@ selected_works:
     url: /people/anna-maria-christodoulou/
   - name: Kayla Burnim
     role: Creator
+    slug: kayla-burnim
+    url: /people/kayla-burnim/
   - name: Finn Upham
     role: Creator
   - name: Tejaswinee Kelkar
@@ -238,6 +240,7 @@ selected_works:
     slug: alexander-refsum-jensenius
     url: /people/alexander-refsum-jensenius/
 source_mentions: []
+summary: ''
 wps:
 - WP1
 - WP3
@@ -245,7 +248,6 @@ wps:
 permalink: /people/anna-maria-christodoulou/
 redirect_from:
 - /directory/people/anna-maria-christodoulou/
-summary: ''
 ---
 
 Bio coming soon.

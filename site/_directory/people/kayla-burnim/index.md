@@ -32,27 +32,27 @@ urls:
   wikidata: ''
 aliases: []
 tags:
-- Data management plan
+- Data Management Plan
 - Biomechanics
-- Study design
+- Study Design
 - Technology, Innovation and Culture
-- Research method
+- Research Method
 - Research
-- Research and development
+- Research and Development
 - Biotechnology
-- Research data management
+- Research Data Management
 - Laboratories
 - Method
 search_keywords:
-- Data management plan
+- Data Management Plan
 - Biomechanics
-- Study design
+- Study Design
 - Technology, Innovation and Culture
-- Research method
+- Research Method
 - Research
-- Research and development
+- Research and Development
 - Biotechnology
-- Research data management
+- Research Data Management
 - Laboratories
 - Method
 selected_works:
@@ -231,3 +231,4 @@ consent:
   date: 2026-11-26
   scope: directory
 ---
+

@@ -52,6 +52,29 @@ search_keywords:
 - Operating Systems
 - Informatics
 selected_works:
+- title: Impact of Latency on Task Performance and User Experience in Teleoperated
+    Object Manipulation
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/ro-man72286.2026.11714563
+  contributors:
+  - name: Myrthe Tilleman
+    role: Creator
+    slug: myrthe-tilleman
+    url: /people/myrthe-tilleman/
+  - name: Konstantinos Kousias
+    role: Creator
+  - name: Ozgu Alay
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: Towards Server-Grade Device Pooling Over Routable PCIe with Improved and
     Scalable Systems Software
   year: '2026'
@@ -232,22 +255,6 @@ selected_works:
   - name: Roger Zimmermann
     role: Creator
   - name: Asbjørg Dyveke Johnsen
-    role: Creator
-- title: 'RhyGlyph: Radial Glyph Visualization of Rhythm Interactions'
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1145/3771594.3771643
-  contributors:
-  - name: Cagri Erdem
-    role: Creator
-    slug: cagri-erdem
-    url: /people/cagri-erdem/
-  - name: Carsten Griwodz
-    role: Creator
-    slug: carsten-griwodz
-    url: /people/carsten-griwodz/
-  - name: Davide Rocchesso
     role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md

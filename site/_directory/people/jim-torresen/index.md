@@ -40,6 +40,29 @@ tags:
 search_keywords:
 - Informatics
 selected_works:
+- title: Impact of Latency on Task Performance and User Experience in Teleoperated
+    Object Manipulation
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/ro-man72286.2026.11714563
+  contributors:
+  - name: Myrthe Tilleman
+    role: Creator
+    slug: myrthe-tilleman
+    url: /people/myrthe-tilleman/
+  - name: Konstantinos Kousias
+    role: Creator
+  - name: Ozgu Alay
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: FLexible Multi-Robot Social Navigation Using Diffusion-Based Deep Reinforcement
     Learning
   year: '2026'
@@ -201,32 +224,6 @@ selected_works:
     url: /people/jim-torresen/
   - name: Jun Miura
     role: Creator
-- title: Enhancing the Quality of 3D Lunar Maps Using JAXA’s Kaguya Imagery
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  url: https://doi.org/10.1109/SMC58881.2025.11343204
-  contributors:
-  - name: Yumi Iwashita
-    role: Creator
-  - name: Haakon Moe
-    role: Creator
-  - name: Yang Cheng
-    role: Creator
-  - name: Adnan Ansar
-    role: Creator
-  - name: Georgios Georgakis
-    role: Creator
-  - name: Adrian Stoica
-    role: Creator
-  - name: Kazuto Nakashima
-    role: Creator
-  - name: Ryo Kurazume
-    role: Creator
-  - name: Jim Tørresen
-    role: Creator
-    slug: jim-torresen
-    url: /people/jim-torresen/
 source_mentions: []
 summary: ''
 redirect_from:

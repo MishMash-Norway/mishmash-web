@@ -111,6 +111,21 @@ selected_works:
     role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
+- title: Replication Package for "Self Healing of a Mixed Autonomy Traffic System
+    Using Reinforcement Learning and Attention"
+  year: '2025'
+  source: Dataset
+  group_type: Dataset
+  url: https://doi.org/10.5281/zenodo.17018040
+  contributors:
+  - name: Safia Fatima
+    role: Creator
+  - name: Kai Ellefsen
+    role: Creator
+    slug: kai-olav-ellefsen
+    url: /people/kai-olav-ellefsen/
+  - name: Leon Moonen
+    role: Creator
 - title: Integrating Bilevel Planning and Offline Skill Learning for Enhancing Mobile
     Manipulation
   year: '2025'
@@ -183,24 +198,6 @@ selected_works:
     role: Creator
     slug: jim-torresen
     url: /people/jim-torresen/
-- title: Optimal Sampling Patterns for Robotic Environmental Monitoring
-  year: '2025'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1109/iccar64901.2025.11073028
-  contributors:
-  - name: Ivar-Kristian Waarum
-    role: Creator
-  - name: Ann Elisabeth Albright Blomberg
-    role: Creator
-  - name: Thomas Røbekk Krogstad
-    role: Creator
-  - name: Marius Dewar
-    role: Creator
-  - name: Kai Olav Ellefsen
-    role: Creator
-    slug: kai-olav-ellefsen
-    url: /people/kai-olav-ellefsen/
 source_mentions: []
 summary: ''
 wps:

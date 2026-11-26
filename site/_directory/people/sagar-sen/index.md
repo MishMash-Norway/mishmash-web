@@ -41,6 +41,23 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Multi-agent Generative AI on Digital Twins: A Learning Feedback Loop Framework
+    for Monitoring and Explainability'
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://doi.org/10.1007/978-3-032-36547-7_6
+  contributors:
+  - name: Mai Khoi Tieu
+    role: Creator
+  - name: Phu H. Nguyen
+    role: Creator
+  - name: An Ngoc Lam
+    role: Creator
+  - name: Sagar Sen
+    role: Creator
+    slug: sagar-sen
+    url: /people/sagar-sen/
 - title: 'EVLM: Intent-Driven Edge Vision Language Model for UAV-Based Power Line
     Inspection'
   year: '2026'
@@ -241,36 +258,6 @@ selected_works:
     slug: sagar-sen
     url: /people/sagar-sen/
   - name: Arda Goknil
-    role: Creator
-- title: SEA4DQ 2024 Workshop Summary
-  year: '2024'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1145/3696117.3696125
-  contributors:
-  - name: Tim Menzies
-    role: Creator
-  - name: Bowen Xu
-    role: Creator
-  - name: Hong Jin Kang
-    role: Creator
-  - name: Jie M. Zhang
-    role: Creator
-  - name: Jiri Gesi
-    role: Creator
-  - name: Sagar Sen
-    role: Creator
-    slug: sagar-sen
-    url: /people/sagar-sen/
-  - name: Beatriz Cassoli
-    role: Creator
-  - name: Nicolas Jourdan
-    role: Creator
-  - name: Jieke Shi
-    role: Creator
-  - name: Phu Hong Nguyen
-    role: Creator
-  - name: Valentina Golendukhina
     role: Creator
 source_mentions: []
 summary: ''

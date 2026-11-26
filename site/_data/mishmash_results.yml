@@ -1,4 +1,4 @@
-synced_at: '2026-11-25T15:35:33Z'
+synced_at: '2026-11-26T14:57:06Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -704,6 +704,8 @@ results:
     url: /people/anna-maria-christodoulou/
   - name: Kayla Burnim
     role: Creator
+    slug: kayla-burnim
+    url: /people/kayla-burnim/
   - name: Finn Upham
     role: Creator
   - name: Tejaswinee Kelkar
@@ -730,6 +732,8 @@ results:
       url: /people/anna-maria-christodoulou/
     - display: Burnim, Kayla
       name: Kayla Burnim
+      slug: kayla-burnim
+      url: /people/kayla-burnim/
     - display: Upham, Finn
       name: Finn Upham
     - display: Kelkar, Tejaswinee
@@ -5383,6 +5387,46 @@ results:
     nva_url: https://nva.sikt.no/registration/01a097cb442d-5f5c30e3-023e-4cce-a699-53807e9f6c73
   url: https://zenodo.org/records/21964230
   nva_url: https://nva.sikt.no/registration/01a097cb442d-5f5c30e3-023e-4cce-a699-53807e9f6c73
+- title: That Which Eyes Cannot See
+  year: '2026'
+  type: ExhibitionProduction
+  type_label: Exhibition
+  group_type: Exhibition
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    role: AudioVisualContributor
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  citation:
+    authors: []
+    title: That Which Eyes Cannot See
+    container: Exhibition.
+    details: ''
+    abstract: 'Listening operates beyond auditory perception. It emerges through a
+      complex sensory amalgamation shaped by our adaptation to changing environmental
+      dynamics. More than the reception of sound, listening relies on cognitive attentiveness
+      engaged in the discrimination, translation, and categorisation of information,
+      processes informed by individual neurological imprints and embodied experience.
+      A significant amount of listening unfolds through diverse neurological and psychophysical
+      responses, from immediate neuroception to dormant neural circuits. Situated
+      within an extended framework of mind-body regulation, listening involves the
+      dynamic interplay of skin, muscles, bones, multisensory perception, emotional
+      and mental responses, and the pursuit of conscious presence. In this sense,
+      listening becomes an act of attunement: an exchange between self and environment,
+      a sonification of the extended body-mind. Listening modulates cognitive, emotional,
+      and behavioural states through synchronised self-regulatory systems that remain
+      receptive to environmental stimuli. The feedback generated through listening
+      holds formative implications for how we perceive, inhabit, and evolve within
+      our surroundings.'
+    full_text_url: https://hdl.handle.net/11250/5603349
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a21784b740-830e1c1e-44bd-4392-8f85-2c6aa847ff38
+  url: https://cifra.com/playlist/that-which-eyes-cannot-see
+  nva_url: https://nva.sikt.no/registration/01a21784b740-830e1c1e-44bd-4392-8f85-2c6aa847ff38
 - title: Archival Intelligence (2026)
   year: '2026'
   type: ExhibitionProduction
@@ -5445,6 +5489,81 @@ results:
     nva_url: https://nva.sikt.no/registration/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
   url: https://hearhere.be/en/expo/dhv%C4%81ni
   nva_url: https://nva.sikt.no/registration/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
+- title: Impact of Latency on Task Performance and User Experience in Teleoperated
+    Object Manipulation
+  year: '2026'
+  type: AcademicArticle
+  type_label: Journal article
+  group_type: Journal article
+  contributors:
+  - name: Myrthe Tilleman
+    role: Creator
+    slug: myrthe-tilleman
+    url: /people/myrthe-tilleman/
+  - name: Konstantinos Kousias
+    role: Creator
+  - name: Ozgu Alay
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
+  institutions:
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Tilleman, Myrthe
+      name: Myrthe Tilleman
+      slug: myrthe-tilleman
+      url: /people/myrthe-tilleman/
+    - display: Kousias, Konstantinos
+      name: Konstantinos Kousias
+    - display: Alay, Ozgu
+      name: Ozgu Alay
+    - display: Griwodz, Carsten
+      name: Carsten Griwodz
+      slug: carsten-griwodz
+      url: /people/carsten-griwodz/
+    - display: Tørresen, Jim
+      name: Jim Tørresen
+      slug: jim-torresen
+      url: /people/jim-torresen/
+    title: Impact of Latency on Task Performance and User Experience in Teleoperated
+      Object Manipulation
+    container: IEEE International Conference on Robot and Human Interactive Communication
+      (RO-MAN).
+    details: 'ISSN 1944-9445. 2026. p. 928–935. doi: 10.1109/ro-man72286.2026.11714563.'
+    abstract: Teleoperation is a promising technology in applications such as telenursing
+      and search & rescue missions. Nevertheless, there are significant challenges
+      when human-robot control is performed on remote sites with variable network
+      latency. In recent years, network development has improved reliable low-latency
+      interactions. However, since end-to-end system latency is affected by various
+      factors, including sensing and motor actuation, in addition to network latency,
+      we need to understand how latency affects task performance and user experience.
+      In this paper, we study how users manipulate objects using a robotic system
+      under various latency conditions and analysed both objective performance and
+      subjective experiences regarding perceived delay, difficulty, agency, and embodiment.
+      We present a teleoperation set-up consisting of a robotic arm and an anthropomorphic
+      robotic hand that follows the operator's hand movement using real-time motion
+      capture. 45 subjects completed two standardised manipulation tasks while receiving
+      direct natural visual feedback. We isolated the effect of delay in the command-execution
+      pipeline on task performance and user experience by injecting controlled latencies
+      from 0 ms up to 200 ms to the base system latency of 220 ms. Higher latencies
+      significantly degraded task performance and increased perceived difficulty,
+      particularly in the fine dexterity task. We also observed that participants
+      performed better over time, showing a clear learning effect. These results highlight
+      the importance of minimising delays in teleoperated interactions.
+    full_text_url: https://hdl.handle.net/11250/5603252
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a2171d2c55-a1948898-6a5b-4bec-9a56-6684b0af9c07
+  url: https://doi.org/10.1109/ro-man72286.2026.11714563
+  nva_url: https://nva.sikt.no/registration/01a2171d2c55-a1948898-6a5b-4bec-9a56-6684b0af9c07
 - title: Suppressing Non-Semantic Noise in Masked Image Modeling Representations
   year: '2026'
   type: AcademicArticle
@@ -6197,6 +6316,103 @@ results:
     nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
   url: https://doi.org/10.1093/mts/mtab013
   nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+- title: Steps to an Ego-logy of Mind
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: David Jhave Johnston
+    role: Creator
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  citation:
+    authors:
+    - display: Johnston, David Jhave
+      name: David Jhave Johnston
+    title: Steps to an Ego-logy of Mind
+    container: 'HBF meeting: seminar on brain and consciousness.'
+    details: Nucleus/Golgi 1, Eitri incubator, Bergen.
+    abstract: 'Art, specifically literature, music and videos, may be valid benchmarks
+      for AI consciousness. Consider how essential art is. Humans are internal stories:
+      memories, imagination, dreams, fantasies. Stories, generated in the brain, are
+      in fact embodied neurological simulations. We are simulation machines. These
+      simulations precede and underlie the urge to make and receive art. These inner
+      stories are inner art: a cinema of the body, a concert inside the body, a storytelling
+      in the body. Woven from all the senses, they create a persistent, ongoing, shifting
+      sense of self, like an estuary: a map and plot of the ‘me’. The ‘ego tunnel’
+      (Metzinger 2009) is generated and perpetuated by a multitude of these woven,
+      braided, multisensorial stories. And shared external stories, distributed as
+      culture, generate ‘the birth of intersubjectivity’ via premotor cortex F5 mirror
+      neurons (Ammaniti and Gallese 2014). Narratives such as myths, religions, memes
+      or blockbuster films have formative conceptual force that constructs collective
+      attitudes. Art is part of that intersubjective construction, the flocking behavior.
+      Ideologies are propagated from body to body via art as visuals, books, films
+      and music. We are permeable. And now AI is increasingly capable of emulating
+      audio-visuals and writing our language, sound and motion at levels often indistinguishable
+      from, or superior to, human output. This technology is now implicated in consciousness
+      collectively, culturally and personally. If emotions are our deepest connection
+      to the instinctual reservoir of life, and if, as Antonio Damasio claims, “Consciousness
+      is a direct consequence of homeostatic feelings,” then the human body generates
+      consciousness from internal reports that are felt. Art is the intersubjective
+      sharing of deep feelings via the externalization of internal embodied reports.
+      Culture is extruded consciousness: transfers of internal reports from one body
+      to the next. So this essay seriously considers AI’s art-output as qualitative
+      implicit evidence of consciousness.'
+    full_text_url: https://hdl.handle.net/11250/5603375
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a217bed742-2fb576dc-e243-46e4-9c9d-e14f4f694b4c
+  url: https://glia.ca/2026/hbf-egology/
+  nva_url: https://nva.sikt.no/registration/01a217bed742-2fb576dc-e243-46e4-9c9d-e14f4f694b4c
+- title: 'Post-archival Listening: From Sounds to Soundings'
+  year: '2026'
+  type: Lecture
+  type_label: Lecture
+  group_type: Lecture
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    role: Creator
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  citation:
+    authors:
+    - display: Chattopadhyay, Budhaditya
+      name: Budhaditya Chattopadhyay
+      slug: budhaditya-chattopadhyay
+      url: /people/budhaditya-chattopadhyay/
+    title: 'Post-archival Listening: From Sounds to Soundings'
+    container: 'Post-archival Listening: From Sounds to Soundings.'
+    details: Vilnius.
+    abstract: 'Sounds are energies and social impulses that defy capture, control,
+      categorization, and inscription. Post-colonial theorists and Decolonial critics
+      of archiving consider large institutional archives and museums in the West as
+      potential sites of conflict for centralizing the capture and storage of ephemeral
+      experiences. They are recorded, technologically mediated, and objectified with
+      an extractive relation to colonized lands and people as resources. These archives
+      produce stagnant, often inaccessible, repositories of cultural capital through
+      forced collection, quantification, and legislation that reduce experiences to
+      scientific categories. The workshop and talks “Post-archival Listening: From
+      Sounds to Soundings” departs from this critical position to offer diverse perspectives
+      on the roles of archives, museums, and other institutional spaces of power today
+      with control over narratives of culture and history. Broader questions are posed
+      about the recordability of ephemeral experiences, such as sound as an object,
+      proposing a multiplicity of listening positionalities and suggesting an epistemic
+      shift from sound to listening and from production to reception. The workshop
+      gathers diverse perspectives on a post-archival listening approach to turn the
+      recorded objecthood of sound into acts of sounding; and incorporate a critical
+      and self-reflexive attitude in field recording practice that is in attunement
+      with the lived environments.'
+    full_text_url: https://hdl.handle.net/11250/5603359
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a217ad307a-8e67afec-ed3f-415a-97fd-ac01d7141901
+  url: https://parc.lmta.lt/en/renginys/lecture-and-workshops-with-budhaditya-chattopadhyay-university-of-bergen/
+  nva_url: https://nva.sikt.no/registration/01a217ad307a-8e67afec-ed3f-415a-97fd-ac01d7141901
 - title: 'Standing still, moving together: what micromotion reveals about music and
     the body'
   year: '2026'
@@ -11314,6 +11530,51 @@ results:
     full_text_kind: archive
     nva_url: https://nva.sikt.no/registration/019fb812f3c4-da54c6b0-39a3-4359-9a7c-6af13991ed68
   nva_url: https://nva.sikt.no/registration/019fb812f3c4-da54c6b0-39a3-4359-9a7c-6af13991ed68
+- title: 'Beyond Generation: What Does Critical AI Mean in Artistic Practice'
+  year: '2026'
+  type: MediaPodcast
+  type_label: Media podcast
+  group_type: Media
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    role: ProgrammeParticipant
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
+  institutions:
+  - name: University of Bergen
+    slug: university-of-bergen
+    url: /institutions/university-of-bergen/
+  citation:
+    authors: []
+    title: 'Beyond Generation: What Does Critical AI Mean in Artistic Practice'
+    container: Off Center, a Podcast from the Center For Digital Narrative.
+    details: ''
+    abstract: 'What can artists do with AI beyond generating images, text or sound?
+      How can artistic practice explore—and challenge—the systems behind these outputs?
+
+
+      Together with CDN — the Center for Digital Narrative — we are preparing a live
+      roundtable podcast at Piksel26 to explore what Critical AI means in practice.
+
+
+      From questioning datasets and exposing hidden labour to exploring AI’s environmental
+      costs and experimenting with alternative systems, we will discuss how artists
+      work with AI as a material, a tool and a subject of investigation.
+
+
+      LIVE podcast with CDN for Piksel festival
+
+
+      Part of the program Critical AI
+
+
+      Sunday 22 November 2026 | 12:00–13:00 | At Bergen Assembly & Streamed at Piksel
+      Twitch Channel, in collaboration with the Center for Digital Narrative (CDN)'
+    full_text_url: https://hdl.handle.net/11250/5603319
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a2175739ce-b2482b9b-075d-4fc6-a2f8-3f163e8db90f
+  url: https://creators.spotify.com/pod/profile/off-center/episodes/Episode-53-Live--Piksel-What-Does-Critical-AI-Mean-in-Artistic-Practice--with-Budhaditya-Chattopadhyay--Liza-Paccini-and-Maite-Cajaraville-e3ssepb/a-ad23jv5
+  nva_url: https://nva.sikt.no/registration/01a2175739ce-b2482b9b-075d-4fc6-a2f8-3f163e8db90f
 - title: 'UiO-professor: – Me skal laga kunstig intelligens for menneske'
   year: '2026'
   type: MediaInterview

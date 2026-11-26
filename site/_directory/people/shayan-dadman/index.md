@@ -28,6 +28,17 @@ aliases:
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Sonitra: A Controlled Benchmarking Toolkit for Automatic Music Transcription'
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Shayan Dadman
+    role: Creator
+    slug: shayan-dadman
+    url: /people/shayan-dadman/
+  - name: Hans Julius Skaug
+    role: Creator
 - title: 'Beyond Autonomous Creation in AI Music Generation: Multi-Agent Perception-Policy
     Separation with Process-Oriented Evaluation for User-Centric, Adaptive Systems'
   year: '2026'
@@ -147,21 +158,6 @@ selected_works:
   - name: Børre Bang
     role: Creator
   - name: Rune Dalmo
-    role: Creator
-- title: 'The Role of Electric Snowmobiles and Rooftop Energy Production in the Arctic:
-    The Case of Longyearbyen'
-  year: '2021'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.18178/JOCET.2021.9.4.530
-  contributors:
-  - name: Shayan Dadman
-    role: Creator
-    slug: shayan-dadman
-    url: /people/shayan-dadman/
-  - name: Bernt Arild Bremdal
-    role: Creator
-  - name: Kristoffer Tangrand
     role: Creator
 source_mentions: []
 summary: ''

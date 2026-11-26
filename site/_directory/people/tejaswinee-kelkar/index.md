@@ -118,6 +118,8 @@ selected_works:
     url: /people/anna-maria-christodoulou/
   - name: Kayla Burnim
     role: Creator
+    slug: kayla-burnim
+    url: /people/kayla-burnim/
   - name: Finn Upham
     role: Creator
   - name: Tejaswinee Kelkar

@@ -13,6 +13,10 @@ institutions:
 - university-of-oslo
 projects:
 - musical-doppelgangers
+other_projects:
+- title: Kringlyd@nmh
+  url: https://nva.sikt.no/projects/2782089
+  nva_id: '2782089'
 roles:
 - Member
 urls:

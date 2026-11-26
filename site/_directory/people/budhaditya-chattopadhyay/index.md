@@ -60,6 +60,16 @@ selected_works:
     role: Creator
     slug: budhaditya-chattopadhyay
     url: /people/budhaditya-chattopadhyay/
+- title: That Which Eyes Cannot See
+  year: '2026'
+  source: Exhibition
+  group_type: Exhibition
+  url: https://cifra.com/playlist/that-which-eyes-cannot-see
+  contributors:
+  - name: Budhaditya Chattopadhyay
+    role: AudioVisualContributor
+    slug: budhaditya-chattopadhyay
+    url: /people/budhaditya-chattopadhyay/
 - title: Land without Food
   year: '2026'
   source: Exhibition

@@ -43,6 +43,29 @@ search_keywords:
 - Human Computer Interaction
 - Network Systems
 selected_works:
+- title: Impact of Latency on Task Performance and User Experience in Teleoperated
+    Object Manipulation
+  year: '2026'
+  source: Journal article
+  group_type: Journal article
+  url: https://doi.org/10.1109/ro-man72286.2026.11714563
+  contributors:
+  - name: Myrthe Tilleman
+    role: Creator
+    slug: myrthe-tilleman
+    url: /people/myrthe-tilleman/
+  - name: Konstantinos Kousias
+    role: Creator
+  - name: Ozgu Alay
+    role: Creator
+  - name: Carsten Griwodz
+    role: Creator
+    slug: carsten-griwodz
+    url: /people/carsten-griwodz/
+  - name: Jim Tørresen
+    role: Creator
+    slug: jim-torresen
+    url: /people/jim-torresen/
 - title: 'Impact of Latency on User Experience in Immersive Teleoperation: A Study
     with Motion Capture Gloves and Dexterous Robotic Hand'
   year: '2026'
