@@ -15,7 +15,7 @@ other_projects:
   url: https://nva.sikt.no/projects/2710613
   nva_id: '2710613'
 roles:
-- HPC and ML Technical Adviser
+- HPC Technical Adviser
 urls:
   personal_website: ''
   institutional_website: https://www.usit.uio.no/english/about/organisation/rde/scs/staff/sabryr/index.html
@@ -222,7 +222,7 @@ selected_works:
   - name: Ian Matthew Donaldson
     role: Creator
 source_mentions: []
-summary: HPC and machine learning technical adviser at MishMash.
+summary: HPC technical adviser at MishMash.
 permalink: /people/sabry-razick/
 wps: []
 feeds: []
