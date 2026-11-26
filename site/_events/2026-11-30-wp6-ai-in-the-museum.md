@@ -26,7 +26,7 @@ How can artificial intelligence help museums and archives make their collections
 ## Programme
 
 - Presentation of MishMash and the 2027 conference ([Ida Jahr](/people/ida-jahr/), INN)
-- AI framework for cultural heritage collections: transcription, metadata enrichment, linked open data, catalogue exploration
+- AI framework for cultural heritage collections: transcription, metadata enrichment, linked open data, catalogue exploration, presented by [Olivier Lartillot](/people/olivier-lartillot/) (UiO)
 - Guided tour of the exhibition Baldishol at Domkirkeodden historiesenter
 - Panel discussion about the Anno Baldishol Tapestry exhibition and its AI co-created exhibition film, with [Kyrre Kverndokk](/people/kyrre-kverndokk/) (UiB), Arnfinn Rokne (Miste) and Per-Øyvind Riise (Anno), led by Ida Jahr (INN)
 
