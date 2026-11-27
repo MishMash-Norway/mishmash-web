@@ -12,6 +12,7 @@
 {% endif %}
 {% assign display_limit = include.limit | default: 5 %}
 {% assign fallback_icon = '/assets/images/bubbles/mishmash_bubbles.ico' | relative_url %}
+{% assign current_lang = page.lang | default: 'en' %}
 {% assign now_date = site.time | date: "%Y-%m-%d" %}
 {% assign shown = 0 %}
 
@@ -34,6 +35,14 @@
 ', ' ' | strip %}
   {% endif %}
   {% assign display_desc = ev.og_description | default: ev.description %}
+  {% assign event_lang = ev.lang | default: 'en' %}
+  {% assign event_lang_label = event_lang %}
+  {% for language in site.data.languages %}
+    {% if language.code == event_lang %}
+      {% assign event_lang_label = language.own_name %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
 
   {% assign end_date_text = end_date | default: start_date | append: '' %}
   {% assign end_date_iso = end_date_text | slice: 0, 10 %}
@@ -93,9 +102,10 @@
       {% endif %}
       {% if ev.partner %} &middot; {{ ev.partner | strip_html | escape_once }}{% endif %}
       <br />
-      {% if ev.url %}<a href="{{ ev.url }}">{{ display_title | strip_html | escape_once }}</a>{% else %}{{ display_title | strip_html | escape_once }}{% endif %}
+      {% if ev.url %}<a href="{{ ev.url }}" lang="{{ event_lang | escape }}">{{ display_title | strip_html | escape_once }}</a>{% else %}<span lang="{{ event_lang | escape }}">{{ display_title | strip_html | escape_once }}</span>{% endif %}
+      {% unless event_lang == current_lang %}<small class="partner-content-language">{{ event_lang_label | escape }}</small>{% endunless %}
       {% if display_desc %}
-        <p class="event-desc">{{ display_desc | strip_html | escape_once }}</p>
+        <p class="event-desc" lang="{{ event_lang | escape }}">{{ display_desc | strip_html | escape_once }}</p>
       {% endif %}
     </div>
   </div>
