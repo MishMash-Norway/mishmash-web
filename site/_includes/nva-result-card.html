@@ -6,6 +6,18 @@
   {% assign type_label = include.result.type_label | default: include.result.type %}
   {% assign result_year = include.result.year %}
   {% assign result_title = include.result.title %}
+  {% assign result_lang = include.result.lang | default: 'und' %}
+  {% assign result_lang_label = result_lang %}
+  {% if result_lang == 'und' %}
+    {% assign result_lang_label = 'Language not recorded' %}
+  {% else %}
+    {% for language in site.data.languages %}
+      {% if language.code == result_lang %}
+        {% assign result_lang_label = language.own_name %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
   {% assign contributors = include.result.contributors %}
   {% if contributors == nil or contributors.size == 0 %}
     {% assign contributors = cite.authors %}
@@ -16,6 +28,7 @@
   {% assign type_label = include.work.source %}
   {% assign result_year = include.work.year %}
   {% assign result_title = include.work.title %}
+  {% assign result_lang = lang %}
   {% assign contributors = include.work.contributors %}
   {% assign abstract = nil %}
 {% endif %}
@@ -29,11 +42,14 @@
 
     <h3 class="nva-result-title">
       {% if result_url %}
-      <a href="{{ result_url }}" target="_blank" rel="noopener noreferrer">{{ result_title }}</a>
+      <a href="{{ result_url }}" target="_blank" rel="noopener noreferrer" lang="{{ result_lang | escape }}">{{ result_title }}</a>
       {% else %}
-      {{ result_title }}
+      <span lang="{{ result_lang | escape }}">{{ result_title }}</span>
       {% endif %}
     </h3>
+    {% if include.result and result_lang != lang %}
+    <small class="partner-content-language">{{ result_lang_label | escape }}</small>
+    {% endif %}
 
     {% comment %}
       Whether a reader without a subscription can open the work, from
@@ -73,7 +89,7 @@
 
     {% if abstract %}
     <div class="nva-result-summary-block{% if abstract.size > 280 %} is-collapsible{% endif %}">
-      <p class="nva-result-abstract{% if abstract.size > 280 %} is-clamped{% endif %}" id="{{ include.card_id }}">{{ abstract }}</p>
+      <p class="nva-result-abstract{% if abstract.size > 280 %} is-clamped{% endif %}" id="{{ include.card_id }}" lang="{{ result_lang | escape }}">{{ abstract }}</p>
       {% if abstract.size > 280 %}
       <button type="button" class="nva-result-expand" aria-expanded="false" aria-controls="{{ include.card_id }}">
         {{ t.results_show_more }}

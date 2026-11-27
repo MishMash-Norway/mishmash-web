@@ -483,7 +483,7 @@ automation:
         on 2026-11-06 and only shrinks.
   generated_or_machine_updated:
     - _site/
-    - site/_data/mishmash_results.yml
+    - site/_data/mishmash_results.yml (NVA source language in lang, or und when NVA omits it)
     - many synced fields in site/_directory/people/
     - portraits downloaded by the NVA enrichment script
     - site/assets/images/partner-thumbs/ and the thumb, thumb_source and

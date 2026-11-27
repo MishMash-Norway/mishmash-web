@@ -1,4 +1,4 @@
-synced_at: '2026-11-27T15:04:56Z'
+synced_at: '2026-11-27T20:33:59Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -8,6 +8,7 @@ project:
     nb: MishMash Senter for KI og kreativitet
 results:
 - title: MishMash Opening Conference – Book of Abstracts
+  lang: und
   year: '2026'
   type: BookAnthology
   type_label: Book anthology
@@ -33,6 +34,7 @@ results:
   url: https://doi.org/10.5281/zenodo.23009315
   nva_url: https://nva.sikt.no/registration/01a0e6fc4da1-9979f093-4cb3-4039-af2f-8255dddf82ae
 - title: 'Curve2Melody: Sketch-Guided Melody Generation'
+  lang: en
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -90,6 +92,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a1f4232097-162dbda9-14ce-4dbd-adc9-1f4ab17e8079
 - title: 'Audio-Side Reinforcement Learning for Symbolic Music Style Adaptation: Extending
     SMART with Composite Rewards'
+  lang: en
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -125,6 +128,7 @@ results:
   url: https://doi.org/10.5281/ZENODO.22254724
   nva_url: https://nva.sikt.no/registration/01a1080071a7-ba871648-42d8-4f51-9a3d-967734a5cd2f
 - title: 'Rhythm and Residue: Vyping as Prompting Inside the Post-Discursive Interface'
+  lang: en
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -201,6 +205,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a106b2b37a-e16aba44-a6be-4cbb-89ec-1953b61a7d66
 - title: 'Designing Interfaces for the Integration of AI Agents in Maritime Navigation
     and Control: Potentials, Guidelines, Risks, and Emerging Requirements'
+  lang: en
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -267,6 +272,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0f6547698-0d484038-48b8-4072-b823-50ae8ecae9a8
 - title: 'The Perfect Wrong Note: Vyping and the Keyboard as Musical Interface for
     Human-LLM Interaction'
+  lang: en
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -326,6 +332,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0e1b3cd6d-1fcc5eaa-72d2-4906-90c7-fc4f943f39d6
 - title: '"There’s something human about it!” - Exploring users’ perception of nonverbal
     communication of robotic furniture'
+  lang: en
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -399,6 +406,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0c3276afb-84808a02-16f6-41fc-9eea-dc7d405e6459
   nva_url: https://nva.sikt.no/registration/01a0c3276afb-84808a02-16f6-41fc-9eea-dc7d405e6459
 - title: LLMs and Custom GPTs as a Tool for Academic Research | 2 | Innovation
+  lang: en
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -450,6 +458,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a09cbae1b4-207a8b32-7b59-4b45-a742-a4a918ab8bab
 - title: Modeling Relations Between Musical Events in Continuous Time with Transformer
     Models for Live Co-Improvisational Interactions | Zenodo
+  lang: und
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -520,6 +529,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a072f9420a-ba5baf02-966d-4960-a8fe-1a6a1893a40e
 - title: CTRL AI - Evaluating GenAI Tools Readiness and Affordances for Industry Standard
     Media Production Workflows
+  lang: en
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -594,6 +604,7 @@ results:
   url: https://doi.org/10.1007/978-3-032-30846-7_4
   nva_url: https://nva.sikt.no/registration/01a038225620-27ffdc77-2d7f-47f9-ba7c-a3c218c0fec9
 - title: A Visualization and Control Interface for Rhythmic Relations
+  lang: en
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -637,6 +648,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a034f97f79-8d47f64f-f6af-4717-a047-763e4a535f57
 - title: Mixed Method Audio-Video Analyses of Felt Togetherness in a Networked Music-Dance
     Performance
+  lang: en
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -689,6 +701,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019dbe9c786a-2aaeea22-7c01-4aff-8f5d-b070934c9e78
 - title: LightHearted—A Framework for Mapping ECG Signals to Light Parameters in Performing
     Arts
+  lang: en
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -768,6 +781,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019d77b43c89-c73a3828-7905-4177-b75c-0bb76343906b
 - title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
     Currently Used in Music Production
+  lang: en
   year: '2026'
   type: AcademicChapter
   type_label: Book chapter
@@ -818,6 +832,7 @@ results:
   url: https://doi.org/10.4324/9781003475675-9
   nva_url: https://nva.sikt.no/registration/019b22052adc-18ac17fb-eda5-46c7-8d3b-e1176110c991
 - title: Technologies of Capture and the Global Souths
+  lang: en
   year: '2025'
   type: AcademicChapter
   type_label: Book chapter
@@ -856,6 +871,7 @@ results:
   url: https://doi.org/10.4324/9781003430599-20
   nva_url: https://nva.sikt.no/registration/019dcbdd03cc-ac973a05-556a-4ddf-8718-6c074883f8c4
 - title: Kunstnerisk forskning for en kompleks verden
+  lang: und
   year: '2025'
   type: ChapterInReport
   type_label: Chapter in report
@@ -906,6 +922,7 @@ results:
   url: https://akademietforyngreforskere.no/wp-content/uploads/2025/11/Jubileumsbok-digital-3.pdf
   nva_url: https://nva.sikt.no/registration/019a64f85829-bc3fcdfe-c287-4aea-b695-73f9cb14a14b
 - title: 'Pixasonics: An Image Sonification Toolbox for Python'
+  lang: en
   year: '2025'
   type: AcademicChapter
   type_label: Book chapter
@@ -959,6 +976,7 @@ results:
   url: https://hdl.handle.net/1853/79958
   nva_url: https://nva.sikt.no/registration/019991f1e253-5f91e1b2-b210-4b65-b440-3cb6bbd14965
 - title: Influence du traitement de plage dynamique sur le rythme perçu dans l’EDM
+  lang: fr
   year: '2022'
   type: AcademicChapter
   type_label: Book chapter
@@ -1003,6 +1021,7 @@ results:
     nva_url: https://nva.sikt.no/registration/0198cc644905-3769d252-bea1-4ded-afe6-47aaba635af9
   nva_url: https://nva.sikt.no/registration/0198cc644905-3769d252-bea1-4ded-afe6-47aaba635af9
 - title: 'DAIM 2026: Symposium on Digital and AI Musicology'
+  lang: en
   year: '2026'
   type: ReportBookOfAbstract
   type_label: Book of abstracts
@@ -1052,6 +1071,7 @@ results:
   url: https://doi.org/10.5281/ZENODO.22643770
   nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
 - title: Evaluation of Cultural Bias & Workflow in AI Music Generation with SCOPE
+  lang: en
   year: '2026'
   type: ConferencePoster
   type_label: Conference poster
@@ -1139,6 +1159,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a21d1a8fc9-1c2cbd17-4d60-4952-85a8-779b460d0c9c
 - title: 'Verden i dag og verden i morgen: menneskets kreative potensiale i lys av
     KI'
+  lang: nb
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1178,6 +1199,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a1c25a3bd2-e90c1981-0bee-43ed-8709-ea6e354200f7
   nva_url: https://nva.sikt.no/registration/01a1c25a3bd2-e90c1981-0bee-43ed-8709-ea6e354200f7
 - title: 'AI Ecologies: Thoughts on Photography in an AI Universe'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1213,6 +1235,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a189237fc0-888aa700-0cdf-4ea9-b2d9-55c64fb7cff7
   nva_url: https://nva.sikt.no/registration/01a189237fc0-888aa700-0cdf-4ea9-b2d9-55c64fb7cff7
 - title: Toward Locally Responsive Approaches to Diversity in Music Education
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1254,6 +1277,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a186b6c503-16c2158d-5b84-4f3a-8c16-630cca247ea9
   nva_url: https://nva.sikt.no/registration/01a186b6c503-16c2158d-5b84-4f3a-8c16-630cca247ea9
 - title: 'What is MishMash: Centre for AI and Creativity? On WP6 AI for cultural heritage'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1285,6 +1309,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a16886e9c2-bd3140d1-e513-4c92-9fd6-bf1c7c71f085
 - title: 'AI and Christian Imagination: Reflections on the Consequences of Generative
     AI for Christian Film Production'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1325,6 +1350,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a167e7f570-7e330c63-1144-4987-8892-da9dc7015280
 - title: 'TAO — Transductive Acoustic Organism: A Persistent, Self-Hosted AI Instrument
     for Artistic Research'
+  lang: en
   year: '2026'
   type: ConferencePoster
   type_label: Conference poster
@@ -1360,6 +1386,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a117df6710-e36d4e1e-d65e-45b0-882e-cdac1fa2b22f
   nva_url: https://nva.sikt.no/registration/01a117df6710-e36d4e1e-d65e-45b0-882e-cdac1fa2b22f
 - title: 'Rhythm and Residue: Vyping as Prompting Inside the Post-Discursive Interface'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1435,6 +1462,7 @@ results:
   url: https://rhyres.craitr.no
   nva_url: https://nva.sikt.no/registration/01a106b2aaa2-aff67ba4-c3ef-432e-9dfc-e76a6c1b7334
 - title: 'Music, AI, and wellbeing: The role of perception'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1464,6 +1492,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0ece44164-ec2a69fa-0f35-43d7-90ea-064a32622c2f
 - title: From the Legal Refugee to the Computational Refugee in an Age of Algorithmic
     Prediction
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1505,6 +1534,7 @@ results:
   url: https://www.jus.uio.no/ikrs/english/research/projects/beyond/events/refugee-convention-at-75/conference-program-short.html
   nva_url: https://nva.sikt.no/registration/01a0ec941cc4-a879e248-0ab4-4365-9162-bf4370b14cfb
 - title: The need for new models of authorship and provenience in metadata
+  lang: en
   year: '2026'
   type: ConferencePoster
   type_label: Conference poster
@@ -1559,6 +1589,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0ec0c2aa7-30d7841c-33fe-4d33-9ac3-709f946b3239
 - title: An Exploratory Study on How AI Song Generation Affects Emotions, Agency,
     Authenticity, Creativity, and Connectedness in Musicians and Nonmusicians
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1612,6 +1643,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0e8384ce1-9b25f6a5-42f5-4fc9-a240-0cbb4ef960ce
 - title: Human, AI, or Both? How Composer Identity Shapes the Way We Connect with
     Music
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1673,6 +1705,7 @@ results:
   url: https://www.jyu.fi/en/file-download/download/public/67529
   nva_url: https://nva.sikt.no/registration/01a0e80bef4c-fc9478a0-fb83-46bf-bc8b-324a6dd25354
 - title: AI in Our Daily Lives - Panel Discussion
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1721,6 +1754,7 @@ results:
   url: https://nor.mofa.go.kr/no-en/brd/m_21236/view.do?seq=761799&page=2
   nva_url: https://nva.sikt.no/registration/01a0e7d3477e-470b0b28-f46f-4c4c-a4a6-540333bfc0f1
 - title: Mirrors of Intelligence
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1763,6 +1797,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0e7c15ebd-017530ee-b0ba-4749-8b8d-0cca6a99c1ff
 - title: 'Know-Thy-Not: Training-Free Targeted Negation in Dual-Encoder Vision-Language
     Models'
+  lang: en
   year: '2026'
   type: ConferencePoster
   type_label: Conference poster
@@ -1807,6 +1842,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0e73c27e5-21c22b7c-53c2-4dbe-96e7-03bdaa2f38ea
 - title: 'The Perfect Wrong Note: Vyping and the Keyboard as Musical Interface for
     Human-LLM Interaction'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1864,6 +1900,7 @@ results:
   url: https://doi.org/10.5281/zenodo.20784433
   nva_url: https://nva.sikt.no/registration/01a0e1a3e989-7332b7db-9057-48ec-be10-c1dce5232aa2
 - title: AI, music education and innovative practices
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1897,6 +1934,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0e1a3e5e9-cae496cc-8e91-4738-afdc-2447d896b1bb
   nva_url: https://nva.sikt.no/registration/01a0e1a3e5e9-cae496cc-8e91-4738-afdc-2447d896b1bb
 - title: Computational (AI) analysis (& curation) of music archives
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -1926,6 +1964,7 @@ results:
   url: https://en.bergenassembly.no/Archival-Intelligence-Epistemic-Shifts-from-Sound-to-Listening
   nva_url: https://nva.sikt.no/registration/01a0de3b44fe-e4f6e184-afe0-4c4d-b6d5-63c11ac22bbf
 - title: Intensive/Extensive Music Analysis and Identification
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -2101,6 +2140,7 @@ results:
   url: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/index.html
   nva_url: https://nva.sikt.no/registration/01a0dd943bd1-f1cdf950-ff84-4536-80bf-1062419a17e0
 - title: Computational Transcription of Chant and Yoik
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -2277,6 +2317,7 @@ results:
   url: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/index.html
   nva_url: https://nva.sikt.no/registration/01a0dd9182a1-bc17985d-d3a5-4d07-b0f3-61f33a8242d6
 - title: 'MishMash Work Package 6: AI for Cultural Heritage'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -2477,6 +2518,7 @@ results:
   url: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/index.html
   nva_url: https://nva.sikt.no/registration/01a0dd8d493d-d1f395aa-e636-4548-b44b-efa006c75fbf
 - title: Folk music and Hardanger fiddle transcription
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -2592,6 +2634,7 @@ results:
   url: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/index.html
   nva_url: https://nva.sikt.no/registration/01a0dd0beeac-6b23595d-0ff7-4e7c-8f78-eb7126cdfae0
 - title: MishMash WP6 and the MusikkData infrastructure project
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -2623,6 +2666,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0dd060d95-e256763e-d81b-4d2b-ab33-390e6e2daf22
 - title: 'Building Connected Collections of Norwegian Music: From Segmentation and
     Transcription to Interoperable Data and AI-Enabled Discovery'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -2653,6 +2697,7 @@ results:
   url: https://www.dariah.eu/activities/working-groups/artificial-intelligence-and-music-aim/
   nva_url: https://nva.sikt.no/registration/01a0dcf28974-ad1441e5-24f2-4b30-bd84-db967d4cdd20
 - title: Towards automated transcription of Hardanger fiddle performances
+  lang: en
   year: '2026'
   type: ConferencePoster
   type_label: Conference poster
@@ -2686,6 +2731,7 @@ results:
   url: https://dlfm.web.ox.ac.uk/sites/default/files/dlfm/documents/media/lartillot_poster_dlfm26.pdf
   nva_url: https://nva.sikt.no/registration/01a0dce3c1c4-00dbd7b2-0500-4d9f-8db3-6ad94aec4083
 - title: 'Enacting Musical Creativity: the value of human agency in the face of AI'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -2715,6 +2761,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0dc93d390-852425d0-2c7e-4c25-92a9-683f5cd4eff0
   nva_url: https://nva.sikt.no/registration/01a0dc93d390-852425d0-2c7e-4c25-92a9-683f5cd4eff0
 - title: Anticipatory Aesthetics and the Listening Body
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -2743,6 +2790,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0da0b3651-8e95163a-978b-417d-835d-d90a5a62cc22
   nva_url: https://nva.sikt.no/registration/01a0da0b3651-8e95163a-978b-417d-835d-d90a5a62cc22
 - title: Musicking and the value of human agency in the face of AI
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -2772,6 +2820,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0da00b8eb-6a56440f-6c78-4517-997b-6606e616b2ab
 - title: Hybrid AI for Expert-Assisted Transcription of Norwegian Hardanger Fiddle
     Music
+  lang: en
   year: '2026'
   type: ConferencePoster
   type_label: Conference poster
@@ -2867,6 +2916,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0d980549b-3a19cdbb-e5bf-4003-87cd-06c7f8575eca
 - title: 'AI-powered curation and enrichment of music collections: (Norwegian) (folk)
     music collection(s)'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -2898,6 +2948,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0d976e954-e4246021-b5b4-4f7f-b7bb-e12e9b582ec3
 - title: 'The Right to Have a Digital Future: Migration, Technology, and the Politics
     of Hope'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -2929,6 +2980,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0d894bad5-857f1d18-b0c7-4c11-b7e1-ef03756ffd85
 - title: Can Algorithms Measure Suffering? Digital Vulnerability and the Transformation
     of Asylum Law
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -2979,6 +3031,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0d88850f4-41cdb60e-2a04-4a3f-b34f-cf03061c4626
 - title: 'Trust from Below: Lived Experience and Human Rights in Designing Trustworthy
     AI for Migration'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3056,6 +3109,7 @@ results:
   url: https://www.torontomu.ca/bridging-divides/news-and-events/events/2026/05/trust-to-impact-workshop/
   nva_url: https://nva.sikt.no/registration/01a0d880371a-65a6cb4e-d321-46d0-a586-3e2f7abb2c90
 - title: Datafying Childhood in the EU Migration Pact
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3129,6 +3183,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0d87486e5-29deb344-7997-4a8c-9c06-5a60cb297f6b
 - title: Grassroots Esports and the Transformation of Education and Cultural Participation
     in the Digital Society
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3193,6 +3248,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0d7e169d4-0041169a-84d7-48f2-a29c-13f2160dce00
 - title: Algorithmic Safe Havens or Digital Traps? Reimagining Journalist Protection
     in AI-Mediated Information Ecosystems
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3240,6 +3296,7 @@ results:
   url: https://www.unesco.org/en/articles/wpdf-side-event-academic-conference-safety-journalists
   nva_url: https://nva.sikt.no/registration/01a0d7a9d070-f10d4459-7f9b-496d-abbc-919f07706be0
 - title: Exploring Authentic Anonymity in Documentary Film through AI
+  lang: en
   year: '2026'
   type: ConferencePoster
   type_label: Conference poster
@@ -3315,6 +3372,7 @@ results:
   url: https://mishmash.no/events/kristiansand2026/
   nva_url: https://nva.sikt.no/registration/01a0d2dfcd82-bee63347-9a7b-447c-bbde-20ab39dec766
 - title: AI as Environment poster at MishMash
+  lang: en
   year: '2026'
   type: ConferencePoster
   type_label: Conference poster
@@ -3383,6 +3441,7 @@ results:
   url: https://mishmash.no/events/kristiansand2026/
   nva_url: https://nva.sikt.no/registration/01a0cff027ff-43f3041e-d971-41af-8a1e-b25e645a780a
 - title: Street Art and the Gap between Human Rights Law and Lived Truth
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3425,6 +3484,7 @@ results:
   url: https://www.demokratiuka.no/arrangementer/gatekunst-og-demokrati
   nva_url: https://nva.sikt.no/registration/01a0cb7531f9-77208fda-719a-4d75-a949-69121994f965
 - title: When Curiosity Becomes Optional for Knowledge Creation
+  lang: en
   year: '2026'
   type: ConferencePoster
   type_label: Conference poster
@@ -3475,6 +3535,7 @@ results:
   url: https://zenodo.org/records/23009316
   nva_url: https://nva.sikt.no/registration/01a0cb1cdd12-2edb8df5-83a7-49a0-ad8f-346606af59df
 - title: 'Press Start to Generate: AI in Game Development Education'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3508,6 +3569,7 @@ results:
   url: https://mishmash.no/events/kristiansand2026/
   nva_url: https://nva.sikt.no/registration/01a0c8401a85-e872ea8b-d9b2-4d4a-9123-0f2e5e0da263
 - title: 'MishMash and New Embeddings: Art, technology and research'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3548,6 +3610,7 @@ results:
   url: https://www.mn.uio.no/hylleraas/english/news-and-events/events/events-in-oslo/2026/jp-no-research-alliance-2026.html
   nva_url: https://nva.sikt.no/registration/01a0c8247982-a130e35d-03eb-4c6b-909b-58d126e243fe
 - title: Migration from MAVIS to Axiell Collections
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3596,6 +3659,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0c817ddfa-6d7d9da4-ba35-4c6a-bdd5-0715b21fe1d5
   nva_url: https://nva.sikt.no/registration/01a0c817ddfa-6d7d9da4-ba35-4c6a-bdd5-0715b21fe1d5
 - title: Reimagining Immersive Art for Living Rooms
+  lang: en
   year: '2026'
   type: ConferencePoster
   type_label: Conference poster
@@ -3652,6 +3716,7 @@ results:
   url: https://mishmash.no/events/kristiansand2026/
   nva_url: https://nva.sikt.no/registration/01a0c7cc5129-de728513-07db-4666-b5cd-67179cf99115
 - title: 'Teaching for Futures We Must Prevent: Dark Scenario Pedagogy in Legal Education'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3747,6 +3812,7 @@ results:
   url: https://sites.exeter.ac.uk/alt2026/programme/
   nva_url: https://nva.sikt.no/registration/01a0b197e777-2135b7b0-6855-4f67-8da8-c0fe3271b742
 - title: Can art arise without search or exploration?
+  lang: en
   year: '2026'
   type: ConferencePoster
   type_label: Conference poster
@@ -3797,6 +3863,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0a3aa812a-4ca545d7-486b-4b59-b0e1-b7fa139ea301
   nva_url: https://nva.sikt.no/registration/01a0a3aa812a-4ca545d7-486b-4b59-b0e1-b7fa139ea301
 - title: 'Atmos vs Ambisonics: Creative Differences in Immersive Formats.'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3852,6 +3919,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a09cc84458-498c5b59-6f34-45b2-844d-825b393e415b
   nva_url: https://nva.sikt.no/registration/01a09cc84458-498c5b59-6f34-45b2-844d-825b393e415b
 - title: Impact of AI Tools on Music Production.
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3903,6 +3971,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a09cc1f026-19a5b2d2-d899-4237-a234-3a239f35e5d0
   nva_url: https://nva.sikt.no/registration/01a09cc1f026-19a5b2d2-d899-4237-a234-3a239f35e5d0
 - title: MishMash, one of the new Norwegian National AI Centres
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3938,6 +4007,7 @@ results:
   url: https://www.sure-ai.no/events/sure-ai-annual-conference-2026/
   nva_url: https://nva.sikt.no/registration/01a096f3fa00-9876784f-9033-4041-be38-8f68720a81d9
 - title: MishMash@NARMA
+  lang: nb
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -3987,6 +4057,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a096e70136-3b070449-9383-4a5c-b6d3-ee773402a178
 - title: 'When Text Interprets Itself: Legal Hermeneutics in the Age of Generative
     AI'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4073,6 +4144,7 @@ results:
   url: https://ile.unisg.ch/de/newsdetail/news/conference-artificial-intelligence/
   nva_url: https://nva.sikt.no/registration/01a087066316-d47a2153-4aee-4a69-a520-7c29b7b2a2fc
 - title: Recorded music at The National Library of Norway
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4104,6 +4176,7 @@ results:
   url: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/presentation_08062026.pdf
   nva_url: https://nva.sikt.no/registration/01a0854af6d8-f7f9569d-608b-4200-bc42-a777b6ac8248
 - title: '"Can Art Arise without Search or Exploration?'
+  lang: und
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4163,6 +4236,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0003e1f3e-5d35e7e9-a0d1-458f-a4cd-aaa70a76713b
   nva_url: https://nva.sikt.no/registration/01a0003e1f3e-5d35e7e9-a0d1-458f-a4cd-aaa70a76713b
 - title: Artificial Intelligence as Art
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4212,6 +4286,7 @@ results:
   url: https://www.relationalontology.org/wp-content/uploads/2026/06/Nature-Lost-Nature-Regained-Booklet.pdf
   nva_url: https://nva.sikt.no/registration/019fc7758eb2-7ae65944-f835-468a-9dd3-1ab7c19505c8
 - title: The Dignity of Artificial Intelligence
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4254,6 +4329,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019fc7651904-abec043d-5934-4669-a980-e6fae7fd554a
 - title: Forgotten Voices - Digital Work Catalogues for Norwegian Classical Music
     Heritage
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4287,6 +4363,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019f183aba3a-f315ee48-51aa-49b4-9f8f-3278f75b6050
   nva_url: https://nva.sikt.no/registration/019f183aba3a-f315ee48-51aa-49b4-9f8f-3278f75b6050
 - title: 'AI as Fifth Team Member: Differentiated Roles in Design Education'
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4336,6 +4413,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019ee51716fd-779dcd42-477e-49b3-b7a2-4580232470b9
 - title: From project to national infrastructure — Building a digital work catalogue
     for Norwegian musical heritage
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4366,6 +4444,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019ea6fde809-2df749a5-f07c-4fe0-9d02-5aaad94b271b
   nva_url: https://nva.sikt.no/registration/019ea6fde809-2df749a5-f07c-4fe0-9d02-5aaad94b271b
 - title: Presentation of MishMash Centre for AI and Creativity
+  lang: en
   year: '2026'
   type: ConferencePoster
   type_label: Conference poster
@@ -4394,6 +4473,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019ea1233bde-e975bed9-4127-4f2c-914e-20431b691daf
   nva_url: https://nva.sikt.no/registration/019ea1233bde-e975bed9-4127-4f2c-914e-20431b691daf
 - title: Bodies in Motion in the Concert Hall and Beyond
+  lang: und
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4441,6 +4521,7 @@ results:
   url: https://moco26.movementcomputing.org/
   nva_url: https://nva.sikt.no/registration/019dc482b472-5d33b852-057c-49f0-b9cb-866787dea540
 - title: Manifestos for an Algorithmic World
+  lang: en
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4483,6 +4564,7 @@ results:
   url: https://metamorf.art/2026/03/18/conference-program-signup/
   nva_url: https://nva.sikt.no/registration/019db950be37-04a12e98-e359-48da-bf6c-33a87247c3ba
 - title: Creativity Between Art and Science
+  lang: und
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4525,6 +4607,7 @@ results:
   url: https://metamorf.art/2026/03/11/alexander-refsum/
   nva_url: https://nva.sikt.no/registration/019d7dd1e19c-9e61cf91-35f8-4d6e-84d1-41f91125e13e
 - title: MishMash, KI og kreative prosesser
+  lang: nb
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4560,6 +4643,7 @@ results:
   url: https://kulturkonferansen.no/
   nva_url: https://nva.sikt.no/registration/019cba9e833f-34461afe-103f-47d2-b9bf-25c96e14b005
 - title: Presentasjon av Mishmash – senter for KI og kreativitet
+  lang: nb
   year: '2026'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4590,6 +4674,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019c2dc46b3a-c5292e5c-890c-481b-9bf9-7c06e5bd8d50
 - title: 'Envisioning a National Digital Platform: Interconnecting Music Archives,
     Data, and Discovery'
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4670,6 +4755,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0de4d2501-40fef060-ed2a-4749-a17c-4529615693c3
 - title: 'Regulating Data and Models in Algorithmic Warfare: Arms Control Without
     Arms'
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4775,6 +4861,7 @@ results:
   url: https://www.asser.nl/events/early-career-workshop-arms-control-and-rearmament-contradiction-or-synergy/
   nva_url: https://nva.sikt.no/registration/01a0b188fc3e-6bb7a21c-fcc5-47ff-bc89-98df42d017b1
 - title: Governing the Datafied Migrant Body in South–South Migration
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4855,6 +4942,7 @@ results:
   url: https://www.thebritishacademy.ac.uk/events/british-academy-conferences/migrant-embodied-experiences-south/
   nva_url: https://nva.sikt.no/registration/01a094c9af24-e5fe0b60-c0e8-4b25-9507-b03044e28be8
 - title: AI Literacy and Legal Pedagogy in Comparative Perspective
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4900,6 +4988,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0949d398d-1b0525aa-62aa-4e2d-b3bd-fe82db3d3f1e
 - title: Code-Switching for Survival within Linguistic, Legal, and AI-Informed Frameworks
     of Press Freedom
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -4944,6 +5033,7 @@ results:
   url: https://uni.oslomet.no/mekk/conferences/
   nva_url: https://nva.sikt.no/registration/01a092e518b8-acbb9ba5-0b93-4c0b-89cb-72eb1ac4fbb5
 - title: Multicultural AI in IP Legal Tech
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -5036,6 +5126,7 @@ results:
   url: https://iipsj.org/programs/annual-mosaic-conference/
   nva_url: https://nva.sikt.no/registration/01a092d7214e-780dd3b2-0b78-4ffd-9780-8650740ebceb
 - title: Legal Technology and the New Frontiers of Legal Anthropology
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -5081,6 +5172,7 @@ results:
   url: https://www.sv.uio.no/sai/forskning/aktuelt/arrangementer/konferanser/arbeidsgrupper-naf-2025.html
   nva_url: https://nva.sikt.no/registration/01a092b8a13c-7cfd489d-2b3c-4ade-a0b7-bc85ed685f9b
 - title: Artificial Intelligence and the Emotional Foundations of Legal Education
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -5126,6 +5218,7 @@ results:
   url: https://www.westminster.ac.uk/events/symposium-the-role-of-ai-in-legal-education-preparing-the-next-generation-of-lawyers
   nva_url: https://nva.sikt.no/registration/01a092aea75a-02466575-8c0d-4800-bd30-d0adf9f1491a
 - title: 'AI Language/ Language on AI: Language as infrastructure'
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -5154,6 +5247,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019c135d0457-0769b174-cf78-4f06-bd13-44ab5a8c36f8
   nva_url: https://nva.sikt.no/registration/019c135d0457-0769b174-cf78-4f06-bd13-44ab5a8c36f8
 - title: The emergence and potential decline of cloud-based sample platforms
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -5211,6 +5305,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019b21a36550-b1a9706b-df97-4126-bc7a-6c050c7f2872
   nva_url: https://nva.sikt.no/registration/019b21a36550-b1a9706b-df97-4126-bc7a-6c050c7f2872
 - title: KI, kunst, kultur, kreativitet
+  lang: nb
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -5239,6 +5334,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019a77167982-4be430dc-bcd7-4dd8-ada8-a792cc5caff8
   nva_url: https://nva.sikt.no/registration/019a77167982-4be430dc-bcd7-4dd8-ada8-a792cc5caff8
 - title: 'Artificial Consciouness: Regenerating AI Ethics and Aesthetics'
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -5323,6 +5419,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019a5afbe121-5aaae060-b8e8-43fb-8994-00fa19dc6c32
   nva_url: https://nva.sikt.no/registration/019a5afbe121-5aaae060-b8e8-43fb-8994-00fa19dc6c32
 - title: 'Archival Intelligence: Machine Learning and Intergenerational Memory'
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -5352,6 +5449,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019a5a87be28-17f5f937-cf7c-4030-b2a9-6a02159cf5b7
 - title: 'From Creative Trust to Creative Templates: How AI Transforms Musical Creativity
     into a Commodity'
+  lang: en
   year: '2025'
   type: ConferenceLecture
   type_label: Conference lecture
@@ -5396,6 +5494,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01995b9e0f08-16b2975f-97a5-4fd7-95d1-1d8068d63394
 - title: 'micromotion: A Python toolbox for analysing human micromotion in motion
     time series'
+  lang: en
   year: '2026'
   type: DataSet
   type_label: Dataset
@@ -5444,6 +5543,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a097cb6ab8-132ddb10-06e3-401d-8a80-d8a2401a647c
 - title: 'Mobile-phone accelerometer comparison (2026): four Samsung phones for standstill
     micromotion'
+  lang: en
   year: '2026'
   type: DataSet
   type_label: Dataset
@@ -5474,6 +5574,7 @@ results:
   url: https://zenodo.org/records/21964230
   nva_url: https://nva.sikt.no/registration/01a097cb442d-5f5c30e3-023e-4cce-a699-53807e9f6c73
 - title: That Which Eyes Cannot See
+  lang: en
   year: '2026'
   type: ExhibitionProduction
   type_label: Exhibition
@@ -5514,6 +5615,7 @@ results:
   url: https://cifra.com/playlist/that-which-eyes-cannot-see
   nva_url: https://nva.sikt.no/registration/01a21784b740-830e1c1e-44bd-4392-8f85-2c6aa847ff38
 - title: Archival Intelligence (2026)
+  lang: en
   year: '2026'
   type: ExhibitionProduction
   type_label: Exhibition
@@ -5541,6 +5643,7 @@ results:
   url: https://www.lydgalleriet.no/archive/archival-intelligence
   nva_url: https://nva.sikt.no/registration/019e94978cd6-bed6ca65-d5a7-4a86-bfe8-9c95953cd791
 - title: Dhvāni
+  lang: en
   year: '2025'
   type: ExhibitionProduction
   type_label: Exhibition
@@ -5577,6 +5680,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019a5aaacdca-84c30dc7-cae4-4b93-8557-1b7db47dfe86
 - title: Impact of Latency on Task Performance and User Experience in Teleoperated
     Object Manipulation
+  lang: en
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -5651,6 +5755,7 @@ results:
   url: https://doi.org/10.1109/ro-man72286.2026.11714563
   nva_url: https://nva.sikt.no/registration/01a2171d2c55-a1948898-6a5b-4bec-9a56-6684b0af9c07
 - title: Suppressing Non-Semantic Noise in Masked Image Modeling Representations
+  lang: und
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -5716,6 +5821,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0e79e20f7-e6da56d9-6da0-4394-84ae-9fc005627d93
 - title: 'Remember Your Trace: Memory-Guided Long-Horizon Agentic Framework for Consistent
     and Hierarchical Repository-Level Code Documentation'
+  lang: en
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -5776,6 +5882,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019f627caf49-605ce832-34e7-407c-891a-f3b73083f2b8
 - title: 'PubTables-QA: A Benchmark Toward Cross-Page Table Reasoning in Table Visual
     Question Answering'
+  lang: en
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -5853,6 +5960,7 @@ results:
   url: https://respmultimodal2026.github.io
   nva_url: https://nva.sikt.no/registration/019f272a3ee0-0163ee5a-4460-41bc-b898-ae81aabac89f
 - title: 'Selective Disclosure: Controlling Information Leakage in DocVQA Explanations'
+  lang: en
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -5906,6 +6014,7 @@ results:
   url: https://iclr.cc/virtual/2026/10019246
   nva_url: https://nva.sikt.no/registration/019f270e6535-d8235761-09f9-4ca1-bea0-7815019fb548
 - title: 'Digital parasitism: The use of pirated books in AI training datasets'
+  lang: en
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -5963,6 +6072,7 @@ results:
   url: https://doi-org.bi.idm.oclc.org/10.1177/13548565261464938
   nva_url: https://nva.sikt.no/registration/019f12aef5ee-eb7133d4-82a3-4c16-9ea8-21704034005e
 - title: 'Sounding Human: Music and Machines, 1740/2020. By Deirdre Loughridge'
+  lang: en
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -6003,6 +6113,7 @@ results:
   url: https://doi.org/10.1093/ml/gcag043
   nva_url: https://nva.sikt.no/registration/019e9e8f6fd6-d3a07824-b818-40af-a17b-f8df30faa607
 - title: Performative Togetherness in networked music–dance performance
+  lang: en
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -6052,6 +6163,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019e632327e5-68401a73-5041-4dcf-85c0-b05033eba169
 - title: 'The Gentler Researcher: Examining Research Bias and Gender Stereotypes in
     Sikt AI Chat'
+  lang: en
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -6111,6 +6223,7 @@ results:
   url: https://doi.org/10.18261/njdl.21.1.3
   nva_url: https://nva.sikt.no/registration/019e1af14eae-0db97e08-057f-446f-b096-06d3cb51ca01
 - title: 'Enacting Musical Creativity: The Value of Human Agency in the Face of AI'
+  lang: en
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -6158,6 +6271,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019da7148ce0-9a24e86b-cf0a-4ff7-b949-57f9c61f4e8a
 - title: 'Arab music improvisation corpus for research (AMICOR): development and machine
     translation experiments | Language Resources and Evaluation'
+  lang: en
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -6222,6 +6336,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019d2ea82f43-5875f0b5-fe79-4b2e-a8fd-266e0c03766c
 - title: Investigating Auditory–Visual Perception Using Multi-Modal Neural Networks
     with the SoundActions Dataset
+  lang: en
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -6279,6 +6394,7 @@ results:
   url: https://doi.org/10.5334/tismir.223
   nva_url: https://nva.sikt.no/registration/019cf6685f12-273d8dcb-e9b2-4230-ba94-44787a916710
 - title: Inverse and indirect mappings in embodied AI systems in everyday environments
+  lang: en
   year: '2026'
   type: AcademicArticle
   type_label: Journal article
@@ -6340,6 +6456,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
 - title: 'Machine aesthetics in recorded and performed music: An analytical framework
     | Intellect'
+  lang: en
   year: '2025'
   type: AcademicArticle
   type_label: Journal article
@@ -6382,6 +6499,7 @@ results:
   url: https://intellectdiscover.com/content/journals/10.1386/jmpr_00005_1
   nva_url: https://nva.sikt.no/registration/019b219ea17f-4491402b-6ffd-4439-84dd-e9b86296138b
 - title: Steps to an Ego-logy of Mind
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -6432,6 +6550,7 @@ results:
   url: https://glia.ca/2026/hbf-egology/
   nva_url: https://nva.sikt.no/registration/01a217bed742-2fb576dc-e243-46e4-9c9d-e14f4f694b4c
 - title: 'Post-archival Listening: From Sounds to Soundings'
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -6480,6 +6599,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a217ad307a-8e67afec-ed3f-415a-97fd-ac01d7141901
 - title: 'Standing still, moving together: what micromotion reveals about music and
     the body'
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -6518,6 +6638,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a1f61a5d67-d975d5a0-8e5e-4fb3-90cd-65a6c2e8c69c
   nva_url: https://nva.sikt.no/registration/01a1f61a5d67-d975d5a0-8e5e-4fb3-90cd-65a6c2e8c69c
 - title: 'Forskningsetikk og KI: Hvor går grensen?'
+  lang: nb
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -6559,6 +6680,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a1da0e4701-d6c8310b-213c-45b1-9042-784eb8fb6567
 - title: Transparens er ikke så vanskelig, vi har alt vi trenger for fornuftig bruk
     av KI
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -6599,6 +6721,7 @@ results:
   url: https://www.uio.no/forskning/arrangementer/andre/forskningsetikk/forum-for-forskningsetikk-ki-forskerutdanning.html
   nva_url: https://nva.sikt.no/registration/01a1da0e460d-29018727-644d-494d-a6fe-7754067ea3ab
 - title: FAIR but not open? Copyright lessons from QualiFAIR and RITMO
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -6642,6 +6765,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a1da0e44ae-7839f957-da15-4638-aa70-f8ec8a47336f
   nva_url: https://nva.sikt.no/registration/01a1da0e44ae-7839f957-da15-4638-aa70-f8ec8a47336f
 - title: 'AI and the Future of Creativity: How Humans and Machines Can Create Together'
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -6686,6 +6810,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a1da0e43cd-45cbc3fb-0a3a-4210-af43-922f357e77cb
   nva_url: https://nva.sikt.no/registration/01a1da0e43cd-45cbc3fb-0a3a-4210-af43-922f357e77cb
 - title: MishMash og INN
+  lang: nb
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -6730,6 +6855,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a1da0e3935-2da75f9d-3df0-46f1-adbf-cd4c13ae498f
   nva_url: https://nva.sikt.no/registration/01a1da0e3935-2da75f9d-3df0-46f1-adbf-cd4c13ae498f
 - title: 'AI as Environment: Artistic Strategies'
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -6769,6 +6895,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a1c600be1b-384c50cf-bb5e-4713-b925-4dc669b20e14
   nva_url: https://nva.sikt.no/registration/01a1c600be1b-384c50cf-bb5e-4713-b925-4dc669b20e14
 - title: Hva er inni maskinen? KI-teknologi, musikk og opphavsrett
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -6801,6 +6928,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a1c25a4018-79425883-33c2-4ba9-80a1-b51845d57dae
   nva_url: https://nva.sikt.no/registration/01a1c25a4018-79425883-33c2-4ba9-80a1-b51845d57dae
 - title: KI og opphavsrett
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -6834,6 +6962,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a1c25a3f35-f86beada-bfa3-48d0-ac7c-74f812a59a95
   nva_url: https://nva.sikt.no/registration/01a1c25a3f35-f86beada-bfa3-48d0-ac7c-74f812a59a95
 - title: Utfordringer ved å jobbe på tvers
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -6864,6 +6993,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a1c25a3e33-eb3348ec-d2ca-4a0a-bf05-cda9ea8a44c6
   nva_url: https://nva.sikt.no/registration/01a1c25a3e33-eb3348ec-d2ca-4a0a-bf05-cda9ea8a44c6
 - title: Musicking Technology
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -6903,6 +7033,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a1c25a3cc8-56c5e2c2-f086-4578-9915-5c24b2d7c5a1
   nva_url: https://nva.sikt.no/registration/01a1c25a3cc8-56c5e2c2-f086-4578-9915-5c24b2d7c5a1
 - title: The effects of EDM on people trying to move and not to move to music
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -6941,6 +7072,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a1c25a32c7-58edbff8-0542-4d03-937c-6f6e266a8fa7
   nva_url: https://nva.sikt.no/registration/01a1c25a32c7-58edbff8-0542-4d03-937c-6f6e266a8fa7
 - title: 'MeshUp #18: Copyright, Street Art and AI | MishMash Centre for AI and Creativity'
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -6975,6 +7107,7 @@ results:
   url: https://mishmash.no/events/meshup-18/
   nva_url: https://nva.sikt.no/registration/01a187a9ba56-cc757e55-27c7-4283-a257-946acc1b01d0
 - title: 'AI in music education research: What do we know, and what can we expect?'
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7003,6 +7136,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a17790964c-94db53cc-0591-4523-a86c-f90642d890c7
   nva_url: https://nva.sikt.no/registration/01a17790964c-94db53cc-0591-4523-a86c-f90642d890c7
 - title: 'Lage selv, ikke bare bruke: erfaringer fra MishMash senter for KI og kreativitet'
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7038,6 +7172,7 @@ results:
   url: https://www.bibliotekenes.no/arrangementer/ki-webinar
   nva_url: https://nva.sikt.no/registration/01a1675e3f04-7768fac2-ea4a-41a9-805c-6da0ad130e52
 - title: MishMash og kunstens rolle i utviklingen av KI
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7067,6 +7202,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a1642a67e8-c4a01d0b-8d53-4cd4-8611-07d91ffdffcf
   nva_url: https://nva.sikt.no/registration/01a1642a67e8-c4a01d0b-8d53-4cd4-8611-07d91ffdffcf
 - title: MishMash – what is it?
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -7145,6 +7281,7 @@ results:
 - title: 'Artistic Presentation: Relativism 2.0 - Local Piano Hijacked by the IMPSY
     AI model - Machine agency, shared autonomy, and expressive generative models:
     perspectives on creative performance with AI'
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -7190,6 +7327,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a11aa47877-df9cbed2-c9db-42f8-8ce9-b75aca5c4329
 - title: 'Usage and Needs of AI Infrastructure for Creative Practice: Contribution
     to the MACHINES Panel'
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -7223,6 +7361,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a117d2f7b9-e336a87d-e781-46c5-88dd-20d2cf76f2e6
 - title: 'New Embeddings #01 (Nå telte han deg også): Participatory Grouping through
     Machine-Learning Embeddings'
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -7302,6 +7441,7 @@ results:
   url: https://ne01.craitr.no/
   nva_url: https://nva.sikt.no/registration/01a117d2f317-8d711ee6-6f43-4bcd-82d7-bba99809076c
 - title: 'Trondheim Kreativ AI (TKAI) #4 - Deepfakes'
+  lang: nb
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -7434,6 +7574,7 @@ results:
   url: https://www.meetup.com/trondheim-kreativ-ai/events/313109375/?eventOrigin=group_events_list
   nva_url: https://nva.sikt.no/registration/01a0e7056837-9f723a04-5c97-411f-8054-d07dd966a3ff
 - title: A summer of Still Standing
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7477,6 +7618,7 @@ results:
   url: https://www.uio.no/ritmo/english/news-and-events/events/food-and-paper/2026/20260916_alexander-refsum-jensenius/index.html
   nva_url: https://nva.sikt.no/registration/01a0e1a3ebf9-b41658d4-e373-4b6e-bdee-baa2cedb793e
 - title: Building a Norwegian Ecosystem for AI and Creativity
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -7539,6 +7681,7 @@ results:
   url: https://alexarje.github.io/mishmash-machines-kristiansand2026/
   nva_url: https://nva.sikt.no/registration/01a0e1a3eabb-836701b1-7af8-4af2-b936-54b2434d1870
 - title: 'MishMash: Centre for AI and Creativity'
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7571,6 +7714,7 @@ results:
   url: https://doi.org/10.5281/zenodo.22643770
   nva_url: https://nva.sikt.no/registration/01a0e1a3e86f-8cb73b9e-add8-4f74-8ddf-8a60a1d6226e
 - title: 'Kreativ KI: en introduksjon'
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7604,6 +7748,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0e1a3e716-ec80623c-cc26-4d53-b443-c16aa1685a80
   nva_url: https://nva.sikt.no/registration/01a0e1a3e716-ec80623c-cc26-4d53-b443-c16aa1685a80
 - title: Reflections on Live Concert Research
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7637,6 +7782,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0e1a3dc84-406ce6f8-88d9-487c-93c9-b45e9762511a
   nva_url: https://nva.sikt.no/registration/01a0e1a3dc84-406ce6f8-88d9-487c-93c9-b45e9762511a
 - title: AI as a catalyst for more humanities research
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7671,6 +7817,7 @@ results:
   url: https://dhnb.eu/onwards-and-outwards-dhnb-celebrates-10-years/
   nva_url: https://nva.sikt.no/registration/01a0d967fe39-7da50bf0-2bf7-43d8-8805-bf2382742bec
 - title: Symposium on Digital and AI Musicology
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -7748,6 +7895,7 @@ results:
   url: https://www.uio.no/ritmo/english/news-and-events/events/conferences/2026/daim/index.html
   nva_url: https://nva.sikt.no/registration/01a0d929a1e2-b2733460-e6f8-4a5f-a526-ab3be943101c
 - title: '“Health": a conceptual and philosophical reflection'
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7780,6 +7928,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0cdaceacf-be545108-3d99-4e52-a4f4-f2da1f6836f5
   nva_url: https://nva.sikt.no/registration/01a0cdaceacf-be545108-3d99-4e52-a4f4-f2da1f6836f5
 - title: Musikkproduksjonsarkiv som praksisfelt og kunnskapskilde
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7821,6 +7970,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0c80bacf8-9f14ff6d-c887-486a-925c-1d2bab08e1be
   nva_url: https://nva.sikt.no/registration/01a0c80bacf8-9f14ff6d-c887-486a-925c-1d2bab08e1be
 - title: KI-dag for videregående skoler
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7852,6 +8002,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a09cd3a2c5-75fbddc7-946b-436e-8d1f-637bb45fde47
   nva_url: https://nva.sikt.no/registration/01a09cd3a2c5-75fbddc7-946b-436e-8d1f-637bb45fde47
 - title: 'Generative AI: Making Music with Non-Humans'
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -7877,6 +8028,7 @@ results:
   url: https://musicproductionresearch.org/2026-conference
   nva_url: https://nva.sikt.no/registration/01a09c7b2374-9ffffb0c-b37f-46cb-b4dc-b59f1879f732
 - title: KI++
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7909,6 +8061,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a097bc1b9b-a8488069-5ec4-4782-b529-3f49ce318faa
   nva_url: https://nva.sikt.no/registration/01a097bc1b9b-a8488069-5ec4-4782-b529-3f49ce318faa
 - title: Some thoughts about artistic research
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -7942,6 +8095,7 @@ results:
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Research-Forum/research-forum-on-artistic-research-artificial-int.html
   nva_url: https://nva.sikt.no/registration/01a097b26b80-8f81d465-997b-41ea-aa03-de93c54bd758
 - title: MusicLab Sinsenfist Panel Discussion
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -7984,6 +8138,7 @@ results:
   url: https://www.uio.no/ritmo/english/projects/musiclab/2026/sinsenfist/index.html
   nva_url: https://nva.sikt.no/registration/01a097af1a32-6fa53307-d4e2-46cd-8857-aca191f832fe
 - title: Who is actually doing the creating?
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8017,6 +8172,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a097abd477-c10e94ae-a312-4423-b6c3-496950acb879
   nva_url: https://nva.sikt.no/registration/01a097abd477-c10e94ae-a312-4423-b6c3-496950acb879
 - title: Musikk, KI og klassisk musikk
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8051,6 +8207,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0979f0781-8527a22f-02ab-4d47-a25d-58c323c0527d
 - title: 'RITMO and MishMash: AI and creativity research in Norway, and possibilities
     for collaboration with South Korea'
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -8088,6 +8245,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a09761fe55-47222c0d-5082-4798-8ba9-6b5e05693f12
   nva_url: https://nva.sikt.no/registration/01a09761fe55-47222c0d-5082-4798-8ba9-6b5e05693f12
 - title: Kreativ KI i utdanning
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8122,6 +8280,7 @@ results:
   url: https://www.uio.no/for-ansatte/enhetssider/arrangement/2026/idemote/utdanning-1.html
   nva_url: https://nva.sikt.no/registration/01a0975aaf74-17447c0b-e3a1-45c3-8cc9-d4a8631da585
 - title: Kreativ administrativ KI
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8158,6 +8317,7 @@ results:
   url: https://www.uio.no/for-ansatte/enhetssider/arrangement/2026/idemote/adm-1.html
   nva_url: https://nva.sikt.no/registration/01a097330c86-424f0583-6140-42f6-b867-353ba28ddef2
 - title: Exploring human micromotion (workshop)
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -8189,6 +8349,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a09728612f-c0b75377-d218-4029-8e92-dae16097fbea
   nva_url: https://nva.sikt.no/registration/01a09728612f-c0b75377-d218-4029-8e92-dae16097fbea
 - title: How AI can help us be more human
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8221,6 +8382,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a097005772-d6a3c2da-470e-4fb7-b380-3586cde7ee5e
   nva_url: https://nva.sikt.no/registration/01a097005772-d6a3c2da-470e-4fb7-b380-3586cde7ee5e
 - title: 'MishMash-søknaden og MishMash-konsortiet: muligheter for videreutvikling'
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8254,6 +8416,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a096ef238a-dbf41738-a1ba-4569-9569-25b4a84b0450
   nva_url: https://nva.sikt.no/registration/01a096ef238a-dbf41738-a1ba-4569-9569-25b4a84b0450
 - title: 'MishMash: Centre for AI and Creativity - Current status'
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -8288,6 +8451,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a096d5a378-09dfa70d-913f-4c36-bfcc-0c6062fa003e
 - title: Trenger vi musikere i fremtiden? Utfordringer og muligheter med musikk og
     KI
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8322,6 +8486,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a096d27046-a4a3ee97-78d8-4c17-9c43-702de435d771
   nva_url: https://nva.sikt.no/registration/01a096d27046-a4a3ee97-78d8-4c17-9c43-702de435d771
 - title: AI and the Material Footprint of Cultural Heritage
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8366,6 +8531,7 @@ results:
   url: https://mishmash.no/events/meshup-16/
   nva_url: https://nva.sikt.no/registration/01a08a8a964b-18ff0a6a-ec0a-4d64-811e-7ba2f10425c9
 - title: Shaping the Future of Artistic Research
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -8425,6 +8591,7 @@ results:
   url: https://sar2026.ie/shaping-future-artistic-research
   nva_url: https://nva.sikt.no/registration/01a0883a3e93-0894ed23-74d5-4100-a7a3-191dc7274315
 - title: 'NE #00: New Embeddings of/for Artistic Intelligence'
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -8524,6 +8691,7 @@ results:
   url: https://ars.electronica.art/negotiatinghumanity/en/view/ne-00-new-embeddings-of-for-artistic-intelligence-39f38ddb450c81b5a2e1e4b478396502/
   nva_url: https://nva.sikt.no/registration/01a0882efc17-b87fcedd-8f56-4b00-a52b-36673a7fcdd1
 - title: Er framtidens KI for viktig til å overlates til teknologene?
+  lang: nb
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -8599,6 +8767,7 @@ results:
   url: https://www.arendalsuka.no/program/er-framtidens-ki-for-viktig-til-a-overlates-til-teknologene
   nva_url: https://nva.sikt.no/registration/01a08816c641-dfa26d1d-5adf-403d-a907-aba5cb3a9377
 - title: AI and Creativity and a little information about the new AI centre MishMash
+  lang: und
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8637,6 +8806,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0823b10a7-0489cfb9-43a2-4721-9814-2d49c63aef84
 - title: 'The implications of A(I)gency in music: An fMRI investigation of AI-generated
     vs. human-composed music'
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -8667,6 +8837,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a08056e88c-3673f657-ba40-4f49-90b5-87b56d7b7a5b
   nva_url: https://nva.sikt.no/registration/01a08056e88c-3673f657-ba40-4f49-90b5-87b56d7b7a5b
 - title: Fagdag om musikk og KI
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -8711,6 +8882,7 @@ results:
   url: https://www.nla.no/nyheter/2026/august/ki-og-musikk-pa-dagsordenen-ved-nla-i-oslo
   nva_url: https://nva.sikt.no/registration/01a07fdebf2b-a5529a3e-0dea-44ec-bad4-3bbd9b06fb3d
 - title: How can we use ALICE concepts for creative purposes?
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -8740,6 +8912,7 @@ results:
   url: https://2026.aliceworkshop.org/speakers/
   nva_url: https://nva.sikt.no/registration/01a07d69c0f0-b5a65bc7-e873-47b7-995c-677353df4180
 - title: Kentauren
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8768,6 +8941,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0636a1dc4-d83cd31a-abfb-4fcc-92e1-51d796b2cccf
   nva_url: https://nva.sikt.no/registration/01a0636a1dc4-d83cd31a-abfb-4fcc-92e1-51d796b2cccf
 - title: Presentation of ROBOWELL research project during MishMash launch
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -8793,6 +8967,7 @@ results:
   url: https://mishmash.no/events/aulaen2026/
   nva_url: https://nva.sikt.no/registration/019fb7b8c8d2-4c155af5-fd74-40f1-9fec-9e702332682d
 - title: Musikksektoren – Nåtid og fremtid
+  lang: und
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8825,6 +9000,7 @@ results:
   url: https://www.nordland-akademi.no/sommer2026.html#melbukonf26
   nva_url: https://nva.sikt.no/registration/019f43ef873a-6b2ad553-c46e-45b6-9c8e-1faacb7d1385
 - title: Musikklandet 2050
+  lang: und
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8855,6 +9031,7 @@ results:
   url: https://www.musikk.no/prosjekt/fredrikstad2026
   nva_url: https://nva.sikt.no/registration/019f43e16fcd-14ffa585-9b55-433b-9a5c-bb32201b8249
 - title: My way to a research career
+  lang: und
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -8884,6 +9061,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019f43dbe6d5-e79630af-4cc7-4233-8535-bd82b8a6e40b
   nva_url: https://nva.sikt.no/registration/019f43dbe6d5-e79630af-4cc7-4233-8535-bd82b8a6e40b
 - title: 'AI and Caring Futures: Creativity, Learning and Empowerment'
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -8935,6 +9113,7 @@ results:
   url: https://uni.oslomet.no/sdgconference/program-day-2/
   nva_url: https://nva.sikt.no/registration/019f43d28697-4c35313b-3599-4bcb-b41b-a250888bb0c5
 - title: Har statlig finansiert kunst et større etisk ansvar i møte med KI?
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -8989,6 +9168,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019f43c5ea23-2699d73e-f3aa-42da-bf3b-6e572d110736
 - title: What can the Centre for Global Sustainability do for UiO – and the other
     way around?
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9042,6 +9222,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019f43bc537e-aaa661c5-dc28-4ce3-afa3-c65f763d78fa
   nva_url: https://nva.sikt.no/registration/019f43bc537e-aaa661c5-dc28-4ce3-afa3-c65f763d78fa
 - title: MishMash@NORA.AI
+  lang: und
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -9076,6 +9257,7 @@ results:
   url: https://www.nora.ai/nora-events/annual-conference-2026/program2026.html
   nva_url: https://nva.sikt.no/registration/019f43b21079-0393a3db-694b-44b3-837a-a22e77432058
 - title: The Official Opening of MishMash Centre for AI and Creativity
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9108,6 +9290,7 @@ results:
   url: https://www.youtube.com/watch?v=rq8UnZlzYk4
   nva_url: https://nva.sikt.no/registration/019f43a38325-91aee3be-fba3-4411-88a9-e6dbd8e1ba65
 - title: Hvordan endrer KI-agenter forskningsprosessen?
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9184,6 +9367,7 @@ results:
   url: https://www.dnva.no/detskjer/2026/03/hvordan-endrer-ki-agenter-forskningsprosessen
   nva_url: https://nva.sikt.no/registration/019f439b567b-f8c806c3-7a53-4978-9b73-3ae465113471
 - title: MishMash, nytt nasjonalt KI-senter
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9217,6 +9401,7 @@ results:
   url: https://www.uib.no/it/181268/it-forum-2026#program-torsdag-9-april
   nva_url: https://nva.sikt.no/registration/019f437d37c5-fab53e6f-1e97-43a1-842d-5394ef1a4f72
 - title: Muligheter innen KI og kreativitet
+  lang: und
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -9246,6 +9431,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019f0aa74b32-25a4e835-f392-40bb-8df5-a908873de20c
   nva_url: https://nva.sikt.no/registration/019f0aa74b32-25a4e835-f392-40bb-8df5-a908873de20c
 - title: Would you cry to a song written by AI?
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9274,6 +9460,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019edf1e440b-0947af48-9fa9-45b3-8d1a-21078ccf9182
   nva_url: https://nva.sikt.no/registration/019edf1e440b-0947af48-9fa9-45b3-8d1a-21078ccf9182
 - title: F@ck AI or else… A roundtable discussion on music and art among cursed algorithms.
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9337,6 +9524,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019eda892a16-08df6975-9b84-45f0-88f8-e7d69a0e0569
   nva_url: https://nva.sikt.no/registration/019eda892a16-08df6975-9b84-45f0-88f8-e7d69a0e0569
 - title: Creativity and biology research
+  lang: und
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -9367,6 +9555,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019ec7866685-b8fe4e55-c8e7-43a5-8bea-1c47cbf396b8
   nva_url: https://nva.sikt.no/registration/019ec7866685-b8fe4e55-c8e7-43a5-8bea-1c47cbf396b8
 - title: MishMash Centre for AI and Creativity
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9396,6 +9585,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019ec083fc4c-1511ef8f-70ac-48fc-a878-819b01fe6823
   nva_url: https://nva.sikt.no/registration/019ec083fc4c-1511ef8f-70ac-48fc-a878-819b01fe6823
 - title: MishMash Centre for AI and Creativity
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9424,6 +9614,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019ec0591972-e1aecb71-db54-40fd-9934-af08a5ab90b3
   nva_url: https://nva.sikt.no/registration/019ec0591972-e1aecb71-db54-40fd-9934-af08a5ab90b3
 - title: 'Calliope: Leveraging Artificial Intelligence, Preserving Human Creativity'
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -9452,6 +9643,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019e97d0274f-a73a0ec2-8c36-4390-87dc-7c18811fe013
   nva_url: https://nva.sikt.no/registration/019e97d0274f-a73a0ec2-8c36-4390-87dc-7c18811fe013
 - title: Building intersectional Cultural Ecosystems & Institutions for the Future
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9505,6 +9697,7 @@ results:
   url: https://www.wisenotwise.com/wise2026program
   nva_url: https://nva.sikt.no/registration/019e7fb15492-102757ea-b56a-4dc6-8734-56dac427fdc3
 - title: Tverrfaglighet i forskning (og utdanning)
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9533,6 +9726,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019e45845336-b864a8b3-cf7c-458c-8385-6c3d8766059b
   nva_url: https://nva.sikt.no/registration/019e45845336-b864a8b3-cf7c-458c-8385-6c3d8766059b
 - title: Mellom menneske og maskin
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9587,6 +9781,7 @@ results:
   url: https://fotografiens-hus.no/samtale-mellom-menneske-og-maskin/
   nva_url: https://nva.sikt.no/registration/019e32c7e996-3b1abd75-32c5-410a-8cd6-833319d55756
 - title: Sang og KI
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9615,6 +9810,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019dfe980ca5-56907564-ed5d-4548-9576-656c8a18419a
   nva_url: https://nva.sikt.no/registration/019dfe980ca5-56907564-ed5d-4548-9576-656c8a18419a
 - title: Auditory Situationism and Unmedia
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -9649,6 +9845,7 @@ results:
   url: https://artacademycalendar.khio.no/open-forum/budhaditya-chattopadhyay-auditory-situationism-and-unmedia
   nva_url: https://nva.sikt.no/registration/019dcbe84d33-c303c87c-49b8-4bdb-9d80-1927582f9afe
 - title: 'Design Agentics :: Creative R&D x AI'
+  lang: en
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9717,6 +9914,7 @@ results:
   url: https://www.grafill.no/grafillshus/kalender/design-agentics-creative-r-d-x-ai
   nva_url: https://nva.sikt.no/registration/019dc37da862-8dad0484-5d39-4e81-b014-c38f3af96941
 - title: Risiko og motstandskraft i kulturens infrastruktur – det neste tiåret
+  lang: nb
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9755,6 +9953,7 @@ results:
   url: https://www.kulturdirektoratet.no/kalender/konferanse-strategisk-framsyn-i-det-norske-kulturfeltet
   nva_url: https://nva.sikt.no/registration/019db9aba304-1cb12c80-5618-476a-8f7a-5d2b54f6d6b5
 - title: Kunstnerisk intelligens
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -9792,6 +9991,7 @@ results:
   url: https://mishmash.no/events/aulaen2026/
   nva_url: https://nva.sikt.no/registration/019db96ab7a2-d0161680-a40a-4ab0-b2fa-9391efb07cb8
 - title: Kunstig kreativitet?
+  lang: und
   year: '2026'
   type: OtherPresentation
   type_label: Presentation
@@ -9824,6 +10024,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019d741030ca-41f18ad7-2ac1-4300-aa6b-94e3bf2a0cfc
 - title: '"Soft" and "Hard" research? Experiences from running a radically interdisciplinary
     research centre'
+  lang: und
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -9869,6 +10070,7 @@ results:
   url: https://www.uc.pt/ceis20/conferencias/alexander-jensenius-eixos-do-conhecimento-interdisciplinar/
   nva_url: https://nva.sikt.no/registration/019d5ddae0df-a80c62e6-17b0-456c-a033-9a219326ef4d
 - title: 'Art(ificial) Inteligence: Reframing Creativity and Efficiency'
+  lang: en
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -9927,6 +10129,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019ce42e2a15-ad30db2e-c09f-45d6-9511-03578c7622f2
   nva_url: https://nva.sikt.no/registration/019ce42e2a15-ad30db2e-c09f-45d6-9511-03578c7622f2
 - title: KI i kreative prosesser
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -9974,6 +10177,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019cc347224e-eae2a7aa-6e0f-49b4-9e54-8eb0a578ab5a
   nva_url: https://nva.sikt.no/registration/019cc347224e-eae2a7aa-6e0f-49b4-9e54-8eb0a578ab5a
 - title: Kunstig intelligens, FoU og kreativ næring
+  lang: nb
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -10003,6 +10207,7 @@ results:
   url: https://trondelag.pameldingssystem.no/nasjonalt-fagkonferanse-for-kulturell-og-kreativ-naering-28-januar?#/default-12928
   nva_url: https://nva.sikt.no/registration/019c2dccfd55-8187fc7d-7bd2-400e-9148-c54952de43a0
 - title: KI & KU
+  lang: und
   year: '2026'
   type: Lecture
   type_label: Lecture
@@ -10032,6 +10237,7 @@ results:
     nva_url: https://nva.sikt.no/registration/0199949b48b1-a5946c53-896a-44f4-95c5-80327ad31de1
   nva_url: https://nva.sikt.no/registration/0199949b48b1-a5946c53-896a-44f4-95c5-80327ad31de1
 - title: 'Trondheim Kreativ AI (TKAI) #2 - Vibecoding & fremtidens kreative AI-arbeidsflyt'
+  lang: nb
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -10147,6 +10353,7 @@ results:
   url: https://www.meetup.com/trondheim-kreativ-ai/events/311793032/?eventOrigin=group_events_list
   nva_url: https://nva.sikt.no/registration/01a0e6fab775-9269f0c6-88c1-4f06-a064-924bdc0e3c8a
 - title: AI, Arts & Humanities
+  lang: und
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10184,6 +10391,7 @@ results:
   url: https://uit.no/tavla/artikkel/916203/ai_arts_humanities?p_document_id=916203
   nva_url: https://nva.sikt.no/registration/01a09cccba65-3703b8d3-e873-4b5f-acbf-c3308352f535
 - title: Permeating Art & Science Collaboration
+  lang: und
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -10229,6 +10437,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019d5dac4b99-88bca32b-76f6-4e7e-986b-3df1814fe516
 - title: '«Artificial» «intelligence»: interrogating the language we use to speak/write
     the language machine into being'
+  lang: en
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10268,6 +10477,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019c1373c972-cc4d6164-eacf-422e-885f-950de9cb0cbf
   nva_url: https://nva.sikt.no/registration/019c1373c972-cc4d6164-eacf-422e-885f-950de9cb0cbf
 - title: Morgendagens filmskapere?
+  lang: nb
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -10297,6 +10507,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019be5d865f1-d4760767-2977-44a9-8ecc-726e77e24860
   nva_url: https://nva.sikt.no/registration/019be5d865f1-d4760767-2977-44a9-8ecc-726e77e24860
 - title: 'Kreativitet og KI: presentasjon til FilmReg'
+  lang: nb
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -10325,6 +10536,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019be5d0aac6-b662e509-5c5e-47fb-84cf-ceb50a865373
   nva_url: https://nva.sikt.no/registration/019be5d0aac6-b662e509-5c5e-47fb-84cf-ceb50a865373
 - title: MishMash og Nasjonalbiblioteket
+  lang: nb
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10364,6 +10576,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019b0f434058-473ac0ea-5d14-4512-827a-9c6c681e05ad
   nva_url: https://nva.sikt.no/registration/019b0f434058-473ac0ea-5d14-4512-827a-9c6c681e05ad
 - title: Concientia
+  lang: nb
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -10453,6 +10666,7 @@ results:
   url: https://happeningnext.com/event/samtale-om-bevissthet-og-det-%C3%A5-skape-eid3a0d68lba3
   nva_url: https://nva.sikt.no/registration/019b0f3f947c-ba6ad5ae-ff28-459c-b417-edbefc1bb4a1
 - title: Kan musikk skape fred?
+  lang: nb
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -10507,6 +10721,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019aff7b1299-d3edb8c6-f908-4691-9947-d1c898959146
 - title: 'Presentation: ROBOts as Welfare Technologies and Actors for ELderLy Care:
     A Nordic Model for Integration of Advanced Assistive Technologies (ROBOWELL) pre-kickoff'
+  lang: und
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -10533,6 +10748,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019afdebbd4d-cd5554a2-c8ab-48bd-8edb-0f82432c2553
   nva_url: https://nva.sikt.no/registration/019afdebbd4d-cd5554a2-c8ab-48bd-8edb-0f82432c2553
 - title: 'Nytt KI-senter ved UiO: MishMash'
+  lang: und
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -10561,6 +10777,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019ad150d6dd-85780548-4f53-4e79-af25-b31e53284c67
   nva_url: https://nva.sikt.no/registration/019ad150d6dd-85780548-4f53-4e79-af25-b31e53284c67
 - title: Openness in the age of AI
+  lang: und
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10591,6 +10808,7 @@ results:
   url: https://doi.org/10.5281/zenodo.17652120
   nva_url: https://nva.sikt.no/registration/019ad14d6dd5-e4c36c63-b37b-4e19-8ff1-8625872cdfc8
 - title: Musikk, opphavsrett og KI
+  lang: und
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10619,6 +10837,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019ad144695d-b55cfaad-3c4e-466e-b6cc-d8e44518b421
   nva_url: https://nva.sikt.no/registration/019ad144695d-b55cfaad-3c4e-466e-b6cc-d8e44518b421
 - title: 'Nytt KI-senter ved HF: MishMash'
+  lang: und
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -10647,6 +10866,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019ad141cf7a-86867c4d-286f-4448-a4bc-16d14ada5425
   nva_url: https://nva.sikt.no/registration/019ad141cf7a-86867c4d-286f-4448-a4bc-16d14ada5425
 - title: Are we still needed?
+  lang: und
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -10681,6 +10901,7 @@ results:
   url: https://filmskolen.no/artikler/2025/ki-i-filmbransjen-2-0
   nva_url: https://nva.sikt.no/registration/019ad1386dd7-c33856fc-5746-486f-ac6b-8e50fbb6811c
 - title: What is the role of AI in creative activities?
+  lang: und
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10709,6 +10930,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019aa77b67e8-bdb5b29c-0ed1-40c3-ae78-a2f237325776
   nva_url: https://nva.sikt.no/registration/019aa77b67e8-bdb5b29c-0ed1-40c3-ae78-a2f237325776
 - title: MishMash and potential for games
+  lang: und
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10737,6 +10959,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019a91c472e8-ac7dbd94-fb21-4b23-a428-ed0916530ac5
   nva_url: https://nva.sikt.no/registration/019a91c472e8-ac7dbd94-fb21-4b23-a428-ed0916530ac5
 - title: KI – Kunstens død eller tidenes mulighet?
+  lang: nb
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10781,6 +11004,7 @@ results:
   url: https://www.empirix.no/ki-kunstens-dod-eller-tidenes-mulighet/
   nva_url: https://nva.sikt.no/registration/019a694ea3d2-46921dfa-bdbd-4233-a8f9-869c10ed14bd
 - title: Who Owns Our Knowledge? Open Research in MishMash Centre for AI & Creativity
+  lang: und
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10810,6 +11034,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019a5a53be78-6d628a4c-bf4a-4bb9-9868-8f696e7c3572
   nva_url: https://nva.sikt.no/registration/019a5a53be78-6d628a4c-bf4a-4bb9-9868-8f696e7c3572
 - title: MishMash og Kunstnerisk utviklingsarbeid
+  lang: und
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10838,6 +11063,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019a5a4ca10a-19390837-99b2-4bae-a8c7-9f5440a1f5dc
   nva_url: https://nva.sikt.no/registration/019a5a4ca10a-19390837-99b2-4bae-a8c7-9f5440a1f5dc
 - title: MishMash Sentre for KI og kreativitet
+  lang: und
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10866,6 +11092,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019a5a4a691c-856f2c69-8e09-419a-8eed-d6b7c04093d4
   nva_url: https://nva.sikt.no/registration/019a5a4a691c-856f2c69-8e09-419a-8eed-d6b7c04093d4
 - title: Kunst i intelligens
+  lang: und
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10921,6 +11148,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019a5a444ff2-74086427-4c1b-4fb1-bdf4-8199475c44ea
   nva_url: https://nva.sikt.no/registration/019a5a444ff2-74086427-4c1b-4fb1-bdf4-8199475c44ea
 - title: MishMash - exploring AI and creativity between art and science
+  lang: und
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10954,6 +11182,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019a36cf0cd7-b55769c1-b015-428c-bf72-7e7678d4d5ca
   nva_url: https://nva.sikt.no/registration/019a36cf0cd7-b55769c1-b015-428c-bf72-7e7678d4d5ca
 - title: MishMash Centre for AI & Creativity
+  lang: und
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -10987,6 +11216,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019a36c3b701-51b55466-c7a5-4ffe-96c3-9c06108223d3
   nva_url: https://nva.sikt.no/registration/019a36c3b701-51b55466-c7a5-4ffe-96c3-9c06108223d3
 - title: Musikk og KI - Utfordringer og muligheter
+  lang: und
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -11018,6 +11248,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019a36be4444-0cc56b03-b55f-4551-862a-aee51c4ea142
   nva_url: https://nva.sikt.no/registration/019a36be4444-0cc56b03-b55f-4551-862a-aee51c4ea142
 - title: KI og det nye MishMash-senteret
+  lang: nb
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -11046,6 +11277,7 @@ results:
     nva_url: https://nva.sikt.no/registration/0199950ae66e-c741ee65-1651-46f7-a3d2-6925df7836ca
   nva_url: https://nva.sikt.no/registration/0199950ae66e-c741ee65-1651-46f7-a3d2-6925df7836ca
 - title: Muligheter for deltagelse i MishMash Senter for KI og kreativitet
+  lang: nb
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -11074,6 +11306,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019995090b5c-2399367f-12c9-48e1-a055-b3664cebea22
   nva_url: https://nva.sikt.no/registration/019995090b5c-2399367f-12c9-48e1-a055-b3664cebea22
 - title: Technologies supporting research on music-related body motion
+  lang: en
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -11131,6 +11364,7 @@ results:
   url: https://www.liser.lu/events/EXPAR2025-09-18
   nva_url: https://nva.sikt.no/registration/01999502abec-42963b80-c92d-4bee-81f8-7415ec617917
 - title: Video Visualization - Learn to use MG Toolbox
+  lang: en
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -11170,6 +11404,7 @@ results:
   url: https://www.liser.lu/events/EXPAR2025-09-19
   nva_url: https://nva.sikt.no/registration/019994fe5672-6a721851-98aa-486b-bbb1-86d9a0cf8b22
 - title: RITMO, MishMash and the fourMs Lab
+  lang: en
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -11198,6 +11433,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019994c32420-9e680d19-dfe8-4061-8442-da49021add6b
   nva_url: https://nva.sikt.no/registration/019994c32420-9e680d19-dfe8-4061-8442-da49021add6b
 - title: Kreativitet og KI
+  lang: nb
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -11228,6 +11464,7 @@ results:
   url: https://www.arj.no/no/2025/08/28/ki-filmbransjen/
   nva_url: https://nva.sikt.no/registration/019994b681c8-564b2831-ced1-4bda-83e0-98e4170dca8f
 - title: MishMash Senter for KI og kreativitet
+  lang: nb
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -11280,6 +11517,7 @@ results:
   url: https://www.forskningsradet.no/arrangementer/2025/presentasjon-ki-sentra/
   nva_url: https://nva.sikt.no/registration/019994ac713a-62f7f34b-3318-424c-89a6-b45460160aa8
 - title: AI in film (and fine arts) schools
+  lang: en
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -11310,6 +11548,7 @@ results:
   nva_url: https://nva.sikt.no/registration/0199709a5e3e-079e05cf-7647-478c-9a5d-b67433c5a402
 - title: AI-retningslinjer for norsk film – hvem lager dem, og hvordan settes en arbeidsgruppe
     sammen?
+  lang: nb
   year: '2025'
   type: OtherPresentation
   type_label: Presentation
@@ -11342,6 +11581,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01992ed0bbab-d68ebbb7-4430-422e-aba4-5a0e1bdce15b
 - title: 'Kunst i intelligens: Hvilke nye kreative uttrykksmuligheter kan KI åpne
     for?'
+  lang: 'no'
   year: '2025'
   type: Lecture
   type_label: Lecture
@@ -11409,6 +11649,7 @@ results:
   url: https://www.arendalsuka.no/programsoek/details/31679
   nva_url: https://nva.sikt.no/registration/0198cc705f83-4264b8ca-ef34-41f0-940b-928c02780af7
 - title: Mennesker og maskiner
+  lang: und
   year: '2026'
   type: JournalLetter
   type_label: Letter to the editor
@@ -11439,6 +11680,7 @@ results:
   url: https://www.forskerforum.no/forskerlivet/vi-ma-se-oss-selv-i-speilet-hver-gang-vi-bruker-et-ki-verktoy-er-vi-med-pa-a-legitimere-det/
   nva_url: https://nva.sikt.no/registration/019ed4c83ce5-3e0642d3-76b5-4aa2-89ad-eceeda464110
 - title: Velkommen til festival!
+  lang: nb
   year: '2026'
   type: JournalLetter
   type_label: Letter to the editor
@@ -11469,6 +11711,7 @@ results:
   url: https://www.forskerforum.no/forskerlivet/nar-folk-spor-hva-slags-senter-mishmash-skal-bli-er-mitt-beste-svar-et-festivalteltsenter/
   nva_url: https://nva.sikt.no/registration/019d699b7405-cd687d70-c762-4758-a898-df7a8920ee35
 - title: Tverrfaglighet gjør litt vondt
+  lang: nb
   year: '2026'
   type: JournalLetter
   type_label: Letter to the editor
@@ -11500,6 +11743,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019be71b705a-3cdddeaa-57e9-4ed4-abad-daeea67f6b9b
 - title: 'Supervisor for Master thesis: "Moving with the Music: A Novel Robotic Floor
     for Motion-Enhanced Music Experience" (60 ECTS)'
+  lang: en
   year: '2026'
   type: DegreeMaster
   type_label: Master's thesis
@@ -11596,6 +11840,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019fb812f3c4-da54c6b0-39a3-4359-9a7c-6af13991ed68
   nva_url: https://nva.sikt.no/registration/019fb812f3c4-da54c6b0-39a3-4359-9a7c-6af13991ed68
 - title: 'Beyond Generation: What Does Critical AI Mean in Artistic Practice'
+  lang: en
   year: '2026'
   type: MediaPodcast
   type_label: Media podcast
@@ -11641,6 +11886,7 @@ results:
   url: https://creators.spotify.com/pod/profile/off-center/episodes/Episode-53-Live--Piksel-What-Does-Critical-AI-Mean-in-Artistic-Practice--with-Budhaditya-Chattopadhyay--Liza-Paccini-and-Maite-Cajaraville-e3ssepb/a-ad23jv5
   nva_url: https://nva.sikt.no/registration/01a2175739ce-b2482b9b-075d-4fc6-a2f8-3f163e8db90f
 - title: 'UiO-professor: – Me skal laga kunstig intelligens for menneske'
+  lang: nn
   year: '2026'
   type: MediaInterview
   type_label: Interview
@@ -11671,6 +11917,7 @@ results:
   url: https://www.uniforum.uio.no/nyheter/2026/11/ki-ma-vera-til-for-menneska(1).html
   nva_url: https://nva.sikt.no/registration/01a1f61a6141-1ddc6997-ca14-46a6-a58d-a45185cd6acd
 - title: Jeg har aldri opplevd studenter som er mer KI-kritiske enn nå
+  lang: und
   year: '2026'
   type: MediaReaderOpinion
   type_label: Reader opinion
@@ -11702,6 +11949,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0f12af694-e68f1727-41bb-4600-aa65-dfa27d22225e
 - title: Brukte AI til å transkribere noter for hardingfele – det ga gründerne idéen
     til ny musikk-app de mener kan bli en «pengemaskin»
+  lang: nn
   year: '2026'
   type: MediaInterview
   type_label: Interview
@@ -11736,6 +11984,7 @@ results:
   url: https://www.shifter.no/nyheter/brukte-ai-til-a-transkribere-noter-for-hardingfele-det-ga-gruenderne-ideen-til-ny-musikk-app-de-mener-kan-bli-en-pengemaskin/460554
   nva_url: https://nva.sikt.no/registration/01a0de53741a-beca6a32-d1ce-4570-9457-74649784fe75
 - title: 330 ungdommer samlet til KI-dag på UiT
+  lang: nb
   year: '2026'
   type: MediaBlogPost
   type_label: Blog post
@@ -11769,6 +12018,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a09ce1a6c7-029c1cdc-6519-43ba-8ead-0b380fe2c406
 - title: 'KI-dag på UiT: Slik kan elevene bruke det godt – og kritisk – NRK Troms
     og Finnmark'
+  lang: und
   year: '2026'
   type: MediaFeatureArticle
   type_label: Feature article
@@ -11802,6 +12052,7 @@ results:
   url: https://www.nrk.no/tromsogfinnmark/ki-dag-pa-uit_-slik-kan-elevene-bruke-det-godt-_-og-kritisk-1.17904403
   nva_url: https://nva.sikt.no/registration/01a09cde5d4e-e6fe8075-1b3a-4f1e-b5f8-5dd7a97bbe93
 - title: News story about KI-dagen on Distriktsnyheter Nordnytt - NRK TV
+  lang: nb
   year: '2026'
   type: MediaParticipationInRadioOrTv
   type_label: Radio or TV
@@ -11830,6 +12081,7 @@ results:
   url: https://tv.nrk.no/serie/distriktsnyheter-nordnytt/sesong/202606/episode/DKTR98060126
   nva_url: https://nva.sikt.no/registration/01a09cdb57e2-ae164f69-4d19-4924-9868-b51a9e134b3b
 - title: Finnes mennesker fortsatt om en million år? - Abels tårn - NRK Radio
+  lang: und
   year: '2026'
   type: MediaParticipationInRadioOrTv
   type_label: Radio or TV
@@ -11859,6 +12111,7 @@ results:
   url: https://radio.nrk.no/podkast/abels_taarn/l_26ee6156-aa61-4ba8-ae61-56aa61bba845
   nva_url: https://nva.sikt.no/registration/019de25b1c1d-d9db78cb-2708-4e83-a0c5-b50130e99739
 - title: 'Live frå Aulaen: Musikk-spesial'
+  lang: und
   year: '2026'
   type: MediaParticipationInRadioOrTv
   type_label: Radio or TV
@@ -11894,6 +12147,7 @@ results:
   nva_url: https://nva.sikt.no/registration/019de2544f5f-3e6a1b65-e57c-412e-85ca-b7e448236da3
 - title: 'Debatten raser om KI i kulturfeltet: Trenger vi egentlig musikere, forfattere
     og filmprodusenter nå?'
+  lang: und
   year: '2026'
   type: MediaInterview
   type_label: Interview
@@ -11937,6 +12191,7 @@ results:
   url: https://www.forskning.no/kunst-kunstig-intelligens-partner/debatten-raser-om-ki-i-kulturfeltet-trenger-vi-egentlig-musikere-forfattere-og-filmprodusenter-na/2642960
   nva_url: https://nva.sikt.no/registration/019dcde48166-cd974c11-c757-4b22-a122-7defb03b962e
 - title: Musikkmaskinene | Aftenposten Innsikt
+  lang: und
   year: '2026'
   type: MediaInterview
   type_label: Interview
@@ -11964,6 +12219,7 @@ results:
   url: https://www.aftenposteninnsikt.no/kulturtrender/musikkmaskinene
   nva_url: https://nva.sikt.no/registration/019d9a56baa7-a2902750-ef00-4f13-8fc6-2ece09aadb58
 - title: Får du frysninger
+  lang: und
   year: '2026'
   type: MediaInterview
   type_label: Interview
@@ -11989,6 +12245,7 @@ results:
   url: https://radio.nrk.no/serie/distriktsprogram-oestlandssendingen/DKOA02006926
   nva_url: https://nva.sikt.no/registration/019d9a3b78fb-9167d51b-fff2-4c40-a5d6-b110eae3f802
 - title: Er 528 Hz og 432 Hz magiske frekvenser?
+  lang: und
   year: '2026'
   type: MediaInterview
   type_label: Interview
@@ -12017,6 +12274,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019d9a29ae13-1da4d42a-1ca6-4746-8f07-58cc6e3efc75
   nva_url: https://nva.sikt.no/registration/019d9a29ae13-1da4d42a-1ca6-4746-8f07-58cc6e3efc75
 - title: 'Matoma advarer: –⁠ Det er sjelløst'
+  lang: und
   year: '2026'
   type: MediaInterview
   type_label: Interview
@@ -12045,6 +12303,7 @@ results:
   url: https://www.vg.no/rampelys/i/m0K09l/matoma-advarer-mot-oekt-ki-bruk-i-musikkbransjen-misbruker-det
   nva_url: https://nva.sikt.no/registration/019d95a20ca1-969ab902-0c6d-44da-be8f-8cd2c54eedad
 - title: Eneste KI-senter som kobler teknologi og kreativitet offisielt åpnet
+  lang: und
   year: '2026'
   type: MediaInterview
   type_label: Interview
@@ -12073,6 +12332,7 @@ results:
   url: https://www.uniforum.uio.no/nyheter/2026/04/eneste-ki-senter-som-kobler-teknologi-og-kreativit.html
   nva_url: https://nva.sikt.no/registration/019d7142230d-2db844aa-a0c3-4c57-a477-9094de115b10
 - title: Hva er "flytsonen"?
+  lang: und
   year: '2026'
   type: MediaParticipationInRadioOrTv
   type_label: Radio or TV
@@ -12101,6 +12361,7 @@ results:
   url: https://radio.nrk.no/podkast/abels_taarn/l_b5967fa0-56a7-46f3-967f-a056a7c6f32f
   nva_url: https://nva.sikt.no/registration/019d5da66655-e4192e72-348d-43e7-a0a2-ae2d58d59973
 - title: Nesten alle lever i sin egen stille boble
+  lang: und
   year: '2026'
   type: MediaInterview
   type_label: Interview
@@ -12129,6 +12390,7 @@ results:
   url: https://www.nrk.no/kultur/nesten-alle-hodetelefoner-er-stoyreduserende_-_-vi-lurer-hjernen-1.17833006
   nva_url: https://nva.sikt.no/registration/019d5d978610-a909e81e-9821-40f4-9a52-f62fd3bb4881
 - title: 'Ekspert om støydemping-trenden: – Vi lever i parallelle verdener'
+  lang: und
   year: '2026'
   type: MediaInterview
   type_label: Interview
@@ -12156,6 +12418,7 @@ results:
     nva_url: https://nva.sikt.no/registration/019cbf94714e-8916e5ba-2259-4935-85c8-cfaadef563fc
   nva_url: https://nva.sikt.no/registration/019cbf94714e-8916e5ba-2259-4935-85c8-cfaadef563fc
 - title: Eierskap til KI
+  lang: und
   year: '2025'
   type: MediaInterview
   type_label: Interview
@@ -12185,6 +12448,7 @@ results:
   url: https://artscene.no/2025/08/25/eierskap-til-ki/
   nva_url: https://nva.sikt.no/registration/019d646b7835-e8a021fd-f1bc-44c3-b9ba-105e5eb48540
 - title: UiA med på KI-satsing – NRK Sørlandet – Lokale nyheter, TV og radio
+  lang: nb
   year: '2025'
   type: MediaInterview
   type_label: Interview
@@ -12211,6 +12475,7 @@ results:
   url: https://www.nrk.no/sorlandet/uia-med-pa-ki-satsing-1.17450741
   nva_url: https://nva.sikt.no/registration/019bace99db7-6dc6eba2-3317-4418-97b0-84a8851ab114
 - title: Kan musikk skape fred?
+  lang: und
   year: '2025'
   type: MediaInterview
   type_label: Interview
@@ -12240,6 +12505,7 @@ results:
   url: https://ungdomsavisa.com/index.php?artID=763&navB=1
   nva_url: https://nva.sikt.no/registration/019b0f3bb59f-39c743ed-8591-4064-9354-23e984f96c0b
 - title: Musikk og kunstig intelligens
+  lang: und
   year: '2025'
   type: MediaParticipationInRadioOrTv
   type_label: Radio or TV
@@ -12265,6 +12531,7 @@ results:
   url: https://play.tv2.no/nyheter/god-morgen-norge-y05mec7j?play=true
   nva_url: https://nva.sikt.no/registration/019ab7103bb4-41431bd8-1b02-46dd-b238-3ac844512b33
 - title: Concert at First supper symposium at Kunstnernes hus, Oslo
+  lang: nb
   year: '2026'
   type: MusicPerformance
   type_label: Music performance
@@ -12297,6 +12564,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0ecf89bba-79d6abc8-fee2-4c3f-887e-212e4403d705
 - title: Concert at AI Mission Hub and BI Business School cohosting on Build What
     Matters
+  lang: en
   year: '2026'
   type: MusicPerformance
   type_label: Music performance
@@ -12340,6 +12608,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0ecf15d51-90a39b64-9b8c-4670-9773-242e921258ec
 - title: Concert European Platform for Artistic Research in Music (EPARM) 2027 at
     Norwegian Academy og Music 9.4 2026
+  lang: en
   year: '2026'
   type: MusicPerformance
   type_label: Music performance
@@ -12379,6 +12648,7 @@ results:
   url: https://aec-music.eu/event/european-platform-for-artistic-research-in-music-eparm-2026/programme
   nva_url: https://nva.sikt.no/registration/01a0e7f8db7f-68c23311-9cf8-488f-a09e-2e783183461f
 - title: Kunstig kreativitet? Mishmash åpningssermoni i Univerisitetets aula 8.4 2026
+  lang: nb
   year: '2026'
   type: MusicPerformance
   type_label: Music performance
@@ -12423,6 +12693,7 @@ results:
   url: https://www.youtube.com/watch?v=rq8UnZlzYk4
   nva_url: https://nva.sikt.no/registration/01a0de8bcf47-0fc54852-84ca-4c02-bd94-b72a1ab7a148
 - title: Improvisation with the Muzziballs
+  lang: en
   year: '2026'
   type: MusicPerformance
   type_label: Music performance
@@ -12464,6 +12735,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0977848af-857fa756-7a7d-4e08-9a00-325836171516
   nva_url: https://nva.sikt.no/registration/01a0977848af-857fa756-7a7d-4e08-9a00-325836171516
 - title: Atomspheres
+  lang: en
   year: '2026'
   type: MusicPerformance
   type_label: Music performance
@@ -12514,6 +12786,7 @@ results:
   url: https://dornsife.usc.edu/cema/events/
   nva_url: https://nva.sikt.no/registration/019dcbf4d15b-642a468a-8e7f-4fb1-8e21-c0c8b5598702
 - title: Computer Music Concert
+  lang: en
   year: '2025'
   type: MusicPerformance
   type_label: Music performance
@@ -12556,6 +12829,7 @@ results:
   url: https://www.hf.uio.no/imv/english/research/news-and-events/events/Other/2025/computer-music-concert-h25.html
   nva_url: https://nva.sikt.no/registration/01a0d8ad1c3a-2207fcb3-f9d5-4505-a2c0-57121a2bc0eb
 - title: 'Concert: Quantum Loops, Broken Symmetries'
+  lang: en
   year: '2025'
   type: MusicPerformance
   type_label: Music performance
@@ -12591,6 +12865,7 @@ results:
   url: https://www.uio.no/ritmo/english/news-and-events/events/artistic-performances/2025/quantum-music/index.html
   nva_url: https://nva.sikt.no/registration/01a0d3b866ca-8ee463b0-6236-43f8-aaf6-0d26326a2951
 - title: The Great Human Filter - The Age of Evaluation (album)
+  lang: nb
   year: '2025'
   type: MusicPerformance
   type_label: Music performance
@@ -12619,6 +12894,7 @@ results:
   url: https://thegreathumanfilter.com/
   nva_url: https://nva.sikt.no/registration/019e3f4d620d-fbdddd20-0178-42a0-b9c4-6280151fefa8
 - title: 'Skaper, skapning og artefakt: Aquinas'' og kunstig intelligens'
+  lang: nb
   year: '2026'
   type: NonFictionChapter
   type_label: Non-fiction chapter
@@ -12662,6 +12938,7 @@ results:
     nva_url: https://nva.sikt.no/registration/01a21c1caa16-394a5f2d-eda6-4f86-8b3e-253653d63a79
   nva_url: https://nva.sikt.no/registration/01a21c1caa16-394a5f2d-eda6-4f86-8b3e-253653d63a79
 - title: Hardingfele and AI
+  lang: nb
   year: '2026'
   type: PerformingArts
   type_label: Performing arts
@@ -12692,6 +12969,7 @@ results:
   url: https://mishmash.no/lab/opening-ceremony/#:~:text=act%20is%20claimed-,1:03:30,-Hardingfele%20and%20AI
   nva_url: https://nva.sikt.no/registration/01a0de30c731-f9fffdd6-f4fb-4ab6-9b91-5f9608067fce
 - title: Musicology and Artificial Intelligence
+  lang: en
   year: '2026'
   type: ReportPolicy
   type_label: Policy report
@@ -12754,6 +13032,7 @@ results:
   nva_url: https://nva.sikt.no/registration/01a0d9424b28-74985eb6-908a-46ba-ad03-4739181ffe34
 - title: 'AI in the teaching and learning of the arts: Protocol for a scoping review
     (MishMash WP4)'
+  lang: en
   year: '2026'
   type: ReportBasic
   type_label: Report
@@ -12806,6 +13085,7 @@ results:
   url: https://doi.org/10.17605/OSF.IO/C5B3Q
   nva_url: https://nva.sikt.no/registration/01a1accd148a-e34df6e1-099d-426c-a850-7335c27a8287
 - title: COST Action EarlyMuse 2022-2026. Six Reports on Musicology in Europe
+  lang: en
   year: '2026'
   type: ReportBasic
   type_label: Report
@@ -12882,6 +13162,7 @@ results:
 - title: 'Formation of a Special Interest Group on Linked Metadata and Interoperability
     in Musicology: Report and Results from the International Musicology Workshop Held
     Between NFDI4Culture, musica*, RISM and the MishMash Centre for AI and Creativity'
+  lang: en
   year: '2026'
   type: ReportBasic
   type_label: Report
@@ -12967,6 +13248,7 @@ results:
   url: https://doi.org/10.5281/ZENODO.22868638
   nva_url: https://nva.sikt.no/registration/01a0ec699c85-48b6c3d9-e1fc-4e1a-b240-c00594e9d4ca
 - title: Neon Gallery/Galeria Neon ASP Wrocław, Poland
+  lang: en
   year: '2025'
   type: VisualArts
   type_label: Visual arts
