@@ -54,6 +54,16 @@ class RowTests(unittest.TestCase):
             rows = b.event_rows(root)
             self.assertEqual(rows[0]["url"], "https://mishmash.no/events/x/")
             self.assertTrue(rows[0]["start"].startswith("2026-10-01"))
+            self.assertEqual(rows[0]["lang"], "en")
+
+            (root / "_events" / "2026-10-02-nynorsk.md").write_text(
+                "---\ntitle: Nynorsk event\nlang: nn\ndate: 2026-10-02 12:00:00 +02:00\n"
+                "end_date: 2026-10-02 13:00:00 +02:00\nlocation: Zoom\ncategories: [Workshop]\n"
+                "slug: nynorsk\n---\n",
+                encoding="utf-8",
+            )
+            rows = {row["slug"]: row for row in b.event_rows(root)}
+            self.assertEqual(rows["nynorsk"]["lang"], "nn")
 
     def test_flatten_for_csv(self):
         flat = b.flatten({"slug": "a", "institutions": ["x", "y"], "identifiers": {"orcid": "o"}})
