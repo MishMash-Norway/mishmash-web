@@ -147,6 +147,7 @@ def event_rows(root: Path) -> list[dict]:
         rows.append({
             "slug": slug,
             "title": d.get("title"),
+            "lang": d.get("lang") or "en",
             "start": str(d.get("date")) if d.get("date") else None,
             "end": str(d.get("end_date")) if d.get("end_date") else None,
             "location": d.get("location"),

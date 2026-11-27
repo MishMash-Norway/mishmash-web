@@ -266,6 +266,7 @@ content_types:
       slug: lowercase ASCII hyphenated short URL slug
       city: city of a physical event, for the location filter on the search page (leave out for online events)
       country: country of a physical event, in English, as for institutions
+      lang: optional BCP 47 code for the event text; defaults to en
     rules:
       - Use +01:00 for Oslo winter time and +02:00 for Oslo summer time.
       - Put work packages in categories, never tags.
