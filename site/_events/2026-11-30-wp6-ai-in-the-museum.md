@@ -16,6 +16,8 @@ tags:
 description: An afternoon at Domkirkeodden in Hamar on AI for cultural heritage collections,
   with a guided tour of the Baldishol exhibition and a panel on its AI co-created
   exhibition film.
+image: /assets/images/events/wp6-ai-in-the-museum-drone-thumb.jpg
+image_alt: Aerial view of the Anno museum building at Domkirkeodden beside Lake Mjøsa
 slug: wp6-ai-in-the-museum
 ---
 
@@ -29,6 +31,10 @@ How can artificial intelligence help museums and archives make their collections
 - AI framework for cultural heritage collections: transcription, metadata enrichment, linked open data, catalogue exploration, presented by [Olivier Lartillot](/people/olivier-lartillot/) (UiO)
 - Guided tour of the exhibition Baldishol at Domkirkeodden historiesenter
 - Panel discussion about the Anno Baldishol Tapestry exhibition and its AI co-created exhibition film, with [Kyrre Kverndokk](/people/kyrre-kverndokk/) (UiB), Arnfinn Rokne (Miste) and Per-Øyvind Riise (Anno), led by Ida Jahr (INN)
+
+## Downloads
+
+- [Download the full-resolution event photograph (JPEG)](/assets/images/events/wp6-ai-in-the-museum-drone.jpg)
 
 ## Access
 
