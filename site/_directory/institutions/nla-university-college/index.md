@@ -13,6 +13,7 @@ image: /images/institutions/nla-university-college.png
 people:
 - clemens-cavallin
 - francis-borchardt
+- njal-olnes
 - ole-fredrik-norbye
 projects:
 - ai-integration-film-tv-education

@@ -8,6 +8,7 @@ department: Department of Music
 image: /assets/images/portraits/Njål_Ølnes_NTNU.jpg
 institution: norwegian-university-of-science-and-technology
 institutions:
+- nla-university-college
 - norwegian-university-of-science-and-technology
 - university-of-inland-norway
 nva_affiliations:
@@ -17,12 +18,15 @@ nva_affiliations:
 - role: Professor
   unit: Department of Art and Cultural Studies
   institution: university-of-inland-norway
+- role: Professor ii
+  unit: Department of Music
+  institution: nla-university-college
 projects: []
 roles:
 - Member
 urls:
   personal_website: https://njal.olnes.no
-  institutional_website: https://www.inn.no/finn-en-ansatt/njal-olnes.html
+  institutional_website: ''
   github: ''
   linkedin: https://www.linkedin.com/in/njål-ølnes-57761333/?isSelfProfile=true
   orcid: https://orcid.org/0000-0001-6735-6173

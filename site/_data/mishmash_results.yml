@@ -1,4 +1,4 @@
-synced_at: '2026-11-26T14:57:06Z'
+synced_at: '2026-11-27T15:04:56Z'
 project:
   nva_id: '2744839'
   nva_url: https://nva.sikt.no/projects/2744839
@@ -782,12 +782,12 @@ results:
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
   institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
   - name: Arctic University of Norway
     slug: arctic-university-of-norway
     url: /institutions/arctic-university-of-norway/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
   citation:
     authors:
     - display: Aareskjold-Drecker, Jon Marius
@@ -800,9 +800,9 @@ results:
       url: /people/ragnhild-brovig/
     title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
       Currently Used in Music Production
-    container: 'In Gullö, Jan-Olof, Toulson, Rob, Hepworth-Sawyer, Russ, Marrington,
-      Mark, Paterson, Justin, Andersen, Claus Sohn (Eds.), Innovation in Music: Current
-      Research Perspectives.'
+    container: 'In Toulson, Rob, Gullö, Jan-Olof, Hepworth-Sawyer, Russ, Andersen,
+      Claus Sohn, Marrington, Mark, Paterson, Justin (Eds.), Innovation in Music:
+      Current Research Perspectives.'
     details: 'Routledge. ISBN 9781032757858. doi: 10.4324/9781003475675-9.'
     abstract: This article provides an overview of current AI-assisted tools used
       in music composition and production and demonstrate their application through
@@ -1051,6 +1051,92 @@ results:
     nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
   url: https://doi.org/10.5281/ZENODO.22643770
   nva_url: https://nva.sikt.no/registration/01a0d9219842-b6acd7f4-c592-4092-9e9d-d7ce4a68a10f
+- title: Evaluation of Cultural Bias & Workflow in AI Music Generation with SCOPE
+  year: '2026'
+  type: ConferencePoster
+  type_label: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Shayan Dadman
+    role: Creator
+    slug: shayan-dadman
+    url: /people/shayan-dadman/
+  - name: Andreas Bergsland
+    role: Creator
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
+  institutions:
+  - name: Arctic University of Norway
+    slug: arctic-university-of-norway
+    url: /institutions/arctic-university-of-norway/
+  - name: University of Agder
+    slug: university-of-agder
+    url: /institutions/university-of-agder/
+  - name: Norwegian University of Science and Technology
+    slug: norwegian-university-of-science-and-technology
+    url: /institutions/norwegian-university-of-science-and-technology/
+  - name: University of Oslo
+    slug: university-of-oslo
+    url: /institutions/university-of-oslo/
+  citation:
+    authors:
+    - display: Dadman, Shayan
+      name: Shayan Dadman
+      slug: shayan-dadman
+      url: /people/shayan-dadman/
+    - display: Bergsland, Andreas
+      name: Andreas Bergsland
+      slug: andreas-bergsland
+      url: /people/andreas-bergsland/
+    - display: Aareskjold-Drecker, Jon Marius
+      name: Jon Marius Aareskjold-Drecker
+      slug: jon-marius-aareskjold-drecker
+      url: /people/jon-marius-aareskjold-drecker/
+    title: Evaluation of Cultural Bias & Workflow in AI Music Generation with SCOPE
+    container: MishMash Centre for AI and Creativity — Opening Conference.
+    details: Kristiansand.
+    abstract: 'Evaluating AI-based music tools has traditionally focused on final
+      outputs rather than creative processes. To address this gap, we proposed **SCOPE**
+      (**S**ituated **C**reative **O**peration and **P**rocess **E**valuation), a
+      methodology that assesses these tools by examining the entire creative workflow
+      from idea formation to iterative revision rather than just end results. It is
+      designed to support evaluation across multiple stakeholder groups—researchers
+      studying tool impact, developers refining features, and users reflecting on
+      their creative processes.
+
+
+      The framework operates as an interactive feedback loop capturing both qualitative
+      insights through reflective notes and quantitative data via structured scoring
+      against predefined criteria. This approach enables stakeholders to understand
+      how ideas form, features are experimented with, work is revised, and experiences
+      documented when engaging AI music platforms. By centering the user''s workflow,
+      including prompts, interface states, iterative cycles, and creative decision-making,
+      SCOPE offers a nuanced perspective on tool usability in real-world music creation
+      contexts while identifying friction points that support fluid artistic processes.
+
+
+      To validate SCOPE, we conducted one-day studio sessions with 5 professional
+      music producers from diverse age groups and backgrounds. Participants engaged
+      in exploratory experimentation with Suno AI-music platform features within defined
+      musical contexts established as composition briefs at session onset. The goal
+      was to incorporate generated results into actual compositions while documenting
+      their creative journey throughout the workflow, including real-time decision-making,
+      iterative experimentation, and moments of discovery or friction.
+
+
+      Our study yields an assessment of SCOPE through real-world application, alongside
+      in-depth insights into how AI music tools, such as Suno, impact professional
+      creative workflows from practitioner perspectives. These outcomes collectively
+      inform both the practical utility and theoretical implications of process-centered
+      evaluation frameworks for AI generative technologies.'
+    full_text_url: https://hdl.handle.net/11250/5603953
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a21d1a8fc9-1c2cbd17-4d60-4952-85a8-779b460d0c9c
+  nva_url: https://nva.sikt.no/registration/01a21d1a8fc9-1c2cbd17-4d60-4952-85a8-779b460d0c9c
 - title: 'Verden i dag og verden i morgen: menneskets kreative potensiale i lys av
     KI'
   year: '2026'
@@ -6252,70 +6338,49 @@ results:
     nva_url: https://nva.sikt.no/registration/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
   url: https://doi.org/10.3389/fcomp.2025.1603769
   nva_url: https://nva.sikt.no/registration/019ba2b20090-f326937c-5a98-40de-9510-17a0232f152e
-- title: 'A Grid in Flux: Sound and Timing in Electronic Dance Music'
-  year: '2021'
+- title: 'Machine aesthetics in recorded and performed music: An analytical framework
+    | Intellect'
+  year: '2025'
   type: AcademicArticle
   type_label: Journal article
   group_type: Journal article
   contributors:
-  - name: Ragnhild Brøvig-Hanssen
+  - name: Alex Stevenson
     role: Creator
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
-  - name: Bjørnar Sandvik
+  - name: Ragnhild Brøvig
     role: Creator
-  - name: Jon Marius Aareskjold-Drecker
-    role: Creator
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
-  - name: Anne Danielsen
-    role: Creator
-  institutions:
-  - name: University of Oslo
-    slug: university-of-oslo
-    url: /institutions/university-of-oslo/
-  - name: Arctic University of Norway
-    slug: arctic-university-of-norway
-    url: /institutions/arctic-university-of-norway/
+  institutions: []
   citation:
     authors:
-    - display: Brøvig-Hanssen, Ragnhild
-      name: Ragnhild Brøvig-Hanssen
-      slug: ragnhild-brovig
-      url: /people/ragnhild-brovig/
-    - display: Sandvik, Bjørnar
-      name: Bjørnar Sandvik
-    - display: Aareskjold-Drecker, Jon Marius
-      name: Jon Marius Aareskjold-Drecker
-      slug: jon-marius-aareskjold-drecker
-      url: /people/jon-marius-aareskjold-drecker/
-    - display: Danielsen, Anne
-      name: Anne Danielsen
-    title: 'A Grid in Flux: Sound and Timing in Electronic Dance Music'
-    container: Music Theory Spectrum.
-    details: 'ISSN 0195-6167. 44. doi: 10.1093/mts/mtab013.'
-    abstract: Researchers have argued that temporal microdeviations from the metric
-      grid, such as those producedby musicians in performance, are crucial to making
-      a musical rhythm groovy and danceable. It is curious, then, that the music currently
-      dominating the dance floor, “electronic dance music” or EDM, is typically characterized
-      by grid-based rhythms. But is such a “mechanistic,” grid-based aesthetic necessarily
-      devoid of microrhythmic nuance? In this article, we aim to show that the microrhythmic
-      component of an engaging groove involves the manipulation of more than simply
-      the onset locations of rhythmic events—the sonic features fundamentally contribute
-      to shaping the groove as well. In particular, we seek to demonstrate that EDM
-      producers, with their preference for a grid-based microtiming aesthetic, are
-      very sensitive to and adept at manipulating such sonic features for expressive
-      effect. Drawing on interviews with EDM producers, we show that producers are
-      often concerned with both sonic and temporal features, as well as their interactions.
-      We argue that sonic features are crucial to shaping groove and feel at the micro
-      level of rhythm. Moreover, such features also tend to introduce an indirect
-      microtiming aspect to the grid-based aesthetic of EDM through the ways in which
-      they shape timing at the perceptual level.
-    full_text_url: https://hdl.handle.net/11250/5107280
-    full_text_kind: archive
-    nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
-  url: https://doi.org/10.1093/mts/mtab013
-  nva_url: https://nva.sikt.no/registration/0198cc669159-7f877768-3c08-4ede-9859-24aeb41e6ffb
+    - display: Stevenson, Alex
+      name: Alex Stevenson
+    - display: Brøvig, Ragnhild
+      name: Ragnhild Brøvig
+    title: 'Machine aesthetics in recorded and performed music: An analytical framework
+      | Intellect'
+    container: Journal of Music Production Research.
+    details: 'ISSN 3050-2942. 1. p. 49–69. doi: 10.1386/jmpr_00005_1.'
+    abstract: This article explores the intricate relationship between human musicianship
+      and machine music through the lens of ‘machine aesthetics’ – a concept that
+      encompasses both music derived from machines and music that mimics these expressions.
+      Machine aesthetics gains particular relevance in contexts where musicians replicate
+      effects typically achieved with drum machines, samplers and digital audio workstations.
+      By examining live performances that closely mimic the sonic elements of machine
+      music, we aim to provide a nuanced understanding of this aesthetic. Drawing
+      on Barry Brummett’s theoretical framework from Rhetoric of Machine Aesthetics
+      (1999), which categorizes machine aesthetics into ‘mectech’, ‘electrotech’ and
+      ‘chaotech’, we clarify some often-conflated concepts and apply the framework
+      to music analysis. We suggest that integrating these concepts into analyses
+      can enhance our understanding of the causal and imaginative relationships between
+      musical expressions and machines. This exploration underscores the interplay
+      and dynamically perceived boundaries between human creativity and machine-driven
+      elements in music, which continue to enrich and redefine contemporary music
+      practices.
+    full_text_url: https://intellectdiscover.com/content/journals/10.1386/jmpr_00005_1
+    full_text_kind: generic
+    nva_url: https://nva.sikt.no/registration/019b219ea17f-4491402b-6ffd-4439-84dd-e9b86296138b
+  url: https://intellectdiscover.com/content/journals/10.1386/jmpr_00005_1
+  nva_url: https://nva.sikt.no/registration/019b219ea17f-4491402b-6ffd-4439-84dd-e9b86296138b
 - title: Steps to an Ego-logy of Mind
   year: '2026'
   type: Lecture
@@ -12553,6 +12618,49 @@ results:
     nva_url: https://nva.sikt.no/registration/019e3f4d620d-fbdddd20-0178-42a0-b9c4-6280151fefa8
   url: https://thegreathumanfilter.com/
   nva_url: https://nva.sikt.no/registration/019e3f4d620d-fbdddd20-0178-42a0-b9c4-6280151fefa8
+- title: 'Skaper, skapning og artefakt: Aquinas'' og kunstig intelligens'
+  year: '2026'
+  type: NonFictionChapter
+  type_label: Non-fiction chapter
+  group_type: Non-fiction chapter
+  contributors:
+  - name: Clemens Cavallin
+    role: Creator
+    slug: clemens-cavallin
+    url: /people/clemens-cavallin/
+  institutions:
+  - name: NLA University College
+    slug: nla-university-college
+    url: /institutions/nla-university-college/
+  citation:
+    authors:
+    - display: Cavallin, Clemens
+      name: Clemens Cavallin
+      slug: clemens-cavallin
+      url: /people/clemens-cavallin/
+    title: 'Skaper, skapning og artefakt: Aquinas'' og kunstig intelligens'
+    container: ''
+    details: ''
+    abstract: 'Kunstig intelligens er i dag et av de mest omdiskuterte temaene som
+      berører nesten alle sektorer i samfunnet. Men den stadig mer avanserte teknologien
+      retter også søkelyset mot mer grunnleggende spørsmål: Hvis det meste av menneskelig
+      arbeid – ikke bare fysisk, men også intellektuelt – overtas av KI-modeller og
+      roboter, hva gjenstår da som unikt menneskelig? Dette innebærer at alle tankesystemer
+      som ønsker å si noe vesentlig om mennesket, også må kunne tilby perspektiver
+      på KI. Dette gjelder også Thomas Aquinas’ tenkning, dersom den skal ha relevans
+      i vår tid og ikke bare forstås som et historisk fenomen.
+
+      I dette kapitlet vil jeg derfor undersøke hva thomismen kan bidra med til samtalen
+      om KI, gjennom å sette søkelys på kreativitet og på relasjonen mellom skaper
+      og skapelse. Det løfter frem verdier som respekt, forpliktelse og integritet
+      – ikke bare instrumentell nytte. Å skape et bilde av seg selv, en simulering,
+      er en skjebnesvanger og forpliktende handling. Der er det også en relasjon som
+      rommer muligheten til brudd. Når en autonom intelligens skapes, åpnes samtidig
+      muligheten for et syndefall.'
+    full_text_url: https://hdl.handle.net/11250/5603672
+    full_text_kind: archive
+    nva_url: https://nva.sikt.no/registration/01a21c1caa16-394a5f2d-eda6-4f86-8b3e-253653d63a79
+  nva_url: https://nva.sikt.no/registration/01a21c1caa16-394a5f2d-eda6-4f86-8b3e-253653d63a79
 - title: Hardingfele and AI
   year: '2026'
   type: PerformingArts

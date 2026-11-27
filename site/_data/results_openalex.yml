@@ -1,4 +1,4 @@
-synced_at: '2026-11-26T14:57:14Z'
+synced_at: '2026-11-27T15:05:06Z'
 source: OpenAlex (CC0) for the open-access status and the free copy, Crossref for
   the licence
 count: 25
@@ -35,12 +35,6 @@ works:
     label: subscription
     free: false
     licence_url: https://academic.oup.com/pages/standard-publication-reuse-rights
-  10.1093/mts/mtab013:
-    status: green
-    label: open access (author copy)
-    free: true
-    url: https://hdl.handle.net/10037/23586
-    licence_url: https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model
   10.1109/ichcai70183.2026.11607647:
     status: closed
     label: subscription
@@ -82,6 +76,13 @@ works:
     licence: cc-by
     licence_label: CC BY
     licence_url: https://creativecommons.org/licenses/by/4.0/
+  10.1386/jmpr_00005_1:
+    status: green
+    label: open access (author copy)
+    free: true
+    url: https://eprints.leedsbeckett.ac.uk/id/eprint/12512/1/MachineAestheticsInRecordedAndPerformedMusicAnAnalyticalFrameworkAM-STEVENSON.pdf
+    licence: cc-by
+    licence_label: CC BY
   10.17605/osf.io/c5b3q:
     status: green
     label: open access (author copy)

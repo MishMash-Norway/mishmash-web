@@ -41,6 +41,23 @@ search_keywords:
 - Interactive Systems
 - Music Technology
 selected_works:
+- title: Evaluation of Cultural Bias & Workflow in AI Music Generation with SCOPE
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Shayan Dadman
+    role: Creator
+    slug: shayan-dadman
+    url: /people/shayan-dadman/
+  - name: Andreas Bergsland
+    role: Creator
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
 - title: Kunstig Intelligens i Katedralen
   year: '2026'
   source: Music performance
@@ -163,22 +180,6 @@ selected_works:
     role: Creator
     slug: andreas-bergsland
     url: /people/andreas-bergsland/
-- title: 'Der MotionComposer: ein Gerät, das Bewegung in Musik umwandelt - Mögliche
-    Anwendungen in der pädiatrischen Medizin'
-  year: '2022'
-  source: Journal article
-  group_type: Journal article
-  contributors:
-  - name: Robert Wechsler
-    role: Creator
-  - name: Andreas Bergsland
-    role: Creator
-    slug: andreas-bergsland
-    url: /people/andreas-bergsland/
-  - name: Alicia Peñalba
-    role: Creator
-  - name: Stefan Geiger
-    role: Creator
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: Andreas Bergsland completed a PhD in music technology/systematic musicology

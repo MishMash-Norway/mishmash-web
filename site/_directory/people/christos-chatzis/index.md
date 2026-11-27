@@ -13,7 +13,7 @@ roles:
 - Member
 urls:
   personal_website: https://cchatzis.github.io/
-  institutional_website: https://www.simula.no/people/christos
+  institutional_website: ''
   github: ''
   linkedin: ''
   orcid: https://orcid.org/0009-0008-2595-5934

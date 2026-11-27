@@ -28,6 +28,23 @@ aliases:
 tags: []
 search_keywords: []
 selected_works:
+- title: Evaluation of Cultural Bias & Workflow in AI Music Generation with SCOPE
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Shayan Dadman
+    role: Creator
+    slug: shayan-dadman
+    url: /people/shayan-dadman/
+  - name: Andreas Bergsland
+    role: Creator
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
 - title: 'Sonitra: A Controlled Benchmarking Toolkit for Automatic Music Transcription'
   year: '2026'
   source: Conference poster
@@ -143,22 +160,6 @@ selected_works:
     role: Creator
     slug: shayan-dadman
     url: /people/shayan-dadman/
-- title: 'Toward Interactive Music Generation: A Position Paper'
-  year: '2022'
-  source: Journal article
-  group_type: Journal article
-  url: https://doi.org/10.1109/ACCESS.2022.3225689
-  contributors:
-  - name: Shayan Dadman
-    role: Creator
-    slug: shayan-dadman
-    url: /people/shayan-dadman/
-  - name: Bernt Arild Bremdal
-    role: Creator
-  - name: Børre Bang
-    role: Creator
-  - name: Rune Dalmo
-    role: Creator
 source_mentions: []
 summary: ''
 wps:

@@ -38,6 +38,18 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Abstract Orchestra's Signifyin(g) of Madvillain's "Meat Grinder."
+  year: '2026'
+  source: Book chapter
+  group_type: Book chapter
+  url: https://www.routledge.com/The-Routledge-Handbook-to-the-Popular-Music-Cover-Song-Vivid-Versions-and-Musical-Subjectivities/Alleyne-Burns/p/book/9781032789484
+  contributors:
+  - name: Ragnhild Brøvig
+    role: Creator
+    slug: ragnhild-brovig
+    url: /people/ragnhild-brovig/
+  - name: Alex Stevenson
+    role: Creator
 - title: Hey Siri, Can You Write Me a Chipmunk Soul Track? A Snapshot of AI Tools
     Currently Used in Music Production
   year: '2026'
@@ -182,21 +194,6 @@ selected_works:
     role: Creator
     slug: ragnhild-brovig
     url: /people/ragnhild-brovig/
-- title: Influence du traitement de plage dynamique sur le rythme perçu dans l’EDM
-  year: '2022'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Ragnhild Brøvig
-    role: Creator
-    slug: ragnhild-brovig
-    url: /people/ragnhild-brovig/
-  - name: Bjørnar Ersland Sandvik
-    role: Creator
-  - name: Jon Marius Aareskjold-Drecker
-    role: Creator
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: 'I am Professor of Popular Music Studies at the University of Oslo. My research

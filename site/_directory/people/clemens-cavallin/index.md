@@ -32,6 +32,15 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: 'Skaper, skapning og artefakt: Aquinas'' og kunstig intelligens'
+  year: '2026'
+  source: Non-fiction chapter
+  group_type: Non-fiction chapter
+  contributors:
+  - name: Clemens Cavallin
+    role: Creator
+    slug: clemens-cavallin
+    url: /people/clemens-cavallin/
 - title: 1. Mellom adaptiv støtte og generativ forstyrrelse
   year: '2026'
   source: Book chapter
@@ -129,16 +138,6 @@ selected_works:
     url: /people/clemens-cavallin/
   - name: Pär Samuel Eliasson
     role: Creator
-- title: 'Sacrifice and Emancipation: Universal values and Narratives in Norwegian
-    Religious Education: A Case Study: The Eternals'
-  year: '2025'
-  source: Book chapter
-  group_type: Book chapter
-  contributors:
-  - name: Clemens Cavallin
-    role: Creator
-    slug: clemens-cavallin
-    url: /people/clemens-cavallin/
 source_mentions: []
 summary: ''
 description: Professor, Department of Teacher Education, NLA University College

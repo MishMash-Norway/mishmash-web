@@ -10,10 +10,6 @@ institution: arctic-university-of-norway
 institutions:
 - arctic-university-of-norway
 - university-of-oslo
-locked_fields:
-- institution
-- institutions
-- nva_affiliations
 affiliation_units:
 - University of Oslo
 - Faculty of Humanities
@@ -51,6 +47,23 @@ aliases: []
 tags: []
 search_keywords: []
 selected_works:
+- title: Evaluation of Cultural Bias & Workflow in AI Music Generation with SCOPE
+  year: '2026'
+  source: Conference poster
+  group_type: Conference
+  contributors:
+  - name: Shayan Dadman
+    role: Creator
+    slug: shayan-dadman
+    url: /people/shayan-dadman/
+  - name: Andreas Bergsland
+    role: Creator
+    slug: andreas-bergsland
+    url: /people/andreas-bergsland/
+  - name: Jon Marius Aareskjold-Drecker
+    role: Creator
+    slug: jon-marius-aareskjold-drecker
+    url: /people/jon-marius-aareskjold-drecker/
 - title: LLMs and Custom GPTs as a Tool for Academic Research | 2 | Innovation
   year: '2026'
   source: Book chapter
@@ -194,40 +207,13 @@ selected_works:
     url: /people/jon-marius-aareskjold-drecker/
   - name: Anne Danielsen
     role: Creator
-- title: ARcTic Sustain
-  year: '2021'
-  source: Music performance
-  group_type: Music performance
-  contributors:
-  - name: Friederike Bischoff
-    role: Artist
-  - name: Lars Lien
-    role: Artist
-  - name: Berit Solset
-    role: Artist
-  - name: Jon Marius Aareskjold-Drecker
-    role: Artist
-    slug: jon-marius-aareskjold-drecker
-    url: /people/jon-marius-aareskjold-drecker/
-  - name: Rolf-Steinar Borch
-    role: Artist
-  - name: Ingrid Eliassen
-    role: Artist
-  - name: Geir Davidsen
-    role: Artist
-  - name: Kåre Solmund Nystabakk
-    role: Artist
-  - name: Odd Kyrre Alsvik
-    role: Artist
-  - name: Erik Stifjell
-    role: Composer
-  - name: Anneli Marian Aareskjold Drecker
-    role: Composer
-  - name: Karsten Brustad
-    role: Composer
 source_mentions:
 - about/organisation/wp-leaders/index.md
 summary: ''
+locked_fields:
+- institution
+- institutions
+- nva_affiliations
 description: Senior lecturer, Department of Musicology, University of Oslo
 permalink: /people/jon-marius-aareskjold-drecker/
 redirect_from:
