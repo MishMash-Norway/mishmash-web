@@ -305,7 +305,7 @@ content_types:
     source_file: site/_data/partner_news.yml
     record_shape:
       date: YYYY-MM-DD
-      lang: en or nb
+      lang: BCP 47 language code of the source article text
       url: external canonical article URL
       title: display headline
       description: one-sentence summary
@@ -313,6 +313,7 @@ content_types:
       og_image: optional absolute image URL
     rules:
       - Keep English and Norwegian versions as separate records when both exist.
+      - Set lang to the article's language, including Nynorsk or a minority-language code where applicable.
       - Use the partner article URL, not a new local page.
       - Prefer existing partner naming and language conventions.
       - Check for an existing record with the same URL before adding one.
