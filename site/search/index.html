@@ -27,26 +27,26 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       <span class="filter-label">Type:</span>
       <div id="type-chips" class="chip-list" role="group" aria-label="Filter by type"></div>
     </div>
-    <div id="role-filter-group" class="filter-group" hidden>
-      <span class="filter-label">Role:</span>
+    <details id="role-filter-group" class="filter-group filter-group-collapsible" hidden>
+      <summary class="filter-label">Role<span class="filter-expand-icon" aria-hidden="true">▸</span></summary>
       <div id="role-chips" class="chip-list" role="group" aria-label="Filter by role"></div>
-    </div>
-    <div id="wp-category-filter-group" class="filter-group" hidden>
-      <span class="filter-label">WP:</span>
+    </details>
+    <details id="wp-category-filter-group" class="filter-group filter-group-collapsible" hidden>
+      <summary class="filter-label">WP<span class="filter-expand-icon" aria-hidden="true">▸</span></summary>
       <div id="wp-category-chips" class="chip-list" role="group" aria-label="Filter by work package"></div>
-    </div>
-    <div id="category-filter-group" class="filter-group" hidden>
-      <span class="filter-label">Category:</span>
+    </details>
+    <details id="category-filter-group" class="filter-group filter-group-collapsible" hidden>
+      <summary class="filter-label">Category<span class="filter-expand-icon" aria-hidden="true">▸</span></summary>
       <div id="category-chips" class="chip-list" role="group" aria-label="Filter by category"></div>
-    </div>
-    <div id="country-filter-group" class="filter-group" hidden>
-      <span class="filter-label">Country:</span>
+    </details>
+    <details id="country-filter-group" class="filter-group filter-group-collapsible" hidden>
+      <summary class="filter-label">Country<span class="filter-expand-icon" aria-hidden="true">▸</span></summary>
       <div id="country-chips" class="chip-list" role="group" aria-label="Filter by country"></div>
-    </div>
-    <div id="city-filter-group" class="filter-group" hidden>
-      <span class="filter-label">City:</span>
+    </details>
+    <details id="city-filter-group" class="filter-group filter-group-collapsible" hidden>
+      <summary class="filter-label">City<span class="filter-expand-icon" aria-hidden="true">▸</span></summary>
       <div id="city-chips" class="chip-list" role="group" aria-label="Filter by city"></div>
-    </div>
+    </details>
     <details id="tag-filter-group" class="filter-group filter-group-collapsible" hidden>
       <summary class="filter-label">Tags<span class="filter-expand-icon" aria-hidden="true">▸</span></summary>
 
@@ -273,9 +273,8 @@ description: "Search MishMash people, institutions, projects, pages, and events.
         this.classList.add('active');
         this.setAttribute('aria-pressed', 'true');
       }
-      if (container === tagChips || container === tagClusterChips) {
-        tagFilterGroup.open = true;
-      }
+      const detailsGroup = container.closest('details');
+      if (detailsGroup) detailsGroup.open = true;
       onToggle();
       updateUrl();
     });
@@ -311,8 +310,14 @@ description: "Search MishMash people, institutions, projects, pages, and events.
   }
 
   const ROLE_GROUPS = {
-    'Management': ['Director', 'Deputy Director', 'Administrative Coordinator', 'Research Advisor'],
-    'Board Member': ['Board Leader', 'Board Member']
+    'Management': ['Director', 'Deputy Director', 'Research Advisor'],
+    'Board Member': ['Board Leader', 'Board Member'],
+    'Administration': [
+      'Data Adviser and Infrastructure Coordinator',
+      'HPC Technical Adviser',
+      'Administrative Coordinator',
+      'Communication and Coordination'
+    ]
   };
 
   function norm(str) {
@@ -791,7 +796,7 @@ description: "Search MishMash people, institutions, projects, pages, and events.
       }, typeLabel(v));
     });
 
-    const chipOrder = ['Management', 'Board Member', 'Council Member', 'Work Package Leader', 'Member'];
+    const chipOrder = ['Management', 'Administration', 'Board Member', 'Council Member', 'Work Package Leader', 'Member'];
     const groupedRoleValues = new Set();
     Object.values(ROLE_GROUPS).forEach(function (members) {
       members.forEach(function (r) { groupedRoleValues.add(normalize(r)); });
@@ -988,6 +993,8 @@ description: "Search MishMash people, institutions, projects, pages, and events.
         chip.setAttribute('aria-pressed', 'true');
       }
     });
+    const detailsGroup = container.closest('details');
+    if (detailsGroup) detailsGroup.open = true;
   }
 
   function activateTypeChip(type) {
