@@ -121,6 +121,7 @@ def result_rows(root: Path) -> list[dict]:
         doi = next((m.group(1).rstrip(".").lower() for m in DOI_RE.finditer(text)), None)
         rows.append({
             "title": r.get("title"),
+            "lang": r.get("lang") or "und",
             "year": r.get("year"),
             "type": r.get("type_label") or r.get("type"),
             "doi": doi,

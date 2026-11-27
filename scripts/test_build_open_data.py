@@ -6,6 +6,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
+import yaml
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import build_open_data as b
@@ -36,6 +38,20 @@ Bio with a private phone number 12345678.
 
 
 class RowTests(unittest.TestCase):
+    def test_result_rows_keep_source_language(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            data_dir = root / "_data"
+            data_dir.mkdir()
+            (data_dir / "mishmash_results.yml").write_text(
+                yaml.safe_dump({"results": [
+                    {"title": "Nynorsk title", "lang": "nn"},
+                    {"title": "Title without source language"},
+                ]}),
+                encoding="utf-8",
+            )
+            self.assertEqual([row["lang"] for row in b.result_rows(root)], ["nn", "und"])
+
     def test_people_professional_fields_only(self):
         with tempfile.TemporaryDirectory() as d:
             root = Path(d); make_site(root)

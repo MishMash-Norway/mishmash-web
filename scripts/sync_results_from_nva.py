@@ -7,6 +7,7 @@ import argparse
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 import yaml
@@ -45,6 +46,20 @@ from nva_result_types import (  # noqa: E402
 MISHMASH_NVA_PROJECT_ID = "2744839"
 DEFAULT_OUTPUT = SITE_ROOT / "_data" / "mishmash_results.yml"
 PAGE_SIZE = 100
+NVA_LANGUAGE_ALIASES = {"eng": "en", "nob": "nb", "nno": "nn", "fra": "fr", "nor": "no"}
+
+
+def nva_language_tag(value) -> str:
+    if not value:
+        return "und"
+    code = urlparse(str(value).strip()).path.rstrip("/").rsplit("/", 1)[-1].lower()
+    code = NVA_LANGUAGE_ALIASES.get(code, code)
+    parts = code.split("-")
+    if not parts or not 2 <= len(parts[0]) <= 8 or not parts[0].isalpha():
+        return "und"
+    if any(not part or len(part) > 8 or not part.isalnum() for part in parts[1:]):
+        return "und"
+    return code
 
 
 def nva_publication_page_url(hit: dict) -> str:
@@ -311,6 +326,7 @@ def parse_result_hit(
 
     entry = {
         "title": localized_text(entity.get("mainTitle")),
+        "lang": nva_language_tag(entity.get("language")),
         "year": year,
         "type": instance_type,
         "type_label": nva_result_type_label(instance_type),
