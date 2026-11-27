@@ -8,7 +8,8 @@ department: null
 institution: university-of-agder
 institutions:
 - university-of-agder
-projects: []
+projects:
+- creator-identification-using-ai-to-make-metadata-exciting
 roles:
 - Member
 urls:

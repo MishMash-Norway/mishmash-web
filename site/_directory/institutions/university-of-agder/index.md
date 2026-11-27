@@ -29,6 +29,7 @@ projects:
 - agency-and-control-in-musical-ensemble
 - ai-arts-and-crafts
 - ai-mediated-fine-arts-education
+- creator-identification-using-ai-to-make-metadata-exciting
 - evaluation-cultural-bias-workflow-ai-music-generation
 - musical-doppelgangers
 - rhyglyph-rhydiff-rhyseq

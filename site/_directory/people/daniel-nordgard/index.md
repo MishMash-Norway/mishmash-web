@@ -9,7 +9,8 @@ image: /assets/images/portraits/Daniel_Nordgaard_UiA.jpg
 institution: university-of-agder
 institutions:
 - university-of-agder
-projects: []
+projects:
+- creator-identification-using-ai-to-make-metadata-exciting
 other_projects:
 - title: CeDiT - Centre for Digital Transformation
   url: https://nva.sikt.no/projects/2506896
