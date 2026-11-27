@@ -10,6 +10,10 @@ This page is for WP6 members only.
 
 - [Public WP6 page](/wp6/)
 
+## Event downloads
+
+- [WP6 workshop photograph, Domkirkeodden (full-resolution JPEG)](/assets/images/events/wp6-ai-in-the-museum-drone.jpg)
+
 ## Meeting notes
 
 *Add meeting notes and internal documents here.*
