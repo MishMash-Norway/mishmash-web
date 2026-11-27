@@ -305,7 +305,7 @@ content_types:
     source_file: site/_data/partner_news.yml
     record_shape:
       date: YYYY-MM-DD
-      lang: en or nb
+      lang: BCP 47 language code of the source article text
       url: external canonical article URL
       title: display headline
       description: one-sentence summary
@@ -313,6 +313,7 @@ content_types:
       og_image: optional absolute image URL
     rules:
       - Keep English and Norwegian versions as separate records when both exist.
+      - Set lang to the article's language, including Nynorsk or a minority-language code where applicable.
       - Use the partner article URL, not a new local page.
       - Prefer existing partner naming and language conventions.
       - Check for an existing record with the same URL before adding one.
@@ -323,6 +324,7 @@ content_types:
   partner_event:
     source_file: site/_data/partner_events.yml
     record_shape:
+      lang: BCP 47 language code of the displayed event text
       start_date: YYYY-MM-DD
       end_date: YYYY-MM-DD
       url: external canonical event URL
@@ -334,6 +336,7 @@ content_types:
       og_image: optional absolute image URL
     rules:
       - Use date-only values unless the existing data format requires otherwise.
+      - Set lang to the language of the title and summary; add a language label on listings when it differs from the page language.
       - Check for an existing record with the same URL before adding one.
       - Keep the event external; do not create a duplicate file in site/_events/.
       - Confirm the event is future or current before adding it to the upcoming list.

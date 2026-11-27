@@ -7,10 +7,17 @@
 {% if sorted_news and sorted_news.size > 0 %}
 {% for item in sorted_news %}
 {% comment %}
-  English pages show only English items; Norwegian pages (nb and nn) show
-  items in both languages.
+  English pages show English items; Bokmål and Nynorsk pages show all partner
+  items. Each item keeps its source language for assistive technology.
 {% endcomment %}
 {% assign item_lang = item.lang | default: 'en' %}
+{% assign item_lang_label = item_lang %}
+{% for language in site.data.languages %}
+  {% if language.code == item_lang %}
+    {% assign item_lang_label = language.own_name %}
+    {% break %}
+  {% endif %}
+{% endfor %}
 {% assign show_item = false %}
 {% if current_lang == 'nb' or current_lang == 'nn' %}
   {% assign show_item = true %}
@@ -26,11 +33,14 @@
     </span>
   </a>
   {% endif %}
-  <div class="event-content">
+  <div class="event-content" lang="{{ item_lang | escape }}">
     <time datetime="{{ item.date }}">{{ item.date | date: "%b %d, %Y" }}</time>
     {% if item.partner %} &middot; {{ item.partner | strip_html | escape_once }}{% endif %}
     <br />
     <a href="{{ item.url }}">{{ item.title | strip_html | escape_once }}</a>
+    {% unless item_lang == current_lang %}
+    <small class="partner-content-language">{{ item_lang_label | escape }}</small>
+    {% endunless %}
     {% if item.description %}
     <p class="event-desc">{{ item.description | strip_html | escape_once }}</p>
     {% endif %}
