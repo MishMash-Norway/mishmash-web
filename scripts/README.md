@@ -353,14 +353,16 @@ linked-data roadmap in the wiki's Web Philosophy page):
 - Institutions are matched exactly via their English Wikipedia article.
 - Matches are written as `urls.wikidata` on the entries; existing values are
   never overwritten.
-- Basic facts for resolved institutions (coordinates, logo, official
-  website, inception) are written to `site/_data/wikidata_institutions.yml`
-  as generated reference data.
+- Basic facts and GND (P227), NORAF (P1015), VIAF (P214) and ISNI (P213) links
+  for institutions are written to `site/_data/wikidata_institutions.yml`.
+- Library authority links for people with existing Wikidata QIDs are written to
+  `site/_data/wikidata_people.yml`. Both files are generated reference data and
+  feed the profile pages' JSON-LD `sameAs` lists; no Wikidata items are created.
 
 ```bash
 python3 scripts/sync_wikidata.py --dry-run
 python3 scripts/sync_wikidata.py
-python3 scripts/sync_wikidata.py --skip-facts   # only resolve QIDs
+python3 scripts/sync_wikidata.py --skip-facts   # only resolve QIDs; skip facts and authority links
 ```
 
 The directory validator warns about malformed `urls.wikidata` values.

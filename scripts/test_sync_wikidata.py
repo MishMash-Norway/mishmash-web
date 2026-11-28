@@ -6,6 +6,26 @@ import sync_wikidata as sw
 
 
 class HelperTests(unittest.TestCase):
+    def test_authority_urls_use_canonical_services(self):
+        row = {
+            "gnd": {"value": "118540238"},
+            "noraf": {"value": "90053126"},
+            "viaf": {"value": "123456"},
+            "isni": {"value": "0000000123456789"},
+        }
+        self.assertEqual(
+            sw.authority_urls(row),
+            [
+                "https://d-nb.info/gnd/118540238",
+                "https://authority.bibsys.no/authority/rest/authorities/html/90053126",
+                "https://viaf.org/viaf/123456",
+                "https://isni.org/isni/0000000123456789",
+            ],
+        )
+
+    def test_missing_authority_identifiers_are_omitted(self):
+        self.assertEqual(sw.authority_urls({"viaf": {"value": "123"}}), ["https://viaf.org/viaf/123"])
+
     def test_orcid_id_from_url(self):
         self.assertEqual(
             sw.orcid_id("https://orcid.org/0000-0001-6171-8743"),
