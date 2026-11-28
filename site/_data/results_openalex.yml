@@ -1,8 +1,8 @@
-synced_at: '2026-11-27T15:05:06Z'
+synced_at: '2026-11-28T14:12:15Z'
 source: OpenAlex (CC0) for the open-access status and the free copy, Crossref for
   the licence
 count: 25
-free: 17
+free: 18
 works:
   10.1007/978-3-032-26999-7_18:
     status: closed
@@ -41,9 +41,12 @@ works:
     free: false
     licence_url: https://doi.org/10.15223/policy-029
   10.1109/ro-man72286.2026.11714563:
-    status: closed
-    label: subscription
-    free: false
+    status: green
+    label: open access (author copy)
+    free: true
+    url: https://hdl.handle.net/11250/5603252
+    licence: cc-by
+    licence_label: CC BY
     licence_url: https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html
   10.1145/3802842.3802884:
     status: hybrid
