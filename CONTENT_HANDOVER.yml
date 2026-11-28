@@ -488,6 +488,7 @@ automation:
   generated_or_machine_updated:
     - _site/
     - site/_data/mishmash_results.yml (NVA source language in lang, or und when NVA omits it)
+    - site/_data/wikidata_institutions.yml and site/_data/wikidata_people.yml
     - many synced fields in site/_directory/people/
     - portraits downloaded by the NVA enrichment script
     - site/assets/images/partner-thumbs/ and the thumb, thumb_source and

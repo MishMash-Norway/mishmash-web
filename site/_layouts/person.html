@@ -33,6 +33,10 @@ layout: default
   {% assign val = page.urls[key] %}
   {% if val and val != "" %}{% assign same_as = same_as | push: val %}{% endif %}
 {% endfor %}
+{% assign person_wikidata_facts = site.data.wikidata_people[page.slug] %}
+{% if person_wikidata_facts and person_wikidata_facts.same_as %}
+  {% assign same_as = same_as | concat: person_wikidata_facts.same_as %}
+{% endif %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

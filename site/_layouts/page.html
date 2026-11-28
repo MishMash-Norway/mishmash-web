@@ -17,10 +17,14 @@ layout: default
     {% if page.type == 'institution' %}
     {% assign inst_same_as = "" | split: "" %}
     {% assign inst_same_as_keys = "wikidata,wikipedia,website,ror" | split: "," %}
+    {% assign wd_facts = site.data.wikidata_institutions[page.slug] %}
     {% for key in inst_same_as_keys %}
       {% assign val = page.urls[key] %}
       {% if val and val != "" %}{% assign inst_same_as = inst_same_as | push: val %}{% endif %}
     {% endfor %}
+    {% if wd_facts and wd_facts.same_as %}
+      {% assign inst_same_as = inst_same_as | concat: wd_facts.same_as %}
+    {% endif %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -36,7 +40,6 @@ layout: default
       <div class="institution-body">
         <header class="institution-header">
           <h1>{{ page_heading }}</h1>
-          {% assign wd_facts = site.data.wikidata_institutions[page.slug] %}
           {% if page.image == nil and wd_facts.logo %}
           <img class="institution-logo" src="{{ wd_facts.logo }}" alt="" width="160" loading="lazy">
           {% endif %}
